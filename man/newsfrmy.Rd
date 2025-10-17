@@ -32,15 +32,21 @@ Question We are interested in how people get information about events in the new
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3503/vshow}{GSS Data Explorer page for \code{newsfrmy}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab print newspapers \tab online newspapers \tab print magazines \tab online magazines \tab other places on the internet \tab books/other printed material \tab tv \tab radio \tab family \tab friends/colleagues \tab other \tab no answer \tab Total \cr
+   2010 \tab 1386 \tab 97 \tab 83 \tab 6 \tab 2 \tab 57 \tab 5 \tab 328 \tab 40 \tab 16 \tab 16 \tab 6 \tab 2 \tab 2044 \cr
+   Total \tab 1386 \tab 97 \tab 83 \tab 6 \tab 2 \tab 57 \tab 5 \tab 328 \tab 40 \tab 16 \tab 16 \tab 6 \tab 2 \tab 2044 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,23 @@ I. Obtained information about a concert, play, or other performing-arts event?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2540/vshow}{GSS Data Explorer page for \code{perfrmgn}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab Total \cr
+   2000 \tab 1884 \tab 460 \tab 238 \tab 217 \tab 18 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1372 \tab 617 \tab 275 \tab 263 \tab 6 \tab 226 \tab 6 \tab 2765 \cr
+   Total \tab 3256 \tab 1077 \tab 513 \tab 480 \tab 24 \tab 226 \tab 6 \tab 5582 \cr
+}
 }
 
 \seealso{

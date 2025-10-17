@@ -23,15 +23,21 @@ If you have no ADULT brothers or sisters, enter ''0''.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4184/vshow}{GSS Data Explorer page for \code{sibnum}}.
+
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 12 \tab 13 \tab 15 \tab 16 \tab 17 \tab 19 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 9 \tab Total \cr
+   2002 \tab 1616 \tab 129 \tab 252 \tab 7 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 259 \tab 185 \tab 96 \tab 85 \tab 48 \tab 74 \tab 6 \tab 2765 \cr
+   Total \tab 1616 \tab 129 \tab 252 \tab 7 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 259 \tab 185 \tab 96 \tab 85 \tab 48 \tab 74 \tab 6 \tab 2765 \cr
+}
 }
 
 \seealso{

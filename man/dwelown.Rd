@@ -23,38 +23,44 @@ Question (Do you/Does your family) own your (home/apartment), pay rent, or what?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
-   1996 \tab A/B \tab partial \cr
-   1998 \tab A/B \tab partial \cr
-   2000 \tab A/B \tab partial \cr
-   2002 \tab A/B \tab partial \cr
-   2004 \tab A/B \tab partial \cr
-   2006 \tab A/B \tab partial \cr
-   2008 \tab A/B \tab partial \cr
-   2010 \tab A/B \tab partial \cr
-   2012 \tab A/B \tab partial \cr
-   2014 \tab A/B \tab partial \cr
-   2016 \tab A/B \tab partial \cr
-   2018 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1985, 1986, 1987 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5294/vshow}{GSS Data Explorer page for \code{dwelown}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab own or is buying \tab pays rent \tab other \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1985 \tab - \tab 947 \tab 551 \tab 25 \tab 11 \tab - \tab - \tab 1534 \cr
+   1986 \tab - \tab 921 \tab 497 \tab 26 \tab 25 \tab 1 \tab - \tab 1470 \cr
+   1987 \tab - \tab 1102 \tab 667 \tab 38 \tab 11 \tab 1 \tab - \tab 1819 \cr
+   1988 \tab 493 \tab 612 \tab 331 \tab 13 \tab 32 \tab - \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 634 \tab 318 \tab 28 \tab 26 \tab - \tab - \tab 1537 \cr
+   1990 \tab 449 \tab 557 \tab 297 \tab 30 \tab 39 \tab - \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 633 \tab 324 \tab 16 \tab 51 \tab - \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 710 \tab 337 \tab 29 \tab 4 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1015 \tab 1222 \tab 673 \tab 49 \tab 33 \tab - \tab - \tab 2992 \cr
+   1996 \tab 944 \tab 1165 \tab 679 \tab 50 \tab 66 \tab - \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 1159 \tab 666 \tab 40 \tab 5 \tab 1 \tab - \tab 2832 \cr
+   2000 \tab 946 \tab 1101 \tab 686 \tab 19 \tab 63 \tab 2 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 540 \tab 341 \tab 23 \tab 1 \tab 3 \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 609 \tab 268 \tab 28 \tab 1 \tab - \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 1318 \tab 634 \tab 35 \tab 3 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 889 \tab 416 \tab 22 \tab 2 \tab - \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 874 \tab 524 \tab 26 \tab 5 \tab 1 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 808 \tab 473 \tab 16 \tab 5 \tab - \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 1035 \tab 610 \tab 25 \tab 4 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 981 \tab 1127 \tab 724 \tab 30 \tab 5 \tab - \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 939 \tab 588 \tab 25 \tab 6 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 1367 \tab 1821 \tab 791 \tab 33 \tab - \tab 3 \tab 17 \tab 4032 \cr
+   2022 \tab 1174 \tab 1420 \tab 878 \tab 64 \tab 4 \tab 1 \tab 3 \tab 3544 \cr
+   Total \tab 19793 \tab 22143 \tab 12273 \tab 690 \tab 402 \tab 17 \tab 20 \tab 55338 \cr
+}
 }
 
 \concept{Residence}

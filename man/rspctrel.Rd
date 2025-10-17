@@ -26,15 +26,21 @@ B. We must respect all religions. Would you sayâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4700/vshow}{GSS Data Explorer page for \code{rspctrel}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 658 \tab 433 \tab 666 \tab 116 \tab 106 \tab 31 \tab 8 \tab 5 \tab 2023 \cr
+   Total \tab 658 \tab 433 \tab 666 \tab 116 \tab 106 \tab 31 \tab 8 \tab 5 \tab 2023 \cr
+}
 }
 
 \seealso{

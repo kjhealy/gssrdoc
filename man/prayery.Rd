@@ -23,15 +23,21 @@ Question B. What are your views on the reading of the Lord's Prayer or Bible ver
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1974 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/362/vshow}{GSS Data Explorer page for \code{prayery}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab required \tab forbidden \tab local decision \tab don't know \tab no answer \tab Total \cr
+   1974 \tab 753 \tab 224 \tab 60 \tab 420 \tab 19 \tab 8 \tab 1484 \cr
+   Total \tab 753 \tab 224 \tab 60 \tab 420 \tab 19 \tab 8 \tab 1484 \cr
+}
 }
 
 \seealso{

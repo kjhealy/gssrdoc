@@ -21,15 +21,21 @@ Question In what year was the business started?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3817/vshow}{GSS Data Explorer page for \code{yearbiz}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1912 \tab 1946 \tab 1948 \tab 1961 \tab 1963 \tab 1969 \tab 1970 \tab 1971 \tab 1973 \tab 1974 \tab 1975 \tab 1979 \tab 1980 \tab 1981 \tab 1982 \tab 1983 \tab 1984 \tab 1985 \tab 1986 \tab 1987 \tab 1988 \tab 1989 \tab 1990 \tab 1991 \tab 1992 \tab 1993 \tab 1994 \tab 1995 \tab 1996 \tab 1997 \tab 1998 \tab 1999 \tab 2000 \tab 2001 \tab 2002 \tab 2003 \tab 2004 \tab 2005 \tab 2006 \tab 2007 \tab 2008 \tab no answer \tab Total \cr
+   2008 \tab 1771 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 2 \tab 3 \tab 1 \tab 2 \tab 2 \tab 5 \tab 1 \tab 3 \tab 2 \tab 1 \tab 2 \tab 6 \tab 1 \tab 4 \tab 4 \tab 3 \tab 6 \tab 3 \tab 2 \tab 6 \tab 6 \tab 11 \tab 3 \tab 11 \tab 8 \tab 11 \tab 15 \tab 20 \tab 17 \tab 26 \tab 28 \tab 22 \tab 3 \tab 2023 \cr
+   Total \tab 1771 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 2 \tab 3 \tab 1 \tab 2 \tab 2 \tab 5 \tab 1 \tab 3 \tab 2 \tab 1 \tab 2 \tab 6 \tab 1 \tab 4 \tab 4 \tab 3 \tab 6 \tab 3 \tab 2 \tab 6 \tab 6 \tab 11 \tab 3 \tab 11 \tab 8 \tab 11 \tab 15 \tab 20 \tab 17 \tab 26 \tab 28 \tab 22 \tab 3 \tab 2023 \cr
+}
 }
 
 \seealso{

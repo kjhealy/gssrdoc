@@ -22,15 +22,21 @@ Question Suppose a test shows the baby has a serious genetic defect. Would you (
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7296/vshow}{GSS Data Explorer page for \code{geneabrt2}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1168 \tab 335 \tab 644 \tab 149 \tab 52 \tab 2348 \cr
+   Total \tab 1168 \tab 335 \tab 644 \tab 149 \tab 52 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

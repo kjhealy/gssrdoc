@@ -25,15 +25,21 @@ Question Based on what the doctor has just told you, how satisfied would you be 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2755/vshow}{GSS Data Explorer page for \code{docsat}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab Total \cr
+   2002 \tab - \tab 89 \tab 372 \tab 759 \tab 697 \tab 814 \tab 30 \tab 4 \tab 2765 \cr
+   Total \tab 0 \tab 89 \tab 372 \tab 759 \tab 697 \tab 814 \tab 30 \tab 4 \tab 2765 \cr
+}
 }
 
 \seealso{

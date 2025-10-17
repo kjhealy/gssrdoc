@@ -25,15 +25,21 @@ Question When talking about your religion, how often do you say we instead of th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7528/vshow}{GSS Data Explorer page for \code{relidwe}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab never \tab rarely \tab some of the time \tab most of the time \tab all of the time \tab don't know \tab no answer \tab skipped on web \tab see codebook \tab Total \cr
+   2021 \tab 393 \tab 785 \tab 586 \tab 857 \tab 735 \tab 469 \tab 21 \tab 6 \tab 82 \tab 98 \tab 4032 \cr
+   Total \tab 393 \tab 785 \tab 586 \tab 857 \tab 735 \tab 469 \tab 21 \tab 6 \tab 82 \tab 98 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

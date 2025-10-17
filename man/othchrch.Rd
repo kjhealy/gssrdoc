@@ -25,15 +25,21 @@ A. I could be just as happy in some other church, it wouldnâ€™t have to be 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1158/vshow}{GSS Data Explorer page for \code{othchrch}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2135 \tab 58 \tab 236 \tab 195 \tab 116 \tab 54 \tab 23 \tab 2817 \cr
+   Total \tab 2135 \tab 58 \tab 236 \tab 195 \tab 116 \tab 54 \tab 23 \tab 2817 \cr
+}
 }
 
 \seealso{

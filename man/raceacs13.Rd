@@ -23,20 +23,27 @@ As of 2024, RACEACS13 has been recoded into RACEACS14 as "Other Pacific Islander
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7462/vshow}{GSS Data Explorer page for \code{raceacs13}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab refused \tab Total \cr
+   2021 \tab - \tab 4013 \tab 4 \tab 6 \tab 9 \tab - \tab 4032 \cr
+   2022 \tab - \tab 3500 \tab 3 \tab 8 \tab 18 \tab 15 \tab 3544 \cr
+   Total \tab 0 \tab 7513 \tab 7 \tab 14 \tab 27 \tab 15 \tab 7576 \cr
+}
 }
 
 \seealso{
 Other Core: 
+\code{\link{raceacs12}},
 \code{\link{raceacs14}},
 \code{\link{raceacs15}}
 }

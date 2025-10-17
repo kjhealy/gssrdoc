@@ -24,40 +24,47 @@ B. Do any of these guns personally belong to you?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/C/- \tab partial \cr
-   1989 \tab A/C/- \tab partial \cr
-   1990 \tab A/C/- \tab partial \cr
-   1991 \tab A/C/- \tab partial \cr
-   1993 \tab A/C/- \tab partial \cr
-   1994 \tab A/C/- \tab partial \cr
-   1996 \tab A/C/- \tab partial \cr
-   1998 \tab A/C/- \tab partial \cr
-   2000 \tab A/C/- \tab partial \cr
-   2002 \tab A/C/- \tab partial \cr
-   2004 \tab A/C/- \tab partial \cr
-   2006 \tab A/C/- \tab partial \cr
-   2008 \tab A/C/- \tab partial \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/C/- \tab partial \cr
-   2016 \tab A/C/- \tab partial \cr
-   2018 \tab A/C/- \tab partial \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/C/- \tab partial \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
+   A/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2022, 2024 \cr
+   Full \tab 1980, 1982, 1984, 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/683/vshow}{GSS Data Explorer page for \code{rowngun}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab refused \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1980 \tab 761 \tab 412 \tab 250 \tab 5 \tab 40 \tab - \tab - \tab 1468 \cr
+   1982 \tab 1022 \tab 509 \tab 261 \tab 23 \tab 45 \tab - \tab - \tab 1860 \cr
+   1984 \tab 796 \tab 375 \tab 285 \tab 9 \tab 8 \tab - \tab - \tab 1473 \cr
+   1985 \tab 842 \tab 443 \tab 232 \tab 10 \tab 7 \tab - \tab - \tab 1534 \cr
+   1987 \tab 1032 \tab 482 \tab 275 \tab 10 \tab 20 \tab - \tab - \tab 1819 \cr
+   1988 \tab 1075 \tab 238 \tab 147 \tab 12 \tab 9 \tab - \tab - \tab 1481 \cr
+   1989 \tab 1059 \tab 286 \tab 184 \tab - \tab 8 \tab - \tab - \tab 1537 \cr
+   1990 \tab 975 \tab 255 \tab 130 \tab - \tab 12 \tab - \tab - \tab 1372 \cr
+   1991 \tab 1107 \tab 254 \tab 134 \tab - \tab 22 \tab - \tab - \tab 1517 \cr
+   1993 \tab 1145 \tab 309 \tab 141 \tab 7 \tab 4 \tab - \tab - \tab 1606 \cr
+   1994 \tab 2156 \tab 555 \tab 253 \tab 5 \tab 20 \tab 3 \tab - \tab 2992 \cr
+   1996 \tab 2125 \tab 512 \tab 254 \tab 7 \tab 6 \tab - \tab - \tab 2904 \cr
+   1998 \tab 2166 \tab 427 \tab 222 \tab 6 \tab 11 \tab - \tab - \tab 2832 \cr
+   2000 \tab 2187 \tab 416 \tab 187 \tab 23 \tab 4 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2446 \tab 239 \tab 71 \tab 9 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2474 \tab 234 \tab 83 \tab 16 \tab 5 \tab - \tab - \tab 2812 \cr
+   2006 \tab 3816 \tab 449 \tab 214 \tab 30 \tab - \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 1544 \tab 327 \tab 137 \tab 15 \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 1608 \tab 275 \tab 118 \tab 42 \tab - \tab 1 \tab - \tab 2044 \cr
+   2012 \tab 1510 \tab 299 \tab 139 \tab 26 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 1955 \tab 380 \tab 147 \tab 55 \tab - \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 2224 \tab 404 \tab 186 \tab 53 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 1772 \tab 365 \tab 170 \tab 41 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 2532 \tab 1036 \tab 340 \tab 117 \tab - \tab - \tab 7 \tab 4032 \cr
+   2022 \tab 2717 \tab 567 \tab 187 \tab 69 \tab - \tab 1 \tab 3 \tab 3544 \cr
+   Total \tab 43046 \tab 10048 \tab 4747 \tab 590 \tab 221 \tab 7 \tab 10 \tab 58669 \cr
+}
 }
 
 \seealso{

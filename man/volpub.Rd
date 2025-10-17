@@ -23,15 +23,21 @@ F. Public/society benefit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1890/vshow}{GSS Data Explorer page for \code{volpub}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 110 \tab 1247 \tab 87 \tab 2904 \cr
+   Total \tab 1460 \tab 110 \tab 1247 \tab 87 \tab 2904 \cr
+}
 }
 
 \seealso{

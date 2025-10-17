@@ -29,15 +29,21 @@ Question At about what age were you when you first told someone that you were (g
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3909/vshow}{GSS Data Explorer page for \code{toldsxor}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab under age 14 \tab age 14-18 \tab age 18-25 \tab age 26-35 \tab age 36-45 \tab age 56-65 \tab i have never told anyone \tab no answer \tab Total \cr
+   2008 \tab 1942 \tab 3 \tab 10 \tab 20 \tab 10 \tab 3 \tab 3 \tab 9 \tab 23 \tab 2023 \cr
+   Total \tab 1942 \tab 3 \tab 10 \tab 20 \tab 10 \tab 3 \tab 3 \tab 9 \tab 23 \tab 2023 \cr
+}
 }
 
 \seealso{

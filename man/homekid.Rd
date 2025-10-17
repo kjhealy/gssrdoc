@@ -26,19 +26,27 @@ E. A job is alright, but what most women really want is a home and children.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 1988, 1994, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4347/vshow}{GSS Data Explorer page for \code{homekid}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1988 \tab 67 \tab 108 \tab 354 \tab 358 \tab 359 \tab 164 \tab 44 \tab 27 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 101 \tab 359 \tab 327 \tab 428 \tab 179 \tab 38 \tab 15 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 143 \tab 307 \tab 335 \tab - \tab 354 \tab 29 \tab 3 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 83 \tab 360 \tab 299 \tab 372 \tab 120 \tab 60 \tab 8 \tab - \tab 1974 \cr
+   2022 \tab 2378 \tab 44 \tab 208 \tab 333 \tab 287 \tab 234 \tab 41 \tab 7 \tab 12 \tab 3544 \cr
+   Total \tab 6256 \tab 479 \tab 1588 \tab 1652 \tab 1446 \tab 1051 \tab 212 \tab 60 \tab 12 \tab 12756 \cr
+}
 }
 
 \seealso{

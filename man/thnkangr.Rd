@@ -24,15 +24,21 @@ Question Even after they go away, feelings sometimes come back when we think abo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1766/vshow}{GSS Data Explorer page for \code{thnkangr}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very often \tab every once in a while \tab just once or twice \tab never-not once until now \tab no answer \tab Total \cr
+   1996 \tab 1936 \tab 140 \tab 292 \tab 292 \tab 219 \tab 25 \tab 2904 \cr
+   Total \tab 1936 \tab 140 \tab 292 \tab 292 \tab 219 \tab 25 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -21,15 +21,21 @@ Question With how may different leaders has this happened to you?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3938/vshow}{GSS Data Explorer page for \code{numclerg}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 5 \tab Total \cr
+   2008 \tab 1999 \tab 17 \tab 5 \tab 1 \tab 1 \tab 2023 \cr
+   Total \tab 1999 \tab 17 \tab 5 \tab 1 \tab 1 \tab 2023 \cr
+}
 }
 
 \seealso{

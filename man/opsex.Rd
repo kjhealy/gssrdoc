@@ -26,16 +26,23 @@ L. Being born a man or a woman -- how important is that for getting ahead in lif
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/- \tab full \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1987 \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4252/vshow}{GSS Data Explorer page for \code{opsex}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 50 \tab 200 \tab 342 \tab 485 \tab 417 \tab 42 \tab 28 \tab - \tab 1819 \cr
+   2021 \tab 2029 \tab 69 \tab 198 \tab 403 \tab 422 \tab 701 \tab 76 \tab 120 \tab 14 \tab 4032 \cr
+   Total \tab 2284 \tab 119 \tab 398 \tab 745 \tab 907 \tab 1118 \tab 118 \tab 148 \tab 14 \tab 5851 \cr
+}
 }
 
 \seealso{

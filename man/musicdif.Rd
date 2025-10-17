@@ -24,16 +24,22 @@ B. You visit music sites that contain information about or sounds from many diff
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2471/vshow}{GSS Data Explorer page for \code{musicdif}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not true \tab no answer \tab Total \cr
+   2000 \tab 2498 \tab 78 \tab 81 \tab 45 \tab 115 \tab 2817 \cr
+   2002 \tab 2492 \tab 103 \tab 73 \tab 51 \tab 46 \tab 2765 \cr
+   Total \tab 4990 \tab 181 \tab 154 \tab 96 \tab 161 \tab 5582 \cr
+}
 }
 
 \seealso{

@@ -26,19 +26,26 @@ A. In general, do you think that air pollution caused by cars isâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4753/vshow}{GSS Data Explorer page for \code{carsgen}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 265 \tab 472 \tab 584 \tab 106 \tab 10 \tab 34 \tab 86 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 222 \tab 363 \tab 581 \tab 102 \tab 10 \tab 37 \tab 71 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 232 \tab 347 \tab 521 \tab 68 \tab 6 \tab 48 \tab 54 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 228 \tab 411 \tab 627 \tab 105 \tab 13 \tab 38 \tab 8 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 232 \tab 559 \tab 814 \tab 151 \tab 22 \tab 59 \tab 184 \tab 8 \tab 4032 \cr
+   Total \tab 5813 \tab 1179 \tab 2152 \tab 3127 \tab 532 \tab 61 \tab 216 \tab 403 \tab 8 \tab 13491 \cr
+}
 }
 
 \seealso{

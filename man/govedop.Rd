@@ -26,15 +26,21 @@ C. The government should provide more chances for children from poor families to
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4297/vshow}{GSS Data Explorer page for \code{govedop}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 410 \tab 783 \tab 170 \tab 136 \tab 24 \tab 12 \tab 29 \tab 1819 \cr
+   Total \tab 255 \tab 410 \tab 783 \tab 170 \tab 136 \tab 24 \tab 12 \tab 29 \tab 1819 \cr
+}
 }
 
 \seealso{

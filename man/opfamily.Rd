@@ -25,15 +25,21 @@ C. In America what you achieve in life depends largely on your family background
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4008/vshow}{GSS Data Explorer page for \code{opfamily}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab 5 \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 64 \tab 138 \tab 123 \tab 274 \tab 62 \tab 16 \tab 1534 \cr
+   Total \tab 857 \tab 64 \tab 138 \tab 123 \tab 274 \tab 62 \tab 16 \tab 1534 \cr
+}
 }
 
 \seealso{

@@ -22,16 +22,23 @@ Question Consider a couple who both work full-time and now have a new born child
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
-   2022 \tab A/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/- \tab 2022 \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4463/vshow}{GSS Data Explorer page for \code{paidlv}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab yes, enter months \tab 10 \tab 11 \tab 12 \tab 16 \tab 18 \tab no, there should be no paid leave \tab 24 \tab 3 \tab 36 \tab 4 \tab 48 \tab 5 \tab 6 \tab 60 \tab 7 \tab 72 \tab 8 \tab 9 \tab don't know \tab no answer \tab 13 \tab 19 \tab 99 \tab skipped on web \tab Total \cr
+   2012 \tab 672 \tab 219 \tab 74 \tab 3 \tab 1 \tab 146 \tab 1 \tab 8 \tab 167 \tab 17 \tab 230 \tab 4 \tab 50 \tab 3 \tab 11 \tab 272 \tab 4 \tab 2 \tab 1 \tab 8 \tab 9 \tab 59 \tab 13 \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2022 \tab 2383 \tab 87 \tab 57 \tab 3 \tab - \tab 176 \tab 4 \tab 9 \tab 125 \tab 21 \tab 240 \tab 9 \tab 49 \tab 2 \tab 18 \tab 285 \tab 6 \tab 6 \tab - \tab 12 \tab 21 \tab - \tab 21 \tab 1 \tab 1 \tab 1 \tab 7 \tab 3544 \cr
+   Total \tab 3055 \tab 306 \tab 131 \tab 6 \tab 1 \tab 322 \tab 5 \tab 17 \tab 292 \tab 38 \tab 470 \tab 13 \tab 99 \tab 5 \tab 29 \tab 557 \tab 10 \tab 8 \tab 1 \tab 20 \tab 30 \tab 59 \tab 34 \tab 1 \tab 1 \tab 1 \tab 7 \tab 5518 \cr
+}
 }
 
 \seealso{

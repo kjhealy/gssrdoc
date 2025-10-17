@@ -25,15 +25,21 @@ Question How comfortable are you talking with your supervisor about conflicts be
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5505/vshow}{GSS Data Explorer page for \code{talkspvs}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all comfortable \tab a little \tab somewhat \tab very \tab extremely \tab don't know \tab no answer \tab Total \cr
+   2014 \tab 1505 \tab 139 \tab 119 \tab 262 \tab 337 \tab 166 \tab 5 \tab 5 \tab 2538 \cr
+   Total \tab 1505 \tab 139 \tab 119 \tab 262 \tab 337 \tab 166 \tab 5 \tab 5 \tab 2538 \cr
+}
 }
 
 \seealso{

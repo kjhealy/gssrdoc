@@ -27,15 +27,21 @@ Question Who would you turn to first toï¿½. Enjoy a pleasant social occasion 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7248/vshow}{GSS Data Explorer page for \code{hlpsococ}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab close family member \tab more distant family member \tab close friend \tab neighbor \tab someone i work with \tab someone else \tab no one \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 542 \tab 13 \tab 536 \tab 18 \tab 19 \tab 26 \tab 11 \tab 7 \tab 1 \tab 2348 \cr
+   Total \tab 1175 \tab 542 \tab 13 \tab 536 \tab 18 \tab 19 \tab 26 \tab 11 \tab 7 \tab 1 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

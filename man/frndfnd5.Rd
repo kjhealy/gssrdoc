@@ -24,15 +24,21 @@ Question Fundamentalism/Liberalism of Friend''s Religion
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1127/vshow}{GSS Data Explorer page for \code{frndfnd5}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab fund \tab moderate \tab liberal \tab no answer \tab Total \cr
+   1998 \tab 2213 \tab 49 \tab 152 \tab 81 \tab 337 \tab 2832 \cr
+   Total \tab 2213 \tab 49 \tab 152 \tab 81 \tab 337 \tab 2832 \cr
+}
 }
 
 \seealso{

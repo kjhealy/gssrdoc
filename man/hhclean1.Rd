@@ -27,16 +27,23 @@ Does the household cleaning?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
-   2022 \tab A/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/- \tab 2022 \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4473/vshow}{GSS Data Explorer page for \code{hhclean1}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab always me \tab usually me \tab about equal or both together \tab usually my spouse/partner \tab always my spouse/partner \tab is done by a third person \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   2012 \tab 1274 \tab 165 \tab 124 \tab 194 \tab 116 \tab 55 \tab 43 \tab 3 \tab - \tab - \tab 1974 \cr
+   2022 \tab 3024 \tab 62 \tab 94 \tab 189 \tab 101 \tab 31 \tab 33 \tab 1 \tab 7 \tab 2 \tab 3544 \cr
+   Total \tab 4298 \tab 227 \tab 218 \tab 383 \tab 217 \tab 86 \tab 76 \tab 4 \tab 7 \tab 2 \tab 5518 \cr
+}
 }
 
 \seealso{

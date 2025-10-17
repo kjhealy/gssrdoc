@@ -20,14 +20,20 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1988, 1998 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `readword`](https://gssdataexplorer.norc.org/variables/1080/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |several x day |once a day |several x week |once a week |lt once a week |didnt read last year |no answer |Total |
+#'  |:-----|:----|:-------------|:----------|:--------------|:-----------|:--------------|:--------------------|:---------|:-----|
+#'  |1988  |4    |49            |135        |157            |130         |446            |557                  |3         |1481  |
+#'  |1998  |1387 |37            |116        |143            |132         |406            |602                  |9         |2832  |
+#'  |Total |1391 |86            |251        |300            |262         |852            |1159                 |12        |4313  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -56,16 +62,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |1988, 2006, 2008, 2010 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `punsin`](https://gssdataexplorer.norc.org/variables/1081/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree somewhat |disagree somewhat |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |1988  |-    |324            |551            |362               |147               |87         |10        |1481  |
+#'  |2006  |1518 |433            |824            |860               |680               |167        |28        |4510  |
+#'  |2008  |-    |299            |559            |566               |457               |105        |37        |2023  |
+#'  |2010  |-    |296            |515            |590               |521               |84         |38        |2044  |
+#'  |Total |1518 |1352           |2449           |2378              |1805              |443        |113       |10058 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -94,16 +106,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |1988, 2006, 2008, 2010 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `blkwhite`](https://gssdataexplorer.norc.org/variables/1082/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree somewhat |disagree somewhat |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |1988  |-    |589            |624            |115               |102               |43         |8         |1481  |
+#'  |2006  |1518 |1279           |1149           |294               |203               |62         |5         |4510  |
+#'  |2008  |-    |896            |725            |190               |152               |53         |7         |2023  |
+#'  |2010  |-    |890            |800            |163               |140               |45         |6         |2044  |
+#'  |Total |1518 |3654           |3298           |762               |597               |203        |26        |10058 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -132,16 +150,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |1988, 2006, 2008, 2010 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rotapple`](https://gssdataexplorer.norc.org/variables/1083/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree somewhat |disagree somewhat |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |1988  |-    |267            |479            |410               |269               |48         |8         |1481  |
+#'  |2006  |1518 |778            |1063           |712               |373               |61         |5         |4510  |
+#'  |2008  |-    |512            |776            |439               |240               |50         |6         |2023  |
+#'  |2010  |-    |491            |810            |459               |245               |35         |4         |2044  |
+#'  |Total |1518 |2048           |3128           |2020              |1127              |194        |23        |10058 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -170,16 +194,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |1988, 2006, 2008, 2010 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `permoral`](https://gssdataexplorer.norc.org/variables/1084/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree somewhat |disagree somewhat |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |1988  |-    |469            |575            |259               |113               |57         |8         |1481  |
+#'  |2006  |1518 |1022           |1158           |519               |204               |79         |10        |4510  |
+#'  |2008  |-    |724            |785            |301               |159               |44         |10        |2023  |
+#'  |2010  |-    |707            |796            |332               |146               |52         |11        |2044  |
+#'  |Total |1518 |2922           |3314           |1411              |622               |232        |39        |10058 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -206,13 +236,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1988  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `decbible`](https://gssdataexplorer.norc.org/variables/1085/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |2   |3   |4   |not very important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:---|:---|:---|:------------------|:----------|:---------|:-----|
+#'  |1988  |-   |505            |204 |320 |181 |260                |6          |5         |1481  |
+#'  |Total |0   |505            |204 |320 |181 |260                |6          |5         |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -239,13 +275,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1988  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `decoths`](https://gssdataexplorer.norc.org/variables/1086/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |2   |3   |4  |not very important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:---|:---|:--|:------------------|:----------|:---------|:-----|
+#'  |1988  |-   |715            |389 |227 |68 |69                 |7          |6         |1481  |
+#'  |Total |0   |715            |389 |227 |68 |69                 |7          |6         |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -272,13 +314,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1988  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `decchurh`](https://gssdataexplorer.norc.org/variables/1087/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |2   |3   |4   |not very important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:---|:---|:---|:------------------|:----------|:---------|:-----|
+#'  |1988  |-   |424            |291 |350 |161 |233                |14         |8         |1481  |
+#'  |Total |0   |424            |291 |350 |161 |233                |14         |8         |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -306,13 +354,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1988  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `decself`](https://gssdataexplorer.norc.org/variables/1088/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |2   |3   |4  |not very important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:---|:---|:--|:------------------|:----------|:---------|:-----|
+#'  |1988  |-   |1052           |250 |111 |31 |26                 |4          |7         |1481  |
+#'  |Total |0   |1052           |250 |111 |31 |26                 |4          |7         |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -339,14 +393,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1988, 1998 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `gochurch`](https://gssdataexplorer.norc.org/variables/1089/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very important |2   |3   |4   |not very important |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:---|:---|:---|:------------------|:----------|:---------|:-----|
+#'  |1988  |-    |418            |218 |298 |205 |318                |13         |11        |1481  |
+#'  |1998  |1387 |428            |183 |292 |158 |345                |27         |12        |2832  |
+#'  |Total |1387 |846            |401 |590 |363 |663                |40         |23        |4313  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion

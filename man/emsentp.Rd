@@ -22,16 +22,23 @@ B. About how many of these messages are personal one-to-one, rather than sent to
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2596/vshow}{GSS Data Explorer page for \code{emsentp}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 13 \tab 15 \tab 2 \tab 20 \tab 23 \tab 25 \tab 3 \tab 30 \tab 35 \tab 4 \tab 40 \tab 5 \tab 50 \tab 52 \tab 6 \tab 7 \tab 70 \tab 8 \tab 9 \tab 92 \tab don't know \tab no answer \tab 100 \tab 11 \tab 125 \tab 160 \tab 18 \tab 200 \tab 22 \tab 24 \tab 45 \tab 60 \tab Total \cr
+   2000 \tab 2423 \tab 42 \tab 76 \tab 22 \tab 2 \tab 1 \tab 9 \tab 55 \tab 4 \tab 1 \tab 4 \tab 44 \tab 3 \tab 2 \tab 17 \tab 3 \tab 35 \tab 2 \tab 1 \tab 6 \tab 3 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 54 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2161 \tab 35 \tab 114 \tab 38 \tab 6 \tab - \tab 12 \tab 88 \tab 19 \tab - \tab 5 \tab 69 \tab 7 \tab 1 \tab 38 \tab 3 \tab 60 \tab 5 \tab - \tab 13 \tab 9 \tab 1 \tab 11 \tab 4 \tab - \tab - \tab 41 \tab 2 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1 \tab 2 \tab 1 \tab 6 \tab 1 \tab 2765 \cr
+   Total \tab 4584 \tab 77 \tab 190 \tab 60 \tab 8 \tab 1 \tab 21 \tab 143 \tab 23 \tab 1 \tab 9 \tab 113 \tab 10 \tab 3 \tab 55 \tab 6 \tab 95 \tab 7 \tab 1 \tab 19 \tab 12 \tab 2 \tab 14 \tab 6 \tab 1 \tab 1 \tab 95 \tab 2 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1 \tab 2 \tab 1 \tab 6 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

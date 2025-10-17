@@ -23,21 +23,26 @@ Question B. Taking things all together, would you say that your relationship wit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/436/vshow}{GSS Data Explorer page for \code{hapcohab}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very happy \tab pretty happy \tab not too happy \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 1806 \tab 103 \tab 62 \tab 3 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2328 \tab 129 \tab 70 \tab 9 \tab 2 \tab - \tab - \tab 2538 \cr
+   2016 \tab 2603 \tab 149 \tab 102 \tab 11 \tab 1 \tab 1 \tab - \tab 2867 \cr
+   2018 \tab 2116 \tab 148 \tab 75 \tab 9 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 3665 \tab 185 \tab 155 \tab 24 \tab 1 \tab 1 \tab 1 \tab 4032 \cr
+   2022 \tab 3226 \tab 190 \tab 113 \tab 10 \tab 1 \tab 3 \tab 1 \tab 3544 \cr
+   Total \tab 15744 \tab 904 \tab 577 \tab 66 \tab 5 \tab 5 \tab 2 \tab 17303 \cr
+}
 }
 
 \seealso{

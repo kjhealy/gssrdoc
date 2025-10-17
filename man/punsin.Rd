@@ -25,18 +25,24 @@ A. Those who violate God''s rules must be punished.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 2006, 2008, 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1081/vshow}{GSS Data Explorer page for \code{punsin}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 324 \tab 551 \tab 362 \tab 147 \tab 87 \tab 10 \tab 1481 \cr
+   2006 \tab 1518 \tab 433 \tab 824 \tab 860 \tab 680 \tab 167 \tab 28 \tab 4510 \cr
+   2008 \tab - \tab 299 \tab 559 \tab 566 \tab 457 \tab 105 \tab 37 \tab 2023 \cr
+   2010 \tab - \tab 296 \tab 515 \tab 590 \tab 521 \tab 84 \tab 38 \tab 2044 \cr
+   Total \tab 1518 \tab 1352 \tab 2449 \tab 2378 \tab 1805 \tab 443 \tab 113 \tab 10058 \cr
+}
 }
 
 \seealso{

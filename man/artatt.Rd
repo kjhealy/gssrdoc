@@ -24,15 +24,21 @@ Did you attend this exhibit alone, with one other person, or with two or more ot
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6231/vshow}{GSS Data Explorer page for \code{artatt}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab alone \tab with one other person \tab with two or more other people \tab no answer \tab Total \cr
+   2016 \tab 2546 \tab 29 \tab 150 \tab 134 \tab 8 \tab 2867 \cr
+   Total \tab 2546 \tab 29 \tab 150 \tab 134 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

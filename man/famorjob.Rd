@@ -25,15 +25,21 @@ Have you ever given up or would you give up good job opportunities for the benef
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6323/vshow}{GSS Data Explorer page for \code{famorjob}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, i have done so and probably would do so again \tab yes, i have done so but probably would not do so again \tab no, i have not done so but probably would do so \tab no, i have not done so and probably would not do so \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1390 \tab 620 \tab 117 \tab 568 \tab 154 \tab 9 \tab 9 \tab 2867 \cr
+   Total \tab 1390 \tab 620 \tab 117 \tab 568 \tab 154 \tab 9 \tab 9 \tab 2867 \cr
+}
 }
 
 \seealso{

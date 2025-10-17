@@ -26,18 +26,27 @@ C. I feel that I have a pretty good understanding of the important political iss
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2012 \tab A/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1996 \cr
+   A/C/- \tab 2012 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4097/vshow}{GSS Data Explorer page for \code{poleff13}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1572 \tab 103 \tab 596 \tab 286 \tab 233 \tab 41 \tab 45 \tab 28 \tab 2904 \cr
+   2006 \tab 2992 \tab 280 \tab 633 \tab 281 \tab 236 \tab 77 \tab 11 \tab - \tab 4510 \cr
+   2012 \tab 1312 \tab 96 \tab 303 \tab 112 \tab 102 \tab 22 \tab 24 \tab 3 \tab 1974 \cr
+   2016 \tab 1477 \tab 182 \tab 667 \tab 310 \tab 176 \tab 34 \tab 7 \tab 14 \tab 2867 \cr
+   Total \tab 7353 \tab 661 \tab 2199 \tab 989 \tab 747 \tab 174 \tab 87 \tab 45 \tab 12255 \cr
+}
 }
 
 \seealso{

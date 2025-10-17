@@ -25,16 +25,22 @@ B. How old was that person?  Was (he/she) ... (READ LIST)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4998/vshow}{GSS Data Explorer page for \code{cideage2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab 10 years or under \tab 11-20 \tab 21-40 \tab 41 year or older \tab no answer \tab Total \cr
+   1989 \tab 1478 \tab 2 \tab 9 \tab 35 \tab 9 \tab 4 \tab 1537 \cr
+   1990 \tab 1325 \tab - \tab 7 \tab 32 \tab 6 \tab 2 \tab 1372 \cr
+   Total \tab 2803 \tab 2 \tab 16 \tab 67 \tab 15 \tab 6 \tab 2909 \cr
+}
 }
 
 \seealso{

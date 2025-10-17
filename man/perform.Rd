@@ -23,17 +23,23 @@ J. Take part in a music, dance, or theatrical performance.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1998, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1414/vshow}{GSS Data Explorer page for \code{perform}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 154 \tab 1436 \tab 1 \tab 15 \tab 1606 \cr
+   1998 \tab 1387 \tab 152 \tab 1280 \tab - \tab 13 \tab 2832 \cr
+   2002 \tab 1393 \tab 141 \tab 1217 \tab 8 \tab 6 \tab 2765 \cr
+   Total \tab 2780 \tab 447 \tab 3933 \tab 9 \tab 34 \tab 7203 \cr
+}
 }
 
 \seealso{

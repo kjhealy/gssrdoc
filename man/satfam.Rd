@@ -28,32 +28,39 @@ C. Your family life.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/445/vshow}{GSS Data Explorer page for \code{satfam}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab very great deal \tab great deal \tab quite a bit \tab a fair amount \tab some \tab a little \tab none \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 642 \tab 468 \tab 146 \tab 128 \tab 51 \tab 33 \tab 25 \tab 5 \tab 6 \tab 1504 \cr
+   1974 \tab - \tab 641 \tab 496 \tab 157 \tab 102 \tab 35 \tab 30 \tab 19 \tab 3 \tab 1 \tab 1484 \cr
+   1975 \tab - \tab 653 \tab 488 \tab 155 \tab 98 \tab 37 \tab 23 \tab 28 \tab 4 \tab 4 \tab 1490 \cr
+   1976 \tab - \tab 570 \tab 564 \tab 161 \tab 92 \tab 39 \tab 33 \tab 31 \tab 3 \tab 6 \tab 1499 \cr
+   1977 \tab - \tab 637 \tab 501 \tab 181 \tab 112 \tab 43 \tab 21 \tab 26 \tab 6 \tab 3 \tab 1530 \cr
+   1978 \tab - \tab 591 \tab 543 \tab 164 \tab 113 \tab 48 \tab 33 \tab 24 \tab 5 \tab 11 \tab 1532 \cr
+   1980 \tab - \tab 648 \tab 496 \tab 148 \tab 90 \tab 27 \tab 27 \tab 23 \tab 7 \tab 2 \tab 1468 \cr
+   1982 \tab - \tab 864 \tab 502 \tab 212 \tab 123 \tab 60 \tab 48 \tab 38 \tab 8 \tab 5 \tab 1860 \cr
+   1983 \tab - \tab 612 \tab 559 \tab 182 \tab 112 \tab 51 \tab 27 \tab 39 \tab 11 \tab 6 \tab 1599 \cr
+   1984 \tab - \tab 663 \tab 460 \tab 159 \tab 93 \tab 34 \tab 35 \tab 21 \tab 2 \tab 6 \tab 1473 \cr
+   1986 \tab - \tab 533 \tab 501 \tab 180 \tab 124 \tab 48 \tab 34 \tab 28 \tab 5 \tab 17 \tab 1470 \cr
+   1987 \tab 1 \tab 726 \tab 595 \tab 209 \tab 141 \tab 57 \tab 44 \tab 29 \tab 4 \tab 13 \tab 1819 \cr
+   1988 \tab 484 \tab 434 \tab 335 \tab 86 \tab 60 \tab 30 \tab 28 \tab 20 \tab 1 \tab 3 \tab 1481 \cr
+   1989 \tab 502 \tab 433 \tab 344 \tab 102 \tab 67 \tab 44 \tab 22 \tab 16 \tab - \tab 7 \tab 1537 \cr
+   1990 \tab 473 \tab 367 \tab 305 \tab 94 \tab 63 \tab 34 \tab 17 \tab 17 \tab 1 \tab 1 \tab 1372 \cr
+   1991 \tab 500 \tab 417 \tab 335 \tab 100 \tab 90 \tab 27 \tab 26 \tab 17 \tab 4 \tab 1 \tab 1517 \cr
+   1993 \tab 549 \tab 432 \tab 361 \tab 99 \tab 78 \tab 31 \tab 26 \tab 20 \tab 4 \tab 6 \tab 1606 \cr
+   1994 \tab 2481 \tab 202 \tab 179 \tab 53 \tab 35 \tab 17 \tab 13 \tab 10 \tab - \tab 2 \tab 2992 \cr
+   Total \tab 4990 \tab 10065 \tab 8032 \tab 2588 \tab 1721 \tab 713 \tab 520 \tab 431 \tab 73 \tab 100 \tab 29233 \cr
+}
 }
 
 \seealso{

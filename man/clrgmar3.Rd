@@ -22,15 +22,21 @@ Question C. Was this leader someone who was at the time married to someone else?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3947/vshow}{GSS Data Explorer page for \code{clrgmar3}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   2008 \tab 2021 \tab 1 \tab 1 \tab 2023 \cr
+   Total \tab 2021 \tab 1 \tab 1 \tab 2023 \cr
+}
 }
 
 \seealso{

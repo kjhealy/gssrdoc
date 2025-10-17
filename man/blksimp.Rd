@@ -23,19 +23,25 @@ Question In the past few years, do you think conditions for black people have im
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B \tab partial \cr
-   1996 \tab A/B \tab partial \cr
-   1998 \tab A/B \tab partial \cr
-   2000 \tab A/B \tab partial \cr
-   2002 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 1994, 1996, 1998, 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/425/vshow}{GSS Data Explorer page for \code{blksimp}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab improved \tab gotten worse \tab about the same \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1522 \tab 776 \tab 177 \tab 474 \tab 35 \tab 8 \tab 2992 \cr
+   1996 \tab 944 \tab 1128 \tab 183 \tab 577 \tab 67 \tab 5 \tab 2904 \cr
+   1998 \tab 961 \tab 1167 \tab 94 \tab 516 \tab 88 \tab 6 \tab 2832 \cr
+   2000 \tab 940 \tab 1168 \tab 106 \tab 539 \tab 60 \tab 4 \tab 2817 \cr
+   2002 \tab 1857 \tab 592 \tab 34 \tab 262 \tab 20 \tab - \tab 2765 \cr
+   Total \tab 6224 \tab 4831 \tab 594 \tab 2368 \tab 270 \tab 23 \tab 14310 \cr
+}
 }
 
 \seealso{

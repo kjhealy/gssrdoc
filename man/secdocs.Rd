@@ -25,17 +25,23 @@ Question Given the world situation, the government protects too many documents b
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 1996, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5206/vshow}{GSS Data Explorer page for \code{secdocs}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 196 \tab 603 \tab 244 \tab 262 \tab 65 \tab 94 \tab 10 \tab 2992 \cr
+   1996 \tab 1444 \tab 199 \tab 605 \tab 213 \tab 289 \tab 59 \tab 90 \tab 5 \tab 2904 \cr
+   1998 \tab 1445 \tab 225 \tab 515 \tab 248 \tab 216 \tab 53 \tab 113 \tab 17 \tab 2832 \cr
+   Total \tab 4407 \tab 620 \tab 1723 \tab 705 \tab 767 \tab 177 \tab 297 \tab 32 \tab 8728 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ A. That governments respect democratic rights whatever the circumstances
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4964/vshow}{GSS Data Explorer page for \code{gvtrghts}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab Total \cr
+   2014 \tab 1274 \tab 18 \tab 13 \tab 36 \tab 128 \tab 159 \tab 220 \tab 608 \tab 80 \tab 2 \tab 2538 \cr
+   Total \tab 1274 \tab 18 \tab 13 \tab 36 \tab 128 \tab 159 \tab 220 \tab 608 \tab 80 \tab 2 \tab 2538 \cr
+}
 }
 
 \seealso{

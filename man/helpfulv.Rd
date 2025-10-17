@@ -23,17 +23,22 @@ Question Would you say that most of the time people try to be helpful, or that t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7591/vshow}{GSS Data Explorer page for \code{helpfulv}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab try to be helpful \tab looking out for themselves \tab depends (phone mode only: volunteered) \tab don't know \tab skipped on web \tab Total \cr
+   2021 \tab 2673 \tab 449 \tab 327 \tab 582 \tab 1 \tab - \tab 4032 \cr
+   2022 \tab 2974 \tab 144 \tab 153 \tab 272 \tab - \tab 1 \tab 3544 \cr
+   Total \tab 5647 \tab 593 \tab 480 \tab 854 \tab 1 \tab 1 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

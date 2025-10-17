@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `pastup`](https://gssdataexplorer.norc.org/variables/1642/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |much better |somewhat better |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------|:-----|
+#'  |1994  |2602 |34          |345             |11        |2992  |
+#'  |Total |2602 |34          |345             |11        |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `pastdown`](https://gssdataexplorer.norc.org/variables/1643/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |much worse |somewhat worse |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:--------------|:----------|:---------|:-----|
+#'  |1994  |2555 |126        |295            |1          |15        |2992  |
+#'  |Total |2555 |126        |295            |1          |15        |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `econfutr`](https://gssdataexplorer.norc.org/variables/1644/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |get better |stay the same |get worse |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:-------------|:---------|:----------|:---------|:-----|
+#'  |1994  |1518 |416        |768           |241       |39         |10        |2992  |
+#'  |Total |1518 |416        |768           |241       |39         |10        |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `futrup`](https://gssdataexplorer.norc.org/variables/1645/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |much better |somewhat better |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:----------|:---------|:-----|
+#'  |1994  |2566 |60          |351             |2          |13        |2992  |
+#'  |Total |2566 |60          |351             |2          |13        |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -146,13 +170,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `futrdown`](https://gssdataexplorer.norc.org/variables/1646/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |much worse |somewhat worse |no answer |Total |
+#'  |:-----|:----|:----------|:--------------|:---------|:-----|
+#'  |1994  |2741 |54         |180            |17        |2992  |
+#'  |Total |2741 |54         |180            |17        |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -180,13 +210,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rdiscaff`](https://gssdataexplorer.norc.org/variables/1647/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |1994  |1518 |213         |458             |340               |358           |88         |17        |2992  |
+#'  |Total |1518 |213         |458             |340               |358           |88         |17        |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -214,13 +250,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rimmdisc`](https://gssdataexplorer.norc.org/variables/1648/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |1994  |1518 |126         |309             |427               |480           |110        |22        |2992  |
+#'  |Total |1518 |126         |309             |427               |480           |110        |22        |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -247,14 +289,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1996, 1998 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `romance`](https://gssdataexplorer.norc.org/variables/1649/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |has same gender partner |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:-----------------------|:----------|:---------|:-----|
+#'  |1996  |2126 |319 |427 |1                       |2          |29        |2904  |
+#'  |1998  |2109 |272 |415 |3                       |3          |30        |2832  |
+#'  |Total |4235 |591 |842 |4                       |5          |59        |5736  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -281,14 +329,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1996, 1998 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `livewith`](https://gssdataexplorer.norc.org/variables/1650/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |1996  |2553 |97  |223 |31        |2904  |
+#'  |1998  |2527 |83  |188 |34        |2832  |
+#'  |Total |5080 |180 |411 |65        |5736  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -315,13 +369,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `haprom`](https://gssdataexplorer.norc.org/variables/1651/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very happy |pretty happy |not too happy |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:------------|:-------------|:----------|:---------|:-----|
+#'  |1996  |2553 |147        |153          |17            |1          |33        |2904  |
+#'  |Total |2553 |147        |153          |17            |1          |33        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender

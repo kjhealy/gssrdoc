@@ -27,15 +27,21 @@ Question How often R felt a sense of larger meaning in life
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7536/vshow}{GSS Data Explorer page for \code{sprtpurp}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab at least once a day \tab almost every day \tab once or twice a week \tab once or twice a month \tab a few times per year \tab once a year or less \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 411 \tab 371 \tab 708 \tab 460 \tab 428 \tab 672 \tab 390 \tab 508 \tab 9 \tab 5 \tab 70 \tab 4032 \cr
+   Total \tab 411 \tab 371 \tab 708 \tab 460 \tab 428 \tab 672 \tab 390 \tab 508 \tab 9 \tab 5 \tab 70 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

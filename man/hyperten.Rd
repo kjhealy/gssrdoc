@@ -23,17 +23,23 @@ A. Hypertension or high blood pressure?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2842/vshow}{GSS Data Explorer page for \code{hyperten}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2014 \tab 1288 \tab 339 \tab 904 \tab 2 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 395 \tab 1016 \tab 2 \tab 35 \tab - \tab 2348 \cr
+   2022 \tab 1556 \tab 567 \tab 1392 \tab 8 \tab 6 \tab 15 \tab 3544 \cr
+   Total \tab 3744 \tab 1301 \tab 3312 \tab 12 \tab 46 \tab 15 \tab 8430 \cr
+}
 }
 
 \seealso{

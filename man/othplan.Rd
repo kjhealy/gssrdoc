@@ -22,15 +22,21 @@ Question Other name for insurance or HMO policy?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3905/vshow}{GSS Data Explorer page for \code{othplan}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes, another name \tab no other name \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1371 \tab 129 \tab 441 \tab 76 \tab 6 \tab 2023 \cr
+   Total \tab 1371 \tab 129 \tab 441 \tab 76 \tab 6 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ Question While some people think that close relatives should be the most importa
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7782/vshow}{GSS Data Explorer page for \code{frndfam}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab Total \cr
+   2022 \tab 2500 \tab 237 \tab 78 \tab 127 \tab 529 \tab 22 \tab 18 \tab 33 \tab 3544 \cr
+   Total \tab 2500 \tab 237 \tab 78 \tab 127 \tab 529 \tab 22 \tab 18 \tab 33 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

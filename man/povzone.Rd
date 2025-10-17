@@ -27,15 +27,21 @@ A. Giving businesses and industry special tax breaks for locating in poor and hi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1230/vshow}{GSS Data Explorer page for \code{povzone}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
+   1990 \tab 698 \tab 123 \tab 331 \tab 104 \tab 63 \tab 21 \tab 26 \tab 6 \tab 1372 \cr
+   Total \tab 698 \tab 123 \tab 331 \tab 104 \tab 63 \tab 21 \tab 26 \tab 6 \tab 1372 \cr
+}
 }
 
 \seealso{

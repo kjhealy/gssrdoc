@@ -23,15 +23,21 @@ Question And how many other adults in your household personally own a gun?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3705/vshow}{GSS Data Explorer page for \code{othguns}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab 1 person \tab 2 persons \tab 3 persons \tab don't know \tab Total \cr
+   2006 \tab 4368 \tab 125 \tab 14 \tab 2 \tab 1 \tab 4510 \cr
+   Total \tab 4368 \tab 125 \tab 14 \tab 2 \tab 1 \tab 4510 \cr
+}
 }
 
 \seealso{

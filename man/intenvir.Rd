@@ -23,20 +23,29 @@ Question Issues about environmental pollution. (Are you very interested, moderat
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3460/vshow}{GSS Data Explorer page for \code{intenvir}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very interested \tab moderately interested \tab not at all interested \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 518 \tab 751 \tab 600 \tab 142 \tab 11 \tab 1 \tab 2023 \cr
+   2010 \tab 1334 \tab 315 \tab 330 \tab 57 \tab 2 \tab 6 \tab 2044 \cr
+   2012 \tab 972 \tab 467 \tab 430 \tab 94 \tab 7 \tab 4 \tab 1974 \cr
+   2014 \tab 1299 \tab 510 \tab 598 \tab 130 \tab - \tab 1 \tab 2538 \cr
+   2016 \tab 1477 \tab 586 \tab 651 \tab 149 \tab 1 \tab 3 \tab 2867 \cr
+   2018 \tab 1173 \tab 531 \tab 516 \tab 126 \tab 2 \tab - \tab 2348 \cr
+   Total \tab 6773 \tab 3160 \tab 3125 \tab 698 \tab 23 \tab 15 \tab 13794 \cr
+}
 }
 
 \seealso{

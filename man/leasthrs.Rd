@@ -22,15 +22,21 @@ HOURS:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6294/vshow}{GSS Data Explorer page for \code{leasthrs}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 13 \tab 135 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 4 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 45 \tab 46 \tab 48 \tab 49 \tab 5 \tab 50 \tab 52 \tab 55 \tab 57 \tab 6 \tab 60 \tab 65 \tab 7 \tab 70 \tab 72 \tab 75 \tab 8 \tab 80 \tab 90 \tab 99 \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2273 \tab 20 \tab 1 \tab 11 \tab 9 \tab 1 \tab 1 \tab 1 \tab 14 \tab 8 \tab 2 \tab 7 \tab 1 \tab 2 \tab 27 \tab 4 \tab 3 \tab 2 \tab 12 \tab 8 \tab 2 \tab 5 \tab 2 \tab 1 \tab 2 \tab 34 \tab 1 \tab 27 \tab 2 \tab 3 \tab 18 \tab 12 \tab 10 \tab 12 \tab 6 \tab 8 \tab 196 \tab 2 \tab 2 \tab 1 \tab 1 \tab 18 \tab 3 \tab 7 \tab 2 \tab 5 \tab 20 \tab 2 \tab 6 \tab 1 \tab 2 \tab 9 \tab 2 \tab 3 \tab 2 \tab 1 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 4 \tab 15 \tab 2867 \cr
+   Total \tab 2273 \tab 20 \tab 1 \tab 11 \tab 9 \tab 1 \tab 1 \tab 1 \tab 14 \tab 8 \tab 2 \tab 7 \tab 1 \tab 2 \tab 27 \tab 4 \tab 3 \tab 2 \tab 12 \tab 8 \tab 2 \tab 5 \tab 2 \tab 1 \tab 2 \tab 34 \tab 1 \tab 27 \tab 2 \tab 3 \tab 18 \tab 12 \tab 10 \tab 12 \tab 6 \tab 8 \tab 196 \tab 2 \tab 2 \tab 1 \tab 1 \tab 18 \tab 3 \tab 7 \tab 2 \tab 5 \tab 20 \tab 2 \tab 6 \tab 1 \tab 2 \tab 9 \tab 2 \tab 3 \tab 2 \tab 1 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 4 \tab 15 \tab 2867 \cr
+}
 }
 
 \seealso{

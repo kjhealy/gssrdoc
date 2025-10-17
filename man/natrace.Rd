@@ -23,48 +23,54 @@ Question We are faced with many problems in this country, none of which can be s
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   Full \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/188/vshow}{GSS Data Explorer page for \code{natrace}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1973 \tab - \tab 488 \tab 590 \tab 324 \tab 97 \tab 5 \tab - \tab 1504 \cr
+   1974 \tab - \tab 457 \tab 616 \tab 306 \tab 98 \tab 7 \tab - \tab 1484 \cr
+   1975 \tab - \tab 400 \tab 616 \tab 356 \tab 114 \tab 4 \tab - \tab 1490 \cr
+   1976 \tab - \tab 409 \tab 604 \tab 379 \tab 99 \tab 8 \tab - \tab 1499 \cr
+   1977 \tab - \tab 383 \tab 644 \tab 375 \tab 123 \tab 5 \tab - \tab 1530 \cr
+   1978 \tab - \tab 371 \tab 661 \tab 385 \tab 112 \tab 3 \tab - \tab 1532 \cr
+   1980 \tab - \tab 353 \tab 645 \tab 349 \tab 115 \tab 6 \tab - \tab 1468 \cr
+   1982 \tab - \tab 728 \tab 686 \tab 308 \tab 128 \tab 10 \tab - \tab 1860 \cr
+   1983 \tab - \tab 466 \tab 692 \tab 289 \tab 145 \tab 7 \tab - \tab 1599 \cr
+   1984 \tab 983 \tab 170 \tab 208 \tab 77 \tab 30 \tab 5 \tab - \tab 1473 \cr
+   1985 \tab 783 \tab 230 \tab 319 \tab 150 \tab 50 \tab 2 \tab - \tab 1534 \cr
+   1986 \tab 740 \tab 243 \tab 308 \tab 115 \tab 58 \tab 6 \tab - \tab 1470 \cr
+   1987 \tab 1216 \tab 262 \tab 223 \tab 71 \tab 40 \tab 7 \tab - \tab 1819 \cr
+   1988 \tab 763 \tab 248 \tab 293 \tab 114 \tab 59 \tab 4 \tab - \tab 1481 \cr
+   1989 \tab 769 \tab 247 \tab 317 \tab 122 \tab 79 \tab 3 \tab - \tab 1537 \cr
+   1990 \tab 698 \tab 247 \tab 271 \tab 100 \tab 52 \tab 4 \tab - \tab 1372 \cr
+   1991 \tab 761 \tab 256 \tab 321 \tab 108 \tab 64 \tab 7 \tab - \tab 1517 \cr
+   1993 \tab 807 \tab 284 \tab 315 \tab 121 \tab 73 \tab 6 \tab - \tab 1606 \cr
+   1994 \tab 1484 \tab 462 \tab 605 \tab 305 \tab 130 \tab 6 \tab - \tab 2992 \cr
+   1996 \tab 1463 \tab 457 \tab 558 \tab 277 \tab 145 \tab 4 \tab - \tab 2904 \cr
+   1998 \tab 1451 \tab 469 \tab 555 \tab 225 \tab 126 \tab 6 \tab - \tab 2832 \cr
+   2000 \tab 1408 \tab 469 \tab 563 \tab 204 \tab 163 \tab 10 \tab - \tab 2817 \cr
+   2002 \tab 1407 \tab 412 \tab 617 \tab 230 \tab 87 \tab 12 \tab - \tab 2765 \cr
+   2004 \tab 1411 \tab 441 \tab 636 \tab 199 \tab 115 \tab 10 \tab - \tab 2812 \cr
+   2006 \tab 3026 \tab 521 \tab 602 \tab 225 \tab 124 \tab 12 \tab - \tab 4510 \cr
+   2008 \tab 1019 \tab 350 \tab 420 \tab 111 \tab 113 \tab 10 \tab - \tab 2023 \cr
+   2010 \tab 1030 \tab 306 \tab 439 \tab 154 \tab 108 \tab 7 \tab - \tab 2044 \cr
+   2012 \tab 976 \tab 329 \tab 420 \tab 128 \tab 111 \tab 10 \tab - \tab 1974 \cr
+   2014 \tab 1264 \tab 406 \tab 550 \tab 174 \tab 135 \tab 9 \tab - \tab 2538 \cr
+   2016 \tab 1430 \tab 672 \tab 484 \tab 138 \tab 120 \tab 23 \tab - \tab 2867 \cr
+   2018 \tab 1160 \tab 605 \tab 386 \tab 87 \tab 100 \tab 10 \tab - \tab 2348 \cr
+   2021 \tab 2045 \tab 1020 \tab 596 \tab 343 \tab 12 \tab 2 \tab 14 \tab 4032 \cr
+   2022 \tab 1764 \tab 941 \tab 515 \tab 229 \tab 76 \tab 10 \tab 9 \tab 3544 \cr
+   Total \tab 29858 \tab 14102 \tab 16275 \tab 7078 \tab 3201 \tab 240 \tab 23 \tab 70777 \cr
+}
 }
 
 \seealso{

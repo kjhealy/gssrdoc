@@ -21,16 +21,22 @@ Question Within the past 12 months, how many people have you known personally th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5025/vshow}{GSS Data Explorer page for \code{suiknew}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab no answer \tab 4 \tab Total \cr
+   1990 \tab - \tab 1238 \tab 109 \tab 17 \tab 6 \tab 2 \tab - \tab 1372 \cr
+   1991 \tab - \tab 1344 \tab 133 \tab 25 \tab 11 \tab 3 \tab 1 \tab 1517 \cr
+   Total \tab 0 \tab 2582 \tab 242 \tab 42 \tab 17 \tab 5 \tab 1 \tab 2889 \cr
+}
 }
 
 \seealso{

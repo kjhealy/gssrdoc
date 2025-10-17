@@ -27,15 +27,21 @@ B. I prefer to leave decisions about my medical care up to my doctor.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2741/vshow}{GSS Data Explorer page for \code{docdecid}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab moderately agree \tab slightly agree \tab slightly disagree \tab moderately disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab - \tab 394 \tab 638 \tab 412 \tab 361 \tab 378 \tab 562 \tab 15 \tab 5 \tab 2765 \cr
+   Total \tab 0 \tab 394 \tab 638 \tab 412 \tab 361 \tab 378 \tab 562 \tab 15 \tab 5 \tab 2765 \cr
+}
 }
 
 \seealso{

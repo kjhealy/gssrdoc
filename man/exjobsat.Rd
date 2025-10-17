@@ -28,15 +28,21 @@ How satisfied were you in your last job?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6341/vshow}{GSS Data Explorer page for \code{exjobsat}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab completely satisfied \tab very satisfied \tab fairly satisfied \tab neither satisfied nor dissatisfied \tab fairly dissatisfied \tab very dissatisfied \tab completely dissatisfied \tab 99 \tab Total \cr
+   2016 \tab 2382 \tab 134 \tab 147 \tab 109 \tab 21 \tab 15 \tab 23 \tab 13 \tab 23 \tab 2867 \cr
+   Total \tab 2382 \tab 134 \tab 147 \tab 109 \tab 21 \tab 15 \tab 23 \tab 13 \tab 23 \tab 2867 \cr
+}
 }
 
 \seealso{

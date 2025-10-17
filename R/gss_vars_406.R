@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `trtmyrac`](https://gssdataexplorer.norc.org/variables/3699/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost all the same race as you |mostly the same race as you |about evenly divided |mostly a different race than you |almost all a different race than you |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------------------|:---------------------------|:--------------------|:--------------------------------|:------------------------------------|:----------|:---------|:-----|
+#'  |2006  |3821 |267                             |218                         |140                  |16                               |11                                   |24         |13        |4510  |
+#'  |Total |3821 |267                             |218                         |140                  |16                               |11                                   |24         |13        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -51,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `gunsales`](https://gssdataexplorer.norc.org/variables/3700/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly favor |favor |neither favor nor oppose |oppose |strongly oppose |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:------------------------|:------|:---------------|:----------|:---------|:-----|
+#'  |2006  |3139 |826            |236   |109                      |91     |71              |26         |12        |4510  |
+#'  |Total |3139 |826            |236   |109                      |91     |71              |26         |12        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -84,13 +96,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `gunsdrug`](https://gssdataexplorer.norc.org/variables/3701/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |tougher |less tough |about as tough |don't know |no answer |Total |
+#'  |:-----|:----|:-------|:----------|:--------------|:----------|:---------|:-----|
+#'  |2006  |3139 |734     |104        |490            |31         |12        |4510  |
+#'  |Total |3139 |734     |104        |490            |31         |12        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -116,13 +134,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `semiguns`](https://gssdataexplorer.norc.org/variables/3702/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |sold to the general public |sales be limited to the military and police |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------------|:-------------------------------------------|:----------|:---------|:-----|
+#'  |2006  |3139 |198                        |1125                                        |36         |12        |4510  |
+#'  |Total |3139 |198                        |1125                                        |36         |12        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -148,13 +172,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `guns911`](https://gssdataexplorer.norc.org/variables/3703/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |should be stricter |should be less strict |don't know |no answer |Total |
+#'  |:-----|:----|:------------------|:---------------------|:----------|:---------|:-----|
+#'  |2006  |3139 |1026               |226                   |103        |16        |4510  |
+#'  |Total |3139 |1026               |226                   |103        |16        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -180,13 +210,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rifles50`](https://gssdataexplorer.norc.org/variables/3704/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |restricted to the police and military |available to civilians like other hunting rifles |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------------------------|:------------------------------------------------|:----------|:---------|:-----|
+#'  |2006  |3139 |1151                                  |187                                              |21         |12        |4510  |
+#'  |Total |3139 |1151                                  |187                                              |21         |12        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -213,13 +249,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `othguns`](https://gssdataexplorer.norc.org/variables/3705/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 person |2 persons |3 persons |don't know |Total |
+#'  |:-----|:----|:--------|:---------|:---------|:----------|:-----|
+#'  |2006  |4368 |125      |14        |2         |1          |4510  |
+#'  |Total |4368 |125      |14        |2         |1          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -245,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `gunsdrnk`](https://gssdataexplorer.norc.org/variables/3706/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |favor |oppose |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:------|:----------|:---------|:-----|
+#'  |2006  |3139 |1222  |121    |15         |13        |4510  |
+#'  |Total |3139 |1222  |121    |15         |13        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -280,13 +328,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `spnatdis`](https://gssdataexplorer.norc.org/variables/3707/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |spend much more |spend more |spend the same as now |spend less |spend much less |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:----------|:---------------------|:----------|:---------------|:----------|:---------|:-----|
+#'  |2006  |2992 |212             |511        |577                   |158        |38              |19         |3         |4510  |
+#'  |Total |2992 |212             |511        |577                   |158        |38              |19         |3         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
@@ -312,13 +366,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natdisin`](https://gssdataexplorer.norc.org/variables/3708/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |should |should not be |don't know |no answer |Total |
+#'  |:-----|:----|:------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2992 |1368   |131           |18         |1         |4510  |
+#'  |Total |2992 |1368   |131           |18         |1         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I

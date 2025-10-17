@@ -22,19 +22,24 @@ Question IF YES: Do any of those persons supervise anyone else?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6179/vshow}{GSS Data Explorer page for \code{wksups1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab 6 \tab Total \cr
+   2016 \tab 2118 \tab 224 \tab 518 \tab 7 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 1753 \tab 201 \tab 390 \tab 4 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 3170 \tab 272 \tab 567 \tab 15 \tab 1 \tab 7 \tab - \tab 4032 \cr
+   2022 \tab 2748 \tab 243 \tab 532 \tab - \tab 6 \tab 4 \tab 11 \tab 3544 \cr
+   Total \tab 9789 \tab 940 \tab 2007 \tab 26 \tab 7 \tab 11 \tab 11 \tab 12791 \cr
+}
 }
 
 \seealso{

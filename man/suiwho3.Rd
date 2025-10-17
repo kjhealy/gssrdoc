@@ -30,16 +30,22 @@ Question Think about the person who you have known next best, who committed suic
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5036/vshow}{GSS Data Explorer page for \code{suiwho3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab other relative \tab friend \tab acquaintance \tab no answer \tab neighbor \tab patient \tab Total \cr
+   1990 \tab 1364 \tab 2 \tab 3 \tab 1 \tab 2 \tab - \tab - \tab 1372 \cr
+   1991 \tab 1502 \tab 1 \tab 5 \tab 4 \tab 3 \tab 1 \tab 1 \tab 1517 \cr
+   Total \tab 2866 \tab 3 \tab 8 \tab 5 \tab 5 \tab 1 \tab 1 \tab 2889 \cr
+}
 }
 
 \seealso{

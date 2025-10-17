@@ -32,18 +32,26 @@ Question What religion, if any, were you raised in? Was it Protestant, Catholic,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4669/vshow}{GSS Data Explorer page for \code{religkid}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab buddhism \tab hinduism \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 813 \tab 395 \tab 29 \tab 8 \tab 3 \tab 21 \tab 46 \tab 24 \tab 20 \tab 1517 \cr
+   1998 \tab 1548 \tab 684 \tab 390 \tab 23 \tab 9 \tab 6 \tab 22 \tab 62 \tab 23 \tab 65 \tab 2832 \cr
+   2008 \tab 658 \tab 747 \tab 429 \tab 25 \tab 9 \tab 8 \tab 19 \tab 115 \tab 6 \tab 7 \tab 2023 \cr
+   2018 \tab 1173 \tab 600 \tab 383 \tab 19 \tab 7 \tab 11 \tab 13 \tab 119 \tab 10 \tab 13 \tab 2348 \cr
+   Total \tab 3537 \tab 2844 \tab 1597 \tab 96 \tab 33 \tab 28 \tab 75 \tab 342 \tab 63 \tab 105 \tab 8720 \cr
+}
 }
 
 \seealso{

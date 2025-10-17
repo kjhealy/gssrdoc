@@ -23,15 +23,21 @@ Question N. Does the professional or academic society meet in this area?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3281/vshow}{GSS Data Explorer page for \code{mtprof6}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab no \tab no answer \tab Total \cr
+   2004 \tab 2800 \tab 1 \tab 11 \tab 2812 \cr
+   Total \tab 2800 \tab 1 \tab 11 \tab 2812 \cr
+}
 }
 
 \seealso{

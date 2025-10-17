@@ -26,15 +26,21 @@ Question How much of the time during the past 4 weeks have you felt downhearted 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2686/vshow}{GSS Data Explorer page for \code{downblue}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab all of the time \tab most of the time \tab a good bit of the time \tab some of the time \tab a little bit of the time \tab non of the time \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 27 \tab 43 \tab 63 \tab 266 \tab 537 \tab 473 \tab 1 \tab 9 \tab 2817 \cr
+   Total \tab 1398 \tab 27 \tab 43 \tab 63 \tab 266 \tab 537 \tab 473 \tab 1 \tab 9 \tab 2817 \cr
+}
 }
 
 \seealso{

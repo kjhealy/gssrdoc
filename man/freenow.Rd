@@ -23,15 +23,21 @@ Question Do you think Americans today have more freedom, less freedom, or about 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2665/vshow}{GSS Data Explorer page for \code{freenow}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab more freedom \tab about the same amount of freedom \tab less freedom \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 585 \tab 536 \tab 262 \tab 18 \tab 18 \tab 2817 \cr
+   Total \tab 1398 \tab 585 \tab 536 \tab 262 \tab 18 \tab 18 \tab 2817 \cr
+}
 }
 
 \seealso{

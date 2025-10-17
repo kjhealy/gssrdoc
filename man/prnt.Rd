@@ -22,16 +22,21 @@ Question Calculated variable: The respondent answered yes to any of RBIOPRNT, RA
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8017/vshow}{GSS Data Explorer page for \code{prnt}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab skipped on web \tab Total \cr
+   2022 \tab 3016 \tab 432 \tab 94 \tab 2 \tab 3544 \cr
+   Total \tab 3016 \tab 432 \tab 94 \tab 2 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

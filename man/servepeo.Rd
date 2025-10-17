@@ -24,16 +24,22 @@ Question Thinking of government administrators in America, how committed are the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4957/vshow}{GSS Data Explorer page for \code{servepeo}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very committed \tab somewhat committed \tab not very committed \tab not at all committed \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 167 \tab 923 \tab 286 \tab 69 \tab 21 \tab 6 \tab 2812 \cr
+   2014 \tab 1274 \tab 94 \tab 658 \tab 334 \tab 102 \tab 70 \tab 6 \tab 2538 \cr
+   Total \tab 2614 \tab 261 \tab 1581 \tab 620 \tab 171 \tab 91 \tab 12 \tab 5350 \cr
+}
 }
 
 \seealso{

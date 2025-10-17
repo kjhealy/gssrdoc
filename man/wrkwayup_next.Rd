@@ -27,15 +27,21 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7892/vshow}{GSS Data Explorer page for \code{wrkwayup_next}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab skipped on web \tab Total \cr
+   2022 \tab 2309 \tab 276 \tab 269 \tab 223 \tab 207 \tab 259 \tab 1 \tab 3544 \cr
+   Total \tab 2309 \tab 276 \tab 269 \tab 223 \tab 207 \tab 259 \tab 1 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

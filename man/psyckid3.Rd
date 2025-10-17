@@ -26,15 +26,21 @@ C....because s/he was talking about killing him or herself.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2181/vshow}{GSS Data Explorer page for \code{psyckid3}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 454 \tab 280 \tab 225 \tab 99 \tab 243 \tab 81 \tab 5 \tab 2832 \cr
+   Total \tab 1445 \tab 454 \tab 280 \tab 225 \tab 99 \tab 243 \tab 81 \tab 5 \tab 2832 \cr
+}
 }
 
 \seealso{

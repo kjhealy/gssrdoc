@@ -22,19 +22,26 @@ Question A. Does the size of these performance-based payments depend on company 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2014, 2018 \cr
+   B/C/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2856/vshow}{GSS Data Explorer page for \code{compperf}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2152 \tab 485 \tab 102 \tab 10 \tab 16 \tab 2765 \cr
+   2006 \tab 3849 \tab 522 \tab 113 \tab 9 \tab 17 \tab 4510 \cr
+   2014 \tab 2275 \tab 205 \tab 52 \tab 4 \tab 2 \tab 2538 \cr
+   2018 \tab 1846 \tab 405 \tab 82 \tab 13 \tab 2 \tab 2348 \cr
+   2022 \tab 3222 \tab 242 \tab 63 \tab 16 \tab 1 \tab 3544 \cr
+   Total \tab 13344 \tab 1859 \tab 412 \tab 52 \tab 38 \tab 15705 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question Do you have any other physical disability?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C/D \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3715/vshow}{GSS Data Explorer page for \code{disabld4}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 1714 \tab 296 \tab 2483 \tab 2 \tab 15 \tab 4510 \cr
+   Total \tab 1714 \tab 296 \tab 2483 \tab 2 \tab 15 \tab 4510 \cr
+}
 }
 
 \seealso{

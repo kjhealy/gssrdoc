@@ -26,19 +26,26 @@ A. People worry too much about human progress harming the environment.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4729/vshow}{GSS Data Explorer page for \code{grnprog}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 68 \tab 416 \tab 259 \tab 602 \tab 127 \tab 27 \tab 58 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 63 \tab 425 \tab 204 \tab 537 \tab 96 \tab 28 \tab 33 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 56 \tab 275 \tab 260 \tab 457 \tab 103 \tab 36 \tab 89 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 63 \tab 467 \tab 262 \tab 506 \tab 72 \tab 55 \tab 5 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 72 \tab 312 \tab 459 \tab 658 \tab 271 \tab 66 \tab 171 \tab 20 \tab 4032 \cr
+   Total \tab 5813 \tab 322 \tab 1895 \tab 1444 \tab 2760 \tab 669 \tab 212 \tab 356 \tab 20 \tab 13491 \cr
+}
 }
 
 \seealso{

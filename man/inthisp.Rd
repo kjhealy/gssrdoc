@@ -48,23 +48,30 @@ Question Interviewer, are you Spanish, Hispanic, or Latino/Latina?  Which group 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5511/vshow}{GSS Data Explorer page for \code{inthisp}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab not hispanic \tab mexican, mexican american, chicano/a \tab puerto rican \tab cuban \tab salvadorian \tab guatemalan \tab costa rican \tab honduran \tab dominican \tab peruvian \tab ecuadorian \tab venezuelan \tab spanish \tab south american \tab hispanic \tab no answer \tab central american \tab columbian \tab argentinian \tab colombian \tab latino/a \tab nicaraguan \tab other, not specified \tab not available in this release \tab Total \cr
+   2004 \tab - \tab 2702 \tab 65 \tab 4 \tab 3 \tab 3 \tab 1 \tab 9 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 3 \tab 1 \tab 13 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab - \tab 4041 \tab 256 \tab 14 \tab 2 \tab 1 \tab 2 \tab - \tab 1 \tab 27 \tab 1 \tab 24 \tab - \tab 62 \tab 14 \tab - \tab 19 \tab 1 \tab 7 \tab 36 \tab 1 \tab 1 \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 1843 \tab 110 \tab 1 \tab 2 \tab 1 \tab 1 \tab 6 \tab - \tab - \tab 9 \tab - \tab - \tab 22 \tab 4 \tab - \tab - \tab 1 \tab 18 \tab - \tab - \tab - \tab 5 \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 1823 \tab 83 \tab 3 \tab 13 \tab 7 \tab - \tab 8 \tab 3 \tab 4 \tab - \tab - \tab 20 \tab 25 \tab - \tab 1 \tab 34 \tab - \tab - \tab 4 \tab - \tab - \tab 16 \tab - \tab - \tab 2044 \cr
+   2012 \tab - \tab 1773 \tab 103 \tab 9 \tab 12 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 6 \tab 17 \tab - \tab 19 \tab 33 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1974 \cr
+   2014 \tab - \tab 2295 \tab 91 \tab 37 \tab 31 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 13 \tab - \tab - \tab - \tab - \tab - \tab - \tab 71 \tab - \tab 2538 \cr
+   2016 \tab - \tab 2479 \tab 248 \tab 91 \tab - \tab - \tab 6 \tab - \tab - \tab 8 \tab - \tab 11 \tab - \tab 3 \tab - \tab 1 \tab 15 \tab - \tab - \tab 5 \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab - \tab 2140 \tab 124 \tab 3 \tab 32 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 38 \tab - \tab - \tab - \tab - \tab - \tab - \tab 11 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   Total \tab 0 \tab 19096 \tab 1080 \tab 162 \tab 95 \tab 12 \tab 10 \tab 23 \tab 6 \tab 40 \tab 11 \tab 37 \tab 27 \tab 131 \tab 21 \tab 22 \tab 165 \tab 2 \tab 25 \tab 45 \tab 1 \tab 1 \tab 21 \tab 83 \tab 4032 \tab 25148 \cr
+}
 }
 
 \concept{Interviewer Characteristics}

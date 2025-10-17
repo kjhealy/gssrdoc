@@ -22,20 +22,26 @@ Question Does your job require you to do repeated lifting, pushing, pulling or b
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2812/vshow}{GSS Data Explorer page for \code{hvylift}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 821 \tab 957 \tab 5 \tab 13 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 792 \tab 925 \tab 3 \tab 14 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 547 \tab 615 \tab 2 \tab 23 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 600 \tab 642 \tab 1 \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 722 \tab 690 \tab 5 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 900 \tab 1057 \tab 5 \tab 12 \tab 15 \tab 3544 \cr
+   Total \tab 8345 \tab 4382 \tab 4886 \tab 21 \tab 100 \tab 15 \tab 17749 \cr
+}
 }
 
 \seealso{

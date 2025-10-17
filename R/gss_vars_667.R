@@ -1,3 +1,117 @@
+#'  R is grandparent of another adult in hh
+#' 
+#'  rgprnt18
+#' 
+#' Question Are you the grandparent of another individual 18 or older in your house?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `rgprnt18`](https://gssdataexplorer.norc.org/variables/8024/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------|:-----|
+#'  |2022  |3257 |13  |268 |1         |5              |3544  |
+#'  |Total |3257 |13  |268 |1         |5              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name rgprnt18
+NULL
+
+
+#'  R is extended family of another adult in hh
+#' 
+#'  rfmly18
+#' 
+#' Question Are you related in some other way to another individual 18 or older in your household? (For example, you live with your adult cousins, adult aunts or uncles, or other adult relatives?)
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `rfmly18`](https://gssdataexplorer.norc.org/variables/8023/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------|:-----|
+#'  |2022  |3257 |75  |205 |1         |6              |3544  |
+#'  |Total |3257 |75  |205 |1         |6              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name rfmly18
+NULL
+
+
+#'  R is not related to another adult in hh
+#' 
+#'  rntrltd18
+#' 
+#' Question Is there anyone in your household who you are not related to? For example, an adult roommate or lodger?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `rntrltd18`](https://gssdataexplorer.norc.org/variables/8027/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------|:-----|
+#'  |2022  |3265 |70  |202 |1          |1         |5              |3544  |
+#'  |Total |3265 |70  |202 |1          |1         |5              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name rntrltd18
+NULL
+
+
 #'  R is extended family of child under 18 in hh
 #' 
 #'  rrltu18
@@ -13,13 +127,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rrltu18`](https://gssdataexplorer.norc.org/variables/8029/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------|:-----|
+#'  |2022  |3205 |75  |256 |2         |6              |3544  |
+#'  |Total |3205 |75  |256 |2         |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -45,13 +165,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rnrltu18`](https://gssdataexplorer.norc.org/variables/8026/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------|:-----|
+#'  |2022  |3216 |13  |307 |1          |1         |6              |3544  |
+#'  |Total |3216 |13  |307 |1          |1         |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -77,13 +203,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rgprntu18`](https://gssdataexplorer.norc.org/variables/8025/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------|:-----|
+#'  |2022  |3194 |26  |318 |1         |5              |3544  |
+#'  |Total |3194 |26  |318 |1         |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -110,13 +242,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rbioprnt`](https://gssdataexplorer.norc.org/variables/8020/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |skipped on web |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------|:-----|
+#'  |2022  |3010 |433 |94 |1         |6              |3544  |
+#'  |Total |3010 |433 |94 |1         |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -142,13 +280,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `radptprnt`](https://gssdataexplorer.norc.org/variables/8018/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:--------------|:-----|
+#'  |2022  |3174 |38  |327 |5              |3544  |
+#'  |Total |3174 |38  |327 |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -174,13 +318,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rstpprnt`](https://gssdataexplorer.norc.org/variables/8031/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------|:-----|
+#'  |2022  |3189 |30  |318 |1         |6              |3544  |
+#'  |Total |3189 |30  |318 |1         |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -206,14 +356,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prnt`](https://gssdataexplorer.norc.org/variables/8017/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |skipped on web |Total |
+#'  |:-----|:----|:---|:--|:--------------|:-----|
+#'  |2022  |3016 |432 |94 |2              |3544  |
+#'  |Total |3016 |432 |94 |2              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -221,129 +376,6 @@ NULL
 #' @keywords variable
 #' @md
 #' @name prnt
-NULL
-
-
-#'  Total children under 18 in hh (experimental verison)
-#' 
-#'  childs_exp
-#' 
-#' Question Calculated variable: Total count of children under 18 in household 
-#'  As of 2024, CHILDS_EXP has been calculated to only account for 0 to 6+ children in the household. This has been retroactively applied to all previous years of CHILDS_EXP. The original CHILDS_EXP containing data in 2022 has been renamed CHILDS_EXP_22.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `8` 8 or more
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `childs_exp`](https://gssdataexplorer.norc.org/variables/7999/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' 
-#' @keywords variable
-#' @md
-#' @name childs_exp
-NULL
-
-
-#'  Number in family of r (hef)
-#' 
-#'  respnumh
-#' 
-#' Question Number in family of person who was respondent - selected from Household Enumeration Form
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` 1st person
-#'   * `2` 2nd person
-#'   * `3` 3rd person
-#'   * `4` 4th person
-#'   * `5` 5th person
-#'   * `6` 6th person
-#'   * `7` 7th person
-#'   * `8` 8th person
-#'   * `9` 9th person
-#'   * `10` 10th person
-#'   * `11` 11th person
-#'   * `12` 12th person
-#'   * `13` 13th person
-#'   * `14` 14th person
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `respnumh`](https://gssdataexplorer.norc.org/variables/8037/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name respnumh
-NULL
-
-
-#'  Number of household roster informant
-#' 
-#'  hefinfo1
-#' 
-#' Question Number in family of person who was household informant (i.e. who provided information on household members).
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` 1st person
-#'   * `2` 2nd person
-#'   * `3` 3rd person
-#'   * `4` 4th person
-#'   * `5` 5th person
-#'   * `6` 6th person
-#'   * `7` 7th person
-#'   * `8` 8th person
-#'   * `9` 9th person
-#'   * `10` 10th person
-#'   * `11` 11th person
-#'   * `12` 12th person
-#'   * `13` 13th person
-#'   * `14` 14th person
-#'   * `22` non-household person
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `hefinfo1`](https://gssdataexplorer.norc.org/variables/8035/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name hefinfo1
 NULL
 
 

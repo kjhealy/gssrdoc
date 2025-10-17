@@ -24,15 +24,21 @@ Question When faced with a conflict between loyalty to one''s employer and loyal
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5207/vshow}{GSS Data Explorer page for \code{rptcowrk}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab report coworker \tab ask coworker to stop \tab report cowrkr if behav cont \tab not get involved \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 591 \tab 85 \tab 606 \tab 124 \tab 61 \tab 7 \tab 2992 \cr
+   Total \tab 1518 \tab 591 \tab 85 \tab 606 \tab 124 \tab 61 \tab 7 \tab 2992 \cr
+}
 }
 
 \seealso{

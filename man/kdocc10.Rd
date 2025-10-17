@@ -562,15 +562,10 @@ Question What kind of work (is/was) (CHILD'S NAME) doing? This is, what (is/was)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
-}
-
-\section{Link at the GSS}{
-
-For further details see the \href{https://gssdataexplorer.norc.org/variables/6010/vshow}{GSS Data Explorer page for \code{kdocc10}}.
 }
 
 \seealso{

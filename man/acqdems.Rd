@@ -26,15 +26,21 @@ B. How many of do you think are Democrats? Would you sayâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3663/vshow}{GSS Data Explorer page for \code{acqdems}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost all \tab most \tab about half \tab a few \tab none \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3139 \tab 106 \tab 165 \tab 555 \tab 292 \tab 29 \tab 204 \tab 20 \tab 4510 \cr
+   Total \tab 3139 \tab 106 \tab 165 \tab 555 \tab 292 \tab 29 \tab 204 \tab 20 \tab 4510 \cr
+}
 }
 
 \seealso{

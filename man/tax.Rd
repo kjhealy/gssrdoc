@@ -24,42 +24,49 @@ Question Do you consider the amount of federal income tax which you have to pay 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1976, 1977, 1980, 1982, 1983, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/245/vshow}{GSS Data Explorer page for \code{tax}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab too high \tab about right \tab too low \tab r pays no income tax (vol.) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1976 \tab - \tab 871 \tab 488 \tab 9 \tab 74 \tab 49 \tab 8 \tab - \tab 1499 \cr
+   1977 \tab - \tab 995 \tab 423 \tab 11 \tab 33 \tab 61 \tab 7 \tab - \tab 1530 \cr
+   1980 \tab - \tab 988 \tab 391 \tab 4 \tab - \tab 66 \tab 19 \tab - \tab 1468 \cr
+   1982 \tab - \tab 1285 \tab 457 \tab 7 \tab 22 \tab 73 \tab 16 \tab - \tab 1860 \cr
+   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
+   1984 \tab - \tab 917 \tab 475 \tab 8 \tab 29 \tab 30 \tab 14 \tab - \tab 1473 \cr
+   1985 \tab - \tab 925 \tab 493 \tab 7 \tab 59 \tab 47 \tab 3 \tab - \tab 1534 \cr
+   1987 \tab - \tab 1077 \tab 591 \tab 15 \tab 42 \tab 76 \tab 18 \tab - \tab 1819 \cr
+   1988 \tab 504 \tab 533 \tab 380 \tab 10 \tab 19 \tab 33 \tab 2 \tab - \tab 1481 \cr
+   1989 \tab 504 \tab 576 \tab 382 \tab 11 \tab 24 \tab 36 \tab 4 \tab - \tab 1537 \cr
+   1990 \tab 455 \tab 531 \tab 331 \tab 6 \tab - \tab 34 \tab 15 \tab - \tab 1372 \cr
+   1991 \tab 524 \tab 541 \tab 380 \tab 11 \tab - \tab 46 \tab 15 \tab - \tab 1517 \cr
+   1993 \tab 531 \tab 582 \tab 436 \tab 13 \tab - \tab 29 \tab 15 \tab - \tab 1606 \cr
+   1994 \tab 996 \tab 1240 \tab 658 \tab 16 \tab - \tab 60 \tab 22 \tab - \tab 2992 \cr
+   1996 \tab 981 \tab 1242 \tab 589 \tab 16 \tab - \tab 68 \tab 8 \tab - \tab 2904 \cr
+   1998 \tab 950 \tab 1176 \tab 583 \tab 17 \tab - \tab 91 \tab 15 \tab - \tab 2832 \cr
+   2000 \tab 956 \tab 1178 \tab 576 \tab 17 \tab - \tab 74 \tab 16 \tab - \tab 2817 \cr
+   2002 \tab 1841 \tab 546 \tab 345 \tab 9 \tab - \tab 24 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1914 \tab 532 \tab 334 \tab 13 \tab - \tab 18 \tab 1 \tab - \tab 2812 \cr
+   2006 \tab 2507 \tab 1134 \tab 792 \tab 23 \tab - \tab 53 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 671 \tab 729 \tab 560 \tab 21 \tab - \tab 41 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab 763 \tab 631 \tab 580 \tab 23 \tab - \tab 41 \tab 6 \tab - \tab 2044 \cr
+   2012 \tab 666 \tab 636 \tab 603 \tab 29 \tab - \tab 34 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab 824 \tab 956 \tab 683 \tab 30 \tab - \tab 42 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 977 \tab 1011 \tab 774 \tab 48 \tab - \tab 48 \tab 9 \tab - \tab 2867 \cr
+   2018 \tab 774 \tab 829 \tab 664 \tab 38 \tab - \tab 39 \tab 4 \tab - \tab 2348 \cr
+   2021 \tab 1364 \tab 1478 \tab 1082 \tab 74 \tab - \tab 10 \tab - \tab 24 \tab 4032 \cr
+   2022 \tab 1203 \tab 1414 \tab 811 \tab 46 \tab - \tab 57 \tab 4 \tab 9 \tab 3544 \cr
+   Total \tab 21504 \tab 24553 \tab 14861 \tab 532 \tab 302 \tab 1280 \tab 232 \tab 33 \tab 63297 \cr
+}
 }
 
 \seealso{

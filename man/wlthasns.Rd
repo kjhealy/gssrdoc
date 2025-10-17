@@ -23,17 +23,23 @@ Question Now I have some questions about different groups in our society. I'm go
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1181/vshow}{GSS Data Explorer page for \code{wlthasns}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1 - rich \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 - poor \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 17 \tab 73 \tab 214 \tab 437 \tab 286 \tab 143 \tab 57 \tab 128 \tab 17 \tab 1372 \cr
+   1994 \tab 1518 \tab 40 \tab 95 \tab 244 \tab 484 \tab 277 \tab 147 \tab 42 \tab 132 \tab 13 \tab 2992 \cr
+   2000 \tab 1419 \tab 41 \tab 143 \tab 270 \tab 476 \tab 198 \tab 86 \tab 24 \tab 146 \tab 14 \tab 2817 \cr
+   Total \tab 2937 \tab 98 \tab 311 \tab 728 \tab 1397 \tab 761 \tab 376 \tab 123 \tab 406 \tab 44 \tab 7181 \cr
+}
 }
 
 \seealso{

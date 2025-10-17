@@ -28,18 +28,24 @@ Question C. In 1976, you remember that Carter ran for President on the Democrati
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
-   1978 \tab - \tab full \cr
-   1980 \tab - \tab full \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977, 1978, 1980, 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/149/vshow}{GSS Data Explorer page for \code{pres76}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab carter \tab ford \tab other \tab no pres. vote \tab don't know \tab no answer \tab refused \tab Total \cr
+   1977 \tab 542 \tab 528 \tab 425 \tab 9 \tab 3 \tab 7 \tab 16 \tab - \tab 1530 \cr
+   1978 \tab 557 \tab 497 \tab 428 \tab 15 \tab - \tab 14 \tab 17 \tab 4 \tab 1532 \cr
+   1980 \tab 569 \tab 495 \tab 359 \tab 9 \tab 5 \tab 13 \tab 7 \tab 11 \tab 1468 \cr
+   1982 \tab 757 \tab 694 \tab 359 \tab 5 \tab - \tab 28 \tab 6 \tab 11 \tab 1860 \cr
+   Total \tab 2425 \tab 2214 \tab 1571 \tab 38 \tab 8 \tab 62 \tab 46 \tab 26 \tab 6390 \cr
+}
 }
 
 \seealso{

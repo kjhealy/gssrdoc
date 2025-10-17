@@ -25,15 +25,21 @@ Question (In your opinion, which parent should do the following? Who should...) 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7772/vshow}{GSS Data Explorer page for \code{prntadvs}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab the mother mostly \tab the mother somewhat more than the father \tab the mother and father equally \tab the father somewhat more than the mother \tab the father mostly \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2383 \tab 17 \tab 26 \tab 1055 \tab 4 \tab 6 \tab 42 \tab 4 \tab 7 \tab 3544 \cr
+   Total \tab 2383 \tab 17 \tab 26 \tab 1055 \tab 4 \tab 6 \tab 42 \tab 4 \tab 7 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

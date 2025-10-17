@@ -23,21 +23,30 @@ B. All radioactivity is man-made. (Is that true or false?)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3335/vshow}{GSS Data Explorer page for \code{radioact}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 269 \tab 1292 \tab 302 \tab 1 \tab 4510 \cr
+   2008 \tab 518 \tab 293 \tab 1026 \tab 176 \tab 10 \tab 2023 \cr
+   2010 \tab 1103 \tab 175 \tab 625 \tab 139 \tab 2 \tab 2044 \cr
+   2012 \tab 972 \tab 176 \tab 706 \tab 114 \tab 6 \tab 1974 \cr
+   2014 \tab 1299 \tab 208 \tab 894 \tab 134 \tab 3 \tab 2538 \cr
+   2016 \tab 1477 \tab 255 \tab 964 \tab 160 \tab 11 \tab 2867 \cr
+   2018 \tab 1173 \tab 235 \tab 802 \tab 135 \tab 3 \tab 2348 \cr
+   Total \tab 9188 \tab 1611 \tab 6309 \tab 1160 \tab 36 \tab 18304 \cr
+}
 }
 
 \seealso{

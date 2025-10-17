@@ -26,30 +26,36 @@ Question Are the people who work where you work all white, mostly white, about h
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/C/- \tab partial \cr
-   1998 \tab A/C/- \tab partial \cr
-   2000 \tab A/C/- \tab partial \cr
-   2002 \tab A/C/- \tab partial \cr
-   2004 \tab A/C/- \tab partial \cr
-   2006 \tab A/C/- \tab partial \cr
-   2008 \tab A/C/- \tab partial \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/C/- \tab partial \cr
-   2016 \tab A/C/- \tab partial \cr
-   2018 \tab A/C/- \tab partial \cr
-   2021 \tab A/C/- \tab partial \cr
-   2022 \tab A/C/- \tab partial \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
+   A/C/- \tab 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1249/vshow}{GSS Data Explorer page for \code{racwork}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab all white \tab mostly white \tab about half and half \tab mostly black \tab all black \tab works alone \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1990 \tab 495 \tab 276 \tab 387 \tab 98 \tab 25 \tab 8 \tab 1 \tab 58 \tab 24 \tab - \tab 1372 \cr
+   1996 \tab 2199 \tab 182 \tab 333 \tab 130 \tab 25 \tab 6 \tab - \tab 8 \tab 21 \tab - \tab 2904 \cr
+   1998 \tab 1564 \tab 366 \tab 581 \tab 224 \tab 46 \tab 13 \tab - \tab 17 \tab 21 \tab - \tab 2832 \cr
+   2000 \tab 1581 \tab 314 \tab 574 \tab 242 \tab 59 \tab 8 \tab - \tab 15 \tab 24 \tab - \tab 2817 \cr
+   2002 \tab 2156 \tab 155 \tab 291 \tab 117 \tab 28 \tab 7 \tab - \tab 10 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 2220 \tab 163 \tab 259 \tab 131 \tab 25 \tab 3 \tab - \tab 6 \tab 5 \tab - \tab 2812 \cr
+   2006 \tab 3264 \tab 290 \tab 548 \tab 307 \tab 52 \tab 7 \tab - \tab 33 \tab 9 \tab - \tab 4510 \cr
+   2008 \tab 1198 \tab 168 \tab 336 \tab 229 \tab 49 \tab 8 \tab - \tab 30 \tab 5 \tab - \tab 2023 \cr
+   2010 \tab 1284 \tab 159 \tab 358 \tab 167 \tab 37 \tab 4 \tab - \tab 30 \tab 5 \tab - \tab 2044 \cr
+   2012 \tab 1196 \tab 167 \tab 333 \tab 192 \tab 42 \tab 5 \tab - \tab 22 \tab 17 \tab - \tab 1974 \cr
+   2014 \tab 1504 \tab 194 \tab 443 \tab 321 \tab 42 \tab 5 \tab - \tab 23 \tab 6 \tab - \tab 2538 \cr
+   2016 \tab 1735 \tab 210 \tab 483 \tab 340 \tab 42 \tab 11 \tab - \tab 27 \tab 19 \tab - \tab 2867 \cr
+   2018 \tab 1389 \tab 160 \tab 387 \tab 291 \tab 59 \tab 6 \tab - \tab 41 \tab 15 \tab - \tab 2348 \cr
+   2021 \tab 2539 \tab 163 \tab 757 \tab 397 \tab 49 \tab 5 \tab - \tab 78 \tab 30 \tab 14 \tab 4032 \cr
+   2022 \tab 2196 \tab 146 \tab 580 \tab 456 \tab 67 \tab 11 \tab - \tab 71 \tab 14 \tab 3 \tab 3544 \cr
+   Total \tab 26520 \tab 3113 \tab 6650 \tab 3642 \tab 647 \tab 107 \tab 1 \tab 469 \tab 216 \tab 17 \tab 41382 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ Question Thinking about your current employer, how much has your pay changed on 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3874/vshow}{GSS Data Explorer page for \code{paychnge}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab my pay has gone up more than the cost of living \tab my pay has stayed about the same as the cost of living \tab my pay has not kept up with the cost of living \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1165 \tab 199 \tab 291 \tab 348 \tab 10 \tab 10 \tab 2023 \cr
+   Total \tab 1165 \tab 199 \tab 291 \tab 348 \tab 10 \tab 10 \tab 2023 \cr
+}
 }
 
 \seealso{

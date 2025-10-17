@@ -21,19 +21,25 @@ Question What was the most recent year in which you received these performance-b
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2861/vshow}{GSS Data Explorer page for \code{extrayr}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1979 \tab 1987 \tab 1990 \tab 1997 \tab 1998 \tab 1999 \tab 2000 \tab 2001 \tab don't know \tab no answer \tab 1980 \tab 1989 \tab 1994 \tab 1996 \tab 2002 \tab 2003 \tab 2004 \tab 2005 \tab 2008 \tab 2010 \tab 2011 \tab 2012 \tab 2013 \tab 2014 \tab 2006 \tab 2009 \tab 2015 \tab 2016 \tab 2017 \tab 2018 \tab 2019 \tab 2020 \tab 2021 \tab 2022 \tab skipped on web \tab Total \cr
+   2002 \tab 2547 \tab 1 \tab 1 \tab 3 \tab 5 \tab 3 \tab 21 \tab 60 \tab 22 \tab 56 \tab 46 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2006 \tab 4334 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 6 \tab 7 \tab 69 \tab 30 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5 \tab 13 \tab 41 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2014 \tab 2284 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 7 \tab 6 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab 2 \tab 3 \tab 2 \tab 19 \tab 102 \tab 110 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 2162 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 37 \tab 12 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab 2 \tab - \tab - \tab 1 \tab 3 \tab 1 \tab 1 \tab 8 \tab 20 \tab 31 \tab 67 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 3429 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 37 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab 3 \tab 4 \tab 7 \tab 13 \tab 6 \tab 32 \tab 7 \tab 3544 \cr
+   Total \tab 14756 \tab 1 \tab 1 \tab 3 \tab 5 \tab 4 \tab 22 \tab 67 \tab 29 \tab 206 \tab 98 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 13 \tab 41 \tab 1 \tab 4 \tab 5 \tab 2 \tab 19 \tab 103 \tab 113 \tab 1 \tab 1 \tab 8 \tab 22 \tab 34 \tab 71 \tab 7 \tab 13 \tab 6 \tab 32 \tab 7 \tab 15705 \cr
+}
 }
 
 \seealso{

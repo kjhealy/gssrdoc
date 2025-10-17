@@ -24,15 +24,21 @@ Question Do you think of yourself as a trusting person?  Are you...
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2166/vshow}{GSS Data Explorer page for \code{trusting}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very trusting \tab somewht trusting \tab somwht dstrustng \tab very distrusting \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 737 \tab 540 \tab 85 \tab 21 \tab 3 \tab 1 \tab 2832 \cr
+   Total \tab 1445 \tab 737 \tab 540 \tab 85 \tab 21 \tab 3 \tab 1 \tab 2832 \cr
+}
 }
 
 \seealso{

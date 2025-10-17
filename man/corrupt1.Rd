@@ -25,16 +25,23 @@ Question In your opinion, about how many politicians in America are involved in 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4123/vshow}{GSS Data Explorer page for \code{corrupt1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost none \tab a few \tab some \tab quite a lot \tab almost all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 33 \tab 285 \tab 512 \tab 480 \tab 166 \tab 38 \tab 4 \tab 4510 \cr
+   2016 \tab 1477 \tab 24 \tab 270 \tab 482 \tab 418 \tab 156 \tab 25 \tab 15 \tab 2867 \cr
+   Total \tab 4469 \tab 57 \tab 555 \tab 994 \tab 898 \tab 322 \tab 63 \tab 19 \tab 7377 \cr
+}
 }
 
 \seealso{

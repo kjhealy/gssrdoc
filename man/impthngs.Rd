@@ -26,15 +26,21 @@ E. Having nice things.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1442/vshow}{GSS Data Explorer page for \code{impthngs}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly disagree \tab disagree \tab neither agree nor disagree \tab agree \tab strongly agree \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 69 \tab 343 \tab 736 \tab 361 \tab 76 \tab 4 \tab 17 \tab 1606 \cr
+   Total \tab 0 \tab 69 \tab 343 \tab 736 \tab 361 \tab 76 \tab 4 \tab 17 \tab 1606 \cr
+}
 }
 
 \seealso{

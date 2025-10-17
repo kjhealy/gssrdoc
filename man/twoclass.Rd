@@ -25,15 +25,21 @@ C. People can be divided into two classes--the weak and the strong
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1168/vshow}{GSS Data Explorer page for \code{twoclass}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 68 \tab 503 \tab 605 \tab 132 \tab 60 \tab 4 \tab 1372 \cr
+   Total \tab 0 \tab 68 \tab 503 \tab 605 \tab 132 \tab 60 \tab 4 \tab 1372 \cr
+}
 }
 
 \seealso{

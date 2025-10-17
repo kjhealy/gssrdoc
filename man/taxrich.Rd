@@ -27,20 +27,30 @@ A. First, for those with high incomes, are taxes . . .
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2008 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1996 \cr
+   B/C/- \tab 2008, 2021 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4302/vshow}{GSS Data Explorer page for \code{taxrich}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much too high \tab too high \tab about right \tab too low \tab much too low \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 114 \tab 173 \tab 319 \tab 558 \tab 275 \tab 99 \tab 26 \tab - \tab 1819 \cr
+   1996 \tab 1572 \tab 140 \tab 310 \tab 296 \tab 360 \tab 112 \tab 87 \tab 27 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 70 \tab 160 \tab 383 \tab 519 \tab 284 \tab 100 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 982 \tab 170 \tab 214 \tab 245 \tab 265 \tab 104 \tab 39 \tab 4 \tab - \tab 2023 \cr
+   2016 \tab 1477 \tab 104 \tab 210 \tab 326 \tab 482 \tab 212 \tab 40 \tab 16 \tab - \tab 2867 \cr
+   2021 \tab 2029 \tab 98 \tab 240 \tab 329 \tab 614 \tab 423 \tab 143 \tab 144 \tab 12 \tab 4032 \cr
+   Total \tab 9307 \tab 696 \tab 1307 \tab 1898 \tab 2798 \tab 1410 \tab 508 \tab 219 \tab 12 \tab 18155 \cr
+}
 }
 
 \seealso{

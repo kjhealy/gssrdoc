@@ -26,16 +26,23 @@ H. Having political connections?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/- \tab full \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1987 \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4248/vshow}{GSS Data Explorer page for \code{opclout}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 55 \tab 236 \tab 465 \tab 516 \tab 213 \tab 63 \tab 16 \tab - \tab 1819 \cr
+   2021 \tab 2029 \tab 76 \tab 203 \tab 499 \tab 735 \tab 280 \tab 78 \tab 119 \tab 13 \tab 4032 \cr
+   Total \tab 2284 \tab 131 \tab 439 \tab 964 \tab 1251 \tab 493 \tab 141 \tab 135 \tab 13 \tab 5851 \cr
+}
 }
 
 \seealso{

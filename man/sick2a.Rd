@@ -39,15 +39,21 @@ B. And who would you turn to second if you had the flu and needed help around th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4215/vshow}{GSS Data Explorer page for \code{sick2a}}.
+
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab husband, wife, partner \tab mother \tab father \tab daughter \tab daughter-in-law \tab son \tab son-in-law \tab sister \tab brother \tab other blood relative \tab other in-law relative \tab close friend \tab neighbor \tab someone you work with \tab someone at a social services agency \tab someone you pay to help \tab other \tab no one \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 84 \tab 165 \tab 54 \tab 169 \tab 9 \tab 95 \tab 6 \tab 86 \tab 41 \tab 44 \tab 44 \tab 182 \tab 48 \tab 24 \tab 4 \tab 5 \tab 16 \tab 57 \tab 2 \tab 14 \tab 2765 \cr
+   Total \tab 1616 \tab 84 \tab 165 \tab 54 \tab 169 \tab 9 \tab 95 \tab 6 \tab 86 \tab 41 \tab 44 \tab 44 \tab 182 \tab 48 \tab 24 \tab 4 \tab 5 \tab 16 \tab 57 \tab 2 \tab 14 \tab 2765 \cr
+}
 }
 
 \seealso{

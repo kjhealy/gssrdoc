@@ -21,15 +21,21 @@ Question YEARS:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6188/vshow}{GSS Data Explorer page for \code{suiyrs1}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab within the last year \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 4 \tab 40 \tab 41 \tab 43 \tab 45 \tab 46 \tab 47 \tab 48 \tab 49 \tab 5 \tab 50 \tab 51 \tab 52 \tab 53 \tab 55 \tab 56 \tab 59 \tab 6 \tab 60 \tab 67 \tab 7 \tab 70 \tab 75 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2093 \tab 52 \tab 49 \tab 53 \tab 6 \tab 24 \tab 4 \tab 6 \tab 47 \tab 6 \tab 12 \tab 4 \tab 6 \tab 54 \tab 48 \tab 2 \tab 4 \tab 4 \tab 5 \tab 17 \tab 3 \tab 5 \tab 5 \tab 3 \tab 31 \tab 33 \tab 1 \tab 2 \tab 2 \tab 8 \tab 4 \tab 3 \tab 29 \tab 19 \tab 5 \tab 2 \tab 6 \tab 2 \tab 2 \tab 2 \tab 1 \tab 50 \tab 7 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 31 \tab 4 \tab 1 \tab 26 \tab 1 \tab 1 \tab 23 \tab 9 \tab 7 \tab 35 \tab 2867 \cr
+   Total \tab 2093 \tab 52 \tab 49 \tab 53 \tab 6 \tab 24 \tab 4 \tab 6 \tab 47 \tab 6 \tab 12 \tab 4 \tab 6 \tab 54 \tab 48 \tab 2 \tab 4 \tab 4 \tab 5 \tab 17 \tab 3 \tab 5 \tab 5 \tab 3 \tab 31 \tab 33 \tab 1 \tab 2 \tab 2 \tab 8 \tab 4 \tab 3 \tab 29 \tab 19 \tab 5 \tab 2 \tab 6 \tab 2 \tab 2 \tab 2 \tab 1 \tab 50 \tab 7 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 31 \tab 4 \tab 1 \tab 26 \tab 1 \tab 1 \tab 23 \tab 9 \tab 7 \tab 35 \tab 2867 \cr
+}
 }
 
 \seealso{

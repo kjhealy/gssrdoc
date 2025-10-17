@@ -18,14 +18,20 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |C       |partial      |
-#'  |2004 |C       |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |C       |1991, 2004 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prob2`](https://gssdataexplorer.norc.org/variables/5133/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |10 |101 |102 |103 |120 |130 |131 |140 |15 |150 |151 |16 |160 |175 |180 |2  |20 |200 |201 |202 |21 |210 |211 |22 |220 |23 |230 |235 |237 |24 |240 |26 |28 |30 |31 |40 |41 |43 |44 |45 |47 |55 |61 |65 |70 |72 |73 |74 |81 |83 |84 |86 |92 |95 |96 |cant understand answer |11 |115 |133 |191 |192 |29 |46 |50 |75 |80 |85 |91 |94 |Total |
+#'  |:-----|:----|:--|:--|:---|:---|:---|:---|:---|:---|:---|:--|:---|:---|:--|:---|:---|:---|:--|:--|:---|:---|:---|:--|:---|:---|:--|:---|:--|:---|:---|:---|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------------------|:--|:---|:---|:---|:---|:--|:--|:--|:--|:--|:--|:--|:--|:-----|
+#'  |1991  |1356 |11 |4  |1   |1   |2   |3   |1   |2   |3   |1  |4   |1   |1  |1   |1   |1   |17 |9  |4   |1   |1   |4  |3   |2   |1  |1   |1  |1   |1   |3   |2  |2   |4  |1  |19 |1  |5  |2  |6  |1  |1  |1  |4  |1  |2  |1  |3  |6  |2  |1  |1  |1  |1  |3  |1  |1  |1                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |1517  |
+#'  |2004  |2733 |1  |3  |-   |1   |2   |1   |1   |1   |1   |-  |-   |-   |-  |-   |2   |-   |9  |2  |1   |1   |-   |-  |-   |-   |-  |-   |2  |-   |-   |-   |-  |-   |5  |-  |16 |-  |-  |-  |-  |-  |-  |2  |-  |1  |1  |-  |1  |4  |2  |-  |-  |-  |1  |2  |-  |1  |-                      |1  |1   |1   |1   |1   |2  |1  |1  |1  |1  |1  |1  |2  |2812  |
+#'  |Total |4089 |12 |7  |1   |2   |4   |4   |2   |3   |4   |1  |4   |1   |1  |1   |3   |1   |26 |11 |5   |2   |1   |4  |3   |2   |1  |1   |3  |1   |1   |3   |2  |2   |9  |1  |35 |1  |5  |2  |6  |1  |1  |3  |4  |2  |3  |1  |4  |10 |4  |1  |1  |1  |2  |5  |1  |2  |1                      |1  |1   |1   |1   |1   |2  |1  |1  |1  |1  |1  |1  |2  |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -55,14 +61,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |C       |partial      |
-#'  |2004 |C       |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |C       |1991, 2004 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prob3`](https://gssdataexplorer.norc.org/variables/5134/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |101 |103 |150 |175 |2  |20 |202 |21 |210 |211 |22 |240 |26 |30 |43 |55 |72 |73 |84 |10 |120 |132 |165 |27 |3  |47 |Total |
+#'  |:-----|:----|:--|:---|:---|:---|:---|:--|:--|:---|:--|:---|:---|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:---|:---|:---|:--|:--|:--|:-----|
+#'  |1991  |1481 |7  |1   |2   |1   |2   |2  |1  |1   |1  |2   |1   |1  |1   |2  |4  |1  |1  |2  |2  |1  |-  |-   |-   |-   |-  |-  |-  |1517  |
+#'  |2004  |2795 |1  |-   |-   |-   |-   |2  |1  |-   |-  |-   |-   |1  |1   |1  |-  |-  |-  |-  |2  |-  |1  |1   |1   |1   |1  |2  |1  |2812  |
+#'  |Total |4276 |8  |1   |2   |1   |2   |4  |2  |1   |1  |2   |1   |2  |2   |3  |4  |1  |1  |2  |4  |1  |1  |1   |1   |1   |1  |2  |1  |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -92,14 +104,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |C       |partial      |
-#'  |2004 |C       |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |C       |1991, 2004 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prob4`](https://gssdataexplorer.norc.org/variables/5135/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |16 |166 |172 |175 |2  |20 |201 |30 |70 |73 |10 |Total |
+#'  |:-----|:----|:--|:--|:---|:---|:---|:--|:--|:---|:--|:--|:--|:--|:-----|
+#'  |1991  |1506 |1  |1  |1   |1   |1   |1  |1  |1   |1  |1  |1  |-  |1517  |
+#'  |2004  |2810 |-  |-  |-   |-   |-   |-  |-  |-   |1  |-  |-  |1  |2812  |
+#'  |Total |4316 |1  |1  |1   |1   |1   |1  |1  |1   |2  |1  |1  |1  |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -127,14 +145,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |B/C/-   |partial      |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |B/C/-   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlth1`](https://gssdataexplorer.norc.org/variables/5136/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no   |no answer |don't know |Total |
+#'  |:-----|:----|:----|:----|:---------|:----------|:-----|
+#'  |1991  |500  |559  |454  |4         |-          |1517  |
+#'  |2004  |1472 |766  |566  |6         |2          |2812  |
+#'  |Total |1972 |1325 |1020 |10        |2          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -162,14 +187,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |B/C/-   |partial      |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |B/C/-   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlth2`](https://gssdataexplorer.norc.org/variables/5137/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |1991  |500  |58  |955  |4         |1517  |
+#'  |2004  |1472 |104 |1228 |8         |2812  |
+#'  |Total |1972 |162 |2183 |12        |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -197,14 +229,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |B/C/-   |partial      |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |B/C/-   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlth3`](https://gssdataexplorer.norc.org/variables/5138/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |don't know |Total |
+#'  |:-----|:----|:---|:----|:---------|:----------|:-----|
+#'  |1991  |500  |35  |975  |7         |-          |1517  |
+#'  |2004  |1472 |26  |1304 |9         |1          |2812  |
+#'  |Total |1972 |61  |2279 |16        |1          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -232,14 +271,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |B/C/-   |partial      |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |B/C/-   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlth4`](https://gssdataexplorer.norc.org/variables/5139/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |1991  |500  |17  |995  |5         |1517  |
+#'  |2004  |1472 |24  |1309 |7         |2812  |
+#'  |Total |1972 |41  |2304 |12        |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -267,14 +313,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |B/C/-   |partial      |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |B/C/-   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlth5`](https://gssdataexplorer.norc.org/variables/5140/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |1991  |500  |30  |982  |5         |1517  |
+#'  |2004  |1472 |77  |1253 |10        |2812  |
+#'  |Total |1972 |107 |2235 |15        |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -302,14 +355,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |B/C/-   |partial      |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |B/C/-   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlth6`](https://gssdataexplorer.norc.org/variables/5141/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |1991  |500  |73  |927  |2          |15        |1517  |
+#'  |2004  |1472 |135 |1193 |3          |9         |2812  |
+#'  |Total |1972 |208 |2120 |5          |24        |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -337,14 +397,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |B/C/-   |partial      |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |B/C/-   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlth7`](https://gssdataexplorer.norc.org/variables/5142/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |don't know |Total |
+#'  |:-----|:----|:---|:----|:---------|:----------|:-----|
+#'  |1991  |500  |78  |927  |12        |-          |1517  |
+#'  |2004  |1472 |126 |1199 |12        |3          |2812  |
+#'  |Total |1972 |204 |2126 |24        |3          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events

@@ -24,15 +24,21 @@ Question Generally speaking, would you say that America benefits or does not ben
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4877/vshow}{GSS Data Explorer page for \code{nafta2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab benefits \tab does not benefit \tab dont know \tab have never heard of nafta \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 377 \tab 270 \tab 581 \tab 120 \tab 19 \tab 2904 \cr
+   Total \tab 1537 \tab 377 \tab 270 \tab 581 \tab 120 \tab 19 \tab 2904 \cr
+}
 }
 
 \seealso{

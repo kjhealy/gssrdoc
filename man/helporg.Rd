@@ -25,15 +25,21 @@ B. I am willing to work harder than I have to in order to help this organization
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1341/vshow}{GSS Data Explorer page for \code{helporg}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 605 \tab 339 \tab 466 \tab 83 \tab 7 \tab 5 \tab 12 \tab 1517 \cr
+   Total \tab 605 \tab 339 \tab 466 \tab 83 \tab 7 \tab 5 \tab 12 \tab 1517 \cr
+}
 }
 
 \seealso{

@@ -23,22 +23,29 @@ Question Have you ever received a ticket, or been charged by the police, for a t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012 \cr
+   Full \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/684/vshow}{GSS Data Explorer page for \code{ticket}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab refused \tab no answer \tab don't know \tab Total \cr
+   1973 \tab - \tab 637 \tab 865 \tab 1 \tab 1 \tab - \tab 1504 \cr
+   1974 \tab - \tab 614 \tab 869 \tab - \tab 1 \tab - \tab 1484 \cr
+   1976 \tab - \tab 615 \tab 883 \tab - \tab - \tab 1 \tab 1499 \cr
+   1977 \tab - \tab 658 \tab 870 \tab - \tab 2 \tab - \tab 1530 \cr
+   1980 \tab - \tab 763 \tab 699 \tab - \tab 5 \tab 1 \tab 1468 \cr
+   1982 \tab - \tab 842 \tab 1009 \tab 1 \tab 3 \tab 5 \tab 1860 \cr
+   1984 \tab - \tab 798 \tab 668 \tab - \tab 4 \tab 3 \tab 1473 \cr
+   2012 \tab 220 \tab 1112 \tab 637 \tab - \tab 4 \tab 1 \tab 1974 \cr
+   Total \tab 220 \tab 6039 \tab 6500 \tab 2 \tab 20 \tab 11 \tab 12792 \cr
+}
 }
 
 \seealso{

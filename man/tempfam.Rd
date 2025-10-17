@@ -25,16 +25,22 @@ Question B. And do you think that a rise in the world's temperature caused by th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4765/vshow}{GSS Data Explorer page for \code{tempfam}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 222 \tab 358 \tab 509 \tab 222 \tab 46 \tab 160 \tab 40 \tab 1606 \cr
+   1994 \tab 1606 \tab 176 \tab 264 \tab 488 \tab 211 \tab 37 \tab 173 \tab 37 \tab 2992 \cr
+   Total \tab 1655 \tab 398 \tab 622 \tab 997 \tab 433 \tab 83 \tab 333 \tab 77 \tab 4598 \cr
+}
 }
 
 \seealso{

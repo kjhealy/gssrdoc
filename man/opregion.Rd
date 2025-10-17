@@ -26,15 +26,21 @@ K. The part of the country a person comes from?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4251/vshow}{GSS Data Explorer page for \code{opregion}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 30 \tab 104 \tab 235 \tab 575 \tab 566 \tab 38 \tab 16 \tab 1819 \cr
+   Total \tab 255 \tab 30 \tab 104 \tab 235 \tab 575 \tab 566 \tab 38 \tab 16 \tab 1819 \cr
+}
 }
 
 \seealso{

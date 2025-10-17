@@ -22,15 +22,21 @@ Question Are you a charismatic or affiliated with the charismatic movement?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5331/vshow}{GSS Data Explorer page for \code{charisma}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2000 \tab - \tab 149 \tab 2363 \tab 227 \tab 78 \tab 2817 \cr
+   Total \tab 0 \tab 149 \tab 2363 \tab 227 \tab 78 \tab 2817 \cr
+}
 }
 
 \seealso{

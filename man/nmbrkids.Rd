@@ -21,15 +21,21 @@ Question How many children have you ever had? Please include any biological, ado
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7788/vshow}{GSS Data Explorer page for \code{nmbrkids}}.
+
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 11 \tab 14 \tab 2 \tab 3 \tab 31 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2386 \tab 556 \tab 2 \tab 1 \tab 1 \tab 291 \tab 160 \tab 1 \tab 70 \tab 37 \tab 13 \tab 9 \tab 3 \tab 1 \tab 4 \tab 9 \tab 3544 \cr
+   Total \tab 2386 \tab 556 \tab 2 \tab 1 \tab 1 \tab 291 \tab 160 \tab 1 \tab 70 \tab 37 \tab 13 \tab 9 \tab 3 \tab 1 \tab 4 \tab 9 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

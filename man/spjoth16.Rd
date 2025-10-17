@@ -23,16 +23,22 @@ Question Was your (husband/wife) raised Jewish?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3825/vshow}{GSS Data Explorer page for \code{spjoth16}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   2008 \tab 2020 \tab 1 \tab 2 \tab 2023 \cr
+   2012 \tab 1971 \tab 1 \tab 2 \tab 1974 \cr
+   Total \tab 3991 \tab 2 \tab 4 \tab 3997 \cr
+}
 }
 
 \seealso{

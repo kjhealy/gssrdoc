@@ -43,18 +43,24 @@ Question Family income on the 1998, 2000, 2002, and 2004 surveys. For question w
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2000, 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/115/vshow}{GSS Data Explorer page for \code{income98}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllll}{
+   year \tab iap \tab under $1 000 \tab $1 000 to 2 999 \tab $3 000 to 3 999 \tab $4 000 to 4 999 \tab $5 000 to 5 999 \tab $6 000 to 6 999 \tab $7 000 to 7 999 \tab $8 000 to 9 999 \tab $10000 to 12499 \tab $12500 to 14999 \tab $15000 to 17499 \tab $17500 to 19999 \tab $20000 to 22499 \tab $22500 to 24999 \tab $25000 to 29999 \tab $30000 to 34999 \tab $35000 to 39999 \tab $40000 to 49999 \tab $50000 to 59999 \tab $60000 to 74999 \tab $75000 to $89999 \tab $90000 - $109999 \tab $110000 or over \tab don't know \tab no answer \tab refused \tab Total \cr
+   1998 \tab - \tab 36 \tab 32 \tab 24 \tab 32 \tab 35 \tab 33 \tab 47 \tab 59 \tab 94 \tab 98 \tab 103 \tab 76 \tab 126 \tab 121 \tab 179 \tab 201 \tab 175 \tab 264 \tab 192 \tab 210 \tab 123 \tab 107 \tab 136 \tab 114 \tab 19 \tab 196 \tab 2832 \cr
+   2000 \tab - \tab 30 \tab 32 \tab 25 \tab 20 \tab 29 \tab 35 \tab 38 \tab 74 \tab 103 \tab 104 \tab 108 \tab 94 \tab 84 \tab 116 \tab 156 \tab 179 \tab 167 \tab 221 \tab 222 \tab 216 \tab 139 \tab 90 \tab 174 \tab 107 \tab 25 \tab 229 \tab 2817 \cr
+   2002 \tab - \tab 39 \tab 26 \tab 30 \tab 18 \tab 27 \tab 30 \tab 29 \tab 71 \tab 99 \tab 85 \tab 86 \tab 82 \tab 93 \tab 91 \tab 141 \tab 173 \tab 150 \tab 245 \tab 219 \tab 218 \tab 167 \tab 114 \tab 230 \tab 120 \tab 1 \tab 181 \tab 2765 \cr
+   2004 \tab - \tab 42 \tab 27 \tab 23 \tab 22 \tab 24 \tab 38 \tab 25 \tab 35 \tab 70 \tab 91 \tab 93 \tab 61 \tab 85 \tab 81 \tab 137 \tab 167 \tab 143 \tab 220 \tab 229 \tab 244 \tab 178 \tab 152 \tab 295 \tab 120 \tab - \tab 210 \tab 2812 \cr
+   Total \tab 0 \tab 147 \tab 117 \tab 102 \tab 92 \tab 115 \tab 136 \tab 139 \tab 239 \tab 366 \tab 378 \tab 390 \tab 313 \tab 388 \tab 409 \tab 613 \tab 720 \tab 635 \tab 950 \tab 862 \tab 888 \tab 607 \tab 463 \tab 835 \tab 461 \tab 45 \tab 816 \tab 11226 \cr
+}
 }
 
 \seealso{

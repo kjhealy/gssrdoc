@@ -76,16 +76,22 @@ Question Child mental health vignette version number
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   A/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2917/vshow}{GSS Data Explorer page for \code{chldvig}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 31 \tab 32 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab Total \cr
+   2002 \tab 1372 \tab 36 \tab 40 \tab 50 \tab 43 \tab 54 \tab 48 \tab 48 \tab 49 \tab 40 \tab 49 \tab 48 \tab 45 \tab 42 \tab 48 \tab 44 \tab 38 \tab 43 \tab 47 \tab 44 \tab 34 \tab 41 \tab 36 \tab 39 \tab 38 \tab 46 \tab 41 \tab 47 \tab 42 \tab 45 \tab 47 \tab 39 \tab 42 \tab 2765 \cr
+   Total \tab 1372 \tab 36 \tab 40 \tab 50 \tab 43 \tab 54 \tab 48 \tab 48 \tab 49 \tab 40 \tab 49 \tab 48 \tab 45 \tab 42 \tab 48 \tab 44 \tab 38 \tab 43 \tab 47 \tab 44 \tab 34 \tab 41 \tab 36 \tab 39 \tab 38 \tab 46 \tab 41 \tab 47 \tab 42 \tab 45 \tab 47 \tab 39 \tab 42 \tab 2765 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question I want you to think about the person with a mental health problem with 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2973/vshow}{GSS Data Explorer page for \code{mntlrel}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab became stronger \tab was unchanged \tab became worse \tab ended as a result of the problem \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1859 \tab 218 \tab 491 \tab 71 \tab 58 \tab 51 \tab 17 \tab 2765 \cr
+   Total \tab 1859 \tab 218 \tab 491 \tab 71 \tab 58 \tab 51 \tab 17 \tab 2765 \cr
+}
 }
 
 \seealso{

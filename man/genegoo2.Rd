@@ -23,16 +23,23 @@ Question C. Some people say that genetic testing may cause trouble. Others think
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2018 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   A/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5087/vshow}{GSS Data Explorer page for \code{genegoo2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab more good than harm \tab more harm than good \tab don't know \tab no answer \tab it depends \tab Total \cr
+   2004 \tab 2 \tab 1753 \tab 707 \tab 336 \tab 14 \tab - \tab 2812 \cr
+   2018 \tab 1168 \tab 680 \tab 218 \tab 114 \tab 36 \tab 132 \tab 2348 \cr
+   Total \tab 1170 \tab 2433 \tab 925 \tab 450 \tab 50 \tab 132 \tab 5160 \cr
+}
 }
 
 \seealso{

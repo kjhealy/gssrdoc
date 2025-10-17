@@ -27,15 +27,21 @@ Question A. When did you first begin using email?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2619/vshow}{GSS Data Explorer page for \code{emailyr}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab this year (2002) \tab in the last year (2001) \tab 1-2 years ago (2000) \tab 2-3 years ago (1999) \tab 3-4 years ago (1998) \tab 4-5 years ago (1997) \tab 5 or more years ago (1990-1996) \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1271 \tab 43 \tab 114 \tab 184 \tab 219 \tab 194 \tab 189 \tab 534 \tab 4 \tab 13 \tab 2765 \cr
+   Total \tab 1271 \tab 43 \tab 114 \tab 184 \tab 219 \tab 194 \tab 189 \tab 534 \tab 4 \tab 13 \tab 2765 \cr
+}
 }
 
 \seealso{

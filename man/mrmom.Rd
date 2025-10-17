@@ -26,15 +26,21 @@ B. It is not good if the man stays at home and cares for the children and the wo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4403/vshow}{GSS Data Explorer page for \code{mrmom}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1994 \tab 1545 \tab 99 \tab 231 \tab 291 \tab 560 \tab 224 \tab 16 \tab 26 \tab 2992 \cr
+   Total \tab 1545 \tab 99 \tab 231 \tab 291 \tab 560 \tab 224 \tab 16 \tab 26 \tab 2992 \cr
+}
 }
 
 \seealso{

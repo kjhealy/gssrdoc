@@ -24,15 +24,21 @@ B. (Your/Her) health was seriously endangered by the pregnancy?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/700/vshow}{GSS Data Explorer page for \code{abhave2}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1977 \tab - \tab 1204 \tab 249 \tab 65 \tab 12 \tab 1530 \cr
+   Total \tab 0 \tab 1204 \tab 249 \tab 65 \tab 12 \tab 1530 \cr
+}
 }
 
 \seealso{

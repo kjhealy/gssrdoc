@@ -23,16 +23,23 @@ Question Which of the following statements best describes how your working hours
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4579/vshow}{GSS Data Explorer page for \code{sethours}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab employer decides \tab i decide w/limts \tab free to decide \tab no answer \tab don't know \tab Total \cr
+   1998 \tab 1967 \tab 390 \tab 364 \tab 79 \tab 32 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 450 \tab 404 \tab 160 \tab 2 \tab 2 \tab 4510 \cr
+   Total \tab 5459 \tab 840 \tab 768 \tab 239 \tab 34 \tab 2 \tab 7342 \cr
+}
 }
 
 \seealso{

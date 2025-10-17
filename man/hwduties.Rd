@@ -23,16 +23,22 @@ Question Are you the person who is responsible for doing the general domestic du
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4495/vshow}{GSS Data Explorer page for \code{hwduties}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab not available in this year \tab yes i responsible \tab yes me and other \tab no someone else \tab no answer \tab don't know \tab iap \tab Total \cr
+   1989 \tab - \tab 765 \tab 366 \tab 299 \tab 107 \tab - \tab - \tab 1537 \cr
+   1998 \tab - \tab 687 \tab 301 \tab 185 \tab 213 \tab 1 \tab 1445 \tab 2832 \cr
+   Total \tab 0 \tab 1452 \tab 667 \tab 484 \tab 320 \tab 1 \tab 1445 \tab 4369 \cr
+}
 }
 
 \seealso{

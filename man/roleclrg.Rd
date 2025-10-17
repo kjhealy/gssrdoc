@@ -25,15 +25,21 @@ Question Many adults play roles in the lives of children. Please rate the follow
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5107/vshow}{GSS Data Explorer page for \code{roleclrg}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very good \tab good \tab fairly good \tab fairly bad \tab very bad \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 325 \tab 595 \tab 329 \tab 32 \tab 8 \tab 72 \tab 11 \tab 1372 \cr
+   Total \tab 0 \tab 325 \tab 595 \tab 329 \tab 32 \tab 8 \tab 72 \tab 11 \tab 1372 \cr
+}
 }
 
 \seealso{

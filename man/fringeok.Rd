@@ -25,20 +25,26 @@ F. My fringe benefits are good
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2801/vshow}{GSS Data Explorer page for \code{fringeok}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 705 \tab 548 \tab 214 \tab 304 \tab 10 \tab 15 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 636 \tab 539 \tab 211 \tab 301 \tab 31 \tab 16 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 416 \tab 389 \tab 138 \tab 202 \tab 13 \tab 29 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 466 \tab 441 \tab 162 \tab 163 \tab 9 \tab 9 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 536 \tab 520 \tab 156 \tab 176 \tab 26 \tab 34 \tab - \tab 2348 \cr
+   2022 \tab 1553 \tab 639 \tab 752 \tab 266 \tab 253 \tab 37 \tab 18 \tab 26 \tab 3544 \cr
+   Total \tab 8343 \tab 3398 \tab 3189 \tab 1147 \tab 1399 \tab 126 \tab 121 \tab 26 \tab 17749 \cr
+}
 }
 
 \seealso{

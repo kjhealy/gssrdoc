@@ -25,15 +25,21 @@ B. Go on a protest march or demonstration
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4091/vshow}{GSS Data Explorer page for \code{rprtst3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definietly would \tab probably would \tab probably would not \tab definitely would not \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1572 \tab 277 \tab 310 \tab 372 \tab 305 \tab 40 \tab 28 \tab 2904 \cr
+   Total \tab 1572 \tab 277 \tab 310 \tab 372 \tab 305 \tab 40 \tab 28 \tab 2904 \cr
+}
 }
 
 \seealso{

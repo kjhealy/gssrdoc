@@ -25,15 +25,21 @@ E. IF ALREADY ANSWERED, CODE WITHOUT ASKING:  Was (he/she) self-employed or did 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1490/vshow}{GSS Data Explorer page for \code{sphedind}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 100 \tab 101 \tab 102 \tab 11 \tab 110 \tab 111 \tab 112 \tab 120 \tab 121 \tab 130 \tab 132 \tab 142 \tab 150 \tab 151 \tab 152 \tab 160 \tab 161 \tab 162 \tab 171 \tab 172 \tab 181 \tab 182 \tab 192 \tab 20 \tab 200 \tab 211 \tab 212 \tab 230 \tab 231 \tab 242 \tab 250 \tab 251 \tab 252 \tab 270 \tab 271 \tab 281 \tab 282 \tab 291 \tab 30 \tab 311 \tab 312 \tab 320 \tab 322 \tab 331 \tab 340 \tab 342 \tab 351 \tab 352 \tab 360 \tab 362 \tab 370 \tab 372 \tab 380 \tab 392 \tab 400 \tab 401 \tab 402 \tab 41 \tab 410 \tab 412 \tab 42 \tab 420 \tab 421 \tab 432 \tab 441 \tab 442 \tab 460 \tab 461 \tab 470 \tab 471 \tab 472 \tab 50 \tab 500 \tab 501 \tab 502 \tab 521 \tab 530 \tab 540 \tab 542 \tab 550 \tab 562 \tab 571 \tab 580 \tab 581 \tab 582 \tab 591 \tab 60 \tab 601 \tab 610 \tab 611 \tab 612 \tab 620 \tab 621 \tab 632 \tab 640 \tab 641 \tab 642 \tab 650 \tab 660 \tab 672 \tab 681 \tab 682 \tab 702 \tab 711 \tab 712 \tab 721 \tab 722 \tab 732 \tab 742 \tab 751 \tab 752 \tab 760 \tab 761 \tab 770 \tab 771 \tab 782 \tab 800 \tab 801 \tab 802 \tab 812 \tab 820 \tab 831 \tab 832 \tab 841 \tab 842 \tab 850 \tab 880 \tab 881 \tab 882 \tab 890 \tab 900 \tab 901 \tab 910 \tab 921 \tab 922 \tab 931 \tab 932 \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2232 \tab 62 \tab 2 \tab 9 \tab 1 \tab 38 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 2 \tab 2 \tab 6 \tab 3 \tab 2 \tab 5 \tab 1 \tab 3 \tab 3 \tab 4 \tab 3 \tab 2 \tab 5 \tab 1 \tab 4 \tab 1 \tab 1 \tab 4 \tab 6 \tab 2 \tab 2 \tab 1 \tab 1 \tab 7 \tab 12 \tab 2 \tab 7 \tab 1 \tab 1 \tab 5 \tab 3 \tab 4 \tab 1 \tab 5 \tab 4 \tab 5 \tab 8 \tab 8 \tab 2 \tab 1 \tab 4 \tab 2 \tab 1 \tab 3 \tab 20 \tab 4 \tab 1 \tab 11 \tab 10 \tab 6 \tab 5 \tab 2 \tab 4 \tab 2 \tab 10 \tab 1 \tab 7 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 4 \tab 67 \tab 8 \tab 1 \tab 3 \tab 6 \tab 2 \tab 2 \tab 3 \tab 2 \tab 14 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 5 \tab 7 \tab 1 \tab 2 \tab 2 \tab 4 \tab 4 \tab 1 \tab 2 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 3 \tab 3 \tab 2 \tab 2 \tab 1 \tab 20 \tab 3 \tab 2 \tab 3 \tab 3 \tab 2 \tab 1 \tab 6 \tab 12 \tab 3 \tab 1 \tab 2 \tab 24 \tab 13 \tab 103 \tab 2992 \cr
+   Total \tab 2232 \tab 62 \tab 2 \tab 9 \tab 1 \tab 38 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 2 \tab 2 \tab 6 \tab 3 \tab 2 \tab 5 \tab 1 \tab 3 \tab 3 \tab 4 \tab 3 \tab 2 \tab 5 \tab 1 \tab 4 \tab 1 \tab 1 \tab 4 \tab 6 \tab 2 \tab 2 \tab 1 \tab 1 \tab 7 \tab 12 \tab 2 \tab 7 \tab 1 \tab 1 \tab 5 \tab 3 \tab 4 \tab 1 \tab 5 \tab 4 \tab 5 \tab 8 \tab 8 \tab 2 \tab 1 \tab 4 \tab 2 \tab 1 \tab 3 \tab 20 \tab 4 \tab 1 \tab 11 \tab 10 \tab 6 \tab 5 \tab 2 \tab 4 \tab 2 \tab 10 \tab 1 \tab 7 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 4 \tab 67 \tab 8 \tab 1 \tab 3 \tab 6 \tab 2 \tab 2 \tab 3 \tab 2 \tab 14 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 5 \tab 7 \tab 1 \tab 2 \tab 2 \tab 4 \tab 4 \tab 1 \tab 2 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 3 \tab 3 \tab 2 \tab 2 \tab 1 \tab 20 \tab 3 \tab 2 \tab 3 \tab 3 \tab 2 \tab 1 \tab 6 \tab 12 \tab 3 \tab 1 \tab 2 \tab 24 \tab 13 \tab 103 \tab 2992 \cr
+}
 }
 
 \seealso{

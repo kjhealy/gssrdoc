@@ -27,19 +27,26 @@ Who would you have voted for, for President, if you had voted?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989 \cr
+   Full \tab 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/156/vshow}{GSS Data Explorer page for \code{if84who}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab mondale \tab reagan \tab other \tab wouldnt vote \tab don't know \tab no answer \tab Total \cr
+   1985 \tab 1057 \tab 144 \tab 254 \tab 28 \tab 5 \tab 37 \tab 9 \tab 1534 \cr
+   1986 \tab 1007 \tab 142 \tab 225 \tab 26 \tab 2 \tab 61 \tab 7 \tab 1470 \cr
+   1987 \tab 1211 \tab 229 \tab 239 \tab 33 \tab - \tab 88 \tab 19 \tab 1819 \cr
+   1988 \tab 942 \tab 156 \tab 250 \tab 38 \tab - \tab 88 \tab 7 \tab 1481 \cr
+   1989 \tab 1025 \tab 111 \tab 234 \tab 28 \tab - \tab 62 \tab 77 \tab 1537 \cr
+   Total \tab 5242 \tab 782 \tab 1202 \tab 153 \tab 7 \tab 336 \tab 119 \tab 7841 \cr
+}
 }
 
 \seealso{

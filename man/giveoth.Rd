@@ -22,15 +22,21 @@ C. To non-religious charities, organizations, or causes?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1141/vshow}{GSS Data Explorer page for \code{giveoth}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 1000 \tab 10000 \tab 110 \tab 119 \tab 12 \tab 120 \tab 1200 \tab 125 \tab 144 \tab 15 \tab 150 \tab 1500 \tab 15000 \tab 175 \tab 2 \tab 20 \tab 200 \tab 2000 \tab 225 \tab 24 \tab 25 \tab 250 \tab 2500 \tab 260 \tab 30 \tab 300 \tab 3000 \tab 30000 \tab 35 \tab 3500 \tab 40 \tab 400 \tab 45 \tab 450 \tab 47 \tab 480 \tab 5 \tab 50 \tab 500 \tab 5000 \tab 52 \tab 5500 \tab 56 \tab 60 \tab 600 \tab 6000 \tab 7 \tab 700 \tab 75 \tab 750 \tab 8 \tab 80 \tab 800 \tab 8000 \tab 8500 \tab don't know \tab Total \cr
+   1998 \tab 1387 \tab 567 \tab 1 \tab 30 \tab 130 \tab 32 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 5 \tab 16 \tab 5 \tab 1 \tab 1 \tab 1 \tab 32 \tab 88 \tab 13 \tab 1 \tab 2 \tab 20 \tab 12 \tab 1 \tab 1 \tab 14 \tab 46 \tab 7 \tab 1 \tab 7 \tab 1 \tab 8 \tab 16 \tab 1 \tab 2 \tab 1 \tab 1 \tab 10 \tab 94 \tab 59 \tab 3 \tab 2 \tab 1 \tab 1 \tab 4 \tab 6 \tab 1 \tab 1 \tab 2 \tab 9 \tab 1 \tab 1 \tab 2 \tab 6 \tab 1 \tab 1 \tab 161 \tab 2832 \cr
+   Total \tab 1387 \tab 567 \tab 1 \tab 30 \tab 130 \tab 32 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 5 \tab 16 \tab 5 \tab 1 \tab 1 \tab 1 \tab 32 \tab 88 \tab 13 \tab 1 \tab 2 \tab 20 \tab 12 \tab 1 \tab 1 \tab 14 \tab 46 \tab 7 \tab 1 \tab 7 \tab 1 \tab 8 \tab 16 \tab 1 \tab 2 \tab 1 \tab 1 \tab 10 \tab 94 \tab 59 \tab 3 \tab 2 \tab 1 \tab 1 \tab 4 \tab 6 \tab 1 \tab 1 \tab 2 \tab 9 \tab 1 \tab 1 \tab 2 \tab 6 \tab 1 \tab 1 \tab 161 \tab 2832 \cr
+}
 }
 
 \seealso{

@@ -26,16 +26,23 @@ Question Consider a family with a child under school age. What, in your opinion,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
-   2022 \tab A/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/- \tab 2022 \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4467/vshow}{GSS Data Explorer page for \code{famwkbst}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab the mother stays at home and the father works full-time \tab the mother works part-time and the father works full-time \tab both the mother and father work full-time \tab both the mother and father work part-time \tab the father works part-time and the mother works full-time \tab the father stays at home and the mother works full-time \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 672 \tab 379 \tab 416 \tab 113 \tab 60 \tab 2 \tab 7 \tab 316 \tab 9 \tab - \tab 1974 \cr
+   2022 \tab 2383 \tab 219 \tab 252 \tab 231 \tab 94 \tab 2 \tab 4 \tab 341 \tab 7 \tab 11 \tab 3544 \cr
+   Total \tab 3055 \tab 598 \tab 668 \tab 344 \tab 154 \tab 4 \tab 11 \tab 657 \tab 16 \tab 11 \tab 5518 \cr
+}
 }
 
 \seealso{

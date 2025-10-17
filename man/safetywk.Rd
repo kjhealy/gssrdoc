@@ -25,20 +25,26 @@ K. The safety of workers is a high priority with management where I work
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2784/vshow}{GSS Data Explorer page for \code{safetywk}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 770 \tab 815 \tab 136 \tab 37 \tab 21 \tab 17 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 758 \tab 765 \tab 136 \tab 23 \tab 34 \tab 18 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 477 \tab 562 \tab 90 \tab 21 \tab 10 \tab 27 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 547 \tab 602 \tab 73 \tab 12 \tab 8 \tab 8 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 547 \tab 734 \tab 106 \tab 18 \tab 9 \tab 34 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 766 \tab 966 \tab 174 \tab 45 \tab 14 \tab 14 \tab 19 \tab 3544 \cr
+   Total \tab 8336 \tab 3865 \tab 4444 \tab 715 \tab 156 \tab 96 \tab 118 \tab 19 \tab 17749 \cr
+}
 }
 
 \seealso{

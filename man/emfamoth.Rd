@@ -23,16 +23,23 @@ H. Other family members?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2602/vshow}{GSS Data Explorer page for \code{emfamoth}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2446 \tab 233 \tab 103 \tab 35 \tab 2817 \cr
+   2002 \tab 2167 \tab 434 \tab 123 \tab 41 \tab 2765 \cr
+   Total \tab 4613 \tab 667 \tab 226 \tab 76 \tab 5582 \cr
+}
 }
 
 \seealso{

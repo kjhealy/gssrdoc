@@ -26,16 +26,22 @@ A. Of course, no one knows exactly what life after death would be like, but here
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/304/vshow}{GSS Data Explorer page for \code{postlf4}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
+   1983 \tab 389 \tab 228 \tab 293 \tab 333 \tab 262 \tab 83 \tab 11 \tab 1599 \cr
+   1984 \tab 278 \tab 268 \tab 301 \tab 311 \tab 227 \tab 71 \tab 17 \tab 1473 \cr
+   Total \tab 667 \tab 496 \tab 594 \tab 644 \tab 489 \tab 154 \tab 28 \tab 3072 \cr
+}
 }
 
 \seealso{

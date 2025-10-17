@@ -13,14 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B     |partial      |
-#'  |2024 |A/B     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B     |2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racdif3x`](https://gssdataexplorer.norc.org/variables/7965/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
+#'  |2022  |2339 |652 |518 |31         |4              |3544  |
+#'  |Total |2339 |652 |518 |31         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -46,14 +51,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B     |partial      |
-#'  |2024 |A/B     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B     |2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racdif4x`](https://gssdataexplorer.norc.org/variables/7966/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
+#'  |2022  |2339 |342 |822 |37         |4              |3544  |
+#'  |Total |2339 |342 |822 |37         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -78,13 +88,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `worksick`](https://gssdataexplorer.norc.org/variables/7967/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0    |1  |10 |11 |12 |13 |14 |15 |16 |18 |2   |20 |21 |22 |25 |27 |3  |30 |33 |35 |4  |40 |45 |48 |5  |50 |55 |58 |6  |60 |65 |7  |70 |72 |75 |8  |80 |84 |85 |9  |90 |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------|:-----|
+#'  |2022  |1559 |1222 |83 |35 |1  |9  |2  |7  |11 |2  |1  |145 |16 |2  |1  |4  |1  |94 |19 |1  |1  |25 |6  |2  |1  |95 |3  |1  |1  |19 |13 |1  |34 |5  |1  |1  |10 |2  |3  |1  |1  |33 |18         |19        |33             |3544  |
+#'  |Total |1559 |1222 |83 |35 |1  |9  |2  |7  |11 |2  |1  |145 |16 |2  |1  |4  |1  |94 |19 |1  |1  |25 |6  |2  |1  |95 |3  |1  |1  |19 |13 |1  |34 |5  |1  |1  |10 |2  |3  |1  |1  |33 |18         |19        |33             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -381,12 +397,10 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `indus10_next`](https://gssdataexplorer.norc.org/variables/7968/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -953,9 +967,9 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
 #'
 #'
@@ -1198,12 +1212,10 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `other_next`](https://gssdataexplorer.norc.org/variables/8007/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1215,133 +1227,164 @@ NULL
 NULL
 
 
-#'  Fundamentalist - follow-on version
+#'  Partner self-employed, with employees, or work for someone else
 #' 
-#'  fund_next
+#'  cowrkslf2
 #' 
-#' Question Fundamentalism/Liberalism of Respondent's Religion
+#' Question Does/did your (husband/wife/spouse/partner) work without employees or does/did they have employees?
 #' 
 #' 
 #' @section Values: 
 #' 
-#'   * `1` fundamentalist
-#'   * `2` moderate
-#'   * `3` liberal
+#'   * `1` yes, employees
+#'   * `2` no, no employees
 #'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |2018, 2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `fund_next`](https://gssdataexplorer.norc.org/variables/8040/vshow).
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `cowrkslf2`](https://gssdataexplorer.norc.org/variables/8010/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes, employees |no, no employees |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:----------------|:----------|:---------|:--------------|:-----|
+#'  |2018  |2348 |-              |-                |-          |-         |-              |2348  |
+#'  |2021  |4032 |-              |-                |-          |-         |-              |4032  |
+#'  |2022  |3242 |24             |268              |4          |4         |2              |3544  |
+#'  |Total |9622 |24             |268              |4          |4         |2              |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family GSS Next
+#' 
 #' 
 #' @keywords variable
 #' @md
-#' @name fund_next
+#' @name cowrkslf2
 NULL
 
 
-#'  Total people in hh (experimental version)
+#'  Partner work at family business or on family farm
 #' 
-#'  hompop_exp
+#'  cowrkslffam
 #' 
-#' Question Calculated variable: Total people in household according to roster 
-#'  As of 2024, HOMPOP_EXP has been calculated to only account for 0 to 14+ people in the household. This has been retroactively applied to all previous years of HOMPOP_EXP. The original HOMPOP_EXP containing data from in 2022 has been renamed HOMPOP_EXP_22.
+#' Question Does/did your (husband/wife/spouse/partner) work in their own family business or farm
 #' 
 #' 
 #' @section Values: 
 #' 
-#'   * 
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |2018, 2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `hompop_exp`](https://gssdataexplorer.norc.org/variables/8001/vshow).
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `cowrkslffam`](https://gssdataexplorer.norc.org/variables/8014/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |Total |
+#'  |:-----|:----|:---|:--|:-----|
+#'  |2018  |2348 |-   |-  |2348  |
+#'  |2021  |4032 |-   |-  |4032  |
+#'  |2022  |3520 |10  |14 |3544  |
+#'  |Total |9900 |10  |14 |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
-#' @name hompop_exp
+#' @name cowrkslffam
 NULL
 
 
-#'  Initial mode of contact for respondent
+#'  Does partner supervise anyone
 #' 
-#'  modesequence
+#'  cowksup
 #' 
-#' Question SEQUENCE OF MODE ASSIGNMENT FOR RESPONDENT
+#' Question In your (spouse/partner)’s  job, does he or she supervise anyone who is directly responsible to them?
 #' 
 #' 
 #' @section Values: 
 #' 
-#'   * `1` in-person first
-#'   * `2` web-first
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |2018, 2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `modesequence`](https://gssdataexplorer.norc.org/variables/7970/vshow).
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `cowksup`](https://gssdataexplorer.norc.org/variables/8013/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2018  |2348 |-   |-   |-          |-         |2348  |
+#'  |2021  |4032 |-   |-   |-          |-         |4032  |
+#'  |2022  |3377 |52  |104 |7          |4         |3544  |
+#'  |Total |9757 |52  |104 |7          |4         |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
 #' @keywords variable
 #' @md
-#' @name modesequence
+#' @name cowksup
 NULL
 
 
-#'  Respondent height
+#'  Classify place where partners works
 #' 
-#'  rheight
+#'  whatco2
 #' 
-#' Question What is your height? Reported in inches.
+#' Question How would you classify the place where your (husband/wife/spouse/partner) (worked/works) Was this mainly….?
 #' 
 #' 
 #' @section Values: 
 #' 
-#'   * 
+#'   * `1` manufacturing
+#'   * `2` wholesale trade
+#'   * `3` retail trade
+#'   * `4` other (agriculture, construction, service, government, etc.)
 #'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `rheight`](https://gssdataexplorer.norc.org/variables/7971/vshow).
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `whatco2`](https://gssdataexplorer.norc.org/variables/8012/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |manufacturing |wholesale trade |retail trade |other (agriculture, construction, service, government, etc.) |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:-------------|:---------------|:------------|:------------------------------------------------------------|:----------|:---------|:--------------|:-----|
+#'  |2021  |4032 |-             |-               |-            |-                                                            |-          |-         |-              |4032  |
+#'  |2022  |3244 |41            |6               |45           |195                                                          |7          |3         |3              |3544  |
+#'  |Total |7276 |41            |6               |45           |195                                                          |7          |3         |3              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
 #' @keywords variable
 #' @md
-#' @name rheight
+#' @name whatco2
 NULL
 
 

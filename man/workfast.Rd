@@ -25,20 +25,26 @@ B. My job requires that I work very fast
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2775/vshow}{GSS Data Explorer page for \code{workfast}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 388 \tab 716 \tab 601 \tab 69 \tab 9 \tab 13 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 360 \tab 772 \tab 511 \tab 71 \tab 9 \tab 11 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 239 \tab 526 \tab 357 \tab 38 \tab 3 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 292 \tab 587 \tab 334 \tab 27 \tab 5 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 318 \tab 639 \tab 414 \tab 43 \tab 2 \tab 32 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 422 \tab 869 \tab 607 \tab 59 \tab 12 \tab 12 \tab 17 \tab 3544 \cr
+   Total \tab 8336 \tab 2019 \tab 4109 \tab 2824 \tab 307 \tab 40 \tab 97 \tab 17 \tab 17749 \cr
+}
 }
 
 \seealso{

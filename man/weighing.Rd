@@ -25,15 +25,21 @@ Question As part of a laboratory experiment, five students measured the weight o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3483/vshow}{GSS Data Explorer page for \code{weighing}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab ask the teacher to weigh the leaf \tab report the first measurement \tab average all of the weights that were recorded \tab average the highest and lowest weights recorded \tab discard the lowest five weights \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 518 \tab 89 \tab 79 \tab 984 \tab 144 \tab 33 \tab 152 \tab 24 \tab 2023 \cr
+   Total \tab 518 \tab 89 \tab 79 \tab 984 \tab 144 \tab 33 \tab 152 \tab 24 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question How do you feel when you think about differences in wealth between the 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7509/vshow}{GSS Data Explorer page for \code{ineqmad}}.
+
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab 0 - not angry at all \tab 1 \tab 10 - extremely angry \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2029 \tab 266 \tab 76 \tab 132 \tab 109 \tab 124 \tab 125 \tab 356 \tab 168 \tab 229 \tab 143 \tab 50 \tab 68 \tab 147 \tab 10 \tab 4032 \cr
+   Total \tab 2029 \tab 266 \tab 76 \tab 132 \tab 109 \tab 124 \tab 125 \tab 356 \tab 168 \tab 229 \tab 143 \tab 50 \tab 68 \tab 147 \tab 10 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

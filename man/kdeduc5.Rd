@@ -22,15 +22,21 @@ F5. Highest school grade fifth child completed.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1532/vshow}{GSS Data Explorer page for \code{kdeduc5}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2902 \tab 1 \tab 3 \tab 4 \tab 33 \tab 5 \tab 7 \tab 3 \tab 15 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 9 \tab 2992 \cr
+   Total \tab 2902 \tab 1 \tab 3 \tab 4 \tab 33 \tab 5 \tab 7 \tab 3 \tab 15 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 9 \tab 2992 \cr
+}
 }
 
 \seealso{

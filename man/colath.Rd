@@ -23,45 +23,51 @@ B. Should such a person be allowed to teach in a college or university, or not?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/- \tab full \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1972, 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/247/vshow}{GSS Data Explorer page for \code{colath}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab yes, allowed to teach \tab not allowed \tab don't know \tab no answer \tab iap \tab skipped on web \tab Total \cr
+   1972 \tab 644 \tab 894 \tab 72 \tab 3 \tab - \tab - \tab 1613 \cr
+   1973 \tab 610 \tab 842 \tab 47 \tab 5 \tab - \tab - \tab 1504 \cr
+   1974 \tab 619 \tab 810 \tab 53 \tab 2 \tab - \tab - \tab 1484 \cr
+   1976 \tab 619 \tab 847 \tab 33 \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 592 \tab 905 \tab 30 \tab 3 \tab - \tab - \tab 1530 \cr
+   1980 \tab 665 \tab 754 \tab 45 \tab 4 \tab - \tab - \tab 1468 \cr
+   1982 \tab 805 \tab 978 \tab 74 \tab 3 \tab - \tab - \tab 1860 \cr
+   1984 \tab 673 \tab 748 \tab 48 \tab 4 \tab - \tab - \tab 1473 \cr
+   1985 \tab 695 \tab 790 \tab 44 \tab 5 \tab - \tab - \tab 1534 \cr
+   1987 \tab 830 \tab 915 \tab 66 \tab 8 \tab - \tab - \tab 1819 \cr
+   1988 \tab 442 \tab 502 \tab 31 \tab 2 \tab 504 \tab - \tab 1481 \cr
+   1989 \tab 527 \tab 458 \tab 47 \tab 1 \tab 504 \tab - \tab 1537 \cr
+   1990 \tab 460 \tab 403 \tab 51 \tab 3 \tab 455 \tab - \tab 1372 \cr
+   1991 \tab 515 \tab 440 \tab 35 \tab 3 \tab 524 \tab - \tab 1517 \cr
+   1993 \tab 556 \tab 470 \tab 43 \tab 6 \tab 531 \tab - \tab 1606 \cr
+   1994 \tab 1034 \tab 871 \tab 84 \tab 7 \tab 996 \tab - \tab 2992 \cr
+   1996 \tab 1060 \tab 769 \tab 91 \tab 3 \tab 981 \tab - \tab 2904 \cr
+   1998 \tab 1069 \tab 707 \tab 99 \tab 7 \tab 950 \tab - \tab 2832 \cr
+   2000 \tab 1041 \tab 725 \tab 88 \tab 7 \tab 956 \tab - \tab 2817 \cr
+   2002 \tab 556 \tab 350 \tab 17 \tab 1 \tab 1841 \tab - \tab 2765 \cr
+   2004 \tab 568 \tab 305 \tab 24 \tab 1 \tab 1914 \tab - \tab 2812 \cr
+   2006 \tab 1217 \tab 731 \tab 53 \tab 2 \tab 2507 \tab - \tab 4510 \cr
+   2008 \tab 815 \tab 490 \tab 42 \tab 5 \tab 671 \tab - \tab 2023 \cr
+   2010 \tab 767 \tab 473 \tab 36 \tab 5 \tab 763 \tab - \tab 2044 \cr
+   2012 \tab 818 \tab 449 \tab 36 \tab 5 \tab 666 \tab - \tab 1974 \cr
+   2014 \tab 1119 \tab 556 \tab 31 \tab 8 \tab 824 \tab - \tab 2538 \cr
+   2016 \tab 1230 \tab 610 \tab 41 \tab 9 \tab 977 \tab - \tab 2867 \cr
+   2018 \tab 1021 \tab 505 \tab 45 \tab 3 \tab 774 \tab - \tab 2348 \cr
+   2021 \tab 1842 \tab 805 \tab 9 \tab 2 \tab 1357 \tab 17 \tab 4032 \cr
+   2022 \tab 1532 \tab 757 \tab 40 \tab 4 \tab 1203 \tab 8 \tab 3544 \cr
+   Total \tab 24941 \tab 19859 \tab 1455 \tab 121 \tab 19898 \tab 25 \tab 66299 \cr
+}
 }
 
 \seealso{

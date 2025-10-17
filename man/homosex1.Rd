@@ -24,19 +24,27 @@ Question C. And what about sexual relations between two adults of the same sex, 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1994, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4632/vshow}{GSS Data Explorer page for \code{homosex1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab always wrong \tab almost always wrong \tab wrong only sometimes \tab not wrong at all \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 916 \tab 61 \tab 68 \tab 175 \tab 110 \tab 29 \tab 1517 \cr
+   1994 \tab 1545 \tab 854 \tab 53 \tab 84 \tab 234 \tab 133 \tab 89 \tab 2992 \cr
+   1998 \tab 1548 \tab 717 \tab 64 \tab 85 \tab 283 \tab 113 \tab 22 \tab 2832 \cr
+   2008 \tab 658 \tab 733 \tab 67 \tab 88 \tab 421 \tab 43 \tab 13 \tab 2023 \cr
+   2018 \tab 1173 \tab 399 \tab 44 \tab 61 \tab 587 \tab 66 \tab 18 \tab 2348 \cr
+   Total \tab 5082 \tab 3619 \tab 289 \tab 386 \tab 1700 \tab 465 \tab 171 \tab 11712 \cr
+}
 }
 
 \seealso{

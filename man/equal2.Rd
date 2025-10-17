@@ -25,15 +25,21 @@ B. The economy can run only if businessmen make good profits. That benefits ever
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/226/vshow}{GSS Data Explorer page for \code{equal2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 348 \tab 647 \tab 301 \tab 119 \tab 43 \tab 15 \tab 1473 \cr
+   Total \tab 0 \tab 348 \tab 647 \tab 301 \tab 119 \tab 43 \tab 15 \tab 1473 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Question How important to you is the opportunity to be promoted?  Is itâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1302/vshow}{GSS Data Explorer page for \code{imppromo}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab does not apply, volunteered \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 605 \tab 296 \tab 181 \tab 142 \tab 165 \tab 115 \tab 1 \tab 12 \tab 1517 \cr
+   Total \tab 605 \tab 296 \tab 181 \tab 142 \tab 165 \tab 115 \tab 1 \tab 12 \tab 1517 \cr
+}
 }
 
 \seealso{

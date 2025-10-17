@@ -25,15 +25,21 @@ D. I feel that God is punishing me for my sins or lack of spirituality.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2099/vshow}{GSS Data Explorer page for \code{cope4}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal \tab quite a bit \tab somewhat \tab not at all \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 28 \tab 53 \tab 245 \tab 1081 \tab 18 \tab 20 \tab 2832 \cr
+   Total \tab 1387 \tab 28 \tab 53 \tab 245 \tab 1081 \tab 18 \tab 20 \tab 2832 \cr
+}
 }
 
 \seealso{

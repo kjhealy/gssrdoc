@@ -23,30 +23,38 @@ A. Most public officials (people in public office) are not really interested in 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   2006 \tab D/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/543/vshow}{GSS Data Explorer page for \code{anomia7}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 873 \tab 594 \tab 34 \tab 3 \tab 1504 \cr
+   1974 \tab - \tab 948 \tab 496 \tab 37 \tab 3 \tab 1484 \cr
+   1976 \tab - \tab 976 \tab 487 \tab 31 \tab 5 \tab 1499 \cr
+   1977 \tab - \tab 955 \tab 517 \tab 51 \tab 7 \tab 1530 \cr
+   1980 \tab - \tab 1038 \tab 383 \tab 44 \tab 3 \tab 1468 \cr
+   1982 \tab - \tab 1232 \tab 538 \tab 66 \tab 24 \tab 1860 \cr
+   1984 \tab - \tab 997 \tab 434 \tab 35 \tab 7 \tab 1473 \cr
+   1985 \tab - \tab 964 \tab 518 \tab 45 \tab 7 \tab 1534 \cr
+   1987 \tab - \tab 1265 \tab 499 \tab 48 \tab 7 \tab 1819 \cr
+   1988 \tab 504 \tab 639 \tab 300 \tab 36 \tab 2 \tab 1481 \cr
+   1989 \tab 504 \tab 659 \tab 335 \tab 36 \tab 3 \tab 1537 \cr
+   1990 \tab 455 \tab 613 \tab 275 \tab 26 \tab 3 \tab 1372 \cr
+   1991 \tab 524 \tab 664 \tab 287 \tab 40 \tab 2 \tab 1517 \cr
+   1993 \tab 531 \tab 791 \tab 254 \tab 25 \tab 5 \tab 1606 \cr
+   1994 \tab 1737 \tab 923 \tab 299 \tab 29 \tab 4 \tab 2992 \cr
+   2006 \tab 2992 \tab 972 \tab 507 \tab 33 \tab 6 \tab 4510 \cr
+   Total \tab 7247 \tab 14509 \tab 6723 \tab 616 \tab 91 \tab 29186 \cr
+}
 }
 
 \seealso{

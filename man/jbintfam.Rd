@@ -25,16 +25,23 @@ Question How often do you feel that the demands of your job interfere with your 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4614/vshow}{GSS Data Explorer page for \code{jbintfam}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 3492 \tab 51 \tab 101 \tab 364 \tab 293 \tab 206 \tab 1 \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 38 \tab 109 \tab 308 \tab 324 \tab 156 \tab - \tab 5 \tab 2867 \cr
+   Total \tab 5419 \tab 89 \tab 210 \tab 672 \tab 617 \tab 362 \tab 1 \tab 7 \tab 7377 \cr
+}
 }
 
 \seealso{

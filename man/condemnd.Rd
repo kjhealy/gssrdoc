@@ -25,20 +25,26 @@ H. I am free from the conflicting demands that other people make of me
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2803/vshow}{GSS Data Explorer page for \code{condemnd}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 479 \tab 722 \tab 350 \tab 184 \tab 44 \tab 17 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 430 \tab 739 \tab 352 \tab 137 \tab 57 \tab 19 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 273 \tab 539 \tab 215 \tab 109 \tab 23 \tab 28 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 343 \tab 564 \tab 218 \tab 83 \tab 33 \tab 9 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 400 \tab 653 \tab 259 \tab 77 \tab 24 \tab 35 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 523 \tab 866 \tab 376 \tab 135 \tab 34 \tab 21 \tab 34 \tab 3544 \cr
+   Total \tab 8345 \tab 2448 \tab 4083 \tab 1770 \tab 725 \tab 215 \tab 129 \tab 34 \tab 17749 \cr
+}
 }
 
 \seealso{

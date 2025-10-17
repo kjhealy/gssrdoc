@@ -62,15 +62,21 @@ C2. Why did you become a (FIRST/SECOND MENTION)?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1056/vshow}{GSS Data Explorer page for \code{switwhy1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllll}{
+   year \tab iap \tab marriage \tab marr & location \tab marr & theology \tab marr. & clergy \tab marr & positive blf \tab friends \tab frnds & family \tab frnds & location \tab frnds & clergy \tab frnds & other pos \tab family \tab fam & location \tab fam & theo diss \tab fam & positive blf \tab fam & misc \tab location \tab loc & theo dissat \tab loc and clergy \tab loc & positive blf \tab theological diss \tab theo diss & clergy \tab clergy \tab clergy & missing \tab other, to change \tab other, misc \tab other, pos blfs \tab other, pos other \tab other, missing \tab no answer \tab Total \cr
+   1988 \tab 945 \tab 71 \tab 1 \tab 2 \tab 1 \tab 3 \tab 47 \tab 2 \tab 4 \tab 2 \tab 1 \tab 46 \tab 1 \tab 2 \tab 1 \tab 1 \tab 30 \tab 1 \tab 2 \tab 3 \tab 63 \tab 1 \tab 8 \tab 1 \tab 3 \tab 31 \tab 14 \tab 8 \tab 1 \tab 185 \tab 1481 \cr
+   Total \tab 945 \tab 71 \tab 1 \tab 2 \tab 1 \tab 3 \tab 47 \tab 2 \tab 4 \tab 2 \tab 1 \tab 46 \tab 1 \tab 2 \tab 1 \tab 1 \tab 30 \tab 1 \tab 2 \tab 3 \tab 63 \tab 1 \tab 8 \tab 1 \tab 3 \tab 31 \tab 14 \tab 8 \tab 1 \tab 185 \tab 1481 \cr
+}
 }
 
 \seealso{

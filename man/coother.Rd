@@ -237,20 +237,27 @@ Question A. What specific denomination is that, if any?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014, 2016, 2018, 2021, 2022 \cr
+   B/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6171/vshow}{GSS Data Explorer page for \code{coother}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllll}{
+   year \tab iap \tab jehovah's witnesses \tab pentecostal \tab christian; central christian \tab church of christ \tab mormon \tab amish \tab assembly of christ \tab no answer \tab independent \tab evangelical, evangelist \tab nazarene \tab assembly of god \tab christian scientist \tab mennonite \tab unitarian, universalist \tab united church of christ \tab wesleyan \tab hebrew israelites \tab churches of god (except with christ and holiness) \tab congregationalist, 1st congreg \tab holiness; church of holiness \tab 7th day adventist \tab Total \cr
+   2012 \tab 1971 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2525 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2850 \tab 1 \tab 1 \tab 7 \tab - \tab 1 \tab - \tab - \tab 4 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2333 \tab 2 \tab 3 \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 4026 \tab - \tab 2 \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab 3534 \tab 1 \tab - \tab - \tab - \tab 3 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 2 \tab 3544 \cr
+   Total \tab 17239 \tab 6 \tab 10 \tab 11 \tab 3 \tab 8 \tab 1 \tab 1 \tab 7 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 17303 \cr
+}
 }
 
 \seealso{

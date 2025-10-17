@@ -25,16 +25,23 @@ Question Which of the following best applies to the sharing of household work be
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4437/vshow}{GSS Data Explorer page for \code{hhwkfair}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab i do much more than my fair share of hh work \tab i do a bit more than my fair share of hh work \tab i do roughly my fair share of hh work \tab i do a bit less than my fair share of hh work \tab i do much less than my fair share of hh work \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2058 \tab 139 \tab 136 \tab 283 \tab 87 \tab 35 \tab 3 \tab 24 \tab 2765 \cr
+   2012 \tab 1274 \tab 149 \tab 129 \tab 253 \tab 105 \tab 56 \tab 4 \tab 4 \tab 1974 \cr
+   Total \tab 3332 \tab 288 \tab 265 \tab 536 \tab 192 \tab 91 \tab 7 \tab 28 \tab 4739 \cr
+}
 }
 
 \seealso{

@@ -28,25 +28,32 @@ D. I don''t have a steady partner.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab -/-/- \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2004, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4151/vshow}{GSS Data Explorer page for \code{posslq}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab i am married and living in the same household as my husband or wife \tab i am living as married and my partner and i together live in the same household \tab i have a husband or wife or steady partner, but we don't live in the same household \tab i don't have a steady partner \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1986 \tab - \tab 810 \tab 48 \tab 104 \tab 490 \tab 18 \tab - \tab - \tab 1470 \cr
+   2000 \tab 269 \tab 1027 \tab 224 \tab 213 \tab 905 \tab 178 \tab 1 \tab - \tab 2817 \cr
+   2004 \tab 1596 \tab 604 \tab 93 \tab 112 \tab 385 \tab 18 \tab 4 \tab - \tab 2812 \cr
+   2006 \tab 2992 \tab 740 \tab 114 \tab 131 \tab 520 \tab 8 \tab 5 \tab - \tab 4510 \cr
+   2012 \tab 976 \tab 428 \tab 82 \tab 87 \tab 391 \tab 4 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab 1264 \tab 546 \tab 100 \tab 126 \tab 496 \tab 4 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 1443 \tab 579 \tab 121 \tab 151 \tab 573 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 1166 \tab 490 \tab 116 \tab 86 \tab 489 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab 2045 \tab 945 \tab 169 \tab 129 \tab 727 \tab 1 \tab 2 \tab 14 \tab 4032 \cr
+   2022 \tab 1764 \tab 704 \tab 150 \tab 128 \tab 769 \tab 12 \tab 9 \tab 8 \tab 3544 \cr
+   Total \tab 13515 \tab 6873 \tab 1217 \tab 1267 \tab 5745 \tab 244 \tab 29 \tab 22 \tab 28912 \cr
+}
 }
 
 \seealso{

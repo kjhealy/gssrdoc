@@ -17,13 +17,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knowkid3`](https://gssdataexplorer.norc.org/variables/2653/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost all of the time |most of the time |about half of the time |some of the time |no answer |Total |
+#'  |:-----|:----|:----------------------|:----------------|:----------------------|:----------------|:---------|:-----|
+#'  |2000  |2745 |48                     |13               |2                      |2                |7         |2817  |
+#'  |Total |2745 |48                     |13               |2                      |2                |7         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -53,13 +59,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knowkid4`](https://gssdataexplorer.norc.org/variables/2654/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost all of the time |most of the time |about half of the time |some of the time |no answer |Total |
+#'  |:-----|:----|:----------------------|:----------------|:----------------------|:----------------|:---------|:-----|
+#'  |2000  |2794 |12                     |4                |1                      |1                |5         |2817  |
+#'  |Total |2794 |12                     |4                |1                      |1                |5         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -89,16 +101,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |2000, 2016, 2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `huclean`](https://gssdataexplorer.norc.org/variables/2655/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very clean |clean |so-so |not very clean |dirty |don't know |no answer |interviewer never saw interior of the respondent's hu |not available in this year |Total |
+#'  |:-----|:----|:----------|:-----|:-----|:--------------|:-----|:----------|:---------|:-----------------------------------------------------|:--------------------------|:-----|
+#'  |2000  |-    |1169       |733   |330   |108            |70    |346        |61        |-                                                     |-                          |2817  |
+#'  |2016  |-    |705        |951   |337   |124            |60    |36         |207       |447                                                   |-                          |2867  |
+#'  |2018  |-    |566        |684   |263   |84             |53    |18         |295       |385                                                   |-                          |2348  |
+#'  |2022  |1864 |370        |452   |246   |82             |34    |13         |-         |483                                                   |-                          |3544  |
+#'  |Total |1864 |2810       |2820  |1176  |398            |217   |413        |563       |1315                                                  |0                          |11576 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -131,13 +149,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `homeband`](https://gssdataexplorer.norc.org/variables/2656/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |telephone line |dsl |cable |satellite |wireless |cellphone |other |not at all |don't know |Total |
+#'  |:-----|:---|:--------------|:---|:-----|:---------|:--------|:---------|:-----|:----------|:----------|:-----|
+#'  |2004  |992 |785            |385 |400   |5         |2        |2         |4     |213        |24         |2812  |
+#'  |Total |992 |785            |385 |400   |5         |2        |2         |4     |213        |24         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -171,13 +195,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `freemns1`](https://gssdataexplorer.norc.org/variables/2657/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |want:doing what i want |autonomy:self-realization |choices:making decision |rights:religion and speech |movement:movement and travel |negative:slave surbordinate discrimination |citizen:political participation |security:economic independence |other |don't know |Total |
+#'  |:-----|:----|:----------------------|:-------------------------|:-----------------------|:--------------------------|:----------------------------|:------------------------------------------|:-------------------------------|:------------------------------|:-----|:----------|:-----|
+#'  |2000  |1403 |461                    |64                        |161                     |272                        |115                          |73                                         |56                              |51                             |137   |24         |2817  |
+#'  |Total |1403 |461                    |64                        |161                     |272                        |115                          |73                                         |56                              |51                             |137   |24         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -211,13 +241,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `freemns2`](https://gssdataexplorer.norc.org/variables/2658/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |want:doing what i want |autonomy:self-realization |choices:making decision |rights:religion and speech |movement:movement and travel |negative:slave surbordinate discrimination |citizen:political participation |security:economic independence |other |Total |
+#'  |:-----|:----|:----------------------|:-------------------------|:-----------------------|:--------------------------|:----------------------------|:------------------------------------------|:-------------------------------|:------------------------------|:-----|:-----|
+#'  |2000  |2237 |111                    |22                        |49                      |160                        |62                           |53                                         |43                              |39                             |41    |2817  |
+#'  |Total |2237 |111                    |22                        |49                      |160                        |62                           |53                                         |43                              |39                             |41    |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -251,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `freemns3`](https://gssdataexplorer.norc.org/variables/2659/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |want:doing what i want |autonomy:self-realization |choices:making decision |rights:religion and speech |movement:movement and travel |negative:slave surbordinate discrimination |citizen:political participation |security:economic independence |other |Total |
+#'  |:-----|:----|:----------------------|:-------------------------|:-----------------------|:--------------------------|:----------------------------|:------------------------------------------|:-------------------------------|:------------------------------|:-----|:-----|
+#'  |2000  |2623 |28                     |9                         |21                      |53                         |14                           |18                                         |16                              |17                             |18    |2817  |
+#'  |Total |2623 |28                     |9                         |21                      |53                         |14                           |18                                         |16                              |17                             |18    |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -292,13 +334,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `freeexp1`](https://gssdataexplorer.norc.org/variables/2660/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |moving:driving travel |leisure:recreation enjoyable activity |social:engagement with family or institutions |negative:no obigation, divorced, being alone |inner:spiritual and religious freedom |choices:variant of making choices |citizen:political participation |security:economic security and independence |other |no answer |Total |
+#'  |:-----|:----|:---------------------|:-------------------------------------|:---------------------------------------------|:--------------------------------------------|:-------------------------------------|:---------------------------------|:-------------------------------|:-------------------------------------------|:-----|:---------|:-----|
+#'  |2000  |1403 |235                   |131                                   |94                                            |120                                          |134                                   |81                                |163                             |197                                         |98    |161       |2817  |
+#'  |Total |1403 |235                   |131                                   |94                                            |120                                          |134                                   |81                                |163                             |197                                         |98    |161       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -333,13 +381,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `freeexp2`](https://gssdataexplorer.norc.org/variables/2661/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |moving:driving travel |leisure:recreation enjoyable activity |social:engagement with family or institutions |negative:no obigation, divorced, being alone |inner:spiritual and religious freedom |choices:variant of making choices |citizen:political participation |security:economic security and independence |other |Total |
+#'  |:-----|:----|:---------------------|:-------------------------------------|:---------------------------------------------|:--------------------------------------------|:-------------------------------------|:---------------------------------|:-------------------------------|:-------------------------------------------|:-----|:-----|
+#'  |2000  |2400 |78                    |38                                    |58                                            |32                                           |48                                    |15                                |53                              |79                                          |16    |2817  |
+#'  |Total |2400 |78                    |38                                    |58                                            |32                                           |48                                    |15                                |53                              |79                                          |16    |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -374,13 +428,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `freeexp3`](https://gssdataexplorer.norc.org/variables/2662/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |moving:driving travel |leisure:recreation enjoyable activity |social:engagement with family or institutions |negative:no obigation, divorced, being alone |inner:spiritual and religious freedom |choices:variant of making choices |citizen:political participation |security:economic security and independence |other |Total |
+#'  |:-----|:----|:---------------------|:-------------------------------------|:---------------------------------------------|:--------------------------------------------|:-------------------------------------|:---------------------------------|:-------------------------------|:-------------------------------------------|:-----|:-----|
+#'  |2000  |2710 |13                    |15                                    |15                                            |8                                            |13                                    |3                                 |17                              |19                                          |4     |2817  |
+#'  |Total |2710 |13                    |15                                    |15                                            |8                                            |13                                    |3                                 |17                              |19                                          |4     |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom

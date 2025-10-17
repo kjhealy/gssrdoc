@@ -23,15 +23,21 @@ Question If you were laid off, how easy do you think it would be for you to find
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3883/vshow}{GSS Data Explorer page for \code{findnwjb}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very easy \tab somewhat easy \tab not at all easy \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1165 \tab 181 \tab 280 \tab 370 \tab 14 \tab 13 \tab 2023 \cr
+   Total \tab 1165 \tab 181 \tab 280 \tab 370 \tab 14 \tab 13 \tab 2023 \cr
+}
 }
 
 \seealso{

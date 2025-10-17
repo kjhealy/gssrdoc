@@ -43,25 +43,32 @@ L. Relationship of twelfth person to head of household?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5450/vshow}{GSS Data Explorer page for \code{relhh12}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab child, not specified \tab grandchild, great-grandchild \tab son-in-law, daughter-in-law \tab natural/biological child \tab niece or nephew \tab parent \tab sibling-in-law \tab other relative (great-aunt, grandniece, etc.) \tab friend \tab roommate, housemate \tab child of non-relative \tab parent-in-law \tab no answer \tab cousin \tab other non-relative (employee, boarder) \tab not available in this release \tab Total \cr
+   2000 \tab 2813 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2764 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 4498 \tab - \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 2019 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 2035 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab 1 \tab - \tab 2 \tab 2 \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1971 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2535 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2862 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab 2867 \cr
+   2018 \tab 2343 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 2 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   Total \tab 26652 \tab 3 \tab 4 \tab 3 \tab 4 \tab 3 \tab 4 \tab 2 \tab 2 \tab 6 \tab 4 \tab 2 \tab 5 \tab 2 \tab 1 \tab 1 \tab 4032 \tab 30730 \cr
+}
 }
 
 \seealso{

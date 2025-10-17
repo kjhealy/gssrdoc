@@ -25,16 +25,23 @@ D. Tried to meet new people for social purposes?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2535/vshow}{GSS Data Explorer page for \code{peoplegn}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab Total \cr
+   2000 \tab 1884 \tab 560 \tab 170 \tab 182 \tab 21 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1372 \tab 806 \tab 190 \tab 164 \tab 7 \tab 220 \tab 6 \tab 2765 \cr
+   Total \tab 3256 \tab 1366 \tab 360 \tab 346 \tab 28 \tab 220 \tab 6 \tab 5582 \cr
+}
 }
 
 \seealso{

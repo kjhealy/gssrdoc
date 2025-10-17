@@ -31,21 +31,30 @@ Question If you wanted to learn about scientific issues such as global warming o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab C/-/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
+   C/-/- \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3316/vshow}{GSS Data Explorer page for \code{seeksci}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab newspapers \tab magazines \tab the internet \tab books/other printed material \tab tv \tab radio \tab government agencies \tab family \tab friends/colleagues \tab other \tab don't know \tab no answer \tab library \tab Total \cr
+   2006 \tab 2646 \tab 117 \tab 108 \tab 921 \tab 181 \tab 398 \tab 21 \tab 4 \tab 23 \tab 16 \tab 38 \tab 35 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 87 \tab 73 \tab 791 \tab 117 \tab 324 \tab 15 \tab 6 \tab 19 \tab 14 \tab 8 \tab 32 \tab 2 \tab 17 \tab 2023 \cr
+   2010 \tab 1761 \tab 12 \tab 12 \tab 157 \tab 40 \tab 40 \tab 3 \tab 9 \tab 3 \tab 2 \tab - \tab 3 \tab - \tab 2 \tab 2044 \cr
+   2012 \tab 972 \tab 34 \tab 40 \tab 599 \tab 68 \tab 190 \tab 13 \tab 10 \tab 11 \tab 5 \tab 1 \tab 25 \tab 4 \tab 2 \tab 1974 \cr
+   2014 \tab 1299 \tab 51 \tab 39 \tab 789 \tab 76 \tab 191 \tab 23 \tab 25 \tab 10 \tab 17 \tab 6 \tab 8 \tab - \tab 4 \tab 2538 \cr
+   2016 \tab 1477 \tab 42 \tab 45 \tab 927 \tab 101 \tab 175 \tab 16 \tab 24 \tab 19 \tab 11 \tab - \tab 15 \tab 5 \tab 10 \tab 2867 \cr
+   2018 \tab 1173 \tab 28 \tab 25 \tab 791 \tab 95 \tab 145 \tab 14 \tab 20 \tab 22 \tab 11 \tab - \tab 14 \tab - \tab 10 \tab 2348 \cr
+   Total \tab 9846 \tab 371 \tab 342 \tab 4975 \tab 678 \tab 1463 \tab 105 \tab 98 \tab 107 \tab 76 \tab 53 \tab 132 \tab 13 \tab 45 \tab 18304 \cr
+}
 }
 
 \seealso{

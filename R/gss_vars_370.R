@@ -14,19 +14,28 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `condrift`](https://gssdataexplorer.norc.org/variables/3341/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |true |false |don't know |no answer |Total |
+#'  |:-----|:----|:----|:-----|:----------|:---------|:-----|
+#'  |2006  |2646 |1464 |163   |235        |2         |4510  |
+#'  |2008  |518  |1148 |155   |193        |9         |2023  |
+#'  |2010  |1103 |744  |86    |108        |3         |2044  |
+#'  |2012  |972  |812  |74    |110        |6         |1974  |
+#'  |2014  |1299 |997  |130   |110        |2         |2538  |
+#'  |2016  |1477 |1123 |125   |134        |8         |2867  |
+#'  |2018  |1173 |923  |140   |107        |5         |2348  |
+#'  |Total |9188 |7211 |873   |997        |35        |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -53,19 +62,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `evolved`](https://gssdataexplorer.norc.org/variables/3342/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |true |false |don't know |no answer |Total |
+#'  |:-----|:-----|:----|:-----|:----------|:---------|:-----|
+#'  |2006  |2646  |779  |791   |290        |4         |4510  |
+#'  |2008  |518   |665  |651   |177        |12        |2023  |
+#'  |2010  |1103  |449  |360   |125        |7         |2044  |
+#'  |2012  |1457  |243  |199   |68         |7         |1974  |
+#'  |2014  |1299  |590  |511   |133        |5         |2538  |
+#'  |2016  |2163  |353  |260   |84         |7         |2867  |
+#'  |2018  |1758  |294  |230   |64         |2         |2348  |
+#'  |Total |10944 |3373 |3002  |941        |44        |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -91,13 +109,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `evolved1`](https://gssdataexplorer.norc.org/variables/3549/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |true |false |can't choose |no answer |Total |
+#'  |:-----|:----|:----|:-----|:------------|:---------|:-----|
+#'  |2012  |1489 |340  |94    |46           |5         |1974  |
+#'  |Total |1489 |340  |94    |46           |5         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -124,14 +148,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |A/B     |partial      |
-#'  |2018 |A/B     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B     |2016, 2018 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `evolved2`](https://gssdataexplorer.norc.org/variables/6303/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |true |false |don't know |no answer |Total |
+#'  |:-----|:----|:----|:-----|:----------|:---------|:-----|
+#'  |2016  |2181 |498  |84    |100        |4         |2867  |
+#'  |2018  |1763 |408  |84    |90         |3         |2348  |
+#'  |Total |3944 |906  |168   |190        |7         |5215  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -158,19 +188,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `earthsun`](https://gssdataexplorer.norc.org/variables/3343/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |earth around sun |sun around earth |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:----------------|:----------|:---------|:-----|
+#'  |2006  |2646 |1372             |342              |149        |1         |4510  |
+#'  |2008  |518  |1073             |311              |112        |9         |2023  |
+#'  |2010  |1103 |699              |169              |71         |2         |2044  |
+#'  |2012  |972  |707              |203              |84         |8         |1974  |
+#'  |2014  |1299 |926              |247              |63         |3         |2538  |
+#'  |2016  |1477 |987              |314              |82         |7         |2867  |
+#'  |2018  |1173 |836              |281              |54         |4         |2348  |
+#'  |Total |9188 |6600             |1867             |615        |34        |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -199,19 +238,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `solarrev`](https://gssdataexplorer.norc.org/variables/3344/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |one day |one month |one year |other time period (if vol.) |don't know |no answer |Total |
+#'  |:-----|:-----|:-------|:---------|:--------|:---------------------------|:----------|:---------|:-----|
+#'  |2006  |3137  |261     |15        |977      |2                           |117        |1         |4510  |
+#'  |2008  |950   |213     |26        |756      |1                           |77         |-         |2023  |
+#'  |2010  |1343  |126     |18        |495      |2                           |58         |2         |2044  |
+#'  |2012  |1259  |119     |10        |525      |1                           |52         |8         |1974  |
+#'  |2014  |1609  |196     |17        |644      |1                           |66         |5         |2538  |
+#'  |2016  |1873  |210     |22        |702      |-                           |52         |8         |2867  |
+#'  |2018  |1508  |159     |8         |624      |1                           |43         |5         |2348  |
+#'  |Total |11679 |1284    |116       |4723     |8                           |465        |29        |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -238,13 +286,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2010 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2010  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `tomatoes`](https://gssdataexplorer.norc.org/variables/3345/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |true |false |can't choose |no answer |Total |
+#'  |:-----|:----|:----|:-----|:------------|:---------|:-----|
+#'  |2010  |1103 |181  |445   |311          |4         |2044  |
+#'  |Total |1103 |181  |445   |311          |4         |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -270,17 +324,25 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `intrhome`](https://gssdataexplorer.norc.org/variables/3346/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no   |don't know |no answer |Total |
+#'  |:-----|:----|:----|:----|:----------|:---------|:-----|
+#'  |2006  |2646 |1187 |675  |1          |1         |4510  |
+#'  |2008  |518  |1031 |461  |6          |7         |2023  |
+#'  |2010  |1328 |527  |185  |1          |3         |2044  |
+#'  |2012  |972  |756  |237  |4          |5         |1974  |
+#'  |2014  |1299 |1011 |227  |-          |1         |2538  |
+#'  |Total |6763 |4512 |1785 |12         |17        |13089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -312,19 +374,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `coldeg1`](https://gssdataexplorer.norc.org/variables/3347/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |associate's |bachelor's |master's |mba |law |phd |md |other |no answer |don't know |Total |
+#'  |:-----|:-----|:-----------|:----------|:--------|:---|:---|:---|:--|:-----|:---------|:----------|:-----|
+#'  |2006  |3747  |240         |331        |133      |5   |15  |24  |6  |8     |1         |-          |4510  |
+#'  |2008  |1493  |128         |254        |104      |13  |8   |15  |3  |4     |-         |1          |2023  |
+#'  |2010  |1772  |50          |125        |66       |4   |5   |14  |1  |4     |3         |-          |2044  |
+#'  |2012  |1612  |75          |186        |73       |7   |5   |10  |3  |3     |-         |-          |1974  |
+#'  |2014  |2098  |82          |220        |89       |7   |8   |19  |8  |5     |2         |-          |2538  |
+#'  |2016  |2336  |110         |254        |124      |8   |9   |15  |3  |5     |3         |-          |2867  |
+#'  |2018  |1913  |82          |215        |95       |9   |4   |15  |5  |7     |2         |1          |2348  |
+#'  |Total |14971 |767         |1585       |684      |53  |54  |112 |29 |36    |11        |2          |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -429,19 +500,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `majorcol`](https://gssdataexplorer.norc.org/variables/3348/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |accounting/bookkeeping |agriculture/horticulture |anthropology |architecture |art |biology |business administration |chemistry |communications/speech |comm. disorders |computer science |dentistry |education |economics |engineering |english |finance |foreign language |forestry |geography |geology |history |industry & technology |journalism |law |law enforcement |library science |marketing |mathematics |medicine |music |nursing |pharmacy |philosophy |physical education |physics |psychology |political science/international relations |sociology |special education |theater arts |theology |veterinary medicine |liberal arts |other |general sciences |social work |general studies |other vocational |health |don't know |no answer |allied health |home economics |industrial relations |child/human/family development |food science/nutrition/culinary arts |environmental science/ecology |human services/human resources |humanities |ethnic studies |television/film |statistics/biostatistics |advertising |visual arts/graphic design/design and drafting |fine arts |criminology/criminal justice |administrative science/public administration |electronics |dance |gerontology |textiles/cloth |parks and recreation |social sciences |educational administration |urban and regional planning |public relations |information technology |fashion |counseling |aviation/aeronatics |mechanics/machine trade |Total |
+#'  |:-----|:-----|:----------------------|:------------------------|:------------|:------------|:---|:-------|:-----------------------|:---------|:---------------------|:---------------|:----------------|:---------|:---------|:---------|:-----------|:-------|:-------|:----------------|:--------|:---------|:-------|:-------|:---------------------|:----------|:---|:---------------|:---------------|:---------|:-----------|:--------|:-----|:-------|:--------|:----------|:------------------|:-------|:----------|:-----------------------------------------|:---------|:-----------------|:------------|:--------|:-------------------|:------------|:-----|:----------------|:-----------|:---------------|:----------------|:------|:----------|:---------|:-------------|:--------------|:--------------------|:------------------------------|:------------------------------------|:-----------------------------|:------------------------------|:----------|:--------------|:---------------|:------------------------|:-----------|:----------------------------------------------|:---------|:----------------------------|:--------------------------------------------|:-----------|:-----|:-----------|:--------------|:--------------------|:---------------|:--------------------------|:---------------------------|:----------------|:----------------------|:-------|:----------|:-------------------|:-----------------------|:-----|
+#'  |2006  |3375  |28                     |3                        |4            |3            |15  |23      |117                     |4         |25                    |2               |28               |2         |87        |11        |57          |17      |14      |9                |1        |3         |3       |7       |5                     |3          |29  |4               |4               |14        |11          |8        |4     |51      |2        |2          |5                  |5       |34         |14                                        |7         |2                 |2            |6        |1                   |14           |26    |21               |10          |24              |65               |25     |47         |227       |-             |-              |-                    |-                              |-                                    |-                             |-                              |-          |-              |-               |-                        |-           |-                                              |-         |-                            |-                                            |-           |-     |-           |-              |-                    |-               |-                          |-                           |-                |-                      |-       |-          |-                   |-                       |4510  |
+#'  |2008  |1493  |13                     |2                        |3            |5            |14  |16      |79                      |1         |11                    |1               |22               |1         |52        |6         |27          |10      |6       |3                |1        |2         |4       |8       |2                     |3          |16  |11              |3               |9         |5           |5        |8     |24      |-        |2          |2                  |2       |16         |14                                        |7         |-                 |1            |3        |3                   |10           |10    |16               |8           |10              |30               |15     |1          |3         |1             |3              |-                    |-                              |-                                    |-                             |-                              |-          |-              |-               |-                        |-           |-                                              |-         |-                            |-                                            |-           |-     |-           |-              |-                    |-               |-                          |-                           |-                |-                      |-       |-          |-                   |-                       |2023  |
+#'  |2010  |1772  |4                      |1                        |-            |3            |5   |10      |34                      |3         |9                     |-               |3                |1         |35        |3         |15          |10      |5       |-                |-        |-         |-       |2       |1                     |1          |6   |4               |3               |1         |1           |5        |1     |18      |-        |-          |-                  |2       |10         |5                                         |5         |1                 |3            |2        |2                   |8            |10    |6                |3           |1               |4                |7      |1          |4         |-             |-              |1                    |1                              |4                                    |1                             |2                              |1          |2              |1               |1                        |-           |-                                              |-         |-                            |-                                            |-           |-     |-           |-              |-                    |-               |-                          |-                           |-                |-                      |-       |-          |-                   |-                       |2044  |
+#'  |2012  |1612  |10                     |1                        |2            |2            |3   |6       |54                      |1         |10                    |-               |14               |2         |46        |5         |22          |6       |5       |2                |1        |1         |-       |6       |3                     |4          |9   |-               |1               |5         |4           |5        |4     |22      |2        |-          |5                  |1       |9          |10                                        |6         |3                 |2            |2        |-                   |4            |3     |5                |5           |-               |3                |11     |3          |-         |-             |-              |-                    |3                              |2                                    |-                             |4                              |-          |-              |1               |-                        |1           |2                                              |2         |9                            |2                                            |2           |1     |1           |1              |1                    |-               |-                          |-                           |-                |-                      |-       |-          |-                   |-                       |1974  |
+#'  |2014  |2099  |14                     |-                        |2            |2            |3   |12      |64                      |2         |10                    |1               |12               |-         |50        |5         |21          |9       |6       |1                |-        |1         |2       |9       |3                     |2          |11  |4               |2               |11        |4           |11       |1     |17      |-        |-          |3                  |2       |10         |10                                        |6         |-                 |-            |3        |1                   |7            |6     |8                |9           |7               |6                |18     |3          |1         |1             |-              |-                    |2                              |1                                    |4                             |5                              |2          |1              |2               |-                        |1           |3                                              |3         |9                            |2                                            |2           |-     |-           |1              |-                    |1               |3                          |1                           |1                |2                      |-       |-          |-                   |-                       |2538  |
+#'  |2016  |2338  |14                     |2                        |1            |2            |2   |11      |101                     |5         |14                    |-               |19               |2         |52        |7         |21          |16      |7       |4                |2        |1         |1       |5       |1                     |4          |14  |3               |2               |3         |6           |8        |4     |28      |1        |1          |4                  |3       |19         |12                                        |6         |3                 |2            |3        |-                   |6            |7     |9                |8           |3               |3                |13     |-          |3         |1             |2              |-                    |4                              |4                                    |3                             |2                              |-          |-              |2               |1                        |-           |3                                              |4         |6                            |2                                            |2           |-     |-           |-              |-                    |5               |1                          |2                           |1                |5                      |4       |7          |-                   |-                       |2867  |
+#'  |2018  |1914  |13                     |1                        |1            |2            |8   |6       |58                      |3         |14                    |1               |7                |3         |44        |13        |22          |6       |9       |4                |-        |1         |2       |9       |-                     |1          |9   |-               |-               |6         |3           |16       |1     |25      |2        |1          |4                  |1       |15         |5                                         |6         |-                 |1            |6        |2                   |8            |13    |9                |5           |-               |3                |15     |-          |1         |1             |-              |1                    |3                              |3                                    |3                             |5                              |-          |-              |1               |-                        |-           |3                                              |3         |5                            |-                                            |5           |-     |-           |-              |-                    |1               |1                          |1                           |-                |5                      |-       |4          |3                   |1                       |2348  |
+#'  |Total |14603 |96                     |10                       |13           |19           |50  |84      |507                     |19        |93                    |5               |105              |11        |366       |50        |185         |74      |52      |23               |5        |9         |12      |46      |15                    |18         |94  |26              |15              |49        |34          |58       |23    |185     |7        |6          |23                 |16      |113        |70                                        |43        |9                 |11           |25       |9                   |57           |75    |74               |48          |45              |114              |104    |55         |239       |4             |5              |2                    |13                             |14                                   |11                            |18                             |3          |3              |7               |2                        |2           |11                                             |12        |29                           |6                                            |11          |1     |1           |2              |1                    |7               |5                          |4                           |2                |12                     |4       |11         |3                   |1                       |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes

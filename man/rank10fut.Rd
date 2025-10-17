@@ -22,15 +22,21 @@ Question And thinking ahead 10 years from now, where do you think you will be on
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7514/vshow}{GSS Data Explorer page for \code{rank10fut}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 1 - top \tab 10 - bottom \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2029 \tab 77 \tab 49 \tab 106 \tab 282 \tab 317 \tab 554 \tab 170 \tab 129 \tab 82 \tab 27 \tab 12 \tab 165 \tab 33 \tab 4032 \cr
+   Total \tab 2029 \tab 77 \tab 49 \tab 106 \tab 282 \tab 317 \tab 554 \tab 170 \tab 129 \tab 82 \tab 27 \tab 12 \tab 165 \tab 33 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

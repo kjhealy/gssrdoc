@@ -23,15 +23,21 @@ B. Would you say much worse or somewhat worse?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1643/vshow}{GSS Data Explorer page for \code{pastdown}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab much worse \tab somewhat worse \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2555 \tab 126 \tab 295 \tab 1 \tab 15 \tab 2992 \cr
+   Total \tab 2555 \tab 126 \tab 295 \tab 1 \tab 15 \tab 2992 \cr
+}
 }
 
 \seealso{

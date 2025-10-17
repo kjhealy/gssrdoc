@@ -23,15 +23,21 @@ C. Turn to a minister, priest, Rabbi or other religious leader.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3784/vshow}{GSS Data Explorer page for \code{mhhlprel}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab not at all important \tab very important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 80 \tab 443 \tab 49 \tab 52 \tab 42 \tab 217 \tab 99 \tab 126 \tab 170 \tab 122 \tab 16 \tab 9 \tab 4510 \cr
+   Total \tab 3085 \tab 80 \tab 443 \tab 49 \tab 52 \tab 42 \tab 217 \tab 99 \tab 126 \tab 170 \tab 122 \tab 16 \tab 9 \tab 4510 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ Question What sex were you assigned at birth? (For example, on your birth certif
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7292/vshow}{GSS Data Explorer page for \code{sexbirth}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab female \tab male \tab intersex \tab no answer \tab Total \cr
+   2018 \tab 939 \tab 759 \tab 637 \tab 1 \tab 12 \tab 2348 \cr
+   Total \tab 939 \tab 759 \tab 637 \tab 1 \tab 12 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

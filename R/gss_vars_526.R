@@ -17,14 +17,21 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
-#'  |2010 |A/B/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/-   |2010  |
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ldcgrn`](https://gssdataexplorer.norc.org/variables/4788/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2000  |1541 |40             |164   |245                        |522      |142               |60           |103       |2817  |
+#'  |2010  |614  |31             |202   |202                        |737      |173               |78           |7         |2044  |
+#'  |Total |2155 |71             |366   |447                        |1259     |315               |138          |110       |4861  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -54,14 +61,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
-#'  |2010 |A/B/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/-   |2010  |
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `econgrn`](https://gssdataexplorer.norc.org/variables/4789/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2000  |1541 |126            |438   |353                        |171      |23                |67         |98        |2817  |
+#'  |2010  |614  |122            |621   |293                        |268      |34                |85         |7         |2044  |
+#'  |Total |2155 |248            |1059  |646                        |439      |57                |152        |105       |4861  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -90,13 +104,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `nukeacc`](https://gssdataexplorer.norc.org/variables/4790/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |likely |unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:------|:--------|:-------------|:----------|:---------|:-----|
+#'  |2000  |1541 |184         |415    |330      |140           |148        |59        |2817  |
+#'  |Total |1541 |184         |415    |330      |140           |148        |59        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -126,13 +146,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `infobiz`](https://gssdataexplorer.norc.org/variables/4791/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal of trust |quite a lot of trust |some trust |not much trust |hardly any trust |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------|:--------------------|:----------|:--------------|:----------------|:----------|:---------|:-----|
+#'  |2000  |1541 |34                    |82                   |417        |415            |184              |39         |105       |2817  |
+#'  |Total |1541 |34                    |82                   |417        |415            |184              |39         |105       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -162,13 +188,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `infogrn`](https://gssdataexplorer.norc.org/variables/4792/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal of trust |quite a lot of trust |some trust |not much trust |hardly any trust |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------|:--------------------|:----------|:--------------|:----------------|:----------|:---------|:-----|
+#'  |2000  |1541 |156                   |370                  |416        |143            |42               |35         |114       |2817  |
+#'  |Total |1541 |156                   |370                  |416        |143            |42               |35         |114       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -198,13 +230,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `infogovt`](https://gssdataexplorer.norc.org/variables/4793/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal of trust |quite a lot of trust |some trust |not much trust |hardly any trust |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------|:--------------------|:----------|:--------------|:----------------|:----------|:---------|:-----|
+#'  |2000  |1541 |44                    |185                  |526        |288            |84               |38         |111       |2817  |
+#'  |Total |1541 |44                    |185                  |526        |288            |84               |38         |111       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -234,13 +272,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `infonews`](https://gssdataexplorer.norc.org/variables/4794/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal of trust |quite a lot of trust |some trust |not much trust |hardly any trust |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------|:--------------------|:----------|:--------------|:----------------|:----------|:---------|:-----|
+#'  |2000  |1541 |55                    |218                  |528        |251            |72               |33         |119       |2817  |
+#'  |Total |1541 |55                    |218                  |528        |251            |72               |33         |119       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -270,13 +314,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `infotv`](https://gssdataexplorer.norc.org/variables/4795/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal of trust |quite a lot of trust |some trust |not much trust |hardly any trust |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------|:--------------------|:----------|:--------------|:----------------|:----------|:---------|:-----|
+#'  |2000  |1541 |51                    |229                  |559        |215            |72               |33         |117       |2817  |
+#'  |Total |1541 |51                    |229                  |559        |215            |72               |33         |117       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -306,13 +356,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `infocol`](https://gssdataexplorer.norc.org/variables/4796/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal of trust |quite a lot of trust |some trust |not much trust |hardly any trust |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------|:--------------------|:----------|:--------------|:----------------|:----------|:---------|:-----|
+#'  |2000  |1541 |240                   |444                  |360        |61             |22               |44         |105       |2817  |
+#'  |Total |1541 |240                   |444                  |360        |61             |22               |44         |105       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -342,15 +398,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |1996, 2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `excldimm`](https://gssdataexplorer.norc.org/variables/4797/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |1996  |1537 |592            |395   |179                        |86       |27                |68           |20        |2904  |
+#'  |2004  |1596 |394            |434   |214                        |113      |32                |28           |1         |2812  |
+#'  |2014  |1264 |287            |449   |205                        |227      |49                |53           |4         |2538  |
+#'  |Total |4397 |1273           |1278  |598                        |426      |108               |149          |25        |8254  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment

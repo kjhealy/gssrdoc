@@ -25,17 +25,23 @@ C. To have lived in America for most of one's life
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4829/vshow}{GSS Data Explorer page for \code{amlived}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 587 \tab 381 \tab 270 \tab 86 \tab 20 \tab 23 \tab 2904 \cr
+   2004 \tab 1596 \tab 706 \tab 271 \tab 200 \tab 28 \tab 10 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 524 \tab 358 \tab 278 \tab 90 \tab 21 \tab 3 \tab 2538 \cr
+   Total \tab 4397 \tab 1817 \tab 1010 \tab 748 \tab 204 \tab 51 \tab 27 \tab 8254 \cr
+}
 }
 
 \seealso{

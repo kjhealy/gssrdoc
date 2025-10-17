@@ -28,18 +28,24 @@ Question F. In 1988, you remember that Dukakis ran for President on the Democrat
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1990, 1991, 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/158/vshow}{GSS Data Explorer page for \code{pres88}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab dukakis \tab bush \tab other \tab refused \tab no pres. vote \tab don't know \tab no answer \tab Total \cr
+   1989 \tab 551 \tab 431 \tab 505 \tab 8 \tab 1 \tab 3 \tab 12 \tab 26 \tab 1537 \cr
+   1990 \tab 483 \tab 312 \tab 529 \tab 11 \tab 1 \tab - \tab 19 \tab 17 \tab 1372 \cr
+   1991 \tab 532 \tab 381 \tab 557 \tab 9 \tab - \tab 7 \tab 20 \tab 11 \tab 1517 \cr
+   1993 \tab 593 \tab 282 \tab 686 \tab 10 \tab - \tab 4 \tab 15 \tab 16 \tab 1606 \cr
+   Total \tab 2159 \tab 1406 \tab 2277 \tab 38 \tab 2 \tab 14 \tab 66 \tab 70 \tab 6032 \cr
+}
 }
 
 \seealso{

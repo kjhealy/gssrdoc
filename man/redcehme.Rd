@@ -24,15 +24,21 @@ Question K1. How often do you reduce the energy or fuel you use at home for envi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4813/vshow}{GSS Data Explorer page for \code{redcehme}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 614 \tab 165 \tab 440 \tab 450 \tab 362 \tab 6 \tab 7 \tab 2044 \cr
+   Total \tab 614 \tab 165 \tab 440 \tab 450 \tab 362 \tab 6 \tab 7 \tab 2044 \cr
+}
 }
 
 \seealso{

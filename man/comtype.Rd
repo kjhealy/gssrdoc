@@ -25,17 +25,23 @@ Question Would you describe the place where you live asâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4777/vshow}{GSS Data Explorer page for \code{comtype}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab big city \tab suburbs, outskirts \tab small town \tab country village \tab farm, cntry home \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 266 \tab 406 \tab 590 \tab 66 \tab 192 \tab 1 \tab 36 \tab 1606 \cr
+   1994 \tab 1606 \tab 268 \tab 328 \tab 552 \tab 61 \tab 145 \tab 1 \tab 31 \tab 2992 \cr
+   2000 \tab 1541 \tab 238 \tab 292 \tab 499 \tab 51 \tab 127 \tab - \tab 69 \tab 2817 \cr
+   Total \tab 3196 \tab 772 \tab 1026 \tab 1641 \tab 178 \tab 464 \tab 2 \tab 136 \tab 7415 \cr
+}
 }
 
 \seealso{

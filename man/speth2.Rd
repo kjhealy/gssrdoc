@@ -63,23 +63,30 @@ C. SECOND ETHNICITY OF SPOUSE MENTIONED
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
+   Full \tab 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5270/vshow}{GSS Data Explorer page for \code{speth2}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab uncodeable \tab africa \tab austria \tab french canada \tab other canada \tab czechoslovakia \tab denmark \tab england & wales \tab finland \tab france \tab germany \tab hungary \tab ireland \tab italy \tab mexico \tab netherlands \tab norway \tab philippines \tab poland \tab russia \tab scotland \tab spain \tab sweden \tab switzerland \tab other \tab american indian \tab portugal \tab lithuania \tab yugoslavia \tab arabic \tab no answer \tab puerto rico \tab belgium \tab american only \tab greece \tab india \tab rumania \tab non-span windies \tab other spanish \tab don't know \tab japan \tab not available in this year \tab iap \tab Total \cr
+   1985 \tab 1247 \tab 2 \tab 1 \tab 4 \tab 3 \tab 4 \tab 2 \tab 50 \tab 2 \tab 16 \tab 44 \tab 3 \tab 55 \tab 6 \tab 2 \tab 5 \tab 15 \tab 1 \tab 5 \tab 5 \tab 25 \tab 4 \tab 6 \tab 1 \tab 4 \tab 14 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
+   1986 \tab 1191 \tab 1 \tab 3 \tab 5 \tab 5 \tab 5 \tab 2 \tab 48 \tab 2 \tab 13 \tab 42 \tab 3 \tab 54 \tab 10 \tab 2 \tab 7 \tab 6 \tab - \tab 7 \tab 1 \tab 24 \tab 3 \tab 4 \tab 6 \tab 8 \tab 9 \tab - \tab 2 \tab - \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab 1543 \tab 1 \tab - \tab 2 \tab - \tab 5 \tab 1 \tab 39 \tab 2 \tab 23 \tab 48 \tab 7 \tab 33 \tab 8 \tab 5 \tab 11 \tab 5 \tab - \tab 8 \tab 8 \tab 23 \tab - \tab 7 \tab 3 \tab 4 \tab 12 \tab - \tab 2 \tab 2 \tab - \tab 10 \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
+   1988 \tab 1245 \tab 1 \tab 3 \tab 4 \tab 3 \tab 2 \tab 1 \tab 37 \tab - \tab 13 \tab 32 \tab - \tab 47 \tab 4 \tab 2 \tab 9 \tab 4 \tab 1 \tab 10 \tab 1 \tab 13 \tab - \tab 11 \tab 3 \tab 4 \tab 15 \tab 1 \tab 1 \tab - \tab - \tab 12 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 1263 \tab 2 \tab 1 \tab 3 \tab 2 \tab 2 \tab 3 \tab 49 \tab 2 \tab 13 \tab 38 \tab 1 \tab 65 \tab 3 \tab - \tab 6 \tab 7 \tab - \tab 9 \tab 2 \tab 21 \tab 3 \tab 3 \tab - \tab 3 \tab 15 \tab - \tab 1 \tab 2 \tab - \tab 15 \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1537 \cr
+   1990 \tab 1130 \tab - \tab 1 \tab 3 \tab 3 \tab 5 \tab 1 \tab 26 \tab 1 \tab 15 \tab 45 \tab 2 \tab 43 \tab 6 \tab 3 \tab 7 \tab 5 \tab - \tab 8 \tab 4 \tab 15 \tab 2 \tab 11 \tab 2 \tab - \tab 18 \tab 1 \tab 2 \tab 3 \tab - \tab 7 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 1297 \tab 1 \tab - \tab 7 \tab 2 \tab 1 \tab 6 \tab 27 \tab - \tab 8 \tab 33 \tab 1 \tab 43 \tab 11 \tab 2 \tab 9 \tab 4 \tab - \tab 14 \tab 4 \tab 12 \tab 2 \tab 12 \tab 3 \tab 1 \tab 12 \tab - \tab - \tab 2 \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1517 \cr
+   1993 \tab 1322 \tab 1 \tab 2 \tab 3 \tab 1 \tab 4 \tab 2 \tab 36 \tab 1 \tab 15 \tab 43 \tab - \tab 67 \tab 10 \tab - \tab 11 \tab 2 \tab 1 \tab 13 \tab 3 \tab 16 \tab 10 \tab 8 \tab 5 \tab 3 \tab 14 \tab 1 \tab - \tab 3 \tab - \tab - \tab 1 \tab - \tab 1 \tab 1 \tab 1 \tab 3 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 2825 \tab - \tab - \tab 2 \tab 1 \tab 1 \tab 1 \tab 17 \tab - \tab 6 \tab 20 \tab 1 \tab 22 \tab 3 \tab 1 \tab 3 \tab 1 \tab - \tab 2 \tab 2 \tab 8 \tab 4 \tab 5 \tab 1 \tab 2 \tab 7 \tab - \tab 1 \tab - \tab - \tab 3 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 51 \tab 1 \tab - \tab - \tab 2992 \cr
+   Total \tab 13063 \tab 9 \tab 11 \tab 33 \tab 20 \tab 29 \tab 19 \tab 329 \tab 10 \tab 122 \tab 345 \tab 18 \tab 429 \tab 61 \tab 17 \tab 68 \tab 49 \tab 3 \tab 76 \tab 30 \tab 157 \tab 28 \tab 67 \tab 24 \tab 29 \tab 116 \tab 4 \tab 10 \tab 13 \tab 2 \tab 54 \tab 4 \tab 2 \tab 3 \tab 4 \tab 2 \tab 8 \tab 2 \tab 3 \tab 53 \tab 2 \tab 0 \tab 0 \tab 15328 \cr
+}
 }
 
 \seealso{

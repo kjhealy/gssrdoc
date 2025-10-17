@@ -23,16 +23,22 @@ Question H. Preference settings
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2637/vshow}{GSS Data Explorer page for \code{prefsets}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab very familiar \tab somewhat familiar \tab not familiar \tab no answer \tab Total \cr
+   2002 \tab 2142 \tab 221 \tab 201 \tab 154 \tab 47 \tab 2765 \cr
+   2004 \tab 992 \tab 774 \tab 598 \tab 429 \tab 19 \tab 2812 \cr
+   Total \tab 3134 \tab 995 \tab 799 \tab 583 \tab 66 \tab 5577 \cr
+}
 }
 
 \seealso{

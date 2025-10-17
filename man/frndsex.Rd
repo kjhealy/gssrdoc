@@ -23,34 +23,41 @@ A. Close personal friend
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5051/vshow}{GSS Data Explorer page for \code{frndsex}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1988 \tab 1243 \tab 111 \tab 59 \tab 68 \tab - \tab 1481 \cr
+   1989 \tab 1303 \tab 111 \tab 49 \tab 74 \tab - \tab 1537 \cr
+   1990 \tab 1155 \tab 88 \tab 58 \tab 71 \tab - \tab 1372 \cr
+   1991 \tab 1293 \tab 92 \tab 65 \tab 67 \tab - \tab 1517 \cr
+   1993 \tab 1359 \tab 87 \tab 73 \tab 87 \tab - \tab 1606 \cr
+   1994 \tab 2489 \tab 191 \tab 143 \tab 169 \tab - \tab 2992 \cr
+   1996 \tab 2401 \tab 223 \tab 161 \tab 119 \tab - \tab 2904 \cr
+   1998 \tab 2383 \tab 156 \tab 139 \tab 154 \tab - \tab 2832 \cr
+   2000 \tab 2335 \tab 177 \tab 128 \tab 177 \tab - \tab 2817 \cr
+   2002 \tab 2317 \tab 294 \tab 104 \tab 49 \tab 1 \tab 2765 \cr
+   2004 \tab 2429 \tab 277 \tab 70 \tab 36 \tab - \tab 2812 \cr
+   2006 \tab 4087 \tab 310 \tab 97 \tab 16 \tab - \tab 4510 \cr
+   2008 \tab 1688 \tab 199 \tab 113 \tab 23 \tab - \tab 2023 \cr
+   2010 \tab 1706 \tab 208 \tab 99 \tab 30 \tab 1 \tab 2044 \cr
+   2012 \tab 1669 \tab 173 \tab 98 \tab 34 \tab - \tab 1974 \cr
+   2014 \tab 2144 \tab 206 \tab 136 \tab 52 \tab - \tab 2538 \cr
+   2016 \tab 2530 \tab 205 \tab 112 \tab 20 \tab - \tab 2867 \cr
+   2018 \tab 2130 \tab 127 \tab 70 \tab 19 \tab 2 \tab 2348 \cr
+   2021 \tab 3747 \tab 146 \tab 111 \tab 20 \tab 8 \tab 4032 \cr
+   2022 \tab 3288 \tab 131 \tab 62 \tab 41 \tab 22 \tab 3544 \cr
+   Total \tab 43696 \tab 3512 \tab 1947 \tab 1326 \tab 34 \tab 50515 \cr
+}
 }
 
 \seealso{

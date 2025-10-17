@@ -23,15 +23,21 @@ C. An acquaintance recommended them.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1820/vshow}{GSS Data Explorer page for \code{realtorc}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2686 \tab 12 \tab 150 \tab 2 \tab 54 \tab 2904 \cr
+   Total \tab 2686 \tab 12 \tab 150 \tab 2 \tab 54 \tab 2904 \cr
+}
 }
 
 \seealso{

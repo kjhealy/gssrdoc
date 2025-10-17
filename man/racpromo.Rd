@@ -23,15 +23,21 @@ Question Do you think your race or ethnic background makes your promotion opport
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1305/vshow}{GSS Data Explorer page for \code{racpromo}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab better \tab worse \tab no effect \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 605 \tab 204 \tab 92 \tab 584 \tab 17 \tab 15 \tab 1517 \cr
+   Total \tab 605 \tab 204 \tab 92 \tab 584 \tab 17 \tab 15 \tab 1517 \cr
+}
 }
 
 \seealso{

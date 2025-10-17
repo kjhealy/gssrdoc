@@ -25,17 +25,23 @@ Question A. Compared to houses/apartments in the neighborhood, would you say the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5292/vshow}{GSS Data Explorer page for \code{dwelngh}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab far above average \tab above average \tab average \tab below average \tab far below average \tab no answer \tab Total \cr
+   1982 \tab - \tab 40 \tab 260 \tab 1247 \tab 219 \tab 34 \tab 60 \tab 1860 \cr
+   1983 \tab - \tab 30 \tab 233 \tab 1128 \tab 162 \tab 24 \tab 22 \tab 1599 \cr
+   1984 \tab - \tab 19 \tab 225 \tab 1039 \tab 143 \tab 15 \tab 32 \tab 1473 \cr
+   Total \tab 0 \tab 89 \tab 718 \tab 3414 \tab 524 \tab 73 \tab 114 \tab 4932 \cr
+}
 }
 
 \seealso{

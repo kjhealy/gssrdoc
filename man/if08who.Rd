@@ -25,17 +25,23 @@ Who would you have voted for, for President, if you had voted?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2010, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/174/vshow}{GSS Data Explorer page for \code{if08who}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab obama \tab mccain \tab other \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 1393 \tab 353 \tab 113 \tab 118 \tab 45 \tab 22 \tab 2044 \cr
+   2012 \tab 1316 \tab 354 \tab 146 \tab 84 \tab 51 \tab 23 \tab 1974 \cr
+   2014 \tab 1675 \tab 402 \tab 200 \tab 159 \tab 62 \tab 40 \tab 2538 \cr
+   Total \tab 4384 \tab 1109 \tab 459 \tab 361 \tab 158 \tab 85 \tab 6556 \cr
+}
 }
 
 \seealso{

@@ -22,61 +22,68 @@ B. IF WITH A JOB, BUT NOT AT WORK:  How many hours a week do you usually work, a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5/vshow}{GSS Data Explorer page for \code{hrs2}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 15 \tab 16 \tab 20 \tab 30 \tab 35 \tab 37 \tab 40 \tab 48 \tab 50 \tab 55 \tab 56 \tab 70 \tab no answer \tab 25 \tab 32 \tab 5 \tab 60 \tab 24 \tab 45 \tab 52 \tab 75 \tab don't know \tab 4 \tab 44 \tab 89+ hours \tab 12 \tab 13 \tab 34 \tab 8 \tab 39 \tab 6 \tab 80 \tab 21 \tab 33 \tab 36 \tab 38 \tab 47 \tab 11 \tab 42 \tab 43 \tab 46 \tab 23 \tab 66 \tab 7 \tab 58 \tab 18 \tab 65 \tab 17 \tab 68 \tab 84 \tab 41 \tab 1 \tab 2 \tab 0 \tab 28 \tab 72 \tab 3 \tab 57 \tab 22 \tab 27 \tab 26 \tab 9 \tab skipped on web \tab Total \cr
+   1973 \tab 1473 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 15 \tab 1 \tab 1 \tab 2 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
+   1974 \tab 1438 \tab - \tab - \tab - \tab 2 \tab - \tab - \tab 2 \tab 31 \tab 3 \tab - \tab - \tab - \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
+   1975 \tab 1464 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab 13 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 1471 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab 19 \tab - \tab 2 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 1491 \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab 18 \tab - \tab - \tab 1 \tab - \tab 1 \tab 7 \tab 1 \tab - \tab 1 \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 1493 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab 1 \tab 16 \tab 2 \tab 4 \tab - \tab - \tab - \tab 3 \tab - \tab 1 \tab - \tab 3 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab 1433 \tab 1 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab 13 \tab - \tab 2 \tab - \tab - \tab 1 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab 3 \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
+   1982 \tab 1819 \tab - \tab - \tab - \tab 2 \tab - \tab 1 \tab - \tab 21 \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2 \tab - \tab 5 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
+   1983 \tab 1565 \tab - \tab - \tab 1 \tab 1 \tab - \tab 1 \tab - \tab 12 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 3 \tab - \tab 1 \tab - \tab 3 \tab - \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
+   1984 \tab 1439 \tab - \tab - \tab - \tab 2 \tab 1 \tab 2 \tab - \tab 14 \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
+   1985 \tab 1495 \tab - \tab - \tab - \tab 3 \tab 2 \tab - \tab 1 \tab 16 \tab 2 \tab 2 \tab 1 \tab - \tab 2 \tab - \tab 1 \tab - \tab - \tab 3 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
+   1986 \tab 1439 \tab 1 \tab 1 \tab - \tab 1 \tab 1 \tab - \tab - \tab 13 \tab - \tab 1 \tab - \tab - \tab - \tab 4 \tab 1 \tab - \tab - \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab 1800 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab 10 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
+   1988 \tab 1450 \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab 12 \tab - \tab 2 \tab 1 \tab - \tab - \tab 3 \tab - \tab - \tab - \tab 2 \tab 2 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 1496 \tab 2 \tab 1 \tab - \tab - \tab 1 \tab 2 \tab - \tab 12 \tab 2 \tab 4 \tab 1 \tab - \tab - \tab 2 \tab - \tab 1 \tab - \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
+   1990 \tab 1346 \tab - \tab - \tab - \tab 3 \tab 1 \tab 1 \tab - \tab 10 \tab 1 \tab 1 \tab - \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab 3 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 1489 \tab - \tab - \tab 1 \tab 2 \tab - \tab - \tab - \tab 15 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   1993 \tab 1573 \tab 1 \tab - \tab - \tab 1 \tab 3 \tab 3 \tab - \tab 10 \tab - \tab 2 \tab - \tab - \tab - \tab 2 \tab 1 \tab - \tab - \tab 2 \tab 2 \tab 3 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 2930 \tab 1 \tab 2 \tab - \tab 3 \tab 2 \tab 2 \tab - \tab 23 \tab - \tab 9 \tab 1 \tab 1 \tab 1 \tab 4 \tab - \tab 1 \tab 1 \tab 4 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab 2844 \tab 1 \tab - \tab - \tab 1 \tab 2 \tab 5 \tab - \tab 24 \tab - \tab 7 \tab 3 \tab - \tab - \tab 4 \tab 2 \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab 2785 \tab - \tab - \tab - \tab 2 \tab 1 \tab 2 \tab - \tab 21 \tab 1 \tab 3 \tab - \tab - \tab - \tab 5 \tab 1 \tab - \tab - \tab 1 \tab 1 \tab 3 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2000 \tab 2757 \tab - \tab 2 \tab - \tab 3 \tab 3 \tab 3 \tab - \tab 22 \tab - \tab 4 \tab 1 \tab - \tab 1 \tab 6 \tab 2 \tab 2 \tab - \tab 1 \tab - \tab 3 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2713 \tab 2 \tab 1 \tab - \tab 1 \tab 3 \tab 1 \tab - \tab 15 \tab - \tab 5 \tab - \tab 1 \tab - \tab 2 \tab 2 \tab 1 \tab - \tab 3 \tab 4 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab 1 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2731 \tab 1 \tab 4 \tab - \tab 1 \tab 3 \tab 6 \tab - \tab 13 \tab - \tab 7 \tab 3 \tab - \tab 1 \tab 16 \tab 1 \tab 3 \tab - \tab 4 \tab 1 \tab 1 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 2 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 4422 \tab - \tab 2 \tab - \tab 2 \tab 6 \tab 3 \tab - \tab 32 \tab 1 \tab 8 \tab 1 \tab - \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 7 \tab - \tab - \tab - \tab - \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3 \tab - \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 1968 \tab 1 \tab - \tab - \tab 2 \tab 2 \tab 2 \tab - \tab 19 \tab - \tab 4 \tab 1 \tab - \tab 1 \tab 2 \tab - \tab 1 \tab 1 \tab 3 \tab - \tab 4 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3 \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 2023 \cr
+   2010 \tab 2011 \tab - \tab 1 \tab - \tab 1 \tab 1 \tab 2 \tab - \tab 12 \tab 1 \tab 3 \tab 1 \tab - \tab 1 \tab 3 \tab - \tab 2 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1938 \tab - \tab 1 \tab 1 \tab - \tab 3 \tab 4 \tab - \tab 10 \tab 1 \tab 3 \tab - \tab - \tab - \tab 1 \tab 3 \tab 2 \tab - \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2496 \tab - \tab 2 \tab - \tab 2 \tab 2 \tab 1 \tab - \tab 13 \tab 1 \tab 2 \tab - \tab - \tab 1 \tab 2 \tab 3 \tab 2 \tab - \tab 3 \tab - \tab 6 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2807 \tab 2 \tab 1 \tab 1 \tab 2 \tab 8 \tab - \tab - \tab 24 \tab 1 \tab 5 \tab - \tab - \tab - \tab 5 \tab - \tab 1 \tab - \tab 2 \tab - \tab 4 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2293 \tab 1 \tab 2 \tab - \tab - \tab 2 \tab 3 \tab - \tab 21 \tab - \tab 7 \tab - \tab - \tab 1 \tab 7 \tab - \tab - \tab - \tab - \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 3920 \tab 1 \tab 4 \tab - \tab 1 \tab 4 \tab 2 \tab - \tab 35 \tab - \tab 9 \tab 1 \tab - \tab 1 \tab 24 \tab - \tab - \tab 2 \tab 5 \tab 1 \tab 6 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 5 \tab 4032 \cr
+   2022 \tab 3449 \tab 2 \tab - \tab - \tab 1 \tab 3 \tab 2 \tab - \tab 36 \tab 3 \tab 10 \tab 3 \tab - \tab 1 \tab 4 \tab 4 \tab 1 \tab - \tab 4 \tab 1 \tab 2 \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 2 \tab 1 \tab - \tab 2 \tab 2 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4 \tab 3544 \cr
+   Total \tab 69238 \tab 18 \tab 26 \tab 5 \tab 45 \tab 59 \tab 51 \tab 7 \tab 590 \tab 24 \tab 115 \tab 24 \tab 6 \tab 21 \tab 124 \tab 26 \tab 24 \tab 8 \tab 61 \tab 21 \tab 71 \tab 5 \tab 3 \tab 5 \tab 8 \tab 10 \tab 4 \tab 11 \tab 1 \tab 3 \tab 9 \tab 1 \tab 5 \tab 9 \tab 4 \tab 3 \tab 16 \tab 21 \tab 5 \tab 2 \tab 12 \tab 8 \tab 4 \tab 1 \tab 2 \tab 4 \tab 2 \tab 5 \tab 11 \tab 2 \tab 1 \tab 2 \tab 3 \tab 6 \tab 1 \tab 2 \tab 3 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 9 \tab 70777 \cr
+}
 }
 
 \seealso{
 Other Core: 
 \code{\link{evwork}},
 \code{\link{hrs1}},
-\code{\link{id}},
+\code{\link{id}()},
 \code{\link{occ}},
 \code{\link{prestige}},
 \code{\link{wrkgovt}},
 \code{\link{wrkslf}},
 \code{\link{wrkstat}},
-\code{\link{year}}
+\code{\link{year}()}
 }
 \concept{Core}
 \keyword{variable}

@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dangoth2`](https://gssdataexplorer.norc.org/variables/7136/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - not at all dangerous |10 - very dangerous |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:-------------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2018  |1982 |212                      |9                   |40 |20 |14 |21 |12 |13 |9  |3  |8          |5         |2348  |
+#'  |Total |1982 |212                      |9                   |40 |20 |14 |21 |12 |13 |9  |3  |8          |5         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -45,13 +51,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dangoth3`](https://gssdataexplorer.norc.org/variables/7137/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - not at all dangerous |10 - very dangerous |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:-------------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2018  |2095 |147                      |5                   |29 |19 |8  |8  |7  |11 |8  |2  |2          |7         |2348  |
+#'  |Total |2095 |147                      |5                   |29 |19 |8  |8  |7  |11 |8  |2  |2          |7         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -77,13 +89,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dangoth4`](https://gssdataexplorer.norc.org/variables/7138/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - not at all dangerous |10 - very dangerous |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:-------------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2018  |2190 |103                      |1                   |11 |12 |3  |6  |2  |4  |2  |3  |5          |6         |2348  |
+#'  |Total |2190 |103                      |1                   |11 |12 |3  |6  |2  |4  |2  |3  |5          |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -109,13 +127,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dangoth5`](https://gssdataexplorer.norc.org/variables/7139/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - not at all dangerous |10 - very dangerous |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:-------------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2018  |2245 |63                       |3                   |8  |3  |1  |8  |1  |5  |1  |1  |3          |6         |2348  |
+#'  |Total |2245 |63                       |3                   |8  |3  |1  |8  |1  |5  |1  |1  |3          |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -141,13 +165,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dangslf1`](https://gssdataexplorer.norc.org/variables/7140/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - not at all dangerous |10 - very dangerous |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:-------------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2018  |1751 |185                      |55                  |68 |43 |39 |48 |42 |47 |41 |15 |12         |2         |2348  |
+#'  |Total |1751 |185                      |55                  |68 |43 |39 |48 |42 |47 |41 |15 |12         |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -173,13 +203,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dangslf2`](https://gssdataexplorer.norc.org/variables/7141/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - not at all dangerous |10 - very dangerous |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:-------------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2018  |1982 |141                      |19                  |39 |30 |24 |30 |16 |24 |17 |8  |13         |5         |2348  |
+#'  |Total |1982 |141                      |19                  |39 |30 |24 |30 |16 |24 |17 |8  |13         |5         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -205,13 +241,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dangslf3`](https://gssdataexplorer.norc.org/variables/7142/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - not at all dangerous |10 - very dangerous |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:-------------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2018  |2095 |104                      |14                  |32 |22 |16 |16 |7  |16 |12 |5  |2          |7         |2348  |
+#'  |Total |2095 |104                      |14                  |32 |22 |16 |16 |7  |16 |12 |5  |2          |7         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -237,13 +279,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dangslf4`](https://gssdataexplorer.norc.org/variables/7143/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - not at all dangerous |10 - very dangerous |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:-------------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2018  |2190 |64                       |9                   |15 |17 |10 |9  |4  |4  |8  |6  |6          |6         |2348  |
+#'  |Total |2190 |64                       |9                   |15 |17 |10 |9  |4  |4  |8  |6  |6          |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -269,13 +317,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dangslf5`](https://gssdataexplorer.norc.org/variables/7144/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - not at all dangerous |10 - very dangerous |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:-------------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2018  |2245 |40                       |8                   |9  |10 |3  |10 |3  |5  |3  |2  |4          |6         |2348  |
+#'  |Total |2245 |40                       |8                   |9  |10 |3  |10 |3  |5  |3  |2  |4          |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -303,14 +357,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
-#'  |2024 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2024  |
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fammhneg`](https://gssdataexplorer.norc.org/variables/7145/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very much |somewhat |not very much |not at all |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:--------|:-------------|:----------|:----------|:---------|:-----|
+#'  |2018  |1175 |31        |192      |390           |477        |31         |52        |2348  |
+#'  |Total |1175 |31        |192      |390           |477        |31         |52        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health

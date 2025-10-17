@@ -24,17 +24,23 @@ Question How much have you heard or read about the North American Free Trade Agr
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4876/vshow}{GSS Data Explorer page for \code{nafta1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a lot \tab quite a bit \tab not much \tab nothing at all \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 181 \tab 406 \tab 561 \tab 199 \tab 1 \tab 19 \tab 2904 \cr
+   2004 \tab 1596 \tab 143 \tab 289 \tab 554 \tab 221 \tab 3 \tab 6 \tab 2812 \cr
+   2014 \tab 1264 \tab 94 \tab 223 \tab 576 \tab 337 \tab 40 \tab 4 \tab 2538 \cr
+   Total \tab 4397 \tab 418 \tab 918 \tab 1691 \tab 757 \tab 44 \tab 29 \tab 8254 \cr
+}
 }
 
 \seealso{

@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwmw2`](https://gssdataexplorer.norc.org/variables/7096/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |male |female |transgender ftm |other |don't know |no answer |Total |
+#'  |:-----|:----|:----|:------|:---------------|:-----|:----------|:---------|:-----|
+#'  |2018  |1982 |159  |197    |1               |4     |1          |4         |2348  |
+#'  |Total |1982 |159  |197    |1               |4     |1          |4         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -51,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwmw3`](https://gssdataexplorer.norc.org/variables/7097/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |male |female |transgender ftm |other |don't know |no answer |Total |
+#'  |:-----|:----|:----|:------|:---------------|:-----|:----------|:---------|:-----|
+#'  |2018  |2095 |131  |114    |1               |1     |1          |5         |2348  |
+#'  |Total |2095 |131  |114    |1               |1     |1          |5         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -86,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwmw4`](https://gssdataexplorer.norc.org/variables/7098/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |male |female |other |don't know |no answer |Total |
+#'  |:-----|:----|:----|:------|:-----|:----------|:---------|:-----|
+#'  |2018  |2190 |69   |80     |2     |4          |3         |2348  |
+#'  |Total |2190 |69   |80     |2     |4          |3         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -121,13 +139,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwmw5`](https://gssdataexplorer.norc.org/variables/7099/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |male |female |don't know |no answer |Total |
+#'  |:-----|:----|:----|:------|:----------|:---------|:-----|
+#'  |2018  |2245 |38   |56     |3          |6         |2348  |
+#'  |Total |2245 |38   |56     |3          |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -167,13 +191,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhp1r1`](https://gssdataexplorer.norc.org/variables/7100/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |spouse/partner (current/ex) |parent |sibling |child |grandparent |grandchild |other family |coworker |neighbor |friend |member of religious community |acquaintance |student/classmate |relative of a friend |friend of a relative |other |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:------|:-------|:-----|:-----------|:----------|:------------|:--------|:--------|:------|:-----------------------------|:------------|:-----------------|:--------------------|:--------------------|:-----|:----------|:---------|:-----|
+#'  |2018  |1751 |52                          |77     |58      |26    |8           |2          |113          |23       |20       |181    |3                             |7            |1                 |3                    |1                    |8     |3          |11        |2348  |
+#'  |Total |1751 |52                          |77     |58      |26    |8           |2          |113          |23       |20       |181    |3                             |7            |1                 |3                    |1                    |8     |3          |11        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -213,13 +243,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhp1r2`](https://gssdataexplorer.norc.org/variables/7101/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |friend |acquaintance |student/classmate |relative of a friend |other |no answer |Total |
+#'  |:-----|:----|:------|:------------|:-----------------|:--------------------|:-----|:---------|:-----|
+#'  |2018  |1751 |3      |2            |1                 |1                    |1     |589       |2348  |
+#'  |Total |1751 |3      |2            |1                 |1                    |1     |589       |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -259,13 +295,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhp2r1`](https://gssdataexplorer.norc.org/variables/7102/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |spouse/partner (current/ex) |parent |sibling |child |grandparent |grandchild |other family |coworker |neighbor |friend |member of religious community |acquaintance |student/classmate |relative of a friend |friend of a relative |other |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:------|:-------|:-----|:-----------|:----------|:------------|:--------|:--------|:------|:-----------------------------|:------------|:-----------------|:--------------------|:--------------------|:-----|:----------|:---------|:-----|
+#'  |2018  |1982 |17                          |27     |45      |21    |11          |3          |81           |8        |9        |117    |2                             |5            |1                 |3                    |2                    |4     |2          |8         |2348  |
+#'  |Total |1982 |17                          |27     |45      |21    |11          |3          |81           |8        |9        |117    |2                             |5            |1                 |3                    |2                    |4     |2          |8         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -305,13 +347,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhp2r2`](https://gssdataexplorer.norc.org/variables/7103/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |member of religious community |student/classmate |other |no answer |Total |
+#'  |:-----|:----|:-----------------------------|:-----------------|:-----|:---------|:-----|
+#'  |2018  |1982 |1                             |1                 |1     |363       |2348  |
+#'  |Total |1982 |1                             |1                 |1     |363       |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -351,13 +399,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhp3r1`](https://gssdataexplorer.norc.org/variables/7104/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |spouse/partner (current/ex) |parent |sibling |child |grandparent |grandchild |other family |coworker |neighbor |friend |member of religious community |acquaintance |student/classmate |other |no answer |Total |
+#'  |:-----|:----|:---------------------------|:------|:-------|:-----|:-----------|:----------|:------------|:--------|:--------|:------|:-----------------------------|:------------|:-----------------|:-----|:---------|:-----|
+#'  |2018  |2095 |5                           |9      |21      |11    |7           |2          |65           |10       |2        |103    |2                             |1            |1                 |3     |11        |2348  |
+#'  |Total |2095 |5                           |9      |21      |11    |7           |2          |65           |10       |2        |103    |2                             |1            |1                 |3     |11        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -397,13 +451,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhp3r2`](https://gssdataexplorer.norc.org/variables/7105/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |member of religious community |student/classmate |no answer |Total |
+#'  |:-----|:----|:-----------------------------|:-----------------|:---------|:-----|
+#'  |2018  |2095 |1                             |1                 |251       |2348  |
+#'  |Total |2095 |1                             |1                 |251       |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

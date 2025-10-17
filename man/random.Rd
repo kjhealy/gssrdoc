@@ -21,16 +21,22 @@ Question Randomization for form
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7092/vshow}{GSS Data Explorer page for \code{random}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab NA \tab 1 \tab 2 \tab Total \cr
+   2016 \tab 1432 \tab 725 \tab 710 \tab 2867 \cr
+   2018 \tab 1160 \tab 583 \tab 605 \tab 2348 \cr
+   Total \tab 2592 \tab 1308 \tab 1315 \tab 5215 \cr
+}
 }
 
 \keyword{variable}

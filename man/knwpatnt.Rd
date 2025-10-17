@@ -22,17 +22,23 @@ Question Have you ever known anyone (other than persons mentioned in KNWMHOSP) w
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2002 \cr
+   A/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2065/vshow}{GSS Data Explorer page for \code{knwpatnt}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2168 \tab 388 \tab 271 \tab 11 \tab 66 \tab 2904 \cr
+   2002 \tab 1859 \tab 728 \tab 176 \tab 2 \tab - \tab 2765 \cr
+   Total \tab 4027 \tab 1116 \tab 447 \tab 13 \tab 66 \tab 5669 \cr
+}
 }
 
 \seealso{

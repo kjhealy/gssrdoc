@@ -26,15 +26,21 @@ Question If you were no longer an AMERICAN, but were a citizen of another countr
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1788/vshow}{GSS Data Explorer page for \code{notam}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab completely different \tab quite different \tab somewhat different \tab just slightly different \tab not at all different \tab citizen of another country \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2199 \tab 191 \tab 123 \tab 148 \tab 68 \tab 81 \tab 13 \tab 76 \tab 5 \tab 2904 \cr
+   Total \tab 2199 \tab 191 \tab 123 \tab 148 \tab 68 \tab 81 \tab 13 \tab 76 \tab 5 \tab 2904 \cr
+}
 }
 
 \seealso{

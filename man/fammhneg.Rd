@@ -24,16 +24,22 @@ Question Thinking about your family, to what extent do they hold negative attitu
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2024 \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7145/vshow}{GSS Data Explorer page for \code{fammhneg}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very much \tab somewhat \tab not very much \tab not at all \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 31 \tab 192 \tab 390 \tab 477 \tab 31 \tab 52 \tab 2348 \cr
+   Total \tab 1175 \tab 31 \tab 192 \tab 390 \tab 477 \tab 31 \tab 52 \tab 2348 \cr
+}
 }
 
 \concept{Mental Health}

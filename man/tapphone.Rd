@@ -25,16 +25,23 @@ B. Tap peopleâ€™s telephone conversations?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4115/vshow}{GSS Data Explorer page for \code{tapphone}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should have right \tab probably should have right \tab probably should not have right \tab definitely should not have right \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 380 \tab 435 \tab 280 \tab 405 \tab 18 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 309 \tab 389 \tab 285 \tab 377 \tab 17 \tab 13 \tab 2867 \cr
+   Total \tab 4469 \tab 689 \tab 824 \tab 565 \tab 782 \tab 35 \tab 13 \tab 7377 \cr
+}
 }
 
 \seealso{

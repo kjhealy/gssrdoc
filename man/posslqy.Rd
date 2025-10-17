@@ -24,21 +24,26 @@ Question Which of these statements applies to you?  CODE ONE ONLY.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4152/vshow}{GSS Data Explorer page for \code{posslqy}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab i am married and living in the same household as my husband or wife \tab i have a steady partner, and we live in the same household \tab i have a husband or wife or steady partner, but we don't live in the same household \tab i don't have a steady partner \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   2012 \tab 998 \tab 433 \tab 97 \tab 96 \tab 348 \tab 2 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1274 \tab 562 \tab 120 \tab 117 \tab 462 \tab 1 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 1442 \tab 576 \tab 149 \tab 130 \tab 570 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 1189 \tab 467 \tab 128 \tab 103 \tab 460 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab 1987 \tab 990 \tab 213 \tab 153 \tab 684 \tab - \tab - \tab 5 \tab 4032 \cr
+   2022 \tab 1780 \tab 693 \tab 179 \tab 143 \tab 733 \tab 8 \tab 3 \tab 5 \tab 3544 \cr
+   Total \tab 8670 \tab 3721 \tab 886 \tab 742 \tab 3257 \tab 12 \tab 5 \tab 10 \tab 17303 \cr
+}
 }
 
 \seealso{

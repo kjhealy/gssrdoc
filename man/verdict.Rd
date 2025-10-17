@@ -25,19 +25,28 @@ To let a guilty person go free
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4002/vshow}{GSS Data Explorer page for \code{verdict}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab convict an innocent person \tab let a guilty person go free \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 419 \tab 138 \tab 109 \tab 11 \tab 1534 \cr
+   1990 \tab 155 \tab 684 \tab 243 \tab 249 \tab 41 \tab 1372 \cr
+   1996 \tab 1572 \tab 805 \tab 300 \tab 198 \tab 29 \tab 2904 \cr
+   2006 \tab 2992 \tab 1030 \tab 428 \tab 52 \tab 8 \tab 4510 \cr
+   2016 \tab 1477 \tab 1036 \tab 291 \tab 49 \tab 14 \tab 2867 \cr
+   Total \tab 7053 \tab 3974 \tab 1400 \tab 657 \tab 103 \tab 13187 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ A. I want you to think about the person with a mental health problem with whom y
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3803/vshow}{GSS Data Explorer page for \code{mhclsoth}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab extremely close \tab very close \tab not very close \tab not at all close \tab no answer \tab Total \cr
+   2006 \tab 3535 \tab 323 \tab 381 \tab 204 \tab 61 \tab 6 \tab 4510 \cr
+   Total \tab 3535 \tab 323 \tab 381 \tab 204 \tab 61 \tab 6 \tab 4510 \cr
+}
 }
 
 \seealso{

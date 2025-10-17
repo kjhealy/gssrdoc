@@ -25,15 +25,21 @@ Question People have different opinions about the amount of influence that vario
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1043/vshow}{GSS Data Explorer page for \code{feinflu}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab far too much \tab too much \tab right amount \tab too little \tab far too little \tab don't know \tab no answer \tab Total \cr
+   1987 \tab 778 \tab 8 \tab 43 \tab 375 \tab 461 \tab 118 \tab 25 \tab 11 \tab 1819 \cr
+   Total \tab 778 \tab 8 \tab 43 \tab 375 \tab 461 \tab 118 \tab 25 \tab 11 \tab 1819 \cr
+}
 }
 
 \seealso{

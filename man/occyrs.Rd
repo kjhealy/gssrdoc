@@ -22,15 +22,21 @@ Please include all previous jobs of the same kind.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2137/vshow}{GSS Data Explorer page for \code{occyrs}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 4 \tab 40 \tab 41 \tab 42 \tab 44 \tab 45 \tab 46 \tab 48 \tab 5 \tab 50 \tab 54 \tab 55 \tab 58 \tab 6 \tab 60 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1455 \tab 131 \tab 89 \tab 87 \tab 20 \tab 33 \tab 27 \tab 25 \tab 58 \tab 16 \tab 18 \tab 32 \tab 13 \tab 101 \tab 67 \tab 11 \tab 16 \tab 7 \tab 11 \tab 28 \tab 7 \tab 8 \tab 12 \tab 5 \tab 97 \tab 29 \tab 5 \tab 6 \tab 2 \tab 9 \tab 7 \tab 1 \tab 3 \tab 4 \tab 71 \tab 3 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 99 \tab 1 \tab 1 \tab 1 \tab 1 \tab 53 \tab 1 \tab 41 \tab 51 \tab 33 \tab 2 \tab 26 \tab 2832 \cr
+   Total \tab 1455 \tab 131 \tab 89 \tab 87 \tab 20 \tab 33 \tab 27 \tab 25 \tab 58 \tab 16 \tab 18 \tab 32 \tab 13 \tab 101 \tab 67 \tab 11 \tab 16 \tab 7 \tab 11 \tab 28 \tab 7 \tab 8 \tab 12 \tab 5 \tab 97 \tab 29 \tab 5 \tab 6 \tab 2 \tab 9 \tab 7 \tab 1 \tab 3 \tab 4 \tab 71 \tab 3 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 99 \tab 1 \tab 1 \tab 1 \tab 1 \tab 53 \tab 1 \tab 41 \tab 51 \tab 33 \tab 2 \tab 26 \tab 2832 \cr
+}
 }
 
 \seealso{

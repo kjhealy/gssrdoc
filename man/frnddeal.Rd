@@ -25,15 +25,21 @@ Question People usually get a better price for goods or services when they get t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1863/vshow}{GSS Data Explorer page for \code{frnddeal}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 240 \tab 562 \tab 287 \tab 260 \tab 66 \tab 25 \tab 4 \tab 2904 \cr
+   Total \tab 1460 \tab 240 \tab 562 \tab 287 \tab 260 \tab 66 \tab 25 \tab 4 \tab 2904 \cr
+}
 }
 
 \seealso{

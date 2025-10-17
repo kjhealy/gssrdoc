@@ -25,15 +25,21 @@ C. No one would study for years to become a lawyer or doctor unless they expecte
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1176/vshow}{GSS Data Explorer page for \code{socdif3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab disagree \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 281 \tab 738 \tab 291 \tab 35 \tab 22 \tab 5 \tab 1372 \cr
+   Total \tab 0 \tab 281 \tab 738 \tab 291 \tab 35 \tab 22 \tab 5 \tab 1372 \cr
+}
 }
 
 \seealso{

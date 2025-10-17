@@ -24,15 +24,21 @@ Question Is the SAQ self administered or interview administered?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3451/vshow}{GSS Data Explorer page for \code{scimode}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab assigned and done as interviewed \tab assigned and done as saq \tab assigned as saq, done in interview due to r's request/inability to do as saq \tab assigned as saq, done as interview on phone \tab Total \cr
+   2008 \tab 518 \tab 1237 \tab 140 \tab 89 \tab 39 \tab 2023 \cr
+   Total \tab 518 \tab 1237 \tab 140 \tab 89 \tab 39 \tab 2023 \cr
+}
 }
 
 \seealso{

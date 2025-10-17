@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwblk`](https://gssdataexplorer.norc.org/variables/2331/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no  |no answer |Total |
+#'  |:-----|:----|:----|:---|:---------|:-----|
+#'  |2000  |1619 |1005 |169 |24        |2817  |
+#'  |Total |1619 |1005 |169 |24        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwjew`](https://gssdataexplorer.norc.org/variables/2332/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1455 |752 |559 |1          |50        |2817  |
+#'  |Total |1455 |752 |559 |1          |50        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwhisp`](https://gssdataexplorer.norc.org/variables/2333/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2000  |1532 |887 |346 |52        |2817  |
+#'  |Total |1532 |887 |346 |52        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwasn`](https://gssdataexplorer.norc.org/variables/2334/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1452 |793 |564 |1          |7         |2817  |
+#'  |Total |1452 |793 |564 |1          |7         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -146,13 +170,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whtschl`](https://gssdataexplorer.norc.org/variables/2335/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2000  |2485 |185 |111 |36        |2817  |
+#'  |Total |2485 |185 |111 |36        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -179,13 +209,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whtcom`](https://gssdataexplorer.norc.org/variables/2336/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |2000  |2485 |232 |63 |37        |2817  |
+#'  |Total |2485 |232 |63 |37        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -212,13 +248,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whtrel`](https://gssdataexplorer.norc.org/variables/2337/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2000  |2485 |130 |164 |38        |2817  |
+#'  |Total |2485 |130 |164 |38        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -245,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whtwrk`](https://gssdataexplorer.norc.org/variables/2338/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |2000  |2585 |184 |17 |31        |2817  |
+#'  |Total |2585 |184 |17 |31        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -278,13 +326,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whtcls`](https://gssdataexplorer.norc.org/variables/2339/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
+#'  |2000  |2485 |190 |73 |9          |60        |2817  |
+#'  |Total |2485 |190 |73 |9          |60        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -311,13 +365,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `blkschl`](https://gssdataexplorer.norc.org/variables/2340/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1788 |469 |524 |3          |33        |2817  |
+#'  |Total |1788 |469 |524 |3          |33        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States

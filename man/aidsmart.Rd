@@ -24,15 +24,21 @@ B. For students who have outstanding grades in high school.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4026/vshow}{GSS Data Explorer page for \code{aidsmart}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab govt give grants \tab govt make loans \tab no govt asst \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 226 \tab 364 \tab 57 \tab 13 \tab 17 \tab 1534 \cr
+   Total \tab 857 \tab 226 \tab 364 \tab 57 \tab 13 \tab 17 \tab 1534 \cr
+}
 }
 
 \seealso{

@@ -27,17 +27,24 @@ Question What is your husband's/wife's religious preference? Is it Protestant, C
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4671/vshow}{GSS Data Explorer page for \code{religsp}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab orthodox greek, russian, etc \tab moslem \tab other -specify \tab no religion \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 799 \tab 413 \tab 207 \tab 16 \tab 1 \tab 1 \tab 9 \tab 47 \tab 12 \tab 12 \tab 1517 \cr
+   1998 \tab 2221 \tab 331 \tab 137 \tab 17 \tab 6 \tab 3 \tab 9 \tab 59 \tab 21 \tab 28 \tab 2832 \cr
+   2008 \tab 1378 \tab 382 \tab 153 \tab 14 \tab 6 \tab 2 \tab 9 \tab 68 \tab 9 \tab 2 \tab 2023 \cr
+   Total \tab 4398 \tab 1126 \tab 497 \tab 47 \tab 13 \tab 6 \tab 27 \tab 174 \tab 42 \tab 42 \tab 6372 \cr
+}
 }
 
 \seealso{

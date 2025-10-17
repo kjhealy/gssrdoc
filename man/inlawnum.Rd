@@ -24,15 +24,21 @@ D. Parents-in-Law and Adult Brothers- and Sisters-in-Law
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4156/vshow}{GSS Data Explorer page for \code{inlawnum}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 22 \tab 23 \tab 24 \tab 29 \tab 3 \tab 30 \tab 35 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab # dk but ) 0 \tab don't know \tab no answer \tab Total \cr
+   1986 \tab - \tab 305 \tab 161 \tab 52 \tab 21 \tab 18 \tab 11 \tab 5 \tab 7 \tab 11 \tab 3 \tab 1 \tab 3 \tab 169 \tab 10 \tab 1 \tab 1 \tab 4 \tab 1 \tab 133 \tab 1 \tab 1 \tab 116 \tab 127 \tab 130 \tab 64 \tab 65 \tab 36 \tab 5 \tab 4 \tab 4 \tab 1470 \cr
+   Total \tab 0 \tab 305 \tab 161 \tab 52 \tab 21 \tab 18 \tab 11 \tab 5 \tab 7 \tab 11 \tab 3 \tab 1 \tab 3 \tab 169 \tab 10 \tab 1 \tab 1 \tab 4 \tab 1 \tab 133 \tab 1 \tab 1 \tab 116 \tab 127 \tab 130 \tab 64 \tab 65 \tab 36 \tab 5 \tab 4 \tab 4 \tab 1470 \cr
+}
 }
 
 \seealso{

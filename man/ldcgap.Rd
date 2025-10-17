@@ -26,16 +26,23 @@ A. Present economic differences between rich and poor countries are too large.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   B/C/- \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4324/vshow}{GSS Data Explorer page for \code{ldcgap}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 1545 \tab 237 \tab 511 \tab 314 \tab 69 \tab 14 \tab 78 \tab 49 \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 365 \tab 619 \tab 587 \tab 81 \tab 48 \tab 138 \tab 150 \tab 15 \tab 4032 \cr
+   Total \tab 3574 \tab 602 \tab 1130 \tab 901 \tab 150 \tab 62 \tab 216 \tab 199 \tab 15 \tab 6849 \cr
+}
 }
 
 \seealso{

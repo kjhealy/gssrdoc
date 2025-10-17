@@ -22,15 +22,21 @@ C. What was your weekly wage, before any taxes or deductions?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2163/vshow}{GSS Data Explorer page for \code{weekly}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 100 \tab 1000 \tab 1100 \tab 1200 \tab 1300 \tab 1423 \tab 150 \tab 1600 \tab 162 \tab 1700 \tab 200 \tab 2000 \tab 205 \tab 206 \tab 210 \tab 2200 \tab 230 \tab 2400 \tab 250 \tab 2500 \tab 260 \tab 270 \tab 2740 \tab 275 \tab 280 \tab 300 \tab 325 \tab 330 \tab 350 \tab 360 \tab 400 \tab 420 \tab 425 \tab 440 \tab 445 \tab 450 \tab 470 \tab 475 \tab 480 \tab 500 \tab 525 \tab 540 \tab 550 \tab 560 \tab 600 \tab 601 \tab 650 \tab 660 \tab 7 \tab 700 \tab 720 \tab 734 \tab 750 \tab 77 \tab 775 \tab 800 \tab 850 \tab 865 \tab 89 \tab 900 \tab 925 \tab 950 \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 2678 \tab 2 \tab 5 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 3 \tab 1 \tab 6 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1 \tab 1 \tab 3 \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 3 \tab 41 \tab 2832 \cr
+   Total \tab 2678 \tab 2 \tab 5 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 3 \tab 1 \tab 6 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1 \tab 1 \tab 3 \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 3 \tab 41 \tab 2832 \cr
+}
 }
 
 \seealso{

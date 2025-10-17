@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `godparts`](https://gssdataexplorer.norc.org/variables/4201/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |more than twice in last 4 weeks |once or twice in last 4 weeks |not at all in last 4 weeks |i have no living relative of this type |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------------------|:-----------------------------|:--------------------------|:--------------------------------------|:----------|:---------|:-----|
+#'  |2002  |1616 |39                              |55                            |291                        |749                                    |5          |10        |2765  |
+#'  |Total |1616 |39                              |55                            |291                        |749                                    |5          |10        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -48,13 +54,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cowrkfrd`](https://gssdataexplorer.norc.org/variables/4202/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no close friends at work |1   |10 |12 |15 |16 |18 |2   |20 |21 |22 |23 |25 |3  |30 |4  |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:---|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2002  |2002 |206                      |121 |25 |3  |6  |1  |1  |146 |3  |1  |1  |1  |1  |84 |2  |57 |46 |33 |5  |9  |4  |1          |6         |2765  |
+#'  |Total |2002 |206                      |121 |25 |3  |6  |1  |1  |146 |3  |1  |1  |1  |1  |84 |2  |57 |46 |33 |5  |9  |4  |1          |6         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `neifrd`](https://gssdataexplorer.norc.org/variables/4203/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no close friends living near r |1   |10 |12 |15 |16 |19 |2   |20 |25 |3   |30 |4  |5  |50 |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------------|:---|:--|:--|:--|:--|:--|:---|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2002  |1616 |356                            |122 |42 |7  |11 |2  |1  |200 |19 |3  |110 |1  |96 |86 |4  |52 |11 |9  |10 |1          |6         |2765  |
+#'  |Total |1616 |356                            |122 |42 |7  |11 |2  |1  |200 |19 |3  |110 |1  |96 |86 |4  |52 |11 |9  |10 |1          |6         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -115,13 +133,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bestfrd`](https://gssdataexplorer.norc.org/variables/4204/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a male relative |a female relative |a man who is not a relative |a woman who is not a relative |i dont have a close friend |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:-----------------|:---------------------------|:-----------------------------|:--------------------------|:----------|:---------|:-----|
+#'  |2002  |1616 |151             |186               |328                         |419                           |56                         |2          |7         |2765  |
+#'  |Total |1616 |151             |186               |328                         |419                           |56                         |2          |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -153,13 +177,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bstvisit`](https://gssdataexplorer.norc.org/variables/4205/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |he or she lives in the same household as i do |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |never |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------------------------|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:-----|:----------|:---------|:-----|
+#'  |2002  |1674 |26                                            |118   |221                           |254                  |185                   |173                  |94         |12    |1          |7         |2765  |
+#'  |Total |1674 |26                                            |118   |221                           |254                  |185                   |173                  |94         |12    |1          |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -190,13 +220,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bstcall`](https://gssdataexplorer.norc.org/variables/4206/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |never |no answer |Total |
+#'  |:-----|:----|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:-----|:---------|:-----|
+#'  |2002  |1701 |192   |282                           |241                  |169                   |80                   |50         |43    |7         |2765  |
+#'  |Total |1701 |192   |282                           |241                  |169                   |80                   |50         |43    |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -225,13 +261,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `grppol`](https://gssdataexplorer.norc.org/variables/4207/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |i have participated more than twice |i have participated once or twice |i belong to such a group but never participate |i do not belong to such a group |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------------------------|:---------------------------------|:----------------------------------------------|:-------------------------------|:----------|:---------|:-----|
+#'  |2002  |1616 |113                                 |100                               |75                                             |853                             |1          |7         |2765  |
+#'  |Total |1616 |113                                 |100                               |75                                             |853                             |1          |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -260,13 +302,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `grpunion`](https://gssdataexplorer.norc.org/variables/4208/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |i have participated more than twice |i have participated once or twice |i belong to such a group but never participate |i do not belong to such a group |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------------------------|:---------------------------------|:----------------------------------------------|:-------------------------------|:----------|:---------|:-----|
+#'  |2002  |1616 |101                                 |86                                |90                                             |864                             |1          |7         |2765  |
+#'  |Total |1616 |101                                 |86                                |90                                             |864                             |1          |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -295,13 +343,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `grpchurh`](https://gssdataexplorer.norc.org/variables/4209/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |i have participated more than twice |i have participated once or twice |i belong to such a group but never participate |i do not belong to such a group |no answer |Total |
+#'  |:-----|:----|:-----------------------------------|:---------------------------------|:----------------------------------------------|:-------------------------------|:---------|:-----|
+#'  |2002  |1616 |422                                 |184                               |116                                            |420                             |7         |2765  |
+#'  |Total |1616 |422                                 |184                               |116                                            |420                             |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -330,13 +384,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `grpsport`](https://gssdataexplorer.norc.org/variables/4210/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |i have participated more than twice |i have participated once or twice |i belong to such a group but never participate |i do not belong to such a group |no answer |Total |
+#'  |:-----|:----|:-----------------------------------|:---------------------------------|:----------------------------------------------|:-------------------------------|:---------|:-----|
+#'  |2002  |1616 |303                                 |117                               |25                                             |697                             |7         |2765  |
+#'  |Total |1616 |303                                 |117                               |25                                             |697                             |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems

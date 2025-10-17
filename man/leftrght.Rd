@@ -22,16 +22,21 @@ Question In politics people sometimes talk of left and right. Where would you pl
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4971/vshow}{GSS Data Explorer page for \code{leftrght}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab left \tab 1 \tab right \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2014 \tab 1274 \tab 43 \tab 21 \tab 70 \tab 51 \tab 67 \tab 87 \tab 447 \tab 92 \tab 85 \tab 81 \tab 21 \tab 162 \tab 37 \tab 2538 \cr
+   Total \tab 1274 \tab 43 \tab 21 \tab 70 \tab 51 \tab 67 \tab 87 \tab 447 \tab 92 \tab 85 \tab 81 \tab 21 \tab 162 \tab 37 \tab 2538 \cr
+}
 }
 
 \seealso{

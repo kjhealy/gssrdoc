@@ -25,15 +25,21 @@ B. A trade union or professional association
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4208/vshow}{GSS Data Explorer page for \code{grpunion}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab i have participated more than twice \tab i have participated once or twice \tab i belong to such a group but never participate \tab i do not belong to such a group \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 101 \tab 86 \tab 90 \tab 864 \tab 1 \tab 7 \tab 2765 \cr
+   Total \tab 1616 \tab 101 \tab 86 \tab 90 \tab 864 \tab 1 \tab 7 \tab 2765 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,22 @@ C. Lover
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/324/vshow}{GSS Data Explorer page for \code{lover}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
+   1983 \tab - \tab 675 \tab 315 \tab 212 \tab 325 \tab 55 \tab 17 \tab 1599 \cr
+   1984 \tab 989 \tab 163 \tab 97 \tab 82 \tab 116 \tab 15 \tab 11 \tab 1473 \cr
+   Total \tab 989 \tab 838 \tab 412 \tab 294 \tab 441 \tab 70 \tab 28 \tab 3072 \cr
+}
 }
 
 \seealso{

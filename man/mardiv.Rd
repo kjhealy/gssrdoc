@@ -26,21 +26,28 @@ I. Couples don''t take marriage seriously enough when divorce is easily availabl
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4372/vshow}{GSS Data Explorer page for \code{mardiv}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 293 \tab 603 \tab 227 \tab 195 \tab 47 \tab 26 \tab 23 \tab 1481 \cr
+   Total \tab 67 \tab 293 \tab 603 \tab 227 \tab 195 \tab 47 \tab 26 \tab 23 \tab 1481 \cr
+}
 }
 
 \seealso{
 Other ISSP Family & Gender Roles: 
 \code{\link{fourkids}},
 \code{\link{kidtrble}},
+\code{\link{marhomo}},
 \code{\link{nokids}},
 \code{\link{numkids}},
 \code{\link{onekid}},

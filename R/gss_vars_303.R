@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `docinfo`](https://gssdataexplorer.norc.org/variables/2753/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no   |maybe |don't know |no answer |Total |
+#'  |:-----|:---|:---|:----|:-----|:----------|:---------|:-----|
+#'  |2002  |-   |711 |1853 |161   |35         |5         |2765  |
+#'  |Total |0   |711 |1853 |161   |35         |5         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `docnomri`](https://gssdataexplorer.norc.org/variables/2754/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes  |no   |maybe |don't know |no answer |Total |
+#'  |:-----|:---|:----|:----|:-----|:----------|:---------|:-----|
+#'  |2002  |-   |1319 |1137 |266   |39         |4         |2765  |
+#'  |Total |0   |1319 |1137 |266   |39         |4         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -82,13 +94,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `docsat`](https://gssdataexplorer.norc.org/variables/2755/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |excellent |very good |good |fair |poor |don't know |no answer |Total |
+#'  |:-----|:---|:---------|:---------|:----|:----|:----|:----------|:---------|:-----|
+#'  |2002  |-   |89        |372       |759  |697  |814  |30         |4         |2765  |
+#'  |Total |0   |89        |372       |759  |697  |814  |30         |4         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -117,13 +135,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `doccosts`](https://gssdataexplorer.norc.org/variables/2756/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |completely |mostly |somewhat |a little |not at all |don't know |no answer |Total |
+#'  |:-----|:---|:----------|:------|:--------|:--------|:----------|:----------|:---------|:-----|
+#'  |2002  |-   |362        |647    |748      |377      |585        |41         |5         |2765  |
+#'  |Total |0   |362        |647    |748      |377      |585        |41         |5         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -150,13 +174,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `docswtch`](https://gssdataexplorer.norc.org/variables/2757/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no   |maybe |don't know |no answer |Total |
+#'  |:-----|:---|:---|:----|:-----|:----------|:---------|:-----|
+#'  |2002  |-   |984 |1349 |402   |26         |4         |2765  |
+#'  |Total |0   |984 |1349 |402   |26         |4         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -183,13 +213,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `insrchng`](https://gssdataexplorer.norc.org/variables/2758/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no   |maybe |don't know |no answer |Total |
+#'  |:-----|:---|:---|:----|:-----|:----------|:---------|:-----|
+#'  |2002  |-   |926 |1366 |437   |31         |5         |2765  |
+#'  |Total |0   |926 |1366 |437   |31         |5         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -216,13 +252,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `secopin`](https://gssdataexplorer.norc.org/variables/2759/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes  |no  |maybe |don't know |no answer |Total |
+#'  |:-----|:---|:----|:---|:-----|:----------|:---------|:-----|
+#'  |2002  |-   |1827 |635 |278   |21         |4         |2765  |
+#'  |Total |0   |1827 |635 |278   |21         |4         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -261,13 +303,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `paidhow`](https://gssdataexplorer.norc.org/variables/6291/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |salary |by the hour |earnings from business |piecework |by the job/project |wage + commission |by hour + tips |mileage |salary & hours combination |by day/week |by route |by client |by contract |other |no answer |Total |
+#'  |:-----|:----|:------|:-----------|:----------------------|:---------|:------------------|:-----------------|:--------------|:-------|:--------------------------|:-----------|:--------|:---------|:-----------|:-----|:---------|:-----|
+#'  |2016  |2273 |191    |332         |5                      |2         |11                 |9                 |2              |5       |9                          |3           |3        |2         |5           |7     |8         |2867  |
+#'  |Total |2273 |191    |332         |5                      |2         |11                 |9                 |2              |5       |9                          |3           |3        |2         |5           |7     |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Flexible Work
@@ -293,13 +341,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `usualhrs`](https://gssdataexplorer.norc.org/variables/6292/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |10 |15 |16 |18 |2  |20 |21 |22 |23 |24 |25 |27 |28 |29 |30 |32 |33 |34 |35 |36 |37 |38 |39 |4  |40  |41 |42 |43 |44 |45 |46 |48 |5  |50 |52 |55 |58 |6  |60 |65 |67 |7  |70 |72 |75 |8  |80 |99 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2016  |2273 |1  |8  |6  |7  |4  |1  |18 |2  |2  |2  |3  |15 |3  |2  |1  |24 |10 |2  |2  |22 |5  |5  |10 |4  |2  |212 |4  |2  |6  |4  |39 |1  |8  |1  |53 |6  |10 |1  |2  |32 |11 |1  |1  |8  |1  |2  |1  |7  |1  |4          |15        |2867  |
+#'  |Total |2273 |1  |8  |6  |7  |4  |1  |18 |2  |2  |2  |3  |15 |3  |2  |1  |24 |10 |2  |2  |22 |5  |5  |10 |4  |2  |212 |4  |2  |6  |4  |39 |1  |8  |1  |53 |6  |10 |1  |2  |32 |11 |1  |1  |8  |1  |2  |1  |7  |1  |4          |15        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Flexible Work
@@ -325,13 +379,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mosthrs`](https://gssdataexplorer.norc.org/variables/6293/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |10 |100 |12 |120 |145 |15 |16 |18 |19 |2  |20 |22 |23 |24 |25 |26 |27 |28 |29 |30 |31 |32 |33 |34 |35 |36 |37 |38 |39 |40  |41 |42 |43 |44 |45 |46 |47 |48 |49 |5  |50 |52 |53 |54 |55 |56 |57 |58 |59 |6  |60 |62 |63 |64 |65 |68 |7  |70 |72 |74 |75 |76 |77 |78 |8  |80 |82 |84 |86 |88 |90 |92 |98 |99 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:---|:--|:---|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2016  |2273 |4  |3   |1  |2   |1   |4  |4  |3  |1  |1  |9  |1  |1  |2  |9  |1  |2  |3  |1  |26 |1  |8  |1  |1  |14 |4  |3  |2  |7  |104 |7  |20 |5  |8  |30 |6  |1  |19 |1  |1  |64 |9  |2  |2  |14 |5  |1  |3  |1  |2  |47 |5  |2  |4  |16 |4  |1  |30 |4  |1  |2  |1  |1  |1  |3  |10 |1  |2  |1  |1  |5  |1  |1  |1  |4          |20        |2867  |
+#'  |Total |2273 |4  |3   |1  |2   |1   |4  |4  |3  |1  |1  |9  |1  |1  |2  |9  |1  |2  |3  |1  |26 |1  |8  |1  |1  |14 |4  |3  |2  |7  |104 |7  |20 |5  |8  |30 |6  |1  |19 |1  |1  |64 |9  |2  |2  |14 |5  |1  |3  |1  |2  |47 |5  |2  |4  |16 |4  |1  |30 |4  |1  |2  |1  |1  |1  |3  |10 |1  |2  |1  |1  |5  |1  |1  |1  |4          |20        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Flexible Work

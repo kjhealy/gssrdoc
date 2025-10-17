@@ -22,16 +22,22 @@ Question If a close family member or friend decided to have an abortion, which o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7177/vshow}{GSS Data Explorer page for \code{abhelp1}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 1590 \tab 633 \tab 62 \tab 63 \tab - \tab 2348 \cr
+   2022 \tab 2309 \tab 965 \tab 266 \tab - \tab - \tab 4 \tab 3544 \cr
+   Total \tab 2309 \tab 2555 \tab 899 \tab 62 \tab 63 \tab 4 \tab 5892 \cr
+}
 }
 
 \seealso{

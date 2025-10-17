@@ -26,17 +26,24 @@ A. One parent can bring up a child as well as two parents together.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 1994, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4405/vshow}{GSS Data Explorer page for \code{singlpar}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1994 \tab 1545 \tab 124 \tab 387 \tab 203 \tab 542 \tab 159 \tab 10 \tab 22 \tab 2992 \cr
+   2002 \tab 1594 \tab 198 \tab 292 \tab 143 \tab 344 \tab 181 \tab 12 \tab 1 \tab 2765 \cr
+   2012 \tab 672 \tab 116 \tab 504 \tab 120 \tab 417 \tab 113 \tab 26 \tab 6 \tab 1974 \cr
+   Total \tab 3811 \tab 438 \tab 1183 \tab 466 \tab 1303 \tab 453 \tab 48 \tab 29 \tab 7731 \cr
+}
 }
 
 \seealso{

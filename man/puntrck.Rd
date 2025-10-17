@@ -27,15 +27,21 @@ E. Stealing and selling truck parts and tires from a military depot.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5236/vshow}{GSS Data Explorer page for \code{puntrck}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab reprimand \tab dismissal from the military/fired by the government \tab one year in prison \tab 5-9 years in prison \tab 10-20 years in prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 87 \tab 402 \tab 376 \tab 340 \tab 117 \tab 36 \tab 49 \tab 12 \tab 2817 \cr
+   Total \tab 1398 \tab 87 \tab 402 \tab 376 \tab 340 \tab 117 \tab 36 \tab 49 \tab 12 \tab 2817 \cr
+}
 }
 
 \seealso{

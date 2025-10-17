@@ -24,26 +24,33 @@ Question Hospitalization and disability during last five years.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/743/vshow}{GSS Data Explorer page for \code{hosdis5}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab none \tab prior 4 years \tab last year \tab both \tab no answer \tab Total \cr
+   1978 \tab - \tab 859 \tab 351 \tab 106 \tab 189 \tab 27 \tab 1532 \cr
+   1980 \tab - \tab 830 \tab 312 \tab 111 \tab 187 \tab 28 \tab 1468 \cr
+   1983 \tab - \tab 967 \tab 309 \tab 119 \tab 188 \tab 16 \tab 1599 \cr
+   1984 \tab - \tab 872 \tab 283 \tab 118 \tab 179 \tab 21 \tab 1473 \cr
+   1986 \tab - \tab 863 \tab 287 \tab 106 \tab 201 \tab 13 \tab 1470 \cr
+   1987 \tab - \tab 1077 \tab 341 \tab 126 \tab 232 \tab 43 \tab 1819 \cr
+   1988 \tab 484 \tab 552 \tab 201 \tab 86 \tab 151 \tab 7 \tab 1481 \cr
+   1989 \tab 502 \tab 615 \tab 196 \tab 76 \tab 129 \tab 19 \tab 1537 \cr
+   1990 \tab 473 \tab 564 \tab 168 \tab 61 \tab 97 \tab 9 \tab 1372 \cr
+   1991 \tab 500 \tab 623 \tab 187 \tab 57 \tab 137 \tab 13 \tab 1517 \cr
+   1993 \tab 549 \tab 633 \tab 213 \tab 63 \tab 143 \tab 5 \tab 1606 \cr
+   1994 \tab 2481 \tab 312 \tab 99 \tab 40 \tab 58 \tab 2 \tab 2992 \cr
+   Total \tab 4989 \tab 8767 \tab 2947 \tab 1069 \tab 1891 \tab 203 \tab 19866 \cr
+}
 }
 
 \seealso{

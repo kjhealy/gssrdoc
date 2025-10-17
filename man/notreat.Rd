@@ -26,15 +26,21 @@ B. Refuse further treatment except for pain relief right now.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2256/vshow}{GSS Data Explorer page for \code{notreat}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 444 \tab 523 \tab 165 \tab 151 \tab 32 \tab 33 \tab 39 \tab 2832 \cr
+   Total \tab 1445 \tab 444 \tab 523 \tab 165 \tab 151 \tab 32 \tab 33 \tab 39 \tab 2832 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question C. Have you ever considered working in a science-related career?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3509/vshow}{GSS Data Explorer page for \code{scientr}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2012 \tab 1457 \tab 178 \tab 336 \tab 3 \tab 1974 \cr
+   Total \tab 1457 \tab 178 \tab 336 \tab 3 \tab 1974 \cr
+}
 }
 
 \seealso{

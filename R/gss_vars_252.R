@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `conteng`](https://gssdataexplorer.norc.org/variables/2271/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |401                         |577                    |271               |36                           |103        |10        |2817  |
+#'  |Total |1419 |401                         |577                    |271               |36                           |103        |10        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -51,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `contitl`](https://gssdataexplorer.norc.org/variables/2272/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |94                          |571                    |521               |73                           |131        |8         |2817  |
+#'  |Total |1419 |94                          |571                    |521               |73                           |131        |8         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -86,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `contchn`](https://gssdataexplorer.norc.org/variables/2273/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |95                          |430                    |550               |171                          |144        |8         |2817  |
+#'  |Total |1419 |95                          |430                    |550               |171                          |144        |8         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -121,13 +139,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `contjew`](https://gssdataexplorer.norc.org/variables/2274/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |145                         |582                    |441               |72                           |151        |7         |2817  |
+#'  |Total |1419 |145                         |582                    |441               |72                           |151        |7         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -156,13 +180,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `contblk`](https://gssdataexplorer.norc.org/variables/2275/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |118                         |541                    |491               |144                          |94         |10        |2817  |
+#'  |Total |1419 |118                         |541                    |491               |144                          |94         |10        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -191,13 +221,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `contmex`](https://gssdataexplorer.norc.org/variables/2276/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |52                          |334                    |569               |288                          |146        |9         |2817  |
+#'  |Total |1419 |52                          |334                    |569               |288                          |146        |9         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -226,13 +262,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `contvn`](https://gssdataexplorer.norc.org/variables/2277/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |33                          |216                    |517               |421                          |200        |11        |2817  |
+#'  |Total |1419 |33                          |216                    |517               |421                          |200        |11        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -261,13 +303,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `contcuba`](https://gssdataexplorer.norc.org/variables/2278/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |29                          |190                    |489               |481                          |197        |12        |2817  |
+#'  |Total |1419 |29                          |190                    |489               |481                          |197        |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -296,13 +344,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `contirsh`](https://gssdataexplorer.norc.org/variables/2279/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |109                         |550                    |489               |98                           |140        |12        |2817  |
+#'  |Total |1419 |109                         |550                    |489               |98                           |140        |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -331,13 +385,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `contpr`](https://gssdataexplorer.norc.org/variables/2280/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |35                          |224                    |563               |369                          |196        |11        |2817  |
+#'  |Total |1419 |35                          |224                    |563               |369                          |196        |11        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States

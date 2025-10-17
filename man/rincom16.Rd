@@ -47,19 +47,24 @@ Question In which of these groups did your earnings from (job), from all sources
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6168/vshow}{GSS Data Explorer page for \code{rincom16}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllll}{
+   year \tab iap \tab under $1,000 \tab $1,000 to $2,999 \tab $3,000 to $3,999 \tab $4,000 to $4,999 \tab $5,000 to $5,999 \tab $6,000 to $6,999 \tab $7,000 to $7,999 \tab $8,000 to $9,999 \tab $10,000 to $12,499 \tab $12,500 to $14,999 \tab $15,000 to $17,499 \tab $17,500 to $19,999 \tab $20,000 to $22,499 \tab $22,500 to $24,999 \tab $25,000 to $29,999 \tab $30,000 to $34,999 \tab $35,000 to $39,999 \tab $40,000 to $49,999 \tab $50,000 to $59,999 \tab $60,000 to $74,999 \tab $75,000 to $89,999 \tab $90,000 to $109,999 \tab $110,000 to $129,999 \tab $130,000 to $149,999 \tab $150,000 to $169,999 \tab $170,000 or over \tab refused \tab don't know \tab skipped on web \tab Total \cr
+   2016 \tab 1136 \tab 25 \tab 51 \tab 32 \tab 30 \tab 31 \tab 31 \tab 24 \tab 34 \tab 51 \tab 45 \tab 60 \tab 52 \tab 74 \tab 64 \tab 97 \tab 118 \tab 108 \tab 158 \tab 137 \tab 141 \tab 79 \tab 68 \tab 36 \tab 21 \tab 14 \tab 51 \tab 85 \tab 14 \tab - \tab 2867 \cr
+   2018 \tab 899 \tab 33 \tab 32 \tab 32 \tab 21 \tab 21 \tab 12 \tab 18 \tab 33 \tab 48 \tab 46 \tab 25 \tab 36 \tab 61 \tab 46 \tab 73 \tab 96 \tab 81 \tab 136 \tab 114 \tab 114 \tab 81 \tab 67 \tab 43 \tab 32 \tab 14 \tab 48 \tab 60 \tab 26 \tab - \tab 2348 \cr
+   2021 \tab 1307 \tab 36 \tab 52 \tab 28 \tab 24 \tab 32 \tab 27 \tab 30 \tab 43 \tab 88 \tab 61 \tab 57 \tab 62 \tab 73 \tab 74 \tab 124 \tab 148 \tab 122 \tab 220 \tab 203 \tab 267 \tab 191 \tab 166 \tab 96 \tab 54 \tab 49 \tab 129 \tab 63 \tab 161 \tab 45 \tab 4032 \cr
+   2022 \tab 1308 \tab 23 \tab 35 \tab 29 \tab 20 \tab 26 \tab 17 \tab 20 \tab 52 \tab 70 \tab 43 \tab 49 \tab 42 \tab 78 \tab 62 \tab 93 \tab 123 \tab 108 \tab 161 \tab 188 \tab 205 \tab 146 \tab 118 \tab 79 \tab 56 \tab 32 \tab 115 \tab 113 \tab 111 \tab 22 \tab 3544 \cr
+   Total \tab 4650 \tab 117 \tab 170 \tab 121 \tab 95 \tab 110 \tab 87 \tab 92 \tab 162 \tab 257 \tab 195 \tab 191 \tab 192 \tab 286 \tab 246 \tab 387 \tab 485 \tab 419 \tab 675 \tab 642 \tab 727 \tab 497 \tab 419 \tab 254 \tab 163 \tab 109 \tab 343 \tab 321 \tab 312 \tab 67 \tab 12791 \cr
+}
 }
 
 \seealso{

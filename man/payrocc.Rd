@@ -23,15 +23,21 @@ P. People in your occupation - about how much do they actually earn?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4278/vshow}{GSS Data Explorer page for \code{payrocc}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 10400 \tab 10712 \tab 11000 \tab 110000 \tab 12000 \tab 120000 \tab 12500 \tab 125000 \tab 13000 \tab 14000 \tab 14500 \tab 15000 \tab 150000 \tab 16000 \tab 16500 \tab 16640 \tab 17000 \tab 175000 \tab 18000 \tab 19000 \tab 1e+05 \tab $1 million (or more, for 1987 & 2000) \tab 2000 \tab 20000 \tab 21000 \tab 22000 \tab 23000 \tab 24000 \tab 25000 \tab 250000 \tab 26000 \tab 27000 \tab 28000 \tab 29000 \tab 2e+05 \tab 3000 \tab 30000 \tab 32000 \tab 33000 \tab 34000 \tab 35000 \tab 36000 \tab 38000 \tab 39000 \tab 3e+05 \tab 4000 \tab 40000 \tab 42000 \tab 43000 \tab 44000 \tab 4500 \tab 45000 \tab 47000 \tab 48000 \tab 4e+05 \tab 5000 \tab 50000 \tab 5300 \tab 55000 \tab 58000 \tab 5e+05 \tab 6000 \tab 60000 \tab 63000 \tab 65000 \tab 69000 \tab 7000 \tab 70000 \tab 7200 \tab 7500 \tab 75000 \tab 76000 \tab 78000 \tab 8000 \tab 80000 \tab 85000 \tab 9000 \tab 90000 \tab 95000 \tab never worked \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1545 \tab 4 \tab 20 \tab 1 \tab 1 \tab 2 \tab 1 \tab 28 \tab 5 \tab 1 \tab 1 \tab 7 \tab 10 \tab 1 \tab 35 \tab 12 \tab 9 \tab 1 \tab 1 \tab 10 \tab 1 \tab 25 \tab 6 \tab 20 \tab 3 \tab 3 \tab 76 \tab 3 \tab 23 \tab 4 \tab 13 \tab 91 \tab 4 \tab 3 \tab 7 \tab 10 \tab 1 \tab 2 \tab 1 \tab 107 \tab 8 \tab 3 \tab 4 \tab 78 \tab 6 \tab 3 \tab 3 \tab 1 \tab 2 \tab 63 \tab 5 \tab 1 \tab 1 \tab 1 \tab 30 \tab 1 \tab 3 \tab 2 \tab 7 \tab 73 \tab 1 \tab 11 \tab 1 \tab 1 \tab 8 \tab 47 \tab 1 \tab 10 \tab 1 \tab 5 \tab 11 \tab 1 \tab 2 \tab 25 \tab 2 \tab 1 \tab 8 \tab 21 \tab 4 \tab 8 \tab 2 \tab 1 \tab 18 \tab 43 \tab 191 \tab 2817 \cr
+   Total \tab 1545 \tab 4 \tab 20 \tab 1 \tab 1 \tab 2 \tab 1 \tab 28 \tab 5 \tab 1 \tab 1 \tab 7 \tab 10 \tab 1 \tab 35 \tab 12 \tab 9 \tab 1 \tab 1 \tab 10 \tab 1 \tab 25 \tab 6 \tab 20 \tab 3 \tab 3 \tab 76 \tab 3 \tab 23 \tab 4 \tab 13 \tab 91 \tab 4 \tab 3 \tab 7 \tab 10 \tab 1 \tab 2 \tab 1 \tab 107 \tab 8 \tab 3 \tab 4 \tab 78 \tab 6 \tab 3 \tab 3 \tab 1 \tab 2 \tab 63 \tab 5 \tab 1 \tab 1 \tab 1 \tab 30 \tab 1 \tab 3 \tab 2 \tab 7 \tab 73 \tab 1 \tab 11 \tab 1 \tab 1 \tab 8 \tab 47 \tab 1 \tab 10 \tab 1 \tab 5 \tab 11 \tab 1 \tab 2 \tab 25 \tab 2 \tab 1 \tab 8 \tab 21 \tab 4 \tab 8 \tab 2 \tab 1 \tab 18 \tab 43 \tab 191 \tab 2817 \cr
+}
 }
 
 \seealso{

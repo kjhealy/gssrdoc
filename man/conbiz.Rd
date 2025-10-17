@@ -26,18 +26,26 @@ B. Business and industry
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4640/vshow}{GSS Data Explorer page for \code{conbiz}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab complete confidence \tab a great deal of confidence \tab some confidence \tab very little confidence \tab no confidence at all \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 44 \tab 241 \tab 714 \tab 220 \tab 54 \tab 40 \tab 46 \tab 1517 \cr
+   1998 \tab 1548 \tab 34 \tab 271 \tab 659 \tab 186 \tab 45 \tab 45 \tab 44 \tab 2832 \cr
+   2008 \tab 658 \tab 35 \tab 199 \tab 803 \tab 231 \tab 78 \tab 19 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 35 \tab 223 \tab 687 \tab 166 \tab 41 \tab 15 \tab 8 \tab 2348 \cr
+   Total \tab 3537 \tab 148 \tab 934 \tab 2863 \tab 803 \tab 218 \tab 119 \tab 98 \tab 8720 \cr
+}
 }
 
 \seealso{

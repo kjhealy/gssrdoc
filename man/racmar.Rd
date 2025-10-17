@@ -22,35 +22,42 @@ Question A. Do you think there should be laws against marriages between (Negroes
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/- \tab full \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1972, 1973, 1974, 1975, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/382/vshow}{GSS Data Explorer page for \code{racmar}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab yes \tab no \tab don't know \tab iap \tab no answer \tab Total \cr
+   1972 \tab 514 \tab 795 \tab 43 \tab 261 \tab - \tab 1613 \cr
+   1973 \tab 488 \tab 801 \tab 20 \tab 183 \tab 12 \tab 1504 \cr
+   1974 \tab 442 \tab 838 \tab 29 \tab 173 \tab 2 \tab 1484 \cr
+   1975 \tab 499 \tab 793 \tab 29 \tab 163 \tab 6 \tab 1490 \cr
+   1976 \tab 433 \tab 897 \tab 33 \tab 129 \tab 7 \tab 1499 \cr
+   1977 \tab 375 \tab 952 \tab 21 \tab 176 \tab 6 \tab 1530 \cr
+   1980 \tab 427 \tab 1000 \tab 39 \tab - \tab 2 \tab 1468 \cr
+   1982 \tab 463 \tab 1339 \tab 53 \tab - \tab 5 \tab 1860 \cr
+   1984 \tab 346 \tab 1037 \tab 37 \tab - \tab 53 \tab 1473 \cr
+   1985 \tab 387 \tab 1099 \tab 38 \tab - \tab 10 \tab 1534 \cr
+   1987 \tab 370 \tab 1390 \tab 54 \tab - \tab 5 \tab 1819 \cr
+   1988 \tab 213 \tab 732 \tab 29 \tab 504 \tab 3 \tab 1481 \cr
+   1989 \tab 214 \tab 790 \tab 27 \tab 504 \tab 2 \tab 1537 \cr
+   1990 \tab 171 \tab 719 \tab 26 \tab 455 \tab 1 \tab 1372 \cr
+   1991 \tab 168 \tab 786 \tab 32 \tab 524 \tab 7 \tab 1517 \cr
+   1993 \tab 178 \tab 859 \tab 35 \tab 531 \tab 3 \tab 1606 \cr
+   1994 \tab 268 \tab 1678 \tab 46 \tab 996 \tab 4 \tab 2992 \cr
+   1996 \tab 209 \tab 1672 \tab 41 \tab 981 \tab 1 \tab 2904 \cr
+   1998 \tab 204 \tab 1625 \tab 50 \tab 950 \tab 3 \tab 2832 \cr
+   2000 \tab 172 \tab 1525 \tab 47 \tab 1067 \tab 6 \tab 2817 \cr
+   2002 \tab 88 \tab 828 \tab 7 \tab 1841 \tab 1 \tab 2765 \cr
+   Total \tab 6629 \tab 22155 \tab 736 \tab 9438 \tab 139 \tab 39097 \cr
+}
 }
 
 \seealso{

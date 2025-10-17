@@ -24,26 +24,33 @@ Question C. Death of child or child's spouse
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/750/vshow}{GSS Data Explorer page for \code{chlddth}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab no death reported \tab died 6+ yrs ago \tab died 1-5 yrs ago \tab died last year \tab no answer \tab Total \cr
+   1978 \tab 417 \tab 984 \tab 83 \tab 22 \tab 7 \tab 19 \tab 1532 \cr
+   1980 \tab 389 \tab 970 \tab 63 \tab 26 \tab 7 \tab 13 \tab 1468 \cr
+   1983 \tab 431 \tab 1070 \tab 56 \tab 17 \tab 12 \tab 13 \tab 1599 \cr
+   1984 \tab 431 \tab 905 \tab 76 \tab 23 \tab 10 \tab 28 \tab 1473 \cr
+   1986 \tab 399 \tab 964 \tab 77 \tab 17 \tab 10 \tab 3 \tab 1470 \cr
+   1987 \tab 517 \tab 1140 \tab 93 \tab 26 \tab 20 \tab 23 \tab 1819 \cr
+   1988 \tab 750 \tab 647 \tab 53 \tab 16 \tab 9 \tab 6 \tab 1481 \cr
+   1989 \tab 795 \tab 668 \tab 45 \tab 14 \tab 3 \tab 12 \tab 1537 \cr
+   1990 \tab 728 \tab 576 \tab 40 \tab 16 \tab 5 \tab 7 \tab 1372 \cr
+   1991 \tab 776 \tab 671 \tab 41 \tab 13 \tab 4 \tab 12 \tab 1517 \cr
+   1993 \tab 840 \tab 692 \tab 44 \tab 10 \tab 4 \tab 16 \tab 1606 \cr
+   1994 \tab 2619 \tab 329 \tab 23 \tab 8 \tab 6 \tab 7 \tab 2992 \cr
+   Total \tab 9092 \tab 9616 \tab 694 \tab 208 \tab 97 \tab 159 \tab 19866 \cr
+}
 }
 
 \seealso{

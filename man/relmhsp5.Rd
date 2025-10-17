@@ -23,15 +23,21 @@ E. Acquaintances.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2063/vshow}{GSS Data Explorer page for \code{relmhsp5}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab acquaintance \tab not acquaintance \tab no answer \tab Total \cr
+   1996 \tab 2531 \tab 88 \tab 276 \tab 9 \tab 2904 \cr
+   Total \tab 2531 \tab 88 \tab 276 \tab 9 \tab 2904 \cr
+}
 }
 
 \seealso{

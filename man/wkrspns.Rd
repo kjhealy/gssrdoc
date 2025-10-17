@@ -28,15 +28,21 @@ Question What did you typically do in response to these behaviors?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3023/vshow}{GSS Data Explorer page for \code{wkrspns}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab did nothing (ignored it) \tab talked to co-workers or other people at work \tab talked to family or friends \tab reported the incident to management or those higher up \tab reported the incident to the union \tab confronted the person (s) engaging in the behaviors \tab filed a formal complaint or grievance about the behavior or experiences \tab did not know what to do \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1219 \tab 214 \tab 136 \tab 59 \tab 109 \tab 6 \tab 185 \tab 9 \tab 14 \tab 15 \tab 8 \tab 1974 \cr
+   Total \tab 1219 \tab 214 \tab 136 \tab 59 \tab 109 \tab 6 \tab 185 \tab 9 \tab 14 \tab 15 \tab 8 \tab 1974 \cr
+}
 }
 
 \seealso{

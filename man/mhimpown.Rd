@@ -24,15 +24,21 @@ Question How likely is it that (NAME)'s situation will improve on its own? Is it
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3758/vshow}{GSS Data Explorer page for \code{mhimpown}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 56 \tab 259 \tab 651 \tab 432 \tab 20 \tab 7 \tab 4510 \cr
+   Total \tab 3085 \tab 56 \tab 259 \tab 651 \tab 432 \tab 20 \tab 7 \tab 4510 \cr
+}
 }
 
 \seealso{

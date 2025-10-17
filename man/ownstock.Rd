@@ -25,20 +25,26 @@ Question Do you own any shares of stock in the company where you now work, eithe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2852/vshow}{GSS Data Explorer page for \code{ownstock}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab yes \tab no, i work for a company that does not have stock \tab no, my company has stock but i do not own any \tab no, i do not own and do not know if my company has stock \tab i do not know if i own stock in my company \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 1389 \tab 314 \tab 598 \tab 179 \tab 188 \tab 74 \tab 7 \tab 16 \tab - \tab 2765 \cr
+   2006 \tab 3207 \tab 244 \tab 607 \tab 178 \tab 174 \tab 68 \tab 4 \tab 28 \tab - \tab 4510 \cr
+   2010 \tab 1181 \tab 171 \tab 381 \tab 103 \tab 133 \tab 40 \tab 4 \tab 31 \tab - \tab 2044 \cr
+   2014 \tab 2019 \tab 104 \tab 212 \tab 73 \tab 78 \tab 43 \tab 4 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 1377 \tab 204 \tab 330 \tab 151 \tab 177 \tab 69 \tab 1 \tab 39 \tab - \tab 2348 \cr
+   2022 \tab 2950 \tab 121 \tab 228 \tab 77 \tab 112 \tab 36 \tab 14 \tab 3 \tab 3 \tab 3544 \cr
+   Total \tab 12123 \tab 1158 \tab 2356 \tab 761 \tab 862 \tab 330 \tab 34 \tab 122 \tab 3 \tab 17749 \cr
+}
 }
 
 \seealso{

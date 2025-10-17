@@ -23,15 +23,21 @@ Question Did the seller guarantee to pay for some or all unexpected repairs need
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1798/vshow}{GSS Data Explorer page for \code{warrntyc}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes -- informal assurance \tab yes -- written guarantee \tab no \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2653 \tab 11 \tab 12 \tab 220 \tab 5 \tab 3 \tab 2904 \cr
+   Total \tab 2653 \tab 11 \tab 12 \tab 220 \tab 5 \tab 3 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ B. Would you accept a person from a different religion or with a very different 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4702/vshow}{GSS Data Explorer page for \code{relcand}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely accept \tab probably accept \tab probably not accept \tab definitely not accept \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 658 \tab 466 \tab 640 \tab 168 \tab 39 \tab 40 \tab 12 \tab 2023 \cr
+   Total \tab 658 \tab 466 \tab 640 \tab 168 \tab 39 \tab 40 \tab 12 \tab 2023 \cr
+}
 }
 
 \seealso{

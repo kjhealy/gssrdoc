@@ -23,15 +23,21 @@ Question G. E-zines
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2636/vshow}{GSS Data Explorer page for \code{ezines}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very familiar \tab somewhat familiar \tab not familiar \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2142 \tab 55 \tab 56 \tab 464 \tab 1 \tab 47 \tab 2765 \cr
+   Total \tab 2142 \tab 55 \tab 56 \tab 464 \tab 1 \tab 47 \tab 2765 \cr
+}
 }
 
 \seealso{

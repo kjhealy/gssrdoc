@@ -22,22 +22,28 @@ Question PARTICIPATION/RECORDING CONSENT
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5569/vshow}{GSS Data Explorer page for \code{consent}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab r consents to recording interview \tab r consents to participate in the survey, but does not want to be recorded \tab no answer \tab Total \cr
+   2008 \tab - \tab 1697 \tab 324 \tab 2 \tab 2023 \cr
+   2010 \tab - \tab 1687 \tab 357 \tab - \tab 2044 \cr
+   2012 \tab - \tab 1730 \tab 244 \tab - \tab 1974 \cr
+   2014 \tab - \tab 2075 \tab 463 \tab - \tab 2538 \cr
+   2016 \tab - \tab 2600 \tab 267 \tab - \tab 2867 \cr
+   2018 \tab - \tab 2182 \tab 166 \tab - \tab 2348 \cr
+   2021 \tab 2322 \tab 1707 \tab 3 \tab - \tab 4032 \cr
+   2022 \tab 2695 \tab 849 \tab - \tab - \tab 3544 \cr
+   Total \tab 5017 \tab 14527 \tab 1824 \tab 2 \tab 21370 \cr
+}
 }
 
 \seealso{

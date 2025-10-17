@@ -23,20 +23,26 @@ Question When you do your job well, are you likely to be praised by your supervi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2814/vshow}{GSS Data Explorer page for \code{wkpraise}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab maybe \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 954 \tab 453 \tab 348 \tab 17 \tab 24 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 926 \tab 451 \tab 291 \tab 40 \tab 26 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 609 \tab 320 \tab 210 \tab 14 \tab 34 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 669 \tab 343 \tab 214 \tab 10 \tab 14 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 765 \tab 418 \tab 215 \tab 14 \tab 36 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 1036 \tab 589 \tab 307 \tab 17 \tab 21 \tab 19 \tab 3544 \cr
+   Total \tab 8345 \tab 4959 \tab 2574 \tab 1585 \tab 112 \tab 155 \tab 19 \tab 17749 \cr
+}
 }
 
 \seealso{

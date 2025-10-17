@@ -22,15 +22,21 @@ Question Consider an artist--like a painter, sculptor, or photographer--whose ar
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2126/vshow}{GSS Data Explorer page for \code{irrelart}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab allowed \tab not allowed \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 779 \tab 638 \tab 15 \tab 13 \tab 2832 \cr
+   Total \tab 1387 \tab 779 \tab 638 \tab 15 \tab 13 \tab 2832 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ C. Nuclear Engineers (How well nuclear engineers understand nuclear power?)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3490/vshow}{GSS Data Explorer page for \code{engnuke}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very well \tab 2 \tab 3 \tab 4 \tab not at all \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 1578 \tab 253 \tab 90 \tab 59 \tab 16 \tab 20 \tab 22 \tab 6 \tab 2044 \cr
+   Total \tab 1578 \tab 253 \tab 90 \tab 59 \tab 16 \tab 20 \tab 22 \tab 6 \tab 2044 \cr
+}
 }
 
 \seealso{

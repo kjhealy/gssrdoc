@@ -22,16 +22,22 @@ D. Go to a psychiatrist for help.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2024/vshow}{GSS Data Explorer page for \code{ormntldc}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1914 \tab 75 \tab 135 \tab 167 \tab 169 \tab 154 \tab 98 \tab 48 \tab 16 \tab 2 \tab 4 \tab 122 \tab 2904 \cr
+   2006 \tab 3383 \tab 92 \tab 136 \tab 225 \tab 264 \tab 165 \tab 123 \tab 60 \tab 20 \tab 4 \tab - \tab 38 \tab 4510 \cr
+   Total \tab 5297 \tab 167 \tab 271 \tab 392 \tab 433 \tab 319 \tab 221 \tab 108 \tab 36 \tab 6 \tab 4 \tab 160 \tab 7414 \cr
+}
 }
 
 \seealso{

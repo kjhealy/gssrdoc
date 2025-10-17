@@ -25,16 +25,22 @@ Question Some people are very open about their sexual orientation while others a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3919/vshow}{GSS Data Explorer page for \code{toldwork}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab all of my coworkers \tab more than half \tab about half \tab less than half \tab none of them \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1928 \tab 12 \tab 4 \tab 4 \tab 15 \tab 22 \tab 2 \tab 36 \tab 2023 \cr
+   2012 \tab 1902 \tab 10 \tab 5 \tab 7 \tab 10 \tab 34 \tab 1 \tab 5 \tab 1974 \cr
+   Total \tab 3830 \tab 22 \tab 9 \tab 11 \tab 25 \tab 56 \tab 3 \tab 41 \tab 3997 \cr
+}
 }
 
 \seealso{

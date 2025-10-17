@@ -32,29 +32,36 @@ I know God really exists and I have no doubts about it..........................
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1991, 1993, 1994, 1998, 2000, 2006, 2008, 2010, 2012, 2014, 2016, 2018 \cr
+   B/C/- \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1076/vshow}{GSS Data Explorer page for \code{god}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab don't believe \tab don't know, no way to find out \tab higher power \tab believe sometimes \tab believe with doubts \tab no doubts \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1988 \tab - \tab 22 \tab 56 \tab 117 \tab 65 \tab 279 \tab 939 \tab 3 \tab - \tab - \tab 1481 \cr
+   1991 \tab 158 \tab 31 \tab 60 \tab 92 \tab 69 \tab 241 \tab 834 \tab 31 \tab 1 \tab - \tab 1517 \cr
+   1993 \tab 49 \tab 44 \tab 63 \tab 127 \tab 47 \tab 224 \tab 992 \tab 37 \tab 23 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 33 \tab 37 \tab 131 \tab 51 \tab 214 \tab 860 \tab 34 \tab 26 \tab - \tab 2992 \cr
+   1998 \tab 1548 \tab 40 \tab 60 \tab 121 \tab 58 \tab 181 \tab 775 \tab 48 \tab 1 \tab - \tab 2832 \cr
+   2000 \tab 1541 \tab 33 \tab 49 \tab 83 \tab 41 \tab 192 \tab 766 \tab 66 \tab 46 \tab - \tab 2817 \cr
+   2006 \tab 1518 \tab 66 \tab 129 \tab 294 \tab 128 \tab 473 \tab 1876 \tab 13 \tab 13 \tab - \tab 4510 \cr
+   2008 \tab - \tab 60 \tab 95 \tab 204 \tab 76 \tab 330 \tab 1240 \tab 9 \tab 9 \tab - \tab 2023 \cr
+   2010 \tab - \tab 66 \tab 123 \tab 216 \tab 93 \tab 344 \tab 1181 \tab 7 \tab 14 \tab - \tab 2044 \cr
+   2012 \tab - \tab 65 \tab 107 \tab 228 \tab 81 \tab 307 \tab 1168 \tab 10 \tab 8 \tab - \tab 1974 \cr
+   2014 \tab - \tab 87 \tab 143 \tab 316 \tab 91 \tab 416 \tab 1468 \tab 11 \tab 6 \tab - \tab 2538 \cr
+   2016 \tab - \tab 126 \tab 188 \tab 357 \tab 100 \tab 461 \tab 1607 \tab 19 \tab 9 \tab - \tab 2867 \cr
+   2018 \tab - \tab 109 \tab 150 \tab 298 \tab 88 \tab 410 \tab 1262 \tab 14 \tab 17 \tab - \tab 2348 \cr
+   2021 \tab 1389 \tab 173 \tab 237 \tab 341 \tab 124 \tab 427 \tab 1313 \tab 1 \tab 2 \tab 25 \tab 4032 \cr
+   2022 \tab 1176 \tab 158 \tab 176 \tab 336 \tab 125 \tab 382 \tab 1159 \tab 15 \tab 6 \tab 11 \tab 3544 \cr
+   Total \tab 8985 \tab 1113 \tab 1673 \tab 3261 \tab 1237 \tab 4881 \tab 17440 \tab 318 \tab 181 \tab 36 \tab 39125 \cr
+}
 }
 
 \seealso{

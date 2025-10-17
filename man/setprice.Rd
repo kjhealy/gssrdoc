@@ -26,17 +26,24 @@ B. Control of prices by legislation.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1996 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4050/vshow}{GSS Data Explorer page for \code{setprice}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly in favor \tab in favor \tab neither \tab against \tab strongly against \tab no answer \tab don't know \tab Total \cr
+   1985 \tab 857 \tab 57 \tab 194 \tab 132 \tab 204 \tab 78 \tab 12 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 109 \tab 315 \tab 307 \tab 303 \tab 138 \tab 44 \tab 1 \tab 1372 \cr
+   1996 \tab 1572 \tab 119 \tab 327 \tab 289 \tab 376 \tab 164 \tab 52 \tab 5 \tab 2904 \cr
+   Total \tab 2584 \tab 285 \tab 836 \tab 728 \tab 883 \tab 380 \tab 108 \tab 6 \tab 5810 \cr
+}
 }
 
 \seealso{

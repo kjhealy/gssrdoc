@@ -25,15 +25,21 @@ Question Within the next five years, how likely is it that an accident at a nucl
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4790/vshow}{GSS Data Explorer page for \code{nukeacc}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab likely \tab unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1541 \tab 184 \tab 415 \tab 330 \tab 140 \tab 148 \tab 59 \tab 2817 \cr
+   Total \tab 1541 \tab 184 \tab 415 \tab 330 \tab 140 \tab 148 \tab 59 \tab 2817 \cr
+}
 }
 
 \seealso{

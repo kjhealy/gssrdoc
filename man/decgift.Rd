@@ -27,15 +27,21 @@ C. Deciding on major charitable gifts.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1883/vshow}{GSS Data Explorer page for \code{decgift}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab husband alone \tab husband after consulting with wife \tab husband and wife together \tab wife after consulting husband \tab wife alone \tab other \tab no answer \tab see codebook \tab Total \cr
+   1996 \tab 2196 \tab 29 \tab 29 \tab 475 \tab 45 \tab 53 \tab 15 \tab 6 \tab 56 \tab 2904 \cr
+   Total \tab 2196 \tab 29 \tab 29 \tab 475 \tab 45 \tab 53 \tab 15 \tab 6 \tab 56 \tab 2904 \cr
+}
 }
 
 \seealso{

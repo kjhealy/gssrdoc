@@ -29,15 +29,21 @@ B. About how long would it take you to get to where your mother lives? Think of 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4129/vshow}{GSS Data Explorer page for \code{matime}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab lt 15 min \tab 15-30 min \tab 30 min-1 hr \tab 1-2 hr \tab 2-3 hr \tab 3-5 hr \tab 5-12 hr \tab 12+ hr \tab no answer \tab Total \cr
+   1986 \tab 678 \tab 215 \tab 153 \tab 88 \tab 61 \tab 34 \tab 53 \tab 83 \tab 100 \tab 5 \tab 1470 \cr
+   Total \tab 678 \tab 215 \tab 153 \tab 88 \tab 61 \tab 34 \tab 53 \tab 83 \tab 100 \tab 5 \tab 1470 \cr
+}
 }
 
 \seealso{

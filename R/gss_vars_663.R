@@ -15,13 +15,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `firstkidsex`](https://gssdataexplorer.norc.org/variables/7958/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |male |female |skipped on web |Total |
+#'  |:-----|:----|:----|:------|:--------------|:-----|
+#'  |2022  |2844 |316  |382    |2              |3544  |
+#'  |Total |2844 |316  |382    |2              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -49,13 +55,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `nonbinkids`](https://gssdataexplorer.norc.org/variables/7959/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |skipped on web |Total |
+#'  |:-----|:----|:---|:----|:--------------|:-----|
+#'  |2022  |2308 |18  |1171 |47             |3544  |
+#'  |Total |2308 |18  |1171 |47             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -83,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `femself`](https://gssdataexplorer.norc.org/variables/7960/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all |2   |3  |4  |5   |6   |very |Total |
+#'  |:-----|:----|:----------|:---|:--|:--|:---|:---|:----|:-----|
+#'  |2022  |2504 |205        |113 |45 |59 |138 |132 |348  |3544  |
+#'  |Total |2504 |205        |113 |45 |59 |138 |132 |348  |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -117,13 +135,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mascself`](https://gssdataexplorer.norc.org/variables/7961/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all |2   |3  |4  |5   |6   |very |Total |
+#'  |:-----|:----|:----------|:---|:--|:--|:---|:---|:----|:-----|
+#'  |2022  |2581 |192        |114 |70 |52 |109 |142 |284  |3544  |
+#'  |Total |2581 |192        |114 |70 |52 |109 |142 |284  |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -160,13 +184,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relig_next`](https://gssdataexplorer.norc.org/variables/8009/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |protestant |catholic |jewish |none |other |buddhism |hinduism |muslim/islam |orthodox-christian |christian |native american |no answer |skipped on web |Total |
+#'  |:-----|:---|:----------|:--------|:------|:----|:-----|:--------|:--------|:------------|:------------------|:---------|:---------------|:---------|:--------------|:-----|
+#'  |2022  |-   |362        |242      |41     |384  |146   |10       |7        |12           |5                  |21        |1               |2308      |5              |3544  |
+#'  |Total |0   |362        |242      |41     |384  |146   |10       |7        |12           |5                  |21        |1               |2308      |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -217,13 +247,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `denom_next`](https://gssdataexplorer.norc.org/variables/8002/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |american baptist association |american baptist churches in the u.s.a. |southern baptist convention |other baptist churches |baptist, don't know which |african methodist episcopal church |african methodist episcopal zion church |united methodist church |other methodist churches |methodist, don't know which |american lutheran church |lutheran church in america |lutheran church - missouri synod |other lutheran churches |evangelical lutheran |lutheran, don't know which |presbyterian church in the u.s. |united presbyterian church in the u.s.a. |other presbyterian churches |presbyterian, merged |presbyterian, don't know which |episcopal church |other, specify |no denomination or non-denominational church |no answer |skipped on web |Total |
+#'  |:-----|:---|:----------------------------|:---------------------------------------|:---------------------------|:----------------------|:-------------------------|:----------------------------------|:---------------------------------------|:-----------------------|:------------------------|:---------------------------|:------------------------|:--------------------------|:--------------------------------|:-----------------------|:--------------------|:--------------------------|:-------------------------------|:----------------------------------------|:---------------------------|:--------------------|:------------------------------|:----------------|:--------------|:--------------------------------------------|:---------|:--------------|:-----|
+#'  |2022  |852 |8                            |1                                       |30                          |24                     |22                        |1                                  |1                                       |41                      |2                        |4                           |4                        |1                          |14                               |3                       |11                   |8                          |5                               |4                                        |2                           |6                    |5                              |14               |52             |116                                          |2308      |5              |3544  |
+#'  |Total |852 |8                            |1                                       |30                          |24                     |22                        |1                                  |1                                       |41                      |2                        |4                           |4                        |1                          |14                               |3                       |11                   |8                          |5                               |4                                        |2                           |6                    |5                              |14               |52             |116                                          |2308      |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -252,13 +288,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `jew_next`](https://gssdataexplorer.norc.org/variables/8003/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |orthodox |conservative |reform |none of these |other |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------|:------------|:------|:-------------|:-----|:---------|:--------------|:-----|
+#'  |2022  |1190 |5        |7            |15     |9             |5     |2308      |5              |3544  |
+#'  |Total |1190 |5        |7            |15     |9             |5     |2308      |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -283,13 +325,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `nextstatus`](https://gssdataexplorer.norc.org/variables/7962/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |completed |Total |
+#'  |:-----|:----|:---------|:-----|
+#'  |2022  |2309 |1235      |3544  |
+#'  |Total |2309 |1235      |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -315,14 +363,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B     |partial      |
-#'  |2024 |A/B     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B     |2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racdif1x`](https://gssdataexplorer.norc.org/variables/7963/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------|:-----|
+#'  |2022  |2339 |672 |484 |42         |5         |2              |3544  |
+#'  |Total |2339 |672 |484 |42         |5         |2              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -348,14 +401,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B     |partial      |
-#'  |2024 |A/B     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B     |2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racdif2x`](https://gssdataexplorer.norc.org/variables/7964/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |skipped on web |Total |
+#'  |:-----|:----|:---|:----|:----------|:--------------|:-----|
+#'  |2022  |2339 |87  |1093 |24         |1              |3544  |
+#'  |Total |2339 |87  |1093 |24         |1              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

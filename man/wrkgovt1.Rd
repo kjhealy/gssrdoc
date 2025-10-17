@@ -22,17 +22,22 @@ Question Are/were you employed by the government? (Please consider federal, stat
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7432/vshow}{GSS Data Explorer page for \code{wrkgovt1}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 79 \tab 869 \tab 3047 \tab 2 \tab 5 \tab 30 \tab 4032 \cr
+   2022 \tab 113 \tab 658 \tab 2746 \tab 16 \tab 4 \tab 7 \tab 3544 \cr
+   Total \tab 192 \tab 1527 \tab 5793 \tab 18 \tab 9 \tab 37 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

@@ -24,20 +24,26 @@ Question A. In your job, how often do you take part with others in making decisi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2793/vshow}{GSS Data Explorer page for \code{wkdecide}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 766 \tab 622 \tab 253 \tab 136 \tab 5 \tab 14 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 669 \tab 615 \tab 260 \tab 164 \tab 14 \tab 12 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 476 \tab 428 \tab 156 \tab 101 \tab 2 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 483 \tab 467 \tab 167 \tab 126 \tab 1 \tab 6 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 512 \tab 553 \tab 229 \tab 118 \tab 4 \tab 32 \tab - \tab 2348 \cr
+   2022 \tab 1549 \tab 735 \tab 740 \tab 306 \tab 168 \tab 12 \tab 14 \tab 20 \tab 3544 \cr
+   Total \tab 8339 \tab 3641 \tab 3425 \tab 1371 \tab 813 \tab 38 \tab 102 \tab 20 \tab 17749 \cr
+}
 }
 
 \seealso{

@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `realtore`](https://gssdataexplorer.norc.org/variables/1822/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |1996  |2686 |72  |106 |2          |38        |2904  |
+#'  |Total |2686 |72  |106 |2          |38        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `realtorf`](https://gssdataexplorer.norc.org/variables/1823/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |1996  |2686 |53  |112 |2          |51        |2904  |
+#'  |Total |2686 |53  |112 |2          |51        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -79,13 +91,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `realtor1`](https://gssdataexplorer.norc.org/variables/1824/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |2  |3  |4  |5  |6  |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:-----|
+#'  |1996  |2864 |17 |7  |1  |5  |5  |5  |2904  |
+#'  |Total |2864 |17 |7  |1  |5  |5  |5  |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -114,13 +132,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relagent`](https://gssdataexplorer.norc.org/variables/1825/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a relative including in-laws |a friend or acquaintance |a friend of a friend-relative |had previous business dealings |no prior relationship |Total |
+#'  |:-----|:----|:----------------------------|:------------------------|:-----------------------------|:------------------------------|:---------------------|:-----|
+#'  |1996  |2686 |10                           |35                       |15                            |14                             |144                   |2904  |
+#'  |Total |2686 |10                           |35                       |15                            |14                             |144                   |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -147,13 +171,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `warrntyh`](https://gssdataexplorer.norc.org/variables/1826/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes -- informal assurance |yes -- written guarantee |no  |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------------|:------------------------|:---|:----------|:---------|:-----|
+#'  |1996  |2451 |39                        |109                      |272 |23         |10        |2904  |
+#'  |Total |2451 |39                        |109                      |272 |23         |10        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -180,13 +210,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sathome`](https://gssdataexplorer.norc.org/variables/1827/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not too satisfied |pretty satisfied |extremely satisfied |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:----------------|:-------------------|:----------|:---------|:-----|
+#'  |1996  |2451 |21                |208              |219                 |1          |4         |2904  |
+#'  |Total |2451 |21                |208              |219                 |1          |4         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -212,13 +248,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lawyer`](https://gssdataexplorer.norc.org/variables/1828/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |Total |
+#'  |:-----|:----|:---|:---|:-----|
+#'  |1996  |1460 |650 |794 |2904  |
+#'  |Total |1460 |650 |794 |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -245,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lawyera`](https://gssdataexplorer.norc.org/variables/1829/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |1996  |2254 |197 |342 |1          |110       |2904  |
+#'  |Total |2254 |197 |342 |1          |110       |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -278,13 +326,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lawyerb`](https://gssdataexplorer.norc.org/variables/1830/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |1996  |2254 |279 |270 |1          |100       |2904  |
+#'  |Total |2254 |279 |270 |1          |100       |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -311,13 +365,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lawyerc`](https://gssdataexplorer.norc.org/variables/1831/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |1996  |2254 |112 |404 |1          |133       |2904  |
+#'  |Total |2254 |112 |404 |1          |133       |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets

@@ -24,15 +24,10 @@ C. Working in a manufacturing industry (or) in an office, sales, or service
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
-}
-
-\section{Link at the GSS}{
-
-For further details see the \href{https://gssdataexplorer.norc.org/variables/4526/vshow}{GSS Data Explorer page for \code{indusoth}}.
 }
 
 \seealso{

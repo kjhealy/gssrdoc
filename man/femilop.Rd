@@ -23,15 +23,21 @@ Question B. And what about women?  Would you say that their treatment and opport
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/815/vshow}{GSS Data Explorer page for \code{femilop}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab military better \tab civilian better \tab no difference \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 267 \tab 474 \tab 625 \tab 83 \tab 24 \tab 1473 \cr
+   Total \tab 0 \tab 267 \tab 474 \tab 625 \tab 83 \tab 24 \tab 1473 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question G. At work, I have been threatened with physical harm.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3004/vshow}{GSS Data Explorer page for \code{physharm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 945 \tab 12 \tab 41 \tab 94 \tab 1659 \tab 18 \tab 43 \tab 2812 \cr
+   Total \tab 945 \tab 12 \tab 41 \tab 94 \tab 1659 \tab 18 \tab 43 \tab 2812 \cr
+}
 }
 
 \seealso{

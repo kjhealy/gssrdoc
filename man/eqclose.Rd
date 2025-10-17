@@ -23,16 +23,22 @@ Question Do you feel equally close to all these people?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/849/vshow}{GSS Data Explorer page for \code{eqclose}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1985 \tab 364 \tab 639 \tab 525 \tab 6 \tab 1534 \cr
+   1987 \tab 385 \tab 824 \tab 540 \tab 70 \tab 1819 \cr
+   Total \tab 749 \tab 1463 \tab 1065 \tab 76 \tab 3353 \cr
+}
 }
 
 \seealso{

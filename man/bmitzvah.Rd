@@ -22,16 +22,22 @@ Question Did you have a (bar/bat) mitzvah when you were a child?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3828/vshow}{GSS Data Explorer page for \code{bmitzvah}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   2008 \tab 1983 \tab 23 \tab 17 \tab 2023 \cr
+   2012 \tab 1946 \tab 14 \tab 14 \tab 1974 \cr
+   Total \tab 3929 \tab 37 \tab 31 \tab 3997 \cr
+}
 }
 
 \seealso{

@@ -26,16 +26,23 @@ A. Hold public meetings to express their views.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3991/vshow}{GSS Data Explorer page for \code{racspeak}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 185 \tab 175 \tab 101 \tab 174 \tab 34 \tab 8 \tab 1534 \cr
+   1990 \tab 155 \tab 308 \tab 387 \tab 220 \tab 217 \tab 70 \tab 15 \tab 1372 \cr
+   Total \tab 1012 \tab 493 \tab 562 \tab 321 \tab 391 \tab 104 \tab 23 \tab 2906 \cr
+}
 }
 
 \seealso{

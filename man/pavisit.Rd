@@ -28,15 +28,21 @@ A. How often do you see or visit your father?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4132/vshow}{GSS Data Explorer page for \code{pavisit}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
+   1986 \tab 772 \tab 65 \tab 55 \tab 88 \tab 99 \tab 110 \tab 126 \tab 140 \tab 15 \tab 1470 \cr
+   Total \tab 772 \tab 65 \tab 55 \tab 88 \tab 99 \tab 110 \tab 126 \tab 140 \tab 15 \tab 1470 \cr
+}
 }
 
 \seealso{

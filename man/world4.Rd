@@ -24,23 +24,31 @@ Look at the first set of contrasting images. If you think that "The world is bas
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/- \tab partial \cr
-   1991 \tab A/B/C \tab full \cr
-   1994 \tab A/B/- \tab partial \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989, 1990, 1994, 1996 \cr
+   A/B/C \tab 1988, 1991, 1998 \cr
+   Full \tab 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/369/vshow}{GSS Data Explorer page for \code{world4}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab people are good \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab people are evil \tab don't know \tab no answer \tab Total \cr
+   1985 \tab - \tab 417 \tab 316 \tab 269 \tab 264 \tab 86 \tab 46 \tab 104 \tab 6 \tab 26 \tab 1534 \cr
+   1987 \tab - \tab 393 \tab 314 \tab 319 \tab 429 \tab 139 \tab 50 \tab 141 \tab - \tab 34 \tab 1819 \cr
+   1988 \tab - \tab 310 \tab 301 \tab 255 \tab 370 \tab 92 \tab 43 \tab 87 \tab 5 \tab 18 \tab 1481 \cr
+   1989 \tab 531 \tab 216 \tab 217 \tab 179 \tab 235 \tab 57 \tab 31 \tab 53 \tab 1 \tab 17 \tab 1537 \cr
+   1990 \tab 444 \tab 165 \tab 193 \tab 169 \tab 262 \tab 63 \tab 34 \tab 32 \tab 2 \tab 8 \tab 1372 \cr
+   1991 \tab 158 \tab 194 \tab 277 \tab 257 \tab 298 \tab 120 \tab 60 \tab 70 \tab 2 \tab 81 \tab 1517 \cr
+   1994 \tab 1522 \tab 233 \tab 319 \tab 265 \tab 388 \tab 122 \tab 43 \tab 77 \tab 4 \tab 19 \tab 2992 \cr
+   1996 \tab 1913 \tab 168 \tab 182 \tab 199 \tab 243 \tab 91 \tab 35 \tab 65 \tab 2 \tab 6 \tab 2904 \cr
+   1998 \tab 1387 \tab 213 \tab 295 \tab 279 \tab 368 \tab 123 \tab 57 \tab 91 \tab 5 \tab 14 \tab 2832 \cr
+   Total \tab 5955 \tab 2309 \tab 2414 \tab 2191 \tab 2857 \tab 893 \tab 399 \tab 720 \tab 27 \tab 223 \tab 17988 \cr
+}
 }
 
 \seealso{

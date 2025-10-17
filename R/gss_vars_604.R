@@ -27,13 +27,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bthgrp3f`](https://gssdataexplorer.norc.org/variables/5532/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no answer |Total |
+#'  |:-----|:----|:---------|:-----|
+#'  |2004  |2771 |41        |2812  |
+#'  |Total |2771 |41        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -73,13 +79,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bthgrp4a`](https://gssdataexplorer.norc.org/variables/5533/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |fraternal groups |sports groups |youth groups |school service groups |hobby or garden clubs |school fraternities or sororities |nationality groups |literary art discussion or study grps |professional or academic societies |church-affiliated groups |other groups |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:-------------|:------------|:---------------------|:---------------------|:---------------------------------|:------------------|:-------------------------------------|:----------------------------------|:------------------------|:------------|:----------|:---------|:-----|
+#'  |2004  |2734 |2                |2             |1            |2                     |1                     |1                                 |2                  |2                                     |3                                  |11                       |4            |1          |46        |2812  |
+#'  |Total |2734 |2                |2             |1            |2                     |1                     |1                                 |2                  |2                                     |3                                  |11                       |4            |1          |46        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -119,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bthgrp4b`](https://gssdataexplorer.norc.org/variables/5534/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |veterans groups |church-affiliated groups |other groups |no answer |Total |
+#'  |:-----|:----|:---------------|:------------------------|:------------|:---------|:-----|
+#'  |2004  |2768 |1               |1                        |1            |41        |2812  |
+#'  |Total |2768 |1               |1                        |1            |41        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -165,13 +183,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bthgrp4c`](https://gssdataexplorer.norc.org/variables/5535/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |political clubs |no answer |Total |
+#'  |:-----|:----|:---------------|:---------|:-----|
+#'  |2004  |2770 |1               |41        |2812  |
+#'  |Total |2770 |1               |41        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -211,13 +235,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bthgrp4d`](https://gssdataexplorer.norc.org/variables/5536/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |church-affiliated groups |no answer |Total |
+#'  |:-----|:----|:------------------------|:---------|:-----|
+#'  |2004  |2770 |1                        |41        |2812  |
+#'  |Total |2770 |1                        |41        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -257,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bthgrp4e`](https://gssdataexplorer.norc.org/variables/5537/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no answer |Total |
+#'  |:-----|:----|:---------|:-----|
+#'  |2004  |2771 |41        |2812  |
+#'  |Total |2771 |41        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -303,13 +339,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bthgrp4f`](https://gssdataexplorer.norc.org/variables/5538/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no answer |Total |
+#'  |:-----|:----|:---------|:-----|
+#'  |2004  |2771 |41        |2812  |
+#'  |Total |2771 |41        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -349,13 +391,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bthgrp5a`](https://gssdataexplorer.norc.org/variables/5539/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |fraternal groups |labor unions |literary art discussion or study grps |professional or academic societies |church-affiliated groups |other groups |no answer |Total |
+#'  |:-----|:----|:----------------|:------------|:-------------------------------------|:----------------------------------|:------------------------|:------------|:---------|:-----|
+#'  |2004  |2751 |1                |1            |1                                     |1                                  |9                        |2            |46        |2812  |
+#'  |Total |2751 |1                |1            |1                                     |1                                  |9                        |2            |46        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -395,13 +443,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bthgrp5b`](https://gssdataexplorer.norc.org/variables/5540/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |church-affiliated groups |other groups |no answer |Total |
+#'  |:-----|:----|:------------------------|:------------|:---------|:-----|
+#'  |2004  |2768 |1                        |2            |41        |2812  |
+#'  |Total |2768 |1                        |2            |41        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -441,13 +495,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bthgrp5c`](https://gssdataexplorer.norc.org/variables/5541/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no answer |Total |
+#'  |:-----|:----|:---------|:-----|
+#'  |2004  |2771 |41        |2812  |
+#'  |Total |2771 |41        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics

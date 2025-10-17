@@ -26,16 +26,23 @@ I. A person''s race -- how important is that?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/- \tab full \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1987 \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4249/vshow}{GSS Data Explorer page for \code{oprace}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 41 \tab 230 \tab 363 \tab 505 \tab 359 \tab 50 \tab 16 \tab - \tab 1819 \cr
+   2021 \tab 2029 \tab 44 \tab 184 \tab 420 \tab 398 \tab 754 \tab 73 \tab 120 \tab 10 \tab 4032 \cr
+   Total \tab 2284 \tab 85 \tab 414 \tab 783 \tab 903 \tab 1113 \tab 123 \tab 136 \tab 10 \tab 5851 \cr
+}
 }
 
 \seealso{

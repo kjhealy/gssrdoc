@@ -26,21 +26,28 @@ E. A family with four children or more
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4379/vshow}{GSS Data Explorer page for \code{fourkids}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very desirable \tab desirable \tab neither \tab undesirable \tab very undesirable \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 154 \tab 314 \tab 335 \tab 300 \tab 156 \tab 84 \tab 71 \tab 1481 \cr
+   Total \tab 67 \tab 154 \tab 314 \tab 335 \tab 300 \tab 156 \tab 84 \tab 71 \tab 1481 \cr
+}
 }
 
 \seealso{
 Other ISSP Family & Gender Roles: 
 \code{\link{kidtrble}},
 \code{\link{mardiv}},
+\code{\link{marhomo}},
 \code{\link{nokids}},
 \code{\link{numkids}},
 \code{\link{onekid}},

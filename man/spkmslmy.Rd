@@ -22,17 +22,22 @@ Question Now consider a Islamic religious leader who preaches hatred of the Unit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7445/vshow}{GSS Data Explorer page for \code{spkmslmy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, allowed to speak \tab not allowed \tab don't know \tab skipped on web \tab no answer \tab Total \cr
+   2021 \tab 2675 \tab 644 \tab 702 \tab 3 \tab 8 \tab - \tab 4032 \cr
+   2022 \tab 2367 \tab 505 \tab 651 \tab 13 \tab 4 \tab 4 \tab 3544 \cr
+   Total \tab 5042 \tab 1149 \tab 1353 \tab 16 \tab 12 \tab 4 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

@@ -22,16 +22,22 @@ Question If you were asked to rate your overall life from 0-10, where 10 represe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7156/vshow}{GSS Data Explorer page for \code{lifenow}}.
+
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab 0 - worst possible state \tab 1 \tab 10 - best possible state \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab 900 \tab 4 \tab 5 \tab 131 \tab 4 \tab 12 \tab 31 \tab 123 \tab 134 \tab 355 \tab 427 \tab 187 \tab 2 \tab 33 \tab - \tab 2348 \cr
+   2022 \tab 1560 \tab - \tab 5 \tab 209 \tab 3 \tab 12 \tab 32 \tab 89 \tab 191 \tab 232 \tab 512 \tab 495 \tab 174 \tab 13 \tab 17 \tab 3544 \cr
+   Total \tab 2460 \tab 4 \tab 10 \tab 340 \tab 7 \tab 24 \tab 63 \tab 212 \tab 325 \tab 587 \tab 939 \tab 682 \tab 176 \tab 46 \tab 17 \tab 5892 \cr
+}
 }
 
 \keyword{variable}

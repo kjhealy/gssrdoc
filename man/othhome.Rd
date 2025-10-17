@@ -22,15 +22,21 @@ Question A. Do you speak (LANGUAGE MENTIONED IN OTHLANG1) at home?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2301/vshow}{GSS Data Explorer page for \code{othhome}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2006 \tab 3837 \tab 258 \tab 413 \tab 2 \tab 4510 \cr
+   Total \tab 3837 \tab 258 \tab 413 \tab 2 \tab 4510 \cr
+}
 }
 
 \seealso{

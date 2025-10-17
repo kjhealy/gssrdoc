@@ -25,15 +25,21 @@ B. How serious would you say (his/her) mental health problem was, was itâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3804/vshow}{GSS Data Explorer page for \code{mhseroth}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very serious \tab somewhat serious \tab not very serious \tab not at all serious \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3535 \tab 392 \tab 417 \tab 137 \tab 19 \tab 4 \tab 6 \tab 4510 \cr
+   Total \tab 3535 \tab 392 \tab 417 \tab 137 \tab 19 \tab 4 \tab 6 \tab 4510 \cr
+}
 }
 
 \seealso{

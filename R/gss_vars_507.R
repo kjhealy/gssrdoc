@@ -14,14 +14,21 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D/-     |partial      |
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
+#'  |D/-     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dailywrk`](https://gssdataexplorer.norc.org/variables/4612/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |i am free to decide how my daily work is organized |i can decide within certain limits |i am not free to decide how my daily work is organized |no answer |can't choose |Total |
+#'  |:-----|:----|:--------------------------------------------------|:----------------------------------|:------------------------------------------------------|:---------|:------------|:-----|
+#'  |2006  |3492 |325                                                |485                                |206                                                    |2         |-            |4510  |
+#'  |2016  |1927 |375                                                |423                                |130                                                    |8         |4            |2867  |
+#'  |Total |5419 |700                                                |908                                |336                                                    |10        |4            |7377  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -49,14 +56,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D/-     |partial      |
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
+#'  |D/-     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `timeoff`](https://gssdataexplorer.norc.org/variables/4613/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not difficult at all |not too difficult |somewhat difficult |very difficult |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------|:-----------------|:------------------|:--------------|:----------|:---------|:-----|
+#'  |2006  |3492 |448                  |274               |161                |132            |1          |2         |4510  |
+#'  |2016  |1927 |397                  |289               |144                |103            |2          |5         |2867  |
+#'  |Total |5419 |845                  |563               |305                |235            |3          |7         |7377  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -85,14 +99,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D/-     |partial      |
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
+#'  |D/-     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `jbintfam`](https://gssdataexplorer.norc.org/variables/4614/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |always |often |sometimes |hardly ever |never |can't choose |no answer |Total |
+#'  |:-----|:----|:------|:-----|:---------|:-----------|:-----|:------------|:---------|:-----|
+#'  |2006  |3492 |51     |101   |364       |293         |206   |1            |2         |4510  |
+#'  |2016  |1927 |38     |109   |308       |324         |156   |-            |5         |2867  |
+#'  |Total |5419 |89     |210   |672       |617         |362   |1            |7         |7377  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -121,14 +142,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D/-     |partial      |
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
+#'  |D/-     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `famintjb`](https://gssdataexplorer.norc.org/variables/4615/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |always |often |sometimes |hardly ever |never |no answer |Total |
+#'  |:-----|:----|:------|:-----|:---------|:-----------|:-----|:---------|:-----|
+#'  |2006  |3492 |13     |41    |250       |387         |325   |2         |4510  |
+#'  |2016  |1927 |17     |51    |257       |334         |275   |6         |2867  |
+#'  |Total |5419 |30     |92    |507       |721         |600   |8         |7377  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -156,13 +184,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `newjob`](https://gssdataexplorer.norc.org/variables/4616/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |likely |unlikely |very unlikely |can't choose |no answer |Total |
+#'  |:-----|:----|:-----------|:------|:--------|:-------------|:------------|:---------|:-----|
+#'  |2006  |3492 |567         |347    |78       |22            |2            |2         |4510  |
+#'  |Total |3492 |567         |347    |78       |22            |2            |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -188,14 +222,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D/-     |partial      |
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
+#'  |D/-     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `jbtrain`](https://gssdataexplorer.norc.org/variables/4617/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no  |can't choose |no answer |Total |
+#'  |:-----|:----|:----|:---|:------------|:---------|:-----|
+#'  |2006  |3492 |610  |405 |1            |2         |4510  |
+#'  |2016  |1927 |555  |379 |-            |6         |2867  |
+#'  |Total |5419 |1165 |784 |1            |8         |7377  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -224,14 +265,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D/-     |partial      |
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
+#'  |D/-     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `jobeasy`](https://gssdataexplorer.norc.org/variables/4618/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very easy |fairly easy |neither easy nor difficult |fairly difficult |very difficult |can't choose |no answer |Total |
+#'  |:-----|:----|:---------|:-----------|:--------------------------|:----------------|:--------------|:------------|:---------|:-----|
+#'  |2006  |3492 |158       |292         |175                        |266              |120            |4            |3         |4510  |
+#'  |2016  |1927 |120       |282         |158                        |266              |107            |2            |5         |2867  |
+#'  |Total |5419 |278       |574         |333                        |532              |227            |6            |8         |7377  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -260,13 +308,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `replaceu`](https://gssdataexplorer.norc.org/variables/4619/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very easy |fairly easy |neither easy nor difficult |fairly difficult |very difficult |can't choose |no answer |Total |
+#'  |:-----|:----|:---------|:-----------|:--------------------------|:----------------|:--------------|:------------|:---------|:-----|
+#'  |2006  |3492 |205       |256         |157                        |256              |131            |10           |3         |4510  |
+#'  |Total |3492 |205       |256         |157                        |256              |131            |10           |3         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -296,14 +350,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D/-     |partial      |
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
+#'  |D/-     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `nounemp1`](https://gssdataexplorer.norc.org/variables/4620/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2006  |3492 |459            |416   |66                         |53       |17                |5          |2         |4510  |
+#'  |2016  |1927 |381            |429   |59                         |45       |14                |5          |7         |2867  |
+#'  |Total |5419 |840            |845   |125                        |98       |31                |10         |9         |7377  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -333,14 +394,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D/-     |partial      |
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
+#'  |D/-     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `nounemp2`](https://gssdataexplorer.norc.org/variables/4621/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2006  |3492 |183            |423   |129                        |191      |84                |6          |2         |4510  |
+#'  |2016  |1927 |149            |362   |128                        |209      |82                |3          |7         |2867  |
+#'  |Total |5419 |332            |785   |257                        |400      |166               |9          |9         |7377  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation

@@ -26,15 +26,21 @@ D. I would endure all things for the sake of the one I love.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3056/vshow}{GSS Data Explorer page for \code{agape4}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 1472 \tab 557 \tab 475 \tab 146 \tab 106 \tab 45 \tab 5 \tab 6 \tab 2812 \cr
+   Total \tab 1472 \tab 557 \tab 475 \tab 146 \tab 106 \tab 45 \tab 5 \tab 6 \tab 2812 \cr
+}
 }
 
 \seealso{

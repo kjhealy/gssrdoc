@@ -25,15 +25,21 @@ Question During the past four weeks, how often have you felt unhappy and depress
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7272/vshow}{GSS Data Explorer page for \code{unhappy}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab rarely \tab sometimes \tab often \tab very often \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 434 \tab 387 \tab 235 \tab 80 \tab 31 \tab 3 \tab 3 \tab 2348 \cr
+   Total \tab 1175 \tab 434 \tab 387 \tab 235 \tab 80 \tab 31 \tab 3 \tab 3 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

@@ -24,15 +24,21 @@ Question How able is (NAME) to decide whether or not (he/she) should receive tre
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3760/vshow}{GSS Data Explorer page for \code{mhdecslf}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very able \tab moderately able \tab not very able \tab not at all able \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 389 \tab 488 \tab 407 \tab 103 \tab 30 \tab 8 \tab 4510 \cr
+   Total \tab 3085 \tab 389 \tab 488 \tab 407 \tab 103 \tab 30 \tab 8 \tab 4510 \cr
+}
 }
 
 \seealso{

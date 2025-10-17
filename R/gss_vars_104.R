@@ -19,14 +19,21 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1985 |-/-/-   |full         |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |Full    |1985  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relig1`](https://gssdataexplorer.norc.org/variables/950/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |protestant |catholic |jewish |none |other |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:--------|:------|:----|:-----|:----------|:---------|:-----|
+#'  |1985  |136  |797        |371      |37     |82   |26    |76         |9         |1534  |
+#'  |2004  |1696 |510        |244      |26     |120  |81    |80         |55        |2812  |
+#'  |Total |1832 |1307       |615      |63     |202  |107   |156        |64        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -58,14 +65,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1985 |-/-/-   |full         |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |Full    |1985  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relig2`](https://gssdataexplorer.norc.org/variables/951/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |protestant |catholic |jewish |none |other |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:--------|:------|:----|:-----|:----------|:---------|:-----|
+#'  |1985  |364  |657        |299      |32     |68   |25    |83         |6         |1534  |
+#'  |2004  |1977 |361        |190      |25     |76   |67    |67         |49        |2812  |
+#'  |Total |2341 |1018       |489      |57     |144  |92    |150        |55        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -97,14 +111,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1985 |-/-/-   |full         |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |Full    |1985  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relig3`](https://gssdataexplorer.norc.org/variables/952/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |protestant |catholic |jewish |none |other |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:--------|:------|:----|:-----|:----------|:---------|:-----|
+#'  |1985  |599  |512        |241      |26     |56   |20    |73         |7         |1534  |
+#'  |2004  |2240 |242        |120      |20     |49   |35    |58         |48        |2812  |
+#'  |Total |2839 |754        |361      |46     |105  |55    |131        |55        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -136,14 +157,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1985 |-/-/-   |full         |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |Full    |1985  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relig4`](https://gssdataexplorer.norc.org/variables/953/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |protestant |catholic |jewish |none |other |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:--------|:------|:----|:-----|:----------|:---------|:-----|
+#'  |1985  |920  |343        |159      |18     |37   |12    |41         |4         |1534  |
+#'  |2004  |2472 |134        |68       |8      |29   |20    |33         |48        |2812  |
+#'  |Total |3392 |477        |227      |26     |66   |32    |74         |52        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -175,14 +203,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1985 |-/-/-   |full         |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
+#'  |Full    |1985  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relig5`](https://gssdataexplorer.norc.org/variables/954/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |protestant |catholic |jewish |none |other |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:--------|:------|:----|:-----|:----------|:---------|:-----|
+#'  |1985  |1153 |198        |111      |14     |21   |12    |22         |3         |1534  |
+#'  |2004  |2600 |71         |42       |5      |18   |8     |22         |46        |2812  |
+#'  |Total |3753 |269        |153      |19     |39   |20    |44         |49        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -211,13 +246,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `partyid1`](https://gssdataexplorer.norc.org/variables/955/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |democrat |republican |independent |other |don't know |no answer |Total |
+#'  |:-----|:---|:--------|:----------|:-----------|:-----|:----------|:---------|:-----|
+#'  |1987  |98  |730      |353        |257         |35    |313        |33        |1819  |
+#'  |Total |98  |730      |353        |257         |35    |313        |33        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -246,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `partyid2`](https://gssdataexplorer.norc.org/variables/956/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |democrat |republican |independent |other |don't know |no answer |Total |
+#'  |:-----|:---|:--------|:----------|:-----------|:-----|:----------|:---------|:-----|
+#'  |1987  |385 |585      |282        |143         |37    |357        |30        |1819  |
+#'  |Total |385 |585      |282        |143         |37    |357        |30        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -281,13 +328,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `partyid3`](https://gssdataexplorer.norc.org/variables/957/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |democrat |republican |independent |other |don't know |no answer |Total |
+#'  |:-----|:---|:--------|:----------|:-----------|:-----|:----------|:---------|:-----|
+#'  |1987  |735 |415      |221        |99          |33    |285        |31        |1819  |
+#'  |Total |735 |415      |221        |99          |33    |285        |31        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -318,13 +371,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `talkpol1`](https://gssdataexplorer.norc.org/variables/958/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |almost daily |at least weekly |at least monthly |at least yearly |less than yearly |never |don't know |no answer |Total |
+#'  |:-----|:---|:------------|:---------------|:----------------|:---------------|:----------------|:-----|:----------|:---------|:-----|
+#'  |1987  |98  |245          |365             |373              |262             |160              |284   |5          |27        |1819  |
+#'  |Total |98  |245          |365             |373              |262             |160              |284   |5          |27        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -355,13 +414,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `talkpol2`](https://gssdataexplorer.norc.org/variables/959/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |almost daily |at least weekly |at least monthly |at least yearly |less than yearly |never |don't know |no answer |Total |
+#'  |:-----|:---|:------------|:---------------|:----------------|:---------------|:----------------|:-----|:----------|:---------|:-----|
+#'  |1987  |385 |103          |245             |363              |269             |153              |272   |3          |26        |1819  |
+#'  |Total |385 |103          |245             |363              |269             |153              |272   |3          |26        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks

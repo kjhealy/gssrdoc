@@ -26,15 +26,21 @@ C. I worry about the emotional burden that my family might face making decisions
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2248/vshow}{GSS Data Explorer page for \code{termemot}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 283 \tab 566 \tab 118 \tab 311 \tab 79 \tab 22 \tab 8 \tab 2832 \cr
+   Total \tab 1445 \tab 283 \tab 566 \tab 118 \tab 311 \tab 79 \tab 22 \tab 8 \tab 2832 \cr
+}
 }
 
 \seealso{

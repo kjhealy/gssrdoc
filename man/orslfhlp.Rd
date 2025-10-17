@@ -22,16 +22,22 @@ G. Join a self-help group where people with similar problems help each other.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2027/vshow}{GSS Data Explorer page for \code{orslfhlp}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab 10 \tab Total \cr
+   1996 \tab 1689 \tab 80 \tab 154 \tab 186 \tab 195 \tab 197 \tab 158 \tab 72 \tab 22 \tab 4 \tab 2 \tab 145 \tab - \tab 2904 \cr
+   2006 \tab 3335 \tab 41 \tab 103 \tab 126 \tab 165 \tab 209 \tab 229 \tab 192 \tab 52 \tab 15 \tab - \tab 41 \tab 2 \tab 4510 \cr
+   Total \tab 5024 \tab 121 \tab 257 \tab 312 \tab 360 \tab 406 \tab 387 \tab 264 \tab 74 \tab 19 \tab 2 \tab 186 \tab 2 \tab 7414 \cr
+}
 }
 
 \seealso{

@@ -25,18 +25,25 @@ Question A. Do you think it is wrong or not wrong if a man and a woman have sexu
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1994, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4630/vshow}{GSS Data Explorer page for \code{premars1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab always wrong \tab almost always wrong \tab wrong only sometimes \tab not wrong at all \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 344 \tab 146 \tab 247 \tab 522 \tab 74 \tab 26 \tab 1517 \cr
+   1994 \tab 1545 \tab 361 \tab 144 \tab 228 \tab 509 \tab 118 \tab 87 \tab 2992 \cr
+   1998 \tab 1548 \tab 358 \tab 138 \tab 243 \tab 468 \tab 70 \tab 7 \tab 2832 \cr
+   2008 \tab 658 \tab 331 \tab 113 \tab 233 \tab 667 \tab 14 \tab 7 \tab 2023 \cr
+   Total \tab 3909 \tab 1394 \tab 541 \tab 951 \tab 2166 \tab 276 \tab 127 \tab 9364 \cr
+}
 }
 
 \seealso{

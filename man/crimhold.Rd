@@ -25,16 +25,23 @@ D. Detain the man overnight for questioning.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3997/vshow}{GSS Data Explorer page for \code{crimhold}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 205 \tab 181 \tab 101 \tab 140 \tab 35 \tab 15 \tab 1534 \cr
+   1990 \tab 155 \tab 283 \tab 351 \tab 248 \tab 222 \tab 48 \tab 65 \tab 1372 \cr
+   Total \tab 1012 \tab 488 \tab 532 \tab 349 \tab 362 \tab 83 \tab 80 \tab 2906 \cr
+}
 }
 
 \seealso{

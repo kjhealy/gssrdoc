@@ -23,15 +23,21 @@ Question For the following pair of questions, please circle the letter of the on
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3046/vshow}{GSS Data Explorer page for \code{geneexps}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab genes play major role in determining personality \tab it is experience that determine personality \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 432 \tab 588 \tab 1723 \tab 51 \tab 18 \tab 2812 \cr
+   Total \tab 432 \tab 588 \tab 1723 \tab 51 \tab 18 \tab 2812 \cr
+}
 }
 
 \seealso{

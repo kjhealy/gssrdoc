@@ -24,16 +24,22 @@ Question How serious would you consider (John/Mary)'s problem, if any, to be: ve
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   A/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2919/vshow}{GSS Data Explorer page for \code{chldprob}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very serious \tab somewhat serious \tab not very serious \tab not at all serious \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1372 \tab 625 \tab 389 \tab 168 \tab 171 \tab 28 \tab 12 \tab 2765 \cr
+   Total \tab 1372 \tab 625 \tab 389 \tab 168 \tab 171 \tab 28 \tab 12 \tab 2765 \cr
+}
 }
 
 \seealso{

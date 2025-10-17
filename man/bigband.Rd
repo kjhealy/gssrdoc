@@ -26,15 +26,21 @@ A. Big Band/Swing
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1387/vshow}{GSS Data Explorer page for \code{bigband}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 269 \tab 588 \tab 290 \tab 230 \tab 53 \tab 164 \tab 12 \tab 1606 \cr
+   Total \tab 0 \tab 269 \tab 588 \tab 290 \tab 230 \tab 53 \tab 164 \tab 12 \tab 1606 \cr
+}
 }
 
 \seealso{

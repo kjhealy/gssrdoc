@@ -25,16 +25,23 @@ Question Some people think that Antarctica should be reserved primarily for scie
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3437/vshow}{GSS Data Explorer page for \code{comorsci}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly support reserving antarctica \tab somewhat support reserving antarctica \tab dont lean one way or the other on this issue \tab somewhat support opening antarctica \tab strongly support opening antarctica \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 436 \tab 435 \tab 597 \tab 252 \tab 83 \tab 59 \tab 2 \tab 4510 \cr
+   2010 \tab 1338 \tab 148 \tab 173 \tab 229 \tab 89 \tab 41 \tab 14 \tab 12 \tab 2044 \cr
+   Total \tab 3984 \tab 584 \tab 608 \tab 826 \tab 341 \tab 124 \tab 73 \tab 14 \tab 6554 \cr
+}
 }
 
 \seealso{

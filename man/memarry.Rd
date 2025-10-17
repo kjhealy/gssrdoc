@@ -24,15 +24,21 @@ Question If you were advising a young man, which of the following ways of life w
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4363/vshow}{GSS Data Explorer page for \code{memarry}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab live alone \tab live with posslq \tab cohabitate, then marry \tab marry \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 143 \tab 40 \tab 369 \tab 636 \tab 199 \tab 27 \tab 1481 \cr
+   Total \tab 67 \tab 143 \tab 40 \tab 369 \tab 636 \tab 199 \tab 27 \tab 1481 \cr
+}
 }
 
 \seealso{

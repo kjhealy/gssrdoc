@@ -25,15 +25,21 @@ D. It is the responsibility of government to meet everyone's needs, even in case
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/228/vshow}{GSS Data Explorer page for \code{equal4}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 308 \tab 514 \tab 420 \tab 192 \tab 20 \tab 19 \tab 1473 \cr
+   Total \tab 0 \tab 308 \tab 514 \tab 420 \tab 192 \tab 20 \tab 19 \tab 1473 \cr
+}
 }
 
 \seealso{

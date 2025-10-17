@@ -25,16 +25,23 @@ The federal government ensuring the safety of vaccines to protect the public aga
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2021 \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7581/vshow}{GSS Data Explorer page for \code{confedvacy}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal \tab only some \tab hardly any \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2658 \tab 480 \tab 499 \tab 206 \tab 1 \tab 169 \tab 19 \tab 4032 \cr
+   2022 \tab 2309 \tab 488 \tab 480 \tab 259 \tab - \tab - \tab 8 \tab 3544 \cr
+   Total \tab 4967 \tab 968 \tab 979 \tab 465 \tab 1 \tab 169 \tab 27 \tab 7576 \cr
+}
 }
 
 \seealso{

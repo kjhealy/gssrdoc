@@ -25,15 +25,21 @@ Question B. How difficult or easy do you think it would be for your firm or orga
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4619/vshow}{GSS Data Explorer page for \code{replaceu}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 3492 \tab 205 \tab 256 \tab 157 \tab 256 \tab 131 \tab 10 \tab 3 \tab 4510 \cr
+   Total \tab 3492 \tab 205 \tab 256 \tab 157 \tab 256 \tab 131 \tab 10 \tab 3 \tab 4510 \cr
+}
 }
 
 \seealso{

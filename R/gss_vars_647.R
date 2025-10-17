@@ -1,108 +1,3 @@
-#'  Access to public funded health care if not citizen
-#' 
-#'  hlthctzn
-#' 
-#' Question How much do you agree or disagree with the following statements? People should have access to publicly funded health care even if they... Do not hold citizenship of the United States.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `hlthctzn`](https://gssdataexplorer.norc.org/variables/7795/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name hlthctzn
-NULL
-
-
-#'  Access to public funded health care if damage own health
-#' 
-#'  hlthdmg
-#' 
-#' Question (People should have access to publicly funded health care even if they...) Behave in ways that damage their health.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `hlthdmg`](https://gssdataexplorer.norc.org/variables/7796/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name hlthdmg
-NULL
-
-
-#'  Rich vs poor access to healthcare
-#' 
-#'  hlthacc1
-#' 
-#' Question In the United States, do you think it is easier or harder to get access to health care... for rich people than for poor people
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` much easier
-#'   * `2` somewhat easier
-#'   * `3` about the same
-#'   * `4` somewhat harder
-#'   * `5` much harder
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `hlthacc1`](https://gssdataexplorer.norc.org/variables/7797/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name hlthacc1
-NULL
-
-
 #'  Old vs young access to healthcare
 #' 
 #'  hlthacc2
@@ -121,13 +16,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthacc2`](https://gssdataexplorer.norc.org/variables/7798/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1  |2   |3   |4   |5   |Total |
+#'  |:-----|:----|:--|:---|:---|:---|:---|:-----|
+#'  |2022  |2458 |90 |217 |404 |247 |128 |3544  |
+#'  |Total |2458 |90 |217 |404 |247 |128 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -156,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthacc3`](https://gssdataexplorer.norc.org/variables/7799/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1  |2  |3   |4   |5  |Total |
+#'  |:-----|:----|:--|:--|:---|:---|:--|:-----|
+#'  |2022  |2485 |47 |87 |721 |154 |50 |3544  |
+#'  |Total |2485 |47 |87 |721 |154 |50 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -191,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthacc4`](https://gssdataexplorer.norc.org/variables/7800/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1   |2   |3   |4   |5   |Total |
+#'  |:-----|:----|:---|:---|:---|:---|:---|:-----|
+#'  |2022  |2509 |319 |244 |236 |123 |113 |3544  |
+#'  |Total |2509 |319 |244 |236 |123 |113 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -226,13 +139,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthbeh`](https://gssdataexplorer.norc.org/variables/7801/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2379 |85             |338   |403                        |191      |75                |66           |2         |5              |3544  |
+#'  |Total |2379 |85             |338   |403                        |191      |75                |66           |2         |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -261,13 +180,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthenv`](https://gssdataexplorer.norc.org/variables/7802/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2380 |127            |577   |313                        |62       |17                |63           |1         |4              |3544  |
+#'  |Total |2380 |127            |577   |313                        |62       |17                |63           |1         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -296,13 +221,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthgene`](https://gssdataexplorer.norc.org/variables/7803/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2380 |128            |633   |279                        |51       |12                |54           |1         |6              |3544  |
+#'  |Total |2380 |128            |633   |279                        |51       |12                |54           |1         |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -331,13 +262,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthpoor`](https://gssdataexplorer.norc.org/variables/7804/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2380 |139            |496   |283                        |164      |31                |43           |1         |7              |3544  |
+#'  |Total |2380 |139            |496   |283                        |164      |31                |43           |1         |7              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -345,6 +282,129 @@ NULL
 #' @keywords variable
 #' @md
 #' @name hlthpoor
+NULL
+
+
+#'  Alt med provides better solutions
+#' 
+#'  altmed
+#' 
+#' Question How much do you agree or disagree with the following statement? Alternative medicine provides better solutions for health problems than mainstream medicine.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `altmed`](https://gssdataexplorer.norc.org/variables/7805/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2380 |68             |170   |498                        |237      |78                |105          |4         |4              |3544  |
+#'  |Total |2380 |68             |170   |498                        |237      |78                |105          |4         |4              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name altmed
+NULL
+
+
+#'  Docs can be trusted
+#' 
+#'  doctrst
+#' 
+#' Question How much do you agree or disagree with the following statements about doctors in general in the United States? All things considered, doctors can be trusted.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `doctrst`](https://gssdataexplorer.norc.org/variables/7806/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2380 |102            |559   |297                        |129      |38                |34           |1         |4              |3544  |
+#'  |Total |2380 |102            |559   |297                        |129      |38                |34           |1         |4              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name doctrst
+NULL
+
+
+#'  Medical skills of docs not as good as should be
+#' 
+#'  docskls
+#' 
+#' Question (How much do you agree or disagree with the following statements about doctors in general in the United States?) The medical skills of doctors are not as good as they should be.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `docskls`](https://gssdataexplorer.norc.org/variables/7807/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2380 |74             |274   |358                        |356      |48                |49           |2         |3              |3544  |
+#'  |Total |2380 |74             |274   |358                        |356      |48                |49           |2         |3              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name docskls
 NULL
 
 

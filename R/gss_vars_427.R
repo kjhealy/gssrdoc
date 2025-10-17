@@ -20,13 +20,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `attractd`](https://gssdataexplorer.norc.org/variables/3908/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |under age 14 |age 14-18 |age 18-25 |age 26-35 |age 36-45 |age 46-55 |i have never told anyone i have never been sexually attracted to someone of the same sex |don't know |no answer |Total |
+#'  |:-----|:----|:------------|:---------|:---------|:---------|:---------|:---------|:----------------------------------------------------------------------------------------|:----------|:---------|:-----|
+#'  |2008  |1879 |30           |23        |13        |3         |1         |4         |20                                                                                       |4          |46        |2023  |
+#'  |Total |1879 |30           |23        |13        |3         |1         |4         |20                                                                                       |4          |46        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -59,13 +65,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `toldsxor`](https://gssdataexplorer.norc.org/variables/3909/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |under age 14 |age 14-18 |age 18-25 |age 26-35 |age 36-45 |age 56-65 |i have never told anyone |no answer |Total |
+#'  |:-----|:----|:------------|:---------|:---------|:---------|:---------|:---------|:------------------------|:---------|:-----|
+#'  |2008  |1942 |3            |10        |20        |10        |3         |3         |9                        |23        |2023  |
+#'  |Total |1942 |3            |10        |20        |10        |3         |3         |9                        |23        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -94,13 +106,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relgendr`](https://gssdataexplorer.norc.org/variables/3910/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |i am in a steady relationship with a woman and we live together |i am in a steady relationship with a man and we live together |i am in a steady relationship with a woman and we do not live together |i am in a steady relationship with a man and we do not live together |i am not in a steady relationship right now |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------------------------------------------|:-------------------------------------------------------------|:----------------------------------------------------------------------|:--------------------------------------------------------------------|:-------------------------------------------|:----------|:---------|:-----|
+#'  |2008  |1879 |25                                                              |24                                                            |5                                                                      |9                                                                    |38                                          |5          |38        |2023  |
+#'  |Total |1879 |25                                                              |24                                                            |5                                                                      |9                                                                    |38                                          |5          |38        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -128,13 +146,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `marunion`](https://gssdataexplorer.norc.org/variables/3911/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |legally married |in a civil union or registered domestic partnership |separated |not currently married or in a civil union or registered domestic partnership |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:---------------------------------------------------|:---------|:----------------------------------------------------------------------------|:----------|:---------|:-----|
+#'  |2008  |1879 |32              |8                                                   |6         |65                                                                           |2          |31        |2023  |
+#'  |Total |1879 |32              |8                                                   |6         |65                                                                           |2          |31        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -160,13 +184,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sexunion`](https://gssdataexplorer.norc.org/variables/3912/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |male |female |don't know |no answer |Total |
+#'  |:-----|:----|:----|:------|:----------|:---------|:-----|
+#'  |2008  |1946 |25   |19     |1          |32        |2023  |
+#'  |Total |1946 |25   |19     |1          |32        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -192,13 +222,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `evkid`](https://gssdataexplorer.norc.org/variables/3913/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
+#'  |2008  |1879 |52  |64 |1          |27        |2023  |
+#'  |Total |1879 |52  |64 |1          |27        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -224,13 +260,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `adoptkid`](https://gssdataexplorer.norc.org/variables/3914/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2008  |1879 |3   |114 |2          |25        |2023  |
+#'  |Total |1879 |3   |114 |2          |25        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -256,13 +298,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kidlived`](https://gssdataexplorer.norc.org/variables/3915/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
+#'  |2008  |1933 |8   |54 |1          |27        |2023  |
+#'  |Total |1933 |8   |54 |1          |27        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -288,13 +336,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kidresp`](https://gssdataexplorer.norc.org/variables/3916/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |2008  |1942 |24  |28 |29        |2023  |
+#'  |Total |1942 |24  |28 |29        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -321,13 +375,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kidnow1`](https://gssdataexplorer.norc.org/variables/3917/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes, all of them live with me at least some of the time |some live with me at least some of the time |none live with me |no answer |Total |
+#'  |:-----|:----|:-------------------------------------------------------|:-------------------------------------------|:-----------------|:---------|:-----|
+#'  |2008  |1942 |19                                                      |2                                           |3                 |57        |2023  |
+#'  |Total |1942 |19                                                      |2                                           |3                 |57        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation

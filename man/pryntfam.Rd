@@ -25,15 +25,21 @@ G. Medications for behavior problems just prevent families from working out prob
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2967/vshow}{GSS Data Explorer page for \code{pryntfam}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1372 \tab 251 \tab 475 \tab 430 \tab 161 \tab 63 \tab 13 \tab 2765 \cr
+   Total \tab 1372 \tab 251 \tab 475 \tab 430 \tab 161 \tab 63 \tab 13 \tab 2765 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question A. How important is the race relations issue to you--would you say it i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/415/vshow}{GSS Data Explorer page for \code{racimp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not imp at all \tab don't know \tab no answer \tab Total \cr
+   1983 \tab 795 \tab 76 \tab 342 \tab 286 \tab 86 \tab 12 \tab 2 \tab 1599 \cr
+   Total \tab 795 \tab 76 \tab 342 \tab 286 \tab 86 \tab 12 \tab 2 \tab 1599 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question How often do the people in your congregation make too many demands on y
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2094/vshow}{GSS Data Explorer page for \code{conghrm1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very often \tab fairly often \tab once in a while \tab never \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1797 \tab 23 \tab 57 \tab 253 \tab 542 \tab 4 \tab 156 \tab 2832 \cr
+   Total \tab 1797 \tab 23 \tab 57 \tab 253 \tab 542 \tab 4 \tab 156 \tab 2832 \cr
+}
 }
 
 \seealso{

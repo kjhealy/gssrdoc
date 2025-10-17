@@ -25,15 +25,21 @@ B. Women's family responsibilities keep them from putting as much time and effor
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1689/vshow}{GSS Data Explorer page for \code{feless2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1444 \tab 231 \tab 329 \tab 411 \tab 425 \tab 54 \tab 10 \tab 2904 \cr
+   Total \tab 1444 \tab 231 \tab 329 \tab 411 \tab 425 \tab 54 \tab 10 \tab 2904 \cr
+}
 }
 
 \seealso{

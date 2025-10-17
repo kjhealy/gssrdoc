@@ -25,18 +25,24 @@ Question A. Please rate the overall physical effort at the job you normally Do.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2836/vshow}{GSS Data Explorer page for \code{phyeffrt}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very hard \tab hard \tab somewhat hard \tab fairly light \tab very light \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab 857 \tab 101 \tab 133 \tab 294 \tab 329 \tab 302 \tab 3 \tab 25 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 89 \tab 164 \tab 338 \tab 344 \tab 306 \tab 2 \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 105 \tab 154 \tab 431 \tab 333 \tab 390 \tab 5 \tab 30 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 153 \tab 215 \tab 514 \tab 568 \tab 507 \tab 2 \tab 13 \tab 17 \tab 3544 \cr
+   Total \tab 4600 \tab 448 \tab 666 \tab 1577 \tab 1574 \tab 1505 \tab 12 \tab 75 \tab 17 \tab 10474 \cr
+}
 }
 
 \seealso{

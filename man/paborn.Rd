@@ -22,17 +22,22 @@ Question Was your father born in this country?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7477/vshow}{GSS Data Explorer page for \code{paborn}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 49 \tab 3269 \tab 649 \tab 47 \tab 1 \tab 17 \tab 4032 \cr
+   2022 \tab - \tab 2787 \tab 696 \tab 45 \tab 8 \tab 8 \tab 3544 \cr
+   Total \tab 49 \tab 6056 \tab 1345 \tab 92 \tab 9 \tab 25 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

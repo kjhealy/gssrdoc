@@ -24,16 +24,23 @@ Question Which location do you use the most?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2584/vshow}{GSS Data Explorer page for \code{mostloc}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab school \tab library \tab friends house \tab other \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2727 \tab 23 \tab 10 \tab 19 \tab 7 \tab 31 \tab - \tab 2817 \cr
+   2002 \tab 2662 \tab 30 \tab 26 \tab 31 \tab 12 \tab 3 \tab 1 \tab 2765 \cr
+   Total \tab 5389 \tab 53 \tab 36 \tab 50 \tab 19 \tab 34 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,22 @@ B. A person gives the government incorrect information about himself to get gove
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4638/vshow}{GSS Data Explorer page for \code{govcheat}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not wrong \tab a bit wrong \tab wrong \tab seriously wrong \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 27 \tab 49 \tab 586 \tab 645 \tab 25 \tab 27 \tab 1517 \cr
+   1998 \tab 1548 \tab 22 \tab 34 \tab 510 \tab 664 \tab 27 \tab 27 \tab 2832 \cr
+   Total \tab 1706 \tab 49 \tab 83 \tab 1096 \tab 1309 \tab 52 \tab 54 \tab 4349 \cr
+}
 }
 
 \seealso{

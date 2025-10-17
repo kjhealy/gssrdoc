@@ -26,19 +26,28 @@ B. Health.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4058/vshow}{GSS Data Explorer page for \code{sphlth}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 85 \tab 295 \tab 224 \tab 40 \tab 11 \tab 9 \tab 13 \tab 1534 \cr
+   1990 \tab 155 \tab 233 \tab 595 \tab 285 \tab 25 \tab 9 \tab 28 \tab 42 \tab 1372 \cr
+   1996 \tab 1572 \tab 229 \tab 634 \tab 329 \tab 65 \tab 20 \tab 21 \tab 34 \tab 2904 \cr
+   2006 \tab 2992 \tab 549 \tab 658 \tab 208 \tab 74 \tab 16 \tab 13 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 240 \tab 681 \tab 309 \tab 112 \tab 26 \tab 13 \tab 9 \tab 2867 \cr
+   Total \tab 7053 \tab 1336 \tab 2863 \tab 1355 \tab 316 \tab 82 \tab 84 \tab 98 \tab 13187 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question Do you know a woman or a man who isï¿½A senior executive of a large 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7230/vshow}{GSS Data Explorer page for \code{knwexec}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab family or relative \tab close friend \tab someone else i know \tab no one \tab don't know \tab Total \cr
+   2018 \tab 1175 \tab 149 \tab 147 \tab 184 \tab 689 \tab 4 \tab 2348 \cr
+   Total \tab 1175 \tab 149 \tab 147 \tab 184 \tab 689 \tab 4 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

@@ -27,15 +27,21 @@ Question During the past 12 months, how often, if at all, did you use the intern
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7809/vshow}{GSS Data Explorer page for \code{hlthweb}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 8 \tab Total \cr
+   2022 \tab 2406 \tab 155 \tab 28 \tab 150 \tab 261 \tab 320 \tab 200 \tab 24 \tab 3544 \cr
+   Total \tab 2406 \tab 155 \tab 28 \tab 150 \tab 261 \tab 320 \tab 200 \tab 24 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

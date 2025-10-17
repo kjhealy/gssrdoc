@@ -26,25 +26,33 @@ C. Do you find your work stressful?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab B/C/-/- \tab partial \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1989, 1998, 2002, 2004, 2010, 2012, 2014, 2018, 2022 \cr
+   A/B/C/D \tab 2006 \cr
+   B/C/-/- \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3012/vshow}{GSS Data Explorer page for \code{stress}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not available in this year \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1989 \tab - \tab - \tab 82 \tab 261 \tab 382 \tab 109 \tab 37 \tab 3 \tab 663 \tab - \tab 1537 \cr
+   1998 \tab - \tab - \tab 89 \tab 229 \tab 378 \tab 91 \tab 42 \tab 1 \tab 2002 \tab - \tab 2832 \cr
+   2002 \tab - \tab - \tab 161 \tab 391 \tab 756 \tab 329 \tab 137 \tab 6 \tab 985 \tab - \tab 2765 \cr
+   2004 \tab - \tab - \tab 213 \tab 475 \tab 797 \tab 242 \tab 95 \tab 5 \tab 985 \tab - \tab 2812 \cr
+   2006 \tab - \tab - \tab 353 \tab 595 \tab 1154 \tab 449 \tab 185 \tab 3 \tab 1771 \tab - \tab 4510 \cr
+   2010 \tab - \tab - \tab 110 \tab 284 \tab 475 \tab 215 \tab 78 \tab 1 \tab 881 \tab - \tab 2044 \cr
+   2012 \tab - \tab - \tab 118 \tab 320 \tab 478 \tab 162 \tab 66 \tab 5 \tab 825 \tab - \tab 1974 \cr
+   2014 \tab - \tab - \tab 113 \tab 247 \tab 559 \tab 225 \tab 99 \tab 1 \tab 1294 \tab - \tab 2538 \cr
+   2016 \tab 911 \tab - \tab 96 \tab 207 \tab 467 \tab 130 \tab 32 \tab 2 \tab 1022 \tab - \tab 2867 \cr
+   2018 \tab - \tab - \tab 107 \tab 304 \tab 628 \tab 264 \tab 110 \tab 3 \tab 932 \tab - \tab 2348 \cr
+   2022 \tab 1557 \tab - \tab 171 \tab 409 \tab 906 \tab 339 \tab 128 \tab 5 \tab 14 \tab 15 \tab 3544 \cr
+   Total \tab 2468 \tab 0 \tab 1613 \tab 3722 \tab 6980 \tab 2555 \tab 1009 \tab 35 \tab 11374 \tab 15 \tab 29771 \cr
+}
 }
 
 \seealso{

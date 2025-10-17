@@ -24,15 +24,21 @@ Question Please remember, there are no right-or-wrong answers to these questions
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3720/vshow}{GSS Data Explorer page for \code{mhproblm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very serious \tab moderately serious \tab not very serious \tab not at all seriou \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 899 \tab 444 \tab 60 \tab 10 \tab 6 \tab 6 \tab 4510 \cr
+   Total \tab 3085 \tab 899 \tab 444 \tab 60 \tab 10 \tab 6 \tab 6 \tab 4510 \cr
+}
 }
 
 \seealso{

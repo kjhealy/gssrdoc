@@ -25,15 +25,21 @@ Question And do you think that nuclear power stations areâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7494/vshow}{GSS Data Explorer page for \code{nukegen1}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2003 \tab 309 \tab 386 \tab 631 \tab 328 \tab 89 \tab 88 \tab 188 \tab 10 \tab 4032 \cr
+   Total \tab 2003 \tab 309 \tab 386 \tab 631 \tab 328 \tab 89 \tab 88 \tab 188 \tab 10 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

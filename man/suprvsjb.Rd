@@ -22,16 +22,22 @@ Question Do you supervise others at work as a part of your job?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2010, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6028/vshow}{GSS Data Explorer page for \code{suprvsjb}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 857 \tab 419 \tab 744 \tab 1 \tab 23 \tab 2044 \cr
+   2014 \tab 1288 \tab 455 \tab 790 \tab - \tab 5 \tab 2538 \cr
+   Total \tab 2145 \tab 874 \tab 1534 \tab 1 \tab 28 \tab 4582 \cr
+}
 }
 
 \seealso{

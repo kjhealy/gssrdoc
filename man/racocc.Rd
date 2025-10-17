@@ -23,15 +23,21 @@ Question Do you feel that a black person who has the same education and qualific
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/411/vshow}{GSS Data Explorer page for \code{racocc}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab almost always \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 1350 \tab 66 \tab 271 \tab 165 \tab 3 \tab 5 \tab 1860 \cr
+   Total \tab 1350 \tab 66 \tab 271 \tab 165 \tab 3 \tab 5 \tab 1860 \cr
+}
 }
 
 \seealso{

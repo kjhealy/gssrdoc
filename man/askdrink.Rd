@@ -25,18 +25,24 @@ F. Alcohol use
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 1996, 1998, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5213/vshow}{GSS Data Explorer page for \code{askdrink}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 995 \tab 360 \tab 65 \tab 30 \tab 13 \tab 11 \tab 2992 \cr
+   1996 \tab 1444 \tab 1019 \tab 317 \tab 67 \tab 28 \tab 25 \tab 4 \tab 2904 \cr
+   1998 \tab 1445 \tab 865 \tab 362 \tab 88 \tab 38 \tab 25 \tab 9 \tab 2832 \cr
+   2000 \tab 1398 \tab 884 \tab 370 \tab 86 \tab 40 \tab 32 \tab 7 \tab 2817 \cr
+   Total \tab 5805 \tab 3763 \tab 1409 \tab 306 \tab 136 \tab 95 \tab 31 \tab 11545 \cr
+}
 }
 
 \seealso{

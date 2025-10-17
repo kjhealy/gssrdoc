@@ -25,15 +25,21 @@ Question In America, religion is just as relevant to life today as it was in the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7285/vshow}{GSS Data Explorer page for \code{relrlvnt}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2018 \tab 1173 \tab 147 \tab 443 \tab 159 \tab 346 \tab 49 \tab 19 \tab 12 \tab 2348 \cr
+   Total \tab 1173 \tab 147 \tab 443 \tab 159 \tab 346 \tab 49 \tab 19 \tab 12 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

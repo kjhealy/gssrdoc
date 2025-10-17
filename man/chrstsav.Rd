@@ -25,15 +25,21 @@ Question Only those who accept Jesus Christ alone as their Savior can achieve et
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7533/vshow}{GSS Data Explorer page for \code{chrstsav}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab see codebook \tab Total \cr
+   2021 \tab 2258 \tab 565 \tab 307 \tab 317 \tab 150 \tab 145 \tab 4 \tab 163 \tab 25 \tab 98 \tab 4032 \cr
+   Total \tab 2258 \tab 565 \tab 307 \tab 317 \tab 150 \tab 145 \tab 4 \tab 163 \tab 25 \tab 98 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

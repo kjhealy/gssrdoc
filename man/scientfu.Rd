@@ -24,15 +24,21 @@ Question D. Scientists donâ€™t get as much fun out of life as other people 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3514/vshow}{GSS Data Explorer page for \code{scientfu}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1457 \tab 14 \tab 101 \tab 300 \tab 47 \tab 52 \tab 3 \tab 1974 \cr
+   Total \tab 1457 \tab 14 \tab 101 \tab 300 \tab 47 \tab 52 \tab 3 \tab 1974 \cr
+}
 }
 
 \seealso{

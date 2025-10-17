@@ -25,15 +25,21 @@ Question How much freedom do you think Americans have today?  Would you say they
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2663/vshow}{GSS Data Explorer page for \code{howfree}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab complete freedom \tab a great deal of freedom \tab a moderate degree of freedom \tab not much freedom \tab no freedom at all \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 145 \tab 833 \tab 364 \tab 49 \tab 4 \tab 9 \tab 15 \tab 2817 \cr
+   Total \tab 1398 \tab 145 \tab 833 \tab 364 \tab 49 \tab 4 \tab 9 \tab 15 \tab 2817 \cr
+}
 }
 
 \seealso{

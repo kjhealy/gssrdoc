@@ -26,19 +26,25 @@ C. Immigrants take jobs away from people who were born in America
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2022 \tab A/C/- \tab partial \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   A/C/- \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4861/vshow}{GSS Data Explorer page for \code{immjobs}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 170 \tab 446 \tab 299 \tab 301 \tab 65 \tab 28 \tab 58 \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 153 \tab 363 \tab 274 \tab 343 \tab 67 \tab 15 \tab 1 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 94 \tab 349 \tab 271 \tab 438 \tab 87 \tab 31 \tab 4 \tab - \tab 2538 \cr
+   2022 \tab 1203 \tab 147 \tab 375 \tab 505 \tab 804 \tab 487 \tab 17 \tab 3 \tab 3 \tab 3544 \cr
+   Total \tab 5600 \tab 564 \tab 1533 \tab 1349 \tab 1886 \tab 706 \tab 91 \tab 66 \tab 3 \tab 11798 \cr
+}
 }
 
 \seealso{

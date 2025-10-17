@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthplan`](https://gssdataexplorer.norc.org/variables/2743/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes  |no  |don't know |no answer |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:-----|
+#'  |2002  |-   |2387 |368 |7          |3         |2765  |
+#'  |Total |0   |2387 |368 |7          |3         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -45,13 +51,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chosedoc`](https://gssdataexplorer.norc.org/variables/2744/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes  |no  |don't know |no answer |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:-----|
+#'  |2002  |375 |1927 |428 |26         |9         |2765  |
+#'  |Total |375 |1927 |428 |26         |9         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -77,13 +89,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `insrlmts`](https://gssdataexplorer.norc.org/variables/2745/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes  |no   |don't know |no answer |Total |
+#'  |:-----|:---|:----|:----|:----------|:---------|:-----|
+#'  |2002  |375 |1190 |1005 |188        |7         |2765  |
+#'  |Total |375 |1190 |1005 |188        |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -109,13 +127,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `diffcare`](https://gssdataexplorer.norc.org/variables/2746/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no   |don't know |no answer |Total |
+#'  |:-----|:---|:---|:----|:----------|:---------|:-----|
+#'  |2002  |375 |416 |1961 |7          |6         |2765  |
+#'  |Total |375 |416 |1961 |7          |6         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -141,13 +165,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fininc`](https://gssdataexplorer.norc.org/variables/2747/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes  |no   |don't know |no answer |Total |
+#'  |:-----|:---|:----|:----|:----------|:---------|:-----|
+#'  |2002  |-   |1340 |1406 |14         |5         |2765  |
+#'  |Total |0   |1340 |1406 |14         |5         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -179,13 +209,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fininc1`](https://gssdataexplorer.norc.org/variables/2748/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |somewhat important |neither important nor unimportant |somewhat unimportant |very unimportant |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:---------------------------------|:--------------------|:----------------|:----------|:---------|:-----|
+#'  |2002  |-   |2259           |331                |87                                |25                   |29               |27         |7         |2765  |
+#'  |Total |0   |2259           |331                |87                                |25                   |29               |27         |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -215,13 +251,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fininc2`](https://gssdataexplorer.norc.org/variables/2749/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |when you enroll in a health plan |when you first see your doctor |when you need a test or specialist |don't know |no answer |Total |
+#'  |:-----|:---|:--------------------------------|:------------------------------|:----------------------------------|:----------|:---------|:-----|
+#'  |2002  |-   |2183                             |353                            |177                                |44         |8         |2765  |
+#'  |Total |0   |2183                             |353                            |177                                |44         |8         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -251,13 +293,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fininc3`](https://gssdataexplorer.norc.org/variables/2750/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |your doctor |a representative of your health plan |both your doctor and a representative of health plan |don't know |no answer |Total |
+#'  |:-----|:---|:-----------|:------------------------------------|:----------------------------------------------------|:----------|:---------|:-----|
+#'  |2002  |-   |465         |1217                                 |1034                                                 |42         |7         |2765  |
+#'  |Total |0   |465         |1217                                 |1034                                                 |42         |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -289,13 +337,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fininc4`](https://gssdataexplorer.norc.org/variables/2751/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very likely |somewhat likely |neither likely nor unlikely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:---|:-----------|:---------------|:---------------------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |2002  |-   |1030        |682             |286                         |365               |350           |42         |10        |2765  |
+#'  |Total |0   |1030        |682             |286                         |365               |350           |42         |10        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -322,13 +376,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `belvedoc`](https://gssdataexplorer.norc.org/variables/2752/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes  |no  |maybe |don't know |no answer |Total |
+#'  |:-----|:---|:----|:---|:-----|:----------|:---------|:-----|
+#'  |2002  |-   |1552 |797 |390   |21         |5         |2765  |
+#'  |Total |0   |1552 |797 |390   |21         |5         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients

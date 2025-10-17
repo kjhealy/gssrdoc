@@ -25,16 +25,23 @@ F. Friends outside of work or relatives?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2615/vshow}{GSS Data Explorer page for \code{jobfrnds}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2220 \tab 199 \tab 199 \tab 88 \tab 52 \tab 1 \tab 6 \tab 2765 \cr
+   2004 \tab 2453 \tab 135 \tab 117 \tab 55 \tab 44 \tab 1 \tab 7 \tab 2812 \cr
+   Total \tab 4673 \tab 334 \tab 316 \tab 143 \tab 96 \tab 2 \tab 13 \tab 5577 \cr
+}
 }
 
 \seealso{

@@ -25,29 +25,36 @@ B. White people have a right to keep (Negroes/Blacks/African-Americans) out of t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1972, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/386/vshow}{GSS Data Explorer page for \code{racseg}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab agree strongly \tab agree slightly \tab disagree slightly \tab disagree strongly \tab don't know \tab iap \tab no answer \tab Total \cr
+   1972 \tab 279 \tab 224 \tab 307 \tab 443 \tab 96 \tab 261 \tab 3 \tab 1613 \cr
+   1976 \tab 288 \tab 237 \tab 346 \tab 466 \tab 26 \tab 129 \tab 7 \tab 1499 \cr
+   1977 \tab 289 \tab 266 \tab 381 \tab 373 \tab 40 \tab 176 \tab 5 \tab 1530 \cr
+   1980 \tab 221 \tab 220 \tab 397 \tab 576 \tab 50 \tab - \tab 4 \tab 1468 \cr
+   1982 \tab 220 \tab 222 \tab 452 \tab 923 \tab 39 \tab - \tab 4 \tab 1860 \cr
+   1984 \tab 151 \tab 211 \tab 368 \tab 705 \tab 31 \tab - \tab 7 \tab 1473 \cr
+   1985 \tab 151 \tab 224 \tab 432 \tab 680 \tab 38 \tab - \tab 9 \tab 1534 \cr
+   1987 \tab 149 \tab 217 \tab 401 \tab 1009 \tab 38 \tab - \tab 5 \tab 1819 \cr
+   1988 \tab 72 \tab 138 \tab 230 \tab 510 \tab 26 \tab 504 \tab 1 \tab 1481 \cr
+   1989 \tab 78 \tab 136 \tab 234 \tab 553 \tab 28 \tab 504 \tab 4 \tab 1537 \cr
+   1990 \tab 74 \tab 124 \tab 218 \tab 471 \tab 27 \tab 455 \tab 3 \tab 1372 \cr
+   1991 \tab 66 \tab 105 \tab 221 \tab 574 \tab 21 \tab 524 \tab 6 \tab 1517 \cr
+   1993 \tab 42 \tab 109 \tab 218 \tab 681 \tab 23 \tab 531 \tab 2 \tab 1606 \cr
+   1994 \tab 102 \tab 197 \tab 472 \tab 1176 \tab 44 \tab 996 \tab 5 \tab 2992 \cr
+   1996 \tab 50 \tab 59 \tab 177 \tab 636 \tab 27 \tab 1953 \tab 2 \tab 2904 \cr
+   Total \tab 2232 \tab 2689 \tab 4854 \tab 9776 \tab 554 \tab 6033 \tab 67 \tab 26205 \cr
+}
 }
 
 \seealso{

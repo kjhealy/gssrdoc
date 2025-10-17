@@ -25,15 +25,21 @@ Question When you and your (spouse/partner) make decisions about choosing shared
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4474/vshow}{GSS Data Explorer page for \code{wkndact}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab mostly me \tab mostly my spousepartfill \tab sometimes me/sometimes my spousepartfill \tab we decide together \tab someone else \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1274 \tab 101 \tab 73 \tab 157 \tab 362 \tab 1 \tab 2 \tab 4 \tab 1974 \cr
+   Total \tab 1274 \tab 101 \tab 73 \tab 157 \tab 362 \tab 1 \tab 2 \tab 4 \tab 1974 \cr
+}
 }
 
 \seealso{

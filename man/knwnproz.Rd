@@ -23,16 +23,22 @@ C. Have you ever personally known anyone who took Prozac?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2222/vshow}{GSS Data Explorer page for \code{knwnproz}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1635 \tab 670 \tab 470 \tab 41 \tab 16 \tab 2832 \cr
+   2006 \tab 3238 \tab 735 \tab 502 \tab 20 \tab 15 \tab 4510 \cr
+   Total \tab 4873 \tab 1405 \tab 972 \tab 61 \tab 31 \tab 7342 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ C. The way society is set up, women don't have much choice. How important do you
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1693/vshow}{GSS Data Explorer page for \code{fekids3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1444 \tab 303 \tab 362 \tab 402 \tab 348 \tab 41 \tab 4 \tab 2904 \cr
+   Total \tab 1444 \tab 303 \tab 362 \tab 402 \tab 348 \tab 41 \tab 4 \tab 2904 \cr
+}
 }
 
 \seealso{

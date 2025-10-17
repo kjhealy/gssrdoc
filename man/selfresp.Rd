@@ -22,15 +22,21 @@ Question How responsible do YOU feel for the situation? Think of a scale where 0
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1785/vshow}{GSS Data Explorer page for \code{selfresp}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab not at all responsible \tab 1 \tab completely responsible \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab Total \cr
+   1996 \tab 1908 \tab 443 \tab 92 \tab 31 \tab 90 \tab 78 \tab 50 \tab 96 \tab 25 \tab 22 \tab 27 \tab 10 \tab 32 \tab 2904 \cr
+   Total \tab 1908 \tab 443 \tab 92 \tab 31 \tab 90 \tab 78 \tab 50 \tab 96 \tab 25 \tab 22 \tab 27 \tab 10 \tab 32 \tab 2904 \cr
+}
 }
 
 \seealso{

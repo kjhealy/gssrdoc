@@ -40,15 +40,21 @@ Question THIRD MENTION:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6284/vshow}{GSS Data Explorer page for \code{snsmot2c}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab youtube \tab viber \tab kik \tab hangouts \tab other social networks \tab not a social network \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2845 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 1 \tab 11 \tab 2867 \cr
+   Total \tab 2845 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 1 \tab 11 \tab 2867 \cr
+}
 }
 
 \seealso{

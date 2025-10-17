@@ -27,15 +27,21 @@ From my additional job(s), I earned...
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6338/vshow}{GSS Data Explorer page for \code{extraern}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab much less than from main job \tab less than from main job \tab about the same as from main job \tab more than from main job \tab much more than from main job \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2567 \tab 152 \tab 88 \tab 24 \tab 13 \tab 11 \tab 4 \tab 8 \tab 2867 \cr
+   Total \tab 2567 \tab 152 \tab 88 \tab 24 \tab 13 \tab 11 \tab 4 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

@@ -23,30 +23,35 @@ A. When you worked in (the previous year), was it usually full or part time?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/529/vshow}{GSS Data Explorer page for \code{partfull}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab full-time \tab part-time \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1994 \tab 806 \tab 1717 \tab 415 \tab 2 \tab 52 \tab - \tab 2992 \cr
+   1996 \tab 699 \tab 1756 \tab 390 \tab 2 \tab 57 \tab - \tab 2904 \cr
+   1998 \tab 750 \tab 1638 \tab 369 \tab 5 \tab 70 \tab - \tab 2832 \cr
+   2000 \tab 734 \tab 1645 \tab 388 \tab 1 \tab 49 \tab - \tab 2817 \cr
+   2002 \tab 712 \tab 1619 \tab 427 \tab 1 \tab 6 \tab - \tab 2765 \cr
+   2004 \tab 718 \tab 1633 \tab 457 \tab - \tab 4 \tab - \tab 2812 \cr
+   2006 \tab 2420 \tab 1669 \tab 421 \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 564 \tab 1142 \tab 314 \tab 2 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab 634 \tab 1064 \tab 338 \tab 1 \tab 7 \tab - \tab 2044 \cr
+   2012 \tab 621 \tab 1021 \tab 331 \tab 1 \tab - \tab - \tab 1974 \cr
+   2014 \tab 794 \tab 1359 \tab 382 \tab 3 \tab - \tab - \tab 2538 \cr
+   2016 \tab 949 \tab 1471 \tab 445 \tab 1 \tab 1 \tab - \tab 2867 \cr
+   2018 \tab 749 \tab 1257 \tab 340 \tab 1 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 1280 \tab 2145 \tab 602 \tab 2 \tab - \tab 3 \tab 4032 \cr
+   2022 \tab 1227 \tab 1817 \tab 496 \tab 2 \tab - \tab 2 \tab 3544 \cr
+   Total \tab 13657 \tab 22953 \tab 6115 \tab 24 \tab 248 \tab 5 \tab 43002 \cr
+}
 }
 
 \seealso{

@@ -47,20 +47,26 @@ Question What is your (PARTNER'S) religious preference? Is it Protestant, Cathol
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6170/vshow}{GSS Data Explorer page for \code{coden}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllll}{
+   year \tab iap \tab american baptist association \tab american baptist churches in the u.s.a. \tab national baptist convention of america \tab southern baptist convention \tab baptist, don't know which \tab united methodist church \tab methodist, don't know which \tab american lutheran church \tab lutheran church in america \tab evangelical lutheran \tab united presbyterian church in the u.s.a. \tab presbyterian, don't know which \tab episcopal church \tab other, specify \tab no denomination or non-denominational church \tab don't know \tab lutheran, don't know which \tab no answer \tab other baptist churches \tab african methodist episcopal church \tab national baptist convention u.s.a., inc. \tab lutheran church - missouri synod \tab presbyterian church in the u.s. \tab presbyterian, merged \tab other lutheran churches \tab Total \cr
+   2012 \tab 1920 \tab 1 \tab 1 \tab 1 \tab 11 \tab 7 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 14 \tab 5 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2471 \tab - \tab 2 \tab - \tab 8 \tab 15 \tab 6 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab 1 \tab 10 \tab 15 \tab 4 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2766 \tab 1 \tab 2 \tab 1 \tab 11 \tab 14 \tab 4 \tab 2 \tab 1 \tab - \tab - \tab 1 \tab 3 \tab 6 \tab 14 \tab 23 \tab 5 \tab 7 \tab 3 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2272 \tab 3 \tab - \tab - \tab 11 \tab 10 \tab 2 \tab 2 \tab 1 \tab - \tab 1 \tab - \tab 1 \tab 1 \tab 15 \tab 18 \tab 4 \tab 4 \tab - \tab 1 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 3942 \tab 2 \tab 1 \tab 2 \tab 6 \tab 24 \tab 5 \tab 2 \tab - \tab 2 \tab - \tab - \tab 2 \tab 3 \tab 6 \tab 21 \tab 8 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab 4032 \cr
+   2022 \tab 3456 \tab 5 \tab 1 \tab - \tab 6 \tab 24 \tab 2 \tab 1 \tab - \tab - \tab 1 \tab - \tab 2 \tab 4 \tab 10 \tab 26 \tab - \tab 3 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab 1 \tab 3544 \cr
+   Total \tab 16827 \tab 12 \tab 7 \tab 4 \tab 53 \tab 94 \tab 20 \tab 8 \tab 6 \tab 3 \tab 3 \tab 3 \tab 10 \tab 16 \tab 58 \tab 117 \tab 26 \tab 19 \tab 6 \tab 2 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 17303 \cr
+}
 }
 
 \seealso{

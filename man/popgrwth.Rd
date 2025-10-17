@@ -25,16 +25,23 @@ Question And please circle one number for each of these statements to show how m
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010 \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4778/vshow}{GSS Data Explorer page for \code{popgrwth}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1541 \tab 196 \tab 441 \tab 279 \tab 197 \tab 37 \tab 55 \tab 71 \tab 2817 \cr
+   2010 \tab 614 \tab 147 \tab 557 \tab 280 \tab 307 \tab 36 \tab 97 \tab 6 \tab 2044 \cr
+   Total \tab 2155 \tab 343 \tab 998 \tab 559 \tab 504 \tab 73 \tab 152 \tab 77 \tab 4861 \cr
+}
 }
 
 \seealso{

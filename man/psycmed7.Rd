@@ -26,16 +26,22 @@ G. Taking medication helps people feel better about themselves.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2174/vshow}{GSS Data Explorer page for \code{psycmed7}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 111 \tab 650 \tab 286 \tab 177 \tab 27 \tab 133 \tab 3 \tab 2832 \cr
+   2006 \tab 3073 \tab 147 \tab 766 \tab 279 \tab 132 \tab 24 \tab 75 \tab 14 \tab 4510 \cr
+   Total \tab 4518 \tab 258 \tab 1416 \tab 565 \tab 309 \tab 51 \tab 208 \tab 17 \tab 7342 \cr
+}
 }
 
 \seealso{

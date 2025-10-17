@@ -23,17 +23,23 @@ Question Do you work for a private company, a non-profit organization, or for th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2850/vshow}{GSS Data Explorer page for \code{workfor}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab private company \tab non-profit organization \tab government or government agency \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 969 \tab 1370 \tab 114 \tab 305 \tab 1 \tab 6 \tab 2765 \cr
+   2006 \tab 2778 \tab 1303 \tab 100 \tab 320 \tab 7 \tab 2 \tab 4510 \cr
+   2010 \tab 857 \tab 834 \tab 105 \tab 201 \tab 18 \tab 29 \tab 2044 \cr
+   Total \tab 4604 \tab 3507 \tab 319 \tab 826 \tab 26 \tab 37 \tab 9319 \cr
+}
 }
 
 \seealso{

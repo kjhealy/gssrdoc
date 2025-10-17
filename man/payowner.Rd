@@ -23,15 +23,21 @@ D. The owner of a small shop?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4266/vshow}{GSS Data Explorer page for \code{payowner}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 10400 \tab 104000 \tab 105000 \tab 11000 \tab 12000 \tab 12500 \tab 13000 \tab 130000 \tab 13440 \tab 137000 \tab 1400 \tab 14000 \tab 15000 \tab 150000 \tab 15600 \tab 16000 \tab 16750 \tab 17000 \tab 1800 \tab 18000 \tab 19000 \tab 1e+05 \tab 2000 \tab 20000 \tab 20800 \tab 22000 \tab 22500 \tab 225000 \tab 23000 \tab 2400 \tab 24000 \tab 2500 \tab 25000 \tab 250000 \tab 26000 \tab 27000 \tab 27500 \tab 28000 \tab 29000 \tab 2e+05 \tab 3000 \tab 30000 \tab 32000 \tab 33000 \tab 34000 \tab 3500 \tab 35000 \tab 35500 \tab 36000 \tab 3640 \tab 38000 \tab 4000 \tab 40000 \tab 42000 \tab 44000 \tab 45000 \tab 48000 \tab 49000 \tab 5000 \tab 50000 \tab 52000 \tab 52080 \tab 5500 \tab 55000 \tab 56800 \tab 6000 \tab 60000 \tab 65000 \tab 68000 \tab 7000 \tab 70000 \tab 72800 \tab 7500 \tab 75000 \tab 76000 \tab 8000 \tab 80000 \tab 8320 \tab 9000 \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 2 \tab 55 \tab 1 \tab 1 \tab 1 \tab 6 \tab 28 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 90 \tab 1 \tab 1 \tab 9 \tab 1 \tab 9 \tab 1 \tab 38 \tab 2 \tab 11 \tab 2 \tab 228 \tab 2 \tab 7 \tab 1 \tab 1 \tab 4 \tab 1 \tab 7 \tab 2 \tab 182 \tab 1 \tab 2 \tab 5 \tab 1 \tab 9 \tab 1 \tab 1 \tab 6 \tab 182 \tab 2 \tab 1 \tab 1 \tab 1 \tab 54 \tab 2 \tab 2 \tab 1 \tab 1 \tab 2 \tab 90 \tab 1 \tab 1 \tab 11 \tab 3 \tab 1 \tab 13 \tab 92 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 18 \tab 1 \tab 1 \tab 5 \tab 9 \tab 1 \tab 1 \tab 16 \tab 1 \tab 10 \tab 7 \tab 1 \tab 4 \tab 73 \tab 211 \tab 1819 \cr
+   Total \tab 255 \tab 2 \tab 55 \tab 1 \tab 1 \tab 1 \tab 6 \tab 28 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 90 \tab 1 \tab 1 \tab 9 \tab 1 \tab 9 \tab 1 \tab 38 \tab 2 \tab 11 \tab 2 \tab 228 \tab 2 \tab 7 \tab 1 \tab 1 \tab 4 \tab 1 \tab 7 \tab 2 \tab 182 \tab 1 \tab 2 \tab 5 \tab 1 \tab 9 \tab 1 \tab 1 \tab 6 \tab 182 \tab 2 \tab 1 \tab 1 \tab 1 \tab 54 \tab 2 \tab 2 \tab 1 \tab 1 \tab 2 \tab 90 \tab 1 \tab 1 \tab 11 \tab 3 \tab 1 \tab 13 \tab 92 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 18 \tab 1 \tab 1 \tab 5 \tab 9 \tab 1 \tab 1 \tab 16 \tab 1 \tab 10 \tab 7 \tab 1 \tab 4 \tab 73 \tab 211 \tab 1819 \cr
+}
 }
 
 \seealso{

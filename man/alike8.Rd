@@ -24,15 +24,21 @@ H. In what way are praise and punishment alike?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1474/vshow}{GSS Data Explorer page for \code{alike8}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab completely wrong \tab partially right \tab completely right \tab don't know \tab no answer \tab Total \cr
+   1994 \tab - \tab 1760 \tab 620 \tab 283 \tab 301 \tab 28 \tab 2992 \cr
+   Total \tab 0 \tab 1760 \tab 620 \tab 283 \tab 301 \tab 28 \tab 2992 \cr
+}
 }
 
 \seealso{

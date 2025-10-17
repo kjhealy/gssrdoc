@@ -24,15 +24,21 @@ A. Moderate activities, such as moving a table, pushing a vacuum cleaner, bowlin
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2677/vshow}{GSS Data Explorer page for \code{modact}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes, limited a lot \tab yes, limited a little \tab no, not limited at all \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 136 \tab 159 \tab 1103 \tab 21 \tab 2817 \cr
+   Total \tab 1398 \tab 136 \tab 159 \tab 1103 \tab 21 \tab 2817 \cr
+}
 }
 
 \seealso{

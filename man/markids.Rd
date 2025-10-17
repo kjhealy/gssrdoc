@@ -26,16 +26,22 @@ D. The main purpose of marriage these days is to have children.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4367/vshow}{GSS Data Explorer page for \code{markids}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 36 \tab 127 \tab 230 \tab 727 \tab 238 \tab 32 \tab 24 \tab 1481 \cr
+   1994 \tab 1545 \tab 22 \tab 160 \tab 246 \tab 766 \tab 209 \tab 22 \tab 22 \tab 2992 \cr
+   Total \tab 1612 \tab 58 \tab 287 \tab 476 \tab 1493 \tab 447 \tab 54 \tab 46 \tab 4473 \cr
+}
 }
 
 \seealso{

@@ -26,16 +26,21 @@ Keep people under video surveillance in public areas?  Would you say...
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6315/vshow}{GSS Data Explorer page for \code{cctv}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should have the right \tab probably should have the right \tab probably should not have the right \tab definitely should not have the right \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1477 \tab 345 \tab 534 \tab 264 \tab 215 \tab 19 \tab 13 \tab 2867 \cr
+   Total \tab 1477 \tab 345 \tab 534 \tab 264 \tab 215 \tab 19 \tab 13 \tab 2867 \cr
+}
 }
 
 \seealso{

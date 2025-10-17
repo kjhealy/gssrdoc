@@ -24,16 +24,22 @@ Question Do you describe yourself as male, female, or transgender?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7479/vshow}{GSS Data Explorer page for \code{sexnow1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab male \tab female \tab transgender \tab none of these \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 72 \tab 1727 \tab 2179 \tab 10 \tab 16 \tab 18 \tab 2 \tab 8 \tab 4032 \cr
+   2022 \tab 8 \tab 1617 \tab 1881 \tab 14 \tab 11 \tab - \tab 9 \tab 4 \tab 3544 \cr
+   Total \tab 80 \tab 3344 \tab 4060 \tab 24 \tab 27 \tab 18 \tab 11 \tab 12 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

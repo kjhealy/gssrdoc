@@ -23,15 +23,21 @@ A. Are any other members of your immediate family serving in the Armed Forces no
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/813/vshow}{GSS Data Explorer page for \code{vetfamnw}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1984 \tab 381 \tab 144 \tab 912 \tab 36 \tab 1473 \cr
+   Total \tab 381 \tab 144 \tab 912 \tab 36 \tab 1473 \cr
+}
 }
 
 \seealso{

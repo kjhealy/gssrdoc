@@ -25,18 +25,24 @@ D. What (is/was) that person''s race? (Is/Was) it black, white, hispanic or othe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1990, 1991, 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5017/vshow}{GSS Data Explorer page for \code{aidsrac2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab black \tab white \tab hispanic \tab other \tab no answer \tab Total \cr
+   1989 \tab 1486 \tab 13 \tab 32 \tab 2 \tab 1 \tab 3 \tab 1537 \cr
+   1990 \tab 1324 \tab 6 \tab 37 \tab 3 \tab - \tab 2 \tab 1372 \cr
+   1991 \tab 1422 \tab 13 \tab 70 \tab 6 \tab 1 \tab 5 \tab 1517 \cr
+   1993 \tab 1407 \tab 43 \tab 131 \tab 14 \tab 3 \tab 8 \tab 1606 \cr
+   Total \tab 5639 \tab 75 \tab 270 \tab 25 \tab 5 \tab 18 \tab 6032 \cr
+}
 }
 
 \seealso{

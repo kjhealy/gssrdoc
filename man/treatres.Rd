@@ -24,16 +24,22 @@ Question M. At work, people are treated with respect.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3010/vshow}{GSS Data Explorer page for \code{treatres}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 945 \tab 717 \tab 929 \tab 139 \tab 20 \tab 22 \tab 40 \tab 2812 \cr
+   2012 \tab 795 \tab 415 \tab 607 \tab 91 \tab 21 \tab 14 \tab 31 \tab 1974 \cr
+   Total \tab 1740 \tab 1132 \tab 1536 \tab 230 \tab 41 \tab 36 \tab 71 \tab 4786 \cr
+}
 }
 
 \seealso{

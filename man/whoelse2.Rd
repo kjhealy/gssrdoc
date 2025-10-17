@@ -23,28 +23,35 @@ B. Older Children
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2022 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5551/vshow}{GSS Data Explorer page for \code{whoelse2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 97 \tab 1334 \tab 8 \tab 35 \tab - \tab 2992 \cr
+   1996 \tab - \tab 264 \tab 2562 \tab 7 \tab 71 \tab - \tab 2904 \cr
+   1998 \tab - \tab 212 \tab 2499 \tab 4 \tab 117 \tab - \tab 2832 \cr
+   2000 \tab - \tab 211 \tab 2458 \tab 2 \tab 146 \tab - \tab 2817 \cr
+   2002 \tab - \tab 173 \tab 2577 \tab 15 \tab - \tab - \tab 2765 \cr
+   2004 \tab - \tab 160 \tab 2619 \tab 21 \tab 12 \tab - \tab 2812 \cr
+   2006 \tab - \tab 282 \tab 4204 \tab 13 \tab 11 \tab - \tab 4510 \cr
+   2008 \tab - \tab 144 \tab 1876 \tab - \tab 3 \tab - \tab 2023 \cr
+   2010 \tab - \tab 154 \tab 1882 \tab - \tab 8 \tab - \tab 2044 \cr
+   2012 \tab - \tab 187 \tab 1784 \tab - \tab 3 \tab - \tab 1974 \cr
+   2014 \tab - \tab 216 \tab 2316 \tab - \tab 6 \tab - \tab 2538 \cr
+   2016 \tab - \tab 240 \tab 2620 \tab - \tab 7 \tab - \tab 2867 \cr
+   2018 \tab 9 \tab 169 \tab 2170 \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 1642 \tab 100 \tab 1708 \tab 94 \tab - \tab - \tab 3544 \cr
+   Total \tab 3169 \tab 2609 \tab 32609 \tab 164 \tab 419 \tab 0 \tab 38970 \cr
+}
 }
 
 \seealso{

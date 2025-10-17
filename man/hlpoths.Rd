@@ -26,18 +26,26 @@ G. A job that allows someone to help other people?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4513/vshow}{GSS Data Explorer page for \code{hlpoths}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab neither important nor unimportant \tab not important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 84 \tab 354 \tab 716 \tab 280 \tab 55 \tab 5 \tab 17 \tab 26 \tab 1537 \cr
+   1998 \tab 1609 \tab 346 \tab 594 \tab 184 \tab 35 \tab 6 \tab 15 \tab 43 \tab 2832 \cr
+   2006 \tab 2992 \tab 653 \tab 715 \tab 111 \tab 26 \tab 6 \tab 5 \tab 2 \tab 4510 \cr
+   2016 \tab 1390 \tab 619 \tab 618 \tab 195 \tab 34 \tab 4 \tab 2 \tab 5 \tab 2867 \cr
+   Total \tab 6075 \tab 1972 \tab 2643 \tab 770 \tab 150 \tab 21 \tab 39 \tab 76 \tab 11746 \cr
+}
 }
 
 \seealso{

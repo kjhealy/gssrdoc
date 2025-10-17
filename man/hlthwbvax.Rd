@@ -25,15 +25,21 @@ Question (During the past 12 months, how often, if at all, have you used the int
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7812/vshow}{GSS Data Explorer page for \code{hlthwbvax}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab seldom \tab sometimes \tab often \tab very often \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2406 \tab 270 \tab 256 \tab 389 \tab 133 \tab 49 \tab 39 \tab 1 \tab 1 \tab 3544 \cr
+   Total \tab 2406 \tab 270 \tab 256 \tab 389 \tab 133 \tab 49 \tab 39 \tab 1 \tab 1 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

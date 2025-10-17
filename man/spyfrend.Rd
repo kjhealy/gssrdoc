@@ -27,15 +27,21 @@ D. What if the petty officer had sold these materials to an agent of a friendly 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5230/vshow}{GSS Data Explorer page for \code{spyfrend}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab reprimand \tab dismiss/military \tab one year prison \tab 5-9 years prison \tab 10-20 yrs prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 44 \tab 163 \tab 123 \tab 263 \tab 397 \tab 316 \tab 65 \tab 16 \tab 2832 \cr
+   Total \tab 1445 \tab 44 \tab 163 \tab 123 \tab 263 \tab 397 \tab 316 \tab 65 \tab 16 \tab 2832 \cr
+}
 }
 
 \seealso{

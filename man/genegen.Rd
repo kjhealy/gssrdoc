@@ -25,18 +25,26 @@ Question Do you think that modifying the genes of certain crops is:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2016 \tab A/-/- \tab partial \cr
-   2018 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2016, 2018 \cr
+   A/B/- \tab 2010 \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4782/vshow}{GSS Data Explorer page for \code{genegen}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely dangerous for the environment \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all for the environment \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1541 \tab 92 \tab 167 \tab 408 \tab 268 \tab 46 \tab 241 \tab 54 \tab 2817 \cr
+   2010 \tab 614 \tab 123 \tab 246 \tab 455 \tab 287 \tab 74 \tab 241 \tab 4 \tab 2044 \cr
+   2016 \tab 1956 \tab 157 \tab 212 \tab 338 \tab 134 \tab 35 \tab 33 \tab 2 \tab 2867 \cr
+   2018 \tab 1563 \tab 110 \tab 189 \tab 294 \tab 121 \tab 39 \tab 29 \tab 3 \tab 2348 \cr
+   Total \tab 5674 \tab 482 \tab 814 \tab 1495 \tab 810 \tab 194 \tab 544 \tab 63 \tab 10076 \cr
+}
 }
 
 \seealso{

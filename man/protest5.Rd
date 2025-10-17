@@ -25,16 +25,23 @@ E. Seriously damaging government buildings.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3986/vshow}{GSS Data Explorer page for \code{protest5}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 13 \tab 6 \tab 30 \tab 567 \tab 35 \tab 26 \tab 1534 \cr
+   1990 \tab 155 \tab 23 \tab 24 \tab 81 \tab 997 \tab 66 \tab 26 \tab 1372 \cr
+   Total \tab 1012 \tab 36 \tab 30 \tab 111 \tab 1564 \tab 101 \tab 52 \tab 2906 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,22 @@ E. Mother
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/326/vshow}{GSS Data Explorer page for \code{mother}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
+   1983 \tab - \tab 389 \tab 368 \tab 365 \tab 406 \tab 52 \tab 19 \tab 1599 \cr
+   1984 \tab 989 \tab 105 \tab 113 \tab 94 \tab 147 \tab 14 \tab 11 \tab 1473 \cr
+   Total \tab 989 \tab 494 \tab 481 \tab 459 \tab 553 \tab 66 \tab 30 \tab 3072 \cr
+}
 }
 
 \seealso{

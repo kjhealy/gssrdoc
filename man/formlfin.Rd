@@ -23,15 +23,21 @@ Question C. Have you finished all the required courses?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2151/vshow}{GSS Data Explorer page for \code{formlfin}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab never ends \tab no answer \tab Total \cr
+   1998 \tab 2325 \tab 398 \tab 21 \tab 52 \tab 36 \tab 2832 \cr
+   Total \tab 2325 \tab 398 \tab 21 \tab 52 \tab 36 \tab 2832 \cr
+}
 }
 
 \seealso{

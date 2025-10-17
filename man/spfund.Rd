@@ -24,43 +24,50 @@ C. Fundamentalism/Liberalism of Religion of Spouse
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   Full \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/354/vshow}{GSS Data Explorer page for \code{spfund}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab Total \cr
+   1973 \tab 428 \tab 291 \tab 558 \tab 183 \tab 44 \tab 1504 \cr
+   1974 \tab 419 \tab 286 \tab 558 \tab 203 \tab 18 \tab 1484 \cr
+   1975 \tab 488 \tab 288 \tab 518 \tab 179 \tab 17 \tab 1490 \cr
+   1976 \tab 525 \tab 272 \tab 513 \tab 170 \tab 19 \tab 1499 \cr
+   1977 \tab 555 \tab 285 \tab 517 \tab 159 \tab 14 \tab 1530 \cr
+   1978 \tab 572 \tab 279 \tab 505 \tab 157 \tab 19 \tab 1532 \cr
+   1980 \tab 579 \tab 263 \tab 422 \tab 162 \tab 42 \tab 1468 \cr
+   1982 \tab 867 \tab 319 \tab 481 \tab 169 \tab 24 \tab 1860 \cr
+   1983 \tab 634 \tab 278 \tab 489 \tab 175 \tab 23 \tab 1599 \cr
+   1984 \tab 644 \tab 276 \tab 341 \tab 183 \tab 29 \tab 1473 \cr
+   1985 \tab 663 \tab 293 \tab 343 \tab 215 \tab 20 \tab 1534 \cr
+   1986 \tab 644 \tab 265 \tab 331 \tab 202 \tab 28 \tab 1470 \cr
+   1987 \tab 903 \tab 340 \tab 310 \tab 230 \tab 36 \tab 1819 \cr
+   1988 \tab 693 \tab 282 \tab 283 \tab 196 \tab 27 \tab 1481 \cr
+   1989 \tab 690 \tab 257 \tab 354 \tab 194 \tab 42 \tab 1537 \cr
+   1990 \tab 645 \tab 206 \tab 312 \tab 180 \tab 29 \tab 1372 \cr
+   1991 \tab 713 \tab 255 \tab 328 \tab 202 \tab 19 \tab 1517 \cr
+   1993 \tab 747 \tab 265 \tab 330 \tab 224 \tab 40 \tab 1606 \cr
+   1994 \tab 2213 \tab 224 \tab 287 \tab 212 \tab 56 \tab 2992 \cr
+   2004 \tab 2133 \tab 194 \tab 282 \tab 174 \tab 29 \tab 2812 \cr
+   2006 \tab 3095 \tab 396 \tab 563 \tab 386 \tab 70 \tab 4510 \cr
+   2008 \tab 1046 \tab 276 \tab 369 \tab 278 \tab 54 \tab 2023 \cr
+   2010 \tab 1155 \tab 230 \tab 352 \tab 268 \tab 39 \tab 2044 \cr
+   2012 \tab 1074 \tab 233 \tab 369 \tab 248 \tab 50 \tab 1974 \cr
+   2014 \tab 1380 \tab 245 \tab 511 \tab 341 \tab 61 \tab 2538 \cr
+   2016 \tab 1654 \tab 276 \tab 515 \tab 333 \tab 89 \tab 2867 \cr
+   2018 \tab 1350 \tab 236 \tab 386 \tab 292 \tab 84 \tab 2348 \cr
+   2021 \tab 2033 \tab 311 \tab 802 \tab 694 \tab 192 \tab 4032 \cr
+   2022 \tab 2080 \tab 258 \tab 609 \tab 477 \tab 120 \tab 3544 \cr
+   Total \tab 30622 \tab 7879 \tab 12538 \tab 7086 \tab 1334 \tab 59459 \cr
+}
 }
 
 \seealso{

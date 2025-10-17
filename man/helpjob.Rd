@@ -27,18 +27,25 @@ D. Helped somebody to find a job
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4223/vshow}{GSS Data Explorer page for \code{helpjob}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least two or three times in the past year \tab once in the past year \tab not at all in the past year \tab no answer \tab don't know \tab Total \cr
+   2002 \tab 1616 \tab 26 \tab 26 \tab 75 \tab 295 \tab 222 \tab 497 \tab 8 \tab - \tab 2765 \cr
+   2004 \tab 1472 \tab 36 \tab 33 \tab 112 \tab 366 \tab 293 \tab 496 \tab 2 \tab 2 \tab 2812 \cr
+   2012 \tab 666 \tab 25 \tab 28 \tab 102 \tab 342 \tab 270 \tab 533 \tab 7 \tab 1 \tab 1974 \cr
+   2014 \tab 1264 \tab 33 \tab 34 \tab 92 \tab 301 \tab 272 \tab 538 \tab 4 \tab - \tab 2538 \cr
+   Total \tab 5018 \tab 120 \tab 121 \tab 381 \tab 1304 \tab 1057 \tab 2064 \tab 21 \tab 3 \tab 10089 \cr
+}
 }
 
 \seealso{

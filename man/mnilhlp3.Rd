@@ -22,15 +22,21 @@ C3. R''s sources of help during mental illness -- Third mention.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2087/vshow}{GSS Data Explorer page for \code{mnilhlp3}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 108 \tab 200 \tab 400 \tab 500 \tab 506 \tab 590 \tab 605 \tab no answer \tab Total \cr
+   1996 \tab 2879 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 15 \tab 2904 \cr
+   Total \tab 2879 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 15 \tab 2904 \cr
+}
 }
 
 \seealso{

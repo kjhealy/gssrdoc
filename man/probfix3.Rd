@@ -22,16 +22,22 @@ Question Problems often come up in life. Sometimes they're personal problems -- 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1982/vshow}{GSS Data Explorer page for \code{probfix3}}.
+
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab 22 \tab 31 \tab 51 \tab 61 \tab 62 \tab 64 \tab 65 \tab 67 \tab 68 \tab 69 \tab 71 \tab 72 \tab 73 \tab 74 \tab 75 \tab 81 \tab 82 \tab don't know \tab no answer \tab 95 \tab Total \cr
+   1996 \tab 2684 \tab 10 \tab 1 \tab 14 \tab 1 \tab 1 \tab 5 \tab 2 \tab 1 \tab 1 \tab 3 \tab 7 \tab 17 \tab 3 \tab 5 \tab 3 \tab 61 \tab 55 \tab 2 \tab 28 \tab - \tab 2904 \cr
+   2006 \tab 3776 \tab 3 \tab - \tab 6 \tab 2 \tab - \tab 2 \tab 1 \tab - \tab 2 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab - \tab 22 \tab 17 \tab - \tab 39 \tab 632 \tab 4510 \cr
+   Total \tab 6460 \tab 13 \tab 1 \tab 20 \tab 3 \tab 1 \tab 7 \tab 3 \tab 1 \tab 3 \tab 5 \tab 8 \tab 19 \tab 5 \tab 6 \tab 3 \tab 83 \tab 72 \tab 2 \tab 67 \tab 632 \tab 7414 \cr
+}
 }
 
 \seealso{

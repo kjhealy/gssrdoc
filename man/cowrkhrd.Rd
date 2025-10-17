@@ -22,16 +22,22 @@ Question At your workplace, how hard would you say that people work with 0 meani
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2864/vshow}{GSS Data Explorer page for \code{cowrkhrd}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab not at all hard \tab 1 \tab very hard \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 969 \tab 94 \tab 10 \tab 312 \tab 24 \tab 47 \tab 61 \tab 284 \tab 136 \tab 283 \tab 335 \tab 160 \tab 35 \tab 15 \tab 2765 \cr
+   2006 \tab 2778 \tab 49 \tab 5 \tab 356 \tab 24 \tab 49 \tab 53 \tab 237 \tab 124 \tab 248 \tab 341 \tab 147 \tab 72 \tab 27 \tab 4510 \cr
+   Total \tab 3747 \tab 143 \tab 15 \tab 668 \tab 48 \tab 96 \tab 114 \tab 521 \tab 260 \tab 531 \tab 676 \tab 307 \tab 107 \tab 42 \tab 7275 \cr
+}
 }
 
 \seealso{

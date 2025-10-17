@@ -25,18 +25,25 @@ D. A physical illness
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1997/vshow}{GSS Data Explorer page for \code{physill}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 203 \tab 512 \tab 422 \tab 223 \tab 54 \tab 30 \tab 2904 \cr
+   2006 \tab 3073 \tab 148 \tab 590 \tab 446 \tab 188 \tab 50 \tab 15 \tab 4510 \cr
+   2018 \tab 1175 \tab 174 \tab 445 \tab 346 \tab 148 \tab 31 \tab 29 \tab 2348 \cr
+   Total \tab 5708 \tab 525 \tab 1547 \tab 1214 \tab 559 \tab 135 \tab 74 \tab 9762 \cr
+}
 }
 
 \seealso{

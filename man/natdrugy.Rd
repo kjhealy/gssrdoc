@@ -24,39 +24,45 @@ F. Drug rehabilitation
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   Full \tab 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/204/vshow}{GSS Data Explorer page for \code{natdrugy}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1984 \tab 974 \tab 228 \tab 186 \tab 45 \tab 30 \tab 10 \tab - \tab 1473 \cr
+   1985 \tab 751 \tab 416 \tab 237 \tab 66 \tab 60 \tab 4 \tab - \tab 1534 \cr
+   1986 \tab 730 \tab 389 \tab 234 \tab 68 \tab 43 \tab 6 \tab - \tab 1470 \cr
+   1987 \tab 603 \tab 713 \tab 331 \tab 88 \tab 70 \tab 14 \tab - \tab 1819 \cr
+   1988 \tab 718 \tab 429 \tab 217 \tab 63 \tab 45 \tab 9 \tab - \tab 1481 \cr
+   1989 \tab 768 \tab 468 \tab 197 \tab 64 \tab 33 \tab 7 \tab - \tab 1537 \cr
+   1990 \tab 674 \tab 441 \tab 157 \tab 59 \tab 25 \tab 16 \tab - \tab 1372 \cr
+   1991 \tab 756 \tab 430 \tab 220 \tab 56 \tab 41 \tab 14 \tab - \tab 1517 \cr
+   1993 \tab 799 \tab 435 \tab 234 \tab 79 \tab 45 \tab 14 \tab - \tab 1606 \cr
+   1994 \tab 1508 \tab 757 \tab 437 \tab 166 \tab 88 \tab 36 \tab - \tab 2992 \cr
+   1996 \tab 1441 \tab 743 \tab 401 \tab 167 \tab 95 \tab 57 \tab - \tab 2904 \cr
+   1998 \tab 1381 \tab 761 \tab 419 \tab 163 \tab 101 \tab 7 \tab - \tab 2832 \cr
+   2000 \tab 1409 \tab 730 \tab 422 \tab 142 \tab 109 \tab 5 \tab - \tab 2817 \cr
+   2002 \tab 1358 \tab 715 \tab 425 \tab 176 \tab 85 \tab 6 \tab - \tab 2765 \cr
+   2004 \tab 1401 \tab 685 \tab 477 \tab 154 \tab 92 \tab 3 \tab - \tab 2812 \cr
+   2006 \tab 3002 \tab 777 \tab 463 \tab 155 \tab 113 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1005 \tab 475 \tab 346 \tab 129 \tab 65 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 1014 \tab 499 \tab 334 \tab 117 \tab 76 \tab 4 \tab - \tab 2044 \cr
+   2012 \tab 998 \tab 404 \tab 326 \tab 155 \tab 89 \tab 2 \tab - \tab 1974 \cr
+   2014 \tab 1274 \tab 617 \tab 398 \tab 164 \tab 83 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 1437 \tab 850 \tab 357 \tab 151 \tab 70 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab 1188 \tab 746 \tab 255 \tab 110 \tab 47 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 1987 \tab 1225 \tab 595 \tab 203 \tab 11 \tab - \tab 11 \tab 4032 \cr
+   2022 \tab 1780 \tab 1126 \tab 435 \tab 142 \tab 56 \tab - \tab 5 \tab 3544 \cr
+   Total \tab 28956 \tab 15059 \tab 8103 \tab 2882 \tab 1572 \tab 223 \tab 16 \tab 56811 \cr
+}
 }
 
 \seealso{

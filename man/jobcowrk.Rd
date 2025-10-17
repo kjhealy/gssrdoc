@@ -25,16 +25,23 @@ D. A fellow worker or human resources staff member at your workplaceâ€“that
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2613/vshow}{GSS Data Explorer page for \code{jobcowrk}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab no answer \tab Total \cr
+   2002 \tab 2220 \tab 330 \tab 137 \tab 44 \tab 28 \tab 6 \tab 2765 \cr
+   2004 \tab 2453 \tab 219 \tab 76 \tab 36 \tab 21 \tab 7 \tab 2812 \cr
+   Total \tab 4673 \tab 549 \tab 213 \tab 80 \tab 49 \tab 13 \tab 5577 \cr
+}
 }
 
 \seealso{

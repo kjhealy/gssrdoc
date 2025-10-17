@@ -26,17 +26,23 @@ F. When my country does well in international sports, it makes me proud to be an
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4839/vshow}{GSS Data Explorer page for \code{amsports}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 485 \tab 501 \tab 257 \tab 70 \tab 18 \tab 21 \tab 15 \tab 2904 \cr
+   2004 \tab 1596 \tab 415 \tab 494 \tab 246 \tab 28 \tab 14 \tab 18 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 364 \tab 583 \tab 240 \tab 49 \tab 16 \tab 19 \tab 3 \tab 2538 \cr
+   Total \tab 4397 \tab 1264 \tab 1578 \tab 743 \tab 147 \tab 48 \tab 58 \tab 19 \tab 8254 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ Question C. Fundamentalism/Liberalism of Mother's Religion
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1062/vshow}{GSS Data Explorer page for \code{mafund}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab Total \cr
+   1988 \tab 48 \tab 475 \tab 566 \tab 343 \tab 49 \tab 1481 \cr
+   Total \tab 48 \tab 475 \tab 566 \tab 343 \tab 49 \tab 1481 \cr
+}
 }
 
 \seealso{

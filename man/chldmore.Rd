@@ -24,30 +24,37 @@ Question Do you expect to have any (more) children?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1972, 1974, 1975, 1976, 1977, 1978, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/620/vshow}{GSS Data Explorer page for \code{chldmore}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab yes \tab no \tab uncertain \tab inappropriate \tab no answer \tab iap \tab Total \cr
+   1972 \tab 282 \tab 882 \tab 87 \tab 334 \tab 28 \tab - \tab 1613 \cr
+   1974 \tab 280 \tab 859 \tab 53 \tab 274 \tab 18 \tab - \tab 1484 \cr
+   1975 \tab 291 \tab 821 \tab 68 \tab 289 \tab 21 \tab - \tab 1490 \cr
+   1976 \tab 282 \tab 863 \tab 67 \tab 265 \tab 22 \tab - \tab 1499 \cr
+   1977 \tab 299 \tab 998 \tab 62 \tab 132 \tab 39 \tab - \tab 1530 \cr
+   1978 \tab 351 \tab 1112 \tab 61 \tab 3 \tab 5 \tab - \tab 1532 \cr
+   1982 \tab 441 \tab 1335 \tab 63 \tab - \tab 21 \tab - \tab 1860 \cr
+   1983 \tab 380 \tab 1158 \tab 59 \tab - \tab 2 \tab - \tab 1599 \cr
+   1985 \tab 340 \tab 1136 \tab 52 \tab - \tab 6 \tab - \tab 1534 \cr
+   1986 \tab 330 \tab 1085 \tab 54 \tab - \tab 1 \tab - \tab 1470 \cr
+   1988 \tab 242 \tab 704 \tab 41 \tab - \tab 1 \tab 493 \tab 1481 \cr
+   1989 \tab 226 \tab 740 \tab 36 \tab - \tab 4 \tab 531 \tab 1537 \cr
+   1990 \tab 205 \tab 686 \tab 37 \tab - \tab - \tab 444 \tab 1372 \cr
+   1991 \tab 221 \tab 753 \tab 46 \tab - \tab 4 \tab 493 \tab 1517 \cr
+   1993 \tab 230 \tab 795 \tab 46 \tab - \tab 9 \tab 526 \tab 1606 \cr
+   1994 \tab 104 \tab 375 \tab 25 \tab - \tab 3 \tab 2485 \tab 2992 \cr
+   Total \tab 4504 \tab 14302 \tab 857 \tab 1297 \tab 184 \tab 4972 \tab 26116 \cr
+}
 }
 
 \seealso{

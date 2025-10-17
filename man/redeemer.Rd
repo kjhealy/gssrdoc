@@ -25,16 +25,22 @@ B. Redeemer
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/323/vshow}{GSS Data Explorer page for \code{redeemer}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
+   1983 \tab - \tab 944 \tab 416 \tab 106 \tab 74 \tab 43 \tab 16 \tab 1599 \cr
+   1984 \tab 989 \tab 288 \tab 118 \tab 33 \tab 26 \tab 8 \tab 11 \tab 1473 \cr
+   Total \tab 989 \tab 1232 \tab 534 \tab 139 \tab 100 \tab 51 \tab 27 \tab 3072 \cr
+}
 }
 
 \seealso{

@@ -22,42 +22,48 @@ Question Or consider a person who believes that Black people are genetically inf
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/252/vshow}{GSS Data Explorer page for \code{spkrac}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, allowed to speak \tab not allowed \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1976 \tab - \tab 909 \tab 558 \tab 28 \tab 4 \tab - \tab 1499 \cr
+   1977 \tab - \tab 893 \tab 605 \tab 27 \tab 5 \tab - \tab 1530 \cr
+   1980 \tab - \tab 902 \tab 523 \tab 39 \tab 4 \tab - \tab 1468 \cr
+   1982 \tab - \tab 1045 \tab 754 \tab 55 \tab 6 \tab - \tab 1860 \cr
+   1984 \tab - \tab 844 \tab 594 \tab 31 \tab 4 \tab - \tab 1473 \cr
+   1985 \tab - \tab 848 \tab 645 \tab 38 \tab 3 \tab - \tab 1534 \cr
+   1987 \tab - \tab 1074 \tab 699 \tab 35 \tab 11 \tab - \tab 1819 \cr
+   1988 \tab 504 \tab 596 \tab 356 \tab 22 \tab 3 \tab - \tab 1481 \cr
+   1989 \tab 504 \tab 637 \tab 370 \tab 20 \tab 6 \tab - \tab 1537 \cr
+   1990 \tab 455 \tab 573 \tab 319 \tab 20 \tab 5 \tab - \tab 1372 \cr
+   1991 \tab 524 \tab 617 \tab 351 \tab 21 \tab 4 \tab - \tab 1517 \cr
+   1993 \tab 531 \tab 649 \tab 397 \tab 26 \tab 3 \tab - \tab 1606 \cr
+   1994 \tab 996 \tab 1223 \tab 730 \tab 38 \tab 5 \tab - \tab 2992 \cr
+   1996 \tab 981 \tab 1164 \tab 714 \tab 42 \tab 3 \tab - \tab 2904 \cr
+   1998 \tab 950 \tab 1173 \tab 665 \tab 38 \tab 6 \tab - \tab 2832 \cr
+   2000 \tab 956 \tab 1121 \tab 707 \tab 24 \tab 9 \tab - \tab 2817 \cr
+   2002 \tab 1841 \tab 578 \tab 322 \tab 19 \tab 5 \tab - \tab 2765 \cr
+   2004 \tab 1914 \tab 557 \tab 330 \tab 9 \tab 2 \tab - \tab 2812 \cr
+   2006 \tab 2507 \tab 1236 \tab 740 \tab 24 \tab 3 \tab - \tab 4510 \cr
+   2008 \tab 671 \tab 793 \tab 533 \tab 23 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 763 \tab 738 \tab 521 \tab 17 \tab 5 \tab - \tab 2044 \cr
+   2012 \tab 666 \tab 766 \tab 510 \tab 26 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab 824 \tab 1034 \tab 658 \tab 19 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 977 \tab 1136 \tab 727 \tab 20 \tab 7 \tab - \tab 2867 \cr
+   2018 \tab 774 \tab 891 \tab 648 \tab 23 \tab 12 \tab - \tab 2348 \cr
+   2021 \tab 2714 \tab 639 \tab 671 \tab - \tab - \tab 8 \tab 4032 \cr
+   2022 \tab 2380 \tab 585 \tab 558 \tab 12 \tab 5 \tab 4 \tab 3544 \cr
+   Total \tab 22432 \tab 23221 \tab 15205 \tab 696 \tab 132 \tab 12 \tab 61698 \cr
+}
 }
 
 \seealso{

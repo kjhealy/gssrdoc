@@ -23,16 +23,22 @@ E. When I see someone being treated unfairly, I sometimes don't feel very much p
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2874/vshow}{GSS Data Explorer page for \code{empathy5}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab does not describe very well \tab 2 \tab 3 \tab 4 \tab describes very well \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 613 \tab 373 \tab 191 \tab 90 \tab 76 \tab 21 \tab 8 \tab 2765 \cr
+   2004 \tab 1472 \tab 633 \tab 374 \tab 163 \tab 89 \tab 68 \tab 8 \tab 5 \tab 2812 \cr
+   Total \tab 2865 \tab 1246 \tab 747 \tab 354 \tab 179 \tab 144 \tab 29 \tab 13 \tab 5577 \cr
+}
 }
 
 \seealso{

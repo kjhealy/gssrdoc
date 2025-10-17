@@ -16,18 +16,24 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years                              |
+#'  |:-------|:----------------------------------|
+#'  |A/B/C   |2002, 2006, 2010, 2014, 2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `safehlth`](https://gssdataexplorer.norc.org/variables/2787/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------|:-----|
+#'  |2002  |969  |650            |969   |131      |21                |10         |15        |-              |2765  |
+#'  |2006  |2776 |667            |923   |89       |17                |24         |14        |-              |4510  |
+#'  |2010  |857  |422            |655   |58       |18                |7          |27        |-              |2044  |
+#'  |2014  |1288 |489            |689   |51       |11                |3          |7         |-              |2538  |
+#'  |2018  |900  |473            |863   |70       |7                 |4          |31        |-              |2348  |
+#'  |2022  |1548 |746            |1045  |135      |26                |12         |13        |19             |3544  |
+#'  |Total |8338 |3447           |5144  |534      |100               |60         |107       |19             |17749 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
@@ -56,18 +62,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years                              |
+#'  |:-------|:----------------------------------|
+#'  |A/B/C   |2002, 2006, 2010, 2014, 2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `proudemp`](https://gssdataexplorer.norc.org/variables/2788/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------|:-----|
+#'  |2002  |969  |673            |910   |150      |32                |14         |17        |-              |2765  |
+#'  |2006  |2776 |622            |906   |123      |31                |35         |17        |-              |4510  |
+#'  |2010  |857  |427            |614   |84       |25                |10         |27        |-              |2044  |
+#'  |2014  |1288 |468            |673   |71       |18                |8          |12        |-              |2538  |
+#'  |2018  |900  |459            |852   |81       |15                |7          |34        |-              |2348  |
+#'  |2022  |1548 |726            |1024  |151      |44                |13         |11        |27             |3544  |
+#'  |Total |8338 |3375           |4979  |660      |165               |87         |118       |27             |17749 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
@@ -96,18 +108,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years                              |
+#'  |:-------|:----------------------------------|
+#'  |A/B/C   |2002, 2006, 2010, 2014, 2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prodctiv`](https://gssdataexplorer.norc.org/variables/2789/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------|:-----|
+#'  |2002  |969  |505            |971   |254      |42                |9          |15        |-              |2765  |
+#'  |2006  |2776 |486            |941   |241      |33                |19         |14        |-              |4510  |
+#'  |2010  |857  |324            |674   |140      |17                |6          |26        |-              |2044  |
+#'  |2014  |1288 |353            |749   |121      |17                |3          |7         |-              |2538  |
+#'  |2018  |900  |337            |908   |154      |14                |4          |31        |-              |2348  |
+#'  |2022  |1549 |413            |1199  |280      |52                |14         |12        |25             |3544  |
+#'  |Total |8339 |2418           |5442  |1190     |175               |55         |105       |25             |17749 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
@@ -136,18 +154,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years                              |
+#'  |:-------|:----------------------------------|
+#'  |A/B/C   |2002, 2006, 2010, 2014, 2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `wksmooth`](https://gssdataexplorer.norc.org/variables/2790/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------|:-----|
+#'  |2002  |969  |397            |925   |367      |81                |11         |15        |-              |2765  |
+#'  |2006  |2776 |364            |898   |354      |82                |22         |14        |-              |4510  |
+#'  |2010  |857  |246            |679   |179      |46                |10         |27        |-              |2044  |
+#'  |2014  |1288 |256            |735   |213      |34                |3          |9         |-              |2538  |
+#'  |2018  |900  |235            |849   |278      |49                |5          |32        |-              |2348  |
+#'  |2022  |1549 |319            |1113  |392      |104               |30         |14        |23             |3544  |
+#'  |Total |8339 |1817           |5199  |1783     |396               |81         |111       |23             |17749 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
@@ -176,18 +200,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years                              |
+#'  |:-------|:----------------------------------|
+#'  |A/B/C   |2002, 2006, 2010, 2014, 2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `trdunion`](https://gssdataexplorer.norc.org/variables/2791/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------|:-----|
+#'  |2002  |969  |214            |599   |680      |211               |72         |20        |-              |2765  |
+#'  |2006  |2776 |163            |526   |723      |218               |90         |14        |-              |4510  |
+#'  |2010  |857  |101            |413   |478      |119               |47         |29        |-              |2044  |
+#'  |2014  |1288 |118            |436   |496      |114               |68         |18        |-              |2538  |
+#'  |2018  |900  |140            |572   |534      |89                |78         |35        |-              |2348  |
+#'  |2022  |1549 |293            |793   |610      |130               |116        |19        |34             |3544  |
+#'  |Total |8339 |1029           |3339  |3521     |881               |471        |135       |34             |17749 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
@@ -213,18 +243,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years                              |
+#'  |:-------|:----------------------------------|
+#'  |A/B/C   |2002, 2006, 2010, 2014, 2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `partteam`](https://gssdataexplorer.norc.org/variables/2792/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes, i work as part of a team |no, i work mostly on my own |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------------------------|:---------------------------|:----------|:---------|:--------------|:-----|
+#'  |2002  |969  |1015                          |759                         |8          |14        |-              |2765  |
+#'  |2006  |2776 |850                           |861                         |11         |12        |-              |4510  |
+#'  |2010  |857  |629                           |531                         |2          |25        |-              |2044  |
+#'  |2014  |1288 |683                           |556                         |5          |6         |-              |2538  |
+#'  |2018  |900  |760                           |650                         |7          |31        |-              |2348  |
+#'  |2022  |1549 |1172                          |788                         |6          |13        |16             |3544  |
+#'  |Total |8339 |5109                          |4145                        |39         |101       |16             |17749 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
@@ -252,18 +288,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years                              |
+#'  |:-------|:----------------------------------|
+#'  |A/B/C   |2002, 2006, 2010, 2014, 2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `wkdecide`](https://gssdataexplorer.norc.org/variables/2793/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |often |sometimes |rarely |never |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----|:---------|:------|:-----|:----------|:---------|:--------------|:-----|
+#'  |2002  |969  |766   |622       |253    |136   |5          |14        |-              |2765  |
+#'  |2006  |2776 |669   |615       |260    |164   |14         |12        |-              |4510  |
+#'  |2010  |857  |476   |428       |156    |101   |2          |24        |-              |2044  |
+#'  |2014  |1288 |483   |467       |167    |126   |1          |6         |-              |2538  |
+#'  |2018  |900  |512   |553       |229    |118   |4          |32        |-              |2348  |
+#'  |2022  |1549 |735   |740       |306    |168   |12         |14        |20             |3544  |
+#'  |Total |8339 |3641  |3425      |1371   |813   |38         |102       |20             |17749 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
@@ -291,14 +333,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2002, 2006 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `setthngs`](https://gssdataexplorer.norc.org/variables/2794/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |often |sometimes |rarely |never |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:---------|:------|:-----|:----------|:---------|:-----|
+#'  |2002  |969  |819   |616       |215    |126   |6          |14        |2765  |
+#'  |2006  |2776 |739   |565       |248    |155   |15         |12        |4510  |
+#'  |Total |3745 |1558  |1181      |463    |281   |21         |26        |7275  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
@@ -326,18 +374,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years                              |
+#'  |:-------|:----------------------------------|
+#'  |A/B/C   |2002, 2006, 2010, 2014, 2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `toofewwk`](https://gssdataexplorer.norc.org/variables/2795/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |often |sometimes |rarely |never |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----|:---------|:------|:-----|:----------|:---------|:--------------|:-----|
+#'  |2002  |969  |466   |584       |507    |208   |16         |15        |-              |2765  |
+#'  |2006  |2776 |492   |558       |444    |213   |15         |12        |-              |4510  |
+#'  |2010  |857  |264   |402       |339    |151   |7          |24        |-              |2044  |
+#'  |2014  |1288 |280   |470       |335    |157   |1          |7         |-              |2538  |
+#'  |2018  |900  |358   |505       |366    |179   |9          |31        |-              |2348  |
+#'  |2022  |1549 |545   |721       |473    |201   |15         |14        |26             |3544  |
+#'  |Total |8339 |2405  |3240      |2464   |1109  |63         |103       |26             |17749 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
@@ -366,18 +420,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years                              |
+#'  |:-------|:----------------------------------|
+#'  |A/B/C   |2002, 2006, 2010, 2014, 2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `promteok`](https://gssdataexplorer.norc.org/variables/2796/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very true |somewhat true |not too true |not at all true |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:-------------|:------------|:---------------|:----------|:---------|:--------------|:-----|
+#'  |2002  |969  |364       |604           |401          |375             |31         |21        |-              |2765  |
+#'  |2006  |2776 |327       |604           |389          |343             |48         |23        |-              |4510  |
+#'  |2010  |857  |197       |421           |272          |252             |14         |31        |-              |2044  |
+#'  |2014  |1288 |250       |452           |307          |218             |12         |11        |-              |2538  |
+#'  |2018  |900  |295       |534           |329          |238             |17         |35        |-              |2348  |
+#'  |2022  |1551 |401       |785           |431          |303             |38         |15        |20             |3544  |
+#'  |Total |8341 |1834      |3400          |2129         |1729            |160        |136       |20             |17749 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life

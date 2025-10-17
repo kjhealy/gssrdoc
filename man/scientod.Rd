@@ -24,17 +24,24 @@ Question F. Scientists are apt to be odd and peculiar people. Do you strongly ag
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
-   2016 \tab A/B \tab partial \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016, 2018 \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3516/vshow}{GSS Data Explorer page for \code{scientod}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1457 \tab 26 \tab 144 \tab 269 \tab 30 \tab 43 \tab 5 \tab 1974 \cr
+   2016 \tab 1477 \tab 132 \tab 584 \tab 520 \tab 88 \tab 51 \tab 15 \tab 2867 \cr
+   2018 \tab 1173 \tab 115 \tab 465 \tab 465 \tab 84 \tab 43 \tab 3 \tab 2348 \cr
+   Total \tab 4107 \tab 273 \tab 1193 \tab 1254 \tab 202 \tab 137 \tab 23 \tab 7189 \cr
+}
 }
 
 \seealso{

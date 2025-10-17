@@ -25,16 +25,22 @@ C. Astrology - the study of star signs - has some scientific truth.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4743/vshow}{GSS Data Explorer page for \code{scitest3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 138 \tab 572 \tab 320 \tab 317 \tab 128 \tab 82 \tab 1606 \cr
+   1994 \tab 1606 \tab 119 \tab 532 \tab 326 \tab 268 \tab 102 \tab 39 \tab 2992 \cr
+   Total \tab 1655 \tab 257 \tab 1104 \tab 646 \tab 585 \tab 230 \tab 121 \tab 4598 \cr
+}
 }
 
 \seealso{

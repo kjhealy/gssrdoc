@@ -23,15 +23,21 @@ Question E. In total, did the total number of hours add up to...
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2153/vshow}{GSS Data Explorer page for \code{formlhrs}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab 35 hours or less \tab 35 hours-70 hrs \tab over 70 hours \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 2377 \tab 85 \tab 68 \tab 241 \tab 2 \tab 59 \tab 2832 \cr
+   Total \tab 2377 \tab 85 \tab 68 \tab 241 \tab 2 \tab 59 \tab 2832 \cr
+}
 }
 
 \seealso{

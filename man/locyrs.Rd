@@ -21,15 +21,21 @@ Question How long have you worked at this location?  Include all full-time posit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2146/vshow}{GSS Data Explorer page for \code{locyrs}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 0.08 \tab 0.17 \tab 0.25 \tab 0.33 \tab 0.42 \tab 0.5 \tab 0.58 \tab 0.67 \tab 0.75 \tab 0.83 \tab 0.92 \tab 1 \tab 1.08 \tab 1.17 \tab 1.25 \tab 1.33 \tab 1.42 \tab 1.5 \tab 1.58 \tab 1.67 \tab 1.75 \tab 1.83 \tab 10 \tab 10.2 \tab 10.3 \tab 10.5 \tab 10.7 \tab 10.8 \tab 11 \tab 11.1 \tab 11.6 \tab 11.9 \tab 12 \tab 12.5 \tab 12.8 \tab 12.9 \tab 13 \tab 13.1 \tab 14 \tab 14.2 \tab 14.3 \tab 15 \tab 15.1 \tab 15.4 \tab 15.6 \tab 16 \tab 17 \tab 17.2 \tab 17.5 \tab 18 \tab 18.1 \tab 18.8 \tab 19 \tab 19.4 \tab 2 \tab 2.17 \tab 2.25 \tab 2.33 \tab 2.42 \tab 2.5 \tab 2.58 \tab 2.67 \tab 2.75 \tab 2.83 \tab 2.92 \tab 20 \tab 20.2 \tab 21 \tab 21.4 \tab 21.5 \tab 21.8 \tab 22 \tab 22.1 \tab 23 \tab 24 \tab 24.4 \tab 25 \tab 26 \tab 27 \tab 28 \tab 28.3 \tab 28.9 \tab 29 \tab 29.3 \tab 3 \tab 3.08 \tab 3.17 \tab 3.25 \tab 3.33 \tab 3.5 \tab 3.58 \tab 3.67 \tab 3.83 \tab 30 \tab 30.4 \tab 31.1 \tab 32 \tab 33 \tab 34 \tab 36 \tab 4 \tab 4.17 \tab 4.25 \tab 4.33 \tab 4.42 \tab 4.5 \tab 4.58 \tab 4.67 \tab 4.75 \tab 4.83 \tab 40 \tab 45 \tab 5 \tab 5.08 \tab 5.17 \tab 5.25 \tab 5.42 \tab 5.5 \tab 5.67 \tab 6 \tab 6.17 \tab 6.25 \tab 6.33 \tab 6.5 \tab 6.75 \tab 6.92 \tab 7 \tab 7.17 \tab 7.25 \tab 7.33 \tab 7.5 \tab 7.58 \tab 7.92 \tab 8 \tab 8.5 \tab 8.67 \tab 9 \tab 9.08 \tab 9.25 \tab 9.5 \tab 9.67 \tab 9.75 \tab no answer \tab Total \cr
+   1998 \tab 1455 \tab 53 \tab 24 \tab 18 \tab 32 \tab 19 \tab 14 \tab 48 \tab 17 \tab 28 \tab 12 \tab 20 \tab 2 \tab 90 \tab 9 \tab 10 \tab 3 \tab 2 \tab 6 \tab 32 \tab 2 \tab 4 \tab 3 \tab 2 \tab 49 \tab 1 \tab 3 \tab 2 \tab 2 \tab 2 \tab 18 \tab 1 \tab 1 \tab 1 \tab 22 \tab 1 \tab 1 \tab 1 \tab 16 \tab 1 \tab 19 \tab 1 \tab 1 \tab 25 \tab 1 \tab 2 \tab 1 \tab 2 \tab 10 \tab 1 \tab 1 \tab 13 \tab 3 \tab 1 \tab 11 \tab 1 \tab 90 \tab 2 \tab 3 \tab 4 \tab 4 \tab 20 \tab 5 \tab 2 \tab 2 \tab 1 \tab 2 \tab 23 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 7 \tab 1 \tab 5 \tab 4 \tab 1 \tab 9 \tab 3 \tab 3 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1 \tab 70 \tab 3 \tab 3 \tab 4 \tab 4 \tab 16 \tab 1 \tab 1 \tab 3 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 54 \tab 3 \tab 2 \tab 2 \tab 2 \tab 7 \tab 2 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 66 \tab 1 \tab 5 \tab 1 \tab 1 \tab 7 \tab 1 \tab 42 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 47 \tab 3 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 34 \tab 2 \tab 1 \tab 33 \tab 1 \tab 1 \tab 3 \tab 2 \tab 2 \tab 37 \tab 2832 \cr
+   Total \tab 1455 \tab 53 \tab 24 \tab 18 \tab 32 \tab 19 \tab 14 \tab 48 \tab 17 \tab 28 \tab 12 \tab 20 \tab 2 \tab 90 \tab 9 \tab 10 \tab 3 \tab 2 \tab 6 \tab 32 \tab 2 \tab 4 \tab 3 \tab 2 \tab 49 \tab 1 \tab 3 \tab 2 \tab 2 \tab 2 \tab 18 \tab 1 \tab 1 \tab 1 \tab 22 \tab 1 \tab 1 \tab 1 \tab 16 \tab 1 \tab 19 \tab 1 \tab 1 \tab 25 \tab 1 \tab 2 \tab 1 \tab 2 \tab 10 \tab 1 \tab 1 \tab 13 \tab 3 \tab 1 \tab 11 \tab 1 \tab 90 \tab 2 \tab 3 \tab 4 \tab 4 \tab 20 \tab 5 \tab 2 \tab 2 \tab 1 \tab 2 \tab 23 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 7 \tab 1 \tab 5 \tab 4 \tab 1 \tab 9 \tab 3 \tab 3 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1 \tab 70 \tab 3 \tab 3 \tab 4 \tab 4 \tab 16 \tab 1 \tab 1 \tab 3 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 54 \tab 3 \tab 2 \tab 2 \tab 2 \tab 7 \tab 2 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 66 \tab 1 \tab 5 \tab 1 \tab 1 \tab 7 \tab 1 \tab 42 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 47 \tab 3 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 34 \tab 2 \tab 1 \tab 33 \tab 1 \tab 1 \tab 3 \tab 2 \tab 2 \tab 37 \tab 2832 \cr
+}
 }
 
 \seealso{

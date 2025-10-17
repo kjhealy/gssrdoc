@@ -27,15 +27,21 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7948/vshow}{GSS Data Explorer page for \code{vaxhstncy}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab skipped on web \tab Total \cr
+   2022 \tab 2309 \tab 98 \tab 203 \tab 282 \tab 371 \tab 280 \tab 1 \tab 3544 \cr
+   Total \tab 2309 \tab 98 \tab 203 \tab 282 \tab 371 \tab 280 \tab 1 \tab 3544 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ C8. Birth year of eighth child.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1508/vshow}{GSS Data Explorer page for \code{kdyrbrn8}}.
+
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab 1932 \tab 1948 \tab 1954 \tab 1958 \tab 1959 \tab 1960 \tab 1961 \tab 1962 \tab 1964 \tab 1965 \tab 1971 \tab 1977 \tab 1990 \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2975 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2992 \cr
+   Total \tab 2975 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2992 \cr
+}
 }
 
 \seealso{

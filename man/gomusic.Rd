@@ -23,17 +23,23 @@ H. Go to a classical music or opera performance, not including school performanc
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1998, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1412/vshow}{GSS Data Explorer page for \code{gomusic}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 254 \tab 1338 \tab 1 \tab 13 \tab 1606 \cr
+   1998 \tab 1387 \tab 243 \tab 1192 \tab - \tab 10 \tab 2832 \cr
+   2002 \tab - \tab 483 \tab 2255 \tab 15 \tab 12 \tab 2765 \cr
+   Total \tab 1387 \tab 980 \tab 4785 \tab 16 \tab 35 \tab 7203 \cr
+}
 }
 
 \seealso{

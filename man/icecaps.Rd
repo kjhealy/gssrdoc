@@ -24,16 +24,23 @@ E. Would you say the polar ice caps have gotten larger or smaller over the last 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3436/vshow}{GSS Data Explorer page for \code{icecaps}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab larger \tab smaller \tab stayed the same:volunteered \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 83 \tab 1408 \tab 24 \tab 348 \tab 1 \tab 4510 \cr
+   2010 \tab 1338 \tab 34 \tab 563 \tab 12 \tab 86 \tab 11 \tab 2044 \cr
+   Total \tab 3984 \tab 117 \tab 1971 \tab 36 \tab 434 \tab 12 \tab 6554 \cr
+}
 }
 
 \seealso{

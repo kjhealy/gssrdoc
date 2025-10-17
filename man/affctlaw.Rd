@@ -24,16 +24,22 @@ Question If you made such an effort, how likely is it that the Congress would gi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4943/vshow}{GSS Data Explorer page for \code{affctlaw}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab fairly likely \tab not very likely \tab not at all likely \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 92 \tab 431 \tab 683 \tab 233 \tab 24 \tab 9 \tab 2812 \cr
+   2014 \tab 1274 \tab 55 \tab 228 \tab 536 \tab 371 \tab 70 \tab 4 \tab 2538 \cr
+   Total \tab 2614 \tab 147 \tab 659 \tab 1219 \tab 604 \tab 94 \tab 13 \tab 5350 \cr
+}
 }
 
 \seealso{

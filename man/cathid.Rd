@@ -25,16 +25,22 @@ Question F. When it comes to your religious identity, would you say you are a tr
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5330/vshow}{GSS Data Explorer page for \code{cathid}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab traditional \tab moderate \tab liberal \tab none \tab other (specify) \tab no answer \tab don't know \tab Total \cr
+   1998 \tab 2432 \tab 91 \tab 98 \tab 93 \tab 48 \tab 3 \tab 67 \tab - \tab 2832 \cr
+   2000 \tab 2138 \tab 197 \tab 201 \tab 158 \tab 91 \tab 4 \tab 26 \tab 2 \tab 2817 \cr
+   Total \tab 4570 \tab 288 \tab 299 \tab 251 \tab 139 \tab 7 \tab 93 \tab 2 \tab 5649 \cr
+}
 }
 
 \seealso{

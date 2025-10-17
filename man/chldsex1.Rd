@@ -23,15 +23,21 @@ Question B. When you rated the importance of various qualities for children, wer
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/519/vshow}{GSS Data Explorer page for \code{chldsex1}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab mostly boys \tab mostly girls \tab both equally \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 359 \tab 154 \tab 895 \tab 16 \tab 49 \tab 1473 \cr
+   Total \tab 0 \tab 359 \tab 154 \tab 895 \tab 16 \tab 49 \tab 1473 \cr
+}
 }
 
 \seealso{

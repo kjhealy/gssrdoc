@@ -24,33 +24,40 @@ C. Fundamentalism/Liberalism of Religion Spouse Raised In
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
+   Full \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/359/vshow}{GSS Data Explorer page for \code{spfund16}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab Total \cr
+   1973 \tab 428 \tab 321 \tab 577 \tab 145 \tab 33 \tab 1504 \cr
+   1974 \tab 419 \tab 301 \tab 579 \tab 160 \tab 25 \tab 1484 \cr
+   1975 \tab 488 \tab 299 \tab 541 \tab 142 \tab 20 \tab 1490 \cr
+   1976 \tab 525 \tab 279 \tab 539 \tab 133 \tab 23 \tab 1499 \cr
+   1977 \tab 555 \tab 302 \tab 509 \tab 138 \tab 26 \tab 1530 \cr
+   1978 \tab 572 \tab 284 \tab 504 \tab 143 \tab 29 \tab 1532 \cr
+   1980 \tab 579 \tab 270 \tab 435 \tab 129 \tab 55 \tab 1468 \cr
+   1982 \tab 867 \tab 339 \tab 495 \tab 133 \tab 26 \tab 1860 \cr
+   1983 \tab 634 \tab 275 \tab 506 \tab 157 \tab 27 \tab 1599 \cr
+   1984 \tab 644 \tab 275 \tab 348 \tab 175 \tab 31 \tab 1473 \cr
+   1985 \tab 663 \tab 293 \tab 350 \tab 205 \tab 23 \tab 1534 \cr
+   1986 \tab 644 \tab 270 \tab 319 \tab 193 \tab 44 \tab 1470 \cr
+   1987 \tab 903 \tab 327 \tab 336 \tab 221 \tab 32 \tab 1819 \cr
+   1988 \tab 693 \tab 263 \tab 289 \tab 205 \tab 31 \tab 1481 \cr
+   1989 \tab 690 \tab 265 \tab 367 \tab 179 \tab 36 \tab 1537 \cr
+   1990 \tab 645 \tab 195 \tab 324 \tab 180 \tab 28 \tab 1372 \cr
+   1991 \tab 713 \tab 256 \tab 346 \tab 179 \tab 23 \tab 1517 \cr
+   1993 \tab 747 \tab 269 \tab 345 \tab 202 \tab 43 \tab 1606 \cr
+   1994 \tab 2213 \tab 217 \tab 308 \tab 174 \tab 80 \tab 2992 \cr
+   Total \tab 13622 \tab 5300 \tab 8017 \tab 3193 \tab 635 \tab 30767 \cr
+}
 }
 
 \seealso{

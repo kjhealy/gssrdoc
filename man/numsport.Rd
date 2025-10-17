@@ -21,15 +21,21 @@ Question F. How many sports groups do you belong to?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3132/vshow}{GSS Data Explorer page for \code{numsport}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 6 \tab no answer \tab Total \cr
+   2004 \tab 2561 \tab 179 \tab 44 \tab 17 \tab 3 \tab 1 \tab 7 \tab 2812 \cr
+   Total \tab 2561 \tab 179 \tab 44 \tab 17 \tab 3 \tab 1 \tab 7 \tab 2812 \cr
+}
 }
 
 \seealso{

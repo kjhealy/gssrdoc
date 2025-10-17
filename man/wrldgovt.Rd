@@ -26,18 +26,24 @@ B. For certain problems, like environmental pollution, international bodies shou
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4851/vshow}{GSS Data Explorer page for \code{wrldgovt}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 262 \tab 650 \tab 199 \tab 116 \tab 28 \tab 85 \tab 27 \tab 2904 \cr
+   2004 \tab 1596 \tab 225 \tab 501 \tab 245 \tab 141 \tab 56 \tab 47 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 164 \tab 564 \tab 232 \tab 150 \tab 65 \tab 95 \tab 4 \tab 2538 \cr
+   Total \tab 4397 \tab 651 \tab 1715 \tab 676 \tab 407 \tab 149 \tab 227 \tab 32 \tab 8254 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Question Who earns more money?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1663/vshow}{GSS Data Explorer page for \code{earnmore}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab i earn much more than my spouse \tab i earn somewhat more than my spouse \tab we earn about the same amount \tab my spouser-partner earns somewhat more \tab my spouse-partner earns much more \tab no answer \tab Total \cr
+   1996 \tab 2124 \tab 278 \tab 66 \tab 81 \tab 130 \tab 200 \tab 25 \tab 2904 \cr
+   Total \tab 2124 \tab 278 \tab 66 \tab 81 \tab 130 \tab 200 \tab 25 \tab 2904 \cr
+}
 }
 
 \seealso{

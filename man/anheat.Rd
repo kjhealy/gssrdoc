@@ -25,15 +25,21 @@ Question Please look at Card I-1. The two objects shown there have the same mass
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3472/vshow}{GSS Data Explorer page for \code{anheat}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab long ears and a long body \tab small ears and a short tail \tab a long nose and a long tail \tab a short nose and large ears \tab a long tail and a short nose \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 709 \tab 184 \tab 679 \tab 60 \tab 82 \tab 77 \tab 214 \tab 18 \tab 2023 \cr
+   Total \tab 709 \tab 184 \tab 679 \tab 60 \tab 82 \tab 77 \tab 214 \tab 18 \tab 2023 \cr
+}
 }
 
 \seealso{

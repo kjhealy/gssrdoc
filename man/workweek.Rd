@@ -23,15 +23,21 @@ Question Do you usually work 10 hours or more per week for pay in your main job?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4528/vshow}{GSS Data Explorer page for \code{workweek}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab yes \tab no \tab not working \tab no answer \tab iap \tab Total \cr
+   1989 \tab - \tab 898 \tab 160 \tab 395 \tab 84 \tab - \tab 1537 \cr
+   Total \tab 0 \tab 898 \tab 160 \tab 395 \tab 84 \tab 0 \tab 1537 \cr
+}
 }
 
 \seealso{

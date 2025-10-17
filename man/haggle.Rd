@@ -22,15 +22,21 @@ Question When you go to such a sale, and when prices are posted, do you expect t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1875/vshow}{GSS Data Explorer page for \code{haggle}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab expect to pay posted price \tab negotiate for lower price \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1917 \tab 383 \tab 579 \tab 12 \tab 13 \tab 2904 \cr
+   Total \tab 1917 \tab 383 \tab 579 \tab 12 \tab 13 \tab 2904 \cr
+}
 }
 
 \seealso{

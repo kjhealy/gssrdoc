@@ -25,15 +25,21 @@ B. Artists and performers who are truly excellent will be able to support themse
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2125/vshow}{GSS Data Explorer page for \code{artists}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 108 \tab 697 \tab 385 \tab 68 \tab 174 \tab 13 \tab 2832 \cr
+   Total \tab 1387 \tab 108 \tab 697 \tab 385 \tab 68 \tab 174 \tab 13 \tab 2832 \cr
+}
 }
 
 \seealso{

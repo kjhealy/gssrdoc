@@ -25,21 +25,30 @@ G. Reduce income differences between the rich and poor.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1991, 1996, 1998 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4082/vshow}{GSS Data Explorer page for \code{equalize}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 106 \tab 126 \tab 160 \tab 210 \tab 60 \tab 15 \tab 1534 \cr
+   1990 \tab 155 \tab 186 \tab 304 \tab 330 \tab 283 \tab 72 \tab 42 \tab 1372 \cr
+   1991 \tab 158 \tab 262 \tab 329 \tab 319 \tab 317 \tab 99 \tab 33 \tab 1517 \cr
+   1996 \tab 1572 \tab 206 \tab 363 \tab 314 \tab 304 \tab 85 \tab 60 \tab 2904 \cr
+   1998 \tab 1548 \tab 216 \tab 332 \tab 299 \tab 321 \tab 97 \tab 19 \tab 2832 \cr
+   2006 \tab 2992 \tab 423 \tab 349 \tab 394 \tab 311 \tab 40 \tab 1 \tab 4510 \cr
+   2016 \tab 1477 \tab 366 \tab 382 \tab 338 \tab 252 \tab 38 \tab 14 \tab 2867 \cr
+   Total \tab 8759 \tab 1765 \tab 2185 \tab 2154 \tab 1998 \tab 491 \tab 184 \tab 17536 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ E. The course of our lives is decided by God.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4661/vshow}{GSS Data Explorer page for \code{predeter}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 229 \tab 258 \tab 272 \tab 273 \tab 202 \tab 65 \tab 60 \tab 1517 \cr
+   Total \tab 158 \tab 229 \tab 258 \tab 272 \tab 273 \tab 202 \tab 65 \tab 60 \tab 1517 \cr
+}
 }
 
 \seealso{

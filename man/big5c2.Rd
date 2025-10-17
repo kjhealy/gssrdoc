@@ -26,15 +26,21 @@ C. â€¦tends to be lazy
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4981/vshow}{GSS Data Explorer page for \code{big5c2}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 21 \tab 101 \tab 144 \tab 704 \tab 545 \tab 1 \tab 2 \tab 4510 \cr
+   Total \tab 2992 \tab 21 \tab 101 \tab 144 \tab 704 \tab 545 \tab 1 \tab 2 \tab 4510 \cr
+}
 }
 
 \seealso{

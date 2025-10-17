@@ -42,15 +42,21 @@ A. First Choice
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4179/vshow}{GSS Data Explorer page for \code{change1}}.
+
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab spouse \tab mother \tab father \tab daughter \tab son \tab sister \tab brother \tab other relative \tab closest friend \tab other friend \tab neighbor \tab coworker \tab clergy \tab family doctor \tab prof counselor \tab lawyer \tab other \tab no one \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 42 \tab 688 \tab 122 \tab 58 \tab 78 \tab 63 \tab 52 \tab 35 \tab 31 \tab 153 \tab 6 \tab 7 \tab 10 \tab 32 \tab 2 \tab 13 \tab 7 \tab 10 \tab 46 \tab 2 \tab 13 \tab 1470 \cr
+   Total \tab 42 \tab 688 \tab 122 \tab 58 \tab 78 \tab 63 \tab 52 \tab 35 \tab 31 \tab 153 \tab 6 \tab 7 \tab 10 \tab 32 \tab 2 \tab 13 \tab 7 \tab 10 \tab 46 \tab 2 \tab 13 \tab 1470 \cr
+}
 }
 
 \seealso{

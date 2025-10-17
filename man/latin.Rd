@@ -26,15 +26,21 @@ J. Latin/Mariachi/Salsa
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1396/vshow}{GSS Data Explorer page for \code{latin}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 85 \tab 325 \tab 416 \tab 403 \tab 144 \tab 221 \tab 12 \tab 1606 \cr
+   Total \tab 0 \tab 85 \tab 325 \tab 416 \tab 403 \tab 144 \tab 221 \tab 12 \tab 1606 \cr
+}
 }
 
 \seealso{

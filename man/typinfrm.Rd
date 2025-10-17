@@ -22,15 +22,21 @@ Question Q. Do you belong to more than one informal group?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3126/vshow}{GSS Data Explorer page for \code{typinfrm}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2412 \tab 94 \tab 295 \tab 1 \tab 10 \tab 2812 \cr
+   Total \tab 2412 \tab 94 \tab 295 \tab 1 \tab 10 \tab 2812 \cr
+}
 }
 
 \seealso{

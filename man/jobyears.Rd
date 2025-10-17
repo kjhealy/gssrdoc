@@ -21,15 +21,21 @@ Question For about how long have you had your present job?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1291/vshow}{GSS Data Explorer page for \code{jobyears}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 1.16 \tab 1.25 \tab 1.33 \tab 1.41 \tab 1.5 \tab 1.83 \tab 10 \tab 11 \tab 12 \tab 12.08 \tab 13 \tab 14 \tab 15 \tab 15.25 \tab 16 \tab 16.41 \tab 17 \tab 17.5 \tab 18 \tab 19 \tab 2 \tab 2.5 \tab 2.83 \tab 20 \tab 22 \tab 23 \tab 24 \tab 25 \tab 3 \tab 3.33 \tab 3.5 \tab 3.66 \tab 3.75 \tab 30 \tab 33 \tab 4 \tab 4.75 \tab 41 \tab 48.25 \tab 5 \tab 50 \tab 58 \tab 6 \tab 6.41 \tab 6.5 \tab 66 \tab 7 \tab 7.66 \tab 7.75 \tab 75 \tab 8 \tab 8.5 \tab 83 \tab 9 \tab 91 \tab Total \cr
+   1991 \tab 1252 \tab 17 \tab 2 \tab 1 \tab 1 \tab 2 \tab 9 \tab 1 \tab 7 \tab 3 \tab 6 \tab 1 \tab 2 \tab 6 \tab 5 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 4 \tab 2 \tab 22 \tab 3 \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 6 \tab 17 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 9 \tab 16 \tab 1 \tab 4 \tab 1 \tab 19 \tab 10 \tab 3 \tab 8 \tab 1 \tab 1 \tab 7 \tab 12 \tab 1 \tab 1 \tab 3 \tab 17 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1517 \cr
+   Total \tab 1252 \tab 17 \tab 2 \tab 1 \tab 1 \tab 2 \tab 9 \tab 1 \tab 7 \tab 3 \tab 6 \tab 1 \tab 2 \tab 6 \tab 5 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 4 \tab 2 \tab 22 \tab 3 \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 6 \tab 17 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 9 \tab 16 \tab 1 \tab 4 \tab 1 \tab 19 \tab 10 \tab 3 \tab 8 \tab 1 \tab 1 \tab 7 \tab 12 \tab 1 \tab 1 \tab 3 \tab 17 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1517 \cr
+}
 }
 
 \seealso{

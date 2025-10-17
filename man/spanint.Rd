@@ -22,22 +22,30 @@ Question Before 2006 the GSS was only administered in English. Those without eno
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab B/C/-/- \tab partial \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2008, 2012, 2014, 2016, 2018, 2022 \cr
+   A/B/C/D \tab 2006 \cr
+   B/C/-/- \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5583/vshow}{GSS Data Explorer page for \code{spanint}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab could have been interviewed in english \tab would have been excluded as language problem \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 4233 \tab 41 \tab 236 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1943 \tab 6 \tab 73 \tab 1 \tab - \tab 2023 \cr
+   2012 \tab 1890 \tab 6 \tab 73 \tab 1 \tab 4 \tab 1974 \cr
+   2014 \tab 2423 \tab 20 \tab 77 \tab 5 \tab 13 \tab 2538 \cr
+   2016 \tab 2768 \tab 4 \tab 84 \tab 3 \tab 8 \tab 2867 \cr
+   2018 \tab 2262 \tab 13 \tab 70 \tab 1 \tab 2 \tab 2348 \cr
+   2021 \tab 4029 \tab - \tab 3 \tab - \tab - \tab 4032 \cr
+   2022 \tab 3462 \tab 14 \tab 63 \tab 5 \tab - \tab 3544 \cr
+   Total \tab 23010 \tab 104 \tab 679 \tab 16 \tab 27 \tab 23836 \cr
+}
 }
 
 \seealso{

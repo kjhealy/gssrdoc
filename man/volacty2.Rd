@@ -22,15 +22,21 @@ Question Sometimes people donâ€™t think of activities they do infrequently 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3971/vshow}{GSS Data Explorer page for \code{volacty2}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2012 \tab 1192 \tab 96 \tab 681 \tab 5 \tab 1974 \cr
+   Total \tab 1192 \tab 96 \tab 681 \tab 5 \tab 1974 \cr
+}
 }
 
 \seealso{

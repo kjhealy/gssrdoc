@@ -25,15 +25,21 @@ H. If someone has a high social or economic position, that indicates the person 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/232/vshow}{GSS Data Explorer page for \code{equal8}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 172 \tab 531 \tab 450 \tab 254 \tab 48 \tab 18 \tab 1473 \cr
+   Total \tab 0 \tab 172 \tab 531 \tab 450 \tab 254 \tab 48 \tab 18 \tab 1473 \cr
+}
 }
 
 \seealso{

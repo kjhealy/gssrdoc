@@ -22,15 +22,21 @@ Question Have you purchased home maintenance services (painting, roofing, plumbi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1839/vshow}{GSS Data Explorer page for \code{fixhome}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   1996 \tab 1460 \tab 551 \tab 893 \tab 2904 \cr
+   Total \tab 1460 \tab 551 \tab 893 \tab 2904 \cr
+}
 }
 
 \seealso{

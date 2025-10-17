@@ -27,15 +27,21 @@ E. How many are you pretty certain are currently in state or federal prison?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3636/vshow}{GSS Data Explorer page for \code{acqwkpri}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab more than 10 \tab don't know \tab I don't have a job \tab no answer \tab Total \cr
+   2006 \tab 4009 \tab 386 \tab 28 \tab 14 \tab 2 \tab 59 \tab 5 \tab 7 \tab 4510 \cr
+   Total \tab 4009 \tab 386 \tab 28 \tab 14 \tab 2 \tab 59 \tab 5 \tab 7 \tab 4510 \cr
+}
 }
 
 \seealso{

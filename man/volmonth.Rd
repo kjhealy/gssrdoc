@@ -22,16 +22,23 @@ Question In the past month, did you do any volunteer activity through organizati
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2894/vshow}{GSS Data Explorer page for \code{volmonth}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 666 \tab 449 \tab 847 \tab 2 \tab 10 \tab 1974 \cr
+   2014 \tab 1264 \tab 446 \tab 821 \tab 3 \tab 4 \tab 2538 \cr
+   Total \tab 1930 \tab 895 \tab 1668 \tab 5 \tab 14 \tab 4512 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,22 @@ Question In general, would you say your quality of life isï¿½
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7163/vshow}{GSS Data Explorer page for \code{quallife}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 479 \tab 950 \tab 640 \tab 224 \tab 37 \tab 2 \tab 16 \tab - \tab 2348 \cr
+   2021 \tab 379 \tab 477 \tab 1449 \tab 1243 \tab 399 \tab 64 \tab - \tab 1 \tab 20 \tab 4032 \cr
+   Total \tab 379 \tab 956 \tab 2399 \tab 1883 \tab 623 \tab 101 \tab 2 \tab 17 \tab 20 \tab 6380 \cr
+}
 }
 
 \keyword{variable}

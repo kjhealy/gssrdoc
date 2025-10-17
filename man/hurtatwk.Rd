@@ -21,20 +21,26 @@ Question In the past 12 months, how many times have you been injured on the job?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2833/vshow}{GSS Data Explorer page for \code{hurtatwk}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 or more \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 1577 \tab 128 \tab 25 \tab 17 \tab 4 \tab 6 \tab 6 \tab 8 \tab 8 \tab 17 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 1526 \tab 123 \tab 40 \tab 8 \tab 7 \tab 7 \tab 4 \tab 7 \tab 1 \tab 11 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 1047 \tab 63 \tab 21 \tab 9 \tab 3 \tab 7 \tab 1 \tab 7 \tab 3 \tab 26 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 1136 \tab 67 \tab 21 \tab 5 \tab 3 \tab 5 \tab 1 \tab 9 \tab - \tab 3 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 1272 \tab 79 \tab 34 \tab 6 \tab - \tab 5 \tab 4 \tab 10 \tab 5 \tab 33 \tab - \tab 2348 \cr
+   2022 \tab 1560 \tab 1737 \tab 103 \tab 38 \tab 17 \tab 7 \tab 6 \tab 1 \tab 15 \tab 11 \tab 17 \tab 32 \tab 3544 \cr
+   Total \tab 8350 \tab 8295 \tab 563 \tab 179 \tab 62 \tab 24 \tab 36 \tab 17 \tab 56 \tab 28 \tab 107 \tab 32 \tab 17749 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ Question How often do you meet face-to-face with co-workers to work on projects,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3891/vshow}{GSS Data Explorer page for \code{meetf2f2}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab once per year or less, or \tab several times per year \tab several times per month \tab several times per week \tab daily \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1165 \tab 84 \tab 9 \tab 38 \tab 45 \tab 86 \tab 578 \tab 5 \tab 13 \tab 2023 \cr
+   Total \tab 1165 \tab 84 \tab 9 \tab 38 \tab 45 \tab 86 \tab 578 \tab 5 \tab 13 \tab 2023 \cr
+}
 }
 
 \seealso{

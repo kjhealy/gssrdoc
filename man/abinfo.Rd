@@ -24,16 +24,22 @@ Question B. How much information do you have about the abortion issue? Do you ha
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/616/vshow}{GSS Data Explorer page for \code{abinfo}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab all info r needs \tab most info \tab some info \tab very little info \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 406 \tab 366 \tab 597 \tab 467 \tab 15 \tab 9 \tab 1860 \cr
+   1984 \tab - \tab 303 \tab 446 \tab 467 \tab 246 \tab 6 \tab 5 \tab 1473 \cr
+   Total \tab 0 \tab 709 \tab 812 \tab 1064 \tab 713 \tab 21 \tab 14 \tab 3333 \cr
+}
 }
 
 \seealso{

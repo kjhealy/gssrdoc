@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `eff911m`](https://gssdataexplorer.norc.org/variables/3868/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |1 not at all effective |2   |3   |4  |5 extremely effective |don't know |no answer |Total |
+#'  |:-----|:---|:----------------------|:---|:---|:--|:---------------------|:----------|:---------|:-----|
+#'  |2008  |671 |797                    |152 |203 |38 |70                    |84         |8         |2023  |
+#'  |Total |671 |797                    |152 |203 |38 |70                    |84         |8         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -52,13 +58,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `done911n`](https://gssdataexplorer.norc.org/variables/3869/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |Total |
+#'  |:-----|:---|:----|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:-----|
+#'  |2008  |671 |1262 |18              |30                            |20                                                |15         |7         |2023  |
+#'  |Total |671 |1262 |18              |30                            |20                                                |15         |7         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -87,13 +99,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `eff911n`](https://gssdataexplorer.norc.org/variables/3870/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 not at all effective |2  |3  |4  |5 extremely effective |don't know |no answer |Total |
+#'  |:-----|:----|:----------------------|:--|:--|:--|:---------------------|:----------|:---------|:-----|
+#'  |2008  |1948 |4                      |4  |13 |14 |28                    |3          |9         |2023  |
+#'  |Total |1948 |4                      |4  |13 |14 |28                    |3          |9         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -132,13 +150,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `doneelse`](https://gssdataexplorer.norc.org/variables/3871/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |research and collect more information |join military |avoid possible targets of terror |buy new insurance policy |psycho therapy |pray |more vigilant to surrounding |join secret service |buy weapons |vigilance and new assignments because they are already in military or secrete service |terror-related traiing at work |terror-related traiing in community |build safe place |deal with government |talk about it with other people |no answer |Total |
+#'  |:-----|:----|:-------------------------------------|:-------------|:--------------------------------|:------------------------|:--------------|:----|:----------------------------|:-------------------|:-----------|:-------------------------------------------------------------------------------------|:------------------------------|:-----------------------------------|:----------------|:--------------------|:-------------------------------|:---------|:-----|
+#'  |2008  |1956 |10                                    |5             |1                                |1                        |1              |2    |3                            |2                   |9           |8                                                                                     |3                              |7                                   |2                |7                    |3                               |3         |2023  |
+#'  |Total |1956 |10                                    |5             |1                                |1                        |1              |2    |3                            |2                   |9           |8                                                                                     |3                              |7                                   |2                |7                    |3                               |3         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -165,13 +189,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `work3yrs`](https://gssdataexplorer.norc.org/variables/3872/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |one |number greater than 1 |none |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---------------------|:----|:----------|:---------|:-----|
+#'  |2008  |603 |791 |293                   |275  |2          |59        |2023  |
+#'  |Total |603 |791 |293                   |275  |2          |59        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -196,13 +226,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `curempyr`](https://gssdataexplorer.norc.org/variables/3873/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1   |10 |11 |12 |13 |14 |15 |16 |17 |18 |19 |2  |20 |21 |22 |23 |24 |25 |26 |27 |28 |29 |3  |30 |31 |32 |33 |34 |35 |36 |37 |38 |4  |40 |45 |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2008  |1165 |175 |39 |21 |18 |20 |12 |21 |12 |9  |15 |3  |73 |20 |5  |6  |3  |5  |15 |4  |6  |3  |4  |77 |6  |5  |2  |7  |8  |2  |2  |2  |1  |41 |1  |1  |65 |31 |38 |39 |23 |4          |14        |2023  |
+#'  |Total |1165 |175 |39 |21 |18 |20 |12 |21 |12 |9  |15 |3  |73 |20 |5  |6  |3  |5  |15 |4  |6  |3  |4  |77 |6  |5  |2  |7  |8  |2  |2  |2  |1  |41 |1  |1  |65 |31 |38 |39 |23 |4          |14        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -229,13 +265,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `paychnge`](https://gssdataexplorer.norc.org/variables/3874/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |my pay has gone up more than the cost of living |my pay has stayed about the same as the cost of living |my pay has not kept up with the cost of living |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------------------------------------|:------------------------------------------------------|:----------------------------------------------|:----------|:---------|:-----|
+#'  |2008  |1165 |199                                             |291                                                    |348                                            |10         |10        |2023  |
+#'  |Total |1165 |199                                             |291                                                    |348                                            |10         |10        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -263,13 +305,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `pastpay`](https://gssdataexplorer.norc.org/variables/3875/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |higher |about the same |lower |current employer is first job |don't know |no answer |Total |
+#'  |:-----|:----|:------|:--------------|:-----|:-----------------------------|:----------|:---------|:-----|
+#'  |2008  |1165 |372    |185            |258   |23                            |8          |12        |2023  |
+#'  |Total |1165 |372    |185            |258   |23                            |8          |12        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -296,13 +344,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whyleave`](https://gssdataexplorer.norc.org/variables/3876/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |left voluntarily |job was abolished |permanently laid off |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:-----------------|:--------------------|:----------|:---------|:-----|
+#'  |2008  |1804 |154              |20                |38                   |4          |3         |2023  |
+#'  |Total |1804 |154              |20                |38                   |4          |3         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -337,13 +391,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whyjbct1`](https://gssdataexplorer.norc.org/variables/3877/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |company's sales were declining |machines and computers made my job obsolete |job requirements changed and i was not able to do the job |job moved to another location in the united states |job moved to another country |other |Total |
+#'  |:-----|:----|:------------------------------|:-------------------------------------------|:---------------------------------------------------------|:--------------------------------------------------|:----------------------------|:-----|:-----|
+#'  |2008  |1965 |21                             |1                                           |3                                                         |1                                                  |1                            |31    |2023  |
+#'  |Total |1965 |21                             |1                                           |3                                                         |1                                                  |1                            |31    |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics

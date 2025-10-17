@@ -22,15 +22,21 @@ Question On a scale from 1 to 10, with 1 being not at all and 10 being very, in 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7140/vshow}{GSS Data Explorer page for \code{dangslf1}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 1 - not at all dangerous \tab 10 - very dangerous \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1751 \tab 185 \tab 55 \tab 68 \tab 43 \tab 39 \tab 48 \tab 42 \tab 47 \tab 41 \tab 15 \tab 12 \tab 2 \tab 2348 \cr
+   Total \tab 1751 \tab 185 \tab 55 \tab 68 \tab 43 \tab 39 \tab 48 \tab 42 \tab 47 \tab 41 \tab 15 \tab 12 \tab 2 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

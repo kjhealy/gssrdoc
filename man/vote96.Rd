@@ -24,17 +24,23 @@ Question H. In 1996, you remember that Clinton ran for President on the Democrat
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/163/vshow}{GSS Data Explorer page for \code{vote96}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab voted \tab did not vote \tab ineligible \tab refused to answer \tab don't know \tab no answer \tab Total \cr
+   1998 \tab - \tab 1783 \tab 830 \tab 123 \tab 15 \tab 51 \tab 30 \tab 2832 \cr
+   2000 \tab - \tab 1737 \tab 799 \tab 201 \tab 9 \tab 64 \tab 7 \tab 2817 \cr
+   2002 \tab - \tab 1734 \tab 657 \tab 340 \tab 13 \tab 21 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 5254 \tab 2286 \tab 664 \tab 37 \tab 136 \tab 37 \tab 8414 \cr
+}
 }
 
 \seealso{

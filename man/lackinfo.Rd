@@ -24,16 +24,22 @@ Question E. People at work fail to give me information that is necessary for me 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3002/vshow}{GSS Data Explorer page for \code{lackinfo}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 945 \tab 139 \tab 495 \tab 516 \tab 656 \tab 20 \tab 41 \tab 2812 \cr
+   2012 \tab 795 \tab 102 \tab 362 \tab 305 \tab 366 \tab 12 \tab 32 \tab 1974 \cr
+   Total \tab 1740 \tab 241 \tab 857 \tab 821 \tab 1022 \tab 32 \tab 73 \tab 4786 \cr
+}
 }
 
 \seealso{

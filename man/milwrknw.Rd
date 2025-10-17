@@ -23,15 +23,21 @@ A. Do you have a job now with the armed forces or with the Defense Department?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/832/vshow}{GSS Data Explorer page for \code{milwrknw}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1984 \tab 1363 \tab 13 \tab 65 \tab 32 \tab 1473 \cr
+   Total \tab 1363 \tab 13 \tab 65 \tab 32 \tab 1473 \cr
+}
 }
 
 \seealso{

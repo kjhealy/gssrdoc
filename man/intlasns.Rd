@@ -24,16 +24,22 @@ D. Do people in these groups tend to be unintelligent or tend to be intelligent?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1199/vshow}{GSS Data Explorer page for \code{intlasns}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab unintelligent \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab intelligent \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 13 \tab 51 \tab 122 \tab 494 \tab 263 \tab 167 \tab 94 \tab 136 \tab 32 \tab 1372 \cr
+   2000 \tab 1419 \tab 7 \tab 36 \tab 86 \tab 487 \tab 269 \tab 228 \tab 114 \tab 157 \tab 14 \tab 2817 \cr
+   Total \tab 1419 \tab 20 \tab 87 \tab 208 \tab 981 \tab 532 \tab 395 \tab 208 \tab 293 \tab 46 \tab 4189 \cr
+}
 }
 
 \seealso{

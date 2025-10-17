@@ -28,15 +28,21 @@ Question (How satisfied or dissatisfied were you with the treatment you received
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7833/vshow}{GSS Data Explorer page for \code{altsat}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab completely satisfied \tab very satisfied \tab fairly satisfied \tab neither satisfied nor dissatisfied \tab fairly dissatisfied \tab very dissatisfied \tab completely dissatisfied \tab 8 \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2382 \tab 64 \tab 145 \tab 131 \tab 71 \tab 16 \tab 6 \tab 16 \tab 643 \tab 57 \tab 7 \tab 6 \tab 3544 \cr
+   Total \tab 2382 \tab 64 \tab 145 \tab 131 \tab 71 \tab 16 \tab 6 \tab 16 \tab 643 \tab 57 \tab 7 \tab 6 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

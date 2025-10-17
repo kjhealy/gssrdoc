@@ -25,15 +25,21 @@ A. How often have you felt sympathy for blacks?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1605/vshow}{GSS Data Explorer page for \code{symptblk}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very often \tab fairly often \tab not too often \tab never \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 277 \tab 545 \tab 512 \tab 102 \tab 29 \tab 9 \tab 2992 \cr
+   Total \tab 1518 \tab 277 \tab 545 \tab 512 \tab 102 \tab 29 \tab 9 \tab 2992 \cr
+}
 }
 
 \seealso{

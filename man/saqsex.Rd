@@ -25,20 +25,26 @@ Question B. R did Sex Module
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 1998, 2000, 2002, 2004, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5557/vshow}{GSS Data Explorer page for \code{saqsex}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab r did sex saq \tab administered by interviewer \tab promised, but did not do \tab r did not do sex \tab r did, but not sure mode \tab Total \cr
+   1996 \tab - \tab 1999 \tab 324 \tab 76 \tab 158 \tab 347 \tab 2904 \cr
+   1998 \tab - \tab 1867 \tab 301 \tab 94 \tab 235 \tab 335 \tab 2832 \cr
+   2000 \tab - \tab 1853 \tab 158 \tab 122 \tab 303 \tab 381 \tab 2817 \cr
+   2002 \tab - \tab 1747 \tab 542 \tab - \tab 476 \tab - \tab 2765 \cr
+   2004 \tab - \tab 1648 \tab 594 \tab - \tab 570 \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 1948 \tab 455 \tab - \tab 589 \tab - \tab 4510 \cr
+   Total \tab 1518 \tab 11062 \tab 2374 \tab 292 \tab 2331 \tab 1063 \tab 18640 \cr
+}
 }
 
 \seealso{

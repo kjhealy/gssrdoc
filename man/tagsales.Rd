@@ -25,15 +25,21 @@ Question How frequently do you go to garage sales, tag sales, or yard sales -- t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1874/vshow}{GSS Data Explorer page for \code{tagsales}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab never \tab rarely \tab occasionally 1-3 times a yr \tab regularly \tab almost every weekend \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 457 \tab 397 \tab 382 \tab 146 \tab 56 \tab 6 \tab 2904 \cr
+   Total \tab 1460 \tab 457 \tab 397 \tab 382 \tab 146 \tab 56 \tab 6 \tab 2904 \cr
+}
 }
 
 \seealso{

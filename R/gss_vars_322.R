@@ -13,14 +13,20 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2002, 2006 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cowrkhrd`](https://gssdataexplorer.norc.org/variables/2864/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all hard |1  |very hard |2  |3  |4   |5   |6   |7   |8   |9   |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:--|:---------|:--|:--|:---|:---|:---|:---|:---|:---|:----------|:---------|:-----|
+#'  |2002  |969  |94              |10 |312       |24 |47 |61  |284 |136 |283 |335 |160 |35         |15        |2765  |
+#'  |2006  |2778 |49              |5  |356       |24 |49 |53  |237 |124 |248 |341 |147 |72         |27        |4510  |
+#'  |Total |3747 |143             |15 |668       |48 |96 |114 |521 |260 |531 |676 |307 |107        |42        |7275  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
@@ -49,14 +55,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2002, 2006 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `talkemp`](https://gssdataexplorer.norc.org/variables/2865/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all likely |not very likely |somewhat likely |very likely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:---------------|:---------------|:-----------|:----------|:---------|:-----|
+#'  |2002  |969  |480               |301             |432             |514         |40         |29        |2765  |
+#'  |2006  |2778 |420               |284             |383             |546         |69         |30        |4510  |
+#'  |Total |3747 |900               |585             |815             |1060        |109        |59        |7275  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
@@ -86,14 +98,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2002, 2006 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `talksup`](https://gssdataexplorer.norc.org/variables/2866/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |i do not have a supervisor or manager |not at all likely |not very likely |somewhat likely |very likely |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------------------------|:-----------------|:---------------|:---------------|:-----------|:----------|:---------|:-----|
+#'  |2002  |969  |110                                   |503               |391             |375             |348         |38         |31        |2765  |
+#'  |2006  |2778 |120                                   |403               |311             |406             |401         |60         |31        |4510  |
+#'  |Total |3747 |230                                   |906               |702             |781             |749         |98         |62        |7275  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
@@ -122,14 +140,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2002, 2006 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `donothng`](https://gssdataexplorer.norc.org/variables/2867/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all likely |not very likely |somewhat likely |very likely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:---------------|:---------------|:-----------|:----------|:---------|:-----|
+#'  |2002  |969  |640               |363             |310             |412         |41         |30        |2765  |
+#'  |2006  |2778 |677               |331             |290             |323         |80         |31        |4510  |
+#'  |Total |3747 |1317              |694             |600             |735         |121        |61        |7275  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
@@ -166,13 +190,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lastwkmo`](https://gssdataexplorer.norc.org/variables/2868/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |january |february |march |april |may |june |july |august |september |october |november |december |don't know |no answer |Total |
+#'  |:-----|:----|:-------|:--------|:-----|:-----|:---|:----|:----|:------|:---------|:-------|:--------|:--------|:----------|:---------|:-----|
+#'  |2002  |1817 |105     |74       |79    |75    |72  |109  |66   |55     |68        |46      |40       |83       |70         |6         |2765  |
+#'  |Total |1817 |105     |74       |79    |75    |72  |109  |66   |55     |68        |46      |40       |83       |70         |6         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
@@ -198,13 +228,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lastwkyr`](https://gssdataexplorer.norc.org/variables/2869/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1931 |1936 |1942 |1943 |1944 |1945 |1946 |1948 |1949 |1950 |1952 |1953 |1954 |1955 |1956 |1957 |1958 |1959 |1960 |1961 |1962 |1963 |1964 |1965 |1967 |1968 |1969 |1970 |1971 |1972 |1973 |1974 |1975 |1976 |1977 |1978 |1979 |1980 |1981 |1982 |1983 |1984 |1985 |1986 |1987 |1988 |1989 |1990 |1991 |1992 |1993 |1994 |1995 |1996 |1997 |1998 |1999 |2000 |2001 |2002 |don't know |no answer |Total |
+#'  |:-----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----------|:---------|:-----|
+#'  |2002  |1817 |2    |1    |4    |2    |1    |1    |1    |1    |1    |3    |1    |4    |1    |2    |1    |1    |1    |1    |2    |1    |1    |5    |3    |6    |2    |2    |2    |8    |2    |5    |7    |7    |7    |2    |8    |11   |6    |14   |7    |11   |9    |9    |24   |14   |14   |21   |22   |36   |21   |17   |28   |23   |29   |37   |33   |39   |53   |76   |160  |117  |14         |4         |2765  |
+#'  |Total |1817 |2    |1    |4    |2    |1    |1    |1    |1    |1    |3    |1    |4    |1    |2    |1    |1    |1    |1    |2    |1    |1    |5    |3    |6    |2    |2    |2    |8    |2    |5    |7    |7    |7    |2    |8    |11   |6    |14   |7    |11   |9    |9    |24   |14   |14   |21   |22   |36   |21   |17   |28   |23   |29   |37   |33   |39   |53   |76   |160  |117  |14         |4         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
@@ -231,14 +267,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2002, 2004 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `empathy1`](https://gssdataexplorer.norc.org/variables/2870/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not describe very well |2   |3   |4   |describes very well |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:---|:---|:---|:-------------------|:----------|:---------|:-----|
+#'  |2002  |1393 |64                          |68  |253 |341 |627                 |13         |6         |2765  |
+#'  |2004  |1472 |44                          |59  |201 |418 |609                 |5          |4         |2812  |
+#'  |Total |2865 |108                         |127 |454 |759 |1236                |18         |10        |5577  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -265,14 +307,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2002, 2004 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `empathy2`](https://gssdataexplorer.norc.org/variables/2871/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not describe very well |2   |3   |4   |describes very well |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:---|:---|:---|:-------------------|:----------|:---------|:-----|
+#'  |2002  |1393 |493                         |291 |324 |142 |101                 |14         |7         |2765  |
+#'  |2004  |1472 |420                         |338 |335 |153 |86                  |3          |5         |2812  |
+#'  |Total |2865 |913                         |629 |659 |295 |187                 |17         |12        |5577  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -299,14 +347,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2002, 2004 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `empathy3`](https://gssdataexplorer.norc.org/variables/2872/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not describe very well |2   |3   |4   |describes very well |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:---|:---|:---|:-------------------|:----------|:---------|:-----|
+#'  |2002  |1393 |58                          |60  |168 |422 |644                 |14         |6         |2765  |
+#'  |2004  |1472 |31                          |43  |144 |459 |653                 |5          |5         |2812  |
+#'  |Total |2865 |89                          |103 |312 |881 |1297                |19         |11        |5577  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -333,14 +387,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2002, 2004 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `empathy4`](https://gssdataexplorer.norc.org/variables/2873/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not describe very well |2   |3   |4   |describes very well |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:---|:---|:---|:-------------------|:----------|:---------|:-----|
+#'  |2002  |1393 |485                         |341 |302 |141 |83                  |14         |6         |2765  |
+#'  |2004  |1472 |463                         |359 |299 |123 |87                  |4          |5         |2812  |
+#'  |Total |2865 |948                         |700 |601 |264 |170                 |18         |11        |5577  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism

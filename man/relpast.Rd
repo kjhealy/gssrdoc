@@ -25,15 +25,21 @@ Question In America, religion represents the past and not the future.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7284/vshow}{GSS Data Explorer page for \code{relpast}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2018 \tab 1173 \tab 33 \tab 184 \tab 251 \tab 531 \tab 140 \tab 22 \tab 14 \tab 2348 \cr
+   Total \tab 1173 \tab 33 \tab 184 \tab 251 \tab 531 \tab 140 \tab 22 \tab 14 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

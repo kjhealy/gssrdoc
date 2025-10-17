@@ -24,29 +24,36 @@ D. Do people in these groups tend to be unintelligent or tend to be intelligent?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/- \tab partial \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1996, 1998, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C \tab 1990, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1198/vshow}{GSS Data Explorer page for \code{intlblks}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 1-unintelligent \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7-intelligent \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1990 \tab - \tab 27 \tab 93 \tab 248 \tab 600 \tab 195 \tab 77 \tab 40 \tab 61 \tab 31 \tab - \tab 1372 \cr
+   1996 \tab 1935 \tab 3 \tab 36 \tab 119 \tab 485 \tab 185 \tab 59 \tab 22 \tab 52 \tab 8 \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 13 \tab 71 \tab 207 \tab 929 \tab 344 \tab 148 \tab 57 \tab 90 \tab 12 \tab - \tab 2832 \cr
+   2000 \tab 486 \tab 30 \tab 116 \tab 334 \tab 1065 \tab 391 \tab 159 \tab 102 \tab 109 \tab 25 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 14 \tab 29 \tab 129 \tab 425 \tab 175 \tab 66 \tab 36 \tab 25 \tab 9 \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 10 \tab 23 \tab 83 \tab 504 \tab 165 \tab 60 \tab 37 \tab 17 \tab 7 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 14 \tab 48 \tab 235 \tab 1049 \tab 368 \tab 140 \tab 73 \tab 53 \tab 12 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 13 \tab 27 \tab 147 \tab 699 \tab 245 \tab 94 \tab 47 \tab 33 \tab 24 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 10 \tab 37 \tab 143 \tab 775 \tab 262 \tab 89 \tab 58 \tab 41 \tab 15 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 1 \tab 36 \tab 127 \tab 712 \tab 239 \tab 96 \tab 43 \tab 29 \tab 19 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 13 \tab 39 \tab 171 \tab 915 \tab 318 \tab 114 \tab 69 \tab 21 \tab 15 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 22 \tab 39 \tab 176 \tab 1015 \tab 356 \tab 149 \tab 88 \tab 27 \tab 16 \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 10 \tab 38 \tab 117 \tab 830 \tab 331 \tab 110 \tab 75 \tab 28 \tab 20 \tab - \tab 2348 \cr
+   2021 \tab 1316 \tab 20 \tab 35 \tab 195 \tab 1517 \tab 509 \tab 195 \tab 200 \tab 7 \tab 7 \tab 31 \tab 4032 \cr
+   2022 \tab 1168 \tab 16 \tab 29 \tab 162 \tab 1281 \tab 459 \tab 156 \tab 202 \tab 37 \tab 22 \tab 12 \tab 3544 \cr
+   Total \tab 16758 \tab 216 \tab 696 \tab 2593 \tab 12801 \tab 4542 \tab 1712 \tab 1149 \tab 630 \tab 242 \tab 43 \tab 41382 \cr
+}
 }
 
 \seealso{

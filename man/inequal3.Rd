@@ -26,18 +26,26 @@ C. Inequality continues to exist because it benefits the rich and powerful.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2000 \cr
+   B/C/- \tab 2008 \cr
+   Full \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4258/vshow}{GSS Data Explorer page for \code{inequal3}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 218 \tab 511 \tab 379 \tab 258 \tab 59 \tab 103 \tab 36 \tab 1819 \cr
+   1996 \tab 1460 \tab 384 \tab 471 \tab 184 \tab 193 \tab 116 \tab 90 \tab 6 \tab 2904 \cr
+   2000 \tab 1545 \tab 157 \tab 413 \tab 309 \tab 203 \tab 56 \tab 56 \tab 78 \tab 2817 \cr
+   2008 \tab 982 \tab 179 \tab 375 \tab 204 \tab 185 \tab 55 \tab 35 \tab 8 \tab 2023 \cr
+   Total \tab 4242 \tab 938 \tab 1770 \tab 1076 \tab 839 \tab 286 \tab 284 \tab 128 \tab 9563 \cr
+}
 }
 
 \seealso{

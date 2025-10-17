@@ -25,16 +25,22 @@ Question In general, how would you rate your satisfaction with your social activ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7166/vshow}{GSS Data Explorer page for \code{satsoc}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 346 \tab 832 \tab 758 \tab 309 \tab 82 \tab 5 \tab 16 \tab - \tab 2348 \cr
+   2021 \tab 380 \tab 362 \tab 1125 \tab 1283 \tab 645 \tab 207 \tab 1 \tab 1 \tab 28 \tab 4032 \cr
+   Total \tab 380 \tab 708 \tab 1957 \tab 2041 \tab 954 \tab 289 \tab 6 \tab 17 \tab 28 \tab 6380 \cr
+}
 }
 
 \keyword{variable}

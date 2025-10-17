@@ -25,15 +25,21 @@ E. Elimination of atomic weapons by both U.S. and Russia?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/826/vshow}{GSS Data Explorer page for \code{nonuke}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab wont happen \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab certain to happen \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 832 \tab 224 \tab 110 \tab 117 \tab 52 \tab 29 \tab 43 \tab 44 \tab 22 \tab 1473 \cr
+   Total \tab 0 \tab 832 \tab 224 \tab 110 \tab 117 \tab 52 \tab 29 \tab 43 \tab 44 \tab 22 \tab 1473 \cr
+}
 }
 
 \seealso{

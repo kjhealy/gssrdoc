@@ -25,18 +25,24 @@ D. Morality is a personal matter and society should not force everyone to follow
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 2006, 2008, 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1084/vshow}{GSS Data Explorer page for \code{permoral}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 469 \tab 575 \tab 259 \tab 113 \tab 57 \tab 8 \tab 1481 \cr
+   2006 \tab 1518 \tab 1022 \tab 1158 \tab 519 \tab 204 \tab 79 \tab 10 \tab 4510 \cr
+   2008 \tab - \tab 724 \tab 785 \tab 301 \tab 159 \tab 44 \tab 10 \tab 2023 \cr
+   2010 \tab - \tab 707 \tab 796 \tab 332 \tab 146 \tab 52 \tab 11 \tab 2044 \cr
+   Total \tab 1518 \tab 2922 \tab 3314 \tab 1411 \tab 622 \tab 232 \tab 39 \tab 10058 \cr
+}
 }
 
 \seealso{

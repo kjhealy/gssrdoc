@@ -24,15 +24,21 @@ Question How important is the law enforcement issue to you--would you say it is 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/281/vshow}{GSS Data Explorer page for \code{lawimp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not important \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 484 \tab 349 \tab 568 \tab 59 \tab 6 \tab 5 \tab 2 \tab 1473 \cr
+   Total \tab 484 \tab 349 \tab 568 \tab 59 \tab 6 \tab 5 \tab 2 \tab 1473 \cr
+}
 }
 
 \seealso{

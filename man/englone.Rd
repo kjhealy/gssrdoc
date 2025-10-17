@@ -24,15 +24,21 @@ Question A. An engineer usually works alone. Do you strongly agree, agree, disag
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3526/vshow}{GSS Data Explorer page for \code{englone}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1489 \tab 15 \tab 86 \tab 279 \tab 51 \tab 50 \tab 4 \tab 1974 \cr
+   Total \tab 1489 \tab 15 \tab 86 \tab 279 \tab 51 \tab 50 \tab 4 \tab 1974 \cr
+}
 }
 
 \seealso{

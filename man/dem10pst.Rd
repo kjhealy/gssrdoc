@@ -23,17 +23,23 @@ B. And what about 10 years ago? How well did democracy work in America then?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4961/vshow}{GSS Data Explorer page for \code{dem10pst}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab very poorly \tab 1 \tab very well \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 41 \tab 7 \tab 167 \tab 29 \tab 36 \tab 72 \tab 195 \tab 145 \tab 242 \tab 310 \tab 134 \tab 87 \tab 7 \tab 2812 \cr
+   2014 \tab 1274 \tab 24 \tab 7 \tab 75 \tab 33 \tab 55 \tab 84 \tab 223 \tab 121 \tab 218 \tab 203 \tab 75 \tab 96 \tab 50 \tab 2538 \cr
+   Total \tab 2614 \tab 65 \tab 14 \tab 242 \tab 62 \tab 91 \tab 156 \tab 418 \tab 266 \tab 460 \tab 513 \tab 209 \tab 183 \tab 57 \tab 5350 \cr
+}
 }
 
 \seealso{

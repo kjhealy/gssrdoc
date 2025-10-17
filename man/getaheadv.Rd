@@ -24,17 +24,22 @@ Question Some people say that people get ahead by their own hard work; others sa
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7589/vshow}{GSS Data Explorer page for \code{getaheadv}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab hard work most important \tab hard work, luck equally important (phone mode only: volunteered \tab luck most important \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2675 \tab 660 \tab 595 \tab 94 \tab 3 \tab 1 \tab 4 \tab 4032 \cr
+   2022 \tab 2962 \tab 252 \tab 284 \tab 42 \tab - \tab - \tab 4 \tab 3544 \cr
+   Total \tab 5637 \tab 912 \tab 879 \tab 136 \tab 3 \tab 1 \tab 8 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

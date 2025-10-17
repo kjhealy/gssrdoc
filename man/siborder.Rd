@@ -21,15 +21,21 @@ Question How many of your (number) brothers and sisters were born before you wer
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5082/vshow}{GSS Data Explorer page for \code{siborder}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 16 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab only child \tab don't know \tab no answer \tab Total \cr
+   1990 \tab 444 \tab 231 \tab 244 \tab 5 \tab 2 \tab 1 \tab 148 \tab 86 \tab 58 \tab 36 \tab 18 \tab 18 \tab 11 \tab 6 \tab 45 \tab 1 \tab 18 \tab 1372 \cr
+   Total \tab 444 \tab 231 \tab 244 \tab 5 \tab 2 \tab 1 \tab 148 \tab 86 \tab 58 \tab 36 \tab 18 \tab 18 \tab 11 \tab 6 \tab 45 \tab 1 \tab 18 \tab 1372 \cr
+}
 }
 
 \concept{Birth Order}

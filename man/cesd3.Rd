@@ -26,15 +26,21 @@ Question (HAND CARD N1)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6299/vshow}{GSS Data Explorer page for \code{cesd3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab none or almost none of the time \tab some of the time \tab most of the time \tab all or almost all of the time \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1888 \tab 33 \tab 207 \tab 479 \tab 247 \tab 1 \tab 12 \tab 2867 \cr
+   Total \tab 1888 \tab 33 \tab 207 \tab 479 \tab 247 \tab 1 \tab 12 \tab 2867 \cr
+}
 }
 
 \seealso{

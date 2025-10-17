@@ -25,15 +25,21 @@ B. ...in Nirvana?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4706/vshow}{GSS Data Explorer page for \code{nirvana}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 658 \tab 61 \tab 194 \tab 312 \tab 346 \tab 434 \tab 18 \tab 2023 \cr
+   Total \tab 658 \tab 61 \tab 194 \tab 312 \tab 346 \tab 434 \tab 18 \tab 2023 \cr
+}
 }
 
 \seealso{

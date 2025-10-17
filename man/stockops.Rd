@@ -22,20 +22,27 @@ Question Do you currently hold any stock options in your company (vested or unve
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018 \cr
+   B/C/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2854/vshow}{GSS Data Explorer page for \code{stockops}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 1987 \tab 178 \tab 568 \tab 14 \tab 18 \tab - \tab 2765 \cr
+   2006 \tab 3988 \tab 121 \tab 358 \tab 5 \tab 38 \tab - \tab 4510 \cr
+   2010 \tab 1842 \tab 72 \tab 95 \tab 2 \tab 33 \tab - \tab 2044 \cr
+   2014 \tab 2234 \tab 32 \tab 265 \tab 5 \tab 2 \tab - \tab 2538 \cr
+   2018 \tab 1740 \tab 82 \tab 499 \tab 18 \tab 9 \tab - \tab 2348 \cr
+   2022 \tab 3423 \tab 31 \tab 72 \tab 14 \tab 1 \tab 3 \tab 3544 \cr
+   Total \tab 15214 \tab 516 \tab 1857 \tab 58 \tab 101 \tab 3 \tab 17749 \cr
+}
 }
 
 \seealso{

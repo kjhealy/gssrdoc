@@ -25,20 +25,28 @@ Question A. In general, do you think that pesticides and chemicals used in farmi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2016 \tab A/-/- \tab partial \cr
-   2018 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2016, 2018 \cr
+   A/B/- \tab 2010 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4760/vshow}{GSS Data Explorer page for \code{chemgen}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 225 \tab 358 \tab 737 \tab 161 \tab 8 \tab 40 \tab 28 \tab 1606 \cr
+   1994 \tab 1606 \tab 177 \tab 280 \tab 677 \tab 162 \tab 13 \tab 33 \tab 44 \tab 2992 \cr
+   2000 \tab 1541 \tab 216 \tab 366 \tab 504 \tab 78 \tab 15 \tab 46 \tab 51 \tab 2817 \cr
+   2010 \tab 614 \tab 277 \tab 464 \tab 525 \tab 103 \tab 7 \tab 47 \tab 7 \tab 2044 \cr
+   2016 \tab 1956 \tab 263 \tab 288 \tab 283 \tab 49 \tab 12 \tab 14 \tab 2 \tab 2867 \cr
+   2018 \tab 1563 \tab 242 \tab 248 \tab 244 \tab 37 \tab 5 \tab 6 \tab 3 \tab 2348 \cr
+   Total \tab 7329 \tab 1400 \tab 2004 \tab 2970 \tab 590 \tab 60 \tab 186 \tab 135 \tab 14674 \cr
+}
 }
 
 \seealso{

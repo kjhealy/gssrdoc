@@ -31,21 +31,30 @@ Question Now, let me ask you to think about the courses you took in high school.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3351/vshow}{GSS Data Explorer page for \code{hsmath}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab no math in hs; didn't go to hs \tab general math, business, or vocational math \tab pre-algebra \tab one year of algebra \tab two years of algebra \tab geometry (plane or solid or both) \tab trigonometry/linear programming/analysis \tab pre-calculus \tab calculus \tab statistics/probability \tab other \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2690 \tab 29 \tab 266 \tab 82 \tab 256 \tab 285 \tab 334 \tab 209 \tab 98 \tab 180 \tab 33 \tab 15 \tab 30 \tab 3 \tab 4510 \cr
+   2008 \tab 597 \tab 24 \tab 230 \tab 57 \tab 201 \tab 212 \tab 236 \tab 183 \tab 92 \tab 115 \tab 25 \tab 11 \tab 38 \tab 2 \tab 2023 \cr
+   2010 \tab 1370 \tab 3 \tab 60 \tab 17 \tab 76 \tab 109 \tab 96 \tab 80 \tab 40 \tab 82 \tab 17 \tab 10 \tab 20 \tab 64 \tab 2044 \cr
+   2012 \tab 1068 \tab 8 \tab 114 \tab 23 \tab 126 \tab 158 \tab 142 \tab 91 \tab 65 \tab 106 \tab 25 \tab 3 \tab 42 \tab 3 \tab 1974 \cr
+   2014 \tab 1348 \tab 25 \tab 159 \tab 50 \tab 168 \tab 229 \tab 187 \tab 121 \tab 65 \tab 122 \tab 16 \tab 1 \tab 43 \tab 4 \tab 2538 \cr
+   2016 \tab 1532 \tab 19 \tab 173 \tab 58 \tab 185 \tab 227 \tab 227 \tab 128 \tab 86 \tab 137 \tab 28 \tab 7 \tab 50 \tab 10 \tab 2867 \cr
+   2018 \tab 1222 \tab 19 \tab 117 \tab 33 \tab 176 \tab 191 \tab 163 \tab 121 \tab 85 \tab 118 \tab 29 \tab 6 \tab 60 \tab 8 \tab 2348 \cr
+   Total \tab 9827 \tab 127 \tab 1119 \tab 320 \tab 1188 \tab 1411 \tab 1385 \tab 933 \tab 531 \tab 860 \tab 173 \tab 53 \tab 283 \tab 94 \tab 18304 \cr
+}
 }
 
 \seealso{

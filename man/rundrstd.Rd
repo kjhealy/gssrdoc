@@ -23,15 +23,21 @@ Question INTERVIEWER: BY THE TIME YOU HANDED HAND CARD C4 (IMMSTATS) TO THE RESP
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3028/vshow}{GSS Data Explorer page for \code{rundrstd}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab other \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2540 \tab 220 \tab 23 \tab 16 \tab 8 \tab 5 \tab 2812 \cr
+   Total \tab 2540 \tab 220 \tab 23 \tab 16 \tab 8 \tab 5 \tab 2812 \cr
+}
 }
 
 \seealso{

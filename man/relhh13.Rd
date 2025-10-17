@@ -43,25 +43,32 @@ M. Relationship of thirteenth person to head of household?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5451/vshow}{GSS Data Explorer page for \code{relhh13}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab natural/biological child \tab grandchild, great-grandchild \tab niece or nephew \tab no answer \tab child, not specified \tab child of non-relative \tab don't know \tab not available in this release \tab Total \cr
+   2000 \tab 2816 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 4508 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 2022 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 2042 \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1973 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2536 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab 2538 \cr
+   2016 \tab 2865 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   Total \tab 26687 \tab 1 \tab 3 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4032 \tab 30730 \cr
+}
 }
 
 \seealso{

@@ -25,20 +25,26 @@ A. My job requires that I keep learning new things
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2774/vshow}{GSS Data Explorer page for \code{learnnew}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 748 \tab 782 \tab 177 \tab 70 \tab 6 \tab 13 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 746 \tab 691 \tab 217 \tab 62 \tab 8 \tab 10 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 530 \tab 482 \tab 120 \tab 32 \tab - \tab 23 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 530 \tab 551 \tab 142 \tab 18 \tab 3 \tab 6 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 599 \tab 643 \tab 139 \tab 34 \tab 2 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 852 \tab 849 \tab 203 \tab 56 \tab 8 \tab 13 \tab 17 \tab 3544 \cr
+   Total \tab 8336 \tab 4005 \tab 3998 \tab 998 \tab 272 \tab 27 \tab 96 \tab 17 \tab 17749 \cr
+}
 }
 
 \seealso{

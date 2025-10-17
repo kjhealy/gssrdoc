@@ -22,16 +22,22 @@ Question Or consider a person who believes that Blacks are genetically inferior√
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7436/vshow}{GSS Data Explorer page for \code{spkracy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, allowed to speak \tab not allowed \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2675 \tab 626 \tab 716 \tab 2 \tab 1 \tab 12 \tab 4032 \cr
+   2022 \tab 2367 \tab 569 \tab 591 \tab 11 \tab 5 \tab 1 \tab 3544 \cr
+   Total \tab 5042 \tab 1195 \tab 1307 \tab 13 \tab 6 \tab 13 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

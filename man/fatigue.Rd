@@ -25,16 +25,22 @@ Question In the past seven days, how would you rate your fatigue on average?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7170/vshow}{GSS Data Explorer page for \code{fatigue}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab none \tab mild \tab moderate \tab severe \tab very severe \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 409 \tab 898 \tab 795 \tab 184 \tab 37 \tab 7 \tab 18 \tab - \tab 2348 \cr
+   2021 \tab 389 \tab 684 \tab 1491 \tab 1124 \tab 253 \tab 63 \tab 2 \tab 1 \tab 25 \tab 4032 \cr
+   Total \tab 389 \tab 1093 \tab 2389 \tab 1919 \tab 437 \tab 100 \tab 9 \tab 19 \tab 25 \tab 6380 \cr
+}
 }
 
 \keyword{variable}

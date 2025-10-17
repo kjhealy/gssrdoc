@@ -21,18 +21,24 @@ Question A. Number of relatives unemployed during last year.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
-   1980 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978, 1980, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/741/vshow}{GSS Data Explorer page for \code{unrel1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab Total \cr
+   1978 \tab - \tab 1107 \tab 352 \tab 64 \tab 7 \tab 2 \tab - \tab 1532 \cr
+   1980 \tab - \tab 1070 \tab 333 \tab 55 \tab 9 \tab 1 \tab - \tab 1468 \cr
+   1983 \tab - \tab 955 \tab 480 \tab 127 \tab 26 \tab 9 \tab 2 \tab 1599 \cr
+   1984 \tab - \tab 954 \tab 401 \tab 95 \tab 20 \tab 3 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 4086 \tab 1566 \tab 341 \tab 62 \tab 15 \tab 2 \tab 6072 \cr
+}
 }
 
 \seealso{

@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2014  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ntcitvte`](https://gssdataexplorer.norc.org/variables/4968/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all important |2   |3  |4   |5   |6  |very important |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:---|:--|:---|:---|:--|:--------------|:------------|:---------|:-----|
+#'  |2014  |1274 |487                  |129 |72 |116 |107 |74 |167            |109          |3         |2538  |
+#'  |Total |1274 |487                  |129 |72 |116 |107 |74 |167            |109          |3         |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2014  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `notvote`](https://gssdataexplorer.norc.org/variables/4969/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all important |2  |3  |4   |5   |6   |very important |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:--|:--|:---|:---|:---|:--------------|:------------|:---------|:-----|
+#'  |2014  |1274 |90                   |26 |31 |139 |124 |174 |629            |47           |4         |2538  |
+#'  |Total |1274 |90                   |26 |31 |139 |124 |174 |629            |47           |4         |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2014  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthall`](https://gssdataexplorer.norc.org/variables/4970/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all important |2  |3  |4   |5  |6   |very important |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:--|:--|:---|:--|:---|:--------------|:------------|:---------|:-----|
+#'  |2014  |1274 |79                   |38 |47 |121 |88 |151 |696            |42           |2         |2538  |
+#'  |Total |1274 |79                   |38 |47 |121 |88 |151 |696            |42           |2         |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -112,14 +130,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2014 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2014, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `leftrght`](https://gssdataexplorer.norc.org/variables/4971/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |left |1  |right |2  |3  |4  |5   |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:----|:--|:-----|:--|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2014  |1274 |43   |21 |70    |51 |67 |87 |447 |92 |85 |81 |21 |162        |37        |2538  |
+#'  |Total |1274 |43   |21 |70    |51 |67 |87 |447 |92 |85 |81 |21 |162        |37        |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -147,13 +170,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `creation`](https://gssdataexplorer.norc.org/variables/4972/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |god created man |man has evolved |man has evolved, but god guided |other |can't choose |no answer |Total |
+#'  |:-----|:----|:---------------|:---------------|:-------------------------------|:-----|:------------|:---------|:-----|
+#'  |2004  |1340 |608             |170             |598                             |52    |26           |18        |2812  |
+#'  |Total |1340 |608             |170             |598                             |52    |26           |18        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc II
@@ -182,13 +211,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scitesty`](https://gssdataexplorer.norc.org/variables/4973/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely true |probably true |probably not true |definitely not true |can't choose |no answer |Total |
+#'  |:-----|:----|:---------------|:-------------|:-----------------|:-------------------|:------------|:---------|:-----|
+#'  |2004  |1340 |219             |425           |218               |580                 |22           |8         |2812  |
+#'  |Total |1340 |219             |425           |218               |580                 |22           |8         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc II
@@ -218,13 +253,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `big5a1`](https://gssdataexplorer.norc.org/variables/4974/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2006  |2992 |200            |632   |253                        |317      |102               |12           |2         |4510  |
+#'  |Total |2992 |200            |632   |253                        |317      |102               |12           |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -254,13 +295,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `big5b1`](https://gssdataexplorer.norc.org/variables/4975/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2006  |2992 |523            |771   |98                         |106      |16                |2            |2         |4510  |
+#'  |Total |2992 |523            |771   |98                         |106      |16                |2            |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -290,13 +337,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `big5c1`](https://gssdataexplorer.norc.org/variables/4976/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:------------|:---------|:-----|
+#'  |2006  |2992 |743            |719   |43                         |9        |2            |2         |4510  |
+#'  |Total |2992 |743            |719   |43                         |9        |2            |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -326,13 +379,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `big5d1`](https://gssdataexplorer.norc.org/variables/4977/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2006  |2992 |305            |692   |247                        |219      |52                |1            |2         |4510  |
+#'  |Total |2992 |305            |692   |247                        |219      |52                |1            |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5

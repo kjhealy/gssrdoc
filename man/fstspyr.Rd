@@ -21,15 +21,21 @@ Question Now, I have some questions about your (first/former) (husband/wife). In
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1476/vshow}{GSS Data Explorer page for \code{fstspyr}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1893 \tab 1895 \tab 1896 \tab 1897 \tab 1900 \tab 1903 \tab 1904 \tab 1906 \tab 1907 \tab 1908 \tab 1909 \tab 1910 \tab 1911 \tab 1912 \tab 1913 \tab 1914 \tab 1915 \tab 1916 \tab 1917 \tab 1918 \tab 1919 \tab 1920 \tab 1921 \tab 1922 \tab 1923 \tab 1924 \tab 1925 \tab 1926 \tab 1927 \tab 1928 \tab 1929 \tab 1930 \tab 1931 \tab 1932 \tab 1933 \tab 1934 \tab 1935 \tab 1936 \tab 1937 \tab 1938 \tab 1939 \tab 1940 \tab 1941 \tab 1942 \tab 1943 \tab 1944 \tab 1945 \tab 1946 \tab 1947 \tab 1948 \tab 1949 \tab 1950 \tab 1951 \tab 1952 \tab 1953 \tab 1954 \tab 1955 \tab 1956 \tab 1957 \tab 1958 \tab 1959 \tab 1960 \tab 1961 \tab 1962 \tab 1963 \tab 1964 \tab 1965 \tab 1966 \tab 1967 \tab 1968 \tab 1969 \tab 1970 \tab 1971 \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2387 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3 \tab 2 \tab 4 \tab 2 \tab 3 \tab 2 \tab 4 \tab 3 \tab 5 \tab 4 \tab 10 \tab 7 \tab 6 \tab 14 \tab 6 \tab 6 \tab 6 \tab 9 \tab 10 \tab 5 \tab 7 \tab 5 \tab 3 \tab 6 \tab 7 \tab 7 \tab 9 \tab 3 \tab 12 \tab 9 \tab 3 \tab 10 \tab 10 \tab 5 \tab 8 \tab 10 \tab 14 \tab 10 \tab 8 \tab 9 \tab 8 \tab 9 \tab 6 \tab 9 \tab 17 \tab 18 \tab 15 \tab 17 \tab 14 \tab 15 \tab 12 \tab 9 \tab 17 \tab 6 \tab 5 \tab 13 \tab 12 \tab 11 \tab 7 \tab 7 \tab 5 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 48 \tab 42 \tab 2992 \cr
+   Total \tab 2387 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3 \tab 2 \tab 4 \tab 2 \tab 3 \tab 2 \tab 4 \tab 3 \tab 5 \tab 4 \tab 10 \tab 7 \tab 6 \tab 14 \tab 6 \tab 6 \tab 6 \tab 9 \tab 10 \tab 5 \tab 7 \tab 5 \tab 3 \tab 6 \tab 7 \tab 7 \tab 9 \tab 3 \tab 12 \tab 9 \tab 3 \tab 10 \tab 10 \tab 5 \tab 8 \tab 10 \tab 14 \tab 10 \tab 8 \tab 9 \tab 8 \tab 9 \tab 6 \tab 9 \tab 17 \tab 18 \tab 15 \tab 17 \tab 14 \tab 15 \tab 12 \tab 9 \tab 17 \tab 6 \tab 5 \tab 13 \tab 12 \tab 11 \tab 7 \tab 7 \tab 5 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 48 \tab 42 \tab 2992 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question Consider another couple living with their two children who has enough s
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7779/vshow}{GSS Data Explorer page for \code{rsprltv2}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab yes, they definitely should \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no, they definitely should not \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2386 \tab 233 \tab 104 \tab 145 \tab 227 \tab 98 \tab 69 \tab 118 \tab 145 \tab 8 \tab 11 \tab 3544 \cr
+   Total \tab 2386 \tab 233 \tab 104 \tab 145 \tab 227 \tab 98 \tab 69 \tab 118 \tab 145 \tab 8 \tab 11 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

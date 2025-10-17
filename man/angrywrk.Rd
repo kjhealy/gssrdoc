@@ -23,15 +23,21 @@ A. Involved work
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1735/vshow}{GSS Data Explorer page for \code{angrywrk}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab Total \cr
+   1996 \tab 1779 \tab 380 \tab 622 \tab 123 \tab 2904 \cr
+   Total \tab 1779 \tab 380 \tab 622 \tab 123 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -30,17 +30,23 @@ Question Think about the person you know best who was a victim of homicide. Plea
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4991/vshow}{GSS Data Explorer page for \code{cidewho}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab partner or lover \tab other relative \tab friend \tab neighbor \tab co-worker \tab acquaintance \tab other \tab no answer \tab son or daughter \tab patient \tab Total \cr
+   1988 \tab 1325 \tab 2 \tab 17 \tab 70 \tab 10 \tab 13 \tab 37 \tab 5 \tab 2 \tab - \tab - \tab 1481 \cr
+   1989 \tab 1375 \tab - \tab 19 \tab 60 \tab 10 \tab 9 \tab 52 \tab 7 \tab 3 \tab 1 \tab 1 \tab 1537 \cr
+   1990 \tab 1244 \tab 1 \tab 15 \tab 45 \tab 5 \tab 9 \tab 43 \tab 4 \tab 2 \tab 1 \tab 3 \tab 1372 \cr
+   Total \tab 3944 \tab 3 \tab 51 \tab 175 \tab 25 \tab 31 \tab 132 \tab 16 \tab 7 \tab 2 \tab 4 \tab 4390 \cr
+}
 }
 
 \seealso{

@@ -28,30 +28,35 @@ E. IF ALREADY ANSWERED, CODE WITHOUT ASKING:  Was she self-employed, or did she 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/47/vshow}{GSS Data Explorer page for \code{mawrkslf}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab self-employed \tab someone else \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1297 \tab 211 \tab 1445 \tab 1 \tab 38 \tab 2992 \cr
+   1996 \tab 1124 \tab 205 \tab 1531 \tab 1 \tab 43 \tab 2904 \cr
+   1998 \tab 1182 \tab 174 \tab 1447 \tab 2 \tab 27 \tab 2832 \cr
+   2000 \tab 1150 \tab 214 \tab 1424 \tab 6 \tab 23 \tab 2817 \cr
+   2002 \tab 1103 \tab 181 \tab 1465 \tab - \tab 16 \tab 2765 \cr
+   2004 \tab 1076 \tab 203 \tab 1526 \tab 5 \tab 2 \tab 2812 \cr
+   2006 \tab 2637 \tab 206 \tab 1635 \tab 2 \tab 30 \tab 4510 \cr
+   2008 \tab 710 \tab 140 \tab 1166 \tab 5 \tab 2 \tab 2023 \cr
+   2010 \tab 663 \tab 166 \tab 1212 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 602 \tab 159 \tab 1210 \tab 2 \tab 1 \tab 1974 \cr
+   2014 \tab 848 \tab 190 \tab 1496 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 819 \tab 225 \tab 1813 \tab 5 \tab 5 \tab 2867 \cr
+   2018 \tab 672 \tab 171 \tab 1500 \tab 3 \tab 2 \tab 2348 \cr
+   2021 \tab 1233 \tab 287 \tab 2510 \tab - \tab 2 \tab 4032 \cr
+   2022 \tab 966 \tab 261 \tab 2316 \tab - \tab 1 \tab 3544 \cr
+   Total \tab 16082 \tab 2993 \tab 23696 \tab 39 \tab 192 \tab 43002 \cr
+}
 }
 
 \seealso{

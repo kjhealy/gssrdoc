@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cat`](https://gssdataexplorer.norc.org/variables/7198/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not have |has |no answer |Total |
+#'  |:-----|:----|:-------------|:---|:---------|:-----|
+#'  |2018  |1649 |402           |271 |26        |2348  |
+#'  |Total |1649 |402           |271 |26        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -45,13 +51,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `smammal`](https://gssdataexplorer.norc.org/variables/7199/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not have |has |no answer |Total |
+#'  |:-----|:----|:-------------|:---|:---------|:-----|
+#'  |2018  |1649 |637           |36  |26        |2348  |
+#'  |Total |1649 |637           |36  |26        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -77,13 +89,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bird`](https://gssdataexplorer.norc.org/variables/7200/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not have |has |no answer |Total |
+#'  |:-----|:----|:-------------|:---|:---------|:-----|
+#'  |2018  |1649 |634           |39  |26        |2348  |
+#'  |Total |1649 |634           |39  |26        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -109,13 +127,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fish`](https://gssdataexplorer.norc.org/variables/7201/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not have |has |no answer |Total |
+#'  |:-----|:----|:-------------|:---|:---------|:-----|
+#'  |2018  |1649 |633           |40  |26        |2348  |
+#'  |Total |1649 |633           |40  |26        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -141,13 +165,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `reptile`](https://gssdataexplorer.norc.org/variables/7202/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not have |has |no answer |Total |
+#'  |:-----|:----|:-------------|:---|:---------|:-----|
+#'  |2018  |1649 |643           |30  |26        |2348  |
+#'  |Total |1649 |643           |30  |26        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -173,13 +203,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `horse`](https://gssdataexplorer.norc.org/variables/7203/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not have |has |no answer |Total |
+#'  |:-----|:----|:-------------|:---|:---------|:-----|
+#'  |2018  |1649 |657           |16  |26        |2348  |
+#'  |Total |1649 |657           |16  |26        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -205,13 +241,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `pig`](https://gssdataexplorer.norc.org/variables/7204/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not have |has |no answer |Total |
+#'  |:-----|:----|:-------------|:---|:---------|:-----|
+#'  |2018  |1649 |670           |3   |26        |2348  |
+#'  |Total |1649 |670           |3   |26        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -237,13 +279,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `goat`](https://gssdataexplorer.norc.org/variables/7205/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not have |has |no answer |Total |
+#'  |:-----|:----|:-------------|:---|:---------|:-----|
+#'  |2018  |1649 |671           |2   |26        |2348  |
+#'  |Total |1649 |671           |2   |26        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -269,13 +317,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `othpet`](https://gssdataexplorer.norc.org/variables/7206/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |does not have |has |no answer |Total |
+#'  |:-----|:----|:-------------|:---|:---------|:-----|
+#'  |2018  |1649 |652           |21  |26        |2348  |
+#'  |Total |1649 |652           |21  |26        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -303,13 +357,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `petplay`](https://gssdataexplorer.norc.org/variables/7207/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost always |often |sometimes |never |no answer |Total |
+#'  |:-----|:----|:-------------|:-----|:---------|:-----|:---------|:-----|
+#'  |2018  |1649 |266           |216   |140       |50    |27        |2348  |
+#'  |Total |1649 |266           |216   |140       |50    |27        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

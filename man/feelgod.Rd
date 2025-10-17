@@ -27,16 +27,22 @@ A. I feel God's presence.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2108/vshow}{GSS Data Explorer page for \code{feelgod}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never/almst nevr \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 245 \tab 361 \tab 195 \tab 193 \tab 237 \tab 167 \tab 18 \tab 29 \tab 2832 \cr
+   2004 \tab 1472 \tab 296 \tab 347 \tab 186 \tab 148 \tab 166 \tab 169 \tab 9 \tab 19 \tab 2812 \cr
+   Total \tab 2859 \tab 541 \tab 708 \tab 381 \tab 341 \tab 403 \tab 336 \tab 27 \tab 48 \tab 5644 \cr
+}
 }
 
 \seealso{

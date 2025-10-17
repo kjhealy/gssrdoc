@@ -22,15 +22,21 @@ Question How much do you trust the news media?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7483/vshow}{GSS Data Explorer page for \code{trmedia}}.
+
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab 0 - no trust \tab 1 \tab 10 - complete trust \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2003 \tab 372 \tab 149 \tab 19 \tab 199 \tab 179 \tab 150 \tab 291 \tab 153 \tab 172 \tab 105 \tab 31 \tab 45 \tab 155 \tab 9 \tab 4032 \cr
+   Total \tab 2003 \tab 372 \tab 149 \tab 19 \tab 199 \tab 179 \tab 150 \tab 291 \tab 153 \tab 172 \tab 105 \tab 31 \tab 45 \tab 155 \tab 9 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

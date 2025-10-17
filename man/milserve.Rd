@@ -23,15 +23,21 @@ J. To be willing to serve in the military at a time of need
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4916/vshow}{GSS Data Explorer page for \code{milserve}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 112 \tab 51 \tab 61 \tab 130 \tab 232 \tab 226 \tab 641 \tab 15 \tab 4 \tab 2812 \cr
+   Total \tab 1340 \tab 112 \tab 51 \tab 61 \tab 130 \tab 232 \tab 226 \tab 641 \tab 15 \tab 4 \tab 2812 \cr
+}
 }
 
 \seealso{

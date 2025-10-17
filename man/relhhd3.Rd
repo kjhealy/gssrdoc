@@ -39,30 +39,37 @@ Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELO
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5418/vshow}{GSS Data Explorer page for \code{relhhd3}}.
+
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab spouse \tab partner, fiance(e), boyfriend, girlfriend, etc. \tab child, natural or adopted, stepchild \tab grandchild, great-grandchild \tab son-in-law, daughter-in-law \tab parent \tab parent-in-law \tab grandparent, great-grandparent \tab uncle or aunt \tab niece or nephew \tab brother, sister (full, half, or step sibling) \tab sibling-in-law \tab roommate, housemate \tab friend \tab child of non-relative \tab other non-relative (employee, boarder) \tab no answer \tab cousin \tab other relative (great-aunt, grandniece, etc.) \tab don't know \tab not available in this release \tab Total \cr
+   1993 \tab 895 \tab 5 \tab 2 \tab 630 \tab 9 \tab 7 \tab 4 \tab 7 \tab 1 \tab 1 \tab 2 \tab 12 \tab 1 \tab 17 \tab 4 \tab 2 \tab 3 \tab 4 \tab - \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 1751 \tab 13 \tab 4 \tab 1094 \tab 23 \tab 4 \tab 10 \tab 11 \tab 1 \tab 3 \tab 7 \tab 11 \tab 5 \tab 18 \tab 6 \tab 19 \tab - \tab 7 \tab 3 \tab 2 \tab - \tab - \tab 2992 \cr
+   1996 \tab 1729 \tab 13 \tab 5 \tab 970 \tab 21 \tab 10 \tab 10 \tab 10 \tab - \tab 1 \tab 6 \tab 10 \tab 6 \tab 28 \tab 11 \tab 16 \tab 3 \tab 54 \tab 1 \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab 1714 \tab 23 \tab 9 \tab 923 \tab 15 \tab 8 \tab 9 \tab 3 \tab 2 \tab 2 \tab 10 \tab 10 \tab 5 \tab 25 \tab 2 \tab 16 \tab 4 \tab 49 \tab 1 \tab 2 \tab - \tab - \tab 2832 \cr
+   2000 \tab 1668 \tab - \tab - \tab 924 \tab 33 \tab 10 \tab 20 \tab 9 \tab 4 \tab 1 \tab 7 \tab 15 \tab 7 \tab 27 \tab 7 \tab 13 \tab 9 \tab 58 \tab 1 \tab 3 \tab 1 \tab - \tab 2817 \cr
+   2002 \tab 1815 \tab - \tab - \tab 774 \tab 39 \tab 15 \tab 5 \tab 8 \tab 3 \tab 2 \tab 7 \tab 19 \tab 4 \tab 25 \tab 12 \tab 14 \tab 12 \tab 5 \tab 2 \tab 3 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 1780 \tab - \tab 2 \tab 899 \tab 34 \tab 11 \tab 18 \tab 6 \tab 1 \tab 1 \tab 7 \tab 13 \tab - \tab 15 \tab 4 \tab 5 \tab 5 \tab 1 \tab 3 \tab 4 \tab 3 \tab - \tab 2812 \cr
+   2006 \tab 2778 \tab - \tab 6 \tab 1495 \tab 44 \tab 9 \tab 28 \tab 17 \tab 2 \tab 2 \tab 13 \tab 19 \tab 9 \tab 44 \tab 16 \tab 7 \tab 11 \tab 1 \tab 2 \tab 5 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 1221 \tab - \tab 1 \tab 684 \tab 34 \tab 1 \tab 10 \tab 8 \tab 1 \tab 2 \tab 9 \tab 9 \tab 6 \tab 16 \tab 5 \tab 5 \tab 2 \tab 2 \tab 4 \tab 2 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab 1319 \tab - \tab 2 \tab 600 \tab 26 \tab 10 \tab 11 \tab 4 \tab 1 \tab 2 \tab 4 \tab 9 \tab 7 \tab 24 \tab 9 \tab 8 \tab 2 \tab 3 \tab 2 \tab 1 \tab - \tab - \tab 2044 \cr
+   2012 \tab 1259 \tab - \tab 1 \tab 583 \tab 14 \tab 3 \tab 19 \tab 1 \tab - \tab 12 \tab 8 \tab 10 \tab 12 \tab 21 \tab 9 \tab 8 \tab 2 \tab 5 \tab 2 \tab 3 \tab 2 \tab - \tab 1974 \cr
+   2014 \tab 1642 \tab - \tab 6 \tab 743 \tab 21 \tab 8 \tab 16 \tab 6 \tab 4 \tab 1 \tab 4 \tab 13 \tab 3 \tab 38 \tab 11 \tab 8 \tab 5 \tab 1 \tab 4 \tab - \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 1919 \tab - \tab 1 \tab 765 \tab 37 \tab 14 \tab 18 \tab 15 \tab - \tab 1 \tab 14 \tab 7 \tab 9 \tab 37 \tab 10 \tab 5 \tab 6 \tab 1 \tab 3 \tab 3 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab 1561 \tab - \tab 1 \tab 651 \tab 28 \tab 7 \tab 19 \tab 4 \tab 1 \tab 2 \tab 3 \tab 12 \tab 7 \tab 34 \tab 2 \tab 4 \tab 5 \tab 1 \tab 2 \tab 4 \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 26595 \tab 54 \tab 40 \tab 11735 \tab 378 \tab 117 \tab 197 \tab 109 \tab 21 \tab 33 \tab 101 \tab 169 \tab 81 \tab 369 \tab 108 \tab 130 \tab 69 \tab 192 \tab 30 \tab 32 \tab 16 \tab 4032 \tab 44608 \cr
+}
 }
 
 \seealso{

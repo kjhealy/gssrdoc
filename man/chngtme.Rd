@@ -24,20 +24,26 @@ Question How often are you allowed to change your starting and quitting times on
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2766/vshow}{GSS Data Explorer page for \code{chngtme}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 969 \tab 583 \tab 380 \tab 246 \tab 559 \tab 12 \tab 16 \tab 2765 \cr
+   2006 \tab 2776 \tab 598 \tab 319 \tab 260 \tab 536 \tab 8 \tab 13 \tab 4510 \cr
+   2010 \tab 857 \tab 372 \tab 225 \tab 192 \tab 364 \tab 7 \tab 27 \tab 2044 \cr
+   2014 \tab 1288 \tab 412 \tab 271 \tab 201 \tab 358 \tab 3 \tab 5 \tab 2538 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 11782 \tab 1965 \tab 1195 \tab 899 \tab 1817 \tab 30 \tab 61 \tab 17749 \cr
+}
 }
 
 \seealso{

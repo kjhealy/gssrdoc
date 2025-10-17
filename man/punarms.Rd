@@ -27,15 +27,21 @@ A. Stealing and selling weapons, ammunition, and explosives from a military depo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5232/vshow}{GSS Data Explorer page for \code{punarms}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab reprimand \tab dismissal from the military/fired by the government \tab one year in prison \tab 5-9 years in prison \tab 10-20 years in prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 19 \tab 271 \tab 100 \tab 297 \tab 412 \tab 246 \tab 56 \tab 18 \tab 2817 \cr
+   Total \tab 1398 \tab 19 \tab 271 \tab 100 \tab 297 \tab 412 \tab 246 \tab 56 \tab 18 \tab 2817 \cr
+}
 }
 
 \seealso{

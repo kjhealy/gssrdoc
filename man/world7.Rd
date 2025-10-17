@@ -24,15 +24,21 @@ Look at the first set of contrasting images. If you think that "The world is bas
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/372/vshow}{GSS Data Explorer page for \code{world7}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab action reveals god \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab most acts are vain \tab don't know \tab no answer \tab Total \cr
+   1985 \tab - \tab 401 \tab 292 \tab 297 \tab 300 \tab 86 \tab 42 \tab 60 \tab 20 \tab 36 \tab 1534 \cr
+   Total \tab 0 \tab 401 \tab 292 \tab 297 \tab 300 \tab 86 \tab 42 \tab 60 \tab 20 \tab 36 \tab 1534 \cr
+}
 }
 
 \seealso{

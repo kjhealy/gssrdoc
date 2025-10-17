@@ -24,15 +24,21 @@ C. How fair do you feel the division of work around the house is in your househo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1662/vshow}{GSS Data Explorer page for \code{fairhwrk}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab fair to both \tab unfair to me \tab unfair to my spouse or partner \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2124 \tab 582 \tab 95 \tab 82 \tab 8 \tab 13 \tab 2904 \cr
+   Total \tab 2124 \tab 582 \tab 95 \tab 82 \tab 8 \tab 13 \tab 2904 \cr
+}
 }
 
 \seealso{

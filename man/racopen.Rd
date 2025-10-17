@@ -23,40 +23,49 @@ Question Suppose there is a community-wide vote on the general housing issue. Th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab B/C/- \tab partial \cr
-   1989 \tab B/C/- \tab partial \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab B/C/- \tab partial \cr
-   1993 \tab B/C/- \tab partial \cr
-   1994 \tab B/C/- \tab partial \cr
-   1996 \tab B/C/- \tab partial \cr
-   2004 \tab A/C/- \tab partial \cr
-   2006 \tab A/C/- \tab partial \cr
-   2008 \tab A/C/- \tab partial \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/C/- \tab partial \cr
-   2016 \tab A/C/- \tab partial \cr
-   2018 \tab A/C/- \tab partial \cr
-   2021 \tab A/C/- \tab partial \cr
-   2022 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
+   A/C/- \tab 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   B/C/- \tab 1988, 1989, 1991, 1993, 1994, 1996 \cr
+   Full \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/387/vshow}{GSS Data Explorer page for \code{racopen}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab first law \tab second law \tab neither \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab 183 \tab 826 \tab 448 \tab 22 \tab 18 \tab 7 \tab - \tab 1504 \cr
+   1975 \tab 163 \tab 844 \tab 450 \tab 10 \tab 21 \tab 2 \tab - \tab 1490 \cr
+   1976 \tab 129 \tab 851 \tab 471 \tab 24 \tab 17 \tab 7 \tab - \tab 1499 \cr
+   1978 \tab - \tab 863 \tab 617 \tab 19 \tab 30 \tab 3 \tab - \tab 1532 \cr
+   1980 \tab - \tab 806 \tab 612 \tab 23 \tab 25 \tab 2 \tab - \tab 1468 \cr
+   1983 \tab - \tab 779 \tab 748 \tab 30 \tab 35 \tab 7 \tab - \tab 1599 \cr
+   1984 \tab - \tab 662 \tab 754 \tab 26 \tab 22 \tab 9 \tab - \tab 1473 \cr
+   1986 \tab - \tab 684 \tab 744 \tab 20 \tab 18 \tab 4 \tab - \tab 1470 \cr
+   1987 \tab - \tab 697 \tab 1046 \tab 31 \tab 31 \tab 14 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 388 \tab 562 \tab 25 \tab 19 \tab 3 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 380 \tab 611 \tab 21 \tab 16 \tab 7 \tab - \tab 1537 \cr
+   1990 \tab - \tab 549 \tab 757 \tab 22 \tab 39 \tab 5 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 352 \tab 605 \tab 29 \tab 17 \tab 14 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 314 \tab 680 \tab 40 \tab 19 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab 981 \tab 652 \tab 1251 \tab 58 \tab 36 \tab 14 \tab - \tab 2992 \cr
+   1996 \tab 1926 \tab 281 \tab 651 \tab 20 \tab 15 \tab 11 \tab - \tab 2904 \cr
+   2004 \tab 1914 \tab 289 \tab 592 \tab - \tab 13 \tab 4 \tab - \tab 2812 \cr
+   2006 \tab 2507 \tab 542 \tab 1353 \tab 94 \tab 8 \tab 6 \tab - \tab 4510 \cr
+   2008 \tab 671 \tab 342 \tab 937 \tab 59 \tab 11 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 763 \tab 307 \tab 916 \tab 52 \tab 4 \tab 2 \tab - \tab 2044 \cr
+   2012 \tab 666 \tab 334 \tab 930 \tab 33 \tab 7 \tab 4 \tab - \tab 1974 \cr
+   2014 \tab 824 \tab 411 \tab 1252 \tab 42 \tab 6 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 978 \tab 365 \tab 1446 \tab 58 \tab 13 \tab 7 \tab - \tab 2867 \cr
+   2018 \tab 774 \tab 304 \tab 1225 \tab 27 \tab 14 \tab 4 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 2943 \tab 108 \tab 480 \tab - \tab 5 \tab 8 \tab - \tab 3544 \cr
+   Total \tab 17457 \tab 12930 \tab 20138 \tab 785 \tab 459 \tab 154 \tab 4032 \tab 55955 \cr
+}
 }
 
 \seealso{

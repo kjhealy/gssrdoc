@@ -26,15 +26,21 @@ Question Think of the most recent loan of this type. To whom did you lend this m
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1856/vshow}{GSS Data Explorer page for \code{loanedto}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab parents of grandparents \tab children \tab other relative \tab friend \tab co-worker or bus. associate \tab other specify \tab Total \cr
+   1996 \tab 2620 \tab 15 \tab 66 \tab 68 \tab 103 \tab 26 \tab 6 \tab 2904 \cr
+   Total \tab 2620 \tab 15 \tab 66 \tab 68 \tab 103 \tab 26 \tab 6 \tab 2904 \cr
+}
 }
 
 \seealso{

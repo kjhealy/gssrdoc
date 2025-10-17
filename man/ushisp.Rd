@@ -22,15 +22,21 @@ D. Hispanics?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2313/vshow}{GSS Data Explorer page for \code{ushisp}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 25 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 33 \tab 35 \tab 38 \tab 39 \tab 4 \tab 40 \tab 43 \tab 45 \tab 46 \tab 49 \tab 5 \tab 50 \tab 55 \tab 59 \tab 6 \tab 60 \tab 65 \tab 7 \tab 70 \tab 75 \tab 8 \tab 80 \tab 85 \tab 89 \tab 9 \tab 90 \tab 95 \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 4 \tab 4 \tab 192 \tab 2 \tab 1 \tab 20 \tab 7 \tab 2 \tab 125 \tab 2 \tab 2 \tab 6 \tab 1 \tab 18 \tab 199 \tab 1 \tab 3 \tab 1 \tab 105 \tab 1 \tab 2 \tab 1 \tab 11 \tab 144 \tab 1 \tab 30 \tab 2 \tab 2 \tab 9 \tab 86 \tab 1 \tab 17 \tab 1 \tab 1 \tab 85 \tab 74 \tab 6 \tab 1 \tab 7 \tab 18 \tab 7 \tab 8 \tab 14 \tab 11 \tab 16 \tab 11 \tab 5 \tab 1 \tab 2 \tab 6 \tab 1 \tab 91 \tab 30 \tab 2817 \cr
+   Total \tab 1419 \tab 4 \tab 4 \tab 192 \tab 2 \tab 1 \tab 20 \tab 7 \tab 2 \tab 125 \tab 2 \tab 2 \tab 6 \tab 1 \tab 18 \tab 199 \tab 1 \tab 3 \tab 1 \tab 105 \tab 1 \tab 2 \tab 1 \tab 11 \tab 144 \tab 1 \tab 30 \tab 2 \tab 2 \tab 9 \tab 86 \tab 1 \tab 17 \tab 1 \tab 1 \tab 85 \tab 74 \tab 6 \tab 1 \tab 7 \tab 18 \tab 7 \tab 8 \tab 14 \tab 11 \tab 16 \tab 11 \tab 5 \tab 1 \tab 2 \tab 6 \tab 1 \tab 91 \tab 30 \tab 2817 \cr
+}
 }
 
 \seealso{

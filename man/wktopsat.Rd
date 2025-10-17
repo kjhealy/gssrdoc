@@ -25,16 +25,22 @@ E. My main satisfaction in life comes from work
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2778/vshow}{GSS Data Explorer page for \code{wktopsat}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 969 \tab 128 \tab 369 \tab 883 \tab 389 \tab 14 \tab 13 \tab 2765 \cr
+   2006 \tab 2776 \tab 99 \tab 387 \tab 832 \tab 393 \tab 12 \tab 11 \tab 4510 \cr
+   Total \tab 3745 \tab 227 \tab 756 \tab 1715 \tab 782 \tab 26 \tab 24 \tab 7275 \cr
+}
 }
 
 \seealso{

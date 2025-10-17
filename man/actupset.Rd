@@ -24,16 +24,22 @@ Question H. People at work throw things, slam doors, or hit objects when they ar
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3005/vshow}{GSS Data Explorer page for \code{actupset}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 945 \tab 31 \tab 85 \tab 170 \tab 1520 \tab 19 \tab 42 \tab 2812 \cr
+   2012 \tab 795 \tab 17 \tab 52 \tab 101 \tab 966 \tab 12 \tab 31 \tab 1974 \cr
+   Total \tab 1740 \tab 48 \tab 137 \tab 271 \tab 2486 \tab 31 \tab 73 \tab 4786 \cr
+}
 }
 
 \seealso{

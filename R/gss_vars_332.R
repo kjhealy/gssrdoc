@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `trbllaw`](https://gssdataexplorer.norc.org/variables/2964/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree somewhat |disagree somewhat |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |1372 |112            |439            |490               |243               |95         |14        |2765  |
+#'  |Total |1372 |112            |439            |490               |243               |95         |14        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -51,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `medsavtx`](https://gssdataexplorer.norc.org/variables/2965/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree somewhat |disagree somewhat |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |1372 |209            |514            |385               |174               |99         |12        |2765  |
+#'  |Total |1372 |209            |514            |385               |174               |99         |12        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -86,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `zombies`](https://gssdataexplorer.norc.org/variables/2966/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree somewhat |disagree somewhat |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |1372 |232            |436            |402               |223               |87         |13        |2765  |
+#'  |Total |1372 |232            |436            |402               |223               |87         |13        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -121,13 +139,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `pryntfam`](https://gssdataexplorer.norc.org/variables/2967/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree somewhat |disagree somewhat |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |1372 |251            |475            |430               |161               |63         |13        |2765  |
+#'  |Total |1372 |251            |475            |430               |161               |63         |13        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -155,13 +179,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `adhdknow`](https://gssdataexplorer.norc.org/variables/2968/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never heard of it |not sure/dont know |no answer |other |don't know |Total |
+#'  |:-----|:----|:-----------------|:------------------|:---------|:-----|:----------|:-----|
+#'  |2002  |1372 |147               |267                |59        |906   |14         |2765  |
+#'  |Total |1372 |147               |267                |59        |906   |14         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -197,13 +227,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `adhdknw`](https://gssdataexplorer.norc.org/variables/2969/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |nothing don t know |had herad of it unspecified |medication ritalin |chemical biological cause |environment social cause |describing symptoms |other |someone else i know has it |my child has it |i have(had) it |diet based too much sugar |anti-adhd |no answer |Total |
+#'  |:-----|:----|:------------------|:---------------------------|:------------------|:-------------------------|:------------------------|:-------------------|:-----|:--------------------------|:---------------|:--------------|:-------------------------|:---------|:---------|:-----|
+#'  |2002  |1847 |28                 |220                         |70                 |41                        |24                       |285                 |10    |95                         |40              |11             |14                        |68        |12        |2765  |
+#'  |Total |1847 |28                 |220                         |70                 |41                        |24                       |285                 |10    |95                         |40              |11             |14                        |68        |12        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -229,13 +265,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `adhdreal`](https://gssdataexplorer.norc.org/variables/2970/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2002  |1859 |685 |183 |37         |1         |2765  |
+#'  |Total |1859 |685 |183 |37         |1         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -261,13 +303,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `adhdcon`](https://gssdataexplorer.norc.org/variables/2971/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |Total |
+#'  |:-----|:----|:---|:---|:----------|:-----|
+#'  |2002  |1859 |758 |122 |26         |2765  |
+#'  |Total |1859 |758 |122 |26         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -293,13 +341,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `adhdmed`](https://gssdataexplorer.norc.org/variables/2972/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2002  |1859 |595 |249 |57         |5         |2765  |
+#'  |Total |1859 |595 |249 |57         |5         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -327,13 +381,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mntlrel`](https://gssdataexplorer.norc.org/variables/2973/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |became stronger |was unchanged |became worse |ended as a result of the problem |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:-------------|:------------|:--------------------------------|:----------|:---------|:-----|
+#'  |2002  |1859 |218             |491           |71           |58                               |51         |17        |2765  |
+#'  |Total |1859 |218             |491           |71           |58                               |51         |17        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II

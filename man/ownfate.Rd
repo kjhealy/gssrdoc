@@ -26,16 +26,22 @@ G. We each make our own fate.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4663/vshow}{GSS Data Explorer page for \code{ownfate}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 266 \tab 517 \tab 254 \tab 145 \tab 59 \tab 50 \tab 68 \tab 1517 \cr
+   1998 \tab 1548 \tab 200 \tab 510 \tab 237 \tab 149 \tab 79 \tab 44 \tab 65 \tab 2832 \cr
+   Total \tab 1706 \tab 466 \tab 1027 \tab 491 \tab 294 \tab 138 \tab 94 \tab 133 \tab 4349 \cr
+}
 }
 
 \seealso{

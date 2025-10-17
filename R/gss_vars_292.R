@@ -15,13 +15,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sptmkid1`](https://gssdataexplorer.norc.org/variables/2643/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |too much |about the right amount |too little |don't know |no answer |Total |
+#'  |:-----|:----|:--------|:----------------------|:----------|:----------|:---------|:-----|
+#'  |2000  |2474 |8        |178                    |133        |3          |21        |2817  |
+#'  |Total |2474 |8        |178                    |133        |3          |21        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -49,13 +55,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sptmkid2`](https://gssdataexplorer.norc.org/variables/2644/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |too much |about the right amount |too little |no answer |Total |
+#'  |:-----|:----|:--------|:----------------------|:----------|:---------|:-----|
+#'  |2000  |2599 |8        |107                    |79         |24        |2817  |
+#'  |Total |2599 |8        |107                    |79         |24        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -83,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sptmkid3`](https://gssdataexplorer.norc.org/variables/2645/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |too much |about the right amount |too little |no answer |Total |
+#'  |:-----|:----|:--------|:----------------------|:----------|:---------|:-----|
+#'  |2000  |2744 |4        |33                     |24         |12        |2817  |
+#'  |Total |2744 |4        |33                     |24         |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -117,13 +135,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sptmkid4`](https://gssdataexplorer.norc.org/variables/2646/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |too much |about the right amount |too little |no answer |Total |
+#'  |:-----|:----|:--------|:----------------------|:----------|:---------|:-----|
+#'  |2000  |2792 |1        |13                     |5          |6         |2817  |
+#'  |Total |2792 |1        |13                     |5          |6         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -151,13 +175,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdtmkid1`](https://gssdataexplorer.norc.org/variables/2647/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |too much |about the right amount |too little |don't know |no answer |Total |
+#'  |:-----|:----|:--------|:----------------------|:----------|:----------|:---------|:-----|
+#'  |2000  |2346 |39       |192                    |166        |10         |64        |2817  |
+#'  |Total |2346 |39       |192                    |166        |10         |64        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -185,13 +215,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdtmkid2`](https://gssdataexplorer.norc.org/variables/2648/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |too much |about the right amount |too little |don't know |no answer |Total |
+#'  |:-----|:----|:--------|:----------------------|:----------|:----------|:---------|:-----|
+#'  |2000  |2591 |11       |95                     |86         |6          |28        |2817  |
+#'  |Total |2591 |11       |95                     |86         |6          |28        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -219,13 +255,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdtmkid3`](https://gssdataexplorer.norc.org/variables/2649/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |too much |about the right amount |too little |don't know |no answer |Total |
+#'  |:-----|:----|:--------|:----------------------|:----------|:----------|:---------|:-----|
+#'  |2000  |2748 |7        |32                     |17         |1          |12        |2817  |
+#'  |Total |2748 |7        |32                     |17         |1          |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -253,13 +295,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdtmkid4`](https://gssdataexplorer.norc.org/variables/2650/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |too much |about the right amount |too little |no answer |Total |
+#'  |:-----|:----|:--------|:----------------------|:----------|:---------|:-----|
+#'  |2000  |2791 |2        |11                     |5          |8         |2817  |
+#'  |Total |2791 |2        |11                     |5          |8         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -289,13 +337,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knowkid1`](https://gssdataexplorer.norc.org/variables/2651/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost all of the time |most of the time |about half of the time |some of the time |hardly any of the time |no answer |Total |
+#'  |:-----|:----|:----------------------|:----------------|:----------------------|:----------------|:----------------------|:---------|:-----|
+#'  |2000  |2369 |226                    |115              |31                     |14               |8                      |54        |2817  |
+#'  |Total |2369 |226                    |115              |31                     |14               |8                      |54        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -325,13 +379,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knowkid2`](https://gssdataexplorer.norc.org/variables/2652/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost all of the time |most of the time |about half of the time |some of the time |hardly any of the time |no answer |Total |
+#'  |:-----|:----|:----------------------|:----------------|:----------------------|:----------------|:----------------------|:---------|:-----|
+#'  |2000  |2589 |133                    |58               |15                     |6                |2                      |14        |2817  |
+#'  |Total |2589 |133                    |58               |15                     |6                |2                      |14        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society

@@ -22,19 +22,24 @@ Question IF YES: Does that person have a supervisor on the job to whom he is dir
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6177/vshow}{GSS Data Explorer page for \code{wksubs1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab 6 \tab Total \cr
+   2016 \tab 1279 \tab 1292 \tab 284 \tab 12 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 992 \tab 1128 \tab 216 \tab 11 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab 1893 \tab 1864 \tab 235 \tab 28 \tab 1 \tab 11 \tab - \tab 4032 \cr
+   2022 \tab 1623 \tab 1587 \tab 292 \tab - \tab 8 \tab 8 \tab 26 \tab 3544 \cr
+   Total \tab 5787 \tab 5871 \tab 1027 \tab 51 \tab 10 \tab 19 \tab 26 \tab 12791 \cr
+}
 }
 
 \seealso{

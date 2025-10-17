@@ -22,17 +22,25 @@ Question Not counting people at work or family at home, about how many other fri
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2543/vshow}{GSS Data Explorer page for \code{numcntct}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 11 \tab 12 \tab 125 \tab 13 \tab 130 \tab 14 \tab 15 \tab 150 \tab 155 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 200 \tab 24 \tab 25 \tab 26 \tab 27 \tab 3 \tab 30 \tab 300 \tab 35 \tab 350 \tab 38 \tab 4 \tab 40 \tab 44 \tab 45 \tab 48 \tab 5 \tab 50 \tab 55 \tab 58 \tab 6 \tab 60 \tab 7 \tab 70 \tab 75 \tab 8 \tab 88 \tab 9 \tab 95 \tab unspecified, 1 or more \tab too many to list \tab don't know \tab no answer \tab 110 \tab 112 \tab 115 \tab 120 \tab 135 \tab 152 \tab 16 \tab 160 \tab 175 \tab 21 \tab 22 \tab 23 \tab 250 \tab 28 \tab 32 \tab 325 \tab 33 \tab 36 \tab 39 \tab 400 \tab 450 \tab 500 \tab 52 \tab 65 \tab 80 \tab 85 \tab 86 \tab 90 \tab 118 \tab 180 \tab 31 \tab 68 \tab Total \cr
+   2000 \tab 1884 \tab 18 \tab 10 \tab 118 \tab 23 \tab 4 \tab 40 \tab 2 \tab 2 \tab 1 \tab 2 \tab 50 \tab 3 \tab 1 \tab 3 \tab 7 \tab 1 \tab 30 \tab 100 \tab 2 \tab 4 \tab 39 \tab 2 \tab 1 \tab 53 \tab 32 \tab 1 \tab 4 \tab 1 \tab 1 \tab 65 \tab 19 \tab 1 \tab 3 \tab 1 \tab 75 \tab 66 \tab 2 \tab 1 \tab 44 \tab 10 \tab 16 \tab 3 \tab 7 \tab 24 \tab 1 \tab 4 \tab 1 \tab 10 \tab 1 \tab 8 \tab 16 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab - \tab 32 \tab 36 \tab 321 \tab 125 \tab 9 \tab 101 \tab 5 \tab 10 \tab 1 \tab 4 \tab 150 \tab 23 \tab - \tab 2 \tab 5 \tab 1 \tab 74 \tab 302 \tab 30 \tab 15 \tab 146 \tab - \tab 1 \tab 92 \tab 178 \tab 13 \tab 41 \tab - \tab 1 \tab 118 \tab 53 \tab 1 \tab 9 \tab - \tab 186 \tab 255 \tab 7 \tab - \tab 137 \tab 35 \tab 30 \tab 13 \tab 34 \tab 51 \tab - \tab 6 \tab 1 \tab - \tab - \tab 42 \tab 12 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 2 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 6 \tab 1 \tab 2 \tab 9 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 1828 \tab 32 \tab 29 \tab 127 \tab 41 \tab 2 \tab 46 \tab 2 \tab 1 \tab - \tab 1 \tab 47 \tab 3 \tab - \tab 1 \tab 1 \tab - \tab 41 \tab 96 \tab 6 \tab 6 \tab 55 \tab - \tab 1 \tab 28 \tab 68 \tab 4 \tab 14 \tab - \tab - \tab 33 \tab 25 \tab - \tab 3 \tab - \tab 78 \tab 49 \tab - \tab - \tab 43 \tab 9 \tab 11 \tab 4 \tab 8 \tab 21 \tab - \tab 6 \tab - \tab - \tab - \tab 13 \tab 11 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab 2 \tab - \tab 2 \tab 4 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2812 \cr
+   Total \tab 3712 \tab 82 \tab 75 \tab 566 \tab 189 \tab 15 \tab 187 \tab 9 \tab 13 \tab 2 \tab 7 \tab 247 \tab 29 \tab 1 \tab 6 \tab 13 \tab 2 \tab 145 \tab 498 \tab 38 \tab 25 \tab 240 \tab 2 \tab 3 \tab 173 \tab 278 \tab 18 \tab 59 \tab 1 \tab 2 \tab 216 \tab 97 \tab 2 \tab 15 \tab 1 \tab 339 \tab 370 \tab 9 \tab 1 \tab 224 \tab 54 \tab 57 \tab 20 \tab 49 \tab 96 \tab 1 \tab 16 \tab 2 \tab 10 \tab 1 \tab 63 \tab 39 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 3 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 8 \tab 1 \tab 4 \tab 13 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 8394 \cr
+}
 }
 
 \seealso{

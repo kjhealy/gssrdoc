@@ -23,19 +23,28 @@ Question A. Nanotechnology works at the molecular level atom by atom to build ne
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2016 \tab A/-/- \tab partial \cr
-   2018 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3448/vshow}{GSS Data Explorer page for \code{nanowill}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab benefits greater \tab about equal (if volunteered) \tab harmful results greater \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 727 \tab 355 \tab 166 \tab 614 \tab 2 \tab 4510 \cr
+   2008 \tab 518 \tab 577 \tab 171 \tab 148 \tab 582 \tab 27 \tab 2023 \cr
+   2010 \tab 1584 \tab 164 \tab 42 \tab 41 \tab 202 \tab 11 \tab 2044 \cr
+   2016 \tab 1956 \tab 446 \tab 97 \tab 160 \tab 198 \tab 10 \tab 2867 \cr
+   2018 \tab 1563 \tab 421 \tab 63 \tab 163 \tab 128 \tab 10 \tab 2348 \cr
+   Total \tab 8267 \tab 2335 \tab 728 \tab 678 \tab 1724 \tab 60 \tab 13792 \cr
+}
 }
 
 \seealso{

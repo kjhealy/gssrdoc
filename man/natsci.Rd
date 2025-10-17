@@ -24,26 +24,31 @@ Q. Supporting scientific research
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/197/vshow}{GSS Data Explorer page for \code{natsci}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 1407 \tab 461 \tab 629 \tab 176 \tab 87 \tab 5 \tab - \tab 2765 \cr
+   2004 \tab 1411 \tab 535 \tab 626 \tab 164 \tab 72 \tab 4 \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 1219 \tab 1216 \tab 351 \tab 204 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab - \tab 772 \tab 874 \tab 229 \tab 148 \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 792 \tab 866 \tab 242 \tab 141 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab - \tab 714 \tab 861 \tab 249 \tab 147 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab - \tab 981 \tab 1091 \tab 289 \tab 175 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab - \tab 1119 \tab 1262 \tab 306 \tab 176 \tab 4 \tab - \tab 2867 \cr
+   2018 \tab - \tab 986 \tab 1026 \tab 197 \tab 138 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab - \tab 1820 \tab 1873 \tab 303 \tab 13 \tab - \tab 23 \tab 4032 \cr
+   2022 \tab - \tab 1452 \tab 1580 \tab 355 \tab 148 \tab 1 \tab 8 \tab 3544 \cr
+   Total \tab 4336 \tab 10851 \tab 11904 \tab 2861 \tab 1449 \tab 25 \tab 31 \tab 31457 \cr
+}
 }
 
 \seealso{

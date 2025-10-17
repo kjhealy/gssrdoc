@@ -25,18 +25,26 @@ D. Hell
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4654/vshow}{GSS Data Explorer page for \code{hell}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 597 \tab 256 \tab 189 \tab 162 \tab 72 \tab 83 \tab 1517 \cr
+   1998 \tab 1548 \tab 624 \tab 214 \tab 150 \tab 138 \tab 97 \tab 61 \tab 2832 \cr
+   2008 \tab 658 \tab 698 \tab 270 \tab 196 \tab 163 \tab 30 \tab 8 \tab 2023 \cr
+   2018 \tab 1173 \tab 589 \tab 225 \tab 162 \tab 166 \tab 23 \tab 10 \tab 2348 \cr
+   Total \tab 3537 \tab 2508 \tab 965 \tab 697 \tab 629 \tab 222 \tab 162 \tab 8720 \cr
+}
 }
 
 \seealso{

@@ -26,18 +26,25 @@ D. These days people need to look after themselves and not overly worry about ot
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2893/vshow}{GSS Data Explorer page for \code{selffrst}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 86 \tab 358 \tab 289 \tab 508 \tab 114 \tab 11 \tab 6 \tab 2765 \cr
+   2004 \tab 1472 \tab 59 \tab 265 \tab 322 \tab 573 \tab 115 \tab 4 \tab 2 \tab 2812 \cr
+   2012 \tab 666 \tab 61 \tab 358 \tab 274 \tab 521 \tab 77 \tab 8 \tab 9 \tab 1974 \cr
+   2014 \tab 1264 \tab 72 \tab 326 \tab 303 \tab 478 \tab 82 \tab 6 \tab 7 \tab 2538 \cr
+   Total \tab 4795 \tab 278 \tab 1307 \tab 1188 \tab 2080 \tab 388 \tab 29 \tab 24 \tab 10089 \cr
+}
 }
 
 \seealso{

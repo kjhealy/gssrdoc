@@ -21,15 +21,21 @@ Question Thinking about your last full-time job, what year did you last work?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3893/vshow}{GSS Data Explorer page for \code{lastyrwk}}.
+
+Counts by year:\tabular{llllllllllllllllllllll}{
+   year \tab iap \tab 1974 \tab 1976 \tab 1980 \tab 1986 \tab 1989 \tab 1991 \tab 1995 \tab 1997 \tab 1999 \tab 2000 \tab 2001 \tab 2002 \tab 2003 \tab 2004 \tab 2005 \tab 2006 \tab 2007 \tab 2008 \tab don't know \tab Total \cr
+   2008 \tab 1797 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5 \tab 2 \tab 2 \tab 20 \tab 35 \tab 67 \tab 79 \tab 3 \tab 2023 \cr
+   Total \tab 1797 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5 \tab 2 \tab 2 \tab 20 \tab 35 \tab 67 \tab 79 \tab 3 \tab 2023 \cr
+}
 }
 
 \seealso{

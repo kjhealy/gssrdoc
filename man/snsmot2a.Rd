@@ -40,15 +40,21 @@ Question FIRST MENTION:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6282/vshow}{GSS Data Explorer page for \code{snsmot2a}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllll}{
+   year \tab iap \tab youtube \tab myspace \tab reddit \tab viber \tab line \tab plenty of fish \tab kik \tab ravelry \tab wechat \tab imo \tab online dating sites \tab spotify \tab groupme \tab tinder \tab hangouts \tab researchgate \tab online gaming \tab yahoo \tab other social networks \tab not a social network \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2694 \tab 22 \tab 5 \tab 15 \tab 6 \tab 2 \tab 6 \tab 4 \tab 1 \tab 2 \tab 2 \tab 6 \tab 1 \tab 3 \tab 2 \tab 1 \tab 2 \tab 8 \tab 6 \tab 22 \tab 39 \tab 2 \tab 16 \tab 2867 \cr
+   Total \tab 2694 \tab 22 \tab 5 \tab 15 \tab 6 \tab 2 \tab 6 \tab 4 \tab 1 \tab 2 \tab 2 \tab 6 \tab 1 \tab 3 \tab 2 \tab 1 \tab 2 \tab 8 \tab 6 \tab 22 \tab 39 \tab 2 \tab 16 \tab 2867 \cr
+}
 }
 
 \seealso{

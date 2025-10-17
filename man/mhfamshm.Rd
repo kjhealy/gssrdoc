@@ -25,15 +25,21 @@ G. How about (NAME)'s family? Should (NAME)'s family be ashamed if (NAME) receiv
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3794/vshow}{GSS Data Explorer page for \code{mhfamshm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 19 \tab 42 \tab 473 \tab 860 \tab 22 \tab 9 \tab 4510 \cr
+   Total \tab 3085 \tab 19 \tab 42 \tab 473 \tab 860 \tab 22 \tab 9 \tab 4510 \cr
+}
 }
 
 \seealso{

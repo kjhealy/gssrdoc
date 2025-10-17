@@ -24,17 +24,23 @@ B. The second set of characteristics asks if people in the group tend to be hard
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1187/vshow}{GSS Data Explorer page for \code{workasns}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1 - hard-working \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 - lazy \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 143 \tab 192 \tab 302 \tab 375 \tab 132 \tab 52 \tab 24 \tab 126 \tab 26 \tab 1372 \cr
+   1994 \tab 1518 \tab 176 \tab 293 \tab 332 \tab 353 \tab 108 \tab 52 \tab 15 \tab 128 \tab 17 \tab 2992 \cr
+   2000 \tab 1419 \tab 152 \tab 238 \tab 312 \tab 392 \tab 95 \tab 31 \tab 9 \tab 153 \tab 16 \tab 2817 \cr
+   Total \tab 2937 \tab 471 \tab 723 \tab 946 \tab 1120 \tab 335 \tab 135 \tab 48 \tab 407 \tab 59 \tab 7181 \cr
+}
 }
 
 \seealso{

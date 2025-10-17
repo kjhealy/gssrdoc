@@ -24,21 +24,27 @@ Question Generally speaking, would you say that people can be trusted or that yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2004, 2014 \cr
+   B/C/- \tab 2008, 2018, 2021, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4686/vshow}{GSS Data Explorer page for \code{cantrust}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab people can almost always be trusted \tab people can usually be trusted \tab you usually can't be too careful in dealing with people \tab you almost always can't be too careful in dealing with people \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1998 \tab 1548 \tab 67 \tab 538 \tab 494 \tab 117 \tab 37 \tab 31 \tab - \tab 2832 \cr
+   2004 \tab 1340 \tab 55 \tab 650 \tab 617 \tab 142 \tab 1 \tab 7 \tab - \tab 2812 \cr
+   2008 \tab 658 \tab 146 \tab 457 \tab 587 \tab 170 \tab 4 \tab 1 \tab - \tab 2023 \cr
+   2014 \tab 1274 \tab 37 \tab 427 \tab 628 \tab 146 \tab 22 \tab 4 \tab - \tab 2538 \cr
+   2018 \tab 1175 \tab 64 \tab 411 \tab 549 \tab 136 \tab 10 \tab 3 \tab - \tab 2348 \cr
+   2021 \tab 2029 \tab 71 \tab 714 \tab 750 \tab 205 \tab 77 \tab 177 \tab 9 \tab 4032 \cr
+   Total \tab 8024 \tab 440 \tab 3197 \tab 3625 \tab 916 \tab 151 \tab 223 \tab 9 \tab 16585 \cr
+}
 }
 
 \seealso{

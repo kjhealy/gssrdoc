@@ -22,16 +22,22 @@ Question Did you live with your husband/wife before you got married?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4395/vshow}{GSS Data Explorer page for \code{cohabit}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1988 \tab 725 \tab 176 \tab 566 \tab 14 \tab 1481 \cr
+   1994 \tab 2249 \tab 213 \tab 518 \tab 12 \tab 2992 \cr
+   Total \tab 2974 \tab 389 \tab 1084 \tab 26 \tab 4473 \cr
+}
 }
 
 \seealso{

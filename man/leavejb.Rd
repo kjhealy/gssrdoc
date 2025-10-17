@@ -23,15 +23,21 @@ Question Why did you leave your last (full-time) job? Did you leave voluntarily,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3894/vshow}{GSS Data Explorer page for \code{leavejb}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab left voluntarily \tab job was abolished \tab permanently laid off \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1820 \tab 124 \tab 18 \tab 37 \tab 17 \tab 7 \tab 2023 \cr
+   Total \tab 1820 \tab 124 \tab 18 \tab 37 \tab 17 \tab 7 \tab 2023 \cr
+}
 }
 
 \seealso{

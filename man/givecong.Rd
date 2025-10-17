@@ -22,15 +22,21 @@ A. To your local congregation?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1139/vshow}{GSS Data Explorer page for \code{givecong}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 1000 \tab 10000 \tab 104 \tab 1100 \tab 120 \tab 1200 \tab 12000 \tab 125 \tab 1272 \tab 1300 \tab 1325 \tab 13500 \tab 1400 \tab 144 \tab 15 \tab 150 \tab 1500 \tab 1600 \tab 170 \tab 1800 \tab 18000 \tab 2 \tab 20 \tab 200 \tab 2000 \tab 20000 \tab 2080 \tab 22 \tab 2300 \tab 2400 \tab 25 \tab 250 \tab 2500 \tab 25000 \tab 260 \tab 2700 \tab 30 \tab 300 \tab 3000 \tab 3120 \tab 3300 \tab 3400 \tab 350 \tab 3500 \tab 360 \tab 3600 \tab 36000 \tab 375 \tab 3800 \tab 40 \tab 400 \tab 4000 \tab 420 \tab 450 \tab 4500 \tab 5 \tab 50 \tab 500 \tab 5000 \tab 52 \tab 520 \tab 55 \tab 550 \tab 5500 \tab 60 \tab 600 \tab 6000 \tab 60000 \tab 6600 \tab 70 \tab 700 \tab 7000 \tab 72 \tab 75 \tab 750 \tab 800 \tab 8000 \tab 85 \tab 850 \tab 88 \tab 90 \tab 900 \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 570 \tab 2 \tab 17 \tab 87 \tab 51 \tab 1 \tab 1 \tab 1 \tab 5 \tab 18 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 14 \tab 10 \tab 3 \tab 1 \tab 2 \tab 1 \tab 2 \tab 23 \tab 58 \tab 26 \tab 1 \tab 2 \tab 1 \tab 1 \tab 4 \tab 8 \tab 17 \tab 13 \tab 1 \tab 2 \tab 1 \tab 3 \tab 38 \tab 19 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 14 \tab 9 \tab 1 \tab 2 \tab 2 \tab 8 \tab 46 \tab 55 \tab 10 \tab 1 \tab 4 \tab 1 \tab 3 \tab 3 \tab 3 \tab 13 \tab 8 \tab 1 \tab 1 \tab 1 \tab 14 \tab 2 \tab 1 \tab 4 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 98 \tab 88 \tab 2832 \cr
+   Total \tab 1387 \tab 570 \tab 2 \tab 17 \tab 87 \tab 51 \tab 1 \tab 1 \tab 1 \tab 5 \tab 18 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 14 \tab 10 \tab 3 \tab 1 \tab 2 \tab 1 \tab 2 \tab 23 \tab 58 \tab 26 \tab 1 \tab 2 \tab 1 \tab 1 \tab 4 \tab 8 \tab 17 \tab 13 \tab 1 \tab 2 \tab 1 \tab 3 \tab 38 \tab 19 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 14 \tab 9 \tab 1 \tab 2 \tab 2 \tab 8 \tab 46 \tab 55 \tab 10 \tab 1 \tab 4 \tab 1 \tab 3 \tab 3 \tab 3 \tab 13 \tab 8 \tab 1 \tab 1 \tab 1 \tab 14 \tab 2 \tab 1 \tab 4 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 98 \tab 88 \tab 2832 \cr
+}
 }
 
 \seealso{

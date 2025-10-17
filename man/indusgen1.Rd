@@ -25,15 +25,10 @@ Question In general, do you think that air pollution caused by industry is…
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
-}
-
-\section{Link at the GSS}{
-
-For further details see the \href{https://gssdataexplorer.norc.org/variables/7490/vshow}{GSS Data Explorer page for \code{indusgen1}}.
 }
 
 \keyword{variable}

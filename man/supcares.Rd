@@ -25,21 +25,27 @@ G. My supervisor is concerned with the welfare of those under him or her
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2012, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2802/vshow}{GSS Data Explorer page for \code{supcares}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 885 \tab 563 \tab 148 \tab 134 \tab 39 \tab 27 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 809 \tab 550 \tab 149 \tab 123 \tab 70 \tab 33 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 547 \tab 374 \tab 108 \tab 90 \tab 29 \tab 39 \tab - \tab 2044 \cr
+   2012 \tab 795 \tab 502 \tab 399 \tab 88 \tab 105 \tab 46 \tab 39 \tab - \tab 1974 \cr
+   2014 \tab 1288 \tab 627 \tab 392 \tab 123 \tab 68 \tab 25 \tab 15 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 715 \tab 461 \tab 137 \tab 70 \tab 27 \tab 38 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 957 \tab 632 \tab 183 \tab 124 \tab 42 \tab 25 \tab 26 \tab 3544 \cr
+   Total \tab 9140 \tab 5042 \tab 3371 \tab 936 \tab 714 \tab 278 \tab 216 \tab 26 \tab 19723 \cr
+}
 }
 
 \seealso{

@@ -25,18 +25,25 @@ C. A mental illness
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1996/vshow}{GSS Data Explorer page for \code{mentlill}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 285 \tab 460 \tab 395 \tab 216 \tab 64 \tab 24 \tab 2904 \cr
+   2006 \tab 3073 \tab 355 \tab 504 \tab 372 \tab 147 \tab 44 \tab 15 \tab 4510 \cr
+   2018 \tab 1175 \tab 278 \tab 414 \tab 289 \tab 140 \tab 24 \tab 28 \tab 2348 \cr
+   Total \tab 5708 \tab 918 \tab 1378 \tab 1056 \tab 503 \tab 132 \tab 67 \tab 9762 \cr
+}
 }
 
 \seealso{

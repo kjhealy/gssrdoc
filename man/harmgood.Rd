@@ -26,20 +26,28 @@ B. Overall, modern science does more harm than good.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010 \cr
+   A/B/C \tab 1993, 1994, 1998, 2000 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4722/vshow}{GSS Data Explorer page for \code{harmgood}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 50 \tab 200 \tab 306 \tab 686 \tab 217 \tab 38 \tab 60 \tab 1606 \cr
+   1994 \tab 1606 \tab 38 \tab 165 \tab 268 \tab 628 \tab 205 \tab 38 \tab 44 \tab 2992 \cr
+   1998 \tab 1548 \tab 49 \tab 127 \tab 314 \tab 487 \tab 215 \tab 58 \tab 34 \tab 2832 \cr
+   2000 \tab 1541 \tab 47 \tab 185 \tab 294 \tab 457 \tab 167 \tab 37 \tab 89 \tab 2817 \cr
+   2008 \tab 658 \tab 38 \tab 140 \tab 291 \tab 621 \tab 240 \tab 33 \tab 2 \tab 2023 \cr
+   2010 \tab 614 \tab 41 \tab 159 \tab 314 \tab 617 \tab 227 \tab - \tab 72 \tab 2044 \cr
+   Total \tab 6016 \tab 263 \tab 976 \tab 1787 \tab 3496 \tab 1271 \tab 204 \tab 301 \tab 14314 \cr
+}
 }
 
 \seealso{

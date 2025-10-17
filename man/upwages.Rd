@@ -25,15 +25,21 @@ Question The government should ensure that the wages of low-paying jobs increase
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7549/vshow}{GSS Data Explorer page for \code{upwages}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2243 \tab 537 \tab 708 \tab 254 \tab 144 \tab 71 \tab 51 \tab 2 \tab 22 \tab 4032 \cr
+   Total \tab 2243 \tab 537 \tab 708 \tab 254 \tab 144 \tab 71 \tab 51 \tab 2 \tab 22 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

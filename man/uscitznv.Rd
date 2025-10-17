@@ -24,16 +24,22 @@ Question Now we would like to ask you about U.S. citizenship. Are youâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7600/vshow}{GSS Data Explorer page for \code{uscitznv}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a u.s. citizen \tab not a u.s. citizen \tab a u.s. citizen born in puerto rico, the u.s. virgin islands, or the northern marianas islands (phone mode only: v \tab born outside of the u.s. to parents who were u.s. citizens at that time (phone mode only: volunteered) \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 3777 \tab 161 \tab 85 \tab 2 \tab 3 \tab 1 \tab 3 \tab 4032 \cr
+   2022 \tab 3448 \tab 54 \tab 35 \tab 2 \tab 3 \tab - \tab 2 \tab 3544 \cr
+   Total \tab 7225 \tab 215 \tab 120 \tab 4 \tab 6 \tab 1 \tab 5 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

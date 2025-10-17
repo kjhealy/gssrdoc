@@ -25,15 +25,21 @@ Question How likely is it that if you become seriously ill, you would get or not
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7830/vshow}{GSS Data Explorer page for \code{medbest}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab it's certain r would get \tab it's likely r would get \tab equal chance of getting or not getting \tab it's likely r would not get \tab it's certain r would not get \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2382 \tab 242 \tab 418 \tab 284 \tab 130 \tab 33 \tab 48 \tab 3 \tab 4 \tab 3544 \cr
+   Total \tab 2382 \tab 242 \tab 418 \tab 284 \tab 130 \tab 33 \tab 48 \tab 3 \tab 4 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

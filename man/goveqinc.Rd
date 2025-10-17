@@ -26,23 +26,32 @@ B. It is the responsibility of the government to reduce the differences in incom
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 1996, 2000 \cr
+   B/C/- \tab 2008, 2018 \cr
+   Full \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4296/vshow}{GSS Data Explorer page for \code{goveqinc}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 126 \tab 360 \tab 347 \tab 490 \tab 161 \tab 49 \tab 31 \tab - \tab 1819 \cr
+   1993 \tab 49 \tab 103 \tab 364 \tab 311 \tab 456 \tab 240 \tab 37 \tab 46 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 68 \tab 298 \tab 246 \tab 415 \tab 262 \tab 43 \tab 54 \tab - \tab 2992 \cr
+   1996 \tab 1572 \tab 153 \tab 259 \tab 309 \tab 303 \tab 240 \tab 42 \tab 26 \tab - \tab 2904 \cr
+   2000 \tab 269 \tab 236 \tab 562 \tab 592 \tab 595 \tab 350 \tab 77 \tab 136 \tab - \tab 2817 \cr
+   2008 \tab 982 \tab 101 \tab 283 \tab 210 \tab 306 \tab 126 \tab 12 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 93 \tab 322 \tab 244 \tab 432 \tab 279 \tab 55 \tab 5 \tab - \tab 2044 \cr
+   2018 \tab 1175 \tab 110 \tab 266 \tab 265 \tab 355 \tab 149 \tab 26 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 2003 \tab 190 \tab 434 \tab 471 \tab 387 \tab 324 \tab 65 \tab 147 \tab 11 \tab 4032 \cr
+   Total \tab 8525 \tab 1180 \tab 3148 \tab 2995 \tab 3739 \tab 2131 \tab 406 \tab 450 \tab 11 \tab 22585 \cr
+}
 }
 
 \seealso{

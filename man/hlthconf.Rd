@@ -25,15 +25,21 @@ Question (During the past 4 weeks how often...) Have you lost confidence in your
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7823/vshow}{GSS Data Explorer page for \code{hlthconf}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab seldom \tab sometimes \tab often \tab very often \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2381 \tab 556 \tab 252 \tab 209 \tab 68 \tab 47 \tab 19 \tab 3 \tab 9 \tab 3544 \cr
+   Total \tab 2381 \tab 556 \tab 252 \tab 209 \tab 68 \tab 47 \tab 19 \tab 3 \tab 9 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

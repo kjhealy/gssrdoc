@@ -43,18 +43,24 @@ Question Respondent's income on the 1998, 2000, 2002, and 2004 surveys. For ques
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2000, 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/116/vshow}{GSS Data Explorer page for \code{rincom98}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllll}{
+   year \tab iap \tab under $1 000 \tab $1 000 to 2 999 \tab $3 000 to 3 999 \tab $4 000 to 4 999 \tab $5 000 to 5 999 \tab $6 000 to 6 999 \tab $7 000 to 7 999 \tab $8 000 to 9 999 \tab $10000 to 12499 \tab $12500 to 14999 \tab $15000 to 17499 \tab $17500 to 19999 \tab $20000 to 22499 \tab $22500 to 24999 \tab $25000 to 29999 \tab $30000 to 34999 \tab $35000 to 39999 \tab $40000 to 49999 \tab $50000 to 59999 \tab $60000 to 74999 \tab $75000 to $89999 \tab $90000 - $109999 \tab $110000 or over \tab don't know \tab no answer \tab refused \tab Total \cr
+   1998 \tab 798 \tab 42 \tab 42 \tab 40 \tab 27 \tab 32 \tab 43 \tab 41 \tab 63 \tab 110 \tab 89 \tab 92 \tab 106 \tab 127 \tab 111 \tab 160 \tab 169 \tab 107 \tab 178 \tab 109 \tab 64 \tab 37 \tab 20 \tab 40 \tab 26 \tab 41 \tab 118 \tab 2832 \cr
+   2000 \tab 792 \tab 41 \tab 53 \tab 37 \tab 30 \tab 30 \tab 33 \tab 28 \tab 73 \tab 97 \tab 100 \tab 84 \tab 97 \tab 99 \tab 101 \tab 140 \tab 182 \tab 106 \tab 178 \tab 108 \tab 94 \tab 37 \tab 25 \tab 45 \tab 37 \tab 28 \tab 142 \tab 2817 \cr
+   2002 \tab 828 \tab 44 \tab 69 \tab 37 \tab 24 \tab 37 \tab 20 \tab 26 \tab 60 \tab 78 \tab 85 \tab 69 \tab 86 \tab 100 \tab 81 \tab 140 \tab 166 \tab 123 \tab 170 \tab 136 \tab 95 \tab 41 \tab 23 \tab 70 \tab 35 \tab 27 \tab 95 \tab 2765 \cr
+   2004 \tab 923 \tab 38 \tab 48 \tab 27 \tab 36 \tab 22 \tab 28 \tab 22 \tab 35 \tab 69 \tab 74 \tab 70 \tab 75 \tab 99 \tab 80 \tab 110 \tab 144 \tab 101 \tab 183 \tab 105 \tab 123 \tab 68 \tab 43 \tab 88 \tab 48 \tab 40 \tab 113 \tab 2812 \cr
+   Total \tab 3341 \tab 165 \tab 212 \tab 141 \tab 117 \tab 121 \tab 124 \tab 117 \tab 231 \tab 354 \tab 348 \tab 315 \tab 364 \tab 425 \tab 373 \tab 550 \tab 661 \tab 437 \tab 709 \tab 458 \tab 376 \tab 183 \tab 111 \tab 243 \tab 146 \tab 136 \tab 468 \tab 11226 \cr
+}
 }
 
 \seealso{

@@ -26,16 +26,22 @@ A. You have to take care of yourself first, and if you have any energy left over
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1377/vshow}{GSS Data Explorer page for \code{selfirst}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 244 \tab 750 \tab 168 \tab 356 \tab 70 \tab 10 \tab 8 \tab 1606 \cr
+   1996 \tab 1444 \tab 152 \tab 502 \tab 176 \tab 486 \tab 130 \tab 13 \tab 1 \tab 2904 \cr
+   Total \tab 1444 \tab 396 \tab 1252 \tab 344 \tab 842 \tab 200 \tab 23 \tab 9 \tab 4510 \cr
+}
 }
 
 \seealso{

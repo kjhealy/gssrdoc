@@ -24,16 +24,22 @@ A. Which types of school do/did your children attend?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1149/vshow}{GSS Data Explorer page for \code{cathsch}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1998 \tab 2634 \tab 69 \tab 86 \tab 43 \tab 2832 \cr
+   2000 \tab 2540 \tab 115 \tab 134 \tab 28 \tab 2817 \cr
+   Total \tab 5174 \tab 184 \tab 220 \tab 71 \tab 5649 \cr
+}
 }
 
 \seealso{

@@ -24,25 +24,33 @@ NOTE: This variable originates on the NEA follow-on, and should not be analyzed 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7869/vshow}{GSS Data Explorer page for \code{artsout}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab skipped on web \tab Total \cr
+   2022 \tab 2929 \tab 368 \tab 244 \tab 3 \tab 3544 \cr
+   Total \tab 2929 \tab 368 \tab 244 \tab 3 \tab 3544 \cr
+}
 }
 
 \seealso{
 Other NEA: 
-\code{\link{yrartxbt}},
+\code{\link{yrarmus}},
+\code{\link{yrarpo}},
+\code{\link{yrclass}},
 \code{\link{yrcreat}},
-\code{\link{yrlvmus}},
 \code{\link{yrmovie}},
 \code{\link{yrrdg}},
 \code{\link{yrstmus}},
+\code{\link{yrstpo}},
 \code{\link{yrtour}}
 }
 \concept{NEA}

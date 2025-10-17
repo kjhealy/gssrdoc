@@ -23,45 +23,51 @@ C. If some people in your community suggested that a book he wrote against churc
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/- \tab full \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1972, 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/248/vshow}{GSS Data Explorer page for \code{libath}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab remove \tab not remove \tab don't know \tab no answer \tab iap \tab skipped on web \tab Total \cr
+   1972 \tab 577 \tab 975 \tab 55 \tab 6 \tab - \tab - \tab 1613 \cr
+   1973 \tab 556 \tab 915 \tab 30 \tab 3 \tab - \tab - \tab 1504 \cr
+   1974 \tab 558 \tab 887 \tab 37 \tab 2 \tab - \tab - \tab 1484 \cr
+   1976 \tab 569 \tab 892 \tab 36 \tab 2 \tab - \tab - \tab 1499 \cr
+   1977 \tab 604 \tab 894 \tab 27 \tab 5 \tab - \tab - \tab 1530 \cr
+   1980 \tab 521 \tab 909 \tab 38 \tab - \tab - \tab - \tab 1468 \cr
+   1982 \tab 719 \tab 1071 \tab 68 \tab 2 \tab - \tab - \tab 1860 \cr
+   1984 \tab 497 \tab 937 \tab 36 \tab 3 \tab - \tab - \tab 1473 \cr
+   1985 \tab 566 \tab 927 \tab 39 \tab 2 \tab - \tab - \tab 1534 \cr
+   1987 \tab 600 \tab 1166 \tab 43 \tab 10 \tab - \tab - \tab 1819 \cr
+   1988 \tab 330 \tab 622 \tab 20 \tab 5 \tab 504 \tab - \tab 1481 \cr
+   1989 \tab 305 \tab 693 \tab 33 \tab 2 \tab 504 \tab - \tab 1537 \cr
+   1990 \tab 272 \tab 609 \tab 31 \tab 5 \tab 455 \tab - \tab 1372 \cr
+   1991 \tab 279 \tab 686 \tab 25 \tab 3 \tab 524 \tab - \tab 1517 \cr
+   1993 \tab 307 \tab 721 \tab 41 \tab 6 \tab 531 \tab - \tab 1606 \cr
+   1994 \tab 558 \tab 1384 \tab 49 \tab 5 \tab 996 \tab - \tab 2992 \cr
+   1996 \tab 546 \tab 1307 \tab 63 \tab 7 \tab 981 \tab - \tab 2904 \cr
+   1998 \tab 512 \tab 1295 \tab 70 \tab 5 \tab 950 \tab - \tab 2832 \cr
+   2000 \tab 526 \tab 1262 \tab 67 \tab 6 \tab 956 \tab - \tab 2817 \cr
+   2002 \tab 226 \tab 672 \tab 23 \tab 3 \tab 1841 \tab - \tab 2765 \cr
+   2004 \tab 223 \tab 660 \tab 14 \tab 1 \tab 1914 \tab - \tab 2812 \cr
+   2006 \tab 520 \tab 1452 \tab 30 \tab 1 \tab 2507 \tab - \tab 4510 \cr
+   2008 \tab 353 \tab 962 \tab 34 \tab 3 \tab 671 \tab - \tab 2023 \cr
+   2010 \tab 321 \tab 938 \tab 21 \tab 1 \tab 763 \tab - \tab 2044 \cr
+   2012 \tab 302 \tab 973 \tab 31 \tab 2 \tab 666 \tab - \tab 1974 \cr
+   2014 \tab 378 \tab 1312 \tab 20 \tab 4 \tab 824 \tab - \tab 2538 \cr
+   2016 \tab 421 \tab 1436 \tab 27 \tab 6 \tab 977 \tab - \tab 2867 \cr
+   2018 \tab 327 \tab 1211 \tab 32 \tab 4 \tab 774 \tab - \tab 2348 \cr
+   2021 \tab 204 \tab 1106 \tab - \tab 1 \tab 2714 \tab 7 \tab 4032 \cr
+   2022 \tab 222 \tab 917 \tab 18 \tab 2 \tab 2380 \tab 5 \tab 3544 \cr
+   Total \tab 12899 \tab 29791 \tab 1058 \tab 107 \tab 22432 \tab 12 \tab 66299 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question Ocean water for vegetables.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3477/vshow}{GSS Data Explorer page for \code{salth2o}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, because there is plenty of ocean water \tab yes, because ocean water has many natural fertilizers \tab no, because ocean water is too salty for plants grown on land \tab no, because ocean water is much more polluted than rainwater \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 518 \tab 23 \tab 36 \tab 1262 \tab 100 \tab 64 \tab 20 \tab 2023 \cr
+   Total \tab 518 \tab 23 \tab 36 \tab 1262 \tab 100 \tab 64 \tab 20 \tab 2023 \cr
+}
 }
 
 \seealso{

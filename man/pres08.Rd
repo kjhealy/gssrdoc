@@ -27,17 +27,23 @@ Question K. In 2008, you remember that Obama ran for President on the Democratic
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2010, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/173/vshow}{GSS Data Explorer page for \code{pres08}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab obama \tab mccain \tab other candidate (specify) \tab didn't vote \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 650 \tab 805 \tab 497 \tab 41 \tab 4 \tab 2 \tab 45 \tab 2044 \cr
+   2012 \tab 666 \tab 774 \tab 448 \tab 27 \tab 10 \tab 10 \tab 39 \tab 1974 \cr
+   2014 \tab 856 \tab 972 \tab 601 \tab 27 \tab 6 \tab 21 \tab 55 \tab 2538 \cr
+   Total \tab 2172 \tab 2551 \tab 1546 \tab 95 \tab 20 \tab 33 \tab 139 \tab 6556 \cr
+}
 }
 
 \seealso{

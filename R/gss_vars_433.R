@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `clrgmode`](https://gssdataexplorer.norc.org/variables/3968/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |interviewed |self-administered |Total |
+#'  |:-----|:---|:-----------|:-----------------|:-----|
+#'  |2008  |233 |531         |1259              |2023  |
+#'  |Total |233 |531         |1259              |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -45,13 +51,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prespop`](https://gssdataexplorer.norc.org/variables/3969/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |approve |disapprove |don't know |no answer |Total |
+#'  |:-----|:---|:-------|:----------|:----------|:---------|:-----|
+#'  |2012  |675 |633     |541        |91         |34        |1974  |
+#'  |Total |675 |633     |541        |91         |34        |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -77,13 +89,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volactyr`](https://gssdataexplorer.norc.org/variables/3970/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |no answer |Total |
+#'  |:-----|:---|:---|:---|:---------|:-----|
+#'  |2012  |675 |517 |777 |5         |1974  |
+#'  |Total |675 |517 |777 |5         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -109,13 +127,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volacty2`](https://gssdataexplorer.norc.org/variables/3971/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2012  |1192 |96  |681 |5         |1974  |
+#'  |Total |1192 |96  |681 |5         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -144,13 +168,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polefy3`](https://gssdataexplorer.norc.org/variables/3972/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |Total |
+#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:-----|
+#'  |2012  |1328 |95   |206      |189  |69          |52           |32         |3         |1974  |
+#'  |Total |1328 |95   |206      |189  |69          |52           |32         |3         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -179,13 +209,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polefy11`](https://gssdataexplorer.norc.org/variables/3973/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |Total |
+#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:-----|
+#'  |2012  |1328 |162  |224      |170  |40          |23           |23         |4         |1974  |
+#'  |Total |1328 |162  |224      |170  |40          |23           |23         |4         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -214,13 +250,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polefy13`](https://gssdataexplorer.norc.org/variables/3974/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |Total |
+#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:-----|
+#'  |2012  |1328 |29   |117      |284  |152         |41           |19         |4         |1974  |
+#'  |Total |1328 |29   |117      |284  |152         |41           |19         |4         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -249,13 +291,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polefy15`](https://gssdataexplorer.norc.org/variables/3975/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |Total |
+#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:-----|
+#'  |2012  |1328 |49   |142      |256  |143         |46           |8          |2         |1974  |
+#'  |Total |1328 |49   |142      |256  |143         |46           |8          |2         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -284,13 +332,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polefy16`](https://gssdataexplorer.norc.org/variables/3976/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |rarely |sometimes |very often |extremely often |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:------|:---------|:----------|:---------------|:----------|:---------|:-----|
+#'  |2012  |1328 |59    |215    |288       |49         |5               |28         |2         |1974  |
+#'  |Total |1328 |59    |215    |288       |49         |5               |28         |2         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -319,13 +373,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polefy17`](https://gssdataexplorer.norc.org/variables/3977/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |none |a few |some |most |all |don't know |no answer |Total |
+#'  |:-----|:----|:----|:-----|:----|:----|:---|:----------|:---------|:-----|
+#'  |2012  |1328 |62   |247   |241  |59   |5   |31         |1         |1974  |
+#'  |Total |1328 |62   |247   |241  |59   |5   |31         |1         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't

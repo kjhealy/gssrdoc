@@ -12,13 +12,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `numclerg`](https://gssdataexplorer.norc.org/variables/3938/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |2  |3  |5  |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:-----|
+#'  |2008  |1999 |17 |5  |1  |1  |2023  |
+#'  |Total |1999 |17 |5  |1  |1  |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -44,13 +50,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `openrel1`](https://gssdataexplorer.norc.org/variables/3939/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |Total |
+#'  |:-----|:----|:---|:--|:-----|
+#'  |2008  |1999 |2   |22 |2023  |
+#'  |Total |1999 |2   |22 |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -76,13 +88,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `openrel2`](https://gssdataexplorer.norc.org/variables/3940/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |Total |
+#'  |:-----|:----|:---|:--|:-----|
+#'  |2008  |2016 |1   |6  |2023  |
+#'  |Total |2016 |1   |6  |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -108,13 +126,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `openrel3`](https://gssdataexplorer.norc.org/variables/3941/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no |Total |
+#'  |:-----|:----|:--|:-----|
+#'  |2008  |2021 |2  |2023  |
+#'  |Total |2021 |2  |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -140,13 +164,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `counsel1`](https://gssdataexplorer.norc.org/variables/3942/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |Total |
+#'  |:-----|:----|:---|:--|:-----|
+#'  |2008  |2001 |6   |16 |2023  |
+#'  |Total |2001 |6   |16 |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -172,13 +202,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `counsel2`](https://gssdataexplorer.norc.org/variables/3943/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |Total |
+#'  |:-----|:----|:---|:--|:-----|
+#'  |2008  |2017 |1   |5  |2023  |
+#'  |Total |2017 |1   |5  |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -204,13 +240,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `counsel3`](https://gssdataexplorer.norc.org/variables/3944/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no |Total |
+#'  |:-----|:----|:--|:-----|
+#'  |2008  |2021 |2  |2023  |
+#'  |Total |2021 |2  |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -236,13 +278,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `clrgmar1`](https://gssdataexplorer.norc.org/variables/3945/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |Total |
+#'  |:-----|:----|:---|:--|:-----|
+#'  |2008  |2001 |16  |6  |2023  |
+#'  |Total |2001 |16  |6  |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -268,13 +316,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `clrgmar2`](https://gssdataexplorer.norc.org/variables/3946/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |Total |
+#'  |:-----|:----|:---|:-----|
+#'  |2008  |2017 |6   |2023  |
+#'  |Total |2017 |6   |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -300,13 +354,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `clrgmar3`](https://gssdataexplorer.norc.org/variables/3947/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |Total |
+#'  |:-----|:----|:---|:--|:-----|
+#'  |2008  |2021 |1   |1  |2023  |
+#'  |Total |2021 |1   |1  |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex

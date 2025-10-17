@@ -23,17 +23,23 @@ C. And how about 10 years from now? How well do you think democracy will work in
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4962/vshow}{GSS Data Explorer page for \code{dem10fut}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab very poorly \tab 1 \tab very well \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 72 \tab 30 \tab 150 \tab 53 \tab 90 \tab 109 \tab 181 \tab 131 \tab 197 \tab 250 \tab 106 \tab 94 \tab 9 \tab 2812 \cr
+   2014 \tab 1274 \tab 66 \tab 45 \tab 74 \tab 74 \tab 81 \tab 91 \tab 180 \tab 108 \tab 168 \tab 117 \tab 59 \tab 151 \tab 50 \tab 2538 \cr
+   Total \tab 2614 \tab 138 \tab 75 \tab 224 \tab 127 \tab 171 \tab 200 \tab 361 \tab 239 \tab 365 \tab 367 \tab 165 \tab 245 \tab 59 \tab 5350 \cr
+}
 }
 
 \seealso{

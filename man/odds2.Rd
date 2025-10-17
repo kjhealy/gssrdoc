@@ -23,21 +23,30 @@ B. Does this mean that each of the coupleâ€™s children will have the same r
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3333/vshow}{GSS Data Explorer page for \code{odds2}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 1408 \tab 356 \tab 96 \tab 4 \tab 4510 \cr
+   2008 \tab 518 \tab 1079 \tab 311 \tab 101 \tab 14 \tab 2023 \cr
+   2010 \tab 1328 \tab 538 \tab 130 \tab 39 \tab 9 \tab 2044 \cr
+   2012 \tab 972 \tab 700 \tab 213 \tab 81 \tab 8 \tab 1974 \cr
+   2014 \tab 1299 \tab 885 \tab 274 \tab 78 \tab 2 \tab 2538 \cr
+   2016 \tab 1477 \tab 1010 \tab 317 \tab 50 \tab 13 \tab 2867 \cr
+   2018 \tab 1173 \tab 854 \tab 261 \tab 54 \tab 6 \tab 2348 \cr
+   Total \tab 9413 \tab 6474 \tab 1862 \tab 499 \tab 56 \tab 18304 \cr
+}
 }
 
 \seealso{

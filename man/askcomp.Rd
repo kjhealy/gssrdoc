@@ -25,15 +25,21 @@ J. Illegal or unauthorized use of computers
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5217/vshow}{GSS Data Explorer page for \code{askcomp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 1053 \tab 247 \tab 32 \tab 32 \tab 45 \tab 10 \tab 2817 \cr
+   Total \tab 1398 \tab 1053 \tab 247 \tab 32 \tab 32 \tab 45 \tab 10 \tab 2817 \cr
+}
 }
 
 \seealso{

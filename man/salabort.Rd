@@ -24,15 +24,21 @@ D. Laws about abortions
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/735/vshow}{GSS Data Explorer page for \code{salabort}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very often \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
+   1978 \tab - \tab 162 \tab 634 \tab 724 \tab 5 \tab 7 \tab 1532 \cr
+   Total \tab 0 \tab 162 \tab 634 \tab 724 \tab 5 \tab 7 \tab 1532 \cr
+}
 }
 
 \seealso{

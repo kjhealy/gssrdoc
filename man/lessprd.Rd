@@ -25,16 +25,22 @@ Question I am often less proud of America than I would like to be.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4882/vshow}{GSS Data Explorer page for \code{lessprd}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1596 \tab 71 \tab 314 \tab 256 \tab 453 \tab 107 \tab 14 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 74 \tab 400 \tab 259 \tab 428 \tab 72 \tab 35 \tab 6 \tab 2538 \cr
+   Total \tab 2860 \tab 145 \tab 714 \tab 515 \tab 881 \tab 179 \tab 49 \tab 7 \tab 5350 \cr
+}
 }
 
 \seealso{

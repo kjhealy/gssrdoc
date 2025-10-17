@@ -31,15 +31,21 @@ Question Why was the job abolished? Why were you permanently laid off?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3878/vshow}{GSS Data Explorer page for \code{whyjbct2}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab company's sales were declining \tab job requirements changed and i was not able to do the job \tab job moved to another country \tab Total \cr
+   2008 \tab 2016 \tab 5 \tab 1 \tab 1 \tab 2023 \cr
+   Total \tab 2016 \tab 5 \tab 1 \tab 1 \tab 2023 \cr
+}
 }
 
 \seealso{

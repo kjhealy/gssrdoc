@@ -22,16 +22,23 @@ D. About how many of these messages are personal one-to-one, rather than ones yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2598/vshow}{GSS Data Explorer page for \code{emgetp}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 12 \tab 120 \tab 15 \tab 16 \tab 2 \tab 20 \tab 22 \tab 23 \tab 25 \tab 250 \tab 3 \tab 30 \tab 35 \tab 4 \tab 40 \tab 45 \tab 5 \tab 50 \tab 6 \tab 60 \tab 7 \tab 70 \tab 8 \tab 9 \tab 95 \tab don't know \tab no answer \tab 11 \tab 13 \tab 14 \tab 150 \tab 160 \tab 18 \tab 19 \tab 225 \tab 28 \tab 38 \tab 431 \tab 46 \tab 75 \tab 80 \tab 90 \tab Total \cr
+   2000 \tab 2423 \tab 33 \tab 50 \tab 25 \tab 1 \tab 3 \tab 1 \tab 11 \tab 1 \tab 61 \tab 8 \tab 1 \tab 1 \tab 7 \tab 1 \tab 36 \tab 3 \tab 1 \tab 28 \tab 2 \tab 1 \tab 36 \tab 4 \tab 6 \tab 1 \tab 7 \tab 1 \tab 4 \tab 4 \tab 1 \tab 2 \tab 53 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2150 \tab 33 \tab 60 \tab 55 \tab 2 \tab 6 \tab - \tab 20 \tab 2 \tab 89 \tab 18 \tab 2 \tab - \tab 8 \tab - \tab 67 \tab 13 \tab 2 \tab 43 \tab 6 \tab 2 \tab 73 \tab 7 \tab 23 \tab - \tab 8 \tab 1 \tab 15 \tab 2 \tab - \tab - \tab 41 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2765 \cr
+   Total \tab 4573 \tab 66 \tab 110 \tab 80 \tab 3 \tab 9 \tab 1 \tab 31 \tab 3 \tab 150 \tab 26 \tab 3 \tab 1 \tab 15 \tab 1 \tab 103 \tab 16 \tab 3 \tab 71 \tab 8 \tab 3 \tab 109 \tab 11 \tab 29 \tab 1 \tab 15 \tab 2 \tab 19 \tab 6 \tab 1 \tab 2 \tab 94 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

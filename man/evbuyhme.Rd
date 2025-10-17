@@ -22,15 +22,21 @@ Question Have you ever purchased a home (including a condominium or mobile home)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1812/vshow}{GSS Data Explorer page for \code{evbuyhme}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   1996 \tab 2196 \tab 453 \tab 255 \tab 2904 \cr
+   Total \tab 2196 \tab 453 \tab 255 \tab 2904 \cr
+}
 }
 
 \seealso{

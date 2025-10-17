@@ -23,21 +23,30 @@ C. It is the fatherâ€™s gene that decides whether the baby is a boy or a gi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3336/vshow}{GSS Data Explorer page for \code{boyorgrl}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 1175 \tab 371 \tab 317 \tab 1 \tab 4510 \cr
+   2008 \tab 772 \tab 770 \tab 317 \tab 157 \tab 7 \tab 2023 \cr
+   2010 \tab 1103 \tab 573 \tab 229 \tab 137 \tab 2 \tab 2044 \cr
+   2012 \tab 972 \tab 586 \tab 260 \tab 149 \tab 7 \tab 1974 \cr
+   2014 \tab 1299 \tab 713 \tab 336 \tab 188 \tab 2 \tab 2538 \cr
+   2016 \tab 1477 \tab 833 \tab 368 \tab 180 \tab 9 \tab 2867 \cr
+   2018 \tab 1173 \tab 679 \tab 341 \tab 148 \tab 7 \tab 2348 \cr
+   Total \tab 9442 \tab 5329 \tab 2222 \tab 1276 \tab 35 \tab 18304 \cr
+}
 }
 
 \seealso{

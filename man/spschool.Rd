@@ -26,19 +26,28 @@ D. Education.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4060/vshow}{GSS Data Explorer page for \code{spschool}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 139 \tab 279 \tab 201 \tab 25 \tab 5 \tab 11 \tab 17 \tab 1534 \cr
+   1990 \tab 155 \tab 301 \tab 556 \tab 267 \tab 20 \tab 9 \tab 27 \tab 37 \tab 1372 \cr
+   1996 \tab 1572 \tab 371 \tab 621 \tab 222 \tab 47 \tab 21 \tab 17 \tab 33 \tab 2904 \cr
+   2006 \tab 2992 \tab 617 \tab 631 \tab 203 \tab 50 \tab 10 \tab 7 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 427 \tab 650 \tab 243 \tab 39 \tab 14 \tab 7 \tab 10 \tab 2867 \cr
+   Total \tab 7053 \tab 1855 \tab 2737 \tab 1136 \tab 181 \tab 59 \tab 69 \tab 97 \tab 13187 \cr
+}
 }
 
 \seealso{

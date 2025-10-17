@@ -25,18 +25,24 @@ C. America''s economic achievements
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4842/vshow}{GSS Data Explorer page for \code{proudeco}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 374 \tab 675 \tab 194 \tab 39 \tab 53 \tab 32 \tab 2904 \cr
+   2004 \tab 1596 \tab 462 \tab 562 \tab 132 \tab 25 \tab 33 \tab 2 \tab 2812 \cr
+   2014 \tab 1264 \tab 302 \tab 589 \tab 230 \tab 70 \tab 80 \tab 3 \tab 2538 \cr
+   Total \tab 4397 \tab 1138 \tab 1826 \tab 556 \tab 134 \tab 166 \tab 37 \tab 8254 \cr
+}
 }
 
 \seealso{

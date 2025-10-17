@@ -26,28 +26,33 @@ IF AGAINST:Do you oppose preference in hiring and promotion strongly or not stro
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B \tab partial \cr
-   2000 \tab A/B \tab partial \cr
-   2002 \tab A/B \tab partial \cr
-   2004 \tab A/B \tab partial \cr
-   2006 \tab A/B \tab partial \cr
-   2008 \tab A/B \tab partial \cr
-   2010 \tab A/B \tab partial \cr
-   2012 \tab A/B \tab partial \cr
-   2014 \tab A/B \tab partial \cr
-   2016 \tab A/B \tab partial \cr
-   2018 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 1996, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1656/vshow}{GSS Data Explorer page for \code{fejobaff}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly favor \tab not strongly favor \tab not strongly oppose \tab strongly oppose \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1996 \tab 1913 \tab 152 \tab 95 \tab 240 \tab 446 \tab 49 \tab 9 \tab - \tab 2904 \cr
+   2000 \tab 1869 \tab 175 \tab 101 \tab 251 \tab 314 \tab 62 \tab 45 \tab - \tab 2817 \cr
+   2002 \tab 2327 \tab 87 \tab 42 \tab 124 \tab 172 \tab 13 \tab - \tab - \tab 2765 \cr
+   2004 \tab 2359 \tab 69 \tab 40 \tab 123 \tab 209 \tab 10 \tab 2 \tab - \tab 2812 \cr
+   2006 \tab 3516 \tab 230 \tab 98 \tab 265 \tab 369 \tab 32 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1375 \tab 140 \tab 64 \tab 168 \tab 238 \tab 32 \tab 6 \tab - \tab 2023 \cr
+   2010 \tab 1313 \tab 140 \tab 85 \tab 186 \tab 282 \tab 35 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 1314 \tab 143 \tab 74 \tab 173 \tab 238 \tab 30 \tab 2 \tab - \tab 1974 \cr
+   2014 \tab 1712 \tab 180 \tab 85 \tab 253 \tab 272 \tab 32 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 1931 \tab 216 \tab 99 \tab 265 \tab 316 \tab 37 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab 1554 \tab 207 \tab 79 \tab 215 \tab 249 \tab 39 \tab 5 \tab - \tab 2348 \cr
+   2021 \tab 2699 \tab 257 \tab 235 \tab 352 \tab 479 \tab 10 \tab - \tab - \tab 4032 \cr
+   2022 \tab 2339 \tab 303 \tab 214 \tab 291 \tab 352 \tab 37 \tab 7 \tab 1 \tab 3544 \cr
+   Total \tab 26221 \tab 2299 \tab 1311 \tab 2906 \tab 3936 \tab 418 \tab 86 \tab 1 \tab 37178 \cr
+}
 }
 
 \seealso{

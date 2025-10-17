@@ -25,16 +25,23 @@ A. Economists. (Would you say a great deal of influence, a fair amount, a little
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3381/vshow}{GSS Data Explorer page for \code{ecoinftx}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3574 \tab 188 \tab 466 \tab 176 \tab 45 \tab 61 \tab - \tab 4510 \cr
+   2010 \tab 1578 \tab 87 \tab 239 \tab 88 \tab 23 \tab 25 \tab 4 \tab 2044 \cr
+   Total \tab 5152 \tab 275 \tab 705 \tab 264 \tab 68 \tab 86 \tab 4 \tab 6554 \cr
+}
 }
 
 \seealso{

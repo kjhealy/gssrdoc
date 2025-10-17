@@ -25,16 +25,22 @@ L. Healer
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/333/vshow}{GSS Data Explorer page for \code{healer}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
+   1983 \tab - \tab 1075 \tab 322 \tab 77 \tab 78 \tab 30 \tab 17 \tab 1599 \cr
+   1984 \tab 989 \tab 332 \tab 101 \tab 15 \tab 20 \tab 5 \tab 11 \tab 1473 \cr
+   Total \tab 989 \tab 1407 \tab 423 \tab 92 \tab 98 \tab 35 \tab 28 \tab 3072 \cr
+}
 }
 
 \seealso{

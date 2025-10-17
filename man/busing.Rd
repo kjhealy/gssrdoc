@@ -22,31 +22,39 @@ Question A. In general, do you favor or oppose the busing of (Negro/Black/Africa
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1988 \tab A/B/- \tab partial \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/- \tab partial \cr
-   1993 \tab A/B/- \tab partial \cr
-   1994 \tab A/B/- \tab partial \cr
-   1996 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1988, 1989, 1991, 1993, 1994, 1996 \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1972, 1974, 1975, 1976, 1977, 1978, 1982, 1983, 1985, 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/398/vshow}{GSS Data Explorer page for \code{busing}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab favor \tab oppose \tab don't know \tab no answer \tab iap \tab Total \cr
+   1972 \tab 313 \tab 1231 \tab 62 \tab 7 \tab - \tab 1613 \cr
+   1974 \tab 298 \tab 1129 \tab 54 \tab 3 \tab - \tab 1484 \cr
+   1975 \tab 256 \tab 1161 \tab 69 \tab 4 \tab - \tab 1490 \cr
+   1976 \tab 236 \tab 1223 \tab 39 \tab 1 \tab - \tab 1499 \cr
+   1977 \tab 248 \tab 1234 \tab 40 \tab 8 \tab - \tab 1530 \cr
+   1978 \tab 306 \tab 1153 \tab 57 \tab 16 \tab - \tab 1532 \cr
+   1982 \tab 480 \tab 1316 \tab 58 \tab 6 \tab - \tab 1860 \cr
+   1983 \tab 365 \tab 1123 \tab 90 \tab 21 \tab - \tab 1599 \cr
+   1985 \tab 336 \tab 1143 \tab 46 \tab 9 \tab - \tab 1534 \cr
+   1986 \tab 431 \tab 993 \tab 40 \tab 6 \tab - \tab 1470 \cr
+   1988 \tab 320 \tab 621 \tab 44 \tab 3 \tab 493 \tab 1481 \cr
+   1989 \tab 278 \tab 666 \tab 58 \tab 4 \tab 531 \tab 1537 \cr
+   1990 \tab 451 \tab 839 \tab 80 \tab 2 \tab - \tab 1372 \cr
+   1991 \tab 350 \tab 611 \tab 55 \tab 8 \tab 493 \tab 1517 \cr
+   1993 \tab 310 \tab 680 \tab 86 \tab 4 \tab 526 \tab 1606 \cr
+   1994 \tab 623 \tab 1236 \tab 107 \tab 11 \tab 1015 \tab 2992 \cr
+   1996 \tab 350 \tab 576 \tab 62 \tab 3 \tab 1913 \tab 2904 \cr
+   Total \tab 5951 \tab 16935 \tab 1047 \tab 116 \tab 4971 \tab 29020 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ A. From Free of Doubt to Mixed with doubts
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1093/vshow}{GSS Data Explorer page for \code{myfaith}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab faith free of doubt \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab faith mixed w doubt \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 401 \tab 267 \tab 230 \tab 241 \tab 138 \tab 73 \tab 105 \tab 7 \tab 19 \tab 1481 \cr
+   Total \tab 0 \tab 401 \tab 267 \tab 230 \tab 241 \tab 138 \tab 73 \tab 105 \tab 7 \tab 19 \tab 1481 \cr
+}
 }
 
 \seealso{

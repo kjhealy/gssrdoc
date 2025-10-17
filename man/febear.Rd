@@ -22,16 +22,23 @@ Question If the husband in a family wants children, but the wife decides that sh
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab -/-/- \tab full \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
+   Full \tab 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/717/vshow}{GSS Data Explorer page for \code{febear}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1977 \tab - \tab 902 \tab 471 \tab 147 \tab 10 \tab 1530 \cr
+   1996 \tab 2149 \tab 576 \tab 123 \tab 49 \tab 7 \tab 2904 \cr
+   Total \tab 2149 \tab 1478 \tab 594 \tab 196 \tab 17 \tab 4434 \cr
+}
 }
 
 \seealso{

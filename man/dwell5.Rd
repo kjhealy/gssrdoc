@@ -22,16 +22,22 @@ Question In the last five years, have you been forced to move or prevented from 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3927/vshow}{GSS Data Explorer page for \code{dwell5}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2008 \tab 1995 \tab 1 \tab 1 \tab 26 \tab 2023 \cr
+   2012 \tab 1925 \tab 1 \tab 2 \tab 46 \tab 1974 \cr
+   Total \tab 3920 \tab 2 \tab 3 \tab 72 \tab 3997 \cr
+}
 }
 
 \seealso{

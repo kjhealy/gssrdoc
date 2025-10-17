@@ -25,16 +25,23 @@ Question A. How difficult or easy do you think it would be for you to find a job
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4618/vshow}{GSS Data Explorer page for \code{jobeasy}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 3492 \tab 158 \tab 292 \tab 175 \tab 266 \tab 120 \tab 4 \tab 3 \tab 4510 \cr
+   2016 \tab 1927 \tab 120 \tab 282 \tab 158 \tab 266 \tab 107 \tab 2 \tab 5 \tab 2867 \cr
+   Total \tab 5419 \tab 278 \tab 574 \tab 333 \tab 532 \tab 227 \tab 6 \tab 8 \tab 7377 \cr
+}
 }
 
 \seealso{

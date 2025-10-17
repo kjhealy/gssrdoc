@@ -24,15 +24,21 @@ Question How frequently are you in a public place where you see someone who seem
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3568/vshow}{GSS Data Explorer page for \code{seemhpub}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab almost never \tab never \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3073 \tab 329 \tab 468 \tab 460 \tab 148 \tab 20 \tab 12 \tab 4510 \cr
+   Total \tab 3073 \tab 329 \tab 468 \tab 460 \tab 148 \tab 20 \tab 12 \tab 4510 \cr
+}
 }
 
 \seealso{

@@ -30,18 +30,24 @@ Did you vote for Clinton, Bush, or Perot?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994, 1996, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/161/vshow}{GSS Data Explorer page for \code{pres92}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab clinton \tab bush \tab perot \tab other \tab no pres. vote \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 493 \tab 464 \tab 416 \tab 200 \tab 4 \tab 2 \tab 8 \tab 19 \tab 1606 \cr
+   1994 \tab 938 \tab 940 \tab 699 \tab 349 \tab 5 \tab 6 \tab 23 \tab 32 \tab 2992 \cr
+   1996 \tab 995 \tab 913 \tab 662 \tab 278 \tab 5 \tab - \tab 28 \tab 23 \tab 2904 \cr
+   1998 \tab 1034 \tab 817 \tab 672 \tab 212 \tab 7 \tab 7 \tab 43 \tab 40 \tab 2832 \cr
+   Total \tab 3460 \tab 3134 \tab 2449 \tab 1039 \tab 21 \tab 15 \tab 102 \tab 114 \tab 10334 \cr
+}
 }
 
 \seealso{

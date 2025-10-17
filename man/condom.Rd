@@ -22,28 +22,35 @@ Question The last time you had sex, was a condom used? By "sex" we mean vaginal,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5068/vshow}{GSS Data Explorer page for \code{condom}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab used last time \tab not used \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1996 \tab 258 \tab 516 \tab 1959 \tab 3 \tab 168 \tab - \tab 2904 \cr
+   1998 \tab 383 \tab 457 \tab 1832 \tab 4 \tab 156 \tab - \tab 2832 \cr
+   2000 \tab 417 \tab 483 \tab 1719 \tab 2 \tab 196 \tab - \tab 2817 \cr
+   2002 \tab 476 \tab 499 \tab 1656 \tab 19 \tab 115 \tab - \tab 2765 \cr
+   2004 \tab 570 \tab 426 \tab 1699 \tab 17 \tab 100 \tab - \tab 2812 \cr
+   2006 \tab 2096 \tab 545 \tab 1758 \tab 26 \tab 85 \tab - \tab 4510 \cr
+   2008 \tab 240 \tab 419 \tab 1299 \tab 12 \tab 53 \tab - \tab 2023 \cr
+   2010 \tab 202 \tab 418 \tab 1338 \tab 11 \tab 75 \tab - \tab 2044 \cr
+   2012 \tab 238 \tab 360 \tab 1282 \tab 12 \tab 82 \tab - \tab 1974 \cr
+   2014 \tab 188 \tab 509 \tab 1732 \tab 11 \tab 98 \tab - \tab 2538 \cr
+   2016 \tab 1096 \tab 375 \tab 1316 \tab 4 \tab 76 \tab - \tab 2867 \cr
+   2018 \tab 942 \tab 282 \tab 1057 \tab 9 \tab 58 \tab - \tab 2348 \cr
+   2021 \tab 1705 \tab 356 \tab 1801 \tab 106 \tab 7 \tab 57 \tab 4032 \cr
+   2022 \tab 1899 \tab 286 \tab 1158 \tab 107 \tab 13 \tab 81 \tab 3544 \cr
+   Total \tab 10710 \tab 5931 \tab 21606 \tab 343 \tab 1282 \tab 138 \tab 40010 \cr
+}
 }
 
 \seealso{

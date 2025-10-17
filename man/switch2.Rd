@@ -56,15 +56,21 @@ A. Starting when you were 16 years old, what other religious preferences have yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1051/vshow}{GSS Data Explorer page for \code{switch2}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab amer baptist assoc \tab amer bapt ch in us \tab southern bapt con \tab other baptist church \tab baptist, dk which \tab united methodist ch \tab other methodist ch \tab methodist, dk which \tab amer lutheran church \tab other lutheran churc \tab lutheran, dk which \tab united pres ch in us \tab other presbyterian \tab presbyterian, dk whi \tab episcopal church \tab 160012 \tab 160014 \tab 160027 \tab 160035 \tab 160036 \tab 160040 \tab 160044 \tab 160045 \tab 160047 \tab 160051 \tab 160053 \tab 160058 \tab 160059 \tab 160060 \tab 160064 \tab 160065 \tab 160067 \tab 160068 \tab 160077 \tab 160080 \tab 160081 \tab 160095 \tab 160096 \tab 160097 \tab 160102 \tab no denomination \tab catholic \tab none \tab other religion \tab no answer \tab Total \cr
+   1988 \tab 1200 \tab 3 \tab 1 \tab 3 \tab 2 \tab 9 \tab 9 \tab 4 \tab 2 \tab 1 \tab 2 \tab 8 \tab 1 \tab 1 \tab 3 \tab 4 \tab 4 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 6 \tab 18 \tab 3 \tab 8 \tab 155 \tab 1481 \cr
+   Total \tab 1200 \tab 3 \tab 1 \tab 3 \tab 2 \tab 9 \tab 9 \tab 4 \tab 2 \tab 1 \tab 2 \tab 8 \tab 1 \tab 1 \tab 3 \tab 4 \tab 4 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 6 \tab 18 \tab 3 \tab 8 \tab 155 \tab 1481 \cr
+}
 }
 
 \seealso{

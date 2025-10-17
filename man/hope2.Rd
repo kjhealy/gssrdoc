@@ -30,15 +30,21 @@ At the present time, I am energetically pursuing my goals.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6204/vshow}{GSS Data Explorer page for \code{hope2}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab definitely false \tab mostly false \tab somewhat false \tab slightly false \tab slightly true \tab somewhat true \tab mostly true \tab definitely true \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1409 \tab 53 \tab 53 \tab 68 \tab 67 \tab 229 \tab 291 \tab 403 \tab 274 \tab 7 \tab 13 \tab 2867 \cr
+   Total \tab 1409 \tab 53 \tab 53 \tab 68 \tab 67 \tab 229 \tab 291 \tab 403 \tab 274 \tab 7 \tab 13 \tab 2867 \cr
+}
 }
 
 \seealso{

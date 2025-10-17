@@ -24,15 +24,21 @@ A. Was your father self-employed, or did he work for someone else?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4315/vshow}{GSS Data Explorer page for \code{paslf}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab self-employed \tab someone else \tab no dad-never had job \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 372 \tab 920 \tab 84 \tab 188 \tab 1819 \cr
+   Total \tab 255 \tab 372 \tab 920 \tab 84 \tab 188 \tab 1819 \cr
+}
 }
 
 \seealso{

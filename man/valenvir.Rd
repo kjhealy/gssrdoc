@@ -23,15 +23,21 @@ E. Environment
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1964/vshow}{GSS Data Explorer page for \code{valenvir}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 0 \tab 100 \tab 1000 \tab 125 \tab 15 \tab 25 \tab 450 \tab 5 \tab 500 \tab 5000 \tab 75 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2774 \tab 58 \tab 5 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 53 \tab 2904 \cr
+   Total \tab 2774 \tab 58 \tab 5 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 53 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -26,16 +26,23 @@ Question Is (NAME) Asian, Black, Hispanic, White or something else?  ASK FOR EAC
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/871/vshow}{GSS Data Explorer page for \code{race2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab asian \tab black \tab hispanic \tab white \tab other \tab no answer \tab Total \cr
+   1985 \tab 364 \tab 9 \tab 86 \tab 37 \tab 1028 \tab 5 \tab 5 \tab 1534 \cr
+   2004 \tab 1977 \tab 21 \tab 73 \tab 43 \tab 639 \tab 12 \tab 47 \tab 2812 \cr
+   Total \tab 2341 \tab 30 \tab 159 \tab 80 \tab 1667 \tab 17 \tab 52 \tab 4346 \cr
+}
 }
 
 \seealso{

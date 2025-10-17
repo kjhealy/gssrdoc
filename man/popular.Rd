@@ -29,37 +29,43 @@ C. Which comes fourth?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
-   1996 \tab B/C \tab partial \cr
-   1998 \tab B/C \tab partial \cr
-   2000 \tab B/C \tab partial \cr
-   2002 \tab B/C \tab partial \cr
-   2004 \tab B/C \tab partial \cr
-   2006 \tab B/C \tab partial \cr
-   2008 \tab B/C \tab partial \cr
-   2010 \tab B/C \tab partial \cr
-   2012 \tab B/C \tab partial \cr
-   2014 \tab B/C \tab partial \cr
-   2016 \tab B/C \tab partial \cr
-   2018 \tab B/C \tab partial \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/514/vshow}{GSS Data Explorer page for \code{popular}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab first \tab second \tab third \tab fourth \tab fifth \tab no answer \tab Total \cr
+   1986 \tab 730 \tab 4 \tab 28 \tab 33 \tab 142 \tab 525 \tab 8 \tab 1470 \cr
+   1987 \tab - \tab 15 \tab 77 \tab 99 \tab 392 \tab 1217 \tab 19 \tab 1819 \cr
+   1988 \tab 484 \tab 7 \tab 45 \tab 54 \tab 188 \tab 683 \tab 20 \tab 1481 \cr
+   1989 \tab 502 \tab 11 \tab 33 \tab 55 \tab 188 \tab 713 \tab 35 \tab 1537 \cr
+   1990 \tab 473 \tab 8 \tab 18 \tab 50 \tab 181 \tab 614 \tab 28 \tab 1372 \cr
+   1991 \tab 500 \tab 4 \tab 27 \tab 57 \tab 185 \tab 709 \tab 35 \tab 1517 \cr
+   1993 \tab 549 \tab 11 \tab 26 \tab 49 \tab 193 \tab 752 \tab 26 \tab 1606 \cr
+   1994 \tab 981 \tab 9 \tab 43 \tab 78 \tab 330 \tab 1518 \tab 33 \tab 2992 \cr
+   1996 \tab 979 \tab 13 \tab 35 \tab 64 \tab 344 \tab 1439 \tab 30 \tab 2904 \cr
+   1998 \tab 921 \tab 19 \tab 41 \tab 66 \tab 330 \tab 1424 \tab 31 \tab 2832 \cr
+   2000 \tab 921 \tab 9 \tab 26 \tab 71 \tab 335 \tab 1422 \tab 33 \tab 2817 \cr
+   2002 \tab 1853 \tab 4 \tab 11 \tab 32 \tab 178 \tab 674 \tab 13 \tab 2765 \cr
+   2004 \tab 1936 \tab 7 \tab 14 \tab 29 \tab 153 \tab 665 \tab 8 \tab 2812 \cr
+   2006 \tab 3508 \tab 7 \tab 13 \tab 28 \tab 155 \tab 792 \tab 7 \tab 4510 \cr
+   2008 \tab 658 \tab 12 \tab 14 \tab 38 \tab 254 \tab 1033 \tab 14 \tab 2023 \cr
+   2010 \tab 667 \tab 5 \tab 22 \tab 46 \tab 243 \tab 1033 \tab 28 \tab 2044 \cr
+   2012 \tab 636 \tab 7 \tab 21 \tab 32 \tab 255 \tab 1008 \tab 15 \tab 1974 \cr
+   2014 \tab 851 \tab 4 \tab 20 \tab 51 \tab 329 \tab 1266 \tab 17 \tab 2538 \cr
+   2016 \tab 911 \tab 11 \tab 23 \tab 51 \tab 376 \tab 1473 \tab 22 \tab 2867 \cr
+   2018 \tab 785 \tab 5 \tab 17 \tab 42 \tab 306 \tab 1172 \tab 21 \tab 2348 \cr
+   2021 \tab 1360 \tab 21 \tab 20 \tab 48 \tab 663 \tab 1821 \tab 99 \tab 4032 \cr
+   2022 \tab 1173 \tab 18 \tab 24 \tab 67 \tab 593 \tab 1592 \tab 77 \tab 3544 \cr
+   Total \tab 21378 \tab 211 \tab 598 \tab 1140 \tab 6313 \tab 23545 \tab 619 \tab 53804 \cr
+}
 }
 
 \seealso{

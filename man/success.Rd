@@ -29,20 +29,26 @@ D. And which one of these three is least important of all?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
-   1975 \tab - \tab full \cr
-   1976 \tab - \tab full \cr
-   1978 \tab - \tab full \cr
-   1980 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973, 1975, 1976, 1978, 1980, 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/475/vshow}{GSS Data Explorer page for \code{success}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 1 most desirable \tab 3 most desirable \tab not mentioned \tab 3 least desirable \tab 1 least desirable \tab no answer \tab don't know \tab Total \cr
+   1973 \tab - \tab 37 \tab 168 \tab 885 \tab 311 \tab 99 \tab 4 \tab - \tab 1504 \cr
+   1975 \tab - \tab 34 \tab 141 \tab 941 \tab 301 \tab 64 \tab 9 \tab - \tab 1490 \cr
+   1976 \tab - \tab 39 \tab 148 \tab 923 \tab 305 \tab 75 \tab 9 \tab - \tab 1499 \cr
+   1978 \tab - \tab 41 \tab 181 \tab 881 \tab 344 \tab 73 \tab 10 \tab 2 \tab 1532 \cr
+   1980 \tab 975 \tab 22 \tab 58 \tab 305 \tab 83 \tab 21 \tab 3 \tab 1 \tab 1468 \cr
+   1983 \tab - \tab 42 \tab 195 \tab 990 \tab 292 \tab 60 \tab 20 \tab - \tab 1599 \cr
+   Total \tab 975 \tab 215 \tab 891 \tab 4925 \tab 1636 \tab 392 \tab 55 \tab 3 \tab 9092 \cr
+}
 }
 
 \seealso{

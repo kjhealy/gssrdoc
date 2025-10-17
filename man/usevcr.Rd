@@ -23,15 +23,21 @@ M. Record a TV program so you could watch it later.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1417/vshow}{GSS Data Explorer page for \code{usevcr}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 951 \tab 643 \tab 1 \tab 11 \tab 1606 \cr
+   Total \tab 0 \tab 951 \tab 643 \tab 1 \tab 11 \tab 1606 \cr
+}
 }
 
 \seealso{

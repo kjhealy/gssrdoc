@@ -22,15 +22,21 @@ Question Currently under federal law, very high power, 50-caliber rifles that ca
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3704/vshow}{GSS Data Explorer page for \code{rifles50}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab restricted to the police and military \tab available to civilians like other hunting rifles \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3139 \tab 1151 \tab 187 \tab 21 \tab 12 \tab 4510 \cr
+   Total \tab 3139 \tab 1151 \tab 187 \tab 21 \tab 12 \tab 4510 \cr
+}
 }
 
 \seealso{

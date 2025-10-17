@@ -23,15 +23,21 @@ Question Compared to 10 years ago do Hispanics and Asians make up a larger share
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1612/vshow}{GSS Data Explorer page for \code{hspasn10}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab larger share \tab same share \tab smaller share \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 728 \tab 408 \tab 172 \tab 157 \tab 9 \tab 2992 \cr
+   Total \tab 1518 \tab 728 \tab 408 \tab 172 \tab 157 \tab 9 \tab 2992 \cr
+}
 }
 
 \seealso{

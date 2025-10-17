@@ -23,15 +23,21 @@ J. Felt overjoyed about something?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1715/vshow}{GSS Data Explorer page for \code{ovrjoyed}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1444 \tab 584 \tab 264 \tab 185 \tab 145 \tab 73 \tab 56 \tab 30 \tab 107 \tab 12 \tab 4 \tab 2904 \cr
+   Total \tab 1444 \tab 584 \tab 264 \tab 185 \tab 145 \tab 73 \tab 56 \tab 30 \tab 107 \tab 12 \tab 4 \tab 2904 \cr
+}
 }
 
 \seealso{

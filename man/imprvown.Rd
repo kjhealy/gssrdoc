@@ -24,17 +24,24 @@ Question In your opinion, how likely is it that NAME's situation will improve on
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2001/vshow}{GSS Data Explorer page for \code{imprvown}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 137 \tab 256 \tab 335 \tab 668 \tab 34 \tab 14 \tab 2904 \cr
+   2006 \tab 3073 \tab 113 \tab 324 \tab 529 \tab 407 \tab 49 \tab 15 \tab 4510 \cr
+   2018 \tab 1175 \tab 89 \tab 247 \tab 392 \tab 395 \tab 22 \tab 28 \tab 2348 \cr
+   Total \tab 5708 \tab 339 \tab 827 \tab 1256 \tab 1470 \tab 105 \tab 57 \tab 9762 \cr
+}
 }
 
 \seealso{

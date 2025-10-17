@@ -27,15 +27,21 @@ E. I feel God's love for me, directly or through others.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2112/vshow}{GSS Data Explorer page for \code{godlove}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never/almst nevr \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 237 \tab 372 \tab 246 \tab 210 \tab 182 \tab 143 \tab 21 \tab 34 \tab 2832 \cr
+   Total \tab 1387 \tab 237 \tab 372 \tab 246 \tab 210 \tab 182 \tab 143 \tab 21 \tab 34 \tab 2832 \cr
+}
 }
 
 \seealso{

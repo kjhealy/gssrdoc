@@ -31,27 +31,34 @@ H. Egypt
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1974, 1975, 1977, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5497/vshow}{GSS Data Explorer page for \code{egypt}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab not available in this year \tab +5 \tab +4 \tab +3 \tab +2 \tab +1 \tab -1 \tab -2 \tab -3 \tab -4 \tab -5 \tab dk, na, iap \tab iap \tab Total \cr
+   1974 \tab - \tab 56 \tab 81 \tab 140 \tab 154 \tab 284 \tab 198 \tab 125 \tab 101 \tab 79 \tab 139 \tab 127 \tab - \tab 1484 \cr
+   1975 \tab - \tab 43 \tab 47 \tab 113 \tab 150 \tab 309 \tab 224 \tab 125 \tab 121 \tab 80 \tab 129 \tab 149 \tab - \tab 1490 \cr
+   1977 \tab - \tab 72 \tab 63 \tab 148 \tab 168 \tab 335 \tab 254 \tab 92 \tab 75 \tab 55 \tab 82 \tab 186 \tab - \tab 1530 \cr
+   1982 \tab - \tab 117 \tab 167 \tab 280 \tab 244 \tab 386 \tab 180 \tab 79 \tab 80 \tab 45 \tab 73 \tab 209 \tab - \tab 1860 \cr
+   1983 \tab - \tab 85 \tab 106 \tab 201 \tab 206 \tab 387 \tab 205 \tab 97 \tab 89 \tab 43 \tab 55 \tab 125 \tab - \tab 1599 \cr
+   1985 \tab - \tab 70 \tab 97 \tab 200 \tab 201 \tab 386 \tab 174 \tab 95 \tab 81 \tab 36 \tab 55 \tab 139 \tab - \tab 1534 \cr
+   1986 \tab - \tab 62 \tab 78 \tab 143 \tab 210 \tab 359 \tab 210 \tab 98 \tab 88 \tab 39 \tab 89 \tab 94 \tab - \tab 1470 \cr
+   1988 \tab - \tab 58 \tab 50 \tab 107 \tab 98 \tab 228 \tab 137 \tab 63 \tab 58 \tab 20 \tab 60 \tab 602 \tab - \tab 1481 \cr
+   1989 \tab - \tab 36 \tab 52 \tab 88 \tab 118 \tab 228 \tab 147 \tab 76 \tab 45 \tab 24 \tab 76 \tab 647 \tab - \tab 1537 \cr
+   1990 \tab - \tab 46 \tab 35 \tab 99 \tab 109 \tab 246 \tab 110 \tab 60 \tab 38 \tab 23 \tab 58 \tab 548 \tab - \tab 1372 \cr
+   1991 \tab - \tab 78 \tab 65 \tab 168 \tab 130 \tab 240 \tab 102 \tab 44 \tab 32 \tab 20 \tab 51 \tab 587 \tab - \tab 1517 \cr
+   1993 \tab - \tab 66 \tab 61 \tab 108 \tab 117 \tab 283 \tab 140 \tab 56 \tab 60 \tab 36 \tab 57 \tab 622 \tab - \tab 1606 \cr
+   1994 \tab - \tab 30 \tab 29 \tab 46 \tab 48 \tab 152 \tab 54 \tab 36 \tab 25 \tab 10 \tab 24 \tab 2538 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 819 \tab 931 \tab 1841 \tab 1953 \tab 3823 \tab 2135 \tab 1046 \tab 893 \tab 510 \tab 948 \tab 6573 \tab 0 \tab 21472 \cr
+}
 }
 
 \seealso{

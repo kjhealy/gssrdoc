@@ -25,16 +25,22 @@ Question How would you rate the respondent's weight?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6661/vshow}{GSS Data Explorer page for \code{rweight}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very overweight \tab slightly overweight \tab about the right weight \tab slightly underweight \tab very underweight \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab - \tab 162 \tab 705 \tab 1579 \tab 185 \tab 24 \tab 5 \tab 207 \tab - \tab 2867 \cr
+   2018 \tab - \tab 148 \tab 514 \tab 1226 \tab 144 \tab 16 \tab 5 \tab 295 \tab - \tab 2348 \cr
+   Total \tab 0 \tab 310 \tab 1219 \tab 2805 \tab 329 \tab 40 \tab 10 \tab 502 \tab 0 \tab 5215 \cr
+}
 }
 
 \keyword{variable}

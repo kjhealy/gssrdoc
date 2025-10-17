@@ -24,15 +24,21 @@ D. Lack of effort by the poor themselves
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1173/vshow}{GSS Data Explorer page for \code{whypoor4}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not important \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 620 \tab 602 \tab 115 \tab 29 \tab 6 \tab 1372 \cr
+   Total \tab 0 \tab 620 \tab 602 \tab 115 \tab 29 \tab 6 \tab 1372 \cr
+}
 }
 
 \seealso{

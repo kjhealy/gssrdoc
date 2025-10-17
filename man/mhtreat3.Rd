@@ -23,15 +23,21 @@ Question Is (NAME 3) currently receiving treatment for their mental health probl
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7122/vshow}{GSS Data Explorer page for \code{mhtreat3}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab unsure \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 2095 \tab 122 \tab 89 \tab 35 \tab 1 \tab 6 \tab 2348 \cr
+   Total \tab 2095 \tab 122 \tab 89 \tab 35 \tab 1 \tab 6 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

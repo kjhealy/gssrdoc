@@ -22,44 +22,50 @@ Question A. Have you seen an X-rated movie in the last year?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
-   1996 \tab B/C \tab partial \cr
-   1998 \tab B/C \tab partial \cr
-   2000 \tab B/C \tab partial \cr
-   2002 \tab B/C \tab partial \cr
-   2004 \tab B/C \tab partial \cr
-   2006 \tab B/C \tab partial \cr
-   2008 \tab B/C \tab partial \cr
-   2010 \tab B/C \tab partial \cr
-   2012 \tab B/C \tab partial \cr
-   2014 \tab B/C \tab partial \cr
-   2016 \tab B/C \tab partial \cr
-   2018 \tab B/C \tab partial \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/641/vshow}{GSS Data Explorer page for \code{xmovie}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1973 \tab - \tab 378 \tab 1113 \tab 9 \tab 4 \tab - \tab 1504 \cr
+   1975 \tab - \tab 280 \tab 1202 \tab 7 \tab 1 \tab - \tab 1490 \cr
+   1976 \tab - \tab 272 \tab 1220 \tab 3 \tab 4 \tab - \tab 1499 \cr
+   1978 \tab - \tab 228 \tab 1296 \tab 8 \tab - \tab - \tab 1532 \cr
+   1980 \tab - \tab 234 \tab 1228 \tab 5 \tab 1 \tab - \tab 1468 \cr
+   1983 \tab - \tab 311 \tab 1277 \tab 7 \tab 4 \tab - \tab 1599 \cr
+   1984 \tab - \tab 345 \tab 1119 \tab 2 \tab 7 \tab - \tab 1473 \cr
+   1986 \tab - \tab 362 \tab 1098 \tab 6 \tab 4 \tab - \tab 1470 \cr
+   1987 \tab - \tab 541 \tab 1267 \tab 6 \tab 5 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 265 \tab 727 \tab 5 \tab - \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 234 \tab 792 \tab 5 \tab 4 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 206 \tab 688 \tab 4 \tab 1 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 239 \tab 772 \tab 2 \tab 4 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 202 \tab 848 \tab 4 \tab 3 \tab - \tab 1606 \cr
+   1994 \tab 1487 \tab 331 \tab 1163 \tab 4 \tab 7 \tab - \tab 2992 \cr
+   1996 \tab 979 \tab 503 \tab 1405 \tab 12 \tab 5 \tab - \tab 2904 \cr
+   1998 \tab 921 \tab 452 \tab 1444 \tab 11 \tab 4 \tab - \tab 2832 \cr
+   2000 \tab 921 \tab 456 \tab 1429 \tab 5 \tab 6 \tab - \tab 2817 \cr
+   2002 \tab 1853 \tab 219 \tab 690 \tab 1 \tab 2 \tab - \tab 2765 \cr
+   2004 \tab 1936 \tab 224 \tab 651 \tab - \tab 1 \tab - \tab 2812 \cr
+   2006 \tab 2521 \tab 442 \tab 1541 \tab 4 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 658 \tab 333 \tab 1022 \tab 7 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 667 \tab 344 \tab 1025 \tab 4 \tab 4 \tab - \tab 2044 \cr
+   2012 \tab 636 \tab 332 \tab 1002 \tab 3 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 851 \tab 407 \tab 1273 \tab 3 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 911 \tab 537 \tab 1409 \tab 4 \tab 6 \tab - \tab 2867 \cr
+   2018 \tab 785 \tab 432 \tab 1122 \tab 5 \tab 4 \tab - \tab 2348 \cr
+   2021 \tab 1360 \tab 808 \tab 1848 \tab 1 \tab 1 \tab 14 \tab 4032 \cr
+   2022 \tab 2353 \tab 385 \tab 787 \tab 4 \tab 12 \tab 3 \tab 3544 \cr
+   Total \tab 21347 \tab 10302 \tab 32458 \tab 141 \tab 104 \tab 17 \tab 64369 \cr
+}
 }
 
 \seealso{

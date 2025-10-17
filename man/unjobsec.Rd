@@ -26,15 +26,21 @@ A. Trade unions are very important for the job security of employees
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4608/vshow}{GSS Data Explorer page for \code{unjobsec}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 226 \tab 600 \tab 343 \tab 228 \tab 77 \tab 42 \tab 2 \tab 4510 \cr
+   Total \tab 2992 \tab 226 \tab 600 \tab 343 \tab 228 \tab 77 \tab 42 \tab 2 \tab 4510 \cr
+}
 }
 
 \seealso{

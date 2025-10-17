@@ -26,16 +26,22 @@ I find it hard to know whether the way I live is helpful or harmful to the envir
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4808/vshow}{GSS Data Explorer page for \code{helpharm}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab 614 \tab 34 \tab 409 \tab 316 \tab 534 \tab 70 \tab 60 \tab 7 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 32 \tab 392 \tab 542 \tab 690 \tab 111 \tab 68 \tab 182 \tab 12 \tab 4032 \cr
+   Total \tab 2617 \tab 66 \tab 801 \tab 858 \tab 1224 \tab 181 \tab 128 \tab 189 \tab 12 \tab 6076 \cr
+}
 }
 
 \seealso{

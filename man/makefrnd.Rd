@@ -26,16 +26,23 @@ B. ...that practicing a religion helps people to make friends?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab B/C \tab partial \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2018 \cr
+   B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4713/vshow}{GSS Data Explorer page for \code{makefrnd}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 658 \tab 321 \tab 799 \tab 160 \tab 59 \tab 11 \tab 10 \tab 5 \tab 2023 \cr
+   2018 \tab 1173 \tab 228 \tab 625 \tab 191 \tab 96 \tab 17 \tab 6 \tab 12 \tab 2348 \cr
+   Total \tab 1831 \tab 549 \tab 1424 \tab 351 \tab 155 \tab 28 \tab 16 \tab 17 \tab 4371 \cr
+}
 }
 
 \seealso{

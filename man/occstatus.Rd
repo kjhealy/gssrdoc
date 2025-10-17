@@ -27,42 +27,50 @@ Question OCC10 Coding Status
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/-/- \tab full \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5982/vshow}{GSS Data Explorer page for \code{occstatus}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab found, iap \tab found, no answer \tab found, coded \tab not found, iap \tab not found, coded \tab not found, no code assigned \tab not found, no answer \tab iap \tab Total \cr
+   1972 \tab 68 \tab 5 \tab 629 \tab 94 \tab 650 \tab 167 \tab - \tab - \tab 1613 \cr
+   1973 \tab 117 \tab 12 \tab 1105 \tab 30 \tab 154 \tab 81 \tab 5 \tab - \tab 1504 \cr
+   1974 \tab 108 \tab 51 \tab 1058 \tab 20 \tab 201 \tab 46 \tab - \tab - \tab 1484 \cr
+   1975 \tab 94 \tab 4 \tab 878 \tab 40 \tab 366 \tab 106 \tab 2 \tab - \tab 1490 \cr
+   1976 \tab 113 \tab 4 \tab 1113 \tab 32 \tab 190 \tab 47 \tab - \tab - \tab 1499 \cr
+   1977 \tab 54 \tab 3 \tab 760 \tab 59 \tab 500 \tab 154 \tab - \tab - \tab 1530 \cr
+   1978 \tab 114 \tab 4 \tab 1400 \tab 13 \tab 1 \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab 96 \tab 3 \tab 1194 \tab 23 \tab 107 \tab 45 \tab - \tab - \tab 1468 \cr
+   1982 \tab 95 \tab 9 \tab 1592 \tab 27 \tab 100 \tab 32 \tab 5 \tab - \tab 1860 \cr
+   1983 \tab 85 \tab 3 \tab 1387 \tab 18 \tab 79 \tab 27 \tab - \tab - \tab 1599 \cr
+   1984 \tab 78 \tab 6 \tab 1374 \tab 10 \tab 4 \tab 1 \tab - \tab - \tab 1473 \cr
+   1985 \tab 67 \tab 3 \tab 1226 \tab 14 \tab 188 \tab 36 \tab - \tab - \tab 1534 \cr
+   1986 \tab 84 \tab 3 \tab 1338 \tab 16 \tab 20 \tab 8 \tab 1 \tab - \tab 1470 \cr
+   1987 \tab 60 \tab 3 \tab 1448 \tab 35 \tab 194 \tab 72 \tab 7 \tab - \tab 1819 \cr
+   1988 \tab 76 \tab 3 \tab 1381 \tab 9 \tab 11 \tab 1 \tab - \tab - \tab 1481 \cr
+   1989 \tab 70 \tab 3 \tab 1347 \tab 22 \tab 81 \tab 13 \tab 1 \tab - \tab 1537 \cr
+   1990 \tab 61 \tab 2 \tab 1295 \tab 10 \tab 4 \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 84 \tab 2 \tab 1413 \tab 13 \tab 4 \tab 1 \tab - \tab - \tab 1517 \cr
+   1993 \tab 61 \tab 1 \tab 1483 \tab 17 \tab 38 \tab 5 \tab 1 \tab - \tab 1606 \cr
+   1994 \tab 120 \tab 10 \tab 2808 \tab 6 \tab 37 \tab 9 \tab 2 \tab - \tab 2992 \cr
+   1996 \tab 102 \tab 10 \tab 2771 \tab 4 \tab 10 \tab 5 \tab 2 \tab - \tab 2904 \cr
+   1998 \tab 121 \tab 23 \tab 2657 \tab 14 \tab 9 \tab 7 \tab 1 \tab - \tab 2832 \cr
+   2000 \tab 125 \tab 18 \tab 2674 \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 91 \tab 21 \tab 2653 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 113 \tab 41 \tab 2658 \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 187 \tab 36 \tab 4287 \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 62 \tab 10 \tab 1951 \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 86 \tab 31 \tab 1927 \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   Total \tab 2592 \tab 324 \tab 47807 \tab 526 \tab 2948 \tab 863 \tab 27 \tab 0 \tab 55087 \cr
+}
 }
 
 \seealso{

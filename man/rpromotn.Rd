@@ -26,18 +26,26 @@ C. My opportunities for advancement are high
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4543/vshow}{GSS Data Explorer page for \code{rpromotn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 78 \tab 234 \tab 238 \tab 240 \tab 75 \tab 8 \tab 25 \tab 1537 \cr
+   1998 \tab 1967 \tab 54 \tab 201 \tab 259 \tab 242 \tab 64 \tab 9 \tab 36 \tab 2832 \cr
+   2006 \tab 3492 \tab 78 \tab 286 \tab 215 \tab 339 \tab 95 \tab 3 \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 85 \tab 296 \tab 244 \tab 237 \tab 71 \tab 1 \tab 6 \tab 2867 \cr
+   Total \tab 8025 \tab 295 \tab 1017 \tab 956 \tab 1058 \tab 305 \tab 21 \tab 69 \tab 11746 \cr
+}
 }
 
 \seealso{

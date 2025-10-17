@@ -24,15 +24,21 @@ C. A house or condominium.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1853/vshow}{GSS Data Explorer page for \code{sellhome}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strong preference no contact \tab 2 \tab dont care \tab 4 \tab strong preference contact \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2168 \tab 152 \tab 32 \tab 395 \tab 39 \tab 99 \tab 14 \tab 5 \tab 2904 \cr
+   Total \tab 2168 \tab 152 \tab 32 \tab 395 \tab 39 \tab 99 \tab 14 \tab 5 \tab 2904 \cr
+}
 }
 
 \seealso{

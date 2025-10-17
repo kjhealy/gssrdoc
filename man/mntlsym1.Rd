@@ -24,15 +24,21 @@ Question Of course, everybody hears a good deal about physical illness and disea
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2045/vshow}{GSS Data Explorer page for \code{mntlsym1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 202 \tab 203 \tab 204 \tab 205 \tab 206 \tab 207 \tab 208 \tab 210 \tab 211 \tab 212 \tab 215 \tab 303 \tab 304 \tab 306 \tab 308 \tab 310 \tab 402 \tab 405 \tab 407 \tab 409 \tab 411 \tab 501 \tab 502 \tab 503 \tab 512 \tab 601 \tab 603 \tab 611 \tab 701 \tab 702 \tab 704 \tab 707 \tab 708 \tab 709 \tab 710 \tab 712 \tab 804 \tab 807 \tab 808 \tab 810 \tab 811 \tab 812 \tab 902 \tab 906 \tab 907 \tab 908 \tab 909 \tab 921 \tab 922 \tab 923 \tab 924 \tab 925 \tab no answer \tab Total \cr
+   1996 \tab 2196 \tab 32 \tab 5 \tab 2 \tab 25 \tab 1 \tab 40 \tab 35 \tab 34 \tab 2 \tab 113 \tab 1 \tab 5 \tab 9 \tab 9 \tab 1 \tab 1 \tab 1 \tab 5 \tab 2 \tab 1 \tab 5 \tab 1 \tab 2 \tab 3 \tab 3 \tab 1 \tab 1 \tab 4 \tab 3 \tab 2 \tab 1 \tab 13 \tab 12 \tab 57 \tab 15 \tab 3 \tab 1 \tab 1 \tab 5 \tab 1 \tab 57 \tab 19 \tab 4 \tab 15 \tab 1 \tab 10 \tab 3 \tab 12 \tab 35 \tab 4 \tab 2 \tab 2 \tab 86 \tab 2904 \cr
+   Total \tab 2196 \tab 32 \tab 5 \tab 2 \tab 25 \tab 1 \tab 40 \tab 35 \tab 34 \tab 2 \tab 113 \tab 1 \tab 5 \tab 9 \tab 9 \tab 1 \tab 1 \tab 1 \tab 5 \tab 2 \tab 1 \tab 5 \tab 1 \tab 2 \tab 3 \tab 3 \tab 1 \tab 1 \tab 4 \tab 3 \tab 2 \tab 1 \tab 13 \tab 12 \tab 57 \tab 15 \tab 3 \tab 1 \tab 1 \tab 5 \tab 1 \tab 57 \tab 19 \tab 4 \tab 15 \tab 1 \tab 10 \tab 3 \tab 12 \tab 35 \tab 4 \tab 2 \tab 2 \tab 86 \tab 2904 \cr
+}
 }
 
 \seealso{

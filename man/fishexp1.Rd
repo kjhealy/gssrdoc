@@ -24,15 +24,21 @@ Question Please look at Card I-5. What is the scientist trying to find out from 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3485/vshow}{GSS Data Explorer page for \code{fishexp1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab if the number of fish in the fish bowl affects the behavior of the fish \tab if the temperature of the fish bowl affects the behavior of the fish \tab if the temperature and the amount of light affect the behavior of the fish \tab if the number of fish, the temperature, and the amount of light affect the behavior of the fish \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 709 \tab 520 \tab 85 \tab 71 \tab 455 \tab 155 \tab 28 \tab 2023 \cr
+   Total \tab 709 \tab 520 \tab 85 \tab 71 \tab 455 \tab 155 \tab 28 \tab 2023 \cr
+}
 }
 
 \seealso{

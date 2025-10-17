@@ -26,15 +26,21 @@ D. Helps keep people''s marriage together in times of financial problems?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5501/vshow}{GSS Data Explorer page for \code{welfare4}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1986 \tab - \tab 67 \tab 772 \tab 491 \tab 92 \tab 47 \tab 1 \tab 1470 \cr
+   Total \tab 0 \tab 67 \tab 772 \tab 491 \tab 92 \tab 47 \tab 1 \tab 1470 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question A. Did you ever tell anyone in a position of authority in your congrega
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3963/vshow}{GSS Data Explorer page for \code{toldrel1}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   2008 \tab 2008 \tab 2 \tab 13 \tab 2023 \cr
+   Total \tab 2008 \tab 2 \tab 13 \tab 2023 \cr
+}
 }
 
 \seealso{

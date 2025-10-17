@@ -25,15 +25,21 @@ Question How often do the people we elect to Congress try to keep the promises t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3976/vshow}{GSS Data Explorer page for \code{polefy16}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab rarely \tab sometimes \tab very often \tab extremely often \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1328 \tab 59 \tab 215 \tab 288 \tab 49 \tab 5 \tab 28 \tab 2 \tab 1974 \cr
+   Total \tab 1328 \tab 59 \tab 215 \tab 288 \tab 49 \tab 5 \tab 28 \tab 2 \tab 1974 \cr
+}
 }
 
 \seealso{

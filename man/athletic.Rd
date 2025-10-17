@@ -27,15 +27,21 @@ C. An athletic person. Is this â€¦...
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3049/vshow}{GSS Data Explorer page for \code{athletic}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a very good description \tab a good description \tab a fair description \tab not a very good description \tab not a good description at all \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 432 \tab 255 \tab 429 \tab 761 \tab 633 \tab 295 \tab 1 \tab 6 \tab 2812 \cr
+   Total \tab 432 \tab 255 \tab 429 \tab 761 \tab 633 \tab 295 \tab 1 \tab 6 \tab 2812 \cr
+}
 }
 
 \seealso{

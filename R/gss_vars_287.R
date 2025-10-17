@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `pinterst`](https://gssdataexplorer.norc.org/variables/6277/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2016  |1483 |480 |892 |12        |2867  |
+#'  |Total |1483 |480 |892 |12        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `flickr`](https://gssdataexplorer.norc.org/variables/6278/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |2016  |1483 |42  |1330 |12        |2867  |
+#'  |Total |1483 |42  |1330 |12        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `vine`](https://gssdataexplorer.norc.org/variables/6279/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |2016  |1483 |58  |1314 |12        |2867  |
+#'  |Total |1483 |58  |1314 |12        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `clssmtes`](https://gssdataexplorer.norc.org/variables/6280/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |2016  |1483 |77  |1295 |12        |2867  |
+#'  |Total |1483 |77  |1295 |12        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -145,13 +169,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `snsmoth1`](https://gssdataexplorer.norc.org/variables/6281/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |2016  |1483 |165 |1209 |10        |2867  |
+#'  |Total |1483 |165 |1209 |10        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -195,13 +225,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `snsmot2a`](https://gssdataexplorer.norc.org/variables/6282/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |youtube |myspace |reddit |viber |line |plenty of fish |kik |ravelry |wechat |imo |online dating sites |spotify |groupme |tinder |hangouts |researchgate |online gaming |yahoo |other social networks |not a social network |don't know |no answer |Total |
+#'  |:-----|:----|:-------|:-------|:------|:-----|:----|:--------------|:---|:-------|:------|:---|:-------------------|:-------|:-------|:------|:--------|:------------|:-------------|:-----|:---------------------|:--------------------|:----------|:---------|:-----|
+#'  |2016  |2694 |22      |5       |15     |6     |2    |6              |4   |1       |2      |2   |6                   |1       |3       |2      |1        |2            |8             |6     |22                    |39                   |2          |16        |2867  |
+#'  |Total |2694 |22      |5       |15     |6     |2    |6              |4   |1       |2      |2   |6                   |1       |3       |2      |1        |2            |8             |6     |22                    |39                   |2          |16        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -245,13 +281,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `snsmot2b`](https://gssdataexplorer.norc.org/variables/6283/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |youtube |reddit |viber |line |ravelry |online dating sites |spotify |hangouts |online gaming |yahoo |other social networks |not a social network |don't know |no answer |Total |
+#'  |:-----|:----|:-------|:------|:-----|:----|:-------|:-------------------|:-------|:--------|:-------------|:-----|:---------------------|:--------------------|:----------|:---------|:-----|
+#'  |2016  |2819 |3       |2      |1     |1    |1       |2                   |1       |1        |3             |1     |7                     |12                   |2          |11        |2867  |
+#'  |Total |2819 |3       |2      |1     |1    |1       |2                   |1       |1        |3             |1     |7                     |12                   |2          |11        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -295,13 +337,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `snsmot2c`](https://gssdataexplorer.norc.org/variables/6284/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |youtube |viber |kik |hangouts |other social networks |not a social network |don't know |no answer |Total |
+#'  |:-----|:----|:-------|:-----|:---|:--------|:---------------------|:--------------------|:----------|:---------|:-----|
+#'  |2016  |2845 |1       |1     |1   |1        |2                     |4                    |1          |11        |2867  |
+#'  |Total |2845 |1       |1     |1   |1        |2                     |4                    |1          |11        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -358,13 +406,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `snsmnew`](https://gssdataexplorer.norc.org/variables/6285/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |twitter |facebook |instagram |linkedin |snapchat |tumblr |whatsapp |google+ |pinterest |flickr |vine |classmates |youtube |viber |plenty of fish |kik |online dating sites |spotify |tinder |online gaming |yahoo |other social networks |not a social network |no answer |Total |
+#'  |:-----|:----|:-------|:--------|:---------|:--------|:--------|:------|:--------|:-------|:---------|:------|:----|:----------|:-------|:-----|:--------------|:---|:-------------------|:-------|:------|:-------------|:-----|:---------------------|:--------------------|:---------|:-----|
+#'  |2016  |1867 |57      |147      |123       |100      |186      |18     |49       |67      |166       |4      |13   |13         |5       |1     |2              |3   |6                   |1       |1      |3             |1     |9                     |14                   |11        |2867  |
+#'  |Total |1867 |57      |147      |123       |100      |186      |18     |49       |67      |166       |4      |13   |13         |5       |1     |2              |3   |6                   |1       |1      |3             |1     |9                     |14                   |11        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -389,13 +443,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `snsmyear`](https://gssdataexplorer.norc.org/variables/6648/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1981 |1985 |1990 |1991 |1993 |1994 |1995 |1996 |1997 |1998 |1999 |2000 |2001 |2002 |2003 |2004 |2005 |2006 |2007 |2008 |2009 |2010 |2011 |2012 |2013 |2014 |2015 |2016 |don't know |no answer |Total |
+#'  |:-----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----------|:---------|:-----|
+#'  |2016  |1630 |1    |1    |1    |1    |2    |2    |3    |1    |2    |5    |1    |33   |8    |14   |9    |29   |51   |81   |83   |122  |134  |147  |76   |79   |57   |77   |63   |37   |105        |12        |2867  |
+#'  |Total |1630 |1    |1    |1    |1    |2    |2    |3    |1    |2    |5    |1    |33   |8    |14   |9    |29   |51   |81   |83   |122  |134  |147  |76   |79   |57   |77   |63   |37   |105        |12        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

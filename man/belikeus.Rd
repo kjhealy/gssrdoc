@@ -26,18 +26,24 @@ C. The world would be a better place if people from other countries were more li
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4836/vshow}{GSS Data Explorer page for \code{belikeus}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 193 \tab 330 \tab 439 \tab 281 \tab 56 \tab 52 \tab 16 \tab 2904 \cr
+   2004 \tab 1596 \tab 190 \tab 296 \tab 419 \tab 224 \tab 68 \tab 18 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 86 \tab 283 \tab 417 \tab 340 \tab 86 \tab 58 \tab 4 \tab 2538 \cr
+   Total \tab 4397 \tab 469 \tab 909 \tab 1275 \tab 845 \tab 210 \tab 128 \tab 21 \tab 8254 \cr
+}
 }
 
 \seealso{

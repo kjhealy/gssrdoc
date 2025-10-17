@@ -28,19 +28,25 @@ Do you remember for sure whether or not you voted in that election?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
-   1985 \tab - \tab full \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984, 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/153/vshow}{GSS Data Explorer page for \code{if80who}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab carter \tab reagan \tab anderson \tab other \tab refused \tab don't know \tab no answer \tab wouldnt vote \tab Total \cr
+   1982 \tab 1211 \tab 318 \tab 160 \tab 47 \tab 37 \tab 1 \tab 82 \tab 4 \tab - \tab 1860 \cr
+   1983 \tab 1081 \tab 235 \tab 148 \tab 35 \tab 20 \tab - \tab 64 \tab 12 \tab 4 \tab 1599 \cr
+   1984 \tab 967 \tab 219 \tab 161 \tab 15 \tab 20 \tab - \tab 71 \tab 20 \tab - \tab 1473 \cr
+   1985 \tab 1040 \tab 165 \tab 233 \tab 27 \tab 9 \tab - \tab 48 \tab 8 \tab 4 \tab 1534 \cr
+   1987 \tab 1216 \tab 260 \tab 182 \tab 35 \tab 6 \tab - \tab 87 \tab 33 \tab - \tab 1819 \cr
+   Total \tab 5515 \tab 1197 \tab 884 \tab 159 \tab 92 \tab 1 \tab 352 \tab 77 \tab 8 \tab 8285 \cr
+}
 }
 
 \seealso{

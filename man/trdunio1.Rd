@@ -25,15 +25,21 @@ Question Workers need strong trade unions to protect their interests
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7547/vshow}{GSS Data Explorer page for \code{trdunio1}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2242 \tab 246 \tab 555 \tab 542 \tab 227 \tab 127 \tab 72 \tab 2 \tab 19 \tab 4032 \cr
+   Total \tab 2242 \tab 246 \tab 555 \tab 542 \tab 227 \tab 127 \tab 72 \tab 2 \tab 19 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

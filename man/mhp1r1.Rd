@@ -36,15 +36,21 @@ Question First relationship with first person.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7100/vshow}{GSS Data Explorer page for \code{mhp1r1}}.
+
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab spouse/partner (current/ex) \tab parent \tab sibling \tab child \tab grandparent \tab grandchild \tab other family \tab coworker \tab neighbor \tab friend \tab member of religious community \tab acquaintance \tab student/classmate \tab relative of a friend \tab friend of a relative \tab other \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1751 \tab 52 \tab 77 \tab 58 \tab 26 \tab 8 \tab 2 \tab 113 \tab 23 \tab 20 \tab 181 \tab 3 \tab 7 \tab 1 \tab 3 \tab 1 \tab 8 \tab 3 \tab 11 \tab 2348 \cr
+   Total \tab 1751 \tab 52 \tab 77 \tab 58 \tab 26 \tab 8 \tab 2 \tab 113 \tab 23 \tab 20 \tab 181 \tab 3 \tab 7 \tab 1 \tab 3 \tab 1 \tab 8 \tab 3 \tab 11 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

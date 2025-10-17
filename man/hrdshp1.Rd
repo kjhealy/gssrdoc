@@ -26,16 +26,23 @@ D. Now I am going to ask about specific hardships. Did any of the following occu
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab B/C/- \tab partial \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   B/C/- \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5165/vshow}{GSS Data Explorer page for \code{hrdshp1}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1991 \tab 500 \tab 90 \tab 922 \tab 5 \tab 1517 \cr
+   2004 \tab 1472 \tab 104 \tab 1228 \tab 8 \tab 2812 \cr
+   Total \tab 1972 \tab 194 \tab 2150 \tab 13 \tab 4329 \cr
+}
 }
 
 \seealso{

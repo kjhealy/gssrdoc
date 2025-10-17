@@ -27,18 +27,24 @@ Who would you have voted for, for President, if you had voted?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1990, 1991, 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/159/vshow}{GSS Data Explorer page for \code{if88who}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab dukakis \tab bush \tab other \tab don't know \tab no answer \tab Total \cr
+   1989 \tab 1009 \tab 141 \tab 264 \tab 32 \tab 69 \tab 22 \tab 1537 \cr
+   1990 \tab 913 \tab 104 \tab 252 \tab 22 \tab 72 \tab 9 \tab 1372 \cr
+   1991 \tab 1017 \tab 86 \tab 292 \tab 28 \tab 74 \tab 20 \tab 1517 \cr
+   1993 \tab 1045 \tab 93 \tab 282 \tab 34 \tab 112 \tab 40 \tab 1606 \cr
+   Total \tab 3984 \tab 424 \tab 1090 \tab 116 \tab 327 \tab 91 \tab 6032 \cr
+}
 }
 
 \seealso{

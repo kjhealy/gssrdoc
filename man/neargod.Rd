@@ -25,21 +25,29 @@ Question How close do you feel to God most of the time?  Would you say extremely
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989 \cr
+   A/B/C \tab 1988, 1991 \cr
+   Full \tab 1983, 1984, 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/321/vshow}{GSS Data Explorer page for \code{neargod}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely close \tab somewhat close \tab not very close \tab not close at all \tab does not believe \tab don't know \tab no answer \tab Total \cr
+   1983 \tab - \tab 471 \tab 838 \tab 151 \tab 91 \tab 20 \tab 17 \tab 11 \tab 1599 \cr
+   1984 \tab - \tab 443 \tab 782 \tab 142 \tab 59 \tab 16 \tab 8 \tab 23 \tab 1473 \cr
+   1985 \tab - \tab 495 \tab 758 \tab 156 \tab 81 \tab 14 \tab 17 \tab 13 \tab 1534 \cr
+   1987 \tab - \tab 606 \tab 943 \tab 147 \tab 65 \tab 20 \tab 20 \tab 18 \tab 1819 \cr
+   1988 \tab - \tab 428 \tab 775 \tab 142 \tab 84 \tab 24 \tab 22 \tab 6 \tab 1481 \cr
+   1989 \tab 531 \tab 291 \tab 526 \tab 89 \tab 64 \tab 21 \tab 10 \tab 5 \tab 1537 \cr
+   1991 \tab 158 \tab 449 \tab 616 \tab 121 \tab 56 \tab 25 \tab 66 \tab 26 \tab 1517 \cr
+   Total \tab 689 \tab 3183 \tab 5238 \tab 948 \tab 500 \tab 140 \tab 160 \tab 102 \tab 10960 \cr
+}
 }
 
 \seealso{

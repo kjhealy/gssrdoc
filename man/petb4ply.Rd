@@ -24,15 +24,21 @@ Question Thinking about your favorite pet, how often did you spend time each day
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7220/vshow}{GSS Data Explorer page for \code{petb4ply}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab almost always \tab often \tab sometimes \tab never \tab no answer \tab Total \cr
+   2018 \tab 2144 \tab 92 \tab 41 \tab 32 \tab 16 \tab 23 \tab 2348 \cr
+   Total \tab 2144 \tab 92 \tab 41 \tab 32 \tab 16 \tab 23 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

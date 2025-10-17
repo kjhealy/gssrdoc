@@ -30,17 +30,23 @@ Question SELECT ONE FROM THE LIST BELOW WHICH BEST DESCRIBES THE TYPE OF STRUCTU
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6654/vshow}{GSS Data Explorer page for \code{dwellpre}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab trailer \tab detached single family house \tab 2-family house, 2 units side-by-side \tab 2-family house, 2 units one above the other \tab detached 3-4 family house \tab row house (3 or more units in an attached row) \tab apartment house (5 or more units, 4 stories or less) \tab apartment house (5 or more units, 4 stories or more) \tab apartment in a partly commercial structure \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab - \tab 156 \tab 1824 \tab 84 \tab 62 \tab 36 \tab 127 \tab 395 \tab 133 \tab 15 \tab 30 \tab 3 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab - \tab 120 \tab 1535 \tab 76 \tab 23 \tab 25 \tab 125 \tab 308 \tab 96 \tab 13 \tab 25 \tab 1 \tab 1 \tab - \tab 2348 \cr
+   2022 \tab 2077 \tab 80 \tab 899 \tab 55 \tab 16 \tab 11 \tab 87 \tab 210 \tab 79 \tab 11 \tab 19 \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 2077 \tab 356 \tab 4258 \tab 215 \tab 101 \tab 72 \tab 339 \tab 913 \tab 308 \tab 39 \tab 74 \tab 4 \tab 3 \tab 0 \tab 8759 \cr
+}
 }
 
 \keyword{variable}

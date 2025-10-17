@@ -25,15 +25,21 @@ Question How much say do people like you have about what the government Does: No
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3973/vshow}{GSS Data Explorer page for \code{polefy11}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab none \tab a little \tab some \tab quite a bit \tab a great deal \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1328 \tab 162 \tab 224 \tab 170 \tab 40 \tab 23 \tab 23 \tab 4 \tab 1974 \cr
+   Total \tab 1328 \tab 162 \tab 224 \tab 170 \tab 40 \tab 23 \tab 23 \tab 4 \tab 1974 \cr
+}
 }
 
 \seealso{

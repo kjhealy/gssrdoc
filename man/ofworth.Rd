@@ -25,15 +25,21 @@ D. I feel that Iâ€™m a person of worth, at least equal to others.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3039/vshow}{GSS Data Explorer page for \code{ofworth}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 432 \tab 1369 \tab 915 \tab 60 \tab 31 \tab 3 \tab 2 \tab 2812 \cr
+   Total \tab 432 \tab 1369 \tab 915 \tab 60 \tab 31 \tab 3 \tab 2 \tab 2812 \cr
+}
 }
 
 \seealso{

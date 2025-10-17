@@ -23,15 +23,21 @@ F. The people in Washington, D.C. are out of touch with the rest of the country.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/433/vshow}{GSS Data Explorer page for \code{alienat6}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab feel \tab not feel \tab don't know \tab no answer \tab Total \cr
+   1978 \tab - \tab 854 \tab 573 \tab 93 \tab 12 \tab 1532 \cr
+   Total \tab 0 \tab 854 \tab 573 \tab 93 \tab 12 \tab 1532 \cr
+}
 }
 
 \seealso{

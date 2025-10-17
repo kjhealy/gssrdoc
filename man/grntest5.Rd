@@ -25,16 +25,22 @@ E. All pesticides and chemicals used on food crops cause cancer in humans.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4750/vshow}{GSS Data Explorer page for \code{grntest5}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 84 \tab 443 \tab 624 \tab 226 \tab 96 \tab 84 \tab 1606 \cr
+   1994 \tab 1606 \tab 84 \tab 417 \tab 537 \tab 217 \tab 91 \tab 40 \tab 2992 \cr
+   Total \tab 1655 \tab 168 \tab 860 \tab 1161 \tab 443 \tab 187 \tab 124 \tab 4598 \cr
+}
 }
 
 \seealso{

@@ -24,36 +24,42 @@ Question Do you strongly agree, agree, disagree, or strongly disagree that it is
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
-   1996 \tab A/B \tab partial \cr
-   1998 \tab A/B \tab partial \cr
-   2000 \tab A/B \tab partial \cr
-   2002 \tab A/B \tab partial \cr
-   2004 \tab A/B \tab partial \cr
-   2006 \tab A/B \tab partial \cr
-   2008 \tab A/B \tab partial \cr
-   2010 \tab A/B \tab partial \cr
-   2012 \tab A/B \tab partial \cr
-   2014 \tab A/B \tab partial \cr
-   2016 \tab A/B \tab partial \cr
-   2018 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/646/vshow}{GSS Data Explorer page for \code{spanking}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1986 \tab - \tab 404 \tab 816 \tab 195 \tab 45 \tab 9 \tab 1 \tab - \tab 1470 \cr
+   1988 \tab 493 \tab 302 \tab 476 \tab 145 \tab 55 \tab 8 \tab 2 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 315 \tab 455 \tab 169 \tab 55 \tab 9 \tab 3 \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 261 \tab 466 \tab 154 \tab 36 \tab 8 \tab 3 \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 263 \tab 485 \tab 194 \tab 65 \tab 15 \tab 2 \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 243 \tab 538 \tab 210 \tab 70 \tab 15 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab 1015 \tab 522 \tab 909 \tab 357 \tab 162 \tab 20 \tab 7 \tab - \tab 2992 \cr
+   1996 \tab 944 \tab 512 \tab 890 \tab 357 \tab 164 \tab 33 \tab 4 \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 486 \tab 880 \tab 336 \tab 133 \tab 34 \tab 2 \tab - \tab 2832 \cr
+   2000 \tab 940 \tab 588 \tab 780 \tab 328 \tab 144 \tab 33 \tab 4 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 272 \tab 387 \tab 176 \tab 64 \tab 6 \tab 3 \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 222 \tab 433 \tab 182 \tab 60 \tab 8 \tab 1 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 532 \tab 893 \tab 402 \tab 143 \tab 20 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 342 \tab 608 \tab 280 \tab 78 \tab 18 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 336 \tab 647 \tab 324 \tab 110 \tab 10 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 302 \tab 598 \tab 277 \tab 100 \tab 21 \tab 4 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 378 \tab 777 \tab 365 \tab 139 \tab 12 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 457 \tab 817 \tab 440 \tab 152 \tab 15 \tab 7 \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 340 \tab 700 \tab 368 \tab 121 \tab 23 \tab 7 \tab - \tab 2348 \cr
+   2021 \tab 1317 \tab 424 \tab 977 \tab 827 \tab 456 \tab 4 \tab 1 \tab 26 \tab 4032 \cr
+   2022 \tab 1168 \tab 434 \tab 887 \tab 634 \tab 389 \tab 23 \tab 2 \tab 7 \tab 3544 \cr
+   Total \tab 19724 \tab 7935 \tab 14419 \tab 6720 \tab 2741 \tab 344 \tab 69 \tab 33 \tab 51985 \cr
+}
 }
 
 \seealso{

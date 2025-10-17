@@ -26,16 +26,22 @@ H. Engineering. Is engineering very scientific, pretty scientific, not too scien
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2006, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3413/vshow}{GSS Data Explorer page for \code{engnrsci}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 846 \tab 604 \tab 210 \tab 125 \tab 8 \tab 67 \tab 4 \tab 4510 \cr
+   2012 \tab 1477 \tab 245 \tab 160 \tab 50 \tab 20 \tab 2 \tab 16 \tab 4 \tab 1974 \cr
+   Total \tab 4123 \tab 1091 \tab 764 \tab 260 \tab 145 \tab 10 \tab 83 \tab 8 \tab 6484 \cr
+}
 }
 
 \seealso{

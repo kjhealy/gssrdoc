@@ -25,16 +25,22 @@ Question When you were growing up, did you attend Sunday school or religious ins
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1069/vshow}{GSS Data Explorer page for \code{sunsch16}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab regularly \tab most of the time \tab some of the time \tab never \tab att parochial sch \tab no answer \tab Total \cr
+   1988 \tab - \tab 763 \tab 247 \tab 305 \tab 113 \tab 47 \tab 6 \tab 1481 \cr
+   1998 \tab 1387 \tab 781 \tab 186 \tab 284 \tab 137 \tab 48 \tab 9 \tab 2832 \cr
+   Total \tab 1387 \tab 1544 \tab 433 \tab 589 \tab 250 \tab 95 \tab 15 \tab 4313 \cr
+}
 }
 
 \seealso{

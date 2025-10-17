@@ -23,17 +23,22 @@ Question The United States Supreme Court has ruled that no state or local govern
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7605/vshow}{GSS Data Explorer page for \code{prayernv}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab approve \tab disapprove \tab don't know \tab skipped on web \tab Total \cr
+   2021 \tab 2689 \tab 872 \tab 464 \tab 5 \tab 2 \tab 4032 \cr
+   2022 \tab 2944 \tab 388 \tab 211 \tab - \tab 1 \tab 3544 \cr
+   Total \tab 5633 \tab 1260 \tab 675 \tab 5 \tab 3 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

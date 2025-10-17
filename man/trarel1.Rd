@@ -21,18 +21,24 @@ Question A. Number of traumatic events (divorces, unemployment, hospitalizations
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
-   1980 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978, 1980, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/755/vshow}{GSS Data Explorer page for \code{trarel1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab Total \cr
+   1978 \tab - \tab 614 \tab 608 \tab 264 \tab 46 \tab 1532 \cr
+   1980 \tab - \tab 601 \tab 587 \tab 238 \tab 42 \tab 1468 \cr
+   1983 \tab - \tab 559 \tab 645 \tab 338 \tab 57 \tab 1599 \cr
+   1984 \tab - \tab 584 \tab 596 \tab 254 \tab 39 \tab 1473 \cr
+   Total \tab 0 \tab 2358 \tab 2436 \tab 1094 \tab 184 \tab 6072 \cr
+}
 }
 
 \seealso{

@@ -23,29 +23,36 @@ F. It's hardly fair to bring a child into the world with the way things look for
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/542/vshow}{GSS Data Explorer page for \code{anomia6}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 544 \tab 924 \tab 35 \tab 1 \tab 1504 \cr
+   1974 \tab - \tab 531 \tab 913 \tab 38 \tab 2 \tab 1484 \cr
+   1976 \tab - \tab 621 \tab 821 \tab 53 \tab 4 \tab 1499 \cr
+   1977 \tab - \tab 576 \tab 905 \tab 44 \tab 5 \tab 1530 \cr
+   1980 \tab - \tab 685 \tab 743 \tab 38 \tab 2 \tab 1468 \cr
+   1982 \tab - \tab 657 \tab 1101 \tab 72 \tab 30 \tab 1860 \cr
+   1984 \tab - \tab 587 \tab 861 \tab 22 \tab 3 \tab 1473 \cr
+   1985 \tab - \tab 496 \tab 990 \tab 44 \tab 4 \tab 1534 \cr
+   1987 \tab - \tab 768 \tab 995 \tab 52 \tab 4 \tab 1819 \cr
+   1988 \tab 504 \tab 371 \tab 580 \tab 24 \tab 2 \tab 1481 \cr
+   1989 \tab 504 \tab 385 \tab 620 \tab 24 \tab 4 \tab 1537 \cr
+   1990 \tab 455 \tab 320 \tab 566 \tab 27 \tab 4 \tab 1372 \cr
+   1991 \tab 524 \tab 346 \tab 614 \tab 31 \tab 2 \tab 1517 \cr
+   1993 \tab 531 \tab 442 \tab 600 \tab 30 \tab 3 \tab 1606 \cr
+   1994 \tab 1737 \tab 554 \tab 670 \tab 30 \tab 1 \tab 2992 \cr
+   Total \tab 4255 \tab 7883 \tab 11903 \tab 564 \tab 71 \tab 24676 \cr
+}
 }
 
 \seealso{

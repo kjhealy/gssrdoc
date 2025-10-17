@@ -13,14 +13,20 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethregion66`](https://gssdataexplorer.norc.org/variables/7705/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes |don't know |no answer |skipped on web |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:--------------|:-----|
+#'  |2021  |15  |3301 |1   |681        |1         |33             |4032  |
+#'  |2022  |216 |3116 |1   |163        |48        |-              |3544  |
+#'  |Total |231 |6417 |2   |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -46,14 +52,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethregion67`](https://gssdataexplorer.norc.org/variables/7706/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes |don't know |no answer |skipped on web |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:--------------|:-----|
+#'  |2021  |15  |3295 |7   |681        |1         |33             |4032  |
+#'  |2022  |216 |3110 |7   |163        |48        |-              |3544  |
+#'  |Total |231 |6405 |14  |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -79,14 +91,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethregion68`](https://gssdataexplorer.norc.org/variables/7707/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes |don't know |no answer |skipped on web |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:--------------|:-----|
+#'  |2021  |15  |3301 |1   |681        |1         |33             |4032  |
+#'  |2022  |216 |3117 |-   |163        |48        |-              |3544  |
+#'  |Total |231 |6418 |1   |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -112,14 +130,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethregion69`](https://gssdataexplorer.norc.org/variables/7708/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |don't know |no answer |skipped on web |Total |
+#'  |:-----|:---|:----|:----------|:---------|:--------------|:-----|
+#'  |2021  |15  |3302 |681        |1         |33             |4032  |
+#'  |2022  |216 |3117 |163        |48        |-              |3544  |
+#'  |Total |231 |6419 |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -145,14 +169,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethregion70`](https://gssdataexplorer.norc.org/variables/7709/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes |don't know |no answer |skipped on web |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:--------------|:-----|
+#'  |2021  |15  |3296 |6   |681        |1         |33             |4032  |
+#'  |2022  |216 |3108 |9   |163        |48        |-              |3544  |
+#'  |Total |231 |6404 |15  |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -178,14 +208,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethregion71`](https://gssdataexplorer.norc.org/variables/7710/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes |don't know |no answer |skipped on web |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:--------------|:-----|
+#'  |2021  |15  |3284 |18  |681        |1         |33             |4032  |
+#'  |2022  |216 |3113 |4   |163        |48        |-              |3544  |
+#'  |Total |231 |6397 |22  |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -211,14 +247,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethregion72`](https://gssdataexplorer.norc.org/variables/7711/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes |don't know |no answer |skipped on web |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:--------------|:-----|
+#'  |2021  |15  |3301 |1   |681        |1         |33             |4032  |
+#'  |2022  |216 |3111 |6   |163        |48        |-              |3544  |
+#'  |Total |231 |6412 |7   |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -244,14 +286,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethregion73`](https://gssdataexplorer.norc.org/variables/7712/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes |don't know |no answer |skipped on web |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:--------------|:-----|
+#'  |2021  |15  |3300 |2   |681        |1         |33             |4032  |
+#'  |2022  |216 |3114 |3   |163        |48        |-              |3544  |
+#'  |Total |231 |6414 |5   |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -277,14 +325,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethregion74`](https://gssdataexplorer.norc.org/variables/7713/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes |don't know |no answer |skipped on web |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:--------------|:-----|
+#'  |2021  |15  |3295 |7   |681        |1         |33             |4032  |
+#'  |2022  |216 |3095 |22  |163        |48        |-              |3544  |
+#'  |Total |231 |6390 |29  |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -312,14 +366,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethregion75`](https://gssdataexplorer.norc.org/variables/7714/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes |don't know |no answer |skipped on web |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:--------------|:-----|
+#'  |2021  |15  |3296 |6   |681        |1         |33             |4032  |
+#'  |2022  |216 |3096 |21  |163        |48        |-              |3544  |
+#'  |Total |231 |6392 |27  |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

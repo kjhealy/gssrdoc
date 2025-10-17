@@ -28,16 +28,23 @@ ASK FOR EACH NAME REPEATING CATEGORIES AS NECESSARY.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/952/vshow}{GSS Data Explorer page for \code{relig3}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab don't know \tab no answer \tab Total \cr
+   1985 \tab 599 \tab 512 \tab 241 \tab 26 \tab 56 \tab 20 \tab 73 \tab 7 \tab 1534 \cr
+   2004 \tab 2240 \tab 242 \tab 120 \tab 20 \tab 49 \tab 35 \tab 58 \tab 48 \tab 2812 \cr
+   Total \tab 2839 \tab 754 \tab 361 \tab 46 \tab 105 \tab 55 \tab 131 \tab 55 \tab 4346 \cr
+}
 }
 
 \seealso{

@@ -22,16 +22,22 @@ Question D. Visited a Web site associated with a particular novelist, playwright
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2482/vshow}{GSS Data Explorer page for \code{litauth}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2554 \tab 91 \tab 57 \tab 115 \tab 2817 \cr
+   2002 \tab 2555 \tab 96 \tab 67 \tab 47 \tab 2765 \cr
+   Total \tab 5109 \tab 187 \tab 124 \tab 162 \tab 5582 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ B. Personal income should not be determined solely by one's work.  Rather, every
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1175/vshow}{GSS Data Explorer page for \code{socdif2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab disagree \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 86 \tab 459 \tab 615 \tab 159 \tab 47 \tab 6 \tab 1372 \cr
+   Total \tab 0 \tab 86 \tab 459 \tab 615 \tab 159 \tab 47 \tab 6 \tab 1372 \cr
+}
 }
 
 \seealso{

@@ -41,21 +41,26 @@ Question RESPONDENT'S PARTNER'S EDUCATION
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6160/vshow}{GSS Data Explorer page for \code{coeduc}}.
+
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 4 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab 3 \tab no formal schooling \tab 5 \tab Total \cr
+   2012 \tab 1806 \tab 11 \tab 13 \tab 55 \tab 8 \tab 16 \tab 4 \tab 22 \tab 3 \tab 4 \tab 2 \tab 2 \tab 1 \tab 4 \tab 2 \tab 3 \tab 4 \tab 14 \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2325 \tab 6 \tab 13 \tab 88 \tab 15 \tab 18 \tab 10 \tab 21 \tab 4 \tab 6 \tab 1 \tab - \tab 1 \tab 1 \tab 2 \tab 3 \tab 6 \tab 14 \tab 4 \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2603 \tab 9 \tab 16 \tab 100 \tab 24 \tab 22 \tab 8 \tab 30 \tab 10 \tab 4 \tab 4 \tab 8 \tab 1 \tab 4 \tab 1 \tab 4 \tab 8 \tab 7 \tab 3 \tab 1 \tab - \tab - \tab 2867 \cr
+   2018 \tab 2117 \tab 10 \tab 14 \tab 80 \tab 16 \tab 32 \tab 9 \tab 38 \tab 6 \tab 7 \tab 1 \tab 3 \tab - \tab 3 \tab 2 \tab 1 \tab 1 \tab 5 \tab 2 \tab - \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 3660 \tab 7 \tab 11 \tab 119 \tab 22 \tab 46 \tab 15 \tab 69 \tab 7 \tab 15 \tab 4 \tab 10 \tab 3 \tab 2 \tab 2 \tab 3 \tab 6 \tab 11 \tab 18 \tab 1 \tab 1 \tab - \tab 4032 \cr
+   2022 \tab 3228 \tab 10 \tab 10 \tab 104 \tab 21 \tab 38 \tab 17 \tab 58 \tab 11 \tab 12 \tab 4 \tab 2 \tab - \tab 1 \tab 1 \tab 3 \tab 8 \tab - \tab 11 \tab 1 \tab 2 \tab 2 \tab 3544 \cr
+   Total \tab 15739 \tab 53 \tab 77 \tab 546 \tab 106 \tab 172 \tab 63 \tab 238 \tab 41 \tab 48 \tab 16 \tab 25 \tab 6 \tab 15 \tab 10 \tab 17 \tab 33 \tab 51 \tab 38 \tab 3 \tab 4 \tab 2 \tab 17303 \cr
+}
 }
 
 \seealso{

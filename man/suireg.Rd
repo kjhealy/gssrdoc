@@ -31,16 +31,22 @@ D. What state did this person live in?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5030/vshow}{GSS Data Explorer page for \code{suireg}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab foreign \tab new england \tab middle atlantic \tab e. nor. central \tab w. nor. central \tab south atlantic \tab e. sou. central \tab w. sou. central \tab mountain \tab pacific \tab no answer \tab Total \cr
+   1990 \tab 1238 \tab 2 \tab 10 \tab 18 \tab 20 \tab 11 \tab 14 \tab 14 \tab 15 \tab 10 \tab 17 \tab 3 \tab 1372 \cr
+   1991 \tab 1344 \tab 3 \tab 5 \tab 19 \tab 34 \tab 14 \tab 28 \tab 15 \tab 10 \tab 12 \tab 30 \tab 3 \tab 1517 \cr
+   Total \tab 2582 \tab 5 \tab 15 \tab 37 \tab 54 \tab 25 \tab 42 \tab 29 \tab 25 \tab 22 \tab 47 \tab 6 \tab 2889 \cr
+}
 }
 
 \seealso{

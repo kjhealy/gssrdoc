@@ -24,16 +24,22 @@ B. Visiting such sites tends to strengthen or confirm the opinions you already h
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2448/vshow}{GSS Data Explorer page for \code{polconf}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not true \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2453 \tab 56 \tab 139 \tab 70 \tab 10 \tab 89 \tab 2817 \cr
+   2002 \tab 2411 \tab 60 \tab 174 \tab 69 \tab 5 \tab 46 \tab 2765 \cr
+   Total \tab 4864 \tab 116 \tab 313 \tab 139 \tab 15 \tab 135 \tab 5582 \cr
+}
 }
 
 \seealso{

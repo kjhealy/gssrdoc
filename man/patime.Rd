@@ -29,15 +29,21 @@ B. About how long would it take you to get to where your father lives? Think of 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4133/vshow}{GSS Data Explorer page for \code{patime}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab lt 15 min \tab 15-30 min \tab 30 min-1 hr \tab 1-2 hr \tab 2-3 hr \tab 3-5 hr \tab 5-12 hr \tab 12+ hr \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 837 \tab 158 \tab 120 \tab 64 \tab 42 \tab 24 \tab 44 \tab 68 \tab 95 \tab 2 \tab 16 \tab 1470 \cr
+   Total \tab 837 \tab 158 \tab 120 \tab 64 \tab 42 \tab 24 \tab 44 \tab 68 \tab 95 \tab 2 \tab 16 \tab 1470 \cr
+}
 }
 
 \seealso{

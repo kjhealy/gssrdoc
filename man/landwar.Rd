@@ -25,15 +25,21 @@ B. A conventional ground war involving thousands of troops?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/823/vshow}{GSS Data Explorer page for \code{landwar}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab wont happen \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab certain to happen \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 91 \tab 91 \tab 186 \tab 355 \tab 295 \tab 179 \tab 216 \tab 38 \tab 22 \tab 1473 \cr
+   Total \tab 0 \tab 91 \tab 91 \tab 186 \tab 355 \tab 295 \tab 179 \tab 216 \tab 38 \tab 22 \tab 1473 \cr
+}
 }
 
 \seealso{

@@ -34,15 +34,21 @@ Please read through this list and tell me the number corresponding to the one yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6308/vshow}{GSS Data Explorer page for \code{gvinflu1}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab the media \tab international organizations (e.g. united nations, international monetary fund) \tab 100 \tab can't choose \tab trade unions \tab businesses, banks and industry \tab religious organizations/authorities \tab the military/army \tab organized crime \tab people who vote for the party/parties in government \tab citizens in general \tab civic and voluntary organizations \tab no answer \tab Total \cr
+   2016 \tab 1477 \tab 252 \tab 55 \tab 173 \tab 17 \tab 37 \tab 485 \tab 13 \tab 26 \tab 16 \tab 197 \tab 102 \tab 2 \tab 15 \tab 2867 \cr
+   Total \tab 1477 \tab 252 \tab 55 \tab 173 \tab 17 \tab 37 \tab 485 \tab 13 \tab 26 \tab 16 \tab 197 \tab 102 \tab 2 \tab 15 \tab 2867 \cr
+}
 }
 
 \seealso{

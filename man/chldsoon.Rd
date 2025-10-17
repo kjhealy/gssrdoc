@@ -22,22 +22,28 @@ B. How many (more) in the next five years?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab - \tab full \cr
-   1974 \tab - \tab full \cr
-   1975 \tab - \tab full \cr
-   1976 \tab - \tab full \cr
-   1977 \tab - \tab full \cr
-   1978 \tab - \tab full \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1972, 1974, 1975, 1976, 1977, 1978, 1982, 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/622/vshow}{GSS Data Explorer page for \code{chldsoon}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab 0 \tab 1 \tab 2 \tab 3 \tab 5 \tab iap \tab no answer \tab 4 \tab don't know \tab Total \cr
+   1972 \tab 33 \tab 118 \tab 73 \tab 6 \tab 2 \tab 1303 \tab 78 \tab - \tab - \tab 1613 \cr
+   1974 \tab 50 \tab 110 \tab 67 \tab 5 \tab 1 \tab 1186 \tab 38 \tab 3 \tab 24 \tab 1484 \cr
+   1975 \tab 40 \tab 144 \tab 70 \tab 4 \tab - \tab 1178 \tab 36 \tab - \tab 18 \tab 1490 \cr
+   1976 \tab 61 \tab 121 \tab 61 \tab 5 \tab - \tab 1195 \tab 34 \tab 1 \tab 21 \tab 1499 \cr
+   1977 \tab 56 \tab 129 \tab 76 \tab 7 \tab 1 \tab 1192 \tab 57 \tab 2 \tab 10 \tab 1530 \cr
+   1978 \tab 58 \tab 160 \tab 99 \tab 5 \tab 2 \tab 1176 \tab 22 \tab 1 \tab 9 \tab 1532 \cr
+   1982 \tab 108 \tab 179 \tab 101 \tab 15 \tab - \tab 1398 \tab 42 \tab 2 \tab 15 \tab 1860 \cr
+   1983 \tab 53 \tab 195 \tab 104 \tab 14 \tab - \tab 1217 \tab 9 \tab 2 \tab 5 \tab 1599 \cr
+   Total \tab 459 \tab 1156 \tab 651 \tab 61 \tab 6 \tab 9845 \tab 316 \tab 11 \tab 102 \tab 12607 \cr
+}
 }
 
 \seealso{

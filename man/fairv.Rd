@@ -23,16 +23,22 @@ Question Do you think most people would try to take advantage of you if they got
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7592/vshow}{GSS Data Explorer page for \code{fairv}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab would take advantage of you \tab would try to be fair \tab depends (phone mode only: volunteered) \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 3344 \tab 140 \tab 280 \tab 264 \tab 1 \tab 3 \tab 4032 \cr
+   2022 \tab 2974 \tab 156 \tab 148 \tab 262 \tab - \tab 4 \tab 3544 \cr
+   Total \tab 6318 \tab 296 \tab 428 \tab 526 \tab 1 \tab 7 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

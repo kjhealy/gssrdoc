@@ -22,26 +22,33 @@ Question Have you ever, even once, used â€œcrackâ€ cocaine in chunk or 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5072/vshow}{GSS Data Explorer page for \code{evcrack}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   2000 \tab 417 \tab 96 \tab 2212 \tab 92 \tab - \tab - \tab 2817 \cr
+   2002 \tab 476 \tab 108 \tab 2162 \tab 19 \tab - \tab - \tab 2765 \cr
+   2004 \tab 570 \tab 108 \tab 2117 \tab 14 \tab 3 \tab - \tab 2812 \cr
+   2006 \tab 2096 \tab 164 \tab 2230 \tab 19 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 240 \tab 112 \tab 1656 \tab 12 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 202 \tab 115 \tab 1710 \tab 16 \tab 1 \tab - \tab 2044 \cr
+   2012 \tab 238 \tab 103 \tab 1605 \tab 26 \tab 2 \tab - \tab 1974 \cr
+   2014 \tab 188 \tab 104 \tab 2214 \tab 31 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 1096 \tab 102 \tab 1659 \tab 10 \tab - \tab - \tab 2867 \cr
+   2018 \tab 942 \tab 83 \tab 1310 \tab 13 \tab - \tab - \tab 2348 \cr
+   2021 \tab 1708 \tab 110 \tab 2167 \tab 1 \tab 26 \tab 20 \tab 4032 \cr
+   2022 \tab 1900 \tab 95 \tab 1488 \tab 8 \tab 28 \tab 25 \tab 3544 \cr
+   Total \tab 10073 \tab 1300 \tab 22530 \tab 261 \tab 65 \tab 45 \tab 34274 \cr
+}
 }
 
 \seealso{

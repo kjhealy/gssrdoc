@@ -26,21 +26,29 @@ C. All in all, family life suffers when the woman has a full-time job.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 1988, 1991, 1994, 1998, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4345/vshow}{GSS Data Explorer page for \code{famsuffr}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1988 \tab 67 \tab 117 \tab 362 \tab 210 \tab 451 \tab 233 \tab 12 \tab 29 \tab - \tab 1481 \cr
+   1991 \tab 158 \tab 123 \tab 329 \tab 227 \tab 391 \tab 232 \tab 17 \tab 40 \tab - \tab 1517 \cr
+   1994 \tab 1545 \tab 133 \tab 367 \tab 196 \tab 504 \tab 226 \tab 7 \tab 14 \tab - \tab 2992 \cr
+   1998 \tab 1548 \tab 136 \tab 244 \tab 240 \tab 338 \tab 273 \tab 26 \tab 27 \tab - \tab 2832 \cr
+   2002 \tab 1594 \tab 158 \tab 299 \tab 263 \tab - \tab 434 \tab 15 \tab 2 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 73 \tab 286 \tab 152 \tab 511 \tab 250 \tab 23 \tab 7 \tab - \tab 1974 \cr
+   2022 \tab 2378 \tab 33 \tab 168 \tab 200 \tab 395 \tab 338 \tab 18 \tab 5 \tab 9 \tab 3544 \cr
+   Total \tab 7962 \tab 773 \tab 2055 \tab 1488 \tab 2590 \tab 1986 \tab 118 \tab 124 \tab 9 \tab 17105 \cr
+}
 }
 
 \seealso{

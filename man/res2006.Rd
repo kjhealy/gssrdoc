@@ -22,16 +22,22 @@ Question A. During March through May 2006, were you living in the United States 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5585/vshow}{GSS Data Explorer page for \code{res2006}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab living in the u.s. \tab not living in u.s. \tab no answer \tab don't know \tab Total \cr
+   2008 \tab - \tab 1998 \tab 24 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab - \tab 2002 \tab 40 \tab - \tab 2 \tab 2044 \cr
+   Total \tab 0 \tab 4000 \tab 64 \tab 1 \tab 2 \tab 4067 \cr
+}
 }
 
 \seealso{

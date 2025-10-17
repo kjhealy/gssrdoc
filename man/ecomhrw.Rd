@@ -23,15 +23,21 @@ C. Shopping, paying bills and other household management?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2572/vshow}{GSS Data Explorer page for \code{ecomhrw}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 2 \tab 5 \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2486 \tab 241 \tab 4 \tab 2 \tab 2 \tab 3 \tab 1 \tab 78 \tab 2817 \cr
+   Total \tab 2486 \tab 241 \tab 4 \tab 2 \tab 2 \tab 3 \tab 1 \tab 78 \tab 2817 \cr
+}
 }
 
 \seealso{

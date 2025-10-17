@@ -24,16 +24,22 @@ B. Personal suffering
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1096/vshow}{GSS Data Explorer page for \code{doubts2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 130 \tab 650 \tab 657 \tab 26 \tab 18 \tab 1481 \cr
+   1998 \tab 1387 \tab 126 \tab 527 \tab 743 \tab 37 \tab 12 \tab 2832 \cr
+   Total \tab 1387 \tab 256 \tab 1177 \tab 1400 \tab 63 \tab 30 \tab 4313 \cr
+}
 }
 
 \seealso{

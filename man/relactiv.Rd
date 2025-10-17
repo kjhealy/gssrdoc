@@ -31,26 +31,31 @@ Question How often do you take part in the activities and organizations of a chu
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1998, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4677/vshow}{GSS Data Explorer page for \code{relactiv}}.
+
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month \tab 2-3 times a month \tab nearly every week \tab every week \tab several times a week \tab no answer \tab once a day \tab several times a day \tab don't know \tab skipped on web \tab Total \cr
+   1991 \tab 158 \tab 507 \tab 160 \tab 171 \tab 128 \tab 83 \tab 82 \tab 61 \tab 89 \tab 48 \tab 30 \tab - \tab - \tab - \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 471 \tab 147 \tab 136 \tab 131 \tab 64 \tab 66 \tab 54 \tab 88 \tab 66 \tab 44 \tab 8 \tab 8 \tab 1 \tab - \tab 2832 \cr
+   2006 \tab 1518 \tab 1325 \tab 249 \tab 368 \tab 290 \tab 215 \tab 174 \tab 88 \tab 236 \tab 17 \tab 8 \tab 17 \tab - \tab 5 \tab - \tab 4510 \cr
+   2008 \tab - \tab 861 \tab 148 \tab 300 \tab 270 \tab 105 \tab 108 \tab 43 \tab 143 \tab 13 \tab 10 \tab 15 \tab - \tab 7 \tab - \tab 2023 \cr
+   2010 \tab - \tab 864 \tab 164 \tab 292 \tab 238 \tab 120 \tab 140 \tab 50 \tab 137 \tab 21 \tab 7 \tab 5 \tab - \tab 6 \tab - \tab 2044 \cr
+   2012 \tab - \tab 887 \tab 139 \tab 251 \tab 183 \tab 118 \tab 129 \tab 64 \tab 167 \tab 9 \tab 12 \tab 12 \tab - \tab 3 \tab - \tab 1974 \cr
+   2014 \tab - \tab 1139 \tab 197 \tab 353 \tab 261 \tab 146 \tab 140 \tab 76 \tab 183 \tab 21 \tab 13 \tab 8 \tab - \tab 1 \tab - \tab 2538 \cr
+   2016 \tab - \tab 1286 \tab 187 \tab 384 \tab 327 \tab 183 \tab 162 \tab 69 \tab 213 \tab 21 \tab 13 \tab 16 \tab - \tab 6 \tab - \tab 2867 \cr
+   2018 \tab - \tab 1087 \tab 148 \tab 304 \tab 241 \tab 154 \tab 145 \tab 37 \tab 180 \tab 13 \tab 10 \tab 9 \tab - \tab 20 \tab - \tab 2348 \cr
+   2021 \tab - \tab 1650 \tab 614 \tab 488 \tab 449 \tab 150 \tab 159 \tab 137 \tab 241 \tab 26 \tab 49 \tab 35 \tab - \tab 2 \tab 32 \tab 4032 \cr
+   2022 \tab - \tab 1635 \tab 413 \tab 438 \tab 365 \tab 164 \tab 145 \tab 85 \tab 207 \tab 10 \tab 21 \tab 28 \tab - \tab 16 \tab 17 \tab 3544 \cr
+   Total \tab 3224 \tab 11712 \tab 2566 \tab 3485 \tab 2883 \tab 1502 \tab 1450 \tab 764 \tab 1884 \tab 265 \tab 217 \tab 153 \tab 8 \tab 67 \tab 49 \tab 30229 \cr
+}
 }
 
 \seealso{

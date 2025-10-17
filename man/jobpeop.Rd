@@ -24,15 +24,21 @@ I. A lot of contact with other people
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/563/vshow}{GSS Data Explorer page for \code{jobpeop}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 923 \tab 30 \tab 29 \tab 48 \tab 105 \tab 176 \tab 203 \tab 323 \tab 6 \tab 17 \tab 1860 \cr
+   Total \tab 923 \tab 30 \tab 29 \tab 48 \tab 105 \tab 176 \tab 203 \tab 323 \tab 6 \tab 17 \tab 1860 \cr
+}
 }
 
 \seealso{

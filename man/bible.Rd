@@ -25,37 +25,45 @@ a.         The Bible is the actual word of God and is to be taken literally, wor
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/- \tab partial \cr
-   1991 \tab A/B/- \tab partial \cr
-   1993 \tab A/B/- \tab partial \cr
-   1994 \tab A/B/- \tab partial \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989, 1990, 1991, 1993, 1994, 1996 \cr
+   A/B/C \tab 1988, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   Full \tab 1984, 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/364/vshow}{GSS Data Explorer page for \code{bible}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab word of god \tab inspired word \tab ancient book \tab other (vol) \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 484 \tab 367 \tab 455 \tab 134 \tab 7 \tab 13 \tab 13 \tab - \tab 1473 \cr
+   1985 \tab 783 \tab 272 \tab 365 \tab 94 \tab 2 \tab 13 \tab 5 \tab - \tab 1534 \cr
+   1987 \tab 621 \tab 482 \tab 498 \tab 180 \tab 6 \tab 18 \tab 14 \tab - \tab 1819 \cr
+   1988 \tab - \tab 505 \tab 696 \tab 239 \tab 10 \tab 28 \tab 3 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 312 \tab 494 \tab 160 \tab 4 \tab 27 \tab 9 \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 299 \tab 455 \tab 140 \tab 7 \tab 19 \tab 8 \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 355 \tab 488 \tab 151 \tab 8 \tab 18 \tab 4 \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 356 \tab 524 \tab 163 \tab 9 \tab 22 \tab 6 \tab - \tab 1606 \cr
+   1994 \tab 1015 \tab 616 \tab 1002 \tab 292 \tab 18 \tab 34 \tab 15 \tab - \tab 2992 \cr
+   1996 \tab 944 \tab 592 \tab 970 \tab 334 \tab 12 \tab 40 \tab 12 \tab - \tab 2904 \cr
+   1998 \tab 463 \tab 724 \tab 1164 \tab 383 \tab 25 \tab 59 \tab 14 \tab - \tab 2832 \cr
+   2000 \tab 486 \tab 783 \tab 1084 \tab 361 \tab 23 \tab 71 \tab 9 \tab - \tab 2817 \cr
+   2002 \tab 1393 \tab 390 \tab 727 \tab 192 \tab 36 \tab 24 \tab 3 \tab - \tab 2765 \cr
+   2004 \tab 1472 \tab 450 \tab 627 \tab 219 \tab 23 \tab 14 \tab 7 \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 1010 \tab 1363 \tab 497 \tab 73 \tab 37 \tab 12 \tab - \tab 4510 \cr
+   2008 \tab - \tab 639 \tab 924 \tab 392 \tab 32 \tab 23 \tab 13 \tab - \tab 2023 \cr
+   2010 \tab - \tab 674 \tab 878 \tab 414 \tab 40 \tab 27 \tab 11 \tab - \tab 2044 \cr
+   2012 \tab - \tab 634 \tab 865 \tab 404 \tab 30 \tab 26 \tab 15 \tab - \tab 1974 \cr
+   2014 \tab - \tab 814 \tab 1095 \tab 555 \tab 25 \tab 29 \tab 20 \tab - \tab 2538 \cr
+   2016 \tab - \tab 911 \tab 1252 \tab 625 \tab 42 \tab 21 \tab 16 \tab - \tab 2867 \cr
+   2018 \tab - \tab 706 \tab 1079 \tab 494 \tab 35 \tab 18 \tab 16 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 1705 \tab 528 \tab 787 \tab 441 \tab 28 \tab 37 \tab 18 \tab - \tab 3544 \cr
+   Total \tab 12878 \tab 12419 \tab 17792 \tab 6864 \tab 495 \tab 618 \tab 243 \tab 4032 \tab 55341 \cr
+}
 }
 
 \seealso{

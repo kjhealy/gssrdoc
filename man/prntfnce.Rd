@@ -25,15 +25,21 @@ Question Please consider a family with a father and a mother raising a child who
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7768/vshow}{GSS Data Explorer page for \code{prntfnce}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab the mother mostly \tab the mother somewhat more than the father \tab the mother and father equally \tab the father somewhat more than the mother \tab the father mostly \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2383 \tab 6 \tab 5 \tab 612 \tab 213 \tab 157 \tab 159 \tab 4 \tab 5 \tab 3544 \cr
+   Total \tab 2383 \tab 6 \tab 5 \tab 612 \tab 213 \tab 157 \tab 159 \tab 4 \tab 5 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

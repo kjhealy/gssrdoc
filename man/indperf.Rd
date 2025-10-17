@@ -22,19 +22,26 @@ Question C. Does the size of these performance-based payments depend on individu
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2014, 2018 \cr
+   B/C/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2858/vshow}{GSS Data Explorer page for \code{indperf}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 2152 \tab 380 \tab 206 \tab 11 \tab 16 \tab - \tab 2765 \cr
+   2006 \tab 3849 \tab 462 \tab 177 \tab 5 \tab 17 \tab - \tab 4510 \cr
+   2014 \tab 2275 \tab 195 \tab 63 \tab 3 \tab 2 \tab - \tab 2538 \cr
+   2018 \tab 1846 \tab 382 \tab 114 \tab 4 \tab 2 \tab - \tab 2348 \cr
+   2022 \tab 3222 \tab 236 \tab 68 \tab 17 \tab - \tab 1 \tab 3544 \cr
+   Total \tab 13344 \tab 1655 \tab 628 \tab 40 \tab 37 \tab 1 \tab 15705 \cr
+}
 }
 
 \seealso{

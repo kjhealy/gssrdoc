@@ -24,15 +24,21 @@ Question G. How many years have you been a member of
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3174/vshow}{GSS Data Explorer page for \code{yryouth1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 14 \tab 15 \tab 17 \tab 19 \tab 2 \tab 20 \tab 3 \tab 30 \tab 33 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2656 \tab 6 \tab 29 \tab 9 \tab 4 \tab 2 \tab 2 \tab 4 \tab 1 \tab 1 \tab 21 \tab 8 \tab 14 \tab 2 \tab 1 \tab 9 \tab 9 \tab 1 \tab 10 \tab 6 \tab 4 \tab 1 \tab 3 \tab 9 \tab 2812 \cr
+   Total \tab 2656 \tab 6 \tab 29 \tab 9 \tab 4 \tab 2 \tab 2 \tab 4 \tab 1 \tab 1 \tab 21 \tab 8 \tab 14 \tab 2 \tab 1 \tab 9 \tab 9 \tab 1 \tab 10 \tab 6 \tab 4 \tab 1 \tab 3 \tab 9 \tab 2812 \cr
+}
 }
 
 \seealso{

@@ -27,16 +27,22 @@ Care for old people?  (Should it be?)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B \tab partial \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6306/vshow}{GSS Data Explorer page for \code{prvdold}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab government \tab private companies/for-profit organizations \tab non-profit organizations/charities/cooperatives \tab religious organizations \tab family, relatives or friends \tab can't choose \tab no answer \tab Total \cr
+   2016 \tab 1477 \tab 685 \tab 147 \tab 150 \tab 7 \tab 359 \tab 24 \tab 18 \tab 2867 \cr
+   2018 \tab 1175 \tab 644 \tab 97 \tab 90 \tab 8 \tab 284 \tab 47 \tab 3 \tab 2348 \cr
+   Total \tab 2652 \tab 1329 \tab 244 \tab 240 \tab 15 \tab 643 \tab 71 \tab 21 \tab 5215 \cr
+}
 }
 
 \seealso{

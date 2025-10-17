@@ -23,16 +23,22 @@ H. A supervisor or trainer at work?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2506/vshow}{GSS Data Explorer page for \code{advsup}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2145 \tab 254 \tab 323 \tab 95 \tab 2817 \cr
+   2002 \tab 2142 \tab 240 \tab 336 \tab 47 \tab 2765 \cr
+   Total \tab 4287 \tab 494 \tab 659 \tab 142 \tab 5582 \cr
+}
 }
 
 \seealso{

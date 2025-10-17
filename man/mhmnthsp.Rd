@@ -25,15 +25,21 @@ D. Go to a mental hospital for treatment?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3798/vshow}{GSS Data Explorer page for \code{mhmnthsp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 107 \tab 326 \tab 456 \tab 490 \tab 37 \tab 9 \tab 4510 \cr
+   Total \tab 3085 \tab 107 \tab 326 \tab 456 \tab 490 \tab 37 \tab 9 \tab 4510 \cr
+}
 }
 
 \seealso{

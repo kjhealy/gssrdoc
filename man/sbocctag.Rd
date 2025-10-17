@@ -23,15 +23,21 @@ Question SBOCC10 Coding Tag
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6022/vshow}{GSS Data Explorer page for \code{sbocctag}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab found \tab not found, assigned \tab not found, not assigned \tab Total \cr
+   1994 \tab - \tab 2938 \tab 44 \tab 10 \tab 2992 \cr
+   Total \tab 0 \tab 2938 \tab 44 \tab 10 \tab 2992 \cr
+}
 }
 
 \seealso{

@@ -23,16 +23,22 @@ Question Do you have a main romantic involvement - a (man/woman) you think of as
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1649/vshow}{GSS Data Explorer page for \code{romance}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab has same gender partner \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2126 \tab 319 \tab 427 \tab 1 \tab 2 \tab 29 \tab 2904 \cr
+   1998 \tab 2109 \tab 272 \tab 415 \tab 3 \tab 3 \tab 30 \tab 2832 \cr
+   Total \tab 4235 \tab 591 \tab 842 \tab 4 \tab 5 \tab 59 \tab 5736 \cr
+}
 }
 
 \seealso{

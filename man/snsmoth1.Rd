@@ -22,15 +22,21 @@ Question Are there any other social networking or social media sites that you a 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6281/vshow}{GSS Data Explorer page for \code{snsmoth1}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2016 \tab 1483 \tab 165 \tab 1209 \tab 10 \tab 2867 \cr
+   Total \tab 1483 \tab 165 \tab 1209 \tab 10 \tab 2867 \cr
+}
 }
 
 \seealso{

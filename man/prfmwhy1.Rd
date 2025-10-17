@@ -25,15 +25,21 @@ SAY, "THIS CARD SHOWS SOME REASONS THAT PEOPLE ATTEND PERFORMANCES."
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6221/vshow}{GSS Data Explorer page for \code{prfmwhy1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab major reason \tab minor reason \tab not a reason \tab no answer \tab Total \cr
+   2016 \tab 2433 \tab 62 \tab 101 \tab 263 \tab 8 \tab 2867 \cr
+   Total \tab 2433 \tab 62 \tab 101 \tab 263 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

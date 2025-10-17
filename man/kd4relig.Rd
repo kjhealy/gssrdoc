@@ -33,15 +33,21 @@ Question In what religion is (CHILDâ€™S NAME) being raised? Is it Protestan
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3833/vshow}{GSS Data Explorer page for \code{kd4relig}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab buddhism \tab muslim/islam \tab christian \tab no answer \tab Total \cr
+   2008 \tab 1960 \tab 33 \tab 13 \tab 3 \tab 9 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2023 \cr
+   Total \tab 1960 \tab 33 \tab 13 \tab 3 \tab 9 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2023 \cr
+}
 }
 
 \seealso{

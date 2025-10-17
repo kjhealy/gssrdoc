@@ -26,17 +26,25 @@ A. Looking around the world, religions bring more conflict than peace.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4688/vshow}{GSS Data Explorer page for \code{religcon}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1548 \tab 101 \tab 324 \tab 257 \tab 407 \tab 114 \tab 39 \tab 42 \tab 2832 \cr
+   2008 \tab 658 \tab 265 \tab 544 \tab 207 \tab 274 \tab 48 \tab 24 \tab 3 \tab 2023 \cr
+   2018 \tab 1173 \tab 185 \tab 416 \tab 257 \tab 235 \tab 51 \tab 20 \tab 11 \tab 2348 \cr
+   Total \tab 3379 \tab 551 \tab 1284 \tab 721 \tab 916 \tab 213 \tab 83 \tab 56 \tab 7203 \cr
+}
 }
 
 \seealso{

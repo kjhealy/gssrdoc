@@ -25,15 +25,21 @@ B. A private day care center?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4358/vshow}{GSS Data Explorer page for \code{daycare2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very suitable \tab somewhat suitable \tab not very suitable \tab not at all suitable \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 443 \tab 600 \tab 145 \tab 82 \tab 92 \tab 52 \tab 1481 \cr
+   Total \tab 67 \tab 443 \tab 600 \tab 145 \tab 82 \tab 92 \tab 52 \tab 1481 \cr
+}
 }
 
 \seealso{

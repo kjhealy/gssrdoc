@@ -25,19 +25,28 @@ C. Organizing protest marches and demonstrations.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3984/vshow}{GSS Data Explorer page for \code{protest3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 227 \tab 181 \tab 117 \tab 90 \tab 37 \tab 25 \tab 1534 \cr
+   1990 \tab 155 \tab 429 \tab 377 \tab 192 \tab 131 \tab 61 \tab 27 \tab 1372 \cr
+   1996 \tab 1572 \tab 611 \tab 398 \tab 140 \tab 109 \tab 50 \tab 24 \tab 2904 \cr
+   2006 \tab 2992 \tab 806 \tab 452 \tab 156 \tab 88 \tab 16 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 686 \tab 430 \tab 153 \tab 93 \tab 18 \tab 10 \tab 2867 \cr
+   Total \tab 7053 \tab 2759 \tab 1838 \tab 758 \tab 511 \tab 182 \tab 86 \tab 13187 \cr
+}
 }
 
 \seealso{

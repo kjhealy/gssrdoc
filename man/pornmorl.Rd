@@ -25,29 +25,36 @@ B. Sexual materials lead to breakdown of morals
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/637/vshow}{GSS Data Explorer page for \code{pornmorl}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 794 \tab 622 \tab 84 \tab 4 \tab 1504 \cr
+   1975 \tab - \tab 765 \tab 588 \tab 134 \tab 3 \tab 1490 \cr
+   1976 \tab - \tab 819 \tab 560 \tab 111 \tab 9 \tab 1499 \cr
+   1978 \tab - \tab 870 \tab 581 \tab 78 \tab 3 \tab 1532 \cr
+   1980 \tab - \tab 881 \tab 477 \tab 103 \tab 7 \tab 1468 \cr
+   1983 \tab - \tab 933 \tab 573 \tab 83 \tab 10 \tab 1599 \cr
+   1984 \tab - \tab 903 \tab 484 \tab 75 \tab 11 \tab 1473 \cr
+   1986 \tab - \tab 910 \tab 475 \tab 78 \tab 7 \tab 1470 \cr
+   1987 \tab - \tab 1073 \tab 613 \tab 124 \tab 9 \tab 1819 \cr
+   1988 \tab 484 \tab 616 \tab 325 \tab 51 \tab 5 \tab 1481 \cr
+   1989 \tab 502 \tab 643 \tab 323 \tab 62 \tab 7 \tab 1537 \cr
+   1990 \tab 473 \tab 547 \tab 287 \tab 64 \tab 1 \tab 1372 \cr
+   1991 \tab 500 \tab 606 \tab 340 \tab 69 \tab 2 \tab 1517 \cr
+   1993 \tab 549 \tab 671 \tab 318 \tab 58 \tab 10 \tab 1606 \cr
+   1994 \tab 1965 \tab 582 \tab 370 \tab 71 \tab 4 \tab 2992 \cr
+   Total \tab 4473 \tab 11613 \tab 6936 \tab 1245 \tab 92 \tab 24359 \cr
+}
 }
 
 \seealso{

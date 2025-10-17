@@ -26,17 +26,25 @@ E. I think most people are better informed about politics and government than I 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2012 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
+   A/C/- \tab 2012 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4099/vshow}{GSS Data Explorer page for \code{poleff15}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1572 \tab 92 \tab 323 \tab 348 \tab 423 \tab 88 \tab 34 \tab 24 \tab 2904 \cr
+   2006 \tab 2992 \tab 158 \tab 420 \tab 280 \tab 512 \tab 137 \tab 11 \tab - \tab 4510 \cr
+   2012 \tab 1312 \tab 37 \tab 197 \tab 143 \tab 218 \tab 53 \tab 11 \tab 3 \tab 1974 \cr
+   Total \tab 5876 \tab 287 \tab 940 \tab 771 \tab 1153 \tab 278 \tab 56 \tab 27 \tab 9388 \cr
+}
 }
 
 \seealso{

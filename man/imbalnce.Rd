@@ -25,18 +25,25 @@ B. A chemical imbalance in the brain
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1989/vshow}{GSS Data Explorer page for \code{imbalnce}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 296 \tab 536 \tab 299 \tab 198 \tab 101 \tab 14 \tab 2904 \cr
+   2006 \tab 3073 \tab 391 \tab 649 \tab 227 \tab 94 \tab 61 \tab 15 \tab 4510 \cr
+   2018 \tab 1175 \tab 337 \tab 482 \tab 198 \tab 87 \tab 40 \tab 29 \tab 2348 \cr
+   Total \tab 5708 \tab 1024 \tab 1667 \tab 724 \tab 379 \tab 202 \tab 58 \tab 9762 \cr
+}
 }
 
 \seealso{

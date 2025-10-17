@@ -27,19 +27,25 @@ Question B. In 1972, you remember that McGovern ran for President on the Democra
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
-   1974 \tab - \tab full \cr
-   1975 \tab - \tab full \cr
-   1976 \tab - \tab full \cr
-   1977 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973, 1974, 1975, 1976, 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/147/vshow}{GSS Data Explorer page for \code{if72who}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab mcgovern \tab nixon \tab other \tab wouldnt vote \tab don't know \tab no answer \tab refused \tab wldnt vt-relig \tab Total \cr
+   1973 \tab 1053 \tab 120 \tab 223 \tab 40 \tab 2 \tab 44 \tab 22 \tab - \tab - \tab 1504 \cr
+   1974 \tab 1032 \tab 160 \tab 145 \tab 66 \tab 16 \tab 58 \tab 6 \tab 1 \tab - \tab 1484 \cr
+   1975 \tab 963 \tab 196 \tab 177 \tab 36 \tab 16 \tab 78 \tab 24 \tab - \tab - \tab 1490 \cr
+   1976 \tab 975 \tab 189 \tab 169 \tab 61 \tab 5 \tab 92 \tab 7 \tab - \tab 1 \tab 1499 \cr
+   1977 \tab 945 \tab 188 \tab 233 \tab 30 \tab 30 \tab 80 \tab 24 \tab - \tab - \tab 1530 \cr
+   Total \tab 4968 \tab 853 \tab 947 \tab 233 \tab 69 \tab 352 \tab 83 \tab 1 \tab 1 \tab 7507 \cr
+}
 }
 
 \seealso{

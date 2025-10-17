@@ -24,17 +24,23 @@ K. Graduation Rate
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6164/vshow}{GSS Data Explorer page for \code{cobarate}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab 0-39.9pct \tab 40-57.9pct \tab 58pct or over \tab no answer \tab Total \cr
+   2012 \tab 1940 \tab 6 \tab 8 \tab 20 \tab - \tab 1974 \cr
+   2014 \tab 2515 \tab 2 \tab 6 \tab 15 \tab - \tab 2538 \cr
+   2016 \tab 2816 \tab 9 \tab 11 \tab 30 \tab 1 \tab 2867 \cr
+   Total \tab 7271 \tab 17 \tab 25 \tab 65 \tab 1 \tab 7379 \cr
+}
 }
 
 \seealso{

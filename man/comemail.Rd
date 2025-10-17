@@ -27,15 +27,21 @@ E. E-mailing SECRET or TOP SECRET government documents or data files to an unaut
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5241/vshow}{GSS Data Explorer page for \code{comemail}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab reprimand \tab dismissal from the military/fired by the government \tab one year in prison \tab 5-9 years in prison \tab 10-20 years in prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 35 \tab 247 \tab 174 \tab 330 \tab 334 \tab 215 \tab 69 \tab 15 \tab 2817 \cr
+   Total \tab 1398 \tab 35 \tab 247 \tab 174 \tab 330 \tab 334 \tab 215 \tab 69 \tab 15 \tab 2817 \cr
+}
 }
 
 \seealso{

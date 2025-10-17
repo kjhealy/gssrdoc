@@ -28,15 +28,21 @@ Question How often do you see or visit your friend (the friend you feel closest 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4205/vshow}{GSS Data Explorer page for \code{bstvisit}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab he or she lives in the same household as i do \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab never \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1674 \tab 26 \tab 118 \tab 221 \tab 254 \tab 185 \tab 173 \tab 94 \tab 12 \tab 1 \tab 7 \tab 2765 \cr
+   Total \tab 1674 \tab 26 \tab 118 \tab 221 \tab 254 \tab 185 \tab 173 \tab 94 \tab 12 \tab 1 \tab 7 \tab 2765 \cr
+}
 }
 
 \seealso{

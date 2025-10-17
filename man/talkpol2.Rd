@@ -27,15 +27,21 @@ Question About how often do you talk to (NAME) about political matters?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/959/vshow}{GSS Data Explorer page for \code{talkpol2}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab almost daily \tab at least weekly \tab at least monthly \tab at least yearly \tab less than yearly \tab never \tab don't know \tab no answer \tab Total \cr
+   1987 \tab 385 \tab 103 \tab 245 \tab 363 \tab 269 \tab 153 \tab 272 \tab 3 \tab 26 \tab 1819 \cr
+   Total \tab 385 \tab 103 \tab 245 \tab 363 \tab 269 \tab 153 \tab 272 \tab 3 \tab 26 \tab 1819 \cr
+}
 }
 
 \seealso{

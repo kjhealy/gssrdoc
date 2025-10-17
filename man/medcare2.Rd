@@ -24,16 +24,22 @@ Question Who should be next most responsible?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2037/vshow}{GSS Data Explorer page for \code{medcare2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab his-her family \tab government \tab insurance \tab private charity \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2336 \tab 258 \tab 50 \tab 192 \tab 25 \tab 15 \tab 28 \tab 2904 \cr
+   2006 \tab 4093 \tab 168 \tab 27 \tab 192 \tab 9 \tab 3 \tab 18 \tab 4510 \cr
+   Total \tab 6429 \tab 426 \tab 77 \tab 384 \tab 34 \tab 18 \tab 46 \tab 7414 \cr
+}
 }
 
 \seealso{

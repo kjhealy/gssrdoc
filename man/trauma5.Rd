@@ -21,26 +21,33 @@ Question B. Number of traumatic events (deaths, divorces, unemployment, and hosp
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/754/vshow}{GSS Data Explorer page for \code{trauma5}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab no answer \tab Total \cr
+   1978 \tab - \tab 367 \tab 639 \tab 386 \tab 75 \tab 9 \tab 56 \tab 1532 \cr
+   1980 \tab - \tab 368 \tab 629 \tab 344 \tab 59 \tab 8 \tab 60 \tab 1468 \cr
+   1983 \tab - \tab 397 \tab 715 \tab 365 \tab 80 \tab 9 \tab 33 \tab 1599 \cr
+   1984 \tab - \tab 403 \tab 573 \tab 350 \tab 72 \tab 7 \tab 68 \tab 1473 \cr
+   1986 \tab - \tab 401 \tab 599 \tab 336 \tab 61 \tab 13 \tab 60 \tab 1470 \cr
+   1987 \tab - \tab 457 \tab 717 \tab 407 \tab 79 \tab 9 \tab 150 \tab 1819 \cr
+   1988 \tab 484 \tab 247 \tab 398 \tab 250 \tab 49 \tab 7 \tab 46 \tab 1481 \cr
+   1989 \tab 502 \tab 320 \tab 367 \tab 222 \tab 38 \tab 6 \tab 82 \tab 1537 \cr
+   1990 \tab 473 \tab 267 \tab 353 \tab 186 \tab 37 \tab 5 \tab 51 \tab 1372 \cr
+   1991 \tab 500 \tab 309 \tab 388 \tab 210 \tab 34 \tab 2 \tab 74 \tab 1517 \cr
+   1993 \tab 549 \tab 289 \tab 427 \tab 236 \tab 58 \tab 3 \tab 44 \tab 1606 \cr
+   1994 \tab 2481 \tab 164 \tab 179 \tab 113 \tab 27 \tab 2 \tab 26 \tab 2992 \cr
+   Total \tab 4989 \tab 3989 \tab 5984 \tab 3405 \tab 669 \tab 80 \tab 750 \tab 19866 \cr
+}
 }
 
 \seealso{

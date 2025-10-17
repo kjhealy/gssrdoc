@@ -27,15 +27,21 @@ C. A Navy petty officer with the highest security clearance made copies of secre
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5229/vshow}{GSS Data Explorer page for \code{spyenemy}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab reprimand \tab dismiss/military \tab one yr in prison \tab 5-9 yrs in prisn \tab 10-20 yrs prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 12 \tab 91 \tab 42 \tab 177 \tab 465 \tab 527 \tab 57 \tab 16 \tab 2832 \cr
+   Total \tab 1445 \tab 12 \tab 91 \tab 42 \tab 177 \tab 465 \tab 527 \tab 57 \tab 16 \tab 2832 \cr
+}
 }
 
 \seealso{

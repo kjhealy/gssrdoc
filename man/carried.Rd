@@ -27,18 +27,25 @@ I. Carried a stranger''s belongings, like groceries, a suitcase, or shopping bag
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2885/vshow}{GSS Data Explorer page for \code{carried}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least 2 or 3 times in the past year \tab once in the past year \tab not at all in the past year \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 19 \tab 23 \tab 61 \tab 273 \tab 217 \tab 762 \tab 13 \tab 4 \tab 2765 \cr
+   2004 \tab 1472 \tab 26 \tab 38 \tab 94 \tab 296 \tab 221 \tab 659 \tab 4 \tab 2 \tab 2812 \cr
+   2012 \tab 666 \tab 24 \tab 24 \tab 70 \tab 229 \tab 226 \tab 725 \tab 2 \tab 8 \tab 1974 \cr
+   2014 \tab 1264 \tab 31 \tab 34 \tab 78 \tab 232 \tab 208 \tab 687 \tab - \tab 4 \tab 2538 \cr
+   Total \tab 4795 \tab 100 \tab 119 \tab 303 \tab 1030 \tab 872 \tab 2833 \tab 19 \tab 18 \tab 10089 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ C. To get all the way to the top in America today, you have to be corrupt.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4322/vshow}{GSS Data Explorer page for \code{corrupt}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1545 \tab 54 \tab 150 \tab 278 \tab 440 \tab 271 \tab 26 \tab 53 \tab 2817 \cr
+   Total \tab 1545 \tab 54 \tab 150 \tab 278 \tab 440 \tab 271 \tab 26 \tab 53 \tab 2817 \cr
+}
 }
 
 \seealso{

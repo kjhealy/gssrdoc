@@ -24,16 +24,22 @@ has gone bankrupt?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7473/vshow}{GSS Data Explorer page for \code{suicide2g}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab skipped on web \tab don't know \tab no answer \tab Total \cr
+   2021 \tab 2794 \tab 133 \tab 1059 \tab 46 \tab - \tab - \tab 4032 \cr
+   2022 \tab 2339 \tab 169 \tab 1001 \tab 10 \tab 18 \tab 7 \tab 3544 \cr
+   Total \tab 5133 \tab 302 \tab 2060 \tab 56 \tab 18 \tab 7 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

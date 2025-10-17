@@ -32,15 +32,21 @@ Question We are also interested in how people get information about science and 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3504/vshow}{GSS Data Explorer page for \code{scifromy}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab print newspapers \tab online newspapers \tab print magazines \tab online magazines \tab other places on the internet \tab books/other printed material \tab tv \tab radio \tab family \tab friends/colleagues \tab other \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 1386 \tab 47 \tab 50 \tab 51 \tab 16 \tab 123 \tab 58 \tab 239 \tab 15 \tab 19 \tab 19 \tab 11 \tab 7 \tab 3 \tab 2044 \cr
+   Total \tab 1386 \tab 47 \tab 50 \tab 51 \tab 16 \tab 123 \tab 58 \tab 239 \tab 15 \tab 19 \tab 19 \tab 11 \tab 7 \tab 3 \tab 2044 \cr
+}
 }
 
 \seealso{

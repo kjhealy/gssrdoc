@@ -23,16 +23,22 @@ C. Always to obey laws and regulations
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4909/vshow}{GSS Data Explorer page for \code{obeylaws}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 5 \tab 2 \tab 18 \tab 52 \tab 141 \tab 263 \tab 986 \tab 3 \tab 2 \tab 2812 \cr
+   2014 \tab 1274 \tab 7 \tab 10 \tab 14 \tab 50 \tab 94 \tab 222 \tab 853 \tab 12 \tab 2 \tab 2538 \cr
+   Total \tab 2614 \tab 12 \tab 12 \tab 32 \tab 102 \tab 235 \tab 485 \tab 1839 \tab 15 \tab 4 \tab 5350 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ C. High schools and colleges make students spend too much time reading "classics
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1424/vshow}{GSS Data Explorer page for \code{classics}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 59 \tab 483 \tab 761 \tab 128 \tab 160 \tab 15 \tab 1606 \cr
+   Total \tab 0 \tab 59 \tab 483 \tab 761 \tab 128 \tab 160 \tab 15 \tab 1606 \cr
+}
 }
 
 \seealso{

@@ -28,15 +28,21 @@ D. Forbidding the use of racial quotas in hiring and employment.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1236/vshow}{GSS Data Explorer page for \code{racquota}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
+   1990 \tab 674 \tab 138 \tab 261 \tab 103 \tab 105 \tab 41 \tab 37 \tab 13 \tab 1372 \cr
+   Total \tab 674 \tab 138 \tab 261 \tab 103 \tab 105 \tab 41 \tab 37 \tab 13 \tab 1372 \cr
+}
 }
 
 \seealso{

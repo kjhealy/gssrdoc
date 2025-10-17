@@ -23,15 +23,21 @@ Question How about the economy. Would you say that over the past year the nation
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1641/vshow}{GSS Data Explorer page for \code{econpast}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab gotten better \tab stayed the same \tab gotten worse \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 381 \tab 636 \tab 428 \tab 20 \tab 9 \tab 2992 \cr
+   Total \tab 1518 \tab 381 \tab 636 \tab 428 \tab 20 \tab 9 \tab 2992 \cr
+}
 }
 
 \seealso{

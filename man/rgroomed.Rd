@@ -25,17 +25,23 @@ Question How well groomed is the respondent?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6660/vshow}{GSS Data Explorer page for \code{rgroomed}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very poorly groomed \tab poorly groomed \tab about average \tab well groomed \tab very well groomed \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab - \tab 13 \tab 148 \tab 1402 \tab 834 \tab 262 \tab 1 \tab 207 \tab - \tab 2867 \cr
+   2018 \tab - \tab 23 \tab 105 \tab 1061 \tab 593 \tab 267 \tab 4 \tab 295 \tab - \tab 2348 \cr
+   2022 \tab 1864 \tab 19 \tab 97 \tab 842 \tab 540 \tab 181 \tab 1 \tab - \tab - \tab 3544 \cr
+   Total \tab 1864 \tab 55 \tab 350 \tab 3305 \tab 1967 \tab 710 \tab 6 \tab 502 \tab 0 \tab 8759 \cr
+}
 }
 
 \keyword{variable}

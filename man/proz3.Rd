@@ -26,16 +26,22 @@ C. Taking Prozac interferes with daily activities.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2228/vshow}{GSS Data Explorer page for \code{proz3}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1635 \tab 46 \tab 246 \tab 262 \tab 323 \tab 36 \tab 272 \tab 12 \tab 2832 \cr
+   2006 \tab 3238 \tab 62 \tab 278 \tab 403 \tab 318 \tab 49 \tab 146 \tab 16 \tab 4510 \cr
+   Total \tab 4873 \tab 108 \tab 524 \tab 665 \tab 641 \tab 85 \tab 418 \tab 28 \tab 7342 \cr
+}
 }
 
 \seealso{

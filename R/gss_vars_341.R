@@ -17,13 +17,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `agape2`](https://gssdataexplorer.norc.org/variables/3054/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree somewhat |neither agree nor disagree |disagree somewhat |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:--------------------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2004  |1472 |445            |497            |203                        |133               |53                |4          |5         |2812  |
+#'  |Total |1472 |445            |497            |203                        |133               |53                |4          |5         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruistic Love
@@ -53,13 +59,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `agape3`](https://gssdataexplorer.norc.org/variables/3055/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree somewhat |neither agree nor disagree |disagree somewhat |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:--------------------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2004  |1472 |488            |588            |160                        |68                |26                |4          |6         |2812  |
+#'  |Total |1472 |488            |588            |160                        |68                |26                |4          |6         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruistic Love
@@ -89,13 +101,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `agape4`](https://gssdataexplorer.norc.org/variables/3056/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree somewhat |neither agree nor disagree |disagree somewhat |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:--------------------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2004  |1472 |557            |475            |146                        |106               |45                |5          |6         |2812  |
+#'  |Total |1472 |557            |475            |146                        |106               |45                |5          |6         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruistic Love
@@ -121,13 +139,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hgunlaw`](https://gssdataexplorer.norc.org/variables/3057/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree |disagree |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:--------|:----------|:---------|:-----|
+#'  |2004  |1472 |924   |384      |27         |5         |2812  |
+#'  |Total |1472 |924   |384      |27         |5         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Guns
@@ -154,13 +178,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hguncrim`](https://gssdataexplorer.norc.org/variables/3058/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |more restriction would decrease crime |more restriction would increase crime |unsure |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------------------------|:-------------------------------------|:------|:----------|:---------|:-----|
+#'  |2004  |1499 |589                                   |251                                   |455    |10         |8         |2812  |
+#'  |Total |1499 |589                                   |251                                   |455    |10         |8         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Guns
@@ -186,13 +216,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `crimup`](https://gssdataexplorer.norc.org/variables/3059/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |would change mind and oppose more restrictions |would still support more restrictions |don't know |no answer |Total |
+#'  |:-----|:----|:----------------------------------------------|:-------------------------------------|:----------|:---------|:-----|
+#'  |2004  |1973 |292                                            |496                                   |48         |3         |2812  |
+#'  |Total |1973 |292                                            |496                                   |48         |3         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Guns
@@ -218,13 +254,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `crimdown`](https://gssdataexplorer.norc.org/variables/3060/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |would change mind and support more restrictions |would still oppose more restrictions |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------------------------------------|:------------------------------------|:----------|:---------|:-----|
+#'  |2004  |2479 |84                                              |239                                  |8          |2         |2812  |
+#'  |Total |2479 |84                                              |239                                  |8          |2         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Guns
@@ -255,13 +297,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `numrelex`](https://gssdataexplorer.norc.org/variables/3061/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1   |2   |3  |4  |5  |6  |seven or more |1 or more experience, dk |no answer |Total |
+#'  |:-----|:----|:---|:---|:--|:--|:--|:--|:-------------|:------------------------|:---------|:-----|
+#'  |2004  |2178 |318 |142 |61 |20 |14 |6  |30            |33                       |10        |2812  |
+#'  |Total |2178 |318 |142 |61 |20 |14 |6  |30            |33                       |10        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -286,13 +334,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `agerelex`](https://gssdataexplorer.norc.org/variables/3062/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |10 |11 |12 |13 |14 |15 |16 |17 |18 |19 |20 |21 |22 |23 |24 |25 |26 |27 |28 |29 |30 |31 |32 |33 |34 |35 |36 |37 |38 |39 |40 |41 |42 |43 |44 |45 |46 |47 |48 |49 |5  |50 |51 |52 |53 |54 |55 |56 |57 |58 |59 |6  |60 |61 |63 |64 |65 |66 |67 |68 |7  |70 |73 |75 |79 |8  |80 |9  |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2004  |2211 |1  |1  |3  |11 |14 |11 |13 |19 |12 |20 |29 |18 |17 |15 |15 |17 |15 |12 |12 |18 |8  |20 |11 |12 |9  |9  |15 |8  |5  |16 |6  |17 |9  |5  |6  |5  |12 |5  |3  |12 |5  |2  |14 |6  |5  |10 |4  |9  |7  |2  |4  |1  |2  |4  |1  |1  |3  |2  |2  |2  |1  |1  |3  |2  |1  |1  |5  |1  |5  |5          |24        |2812  |
+#'  |Total |2211 |1  |1  |3  |11 |14 |11 |13 |19 |12 |20 |29 |18 |17 |15 |15 |17 |15 |12 |12 |18 |8  |20 |11 |12 |9  |9  |15 |8  |5  |16 |6  |17 |9  |5  |6  |5  |12 |5  |3  |12 |5  |2  |14 |6  |5  |10 |4  |9  |7  |2  |4  |1  |2  |4  |1  |1  |3  |2  |2  |2  |1  |1  |3  |2  |1  |1  |5  |1  |5  |5          |24        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -318,13 +372,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chngrel`](https://gssdataexplorer.norc.org/variables/3063/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2004  |2211 |61  |526 |14        |2812  |
+#'  |Total |2211 |61  |526 |14        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion

@@ -25,20 +25,26 @@ I. Promotions are handled fairly
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2804/vshow}{GSS Data Explorer page for \code{promtefr}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 507 \tab 622 \tab 275 \tab 254 \tab 108 \tab 30 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 469 \tab 629 \tab 247 \tab 207 \tab 153 \tab 29 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 329 \tab 443 \tab 161 \tab 149 \tab 63 \tab 42 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 368 \tab 474 \tab 191 \tab 123 \tab 79 \tab 15 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 444 \tab 566 \tab 178 \tab 129 \tab 88 \tab 43 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 574 \tab 763 \tab 296 \tab 199 \tab 98 \tab 21 \tab 38 \tab 3544 \cr
+   Total \tab 8345 \tab 2691 \tab 3497 \tab 1348 \tab 1061 \tab 589 \tab 180 \tab 38 \tab 17749 \cr
+}
 }
 
 \seealso{

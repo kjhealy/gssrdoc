@@ -25,16 +25,23 @@ Question People have different views on childcare for children under school age.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
-   2022 \tab A/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/- \tab 2022 \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4469/vshow}{GSS Data Explorer page for \code{careprov}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab family members \tab government agencies \tab non-profit organizations (e.g., charitable organizations, churches/religious organizations) \tab private childcare providers (e.g., private day care center, nanny, babysitter) \tab employers \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 672 \tab 623 \tab 86 \tab 39 \tab 279 \tab 76 \tab 191 \tab 8 \tab - \tab 1974 \cr
+   2022 \tab 2384 \tab 450 \tab 109 \tab 29 \tab 214 \tab 108 \tab 234 \tab 6 \tab 10 \tab 3544 \cr
+   Total \tab 3056 \tab 1073 \tab 195 \tab 68 \tab 493 \tab 184 \tab 425 \tab 14 \tab 10 \tab 5518 \cr
+}
 }
 
 \seealso{

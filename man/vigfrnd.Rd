@@ -25,18 +25,25 @@ C. To make friends with NAME?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2005/vshow}{GSS Data Explorer page for \code{vigfrnd}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 266 \tab 657 \tab 274 \tab 178 \tab 45 \tab 24 \tab 2904 \cr
+   2006 \tab 3073 \tab 291 \tab 737 \tab 265 \tab 89 \tab 38 \tab 17 \tab 4510 \cr
+   2018 \tab 1175 \tab 229 \tab 564 \tab 223 \tab 109 \tab 19 \tab 29 \tab 2348 \cr
+   Total \tab 5708 \tab 786 \tab 1958 \tab 762 \tab 376 \tab 102 \tab 70 \tab 9762 \cr
+}
 }
 
 \seealso{

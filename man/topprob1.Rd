@@ -29,16 +29,22 @@ Question A1. Which of these issues is the most important for America today?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4798/vshow}{GSS Data Explorer page for \code{topprob1}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab health care \tab education \tab crime \tab the environment \tab immigration \tab the economy \tab terrorism \tab poverty \tab none of these \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab 614 \tab 309 \tab 258 \tab 19 \tab 58 \tab 53 \tab 492 \tab 107 \tab 37 \tab 13 \tab 78 \tab 6 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 551 \tab 216 \tab 53 \tab 224 \tab 68 \tab 363 \tab 50 \tab 99 \tab 66 \tab 197 \tab 140 \tab 2 \tab 4032 \cr
+   Total \tab 2617 \tab 860 \tab 474 \tab 72 \tab 282 \tab 121 \tab 855 \tab 157 \tab 136 \tab 79 \tab 275 \tab 146 \tab 2 \tab 6076 \cr
+}
 }
 
 \seealso{

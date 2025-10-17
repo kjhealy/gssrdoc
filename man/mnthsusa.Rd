@@ -22,17 +22,23 @@ Question How long have you lived in the United States? If you have lived in the 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7298/vshow}{GSS Data Explorer page for \code{mnthsusa}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 1 month \tab 10 \tab 8 \tab 9 \tab 6 \tab don't know \tab no answer \tab skipped on web \tab 11 months \tab 2 \tab 3 \tab 5 \tab 7 \tab Total \cr
+   2018 \tab 2344 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 3746 \tab 1 \tab - \tab 1 \tab 1 \tab 1 \tab 9 \tab 2 \tab 271 \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab 3520 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 6 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3544 \cr
+   Total \tab 9610 \tab 3 \tab 2 \tab 3 \tab 4 \tab 2 \tab 11 \tab 8 \tab 275 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 9924 \cr
+}
 }
 
 \keyword{variable}

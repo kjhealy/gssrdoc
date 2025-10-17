@@ -24,16 +24,22 @@ Question K3. And how often do you avoid buying certain products for environmenta
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4815/vshow}{GSS Data Explorer page for \code{nobuygrn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab never \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab 614 \tab 105 \tab 351 \tab 540 \tab 411 \tab 16 \tab 7 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 146 \tab 525 \tab 769 \tab 381 \tab 2 \tab 194 \tab 12 \tab 4032 \cr
+   Total \tab 2617 \tab 251 \tab 876 \tab 1309 \tab 792 \tab 18 \tab 201 \tab 12 \tab 6076 \cr
+}
 }
 
 \seealso{

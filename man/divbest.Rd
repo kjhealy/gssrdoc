@@ -26,17 +26,24 @@ Divorce is usually the best solution when a couple can''t seem to work out their
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 1994, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4408/vshow}{GSS Data Explorer page for \code{divbest}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1994 \tab 1545 \tab 126 \tab 548 \tab 272 \tab 334 \tab 112 \tab 33 \tab 22 \tab 2992 \cr
+   2002 \tab 1594 \tab 156 \tab 338 \tab 233 \tab 302 \tab 120 \tab 21 \tab 1 \tab 2765 \cr
+   2012 \tab 672 \tab 91 \tab 561 \tab 187 \tab 336 \tab 90 \tab 29 \tab 8 \tab 1974 \cr
+   Total \tab 3811 \tab 373 \tab 1447 \tab 692 \tab 972 \tab 322 \tab 83 \tab 31 \tab 7731 \cr
+}
 }
 
 \seealso{

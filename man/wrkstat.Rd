@@ -28,49 +28,56 @@ Question Last week were you working full time, part time, going to school, keepi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/-/- \tab full \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3/vshow}{GSS Data Explorer page for \code{wrkstat}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab working full time \tab working part time \tab with a job, but not at work because of temporary illness, vacation, strike \tab unemployed, laid off, looking for work \tab retired \tab in school \tab keeping house \tab other \tab no answer \tab skipped on web \tab don't know \tab Total \cr
+   1972 \tab 750 \tab 121 \tab 38 \tab 46 \tab 144 \tab 58 \tab 432 \tab 24 \tab - \tab - \tab - \tab 1613 \cr
+   1973 \tab 651 \tab 134 \tab 31 \tab 35 \tab 154 \tab 59 \tab 421 \tab 19 \tab - \tab - \tab - \tab 1504 \cr
+   1974 \tab 635 \tab 108 \tab 46 \tab 54 \tab 167 \tab 47 \tab 417 \tab 10 \tab - \tab - \tab - \tab 1484 \cr
+   1975 \tab 622 \tab 145 \tab 26 \tab 61 \tab 165 \tab 49 \tab 402 \tab 20 \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 619 \tab 131 \tab 28 \tab 63 \tab 176 \tab 46 \tab 427 \tab 9 \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 775 \tab 107 \tab 39 \tab 37 \tab 152 \tab 38 \tab 359 \tab 23 \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 716 \tab 139 \tab 39 \tab 39 \tab 157 \tab 35 \tab 377 \tab 30 \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab 687 \tab 137 \tab 35 \tab 39 \tab 149 \tab 40 \tab 356 \tab 25 \tab - \tab - \tab - \tab 1468 \cr
+   1982 \tab 839 \tab 185 \tab 41 \tab 92 \tab 211 \tab 44 \tab 402 \tab 46 \tab - \tab - \tab - \tab 1860 \cr
+   1983 \tab 741 \tab 170 \tab 34 \tab 84 \tab 163 \tab 31 \tab 349 \tab 27 \tab - \tab - \tab - \tab 1599 \cr
+   1984 \tab 717 \tab 162 \tab 34 \tab 49 \tab 154 \tab 41 \tab 302 \tab 14 \tab - \tab - \tab - \tab 1473 \cr
+   1985 \tab 741 \tab 171 \tab 39 \tab 45 \tab 204 \tab 44 \tab 275 \tab 15 \tab - \tab - \tab - \tab 1534 \cr
+   1986 \tab 698 \tab 146 \tab 31 \tab 33 \tab 196 \tab 38 \tab 305 \tab 23 \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab 934 \tab 201 \tab 19 \tab 42 \tab 248 \tab 47 \tab 299 \tab 29 \tab - \tab - \tab - \tab 1819 \cr
+   1988 \tab 728 \tab 166 \tab 31 \tab 33 \tab 213 \tab 62 \tab 233 \tab 15 \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 760 \tab 153 \tab 41 \tab 25 \tab 217 \tab 48 \tab 271 \tab 22 \tab - \tab - \tab - \tab 1537 \cr
+   1990 \tab 704 \tab 147 \tab 26 \tab 33 \tab 194 \tab 48 \tab 199 \tab 21 \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 702 \tab 182 \tab 28 \tab 39 \tab 218 \tab 57 \tab 270 \tab 21 \tab - \tab - \tab - \tab 1517 \cr
+   1993 \tab 809 \tab 167 \tab 33 \tab 52 \tab 243 \tab 47 \tab 216 \tab 39 \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 1594 \tab 315 \tab 60 \tab 88 \tab 425 \tab 79 \tab 382 \tab 47 \tab 2 \tab - \tab - \tab 2992 \cr
+   1996 \tab 1641 \tab 302 \tab 60 \tab 75 \tab 350 \tab 84 \tab 338 \tab 54 \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab 1568 \tab 304 \tab 46 \tab 58 \tab 394 \tab 79 \tab 328 \tab 54 \tab 1 \tab - \tab - \tab 2832 \cr
+   2000 \tab 1524 \tab 306 \tab 60 \tab 60 \tab 404 \tab 77 \tab 325 \tab 61 \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 1432 \tab 312 \tab 52 \tab 121 \tab 414 \tab 78 \tab 268 \tab 88 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 1466 \tab 320 \tab 80 \tab 99 \tab 403 \tab 115 \tab 266 \tab 62 \tab 1 \tab - \tab - \tab 2812 \cr
+   2006 \tab 2322 \tab 440 \tab 90 \tab 148 \tab 715 \tab 140 \tab 496 \tab 155 \tab 4 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1003 \tab 211 \tab 53 \tab 74 \tab 336 \tab 57 \tab 227 \tab 60 \tab 2 \tab - \tab - \tab 2023 \cr
+   2010 \tab 917 \tab 234 \tab 33 \tab 145 \tab 319 \tab 93 \tab 235 \tab 65 \tab 3 \tab - \tab - \tab 2044 \cr
+   2012 \tab 912 \tab 226 \tab 40 \tab 104 \tab 357 \tab 70 \tab 210 \tab 54 \tab 1 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1230 \tab 273 \tab 40 \tab 104 \tab 460 \tab 90 \tab 263 \tab 76 \tab 2 \tab - \tab - \tab 2538 \cr
+   2016 \tab 1321 \tab 345 \tab 57 \tab 118 \tab 574 \tab 76 \tab 284 \tab 89 \tab 3 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1134 \tab 259 \tab 53 \tab 84 \tab 445 \tab 81 \tab 242 \tab 48 \tab 2 \tab - \tab - \tab 2348 \cr
+   2021 \tab 1776 \tab 365 \tab 104 \tab 265 \tab 993 \tab 88 \tab 315 \tab 118 \tab 3 \tab 5 \tab - \tab 4032 \cr
+   2022 \tab 1599 \tab 346 \tab 89 \tab 177 \tab 772 \tab 101 \tab 273 \tab 180 \tab 2 \tab 4 \tab 1 \tab 3544 \cr
+   Total \tab 35267 \tab 7430 \tab 1556 \tab 2621 \tab 10886 \tab 2187 \tab 10764 \tab 1643 \tab 26 \tab 9 \tab 1 \tab 72390 \cr
+}
 }
 
 \seealso{
@@ -78,12 +85,12 @@ Other Core:
 \code{\link{evwork}},
 \code{\link{hrs1}},
 \code{\link{hrs2}},
-\code{\link{id}},
+\code{\link{id}()},
 \code{\link{occ}},
 \code{\link{prestige}},
 \code{\link{wrkgovt}},
 \code{\link{wrkslf}},
-\code{\link{year}}
+\code{\link{year}()}
 }
 \concept{Core}
 \keyword{variable}

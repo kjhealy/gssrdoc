@@ -22,15 +22,21 @@ Question It is the motherâ€™s gene that decides whether the baby is a boy o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3470/vshow}{GSS Data Explorer page for \code{maboygrl}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1769 \tab 41 \tab 176 \tab 35 \tab 2 \tab 2023 \cr
+   Total \tab 1769 \tab 41 \tab 176 \tab 35 \tab 2 \tab 2023 \cr
+}
 }
 
 \seealso{

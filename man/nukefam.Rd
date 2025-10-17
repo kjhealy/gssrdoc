@@ -25,16 +25,22 @@ Question B. And do you think that nuclear power stations areâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4757/vshow}{GSS Data Explorer page for \code{nukefam}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 253 \tab 288 \tab 515 \tab 278 \tab 65 \tab 68 \tab 90 \tab 1606 \cr
+   1994 \tab 1606 \tab 234 \tab 288 \tab 456 \tab 222 \tab 42 \tab 72 \tab 72 \tab 2992 \cr
+   Total \tab 1655 \tab 487 \tab 576 \tab 971 \tab 500 \tab 107 \tab 140 \tab 162 \tab 4598 \cr
+}
 }
 
 \seealso{

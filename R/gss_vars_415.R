@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhgvthlt`](https://gssdataexplorer.norc.org/variables/3789/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should be |probably should be |probably should not be |definitely should not be |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:------------------|:----------------------|:------------------------|:------------|:---------|:-----|
+#'  |2006  |3085 |488                  |617                |200                    |77                       |33           |10        |4510  |
+#'  |Total |3085 |488                  |617                |200                    |77                       |33           |10        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -51,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhgvthme`](https://gssdataexplorer.norc.org/variables/3790/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should be |probably should be |probably should not be |definitely should not be |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:------------------|:----------------------|:------------------------|:------------|:---------|:-----|
+#'  |2006  |3085 |311                  |701                |278                    |97                       |28           |10        |4510  |
+#'  |Total |3085 |311                  |701                |278                    |97                       |28           |10        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -86,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhgvtedc`](https://gssdataexplorer.norc.org/variables/3791/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should be |probably should be |probably should not be |definitely should not be |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:------------------|:----------------------|:------------------------|:------------|:---------|:-----|
+#'  |2006  |3085 |369                  |748                |209                    |62                       |28           |9         |4510  |
+#'  |Total |3085 |369                  |748                |209                    |62                       |28           |9         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -121,13 +139,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhgvtdis`](https://gssdataexplorer.norc.org/variables/3792/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should be |probably should be |probably should not be |definitely should not be |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:------------------|:----------------------|:------------------------|:------------|:---------|:-----|
+#'  |2006  |3085 |397                  |669                |232                    |78                       |38           |11        |4510  |
+#'  |Total |3085 |397                  |669                |232                    |78                       |38           |11        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -156,13 +180,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhslfshm`](https://gssdataexplorer.norc.org/variables/3793/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should be |probably should be |probably should not be |definitely should not be |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:------------------|:----------------------|:------------------------|:------------|:---------|:-----|
+#'  |2006  |3085 |27                   |63                 |555                    |753                      |17           |10        |4510  |
+#'  |Total |3085 |27                   |63                 |555                    |753                      |17           |10        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -191,13 +221,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhfamshm`](https://gssdataexplorer.norc.org/variables/3794/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should be |probably should be |probably should not be |definitely should not be |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:------------------|:----------------------|:------------------------|:------------|:---------|:-----|
+#'  |2006  |3085 |19                   |42                 |473                    |860                      |22           |9         |4510  |
+#'  |Total |3085 |19                   |42                 |473                    |860                      |22           |9         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -226,13 +262,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhseedoc`](https://gssdataexplorer.norc.org/variables/3795/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should be |probably should be |probably should not be |definitely should not be |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:------------------|:----------------------|:------------------------|:------------|:---------|:-----|
+#'  |2006  |3085 |191                  |308                |404                    |485                      |27           |10        |4510  |
+#'  |Total |3085 |191                  |308                |404                    |485                      |27           |10        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -261,13 +303,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhmeds`](https://gssdataexplorer.norc.org/variables/3796/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should be |probably should be |probably should not be |definitely should not be |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:------------------|:----------------------|:------------------------|:------------|:---------|:-----|
+#'  |2006  |3085 |232                  |362                |349                    |441                      |31           |10        |4510  |
+#'  |Total |3085 |232                  |362                |349                    |441                      |31           |10        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -296,13 +344,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhhsptrt`](https://gssdataexplorer.norc.org/variables/3797/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should be |probably should be |probably should not be |definitely should not be |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:------------------|:----------------------|:------------------------|:------------|:---------|:-----|
+#'  |2006  |3085 |144                  |368                |441                    |422                      |40           |10        |4510  |
+#'  |Total |3085 |144                  |368                |441                    |422                      |40           |10        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -331,13 +385,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhmnthsp`](https://gssdataexplorer.norc.org/variables/3798/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should be |probably should be |probably should not be |definitely should not be |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:------------------|:----------------------|:------------------------|:------------|:---------|:-----|
+#'  |2006  |3085 |107                  |326                |456                    |490                      |37           |9         |4510  |
+#'  |Total |3085 |107                  |326                |456                    |490                      |37           |9         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV

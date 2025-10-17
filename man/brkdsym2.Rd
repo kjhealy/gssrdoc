@@ -22,15 +22,21 @@ Question As far as you know, what is a nervous breakdown? (PROBES: How would you
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2055/vshow}{GSS Data Explorer page for \code{brkdsym2}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 202 \tab 203 \tab 205 \tab 207 \tab 208 \tab 209 \tab 210 \tab 211 \tab 212 \tab 301 \tab 304 \tab 306 \tab 308 \tab 310 \tab 311 \tab 403 \tab 404 \tab 405 \tab 406 \tab 407 \tab 408 \tab 411 \tab 412 \tab 501 \tab 502 \tab 503 \tab 506 \tab 508 \tab 510 \tab 512 \tab 601 \tab 602 \tab 603 \tab 608 \tab 609 \tab 610 \tab 611 \tab 612 \tab 701 \tab 702 \tab 704 \tab 706 \tab 707 \tab 708 \tab 709 \tab 710 \tab 712 \tab 801 \tab 803 \tab 804 \tab 805 \tab 807 \tab 808 \tab 810 \tab 811 \tab 812 \tab 902 \tab 904 \tab 905 \tab 906 \tab 907 \tab 908 \tab 911 \tab 914 \tab 921 \tab 922 \tab 923 \tab 924 \tab no answer \tab Total \cr
+   1996 \tab 2332 \tab 20 \tab 3 \tab 27 \tab 30 \tab 8 \tab 1 \tab 1 \tab 5 \tab 6 \tab 1 \tab 17 \tab 2 \tab 2 \tab 11 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 3 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 8 \tab 5 \tab 1 \tab 1 \tab 8 \tab 3 \tab 5 \tab 5 \tab 2 \tab 1 \tab 4 \tab 1 \tab 9 \tab 7 \tab 48 \tab 18 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 11 \tab 1 \tab 18 \tab 29 \tab 30 \tab 8 \tab 3 \tab 23 \tab 10 \tab 20 \tab 8 \tab 1 \tab 5 \tab 1 \tab 7 \tab 4 \tab 96 \tab 2904 \cr
+   Total \tab 2332 \tab 20 \tab 3 \tab 27 \tab 30 \tab 8 \tab 1 \tab 1 \tab 5 \tab 6 \tab 1 \tab 17 \tab 2 \tab 2 \tab 11 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 3 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 8 \tab 5 \tab 1 \tab 1 \tab 8 \tab 3 \tab 5 \tab 5 \tab 2 \tab 1 \tab 4 \tab 1 \tab 9 \tab 7 \tab 48 \tab 18 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 11 \tab 1 \tab 18 \tab 29 \tab 30 \tab 8 \tab 3 \tab 23 \tab 10 \tab 20 \tab 8 \tab 1 \tab 5 \tab 1 \tab 7 \tab 4 \tab 96 \tab 2904 \cr
+}
 }
 
 \seealso{

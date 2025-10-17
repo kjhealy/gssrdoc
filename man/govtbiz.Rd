@@ -23,15 +23,21 @@ Question B. And which of these two groups do you think is making more effort to 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4785/vshow}{GSS Data Explorer page for \code{govtbiz}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab government \tab or business and industry? \tab both equally \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1541 \tab 492 \tab 136 \tab 303 \tab 241 \tab 104 \tab 2817 \cr
+   Total \tab 1541 \tab 492 \tab 136 \tab 303 \tab 241 \tab 104 \tab 2817 \cr
+}
 }
 
 \seealso{

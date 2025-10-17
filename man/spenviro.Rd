@@ -26,19 +26,28 @@ A. The environment.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4057/vshow}{GSS Data Explorer page for \code{spenviro}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 66 \tab 213 \tab 277 \tab 70 \tab 13 \tab 25 \tab 13 \tab 1534 \cr
+   1990 \tab 155 \tab 178 \tab 510 \tab 339 \tab 85 \tab 23 \tab 41 \tab 41 \tab 1372 \cr
+   1996 \tab 1572 \tab 151 \tab 474 \tab 460 \tab 137 \tab 39 \tab 29 \tab 42 \tab 2904 \cr
+   2006 \tab 2992 \tab 261 \tab 541 \tab 492 \tab 156 \tab 37 \tab 30 \tab 1 \tab 4510 \cr
+   2016 \tab 1477 \tab 146 \tab 508 \tab 510 \tab 172 \tab 32 \tab 13 \tab 9 \tab 2867 \cr
+   Total \tab 7053 \tab 802 \tab 2246 \tab 2078 \tab 620 \tab 144 \tab 138 \tab 106 \tab 13187 \cr
+}
 }
 
 \seealso{

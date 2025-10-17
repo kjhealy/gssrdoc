@@ -23,15 +23,21 @@ K. Participate in any sports activity such as softball, basketball, swimming, go
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1415/vshow}{GSS Data Explorer page for \code{dosports}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 901 \tab 693 \tab 1 \tab 11 \tab 1606 \cr
+   Total \tab 0 \tab 901 \tab 693 \tab 1 \tab 11 \tab 1606 \cr
+}
 }
 
 \seealso{

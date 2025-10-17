@@ -25,20 +25,26 @@ C. I receive enough help and equipment to get the job done
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2798/vshow}{GSS Data Explorer page for \code{hlpequip}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 857 \tab 677 \tab 171 \tab 68 \tab 9 \tab 14 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 759 \tab 679 \tab 184 \tab 77 \tab 18 \tab 17 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 536 \tab 466 \tab 106 \tab 52 \tab 2 \tab 25 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 589 \tab 511 \tab 98 \tab 42 \tab 3 \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 679 \tab 567 \tab 128 \tab 39 \tab 4 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 1552 \tab 848 \tab 821 \tab 203 \tab 76 \tab 10 \tab 12 \tab 22 \tab 3544 \cr
+   Total \tab 8342 \tab 4268 \tab 3721 \tab 890 \tab 354 \tab 46 \tab 106 \tab 22 \tab 17749 \cr
+}
 }
 
 \seealso{

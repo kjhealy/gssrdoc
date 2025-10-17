@@ -28,49 +28,56 @@ Question Generally speaking, do you usually think of yourself as a Republican, D
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/-/- \tab full \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/141/vshow}{GSS Data Explorer page for \code{partyid}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab strong democrat \tab not very strong democrat \tab independent, close to democrat \tab independent (neither, no response) \tab independent, close to republican \tab not very strong republican \tab strong republican \tab other party \tab no answer \tab don't know \tab Total \cr
+   1972 \tab 326 \tab 436 \tab 160 \tab 159 \tab 100 \tab 231 \tab 126 \tab 69 \tab 6 \tab - \tab 1613 \cr
+   1973 \tab 231 \tab 383 \tab 192 \tab 143 \tab 141 \tab 218 \tab 123 \tab 62 \tab 11 \tab - \tab 1504 \cr
+   1974 \tab 246 \tab 373 \tab 207 \tab 144 \tab 106 \tab 216 \tab 110 \tab 59 \tab 13 \tab 10 \tab 1484 \cr
+   1975 \tab 251 \tab 349 \tab 211 \tab 211 \tab 122 \tab 236 \tab 93 \tab 12 \tab 5 \tab - \tab 1490 \cr
+   1976 \tab 225 \tab 403 \tab 207 \tab 241 \tab 105 \tab 214 \tab 96 \tab 4 \tab 4 \tab - \tab 1499 \cr
+   1977 \tab 275 \tab 400 \tab 200 \tab 175 \tab 130 \tab 226 \tab 107 \tab 5 \tab 12 \tab - \tab 1530 \cr
+   1978 \tab 216 \tab 389 \tab 199 \tab 221 \tab 135 \tab 246 \tab 111 \tab 10 \tab 5 \tab - \tab 1532 \cr
+   1980 \tab 188 \tab 374 \tab 193 \tab 246 \tab 123 \tab 218 \tab 114 \tab 9 \tab 3 \tab - \tab 1468 \cr
+   1982 \tab 382 \tab 484 \tab 243 \tab 226 \tab 152 \tab 214 \tab 137 \tab 13 \tab 9 \tab - \tab 1860 \cr
+   1983 \tab 246 \tab 382 \tab 218 \tab 192 \tab 141 \tab 256 \tab 145 \tab 13 \tab 6 \tab - \tab 1599 \cr
+   1984 \tab 265 \tab 280 \tab 209 \tab 163 \tab 156 \tab 245 \tab 125 \tab 22 \tab 8 \tab - \tab 1473 \cr
+   1985 \tab 244 \tab 351 \tab 159 \tab 146 \tab 157 \tab 266 \tab 189 \tab 17 \tab 5 \tab - \tab 1534 \cr
+   1986 \tab 245 \tab 336 \tab 158 \tab 187 \tab 150 \tab 241 \tab 141 \tab 9 \tab 3 \tab - \tab 1470 \cr
+   1987 \tab 422 \tab 395 \tab 211 \tab 199 \tab 148 \tab 266 \tab 153 \tab 15 \tab 10 \tab - \tab 1819 \cr
+   1988 \tab 236 \tab 313 \tab 180 \tab 186 \tab 140 \tab 275 \tab 146 \tab 5 \tab - \tab - \tab 1481 \cr
+   1989 \tab 234 \tab 335 \tab 134 \tab 192 \tab 119 \tab 330 \tab 175 \tab 13 \tab 5 \tab - \tab 1537 \cr
+   1990 \tab 170 \tab 315 \tab 133 \tab 155 \tab 143 \tab 280 \tab 160 \tab 12 \tab 4 \tab - \tab 1372 \cr
+   1991 \tab 224 \tab 319 \tab 131 \tab 188 \tab 169 \tab 285 \tab 181 \tab 14 \tab 6 \tab - \tab 1517 \cr
+   1993 \tab 227 \tab 321 \tab 190 \tab 205 \tab 158 \tab 299 \tab 180 \tab 17 \tab 9 \tab - \tab 1606 \cr
+   1994 \tab 423 \tab 644 \tab 341 \tab 369 \tab 282 \tab 519 \tab 321 \tab 44 \tab 49 \tab - \tab 2992 \cr
+   1996 \tab 400 \tab 577 \tab 356 \tab 457 \tab 258 \tab 500 \tab 307 \tab 43 \tab 6 \tab - \tab 2904 \cr
+   1998 \tab 370 \tab 597 \tab 349 \tab 477 \tab 244 \tab 484 \tab 239 \tab 63 \tab 9 \tab - \tab 2832 \cr
+   2000 \tab 414 \tab 507 \tab 325 \tab 566 \tab 261 \tab 399 \tab 285 \tab 48 \tab 12 \tab - \tab 2817 \cr
+   2002 \tab 408 \tab 515 \tab 267 \tab 528 \tab 199 \tab 449 \tab 315 \tab 48 \tab 36 \tab - \tab 2765 \cr
+   2004 \tab 455 \tab 504 \tab 281 \tab 471 \tab 239 \tab 425 \tab 396 \tab 29 \tab 12 \tab - \tab 2812 \cr
+   2006 \tab 700 \tab 736 \tab 527 \tab 997 \tab 327 \tab 637 \tab 495 \tab 65 \tab 26 \tab - \tab 4510 \cr
+   2008 \tab 390 \tab 331 \tab 262 \tab 322 \tab 162 \tab 303 \tab 202 \tab 38 \tab 13 \tab - \tab 2023 \cr
+   2010 \tab 348 \tab 348 \tab 265 \tab 360 \tab 197 \tab 277 \tab 184 \tab 49 \tab 16 \tab - \tab 2044 \cr
+   2012 \tab 356 \tab 343 \tab 235 \tab 373 \tab 157 \tab 250 \tab 192 \tab 54 \tab 14 \tab - \tab 1974 \cr
+   2014 \tab 419 \tab 406 \tab 337 \tab 502 \tab 249 \tab 292 \tab 245 \tab 62 \tab 25 \tab 1 \tab 2538 \cr
+   2016 \tab 463 \tab 496 \tab 405 \tab 473 \tab 292 \tab 364 \tab 270 \tab 72 \tab 32 \tab - \tab 2867 \cr
+   2018 \tab 379 \tab 352 \tab 307 \tab 414 \tab 259 \tab 272 \tab 255 \tab 77 \tab 33 \tab - \tab 2348 \cr
+   2021 \tab 822 \tab 541 \tab 471 \tab 817 \tab 327 \tab 384 \tab 524 \tab 114 \tab 32 \tab - \tab 4032 \cr
+   2022 \tab 595 \tab 451 \tab 400 \tab 835 \tab 330 \tab 361 \tab 431 \tab 106 \tab 35 \tab - \tab 3544 \cr
+   Total \tab 11795 \tab 14286 \tab 8663 \tab 11540 \tab 6378 \tab 10678 \tab 7273 \tab 1292 \tab 474 \tab 11 \tab 72390 \cr
+}
 }
 
 \seealso{

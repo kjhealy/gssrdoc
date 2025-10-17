@@ -1,108 +1,3 @@
-#'  Mother working doesn't hurt children - issp version
-#' 
-#'  fechld2
-#' 
-#' Question To begin, we have some questions about women. To what extent do you agree or disagree...? A working mother can establish just as warm and secure a relationship with her children as a mother who does not work.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `fechld2`](https://gssdataexplorer.norc.org/variables/7764/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name fechld2
-NULL
-
-
-#'  Preschool kids suffer if mother works  - issp version
-#' 
-#'  fepresch2
-#' 
-#' Question (To what extent do you agree or disagree...?) A pre-school child is likely to suffer if his or her mother works.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `fepresch2`](https://gssdataexplorer.norc.org/variables/7765/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name fepresch2
-NULL
-
-
-#'  Women vs men responsibility for the home
-#' 
-#'  rspgndr
-#' 
-#' Question People have different opinions about how much responsibility women and men should have for the home and family. Which of the following statements comes closest to your opinion?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` women take much more responsibility
-#'   * `2` women take somewhat more responsibility
-#'   * `3` women and men take equal responsibility
-#'   * `4` men take somewhat more responsibility
-#'   * `5` men take much more responsibility
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `rspgndr`](https://gssdataexplorer.norc.org/variables/7766/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name rspgndr
-NULL
-
-
 #'  Mother vs father care for child
 #' 
 #'  prntlk
@@ -121,13 +16,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prntlk`](https://gssdataexplorer.norc.org/variables/7767/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |mothers are much better suited |mothers are somewhat better suited |mothers and fathers are equally suited |fathers are somewhat better suited |fathers are much better suited |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:------------------------------|:----------------------------------|:--------------------------------------|:----------------------------------|:------------------------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2380 |98                             |178                                |794                                    |6                                  |5                              |69           |5         |9              |3544  |
+#'  |Total |2380 |98                             |178                                |794                                    |6                                  |5                              |69           |5         |9              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -156,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prntfnce`](https://gssdataexplorer.norc.org/variables/7768/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |the mother mostly |the mother somewhat more than the father |the mother and father equally |the father somewhat more than the mother |the father mostly |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------------|:----------------------------------------|:-----------------------------|:----------------------------------------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2383 |6                 |5                                        |612                           |213                                      |157               |159          |4         |5              |3544  |
+#'  |Total |2383 |6                 |5                                        |612                           |213                                      |157               |159          |4         |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -191,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prntcre`](https://gssdataexplorer.norc.org/variables/7769/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |the mother mostly |the mother somewhat more than the father |the mother and father equally |the father somewhat more than the mother |the father mostly |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------------|:----------------------------------------|:-----------------------------|:----------------------------------------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2383 |122               |162                                      |755                           |3                                        |3                 |105          |4         |7              |3544  |
+#'  |Total |2383 |122               |162                                      |755                           |3                                        |3                 |105          |4         |7              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -226,13 +139,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prntply`](https://gssdataexplorer.norc.org/variables/7770/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |the mother mostly |the mother somewhat more than the father |the mother and father equally |the father somewhat more than the mother |the father mostly |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------------|:----------------------------------------|:-----------------------------|:----------------------------------------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2383 |10                |18                                       |1038                          |15                                       |8                 |61           |4         |7              |3544  |
+#'  |Total |2383 |10                |18                                       |1038                          |15                                       |8                 |61           |4         |7              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -261,13 +180,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prntbhav`](https://gssdataexplorer.norc.org/variables/7771/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |the mother mostly |the mother somewhat more than the father |the mother and father equally |the father somewhat more than the mother |the father mostly |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------------|:----------------------------------------|:-----------------------------|:----------------------------------------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2383 |9                 |15                                       |1053                          |18                                       |7                 |48           |4         |7              |3544  |
+#'  |Total |2383 |9                 |15                                       |1053                          |18                                       |7                 |48           |4         |7              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -296,13 +221,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prntadvs`](https://gssdataexplorer.norc.org/variables/7772/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |the mother mostly |the mother somewhat more than the father |the mother and father equally |the father somewhat more than the mother |the father mostly |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------------|:----------------------------------------|:-----------------------------|:----------------------------------------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2383 |17                |26                                       |1055                          |4                                        |6                 |42           |4         |7              |3544  |
+#'  |Total |2383 |17                |26                                       |1055                          |4                                        |6                 |42           |4         |7              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -331,13 +262,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prntmdl`](https://gssdataexplorer.norc.org/variables/7773/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |the mother mostly |the mother somewhat more than the father |the mother and father equally |the father somewhat more than the mother |the father mostly |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------------|:----------------------------------------|:-----------------------------|:----------------------------------------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2383 |8                 |2                                        |1072                          |16                                       |9                 |41           |4         |9              |3544  |
+#'  |Total |2383 |8                 |2                                        |1072                          |16                                       |9                 |41           |4         |9              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -345,6 +282,130 @@ NULL
 #' @keywords variable
 #' @md
 #' @name prntmdl
+NULL
+
+
+#'  Financial distribution in household
+#' 
+#'  orginc
+#' 
+#' Question How do you and your (spousepartfill) organize the income that one or both of you receive? Please choose the option that comes closest.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` r manage all money and gives spouse/partner his/her share
+#'   * `2` r spouse/partner manages all money and gives r share
+#'   * `3` r and spouse/partner pool all money and take what we need
+#'   * `4` r and spouse/partner pool some money and keep rest separate
+#'   * `5` r and spouse/partner keep money separate
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `orginc`](https://gssdataexplorer.norc.org/variables/7774/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |r manage all money and gives spouse/partner his/her share |r spouse/partner manages all money and gives r share |r and spouse/partner pool all money and take what we need |r and spouse/partner pool some money and keep rest separate |r and spouse/partner keep money separate |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------------------------------------------------------|:----------------------------------------------------|:---------------------------------------------------------|:-----------------------------------------------------------|:----------------------------------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |3023 |47                                                        |44                                                   |257                                                       |69                                                          |89                                       |11           |2         |2              |3544  |
+#'  |Total |3023 |47                                                        |44                                                   |257                                                       |69                                                          |89                                       |11           |2         |2              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name orginc
+NULL
+
+
+#'  Who in household plans social activities
+#' 
+#'  plan1
+#' 
+#' Question (In your household who does the following things...?) Plans and organizes social and family activities?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` always me
+#'   * `2` usually me
+#'   * `3` about equal or both together
+#'   * `4` usually my spouse/partner
+#'   * `5` always my spouse/partner
+#'   * `6` is done by a third person
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `plan1`](https://gssdataexplorer.norc.org/variables/7775/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |always me |usually me |about equal or both together |usually my spouse/partner |always my spouse/partner |is done by a third person |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:----------|:----------------------------|:-------------------------|:------------------------|:-------------------------|:----------|:---------|:--------------|:-----|
+#'  |2022  |3024 |63        |114        |205                          |91                        |31                       |2                         |11         |1         |2              |3544  |
+#'  |Total |3024 |63        |114        |205                          |91                        |31                       |2                         |11         |1         |2              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name plan1
+NULL
+
+
+#'  Who in household does housework
+#' 
+#'  sharehhw
+#' 
+#' Question Which of the following best applies to the sharing of household work between you and your (spousepartfill)?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` r does much more than fair share
+#'   * `2` r does a bit more than fair share
+#'   * `3` r does roughly fair share
+#'   * `4` r does a bit less than fair share
+#'   * `5` r does much less than fair share
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `sharehhw`](https://gssdataexplorer.norc.org/variables/7776/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |r does much more than fair share |r does a bit more than fair share |r does roughly fair share |r does a bit less than fair share |r does much less than fair share |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------------------------|:---------------------------------|:-------------------------|:---------------------------------|:--------------------------------|:----------|:---------|:--------------|:-----|
+#'  |2022  |3024 |77                               |97                                |228                       |73                                |39                               |2          |3         |1              |3544  |
+#'  |Total |3024 |77                               |97                                |228                       |73                                |39                               |2          |3         |1              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name sharehhw
 NULL
 
 

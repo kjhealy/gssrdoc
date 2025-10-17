@@ -25,15 +25,21 @@ E. Science is too concerned with theory and speculation to be of much use in mak
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3320/vshow}{GSS Data Explorer page for \code{scispec}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 100 \tab 561 \tab 852 \tab 211 \tab 135 \tab 5 \tab 4510 \cr
+   Total \tab 2646 \tab 100 \tab 561 \tab 852 \tab 211 \tab 135 \tab 5 \tab 4510 \cr
+}
 }
 
 \seealso{

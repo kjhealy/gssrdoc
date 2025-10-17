@@ -23,29 +23,36 @@ C. Would you approve of a man punching a stranger who had hit the man''s child a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/667/vshow}{GSS Data Explorer page for \code{hitchild}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1973 \tab 489 \tab 511 \tab 470 \tab 27 \tab 7 \tab 1504 \cr
+   1975 \tab 407 \tab 547 \tab 494 \tab 38 \tab 4 \tab 1490 \cr
+   1976 \tab - \tab 719 \tab 720 \tab 50 \tab 10 \tab 1499 \cr
+   1978 \tab - \tab 795 \tab 687 \tab 46 \tab 4 \tab 1532 \cr
+   1980 \tab - \tab 730 \tab 666 \tab 64 \tab 8 \tab 1468 \cr
+   1983 \tab - \tab 899 \tab 635 \tab 58 \tab 7 \tab 1599 \cr
+   1984 \tab - \tab 764 \tab 646 \tab 46 \tab 17 \tab 1473 \cr
+   1986 \tab - \tab 823 \tab 592 \tab 46 \tab 9 \tab 1470 \cr
+   1987 \tab - \tab 988 \tab 754 \tab 65 \tab 12 \tab 1819 \cr
+   1988 \tab 484 \tab 575 \tab 377 \tab 38 \tab 7 \tab 1481 \cr
+   1989 \tab 502 \tab 568 \tab 425 \tab 37 \tab 5 \tab 1537 \cr
+   1990 \tab 473 \tab 534 \tab 330 \tab 34 \tab 1 \tab 1372 \cr
+   1991 \tab 500 \tab 570 \tab 409 \tab 31 \tab 7 \tab 1517 \cr
+   1993 \tab 549 \tab 599 \tab 413 \tab 42 \tab 3 \tab 1606 \cr
+   1994 \tab 2481 \tab 290 \tab 212 \tab 7 \tab 2 \tab 2992 \cr
+   Total \tab 5885 \tab 9912 \tab 7830 \tab 629 \tab 103 \tab 24359 \cr
+}
 }
 
 \seealso{

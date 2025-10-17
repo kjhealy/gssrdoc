@@ -26,16 +26,22 @@ E. Go to a category directory or web guide and select an option?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2392/vshow}{GSS Data Explorer page for \code{catdrcty}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab less than half of the time \tab about half of the time \tab more than half of the time \tab almost always \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2075 \tab 233 \tab 227 \tab 110 \tab 50 \tab 41 \tab 1 \tab 80 \tab 2817 \cr
+   2002 \tab 2403 \tab 121 \tab 129 \tab 28 \tab 17 \tab 13 \tab 5 \tab 49 \tab 2765 \cr
+   Total \tab 4478 \tab 354 \tab 356 \tab 138 \tab 67 \tab 54 \tab 6 \tab 129 \tab 5582 \cr
+}
 }
 
 \seealso{

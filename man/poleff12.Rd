@@ -26,15 +26,21 @@ B. Even the best politician cannot have much impact because of the way governmen
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4096/vshow}{GSS Data Explorer page for \code{poleff12}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1572 \tab 128 \tab 480 \tab 242 \tab 343 \tab 59 \tab 52 \tab 28 \tab 2904 \cr
+   Total \tab 1572 \tab 128 \tab 480 \tab 242 \tab 343 \tab 59 \tab 52 \tab 28 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ B. Tap his telephone.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3999/vshow}{GSS Data Explorer page for \code{mantap}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 51 \tab 88 \tab 167 \tab 327 \tab 24 \tab 20 \tab 1534 \cr
+   Total \tab 857 \tab 51 \tab 88 \tab 167 \tab 327 \tab 24 \tab 20 \tab 1534 \cr
+}
 }
 
 \seealso{

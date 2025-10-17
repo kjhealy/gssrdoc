@@ -27,15 +27,21 @@ A. That he has good manners
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1980 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/500/vshow}{GSS Data Explorer page for \code{mannersz}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab not too impt \tab no answer \tab Total \cr
+   1980 \tab 985 \tab 135 \tab 261 \tab 81 \tab 3 \tab 3 \tab 1468 \cr
+   Total \tab 985 \tab 135 \tab 261 \tab 81 \tab 3 \tab 3 \tab 1468 \cr
+}
 }
 
 \seealso{

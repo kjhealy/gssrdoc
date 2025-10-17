@@ -22,18 +22,26 @@ Question C. (IF NANOWILL=3) Would you say that the balance will be strongly in f
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2016 \tab A/-/- \tab partial \cr
-   2018 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3450/vshow}{GSS Data Explorer page for \code{nanoharm}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab strongly in favor \tab slightly in favor \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1875 \tab 31 \tab 114 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 1992 \tab 10 \tab 30 \tab 1 \tab 11 \tab 2044 \cr
+   2016 \tab 2697 \tab 65 \tab 92 \tab 2 \tab 11 \tab 2867 \cr
+   2018 \tab 2175 \tab 58 \tab 101 \tab 3 \tab 11 \tab 2348 \cr
+   Total \tab 8739 \tab 164 \tab 337 \tab 9 \tab 33 \tab 9282 \cr
+}
 }
 
 \seealso{

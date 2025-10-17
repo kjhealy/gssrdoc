@@ -25,16 +25,22 @@ Question In your opinion, who should be most responsible for paying the cost of 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2036/vshow}{GSS Data Explorer page for \code{medcare1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab name, him-herself \tab his-her family \tab government \tab insurance \tab private charity \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 550 \tab 105 \tab 147 \tab 515 \tab 35 \tab 74 \tab 18 \tab 2904 \cr
+   2006 \tab 3073 \tab 400 \tab 93 \tab 191 \tab 675 \tab 23 \tab 38 \tab 17 \tab 4510 \cr
+   Total \tab 4533 \tab 950 \tab 198 \tab 338 \tab 1190 \tab 58 \tab 112 \tab 35 \tab 7414 \cr
+}
 }
 
 \seealso{

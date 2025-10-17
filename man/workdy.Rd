@@ -25,15 +25,21 @@ Question What days of the week do you normally work?  CODE ALL THAT APPLY.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1972 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5287/vshow}{GSS Data Explorer page for \code{workdy}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab mon to fri \tab mon to fri,sat \tab mon to fri,sun \tab wkend plus \tab no schedule \tab iap \tab no answer \tab Total \cr
+   1972 \tab 506 \tab 106 \tab 12 \tab 49 \tab 64 \tab 863 \tab 13 \tab 1613 \cr
+   Total \tab 506 \tab 106 \tab 12 \tab 49 \tab 64 \tab 863 \tab 13 \tab 1613 \cr
+}
 }
 
 \seealso{

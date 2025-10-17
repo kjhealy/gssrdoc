@@ -26,16 +26,23 @@ E. Whether the person has children to support (how important should that be in d
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   B/C/- \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4332/vshow}{GSS Data Explorer page for \code{paychild}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 1545 \tab 163 \tab 352 \tab 266 \tab 249 \tab 134 \tab 56 \tab 52 \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 91 \tab 242 \tab 413 \tab 544 \tab 439 \tab 86 \tab 167 \tab 21 \tab 4032 \cr
+   Total \tab 3574 \tab 254 \tab 594 \tab 679 \tab 793 \tab 573 \tab 142 \tab 219 \tab 21 \tab 6849 \cr
+}
 }
 
 \seealso{

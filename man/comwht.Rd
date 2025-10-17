@@ -22,15 +22,21 @@ A. Whites?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2323/vshow}{GSS Data Explorer page for \code{comwht}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 15 \tab 2 \tab 20 \tab 24 \tab 25 \tab 28 \tab 3 \tab 30 \tab 35 \tab 40 \tab 44 \tab 45 \tab 46 \tab 48 \tab 49 \tab 5 \tab 50 \tab 52 \tab 55 \tab 57 \tab 60 \tab 65 \tab 68 \tab 70 \tab 71 \tab 72 \tab 73 \tab 75 \tab 77 \tab 78 \tab 8 \tab 80 \tab 82 \tab 85 \tab 88 \tab 89 \tab 90 \tab 93 \tab 95 \tab 96 \tab 97 \tab 98 \tab 99 \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 15 \tab 8 \tab 30 \tab 70 \tab 9 \tab 13 \tab 34 \tab 1 \tab 18 \tab 1 \tab 3 \tab 38 \tab 12 \tab 55 \tab 1 \tab 10 \tab 1 \tab 1 \tab 1 \tab 24 \tab 116 \tab 1 \tab 15 \tab 1 \tab 120 \tab 31 \tab 2 \tab 102 \tab 1 \tab 1 \tab 1 \tab 92 \tab 1 \tab 1 \tab 2 \tab 136 \tab 1 \tab 47 \tab 3 \tab 1 \tab 159 \tab 1 \tab 84 \tab 1 \tab 7 \tab 26 \tab 39 \tab 37 \tab 24 \tab 2817 \cr
+   Total \tab 1419 \tab 15 \tab 8 \tab 30 \tab 70 \tab 9 \tab 13 \tab 34 \tab 1 \tab 18 \tab 1 \tab 3 \tab 38 \tab 12 \tab 55 \tab 1 \tab 10 \tab 1 \tab 1 \tab 1 \tab 24 \tab 116 \tab 1 \tab 15 \tab 1 \tab 120 \tab 31 \tab 2 \tab 102 \tab 1 \tab 1 \tab 1 \tab 92 \tab 1 \tab 1 \tab 2 \tab 136 \tab 1 \tab 47 \tab 3 \tab 1 \tab 159 \tab 1 \tab 84 \tab 1 \tab 7 \tab 26 \tab 39 \tab 37 \tab 24 \tab 2817 \cr
+}
 }
 
 \seealso{

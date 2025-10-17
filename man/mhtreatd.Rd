@@ -22,16 +22,22 @@ Question Did you get treatment for your mental health problem?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2024 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7148/vshow}{GSS Data Explorer page for \code{mhtreatd}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2018 \tab 2116 \tab 187 \tab 10 \tab 35 \tab 2348 \cr
+   Total \tab 2116 \tab 187 \tab 10 \tab 35 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

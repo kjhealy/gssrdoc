@@ -23,15 +23,21 @@ Question How many of your close friends are white?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/406/vshow}{GSS Data Explorer page for \code{racmix}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab none \tab one or two \tab three or more \tab no answer \tab Total \cr
+   1982 \tab 1350 \tab 170 \tab 124 \tab 214 \tab 2 \tab 1860 \cr
+   Total \tab 1350 \tab 170 \tab 124 \tab 214 \tab 2 \tab 1860 \cr
+}
 }
 
 \seealso{

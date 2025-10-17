@@ -22,30 +22,35 @@ Question Did your mother ever work for pay for as long as a year, while you were
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/92/vshow}{GSS Data Explorer page for \code{mawrkgrw}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1994 \tab 151 \tab 1683 \tab 1135 \tab 10 \tab 13 \tab - \tab 2992 \cr
+   1996 \tab 123 \tab 1765 \tab 980 \tab 21 \tab 15 \tab - \tab 2904 \cr
+   1998 \tab 124 \tab 1642 \tab 987 \tab 23 \tab 56 \tab - \tab 2832 \cr
+   2000 \tab 132 \tab 1654 \tab 997 \tab 21 \tab 13 \tab - \tab 2817 \cr
+   2002 \tab 169 \tab 1647 \tab 918 \tab 14 \tab 17 \tab - \tab 2765 \cr
+   2004 \tab 166 \tab 1735 \tab 875 \tab 9 \tab 27 \tab - \tab 2812 \cr
+   2006 \tab 1687 \tab 1842 \tab 944 \tab 6 \tab 31 \tab - \tab 4510 \cr
+   2008 \tab 83 \tab 1313 \tab 606 \tab 19 \tab 2 \tab - \tab 2023 \cr
+   2010 \tab 62 \tab 1381 \tab 583 \tab 16 \tab 2 \tab - \tab 2044 \cr
+   2012 \tab 58 \tab 1372 \tab 532 \tab 11 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 83 \tab 1690 \tab 740 \tab 22 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 100 \tab 2044 \tab 703 \tab 17 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab 87 \tab 1675 \tab 571 \tab 13 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 107 \tab 2856 \tab 914 \tab 149 \tab 1 \tab 5 \tab 4032 \cr
+   2022 \tab 80 \tab 2610 \tab 747 \tab 98 \tab 4 \tab 5 \tab 3544 \cr
+   Total \tab 3212 \tab 26909 \tab 12232 \tab 449 \tab 190 \tab 10 \tab 43002 \cr
+}
 }
 
 \seealso{

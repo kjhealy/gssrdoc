@@ -21,17 +21,23 @@ Question During the past week, about what percentage of time did you not work as
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2848/vshow}{GSS Data Explorer page for \code{ntwkhard}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 0.5 \tab 1 \tab 1.5 \tab 10 \tab 100 \tab 12 \tab 13 \tab 15 \tab 2 \tab 2.5 \tab 20 \tab 22.5 \tab 25 \tab 3 \tab 3.5 \tab 30 \tab 35 \tab 4 \tab 4.5 \tab 40 \tab 5 \tab 50 \tab 60 \tab 62.5 \tab 65 \tab 7 \tab 7.5 \tab 70 \tab 75 \tab 8 \tab 80 \tab 90 \tab no answer \tab 12.5 \tab 14 \tab 17 \tab 17.5 \tab 18 \tab 85 \tab 9 \tab don't know \tab 34 \tab 43 \tab 44 \tab 45 \tab 49 \tab 53 \tab 54 \tab 55 \tab 6 \tab 67 \tab 76 \tab 77 \tab 78 \tab 87 \tab 88 \tab 95 \tab 98 \tab 99 \tab Total \cr
+   2014 \tab 1288 \tab 456 \tab 1 \tab 9 \tab 1 \tab 228 \tab 17 \tab 1 \tab 1 \tab 43 \tab 25 \tab 1 \tab 115 \tab 1 \tab 39 \tab 15 \tab 2 \tab 35 \tab 3 \tab 7 \tab 1 \tab 21 \tab 103 \tab 42 \tab 8 \tab 1 \tab 1 \tab 1 \tab 3 \tab 5 \tab 7 \tab 4 \tab 9 \tab 3 \tab 41 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 463 \tab 1 \tab 18 \tab 1 \tab 268 \tab 15 \tab 1 \tab 1 \tab 36 \tab 33 \tab 3 \tab 119 \tab - \tab 58 \tab 18 \tab 2 \tab 60 \tab 3 \tab 17 \tab 1 \tab 40 \tab 112 \tab 47 \tab 11 \tab - \tab 2 \tab - \tab 2 \tab 16 \tab 13 \tab 5 \tab 5 \tab 6 \tab 39 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 23 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 1654 \tab 720 \tab - \tab 22 \tab - \tab 260 \tab 55 \tab - \tab 1 \tab 53 \tab 20 \tab 4 \tab 200 \tab - \tab 74 \tab 15 \tab - \tab 90 \tab 8 \tab 5 \tab - \tab 24 \tab 129 \tab 97 \tab 18 \tab - \tab 4 \tab 3 \tab - \tab 3 \tab 17 \tab 3 \tab 22 \tab 9 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab 2 \tab 2 \tab - \tab 2 \tab 1 \tab 1 \tab 8 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 3544 \cr
+   Total \tab 3842 \tab 1639 \tab 2 \tab 49 \tab 2 \tab 756 \tab 87 \tab 2 \tab 3 \tab 132 \tab 78 \tab 8 \tab 434 \tab 1 \tab 171 \tab 48 \tab 4 \tab 185 \tab 14 \tab 29 \tab 2 \tab 85 \tab 344 \tab 186 \tab 37 \tab 1 \tab 7 \tab 4 \tab 5 \tab 24 \tab 37 \tab 12 \tab 36 \tab 18 \tab 80 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 4 \tab 3 \tab 23 \tab 2 \tab 1 \tab 1 \tab 8 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 8430 \cr
+}
 }
 
 \seealso{

@@ -33,15 +33,21 @@ Question What is your religious preference?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8009/vshow}{GSS Data Explorer page for \code{relig_next}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab buddhism \tab hinduism \tab muslim/islam \tab orthodox-christian \tab christian \tab native american \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 362 \tab 242 \tab 41 \tab 384 \tab 146 \tab 10 \tab 7 \tab 12 \tab 5 \tab 21 \tab 1 \tab 2308 \tab 5 \tab 3544 \cr
+   Total \tab 0 \tab 362 \tab 242 \tab 41 \tab 384 \tab 146 \tab 10 \tab 7 \tab 12 \tab 5 \tab 21 \tab 1 \tab 2308 \tab 5 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

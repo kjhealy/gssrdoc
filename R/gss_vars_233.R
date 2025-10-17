@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `artexbt`](https://gssdataexplorer.norc.org/variables/6210/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2016  |1390 |481 |988 |8         |2867  |
+#'  |Total |1390 |481 |988 |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -45,13 +51,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prfmmus`](https://gssdataexplorer.norc.org/variables/6211/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2016  |2433 |279 |146 |1          |8         |2867  |
+#'  |Total |2433 |279 |146 |1          |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -77,13 +89,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prfmdan`](https://gssdataexplorer.norc.org/variables/6212/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2016  |2433 |74  |351 |9         |2867  |
+#'  |Total |2433 |74  |351 |9         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -109,13 +127,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prfmthe`](https://gssdataexplorer.norc.org/variables/6213/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2016  |2433 |158 |267 |9         |2867  |
+#'  |Total |2433 |158 |267 |9         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -142,13 +166,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prfmatt`](https://gssdataexplorer.norc.org/variables/6214/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |alone |with one other person |with two or more other people |no answer |Total |
+#'  |:-----|:----|:-----|:---------------------|:-----------------------------|:---------|:-----|
+#'  |2016  |2433 |19    |190                   |217                           |8         |2867  |
+#'  |Total |2433 |19    |190                   |217                           |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -174,13 +204,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prfmatt1`](https://gssdataexplorer.norc.org/variables/6215/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2016  |2452 |219 |188 |8         |2867  |
+#'  |Total |2452 |219 |188 |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -206,13 +242,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prfmatt2`](https://gssdataexplorer.norc.org/variables/6216/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2016  |2452 |105 |302 |8         |2867  |
+#'  |Total |2452 |105 |302 |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -238,13 +280,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prfmatt3`](https://gssdataexplorer.norc.org/variables/6217/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2016  |2452 |184 |223 |8         |2867  |
+#'  |Total |2452 |184 |223 |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -270,13 +318,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prfmatt4`](https://gssdataexplorer.norc.org/variables/6218/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2016  |2452 |125 |282 |8         |2867  |
+#'  |Total |2452 |125 |282 |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -302,13 +356,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prfmatt5`](https://gssdataexplorer.norc.org/variables/6219/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2016  |2452 |51  |356 |8         |2867  |
+#'  |Total |2452 |51  |356 |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture

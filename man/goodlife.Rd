@@ -25,31 +25,37 @@ Question The way things are in America, people like me and my family have a good
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/- \tab full \cr
-   1994 \tab B/C \tab partial \cr
-   1996 \tab B/C \tab partial \cr
-   1998 \tab B/C \tab partial \cr
-   2000 \tab B/C \tab partial \cr
-   2002 \tab B/C \tab partial \cr
-   2004 \tab B/C \tab partial \cr
-   2006 \tab B/C \tab partial \cr
-   2008 \tab B/C \tab partial \cr
-   2010 \tab B/C \tab partial \cr
-   2012 \tab B/C \tab partial \cr
-   2014 \tab B/C \tab partial \cr
-   2016 \tab B/C \tab partial \cr
-   2018 \tab B/C \tab partial \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1987 \cr
+   B/C \tab 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4254/vshow}{GSS Data Explorer page for \code{goodlife}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 282 \tab 791 \tab 271 \tab 135 \tab 30 \tab 29 \tab 26 \tab - \tab 1819 \cr
+   1994 \tab 1492 \tab 163 \tab 757 \tab 176 \tab 317 \tab 54 \tab 27 \tab 6 \tab - \tab 2992 \cr
+   1996 \tab 979 \tab 251 \tab 973 \tab 211 \tab 388 \tab 72 \tab 25 \tab 5 \tab - \tab 2904 \cr
+   1998 \tab 921 \tab 350 \tab 1040 \tab 211 \tab 229 \tab 50 \tab 30 \tab 1 \tab - \tab 2832 \cr
+   2000 \tab 921 \tab 439 \tab 1003 \tab 171 \tab 217 \tab 47 \tab 14 \tab 5 \tab - \tab 2817 \cr
+   2002 \tab 1853 \tab 231 \tab 447 \tab 96 \tab 118 \tab 17 \tab 3 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1936 \tab 158 \tab 423 \tab 118 \tab 144 \tab 30 \tab 2 \tab 1 \tab - \tab 2812 \cr
+   2006 \tab 2521 \tab 413 \tab 931 \tab 303 \tab 275 \tab 57 \tab 10 \tab - \tab - \tab 4510 \cr
+   2008 \tab 658 \tab 206 \tab 572 \tab 203 \tab 323 \tab 51 \tab 10 \tab - \tab - \tab 2023 \cr
+   2010 \tab 667 \tab 178 \tab 611 \tab 227 \tab 300 \tab 52 \tab 7 \tab 2 \tab - \tab 2044 \cr
+   2012 \tab 636 \tab 182 \tab 549 \tab 224 \tab 306 \tab 71 \tab 6 \tab - \tab - \tab 1974 \cr
+   2014 \tab 851 \tab 230 \tab 743 \tab 296 \tab 353 \tab 61 \tab 3 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 912 \tab 292 \tab 832 \tab 334 \tab 390 \tab 102 \tab 3 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab 785 \tab 271 \tab 716 \tab 291 \tab 230 \tab 45 \tab 8 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 1360 \tab 290 \tab 944 \tab 750 \tab 526 \tab 154 \tab 2 \tab 1 \tab 5 \tab 4032 \cr
+   2022 \tab 1173 \tab 285 \tab 823 \tab 557 \tab 497 \tab 191 \tab 11 \tab 2 \tab 5 \tab 3544 \cr
+   Total \tab 17920 \tab 4221 \tab 12155 \tab 4439 \tab 4748 \tab 1084 \tab 190 \tab 54 \tab 10 \tab 44821 \cr
+}
 }
 
 \seealso{

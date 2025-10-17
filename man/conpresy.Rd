@@ -24,15 +24,21 @@ G. Press
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/467/vshow}{GSS Data Explorer page for \code{conpresy}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab complete confidence \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no confidence \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 989 \tab 40 \tab 67 \tab 76 \tab 116 \tab 71 \tab 69 \tab 33 \tab 6 \tab 6 \tab 1473 \cr
+   Total \tab 989 \tab 40 \tab 67 \tab 76 \tab 116 \tab 71 \tab 69 \tab 33 \tab 6 \tab 6 \tab 1473 \cr
+}
 }
 
 \seealso{

@@ -23,16 +23,22 @@ Question C. What race do you consider yourself?  RECORD VERBATIM AND CODE.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5275/vshow}{GSS Data Explorer page for \code{raceself}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab white \tab black \tab other \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1444 \tab 1139 \tab 200 \tab 117 \tab 1 \tab 3 \tab 2904 \cr
+   2000 \tab 1398 \tab 1072 \tab 212 \tab 135 \tab - \tab - \tab 2817 \cr
+   Total \tab 2842 \tab 2211 \tab 412 \tab 252 \tab 1 \tab 3 \tab 5721 \cr
+}
 }
 
 \seealso{

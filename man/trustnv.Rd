@@ -24,17 +24,22 @@ be too careful in dealing with people?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7613/vshow}{GSS Data Explorer page for \code{trustnv}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab can trust \tab can't be too careful \tab depends (phone mode only: volunteered) \tab skipped on web \tab Total \cr
+   2021 \tab 2719 \tab 527 \tab 776 \tab 4 \tab 6 \tab 4032 \cr
+   2022 \tab 2962 \tab 195 \tab 383 \tab 1 \tab 3 \tab 3544 \cr
+   Total \tab 5681 \tab 722 \tab 1159 \tab 5 \tab 9 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

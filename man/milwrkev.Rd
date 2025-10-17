@@ -22,15 +22,21 @@ Question Have you ever had a civilian job with the armed forces or the Defense D
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/831/vshow}{GSS Data Explorer page for \code{milwrkev}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1984 \tab - \tab 82 \tab 1363 \tab 28 \tab 1473 \cr
+   Total \tab 0 \tab 82 \tab 1363 \tab 28 \tab 1473 \cr
+}
 }
 
 \seealso{

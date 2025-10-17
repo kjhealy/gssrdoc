@@ -24,15 +24,21 @@ B. Adult Grandchildren
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4154/vshow}{GSS Data Explorer page for \code{grkidnum}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 2 \tab 20 \tab 23 \tab 3 \tab 31 \tab 4 \tab 5 \tab 6 \tab 60 \tab 7 \tab 8 \tab 9 \tab # dk but ) 0 \tab don't know \tab no answer \tab Total \cr
+   1986 \tab - \tab 1249 \tab 55 \tab 3 \tab 3 \tab 3 \tab 2 \tab 2 \tab 2 \tab 2 \tab 39 \tab 1 \tab 1 \tab 23 \tab 1 \tab 13 \tab 16 \tab 14 \tab 1 \tab 7 \tab 10 \tab 4 \tab 7 \tab 3 \tab 9 \tab 1470 \cr
+   Total \tab 0 \tab 1249 \tab 55 \tab 3 \tab 3 \tab 3 \tab 2 \tab 2 \tab 2 \tab 2 \tab 39 \tab 1 \tab 1 \tab 23 \tab 1 \tab 13 \tab 16 \tab 14 \tab 1 \tab 7 \tab 10 \tab 4 \tab 7 \tab 3 \tab 9 \tab 1470 \cr
+}
 }
 
 \seealso{

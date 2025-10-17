@@ -23,19 +23,27 @@ Question You said you get most of your information about science and technology 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab C/- \tab partial \cr
-   2012 \tab B/C \tab partial \cr
-   2014 \tab B/C \tab partial \cr
-   2016 \tab A/B \tab partial \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016, 2018 \cr
+   B/C \tab 2012, 2014 \cr
+   C/- \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3501/vshow}{GSS Data Explorer page for \code{scinews2}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab printed magazines \tab online magazines \tab no answer \tab other (specify) \tab Total \cr
+   2010 \tab 2018 \tab 23 \tab 2 \tab 1 \tab - \tab 2044 \cr
+   2012 \tab 1894 \tab 62 \tab 8 \tab 4 \tab 6 \tab 1974 \cr
+   2014 \tab 2456 \tab 65 \tab 14 \tab 2 \tab 1 \tab 2538 \cr
+   2016 \tab 2781 \tab 69 \tab 9 \tab 4 \tab 4 \tab 2867 \cr
+   2018 \tab 2299 \tab 37 \tab 9 \tab 1 \tab 2 \tab 2348 \cr
+   Total \tab 11448 \tab 256 \tab 42 \tab 12 \tab 13 \tab 11771 \cr
+}
 }
 
 \seealso{

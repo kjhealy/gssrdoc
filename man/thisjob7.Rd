@@ -25,15 +25,21 @@ G. Other (SPECIFY).
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1298/vshow}{GSS Data Explorer page for \code{thisjob7}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab relative \tab friend \tab personnel \tab other \tab no answer \tab Total \cr
+   1991 \tab 1243 \tab 5 \tab 191 \tab 1 \tab 24 \tab 53 \tab 1517 \cr
+   Total \tab 1243 \tab 5 \tab 191 \tab 1 \tab 24 \tab 53 \tab 1517 \cr
+}
 }
 
 \seealso{

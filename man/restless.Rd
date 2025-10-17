@@ -23,15 +23,21 @@ N. Felt so restless that you couldn't sit long in a chair?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1719/vshow}{GSS Data Explorer page for \code{restless}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1444 \tab 811 \tab 180 \tab 98 \tab 90 \tab 50 \tab 69 \tab 23 \tab 123 \tab 6 \tab 10 \tab 2904 \cr
+   Total \tab 1444 \tab 811 \tab 180 \tab 98 \tab 90 \tab 50 \tab 69 \tab 23 \tab 123 \tab 6 \tab 10 \tab 2904 \cr
+}
 }
 
 \seealso{

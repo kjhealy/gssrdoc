@@ -22,15 +22,21 @@ Question B. For some time there have been discussions about how concerned the go
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/242/vshow}{GSS Data Explorer page for \code{govcare}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab too much care \tab on right track \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 367 \tab 1013 \tab 75 \tab 18 \tab 1473 \cr
+   Total \tab 0 \tab 367 \tab 1013 \tab 75 \tab 18 \tab 1473 \cr
+}
 }
 
 \seealso{

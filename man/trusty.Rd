@@ -22,15 +22,21 @@ Question B. Do you think most people can be trusted?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/442/vshow}{GSS Data Explorer page for \code{trusty}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1983 \tab 804 \tab 443 \tab 326 \tab 21 \tab 5 \tab 1599 \cr
+   Total \tab 804 \tab 443 \tab 326 \tab 21 \tab 5 \tab 1599 \cr
+}
 }
 
 \seealso{

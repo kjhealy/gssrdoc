@@ -25,15 +25,21 @@ Question For each of these, please tell (CATIFILL3) how important you think it i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7504/vshow}{GSS Data Explorer page for \code{opbribes}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2029 \tab 20 \tab 51 \tab 96 \tab 282 \tab 1269 \tab 148 \tab 120 \tab 17 \tab 4032 \cr
+   Total \tab 2029 \tab 20 \tab 51 \tab 96 \tab 282 \tab 1269 \tab 148 \tab 120 \tab 17 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

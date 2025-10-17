@@ -26,15 +26,21 @@ C. Government departments
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4641/vshow}{GSS Data Explorer page for \code{congovt}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab complete confidence \tab a great deal of confidence \tab some confidence \tab very little confidence \tab no confidence at all \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 56 \tab 163 \tab 626 \tab 342 \tab 89 \tab 36 \tab 47 \tab 1517 \cr
+   Total \tab 158 \tab 56 \tab 163 \tab 626 \tab 342 \tab 89 \tab 36 \tab 47 \tab 1517 \cr
+}
 }
 
 \seealso{

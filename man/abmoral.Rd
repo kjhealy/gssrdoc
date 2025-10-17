@@ -23,16 +23,22 @@ Question Leaving aside whether or not you think abortion should be legal, are yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7174/vshow}{GSS Data Explorer page for \code{abmoral}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab morally opposed \tab not morally opposed \tab it depends \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 660 \tab 632 \tab 995 \tab 12 \tab 49 \tab - \tab 2348 \cr
+   2022 \tab 2309 \tab 255 \tab 562 \tab 417 \tab - \tab - \tab 1 \tab 3544 \cr
+   Total \tab 2309 \tab 915 \tab 1194 \tab 1412 \tab 12 \tab 49 \tab 1 \tab 5892 \cr
+}
 }
 
 \seealso{

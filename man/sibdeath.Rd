@@ -24,26 +24,33 @@ Question D. Death of sibling or sibling-in-law
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/751/vshow}{GSS Data Explorer page for \code{sibdeath}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab no death reported \tab died 6+ yrs ago \tab died 1-5 yrs ago \tab died last year \tab no answer \tab Total \cr
+   1978 \tab 98 \tab 972 \tab 201 \tab 166 \tab 75 \tab 20 \tab 1532 \cr
+   1980 \tab 73 \tab 962 \tab 193 \tab 151 \tab 78 \tab 11 \tab 1468 \cr
+   1983 \tab 98 \tab 1035 \tab 209 \tab 181 \tab 69 \tab 7 \tab 1599 \cr
+   1984 \tab 64 \tab 962 \tab 227 \tab 130 \tab 69 \tab 21 \tab 1473 \cr
+   1986 \tab 60 \tab 943 \tab 221 \tab 156 \tab 84 \tab 6 \tab 1470 \cr
+   1987 \tab 89 \tab 1178 \tab 250 \tab 177 \tab 105 \tab 20 \tab 1819 \cr
+   1988 \tab 528 \tab 631 \tab 133 \tab 114 \tab 69 \tab 6 \tab 1481 \cr
+   1989 \tab 549 \tab 755 \tab 115 \tab 73 \tab 36 \tab 9 \tab 1537 \cr
+   1990 \tab 516 \tab 670 \tab 97 \tab 56 \tab 26 \tab 7 \tab 1372 \cr
+   1991 \tab 550 \tab 732 \tab 129 \tab 59 \tab 32 \tab 15 \tab 1517 \cr
+   1993 \tab 616 \tab 772 \tab 104 \tab 72 \tab 30 \tab 12 \tab 1606 \cr
+   1994 \tab 2510 \tab 380 \tab 53 \tab 35 \tab 11 \tab 3 \tab 2992 \cr
+   Total \tab 5751 \tab 9992 \tab 1932 \tab 1370 \tab 684 \tab 137 \tab 19866 \cr
+}
 }
 
 \seealso{

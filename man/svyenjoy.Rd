@@ -25,16 +25,21 @@ Question Overall, how much do you enjoy participating in surveys? Would you say 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7863/vshow}{GSS Data Explorer page for \code{svyenjoy}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab a great deal \tab a good bit \tab some \tab a little \tab not at all \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 66 \tab 508 \tab 854 \tab 1074 \tab 600 \tab 404 \tab 9 \tab 21 \tab 8 \tab 3544 \cr
+   Total \tab 66 \tab 508 \tab 854 \tab 1074 \tab 600 \tab 404 \tab 9 \tab 21 \tab 8 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

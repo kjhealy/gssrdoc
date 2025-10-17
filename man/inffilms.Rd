@@ -26,15 +26,21 @@ A. Movies.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5117/vshow}{GSS Data Explorer page for \code{inffilms}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very positive \tab positive \tab neutral \tab negative \tab very negative \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 93 \tab 317 \tab 354 \tab 416 \tab 142 \tab 42 \tab 8 \tab 1372 \cr
+   Total \tab 0 \tab 93 \tab 317 \tab 354 \tab 416 \tab 142 \tab 42 \tab 8 \tab 1372 \cr
+}
 }
 
 \seealso{

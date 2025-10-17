@@ -22,17 +22,23 @@ Question Did you ever know anyone who was in a hospital because of a mental illn
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2002 \cr
+   A/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2058/vshow}{GSS Data Explorer page for \code{knwmhosp}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2168 \tab 366 \tab 355 \tab 8 \tab 7 \tab 2904 \cr
+   2002 \tab 1859 \tab 561 \tab 343 \tab 2 \tab - \tab 2765 \cr
+   Total \tab 4027 \tab 927 \tab 698 \tab 10 \tab 7 \tab 5669 \cr
+}
 }
 
 \seealso{

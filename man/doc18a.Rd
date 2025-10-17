@@ -26,15 +26,21 @@ C. I trust my doctor to put my medical needs above all other considerations when
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2981/vshow}{GSS Data Explorer page for \code{doc18a}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree somewhat \tab neither agree nor disagree \tab disgree somewhat \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1372 \tab 597 \tab 571 \tab 76 \tab 95 \tab 25 \tab 21 \tab 8 \tab 2765 \cr
+   Total \tab 1372 \tab 597 \tab 571 \tab 76 \tab 95 \tab 25 \tab 21 \tab 8 \tab 2765 \cr
+}
 }
 
 \seealso{

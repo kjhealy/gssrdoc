@@ -26,15 +26,21 @@ F. Protecting the environment?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4113/vshow}{GSS Data Explorer page for \code{helpenv}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very successful \tab quite successful \tab neither successful nor unsuccessful \tab quite unsuccessful \tab very unsuccessful \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 75 \tab 430 \tab 422 \tab 371 \tab 195 \tab 23 \tab 2 \tab 4510 \cr
+   Total \tab 2992 \tab 75 \tab 430 \tab 422 \tab 371 \tab 195 \tab 23 \tab 2 \tab 4510 \cr
+}
 }
 
 \seealso{

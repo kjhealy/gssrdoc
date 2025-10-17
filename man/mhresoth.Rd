@@ -25,15 +25,21 @@ D. How much responsibility did you have for making day-to-day decisions for this
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3806/vshow}{GSS Data Explorer page for \code{mhresoth}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab a great deal \tab quite a bit \tab a little \tab not at all \tab no answer \tab Total \cr
+   2006 \tab 3535 \tab 98 \tab 84 \tab 213 \tab 573 \tab 7 \tab 4510 \cr
+   Total \tab 3535 \tab 98 \tab 84 \tab 213 \tab 573 \tab 7 \tab 4510 \cr
+}
 }
 
 \seealso{

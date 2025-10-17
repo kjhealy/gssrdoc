@@ -25,15 +25,21 @@ Question What days of the week does (SPOUSE) normally work?  CODE ALL THAT APPLY
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1972 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5289/vshow}{GSS Data Explorer page for \code{spdays}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab mon to fri \tab mon to fri,sat \tab mon to fri,sun \tab wkend plus \tab no schedule \tab iap \tab no answer \tab Total \cr
+   1972 \tab 345 \tab 116 \tab 7 \tab 45 \tab 52 \tab 1044 \tab 4 \tab 1613 \cr
+   Total \tab 345 \tab 116 \tab 7 \tab 45 \tab 52 \tab 1044 \tab 4 \tab 1613 \cr
+}
 }
 
 \seealso{

@@ -22,16 +22,22 @@ Question Do/did all of your children attend public school for all of their eleme
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1147/vshow}{GSS Data Explorer page for \code{pubsch}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1998 \tab 1940 \tab 694 \tab 161 \tab 37 \tab - \tab 2832 \cr
+   2000 \tab 1093 \tab 1445 \tab 258 \tab 19 \tab 2 \tab 2817 \cr
+   Total \tab 3033 \tab 2139 \tab 419 \tab 56 \tab 2 \tab 5649 \cr
+}
 }
 
 \seealso{

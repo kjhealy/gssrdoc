@@ -25,16 +25,22 @@ Question In general, please rate how well you carry out your usual social activi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7167/vshow}{GSS Data Explorer page for \code{actssoc}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 315 \tab 1049 \tab 743 \tab 177 \tab 41 \tab 6 \tab 17 \tab - \tab 2348 \cr
+   2021 \tab 383 \tab 431 \tab 1457 \tab 1290 \tab 358 \tab 88 \tab 2 \tab 1 \tab 22 \tab 4032 \cr
+   Total \tab 383 \tab 746 \tab 2506 \tab 2033 \tab 535 \tab 129 \tab 8 \tab 18 \tab 22 \tab 6380 \cr
+}
 }
 
 \keyword{variable}

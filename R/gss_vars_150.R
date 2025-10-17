@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `camping`](https://gssdataexplorer.norc.org/variables/1409/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
+#'  |1993  |-   |664 |929 |1          |12        |1606  |
+#'  |Total |0   |664 |929 |1          |12        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `garden`](https://gssdataexplorer.norc.org/variables/1410/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
+#'  |1993  |-   |965 |629 |1          |11        |1606  |
+#'  |Total |0   |965 |629 |1          |11        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -80,15 +92,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |1993, 1998, 2002 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dance`](https://gssdataexplorer.norc.org/variables/1411/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |1993  |-    |314 |1279 |1          |12        |1606  |
+#'  |1998  |1387 |283 |1151 |-          |11        |2832  |
+#'  |2002  |1393 |311 |1046 |9          |6         |2765  |
+#'  |Total |2780 |908 |3476 |10         |29        |7203  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -115,15 +133,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |1993, 1998, 2002 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `gomusic`](https://gssdataexplorer.norc.org/variables/1412/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |1993  |-    |254 |1338 |1          |13        |1606  |
+#'  |1998  |1387 |243 |1192 |-          |10        |2832  |
+#'  |2002  |-    |483 |2255 |15         |12        |2765  |
+#'  |Total |1387 |980 |4785 |16         |35        |7203  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -150,13 +174,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `huntfish`](https://gssdataexplorer.norc.org/variables/1413/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no   |don't know |no answer |Total |
+#'  |:-----|:---|:---|:----|:----------|:---------|:-----|
+#'  |1993  |-   |560 |1031 |1          |14        |1606  |
+#'  |Total |0   |560 |1031 |1          |14        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -183,15 +213,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |1993, 1998, 2002 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `perform`](https://gssdataexplorer.norc.org/variables/1414/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |1993  |-    |154 |1436 |1          |15        |1606  |
+#'  |1998  |1387 |152 |1280 |-          |13        |2832  |
+#'  |2002  |1393 |141 |1217 |8          |6         |2765  |
+#'  |Total |2780 |447 |3933 |9          |34        |7203  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -218,13 +254,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dosports`](https://gssdataexplorer.norc.org/variables/1415/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
+#'  |1993  |-   |901 |693 |1          |11        |1606  |
+#'  |Total |0   |901 |693 |1          |11        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -251,15 +293,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |1993, 1998, 2002 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `seemovie`](https://gssdataexplorer.norc.org/variables/1416/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no   |don't know |no answer |Total |
+#'  |:-----|:----|:----|:----|:----------|:---------|:-----|
+#'  |1993  |-    |1114 |480  |1          |11        |1606  |
+#'  |1998  |1387 |952  |481  |-          |12        |2832  |
+#'  |2002  |1393 |993  |365  |8          |6         |2765  |
+#'  |Total |2780 |3059 |1326 |9          |29        |7203  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -286,13 +334,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `usevcr`](https://gssdataexplorer.norc.org/variables/1417/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
+#'  |1993  |-   |951 |643 |1          |11        |1606  |
+#'  |Total |0   |951 |643 |1          |11        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -319,15 +373,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |1993, 1998, 2002 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `plymusic`](https://gssdataexplorer.norc.org/variables/1418/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |1993  |-    |372 |1218 |1          |15        |1606  |
+#'  |1998  |1387 |337 |1095 |-          |13        |2832  |
+#'  |2002  |1393 |286 |1072 |8          |6         |2765  |
+#'  |Total |2780 |995 |3385 |9          |34        |7203  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture

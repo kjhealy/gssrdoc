@@ -26,15 +26,21 @@ Question Vignette number given to respondent.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2737/vshow}{GSS Data Explorer page for \code{docvig}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab our physcian s group...(c4) \tab it use to be that physicans...(c5) \tab i can understand...(c6) \tab i understand that...(c7) \tab i have had a lot...(c8) \tab i usually don t order...(c9) \tab Total \cr
+   2002 \tab - \tab 466 \tab 461 \tab 451 \tab 464 \tab 465 \tab 458 \tab 2765 \cr
+   Total \tab 0 \tab 466 \tab 461 \tab 451 \tab 464 \tab 465 \tab 458 \tab 2765 \cr
+}
 }
 
 \seealso{

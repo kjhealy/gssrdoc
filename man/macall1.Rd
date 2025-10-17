@@ -27,15 +27,21 @@ Question How often do you have any other contact with your mother besides visiti
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4195/vshow}{GSS Data Explorer page for \code{macall1}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab never \tab no answer \tab Total \cr
+   2002 \tab 2083 \tab 127 \tab 175 \tab 185 \tab 89 \tab 36 \tab 28 \tab 38 \tab 4 \tab 2765 \cr
+   Total \tab 2083 \tab 127 \tab 175 \tab 185 \tab 89 \tab 36 \tab 28 \tab 38 \tab 4 \tab 2765 \cr
+}
 }
 
 \seealso{

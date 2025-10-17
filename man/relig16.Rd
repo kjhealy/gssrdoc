@@ -33,48 +33,54 @@ Question In what religion were you raised?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   Full \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/341/vshow}{GSS Data Explorer page for \code{relig16}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab no answer \tab don't know \tab buddhism \tab hinduism \tab other eastern religions \tab muslim/islam \tab orthodox-christian \tab christian \tab native american \tab inter-nondenominational \tab skipped on web \tab Total \cr
+   1973 \tab - \tab 981 \tab 419 \tab 43 \tab 36 \tab 21 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
+   1974 \tab - \tab 984 \tab 402 \tab 49 \tab 39 \tab 8 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
+   1975 \tab - \tab 1032 \tab 378 \tab 25 \tab 45 \tab 10 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab - \tab 971 \tab 428 \tab 33 \tab 47 \tab 18 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab - \tab 1042 \tab 390 \tab 37 \tab 39 \tab 15 \tab 6 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab - \tab 1017 \tab 418 \tab 31 \tab 48 \tab 11 \tab 7 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab - \tab 983 \tab 389 \tab 32 \tab 45 \tab 17 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
+   1982 \tab - \tab 1295 \tab 441 \tab 44 \tab 48 \tab 23 \tab 9 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
+   1983 \tab - \tab 996 \tab 481 \tab 50 \tab 52 \tab 11 \tab 9 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
+   1984 \tab - \tab 955 \tab 399 \tab 30 \tab 43 \tab 25 \tab 21 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
+   1985 \tab - \tab 978 \tab 444 \tab 32 \tab 63 \tab 12 \tab 5 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
+   1986 \tab - \tab 953 \tab 411 \tab 33 \tab 45 \tab 26 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab - \tab 1290 \tab 407 \tab 22 \tab 48 \tab 23 \tab 29 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
+   1988 \tab - \tab 952 \tab 414 \tab 31 \tab 53 \tab 31 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab - \tab 966 \tab 444 \tab 28 \tab 61 \tab 34 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
+   1990 \tab - \tab 877 \tab 361 \tab 27 \tab 72 \tab 27 \tab 8 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab - \tab 966 \tab 434 \tab 34 \tab 58 \tab 22 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   1993 \tab - \tab 1039 \tab 422 \tab 35 \tab 71 \tab 29 \tab 10 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab - \tab 1846 \tab 882 \tab 55 \tab 127 \tab 74 \tab 7 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab - \tab 1734 \tab 837 \tab 68 \tab 169 \tab 91 \tab 5 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab - \tab 1637 \tab 857 \tab 53 \tab 175 \tab 13 \tab 27 \tab 3 \tab 6 \tab 5 \tab 3 \tab 15 \tab 10 \tab 21 \tab 5 \tab 2 \tab - \tab 2832 \cr
+   2000 \tab - \tab 1610 \tab 844 \tab 64 \tab 192 \tab 18 \tab 14 \tab - \tab 15 \tab 7 \tab 2 \tab 7 \tab 13 \tab 21 \tab 6 \tab 4 \tab - \tab 2817 \cr
+   2002 \tab - \tab 1553 \tab 821 \tab 56 \tab 195 \tab 8 \tab 15 \tab 6 \tab 13 \tab 5 \tab 1 \tab 14 \tab 26 \tab 38 \tab 1 \tab 13 \tab - \tab 2765 \cr
+   2004 \tab - \tab 1568 \tab 829 \tab 60 \tab 226 \tab 8 \tab 6 \tab 5 \tab 17 \tab 9 \tab 2 \tab 19 \tab 15 \tab 40 \tab 1 \tab 7 \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 1620 \tab 960 \tab 56 \tab 249 \tab 5 \tab 1 \tab - \tab 21 \tab 16 \tab 4 \tab 23 \tab 9 \tab 26 \tab 2 \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 1095 \tab 635 \tab 39 \tab 168 \tab 4 \tab 10 \tab 8 \tab 5 \tab 12 \tab - \tab 9 \tab 10 \tab 27 \tab - \tab 1 \tab - \tab 2023 \cr
+   2010 \tab - \tab 1066 \tab 647 \tab 33 \tab 150 \tab 11 \tab 8 \tab 3 \tab 15 \tab 3 \tab - \tab 12 \tab 10 \tab 82 \tab - \tab 4 \tab - \tab 2044 \cr
+   2012 \tab - \tab 1015 \tab 653 \tab 28 \tab 162 \tab 9 \tab 4 \tab 8 \tab 3 \tab 15 \tab - \tab 13 \tab 10 \tab 50 \tab 4 \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 1273 \tab 872 \tab 41 \tab 206 \tab 11 \tab 12 \tab 4 \tab 10 \tab 17 \tab - \tab 12 \tab 11 \tab 68 \tab 1 \tab - \tab - \tab 2538 \cr
+   2016 \tab - \tab 1511 \tab 923 \tab 55 \tab 248 \tab 23 \tab 10 \tab 10 \tab 12 \tab 13 \tab - \tab 20 \tab 10 \tab 30 \tab 2 \tab - \tab - \tab 2867 \cr
+   2018 \tab - \tab 1237 \tab 732 \tab 42 \tab 241 \tab 10 \tab 7 \tab 9 \tab 11 \tab 12 \tab - \tab 17 \tab 14 \tab 14 \tab 2 \tab - \tab - \tab 2348 \cr
+   2021 \tab 40 \tab 1860 \tab 1290 \tab 87 \tab 499 \tab 59 \tab 3 \tab 29 \tab 32 \tab 30 \tab 2 \tab 1 \tab - \tab 60 \tab 2 \tab 6 \tab 32 \tab 4032 \cr
+   2022 \tab 2 \tab 1685 \tab 1159 \tab 55 \tab 404 \tab 27 \tab 18 \tab 20 \tab 17 \tab 30 \tab 2 \tab 30 \tab 22 \tab 52 \tab - \tab 1 \tab 20 \tab 3544 \cr
+   Total \tab 1560 \tab 40587 \tab 20423 \tab 1408 \tab 4324 \tab 734 \tab 270 \tab 107 \tab 177 \tab 174 \tab 16 \tab 192 \tab 160 \tab 529 \tab 26 \tab 38 \tab 52 \tab 70777 \cr
+}
 }
 
 \seealso{

@@ -23,16 +23,22 @@ A. I often have tender, concerned feelings for people less fortunate than me.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2870/vshow}{GSS Data Explorer page for \code{empathy1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab does not describe very well \tab 2 \tab 3 \tab 4 \tab describes very well \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 64 \tab 68 \tab 253 \tab 341 \tab 627 \tab 13 \tab 6 \tab 2765 \cr
+   2004 \tab 1472 \tab 44 \tab 59 \tab 201 \tab 418 \tab 609 \tab 5 \tab 4 \tab 2812 \cr
+   Total \tab 2865 \tab 108 \tab 127 \tab 454 \tab 759 \tab 1236 \tab 18 \tab 10 \tab 5577 \cr
+}
 }
 
 \seealso{

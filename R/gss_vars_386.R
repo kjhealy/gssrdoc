@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2010 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2010  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cloning`](https://gssdataexplorer.norc.org/variables/3499/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |true |false |can't choose |no answer |Total |
+#'  |:-----|:----|:----|:-----|:------------|:---------|:-----|
+#'  |2010  |1103 |751  |82    |104          |4         |2044  |
+#'  |Total |1103 |751  |82    |104          |4         |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -46,17 +52,25 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2010 |C/-     |partial      |
-#'  |2012 |B/C     |partial      |
-#'  |2014 |B/C     |partial      |
-#'  |2016 |A/B     |partial      |
-#'  |2018 |A/B     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B     |2016, 2018 |
+#'  |B/C     |2012, 2014 |
+#'  |C/-     |2010       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scinews1`](https://gssdataexplorer.norc.org/variables/3500/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |printed newspapers |other |online newspapers |no answer |Total |
+#'  |:-----|:-----|:------------------|:-----|:-----------------|:---------|:-----|
+#'  |2010  |2028  |15                 |1     |-                 |-         |2044  |
+#'  |2012  |1914  |44                 |3     |8                 |5         |1974  |
+#'  |2014  |2455  |68                 |-     |13                |2         |2538  |
+#'  |2016  |2800  |51                 |2     |10                |4         |2867  |
+#'  |2018  |2298  |31                 |3     |15                |1         |2348  |
+#'  |Total |11495 |209                |9     |46                |12        |11771 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -83,17 +97,25 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2010 |C/-     |partial      |
-#'  |2012 |B/C     |partial      |
-#'  |2014 |B/C     |partial      |
-#'  |2016 |A/B     |partial      |
-#'  |2018 |A/B     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B     |2016, 2018 |
+#'  |B/C     |2012, 2014 |
+#'  |C/-     |2010       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scinews2`](https://gssdataexplorer.norc.org/variables/3501/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |printed magazines |online magazines |no answer |other (specify) |Total |
+#'  |:-----|:-----|:-----------------|:----------------|:---------|:---------------|:-----|
+#'  |2010  |2018  |23                |2                |1         |-               |2044  |
+#'  |2012  |1894  |62                |8                |4         |6               |1974  |
+#'  |2014  |2456  |65                |14               |2         |1               |2538  |
+#'  |2016  |2781  |69                |9                |4         |4               |2867  |
+#'  |2018  |2299  |37                |9                |1         |2               |2348  |
+#'  |Total |11448 |256               |42               |12        |13              |11771 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -128,17 +150,25 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2010 |C/-     |partial      |
-#'  |2012 |B/C     |partial      |
-#'  |2014 |B/C     |partial      |
-#'  |2016 |A/B     |partial      |
-#'  |2018 |A/B     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B     |2016, 2018 |
+#'  |B/C     |2012, 2014 |
+#'  |C/-     |2010       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scinews3`](https://gssdataexplorer.norc.org/variables/3502/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |online newspapers |online magazines |science site |don't know |no answer |news site |electronic books & reports |wikipedia |government site |social media (facebook, youtube, twitter) |other |search engine (google, bing) |Total |
+#'  |:-----|:----|:-----------------|:----------------|:------------|:----------|:---------|:---------|:--------------------------|:---------|:---------------|:-----------------------------------------|:-----|:----------------------------|:-----|
+#'  |2010  |1954 |51                |2                |17           |1          |19        |-         |-                          |-         |-               |-                                         |-     |-                            |2044  |
+#'  |2012  |1580 |90                |48               |33           |11         |5         |21        |2                          |2         |4               |13                                        |26    |139                          |1974  |
+#'  |2014  |2012 |130               |74               |44           |14         |4         |35        |-                          |6         |2               |-                                         |39    |178                          |2538  |
+#'  |2016  |2146 |177               |103              |42           |16         |7         |45        |-                          |7         |4               |27                                        |36    |257                          |2867  |
+#'  |2018  |1698 |161               |85               |51           |11         |2         |24        |3                          |7         |11              |34                                        |41    |220                          |2348  |
+#'  |Total |9390 |609               |312              |187          |53         |37        |125       |5                          |22        |21              |74                                        |142   |794                          |11771 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -174,13 +204,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2010 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2010  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `newsfrmy`](https://gssdataexplorer.norc.org/variables/3503/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |print newspapers |online newspapers |print magazines |online magazines |other places on the internet |books/other printed material |tv  |radio |family |friends/colleagues |other |no answer |Total |
+#'  |:-----|:----|:----------------|:-----------------|:---------------|:----------------|:----------------------------|:----------------------------|:---|:-----|:------|:------------------|:-----|:---------|:-----|
+#'  |2010  |1386 |97               |83                |6               |2                |57                           |5                            |328 |40    |16     |16                 |6     |2         |2044  |
+#'  |Total |1386 |97               |83                |6               |2                |57                           |5                            |328 |40    |16     |16                 |6     |2         |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -216,13 +252,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2010 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2010  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scifromy`](https://gssdataexplorer.norc.org/variables/3504/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |print newspapers |online newspapers |print magazines |online magazines |other places on the internet |books/other printed material |tv  |radio |family |friends/colleagues |other |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:-----------------|:---------------|:----------------|:----------------------------|:----------------------------|:---|:-----|:------|:------------------|:-----|:----------|:---------|:-----|
+#'  |2010  |1386 |47               |50                |51              |16               |123                          |58                           |239 |15    |19     |19                 |11    |7          |3         |2044  |
+#'  |Total |1386 |47               |50                |51              |16               |123                          |58                           |239 |15    |19     |19                 |11    |7          |3         |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -259,13 +301,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2010 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2010  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `seeksciy`](https://gssdataexplorer.norc.org/variables/3505/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |print newspapers |online newspapers |print magazines |online magazines |other places on the internet |books/other printed material |tv |radio |family |friends/colleagues |other |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:-----------------|:---------------|:----------------|:----------------------------|:----------------------------|:--|:-----|:------|:------------------|:-----|:----------|:---------|:-----|
+#'  |2010  |1386 |19               |45                |15              |32               |297                          |111                          |93 |8     |9      |7                  |15    |4          |3         |2044  |
+#'  |Total |1386 |19               |45                |15              |32               |297                          |111                          |93 |8     |9      |7                  |15    |4          |3         |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -297,13 +345,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2010 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2010  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sciinfgo`](https://gssdataexplorer.norc.org/variables/3506/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |search engine (google, yahoo, bing, etc) |wikipedia |science site |news site |other specific site |don't know |no answer |Total |
+#'  |:-----|:----|:----------------------------------------|:---------|:------------|:---------|:-------------------|:----------|:---------|:-----|
+#'  |2010  |1918 |76                                       |5         |16           |8         |9                   |4          |8         |2044  |
+#'  |Total |1918 |76                                       |5         |16           |8         |9                   |4          |8         |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -330,13 +384,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scientda`](https://gssdataexplorer.norc.org/variables/3507/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |happy |not care |unhappy |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:--------|:-------|:----------|:---------|:-----|
+#'  |2012  |1457 |425   |83       |4       |2          |3         |1974  |
+#'  |Total |1457 |425   |83       |4       |2          |3         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -363,13 +423,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scientsn`](https://gssdataexplorer.norc.org/variables/3508/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |happy |not care |unhappy |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:--------|:-------|:----------|:---------|:-----|
+#'  |2012  |1457 |426   |81       |3       |3          |4         |1974  |
+#'  |Total |1457 |426   |81       |3       |3          |4         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes

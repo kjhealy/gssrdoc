@@ -25,15 +25,21 @@ Question In the past 12 months, how often, if at all, have you taken part in the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7243/vshow}{GSS Data Explorer page for \code{partvol}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab once a week or more \tab one to three times a month \tab several times a year \tab once in the past year \tab never \tab don't know \tab Total \cr
+   2018 \tab 1175 \tab 64 \tab 108 \tab 279 \tab 225 \tab 489 \tab 8 \tab 2348 \cr
+   Total \tab 1175 \tab 64 \tab 108 \tab 279 \tab 225 \tab 489 \tab 8 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

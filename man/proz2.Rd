@@ -26,15 +26,21 @@ B. If symptoms are no longer present, people should discontinue Prozac.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2227/vshow}{GSS Data Explorer page for \code{proz2}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1635 \tab 126 \tab 428 \tab 163 \tab 225 \tab 52 \tab 192 \tab 11 \tab 2832 \cr
+   Total \tab 1635 \tab 126 \tab 428 \tab 163 \tab 225 \tab 52 \tab 192 \tab 11 \tab 2832 \cr
+}
 }
 
 \seealso{

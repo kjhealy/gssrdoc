@@ -35,18 +35,25 @@ Question Please estimate your total wealth.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006, 2014, 2018 \cr
+   B/C/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3560/vshow}{GSS Data Explorer page for \code{wealth}}.
+
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab less than $5,000 \tab $5,000 to $20,000 \tab $20,000 to $40,000 \tab $40,000 to $75,000 \tab $75,000 to $100,000 \tab $100,000 to $150,000 \tab $150,000 to $250,000 \tab $250,000 to $500,000 \tab $500,000 to $1 million \tab $1 million to $2 million \tab $2 million to $3 million \tab $3 million to $4 million \tab $5 million to $10 million \tab above $10 million \tab don't know \tab no answer \tab $4 million to $5 million \tab skipped on web \tab Total \cr
+   2006 \tab 2778 \tab 181 \tab 175 \tab 139 \tab 127 \tab 101 \tab 120 \tab 183 \tab 250 \tab 136 \tab 37 \tab 6 \tab 3 \tab 3 \tab 3 \tab 88 \tab 180 \tab - \tab - \tab 4510 \cr
+   2014 \tab 1765 \tab 97 \tab 101 \tab 80 \tab 70 \tab 46 \tab 57 \tab 69 \tab 88 \tab 49 \tab 18 \tab 6 \tab 1 \tab 2 \tab 3 \tab 32 \tab 50 \tab 4 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 173 \tab 181 \tab 132 \tab 144 \tab 81 \tab 89 \tab 124 \tab 181 \tab 109 \tab 55 \tab 18 \tab 6 \tab 8 \tab 4 \tab 53 \tab 85 \tab 5 \tab - \tab 2348 \cr
+   2022 \tab 2570 \tab 109 \tab 84 \tab 86 \tab 74 \tab 55 \tab 53 \tab 80 \tab 122 \tab 77 \tab 42 \tab 14 \tab 3 \tab 6 \tab 3 \tab 104 \tab 37 \tab 5 \tab 20 \tab 3544 \cr
+   Total \tab 8013 \tab 560 \tab 541 \tab 437 \tab 415 \tab 283 \tab 319 \tab 456 \tab 641 \tab 371 \tab 152 \tab 44 \tab 13 \tab 19 \tab 13 \tab 277 \tab 352 \tab 14 \tab 20 \tab 12940 \cr
+}
 }
 
 \seealso{

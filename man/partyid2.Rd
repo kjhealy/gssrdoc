@@ -25,15 +25,21 @@ Question Is (NAME) a Democrat, a Republican, an Independent, or what?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/956/vshow}{GSS Data Explorer page for \code{partyid2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab democrat \tab republican \tab independent \tab other \tab don't know \tab no answer \tab Total \cr
+   1987 \tab 385 \tab 585 \tab 282 \tab 143 \tab 37 \tab 357 \tab 30 \tab 1819 \cr
+   Total \tab 385 \tab 585 \tab 282 \tab 143 \tab 37 \tab 357 \tab 30 \tab 1819 \cr
+}
 }
 
 \seealso{

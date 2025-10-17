@@ -28,49 +28,56 @@ E. (Is/Was) (he/she) self-employed or (does/did) (he/she) work for someone else?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/-/- \tab full \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/29/vshow}{GSS Data Explorer page for \code{spwrkslf}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab self-employed \tab someone else \tab iap \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1972 \tab 120 \tab 905 \tab 580 \tab 8 \tab - \tab - \tab 1613 \cr
+   1973 \tab 119 \tab 844 \tab 537 \tab 4 \tab - \tab - \tab 1504 \cr
+   1974 \tab 109 \tab 851 \tab 524 \tab - \tab - \tab - \tab 1484 \cr
+   1975 \tab 104 \tab 807 \tab 572 \tab 7 \tab - \tab - \tab 1490 \cr
+   1976 \tab 101 \tab 780 \tab 613 \tab 5 \tab - \tab - \tab 1499 \cr
+   1977 \tab 100 \tab 790 \tab 639 \tab 1 \tab - \tab - \tab 1530 \cr
+   1978 \tab 118 \tab 758 \tab 654 \tab 2 \tab - \tab - \tab 1532 \cr
+   1980 \tab 96 \tab 729 \tab 640 \tab 3 \tab - \tab - \tab 1468 \cr
+   1982 \tab 106 \tab 810 \tab 940 \tab 4 \tab - \tab - \tab 1860 \cr
+   1983 \tab 128 \tab 765 \tab 705 \tab 1 \tab - \tab - \tab 1599 \cr
+   1984 \tab 111 \tab 673 \tab 687 \tab 2 \tab - \tab - \tab 1473 \cr
+   1985 \tab 126 \tab 699 \tab 709 \tab - \tab - \tab - \tab 1534 \cr
+   1986 \tab 116 \tab 652 \tab 700 \tab 2 \tab - \tab - \tab 1470 \cr
+   1987 \tab 124 \tab 737 \tab 950 \tab 8 \tab - \tab - \tab 1819 \cr
+   1988 \tab 103 \tab 630 \tab 742 \tab 4 \tab 2 \tab - \tab 1481 \cr
+   1989 \tab 122 \tab 660 \tab 735 \tab 18 \tab 2 \tab - \tab 1537 \cr
+   1990 \tab 95 \tab 582 \tab 684 \tab 9 \tab 2 \tab - \tab 1372 \cr
+   1991 \tab 91 \tab 670 \tab 748 \tab 7 \tab 1 \tab - \tab 1517 \cr
+   1993 \tab 122 \tab 693 \tab 781 \tab 9 \tab 1 \tab - \tab 1606 \cr
+   1994 \tab 191 \tab 1274 \tab 1521 \tab 6 \tab - \tab - \tab 2992 \cr
+   1996 \tab 205 \tab 1115 \tab 1563 \tab 20 \tab 1 \tab - \tab 2904 \cr
+   1998 \tab 188 \tab 1092 \tab 1527 \tab 24 \tab 1 \tab - \tab 2832 \cr
+   2000 \tab 153 \tab 1032 \tab 1608 \tab 23 \tab 1 \tab - \tab 2817 \cr
+   2002 \tab 172 \tab 1042 \tab 1547 \tab 3 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 211 \tab 1182 \tab 1406 \tab 12 \tab 1 \tab - \tab 2812 \cr
+   2006 \tab 236 \tab 1788 \tab 2465 \tab 16 \tab 5 \tab - \tab 4510 \cr
+   2008 \tab 118 \tab 818 \tab 1077 \tab 10 \tab - \tab - \tab 2023 \cr
+   2010 \tab 97 \tab 751 \tab 1187 \tab 7 \tab 2 \tab - \tab 2044 \cr
+   2012 \tab 105 \tab 743 \tab 1121 \tab 2 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab 130 \tab 968 \tab 1434 \tab 6 \tab - \tab - \tab 2538 \cr
+   2016 \tab 149 \tab 1015 \tab 1692 \tab 11 \tab - \tab - \tab 2867 \cr
+   2018 \tab 114 \tab 845 \tab 1378 \tab 11 \tab - \tab - \tab 2348 \cr
+   2021 \tab 230 \tab 1674 \tab 2108 \tab 2 \tab - \tab 18 \tab 4032 \cr
+   2022 \tab 184 \tab 1208 \tab 2130 \tab 11 \tab 4 \tab 7 \tab 3544 \cr
+   Total \tab 4594 \tab 30582 \tab 36904 \tab 258 \tab 27 \tab 25 \tab 72390 \cr
+}
 }
 
 \seealso{

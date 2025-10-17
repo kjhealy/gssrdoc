@@ -23,15 +23,21 @@ Question In history classes in high school and college, do the experiences of ra
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1630/vshow}{GSS Data Explorer page for \code{ethhist}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab too much attention now \tab too little attention \tab about the right amount \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 334 \tab 306 \tab 630 \tab 193 \tab 11 \tab 2992 \cr
+   Total \tab 1518 \tab 334 \tab 306 \tab 630 \tab 193 \tab 11 \tab 2992 \cr
+}
 }
 
 \seealso{

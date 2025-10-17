@@ -27,15 +27,21 @@ J. That he is responsible
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1980 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/509/vshow}{GSS Data Explorer page for \code{responsz}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab not too impt \tab don't know \tab no answer \tab Total \cr
+   1980 \tab 985 \tab 182 \tab 257 \tab 33 \tab 6 \tab 1 \tab 4 \tab 1468 \cr
+   Total \tab 985 \tab 182 \tab 257 \tab 33 \tab 6 \tab 1 \tab 4 \tab 1468 \cr
+}
 }
 
 \seealso{

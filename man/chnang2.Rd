@@ -23,15 +23,21 @@ B. Had a drink or took a pill
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1768/vshow}{GSS Data Explorer page for \code{chnang2}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab did \tab didnt \tab no answer \tab Total \cr
+   1996 \tab 1779 \tab 68 \tab 1046 \tab 11 \tab 2904 \cr
+   Total \tab 1779 \tab 68 \tab 1046 \tab 11 \tab 2904 \cr
+}
 }
 
 \seealso{

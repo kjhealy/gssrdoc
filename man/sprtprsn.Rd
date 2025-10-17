@@ -24,25 +24,30 @@ Question To what extent do you consider yourself a spiritual person?  Are you . 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2121/vshow}{GSS Data Explorer page for \code{sprtprsn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very spiritual \tab moderately spirtual \tab slightly spiritual \tab not spiritual at all \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1998 \tab 1387 \tab 314 \tab 571 \tab 366 \tab 171 \tab 5 \tab 18 \tab - \tab 2832 \cr
+   2006 \tab 1518 \tab 877 \tab 1216 \tab 595 \tab 266 \tab 29 \tab 9 \tab - \tab 4510 \cr
+   2008 \tab - \tab 549 \tab 817 \tab 429 \tab 196 \tab 22 \tab 10 \tab - \tab 2023 \cr
+   2010 \tab - \tab 583 \tab 787 \tab 433 \tab 219 \tab 15 \tab 7 \tab - \tab 2044 \cr
+   2012 \tab - \tab 583 \tab 731 \tab 412 \tab 203 \tab 34 \tab 11 \tab - \tab 1974 \cr
+   2014 \tab - \tab 735 \tab 935 \tab 578 \tab 268 \tab 12 \tab 10 \tab - \tab 2538 \cr
+   2016 \tab - \tab 833 \tab 1068 \tab 645 \tab 284 \tab 17 \tab 20 \tab - \tab 2867 \cr
+   2018 \tab - \tab 700 \tab 831 \tab 522 \tab 265 \tab 18 \tab 12 \tab - \tab 2348 \cr
+   2021 \tab - \tab 961 \tab 1362 \tab 1006 \tab 605 \tab 4 \tab 48 \tab 46 \tab 4032 \cr
+   2022 \tab - \tab 957 \tab 1202 \tab 831 \tab 502 \tab 17 \tab 19 \tab 16 \tab 3544 \cr
+   Total \tab 2905 \tab 7092 \tab 9520 \tab 5817 \tab 2979 \tab 173 \tab 164 \tab 62 \tab 28712 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Question Is (NAME 2), the second person, a man or a woman?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7096/vshow}{GSS Data Explorer page for \code{knwmw2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab male \tab female \tab transgender ftm \tab other \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1982 \tab 159 \tab 197 \tab 1 \tab 4 \tab 1 \tab 4 \tab 2348 \cr
+   Total \tab 1982 \tab 159 \tab 197 \tab 1 \tab 4 \tab 1 \tab 4 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

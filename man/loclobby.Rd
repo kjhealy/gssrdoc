@@ -22,15 +22,21 @@ Question Have you ever personally gone to see, or spoken to, or written to -- so
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1031/vshow}{GSS Data Explorer page for \code{loclobby}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1987 \tab - \tab 594 \tab 1216 \tab 9 \tab 1819 \cr
+   Total \tab 0 \tab 594 \tab 1216 \tab 9 \tab 1819 \cr
+}
 }
 
 \seealso{

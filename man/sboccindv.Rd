@@ -22,15 +22,21 @@ Question Sibling's OCC/IND verbatim recovered
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6020/vshow}{GSS Data Explorer page for \code{sboccindv}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab no verbatims for sb \tab verbatims for sb \tab Total \cr
+   1994 \tab 54 \tab 555 \tab 2383 \tab 2992 \cr
+   Total \tab 54 \tab 555 \tab 2383 \tab 2992 \cr
+}
 }
 
 \seealso{

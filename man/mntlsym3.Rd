@@ -22,15 +22,21 @@ Question Of course, everybody hears a good deal about physical illness and disea
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2047/vshow}{GSS Data Explorer page for \code{mntlsym3}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 202 \tab 203 \tab 204 \tab 205 \tab 206 \tab 207 \tab 208 \tab 210 \tab 211 \tab 212 \tab 303 \tab 304 \tab 306 \tab 307 \tab 308 \tab 310 \tab 402 \tab 403 \tab 404 \tab 405 \tab 408 \tab 411 \tab 412 \tab 501 \tab 502 \tab 503 \tab 510 \tab 511 \tab 512 \tab 602 \tab 701 \tab 704 \tab 705 \tab 706 \tab 707 \tab 708 \tab 709 \tab 710 \tab 712 \tab 803 \tab 807 \tab 808 \tab 811 \tab 812 \tab 901 \tab 902 \tab 904 \tab 905 \tab 906 \tab 907 \tab 908 \tab 910 \tab 911 \tab 921 \tab 922 \tab 923 \tab 925 \tab no answer \tab Total \cr
+   1996 \tab 2572 \tab 6 \tab 3 \tab 2 \tab 8 \tab 1 \tab 14 \tab 8 \tab 8 \tab 3 \tab 11 \tab 13 \tab 16 \tab 11 \tab 2 \tab 2 \tab 1 \tab 5 \tab 1 \tab 3 \tab 3 \tab 1 \tab 1 \tab 3 \tab 3 \tab 2 \tab 2 \tab 1 \tab 2 \tab 3 \tab 1 \tab 3 \tab 2 \tab 1 \tab 2 \tab 2 \tab 4 \tab 3 \tab 9 \tab 2 \tab 1 \tab 2 \tab 6 \tab 10 \tab 5 \tab 1 \tab 6 \tab 5 \tab 4 \tab 11 \tab 1 \tab 7 \tab 1 \tab 1 \tab 3 \tab 7 \tab 4 \tab 3 \tab 86 \tab 2904 \cr
+   Total \tab 2572 \tab 6 \tab 3 \tab 2 \tab 8 \tab 1 \tab 14 \tab 8 \tab 8 \tab 3 \tab 11 \tab 13 \tab 16 \tab 11 \tab 2 \tab 2 \tab 1 \tab 5 \tab 1 \tab 3 \tab 3 \tab 1 \tab 1 \tab 3 \tab 3 \tab 2 \tab 2 \tab 1 \tab 2 \tab 3 \tab 1 \tab 3 \tab 2 \tab 1 \tab 2 \tab 2 \tab 4 \tab 3 \tab 9 \tab 2 \tab 1 \tab 2 \tab 6 \tab 10 \tab 5 \tab 1 \tab 6 \tab 5 \tab 4 \tab 11 \tab 1 \tab 7 \tab 1 \tab 1 \tab 3 \tab 7 \tab 4 \tab 3 \tab 86 \tab 2904 \cr
+}
 }
 
 \seealso{

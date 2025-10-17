@@ -23,44 +23,50 @@ A. Had said vulgar and obscene things to the policeman?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
-   1996 \tab B/C \tab partial \cr
-   1998 \tab B/C \tab partial \cr
-   2000 \tab B/C \tab partial \cr
-   2002 \tab B/C \tab partial \cr
-   2004 \tab B/C \tab partial \cr
-   2006 \tab B/C \tab partial \cr
-   2008 \tab B/C \tab partial \cr
-   2010 \tab B/C \tab partial \cr
-   2012 \tab B/C \tab partial \cr
-   2014 \tab B/C \tab partial \cr
-   2016 \tab B/C \tab partial \cr
-   2018 \tab B/C \tab partial \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/671/vshow}{GSS Data Explorer page for \code{polabuse}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1973 \tab 380 \tab 251 \tab 855 \tab 17 \tab 1 \tab - \tab 1504 \cr
+   1975 \tab 343 \tab 221 \tab 881 \tab 40 \tab 5 \tab - \tab 1490 \cr
+   1976 \tab - \tab 295 \tab 1158 \tab 42 \tab 4 \tab - \tab 1499 \cr
+   1978 \tab - \tab 274 \tab 1225 \tab 31 \tab 2 \tab - \tab 1532 \cr
+   1980 \tab - \tab 198 \tab 1232 \tab 30 \tab 8 \tab - \tab 1468 \cr
+   1983 \tab - \tab 235 \tab 1325 \tab 38 \tab 1 \tab - \tab 1599 \cr
+   1984 \tab - \tab 176 \tab 1258 \tab 35 \tab 4 \tab - \tab 1473 \cr
+   1986 \tab - \tab 205 \tab 1241 \tab 21 \tab 3 \tab - \tab 1470 \cr
+   1987 \tab - \tab 190 \tab 1576 \tab 46 \tab 7 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 118 \tab 857 \tab 18 \tab 4 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 113 \tab 899 \tab 18 \tab 5 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 108 \tab 759 \tab 31 \tab 1 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 87 \tab 902 \tab 21 \tab 7 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 73 \tab 961 \tab 19 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab 981 \tab 176 \tab 1804 \tab 19 \tab 12 \tab - \tab 2992 \cr
+   1996 \tab 979 \tab 138 \tab 1756 \tab 24 \tab 7 \tab - \tab 2904 \cr
+   1998 \tab 921 \tab 125 \tab 1750 \tab 31 \tab 5 \tab - \tab 2832 \cr
+   2000 \tab 921 \tab 115 \tab 1738 \tab 32 \tab 11 \tab - \tab 2817 \cr
+   2002 \tab 1853 \tab 59 \tab 833 \tab 19 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 1936 \tab 66 \tab 783 \tab 26 \tab 1 \tab - \tab 2812 \cr
+   2006 \tab 2521 \tab 136 \tab 1787 \tab 66 \tab - \tab - \tab 4510 \cr
+   2008 \tab 658 \tab 126 \tab 1193 \tab 45 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab 667 \tab 126 \tab 1220 \tab 29 \tab 2 \tab - \tab 2044 \cr
+   2012 \tab 636 \tab 125 \tab 1174 \tab 38 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 851 \tab 148 \tab 1508 \tab 31 \tab - \tab - \tab 2538 \cr
+   2016 \tab 911 \tab 198 \tab 1715 \tab 38 \tab 5 \tab - \tab 2867 \cr
+   2018 \tab 785 \tab 150 \tab 1374 \tab 37 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 2719 \tab 100 \tab 1204 \tab 1 \tab 1 \tab 7 \tab 4032 \cr
+   2022 \tab 2353 \tab 106 \tab 1076 \tab 4 \tab 1 \tab 4 \tab 3544 \cr
+   Total \tab 22923 \tab 4438 \tab 36044 \tab 847 \tab 106 \tab 11 \tab 64369 \cr
+}
 }
 
 \seealso{

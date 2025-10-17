@@ -21,15 +21,21 @@ Question About how much money was involved in the largest of these decisions?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1333/vshow}{GSS Data Explorer page for \code{totmoney}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 100 \tab 1000 \tab 10000 \tab 1200 \tab 12000 \tab 120000 \tab 13000 \tab 14000 \tab 1500 \tab 15000 \tab 150000 \tab 1500000 \tab 1600000 \tab 17000 \tab 1800 \tab 18000 \tab 180000 \tab 1e+05 \tab 1e+06 \tab 20 \tab 200 \tab 2000 \tab 20000 \tab 23000 \tab 2500 \tab 25000 \tab 250000 \tab 2e+05 \tab 2e+06 \tab 30 \tab 300 \tab 3000 \tab 30000 \tab 31000 \tab 35000 \tab 350000 \tab 3e+05 \tab 3e+06 \tab 4000 \tab 40000 \tab 4e+05 \tab 50 \tab 500 \tab 5000 \tab 50000 \tab 55000 \tab 5e+05 \tab 5e+06 \tab 600 \tab 6000 \tab 60000 \tab 6e+05 \tab 6e+06 \tab 7000 \tab 70000 \tab 750 \tab 7500 \tab 750000 \tab 7e+05 \tab 7e+06 \tab 800 \tab 8000 \tab 80000 \tab 8e+06 \tab 900 \tab 99 \tab $9999996 or more \tab 9e+06 \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 1172 \tab 3 \tab 16 \tab 21 \tab 4 \tab 3 \tab 2 \tab 1 \tab 1 \tab 5 \tab 7 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 12 \tab 16 \tab 1 \tab 8 \tab 13 \tab 9 \tab 1 \tab 2 \tab 10 \tab 8 \tab 8 \tab 4 \tab 1 \tab 5 \tab 13 \tab 7 \tab 1 \tab 2 \tab 1 \tab 5 \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 6 \tab 17 \tab 12 \tab 2 \tab 8 \tab 2 \tab 3 \tab 1 \tab 5 \tab 1 \tab 2 \tab 4 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 26 \tab 26 \tab 1517 \cr
+   Total \tab 1172 \tab 3 \tab 16 \tab 21 \tab 4 \tab 3 \tab 2 \tab 1 \tab 1 \tab 5 \tab 7 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 12 \tab 16 \tab 1 \tab 8 \tab 13 \tab 9 \tab 1 \tab 2 \tab 10 \tab 8 \tab 8 \tab 4 \tab 1 \tab 5 \tab 13 \tab 7 \tab 1 \tab 2 \tab 1 \tab 5 \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 6 \tab 17 \tab 12 \tab 2 \tab 8 \tab 2 \tab 3 \tab 1 \tab 5 \tab 1 \tab 2 \tab 4 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 26 \tab 26 \tab 1517 \cr
+}
 }
 
 \seealso{

@@ -22,23 +22,30 @@ Question Have you ever been tested for HIV? Do not count tests you may have had 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5074/vshow}{GSS Data Explorer page for \code{hivtest}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2006 \tab 2096 \tab 941 \tab 1451 \tab 9 \tab 13 \tab - \tab 4510 \cr
+   2008 \tab 240 \tab 713 \tab 1038 \tab 17 \tab 15 \tab - \tab 2023 \cr
+   2010 \tab 202 \tab 726 \tab 1087 \tab 11 \tab 18 \tab - \tab 2044 \cr
+   2012 \tab 238 \tab 699 \tab 996 \tab 15 \tab 26 \tab - \tab 1974 \cr
+   2014 \tab 188 \tab 994 \tab 1295 \tab 27 \tab 34 \tab - \tab 2538 \cr
+   2016 \tab 1096 \tab 715 \tab 1033 \tab 6 \tab 17 \tab - \tab 2867 \cr
+   2018 \tab 942 \tab 561 \tab 815 \tab 11 \tab 19 \tab - \tab 2348 \cr
+   2021 \tab 1708 \tab 737 \tab 1479 \tab 87 \tab 1 \tab 20 \tab 4032 \cr
+   2022 \tab 1900 \tab 563 \tab 980 \tab 67 \tab 7 \tab 27 \tab 3544 \cr
+   Total \tab 8610 \tab 6649 \tab 10174 \tab 250 \tab 150 \tab 47 \tab 25880 \cr
+}
 }
 
 \seealso{

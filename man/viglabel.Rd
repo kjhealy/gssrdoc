@@ -30,17 +30,24 @@ Vignette E: GO TO DECTREAT
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1998/vshow}{GSS Data Explorer page for \code{viglabel}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 755 \tab 235 \tab 48 \tab 20 \tab 50 \tab 336 \tab 2904 \cr
+   2018 \tab 1411 \tab 481 \tab 209 \tab 29 \tab 13 \tab 20 \tab 185 \tab 2348 \cr
+   Total \tab 2871 \tab 1236 \tab 444 \tab 77 \tab 33 \tab 70 \tab 521 \tab 5252 \cr
+}
 }
 
 \seealso{

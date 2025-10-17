@@ -24,15 +24,21 @@ Question C. How firm are you about your opinion on women''s rights--would you sa
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/595/vshow}{GSS Data Explorer page for \code{fefirm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab Total \cr
+   1983 \tab 795 \tab 36 \tab 243 \tab 223 \tab 273 \tab 25 \tab 4 \tab 1599 \cr
+   Total \tab 795 \tab 36 \tab 243 \tab 223 \tab 273 \tab 25 \tab 4 \tab 1599 \cr
+}
 }
 
 \seealso{

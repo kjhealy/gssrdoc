@@ -26,15 +26,21 @@ B. Being married.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1439/vshow}{GSS Data Explorer page for \code{impmar}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 305 \tab 501 \tab 350 \tab 282 \tab 149 \tab 6 \tab 13 \tab 1606 \cr
+   Total \tab 0 \tab 305 \tab 501 \tab 350 \tab 282 \tab 149 \tab 6 \tab 13 \tab 1606 \cr
+}
 }
 
 \seealso{

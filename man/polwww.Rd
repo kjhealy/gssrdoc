@@ -24,15 +24,21 @@ G. The Internet or World Wide Web?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2531/vshow}{GSS Data Explorer page for \code{polwww}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3 or more times \tab no answer \tab Total \cr
+   2000 \tab 2558 \tab 150 \tab 46 \tab 49 \tab 14 \tab 2817 \cr
+   Total \tab 2558 \tab 150 \tab 46 \tab 49 \tab 14 \tab 2817 \cr
+}
 }
 
 \seealso{

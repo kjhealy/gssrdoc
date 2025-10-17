@@ -27,16 +27,23 @@ Question Please think of your present job (or your last one if you don't have on
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   Full \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4313/vshow}{GSS Data Explorer page for \code{occmobil}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much higher than dad \tab higher \tab about equal \tab lower \tab much lower than dad \tab r never had job \tab no dad-never had job \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 311 \tab 404 \tab 335 \tab 208 \tab 109 \tab 43 \tab 84 \tab 70 \tab 1819 \cr
+   2000 \tab 1545 \tab 215 \tab 302 \tab 282 \tab 183 \tab 100 \tab 12 \tab 48 \tab 130 \tab 2817 \cr
+   Total \tab 1800 \tab 526 \tab 706 \tab 617 \tab 391 \tab 209 \tab 55 \tab 132 \tab 200 \tab 4636 \cr
+}
 }
 
 \seealso{

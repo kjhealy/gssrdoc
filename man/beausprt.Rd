@@ -27,16 +27,22 @@ F. I am spiritually touched by the beauty of creation.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2113/vshow}{GSS Data Explorer page for \code{beausprt}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never/almst nevr \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 357 \tab 401 \tab 245 \tab 176 \tab 135 \tab 86 \tab 13 \tab 32 \tab 2832 \cr
+   2004 \tab 1472 \tab 287 \tab 441 \tab 244 \tab 166 \tab 97 \tab 82 \tab 7 \tab 16 \tab 2812 \cr
+   Total \tab 2859 \tab 644 \tab 842 \tab 489 \tab 342 \tab 232 \tab 168 \tab 20 \tab 48 \tab 5644 \cr
+}
 }
 
 \seealso{

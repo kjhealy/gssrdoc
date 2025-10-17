@@ -25,19 +25,25 @@ Question D. In 1980, you remember that Carter ran for President on the Democrati
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
-   1985 \tab - \tab full \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984, 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/151/vshow}{GSS Data Explorer page for \code{vote80}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab voted \tab did not vote \tab not eligible \tab refused \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 1184 \tab 581 \tab 66 \tab 7 \tab 20 \tab 2 \tab 1860 \cr
+   1983 \tab - \tab 1066 \tab 437 \tab 73 \tab 6 \tab 15 \tab 2 \tab 1599 \cr
+   1984 \tab - \tab 945 \tab 391 \tab 106 \tab 3 \tab 19 \tab 9 \tab 1473 \cr
+   1985 \tab - \tab 1019 \tab 359 \tab 130 \tab - \tab 24 \tab 2 \tab 1534 \cr
+   1987 \tab - \tab 1139 \tab 373 \tab 240 \tab 5 \tab 53 \tab 9 \tab 1819 \cr
+   Total \tab 0 \tab 5353 \tab 2141 \tab 615 \tab 21 \tab 131 \tab 24 \tab 8285 \cr
+}
 }
 
 \seealso{

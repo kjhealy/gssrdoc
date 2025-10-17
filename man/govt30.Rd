@@ -25,17 +25,24 @@ F. Government information?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2399/vshow}{GSS Data Explorer page for \code{govt30}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2075 \tab 360 \tab 191 \tab 58 \tab 59 \tab 74 \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 501 \tab 248 \tab 108 \tab 132 \tab 94 \tab 1 \tab 2765 \cr
+   2004 \tab 2122 \tab 341 \tab 171 \tab 75 \tab 91 \tab 12 \tab - \tab 2812 \cr
+   Total \tab 5878 \tab 1202 \tab 610 \tab 241 \tab 282 \tab 180 \tab 1 \tab 8394 \cr
+}
 }
 
 \seealso{

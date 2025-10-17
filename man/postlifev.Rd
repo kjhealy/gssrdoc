@@ -23,17 +23,22 @@ Question Do you believe there is a life after death?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7598/vshow}{GSS Data Explorer page for \code{postlifev}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2007 \tab 1180 \tab 350 \tab 485 \tab 1 \tab 9 \tab 4032 \cr
+   2022 \tab 2698 \tab 490 \tab 120 \tab 233 \tab - \tab 3 \tab 3544 \cr
+   Total \tab 4705 \tab 1670 \tab 470 \tab 718 \tab 1 \tab 12 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

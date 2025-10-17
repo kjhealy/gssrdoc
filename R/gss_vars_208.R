@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `valrelig`](https://gssdataexplorer.norc.org/variables/1962/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |10 |100 |1000 |1200 |15 |150 |20 |200 |2000 |25 |250 |2500 |2800 |30 |300 |3000 |350 |3500 |40 |400 |4000 |5  |50 |500 |600 |6000 |625 |70 |700 |75 |750 |80 |800 |9000 |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:---|:----|:----|:--|:---|:--|:---|:----|:--|:---|:----|:----|:--|:---|:----|:---|:----|:--|:---|:----|:--|:--|:---|:---|:----|:---|:--|:---|:--|:---|:--|:---|:----|:----------|:---------|:-----|
+#'  |1996  |2274 |290 |2  |24  |2    |1    |2  |3   |6  |11  |1    |4  |2   |2    |1    |3  |6   |2    |1   |1    |5  |7   |1    |2  |5  |4   |3   |2    |1   |1  |1   |1  |1   |1  |1   |1    |33         |196       |2904  |
+#'  |Total |2274 |290 |2  |24  |2    |1    |2  |3   |6  |11  |1    |4  |2   |2    |1    |3  |6   |2    |1   |1    |5  |7   |1    |2  |5  |4   |3   |2    |1   |1  |1   |1  |1   |1  |1   |1    |33         |196       |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `valhuman`](https://gssdataexplorer.norc.org/variables/1963/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |10 |100 |1000 |1200 |15 |150 |1500 |20 |200 |2000 |25 |250 |30 |300 |400 |5  |50 |500 |60 |600 |75 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:---|:----|:----|:--|:---|:----|:--|:---|:----|:--|:---|:--|:---|:---|:--|:--|:---|:--|:---|:--|:----------|:---------|:-----|
+#'  |1996  |2674 |94 |5  |11  |1    |1    |1  |3   |1    |2  |10  |1    |2  |1   |2  |4   |4   |1  |6  |8   |1  |1   |2  |8          |60        |2904  |
+#'  |Total |2674 |94 |5  |11  |1    |1    |1  |3   |1    |2  |10  |1    |2  |1   |2  |4   |4   |1  |6  |8   |1  |1   |2  |8          |60        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `valenvir`](https://gssdataexplorer.norc.org/variables/1964/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |100 |1000 |125 |15 |25 |450 |5  |500 |5000 |75 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:---|:----|:---|:--|:--|:---|:--|:---|:----|:--|:----------|:---------|:-----|
+#'  |1996  |2774 |58 |5   |1    |1   |1  |3  |1   |2  |1   |1    |1  |2          |53        |2904  |
+#'  |Total |2774 |58 |5   |1    |1   |1  |3  |1   |2  |1   |1    |1  |2          |53        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `valpub`](https://gssdataexplorer.norc.org/variables/1965/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |10 |100 |1000 |150 |20 |200 |25 |30 |300 |400 |5  |50 |500 |550 |75 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:---|:----|:---|:--|:---|:--|:--|:---|:---|:--|:--|:---|:---|:--|:----------|:---------|:-----|
+#'  |1996  |2754 |60 |1  |3   |1    |1   |2  |5   |1  |2  |3   |2   |1  |4  |2   |1   |1  |6          |54        |2904  |
+#'  |Total |2754 |60 |1  |3   |1    |1   |2  |5   |1  |2  |3   |2   |1  |4  |2   |1   |1  |6          |54        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -146,13 +170,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `valrec`](https://gssdataexplorer.norc.org/variables/1966/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |100 |20 |200 |25 |300 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:---|:--|:---|:--|:---|:----------|:---------|:-----|
+#'  |1996  |2853 |23 |2   |1  |3   |1  |1   |1          |19        |2904  |
+#'  |Total |2853 |23 |2   |1  |3   |1  |1   |1          |19        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -179,13 +209,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `valart`](https://gssdataexplorer.norc.org/variables/1967/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |100 |125 |15 |200 |25 |300 |50 |500 |800 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:---|:---|:--|:---|:--|:---|:--|:---|:---|:----------|:---------|:-----|
+#'  |1996  |2782 |51 |2   |1   |2  |2   |1  |1   |5  |3   |1   |5          |48        |2904  |
+#'  |Total |2782 |51 |2   |1   |2  |2   |1  |1   |5  |3   |1   |5          |48        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -212,13 +248,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `valwork`](https://gssdataexplorer.norc.org/variables/1968/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |15 |16 |20 |200 |2000 |25 |300 |40 |50 |80 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:---|:----|:--|:---|:--|:--|:--|:----------|:---------|:-----|
+#'  |1996  |2800 |59 |1  |1  |2  |1   |1    |2  |1   |1  |2  |1  |4          |28        |2904  |
+#'  |Total |2800 |59 |1  |1  |2  |1   |1    |2  |1   |1  |2  |1  |4          |28        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -245,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `valpol`](https://gssdataexplorer.norc.org/variables/1969/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |100 |25 |50 |500 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:---|:--|:--|:---|:----------|:---------|:-----|
+#'  |1996  |2812 |35 |1   |1  |7  |1   |4          |43        |2904  |
+#'  |Total |2812 |35 |1   |1  |7  |1   |4          |43        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -278,13 +326,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `valyouth`](https://gssdataexplorer.norc.org/variables/1970/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |10 |100 |125 |1250 |15 |175 |20 |200 |2222 |25 |30 |300 |40 |400 |50 |600 |75 |80 |800 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:---|:---|:----|:--|:---|:--|:---|:----|:--|:--|:---|:--|:---|:--|:---|:--|:--|:---|:----------|:---------|:-----|
+#'  |1996  |2706 |94 |1  |6   |1   |1    |1  |1   |2  |4   |1    |4  |1  |1   |1  |1   |3  |1   |3  |1  |1   |4          |65        |2904  |
+#'  |Total |2706 |94 |1  |6   |1   |1    |1  |1   |2  |4   |1    |4  |1  |1   |1  |1   |3  |1   |3  |1  |1   |4          |65        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -311,13 +365,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `valfound`](https://gssdataexplorer.norc.org/variables/1971/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |10 |100 |1000 |150 |18 |20 |200 |2000 |210 |25 |250 |28 |30 |300 |40 |50 |500 |65 |70 |90 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:---|:----|:---|:--|:--|:---|:----|:---|:--|:---|:--|:--|:---|:--|:--|:---|:--|:--|:--|:----------|:---------|:-----|
+#'  |1996  |2700 |82 |1  |7   |1    |2   |1  |6  |9   |1    |1   |4  |1   |1  |2  |5   |1  |3  |5   |1  |2  |1  |9          |58        |2904  |
+#'  |Total |2700 |82 |1  |7   |1    |2   |1  |6  |9   |1    |1   |4  |1   |1  |2  |5   |1  |3  |5   |1  |2  |1  |9          |58        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering

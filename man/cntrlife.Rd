@@ -23,15 +23,21 @@ Question Some people feel they have completely free choice and control over the 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2676/vshow}{GSS Data Explorer page for \code{cntrlife}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab no choice and control \tab 2 \tab 3 \tab some choice and control \tab 5 \tab 6 \tab a great deal of choice and control \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 9 \tab 19 \tab 35 \tab 289 \tab 201 \tab 384 \tab 448 \tab 19 \tab 15 \tab 2817 \cr
+   Total \tab 1398 \tab 9 \tab 19 \tab 35 \tab 289 \tab 201 \tab 384 \tab 448 \tab 19 \tab 15 \tab 2817 \cr
+}
 }
 
 \seealso{

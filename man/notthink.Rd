@@ -26,15 +26,21 @@ C. Catholics really are not permitted to think for themselves.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3096/vshow}{GSS Data Explorer page for \code{notthink}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 1475 \tab 55 \tab 182 \tab 428 \tab 428 \tab 187 \tab 39 \tab 18 \tab 2812 \cr
+   Total \tab 1475 \tab 55 \tab 182 \tab 428 \tab 428 \tab 187 \tab 39 \tab 18 \tab 2812 \cr
+}
 }
 
 \seealso{

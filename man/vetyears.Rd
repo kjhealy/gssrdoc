@@ -26,36 +26,43 @@ IF YES: What was your total time on active duty?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1988 \tab A/B/- \tab partial \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/- \tab partial \cr
-   1991 \tab A/B/- \tab partial \cr
-   1993 \tab A/B/- \tab partial \cr
-   1994 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
+   A/B/C \tab 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   Full \tab 1974, 1975, 1977, 1978, 1982, 1983, 1984, 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5285/vshow}{GSS Data Explorer page for \code{vetyears}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab no active duty \tab yes, less than 2 years \tab yes, 2-4 years \tab yes, more than 4 years \tab some, don't know how long \tab no answer \tab skipped on web \tab Total \cr
+   1974 \tab - \tab 1142 \tab 65 \tab 184 \tab 85 \tab 5 \tab 3 \tab - \tab 1484 \cr
+   1975 \tab - \tab 1162 \tab 84 \tab 189 \tab 53 \tab - \tab 2 \tab - \tab 1490 \cr
+   1977 \tab - \tab 1188 \tab 72 \tab 198 \tab 64 \tab - \tab 8 \tab - \tab 1530 \cr
+   1978 \tab - \tab 1205 \tab 65 \tab 184 \tab 73 \tab - \tab 5 \tab - \tab 1532 \cr
+   1982 \tab - \tab 1543 \tab 58 \tab 190 \tab 58 \tab - \tab 11 \tab - \tab 1860 \cr
+   1983 \tab - \tab 1301 \tab 58 \tab 181 \tab 56 \tab - \tab 3 \tab - \tab 1599 \cr
+   1984 \tab - \tab 1205 \tab 50 \tab 136 \tab 54 \tab - \tab 28 \tab - \tab 1473 \cr
+   1985 \tab - \tab 1236 \tab 68 \tab 175 \tab 52 \tab - \tab 3 \tab - \tab 1534 \cr
+   1988 \tab 493 \tab 816 \tab 35 \tab 90 \tab 41 \tab - \tab 6 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 820 \tab 36 \tab 87 \tab 43 \tab - \tab 20 \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 759 \tab 36 \tab 89 \tab 33 \tab - \tab 11 \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 865 \tab 35 \tab 86 \tab 34 \tab - \tab 4 \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 856 \tab 40 \tab 84 \tab 42 \tab - \tab 58 \tab - \tab 1606 \cr
+   1994 \tab 2485 \tab 425 \tab 17 \tab 37 \tab 26 \tab - \tab 2 \tab - \tab 2992 \cr
+   2010 \tab - \tab 1825 \tab 48 \tab 106 \tab 63 \tab 1 \tab 1 \tab - \tab 2044 \cr
+   2012 \tab - \tab 1745 \tab 49 \tab 107 \tab 70 \tab - \tab 3 \tab - \tab 1974 \cr
+   2014 \tab - \tab 2242 \tab 66 \tab 131 \tab 96 \tab 2 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab - \tab 2557 \tab 60 \tab 132 \tab 111 \tab - \tab 7 \tab - \tab 2867 \cr
+   2018 \tab - \tab 2098 \tab 55 \tab 101 \tab 91 \tab - \tab 3 \tab - \tab 2348 \cr
+   2021 \tab - \tab 3491 \tab 87 \tab 212 \tab 144 \tab - \tab 78 \tab 20 \tab 4032 \cr
+   2022 \tab - \tab 3175 \tab 73 \tab 145 \tab 131 \tab - \tab 10 \tab 10 \tab 3544 \cr
+   Total \tab 4972 \tab 31656 \tab 1157 \tab 2844 \tab 1420 \tab 8 \tab 267 \tab 30 \tab 42354 \cr
+}
 }
 
 \seealso{

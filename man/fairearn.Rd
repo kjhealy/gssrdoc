@@ -25,20 +25,26 @@ Question How fair is what you earn on your job in comparison to others doing the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2816/vshow}{GSS Data Explorer page for \code{fairearn}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much less than you deserve \tab somewhat less than you deserve \tab about as much as you deserve \tab somewhat more than you deserve \tab much more than you deserve \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 252 \tab 475 \tab 874 \tab 116 \tab 25 \tab 37 \tab 17 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 196 \tab 490 \tab 832 \tab 112 \tab 36 \tab 47 \tab 21 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 165 \tab 350 \tab 534 \tab 62 \tab 20 \tab 25 \tab 31 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 146 \tab 328 \tab 623 \tab 99 \tab 18 \tab 26 \tab 10 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 167 \tab 378 \tab 710 \tab 116 \tab 22 \tab 18 \tab 37 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 234 \tab 610 \tab 909 \tab 127 \tab 28 \tab 36 \tab 20 \tab 25 \tab 3544 \cr
+   Total \tab 8345 \tab 1160 \tab 2631 \tab 4482 \tab 632 \tab 149 \tab 189 \tab 136 \tab 25 \tab 17749 \cr
+}
 }
 
 \seealso{

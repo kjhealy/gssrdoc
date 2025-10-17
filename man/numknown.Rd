@@ -25,15 +25,21 @@ Question Cases in Sample B (Ballots 4-6) should receive this variable. This vari
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3571/vshow}{GSS Data Explorer page for \code{numknown}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab subset1 \tab subset2 \tab subset3 \tab subset4 \tab subset5 \tab Total \cr
+   2006 \tab 3041 \tab 741 \tab 178 \tab 188 \tab 190 \tab 172 \tab 4510 \cr
+   Total \tab 3041 \tab 741 \tab 178 \tab 188 \tab 190 \tab 172 \tab 4510 \cr
+}
 }
 
 \seealso{

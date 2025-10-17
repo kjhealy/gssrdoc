@@ -23,16 +23,22 @@ F. That citizens may engage in acts of civil disobedience when they oppose gover
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4938/vshow}{GSS Data Explorer page for \code{oppsegov}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 307 \tab 144 \tab 131 \tab 209 \tab 220 \tab 131 \tab 281 \tab 38 \tab 11 \tab 2812 \cr
+   2014 \tab 1274 \tab 207 \tab 81 \tab 73 \tab 214 \tab 200 \tab 137 \tab 222 \tab 128 \tab 2 \tab 2538 \cr
+   Total \tab 2614 \tab 514 \tab 225 \tab 204 \tab 423 \tab 420 \tab 268 \tab 503 \tab 166 \tab 13 \tab 5350 \cr
+}
 }
 
 \seealso{

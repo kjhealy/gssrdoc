@@ -28,16 +28,23 @@ A. How often do you see or visit your mother?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab -/-/- \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
+   Full \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4128/vshow}{GSS Data Explorer page for \code{mavisit}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 572 \tab 105 \tab 71 \tab 139 \tab 150 \tab 138 \tab 164 \tab 125 \tab 1 \tab 5 \tab 1470 \cr
+   1994 \tab 2070 \tab 77 \tab 56 \tab 107 \tab 159 \tab 145 \tab 160 \tab 160 \tab - \tab 58 \tab 2992 \cr
+   Total \tab 2642 \tab 182 \tab 127 \tab 246 \tab 309 \tab 283 \tab 324 \tab 285 \tab 1 \tab 63 \tab 4462 \cr
+}
 }
 
 \seealso{

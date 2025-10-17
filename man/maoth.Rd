@@ -27,15 +27,21 @@ Question A. What specific denomination is that, if any?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1060/vshow}{GSS Data Explorer page for \code{maoth}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 107 \tab 11 \tab 12 \tab 120 \tab 123 \tab 130 \tab 132 \tab 18 \tab 20 \tab 23 \tab 24 \tab 31 \tab 32 \tab 33 \tab 35 \tab 36 \tab 40 \tab 43 \tab 44 \tab 45 \tab 46 \tab 51 \tab 52 \tab 54 \tab 56 \tab 57 \tab 58 \tab 59 \tab 60 \tab 63 \tab 64 \tab 65 \tab 68 \tab 69 \tab 7 \tab 70 \tab 71 \tab 77 \tab 78 \tab 8 \tab 80 \tab 81 \tab 83 \tab no answer \tab Total \cr
+   1988 \tab 1312 \tab 1 \tab 1 \tab 8 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 3 \tab 1 \tab 8 \tab 3 \tab 1 \tab 15 \tab 6 \tab 9 \tab 2 \tab 3 \tab 2 \tab 2 \tab 4 \tab 1 \tab 2 \tab 3 \tab 2 \tab 5 \tab 17 \tab 2 \tab 1 \tab 9 \tab 3 \tab 14 \tab 1 \tab 1 \tab 1 \tab 5 \tab 3 \tab 1 \tab 1 \tab 2 \tab 3 \tab 2 \tab 11 \tab 1481 \cr
+   Total \tab 1312 \tab 1 \tab 1 \tab 8 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 3 \tab 1 \tab 8 \tab 3 \tab 1 \tab 15 \tab 6 \tab 9 \tab 2 \tab 3 \tab 2 \tab 2 \tab 4 \tab 1 \tab 2 \tab 3 \tab 2 \tab 5 \tab 17 \tab 2 \tab 1 \tab 9 \tab 3 \tab 14 \tab 1 \tab 1 \tab 1 \tab 5 \tab 3 \tab 1 \tab 1 \tab 2 \tab 3 \tab 2 \tab 11 \tab 1481 \cr
+}
 }
 
 \seealso{

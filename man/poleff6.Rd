@@ -23,15 +23,21 @@ F. The average person has a great deal of influence on government decisions.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4044/vshow}{GSS Data Explorer page for \code{poleff6}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 131 \tab 492 \tab 39 \tab 15 \tab 1534 \cr
+   Total \tab 857 \tab 131 \tab 492 \tab 39 \tab 15 \tab 1534 \cr
+}
 }
 
 \seealso{

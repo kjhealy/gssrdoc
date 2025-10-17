@@ -21,15 +21,21 @@ Question Thinking now of close friends - not your husband or wife or partner or 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4162/vshow}{GSS Data Explorer page for \code{frinum}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 16 \tab 2 \tab 20 \tab 22 \tab 24 \tab 25 \tab 28 \tab 3 \tab 30 \tab 32 \tab 35 \tab 4 \tab 40 \tab 45 \tab 5 \tab 50 \tab 55 \tab 6 \tab 60 \tab 7 \tab 70 \tab 75 \tab 8 \tab 9 \tab 90 \tab 96 or more \tab don't know \tab Total \cr
+   1986 \tab - \tab 77 \tab 95 \tab 145 \tab 55 \tab 2 \tab 25 \tab 1 \tab 174 \tab 55 \tab 1 \tab 1 \tab 14 \tab 1 \tab 180 \tab 17 \tab 1 \tab 1 \tab 186 \tab 3 \tab 1 \tab 171 \tab 14 \tab 1 \tab 149 \tab 1 \tab 30 \tab 1 \tab 1 \tab 49 \tab 4 \tab 1 \tab 10 \tab 3 \tab 1470 \cr
+   Total \tab 0 \tab 77 \tab 95 \tab 145 \tab 55 \tab 2 \tab 25 \tab 1 \tab 174 \tab 55 \tab 1 \tab 1 \tab 14 \tab 1 \tab 180 \tab 17 \tab 1 \tab 1 \tab 186 \tab 3 \tab 1 \tab 171 \tab 14 \tab 1 \tab 149 \tab 1 \tab 30 \tab 1 \tab 1 \tab 49 \tab 4 \tab 1 \tab 10 \tab 3 \tab 1470 \cr
+}
 }
 
 \seealso{

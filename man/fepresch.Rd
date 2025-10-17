@@ -25,38 +25,45 @@ C. A preschool child is likely to suffer if his or her mother works.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1988 \tab A/B/- \tab partial \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/- \tab partial \cr
-   1991 \tab A/B/- \tab partial \cr
-   1993 \tab A/B/- \tab partial \cr
-   1994 \tab A/B/- \tab partial \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/- \tab partial \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C \tab 1996 \cr
+   Full \tab 1977, 1985, 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/705/vshow}{GSS Data Explorer page for \code{fepresch}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1977 \tab - \tab 311 \tab 697 \tab 422 \tab 68 \tab 28 \tab 4 \tab - \tab 1530 \cr
+   1985 \tab - \tab 195 \tab 614 \tab 544 \tab 146 \tab 28 \tab 7 \tab - \tab 1534 \cr
+   1986 \tab - \tab 156 \tab 582 \tab 572 \tab 132 \tab 27 \tab 1 \tab - \tab 1470 \cr
+   1988 \tab 493 \tab 104 \tab 361 \tab 394 \tab 106 \tab 19 \tab 4 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 88 \tab 380 \tab 411 \tab 95 \tab 27 \tab 5 \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 73 \tab 372 \tab 377 \tab 78 \tab 26 \tab 2 \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 91 \tab 385 \tab 421 \tab 99 \tab 24 \tab 4 \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 75 \tab 377 \tab 493 \tab 103 \tab 28 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab 1015 \tab 146 \tab 676 \tab 898 \tab 216 \tab 32 \tab 9 \tab - \tab 2992 \cr
+   1996 \tab 475 \tab 203 \tab 881 \tab 1003 \tab 257 \tab 74 \tab 11 \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 155 \tab 611 \tab 863 \tab 180 \tab 53 \tab 9 \tab - \tab 2832 \cr
+   2000 \tab 940 \tab 175 \tab 682 \tab 761 \tab 188 \tab 56 \tab 15 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 88 \tab 322 \tab 392 \tab 96 \tab 10 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 58 \tab 316 \tab 408 \tab 108 \tab 15 \tab 1 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 172 \tab 622 \tab 959 \tab 215 \tab 24 \tab - \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 104 \tab 370 \tab 665 \tab 169 \tab 19 \tab 2 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 87 \tab 407 \tab 718 \tab 201 \tab 14 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 86 \tab 350 \tab 652 \tab 196 \tab 18 \tab - \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 82 \tab 420 \tab 867 \tab 292 \tab 12 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 72 \tab 448 \tab 1000 \tab 355 \tab 13 \tab - \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 81 \tab 347 \tab 820 \tab 288 \tab 21 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 1315 \tab 105 \tab 520 \tab 1433 \tab 649 \tab 5 \tab - \tab 5 \tab 4032 \cr
+   2022 \tab 1168 \tab 110 \tab 514 \tab 1230 \tab 494 \tab 25 \tab 1 \tab 2 \tab 3544 \cr
+   Total \tab 19253 \tab 2817 \tab 11254 \tab 16303 \tab 4731 \tab 598 \tab 86 \tab 7 \tab 55049 \cr
+}
 }
 
 \seealso{

@@ -24,16 +24,22 @@ C. The next set asks if people in each group tend to be violence prone or if the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1191/vshow}{GSS Data Explorer page for \code{violjews}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab violence-prone \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab not violence-prone \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 22 \tab 48 \tab 79 \tab 450 \tab 224 \tab 263 \tab 136 \tab 123 \tab 27 \tab 1372 \cr
+   2000 \tab 1419 \tab 22 \tab 27 \tab 95 \tab 501 \tab 236 \tab 230 \tab 88 \tab 184 \tab 15 \tab 2817 \cr
+   Total \tab 1419 \tab 44 \tab 75 \tab 174 \tab 951 \tab 460 \tab 493 \tab 224 \tab 307 \tab 42 \tab 4189 \cr
+}
 }
 
 \seealso{

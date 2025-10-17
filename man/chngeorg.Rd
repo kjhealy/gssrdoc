@@ -23,15 +23,21 @@ Question All in all, how likely is it that you will try hard to find a job with 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1348/vshow}{GSS Data Explorer page for \code{chngeorg}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab not at all likely \tab somewaht likely \tab very likely \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 605 \tab 570 \tab 176 \tab 143 \tab 12 \tab 11 \tab 1517 \cr
+   Total \tab 605 \tab 570 \tab 176 \tab 143 \tab 12 \tab 11 \tab 1517 \cr
+}
 }
 
 \seealso{

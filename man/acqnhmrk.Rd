@@ -26,15 +26,21 @@ A. How many of the people you are acquainted with through your neighborhood are 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3617/vshow}{GSS Data Explorer page for \code{acqnhmrk}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 4002 \tab 387 \tab 75 \tab 27 \tab 2 \tab 12 \tab 5 \tab 4510 \cr
+   Total \tab 4002 \tab 387 \tab 75 \tab 27 \tab 2 \tab 12 \tab 5 \tab 4510 \cr
+}
 }
 
 \seealso{

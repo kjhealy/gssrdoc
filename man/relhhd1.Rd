@@ -39,30 +39,37 @@ Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELO
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5416/vshow}{GSS Data Explorer page for \code{relhhd1}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab head of household \tab not available in this release \tab Total \cr
+   1993 \tab - \tab 1606 \tab - \tab 1606 \cr
+   1994 \tab - \tab 2992 \tab - \tab 2992 \cr
+   1996 \tab - \tab 2904 \tab - \tab 2904 \cr
+   1998 \tab - \tab 2832 \tab - \tab 2832 \cr
+   2000 \tab - \tab 2817 \tab - \tab 2817 \cr
+   2002 \tab - \tab 2765 \tab - \tab 2765 \cr
+   2004 \tab - \tab 2812 \tab - \tab 2812 \cr
+   2006 \tab - \tab 4510 \tab - \tab 4510 \cr
+   2008 \tab - \tab 2023 \tab - \tab 2023 \cr
+   2010 \tab - \tab 2044 \tab - \tab 2044 \cr
+   2012 \tab - \tab 1974 \tab - \tab 1974 \cr
+   2014 \tab - \tab 2538 \tab - \tab 2538 \cr
+   2016 \tab - \tab 2867 \tab - \tab 2867 \cr
+   2018 \tab - \tab 2348 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 3544 \tab - \tab - \tab 3544 \cr
+   Total \tab 3544 \tab 37032 \tab 4032 \tab 44608 \cr
+}
 }
 
 \seealso{

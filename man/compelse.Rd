@@ -22,16 +22,23 @@ Question E. Other location?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2583/vshow}{GSS Data Explorer page for \code{compelse}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2665 \tab 31 \tab 86 \tab 35 \tab 2817 \cr
+   2002 \tab 2537 \tab 38 \tab 187 \tab 3 \tab 2765 \cr
+   Total \tab 5202 \tab 69 \tab 273 \tab 38 \tab 5582 \cr
+}
 }
 
 \seealso{

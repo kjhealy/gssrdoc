@@ -22,15 +22,21 @@ Question Did you feel like your reaction to the situation was appropriate, or di
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1783/vshow}{GSS Data Explorer page for \code{reactok}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab completely right \tab 1 \tab completely wrong \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1779 \tab 265 \tab 121 \tab 119 \tab 133 \tab 99 \tab 59 \tab 147 \tab 50 \tab 48 \tab 42 \tab 30 \tab 2 \tab 10 \tab 2904 \cr
+   Total \tab 1779 \tab 265 \tab 121 \tab 119 \tab 133 \tab 99 \tab 59 \tab 147 \tab 50 \tab 48 \tab 42 \tab 30 \tab 2 \tab 10 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -28,15 +28,21 @@ Was (NAME) over or under 18 on their last birthday?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7993/vshow}{GSS Data Explorer page for \code{agehef5}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 18-29 \tab 30-39 \tab 40-49 \tab 50-64 \tab 65 or older \tab 99 \tab Total \cr
+   2022 \tab 3475 \tab 34 \tab 8 \tab 8 \tab 7 \tab 8 \tab 4 \tab 3544 \cr
+   Total \tab 3475 \tab 34 \tab 8 \tab 8 \tab 7 \tab 8 \tab 4 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

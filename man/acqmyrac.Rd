@@ -25,15 +25,21 @@ Question Are the people that you are acquainted withâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3665/vshow}{GSS Data Explorer page for \code{acqmyrac}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost all the same race as you \tab mostly the same race as you \tab about evenly divided \tab mostly a different race than you \tab almost all a different race than you \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3139 \tab 447 \tab 530 \tab 270 \tab 57 \tab 18 \tab 29 \tab 20 \tab 4510 \cr
+   Total \tab 3139 \tab 447 \tab 530 \tab 270 \tab 57 \tab 18 \tab 29 \tab 20 \tab 4510 \cr
+}
 }
 
 \seealso{

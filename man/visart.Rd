@@ -21,16 +21,23 @@ Question An art museum. How many times did you visit an art museum during the la
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
+   B/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3463/vshow}{GSS Data Explorer page for \code{visart}}.
+
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 15 \tab 2 \tab 20 \tab 200 \tab 3 \tab 30 \tab 4 \tab 5 \tab 6 \tab 7 \tab 75 \tab 8 \tab 9 \tab no answer \tab 24 \tab Total \cr
+   2008 \tab 518 \tab 1032 \tab 220 \tab 9 \tab 1 \tab 8 \tab 1 \tab 106 \tab 3 \tab 1 \tab 56 \tab 1 \tab 26 \tab 12 \tab 15 \tab 7 \tab 1 \tab 3 \tab 2 \tab 1 \tab - \tab 2023 \cr
+   2012 \tab 972 \tab 671 \tab 167 \tab 11 \tab - \tab 5 \tab 1 \tab 67 \tab 2 \tab - \tab 30 \tab 2 \tab 15 \tab 13 \tab 10 \tab 2 \tab - \tab 1 \tab - \tab 4 \tab 1 \tab 1974 \cr
+   Total \tab 1490 \tab 1703 \tab 387 \tab 20 \tab 1 \tab 13 \tab 2 \tab 173 \tab 5 \tab 1 \tab 86 \tab 3 \tab 41 \tab 25 \tab 25 \tab 9 \tab 1 \tab 4 \tab 2 \tab 5 \tab 1 \tab 3997 \cr
+}
 }
 
 \seealso{

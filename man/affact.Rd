@@ -22,15 +22,21 @@ Question Does the place where you work have an affirmative action program or mak
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1250/vshow}{GSS Data Explorer page for \code{affact}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1990 \tab 495 \tab 387 \tab 360 \tab 108 \tab 22 \tab 1372 \cr
+   Total \tab 495 \tab 387 \tab 360 \tab 108 \tab 22 \tab 1372 \cr
+}
 }
 
 \seealso{

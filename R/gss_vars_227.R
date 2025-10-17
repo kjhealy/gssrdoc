@@ -19,13 +19,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `privpray`](https://gssdataexplorer.norc.org/variables/2090/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |mre thn once/day |once a day |a few times/week |once a week |few times/month |once a month |less once/mnth |never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:----------|:----------------|:-----------|:---------------|:------------|:--------------|:-----|:----------|:---------|:-----|
+#'  |1998  |1387 |343              |373        |195              |69          |78              |33           |129            |186   |14         |25        |2832  |
+#'  |Total |1387 |343              |373        |195              |69          |78              |33           |129            |186   |14         |25        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -57,13 +63,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `meditate`](https://gssdataexplorer.norc.org/variables/2091/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |mre thn once/day |once a day |a few times/week |once a week |few times/month |once a month |less once/mnth |never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:----------|:----------------|:-----------|:---------------|:------------|:--------------|:-----|:----------|:---------|:-----|
+#'  |1998  |1387 |123              |188        |130              |68          |60              |46           |95             |660   |47         |28        |2832  |
+#'  |Total |1387 |123              |188        |130              |68          |60              |46           |95             |660   |47         |28        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -91,13 +103,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `conghlp1`](https://gssdataexplorer.norc.org/variables/2092/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal |some |a little |none |don't know |no answer |Total |
+#'  |:-----|:----|:------------|:----|:--------|:----|:----------|:---------|:-----|
+#'  |1998  |1797 |372          |261  |110      |63   |65         |164       |2832  |
+#'  |Total |1797 |372          |261  |110      |63   |65         |164       |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -125,13 +143,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `conghlp2`](https://gssdataexplorer.norc.org/variables/2093/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal |some |a little |none |don't know |no answer |Total |
+#'  |:-----|:----|:------------|:----|:--------|:----|:----------|:---------|:-----|
+#'  |1998  |1797 |435          |240  |82       |48   |64         |166       |2832  |
+#'  |Total |1797 |435          |240  |82       |48   |64         |166       |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -159,13 +183,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `conghrm1`](https://gssdataexplorer.norc.org/variables/2094/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very often |fairly often |once in a while |never |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:------------|:---------------|:-----|:----------|:---------|:-----|
+#'  |1998  |1797 |23         |57           |253             |542   |4          |156       |2832  |
+#'  |Total |1797 |23         |57           |253             |542   |4          |156       |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -193,13 +223,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `conghrm2`](https://gssdataexplorer.norc.org/variables/2095/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very often |fairly often |once in a while |never |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:------------|:---------------|:-----|:----------|:---------|:-----|
+#'  |1998  |1797 |23         |27           |164             |649   |8          |164       |2832  |
+#'  |Total |1797 |23         |27           |164             |649   |8          |164       |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -228,13 +264,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cope1`](https://gssdataexplorer.norc.org/variables/2096/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |Total |
+#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:-----|
+#'  |1998  |1387 |274          |293         |489      |332        |38         |19        |2832  |
+#'  |Total |1387 |274          |293         |489      |332        |38         |19        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -263,13 +305,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cope2`](https://gssdataexplorer.norc.org/variables/2097/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |Total |
+#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:-----|
+#'  |1998  |1387 |312          |316         |502      |267        |29         |19        |2832  |
+#'  |Total |1387 |312          |316         |502      |267        |29         |19        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -298,13 +346,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cope3`](https://gssdataexplorer.norc.org/variables/2098/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |Total |
+#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:-----|
+#'  |1998  |1387 |616          |291         |324      |185        |8          |21        |2832  |
+#'  |Total |1387 |616          |291         |324      |185        |8          |21        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -333,13 +387,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cope4`](https://gssdataexplorer.norc.org/variables/2099/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |Total |
+#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:-----|
+#'  |1998  |1387 |28           |53          |245      |1081       |18         |20        |2832  |
+#'  |Total |1387 |28           |53          |245      |1081       |18         |20        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture

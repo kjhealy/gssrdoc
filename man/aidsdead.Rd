@@ -23,19 +23,25 @@ A. Is that person currently living, or has that person died?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5008/vshow}{GSS Data Explorer page for \code{aidsdead}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab living \tab died \tab no answer \tab don't know \tab Total \cr
+   1988 \tab 1342 \tab 49 \tab 86 \tab 4 \tab - \tab 1481 \cr
+   1989 \tab 1392 \tab 44 \tab 98 \tab 2 \tab 1 \tab 1537 \cr
+   1990 \tab 1195 \tab 52 \tab 118 \tab 2 \tab 5 \tab 1372 \cr
+   1991 \tab 1275 \tab 64 \tab 164 \tab 6 \tab 8 \tab 1517 \cr
+   1993 \tab 1214 \tab 91 \tab 287 \tab 7 \tab 7 \tab 1606 \cr
+   Total \tab 6418 \tab 300 \tab 753 \tab 21 \tab 21 \tab 7513 \cr
+}
 }
 
 \seealso{

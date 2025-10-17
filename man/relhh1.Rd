@@ -43,25 +43,32 @@ A. Relationship of first person to head of household?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5439/vshow}{GSS Data Explorer page for \code{relhh1}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab head of household \tab not available in this release \tab Total \cr
+   2000 \tab - \tab 2817 \tab - \tab 2817 \cr
+   2002 \tab - \tab 2765 \tab - \tab 2765 \cr
+   2004 \tab - \tab 2812 \tab - \tab 2812 \cr
+   2006 \tab - \tab 4510 \tab - \tab 4510 \cr
+   2008 \tab - \tab 2023 \tab - \tab 2023 \cr
+   2010 \tab - \tab 2044 \tab - \tab 2044 \cr
+   2012 \tab - \tab 1974 \tab - \tab 1974 \cr
+   2014 \tab - \tab 2538 \tab - \tab 2538 \cr
+   2016 \tab - \tab 2867 \tab - \tab 2867 \cr
+   2018 \tab - \tab 2348 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab 4032 \tab 4032 \cr
+   Total \tab 0 \tab 26698 \tab 4032 \tab 30730 \cr
+}
 }
 
 \seealso{

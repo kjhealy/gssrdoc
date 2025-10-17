@@ -24,15 +24,21 @@ A. Were you self-employed, or did you work for someone else?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4317/vshow}{GSS Data Explorer page for \code{firstslf}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab self-employed \tab someone else \tab never had job \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 57 \tab 1252 \tab 55 \tab 200 \tab 1819 \cr
+   Total \tab 255 \tab 57 \tab 1252 \tab 55 \tab 200 \tab 1819 \cr
+}
 }
 
 \seealso{

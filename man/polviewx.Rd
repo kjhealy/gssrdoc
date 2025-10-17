@@ -23,15 +23,21 @@ Question C. In political matters, people talk of "the left" and "the right."  Ho
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/180/vshow}{GSS Data Explorer page for \code{polviewx}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab left \tab right \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1983 \tab 804 \tab 16 \tab 19 \tab 17 \tab 46 \tab 77 \tab 311 \tab 102 \tab 82 \tab 46 \tab 14 \tab 55 \tab 10 \tab 1599 \cr
+   Total \tab 804 \tab 16 \tab 19 \tab 17 \tab 46 \tab 77 \tab 311 \tab 102 \tab 82 \tab 46 \tab 14 \tab 55 \tab 10 \tab 1599 \cr
+}
 }
 
 \seealso{

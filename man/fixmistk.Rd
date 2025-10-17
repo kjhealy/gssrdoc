@@ -24,15 +24,21 @@ Question When the government administrators make serious mistakes in America how
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4958/vshow}{GSS Data Explorer page for \code{fixmistk}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 126 \tab 591 \tab 590 \tab 142 \tab 17 \tab 6 \tab 2812 \cr
+   Total \tab 1340 \tab 126 \tab 591 \tab 590 \tab 142 \tab 17 \tab 6 \tab 2812 \cr
+}
 }
 
 \seealso{

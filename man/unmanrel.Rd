@@ -25,15 +25,21 @@ Question In general how would you describe relations in your work place between 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1366/vshow}{GSS Data Explorer page for \code{unmanrel}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very \tab quite good \tab neither good nor bad \tab quite bad \tab very bad \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 605 \tab 289 \tab 314 \tab 208 \tab 40 \tab 24 \tab 8 \tab 29 \tab 1517 \cr
+   Total \tab 605 \tab 289 \tab 314 \tab 208 \tab 40 \tab 24 \tab 8 \tab 29 \tab 1517 \cr
+}
 }
 
 \seealso{

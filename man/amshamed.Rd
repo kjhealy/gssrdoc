@@ -26,18 +26,24 @@ B. There are some things about America today that make me feel ashamed of Americ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4835/vshow}{GSS Data Explorer page for \code{amshamed}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 222 \tab 647 \tab 210 \tab 181 \tab 68 \tab 25 \tab 14 \tab 2904 \cr
+   2004 \tab 1596 \tab 219 \tab 455 \tab 228 \tab 197 \tab 103 \tab 13 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 233 \tab 591 \tab 202 \tab 154 \tab 58 \tab 33 \tab 3 \tab 2538 \cr
+   Total \tab 4397 \tab 674 \tab 1693 \tab 640 \tab 532 \tab 229 \tab 71 \tab 18 \tab 8254 \cr
+}
 }
 
 \seealso{

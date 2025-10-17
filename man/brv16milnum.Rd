@@ -23,27 +23,33 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7933/vshow}{GSS Data Explorer page for \code{brv16milnum}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab 0 \tab 1 \tab skipped on web \tab Total \cr
+   2022 \tab 3440 \tab 54 \tab 5 \tab 45 \tab 3544 \cr
+   Total \tab 3440 \tab 54 \tab 5 \tab 45 \tab 3544 \cr
+}
 }
 
 \seealso{
 Other GSS Next: 
 \code{\link{brv16dadnum}},
+\code{\link{brv16daunum}},
 \code{\link{brv16filnum}},
 \code{\link{brv16gmanum}},
-\code{\link{brv16grand}},
+\code{\link{brv16gpanum}},
 \code{\link{brv16momnum}},
-\code{\link{brv16oth}},
 \code{\link{brv16partnum}},
-\code{\link{brv16sib}},
+\code{\link{brv16sonnum}},
 \code{\link{brv16spnum}}
 }
 \concept{GSS Next}

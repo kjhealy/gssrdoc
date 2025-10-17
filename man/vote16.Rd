@@ -24,18 +24,23 @@ Do you remember for sure whether or not you voted in that election?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7089/vshow}{GSS Data Explorer page for \code{vote16}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab voted \tab did not vote \tab ineligible \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 1523 \tab 658 \tab 132 \tab 21 \tab 14 \tab - \tab 2348 \cr
+   2021 \tab - \tab 2886 \tab 596 \tab 221 \tab 80 \tab 244 \tab 5 \tab 4032 \cr
+   2022 \tab - \tab 2219 \tab 706 \tab 356 \tab 146 \tab 112 \tab 5 \tab 3544 \cr
+   Total \tab 0 \tab 6628 \tab 1960 \tab 709 \tab 247 \tab 370 \tab 10 \tab 9924 \cr
+}
 }
 
 \keyword{variable}

@@ -25,15 +25,21 @@ B. The Devil
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4652/vshow}{GSS Data Explorer page for \code{devil}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 550 \tab 242 \tab 204 \tab 216 \tab 65 \tab 82 \tab 1517 \cr
+   Total \tab 158 \tab 550 \tab 242 \tab 204 \tab 216 \tab 65 \tab 82 \tab 1517 \cr
+}
 }
 
 \seealso{

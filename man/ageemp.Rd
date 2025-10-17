@@ -26,15 +26,21 @@ E. The age of the employee
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4500/vshow}{GSS Data Explorer page for \code{ageemp}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab Total \cr
+   1989 \tab 84 \tab 8 \tab 20 \tab 1058 \tab 53 \tab 314 \tab 1537 \cr
+   Total \tab 84 \tab 8 \tab 20 \tab 1058 \tab 53 \tab 314 \tab 1537 \cr
+}
 }
 
 \seealso{

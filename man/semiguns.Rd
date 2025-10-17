@@ -22,15 +22,21 @@ Question Should semi-automatic, assault weapons or semi-automatic guns known as 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3702/vshow}{GSS Data Explorer page for \code{semiguns}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab sold to the general public \tab sales be limited to the military and police \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3139 \tab 198 \tab 1125 \tab 36 \tab 12 \tab 4510 \cr
+   Total \tab 3139 \tab 198 \tab 1125 \tab 36 \tab 12 \tab 4510 \cr
+}
 }
 
 \seealso{

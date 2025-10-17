@@ -22,31 +22,38 @@ Question Thinking about the time since your 18th birthday, have you ever had sex
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5066/vshow}{GSS Data Explorer page for \code{evpaidsx}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1991 \tab 221 \tab 102 \tab 1166 \tab 28 \tab - \tab 1517 \cr
+   1993 \tab 114 \tab 124 \tab 1327 \tab 41 \tab - \tab 1606 \cr
+   1994 \tab 201 \tab 238 \tab 2439 \tab 114 \tab - \tab 2992 \cr
+   1996 \tab 247 \tab 226 \tab 2337 \tab 94 \tab - \tab 2904 \cr
+   1998 \tab 381 \tab 180 \tab 2170 \tab 101 \tab - \tab 2832 \cr
+   2000 \tab 417 \tab 191 \tab 2109 \tab 99 \tab 1 \tab 2817 \cr
+   2002 \tab 489 \tab 175 \tab 2048 \tab 50 \tab 3 \tab 2765 \cr
+   2004 \tab 584 \tab 164 \tab 2030 \tab 31 \tab 3 \tab 2812 \cr
+   2006 \tab 2096 \tab 198 \tab 2189 \tab 25 \tab 2 \tab 4510 \cr
+   2008 \tab 240 \tab 160 \tab 1600 \tab 21 \tab 2 \tab 2023 \cr
+   2010 \tab 202 \tab 129 \tab 1675 \tab 32 \tab 6 \tab 2044 \cr
+   2012 \tab 238 \tab 114 \tab 1586 \tab 31 \tab 5 \tab 1974 \cr
+   2014 \tab 188 \tab 139 \tab 2152 \tab 57 \tab 2 \tab 2538 \cr
+   2016 \tab 1096 \tab 119 \tab 1628 \tab 23 \tab 1 \tab 2867 \cr
+   2018 \tab 942 \tab 86 \tab 1302 \tab 16 \tab 2 \tab 2348 \cr
+   2021 \tab 1705 \tab 143 \tab 2132 \tab 31 \tab 21 \tab 4032 \cr
+   2022 \tab 1898 \tab 100 \tab 1452 \tab 59 \tab 35 \tab 3544 \cr
+   Total \tab 11259 \tab 2588 \tab 31342 \tab 853 \tab 83 \tab 46125 \cr
+}
 }
 
 \seealso{

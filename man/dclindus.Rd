@@ -25,15 +25,21 @@ Question The government should support declining industries to protect jobs, eve
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7553/vshow}{GSS Data Explorer page for \code{dclindus}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2246 \tab 54 \tab 311 \tab 582 \tab 553 \tab 177 \tab 82 \tab 2 \tab 25 \tab 4032 \cr
+   Total \tab 2246 \tab 54 \tab 311 \tab 582 \tab 553 \tab 177 \tab 82 \tab 2 \tab 25 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

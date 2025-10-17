@@ -23,15 +23,21 @@ A. Would you, personally, be offended by an exhibit of such artworks or would yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2127/vshow}{GSS Data Explorer page for \code{irreloff}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab offended \tab not offended \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 2040 \tab 316 \tab 444 \tab 10 \tab 22 \tab 2832 \cr
+   Total \tab 2040 \tab 316 \tab 444 \tab 10 \tab 22 \tab 2832 \cr
+}
 }
 
 \seealso{

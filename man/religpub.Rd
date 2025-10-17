@@ -26,15 +26,21 @@ C. It would be better for America if more people with strong religious beliefs h
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4647/vshow}{GSS Data Explorer page for \code{religpub}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 184 \tab 310 \tab 428 \tab 284 \tab 72 \tab 56 \tab 25 \tab 1517 \cr
+   Total \tab 158 \tab 184 \tab 310 \tab 428 \tab 284 \tab 72 \tab 56 \tab 25 \tab 1517 \cr
+}
 }
 
 \seealso{

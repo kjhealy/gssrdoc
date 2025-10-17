@@ -25,15 +25,21 @@ Question What was your relationship to the person who did the work, or to his or
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1847/vshow}{GSS Data Explorer page for \code{relfixer}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a relative including in-laws \tab a friend or acquaintance \tab a friend of a friend-relative, etc \tab previous business dealings \tab no prior relationship \tab no answer \tab Total \cr
+   1996 \tab 2353 \tab 18 \tab 92 \tab 39 \tab 65 \tab 333 \tab 4 \tab 2904 \cr
+   Total \tab 2353 \tab 18 \tab 92 \tab 39 \tab 65 \tab 333 \tab 4 \tab 2904 \cr
+}
 }
 
 \seealso{

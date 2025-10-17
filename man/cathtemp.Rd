@@ -22,18 +22,27 @@ D. Catholics
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989 \cr
+   A/B/C \tab 1988 \cr
+   B/C/- \tab 2004 \cr
+   Full \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/376/vshow}{GSS Data Explorer page for \code{cathtemp}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 100 \tab 15 \tab 25 \tab 3 \tab 30 \tab 35 \tab 40 \tab 45 \tab 49 \tab 5 \tab 50 \tab 51 \tab 52 \tab 55 \tab 60 \tab 65 \tab 70 \tab 75 \tab 80 \tab 83 \tab 85 \tab 90 \tab 95 \tab don't know \tab no answer \tab 20 \tab 99 \tab 1 \tab 33 \tab 97 \tab 2 \tab 44 \tab 7 \tab 78 \tab Total \cr
+   1986 \tab - \tab 19 \tab 4 \tab 188 \tab 13 \tab 4 \tab 1 \tab 31 \tab 1 \tab 84 \tab 1 \tab 2 \tab 1 \tab 200 \tab 5 \tab 1 \tab 4 \tab 257 \tab 3 \tab 272 \tab 20 \tab 34 \tab 1 \tab 242 \tab 20 \tab 2 \tab 42 \tab 18 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1988 \tab - \tab 21 \tab 3 \tab 165 \tab 16 \tab 3 \tab - \tab 25 \tab - \tab 51 \tab 2 \tab - \tab - \tab 385 \tab - \tab - \tab 1 \tab 172 \tab 5 \tab 250 \tab 25 \tab 39 \tab 1 \tab 209 \tab 20 \tab 1 \tab 66 \tab 19 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 18 \tab 1 \tab 127 \tab 18 \tab - \tab - \tab 23 \tab 2 \tab 42 \tab - \tab - \tab 1 \tab 217 \tab - \tab - \tab - \tab 107 \tab 2 \tab 163 \tab 12 \tab 15 \tab - \tab 166 \tab 13 \tab 6 \tab 54 \tab 11 \tab 5 \tab - \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 1537 \cr
+   2004 \tab 1939 \tab 13 \tab 4 \tab 113 \tab 7 \tab 9 \tab - \tab 21 \tab 1 \tab 44 \tab 2 \tab - \tab 3 \tab 258 \tab - \tab - \tab 1 \tab 79 \tab 5 \tab 104 \tab 21 \tab 16 \tab - \tab 93 \tab 12 \tab 4 \tab 34 \tab 15 \tab 6 \tab 1 \tab 3 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 2812 \cr
+   Total \tab 2470 \tab 71 \tab 12 \tab 593 \tab 54 \tab 16 \tab 1 \tab 100 \tab 4 \tab 221 \tab 5 \tab 2 \tab 5 \tab 1060 \tab 5 \tab 1 \tab 6 \tab 615 \tab 15 \tab 789 \tab 78 \tab 104 \tab 2 \tab 710 \tab 65 \tab 13 \tab 196 \tab 63 \tab 12 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 7300 \cr
+}
 }
 
 \seealso{

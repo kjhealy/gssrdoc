@@ -22,15 +22,21 @@ A. What was your hourly wage, before any taxes or deductions?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2161/vshow}{GSS Data Explorer page for \code{hourly}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 100 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 3 \tab 30 \tab 32 \tab 35 \tab 4 \tab 40 \tab 42 \tab 5 \tab 50 \tab 55 \tab 6 \tab 60 \tab 65 \tab 7 \tab 70 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 2152 \tab 48 \tab 1 \tab 27 \tab 28 \tab 35 \tab 18 \tab 28 \tab 10 \tab 17 \tab 14 \tab 8 \tab 2 \tab 10 \tab 6 \tab 3 \tab 5 \tab 2 \tab 4 \tab 9 \tab 5 \tab 3 \tab 2 \tab 2 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 28 \tab 2 \tab 1 \tab 64 \tab 1 \tab 1 \tab 66 \tab 1 \tab 55 \tab 61 \tab 10 \tab 95 \tab 2832 \cr
+   Total \tab 2152 \tab 48 \tab 1 \tab 27 \tab 28 \tab 35 \tab 18 \tab 28 \tab 10 \tab 17 \tab 14 \tab 8 \tab 2 \tab 10 \tab 6 \tab 3 \tab 5 \tab 2 \tab 4 \tab 9 \tab 5 \tab 3 \tab 2 \tab 2 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 28 \tab 2 \tab 1 \tab 64 \tab 1 \tab 1 \tab 66 \tab 1 \tab 55 \tab 61 \tab 10 \tab 95 \tab 2832 \cr
+}
 }
 
 \seealso{

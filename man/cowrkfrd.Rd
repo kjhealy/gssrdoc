@@ -22,15 +22,21 @@ Question Now we would like to ask you about people you know, other than your fam
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4202/vshow}{GSS Data Explorer page for \code{cowrkfrd}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab no close friends at work \tab 1 \tab 10 \tab 12 \tab 15 \tab 16 \tab 18 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 25 \tab 3 \tab 30 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2002 \tab 206 \tab 121 \tab 25 \tab 3 \tab 6 \tab 1 \tab 1 \tab 146 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 84 \tab 2 \tab 57 \tab 46 \tab 33 \tab 5 \tab 9 \tab 4 \tab 1 \tab 6 \tab 2765 \cr
+   Total \tab 2002 \tab 206 \tab 121 \tab 25 \tab 3 \tab 6 \tab 1 \tab 1 \tab 146 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 84 \tab 2 \tab 57 \tab 46 \tab 33 \tab 5 \tab 9 \tab 4 \tab 1 \tab 6 \tab 2765 \cr
+}
 }
 
 \seealso{

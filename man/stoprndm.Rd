@@ -25,16 +25,23 @@ C. Stop and search people in the street at random?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4116/vshow}{GSS Data Explorer page for \code{stoprndm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should have right \tab probably should have right \tab probably should not have right \tab definitely should not have right \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 232 \tab 364 \tab 361 \tab 551 \tab 10 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 196 \tab 258 \tab 370 \tab 538 \tab 15 \tab 13 \tab 2867 \cr
+   Total \tab 4469 \tab 428 \tab 622 \tab 731 \tab 1089 \tab 25 \tab 13 \tab 7377 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Question Which of the following best describes your relationship to the salesper
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1810/vshow}{GSS Data Explorer page for \code{reldealr}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a relative , including in-laws \tab a friend or acquaintance \tab a friend of a friend-relative \tab previous business dealings \tab no prior relationship \tab no answer \tab Total \cr
+   1996 \tab 2497 \tab 9 \tab 45 \tab 22 \tab 41 \tab 279 \tab 11 \tab 2904 \cr
+   Total \tab 2497 \tab 9 \tab 45 \tab 22 \tab 41 \tab 279 \tab 11 \tab 2904 \cr
+}
 }
 
 \seealso{

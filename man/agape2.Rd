@@ -26,15 +26,21 @@ B. I cannot be happy unless I place the one I love''s happiness before my own.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3054/vshow}{GSS Data Explorer page for \code{agape2}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 1472 \tab 445 \tab 497 \tab 203 \tab 133 \tab 53 \tab 4 \tab 5 \tab 2812 \cr
+   Total \tab 1472 \tab 445 \tab 497 \tab 203 \tab 133 \tab 53 \tab 4 \tab 5 \tab 2812 \cr
+}
 }
 
 \seealso{

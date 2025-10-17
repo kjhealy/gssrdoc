@@ -22,43 +22,50 @@ Question Do you think the use of marijuana should be made legal or not?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
-   1996 \tab B/C \tab partial \cr
-   1998 \tab B/C \tab partial \cr
-   2000 \tab B/C \tab partial \cr
-   2002 \tab B/C \tab partial \cr
-   2004 \tab B/C \tab partial \cr
-   2006 \tab B/C \tab partial \cr
-   2008 \tab B/C \tab partial \cr
-   2010 \tab B/C \tab partial \cr
-   2012 \tab B/C \tab partial \cr
-   2014 \tab B/C \tab partial \cr
-   2016 \tab B/C \tab partial \cr
-   2018 \tab B/C \tab partial \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/285/vshow}{GSS Data Explorer page for \code{grass}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab should be legal \tab should not be legal \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 275 \tab 1196 \tab 30 \tab 3 \tab - \tab 1504 \cr
+   1975 \tab - \tab 301 \tab 1113 \tab 72 \tab 4 \tab - \tab 1490 \cr
+   1976 \tab - \tab 416 \tab 1031 \tab 50 \tab 2 \tab - \tab 1499 \cr
+   1978 \tab - \tab 447 \tab 1017 \tab 45 \tab 23 \tab - \tab 1532 \cr
+   1980 \tab - \tab 364 \tab 1056 \tab 45 \tab 3 \tab - \tab 1468 \cr
+   1983 \tab - \tab 324 \tab 1222 \tab 52 \tab 1 \tab - \tab 1599 \cr
+   1984 \tab - \tab 332 \tab 1074 \tab 59 \tab 8 \tab - \tab 1473 \cr
+   1986 \tab - \tab 263 \tab 1174 \tab 26 \tab 7 \tab - \tab 1470 \cr
+   1987 \tab - \tab 300 \tab 1461 \tab 56 \tab 2 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 171 \tab 784 \tab 38 \tab 4 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 169 \tab 829 \tab 31 \tab 6 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 146 \tab 721 \tab 27 \tab 5 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 182 \tab 790 \tab 40 \tab 5 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 234 \tab 770 \tab 52 \tab 1 \tab - \tab 1606 \cr
+   1994 \tab 981 \tab 457 \tab 1450 \tab 93 \tab 11 \tab - \tab 2992 \cr
+   1996 \tab 979 \tab 492 \tab 1332 \tab 99 \tab 2 \tab - \tab 2904 \cr
+   1998 \tab 921 \tab 525 \tab 1263 \tab 117 \tab 6 \tab - \tab 2832 \cr
+   2000 \tab 921 \tab 597 \tab 1183 \tab 111 \tab 5 \tab - \tab 2817 \cr
+   2002 \tab 1853 \tab 306 \tab 545 \tab 61 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1936 \tab 292 \tab 510 \tab 73 \tab 1 \tab - \tab 2812 \cr
+   2006 \tab 2521 \tab 672 \tab 1156 \tab 161 \tab - \tab - \tab 4510 \cr
+   2008 \tab 658 \tab 496 \tab 751 \tab 116 \tab 2 \tab - \tab 2023 \cr
+   2010 \tab 667 \tab 603 \tab 656 \tab 117 \tab 1 \tab - \tab 2044 \cr
+   2012 \tab 636 \tab 586 \tab 648 \tab 100 \tab 4 \tab - \tab 1974 \cr
+   2014 \tab 851 \tab 870 \tab 704 \tab 111 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 911 \tab 1126 \tab 717 \tab 110 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab 785 \tab 938 \tab 509 \tab 112 \tab 4 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 2337 \tab 788 \tab 335 \tab 81 \tab 3 \tab - \tab 3544 \cr
+   Total \tab 19465 \tab 12672 \tab 25997 \tab 2085 \tab 118 \tab 4032 \tab 64369 \cr
+}
 }
 
 \seealso{

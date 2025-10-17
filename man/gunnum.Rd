@@ -25,21 +25,27 @@ B. How many times would you guess this has happened to you?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
-   1975 \tab - \tab full \cr
-   1976 \tab - \tab full \cr
-   1978 \tab - \tab full \cr
-   1980 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/663/vshow}{GSS Data Explorer page for \code{gunnum}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab once \tab 2-3 times \tab 4+ times \tab don't know \tab no answer \tab Total \cr
+   1973 \tab 1258 \tab 144 \tab 47 \tab 38 \tab 11 \tab 6 \tab 1504 \cr
+   1975 \tab 1230 \tab 142 \tab 62 \tab 35 \tab 12 \tab 9 \tab 1490 \cr
+   1976 \tab 1242 \tab 134 \tab 65 \tab 52 \tab 4 \tab 2 \tab 1499 \cr
+   1978 \tab 1221 \tab 187 \tab 71 \tab 40 \tab 11 \tab 2 \tab 1532 \cr
+   1980 \tab 1157 \tab 173 \tab 75 \tab 50 \tab 10 \tab 3 \tab 1468 \cr
+   1983 \tab 1272 \tab 180 \tab 86 \tab 52 \tab 6 \tab 3 \tab 1599 \cr
+   1984 \tab 1181 \tab 170 \tab 62 \tab 52 \tab 6 \tab 2 \tab 1473 \cr
+   Total \tab 8561 \tab 1130 \tab 468 \tab 319 \tab 60 \tab 27 \tab 10565 \cr
+}
 }
 
 \seealso{

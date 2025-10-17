@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `angry`](https://gssdataexplorer.norc.org/variables/1722/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |1   |2   |3   |4  |5  |6  |7  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:---|:---|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |1996  |1444 |530 |414 |212 |122 |56 |36 |22 |59 |4          |5         |2904  |
+#'  |Total |1444 |530 |414 |212 |122 |56 |36 |22 |59 |4          |5         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `embarrss`](https://gssdataexplorer.norc.org/variables/1723/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |1   |2   |3  |4  |5  |6  |7  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:---|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |1996  |1444 |986 |279 |108 |31 |9  |8  |6  |23 |3          |7         |2904  |
+#'  |Total |1444 |986 |279 |108 |31 |9  |8  |6  |23 |3          |7         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `proud`](https://gssdataexplorer.norc.org/variables/1724/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |1   |2   |3   |4   |5   |6  |7   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:---|:---|:---|:---|:--|:---|:----------|:---------|:-----|
+#'  |1996  |1444 |243 |230 |230 |224 |136 |107 |39 |233 |13         |5         |2904  |
+#'  |Total |1444 |243 |230 |230 |224 |136 |107 |39 |233 |13         |5         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -116,13 +134,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `noplan`](https://gssdataexplorer.norc.org/variables/1725/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree or disagree-it depends |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:------------------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1444 |156            |467   |113                                  |549      |165               |7          |3         |2904  |
+#'  |Total |1444 |156            |467   |113                                  |549      |165               |7          |3         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -152,13 +176,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `badbrks`](https://gssdataexplorer.norc.org/variables/1726/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree or disagree-it depends |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:------------------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1444 |43             |210   |134                                  |782      |277               |11         |3         |2904  |
+#'  |Total |1444 |43             |210   |134                                  |782      |277               |11         |3         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -188,13 +218,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mostluck`](https://gssdataexplorer.norc.org/variables/1727/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree or disagree-it depends |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:------------------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1444 |40             |194   |113                                  |857      |245               |8          |3         |2904  |
+#'  |Total |1444 |40             |194   |113                                  |857      |245               |8          |3         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -224,13 +260,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `litcntrl`](https://gssdataexplorer.norc.org/variables/1728/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree or disagree-it depends |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:------------------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1444 |69             |362   |120                                  |713      |177               |12         |7         |2904  |
+#'  |Total |1444 |69             |362   |120                                  |713      |177               |12         |7         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -260,13 +302,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `showangr`](https://gssdataexplorer.norc.org/variables/1729/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree or disagree-it depends |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:------------------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1444 |238            |651   |135                                  |355      |71                |6          |4         |2904  |
+#'  |Total |1444 |238            |651   |135                                  |355      |71                |6          |4         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -296,13 +344,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `showfeel`](https://gssdataexplorer.norc.org/variables/1730/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree or disagree-it depends |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:------------------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |2149 |144            |357   |90                                   |122      |31                |1          |10        |2904  |
+#'  |Total |2149 |144            |357   |90                                   |122      |31                |1          |10        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -332,13 +386,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `noemote`](https://gssdataexplorer.norc.org/variables/1731/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree or disagree-it depends |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:------------------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |2149 |56             |260   |73                                   |282      |70                |5          |9         |2904  |
+#'  |Total |2149 |56             |260   |73                                   |282      |70                |5          |9         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions

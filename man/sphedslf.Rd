@@ -26,15 +26,21 @@ E. IF ALREADY ANSWERED, CODE WITHOUT ASKING:  Was (he/she) self-employed or did 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1489/vshow}{GSS Data Explorer page for \code{sphedslf}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab self employed \tab someone else \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2231 \tab 191 \tab 465 \tab 38 \tab 67 \tab 2992 \cr
+   Total \tab 2231 \tab 191 \tab 465 \tab 38 \tab 67 \tab 2992 \cr
+}
 }
 
 \seealso{

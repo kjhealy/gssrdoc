@@ -24,15 +24,21 @@ E. The automobile industry.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4075/vshow}{GSS Data Explorer page for \code{ownautos}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab own it \tab control prices \tab leave alone \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 14 \tab 226 \tab 373 \tab 46 \tab 18 \tab 1534 \cr
+   Total \tab 857 \tab 14 \tab 226 \tab 373 \tab 46 \tab 18 \tab 1534 \cr
+}
 }
 
 \seealso{

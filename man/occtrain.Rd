@@ -22,15 +22,21 @@ Question A. Have you gone through any specialized training in school to obtain a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2138/vshow}{GSS Data Explorer page for \code{occtrain}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1998 \tab 1455 \tab 504 \tab 739 \tab 134 \tab 2832 \cr
+   Total \tab 1455 \tab 504 \tab 739 \tab 134 \tab 2832 \cr
+}
 }
 
 \seealso{

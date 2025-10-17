@@ -23,15 +23,21 @@ A. My own previous knowledge of the firm or workers.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1840/vshow}{GSS Data Explorer page for \code{fixera}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2353 \tab 169 \tab 270 \tab 1 \tab 111 \tab 2904 \cr
+   Total \tab 2353 \tab 169 \tab 270 \tab 1 \tab 111 \tab 2904 \cr
+}
 }
 
 \seealso{

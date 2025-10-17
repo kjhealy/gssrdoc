@@ -26,15 +26,21 @@ D. My job leaves a lot of leisure time
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4544/vshow}{GSS Data Explorer page for \code{rleisure}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 32 \tab 206 \tab 251 \tab 298 \tab 79 \tab 7 \tab 25 \tab 1537 \cr
+   Total \tab 639 \tab 32 \tab 206 \tab 251 \tab 298 \tab 79 \tab 7 \tab 25 \tab 1537 \cr
+}
 }
 
 \seealso{

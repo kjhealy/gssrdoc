@@ -25,15 +25,21 @@ B. I have a lot to say over what happens on my job.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1309/vshow}{GSS Data Explorer page for \code{lottosay}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very true \tab true \tab somewhat true \tab not true at all \tab can't choose \tab no answer \tab Total \cr
+   1991 \tab 605 \tab 301 \tab 249 \tab 216 \tab 130 \tab 5 \tab 11 \tab 1517 \cr
+   Total \tab 605 \tab 301 \tab 249 \tab 216 \tab 130 \tab 5 \tab 11 \tab 1517 \cr
+}
 }
 
 \seealso{

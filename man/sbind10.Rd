@@ -292,15 +292,10 @@ Question What kind of work (is/was) (SIBLING'S NAME) doing? What kind of place (
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
-}
-
-\section{Link at the GSS}{
-
-For further details see the \href{https://gssdataexplorer.norc.org/variables/6023/vshow}{GSS Data Explorer page for \code{sbind10}}.
 }
 
 \seealso{

@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fekids2`](https://gssdataexplorer.norc.org/variables/1692/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very important |important |somewhat important |not at all important |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1996  |1444 |463            |445       |319                |213                  |16         |4         |2904  |
+#'  |Total |1444 |463            |445       |319                |213                  |16         |4         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -51,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fekids3`](https://gssdataexplorer.norc.org/variables/1693/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very important |important |somewhat important |not at all important |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1996  |1444 |303            |362       |402                |348                  |41         |4         |2904  |
+#'  |Total |1444 |303            |362       |402                |348                  |41         |4         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -86,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fekids4`](https://gssdataexplorer.norc.org/variables/1694/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very important |important |somewhat important |not at all important |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1996  |1444 |256            |349       |334                |460                  |54         |7         |2904  |
+#'  |Total |1444 |256            |349       |334                |460                  |54         |7         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -121,13 +139,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fekids5`](https://gssdataexplorer.norc.org/variables/1695/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very important |important |somewhat important |not at all important |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1996  |1444 |268            |221       |207                |700                  |54         |10        |2904  |
+#'  |Total |1444 |268            |221       |207                |700                  |54         |10        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -153,13 +177,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mebear`](https://gssdataexplorer.norc.org/variables/1696/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |1996  |2199 |366 |232 |106        |1         |2904  |
+#'  |Total |2199 |366 |232 |106        |1         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -189,26 +219,32 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2000 |A/B/-   |partial      |
-#'  |2002 |A/B/-   |partial      |
-#'  |2004 |A/B/-   |partial      |
-#'  |2006 |A/B/-   |partial      |
-#'  |2008 |A/B/-   |partial      |
-#'  |2010 |A/B/-   |partial      |
-#'  |2012 |A/B/-   |partial      |
-#'  |2014 |A/B/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
-#'  |2021 |A/B/-   |partial      |
-#'  |2022 |A/B/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
+#'  |ballots |years                                                                        |
+#'  |:-------|:----------------------------------------------------------------------------|
+#'  |A/B/-   |2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+#'  |A/B/C   |1996                                                                         |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fehire`](https://gssdataexplorer.norc.org/variables/1697/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |skipped on web |Total |
+#'  |:-----|:-----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------|:-----|
+#'  |1996  |1444  |248            |553   |200                        |340      |95                |22         |2         |-              |2904  |
+#'  |2000  |1889  |155            |367   |84                         |160      |34                |14         |114       |-              |2817  |
+#'  |2002  |2295  |99             |220   |43                         |87       |20                |1          |-         |-              |2765  |
+#'  |2004  |2359  |65             |222   |56                         |90       |18                |1          |1         |-              |2812  |
+#'  |2006  |3512  |181            |463   |133                        |183      |34                |4          |-         |-              |4510  |
+#'  |2008  |1342  |120            |316   |66                         |153      |22                |3          |1         |-              |2023  |
+#'  |2010  |1345  |127            |342   |71                         |126      |30                |2          |1         |-              |2044  |
+#'  |2012  |1332  |102            |314   |68                         |132      |21                |4          |1         |-              |1974  |
+#'  |2014  |1689  |156            |432   |75                         |157      |23                |4          |2         |-              |2538  |
+#'  |2016  |1915  |210            |483   |87                         |141      |30                |1          |-         |-              |2867  |
+#'  |2018  |1583  |176            |380   |75                         |105      |24                |4          |1         |-              |2348  |
+#'  |2021  |1315  |622            |898   |673                        |381      |134               |1          |-         |8              |4032  |
+#'  |2022  |1168  |556            |955   |417                        |334      |95                |15         |2         |2              |3544  |
+#'  |Total |23188 |2817           |5945  |2048                       |2389     |580               |76         |125       |10             |37178 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -234,13 +270,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `feminist`](https://gssdataexplorer.norc.org/variables/1698/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes, a feminist |no, not a feminist |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:------------------|:----------|:---------|:-----|
+#'  |1996  |1444 |298             |1083               |77         |2         |2904  |
+#'  |Total |1444 |298             |1083               |77         |2         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -268,13 +310,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fenews`](https://gssdataexplorer.norc.org/variables/1699/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very often |fairly often |not too often |never |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:------------|:-------------|:-----|:----------|:---------|:-----|
+#'  |1996  |1444 |325        |601          |461           |66    |3          |4         |2904  |
+#'  |Total |1444 |325        |601          |461           |66    |3          |4         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -302,13 +350,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hmemaker`](https://gssdataexplorer.norc.org/variables/1700/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |improved their life |made their life worse |had no effect on their life |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------|:---------------------|:---------------------------|:----------|:---------|:-----|
+#'  |1996  |1444 |570                 |297                   |482                         |107        |4         |2904  |
+#'  |Total |1444 |570                 |297                   |482                         |107        |4         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -336,13 +390,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `wrkclass`](https://gssdataexplorer.norc.org/variables/1701/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |improved their life |made their life worse |had no effect on their life |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------|:---------------------|:---------------------------|:----------|:---------|:-----|
+#'  |1996  |1444 |1087                |82                    |194                         |95         |2         |2904  |
+#'  |Total |1444 |1087                |82                    |194                         |95         |2         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender

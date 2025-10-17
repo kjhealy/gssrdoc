@@ -25,15 +25,21 @@ Nuclear engineers. (Would you say they should have a great deal of influence, a 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3492/vshow}{GSS Data Explorer page for \code{enhinfnk}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 1578 \tab 177 \tab 196 \tab 47 \tab 19 \tab 20 \tab 7 \tab 2044 \cr
+   Total \tab 1578 \tab 177 \tab 196 \tab 47 \tab 19 \tab 20 \tab 7 \tab 2044 \cr
+}
 }
 
 \seealso{

@@ -24,29 +24,36 @@ Question Thinking about all the different kinds of governments in the world toda
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5488/vshow}{GSS Data Explorer page for \code{commun}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab worst kind \tab bad, not worst \tab ok for some \tab good form \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 639 \tab 398 \tab 363 \tab 45 \tab 56 \tab 3 \tab 1504 \cr
+   1974 \tab - \tab 726 \tab 389 \tab 278 \tab 45 \tab 42 \tab 4 \tab 1484 \cr
+   1976 \tab - \tab 761 \tab 385 \tab 292 \tab 18 \tab 41 \tab 2 \tab 1499 \cr
+   1977 \tab - \tab 802 \tab 373 \tab 300 \tab 21 \tab 30 \tab 4 \tab 1530 \cr
+   1980 \tab - \tab 835 \tab 387 \tab 189 \tab 15 \tab 39 \tab 3 \tab 1468 \cr
+   1982 \tab - \tab 1023 \tab 453 \tab 261 \tab 34 \tab 82 \tab 7 \tab 1860 \cr
+   1984 \tab - \tab 875 \tab 373 \tab 155 \tab 29 \tab 35 \tab 6 \tab 1473 \cr
+   1985 \tab - \tab 875 \tab 401 \tab 197 \tab 21 \tab 35 \tab 5 \tab 1534 \cr
+   1987 \tab - \tab 940 \tab 512 \tab 266 \tab 23 \tab 66 \tab 12 \tab 1819 \cr
+   1988 \tab 505 \tab 466 \tab 305 \tab 156 \tab 19 \tab 25 \tab 5 \tab 1481 \cr
+   1989 \tab 504 \tab 493 \tab 354 \tab 147 \tab 12 \tab 25 \tab 2 \tab 1537 \cr
+   1990 \tab 455 \tab 501 \tab 275 \tab 103 \tab 6 \tab 28 \tab 4 \tab 1372 \cr
+   1991 \tab 524 \tab 492 \tab 328 \tab 134 \tab 8 \tab 28 \tab 3 \tab 1517 \cr
+   1993 \tab 531 \tab 486 \tab 378 \tab 161 \tab 13 \tab 32 \tab 5 \tab 1606 \cr
+   1994 \tab 2508 \tab 250 \tab 157 \tab 58 \tab 5 \tab 14 \tab - \tab 2992 \cr
+   Total \tab 5027 \tab 10164 \tab 5468 \tab 3060 \tab 314 \tab 578 \tab 65 \tab 24676 \cr
+}
 }
 
 \seealso{

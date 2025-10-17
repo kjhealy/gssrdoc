@@ -23,15 +23,21 @@ Other people think marijuana use should not be made legal. Which do you favor?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/286/vshow}{GSS Data Explorer page for \code{grassy}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab legal \tab not legal \tab don't know \tab no answer \tab Total \cr
+   1978 \tab 761 \tab 242 \tab 501 \tab 27 \tab 1 \tab 1532 \cr
+   Total \tab 761 \tab 242 \tab 501 \tab 27 \tab 1 \tab 1532 \cr
+}
 }
 
 \seealso{

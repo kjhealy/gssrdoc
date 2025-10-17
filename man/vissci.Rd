@@ -21,18 +21,26 @@ Question A science or technology museum. How many times did you visit a science 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   B/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3466/vshow}{GSS Data Explorer page for \code{vissci}}.
+
+Counts by year:\tabular{llllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 15 \tab 2 \tab 20 \tab 25 \tab 3 \tab 4 \tab 5 \tab 6 \tab 8 \tab 9 \tab no answer \tab 50 \tab don't know \tab 52 \tab 7 \tab Total \cr
+   2008 \tab 518 \tab 1140 \tab 257 \tab 4 \tab 2 \tab 1 \tab 65 \tab 2 \tab 1 \tab 15 \tab 8 \tab 6 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2012 \tab 972 \tab 755 \tab 168 \tab 1 \tab - \tab - \tab 45 \tab - \tab - \tab 14 \tab 5 \tab 3 \tab 5 \tab - \tab - \tab 4 \tab 1 \tab 1 \tab - \tab - \tab 1974 \cr
+   2016 \tab 1477 \tab 1013 \tab 273 \tab 3 \tab 2 \tab - \tab 50 \tab 1 \tab - \tab 23 \tab 5 \tab 10 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 836 \tab 235 \tab - \tab - \tab - \tab 58 \tab - \tab - \tab 20 \tab 13 \tab 5 \tab 5 \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab 1 \tab 2348 \cr
+   Total \tab 4140 \tab 3744 \tab 933 \tab 8 \tab 4 \tab 1 \tab 218 \tab 3 \tab 1 \tab 72 \tab 31 \tab 24 \tab 13 \tab 2 \tab 2 \tab 9 \tab 3 \tab 2 \tab 1 \tab 1 \tab 9212 \cr
+}
 }
 
 \seealso{

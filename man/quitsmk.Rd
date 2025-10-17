@@ -23,26 +23,33 @@ A. Have you ever tried to give up smoking?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/533/vshow}{GSS Data Explorer page for \code{quitsmk}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1978 \tab 927 \tab 412 \tab 187 \tab 6 \tab 1532 \cr
+   1980 \tab 866 \tab 408 \tab 187 \tab 7 \tab 1468 \cr
+   1983 \tab 1006 \tab 441 \tab 150 \tab 2 \tab 1599 \cr
+   1984 \tab 924 \tab 399 \tab 142 \tab 8 \tab 1473 \cr
+   1986 \tab 989 \tab 345 \tab 129 \tab 7 \tab 1470 \cr
+   1987 \tab 1232 \tab 407 \tab 174 \tab 6 \tab 1819 \cr
+   1988 \tab 1140 \tab 263 \tab 73 \tab 5 \tab 1481 \cr
+   1989 \tab 1226 \tab 229 \tab 79 \tab 3 \tab 1537 \cr
+   1990 \tab 1084 \tab 211 \tab 73 \tab 4 \tab 1372 \cr
+   1991 \tab 1197 \tab 232 \tab 87 \tab 1 \tab 1517 \cr
+   1993 \tab 1316 \tab 218 \tab 70 \tab 2 \tab 1606 \cr
+   1994 \tab 2850 \tab 117 \tab 25 \tab - \tab 2992 \cr
+   Total \tab 14757 \tab 3682 \tab 1376 \tab 51 \tab 19866 \cr
+}
 }
 
 \seealso{

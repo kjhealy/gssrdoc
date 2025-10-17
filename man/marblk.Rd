@@ -25,30 +25,36 @@ Question What about having a close relative marry a Black person? Would you be v
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/- \tab partial \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1996, 1998, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C \tab 1990, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1222/vshow}{GSS Data Explorer page for \code{marblk}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1990 \tab - \tab 96 \tab 61 \tab 407 \tab 342 \tab 441 \tab 15 \tab 10 \tab - \tab 1372 \cr
+   1996 \tab 1935 \tab 125 \tab 108 \tab 373 \tab 152 \tab 192 \tab 10 \tab 9 \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 251 \tab 198 \tab 738 \tab 313 \tab 345 \tab 15 \tab 11 \tab - \tab 2832 \cr
+   2000 \tab 486 \tab 413 \tab 278 \tab 875 \tab 307 \tab 402 \tab 30 \tab 26 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 186 \tab 102 \tab 356 \tab 127 \tab 131 \tab 6 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 131 \tab 106 \tab 432 \tab 124 \tab 108 \tab 1 \tab 4 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 333 \tab 263 \tab 900 \tab 235 \tab 248 \tab 10 \tab 3 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 235 \tab 189 \tab 612 \tab 138 \tab 145 \tab 5 \tab 5 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 293 \tab 189 \tab 680 \tab 136 \tab 123 \tab 4 \tab 5 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 241 \tab 169 \tab 665 \tab 112 \tab 104 \tab 9 \tab 2 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 343 \tab 240 \tab 844 \tab 127 \tab 104 \tab 9 \tab 8 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 405 \tab 254 \tab 982 \tab 140 \tab 99 \tab 4 \tab 4 \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 386 \tab 223 \tab 757 \tab 108 \tab 76 \tab 3 \tab 6 \tab - \tab 2348 \cr
+   2021 \tab 1318 \tab 546 \tab 196 \tab 1747 \tab 144 \tab 65 \tab - \tab 1 \tab 15 \tab 4032 \cr
+   2022 \tab 1168 \tab 640 \tab 236 \tab 1327 \tab 97 \tab 61 \tab 9 \tab 4 \tab 2 \tab 3544 \cr
+   Total \tab 16760 \tab 4624 \tab 2812 \tab 11695 \tab 2602 \tab 2644 \tab 130 \tab 98 \tab 17 \tab 41382 \cr
+}
 }
 
 \seealso{

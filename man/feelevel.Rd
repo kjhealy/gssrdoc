@@ -21,24 +21,31 @@ Question Amount of Fees Paid
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5561/vshow}{GSS Data Explorer page for \code{feelevel}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 12 \tab 15 \tab 20 \tab 25 \tab 30 \tab 40 \tab 50 \tab $75+ \tab don't know \tab no answer \tab 29 \tab 35 \tab 60 \tab 1 \tab 70 \tab 59 \tab 45 \tab 2 \tab 3 \tab 5 \tab 55 \tab not available in this release \tab Total \cr
+   2004 \tab 1579 \tab 67 \tab 1 \tab 3 \tab 745 \tab 1 \tab 12 \tab 79 \tab 165 \tab 149 \tab 6 \tab 5 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 2350 \tab 55 \tab - \tab 18 \tab 1160 \tab 11 \tab 28 \tab 80 \tab 272 \tab 526 \tab - \tab - \tab 1 \tab 3 \tab 6 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 824 \tab 12 \tab - \tab 3 \tab 388 \tab 17 \tab 34 \tab 59 \tab 440 \tab 231 \tab - \tab - \tab - \tab 2 \tab 1 \tab 1 \tab 11 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 708 \tab 3 \tab - \tab - \tab 526 \tab 25 \tab 28 \tab 120 \tab 338 \tab 286 \tab 1 \tab - \tab - \tab - \tab 5 \tab - \tab 3 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 781 \tab 1 \tab - \tab 1 \tab 483 \tab 21 \tab 21 \tab 47 \tab 226 \tab 388 \tab - \tab - \tab - \tab - \tab 2 \tab - \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 1025 \tab 5 \tab - \tab 1 \tab 528 \tab 3 \tab 1 \tab 3 \tab 273 \tab 664 \tab - \tab 6 \tab - \tab - \tab 1 \tab 19 \tab - \tab - \tab - \tab 5 \tab 1 \tab 3 \tab - \tab - \tab 2538 \cr
+   2016 \tab 709 \tab - \tab - \tab - \tab 304 \tab 17 \tab 10 \tab 8 \tab 817 \tab 972 \tab 8 \tab 12 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab 4 \tab 4 \tab - \tab 2867 \cr
+   2018 \tab 385 \tab - \tab - \tab - \tab - \tab 879 \tab - \tab - \tab 275 \tab 763 \tab 23 \tab 15 \tab - \tab - \tab - \tab 8 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 11905 \tab 143 \tab 1 \tab 26 \tab 4134 \tab 974 \tab 134 \tab 396 \tab 2806 \tab 3979 \tab 38 \tab 38 \tab 1 \tab 5 \tab 15 \tab 28 \tab 16 \tab 1 \tab 2 \tab 5 \tab 2 \tab 7 \tab 4 \tab 4032 \tab 28692 \cr
+}
 }
 
 \seealso{

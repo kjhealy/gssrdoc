@@ -22,15 +22,21 @@ Question Spouse's Head of Household OCC/IND verbatim recovered
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6002/vshow}{GSS Data Explorer page for \code{sphedoccindv}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab no verbatims for sphed \tab verbatims for sphed \tab Total \cr
+   1994 \tab 54 \tab 2174 \tab 764 \tab 2992 \cr
+   Total \tab 54 \tab 2174 \tab 764 \tab 2992 \cr
+}
 }
 
 \seealso{

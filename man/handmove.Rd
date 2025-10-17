@@ -22,20 +22,26 @@ Question Does your job regularly require you to perform repetitive or forceful h
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2813/vshow}{GSS Data Explorer page for \code{handmove}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 906 \tab 871 \tab 6 \tab 13 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 833 \tab 886 \tab 3 \tab 12 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 526 \tab 634 \tab 3 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 577 \tab 661 \tab 5 \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 696 \tab 717 \tab 5 \tab 30 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 814 \tab 1142 \tab 5 \tab 12 \tab 16 \tab 3544 \cr
+   Total \tab 8345 \tab 4352 \tab 4911 \tab 27 \tab 98 \tab 16 \tab 17749 \cr
+}
 }
 
 \seealso{

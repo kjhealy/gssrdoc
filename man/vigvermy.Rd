@@ -32,15 +32,21 @@ Question First, I'm going to describe a person. Let's call (him/her) (NAME). Aft
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3719/vshow}{GSS Data Explorer page for \code{vigvermy}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab vignette 1 \tab vignette 2 \tab vignette 3 \tab vignette 4 \tab vignette 5 \tab vignette 6 \tab vignette 7 \tab vignette 8 \tab vignette 9 \tab vignette 10 \tab vignette 11 \tab vignette 12 \tab Total \cr
+   2006 \tab 2992 \tab 125 \tab 136 \tab 125 \tab 125 \tab 116 \tab 131 \tab 132 \tab 129 \tab 123 \tab 119 \tab 128 \tab 129 \tab 4510 \cr
+   Total \tab 2992 \tab 125 \tab 136 \tab 125 \tab 125 \tab 116 \tab 131 \tab 132 \tab 129 \tab 123 \tab 119 \tab 128 \tab 129 \tab 4510 \cr
+}
 }
 
 \seealso{

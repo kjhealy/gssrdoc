@@ -24,15 +24,21 @@ Question How firm are you about your opinion on gun control--would you say you a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/275/vshow}{GSS Data Explorer page for \code{gunfirm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 989 \tab 12 \tab 85 \tab 124 \tab 249 \tab 11 \tab 3 \tab 1473 \cr
+   Total \tab 989 \tab 12 \tab 85 \tab 124 \tab 249 \tab 11 \tab 3 \tab 1473 \cr
+}
 }
 
 \seealso{

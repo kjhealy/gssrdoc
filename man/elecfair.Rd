@@ -25,16 +25,22 @@ Question Thinking of the last national election in America, how fair was it rega
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4956/vshow}{GSS Data Explorer page for \code{elecfair}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very fair \tab somewhat fair \tab neither fair nor unfair \tab somewhat unfair \tab very unfair \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 521 \tab 479 \tab 221 \tab 145 \tab 60 \tab 40 \tab 6 \tab 2812 \cr
+   2014 \tab 1274 \tab 358 \tab 433 \tab 176 \tab 100 \tab 46 \tab 145 \tab 6 \tab 2538 \cr
+   Total \tab 2614 \tab 879 \tab 912 \tab 397 \tab 245 \tab 106 \tab 185 \tab 12 \tab 5350 \cr
+}
 }
 
 \seealso{

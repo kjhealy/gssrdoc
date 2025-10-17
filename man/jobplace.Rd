@@ -25,16 +25,23 @@ G. Any job placement of career counseling service?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2616/vshow}{GSS Data Explorer page for \code{jobplace}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2220 \tab 418 \tab 72 \tab 27 \tab 20 \tab 2 \tab 6 \tab 2765 \cr
+   2004 \tab 2453 \tab 259 \tab 55 \tab 19 \tab 19 \tab - \tab 7 \tab 2812 \cr
+   Total \tab 4673 \tab 677 \tab 127 \tab 46 \tab 39 \tab 2 \tab 13 \tab 5577 \cr
+}
 }
 
 \seealso{

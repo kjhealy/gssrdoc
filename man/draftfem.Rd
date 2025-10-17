@@ -23,17 +23,23 @@ C. IF DRAFT ON "B": If we should return to a military draft in a national emerge
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/805/vshow}{GSS Data Explorer page for \code{draftfem}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 977 \tab 430 \tab 398 \tab 30 \tab 25 \tab 1860 \cr
+   1983 \tab 645 \tab 460 \tab 436 \tab 29 \tab 29 \tab 1599 \cr
+   1984 \tab 539 \tab 451 \tab 408 \tab 22 \tab 53 \tab 1473 \cr
+   Total \tab 2161 \tab 1341 \tab 1242 \tab 81 \tab 107 \tab 4932 \cr
+}
 }
 
 \seealso{

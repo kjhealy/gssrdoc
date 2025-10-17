@@ -27,15 +27,21 @@ Question Who or where would you turn to first toï¿½ Help you with administrat
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7251/vshow}{GSS Data Explorer page for \code{hlppaper}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab family members or close friends \tab other persons \tab private companies \tab public services \tab non-profit or religious organizations \tab other organizations \tab no person or organization \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 566 \tab 159 \tab 124 \tab 177 \tab 22 \tab 50 \tab 57 \tab 17 \tab 1 \tab 2348 \cr
+   Total \tab 1175 \tab 566 \tab 159 \tab 124 \tab 177 \tab 22 \tab 50 \tab 57 \tab 17 \tab 1 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

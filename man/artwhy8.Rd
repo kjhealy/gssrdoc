@@ -22,15 +22,21 @@ Question Was there some other major reason for your decision to attend that is n
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6245/vshow}{GSS Data Explorer page for \code{artwhy8}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2546 \tab 61 \tab 251 \tab 1 \tab 8 \tab 2867 \cr
+   Total \tab 2546 \tab 61 \tab 251 \tab 1 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

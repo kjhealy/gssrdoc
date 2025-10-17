@@ -26,15 +26,21 @@ Question How did you learn about the availability of the home you purchased?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1814/vshow}{GSS Data Explorer page for \code{learnhme}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab from a relative, including in-laws \tab a friend or acquaintance \tab a friend of a friend or relative, etc \tab from an advertisement or sign \tab from a real estate agent \tab i built it myself \tab no answer \tab Total \cr
+   1996 \tab 2451 \tab 49 \tab 63 \tab 13 \tab 116 \tab 146 \tab 57 \tab 9 \tab 2904 \cr
+   Total \tab 2451 \tab 49 \tab 63 \tab 13 \tab 116 \tab 146 \tab 57 \tab 9 \tab 2904 \cr
+}
 }
 
 \seealso{

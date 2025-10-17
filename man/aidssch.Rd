@@ -23,15 +23,21 @@ A. Prohibit students with the AIDS virus from attending public school
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5041/vshow}{GSS Data Explorer page for \code{aidssch}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab support \tab oppose \tab don't know \tab no answer \tab Total \cr
+   1988 \tab 763 \tab 171 \tab 476 \tab 60 \tab 11 \tab 1481 \cr
+   Total \tab 763 \tab 171 \tab 476 \tab 60 \tab 11 \tab 1481 \cr
+}
 }
 
 \seealso{

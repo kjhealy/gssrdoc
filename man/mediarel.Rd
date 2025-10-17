@@ -23,16 +23,23 @@ B. Watch a religious program on television or listen to a religious program on t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/C/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   A/C/- \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5319/vshow}{GSS Data Explorer page for \code{mediarel}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1953 \tab 213 \tab 668 \tab 1 \tab 69 \tab 2904 \cr
+   1998 \tab 1387 \tab 400 \tab 1006 \tab 1 \tab 38 \tab 2832 \cr
+   Total \tab 3340 \tab 613 \tab 1674 \tab 2 \tab 107 \tab 5736 \cr
+}
 }
 
 \seealso{

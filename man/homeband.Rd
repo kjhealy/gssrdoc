@@ -28,15 +28,21 @@ Question Is your home connected to the World Wide Web by a telephone line, a DSL
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2656/vshow}{GSS Data Explorer page for \code{homeband}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab telephone line \tab dsl \tab cable \tab satellite \tab wireless \tab cellphone \tab other \tab not at all \tab don't know \tab Total \cr
+   2004 \tab 992 \tab 785 \tab 385 \tab 400 \tab 5 \tab 2 \tab 2 \tab 4 \tab 213 \tab 24 \tab 2812 \cr
+   Total \tab 992 \tab 785 \tab 385 \tab 400 \tab 5 \tab 2 \tab 2 \tab 4 \tab 213 \tab 24 \tab 2812 \cr
+}
 }
 
 \seealso{

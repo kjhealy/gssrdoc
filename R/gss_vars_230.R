@@ -19,13 +19,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lotr1`](https://gssdataexplorer.norc.org/variables/6197/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:-----|
+#'  |2016  |1409 |70                |196      |271     |683   |227            |2          |9         |2867  |
+#'  |Total |1409 |70                |196      |271     |683   |227            |2          |9         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -56,13 +62,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lotr2`](https://gssdataexplorer.norc.org/variables/6198/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:-----|
+#'  |2016  |1409 |128               |576      |313     |351   |80             |1          |9         |2867  |
+#'  |Total |1409 |128               |576      |313     |351   |80             |1          |9         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -93,13 +105,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lotr3`](https://gssdataexplorer.norc.org/variables/6199/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:-----|
+#'  |2016  |1409 |43                |144      |281     |724   |256            |1          |9         |2867  |
+#'  |Total |1409 |43                |144      |281     |724   |256            |1          |9         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -130,13 +148,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lotr4`](https://gssdataexplorer.norc.org/variables/6200/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:---------|:-----|
+#'  |2016  |1409 |189               |710      |299     |196   |55             |9         |2867  |
+#'  |Total |1409 |189               |710      |299     |196   |55             |9         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -167,13 +191,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lotr5`](https://gssdataexplorer.norc.org/variables/6201/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:-----|
+#'  |2016  |1409 |190               |699      |270     |225   |61             |3          |10        |2867  |
+#'  |Total |1409 |190               |699      |270     |225   |61             |3          |10        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -204,13 +234,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lotr6`](https://gssdataexplorer.norc.org/variables/6202/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:---------|:-----|
+#'  |2016  |1409 |39                |90       |196     |843   |280            |10        |2867  |
+#'  |Total |1409 |39                |90       |196     |843   |280            |10        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -244,13 +280,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hope1`](https://gssdataexplorer.norc.org/variables/6203/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:-----|
+#'  |2016  |1409 |19               |23           |27             |28             |154           |299           |543         |346             |7          |12        |2867  |
+#'  |Total |1409 |19               |23           |27             |28             |154           |299           |543         |346             |7          |12        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -284,13 +326,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hope2`](https://gssdataexplorer.norc.org/variables/6204/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:-----|
+#'  |2016  |1409 |53               |53           |68             |67             |229           |291           |403         |274             |7          |13        |2867  |
+#'  |Total |1409 |53               |53           |68             |67             |229           |291           |403         |274             |7          |13        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -324,13 +372,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hope3`](https://gssdataexplorer.norc.org/variables/6205/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:-----|
+#'  |2016  |1409 |20               |36           |38             |52             |191           |347           |472         |286             |4          |12        |2867  |
+#'  |Total |1409 |20               |36           |38             |52             |191           |347           |472         |286             |4          |12        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -364,13 +418,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hope4`](https://gssdataexplorer.norc.org/variables/6206/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:-----|
+#'  |2016  |1409 |51               |48           |57             |83             |215           |337           |426         |225             |5          |11        |2867  |
+#'  |Total |1409 |51               |48           |57             |83             |215           |337           |426         |225             |5          |11        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism

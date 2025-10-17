@@ -29,15 +29,21 @@ Question E. During the last 12 months, how often did you have at least 1, but le
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3106/vshow}{GSS Data Explorer page for \code{drink1}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab never in the last 12 months \tab once in the last 12 months \tab twice in the last 12 months \tab three to six times in the last 12 months \tab seven to eleven times in the last 12 months \tab one to three times a month \tab once or twice a week \tab three or four times a week \tab every day or nearly every day \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2543 \tab 7 \tab 27 \tab 32 \tab 57 \tab 26 \tab 56 \tab 33 \tab 12 \tab 9 \tab 3 \tab 7 \tab 2812 \cr
+   Total \tab 2543 \tab 7 \tab 27 \tab 32 \tab 57 \tab 26 \tab 56 \tab 33 \tab 12 \tab 9 \tab 3 \tab 7 \tab 2812 \cr
+}
 }
 
 \seealso{

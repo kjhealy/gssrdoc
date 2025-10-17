@@ -27,18 +27,27 @@ B. Next, for those with middle incomes, are taxes . . .
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4303/vshow}{GSS Data Explorer page for \code{taxmid}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab much too high \tab too high \tab about right \tab too low \tab much too low \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 251 \tab 777 \tab 408 \tab 35 \tab 4 \tab 66 \tab 23 \tab 1819 \cr
+   1996 \tab 1572 \tab 208 \tab 615 \tab 394 \tab 27 \tab 2 \tab 54 \tab 32 \tab 2904 \cr
+   2006 \tab 2992 \tab 206 \tab 635 \tab 574 \tab 46 \tab 11 \tab 46 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 150 \tab 580 \tab 557 \tab 60 \tab 6 \tab 22 \tab 15 \tab 2867 \cr
+   Total \tab 6296 \tab 815 \tab 2607 \tab 1933 \tab 168 \tab 23 \tab 188 \tab 70 \tab 12100 \cr
+}
 }
 
 \seealso{

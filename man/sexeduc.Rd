@@ -23,42 +23,48 @@ Question Would you be for or against sex education in the public schools?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
-   1996 \tab A/B \tab partial \cr
-   1998 \tab A/B \tab partial \cr
-   2000 \tab A/B \tab partial \cr
-   2002 \tab A/B \tab partial \cr
-   2004 \tab A/B \tab partial \cr
-   2006 \tab A/B \tab partial \cr
-   2008 \tab A/B \tab partial \cr
-   2010 \tab A/B \tab partial \cr
-   2012 \tab A/B \tab partial \cr
-   2014 \tab A/B \tab partial \cr
-   2016 \tab A/B \tab partial \cr
-   2018 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1974, 1975, 1977, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/626/vshow}{GSS Data Explorer page for \code{sexeduc}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab favor \tab oppose \tab depends on age/grade (vol.) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1974 \tab - \tab 1169 \tab 253 \tab 9 \tab 50 \tab 3 \tab - \tab 1484 \cr
+   1975 \tab - \tab 1136 \tab 297 \tab - \tab 55 \tab 2 \tab - \tab 1490 \cr
+   1977 \tab - \tab 1174 \tab 318 \tab - \tab 32 \tab 6 \tab - \tab 1530 \cr
+   1982 \tab - \tab 1524 \tab 276 \tab - \tab 57 \tab 3 \tab - \tab 1860 \cr
+   1983 \tab - \tab 1334 \tab 217 \tab - \tab 44 \tab 4 \tab - \tab 1599 \cr
+   1985 \tab - \tab 1252 \tab 236 \tab - \tab 38 \tab 8 \tab - \tab 1534 \cr
+   1986 \tab - \tab 1199 \tab 228 \tab - \tab 41 \tab 2 \tab - \tab 1470 \cr
+   1988 \tab 493 \tab 833 \tab 124 \tab - \tab 27 \tab 4 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 847 \tab 122 \tab - \tab 34 \tab 3 \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 809 \tab 91 \tab - \tab 24 \tab 4 \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 870 \tab 121 \tab - \tab 31 \tab 2 \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 890 \tab 159 \tab - \tab 28 \tab 3 \tab - \tab 1606 \cr
+   1994 \tab 1015 \tab 1671 \tab 237 \tab - \tab 57 \tab 12 \tab - \tab 2992 \cr
+   1996 \tab 944 \tab 1666 \tab 241 \tab - \tab 47 \tab 6 \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 1585 \tab 236 \tab - \tab 42 \tab 8 \tab - \tab 2832 \cr
+   2000 \tab 940 \tab 1592 \tab 232 \tab - \tab 44 \tab 9 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 787 \tab 103 \tab - \tab 18 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 806 \tab 87 \tab - \tab 11 \tab 2 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 1753 \tab 209 \tab - \tab 29 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 1184 \tab 119 \tab - \tab 24 \tab 2 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 1263 \tab 147 \tab - \tab 15 \tab 5 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 1157 \tab 117 \tab - \tab 22 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 1510 \tab 148 \tab - \tab 14 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 980 \tab 1722 \tab 146 \tab - \tab 19 \tab - \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 1409 \tab 133 \tab - \tab 16 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 1320 \tab 2450 \tab 238 \tab - \tab 8 \tab 2 \tab 14 \tab 4032 \cr
+   2022 \tab 1168 \tab 2047 \tab 292 \tab - \tab 27 \tab 2 \tab 8 \tab 3544 \cr
+   Total \tab 19728 \tab 35639 \tab 5127 \tab 9 \tab 854 \tab 103 \tab 22 \tab 61482 \cr
+}
 }
 
 \seealso{

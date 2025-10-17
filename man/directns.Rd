@@ -27,18 +27,25 @@ J. Given directions to a stranger
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2886/vshow}{GSS Data Explorer page for \code{directns}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least 2 or 3 times in the past year \tab once in the past year \tab not at all in the past year \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 75 \tab 77 \tab 238 \tab 607 \tab 183 \tab 173 \tab 15 \tab 4 \tab 2765 \cr
+   2004 \tab 1472 \tab 72 \tab 89 \tab 239 \tab 631 \tab 159 \tab 144 \tab 3 \tab 3 \tab 2812 \cr
+   2012 \tab 666 \tab 63 \tab 72 \tab 196 \tab 575 \tab 199 \tab 192 \tab 5 \tab 6 \tab 1974 \cr
+   2014 \tab 1264 \tab 64 \tab 77 \tab 189 \tab 547 \tab 195 \tab 196 \tab 2 \tab 4 \tab 2538 \cr
+   Total \tab 4795 \tab 274 \tab 315 \tab 862 \tab 2360 \tab 736 \tab 705 \tab 25 \tab 17 \tab 10089 \cr
+}
 }
 
 \seealso{

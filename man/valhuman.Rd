@@ -23,15 +23,21 @@ D. Human services
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1963/vshow}{GSS Data Explorer page for \code{valhuman}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 100 \tab 1000 \tab 1200 \tab 15 \tab 150 \tab 1500 \tab 20 \tab 200 \tab 2000 \tab 25 \tab 250 \tab 30 \tab 300 \tab 400 \tab 5 \tab 50 \tab 500 \tab 60 \tab 600 \tab 75 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2674 \tab 94 \tab 5 \tab 11 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 10 \tab 1 \tab 2 \tab 1 \tab 2 \tab 4 \tab 4 \tab 1 \tab 6 \tab 8 \tab 1 \tab 1 \tab 2 \tab 8 \tab 60 \tab 2904 \cr
+   Total \tab 2674 \tab 94 \tab 5 \tab 11 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 10 \tab 1 \tab 2 \tab 1 \tab 2 \tab 4 \tab 4 \tab 1 \tab 6 \tab 8 \tab 1 \tab 1 \tab 2 \tab 8 \tab 60 \tab 2904 \cr
+}
 }
 
 \seealso{

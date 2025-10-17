@@ -58,15 +58,21 @@ Question Name of Insurance or HMO.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3904/vshow}{GSS Data Explorer page for \code{emphplan}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab aetna \tab kaiser permanente \tab tufts \tab united \tab wellpoint \tab oxford \tab healthnet \tab united health care \tab health partners \tab great west \tab unicare \tab anthem/wellpoint \tab medcost \tab pacific care \tab fallon hmo \tab arise \tab medical mutual of ohio \tab florida health care \tab hawaiian medical system association \tab coventry \tab winhealth \tab health choice \tab blue cross/blue shield \tab preferred care \tab mvp \tab first health \tab umr \tab affinity health care \tab priority health \tab ghi \tab blue cross \tab 40 \tab blue shield \tab cigna \tab covington \tab harvard pilgrim \tab other \tab humana \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1371 \tab 49 \tab 22 \tab 2 \tab 48 \tab 1 \tab 17 \tab 3 \tab 8 \tab 3 \tab 3 \tab 2 \tab 22 \tab 5 \tab 2 \tab 4 \tab 2 \tab 7 \tab 2 \tab 6 \tab 6 \tab 5 \tab 2 \tab 215 \tab 2 \tab 2 \tab 3 \tab 2 \tab 2 \tab 2 \tab 2 \tab 34 \tab 1 \tab 12 \tab 38 \tab 1 \tab 3 \tab 60 \tab 15 \tab 29 \tab 8 \tab 2023 \cr
+   Total \tab 1371 \tab 49 \tab 22 \tab 2 \tab 48 \tab 1 \tab 17 \tab 3 \tab 8 \tab 3 \tab 3 \tab 2 \tab 22 \tab 5 \tab 2 \tab 4 \tab 2 \tab 7 \tab 2 \tab 6 \tab 6 \tab 5 \tab 2 \tab 215 \tab 2 \tab 2 \tab 3 \tab 2 \tab 2 \tab 2 \tab 2 \tab 34 \tab 1 \tab 12 \tab 38 \tab 1 \tab 3 \tab 60 \tab 15 \tab 29 \tab 8 \tab 2023 \cr
+}
 }
 
 \seealso{

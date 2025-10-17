@@ -23,15 +23,21 @@ Question How big a reason was wanting to see a specific, individual performer in
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6228/vshow}{GSS Data Explorer page for \code{prfmwhy8}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab major reason \tab minor reason \tab not a reason \tab 9 \tab Total \cr
+   2016 \tab 2433 \tab 234 \tab 61 \tab 131 \tab 8 \tab 2867 \cr
+   Total \tab 2433 \tab 234 \tab 61 \tab 131 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

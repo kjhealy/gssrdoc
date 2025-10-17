@@ -22,16 +22,21 @@ Question
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7965/vshow}{GSS Data Explorer page for \code{racdif3x}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab skipped on web \tab Total \cr
+   2022 \tab 2339 \tab 652 \tab 518 \tab 31 \tab 4 \tab 3544 \cr
+   Total \tab 2339 \tab 652 \tab 518 \tab 31 \tab 4 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

@@ -24,15 +24,21 @@ Question How much, if at all, do you think the legacy of slavery affects the pos
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7577/vshow}{GSS Data Explorer page for \code{racesurv17}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal \tab a fair amount \tab not much \tab not at all \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 1315 \tab 802 \tab 704 \tab 474 \tab 360 \tab 7 \tab 336 \tab 34 \tab 4032 \cr
+   Total \tab 1315 \tab 802 \tab 704 \tab 474 \tab 360 \tab 7 \tab 336 \tab 34 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

@@ -24,18 +24,25 @@ Question In your opinion, how likely is it NAME would do something violent towar
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2010/vshow}{GSS Data Explorer page for \code{hurtself}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 408 \tab 585 \tab 256 \tab 111 \tab 67 \tab 17 \tab 2904 \cr
+   2006 \tab 3073 \tab 313 \tab 610 \tab 322 \tab 105 \tab 72 \tab 15 \tab 4510 \cr
+   2018 \tab 1175 \tab 258 \tab 539 \tab 243 \tab 59 \tab 44 \tab 30 \tab 2348 \cr
+   Total \tab 5708 \tab 979 \tab 1734 \tab 821 \tab 275 \tab 183 \tab 62 \tab 9762 \cr
+}
 }
 
 \seealso{

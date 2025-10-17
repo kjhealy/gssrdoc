@@ -22,15 +22,21 @@ Question Since you joined this plan, have you sought medical care for problems w
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2189/vshow}{GSS Data Explorer page for \code{usedmntl}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1998 \tab 1639 \tab 148 \tab 1039 \tab 6 \tab 2832 \cr
+   Total \tab 1639 \tab 148 \tab 1039 \tab 6 \tab 2832 \cr
+}
 }
 
 \seealso{

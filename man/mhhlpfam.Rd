@@ -23,15 +23,21 @@ A. Turn to family for help.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3782/vshow}{GSS Data Explorer page for \code{mhhlpfam}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab not at all important \tab very important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 15 \tab 791 \tab 47 \tab 22 \tab 17 \tab 88 \tab 60 \tab 95 \tab 172 \tab 101 \tab 8 \tab 9 \tab 4510 \cr
+   Total \tab 3085 \tab 15 \tab 791 \tab 47 \tab 22 \tab 17 \tab 88 \tab 60 \tab 95 \tab 172 \tab 101 \tab 8 \tab 9 \tab 4510 \cr
+}
 }
 
 \seealso{

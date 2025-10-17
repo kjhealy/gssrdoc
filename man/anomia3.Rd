@@ -23,17 +23,23 @@ C. To make money, there are no right and wrong ways any more, only easy and hard
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
-   1974 \tab - \tab full \cr
-   1976 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973, 1974, 1976 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/539/vshow}{GSS Data Explorer page for \code{anomia3}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 376 \tab 1094 \tab 30 \tab 4 \tab 1504 \cr
+   1974 \tab - \tab 311 \tab 1133 \tab 33 \tab 7 \tab 1484 \cr
+   1976 \tab - \tab 395 \tab 1067 \tab 34 \tab 3 \tab 1499 \cr
+   Total \tab 0 \tab 1082 \tab 3294 \tab 97 \tab 14 \tab 4487 \cr
+}
 }
 
 \seealso{

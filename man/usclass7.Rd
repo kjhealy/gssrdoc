@@ -25,15 +25,21 @@ G. Differences in social standing between people are acceptable because they bas
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/239/vshow}{GSS Data Explorer page for \code{usclass7}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 243 \tab 794 \tab 289 \tab 69 \tab 51 \tab 27 \tab 1473 \cr
+   Total \tab 0 \tab 243 \tab 794 \tab 289 \tab 69 \tab 51 \tab 27 \tab 1473 \cr
+}
 }
 
 \seealso{

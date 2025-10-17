@@ -22,15 +22,21 @@ Question The cloning of living things produces genetically identical copies.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3499/vshow}{GSS Data Explorer page for \code{cloning}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab true \tab false \tab can't choose \tab no answer \tab Total \cr
+   2010 \tab 1103 \tab 751 \tab 82 \tab 104 \tab 4 \tab 2044 \cr
+   Total \tab 1103 \tab 751 \tab 82 \tab 104 \tab 4 \tab 2044 \cr
+}
 }
 
 \seealso{

@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `famwhts`](https://gssdataexplorer.norc.org/variables/2261/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |commitment to strong families |2   |3   |4   |5   |6  |lacks commitment to strong families |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------------------|:---|:---|:---|:---|:--|:-----------------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |131                           |271 |318 |434 |127 |48 |10                                  |47         |12        |2817  |
+#'  |Total |1419 |131                           |271 |318 |434 |127 |48 |10                                  |47         |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `famblks`](https://gssdataexplorer.norc.org/variables/2262/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |commitment to strong families |2   |3   |4   |5   |6   |lacks commitment to strong families |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------------------|:---|:---|:---|:---|:---|:-----------------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |84                            |140 |229 |459 |238 |136 |41                                  |59         |12        |2817  |
+#'  |Total |1419 |84                            |140 |229 |459 |238 |136 |41                                  |59         |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `famjews`](https://gssdataexplorer.norc.org/variables/2263/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |commitment to strong families |2   |3   |4   |5  |6  |lacks commitment to strong families |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------------------|:---|:---|:---|:--|:--|:-----------------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |225                           |310 |279 |331 |50 |14 |7                                   |168        |14        |2817  |
+#'  |Total |1419 |225                           |310 |279 |331 |50 |14 |7                                   |168        |14        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `famhsps`](https://gssdataexplorer.norc.org/variables/2264/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |commitment to strong families |2   |3   |4   |5   |6  |lacks commitment to strong families |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------------------|:---|:---|:---|:---|:--|:-----------------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |167                           |276 |276 |369 |118 |36 |17                                  |125        |14        |2817  |
+#'  |Total |1419 |167                           |276 |276 |369 |118 |36 |17                                  |125        |14        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -146,13 +170,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `famasns`](https://gssdataexplorer.norc.org/variables/2265/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |commitment to strong families |2   |3   |4   |5  |6  |lacks commitment to strong families |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------------------|:---|:---|:---|:--|:--|:-----------------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |206                           |277 |274 |350 |69 |18 |12                                  |178        |14        |2817  |
+#'  |Total |1419 |206                           |277 |274 |350 |69 |18 |12                                  |178        |14        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -179,13 +209,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fairwhts`](https://gssdataexplorer.norc.org/variables/2266/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |commitment to fair and equal treatment |2   |3   |4   |5   |6  |lacks commitment to fair and equal treatment |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------------------------|:---|:---|:---|:---|:--|:--------------------------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |91                                     |185 |277 |430 |201 |90 |52                                           |60         |12        |2817  |
+#'  |Total |1419 |91                                     |185 |277 |430 |201 |90 |52                                           |60         |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -212,13 +248,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fairblks`](https://gssdataexplorer.norc.org/variables/2267/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |commitment to fair and equal treatment |2  |3   |4   |5   |6   |lacks commitment to fair and equal treatment |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------------------------|:--|:---|:---|:---|:---|:--------------------------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |66                                     |87 |199 |462 |298 |143 |58                                           |73         |12        |2817  |
+#'  |Total |1419 |66                                     |87 |199 |462 |298 |143 |58                                           |73         |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -245,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fairjews`](https://gssdataexplorer.norc.org/variables/2268/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |commitment to fair and equal treatment |2   |3   |4   |5   |6  |lacks commitment to fair and equal treatment |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------------------------|:---|:---|:---|:---|:--|:--------------------------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |63                                     |166 |244 |481 |144 |57 |37                                           |194        |12        |2817  |
+#'  |Total |1419 |63                                     |166 |244 |481 |144 |57 |37                                           |194        |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -278,13 +326,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fairhsps`](https://gssdataexplorer.norc.org/variables/2269/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |commitment to fair and equal treatment |2  |3   |4   |5   |6  |lacks commitment to fair and equal treatment |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------------------------|:--|:---|:---|:---|:--|:--------------------------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |49                                     |94 |211 |522 |247 |80 |33                                           |150        |12        |2817  |
+#'  |Total |1419 |49                                     |94 |211 |522 |247 |80 |33                                           |150        |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -311,13 +365,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fairasns`](https://gssdataexplorer.norc.org/variables/2270/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |commitment to fair and equal treatment |2   |3   |4   |5   |6  |lacks commitment to fair and equal treatment |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------------------------|:---|:---|:---|:---|:--|:--------------------------------------------|:----------|:---------|:-----|
+#'  |2000  |1419 |66                                     |112 |199 |512 |195 |57 |39                                           |206        |12        |2817  |
+#'  |Total |1419 |66                                     |112 |199 |512 |195 |57 |39                                           |206        |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States

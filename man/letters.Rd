@@ -29,17 +29,25 @@ C. Exchanging cards or letters through U.S. postal mail?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2546/vshow}{GSS Data Explorer page for \code{letters}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 0 \tab 1 - 2 \tab 3 - 5 \tab 6 - 10 \tab 11 - 15 \tab 16-25 \tab 26-50 \tab 50+ \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1884 \tab 227 \tab 155 \tab 186 \tab 137 \tab 44 \tab 64 \tab 48 \tab 45 \tab 1 \tab 26 \tab 2817 \cr
+   2002 \tab 74 \tab 755 \tab 406 \tab 468 \tab 354 \tab 170 \tab 204 \tab 208 \tab 112 \tab 1 \tab 13 \tab 2765 \cr
+   2004 \tab 1873 \tab 282 \tab 154 \tab 174 \tab 105 \tab 42 \tab 70 \tab 58 \tab 41 \tab 1 \tab 12 \tab 2812 \cr
+   Total \tab 3831 \tab 1264 \tab 715 \tab 828 \tab 596 \tab 256 \tab 338 \tab 314 \tab 198 \tab 3 \tab 51 \tab 8394 \cr
+}
 }
 
 \seealso{

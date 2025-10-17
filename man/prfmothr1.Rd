@@ -34,15 +34,21 @@ Question Thinking about the most recent performance you wanted to attend but did
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6646/vshow}{GSS Data Explorer page for \code{prfmothr1}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab work conflict \tab ill, too tired \tab no childcare \tab sold out \tab forgot, didn't act in time \tab away, other conflict \tab taking care of family member \tab some other reason not shown \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2773 \tab 6 \tab 23 \tab 8 \tab 17 \tab 9 \tab 5 \tab 2 \tab 15 \tab 1 \tab 8 \tab 2867 \cr
+   Total \tab 2773 \tab 6 \tab 23 \tab 8 \tab 17 \tab 9 \tab 5 \tab 2 \tab 15 \tab 1 \tab 8 \tab 2867 \cr
+}
 }
 
 \keyword{variable}

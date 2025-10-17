@@ -25,17 +25,23 @@ E. All man-made chemicals can cause cancer if you eat enough of them.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4745/vshow}{GSS Data Explorer page for \code{scitest5}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 124 \tab 598 \tab 444 \tab 197 \tab 111 \tab 83 \tab 1606 \cr
+   1994 \tab 1606 \tab 127 \tab 504 \tab 414 \tab 183 \tab 119 \tab 39 \tab 2992 \cr
+   2000 \tab 1541 \tab 107 \tab 430 \tab 381 \tab 171 \tab 121 \tab 66 \tab 2817 \cr
+   Total \tab 3196 \tab 358 \tab 1532 \tab 1239 \tab 551 \tab 351 \tab 188 \tab 7415 \cr
+}
 }
 
 \seealso{

@@ -23,18 +23,24 @@ D. Ratio of Graduate to Undergraduate Students
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/72/vshow}{GSS Data Explorer page for \code{gradtounder}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab 0-.210 graduate student per undergraduate student \tab .211 or over \tab no answer \tab Total \cr
+   2012 \tab 1494 \tab 161 \tab 316 \tab 3 \tab 1974 \cr
+   2014 \tab 1898 \tab 230 \tab 406 \tab 4 \tab 2538 \cr
+   2016 \tab 2109 \tab 248 \tab 503 \tab 7 \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 7849 \tab 639 \tab 1225 \tab 14 \tab 9727 \cr
+}
 }
 
 \seealso{

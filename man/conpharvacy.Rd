@@ -25,16 +25,23 @@ Pharmaceutical companies working to create safe vaccines to protect the public a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2021 \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7579/vshow}{GSS Data Explorer page for \code{conpharvacy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab a great deal \tab only some \tab hardly any \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2658 \tab 599 \tab 448 \tab 145 \tab 169 \tab 13 \tab 4032 \cr
+   2022 \tab 2309 \tab 545 \tab 478 \tab 210 \tab - \tab 2 \tab 3544 \cr
+   Total \tab 4967 \tab 1144 \tab 926 \tab 355 \tab 169 \tab 15 \tab 7576 \cr
+}
 }
 
 \seealso{

@@ -25,20 +25,26 @@ P. Conditions on my job allow me to be about as productive as I could be
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2789/vshow}{GSS Data Explorer page for \code{prodctiv}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 505 \tab 971 \tab 254 \tab 42 \tab 9 \tab 15 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 486 \tab 941 \tab 241 \tab 33 \tab 19 \tab 14 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 324 \tab 674 \tab 140 \tab 17 \tab 6 \tab 26 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 353 \tab 749 \tab 121 \tab 17 \tab 3 \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 337 \tab 908 \tab 154 \tab 14 \tab 4 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 1549 \tab 413 \tab 1199 \tab 280 \tab 52 \tab 14 \tab 12 \tab 25 \tab 3544 \cr
+   Total \tab 8339 \tab 2418 \tab 5442 \tab 1190 \tab 175 \tab 55 \tab 105 \tab 25 \tab 17749 \cr
+}
 }
 
 \seealso{

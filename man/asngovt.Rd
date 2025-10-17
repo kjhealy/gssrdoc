@@ -25,15 +25,21 @@ Question D. Asian-Americans?  Would you answer much more attention from governme
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1635/vshow}{GSS Data Explorer page for \code{asngovt}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab much more \tab more \tab about right \tab less \tab much less \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 105 \tab 238 \tab 595 \tab 310 \tab 73 \tab 144 \tab 9 \tab 2992 \cr
+   Total \tab 1518 \tab 105 \tab 238 \tab 595 \tab 310 \tab 73 \tab 144 \tab 9 \tab 2992 \cr
+}
 }
 
 \seealso{

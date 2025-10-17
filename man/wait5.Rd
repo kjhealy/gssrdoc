@@ -25,15 +25,21 @@ E. Accomplishing less than you would like with your work or other regular daily 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2703/vshow}{GSS Data Explorer page for \code{wait5}}.
+
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab iap \tab zero days \tab 1 \tab 10 \tab 12 \tab 14 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab some days \tab some weeks \tab some months \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1966 \tab 12 \tab 264 \tab 1 \tab 2 \tab 1 \tab 157 \tab 35 \tab 14 \tab 4 \tab 7 \tab 6 \tab 1 \tab 30 \tab 43 \tab 21 \tab 3 \tab 250 \tab 2817 \cr
+   Total \tab 1966 \tab 12 \tab 264 \tab 1 \tab 2 \tab 1 \tab 157 \tab 35 \tab 14 \tab 4 \tab 7 \tab 6 \tab 1 \tab 30 \tab 43 \tab 21 \tab 3 \tab 250 \tab 2817 \cr
+}
 }
 
 \seealso{

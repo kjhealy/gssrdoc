@@ -27,15 +27,21 @@ B. A high-placed government official leaked sensitive information to a newspaper
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5228/vshow}{GSS Data Explorer page for \code{leakinfo}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab reprimand \tab dismiss military \tab 1 year in prison \tab 5-9 yrs prison \tab 10-20 yrs prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 273 \tab 591 \tab 185 \tab 156 \tab 68 \tab 25 \tab 68 \tab 21 \tab 2832 \cr
+   Total \tab 1445 \tab 273 \tab 591 \tab 185 \tab 156 \tab 68 \tab 25 \tab 68 \tab 21 \tab 2832 \cr
+}
 }
 
 \seealso{

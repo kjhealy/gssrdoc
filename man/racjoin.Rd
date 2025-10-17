@@ -23,15 +23,21 @@ C. Joined an organization concerned with race relations?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/422/vshow}{GSS Data Explorer page for \code{racjoin}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1983 \tab 804 \tab 28 \tab 759 \tab 8 \tab 1599 \cr
+   Total \tab 804 \tab 28 \tab 759 \tab 8 \tab 1599 \cr
+}
 }
 
 \seealso{

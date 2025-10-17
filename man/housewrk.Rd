@@ -26,19 +26,27 @@ F. Being a housewife is just as fulfilling as working for pay.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 1988, 1994, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4348/vshow}{GSS Data Explorer page for \code{housewrk}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1988 \tab 67 \tab 225 \tab 498 \tab 314 \tab 221 \tab 86 \tab 43 \tab 27 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 235 \tab 539 \tab 303 \tab 232 \tab 69 \tab 50 \tab 19 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 326 \tab 378 \tab 235 \tab - \tab 183 \tab 45 \tab 4 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 184 \tab 531 \tab 214 \tab 238 \tab 57 \tab 69 \tab 9 \tab - \tab 1974 \cr
+   2022 \tab 2378 \tab 140 \tab 366 \tab 372 \tab 149 \tab 60 \tab 65 \tab 5 \tab 9 \tab 3544 \cr
+   Total \tab 6256 \tab 1110 \tab 2312 \tab 1438 \tab 840 \tab 455 \tab 272 \tab 64 \tab 9 \tab 12756 \cr
+}
 }
 
 \seealso{

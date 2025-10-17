@@ -30,16 +30,22 @@ Question Think about the person you knew best that has committed suicide. Please
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5026/vshow}{GSS Data Explorer page for \code{suiwho}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab son or daughter \tab other relative \tab friend \tab neighbor \tab co-worker \tab acquaintance \tab other \tab no answer \tab partner or lover \tab patient \tab Total \cr
+   1990 \tab 1238 \tab 1 \tab 18 \tab 45 \tab 9 \tab 10 \tab 43 \tab 6 \tab 2 \tab - \tab - \tab 1372 \cr
+   1991 \tab 1344 \tab - \tab 24 \tab 62 \tab 10 \tab 15 \tab 46 \tab 5 \tab 4 \tab 2 \tab 5 \tab 1517 \cr
+   Total \tab 2582 \tab 1 \tab 42 \tab 107 \tab 19 \tab 25 \tab 89 \tab 11 \tab 6 \tab 2 \tab 5 \tab 2889 \cr
+}
 }
 
 \seealso{

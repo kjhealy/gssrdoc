@@ -25,20 +25,26 @@ C. I get to do a number of different things on my job
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2776/vshow}{GSS Data Explorer page for \code{workdiff}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 750 \tab 836 \tab 158 \tab 32 \tab 7 \tab 13 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 726 \tab 780 \tab 188 \tab 21 \tab 7 \tab 12 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 478 \tab 563 \tab 101 \tab 20 \tab 2 \tab 23 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 434 \tab 679 \tab 113 \tab 16 \tab 3 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 497 \tab 761 \tab 134 \tab 22 \tab 2 \tab 32 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 713 \tab 1024 \tab 192 \tab 35 \tab 6 \tab 12 \tab 16 \tab 3544 \cr
+   Total \tab 8336 \tab 3598 \tab 4643 \tab 886 \tab 146 \tab 27 \tab 97 \tab 16 \tab 17749 \cr
+}
 }
 
 \seealso{

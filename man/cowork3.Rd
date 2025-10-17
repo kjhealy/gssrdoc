@@ -25,17 +25,24 @@ F3. Third Person is Co-Worker
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   Full \tab 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/902/vshow}{GSS Data Explorer page for \code{cowork3}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab don't know \tab Total \cr
+   1985 \tab 599 \tab 166 \tab 765 \tab 4 \tab - \tab 1534 \cr
+   1987 \tab 735 \tab 187 \tab 872 \tab 25 \tab - \tab 1819 \cr
+   2004 \tab 2240 \tab 84 \tab 440 \tab 47 \tab 1 \tab 2812 \cr
+   Total \tab 3574 \tab 437 \tab 2077 \tab 76 \tab 1 \tab 6165 \cr
+}
 }
 
 \seealso{

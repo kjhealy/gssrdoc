@@ -22,15 +22,21 @@ Question On a scale from 0 to 10, with 0 meaning no pain and 10 being the worst 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7171/vshow}{GSS Data Explorer page for \code{ratepain}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 0 - no pain \tab 1 \tab 10 - the worst imaginable pain \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2018 \tab - \tab 569 \tab 353 \tab 23 \tab 312 \tab 295 \tab 193 \tab 204 \tab 143 \tab 140 \tab 68 \tab 28 \tab 3 \tab 17 \tab 2348 \cr
+   Total \tab 0 \tab 569 \tab 353 \tab 23 \tab 312 \tab 295 \tab 193 \tab 204 \tab 143 \tab 140 \tab 68 \tab 28 \tab 3 \tab 17 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

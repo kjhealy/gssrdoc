@@ -26,17 +26,25 @@ B. Felt as though you were in touch with someone when they were far away  from y
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989 \cr
+   A/B/C \tab 1988 \cr
+   Full \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/317/vshow}{GSS Data Explorer page for \code{esp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab never in my life \tab once or twice \tab several times \tab often \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 480 \tab 411 \tab 412 \tab 136 \tab 15 \tab 19 \tab 1473 \cr
+   1988 \tab - \tab 512 \tab 515 \tab 313 \tab 116 \tab 20 \tab 5 \tab 1481 \cr
+   1989 \tab 531 \tab 415 \tab 299 \tab 212 \tab 66 \tab 11 \tab 3 \tab 1537 \cr
+   Total \tab 531 \tab 1407 \tab 1225 \tab 937 \tab 318 \tab 46 \tab 27 \tab 4491 \cr
+}
 }
 
 \seealso{

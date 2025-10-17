@@ -29,49 +29,55 @@ Question Were you living with both your own mother and father around the time yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   Full \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/86/vshow}{GSS Data Explorer page for \code{family16}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab both own mother and father \tab father and stepmother \tab mother and stepfather \tab father only \tab mother only \tab some other male relative (no female head) \tab some other female relative (no male head) \tab other arrangement with relatives (e.g., aunt and uncle, grandparents) \tab other \tab no answer \tab iap \tab don't know \tab skipped on web \tab Total \cr
+   1972 \tab 1198 \tab 27 \tab 52 \tab 35 \tab 173 \tab 10 \tab 25 \tab 93 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
+   1973 \tab 1174 \tab 31 \tab 43 \tab 46 \tab 123 \tab 6 \tab 14 \tab 41 \tab 24 \tab 2 \tab - \tab - \tab - \tab 1504 \cr
+   1974 \tab 1126 \tab 25 \tab 47 \tab 36 \tab 152 \tab 9 \tab 20 \tab 30 \tab 39 \tab - \tab - \tab - \tab - \tab 1484 \cr
+   1975 \tab 1140 \tab 34 \tab 82 \tab 24 \tab 124 \tab 4 \tab 21 \tab 36 \tab 25 \tab - \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 1139 \tab 29 \tab 45 \tab 40 \tab 162 \tab 3 \tab 17 \tab 33 \tab 28 \tab 3 \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 1133 \tab 28 \tab 76 \tab 44 \tab 172 \tab 4 \tab 14 \tab 35 \tab 22 \tab 2 \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 1157 \tab 21 \tab 57 \tab 34 \tab 172 \tab 5 \tab 21 \tab 36 \tab 28 \tab 1 \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab 1070 \tab 25 \tab 69 \tab 29 \tab 179 \tab 8 \tab 23 \tab 22 \tab 43 \tab - \tab - \tab - \tab - \tab 1468 \cr
+   1982 \tab 1334 \tab 34 \tab 70 \tab 48 \tab 246 \tab 5 \tab 35 \tab 47 \tab 37 \tab 4 \tab - \tab - \tab - \tab 1860 \cr
+   1983 \tab 1225 \tab 29 \tab 59 \tab 35 \tab 170 \tab 1 \tab 24 \tab 34 \tab 22 \tab - \tab - \tab - \tab - \tab 1599 \cr
+   1984 \tab 1100 \tab 22 \tab 73 \tab 33 \tab 151 \tab 6 \tab 24 \tab 31 \tab 32 \tab 1 \tab - \tab - \tab - \tab 1473 \cr
+   1985 \tab 1160 \tab 33 \tab 50 \tab 37 \tab 153 \tab 7 \tab 19 \tab 42 \tab 33 \tab - \tab - \tab - \tab - \tab 1534 \cr
+   1986 \tab 1082 \tab 19 \tab 72 \tab 25 \tab 180 \tab 4 \tab 19 \tab 35 \tab 34 \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab 1316 \tab 36 \tab 65 \tab 43 \tab 233 \tab 7 \tab 45 \tab 46 \tab 25 \tab 3 \tab - \tab - \tab - \tab 1819 \cr
+   1988 \tab 1072 \tab 27 \tab 92 \tab 36 \tab 171 \tab 1 \tab 18 \tab 36 \tab 28 \tab - \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 1153 \tab 17 \tab 60 \tab 38 \tab 172 \tab 3 \tab 25 \tab 23 \tab 45 \tab 1 \tab - \tab - \tab - \tab 1537 \cr
+   1990 \tab 992 \tab 20 \tab 74 \tab 25 \tab 170 \tab 7 \tab 21 \tab 29 \tab 33 \tab 1 \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 1102 \tab 36 \tab 68 \tab 37 \tab 176 \tab 8 \tab 29 \tab 23 \tab 38 \tab - \tab - \tab - \tab - \tab 1517 \cr
+   1993 \tab 1192 \tab 33 \tab 72 \tab 34 \tab 166 \tab 7 \tab 31 \tab 38 \tab 33 \tab - \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 2101 \tab 76 \tab 162 \tab 71 \tab 405 \tab 12 \tab 35 \tab 62 \tab 68 \tab - \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab 2012 \tab 79 \tab 135 \tab 70 \tab 407 \tab 3 \tab 42 \tab 71 \tab 82 \tab 3 \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab 1959 \tab 90 \tab 159 \tab 55 \tab 385 \tab 5 \tab 44 \tab 50 \tab 85 \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2000 \tab 1936 \tab 61 \tab 151 \tab 63 \tab 417 \tab 9 \tab 43 \tab 58 \tab 79 \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 1861 \tab 49 \tab 179 \tab 76 \tab 390 \tab 13 \tab 56 \tab 58 \tab 80 \tab 3 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 1967 \tab 48 \tab 148 \tab 68 \tab 388 \tab 5 \tab 33 \tab 61 \tab 93 \tab 1 \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 2085 \tab 54 \tab 189 \tab 75 \tab 404 \tab 6 \tab 41 \tab 49 \tab 88 \tab 1 \tab 1518 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1375 \tab 25 \tab 119 \tab 50 \tab 300 \tab 12 \tab 36 \tab 39 \tab 67 \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 1358 \tab 32 \tab 125 \tab 57 \tab 319 \tab 5 \tab 35 \tab 44 \tab 69 \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1303 \tab 39 \tab 129 \tab 53 \tab 294 \tab 5 \tab 39 \tab 47 \tab 65 \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 1672 \tab 43 \tab 160 \tab 62 \tab 410 \tab 12 \tab 44 \tab 59 \tab 76 \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 1845 \tab 40 \tab 170 \tab 80 \tab 489 \tab 10 \tab 41 \tab 70 \tab 120 \tab 2 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 1499 \tab 37 \tab 150 \tab 74 \tab 411 \tab 9 \tab 46 \tab 56 \tab 65 \tab 1 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 2910 \tab 83 \tab 230 \tab 97 \tab 522 \tab 9 \tab 40 \tab 60 \tab 76 \tab 3 \tab - \tab 1 \tab 1 \tab 4032 \cr
+   2022 \tab 2360 \tab 78 \tab 228 \tab 67 \tab 539 \tab 11 \tab 58 \tab 100 \tab 100 \tab 2 \tab - \tab - \tab 1 \tab 3544 \cr
+   Total \tab 50108 \tab 1360 \tab 3660 \tab 1697 \tab 9325 \tab 231 \tab 1078 \tab 1594 \tab 1782 \tab 34 \tab 1518 \tab 1 \tab 2 \tab 72390 \cr
+}
 }
 
 \seealso{

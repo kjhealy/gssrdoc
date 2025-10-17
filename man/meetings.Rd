@@ -29,17 +29,25 @@ D. Seeing them at meetings or events related to church, clubs, or other groups?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2547/vshow}{GSS Data Explorer page for \code{meetings}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 0 \tab 1 - 2 \tab 3 - 5 \tab 6 - 10 \tab 11 - 15 \tab 16-25 \tab 26-50 \tab 50+ \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1884 \tab 364 \tab 135 \tab 122 \tab 103 \tab 51 \tab 62 \tab 27 \tab 39 \tab 2 \tab 28 \tab 2817 \cr
+   2002 \tab 74 \tab 982 \tab 292 \tab 384 \tab 369 \tab 174 \tab 215 \tab 153 \tab 105 \tab 4 \tab 13 \tab 2765 \cr
+   2004 \tab 1873 \tab 428 \tab 100 \tab 127 \tab 110 \tab 46 \tab 55 \tab 31 \tab 28 \tab 2 \tab 12 \tab 2812 \cr
+   Total \tab 3831 \tab 1774 \tab 527 \tab 633 \tab 582 \tab 271 \tab 332 \tab 211 \tab 172 \tab 8 \tab 53 \tab 8394 \cr
+}
 }
 
 \seealso{

@@ -22,16 +22,22 @@ C. Go to a general medical doctor for help.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2023/vshow}{GSS Data Explorer page for \code{ormeddoc}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1858 \tab 177 \tab 243 \tab 240 \tab 115 \tab 83 \tab 48 \tab 18 \tab 5 \tab 1 \tab 4 \tab 112 \tab 2904 \cr
+   2006 \tab 3293 \tab 258 \tab 341 \tab 280 \tab 126 \tab 74 \tab 59 \tab 27 \tab 15 \tab 2 \tab - \tab 35 \tab 4510 \cr
+   Total \tab 5151 \tab 435 \tab 584 \tab 520 \tab 241 \tab 157 \tab 107 \tab 45 \tab 20 \tab 3 \tab 4 \tab 147 \tab 7414 \cr
+}
 }
 
 \seealso{

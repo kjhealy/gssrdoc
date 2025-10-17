@@ -24,15 +24,21 @@ Question How able is (NAME) to make decisions about managing (his/her) own money
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3761/vshow}{GSS Data Explorer page for \code{mhmoney}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very able \tab moderately able \tab not very able \tab not at all able \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 366 \tab 456 \tab 420 \tab 119 \tab 54 \tab 10 \tab 4510 \cr
+   Total \tab 3085 \tab 366 \tab 456 \tab 420 \tab 119 \tab 54 \tab 10 \tab 4510 \cr
+}
 }
 
 \seealso{

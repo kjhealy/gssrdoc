@@ -26,38 +26,45 @@ Question About how often do you pray?  USE CATEGORIES AS PROBES.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/- \tab partial \cr
-   1993 \tab A/B/- \tab partial \cr
-   1994 \tab A/B/- \tab partial \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989, 1990, 1993, 1994, 1996 \cr
+   A/B/C \tab 1988, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   Full \tab 1983, 1984, 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/315/vshow}{GSS Data Explorer page for \code{pray}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab several times a day \tab once a day \tab several times a week \tab once a week \tab less than once a week \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1983 \tab - \tab 387 \tab 474 \tab 204 \tab 122 \tab 325 \tab 61 \tab 6 \tab 20 \tab - \tab 1599 \cr
+   1984 \tab - \tab 409 \tab 421 \tab 201 \tab 104 \tab 292 \tab 20 \tab 2 \tab 24 \tab - \tab 1473 \cr
+   1985 \tab - \tab 410 \tab 468 \tab 190 \tab 112 \tab 311 \tab 19 \tab - \tab 24 \tab - \tab 1534 \cr
+   1987 \tab - \tab 484 \tab 587 \tab 248 \tab 137 \tab 324 \tab 9 \tab - \tab 30 \tab - \tab 1819 \cr
+   1988 \tab - \tab 346 \tab 450 \tab 229 \tab 113 \tab 326 \tab 4 \tab 5 \tab 8 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 230 \tab 294 \tab 150 \tab 66 \tab 248 \tab 6 \tab - \tab 12 \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 210 \tab 261 \tab 124 \tab 77 \tab 229 \tab - \tab 2 \tab 25 \tab - \tab 1372 \cr
+   1993 \tab 526 \tab 281 \tab 311 \tab 143 \tab 81 \tab 224 \tab 16 \tab - \tab 24 \tab - \tab 1606 \cr
+   1994 \tab 1015 \tab 454 \tab 640 \tab 226 \tab 167 \tab 440 \tab 26 \tab 3 \tab 21 \tab - \tab 2992 \cr
+   1996 \tab 1914 \tab 256 \tab 312 \tab 134 \tab 79 \tab 178 \tab 25 \tab 1 \tab 5 \tab - \tab 2904 \cr
+   1998 \tab 1387 \tab 355 \tab 426 \tab 202 \tab 108 \tab 313 \tab 24 \tab 3 \tab 14 \tab - \tab 2832 \cr
+   2000 \tab 1419 \tab 376 \tab 402 \tab 196 \tab 90 \tab 309 \tab 12 \tab 1 \tab 12 \tab - \tab 2817 \cr
+   2002 \tab 1393 \tab 348 \tab 424 \tab 154 \tab 117 \tab 302 \tab 7 \tab 10 \tab 10 \tab - \tab 2765 \cr
+   2004 \tab 1472 \tab 416 \tab 369 \tab 189 \tab 77 \tab 144 \tab 137 \tab 4 \tab 4 \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 926 \tab 863 \tab 332 \tab 192 \tab 342 \tab 316 \tab 11 \tab 10 \tab - \tab 4510 \cr
+   2008 \tab - \tab 576 \tab 596 \tab 223 \tab 116 \tab 256 \tab 235 \tab 11 \tab 10 \tab - \tab 2023 \cr
+   2010 \tab - \tab 587 \tab 592 \tab 240 \tab 118 \tab 222 \tab 264 \tab 12 \tab 9 \tab - \tab 2044 \cr
+   2012 \tab - \tab 574 \tab 592 \tab 199 \tab 130 \tab 199 \tab 261 \tab 9 \tab 10 \tab - \tab 1974 \cr
+   2014 \tab - \tab 708 \tab 763 \tab 258 \tab 153 \tab 263 \tab 374 \tab 7 \tab 12 \tab - \tab 2538 \cr
+   2016 \tab - \tab 857 \tab 827 \tab 302 \tab 171 \tab 257 \tab 424 \tab 9 \tab 20 \tab - \tab 2867 \cr
+   2018 \tab - \tab 691 \tab 674 \tab 215 \tab 144 \tab 251 \tab 358 \tab 5 \tab 10 \tab - \tab 2348 \cr
+   2021 \tab - \tab 1139 \tab 656 \tab 542 \tab 175 \tab 560 \tab 883 \tab 2 \tab 41 \tab 34 \tab 4032 \cr
+   2022 \tab - \tab 1035 \tab 681 \tab 412 \tab 189 \tab 453 \tab 731 \tab 12 \tab 17 \tab 14 \tab 3544 \cr
+   Total \tab 11619 \tab 12055 \tab 12083 \tab 5313 \tab 2838 \tab 6768 \tab 4212 \tab 115 \tab 372 \tab 48 \tab 55423 \cr
+}
 }
 
 \seealso{

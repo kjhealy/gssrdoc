@@ -25,17 +25,23 @@ Question What was your mother''s religious preference when you were growing up? 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1058/vshow}{GSS Data Explorer page for \code{marelig}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab no answer \tab don't know \tab Total \cr
+   1988 \tab 48 \tab 910 \tab 400 \tab 32 \tab 50 \tab 36 \tab 5 \tab - \tab 1481 \cr
+   2008 \tab 1969 \tab 10 \tab - \tab 38 \tab 5 \tab - \tab - \tab 1 \tab 2023 \cr
+   2012 \tab 1931 \tab 6 \tab 5 \tab 28 \tab 3 \tab 1 \tab - \tab - \tab 1974 \cr
+   Total \tab 3948 \tab 926 \tab 405 \tab 98 \tab 58 \tab 37 \tab 5 \tab 1 \tab 5478 \cr
+}
 }
 
 \seealso{

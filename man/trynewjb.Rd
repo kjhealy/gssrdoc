@@ -23,22 +23,28 @@ Question Taking everything into consideration, how likely is it you will make a 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2006, 2010, 2012, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2820/vshow}{GSS Data Explorer page for \code{trynewjb}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not at all likely \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 330 \tab 355 \tab 1085 \tab 12 \tab 14 \tab - \tab 2765 \cr
+   2004 \tab 945 \tab 301 \tab 375 \tab 1152 \tab 4 \tab 35 \tab - \tab 2812 \cr
+   2006 \tab 2776 \tab 283 \tab 362 \tab 1058 \tab 18 \tab 13 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 222 \tab 256 \tab 680 \tab 5 \tab 24 \tab - \tab 2044 \cr
+   2012 \tab 795 \tab 214 \tab 215 \tab 713 \tab 7 \tab 30 \tab - \tab 1974 \cr
+   2014 \tab 1288 \tab 214 \tab 254 \tab 776 \tab 1 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 246 \tab 353 \tab 814 \tab 3 \tab 32 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 300 \tab 446 \tab 1192 \tab 12 \tab 18 \tab 21 \tab 3544 \cr
+   Total \tab 10085 \tab 2110 \tab 2616 \tab 7470 \tab 62 \tab 171 \tab 21 \tab 22535 \cr
+}
 }
 
 \seealso{

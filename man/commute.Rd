@@ -29,15 +29,21 @@ G. About how much time (does/did) it usually take you to travel to work - about 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/11/vshow}{GSS Data Explorer page for \code{commute}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 2 \tab 20 \tab 22 \tab 24 \tab 25 \tab 28 \tab 3 \tab 30 \tab 32 \tab 35 \tab 4 \tab 40 \tab 43 \tab 45 \tab 46 \tab 5 \tab 50 \tab 55 \tab 6 \tab 60 \tab 7 \tab 70 \tab 75 \tab 8 \tab 9 \tab 90 \tab 97+ minutes \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 100 \tab 54 \tab 14 \tab 190 \tab 1 \tab 16 \tab 1 \tab 2 \tab 203 \tab 1 \tab 3 \tab 34 \tab 180 \tab 2 \tab 1 \tab 60 \tab 1 \tab 23 \tab 155 \tab 2 \tab 30 \tab 6 \tab 22 \tab 1 \tab 63 \tab 1 \tab 153 \tab 5 \tab 3 \tab 2 \tab 55 \tab 13 \tab 4 \tab 4 \tab 8 \tab 1 \tab 8 \tab 8 \tab 8 \tab 32 \tab 1470 \cr
+   Total \tab 100 \tab 54 \tab 14 \tab 190 \tab 1 \tab 16 \tab 1 \tab 2 \tab 203 \tab 1 \tab 3 \tab 34 \tab 180 \tab 2 \tab 1 \tab 60 \tab 1 \tab 23 \tab 155 \tab 2 \tab 30 \tab 6 \tab 22 \tab 1 \tab 63 \tab 1 \tab 153 \tab 5 \tab 3 \tab 2 \tab 55 \tab 13 \tab 4 \tab 4 \tab 8 \tab 1 \tab 8 \tab 8 \tab 8 \tab 32 \tab 1470 \cr
+}
 }
 
 \seealso{

@@ -23,20 +23,29 @@ Question Agricultural and farm issues. (Are you very interested, moderately inte
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3453/vshow}{GSS Data Explorer page for \code{intfarm}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very interested \tab moderately interested \tab not at all interested \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 518 \tab 369 \tab 770 \tab 359 \tab 6 \tab 1 \tab 2023 \cr
+   2010 \tab 1334 \tab 182 \tab 389 \tab 131 \tab 2 \tab 6 \tab 2044 \cr
+   2012 \tab 972 \tab 236 \tab 493 \tab 262 \tab 7 \tab 4 \tab 1974 \cr
+   2014 \tab 1299 \tab 279 \tab 608 \tab 350 \tab 1 \tab 1 \tab 2538 \cr
+   2016 \tab 1477 \tab 302 \tab 657 \tab 424 \tab 3 \tab 4 \tab 2867 \cr
+   2018 \tab 1173 \tab 237 \tab 573 \tab 365 \tab - \tab - \tab 2348 \cr
+   Total \tab 6773 \tab 1605 \tab 3490 \tab 1891 \tab 19 \tab 16 \tab 13794 \cr
+}
 }
 
 \seealso{

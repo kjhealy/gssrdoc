@@ -26,48 +26,56 @@ Question C. SRC (SURVEY RESEARCH CENTER, UNIVERSITY OF MICHIGAN) NEW BELT CODE
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/-/- \tab full \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/121/vshow}{GSS Data Explorer page for \code{srcbelt}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab central city of 12 largest smsas \tab central city of the remainder of the 100 largest smsas \tab suburbs of 12 largest smsas \tab suburbs of the remaining 100 largest smsas \tab other urban (counties having towns of 10,000 or more) \tab other rural (counties having no towns of 10,000 or more) \tab iap \tab Total \cr
+   1972 \tab 213 \tab 299 \tab 218 \tab 143 \tab 473 \tab 267 \tab - \tab 1613 \cr
+   1973 \tab 173 \tab 236 \tab 134 \tab 194 \tab 508 \tab 259 \tab - \tab 1504 \cr
+   1974 \tab 169 \tab 223 \tab 132 \tab 190 \tab 508 \tab 262 \tab - \tab 1484 \cr
+   1975 \tab 157 \tab 225 \tab 116 \tab 158 \tab 579 \tab 255 \tab - \tab 1490 \cr
+   1976 \tab 160 \tab 186 \tab 134 \tab 167 \tab 562 \tab 290 \tab - \tab 1499 \cr
+   1977 \tab 134 \tab 214 \tab 111 \tab 190 \tab 608 \tab 273 \tab - \tab 1530 \cr
+   1978 \tab 106 \tab 228 \tab 181 \tab 174 \tab 551 \tab 292 \tab - \tab 1532 \cr
+   1980 \tab 123 \tab 219 \tab 129 \tab 166 \tab 578 \tab 253 \tab - \tab 1468 \cr
+   1982 \tab 230 \tab 298 \tab 150 \tab 157 \tab 717 \tab 308 \tab - \tab 1860 \cr
+   1983 \tab 124 \tab 160 \tab 206 \tab 210 \tab 686 \tab 213 \tab - \tab 1599 \cr
+   1984 \tab 128 \tab 211 \tab 165 \tab 285 \tab 499 \tab 185 \tab - \tab 1473 \cr
+   1985 \tab 127 \tab 142 \tab 162 \tab 275 \tab 554 \tab 274 \tab - \tab 1534 \cr
+   1986 \tab 117 \tab 186 \tab 168 \tab 296 \tab 486 \tab 217 \tab - \tab 1470 \cr
+   1987 \tab 201 \tab 271 \tab 164 \tab 336 \tab 646 \tab 201 \tab - \tab 1819 \cr
+   1988 \tab 115 \tab 170 \tab 174 \tab 309 \tab 547 \tab 166 \tab - \tab 1481 \cr
+   1989 \tab 107 \tab 210 \tab 165 \tab 242 \tab 599 \tab 214 \tab - \tab 1537 \cr
+   1990 \tab 106 \tab 170 \tab 165 \tab 239 \tab 496 \tab 196 \tab - \tab 1372 \cr
+   1991 \tab 131 \tab 185 \tab 170 \tab 224 \tab 610 \tab 197 \tab - \tab 1517 \cr
+   1993 \tab 110 \tab 237 \tab 220 \tab 247 \tab 609 \tab 183 \tab - \tab 1606 \cr
+   1994 \tab 257 \tab 509 \tab 333 \tab 448 \tab 1181 \tab 264 \tab - \tab 2992 \cr
+   1996 \tab 233 \tab 483 \tab 309 \tab 411 \tab 1189 \tab 279 \tab - \tab 2904 \cr
+   1998 \tab 249 \tab 475 \tab 305 \tab 410 \tab 1110 \tab 283 \tab - \tab 2832 \cr
+   2000 \tab 235 \tab 449 \tab 334 \tab 351 \tab 1152 \tab 296 \tab - \tab 2817 \cr
+   2002 \tab 213 \tab 411 \tab 333 \tab 376 \tab 1146 \tab 286 \tab - \tab 2765 \cr
+   2004 \tab 197 \tab 284 \tab 414 \tab 375 \tab 1180 \tab 362 \tab - \tab 2812 \cr
+   2006 \tab 374 \tab 463 \tab 593 \tab 706 \tab 1804 \tab 570 \tab - \tab 4510 \cr
+   2008 \tab 176 \tab 221 \tab 217 \tab 355 \tab 805 \tab 249 \tab - \tab 2023 \cr
+   2010 \tab 180 \tab 258 \tab 226 \tab 335 \tab 819 \tab 226 \tab - \tab 2044 \cr
+   2012 \tab 187 \tab 258 \tab 256 \tab 366 \tab 650 \tab 257 \tab - \tab 1974 \cr
+   2014 \tab 279 \tab 357 \tab 358 \tab 473 \tab 780 \tab 291 \tab - \tab 2538 \cr
+   2016 \tab 261 \tab 432 \tab 371 \tab 540 \tab 951 \tab 312 \tab - \tab 2867 \cr
+   2018 \tab 233 \tab 345 \tab 332 \tab 438 \tab 741 \tab 259 \tab - \tab 2348 \cr
+   2021 \tab 333 \tab 650 \tab 553 \tab 784 \tab 1293 \tab 419 \tab - \tab 4032 \cr
+   2022 \tab 420 \tab 541 \tab 512 \tab 634 \tab 1023 \tab 356 \tab 58 \tab 3544 \cr
+   Total \tab 6558 \tab 10206 \tab 8510 \tab 11204 \tab 26640 \tab 9214 \tab 58 \tab 72390 \cr
+}
 }
 
 \seealso{

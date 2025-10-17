@@ -25,15 +25,21 @@ Question To what degree was your neighborhood affected by extreme weather over t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7503/vshow}{GSS Data Explorer page for \code{exweathr}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab not at all \tab to a small extent \tab to some extent \tab to a great extent \tab to a very great extent \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2003 \tab 301 \tab 554 \tab 591 \tab 212 \tab 98 \tab 64 \tab 201 \tab 8 \tab 4032 \cr
+   Total \tab 2003 \tab 301 \tab 554 \tab 591 \tab 212 \tab 98 \tab 64 \tab 201 \tab 8 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

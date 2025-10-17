@@ -26,30 +26,36 @@ B. Does (s/he) consider (her/himself) Orthodox, Conservative, Reform or none of 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/352/vshow}{GSS Data Explorer page for \code{spjew}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab orthodox \tab conservative \tab reform \tab none of these \tab no answer \tab don't know \tab other \tab Total \cr
+   1988 \tab 1466 \tab 1 \tab 9 \tab 5 \tab - \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 1519 \tab - \tab 3 \tab 6 \tab 1 \tab 8 \tab - \tab - \tab 1537 \cr
+   1990 \tab 1350 \tab 1 \tab 5 \tab 7 \tab 3 \tab 5 \tab 1 \tab - \tab 1372 \cr
+   1991 \tab 1499 \tab - \tab 5 \tab 7 \tab 3 \tab 3 \tab - \tab - \tab 1517 \cr
+   1993 \tab 1583 \tab - \tab 5 \tab 12 \tab 5 \tab 1 \tab - \tab - \tab 1606 \cr
+   1994 \tab 2966 \tab 1 \tab 1 \tab 4 \tab 1 \tab 19 \tab - \tab - \tab 2992 \cr
+   2004 \tab 2795 \tab - \tab 3 \tab 6 \tab 2 \tab 6 \tab - \tab - \tab 2812 \cr
+   2006 \tab 4477 \tab 5 \tab 9 \tab 12 \tab 6 \tab 1 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1992 \tab 4 \tab 7 \tab 6 \tab 4 \tab 9 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab 2020 \tab 1 \tab 8 \tab 11 \tab 3 \tab 1 \tab - \tab - \tab 2044 \cr
+   2012 \tab 1954 \tab 1 \tab 3 \tab 11 \tab 2 \tab 2 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 2509 \tab 2 \tab 2 \tab 7 \tab 5 \tab 12 \tab - \tab 1 \tab 2538 \cr
+   2016 \tab 2835 \tab 1 \tab 7 \tab 7 \tab 9 \tab 7 \tab - \tab 1 \tab 2867 \cr
+   2018 \tab 2325 \tab 3 \tab 4 \tab 8 \tab 4 \tab 3 \tab - \tab 1 \tab 2348 \cr
+   2021 \tab 4002 \tab 1 \tab 4 \tab 15 \tab 7 \tab 3 \tab - \tab - \tab 4032 \cr
+   2022 \tab 3493 \tab 7 \tab 5 \tab 9 \tab 7 \tab 22 \tab - \tab 1 \tab 3544 \cr
+   Total \tab 38785 \tab 28 \tab 80 \tab 133 \tab 62 \tab 102 \tab 3 \tab 4 \tab 39197 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ B. Second, the younger generation should be taught to think for themselves even 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1980 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/520/vshow}{GSS Data Explorer page for \code{youngen}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab what elders think \tab think for selves \tab don't know \tab no answer \tab Total \cr
+   1980 \tab - \tab 658 \tab 797 \tab 6 \tab 7 \tab 1468 \cr
+   Total \tab 0 \tab 658 \tab 797 \tab 6 \tab 7 \tab 1468 \cr
+}
 }
 
 \seealso{

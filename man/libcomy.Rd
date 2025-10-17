@@ -23,16 +23,22 @@ Suppose this person wrote a book which is in your public library. Somebody in yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7440/vshow}{GSS Data Explorer page for \code{libcomy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab remove \tab not remove \tab don't know \tab skipped on web \tab no answer \tab Total \cr
+   2021 \tab 2675 \tab 298 \tab 1039 \tab 3 \tab 17 \tab - \tab 4032 \cr
+   2022 \tab 2367 \tab 317 \tab 824 \tab 29 \tab 4 \tab 3 \tab 3544 \cr
+   Total \tab 5042 \tab 615 \tab 1863 \tab 32 \tab 21 \tab 3 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

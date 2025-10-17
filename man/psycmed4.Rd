@@ -26,16 +26,22 @@ D. Taking these medications helps people deal with day-to-day stresses.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2171/vshow}{GSS Data Explorer page for \code{psycmed4}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 159 \tab 847 \tab 192 \tab 66 \tab 15 \tab 103 \tab 5 \tab 2832 \cr
+   2006 \tab 3073 \tab 229 \tab 912 \tab 152 \tab 60 \tab 13 \tab 57 \tab 14 \tab 4510 \cr
+   Total \tab 4518 \tab 388 \tab 1759 \tab 344 \tab 126 \tab 28 \tab 160 \tab 19 \tab 7342 \cr
+}
 }
 
 \seealso{

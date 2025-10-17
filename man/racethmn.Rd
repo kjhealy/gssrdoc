@@ -28,15 +28,21 @@ Question In describing our background, we often ask someone which racial or ethn
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6649/vshow}{GSS Data Explorer page for \code{racethmn}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab european \tab hispanic \tab african \tab east asian \tab south asian \tab asian, not south or east \tab other \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1888 \tab 22 \tab 2 \tab 1 \tab 6 \tab 5 \tab 2 \tab 12 \tab 2 \tab 927 \tab 2867 \cr
+   Total \tab 1888 \tab 22 \tab 2 \tab 1 \tab 6 \tab 5 \tab 2 \tab 12 \tab 2 \tab 927 \tab 2867 \cr
+}
 }
 
 \keyword{variable}

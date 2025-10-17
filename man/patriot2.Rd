@@ -26,15 +26,21 @@ B. Lead to intolerance in America
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4904/vshow}{GSS Data Explorer page for \code{patriot2}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
+   2014 \tab 1264 \tab 86 \tab 443 \tab 311 \tab 275 \tab 49 \tab 106 \tab 4 \tab 2538 \cr
+   Total \tab 1264 \tab 86 \tab 443 \tab 311 \tab 275 \tab 49 \tab 106 \tab 4 \tab 2538 \cr
+}
 }
 
 \seealso{

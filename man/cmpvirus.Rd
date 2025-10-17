@@ -23,15 +23,21 @@ E. Do you know what a computer virus is?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2515/vshow}{GSS Data Explorer page for \code{cmpvirus}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2075 \tab 632 \tab 30 \tab 80 \tab 2817 \cr
+   Total \tab 2075 \tab 632 \tab 30 \tab 80 \tab 2817 \cr
+}
 }
 
 \seealso{

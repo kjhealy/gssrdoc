@@ -23,15 +23,21 @@ B1. Legal immigrants?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1638/vshow}{GSS Data Explorer page for \code{workimm}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1 - hard-working \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 - lazy \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 82 \tab 197 \tab 323 \tab 487 \tab 153 \tab 58 \tab 24 \tab 131 \tab 19 \tab 2992 \cr
+   Total \tab 1518 \tab 82 \tab 197 \tab 323 \tab 487 \tab 153 \tab 58 \tab 24 \tab 131 \tab 19 \tab 2992 \cr
+}
 }
 
 \seealso{

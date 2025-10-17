@@ -22,15 +22,21 @@ Question What is the name of the head of the local school system? (CORRECT ANSWE
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1037/vshow}{GSS Data Explorer page for \code{schlhead}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab correct \tab incorrect \tab don't know \tab no answer \tab Total \cr
+   1987 \tab - \tab 557 \tab 66 \tab 1162 \tab 34 \tab 1819 \cr
+   Total \tab 0 \tab 557 \tab 66 \tab 1162 \tab 34 \tab 1819 \cr
+}
 }
 
 \seealso{

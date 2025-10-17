@@ -23,31 +23,37 @@ Question Now I have some questions about different groups in our society. I'm go
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/- \tab partial \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1996, 1998, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C \tab 1990, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1180/vshow}{GSS Data Explorer page for \code{wlthblks}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 1 - rich \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 - poor \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1990 \tab - \tab 3 \tab 19 \tab 40 \tab 275 \tab 491 \tab 365 \tab 108 \tab 54 \tab 17 \tab - \tab 1372 \cr
+   1994 \tab 1518 \tab 5 \tab 18 \tab 46 \tab 298 \tab 603 \tab 360 \tab 92 \tab 39 \tab 13 \tab - \tab 2992 \cr
+   1996 \tab 1935 \tab 3 \tab 24 \tab 60 \tab 220 \tab 363 \tab 216 \tab 40 \tab 38 \tab 5 \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 12 \tab 37 \tab 123 \tab 436 \tab 721 \tab 402 \tab 54 \tab 77 \tab 9 \tab - \tab 2832 \cr
+   2000 \tab 486 \tab 7 \tab 32 \tab 145 \tab 593 \tab 862 \tab 480 \tab 112 \tab 76 \tab 24 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 7 \tab 8 \tab 59 \tab 250 \tab 344 \tab 183 \tab 38 \tab 16 \tab 3 \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 1 \tab 9 \tab 59 \tab 235 \tab 383 \tab 171 \tab 27 \tab 18 \tab 3 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 6 \tab 21 \tab 111 \tab 498 \tab 799 \tab 407 \tab 93 \tab 48 \tab 9 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 2 \tab 27 \tab 83 \tab 362 \tab 543 \tab 223 \tab 54 \tab 28 \tab 7 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 9 \tab 16 \tab 88 \tab 423 \tab 549 \tab 240 \tab 59 \tab 35 \tab 11 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 2 \tab 22 \tab 76 \tab 385 \tab 523 \tab 222 \tab 40 \tab 23 \tab 9 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 6 \tab 27 \tab 99 \tab 515 \tab 657 \tab 283 \tab 54 \tab 27 \tab 7 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 9 \tab 20 \tab 95 \tab 627 \tab 712 \tab 332 \tab 61 \tab 22 \tab 10 \tab - \tab 2867 \cr
+   2018 \tab 1170 \tab 3 \tab 12 \tab 64 \tab 385 \tab 456 \tab 193 \tab 41 \tab 16 \tab 8 \tab - \tab 2348 \cr
+   2021 \tab 2689 \tab 6 \tab 9 \tab 59 \tab 404 \tab 559 \tab 233 \tab 64 \tab 2 \tab 1 \tab 6 \tab 4032 \cr
+   2022 \tab 2339 \tab 6 \tab 21 \tab 46 \tab 427 \tab 446 \tab 187 \tab 45 \tab 17 \tab 9 \tab 1 \tab 3544 \cr
+   Total \tab 21201 \tab 87 \tab 322 \tab 1253 \tab 6333 \tab 9011 \tab 4497 \tab 982 \tab 536 \tab 145 \tab 7 \tab 44374 \cr
+}
 }
 
 \seealso{

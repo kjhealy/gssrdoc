@@ -24,26 +24,34 @@ HAND SCALE AND PENCIL TO RESPONDENT. LET RESPONDENT MARK SCALE. Be sure that the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2004, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1983, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/570/vshow}{GSS Data Explorer page for \code{rank}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 1 - top \tab 10 - bottom \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1983 \tab 804 \tab 65 \tab 15 \tab 50 \tab 112 \tab 98 \tab 241 \tab 78 \tab 60 \tab 39 \tab 9 \tab 17 \tab 11 \tab - \tab 1599 \cr
+   1987 \tab 255 \tab 47 \tab 48 \tab 36 \tab 170 \tab 230 \tab 460 \tab 230 \tab 149 \tab 95 \tab 32 \tab - \tab 67 \tab - \tab 1819 \cr
+   2000 \tab 1545 \tab 33 \tab 18 \tab 33 \tab 117 \tab 174 \tab 352 \tab 188 \tab 117 \tab 64 \tab 24 \tab 7 \tab 145 \tab - \tab 2817 \cr
+   2004 \tab 1596 \tab 115 \tab 11 \tab 66 \tab 180 \tab 165 \tab 424 \tab 109 \tab 56 \tab 35 \tab 15 \tab 22 \tab 18 \tab - \tab 2812 \cr
+   2006 \tab 2992 \tab 101 \tab 25 \tab 95 \tab 247 \tab 204 \tab 517 \tab 125 \tab 92 \tab 55 \tab 10 \tab 43 \tab 4 \tab - \tab 4510 \cr
+   2010 \tab - \tab 114 \tab 25 \tab 72 \tab 257 \tab 290 \tab 735 \tab 213 \tab 157 \tab 70 \tab 20 \tab 65 \tab 26 \tab - \tab 2044 \cr
+   2012 \tab - \tab 113 \tab 31 \tab 68 \tab 236 \tab 240 \tab 714 \tab 221 \tab 151 \tab 80 \tab 16 \tab 72 \tab 32 \tab - \tab 1974 \cr
+   2014 \tab - \tab 156 \tab 39 \tab 85 \tab 297 \tab 367 \tab 930 \tab 253 \tab 194 \tab 105 \tab 20 \tab 71 \tab 21 \tab - \tab 2538 \cr
+   2016 \tab - \tab 163 \tab 45 \tab 102 \tab 366 \tab 421 \tab 1000 \tab 284 \tab 227 \tab 130 \tab 50 \tab 48 \tab 31 \tab - \tab 2867 \cr
+   2018 \tab - \tab 131 \tab 41 \tab 88 \tab 292 \tab 338 \tab 817 \tab 246 \tab 199 \tab 83 \tab 25 \tab 61 \tab 27 \tab - \tab 2348 \cr
+   2021 \tab 2031 \tab 76 \tab 30 \tab 89 \tab 361 \tab 365 \tab 685 \tab 142 \tab 134 \tab 64 \tab 20 \tab 3 \tab 2 \tab 30 \tab 4032 \cr
+   2022 \tab 1755 \tab 109 \tab 38 \tab 61 \tab 238 \tab 286 \tab 604 \tab 165 \tab 132 \tab 76 \tab 16 \tab 42 \tab 9 \tab 13 \tab 3544 \cr
+   Total \tab 10978 \tab 1223 \tab 366 \tab 845 \tab 2873 \tab 3178 \tab 7479 \tab 2254 \tab 1668 \tab 896 \tab 257 \tab 451 \tab 393 \tab 43 \tab 32904 \cr
+}
 }
 
 \seealso{

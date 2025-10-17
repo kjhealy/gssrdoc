@@ -27,16 +27,22 @@ B. Second problem mentioned.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab C \tab partial \cr
-   2004 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 1991, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5133/vshow}{GSS Data Explorer page for \code{prob2}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 101 \tab 102 \tab 103 \tab 120 \tab 130 \tab 131 \tab 140 \tab 15 \tab 150 \tab 151 \tab 16 \tab 160 \tab 175 \tab 180 \tab 2 \tab 20 \tab 200 \tab 201 \tab 202 \tab 21 \tab 210 \tab 211 \tab 22 \tab 220 \tab 23 \tab 230 \tab 235 \tab 237 \tab 24 \tab 240 \tab 26 \tab 28 \tab 30 \tab 31 \tab 40 \tab 41 \tab 43 \tab 44 \tab 45 \tab 47 \tab 55 \tab 61 \tab 65 \tab 70 \tab 72 \tab 73 \tab 74 \tab 81 \tab 83 \tab 84 \tab 86 \tab 92 \tab 95 \tab 96 \tab cant understand answer \tab 11 \tab 115 \tab 133 \tab 191 \tab 192 \tab 29 \tab 46 \tab 50 \tab 75 \tab 80 \tab 85 \tab 91 \tab 94 \tab Total \cr
+   1991 \tab 1356 \tab 11 \tab 4 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 2 \tab 3 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 17 \tab 9 \tab 4 \tab 1 \tab 1 \tab 4 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 2 \tab 4 \tab 1 \tab 19 \tab 1 \tab 5 \tab 2 \tab 6 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 3 \tab 6 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   2004 \tab 2733 \tab 1 \tab 3 \tab - \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab 9 \tab 2 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 5 \tab - \tab 16 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab 1 \tab 1 \tab - \tab 1 \tab 4 \tab 2 \tab - \tab - \tab - \tab 1 \tab 2 \tab - \tab 1 \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2812 \cr
+   Total \tab 4089 \tab 12 \tab 7 \tab 1 \tab 2 \tab 4 \tab 4 \tab 2 \tab 3 \tab 4 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 26 \tab 11 \tab 5 \tab 2 \tab 1 \tab 4 \tab 3 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3 \tab 2 \tab 2 \tab 9 \tab 1 \tab 35 \tab 1 \tab 5 \tab 2 \tab 6 \tab 1 \tab 1 \tab 3 \tab 4 \tab 2 \tab 3 \tab 1 \tab 4 \tab 10 \tab 4 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4329 \cr
+}
 }
 
 \seealso{

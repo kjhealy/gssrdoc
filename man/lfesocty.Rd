@@ -25,15 +25,21 @@ C. Society gives some people a head start and holds others back.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1384/vshow}{GSS Data Explorer page for \code{lfesocty}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 213 \tab 598 \tab 524 \tab 215 \tab 44 \tab 12 \tab 1606 \cr
+   Total \tab 0 \tab 213 \tab 598 \tab 524 \tab 215 \tab 44 \tab 12 \tab 1606 \cr
+}
 }
 
 \seealso{

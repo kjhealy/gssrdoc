@@ -23,15 +23,21 @@ Question Did you attend this performance alone, with one other person, or with t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6214/vshow}{GSS Data Explorer page for \code{prfmatt}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab alone \tab with one other person \tab with two or more other people \tab no answer \tab Total \cr
+   2016 \tab 2433 \tab 19 \tab 190 \tab 217 \tab 8 \tab 2867 \cr
+   Total \tab 2433 \tab 19 \tab 190 \tab 217 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

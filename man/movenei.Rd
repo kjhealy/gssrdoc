@@ -26,15 +26,21 @@ A. Move to another neighborhood (or village)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4821/vshow}{GSS Data Explorer page for \code{movenei}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 455 \tab 469 \tab 135 \tab 126 \tab 135 \tab 32 \tab 15 \tab 2904 \cr
+   Total \tab 1537 \tab 455 \tab 469 \tab 135 \tab 126 \tab 135 \tab 32 \tab 15 \tab 2904 \cr
+}
 }
 
 \seealso{

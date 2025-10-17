@@ -25,18 +25,26 @@ I. Provide decent housing for those who can't afford  it.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4084/vshow}{GSS Data Explorer page for \code{aidhouse}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
+   1990 \tab 155 \tab 236 \tab 588 \tab 231 \tab 66 \tab 57 \tab 39 \tab 1372 \cr
+   1996 \tab 1572 \tab 240 \tab 572 \tab 295 \tab 106 \tab 61 \tab 58 \tab 2904 \cr
+   2006 \tab 2992 \tab 494 \tab 647 \tab 280 \tab 70 \tab 26 \tab 1 \tab 4510 \cr
+   2016 \tab 1477 \tab 375 \tab 654 \tab 251 \tab 66 \tab 31 \tab 13 \tab 2867 \cr
+   Total \tab 6196 \tab 1345 \tab 2461 \tab 1057 \tab 308 \tab 175 \tab 111 \tab 11653 \cr
+}
 }
 
 \seealso{

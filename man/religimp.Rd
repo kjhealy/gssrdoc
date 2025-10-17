@@ -24,15 +24,21 @@ Question How important is religion in your life -- very important, somewhat impo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7525/vshow}{GSS Data Explorer page for \code{religimp}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 390 \tab 1124 \tab 923 \tab 668 \tab 894 \tab 2 \tab 1 \tab 30 \tab 4032 \cr
+   Total \tab 390 \tab 1124 \tab 923 \tab 668 \tab 894 \tab 2 \tab 1 \tab 30 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

@@ -24,17 +24,25 @@ E. Applied directly to employers?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4603/vshow}{GSS Data Explorer page for \code{appemps}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab no \tab yes, once or twice \tab yes, more than twice \tab no answer \tab Total \cr
+   1998 \tab 2460 \tab 248 \tab 39 \tab 19 \tab 66 \tab 2832 \cr
+   2006 \tab 4008 \tab 411 \tab 48 \tab 39 \tab 4 \tab 4510 \cr
+   2016 \tab 2533 \tab 208 \tab 50 \tab 53 \tab 23 \tab 2867 \cr
+   Total \tab 9001 \tab 867 \tab 137 \tab 111 \tab 93 \tab 10209 \cr
+}
 }
 
 \seealso{

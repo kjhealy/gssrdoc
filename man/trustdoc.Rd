@@ -27,15 +27,21 @@ B. I would trust my doctor.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2252/vshow}{GSS Data Explorer page for \code{trustdoc}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab completely \tab a great deal \tab somewhat \tab only a little \tab not at all \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 381 \tab 400 \tab 441 \tab 94 \tab 49 \tab 18 \tab 4 \tab 2832 \cr
+   Total \tab 1445 \tab 381 \tab 400 \tab 441 \tab 94 \tab 49 \tab 18 \tab 4 \tab 2832 \cr
+}
 }
 
 \seealso{

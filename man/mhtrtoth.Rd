@@ -22,15 +22,21 @@ Question Leaving yourself aside, have you personally ever known someone who has 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3565/vshow}{GSS Data Explorer page for \code{mhtrtoth}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3073 \tab 902 \tab 511 \tab 11 \tab 13 \tab 4510 \cr
+   Total \tab 3073 \tab 902 \tab 511 \tab 11 \tab 13 \tab 4510 \cr
+}
 }
 
 \seealso{

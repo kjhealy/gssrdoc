@@ -22,15 +22,21 @@ H. MOST IMPORTANT REASON FROM ABOVE.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1836/vshow}{GSS Data Explorer page for \code{lawyer1}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2736 \tab 40 \tab 51 \tab 17 \tab 33 \tab 4 \tab 10 \tab 3 \tab 1 \tab 9 \tab 2904 \cr
+   Total \tab 2736 \tab 40 \tab 51 \tab 17 \tab 33 \tab 4 \tab 10 \tab 3 \tab 1 \tab 9 \tab 2904 \cr
+}
 }
 
 \seealso{

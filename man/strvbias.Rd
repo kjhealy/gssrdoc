@@ -22,15 +22,21 @@ Question Favor strenghtening law and order vs. reducing bias in the criminal jus
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7575/vshow}{GSS Data Explorer page for \code{strvbias}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab strengthening law and order through more police and greater enforcement of the laws \tab reducing bias against minorities in the criminal justice system by reforming court and police practices \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2689 \tab 385 \tab 764 \tab 6 \tab 168 \tab 20 \tab 4032 \cr
+   Total \tab 2689 \tab 385 \tab 764 \tab 6 \tab 168 \tab 20 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

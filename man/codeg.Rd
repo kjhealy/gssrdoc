@@ -25,21 +25,26 @@ Question RESPONDENT'S PARTNER'S DEGREE
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6161/vshow}{GSS Data Explorer page for \code{codeg}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab less than high school \tab high school \tab associate/junior college \tab bachelor's \tab graduate \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 1806 \tab 36 \tab 80 \tab 10 \tab 28 \tab 7 \tab 6 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 2325 \tab 28 \tab 132 \tab 9 \tab 24 \tab 5 \tab 10 \tab 5 \tab - \tab 2538 \cr
+   2016 \tab 2603 \tab 36 \tab 154 \tab 20 \tab 34 \tab 15 \tab 5 \tab - \tab - \tab 2867 \cr
+   2018 \tab 2117 \tab 31 \tab 127 \tab 16 \tab 40 \tab 14 \tab 3 \tab - \tab - \tab 2348 \cr
+   2021 \tab 3660 \tab 48 \tab 182 \tab 27 \tab 68 \tab 36 \tab 8 \tab - \tab 3 \tab 4032 \cr
+   2022 \tab 3228 \tab 50 \tab 156 \tab 29 \tab 57 \tab 24 \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 15739 \tab 229 \tab 831 \tab 111 \tab 251 \tab 101 \tab 32 \tab 6 \tab 3 \tab 17303 \cr
+}
 }
 
 \seealso{

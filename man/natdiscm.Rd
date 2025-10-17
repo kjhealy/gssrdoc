@@ -22,15 +22,21 @@ Question B. Do you think it should or should not be the government's responsibil
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3709/vshow}{GSS Data Explorer page for \code{natdiscm}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab should \tab should not be \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 1333 \tab 160 \tab 24 \tab 1 \tab 4510 \cr
+   Total \tab 2992 \tab 1333 \tab 160 \tab 24 \tab 1 \tab 4510 \cr
+}
 }
 
 \seealso{

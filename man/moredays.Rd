@@ -21,20 +21,26 @@ Question How many days per month do you work extra hours beyond your usual sched
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2764/vshow}{GSS Data Explorer page for \code{moredays}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 27 \tab 28 \tab 3 \tab 30 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab 13 \tab 26 \tab 29 \tab 31 \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 680 \tab 77 \tab 90 \tab 1 \tab 25 \tab 2 \tab 52 \tab 8 \tab 1 \tab 6 \tab 1 \tab 149 \tab 100 \tab 6 \tab 12 \tab 2 \tab 11 \tab 21 \tab 1 \tab 3 \tab 98 \tab 44 \tab 128 \tab 112 \tab 49 \tab 25 \tab 49 \tab 6 \tab 22 \tab 15 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 579 \tab 78 \tab 97 \tab 2 \tab 32 \tab 4 \tab 55 \tab 9 \tab 1 \tab 4 \tab 1 \tab 143 \tab 115 \tab 1 \tab 6 \tab 1 \tab 9 \tab 26 \tab - \tab 3 \tab 76 \tab 54 \tab 132 \tab 138 \tab 41 \tab 22 \tab 47 \tab 5 \tab 36 \tab 14 \tab 1 \tab 2 \tab - \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 351 \tab 93 \tab 50 \tab 1 \tab 15 \tab 6 \tab 49 \tab 10 \tab - \tab 2 \tab 1 \tab 130 \tab 78 \tab 3 \tab 4 \tab 1 \tab 6 \tab 12 \tab 2 \tab 2 \tab 87 \tab 22 \tab 75 \tab 76 \tab 27 \tab 15 \tab 20 \tab 4 \tab 13 \tab 27 \tab 1 \tab 3 \tab 1 \tab - \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 441 \tab 68 \tab 61 \tab 1 \tab 13 \tab 2 \tab 40 \tab 3 \tab 2 \tab 1 \tab - \tab 105 \tab 81 \tab 2 \tab 5 \tab 1 \tab 8 \tab 15 \tab 1 \tab 2 \tab 62 \tab 25 \tab 105 \tab 105 \tab 29 \tab 16 \tab 23 \tab 7 \tab 20 \tab 3 \tab - \tab 3 \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 383 \tab 111 \tab 55 \tab - \tab 24 \tab 4 \tab 48 \tab 5 \tab 3 \tab 3 \tab - \tab 178 \tab 78 \tab - \tab 7 \tab 1 \tab 9 \tab 18 \tab - \tab 5 \tab 130 \tab 33 \tab 129 \tab 96 \tab 22 \tab 20 \tab 32 \tab 2 \tab 18 \tab 29 \tab 2 \tab 3 \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 1540 \tab 762 \tab 105 \tab 78 \tab - \tab 22 \tab - \tab 41 \tab 8 \tab 2 \tab 2 \tab - \tab 164 \tab 96 \tab 1 \tab 5 \tab 1 \tab 10 \tab 14 \tab 2 \tab 6 \tab 107 \tab 35 \tab 137 \tab 186 \tab 36 \tab 37 \tab 53 \tab 2 \tab 36 \tab 14 \tab 2 \tab 6 \tab 1 \tab 6 \tab 27 \tab 3544 \cr
+   Total \tab 8330 \tab 3196 \tab 532 \tab 431 \tab 5 \tab 131 \tab 18 \tab 285 \tab 43 \tab 9 \tab 18 \tab 3 \tab 869 \tab 548 \tab 13 \tab 39 \tab 7 \tab 53 \tab 106 \tab 6 \tab 21 \tab 560 \tab 213 \tab 706 \tab 713 \tab 204 \tab 135 \tab 224 \tab 26 \tab 145 \tab 102 \tab 6 \tab 17 \tab 2 \tab 6 \tab 27 \tab 17749 \cr
+}
 }
 
 \seealso{

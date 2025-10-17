@@ -26,18 +26,26 @@ B. I would enjoy having a paying job even if I did not need that money
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4493/vshow}{GSS Data Explorer page for \code{wrkenjoy}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab iap \tab Total \cr
+   1989 \tab - \tab 169 \tab 702 \tab 227 \tab 230 \tab 64 \tab 37 \tab 108 \tab - \tab 1537 \cr
+   1998 \tab - \tab 112 \tab 583 \tab 186 \tab 206 \tab 75 \tab 34 \tab 1636 \tab - \tab 2832 \cr
+   2006 \tab - \tab 214 \tab 750 \tab 177 \tab 266 \tab 103 \tab 6 \tab 2 \tab 2992 \tab 4510 \cr
+   2016 \tab - \tab 230 \tab 796 \tab 178 \tab 192 \tab 74 \tab 2 \tab 5 \tab 1390 \tab 2867 \cr
+   Total \tab 0 \tab 725 \tab 2831 \tab 768 \tab 894 \tab 316 \tab 79 \tab 1751 \tab 4382 \tab 11746 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question Suppose research proves that more restrictions on handguns would reduce
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3060/vshow}{GSS Data Explorer page for \code{crimdown}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab would change mind and support more restrictions \tab would still oppose more restrictions \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2479 \tab 84 \tab 239 \tab 8 \tab 2 \tab 2812 \cr
+   Total \tab 2479 \tab 84 \tab 239 \tab 8 \tab 2 \tab 2812 \cr
+}
 }
 
 \seealso{

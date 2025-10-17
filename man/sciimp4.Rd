@@ -25,15 +25,21 @@ D. The researchers carefully examine different interpretations of the results, e
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3401/vshow}{GSS Data Explorer page for \code{sciimp4}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab pretty important \tab not too important \tab not important at all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 1334 \tab 384 \tab 48 \tab 17 \tab 75 \tab 6 \tab 4510 \cr
+   Total \tab 2646 \tab 1334 \tab 384 \tab 48 \tab 17 \tab 75 \tab 6 \tab 4510 \cr
+}
 }
 
 \seealso{

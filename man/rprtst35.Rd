@@ -24,15 +24,21 @@ B. Gone on a protest march or demonstration.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4093/vshow}{GSS Data Explorer page for \code{rprtst35}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab never \tab once \tab more than once \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1572 \tab 1177 \tab 87 \tab 31 \tab 1 \tab 36 \tab 2904 \cr
+   Total \tab 1572 \tab 1177 \tab 87 \tab 31 \tab 1 \tab 36 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ B. Education
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1916/vshow}{GSS Data Explorer page for \code{hrseduc}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 12 \tab 15 \tab 16 \tab 18 \tab 2 \tab 20 \tab 22 \tab 25 \tab 3 \tab 30 \tab 4 \tab 40 \tab 42 \tab 45 \tab 48 \tab 5 \tab 6 \tab 7 \tab 8 \tab 80 \tab don't know \tab Total \cr
+   1996 \tab 2779 \tab 4 \tab 14 \tab 3 \tab 2 \tab 4 \tab 1 \tab 24 \tab 7 \tab 1 \tab 3 \tab 11 \tab 1 \tab 17 \tab 2 \tab 1 \tab 1 \tab 2 \tab 9 \tab 8 \tab 1 \tab 7 \tab 1 \tab 1 \tab 2904 \cr
+   Total \tab 2779 \tab 4 \tab 14 \tab 3 \tab 2 \tab 4 \tab 1 \tab 24 \tab 7 \tab 1 \tab 3 \tab 11 \tab 1 \tab 17 \tab 2 \tab 1 \tab 1 \tab 2 \tab 9 \tab 8 \tab 1 \tab 7 \tab 1 \tab 1 \tab 2904 \cr
+}
 }
 
 \seealso{

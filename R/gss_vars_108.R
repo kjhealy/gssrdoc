@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `solnat`](https://gssdataexplorer.norc.org/variables/990/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |1987  |1751 |30  |11 |27        |1819  |
+#'  |Total |1751 |30  |11 |27        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `solfarm`](https://gssdataexplorer.norc.org/variables/991/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
+#'  |1987  |1743 |43  |7  |1          |25        |1819  |
+#'  |Total |1743 |43  |7  |1          |25        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sollit`](https://gssdataexplorer.norc.org/variables/992/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
+#'  |1987  |1674 |63  |54 |1          |27        |1819  |
+#'  |Total |1674 |63  |54 |1          |27        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `solprof`](https://gssdataexplorer.norc.org/variables/993/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
+#'  |1987  |1553 |165 |69 |1          |31        |1819  |
+#'  |Total |1553 |165 |69 |1          |31        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -146,13 +170,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `solchurh`](https://gssdataexplorer.norc.org/variables/994/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
+#'  |1987  |1227 |455 |75 |2          |60        |1819  |
+#'  |Total |1227 |455 |75 |2          |60        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -179,13 +209,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `solother`](https://gssdataexplorer.norc.org/variables/995/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |1987  |1581 |123 |67 |48        |1819  |
+#'  |Total |1581 |123 |67 |48        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -212,13 +248,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `actfrat`](https://gssdataexplorer.norc.org/variables/996/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |1987  |1639 |122 |30 |28        |1819  |
+#'  |Total |1639 |122 |30 |28        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -245,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `actserv`](https://gssdataexplorer.norc.org/variables/997/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |1987  |1637 |128 |25 |29        |1819  |
+#'  |Total |1637 |128 |25 |29        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -278,13 +326,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `actvet`](https://gssdataexplorer.norc.org/variables/998/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |1987  |1693 |52  |46 |28        |1819  |
+#'  |Total |1693 |52  |46 |28        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -311,13 +365,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `actpolit`](https://gssdataexplorer.norc.org/variables/999/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |1987  |1724 |58  |8  |29        |1819  |
+#'  |Total |1724 |58  |8  |29        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation

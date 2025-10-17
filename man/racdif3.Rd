@@ -23,37 +23,45 @@ C. Because most (Negroes/Blacks/African-Americans) don't have the chance for edu
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1988 \tab A/B/- \tab partial \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/- \tab partial \cr
-   1993 \tab A/B/- \tab partial \cr
-   1994 \tab A/B/- \tab partial \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/- \tab partial \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1988, 1989, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1977, 1985, 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/730/vshow}{GSS Data Explorer page for \code{racdif3}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1977 \tab 176 \tab 656 \tab 642 \tab 48 \tab 8 \tab - \tab 1530 \cr
+   1985 \tab - \tab 807 \tab 687 \tab 36 \tab 4 \tab - \tab 1534 \cr
+   1986 \tab - \tab 759 \tab 673 \tab 33 \tab 5 \tab - \tab 1470 \cr
+   1988 \tab 493 \tab 512 \tab 433 \tab 37 \tab 6 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 521 \tab 442 \tab 38 \tab 5 \tab - \tab 1537 \cr
+   1990 \tab - \tab 710 \tab 609 \tab 46 \tab 7 \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 528 \tab 463 \tab 29 \tab 4 \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 567 \tab 465 \tab 43 \tab 5 \tab - \tab 1606 \cr
+   1994 \tab 1015 \tab 969 \tab 926 \tab 70 \tab 12 \tab - \tab 2992 \cr
+   1996 \tab 944 \tab 873 \tab 1017 \tab 64 \tab 6 \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 801 \tab 976 \tab 89 \tab 5 \tab - \tab 2832 \cr
+   2000 \tab 940 \tab 845 \tab 948 \tab 74 \tab 10 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 390 \tab 491 \tab 26 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 373 \tab 500 \tab 30 \tab 3 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 878 \tab 1055 \tab 55 \tab 4 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 600 \tab 693 \tab 33 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 664 \tab 723 \tab 35 \tab 8 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 552 \tab 711 \tab 37 \tab 2 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 723 \tab 915 \tab 30 \tab 7 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 961 \tab 878 \tab 46 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 776 \tab 743 \tab 35 \tab 5 \tab - \tab 2348 \cr
+   2021 \tab 1315 \tab 1511 \tab 1162 \tab 17 \tab 1 \tab 26 \tab 4032 \cr
+   2022 \tab 2373 \tab 608 \tab 526 \tab 30 \tab 3 \tab 4 \tab 3544 \cr
+   Total \tab 20659 \tab 16584 \tab 16678 \tab 981 \tab 117 \tab 30 \tab 55049 \cr
+}
 }
 
 \seealso{

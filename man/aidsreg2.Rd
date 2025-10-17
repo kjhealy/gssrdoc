@@ -31,18 +31,24 @@ E. What state did this person live in?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1990, 1991, 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5018/vshow}{GSS Data Explorer page for \code{aidsreg2}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab new england \tab middle atlantic \tab e. nor. central \tab w. nor. central \tab south atlantic \tab e. sou. central \tab w. sou. central \tab pacific \tab no answer \tab mountain \tab foreign \tab Total \cr
+   1989 \tab 1486 \tab 2 \tab 10 \tab 3 \tab 1 \tab 10 \tab 1 \tab 9 \tab 10 \tab 5 \tab - \tab - \tab 1537 \cr
+   1990 \tab 1324 \tab - \tab 7 \tab 6 \tab 2 \tab 13 \tab 1 \tab 4 \tab 9 \tab 2 \tab 4 \tab - \tab 1372 \cr
+   1991 \tab 1422 \tab 3 \tab 16 \tab 11 \tab 3 \tab 18 \tab 1 \tab 7 \tab 29 \tab 5 \tab 2 \tab - \tab 1517 \cr
+   1993 \tab 1407 \tab 18 \tab 33 \tab 23 \tab 2 \tab 36 \tab 8 \tab 17 \tab 40 \tab 10 \tab 9 \tab 3 \tab 1606 \cr
+   Total \tab 5639 \tab 23 \tab 66 \tab 43 \tab 8 \tab 77 \tab 11 \tab 37 \tab 88 \tab 22 \tab 15 \tab 3 \tab 6032 \cr
+}
 }
 
 \seealso{

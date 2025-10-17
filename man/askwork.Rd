@@ -23,15 +23,21 @@ D. Ask someone at your workplace or school for help?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2495/vshow}{GSS Data Explorer page for \code{askwork}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2075 \tab 416 \tab 242 \tab 84 \tab 2817 \cr
+   Total \tab 2075 \tab 416 \tab 242 \tab 84 \tab 2817 \cr
+}
 }
 
 \seealso{

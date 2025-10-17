@@ -25,21 +25,30 @@ K. How long does it take for the Earth to go around the Sun: one day, one month,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3344/vshow}{GSS Data Explorer page for \code{solarrev}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab one day \tab one month \tab one year \tab other time period (if vol.) \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3137 \tab 261 \tab 15 \tab 977 \tab 2 \tab 117 \tab 1 \tab 4510 \cr
+   2008 \tab 950 \tab 213 \tab 26 \tab 756 \tab 1 \tab 77 \tab - \tab 2023 \cr
+   2010 \tab 1343 \tab 126 \tab 18 \tab 495 \tab 2 \tab 58 \tab 2 \tab 2044 \cr
+   2012 \tab 1259 \tab 119 \tab 10 \tab 525 \tab 1 \tab 52 \tab 8 \tab 1974 \cr
+   2014 \tab 1609 \tab 196 \tab 17 \tab 644 \tab 1 \tab 66 \tab 5 \tab 2538 \cr
+   2016 \tab 1873 \tab 210 \tab 22 \tab 702 \tab - \tab 52 \tab 8 \tab 2867 \cr
+   2018 \tab 1508 \tab 159 \tab 8 \tab 624 \tab 1 \tab 43 \tab 5 \tab 2348 \cr
+   Total \tab 11679 \tab 1284 \tab 116 \tab 4723 \tab 8 \tab 465 \tab 29 \tab 18304 \cr
+}
 }
 
 \seealso{

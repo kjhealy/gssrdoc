@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `pain`](https://gssdataexplorer.norc.org/variables/2683/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all |a little bit |moderately |quite a bit |extremely |no answer |Total |
+#'  |:-----|:----|:----------|:------------|:----------|:-----------|:---------|:---------|:-----|
+#'  |2000  |1398 |848        |282          |114        |107         |57        |11        |2817  |
+#'  |Total |1398 |848        |282          |114        |107         |57        |11        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -52,13 +58,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `peaceful`](https://gssdataexplorer.norc.org/variables/2684/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |no answer |Total |
+#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:---------|:-----|
+#'  |2000  |1398 |144             |607              |252                    |280              |93                       |32              |11        |2817  |
+#'  |Total |1398 |144             |607              |252                    |280              |93                       |32              |11        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -88,13 +100,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `energy`](https://gssdataexplorer.norc.org/variables/2685/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |no answer |Total |
+#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:---------|:-----|
+#'  |2000  |1398 |146             |486              |319                    |259              |134                      |65              |10        |2817  |
+#'  |Total |1398 |146             |486              |319                    |259              |134                      |65              |10        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -124,13 +142,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `downblue`](https://gssdataexplorer.norc.org/variables/2686/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:----------|:---------|:-----|
+#'  |2000  |1398 |27              |43               |63                     |266              |537                      |473             |1          |9         |2817  |
+#'  |Total |1398 |27              |43               |63                     |266              |537                      |473             |1          |9         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -160,13 +184,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `socacts`](https://gssdataexplorer.norc.org/variables/2687/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |no answer |Total |
+#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:---------|:-----|
+#'  |2000  |1398 |40              |49               |52                     |134              |196                      |936             |12        |2817  |
+#'  |Total |1398 |40              |49               |52                     |134              |196                      |936             |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -195,13 +225,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `treat1`](https://gssdataexplorer.norc.org/variables/2688/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |Total |
+#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |2000  |1398 |526           |371         |197             |109               |6          |210       |2817  |
+#'  |Total |1398 |526           |371         |197             |109               |6          |210       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -230,13 +266,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `treat2`](https://gssdataexplorer.norc.org/variables/2689/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |Total |
+#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |2000  |1398 |531           |366         |196             |105               |6          |215       |2817  |
+#'  |Total |1398 |531           |366         |196             |105               |6          |215       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -265,13 +307,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `treat3`](https://gssdataexplorer.norc.org/variables/2690/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |Total |
+#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |2000  |1398 |432           |416         |232             |118               |6          |215       |2817  |
+#'  |Total |1398 |432           |416         |232             |118               |6          |215       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -300,13 +348,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `treat4`](https://gssdataexplorer.norc.org/variables/2691/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |Total |
+#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |2000  |1398 |501           |425         |187             |83                |6          |217       |2817  |
+#'  |Total |1398 |501           |425         |187             |83                |6          |217       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -335,13 +389,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `treat5`](https://gssdataexplorer.norc.org/variables/2692/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |Total |
+#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |2000  |1398 |290           |326         |317             |238               |9          |239       |2817  |
+#'  |Total |1398 |290           |326         |317             |238               |9          |239       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status

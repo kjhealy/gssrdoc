@@ -26,18 +26,26 @@ G. In my job I can help other people
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4547/vshow}{GSS Data Explorer page for \code{rhlpoths}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 235 \tab 429 \tab 137 \tab 56 \tab 14 \tab 4 \tab 23 \tab 1537 \cr
+   1998 \tab 1967 \tab 254 \tab 410 \tab 103 \tab 49 \tab 11 \tab 6 \tab 32 \tab 2832 \cr
+   2006 \tab 3492 \tab 414 \tab 476 \tab 76 \tab 38 \tab 10 \tab 2 \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 442 \tab 381 \tab 70 \tab 30 \tab 10 \tab 1 \tab 6 \tab 2867 \cr
+   Total \tab 8025 \tab 1345 \tab 1696 \tab 386 \tab 173 \tab 45 \tab 13 \tab 63 \tab 11746 \cr
+}
 }
 
 \seealso{

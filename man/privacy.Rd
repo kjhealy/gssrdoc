@@ -24,15 +24,21 @@ Question How concerned are you about threats to your personal privacy in America
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/772/vshow}{GSS Data Explorer page for \code{privacy}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very concerned \tab somewhat \tab only a little \tab not concerned \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 909 \tab 500 \tab 244 \tab 177 \tab 26 \tab 4 \tab 1860 \cr
+   Total \tab 0 \tab 909 \tab 500 \tab 244 \tab 177 \tab 26 \tab 4 \tab 1860 \cr
+}
 }
 
 \seealso{

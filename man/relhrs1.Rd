@@ -21,15 +21,21 @@ Question A. In the past month, about how many hours have you spent doing religio
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1143/vshow}{GSS Data Explorer page for \code{relhrs1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 105 \tab 11 \tab 12 \tab 120 \tab 13 \tab 14 \tab 15 \tab 150 \tab 16 \tab 160 \tab 18 \tab 180 \tab 2 \tab 20 \tab 200 \tab 22 \tab 24 \tab 25 \tab 3 \tab 30 \tab 31 \tab 35 \tab 36 \tab 4 \tab 40 \tab 45 \tab 48 \tab 49 \tab 5 \tab 50 \tab 56 \tab 6 \tab 60 \tab 65 \tab 7 \tab 72 \tab 75 \tab 8 \tab 80 \tab 9 \tab 90 \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 505 \tab 159 \tab 70 \tab 5 \tab 1 \tab 2 \tab 18 \tab 5 \tab 1 \tab 4 \tab 44 \tab 4 \tab 6 \tab 1 \tab 2 \tab 1 \tab 111 \tab 37 \tab 1 \tab 1 \tab 13 \tab 12 \tab 65 \tab 70 \tab 4 \tab 5 \tab 1 \tab 78 \tab 9 \tab 2 \tab 1 \tab 1 \tab 59 \tab 8 \tab 2 \tab 23 \tab 14 \tab 1 \tab 9 \tab 1 \tab 2 \tab 31 \tab 2 \tab 5 \tab 4 \tab 18 \tab 27 \tab 2832 \cr
+   Total \tab 1387 \tab 505 \tab 159 \tab 70 \tab 5 \tab 1 \tab 2 \tab 18 \tab 5 \tab 1 \tab 4 \tab 44 \tab 4 \tab 6 \tab 1 \tab 2 \tab 1 \tab 111 \tab 37 \tab 1 \tab 1 \tab 13 \tab 12 \tab 65 \tab 70 \tab 4 \tab 5 \tab 1 \tab 78 \tab 9 \tab 2 \tab 1 \tab 1 \tab 59 \tab 8 \tab 2 \tab 23 \tab 14 \tab 1 \tab 9 \tab 1 \tab 2 \tab 31 \tab 2 \tab 5 \tab 4 \tab 18 \tab 27 \tab 2832 \cr
+}
 }
 
 \seealso{

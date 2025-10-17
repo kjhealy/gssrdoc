@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fndjob5`](https://gssdataexplorer.norc.org/variables/1280/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |no answer |Total |
+#'  |:-----|:---|:---|:---|:---------|:-----|
+#'  |1991  |605 |143 |646 |123       |1517  |
+#'  |Total |605 |143 |646 |123       |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fndjob6`](https://gssdataexplorer.norc.org/variables/1281/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |no answer |Total |
+#'  |:-----|:---|:---|:---|:---------|:-----|
+#'  |1991  |605 |81  |706 |125       |1517  |
+#'  |Total |605 |81  |706 |125       |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fndjob7`](https://gssdataexplorer.norc.org/variables/1282/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |no answer |Total |
+#'  |:-----|:---|:---|:---|:---------|:-----|
+#'  |1991  |605 |38  |742 |132       |1517  |
+#'  |Total |605 |38  |742 |132       |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fndjob8`](https://gssdataexplorer.norc.org/variables/1283/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |no answer |Total |
+#'  |:-----|:---|:---|:---|:---------|:-----|
+#'  |1991  |605 |171 |627 |114       |1517  |
+#'  |Total |605 |171 |627 |114       |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -149,13 +173,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fndjob9`](https://gssdataexplorer.norc.org/variables/1284/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |union |school |self-employed,created job |announcement,newspaper |other |no answer |Total |
+#'  |:-----|:---|:-----|:------|:-------------------------|:----------------------|:-----|:---------|:-----|
+#'  |1991  |605 |10    |1      |22                        |7                      |21    |851       |1517  |
+#'  |Total |605 |10    |1      |22                        |7                      |21    |851       |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -182,13 +212,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `intltest`](https://gssdataexplorer.norc.org/variables/1285/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
+#'  |1991  |605 |167 |735 |1          |9         |1517  |
+#'  |Total |605 |167 |735 |1          |9         |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -215,13 +251,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `skiltest`](https://gssdataexplorer.norc.org/variables/1286/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
+#'  |1991  |605 |235 |666 |1          |10        |1517  |
+#'  |Total |605 |235 |666 |1          |10        |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -248,13 +290,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `drugtest`](https://gssdataexplorer.norc.org/variables/1287/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |no answer |Total |
+#'  |:-----|:---|:---|:---|:---------|:-----|
+#'  |1991  |605 |98  |803 |11        |1517  |
+#'  |Total |605 |98  |803 |11        |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -281,13 +329,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `physical`](https://gssdataexplorer.norc.org/variables/1288/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
+#'  |1991  |605 |292 |608 |1          |11        |1517  |
+#'  |Total |605 |292 |608 |1          |11        |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -314,13 +368,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ltrsref`](https://gssdataexplorer.norc.org/variables/1289/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no  |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
+#'  |1991  |605 |338 |562 |1          |11        |1517  |
+#'  |Total |605 |338 |562 |1          |11        |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations

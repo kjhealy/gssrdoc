@@ -22,41 +22,47 @@ Question When a person has a disease that cannot be cured, do you think Doctors 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
-   1996 \tab A/B \tab partial \cr
-   1998 \tab A/B \tab partial \cr
-   2000 \tab A/B \tab partial \cr
-   2002 \tab A/B \tab partial \cr
-   2004 \tab A/B \tab partial \cr
-   2006 \tab A/B \tab partial \cr
-   2008 \tab A/B \tab partial \cr
-   2010 \tab A/B \tab partial \cr
-   2012 \tab A/B \tab partial \cr
-   2014 \tab A/B \tab partial \cr
-   2016 \tab A/B \tab partial \cr
-   2018 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1977, 1978, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/647/vshow}{GSS Data Explorer page for \code{letdie1}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1977 \tab - \tab 907 \tab 546 \tab 66 \tab 11 \tab - \tab 1530 \cr
+   1978 \tab - \tab 884 \tab 587 \tab 60 \tab 1 \tab - \tab 1532 \cr
+   1982 \tab - \tab 1026 \tab 737 \tab 91 \tab 6 \tab - \tab 1860 \cr
+   1983 \tab - \tab 1005 \tab 519 \tab 70 \tab 5 \tab - \tab 1599 \cr
+   1985 \tab - \tab 976 \tab 513 \tab 43 \tab 2 \tab - \tab 1534 \cr
+   1986 \tab - \tab 965 \tab 448 \tab 53 \tab 4 \tab - \tab 1470 \cr
+   1988 \tab 493 \tab 648 \tab 287 \tab 48 \tab 5 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 657 \tab 300 \tab 45 \tab 4 \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 635 \tab 243 \tab 47 \tab 3 \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 719 \tab 255 \tab 48 \tab 2 \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 696 \tab 323 \tab 57 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab 1015 \tab 1334 \tab 537 \tab 96 \tab 10 \tab - \tab 2992 \cr
+   1996 \tab 944 \tab 1329 \tab 548 \tab 78 \tab 5 \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 1259 \tab 499 \tab 106 \tab 7 \tab - \tab 2832 \cr
+   2000 \tab 940 \tab 1205 \tab 565 \tab 100 \tab 7 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 599 \tab 288 \tab 19 \tab 2 \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 596 \tab 275 \tab 30 \tab 5 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 1309 \tab 616 \tab 59 \tab 8 \tab - \tab 4510 \cr
+   2008 \tab 1375 \tab 416 \tab 202 \tab 29 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 943 \tab 446 \tab 30 \tab 11 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 848 \tab 402 \tab 44 \tab 8 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 1121 \tab 496 \tab 47 \tab 11 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 1350 \tab 482 \tab 46 \tab 10 \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 1096 \tab 411 \tab 38 \tab 14 \tab - \tab 2348 \cr
+   2021 \tab 2689 \tab 934 \tab 382 \tab 3 \tab 2 \tab 22 \tab 4032 \cr
+   2022 \tab 2339 \tab 882 \tab 291 \tab 23 \tab 6 \tab 3 \tab 3544 \cr
+   Total \tab 22948 \tab 24339 \tab 11198 \tab 1376 \tab 154 \tab 25 \tab 60040 \cr
+}
 }
 
 \seealso{

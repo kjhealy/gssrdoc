@@ -26,16 +26,23 @@ C. Economic progress in America will slow down unless we look after the environm
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010 \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4789/vshow}{GSS Data Explorer page for \code{econgrn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1541 \tab 126 \tab 438 \tab 353 \tab 171 \tab 23 \tab 67 \tab 98 \tab 2817 \cr
+   2010 \tab 614 \tab 122 \tab 621 \tab 293 \tab 268 \tab 34 \tab 85 \tab 7 \tab 2044 \cr
+   Total \tab 2155 \tab 248 \tab 1059 \tab 646 \tab 439 \tab 57 \tab 152 \tab 105 \tab 4861 \cr
+}
 }
 
 \seealso{

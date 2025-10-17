@@ -24,17 +24,23 @@ to someone because of their race or color. Which law would you vote for?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/C/- \tab partial \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
+   A/C/- \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7588/vshow}{GSS Data Explorer page for \code{racopenv}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab first law \tab second law \tab neither (phone mode only: volunteered) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 1987 \tab 214 \tab 1521 \tab 302 \tab 1 \tab 1 \tab 6 \tab 4032 \cr
+   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 5531 \tab 214 \tab 1521 \tab 302 \tab 1 \tab 1 \tab 6 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

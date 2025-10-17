@@ -24,15 +24,21 @@ Question Over the last 2 weeks, how often have you been bothered by the followin
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7859/vshow}{GSS Data Explorer page for \code{feelnerv}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all \tab several days \tab more than half the days \tab nearly every day \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 1557 \tab 991 \tab 666 \tab 144 \tab 141 \tab 8 \tab 20 \tab 17 \tab 3544 \cr
+   Total \tab 1557 \tab 991 \tab 666 \tab 144 \tab 141 \tab 8 \tab 20 \tab 17 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

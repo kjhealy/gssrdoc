@@ -25,49 +25,55 @@ Question RESPONDENT'S FATHER'S (SUBSTITUTE FATHER'S) DEGREE
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   Full \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/60/vshow}{GSS Data Explorer page for \code{padeg}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab less than high school \tab high school \tab bachelor's \tab graduate \tab don't know \tab iap \tab no answer \tab associate/junior college \tab skipped on web \tab Total \cr
+   1972 \tab 775 \tab 263 \tab 51 \tab 40 \tab 104 \tab 235 \tab 145 \tab - \tab - \tab 1613 \cr
+   1973 \tab 784 \tab 276 \tab 61 \tab 32 \tab 90 \tab 151 \tab 104 \tab 6 \tab - \tab 1504 \cr
+   1974 \tab 781 \tab 296 \tab 44 \tab 38 \tab 116 \tab 182 \tab 18 \tab 9 \tab - \tab 1484 \cr
+   1975 \tab 802 \tab 324 \tab 50 \tab 28 \tab 125 \tab 151 \tab 6 \tab 4 \tab - \tab 1490 \cr
+   1976 \tab 774 \tab 301 \tab 53 \tab 35 \tab 132 \tab 186 \tab 12 \tab 6 \tab - \tab 1499 \cr
+   1977 \tab 803 \tab 285 \tab 41 \tab 39 \tab 149 \tab 193 \tab 12 \tab 8 \tab - \tab 1530 \cr
+   1978 \tab 772 \tab 341 \tab 56 \tab 38 \tab 105 \tab 205 \tab 7 \tab 8 \tab - \tab 1532 \cr
+   1980 \tab 666 \tab 339 \tab 56 \tab 56 \tab 101 \tab 230 \tab 15 \tab 5 \tab - \tab 1468 \cr
+   1982 \tab 829 \tab 395 \tab 72 \tab 48 \tab 195 \tab 296 \tab 15 \tab 10 \tab - \tab 1860 \cr
+   1983 \tab 707 \tab 406 \tab 89 \tab 59 \tab 117 \tab 207 \tab 5 \tab 9 \tab - \tab 1599 \cr
+   1984 \tab 669 \tab 359 \tab 82 \tab 43 \tab 99 \tab 202 \tab 4 \tab 15 \tab - \tab 1473 \cr
+   1985 \tab 683 \tab 403 \tab 89 \tab 59 \tab 96 \tab 194 \tab - \tab 10 \tab - \tab 1534 \cr
+   1986 \tab 631 \tab 376 \tab 82 \tab 40 \tab 103 \tab 222 \tab 5 \tab 11 \tab - \tab 1470 \cr
+   1987 \tab 783 \tab 418 \tab 100 \tab 73 \tab 122 \tab 291 \tab 15 \tab 17 \tab - \tab 1819 \cr
+   1988 \tab 648 \tab 378 \tab 83 \tab 74 \tab 91 \tab 189 \tab 5 \tab 13 \tab - \tab 1481 \cr
+   1989 \tab 671 \tab 390 \tab 93 \tab 63 \tab 95 \tab 197 \tab 4 \tab 24 \tab - \tab 1537 \cr
+   1990 \tab 535 \tab 413 \tab 77 \tab 52 \tab 72 \tab 191 \tab 17 \tab 15 \tab - \tab 1372 \cr
+   1991 \tab 600 \tab 416 \tab 103 \tab 55 \tab 93 \tab 205 \tab 26 \tab 19 \tab - \tab 1517 \cr
+   1993 \tab 597 \tab 457 \tab 131 \tab 76 \tab 98 \tab 197 \tab 24 \tab 26 \tab - \tab 1606 \cr
+   1994 \tab 1007 \tab 860 \tab 226 \tab 146 \tab 189 \tab 492 \tab 17 \tab 55 \tab - \tab 2992 \cr
+   1996 \tab 874 \tab 872 \tab 227 \tab 160 \tab 201 \tab 502 \tab 20 \tab 48 \tab - \tab 2904 \cr
+   1998 \tab 857 \tab 812 \tab 263 \tab 154 \tab 176 \tab 503 \tab 19 \tab 48 \tab - \tab 2832 \cr
+   2000 \tab 847 \tab 808 \tab 226 \tab 133 \tab 195 \tab 518 \tab 39 \tab 51 \tab - \tab 2817 \cr
+   2002 \tab 814 \tab 867 \tab 208 \tab 139 \tab 129 \tab 526 \tab 14 \tab 68 \tab - \tab 2765 \cr
+   2004 \tab 765 \tab 898 \tab 259 \tab 179 \tab 126 \tab 514 \tab 1 \tab 70 \tab - \tab 2812 \cr
+   2006 \tab 893 \tab 943 \tab 256 \tab 193 \tab 84 \tab 2049 \tab 19 \tab 73 \tab - \tab 4510 \cr
+   2008 \tab 538 \tab 679 \tab 187 \tab 111 \tab 109 \tab 354 \tab 7 \tab 38 \tab - \tab 2023 \cr
+   2010 \tab 561 \tab 671 \tab 164 \tab 138 \tab 95 \tab 370 \tab 5 \tab 40 \tab - \tab 2044 \cr
+   2012 \tab 531 \tab 625 \tab 180 \tab 127 \tab 116 \tab 333 \tab 3 \tab 59 \tab - \tab 1974 \cr
+   2014 \tab 619 \tab 852 \tab 252 \tab 157 \tab 128 \tab 459 \tab 5 \tab 66 \tab - \tab 2538 \cr
+   2016 \tab 663 \tab 1010 \tab 273 \tab 159 \tab 143 \tab 550 \tab 5 \tab 64 \tab - \tab 2867 \cr
+   2018 \tab 532 \tab 799 \tab 206 \tab 158 \tab 116 \tab 464 \tab 3 \tab 70 \tab - \tab 2348 \cr
+   2021 \tab 735 \tab 1489 \tab 502 \tab 339 \tab 305 \tab 563 \tab 3 \tab 93 \tab 3 \tab 4032 \cr
+   2022 \tab 651 \tab 1181 \tab 381 \tab 295 \tab - \tab 942 \tab - \tab 93 \tab 1 \tab 3544 \cr
+   Total \tab 24397 \tab 20202 \tab 5223 \tab 3536 \tab 4215 \tab 13063 \tab 599 \tab 1151 \tab 4 \tab 72390 \cr
+}
 }
 
 \seealso{

@@ -27,15 +27,21 @@ Question How often do you see or visit this brother or sister?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4186/vshow}{GSS Data Explorer page for \code{sibvisit}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab he or she lives in the same household as i do \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab no answer \tab Total \cr
+   2002 \tab 1807 \tab 25 \tab 67 \tab 109 \tab 160 \tab 172 \tab 226 \tab 192 \tab 7 \tab 2765 \cr
+   Total \tab 1807 \tab 25 \tab 67 \tab 109 \tab 160 \tab 172 \tab 226 \tab 192 \tab 7 \tab 2765 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ B1. What R did about the nervous breakdown - First mention.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2070/vshow}{GSS Data Explorer page for \code{brkddo1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 11 \tab 21 \tab 22 \tab 23 \tab 24 \tab 31 \tab 41 \tab 51 \tab 61 \tab 62 \tab 64 \tab 65 \tab 69 \tab 71 \tab 72 \tab 73 \tab 74 \tab 75 \tab 81 \tab 82 \tab 83 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2517 \tab 2 \tab 1 \tab 11 \tab 5 \tab 3 \tab 49 \tab 4 \tab 18 \tab 8 \tab 3 \tab 13 \tab 1 \tab 11 \tab 10 \tab 25 \tab 8 \tab 18 \tab 9 \tab 66 \tab 90 \tab 5 \tab 1 \tab 26 \tab 2904 \cr
+   Total \tab 2517 \tab 2 \tab 1 \tab 11 \tab 5 \tab 3 \tab 49 \tab 4 \tab 18 \tab 8 \tab 3 \tab 13 \tab 1 \tab 11 \tab 10 \tab 25 \tab 8 \tab 18 \tab 9 \tab 66 \tab 90 \tab 5 \tab 1 \tab 26 \tab 2904 \cr
+}
 }
 
 \seealso{

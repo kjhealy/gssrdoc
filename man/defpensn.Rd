@@ -22,17 +22,24 @@ Question B. Do you have a defined benefit pension plan at your company?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014, 2018 \cr
+   B/C/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3562/vshow}{GSS Data Explorer page for \code{defpensn}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2014 \tab 1765 \tab 276 \tab 491 \tab 4 \tab 2 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 525 \tab 868 \tab 24 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 2570 \tab 316 \tab 591 \tab 52 \tab 6 \tab 9 \tab 3544 \cr
+   Total \tab 5235 \tab 1117 \tab 1950 \tab 80 \tab 39 \tab 9 \tab 8430 \cr
+}
 }
 
 \seealso{

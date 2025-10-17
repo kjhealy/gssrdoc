@@ -24,15 +24,21 @@ F. Campaign materials from campaign worker or candidate?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2530/vshow}{GSS Data Explorer page for \code{polcamp}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3 or more times \tab no answer \tab Total \cr
+   2000 \tab 2558 \tab 136 \tab 56 \tab 53 \tab 14 \tab 2817 \cr
+   Total \tab 2558 \tab 136 \tab 56 \tab 53 \tab 14 \tab 2817 \cr
+}
 }
 
 \seealso{

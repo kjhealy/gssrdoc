@@ -23,15 +23,21 @@ G. A farm laborer?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4269/vshow}{GSS Data Explorer page for \code{payfarm}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1000 \tab 10000 \tab 10200 \tab 1040 \tab 10400 \tab 10500 \tab 11000 \tab 1200 \tab 12000 \tab 12500 \tab 125000 \tab 1300 \tab 13000 \tab 14000 \tab 1500 \tab 15000 \tab 150000 \tab 15600 \tab 16000 \tab 17000 \tab 1750 \tab 17500 \tab 1800 \tab 18000 \tab 18500 \tab 19000 \tab 19500 \tab 1e+05 \tab 2000 \tab 20000 \tab 20800 \tab 21000 \tab 22000 \tab 23000 \tab 24000 \tab 2500 \tab 25000 \tab 27000 \tab 28000 \tab 3000 \tab 30000 \tab 32000 \tab 3500 \tab 35000 \tab 35500 \tab 37250 \tab 38000 \tab 4000 \tab 40000 \tab 41600 \tab 45000 \tab 48000 \tab 5000 \tab 50000 \tab 5200 \tab 5600 \tab 5760 \tab 6000 \tab 60000 \tab 6480 \tab 6500 \tab 65000 \tab 6968 \tab 7000 \tab 7008 \tab 72000 \tab 7280 \tab 7384 \tab 7500 \tab 75000 \tab 7600 \tab 8000 \tab 80000 \tab 8320 \tab 85000 \tab 9000 \tab 9500 \tab 9600 \tab 9e+05 \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 3 \tab 1 \tab 235 \tab 1 \tab 1 \tab 2 \tab 2 \tab 12 \tab 1 \tab 150 \tab 1 \tab 1 \tab 1 \tab 18 \tab 19 \tab 1 \tab 214 \tab 1 \tab 1 \tab 15 \tab 9 \tab 1 \tab 1 \tab 1 \tab 45 \tab 1 \tab 9 \tab 1 \tab 3 \tab 9 \tab 137 \tab 2 \tab 2 \tab 6 \tab 3 \tab 4 \tab 1 \tab 42 \tab 1 \tab 4 \tab 8 \tab 32 \tab 1 \tab 2 \tab 6 \tab 1 \tab 1 \tab 1 \tab 9 \tab 13 \tab 1 \tab 3 \tab 1 \tab 24 \tab 8 \tab 1 \tab 1 \tab 1 \tab 43 \tab 1 \tab 1 \tab 5 \tab 1 \tab 2 \tab 40 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 86 \tab 2 \tab 1 \tab 1 \tab 44 \tab 1 \tab 1 \tab 1 \tab 59 \tab 190 \tab 1819 \cr
+   Total \tab 255 \tab 3 \tab 1 \tab 235 \tab 1 \tab 1 \tab 2 \tab 2 \tab 12 \tab 1 \tab 150 \tab 1 \tab 1 \tab 1 \tab 18 \tab 19 \tab 1 \tab 214 \tab 1 \tab 1 \tab 15 \tab 9 \tab 1 \tab 1 \tab 1 \tab 45 \tab 1 \tab 9 \tab 1 \tab 3 \tab 9 \tab 137 \tab 2 \tab 2 \tab 6 \tab 3 \tab 4 \tab 1 \tab 42 \tab 1 \tab 4 \tab 8 \tab 32 \tab 1 \tab 2 \tab 6 \tab 1 \tab 1 \tab 1 \tab 9 \tab 13 \tab 1 \tab 3 \tab 1 \tab 24 \tab 8 \tab 1 \tab 1 \tab 1 \tab 43 \tab 1 \tab 1 \tab 5 \tab 1 \tab 2 \tab 40 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 86 \tab 2 \tab 1 \tab 1 \tab 44 \tab 1 \tab 1 \tab 1 \tab 59 \tab 190 \tab 1819 \cr
+}
 }
 
 \seealso{

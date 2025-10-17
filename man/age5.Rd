@@ -22,16 +22,23 @@ Question How old is (NAME)?  PROBE:  Your best guess. ASK FOR EACH NAME.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/949/vshow}{GSS Data Explorer page for \code{age5}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 45 \tab 46 \tab 47 \tab 48 \tab 49 \tab 50 \tab 51 \tab 52 \tab 53 \tab 54 \tab 55 \tab 56 \tab 57 \tab 58 \tab 59 \tab 60 \tab 61 \tab 62 \tab 63 \tab 64 \tab 65 \tab 66 \tab 67 \tab 68 \tab 70 \tab 71 \tab 72 \tab 73 \tab 74 \tab 75 \tab 77 \tab 78 \tab 80 \tab 81 \tab 82 \tab 84 \tab 9 \tab no answer \tab 69 \tab 76 \tab 92 \tab Total \cr
+   1985 \tab 1153 \tab 2 \tab 2 \tab 2 \tab 1 \tab 2 \tab 3 \tab 4 \tab 1 \tab 2 \tab 7 \tab 11 \tab 6 \tab 7 \tab 11 \tab 9 \tab 6 \tab 7 \tab 7 \tab 11 \tab 6 \tab 13 \tab 14 \tab 11 \tab 17 \tab 8 \tab 7 \tab 11 \tab 9 \tab 16 \tab 7 \tab 4 \tab 7 \tab 8 \tab 4 \tab 5 \tab 3 \tab 6 \tab 4 \tab 11 \tab 3 \tab 8 \tab 2 \tab 5 \tab 12 \tab 6 \tab 5 \tab 3 \tab 6 \tab 8 \tab 1 \tab 5 \tab 4 \tab 4 \tab 3 \tab 1 \tab 3 \tab 4 \tab 3 \tab 3 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 4 \tab - \tab - \tab - \tab 1534 \cr
+   2004 \tab 2600 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab 2 \tab 2 \tab 2 \tab 3 \tab 4 \tab 1 \tab 5 \tab 1 \tab 3 \tab 3 \tab 3 \tab 5 \tab 3 \tab 3 \tab 6 \tab 3 \tab 8 \tab 2 \tab 4 \tab 5 \tab 1 \tab 1 \tab 4 \tab 2 \tab 3 \tab 4 \tab 7 \tab 4 \tab 5 \tab 2 \tab 3 \tab 3 \tab - \tab 4 \tab 2 \tab 2 \tab 4 \tab 2 \tab 4 \tab 4 \tab 1 \tab 2 \tab 3 \tab 1 \tab 4 \tab 1 \tab 2 \tab - \tab 2 \tab - \tab 3 \tab 2 \tab - \tab 4 \tab - \tab 1 \tab 1 \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab 46 \tab 1 \tab 3 \tab 1 \tab 2812 \cr
+   Total \tab 3753 \tab 2 \tab 3 \tab 2 \tab 2 \tab 2 \tab 3 \tab 4 \tab 3 \tab 4 \tab 9 \tab 14 \tab 10 \tab 8 \tab 16 \tab 10 \tab 9 \tab 10 \tab 10 \tab 16 \tab 9 \tab 16 \tab 20 \tab 14 \tab 25 \tab 10 \tab 11 \tab 16 \tab 10 \tab 17 \tab 11 \tab 6 \tab 10 \tab 12 \tab 11 \tab 9 \tab 8 \tab 8 \tab 7 \tab 14 \tab 3 \tab 12 \tab 4 \tab 7 \tab 16 \tab 8 \tab 9 \tab 7 \tab 7 \tab 10 \tab 4 \tab 6 \tab 8 \tab 5 \tab 5 \tab 1 \tab 5 \tab 4 \tab 6 \tab 5 \tab 1 \tab 7 \tab 1 \tab 2 \tab 2 \tab 3 \tab 3 \tab 1 \tab 1 \tab 3 \tab 1 \tab 50 \tab 1 \tab 3 \tab 1 \tab 4346 \cr
+}
 }
 
 \seealso{

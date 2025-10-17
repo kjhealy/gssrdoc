@@ -23,15 +23,21 @@ Question Over the past five years, have you been harassed by your superiors or c
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6327/vshow}{GSS Data Explorer page for \code{harass5}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab i do not have a job/superior/co-worker \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1390 \tab 237 \tab 1136 \tab 96 \tab 1 \tab 7 \tab 2867 \cr
+   Total \tab 1390 \tab 237 \tab 1136 \tab 96 \tab 1 \tab 7 \tab 2867 \cr
+}
 }
 
 \seealso{

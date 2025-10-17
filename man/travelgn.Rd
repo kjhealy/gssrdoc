@@ -25,16 +25,23 @@ C. Made an airplane or other travel reservations?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2534/vshow}{GSS Data Explorer page for \code{travelgn}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab Total \cr
+   2000 \tab 1884 \tab 564 \tab 228 \tab 123 \tab 18 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1372 \tab 795 \tab 370 \tab 147 \tab 5 \tab 69 \tab 7 \tab 2765 \cr
+   Total \tab 3256 \tab 1359 \tab 598 \tab 270 \tab 23 \tab 69 \tab 7 \tab 5582 \cr
+}
 }
 
 \seealso{

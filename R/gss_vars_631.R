@@ -1,3 +1,43 @@
+#'  Conflict between natives and immigrants
+#' 
+#'  conimm
+#' 
+#' Question People born in America and people from other countries who have come to live in America?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very strong conflicts
+#'   * `2` strong conflicts
+#'   * `3` not very strong conflicts
+#'   * `4` there are no conflicts
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2021  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `conimm`](https://gssdataexplorer.norc.org/variables/7511/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very strong conflicts |strong conflicts |not very strong conflicts |there are no conflicts |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------------------|:----------------|:-------------------------|:----------------------|:------------|:---------|:--------------|:-----|
+#'  |2021  |2029 |244                   |854              |558                       |44                     |126          |160       |17             |4032  |
+#'  |Total |2029 |244                   |854              |558                       |44                     |126          |160       |17             |4032  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name conimm
+NULL
+
+
 #'  R's self ranking of social position (2021)
 #' 
 #'  rank1
@@ -13,13 +53,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rank1`](https://gssdataexplorer.norc.org/variables/7512/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - top |10 - bottom |2  |3   |4   |5   |6   |7   |8  |9  |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-------|:-----------|:--|:---|:---|:---|:---|:---|:--|:--|:------------|:---------|:--------------|:-----|
+#'  |2021  |2029 |34      |40          |44 |228 |267 |730 |197 |165 |78 |29 |5            |161       |25             |4032  |
+#'  |Total |2029 |34      |40          |44 |228 |267 |730 |197 |165 |78 |29 |5            |161       |25             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -45,13 +91,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rank16`](https://gssdataexplorer.norc.org/variables/7513/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - top |10 - bottom |2  |3   |4   |5   |6   |7   |8   |9  |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-------|:-----------|:--|:---|:---|:---|:---|:---|:---|:--|:------------|:---------|:--------------|:-----|
+#'  |2021  |2029 |34      |55          |44 |160 |226 |599 |243 |237 |146 |64 |4            |163       |28             |4032  |
+#'  |Total |2029 |34      |55          |44 |160 |226 |599 |243 |237 |146 |64 |4            |163       |28             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -77,13 +129,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rank10fut`](https://gssdataexplorer.norc.org/variables/7514/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - top |10 - bottom |2   |3   |4   |5   |6   |7   |8  |9  |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-------|:-----------|:---|:---|:---|:---|:---|:---|:--|:--|:------------|:---------|:--------------|:-----|
+#'  |2021  |2029 |77      |49          |106 |282 |317 |554 |170 |129 |82 |27 |12           |165       |33             |4032  |
+#'  |Total |2029 |77      |49          |106 |282 |317 |554 |170 |129 |82 |27 |12           |165       |33             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -111,13 +169,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fairdist`](https://gssdataexplorer.norc.org/variables/7515/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very fair |fair |unfair |very unfair |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:----|:------|:-----------|:------------|:---------|:--------------|:-----|
+#'  |2021  |2029 |74        |406  |805    |367         |166          |174       |11             |4032  |
+#'  |Total |2029 |74        |406  |805    |367         |166          |174       |11             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -148,13 +212,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `contpoor`](https://gssdataexplorer.norc.org/variables/7516/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |less than once a month |once a month |several times a month |once a week |several times a week |every day |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----|:----------------------|:------------|:---------------------|:-----------|:--------------------|:---------|:------------|:---------|:--------------|:-----|
+#'  |2021  |2029 |80    |240                    |151          |378                   |128         |377                  |350       |112          |174       |13             |4032  |
+#'  |Total |2029 |80    |240                    |151          |378                   |128         |377                  |350       |112          |174       |13             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -185,13 +255,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `contrich`](https://gssdataexplorer.norc.org/variables/7517/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |less than once a month |once a month |several times a month |once a week |several times a week |every day |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----|:----------------------|:------------|:---------------------|:-----------|:--------------------|:---------|:------------|:---------|:--------------|:-----|
+#'  |2021  |2029 |158   |349                    |188          |399                   |110         |294                  |208       |104          |175       |18             |4032  |
+#'  |Total |2029 |158   |349                    |188          |399                   |110         |294                  |208       |104          |175       |18             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -220,13 +296,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `endsme12`](https://gssdataexplorer.norc.org/variables/7518/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very difficult |fairly difficult |neither easy nor difficult |fairly easy |very easy |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:----------------|:--------------------------|:-----------|:---------|:------------|:---------|:--------------|:-----|
+#'  |2021  |2029 |132            |349              |507                        |488         |276       |59           |176       |16             |4032  |
+#'  |Total |2029 |132            |349              |507                        |488         |276       |59           |176       |16             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -257,13 +339,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `skipmeal`](https://gssdataexplorer.norc.org/variables/7519/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |less than once a month |once a month |several times a month |once a week |several times a week |every day |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----|:----------------------|:------------|:---------------------|:-----------|:--------------------|:---------|:------------|:---------|:--------------|:-----|
+#'  |2021  |2029 |1471  |107                    |46           |82                    |18          |31                   |12        |52           |176       |8              |4032  |
+#'  |Total |2029 |1471  |107                    |46           |82                    |18          |31                   |12        |52           |176       |8              |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -293,13 +381,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `class1`](https://gssdataexplorer.norc.org/variables/7520/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |lower class |working class |lower middle class |middle class |upper middle class |upper class |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------|:-------------|:------------------|:------------|:------------------|:-----------|:------------|:---------|:--------------|:-----|
+#'  |2021  |2029 |95          |461           |336                |666          |226                |22          |4            |178       |15             |4032  |
+#'  |Total |2029 |95          |461           |336                |666          |226                |22          |4            |178       |15             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -307,38 +401,6 @@ NULL
 #' @keywords variable
 #' @md
 #' @name class1
-NULL
-
-
-#'  In the past 7 days, r's average pain (2021)
-#' 
-#'  ratepain1
-#' 
-#' Question On a scale from 0 to 10, with 0 meaning no pain and 10 being the worst imaginable pain, how would you rate your pain on average?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `0` 0 - no pain
-#'   * `10` 10 - the worst imaginable pain
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `ratepain1`](https://gssdataexplorer.norc.org/variables/7521/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name ratepain1
 NULL
 
 

@@ -23,16 +23,22 @@ D. To keep watch on the actions of government
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4910/vshow}{GSS Data Explorer page for \code{watchgov}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 19 \tab 12 \tab 29 \tab 100 \tab 211 \tab 246 \tab 838 \tab 14 \tab 3 \tab 2812 \cr
+   2014 \tab 1274 \tab 24 \tab 8 \tab 27 \tab 77 \tab 129 \tab 221 \tab 744 \tab 33 \tab 1 \tab 2538 \cr
+   Total \tab 2614 \tab 43 \tab 20 \tab 56 \tab 177 \tab 340 \tab 467 \tab 1582 \tab 47 \tab 4 \tab 5350 \cr
+}
 }
 
 \seealso{

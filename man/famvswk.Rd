@@ -24,20 +24,26 @@ Question How often do the demands of your family interfere with your work on the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2771/vshow}{GSS Data Explorer page for \code{famvswk}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 100 \tab 431 \tab 635 \tab 610 \tab 6 \tab 14 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 67 \tab 430 \tab 663 \tab 555 \tab 8 \tab 11 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 54 \tab 267 \tab 487 \tab 355 \tab 1 \tab 23 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 73 \tab 305 \tab 483 \tab 382 \tab 2 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 59 \tab 313 \tab 620 \tab 424 \tab 2 \tab 30 \tab - \tab 2348 \cr
+   2022 \tab 1543 \tab 93 \tab 508 \tab 772 \tab 599 \tab 6 \tab 10 \tab 13 \tab 3544 \cr
+   Total \tab 8333 \tab 446 \tab 2254 \tab 3660 \tab 2925 \tab 25 \tab 93 \tab 13 \tab 17749 \cr
+}
 }
 
 \seealso{

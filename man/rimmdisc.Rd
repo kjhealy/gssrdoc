@@ -24,15 +24,21 @@ Question B. What about immigrants?  Is it very likely, somewhat likely, somewhat
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1648/vshow}{GSS Data Explorer page for \code{rimmdisc}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 126 \tab 309 \tab 427 \tab 480 \tab 110 \tab 22 \tab 2992 \cr
+   Total \tab 1518 \tab 126 \tab 309 \tab 427 \tab 480 \tab 110 \tab 22 \tab 2992 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,23 @@ It is the responsibility of the government to reduce the differences in income b
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4005/vshow}{GSS Data Explorer page for \code{eqincome}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab 5 \tab no answer \tab don't know \tab Total \cr
+   1985 \tab 857 \tab 84 \tab 113 \tab 136 \tab 204 \tab 129 \tab 11 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 114 \tab 286 \tab 327 \tab 349 \tab 125 \tab 14 \tab 2 \tab 1372 \cr
+   Total \tab 1012 \tab 198 \tab 399 \tab 463 \tab 553 \tab 254 \tab 25 \tab 2 \tab 2906 \cr
+}
 }
 
 \seealso{

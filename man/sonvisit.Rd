@@ -28,15 +28,21 @@ A. How often do you see or visit with your son?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4148/vshow}{GSS Data Explorer page for \code{sonvisit}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
+   1986 \tab 973 \tab 103 \tab 59 \tab 57 \tab 70 \tab 65 \tab 79 \tab 59 \tab 5 \tab 1470 \cr
+   Total \tab 973 \tab 103 \tab 59 \tab 57 \tab 70 \tab 65 \tab 79 \tab 59 \tab 5 \tab 1470 \cr
+}
 }
 
 \seealso{

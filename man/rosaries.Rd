@@ -26,15 +26,21 @@ B. Catholic rosaries and holy medals are superstitious.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3095/vshow}{GSS Data Explorer page for \code{rosaries}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 1475 \tab 93 \tab 208 \tab 436 \tab 383 \tab 166 \tab 33 \tab 18 \tab 2812 \cr
+   Total \tab 1475 \tab 93 \tab 208 \tab 436 \tab 383 \tab 166 \tab 33 \tab 18 \tab 2812 \cr
+}
 }
 
 \seealso{

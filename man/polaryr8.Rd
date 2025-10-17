@@ -25,16 +25,23 @@ H. Attend a live lecture by a scientist about the polar regions?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3431/vshow}{GSS Data Explorer page for \code{polaryr8}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 137 \tab 338 \tab 438 \tab 931 \tab 18 \tab 2 \tab 4510 \cr
+   2010 \tab 1338 \tab 51 \tab 117 \tab 177 \tab 350 \tab 2 \tab 9 \tab 2044 \cr
+   Total \tab 3984 \tab 188 \tab 455 \tab 615 \tab 1281 \tab 20 \tab 11 \tab 6554 \cr
+}
 }
 
 \seealso{

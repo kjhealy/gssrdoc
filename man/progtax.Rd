@@ -25,16 +25,23 @@ Question Some people think those with high incomes should pay a larger proportio
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4004/vshow}{GSS Data Explorer page for \code{progtax}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab pay much more \tab pay more \tab all pay same \tab pay less \tab pay much less \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 119 \tab 252 \tab 265 \tab 6 \tab 1 \tab 25 \tab 9 \tab 1534 \cr
+   1990 \tab 155 \tab 218 \tab 497 \tab 425 \tab 10 \tab 5 \tab 51 \tab 11 \tab 1372 \cr
+   Total \tab 1012 \tab 337 \tab 749 \tab 690 \tab 16 \tab 6 \tab 76 \tab 20 \tab 2906 \cr
+}
 }
 
 \seealso{

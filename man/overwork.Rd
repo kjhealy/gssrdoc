@@ -25,20 +25,26 @@ F. I have too much work to do everything well
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2779/vshow}{GSS Data Explorer page for \code{overwork}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 113 \tab 367 \tab 1083 \tab 206 \tab 14 \tab 13 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 98 \tab 361 \tab 1063 \tab 189 \tab 10 \tab 13 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 93 \tab 285 \tab 668 \tab 114 \tab 4 \tab 23 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 100 \tab 321 \tab 732 \tab 89 \tab 1 \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 127 \tab 369 \tab 786 \tab 131 \tab 5 \tab 30 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 185 \tab 472 \tab 1100 \tab 195 \tab 14 \tab 12 \tab 20 \tab 3544 \cr
+   Total \tab 8336 \tab 716 \tab 2175 \tab 5432 \tab 924 \tab 48 \tab 98 \tab 20 \tab 17749 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ A. Grandmother; grandfather
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4153/vshow}{GSS Data Explorer page for \code{grparnum}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1986 \tab - \tab 1028 \tab 220 \tab 136 \tab 47 \tab 25 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 6 \tab 1470 \cr
+   Total \tab 0 \tab 1028 \tab 220 \tab 136 \tab 47 \tab 25 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 6 \tab 1470 \cr
+}
 }
 
 \seealso{

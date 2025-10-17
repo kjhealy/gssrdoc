@@ -26,19 +26,27 @@ F. People who want children ought to get married.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 1988, 1994, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4369/vshow}{GSS Data Explorer page for \code{marlegit}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1988 \tab 67 \tab 484 \tab 529 \tab 165 \tab 156 \tab 48 \tab 8 \tab 24 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 434 \tab 597 \tab 145 \tab 175 \tab 55 \tab 15 \tab 26 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 450 \tab 302 \tab 182 \tab 141 \tab 77 \tab 17 \tab 2 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 244 \tab 544 \tab 227 \tab 221 \tab 36 \tab 24 \tab 6 \tab - \tab 1974 \cr
+   2022 \tab 2381 \tab 147 \tab 317 \tab 325 \tab 233 \tab 88 \tab 41 \tab 5 \tab 7 \tab 3544 \cr
+   Total \tab 6259 \tab 1759 \tab 2289 \tab 1044 \tab 926 \tab 304 \tab 105 \tab 63 \tab 7 \tab 12756 \cr
+}
 }
 
 \seealso{

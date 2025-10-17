@@ -15,13 +15,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdrel1`](https://gssdataexplorer.norc.org/variables/1510/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |biological |adopted |step |no answer |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
+#'  |1994  |1860 |1043       |21      |59   |9         |2992  |
+#'  |Total |1860 |1043       |21      |59   |9         |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -49,13 +55,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdrel2`](https://gssdataexplorer.norc.org/variables/1511/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |biological |adopted |step |no answer |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
+#'  |1994  |2105 |831        |13      |36   |7         |2992  |
+#'  |Total |2105 |831        |13      |36   |7         |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -83,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdrel3`](https://gssdataexplorer.norc.org/variables/1512/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |biological |adopted |step |no answer |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
+#'  |1994  |2500 |445        |6       |31   |10        |2992  |
+#'  |Total |2500 |445        |6       |31   |10        |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -117,13 +135,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdrel4`](https://gssdataexplorer.norc.org/variables/1513/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |biological |adopted |step |no answer |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
+#'  |1994  |2740 |224        |4       |17   |7         |2992  |
+#'  |Total |2740 |224        |4       |17   |7         |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -151,13 +175,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdrel5`](https://gssdataexplorer.norc.org/variables/1514/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |biological |adopted |step |no answer |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
+#'  |1994  |2871 |107        |1       |10   |3         |2992  |
+#'  |Total |2871 |107        |1       |10   |3         |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -185,13 +215,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdrel6`](https://gssdataexplorer.norc.org/variables/1515/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |biological |adopted |step |no answer |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
+#'  |1994  |2932 |48         |1       |9    |2         |2992  |
+#'  |Total |2932 |48         |1       |9    |2         |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -219,13 +255,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdrel7`](https://gssdataexplorer.norc.org/variables/1516/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |biological |step |no answer |Total |
+#'  |:-----|:----|:----------|:----|:---------|:-----|
+#'  |1994  |2955 |30         |5    |2         |2992  |
+#'  |Total |2955 |30         |5    |2         |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -253,13 +295,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdrel8`](https://gssdataexplorer.norc.org/variables/1517/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |biological |adopted |step |no answer |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
+#'  |1994  |2975 |14         |1       |1    |1         |2992  |
+#'  |Total |2975 |14         |1       |1    |1         |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -287,13 +335,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdrel9`](https://gssdataexplorer.norc.org/variables/1518/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |biological |adopted |Total |
+#'  |:-----|:----|:----------|:-------|:-----|
+#'  |1994  |2983 |8          |1       |2992  |
+#'  |Total |2983 |8          |1       |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -320,13 +374,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kdalive1`](https://gssdataexplorer.norc.org/variables/1519/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no |don't know |no answer |Total |
+#'  |:-----|:----|:----|:--|:----------|:---------|:-----|
+#'  |1994  |1860 |1075 |42 |2          |13        |2992  |
+#'  |Total |1860 |1075 |42 |2          |13        |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility

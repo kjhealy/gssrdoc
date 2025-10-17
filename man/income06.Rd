@@ -46,19 +46,26 @@ Just tell me the letter.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2008, 2010, 2012, 2014 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/117/vshow}{GSS Data Explorer page for \code{income06}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllll}{
+   year \tab iap \tab under $1 000 \tab $1 000 to 2 999 \tab $3 000 to 3 999 \tab $4 000 to 4 999 \tab $5 000 to 5 999 \tab $6 000 to 6 999 \tab $7 000 to 7 999 \tab $8 000 to 9 999 \tab $10000 to 12499 \tab $12500 to 14999 \tab $15000 to 17499 \tab $17500 to 19999 \tab $20000 to 22499 \tab $22500 to 24999 \tab $25000 to 29999 \tab $30000 to 34999 \tab $35000 to 39999 \tab $40000 to 49999 \tab $50000 to 59999 \tab $60000 to 74999 \tab $75000 to $89999 \tab $90000 to $109999 \tab $110000 to $129999 \tab $130000 to $149999 \tab $150000 or over \tab don't know \tab refused \tab Total \cr
+   2006 \tab - \tab 43 \tab 38 \tab 29 \tab 27 \tab 40 \tab 45 \tab 48 \tab 83 \tab 142 \tab 145 \tab 126 \tab 102 \tab 157 \tab 125 \tab 212 \tab 231 \tab 217 \tab 394 \tab 332 \tab 360 \tab 284 \tab 229 \tab 162 \tab 89 \tab 213 \tab 195 \tab 442 \tab 4510 \cr
+   2008 \tab - \tab 19 \tab 25 \tab 23 \tab 9 \tab 16 \tab 19 \tab 29 \tab 34 \tab 61 \tab 44 \tab 52 \tab 47 \tab 59 \tab 70 \tab 95 \tab 99 \tab 86 \tab 144 \tab 141 \tab 204 \tab 129 \tab 120 \tab 80 \tab 46 \tab 123 \tab 78 \tab 171 \tab 2023 \cr
+   2010 \tab - \tab 43 \tab 24 \tab 17 \tab 8 \tab 19 \tab 19 \tab 27 \tab 37 \tab 82 \tab 65 \tab 72 \tab 34 \tab 66 \tab 78 \tab 81 \tab 99 \tab 89 \tab 147 \tab 143 \tab 174 \tab 129 \tab 111 \tab 69 \tab 57 \tab 115 \tab 103 \tab 136 \tab 2044 \cr
+   2012 \tab - \tab 24 \tab 25 \tab 18 \tab 10 \tab 8 \tab 22 \tab 24 \tab 38 \tab 77 \tab 63 \tab 58 \tab 48 \tab 66 \tab 60 \tab 93 \tab 89 \tab 101 \tab 151 \tab 118 \tab 153 \tab 151 \tab 104 \tab 68 \tab 45 \tab 144 \tab 105 \tab 111 \tab 1974 \cr
+   2014 \tab - \tab 38 \tab 29 \tab 20 \tab 12 \tab 22 \tab 18 \tab 16 \tab 51 \tab 84 \tab 64 \tab 66 \tab 50 \tab 69 \tab 86 \tab 123 \tab 141 \tab 104 \tab 173 \tab 208 \tab 227 \tab 172 \tab 167 \tab 94 \tab 73 \tab 207 \tab 98 \tab 126 \tab 2538 \cr
+   Total \tab 0 \tab 167 \tab 141 \tab 107 \tab 66 \tab 105 \tab 123 \tab 144 \tab 243 \tab 446 \tab 381 \tab 374 \tab 281 \tab 417 \tab 419 \tab 604 \tab 659 \tab 597 \tab 1009 \tab 942 \tab 1118 \tab 865 \tab 731 \tab 473 \tab 310 \tab 802 \tab 579 \tab 986 \tab 13089 \cr
+}
 }
 
 \seealso{

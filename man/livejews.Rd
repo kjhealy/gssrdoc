@@ -26,16 +26,22 @@ A. Living in a neighborhood where half of your neighbors were Jews?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1214/vshow}{GSS Data Explorer page for \code{livejews}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 84 \tab 237 \tab 836 \tab 148 \tab 38 \tab 19 \tab 10 \tab 1372 \cr
+   2000 \tab 1419 \tab 174 \tab 297 \tab 713 \tab 96 \tab 27 \tab 77 \tab 14 \tab 2817 \cr
+   Total \tab 1419 \tab 258 \tab 534 \tab 1549 \tab 244 \tab 65 \tab 96 \tab 24 \tab 4189 \cr
+}
 }
 
 \seealso{

@@ -26,17 +26,24 @@ A. Control of wages by legislation.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1996 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4049/vshow}{GSS Data Explorer page for \code{setwage}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly in favor \tab in favor \tab neither \tab against \tab strongly against \tab no answer \tab don't know \tab Total \cr
+   1985 \tab 857 \tab 59 \tab 90 \tab 141 \tab 254 \tab 120 \tab 13 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 84 \tab 209 \tab 294 \tab 406 \tab 186 \tab 36 \tab 2 \tab 1372 \cr
+   1996 \tab 1572 \tab 109 \tab 252 \tab 275 \tab 427 \tab 216 \tab 49 \tab 4 \tab 2904 \cr
+   Total \tab 2584 \tab 252 \tab 551 \tab 710 \tab 1087 \tab 522 \tab 98 \tab 6 \tab 5810 \cr
+}
 }
 
 \seealso{

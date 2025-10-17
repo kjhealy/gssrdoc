@@ -24,15 +24,21 @@ Question How firm are you about (your opinion on/the way you feel about) the Equ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/716/vshow}{GSS Data Explorer page for \code{erafirm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 66 \tab 356 \tab 525 \tab 824 \tab 80 \tab 9 \tab 1860 \cr
+   Total \tab 0 \tab 66 \tab 356 \tab 525 \tab 824 \tab 80 \tab 9 \tab 1860 \cr
+}
 }
 
 \seealso{

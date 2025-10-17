@@ -29,15 +29,21 @@ Question At about what age were you first sexually attracted to someone of the s
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3908/vshow}{GSS Data Explorer page for \code{attractd}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab under age 14 \tab age 14-18 \tab age 18-25 \tab age 26-35 \tab age 36-45 \tab age 46-55 \tab i have never told anyone i have never been sexually attracted to someone of the same sex \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1879 \tab 30 \tab 23 \tab 13 \tab 3 \tab 1 \tab 4 \tab 20 \tab 4 \tab 46 \tab 2023 \cr
+   Total \tab 1879 \tab 30 \tab 23 \tab 13 \tab 3 \tab 1 \tab 4 \tab 20 \tab 4 \tab 46 \tab 2023 \cr
+}
 }
 
 \seealso{

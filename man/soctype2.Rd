@@ -25,16 +25,23 @@ Question What do you think America ought to be like - which would you prefer?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   B/C/- \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4337/vshow}{GSS Data Explorer page for \code{soctype2}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab type a \tab type b \tab type c \tab type d \tab type e \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 1545 \tab 26 \tab 101 \tab 177 \tab 514 \tab 280 \tab 88 \tab 86 \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 27 \tab 87 \tab 194 \tab 965 \tab 417 \tab 107 \tab 178 \tab 28 \tab 4032 \cr
+   Total \tab 3574 \tab 53 \tab 188 \tab 371 \tab 1479 \tab 697 \tab 195 \tab 264 \tab 28 \tab 6849 \cr
+}
 }
 
 \seealso{

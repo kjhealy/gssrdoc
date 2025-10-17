@@ -291,21 +291,10 @@ Question Partner's Occupation, Prestige, and Industry
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
-}
-
-\section{Link at the GSS}{
-
-For further details see the \href{https://gssdataexplorer.norc.org/variables/6158/vshow}{GSS Data Explorer page for \code{coind10}}.
 }
 
 \seealso{

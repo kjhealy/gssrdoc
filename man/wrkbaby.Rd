@@ -24,19 +24,27 @@ B. When there is a child under school age.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 1988, 1994, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4354/vshow}{GSS Data Explorer page for \code{wrkbaby}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab work full-time \tab work part-time \tab stay home \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1988 \tab 67 \tab 136 \tab 425 \tab 681 \tab 143 \tab 29 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 141 \tab 436 \tab 696 \tab 140 \tab 34 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 133 \tab 421 \tab 460 \tab 155 \tab 2 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 171 \tab 481 \tab 335 \tab 306 \tab 9 \tab - \tab 1974 \cr
+   2022 \tab 2380 \tab 209 \tab 315 \tab 212 \tab 411 \tab 9 \tab 8 \tab 3544 \cr
+   Total \tab 6258 \tab 790 \tab 2078 \tab 2384 \tab 1155 \tab 83 \tab 8 \tab 12756 \cr
+}
 }
 
 \seealso{

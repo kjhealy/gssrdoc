@@ -26,16 +26,23 @@ F. How well he or she does the job (how important should that be)?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   B/C/- \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4333/vshow}{GSS Data Explorer page for \code{paydowel}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 1545 \tab 484 \tab 618 \tab 83 \tab 10 \tab 6 \tab 21 \tab 50 \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 763 \tab 796 \tab 171 \tab 24 \tab 6 \tab 55 \tab 166 \tab 22 \tab 4032 \cr
+   Total \tab 3574 \tab 1247 \tab 1414 \tab 254 \tab 34 \tab 12 \tab 76 \tab 216 \tab 22 \tab 6849 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ C. Informal learning from co-workers or supervisors where you work now.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1370/vshow}{GSS Data Explorer page for \code{learning}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 605 \tab 295 \tab 353 \tab 145 \tab 101 \tab 6 \tab 12 \tab 1517 \cr
+   Total \tab 605 \tab 295 \tab 353 \tab 145 \tab 101 \tab 6 \tab 12 \tab 1517 \cr
+}
 }
 
 \seealso{

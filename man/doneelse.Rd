@@ -35,15 +35,21 @@ Question Please specify what it is you or someone you know has done.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3871/vshow}{GSS Data Explorer page for \code{doneelse}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab research and collect more information \tab join military \tab avoid possible targets of terror \tab buy new insurance policy \tab psycho therapy \tab pray \tab more vigilant to surrounding \tab join secret service \tab buy weapons \tab vigilance and new assignments because they are already in military or secrete service \tab terror-related traiing at work \tab terror-related traiing in community \tab build safe place \tab deal with government \tab talk about it with other people \tab no answer \tab Total \cr
+   2008 \tab 1956 \tab 10 \tab 5 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 2 \tab 9 \tab 8 \tab 3 \tab 7 \tab 2 \tab 7 \tab 3 \tab 3 \tab 2023 \cr
+   Total \tab 1956 \tab 10 \tab 5 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 2 \tab 9 \tab 8 \tab 3 \tab 7 \tab 2 \tab 7 \tab 3 \tab 3 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -23,18 +23,25 @@ Question Suppose a test shows the baby has a serious genetic defect. Would you (
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/C/- \tab partial \cr
-   1996 \tab A/C/- \tab partial \cr
-   2004 \tab A/B/C \tab full \cr
-   2018 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   A/C/- \tab 1990, 1996, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5089/vshow}{GSS Data Explorer page for \code{geneabrt}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab have abortion \tab no abortion \tab refused \tab don't know \tab no answer \tab Total \cr
+   1990 \tab 455 \tab 377 \tab 347 \tab 20 \tab 165 \tab 8 \tab 1372 \cr
+   1996 \tab 1936 \tab 404 \tab 434 \tab - \tab 49 \tab 81 \tab 2904 \cr
+   2004 \tab 2 \tab 808 \tab 1643 \tab - \tab 312 \tab 47 \tab 2812 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 4741 \tab 1589 \tab 2424 \tab 20 \tab 526 \tab 136 \tab 9436 \cr
+}
 }
 
 \seealso{

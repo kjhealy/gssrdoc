@@ -26,15 +26,21 @@ B. Buying major things for the home
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4442/vshow}{GSS Data Explorer page for \code{buythngs}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab mostly me \tab mostly my spouse \tab sometimes me or sometimes my spouse \tab we decide together \tab someone else \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2058 \tab 116 \tab 92 \tab 120 \tab 350 \tab 4 \tab 2 \tab 23 \tab 2765 \cr
+   Total \tab 2058 \tab 116 \tab 92 \tab 120 \tab 350 \tab 4 \tab 2 \tab 23 \tab 2765 \cr
+}
 }
 
 \seealso{

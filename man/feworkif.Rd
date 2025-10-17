@@ -22,15 +22,21 @@ Question If there is a limited number of jobs, do you approve or disapprove of a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/718/vshow}{GSS Data Explorer page for \code{feworkif}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab approve \tab disapprove \tab don't know \tab no answer \tab Total \cr
+   1977 \tab - \tab 543 \tab 953 \tab 30 \tab 4 \tab 1530 \cr
+   Total \tab 0 \tab 543 \tab 953 \tab 30 \tab 4 \tab 1530 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ A. If hospital staff said your child should be on medication, how likely would y
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2948/vshow}{GSS Data Explorer page for \code{adhosmed}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab Total \cr
+   2002 \tab 2382 \tab 252 \tab 102 \tab 20 \tab 7 \tab 2 \tab 2765 \cr
+   Total \tab 2382 \tab 252 \tab 102 \tab 20 \tab 7 \tab 2 \tab 2765 \cr
+}
 }
 
 \seealso{

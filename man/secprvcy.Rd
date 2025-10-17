@@ -27,15 +27,21 @@ background information before giving a SECRET or TOP SECRET clearance, the gover
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5218/vshow}{GSS Data Explorer page for \code{secprvcy}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab favor indiv right \tab favor govt right \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 229 \tab 1156 \tab 79 \tab 10 \tab 2992 \cr
+   Total \tab 1518 \tab 229 \tab 1156 \tab 79 \tab 10 \tab 2992 \cr
+}
 }
 
 \seealso{

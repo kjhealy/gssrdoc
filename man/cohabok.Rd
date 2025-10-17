@@ -26,19 +26,27 @@ B. It is alright for a couple to live together without intending to get married.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 1994, 1998, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4406/vshow}{GSS Data Explorer page for \code{cohabok}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1994 \tab 1545 \tab 140 \tab 447 \tab 232 \tab 357 \tab 228 \tab 18 \tab 25 \tab - \tab 2992 \cr
+   1998 \tab 1548 \tab 213 \tab 329 \tab 258 \tab 201 \tab 230 \tab 29 \tab 24 \tab - \tab 2832 \cr
+   2002 \tab 1594 \tab 188 \tab 348 \tab 199 \tab 217 \tab 201 \tab 17 \tab 1 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 128 \tab 583 \tab 173 \tab 259 \tab 127 \tab 24 \tab 8 \tab - \tab 1974 \cr
+   2022 \tab 2381 \tab 261 \tab 489 \tab 181 \tab 134 \tab 56 \tab 31 \tab 4 \tab 7 \tab 3544 \cr
+   Total \tab 7740 \tab 930 \tab 2196 \tab 1043 \tab 1168 \tab 842 \tab 119 \tab 62 \tab 7 \tab 14107 \cr
+}
 }
 
 \seealso{

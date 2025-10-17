@@ -29,25 +29,10 @@ G. About how much time (does/did) it usually take you to travel to work - about 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990 \cr
+   Full \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
@@ -56,12 +41,12 @@ Other Core:
 \code{\link{evwork}},
 \code{\link{hrs1}},
 \code{\link{hrs2}},
-\code{\link{id}},
+\code{\link{id}()},
 \code{\link{prestige}},
 \code{\link{wrkgovt}},
 \code{\link{wrkslf}},
 \code{\link{wrkstat}},
-\code{\link{year}}
+\code{\link{year}()}
 }
 \concept{Core}
 \keyword{variable}

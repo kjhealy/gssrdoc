@@ -21,17 +21,23 @@ Question During a typical week, about what percentage of your total time at work
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2840/vshow}{GSS Data Explorer page for \code{usetech}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 1.5 \tab 10 \tab 10.5 \tab 100 \tab 12 \tab 15 \tab 17.5 \tab 2 \tab 2.5 \tab 20 \tab 22.5 \tab 25 \tab 3 \tab 30 \tab 33 \tab 35 \tab 36 \tab 4 \tab 40 \tab 45 \tab 5 \tab 5.5 \tab 50 \tab 55 \tab 6 \tab 6.5 \tab 60 \tab 62.5 \tab 65 \tab 7 \tab 7.5 \tab 70 \tab 75 \tab 77.5 \tab 8 \tab 80 \tab 85 \tab 88 \tab 9 \tab 90 \tab 92.5 \tab 95 \tab 96 \tab 97.5 \tab 98 \tab 99 \tab no answer \tab 0.5 \tab 12.5 \tab 14 \tab 18 \tab 3.5 \tab 37.5 \tab 4.5 \tab 44 \tab 47.5 \tab 82.5 \tab 87.5 \tab 9.5 \tab 92 \tab 97 \tab don't know \tab 13 \tab 17 \tab 24 \tab 37 \tab 38 \tab 46 \tab 47 \tab 49 \tab 64 \tab 74 \tab 76 \tab 78 \tab 86 \tab 93 \tab 94 \tab skipped on web \tab Total \cr
+   2014 \tab 1288 \tab 181 \tab 15 \tab 1 \tab 64 \tab 1 \tab 234 \tab 2 \tab 10 \tab 1 \tab 13 \tab 3 \tab 66 \tab 1 \tab 36 \tab 7 \tab 49 \tab 1 \tab 3 \tab 2 \tab 1 \tab 26 \tab 3 \tab 40 \tab 1 \tab 93 \tab 2 \tab 1 \tab 1 \tab 26 \tab 2 \tab 3 \tab 2 \tab 3 \tab 21 \tab 53 \tab 2 \tab 3 \tab 78 \tab 14 \tab 1 \tab 1 \tab 101 \tab 1 \tab 45 \tab 2 \tab 1 \tab 4 \tab 8 \tab 21 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 176 \tab 16 \tab - \tab 81 \tab - \tab 275 \tab 1 \tab 18 \tab 1 \tab 9 \tab 1 \tab 45 \tab 1 \tab 39 \tab 8 \tab 46 \tab 1 \tab 5 \tab - \tab 3 \tab 39 \tab 2 \tab 38 \tab - \tab 126 \tab 3 \tab 1 \tab - \tab 44 \tab 1 \tab 8 \tab 3 \tab 1 \tab 40 \tab 68 \tab 1 \tab 2 \tab 92 \tab 21 \tab - \tab - \tab 130 \tab - \tab 36 \tab 1 \tab - \tab 5 \tab 7 \tab 30 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 1547 \tab 171 \tab 21 \tab 1 \tab 80 \tab - \tab 465 \tab 3 \tab 25 \tab - \tab 28 \tab 10 \tab 71 \tab - \tab 63 \tab 4 \tab 63 \tab 4 \tab 8 \tab 2 \tab 5 \tab 73 \tab 4 \tab 69 \tab - \tab 148 \tab 1 \tab 6 \tab - \tab 46 \tab - \tab 5 \tab 3 \tab - \tab 44 \tab 81 \tab - \tab 7 \tab 115 \tab 24 \tab - \tab - \tab 137 \tab - \tab 54 \tab - \tab - \tab 9 \tab 14 \tab 21 \tab 10 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 56 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 27 \tab 3544 \cr
+   Total \tab 3735 \tab 528 \tab 52 \tab 2 \tab 225 \tab 1 \tab 974 \tab 6 \tab 53 \tab 2 \tab 50 \tab 14 \tab 182 \tab 2 \tab 138 \tab 19 \tab 158 \tab 6 \tab 16 \tab 4 \tab 9 \tab 138 \tab 9 \tab 147 \tab 1 \tab 367 \tab 6 \tab 8 \tab 1 \tab 116 \tab 3 \tab 16 \tab 8 \tab 4 \tab 105 \tab 202 \tab 3 \tab 12 \tab 285 \tab 59 \tab 1 \tab 1 \tab 368 \tab 1 \tab 135 \tab 3 \tab 1 \tab 18 \tab 29 \tab 72 \tab 11 \tab 3 \tab 3 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 62 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 27 \tab 8430 \cr
+}
 }
 
 \seealso{

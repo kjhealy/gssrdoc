@@ -22,15 +22,21 @@ Question E. Or, consider a person who believes that Blacks are genetically infer
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4988/vshow}{GSS Data Explorer page for \code{allowrac}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes, allow \tab no, not allow \tab don't know \tab no answer \tab Total \cr
+   1989 \tab 1029 \tab 272 \tab 190 \tab 14 \tab 32 \tab 1537 \cr
+   Total \tab 1029 \tab 272 \tab 190 \tab 14 \tab 32 \tab 1537 \cr
+}
 }
 
 \seealso{

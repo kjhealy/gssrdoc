@@ -26,20 +26,26 @@ Question How often do you work at home as part of your job?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2767/vshow}{GSS Data Explorer page for \code{wrkhome}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab never \tab a few times a year \tab about once a month \tab about once a week \tab more than once a week \tab worker works mainly at home \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 1102 \tab 160 \tab 93 \tab 108 \tab 215 \tab 99 \tab 6 \tab 13 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 1019 \tab 150 \tab 110 \tab 130 \tab 199 \tab 107 \tab 8 \tab 11 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 674 \tab 101 \tab 80 \tab 92 \tab 147 \tab 68 \tab - \tab 25 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 744 \tab 97 \tab 67 \tab 92 \tab 167 \tab 75 \tab 1 \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 865 \tab 93 \tab 87 \tab 119 \tab 157 \tab 97 \tab 1 \tab 29 \tab - \tab 2348 \cr
+   2022 \tab 1540 \tab 1090 \tab 148 \tab 70 \tab 104 \tab 224 \tab 337 \tab 5 \tab 11 \tab 15 \tab 3544 \cr
+   Total \tab 8330 \tab 5494 \tab 749 \tab 507 \tab 645 \tab 1109 \tab 783 \tab 21 \tab 96 \tab 15 \tab 17749 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question Why did you choose that answer?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3486/vshow}{GSS Data Explorer page for \code{fishexp2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab because i already know what affects the behavior of fish \tab because that is what is allowed to change in this experiment \tab because that is what stays the same in this experiment \tab because that is what the scientist decided to include in this experiment \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 709 \tab 131 \tab 489 \tab 151 \tab 278 \tab 236 \tab 29 \tab 2023 \cr
+   Total \tab 709 \tab 131 \tab 489 \tab 151 \tab 278 \tab 236 \tab 29 \tab 2023 \cr
+}
 }
 
 \seealso{

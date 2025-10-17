@@ -22,15 +22,21 @@ Question Consider an elderly couple. One of their grandchildren is in need of te
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7780/vshow}{GSS Data Explorer page for \code{eldfnce}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab yes, they definitely should \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no, they definitely should not \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2386 \tab 307 \tab 148 \tab 189 \tab 240 \tab 85 \tab 38 \tab 29 \tab 106 \tab 8 \tab 8 \tab 3544 \cr
+   Total \tab 2386 \tab 307 \tab 148 \tab 189 \tab 240 \tab 85 \tab 38 \tab 29 \tab 106 \tab 8 \tab 8 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

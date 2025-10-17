@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `gmbiz`](https://gssdataexplorer.norc.org/variables/3389/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very well |2  |3   |4   |not at all |don't know |Total |
+#'  |:-----|:----|:---------|:--|:---|:---|:----------|:----------|:-----|
+#'  |2006  |3574 |37        |71 |225 |285 |266        |52         |4510  |
+#'  |Total |3574 |37        |71 |225 |285 |266        |52         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -46,13 +52,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `medagrgm`](https://gssdataexplorer.norc.org/variables/3390/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |near complete agreement |2   |3   |4   |no agreement at all |don't know |Total |
+#'  |:-----|:----|:-----------------------|:---|:---|:---|:-------------------|:----------|:-----|
+#'  |2006  |3574 |76                      |180 |382 |101 |76                  |121        |4510  |
+#'  |Total |3574 |76                      |180 |382 |101 |76                  |121        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -81,13 +93,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `medinfgm`](https://gssdataexplorer.norc.org/variables/3391/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal of influence |a fair amount |a little influence |none at all |don't know |Total |
+#'  |:-----|:----|:-------------------------|:-------------|:------------------|:-----------|:----------|:-----|
+#'  |2006  |3574 |387                       |371           |99                 |30          |49         |4510  |
+#'  |Total |3574 |387                       |371           |99                 |30          |49         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -116,13 +134,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polinfgm`](https://gssdataexplorer.norc.org/variables/3392/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal of influence |a fair amount |a little influence |none at all |don't know |Total |
+#'  |:-----|:----|:-------------------------|:-------------|:------------------|:-----------|:----------|:-----|
+#'  |2006  |3574 |72                        |273           |339                |200         |52         |4510  |
+#'  |Total |3574 |72                        |273           |339                |200         |52         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -151,13 +175,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bizinfgm`](https://gssdataexplorer.norc.org/variables/3393/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal of influence |a fair amount |a little influence |none at all |don't know |Total |
+#'  |:-----|:----|:-------------------------|:-------------|:------------------|:-----------|:----------|:-----|
+#'  |2006  |3574 |41                        |156           |369                |317         |53         |4510  |
+#'  |Total |3574 |41                        |156           |369                |317         |53         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -185,13 +215,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `medbstgm`](https://gssdataexplorer.norc.org/variables/3394/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |what is best for the country |2   |3   |4  |own narrow interests |don't know |Total |
+#'  |:-----|:----|:----------------------------|:---|:---|:--|:--------------------|:----------|:-----|
+#'  |2006  |3574 |311                          |269 |185 |64 |59                   |48         |4510  |
+#'  |Total |3574 |311                          |269 |185 |64 |59                   |48         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -219,13 +255,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polbstgm`](https://gssdataexplorer.norc.org/variables/3395/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |what is best for the country |2  |3   |4   |own narrow interests |don't know |Total |
+#'  |:-----|:----|:----------------------------|:--|:---|:---|:--------------------|:----------|:-----|
+#'  |2006  |3574 |63                           |89 |284 |229 |219                  |52         |4510  |
+#'  |Total |3574 |63                           |89 |284 |229 |219                  |52         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -253,13 +295,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bizbstgm`](https://gssdataexplorer.norc.org/variables/3396/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |what is best for the country |2  |3   |4   |own narrow interests |don't know |Total |
+#'  |:-----|:----|:----------------------------|:--|:---|:---|:--------------------|:----------|:-----|
+#'  |2006  |3574 |26                           |42 |223 |295 |297                  |53         |4510  |
+#'  |Total |3574 |26                           |42 |223 |295 |297                  |53         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -288,13 +336,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `eatgm`](https://gssdataexplorer.norc.org/variables/3397/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |dont care whether or not food has been genetically modified |willing to eat but would prefer unmodified foods |will not eat genetically modified food |don't know |Total |
+#'  |:-----|:----|:-----------------------------------------------------------|:------------------------------------------------|:--------------------------------------|:----------|:-----|
+#'  |2006  |3574 |139                                                         |479                                              |285                                    |33         |4510  |
+#'  |Total |3574 |139                                                         |479                                              |285                                    |33         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -323,13 +377,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sciimp1`](https://gssdataexplorer.norc.org/variables/3398/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very important |pretty important |not too important |not important at all |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:----------------|:-----------------|:--------------------|:----------|:---------|:-----|
+#'  |2006  |2646 |599            |846              |261               |81                   |71         |6         |4510  |
+#'  |Total |2646 |599            |846              |261               |81                   |71         |6         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes

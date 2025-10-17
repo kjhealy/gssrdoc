@@ -25,20 +25,26 @@ Question How would you describe your work arrangement in your main job?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2760/vshow}{GSS Data Explorer page for \code{wrktype}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab independent contractor/consultant/freelance worker \tab on-call, work only when called to work \tab paid by a temporary agency \tab work for contractor who provides workers/services \tab regular, permanent employee \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 247 \tab 41 \tab 15 \tab 42 \tab 1432 \tab 8 \tab 11 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 239 \tab 44 \tab 21 \tab 59 \tab 1349 \tab 7 \tab 15 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 155 \tab 42 \tab 16 \tab 31 \tab 912 \tab 6 \tab 25 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 177 \tab 36 \tab 7 \tab 38 \tab 982 \tab 7 \tab 3 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 181 \tab 40 \tab 21 \tab 51 \tab 1115 \tab 8 \tab 32 \tab - \tab 2348 \cr
+   2022 \tab 1539 \tab 253 \tab 42 \tab 14 \tab 64 \tab 1589 \tab 15 \tab 13 \tab 15 \tab 3544 \cr
+   Total \tab 8329 \tab 1252 \tab 245 \tab 94 \tab 285 \tab 7379 \tab 51 \tab 99 \tab 15 \tab 17749 \cr
+}
 }
 
 \seealso{

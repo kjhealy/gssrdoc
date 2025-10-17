@@ -24,15 +24,21 @@ Question J. Scientists earn less than other people with equally demanding jobs. 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3520/vshow}{GSS Data Explorer page for \code{scientmo}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1457 \tab 15 \tab 83 \tab 286 \tab 23 \tab 106 \tab 4 \tab 1974 \cr
+   Total \tab 1457 \tab 15 \tab 83 \tab 286 \tab 23 \tab 106 \tab 4 \tab 1974 \cr
+}
 }
 
 \seealso{

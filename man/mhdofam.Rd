@@ -24,15 +24,21 @@ A. Talk to family?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3721/vshow}{GSS Data Explorer page for \code{mhdofam}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 296 \tab 1111 \tab 12 \tab 6 \tab 4510 \cr
+   Total \tab 3085 \tab 296 \tab 1111 \tab 12 \tab 6 \tab 4510 \cr
+}
 }
 
 \seealso{

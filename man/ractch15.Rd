@@ -26,15 +26,21 @@ B. Teach 15 year olds in schools.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3992/vshow}{GSS Data Explorer page for \code{ractch15}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 59 \tab 85 \tab 143 \tab 333 \tab 43 \tab 14 \tab 1534 \cr
+   Total \tab 857 \tab 59 \tab 85 \tab 143 \tab 333 \tab 43 \tab 14 \tab 1534 \cr
+}
 }
 
 \seealso{

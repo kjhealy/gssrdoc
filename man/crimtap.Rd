@@ -25,16 +25,23 @@ B. Tap his telephone.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3995/vshow}{GSS Data Explorer page for \code{crimtap}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 148 \tab 144 \tab 157 \tab 182 \tab 29 \tab 17 \tab 1534 \cr
+   1990 \tab 155 \tab 227 \tab 317 \tab 299 \tab 270 \tab 40 \tab 64 \tab 1372 \cr
+   Total \tab 1012 \tab 375 \tab 461 \tab 456 \tab 452 \tab 69 \tab 81 \tab 2906 \cr
+}
 }
 
 \seealso{

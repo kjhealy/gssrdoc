@@ -28,15 +28,21 @@ To accept a position with lower pay.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6344/vshow}{GSS Data Explorer page for \code{lowpay}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2533 \tab 32 \tab 116 \tab 58 \tab 68 \tab 33 \tab 4 \tab 23 \tab 2867 \cr
+   Total \tab 2533 \tab 32 \tab 116 \tab 58 \tab 68 \tab 33 \tab 4 \tab 23 \tab 2867 \cr
+}
 }
 
 \seealso{

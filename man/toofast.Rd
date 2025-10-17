@@ -25,23 +25,32 @@ B. Science makes our way of life change too fast.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008, 2022 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3318/vshow}{GSS Data Explorer page for \code{toofast}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2006 \tab 2646 \tab 172 \tab 662 \tab 824 \tab 153 \tab 52 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 137 \tab 560 \tab 646 \tab 112 \tab 47 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 1353 \tab 53 \tab 272 \tab 291 \tab 54 \tab 17 \tab 4 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 92 \tab 315 \tab 512 \tab 40 \tab 37 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 158 \tab 485 \tab 506 \tab 70 \tab 18 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 162 \tab 552 \tab 541 \tab 106 \tab 25 \tab 4 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 159 \tab 418 \tab 490 \tab 93 \tab 13 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 2150 \tab 163 \tab 617 \tab 875 \tab 207 \tab 2 \tab - \tab 18 \tab 4032 \cr
+   2022 \tab 2309 \tab 108 \tab 443 \tab 553 \tab 129 \tab - \tab - \tab 2 \tab 3544 \cr
+   Total \tab 13897 \tab 1204 \tab 4324 \tab 5238 \tab 964 \tab 211 \tab 22 \tab 20 \tab 25880 \cr
+}
 }
 
 \seealso{

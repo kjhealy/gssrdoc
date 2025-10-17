@@ -23,15 +23,21 @@ D. Attended conferences or workshops
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1018/vshow}{GSS Data Explorer page for \code{attndgrp}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1987 \tab 606 \tab 713 \tab 463 \tab 1 \tab 36 \tab 1819 \cr
+   Total \tab 606 \tab 713 \tab 463 \tab 1 \tab 36 \tab 1819 \cr
+}
 }
 
 \seealso{

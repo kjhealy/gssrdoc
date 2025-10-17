@@ -23,15 +23,21 @@ B. Can you choose any doctor you like in your community or elsewhere, perhaps pa
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2187/vshow}{GSS Data Explorer page for \code{anydoc}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1639 \tab 834 \tab 278 \tab 58 \tab 23 \tab 2832 \cr
+   Total \tab 1639 \tab 834 \tab 278 \tab 58 \tab 23 \tab 2832 \cr
+}
 }
 
 \seealso{

@@ -37,18 +37,24 @@ Question Respondent's income on 1982-85 surveys. For question wording, see RINCO
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984, 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/110/vshow}{GSS Data Explorer page for \code{rincom82}}.
+
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab lt $1000 \tab $1000-2999 \tab $3000-3999 \tab $4000-4999 \tab $5000-5999 \tab $6000-6999 \tab $7000-7999 \tab $8000-9999 \tab $10000-12499 \tab $12500-14999 \tab $15000-17499 \tab $17500-19999 \tab $20000-22499 \tab $22500-24999 \tab $25000-34999 \tab $35000-49999 \tab $50000+ \tab don't know \tab no answer \tab refused \tab Total \cr
+   1982 \tab 651 \tab 60 \tab 78 \tab 61 \tab 49 \tab 46 \tab 49 \tab 42 \tab 78 \tab 118 \tab 117 \tab 81 \tab 71 \tab 79 \tab 53 \tab 90 \tab 31 \tab 22 \tab 8 \tab 22 \tab 54 \tab 1860 \cr
+   1983 \tab 532 \tab 49 \tab 68 \tab 39 \tab 31 \tab 38 \tab 36 \tab 39 \tab 75 \tab 117 \tab 74 \tab 64 \tab 68 \tab 54 \tab 61 \tab 96 \tab 59 \tab 26 \tab 12 \tab 15 \tab 46 \tab 1599 \cr
+   1984 \tab 493 \tab 44 \tab 67 \tab 33 \tab 39 \tab 39 \tab 29 \tab 41 \tab 52 \tab 93 \tab 83 \tab 55 \tab 60 \tab 67 \tab 55 \tab 89 \tab 54 \tab 33 \tab 15 \tab 9 \tab 23 \tab 1473 \cr
+   1985 \tab 530 \tab 42 \tab 56 \tab 47 \tab 24 \tab 32 \tab 46 \tab 34 \tab 42 \tab 77 \tab 87 \tab 74 \tab 49 \tab 63 \tab 50 \tab 118 \tab 64 \tab 53 \tab 8 \tab - \tab 38 \tab 1534 \cr
+   Total \tab 2206 \tab 195 \tab 269 \tab 180 \tab 143 \tab 155 \tab 160 \tab 156 \tab 247 \tab 405 \tab 361 \tab 274 \tab 248 \tab 263 \tab 219 \tab 393 \tab 208 \tab 134 \tab 43 \tab 46 \tab 161 \tab 6466 \cr
+}
 }
 
 \seealso{

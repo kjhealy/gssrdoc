@@ -24,15 +24,21 @@ D. The parents fail to provide the child with proper food and clothing.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4031/vshow}{GSS Data Explorer page for \code{kidneedy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab take no action \tab give warning \tab take child \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 22 \tab 266 \tab 340 \tab 34 \tab 15 \tab 1534 \cr
+   Total \tab 857 \tab 22 \tab 266 \tab 340 \tab 34 \tab 15 \tab 1534 \cr
+}
 }
 
 \seealso{

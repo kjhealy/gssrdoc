@@ -23,15 +23,21 @@ B. Call or email customer support for the product you are using
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2624/vshow}{GSS Data Explorer page for \code{cussup}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2043 \tab 345 \tab 327 \tab 3 \tab 47 \tab 2765 \cr
+   Total \tab 2043 \tab 345 \tab 327 \tab 3 \tab 47 \tab 2765 \cr
+}
 }
 
 \seealso{

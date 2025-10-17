@@ -22,15 +22,21 @@ Question Here are some views regarding Americaâ€™s political system. Which 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4963/vshow}{GSS Data Explorer page for \code{demrghts}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab shouldnt be restricted by govt \tab should be restricted if govt think necessary \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 991 \tab 373 \tab 85 \tab 23 \tab 2812 \cr
+   Total \tab 1340 \tab 991 \tab 373 \tab 85 \tab 23 \tab 2812 \cr
+}
 }
 
 \seealso{

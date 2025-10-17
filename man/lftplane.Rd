@@ -24,15 +24,21 @@ Question Which of the following is a key factor that enables an airplane to lift
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3473/vshow}{GSS Data Explorer page for \code{lftplane}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab air pressure beneath the wing is greater than that above the wing \tab pressure within the airplane is greater than that of the outside \tab engine power is greater than that of friction \tab the plane's wing is lighter than air \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 518 \tab 799 \tab 90 \tab 345 \tab 40 \tab 211 \tab 20 \tab 2023 \cr
+   Total \tab 518 \tab 799 \tab 90 \tab 345 \tab 40 \tab 211 \tab 20 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question Have you ever worked for a company where a major part of their business
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/829/vshow}{GSS Data Explorer page for \code{defwrkev}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1984 \tab - \tab 181 \tab 1262 \tab 30 \tab 1473 \cr
+   Total \tab 0 \tab 181 \tab 1262 \tab 30 \tab 1473 \cr
+}
 }
 
 \seealso{

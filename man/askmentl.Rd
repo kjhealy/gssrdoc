@@ -25,18 +25,24 @@ D. Mental health history
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 1996, 1998, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5211/vshow}{GSS Data Explorer page for \code{askmentl}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 1109 \tab 273 \tab 48 \tab 12 \tab 21 \tab 11 \tab 2992 \cr
+   1996 \tab 1444 \tab 1143 \tab 240 \tab 38 \tab 7 \tab 27 \tab 5 \tab 2904 \cr
+   1998 \tab 1445 \tab 977 \tab 323 \tab 36 \tab 14 \tab 29 \tab 8 \tab 2832 \cr
+   2000 \tab 1398 \tab 1035 \tab 272 \tab 51 \tab 22 \tab 31 \tab 8 \tab 2817 \cr
+   Total \tab 5805 \tab 4264 \tab 1108 \tab 173 \tab 55 \tab 108 \tab 32 \tab 11545 \cr
+}
 }
 
 \seealso{

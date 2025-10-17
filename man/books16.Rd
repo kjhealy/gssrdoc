@@ -29,15 +29,21 @@ Question About how many books were there around your familyâ€™s house when 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4342/vshow}{GSS Data Explorer page for \code{books16}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab none \tab 1 or 2 \tab around 10 \tab around 20 \tab around 50 \tab around 100 \tab around 200 \tab around 500 \tab 1,000 or more \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1545 \tab 37 \tab 81 \tab 205 \tab 226 \tab 229 \tab 186 \tab 139 \tab 63 \tab 33 \tab 1 \tab 72 \tab 2817 \cr
+   Total \tab 1545 \tab 37 \tab 81 \tab 205 \tab 226 \tab 229 \tab 186 \tab 139 \tab 63 \tab 33 \tab 1 \tab 72 \tab 2817 \cr
+}
 }
 
 \concept{ISSP Social Inequality}

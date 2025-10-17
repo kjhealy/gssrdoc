@@ -22,15 +22,21 @@ C6. Birth year of sixth child.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1506/vshow}{GSS Data Explorer page for \code{kdyrbrn6}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1928 \tab 1940 \tab 1945 \tab 1946 \tab 1949 \tab 1952 \tab 1953 \tab 1954 \tab 1955 \tab 1956 \tab 1957 \tab 1958 \tab 1959 \tab 1960 \tab 1961 \tab 1963 \tab 1964 \tab 1965 \tab 1966 \tab 1967 \tab 1968 \tab 1969 \tab 1970 \tab 1971 \tab 1973 \tab 1974 \tab 1975 \tab 1976 \tab 1983 \tab 1984 \tab 1985 \tab 1989 \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2932 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 4 \tab 3 \tab 3 \tab 1 \tab 3 \tab 3 \tab 3 \tab 1 \tab 2 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 2992 \cr
+   Total \tab 2932 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 4 \tab 3 \tab 3 \tab 1 \tab 3 \tab 3 \tab 3 \tab 1 \tab 2 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 2992 \cr
+}
 }
 
 \seealso{

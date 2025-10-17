@@ -36,15 +36,21 @@ Question B. When you were in high school/In high school), what (was/is) your fav
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1452/vshow}{GSS Data Explorer page for \code{hsclass1}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab none \tab english, literature \tab foreign language \tab fine arts \tab other humanities \tab economics \tab psychology \tab government-civics \tab social science-other social study \tab mathematics \tab science \tab other \tab business \tab engineering \tab other vocational \tab no answer \tab Total \cr
+   1993 \tab 139 \tab 141 \tab 297 \tab 27 \tab 112 \tab 25 \tab 23 \tab 15 \tab 51 \tab 134 \tab 295 \tab 119 \tab 144 \tab 50 \tab 1 \tab 26 \tab 7 \tab 1606 \cr
+   Total \tab 139 \tab 141 \tab 297 \tab 27 \tab 112 \tab 25 \tab 23 \tab 15 \tab 51 \tab 134 \tab 295 \tab 119 \tab 144 \tab 50 \tab 1 \tab 26 \tab 7 \tab 1606 \cr
+}
 }
 
 \seealso{

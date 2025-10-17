@@ -22,16 +22,22 @@ J. Check into a mental hospital.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2030/vshow}{GSS Data Explorer page for \code{ormntlhs}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2428 \tab 31 \tab 13 \tab 22 \tab 26 \tab 26 \tab 39 \tab 45 \tab 77 \tab 79 \tab 26 \tab 3 \tab 89 \tab 2904 \cr
+   2006 \tab 4028 \tab 26 \tab 27 \tab 18 \tab 20 \tab 24 \tab 39 \tab 42 \tab 69 \tab 113 \tab 72 \tab - \tab 32 \tab 4510 \cr
+   Total \tab 6456 \tab 57 \tab 40 \tab 40 \tab 46 \tab 50 \tab 78 \tab 87 \tab 146 \tab 192 \tab 98 \tab 3 \tab 121 \tab 7414 \cr
+}
 }
 
 \seealso{

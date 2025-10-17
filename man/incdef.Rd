@@ -28,33 +28,40 @@ Question B. Income Deficit of Household
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993 \cr
+   Full \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5197/vshow}{GSS Data Explorer page for \code{incdef}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab -10,000 to -5,000 \tab -4,999 to -1,000 \tab -999 to 999 \tab 1,000 to 4,999 \tab 5,000 to 9,999 \tab 10,000 to 20,000 \tab 20,001 + \tab not imputable \tab ( -10,000 \tab not available in this year \tab iap \tab Total \cr
+   1972 \tab 6 \tab 139 \tab 168 \tab 388 \tab 400 \tab 304 \tab 63 \tab 145 \tab - \tab - \tab - \tab 1613 \cr
+   1973 \tab 4 \tab 89 \tab 156 \tab 325 \tab 418 \tab 298 \tab 94 \tab 120 \tab - \tab - \tab - \tab 1504 \cr
+   1974 \tab 5 \tab 91 \tab 147 \tab 265 \tab 401 \tab 326 \tab 116 \tab 133 \tab - \tab - \tab - \tab 1484 \cr
+   1975 \tab 3 \tab 100 \tab 159 \tab 289 \tab 417 \tab 307 \tab 128 \tab 87 \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 4 \tab 93 \tab 196 \tab 259 \tab 366 \tab 323 \tab 148 \tab 110 \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 7 \tab 65 \tab 147 \tab 258 \tab 330 \tab 370 \tab 212 \tab 141 \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 3 \tab 101 \tab 154 \tab 269 \tab 272 \tab 405 \tab 221 \tab 106 \tab 1 \tab - \tab - \tab 1532 \cr
+   1980 \tab 15 \tab 105 \tab 106 \tab 190 \tab 247 \tab 361 \tab 330 \tab 112 \tab 2 \tab - \tab - \tab 1468 \cr
+   1982 \tab 68 \tab 156 \tab 152 \tab 239 \tab 277 \tab 339 \tab 432 \tab 189 \tab 8 \tab - \tab - \tab 1860 \cr
+   1983 \tab 34 \tab 123 \tab 92 \tab 216 \tab 204 \tab 290 \tab 482 \tab 151 \tab 7 \tab - \tab - \tab 1599 \cr
+   1984 \tab 36 \tab 132 \tab 81 \tab 142 \tab 211 \tab 315 \tab 418 \tab 134 \tab 4 \tab - \tab - \tab 1473 \cr
+   1985 \tab 37 \tab 109 \tab 100 \tab 158 \tab 175 \tab 305 \tab 518 \tab 124 \tab 8 \tab - \tab - \tab 1534 \cr
+   1986 \tab 42 \tab 112 \tab 87 \tab 132 \tab 163 \tab 289 \tab 499 \tab 134 \tab 12 \tab - \tab - \tab 1470 \cr
+   1987 \tab 71 \tab 159 \tab 81 \tab 173 \tab 181 \tab 330 \tab 647 \tab 162 \tab 15 \tab - \tab - \tab 1819 \cr
+   1988 \tab 52 \tab 93 \tab 80 \tab 141 \tab 152 \tab 274 \tab 557 \tab 125 \tab 7 \tab - \tab - \tab 1481 \cr
+   1989 \tab 45 \tab 76 \tab 55 \tab 139 \tab 170 \tab 272 \tab 605 \tab 162 \tab 13 \tab - \tab - \tab 1537 \cr
+   1990 \tab 32 \tab 81 \tab 63 \tab 105 \tab 130 \tab 258 \tab 552 \tab 146 \tab 5 \tab - \tab - \tab 1372 \cr
+   1991 \tab 92 \tab 118 \tab 63 \tab 133 \tab 148 \tab 175 \tab 588 \tab 158 \tab 42 \tab - \tab - \tab 1517 \cr
+   1993 \tab 106 \tab 107 \tab 55 \tab 132 \tab 107 \tab 163 \tab 741 \tab 152 \tab 43 \tab - \tab - \tab 1606 \cr
+   Total \tab 662 \tab 2049 \tab 2142 \tab 3953 \tab 4769 \tab 5704 \tab 7351 \tab 2591 \tab 167 \tab 0 \tab 0 \tab 29388 \cr
+}
 }
 
 \seealso{

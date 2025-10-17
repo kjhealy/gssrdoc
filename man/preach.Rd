@@ -26,15 +26,21 @@ A. Preaching
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1161/vshow}{GSS Data Explorer page for \code{preach}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1831 \tab 260 \tab 280 \tab 243 \tab 61 \tab 18 \tab 51 \tab 73 \tab 2817 \cr
+   Total \tab 1831 \tab 260 \tab 280 \tab 243 \tab 61 \tab 18 \tab 51 \tab 73 \tab 2817 \cr
+}
 }
 
 \seealso{

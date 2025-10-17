@@ -23,30 +23,37 @@ Question Have you ever had sex with someone other than your husband or wife whil
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2021 \cr
+   B/C/- \tab 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5067/vshow}{GSS Data Explorer page for \code{evstray}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab never married \tab no answer \tab don't know \tab Total \cr
+   1991 \tab 221 \tab 146 \tab 853 \tab 279 \tab 18 \tab - \tab 1517 \cr
+   1993 \tab 114 \tab 195 \tab 982 \tab 258 \tab 57 \tab - \tab 1606 \cr
+   1994 \tab 201 \tab 354 \tab 1781 \tab 586 \tab 70 \tab - \tab 2992 \cr
+   1996 \tab 258 \tab 369 \tab 1618 \tab 615 \tab 43 \tab 1 \tab 2904 \cr
+   1998 \tab 383 \tab 324 \tab 1481 \tab 587 \tab 57 \tab - \tab 2832 \cr
+   2000 \tab 417 \tab 308 \tab 1418 \tab 602 \tab 71 \tab 1 \tab 2817 \cr
+   2002 \tab 502 \tab 311 \tab 1307 \tab 594 \tab 49 \tab 2 \tab 2765 \cr
+   2004 \tab 573 \tab 291 \tab 1360 \tab 540 \tab 45 \tab 3 \tab 2812 \cr
+   2006 \tab 2096 \tab 350 \tab 1414 \tab 623 \tab 26 \tab 1 \tab 4510 \cr
+   2008 \tab 240 \tab 214 \tab 1046 \tab 491 \tab 28 \tab 4 \tab 2023 \cr
+   2010 \tab 202 \tab 227 \tab 1058 \tab 523 \tab 31 \tab 3 \tab 2044 \cr
+   2012 \tab 238 \tab 213 \tab 1003 \tab 486 \tab 32 \tab 2 \tab 1974 \cr
+   2014 \tab 188 \tab 285 \tab 1375 \tab 636 \tab 53 \tab 1 \tab 2538 \cr
+   2016 \tab 1096 \tab 217 \tab 1003 \tab 523 \tab 28 \tab - \tab 2867 \cr
+   2018 \tab 942 \tab 159 \tab 806 \tab 425 \tab 14 \tab 2 \tab 2348 \cr
+   2021 \tab 1615 \tab 297 \tab 1408 \tab 646 \tab 49 \tab 17 \tab 4032 \cr
+   Total \tab 9286 \tab 4260 \tab 19913 \tab 8414 \tab 671 \tab 37 \tab 42581 \cr
+}
 }
 
 \seealso{

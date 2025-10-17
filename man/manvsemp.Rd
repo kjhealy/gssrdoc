@@ -25,21 +25,27 @@ Question In general, how would you describe relations in your work place between
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2811/vshow}{GSS Data Explorer page for \code{manvsemp}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very good \tab quite good \tab neither good nor bad \tab quite bad \tab very bad \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 646 \tab 595 \tab 384 \tab 95 \tab 38 \tab 20 \tab 18 \tab - \tab 2765 \cr
+   2004 \tab 945 \tab 637 \tab 679 \tab 360 \tab 102 \tab 22 \tab 26 \tab 41 \tab - \tab 2812 \cr
+   2006 \tab 2776 \tab 565 \tab 615 \tab 372 \tab 77 \tab 40 \tab 42 \tab 23 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 393 \tab 443 \tab 216 \tab 77 \tab 14 \tab 10 \tab 34 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 398 \tab 476 \tab 268 \tab 64 \tab 20 \tab 14 \tab 10 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 474 \tab 514 \tab 295 \tab 99 \tab 16 \tab 13 \tab 37 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 549 \tab 752 \tab 479 \tab 110 \tab 41 \tab 21 \tab 16 \tab 21 \tab 3544 \cr
+   Total \tab 9290 \tab 3662 \tab 4074 \tab 2374 \tab 624 \tab 191 \tab 146 \tab 179 \tab 21 \tab 20561 \cr
+}
 }
 
 \seealso{

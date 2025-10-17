@@ -21,18 +21,24 @@ Question In what year did you receive the (COLLEGE NAME) degree?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/68/vshow}{GSS Data Explorer page for \code{whencol}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1938 \tab 1947 \tab 1948 \tab 1949 \tab 1950 \tab 1951 \tab 1952 \tab 1955 \tab 1956 \tab 1957 \tab 1958 \tab 1959 \tab 1960 \tab 1961 \tab 1962 \tab 1963 \tab 1964 \tab 1965 \tab 1966 \tab 1967 \tab 1968 \tab 1969 \tab 1970 \tab 1971 \tab 1972 \tab 1973 \tab 1974 \tab 1975 \tab 1976 \tab 1977 \tab 1978 \tab 1979 \tab 1980 \tab 1981 \tab 1982 \tab 1983 \tab 1984 \tab 1985 \tab 1986 \tab 1987 \tab 1988 \tab 1989 \tab 1990 \tab 1991 \tab 1992 \tab 1993 \tab 1994 \tab 1995 \tab 1996 \tab 1997 \tab 1998 \tab 1999 \tab 2000 \tab 2001 \tab 2002 \tab 2003 \tab 2004 \tab 2005 \tab 2006 \tab 2007 \tab 2008 \tab 2009 \tab 2010 \tab 2011 \tab 2012 \tab don't know \tab no answer \tab 1940 \tab 1946 \tab 1953 \tab 1954 \tab 2013 \tab 2014 \tab 1943 \tab 2015 \tab 2016 \tab Total \cr
+   2012 \tab 1263 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 2 \tab 3 \tab 4 \tab 3 \tab 3 \tab 5 \tab 1 \tab 7 \tab 4 \tab 3 \tab 1 \tab 7 \tab 5 \tab 5 \tab 4 \tab 4 \tab 4 \tab 5 \tab 6 \tab 8 \tab 12 \tab 4 \tab 7 \tab 10 \tab 6 \tab 18 \tab 10 \tab 12 \tab 13 \tab 12 \tab 7 \tab 10 \tab 14 \tab 11 \tab 11 \tab 10 \tab 21 \tab 16 \tab 12 \tab 8 \tab 17 \tab 13 \tab 13 \tab 15 \tab 12 \tab 15 \tab 15 \tab 23 \tab 19 \tab 22 \tab 17 \tab 27 \tab 23 \tab 16 \tab 24 \tab 25 \tab 21 \tab 25 \tab 29 \tab 13 \tab 10 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 1597 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab 4 \tab 3 \tab 2 \tab 5 \tab 3 \tab 2 \tab 3 \tab 4 \tab 5 \tab 3 \tab 5 \tab 4 \tab 8 \tab 6 \tab 8 \tab 6 \tab 8 \tab 9 \tab 12 \tab 12 \tab 11 \tab 14 \tab 13 \tab 11 \tab 15 \tab 13 \tab 13 \tab 16 \tab 21 \tab 18 \tab 15 \tab 22 \tab 16 \tab 15 \tab 13 \tab 14 \tab 16 \tab 11 \tab 13 \tab 15 \tab 9 \tab 19 \tab 16 \tab 14 \tab 18 \tab 16 \tab 28 \tab 18 \tab 18 \tab 25 \tab 28 \tab 18 \tab 25 \tab 37 \tab 26 \tab 17 \tab 29 \tab 37 \tab 38 \tab 14 \tab 10 \tab 1 \tab 1 \tab 2 \tab 1 \tab 32 \tab 35 \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 1787 \tab - \tab - \tab - \tab - \tab - \tab 3 \tab - \tab 3 \tab 2 \tab 1 \tab 3 \tab 2 \tab 6 \tab 9 \tab 4 \tab 2 \tab 3 \tab 7 \tab 5 \tab 3 \tab 8 \tab 11 \tab 6 \tab 12 \tab 14 \tab 11 \tab 14 \tab 12 \tab 13 \tab 15 \tab 13 \tab 17 \tab 19 \tab 19 \tab 16 \tab 17 \tab 16 \tab 20 \tab 25 \tab 14 \tab 12 \tab 11 \tab 13 \tab 29 \tab 18 \tab 14 \tab 12 \tab 22 \tab 14 \tab 20 \tab 21 \tab 17 \tab 20 \tab 29 \tab 21 \tab 16 \tab 22 \tab 27 \tab 23 \tab 34 \tab 37 \tab 29 \tab 29 \tab 32 \tab 43 \tab 8 \tab 13 \tab - \tab - \tab - \tab 3 \tab 31 \tab 40 \tab 1 \tab 41 \tab 33 \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 6995 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 7 \tab 7 \tab 10 \tab 7 \tab 9 \tab 11 \tab 5 \tab 16 \tab 17 \tab 12 \tab 6 \tab 15 \tab 16 \tab 18 \tab 13 \tab 20 \tab 21 \tab 19 \tab 27 \tab 34 \tab 35 \tab 29 \tab 33 \tab 36 \tab 32 \tab 46 \tab 40 \tab 44 \tab 48 \tab 49 \tab 42 \tab 41 \tab 56 \tab 52 \tab 40 \tab 35 \tab 46 \tab 45 \tab 52 \tab 39 \tab 46 \tab 34 \tab 54 \tab 45 \tab 46 \tab 54 \tab 48 \tab 71 \tab 66 \tab 61 \tab 58 \tab 77 \tab 68 \tab 64 \tab 95 \tab 88 \tab 67 \tab 83 \tab 98 \tab 94 \tab 32 \tab 24 \tab 1 \tab 1 \tab 2 \tab 4 \tab 63 \tab 75 \tab 1 \tab 41 \tab 33 \tab 9727 \cr
+}
 }
 
 \seealso{

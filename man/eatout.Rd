@@ -24,16 +24,23 @@ B. Have a meal (breakfast, lunch or dinner) at a restaurant (including fast food
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/C/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   A/C/- \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5307/vshow}{GSS Data Explorer page for \code{eatout}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1996 \tab 1953 \tab 765 \tab 184 \tab 2 \tab - \tab 2904 \cr
+   1998 \tab 1387 \tab 1158 \tab 282 \tab 4 \tab 1 \tab 2832 \cr
+   Total \tab 3340 \tab 1923 \tab 466 \tab 6 \tab 1 \tab 5736 \cr
+}
 }
 
 \seealso{

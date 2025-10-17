@@ -25,17 +25,24 @@ E. People like (NAME) are unpredictable.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2018 \tab B/C \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2024 \cr
+   B/C \tab 2018 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3766/vshow}{GSS Data Explorer page for \code{mhunsure}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 96 \tab 612 \tab 508 \tab 170 \tab 30 \tab 9 \tab 4510 \cr
+   2018 \tab 1175 \tab 251 \tab 498 \tab 281 \tab 79 \tab 35 \tab 29 \tab 2348 \cr
+   Total \tab 4260 \tab 347 \tab 1110 \tab 789 \tab 249 \tab 65 \tab 38 \tab 6858 \cr
+}
 }
 
 \seealso{

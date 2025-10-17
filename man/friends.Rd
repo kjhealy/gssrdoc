@@ -22,15 +22,21 @@ Question A. Do you have any good friends that you feel close to?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1133/vshow}{GSS Data Explorer page for \code{friends}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1892 \tab 851 \tab 83 \tab 1 \tab 5 \tab 2832 \cr
+   Total \tab 1892 \tab 851 \tab 83 \tab 1 \tab 5 \tab 2832 \cr
+}
 }
 
 \seealso{

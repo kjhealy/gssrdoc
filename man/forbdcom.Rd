@@ -22,15 +22,21 @@ Question A. Now I would like to ask you some questions about a man who admits he
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4984/vshow}{GSS Data Explorer page for \code{forbdcom}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes forbid \tab no not forbid \tab don't know \tab no answer \tab Total \cr
+   1989 \tab 1039 \tab 164 \tab 314 \tab 14 \tab 6 \tab 1537 \cr
+   Total \tab 1039 \tab 164 \tab 314 \tab 14 \tab 6 \tab 1537 \cr
+}
 }
 
 \seealso{

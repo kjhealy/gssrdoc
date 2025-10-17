@@ -22,16 +22,23 @@ Question Over the past 12 months, have you had any training to improve your job 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4617/vshow}{GSS Data Explorer page for \code{jbtrain}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 3492 \tab 610 \tab 405 \tab 1 \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 555 \tab 379 \tab - \tab 6 \tab 2867 \cr
+   Total \tab 5419 \tab 1165 \tab 784 \tab 1 \tab 8 \tab 7377 \cr
+}
 }
 
 \seealso{

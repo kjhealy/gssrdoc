@@ -25,15 +25,21 @@ F. The role of the federal government in family life today is too large.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5098/vshow}{GSS Data Explorer page for \code{pargovt}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 108 \tab 485 \tab 463 \tab 117 \tab 179 \tab 20 \tab 1372 \cr
+   Total \tab 0 \tab 108 \tab 485 \tab 463 \tab 117 \tab 179 \tab 20 \tab 1372 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question C. If your company has stock, is the stock of the company where your wo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3563/vshow}{GSS Data Explorer page for \code{trdestck}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2014 \tab 1765 \tab 123 \tab 530 \tab 115 \tab 5 \tab 2538 \cr
+   Total \tab 1765 \tab 123 \tab 530 \tab 115 \tab 5 \tab 2538 \cr
+}
 }
 
 \seealso{

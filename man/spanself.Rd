@@ -23,23 +23,30 @@ Question If this interview had only been available in English, would youâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5582/vshow}{GSS Data Explorer page for \code{spanself}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab have been able to do the interview easily in english \tab have been able to do the interview with difficulty \tab not have been able to do the interview \tab no answer \tab Total \cr
+   2006 \tab 4233 \tab 28 \tab 57 \tab 192 \tab - \tab 4510 \cr
+   2008 \tab 1943 \tab 7 \tab 18 \tab 54 \tab 1 \tab 2023 \cr
+   2010 \tab 1971 \tab 6 \tab 17 \tab 50 \tab - \tab 2044 \cr
+   2012 \tab 1894 \tab 4 \tab 16 \tab 59 \tab 1 \tab 1974 \cr
+   2014 \tab 2427 \tab 15 \tab 22 \tab 74 \tab - \tab 2538 \cr
+   2016 \tab 2775 \tab 5 \tab 23 \tab 64 \tab - \tab 2867 \cr
+   2018 \tab 2260 \tab 7 \tab 21 \tab 60 \tab - \tab 2348 \cr
+   2021 \tab 4005 \tab 5 \tab 15 \tab 7 \tab - \tab 4032 \cr
+   2022 \tab 3433 \tab 19 \tab 30 \tab 62 \tab - \tab 3544 \cr
+   Total \tab 24941 \tab 96 \tab 219 \tab 622 \tab 2 \tab 25880 \cr
+}
 }
 
 \seealso{

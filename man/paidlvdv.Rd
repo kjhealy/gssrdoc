@@ -25,16 +25,23 @@ Question Still thinking about the same couple, if both are in a similar work sit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
-   2022 \tab A/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/- \tab 2022 \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4466/vshow}{GSS Data Explorer page for \code{paidlvdv}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab the mother should take the entire paid leave period and the father should not take any paid leave \tab the mother should take most of the paid leave period and the father should take some of it \tab the mother and the father should each take half of the paid leave period \tab the father should take most of the paid leave period and the mother should take some of it \tab the father should take the entire paid leave period and the mother should not take any paid leave \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 950 \tab 289 \tab 271 \tab 327 \tab 3 \tab 2 \tab 118 \tab 14 \tab - \tab 1974 \cr
+   2022 \tab 2498 \tab 111 \tab 362 \tab 450 \tab 1 \tab 4 \tab 114 \tab - \tab 4 \tab 3544 \cr
+   Total \tab 3448 \tab 400 \tab 633 \tab 777 \tab 4 \tab 6 \tab 232 \tab 14 \tab 4 \tab 5518 \cr
+}
 }
 
 \seealso{

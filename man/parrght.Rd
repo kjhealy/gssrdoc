@@ -25,15 +25,21 @@ C. Parents today often feel uncertain about what is the right thing to do in rai
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5095/vshow}{GSS Data Explorer page for \code{parrght}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 245 \tab 926 \tab 122 \tab 27 \tab 35 \tab 17 \tab 1372 \cr
+   Total \tab 0 \tab 245 \tab 926 \tab 122 \tab 27 \tab 35 \tab 17 \tab 1372 \cr
+}
 }
 
 \seealso{

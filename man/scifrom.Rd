@@ -31,21 +31,30 @@ Question We are interested in how people get information about science and techn
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab C/-/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
+   C/-/- \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3315/vshow}{GSS Data Explorer page for \code{scifrom}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab newspapers \tab magazines \tab the internet \tab books/other printed material \tab tv \tab radio \tab government agencies \tab family \tab friends/colleagues \tab other \tab don't know \tab no answer \tab ted talks \tab Total \cr
+   2006 \tab 2646 \tab 205 \tab 198 \tab 413 \tab 138 \tab 746 \tab 34 \tab 6 \tab 36 \tab 31 \tab 38 \tab 17 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 161 \tab 160 \tab 410 \tab 48 \tab 617 \tab 29 \tab - \tab 26 \tab 20 \tab 12 \tab 18 \tab 4 \tab - \tab 2023 \cr
+   2010 \tab 1761 \tab 16 \tab 26 \tab 90 \tab 27 \tab 106 \tab 7 \tab 1 \tab 1 \tab 1 \tab 3 \tab 5 \tab - \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 56 \tab 76 \tab 390 \tab 32 \tab 357 \tab 27 \tab 1 \tab 13 \tab 25 \tab 3 \tab 18 \tab 4 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 81 \tab 80 \tab 524 \tab 58 \tab 388 \tab 31 \tab 2 \tab 29 \tab 27 \tab 7 \tab 11 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 63 \tab 82 \tab 717 \tab 44 \tab 362 \tab 36 \tab 2 \tab 35 \tab 25 \tab 10 \tab 9 \tab 4 \tab 1 \tab 2867 \cr
+   2018 \tab 1173 \tab 49 \tab 48 \tab 649 \tab 46 \tab 287 \tab 21 \tab 6 \tab 27 \tab 31 \tab 6 \tab 4 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 9846 \tab 631 \tab 670 \tab 3193 \tab 393 \tab 2863 \tab 185 \tab 18 \tab 167 \tab 160 \tab 79 \tab 82 \tab 16 \tab 1 \tab 18304 \cr
+}
 }
 
 \seealso{

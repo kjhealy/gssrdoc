@@ -23,15 +23,21 @@ IF ASKED: Performance-based pay means individual or group bonuses, commissions, 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7223/vshow}{GSS Data Explorer page for \code{extr2017}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   2018 \tab 1848 \tab 360 \tab 140 \tab 2348 \cr
+   Total \tab 1848 \tab 360 \tab 140 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

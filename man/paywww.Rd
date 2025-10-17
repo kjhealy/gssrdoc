@@ -23,15 +23,21 @@ Question B. Does your employer provide all or part of your Internet access from 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2553/vshow}{GSS Data Explorer page for \code{paywww}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab employer provides internet connection at no charge \tab covers some but not all of cost \tab does not contribute to cost of using internet \tab no answer \tab Total \cr
+   2000 \tab 2471 \tab 42 \tab 8 \tab 243 \tab 53 \tab 2817 \cr
+   Total \tab 2471 \tab 42 \tab 8 \tab 243 \tab 53 \tab 2817 \cr
+}
 }
 
 \seealso{

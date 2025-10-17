@@ -25,15 +25,21 @@ Question How effectively does your supervisor work with employees to creatively 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5506/vshow}{GSS Data Explorer page for \code{effctsup}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all effective \tab a little \tab somewhat \tab very \tab extremely \tab don't know \tab no answer \tab Total \cr
+   2014 \tab 1505 \tab 93 \tab 158 \tab 288 \tab 339 \tab 125 \tab 24 \tab 6 \tab 2538 \cr
+   Total \tab 1505 \tab 93 \tab 158 \tab 288 \tab 339 \tab 125 \tab 24 \tab 6 \tab 2538 \cr
+}
 }
 
 \seealso{

@@ -25,17 +25,24 @@ Q. Sexually explicit material?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2410/vshow}{GSS Data Explorer page for \code{porn30}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2075 \tab 575 \tab 61 \tab 14 \tab 18 \tab 74 \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 850 \tab 96 \tab 22 \tab 20 \tab 95 \tab 1 \tab 2765 \cr
+   2004 \tab 2122 \tab 620 \tab 36 \tab 14 \tab 7 \tab 13 \tab - \tab 2812 \cr
+   Total \tab 5878 \tab 2045 \tab 193 \tab 50 \tab 45 \tab 182 \tab 1 \tab 8394 \cr
+}
 }
 
 \seealso{

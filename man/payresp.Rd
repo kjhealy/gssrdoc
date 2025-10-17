@@ -26,16 +26,23 @@ A How much responsibility goes with the jobâ€”how important do you think th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   B/C/- \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4328/vshow}{GSS Data Explorer page for \code{payresp}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 1545 \tab 348 \tab 631 \tab 192 \tab 14 \tab 3 \tab 34 \tab 50 \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 436 \tab 950 \tab 357 \tab 12 \tab 12 \tab 61 \tab 164 \tab 11 \tab 4032 \cr
+   Total \tab 3574 \tab 784 \tab 1581 \tab 549 \tab 26 \tab 15 \tab 95 \tab 214 \tab 11 \tab 6849 \cr
+}
 }
 
 \seealso{

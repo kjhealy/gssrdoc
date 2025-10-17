@@ -29,15 +29,21 @@ B. About how long would it take you to get to where your daughter lives? Think o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4145/vshow}{GSS Data Explorer page for \code{dautime}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab lt 15 min \tab 15-30 min \tab 30 min-1 hr \tab 1-2 hr \tab 2-3 hr \tab 3-5 hr \tab 5-12 hr \tab 12+ hr \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 1047 \tab 111 \tab 89 \tab 56 \tab 25 \tab 28 \tab 21 \tab 36 \tab 49 \tab 2 \tab 6 \tab 1470 \cr
+   Total \tab 1047 \tab 111 \tab 89 \tab 56 \tab 25 \tab 28 \tab 21 \tab 36 \tab 49 \tab 2 \tab 6 \tab 1470 \cr
+}
 }
 
 \seealso{

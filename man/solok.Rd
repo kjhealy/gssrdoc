@@ -23,17 +23,23 @@ A. That all citizens have an adequate standard of living
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4933/vshow}{GSS Data Explorer page for \code{solok}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 10 \tab 9 \tab 22 \tab 83 \tab 184 \tab 200 \tab 954 \tab 5 \tab 5 \tab 2812 \cr
+   2014 \tab 1274 \tab 13 \tab 7 \tab 24 \tab 95 \tab 179 \tab 201 \tab 714 \tab 29 \tab 2 \tab 2538 \cr
+   Total \tab 2614 \tab 23 \tab 16 \tab 46 \tab 178 \tab 363 \tab 401 \tab 1668 \tab 34 \tab 7 \tab 5350 \cr
+}
 }
 
 \seealso{

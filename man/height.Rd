@@ -21,17 +21,23 @@ Question About how tall are you without shoes? Reported in inches.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2847/vshow}{GSS Data Explorer page for \code{height}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 57 \tab 58 \tab 59 \tab 60 \tab 61 \tab 62 \tab 63 \tab 64 \tab 65 \tab 66 \tab 67 \tab 68 \tab 69 \tab 70 \tab 71 \tab 72 \tab 73 \tab 74 \tab 75 \tab 76 \tab 77 \tab 78 \tab 79 \tab don't know \tab no answer \tab 48 \tab 55 \tab 56 \tab 80 \tab 81 \tab 84 \tab 88 \tab Total \cr
+   2014 \tab 1288 \tab 2 \tab 7 \tab 13 \tab 24 \tab 44 \tab 76 \tab 84 \tab 96 \tab 86 \tab 106 \tab 105 \tab 96 \tab 99 \tab 105 \tab 74 \tab 90 \tab 47 \tab 40 \tab 20 \tab 8 \tab 3 \tab 4 \tab 1 \tab 5 \tab 15 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 1 \tab 2 \tab 15 \tab 33 \tab 38 \tab 93 \tab 102 \tab 135 \tab 115 \tab 121 \tab 116 \tab 100 \tab 96 \tab 94 \tab 92 \tab 102 \tab 56 \tab 43 \tab 17 \tab 13 \tab 8 \tab 2 \tab 1 \tab 9 \tab 37 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1627 \tab 3 \tab 4 \tab 25 \tab 51 \tab 51 \tab 108 \tab 134 \tab 150 \tab 160 \tab 165 \tab 169 \tab 143 \tab 143 \tab 142 \tab 129 \tab 137 \tab 68 \tab 56 \tab 29 \tab 21 \tab 15 \tab 5 \tab 2 \tab - \tab - \tab 1 \tab - \tab 1 \tab 2 \tab - \tab 2 \tab 1 \tab 3544 \cr
+   Total \tab 3815 \tab 6 \tab 13 \tab 53 \tab 108 \tab 133 \tab 277 \tab 320 \tab 381 \tab 361 \tab 392 \tab 390 \tab 339 \tab 338 \tab 341 \tab 295 \tab 329 \tab 171 \tab 139 \tab 66 \tab 42 \tab 26 \tab 11 \tab 4 \tab 14 \tab 52 \tab 2 \tab 1 \tab 3 \tab 4 \tab 1 \tab 2 \tab 1 \tab 8430 \cr
+}
 }
 
 \seealso{

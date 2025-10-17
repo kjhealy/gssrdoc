@@ -26,15 +26,21 @@ P. People in your occupation - about how much ought they earn?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4294/vshow}{GSS Data Explorer page for \code{givrocc}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 12000 \tab 120000 \tab 13000 \tab 13520 \tab 14000 \tab 15000 \tab 150000 \tab 16000 \tab 17000 \tab 18000 \tab 19000 \tab 19500 \tab 1e+05 \tab $1 million (or more, for 1987 & 2000) \tab 2000 \tab 20000 \tab 20800 \tab 21000 \tab 22000 \tab 2250 \tab 23000 \tab 24000 \tab 24960 \tab 25000 \tab 250000 \tab 26000 \tab 27000 \tab 28000 \tab 2e+05 \tab 30000 \tab 31200 \tab 32000 \tab 33000 \tab 34000 \tab 35000 \tab 350000 \tab 36000 \tab 37000 \tab 38000 \tab 39000 \tab 39600 \tab 3e+05 \tab 4000 \tab 40000 \tab 42000 \tab 43000 \tab 4500 \tab 45000 \tab 46000 \tab 5000 \tab 50000 \tab 520 \tab 55000 \tab 5600 \tab 58000 \tab 5e+05 \tab 6000 \tab 60000 \tab 65000 \tab 7000 \tab 70000 \tab 75000 \tab 78000 \tab 8000 \tab 80000 \tab 85000 \tab 9000 \tab 90000 \tab 95000 \tab never worked \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1545 \tab 1 \tab 14 \tab 8 \tab 3 \tab 2 \tab 1 \tab 1 \tab 30 \tab 11 \tab 2 \tab 5 \tab 12 \tab 2 \tab 1 \tab 47 \tab 4 \tab 2 \tab 63 \tab 2 \tab 2 \tab 6 \tab 1 \tab 4 \tab 5 \tab 2 \tab 57 \tab 2 \tab 1 \tab 4 \tab 4 \tab 3 \tab 129 \tab 1 \tab 2 \tab 1 \tab 1 \tab 69 \tab 2 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 96 \tab 3 \tab 2 \tab 1 \tab 50 \tab 1 \tab 3 \tab 110 \tab 1 \tab 13 \tab 1 \tab 1 \tab 3 \tab 2 \tab 75 \tab 12 \tab 2 \tab 17 \tab 36 \tab 1 \tab 2 \tab 27 \tab 5 \tab 2 \tab 5 \tab 3 \tab 18 \tab 49 \tab 214 \tab 2817 \cr
+   Total \tab 1545 \tab 1 \tab 14 \tab 8 \tab 3 \tab 2 \tab 1 \tab 1 \tab 30 \tab 11 \tab 2 \tab 5 \tab 12 \tab 2 \tab 1 \tab 47 \tab 4 \tab 2 \tab 63 \tab 2 \tab 2 \tab 6 \tab 1 \tab 4 \tab 5 \tab 2 \tab 57 \tab 2 \tab 1 \tab 4 \tab 4 \tab 3 \tab 129 \tab 1 \tab 2 \tab 1 \tab 1 \tab 69 \tab 2 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 96 \tab 3 \tab 2 \tab 1 \tab 50 \tab 1 \tab 3 \tab 110 \tab 1 \tab 13 \tab 1 \tab 1 \tab 3 \tab 2 \tab 75 \tab 12 \tab 2 \tab 17 \tab 36 \tab 1 \tab 2 \tab 27 \tab 5 \tab 2 \tab 5 \tab 3 \tab 18 \tab 49 \tab 214 \tab 2817 \cr
+}
 }
 
 \seealso{

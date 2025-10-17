@@ -32,18 +32,26 @@ Question What was your mother's religious preference when you were a child? Was 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4665/vshow}{GSS Data Explorer page for \code{marelkid}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab buddhism \tab hinduism \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 810 \tab 388 \tab 30 \tab 8 \tab 3 \tab 17 \tab 28 \tab 54 \tab 21 \tab 1517 \cr
+   1998 \tab 1548 \tab 704 \tab 392 \tab 22 \tab 12 \tab 6 \tab 14 \tab 35 \tab 62 \tab 37 \tab 2832 \cr
+   2008 \tab 658 \tab 764 \tab 410 \tab 27 \tab 10 \tab 7 \tab 17 \tab 97 \tab 28 \tab 5 \tab 2023 \cr
+   2018 \tab 1173 \tab 600 \tab 379 \tab 20 \tab 7 \tab 11 \tab 16 \tab 102 \tab 25 \tab 15 \tab 2348 \cr
+   Total \tab 3537 \tab 2878 \tab 1569 \tab 99 \tab 37 \tab 27 \tab 64 \tab 262 \tab 169 \tab 78 \tab 8720 \cr
+}
 }
 
 \seealso{

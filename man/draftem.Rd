@@ -23,17 +23,23 @@ B. IF VOLUNTEERS OR DON''T KNOW: If there were a national emergency, do you thin
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/804/vshow}{GSS Data Explorer page for \code{draftem}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab draft \tab volunteers \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 719 \tab 868 \tab 200 \tab 56 \tab 17 \tab 1860 \cr
+   1983 \tab 458 \tab 928 \tab 145 \tab 42 \tab 26 \tab 1599 \cr
+   1984 \tab 329 \tab 889 \tab 184 \tab 26 \tab 45 \tab 1473 \cr
+   Total \tab 1506 \tab 2685 \tab 529 \tab 124 \tab 88 \tab 4932 \cr
+}
 }
 
 \seealso{

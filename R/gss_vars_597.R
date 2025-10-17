@@ -598,12 +598,9 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |2012, 2014, 2016, 2018 |
 #' 
 #'
 #'
@@ -630,25 +627,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
+#'  |ballots |years                                                                        |
+#'  |:-------|:----------------------------------------------------------------------------|
+#'  |A/B/C/- |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010 |
+#'  |A/B/C/D |2006                                                                         |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `sei`](https://gssdataexplorer.norc.org/variables/5479/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -674,12 +657,10 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1994  |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `firstsei`](https://gssdataexplorer.norc.org/variables/5480/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -705,25 +686,10 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `pasei`](https://gssdataexplorer.norc.org/variables/5481/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -749,20 +715,10 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
+#'  |ballots |years                                                |
+#'  |:-------|:----------------------------------------------------|
+#'  |A/B/C   |1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `masei`](https://gssdataexplorer.norc.org/variables/5482/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -788,25 +744,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
+#'  |ballots |years                                                                        |
+#'  |:-------|:----------------------------------------------------------------------------|
+#'  |A/B/C/- |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010 |
+#'  |A/B/C/D |2006                                                                         |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `spsei`](https://gssdataexplorer.norc.org/variables/5483/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -832,46 +774,12 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-/- |full         |
-#'  |1973 |-/-/-/- |full         |
-#'  |1974 |-/-/-/- |full         |
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
+#'  |ballots |years                                                                                                                  |
+#'  |:-------|:----------------------------------------------------------------------------------------------------------------------|
+#'  |A/B/C/- |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+#'  |A/B/C/D |2006                                                                                                                   |
+#'  |Full/-  |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987                                     |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `sei10`](https://gssdataexplorer.norc.org/variables/5714/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -897,46 +805,12 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-/- |full         |
-#'  |1973 |-/-/-/- |full         |
-#'  |1974 |-/-/-/- |full         |
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
+#'  |ballots |years                                                                                                                  |
+#'  |:-------|:----------------------------------------------------------------------------------------------------------------------|
+#'  |A/B/C/- |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+#'  |A/B/C/D |2006                                                                                                                   |
+#'  |Full/-  |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987                                     |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `sei10educ`](https://gssdataexplorer.norc.org/variables/5715/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -962,46 +836,12 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-/- |full         |
-#'  |1973 |-/-/-/- |full         |
-#'  |1974 |-/-/-/- |full         |
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
+#'  |ballots |years                                                                                                                  |
+#'  |:-------|:----------------------------------------------------------------------------------------------------------------------|
+#'  |A/B/C/- |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+#'  |A/B/C/D |2006                                                                                                                   |
+#'  |Full/-  |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987                                     |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `sei10inc`](https://gssdataexplorer.norc.org/variables/5716/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1027,46 +867,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
+#'  |ballots |years                                                                                                                        |
+#'  |:-------|:----------------------------------------------------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987                                           |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `pasei10`](https://gssdataexplorer.norc.org/variables/5717/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

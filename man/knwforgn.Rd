@@ -26,15 +26,21 @@ A. Foreign policy
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3414/vshow}{GSS Data Explorer page for \code{knwforgn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very informed \tab somewhat informed \tab neither informed nor uninformed \tab somewhat uninformed \tab very uninformed \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 146 \tab 831 \tab 301 \tab 291 \tab 266 \tab 24 \tab 5 \tab 4510 \cr
+   Total \tab 2646 \tab 146 \tab 831 \tab 301 \tab 291 \tab 266 \tab 24 \tab 5 \tab 4510 \cr
+}
 }
 
 \seealso{

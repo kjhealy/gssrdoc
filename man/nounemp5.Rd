@@ -28,15 +28,21 @@ To move within America.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6335/vshow}{GSS Data Explorer page for \code{nounemp5}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1927 \tab 93 \tab 280 \tab 156 \tab 269 \tab 130 \tab 5 \tab 7 \tab 2867 \cr
+   Total \tab 1927 \tab 93 \tab 280 \tab 156 \tab 269 \tab 130 \tab 5 \tab 7 \tab 2867 \cr
+}
 }
 
 \seealso{

@@ -53,15 +53,21 @@ SOCIAL NETWORKING/SOCIAL MEDIA SITE:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6286/vshow}{GSS Data Explorer page for \code{snsmfrst}}.
+
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab twitter \tab facebook \tab instagram \tab linkedin \tab snapchat \tab tumblr \tab whatsapp \tab google+ \tab pinterest \tab flickr \tab classmates \tab youtube \tab plenty of fish \tab kik \tab online dating sites \tab online gaming \tab yahoo \tab other social networks \tab not a social network \tab no answer \tab Total \cr
+   2016 \tab 1871 \tab 29 \tab 688 \tab 21 \tab 58 \tab 15 \tab 4 \tab 6 \tab 90 \tab 31 \tab 4 \tab 16 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 6 \tab 10 \tab 2867 \cr
+   Total \tab 1871 \tab 29 \tab 688 \tab 21 \tab 58 \tab 15 \tab 4 \tab 6 \tab 90 \tab 31 \tab 4 \tab 16 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 6 \tab 10 \tab 2867 \cr
+}
 }
 
 \seealso{

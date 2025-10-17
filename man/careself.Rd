@@ -26,18 +26,25 @@ B. Those in need have to learn to take care of themselves and not depend on othe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2891/vshow}{GSS Data Explorer page for \code{careself}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 175 \tab 552 \tab 319 \tab 254 \tab 52 \tab 13 \tab 7 \tab 2765 \cr
+   2004 \tab 1472 \tab 115 \tab 519 \tab 393 \tab 255 \tab 50 \tab 6 \tab 2 \tab 2812 \cr
+   2012 \tab 666 \tab 154 \tab 521 \tab 333 \tab 256 \tab 27 \tab 10 \tab 7 \tab 1974 \cr
+   2014 \tab 1264 \tab 156 \tab 519 \tab 303 \tab 240 \tab 46 \tab 3 \tab 7 \tab 2538 \cr
+   Total \tab 4795 \tab 600 \tab 2111 \tab 1348 \tab 1005 \tab 175 \tab 32 \tab 23 \tab 10089 \cr
+}
 }
 
 \seealso{

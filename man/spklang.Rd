@@ -24,25 +24,30 @@ Question E. How well do you speak that language? (IF SPEAKS 2 OR MORE, ASK ONLY 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2287/vshow}{GSS Data Explorer page for \code{spklang}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very well \tab well \tab not well \tab poorly/hardly at all \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   2000 \tab 2450 \tab 137 \tab 85 \tab 92 \tab 40 \tab 13 \tab - \tab - \tab 2817 \cr
+   2006 \tab 3837 \tab 272 \tab 127 \tab 197 \tab 75 \tab 2 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1470 \tab 214 \tab 110 \tab 160 \tab 63 \tab 6 \tab - \tab - \tab 2023 \cr
+   2010 \tab 1508 \tab 206 \tab 129 \tab 141 \tab 57 \tab 3 \tab - \tab - \tab 2044 \cr
+   2012 \tab 1397 \tab 217 \tab 136 \tab 144 \tab 73 \tab 7 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1789 \tab 290 \tab 187 \tab 189 \tab 74 \tab 8 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 2045 \tab 296 \tab 207 \tab 203 \tab 105 \tab 11 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1625 \tab 260 \tab 181 \tab 192 \tab 86 \tab 4 \tab - \tab - \tab 2348 \cr
+   2021 \tab 2810 \tab 441 \tab 275 \tab 305 \tab 45 \tab 146 \tab - \tab 10 \tab 4032 \cr
+   2022 \tab 2546 \tab 439 \tab 233 \tab 207 \tab 54 \tab 62 \tab 1 \tab 2 \tab 3544 \cr
+   Total \tab 21477 \tab 2772 \tab 1670 \tab 1830 \tab 672 \tab 262 \tab 2 \tab 12 \tab 28697 \cr
+}
 }
 
 \seealso{

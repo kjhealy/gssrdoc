@@ -25,15 +25,21 @@ Question For a society to be fair, differences in people's standards of living s
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7239/vshow}{GSS Data Explorer page for \code{smallgap}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 105 \tab 296 \tab 341 \tab 342 \tab 64 \tab 23 \tab 2 \tab 2348 \cr
+   Total \tab 1175 \tab 105 \tab 296 \tab 341 \tab 342 \tab 64 \tab 23 \tab 2 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

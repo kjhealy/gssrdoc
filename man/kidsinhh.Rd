@@ -22,16 +22,22 @@ Question Based on the features of this housing unit and the surrounding property
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6655/vshow}{GSS Data Explorer page for \code{kidsinhh}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab - \tab 831 \tab 1998 \tab 11 \tab 27 \tab - \tab 2867 \cr
+   2018 \tab - \tab 688 \tab 1636 \tab 18 \tab 6 \tab - \tab 2348 \cr
+   Total \tab 0 \tab 1519 \tab 3634 \tab 29 \tab 33 \tab 0 \tab 5215 \cr
+}
 }
 
 \keyword{variable}

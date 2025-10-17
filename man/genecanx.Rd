@@ -22,15 +22,21 @@ Question A. Suppose workers will be exposed to some cancer-causing materials on 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1260/vshow}{GSS Data Explorer page for \code{genecanx}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 761 \tab 45 \tab 667 \tab 34 \tab 10 \tab 1517 \cr
+   Total \tab 761 \tab 45 \tab 667 \tab 34 \tab 10 \tab 1517 \cr
+}
 }
 
 \seealso{

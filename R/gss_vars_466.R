@@ -22,13 +22,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cntctfrd`](https://gssdataexplorer.norc.org/variables/7269/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |i do not have any close friends |the close friend i have contact with the most frequently lives with me |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:-------------------------------|:----------------------------------------------------------------------|:----------|:---------|:-----|
+#'  |2018  |1175 |274   |402                  |171         |137                        |54           |62                   |22         |23    |21                              |2                                                                      |4          |1         |2348  |
+#'  |Total |1175 |274   |402                  |171         |137                        |54           |62                   |22         |23    |21                              |2                                                                      |4          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -59,13 +65,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `intcntct`](https://gssdataexplorer.norc.org/variables/7270/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |all or almost all of it |most of it |about half of it |some of it |none or almost none of it |i do not use any of these devices |can't choose |no answer |Total |
+#'  |:-----|:----|:-----------------------|:----------|:----------------|:----------|:-------------------------|:---------------------------------|:------------|:---------|:-----|
+#'  |2018  |1175 |275                     |357        |265              |184        |78                        |10                                |3            |1         |2348  |
+#'  |Total |1175 |275                     |357        |265              |184        |78                        |10                                |3            |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -94,15 +106,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/-   |partial      |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |C/-/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/-   |2012  |
+#'  |A/B/C   |2018  |
+#'  |C/-/-   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `healthissp`](https://gssdataexplorer.norc.org/variables/7271/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |excellent |very good |good |fair |poor |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:---------|:----|:----|:----|:----------|:---------|:--------------|:-----|
+#'  |2012  |672  |254       |346       |415  |210  |65   |4          |8         |-              |1974  |
+#'  |2018  |-    |464       |666       |692  |420  |93   |3          |10        |-              |2348  |
+#'  |2022  |2382 |142       |307       |397  |235  |60   |15         |3         |3              |3544  |
+#'  |Total |3054 |860       |1319      |1504 |865  |218  |22         |21        |3              |7866  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -131,13 +151,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `unhappy`](https://gssdataexplorer.norc.org/variables/7272/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |rarely |sometimes |often |very often |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:------|:---------|:-----|:----------|:----------|:---------|:-----|
+#'  |2018  |1175 |434   |387    |235       |80    |31         |3          |3         |2348  |
+#'  |Total |1175 |434   |387    |235       |80    |31         |3          |3         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -166,13 +192,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `pilingup`](https://gssdataexplorer.norc.org/variables/7273/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |rarely |sometimes |often |very often |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:------|:---------|:-----|:----------|:----------|:---------|:-----|
+#'  |2018  |1175 |545   |335    |195       |62    |27         |7          |2         |2348  |
+#'  |Total |1175 |545   |335    |195       |62    |27         |7          |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -203,13 +235,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mygoals`](https://gssdataexplorer.norc.org/variables/7274/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |completely true |mostly true |somewhat true |neither true nor untrue |somewhat untrue |mostly untrue |completely untrue |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:-----------|:-------------|:-----------------------|:---------------|:-------------|:-----------------|:----------|:---------|:-----|
+#'  |2018  |1175 |143             |475         |345           |104                     |60              |29            |11                |5          |1         |2348  |
+#'  |Total |1175 |143             |475         |345           |104                     |60              |29            |11                |5          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -240,13 +278,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `satlife`](https://gssdataexplorer.norc.org/variables/7275/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |completely satisfied |mostly satisfied |somewhat satisfied |neither satisfied nor dissatisfied |somewhat dissatisfied |mostly dissatisfied |completely dissatisfied |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------|:----------------|:------------------|:----------------------------------|:---------------------|:-------------------|:-----------------------|:----------|:---------|:-----|
+#'  |2018  |1175 |187                  |446              |389                |82                                 |44                    |12                  |9                       |2          |2         |2348  |
+#'  |Total |1175 |187                  |446              |389                |82                                 |44                    |12                  |9                       |2          |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -275,15 +319,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
-#'  |2021 |B/C     |partial      |
-#'  |2022 |A/-     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/-     |2022       |
+#'  |B/C     |2018, 2021 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `endsmeet`](https://gssdataexplorer.norc.org/variables/7276/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very difficult |fairly difficult |neither easy nor difficult |fairly easy |very easy |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:----------------|:--------------------------|:-----------|:---------|:------------|:---------|:--------------|:-----|
+#'  |2018  |1175 |86             |216              |308                        |368         |187       |5            |3         |-              |2348  |
+#'  |2021  |2029 |129            |321              |548                        |485         |280       |53           |176       |11             |4032  |
+#'  |2022  |2386 |69             |232              |357                        |284         |155       |49           |8         |4              |3544  |
+#'  |Total |5590 |284            |769              |1213                       |1137        |622       |107          |187       |15             |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -311,13 +362,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `numlangs`](https://gssdataexplorer.norc.org/variables/7277/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |one language |two languages |three languages |four or more languages |don't know |no answer |Total |
+#'  |:-----|:----|:------------|:-------------|:---------------|:----------------------|:----------|:---------|:-----|
+#'  |2018  |1175 |920          |213           |29              |7                      |3          |1         |2348  |
+#'  |Total |1175 |920          |213           |29              |7                      |3          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -347,15 +404,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-/-/-   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2021 |B/C/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
+#'  |B/C/-   |2021  |
+#'  |Full    |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `opwlth`](https://gssdataexplorer.norc.org/variables/4241/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:-----|
+#'  |1987  |255  |62        |290            |432              |466                |264                  |35           |15        |-              |1819  |
+#'  |2000  |1545 |35        |206            |338              |418                |179                  |42           |54        |-              |2817  |
+#'  |2021  |2029 |118       |407            |580              |506                |204                  |63           |117       |8              |4032  |
+#'  |Total |3829 |215       |903            |1350             |1390               |647                  |140          |186       |8              |8668  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality

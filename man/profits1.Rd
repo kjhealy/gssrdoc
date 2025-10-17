@@ -26,15 +26,21 @@ A. The way most companies work, the only thing management cares about is profits
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1263/vshow}{GSS Data Explorer page for \code{profits1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1991 \tab - \tab 356 \tab 687 \tab 376 \tab 46 \tab 46 \tab 6 \tab 1517 \cr
+   Total \tab 0 \tab 356 \tab 687 \tab 376 \tab 46 \tab 46 \tab 6 \tab 1517 \cr
+}
 }
 
 \seealso{

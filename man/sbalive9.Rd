@@ -23,15 +23,21 @@ E9. Is ninth sibling alive?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1580/vshow}{GSS Data Explorer page for \code{sbalive9}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2795 \tab 135 \tab 42 \tab 3 \tab 17 \tab 2992 \cr
+   Total \tab 2795 \tab 135 \tab 42 \tab 3 \tab 17 \tab 2992 \cr
+}
 }
 
 \seealso{

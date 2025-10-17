@@ -25,15 +25,21 @@ A. Children in the U.S. should learn a second language fluently before they fini
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2295/vshow}{GSS Data Explorer page for \code{twolang}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 362 \tab 665 \tab 298 \tab 42 \tab 27 \tab 4 \tab 2817 \cr
+   Total \tab 1419 \tab 362 \tab 665 \tab 298 \tab 42 \tab 27 \tab 4 \tab 2817 \cr
+}
 }
 
 \seealso{

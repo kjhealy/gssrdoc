@@ -23,15 +23,21 @@ C. Other relatives.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2061/vshow}{GSS Data Explorer page for \code{relmhsp3}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab oth relative \tab not oth relative \tab no answer \tab Total \cr
+   1996 \tab 2531 \tab 99 \tab 265 \tab 9 \tab 2904 \cr
+   Total \tab 2531 \tab 99 \tab 265 \tab 9 \tab 2904 \cr
+}
 }
 
 \seealso{

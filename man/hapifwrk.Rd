@@ -26,15 +26,21 @@ D. A woman and her family will all be happier if she goes out to work.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4346/vshow}{GSS Data Explorer page for \code{hapifwrk}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 47 \tab 181 \tab 509 \tab 467 \tab 136 \tab 48 \tab 26 \tab 1481 \cr
+   Total \tab 67 \tab 47 \tab 181 \tab 509 \tab 467 \tab 136 \tab 48 \tab 26 \tab 1481 \cr
+}
 }
 
 \seealso{

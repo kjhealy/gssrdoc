@@ -22,18 +22,24 @@ Question A. Are you a citizen of America?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4873/vshow}{GSS Data Explorer page for \code{citizen}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 1285 \tab 57 \tab 25 \tab 2904 \cr
+   2004 \tab 1596 \tab 1168 \tab 47 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 1186 \tab 84 \tab 4 \tab 2538 \cr
+   Total \tab 4397 \tab 3639 \tab 188 \tab 30 \tab 8254 \cr
+}
 }
 
 \seealso{

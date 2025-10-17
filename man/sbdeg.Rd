@@ -25,15 +25,21 @@ Question SIBLING'S DEGREE
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1583/vshow}{GSS Data Explorer page for \code{sbdeg}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab less than high school \tab high school \tab associate/junior college \tab bachelor's \tab graduate \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 378 \tab 390 \tab 1431 \tab 116 \tab 402 \tab 178 \tab 92 \tab 5 \tab 2992 \cr
+   Total \tab 378 \tab 390 \tab 1431 \tab 116 \tab 402 \tab 178 \tab 92 \tab 5 \tab 2992 \cr
+}
 }
 
 \seealso{

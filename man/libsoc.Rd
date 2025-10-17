@@ -23,17 +23,23 @@ C. If some people in your community suggested a book he wrote favoring governmen
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab - \tab full \cr
-   1973 \tab - \tab full \cr
-   1974 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1972, 1973, 1974 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/251/vshow}{GSS Data Explorer page for \code{libsoc}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab remove \tab not remove \tab don't know \tab no answer \tab iap \tab Total \cr
+   1972 \tab 409 \tab 1086 \tab 107 \tab 11 \tab - \tab 1613 \cr
+   1973 \tab 372 \tab 1070 \tab 59 \tab 3 \tab - \tab 1504 \cr
+   1974 \tab 380 \tab 1025 \tab 74 \tab 5 \tab - \tab 1484 \cr
+   Total \tab 1161 \tab 3181 \tab 240 \tab 19 \tab 0 \tab 4601 \cr
+}
 }
 
 \seealso{

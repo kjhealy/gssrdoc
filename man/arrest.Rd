@@ -23,22 +23,29 @@ Question A. Were you ever picked up, or charged, by the police, for any (other) 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012 \cr
+   Full \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/685/vshow}{GSS Data Explorer page for \code{arrest}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab refused \tab no answer \tab don't know \tab Total \cr
+   1973 \tab - \tab 156 \tab 1288 \tab 1 \tab 59 \tab - \tab 1504 \cr
+   1974 \tab - \tab 148 \tab 1328 \tab - \tab 8 \tab - \tab 1484 \cr
+   1976 \tab - \tab 128 \tab 1337 \tab - \tab 33 \tab 1 \tab 1499 \cr
+   1977 \tab - \tab 156 \tab 1341 \tab - \tab 33 \tab - \tab 1530 \cr
+   1980 \tab - \tab 178 \tab 1244 \tab 1 \tab 42 \tab 3 \tab 1468 \cr
+   1982 \tab - \tab 233 \tab 1603 \tab 1 \tab 22 \tab 1 \tab 1860 \cr
+   1984 \tab - \tab 186 \tab 1265 \tab - \tab 21 \tab 1 \tab 1473 \cr
+   2012 \tab 220 \tab 373 \tab 1375 \tab - \tab 5 \tab 1 \tab 1974 \cr
+   Total \tab 220 \tab 1558 \tab 10781 \tab 3 \tab 223 \tab 7 \tab 12792 \cr
+}
 }
 
 \seealso{

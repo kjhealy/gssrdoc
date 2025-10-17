@@ -22,17 +22,22 @@ Question Do you think a person has the right to end his or her own life if this 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7472/vshow}{GSS Data Explorer page for \code{suicide1g}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab skipped on web \tab don't know \tab no answer \tab Total \cr
+   2021 \tab 2794 \tab 822 \tab 390 \tab 26 \tab - \tab - \tab 4032 \cr
+   2022 \tab 2339 \tab 827 \tab 328 \tab 4 \tab 35 \tab 11 \tab 3544 \cr
+   Total \tab 5133 \tab 1649 \tab 718 \tab 30 \tab 35 \tab 11 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

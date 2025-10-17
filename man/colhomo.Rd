@@ -23,42 +23,49 @@ B. Should such a person be allowed to teach in a college or university, or not?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/262/vshow}{GSS Data Explorer page for \code{colhomo}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, allowed to teach \tab not allowed \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1973 \tab - \tab 711 \tab 727 \tab 64 \tab 2 \tab - \tab 1504 \cr
+   1974 \tab - \tab 744 \tab 660 \tab 77 \tab 3 \tab - \tab 1484 \cr
+   1976 \tab - \tab 780 \tab 668 \tab 48 \tab 3 \tab - \tab 1499 \cr
+   1977 \tab - \tab 752 \tab 710 \tab 64 \tab 4 \tab - \tab 1530 \cr
+   1980 \tab - \tab 801 \tab 609 \tab 56 \tab 2 \tab - \tab 1468 \cr
+   1982 \tab - \tab 1002 \tab 755 \tab 94 \tab 9 \tab - \tab 1860 \cr
+   1984 \tab - \tab 864 \tab 545 \tab 59 \tab 5 \tab - \tab 1473 \cr
+   1985 \tab - \tab 886 \tab 597 \tab 46 \tab 5 \tab - \tab 1534 \cr
+   1987 \tab - \tab 1021 \tab 728 \tab 65 \tab 5 \tab - \tab 1819 \cr
+   1988 \tab 504 \tab 552 \tab 375 \tab 45 \tab 5 \tab - \tab 1481 \cr
+   1989 \tab 504 \tab 654 \tab 328 \tab 48 \tab 3 \tab - \tab 1537 \cr
+   1990 \tab 455 \tab 574 \tab 297 \tab 43 \tab 3 \tab - \tab 1372 \cr
+   1991 \tab 524 \tab 628 \tab 326 \tab 36 \tab 3 \tab - \tab 1517 \cr
+   1993 \tab 531 \tab 733 \tab 290 \tab 47 \tab 5 \tab - \tab 1606 \cr
+   1994 \tab 996 \tab 1409 \tab 522 \tab 58 \tab 7 \tab - \tab 2992 \cr
+   1996 \tab 981 \tab 1440 \tab 424 \tab 57 \tab 2 \tab - \tab 2904 \cr
+   1998 \tab 950 \tab 1387 \tab 415 \tab 77 \tab 3 \tab - \tab 2832 \cr
+   2000 \tab 956 \tab 1411 \tab 368 \tab 76 \tab 6 \tab - \tab 2817 \cr
+   2002 \tab 1841 \tab 722 \tab 178 \tab 21 \tab 3 \tab - \tab 2765 \cr
+   2004 \tab 1914 \tab 710 \tab 176 \tab 9 \tab 3 \tab - \tab 2812 \cr
+   2006 \tab 2507 \tab 1546 \tab 411 \tab 37 \tab 9 \tab - \tab 4510 \cr
+   2008 \tab 671 \tab 1058 \tab 261 \tab 30 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 763 \tab 1064 \tab 191 \tab 20 \tab 6 \tab - \tab 2044 \cr
+   2012 \tab 666 \tab 1081 \tab 192 \tab 27 \tab 8 \tab - \tab 1974 \cr
+   2014 \tab 824 \tab 1492 \tab 194 \tab 20 \tab 8 \tab - \tab 2538 \cr
+   2016 \tab 977 \tab 1636 \tab 221 \tab 26 \tab 7 \tab - \tab 2867 \cr
+   2018 \tab 774 \tab 1352 \tab 190 \tab 22 \tab 10 \tab - \tab 2348 \cr
+   2021 \tab 1357 \tab 2473 \tab 183 \tab 2 \tab 1 \tab 16 \tab 4032 \cr
+   Total \tab 18695 \tab 29483 \tab 11541 \tab 1274 \tab 133 \tab 16 \tab 61142 \cr
+}
 }
 
 \seealso{

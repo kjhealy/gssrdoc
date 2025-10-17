@@ -23,23 +23,28 @@ As of 2024, USCITZN has been recoded to simplify responses. It is now a syntheti
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5283/vshow}{GSS Data Explorer page for \code{uscitzn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a u.s. citizen \tab not a u.s. citizen \tab a u.s. citizen born in puerto rico, the u.s. virgin islands, or the northern marianas islands (if volunteered) \tab born outside of the u.s. to parents who were u.s. citizens at that time (if volunteered) \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1758 \tab 118 \tab 133 \tab 2 \tab 6 \tab 1 \tab 5 \tab - \tab 2023 \cr
+   2010 \tab 1795 \tab 116 \tab 122 \tab 3 \tab 3 \tab 3 \tab 2 \tab - \tab 2044 \cr
+   2012 \tab 1700 \tab 141 \tab 123 \tab 1 \tab 2 \tab 2 \tab 5 \tab - \tab 1974 \cr
+   2014 \tab 2184 \tab 187 \tab 157 \tab 3 \tab 4 \tab - \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 2507 \tab 180 \tab 148 \tab 8 \tab 9 \tab 5 \tab 10 \tab - \tab 2867 \cr
+   2018 \tab 2045 \tab 163 \tab 131 \tab 2 \tab 2 \tab 1 \tab 4 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 3277 \tab 151 \tab 92 \tab 4 \tab 6 \tab 4 \tab 10 \tab - \tab 3544 \cr
+   Total \tab 15266 \tab 1056 \tab 906 \tab 23 \tab 32 \tab 16 \tab 39 \tab 4032 \tab 21370 \cr
+}
 }
 
 \seealso{

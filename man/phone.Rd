@@ -27,48 +27,55 @@ ENTER NAME AND PHONE NUMBER. IF NO PHONE OR REFUSED, CIRCLE APPROPRIATE CODE NUM
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/693/vshow}{GSS Data Explorer page for \code{phone}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab no phone number \tab refused phone number \tab home phone \tab phone elsewhere \tab no answer \tab phone location not given \tab cell phone \tab Total \cr
+   1973 \tab - \tab 115 \tab 48 \tab 1302 \tab 27 \tab 12 \tab - \tab - \tab 1504 \cr
+   1974 \tab - \tab 117 \tab 48 \tab 1277 \tab 26 \tab 6 \tab 10 \tab - \tab 1484 \cr
+   1975 \tab - \tab 103 \tab 41 \tab 1243 \tab 43 \tab 2 \tab 58 \tab - \tab 1490 \cr
+   1976 \tab - \tab 153 \tab 47 \tab 1272 \tab 9 \tab - \tab 18 \tab - \tab 1499 \cr
+   1977 \tab - \tab 124 \tab 25 \tab 1324 \tab 47 \tab 5 \tab 5 \tab - \tab 1530 \cr
+   1978 \tab - \tab 87 \tab 31 \tab 1359 \tab 40 \tab 1 \tab 14 \tab - \tab 1532 \cr
+   1980 \tab - \tab 92 \tab 18 \tab 1316 \tab 32 \tab 2 \tab 8 \tab - \tab 1468 \cr
+   1982 \tab - \tab 131 \tab 44 \tab 1609 \tab 38 \tab 6 \tab 32 \tab - \tab 1860 \cr
+   1983 \tab - \tab 94 \tab 57 \tab 1380 \tab 58 \tab 6 \tab 4 \tab - \tab 1599 \cr
+   1984 \tab - \tab 91 \tab 44 \tab 1267 \tab 66 \tab 5 \tab - \tab - \tab 1473 \cr
+   1985 \tab - \tab 71 \tab 50 \tab 1374 \tab 38 \tab 1 \tab - \tab - \tab 1534 \cr
+   1986 \tab - \tab 84 \tab 20 \tab 1320 \tab 44 \tab 2 \tab - \tab - \tab 1470 \cr
+   1987 \tab - \tab 111 \tab 40 \tab 1606 \tab 60 \tab 2 \tab - \tab - \tab 1819 \cr
+   1988 \tab - \tab 70 \tab 31 \tab 1336 \tab 42 \tab 2 \tab - \tab - \tab 1481 \cr
+   1989 \tab - \tab 72 \tab 38 \tab 1376 \tab 43 \tab 8 \tab - \tab - \tab 1537 \cr
+   1990 \tab - \tab 63 \tab 23 \tab 1239 \tab 38 \tab 9 \tab - \tab - \tab 1372 \cr
+   1991 \tab - \tab 79 \tab 32 \tab 1345 \tab 42 \tab 19 \tab - \tab - \tab 1517 \cr
+   1993 \tab - \tab 55 \tab 29 \tab 1463 \tab 54 \tab 5 \tab - \tab - \tab 1606 \cr
+   1994 \tab - \tab 111 \tab 58 \tab 2757 \tab 58 \tab 7 \tab 1 \tab - \tab 2992 \cr
+   1996 \tab - \tab 89 \tab 65 \tab 2673 \tab 76 \tab - \tab 1 \tab - \tab 2904 \cr
+   1998 \tab - \tab 114 \tab 114 \tab 2516 \tab 77 \tab 6 \tab 5 \tab - \tab 2832 \cr
+   2000 \tab - \tab 91 \tab 94 \tab 2532 \tab 93 \tab 3 \tab 4 \tab - \tab 2817 \cr
+   2002 \tab - \tab 17 \tab 132 \tab 2498 \tab 116 \tab - \tab 2 \tab - \tab 2765 \cr
+   2004 \tab - \tab 39 \tab 38 \tab 2418 \tab 70 \tab 34 \tab 5 \tab 208 \tab 2812 \cr
+   2006 \tab - \tab 25 \tab 190 \tab 3753 \tab 85 \tab 6 \tab - \tab 451 \tab 4510 \cr
+   2008 \tab - \tab 52 \tab 157 \tab 1556 \tab 26 \tab 11 \tab - \tab 221 \tab 2023 \cr
+   2010 \tab - \tab 19 \tab 71 \tab 1172 \tab 93 \tab 2 \tab - \tab 687 \tab 2044 \cr
+   2012 \tab - \tab 11 \tab 69 \tab 984 \tab 78 \tab - \tab 1 \tab 831 \tab 1974 \cr
+   2014 \tab - \tab 12 \tab 66 \tab 1075 \tab 68 \tab 5 \tab - \tab 1312 \tab 2538 \cr
+   2016 \tab - \tab 19 \tab 80 \tab 1010 \tab 86 \tab - \tab - \tab 1672 \tab 2867 \cr
+   2018 \tab - \tab 15 \tab 89 \tab 713 \tab 35 \tab - \tab - \tab 1496 \tab 2348 \cr
+   2021 \tab - \tab 633 \tab 712 \tab - \tab - \tab 308 \tab - \tab 2379 \tab 4032 \cr
+   2022 \tab - \tab 595 \tab 489 \tab - \tab - \tab - \tab - \tab 2460 \tab 3544 \cr
+   Total \tab 0 \tab 3554 \tab 3090 \tab 50065 \tab 1708 \tab 475 \tab 168 \tab 11717 \tab 70777 \cr
+}
 }
 
 \seealso{

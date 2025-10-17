@@ -23,21 +23,30 @@ Question Would you say that astrology is very scientific, sort of scientific, or
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3324/vshow}{GSS Data Explorer page for \code{astrosci}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very scientific \tab sort of scientific \tab not at all scientific \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 89 \tab 494 \tab 1210 \tab 71 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 74 \tab 434 \tab 935 \tab 59 \tab 3 \tab 2023 \cr
+   2010 \tab 1353 \tab 39 \tab 192 \tab 432 \tab 25 \tab 3 \tab 2044 \cr
+   2012 \tab 972 \tab 101 \tab 330 \tab 522 \tab 42 \tab 7 \tab 1974 \cr
+   2014 \tab 1299 \tab 82 \tab 313 \tab 818 \tab 23 \tab 3 \tab 2538 \cr
+   2016 \tab 1477 \tab 109 \tab 404 \tab 835 \tab 38 \tab 4 \tab 2867 \cr
+   2018 \tab 1173 \tab 77 \tab 383 \tab 680 \tab 32 \tab 3 \tab 2348 \cr
+   Total \tab 9438 \tab 571 \tab 2550 \tab 5432 \tab 290 \tab 23 \tab 18304 \cr
+}
 }
 
 \seealso{

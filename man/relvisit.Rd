@@ -28,15 +28,21 @@ A. How often do you see or visit with this relative?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4159/vshow}{GSS Data Explorer page for \code{relvisit}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 134 \tab 37 \tab 132 \tab 194 \tab 238 \tab 307 \tab 265 \tab 156 \tab 1 \tab 6 \tab 1470 \cr
+   Total \tab 134 \tab 37 \tab 132 \tab 194 \tab 238 \tab 307 \tab 265 \tab 156 \tab 1 \tab 6 \tab 1470 \cr
+}
 }
 
 \seealso{

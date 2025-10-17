@@ -23,15 +23,21 @@ B. A civil rights demonstration?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/654/vshow}{GSS Data Explorer page for \code{civright}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab Total \cr
+   1973 \tab - \tab 65 \tab 1437 \tab 2 \tab 1504 \cr
+   Total \tab 0 \tab 65 \tab 1437 \tab 2 \tab 1504 \cr
+}
 }
 
 \seealso{

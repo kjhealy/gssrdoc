@@ -22,17 +22,22 @@ Question Are there any situations you can imagine in which you would approve of 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7447/vshow}{GSS Data Explorer page for \code{polhitoky}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab skipped on web \tab don't know \tab no answer \tab Total \cr
+   2021 \tab 2673 \tab 926 \tab 421 \tab 12 \tab - \tab - \tab 4032 \cr
+   2022 \tab 2364 \tab 739 \tab 411 \tab 5 \tab 20 \tab 5 \tab 3544 \cr
+   Total \tab 5037 \tab 1665 \tab 832 \tab 17 \tab 20 \tab 5 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

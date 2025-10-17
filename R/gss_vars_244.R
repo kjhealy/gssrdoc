@@ -15,13 +15,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mntldif`](https://gssdataexplorer.norc.org/variables/2191/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very difficult |somewhat diffclt |not difficult |no answer |Total |
+#'  |:-----|:----|:--------------|:----------------|:-------------|:---------|:-----|
+#'  |1998  |2696 |7              |21               |101           |7         |2832  |
+#'  |Total |2696 |7              |21               |101           |7         |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mntldeny`](https://gssdataexplorer.norc.org/variables/2192/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |1998  |2678 |16  |130 |1          |7         |2832  |
+#'  |Total |2678 |16  |130 |1          |7         |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -83,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hmo1`](https://gssdataexplorer.norc.org/variables/2193/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neither agree nor disagree |agree |strongly agree |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:--------------------------|:-----|:--------------|:----------|:---------|:-----|
+#'  |1998  |1445 |167               |402      |325                        |271   |37             |184        |1         |2832  |
+#'  |Total |1445 |167               |402      |325                        |271   |37             |184        |1         |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -119,13 +137,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hmo2`](https://gssdataexplorer.norc.org/variables/2194/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neither agree nor disagree |agree |strongly agree |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:--------------------------|:-----|:--------------|:----------|:---------|:-----|
+#'  |1998  |1445 |32                |301      |242                        |455   |128            |223        |6         |2832  |
+#'  |Total |1445 |32                |301      |242                        |455   |128            |223        |6         |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -155,13 +179,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hmo3`](https://gssdataexplorer.norc.org/variables/2195/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neither agree nor disagree |agree |strongly agree |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:--------------------------|:-----|:--------------|:----------|:---------|:-----|
+#'  |1998  |1445 |53                |253      |204                        |584   |83             |206        |4         |2832  |
+#'  |Total |1445 |53                |253      |204                        |584   |83             |206        |4         |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -191,13 +221,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hmo4`](https://gssdataexplorer.norc.org/variables/2196/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neither agree nor disagree |agree |strongly agree |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:--------------------------|:-----|:--------------|:----------|:---------|:-----|
+#'  |1998  |1445 |45                |365      |238                        |428   |118            |187        |6         |2832  |
+#'  |Total |1445 |45                |365      |238                        |428   |118            |187        |6         |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -227,13 +263,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hmo5`](https://gssdataexplorer.norc.org/variables/2197/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neither agree nor disagree |agree |strongly agree |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:--------------------------|:-----|:--------------|:----------|:---------|:-----|
+#'  |1998  |1445 |43                |377      |269                        |379   |130            |186        |3         |2832  |
+#'  |Total |1445 |43                |377      |269                        |379   |130            |186        |3         |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -263,13 +305,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hmo6`](https://gssdataexplorer.norc.org/variables/2198/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neither agree nor disagree |agree |strongly agree |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:--------------------------|:-----|:--------------|:----------|:---------|:-----|
+#'  |1998  |1445 |33                |281      |216                        |461   |180            |212        |4         |2832  |
+#'  |Total |1445 |33                |281      |216                        |461   |180            |212        |4         |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -299,13 +347,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hmo7`](https://gssdataexplorer.norc.org/variables/2199/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly disagree |disagree |neither agree nor disagree |agree |strongly agree |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:--------|:--------------------------|:-----|:--------------|:----------|:---------|:-----|
+#'  |1998  |1445 |29                |238      |198                        |469   |194            |255        |4         |2832  |
+#'  |Total |1445 |29                |238      |198                        |469   |194            |255        |4         |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -335,13 +389,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `doc1`](https://gssdataexplorer.norc.org/variables/2200/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |uncertain |disagree |strong disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:---------|:--------|:---------------|:----------|:---------|:-----|
+#'  |1998  |1445 |128            |571   |191       |425      |48              |21         |3         |2832  |
+#'  |Total |1445 |128            |571   |191       |425      |48              |21         |3         |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health

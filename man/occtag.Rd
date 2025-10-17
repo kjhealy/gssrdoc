@@ -23,42 +23,50 @@ Question OCC10 Coding Tag
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/-/- \tab full \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5983/vshow}{GSS Data Explorer page for \code{occtag}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab found \tab not found, assigned \tab not found, not assigned \tab iap \tab Total \cr
+   1972 \tab 702 \tab 744 \tab 167 \tab - \tab 1613 \cr
+   1973 \tab 1234 \tab 189 \tab 81 \tab - \tab 1504 \cr
+   1974 \tab 1217 \tab 221 \tab 46 \tab - \tab 1484 \cr
+   1975 \tab 976 \tab 408 \tab 106 \tab - \tab 1490 \cr
+   1976 \tab 1230 \tab 222 \tab 47 \tab - \tab 1499 \cr
+   1977 \tab 817 \tab 559 \tab 154 \tab - \tab 1530 \cr
+   1978 \tab 1518 \tab 14 \tab - \tab - \tab 1532 \cr
+   1980 \tab 1293 \tab 130 \tab 45 \tab - \tab 1468 \cr
+   1982 \tab 1696 \tab 132 \tab 32 \tab - \tab 1860 \cr
+   1983 \tab 1475 \tab 97 \tab 27 \tab - \tab 1599 \cr
+   1984 \tab 1458 \tab 14 \tab 1 \tab - \tab 1473 \cr
+   1985 \tab 1296 \tab 202 \tab 36 \tab - \tab 1534 \cr
+   1986 \tab 1425 \tab 37 \tab 8 \tab - \tab 1470 \cr
+   1987 \tab 1511 \tab 236 \tab 72 \tab - \tab 1819 \cr
+   1988 \tab 1460 \tab 20 \tab 1 \tab - \tab 1481 \cr
+   1989 \tab 1420 \tab 104 \tab 13 \tab - \tab 1537 \cr
+   1990 \tab 1358 \tab 14 \tab - \tab - \tab 1372 \cr
+   1991 \tab 1499 \tab 17 \tab 1 \tab - \tab 1517 \cr
+   1993 \tab 1545 \tab 56 \tab 5 \tab - \tab 1606 \cr
+   1994 \tab 2938 \tab 45 \tab 9 \tab - \tab 2992 \cr
+   1996 \tab 2883 \tab 16 \tab 5 \tab - \tab 2904 \cr
+   1998 \tab 2801 \tab 24 \tab 7 \tab - \tab 2832 \cr
+   2000 \tab 2817 \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2765 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2812 \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 4510 \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 2023 \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 2044 \tab - \tab - \tab - \tab 2044 \cr
+   Total \tab 50723 \tab 3501 \tab 863 \tab 0 \tab 55087 \cr
+}
 }
 
 \seealso{

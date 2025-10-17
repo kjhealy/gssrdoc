@@ -25,22 +25,31 @@ A. Because of science and technology, there will be more opportunities for the n
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008, 2022 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3317/vshow}{GSS Data Explorer page for \code{nextgen}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2006 \tab 2646 \tab 750 \tab 931 \tab 129 \tab 19 \tab 33 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 542 \tab 787 \tab 113 \tab 18 \tab 42 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 1353 \tab 222 \tab 397 \tab 42 \tab 9 \tab 17 \tab 4 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 277 \tab 582 \tab 90 \tab 13 \tab 34 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 409 \tab 676 \tab 122 \tab 16 \tab 14 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 511 \tab 749 \tab 94 \tab 17 \tab 15 \tab 4 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 455 \tab 625 \tab 76 \tab 14 \tab 4 \tab 1 \tab - \tab 2348 \cr
+   2022 \tab 2309 \tab 522 \tab 564 \tab 126 \tab 18 \tab - \tab - \tab 5 \tab 3544 \cr
+   Total \tab 11747 \tab 3688 \tab 5311 \tab 792 \tab 124 \tab 159 \tab 22 \tab 5 \tab 21848 \cr
+}
 }
 
 \seealso{

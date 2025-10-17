@@ -25,16 +25,22 @@ A. A taxpayer does not report all of his income in order to pay less income taxe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4637/vshow}{GSS Data Explorer page for \code{taxcheat}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not wrong \tab a bit wrong \tab wrong \tab seriously wrong \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 46 \tab 155 \tab 709 \tab 385 \tab 37 \tab 27 \tab 1517 \cr
+   1998 \tab 1548 \tab 57 \tab 127 \tab 624 \tab 384 \tab 66 \tab 26 \tab 2832 \cr
+   Total \tab 1706 \tab 103 \tab 282 \tab 1333 \tab 769 \tab 103 \tab 53 \tab 4349 \cr
+}
 }
 
 \seealso{

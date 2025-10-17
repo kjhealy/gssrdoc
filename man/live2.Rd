@@ -24,16 +24,23 @@ G. What about things concerning where you live?  During the last year, did any o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab B/C/- \tab partial \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   B/C/- \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5186/vshow}{GSS Data Explorer page for \code{live2}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1991 \tab 500 \tab 63 \tab 951 \tab 3 \tab 1517 \cr
+   2004 \tab 1472 \tab 85 \tab 1246 \tab 9 \tab 2812 \cr
+   Total \tab 1972 \tab 148 \tab 2197 \tab 12 \tab 4329 \cr
+}
 }
 
 \seealso{

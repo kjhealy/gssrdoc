@@ -24,43 +24,52 @@ Question
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab B/C/- \tab partial \cr
-   1989 \tab B/C/- \tab partial \cr
-   1990 \tab B/C/- \tab partial \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab B/C/- \tab partial \cr
-   1996 \tab B/C/- \tab partial \cr
-   1998 \tab B/C/- \tab partial \cr
-   2000 \tab B/C/- \tab partial \cr
-   2002 \tab B/C/- \tab partial \cr
-   2004 \tab B/C/- \tab partial \cr
-   2006 \tab B/C/D \tab partial \cr
-   2008 \tab B/C/- \tab partial \cr
-   2010 \tab B/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1993 \cr
+   B/C/- \tab 1988, 1989, 1990, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   B/C/D \tab 2006 \cr
+   Full \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/584/vshow}{GSS Data Explorer page for \code{union}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes, respondent belongs \tab yes, spouse belongs \tab yes, both belong \tab no, neither belong \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1973 \tab - \tab 230 \tab 148 \tab 40 \tab 1077 \tab 9 \tab - \tab - \tab 1504 \cr
+   1975 \tab - \tab 211 \tab 145 \tab 29 \tab 1099 \tab 6 \tab - \tab - \tab 1490 \cr
+   1976 \tab - \tab 227 \tab 121 \tab 27 \tab 1107 \tab 16 \tab 1 \tab - \tab 1499 \cr
+   1978 \tab - \tab 211 \tab 118 \tab 26 \tab 1176 \tab 1 \tab - \tab - \tab 1532 \cr
+   1980 \tab - \tab 194 \tab 103 \tab 18 \tab 1147 \tab 4 \tab 2 \tab - \tab 1468 \cr
+   1983 \tab - \tab 185 \tab 111 \tab 30 \tab 1270 \tab 2 \tab 1 \tab - \tab 1599 \cr
+   1984 \tab - \tab 197 \tab 78 \tab 29 \tab 1154 \tab 14 \tab 1 \tab - \tab 1473 \cr
+   1985 \tab 857 \tab 97 \tab 25 \tab 4 \tab 537 \tab 14 \tab - \tab - \tab 1534 \cr
+   1986 \tab - \tab 136 \tab 92 \tab 27 \tab 1210 \tab 5 \tab - \tab - \tab 1470 \cr
+   1987 \tab - \tab 247 \tab 84 \tab 42 \tab 1430 \tab 16 \tab - \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 120 \tab 53 \tab 11 \tab 812 \tab 1 \tab - \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 133 \tab 54 \tab 15 \tab 829 \tab 3 \tab 1 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 103 \tab 41 \tab 7 \tab 745 \tab 3 \tab - \tab - \tab 1372 \cr
+   1991 \tab - \tab 135 \tab 85 \tab 30 \tab 1254 \tab 12 \tab 1 \tab - \tab 1517 \cr
+   1993 \tab - \tab 155 \tab 82 \tab 12 \tab 1342 \tab 12 \tab 3 \tab - \tab 1606 \cr
+   1994 \tab 981 \tab 225 \tab 77 \tab 31 \tab 1650 \tab 28 \tab - \tab - \tab 2992 \cr
+   1996 \tab 979 \tab 224 \tab 86 \tab 34 \tab 1566 \tab 15 \tab - \tab - \tab 2904 \cr
+   1998 \tab 921 \tab 189 \tab 80 \tab 48 \tab 1577 \tab 15 \tab 2 \tab - \tab 2832 \cr
+   2000 \tab 921 \tab 210 \tab 77 \tab 24 \tab 1577 \tab 8 \tab - \tab - \tab 2817 \cr
+   2002 \tab 933 \tab 194 \tab 64 \tab 29 \tab 1538 \tab 2 \tab 5 \tab - \tab 2765 \cr
+   2004 \tab 952 \tab 149 \tab 64 \tab 26 \tab 1618 \tab - \tab 3 \tab - \tab 2812 \cr
+   2006 \tab 1003 \tab 330 \tab 128 \tab 46 \tab 2996 \tab 4 \tab 3 \tab - \tab 4510 \cr
+   2008 \tab 658 \tab 121 \tab 55 \tab 23 \tab 1159 \tab 1 \tab 6 \tab - \tab 2023 \cr
+   2010 \tab 667 \tab 100 \tab 40 \tab 9 \tab 1221 \tab 2 \tab 5 \tab - \tab 2044 \cr
+   2012 \tab 636 \tab 101 \tab 45 \tab 11 \tab 1179 \tab - \tab 2 \tab - \tab 1974 \cr
+   2014 \tab 851 \tab 134 \tab 60 \tab 24 \tab 1462 \tab - \tab 7 \tab - \tab 2538 \cr
+   2016 \tab 913 \tab 156 \tab 66 \tab 14 \tab 1711 \tab 2 \tab 5 \tab - \tab 2867 \cr
+   2018 \tab 785 \tab 140 \tab 35 \tab 14 \tab 1365 \tab 2 \tab 7 \tab - \tab 2348 \cr
+   2021 \tab 1371 \tab 210 \tab 88 \tab 41 \tab 2313 \tab - \tab 1 \tab 8 \tab 4032 \cr
+   Total \tab 14887 \tab 5064 \tab 2305 \tab 721 \tab 39121 \tab 197 \tab 56 \tab 8 \tab 62359 \cr
+}
 }
 
 \seealso{

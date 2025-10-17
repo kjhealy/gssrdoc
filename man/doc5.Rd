@@ -26,15 +26,21 @@ E. Doctors always treat their patients with respect.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2204/vshow}{GSS Data Explorer page for \code{doc5}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 83 \tab 618 \tab 193 \tab 420 \tab 52 \tab 14 \tab 7 \tab 2832 \cr
+   Total \tab 1445 \tab 83 \tab 618 \tab 193 \tab 420 \tab 52 \tab 14 \tab 7 \tab 2832 \cr
+}
 }
 
 \seealso{

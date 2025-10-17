@@ -26,15 +26,21 @@ M. A salesclerk in a department store?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4291/vshow}{GSS Data Explorer page for \code{givsales}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10000 \tab 10600 \tab 11000 \tab 12000 \tab 125000 \tab 13000 \tab 130000 \tab 14000 \tab 14400 \tab 1500 \tab 15000 \tab 150000 \tab 15200 \tab 16000 \tab 16640 \tab 17000 \tab 17500 \tab 18000 \tab 18200 \tab 19000 \tab 19500 \tab 1e+05 \tab $1 million (or more, for 1987 & 2000) \tab 2000 \tab 20000 \tab 20800 \tab 21000 \tab 21500 \tab 22000 \tab 2250 \tab 23000 \tab 24000 \tab 2500 \tab 25000 \tab 250000 \tab 26000 \tab 27000 \tab 27500 \tab 28000 \tab 29000 \tab 30000 \tab 32000 \tab 35000 \tab 36000 \tab 37000 \tab 38000 \tab 39000 \tab 3e+05 \tab 4000 \tab 40000 \tab 45000 \tab 500 \tab 5000 \tab 50000 \tab 520 \tab 54000 \tab 6000 \tab 60000 \tab 65000 \tab 7000 \tab 70000 \tab 7500 \tab 75000 \tab 8000 \tab 9000 \tab 90000 \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1545 \tab 15 \tab 1 \tab 3 \tab 12 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 1 \tab 78 \tab 1 \tab 1 \tab 8 \tab 1 \tab 12 \tab 1 \tab 19 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 2 \tab 225 \tab 1 \tab 1 \tab 1 \tab 16 \tab 1 \tab 6 \tab 7 \tab 1 \tab 198 \tab 1 \tab 2 \tab 1 \tab 2 \tab 13 \tab 2 \tab 169 \tab 2 \tab 55 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 60 \tab 6 \tab 1 \tab 3 \tab 34 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 3 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 63 \tab 201 \tab 2817 \cr
+   Total \tab 1545 \tab 15 \tab 1 \tab 3 \tab 12 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 1 \tab 78 \tab 1 \tab 1 \tab 8 \tab 1 \tab 12 \tab 1 \tab 19 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 2 \tab 225 \tab 1 \tab 1 \tab 1 \tab 16 \tab 1 \tab 6 \tab 7 \tab 1 \tab 198 \tab 1 \tab 2 \tab 1 \tab 2 \tab 13 \tab 2 \tab 169 \tab 2 \tab 55 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 60 \tab 6 \tab 1 \tab 3 \tab 34 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 3 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 63 \tab 201 \tab 2817 \cr
+}
 }
 
 \seealso{

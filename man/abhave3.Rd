@@ -24,15 +24,21 @@ C. You did not think you could afford another child?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/701/vshow}{GSS Data Explorer page for \code{abhave3}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1977 \tab - \tab 427 \tab 1043 \tab 47 \tab 13 \tab 1530 \cr
+   Total \tab 0 \tab 427 \tab 1043 \tab 47 \tab 13 \tab 1530 \cr
+}
 }
 
 \seealso{

@@ -26,18 +26,24 @@ A. I would rather be a citizen of America than of any other country in the world
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4834/vshow}{GSS Data Explorer page for \code{amcitizn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 949 \tab 268 \tab 89 \tab 28 \tab 7 \tab 12 \tab 14 \tab 2904 \cr
+   2004 \tab 1596 \tab 896 \tab 183 \tab 85 \tab 27 \tab 8 \tab 16 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 753 \tab 324 \tab 124 \tab 41 \tab 9 \tab 19 \tab 4 \tab 2538 \cr
+   Total \tab 4397 \tab 2598 \tab 775 \tab 298 \tab 96 \tab 24 \tab 47 \tab 19 \tab 8254 \cr
+}
 }
 
 \seealso{

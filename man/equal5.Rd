@@ -25,15 +25,21 @@ E. If social welfare benefits such as disability, unemployment compensation, and
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/229/vshow}{GSS Data Explorer page for \code{equal5}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 188 \tab 466 \tab 484 \tab 283 \tab 31 \tab 21 \tab 1473 \cr
+   Total \tab 0 \tab 188 \tab 466 \tab 484 \tab 283 \tab 31 \tab 21 \tab 1473 \cr
+}
 }
 
 \seealso{

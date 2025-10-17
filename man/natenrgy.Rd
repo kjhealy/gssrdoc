@@ -24,22 +24,27 @@ R. Developing alternative energy sources
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/198/vshow}{GSS Data Explorer page for \code{natenrgy}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab - \tab 1274 \tab 529 \tab 158 \tab 82 \tab 1 \tab - \tab 2044 \cr
+   2012 \tab - \tab 1176 \tab 511 \tab 194 \tab 92 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab - \tab 1401 \tab 783 \tab 257 \tab 96 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab - \tab 1563 \tab 931 \tab 249 \tab 123 \tab 1 \tab - \tab 2867 \cr
+   2018 \tab - \tab 1277 \tab 788 \tab 169 \tab 112 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab - \tab 2265 \tab 1321 \tab 422 \tab 11 \tab - \tab 13 \tab 4032 \cr
+   2022 \tab - \tab 1939 \tab 1013 \tab 472 \tab 115 \tab - \tab 5 \tab 3544 \cr
+   Total \tab 0 \tab 10895 \tab 5876 \tab 1921 \tab 631 \tab 6 \tab 18 \tab 19347 \cr
+}
 }
 
 \seealso{

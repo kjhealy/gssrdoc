@@ -34,15 +34,21 @@ Question Please specify (immediately after PRFMWHY9)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6230/vshow}{GSS Data Explorer page for \code{prfmwhy0}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab school related \tab wanted to see specific show/exhibit \tab entertainment, enjoyment, have fun \tab religious \tab support family/friend \tab celebrate birthday, anniversary \tab night out, date \tab miscellaneous other reasons \tab no answer \tab Total \cr
+   2016 \tab 2784 \tab 3 \tab 19 \tab 10 \tab 3 \tab 9 \tab 7 \tab 12 \tab 12 \tab 8 \tab 2867 \cr
+   Total \tab 2784 \tab 3 \tab 19 \tab 10 \tab 3 \tab 9 \tab 7 \tab 12 \tab 12 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

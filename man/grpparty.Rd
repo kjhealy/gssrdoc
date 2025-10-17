@@ -29,16 +29,22 @@ A. A political party
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4928/vshow}{GSS Data Explorer page for \code{grpparty}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab belong and actively participate \tab belong but dont participate \tab used to belong \tab never belonged \tab no answer \tab can't choose \tab Total \cr
+   2004 \tab 1340 \tab 216 \tab 403 \tab 65 \tab 784 \tab 4 \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 113 \tab 323 \tab 87 \tab 703 \tab 6 \tab 32 \tab 2538 \cr
+   Total \tab 2614 \tab 329 \tab 726 \tab 152 \tab 1487 \tab 10 \tab 32 \tab 5350 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ E. It is God's will that women care for children. How important do you think thi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1695/vshow}{GSS Data Explorer page for \code{fekids5}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1444 \tab 268 \tab 221 \tab 207 \tab 700 \tab 54 \tab 10 \tab 2904 \cr
+   Total \tab 1444 \tab 268 \tab 221 \tab 207 \tab 700 \tab 54 \tab 10 \tab 2904 \cr
+}
 }
 
 \seealso{

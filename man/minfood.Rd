@@ -21,15 +21,21 @@ Question Now more specifically, thinking about that family of four at the "pover
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5203/vshow}{GSS Data Explorer page for \code{minfood}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 100 \tab 110 \tab 112 \tab 115 \tab 120 \tab 125 \tab 13 \tab 130 \tab 140 \tab 150 \tab 160 \tab 170 \tab 175 \tab 180 \tab 20 \tab 200 \tab 225 \tab 25 \tab 250 \tab 30 \tab 300 \tab 35 \tab 350 \tab 37 \tab 40 \tab 400 \tab 45 \tab 50 \tab 500 \tab 55 \tab 60 \tab 600 \tab 65 \tab 70 \tab 710 \tab 75 \tab 80 \tab 85 \tab 88 \tab 90 \tab 95 \tab no answer \tab Total \cr
+   1993 \tab 1 \tab 2 \tab 472 \tab 4 \tab 1 \tab 1 \tab 24 \tab 59 \tab 1 \tab 8 \tab 2 \tab 179 \tab 3 \tab 3 \tab 3 \tab 2 \tab 3 \tab 105 \tab 1 \tab 7 \tab 6 \tab 4 \tab 14 \tab 2 \tab 1 \tab 1 \tab 18 \tab 4 \tab 1 \tab 127 \tab 1 \tab 2 \tab 59 \tab 1 \tab 12 \tab 46 \tab 1 \tab 160 \tab 82 \tab 5 \tab 1 \tab 21 \tab 1 \tab 155 \tab 1606 \cr
+   Total \tab 1 \tab 2 \tab 472 \tab 4 \tab 1 \tab 1 \tab 24 \tab 59 \tab 1 \tab 8 \tab 2 \tab 179 \tab 3 \tab 3 \tab 3 \tab 2 \tab 3 \tab 105 \tab 1 \tab 7 \tab 6 \tab 4 \tab 14 \tab 2 \tab 1 \tab 1 \tab 18 \tab 4 \tab 1 \tab 127 \tab 1 \tab 2 \tab 59 \tab 1 \tab 12 \tab 46 \tab 1 \tab 160 \tab 82 \tab 5 \tab 1 \tab 21 \tab 1 \tab 155 \tab 1606 \cr
+}
 }
 
 \seealso{

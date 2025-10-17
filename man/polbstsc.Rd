@@ -24,16 +24,23 @@ C. Elected officials
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3375/vshow}{GSS Data Explorer page for \code{polbstsc}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3582 \tab 77 \tab 70 \tab 293 \tab 216 \tab 226 \tab 43 \tab 3 \tab 4510 \cr
+   2010 \tab 1569 \tab 24 \tab 53 \tab 141 \tab 118 \tab 115 \tab 19 \tab 5 \tab 2044 \cr
+   Total \tab 5151 \tab 101 \tab 123 \tab 434 \tab 334 \tab 341 \tab 62 \tab 8 \tab 6554 \cr
+}
 }
 
 \seealso{

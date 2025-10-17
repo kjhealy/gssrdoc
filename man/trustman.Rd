@@ -25,20 +25,26 @@ J. I trust the management at the place where I work
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2783/vshow}{GSS Data Explorer page for \code{trustman}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 548 \tab 818 \tab 298 \tab 101 \tab 13 \tab 18 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 534 \tab 785 \tab 269 \tab 100 \tab 28 \tab 18 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 350 \tab 595 \tab 157 \tab 55 \tab 3 \tab 27 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 369 \tab 656 \tab 172 \tab 35 \tab 9 \tab 9 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 355 \tab 784 \tab 215 \tab 51 \tab 12 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 556 \tab 1016 \tab 274 \tab 95 \tab 19 \tab 15 \tab 23 \tab 3544 \cr
+   Total \tab 8336 \tab 2712 \tab 4654 \tab 1385 \tab 437 \tab 84 \tab 118 \tab 23 \tab 17749 \cr
+}
 }
 
 \seealso{

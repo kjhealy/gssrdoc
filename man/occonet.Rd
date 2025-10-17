@@ -22,9 +22,9 @@ B. What (do/did) you actually do in that job? Tell me, what are/were, some of yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2010 \cr
 }
 }
 

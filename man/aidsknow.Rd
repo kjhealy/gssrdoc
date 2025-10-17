@@ -21,19 +21,25 @@ Question How many people have you known personally, either living or dead, who c
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5006/vshow}{GSS Data Explorer page for \code{aidsknow}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 or more \tab no answer \tab don't know \tab Total \cr
+   1988 \tab - \tab 1342 \tab 92 \tab 22 \tab 9 \tab 3 \tab 5 \tab 1 \tab 6 \tab 1 \tab - \tab 1481 \cr
+   1989 \tab - \tab 1392 \tab 94 \tab 31 \tab 10 \tab 4 \tab 2 \tab 1 \tab - \tab 2 \tab 1 \tab 1537 \cr
+   1990 \tab - \tab 1195 \tab 131 \tab 23 \tab 9 \tab 4 \tab 6 \tab 2 \tab 1 \tab 1 \tab - \tab 1372 \cr
+   1991 \tab - \tab 1275 \tab 152 \tab 45 \tab 28 \tab 6 \tab 4 \tab 2 \tab - \tab 4 \tab 1 \tab 1517 \cr
+   1993 \tab - \tab 1214 \tab 204 \tab 85 \tab 49 \tab 19 \tab 13 \tab 5 \tab 8 \tab 8 \tab 1 \tab 1606 \cr
+   Total \tab 0 \tab 6418 \tab 673 \tab 206 \tab 105 \tab 36 \tab 30 \tab 11 \tab 15 \tab 16 \tab 3 \tab 7513 \cr
+}
 }
 
 \seealso{

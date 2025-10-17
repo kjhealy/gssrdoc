@@ -25,16 +25,22 @@ Question In general, how would you rate your physical health?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7164/vshow}{GSS Data Explorer page for \code{hlthphys}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 378 \tab 647 \tab 777 \tab 431 \tab 96 \tab 3 \tab 16 \tab - \tab 2348 \cr
+   2021 \tab 379 \tab 526 \tab 1012 \tab 1361 \tab 582 \tab 149 \tab - \tab 1 \tab 22 \tab 4032 \cr
+   Total \tab 379 \tab 904 \tab 1659 \tab 2138 \tab 1013 \tab 245 \tab 3 \tab 17 \tab 22 \tab 6380 \cr
+}
 }
 
 \keyword{variable}

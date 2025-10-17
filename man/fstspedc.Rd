@@ -21,15 +21,21 @@ Question RESPONDENT'S FIRST SPOUSE'S EDUCATION
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1477/vshow}{GSS Data Explorer page for \code{fstspedc}}.
+
+Counts by year:\tabular{llllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 3 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2432 \tab 30 \tab 23 \tab 227 \tab 24 \tab 49 \tab 12 \tab 47 \tab 6 \tab 8 \tab 4 \tab 11 \tab 1 \tab 4 \tab 10 \tab 9 \tab 26 \tab 15 \tab 50 \tab 4 \tab 2992 \cr
+   Total \tab 2432 \tab 30 \tab 23 \tab 227 \tab 24 \tab 49 \tab 12 \tab 47 \tab 6 \tab 8 \tab 4 \tab 11 \tab 1 \tab 4 \tab 10 \tab 9 \tab 26 \tab 15 \tab 50 \tab 4 \tab 2992 \cr
+}
 }
 
 \seealso{

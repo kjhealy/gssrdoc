@@ -24,15 +24,21 @@ Question Thinking about your day to day experience of nature, please tell me how
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7190/vshow}{GSS Data Explorer page for \code{natactive}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 1038 \tab 102 \tab 1 \tab 5 \tab 4 \tab 23 \tab 2348 \cr
+   Total \tab 1175 \tab 1038 \tab 102 \tab 1 \tab 5 \tab 4 \tab 23 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

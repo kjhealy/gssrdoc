@@ -22,17 +22,22 @@ Question Would you approve if the citizen was attacking the police officer with 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7449/vshow}{GSS Data Explorer page for \code{polattaky}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab skipped on web \tab don't know \tab Total \cr
+   2021 \tab 2673 \tab 1031 \tab 323 \tab 5 \tab - \tab 4032 \cr
+   2022 \tab 2364 \tab 925 \tab 238 \tab 2 \tab 15 \tab 3544 \cr
+   Total \tab 5037 \tab 1956 \tab 561 \tab 7 \tab 15 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

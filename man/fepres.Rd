@@ -23,33 +23,40 @@ Question If your party nominated a woman for President, would you vote for her i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
-   1996 \tab A/B \tab partial \cr
-   1998 \tab A/B \tab partial \cr
-   2008 \tab A/B \tab partial \cr
-   2010 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1972, 1974, 1975, 1977, 1978, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2008, 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/590/vshow}{GSS Data Explorer page for \code{fepres}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab yes \tab no \tab don't know \tab no answer \tab iap \tab wouldnt vote \tab Total \cr
+   1972 \tab 1129 \tab 404 \tab 78 \tab 2 \tab - \tab - \tab 1613 \cr
+   1974 \tab 1150 \tab 283 \tab 46 \tab 5 \tab - \tab - \tab 1484 \cr
+   1975 \tab 1158 \tab 282 \tab 46 \tab 1 \tab - \tab 3 \tab 1490 \cr
+   1977 \tab 1177 \tab 307 \tab 42 \tab 4 \tab - \tab - \tab 1530 \cr
+   1978 \tab 1217 \tab 275 \tab 40 \tab - \tab - \tab - \tab 1532 \cr
+   1982 \tab 1547 \tab 249 \tab 61 \tab 3 \tab - \tab - \tab 1860 \cr
+   1983 \tab 1337 \tab 208 \tab 49 \tab 4 \tab - \tab 1 \tab 1599 \cr
+   1985 \tab 1219 \tab 262 \tab 47 \tab 6 \tab - \tab - \tab 1534 \cr
+   1986 \tab 1232 \tab 195 \tab 39 \tab 4 \tab - \tab - \tab 1470 \cr
+   1988 \tab 842 \tab 116 \tab 27 \tab 3 \tab 493 \tab - \tab 1481 \cr
+   1989 \tab 824 \tab 129 \tab 50 \tab 3 \tab 531 \tab - \tab 1537 \cr
+   1990 \tab 801 \tab 94 \tab 30 \tab 3 \tab 444 \tab - \tab 1372 \cr
+   1991 \tab 885 \tab 92 \tab 43 \tab 4 \tab 493 \tab - \tab 1517 \cr
+   1993 \tab 936 \tab 96 \tab 45 \tab 3 \tab 526 \tab - \tab 1606 \cr
+   1994 \tab 1766 \tab 154 \tab 51 \tab 6 \tab 1015 \tab - \tab 2992 \cr
+   1996 \tab 1771 \tab 132 \tab 52 \tab 5 \tab 944 \tab - \tab 2904 \cr
+   1998 \tab 1687 \tab 116 \tab 63 \tab 5 \tab 961 \tab - \tab 2832 \cr
+   2008 \tab 1224 \tab 81 \tab 17 \tab 7 \tab 694 \tab - \tab 2023 \cr
+   2010 \tab 1355 \tab 56 \tab 13 \tab 6 \tab 614 \tab - \tab 2044 \cr
+   Total \tab 23257 \tab 3531 \tab 839 \tab 74 \tab 6715 \tab 4 \tab 34420 \cr
+}
 }
 
 \seealso{

@@ -27,15 +27,21 @@ C. And how often do you have any other contact with your relative besides visiti
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4161/vshow}{GSS Data Explorer page for \code{relcall}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
+   1986 \tab 172 \tab 134 \tab 189 \tab 271 \tab 339 \tab 191 \tab 166 \tab 8 \tab 1470 \cr
+   Total \tab 172 \tab 134 \tab 189 \tab 271 \tab 339 \tab 191 \tab 166 \tab 8 \tab 1470 \cr
+}
 }
 
 \seealso{

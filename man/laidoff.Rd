@@ -22,20 +22,26 @@ Question Were you laid off your main job at any time in the last year?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2818/vshow}{GSS Data Explorer page for \code{laidoff}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 131 \tab 1644 \tab 6 \tab 15 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 115 \tab 1602 \tab 3 \tab 14 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 112 \tab 1048 \tab 3 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 69 \tab 1175 \tab - \tab 6 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 67 \tab 1346 \tab 4 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 115 \tab 1839 \tab 7 \tab 14 \tab 14 \tab 3544 \cr
+   Total \tab 8345 \tab 609 \tab 8654 \tab 23 \tab 104 \tab 14 \tab 17749 \cr
+}
 }
 
 \seealso{

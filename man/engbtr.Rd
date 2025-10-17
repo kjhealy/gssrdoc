@@ -24,15 +24,21 @@ Question G. Most engineers want to work on things that will make life better for
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3532/vshow}{GSS Data Explorer page for \code{engbtr}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1489 \tab 59 \tab 348 \tab 36 \tab 2 \tab 37 \tab 3 \tab 1974 \cr
+   Total \tab 1489 \tab 59 \tab 348 \tab 36 \tab 2 \tab 37 \tab 3 \tab 1974 \cr
+}
 }
 
 \seealso{

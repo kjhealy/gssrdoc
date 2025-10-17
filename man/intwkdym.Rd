@@ -21,15 +21,21 @@ Question MINUTES:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6287/vshow}{GSS Data Explorer page for \code{intwkdym}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 15 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 40 \tab 45 \tab 5 \tab 55 \tab 59 \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1630 \tab 1024 \tab 1 \tab 12 \tab 14 \tab 1 \tab 15 \tab 1 \tab 1 \tab 137 \tab 3 \tab 11 \tab 2 \tab 1 \tab 1 \tab 5 \tab 8 \tab 2867 \cr
+   Total \tab 1630 \tab 1024 \tab 1 \tab 12 \tab 14 \tab 1 \tab 15 \tab 1 \tab 1 \tab 137 \tab 3 \tab 11 \tab 2 \tab 1 \tab 1 \tab 5 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

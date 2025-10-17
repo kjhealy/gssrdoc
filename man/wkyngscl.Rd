@@ -24,15 +24,21 @@ B. After the youngest child started school?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4480/vshow}{GSS Data Explorer page for \code{wkyngscl}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab worked full-time \tab worked part-time \tab stayed at home \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1044 \tab 626 \tab 108 \tab 88 \tab 100 \tab 8 \tab 1974 \cr
+   Total \tab 1044 \tab 626 \tab 108 \tab 88 \tab 100 \tab 8 \tab 1974 \cr
+}
 }
 
 \seealso{

@@ -27,16 +27,23 @@ Question Thinking about how often you usually talk to (NAME), on the average, Do
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/930/vshow}{GSS Data Explorer page for \code{talkto1}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab almost daily \tab once a week \tab once a month \tab lt once a month \tab no answer \tab Total \cr
+   1985 \tab 136 \tab 892 \tab 335 \tab 114 \tab 49 \tab 8 \tab 1534 \cr
+   2004 \tab 1696 \tab 753 \tab 225 \tab 66 \tab 19 \tab 53 \tab 2812 \cr
+   Total \tab 1832 \tab 1645 \tab 560 \tab 180 \tab 68 \tab 61 \tab 4346 \cr
+}
 }
 
 \seealso{

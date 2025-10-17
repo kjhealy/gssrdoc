@@ -28,15 +28,21 @@ Question SBOCC10 Coding Status
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6021/vshow}{GSS Data Explorer page for \code{sboccstatus}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab found, iap \tab found, no answer \tab found, coded \tab not found, iap \tab not found, no answer \tab not found, coded \tab not found, no code assigned \tab Total \cr
+   1994 \tab - \tab 527 \tab 131 \tab 2280 \tab 17 \tab 1 \tab 26 \tab 10 \tab 2992 \cr
+   Total \tab 0 \tab 527 \tab 131 \tab 2280 \tab 17 \tab 1 \tab 26 \tab 10 \tab 2992 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ A. Picketing for a labor strike?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/653/vshow}{GSS Data Explorer page for \code{strike}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   1973 \tab - \tab 143 \tab 1361 \tab 1504 \cr
+   Total \tab 0 \tab 143 \tab 1361 \tab 1504 \cr
+}
 }
 
 \seealso{

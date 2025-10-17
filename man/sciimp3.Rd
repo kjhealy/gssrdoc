@@ -25,15 +25,21 @@ C. The conclusions are based on solid evidence. (Would you say this is very impo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3400/vshow}{GSS Data Explorer page for \code{sciimp3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab pretty important \tab not too important \tab not important at all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 1474 \tab 277 \tab 36 \tab 20 \tab 51 \tab 6 \tab 4510 \cr
+   Total \tab 2646 \tab 1474 \tab 277 \tab 36 \tab 20 \tab 51 \tab 6 \tab 4510 \cr
+}
 }
 
 \seealso{

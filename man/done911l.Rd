@@ -26,15 +26,21 @@ FI PROBE: IF RESPONDENT ANSWERS â€˜YES,â€™ ASK; â€˜Was this you, so
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3865/vshow}{GSS Data Explorer page for \code{done911l}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab no \tab yes, respondent \tab yes, someone respondent knows \tab yes, both respondent and someone respondent knows \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 671 \tab 1253 \tab 39 \tab 23 \tab 16 \tab 15 \tab 6 \tab 2023 \cr
+   Total \tab 671 \tab 1253 \tab 39 \tab 23 \tab 16 \tab 15 \tab 6 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question How much information do you have about the crime issue? Do you have all
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/279/vshow}{GSS Data Explorer page for \code{criminfo}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab all info r needs \tab most of the info \tab some info \tab very little info \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 989 \tab 55 \tab 140 \tab 228 \tab 53 \tab 3 \tab 5 \tab 1473 \cr
+   Total \tab 989 \tab 55 \tab 140 \tab 228 \tab 53 \tab 3 \tab 5 \tab 1473 \cr
+}
 }
 
 \seealso{

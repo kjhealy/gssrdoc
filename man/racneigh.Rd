@@ -24,15 +24,21 @@ Question If you could find the housing that you would want and like, would you r
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/407/vshow}{GSS Data Explorer page for \code{racneigh}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab all black \tab mostly black \tab .5 black - .5 white \tab mostly white \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 1350 \tab 67 \tab 83 \tab 282 \tab 26 \tab 36 \tab 16 \tab 1860 \cr
+   Total \tab 1350 \tab 67 \tab 83 \tab 282 \tab 26 \tab 36 \tab 16 \tab 1860 \cr
+}
 }
 
 \seealso{

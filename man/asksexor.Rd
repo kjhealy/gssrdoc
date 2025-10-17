@@ -25,18 +25,24 @@ G. Sexual orientation
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 1996, 1998, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5214/vshow}{GSS Data Explorer page for \code{asksexor}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 421 \tab 274 \tab 362 \tab 364 \tab 41 \tab 12 \tab 2992 \cr
+   1996 \tab 1444 \tab 416 \tab 273 \tab 390 \tab 327 \tab 50 \tab 4 \tab 2904 \cr
+   1998 \tab 1445 \tab 358 \tab 258 \tab 349 \tab 367 \tab 46 \tab 9 \tab 2832 \cr
+   2000 \tab 1398 \tab 394 \tab 228 \tab 362 \tab 384 \tab 42 \tab 9 \tab 2817 \cr
+   Total \tab 5805 \tab 1589 \tab 1033 \tab 1463 \tab 1442 \tab 179 \tab 34 \tab 11545 \cr
+}
 }
 
 \seealso{

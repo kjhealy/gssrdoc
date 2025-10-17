@@ -16,17 +16,12 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2010 |A/B/-   |partial      |
-#'  |2016 |A/-/-   |partial      |
-#'  |2018 |A/-/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/-/-   |2016, 2018       |
+#'  |A/B/-   |2010             |
+#'  |A/B/C   |1993, 1994, 2000 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `indusgen`](https://gssdataexplorer.norc.org/variables/4758/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,13 +52,10 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1993, 1994 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `indusfam`](https://gssdataexplorer.norc.org/variables/4759/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -93,18 +85,26 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2010 |A/B/-   |partial      |
-#'  |2016 |A/-/-   |partial      |
-#'  |2018 |A/-/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/-/-   |2016, 2018       |
+#'  |A/B/-   |2010             |
+#'  |A/B/C   |1993, 1994, 2000 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chemgen`](https://gssdataexplorer.norc.org/variables/4760/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |extremely dangerous |very dangerous |somewhat dangerous |not very dangerous |not dangerous at all |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------|:--------------|:------------------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1993  |49   |225                 |358            |737                |161                |8                    |40         |28        |1606  |
+#'  |1994  |1606 |177                 |280            |677                |162                |13                   |33         |44        |2992  |
+#'  |2000  |1541 |216                 |366            |504                |78                 |15                   |46         |51        |2817  |
+#'  |2010  |614  |277                 |464            |525                |103                |7                    |47         |7         |2044  |
+#'  |2016  |1956 |263                 |288            |283                |49                 |12                   |14         |2         |2867  |
+#'  |2018  |1563 |242                 |248            |244                |37                 |5                    |6          |3         |2348  |
+#'  |Total |7329 |1400                |2004           |2970               |590                |60                   |186        |135       |14674 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -134,14 +134,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1993, 1994 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chemfam`](https://gssdataexplorer.norc.org/variables/4761/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |extremely dangerous |very dangerous |somewhat dangerous |not very dangerous |not dangerous at all |can't choose |no answer |Total |
+#'  |:-----|:----|:-------------------|:--------------|:------------------|:------------------|:--------------------|:------------|:---------|:-----|
+#'  |1993  |49   |211                 |328            |736                |194                |18                   |40           |30        |1606  |
+#'  |1994  |1606 |186                 |265            |640                |188                |21                   |39           |47        |2992  |
+#'  |Total |1655 |397                 |593            |1376               |382                |39                   |79           |77        |4598  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -170,18 +176,26 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2010 |A/B/-   |partial      |
-#'  |2016 |A/-/-   |partial      |
-#'  |2018 |A/-/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/-/-   |2016, 2018       |
+#'  |A/B/-   |2010             |
+#'  |A/B/C   |1993, 1994, 2000 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `watergen`](https://gssdataexplorer.norc.org/variables/4762/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |extremely dangerous |very dangerous |somewhat dangerous |not very dangerous |not dangerous at all |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------|:--------------|:------------------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1993  |49   |537                 |484            |413                |54                 |9                    |32         |28        |1606  |
+#'  |1994  |1606 |422                 |421            |400                |63                 |6                    |29         |45        |2992  |
+#'  |2000  |1541 |423                 |412            |288                |44                 |14                   |44         |51        |2817  |
+#'  |2010  |614  |426                 |549            |353                |51                 |10                   |35         |6         |2044  |
+#'  |2016  |1956 |382                 |328            |159                |22                 |6                    |12         |2         |2867  |
+#'  |2018  |1563 |346                 |262            |141                |23                 |5                    |5          |3         |2348  |
+#'  |Total |7329 |2536                |2456           |1754               |257                |50                   |157        |135       |14674 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -211,14 +225,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1993, 1994 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `waterfam`](https://gssdataexplorer.norc.org/variables/4763/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |extremely dangerous |very dangerous |somewhat dangerous |not very dangerous |not dangerous at all |can't choose |no answer |Total |
+#'  |:-----|:----|:-------------------|:--------------|:------------------|:------------------|:--------------------|:------------|:---------|:-----|
+#'  |1993  |49   |374                 |445            |541                |113                |15                   |33           |36        |1606  |
+#'  |1994  |1606 |294                 |408            |488                |117                |18                   |28           |33        |2992  |
+#'  |Total |1655 |668                 |853            |1029               |230                |33                   |61           |69        |4598  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -247,18 +267,26 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2016 |A/-/-   |partial      |
-#'  |2018 |A/-/-   |partial      |
-#'  |2021 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/-/-   |2016, 2018       |
+#'  |A/B/-   |2021             |
+#'  |A/B/C   |1993, 1994, 2000 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `tempgen`](https://gssdataexplorer.norc.org/variables/4764/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |extremely dangerous |very dangerous |somewhat dangerous |not very dangerous |not dangerous at all |don't know |no answer |Total |
+#'  |:-----|:-----|:-------------------|:--------------|:------------------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1993  |49    |263                 |370            |510                |187                |33                   |158        |36        |1606  |
+#'  |1994  |1606  |186                 |287            |489                |184                |30                   |177        |33        |2992  |
+#'  |2000  |1541  |202                 |312            |420                |116                |21                   |153        |52        |2817  |
+#'  |2016  |1956  |246                 |240            |247                |98                 |38                   |40         |2         |2867  |
+#'  |2018  |1563  |253                 |197            |205                |75                 |23                   |28         |4         |2348  |
+#'  |2021  |4032  |-                   |-              |-                  |-                  |-                    |-          |-         |4032  |
+#'  |Total |10747 |1150                |1406           |1871               |660                |145                  |556        |127       |16662 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -288,14 +316,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1993, 1994 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `tempfam`](https://gssdataexplorer.norc.org/variables/4765/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |extremely dangerous |very dangerous |somewhat dangerous |not very dangerous |not dangerous at all |can't choose |no answer |Total |
+#'  |:-----|:----|:-------------------|:--------------|:------------------|:------------------|:--------------------|:------------|:---------|:-----|
+#'  |1993  |49   |222                 |358            |509                |222                |46                   |160          |40        |1606  |
+#'  |1994  |1606 |176                 |264            |488                |211                |37                   |173          |37        |2992  |
+#'  |Total |1655 |398                 |622            |997                |433                |83                   |333          |77        |4598  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -321,16 +355,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2010 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2010             |
+#'  |A/B/C   |1993, 1994, 2000 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `pubdecid`](https://gssdataexplorer.norc.org/variables/4766/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |gov. let people decide |gov. make laws |don't know |no answer |Total |
+#'  |:-----|:----|:----------------------|:--------------|:----------|:---------|:-----|
+#'  |1993  |49   |261                    |968            |288        |40        |1606  |
+#'  |1994  |1606 |284                    |786            |278        |38        |2992  |
+#'  |2000  |1541 |293                    |571            |307        |105       |2817  |
+#'  |2010  |614  |385                    |647            |386        |12        |2044  |
+#'  |Total |3810 |1223                   |2972           |1259       |195       |9459  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -356,16 +397,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2010 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2010             |
+#'  |A/B/C   |1993, 1994, 2000 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `busdecid`](https://gssdataexplorer.norc.org/variables/4767/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |gov. let busnesses decide |gov. make laws |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------------|:--------------|:----------|:---------|:-----|
+#'  |1993  |49   |118                       |1223           |174        |42        |1606  |
+#'  |1994  |1606 |127                       |1047           |175        |37        |2992  |
+#'  |2000  |1541 |113                       |870            |188        |105       |2817  |
+#'  |2010  |614  |151                       |1043           |227        |9         |2044  |
+#'  |Total |3810 |509                       |4183           |764        |193       |9459  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment

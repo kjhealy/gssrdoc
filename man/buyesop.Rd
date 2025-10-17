@@ -25,15 +25,21 @@ with each employee having a share of ownership.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7225/vshow}{GSS Data Explorer page for \code{buyesop}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab i would be less likely to buy from an employee-owned company \tab i would be neither more nor less likely to buy from an employee-owned company \tab i would be more likely to buy from an employee-owned company \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 900 \tab 121 \tab 753 \tab 517 \tab 26 \tab 31 \tab 2348 \cr
+   Total \tab 900 \tab 121 \tab 753 \tab 517 \tab 26 \tab 31 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

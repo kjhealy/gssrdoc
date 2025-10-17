@@ -22,21 +22,26 @@ Question Last week was your partner working full time, part time, going to schoo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6154/vshow}{GSS Data Explorer page for \code{coevwork}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 1938 \tab 26 \tab 8 \tab 1 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 2484 \tab 35 \tab 14 \tab 2 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 2795 \tab 53 \tab 16 \tab 3 \tab - \tab - \tab 2867 \cr
+   2018 \tab 2300 \tab 38 \tab 10 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 3941 \tab 67 \tab 7 \tab 9 \tab 8 \tab - \tab 4032 \cr
+   2022 \tab 3473 \tab 53 \tab 12 \tab 2 \tab 3 \tab 1 \tab 3544 \cr
+   Total \tab 16931 \tab 272 \tab 67 \tab 17 \tab 15 \tab 1 \tab 17303 \cr
+}
 }
 
 \seealso{

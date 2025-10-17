@@ -58,15 +58,21 @@ C. Third Mention
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5092/vshow}{GSS Data Explorer page for \code{genedef3}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab downs syndrome \tab mental retardation \tab spina bifida \tab muscular dystrophy \tab cystic fibrosis \tab cerebral palsy \tab crippling diseases \tab blind,deaf \tab missing limbs \tab major deformities \tab life-threatening deform \tab handicapped \tab physical defects \tab sickle cell anemia \tab rh factor \tab hemophilia \tab addiction to drugs \tab aids \tab multiple sclerosis \tab heart \tab kidneys \tab siamese twins \tab incurable disease \tab sexual transmitted diseases \tab cancer \tab psychological problems \tab neurological problems \tab hydrocephalus \tab tay-sachs \tab reyes syndrome \tab unable to take care of self \tab other \tab don't know \tab no answer \tab Total \cr
+   1990 \tab 1010 \tab 2 \tab 3 \tab 12 \tab 6 \tab 4 \tab 13 \tab 7 \tab 5 \tab 34 \tab 40 \tab 19 \tab 13 \tab 51 \tab 5 \tab 3 \tab 2 \tab 10 \tab 26 \tab 14 \tab 19 \tab 4 \tab 1 \tab 6 \tab 2 \tab 6 \tab 1 \tab 5 \tab 3 \tab 6 \tab 1 \tab 3 \tab 16 \tab 7 \tab 13 \tab 1372 \cr
+   Total \tab 1010 \tab 2 \tab 3 \tab 12 \tab 6 \tab 4 \tab 13 \tab 7 \tab 5 \tab 34 \tab 40 \tab 19 \tab 13 \tab 51 \tab 5 \tab 3 \tab 2 \tab 10 \tab 26 \tab 14 \tab 19 \tab 4 \tab 1 \tab 6 \tab 2 \tab 6 \tab 1 \tab 5 \tab 3 \tab 6 \tab 1 \tab 3 \tab 16 \tab 7 \tab 13 \tab 1372 \cr
+}
 }
 
 \seealso{

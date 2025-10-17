@@ -26,16 +26,22 @@ E. Legal immigrants to America who are not citizens should have the same rights 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4894/vshow}{GSS Data Explorer page for \code{immrghts}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1596 \tab 139 \tab 319 \tab 186 \tab 418 \tab 128 \tab 24 \tab 2 \tab 2812 \cr
+   2014 \tab 1264 \tab 85 \tab 377 \tab 152 \tab 500 \tab 128 \tab 28 \tab 4 \tab 2538 \cr
+   Total \tab 2860 \tab 224 \tab 696 \tab 338 \tab 918 \tab 256 \tab 52 \tab 6 \tab 5350 \cr
+}
 }
 
 \seealso{

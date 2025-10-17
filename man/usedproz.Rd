@@ -23,16 +23,22 @@ B. Have you, yourself, ever taken Prozac?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2221/vshow}{GSS Data Explorer page for \code{usedproz}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1635 \tab 97 \tab 1078 \tab 7 \tab 15 \tab 2832 \cr
+   2006 \tab 3238 \tab 132 \tab 1123 \tab 2 \tab 15 \tab 4510 \cr
+   Total \tab 4873 \tab 229 \tab 2201 \tab 9 \tab 30 \tab 7342 \cr
+}
 }
 
 \seealso{

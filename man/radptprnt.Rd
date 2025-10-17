@@ -22,15 +22,21 @@ Question Are you the adoptive parent of at least one individual under the age of
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8018/vshow}{GSS Data Explorer page for \code{radptprnt}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab skipped on web \tab Total \cr
+   2022 \tab 3174 \tab 38 \tab 327 \tab 5 \tab 3544 \cr
+   Total \tab 3174 \tab 38 \tab 327 \tab 5 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

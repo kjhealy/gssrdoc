@@ -95,15 +95,21 @@ Question What country were you born in?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3024/vshow}{GSS Data Explorer page for \code{natborn}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab mexico \tab canada \tab china \tab colombia \tab cuba \tab germany \tab guatemala \tab haiti \tab honduras \tab india \tab jamaica \tab korea \tab philippines \tab poland \tab trinidad \tab antigua \tab pakistan \tab belize \tab guyana \tab egypt \tab moldovia \tab brazil \tab portugal \tab panama \tab iran \tab ghana \tab bangladesh \tab puerto rico \tab turkey \tab italy \tab el salvidor \tab greece \tab ecuador \tab england \tab thailand \tab peru \tab australia \tab israel \tab netherlands \tab macedonia \tab france \tab argentina \tab lebanon \tab russia \tab cambodia \tab venezuela \tab iraq \tab romania \tab czech republic \tab nicaragua \tab arabic \tab gambia \tab west africa \tab barbados \tab south africa \tab ukraine \tab hungary \tab eritrea \tab ireland \tab laos \tab vietnam \tab senegal \tab sudan \tab nigeria \tab bosnia \tab uruguay \tab malaysia \tab armenia \tab congo \tab japan \tab dutch east indies \tab indonesia \tab africa \tab jordan \tab no answer \tab Total \cr
+   2004 \tab 2539 \tab 41 \tab 5 \tab 12 \tab 4 \tab 5 \tab 8 \tab 4 \tab 1 \tab 1 \tab 13 \tab 8 \tab 6 \tab 15 \tab 5 \tab 5 \tab 1 \tab 2 \tab 1 \tab 2 \tab 6 \tab 1 \tab 6 \tab 3 \tab 2 \tab 2 \tab 1 \tab 1 \tab 6 \tab 2 \tab 6 \tab 4 \tab 4 \tab 1 \tab 16 \tab 2 \tab 3 \tab 1 \tab 2 \tab 3 \tab 2 \tab 5 \tab 3 \tab 1 \tab 3 \tab 1 \tab 4 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 2812 \cr
+   Total \tab 2539 \tab 41 \tab 5 \tab 12 \tab 4 \tab 5 \tab 8 \tab 4 \tab 1 \tab 1 \tab 13 \tab 8 \tab 6 \tab 15 \tab 5 \tab 5 \tab 1 \tab 2 \tab 1 \tab 2 \tab 6 \tab 1 \tab 6 \tab 3 \tab 2 \tab 2 \tab 1 \tab 1 \tab 6 \tab 2 \tab 6 \tab 4 \tab 4 \tab 1 \tab 16 \tab 2 \tab 3 \tab 1 \tab 2 \tab 3 \tab 2 \tab 5 \tab 3 \tab 1 \tab 3 \tab 1 \tab 4 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 2812 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ Question I feel God''s love for me, directly.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3089/vshow}{GSS Data Explorer page for \code{godlvdir}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never or almost never \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 1472 \tab 274 \tab 386 \tab 185 \tab 130 \tab 147 \tab 195 \tab 6 \tab 17 \tab 2812 \cr
+   Total \tab 1472 \tab 274 \tab 386 \tab 185 \tab 130 \tab 147 \tab 195 \tab 6 \tab 17 \tab 2812 \cr
+}
 }
 
 \seealso{

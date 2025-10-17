@@ -26,15 +26,21 @@ T. How many of the people that you are acquainted with are you pretty certain at
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3591/vshow}{GSS Data Explorer page for \code{acqgoatt}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3821 \tab 45 \tab 26 \tab 154 \tab 76 \tab 317 \tab 58 \tab 13 \tab 4510 \cr
+   Total \tab 3821 \tab 45 \tab 26 \tab 154 \tab 76 \tab 317 \tab 58 \tab 13 \tab 4510 \cr
+}
 }
 
 \seealso{

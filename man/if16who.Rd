@@ -24,18 +24,23 @@ Question Who would you have voted for, for president, if you had voted?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7091/vshow}{GSS Data Explorer page for \code{if16who}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab clinton \tab trump \tab other \tab don't know \tab no answer \tab skipped on web \tab don't know/can't remember \tab Total \cr
+   2018 \tab 1503 \tab 348 \tab 163 \tab 229 \tab 54 \tab 51 \tab - \tab - \tab 2348 \cr
+   2021 \tab 2842 \tab 310 \tab 248 \tab 203 \tab 83 \tab 337 \tab 9 \tab - \tab 4032 \cr
+   2022 \tab 2203 \tab 365 \tab 326 \tab 170 \tab 27 \tab 305 \tab 5 \tab 143 \tab 3544 \cr
+   Total \tab 6548 \tab 1023 \tab 737 \tab 602 \tab 164 \tab 693 \tab 14 \tab 143 \tab 9924 \cr
+}
 }
 
 \keyword{variable}

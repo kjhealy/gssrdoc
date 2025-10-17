@@ -26,17 +26,22 @@ Question When your children are at the age you are now, do you think their stand
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7599/vshow}{GSS Data Explorer page for \code{kidssolv}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab much better \tab somewhat better \tab about the same \tab somewhat worse \tab much worse \tab no children (phone mode only; volunteered) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2673 \tab 262 \tab 359 \tab 278 \tab 185 \tab 77 \tab 189 \tab 3 \tab 2 \tab 4 \tab 4032 \cr
+   2022 \tab 2970 \tab 110 \tab 134 \tab 108 \tab 94 \tab 46 \tab 81 \tab - \tab - \tab 1 \tab 3544 \cr
+   Total \tab 5643 \tab 372 \tab 493 \tab 386 \tab 279 \tab 123 \tab 270 \tab 3 \tab 2 \tab 5 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

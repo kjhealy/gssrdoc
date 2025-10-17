@@ -26,15 +26,21 @@ B. Nervous.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2115/vshow}{GSS Data Explorer page for \code{nervous}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab all of the time \tab most of the time \tab some of the time \tab little of time \tab none of the time \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 44 \tab 92 \tab 390 \tab 464 \tab 439 \tab 4 \tab 12 \tab 2832 \cr
+   Total \tab 1387 \tab 44 \tab 92 \tab 390 \tab 464 \tab 439 \tab 4 \tab 12 \tab 2832 \cr
+}
 }
 
 \seealso{

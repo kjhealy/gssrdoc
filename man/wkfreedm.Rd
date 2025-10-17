@@ -25,20 +25,26 @@ E. I am given a lot of freedom to decide how to do my own work
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2800/vshow}{GSS Data Explorer page for \code{wkfreedm}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 1011 \tab 537 \tab 148 \tab 79 \tab 6 \tab 15 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 951 \tab 525 \tab 159 \tab 66 \tab 17 \tab 16 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 653 \tab 364 \tab 91 \tab 54 \tab 1 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 687 \tab 389 \tab 127 \tab 38 \tab 3 \tab 6 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 794 \tab 454 \tab 116 \tab 49 \tab 3 \tab 32 \tab - \tab 2348 \cr
+   2022 \tab 1553 \tab 993 \tab 688 \tab 193 \tab 72 \tab 7 \tab 15 \tab 23 \tab 3544 \cr
+   Total \tab 8343 \tab 5089 \tab 2957 \tab 834 \tab 358 \tab 37 \tab 108 \tab 23 \tab 17749 \cr
+}
 }
 
 \seealso{

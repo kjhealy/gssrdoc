@@ -21,15 +21,21 @@ Question (The description of the fourth person presented to the respondent - ple
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3035/vshow}{GSS Data Explorer page for \code{genenvo4}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 432 \tab 154 \tab 266 \tab 202 \tab 152 \tab 49 \tab 53 \tab 216 \tab 78 \tab 106 \tab 140 \tab 53 \tab 56 \tab 91 \tab 252 \tab 50 \tab 60 \tab 133 \tab 50 \tab 67 \tab 68 \tab 55 \tab 19 \tab 10 \tab 2812 \cr
+   Total \tab 432 \tab 154 \tab 266 \tab 202 \tab 152 \tab 49 \tab 53 \tab 216 \tab 78 \tab 106 \tab 140 \tab 53 \tab 56 \tab 91 \tab 252 \tab 50 \tab 60 \tab 133 \tab 50 \tab 67 \tab 68 \tab 55 \tab 19 \tab 10 \tab 2812 \cr
+}
 }
 
 \seealso{

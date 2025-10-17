@@ -25,18 +25,25 @@ A. His/her own bad character
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1988/vshow}{GSS Data Explorer page for \code{charactr}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 239 \tab 391 \tab 443 \tab 304 \tab 50 \tab 17 \tab 2904 \cr
+   2006 \tab 3073 \tab 208 \tab 391 \tab 455 \tab 330 \tab 39 \tab 14 \tab 4510 \cr
+   2018 \tab 1175 \tab 148 \tab 328 \tab 360 \tab 292 \tab 16 \tab 29 \tab 2348 \cr
+   Total \tab 5708 \tab 595 \tab 1110 \tab 1258 \tab 926 \tab 105 \tab 60 \tab 9762 \cr
+}
 }
 
 \seealso{

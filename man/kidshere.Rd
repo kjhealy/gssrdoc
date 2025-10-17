@@ -26,15 +26,21 @@ C. Children born in America of parents who are not citizens should have the righ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4892/vshow}{GSS Data Explorer page for \code{kidshere}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1596 \tab 326 \tab 576 \tab 127 \tab 113 \tab 51 \tab 22 \tab 1 \tab 2812 \cr
+   Total \tab 1596 \tab 326 \tab 576 \tab 127 \tab 113 \tab 51 \tab 22 \tab 1 \tab 2812 \cr
+}
 }
 
 \seealso{

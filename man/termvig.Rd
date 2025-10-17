@@ -26,15 +26,21 @@ Question Now I'm going to describe a patient to you and then ask you some questi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2254/vshow}{GSS Data Explorer page for \code{termvig}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab vignette a \tab vignette b \tab vignette c \tab vignette d \tab vignette e \tab vignette f \tab Total \cr
+   1998 \tab 1445 \tab 223 \tab 224 \tab 231 \tab 246 \tab 231 \tab 232 \tab 2832 \cr
+   Total \tab 1445 \tab 223 \tab 224 \tab 231 \tab 246 \tab 231 \tab 232 \tab 2832 \cr
+}
 }
 
 \seealso{

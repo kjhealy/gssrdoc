@@ -24,15 +24,21 @@ A. My (spouse/partner)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3932/vshow}{GSS Data Explorer page for \code{sppart}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab not applicable \tab no answer \tab Total \cr
+   2008 \tab 1888 \tab 26 \tab 27 \tab 39 \tab 43 \tab 2023 \cr
+   Total \tab 1888 \tab 26 \tab 27 \tab 39 \tab 43 \tab 2023 \cr
+}
 }
 
 \seealso{

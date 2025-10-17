@@ -23,16 +23,22 @@ Question Sometimes at work people find themselves the object of sexual advances,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4416/vshow}{GSS Data Explorer page for \code{sexhar}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab never have worked \tab no answer \tab don't know \tab Total \cr
+   1994 \tab 1545 \tab 523 \tab 801 \tab 31 \tab 92 \tab - \tab 2992 \cr
+   1996 \tab 1444 \tab 456 \tab 949 \tab - \tab 51 \tab 4 \tab 2904 \cr
+   Total \tab 2989 \tab 979 \tab 1750 \tab 31 \tab 143 \tab 4 \tab 5896 \cr
+}
 }
 
 \seealso{

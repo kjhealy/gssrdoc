@@ -25,18 +25,24 @@ E. Foreign relatives and friends
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 1996, 1998, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5212/vshow}{GSS Data Explorer page for \code{askforgn}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 682 \tab 451 \tab 182 \tab 110 \tab 38 \tab 11 \tab 2992 \cr
+   1996 \tab 1444 \tab 703 \tab 441 \tab 188 \tab 76 \tab 47 \tab 5 \tab 2904 \cr
+   1998 \tab 1445 \tab 628 \tab 438 \tab 192 \tab 77 \tab 42 \tab 10 \tab 2832 \cr
+   2000 \tab 1398 \tab 701 \tab 383 \tab 176 \tab 108 \tab 42 \tab 9 \tab 2817 \cr
+   Total \tab 5805 \tab 2714 \tab 1713 \tab 738 \tab 371 \tab 169 \tab 35 \tab 11545 \cr
+}
 }
 
 \seealso{

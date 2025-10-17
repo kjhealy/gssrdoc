@@ -26,15 +26,21 @@ Question Emotions eventually fade away. How long did your anger or irritation la
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1765/vshow}{GSS Data Explorer page for \code{angrlast}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab seconds \tab minutes \tab hours \tab all that day \tab several days, or \tab felt continuously \tab no answer \tab Total \cr
+   1996 \tab 1779 \tab 42 \tab 300 \tab 297 \tab 135 \tab 186 \tab 157 \tab 8 \tab 2904 \cr
+   Total \tab 1779 \tab 42 \tab 300 \tab 297 \tab 135 \tab 186 \tab 157 \tab 8 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `aimofart`](https://gssdataexplorer.norc.org/variables/2128/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |art human spirit |art xprss artist |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:----------------|:----------|:---------|:-----|
+#'  |1998  |1387 |538              |851              |23         |33        |2832  |
+#'  |Total |1387 |538              |851              |23         |33        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -46,14 +52,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1998, 2002 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `readfict`](https://gssdataexplorer.norc.org/variables/2129/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no  |no answer |don't know |Total |
+#'  |:-----|:----|:----|:---|:---------|:----------|:-----|
+#'  |1998  |1387 |968  |466 |11        |-          |2832  |
+#'  |2002  |1393 |987  |371 |6         |8          |2765  |
+#'  |Total |2780 |1955 |837 |17        |8          |5597  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -81,14 +93,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1998, 2002 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `popmusic`](https://gssdataexplorer.norc.org/variables/2130/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no   |no answer |don't know |Total |
+#'  |:-----|:----|:----|:----|:---------|:----------|:-----|
+#'  |1998  |1387 |551  |884  |10        |-          |2832  |
+#'  |2002  |1393 |580  |778  |6         |8          |2765  |
+#'  |Total |2780 |1131 |1662 |16        |8          |5597  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -116,14 +134,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1998, 2002 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `drama`](https://gssdataexplorer.norc.org/variables/2131/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no   |don't know |no answer |Total |
+#'  |:-----|:----|:----|:----|:----------|:---------|:-----|
+#'  |1998  |1387 |339  |1095 |1          |10        |2832  |
+#'  |2002  |-    |776  |1962 |15         |12        |2765  |
+#'  |Total |1387 |1115 |3057 |16         |22        |5597  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -150,13 +174,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relart`](https://gssdataexplorer.norc.org/variables/2132/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |1998  |1797 |313 |643 |79        |2832  |
+#'  |Total |1797 |313 |643 |79        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -182,13 +212,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volarts`](https://gssdataexplorer.norc.org/variables/2133/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |1998  |1387 |226 |1190 |1          |28        |2832  |
+#'  |Total |1387 |226 |1190 |1          |28        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -214,13 +250,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natlart`](https://gssdataexplorer.norc.org/variables/2134/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |1998  |1387 |639 |639 |150        |17        |2832  |
+#'  |Total |1387 |639 |639 |150        |17        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -247,13 +289,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `stateart`](https://gssdataexplorer.norc.org/variables/2135/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |1998  |1387 |769 |502 |156        |18        |2832  |
+#'  |Total |1387 |769 |502 |156        |18        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -280,13 +328,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `localart`](https://gssdataexplorer.norc.org/variables/2136/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |1998  |1387 |786 |487 |154        |18        |2832  |
+#'  |Total |1387 |786 |487 |154        |18        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -313,13 +367,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prfmnce`](https://gssdataexplorer.norc.org/variables/6209/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2016  |1390 |605 |864 |8         |2867  |
+#'  |Total |1390 |605 |864 |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture

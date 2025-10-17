@@ -31,18 +31,26 @@ Question Now thinking about the present, about how often do you pray?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4676/vshow}{GSS Data Explorer page for \code{prayfreq}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month \tab 2-3 times a month \tab nearly every week \tab every week \tab several times a week \tab once a day \tab several times a day \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 105 \tab 37 \tab 73 \tab 110 \tab 65 \tab 71 \tab 77 \tab 61 \tab 166 \tab 289 \tab 271 \tab 1 \tab 33 \tab 1517 \cr
+   1998 \tab 1548 \tab 132 \tab 41 \tab 41 \tab 54 \tab 49 \tab 57 \tab 62 \tab 63 \tab 164 \tab 306 \tab 275 \tab - \tab 40 \tab 2832 \cr
+   2008 \tab 658 \tab 138 \tab 28 \tab 25 \tab 68 \tab 38 \tab 63 \tab 27 \tab 66 \tab 149 \tab 356 \tab 391 \tab 6 \tab 10 \tab 2023 \cr
+   2018 \tab 1173 \tab 168 \tab 11 \tab 28 \tab 35 \tab 28 \tab 30 \tab 31 \tab 83 \tab 730 \tab - \tab - \tab 20 \tab 11 \tab 2348 \cr
+   Total \tab 3537 \tab 543 \tab 117 \tab 167 \tab 267 \tab 180 \tab 221 \tab 197 \tab 273 \tab 1209 \tab 951 \tab 937 \tab 27 \tab 94 \tab 8720 \cr
+}
 }
 
 \seealso{

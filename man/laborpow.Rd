@@ -25,17 +25,24 @@ Question Do you think that labor unions in this country have too much power or t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1996 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4068/vshow}{GSS Data Explorer page for \code{laborpow}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab far too much power \tab too much power \tab about the right amount of power \tab too little power \tab far too little power \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 157 \tab 241 \tab 176 \tab 42 \tab 7 \tab 43 \tab 11 \tab 1534 \cr
+   1990 \tab 155 \tab 170 \tab 345 \tab 413 \tab 117 \tab 24 \tab 126 \tab 22 \tab 1372 \cr
+   1996 \tab 1572 \tab 187 \tab 327 \tab 455 \tab 152 \tab 30 \tab 154 \tab 27 \tab 2904 \cr
+   Total \tab 2584 \tab 514 \tab 913 \tab 1044 \tab 311 \tab 61 \tab 323 \tab 60 \tab 5810 \cr
+}
 }
 
 \seealso{

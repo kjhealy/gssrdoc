@@ -24,15 +24,21 @@ Question In my everyday life, I take notice of the natural elements around me (t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7184/vshow}{GSS Data Explorer page for \code{natnotice}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 815 \tab 303 \tab 20 \tab 8 \tab 6 \tab 21 \tab 2348 \cr
+   Total \tab 1175 \tab 815 \tab 303 \tab 20 \tab 8 \tab 6 \tab 21 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

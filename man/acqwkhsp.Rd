@@ -27,15 +27,21 @@ H. How many are Hispanic?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3639/vshow}{GSS Data Explorer page for \code{acqwkhsp}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab I don't have a job \tab no answer \tab Total \cr
+   2006 \tab 4009 \tab 187 \tab 43 \tab 111 \tab 33 \tab 88 \tab 25 \tab 5 \tab 9 \tab 4510 \cr
+   Total \tab 4009 \tab 187 \tab 43 \tab 111 \tab 33 \tab 88 \tab 25 \tab 5 \tab 9 \tab 4510 \cr
+}
 }
 
 \seealso{

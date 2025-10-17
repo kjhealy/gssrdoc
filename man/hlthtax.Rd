@@ -25,15 +25,21 @@ Question How willing would you be to pay higher taxes to improve the level of he
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7794/vshow}{GSS Data Explorer page for \code{hlthtax}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2379 \tab 154 \tab 345 \tab 230 \tab 151 \tab 229 \tab 50 \tab 2 \tab 4 \tab 3544 \cr
+   Total \tab 2379 \tab 154 \tab 345 \tab 230 \tab 151 \tab 229 \tab 50 \tab 2 \tab 4 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

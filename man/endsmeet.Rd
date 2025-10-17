@@ -25,17 +25,24 @@ Question Thinking of your household's total income, including all the sources of
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab A/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/- \tab 2022 \cr
+   B/C \tab 2018, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7276/vshow}{GSS Data Explorer page for \code{endsmeet}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very difficult \tab fairly difficult \tab neither easy nor difficult \tab fairly easy \tab very easy \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab 1175 \tab 86 \tab 216 \tab 308 \tab 368 \tab 187 \tab 5 \tab 3 \tab - \tab 2348 \cr
+   2021 \tab 2029 \tab 129 \tab 321 \tab 548 \tab 485 \tab 280 \tab 53 \tab 176 \tab 11 \tab 4032 \cr
+   2022 \tab 2386 \tab 69 \tab 232 \tab 357 \tab 284 \tab 155 \tab 49 \tab 8 \tab 4 \tab 3544 \cr
+   Total \tab 5590 \tab 284 \tab 769 \tab 1213 \tab 1137 \tab 622 \tab 107 \tab 187 \tab 15 \tab 9924 \cr
+}
 }
 
 \keyword{variable}

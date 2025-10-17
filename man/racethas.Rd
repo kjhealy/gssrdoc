@@ -21,15 +21,21 @@ Question d.  Asian American?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6354/vshow}{GSS Data Explorer page for \code{racethas}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1888 \tab 931 \tab 3 \tab 14 \tab 2 \tab 1 \tab 1 \tab 6 \tab 1 \tab 5 \tab 15 \tab 2867 \cr
+   Total \tab 1888 \tab 931 \tab 3 \tab 14 \tab 2 \tab 1 \tab 1 \tab 6 \tab 1 \tab 5 \tab 15 \tab 2867 \cr
+}
 }
 
 \seealso{

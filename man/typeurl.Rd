@@ -26,16 +26,22 @@ B. Type (or paste in) the web address yourself?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2389/vshow}{GSS Data Explorer page for \code{typeurl}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab less than half of the time \tab about half of the time \tab more than half of the time \tab almost always \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2075 \tab 90 \tab 188 \tab 135 \tab 113 \tab 135 \tab 81 \tab - \tab 2817 \cr
+   2002 \tab 2403 \tab 30 \tab 91 \tab 90 \tab 40 \tab 61 \tab 49 \tab 1 \tab 2765 \cr
+   Total \tab 4478 \tab 120 \tab 279 \tab 225 \tab 153 \tab 196 \tab 130 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

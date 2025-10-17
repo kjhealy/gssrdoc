@@ -29,15 +29,21 @@ A. Which of these procedures should be used to assign the organ among the patien
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1866/vshow}{GSS Data Explorer page for \code{organsb}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab auction \tab first come-first served \tab lottery \tab merit \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 17 \tab 1151 \tab 86 \tab 120 \tab 55 \tab 15 \tab 2904 \cr
+   Total \tab 1460 \tab 17 \tab 1151 \tab 86 \tab 120 \tab 55 \tab 15 \tab 2904 \cr
+}
 }
 
 \seealso{

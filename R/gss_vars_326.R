@@ -17,13 +17,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `supfam`](https://gssdataexplorer.norc.org/variables/2904/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |extremely important |quite important |somewhat important |not too important |not at all important |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------|:---------------|:------------------|:-----------------|:--------------------|:----------|:---------|:-----|
+#'  |2002  |1372 |824                 |306             |152                |57                |27                   |21         |6         |2765  |
+#'  |Total |1372 |824                 |306             |152                |57                |27                   |21         |6         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -50,13 +56,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `supfam1`](https://gssdataexplorer.norc.org/variables/2905/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |16 |17 |18 |19 |20 |21  |22  |23 |24 |25  |26 |27 |28 |29 |30  |31 |32 |35 |37 |40 |55 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:---|:---|:--|:--|:---|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2002  |1483 |7  |3  |58 |12 |62 |116 |100 |65 |92 |373 |61 |37 |55 |9  |138 |1  |7  |14 |2  |1  |1  |65         |3         |2765  |
+#'  |Total |1483 |7  |3  |58 |12 |62 |116 |100 |65 |92 |373 |61 |37 |55 |9  |138 |1  |7  |14 |2  |1  |1  |65         |3         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -86,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `havchld`](https://gssdataexplorer.norc.org/variables/2906/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |extremely important |quite important |somewhat important |not too important |not at all important |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------|:---------------|:------------------|:-----------------|:--------------------|:----------|:---------|:-----|
+#'  |2002  |1372 |211                 |168             |321                |344               |302                  |38         |9         |2765  |
+#'  |Total |1372 |211                 |168             |321                |344               |302                  |38         |9         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -119,13 +137,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `havchld1`](https://gssdataexplorer.norc.org/variables/2907/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |16 |18 |19 |20 |21 |22 |23 |24 |25  |26 |27 |28 |29 |30  |31 |32 |33 |34 |35 |36 |38 |40 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2002  |2065 |1  |13 |2  |29 |40 |27 |19 |27 |198 |39 |36 |53 |19 |126 |2  |11 |2  |1  |15 |1  |1  |5  |32         |1         |2765  |
+#'  |Total |2065 |1  |13 |2  |29 |40 |27 |19 |27 |198 |39 |36 |53 |19 |126 |2  |11 |2  |1  |15 |1  |1  |5  |32         |1         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -155,13 +179,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `getmar`](https://gssdataexplorer.norc.org/variables/2908/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |extremely important |quite important |somewhat important |not too important |not at all important |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------|:---------------|:------------------|:-----------------|:--------------------|:----------|:---------|:-----|
+#'  |2002  |1372 |256                 |191             |284                |330               |290                  |34         |8         |2765  |
+#'  |Total |1372 |256                 |191             |284                |330               |290                  |34         |8         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -188,13 +218,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `getmar1`](https://gssdataexplorer.norc.org/variables/2909/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |18 |19 |20 |21 |22 |23 |24 |25  |26 |27 |28 |29 |30  |31 |32 |33 |34 |35 |40 |42 |50 |60 |65 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2002  |2034 |16 |2  |33 |61 |42 |29 |48 |208 |43 |28 |46 |3  |107 |3  |8  |1  |1  |12 |4  |1  |1  |1  |1  |31         |1         |2765  |
+#'  |Total |2034 |16 |2  |33 |61 |42 |29 |48 |208 |43 |28 |46 |3  |107 |3  |8  |1  |1  |12 |4  |1  |1  |1  |1  |31         |1         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -221,13 +257,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `boycott`](https://gssdataexplorer.norc.org/variables/2910/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2002  |1372 |308 |1071 |8          |6         |2765  |
+#'  |Total |1372 |308 |1071 |8          |6         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -254,13 +296,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `signpet`](https://gssdataexplorer.norc.org/variables/2911/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2002  |1372 |592 |787 |8          |6         |2765  |
+#'  |Total |1372 |592 |787 |8          |6         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -287,13 +335,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `protest`](https://gssdataexplorer.norc.org/variables/2912/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2002  |1372 |84  |1294 |9          |6         |2765  |
+#'  |Total |1372 |84  |1294 |9          |6         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -320,13 +374,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `conoffcl`](https://gssdataexplorer.norc.org/variables/2913/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2002  |1372 |389 |990 |8          |6         |2765  |
+#'  |Total |1372 |389 |990 |8          |6         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions

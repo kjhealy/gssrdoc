@@ -23,18 +23,24 @@ B. Total Fall Enrollment
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/70/vshow}{GSS Data Explorer page for \code{eftotlt}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab 0-467 students enrolled \tab 468 or more students \tab no answer \tab Total \cr
+   2012 \tab 1347 \tab 14 \tab 610 \tab 3 \tab 1974 \cr
+   2014 \tab 1750 \tab 8 \tab 776 \tab 4 \tab 2538 \cr
+   2016 \tab 1937 \tab 11 \tab 912 \tab 7 \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 7382 \tab 33 \tab 2298 \tab 14 \tab 9727 \cr
+}
 }
 
 \seealso{

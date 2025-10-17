@@ -21,15 +21,21 @@ Question In a typical week, about how many hours do you spend in a car or anothe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7498/vshow}{GSS Data Explorer page for \code{carhr}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 2 \tab 20 \tab 21 \tab 24 \tab 25 \tab 27 \tab 28 \tab 3 \tab 30 \tab 32 \tab 34 \tab 35 \tab 36 \tab 4 \tab 40 \tab 45 \tab 48 \tab 49 \tab 5 \tab 50 \tab 54 \tab 56 \tab 6 \tab 60 \tab 64 \tab 65 \tab 7 \tab 70 \tab 72 \tab 8 \tab 80 \tab 84 \tab 9 \tab 90 \tab no answer \tab Total \cr
+   2021 \tab 2003 \tab 126 \tab 214 \tab 153 \tab 3 \tab 43 \tab 3 \tab 18 \tab 34 \tab 7 \tab 2 \tab 7 \tab 302 \tab 35 \tab 5 \tab 2 \tab 17 \tab 1 \tab 2 \tab 209 \tab 8 \tab 2 \tab 1 \tab 5 \tab 2 \tab 154 \tab 8 \tab 2 \tab 1 \tab 1 \tab 150 \tab 2 \tab 1 \tab 1 \tab 109 \tab 5 \tab 1 \tab 2 \tab 77 \tab 1 \tab 1 \tab 65 \tab 1 \tab 1 \tab 15 \tab 1 \tab 229 \tab 4032 \cr
+   Total \tab 2003 \tab 126 \tab 214 \tab 153 \tab 3 \tab 43 \tab 3 \tab 18 \tab 34 \tab 7 \tab 2 \tab 7 \tab 302 \tab 35 \tab 5 \tab 2 \tab 17 \tab 1 \tab 2 \tab 209 \tab 8 \tab 2 \tab 1 \tab 5 \tab 2 \tab 154 \tab 8 \tab 2 \tab 1 \tab 1 \tab 150 \tab 2 \tab 1 \tab 1 \tab 109 \tab 5 \tab 1 \tab 2 \tab 77 \tab 1 \tab 1 \tab 65 \tab 1 \tab 1 \tab 15 \tab 1 \tab 229 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

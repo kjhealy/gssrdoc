@@ -21,15 +21,21 @@ Question In what year did you start using the internet or web-enabled applicatio
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6648/vshow}{GSS Data Explorer page for \code{snsmyear}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1981 \tab 1985 \tab 1990 \tab 1991 \tab 1993 \tab 1994 \tab 1995 \tab 1996 \tab 1997 \tab 1998 \tab 1999 \tab 2000 \tab 2001 \tab 2002 \tab 2003 \tab 2004 \tab 2005 \tab 2006 \tab 2007 \tab 2008 \tab 2009 \tab 2010 \tab 2011 \tab 2012 \tab 2013 \tab 2014 \tab 2015 \tab 2016 \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1630 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 5 \tab 1 \tab 33 \tab 8 \tab 14 \tab 9 \tab 29 \tab 51 \tab 81 \tab 83 \tab 122 \tab 134 \tab 147 \tab 76 \tab 79 \tab 57 \tab 77 \tab 63 \tab 37 \tab 105 \tab 12 \tab 2867 \cr
+   Total \tab 1630 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 5 \tab 1 \tab 33 \tab 8 \tab 14 \tab 9 \tab 29 \tab 51 \tab 81 \tab 83 \tab 122 \tab 134 \tab 147 \tab 76 \tab 79 \tab 57 \tab 77 \tab 63 \tab 37 \tab 105 \tab 12 \tab 2867 \cr
+}
 }
 
 \keyword{variable}

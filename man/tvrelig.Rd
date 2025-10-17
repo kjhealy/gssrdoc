@@ -21,16 +21,22 @@ Question About how much time per week, in hours and minutes, do you normally spe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1075/vshow}{GSS Data Explorer page for \code{tvrelig}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 0.1 \tab 0.2 \tab 0.3 \tab 0.4 \tab 0.5 \tab 0.8 \tab 1 \tab 1.1 \tab 1.4 \tab 1.5 \tab 1.8 \tab 2 \tab 2.5 \tab 3 \tab 3.5 \tab 4 \tab 4.5 \tab 5 \tab 6 \tab 7 \tab 8 \tab 8.5 \tab 0.6 \tab 0.7 \tab 1.2 \tab 1.3 \tab 2.2 \tab 2.8 \tab 4.1 \tab 9 \tab Total \cr
+   1988 \tab - \tab 1051 \tab 5 \tab 2 \tab 15 \tab 2 \tab 60 \tab 5 \tab 184 \tab 1 \tab 3 \tab 15 \tab 1 \tab 68 \tab 3 \tab 24 \tab 1 \tab 13 \tab 1 \tab 8 \tab 6 \tab 5 \tab 7 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
+   1998 \tab 1387 \tab 1013 \tab 4 \tab 11 \tab 7 \tab - \tab 60 \tab - \tab 182 \tab - \tab 1 \tab 16 \tab 1 \tab 75 \tab 9 \tab 23 \tab 1 \tab 10 \tab - \tab 8 \tab 2 \tab 5 \tab 1 \tab - \tab 1 \tab 6 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2832 \cr
+   Total \tab 1387 \tab 2064 \tab 9 \tab 13 \tab 22 \tab 2 \tab 120 \tab 5 \tab 366 \tab 1 \tab 4 \tab 31 \tab 2 \tab 143 \tab 12 \tab 47 \tab 2 \tab 23 \tab 1 \tab 16 \tab 8 \tab 10 \tab 8 \tab 1 \tab 1 \tab 6 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4313 \cr
+}
 }
 
 \seealso{

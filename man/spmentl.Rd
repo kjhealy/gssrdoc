@@ -26,16 +26,22 @@ Question Earlier, we talked about various areas of government spending. Since we
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2038/vshow}{GSS Data Explorer page for \code{spmentl}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend the same as now \tab spend less \tab spend much less \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2168 \tab 86 \tab 248 \tab 267 \tab 61 \tab 15 \tab 48 \tab 11 \tab 2904 \cr
+   2006 \tab 3775 \tab 79 \tab 276 \tab 299 \tab 36 \tab 14 \tab 24 \tab 7 \tab 4510 \cr
+   Total \tab 5943 \tab 165 \tab 524 \tab 566 \tab 97 \tab 29 \tab 72 \tab 18 \tab 7414 \cr
+}
 }
 
 \seealso{

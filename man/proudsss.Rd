@@ -25,17 +25,23 @@ D. Its social security system
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4843/vshow}{GSS Data Explorer page for \code{proudsss}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 181 \tab 468 \tab 497 \tab 152 \tab 43 \tab 26 \tab 2904 \cr
+   2004 \tab 1596 \tab 150 \tab 488 \tab 397 \tab 132 \tab 47 \tab 2 \tab 2812 \cr
+   2014 \tab 1264 \tab 161 \tab 459 \tab 390 \tab 174 \tab 86 \tab 4 \tab 2538 \cr
+   Total \tab 4397 \tab 492 \tab 1415 \tab 1284 \tab 458 \tab 176 \tab 32 \tab 8254 \cr
+}
 }
 
 \seealso{

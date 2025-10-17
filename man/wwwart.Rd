@@ -22,16 +22,22 @@ Question A. Do you ever use the Web to learn about, view, or discuss topics rela
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2473/vshow}{GSS Data Explorer page for \code{wwwart}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2326 \tab 100 \tab 278 \tab 113 \tab 2817 \cr
+   2002 \tab 2284 \tab 91 \tab 344 \tab 46 \tab 2765 \cr
+   Total \tab 4610 \tab 191 \tab 622 \tab 159 \tab 5582 \cr
+}
 }
 
 \seealso{

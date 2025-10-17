@@ -26,15 +26,21 @@ C. Think about Whites in the U.S. compared to ethnic minority groups. To what ex
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2736/vshow}{GSS Data Explorer page for \code{whtsdiff}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab - \tab 258 \tab 1108 \tab 633 \tab 652 \tab 71 \tab 32 \tab 11 \tab 2765 \cr
+   Total \tab 0 \tab 258 \tab 1108 \tab 633 \tab 652 \tab 71 \tab 32 \tab 11 \tab 2765 \cr
+}
 }
 
 \seealso{

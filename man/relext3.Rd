@@ -24,15 +24,21 @@ Question There are some people whose views are considered extreme by the majorit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7279/vshow}{GSS Data Explorer page for \code{relext3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely \tab probably \tab probably not \tab definitely not \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1173 \tab 286 \tab 445 \tab 258 \tab 155 \tab 21 \tab 10 \tab 2348 \cr
+   Total \tab 1173 \tab 286 \tab 445 \tab 258 \tab 155 \tab 21 \tab 10 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

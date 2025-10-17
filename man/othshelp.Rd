@@ -26,18 +26,25 @@ A. People should be willing to help others who are less fortunate
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2890/vshow}{GSS Data Explorer page for \code{othshelp}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 567 \tab 638 \tab 123 \tab 15 \tab 9 \tab 12 \tab 8 \tab 2765 \cr
+   2004 \tab 1472 \tab 583 \tab 625 \tab 105 \tab 10 \tab 13 \tab 2 \tab 2 \tab 2812 \cr
+   2012 \tab 666 \tab 510 \tab 678 \tab 89 \tab 15 \tab 4 \tab 6 \tab 6 \tab 1974 \cr
+   2014 \tab 1264 \tab 609 \tab 549 \tab 77 \tab 19 \tab 10 \tab 3 \tab 7 \tab 2538 \cr
+   Total \tab 4795 \tab 2269 \tab 2490 \tab 394 \tab 59 \tab 36 \tab 23 \tab 23 \tab 10089 \cr
+}
 }
 
 \seealso{

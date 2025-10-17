@@ -26,15 +26,21 @@ B. People convicted of murder should be subject to the death penalty.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4629/vshow}{GSS Data Explorer page for \code{deathpen}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 642 \tab 327 \tab 104 \tab 138 \tab 84 \tab 59 \tab 5 \tab 1517 \cr
+   Total \tab 158 \tab 642 \tab 327 \tab 104 \tab 138 \tab 84 \tab 59 \tab 5 \tab 1517 \cr
+}
 }
 
 \seealso{

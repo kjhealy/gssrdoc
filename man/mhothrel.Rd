@@ -24,15 +24,21 @@ Question As a result of the mental health problem, would you say that your relat
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3567/vshow}{GSS Data Explorer page for \code{mhothrel}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab became stronger \tab became worse \tab was unchanged \tab ended as a result of the problem \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3595 \tab 237 \tab 125 \tab 457 \tab 77 \tab 6 \tab 13 \tab 4510 \cr
+   Total \tab 3595 \tab 237 \tab 125 \tab 457 \tab 77 \tab 6 \tab 13 \tab 4510 \cr
+}
 }
 
 \seealso{

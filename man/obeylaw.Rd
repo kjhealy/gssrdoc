@@ -22,19 +22,28 @@ Question In general, would you say that people should obey the law without excep
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3981/vshow}{GSS Data Explorer page for \code{obeylaw}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab obey the law without exception \tab follow conscience on occassions \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 269 \tab 354 \tab 45 \tab 9 \tab 1534 \cr
+   1990 \tab 155 \tab 476 \tab 634 \tab 72 \tab 35 \tab 1372 \cr
+   1996 \tab 1572 \tab 535 \tab 717 \tab 64 \tab 16 \tab 2904 \cr
+   2006 \tab 2992 \tab 799 \tab 709 \tab 9 \tab 1 \tab 4510 \cr
+   2016 \tab 1477 \tab 568 \tab 795 \tab 16 \tab 11 \tab 2867 \cr
+   Total \tab 7053 \tab 2647 \tab 3209 \tab 206 \tab 72 \tab 13187 \cr
+}
 }
 
 \seealso{

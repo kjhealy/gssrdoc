@@ -26,16 +26,23 @@ C. A bank clerk?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/- \tab full \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1987 \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4281/vshow}{GSS Data Explorer page for \code{givclerk}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 10400 \tab 11000 \tab 11520 \tab 12000 \tab 12480 \tab 12500 \tab 13000 \tab 14000 \tab 15000 \tab 15500 \tab 15600 \tab 16000 \tab 16500 \tab 16640 \tab 16750 \tab 17000 \tab 18000 \tab 18500 \tab 18720 \tab 19000 \tab 2000 \tab 20000 \tab 20800 \tab 21000 \tab 22000 \tab 22500 \tab 23000 \tab 24000 \tab 24500 \tab 25000 \tab 26000 \tab 27000 \tab 28000 \tab 29000 \tab 3000 \tab 30000 \tab 31000 \tab 32000 \tab 35000 \tab 36000 \tab 39000 \tab 4000 \tab 40000 \tab 41600 \tab 42000 \tab 45000 \tab 450000 \tab 4850 \tab 5000 \tab 50000 \tab 52000 \tab 58000 \tab 6000 \tab 60000 \tab 65000 \tab 70000 \tab 7500 \tab 75000 \tab 8000 \tab 80000 \tab 8320 \tab 9000 \tab 9600 \tab more than now paid \tab same as now paid \tab less than now paid \tab can't choose \tab no answer \tab 0 \tab 10 \tab 10500 \tab 12 \tab 120000 \tab 125000 \tab 15 \tab 1500 \tab 150000 \tab 16 \tab 170000 \tab 1e+05 \tab 1e+07 \tab 2109 \tab 234567 \tab 23500 \tab 24900 \tab 2500 \tab 250000 \tab 2500000 \tab 2928 \tab 2e+05 \tab 3 \tab 300 \tab 31200 \tab 31500 \tab 33000 \tab 34 \tab 34000 \tab 350000 \tab 36950 \tab 37000 \tab 370000 \tab 37500 \tab 38000 \tab 3e+05 \tab 3e+06 \tab 4 \tab 4200000 \tab 4333 \tab 44000 \tab 45 \tab 456778 \tab 48000 \tab 4e+05 \tab 50 \tab 500 \tab 54352 \tab 55000 \tab 555555 \tab 56000 \tab 5e+05 \tab 5e+06 \tab 6500000 \tab 67000 \tab 69000 \tab 7 \tab 7000 \tab 737383 \tab 74914 \tab 7e+05 \tab 7e+06 \tab 800 \tab 85000 \tab 8e+05 \tab 90000 \tab 9800 \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 1 \tab 69 \tab 3 \tab 8 \tab 1 \tab 68 \tab 1 \tab 1 \tab 22 \tab 21 \tab 190 \tab 2 \tab 1 \tab 32 \tab 1 \tab 1 \tab 1 \tab 22 \tab 87 \tab 2 \tab 1 \tab 10 \tab 4 \tab 324 \tab 1 \tab 8 \tab 20 \tab 1 \tab 7 \tab 6 \tab 1 \tab 148 \tab 3 \tab 4 \tab 6 \tab 1 \tab 4 \tab 78 \tab 1 \tab 2 \tab 16 \tab 1 \tab 1 \tab 1 \tab 17 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 14 \tab 1 \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 13 \tab 1 \tab 1 \tab 11 \tab 2 \tab 1 \tab 1 \tab 1 \tab 75 \tab 221 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
+   2021 \tab 2029 \tab 4 \tab 8 \tab - \tab - \tab - \tab 3 \tab - \tab - \tab - \tab - \tab 14 \tab - \tab - \tab 4 \tab - \tab - \tab - \tab 3 \tab 4 \tab - \tab - \tab 1 \tab 5 \tab 50 \tab - \tab 2 \tab 5 \tab - \tab 4 \tab 11 \tab - \tab 106 \tab 5 \tab 3 \tab 15 \tab - \tab 1 \tab 229 \tab 6 \tab 16 \tab 146 \tab 13 \tab 3 \tab - \tab 272 \tab - \tab 3 \tab 94 \tab 1 \tab - \tab - \tab 334 \tab 4 \tab - \tab 1 \tab 90 \tab 27 \tab 41 \tab - \tab 41 \tab 4 \tab 28 \tab - \tab - \tab - \tab - \tab - \tab - \tab 17 \tab 132 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 10 \tab 1 \tab 1 \tab 33 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 3 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 1 \tab 18 \tab 1 \tab 2 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 5 \tab 1 \tab 7 \tab 1 \tab 84 \tab 4032 \cr
+   Total \tab 2284 \tab 5 \tab 77 \tab 3 \tab 8 \tab 1 \tab 71 \tab 1 \tab 1 \tab 22 \tab 21 \tab 204 \tab 2 \tab 1 \tab 36 \tab 1 \tab 1 \tab 1 \tab 25 \tab 91 \tab 2 \tab 1 \tab 11 \tab 9 \tab 374 \tab 1 \tab 10 \tab 25 \tab 1 \tab 11 \tab 17 \tab 1 \tab 254 \tab 8 \tab 7 \tab 21 \tab 1 \tab 5 \tab 307 \tab 7 \tab 18 \tab 162 \tab 14 \tab 4 \tab 1 \tab 289 \tab 2 \tab 4 \tab 96 \tab 2 \tab 1 \tab 2 \tab 348 \tab 5 \tab 1 \tab 6 \tab 91 \tab 29 \tab 42 \tab 2 \tab 42 \tab 17 \tab 29 \tab 1 \tab 11 \tab 2 \tab 1 \tab 1 \tab 1 \tab 92 \tab 353 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 10 \tab 1 \tab 1 \tab 33 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 3 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 1 \tab 18 \tab 1 \tab 2 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 5 \tab 1 \tab 7 \tab 1 \tab 84 \tab 5851 \cr
+}
 }
 
 \seealso{

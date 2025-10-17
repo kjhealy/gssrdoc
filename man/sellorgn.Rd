@@ -25,15 +25,21 @@ Question A body organ that is much in need and that people may contribute are ki
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1868/vshow}{GSS Data Explorer page for \code{sellorgn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely not \tab probably not \tab perhaps \tab probably \tab definitely \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 444 \tab 189 \tab 251 \tab 234 \tab 263 \tab 57 \tab 6 \tab 2904 \cr
+   Total \tab 1460 \tab 444 \tab 189 \tab 251 \tab 234 \tab 263 \tab 57 \tab 6 \tab 2904 \cr
+}
 }
 
 \seealso{

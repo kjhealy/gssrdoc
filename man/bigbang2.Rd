@@ -23,16 +23,22 @@ G3. The universe has been expanding ever since it began. (Is that true or false?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A \tab partial \cr
-   2018 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6302/vshow}{GSS Data Explorer page for \code{bigbang2}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2413 \tab 287 \tab 78 \tab 87 \tab 2 \tab 2867 \cr
+   2018 \tab 1967 \tab 259 \tab 54 \tab 64 \tab 4 \tab 2348 \cr
+   Total \tab 4380 \tab 546 \tab 132 \tab 151 \tab 6 \tab 5215 \cr
+}
 }
 
 \seealso{

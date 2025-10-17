@@ -26,19 +26,28 @@ E. Less government regulation of business.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4053/vshow}{GSS Data Explorer page for \code{lessreg}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly in favor of \tab in favor \tab neither in favor nor against \tab against \tab strongly against \tab no answer \tab don't know \tab Total \cr
+   1985 \tab 857 \tab 119 \tab 227 \tab 197 \tab 102 \tab 21 \tab 11 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 128 \tab 359 \tab 470 \tab 178 \tab 40 \tab 41 \tab 1 \tab 1372 \cr
+   1996 \tab 1572 \tab 201 \tab 444 \tab 413 \tab 187 \tab 41 \tab 43 \tab 3 \tab 2904 \cr
+   2006 \tab 2992 \tab 251 \tab 518 \tab 406 \tab 236 \tab 69 \tab 1 \tab 37 \tab 4510 \cr
+   2016 \tab 1477 \tab 236 \tab 470 \tab 399 \tab 191 \tab 60 \tab 10 \tab 24 \tab 2867 \cr
+   Total \tab 7053 \tab 935 \tab 2018 \tab 1885 \tab 894 \tab 231 \tab 106 \tab 65 \tab 13187 \cr
+}
 }
 
 \seealso{

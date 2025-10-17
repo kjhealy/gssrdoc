@@ -25,18 +25,24 @@ C. Immoral actions by one person can corrupt society in general.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 2006, 2008, 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1083/vshow}{GSS Data Explorer page for \code{rotapple}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 267 \tab 479 \tab 410 \tab 269 \tab 48 \tab 8 \tab 1481 \cr
+   2006 \tab 1518 \tab 778 \tab 1063 \tab 712 \tab 373 \tab 61 \tab 5 \tab 4510 \cr
+   2008 \tab - \tab 512 \tab 776 \tab 439 \tab 240 \tab 50 \tab 6 \tab 2023 \cr
+   2010 \tab - \tab 491 \tab 810 \tab 459 \tab 245 \tab 35 \tab 4 \tab 2044 \cr
+   Total \tab 1518 \tab 2048 \tab 3128 \tab 2020 \tab 1127 \tab 194 \tab 23 \tab 10058 \cr
+}
 }
 
 \seealso{

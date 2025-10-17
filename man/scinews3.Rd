@@ -31,19 +31,27 @@ you most likely to go on the Internet for science and technology information?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab C/- \tab partial \cr
-   2012 \tab B/C \tab partial \cr
-   2014 \tab B/C \tab partial \cr
-   2016 \tab A/B \tab partial \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016, 2018 \cr
+   B/C \tab 2012, 2014 \cr
+   C/- \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3502/vshow}{GSS Data Explorer page for \code{scinews3}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab online newspapers \tab online magazines \tab science site \tab don't know \tab no answer \tab news site \tab electronic books & reports \tab wikipedia \tab government site \tab social media (facebook, youtube, twitter) \tab other \tab search engine (google, bing) \tab Total \cr
+   2010 \tab 1954 \tab 51 \tab 2 \tab 17 \tab 1 \tab 19 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1580 \tab 90 \tab 48 \tab 33 \tab 11 \tab 5 \tab 21 \tab 2 \tab 2 \tab 4 \tab 13 \tab 26 \tab 139 \tab 1974 \cr
+   2014 \tab 2012 \tab 130 \tab 74 \tab 44 \tab 14 \tab 4 \tab 35 \tab - \tab 6 \tab 2 \tab - \tab 39 \tab 178 \tab 2538 \cr
+   2016 \tab 2146 \tab 177 \tab 103 \tab 42 \tab 16 \tab 7 \tab 45 \tab - \tab 7 \tab 4 \tab 27 \tab 36 \tab 257 \tab 2867 \cr
+   2018 \tab 1698 \tab 161 \tab 85 \tab 51 \tab 11 \tab 2 \tab 24 \tab 3 \tab 7 \tab 11 \tab 34 \tab 41 \tab 220 \tab 2348 \cr
+   Total \tab 9390 \tab 609 \tab 312 \tab 187 \tab 53 \tab 37 \tab 125 \tab 5 \tab 22 \tab 21 \tab 74 \tab 142 \tab 794 \tab 11771 \cr
+}
 }
 
 \seealso{

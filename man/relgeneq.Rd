@@ -24,15 +24,21 @@ Question In your opinion, does your religion treat men and women equally, treat 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7280/vshow}{GSS Data Explorer page for \code{relgeneq}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab i don't belong to or follow any religion \tab treats men and women equally \tab treats men better than women \tab treats women better than men \tab can't choose \tab no answer \tab Total \cr
+   2018 \tab 1173 \tab 167 \tab 773 \tab 161 \tab 15 \tab 48 \tab 11 \tab 2348 \cr
+   Total \tab 1173 \tab 167 \tab 773 \tab 161 \tab 15 \tab 48 \tab 11 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

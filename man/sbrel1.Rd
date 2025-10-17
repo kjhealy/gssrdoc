@@ -25,15 +25,21 @@ D1. Relation to R. of first sibling
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1563/vshow}{GSS Data Explorer page for \code{sbrel1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab full \tab adopted \tab step \tab half \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 171 \tab 2441 \tab 40 \tab 91 \tab 209 \tab 1 \tab 39 \tab 2992 \cr
+   Total \tab 171 \tab 2441 \tab 40 \tab 91 \tab 209 \tab 1 \tab 39 \tab 2992 \cr
+}
 }
 
 \seealso{

@@ -28,15 +28,21 @@ FI INSTRUCTION:  IF R GIVES MORE THAN ONE PLACE OR SAYS â€œIT DEPENDS,â€�
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3506/vshow}{GSS Data Explorer page for \code{sciinfgo}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab search engine (google, yahoo, bing, etc) \tab wikipedia \tab science site \tab news site \tab other specific site \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 1918 \tab 76 \tab 5 \tab 16 \tab 8 \tab 9 \tab 4 \tab 8 \tab 2044 \cr
+   Total \tab 1918 \tab 76 \tab 5 \tab 16 \tab 8 \tab 9 \tab 4 \tab 8 \tab 2044 \cr
+}
 }
 
 \seealso{

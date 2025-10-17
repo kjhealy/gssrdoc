@@ -25,15 +25,21 @@ D. It is best to treat dissenters with leniency and an open mind, since new idea
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1169/vshow}{GSS Data Explorer page for \code{openmind}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 121 \tab 836 \tab 223 \tab 31 \tab 150 \tab 11 \tab 1372 \cr
+   Total \tab 0 \tab 121 \tab 836 \tab 223 \tab 31 \tab 150 \tab 11 \tab 1372 \cr
+}
 }
 
 \seealso{

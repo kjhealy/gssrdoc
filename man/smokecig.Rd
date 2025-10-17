@@ -23,19 +23,25 @@ B. Do you smoke cigarettes?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
-   1978 \tab - \tab full \cr
-   1980 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977, 1978, 1980, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/534/vshow}{GSS Data Explorer page for \code{smokecig}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1977 \tab 878 \tab 584 \tab 54 \tab 14 \tab 1530 \cr
+   1978 \tab 927 \tab 545 \tab 53 \tab 7 \tab 1532 \cr
+   1980 \tab 866 \tab 551 \tab 43 \tab 8 \tab 1468 \cr
+   1983 \tab 1006 \tab 561 \tab 28 \tab 4 \tab 1599 \cr
+   1984 \tab 924 \tab 514 \tab 27 \tab 8 \tab 1473 \cr
+   Total \tab 4601 \tab 2755 \tab 205 \tab 41 \tab 7602 \cr
+}
 }
 
 \seealso{

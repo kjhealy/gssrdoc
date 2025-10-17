@@ -26,15 +26,21 @@ E. It is better not to have children because they are such a heavy financial bur
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4384/vshow}{GSS Data Explorer page for \code{kidfin}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 16 \tab 41 \tab 143 \tab 670 \tab 506 \tab 22 \tab 16 \tab 1481 \cr
+   Total \tab 67 \tab 16 \tab 41 \tab 143 \tab 670 \tab 506 \tab 22 \tab 16 \tab 1481 \cr
+}
 }
 
 \seealso{

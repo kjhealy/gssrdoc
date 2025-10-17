@@ -26,16 +26,22 @@ I. Only people who are diagnosed with clinical depression should take Prozac.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2234/vshow}{GSS Data Explorer page for \code{proz9}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1635 \tab 137 \tab 451 \tab 206 \tab 113 \tab 24 \tab 253 \tab 13 \tab 2832 \cr
+   2006 \tab 3238 \tab 232 \tab 494 \tab 269 \tab 90 \tab 25 \tab 146 \tab 16 \tab 4510 \cr
+   Total \tab 4873 \tab 369 \tab 945 \tab 475 \tab 203 \tab 49 \tab 399 \tab 29 \tab 7342 \cr
+}
 }
 
 \seealso{

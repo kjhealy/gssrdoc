@@ -23,15 +23,21 @@ A. Written a letter to a public official expressing your views on women''s right
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/598/vshow}{GSS Data Explorer page for \code{fewrite}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1983 \tab 804 \tab 55 \tab 735 \tab 1 \tab 4 \tab 1599 \cr
+   Total \tab 804 \tab 55 \tab 735 \tab 1 \tab 4 \tab 1599 \cr
+}
 }
 
 \seealso{

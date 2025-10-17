@@ -25,16 +25,23 @@ A. Watch a television program about the polar regions?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3424/vshow}{GSS Data Explorer page for \code{polaryr1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 642 \tab 727 \tab 287 \tab 187 \tab 19 \tab 2 \tab 4510 \cr
+   2010 \tab 1338 \tab 244 \tab 290 \tab 88 \tab 70 \tab 5 \tab 9 \tab 2044 \cr
+   Total \tab 3984 \tab 886 \tab 1017 \tab 375 \tab 257 \tab 24 \tab 11 \tab 6554 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ B. How about for blacks?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1244/vshow}{GSS Data Explorer page for \code{blkjobs}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a lot \tab some \tab only a little \tab none at all \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 392 \tab 577 \tab 217 \tab 126 \tab 49 \tab 11 \tab 1372 \cr
+   Total \tab 0 \tab 392 \tab 577 \tab 217 \tab 126 \tab 49 \tab 11 \tab 1372 \cr
+}
 }
 
 \seealso{

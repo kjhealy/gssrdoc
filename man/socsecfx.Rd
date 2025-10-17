@@ -24,15 +24,21 @@ Question Please tell me which of the following statements comes closest to your 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2243/vshow}{GSS Data Explorer page for \code{socsecfx}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab no problems \tab minor probs \tab serious prob \tab be replaced \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 64 \tab 304 \tab 714 \tab 218 \tab 80 \tab 7 \tab 2832 \cr
+   Total \tab 1445 \tab 64 \tab 304 \tab 714 \tab 218 \tab 80 \tab 7 \tab 2832 \cr
+}
 }
 
 \seealso{

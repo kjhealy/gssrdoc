@@ -26,15 +26,21 @@ D. A family with three kids
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4378/vshow}{GSS Data Explorer page for \code{threkids}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very desirable \tab desirable \tab neither \tab undesirable \tab very undesirable \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 214 \tab 590 \tab 299 \tab 140 \tab 38 \tab 57 \tab 76 \tab 1481 \cr
+   Total \tab 67 \tab 214 \tab 590 \tab 299 \tab 140 \tab 38 \tab 57 \tab 76 \tab 1481 \cr
+}
 }
 
 \seealso{
@@ -42,6 +48,7 @@ Other ISSP Family & Gender Roles:
 \code{\link{fourkids}},
 \code{\link{kidtrble}},
 \code{\link{mardiv}},
+\code{\link{marhomo}},
 \code{\link{nokids}},
 \code{\link{numkids}},
 \code{\link{onekid}},

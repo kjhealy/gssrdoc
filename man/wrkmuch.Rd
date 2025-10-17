@@ -25,15 +25,21 @@ Question Compared to other people who do the same or similar kind of work that y
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1339/vshow}{GSS Data Explorer page for \code{wrkmuch}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab much more \tab somewhat more \tab about same \tab somewhat less \tab much less \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 605 \tab 203 \tab 338 \tab 317 \tab 28 \tab 2 \tab 14 \tab 10 \tab 1517 \cr
+   Total \tab 605 \tab 203 \tab 338 \tab 317 \tab 28 \tab 2 \tab 14 \tab 10 \tab 1517 \cr
+}
 }
 
 \seealso{

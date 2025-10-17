@@ -27,17 +27,25 @@ D. Shops for groceries?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4432/vshow}{GSS Data Explorer page for \code{shop1}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab always me \tab usually me \tab about equal or both together \tab usually my spouse/partner \tab always my spouse/partner \tab is done by a third person \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 2058 \tab 138 \tab 119 \tab 290 \tab 131 \tab 5 \tab 1 \tab 1 \tab 22 \tab - \tab 2765 \cr
+   2012 \tab 1274 \tab 134 \tab 105 \tab 288 \tab 92 \tab 66 \tab 12 \tab - \tab 3 \tab - \tab 1974 \cr
+   2022 \tab 3024 \tab 89 \tab 95 \tab 193 \tab 87 \tab 45 \tab 3 \tab 4 \tab 1 \tab 3 \tab 3544 \cr
+   Total \tab 6356 \tab 361 \tab 319 \tab 771 \tab 310 \tab 116 \tab 16 \tab 5 \tab 26 \tab 3 \tab 8283 \cr
+}
 }
 
 \seealso{

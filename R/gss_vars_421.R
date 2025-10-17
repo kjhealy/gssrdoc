@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `eff911c`](https://gssdataexplorer.norc.org/variables/3848/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |1 not at all effective |2   |3   |4   |5 extremely effective |don't know |no answer |Total |
+#'  |:-----|:---|:----------------------|:---|:---|:---|:---------------------|:----------|:---------|:-----|
+#'  |2008  |671 |378                    |186 |373 |139 |202                   |69         |5         |2023  |
+#'  |Total |671 |378                    |186 |373 |139 |202                   |69         |5         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -52,13 +58,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `done911d`](https://gssdataexplorer.norc.org/variables/3849/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no  |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:-----|
+#'  |2008  |671 |927 |164             |78                            |165                                               |13         |5         |2023  |
+#'  |Total |671 |927 |164             |78                            |165                                               |13         |5         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -87,13 +99,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `eff911d`](https://gssdataexplorer.norc.org/variables/3850/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |1 not at all effective |2   |3   |4   |5 extremely effective |don't know |no answer |Total |
+#'  |:-----|:---|:----------------------|:---|:---|:---|:---------------------|:----------|:---------|:-----|
+#'  |2008  |671 |231                    |128 |352 |216 |343                   |75         |7         |2023  |
+#'  |Total |671 |231                    |128 |352 |216 |343                   |75         |7         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -123,13 +141,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `done911e`](https://gssdataexplorer.norc.org/variables/3851/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |Total |
+#'  |:-----|:---|:----|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:-----|
+#'  |2008  |671 |1113 |89              |33                            |99                                                |13         |5         |2023  |
+#'  |Total |671 |1113 |89              |33                            |99                                                |13         |5         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -158,13 +182,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `eff911e`](https://gssdataexplorer.norc.org/variables/3852/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |1 not at all effective |2   |3   |4   |5 extremely effective |don't know |no answer |Total |
+#'  |:-----|:---|:----------------------|:---|:---|:---|:---------------------|:----------|:---------|:-----|
+#'  |2008  |671 |356                    |132 |291 |178 |306                   |82         |7         |2023  |
+#'  |Total |671 |356                    |132 |291 |178 |306                   |82         |7         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -194,13 +224,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `done911f`](https://gssdataexplorer.norc.org/variables/3853/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |Total |
+#'  |:-----|:---|:----|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:-----|
+#'  |2008  |671 |1098 |83              |103                           |55                                                |8          |5         |2023  |
+#'  |Total |671 |1098 |83              |103                           |55                                                |8          |5         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -229,13 +265,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `eff911f`](https://gssdataexplorer.norc.org/variables/3854/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |1 not at all effective |2   |3   |4  |5 extremely effective |don't know |no answer |Total |
+#'  |:-----|:---|:----------------------|:---|:---|:--|:---------------------|:----------|:---------|:-----|
+#'  |2008  |671 |697                    |163 |225 |57 |114                   |89         |7         |2023  |
+#'  |Total |671 |697                    |163 |225 |57 |114                   |89         |7         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -265,13 +307,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `done911g`](https://gssdataexplorer.norc.org/variables/3855/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |Total |
+#'  |:-----|:---|:----|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:-----|
+#'  |2008  |671 |1300 |16              |12                            |6                                                 |13         |5         |2023  |
+#'  |Total |671 |1300 |16              |12                            |6                                                 |13         |5         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -300,13 +348,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `eff911g`](https://gssdataexplorer.norc.org/variables/3856/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |1 not at all effective |2   |3   |4  |5 extremely effective |don't know |no answer |Total |
+#'  |:-----|:---|:----------------------|:---|:---|:--|:---------------------|:----------|:---------|:-----|
+#'  |2008  |671 |788                    |146 |212 |39 |71                    |91         |5         |2023  |
+#'  |Total |671 |788                    |146 |212 |39 |71                    |91         |5         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -336,13 +390,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `done911h`](https://gssdataexplorer.norc.org/variables/3857/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |no   |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |Total |
+#'  |:-----|:---|:----|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:-----|
+#'  |2008  |671 |1290 |10              |24                            |7                                                 |16         |5         |2023  |
+#'  |Total |671 |1290 |10              |24                            |7                                                 |16         |5         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness

@@ -26,15 +26,21 @@ F. Do you work in unhealthy conditions?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4555/vshow}{GSS Data Explorer page for \code{unhlthy}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 21 \tab 43 \tab 156 \tab 218 \tab 429 \tab 6 \tab 25 \tab 1537 \cr
+   Total \tab 639 \tab 21 \tab 43 \tab 156 \tab 218 \tab 429 \tab 6 \tab 25 \tab 1537 \cr
+}
 }
 
 \seealso{

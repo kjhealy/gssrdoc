@@ -24,15 +24,21 @@ E. The scientific community
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/736/vshow}{GSS Data Explorer page for \code{salsci}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very often \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
+   1978 \tab - \tab 148 \tab 561 \tab 785 \tab 31 \tab 7 \tab 1532 \cr
+   Total \tab 0 \tab 148 \tab 561 \tab 785 \tab 31 \tab 7 \tab 1532 \cr
+}
 }
 
 \seealso{

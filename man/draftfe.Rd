@@ -23,17 +23,23 @@ A. IF DRAFT: If we should return to a military draft at this time, should young 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/803/vshow}{GSS Data Explorer page for \code{draftfe}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 1134 \tab 383 \tab 314 \tab 19 \tab 10 \tab 1860 \cr
+   1983 \tab 1136 \tab 212 \tab 234 \tab 11 \tab 6 \tab 1599 \cr
+   1984 \tab 1122 \tab 160 \tab 161 \tab 7 \tab 23 \tab 1473 \cr
+   Total \tab 3392 \tab 755 \tab 709 \tab 37 \tab 39 \tab 4932 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,23 @@ B. Classified ads in a daily newspaper? Would you say not at all, 1 or 2 times, 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2611/vshow}{GSS Data Explorer page for \code{jobpaper}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab no answer \tab Total \cr
+   2002 \tab 2220 \tab 189 \tab 116 \tab 101 \tab 133 \tab 6 \tab 2765 \cr
+   2004 \tab 2453 \tab 121 \tab 65 \tab 72 \tab 96 \tab 5 \tab 2812 \cr
+   Total \tab 4673 \tab 310 \tab 181 \tab 173 \tab 229 \tab 11 \tab 5577 \cr
+}
 }
 
 \seealso{

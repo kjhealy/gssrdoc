@@ -24,15 +24,21 @@ Question How often do you consider your pet to be a member of your family?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7209/vshow}{GSS Data Explorer page for \code{petfam}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost always \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1649 \tab 522 \tab 80 \tab 38 \tab 31 \tab 1 \tab 27 \tab 2348 \cr
+   Total \tab 1649 \tab 522 \tab 80 \tab 38 \tab 31 \tab 1 \tab 27 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

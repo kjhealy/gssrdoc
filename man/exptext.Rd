@@ -29,21 +29,30 @@ Question Why is it better to test the drug this way?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3331/vshow}{GSS Data Explorer page for \code{exptext}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab correct - control group \tab correct - vague reason \tab correct - wrong reason \tab correct - don't know \tab wrong - reservations about control group \tab wrong - reservations about sample \tab wrong - other reason \tab wrong - don't know \tab no answer to closed ended question \tab uncodeable \tab Total \cr
+   2006 \tab 2646 \tab 300 \tab 450 \tab 682 \tab 35 \tab 27 \tab 157 \tab 106 \tab 21 \tab 84 \tab 2 \tab 4510 \cr
+   2008 \tab 629 \tab 199 \tab 362 \tab 513 \tab 14 \tab 37 \tab 120 \tab 106 \tab 8 \tab 2 \tab 33 \tab 2023 \cr
+   2010 \tab 1364 \tab 240 \tab 114 \tab 193 \tab 17 \tab 10 \tab 62 \tab 21 \tab 6 \tab 17 \tab - \tab 2044 \cr
+   2012 \tab 1038 \tab 154 \tab 144 \tab 460 \tab 33 \tab 23 \tab 52 \tab 55 \tab 4 \tab 11 \tab - \tab 1974 \cr
+   2014 \tab 1366 \tab 194 \tab 394 \tab 347 \tab 12 \tab 20 \tab 93 \tab 86 \tab 2 \tab 24 \tab - \tab 2538 \cr
+   2016 \tab 1526 \tab 264 \tab 428 \tab 364 \tab 34 \tab 36 \tab 104 \tab 80 \tab 12 \tab 19 \tab - \tab 2867 \cr
+   2018 \tab 1212 \tab 288 \tab 281 \tab 303 \tab 28 \tab 44 \tab 104 \tab 57 \tab 17 \tab 14 \tab - \tab 2348 \cr
+   Total \tab 9781 \tab 1639 \tab 2173 \tab 2862 \tab 173 \tab 197 \tab 692 \tab 511 \tab 70 \tab 171 \tab 35 \tab 18304 \cr
+}
 }
 
 \seealso{

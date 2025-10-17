@@ -23,42 +23,49 @@ A. Suppose this admitted homosexual wanted to make a speech in your community. S
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/261/vshow}{GSS Data Explorer page for \code{spkhomo}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, allowed to speak \tab not allowed \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1973 \tab - \tab 913 \tab 532 \tab 56 \tab 3 \tab - \tab 1504 \cr
+   1974 \tab - \tab 925 \tab 491 \tab 67 \tab 1 \tab - \tab 1484 \cr
+   1976 \tab - \tab 927 \tab 522 \tab 47 \tab 3 \tab - \tab 1499 \cr
+   1977 \tab - \tab 944 \tab 528 \tab 56 \tab 2 \tab - \tab 1530 \cr
+   1980 \tab - \tab 967 \tab 455 \tab 46 \tab - \tab - \tab 1468 \cr
+   1982 \tab - \tab 1182 \tab 585 \tab 84 \tab 9 \tab - \tab 1860 \cr
+   1984 \tab - \tab 1000 \tab 416 \tab 52 \tab 5 \tab - \tab 1473 \cr
+   1985 \tab - \tab 1022 \tab 456 \tab 52 \tab 4 \tab - \tab 1534 \cr
+   1987 \tab - \tab 1221 \tab 544 \tab 49 \tab 5 \tab - \tab 1819 \cr
+   1988 \tab 504 \tab 681 \tab 257 \tab 37 \tab 2 \tab - \tab 1481 \cr
+   1989 \tab 504 \tab 786 \tab 217 \tab 27 \tab 3 \tab - \tab 1537 \cr
+   1990 \tab 455 \tab 674 \tab 206 \tab 34 \tab 3 \tab - \tab 1372 \cr
+   1991 \tab 524 \tab 752 \tab 214 \tab 24 \tab 3 \tab - \tab 1517 \cr
+   1993 \tab 531 \tab 839 \tab 199 \tab 35 \tab 2 \tab - \tab 1606 \cr
+   1994 \tab 996 \tab 1578 \tab 363 \tab 47 \tab 8 \tab - \tab 2992 \cr
+   1996 \tab 981 \tab 1553 \tab 325 \tab 44 \tab 1 \tab - \tab 2904 \cr
+   1998 \tab 950 \tab 1519 \tab 306 \tab 54 \tab 3 \tab - \tab 2832 \cr
+   2000 \tab 956 \tab 1494 \tab 305 \tab 56 \tab 6 \tab - \tab 2817 \cr
+   2002 \tab 1841 \tab 772 \tab 138 \tab 11 \tab 3 \tab - \tab 2765 \cr
+   2004 \tab 1914 \tab 750 \tab 140 \tab 6 \tab 2 \tab - \tab 2812 \cr
+   2006 \tab 2507 \tab 1635 \tab 326 \tab 33 \tab 9 \tab - \tab 4510 \cr
+   2008 \tab 671 \tab 1097 \tab 225 \tab 26 \tab 4 \tab - \tab 2023 \cr
+   2010 \tab 763 \tab 1090 \tab 168 \tab 16 \tab 7 \tab - \tab 2044 \cr
+   2012 \tab 666 \tab 1122 \tab 155 \tab 23 \tab 8 \tab - \tab 1974 \cr
+   2014 \tab 824 \tab 1511 \tab 180 \tab 13 \tab 10 \tab - \tab 2538 \cr
+   2016 \tab 977 \tab 1667 \tab 195 \tab 15 \tab 13 \tab - \tab 2867 \cr
+   2018 \tab 774 \tab 1381 \tab 173 \tab 14 \tab 6 \tab - \tab 2348 \cr
+   2021 \tab 2714 \tab 1196 \tab 108 \tab 1 \tab 1 \tab 12 \tab 4032 \cr
+   Total \tab 20052 \tab 31198 \tab 8729 \tab 1025 \tab 126 \tab 12 \tab 61142 \cr
+}
 }
 
 \seealso{

@@ -22,17 +22,25 @@ A. Liberals
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989 \cr
+   A/B/C \tab 1988 \cr
+   Full \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/373/vshow}{GSS Data Explorer page for \code{libtemp}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 15 \tab 19 \tab 20 \tab 25 \tab 30 \tab 33 \tab 40 \tab 45 \tab 49 \tab 50 \tab 51 \tab 52 \tab 53 \tab 55 \tab 60 \tab 65 \tab 70 \tab 75 \tab 80 \tab 82 \tab 84 \tab 85 \tab 90 \tab 95 \tab 97 \tab don't know \tab no answer \tab 35 \tab 5 \tab 76 \tab 98 \tab 32 \tab 7 \tab 94 \tab Total \cr
+   1986 \tab - \tab 53 \tab 1 \tab 8 \tab 37 \tab 37 \tab 1 \tab 6 \tab 13 \tab 91 \tab 1 \tab 186 \tab 7 \tab 1 \tab 279 \tab 12 \tab 1 \tab 1 \tab 7 \tab 294 \tab 5 \tab 192 \tab 17 \tab 12 \tab 1 \tab 1 \tab 78 \tab 6 \tab 2 \tab 1 \tab 99 \tab 20 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1988 \tab - \tab 47 \tab - \tab 4 \tab 54 \tab 35 \tab - \tab 5 \tab 6 \tab 91 \tab - \tab 103 \tab 4 \tab - \tab 457 \tab - \tab - \tab - \tab - \tab 193 \tab 4 \tab 198 \tab 19 \tab 12 \tab - \tab - \tab 84 \tab 9 \tab - \tab - \tab 128 \tab 21 \tab 3 \tab 2 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 31 \tab 2 \tab 4 \tab 35 \tab 22 \tab - \tab 6 \tab 4 \tab 58 \tab - \tab 84 \tab - \tab 1 \tab 275 \tab - \tab - \tab - \tab - \tab 149 \tab 4 \tab 128 \tab 14 \tab 8 \tab - \tab - \tab 60 \tab 5 \tab 1 \tab - \tab 95 \tab 15 \tab 2 \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1537 \cr
+   Total \tab 531 \tab 131 \tab 3 \tab 16 \tab 126 \tab 94 \tab 1 \tab 17 \tab 23 \tab 240 \tab 1 \tab 373 \tab 11 \tab 2 \tab 1011 \tab 12 \tab 1 \tab 1 \tab 7 \tab 636 \tab 13 \tab 518 \tab 50 \tab 32 \tab 1 \tab 1 \tab 222 \tab 20 \tab 3 \tab 1 \tab 322 \tab 56 \tab 5 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4488 \cr
+}
 }
 
 \seealso{

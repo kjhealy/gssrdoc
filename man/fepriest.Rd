@@ -27,15 +27,21 @@ It would be a good thing if women were allowed to be ordained as priests.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/379/vshow}{GSS Data Explorer page for \code{fepriest}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 1088 \tab 88 \tab 111 \tab 58 \tab 105 \tab 14 \tab 6 \tab 1470 \cr
+   Total \tab 1088 \tab 88 \tab 111 \tab 58 \tab 105 \tab 14 \tab 6 \tab 1470 \cr
+}
 }
 
 \seealso{

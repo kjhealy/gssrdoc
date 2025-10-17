@@ -28,15 +28,21 @@ Question Think of all kinds of alcoholic beverages combined, that is, any combin
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3101/vshow}{GSS Data Explorer page for \code{drinkmax}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab did not drink at all in the last 12 months \tab at least a sip, but less than one full drink \tab at least 1, but less than 3 drinks \tab at least 3, but less than 5 drinks \tab at least 5, but less than 8 drinks \tab at least 8, but less than 12 drinks \tab at least 12, but less than 20 drinks \tab 20 or more drinks in a single day \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2448 \tab 69 \tab 26 \tab 130 \tab 69 \tab 34 \tab 11 \tab 15 \tab 2 \tab 1 \tab 7 \tab 2812 \cr
+   Total \tab 2448 \tab 69 \tab 26 \tab 130 \tab 69 \tab 34 \tab 11 \tab 15 \tab 2 \tab 1 \tab 7 \tab 2812 \cr
+}
 }
 
 \seealso{

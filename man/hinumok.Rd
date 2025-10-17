@@ -26,17 +26,23 @@ in the armed forces?  RECORD UNDER "D" BELOW.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/784/vshow}{GSS Data Explorer page for \code{hinumok}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab too many \tab about right number \tab should be more \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 937 \tab 56 \tab 452 \tab 252 \tab 151 \tab 12 \tab 1860 \cr
+   1983 \tab - \tab 94 \tab 844 \tab 413 \tab 240 \tab 8 \tab 1599 \cr
+   1984 \tab - \tab 59 \tab 779 \tab 422 \tab 177 \tab 36 \tab 1473 \cr
+   Total \tab 937 \tab 209 \tab 2075 \tab 1087 \tab 568 \tab 56 \tab 4932 \cr
+}
 }
 
 \seealso{

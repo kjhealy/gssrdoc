@@ -28,15 +28,21 @@ Question In general, how satisfied or dissatisfied are you with the health care 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7831/vshow}{GSS Data Explorer page for \code{hlthsat}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab completely satisfied \tab very satisfied \tab fairly satisfied \tab neither satisfied nor dissatisfied \tab fairly dissatisfied \tab very dissatisfied \tab completely dissatisfied \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2382 \tab 46 \tab 162 \tab 421 \tab 168 \tab 188 \tab 87 \tab 51 \tab 31 \tab 3 \tab 5 \tab 3544 \cr
+   Total \tab 2382 \tab 46 \tab 162 \tab 421 \tab 168 \tab 188 \tab 87 \tab 51 \tab 31 \tab 3 \tab 5 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

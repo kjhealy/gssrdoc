@@ -26,15 +26,21 @@ A. ...because s/he is hostile, often loses his/her temper, often argues with adu
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2239/vshow}{GSS Data Explorer page for \code{prozkid1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1635 \tab 67 \tab 160 \tab 132 \tab 173 \tab 525 \tab 127 \tab 13 \tab 2832 \cr
+   Total \tab 1635 \tab 67 \tab 160 \tab 132 \tab 173 \tab 525 \tab 127 \tab 13 \tab 2832 \cr
+}
 }
 
 \seealso{

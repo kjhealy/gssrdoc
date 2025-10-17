@@ -24,16 +24,22 @@ A. On that occasion, did you come across or learn about anything new with regard
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2454/vshow}{GSS Data Explorer page for \code{artsnew}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 2325 \tab 213 \tab 131 \tab 30 \tab 118 \tab 2817 \cr
+   2002 \tab 2284 \tab 239 \tab 196 \tab - \tab 46 \tab 2765 \cr
+   Total \tab 4609 \tab 452 \tab 327 \tab 30 \tab 164 \tab 5582 \cr
+}
 }
 
 \seealso{

@@ -43,18 +43,24 @@ H. IF YES: What institution was that?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/76/vshow}{GSS Data Explorer page for \code{voednme2}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab high school \tab company/business \tab vocational school/trades/technical (not high school, not college) \tab adult education/school \tab medical/nursing/health/dental/hospital \tab armed forces \tab college/university \tab business college (not business school at a university) \tab home study/correspondence \tab job corp \tab beauty school/cosmetology \tab insurance, real estate, finance, executive management \tab police/fire academy; training \tab development center \tab career center \tab foreign college/university \tab other \tab uncodeable \tab secretarial school \tab union \tab jail/prison \tab art/design \tab unable to code response, unclear, not identifiable \tab Total \cr
+   2012 \tab 1730 \tab 8 \tab 4 \tab 34 \tab 5 \tab 10 \tab 4 \tab 125 \tab 12 \tab 2 \tab 1 \tab 11 \tab 6 \tab 2 \tab 1 \tab 2 \tab 4 \tab 5 \tab 8 \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2250 \tab 3 \tab 3 \tab 65 \tab 2 \tab 11 \tab 7 \tab 119 \tab 12 \tab 2 \tab 5 \tab 14 \tab 2 \tab 1 \tab 2 \tab 1 \tab 6 \tab 23 \tab 6 \tab 1 \tab 3 \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2517 \tab 18 \tab 9 \tab 51 \tab - \tab 13 \tab 12 \tab 155 \tab 9 \tab 2 \tab 4 \tab 23 \tab 4 \tab 2 \tab - \tab 2 \tab 4 \tab 1 \tab 11 \tab 3 \tab 6 \tab 1 \tab 1 \tab 19 \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 8845 \tab 29 \tab 16 \tab 150 \tab 7 \tab 34 \tab 23 \tab 399 \tab 33 \tab 6 \tab 10 \tab 48 \tab 12 \tab 5 \tab 3 \tab 5 \tab 14 \tab 29 \tab 25 \tab 4 \tab 9 \tab 1 \tab 1 \tab 19 \tab 9727 \cr
+}
 }
 
 \seealso{

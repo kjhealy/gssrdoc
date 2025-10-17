@@ -23,15 +23,21 @@ Question On a scale of 1 to 5 how close did you feel to that person at the time 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6191/vshow}{GSS Data Explorer page for \code{suiclse2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 1 - not close at all \tab 2 \tab 3 \tab 4 \tab 5 - very close \tab no answer \tab Total \cr
+   2016 \tab 2425 \tab 125 \tab 97 \tab 110 \tab 47 \tab 39 \tab 24 \tab 2867 \cr
+   Total \tab 2425 \tab 125 \tab 97 \tab 110 \tab 47 \tab 39 \tab 24 \tab 2867 \cr
+}
 }
 
 \seealso{

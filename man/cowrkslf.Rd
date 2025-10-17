@@ -28,21 +28,26 @@ E. (Is/Was) (he/she) self-employed or (does/did) (he/she) work for someone else?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6153/vshow}{GSS Data Explorer page for \code{cowrkslf}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab self-employed \tab someone else \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 1815 \tab 11 \tab 144 \tab 2 \tab 2 \tab - \tab 1974 \cr
+   2014 \tab 2341 \tab 25 \tab 167 \tab 2 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 2622 \tab 27 \tab 214 \tab 1 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab 2127 \tab 21 \tab 198 \tab - \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 3675 \tab 41 \tab 303 \tab 1 \tab 8 \tab 4 \tab 4032 \cr
+   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 16124 \tab 125 \tab 1026 \tab 6 \tab 18 \tab 4 \tab 17303 \cr
+}
 }
 
 \seealso{

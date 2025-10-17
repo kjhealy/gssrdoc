@@ -26,17 +26,24 @@ C. Many of the claims about environmental threats are exaggerated.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4781/vshow}{GSS Data Explorer page for \code{grnexagg}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 1541 \tab 70 \tab 254 \tab 333 \tab 365 \tab 128 \tab 53 \tab 73 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 85 \tab 393 \tab 257 \tab 488 \tab 120 \tab 79 \tab 8 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 106 \tab 282 \tab 354 \tab 604 \tab 431 \tab 64 \tab 180 \tab 8 \tab 4032 \cr
+   Total \tab 4158 \tab 261 \tab 929 \tab 944 \tab 1457 \tab 679 \tab 196 \tab 261 \tab 8 \tab 8893 \cr
+}
 }
 
 \seealso{

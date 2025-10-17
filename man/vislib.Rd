@@ -21,16 +21,23 @@ Question A public library. How many times did you visit a public library during 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
+   B/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3467/vshow}{GSS Data Explorer page for \code{vislib}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 104 \tab 106 \tab 11 \tab 12 \tab 120 \tab 13 \tab 14 \tab 15 \tab 150 \tab 156 \tab 16 \tab 18 \tab 2 \tab 20 \tab 200 \tab 208 \tab 24 \tab 25 \tab 250 \tab 26 \tab 27 \tab 3 \tab 30 \tab 300 \tab 35 \tab 36 \tab 4 \tab 40 \tab 42 \tab 44 \tab 48 \tab 5 \tab 50 \tab 52 \tab 6 \tab 62 \tab 7 \tab 70 \tab 75 \tab 8 \tab 9 \tab don't know \tab no answer \tab 23 \tab 45 \tab 46 \tab 58 \tab 60 \tab 65 \tab 72 \tab Total \cr
+   2008 \tab 518 \tab 545 \tab 129 \tab 56 \tab 16 \tab 2 \tab 1 \tab 1 \tab 54 \tab 1 \tab 2 \tab 1 \tab 17 \tab 2 \tab 2 \tab 1 \tab 2 \tab 151 \tab 61 \tab 2 \tab 1 \tab 15 \tab 10 \tab 4 \tab 4 \tab 1 \tab 86 \tab 34 \tab 1 \tab 2 \tab 3 \tab 73 \tab 11 \tab 1 \tab 1 \tab 1 \tab 63 \tab 29 \tab 31 \tab 47 \tab 1 \tab 16 \tab 1 \tab 1 \tab 11 \tab 3 \tab 7 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2012 \tab 972 \tab 383 \tab 104 \tab 43 \tab - \tab - \tab - \tab 2 \tab 44 \tab - \tab - \tab - \tab 9 \tab - \tab - \tab - \tab 1 \tab 83 \tab 24 \tab - \tab - \tab 8 \tab 9 \tab - \tab 4 \tab - \tab 60 \tab 18 \tab - \tab - \tab 4 \tab 44 \tab 9 \tab - \tab - \tab 1 \tab 53 \tab 17 \tab 13 \tab 25 \tab - \tab 6 \tab - \tab 1 \tab 6 \tab - \tab - \tab 24 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1974 \cr
+   Total \tab 1490 \tab 928 \tab 233 \tab 99 \tab 16 \tab 2 \tab 1 \tab 3 \tab 98 \tab 1 \tab 2 \tab 1 \tab 26 \tab 2 \tab 2 \tab 1 \tab 3 \tab 234 \tab 85 \tab 2 \tab 1 \tab 23 \tab 19 \tab 4 \tab 8 \tab 1 \tab 146 \tab 52 \tab 1 \tab 2 \tab 7 \tab 117 \tab 20 \tab 1 \tab 1 \tab 2 \tab 116 \tab 46 \tab 44 \tab 72 \tab 1 \tab 22 \tab 1 \tab 2 \tab 17 \tab 3 \tab 7 \tab 25 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3997 \cr
+}
 }
 
 \seealso{

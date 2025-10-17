@@ -22,15 +22,21 @@ Question I'm going to read two statements about what works of art should Do. Ple
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2128/vshow}{GSS Data Explorer page for \code{aimofart}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab art human spirit \tab art xprss artist \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 538 \tab 851 \tab 23 \tab 33 \tab 2832 \cr
+   Total \tab 1387 \tab 538 \tab 851 \tab 23 \tab 33 \tab 2832 \cr
+}
 }
 
 \seealso{

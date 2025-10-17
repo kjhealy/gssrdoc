@@ -26,19 +26,26 @@ Private enterprise is the best way to solve America''s economic problems.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4718/vshow}{GSS Data Explorer page for \code{privent}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 221 \tab 541 \tab 469 \tab 189 \tab 19 \tab 87 \tab 31 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 229 \tab 502 \tab 363 \tab 151 \tab 18 \tab 87 \tab 36 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 175 \tab 377 \tab 409 \tab 138 \tab 31 \tab 71 \tab 75 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 185 \tab 391 \tab 352 \tab 294 \tab 71 \tab 132 \tab 5 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 225 \tab 366 \tab 730 \tab 322 \tab 111 \tab 119 \tab 144 \tab 12 \tab 4032 \cr
+   Total \tab 5813 \tab 1035 \tab 2177 \tab 2323 \tab 1094 \tab 250 \tab 496 \tab 291 \tab 12 \tab 13491 \cr
+}
 }
 
 \seealso{

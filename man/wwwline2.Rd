@@ -26,16 +26,23 @@ Question D. What is this other means by which you are connected to the World Wid
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2555/vshow}{GSS Data Explorer page for \code{wwwline2}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab special high-speed tele line (isdn) cncted to cmptr \tab cable service line cnctd to computer \tab web tv line, cnctd to tv set \tab more than one type of cnction \tab other, not named above \tab don't know \tab no answer \tab wireless connection (e.g. from a satellite) \tab Total \cr
+   2000 \tab 2773 \tab 6 \tab 10 \tab 1 \tab 1 \tab 2 \tab 1 \tab 23 \tab - \tab 2817 \cr
+   2002 \tab 2635 \tab 38 \tab 72 \tab 3 \tab 1 \tab 1 \tab - \tab 11 \tab 4 \tab 2765 \cr
+   Total \tab 5408 \tab 44 \tab 82 \tab 4 \tab 2 \tab 3 \tab 1 \tab 34 \tab 4 \tab 5582 \cr
+}
 }
 
 \seealso{

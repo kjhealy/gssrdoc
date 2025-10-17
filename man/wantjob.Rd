@@ -24,15 +24,21 @@ Question Would you like to have a paid job now?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4529/vshow}{GSS Data Explorer page for \code{wantjob}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab want full \tab want part \tab want lt 10 hrs \tab dont want \tab no answer \tab Total \cr
+   1989 \tab 908 \tab 68 \tab 65 \tab 42 \tab 345 \tab 109 \tab 1537 \cr
+   Total \tab 908 \tab 68 \tab 65 \tab 42 \tab 345 \tab 109 \tab 1537 \cr
+}
 }
 
 \seealso{

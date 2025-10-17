@@ -24,16 +24,22 @@ Question Are youâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7621/vshow}{GSS Data Explorer page for \code{fucitznnv}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab currently applying for u.s. citizenship \tab planning to apply for u.s. citizenship \tab not planning to apply to u.s. citizenship \tab skipped on web \tab no answer \tab Total \cr
+   2021 \tab 3956 \tab 12 \tab 40 \tab 19 \tab 5 \tab - \tab 4032 \cr
+   2022 \tab 3509 \tab 3 \tab 14 \tab 16 \tab 1 \tab 1 \tab 3544 \cr
+   Total \tab 7465 \tab 15 \tab 54 \tab 35 \tab 6 \tab 1 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

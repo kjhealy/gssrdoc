@@ -26,15 +26,21 @@ B. Even when there are no children, a married couple should stay together even i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4410/vshow}{GSS Data Explorer page for \code{divnokd1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1994 \tab 1545 \tab 24 \tab 82 \tab 137 \tab 718 \tab 399 \tab 38 \tab 49 \tab 2992 \cr
+   Total \tab 1545 \tab 24 \tab 82 \tab 137 \tab 718 \tab 399 \tab 38 \tab 49 \tab 2992 \cr
+}
 }
 
 \seealso{

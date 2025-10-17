@@ -22,36 +22,44 @@ Question Respondent's possible vital status as of 2014
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7426/vshow}{GSS Data Explorer page for \code{death}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab possibly alive \tab possibly dead \tab Total \cr
+   1978 \tab 14 \tab 748 \tab 770 \tab 1532 \cr
+   1980 \tab 178 \tab 645 \tab 645 \tab 1468 \cr
+   1982 \tab 125 \tab 887 \tab 848 \tab 1860 \cr
+   1983 \tab 239 \tab 742 \tab 618 \tab 1599 \cr
+   1984 \tab 50 \tab 781 \tab 642 \tab 1473 \cr
+   1985 \tab 57 \tab 741 \tab 736 \tab 1534 \cr
+   1986 \tab 88 \tab 733 \tab 649 \tab 1470 \cr
+   1987 \tab 81 \tab 1004 \tab 734 \tab 1819 \cr
+   1988 \tab 17 \tab 867 \tab 597 \tab 1481 \cr
+   1989 \tab 44 \tab 898 \tab 595 \tab 1537 \cr
+   1990 \tab 15 \tab 843 \tab 514 \tab 1372 \cr
+   1991 \tab 24 \tab 955 \tab 538 \tab 1517 \cr
+   1993 \tab 57 \tab 1106 \tab 443 \tab 1606 \cr
+   1994 \tab 35 \tab 2159 \tab 798 \tab 2992 \cr
+   1996 \tab 60 \tab 2176 \tab 668 \tab 2904 \cr
+   1998 \tab 116 \tab 2129 \tab 587 \tab 2832 \cr
+   2000 \tab 154 \tab 2134 \tab 529 \tab 2817 \cr
+   2002 \tab 188 \tab 2134 \tab 443 \tab 2765 \cr
+   2004 \tab 82 \tab 2344 \tab 386 \tab 2812 \cr
+   2006 \tab 95 \tab 3898 \tab 517 \tab 4510 \cr
+   2008 \tab 46 \tab 1798 \tab 179 \tab 2023 \cr
+   2010 \tab 28 \tab 1894 \tab 122 \tab 2044 \cr
+   Total \tab 1793 \tab 31616 \tab 12558 \tab 45967 \cr
+}
 }
 
 \keyword{variable}

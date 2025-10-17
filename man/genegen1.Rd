@@ -25,15 +25,21 @@ Question And do you think that modifying the genes of certain crops isâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7493/vshow}{GSS Data Explorer page for \code{genegen1}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2003 \tab 198 \tab 367 \tab 649 \tab 355 \tab 86 \tab 169 \tab 188 \tab 17 \tab 4032 \cr
+   Total \tab 2003 \tab 198 \tab 367 \tab 649 \tab 355 \tab 86 \tab 169 \tab 188 \tab 17 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

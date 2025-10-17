@@ -24,15 +24,21 @@ Question How much of the time do you think you can trust the local government he
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1022/vshow}{GSS Data Explorer page for \code{loctrust}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost always \tab most of time \tab some of time \tab almost never \tab don't know \tab no answer \tab Total \cr
+   1987 \tab - \tab 196 \tab 750 \tab 653 \tab 130 \tab 78 \tab 12 \tab 1819 \cr
+   Total \tab 0 \tab 196 \tab 750 \tab 653 \tab 130 \tab 78 \tab 12 \tab 1819 \cr
+}
 }
 
 \seealso{

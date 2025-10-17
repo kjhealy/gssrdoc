@@ -25,17 +25,23 @@ Question How physically attractive is the respondent?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6659/vshow}{GSS Data Explorer page for \code{rlooks}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very unattractive \tab unattractive \tab about average \tab attractive \tab very attractive \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab - \tab 48 \tab 140 \tab 1483 \tab 797 \tab 183 \tab 9 \tab 207 \tab - \tab 2867 \cr
+   2018 \tab - \tab 47 \tab 137 \tab 1129 \tab 608 \tab 121 \tab 11 \tab 295 \tab - \tab 2348 \cr
+   2022 \tab 1864 \tab 31 \tab 119 \tab 915 \tab 485 \tab 122 \tab 8 \tab - \tab - \tab 3544 \cr
+   Total \tab 1864 \tab 126 \tab 396 \tab 3527 \tab 1890 \tab 426 \tab 28 \tab 502 \tab 0 \tab 8759 \cr
+}
 }
 
 \keyword{variable}

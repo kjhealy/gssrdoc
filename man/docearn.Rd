@@ -25,15 +25,21 @@ Question (How much do you agree or disagree with the following statements about 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7808/vshow}{GSS Data Explorer page for \code{docearn}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2380 \tab 83 \tab 251 \tab 391 \tab 332 \tab 53 \tab 48 \tab 2 \tab 4 \tab 3544 \cr
+   Total \tab 2380 \tab 83 \tab 251 \tab 391 \tab 332 \tab 53 \tab 48 \tab 2 \tab 4 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

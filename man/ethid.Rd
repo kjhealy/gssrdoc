@@ -25,15 +25,21 @@ Question When you think of social and political issues, do you think of yourself
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1591/vshow}{GSS Data Explorer page for \code{ethid}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab just an american \tab some part. ethnic grp \tab 2 or more ethnic grps \tab amer and ethnic grps \tab it depends \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 1315 \tab 109 \tab 3 \tab 20 \tab 12 \tab 8 \tab 7 \tab 2992 \cr
+   Total \tab 1518 \tab 1315 \tab 109 \tab 3 \tab 20 \tab 12 \tab 8 \tab 7 \tab 2992 \cr
+}
 }
 
 \concept{Multiculturalism}

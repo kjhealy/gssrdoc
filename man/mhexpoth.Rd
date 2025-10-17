@@ -24,15 +24,21 @@ G. Overall, would you say that your experiences with this person haveâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3809/vshow}{GSS Data Explorer page for \code{mhexpoth}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab made you a better person \tab made you a worse person, or \tab had no effect on you as a person \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3535 \tab 558 \tab 6 \tab 397 \tab 6 \tab 8 \tab 4510 \cr
+   Total \tab 3535 \tab 558 \tab 6 \tab 397 \tab 6 \tab 8 \tab 4510 \cr
+}
 }
 
 \seealso{

@@ -25,29 +25,36 @@ C. Sexual materials lead people to commit rape
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/638/vshow}{GSS Data Explorer page for \code{pornrape}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 748 \tab 642 \tab 105 \tab 9 \tab 1504 \cr
+   1975 \tab - \tab 772 \tab 563 \tab 149 \tab 6 \tab 1490 \cr
+   1976 \tab - \tab 787 \tab 569 \tab 136 \tab 7 \tab 1499 \cr
+   1978 \tab - \tab 867 \tab 549 \tab 112 \tab 4 \tab 1532 \cr
+   1980 \tab - \tab 790 \tab 538 \tab 134 \tab 6 \tab 1468 \cr
+   1983 \tab - \tab 880 \tab 596 \tab 113 \tab 10 \tab 1599 \cr
+   1984 \tab - \tab 806 \tab 542 \tab 114 \tab 11 \tab 1473 \cr
+   1986 \tab - \tab 830 \tab 530 \tab 101 \tab 9 \tab 1470 \cr
+   1987 \tab - \tab 963 \tab 677 \tab 168 \tab 11 \tab 1819 \cr
+   1988 \tab 484 \tab 558 \tab 351 \tab 80 \tab 8 \tab 1481 \cr
+   1989 \tab 502 \tab 616 \tab 339 \tab 74 \tab 6 \tab 1537 \cr
+   1990 \tab 473 \tab 507 \tab 297 \tab 94 \tab 1 \tab 1372 \cr
+   1991 \tab 500 \tab 532 \tab 372 \tab 111 \tab 2 \tab 1517 \cr
+   1993 \tab 549 \tab 596 \tab 351 \tab 100 \tab 10 \tab 1606 \cr
+   1994 \tab 1965 \tab 491 \tab 426 \tab 104 \tab 6 \tab 2992 \cr
+   Total \tab 4473 \tab 10743 \tab 7342 \tab 1695 \tab 106 \tab 24359 \cr
+}
 }
 
 \seealso{

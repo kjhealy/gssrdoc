@@ -22,15 +22,21 @@ Question Are any of your good friends that you feel close to Black/White?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1136/vshow}{GSS Data Explorer page for \code{bwfriend}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1998 \tab 2385 \tab 204 \tab 241 \tab 2 \tab 2832 \cr
+   Total \tab 2385 \tab 204 \tab 241 \tab 2 \tab 2832 \cr
+}
 }
 
 \seealso{

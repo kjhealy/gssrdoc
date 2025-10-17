@@ -24,15 +24,21 @@ D. Home maintenance (e.g., carpentry, painting)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1860/vshow}{GSS Data Explorer page for \code{buyfixes}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strong preference no contact \tab 2 \tab dont care \tab 4 \tab strong preference contact \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2196 \tab 61 \tab 23 \tab 178 \tab 158 \tab 280 \tab 7 \tab 1 \tab 2904 \cr
+   Total \tab 2196 \tab 61 \tab 23 \tab 178 \tab 158 \tab 280 \tab 7 \tab 1 \tab 2904 \cr
+}
 }
 
 \seealso{

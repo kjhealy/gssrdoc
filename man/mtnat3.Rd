@@ -23,15 +23,21 @@ Question K. Does the nationality group meet in this area?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3268/vshow}{GSS Data Explorer page for \code{mtnat3}}.
+
+Counts by year:\tabular{llll}{
+   year \tab iap \tab no answer \tab Total \cr
+   2004 \tab 2806 \tab 6 \tab 2812 \cr
+   Total \tab 2806 \tab 6 \tab 2812 \cr
+}
 }
 
 \seealso{

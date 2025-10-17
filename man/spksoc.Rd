@@ -23,17 +23,23 @@ A. If such a person wanted to make a speech in your community favoring governmen
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab - \tab full \cr
-   1973 \tab - \tab full \cr
-   1974 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1972, 1973, 1974 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/249/vshow}{GSS Data Explorer page for \code{spksoc}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab yes, allowed to speak \tab not allowed \tab don't know \tab no answer \tab iap \tab Total \cr
+   1972 \tab 1241 \tab 293 \tab 78 \tab 1 \tab - \tab 1613 \cr
+   1973 \tab 1165 \tab 296 \tab 43 \tab - \tab - \tab 1504 \cr
+   1974 \tab 1122 \tab 307 \tab 54 \tab 1 \tab - \tab 1484 \cr
+   Total \tab 3528 \tab 896 \tab 175 \tab 2 \tab 0 \tab 4601 \cr
+}
 }
 
 \seealso{

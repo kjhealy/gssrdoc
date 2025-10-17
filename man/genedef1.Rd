@@ -58,15 +58,21 @@ A. First Mention
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5090/vshow}{GSS Data Explorer page for \code{genedef1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllll}{
+   year \tab iap \tab downs syndrome \tab mental retardation \tab spina bifida \tab muscular dystrophy \tab cystic fibrosis \tab cerebral palsy \tab crippling diseases \tab blind,deaf \tab missing limbs \tab major deformities \tab life-threatening deform \tab handicapped \tab physical defects \tab sickle cell anemia \tab rh factor \tab addiction to drugs \tab aids \tab multiple sclerosis \tab heart \tab incurable disease \tab cancer \tab neurological problems \tab huntingtons chorea \tab unable to take care of self \tab other \tab don't know \tab no answer \tab Total \cr
+   1990 \tab 456 \tab 236 \tab 340 \tab 16 \tab 10 \tab 5 \tab 13 \tab 14 \tab 16 \tab 46 \tab 40 \tab 9 \tab 3 \tab 18 \tab 3 \tab 1 \tab 1 \tab 16 \tab 3 \tab 8 \tab 3 \tab 4 \tab 1 \tab 1 \tab 2 \tab 7 \tab 94 \tab 6 \tab 1372 \cr
+   Total \tab 456 \tab 236 \tab 340 \tab 16 \tab 10 \tab 5 \tab 13 \tab 14 \tab 16 \tab 46 \tab 40 \tab 9 \tab 3 \tab 18 \tab 3 \tab 1 \tab 1 \tab 16 \tab 3 \tab 8 \tab 3 \tab 4 \tab 1 \tab 1 \tab 2 \tab 7 \tab 94 \tab 6 \tab 1372 \cr
+}
 }
 
 \seealso{

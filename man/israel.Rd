@@ -31,27 +31,34 @@ G. Israel
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1974, 1975, 1977, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5496/vshow}{GSS Data Explorer page for \code{israel}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab not available in this year \tab +5 \tab +4 \tab +3 \tab +2 \tab +1 \tab -1 \tab -2 \tab -3 \tab -4 \tab -5 \tab dk, na, iap \tab iap \tab Total \cr
+   1974 \tab - \tab 198 \tab 141 \tab 231 \tab 175 \tab 258 \tab 128 \tab 57 \tab 67 \tab 33 \tab 89 \tab 107 \tab - \tab 1484 \cr
+   1975 \tab - \tab 146 \tab 123 \tab 205 \tab 169 \tab 275 \tab 164 \tab 82 \tab 77 \tab 48 \tab 76 \tab 125 \tab - \tab 1490 \cr
+   1977 \tab - \tab 180 \tab 151 \tab 204 \tab 173 \tab 270 \tab 149 \tab 71 \tab 64 \tab 41 \tab 69 \tab 158 \tab - \tab 1530 \cr
+   1982 \tab - \tab 207 \tab 147 \tab 250 \tab 211 \tab 290 \tab 215 \tab 121 \tab 92 \tab 62 \tab 95 \tab 170 \tab - \tab 1860 \cr
+   1983 \tab - \tab 148 \tab 123 \tab 169 \tab 172 \tab 285 \tab 209 \tab 106 \tab 111 \tab 67 \tab 103 \tab 106 \tab - \tab 1599 \cr
+   1985 \tab - \tab 168 \tab 125 \tab 211 \tab 201 \tab 254 \tab 160 \tab 94 \tab 82 \tab 48 \tab 75 \tab 116 \tab - \tab 1534 \cr
+   1986 \tab - \tab 165 \tab 128 \tab 175 \tab 180 \tab 285 \tab 144 \tab 84 \tab 73 \tab 53 \tab 104 \tab 79 \tab - \tab 1470 \cr
+   1988 \tab - \tab 96 \tab 60 \tab 101 \tab 91 \tab 155 \tab 130 \tab 77 \tab 77 \tab 30 \tab 94 \tab 570 \tab - \tab 1481 \cr
+   1989 \tab - \tab 87 \tab 56 \tab 107 \tab 95 \tab 177 \tab 104 \tab 70 \tab 59 \tab 43 \tab 118 \tab 621 \tab - \tab 1537 \cr
+   1990 \tab - \tab 75 \tab 48 \tab 86 \tab 93 \tab 182 \tab 128 \tab 69 \tab 45 \tab 30 \tab 93 \tab 523 \tab - \tab 1372 \cr
+   1991 \tab - \tab 152 \tab 104 \tab 162 \tab 138 \tab 177 \tab 76 \tab 38 \tab 35 \tab 14 \tab 55 \tab 566 \tab - \tab 1517 \cr
+   1993 \tab - \tab 105 \tab 73 \tab 133 \tab 104 \tab 227 \tab 123 \tab 71 \tab 59 \tab 41 \tab 66 \tab 604 \tab - \tab 1606 \cr
+   1994 \tab - \tab 46 \tab 32 \tab 52 \tab 59 \tab 110 \tab 55 \tab 31 \tab 34 \tab 14 \tab 34 \tab 2525 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 1773 \tab 1311 \tab 2086 \tab 1861 \tab 2945 \tab 1785 \tab 971 \tab 875 \tab 524 \tab 1071 \tab 6270 \tab 0 \tab 21472 \cr
+}
 }
 
 \seealso{

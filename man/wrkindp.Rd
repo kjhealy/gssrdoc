@@ -26,18 +26,26 @@ F. A job that allows someone to work independently?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4512/vshow}{GSS Data Explorer page for \code{wrkindp}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab neither important nor unimportant \tab not important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 84 \tab 380 \tab 660 \tab 279 \tab 81 \tab 10 \tab 19 \tab 24 \tab 1537 \cr
+   1998 \tab 1609 \tab 335 \tab 586 \tab 198 \tab 35 \tab 6 \tab 23 \tab 40 \tab 2832 \cr
+   2006 \tab 2992 \tab 544 \tab 655 \tab 228 \tab 73 \tab 11 \tab 5 \tab 2 \tab 4510 \cr
+   2016 \tab 1390 \tab 423 \tab 665 \tab 319 \tab 57 \tab 4 \tab 4 \tab 5 \tab 2867 \cr
+   Total \tab 6075 \tab 1682 \tab 2566 \tab 1024 \tab 246 \tab 31 \tab 51 \tab 71 \tab 11746 \cr
+}
 }
 
 \seealso{

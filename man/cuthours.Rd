@@ -26,19 +26,28 @@ H. Reducing the work week to create more jobs.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4056/vshow}{GSS Data Explorer page for \code{cuthours}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly in favor of \tab in favor \tab neither in favor nor against \tab against \tab strongly against \tab no answer \tab don't know \tab Total \cr
+   1985 \tab 857 \tab 44 \tab 139 \tab 174 \tab 229 \tab 84 \tab 7 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 92 \tab 189 \tab 415 \tab 354 \tab 128 \tab 38 \tab 1 \tab 1372 \cr
+   1996 \tab 1572 \tab 92 \tab 263 \tab 376 \tab 422 \tab 142 \tab 35 \tab 2 \tab 2904 \cr
+   2006 \tab 2992 \tab 154 \tab 384 \tab 285 \tab 492 \tab 185 \tab 1 \tab 17 \tab 4510 \cr
+   2016 \tab 1477 \tab 104 \tab 324 \tab 417 \tab 403 \tab 117 \tab 8 \tab 17 \tab 2867 \cr
+   Total \tab 7053 \tab 486 \tab 1299 \tab 1667 \tab 1900 \tab 656 \tab 89 \tab 37 \tab 13187 \cr
+}
 }
 
 \seealso{

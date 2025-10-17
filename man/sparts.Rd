@@ -26,19 +26,28 @@ H. Culture and the arts.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4064/vshow}{GSS Data Explorer page for \code{sparts}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 27 \tab 67 \tab 257 \tab 162 \tab 101 \tab 48 \tab 15 \tab 1534 \cr
+   1990 \tab 155 \tab 27 \tab 122 \tab 488 \tab 246 \tab 191 \tab 99 \tab 44 \tab 1372 \cr
+   1996 \tab 1572 \tab 55 \tab 140 \tab 473 \tab 345 \tab 225 \tab 55 \tab 39 \tab 2904 \cr
+   2006 \tab 2992 \tab 72 \tab 288 \tab 686 \tab 337 \tab 105 \tab 30 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 39 \tab 254 \tab 653 \tab 328 \tab 84 \tab 21 \tab 11 \tab 2867 \cr
+   Total \tab 7053 \tab 220 \tab 871 \tab 2557 \tab 1418 \tab 706 \tab 253 \tab 109 \tab 13187 \cr
+}
 }
 
 \seealso{

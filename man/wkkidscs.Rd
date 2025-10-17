@@ -24,15 +24,21 @@ A. When a child was under school age?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4481/vshow}{GSS Data Explorer page for \code{wkkidscs}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab worked full-time \tab worked part-time \tab stayed at home \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1044 \tab 557 \tab 91 \tab 177 \tab 95 \tab 10 \tab 1974 \cr
+   Total \tab 1044 \tab 557 \tab 91 \tab 177 \tab 95 \tab 10 \tab 1974 \cr
+}
 }
 
 \seealso{

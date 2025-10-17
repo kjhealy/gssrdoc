@@ -25,15 +25,21 @@ H. Respondent can''t choose
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4540/vshow}{GSS Data Explorer page for \code{rdk}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab dk chosen \tab not chosen \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 25 \tab 740 \tab 133 \tab 1537 \cr
+   Total \tab 639 \tab 25 \tab 740 \tab 133 \tab 1537 \cr
+}
 }
 
 \seealso{

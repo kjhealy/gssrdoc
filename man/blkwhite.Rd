@@ -25,18 +25,24 @@ B. Right and wrong are not usually a simple matter of black and white; there are
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 2006, 2008, 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1082/vshow}{GSS Data Explorer page for \code{blkwhite}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 589 \tab 624 \tab 115 \tab 102 \tab 43 \tab 8 \tab 1481 \cr
+   2006 \tab 1518 \tab 1279 \tab 1149 \tab 294 \tab 203 \tab 62 \tab 5 \tab 4510 \cr
+   2008 \tab - \tab 896 \tab 725 \tab 190 \tab 152 \tab 53 \tab 7 \tab 2023 \cr
+   2010 \tab - \tab 890 \tab 800 \tab 163 \tab 140 \tab 45 \tab 6 \tab 2044 \cr
+   Total \tab 1518 \tab 3654 \tab 3298 \tab 762 \tab 597 \tab 203 \tab 26 \tab 10058 \cr
+}
 }
 
 \seealso{

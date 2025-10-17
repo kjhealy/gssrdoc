@@ -18,13 +18,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1986  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `brocall`](https://gssdataexplorer.norc.org/variables/4142/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |daily |several x week |once a week |once a month |several x year |less often |don't know |no answer |Total |
+#'  |:-----|:---|:-----|:--------------|:-----------|:------------|:--------------|:----------|:----------|:---------|:-----|
+#'  |1986  |462 |42    |77             |175         |254          |227            |222        |1          |10        |1470  |
+#'  |Total |462 |42    |77             |175         |254          |227            |222        |1          |10        |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -54,13 +60,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1986  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `daunum`](https://gssdataexplorer.norc.org/variables/4143/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |none |one |two |three |four |five + |no answer |Total |
+#'  |:-----|:---|:----|:---|:---|:-----|:----|:------|:---------|:-----|
+#'  |1986  |-   |978  |254 |132 |63    |23   |17     |3         |1470  |
+#'  |Total |0   |978  |254 |132 |63    |23   |17     |3         |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -92,13 +104,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1986  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dauvisit`](https://gssdataexplorer.norc.org/variables/4144/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |lives in hshld |daily |several x week |once a week |once a month |several x year |less often |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:-----|
+#'  |1986  |978 |69             |66    |78             |78          |71           |70             |57         |3         |1470  |
+#'  |Total |978 |69             |66    |78             |78          |71           |70             |57         |3         |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -131,13 +149,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1986  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dautime`](https://gssdataexplorer.norc.org/variables/4145/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |lt 15 min |15-30 min |30 min-1 hr |1-2 hr |2-3 hr |3-5 hr |5-12 hr |12+ hr |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------|:-----------|:------|:------|:------|:-------|:------|:----------|:---------|:-----|
+#'  |1986  |1047 |111       |89        |56          |25     |28     |21     |36      |49     |2          |6         |1470  |
+#'  |Total |1047 |111       |89        |56          |25     |28     |21     |36      |49     |2          |6         |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -168,13 +192,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1986  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `daucall`](https://gssdataexplorer.norc.org/variables/4146/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |daily |several x week |once a week |once a month |several x year |less often |no answer |Total |
+#'  |:-----|:----|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:-----|
+#'  |1986  |1047 |109   |95             |100         |58           |18             |37         |6         |1470  |
+#'  |Total |1047 |109   |95             |100         |58           |18             |37         |6         |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -204,13 +234,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1986  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sonnum`](https://gssdataexplorer.norc.org/variables/4147/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |none |one |two |three |four |five + |no answer |Total |
+#'  |:-----|:---|:----|:---|:---|:-----|:----|:------|:---------|:-----|
+#'  |1986  |-   |973  |237 |150 |55    |30   |22     |3         |1470  |
+#'  |Total |0   |973  |237 |150 |55    |30   |22     |3         |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -242,13 +278,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1986  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sonvisit`](https://gssdataexplorer.norc.org/variables/4148/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |lives in hshld |daily |several x week |once a week |once a month |several x year |less often |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:-----|
+#'  |1986  |973 |103            |59    |57             |70          |65           |79             |59         |5         |1470  |
+#'  |Total |973 |103            |59    |57             |70          |65           |79             |59         |5         |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -281,13 +323,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1986  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sontime`](https://gssdataexplorer.norc.org/variables/4149/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |lt 15 min |15-30 min |30 min-1 hr |1-2 hr |2-3 hr |3-5 hr |5-12 hr |12+ hr |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------|:-----------|:------|:------|:------|:-------|:------|:----------|:---------|:-----|
+#'  |1986  |1076 |103       |63        |45          |30     |28     |23     |30      |64     |1          |7         |1470  |
+#'  |Total |1076 |103       |63        |45          |30     |28     |23     |30      |64     |1          |7         |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -318,13 +366,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1986  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `soncall`](https://gssdataexplorer.norc.org/variables/4150/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |daily |several x week |once a week |once a month |several x year |less often |no answer |Total |
+#'  |:-----|:----|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:-----|
+#'  |1986  |1076 |57    |86             |100         |73           |37             |34         |7         |1470  |
+#'  |Total |1076 |57    |86             |100         |73           |37             |34         |7         |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -356,23 +410,30 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-/-/-   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |D/-/-   |partial      |
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
+#'  |ballots |years                                                |
+#'  |:-------|:----------------------------------------------------|
+#'  |A/B/C   |2000, 2004, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+#'  |D/-/-   |2006                                                 |
+#'  |Full    |1986                                                 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `posslq`](https://gssdataexplorer.norc.org/variables/4151/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |i am married and living in the same household as my husband or wife |i am living as married and my partner and i together live in the same household |i have a husband or wife or steady partner, but we don't live in the same household |i don't have a steady partner |no answer |don't know |skipped on web |Total |
+#'  |:-----|:-----|:-------------------------------------------------------------------|:-------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|:-----------------------------|:---------|:----------|:--------------|:-----|
+#'  |1986  |-     |810                                                                 |48                                                                              |104                                                                                 |490                           |18        |-          |-              |1470  |
+#'  |2000  |269   |1027                                                                |224                                                                             |213                                                                                 |905                           |178       |1          |-              |2817  |
+#'  |2004  |1596  |604                                                                 |93                                                                              |112                                                                                 |385                           |18        |4          |-              |2812  |
+#'  |2006  |2992  |740                                                                 |114                                                                             |131                                                                                 |520                           |8         |5          |-              |4510  |
+#'  |2012  |976   |428                                                                 |82                                                                              |87                                                                                  |391                           |4         |6          |-              |1974  |
+#'  |2014  |1264  |546                                                                 |100                                                                             |126                                                                                 |496                           |4         |2          |-              |2538  |
+#'  |2016  |1443  |579                                                                 |121                                                                             |151                                                                                 |573                           |-         |-          |-              |2867  |
+#'  |2018  |1166  |490                                                                 |116                                                                             |86                                                                                  |489                           |1         |-          |-              |2348  |
+#'  |2021  |2045  |945                                                                 |169                                                                             |129                                                                                 |727                           |1         |2          |14             |4032  |
+#'  |2022  |1764  |704                                                                 |150                                                                             |128                                                                                 |769                           |12        |9          |8              |3544  |
+#'  |Total |13515 |6873                                                                |1217                                                                            |1267                                                                                |5745                          |244       |29         |22             |28912 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems

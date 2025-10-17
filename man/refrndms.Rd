@@ -26,16 +26,22 @@ C. Referendums are a good way to decide important political questions.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4954/vshow}{GSS Data Explorer page for \code{refrndms}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 161 \tab 715 \tab 379 \tab 106 \tab 17 \tab 86 \tab 8 \tab 2812 \cr
+   2014 \tab 1274 \tab 73 \tab 491 \tab 369 \tab 101 \tab 25 \tab 197 \tab 8 \tab 2538 \cr
+   Total \tab 2614 \tab 234 \tab 1206 \tab 748 \tab 207 \tab 42 \tab 283 \tab 16 \tab 5350 \cr
+}
 }
 
 \seealso{

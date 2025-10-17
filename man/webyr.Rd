@@ -27,16 +27,22 @@ Question B. When did you first begin using the World Wide Web (for purposes othe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2620/vshow}{GSS Data Explorer page for \code{webyr}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab this year \tab in the last year \tab 1-2 years ago \tab 2-3 years ago \tab 3-4 years ago \tab 4-5 years ago \tab 5 or more years ago \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1159 \tab 40 \tab 128 \tab 201 \tab 251 \tab 189 \tab 220 \tab 494 \tab 2 \tab 81 \tab 2765 \cr
+   2004 \tab 992 \tab 26 \tab 44 \tab 97 \tab 122 \tab 176 \tab 235 \tab 997 \tab 4 \tab 119 \tab 2812 \cr
+   Total \tab 2151 \tab 66 \tab 172 \tab 298 \tab 373 \tab 365 \tab 455 \tab 1491 \tab 6 \tab 200 \tab 5577 \cr
+}
 }
 
 \seealso{

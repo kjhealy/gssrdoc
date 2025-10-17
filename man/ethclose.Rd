@@ -24,16 +24,22 @@ Question How close do you feel to your ethnic or racial group?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4875/vshow}{GSS Data Explorer page for \code{ethclose}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very close \tab close \tab not very close \tab not close at all \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 490 \tab 474 \tab 216 \tab 67 \tab 96 \tab 24 \tab 2904 \cr
+   2004 \tab 1596 \tab 467 \tab 410 \tab 205 \tab 50 \tab 79 \tab 5 \tab 2812 \cr
+   Total \tab 3133 \tab 957 \tab 884 \tab 421 \tab 117 \tab 175 \tab 29 \tab 5716 \cr
+}
 }
 
 \seealso{

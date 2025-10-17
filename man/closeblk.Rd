@@ -23,25 +23,31 @@ Question In the past few years, do you think conditions for black people have im
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/426/vshow}{GSS Data Explorer page for \code{closeblk}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab not at all close \tab 2 \tab 3 \tab 4 \tab neither one or the other \tab 6 \tab 7 \tab 8 \tab very close \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1932 \tab 64 \tab 24 \tab 45 \tab 48 \tab 427 \tab 76 \tab 100 \tab 33 \tab 137 \tab 12 \tab 6 \tab 2904 \cr
+   1998 \tab 950 \tab 119 \tab 86 \tab 97 \tab 77 \tab 797 \tab 138 \tab 197 \tab 97 \tab 231 \tab 28 \tab 15 \tab 2832 \cr
+   2000 \tab 956 \tab 130 \tab 54 \tab 83 \tab 73 \tab 751 \tab 152 \tab 208 \tab 115 \tab 246 \tab 18 \tab 31 \tab 2817 \cr
+   2002 \tab 1841 \tab 50 \tab 15 \tab 36 \tab 43 \tab 406 \tab 82 \tab 90 \tab 56 \tab 140 \tab 3 \tab 3 \tab 2765 \cr
+   2004 \tab 1914 \tab 33 \tab 18 \tab 24 \tab 45 \tab 402 \tab 73 \tab 119 \tab 56 \tab 121 \tab 5 \tab 2 \tab 2812 \cr
+   2006 \tab 2507 \tab 107 \tab 42 \tab 54 \tab 69 \tab 891 \tab 164 \tab 260 \tab 93 \tab 312 \tab 9 \tab 2 \tab 4510 \cr
+   2008 \tab 671 \tab 73 \tab 31 \tab 48 \tab 50 \tab 561 \tab 106 \tab 176 \tab 88 \tab 200 \tab 14 \tab 5 \tab 2023 \cr
+   2010 \tab 763 \tab 60 \tab 34 \tab 56 \tab 43 \tab 495 \tab 115 \tab 171 \tab 70 \tab 220 \tab 11 \tab 6 \tab 2044 \cr
+   2012 \tab 666 \tab 50 \tab 29 \tab 47 \tab 54 \tab 505 \tab 114 \tab 158 \tab 90 \tab 247 \tab 10 \tab 4 \tab 1974 \cr
+   2014 \tab 824 \tab 60 \tab 26 \tab 62 \tab 75 \tab 640 \tab 141 \tab 226 \tab 113 \tab 358 \tab 7 \tab 6 \tab 2538 \cr
+   2016 \tab 978 \tab 75 \tab 39 \tab 61 \tab 65 \tab 686 \tab 136 \tab 259 \tab 140 \tab 417 \tab 2 \tab 9 \tab 2867 \cr
+   Total \tab 14002 \tab 821 \tab 398 \tab 613 \tab 642 \tab 6561 \tab 1297 \tab 1964 \tab 951 \tab 2629 \tab 119 \tab 89 \tab 30086 \cr
+}
 }
 
 \seealso{

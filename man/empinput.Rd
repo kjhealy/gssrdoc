@@ -22,18 +22,25 @@ Question Some companies have organized workplace decision-making in ways to get 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006, 2014, 2018 \cr
+   B/C/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3557/vshow}{GSS Data Explorer page for \code{empinput}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2006 \tab 2778 \tab 541 \tab 1143 \tab 27 \tab 21 \tab - \tab 4510 \cr
+   2014 \tab 1765 \tab 227 \tab 541 \tab 2 \tab 3 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 361 \tab 1054 \tab 3 \tab 30 \tab - \tab 2348 \cr
+   2022 \tab 2570 \tab 254 \tab 657 \tab 46 \tab 9 \tab 8 \tab 3544 \cr
+   Total \tab 8013 \tab 1383 \tab 3395 \tab 78 \tab 63 \tab 8 \tab 12940 \cr
+}
 }
 
 \seealso{

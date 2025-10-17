@@ -25,28 +25,35 @@ A. (Negroes/Blacks/African-Americans) shouldn't push themselves where they're no
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/- \tab full \cr
-   1973 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1972, 1973, 1975, 1976, 1977, 1980, 1982, 1984, 1985 \cr
+   A/C \tab 1994, 1996, 1998, 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/385/vshow}{GSS Data Explorer page for \code{racpush}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab agree strongly \tab agree slightly \tab disagree slightly \tab disagree strongly \tab don't know \tab iap \tab no answer \tab Total \cr
+   1972 \tab 561 \tab 392 \tab 170 \tab 135 \tab 88 \tab 261 \tab 6 \tab 1613 \cr
+   1973 \tab 575 \tab 383 \tab 194 \tab 147 \tab 14 \tab 183 \tab 8 \tab 1504 \cr
+   1975 \tab 597 \tab 364 \tab 193 \tab 135 \tab 32 \tab 163 \tab 6 \tab 1490 \cr
+   1976 \tab 571 \tab 378 \tab 224 \tab 164 \tab 26 \tab 129 \tab 7 \tab 1499 \cr
+   1977 \tab 584 \tab 380 \tab 234 \tab 124 \tab 27 \tab 176 \tab 5 \tab 1530 \cr
+   1980 \tab 492 \tab 451 \tab 280 \tab 205 \tab 36 \tab - \tab 4 \tab 1468 \cr
+   1982 \tab 461 \tab 491 \tab 375 \tab 480 \tab 47 \tab - \tab 6 \tab 1860 \cr
+   1984 \tab 373 \tab 440 \tab 311 \tab 307 \tab 33 \tab - \tab 9 \tab 1473 \cr
+   1985 \tab 193 \tab 241 \tab 167 \tab 128 \tab 17 \tab 783 \tab 5 \tab 1534 \cr
+   1994 \tab 215 \tab 405 \tab 376 \tab 458 \tab 55 \tab 1480 \tab 3 \tab 2992 \cr
+   1996 \tab 307 \tab 436 \tab 464 \tab 637 \tab 72 \tab 981 \tab 7 \tab 2904 \cr
+   1998 \tab 256 \tab 476 \tab 426 \tab 610 \tab 108 \tab 950 \tab 6 \tab 2832 \cr
+   2000 \tab 269 \tab 403 \tab 379 \tab 582 \tab 104 \tab 1067 \tab 13 \tab 2817 \cr
+   2002 \tab 126 \tab 178 \tab 225 \tab 317 \tab 74 \tab 1841 \tab 4 \tab 2765 \cr
+   Total \tab 5580 \tab 5418 \tab 4018 \tab 4429 \tab 733 \tab 8014 \tab 89 \tab 28281 \cr
+}
 }
 
 \seealso{

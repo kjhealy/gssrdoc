@@ -28,15 +28,21 @@ IF VIGVER06 = 4, Skip to MHTRTOTH
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3564/vshow}{GSS Data Explorer page for \code{viglab06}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3435 \tab 646 \tab 306 \tab 50 \tab 19 \tab 42 \tab 12 \tab 4510 \cr
+   Total \tab 3435 \tab 646 \tab 306 \tab 50 \tab 19 \tab 42 \tab 12 \tab 4510 \cr
+}
 }
 
 \seealso{

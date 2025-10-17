@@ -23,15 +23,21 @@ O. Church-affiliated groups
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1010/vshow}{GSS Data Explorer page for \code{actchurh}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1987 \tab 1227 \tab 435 \tab 87 \tab 70 \tab 1819 \cr
+   Total \tab 1227 \tab 435 \tab 87 \tab 70 \tab 1819 \cr
+}
 }
 
 \seealso{

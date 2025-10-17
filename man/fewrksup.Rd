@@ -25,15 +25,21 @@ Question Do you agree or disagree . . . Most women have to work these days to su
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4401/vshow}{GSS Data Explorer page for \code{fewrksup}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1994 \tab 1545 \tab 403 \tab 800 \tab 122 \tab 77 \tab 21 \tab 9 \tab 15 \tab 2992 \cr
+   Total \tab 1545 \tab 403 \tab 800 \tab 122 \tab 77 \tab 21 \tab 9 \tab 15 \tab 2992 \cr
+}
 }
 
 \seealso{

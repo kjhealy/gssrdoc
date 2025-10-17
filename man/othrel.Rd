@@ -23,16 +23,23 @@ C. Attend some other type of religious event or meeting (e.g. prayer breakfasts,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/C/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   A/C/- \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5320/vshow}{GSS Data Explorer page for \code{othrel}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1996 \tab 1953 \tab 97 \tab 784 \tab 70 \tab - \tab 2904 \cr
+   1998 \tab 1387 \tab 180 \tab 1223 \tab 41 \tab 1 \tab 2832 \cr
+   Total \tab 3340 \tab 277 \tab 2007 \tab 111 \tab 1 \tab 5736 \cr
+}
 }
 
 \seealso{

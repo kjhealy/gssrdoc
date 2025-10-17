@@ -26,25 +26,27 @@ NOTE: This variable originates on the NEA follow-on, and should not be analyzed 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7889/vshow}{GSS Data Explorer page for \code{cvdclass}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab Total \cr
+   2022 \tab 2703 \tab 80 \tab 209 \tab 66 \tab 486 \tab 3544 \cr
+   Total \tab 2703 \tab 80 \tab 209 \tab 66 \tab 486 \tab 3544 \cr
+}
 }
 
 \seealso{
 Other NEA: 
-\code{\link{cvdarmus}},
 \code{\link{cvdarpo}},
-\code{\link{cvdpod}},
-\code{\link{cvdstmus}},
-\code{\link{cvdstpo}},
-\code{\link{cvdtour}}
+\code{\link{cvdpod}}
 }
 \concept{NEA}
 \keyword{variable}

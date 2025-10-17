@@ -24,15 +24,21 @@ C. Conflict of faith and science
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1097/vshow}{GSS Data Explorer page for \code{doubts3}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 73 \tab 369 \tab 955 \tab 64 \tab 20 \tab 1481 \cr
+   Total \tab 0 \tab 73 \tab 369 \tab 955 \tab 64 \tab 20 \tab 1481 \cr
+}
 }
 
 \seealso{

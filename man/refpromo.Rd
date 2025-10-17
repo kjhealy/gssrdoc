@@ -23,16 +23,22 @@ A. Refuse a job promotion?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1667/vshow}{GSS Data Explorer page for \code{refpromo}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1444 \tab 148 \tab 1192 \tab 1 \tab 119 \tab 2904 \cr
+   Total \tab 1444 \tab 148 \tab 1192 \tab 1 \tab 119 \tab 2904 \cr
+}
 }
 
 \seealso{

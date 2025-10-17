@@ -33,15 +33,21 @@ Question About how many people work in your organization at all locations? Count
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7852/vshow}{GSS Data Explorer page for \code{numorg1}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab 1-9 in range \tab 10-49 in range \tab 50-99 in range \tab 100-499 in range \tab 500-999 in range \tab 1,000-1,999 in range \tab 2,000-2,999 in range \tab 3,000-3,999 in range \tab 4,000-4,999 in range \tab 5,000-10,000 in range \tab 10,000-50,000 in range \tab 50,000-100,000 in range \tab above 100,000 in range \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2569 \tab 154 \tab 146 \tab 67 \tab 127 \tab 57 \tab 39 \tab 28 \tab 15 \tab 15 \tab 38 \tab 49 \tab 30 \tab 63 \tab 127 \tab 10 \tab 10 \tab 3544 \cr
+   Total \tab 2569 \tab 154 \tab 146 \tab 67 \tab 127 \tab 57 \tab 39 \tab 28 \tab 15 \tab 15 \tab 38 \tab 49 \tab 30 \tab 63 \tab 127 \tab 10 \tab 10 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

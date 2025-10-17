@@ -24,15 +24,21 @@ Question If you were advising a young woman, which of the following ways of life
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4362/vshow}{GSS Data Explorer page for \code{femarry}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab live alone \tab live with posslq \tab cohabitate, then marry \tab marry \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 131 \tab 37 \tab 372 \tab 652 \tab 197 \tab 25 \tab 1481 \cr
+   Total \tab 67 \tab 131 \tab 37 \tab 372 \tab 652 \tab 197 \tab 25 \tab 1481 \cr
+}
 }
 
 \seealso{

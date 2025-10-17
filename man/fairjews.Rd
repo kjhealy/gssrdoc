@@ -23,15 +23,21 @@ C. Where would you rate Jews in general on this scale?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2268/vshow}{GSS Data Explorer page for \code{fairjews}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab commitment to fair and equal treatment \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab lacks commitment to fair and equal treatment \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 63 \tab 166 \tab 244 \tab 481 \tab 144 \tab 57 \tab 37 \tab 194 \tab 12 \tab 2817 \cr
+   Total \tab 1419 \tab 63 \tab 166 \tab 244 \tab 481 \tab 144 \tab 57 \tab 37 \tab 194 \tab 12 \tab 2817 \cr
+}
 }
 
 \seealso{

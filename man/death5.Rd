@@ -29,26 +29,33 @@ Question A. Death of relatives during the last five years.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/746/vshow}{GSS Data Explorer page for \code{death5}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab none \tab 1 in prior 4 yrs \tab 2+ in prior 4 yrs \tab 1 last yr \tab 1 last,1 in prior 4 \tab 1 in last,2+ prior 4 \tab 2+ last yr \tab 2+ last, 1 prior 4 \tab 2+ last, 2+ prior 4 \tab no answer \tab Total \cr
+   1978 \tab - \tab 945 \tab 312 \tab 82 \tab 98 \tab 32 \tab 17 \tab 11 \tab 8 \tab 9 \tab 18 \tab 1532 \cr
+   1980 \tab - \tab 927 \tab 266 \tab 84 \tab 88 \tab 49 \tab 18 \tab 22 \tab 5 \tab 3 \tab 6 \tab 1468 \cr
+   1983 \tab - \tab 1035 \tab 288 \tab 94 \tab 93 \tab 43 \tab 15 \tab 15 \tab 10 \tab 3 \tab 3 \tab 1599 \cr
+   1984 \tab - \tab 959 \tab 256 \tab 71 \tab 100 \tab 34 \tab 14 \tab 14 \tab 7 \tab 1 \tab 17 \tab 1473 \cr
+   1986 \tab - \tab 947 \tab 252 \tab 77 \tab 106 \tab 43 \tab 13 \tab 17 \tab 7 \tab 4 \tab 4 \tab 1470 \cr
+   1987 \tab - \tab 1140 \tab 322 \tab 99 \tab 110 \tab 69 \tab 9 \tab 30 \tab 9 \tab 8 \tab 23 \tab 1819 \cr
+   1988 \tab 484 \tab 637 \tab 153 \tab 61 \tab 71 \tab 26 \tab 16 \tab 14 \tab 7 \tab 6 \tab 6 \tab 1481 \cr
+   1989 \tab 502 \tab 670 \tab 165 \tab 58 \tab 58 \tab 37 \tab 14 \tab 7 \tab 5 \tab 3 \tab 18 \tab 1537 \cr
+   1990 \tab 473 \tab 577 \tab 173 \tab 37 \tab 50 \tab 28 \tab 9 \tab 10 \tab 5 \tab 1 \tab 9 \tab 1372 \cr
+   1991 \tab 500 \tab 698 \tab 168 \tab 42 \tab 57 \tab 26 \tab 9 \tab 5 \tab 5 \tab - \tab 7 \tab 1517 \cr
+   1993 \tab 549 \tab 688 \tab 179 \tab 54 \tab 60 \tab 33 \tab 11 \tab 11 \tab 2 \tab 4 \tab 15 \tab 1606 \cr
+   1994 \tab 2481 \tab 341 \tab 80 \tab 24 \tab 32 \tab 12 \tab 6 \tab 6 \tab 2 \tab 1 \tab 7 \tab 2992 \cr
+   Total \tab 4989 \tab 9564 \tab 2614 \tab 783 \tab 923 \tab 432 \tab 151 \tab 162 \tab 72 \tab 43 \tab 133 \tab 19866 \cr
+}
 }
 
 \seealso{

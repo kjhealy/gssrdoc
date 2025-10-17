@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chnang6`](https://gssdataexplorer.norc.org/variables/1772/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |did |didnt |no answer |Total |
+#'  |:-----|:----|:---|:-----|:---------|:-----|
+#'  |1996  |1779 |297 |817   |11        |2904  |
+#'  |Total |1779 |297 |817   |11        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chnang7`](https://gssdataexplorer.norc.org/variables/1773/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |did |didnt |no answer |Total |
+#'  |:-----|:----|:---|:-----|:---------|:-----|
+#'  |1996  |1779 |310 |804   |11        |2904  |
+#'  |Total |1779 |310 |804   |11        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chnang8`](https://gssdataexplorer.norc.org/variables/1774/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |did |didnt |no answer |Total |
+#'  |:-----|:----|:---|:-----|:---------|:-----|
+#'  |1996  |1779 |76  |1038  |11        |2904  |
+#'  |Total |1779 |76  |1038  |11        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chnang9`](https://gssdataexplorer.norc.org/variables/1775/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |did |didnt |no answer |Total |
+#'  |:-----|:----|:---|:-----|:---------|:-----|
+#'  |1996  |1779 |160 |954   |11        |2904  |
+#'  |Total |1779 |160 |954   |11        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -146,13 +170,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chnang10`](https://gssdataexplorer.norc.org/variables/1776/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |did |didnt |no answer |Total |
+#'  |:-----|:----|:---|:-----|:---------|:-----|
+#'  |1996  |1779 |88  |1026  |11        |2904  |
+#'  |Total |1779 |88  |1026  |11        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -179,13 +209,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chnang11`](https://gssdataexplorer.norc.org/variables/1777/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |did |didnt |no answer |Total |
+#'  |:-----|:----|:---|:-----|:---------|:-----|
+#'  |1996  |1779 |326 |788   |11        |2904  |
+#'  |Total |1779 |326 |788   |11        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -212,13 +248,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chnang12`](https://gssdataexplorer.norc.org/variables/1778/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |did |didnt |no answer |Total |
+#'  |:-----|:----|:---|:-----|:---------|:-----|
+#'  |1996  |1779 |511 |603   |11        |2904  |
+#'  |Total |1779 |511 |603   |11        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -245,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chnang13`](https://gssdataexplorer.norc.org/variables/1779/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |did |didnt |no answer |Total |
+#'  |:-----|:----|:---|:-----|:---------|:-----|
+#'  |1996  |1779 |174 |940   |11        |2904  |
+#'  |Total |1779 |174 |940   |11        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -278,13 +326,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chnang14`](https://gssdataexplorer.norc.org/variables/1780/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |did |didnt |no answer |Total |
+#'  |:-----|:----|:---|:-----|:---------|:-----|
+#'  |1996  |1779 |69  |1045  |11        |2904  |
+#'  |Total |1779 |69  |1045  |11        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -311,13 +365,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chnang15`](https://gssdataexplorer.norc.org/variables/1781/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |did |didnt |no answer |Total |
+#'  |:-----|:----|:---|:-----|:---------|:-----|
+#'  |1996  |1779 |109 |1005  |11        |2904  |
+#'  |Total |1779 |109 |1005  |11        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions

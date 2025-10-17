@@ -30,18 +30,26 @@ Question C. How often does your (husband/wife) attend religious services?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989 \cr
+   A/B/C \tab 1988 \cr
+   Full \tab 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/297/vshow}{GSS Data Explorer page for \code{spattend}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab never \tab lt once a year \tab once a year \tab sevrl times a yr \tab once a month \tab 2-3x a month \tab nrly every week \tab every week \tab more thn once wk \tab don't know \tab Total \cr
+   1986 \tab 644 \tab 147 \tab 53 \tab 80 \tab 90 \tab 54 \tab 67 \tab 46 \tab 209 \tab 77 \tab 3 \tab 1470 \cr
+   1987 \tab 903 \tab 151 \tab 51 \tab 108 \tab 121 \tab 71 \tab 81 \tab 52 \tab 200 \tab 71 \tab 10 \tab 1819 \cr
+   1988 \tab 693 \tab 148 \tab 47 \tab 81 \tab 91 \tab 50 \tab 57 \tab 57 \tab 187 \tab 66 \tab 4 \tab 1481 \cr
+   1989 \tab 976 \tab 110 \tab 31 \tab 60 \tab 64 \tab 32 \tab 39 \tab 31 \tab 148 \tab 42 \tab 4 \tab 1537 \cr
+   Total \tab 3216 \tab 556 \tab 182 \tab 329 \tab 366 \tab 207 \tab 244 \tab 186 \tab 744 \tab 256 \tab 21 \tab 6307 \cr
+}
 }
 
 \seealso{

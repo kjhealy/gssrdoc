@@ -25,15 +25,21 @@ Question How effective do you think reducing airplane travel is for people deali
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3854/vshow}{GSS Data Explorer page for \code{eff911f}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 1 not at all effective \tab 2 \tab 3 \tab 4 \tab 5 extremely effective \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 671 \tab 697 \tab 163 \tab 225 \tab 57 \tab 114 \tab 89 \tab 7 \tab 2023 \cr
+   Total \tab 671 \tab 697 \tab 163 \tab 225 \tab 57 \tab 114 \tab 89 \tab 7 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ IF RESPONDENT PROVIDES AT LEAST A YEAR AMOUNT, PLEASE SELECT THE FIRST OPTION.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6186/vshow}{GSS Data Explorer page for \code{suitime1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab respondent provides number of months or years \tab respondent provides verbatim response uncodeable in months/years \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2093 \tab 700 \tab 42 \tab 7 \tab 25 \tab 2867 \cr
+   Total \tab 2093 \tab 700 \tab 42 \tab 7 \tab 25 \tab 2867 \cr
+}
 }
 
 \seealso{

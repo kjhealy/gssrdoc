@@ -25,15 +25,21 @@ C. The government must see to it that everyone has a job and that prices are sta
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/227/vshow}{GSS Data Explorer page for \code{equal3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 204 \tab 426 \tab 487 \tab 307 \tab 32 \tab 17 \tab 1473 \cr
+   Total \tab 0 \tab 204 \tab 426 \tab 487 \tab 307 \tab 32 \tab 17 \tab 1473 \cr
+}
 }
 
 \seealso{

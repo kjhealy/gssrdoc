@@ -22,15 +22,21 @@ Question People have different ideas about the best way for blacks to improve th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1042/vshow}{GSS Data Explorer page for \code{blkgains}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab civil rights grps \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab better trained inds \tab no answer \tab Total \cr
+   1987 \tab 1275 \tab 37 \tab 19 \tab 17 \tab 140 \tab 72 \tab 41 \tab 209 \tab 9 \tab 1819 \cr
+   Total \tab 1275 \tab 37 \tab 19 \tab 17 \tab 140 \tab 72 \tab 41 \tab 209 \tab 9 \tab 1819 \cr
+}
 }
 
 \seealso{

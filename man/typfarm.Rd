@@ -22,15 +22,21 @@ Question L. Do you belong to more than one farm organization?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3121/vshow}{GSS Data Explorer page for \code{typfarm}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2004 \tab 2763 \tab 3 \tab 41 \tab 5 \tab 2812 \cr
+   Total \tab 2763 \tab 3 \tab 41 \tab 5 \tab 2812 \cr
+}
 }
 
 \seealso{

@@ -28,15 +28,21 @@ B. Cultured.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1432/vshow}{GSS Data Explorer page for \code{frdcultr}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely important \tab very important \tab fairly important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 52 \tab 275 \tab 596 \tab 494 \tab 148 \tab 26 \tab 15 \tab 1606 \cr
+   Total \tab 0 \tab 52 \tab 275 \tab 596 \tab 494 \tab 148 \tab 26 \tab 15 \tab 1606 \cr
+}
 }
 
 \seealso{

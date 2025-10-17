@@ -25,21 +25,26 @@ As of 2024, DIPGED has been recoded to only account for three categories. This h
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/65/vshow}{GSS Data Explorer page for \code{dipged}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab high school diploma \tab ged \tab other \tab high school diploma after post high school class \tab no answer \tab don't know \tab skipped on web \tab 7 \tab Total \cr
+   2012 \tab 288 \tab 1543 \tab 133 \tab 2 \tab 6 \tab 2 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 330 \tab 1990 \tab 196 \tab 15 \tab - \tab 6 \tab 1 \tab - \tab - \tab 2538 \cr
+   2016 \tab 328 \tab 2237 \tab 245 \tab 41 \tab - \tab 15 \tab 1 \tab - \tab - \tab 2867 \cr
+   2018 \tab 262 \tab 1891 \tab 183 \tab 3 \tab 3 \tab 6 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 269 \tab 3396 \tab 306 \tab 13 \tab 9 \tab 24 \tab 8 \tab 7 \tab - \tab 4032 \cr
+   2022 \tab 359 \tab 2858 \tab 276 \tab 29 \tab 3 \tab 13 \tab 1 \tab 3 \tab 2 \tab 3544 \cr
+   Total \tab 1836 \tab 13915 \tab 1339 \tab 103 \tab 21 \tab 66 \tab 11 \tab 10 \tab 2 \tab 17303 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question How difficult was it to get the treatment that you sought: very difficu
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2191/vshow}{GSS Data Explorer page for \code{mntldif}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab very difficult \tab somewhat diffclt \tab not difficult \tab no answer \tab Total \cr
+   1998 \tab 2696 \tab 7 \tab 21 \tab 101 \tab 7 \tab 2832 \cr
+   Total \tab 2696 \tab 7 \tab 21 \tab 101 \tab 7 \tab 2832 \cr
+}
 }
 
 \seealso{

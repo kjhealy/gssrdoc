@@ -25,17 +25,22 @@ Question Which of the following best describes your situation?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7629/vshow}{GSS Data Explorer page for \code{famdif16y}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab one or both parents died \tab parents divorced or separated \tab parent absent in armed forces \tab one or both parents in institution \tab other (specify) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 3768 \tab 85 \tab 147 \tab 1 \tab 3 \tab 28 \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab 2956 \tab 173 \tab 329 \tab 2 \tab 14 \tab 55 \tab 10 \tab 4 \tab 1 \tab 3544 \cr
+   Total \tab 6724 \tab 258 \tab 476 \tab 3 \tab 17 \tab 83 \tab 10 \tab 4 \tab 1 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

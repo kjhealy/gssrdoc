@@ -23,36 +23,43 @@ C. IF CURRENTLY MARRIED, SEPARATED, OR DIVORCED: Have you ever been widowed?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/22/vshow}{GSS Data Explorer page for \code{widowed}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1987 \tab 597 \tab 50 \tab 1157 \tab 15 \tab - \tab - \tab 1819 \cr
+   1988 \tab 459 \tab 32 \tab 963 \tab 27 \tab - \tab - \tab 1481 \cr
+   1989 \tab 454 \tab 37 \tab 1034 \tab 12 \tab - \tab - \tab 1537 \cr
+   1990 \tab 436 \tab 26 \tab 885 \tab 25 \tab - \tab - \tab 1372 \cr
+   1991 \tab 492 \tab 31 \tab 971 \tab 23 \tab - \tab - \tab 1517 \cr
+   1993 \tab 472 \tab 40 \tab 1075 \tab 19 \tab - \tab - \tab 1606 \cr
+   1994 \tab 903 \tab 72 \tab 1958 \tab 58 \tab 1 \tab - \tab 2992 \cr
+   1996 \tab 938 \tab 73 \tab 1782 \tab 109 \tab 2 \tab - \tab 2904 \cr
+   1998 \tab 947 \tab 77 \tab 1672 \tab 136 \tab - \tab - \tab 2832 \cr
+   2000 \tab 985 \tab 53 \tab 1659 \tab 119 \tab 1 \tab - \tab 2817 \cr
+   2002 \tab 955 \tab 56 \tab 1754 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 822 \tab 47 \tab 1938 \tab 5 \tab - \tab - \tab 2812 \cr
+   2006 \tab 1446 \tab 80 \tab 2975 \tab 8 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 695 \tab 34 \tab 1289 \tab 5 \tab - \tab - \tab 2023 \cr
+   2010 \tab 746 \tab 38 \tab 1259 \tab 1 \tab - \tab - \tab 2044 \cr
+   2012 \tab 689 \tab 42 \tab 1243 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 884 \tab 39 \tab 1609 \tab 6 \tab - \tab - \tab 2538 \cr
+   2016 \tab 1057 \tab 52 \tab 1754 \tab 4 \tab - \tab - \tab 2867 \cr
+   2018 \tab 870 \tab 42 \tab 1431 \tab 5 \tab - \tab - \tab 2348 \cr
+   2021 \tab 1273 \tab 48 \tab 2704 \tab 1 \tab - \tab 6 \tab 4032 \cr
+   2022 \tab 1371 \tab 71 \tab 2097 \tab - \tab 1 \tab 4 \tab 3544 \cr
+   Total \tab 17491 \tab 1040 \tab 33209 \tab 578 \tab 6 \tab 10 \tab 52334 \cr
+}
 }
 
 \seealso{

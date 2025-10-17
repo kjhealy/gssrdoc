@@ -26,17 +26,24 @@ C. Time with your family?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4488/vshow}{GSS Data Explorer page for \code{timefam}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab spend much more \tab spend a bit more \tab spend same \tab spend a bit less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 84 \tab 467 \tab 588 \tab 311 \tab 26 \tab 10 \tab 15 \tab 36 \tab 1537 \cr
+   1998 \tab 1609 \tab 490 \tab 447 \tab 213 \tab 7 \tab 12 \tab 21 \tab 33 \tab 2832 \cr
+   2006 \tab 2992 \tab 839 \tab 406 \tab 236 \tab 13 \tab 6 \tab 16 \tab 2 \tab 4510 \cr
+   Total \tab 4685 \tab 1796 \tab 1441 \tab 760 \tab 46 \tab 28 \tab 52 \tab 71 \tab 8879 \cr
+}
 }
 
 \seealso{

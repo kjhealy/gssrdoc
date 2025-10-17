@@ -24,17 +24,23 @@ Question Now thinking about safety in this neighborhood, how safe do you think i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6658/vshow}{GSS Data Explorer page for \code{neisafe}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very safe \tab somewhat safe \tab somewhat unsafe \tab very unsafe \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab - \tab 1595 \tab 973 \tab 229 \tab 42 \tab 1 \tab 27 \tab - \tab 2867 \cr
+   2018 \tab - \tab 1322 \tab 805 \tab 191 \tab 22 \tab 2 \tab 6 \tab - \tab 2348 \cr
+   2022 \tab 2077 \tab 547 \tab 748 \tab 153 \tab 19 \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 2077 \tab 3464 \tab 2526 \tab 573 \tab 83 \tab 3 \tab 33 \tab 0 \tab 8759 \cr
+}
 }
 
 \keyword{variable}

@@ -25,15 +25,21 @@ Question People have different opinions about how well mothers and fathers are s
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7767/vshow}{GSS Data Explorer page for \code{prntlk}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab mothers are much better suited \tab mothers are somewhat better suited \tab mothers and fathers are equally suited \tab fathers are somewhat better suited \tab fathers are much better suited \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2380 \tab 98 \tab 178 \tab 794 \tab 6 \tab 5 \tab 69 \tab 5 \tab 9 \tab 3544 \cr
+   Total \tab 2380 \tab 98 \tab 178 \tab 794 \tab 6 \tab 5 \tab 69 \tab 5 \tab 9 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

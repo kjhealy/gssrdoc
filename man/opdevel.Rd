@@ -25,20 +25,26 @@ B. I have an opportunity to develop my own special abilities
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2797/vshow}{GSS Data Explorer page for \code{opdevel}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 743 \tab 686 \tab 220 \tab 121 \tab 11 \tab 15 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 661 \tab 689 \tab 226 \tab 120 \tab 19 \tab 19 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 463 \tab 475 \tab 142 \tab 75 \tab 7 \tab 25 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 479 \tab 516 \tab 180 \tab 66 \tab 2 \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 521 \tab 625 \tab 194 \tab 69 \tab 8 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 1552 \tab 723 \tab 827 \tab 257 \tab 134 \tab 15 \tab 15 \tab 21 \tab 3544 \cr
+   Total \tab 8342 \tab 3590 \tab 3818 \tab 1219 \tab 585 \tab 62 \tab 112 \tab 21 \tab 17749 \cr
+}
 }
 
 \seealso{

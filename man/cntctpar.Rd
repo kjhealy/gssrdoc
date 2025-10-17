@@ -30,15 +30,21 @@ Question Please think about the parent you have contact with most frequently: Ho
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7265/vshow}{GSS Data Explorer page for \code{cntctpar}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab daily \tab several times a week \tab once a week \tab two to three times a month \tab once a month \tab several times a year \tab less often \tab never \tab my parents are no longer alive \tab the parent i have contact with most frequently lives with me \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 262 \tab 208 \tab 141 \tab 67 \tab 29 \tab 18 \tab 14 \tab 22 \tab 390 \tab 19 \tab 2 \tab 1 \tab 2348 \cr
+   Total \tab 1175 \tab 262 \tab 208 \tab 141 \tab 67 \tab 29 \tab 18 \tab 14 \tab 22 \tab 390 \tab 19 \tab 2 \tab 1 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

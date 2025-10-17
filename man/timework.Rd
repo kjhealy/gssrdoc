@@ -26,15 +26,21 @@ C. There are so many things to do at work, I often run out of time before I get 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4445/vshow}{GSS Data Explorer page for \code{timework}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2002 \tab 1594 \tab 203 \tab 274 \tab 213 \tab 252 \tab 60 \tab 159 \tab 10 \tab 2765 \cr
+   Total \tab 1594 \tab 203 \tab 274 \tab 213 \tab 252 \tab 60 \tab 159 \tab 10 \tab 2765 \cr
+}
 }
 
 \seealso{

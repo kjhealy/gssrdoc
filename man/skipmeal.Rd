@@ -27,15 +27,21 @@ Question How often do you or other members of your household skip a meal because
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7519/vshow}{GSS Data Explorer page for \code{skipmeal}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab never \tab less than once a month \tab once a month \tab several times a month \tab once a week \tab several times a week \tab every day \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2029 \tab 1471 \tab 107 \tab 46 \tab 82 \tab 18 \tab 31 \tab 12 \tab 52 \tab 176 \tab 8 \tab 4032 \cr
+   Total \tab 2029 \tab 1471 \tab 107 \tab 46 \tab 82 \tab 18 \tab 31 \tab 12 \tab 52 \tab 176 \tab 8 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

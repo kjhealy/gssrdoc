@@ -25,15 +25,21 @@ Question D. Marriage counseling. (Is marriage counseling...?)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3540/vshow}{GSS Data Explorer page for \code{marrcoun}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1469 \tab 36 \tab 101 \tab 161 \tab 179 \tab 2 \tab 23 \tab 3 \tab 1974 \cr
+   Total \tab 1469 \tab 36 \tab 101 \tab 161 \tab 179 \tab 2 \tab 23 \tab 3 \tab 1974 \cr
+}
 }
 
 \seealso{

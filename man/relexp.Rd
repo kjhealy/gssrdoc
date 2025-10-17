@@ -22,20 +22,27 @@ Question Did you ever have a religious or spiritual experience that changed your
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2021 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2021 \cr
+   A/B/C \tab 1998, 2004, 2006, 2008, 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2122/vshow}{GSS Data Explorer page for \code{relexp}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1998 \tab 1387 \tab 557 \tab 867 \tab 5 \tab 16 \tab - \tab 2832 \cr
+   2004 \tab 1472 \tab 477 \tab 848 \tab 4 \tab 11 \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 1237 \tab 1730 \tab 18 \tab 7 \tab - \tab 4510 \cr
+   2008 \tab - \tab 869 \tab 1135 \tab 12 \tab 7 \tab - \tab 2023 \cr
+   2010 \tab - \tab 836 \tab 1188 \tab 11 \tab 9 \tab - \tab 2044 \cr
+   2021 \tab 2687 \tab 541 \tab 789 \tab 2 \tab 1 \tab 12 \tab 4032 \cr
+   Total \tab 7064 \tab 4517 \tab 6557 \tab 52 \tab 51 \tab 12 \tab 18253 \cr
+}
 }
 
 \seealso{

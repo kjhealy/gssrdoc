@@ -30,15 +30,21 @@ Question And how about your first job -- the first job you had after you finishe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4316/vshow}{GSS Data Explorer page for \code{firstjob}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab prof or tech \tab higher admin \tab clerical \tab sales \tab service \tab skilled worker \tab semi-skilled worker \tab unskilled worker \tab farm \tab never had job \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 229 \tab 9 \tab 309 \tab 94 \tab 134 \tab 116 \tab 120 \tab 319 \tab 73 \tab 55 \tab 106 \tab 1819 \cr
+   Total \tab 255 \tab 229 \tab 9 \tab 309 \tab 94 \tab 134 \tab 116 \tab 120 \tab 319 \tab 73 \tab 55 \tab 106 \tab 1819 \cr
+}
 }
 
 \seealso{

@@ -23,17 +23,23 @@ C. Do you know how to download a file from the World Wide Web to your computer?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2513/vshow}{GSS Data Explorer page for \code{download}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2075 \tab 532 \tab 131 \tab 79 \tab - \tab 2817 \cr
+   2002 \tab 2142 \tab 465 \tab 110 \tab 47 \tab 1 \tab 2765 \cr
+   2004 \tab 992 \tab 1478 \tab 320 \tab 19 \tab 3 \tab 2812 \cr
+   Total \tab 5209 \tab 2475 \tab 561 \tab 145 \tab 4 \tab 8394 \cr
+}
 }
 
 \seealso{

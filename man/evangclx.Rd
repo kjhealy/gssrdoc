@@ -22,15 +22,21 @@ Question Would you describe yourself as a "born again" or evangelical Christian,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7523/vshow}{GSS Data Explorer page for \code{evangclx}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab see codebook \tab Total \cr
+   2021 \tab 3199 \tab 365 \tab 358 \tab 1 \tab 103 \tab 5 \tab 1 \tab 4032 \cr
+   Total \tab 3199 \tab 365 \tab 358 \tab 1 \tab 103 \tab 5 \tab 1 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

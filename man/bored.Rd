@@ -24,17 +24,25 @@ A. How often would you say you have time on your hands that you don't know what 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab -/- \tab full \cr
-   2004 \tab B/C \tab partial \cr
-   2016 \tab C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1982 \cr
+   B/C \tab 2004 \cr
+   C/- \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/775/vshow}{GSS Data Explorer page for \code{bored}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab quite often \tab now and then \tab almost never \tab no answer \tab don't know \tab Total \cr
+   1982 \tab 442 \tab 254 \tab 581 \tab 569 \tab 14 \tab - \tab 1860 \cr
+   2004 \tab 2133 \tab 75 \tab 262 \tab 335 \tab 6 \tab 1 \tab 2812 \cr
+   2016 \tab 2366 \tab 51 \tab 203 \tab 245 \tab 2 \tab - \tab 2867 \cr
+   Total \tab 4941 \tab 380 \tab 1046 \tab 1149 \tab 22 \tab 1 \tab 7539 \cr
+}
 }
 
 \seealso{

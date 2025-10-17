@@ -25,20 +25,28 @@ Question A. In general, do you think that a rise in the world's temperature caus
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2016 \tab A/-/- \tab partial \cr
-   2018 \tab A/-/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2016, 2018 \cr
+   A/B/- \tab 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4764/vshow}{GSS Data Explorer page for \code{tempgen}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 263 \tab 370 \tab 510 \tab 187 \tab 33 \tab 158 \tab 36 \tab 1606 \cr
+   1994 \tab 1606 \tab 186 \tab 287 \tab 489 \tab 184 \tab 30 \tab 177 \tab 33 \tab 2992 \cr
+   2000 \tab 1541 \tab 202 \tab 312 \tab 420 \tab 116 \tab 21 \tab 153 \tab 52 \tab 2817 \cr
+   2016 \tab 1956 \tab 246 \tab 240 \tab 247 \tab 98 \tab 38 \tab 40 \tab 2 \tab 2867 \cr
+   2018 \tab 1563 \tab 253 \tab 197 \tab 205 \tab 75 \tab 23 \tab 28 \tab 4 \tab 2348 \cr
+   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
+   Total \tab 10747 \tab 1150 \tab 1406 \tab 1871 \tab 660 \tab 145 \tab 556 \tab 127 \tab 16662 \cr
+}
 }
 
 \seealso{

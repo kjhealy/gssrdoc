@@ -110,18 +110,25 @@ Question Next I'm going to describe a person -- lets call him/her (REFER TO NAME
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1986/vshow}{GSS Data Explorer page for \code{vigversn}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 4 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 45 \tab 46 \tab 47 \tab 48 \tab 49 \tab 5 \tab 50 \tab 51 \tab 52 \tab 53 \tab 54 \tab 55 \tab 56 \tab 57 \tab 58 \tab 59 \tab 6 \tab 60 \tab 61 \tab 62 \tab 63 \tab 64 \tab 65 \tab 66 \tab 67 \tab 68 \tab 69 \tab 7 \tab 70 \tab 71 \tab 72 \tab 73 \tab 74 \tab 75 \tab 76 \tab 77 \tab 78 \tab 79 \tab 8 \tab 80 \tab 81 \tab 82 \tab 83 \tab 84 \tab 85 \tab 86 \tab 87 \tab 88 \tab 89 \tab 9 \tab 90 \tab Total \cr
+   1996 \tab 1460 \tab 15 \tab 22 \tab 18 \tab 18 \tab 14 \tab 12 \tab 11 \tab 18 \tab 20 \tab 22 \tab 14 \tab 11 \tab 10 \tab 16 \tab 21 \tab 17 \tab 19 \tab 15 \tab 15 \tab 14 \tab 23 \tab 21 \tab 13 \tab 12 \tab 19 \tab 17 \tab 8 \tab 24 \tab 16 \tab 19 \tab 19 \tab 19 \tab 16 \tab 17 \tab 17 \tab 20 \tab 20 \tab 16 \tab 12 \tab 12 \tab 19 \tab 19 \tab 21 \tab 10 \tab 16 \tab 11 \tab 18 \tab 18 \tab 17 \tab 17 \tab 15 \tab 14 \tab 8 \tab 17 \tab 18 \tab 17 \tab 18 \tab 15 \tab 15 \tab 21 \tab 17 \tab 16 \tab 21 \tab 13 \tab 17 \tab 14 \tab 13 \tab 16 \tab 19 \tab 18 \tab 9 \tab 13 \tab 10 \tab 20 \tab 25 \tab 18 \tab 10 \tab 15 \tab 12 \tab 14 \tab 16 \tab 19 \tab 21 \tab 13 \tab 11 \tab 19 \tab 12 \tab 15 \tab 8 \tab 14 \tab 2904 \cr
+   2006 \tab 2987 \tab 22 \tab 20 \tab 22 \tab 26 \tab 18 \tab 15 \tab 19 \tab 22 \tab 15 \tab 20 \tab 22 \tab 23 \tab 22 \tab 21 \tab 19 \tab 22 \tab 20 \tab 25 \tab 26 \tab 27 \tab 17 \tab 23 \tab 21 \tab 22 \tab 19 \tab 25 \tab 21 \tab 23 \tab 21 \tab 22 \tab 20 \tab 19 \tab 26 \tab 24 \tab 19 \tab 21 \tab 18 \tab 19 \tab 19 \tab 21 \tab 22 \tab 22 \tab 16 \tab 17 \tab 17 \tab 21 \tab 19 \tab 24 \tab 24 \tab 26 \tab - \tab - \tab - \tab - \tab - \tab 25 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 26 \tab - \tab - \tab - \tab 25 \tab 17 \tab 18 \tab 24 \tab 15 \tab 15 \tab 27 \tab 20 \tab 22 \tab 20 \tab 25 \tab 20 \tab 23 \tab 20 \tab 22 \tab 21 \tab 23 \tab 18 \tab 22 \tab 21 \tab 4510 \cr
+   2018 \tab 1175 \tab 12 \tab 12 \tab 14 \tab 12 \tab 14 \tab 15 \tab 12 \tab 17 \tab 14 \tab 12 \tab 11 \tab 16 \tab 18 \tab 12 \tab 12 \tab 17 \tab 10 \tab 16 \tab 17 \tab 13 \tab 11 \tab 13 \tab 13 \tab 12 \tab 12 \tab 14 \tab 18 \tab 19 \tab 12 \tab 14 \tab 14 \tab 14 \tab 11 \tab 19 \tab 12 \tab 9 \tab 14 \tab 12 \tab 14 \tab 8 \tab 8 \tab 11 \tab 15 \tab 14 \tab 15 \tab 12 \tab 17 \tab 12 \tab 14 \tab 18 \tab 14 \tab 10 \tab 12 \tab 9 \tab 11 \tab 16 \tab 16 \tab 16 \tab 12 \tab 12 \tab 9 \tab 15 \tab 11 \tab 13 \tab 15 \tab 15 \tab 14 \tab 12 \tab 15 \tab 10 \tab 18 \tab 12 \tab 13 \tab 13 \tab 16 \tab 11 \tab 12 \tab 9 \tab 9 \tab 10 \tab 9 \tab 12 \tab 12 \tab 9 \tab 9 \tab 9 \tab 12 \tab 12 \tab 13 \tab 19 \tab 2348 \cr
+   Total \tab 5622 \tab 49 \tab 54 \tab 54 \tab 56 \tab 46 \tab 42 \tab 42 \tab 57 \tab 49 \tab 54 \tab 47 \tab 50 \tab 50 \tab 49 \tab 52 \tab 56 \tab 49 \tab 56 \tab 58 \tab 54 \tab 51 \tab 57 \tab 47 \tab 46 \tab 50 \tab 56 \tab 47 \tab 66 \tab 49 \tab 55 \tab 53 \tab 52 \tab 53 \tab 60 \tab 48 \tab 50 \tab 52 \tab 47 \tab 45 \tab 41 \tab 49 \tab 52 \tab 52 \tab 41 \tab 48 \tab 44 \tab 54 \tab 54 \tab 55 \tab 61 \tab 29 \tab 24 \tab 20 \tab 26 \tab 29 \tab 58 \tab 34 \tab 31 \tab 27 \tab 33 \tab 26 \tab 31 \tab 32 \tab 26 \tab 32 \tab 29 \tab 53 \tab 28 \tab 34 \tab 28 \tab 52 \tab 42 \tab 41 \tab 57 \tab 56 \tab 44 \tab 49 \tab 44 \tab 43 \tab 44 \tab 50 \tab 51 \tab 56 \tab 42 \tab 42 \tab 49 \tab 47 \tab 45 \tab 43 \tab 54 \tab 9762 \cr
+}
 }
 
 \seealso{

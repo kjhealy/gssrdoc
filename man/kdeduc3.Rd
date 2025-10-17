@@ -22,15 +22,21 @@ F3. Highest school grade third child completed.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1530/vshow}{GSS Data Explorer page for \code{kdeduc3}}.
+
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 5 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2678 \tab 4 \tab 12 \tab 10 \tab 130 \tab 11 \tab 28 \tab 11 \tab 43 \tab 7 \tab 13 \tab 2 \tab 5 \tab 1 \tab 3 \tab 6 \tab 3 \tab 25 \tab 2992 \cr
+   Total \tab 2678 \tab 4 \tab 12 \tab 10 \tab 130 \tab 11 \tab 28 \tab 11 \tab 43 \tab 7 \tab 13 \tab 2 \tab 5 \tab 1 \tab 3 \tab 6 \tab 3 \tab 25 \tab 2992 \cr
+}
 }
 
 \seealso{

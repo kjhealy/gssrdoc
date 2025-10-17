@@ -22,15 +22,21 @@ Question Of course, everybody hears a good deal about physical illness and disea
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2044/vshow}{GSS Data Explorer page for \code{mntlimp3}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 101 \tab 102 \tab 103 \tab 104 \tab 105 \tab 106 \tab 107 \tab 108 \tab 109 \tab 110 \tab 113 \tab no answer \tab Total \cr
+   1996 \tab 2792 \tab 2 \tab 7 \tab 3 \tab 5 \tab 9 \tab 2 \tab 9 \tab 5 \tab 9 \tab 4 \tab 2 \tab 55 \tab 2904 \cr
+   Total \tab 2792 \tab 2 \tab 7 \tab 3 \tab 5 \tab 9 \tab 2 \tab 9 \tab 5 \tab 9 \tab 4 \tab 2 \tab 55 \tab 2904 \cr
+}
 }
 
 \seealso{

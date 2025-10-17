@@ -22,15 +22,21 @@ Question Please look at Card E14. (On a scale of 1 to 5, where 1 means "Near com
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3491/vshow}{GSS Data Explorer page for \code{engagrnk}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab near complete agreement \tab 2 \tab 3 \tab 4 \tab no agreement at all \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 1578 \tab 89 \tab 151 \tab 127 \tab 35 \tab 10 \tab 44 \tab 10 \tab 2044 \cr
+   Total \tab 1578 \tab 89 \tab 151 \tab 127 \tab 35 \tab 10 \tab 44 \tab 10 \tab 2044 \cr
+}
 }
 
 \seealso{

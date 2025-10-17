@@ -24,15 +24,21 @@ RECORD UNDER "A" BELOW.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/786/vshow}{GSS Data Explorer page for \code{hinumoky}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab too many \tab about right number \tab should be more \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 923 \tab 55 \tab 445 \tab 277 \tab 150 \tab 10 \tab 1860 \cr
+   Total \tab 923 \tab 55 \tab 445 \tab 277 \tab 150 \tab 10 \tab 1860 \cr
+}
 }
 
 \seealso{

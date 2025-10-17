@@ -24,15 +24,21 @@ Question About how long altogether have you lived in other countries?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4867/vshow}{GSS Data Explorer page for \code{abroad}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab never lived in other countries \tab less than 1 year in all \tab 1 to 4 years in all \tab 5 years or longer \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 1014 \tab 68 \tab 119 \tab 139 \tab 1 \tab 26 \tab 2904 \cr
+   Total \tab 1537 \tab 1014 \tab 68 \tab 119 \tab 139 \tab 1 \tab 26 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -26,18 +26,24 @@ Question A. How clean was the interior of the housing unit?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2016, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2655/vshow}{GSS Data Explorer page for \code{huclean}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab very clean \tab clean \tab so-so \tab not very clean \tab dirty \tab don't know \tab no answer \tab interviewer never saw interior of the respondent's hu \tab not available in this year \tab Total \cr
+   2000 \tab - \tab 1169 \tab 733 \tab 330 \tab 108 \tab 70 \tab 346 \tab 61 \tab - \tab - \tab 2817 \cr
+   2016 \tab - \tab 705 \tab 951 \tab 337 \tab 124 \tab 60 \tab 36 \tab 207 \tab 447 \tab - \tab 2867 \cr
+   2018 \tab - \tab 566 \tab 684 \tab 263 \tab 84 \tab 53 \tab 18 \tab 295 \tab 385 \tab - \tab 2348 \cr
+   2022 \tab 1864 \tab 370 \tab 452 \tab 246 \tab 82 \tab 34 \tab 13 \tab - \tab 483 \tab - \tab 3544 \cr
+   Total \tab 1864 \tab 2810 \tab 2820 \tab 1176 \tab 398 \tab 217 \tab 413 \tab 563 \tab 1315 \tab 0 \tab 11576 \cr
+}
 }
 
 \seealso{

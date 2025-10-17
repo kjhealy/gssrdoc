@@ -25,34 +25,41 @@ B. How many blocks (or miles) away do they (the (Negro/Black/African-American) f
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
+   Full \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/390/vshow}{GSS Data Explorer page for \code{racdis}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab same block \tab 1-3 blks away \tab 4-8 blks away \tab over 8 blks \tab iap \tab no answer \tab don't know \tab Total \cr
+   1972 \tab 154 \tab 150 \tab 54 \tab 22 \tab 1226 \tab 7 \tab - \tab 1613 \cr
+   1973 \tab 199 \tab 208 \tab 80 \tab 31 \tab 980 \tab 5 \tab 1 \tab 1504 \cr
+   1974 \tab 231 \tab 190 \tab 89 \tab 36 \tab 929 \tab 8 \tab 1 \tab 1484 \cr
+   1975 \tab 178 \tab 151 \tab 64 \tab 37 \tab 1053 \tab 4 \tab 3 \tab 1490 \cr
+   1976 \tab 243 \tab 185 \tab 97 \tab 50 \tab 916 \tab 8 \tab - \tab 1499 \cr
+   1977 \tab 207 \tab 178 \tab 98 \tab 42 \tab 994 \tab 9 \tab 2 \tab 1530 \cr
+   1978 \tab 335 \tab 266 \tab 88 \tab 48 \tab 785 \tab 10 \tab - \tab 1532 \cr
+   1980 \tab 311 \tab 223 \tab 103 \tab 26 \tab 791 \tab 8 \tab 6 \tab 1468 \cr
+   1982 \tab 479 \tab 289 \tab 106 \tab 46 \tab 918 \tab 19 \tab 3 \tab 1860 \cr
+   1983 \tab 351 \tab 234 \tab 93 \tab 62 \tab 845 \tab 8 \tab 6 \tab 1599 \cr
+   1984 \tab 409 \tab 224 \tab 62 \tab 34 \tab 719 \tab 24 \tab 1 \tab 1473 \cr
+   1985 \tab 375 \tab 205 \tab 99 \tab 44 \tab 793 \tab 17 \tab 1 \tab 1534 \cr
+   1986 \tab 362 \tab 211 \tab 70 \tab 45 \tab 767 \tab 9 \tab 6 \tab 1470 \cr
+   1987 \tab 595 \tab 345 \tab 241 \tab 550 \tab - \tab 88 \tab - \tab 1819 \cr
+   1988 \tab 429 \tab 248 \tab 65 \tab 32 \tab 686 \tab 17 \tab 4 \tab 1481 \cr
+   1989 \tab 360 \tab 263 \tab 101 \tab 50 \tab 741 \tab 21 \tab 1 \tab 1537 \cr
+   1990 \tab 368 \tab 239 \tab 85 \tab 43 \tab 625 \tab 9 \tab 3 \tab 1372 \cr
+   1991 \tab 422 \tab 234 \tab 68 \tab 47 \tab 714 \tab 27 \tab 5 \tab 1517 \cr
+   1993 \tab 482 \tab 277 \tab 101 \tab 65 \tab 641 \tab 27 \tab 13 \tab 1606 \cr
+   1994 \tab 252 \tab 125 \tab 35 \tab 20 \tab 2541 \tab 16 \tab 3 \tab 2992 \cr
+   Total \tab 6742 \tab 4445 \tab 1799 \tab 1330 \tab 17664 \tab 341 \tab 59 \tab 32380 \cr
+}
 }
 
 \seealso{

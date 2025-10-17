@@ -122,17 +122,24 @@ A. If Protestant, what specific denomination was that?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4672/vshow}{GSS Data Explorer page for \code{densp}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab amer baptist assoc \tab amer baptist ch in usa \tab natl baptist conv. of america \tab southern baptist conv \tab other baptist chs \tab baptist, dk which \tab african meth epis ch \tab united meth church \tab methodist, dk which \tab amer lutheran ch \tab luth ch in amer \tab luth ch--mo synod \tab evan lutheran \tab lutheran, dk which \tab presbyt ch in usa \tab united presbyt ch in usa \tab other presbyt chs \tab presbyt ch usa \tab presbyterian, dk which \tab episcopal church \tab evangeligal congregational \tab ind. bible fellowship \tab christ. and mission. alliance \tab assembly of god \tab free will baptist \tab brethren church \tab united brethren, breth. in christ \tab independent \tab christian; central christian \tab christian scientist \tab church of christ \tab churches of god -exc. christ & holiness \tab church of god in christ \tab congregationalist, 1st cong \tab dutch reform \tab disciples of christ \tab evangelical, evangelist \tab evangelist free church \tab 1st christian \tab holiness; ch of holiness \tab pilgrim holiness \tab jehovah witnesses \tab lds \tab lds--mormon \tab lds--reorganized \tab lds--jesus christ; ch of jesus lds \tab mennonite \tab mormon \tab nazarene \tab pentecostal \tab quaker \tab reformed \tab 7th day adventist \tab unitarian, universalist \tab united church of christ \tab wesleyan \tab missionary baptist \tab other fundamentalist \tab federated church \tab united church of canada \tab primitive baptist \tab no denom. given or non-denom ch \tab don't know \tab no answer \tab natl baptist conv., usa, inc \tab other meth ch \tab wisc evan luth synod \tab other luth chs \tab holiness, nazarene \tab christian reform \tab evangelical reformed \tab evangelical united brethren \tab moravian \tab adventist \tab apostolic \tab missionary \tab living church of god \tab christian born again \tab church of god israelite \tab Total \cr
+   1991 \tab 800 \tab 11 \tab 2 \tab 1 \tab 42 \tab 8 \tab 45 \tab 2 \tab 32 \tab 10 \tab 6 \tab 3 \tab 4 \tab 6 \tab 11 \tab 6 \tab 9 \tab 2 \tab 2 \tab 14 \tab 13 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 11 \tab 1 \tab 8 \tab 4 \tab 1 \tab 3 \tab 1 \tab 2 \tab 2 \tab 1 \tab 4 \tab 3 \tab 1 \tab 2 \tab 15 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 10 \tab 1 \tab 1 \tab 3 \tab 3 \tab 4 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 10 \tab 2 \tab 369 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   1998 \tab 2473 \tab - \tab - \tab - \tab 21 \tab 7 \tab 70 \tab 12 \tab 6 \tab 28 \tab 2 \tab - \tab 4 \tab - \tab 39 \tab - \tab - \tab - \tab - \tab 12 \tab 2 \tab - \tab - \tab 1 \tab 3 \tab - \tab 1 \tab - \tab - \tab 8 \tab - \tab 7 \tab 2 \tab - \tab 5 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab 4 \tab - \tab - \tab - \tab - \tab - \tab 4 \tab 2 \tab 11 \tab 1 \tab 3 \tab 4 \tab 2 \tab 2 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab 5 \tab 4 \tab 75 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2008 \tab 1639 \tab 5 \tab 4 \tab 2 \tab 45 \tab 1 \tab 45 \tab 1 \tab 34 \tab 7 \tab 7 \tab 1 \tab 6 \tab 2 \tab 13 \tab 3 \tab 5 \tab - \tab - \tab 15 \tab 16 \tab - \tab - \tab 3 \tab 3 \tab 2 \tab - \tab - \tab 2 \tab 16 \tab 1 \tab 5 \tab 3 \tab 2 \tab 4 \tab - \tab - \tab 2 \tab - \tab - \tab 2 \tab 1 \tab 5 \tab 6 \tab 2 \tab - \tab - \tab - \tab 8 \tab 4 \tab 14 \tab 2 \tab 2 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 50 \tab 8 \tab 4 \tab 4 \tab - \tab 4 \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2023 \cr
+   Total \tab 4912 \tab 16 \tab 6 \tab 3 \tab 108 \tab 16 \tab 160 \tab 15 \tab 72 \tab 45 \tab 15 \tab 4 \tab 14 \tab 8 \tab 63 \tab 9 \tab 14 \tab 2 \tab 2 \tab 41 \tab 31 \tab 1 \tab 1 \tab 5 \tab 8 \tab 4 \tab 2 \tab 1 \tab 3 \tab 35 \tab 2 \tab 20 \tab 9 \tab 3 \tab 12 \tab 1 \tab 2 \tab 4 \tab 1 \tab 5 \tab 6 \tab 2 \tab 11 \tab 21 \tab 3 \tab 1 \tab 1 \tab 1 \tab 13 \tab 9 \tab 35 \tab 4 \tab 6 \tab 9 \tab 7 \tab 7 \tab 2 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 65 \tab 14 \tab 448 \tab 5 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6372 \cr
+}
 }
 
 \seealso{

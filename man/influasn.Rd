@@ -24,15 +24,21 @@ D. Asian Americans
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1240/vshow}{GSS Data Explorer page for \code{influasn}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab too much influence \tab right amount \tab too little influence \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 85 \tab 553 \tab 503 \tab 207 \tab 24 \tab 1372 \cr
+   Total \tab 0 \tab 85 \tab 553 \tab 503 \tab 207 \tab 24 \tab 1372 \cr
+}
 }
 
 \seealso{

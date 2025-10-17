@@ -23,15 +23,21 @@ Question How satisfied were you with the work that was done for you?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1848/vshow}{GSS Data Explorer page for \code{satfixes}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab not too satisfied \tab pretty satisfied \tab extremely satisfied \tab no answer \tab Total \cr
+   1996 \tab 2353 \tab 60 \tab 322 \tab 166 \tab 3 \tab 2904 \cr
+   Total \tab 2353 \tab 60 \tab 322 \tab 166 \tab 3 \tab 2904 \cr
+}
 }
 
 \seealso{

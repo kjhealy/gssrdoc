@@ -21,15 +21,21 @@ Question How long have you lived in the city, town or local community where you 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4239/vshow}{GSS Data Explorer page for \code{comyear}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1905 \tab 1915 \tab 1917 \tab 1919 \tab 1920 \tab 1921 \tab 1924 \tab 1926 \tab 1927 \tab 1928 \tab 1929 \tab 1930 \tab 1931 \tab 1932 \tab 1933 \tab 1934 \tab 1935 \tab 1936 \tab 1937 \tab 1938 \tab 1939 \tab 1940 \tab 1941 \tab 1942 \tab 1943 \tab 1944 \tab 1945 \tab 1946 \tab 1947 \tab 1948 \tab 1949 \tab 1950 \tab 1951 \tab 1952 \tab 1953 \tab 1954 \tab 1955 \tab 1956 \tab 1957 \tab 1958 \tab 1959 \tab 1960 \tab 1961 \tab 1962 \tab 1963 \tab 1964 \tab 1965 \tab 1966 \tab 1967 \tab 1968 \tab 1969 \tab 1970 \tab 1971 \tab 1972 \tab 1973 \tab 1974 \tab 1975 \tab 1976 \tab 1977 \tab 1978 \tab 1979 \tab 1980 \tab 1981 \tab 1982 \tab 1983 \tab 1984 \tab 1985 \tab 1986 \tab 1987 \tab 1988 \tab 1989 \tab 1990 \tab 1991 \tab 1992 \tab 1993 \tab 1994 \tab 1995 \tab 1996 \tab 1997 \tab 1998 \tab 1999 \tab 2000 \tab 2001 \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 3 \tab 4 \tab 4 \tab 3 \tab 3 \tab 2 \tab 2 \tab 2 \tab 1 \tab 1 \tab 2 \tab 4 \tab 3 \tab 1 \tab 6 \tab 1 \tab 5 \tab 6 \tab 4 \tab 8 \tab 4 \tab 1 \tab 2 \tab 6 \tab 6 \tab 14 \tab 9 \tab 9 \tab 7 \tab 7 \tab 7 \tab 10 \tab 13 \tab 6 \tab 9 \tab 8 \tab 7 \tab 6 \tab 11 \tab 14 \tab 13 \tab 16 \tab 16 \tab 7 \tab 20 \tab 14 \tab 13 \tab 16 \tab 12 \tab 14 \tab 18 \tab 16 \tab 22 \tab 23 \tab 23 \tab 24 \tab 21 \tab 22 \tab 11 \tab 17 \tab 19 \tab 23 \tab 25 \tab 15 \tab 22 \tab 30 \tab 24 \tab 26 \tab 26 \tab 24 \tab 20 \tab 28 \tab 30 \tab 35 \tab 64 \tab 57 \tab 95 \tab 5 \tab 14 \tab 2765 \cr
+   Total \tab 1616 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 3 \tab 4 \tab 4 \tab 3 \tab 3 \tab 2 \tab 2 \tab 2 \tab 1 \tab 1 \tab 2 \tab 4 \tab 3 \tab 1 \tab 6 \tab 1 \tab 5 \tab 6 \tab 4 \tab 8 \tab 4 \tab 1 \tab 2 \tab 6 \tab 6 \tab 14 \tab 9 \tab 9 \tab 7 \tab 7 \tab 7 \tab 10 \tab 13 \tab 6 \tab 9 \tab 8 \tab 7 \tab 6 \tab 11 \tab 14 \tab 13 \tab 16 \tab 16 \tab 7 \tab 20 \tab 14 \tab 13 \tab 16 \tab 12 \tab 14 \tab 18 \tab 16 \tab 22 \tab 23 \tab 23 \tab 24 \tab 21 \tab 22 \tab 11 \tab 17 \tab 19 \tab 23 \tab 25 \tab 15 \tab 22 \tab 30 \tab 24 \tab 26 \tab 26 \tab 24 \tab 20 \tab 28 \tab 30 \tab 35 \tab 64 \tab 57 \tab 95 \tab 5 \tab 14 \tab 2765 \cr
+}
 }
 
 \seealso{

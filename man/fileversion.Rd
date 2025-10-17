@@ -20,9 +20,14 @@ Question fileversion
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org}{GSS Data Explorer page for \code{fileversion}}.
+
+Counts by year:\tabular{lll}{
+   year \tab 7222.21 \tab Total \cr
+   Total \tab 0 \tab 0 \cr
+}
 }
 
 \keyword{variable}

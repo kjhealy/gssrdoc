@@ -24,19 +24,26 @@ D. Do people in these groups tend to be unintelligent or tend to be intelligent?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018, 2021, 2022 \cr
+   A/B/C \tab 1990, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1200/vshow}{GSS Data Explorer page for \code{intlhsps}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 1-unintelligent \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7-intelligent \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1990 \tab - \tab 21 \tab 101 \tab 255 \tab 561 \tab 189 \tab 65 \tab 36 \tab 112 \tab 32 \tab - \tab 1372 \cr
+   2000 \tab 1419 \tab 13 \tab 79 \tab 208 \tab 636 \tab 196 \tab 71 \tab 50 \tab 131 \tab 14 \tab - \tab 2817 \cr
+   2018 \tab 789 \tab 11 \tab 45 \tab 129 \tab 824 \tab 301 \tab 116 \tab 74 \tab 37 \tab 22 \tab - \tab 2348 \cr
+   2021 \tab 1316 \tab 18 \tab 40 \tab 196 \tab 1572 \tab 472 \tab 173 \tab 195 \tab 12 \tab 7 \tab 31 \tab 4032 \cr
+   2022 \tab 1168 \tab 11 \tab 26 \tab 181 \tab 1275 \tab 431 \tab 170 \tab 197 \tab 52 \tab 22 \tab 11 \tab 3544 \cr
+   Total \tab 4692 \tab 74 \tab 291 \tab 969 \tab 4868 \tab 1589 \tab 595 \tab 552 \tab 344 \tab 97 \tab 42 \tab 14113 \cr
+}
 }
 
 \seealso{

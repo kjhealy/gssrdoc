@@ -24,16 +24,23 @@ D. Banking and insurance.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4074/vshow}{GSS Data Explorer page for \code{ownbanks}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab own it \tab control prices \tab leave alone \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 20 \tab 302 \tab 292 \tab 48 \tab 15 \tab 1534 \cr
+   1990 \tab 155 \tab 43 \tab 526 \tab 437 \tab 164 \tab 47 \tab 1372 \cr
+   Total \tab 1012 \tab 63 \tab 828 \tab 729 \tab 212 \tab 62 \tab 2906 \cr
+}
 }
 
 \seealso{

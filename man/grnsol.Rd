@@ -25,19 +25,26 @@ Question C. And how willing would you be to accept cuts in your standard of livi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4738/vshow}{GSS Data Explorer page for \code{grnsol}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 91 \tab 410 \tab 353 \tab 385 \tab 229 \tab 36 \tab 53 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 57 \tab 363 \tab 306 \tab 390 \tab 214 \tab 29 \tab 27 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 64 \tab 280 \tab 312 \tab 240 \tab 274 \tab 47 \tab 59 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 77 \tab 409 \tab 288 \tab 276 \tab 324 \tab 50 \tab 6 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 111 \tab 505 \tab 487 \tab 356 \tab 319 \tab 66 \tab 172 \tab 13 \tab 4032 \cr
+   Total \tab 5813 \tab 400 \tab 1967 \tab 1746 \tab 1647 \tab 1360 \tab 228 \tab 317 \tab 13 \tab 13491 \cr
+}
 }
 
 \seealso{

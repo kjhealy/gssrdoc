@@ -26,15 +26,21 @@ E. The government should spend less on benefits for the poor.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4299/vshow}{GSS Data Explorer page for \code{govless}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 52 \tab 201 \tab 306 \tab 663 \tab 274 \tab 33 \tab 35 \tab 1819 \cr
+   Total \tab 255 \tab 52 \tab 201 \tab 306 \tab 663 \tab 274 \tab 33 \tab 35 \tab 1819 \cr
+}
 }
 
 \seealso{

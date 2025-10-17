@@ -33,15 +33,21 @@ Question A. WHY DO YOU THINK YOUR RACIAL CLASSIFICATION OF THE RESPONDENT IN "A"
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5281/vshow}{GSS Data Explorer page for \code{difrace2}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab physically doesn't match race \tab racially mixed \tab feelings, not biology matters \tab Total \cr
+   1996 \tab 2897 \tab 3 \tab 3 \tab 1 \tab 2904 \cr
+   Total \tab 2897 \tab 3 \tab 3 \tab 1 \tab 2904 \cr
+}
 }
 
 \seealso{

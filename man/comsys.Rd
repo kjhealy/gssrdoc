@@ -27,15 +27,21 @@ C. Intentionally damaging or destroying a computer system.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5239/vshow}{GSS Data Explorer page for \code{comsys}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab reprimand \tab dismissal from the military/fired by the government \tab one year in prison \tab 5-9 years in prison \tab 10-20 years in prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 23 \tab 287 \tab 174 \tab 377 \tab 332 \tab 152 \tab 57 \tab 17 \tab 2817 \cr
+   Total \tab 1398 \tab 23 \tab 287 \tab 174 \tab 377 \tab 332 \tab 152 \tab 57 \tab 17 \tab 2817 \cr
+}
 }
 
 \seealso{

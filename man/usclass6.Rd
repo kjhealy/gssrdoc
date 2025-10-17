@@ -25,15 +25,21 @@ F. Only if differences in income and social standing are large enough is there a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/238/vshow}{GSS Data Explorer page for \code{usclass6}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 154 \tab 653 \tab 411 \tab 139 \tab 90 \tab 26 \tab 1473 \cr
+   Total \tab 0 \tab 154 \tab 653 \tab 411 \tab 139 \tab 90 \tab 26 \tab 1473 \cr
+}
 }
 
 \seealso{

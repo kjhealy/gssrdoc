@@ -25,18 +25,25 @@ E. A genetic or inherited problem
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1992/vshow}{GSS Data Explorer page for \code{genetics}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 155 \tab 507 \tab 419 \tab 269 \tab 78 \tab 16 \tab 2904 \cr
+   2006 \tab 3073 \tab 201 \tab 681 \tab 331 \tab 152 \tab 58 \tab 14 \tab 4510 \cr
+   2018 \tab 1175 \tab 167 \tab 498 \tab 288 \tab 163 \tab 28 \tab 29 \tab 2348 \cr
+   Total \tab 5708 \tab 523 \tab 1686 \tab 1038 \tab 584 \tab 164 \tab 59 \tab 9762 \cr
+}
 }
 
 \seealso{

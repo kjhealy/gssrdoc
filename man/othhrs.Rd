@@ -21,15 +21,21 @@ Question How many hours per week do you normally work in these other jobs, not i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4565/vshow}{GSS Data Explorer page for \code{othhrs}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 2 \tab 20 \tab 23 \tab 25 \tab 26 \tab 3 \tab 30 \tab 33 \tab 35 \tab 4 \tab 40 \tab 42 \tab 45 \tab 47 \tab 48 \tab 5 \tab 50 \tab 56 \tab 58 \tab 6 \tab 60 \tab 65 \tab 72 \tab 8 \tab 80 \tab 89 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1989 \tab 1283 \tab 8 \tab 25 \tab 9 \tab 2 \tab 3 \tab 19 \tab 3 \tab 16 \tab 16 \tab 1 \tab 5 \tab 1 \tab 14 \tab 7 \tab 1 \tab 3 \tab 12 \tab 10 \tab 1 \tab 1 \tab 1 \tab 1 \tab 13 \tab 4 \tab 1 \tab 1 \tab 10 \tab 3 \tab 1 \tab 1 \tab 14 \tab 1 \tab 1 \tab 1 \tab 1 \tab 43 \tab 1537 \cr
+   Total \tab 1283 \tab 8 \tab 25 \tab 9 \tab 2 \tab 3 \tab 19 \tab 3 \tab 16 \tab 16 \tab 1 \tab 5 \tab 1 \tab 14 \tab 7 \tab 1 \tab 3 \tab 12 \tab 10 \tab 1 \tab 1 \tab 1 \tab 1 \tab 13 \tab 4 \tab 1 \tab 1 \tab 10 \tab 3 \tab 1 \tab 1 \tab 14 \tab 1 \tab 1 \tab 1 \tab 1 \tab 43 \tab 1537 \cr
+}
 }
 
 \seealso{

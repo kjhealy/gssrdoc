@@ -36,16 +36,21 @@ Question If you had to choose, which of these races do you identify most with?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7751/vshow}{GSS Data Explorer page for \code{racerank1}}.
+
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab white \tab black or african-american \tab american indian or alaska native \tab asian indian \tab chinese \tab filipino \tab japanese \tab korean \tab vietnamese \tab other asian \tab guamanian or chamorro \tab samoan \tab other pacific islander \tab some other race \tab hispanic \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 23 \tab 2514 \tab 565 \tab 63 \tab 36 \tab 26 \tab 25 \tab 8 \tab 11 \tab 9 \tab 16 \tab 1 \tab 2 \tab 3 \tab 66 \tab 146 \tab 9 \tab 19 \tab 2 \tab 3544 \cr
+   Total \tab 23 \tab 2514 \tab 565 \tab 63 \tab 36 \tab 26 \tab 25 \tab 8 \tab 11 \tab 9 \tab 16 \tab 1 \tab 2 \tab 3 \tab 66 \tab 146 \tab 9 \tab 19 \tab 2 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

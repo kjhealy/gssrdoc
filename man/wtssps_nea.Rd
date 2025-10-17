@@ -21,9 +21,9 @@ Question POSTSTRATIFICATION WEIGHT FOR ANALYZING NEA FOLLOW-ON
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 

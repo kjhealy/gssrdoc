@@ -26,15 +26,21 @@ B. Second, reducing welfare benefits to make working for a living more attractiv
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1229/vshow}{GSS Data Explorer page for \code{lessfare}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 445 \tab 494 \tab 149 \tab 184 \tab 53 \tab 38 \tab 9 \tab 1372 \cr
+   Total \tab 0 \tab 445 \tab 494 \tab 149 \tab 184 \tab 53 \tab 38 \tab 9 \tab 1372 \cr
+}
 }
 
 \seealso{

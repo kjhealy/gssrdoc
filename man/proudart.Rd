@@ -25,18 +25,24 @@ G. Its achievements in the arts and literature
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4846/vshow}{GSS Data Explorer page for \code{proudart}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 386 \tab 714 \tab 112 \tab 32 \tab 91 \tab 32 \tab 2904 \cr
+   2004 \tab 1596 \tab 469 \tab 581 \tab 72 \tab 12 \tab 81 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 421 \tab 622 \tab 83 \tab 18 \tab 126 \tab 4 \tab 2538 \cr
+   Total \tab 4397 \tab 1276 \tab 1917 \tab 267 \tab 62 \tab 298 \tab 37 \tab 8254 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ Question Do you feel that the quality of life is better in America than in most 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1597/vshow}{GSS Data Explorer page for \code{amrank}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab better in america \tab about the same \tab better in oth adv cntry \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 1155 \tab 220 \tab 61 \tab 35 \tab 3 \tab 2992 \cr
+   Total \tab 1518 \tab 1155 \tab 220 \tab 61 \tab 35 \tab 3 \tab 2992 \cr
+}
 }
 
 \seealso{

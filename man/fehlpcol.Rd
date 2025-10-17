@@ -26,15 +26,21 @@ B. The government should increase opportunities for women to go to college.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4013/vshow}{GSS Data Explorer page for \code{fehlpcol}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly in favor \tab in favor \tab neither \tab against \tab strongly against \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 86 \tab 189 \tab 254 \tab 110 \tab 15 \tab 23 \tab 1534 \cr
+   Total \tab 857 \tab 86 \tab 189 \tab 254 \tab 110 \tab 15 \tab 23 \tab 1534 \cr
+}
 }
 
 \seealso{

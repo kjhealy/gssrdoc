@@ -20,13 +20,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `drink5`](https://gssdataexplorer.norc.org/variables/3104/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:----------|:---------|:-----|
+#'  |2004  |2742 |4                           |5                          |12                          |11                                       |7                                           |10                         |11                   |1                          |2          |7         |2812  |
+#'  |Total |2742 |4                           |5                          |12                          |11                                       |7                                           |10                         |11                   |1                          |2          |7         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -59,13 +65,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `drink3`](https://gssdataexplorer.norc.org/variables/3105/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |every day or nearly every day |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:-----------------------------|:----------|:---------|:-----|
+#'  |2004  |2673 |6                           |11                         |20                          |30                                       |13                                          |28                         |18                   |3                          |1                             |2          |7         |2812  |
+#'  |Total |2673 |6                           |11                         |20                          |30                                       |13                                          |28                         |18                   |3                          |1                             |2          |7         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -98,13 +110,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `drink1`](https://gssdataexplorer.norc.org/variables/3106/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |every day or nearly every day |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:-----------------------------|:----------|:---------|:-----|
+#'  |2004  |2543 |7                           |27                         |32                          |57                                       |26                                          |56                         |33                   |12                         |9                             |3          |7         |2812  |
+#'  |Total |2543 |7                           |27                         |32                          |57                                       |26                                          |56                         |33                   |12                         |9                             |3          |7         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -137,13 +155,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `drinkmin`](https://gssdataexplorer.norc.org/variables/3107/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |every day or nearly every day |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:-----------------------------|:----------|:---------|:-----|
+#'  |2004  |2448 |133                         |37                         |32                          |43                                       |15                                          |37                         |31                   |16                         |7                             |6          |7         |2812  |
+#'  |Total |2448 |133                         |37                         |32                          |43                                       |15                                          |37                         |31                   |16                         |7                             |6          |7         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -169,13 +193,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `churchtx`](https://gssdataexplorer.norc.org/variables/3108/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2004  |2352 |239 |215 |1          |5         |2812  |
+#'  |Total |2352 |239 |215 |1          |5         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -201,13 +231,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `infrmgrp`](https://gssdataexplorer.norc.org/variables/3109/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2004  |1340 |394 |1071 |1          |6         |2812  |
+#'  |Total |1340 |394 |1071 |1          |6         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -233,13 +269,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `typfrat`](https://gssdataexplorer.norc.org/variables/3110/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |2004  |2707 |19  |80 |6         |2812  |
+#'  |Total |2707 |19  |80 |6         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -265,13 +307,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `typserv`](https://gssdataexplorer.norc.org/variables/3111/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |2004  |2666 |32  |108 |6         |2812  |
+#'  |Total |2666 |32  |108 |6         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -297,13 +345,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `typvet`](https://gssdataexplorer.norc.org/variables/3112/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |2004  |2729 |10  |67 |6         |2812  |
+#'  |Total |2729 |10  |67 |6         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -329,13 +383,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `typpolit`](https://gssdataexplorer.norc.org/variables/3113/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
+#'  |2004  |2744 |8   |53 |1          |6         |2812  |
+#'  |Total |2744 |8   |53 |1          |6         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks

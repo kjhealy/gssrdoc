@@ -23,27 +23,34 @@ A. Do you sometimes drink more than you think you should?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1977, 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/531/vshow}{GSS Data Explorer page for \code{drunk}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1977 \tab 426 \tab 407 \tab 677 \tab 20 \tab - \tab 1530 \cr
+   1978 \tab 422 \tab 388 \tab 711 \tab 8 \tab 3 \tab 1532 \cr
+   1980 \tab 391 \tab 415 \tab 642 \tab 17 \tab 3 \tab 1468 \cr
+   1983 \tab 416 \tab 436 \tab 740 \tab 7 \tab - \tab 1599 \cr
+   1984 \tab 399 \tab 456 \tab 598 \tab 17 \tab 3 \tab 1473 \cr
+   1986 \tab 477 \tab 337 \tab 647 \tab 7 \tab 2 \tab 1470 \cr
+   1987 \tab 534 \tab 500 \tab 772 \tab 13 \tab - \tab 1819 \cr
+   1988 \tab 792 \tab 255 \tab 424 \tab 10 \tab - \tab 1481 \cr
+   1989 \tab 844 \tab 245 \tab 435 \tab 10 \tab 3 \tab 1537 \cr
+   1990 \tab 736 \tab 220 \tab 404 \tab 9 \tab 3 \tab 1372 \cr
+   1991 \tab 816 \tab 201 \tab 494 \tab 2 \tab 4 \tab 1517 \cr
+   1993 \tab 873 \tab 240 \tab 491 \tab 1 \tab 1 \tab 1606 \cr
+   1994 \tab 2639 \tab 134 \tab 217 \tab 1 \tab 1 \tab 2992 \cr
+   Total \tab 9765 \tab 4234 \tab 7252 \tab 122 \tab 23 \tab 21396 \cr
+}
 }
 
 \seealso{

@@ -27,32 +27,37 @@ Question About how many people work at the location where you work? (Count part-
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1991, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4567/vshow}{GSS Data Explorer page for \code{localnum}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 1-9 \tab 10-49 \tab 50-99 \tab 100-499 \tab 500-999 \tab 1,000-1,999 \tab 2,000+ \tab don't know \tab no answer \tab skipped on web \tab 11 \tab Total \cr
+   1989 \tab 976 \tab 88 \tab 126 \tab 79 \tab 95 \tab 33 \tab 21 \tab 38 \tab 20 \tab 61 \tab - \tab - \tab 1537 \cr
+   1991 \tab 605 \tab 231 \tab 244 \tab 112 \tab 166 \tab 48 \tab 26 \tab 60 \tab 13 \tab 12 \tab - \tab - \tab 1517 \cr
+   1994 \tab 1023 \tab 532 \tab 460 \tab 204 \tab 378 \tab 123 \tab 103 \tab 142 \tab 22 \tab 5 \tab - \tab - \tab 2992 \cr
+   1996 \tab 901 \tab 539 \tab 443 \tab 236 \tab 390 \tab 123 \tab 73 \tab 161 \tab 30 \tab 8 \tab - \tab - \tab 2904 \cr
+   1998 \tab 913 \tab 490 \tab 473 \tab 206 \tab 365 \tab 115 \tab 82 \tab 139 \tab 25 \tab 24 \tab - \tab - \tab 2832 \cr
+   2000 \tab 926 \tab 490 \tab 442 \tab 216 \tab 361 \tab 119 \tab 95 \tab 126 \tab 24 \tab 18 \tab - \tab - \tab 2817 \cr
+   2002 \tab 969 \tab 469 \tab 432 \tab 236 \tab 321 \tab 100 \tab 94 \tab 116 \tab 15 \tab 13 \tab - \tab - \tab 2765 \cr
+   2004 \tab 945 \tab 502 \tab 444 \tab 216 \tab 353 \tab 100 \tab 63 \tab 142 \tab 10 \tab 37 \tab - \tab - \tab 2812 \cr
+   2006 \tab 2656 \tab 524 \tab 378 \tab 238 \tab 354 \tab 108 \tab 74 \tab 144 \tab 22 \tab 12 \tab - \tab - \tab 4510 \cr
+   2008 \tab 754 \tab 313 \tab 265 \tab 145 \tab 247 \tab 81 \tab 65 \tab 118 \tab 20 \tab 15 \tab - \tab - \tab 2023 \cr
+   2010 \tab 857 \tab 325 \tab 271 \tab 156 \tab 212 \tab 58 \tab 39 \tab 93 \tab 15 \tab 18 \tab - \tab - \tab 2044 \cr
+   2012 \tab 795 \tab 303 \tab 263 \tab 123 \tab 236 \tab 65 \tab 55 \tab 104 \tab 12 \tab 18 \tab - \tab - \tab 1974 \cr
+   2014 \tab 993 \tab 396 \tab 354 \tab 184 \tab 306 \tab 93 \tab 59 \tab 135 \tab 12 \tab 6 \tab - \tab - \tab 2538 \cr
+   2016 \tab 1141 \tab 432 \tab 407 \tab 195 \tab 318 \tab 98 \tab 62 \tab 174 \tab 19 \tab 21 \tab - \tab - \tab 2867 \cr
+   2018 \tab 900 \tab 342 \tab 329 \tab 176 \tab 285 \tab 70 \tab 58 \tab 158 \tab 13 \tab 17 \tab - \tab - \tab 2348 \cr
+   2021 \tab 1779 \tab 418 \tab 431 \tab 235 \tab 440 \tab 137 \tab 85 \tab 329 \tab 120 \tab 46 \tab 12 \tab - \tab 4032 \cr
+   2022 \tab 1503 \tab 470 \tab 454 \tab 232 \tab 357 \tab 110 \tab 71 \tab 234 \tab - \tab 7 \tab 4 \tab 102 \tab 3544 \cr
+   Total \tab 18636 \tab 6864 \tab 6216 \tab 3189 \tab 5184 \tab 1581 \tab 1125 \tab 2413 \tab 392 \tab 338 \tab 16 \tab 102 \tab 46056 \cr
+}
 }
 
 \seealso{

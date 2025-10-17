@@ -25,20 +25,26 @@ Question How often during the past month have you felt used up at the end of the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2830/vshow}{GSS Data Explorer page for \code{usedup}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very often \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 333 \tab 419 \tab 597 \tab 301 \tab 123 \tab 7 \tab 16 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 330 \tab 401 \tab 587 \tab 280 \tab 123 \tab 3 \tab 10 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 200 \tab 279 \tab 382 \tab 210 \tab 89 \tab 3 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 187 \tab 298 \tab 423 \tab 245 \tab 88 \tab 4 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 207 \tab 312 \tab 503 \tab 279 \tab 113 \tab 1 \tab 33 \tab - \tab 2348 \cr
+   2022 \tab 1557 \tab 333 \tab 422 \tab 687 \tab 349 \tab 161 \tab 5 \tab 13 \tab 17 \tab 3544 \cr
+   Total \tab 8347 \tab 1590 \tab 2131 \tab 3179 \tab 1664 \tab 697 \tab 23 \tab 101 \tab 17 \tab 17749 \cr
+}
 }
 
 \seealso{

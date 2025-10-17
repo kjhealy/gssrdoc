@@ -21,15 +21,21 @@ Question And finally, what amount of weekly income would you use as a "poverty l
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5204/vshow}{GSS Data Explorer page for \code{minthree}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 100 \tab 1000 \tab 110 \tab 115 \tab 120 \tab 1200 \tab 125 \tab 130 \tab 135 \tab 140 \tab 145 \tab 150 \tab 153 \tab 154 \tab 160 \tab 165 \tab 170 \tab 175 \tab 180 \tab 185 \tab 190 \tab 200 \tab 210 \tab 220 \tab 225 \tab 230 \tab 231 \tab 25 \tab 250 \tab 270 \tab 275 \tab 280 \tab 288 \tab 290 \tab 295 \tab 30 \tab 300 \tab 305 \tab 307 \tab 325 \tab 326 \tab 340 \tab 346 \tab 350 \tab 360 \tab 3700 \tab 375 \tab 380 \tab 384 \tab 385 \tab 400 \tab 420 \tab 425 \tab 45 \tab 450 \tab 461 \tab 480 \tab 50 \tab 500 \tab 550 \tab 60 \tab 600 \tab 65 \tab 650 \tab 673 \tab 70 \tab 700 \tab 75 \tab 750 \tab 80 \tab 800 \tab 85 \tab 90 \tab 950 \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 51 \tab 10 \tab 3 \tab 1 \tab 3 \tab 1 \tab 15 \tab 2 \tab 1 \tab 1 \tab 1 \tab 113 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab 44 \tab 4 \tab 1 \tab 2 \tab 252 \tab 1 \tab 2 \tab 17 \tab 3 \tab 2 \tab 1 \tab 142 \tab 2 \tab 17 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 214 \tab 1 \tab 1 \tab 6 \tab 1 \tab 1 \tab 2 \tab 88 \tab 1 \tab 1 \tab 10 \tab 3 \tab 1 \tab 1 \tab 134 \tab 1 \tab 2 \tab 1 \tab 23 \tab 1 \tab 2 \tab 8 \tab 93 \tab 3 \tab 3 \tab 19 \tab 2 \tab 2 \tab 1 \tab 2 \tab 9 \tab 11 \tab 4 \tab 4 \tab 7 \tab 3 \tab 5 \tab 1 \tab 1 \tab 222 \tab 1606 \cr
+   Total \tab 0 \tab 51 \tab 10 \tab 3 \tab 1 \tab 3 \tab 1 \tab 15 \tab 2 \tab 1 \tab 1 \tab 1 \tab 113 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab 44 \tab 4 \tab 1 \tab 2 \tab 252 \tab 1 \tab 2 \tab 17 \tab 3 \tab 2 \tab 1 \tab 142 \tab 2 \tab 17 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 214 \tab 1 \tab 1 \tab 6 \tab 1 \tab 1 \tab 2 \tab 88 \tab 1 \tab 1 \tab 10 \tab 3 \tab 1 \tab 1 \tab 134 \tab 1 \tab 2 \tab 1 \tab 23 \tab 1 \tab 2 \tab 8 \tab 93 \tab 3 \tab 3 \tab 19 \tab 2 \tab 2 \tab 1 \tab 2 \tab 9 \tab 11 \tab 4 \tab 4 \tab 7 \tab 3 \tab 5 \tab 1 \tab 1 \tab 222 \tab 1606 \cr
+}
 }
 
 \seealso{

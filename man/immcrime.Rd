@@ -26,19 +26,25 @@ A. Immigrants increase crime rates
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2022 \tab A/C/- \tab partial \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   A/C/- \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4859/vshow}{GSS Data Explorer page for \code{immcrime}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 95 \tab 328 \tab 368 \tab 388 \tab 86 \tab 45 \tab 57 \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 83 \tab 235 \tab 345 \tab 437 \tab 84 \tab 31 \tab 1 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 50 \tab 202 \tab 311 \tab 519 \tab 142 \tab 47 \tab 3 \tab - \tab 2538 \cr
+   2022 \tab 1203 \tab 107 \tab 323 \tab 734 \tab 777 \tab 372 \tab 20 \tab 4 \tab 4 \tab 3544 \cr
+   Total \tab 5600 \tab 335 \tab 1088 \tab 1758 \tab 2121 \tab 684 \tab 143 \tab 65 \tab 4 \tab 11798 \cr
+}
 }
 
 \seealso{

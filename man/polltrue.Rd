@@ -24,15 +24,21 @@ Question How often do you think you can trust the results of surveys, Do you thi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/777/vshow}{GSS Data Explorer page for \code{polltrue}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost always \tab most of the time \tab some of the time \tab hardly ever \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 157 \tab 722 \tab 802 \tab 82 \tab 85 \tab 12 \tab 1860 \cr
+   Total \tab 0 \tab 157 \tab 722 \tab 802 \tab 82 \tab 85 \tab 12 \tab 1860 \cr
+}
 }
 
 \seealso{

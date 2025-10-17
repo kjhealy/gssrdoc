@@ -26,16 +26,23 @@ C. People who are better off should help friends who are less well off
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4231/vshow}{GSS Data Explorer page for \code{helpfrds}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 188 \tab 470 \tab 360 \tab 91 \tab 7 \tab 24 \tab 9 \tab 2765 \cr
+   2018 \tab 1175 \tab 178 \tab 503 \tab 368 \tab 95 \tab 16 \tab 10 \tab 3 \tab 2348 \cr
+   Total \tab 2791 \tab 366 \tab 973 \tab 728 \tab 186 \tab 23 \tab 34 \tab 12 \tab 5113 \cr
+}
 }
 
 \seealso{

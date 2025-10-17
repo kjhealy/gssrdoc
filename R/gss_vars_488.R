@@ -18,15 +18,23 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2012 |A/B/-   |partial      |
-#'  |2022 |A/C/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/-   |2012  |
+#'  |A/B/C   |2002  |
+#'  |A/C/-   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `happy7`](https://gssdataexplorer.norc.org/variables/4451/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |completely happy |very happy |fairly happy |neither happy nor unhappy |fairly unhappy |very unhappy |completely unhappy |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:----------------|:----------|:------------|:-------------------------|:--------------|:------------|:------------------|:------------|:---------|:--------------|:-----|
+#'  |2002  |1594 |141              |510        |391          |69                        |32             |16           |1                  |7            |4         |-              |2765  |
+#'  |2012  |672  |148              |563        |440          |77                        |35             |16           |5                  |11           |7         |-              |1974  |
+#'  |2022  |2386 |120              |425        |413          |94                        |50             |17           |2                  |29           |5         |3              |3544  |
+#'  |Total |4652 |409              |1498       |1244         |240                       |117            |49           |8                  |47           |16        |3              |8283  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -58,14 +66,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2012 |A/B/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/-   |2012  |
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `satjob7`](https://gssdataexplorer.norc.org/variables/4452/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |completely satisfied |very satisfied |fairly satisfied |neither satisfied nor dissatisfied |fairly dissatisfied |very dissatisfied |completely dissatisfied |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:--------------|:----------------|:----------------------------------|:-------------------|:-----------------|:-----------------------|:------------|:---------|:-----|
+#'  |2002  |1891 |127                  |289            |264              |53                                 |47                  |29                |11                      |45           |9         |2765  |
+#'  |2012  |1194 |122                  |264            |260              |54                                 |40                  |13                |9                       |1            |17        |1974  |
+#'  |Total |3085 |249                  |553            |524              |107                                |87                  |42                |20                      |46           |26        |4739  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -97,15 +112,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2012 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2012, 2018 |
+#'  |A/B/C   |2002       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `satfam7`](https://gssdataexplorer.norc.org/variables/4453/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |completely satisfied |very satisfied |fairly satisfied |neither satisfied nor dissatisfied |fairly dissatisfied |very dissatisfied |completely dissatisfied |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:--------------|:----------------|:----------------------------------|:-------------------|:-----------------|:-----------------------|:------------|:---------|:-----|
+#'  |2002  |1594 |265                  |467            |286              |70                                 |31                  |20                |9                       |19           |4         |2765  |
+#'  |2012  |672  |254                  |548            |316              |72                                 |41                  |22                |10                      |13           |26        |1974  |
+#'  |2018  |1173 |331                  |450            |254              |60                                 |40                  |23                |9                       |3            |5         |2348  |
+#'  |Total |3439 |850                  |1465           |856              |202                                |112                 |65                |28                      |35           |35        |7087  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -132,13 +154,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fewknokd`](https://gssdataexplorer.norc.org/variables/4454/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |work full-time |work part-time |stay at home |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:------------|:------------|:---------|:-----|
+#'  |2002  |1594 |841            |97             |22           |206          |5         |2765  |
+#'  |Total |1594 |841            |97             |22           |206          |5         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -167,15 +195,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2012 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2012       |
+#'  |A/B/C   |1994, 2002 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `twoincs1`](https://gssdataexplorer.norc.org/variables/4455/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1994  |1545 |277            |527   |417                        |157      |17                |26         |26        |2992  |
+#'  |2002  |1594 |341            |327   |369                        |-        |109               |23         |2         |2765  |
+#'  |2012  |672  |249            |572   |307                        |121      |18                |28         |7         |1974  |
+#'  |Total |3811 |867            |1426  |1093                       |278      |144               |77         |35        |7731  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -206,14 +241,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2012 |A/B/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/-   |2012  |
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `earnshh`](https://gssdataexplorer.norc.org/variables/4456/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |spouse has no income |i have much higher income |i have higher income |we have about the same income |spouse has a higher income |spouse partner has much higher income |i have no income |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------|:-------------------------|:--------------------|:-----------------------------|:--------------------------|:-------------------------------------|:----------------|:----------|:---------|:-----|
+#'  |2002  |2058 |65                   |127                       |100                  |75                            |198                        |70                                    |29               |18         |25        |2765  |
+#'  |2012  |1274 |58                   |112                       |142                  |55                            |236                        |54                                    |34               |2          |7         |1974  |
+#'  |Total |3332 |123                  |239                       |242                  |130                           |434                        |124                                   |63               |20         |32        |4739  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -243,14 +285,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B     |partial      |
-#'  |2022 |A/-     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/-     |2022  |
+#'  |A/B     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ssfchild`](https://gssdataexplorer.norc.org/variables/4457/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------|:-----|
+#'  |2012  |672  |124            |451   |152                        |315      |188               |62         |10        |-              |1974  |
+#'  |2022  |2381 |295            |404   |181                        |138      |75                |54         |9         |7              |3544  |
+#'  |Total |3053 |419            |855   |333                        |453      |263               |116        |19        |7              |5518  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -280,14 +329,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B     |partial      |
-#'  |2022 |A/-     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/-     |2022  |
+#'  |A/B     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ssmchild`](https://gssdataexplorer.norc.org/variables/4458/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------|:-----|
+#'  |2012  |672  |116            |411   |158                        |330      |213               |63         |11        |-              |1974  |
+#'  |2022  |2381 |285            |385   |186                        |148      |85                |58         |10        |6              |3544  |
+#'  |Total |3053 |401            |796   |344                        |478      |298               |121        |21        |6              |5518  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -317,13 +373,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kidfinbu`](https://gssdataexplorer.norc.org/variables/4459/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2012  |672 |51             |288   |198                        |515      |214               |30         |6         |1974  |
+#'  |Total |672 |51             |288   |198                        |515      |214               |30         |6         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -353,13 +415,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kidjob`](https://gssdataexplorer.norc.org/variables/4460/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2012  |672 |41             |381   |218                        |492      |126               |38         |6         |1974  |
+#'  |Total |672 |41             |381   |218                        |492      |126               |38         |6         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles

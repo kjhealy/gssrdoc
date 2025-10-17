@@ -26,19 +26,28 @@ F. Retirement benefits.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4062/vshow}{GSS Data Explorer page for \code{spretire}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 80 \tab 197 \tab 270 \tab 71 \tab 18 \tab 25 \tab 16 \tab 1534 \cr
+   1990 \tab 155 \tab 142 \tab 408 \tab 471 \tab 85 \tab 26 \tab 46 \tab 39 \tab 1372 \cr
+   1996 \tab 1572 \tab 166 \tab 474 \tab 496 \tab 99 \tab 26 \tab 33 \tab 38 \tab 2904 \cr
+   2006 \tab 2992 \tab 370 \tab 589 \tab 422 \tab 87 \tab 20 \tab 30 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 239 \tab 603 \tab 440 \tab 65 \tab 16 \tab 14 \tab 13 \tab 2867 \cr
+   Total \tab 7053 \tab 997 \tab 2271 \tab 2099 \tab 407 \tab 106 \tab 148 \tab 106 \tab 13187 \cr
+}
 }
 
 \seealso{

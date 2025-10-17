@@ -22,18 +22,23 @@ Question Do/did) you work in your own family business or farm?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7224/vshow}{GSS Data Explorer page for \code{wrkslffam}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   2018 \tab 2109 \tab 130 \tab 102 \tab 7 \tab - \tab - \tab 2348 \cr
+   2021 \tab 3574 \tab 193 \tab 236 \tab 5 \tab 1 \tab 23 \tab 4032 \cr
+   2022 \tab 3129 \tab 177 \tab 212 \tab 7 \tab 3 \tab 16 \tab 3544 \cr
+   Total \tab 8812 \tab 500 \tab 550 \tab 19 \tab 4 \tab 39 \tab 9924 \cr
+}
 }
 
 \keyword{variable}

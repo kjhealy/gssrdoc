@@ -25,20 +25,26 @@ H. My job lets me use my skills and abilities
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2781/vshow}{GSS Data Explorer page for \code{myskills}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 711 \tab 879 \tab 142 \tab 43 \tab 7 \tab 14 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 698 \tab 831 \tab 155 \tab 29 \tab 9 \tab 12 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 481 \tab 576 \tab 87 \tab 19 \tab 1 \tab 23 \tab - \tab 2044 \cr
+   2014 \tab 1296 \tab 477 \tab 670 \tab 82 \tab 13 \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 510 \tab 801 \tab 86 \tab 18 \tab 3 \tab 30 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 797 \tab 1002 \tab 132 \tab 29 \tab 8 \tab 13 \tab 17 \tab 3544 \cr
+   Total \tab 8344 \tab 3674 \tab 4759 \tab 684 \tab 151 \tab 28 \tab 92 \tab 17 \tab 17749 \cr
+}
 }
 
 \seealso{

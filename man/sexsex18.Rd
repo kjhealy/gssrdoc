@@ -26,16 +26,22 @@ Question Since the age of 18, have your sex partners been:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3906/vshow}{GSS Data Explorer page for \code{sexsex18}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab only men \tab some women, but mostly men \tab equally men and women \tab some men, but mostly women \tab only women \tab i have not had any sex partners \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 239 \tab 890 \tab 36 \tab 7 \tab 13 \tab 754 \tab 31 \tab 3 \tab 50 \tab 2023 \cr
+   2012 \tab 237 \tab 859 \tab 56 \tab 11 \tab 22 \tab 691 \tab 57 \tab - \tab 41 \tab 1974 \cr
+   Total \tab 476 \tab 1749 \tab 92 \tab 18 \tab 35 \tab 1445 \tab 88 \tab 3 \tab 91 \tab 3997 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Question For which reason may people experience shortness of breath more quickly
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3481/vshow}{GSS Data Explorer page for \code{upbreath}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a slower pulse rate \tab a greater gravitational force on the body \tab a lower percent of oxygen in the blood \tab a faster heartbeat \tab a slower circulation of blood \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 518 \tab 24 \tab 181 \tab 1016 \tab 67 \tab 58 \tab 137 \tab 22 \tab 2023 \cr
+   Total \tab 518 \tab 24 \tab 181 \tab 1016 \tab 67 \tab 58 \tab 137 \tab 22 \tab 2023 \cr
+}
 }
 
 \seealso{

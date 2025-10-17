@@ -24,19 +24,27 @@ Question B. What about a married person having sexual relations with someone oth
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1994, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4631/vshow}{GSS Data Explorer page for \code{xmarsex1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab always wrong \tab almost always wrong \tab wrong only sometimes \tab not wrong at all \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 943 \tab 231 \tab 86 \tab 35 \tab 38 \tab 26 \tab 1517 \cr
+   1994 \tab 1545 \tab 1067 \tab 180 \tab 58 \tab 25 \tab 31 \tab 86 \tab 2992 \cr
+   1998 \tab 1548 \tab 1003 \tab 164 \tab 72 \tab 13 \tab 26 \tab 6 \tab 2832 \cr
+   2008 \tab 658 \tab 1084 \tab 174 \tab 71 \tab 29 \tab 4 \tab 3 \tab 2023 \cr
+   2018 \tab 1223 \tab 878 \tab 148 \tab 69 \tab 12 \tab 14 \tab 4 \tab 2348 \cr
+   Total \tab 5132 \tab 4975 \tab 897 \tab 356 \tab 114 \tab 113 \tab 125 \tab 11712 \cr
+}
 }
 
 \seealso{

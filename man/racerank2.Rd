@@ -36,16 +36,21 @@ Question After your primary racial identity, which of these races do you identif
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7752/vshow}{GSS Data Explorer page for \code{racerank2}}.
+
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab iap \tab white \tab black or african-american \tab american indian or alaska native \tab asian indian \tab chinese \tab filipino \tab japanese \tab vietnamese \tab other asian \tab native hawaiian \tab samoan \tab other pacific islander \tab some other race \tab hispanic \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 3332 \tab 52 \tab 16 \tab 72 \tab 3 \tab 7 \tab 3 \tab 3 \tab 2 \tab 3 \tab 3 \tab 1 \tab 1 \tab 7 \tab 8 \tab 9 \tab 20 \tab 2 \tab 3544 \cr
+   Total \tab 3332 \tab 52 \tab 16 \tab 72 \tab 3 \tab 7 \tab 3 \tab 3 \tab 2 \tab 3 \tab 3 \tab 1 \tab 1 \tab 7 \tab 8 \tab 9 \tab 20 \tab 2 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

@@ -26,16 +26,23 @@ G. A single mother can bring up her child as well as a married couple.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4370/vshow}{GSS Data Explorer page for \code{marmakid}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1988 \tab 67 \tab 111 \tab 408 \tab 223 \tab 477 \tab 156 \tab 16 \tab 23 \tab - \tab 1481 \cr
+   2022 \tab 2381 \tab 260 \tab 466 \tab 158 \tab 195 \tab 46 \tab 29 \tab 4 \tab 5 \tab 3544 \cr
+   Total \tab 2448 \tab 371 \tab 874 \tab 381 \tab 672 \tab 202 \tab 45 \tab 27 \tab 5 \tab 5025 \cr
+}
 }
 
 \seealso{

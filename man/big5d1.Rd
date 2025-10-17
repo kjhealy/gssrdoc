@@ -26,15 +26,21 @@ D. â€¦is relaxed, handles stress well
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4977/vshow}{GSS Data Explorer page for \code{big5d1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 305 \tab 692 \tab 247 \tab 219 \tab 52 \tab 1 \tab 2 \tab 4510 \cr
+   Total \tab 2992 \tab 305 \tab 692 \tab 247 \tab 219 \tab 52 \tab 1 \tab 2 \tab 4510 \cr
+}
 }
 
 \seealso{

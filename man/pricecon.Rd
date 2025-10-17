@@ -25,19 +25,28 @@ B. Keep prices under control.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4077/vshow}{GSS Data Explorer page for \code{pricecon}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 194 \tab 293 \tab 106 \tab 53 \tab 18 \tab 13 \tab 1534 \cr
+   1990 \tab 155 \tab 288 \tab 577 \tab 190 \tab 80 \tab 38 \tab 44 \tab 1372 \cr
+   1996 \tab 1572 \tab 306 \tab 552 \tab 242 \tab 144 \tab 34 \tab 54 \tab 2904 \cr
+   2006 \tab 2992 \tab 664 \tab 495 \tab 221 \tab 125 \tab 12 \tab 1 \tab 4510 \cr
+   2016 \tab 1477 \tab 440 \tab 544 \tab 247 \tab 125 \tab 24 \tab 10 \tab 2867 \cr
+   Total \tab 7053 \tab 1892 \tab 2461 \tab 1006 \tab 527 \tab 126 \tab 122 \tab 13187 \cr
+}
 }
 
 \seealso{

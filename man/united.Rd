@@ -22,16 +22,22 @@ Question A. There is a lot of discussion today about whether Americans are divid
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1380/vshow}{GSS Data Explorer page for \code{united}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab american are united \tab american are divided \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 518 \tab 1009 \tab 73 \tab 6 \tab 1606 \cr
+   1994 \tab 1518 \tab 581 \tab 810 \tab 73 \tab 10 \tab 2992 \cr
+   Total \tab 1518 \tab 1099 \tab 1819 \tab 146 \tab 16 \tab 4598 \cr
+}
 }
 
 \seealso{

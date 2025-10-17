@@ -23,15 +23,21 @@ F. Grow vegetables, flowers, or shrubs in a garden.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1410/vshow}{GSS Data Explorer page for \code{garden}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 965 \tab 629 \tab 1 \tab 11 \tab 1606 \cr
+   Total \tab 0 \tab 965 \tab 629 \tab 1 \tab 11 \tab 1606 \cr
+}
 }
 
 \seealso{

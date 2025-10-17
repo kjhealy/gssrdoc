@@ -32,15 +32,21 @@ Question In which of these groups did your total family income, from all sources
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1972 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/106/vshow}{GSS Data Explorer page for \code{income72}}.
+
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab lt $2000 \tab $2000 to $3999 \tab $4000 to $5999 \tab $6000 to $7999 \tab $8000 to $9999 \tab $10000 to $12499 \tab $12500 to $14999 \tab $15000 to $17499 \tab $17500 to $19999 \tab $20000 to $24999 \tab $25000 to $29999 \tab $30000+ \tab don't know \tab no answer \tab refused \tab iap \tab Total \cr
+   1972 \tab 123 \tab 165 \tab 160 \tab 160 \tab 192 \tab 217 \tab 159 \tab 103 \tab 63 \tab 67 \tab 33 \tab 32 \tab 64 \tab 13 \tab 62 \tab - \tab 1613 \cr
+   Total \tab 123 \tab 165 \tab 160 \tab 160 \tab 192 \tab 217 \tab 159 \tab 103 \tab 63 \tab 67 \tab 33 \tab 32 \tab 64 \tab 13 \tab 62 \tab 0 \tab 1613 \cr
+}
 }
 
 \seealso{

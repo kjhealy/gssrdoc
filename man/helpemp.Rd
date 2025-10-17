@@ -26,15 +26,21 @@ E. Fighting unemployment?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4112/vshow}{GSS Data Explorer page for \code{helpemp}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very successful \tab quite successful \tab neither successful nor unsuccessful \tab quite unsuccessful \tab very unsuccessful \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 79 \tab 358 \tab 491 \tab 410 \tab 139 \tab 40 \tab 1 \tab 4510 \cr
+   Total \tab 2992 \tab 79 \tab 358 \tab 491 \tab 410 \tab 139 \tab 40 \tab 1 \tab 4510 \cr
+}
 }
 
 \seealso{

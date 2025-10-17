@@ -23,15 +23,21 @@ B. Other income-producing activities?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2570/vshow}{GSS Data Explorer page for \code{inchrw}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 2 \tab 20 \tab 30 \tab 5 \tab 6 \tab 8 \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2486 \tab 233 \tab 4 \tab 1 \tab 2 \tab 3 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 80 \tab 2817 \cr
+   Total \tab 2486 \tab 233 \tab 4 \tab 1 \tab 2 \tab 3 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 80 \tab 2817 \cr
+}
 }
 
 \seealso{

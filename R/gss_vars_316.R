@@ -13,14 +13,20 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `abhelp2`](https://gssdataexplorer.norc.org/variables/7178/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no   |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:----|:----|:----------|:---------|:--------------|:-----|
+#'  |2018  |-    |656  |1576 |59         |57        |-              |2348  |
+#'  |2022  |2309 |549  |673  |-          |-         |13             |3544  |
+#'  |Total |2309 |1205 |2249 |59         |57        |13             |5892  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -46,14 +52,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `abhelp3`](https://gssdataexplorer.norc.org/variables/7179/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no   |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:----|:----|:----------|:---------|:--------------|:-----|
+#'  |2018  |-    |1261 |981  |47         |59        |-              |2348  |
+#'  |2022  |2309 |769  |460  |-          |-         |6              |3544  |
+#'  |Total |2309 |2030 |1441 |47         |59        |6              |5892  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -79,14 +91,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2018, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `abhelp4`](https://gssdataexplorer.norc.org/variables/7180/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no  |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:----|:---|:----------|:---------|:--------------|:-----|
+#'  |2018  |-    |1992 |278 |23         |55        |-              |2348  |
+#'  |2022  |2309 |1132 |102 |-          |-         |1              |3544  |
+#'  |Total |2309 |3124 |380 |23         |55        |1              |5892  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -112,13 +130,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `abmedgov1`](https://gssdataexplorer.norc.org/variables/7181/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a woman and her medical professional should decide |the government should decide |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------------------------------------|:----------------------------|:----------|:---------|:-----|
+#'  |2018  |1160 |1043                                               |88                           |29         |28        |2348  |
+#'  |Total |1160 |1043                                               |88                           |29         |28        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -144,13 +168,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `abmedgov2`](https://gssdataexplorer.norc.org/variables/7182/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a woman and her medical professional should decide |the government should decide |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------------------------------------|:----------------------------|:----------|:---------|:-----|
+#'  |2018  |1188 |1054                                               |57                           |19         |30        |2348  |
+#'  |Total |1188 |1054                                               |57                           |19         |30        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -176,13 +206,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `abinspay`](https://gssdataexplorer.norc.org/variables/7183/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |people should be able to |people should not be able to |don't know |no answer |Total |
+#'  |:-----|:---|:------------------------|:----------------------------|:----------|:---------|:-----|
+#'  |2018  |-   |1077                     |1068                         |137        |66        |2348  |
+#'  |Total |0   |1077                     |1068                         |137        |66        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -210,13 +246,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natnotice`](https://gssdataexplorer.norc.org/variables/7184/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |somewhat agree |somewhat disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2018  |1175 |815            |303            |20                |8                 |6          |21        |2348  |
+#'  |Total |1175 |815            |303            |20                |8                 |6          |21        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -244,13 +286,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natviews`](https://gssdataexplorer.norc.org/variables/7185/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |somewhat agree |somewhat disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2018  |1175 |781            |275            |58                |32                |6          |21        |2348  |
+#'  |Total |1175 |781            |275            |58                |32                |6          |21        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -278,13 +326,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `nataccess`](https://gssdataexplorer.norc.org/variables/7186/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |somewhat agree |somewhat disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2018  |1175 |885            |214            |30                |16                |4          |24        |2348  |
+#'  |Total |1175 |885            |214            |30                |16                |4          |24        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -312,13 +366,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `nattime`](https://gssdataexplorer.norc.org/variables/7187/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |somewhat agree |somewhat disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2018  |1175 |408            |347            |251               |141               |2          |24        |2348  |
+#'  |Total |1175 |408            |347            |251               |141               |2          |24        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

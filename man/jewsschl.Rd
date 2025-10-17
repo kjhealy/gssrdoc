@@ -23,15 +23,21 @@ A. Do you know any of these Jews from when you went to school or college?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2345/vshow}{GSS Data Explorer page for \code{jewsschl}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2015 \tab 331 \tab 391 \tab 6 \tab 74 \tab 2817 \cr
+   Total \tab 2015 \tab 331 \tab 391 \tab 6 \tab 74 \tab 2817 \cr
+}
 }
 
 \seealso{

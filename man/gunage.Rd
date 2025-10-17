@@ -24,29 +24,36 @@ A. Did this happen to you as a child or as an adult?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/662/vshow}{GSS Data Explorer page for \code{gunage}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab child \tab adult \tab both \tab don't know \tab no answer \tab Total \cr
+   1973 \tab 1258 \tab 29 \tab 207 \tab 6 \tab 1 \tab 3 \tab 1504 \cr
+   1975 \tab 1230 \tab 32 \tab 214 \tab 7 \tab - \tab 7 \tab 1490 \cr
+   1976 \tab 1242 \tab 37 \tab 206 \tab 12 \tab 1 \tab 1 \tab 1499 \cr
+   1978 \tab 1221 \tab 44 \tab 249 \tab 17 \tab 1 \tab - \tab 1532 \cr
+   1980 \tab 1157 \tab 38 \tab 257 \tab 13 \tab - \tab 3 \tab 1468 \cr
+   1983 \tab 1272 \tab 41 \tab 267 \tab 15 \tab 1 \tab 3 \tab 1599 \cr
+   1984 \tab 1181 \tab 47 \tab 233 \tab 10 \tab - \tab 2 \tab 1473 \cr
+   1986 \tab 1174 \tab 36 \tab 245 \tab 11 \tab - \tab 4 \tab 1470 \cr
+   1987 \tab 1430 \tab 52 \tab 304 \tab 24 \tab - \tab 9 \tab 1819 \cr
+   1988 \tab 1264 \tab 32 \tab 174 \tab 8 \tab - \tab 3 \tab 1481 \cr
+   1989 \tab 1334 \tab 22 \tab 163 \tab 14 \tab - \tab 4 \tab 1537 \cr
+   1990 \tab 1192 \tab 24 \tab 148 \tab 6 \tab - \tab 2 \tab 1372 \cr
+   1991 \tab 1310 \tab 30 \tab 164 \tab 5 \tab - \tab 8 \tab 1517 \cr
+   1993 \tab 1404 \tab 29 \tab 155 \tab 17 \tab - \tab 1 \tab 1606 \cr
+   1994 \tab 2887 \tab 10 \tab 87 \tab 7 \tab - \tab 1 \tab 2992 \cr
+   Total \tab 20556 \tab 503 \tab 3073 \tab 172 \tab 4 \tab 51 \tab 24359 \cr
+}
 }
 
 \seealso{

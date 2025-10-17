@@ -36,15 +36,21 @@ Question First relationship with fifth person.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7108/vshow}{GSS Data Explorer page for \code{mhp5r1}}.
+
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab iap \tab spouse/partner (current/ex) \tab parent \tab sibling \tab child \tab grandparent \tab grandchild \tab other family \tab coworker \tab neighbor \tab friend \tab member of religious community \tab acquaintance \tab student/classmate \tab friend of a relative \tab other \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 2245 \tab 1 \tab 1 \tab 10 \tab 1 \tab 1 \tab 2 \tab 30 \tab 4 \tab 2 \tab 36 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 6 \tab 2348 \cr
+   Total \tab 2245 \tab 1 \tab 1 \tab 10 \tab 1 \tab 1 \tab 2 \tab 30 \tab 4 \tab 2 \tab 36 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 6 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

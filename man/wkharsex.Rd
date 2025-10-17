@@ -22,20 +22,26 @@ Question In the last 12 months, were you sexually harassed by anyone while you w
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2824/vshow}{GSS Data Explorer page for \code{wkharsex}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 85 \tab 1689 \tab 6 \tab 16 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 55 \tab 1659 \tab 5 \tab 15 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 35 \tab 1125 \tab 3 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 32 \tab 1210 \tab 1 \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 48 \tab 1362 \tab 3 \tab 35 \tab - \tab 2348 \cr
+   2022 \tab 1556 \tab 76 \tab 1879 \tab 4 \tab 13 \tab 16 \tab 3544 \cr
+   Total \tab 8346 \tab 331 \tab 8924 \tab 22 \tab 110 \tab 16 \tab 17749 \cr
+}
 }
 
 \seealso{

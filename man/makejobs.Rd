@@ -26,19 +26,28 @@ D. Government financing of projects to create new jobs.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4052/vshow}{GSS Data Explorer page for \code{makejobs}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly in favor of \tab in favor \tab neither in favor nor against \tab against \tab strongly against \tab no answer \tab don't know \tab Total \cr
+   1985 \tab 857 \tab 183 \tab 279 \tab 105 \tab 79 \tab 23 \tab 8 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 295 \tab 532 \tab 247 \tab 87 \tab 24 \tab 31 \tab 1 \tab 1372 \cr
+   1996 \tab 1572 \tab 351 \tab 603 \tab 195 \tab 112 \tab 32 \tab 37 \tab 2 \tab 2904 \cr
+   2006 \tab 2992 \tab 630 \tab 658 \tab 124 \tab 71 \tab 27 \tab - \tab 8 \tab 4510 \cr
+   2016 \tab 1477 \tab 481 \tab 681 \tab 135 \tab 56 \tab 21 \tab 8 \tab 8 \tab 2867 \cr
+   Total \tab 7053 \tab 1940 \tab 2753 \tab 806 \tab 405 \tab 127 \tab 84 \tab 19 \tab 13187 \cr
+}
 }
 
 \seealso{

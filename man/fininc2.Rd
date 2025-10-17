@@ -26,15 +26,21 @@ When do you think is the best time to be told about these financial incentives?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2749/vshow}{GSS Data Explorer page for \code{fininc2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab when you enroll in a health plan \tab when you first see your doctor \tab when you need a test or specialist \tab don't know \tab no answer \tab Total \cr
+   2002 \tab - \tab 2183 \tab 353 \tab 177 \tab 44 \tab 8 \tab 2765 \cr
+   Total \tab 0 \tab 2183 \tab 353 \tab 177 \tab 44 \tab 8 \tab 2765 \cr
+}
 }
 
 \seealso{

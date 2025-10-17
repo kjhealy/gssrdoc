@@ -24,34 +24,41 @@ C. Do you think this neighborhood will become all (Negro/Black/African-American)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
+   Full \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/391/vshow}{GSS Data Explorer page for \code{racinteg}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab all black \tab stay integrated \tab don't know \tab iap \tab no answer \tab mixed,not wh-bl \tab Total \cr
+   1972 \tab 38 \tab 312 \tab 28 \tab 1226 \tab 9 \tab - \tab 1613 \cr
+   1973 \tab 26 \tab 466 \tab 23 \tab 980 \tab 8 \tab 1 \tab 1504 \cr
+   1974 \tab 26 \tab 493 \tab 29 \tab 929 \tab 6 \tab 1 \tab 1484 \cr
+   1975 \tab 27 \tab 381 \tab 23 \tab 1053 \tab 6 \tab - \tab 1490 \cr
+   1976 \tab 37 \tab 521 \tab 17 \tab 916 \tab 8 \tab - \tab 1499 \cr
+   1977 \tab 24 \tab 483 \tab 17 \tab 994 \tab 12 \tab - \tab 1530 \cr
+   1978 \tab 47 \tab 660 \tab 19 \tab 785 \tab 21 \tab - \tab 1532 \cr
+   1980 \tab 42 \tab 597 \tab 26 \tab 791 \tab 12 \tab - \tab 1468 \cr
+   1982 \tab 103 \tab 775 \tab 46 \tab 918 \tab 18 \tab - \tab 1860 \cr
+   1983 \tab 42 \tab 667 \tab 35 \tab 845 \tab 10 \tab - \tab 1599 \cr
+   1984 \tab 41 \tab 673 \tab 13 \tab 719 \tab 27 \tab - \tab 1473 \cr
+   1985 \tab 33 \tab 664 \tab 24 \tab 793 \tab 20 \tab - \tab 1534 \cr
+   1986 \tab 43 \tab 636 \tab 19 \tab 767 \tab 5 \tab - \tab 1470 \cr
+   1987 \tab 89 \tab 841 \tab 39 \tab 832 \tab 18 \tab - \tab 1819 \cr
+   1988 \tab 44 \tab 713 \tab 19 \tab 686 \tab 19 \tab - \tab 1481 \cr
+   1989 \tab 34 \tab 716 \tab 26 \tab 741 \tab 20 \tab - \tab 1537 \cr
+   1990 \tab 45 \tab 661 \tab 27 \tab 625 \tab 14 \tab - \tab 1372 \cr
+   1991 \tab 43 \tab 718 \tab 21 \tab 714 \tab 21 \tab - \tab 1517 \cr
+   1993 \tab 40 \tab 883 \tab 26 \tab 641 \tab 16 \tab - \tab 1606 \cr
+   1994 \tab 28 \tab 395 \tab 20 \tab 2541 \tab 8 \tab - \tab 2992 \cr
+   Total \tab 852 \tab 12255 \tab 497 \tab 18496 \tab 278 \tab 2 \tab 32380 \cr
+}
 }
 
 \seealso{

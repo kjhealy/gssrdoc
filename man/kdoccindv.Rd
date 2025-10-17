@@ -22,15 +22,21 @@ Question Child's OCC/IND verbatim recovered
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6011/vshow}{GSS Data Explorer page for \code{kdoccindv}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab no verbatims for kd \tab verbatims for kd \tab Total \cr
+   1994 \tab 54 \tab 2343 \tab 595 \tab 2992 \cr
+   Total \tab 54 \tab 2343 \tab 595 \tab 2992 \cr
+}
 }
 
 \seealso{

@@ -25,20 +25,26 @@ L. There are no significant compromises or shortcuts taken when worker safety is
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2785/vshow}{GSS Data Explorer page for \code{safefrst}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 733 \tab 815 \tab 157 \tab 47 \tab 26 \tab 18 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 710 \tab 790 \tab 146 \tab 30 \tab 41 \tab 17 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 464 \tab 583 \tab 84 \tab 16 \tab 12 \tab 28 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 542 \tab 587 \tab 84 \tab 13 \tab 14 \tab 10 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 542 \tab 725 \tab 119 \tab 13 \tab 14 \tab 35 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 834 \tab 869 \tab 197 \tab 36 \tab 29 \tab 13 \tab 20 \tab 3544 \cr
+   Total \tab 8336 \tab 3825 \tab 4369 \tab 787 \tab 155 \tab 136 \tab 121 \tab 20 \tab 17749 \cr
+}
 }
 
 \seealso{

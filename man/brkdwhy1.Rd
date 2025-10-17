@@ -23,15 +23,21 @@ The causes and sources of R''s nervous breakdown -- First mention.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2067/vshow}{GSS Data Explorer page for \code{brkdwhy1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 101 \tab 11 \tab 12 \tab 129 \tab 13 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 202 \tab 204 \tab 206 \tab 207 \tab 21 \tab 213 \tab 216 \tab 219 \tab 22 \tab 23 \tab 24 \tab 25 \tab 29 \tab 300 \tab 304 \tab 309 \tab 31 \tab 32 \tab 34 \tab 36 \tab 39 \tab 400 \tab 404 \tab 41 \tab 411 \tab 500 \tab 502 \tab 503 \tab 504 \tab 505 \tab 508 \tab 509 \tab 519 \tab 521 \tab 523 \tab 524 \tab 526 \tab 540 \tab 611 \tab 613 \tab 614 \tab 700 \tab 702 \tab 710 \tab 730 \tab 749 \tab 80 \tab 800 \tab 801 \tab 802 \tab 803 \tab 804 \tab 805 \tab 806 \tab 807 \tab 810 \tab 811 \tab 813 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2517 \tab 16 \tab 6 \tab 1 \tab 7 \tab 1 \tab 7 \tab 18 \tab 5 \tab 3 \tab 18 \tab 10 \tab 1 \tab 4 \tab 1 \tab 1 \tab 27 \tab 2 \tab 7 \tab 1 \tab 8 \tab 7 \tab 2 \tab 9 \tab 7 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 2 \tab 3 \tab 59 \tab 1 \tab 4 \tab 4 \tab 6 \tab 4 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 6 \tab 9 \tab 4 \tab 1 \tab 3 \tab 2 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 10 \tab 4 \tab 1 \tab 11 \tab 7 \tab 2 \tab 1 \tab 2 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab 30 \tab 2904 \cr
+   Total \tab 2517 \tab 16 \tab 6 \tab 1 \tab 7 \tab 1 \tab 7 \tab 18 \tab 5 \tab 3 \tab 18 \tab 10 \tab 1 \tab 4 \tab 1 \tab 1 \tab 27 \tab 2 \tab 7 \tab 1 \tab 8 \tab 7 \tab 2 \tab 9 \tab 7 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 2 \tab 3 \tab 59 \tab 1 \tab 4 \tab 4 \tab 6 \tab 4 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 6 \tab 9 \tab 4 \tab 1 \tab 3 \tab 2 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 10 \tab 4 \tab 1 \tab 11 \tab 7 \tab 2 \tab 1 \tab 2 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab 30 \tab 2904 \cr
+}
 }
 
 \seealso{

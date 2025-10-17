@@ -24,16 +24,23 @@ H. And finally, since (CURRENT MONTH), (1990/2003), did any of the following occ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab B/C/- \tab partial \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   B/C/- \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5192/vshow}{GSS Data Explorer page for \code{oth4}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1991 \tab 500 \tab 41 \tab 971 \tab 5 \tab - \tab 1517 \cr
+   2004 \tab 1472 \tab 42 \tab 1288 \tab 7 \tab 3 \tab 2812 \cr
+   Total \tab 1972 \tab 83 \tab 2259 \tab 12 \tab 3 \tab 4329 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ A1. The causes and sources of R's mental illness -- First mention.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2079/vshow}{GSS Data Explorer page for \code{mnilwhy1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 12 \tab 123 \tab 15 \tab 19 \tab 200 \tab 204 \tab 21 \tab 217 \tab 219 \tab 22 \tab 309 \tab 31 \tab 35 \tab 38 \tab 39 \tab 41 \tab 500 \tab 502 \tab 524 \tab 700 \tab 701 \tab 702 \tab 709 \tab 80 \tab 802 \tab 803 \tab 804 \tab 806 \tab 807 \tab 809 \tab no answer \tab Total \cr
+   1996 \tab 2815 \tab 4 \tab 1 \tab 3 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 8 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 15 \tab 1 \tab 1 \tab 2 \tab 1 \tab 19 \tab 2904 \cr
+   Total \tab 2815 \tab 4 \tab 1 \tab 3 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 8 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 15 \tab 1 \tab 1 \tab 2 \tab 1 \tab 19 \tab 2904 \cr
+}
 }
 
 \seealso{

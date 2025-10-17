@@ -24,15 +24,21 @@ Question Could you do your job without a computer or computerized equipment? Wou
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3888/vshow}{GSS Data Explorer page for \code{wocomptr}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab couldn't do my job without a computer or computerized equipment \tab could do my job without a computer or computerized equipment but it would be much harder \tab doing my job without a computer or computerized equipment would be about the same as now \tab already do most of my job without a computer or computerized equipment \tab Total \cr
+   2008 \tab 1381 \tab 289 \tab 248 \tab 52 \tab 53 \tab 2023 \cr
+   Total \tab 1381 \tab 289 \tab 248 \tab 52 \tab 53 \tab 2023 \cr
+}
 }
 
 \seealso{

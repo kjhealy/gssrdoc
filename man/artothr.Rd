@@ -22,15 +22,21 @@ Question Some other reason not shown.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6262/vshow}{GSS Data Explorer page for \code{artothr}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab a reason \tab not a reason \tab don't know \tab Total \cr
+   2016 \tab 2710 \tab 45 \tab 111 \tab 1 \tab 2867 \cr
+   Total \tab 2710 \tab 45 \tab 111 \tab 1 \tab 2867 \cr
+}
 }
 
 \seealso{

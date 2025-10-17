@@ -26,17 +26,23 @@ C. The U.S. would be a better country if religion had less influence.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2021 \cr
+   A/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4690/vshow}{GSS Data Explorer page for \code{religinf}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1998 \tab 1548 \tab 51 \tab 131 \tab 321 \tab 479 \tab 209 \tab 49 \tab 44 \tab - \tab 2832 \cr
+   2021 \tab 427 \tab 514 \tab 565 \tab 1069 \tab 890 \tab 521 \tab 3 \tab 5 \tab 38 \tab 4032 \cr
+   Total \tab 1975 \tab 565 \tab 696 \tab 1390 \tab 1369 \tab 730 \tab 52 \tab 49 \tab 38 \tab 6864 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ A. How often do you feel WORRIED? Do you feel worried:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1789/vshow}{GSS Data Explorer page for \code{usworry}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab most of the time \tab some of the time \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2199 \tab 34 \tab 97 \tab 355 \tab 153 \tab 61 \tab 4 \tab 1 \tab 2904 \cr
+   Total \tab 2199 \tab 34 \tab 97 \tab 355 \tab 153 \tab 61 \tab 4 \tab 1 \tab 2904 \cr
+}
 }
 
 \seealso{

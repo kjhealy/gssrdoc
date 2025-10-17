@@ -25,15 +25,21 @@ Question Some people say that when the experience of a racial or ethnic minority
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1631/vshow}{GSS Data Explorer page for \code{whoteach}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 93 \tab 267 \tab 415 \tab 532 \tab 89 \tab 68 \tab 10 \tab 2992 \cr
+   Total \tab 1518 \tab 93 \tab 267 \tab 415 \tab 532 \tab 89 \tab 68 \tab 10 \tab 2992 \cr
+}
 }
 
 \seealso{

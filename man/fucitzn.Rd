@@ -24,22 +24,28 @@ Question Are youâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5284/vshow}{GSS Data Explorer page for \code{fucitzn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab currently applying for u.s. citizenship \tab planning to apply for u.s. citizenship \tab not planning to apply to u.s. citizenship \tab not eligible to become a u.s. citizen \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1884 \tab 24 \tab 61 \tab 38 \tab 9 \tab 1 \tab 6 \tab - \tab 2023 \cr
+   2010 \tab 1920 \tab 6 \tab 76 \tab 34 \tab 4 \tab 2 \tab 2 \tab - \tab 2044 \cr
+   2012 \tab 1846 \tab 10 \tab 57 \tab 43 \tab 11 \tab 2 \tab 5 \tab - \tab 1974 \cr
+   2014 \tab 2378 \tab 11 \tab 84 \tab 32 \tab 30 \tab - \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 2709 \tab 19 \tab 65 \tab 45 \tab 14 \tab 1 \tab 14 \tab - \tab 2867 \cr
+   2018 \tab 2213 \tab 16 \tab 49 \tab 46 \tab 17 \tab 3 \tab 4 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 3442 \tab 11 \tab 44 \tab 24 \tab 9 \tab 3 \tab 11 \tab - \tab 3544 \cr
+   Total \tab 16392 \tab 97 \tab 436 \tab 262 \tab 94 \tab 12 \tab 45 \tab 4032 \tab 21370 \cr
+}
 }
 
 \seealso{

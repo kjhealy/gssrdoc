@@ -23,29 +23,36 @@ A. Was in a protest march showing opposition to the other man''s views?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/665/vshow}{GSS Data Explorer page for \code{hitmarch}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1973 \tab 489 \tab 58 \tab 939 \tab 15 \tab 3 \tab 1504 \cr
+   1975 \tab 407 \tab 32 \tab 1030 \tab 17 \tab 4 \tab 1490 \cr
+   1976 \tab - \tab 46 \tab 1421 \tab 25 \tab 7 \tab 1499 \cr
+   1978 \tab - \tab 49 \tab 1445 \tab 33 \tab 5 \tab 1532 \cr
+   1980 \tab - \tab 62 \tab 1368 \tab 27 \tab 11 \tab 1468 \cr
+   1983 \tab - \tab 55 \tab 1503 \tab 36 \tab 5 \tab 1599 \cr
+   1984 \tab - \tab 48 \tab 1391 \tab 28 \tab 6 \tab 1473 \cr
+   1986 \tab - \tab 49 \tab 1398 \tab 18 \tab 5 \tab 1470 \cr
+   1987 \tab - \tab 62 \tab 1704 \tab 41 \tab 12 \tab 1819 \cr
+   1988 \tab 484 \tab 24 \tab 952 \tab 15 \tab 6 \tab 1481 \cr
+   1989 \tab 502 \tab 27 \tab 985 \tab 15 \tab 8 \tab 1537 \cr
+   1990 \tab 473 \tab 28 \tab 846 \tab 24 \tab 1 \tab 1372 \cr
+   1991 \tab 500 \tab 29 \tab 967 \tab 14 \tab 7 \tab 1517 \cr
+   1993 \tab 549 \tab 23 \tab 1009 \tab 21 \tab 4 \tab 1606 \cr
+   1994 \tab 2481 \tab 12 \tab 493 \tab 4 \tab 2 \tab 2992 \cr
+   Total \tab 5885 \tab 604 \tab 17451 \tab 333 \tab 86 \tab 24359 \cr
+}
 }
 
 \seealso{

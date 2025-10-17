@@ -27,15 +27,21 @@ Question About how may people work at the location where your (husband/wife) wor
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1375/vshow}{GSS Data Explorer page for \code{splocnum}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1-9 \tab 10-49 \tab 50-99 \tab 100-499 \tab 500-999 \tab 1,000-1,999 \tab 2,000+ \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 1001 \tab 126 \tab 110 \tab 56 \tab 100 \tab 20 \tab 19 \tab 41 \tab 30 \tab 14 \tab 1517 \cr
+   Total \tab 1001 \tab 126 \tab 110 \tab 56 \tab 100 \tab 20 \tab 19 \tab 41 \tab 30 \tab 14 \tab 1517 \cr
+}
 }
 
 \seealso{

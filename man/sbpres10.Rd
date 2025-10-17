@@ -21,15 +21,21 @@ Question Prestige of Respondent's Sibling's Occupation (2010)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6026/vshow}{GSS Data Explorer page for \code{sbpres10}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 16 \tab 17 \tab 18 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 45 \tab 46 \tab 47 \tab 48 \tab 49 \tab 50 \tab 51 \tab 52 \tab 53 \tab 54 \tab 55 \tab 56 \tab 57 \tab 58 \tab 59 \tab 60 \tab 61 \tab 62 \tab 63 \tab 64 \tab 65 \tab 66 \tab 67 \tab 68 \tab 69 \tab 70 \tab 71 \tab 72 \tab 73 \tab 74 \tab 75 \tab 80 \tab Total \cr
+   1994 \tab 687 \tab 10 \tab 7 \tab 3 \tab 18 \tab 10 \tab 2 \tab 59 \tab 72 \tab 13 \tab 23 \tab 60 \tab 9 \tab 19 \tab 140 \tab 66 \tab 36 \tab 21 \tab 184 \tab 48 \tab 28 \tab 127 \tab 77 \tab 28 \tab 9 \tab 29 \tab 20 \tab 41 \tab 110 \tab 90 \tab 144 \tab 102 \tab 63 \tab 61 \tab 26 \tab 18 \tab 43 \tab 13 \tab 17 \tab 12 \tab 4 \tab 14 \tab 20 \tab 49 \tab 75 \tab 12 \tab 23 \tab 62 \tab 21 \tab 12 \tab 6 \tab 2 \tab 29 \tab 10 \tab 10 \tab 19 \tab 24 \tab 23 \tab 12 \tab 20 \tab 2992 \cr
+   Total \tab 687 \tab 10 \tab 7 \tab 3 \tab 18 \tab 10 \tab 2 \tab 59 \tab 72 \tab 13 \tab 23 \tab 60 \tab 9 \tab 19 \tab 140 \tab 66 \tab 36 \tab 21 \tab 184 \tab 48 \tab 28 \tab 127 \tab 77 \tab 28 \tab 9 \tab 29 \tab 20 \tab 41 \tab 110 \tab 90 \tab 144 \tab 102 \tab 63 \tab 61 \tab 26 \tab 18 \tab 43 \tab 13 \tab 17 \tab 12 \tab 4 \tab 14 \tab 20 \tab 49 \tab 75 \tab 12 \tab 23 \tab 62 \tab 21 \tab 12 \tab 6 \tab 2 \tab 29 \tab 10 \tab 10 \tab 19 \tab 24 \tab 23 \tab 12 \tab 20 \tab 2992 \cr
+}
 }
 
 \seealso{

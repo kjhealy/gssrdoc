@@ -13,15 +13,21 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |1996, 2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `meltpot1`](https://gssdataexplorer.norc.org/variables/4858/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |better for society maintain distinct |better if groups adapt and blend into |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------------------|:-------------------------------------|:----------|:---------|:-----|
+#'  |1996  |1537 |399                                  |557                                   |348        |63        |2904  |
+#'  |2004  |1596 |554                                  |615                                   |28         |19        |2812  |
+#'  |2014  |1264 |478                                  |597                                   |191        |8         |2538  |
+#'  |Total |4397 |1431                                 |1769                                  |567        |90        |8254  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -51,17 +57,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2022 |A/C/-   |partial      |
-#'  |2024 |A/C/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |1996, 2004, 2014 |
+#'  |A/C/-   |2022, 2024       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `immcrime`](https://gssdataexplorer.norc.org/variables/4859/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |1996  |1537 |95             |328   |368                        |388      |86                |45           |57        |-              |2904  |
+#'  |2004  |1596 |83             |235   |345                        |437      |84                |31           |1         |-              |2812  |
+#'  |2014  |1264 |50             |202   |311                        |519      |142               |47           |3         |-              |2538  |
+#'  |2022  |1203 |107            |323   |734                        |777      |372               |20           |4         |4              |3544  |
+#'  |Total |5600 |335            |1088  |1758                       |2121     |684               |143          |65        |4              |11798 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -91,16 +103,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2024 |B/C/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |1996, 2004, 2014 |
+#'  |B/C/-   |2024             |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `immameco`](https://gssdataexplorer.norc.org/variables/4860/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |1996  |1537 |60             |364   |413                        |361      |52                |60           |57        |2904  |
+#'  |2004  |1596 |80             |458   |355                        |236      |55                |31           |1         |2812  |
+#'  |2014  |1264 |114            |550   |330                        |207      |25                |45           |3         |2538  |
+#'  |Total |4397 |254            |1372  |1098                       |804      |132               |136          |61        |8254  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -130,17 +148,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2022 |A/C/-   |partial      |
-#'  |2024 |A/C/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |1996, 2004, 2014 |
+#'  |A/C/-   |2022, 2024       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `immjobs`](https://gssdataexplorer.norc.org/variables/4861/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |1996  |1537 |170            |446   |299                        |301      |65                |28           |58        |-              |2904  |
+#'  |2004  |1596 |153            |363   |274                        |343      |67                |15           |1         |-              |2812  |
+#'  |2014  |1264 |94             |349   |271                        |438      |87                |31           |4         |-              |2538  |
+#'  |2022  |1203 |147            |375   |505                        |804      |487               |17           |3         |3              |3544  |
+#'  |Total |5600 |564            |1533  |1349                       |1886     |706               |91           |66        |3              |11798 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -170,14 +194,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1996, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `immideas`](https://gssdataexplorer.norc.org/variables/4862/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |1996  |1537 |152            |636   |278                        |169      |34                |44           |54        |2904  |
+#'  |2014  |1264 |140            |673   |267                        |136      |21                |34           |3         |2538  |
+#'  |Total |2801 |292            |1309  |545                        |305      |55                |78           |57        |5442  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -206,15 +236,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |1996, 2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `letin1`](https://gssdataexplorer.norc.org/variables/4863/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |increased a lot |increased a little |remain the same as it is |reduced a little |reduced a lot |can't choose |no answer |Total |
+#'  |:-----|:----|:---------------|:------------------|:------------------------|:----------------|:-------------|:------------|:---------|:-----|
+#'  |1996  |1537 |33              |65                 |310                      |339              |394           |172          |54        |2904  |
+#'  |2004  |1596 |45              |78                 |354                      |338              |278           |122          |1         |2812  |
+#'  |2014  |1264 |41              |114                |465                      |270              |210           |170          |4         |2538  |
+#'  |Total |4397 |119             |257                |1129                     |947              |882           |464          |59        |8254  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -243,13 +279,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `refugees`](https://gssdataexplorer.norc.org/variables/4864/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |1996  |1537 |133            |433   |343                        |213      |90                |129          |26        |2904  |
+#'  |Total |1537 |133            |433   |343                        |213      |90                |129          |26        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -277,13 +319,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `res161`](https://gssdataexplorer.norc.org/variables/4865/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |in this community |in a different community same state |in a different state in america |outside america |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:-----------------------------------|:-------------------------------|:---------------|:----------|:---------|:-----|
+#'  |1996  |1537 |418               |427                                 |416                             |81              |1          |24        |2904  |
+#'  |Total |1537 |418               |427                                 |416                             |81              |1          |24        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -308,13 +356,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `livecom1`](https://gssdataexplorer.norc.org/variables/4866/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1   |10 |11 |12 |13 |14 |15 |16 |17 |18 |19 |2  |20 |21 |22 |23 |24 |25 |26 |27 |28 |29 |3  |30 |31 |32 |33 |34 |35 |36 |37 |38 |39 |4  |40 |41 |42 |43 |44 |45 |46 |47 |48 |49 |5  |50 |51 |52 |53 |54 |55 |57 |58 |6  |60 |61 |62 |64 |65 |66 |67 |68 |69 |7  |70 |71 |72 |76 |79 |8  |80 |85 |86 |9  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |1996  |1537 |185 |52 |16 |25 |14 |16 |35 |20 |15 |29 |16 |88 |50 |17 |13 |21 |20 |29 |13 |11 |13 |11 |71 |44 |7  |14 |13 |6  |14 |8  |11 |11 |4  |59 |23 |5  |8  |8  |5  |10 |5  |3  |8  |5  |60 |12 |4  |4  |2  |3  |2  |2  |1  |45 |7  |5  |4  |1  |4  |2  |1  |2  |2  |30 |1  |1  |2  |2  |1  |34 |2  |3  |1  |27 |3          |46        |2904  |
+#'  |Total |1537 |185 |52 |16 |25 |14 |16 |35 |20 |15 |29 |16 |88 |50 |17 |13 |21 |20 |29 |13 |11 |13 |11 |71 |44 |7  |14 |13 |6  |14 |8  |11 |11 |4  |59 |23 |5  |8  |8  |5  |10 |5  |3  |8  |5  |60 |12 |4  |4  |2  |3  |2  |2  |1  |45 |7  |5  |4  |1  |4  |2  |1  |2  |2  |30 |1  |1  |2  |2  |1  |34 |2  |3  |1  |27 |3          |46        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -342,13 +396,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `abroad`](https://gssdataexplorer.norc.org/variables/4867/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never lived in other countries |less than 1 year in all |1 to 4 years in all |5 years or longer |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------------|:-----------------------|:-------------------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1537 |1014                           |68                      |119                 |139               |1          |26        |2904  |
+#'  |Total |1537 |1014                           |68                      |119                 |139               |1          |26        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity

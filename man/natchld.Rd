@@ -24,27 +24,32 @@ P. Assistance for childcare
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/196/vshow}{GSS Data Explorer page for \code{natchld}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab - \tab 1678 \tab 758 \tab 141 \tab 235 \tab 5 \tab - \tab 2817 \cr
+   2002 \tab - \tab 1533 \tab 861 \tab 199 \tab 166 \tab 6 \tab - \tab 2765 \cr
+   2004 \tab - \tab 1518 \tab 933 \tab 180 \tab 179 \tab 2 \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 1544 \tab 1002 \tab 212 \tab 230 \tab 4 \tab - \tab 4510 \cr
+   2008 \tab - \tab 1024 \tab 722 \tab 125 \tab 151 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab - \tab 982 \tab 764 \tab 148 \tab 147 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab - \tab 890 \tab 756 \tab 172 \tab 150 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab - \tab 1203 \tab 936 \tab 212 \tab 186 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab - \tab 1556 \tab 981 \tab 163 \tab 161 \tab 6 \tab - \tab 2867 \cr
+   2018 \tab - \tab 1345 \tab 747 \tab 123 \tab 133 \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab 2244 \tab 1418 \tab 322 \tab 17 \tab 2 \tab 29 \tab 4032 \cr
+   2022 \tab - \tab 2240 \tab 933 \tab 240 \tab 120 \tab - \tab 11 \tab 3544 \cr
+   Total \tab 1518 \tab 17757 \tab 10811 \tab 2237 \tab 1875 \tab 36 \tab 40 \tab 34274 \cr
+}
 }
 
 \seealso{

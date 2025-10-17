@@ -29,25 +29,32 @@ E. Spend a social evening with your parents?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1978, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/525/vshow}{GSS Data Explorer page for \code{socpars}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab no such people \tab almost daily \tab sev times a week \tab sev times a mnth \tab once a month \tab sev times a year \tab once a year \tab never \tab don't know \tab no answer \tab Total \cr
+   1978 \tab - \tab 551 \tab 49 \tab 216 \tab 166 \tab 113 \tab 204 \tab 118 \tab 109 \tab 2 \tab 4 \tab 1532 \cr
+   1982 \tab - \tab 545 \tab 155 \tab 267 \tab 161 \tab 189 \tab 203 \tab 134 \tab 181 \tab 11 \tab 14 \tab 1860 \cr
+   1983 \tab - \tab 494 \tab 89 \tab 248 \tab 157 \tab 161 \tab 203 \tab 129 \tab 113 \tab 1 \tab 4 \tab 1599 \cr
+   1985 \tab - \tab 470 \tab 92 \tab 173 \tab 199 \tab 160 \tab 190 \tab 132 \tab 111 \tab 2 \tab 5 \tab 1534 \cr
+   1986 \tab - \tab 443 \tab 100 \tab 220 \tab 113 \tab 150 \tab 201 \tab 128 \tab 106 \tab 2 \tab 7 \tab 1470 \cr
+   1988 \tab 493 \tab 244 \tab 69 \tab 133 \tab 92 \tab 100 \tab 134 \tab 78 \tab 124 \tab 7 \tab 7 \tab 1481 \cr
+   1989 \tab 531 \tab 236 \tab 66 \tab 160 \tab 92 \tab 99 \tab 145 \tab 80 \tab 124 \tab 2 \tab 2 \tab 1537 \cr
+   1990 \tab 444 \tab 262 \tab 53 \tab 134 \tab 103 \tab 88 \tab 135 \tab 78 \tab 68 \tab 2 \tab 5 \tab 1372 \cr
+   1991 \tab 493 \tab 259 \tab 66 \tab 154 \tab 113 \tab 102 \tab 133 \tab 68 \tab 122 \tab 4 \tab 3 \tab 1517 \cr
+   1993 \tab 526 \tab 283 \tab 73 \tab 154 \tab 107 \tab 121 \tab 148 \tab 92 \tab 95 \tab 2 \tab 5 \tab 1606 \cr
+   1994 \tab 2485 \tab 127 \tab 27 \tab 66 \tab 46 \tab 47 \tab 65 \tab 51 \tab 75 \tab 2 \tab 1 \tab 2992 \cr
+   Total \tab 4972 \tab 3914 \tab 839 \tab 1925 \tab 1349 \tab 1330 \tab 1761 \tab 1088 \tab 1228 \tab 37 \tab 57 \tab 18500 \cr
+}
 }
 
 \seealso{

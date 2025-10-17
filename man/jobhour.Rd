@@ -29,32 +29,41 @@ C. Workings hours are short, lots of free time
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   2006 \tab D/- \tab partial \cr
-   2012 \tab A/B \tab partial \cr
-   2014 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/B \tab 2012, 2014 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/552/vshow}{GSS Data Explorer page for \code{jobhour}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab most impt \tab second \tab third \tab fourth \tab fifth \tab no answer \tab Total \cr
+   1973 \tab - \tab 70 \tab 147 \tab 191 \tab 370 \tab 684 \tab 42 \tab 1504 \cr
+   1974 \tab - \tab 71 \tab 166 \tab 203 \tab 393 \tab 621 \tab 30 \tab 1484 \cr
+   1976 \tab - \tab 58 \tab 133 \tab 174 \tab 325 \tab 759 \tab 50 \tab 1499 \cr
+   1977 \tab - \tab 66 \tab 116 \tab 162 \tab 368 \tab 768 \tab 50 \tab 1530 \cr
+   1980 \tab - \tab 47 \tab 122 \tab 156 \tab 371 \tab 740 \tab 32 \tab 1468 \cr
+   1982 \tab 937 \tab 27 \tab 73 \tab 131 \tab 179 \tab 472 \tab 41 \tab 1860 \cr
+   1984 \tab - \tab 42 \tab 97 \tab 139 \tab 316 \tab 847 \tab 32 \tab 1473 \cr
+   1985 \tab - \tab 51 \tab 100 \tab 146 \tab 319 \tab 884 \tab 34 \tab 1534 \cr
+   1987 \tab - \tab 62 \tab 140 \tab 176 \tab 459 \tab 935 \tab 47 \tab 1819 \cr
+   1988 \tab 504 \tab 27 \tab 75 \tab 99 \tab 249 \tab 496 \tab 31 \tab 1481 \cr
+   1989 \tab 504 \tab 28 \tab 73 \tab 85 \tab 228 \tab 566 \tab 53 \tab 1537 \cr
+   1990 \tab 455 \tab 27 \tab 58 \tab 98 \tab 211 \tab 486 \tab 37 \tab 1372 \cr
+   1991 \tab 524 \tab 34 \tab 64 \tab 109 \tab 216 \tab 522 \tab 48 \tab 1517 \cr
+   1993 \tab 531 \tab 37 \tab 65 \tab 111 \tab 219 \tab 605 \tab 38 \tab 1606 \cr
+   1994 \tab 2508 \tab 10 \tab 39 \tab 45 \tab 94 \tab 275 \tab 21 \tab 2992 \cr
+   2006 \tab 2992 \tab 74 \tab 158 \tab 186 \tab 363 \tab 717 \tab 20 \tab 4510 \cr
+   2012 \tab 1002 \tab 63 \tab 127 \tab 123 \tab 195 \tab 437 \tab 27 \tab 1974 \cr
+   2014 \tab 1288 \tab 70 \tab 126 \tab 179 \tab 283 \tab 573 \tab 19 \tab 2538 \cr
+   Total \tab 11245 \tab 864 \tab 1879 \tab 2513 \tab 5158 \tab 11387 \tab 652 \tab 33698 \cr
+}
 }
 
 \seealso{

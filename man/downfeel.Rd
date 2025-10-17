@@ -25,15 +25,21 @@ E. Would you definitely expect, probably expect, probably not expect, or definit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2714/vshow}{GSS Data Explorer page for \code{downfeel}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely expect \tab probably expect \tab probably not expect \tab definitely not expect \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2362 \tab 151 \tab 190 \tab 43 \tab 20 \tab 26 \tab 25 \tab 2817 \cr
+   Total \tab 2362 \tab 151 \tab 190 \tab 43 \tab 20 \tab 26 \tab 25 \tab 2817 \cr
+}
 }
 
 \seealso{

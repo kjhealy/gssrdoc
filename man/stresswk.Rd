@@ -24,15 +24,21 @@ Question During the past two weeks, would you say that you experienced a lot of 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6196/vshow}{GSS Data Explorer page for \code{stresswk}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab a lot of stress \tab a moderate amount of stress \tab relatively little stress \tab almost no stress at all \tab no answer \tab Total \cr
+   2016 \tab 2389 \tab 110 \tab 171 \tab 129 \tab 65 \tab 3 \tab 2867 \cr
+   Total \tab 2389 \tab 110 \tab 171 \tab 129 \tab 65 \tab 3 \tab 2867 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ A. First Mention: What led to, caused, or triggered the relgious or spiritual ch
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3071/vshow}{GSS Data Explorer page for \code{whychng1}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 12 \tab 13 \tab 15 \tab 17 \tab 2 \tab 25 \tab 28 \tab 29 \tab 3 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 37 \tab 38 \tab 39 \tab 4 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 46 \tab 47 \tab 48 \tab 5 \tab 51 \tab 52 \tab 53 \tab 54 \tab 6 \tab 61 \tab 68 \tab 69 \tab 7 \tab 70 \tab 72 \tab 73 \tab 74 \tab 8 \tab 9 \tab 94 \tab 95 \tab no mention \tab nothing special happened \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2163 \tab 53 \tab 7 \tab 12 \tab 3 \tab 1 \tab 27 \tab 11 \tab 13 \tab 12 \tab 22 \tab 98 \tab 19 \tab 24 \tab 2 \tab 7 \tab 3 \tab 5 \tab 12 \tab 1 \tab 6 \tab 8 \tab 7 \tab 4 \tab 11 \tab 6 \tab 3 \tab 3 \tab 2 \tab 51 \tab 3 \tab 4 \tab 4 \tab 2 \tab 3 \tab 2 \tab 7 \tab 1 \tab 5 \tab 24 \tab 1 \tab 5 \tab 3 \tab 3 \tab 2 \tab 2 \tab 4 \tab 100 \tab 3 \tab 6 \tab 32 \tab 2812 \cr
+   Total \tab 2163 \tab 53 \tab 7 \tab 12 \tab 3 \tab 1 \tab 27 \tab 11 \tab 13 \tab 12 \tab 22 \tab 98 \tab 19 \tab 24 \tab 2 \tab 7 \tab 3 \tab 5 \tab 12 \tab 1 \tab 6 \tab 8 \tab 7 \tab 4 \tab 11 \tab 6 \tab 3 \tab 3 \tab 2 \tab 51 \tab 3 \tab 4 \tab 4 \tab 2 \tab 3 \tab 2 \tab 7 \tab 1 \tab 5 \tab 24 \tab 1 \tab 5 \tab 3 \tab 3 \tab 2 \tab 2 \tab 4 \tab 100 \tab 3 \tab 6 \tab 32 \tab 2812 \cr
+}
 }
 
 \seealso{

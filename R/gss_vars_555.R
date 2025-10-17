@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2014  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `aidscndm`](https://gssdataexplorer.norc.org/variables/5078/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes  |no |don't know |no answer |Total |
+#'  |:-----|:---|:----|:--|:----------|:---------|:-----|
+#'  |2014  |707 |1663 |95 |39         |34        |2538  |
+#'  |Total |707 |1663 |95 |39         |34        |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
@@ -45,13 +51,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2014  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hivvac`](https://gssdataexplorer.norc.org/variables/5079/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |true |false |don't know |no answer |Total |
+#'  |:-----|:---|:----|:-----|:----------|:---------|:-----|
+#'  |2014  |707 |162  |1500  |135        |34        |2538  |
+#'  |Total |707 |162  |1500  |135        |34        |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
@@ -77,13 +89,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2014  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hivkiss`](https://gssdataexplorer.norc.org/variables/5080/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |true |false |don't know |no answer |Total |
+#'  |:-----|:---|:----|:-----|:----------|:---------|:-----|
+#'  |2014  |707 |481  |1210  |102        |38        |2538  |
+#'  |Total |707 |481  |1210  |102        |38        |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
@@ -110,21 +128,27 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |B/C/-   |partial      |
-#'  |2018 |B/C/-   |partial      |
-#'  |2021 |B/C/-   |partial      |
-#'  |2022 |B/C/-   |partial      |
-#'  |2024 |A/B/C   |full         |
+#'  |ballots |years                        |
+#'  |:-------|:----------------------------|
+#'  |A/B/C   |2008, 2010, 2012, 2014, 2024 |
+#'  |B/C/-   |2016, 2018, 2021, 2022       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sexornt`](https://gssdataexplorer.norc.org/variables/5081/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |gay, lesbian, or homosexual |bisexual |heterosexual or straight |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------------------------|:--------|:------------------------|:----------|:---------|:--------------|:-----|
+#'  |2008  |236  |33                          |27       |1699                     |7          |21        |-              |2023  |
+#'  |2010  |202  |27                          |31       |1749                     |9          |26        |-              |2044  |
+#'  |2012  |237  |27                          |43       |1637                     |3          |27        |-              |1974  |
+#'  |2014  |188  |45                          |65       |2195                     |6          |39        |-              |2538  |
+#'  |2016  |1095 |46                          |56       |1641                     |5          |24        |-              |2867  |
+#'  |2018  |942  |31                          |51       |1291                     |6          |27        |-              |2348  |
+#'  |2021  |1682 |76                          |96       |2088                     |53         |2         |35             |4032  |
+#'  |2022  |1900 |53                          |82       |1409                     |62         |7         |31             |3544  |
+#'  |Total |6482 |338                         |451      |13709                    |151        |173       |66             |21370 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
@@ -151,13 +175,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sexbirth`](https://gssdataexplorer.norc.org/variables/7292/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |female |male |intersex |no answer |Total |
+#'  |:-----|:---|:------|:----|:--------|:---------|:-----|
+#'  |2018  |939 |759    |637  |1        |12        |2348  |
+#'  |Total |939 |759    |637  |1        |12        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -185,13 +215,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sexnow`](https://gssdataexplorer.norc.org/variables/7293/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |female |male |transgender |a gender not listed here |no answer |Total |
+#'  |:-----|:---|:------|:----|:-----------|:------------------------|:---------|:-----|
+#'  |2018  |939 |758    |640  |2           |1                        |8         |2348  |
+#'  |Total |939 |758    |640  |2           |1                        |8         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -216,13 +252,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `siborder`](https://gssdataexplorer.norc.org/variables/5082/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |0   |1   |10 |11 |16 |2   |3  |4  |5  |6  |7  |8  |9  |only child |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:----------|:----------|:---------|:-----|
+#'  |1990  |444 |231 |244 |5  |2  |1  |148 |86 |58 |36 |18 |18 |11 |6  |45         |1          |18        |1372  |
+#'  |Total |444 |231 |244 |5  |2  |1  |148 |86 |58 |36 |18 |18 |11 |6  |45         |1          |18        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Birth Order
@@ -250,14 +292,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/C     |partial      |
-#'  |1996 |A/C     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/C     |1990, 1996 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `genetest`](https://gssdataexplorer.norc.org/variables/5083/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal |not very much |nothing at all |refused |don't know |no answer |Total |
+#'  |:-----|:----|:------------|:-------------|:--------------|:-------|:----------|:---------|:-----|
+#'  |1990  |455  |117          |541           |237            |2       |16         |4         |1372  |
+#'  |1996  |2408 |67           |313           |86             |-       |11         |19        |2904  |
+#'  |Total |2863 |184          |854           |323            |2       |27         |23        |4276  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
@@ -285,15 +333,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/C/-   |partial      |
-#'  |2004 |A/B/C   |full         |
-#'  |2018 |A/C/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2004       |
+#'  |A/C/-   |1996, 2018 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `genetst1`](https://gssdataexplorer.norc.org/variables/5084/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a great deal |something but not very much |nothing at all |don't know |no answer |Total |
+#'  |:-----|:----|:------------|:---------------------------|:--------------|:----------|:---------|:-----|
+#'  |1996  |2431 |70           |276                         |82             |10         |35        |2904  |
+#'  |2004  |2    |508          |1896                        |397            |9          |-         |2812  |
+#'  |2018  |1168 |142          |694                         |314            |4          |26        |2348  |
+#'  |Total |3601 |720          |2866                        |793            |23         |61        |8064  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
@@ -321,14 +376,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/C     |partial      |
-#'  |1996 |A/C     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/C     |1990, 1996 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `genegood`](https://gssdataexplorer.norc.org/variables/5085/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |good ) harm |harm ) good |it depends |refused |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:-----------|:----------|:-------|:----------|:---------|:-----|
+#'  |1990  |455  |434         |190         |99         |6       |183        |5         |1372  |
+#'  |1996  |2408 |242         |112         |-          |-       |119        |23        |2904  |
+#'  |Total |2863 |676         |302         |99         |6       |302        |28        |4276  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes

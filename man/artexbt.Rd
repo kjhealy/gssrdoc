@@ -22,15 +22,21 @@ Question During the last 12 months, did you go to an art exhibit, such as painti
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6210/vshow}{GSS Data Explorer page for \code{artexbt}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2016 \tab 1390 \tab 481 \tab 988 \tab 8 \tab 2867 \cr
+   Total \tab 1390 \tab 481 \tab 988 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

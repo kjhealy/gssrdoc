@@ -29,15 +29,21 @@ E. About how long would it take you to get to where this friend lives? Think of 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4167/vshow}{GSS Data Explorer page for \code{fritime}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab lt 15 min \tab 15-30 min \tab 30 min-1 hr \tab 1-2 hr \tab 2-3 hr \tab 3-5 hr \tab 5-12 hr \tab 12+ hr \tab no answer \tab Total \cr
+   1986 \tab 92 \tab 625 \tab 343 \tab 169 \tab 68 \tab 25 \tab 37 \tab 37 \tab 62 \tab 12 \tab 1470 \cr
+   Total \tab 92 \tab 625 \tab 343 \tab 169 \tab 68 \tab 25 \tab 37 \tab 37 \tab 62 \tab 12 \tab 1470 \cr
+}
 }
 
 \seealso{

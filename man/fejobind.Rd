@@ -26,17 +26,23 @@ G. Having a job is the best way for a woman to be an independent person.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1994, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4349/vshow}{GSS Data Explorer page for \code{fejobind}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 157 \tab 444 \tab 316 \tab 355 \tab 82 \tab 37 \tab 23 \tab 1481 \cr
+   1994 \tab 1545 \tab 175 \tab 464 \tab 309 \tab 374 \tab 86 \tab 21 \tab 18 \tab 2992 \cr
+   2002 \tab 1594 \tab 257 \tab 351 \tab 291 \tab - \tab 254 \tab 17 \tab 1 \tab 2765 \cr
+   Total \tab 3206 \tab 589 \tab 1259 \tab 916 \tab 729 \tab 422 \tab 75 \tab 42 \tab 7238 \cr
+}
 }
 
 \seealso{

@@ -25,20 +25,26 @@ R. Workers need strong trade unions to protect their interests
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2791/vshow}{GSS Data Explorer page for \code{trdunion}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 214 \tab 599 \tab 680 \tab 211 \tab 72 \tab 20 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 163 \tab 526 \tab 723 \tab 218 \tab 90 \tab 14 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 101 \tab 413 \tab 478 \tab 119 \tab 47 \tab 29 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 118 \tab 436 \tab 496 \tab 114 \tab 68 \tab 18 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 140 \tab 572 \tab 534 \tab 89 \tab 78 \tab 35 \tab - \tab 2348 \cr
+   2022 \tab 1549 \tab 293 \tab 793 \tab 610 \tab 130 \tab 116 \tab 19 \tab 34 \tab 3544 \cr
+   Total \tab 8339 \tab 1029 \tab 3339 \tab 3521 \tab 881 \tab 471 \tab 135 \tab 34 \tab 17749 \cr
+}
 }
 
 \seealso{

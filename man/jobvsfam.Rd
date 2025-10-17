@@ -26,15 +26,21 @@ B. It has been difficult for me to fulfill my family responsibilities because of
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4448/vshow}{GSS Data Explorer page for \code{jobvsfam}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab several times a week \tab several times a month \tab once or twice \tab never \tab doesnt apply or no job \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1594 \tab 94 \tab 134 \tab 261 \tab 353 \tab 313 \tab 6 \tab 10 \tab 2765 \cr
+   Total \tab 1594 \tab 94 \tab 134 \tab 261 \tab 353 \tab 313 \tab 6 \tab 10 \tab 2765 \cr
+}
 }
 
 \seealso{

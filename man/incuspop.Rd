@@ -23,17 +23,23 @@ Question What do you believe the income status of this housing unit is, relative
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6657/vshow}{GSS Data Explorer page for \code{incuspop}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab higher than average \tab average \tab lower than average \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab - \tab 518 \tab 1618 \tab 702 \tab 2 \tab 27 \tab - \tab 2867 \cr
+   2018 \tab - \tab 385 \tab 1348 \tab 607 \tab 2 \tab 6 \tab - \tab 2348 \cr
+   2022 \tab 2077 \tab 269 \tab 857 \tab 341 \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 2077 \tab 1172 \tab 3823 \tab 1650 \tab 4 \tab 33 \tab 0 \tab 8759 \cr
+}
 }
 
 \keyword{variable}

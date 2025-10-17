@@ -22,15 +22,21 @@ Question If you were driving through the neighborhoods in a city, would you go o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/725/vshow}{GSS Data Explorer page for \code{racavoid}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1977 \tab 176 \tab 519 \tab 807 \tab 26 \tab 2 \tab 1530 \cr
+   Total \tab 176 \tab 519 \tab 807 \tab 26 \tab 2 \tab 1530 \cr
+}
 }
 
 \seealso{

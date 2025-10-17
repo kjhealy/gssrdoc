@@ -28,32 +28,39 @@ A. The city or place you live in.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/443/vshow}{GSS Data Explorer page for \code{satcity}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab very great deal \tab great deal \tab quite a bit \tab a fair amount \tab some \tab a little \tab none \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 346 \tab 357 \tab 254 \tab 337 \tab 91 \tab 77 \tab 40 \tab 2 \tab - \tab 1504 \cr
+   1974 \tab - \tab 297 \tab 394 \tab 257 \tab 343 \tab 103 \tab 59 \tab 30 \tab 1 \tab - \tab 1484 \cr
+   1975 \tab - \tab 311 \tab 438 \tab 222 \tab 298 \tab 93 \tab 80 \tab 41 \tab 2 \tab 5 \tab 1490 \cr
+   1976 \tab - \tab 293 \tab 446 \tab 260 \tab 307 \tab 101 \tab 57 \tab 29 \tab 4 \tab 2 \tab 1499 \cr
+   1977 \tab - \tab 295 \tab 421 \tab 262 \tab 330 \tab 95 \tab 85 \tab 37 \tab 3 \tab 2 \tab 1530 \cr
+   1978 \tab - \tab 254 \tab 460 \tab 291 \tab 305 \tab 101 \tab 71 \tab 43 \tab 1 \tab 6 \tab 1532 \cr
+   1980 \tab - \tab 347 \tab 450 \tab 224 \tab 267 \tab 82 \tab 65 \tab 27 \tab 6 \tab - \tab 1468 \cr
+   1982 \tab - \tab 304 \tab 442 \tab 358 \tab 446 \tab 161 \tab 96 \tab 44 \tab 5 \tab 4 \tab 1860 \cr
+   1983 \tab - \tab 253 \tab 488 \tab 280 \tab 337 \tab 119 \tab 85 \tab 28 \tab 6 \tab 3 \tab 1599 \cr
+   1984 \tab - \tab 288 \tab 478 \tab 256 \tab 262 \tab 85 \tab 72 \tab 20 \tab 6 \tab 6 \tab 1473 \cr
+   1986 \tab - \tab 232 \tab 395 \tab 274 \tab 315 \tab 117 \tab 92 \tab 28 \tab 3 \tab 14 \tab 1470 \cr
+   1987 \tab - \tab 320 \tab 557 \tab 304 \tab 383 \tab 130 \tab 81 \tab 32 \tab 1 \tab 11 \tab 1819 \cr
+   1988 \tab 484 \tab 176 \tab 307 \tab 187 \tab 206 \tab 58 \tab 36 \tab 23 \tab 1 \tab 3 \tab 1481 \cr
+   1989 \tab 502 \tab 178 \tab 283 \tab 217 \tab 196 \tab 69 \tab 63 \tab 22 \tab 2 \tab 5 \tab 1537 \cr
+   1990 \tab 473 \tab 136 \tab 299 \tab 161 \tab 183 \tab 69 \tab 38 \tab 12 \tab - \tab 1 \tab 1372 \cr
+   1991 \tab 500 \tab 176 \tab 302 \tab 187 \tab 207 \tab 88 \tab 44 \tab 11 \tab - \tab 2 \tab 1517 \cr
+   1993 \tab 549 \tab 182 \tab 304 \tab 195 \tab 211 \tab 84 \tab 57 \tab 21 \tab - \tab 3 \tab 1606 \cr
+   1994 \tab 2481 \tab 80 \tab 161 \tab 105 \tab 99 \tab 33 \tab 16 \tab 16 \tab - \tab 1 \tab 2992 \cr
+   Total \tab 4989 \tab 4468 \tab 6982 \tab 4294 \tab 5032 \tab 1679 \tab 1174 \tab 504 \tab 43 \tab 68 \tab 29233 \cr
+}
 }
 
 \seealso{

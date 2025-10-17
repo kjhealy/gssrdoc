@@ -23,15 +23,21 @@ B. Where would you say an unskilled worker in a factory fits in?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4339/vshow}{GSS Data Explorer page for \code{unsklrnk}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab top \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab bottom \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1545 \tab 12 \tab 6 \tab 25 \tab 101 \tab 237 \tab 457 \tab 293 \tab 61 \tab 80 \tab 2817 \cr
+   Total \tab 1545 \tab 12 \tab 6 \tab 25 \tab 101 \tab 237 \tab 457 \tab 293 \tab 61 \tab 80 \tab 2817 \cr
+}
 }
 
 \seealso{

@@ -31,15 +31,21 @@ C. Third Most Important
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4880/vshow}{GSS Data Explorer page for \code{socid3}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab current occupation \tab race ethnic background \tab gender \tab age group \tab religion \tab political party \tab nationality \tab family or marital status \tab social class \tab region \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 1596 \tab 165 \tab 72 \tab 140 \tab 128 \tab 94 \tab 32 \tab 64 \tab 124 \tab 122 \tab 242 \tab 26 \tab 7 \tab 2812 \cr
+   Total \tab 1596 \tab 165 \tab 72 \tab 140 \tab 128 \tab 94 \tab 32 \tab 64 \tab 124 \tab 122 \tab 242 \tab 26 \tab 7 \tab 2812 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ A. How many of these close friends are people you work with now?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4163/vshow}{GSS Data Explorer page for \code{friwork}}.
+
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 16 \tab 2 \tab 20 \tab 22 \tab 25 \tab 3 \tab 30 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 77 \tab 950 \tab 178 \tab 9 \tab 2 \tab 2 \tab 4 \tab 2 \tab 98 \tab 2 \tab 1 \tab 2 \tab 58 \tab 1 \tab 19 \tab 26 \tab 11 \tab 4 \tab 9 \tab 1 \tab 14 \tab 1470 \cr
+   Total \tab 77 \tab 950 \tab 178 \tab 9 \tab 2 \tab 2 \tab 4 \tab 2 \tab 98 \tab 2 \tab 1 \tab 2 \tab 58 \tab 1 \tab 19 \tab 26 \tab 11 \tab 4 \tab 9 \tab 1 \tab 14 \tab 1470 \cr
+}
 }
 
 \seealso{

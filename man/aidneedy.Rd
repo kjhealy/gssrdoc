@@ -24,15 +24,21 @@ A. For students whose parents have a low income.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4025/vshow}{GSS Data Explorer page for \code{aidneedy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab govt give grants \tab govt make loans \tab no govt asst \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 279 \tab 351 \tab 32 \tab 6 \tab 9 \tab 1534 \cr
+   Total \tab 857 \tab 279 \tab 351 \tab 32 \tab 6 \tab 9 \tab 1534 \cr
+}
 }
 
 \seealso{

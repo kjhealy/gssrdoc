@@ -23,17 +23,23 @@ D. Nowadays, a person has to live pretty much for today and let tomorrow take ca
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
-   1974 \tab - \tab full \cr
-   1976 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973, 1974, 1976 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/540/vshow}{GSS Data Explorer page for \code{anomia4}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 651 \tab 846 \tab 7 \tab - \tab 1504 \cr
+   1974 \tab - \tab 646 \tab 822 \tab 14 \tab 2 \tab 1484 \cr
+   1976 \tab - \tab 698 \tab 788 \tab 12 \tab 1 \tab 1499 \cr
+   Total \tab 0 \tab 1995 \tab 2456 \tab 33 \tab 3 \tab 4487 \cr
+}
 }
 
 \seealso{

@@ -22,18 +22,25 @@ Question Do you believe your fixed annual wages in calendar year 2005 were highe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006, 2014, 2018 \cr
+   B/C/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3554/vshow}{GSS Data Explorer page for \code{compwage}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1 - lower \tab 2 \tab 3 \tab 4 \tab 5 - higher \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2006 \tab 2778 \tab 315 \tab 208 \tab 743 \tab 197 \tab 158 \tab 85 \tab 26 \tab - \tab 4510 \cr
+   2014 \tab 1765 \tab 140 \tab 150 \tab 298 \tab 114 \tab 43 \tab 24 \tab 4 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 153 \tab 237 \tab 662 \tab 194 \tab 116 \tab 53 \tab 33 \tab - \tab 2348 \cr
+   2022 \tab 2569 \tab 169 \tab 153 \tab 437 \tab 106 \tab 56 \tab 27 \tab 9 \tab 18 \tab 3544 \cr
+   Total \tab 8012 \tab 777 \tab 748 \tab 2140 \tab 611 \tab 373 \tab 189 \tab 72 \tab 18 \tab 12940 \cr
+}
 }
 
 \seealso{

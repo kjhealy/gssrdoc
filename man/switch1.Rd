@@ -58,15 +58,21 @@ A. Starting when you were 16 years old, what other religious preferences have yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1050/vshow}{GSS Data Explorer page for \code{switch1}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab amer baptist assoc \tab amer bapt ch in us \tab natl bapt con of am \tab southern bapt con \tab other baptist church \tab baptist, dk which \tab united methodist ch \tab methodist, dk which \tab amer lutheran church \tab luth ch-missouri syn \tab other lutheran churc \tab evangelical lutheran \tab lutheran, dk which \tab presbyterian ch n us \tab united pres ch in us \tab other presbyterian \tab presbyterian, dk whi \tab episcopal church \tab 160012 \tab 160014 \tab 160019 \tab 160023 \tab 160024 \tab 160033 \tab 160035 \tab 160036 \tab 160040 \tab 160042 \tab 160044 \tab 160045 \tab 160051 \tab 160052 \tab 160053 \tab 160056 \tab 160058 \tab 160059 \tab 160060 \tab 160063 \tab 160064 \tab 160065 \tab 160068 \tab 160070 \tab 160074 \tab 160078 \tab 160080 \tab 160081 \tab 160083 \tab 160093 \tab 160095 \tab 160999 \tab no denomination \tab catholic \tab jewish \tab none \tab other religion \tab no answer \tab Total \cr
+   1988 \tab 945 \tab 2 \tab 2 \tab 2 \tab 21 \tab 7 \tab 32 \tab 12 \tab 23 \tab 3 \tab 3 \tab 1 \tab 1 \tab 14 \tab 2 \tab 8 \tab 1 \tab 24 \tab 13 \tab 12 \tab 2 \tab 1 \tab 3 \tab 1 \tab 4 \tab 12 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 3 \tab 3 \tab 1 \tab 4 \tab 8 \tab 2 \tab 1 \tab 1 \tab 6 \tab 7 \tab 8 \tab 1 \tab 1 \tab 2 \tab 5 \tab 2 \tab 3 \tab 1 \tab 2 \tab 5 \tab 16 \tab 53 \tab 14 \tab 11 \tab 14 \tab 147 \tab 1481 \cr
+   Total \tab 945 \tab 2 \tab 2 \tab 2 \tab 21 \tab 7 \tab 32 \tab 12 \tab 23 \tab 3 \tab 3 \tab 1 \tab 1 \tab 14 \tab 2 \tab 8 \tab 1 \tab 24 \tab 13 \tab 12 \tab 2 \tab 1 \tab 3 \tab 1 \tab 4 \tab 12 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 3 \tab 3 \tab 1 \tab 4 \tab 8 \tab 2 \tab 1 \tab 1 \tab 6 \tab 7 \tab 8 \tab 1 \tab 1 \tab 2 \tab 5 \tab 2 \tab 3 \tab 1 \tab 2 \tab 5 \tab 16 \tab 53 \tab 14 \tab 11 \tab 14 \tab 147 \tab 1481 \cr
+}
 }
 
 \seealso{

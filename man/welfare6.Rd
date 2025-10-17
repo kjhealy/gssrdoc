@@ -26,15 +26,21 @@ F. Discourages young women who get pregnant from marrying the father of the chil
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5503/vshow}{GSS Data Explorer page for \code{welfare6}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1986 \tab - \tab 188 \tab 654 \tab 509 \tab 49 \tab 67 \tab 3 \tab 1470 \cr
+   Total \tab 0 \tab 188 \tab 654 \tab 509 \tab 49 \tab 67 \tab 3 \tab 1470 \cr
+}
 }
 
 \seealso{

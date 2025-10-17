@@ -26,15 +26,21 @@ A. If the doctor said that your child should be on medication, how likely would 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2942/vshow}{GSS Data Explorer page for \code{addocmed}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab Total \cr
+   2002 \tab 1674 \tab 573 \tab 382 \tab 97 \tab 31 \tab 8 \tab 2765 \cr
+   Total \tab 1674 \tab 573 \tab 382 \tab 97 \tab 31 \tab 8 \tab 2765 \cr
+}
 }
 
 \seealso{

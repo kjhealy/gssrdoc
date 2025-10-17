@@ -26,16 +26,23 @@ J. A person''s religion?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/- \tab full \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1987 \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4250/vshow}{GSS Data Explorer page for \code{oprelig}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 74 \tab 189 \tab 224 \tab 506 \tab 515 \tab 40 \tab 16 \tab - \tab 1819 \cr
+   2021 \tab 2029 \tab 42 \tab 97 \tab 217 \tab 579 \tab 871 \tab 61 \tab 120 \tab 16 \tab 4032 \cr
+   Total \tab 2284 \tab 116 \tab 286 \tab 441 \tab 1085 \tab 1386 \tab 101 \tab 136 \tab 16 \tab 5851 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ B. Blacks/African-Americans?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2311/vshow}{GSS Data Explorer page for \code{usblk}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 100 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 28 \tab 29 \tab 30 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 40 \tab 42 \tab 45 \tab 46 \tab 48 \tab 49 \tab 5 \tab 50 \tab 51 \tab 53 \tab 55 \tab 6 \tab 60 \tab 65 \tab 7 \tab 70 \tab 75 \tab 8 \tab 80 \tab 85 \tab 9 \tab 90 \tab 93 \tab 95 \tab 96 \tab 98 \tab 99 \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 88 \tab 6 \tab 2 \tab 25 \tab 11 \tab 6 \tab 91 \tab 2 \tab 2 \tab 5 \tab 3 \tab 243 \tab 2 \tab 2 \tab 2 \tab 2 \tab 118 \tab 2 \tab 4 \tab 1 \tab 213 \tab 3 \tab 4 \tab 1 \tab 54 \tab 1 \tab 1 \tab 3 \tab 140 \tab 1 \tab 24 \tab 2 \tab 3 \tab 2 \tab 7 \tab 109 \tab 1 \tab 1 \tab 6 \tab 2 \tab 41 \tab 4 \tab 2 \tab 27 \tab 14 \tab 2 \tab 12 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 61 \tab 27 \tab 2817 \cr
+   Total \tab 1419 \tab 88 \tab 6 \tab 2 \tab 25 \tab 11 \tab 6 \tab 91 \tab 2 \tab 2 \tab 5 \tab 3 \tab 243 \tab 2 \tab 2 \tab 2 \tab 2 \tab 118 \tab 2 \tab 4 \tab 1 \tab 213 \tab 3 \tab 4 \tab 1 \tab 54 \tab 1 \tab 1 \tab 3 \tab 140 \tab 1 \tab 24 \tab 2 \tab 3 \tab 2 \tab 7 \tab 109 \tab 1 \tab 1 \tab 6 \tab 2 \tab 41 \tab 4 \tab 2 \tab 27 \tab 14 \tab 2 \tab 12 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 61 \tab 27 \tab 2817 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question What is your current legal marital status?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3911/vshow}{GSS Data Explorer page for \code{marunion}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab legally married \tab in a civil union or registered domestic partnership \tab separated \tab not currently married or in a civil union or registered domestic partnership \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1879 \tab 32 \tab 8 \tab 6 \tab 65 \tab 2 \tab 31 \tab 2023 \cr
+   Total \tab 1879 \tab 32 \tab 8 \tab 6 \tab 65 \tab 2 \tab 31 \tab 2023 \cr
+}
 }
 
 \seealso{

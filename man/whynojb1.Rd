@@ -31,15 +31,21 @@ Question Why job abolished or laid off.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3895/vshow}{GSS Data Explorer page for \code{whynojb1}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab company's sales were declining \tab job requirements changed and i was not able to do the job \tab job moved to another location in the united states \tab job moved to another country \tab other \tab Total \cr
+   2008 \tab 1968 \tab 17 \tab 2 \tab 3 \tab 1 \tab 32 \tab 2023 \cr
+   Total \tab 1968 \tab 17 \tab 2 \tab 3 \tab 1 \tab 32 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -23,16 +23,22 @@ A. Do you understand what the Equal Rights Amendment means?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977, 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/708/vshow}{GSS Data Explorer page for \code{erameans}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1977 \tab 209 \tab 1060 \tab 239 \tab 22 \tab - \tab 1530 \cr
+   1982 \tab 183 \tab 1405 \tab 230 \tab 35 \tab 7 \tab 1860 \cr
+   Total \tab 392 \tab 2465 \tab 469 \tab 57 \tab 7 \tab 3390 \cr
+}
 }
 
 \seealso{

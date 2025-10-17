@@ -32,20 +32,26 @@ Question In your main job, are you salaried, paid by the hour, or what?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2762/vshow}{GSS Data Explorer page for \code{waypaid}}.
+
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab salaried \tab paid by the hour \tab other \tab don't know \tab no answer \tab commission \tab self-employed \tab paid by the job \tab salary and bonus/commission \tab tips \tab piece work \tab paid by day \tab paid by percent \tab paid by contract \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 606 \tab 957 \tab 214 \tab 7 \tab 12 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 624 \tab 895 \tab 200 \tab 2 \tab 13 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 408 \tab 595 \tab 62 \tab 2 \tab 25 \tab 30 \tab 24 \tab 27 \tab 12 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 410 \tab 684 \tab 148 \tab - \tab 7 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 463 \tab 811 \tab - \tab - \tab 21 \tab 33 \tab 14 \tab 30 \tab - \tab 3 \tab 16 \tab 45 \tab 6 \tab 6 \tab - \tab 2348 \cr
+   2022 \tab 1539 \tab 745 \tab 1044 \tab 186 \tab 5 \tab 13 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 12 \tab 3544 \cr
+   Total \tab 8329 \tab 3256 \tab 4986 \tab 810 \tab 16 \tab 91 \tab 63 \tab 38 \tab 57 \tab 12 \tab 6 \tab 16 \tab 45 \tab 6 \tab 6 \tab 12 \tab 17749 \cr
+}
 }
 
 \seealso{

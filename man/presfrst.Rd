@@ -21,15 +21,21 @@ Question Respondent's First Occupation, Prestige, and Industry
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1463/vshow}{GSS Data Explorer page for \code{presfrst}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab not available in this year \tab 17 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 45 \tab 46 \tab 47 \tab 48 \tab 49 \tab 50 \tab 51 \tab 52 \tab 53 \tab 54 \tab 55 \tab 56 \tab 57 \tab 58 \tab 59 \tab 60 \tab 61 \tab 62 \tab 63 \tab 64 \tab 65 \tab 66 \tab 68 \tab 69 \tab 71 \tab 72 \tab 73 \tab 74 \tab 75 \tab 86 \tab dk, na, iap \tab iap \tab Total \cr
+   1994 \tab - \tab 15 \tab 7 \tab 11 \tab 13 \tab 26 \tab 88 \tab 31 \tab 11 \tab 1 \tab 20 \tab 78 \tab 76 \tab 51 \tab 47 \tab 34 \tab 26 \tab 44 \tab 43 \tab 57 \tab 12 \tab 12 \tab 26 \tab 78 \tab 14 \tab 51 \tab 18 \tab 19 \tab 15 \tab 66 \tab 41 \tab 7 \tab 24 \tab 12 \tab 45 \tab 12 \tab 4 \tab 6 \tab 2 \tab 2 \tab 12 \tab 3 \tab 3 \tab 19 \tab 6 \tab 7 \tab 3 \tab 45 \tab 23 \tab 41 \tab 8 \tab 12 \tab 6 \tab 2 \tab 6 \tab 16 \tab 7 \tab 4 \tab 1624 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 15 \tab 7 \tab 11 \tab 13 \tab 26 \tab 88 \tab 31 \tab 11 \tab 1 \tab 20 \tab 78 \tab 76 \tab 51 \tab 47 \tab 34 \tab 26 \tab 44 \tab 43 \tab 57 \tab 12 \tab 12 \tab 26 \tab 78 \tab 14 \tab 51 \tab 18 \tab 19 \tab 15 \tab 66 \tab 41 \tab 7 \tab 24 \tab 12 \tab 45 \tab 12 \tab 4 \tab 6 \tab 2 \tab 2 \tab 12 \tab 3 \tab 3 \tab 19 \tab 6 \tab 7 \tab 3 \tab 45 \tab 23 \tab 41 \tab 8 \tab 12 \tab 6 \tab 2 \tab 6 \tab 16 \tab 7 \tab 4 \tab 1624 \tab 0 \tab 2992 \cr
+}
 }
 
 \seealso{

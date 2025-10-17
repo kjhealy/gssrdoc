@@ -22,15 +22,21 @@ Question On a scale from 0 to 10, how bad or good do you think the impacts of cl
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7488/vshow}{GSS Data Explorer page for \code{clmtusa}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 0 - extremely bad \tab 1 \tab 10 - extremely good \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab can't choose \tab no answer \tab Total \cr
+   2021 \tab 2003 \tab 372 \tab 124 \tab 19 \tab 242 \tab 263 \tab 198 \tab 349 \tab 60 \tab 52 \tab 19 \tab 24 \tab 89 \tab 218 \tab 4032 \cr
+   Total \tab 2003 \tab 372 \tab 124 \tab 19 \tab 242 \tab 263 \tab 198 \tab 349 \tab 60 \tab 52 \tab 19 \tab 24 \tab 89 \tab 218 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

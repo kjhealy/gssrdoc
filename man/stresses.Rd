@@ -25,18 +25,25 @@ D. Stressful circumstances in his/her life
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1991/vshow}{GSS Data Explorer page for \code{stresses}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 523 \tab 706 \tab 102 \tab 57 \tab 40 \tab 16 \tab 2904 \cr
+   2006 \tab 3073 \tab 540 \tab 732 \tab 84 \tab 36 \tab 31 \tab 14 \tab 4510 \cr
+   2018 \tab 1175 \tab 387 \tab 580 \tab 102 \tab 59 \tab 16 \tab 29 \tab 2348 \cr
+   Total \tab 5708 \tab 1450 \tab 2018 \tab 288 \tab 152 \tab 87 \tab 59 \tab 9762 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ E. That health care be provided for everyone
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4970/vshow}{GSS Data Explorer page for \code{hlthall}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
+   2014 \tab 1274 \tab 79 \tab 38 \tab 47 \tab 121 \tab 88 \tab 151 \tab 696 \tab 42 \tab 2 \tab 2538 \cr
+   Total \tab 1274 \tab 79 \tab 38 \tab 47 \tab 121 \tab 88 \tab 151 \tab 696 \tab 42 \tab 2 \tab 2538 \cr
+}
 }
 
 \seealso{

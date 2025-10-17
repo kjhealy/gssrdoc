@@ -26,15 +26,21 @@ C. Jews?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2319/vshow}{GSS Data Explorer page for \code{jewschng}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab increase a lot \tab increase by a little \tab stay the same \tab decrease by a little \tab decrease by a lot \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 50 \tab 328 \tab 695 \tab 163 \tab 25 \tab 124 \tab 13 \tab 2817 \cr
+   Total \tab 1419 \tab 50 \tab 328 \tab 695 \tab 163 \tab 25 \tab 124 \tab 13 \tab 2817 \cr
+}
 }
 
 \seealso{

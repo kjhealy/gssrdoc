@@ -15,13 +15,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `caninf1`](https://gssdataexplorer.norc.org/variables/2984/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1789 |344 |353 |25         |306       |2817  |
+#'  |Total |1789 |344 |353 |25         |306       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -49,13 +55,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `caninf2`](https://gssdataexplorer.norc.org/variables/2985/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1789 |672 |23  |25         |308       |2817  |
+#'  |Total |1789 |672 |23  |25         |308       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -83,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `caninf3`](https://gssdataexplorer.norc.org/variables/2986/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1789 |693 |2   |25         |308       |2817  |
+#'  |Total |1789 |693 |2   |25         |308       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -117,13 +135,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `caninf4`](https://gssdataexplorer.norc.org/variables/2987/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1789 |665 |30  |25         |308       |2817  |
+#'  |Total |1789 |665 |30  |25         |308       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -151,13 +175,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `caninf5`](https://gssdataexplorer.norc.org/variables/2988/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1789 |684 |11  |25         |308       |2817  |
+#'  |Total |1789 |684 |11  |25         |308       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -185,13 +215,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `caninf6`](https://gssdataexplorer.norc.org/variables/2989/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1789 |692 |3   |25         |308       |2817  |
+#'  |Total |1789 |692 |3   |25         |308       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -219,13 +255,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `caninf7`](https://gssdataexplorer.norc.org/variables/2990/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1789 |633 |62  |25         |308       |2817  |
+#'  |Total |1789 |633 |62  |25         |308       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -253,13 +295,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `caninf8`](https://gssdataexplorer.norc.org/variables/2991/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1789 |692 |3   |25         |308       |2817  |
+#'  |Total |1789 |692 |3   |25         |308       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -287,13 +335,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `caninf9`](https://gssdataexplorer.norc.org/variables/2992/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1789 |646 |49  |25         |308       |2817  |
+#'  |Total |1789 |646 |49  |25         |308       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -321,13 +375,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `caninf10`](https://gssdataexplorer.norc.org/variables/2993/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2000  |1789 |678 |17  |25         |308       |2817  |
+#'  |Total |1789 |678 |17  |25         |308       |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online

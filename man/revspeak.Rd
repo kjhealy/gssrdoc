@@ -25,19 +25,28 @@ A. Hold public meetings to express their views.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3988/vshow}{GSS Data Explorer page for \code{revspeak}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 191 \tab 160 \tab 77 \tab 219 \tab 24 \tab 6 \tab 1534 \cr
+   1990 \tab 155 \tab 378 \tab 307 \tab 173 \tab 288 \tab 58 \tab 13 \tab 1372 \cr
+   1996 \tab 1572 \tab 358 \tab 367 \tab 188 \tab 326 \tab 61 \tab 32 \tab 2904 \cr
+   2006 \tab 2992 \tab 731 \tab 344 \tab 193 \tab 234 \tab 16 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 669 \tab 375 \tab 168 \tab 151 \tab 18 \tab 9 \tab 2867 \cr
+   Total \tab 7053 \tab 2327 \tab 1553 \tab 799 \tab 1218 \tab 177 \tab 60 \tab 13187 \cr
+}
 }
 
 \seealso{

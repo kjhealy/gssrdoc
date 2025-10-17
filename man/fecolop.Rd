@@ -25,15 +25,21 @@ Question Would you say that opportunities for college education are, in general,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4009/vshow}{GSS Data Explorer page for \code{fecolop}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab much bettr for women \tab better for women \tab no difference \tab worse for women \tab much wrse for women \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 14 \tab 49 \tab 497 \tab 66 \tab 6 \tab 33 \tab 12 \tab 1534 \cr
+   Total \tab 857 \tab 14 \tab 49 \tab 497 \tab 66 \tab 6 \tab 33 \tab 12 \tab 1534 \cr
+}
 }
 
 \seealso{

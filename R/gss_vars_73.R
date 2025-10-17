@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suiclse1`](https://gssdataexplorer.norc.org/variables/6185/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - not close at all |2   |3   |4   |5 - very close |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------|:---|:---|:---|:--------------|:----------|:---------|:-----|
+#'  |2016  |2093 |144                  |129 |210 |136 |130            |1          |24        |2867  |
+#'  |Total |2093 |144                  |129 |210 |136 |130            |1          |24        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suitime1`](https://gssdataexplorer.norc.org/variables/6186/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |respondent provides number of months or years |respondent provides verbatim response uncodeable in months/years |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------------------------|:----------------------------------------------------------------|:----------|:---------|:-----|
+#'  |2016  |2093 |700                                           |42                                                               |7          |25        |2867  |
+#'  |Total |2093 |700                                           |42                                                               |7          |25        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
@@ -79,13 +91,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suimths1`](https://gssdataexplorer.norc.org/variables/6187/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |less than one |1  |10 |11 |2  |3  |4  |5  |6  |7  |8  |9  |no month given |don't know |no answer |Total |
+#'  |:-----|:----|:-------------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------|:----------|:---------|:-----|
+#'  |2016  |2093 |221           |14 |4  |9  |19 |6  |11 |11 |30 |5  |3  |5  |395            |8          |33        |2867  |
+#'  |Total |2093 |221           |14 |4  |9  |19 |6  |11 |11 |30 |5  |3  |5  |395            |8          |33        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
@@ -110,13 +128,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suiyrs1`](https://gssdataexplorer.norc.org/variables/6188/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |within the last year |1  |10 |11 |12 |13 |14 |15 |16 |17 |18 |19 |2  |20 |21 |22 |23 |24 |25 |26 |27 |28 |29 |3  |30 |32 |33 |34 |35 |36 |37 |4  |40 |41 |43 |45 |46 |47 |48 |49 |5  |50 |51 |52 |53 |55 |56 |59 |6  |60 |67 |7  |70 |75 |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2016  |2093 |52                   |49 |53 |6  |24 |4  |6  |47 |6  |12 |4  |6  |54 |48 |2  |4  |4  |5  |17 |3  |5  |5  |3  |31 |33 |1  |2  |2  |8  |4  |3  |29 |19 |5  |2  |6  |2  |2  |2  |1  |50 |7  |1  |2  |1  |1  |2  |1  |31 |4  |1  |26 |1  |1  |23 |9  |7          |35        |2867  |
+#'  |Total |2093 |52                   |49 |53 |6  |24 |4  |6  |47 |6  |12 |4  |6  |54 |48 |2  |4  |4  |5  |17 |3  |5  |5  |3  |31 |33 |1  |2  |2  |8  |4  |3  |29 |19 |5  |2  |6  |2  |2  |2  |1  |50 |7  |1  |2  |1  |1  |2  |1  |31 |4  |1  |26 |1  |1  |23 |9  |7          |35        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
@@ -162,13 +186,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suirel2`](https://gssdataexplorer.norc.org/variables/6189/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |husband or wife |partner or lover |son or daughter |mother or father |step-parent |cousin |other relative |friend |neighbor |co-worker |patient |acquaintance |ex-spouse or ex-partner |classmate |relative of a friend |student |friend of a friend |other |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:----------------|:---------------|:----------------|:-----------|:------|:--------------|:------|:--------|:---------|:-------|:------------|:-----------------------|:---------|:--------------------|:-------|:------------------|:-----|:----------|:---------|:-----|
+#'  |2016  |2425 |1               |4                |1               |2                |1           |28     |64             |161    |15       |22        |6       |84           |2                       |2         |3                    |4       |6                  |11    |1          |24        |2867  |
+#'  |Total |2425 |1               |4                |1               |2                |1           |28     |64             |161    |15       |22        |6       |84           |2                       |2         |3                    |4       |6                  |11    |1          |24        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
@@ -198,13 +228,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suineg2`](https://gssdataexplorer.norc.org/variables/6190/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes, greatly |yes, to some extent |yes, but not much |no |not sure |no answer |Total |
+#'  |:-----|:----|:------------|:-------------------|:-----------------|:--|:--------|:---------|:-----|
+#'  |2016  |2425 |85           |138                 |102               |84 |9        |24        |2867  |
+#'  |Total |2425 |85           |138                 |102               |84 |9        |24        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
@@ -231,13 +267,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suiclse2`](https://gssdataexplorer.norc.org/variables/6191/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - not close at all |2  |3   |4  |5 - very close |no answer |Total |
+#'  |:-----|:----|:--------------------|:--|:---|:--|:--------------|:---------|:-----|
+#'  |2016  |2425 |125                  |97 |110 |47 |39             |24        |2867  |
+#'  |Total |2425 |125                  |97 |110 |47 |39             |24        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
@@ -264,13 +306,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suitime2`](https://gssdataexplorer.norc.org/variables/6192/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |respondent provides number of months or years |respondent provides verbatim response uncodeable in months/years |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------------------------------|:----------------------------------------------------------------|:----------|:---------|:-----|
+#'  |2016  |2425 |384                                           |23                                                               |10         |25        |2867  |
+#'  |Total |2425 |384                                           |23                                                               |10         |25        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
@@ -296,13 +344,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suimths2`](https://gssdataexplorer.norc.org/variables/6193/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |less than one |1  |10 |11 |2  |3  |4  |5  |6  |7  |8  |9  |no month given |don't know |no answer |Total |
+#'  |:-----|:----|:-------------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------|:----------|:---------|:-----|
+#'  |2016  |2425 |129           |5  |1  |2  |3  |11 |3  |3  |15 |2  |1  |2  |224            |6          |35        |2867  |
+#'  |Total |2425 |129           |5  |1  |2  |3  |11 |3  |3  |15 |2  |1  |2  |224            |6          |35        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
@@ -327,13 +381,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suiyrs2`](https://gssdataexplorer.norc.org/variables/6194/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |within the last year |1  |10 |11 |12 |13 |14 |15 |16 |17 |18 |19 |2  |20 |21 |22 |23 |24 |25 |26 |28 |29 |3  |30 |32 |33 |34 |35 |36 |37 |38 |4  |40 |41 |42 |45 |47 |48 |5  |50 |6  |60 |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2016  |2425 |22                   |12 |43 |10 |11 |1  |1  |14 |3  |6  |8  |1  |20 |32 |2  |10 |6  |3  |13 |2  |1  |2  |30 |15 |1  |2  |1  |4  |1  |1  |2  |15 |8  |1  |1  |3  |1  |2  |34 |5  |15 |2  |11 |14 |6  |5          |39        |2867  |
+#'  |Total |2425 |22                   |12 |43 |10 |11 |1  |1  |14 |3  |6  |8  |1  |20 |32 |2  |10 |6  |3  |13 |2  |1  |2  |30 |15 |1  |2  |1  |4  |1  |1  |2  |15 |8  |1  |1  |3  |1  |2  |34 |5  |15 |2  |11 |14 |6  |5          |39        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide

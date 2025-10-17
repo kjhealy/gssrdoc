@@ -25,19 +25,26 @@ Question B. And how willing would you be to pay much higher taxes in order to pr
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4737/vshow}{GSS Data Explorer page for \code{grntaxes}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 108 \tab 484 \tab 300 \tab 379 \tab 200 \tab 34 \tab 52 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 77 \tab 381 \tab 286 \tab 360 \tab 230 \tab 26 \tab 26 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 72 \tab 297 \tab 315 \tab 225 \tab 258 \tab 51 \tab 58 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 82 \tab 377 \tab 283 \tab 283 \tab 343 \tab 55 \tab 7 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 129 \tab 479 \tab 433 \tab 361 \tab 373 \tab 61 \tab 172 \tab 21 \tab 4032 \cr
+   Total \tab 5813 \tab 468 \tab 2018 \tab 1617 \tab 1608 \tab 1404 \tab 227 \tab 315 \tab 21 \tab 13491 \cr
+}
 }
 
 \seealso{

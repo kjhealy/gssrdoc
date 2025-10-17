@@ -24,15 +24,21 @@ Question In your opinion, should there be daily prayers in all public schools?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4680/vshow}{GSS Data Explorer page for \code{schlpray}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably \tab no, definitely \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 466 \tab 300 \tab 201 \tab 236 \tab 135 \tab 21 \tab 1517 \cr
+   Total \tab 158 \tab 466 \tab 300 \tab 201 \tab 236 \tab 135 \tab 21 \tab 1517 \cr
+}
 }
 
 \seealso{

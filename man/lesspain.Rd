@@ -24,15 +24,21 @@ Question I feel a deep sense of responsibility for reducing pain and suffering i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2103/vshow}{GSS Data Explorer page for \code{lesspain}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 239 \tab 640 \tab 433 \tab 97 \tab 12 \tab 24 \tab 2832 \cr
+   Total \tab 1387 \tab 239 \tab 640 \tab 433 \tab 97 \tab 12 \tab 24 \tab 2832 \cr
+}
 }
 
 \seealso{

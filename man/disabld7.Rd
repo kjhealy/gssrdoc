@@ -22,15 +22,21 @@ Question Participating fully in school, housework, or other daily activities?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C/D \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3718/vshow}{GSS Data Explorer page for \code{disabld7}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 1714 \tab 288 \tab 2487 \tab 6 \tab 15 \tab 4510 \cr
+   Total \tab 1714 \tab 288 \tab 2487 \tab 6 \tab 15 \tab 4510 \cr
+}
 }
 
 \seealso{

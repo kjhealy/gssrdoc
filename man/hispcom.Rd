@@ -23,15 +23,21 @@ B. Do you know any of these Hispanics from the community where you now live?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2351/vshow}{GSS Data Explorer page for \code{hispcom}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1878 \tab 503 \tab 367 \tab 1 \tab 68 \tab 2817 \cr
+   Total \tab 1878 \tab 503 \tab 367 \tab 1 \tab 68 \tab 2817 \cr
+}
 }
 
 \seealso{

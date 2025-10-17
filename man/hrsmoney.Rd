@@ -23,18 +23,26 @@ Question Think of the number of hours you work and the money you earn in your ma
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4532/vshow}{GSS Data Explorer page for \code{hrsmoney}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab work longer hours and earn more money \tab work the same number of hours and earn the same money \tab work fewer hours and earn less money \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 261 \tab 494 \tab 44 \tab 72 \tab 27 \tab 1537 \cr
+   1998 \tab 1967 \tab 247 \tab 437 \tab 77 \tab 71 \tab 33 \tab 2832 \cr
+   2006 \tab 3492 \tab 309 \tab 644 \tab 57 \tab 4 \tab 4 \tab 4510 \cr
+   2016 \tab 1927 \tab 352 \tab 531 \tab 42 \tab 6 \tab 9 \tab 2867 \cr
+   Total \tab 8025 \tab 1169 \tab 2106 \tab 220 \tab 153 \tab 73 \tab 11746 \cr
+}
 }
 
 \seealso{

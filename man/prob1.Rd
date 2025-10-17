@@ -26,16 +26,22 @@ A. First problem mentioned.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab C \tab partial \cr
-   2004 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 1991, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5132/vshow}{GSS Data Explorer page for \code{prob1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 103 \tab 104 \tab 11 \tab 110 \tab 120 \tab 130 \tab 131 \tab 150 \tab 151 \tab 170 \tab 172 \tab 175 \tab 180 \tab 190 \tab 192 \tab 2 \tab 20 \tab 200 \tab 21 \tab 210 \tab 211 \tab 220 \tab 23 \tab 235 \tab 237 \tab 24 \tab 240 \tab 25 \tab 26 \tab 27 \tab 28 \tab 30 \tab 4 \tab 40 \tab 44 \tab 61 \tab 65 \tab 66 \tab 7 \tab 70 \tab 72 \tab 73 \tab 74 \tab 76 \tab 77 \tab 80 \tab 81 \tab 83 \tab 84 \tab 85 \tab 90 \tab 92 \tab cant understand answer \tab no problems \tab no answer \tab 100 \tab 101 \tab 115 \tab 132 \tab 133 \tab 140 \tab 191 \tab 201 \tab 29 \tab 3 \tab 31 \tab 43 \tab 47 \tab 6 \tab 86 \tab 94 \tab 96 \tab don't know \tab Total \cr
+   1991 \tab 1025 \tab 39 \tab 5 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 4 \tab 1 \tab 3 \tab 3 \tab 3 \tab 6 \tab 3 \tab 2 \tab 1 \tab 43 \tab 11 \tab 7 \tab 1 \tab 6 \tab 2 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 2 \tab 2 \tab 9 \tab 1 \tab 2 \tab 99 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 3 \tab 7 \tab 1 \tab 16 \tab 3 \tab 3 \tab 1 \tab 7 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 113 \tab 42 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   2004 \tab 2378 \tab 40 \tab 15 \tab 2 \tab - \tab 1 \tab - \tab 2 \tab 7 \tab 1 \tab 1 \tab - \tab 2 \tab 3 \tab 3 \tab 1 \tab 5 \tab 3 \tab 26 \tab 13 \tab 2 \tab 4 \tab 3 \tab - \tab - \tab 3 \tab 3 \tab - \tab - \tab 6 \tab 1 \tab 18 \tab - \tab 2 \tab 88 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 5 \tab 2 \tab 9 \tab 1 \tab 2 \tab - \tab 1 \tab 1 \tab 5 \tab - \tab - \tab 1 \tab 4 \tab - \tab 100 \tab 9 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 3 \tab 2 \tab 4 \tab 6 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 4 \tab 2812 \cr
+   Total \tab 3403 \tab 79 \tab 20 \tab 3 \tab 1 \tab 2 \tab 1 \tab 8 \tab 9 \tab 5 \tab 2 \tab 3 \tab 5 \tab 6 \tab 9 \tab 4 \tab 7 \tab 4 \tab 69 \tab 24 \tab 9 \tab 5 \tab 9 \tab 2 \tab 1 \tab 6 \tab 4 \tab 3 \tab 1 \tab 8 \tab 3 \tab 27 \tab 1 \tab 4 \tab 187 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 3 \tab 12 \tab 3 \tab 25 \tab 4 \tab 5 \tab 1 \tab 8 \tab 3 \tab 6 \tab 2 \tab 1 \tab 3 \tab 6 \tab 1 \tab 213 \tab 51 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 3 \tab 2 \tab 4 \tab 6 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 4 \tab 4329 \cr
+}
 }
 
 \concept{Negative Life Events}

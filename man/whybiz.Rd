@@ -24,15 +24,21 @@ IF R HAS MORE THAN ONE BUSINESS/FARM/PARTNERSHIP, ASK ABOUT THE PRIMARY BUSINESS
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3822/vshow}{GSS Data Explorer page for \code{whybiz}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab you started it because you came across an opportunity \tab you started it because it was a necessity \tab both (volunteered) \tab don't know \tab Total \cr
+   2008 \tab 1773 \tab 157 \tab 59 \tab 31 \tab 3 \tab 2023 \cr
+   Total \tab 1773 \tab 157 \tab 59 \tab 31 \tab 3 \tab 2023 \cr
+}
 }
 
 \seealso{

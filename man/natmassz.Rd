@@ -24,15 +24,21 @@ N. Improving mass transportation
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/223/vshow}{GSS Data Explorer page for \code{natmassz}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 989 \tab 145 \tab 260 \tab 38 \tab 37 \tab 4 \tab 1473 \cr
+   Total \tab 989 \tab 145 \tab 260 \tab 38 \tab 37 \tab 4 \tab 1473 \cr
+}
 }
 
 \seealso{

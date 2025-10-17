@@ -25,18 +25,26 @@ F. Organizing a nationwide strike of all workers against the government.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3987/vshow}{GSS Data Explorer page for \code{protest6}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 58 \tab 66 \tab 119 \tab 368 \tab 41 \tab 25 \tab 1534 \cr
+   1990 \tab 155 \tab 104 \tab 182 \tab 224 \tab 589 \tab 91 \tab 27 \tab 1372 \cr
+   1996 \tab 1572 \tab 218 \tab 272 \tab 360 \tab 368 \tab 85 \tab 29 \tab 2904 \cr
+   2006 \tab 2992 \tab 266 \tab 360 \tab 439 \tab 431 \tab 22 \tab - \tab 4510 \cr
+   Total \tab 5576 \tab 646 \tab 880 \tab 1142 \tab 1756 \tab 239 \tab 81 \tab 10320 \cr
+}
 }
 
 \seealso{

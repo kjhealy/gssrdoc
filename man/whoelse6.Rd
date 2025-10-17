@@ -23,28 +23,35 @@ F. No One
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2022 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5555/vshow}{GSS Data Explorer page for \code{whoelse6}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 935 \tab 496 \tab 8 \tab 35 \tab - \tab 2992 \cr
+   1996 \tab - \tab 1737 \tab 1089 \tab 7 \tab 71 \tab - \tab 2904 \cr
+   1998 \tab - \tab 1759 \tab 952 \tab 4 \tab 117 \tab - \tab 2832 \cr
+   2000 \tab - \tab 1762 \tab 907 \tab 2 \tab 146 \tab - \tab 2817 \cr
+   2002 \tab - \tab 1939 \tab 811 \tab 15 \tab - \tab - \tab 2765 \cr
+   2004 \tab - \tab 1938 \tab 841 \tab 21 \tab 12 \tab - \tab 2812 \cr
+   2006 \tab - \tab 3152 \tab 1335 \tab 13 \tab 10 \tab - \tab 4510 \cr
+   2008 \tab - \tab 1339 \tab 681 \tab - \tab 3 \tab - \tab 2023 \cr
+   2010 \tab - \tab 1229 \tab 807 \tab - \tab 8 \tab - \tab 2044 \cr
+   2012 \tab - \tab 1178 \tab 793 \tab - \tab 3 \tab - \tab 1974 \cr
+   2014 \tab - \tab 1531 \tab 1001 \tab - \tab 6 \tab - \tab 2538 \cr
+   2016 \tab - \tab 1747 \tab 1113 \tab - \tab 7 \tab - \tab 2867 \cr
+   2018 \tab 9 \tab 1441 \tab 898 \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 1642 \tab - \tab 1808 \tab 94 \tab - \tab - \tab 3544 \cr
+   Total \tab 3169 \tab 21687 \tab 13532 \tab 164 \tab 418 \tab 0 \tab 38970 \cr
+}
 }
 
 \seealso{

@@ -21,15 +21,21 @@ Question Q. How many of informal groups do you belong to?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3143/vshow}{GSS Data Explorer page for \code{numinfrm}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2413 \tab 295 \tab 55 \tab 22 \tab 6 \tab 4 \tab 4 \tab 13 \tab 2812 \cr
+   Total \tab 2413 \tab 295 \tab 55 \tab 22 \tab 6 \tab 4 \tab 4 \tab 13 \tab 2812 \cr
+}
 }
 
 \seealso{

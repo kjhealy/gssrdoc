@@ -23,16 +23,22 @@ Question At this job, was your father an employee, self-employed without employe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7630/vshow}{GSS Data Explorer page for \code{pawrkslf2}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab employee \tab self-employed without employees \tab self-employed with employees \tab no answer \tab Total \cr
+   2021 \tab 675 \tab 2539 \tab 364 \tab 446 \tab 8 \tab 4032 \cr
+   2022 \tab 727 \tab 2197 \tab 303 \tab 314 \tab 3 \tab 3544 \cr
+   Total \tab 1402 \tab 4736 \tab 667 \tab 760 \tab 11 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

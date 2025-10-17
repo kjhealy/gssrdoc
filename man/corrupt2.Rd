@@ -25,16 +25,23 @@ Question And in your opinion, about how many government administrators in Americ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4124/vshow}{GSS Data Explorer page for \code{corrupt2}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost none \tab a few \tab some \tab quite a lot \tab almost all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 55 \tab 339 \tab 581 \tab 378 \tab 109 \tab 52 \tab 4 \tab 4510 \cr
+   2016 \tab 1477 \tab 29 \tab 318 \tab 529 \tab 336 \tab 128 \tab 36 \tab 14 \tab 2867 \cr
+   Total \tab 4469 \tab 84 \tab 657 \tab 1110 \tab 714 \tab 237 \tab 88 \tab 18 \tab 7377 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question B. Do you, yourself, ever use a computer at home?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2550/vshow}{GSS Data Explorer page for \code{usehome}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2403 \tab 376 \tab 15 \tab 23 \tab 2817 \cr
+   Total \tab 2403 \tab 376 \tab 15 \tab 23 \tab 2817 \cr
+}
 }
 
 \seealso{

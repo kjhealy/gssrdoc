@@ -24,15 +24,21 @@ K. Scientific community
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/471/vshow}{GSS Data Explorer page for \code{consciy}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab complete confidence \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no confidence \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 989 \tab 64 \tab 122 \tab 100 \tab 88 \tab 31 \tab 28 \tab 13 \tab 30 \tab 8 \tab 1473 \cr
+   Total \tab 989 \tab 64 \tab 122 \tab 100 \tab 88 \tab 31 \tab 28 \tab 13 \tab 30 \tab 8 \tab 1473 \cr
+}
 }
 
 \seealso{

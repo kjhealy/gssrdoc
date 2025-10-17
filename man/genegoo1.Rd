@@ -24,15 +24,21 @@ Others think it is a wonderful medical advance. Based on what you know, do you t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5086/vshow}{GSS Data Explorer page for \code{genegoo1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab harm ) good \tab good ) harm \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2431 \tab 107 \tab 235 \tab 103 \tab 28 \tab 2904 \cr
+   Total \tab 2431 \tab 107 \tab 235 \tab 103 \tab 28 \tab 2904 \cr
+}
 }
 
 \seealso{

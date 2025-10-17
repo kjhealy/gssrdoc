@@ -47,15 +47,21 @@ Question What specific denomination is that, if any?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8002/vshow}{GSS Data Explorer page for \code{denom_next}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllll}{
+   year \tab iap \tab american baptist association \tab american baptist churches in the u.s.a. \tab southern baptist convention \tab other baptist churches \tab baptist, don't know which \tab african methodist episcopal church \tab african methodist episcopal zion church \tab united methodist church \tab other methodist churches \tab methodist, don't know which \tab american lutheran church \tab lutheran church in america \tab lutheran church - missouri synod \tab other lutheran churches \tab evangelical lutheran \tab lutheran, don't know which \tab presbyterian church in the u.s. \tab united presbyterian church in the u.s.a. \tab other presbyterian churches \tab presbyterian, merged \tab presbyterian, don't know which \tab episcopal church \tab other, specify \tab no denomination or non-denominational church \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 852 \tab 8 \tab 1 \tab 30 \tab 24 \tab 22 \tab 1 \tab 1 \tab 41 \tab 2 \tab 4 \tab 4 \tab 1 \tab 14 \tab 3 \tab 11 \tab 8 \tab 5 \tab 4 \tab 2 \tab 6 \tab 5 \tab 14 \tab 52 \tab 116 \tab 2308 \tab 5 \tab 3544 \cr
+   Total \tab 852 \tab 8 \tab 1 \tab 30 \tab 24 \tab 22 \tab 1 \tab 1 \tab 41 \tab 2 \tab 4 \tab 4 \tab 1 \tab 14 \tab 3 \tab 11 \tab 8 \tab 5 \tab 4 \tab 2 \tab 6 \tab 5 \tab 14 \tab 52 \tab 116 \tab 2308 \tab 5 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

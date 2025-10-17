@@ -18,13 +18,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `punleak`](https://gssdataexplorer.norc.org/variables/5233/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
+#'  |2000  |1398 |203       |562                                                 |217                |219                 |100                   |39             |67         |12        |2817  |
+#'  |Total |1398 |203       |562                                                 |217                |219                 |100                   |39             |67         |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -55,13 +61,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `punenmy`](https://gssdataexplorer.norc.org/variables/5234/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
+#'  |2000  |1398 |7         |107                                                 |41                 |186                 |413                   |601            |48         |16        |2817  |
+#'  |Total |1398 |7         |107                                                 |41                 |186                 |413                   |601            |48         |16        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -92,13 +104,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `punfrnd`](https://gssdataexplorer.norc.org/variables/5235/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
+#'  |2000  |1398 |20        |161                                                 |92                 |286                 |391                   |409            |49         |11        |2817  |
+#'  |Total |1398 |20        |161                                                 |92                 |286                 |391                   |409            |49         |11        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -129,13 +147,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `puntrck`](https://gssdataexplorer.norc.org/variables/5236/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
+#'  |2000  |1398 |87        |402                                                 |376                |340                 |117                   |36             |49         |12        |2817  |
+#'  |Total |1398 |87        |402                                                 |376                |340                 |117                   |36             |49         |12        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -166,13 +190,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `comsteal`](https://gssdataexplorer.norc.org/variables/5237/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
+#'  |2000  |1398 |21        |182                                                 |126                |332                 |429                   |255            |59         |15        |2817  |
+#'  |Total |1398 |21        |182                                                 |126                |332                 |429                   |255            |59         |15        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -203,13 +233,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `comdata`](https://gssdataexplorer.norc.org/variables/5238/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
+#'  |2000  |1398 |12        |195                                                 |130                |313                 |451                   |248            |56         |14        |2817  |
+#'  |Total |1398 |12        |195                                                 |130                |313                 |451                   |248            |56         |14        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -240,13 +276,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `comsys`](https://gssdataexplorer.norc.org/variables/5239/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
+#'  |2000  |1398 |23        |287                                                 |174                |377                 |332                   |152            |57         |17        |2817  |
+#'  |Total |1398 |23        |287                                                 |174                |377                 |332                   |152            |57         |17        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -277,13 +319,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `comsnoop`](https://gssdataexplorer.norc.org/variables/5240/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
+#'  |2000  |1398 |169       |437                                                 |285                |250                 |156                   |48             |59         |15        |2817  |
+#'  |Total |1398 |169       |437                                                 |285                |250                 |156                   |48             |59         |15        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -314,13 +362,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `comemail`](https://gssdataexplorer.norc.org/variables/5241/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
+#'  |2000  |1398 |35        |247                                                 |174                |330                 |334                   |215            |69         |15        |2817  |
+#'  |Total |1398 |35        |247                                                 |174                |330                 |334                   |215            |69         |15        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -351,13 +405,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `comporn`](https://gssdataexplorer.norc.org/variables/5242/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
+#'  |2000  |1398 |386       |545                                                 |138                |134                 |76                    |61             |64         |15        |2817  |
+#'  |Total |1398 |386       |545                                                 |138                |134                 |76                    |61             |64         |15        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security

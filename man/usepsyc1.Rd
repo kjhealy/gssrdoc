@@ -26,16 +26,22 @@ A. ...because you were having trouble in your personal life.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2175/vshow}{GSS Data Explorer page for \code{usepsyc1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 116 \tab 205 \tab 155 \tab 252 \tab 610 \tab 46 \tab 3 \tab 2832 \cr
+   2006 \tab 3073 \tab 158 \tab 260 \tab 241 \tab 258 \tab 474 \tab 32 \tab 14 \tab 4510 \cr
+   Total \tab 4518 \tab 274 \tab 465 \tab 396 \tab 510 \tab 1084 \tab 78 \tab 17 \tab 7342 \cr
+}
 }
 
 \seealso{

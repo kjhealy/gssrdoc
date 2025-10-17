@@ -24,26 +24,33 @@ Question How long has it been since you last used a needle to inject drugs?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5071/vshow}{GSS Data Explorer page for \code{idu30}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab within the past 30 days \tab more than 30 days ago but within the past 12 months \tab more than 12 months ago but within the past 3 years \tab more than 3 years ago \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 2682 \tab 3 \tab 9 \tab 7 \tab 37 \tab 4 \tab 75 \tab - \tab 2817 \cr
+   2002 \tab 2679 \tab 5 \tab 2 \tab 2 \tab 42 \tab 2 \tab 33 \tab - \tab 2765 \cr
+   2004 \tab 2741 \tab 3 \tab 1 \tab 4 \tab 44 \tab - \tab 19 \tab - \tab 2812 \cr
+   2006 \tab 4388 \tab 8 \tab 6 \tab 5 \tab 77 \tab - \tab 26 \tab - \tab 4510 \cr
+   2008 \tab 1947 \tab 8 \tab 2 \tab 4 \tab 42 \tab 1 \tab 19 \tab - \tab 2023 \cr
+   2010 \tab 1956 \tab 4 \tab 2 \tab 7 \tab 47 \tab 2 \tab 26 \tab - \tab 2044 \cr
+   2012 \tab 1901 \tab 4 \tab 2 \tab 2 \tab 33 \tab - \tab 32 \tab - \tab 1974 \cr
+   2014 \tab 2436 \tab 5 \tab 7 \tab 9 \tab 40 \tab - \tab 41 \tab - \tab 2538 \cr
+   2016 \tab 2790 \tab 6 \tab 1 \tab 7 \tab 43 \tab 1 \tab 19 \tab - \tab 2867 \cr
+   2018 \tab 2291 \tab 4 \tab 4 \tab 5 \tab 27 \tab - \tab 17 \tab - \tab 2348 \cr
+   2021 \tab 3969 \tab 4 \tab 8 \tab 6 \tab 37 \tab 3 \tab 2 \tab 3 \tab 4032 \cr
+   2022 \tab 3493 \tab 2 \tab 2 \tab 6 \tab 29 \tab 4 \tab 7 \tab 1 \tab 3544 \cr
+   Total \tab 33273 \tab 56 \tab 46 \tab 64 \tab 498 \tab 17 \tab 316 \tab 4 \tab 34274 \cr
+}
 }
 
 \seealso{

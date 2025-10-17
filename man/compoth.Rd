@@ -22,16 +22,23 @@ Question A. Do you use a computer at some other place besides your home or workp
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2579/vshow}{GSS Data Explorer page for \code{compoth}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2294 \tab 124 \tab 371 \tab 28 \tab 2817 \cr
+   2002 \tab 855 \tab 482 \tab 1415 \tab 13 \tab 2765 \cr
+   Total \tab 3149 \tab 606 \tab 1786 \tab 41 \tab 5582 \cr
+}
 }
 
 \seealso{

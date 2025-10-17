@@ -26,21 +26,30 @@ Question In your own words, could you tell me what it means to study something s
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3329/vshow}{GSS Data Explorer page for \code{scitext}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab formulation of theories, test hypotheses \tab do experiments, control group \tab rigorous, systematic comparison \tab measurement \tab classification \tab redundancies/incorrect \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2995 \tab 206 \tab 165 \tab 93 \tab 292 \tab 400 \tab 218 \tab 127 \tab 14 \tab 4510 \cr
+   2008 \tab 849 \tab 125 \tab 112 \tab 82 \tab 197 \tab 327 \tab 215 \tab 93 \tab 23 \tab 2023 \cr
+   2010 \tab 1480 \tab 57 \tab 43 \tab 47 \tab 72 \tab 176 \tab 110 \tab 46 \tab 13 \tab 2044 \cr
+   2012 \tab 1222 \tab 71 \tab 58 \tab 37 \tab 76 \tab 262 \tab 164 \tab 65 \tab 19 \tab 1974 \cr
+   2014 \tab 1572 \tab 105 \tab 111 \tab 89 \tab 46 \tab 358 \tab 177 \tab 54 \tab 26 \tab 2538 \cr
+   2016 \tab 1766 \tab 119 \tab 114 \tab 78 \tab 116 \tab 337 \tab 232 \tab 80 \tab 25 \tab 2867 \cr
+   2018 \tab 1418 \tab 117 \tab 85 \tab 101 \tab 158 \tab 262 \tab 126 \tab 71 \tab 10 \tab 2348 \cr
+   Total \tab 11302 \tab 800 \tab 688 \tab 527 \tab 957 \tab 2122 \tab 1242 \tab 536 \tab 130 \tab 18304 \cr
+}
 }
 
 \seealso{

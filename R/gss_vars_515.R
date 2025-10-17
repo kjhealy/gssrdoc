@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volwkpol`](https://gssdataexplorer.norc.org/variables/4691/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no   |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |Total |
+#'  |:-----|:----|:----|:-------------|:-------------|:----------------|:---------|:-----|
+#'  |1998  |1548 |1102 |81            |22            |20               |59        |2832  |
+#'  |Total |1548 |1102 |81            |22            |20               |59        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -51,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volwkchr`](https://gssdataexplorer.norc.org/variables/4692/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |Total |
+#'  |:-----|:----|:---|:-------------|:-------------|:----------------|:---------|:-----|
+#'  |1998  |1548 |752 |251           |119           |105              |57        |2832  |
+#'  |Total |1548 |752 |251           |119           |105              |57        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -86,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volwkrel`](https://gssdataexplorer.norc.org/variables/4693/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |Total |
+#'  |:-----|:----|:---|:-------------|:-------------|:----------------|:---------|:-----|
+#'  |1998  |1548 |787 |191           |85            |163              |58        |2832  |
+#'  |Total |1548 |787 |191           |85            |163              |58        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -121,13 +139,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volwkoth`](https://gssdataexplorer.norc.org/variables/4694/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no  |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |Total |
+#'  |:-----|:----|:---|:-------------|:-------------|:----------------|:---------|:-----|
+#'  |1998  |1548 |755 |222           |109           |138              |60        |2832  |
+#'  |Total |1548 |755 |222           |109           |138              |60        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -154,14 +178,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2008 |B/C/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
+#'  |B/C/-   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `reltruth`](https://gssdataexplorer.norc.org/variables/4695/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |little truth any |basic truth many |truth in one |can't choose |no answer |Total |
+#'  |:-----|:----|:----------------|:----------------|:------------|:------------|:---------|:-----|
+#'  |1998  |1548 |42               |894              |126          |178          |44        |2832  |
+#'  |2008  |658  |60               |1103             |166          |27           |9         |2023  |
+#'  |Total |2206 |102              |1997             |292          |205          |53        |4855  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -189,13 +220,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `carright`](https://gssdataexplorer.norc.org/variables/4696/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definite right |some right |no right |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:----------|:--------|:------------|:---------|:-----|
+#'  |1998  |1548 |23             |115        |972      |119          |55        |2832  |
+#'  |Total |1548 |23             |115        |972      |119          |55        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -224,13 +261,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cardo`](https://gssdataexplorer.norc.org/variables/4697/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |def tll plce was |prb tll plce was |prb tll plce not |def tll plce not |can't choose |no answer |Total |
+#'  |:-----|:----|:----------------|:----------------|:----------------|:----------------|:------------|:---------|:-----|
+#'  |1998  |1548 |443              |415              |103              |17               |245          |61        |2832  |
+#'  |Total |1548 |443              |415              |103              |17               |245          |61        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -258,13 +301,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `geomobil`](https://gssdataexplorer.norc.org/variables/4698/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |i have lived in different countries |i have lived in different places in the same country |i have lived in different neighborhoods in the same place |i have always lived in the same neighborhood |don't know |Total |
+#'  |:-----|:---|:-----------------------------------|:----------------------------------------------------|:---------------------------------------------------------|:--------------------------------------------|:----------|:-----|
+#'  |2008  |658 |205                                 |613                                                  |385                                                       |161                                          |1          |2023  |
+#'  |Total |658 |205                                 |613                                                  |385                                                       |161                                          |1          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -294,13 +343,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relgrpeq`](https://gssdataexplorer.norc.org/variables/4699/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2008  |658 |376            |683   |154                        |107      |24                |15         |6         |2023  |
+#'  |Total |658 |376            |683   |154                        |107      |24                |15         |6         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -330,13 +385,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rspctrel`](https://gssdataexplorer.norc.org/variables/4700/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2008  |658 |433            |666   |116                        |106      |31                |8          |5         |2023  |
+#'  |Total |658 |433            |666   |116                        |106      |31                |8          |5         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion

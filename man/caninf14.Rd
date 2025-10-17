@@ -47,15 +47,21 @@ N. First site mentioned.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2997/vshow}{GSS Data Explorer page for \code{caninf14}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllll}{
+   year \tab iap \tab no specific search engine mentioned \tab yahoo \tab aol \tab cnn \tab msn \tab excite \tab google \tab webferret \tab lycos \tab altavista \tab usatoday \tab copernic \tab peoplefind.com \tab abc \tab msnbc \tab infoseek go \tab dogpile \tab snap \tab metacrawler \tab webcrawler \tab netscape \tab iwon \tab politics.com \tab homp page search engine \tab nbc \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1789 \tab 527 \tab 83 \tab 18 \tab 13 \tab 5 \tab 5 \tab 7 \tab 1 \tab 3 \tab 6 \tab 1 \tab 2 \tab 1 \tab 3 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 1 \tab 25 \tab 308 \tab 2817 \cr
+   Total \tab 1789 \tab 527 \tab 83 \tab 18 \tab 13 \tab 5 \tab 5 \tab 7 \tab 1 \tab 3 \tab 6 \tab 1 \tab 2 \tab 1 \tab 3 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 1 \tab 25 \tab 308 \tab 2817 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,22 @@ D. I have a lot of say about what happens on my job
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2777/vshow}{GSS Data Explorer page for \code{lotofsay}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 969 \tab 545 \tab 741 \tab 385 \tab 101 \tab 11 \tab 13 \tab 2765 \cr
+   2006 \tab 2776 \tab 504 \tab 675 \tab 416 \tab 117 \tab 10 \tab 12 \tab 4510 \cr
+   Total \tab 3745 \tab 1049 \tab 1416 \tab 801 \tab 218 \tab 21 \tab 25 \tab 7275 \cr
+}
 }
 
 \seealso{

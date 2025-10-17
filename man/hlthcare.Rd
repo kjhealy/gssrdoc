@@ -25,19 +25,28 @@ C. Provide health care for the sick.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4078/vshow}{GSS Data Explorer page for \code{hlthcare}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 233 \tab 306 \tab 83 \tab 28 \tab 13 \tab 14 \tab 1534 \cr
+   1990 \tab 155 \tab 464 \tab 562 \tab 92 \tab 33 \tab 27 \tab 39 \tab 1372 \cr
+   1996 \tab 1572 \tab 478 \tab 572 \tab 145 \tab 46 \tab 35 \tab 56 \tab 2904 \cr
+   2006 \tab 2992 \tab 850 \tab 502 \tab 116 \tab 38 \tab 11 \tab 1 \tab 4510 \cr
+   2016 \tab 1477 \tab 679 \tab 493 \tab 146 \tab 49 \tab 13 \tab 10 \tab 2867 \cr
+   Total \tab 7053 \tab 2704 \tab 2435 \tab 582 \tab 194 \tab 99 \tab 120 \tab 13187 \cr
+}
 }
 
 \seealso{

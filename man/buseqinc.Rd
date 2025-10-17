@@ -22,15 +22,21 @@ Question Think of a score of 1 as meaning that major companies ought to reduce t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7546/vshow}{GSS Data Explorer page for \code{buseqinc}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab should do something to reduce pay differences \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab should not concern themselves with pay differences \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2241 \tab 547 \tab 196 \tab 316 \tab 372 \tab 156 \tab 70 \tab 97 \tab 5 \tab 4 \tab 28 \tab 4032 \cr
+   Total \tab 2241 \tab 547 \tab 196 \tab 316 \tab 372 \tab 156 \tab 70 \tab 97 \tab 5 \tab 4 \tab 28 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

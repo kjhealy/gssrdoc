@@ -25,15 +25,21 @@ Comply with laws and regulations?  Would you say...
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6313/vshow}{GSS Data Explorer page for \code{brlawfl}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost always \tab often \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1477 \tab 290 \tab 392 \tab 513 \tab 149 \tab 32 \tab 14 \tab 2867 \cr
+   Total \tab 1477 \tab 290 \tab 392 \tab 513 \tab 149 \tab 32 \tab 14 \tab 2867 \cr
+}
 }
 
 \seealso{

@@ -27,15 +27,21 @@ I. That he obeys his parents well
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1980 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/508/vshow}{GSS Data Explorer page for \code{obeysz}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab not too impt \tab not at all impt \tab no answer \tab Total \cr
+   1980 \tab 985 \tab 201 \tab 213 \tab 58 \tab 3 \tab 1 \tab 7 \tab 1468 \cr
+   Total \tab 985 \tab 201 \tab 213 \tab 58 \tab 3 \tab 1 \tab 7 \tab 1468 \cr
+}
 }
 
 \seealso{

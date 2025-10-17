@@ -23,16 +23,22 @@ Question Which of these statements about immigrants comes closest to your view:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4902/vshow}{GSS Data Explorer page for \code{immassim}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab immigrants should retain their culture of origin and not adopt american culture \tab immigrants should retain their culture of origin and also adopt american culture \tab immigrants should give up their culture of origin and adopt american culture \tab can't choose \tab no answer \tab Total \cr
+   2014 \tab 1264 \tab 36 \tab 1084 \tab 65 \tab 85 \tab 4 \tab 2538 \cr
+   Total \tab 1264 \tab 36 \tab 1084 \tab 65 \tab 85 \tab 4 \tab 2538 \cr
+}
 }
 
 \seealso{

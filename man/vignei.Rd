@@ -25,18 +25,25 @@ A. To move next door to NAME?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2003/vshow}{GSS Data Explorer page for \code{vignei}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 260 \tab 586 \tab 320 \tab 206 \tab 51 \tab 21 \tab 2904 \cr
+   2006 \tab 3073 \tab 272 \tab 707 \tab 276 \tab 122 \tab 45 \tab 15 \tab 4510 \cr
+   2018 \tab 1175 \tab 190 \tab 548 \tab 234 \tab 138 \tab 30 \tab 33 \tab 2348 \cr
+   Total \tab 5708 \tab 722 \tab 1841 \tab 830 \tab 466 \tab 126 \tab 69 \tab 9762 \cr
+}
 }
 
 \seealso{

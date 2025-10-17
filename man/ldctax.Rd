@@ -26,16 +26,23 @@ B. People in wealthy countries should make an additional tax contribution to hel
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   B/C/- \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4325/vshow}{GSS Data Explorer page for \code{ldctax}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 1545 \tab 139 \tab 287 \tab 307 \tab 295 \tab 140 \tab 55 \tab 49 \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 150 \tab 335 \tab 548 \tab 438 \tab 251 \tab 109 \tab 154 \tab 18 \tab 4032 \cr
+   Total \tab 3574 \tab 289 \tab 622 \tab 855 \tab 733 \tab 391 \tab 164 \tab 203 \tab 18 \tab 6849 \cr
+}
 }
 
 \seealso{

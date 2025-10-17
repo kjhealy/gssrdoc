@@ -27,15 +27,21 @@ E. A government employee was convicted of stealing truck parts and tires from a 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5231/vshow}{GSS Data Explorer page for \code{taketrck}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab reprimand \tab dismiss military \tab one year prison \tab 5-9 years prison \tab 10-20 yrs prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 96 \tab 447 \tab 366 \tab 303 \tab 87 \tab 20 \tab 50 \tab 18 \tab 2832 \cr
+   Total \tab 1445 \tab 96 \tab 447 \tab 366 \tab 303 \tab 87 \tab 20 \tab 50 \tab 18 \tab 2832 \cr
+}
 }
 
 \seealso{

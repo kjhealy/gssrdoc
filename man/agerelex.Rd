@@ -21,15 +21,21 @@ Question How old were you when this occurred?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3062/vshow}{GSS Data Explorer page for \code{agerelex}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 45 \tab 46 \tab 47 \tab 48 \tab 49 \tab 5 \tab 50 \tab 51 \tab 52 \tab 53 \tab 54 \tab 55 \tab 56 \tab 57 \tab 58 \tab 59 \tab 6 \tab 60 \tab 61 \tab 63 \tab 64 \tab 65 \tab 66 \tab 67 \tab 68 \tab 7 \tab 70 \tab 73 \tab 75 \tab 79 \tab 8 \tab 80 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2211 \tab 1 \tab 1 \tab 3 \tab 11 \tab 14 \tab 11 \tab 13 \tab 19 \tab 12 \tab 20 \tab 29 \tab 18 \tab 17 \tab 15 \tab 15 \tab 17 \tab 15 \tab 12 \tab 12 \tab 18 \tab 8 \tab 20 \tab 11 \tab 12 \tab 9 \tab 9 \tab 15 \tab 8 \tab 5 \tab 16 \tab 6 \tab 17 \tab 9 \tab 5 \tab 6 \tab 5 \tab 12 \tab 5 \tab 3 \tab 12 \tab 5 \tab 2 \tab 14 \tab 6 \tab 5 \tab 10 \tab 4 \tab 9 \tab 7 \tab 2 \tab 4 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 3 \tab 2 \tab 2 \tab 2 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 5 \tab 1 \tab 5 \tab 5 \tab 24 \tab 2812 \cr
+   Total \tab 2211 \tab 1 \tab 1 \tab 3 \tab 11 \tab 14 \tab 11 \tab 13 \tab 19 \tab 12 \tab 20 \tab 29 \tab 18 \tab 17 \tab 15 \tab 15 \tab 17 \tab 15 \tab 12 \tab 12 \tab 18 \tab 8 \tab 20 \tab 11 \tab 12 \tab 9 \tab 9 \tab 15 \tab 8 \tab 5 \tab 16 \tab 6 \tab 17 \tab 9 \tab 5 \tab 6 \tab 5 \tab 12 \tab 5 \tab 3 \tab 12 \tab 5 \tab 2 \tab 14 \tab 6 \tab 5 \tab 10 \tab 4 \tab 9 \tab 7 \tab 2 \tab 4 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 3 \tab 2 \tab 2 \tab 2 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 5 \tab 1 \tab 5 \tab 5 \tab 24 \tab 2812 \cr
+}
 }
 
 \seealso{

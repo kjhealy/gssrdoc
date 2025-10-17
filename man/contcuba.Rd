@@ -25,15 +25,21 @@ H. Cubans?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2278/vshow}{GSS Data Explorer page for \code{contcuba}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab most important contribution \tab important contribution \tab some contribution \tab little positive contribution \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 29 \tab 190 \tab 489 \tab 481 \tab 197 \tab 12 \tab 2817 \cr
+   Total \tab 1419 \tab 29 \tab 190 \tab 489 \tab 481 \tab 197 \tab 12 \tab 2817 \cr
+}
 }
 
 \seealso{

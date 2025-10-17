@@ -22,15 +22,21 @@ Question People have different ideas about the best way for women to improve the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1044/vshow}{GSS Data Explorer page for \code{fegains}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab womens rights grps \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab better trained inds \tab no answer \tab Total \cr
+   1987 \tab 778 \tab 59 \tab 27 \tab 38 \tab 188 \tab 136 \tab 130 \tab 442 \tab 21 \tab 1819 \cr
+   Total \tab 778 \tab 59 \tab 27 \tab 38 \tab 188 \tab 136 \tab 130 \tab 442 \tab 21 \tab 1819 \cr
+}
 }
 
 \seealso{

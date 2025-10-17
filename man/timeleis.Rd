@@ -26,17 +26,24 @@ E. Time in leisure activities?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4490/vshow}{GSS Data Explorer page for \code{timeleis}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab spend much more \tab spend a bit more \tab spend same \tab spend a bit less \tab spend much less \tab can't choose \tab no answer \tab iap \tab Total \cr
+   1989 \tab - \tab 310 \tab 630 \tab 405 \tab 32 \tab 26 \tab 22 \tab 112 \tab - \tab 1537 \cr
+   1998 \tab - \tab 361 \tab 492 \tab 270 \tab 28 \tab 15 \tab 23 \tab 198 \tab 1445 \tab 2832 \cr
+   2006 \tab - \tab 468 \tab 508 \tab 465 \tab 40 \tab 17 \tab 18 \tab 2 \tab 2992 \tab 4510 \cr
+   Total \tab 0 \tab 1139 \tab 1630 \tab 1140 \tab 100 \tab 58 \tab 63 \tab 312 \tab 4437 \tab 8879 \cr
+}
 }
 
 \seealso{

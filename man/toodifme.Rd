@@ -26,19 +26,26 @@ A. It is just too difficult for someone like me to do much about the environment
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4739/vshow}{GSS Data Explorer page for \code{toodifme}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 69 \tab 305 \tab 204 \tab 748 \tab 129 \tab 21 \tab 81 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 63 \tab 295 \tab 232 \tab 629 \tab 109 \tab 18 \tab 40 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 71 \tab 269 \tab 241 \tab 516 \tab 92 \tab 21 \tab 66 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 88 \tab 340 \tab 214 \tab 613 \tab 127 \tab 40 \tab 8 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 62 \tab 305 \tab 474 \tab 756 \tab 186 \tab 60 \tab 178 \tab 8 \tab 4032 \cr
+   Total \tab 5813 \tab 353 \tab 1514 \tab 1365 \tab 3262 \tab 643 \tab 160 \tab 373 \tab 8 \tab 13491 \cr
+}
 }
 
 \seealso{

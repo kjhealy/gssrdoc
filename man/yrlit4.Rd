@@ -22,15 +22,21 @@ Question M. How many years have you been a member of
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3198/vshow}{GSS Data Explorer page for \code{yrlit4}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab 2 \tab no answer \tab Total \cr
+   2004 \tab 2802 \tab 1 \tab 9 \tab 2812 \cr
+   Total \tab 2802 \tab 1 \tab 9 \tab 2812 \cr
+}
 }
 
 \seealso{

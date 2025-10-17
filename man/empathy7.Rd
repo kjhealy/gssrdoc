@@ -23,16 +23,22 @@ G. I would describe myself as a pretty soft-hearted person.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2876/vshow}{GSS Data Explorer page for \code{empathy7}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab does not describe very well \tab 2 \tab 3 \tab 4 \tab describes very well \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 50 \tab 69 \tab 234 \tab 337 \tab 666 \tab 10 \tab 6 \tab 2765 \cr
+   2004 \tab 1472 \tab 26 \tab 71 \tab 200 \tab 412 \tab 621 \tab 6 \tab 4 \tab 2812 \cr
+   Total \tab 2865 \tab 76 \tab 140 \tab 434 \tab 749 \tab 1287 \tab 16 \tab 10 \tab 5577 \cr
+}
 }
 
 \seealso{

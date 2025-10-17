@@ -24,15 +24,21 @@ Question And when a marriage is troubled and unhappy, is it generally better for
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4391/vshow}{GSS Data Explorer page for \code{divhubby}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab much better to div \tab better to divorce \tab worse to divorce \tab much worse to div \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 234 \tab 571 \tab 180 \tab 76 \tab 322 \tab 31 \tab 1481 \cr
+   Total \tab 67 \tab 234 \tab 571 \tab 180 \tab 76 \tab 322 \tab 31 \tab 1481 \cr
+}
 }
 
 \seealso{

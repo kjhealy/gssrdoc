@@ -22,24 +22,32 @@ Question About how many minutes or hours per week do you spend sending and answe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C \tab 2000, 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2381/vshow}{GSS Data Explorer page for \code{emailmin}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 minutes \tab 1 \tab 10 \tab 12 \tab 15 \tab 16 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 35 \tab 40 \tab 45 \tab 5 \tab 50 \tab 59 minutes \tab 6 \tab 7 \tab don't know \tab no answer \tab 4 \tab 8 \tab 17 \tab 26 \tab 44 \tab 38 \tab 53 \tab 14 \tab 48 \tab 36 \tab 22 \tab 33 \tab 52 \tab 55 \tab 58 \tab skipped on web \tab 23 \tab 24 \tab 29 \tab 57 \tab Total \cr
+   2000 \tab 1424 \tab 1078 \tab 7 \tab 28 \tab 1 \tab 23 \tab 2 \tab 8 \tab 24 \tab 1 \tab 2 \tab 104 \tab 3 \tab 8 \tab 3 \tab 23 \tab 1 \tab 1 \tab 2 \tab 2 \tab 4 \tab 68 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 855 \tab 1568 \tab 6 \tab 36 \tab 1 \tab 38 \tab - \tab 2 \tab 34 \tab 3 \tab 2 \tab 131 \tab - \tab 5 \tab 10 \tab 34 \tab 4 \tab - \tab 2 \tab 2 \tab 6 \tab 23 \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2178 \tab 503 \tab 4 \tab 20 \tab 1 \tab 17 \tab - \tab 2 \tab 6 \tab 1 \tab - \tab 54 \tab - \tab - \tab 4 \tab 5 \tab - \tab - \tab - \tab - \tab 5 \tab 12 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2010 \tab 1473 \tab 407 \tab - \tab 19 \tab - \tab 19 \tab - \tab 1 \tab 10 \tab - \tab - \tab 86 \tab 1 \tab 3 \tab 5 \tab 15 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1237 \tab 566 \tab 1 \tab 31 \tab - \tab 19 \tab - \tab 1 \tab 23 \tab - \tab - \tab 70 \tab 2 \tab 2 \tab 4 \tab 15 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 1060 \tab 1269 \tab 4 \tab 31 \tab - \tab 20 \tab - \tab 2 \tab 18 \tab - \tab 1 \tab 93 \tab 2 \tab 1 \tab 9 \tab 19 \tab - \tab - \tab - \tab - \tab 5 \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 1205 \tab 1414 \tab 5 \tab 34 \tab - \tab 17 \tab - \tab 8 \tab 25 \tab 2 \tab - \tab 113 \tab - \tab 6 \tab 8 \tab 12 \tab 3 \tab 1 \tab - \tab - \tab 7 \tab 6 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 925 \tab 1223 \tab 2 \tab 34 \tab - \tab 22 \tab - \tab 4 \tab 18 \tab - \tab 2 \tab 82 \tab 1 \tab 2 \tab 5 \tab 19 \tab 1 \tab - \tab - \tab - \tab 3 \tab 1 \tab 2 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 1384 \tab 491 \tab 7 \tab 61 \tab 1 \tab 53 \tab - \tab 10 \tab 42 \tab 3 \tab 3 \tab 327 \tab 4 \tab 12 \tab 26 \tab 32 \tab 10 \tab 2 \tab 2 \tab 1 \tab 10 \tab 58 \tab 5 \tab 1 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1480 \tab - \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab 1271 \tab 1772 \tab 7 \tab 58 \tab 1 \tab 35 \tab - \tab 8 \tab 38 \tab 10 \tab 3 \tab 209 \tab - \tab 6 \tab 25 \tab 35 \tab 1 \tab - \tab - \tab - \tab 36 \tab 20 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 2 \tab 1 \tab 3544 \cr
+   Total \tab 13012 \tab 10291 \tab 43 \tab 352 \tab 5 \tab 263 \tab 2 \tab 46 \tab 238 \tab 20 \tab 13 \tab 1269 \tab 13 \tab 45 \tab 99 \tab 209 \tab 21 \tab 4 \tab 7 \tab 5 \tab 76 \tab 190 \tab 11 \tab 3 \tab 2 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1480 \tab 1 \tab 1 \tab 2 \tab 1 \tab 27741 \cr
+}
 }
 
 \seealso{

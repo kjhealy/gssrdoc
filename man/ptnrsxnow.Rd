@@ -24,16 +24,22 @@ Question To the best of your knowledge, does your most recent sexual partner des
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7561/vshow}{GSS Data Explorer page for \code{ptnrsxnow}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab male \tab female \tab transgender \tab none of these \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 1747 \tab 1227 \tab 954 \tab 5 \tab 12 \tab 43 \tab 4 \tab 40 \tab 4032 \cr
+   2022 \tab 1955 \tab 821 \tab 668 \tab 4 \tab 4 \tab 43 \tab 9 \tab 40 \tab 3544 \cr
+   Total \tab 3702 \tab 2048 \tab 1622 \tab 9 \tab 16 \tab 86 \tab 13 \tab 80 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

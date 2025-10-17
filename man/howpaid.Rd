@@ -26,15 +26,21 @@ Question As of last week, did your main job pay an hourly wage, daily wage, week
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2160/vshow}{GSS Data Explorer page for \code{howpaid}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab hourly wage \tab daily wage \tab weekly wage \tab monthly salary \tab annual salary \tab other pay rate \tab no answer \tab Total \cr
+   1998 \tab 1455 \tab 650 \tab 17 \tab 124 \tab 149 \tab 225 \tab 182 \tab 30 \tab 2832 \cr
+   Total \tab 1455 \tab 650 \tab 17 \tab 124 \tab 149 \tab 225 \tab 182 \tab 30 \tab 2832 \cr
+}
 }
 
 \seealso{

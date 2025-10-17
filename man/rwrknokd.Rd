@@ -24,17 +24,23 @@ A. After marrying and before you had children?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1994, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4396/vshow}{GSS Data Explorer page for \code{rwrknokd}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, full-time \tab yes,part-time \tab no \tab don't know \tab no answer \tab Total \cr
+   1988 \tab 1148 \tab 192 \tab 38 \tab 82 \tab 7 \tab 14 \tab 1481 \cr
+   1994 \tab 1545 \tab 800 \tab 66 \tab 137 \tab 87 \tab 357 \tab 2992 \cr
+   2002 \tab 1936 \tab 631 \tab 57 \tab 69 \tab 60 \tab 12 \tab 2765 \cr
+   Total \tab 4629 \tab 1623 \tab 161 \tab 288 \tab 154 \tab 383 \tab 7238 \cr
+}
 }
 
 \seealso{

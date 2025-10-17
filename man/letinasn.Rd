@@ -25,16 +25,23 @@ Question What about the number of immigrants from Asia? (Should it be increased 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2022 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   A/C/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2305/vshow}{GSS Data Explorer page for \code{letinasn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab increased a lot \tab increased a little \tab left the same as it is now \tab decreased a little \tab decreased a lot \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 36 \tab 79 \tab 626 \tab 259 \tab 299 \tab 95 \tab 4 \tab 2817 \cr
+   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 4963 \tab 36 \tab 79 \tab 626 \tab 259 \tab 299 \tab 95 \tab 4 \tab 6361 \cr
+}
 }
 
 \seealso{

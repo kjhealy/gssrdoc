@@ -23,31 +23,38 @@ Question Have your sex partners in the last five years beenâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5065/vshow}{GSS Data Explorer page for \code{sexsex5}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab exclusively male \tab both male and female \tab exclusively female \tab no answer \tab don't know \tab Total \cr
+   1991 \tab 402 \tab 601 \tab 14 \tab 455 \tab 45 \tab - \tab 1517 \cr
+   1993 \tab 327 \tab 660 \tab 17 \tab 545 \tab 57 \tab - \tab 1606 \cr
+   1994 \tab 559 \tab 1252 \tab 30 \tab 1015 \tab 136 \tab - \tab 2992 \cr
+   1996 \tab 580 \tab 1159 \tab 40 \tab 1016 \tab 109 \tab - \tab 2904 \cr
+   1998 \tab 706 \tab 1076 \tab 31 \tab 899 \tab 120 \tab - \tab 2832 \cr
+   2000 \tab 632 \tab 1021 \tab 43 \tab 882 \tab 239 \tab - \tab 2817 \cr
+   2002 \tab 797 \tab 968 \tab 34 \tab 879 \tab 78 \tab 9 \tab 2765 \cr
+   2004 \tab 837 \tab 1022 \tab 14 \tab 882 \tab 54 \tab 3 \tab 2812 \cr
+   2006 \tab 2447 \tab 1059 \tab 40 \tab 893 \tab 71 \tab - \tab 4510 \cr
+   2008 \tab 509 \tab 759 \tab 25 \tab 703 \tab 23 \tab 4 \tab 2023 \cr
+   2010 \tab 465 \tab 800 \tab 25 \tab 707 \tab 45 \tab 2 \tab 2044 \cr
+   2012 \tab 483 \tab 758 \tab 36 \tab 654 \tab 43 \tab - \tab 1974 \cr
+   2014 \tab 499 \tab 1023 \tab 40 \tab 913 \tab 61 \tab 2 \tab 2538 \cr
+   2016 \tab 1334 \tab 769 \tab 47 \tab 687 \tab 29 \tab 1 \tab 2867 \cr
+   2018 \tab 1161 \tab 575 \tab 25 \tab 563 \tab 23 \tab 1 \tab 2348 \cr
+   2021 \tab 2063 \tab 1007 \tab 55 \tab 863 \tab 21 \tab 23 \tab 4032 \cr
+   2022 \tab 2222 \tab 651 \tab 43 \tab 575 \tab 50 \tab 3 \tab 3544 \cr
+   Total \tab 16023 \tab 15160 \tab 559 \tab 13131 \tab 1204 \tab 48 \tab 46125 \cr
+}
 }
 
 \seealso{

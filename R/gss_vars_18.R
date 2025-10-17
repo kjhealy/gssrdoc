@@ -12,28 +12,11 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `dotpeop`](https://gssdataexplorer.norc.org/variables/124/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -59,28 +42,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `dotthng`](https://gssdataexplorer.norc.org/variables/125/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -106,28 +72,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `dotged`](https://gssdataexplorer.norc.org/variables/126/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -153,28 +102,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `dotsvp`](https://gssdataexplorer.norc.org/variables/127/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -200,28 +132,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `dotpres`](https://gssdataexplorer.norc.org/variables/128/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,28 +162,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `spdotdat`](https://gssdataexplorer.norc.org/variables/129/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -294,28 +192,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `spdotpeo`](https://gssdataexplorer.norc.org/variables/130/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -341,28 +222,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `spdotthn`](https://gssdataexplorer.norc.org/variables/131/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -388,28 +252,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `spdotged`](https://gssdataexplorer.norc.org/variables/132/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -435,28 +282,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `spdotsvp`](https://gssdataexplorer.norc.org/variables/133/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

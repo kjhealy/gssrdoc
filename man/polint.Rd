@@ -25,19 +25,26 @@ Question How interested would you say you personally are in politics?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2024 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4089/vshow}{GSS Data Explorer page for \code{polint}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very interested \tab fairly interested \tab somewhat interested \tab not very interested \tab not at all interested \tab can't choose \tab no answer \tab Total \cr
+   1990 \tab 155 \tab 147 \tab 330 \tab 408 \tab 200 \tab 77 \tab 19 \tab 36 \tab 1372 \cr
+   1996 \tab 1572 \tab 190 \tab 326 \tab 398 \tab 241 \tab 107 \tab 24 \tab 46 \tab 2904 \cr
+   2006 \tab 2992 \tab 278 \tab 361 \tab 427 \tab 234 \tab 216 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 249 \tab 313 \tab 397 \tab 257 \tab 161 \tab 1 \tab 12 \tab 2867 \cr
+   Total \tab 6196 \tab 864 \tab 1330 \tab 1630 \tab 932 \tab 561 \tab 46 \tab 94 \tab 11653 \cr
+}
 }
 
 \seealso{

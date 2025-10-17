@@ -23,15 +23,21 @@ C. From my supervisor.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1294/vshow}{GSS Data Explorer page for \code{thisjob3}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1991 \tab 1243 \tab 74 \tab 168 \tab 32 \tab 1517 \cr
+   Total \tab 1243 \tab 74 \tab 168 \tab 32 \tab 1517 \cr
+}
 }
 
 \seealso{

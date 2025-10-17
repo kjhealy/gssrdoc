@@ -22,17 +22,23 @@ Question Has there ever been a turning point in your life when you became less c
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006, 2008, 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3313/vshow}{GSS Data Explorer page for \code{relneg}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3041 \tab 568 \tab 889 \tab 8 \tab 4 \tab 4510 \cr
+   2008 \tab - \tab 767 \tab 1241 \tab 9 \tab 6 \tab 2023 \cr
+   2010 \tab - \tab 751 \tab 1275 \tab 11 \tab 7 \tab 2044 \cr
+   Total \tab 3041 \tab 2086 \tab 3405 \tab 28 \tab 17 \tab 8577 \cr
+}
 }
 
 \seealso{

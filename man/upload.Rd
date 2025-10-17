@@ -23,16 +23,22 @@ D. Do you know how to send a file that is on your computerâ€™s hard drive t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2514/vshow}{GSS Data Explorer page for \code{upload}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2075 \tab 457 \tab 205 \tab 80 \tab - \tab 2817 \cr
+   2004 \tab 992 \tab 1360 \tab 437 \tab 20 \tab 3 \tab 2812 \cr
+   Total \tab 3067 \tab 1817 \tab 642 \tab 100 \tab 3 \tab 5629 \cr
+}
 }
 
 \seealso{

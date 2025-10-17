@@ -28,17 +28,22 @@ C.) The Bible is an ancient book of fables, legends, history, and moral precepts
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7597/vshow}{GSS Data Explorer page for \code{biblev}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab word of god \tab inspired word \tab ancient book \tab other (phone mode only: volunteered) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2007 \tab 424 \tab 816 \tab 574 \tab 186 \tab 3 \tab 3 \tab 19 \tab 4032 \cr
+   2022 \tab 2698 \tab 163 \tab 349 \tab 223 \tab 105 \tab - \tab - \tab 6 \tab 3544 \cr
+   Total \tab 4705 \tab 587 \tab 1165 \tab 797 \tab 291 \tab 3 \tab 3 \tab 25 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

@@ -25,15 +25,21 @@ Question At these occasions, how often do you make new friends or acquaintances?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7262/vshow}{GSS Data Explorer page for \code{newfrds}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab never \tab rarely \tab sometimes \tab often \tab very often \tab don't know \tab Total \cr
+   2018 \tab 1404 \tab 86 \tab 296 \tab 413 \tab 95 \tab 49 \tab 5 \tab 2348 \cr
+   Total \tab 1404 \tab 86 \tab 296 \tab 413 \tab 95 \tab 49 \tab 5 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

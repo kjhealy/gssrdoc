@@ -21,20 +21,26 @@ Question How long have you worked in your present job for your current employer?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2761/vshow}{GSS Data Explorer page for \code{yearsjob}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0.25 \tab 0.75 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 4 \tab 40 \tab 42 \tab 43 \tab 45 \tab 47 \tab 48 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab 38 \tab 39 \tab 46 \tab 57 \tab 60 \tab 41 \tab 44 \tab 55 \tab 67 \tab 49 \tab 51 \tab 56 \tab 58 \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 178 \tab 233 \tab 80 \tab 59 \tab 24 \tab 40 \tab 37 \tab 24 \tab 51 \tab 31 \tab 19 \tab 14 \tab 11 \tab 213 \tab 24 \tab 6 \tab 16 \tab 10 \tab 9 \tab 14 \tab 5 \tab 11 \tab 11 \tab 5 \tab 160 \tab 25 \tab 4 \tab 7 \tab 3 \tab 4 \tab 1 \tab 1 \tab 1 \tab 104 \tab 5 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 109 \tab 1 \tab 79 \tab 63 \tab 50 \tab 28 \tab 6 \tab 14 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 192 \tab 227 \tab 65 \tab 68 \tab 30 \tab 29 \tab 26 \tab 26 \tab 33 \tab 26 \tab 16 \tab 26 \tab 13 \tab 188 \tab 41 \tab 12 \tab 12 \tab 13 \tab 8 \tab 15 \tab 7 \tab 10 \tab 7 \tab 9 \tab 117 \tab 15 \tab 2 \tab 7 \tab 5 \tab 1 \tab 4 \tab 4 \tab 2 \tab 80 \tab 3 \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 137 \tab 1 \tab 81 \tab 60 \tab 48 \tab 36 \tab 6 \tab 15 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 112 \tab 122 \tab 41 \tab 44 \tab 18 \tab 22 \tab 9 \tab 19 \tab 32 \tab 11 \tab 11 \tab 20 \tab 11 \tab 103 \tab 25 \tab 8 \tab 10 \tab 7 \tab 7 \tab 19 \tab 9 \tab 3 \tab 4 \tab 4 \tab 120 \tab 16 \tab 5 \tab 5 \tab 2 \tab - \tab 4 \tab 2 \tab - \tab 73 \tab 5 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab 90 \tab 3 \tab 43 \tab 44 \tab 46 \tab 21 \tab 4 \tab 27 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 123 \tab 124 \tab 66 \tab 58 \tab 22 \tab 24 \tab 27 \tab 30 \tab 28 \tab 21 \tab 17 \tab 13 \tab 9 \tab 117 \tab 28 \tab 7 \tab 8 \tab 10 \tab 8 \tab 16 \tab 4 \tab 9 \tab 9 \tab 4 \tab 97 \tab 19 \tab 2 \tab 4 \tab 6 \tab 5 \tab 7 \tab 1 \tab 3 \tab 65 \tab 2 \tab 2 \tab 1 \tab 1 \tab - \tab - \tab 63 \tab - \tab 49 \tab 53 \tab 40 \tab 31 \tab 2 \tab 7 \tab 1 \tab 2 \tab - \tab - \tab - \tab 1 \tab 2 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 171 \tab 151 \tab 99 \tab 59 \tab 30 \tab 29 \tab 18 \tab 21 \tab 36 \tab 20 \tab 15 \tab 24 \tab 8 \tab 154 \tab 29 \tab 11 \tab 10 \tab 10 \tab 6 \tab 21 \tab 7 \tab 7 \tab 6 \tab 2 \tab 106 \tab 11 \tab 5 \tab 2 \tab 2 \tab 5 \tab 9 \tab 1 \tab 5 \tab 79 \tab 6 \tab - \tab 3 \tab 4 \tab - \tab 1 \tab 81 \tab - \tab 43 \tab 28 \tab 41 \tab 31 \tab 2 \tab 31 \tab 3 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 1539 \tab 246 \tab 238 \tab 112 \tab 71 \tab 22 \tab 33 \tab 28 \tab 26 \tab 56 \tab 19 \tab 12 \tab 23 \tab 15 \tab 196 \tab 42 \tab 17 \tab 27 \tab 13 \tab 7 \tab 17 \tab 8 \tab 5 \tab 9 \tab 12 \tab 156 \tab 16 \tab 3 \tab 6 \tab 5 \tab 5 \tab 5 \tab 2 \tab 4 \tab 111 \tab 5 \tab 1 \tab - \tab 2 \tab 2 \tab - \tab 136 \tab 2 \tab 83 \tab 57 \tab 59 \tab 38 \tab 8 \tab 16 \tab 2 \tab - \tab - \tab - \tab - \tab 4 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 21 \tab 3544 \cr
+   Total \tab 8329 \tab 1022 \tab 1095 \tab 463 \tab 359 \tab 146 \tab 177 \tab 145 \tab 146 \tab 236 \tab 128 \tab 90 \tab 120 \tab 67 \tab 971 \tab 189 \tab 61 \tab 83 \tab 63 \tab 45 \tab 102 \tab 40 \tab 45 \tab 46 \tab 36 \tab 756 \tab 102 \tab 21 \tab 31 \tab 23 \tab 20 \tab 30 \tab 11 \tab 15 \tab 512 \tab 26 \tab 6 \tab 7 \tab 11 \tab 4 \tab 3 \tab 616 \tab 7 \tab 378 \tab 305 \tab 284 \tab 185 \tab 28 \tab 110 \tab 10 \tab 5 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 21 \tab 17749 \cr
+}
 }
 
 \seealso{

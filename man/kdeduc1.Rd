@@ -22,15 +22,21 @@ F1. Highest school grade first child completed.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1528/vshow}{GSS Data Explorer page for \code{kdeduc1}}.
+
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 4 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2332 \tab 4 \tab 1 \tab 13 \tab 16 \tab 258 \tab 29 \tab 74 \tab 28 \tab 120 \tab 13 \tab 17 \tab 1 \tab 13 \tab 1 \tab 1 \tab 1 \tab 5 \tab 7 \tab 8 \tab 50 \tab 2992 \cr
+   Total \tab 2332 \tab 4 \tab 1 \tab 13 \tab 16 \tab 258 \tab 29 \tab 74 \tab 28 \tab 120 \tab 13 \tab 17 \tab 1 \tab 13 \tab 1 \tab 1 \tab 1 \tab 5 \tab 7 \tab 8 \tab 50 \tab 2992 \cr
+}
 }
 
 \seealso{

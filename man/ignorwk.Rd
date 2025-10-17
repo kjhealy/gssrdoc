@@ -24,15 +24,21 @@ Question I have felt ignored, excluded or isolated from others at work.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3015/vshow}{GSS Data Explorer page for \code{ignorwk}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 795 \tab 30 \tab 139 \tab 262 \tab 703 \tab 13 \tab 32 \tab 1974 \cr
+   Total \tab 795 \tab 30 \tab 139 \tab 262 \tab 703 \tab 13 \tab 32 \tab 1974 \cr
+}
 }
 
 \seealso{

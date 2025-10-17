@@ -26,15 +26,21 @@ A. Being financially secure.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1438/vshow}{GSS Data Explorer page for \code{impfinan}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 427 \tab 817 \tab 290 \tab 49 \tab 6 \tab 5 \tab 12 \tab 1606 \cr
+   Total \tab 0 \tab 427 \tab 817 \tab 290 \tab 49 \tab 6 \tab 5 \tab 12 \tab 1606 \cr
+}
 }
 
 \seealso{

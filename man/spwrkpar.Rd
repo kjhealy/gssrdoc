@@ -27,15 +27,21 @@ E. Child care for all children with working parentsâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5126/vshow}{GSS Data Explorer page for \code{spwrkpar}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
+   1990 \tab 155 \tab 124 \tab 301 \tab 451 \tab 188 \tab 86 \tab 47 \tab 20 \tab 1372 \cr
+   Total \tab 155 \tab 124 \tab 301 \tab 451 \tab 188 \tab 86 \tab 47 \tab 20 \tab 1372 \cr
+}
 }
 
 \seealso{

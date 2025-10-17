@@ -23,16 +23,22 @@ Question Do you expect the United States to fight in another world war within th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A \tab partial \cr
-   2022 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7584/vshow}{GSS Data Explorer page for \code{uswaryv}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab skipped on web \tab Total \cr
+   2021 \tab 3346 \tab 213 \tab 363 \tab 109 \tab 1 \tab 4032 \cr
+   2022 \tab 3264 \tab 136 \tab 92 \tab 51 \tab 1 \tab 3544 \cr
+   Total \tab 6610 \tab 349 \tab 455 \tab 160 \tab 2 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

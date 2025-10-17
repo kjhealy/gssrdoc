@@ -23,16 +23,22 @@ I. To help people in the rest of the world who are worse off than yourself
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4915/vshow}{GSS Data Explorer page for \code{helpwrld}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 69 \tab 92 \tab 148 \tab 274 \tab 335 \tab 216 \tab 326 \tab 8 \tab 4 \tab 2812 \cr
+   2014 \tab 1274 \tab 81 \tab 93 \tab 124 \tab 244 \tab 262 \tab 154 \tab 271 \tab 34 \tab 1 \tab 2538 \cr
+   Total \tab 2614 \tab 150 \tab 185 \tab 272 \tab 518 \tab 597 \tab 370 \tab 597 \tab 42 \tab 5 \tab 5350 \cr
+}
 }
 
 \seealso{

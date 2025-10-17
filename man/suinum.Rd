@@ -25,15 +25,21 @@ NUMBER OF PEOPLE:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6181/vshow}{GSS Data Explorer page for \code{suinum}}.
+
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 2 \tab 20 \tab 21 \tab 3 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 70 \tab 8 \tab 95 \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1409 \tab 681 \tab 332 \tab 9 \tab 1 \tab 215 \tab 1 \tab 1 \tab 100 \tab 36 \tab 25 \tab 1 \tab 15 \tab 7 \tab 1 \tab 4 \tab 3 \tab 3 \tab 23 \tab 2867 \cr
+   Total \tab 1409 \tab 681 \tab 332 \tab 9 \tab 1 \tab 215 \tab 1 \tab 1 \tab 100 \tab 36 \tab 25 \tab 1 \tab 15 \tab 7 \tab 1 \tab 4 \tab 3 \tab 3 \tab 23 \tab 2867 \cr
+}
 }
 
 \seealso{

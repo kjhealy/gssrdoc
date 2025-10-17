@@ -25,18 +25,24 @@ A. The way democracy works
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4840/vshow}{GSS Data Explorer page for \code{prouddem}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 369 \tab 694 \tab 180 \tab 34 \tab 65 \tab 25 \tab 2904 \cr
+   2004 \tab 1596 \tab 379 \tab 640 \tab 109 \tab 22 \tab 65 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 336 \tab 605 \tab 184 \tab 48 \tab 98 \tab 3 \tab 2538 \cr
+   Total \tab 4397 \tab 1084 \tab 1939 \tab 473 \tab 104 \tab 228 \tab 29 \tab 8254 \cr
+}
 }
 
 \seealso{

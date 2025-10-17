@@ -25,16 +25,22 @@ Question G2. (How much do you agree or disagree with each of these statements?) 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4809/vshow}{GSS Data Explorer page for \code{grneffme}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab 614 \tab 88 \tab 577 \tab 283 \tab 393 \tab 36 \tab 47 \tab 6 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 132 \tab 607 \tab 542 \tab 423 \tab 64 \tab 65 \tab 183 \tab 13 \tab 4032 \cr
+   Total \tab 2617 \tab 220 \tab 1184 \tab 825 \tab 816 \tab 100 \tab 112 \tab 189 \tab 13 \tab 6076 \cr
+}
 }
 
 \seealso{

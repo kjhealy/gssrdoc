@@ -24,15 +24,21 @@ A. First Reason
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/711/vshow}{GSS Data Explorer page for \code{erawhy1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 2 \tab 20 \tab 22 \tab 25 \tab 26 \tab 3 \tab 30 \tab 31 \tab 32 \tab 35 \tab 4 \tab 40 \tab 41 \tab 42 \tab 43 \tab 47 \tab 5 \tab 50 \tab 51 \tab 52 \tab 55 \tab 56 \tab 57 \tab 60 \tab 61 \tab 62 \tab 63 \tab 64 \tab 65 \tab 66 \tab 67 \tab 68 \tab 70 \tab 71 \tab 72 \tab 75 \tab 80 \tab 81 \tab 82 \tab 83 \tab 85 \tab 86 \tab 87 \tab 88 \tab 89 \tab 90 \tab 91 \tab 92 \tab 93 \tab 94 \tab no answer \tab Total \cr
+   1982 \tab - \tab 23 \tab 7 \tab 265 \tab 1 \tab 12 \tab 2 \tab 2 \tab 112 \tab 233 \tab 15 \tab 47 \tab 48 \tab 37 \tab 86 \tab 259 \tab 40 \tab 20 \tab 27 \tab 18 \tab 21 \tab 22 \tab 7 \tab 73 \tab 5 \tab 8 \tab 42 \tab 13 \tab 11 \tab 10 \tab 16 \tab 25 \tab 3 \tab 3 \tab 2 \tab 5 \tab 33 \tab 10 \tab 12 \tab 24 \tab 4 \tab 1 \tab 25 \tab 7 \tab 47 \tab 5 \tab 68 \tab 12 \tab 18 \tab 5 \tab 26 \tab 27 \tab 8 \tab 8 \tab 1860 \cr
+   Total \tab 0 \tab 23 \tab 7 \tab 265 \tab 1 \tab 12 \tab 2 \tab 2 \tab 112 \tab 233 \tab 15 \tab 47 \tab 48 \tab 37 \tab 86 \tab 259 \tab 40 \tab 20 \tab 27 \tab 18 \tab 21 \tab 22 \tab 7 \tab 73 \tab 5 \tab 8 \tab 42 \tab 13 \tab 11 \tab 10 \tab 16 \tab 25 \tab 3 \tab 3 \tab 2 \tab 5 \tab 33 \tab 10 \tab 12 \tab 24 \tab 4 \tab 1 \tab 25 \tab 7 \tab 47 \tab 5 \tab 68 \tab 12 \tab 18 \tab 5 \tab 26 \tab 27 \tab 8 \tab 8 \tab 1860 \cr
+}
 }
 
 \seealso{

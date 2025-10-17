@@ -24,15 +24,21 @@ B. An automobile
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1858/vshow}{GSS Data Explorer page for \code{buyauto}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strong preference no contact \tab 2 \tab dont care \tab 4 \tab strong preference contact \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2196 \tab 115 \tab 28 \tab 206 \tab 110 \tab 235 \tab 10 \tab 4 \tab 2904 \cr
+   Total \tab 2196 \tab 115 \tab 28 \tab 206 \tab 110 \tab 235 \tab 10 \tab 4 \tab 2904 \cr
+}
 }
 
 \seealso{

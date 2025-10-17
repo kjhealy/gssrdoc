@@ -25,16 +25,22 @@ G. It is a shame when traditional American literature is ignored while other wor
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1428/vshow}{GSS Data Explorer page for \code{pclit}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 115 \tab 834 \tab 412 \tab 58 \tab 172 \tab 15 \tab 1606 \cr
+   1998 \tab 1387 \tab 129 \tab 546 \tab 446 \tab 88 \tab 213 \tab 23 \tab 2832 \cr
+   Total \tab 1387 \tab 244 \tab 1380 \tab 858 \tab 146 \tab 385 \tab 38 \tab 4438 \cr
+}
 }
 
 \seealso{

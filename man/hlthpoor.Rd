@@ -25,15 +25,21 @@ Question (People suffer from severe health problems...) Because they are poor.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7804/vshow}{GSS Data Explorer page for \code{hlthpoor}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2380 \tab 139 \tab 496 \tab 283 \tab 164 \tab 31 \tab 43 \tab 1 \tab 7 \tab 3544 \cr
+   Total \tab 2380 \tab 139 \tab 496 \tab 283 \tab 164 \tab 31 \tab 43 \tab 1 \tab 7 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

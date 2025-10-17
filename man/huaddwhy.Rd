@@ -30,17 +30,24 @@ Question A. SELECT ONE FROM THE LIST BELOW WHICH BEST DESCRIBES WHY THERE IS NO 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab B/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018 \cr
+   B/-/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6653/vshow}{GSS Data Explorer page for \code{huaddwhy}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab no such address, no such hu \tab vacation cabin \tab not usable as a permanent residence \tab not an hu for other reason \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2840 \tab 20 \tab 1 \tab 2 \tab 3 \tab 1 \tab - \tab 2867 \cr
+   2018 \tab 2342 \tab 5 \tab - \tab - \tab 1 \tab - \tab - \tab 2348 \cr
+   2022 \tab 3543 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 3544 \cr
+   Total \tab 8725 \tab 25 \tab 1 \tab 2 \tab 5 \tab 1 \tab 0 \tab 8759 \cr
+}
 }
 
 \keyword{variable}

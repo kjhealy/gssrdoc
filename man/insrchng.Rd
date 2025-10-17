@@ -23,15 +23,21 @@ Question Based on what the doctor has just told you, if you could, would you swi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2758/vshow}{GSS Data Explorer page for \code{insrchng}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab maybe \tab don't know \tab no answer \tab Total \cr
+   2002 \tab - \tab 926 \tab 1366 \tab 437 \tab 31 \tab 5 \tab 2765 \cr
+   Total \tab 0 \tab 926 \tab 1366 \tab 437 \tab 31 \tab 5 \tab 2765 \cr
+}
 }
 
 \seealso{

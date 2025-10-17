@@ -22,18 +22,23 @@ Question When a person has a disease that cannot be cured, do you think doctors 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2008, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5573/vshow}{GSS Data Explorer page for \code{letdie1y}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2008 \tab 1342 \tab 453 \tab 211 \tab 16 \tab 1 \tab - \tab 2023 \cr
+   2021 \tab 2658 \tab 986 \tab 370 \tab 2 \tab 4 \tab 12 \tab 4032 \cr
+   2022 \tab 2373 \tab 829 \tab 305 \tab 28 \tab 6 \tab 3 \tab 3544 \cr
+   Total \tab 6373 \tab 2268 \tab 886 \tab 46 \tab 11 \tab 15 \tab 9599 \cr
+}
 }
 
 \seealso{

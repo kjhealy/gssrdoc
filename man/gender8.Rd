@@ -33,45 +33,53 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5375/vshow}{GSS Data Explorer page for \code{gender8}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab male \tab female \tab no answer \tab don't know \tab not available in this release \tab Total \cr
+   1975 \tab 1465 \tab 14 \tab 11 \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 1490 \tab 5 \tab 4 \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 1505 \tab 13 \tab 12 \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 1514 \tab 10 \tab 8 \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab 1454 \tab 6 \tab 7 \tab 1 \tab - \tab - \tab 1468 \cr
+   1982 \tab 1835 \tab 10 \tab 14 \tab 1 \tab - \tab - \tab 1860 \cr
+   1983 \tab 1584 \tab 6 \tab 8 \tab 1 \tab - \tab - \tab 1599 \cr
+   1984 \tab 1465 \tab 3 \tab 5 \tab - \tab - \tab - \tab 1473 \cr
+   1985 \tab 1519 \tab 4 \tab 11 \tab - \tab - \tab - \tab 1534 \cr
+   1986 \tab 1456 \tab 8 \tab 6 \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab 1804 \tab 6 \tab 9 \tab - \tab - \tab - \tab 1819 \cr
+   1988 \tab 1475 \tab 3 \tab 3 \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 1520 \tab 13 \tab 4 \tab - \tab - \tab - \tab 1537 \cr
+   1990 \tab 1368 \tab 2 \tab 2 \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 1510 \tab 4 \tab 3 \tab - \tab - \tab - \tab 1517 \cr
+   1993 \tab 1602 \tab 2 \tab 2 \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 2985 \tab 3 \tab 4 \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab 2891 \tab 10 \tab 3 \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab 2817 \tab 5 \tab 10 \tab - \tab - \tab - \tab 2832 \cr
+   2000 \tab 2802 \tab 10 \tab 5 \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2757 \tab 2 \tab 6 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2803 \tab 4 \tab 5 \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 4495 \tab 7 \tab 7 \tab - \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 2015 \tab 6 \tab 2 \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 2026 \tab 8 \tab 8 \tab 2 \tab - \tab - \tab 2044 \cr
+   2012 \tab 1967 \tab 1 \tab 6 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2531 \tab 4 \tab 3 \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2850 \tab 7 \tab 10 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2338 \tab 7 \tab 2 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 3532 \tab 6 \tab 6 \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 63375 \tab 189 \tab 186 \tab 6 \tab 1 \tab 4032 \tab 67789 \cr
+}
 }
 
 \seealso{

@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `defwrknw`](https://gssdataexplorer.norc.org/variables/830/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |1984  |1262 |37  |142 |32        |1473  |
+#'  |Total |1262 |37  |142 |32        |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -46,13 +52,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `milwrkev`](https://gssdataexplorer.norc.org/variables/831/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no   |no answer |Total |
+#'  |:-----|:---|:---|:----|:---------|:-----|
+#'  |1984  |-   |82  |1363 |28        |1473  |
+#'  |Total |0   |82  |1363 |28        |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -79,13 +91,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `milwrknw`](https://gssdataexplorer.norc.org/variables/832/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |no answer |Total |
+#'  |:-----|:----|:---|:--|:---------|:-----|
+#'  |1984  |1363 |13  |65 |32        |1473  |
+#'  |Total |1363 |13  |65 |32        |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -112,13 +130,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `resdefwk`](https://gssdataexplorer.norc.org/variables/833/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very dependent |somewhat dependent |not at all |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:----------|:----------|:---------|:-----|
+#'  |1984  |-   |132            |495                |748        |72         |26        |1473  |
+#'  |Total |0   |132            |495                |748        |72         |26        |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -147,13 +171,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `obvote`](https://gssdataexplorer.norc.org/variables/834/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
+#'  |1984  |-   |1152           |229                |66             |4          |22        |1473  |
+#'  |Total |0   |1152           |229                |66             |4          |22        |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -182,13 +212,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `obvol`](https://gssdataexplorer.norc.org/variables/835/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
+#'  |1984  |-   |451            |808                |182            |11         |21        |1473  |
+#'  |Total |0   |451            |808                |182            |11         |21        |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -217,13 +253,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `objury`](https://gssdataexplorer.norc.org/variables/836/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
+#'  |1984  |-   |941            |418                |79             |12         |23        |1473  |
+#'  |Total |0   |941            |418                |79             |12         |23        |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -252,13 +294,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ob911`](https://gssdataexplorer.norc.org/variables/837/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
+#'  |1984  |-   |1312           |114                |16             |8          |23        |1473  |
+#'  |Total |0   |1312           |114                |16             |8          |23        |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -287,13 +335,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `obeng`](https://gssdataexplorer.norc.org/variables/838/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
+#'  |1984  |-   |1207           |200                |39             |6          |21        |1473  |
+#'  |Total |0   |1207           |200                |39             |6          |21        |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -322,13 +376,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `obknow`](https://gssdataexplorer.norc.org/variables/839/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
+#'  |1984  |-   |813            |545                |81             |11         |23        |1473  |
+#'  |Total |0   |813            |545                |81             |11         |23        |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

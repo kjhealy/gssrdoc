@@ -22,16 +22,22 @@ Question B. Visit the Web site of an art museum or art gallery in order to learn
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2474/vshow}{GSS Data Explorer page for \code{artmus1}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2604 \tab 63 \tab 35 \tab 115 \tab 2817 \cr
+   2002 \tab 2628 \tab 71 \tab 19 \tab 47 \tab 2765 \cr
+   Total \tab 5232 \tab 134 \tab 54 \tab 162 \tab 5582 \cr
+}
 }
 
 \seealso{

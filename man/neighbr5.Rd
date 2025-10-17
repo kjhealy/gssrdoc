@@ -25,16 +25,23 @@ H5. Fifth Person is Neighbor
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/914/vshow}{GSS Data Explorer page for \code{neighbr5}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab Total \cr
+   1985 \tab 1153 \tab 30 \tab 348 \tab 3 \tab 1534 \cr
+   2004 \tab 2600 \tab 6 \tab 160 \tab 46 \tab 2812 \cr
+   Total \tab 3753 \tab 36 \tab 508 \tab 49 \tab 4346 \cr
+}
 }
 
 \seealso{

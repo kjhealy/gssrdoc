@@ -23,18 +23,25 @@ I. Take prescription medication.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2019/vshow}{GSS Data Explorer page for \code{rxmed}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 788 \tab 513 \tab 109 \tab 34 \tab 2904 \cr
+   2006 \tab 3073 \tab 1005 \tab 354 \tab 62 \tab 16 \tab 4510 \cr
+   2018 \tab 1175 \tab 696 \tab 408 \tab 40 \tab 29 \tab 2348 \cr
+   Total \tab 5708 \tab 2489 \tab 1275 \tab 211 \tab 79 \tab 9762 \cr
+}
 }
 
 \seealso{

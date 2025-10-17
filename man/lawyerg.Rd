@@ -23,15 +23,21 @@ G. Convenience.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1835/vshow}{GSS Data Explorer page for \code{lawyerg}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1996 \tab 2684 \tab 36 \tab 137 \tab 47 \tab 2904 \cr
+   Total \tab 2684 \tab 36 \tab 137 \tab 47 \tab 2904 \cr
+}
 }
 
 \seealso{

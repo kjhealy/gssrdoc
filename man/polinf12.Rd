@@ -23,16 +23,22 @@ M. Go to a Web site to find information about political or social policy issues,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2427/vshow}{GSS Data Explorer page for \code{polinf12}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2075 \tab 225 \tab 442 \tab 75 \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 356 \tab 633 \tab 94 \tab 1 \tab 2765 \cr
+   Total \tab 3756 \tab 581 \tab 1075 \tab 169 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

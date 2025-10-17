@@ -25,15 +25,21 @@ Question Please tell me whether you strongly agree, agree, neither agree nor dis
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2675/vshow}{GSS Data Explorer page for \code{wlthpov}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 114 \tab 410 \tab 264 \tab 370 \tab 208 \tab 37 \tab 16 \tab 2817 \cr
+   Total \tab 1398 \tab 114 \tab 410 \tab 264 \tab 370 \tab 208 \tab 37 \tab 16 \tab 2817 \cr
+}
 }
 
 \seealso{

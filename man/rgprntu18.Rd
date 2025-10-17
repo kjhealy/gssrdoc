@@ -22,15 +22,21 @@ Question Are you the grandparent (or great-grandparent) of at least one individu
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8025/vshow}{GSS Data Explorer page for \code{rgprntu18}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 3194 \tab 26 \tab 318 \tab 1 \tab 5 \tab 3544 \cr
+   Total \tab 3194 \tab 26 \tab 318 \tab 1 \tab 5 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

@@ -40,15 +40,21 @@ A. Who would you turn to first for help?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4216/vshow}{GSS Data Explorer page for \code{borrow1a}}.
+
+Counts by year:\tabular{llllllllllllllllllllll}{
+   year \tab iap \tab husband, wife, partner \tab mother \tab father \tab daughter \tab son \tab sister \tab brother \tab other blood relative \tab other in-law relative \tab close friend \tab someone you work with \tab employer \tab government or social services agency \tab bank or credit union \tab private money lender \tab someone else \tab no one \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 144 \tab 186 \tab 164 \tab 32 \tab 33 \tab 56 \tab 64 \tab 36 \tab 36 \tab 61 \tab 8 \tab 2 \tab 6 \tab 88 \tab 5 \tab 75 \tab 134 \tab 6 \tab 13 \tab 2765 \cr
+   Total \tab 1616 \tab 144 \tab 186 \tab 164 \tab 32 \tab 33 \tab 56 \tab 64 \tab 36 \tab 36 \tab 61 \tab 8 \tab 2 \tab 6 \tab 88 \tab 5 \tab 75 \tab 134 \tab 6 \tab 13 \tab 2765 \cr
+}
 }
 
 \seealso{

@@ -22,17 +22,23 @@ Question There are many different ways of picturing God. We'd like to know the k
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
-   1985 \tab - \tab full \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984, 1985, 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/338/vshow}{GSS Data Explorer page for \code{crtrheal}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab creator \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab healer \tab no answer \tab don't know \tab Total \cr
+   1984 \tab 484 \tab 310 \tab 42 \tab 35 \tab 427 \tab 27 \tab 26 \tab 70 \tab 52 \tab - \tab 1473 \cr
+   1985 \tab - \tab 434 \tab 83 \tab 59 \tab 669 \tab 44 \tab 52 \tab 129 \tab 48 \tab 16 \tab 1534 \cr
+   1986 \tab - \tab 432 \tab 66 \tab 48 \tab 665 \tab 35 \tab 40 \tab 131 \tab 45 \tab 8 \tab 1470 \cr
+   Total \tab 484 \tab 1176 \tab 191 \tab 142 \tab 1761 \tab 106 \tab 118 \tab 330 \tab 145 \tab 24 \tab 4477 \cr
+}
 }
 
 \seealso{

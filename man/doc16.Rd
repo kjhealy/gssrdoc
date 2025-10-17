@@ -26,16 +26,22 @@ P. I trust my doctor's judgments about my medical care.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2215/vshow}{GSS Data Explorer page for \code{doc16}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strong disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 164 \tab 944 \tab 157 \tab 82 \tab 17 \tab 14 \tab 9 \tab 2832 \cr
+   2006 \tab 3073 \tab 383 \tab 785 \tab 155 \tab 57 \tab 25 \tab 19 \tab 13 \tab 4510 \cr
+   Total \tab 4518 \tab 547 \tab 1729 \tab 312 \tab 139 \tab 42 \tab 33 \tab 22 \tab 7342 \cr
+}
 }
 
 \seealso{

@@ -23,19 +23,25 @@ B. (Is/Was) that person male or female?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5009/vshow}{GSS Data Explorer page for \code{aidssex}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab male \tab female \tab no answer \tab Total \cr
+   1988 \tab 1342 \tab 131 \tab 5 \tab 3 \tab 1481 \cr
+   1989 \tab 1392 \tab 132 \tab 10 \tab 3 \tab 1537 \cr
+   1990 \tab 1195 \tab 160 \tab 16 \tab 1 \tab 1372 \cr
+   1991 \tab 1275 \tab 220 \tab 18 \tab 4 \tab 1517 \cr
+   1993 \tab 1214 \tab 352 \tab 33 \tab 7 \tab 1606 \cr
+   Total \tab 6418 \tab 995 \tab 82 \tab 18 \tab 7513 \cr
+}
 }
 
 \seealso{

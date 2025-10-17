@@ -34,23 +34,30 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
+#'  |ballots |years                                                      |
+#'  |:-------|:----------------------------------------------------------|
+#'  |A/B/C/- |2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 |
+#'  |A/B/C/D |2006                                                       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relsp11`](https://gssdataexplorer.norc.org/variables/5463/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |child, not specified |grandchild, great-grandchild |niece or nephew |brother, sister (full, half, or step sibling) |natural/biological child |no answer |parent |parent-in-law |stepchild |sibling-in-law |other non-relative (employee, boarder) |son-in-law, daughter-in-law |cousin |other relative (great-aunt, grandniece, etc.) |friend |roommate, housemate |child of non-relative |uncle or aunt |not available in this release |Total |
+#'  |:-----|:-----|:--------------------|:----------------------------|:---------------|:---------------------------------------------|:------------------------|:---------|:------|:-------------|:---------|:--------------|:--------------------------------------|:---------------------------|:------|:---------------------------------------------|:------|:-------------------|:---------------------|:-------------|:-----------------------------|:-----|
+#'  |2000  |2809  |1                    |1                            |1               |1                                             |3                        |1         |-      |-             |-         |-              |-                                      |-                           |-      |-                                             |-      |-                   |-                     |-             |-                             |2817  |
+#'  |2002  |2762  |-                    |-                            |-               |-                                             |-                        |-         |1      |1             |1         |-              |-                                      |-                           |-      |-                                             |-      |-                   |-                     |-             |-                             |2765  |
+#'  |2004  |2806  |1                    |-                            |-               |-                                             |2                        |-         |-      |-             |1         |1              |1                                      |-                           |-      |-                                             |-      |-                   |-                     |-             |-                             |2812  |
+#'  |2006  |4484  |3                    |-                            |2               |3                                             |5                        |-         |2      |1             |1         |-              |1                                      |1                           |3      |1                                             |3      |-                   |-                     |-             |-                             |4510  |
+#'  |2008  |2013  |-                    |1                            |-               |2                                             |-                        |-         |3      |-             |1         |1              |-                                      |-                           |-      |-                                             |-      |2                   |-                     |-             |-                             |2023  |
+#'  |2010  |2028  |2                    |1                            |1               |-                                             |2                        |2         |2      |-             |-         |1              |1                                      |-                           |-      |-                                             |3      |-                   |1                     |-             |-                             |2044  |
+#'  |2012  |1965  |1                    |-                            |-               |-                                             |-                        |-         |1      |1             |-         |3              |1                                      |-                           |1      |-                                             |1      |-                   |-                     |-             |-                             |1974  |
+#'  |2014  |2532  |1                    |1                            |1               |1                                             |-                        |-         |1      |-             |-         |-              |1                                      |-                           |-      |-                                             |-      |-                   |-                     |-             |-                             |2538  |
+#'  |2016  |2854  |2                    |-                            |2               |1                                             |1                        |-         |1      |1             |-         |1              |1                                      |-                           |-      |-                                             |2      |1                   |-                     |-             |-                             |2867  |
+#'  |2018  |2330  |4                    |1                            |-               |1                                             |-                        |1         |1      |2             |-         |2              |1                                      |-                           |-      |-                                             |3      |1                   |-                     |1             |-                             |2348  |
+#'  |2021  |-     |-                    |-                            |-               |-                                             |-                        |-         |-      |-             |-         |-              |-                                      |-                           |-      |-                                             |-      |-                   |-                     |-             |4032                          |4032  |
+#'  |Total |26583 |15                   |5                            |7               |9                                             |13                       |4         |12     |6             |4         |9              |7                                      |1                           |4      |1                                             |12     |4                   |1                     |1             |4032                          |30730 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -97,23 +104,30 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
+#'  |ballots |years                                                      |
+#'  |:-------|:----------------------------------------------------------|
+#'  |A/B/C/- |2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 |
+#'  |A/B/C/D |2006                                                       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relsp12`](https://gssdataexplorer.norc.org/variables/5464/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |child, not specified |grandchild, great-grandchild |son-in-law, daughter-in-law |natural/biological child |niece or nephew |cousin |sibling-in-law |other relative (great-aunt, grandniece, etc.) |friend |stepchild |child of non-relative |parent |roommate, housemate |no answer |not available in this release |Total |
+#'  |:-----|:-----|:--------------------|:----------------------------|:---------------------------|:------------------------|:---------------|:------|:--------------|:---------------------------------------------|:------|:---------|:---------------------|:------|:-------------------|:---------|:-----------------------------|:-----|
+#'  |2000  |2813  |1                    |1                            |1                           |1                        |-               |-      |-              |-                                             |-      |-         |-                     |-      |-                   |-         |-                             |2817  |
+#'  |2002  |2765  |-                    |-                            |-                           |-                        |-               |-      |-              |-                                             |-      |-         |-                     |-      |-                   |-         |-                             |2765  |
+#'  |2004  |2812  |-                    |-                            |-                           |-                        |-               |-      |-              |-                                             |-      |-         |-                     |-      |-                   |-         |-                             |2812  |
+#'  |2006  |4502  |-                    |-                            |1                           |1                        |1               |1      |1              |1                                             |1      |1         |-                     |-      |-                   |-         |-                             |4510  |
+#'  |2008  |2021  |-                    |-                            |-                           |-                        |1               |-      |-              |-                                             |-      |-         |1                     |-      |-                   |-         |-                             |2023  |
+#'  |2010  |2038  |1                    |-                            |-                           |-                        |-               |-      |-              |-                                             |-      |-         |-                     |2      |1                   |2         |-                             |2044  |
+#'  |2012  |1972  |-                    |1                            |-                           |-                        |-               |-      |-              |-                                             |-      |-         |-                     |1      |-                   |-         |-                             |1974  |
+#'  |2014  |2537  |1                    |-                            |-                           |-                        |-               |-      |-              |-                                             |-      |-         |-                     |-      |-                   |-         |-                             |2538  |
+#'  |2016  |2866  |-                    |-                            |-                           |-                        |-               |-      |-              |1                                             |-      |-         |-                     |-      |-                   |-         |-                             |2867  |
+#'  |2018  |2345  |-                    |-                            |-                           |-                        |-               |-      |-              |-                                             |1      |-         |-                     |2      |-                   |-         |-                             |2348  |
+#'  |2021  |-     |-                    |-                            |-                           |-                        |-               |-      |-              |-                                             |-      |-         |-                     |-      |-                   |-         |4032                          |4032  |
+#'  |Total |26671 |3                    |2                            |2                           |2                        |2               |1      |1              |2                                             |2      |1         |1                     |5      |1                   |2         |4032                          |30730 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -160,23 +174,30 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
+#'  |ballots |years                                                      |
+#'  |:-------|:----------------------------------------------------------|
+#'  |A/B/C/- |2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 |
+#'  |A/B/C/D |2006                                                       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relsp13`](https://gssdataexplorer.norc.org/variables/5465/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |natural/biological child |niece or nephew |child of non-relative |no answer |grandchild, great-grandchild |child, not specified |not available in this release |Total |
+#'  |:-----|:-----|:------------------------|:---------------|:---------------------|:---------|:----------------------------|:--------------------|:-----------------------------|:-----|
+#'  |2000  |2816  |1                        |-               |-                     |-         |-                            |-                    |-                             |2817  |
+#'  |2002  |2765  |-                        |-               |-                     |-         |-                            |-                    |-                             |2765  |
+#'  |2004  |2812  |-                        |-               |-                     |-         |-                            |-                    |-                             |2812  |
+#'  |2006  |4508  |-                        |1               |1                     |-         |-                            |-                    |-                             |4510  |
+#'  |2008  |2023  |-                        |-               |-                     |-         |-                            |-                    |-                             |2023  |
+#'  |2010  |2042  |-                        |-               |-                     |2         |-                            |-                    |-                             |2044  |
+#'  |2012  |1973  |-                        |-               |-                     |-         |1                            |-                    |-                             |1974  |
+#'  |2014  |2537  |-                        |-               |-                     |-         |-                            |1                    |-                             |2538  |
+#'  |2016  |2867  |-                        |-               |-                     |-         |-                            |-                    |-                             |2867  |
+#'  |2018  |2348  |-                        |-               |-                     |-         |-                            |-                    |-                             |2348  |
+#'  |2021  |-     |-                        |-               |-                     |-         |-                            |-                    |4032                          |4032  |
+#'  |Total |26691 |1                        |1               |1                     |2         |1                            |1                    |4032                          |30730 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -223,23 +244,30 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
+#'  |ballots |years                                                      |
+#'  |:-------|:----------------------------------------------------------|
+#'  |A/B/C/- |2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 |
+#'  |A/B/C/D |2006                                                       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relsp14`](https://gssdataexplorer.norc.org/variables/5466/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |niece or nephew |no answer |grandchild, great-grandchild |not available in this release |Total |
+#'  |:-----|:-----|:---------------|:---------|:----------------------------|:-----------------------------|:-----|
+#'  |2000  |2817  |-               |-         |-                            |-                             |2817  |
+#'  |2002  |2765  |-               |-         |-                            |-                             |2765  |
+#'  |2004  |2812  |-               |-         |-                            |-                             |2812  |
+#'  |2006  |4509  |1               |-         |-                            |-                             |4510  |
+#'  |2008  |2023  |-               |-         |-                            |-                             |2023  |
+#'  |2010  |2042  |-               |2         |-                            |-                             |2044  |
+#'  |2012  |1973  |-               |-         |1                            |-                             |1974  |
+#'  |2014  |2538  |-               |-         |-                            |-                             |2538  |
+#'  |2016  |2867  |-               |-         |-                            |-                             |2867  |
+#'  |2018  |2348  |-               |-         |-                            |-                             |2348  |
+#'  |2021  |-     |-               |-         |-                            |4032                          |4032  |
+#'  |Total |26694 |1               |2         |1                            |4032                          |30730 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -264,43 +292,12 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
+#'  |ballots |years                                                                                                                  |
+#'  |:-------|:----------------------------------------------------------------------------------------------------------------------|
+#'  |A/B/C/- |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+#'  |A/B/C/D |2006                                                                                                                   |
+#'  |Full/-  |1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987                                                       |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `dateintv`](https://gssdataexplorer.norc.org/variables/5467/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,28 +323,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `isco68`](https://gssdataexplorer.norc.org/variables/5468/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -373,28 +353,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `paisco68`](https://gssdataexplorer.norc.org/variables/5469/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -420,28 +383,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990                                                                   |
+#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `spisco68`](https://gssdataexplorer.norc.org/variables/5470/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -467,25 +413,11 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
+#'  |ballots |years                                                                        |
+#'  |:-------|:----------------------------------------------------------------------------|
+#'  |A/B/C/- |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010 |
+#'  |A/B/C/D |2006                                                                         |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `isco681`](https://gssdataexplorer.norc.org/variables/5471/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -511,25 +443,10 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/C   |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010 |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `paisc681`](https://gssdataexplorer.norc.org/variables/5472/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

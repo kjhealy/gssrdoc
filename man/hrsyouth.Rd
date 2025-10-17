@@ -22,15 +22,21 @@ K. Youth development
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1925/vshow}{GSS Data Explorer page for \code{hrsyouth}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 15 \tab 16 \tab 2 \tab 20 \tab 23 \tab 24 \tab 25 \tab 3 \tab 36 \tab 4 \tab 5 \tab 50 \tab 6 \tab 60 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2800 \tab 2 \tab 4 \tab 10 \tab 1 \tab 1 \tab 4 \tab 4 \tab 17 \tab 6 \tab 1 \tab 1 \tab 1 \tab 8 \tab 1 \tab 16 \tab 10 \tab 1 \tab 5 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 2 \tab 2904 \cr
+   Total \tab 2800 \tab 2 \tab 4 \tab 10 \tab 1 \tab 1 \tab 4 \tab 4 \tab 17 \tab 6 \tab 1 \tab 1 \tab 1 \tab 8 \tab 1 \tab 16 \tab 10 \tab 1 \tab 5 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 2 \tab 2904 \cr
+}
 }
 
 \seealso{

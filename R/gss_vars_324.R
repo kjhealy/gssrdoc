@@ -18,16 +18,23 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2012 |A/C/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2002, 2004, 2014 |
+#'  |A/C/-   |2012             |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `helpaway`](https://gssdataexplorer.norc.org/variables/2884/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |more than once a week |once a week |once a month |at least 2 or 3 times in the past year |once in the past year |not at all in the past year |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------|:-----------|:------------|:--------------------------------------|:---------------------|:---------------------------|:----------|:---------|:-----|
+#'  |2002  |1393 |31                    |19          |67           |426                                    |213                   |600                         |12         |4         |2765  |
+#'  |2004  |1472 |25                    |26          |100          |444                                    |244                   |497                         |1          |3         |2812  |
+#'  |2012  |666  |29                    |27          |79           |341                                    |208                   |616                         |2          |6         |1974  |
+#'  |2014  |1264 |27                    |14          |69           |333                                    |206                   |620                         |1          |4         |2538  |
+#'  |Total |4795 |112                   |86          |315          |1544                                   |871                   |2333                        |16         |17        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -58,16 +65,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2012 |A/C/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2002, 2004, 2014 |
+#'  |A/C/-   |2012             |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `carried`](https://gssdataexplorer.norc.org/variables/2885/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |more than once a week |once a week |once a month |at least 2 or 3 times in the past year |once in the past year |not at all in the past year |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------|:-----------|:------------|:--------------------------------------|:---------------------|:---------------------------|:----------|:---------|:-----|
+#'  |2002  |1393 |19                    |23          |61           |273                                    |217                   |762                         |13         |4         |2765  |
+#'  |2004  |1472 |26                    |38          |94           |296                                    |221                   |659                         |4          |2         |2812  |
+#'  |2012  |666  |24                    |24          |70           |229                                    |226                   |725                         |2          |8         |1974  |
+#'  |2014  |1264 |31                    |34          |78           |232                                    |208                   |687                         |-          |4         |2538  |
+#'  |Total |4795 |100                   |119         |303          |1030                                   |872                   |2833                        |19         |18        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -98,16 +112,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2012 |A/C/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2002, 2004, 2014 |
+#'  |A/C/-   |2012             |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `directns`](https://gssdataexplorer.norc.org/variables/2886/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |more than once a week |once a week |once a month |at least 2 or 3 times in the past year |once in the past year |not at all in the past year |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------|:-----------|:------------|:--------------------------------------|:---------------------|:---------------------------|:----------|:---------|:-----|
+#'  |2002  |1393 |75                    |77          |238          |607                                    |183                   |173                         |15         |4         |2765  |
+#'  |2004  |1472 |72                    |89          |239          |631                                    |159                   |144                         |3          |3         |2812  |
+#'  |2012  |666  |63                    |72          |196          |575                                    |199                   |192                         |5          |6         |1974  |
+#'  |2014  |1264 |64                    |77          |189          |547                                    |195                   |196                         |2          |4         |2538  |
+#'  |Total |4795 |274                   |315         |862          |2360                                   |736                   |705                         |25         |17        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -138,16 +159,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2012 |A/C/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2002, 2004, 2014 |
+#'  |A/C/-   |2012             |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `loanitem`](https://gssdataexplorer.norc.org/variables/2887/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |more than once a week |once a week |once a month |at least 2 or 3 times in the past year |once in the past year |not at all in the past year |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------|:-----------|:------------|:--------------------------------------|:---------------------|:---------------------------|:----------|:---------|:-----|
+#'  |2002  |1393 |11                    |20          |49           |221                                    |231                   |820                         |14         |6         |2765  |
+#'  |2004  |1472 |18                    |19          |79           |253                                    |233                   |733                         |2          |3         |2812  |
+#'  |2012  |666  |13                    |21          |45           |195                                    |188                   |834                         |4          |8         |1974  |
+#'  |2014  |1264 |13                    |16          |77           |214                                    |165                   |785                         |-          |4         |2538  |
+#'  |Total |4795 |55                    |76          |250          |883                                    |817                   |3172                        |20         |21        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -178,16 +206,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2012 |A/C/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2002, 2004, 2014 |
+#'  |A/C/-   |2012             |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `selfless`](https://gssdataexplorer.norc.org/variables/2888/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
+#'  |2002  |1393 |128              |177       |266       |328       |288             |136                   |42         |7         |2765  |
+#'  |2004  |1472 |191              |392       |353       |229       |101             |43                    |15         |16        |2812  |
+#'  |2012  |666  |158              |237       |266       |261       |175             |169                   |30         |12        |1974  |
+#'  |2014  |1264 |219              |237       |250       |217       |180             |150                   |12         |9         |2538  |
+#'  |Total |4795 |696              |1043      |1135      |1035      |744             |498                   |99         |44        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -218,16 +253,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2012 |A/C/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2002, 2004, 2014 |
+#'  |A/C/-   |2012             |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `accptoth`](https://gssdataexplorer.norc.org/variables/2889/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
+#'  |2002  |1393 |119              |207       |437       |310       |206             |66                    |20         |7         |2765  |
+#'  |2004  |1472 |144              |365       |451       |212       |124             |20                    |10         |14        |2812  |
+#'  |2012  |666  |136              |281       |389       |223       |189             |76                    |8          |6         |1974  |
+#'  |2014  |1264 |145              |255       |373       |222       |186             |79                    |5          |9         |2538  |
+#'  |Total |4795 |544              |1108      |1650      |967       |705             |241                   |43         |36        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -257,16 +299,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2012 |A/C/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2002, 2004, 2014 |
+#'  |A/C/-   |2012             |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `othshelp`](https://gssdataexplorer.norc.org/variables/2890/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |1393 |567            |638   |123                        |15       |9                 |12         |8         |2765  |
+#'  |2004  |1472 |583            |625   |105                        |10       |13                |2          |2         |2812  |
+#'  |2012  |666  |510            |678   |89                         |15       |4                 |6          |6         |1974  |
+#'  |2014  |1264 |609            |549   |77                         |19       |10                |3          |7         |2538  |
+#'  |Total |4795 |2269           |2490  |394                        |59       |36                |23         |23        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -296,16 +345,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2012 |A/C/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2002, 2004, 2014 |
+#'  |A/C/-   |2012             |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `careself`](https://gssdataexplorer.norc.org/variables/2891/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |1393 |175            |552   |319                        |254      |52                |13         |7         |2765  |
+#'  |2004  |1472 |115            |519   |393                        |255      |50                |6          |2         |2812  |
+#'  |2012  |666  |154            |521   |333                        |256      |27                |10         |7         |1974  |
+#'  |2014  |1264 |156            |519   |303                        |240      |46                |3          |7         |2538  |
+#'  |Total |4795 |600            |2111  |1348                       |1005     |175               |32         |23        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -335,16 +391,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2012 |A/C/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2002, 2004, 2014 |
+#'  |A/C/-   |2012             |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `peoptrbl`](https://gssdataexplorer.norc.org/variables/2892/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |1393 |328            |672   |275                        |67       |12                |12         |6         |2765  |
+#'  |2004  |1472 |329            |715   |245                        |41       |7                 |1          |2         |2812  |
+#'  |2012  |666  |277            |748   |218                        |47       |3                 |7          |8         |1974  |
+#'  |2014  |1264 |326            |706   |179                        |41       |11                |5          |6         |2538  |
+#'  |Total |4795 |1260           |2841  |917                        |196      |33                |25         |22        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
@@ -374,16 +437,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2012 |A/C/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2002, 2004, 2014 |
+#'  |A/C/-   |2012             |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `selffrst`](https://gssdataexplorer.norc.org/variables/2893/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |1393 |86             |358   |289                        |508      |114               |11         |6         |2765  |
+#'  |2004  |1472 |59             |265   |322                        |573      |115               |4          |2         |2812  |
+#'  |2012  |666  |61             |358   |274                        |521      |77                |8          |9         |1974  |
+#'  |2014  |1264 |72             |326   |303                        |478      |82                |6          |7         |2538  |
+#'  |Total |4795 |278            |1307  |1188                       |2080     |388               |29         |24        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender

@@ -27,15 +27,21 @@ B. Freedom is having a government that doesnâ€™t spy on me or interfere in 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2669/vshow}{GSS Data Explorer page for \code{nogovt}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab one of the most important \tab extremely important \tab very important \tab moderately important \tab somewhat important \tab not too important \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 412 \tab 356 \tab 447 \tab 113 \tab 33 \tab 22 \tab 13 \tab 23 \tab 2817 \cr
+   Total \tab 1398 \tab 412 \tab 356 \tab 447 \tab 113 \tab 33 \tab 22 \tab 13 \tab 23 \tab 2817 \cr
+}
 }
 
 \seealso{

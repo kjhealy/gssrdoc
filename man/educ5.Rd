@@ -30,16 +30,23 @@ PROBE:  Your best guess. RECORD VERBATIM IF NOT CODEABLE. ASK FOR EACH NAME.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/944/vshow}{GSS Data Explorer page for \code{educ5}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 1-6 years \tab 7-9 years \tab 10-12 years \tab h.s. grad \tab some college \tab asso. degree \tab bach. degree \tab grad or prof \tab don't know \tab no answer \tab Total \cr
+   1985 \tab 1153 \tab 6 \tab 22 \tab 24 \tab 104 \tab 77 \tab 14 \tab 67 \tab 52 \tab 7 \tab 8 \tab 1534 \cr
+   2004 \tab 2600 \tab - \tab 3 \tab 6 \tab 35 \tab 26 \tab 17 \tab 47 \tab 28 \tab 4 \tab 46 \tab 2812 \cr
+   Total \tab 3753 \tab 6 \tab 25 \tab 30 \tab 139 \tab 103 \tab 31 \tab 114 \tab 80 \tab 11 \tab 54 \tab 4346 \cr
+}
 }
 
 \seealso{

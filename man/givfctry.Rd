@@ -26,15 +26,21 @@ N. The owner-manager of a large factory?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4292/vshow}{GSS Data Explorer page for \code{givfctry}}.
+
+Counts by year:\tabular{llll}{
+   year \tab iap \tab 55000 \tab Total \cr
+   2000 \tab 2816 \tab 1 \tab 2817 \cr
+   Total \tab 2816 \tab 1 \tab 2817 \cr
+}
 }
 
 \seealso{

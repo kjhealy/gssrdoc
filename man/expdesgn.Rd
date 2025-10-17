@@ -22,21 +22,30 @@ Question Now, please think about this situation. Two scientists want to know if 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3330/vshow}{GSS Data Explorer page for \code{expdesgn}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab all 1000 get the drug \tab 500 get the drug; 500 don't \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 314 \tab 1476 \tab 70 \tab 4 \tab 4510 \cr
+   2008 \tab 518 \tab 279 \tab 1115 \tab 93 \tab 18 \tab 2023 \cr
+   2010 \tab 1328 \tab 99 \tab 571 \tab 36 \tab 10 \tab 2044 \cr
+   2012 \tab 972 \tab 134 \tab 791 \tab 66 \tab 11 \tab 1974 \cr
+   2014 \tab 1299 \tab 215 \tab 952 \tab 67 \tab 5 \tab 2538 \cr
+   2016 \tab 1477 \tab 233 \tab 1098 \tab 49 \tab 10 \tab 2867 \cr
+   2018 \tab 1173 \tab 222 \tab 903 \tab 39 \tab 11 \tab 2348 \cr
+   Total \tab 9413 \tab 1496 \tab 6906 \tab 420 \tab 69 \tab 18304 \cr
+}
 }
 
 \seealso{

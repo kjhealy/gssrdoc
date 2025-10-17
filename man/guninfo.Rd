@@ -25,15 +25,21 @@ Do you have all the information you need, most of the information, some informat
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/274/vshow}{GSS Data Explorer page for \code{guninfo}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab all info r needs \tab most of the info \tab some info \tab very little info \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 989 \tab 67 \tab 105 \tab 194 \tab 110 \tab 4 \tab 4 \tab 1473 \cr
+   Total \tab 989 \tab 67 \tab 105 \tab 194 \tab 110 \tab 4 \tab 4 \tab 1473 \cr
+}
 }
 
 \seealso{

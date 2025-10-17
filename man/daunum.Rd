@@ -26,15 +26,21 @@ Question How many daughters age 18 or older do you have? (We mean daughters who 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4143/vshow}{GSS Data Explorer page for \code{daunum}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab none \tab one \tab two \tab three \tab four \tab five + \tab no answer \tab Total \cr
+   1986 \tab - \tab 978 \tab 254 \tab 132 \tab 63 \tab 23 \tab 17 \tab 3 \tab 1470 \cr
+   Total \tab 0 \tab 978 \tab 254 \tab 132 \tab 63 \tab 23 \tab 17 \tab 3 \tab 1470 \cr
+}
 }
 
 \seealso{

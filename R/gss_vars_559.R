@@ -17,13 +17,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chldhome`](https://gssdataexplorer.norc.org/variables/5113/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |Total |
+#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:-----|
+#'  |1990  |-   |57          |454    |597            |197   |21         |30         |16        |1372  |
+#'  |Total |0   |57          |454    |597            |197   |21         |30         |16        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -53,13 +59,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chldhlth`](https://gssdataexplorer.norc.org/variables/5114/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |Total |
+#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:-----|
+#'  |1990  |-   |101         |510    |415            |278   |25         |28         |15        |1372  |
+#'  |Total |0   |101         |510    |415            |278   |25         |28         |15        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -89,13 +101,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chldskls`](https://gssdataexplorer.norc.org/variables/5115/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |Total |
+#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:-----|
+#'  |1990  |-   |99          |547    |396            |248   |35         |33         |14        |1372  |
+#'  |Total |0   |99          |547    |396            |248   |35         |33         |14        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -125,13 +143,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chldtime`](https://gssdataexplorer.norc.org/variables/5116/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |Total |
+#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:-----|
+#'  |1990  |-   |18          |117    |401            |718   |71         |33         |14        |1372  |
+#'  |Total |0   |18          |117    |401            |718   |71         |33         |14        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -161,13 +185,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `inffilms`](https://gssdataexplorer.norc.org/variables/5117/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |Total |
+#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:-----|
+#'  |1990  |-   |93            |317      |354     |416      |142           |42         |8         |1372  |
+#'  |Total |0   |93            |317      |354     |416      |142           |42         |8         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -197,13 +227,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `infpubtv`](https://gssdataexplorer.norc.org/variables/5118/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |Total |
+#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:-----|
+#'  |1990  |-   |299           |811      |146     |54       |17            |38         |7         |1372  |
+#'  |Total |0   |299           |811      |146     |54       |17            |38         |7         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -233,13 +269,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `infnettv`](https://gssdataexplorer.norc.org/variables/5119/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |Total |
+#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:-----|
+#'  |1990  |-   |34            |296      |474     |414      |104           |43         |7         |1372  |
+#'  |Total |0   |34            |296      |474     |414      |104           |43         |7         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -269,13 +311,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `infadstv`](https://gssdataexplorer.norc.org/variables/5120/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |Total |
+#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:-----|
+#'  |1990  |-   |61            |187      |398     |504      |177           |38         |7         |1372  |
+#'  |Total |0   |61            |187      |398     |504      |177           |38         |7         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -305,13 +353,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `infmusic`](https://gssdataexplorer.norc.org/variables/5121/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |Total |
+#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:-----|
+#'  |1990  |-   |81            |135      |385     |412      |297           |54         |8         |1372  |
+#'  |Total |0   |81            |135      |385     |412      |297           |54         |8         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -342,13 +396,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sppregnt`](https://gssdataexplorer.norc.org/variables/5122/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |spend much more |spend more |spend same |spend less |spend much less |can't choose |no answer |Total |
+#'  |:-----|:---|:---------------|:----------|:----------|:----------|:---------------|:------------|:---------|:-----|
+#'  |1990  |155 |126             |400        |510        |84         |25              |53           |19        |1372  |
+#'  |Total |155 |126             |400        |510        |84         |25              |53           |19        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children

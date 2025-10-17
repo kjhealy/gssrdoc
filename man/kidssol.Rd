@@ -26,29 +26,35 @@ Question B. When your children are at the age you are now, do you think their st
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab B/C \tab partial \cr
-   1996 \tab B/C \tab partial \cr
-   1998 \tab B/C \tab partial \cr
-   2000 \tab B/C \tab partial \cr
-   2002 \tab B/C \tab partial \cr
-   2004 \tab B/C \tab partial \cr
-   2006 \tab B/C \tab partial \cr
-   2008 \tab B/C \tab partial \cr
-   2010 \tab B/C \tab partial \cr
-   2012 \tab B/C \tab partial \cr
-   2014 \tab B/C \tab partial \cr
-   2016 \tab B/C \tab partial \cr
-   2018 \tab B/C \tab partial \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/587/vshow}{GSS Data Explorer page for \code{kidssol}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab much better \tab somewhat better \tab about the same \tab somewhat worse \tab much worse \tab no children \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1492 \tab 248 \tab 425 \tab 309 \tab 233 \tab 72 \tab 145 \tab 62 \tab 6 \tab - \tab 2992 \cr
+   1996 \tab 979 \tab 380 \tab 525 \tab 370 \tab 323 \tab 93 \tab 157 \tab 71 \tab 6 \tab - \tab 2904 \cr
+   1998 \tab 921 \tab 415 \tab 608 \tab 367 \tab 172 \tab 60 \tab 204 \tab 80 \tab 5 \tab - \tab 2832 \cr
+   2000 \tab 921 \tab 532 \tab 553 \tab 301 \tab 138 \tab 54 \tab 241 \tab 67 \tab 10 \tab - \tab 2817 \cr
+   2002 \tab 1853 \tab 231 \tab 305 \tab 161 \tab 73 \tab 20 \tab 105 \tab 17 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1936 \tab 209 \tab 260 \tab 183 \tab 97 \tab 30 \tab 83 \tab 12 \tab 2 \tab - \tab 2812 \cr
+   2006 \tab 2521 \tab 547 \tab 541 \tab 350 \tab 221 \tab 58 \tab 231 \tab 38 \tab 3 \tab - \tab 4510 \cr
+   2008 \tab 658 \tab 353 \tab 340 \tab 236 \tab 181 \tab 74 \tab 141 \tab 38 \tab 2 \tab - \tab 2023 \cr
+   2010 \tab 667 \tab 330 \tab 375 \tab 247 \tab 182 \tab 71 \tab 133 \tab 36 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 636 \tab 342 \tab 296 \tab 238 \tab 197 \tab 82 \tab 149 \tab 32 \tab 2 \tab - \tab 1974 \cr
+   2014 \tab 851 \tab 415 \tab 439 \tab 308 \tab 230 \tab 90 \tab 177 \tab 25 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 912 \tab 544 \tab 504 \tab 353 \tab 227 \tab 102 \tab 185 \tab 37 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab 785 \tab 480 \tab 390 \tab 265 \tab 162 \tab 58 \tab 180 \tab 24 \tab 4 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 2337 \tab 317 \tab 276 \tab 211 \tab 158 \tab 67 \tab 130 \tab 41 \tab 7 \tab - \tab 3544 \cr
+   Total \tab 17469 \tab 5343 \tab 5837 \tab 3899 \tab 2594 \tab 931 \tab 2261 \tab 580 \tab 56 \tab 4032 \tab 43002 \cr
+}
 }
 
 \seealso{

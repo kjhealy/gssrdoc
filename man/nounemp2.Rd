@@ -26,16 +26,23 @@ B. To accept a position with lower pay
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4621/vshow}{GSS Data Explorer page for \code{nounemp2}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3492 \tab 183 \tab 423 \tab 129 \tab 191 \tab 84 \tab 6 \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 149 \tab 362 \tab 128 \tab 209 \tab 82 \tab 3 \tab 7 \tab 2867 \cr
+   Total \tab 5419 \tab 332 \tab 785 \tab 257 \tab 400 \tab 166 \tab 9 \tab 9 \tab 7377 \cr
+}
 }
 
 \seealso{

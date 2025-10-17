@@ -22,17 +22,22 @@ Question (Or consider a person who believes that Black people are genetically in
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7437/vshow}{GSS Data Explorer page for \code{libracy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab remove \tab not remove \tab don't know \tab skipped on web \tab no answer \tab Total \cr
+   2021 \tab 2675 \tab 539 \tab 804 \tab 2 \tab 12 \tab - \tab 4032 \cr
+   2022 \tab 2367 \tab 480 \tab 669 \tab 20 \tab 5 \tab 3 \tab 3544 \cr
+   Total \tab 5042 \tab 1019 \tab 1473 \tab 22 \tab 17 \tab 3 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

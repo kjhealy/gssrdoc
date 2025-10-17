@@ -25,15 +25,21 @@ Question During the past 4 weeks, how much did pain interfere with your normal w
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2683/vshow}{GSS Data Explorer page for \code{pain}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab a little bit \tab moderately \tab quite a bit \tab extremely \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 848 \tab 282 \tab 114 \tab 107 \tab 57 \tab 11 \tab 2817 \cr
+   Total \tab 1398 \tab 848 \tab 282 \tab 114 \tab 107 \tab 57 \tab 11 \tab 2817 \cr
+}
 }
 
 \seealso{

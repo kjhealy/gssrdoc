@@ -20,15 +20,21 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1980 |-       |full         |
-#'  |1984 |-       |full         |
-#'  |1986 |-       |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |-       |1980, 1984, 1986 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `obeysy`](https://gssdataexplorer.norc.org/variables/495/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 most desirable |3 most desirable |not mentioned |3 least desirable |1 least desirable |no answer |Total |
+#'  |:-----|:----|:----------------|:----------------|:-------------|:-----------------|:-----------------|:---------|:-----|
+#'  |1980  |976  |90               |66               |303           |24                |4                 |5         |1468  |
+#'  |1984  |-    |223              |248              |889           |72                |6                 |35        |1473  |
+#'  |1986  |740  |152              |116              |414           |30                |4                 |14        |1470  |
+#'  |Total |1716 |465              |430              |1606          |126               |14                |54        |4411  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -61,15 +67,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1980 |-       |full         |
-#'  |1984 |-       |full         |
-#'  |1986 |-       |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |-       |1980, 1984, 1986 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `responsy`](https://gssdataexplorer.norc.org/variables/496/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 most desirable |3 most desirable |not mentioned |3 least desirable |1 least desirable |no answer |Total |
+#'  |:-----|:----|:----------------|:----------------|:-------------|:-----------------|:-----------------|:---------|:-----|
+#'  |1980  |976  |39               |112              |293           |35                |8                 |5         |1468  |
+#'  |1984  |-    |122              |361              |833           |108               |14                |35        |1473  |
+#'  |1986  |740  |53               |151              |453           |54                |5                 |14        |1470  |
+#'  |Total |1716 |214              |624              |1579          |197               |27                |54        |4411  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -102,15 +114,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1980 |-       |full         |
-#'  |1984 |-       |full         |
-#'  |1986 |-       |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |-       |1980, 1984, 1986 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `considey`](https://gssdataexplorer.norc.org/variables/497/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 most desirable |3 most desirable |not mentioned |3 least desirable |1 least desirable |no answer |Total |
+#'  |:-----|:----|:----------------|:----------------|:-------------|:-----------------|:-----------------|:---------|:-----|
+#'  |1980  |976  |32               |104              |311           |33                |7                 |5         |1468  |
+#'  |1984  |-    |117              |305              |909           |91                |16                |35        |1473  |
+#'  |1986  |740  |58               |209              |413           |31                |5                 |14        |1470  |
+#'  |Total |1716 |207              |618              |1633          |155               |28                |54        |4411  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -143,15 +161,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1980 |-       |full         |
-#'  |1984 |-       |full         |
-#'  |1986 |-       |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |-       |1980, 1984, 1986 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `interesy`](https://gssdataexplorer.norc.org/variables/498/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 most desirable |3 most desirable |not mentioned |3 least desirable |1 least desirable |no answer |Total |
+#'  |:-----|:----|:----------------|:----------------|:-------------|:-----------------|:-----------------|:---------|:-----|
+#'  |1980  |976  |14               |77               |225           |115               |56                |5         |1468  |
+#'  |1984  |-    |54               |233              |666           |355               |130               |35        |1473  |
+#'  |1986  |740  |37               |131              |310           |176               |62                |14        |1470  |
+#'  |Total |1716 |105              |441              |1201          |646               |248               |54        |4411  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -184,15 +208,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1980 |-       |full         |
-#'  |1984 |-       |full         |
-#'  |1986 |-       |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |-       |1980, 1984, 1986 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `studiouy`](https://gssdataexplorer.norc.org/variables/499/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 most desirable |3 most desirable |not mentioned |3 least desirable |1 least desirable |no answer |Total |
+#'  |:-----|:----|:----------------|:----------------|:-------------|:-----------------|:-----------------|:---------|:-----|
+#'  |1980  |976  |4                |26               |296           |128               |33                |5         |1468  |
+#'  |1984  |-    |27               |117              |866           |355               |73                |35        |1473  |
+#'  |1986  |740  |14               |118              |406           |151               |27                |14        |1470  |
+#'  |Total |1716 |45               |261              |1568          |634               |133               |54        |4411  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -223,13 +253,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1980 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1980  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mannersz`](https://gssdataexplorer.norc.org/variables/500/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |extremely impt |very impt |fairly impt |not too impt |no answer |Total |
+#'  |:-----|:---|:--------------|:---------|:-----------|:------------|:---------|:-----|
+#'  |1980  |985 |135            |261       |81          |3            |3         |1468  |
+#'  |Total |985 |135            |261       |81          |3            |3         |1468  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -260,13 +296,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1980 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1980  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `successz`](https://gssdataexplorer.norc.org/variables/501/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |extremely impt |very impt |fairly impt |not too impt |not at all impt |no answer |Total |
+#'  |:-----|:---|:--------------|:---------|:-----------|:------------|:---------------|:---------|:-----|
+#'  |1980  |985 |134            |245       |88          |10           |1               |5         |1468  |
+#'  |Total |985 |134            |245       |88          |10           |1               |5         |1468  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -297,13 +339,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1980 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1980  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `honestz`](https://gssdataexplorer.norc.org/variables/502/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |extremely impt |very impt |fairly impt |no answer |Total |
+#'  |:-----|:---|:--------------|:---------|:-----------|:---------|:-----|
+#'  |1980  |985 |314            |153       |11          |5         |1468  |
+#'  |Total |985 |314            |153       |11          |5         |1468  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -334,13 +382,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1980 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1980  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cleanz`](https://gssdataexplorer.norc.org/variables/503/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |extremely impt |very impt |fairly impt |not too impt |no answer |Total |
+#'  |:-----|:---|:--------------|:---------|:-----------|:------------|:---------|:-----|
+#'  |1980  |985 |112            |240       |112         |16           |3         |1468  |
+#'  |Total |985 |112            |240       |112         |16           |3         |1468  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -371,13 +425,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1980 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1980  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `judgmenz`](https://gssdataexplorer.norc.org/variables/504/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |extremely impt |very impt |fairly impt |not too impt |no answer |Total |
+#'  |:-----|:---|:--------------|:---------|:-----------|:------------|:---------|:-----|
+#'  |1980  |985 |192            |240       |44          |2            |5         |1468  |
+#'  |Total |985 |192            |240       |44          |2            |5         |1468  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

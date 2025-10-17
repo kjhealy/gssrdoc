@@ -25,15 +25,21 @@ Question How successful do you think the government in America is nowadays in re
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7508/vshow}{GSS Data Explorer page for \code{govineq2}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very successful \tab quite successful \tab neither successful nor unsuccessful \tab quite unsuccessful \tab very unsuccessful \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2029 \tab 13 \tab 46 \tab 490 \tab 648 \tab 515 \tab 135 \tab 145 \tab 11 \tab 4032 \cr
+   Total \tab 2029 \tab 13 \tab 46 \tab 490 \tab 648 \tab 515 \tab 135 \tab 145 \tab 11 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

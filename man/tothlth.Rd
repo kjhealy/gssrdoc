@@ -22,15 +22,21 @@ A. Health
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1945/vshow}{GSS Data Explorer page for \code{tothlth}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 100 \tab 1000 \tab 10000 \tab 102 \tab 12 \tab 120 \tab 1200 \tab 125 \tab 130 \tab 15 \tab 150 \tab 1500 \tab 160 \tab 165 \tab 20 \tab 200 \tab 2000 \tab 212 \tab 25 \tab 250 \tab 280 \tab 3 \tab 30 \tab 300 \tab 3000 \tab 35 \tab 4 \tab 40 \tab 400 \tab 45 \tab 5 \tab 50 \tab 500 \tab 550 \tab 60 \tab 600 \tab 650 \tab 70 \tab 75 \tab 900 \tab 99996 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2653 \tab 6 \tab 10 \tab 30 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 9 \tab 5 \tab 1 \tab 1 \tab 1 \tab 20 \tab 16 \tab 3 \tab 1 \tab 17 \tab 3 \tab 1 \tab 2 \tab 3 \tab 5 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 4 \tab 38 \tab 6 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 1 \tab 1 \tab 13 \tab 23 \tab 2904 \cr
+   Total \tab 2653 \tab 6 \tab 10 \tab 30 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 9 \tab 5 \tab 1 \tab 1 \tab 1 \tab 20 \tab 16 \tab 3 \tab 1 \tab 17 \tab 3 \tab 1 \tab 2 \tab 3 \tab 5 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 4 \tab 38 \tab 6 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 1 \tab 1 \tab 13 \tab 23 \tab 2904 \cr
+}
 }
 
 \seealso{

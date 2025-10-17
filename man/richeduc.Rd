@@ -26,16 +26,23 @@ B. Buy better education for their children than people with lower incomes?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   B/C/- \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4327/vshow}{GSS Data Explorer page for \code{richeduc}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very just, definitely right \tab somewhat just, right \tab neither just nor unjust, mixed feelings \tab somewhat unjust, wrong \tab very unjust, definitely wrong \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 1545 \tab 178 \tab 200 \tab 242 \tab 237 \tab 339 \tab 26 \tab 50 \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 119 \tab 241 \tab 422 \tab 404 \tab 583 \tab 70 \tab 146 \tab 18 \tab 4032 \cr
+   Total \tab 3574 \tab 297 \tab 441 \tab 664 \tab 641 \tab 922 \tab 96 \tab 196 \tab 18 \tab 6849 \cr
+}
 }
 
 \seealso{

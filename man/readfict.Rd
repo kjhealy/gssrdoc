@@ -23,16 +23,22 @@ A. Read novels, short stories, poems, or plays, other than those required by wor
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2129/vshow}{GSS Data Explorer page for \code{readfict}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1998 \tab 1387 \tab 968 \tab 466 \tab 11 \tab - \tab 2832 \cr
+   2002 \tab 1393 \tab 987 \tab 371 \tab 6 \tab 8 \tab 2765 \cr
+   Total \tab 2780 \tab 1955 \tab 837 \tab 17 \tab 8 \tab 5597 \cr
+}
 }
 
 \seealso{

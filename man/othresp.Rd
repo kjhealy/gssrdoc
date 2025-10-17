@@ -22,15 +22,21 @@ Question Think again about the situation that made you angry or annoyed. How res
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1784/vshow}{GSS Data Explorer page for \code{othresp}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab not at all responsible \tab 1 \tab completely responsible \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab Total \cr
+   1996 \tab 1908 \tab 43 \tab 12 \tab 458 \tab 16 \tab 17 \tab 22 \tab 78 \tab 43 \tab 81 \tab 114 \tab 82 \tab 30 \tab 2904 \cr
+   Total \tab 1908 \tab 43 \tab 12 \tab 458 \tab 16 \tab 17 \tab 22 \tab 78 \tab 43 \tab 81 \tab 114 \tab 82 \tab 30 \tab 2904 \cr
+}
 }
 
 \seealso{

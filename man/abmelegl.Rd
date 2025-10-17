@@ -23,15 +23,21 @@ Question Leaving aside what you think of abortion for those close to you, do you
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7173/vshow}{GSS Data Explorer page for \code{abmelegl}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab should \tab should not \tab it depends \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1296 \tab 423 \tab 134 \tab 464 \tab 9 \tab 22 \tab 2348 \cr
+   Total \tab 1296 \tab 423 \tab 134 \tab 464 \tab 9 \tab 22 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

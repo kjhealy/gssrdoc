@@ -24,15 +24,21 @@ A. First mention
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3074/vshow}{GSS Data Explorer page for \code{changed1}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 33 \tab 34 \tab 35 \tab 4 \tab 40 \tab 41 \tab 45 \tab 49 \tab 50 \tab 51 \tab 52 \tab 54 \tab 55 \tab 56 \tab 57 \tab 58 \tab 59 \tab 6 \tab 60 \tab 61 \tab 62 \tab 63 \tab 70 \tab 71 \tab 73 \tab 75 \tab 76 \tab 77 \tab 78 \tab 8 \tab 80 \tab 82 \tab 83 \tab 84 \tab 85 \tab 87 \tab 88 \tab 89 \tab 9 \tab 90 \tab 94 \tab 95 \tab no mention \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2163 \tab 129 \tab 4 \tab 1 \tab 9 \tab 3 \tab 1 \tab 4 \tab 6 \tab 3 \tab 2 \tab 5 \tab 2 \tab 9 \tab 4 \tab 22 \tab 9 \tab 4 \tab 2 \tab 5 \tab 1 \tab 5 \tab 27 \tab 12 \tab 3 \tab 5 \tab 10 \tab 36 \tab 31 \tab 1 \tab 1 \tab 5 \tab 4 \tab 2 \tab 5 \tab 1 \tab 2 \tab 1 \tab 9 \tab 24 \tab 36 \tab 1 \tab 6 \tab 4 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 2 \tab 10 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 8 \tab 6 \tab 2 \tab 18 \tab 85 \tab 1 \tab 34 \tab 2812 \cr
+   Total \tab 2163 \tab 129 \tab 4 \tab 1 \tab 9 \tab 3 \tab 1 \tab 4 \tab 6 \tab 3 \tab 2 \tab 5 \tab 2 \tab 9 \tab 4 \tab 22 \tab 9 \tab 4 \tab 2 \tab 5 \tab 1 \tab 5 \tab 27 \tab 12 \tab 3 \tab 5 \tab 10 \tab 36 \tab 31 \tab 1 \tab 1 \tab 5 \tab 4 \tab 2 \tab 5 \tab 1 \tab 2 \tab 1 \tab 9 \tab 24 \tab 36 \tab 1 \tab 6 \tab 4 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 2 \tab 10 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 8 \tab 6 \tab 2 \tab 18 \tab 85 \tab 1 \tab 34 \tab 2812 \cr
+}
 }
 
 \seealso{

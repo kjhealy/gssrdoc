@@ -31,27 +31,34 @@ A. Russia
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1974, 1975, 1977, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5490/vshow}{GSS Data Explorer page for \code{russia}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab not available in this year \tab +5 \tab +4 \tab +3 \tab +2 \tab +1 \tab -1 \tab -2 \tab -3 \tab -4 \tab -5 \tab dk, na, iap \tab iap \tab Total \cr
+   1974 \tab - \tab 42 \tab 47 \tab 180 \tab 153 \tab 254 \tab 157 \tab 75 \tab 122 \tab 54 \tab 327 \tab 73 \tab - \tab 1484 \cr
+   1975 \tab - \tab 39 \tab 38 \tab 182 \tab 152 \tab 240 \tab 156 \tab 78 \tab 125 \tab 68 \tab 308 \tab 104 \tab - \tab 1490 \cr
+   1977 \tab - \tab 31 \tab 21 \tab 123 \tab 102 \tab 204 \tab 181 \tab 81 \tab 133 \tab 81 \tab 458 \tab 115 \tab - \tab 1530 \cr
+   1982 \tab - \tab 46 \tab 21 \tab 89 \tab 79 \tab 182 \tab 196 \tab 103 \tab 167 \tab 110 \tab 754 \tab 113 \tab - \tab 1860 \cr
+   1983 \tab - \tab 11 \tab 15 \tab 56 \tab 73 \tab 188 \tab 197 \tab 118 \tab 203 \tab 117 \tab 550 \tab 71 \tab - \tab 1599 \cr
+   1985 \tab - \tab 24 \tab 17 \tab 52 \tab 67 \tab 175 \tab 175 \tab 116 \tab 171 \tab 101 \tab 552 \tab 84 \tab - \tab 1534 \cr
+   1986 \tab - \tab 19 \tab 17 \tab 102 \tab 107 \tab 229 \tab 193 \tab 103 \tab 165 \tab 83 \tab 387 \tab 65 \tab - \tab 1470 \cr
+   1988 \tab - \tab 27 \tab 22 \tab 87 \tab 101 \tab 199 \tab 102 \tab 52 \tab 88 \tab 39 \tab 213 \tab 551 \tab - \tab 1481 \cr
+   1989 \tab - \tab 40 \tab 42 \tab 111 \tab 123 \tab 209 \tab 103 \tab 64 \tab 64 \tab 31 \tab 164 \tab 586 \tab - \tab 1537 \cr
+   1990 \tab - \tab 57 \tab 40 \tab 136 \tab 132 \tab 212 \tab 90 \tab 35 \tab 36 \tab 20 \tab 109 \tab 505 \tab - \tab 1372 \cr
+   1991 \tab - \tab 57 \tab 51 \tab 162 \tab 143 \tab 225 \tab 87 \tab 48 \tab 48 \tab 36 \tab 98 \tab 562 \tab - \tab 1517 \cr
+   1993 \tab - \tab 74 \tab 43 \tab 159 \tab 141 \tab 299 \tab 86 \tab 49 \tab 43 \tab 25 \tab 95 \tab 592 \tab - \tab 1606 \cr
+   1994 \tab - \tab 38 \tab 24 \tab 64 \tab 80 \tab 121 \tab 38 \tab 28 \tab 25 \tab 12 \tab 42 \tab 2520 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 505 \tab 398 \tab 1503 \tab 1453 \tab 2737 \tab 1761 \tab 950 \tab 1390 \tab 777 \tab 4057 \tab 5941 \tab 0 \tab 21472 \cr
+}
 }
 
 \seealso{

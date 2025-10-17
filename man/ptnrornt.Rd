@@ -24,17 +24,22 @@ Question To the best of your knowledge, which of the following best describes ho
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7559/vshow}{GSS Data Explorer page for \code{ptnrornt}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab gay, lesbian, or homosexual \tab bisexual \tab heterosexual or straight \tab i have never had a sexual partner \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 1686 \tab 74 \tab 67 \tab 2020 \tab 60 \tab 68 \tab 7 \tab 50 \tab 4032 \cr
+   2022 \tab 1900 \tab 47 \tab 64 \tab 1330 \tab 54 \tab 86 \tab 12 \tab 51 \tab 3544 \cr
+   Total \tab 3586 \tab 121 \tab 131 \tab 3350 \tab 114 \tab 154 \tab 19 \tab 101 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

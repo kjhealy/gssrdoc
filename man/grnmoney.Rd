@@ -23,19 +23,26 @@ B. ...given money to an environmental group?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4775/vshow}{GSS Data Explorer page for \code{grnmoney}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, i have \tab no, i have not \tab no answer \tab can't choose \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 1003 \tab 412 \tab 142 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 350 \tab 959 \tab 75 \tab 2 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 269 \tab 910 \tab 96 \tab 1 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 258 \tab 1157 \tab 6 \tab 9 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 428 \tab 1386 \tab 196 \tab 3 \tab 16 \tab 4032 \cr
+   Total \tab 5813 \tab 2308 \tab 4824 \tab 515 \tab 15 \tab 16 \tab 13491 \cr
+}
 }
 
 \seealso{

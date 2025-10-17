@@ -26,18 +26,26 @@ D. Churches and religious organizations
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4642/vshow}{GSS Data Explorer page for \code{conchurh}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab complete confidence \tab a great deal of confidence \tab some confidence \tab very little confidence \tab no confidence at all \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 165 \tab 357 \tab 524 \tab 161 \tab 82 \tab 32 \tab 38 \tab 1517 \cr
+   1998 \tab 1548 \tab 115 \tab 409 \tab 482 \tab 134 \tab 64 \tab 41 \tab 39 \tab 2832 \cr
+   2008 \tab 658 \tab 90 \tab 293 \tab 679 \tab 177 \tab 107 \tab 13 \tab 6 \tab 2023 \cr
+   2018 \tab 1173 \tab 73 \tab 288 \tab 532 \tab 179 \tab 77 \tab 17 \tab 9 \tab 2348 \cr
+   Total \tab 3537 \tab 443 \tab 1347 \tab 2217 \tab 651 \tab 330 \tab 103 \tab 92 \tab 8720 \cr
+}
 }
 
 \seealso{

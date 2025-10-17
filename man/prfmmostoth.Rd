@@ -34,15 +34,21 @@ Question Of these factors, which one was the most important in your decision not
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6264/vshow}{GSS Data Explorer page for \code{prfmmostoth}}.
+
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab cost too much \tab programs or events were not of interest \tab too difficult to get there \tab could not find anyone to go with \tab could not find the time \tab did not want to go to that location \tab work conflict \tab ill, too tired \tab no childcare \tab sold out \tab forgot, didn't act in time \tab away, other conflict \tab taking care of family member \tab some other reason not shown \tab no answer \tab Total \cr
+   2016 \tab 2635 \tab 60 \tab 2 \tab 39 \tab 19 \tab 68 \tab 6 \tab 3 \tab 8 \tab 2 \tab 5 \tab 5 \tab 2 \tab 1 \tab 4 \tab 8 \tab 2867 \cr
+   Total \tab 2635 \tab 60 \tab 2 \tab 39 \tab 19 \tab 68 \tab 6 \tab 3 \tab 8 \tab 2 \tab 5 \tab 5 \tab 2 \tab 1 \tab 4 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

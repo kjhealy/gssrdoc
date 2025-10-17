@@ -25,15 +25,21 @@ C. People born in the U.S. losing their jobs?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2309/vshow}{GSS Data Explorer page for \code{immnojob}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 351 \tab 453 \tab 402 \tab 135 \tab 48 \tab 9 \tab 2817 \cr
+   Total \tab 1419 \tab 351 \tab 453 \tab 402 \tab 135 \tab 48 \tab 9 \tab 2817 \cr
+}
 }
 
 \seealso{

@@ -22,26 +22,33 @@ Question Have you ever, even once, taken any drugs by injection with a needle (l
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5070/vshow}{GSS Data Explorer page for \code{evidu}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 417 \tab 62 \tab 2265 \tab 1 \tab 72 \tab - \tab 2817 \cr
+   2002 \tab 476 \tab 57 \tab 2203 \tab - \tab 29 \tab - \tab 2765 \cr
+   2004 \tab 570 \tab 56 \tab 2168 \tab 3 \tab 15 \tab - \tab 2812 \cr
+   2006 \tab 2096 \tab 100 \tab 2292 \tab - \tab 22 \tab - \tab 4510 \cr
+   2008 \tab 240 \tab 62 \tab 1706 \tab 1 \tab 14 \tab - \tab 2023 \cr
+   2010 \tab 202 \tab 66 \tab 1752 \tab 2 \tab 22 \tab - \tab 2044 \cr
+   2012 \tab 238 \tab 42 \tab 1661 \tab 2 \tab 31 \tab - \tab 1974 \cr
+   2014 \tab 188 \tab 64 \tab 2247 \tab 1 \tab 38 \tab - \tab 2538 \cr
+   2016 \tab 1096 \tab 58 \tab 1694 \tab - \tab 19 \tab - \tab 2867 \cr
+   2018 \tab 942 \tab 41 \tab 1350 \tab - \tab 15 \tab - \tab 2348 \cr
+   2021 \tab 1708 \tab 61 \tab 2198 \tab 36 \tab 2 \tab 27 \tab 4032 \cr
+   2022 \tab 1900 \tab 44 \tab 1541 \tab 23 \tab 7 \tab 29 \tab 3544 \cr
+   Total \tab 10073 \tab 713 \tab 23077 \tab 69 \tab 286 \tab 56 \tab 34274 \cr
+}
 }
 
 \seealso{

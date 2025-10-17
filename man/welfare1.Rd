@@ -26,15 +26,21 @@ A. Makes people work less than they would if there wasn''t a welfare system.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5498/vshow}{GSS Data Explorer page for \code{welfare1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1986 \tab - \tab 481 \tab 753 \tab 191 \tab 27 \tab 17 \tab 1 \tab 1470 \cr
+   Total \tab 0 \tab 481 \tab 753 \tab 191 \tab 27 \tab 17 \tab 1 \tab 1470 \cr
+}
 }
 
 \seealso{

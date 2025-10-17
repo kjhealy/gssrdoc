@@ -23,15 +23,21 @@ Question E. Does the labor union meet in this area?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3244/vshow}{GSS Data Explorer page for \code{mtunion4}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no answer \tab Total \cr
+   2004 \tab 2804 \tab 1 \tab 7 \tab 2812 \cr
+   Total \tab 2804 \tab 1 \tab 7 \tab 2812 \cr
+}
 }
 
 \seealso{

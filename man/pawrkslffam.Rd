@@ -22,17 +22,22 @@ Question At this job, was he working for his own family business or family farm?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7429/vshow}{GSS Data Explorer page for \code{pawrkslffam}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab skipped on web \tab Total \cr
+   2021 \tab 541 \tab 660 \tab 2813 \tab 5 \tab 13 \tab 4032 \cr
+   2022 \tab 727 \tab 549 \tab 2229 \tab 37 \tab 2 \tab 3544 \cr
+   Total \tab 1268 \tab 1209 \tab 5042 \tab 42 \tab 15 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

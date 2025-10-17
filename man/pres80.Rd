@@ -30,19 +30,25 @@ Did you vote for Carter, Reagan, or Anderson?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
-   1985 \tab - \tab full \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984, 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/152/vshow}{GSS Data Explorer page for \code{pres80}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab carter \tab reagan \tab anderson \tab other \tab refused \tab didnt vote \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 674 \tab 632 \tab 442 \tab 70 \tab 4 \tab 17 \tab 5 \tab 13 \tab 3 \tab 1860 \cr
+   1983 \tab 531 \tab 482 \tab 470 \tab 71 \tab 4 \tab 12 \tab 3 \tab 20 \tab 6 \tab 1599 \cr
+   1984 \tab 519 \tab 418 \tab 419 \tab 67 \tab 7 \tab 12 \tab 2 \tab 19 \tab 10 \tab 1473 \cr
+   1985 \tab 513 \tab 469 \tab 472 \tab 46 \tab 6 \tab 11 \tab 3 \tab 12 \tab 2 \tab 1534 \cr
+   1987 \tab 671 \tab 634 \tab 415 \tab 54 \tab 4 \tab - \tab - \tab 18 \tab 23 \tab 1819 \cr
+   Total \tab 2908 \tab 2635 \tab 2218 \tab 308 \tab 25 \tab 52 \tab 13 \tab 82 \tab 44 \tab 8285 \cr
+}
 }
 
 \seealso{

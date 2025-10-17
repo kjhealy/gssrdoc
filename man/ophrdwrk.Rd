@@ -26,16 +26,23 @@ F. Hard work -- how important is that for getting ahead in life?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/- \tab full \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1987 \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4246/vshow}{GSS Data Explorer page for \code{ophrdwrk}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 570 \tab 814 \tab 137 \tab 21 \tab 5 \tab 2 \tab 15 \tab - \tab 1819 \cr
+   2021 \tab 2029 \tab 856 \tab 797 \tab 176 \tab 24 \tab 4 \tab 20 \tab 116 \tab 10 \tab 4032 \cr
+   Total \tab 2284 \tab 1426 \tab 1611 \tab 313 \tab 45 \tab 9 \tab 22 \tab 131 \tab 10 \tab 5851 \cr
+}
 }
 
 \seealso{

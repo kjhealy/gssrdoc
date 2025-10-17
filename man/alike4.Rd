@@ -24,15 +24,21 @@ D. In what way are an egg and a seed alike?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1470/vshow}{GSS Data Explorer page for \code{alike4}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab completely wrong \tab partially right \tab completely right \tab don't know \tab no answer \tab Total \cr
+   1994 \tab - \tab 828 \tab 1107 \tab 820 \tab 208 \tab 29 \tab 2992 \cr
+   Total \tab 0 \tab 828 \tab 1107 \tab 820 \tab 208 \tab 29 \tab 2992 \cr
+}
 }
 
 \seealso{

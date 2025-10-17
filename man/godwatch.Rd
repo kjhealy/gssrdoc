@@ -24,15 +24,21 @@ Question I believe in a God who watches over me.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2102/vshow}{GSS Data Explorer page for \code{godwatch}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 833 \tab 426 \tab 105 \tab 51 \tab 5 \tab 25 \tab 2832 \cr
+   Total \tab 1387 \tab 833 \tab 426 \tab 105 \tab 51 \tab 5 \tab 25 \tab 2832 \cr
+}
 }
 
 \seealso{

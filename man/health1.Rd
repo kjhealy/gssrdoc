@@ -25,22 +25,30 @@ Question Would you say that in general your health is Excellent, Very good, Good
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/C/- \tab partial \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
+   A/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2826/vshow}{GSS Data Explorer page for \code{health1}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 470 \tab 596 \tab 640 \tab 654 \tab 304 \tab 82 \tab 9 \tab 10 \tab - \tab 2765 \cr
+   2004 \tab 2296 \tab 143 \tab 145 \tab 137 \tab 63 \tab 27 \tab 1 \tab - \tab - \tab 2812 \cr
+   2006 \tab 2776 \tab 451 \tab 496 \tab 556 \tab 196 \tab 23 \tab 1 \tab 11 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 282 \tab 355 \tab 345 \tab 162 \tab 18 \tab 1 \tab 24 \tab - \tab 2044 \cr
+   2012 \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 1288 \tab 304 \tab 386 \tab 394 \tab 142 \tab 19 \tab 1 \tab 4 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 292 \tab 449 \tab 440 \tab 207 \tab 27 \tab 3 \tab 30 \tab - \tab 2348 \cr
+   2022 \tab 1556 \tab 329 \tab 584 \tab 708 \tab 311 \tab 33 \tab 4 \tab 5 \tab 14 \tab 3544 \cr
+   Total \tab 12117 \tab 2397 \tab 3055 \tab 3234 \tab 1385 \tab 229 \tab 20 \tab 84 \tab 14 \tab 22535 \cr
+}
 }
 
 \seealso{

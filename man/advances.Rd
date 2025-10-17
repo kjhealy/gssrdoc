@@ -25,15 +25,21 @@ Question Since your first full-time job with this organization, have you advance
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1306/vshow}{GSS Data Explorer page for \code{advances}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab advanced rapidly \tab steady advance \tab samelevel \tab lost some ground \tab 1st job with org \tab no answer \tab Total \cr
+   1991 \tab 605 \tab 80 \tab 314 \tab 397 \tab 23 \tab 64 \tab 34 \tab 1517 \cr
+   Total \tab 605 \tab 80 \tab 314 \tab 397 \tab 23 \tab 64 \tab 34 \tab 1517 \cr
+}
 }
 
 \seealso{

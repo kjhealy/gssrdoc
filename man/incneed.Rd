@@ -21,15 +21,21 @@ Question Living where you do now and meeting the expenses you consider necessary
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/575/vshow}{GSS Data Explorer page for \code{incneed}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 100 \tab 1000 \tab 10000 \tab 1100 \tab 1184 \tab 1199 \tab 1200 \tab 12000 \tab 125 \tab 1250 \tab 1300 \tab 1400 \tab 1410 \tab 150 \tab 1500 \tab 160 \tab 1600 \tab 163 \tab 1700 \tab 175 \tab 1750 \tab 1800 \tab 18000 \tab 1900 \tab 200 \tab 2000 \tab 202 \tab 2100 \tab 220 \tab 2200 \tab 2300 \tab 240 \tab 250 \tab 2500 \tab 25000 \tab 260 \tab 266 \tab 275 \tab 280 \tab 2800 \tab 284 \tab 290 \tab 299 \tab 30 \tab 300 \tab 3000 \tab 30000 \tab 325 \tab 330 \tab 335 \tab 342 \tab 350 \tab 3500 \tab 360 \tab 375 \tab 380 \tab 387 \tab 400 \tab 4000 \tab 407 \tab 420 \tab 4200 \tab 425 \tab 433 \tab 440 \tab 444 \tab 450 \tab 460 \tab 470 \tab 475 \tab 480 \tab 492 \tab 500 \tab 5000 \tab 514 \tab 550 \tab 575 \tab 597 \tab 600 \tab 6000 \tab 60000 \tab 625 \tab 650 \tab 658 \tab 675 \tab 680 \tab 700 \tab 720 \tab 750 \tab 756 \tab 775 \tab 790 \tab 800 \tab 833 \tab 834 \tab 840 \tab 850 \tab 900 \tab 911 \tab 950 \tab 999 \tab depends \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 8 \tab 261 \tab 1 \tab 20 \tab 1 \tab 1 \tab 95 \tab 1 \tab 2 \tab 2 \tab 18 \tab 24 \tab 1 \tab 1 \tab 86 \tab 1 \tab 16 \tab 1 \tab 1 \tab 1 \tab 1 \tab 14 \tab 1 \tab 1 \tab 33 \tab 66 \tab 1 \tab 2 \tab 1 \tab 3 \tab 2 \tab 1 \tab 12 \tab 20 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 59 \tab 8 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 11 \tab 4 \tab 1 \tab 4 \tab 2 \tab 1 \tab 95 \tab 7 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 14 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 126 \tab 4 \tab 1 \tab 14 \tab 1 \tab 1 \tab 135 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1 \tab 1 \tab 2 \tab 76 \tab 1 \tab 17 \tab 1 \tab 1 \tab 1 \tab 168 \tab 1 \tab 1 \tab 1 \tab 10 \tab 51 \tab 1 \tab 3 \tab 1 \tab 45 \tab 223 \tab 19 \tab 1860 \cr
+   Total \tab 0 \tab 8 \tab 261 \tab 1 \tab 20 \tab 1 \tab 1 \tab 95 \tab 1 \tab 2 \tab 2 \tab 18 \tab 24 \tab 1 \tab 1 \tab 86 \tab 1 \tab 16 \tab 1 \tab 1 \tab 1 \tab 1 \tab 14 \tab 1 \tab 1 \tab 33 \tab 66 \tab 1 \tab 2 \tab 1 \tab 3 \tab 2 \tab 1 \tab 12 \tab 20 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 59 \tab 8 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 11 \tab 4 \tab 1 \tab 4 \tab 2 \tab 1 \tab 95 \tab 7 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 14 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 126 \tab 4 \tab 1 \tab 14 \tab 1 \tab 1 \tab 135 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1 \tab 1 \tab 2 \tab 76 \tab 1 \tab 17 \tab 1 \tab 1 \tab 1 \tab 168 \tab 1 \tab 1 \tab 1 \tab 10 \tab 51 \tab 1 \tab 3 \tab 1 \tab 45 \tab 223 \tab 19 \tab 1860 \cr
+}
 }
 
 \seealso{

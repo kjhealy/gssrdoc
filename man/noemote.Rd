@@ -26,15 +26,21 @@ G. I keep my emotions to myself.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1731/vshow}{GSS Data Explorer page for \code{noemote}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2149 \tab 56 \tab 260 \tab 73 \tab 282 \tab 70 \tab 5 \tab 9 \tab 2904 \cr
+   Total \tab 2149 \tab 56 \tab 260 \tab 73 \tab 282 \tab 70 \tab 5 \tab 9 \tab 2904 \cr
+}
 }
 
 \seealso{

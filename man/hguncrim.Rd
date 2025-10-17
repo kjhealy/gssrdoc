@@ -23,15 +23,21 @@ Question Some people argue that more restrictions on handguns would decrease vio
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3058/vshow}{GSS Data Explorer page for \code{hguncrim}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab more restriction would decrease crime \tab more restriction would increase crime \tab unsure \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 1499 \tab 589 \tab 251 \tab 455 \tab 10 \tab 8 \tab 2812 \cr
+   Total \tab 1499 \tab 589 \tab 251 \tab 455 \tab 10 \tab 8 \tab 2812 \cr
+}
 }
 
 \seealso{

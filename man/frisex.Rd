@@ -23,15 +23,21 @@ C. Now thinking of your best friend, or the friend you feel closest to: Is this 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4165/vshow}{GSS Data Explorer page for \code{frisex}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab man \tab woman \tab no answer \tab Total \cr
+   1986 \tab 77 \tab 582 \tab 799 \tab 12 \tab 1470 \cr
+   Total \tab 77 \tab 582 \tab 799 \tab 12 \tab 1470 \cr
+}
 }
 
 \seealso{

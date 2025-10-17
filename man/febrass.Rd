@@ -22,15 +22,21 @@ Question C. As far as you know, are women in the armed forces now assigned to jo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/800/vshow}{GSS Data Explorer page for \code{febrass}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes, they are \tab no they arent \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 840 \tab 476 \tab 522 \tab 22 \tab 1860 \cr
+   Total \tab 0 \tab 840 \tab 476 \tab 522 \tab 22 \tab 1860 \cr
+}
 }
 
 \seealso{

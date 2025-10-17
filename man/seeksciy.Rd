@@ -33,15 +33,21 @@ PROBE: What would be your main source of information?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3505/vshow}{GSS Data Explorer page for \code{seeksciy}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab print newspapers \tab online newspapers \tab print magazines \tab online magazines \tab other places on the internet \tab books/other printed material \tab tv \tab radio \tab family \tab friends/colleagues \tab other \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 1386 \tab 19 \tab 45 \tab 15 \tab 32 \tab 297 \tab 111 \tab 93 \tab 8 \tab 9 \tab 7 \tab 15 \tab 4 \tab 3 \tab 2044 \cr
+   Total \tab 1386 \tab 19 \tab 45 \tab 15 \tab 32 \tab 297 \tab 111 \tab 93 \tab 8 \tab 9 \tab 7 \tab 15 \tab 4 \tab 3 \tab 2044 \cr
+}
 }
 
 \seealso{

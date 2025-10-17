@@ -25,16 +25,22 @@ A. Financial assets and liabilities
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5223/vshow}{GSS Data Explorer page for \code{chkfinan}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1444 \tab 693 \tab 420 \tab 174 \tab 123 \tab 48 \tab 2 \tab 2904 \cr
+   1998 \tab 1445 \tab 538 \tab 454 \tab 214 \tab 121 \tab 49 \tab 11 \tab 2832 \cr
+   Total \tab 2889 \tab 1231 \tab 874 \tab 388 \tab 244 \tab 97 \tab 13 \tab 5736 \cr
+}
 }
 
 \seealso{

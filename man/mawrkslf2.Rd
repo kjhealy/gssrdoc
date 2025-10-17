@@ -23,17 +23,22 @@ Question At this job, was your mother an employee, self-employed without employe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7430/vshow}{GSS Data Explorer page for \code{mawrkslf2}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab employee \tab self-employed without employees \tab self-employed with employees \tab no answer \tab Total \cr
+   2021 \tab 1233 \tab 2510 \tab 164 \tab 123 \tab 2 \tab 4032 \cr
+   2022 \tab 966 \tab 2316 \tab 171 \tab 90 \tab 1 \tab 3544 \cr
+   Total \tab 2199 \tab 4826 \tab 335 \tab 213 \tab 3 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

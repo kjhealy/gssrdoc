@@ -26,15 +26,21 @@ A. They improve the quality of care.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2193/vshow}{GSS Data Explorer page for \code{hmo1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly disagree \tab disagree \tab neither agree nor disagree \tab agree \tab strongly agree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 167 \tab 402 \tab 325 \tab 271 \tab 37 \tab 184 \tab 1 \tab 2832 \cr
+   Total \tab 1445 \tab 167 \tab 402 \tab 325 \tab 271 \tab 37 \tab 184 \tab 1 \tab 2832 \cr
+}
 }
 
 \seealso{

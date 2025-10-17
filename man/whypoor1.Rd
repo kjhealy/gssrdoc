@@ -24,15 +24,21 @@ A. Failure of society to provide good schools for many Americans
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1170/vshow}{GSS Data Explorer page for \code{whypoor1}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not important \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 486 \tab 527 \tab 323 \tab 30 \tab 6 \tab 1372 \cr
+   Total \tab 0 \tab 486 \tab 527 \tab 323 \tab 30 \tab 6 \tab 1372 \cr
+}
 }
 
 \seealso{

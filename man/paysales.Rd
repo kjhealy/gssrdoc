@@ -23,15 +23,21 @@ M. A salesclerk in a department store?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4275/vshow}{GSS Data Explorer page for \code{paysales}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 10400 \tab 11000 \tab 1200 \tab 12000 \tab 120000 \tab 12480 \tab 12500 \tab 125000 \tab 13000 \tab 14000 \tab 14400 \tab 15000 \tab 150000 \tab 16000 \tab 17000 \tab 17500 \tab 18000 \tab 18500 \tab 19000 \tab 19500 \tab $1 million (or more, for 1987 & 2000) \tab 2000 \tab 20000 \tab 21000 \tab 21500 \tab 2200 \tab 22000 \tab 23000 \tab 24000 \tab 25000 \tab 26000 \tab 27000 \tab 27500 \tab 28000 \tab 28500 \tab 300 \tab 3000 \tab 30000 \tab 35000 \tab 36000 \tab 3840 \tab 40000 \tab 45000 \tab 5000 \tab 50000 \tab 520 \tab 6000 \tab 60000 \tab 65000 \tab 7000 \tab 75000 \tab 8000 \tab 80000 \tab 9000 \tab 90000 \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1545 \tab 2 \tab 61 \tab 1 \tab 6 \tab 2 \tab 65 \tab 1 \tab 1 \tab 1 \tab 1 \tab 14 \tab 22 \tab 1 \tab 140 \tab 1 \tab 26 \tab 22 \tab 2 \tab 71 \tab 2 \tab 6 \tab 1 \tab 1 \tab 1 \tab 229 \tab 4 \tab 1 \tab 1 \tab 13 \tab 4 \tab 12 \tab 135 \tab 4 \tab 3 \tab 1 \tab 9 \tab 1 \tab 1 \tab 3 \tab 90 \tab 15 \tab 2 \tab 1 \tab 20 \tab 1 \tab 6 \tab 8 \tab 1 \tab 3 \tab 2 \tab 1 \tab 7 \tab 2 \tab 6 \tab 1 \tab 7 \tab 1 \tab 64 \tab 162 \tab 2817 \cr
+   Total \tab 1545 \tab 2 \tab 61 \tab 1 \tab 6 \tab 2 \tab 65 \tab 1 \tab 1 \tab 1 \tab 1 \tab 14 \tab 22 \tab 1 \tab 140 \tab 1 \tab 26 \tab 22 \tab 2 \tab 71 \tab 2 \tab 6 \tab 1 \tab 1 \tab 1 \tab 229 \tab 4 \tab 1 \tab 1 \tab 13 \tab 4 \tab 12 \tab 135 \tab 4 \tab 3 \tab 1 \tab 9 \tab 1 \tab 1 \tab 3 \tab 90 \tab 15 \tab 2 \tab 1 \tab 20 \tab 1 \tab 6 \tab 8 \tab 1 \tab 3 \tab 2 \tab 1 \tab 7 \tab 2 \tab 6 \tab 1 \tab 7 \tab 1 \tab 64 \tab 162 \tab 2817 \cr
+}
 }
 
 \seealso{

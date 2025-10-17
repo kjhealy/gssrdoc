@@ -21,17 +21,23 @@ Question During the past 30 days, about how many days did you miss work due to y
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2849/vshow}{GSS Data Explorer page for \code{misswork}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 16 \tab 2 \tab 20 \tab 21 \tab 3 \tab 30 \tab 4 \tab 5 \tab 7 \tab 8 \tab don't know \tab no answer \tab 6 \tab 13 \tab 17 \tab 18 \tab 25 \tab 9 \tab skipped on web \tab Total \cr
+   2014 \tab 1288 \tab 1064 \tab 70 \tab 5 \tab 1 \tab 3 \tab 1 \tab 1 \tab 45 \tab 1 \tab 1 \tab 19 \tab 5 \tab 10 \tab 11 \tab 6 \tab 1 \tab 1 \tab 5 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 1150 \tab 96 \tab 8 \tab - \tab 2 \tab 1 \tab - \tab 64 \tab 2 \tab 1 \tab 25 \tab 10 \tab 14 \tab 18 \tab 15 \tab 3 \tab 4 \tab 33 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 1557 \tab 1550 \tab 106 \tab 14 \tab - \tab 7 \tab 5 \tab 1 \tab 99 \tab 3 \tab - \tab 42 \tab 17 \tab 18 \tab 33 \tab 13 \tab 4 \tab 9 \tab 20 \tab 6 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 33 \tab 3544 \cr
+   Total \tab 3745 \tab 3764 \tab 272 \tab 27 \tab 1 \tab 12 \tab 7 \tab 2 \tab 208 \tab 6 \tab 2 \tab 86 \tab 32 \tab 42 \tab 62 \tab 34 \tab 8 \tab 14 \tab 58 \tab 8 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 33 \tab 8430 \cr
+}
 }
 
 \seealso{

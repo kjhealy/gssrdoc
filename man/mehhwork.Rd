@@ -26,15 +26,21 @@ A. Men ought to do a larger share of household work than they do now.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4427/vshow}{GSS Data Explorer page for \code{mehhwork}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2002 \tab 1594 \tab 250 \tab 482 \tab 311 \tab 105 \tab 22 \tab 1 \tab 2765 \cr
+   Total \tab 1594 \tab 250 \tab 482 \tab 311 \tab 105 \tab 22 \tab 1 \tab 2765 \cr
+}
 }
 
 \seealso{

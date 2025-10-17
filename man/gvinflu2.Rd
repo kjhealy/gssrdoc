@@ -33,15 +33,21 @@ And which do you think has the second most influence on the actions of the Ameri
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6309/vshow}{GSS Data Explorer page for \code{gvinflu2}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab the media \tab international organizations (e.g. united nations, international monetary fund) \tab 100 \tab can't choose \tab trade unions \tab businesses, banks and industry \tab religious organizations/authorities \tab the military/army \tab organized crime \tab people who vote for the party/parties in government \tab citizens in general \tab civic and voluntary organizations \tab no answer \tab Total \cr
+   2016 \tab 1477 \tab 186 \tab 140 \tab 164 \tab 29 \tab 111 \tab 212 \tab 35 \tab 95 \tab 20 \tab 224 \tab 145 \tab 13 \tab 16 \tab 2867 \cr
+   Total \tab 1477 \tab 186 \tab 140 \tab 164 \tab 29 \tab 111 \tab 212 \tab 35 \tab 95 \tab 20 \tab 224 \tab 145 \tab 13 \tab 16 \tab 2867 \cr
+}
 }
 
 \seealso{

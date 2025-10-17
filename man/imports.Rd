@@ -26,19 +26,26 @@ A. America should limit the import of foreign products in order to protect its n
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2021 \tab A/B/- \tab partial \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2021 \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4850/vshow}{GSS Data Explorer page for \code{imports}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 291 \tab 589 \tab 219 \tab 142 \tab 40 \tab 62 \tab 24 \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 271 \tab 453 \tab 253 \tab 180 \tab 23 \tab 35 \tab 1 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 231 \tab 490 \tab 258 \tab 209 \tab 32 \tab 50 \tab 4 \tab - \tab 2538 \cr
+   2021 \tab 2003 \tab 195 \tab 617 \tab 607 \tab 326 \tab 55 \tab 66 \tab 149 \tab 14 \tab 4032 \cr
+   Total \tab 6400 \tab 988 \tab 2149 \tab 1337 \tab 857 \tab 150 \tab 213 \tab 178 \tab 14 \tab 12286 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Question In general, would you say that the law now makes it easy or difficult f
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4386/vshow}{GSS Data Explorer page for \code{divnow}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 572 \tab 443 \tab 197 \tab 75 \tab 52 \tab 45 \tab 30 \tab 1481 \cr
+   Total \tab 67 \tab 572 \tab 443 \tab 197 \tab 75 \tab 52 \tab 45 \tab 30 \tab 1481 \cr
+}
 }
 
 \seealso{

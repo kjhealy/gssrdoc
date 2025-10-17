@@ -25,18 +25,24 @@ Question F. In 1988, you remember that Dukakis ran for President on the Democrat
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1990, 1991, 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/157/vshow}{GSS Data Explorer page for \code{vote88}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab voted \tab did not vote \tab not eligible \tab refused \tab don't know \tab no answer \tab Total \cr
+   1989 \tab - \tab 986 \tab 490 \tab 35 \tab 18 \tab 8 \tab - \tab 1537 \cr
+   1990 \tab - \tab 888 \tab 410 \tab 48 \tab 8 \tab 17 \tab 1 \tab 1372 \cr
+   1991 \tab - \tab 982 \tab 424 \tab 69 \tab 14 \tab 25 \tab 3 \tab 1517 \cr
+   1993 \tab - \tab 1007 \tab 441 \tab 117 \tab 5 \tab 30 \tab 6 \tab 1606 \cr
+   Total \tab 0 \tab 3863 \tab 1765 \tab 269 \tab 45 \tab 80 \tab 10 \tab 6032 \cr
+}
 }
 
 \seealso{

@@ -27,16 +27,23 @@ Question B. Considering all sources of income, between you and your spouse/partn
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4456/vshow}{GSS Data Explorer page for \code{earnshh}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab spouse has no income \tab i have much higher income \tab i have higher income \tab we have about the same income \tab spouse has a higher income \tab spouse partner has much higher income \tab i have no income \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2058 \tab 65 \tab 127 \tab 100 \tab 75 \tab 198 \tab 70 \tab 29 \tab 18 \tab 25 \tab 2765 \cr
+   2012 \tab 1274 \tab 58 \tab 112 \tab 142 \tab 55 \tab 236 \tab 54 \tab 34 \tab 2 \tab 7 \tab 1974 \cr
+   Total \tab 3332 \tab 123 \tab 239 \tab 242 \tab 130 \tab 434 \tab 124 \tab 63 \tab 20 \tab 32 \tab 4739 \cr
+}
 }
 
 \seealso{

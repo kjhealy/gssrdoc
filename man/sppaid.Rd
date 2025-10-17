@@ -24,15 +24,21 @@ A. During the time you were entitled to alimony or child support, did you receiv
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/630/vshow}{GSS Data Explorer page for \code{sppaid}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab regular basis \tab occasionally \tab not at all \tab no answer \tab Total \cr
+   1986 \tab 1316 \tab 57 \tab 29 \tab 36 \tab 32 \tab 1470 \cr
+   Total \tab 1316 \tab 57 \tab 29 \tab 36 \tab 32 \tab 1470 \cr
+}
 }
 
 \seealso{

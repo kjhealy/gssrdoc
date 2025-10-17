@@ -26,16 +26,22 @@ D. Human beings should respect nature because it was created by God.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4728/vshow}{GSS Data Explorer page for \code{resnatur}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 387 \tab 747 \tab 238 \tab 63 \tab 46 \tab 23 \tab 53 \tab 1606 \cr
+   1994 \tab 1606 \tab 362 \tab 663 \tab 196 \tab 64 \tab 35 \tab 24 \tab 42 \tab 2992 \cr
+   Total \tab 1655 \tab 749 \tab 1410 \tab 434 \tab 127 \tab 81 \tab 47 \tab 95 \tab 4598 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ G. Not knowing how to fill one's time
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4522/vshow}{GSS Data Explorer page for \code{unbored}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab worst \tab 2nd worst \tab 3rd worst \tab not chosen \tab don't know \tab no answer \tab Total \cr
+   1989 \tab 84 \tab 20 \tab 49 \tab 112 \tab 930 \tab 56 \tab 286 \tab 1537 \cr
+   Total \tab 84 \tab 20 \tab 49 \tab 112 \tab 930 \tab 56 \tab 286 \tab 1537 \cr
+}
 }
 
 \seealso{

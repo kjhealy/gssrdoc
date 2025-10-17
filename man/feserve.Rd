@@ -26,16 +26,22 @@ BELOW.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/778/vshow}{GSS Data Explorer page for \code{feserve}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly favor \tab probably favor \tab probably oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 480 \tab 641 \tab 375 \tab 274 \tab 61 \tab 29 \tab 1860 \cr
+   1984 \tab - \tab 338 \tab 554 \tab 316 \tab 217 \tab 28 \tab 20 \tab 1473 \cr
+   Total \tab 0 \tab 818 \tab 1195 \tab 691 \tab 491 \tab 89 \tab 49 \tab 3333 \cr
+}
 }
 
 \seealso{

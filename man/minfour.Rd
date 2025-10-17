@@ -21,15 +21,21 @@ Question People who have incomes below a certain level can be considered poor. T
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5202/vshow}{GSS Data Explorer page for \code{minfour}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 100 \tab 1000 \tab 110 \tab 1150 \tab 1200 \tab 125 \tab 130 \tab 140 \tab 150 \tab 1500 \tab 154 \tab 160 \tab 170 \tab 175 \tab 200 \tab 210 \tab 211 \tab 225 \tab 230 \tab 240 \tab 25 \tab 250 \tab 270 \tab 275 \tab 280 \tab 288 \tab 290 \tab 30 \tab 300 \tab 307 \tab 308 \tab 320 \tab 325 \tab 336 \tab 340 \tab 346 \tab 350 \tab 360 \tab 375 \tab 384 \tab 385 \tab 400 \tab 425 \tab 450 \tab 461 \tab 475 \tab 480 \tab 50 \tab 500 \tab 5000 \tab 550 \tab 576 \tab 60 \tab 600 \tab 625 \tab 650 \tab 673 \tab 700 \tab 7000 \tab 75 \tab 750 \tab 800 \tab 90 \tab 99 \tab no answer \tab Total \cr
+   1993 \tab - \tab 44 \tab 18 \tab 1 \tab 1 \tab 1 \tab 6 \tab 3 \tab 1 \tab 51 \tab 2 \tab 1 \tab 3 \tab 2 \tab 7 \tab 247 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 121 \tab 1 \tab 3 \tab 3 \tab 4 \tab 1 \tab 2 \tab 269 \tab 1 \tab 2 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 56 \tab 1 \tab 4 \tab 1 \tab 8 \tab 200 \tab 2 \tab 13 \tab 1 \tab 1 \tab 3 \tab 2 \tab 192 \tab 1 \tab 1 \tab 3 \tab 1 \tab 48 \tab 1 \tab 1 \tab 1 \tab 10 \tab 1 \tab 2 \tab 5 \tab 12 \tab 1 \tab 1 \tab 219 \tab 1606 \cr
+   Total \tab 0 \tab 44 \tab 18 \tab 1 \tab 1 \tab 1 \tab 6 \tab 3 \tab 1 \tab 51 \tab 2 \tab 1 \tab 3 \tab 2 \tab 7 \tab 247 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 121 \tab 1 \tab 3 \tab 3 \tab 4 \tab 1 \tab 2 \tab 269 \tab 1 \tab 2 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 56 \tab 1 \tab 4 \tab 1 \tab 8 \tab 200 \tab 2 \tab 13 \tab 1 \tab 1 \tab 3 \tab 2 \tab 192 \tab 1 \tab 1 \tab 3 \tab 1 \tab 48 \tab 1 \tab 1 \tab 1 \tab 10 \tab 1 \tab 2 \tab 5 \tab 12 \tab 1 \tab 1 \tab 219 \tab 1606 \cr
+}
 }
 
 \seealso{

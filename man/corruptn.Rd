@@ -25,17 +25,23 @@ Question How widespread do you think corruption is in the public service in Amer
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4959/vshow}{GSS Data Explorer page for \code{corruptn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab hardly anyone is involved \tab a small number of people are involved \tab a moderate number of people are involved \tab a lot of people are involved \tab almost everyone is involved \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 18 \tab 418 \tab 573 \tab 309 \tab 115 \tab 32 \tab 7 \tab 2812 \cr
+   2014 \tab 1274 \tab 9 \tab 270 \tab 449 \tab 353 \tab 98 \tab 79 \tab 6 \tab 2538 \cr
+   Total \tab 2614 \tab 27 \tab 688 \tab 1022 \tab 662 \tab 213 \tab 111 \tab 13 \tab 5350 \cr
+}
 }
 
 \seealso{

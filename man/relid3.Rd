@@ -27,15 +27,21 @@ Question D. Do you also consider yourself to be a member of (READ REMAINING GROU
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5328/vshow}{GSS Data Explorer page for \code{relid3}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab pentecostal \tab fundamentalist \tab evangelical \tab mainline \tab liberal \tab none \tab other (specify) \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2488 \tab 1 \tab 2 \tab 4 \tab 5 \tab 1 \tab 51 \tab 1 \tab 11 \tab 253 \tab 2817 \cr
+   Total \tab 2488 \tab 1 \tab 2 \tab 4 \tab 5 \tab 1 \tab 51 \tab 1 \tab 11 \tab 253 \tab 2817 \cr
+}
 }
 
 \seealso{

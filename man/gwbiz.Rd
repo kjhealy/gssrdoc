@@ -23,16 +23,23 @@ C. Business Leaders
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3357/vshow}{GSS Data Explorer page for \code{gwbiz}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very well \tab 2 \tab 3 \tab 4 \tab not at all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3582 \tab 35 \tab 77 \tab 273 \tab 280 \tab 225 \tab 35 \tab 3 \tab 4510 \cr
+   2010 \tab 1569 \tab 16 \tab 43 \tab 137 \tab 144 \tab 112 \tab 17 \tab 6 \tab 2044 \cr
+   Total \tab 5151 \tab 51 \tab 120 \tab 410 \tab 424 \tab 337 \tab 52 \tab 9 \tab 6554 \cr
+}
 }
 
 \seealso{

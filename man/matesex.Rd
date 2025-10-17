@@ -22,34 +22,41 @@ Question Was one of the partners your husband or wife or regular sexual partner?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5050/vshow}{GSS Data Explorer page for \code{matesex}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1988 \tab 409 \tab 973 \tab 88 \tab 11 \tab - \tab 1481 \cr
+   1989 \tab 444 \tab 988 \tab 90 \tab 15 \tab - \tab 1537 \cr
+   1990 \tab 429 \tab 845 \tab 75 \tab 23 \tab - \tab 1372 \cr
+   1991 \tab 511 \tab 884 \tab 84 \tab 38 \tab - \tab 1517 \cr
+   1993 \tab 427 \tab 1055 \tab 80 \tab 44 \tab - \tab 1606 \cr
+   1994 \tab 809 \tab 1918 \tab 185 \tab 80 \tab - \tab 2992 \cr
+   1996 \tab 756 \tab 1902 \tab 182 \tab 64 \tab - \tab 2904 \cr
+   1998 \tab 895 \tab 1699 \tab 186 \tab 52 \tab - \tab 2832 \cr
+   2000 \tab 938 \tab 1615 \tab 174 \tab 90 \tab - \tab 2817 \cr
+   2002 \tab 1000 \tab 1540 \tab 181 \tab 43 \tab 1 \tab 2765 \cr
+   2004 \tab 1013 \tab 1637 \tab 128 \tab 34 \tab - \tab 2812 \cr
+   2006 \tab 2693 \tab 1609 \tab 194 \tab 14 \tab - \tab 4510 \cr
+   2008 \tab 659 \tab 1200 \tab 143 \tab 20 \tab 1 \tab 2023 \cr
+   2010 \tab 632 \tab 1274 \tab 117 \tab 20 \tab 1 \tab 2044 \cr
+   2012 \tab 643 \tab 1193 \tab 106 \tab 32 \tab - \tab 1974 \cr
+   2014 \tab 727 \tab 1593 \tab 167 \tab 51 \tab - \tab 2538 \cr
+   2016 \tab 1506 \tab 1194 \tab 147 \tab 20 \tab - \tab 2867 \cr
+   2018 \tab 1301 \tab 931 \tab 101 \tab 15 \tab - \tab 2348 \cr
+   2021 \tab 2307 \tab 1567 \tab 130 \tab 20 \tab 8 \tab 4032 \cr
+   2022 \tab 2366 \tab 1003 \tab 111 \tab 41 \tab 23 \tab 3544 \cr
+   Total \tab 20465 \tab 26620 \tab 2669 \tab 727 \tab 34 \tab 50515 \cr
+}
 }
 
 \seealso{

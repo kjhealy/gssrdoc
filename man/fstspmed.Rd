@@ -22,15 +22,21 @@ CODE EXACT GRADE.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1480/vshow}{GSS Data Explorer page for \code{fstspmed}}.
+
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2387 \tab 5 \tab 5 \tab 3 \tab 138 \tab 3 \tab 13 \tab 2 \tab 14 \tab 3 \tab 2 \tab 1 \tab 1 \tab 6 \tab 5 \tab 2 \tab 1 \tab 2 \tab 29 \tab 2 \tab 311 \tab 57 \tab 2992 \cr
+   Total \tab 2387 \tab 5 \tab 5 \tab 3 \tab 138 \tab 3 \tab 13 \tab 2 \tab 14 \tab 3 \tab 2 \tab 1 \tab 1 \tab 6 \tab 5 \tab 2 \tab 1 \tab 2 \tab 29 \tab 2 \tab 311 \tab 57 \tab 2992 \cr
+}
 }
 
 \seealso{

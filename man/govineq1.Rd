@@ -25,15 +25,21 @@ Question To what extent do you agree or disagree with the following statement: M
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7507/vshow}{GSS Data Explorer page for \code{govineq1}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2029 \tab 593 \tab 692 \tab 338 \tab 103 \tab 23 \tab 94 \tab 145 \tab 15 \tab 4032 \cr
+   Total \tab 2029 \tab 593 \tab 692 \tab 338 \tab 103 \tab 23 \tab 94 \tab 145 \tab 15 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

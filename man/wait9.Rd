@@ -25,15 +25,21 @@ I. Not having lots of energy?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2707/vshow}{GSS Data Explorer page for \code{wait9}}.
+
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab iap \tab zero days \tab 1 \tab 10 \tab 12 \tab 14 \tab 2 \tab 24 \tab 3 \tab 30 \tab 4 \tab 5 \tab 6 \tab 7 \tab some days \tab some weeks \tab some months \tab no answer \tab Total \cr
+   2000 \tab 1987 \tab 15 \tab 231 \tab 2 \tab 1 \tab 1 \tab 157 \tab 1 \tab 35 \tab 2 \tab 15 \tab 5 \tab 8 \tab 4 \tab 22 \tab 44 \tab 26 \tab 261 \tab 2817 \cr
+   Total \tab 1987 \tab 15 \tab 231 \tab 2 \tab 1 \tab 1 \tab 157 \tab 1 \tab 35 \tab 2 \tab 15 \tab 5 \tab 8 \tab 4 \tab 22 \tab 44 \tab 26 \tab 261 \tab 2817 \cr
+}
 }
 
 \seealso{

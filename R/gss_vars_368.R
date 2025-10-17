@@ -13,19 +13,28 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `astrolgy`](https://gssdataexplorer.norc.org/variables/3323/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no   |don't know |no answer |Total |
+#'  |:-----|:----|:----|:----|:----------|:---------|:-----|
+#'  |2006  |2646 |1073 |789  |2          |-         |4510  |
+#'  |2008  |518  |811  |691  |1          |2         |2023  |
+#'  |2010  |1353 |367  |322  |-          |2         |2044  |
+#'  |2012  |972  |492  |504  |2          |4         |1974  |
+#'  |2014  |1299 |551  |687  |-          |1         |2538  |
+#'  |2016  |1477 |616  |770  |1          |3         |2867  |
+#'  |2018  |1173 |506  |666  |2          |1         |2348  |
+#'  |Total |9438 |4416 |4429 |8          |13        |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -52,19 +61,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `astrosci`](https://gssdataexplorer.norc.org/variables/3324/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very scientific |sort of scientific |not at all scientific |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:------------------|:---------------------|:----------|:---------|:-----|
+#'  |2006  |2646 |89              |494                |1210                  |71         |-         |4510  |
+#'  |2008  |518  |74              |434                |935                   |59         |3         |2023  |
+#'  |2010  |1353 |39              |192                |432                   |25         |3         |2044  |
+#'  |2012  |972  |101             |330                |522                   |42         |7         |1974  |
+#'  |2014  |1299 |82              |313                |818                   |23         |3         |2538  |
+#'  |2016  |1477 |109             |404                |835                   |38         |4         |2867  |
+#'  |2018  |1173 |77              |383                |680                   |32         |3         |2348  |
+#'  |Total |9438 |571             |2550               |5432                  |290        |23        |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -91,19 +109,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scibnfts`](https://gssdataexplorer.norc.org/variables/3325/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |benefits greater |about equal (if volunteered) |harmful results greater |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:----------------------------|:-----------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |1284             |328                          |129                     |122        |1         |-                          |4510  |
+#'  |2008  |518  |1015             |227                          |149                     |109        |5         |-                          |2023  |
+#'  |2010  |1353 |462              |107                          |55                      |60         |7         |-                          |2044  |
+#'  |2012  |972  |709              |112                          |87                      |84         |10        |-                          |1974  |
+#'  |2014  |1299 |834              |199                          |122                     |80         |4         |-                          |2538  |
+#'  |2016  |1477 |1007             |163                          |112                     |100        |8         |-                          |2867  |
+#'  |2018  |1173 |861              |124                          |117                     |64         |9         |-                          |2348  |
+#'  |Total |9438 |6172             |1260                         |771                     |619        |44        |0                          |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -130,20 +157,29 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
-#'  |2021 |B/C/-   |partial      |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/-   |2016, 2018             |
+#'  |A/B/C   |2008                   |
+#'  |A/C/-   |2010                   |
+#'  |B/C/-   |2006, 2012, 2014, 2021 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `balpos`](https://gssdataexplorer.norc.org/variables/3326/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |strongly in favor |slightly in favor |don't know |no answer |skipped on web |Total |
+#'  |:-----|:-----|:-----------------|:-----------------|:----------|:---------|:--------------|:-----|
+#'  |2006  |3225  |871               |390               |23         |1         |-              |4510  |
+#'  |2008  |1003  |618               |382               |15         |5         |-              |2023  |
+#'  |2010  |1575  |302               |144               |16         |7         |-              |2044  |
+#'  |2012  |1255  |505               |187               |16         |11        |-              |1974  |
+#'  |2014  |1703  |520               |303               |11         |1         |-              |2538  |
+#'  |2016  |1852  |621               |369               |17         |8         |-              |2867  |
+#'  |2018  |1478  |531               |320               |10         |9         |-              |2348  |
+#'  |2021  |2932  |824               |249               |3          |22        |2              |4032  |
+#'  |Total |15023 |4792              |2344              |111        |64        |2              |22336 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -170,20 +206,29 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
-#'  |2021 |B/C/-   |partial      |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/-   |2016, 2018             |
+#'  |A/B/C   |2008                   |
+#'  |A/C/-   |2010                   |
+#'  |B/C/-   |2006, 2012, 2014, 2021 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `balneg`](https://gssdataexplorer.norc.org/variables/3327/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |strongly in favor |slightly in favor |don't know |no answer |Total |
+#'  |:-----|:-----|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2006  |4380  |39                |87                |3          |1         |4510  |
+#'  |2008  |1869  |40                |105               |3          |6         |2023  |
+#'  |2010  |1982  |15                |40                |-          |7         |2044  |
+#'  |2012  |1877  |26                |60                |1          |10        |1974  |
+#'  |2014  |2415  |28                |92                |2          |1         |2538  |
+#'  |2016  |2747  |28                |83                |1          |8         |2867  |
+#'  |2018  |2222  |25                |89                |3          |9         |2348  |
+#'  |2021  |3947  |21                |42                |-          |22        |4032  |
+#'  |Total |21439 |222               |598               |13         |64        |22336 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -210,19 +255,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scistudy`](https://gssdataexplorer.norc.org/variables/3328/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |clear understanding |general sense |little understanding |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------|:-------------|:--------------------|:----------|:---------|:-----|
+#'  |2006  |2646 |550                 |932           |349                  |31         |2         |4510  |
+#'  |2008  |518  |424                 |749           |309                  |17         |6         |2023  |
+#'  |2010  |1328 |202                 |354           |140                  |12         |8         |2044  |
+#'  |2012  |972  |246                 |500           |228                  |22         |6         |1974  |
+#'  |2014  |1299 |338                 |626           |265                  |8          |2         |2538  |
+#'  |2016  |1477 |418                 |676           |271                  |18         |7         |2867  |
+#'  |2018  |1173 |330                 |597           |236                  |9          |3         |2348  |
+#'  |Total |9413 |2508                |4434          |1798                 |117        |34        |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -252,19 +306,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scitext`](https://gssdataexplorer.norc.org/variables/3329/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |formulation of theories, test hypotheses |do experiments, control group |rigorous, systematic comparison |measurement |classification |redundancies/incorrect |don't know |no answer |Total |
+#'  |:-----|:-----|:----------------------------------------|:-----------------------------|:-------------------------------|:-----------|:--------------|:----------------------|:----------|:---------|:-----|
+#'  |2006  |2995  |206                                      |165                           |93                              |292         |400            |218                    |127        |14        |4510  |
+#'  |2008  |849   |125                                      |112                           |82                              |197         |327            |215                    |93         |23        |2023  |
+#'  |2010  |1480  |57                                       |43                            |47                              |72          |176            |110                    |46         |13        |2044  |
+#'  |2012  |1222  |71                                       |58                            |37                              |76          |262            |164                    |65         |19        |1974  |
+#'  |2014  |1572  |105                                      |111                           |89                              |46          |358            |177                    |54         |26        |2538  |
+#'  |2016  |1766  |119                                      |114                           |78                              |116         |337            |232                    |80         |25        |2867  |
+#'  |2018  |1418  |117                                      |85                            |101                             |158         |262            |126                    |71         |10        |2348  |
+#'  |Total |11302 |800                                      |688                           |527                             |957         |2122           |1242                   |536        |130       |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -290,19 +353,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `expdesgn`](https://gssdataexplorer.norc.org/variables/3330/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |all 1000 get the drug |500 get the drug; 500 don't |don't know |no answer |Total |
+#'  |:-----|:----|:---------------------|:---------------------------|:----------|:---------|:-----|
+#'  |2006  |2646 |314                   |1476                        |70         |4         |4510  |
+#'  |2008  |518  |279                   |1115                        |93         |18        |2023  |
+#'  |2010  |1328 |99                    |571                         |36         |10        |2044  |
+#'  |2012  |972  |134                   |791                         |66         |11        |1974  |
+#'  |2014  |1299 |215                   |952                         |67         |5         |2538  |
+#'  |2016  |1477 |233                   |1098                        |49         |10        |2867  |
+#'  |2018  |1173 |222                   |903                         |39         |11        |2348  |
+#'  |Total |9413 |1496                  |6906                        |420        |69        |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -335,19 +407,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `exptext`](https://gssdataexplorer.norc.org/variables/3331/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |correct - control group |correct - vague reason |correct - wrong reason |correct - don't know |wrong - reservations about control group |wrong - reservations about sample |wrong - other reason |wrong - don't know |no answer to closed ended question |uncodeable |Total |
+#'  |:-----|:----|:-----------------------|:----------------------|:----------------------|:--------------------|:----------------------------------------|:---------------------------------|:--------------------|:------------------|:----------------------------------|:----------|:-----|
+#'  |2006  |2646 |300                     |450                    |682                    |35                   |27                                       |157                               |106                  |21                 |84                                 |2          |4510  |
+#'  |2008  |629  |199                     |362                    |513                    |14                   |37                                       |120                               |106                  |8                  |2                                  |33         |2023  |
+#'  |2010  |1364 |240                     |114                    |193                    |17                   |10                                       |62                                |21                   |6                  |17                                 |-          |2044  |
+#'  |2012  |1038 |154                     |144                    |460                    |33                   |23                                       |52                                |55                   |4                  |11                                 |-          |1974  |
+#'  |2014  |1366 |194                     |394                    |347                    |12                   |20                                       |93                                |86                   |2                  |24                                 |-          |2538  |
+#'  |2016  |1526 |264                     |428                    |364                    |34                   |36                                       |104                               |80                   |12                 |19                                 |-          |2867  |
+#'  |2018  |1212 |288                     |281                    |303                    |28                   |44                                       |104                               |57                   |17                 |14                                 |-          |2348  |
+#'  |Total |9781 |1639                    |2173                   |2862                   |173                  |197                                      |692                               |511                  |70                 |171                                |35         |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -374,19 +455,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/-   |2016, 2018       |
+#'  |A/B/C   |2008             |
+#'  |A/C/-   |2010             |
+#'  |B/C/-   |2006, 2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `odds1`](https://gssdataexplorer.norc.org/variables/3332/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2006  |2646 |169 |1596 |96         |3         |4510  |
+#'  |2008  |518  |156 |1228 |108        |13        |2023  |
+#'  |2010  |1328 |75  |585  |48         |8         |2044  |
+#'  |2012  |972  |90  |819  |84         |9         |1974  |
+#'  |2014  |1299 |126 |1021 |88         |4         |2538  |
+#'  |2016  |1477 |161 |1155 |63         |11        |2867  |
+#'  |2018  |1173 |132 |975  |63         |5         |2348  |
+#'  |Total |9413 |909 |7379 |550        |53        |18304 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes

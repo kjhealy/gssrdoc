@@ -23,16 +23,22 @@ If some people in your community suggested that a book this person wrote against
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7435/vshow}{GSS Data Explorer page for \code{libathy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab remove \tab not remove \tab skipped on web \tab don't know \tab no answer \tab Total \cr
+   2021 \tab 2675 \tab 199 \tab 1150 \tab 8 \tab - \tab - \tab 4032 \cr
+   2022 \tab 2367 \tab 208 \tab 945 \tab 2 \tab 19 \tab 3 \tab 3544 \cr
+   Total \tab 5042 \tab 407 \tab 2095 \tab 10 \tab 19 \tab 3 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

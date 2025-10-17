@@ -25,15 +25,21 @@ A. Only if differences in income are large enough is there an incentive for indi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1174/vshow}{GSS Data Explorer page for \code{socdif1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab disagree \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 79 \tab 632 \tab 454 \tab 61 \tab 141 \tab 5 \tab 1372 \cr
+   Total \tab 0 \tab 79 \tab 632 \tab 454 \tab 61 \tab 141 \tab 5 \tab 1372 \cr
+}
 }
 
 \seealso{

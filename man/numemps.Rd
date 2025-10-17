@@ -25,24 +25,31 @@ Question Are/were you self-employed or do/did you work for someone else?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3014/vshow}{GSS Data Explorer page for \code{numemps}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 25 \tab 26 \tab 28 \tab 3 \tab 30 \tab 34 \tab 4 \tab 40 \tab 45 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab 9 \tab 97 or more \tab no answer \tab 13 \tab 22 \tab 35 \tab 42 \tab 44 \tab 52 \tab 54 \tab 75 \tab 76 \tab 27 \tab 23 \tab 38 \tab 60 \tab don't know \tab 24 \tab 29 \tab 55 \tab 82 \tab 37 \tab 80 \tab 87 \tab 95 \tab 65 \tab skipped on web \tab 39 \tab 70 \tab Total \cr
+   2004 \tab 2467 \tab 209 \tab 19 \tab 4 \tab 2 \tab 3 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3 \tab 1 \tab 18 \tab 4 \tab 1 \tab 5 \tab 1 \tab 1 \tab 15 \tab 1 \tab 1 \tab 9 \tab 1 \tab 1 \tab 13 \tab 1 \tab 10 \tab 4 \tab 3 \tab 2 \tab 2 \tab 5 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 3999 \tab 317 \tab 34 \tab 7 \tab 1 \tab 1 \tab 3 \tab - \tab 1 \tab 1 \tab 1 \tab 2 \tab 35 \tab 3 \tab - \tab - \tab - \tab - \tab 17 \tab 1 \tab - \tab 19 \tab - \tab 1 \tab 22 \tab 2 \tab 15 \tab 6 \tab 7 \tab - \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 1796 \tab 143 \tab 21 \tab 2 \tab 1 \tab 2 \tab 1 \tab 4 \tab 2 \tab 1 \tab - \tab - \tab 11 \tab 2 \tab - \tab 1 \tab - \tab - \tab 10 \tab - \tab - \tab 7 \tab - \tab - \tab 6 \tab - \tab 4 \tab 3 \tab 2 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 1809 \tab 153 \tab 14 \tab 3 \tab 1 \tab 4 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 13 \tab 1 \tab - \tab 1 \tab - \tab - \tab 11 \tab 1 \tab - \tab 7 \tab 2 \tab - \tab 3 \tab 1 \tab 7 \tab 2 \tab 2 \tab 3 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1779 \tab 128 \tab 11 \tab 3 \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab 9 \tab 1 \tab - \tab - \tab - \tab 2 \tab 6 \tab 1 \tab - \tab 4 \tab - \tab 1 \tab 7 \tab - \tab 6 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2242 \tab 201 \tab 13 \tab 5 \tab - \tab 1 \tab 2 \tab 2 \tab 1 \tab - \tab 1 \tab - \tab 18 \tab 2 \tab 1 \tab - \tab - \tab - \tab 12 \tab 2 \tab - \tab 7 \tab - \tab 1 \tab 3 \tab 1 \tab 6 \tab 1 \tab 6 \tab - \tab 3 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 2 \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2570 \tab 201 \tab 20 \tab 3 \tab 1 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab 18 \tab 4 \tab - \tab 1 \tab 1 \tab 1 \tab 10 \tab 1 \tab - \tab 7 \tab - \tab - \tab 5 \tab 1 \tab 4 \tab 3 \tab - \tab 3 \tab 4 \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2114 \tab 149 \tab 16 \tab 3 \tab - \tab 3 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab 11 \tab 2 \tab - \tab 2 \tab - \tab - \tab 9 \tab - \tab 1 \tab 5 \tab - \tab - \tab 3 \tab 1 \tab 10 \tab 4 \tab 4 \tab 3 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 3601 \tab 293 \tab 17 \tab 8 \tab - \tab 2 \tab 1 \tab 3 \tab 1 \tab - \tab 2 \tab - \tab 21 \tab 4 \tab 1 \tab 1 \tab - \tab - \tab 14 \tab 1 \tab - \tab 6 \tab 3 \tab - \tab 12 \tab 2 \tab 10 \tab 5 \tab 5 \tab 3 \tab - \tab 3 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 2 \tab - \tab - \tab 1 \tab 7 \tab - \tab - \tab 4032 \cr
+   2022 \tab 3148 \tab 274 \tab 20 \tab 6 \tab - \tab 1 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab 12 \tab 5 \tab - \tab 1 \tab - \tab - \tab 11 \tab - \tab - \tab 12 \tab 1 \tab - \tab 11 \tab 1 \tab 4 \tab 2 \tab 10 \tab 2 \tab 4 \tab 2 \tab - \tab - \tab 3 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 5 \tab 1 \tab 1 \tab 3544 \cr
+   Total \tab 25525 \tab 2068 \tab 185 \tab 44 \tab 6 \tab 19 \tab 12 \tab 19 \tab 6 \tab 4 \tab 8 \tab 3 \tab 166 \tab 28 \tab 3 \tab 12 \tab 2 \tab 4 \tab 115 \tab 8 \tab 2 \tab 83 \tab 7 \tab 4 \tab 85 \tab 10 \tab 76 \tab 31 \tab 41 \tab 18 \tab 19 \tab 16 \tab 4 \tab 3 \tab 5 \tab 2 \tab 2 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 3 \tab 4 \tab 1 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 12 \tab 1 \tab 1 \tab 28692 \cr
+}
 }
 
 \seealso{

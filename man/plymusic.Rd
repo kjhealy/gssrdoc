@@ -23,17 +23,23 @@ N. Play a musical instrument like a piano, guitar, or violin.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1998, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1418/vshow}{GSS Data Explorer page for \code{plymusic}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 372 \tab 1218 \tab 1 \tab 15 \tab 1606 \cr
+   1998 \tab 1387 \tab 337 \tab 1095 \tab - \tab 13 \tab 2832 \cr
+   2002 \tab 1393 \tab 286 \tab 1072 \tab 8 \tab 6 \tab 2765 \cr
+   Total \tab 2780 \tab 995 \tab 3385 \tab 9 \tab 34 \tab 7203 \cr
+}
 }
 
 \seealso{

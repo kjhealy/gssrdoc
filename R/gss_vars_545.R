@@ -17,13 +17,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `big5e1`](https://gssdataexplorer.norc.org/variables/4978/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2006  |2992 |463            |688   |204                        |140      |15                |6            |2         |4510  |
+#'  |Total |2992 |463            |688   |204                        |140      |15                |6            |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -53,13 +59,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `big5a2`](https://gssdataexplorer.norc.org/variables/4979/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:---------|:-----|
+#'  |2006  |2992 |467            |707   |178                        |150      |14                |2         |4510  |
+#'  |Total |2992 |467            |707   |178                        |150      |14                |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -89,13 +101,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `big5b2`](https://gssdataexplorer.norc.org/variables/4980/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2006  |2992 |55             |283   |287                        |730      |160               |1            |2         |4510  |
+#'  |Total |2992 |55             |283   |287                        |730      |160               |1            |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -125,13 +143,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `big5c2`](https://gssdataexplorer.norc.org/variables/4981/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2006  |2992 |21             |101   |144                        |704      |545               |1            |2         |4510  |
+#'  |Total |2992 |21             |101   |144                        |704      |545               |1            |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -161,13 +185,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `big5d2`](https://gssdataexplorer.norc.org/variables/4982/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:---------|:-----|
+#'  |2006  |2992 |73             |325   |192                        |694      |232               |2         |4510  |
+#'  |Total |2992 |73             |325   |192                        |694      |232               |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -197,13 +227,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `big5e2`](https://gssdataexplorer.norc.org/variables/4983/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2006  |2992 |83             |423   |218                        |547      |241               |4            |2         |4510  |
+#'  |Total |2992 |83             |423   |218                        |547      |241               |4            |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -229,13 +265,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1989 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |1989  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `forbdcom`](https://gssdataexplorer.norc.org/variables/4984/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes forbid |no not forbid |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:-------------|:----------|:---------|:-----|
+#'  |1989  |1039 |164        |314           |14         |6         |1537  |
+#'  |Total |1039 |164        |314           |14         |6         |1537  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Civil Liberties
@@ -261,13 +303,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1989 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |1989  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `forbdrac`](https://gssdataexplorer.norc.org/variables/4985/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes forbid |no not forbid |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:-------------|:----------|:---------|:-----|
+#'  |1989  |1039 |189        |284           |18         |7         |1537  |
+#'  |Total |1039 |189        |284           |18         |7         |1537  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Civil Liberties
@@ -293,13 +341,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1989 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |1989  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `forbdmar`](https://gssdataexplorer.norc.org/variables/4986/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |forbid marriage |not forbid mar |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:--------------|:----------|:---------|:-----|
+#'  |1989  |1039 |88              |385            |18         |7         |1537  |
+#'  |Total |1039 |88              |385            |18         |7         |1537  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Civil Liberties
@@ -325,13 +379,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1989 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |1989  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `allowcom`](https://gssdataexplorer.norc.org/variables/4987/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes, allow |no, not allow |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:-------------|:----------|:---------|:-----|
+#'  |1989  |1029 |303        |161           |13         |31        |1537  |
+#'  |Total |1029 |303        |161           |13         |31        |1537  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Civil Liberties

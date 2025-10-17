@@ -26,19 +26,28 @@ G. Unemployment benefits.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4063/vshow}{GSS Data Explorer page for \code{spunemp}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 51 \tab 118 \tab 316 \tab 109 \tab 48 \tab 20 \tab 15 \tab 1534 \cr
+   1990 \tab 155 \tab 81 \tab 227 \tab 578 \tab 171 \tab 68 \tab 53 \tab 39 \tab 1372 \cr
+   1996 \tab 1572 \tab 91 \tab 266 \tab 631 \tab 204 \tab 68 \tab 34 \tab 38 \tab 2904 \cr
+   2006 \tab 2992 \tab 170 \tab 380 \tab 731 \tab 181 \tab 27 \tab 28 \tab 1 \tab 4510 \cr
+   2016 \tab 1477 \tab 97 \tab 325 \tab 639 \tab 257 \tab 41 \tab 20 \tab 11 \tab 2867 \cr
+   Total \tab 7053 \tab 490 \tab 1316 \tab 2895 \tab 922 \tab 252 \tab 155 \tab 104 \tab 13187 \cr
+}
 }
 
 \seealso{

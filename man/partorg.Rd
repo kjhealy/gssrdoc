@@ -26,15 +26,21 @@ Question C. In what way is the place part of the larger organization?  Is it...
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2143/vshow}{GSS Data Explorer page for \code{partorg}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab branch/subsdiary \tab org headquarters \tab governmnt agency \tab public sch sys \tab something else \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 2074 \tab 341 \tab 54 \tab 111 \tab 70 \tab 132 \tab 19 \tab 31 \tab 2832 \cr
+   Total \tab 2074 \tab 341 \tab 54 \tab 111 \tab 70 \tab 132 \tab 19 \tab 31 \tab 2832 \cr
+}
 }
 
 \seealso{

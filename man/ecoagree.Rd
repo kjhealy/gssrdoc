@@ -22,16 +22,23 @@ Question Please look at Card B11. On a scale of 1 to 5, where 1 means â€œNea
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3380/vshow}{GSS Data Explorer page for \code{ecoagree}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab near complete agreement \tab 2 \tab 3 \tab 4 \tab no agreement at all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3574 \tab 43 \tab 135 \tab 373 \tab 141 \tab 119 \tab 124 \tab 1 \tab 4510 \cr
+   2010 \tab 1578 \tab 21 \tab 61 \tab 188 \tab 68 \tab 68 \tab 52 \tab 8 \tab 2044 \cr
+   Total \tab 5152 \tab 64 \tab 196 \tab 561 \tab 209 \tab 187 \tab 176 \tab 9 \tab 6554 \cr
+}
 }
 
 \seealso{

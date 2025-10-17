@@ -25,15 +25,21 @@ B. Charitable activities (helping the sick, elderly, poor, etc.)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4692/vshow}{GSS Data Explorer page for \code{volwkchr}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab no \tab yes 1-2 times \tab yes 3-5 times \tab yes 6/more times \tab no answer \tab Total \cr
+   1998 \tab 1548 \tab 752 \tab 251 \tab 119 \tab 105 \tab 57 \tab 2832 \cr
+   Total \tab 1548 \tab 752 \tab 251 \tab 119 \tab 105 \tab 57 \tab 2832 \cr
+}
 }
 
 \seealso{

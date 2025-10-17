@@ -21,16 +21,23 @@ Question A. On average, how many hours a week do you spend looking after family 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
-   2022 \tab A/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/- \tab 2022 \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4483/vshow}{GSS Data Explorer page for \code{rfamlook}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 16 \tab 18 \tab 2 \tab 20 \tab 21 \tab 24 \tab 25 \tab 26 \tab 28 \tab 3 \tab 30 \tab 31 \tab 32 \tab 35 \tab 36 \tab 38 \tab 4 \tab 40 \tab 42 \tab 45 \tab 48 \tab 49 \tab 5 \tab 50 \tab 53 \tab 55 \tab 56 \tab 6 \tab 60 \tab 63 \tab 64 \tab 68 \tab 69 \tab 7 \tab 70 \tab 72 \tab 73 \tab 74 \tab 75 \tab 78 \tab 8 \tab 80 \tab 84 \tab 9 \tab 90 \tab 91 \tab 95 \tab 96 \tab 97 or more \tab no answer \tab 11 \tab 13 \tab 17 \tab 22 \tab 33 \tab 39 \tab 65 \tab 93 \tab 94 \tab don't know \tab skipped on web \tab Total \cr
+   2012 \tab 672 \tab 543 \tab 28 \tab 49 \tab 21 \tab 11 \tab 29 \tab 7 \tab 2 \tab 44 \tab 46 \tab 2 \tab 23 \tab 18 \tab 3 \tab 5 \tab 27 \tab 24 \tab 1 \tab 3 \tab 9 \tab 3 \tab 1 \tab 37 \tab 50 \tab 5 \tab 3 \tab 6 \tab 3 \tab 34 \tab 19 \tab 1 \tab 2 \tab 2 \tab 21 \tab 25 \tab 2 \tab 1 \tab 2 \tab 1 \tab 10 \tab 13 \tab 6 \tab 2 \tab 1 \tab 4 \tab 1 \tab 39 \tab 14 \tab 4 \tab 5 \tab 1 \tab 1 \tab 2 \tab 2 \tab 81 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2022 \tab 2385 \tab 518 \tab 28 \tab 31 \tab 15 \tab 12 \tab 15 \tab 1 \tab 2 \tab 67 \tab 42 \tab 4 \tab 23 \tab 13 \tab 1 \tab 2 \tab 28 \tab 17 \tab - \tab - \tab 8 \tab 3 \tab 1 \tab 26 \tab 28 \tab - \tab - \tab 4 \tab - \tab 39 \tab 9 \tab - \tab 1 \tab 7 \tab 27 \tab 15 \tab - \tab - \tab 1 \tab - \tab 12 \tab 4 \tab 4 \tab - \tab - \tab - \tab - \tab 31 \tab 11 \tab 2 \tab 3 \tab 2 \tab - \tab - \tab 2 \tab 40 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 24 \tab 23 \tab 3544 \cr
+   Total \tab 3057 \tab 1061 \tab 56 \tab 80 \tab 36 \tab 23 \tab 44 \tab 8 \tab 4 \tab 111 \tab 88 \tab 6 \tab 46 \tab 31 \tab 4 \tab 7 \tab 55 \tab 41 \tab 1 \tab 3 \tab 17 \tab 6 \tab 2 \tab 63 \tab 78 \tab 5 \tab 3 \tab 10 \tab 3 \tab 73 \tab 28 \tab 1 \tab 3 \tab 9 \tab 48 \tab 40 \tab 2 \tab 1 \tab 3 \tab 1 \tab 22 \tab 17 \tab 10 \tab 2 \tab 1 \tab 4 \tab 1 \tab 70 \tab 25 \tab 6 \tab 8 \tab 3 \tab 1 \tab 2 \tab 4 \tab 121 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 24 \tab 23 \tab 5518 \cr
+}
 }
 
 \seealso{

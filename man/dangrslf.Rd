@@ -23,18 +23,25 @@ D. Be admitted to a hospital for treatment if s/he is dangerous to him/herself.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2034/vshow}{GSS Data Explorer page for \code{dangrslf}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 1227 \tab 158 \tab 38 \tab 21 \tab 2904 \cr
+   2006 \tab 3073 \tab 1224 \tab 165 \tab 31 \tab 17 \tab 4510 \cr
+   2018 \tab 1175 \tab 1075 \tab 54 \tab 15 \tab 29 \tab 2348 \cr
+   Total \tab 5708 \tab 3526 \tab 377 \tab 84 \tab 67 \tab 9762 \cr
+}
 }
 
 \seealso{

@@ -26,16 +26,22 @@ E. Nature is really a fierce struggle for survival of the fittest.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4733/vshow}{GSS Data Explorer page for \code{naturwar}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 120 \tab 784 \tab 324 \tab 176 \tab 30 \tab 60 \tab 63 \tab 1606 \cr
+   1994 \tab 1606 \tab 133 \tab 693 \tab 254 \tab 154 \tab 26 \tab 88 \tab 38 \tab 2992 \cr
+   Total \tab 1655 \tab 253 \tab 1477 \tab 578 \tab 330 \tab 56 \tab 148 \tab 101 \tab 4598 \cr
+}
 }
 
 \seealso{

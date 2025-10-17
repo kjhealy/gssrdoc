@@ -29,32 +29,41 @@ B. No danger of being fired
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   2006 \tab D/- \tab partial \cr
-   2012 \tab A/B \tab partial \cr
-   2014 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/B \tab 2012, 2014 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/551/vshow}{GSS Data Explorer page for \code{jobsec}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab most impt \tab second \tab third \tab fourth \tab fifth \tab no answer \tab Total \cr
+   1973 \tab - \tab 100 \tab 210 \tab 290 \tab 438 \tab 424 \tab 42 \tab 1504 \cr
+   1974 \tab - \tab 111 \tab 159 \tab 286 \tab 417 \tab 481 \tab 30 \tab 1484 \cr
+   1976 \tab - \tab 111 \tab 214 \tab 290 \tab 458 \tab 376 \tab 50 \tab 1499 \cr
+   1977 \tab - \tab 119 \tab 208 \tab 324 \tab 467 \tab 362 \tab 50 \tab 1530 \cr
+   1980 \tab - \tab 87 \tab 170 \tab 241 \tab 486 \tab 452 \tab 32 \tab 1468 \cr
+   1982 \tab 937 \tab 93 \tab 175 \tab 203 \tab 242 \tab 169 \tab 41 \tab 1860 \cr
+   1984 \tab - \tab 109 \tab 192 \tab 288 \tab 512 \tab 340 \tab 32 \tab 1473 \cr
+   1985 \tab - \tab 109 \tab 168 \tab 308 \tab 528 \tab 387 \tab 34 \tab 1534 \cr
+   1987 \tab - \tab 120 \tab 221 \tab 366 \tab 587 \tab 478 \tab 47 \tab 1819 \cr
+   1988 \tab 504 \tab 62 \tab 131 \tab 190 \tab 299 \tab 264 \tab 31 \tab 1481 \cr
+   1989 \tab 504 \tab 49 \tab 116 \tab 206 \tab 342 \tab 267 \tab 53 \tab 1537 \cr
+   1990 \tab 455 \tab 55 \tab 106 \tab 195 \tab 288 \tab 236 \tab 37 \tab 1372 \cr
+   1991 \tab 524 \tab 53 \tab 120 \tab 218 \tab 303 \tab 251 \tab 48 \tab 1517 \cr
+   1993 \tab 531 \tab 91 \tab 146 \tab 210 \tab 348 \tab 242 \tab 38 \tab 1606 \cr
+   1994 \tab 2508 \tab 39 \tab 71 \tab 103 \tab 152 \tab 98 \tab 21 \tab 2992 \cr
+   2006 \tab 2992 \tab 170 \tab 225 \tab 288 \tab 403 \tab 412 \tab 20 \tab 4510 \cr
+   2012 \tab 1002 \tab 81 \tab 149 \tab 209 \tab 275 \tab 232 \tab 26 \tab 1974 \cr
+   2014 \tab 1288 \tab 103 \tab 215 \tab 255 \tab 355 \tab 306 \tab 16 \tab 2538 \cr
+   Total \tab 11245 \tab 1662 \tab 2996 \tab 4470 \tab 6900 \tab 5777 \tab 648 \tab 33698 \cr
+}
 }
 
 \seealso{

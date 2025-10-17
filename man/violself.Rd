@@ -24,16 +24,22 @@ Question B. How likely in your opinion is it (John/Mary) would do something viol
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   A/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2956/vshow}{GSS Data Explorer page for \code{violself}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1372 \tab 167 \tab 323 \tab 515 \tab 324 \tab 52 \tab 12 \tab 2765 \cr
+   Total \tab 1372 \tab 167 \tab 323 \tab 515 \tab 324 \tab 52 \tab 12 \tab 2765 \cr
+}
 }
 
 \seealso{

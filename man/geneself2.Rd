@@ -22,15 +22,21 @@ Question Today, tests are being developed that make it possible to detect seriou
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7295/vshow}{GSS Data Explorer page for \code{geneself2}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1168 \tab 740 \tab 389 \tab 21 \tab 30 \tab 2348 \cr
+   Total \tab 1168 \tab 740 \tab 389 \tab 21 \tab 30 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

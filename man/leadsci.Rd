@@ -25,15 +25,21 @@ F. Government decision makers should pay attention only to those scientific theo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3321/vshow}{GSS Data Explorer page for \code{leadsci}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 122 \tab 734 \tab 784 \tab 110 \tab 110 \tab 4 \tab 4510 \cr
+   Total \tab 2646 \tab 122 \tab 734 \tab 784 \tab 110 \tab 110 \tab 4 \tab 4510 \cr
+}
 }
 
 \seealso{

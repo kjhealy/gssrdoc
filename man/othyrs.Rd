@@ -21,15 +21,21 @@ Question B. How many years in total (at those parts) have you worked?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2142/vshow}{GSS Data Explorer page for \code{othyrs}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 28 \tab 29 \tab 3 \tab 30 \tab 32 \tab 34 \tab 36 \tab 37 \tab 4 \tab 40 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab Total \cr
+   1998 \tab 2614 \tab 28 \tab 21 \tab 9 \tab 5 \tab 3 \tab 6 \tab 4 \tab 2 \tab 1 \tab 1 \tab 2 \tab 15 \tab 4 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 19 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1 \tab 19 \tab 8 \tab 3 \tab 9 \tab 4 \tab 29 \tab 2832 \cr
+   Total \tab 2614 \tab 28 \tab 21 \tab 9 \tab 5 \tab 3 \tab 6 \tab 4 \tab 2 \tab 1 \tab 1 \tab 2 \tab 15 \tab 4 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 19 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1 \tab 19 \tab 8 \tab 3 \tab 9 \tab 4 \tab 29 \tab 2832 \cr
+}
 }
 
 \seealso{

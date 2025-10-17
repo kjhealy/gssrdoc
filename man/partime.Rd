@@ -25,15 +25,21 @@ G. Parents today don''t spend enough time with their children.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5099/vshow}{GSS Data Explorer page for \code{partime}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 270 \tab 840 \tab 168 \tab 32 \tab 43 \tab 19 \tab 1372 \cr
+   Total \tab 0 \tab 270 \tab 840 \tab 168 \tab 32 \tab 43 \tab 19 \tab 1372 \cr
+}
 }
 
 \seealso{

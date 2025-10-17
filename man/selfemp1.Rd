@@ -26,15 +26,21 @@ A. Employees have more job security than the self-employed
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4606/vshow}{GSS Data Explorer page for \code{selfemp1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 236 \tab 549 \tab 343 \tab 309 \tab 58 \tab 20 \tab 3 \tab 4510 \cr
+   Total \tab 2992 \tab 236 \tab 549 \tab 343 \tab 309 \tab 58 \tab 20 \tab 3 \tab 4510 \cr
+}
 }
 
 \seealso{

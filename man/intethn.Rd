@@ -25,23 +25,30 @@ Question B. Race/ethnicity of interviewer
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5565/vshow}{GSS Data Explorer page for \code{intethn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab white \tab black \tab hispanic \tab asian \tab no answer \tab two or more races \tab not available in this release \tab Total \cr
+   2004 \tab - \tab 2255 \tab 387 \tab 74 \tab 26 \tab 70 \tab - \tab - \tab 2812 \cr
+   2006 \tab - \tab 3233 \tab 528 \tab 334 \tab 128 \tab 287 \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 1522 \tab 249 \tab 193 \tab 7 \tab 4 \tab 48 \tab - \tab 2023 \cr
+   2010 \tab - \tab 1380 \tab 297 \tab 147 \tab 23 \tab 83 \tab 114 \tab - \tab 2044 \cr
+   2012 \tab - \tab 1458 \tab 245 \tab 90 \tab - \tab 2 \tab 179 \tab - \tab 1974 \cr
+   2014 \tab - \tab 1986 \tab 248 \tab 234 \tab 35 \tab - \tab 35 \tab - \tab 2538 \cr
+   2016 \tab - \tab 1792 \tab 451 \tab 368 \tab 11 \tab - \tab 245 \tab - \tab 2867 \cr
+   2018 \tab - \tab 1770 \tab 293 \tab 183 \tab 13 \tab - \tab 89 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   Total \tab 0 \tab 15396 \tab 2698 \tab 1623 \tab 243 \tab 446 \tab 710 \tab 4032 \tab 25148 \cr
+}
 }
 
 \seealso{

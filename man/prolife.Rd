@@ -25,15 +25,21 @@ Question I consider myself pro-life.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7543/vshow}{GSS Data Explorer page for \code{prolife}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 424 \tab 660 \tab 791 \tab 941 \tab 574 \tab 571 \tab 7 \tab 6 \tab 58 \tab 4032 \cr
+   Total \tab 424 \tab 660 \tab 791 \tab 941 \tab 574 \tab 571 \tab 7 \tab 6 \tab 58 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

@@ -24,15 +24,21 @@ Question C. How well do you speak that language?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2303/vshow}{GSS Data Explorer page for \code{spklangw}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very well \tab well \tab not well \tab poorly/hardly at all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 4320 \tab 37 \tab 44 \tab 57 \tab 40 \tab 8 \tab 4 \tab 4510 \cr
+   Total \tab 4320 \tab 37 \tab 44 \tab 57 \tab 40 \tab 8 \tab 4 \tab 4510 \cr
+}
 }
 
 \seealso{

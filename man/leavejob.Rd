@@ -24,17 +24,25 @@ Question All in all, how likely is it that you will try to find a job with anoth
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4591/vshow}{GSS Data Explorer page for \code{leavejob}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab likely \tab unlikely \tab very unlikely \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1967 \tab 115 \tab 134 \tab 201 \tab 354 \tab 26 \tab 35 \tab 2832 \cr
+   2006 \tab 3492 \tab 152 \tab 153 \tab 267 \tab 436 \tab 6 \tab 4 \tab 4510 \cr
+   2016 \tab 1927 \tab 152 \tab 127 \tab 269 \tab 384 \tab 3 \tab 5 \tab 2867 \cr
+   Total \tab 7386 \tab 419 \tab 414 \tab 737 \tab 1174 \tab 35 \tab 44 \tab 10209 \cr
+}
 }
 
 \seealso{

@@ -21,21 +21,30 @@ Question How many college-level science courses have you taken?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3350/vshow}{GSS Data Explorer page for \code{colscinm}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 16 \tab 17 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 3 \tab 30 \tab 35 \tab 4 \tab 40 \tab 5 \tab 50 \tab 52 \tab 6 \tab 7 \tab 8 \tab 9 \tab 90 \tab don't know \tab no answer \tab 28 \tab 32 \tab 36 \tab 45 \tab 65 \tab 11 \tab 18 \tab 42 \tab 80 \tab 41 \tab 13 \tab 60 \tab 70 \tab 72 \tab 31 \tab 44 \tab 48 \tab Total \cr
+   2006 \tab 3692 \tab 148 \tab 35 \tab 28 \tab 4 \tab 11 \tab 6 \tab 1 \tab 176 \tab 20 \tab 2 \tab 1 \tab 1 \tab 2 \tab 6 \tab 98 \tab 17 \tab 3 \tab 89 \tab 8 \tab 47 \tab 1 \tab 1 \tab 33 \tab 6 \tab 19 \tab 6 \tab 1 \tab 43 \tab 5 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 1455 \tab 84 \tab 16 \tab 16 \tab 1 \tab 6 \tab 2 \tab - \tab 121 \tab 12 \tab 1 \tab - \tab 1 \tab 2 \tab 5 \tab 81 \tab 7 \tab - \tab 67 \tab 3 \tab 36 \tab 7 \tab - \tab 28 \tab 12 \tab 16 \tab 2 \tab - \tab 35 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 1707 \tab 64 \tab 10 \tab 7 \tab 1 \tab 5 \tab - \tab 1 \tab 72 \tab 12 \tab - \tab - \tab - \tab - \tab 5 \tab 43 \tab 3 \tab - \tab 28 \tab 3 \tab 20 \tab 4 \tab - \tab 20 \tab 3 \tab 8 \tab 1 \tab - \tab 13 \tab 7 \tab - \tab - \tab 1 \tab - \tab - \tab 2 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1556 \tab 79 \tab 16 \tab 8 \tab - \tab 10 \tab 3 \tab - \tab 85 \tab 14 \tab - \tab - \tab - \tab 2 \tab 5 \tab 55 \tab 9 \tab 3 \tab 41 \tab 5 \tab 23 \tab 5 \tab - \tab 17 \tab 5 \tab 11 \tab 2 \tab - \tab 15 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2037 \tab 88 \tab 17 \tab 11 \tab - \tab 6 \tab 1 \tab - \tab 122 \tab 17 \tab - \tab - \tab - \tab - \tab 4 \tab 78 \tab 6 \tab 1 \tab 49 \tab 2 \tab 32 \tab 2 \tab - \tab 15 \tab 5 \tab 11 \tab 1 \tab - \tab 20 \tab 2 \tab - \tab - \tab 2 \tab 1 \tab - \tab 1 \tab 3 \tab - \tab - \tab - \tab 2 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2289 \tab 92 \tab 18 \tab 9 \tab 4 \tab 8 \tab 1 \tab - \tab 131 \tab 22 \tab - \tab 1 \tab - \tab 1 \tab 5 \tab 90 \tab 13 \tab 2 \tab 62 \tab 1 \tab 27 \tab 1 \tab - \tab 22 \tab 7 \tab 13 \tab 2 \tab - \tab 30 \tab 10 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 3 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 1831 \tab 90 \tab 24 \tab 9 \tab - \tab 10 \tab 1 \tab - \tab 104 \tab 15 \tab - \tab - \tab - \tab - \tab 3 \tab 86 \tab 14 \tab 1 \tab 53 \tab 5 \tab 26 \tab 5 \tab - \tab 18 \tab 8 \tab 10 \tab 4 \tab - \tab 22 \tab 5 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 2348 \cr
+   Total \tab 14567 \tab 645 \tab 136 \tab 88 \tab 10 \tab 56 \tab 14 \tab 2 \tab 811 \tab 112 \tab 3 \tab 2 \tab 2 \tab 7 \tab 33 \tab 531 \tab 69 \tab 10 \tab 389 \tab 27 \tab 211 \tab 25 \tab 1 \tab 153 \tab 46 \tab 88 \tab 18 \tab 1 \tab 178 \tab 34 \tab 1 \tab 3 \tab 4 \tab 3 \tab 1 \tab 3 \tab 7 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 18304 \cr
+}
 }
 
 \seealso{

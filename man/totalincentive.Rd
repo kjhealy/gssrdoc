@@ -21,15 +21,21 @@ Question TOTAL INCENTIVE FOR CASE, INCLUDING PRE- AND POST- INCENTIVE FOR BASELI
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7976/vshow}{GSS Data Explorer page for \code{totalincentive}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 102 \tab 104 \tab 107 \tab 109 \tab 112 \tab 117 \tab 119 \tab 122 \tab 127 \tab 132 \tab 134 \tab 137 \tab 142 \tab 144 \tab 147 \tab 152 \tab 157 \tab 159 \tab 162 \tab 167 \tab 169 \tab 177 \tab 182 \tab 187 \tab $200+ in total payments \tab 52 \tab 54 \tab 57 \tab 59 \tab 62 \tab 67 \tab 69 \tab 72 \tab 77 \tab 82 \tab 84 \tab 87 \tab 92 \tab 94 \tab 97 \tab Total \cr
+   2022 \tab - \tab 440 \tab 2 \tab 98 \tab 96 \tab 94 \tab 8 \tab 13 \tab 109 \tab 303 \tab 30 \tab 32 \tab 267 \tab 5 \tab 27 \tab 58 \tab 97 \tab 41 \tab 1 \tab 46 \tab 5 \tab 1 \tab 46 \tab 7 \tab 5 \tab 824 \tab 233 \tab 2 \tab 15 \tab 86 \tab 57 \tab 4 \tab 11 \tab 19 \tab 103 \tab 6 \tab 15 \tab 298 \tab 5 \tab 28 \tab 7 \tab 3544 \cr
+   Total \tab 0 \tab 440 \tab 2 \tab 98 \tab 96 \tab 94 \tab 8 \tab 13 \tab 109 \tab 303 \tab 30 \tab 32 \tab 267 \tab 5 \tab 27 \tab 58 \tab 97 \tab 41 \tab 1 \tab 46 \tab 5 \tab 1 \tab 46 \tab 7 \tab 5 \tab 824 \tab 233 \tab 2 \tab 15 \tab 86 \tab 57 \tab 4 \tab 11 \tab 19 \tab 103 \tab 6 \tab 15 \tab 298 \tab 5 \tab 28 \tab 7 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

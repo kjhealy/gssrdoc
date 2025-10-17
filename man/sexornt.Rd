@@ -23,23 +23,29 @@ Question Which of the following best describes you?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2010, 2012, 2014, 2024 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5081/vshow}{GSS Data Explorer page for \code{sexornt}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab gay, lesbian, or homosexual \tab bisexual \tab heterosexual or straight \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2008 \tab 236 \tab 33 \tab 27 \tab 1699 \tab 7 \tab 21 \tab - \tab 2023 \cr
+   2010 \tab 202 \tab 27 \tab 31 \tab 1749 \tab 9 \tab 26 \tab - \tab 2044 \cr
+   2012 \tab 237 \tab 27 \tab 43 \tab 1637 \tab 3 \tab 27 \tab - \tab 1974 \cr
+   2014 \tab 188 \tab 45 \tab 65 \tab 2195 \tab 6 \tab 39 \tab - \tab 2538 \cr
+   2016 \tab 1095 \tab 46 \tab 56 \tab 1641 \tab 5 \tab 24 \tab - \tab 2867 \cr
+   2018 \tab 942 \tab 31 \tab 51 \tab 1291 \tab 6 \tab 27 \tab - \tab 2348 \cr
+   2021 \tab 1682 \tab 76 \tab 96 \tab 2088 \tab 53 \tab 2 \tab 35 \tab 4032 \cr
+   2022 \tab 1900 \tab 53 \tab 82 \tab 1409 \tab 62 \tab 7 \tab 31 \tab 3544 \cr
+   Total \tab 6482 \tab 338 \tab 451 \tab 13709 \tab 151 \tab 173 \tab 66 \tab 21370 \cr
+}
 }
 
 \seealso{

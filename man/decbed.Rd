@@ -27,15 +27,21 @@ B. Deciding whether or not to buy bedroom furniture.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1882/vshow}{GSS Data Explorer page for \code{decbed}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab husband alone \tab husband after consulting with wife \tab husband and wife together \tab wife after consulting husband \tab wife alone \tab other \tab no answer \tab see codebook \tab Total \cr
+   1996 \tab 2196 \tab 6 \tab 22 \tab 471 \tab 94 \tab 61 \tab 5 \tab 5 \tab 44 \tab 2904 \cr
+   Total \tab 2196 \tab 6 \tab 22 \tab 471 \tab 94 \tab 61 \tab 5 \tab 5 \tab 44 \tab 2904 \cr
+}
 }
 
 \seealso{

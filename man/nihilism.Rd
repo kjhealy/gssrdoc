@@ -26,18 +26,26 @@ D. In my opinion, life does not serve any purpose.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4660/vshow}{GSS Data Explorer page for \code{nihilism}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 14 \tab 29 \tab 57 \tab 423 \tab 718 \tab 41 \tab 77 \tab 1517 \cr
+   1998 \tab 1548 \tab 9 \tab 29 \tab 75 \tab 424 \tab 638 \tab 38 \tab 71 \tab 2832 \cr
+   2008 \tab 658 \tab 12 \tab 27 \tab 66 \tab 490 \tab 755 \tab 14 \tab 1 \tab 2023 \cr
+   2018 \tab 1173 \tab 12 \tab 22 \tab 67 \tab 396 \tab 661 \tab 8 \tab 9 \tab 2348 \cr
+   Total \tab 3537 \tab 47 \tab 107 \tab 265 \tab 1733 \tab 2772 \tab 101 \tab 158 \tab 8720 \cr
+}
 }
 
 \seealso{

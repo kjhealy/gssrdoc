@@ -44,13 +44,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `snsmfrst`](https://gssdataexplorer.norc.org/variables/6286/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |twitter |facebook |instagram |linkedin |snapchat |tumblr |whatsapp |google+ |pinterest |flickr |classmates |youtube |plenty of fish |kik |online dating sites |online gaming |yahoo |other social networks |not a social network |no answer |Total |
+#'  |:-----|:----|:-------|:--------|:---------|:--------|:--------|:------|:--------|:-------|:---------|:------|:----------|:-------|:--------------|:---|:-------------------|:-------------|:-----|:---------------------|:--------------------|:---------|:-----|
+#'  |2016  |1871 |29      |688      |21        |58       |15       |4      |6        |90      |31        |4      |16         |7       |2              |1   |1                   |1             |2     |4                     |6                    |10        |2867  |
+#'  |Total |1871 |29      |688      |21        |58       |15       |4      |6        |90      |31        |4      |16         |7       |2              |1   |1                   |1             |2     |4                     |6                    |10        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -75,13 +81,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `intwkdym`](https://gssdataexplorer.norc.org/variables/6287/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0    |1  |10 |15 |2  |20 |25 |3  |30  |40 |45 |5  |55 |59 |don't know |no answer |Total |
+#'  |:-----|:----|:----|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2016  |1630 |1024 |1  |12 |14 |1  |15 |1  |1  |137 |3  |11 |2  |1  |1  |5          |8         |2867  |
+#'  |Total |1630 |1024 |1  |12 |14 |1  |15 |1  |1  |137 |3  |11 |2  |1  |1  |5          |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -106,13 +118,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `intwkdyh`](https://gssdataexplorer.norc.org/variables/6288/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |1   |10 |11 |12 |13 |14 |15 |16 |2   |20 |24 |3   |4  |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:---|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2016  |1630 |150 |341 |30 |2  |22 |3  |4  |9  |1  |250 |4  |8  |130 |83 |64 |52 |14 |41 |12 |7          |10        |2867  |
+#'  |Total |1630 |150 |341 |30 |2  |22 |3  |4  |9  |1  |250 |4  |8  |130 |83 |64 |52 |14 |41 |12 |7          |10        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -137,13 +155,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `intwkenm`](https://gssdataexplorer.norc.org/variables/6289/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0    |1  |10 |15 |20 |25 |3  |30  |35 |40 |45 |5  |50 |59 |don't know |no answer |Total |
+#'  |:-----|:----|:----|:--|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2016  |1630 |1018 |1  |15 |14 |16 |2  |2  |134 |1  |3  |11 |6  |1  |1  |4          |8         |2867  |
+#'  |Total |1630 |1018 |1  |15 |14 |16 |2  |2  |134 |1  |3  |11 |6  |1  |1  |4          |8         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -168,13 +192,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `intwkenh`](https://gssdataexplorer.norc.org/variables/6290/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |1   |10 |12 |13 |14 |15 |18 |2   |20 |24 |3   |4   |5  |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:--|:--|:--|:--|:--|:--|:---|:--|:--|:---|:---|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2016  |1630 |189 |329 |24 |22 |3  |6  |6  |1  |241 |7  |7  |136 |115 |61 |39 |8  |20 |2  |10         |11        |2867  |
+#'  |Total |1630 |189 |329 |24 |22 |3  |6  |6  |1  |241 |7  |7  |136 |115 |61 |39 |8  |20 |2  |10         |11        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -199,13 +229,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `numprobs`](https://gssdataexplorer.norc.org/variables/2606/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |0   |1   |10  |11 |12 |13 |14 |15  |16 |18 |2   |20  |24 |25 |26 |3   |30 |34 |35 |38 |4   |40 |5   |50 |55 |6   |60 |65 |7  |70 |75 |8  |9  |96 or higher |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:---|:--|:--|:--|:--|:---|:--|:--|:---|:---|:--|:--|:--|:---|:--|:--|:--|:--|:---|:--|:---|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:------------|:----------|:---------|:-----|
+#'  |2002  |74  |101 |200 |304 |17 |41 |7  |2  |129 |7  |5  |375 |100 |2  |68 |2  |366 |31 |1  |6  |1  |199 |8  |352 |35 |1  |163 |4  |1  |48 |1  |7  |70 |9  |10           |4          |14        |2765  |
+#'  |Total |74  |101 |200 |304 |17 |41 |7  |2  |129 |7  |5  |375 |100 |2  |68 |2  |366 |31 |1  |6  |1  |199 |8  |352 |35 |1  |163 |4  |1  |48 |1  |7  |70 |9  |10           |4          |14        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -230,13 +266,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `byemprob`](https://gssdataexplorer.norc.org/variables/2607/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |0    |1   |10  |11 |12 |13 |14 |15 |17 |18 |2   |20 |25 |26 |3   |30 |35 |4  |40 |5   |50 |6  |60 |7  |8  |9  |96 or higher |don't know |no answer |Total |
+#'  |:-----|:---|:----|:---|:---|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:--|:---|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:------------|:----------|:---------|:-----|
+#'  |2002  |179 |1318 |164 |130 |6  |17 |3  |2  |55 |2  |3  |234 |32 |21 |1  |159 |9  |2  |93 |2  |187 |8  |55 |2  |23 |37 |4  |2            |1          |14        |2765  |
+#'  |Total |179 |1318 |164 |130 |6  |17 |3  |2  |55 |2  |3  |234 |32 |21 |1  |159 |9  |2  |93 |2  |187 |8  |55 |2  |23 |37 |4  |2            |1          |14        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -262,13 +304,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `intaccss`](https://gssdataexplorer.norc.org/variables/2608/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
+#'  |2002  |2312 |16  |430 |5          |2         |2765  |
+#'  |Total |2312 |16  |430 |5          |2         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -297,14 +345,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |B/C/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
+#'  |B/C/-   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `jobinfo`](https://gssdataexplorer.norc.org/variables/2610/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no   |1 or 2 times |3-5 times |6 or more times |don't know |no answer |Total |
+#'  |:-----|:----|:----|:------------|:---------|:---------------|:----------|:---------|:-----|
+#'  |2002  |1372 |842  |223          |146       |170             |6          |6         |2765  |
+#'  |2004  |1828 |624  |78           |92        |184             |1          |5         |2812  |
+#'  |Total |3200 |1466 |301          |238       |354             |7          |11        |5577  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -333,14 +388,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |B/C/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
+#'  |B/C/-   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `jobpaper`](https://gssdataexplorer.norc.org/variables/2611/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all |1 or 2 times |3-5 times |6 or more times |no answer |Total |
+#'  |:-----|:----|:----------|:------------|:---------|:---------------|:---------|:-----|
+#'  |2002  |2220 |189        |116          |101       |133             |6         |2765  |
+#'  |2004  |2453 |121        |65           |72        |96              |5         |2812  |
+#'  |Total |4673 |310        |181          |173       |229             |11        |5577  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society

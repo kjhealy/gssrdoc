@@ -24,17 +24,25 @@ Question How much have you heard about nanotechnology? Have you heard a lot, som
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3445/vshow}{GSS Data Explorer page for \code{nanotech}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a lot \tab some \tab just a little \tab nothing at all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 100 \tab 284 \tab 436 \tab 1014 \tab 28 \tab 2 \tab 4510 \cr
+   2008 \tab 518 \tab 80 \tab 224 \tab 407 \tab 746 \tab 32 \tab 16 \tab 2023 \cr
+   2010 \tab 1584 \tab 23 \tab 90 \tab 127 \tab 210 \tab 2 \tab 8 \tab 2044 \cr
+   Total \tab 4748 \tab 203 \tab 598 \tab 970 \tab 1970 \tab 62 \tab 26 \tab 8577 \cr
+}
 }
 
 \seealso{

@@ -22,20 +22,26 @@ Question In the last 12 months, were you threatened or harassed in any other way
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2825/vshow}{GSS Data Explorer page for \code{wkharoth}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 202 \tab 1572 \tab 6 \tab 16 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 151 \tab 1562 \tab 5 \tab 16 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 111 \tab 1050 \tab 2 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 101 \tab 1143 \tab 1 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 120 \tab 1290 \tab 4 \tab 34 \tab - \tab 2348 \cr
+   2022 \tab 1556 \tab 192 \tab 1764 \tab 2 \tab 13 \tab 17 \tab 3544 \cr
+   Total \tab 8346 \tab 877 \tab 8381 \tab 20 \tab 108 \tab 17 \tab 17749 \cr
+}
 }
 
 \seealso{

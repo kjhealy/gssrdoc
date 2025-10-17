@@ -27,15 +27,21 @@ Question Of these groupsâ€“whites, blacks, Jews, Hispanics and Latin Americ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2361/vshow}{GSS Data Explorer page for \code{leastcom}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab whites \tab blacks/african-americans \tab jews \tab hispanics \tab asians \tab equal in common to all \tab nothing in common with any \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 35 \tab 210 \tab 174 \tab 173 \tab 426 \tab 164 \tab 71 \tab 107 \tab 38 \tab 2817 \cr
+   Total \tab 1419 \tab 35 \tab 210 \tab 174 \tab 173 \tab 426 \tab 164 \tab 71 \tab 107 \tab 38 \tab 2817 \cr
+}
 }
 
 \seealso{

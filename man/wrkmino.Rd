@@ -25,15 +25,21 @@ C. Paid work or other income-producing activities?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2589/vshow}{GSS Data Explorer page for \code{wrkmino}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 15 \tab 30 \tab 5 \tab no answer \tab Total \cr
+   2000 \tab 2665 \tab 111 \tab 1 \tab 1 \tab 2 \tab 1 \tab 36 \tab 2817 \cr
+   Total \tab 2665 \tab 111 \tab 1 \tab 1 \tab 2 \tab 1 \tab 36 \tab 2817 \cr
+}
 }
 
 \seealso{

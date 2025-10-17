@@ -22,15 +22,21 @@ Question In the past month, have you engaged in sexual intercourse?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5058/vshow}{GSS Data Explorer page for \code{sexfreq1}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   1990 \tab 791 \tab 388 \tab 193 \tab 1372 \cr
+   Total \tab 791 \tab 388 \tab 193 \tab 1372 \cr
+}
 }
 
 \seealso{

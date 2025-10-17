@@ -22,23 +22,30 @@ Question C. Sex of interviewer
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5567/vshow}{GSS Data Explorer page for \code{intsex}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab male \tab female \tab no answer \tab not available in this release \tab Total \cr
+   2004 \tab - \tab 471 \tab 2271 \tab 70 \tab - \tab 2812 \cr
+   2006 \tab - \tab 875 \tab 3348 \tab 287 \tab - \tab 4510 \cr
+   2008 \tab - \tab 305 \tab 1714 \tab 4 \tab - \tab 2023 \cr
+   2010 \tab - \tab 398 \tab 1619 \tab 27 \tab - \tab 2044 \cr
+   2012 \tab - \tab 323 \tab 1651 \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 557 \tab 1981 \tab - \tab - \tab 2538 \cr
+   2016 \tab - \tab 319 \tab 2548 \tab - \tab - \tab 2867 \cr
+   2018 \tab - \tab 318 \tab 2030 \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   Total \tab 0 \tab 3566 \tab 17162 \tab 388 \tab 4032 \tab 25148 \cr
+}
 }
 
 \seealso{

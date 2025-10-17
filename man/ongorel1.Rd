@@ -22,15 +22,21 @@ Question A. Did you become involved in an ongoing relationship with this leader?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3954/vshow}{GSS Data Explorer page for \code{ongorel1}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   2008 \tab 2001 \tab 2 \tab 20 \tab 2023 \cr
+   Total \tab 2001 \tab 2 \tab 20 \tab 2023 \cr
+}
 }
 
 \seealso{

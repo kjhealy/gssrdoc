@@ -23,15 +23,21 @@ B. One trouble with science is that it makes our way of life change too fast.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1046/vshow}{GSS Data Explorer page for \code{scichng}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 595 \tab 854 \tab 18 \tab 14 \tab 1481 \cr
+   Total \tab 0 \tab 595 \tab 854 \tab 18 \tab 14 \tab 1481 \cr
+}
 }
 
 \seealso{

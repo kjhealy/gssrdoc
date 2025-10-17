@@ -22,17 +22,22 @@ Question Was your sex recorded as male or female at birth?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7478/vshow}{GSS Data Explorer page for \code{sexbirth1}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab male \tab female \tab don't know \tab skipped on web \tab no answer \tab Total \cr
+   2021 \tab 71 \tab 1730 \tab 2198 \tab 21 \tab 12 \tab - \tab 4032 \cr
+   2022 \tab 8 \tab 1625 \tab 1894 \tab 12 \tab 4 \tab 1 \tab 3544 \cr
+   Total \tab 79 \tab 3355 \tab 4092 \tab 33 \tab 16 \tab 1 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

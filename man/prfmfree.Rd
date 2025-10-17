@@ -22,15 +22,21 @@ Question Was the performance you attended free, or was there an admission fee?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6220/vshow}{GSS Data Explorer page for \code{prfmfree}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab free \tab admission fee \tab no answer \tab Total \cr
+   2016 \tab 2433 \tab 82 \tab 344 \tab 8 \tab 2867 \cr
+   Total \tab 2433 \tab 82 \tab 344 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

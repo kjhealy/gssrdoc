@@ -25,17 +25,24 @@ A. How many years did you attend religious schools?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989 \cr
+   A/B/C \tab 1988, 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1068/vshow}{GSS Data Explorer page for \code{churhsch}}.
+
+Counts by year:\tabular{llllllllllllllllllllll}{
+   year \tab iap \tab never went or less than half year \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab 16 \tab 17 \tab Total \cr
+   1988 \tab - \tab 1190 \tab 24 \tab 4 \tab 8 \tab 47 \tab 4 \tab 4 \tab 1 \tab 29 \tab 17 \tab 20 \tab 15 \tab 25 \tab 13 \tab 62 \tab 15 \tab 3 \tab - \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 813 \tab 14 \tab 6 \tab 2 \tab 33 \tab 4 \tab 2 \tab 1 \tab 13 \tab 20 \tab 12 \tab 13 \tab 19 \tab 7 \tab 32 \tab 6 \tab 5 \tab 4 \tab - \tab 1537 \cr
+   1991 \tab 158 \tab 1089 \tab 17 \tab 10 \tab 1 \tab 39 \tab 2 \tab 5 \tab - \tab 25 \tab 17 \tab 22 \tab 6 \tab 19 \tab 6 \tab 47 \tab 9 \tab 36 \tab 8 \tab 1 \tab 1517 \cr
+   Total \tab 689 \tab 3092 \tab 55 \tab 20 \tab 11 \tab 119 \tab 10 \tab 11 \tab 2 \tab 67 \tab 54 \tab 54 \tab 34 \tab 63 \tab 26 \tab 141 \tab 30 \tab 44 \tab 12 \tab 1 \tab 4535 \cr
+}
 }
 
 \seealso{

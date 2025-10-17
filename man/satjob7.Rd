@@ -28,16 +28,23 @@ Question A. All things considered, how satisfied are you with your (main) job?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4452/vshow}{GSS Data Explorer page for \code{satjob7}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab completely satisfied \tab very satisfied \tab fairly satisfied \tab neither satisfied nor dissatisfied \tab fairly dissatisfied \tab very dissatisfied \tab completely dissatisfied \tab can't choose \tab no answer \tab Total \cr
+   2002 \tab 1891 \tab 127 \tab 289 \tab 264 \tab 53 \tab 47 \tab 29 \tab 11 \tab 45 \tab 9 \tab 2765 \cr
+   2012 \tab 1194 \tab 122 \tab 264 \tab 260 \tab 54 \tab 40 \tab 13 \tab 9 \tab 1 \tab 17 \tab 1974 \cr
+   Total \tab 3085 \tab 249 \tab 553 \tab 524 \tab 107 \tab 87 \tab 42 \tab 20 \tab 46 \tab 26 \tab 4739 \cr
+}
 }
 
 \seealso{

@@ -28,15 +28,21 @@ Question About how many people are employed in the entire business, corporation 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4568/vshow}{GSS Data Explorer page for \code{totalnum}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1-9 \tab 10-49 \tab 50-99 \tab 100-499 \tab 500-999 \tab 1,000-1,999 \tab 2,000 - 9,999 \tab 10,000+ \tab don't know \tab Total \cr
+   1989 \tab 709 \tab 81 \tab 124 \tab 58 \tab 135 \tab 50 \tab 38 \tab 83 \tab 103 \tab 156 \tab 1537 \cr
+   Total \tab 709 \tab 81 \tab 124 \tab 58 \tab 135 \tab 50 \tab 38 \tab 83 \tab 103 \tab 156 \tab 1537 \cr
+}
 }
 
 \seealso{

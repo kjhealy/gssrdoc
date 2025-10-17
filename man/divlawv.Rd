@@ -23,17 +23,22 @@ Question Should divorce in this country be easier or more difficult to obtain th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7590/vshow}{GSS Data Explorer page for \code{divlawv}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab easier \tab more difficult \tab stay as is (phone mode only: volunteered) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2658 \tab 460 \tab 241 \tab 657 \tab 6 \tab 1 \tab 9 \tab 4032 \cr
+   2022 \tab 2998 \tab 205 \tab 66 \tab 269 \tab - \tab - \tab 6 \tab 3544 \cr
+   Total \tab 5656 \tab 665 \tab 307 \tab 926 \tab 6 \tab 1 \tab 15 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

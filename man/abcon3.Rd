@@ -22,15 +22,21 @@ C. Third reason
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/614/vshow}{GSS Data Explorer page for \code{abcon3}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 35 \tab 4 \tab 41 \tab 42 \tab 43 \tab 5 \tab 50 \tab 51 \tab 52 \tab 53 \tab 60 \tab no answer \tab Total \cr
+   1982 \tab 1579 \tab 29 \tab 42 \tab 3 \tab 8 \tab 29 \tab 15 \tab 15 \tab 1 \tab 11 \tab 25 \tab 18 \tab 11 \tab 3 \tab 9 \tab 3 \tab 7 \tab 19 \tab 13 \tab 10 \tab 3 \tab 2 \tab 2 \tab 3 \tab 1860 \cr
+   Total \tab 1579 \tab 29 \tab 42 \tab 3 \tab 8 \tab 29 \tab 15 \tab 15 \tab 1 \tab 11 \tab 25 \tab 18 \tab 11 \tab 3 \tab 9 \tab 3 \tab 7 \tab 19 \tab 13 \tab 10 \tab 3 \tab 2 \tab 2 \tab 3 \tab 1860 \cr
+}
 }
 
 \seealso{

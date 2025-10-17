@@ -35,15 +35,21 @@ A. Which types of school do/did your children attend?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1151/vshow}{GSS Data Explorer page for \code{denomsch}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab baptist \tab christian reform \tab christian science \tab episcopal \tab lutheran \tab missouri synod lutheran \tab non-denominational \tab southern baptist \tab seventh day adventist \tab valley christian \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2739 \tab 13 \tab 1 \tab 1 \tab 2 \tab 6 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 4 \tab 44 \tab 2817 \cr
+   Total \tab 2739 \tab 13 \tab 1 \tab 1 \tab 2 \tab 6 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 4 \tab 44 \tab 2817 \cr
+}
 }
 
 \seealso{

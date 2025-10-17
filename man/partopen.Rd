@@ -22,15 +22,21 @@ Question How many sex partners have you had in the last 12 months?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5062/vshow}{GSS Data Explorer page for \code{partopen}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 14 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab - \tab no answer \tab Total \cr
+   1991 \tab 866 \tab 146 \tab 428 \tab 1 \tab 38 \tab 12 \tab 5 \tab 6 \tab 3 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1517 \cr
+   Total \tab 866 \tab 146 \tab 428 \tab 1 \tab 38 \tab 12 \tab 5 \tab 6 \tab 3 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1517 \cr
+}
 }
 
 \seealso{

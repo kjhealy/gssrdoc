@@ -23,16 +23,23 @@ Question Which of the following statements best describes how your daily work is
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4612/vshow}{GSS Data Explorer page for \code{dailywrk}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab i am free to decide how my daily work is organized \tab i can decide within certain limits \tab i am not free to decide how my daily work is organized \tab no answer \tab can't choose \tab Total \cr
+   2006 \tab 3492 \tab 325 \tab 485 \tab 206 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 375 \tab 423 \tab 130 \tab 8 \tab 4 \tab 2867 \cr
+   Total \tab 5419 \tab 700 \tab 908 \tab 336 \tab 10 \tab 4 \tab 7377 \cr
+}
 }
 
 \seealso{

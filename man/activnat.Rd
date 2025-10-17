@@ -25,15 +25,21 @@ Question In the last twelve months how often, if at all, have you engaged in any
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7496/vshow}{GSS Data Explorer page for \code{activnat}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab daily \tab several times a week \tab several times a month \tab several times a year \tab never \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2003 \tab 328 \tab 530 \tab 475 \tab 356 \tab 85 \tab 52 \tab 191 \tab 12 \tab 4032 \cr
+   Total \tab 2003 \tab 328 \tab 530 \tab 475 \tab 356 \tab 85 \tab 52 \tab 191 \tab 12 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

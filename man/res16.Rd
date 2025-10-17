@@ -26,49 +26,55 @@ Question Which of the categories on this card comes closest to the type of place
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   Full \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/83/vshow}{GSS Data Explorer page for \code{res16}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab in open country but not on a farm \tab farm \tab in a small city or town (under 50,000) \tab in a medium-size city (50,000-250,000) \tab in a suburb near a large city \tab in a large city (over 250,000) \tab don't know \tab no answer \tab iap \tab skipped on web \tab Total \cr
+   1972 \tab 147 \tab 340 \tab 500 \tab 198 \tab 91 \tab 334 \tab 1 \tab 2 \tab - \tab - \tab 1613 \cr
+   1973 \tab 135 \tab 343 \tab 479 \tab 188 \tab 106 \tab 250 \tab 2 \tab 1 \tab - \tab - \tab 1504 \cr
+   1974 \tab 144 \tab 362 \tab 438 \tab 192 \tab 123 \tab 222 \tab - \tab 3 \tab - \tab - \tab 1484 \cr
+   1975 \tab 192 \tab 337 \tab 430 \tab 179 \tab 102 \tab 250 \tab - \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 160 \tab 341 \tab 448 \tab 186 \tab 120 \tab 242 \tab 1 \tab 1 \tab - \tab - \tab 1499 \cr
+   1977 \tab 170 \tab 344 \tab 524 \tab 187 \tab 88 \tab 211 \tab 2 \tab 4 \tab - \tab - \tab 1530 \cr
+   1978 \tab 174 \tab 333 \tab 472 \tab 206 \tab 130 \tab 215 \tab 1 \tab 1 \tab - \tab - \tab 1532 \cr
+   1980 \tab 145 \tab 310 \tab 465 \tab 204 \tab 118 \tab 225 \tab - \tab 1 \tab - \tab - \tab 1468 \cr
+   1982 \tab 187 \tab 377 \tab 577 \tab 231 \tab 166 \tab 311 \tab - \tab 11 \tab - \tab - \tab 1860 \cr
+   1983 \tab 170 \tab 252 \tab 536 \tab 244 \tab 156 \tab 241 \tab - \tab - \tab - \tab - \tab 1599 \cr
+   1984 \tab 144 \tab 318 \tab 466 \tab 200 \tab 133 \tab 206 \tab 2 \tab 4 \tab - \tab - \tab 1473 \cr
+   1985 \tab 146 \tab 281 \tab 523 \tab 235 \tab 154 \tab 189 \tab 1 \tab 5 \tab - \tab - \tab 1534 \cr
+   1986 \tab 140 \tab 268 \tab 449 \tab 247 \tab 137 \tab 229 \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab 206 \tab 341 \tab 489 \tab 295 \tab 176 \tab 306 \tab 1 \tab 5 \tab - \tab - \tab 1819 \cr
+   1988 \tab 172 \tab 252 \tab 477 \tab 217 \tab 142 \tab 219 \tab - \tab 2 \tab - \tab - \tab 1481 \cr
+   1989 \tab 168 \tab 258 \tab 496 \tab 239 \tab 169 \tab 203 \tab 1 \tab 3 \tab - \tab - \tab 1537 \cr
+   1990 \tab 134 \tab 236 \tab 437 \tab 196 \tab 139 \tab 227 \tab 2 \tab 1 \tab - \tab - \tab 1372 \cr
+   1991 \tab 176 \tab 251 \tab 501 \tab 212 \tab 158 \tab 215 \tab 2 \tab 2 \tab - \tab - \tab 1517 \cr
+   1993 \tab 187 \tab 288 \tab 466 \tab 220 \tab 205 \tab 236 \tab 2 \tab 2 \tab - \tab - \tab 1606 \cr
+   1994 \tab 357 \tab 405 \tab 931 \tab 469 \tab 368 \tab 456 \tab 2 \tab 4 \tab - \tab - \tab 2992 \cr
+   1996 \tab 333 \tab 374 \tab 922 \tab 494 \tab 357 \tab 418 \tab 3 \tab 3 \tab - \tab - \tab 2904 \cr
+   1998 \tab 327 \tab 371 \tab 857 \tab 450 \tab 361 \tab 462 \tab 2 \tab 2 \tab - \tab - \tab 2832 \cr
+   2000 \tab 311 \tab 385 \tab 871 \tab 461 \tab 333 \tab 449 \tab 1 \tab 6 \tab - \tab - \tab 2817 \cr
+   2002 \tab 327 \tab 315 \tab 831 \tab 439 \tab 390 \tab 459 \tab 3 \tab 1 \tab - \tab - \tab 2765 \cr
+   2004 \tab 318 \tab 274 \tab 999 \tab 427 \tab 364 \tab 429 \tab 1 \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 374 \tab 268 \tab 1005 \tab 523 \tab 385 \tab 434 \tab 2 \tab 1 \tab 1518 \tab - \tab 4510 \cr
+   2008 \tab 227 \tab 213 \tab 653 \tab 340 \tab 252 \tab 337 \tab 1 \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 213 \tab 198 \tab 672 \tab 369 \tab 261 \tab 328 \tab 2 \tab 1 \tab - \tab - \tab 2044 \cr
+   2012 \tab 217 \tab 206 \tab 596 \tab 376 \tab 280 \tab 298 \tab 1 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 275 \tab 211 \tab 813 \tab 438 \tab 377 \tab 421 \tab 2 \tab 1 \tab - \tab - \tab 2538 \cr
+   2016 \tab 304 \tab 234 \tab 979 \tab 493 \tab 413 \tab 438 \tab 4 \tab 2 \tab - \tab - \tab 2867 \cr
+   2018 \tab 255 \tab 154 \tab 774 \tab 450 \tab 324 \tab 391 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 406 \tab 204 \tab 1208 \tab 777 \tab 742 \tab 692 \tab 1 \tab - \tab - \tab 2 \tab 4032 \cr
+   2022 \tab 330 \tab 189 \tab 1135 \tab 648 \tab 604 \tab 630 \tab 7 \tab - \tab - \tab 1 \tab 3544 \cr
+   Total \tab 7671 \tab 9833 \tab 22419 \tab 11230 \tab 8424 \tab 11173 \tab 50 \tab 69 \tab 1518 \tab 3 \tab 72390 \cr
+}
 }
 
 \seealso{

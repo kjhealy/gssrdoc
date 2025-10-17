@@ -66,15 +66,21 @@ B. Please name one.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2512/vshow}{GSS Data Explorer page for \code{srcheng2}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab yahoo \tab lycos \tab search.com \tab gopher \tab all the web \tab msn \tab ebay \tab infoseek \tab altavista \tab explorer \tab netscape \tab isearch \tab excite \tab aol \tab java \tab webcrawler \tab hotbot \tab google \tab copernic \tab ask jeeves \tab iwon \tab dogpile \tab streetviolence.com \tab browser \tab northern lights \tab www.irs.com \tab netfind \tab keysearch \tab metacrawler \tab uproar.com \tab siap \tab go \tab myway \tab fuse \tab espn \tab goto.com \tab bizrate \tab sherlock \tab lynco \tab 4anything \tab navistar \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2215 \tab 315 \tab 33 \tab 1 \tab 1 \tab 1 \tab 7 \tab 1 \tab 10 \tab 26 \tab 7 \tab 14 \tab 1 \tab 19 \tab 17 \tab 1 \tab 4 \tab 7 \tab 12 \tab 1 \tab 3 \tab 5 \tab 6 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 82 \tab 2817 \cr
+   Total \tab 2215 \tab 315 \tab 33 \tab 1 \tab 1 \tab 1 \tab 7 \tab 1 \tab 10 \tab 26 \tab 7 \tab 14 \tab 1 \tab 19 \tab 17 \tab 1 \tab 4 \tab 7 \tab 12 \tab 1 \tab 3 \tab 5 \tab 6 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 82 \tab 2817 \cr
+}
 }
 
 \seealso{

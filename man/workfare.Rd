@@ -26,15 +26,21 @@ A. First, requiring that people must work in order to receive welfare.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1228/vshow}{GSS Data Explorer page for \code{workfare}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 623 \tab 488 \tab 115 \tab 97 \tab 28 \tab 12 \tab 9 \tab 1372 \cr
+   Total \tab 0 \tab 623 \tab 488 \tab 115 \tab 97 \tab 28 \tab 12 \tab 9 \tab 1372 \cr
+}
 }
 
 \seealso{

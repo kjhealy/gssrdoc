@@ -25,15 +25,21 @@ Question I consider myself pro-choice.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7542/vshow}{GSS Data Explorer page for \code{prochoic}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 424 \tab 1053 \tab 1004 \tab 729 \tab 379 \tab 386 \tab 9 \tab 6 \tab 42 \tab 4032 \cr
+   Total \tab 424 \tab 1053 \tab 1004 \tab 729 \tab 379 \tab 386 \tab 9 \tab 6 \tab 42 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

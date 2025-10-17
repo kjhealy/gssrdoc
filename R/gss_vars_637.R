@@ -1,3 +1,33 @@
+#'  Person post-stratification weight, nonrespondents adjusted
+#' 
+#'  wtssnrps
+#' 
+#' Question Person post-stratification weight, nonrespondents adjusted
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years                                                      |
+#'  |:-------|:----------------------------------------------------------|
+#'  |A/B/C/- |2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+#'  |A/B/C/D |2006                                                       |
+#' 
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name wtssnrps
+NULL
+
+
 #'  Expect u.s. in war within 10 years (with volunteered response on web)
 #' 
 #'  uswaryv
@@ -14,14 +44,20 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A       |partial      |
-#'  |2022 |A       |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A       |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `uswaryv`](https://gssdataexplorer.norc.org/variables/7584/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
+#'  |2021  |3346 |213 |363 |109        |1              |4032  |
+#'  |2022  |3264 |136 |92  |51         |1              |3544  |
+#'  |Total |6610 |349 |455 |160        |2              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -48,15 +84,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
-#'  |2022 |A/B     |partial      |
-#'  |2024 |A/B     |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B     |2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prayerv`](https://gssdataexplorer.norc.org/variables/7585/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |approve |disapprove |don't know |skipped on web |Total |
+#'  |:-----|:----|:-------|:----------|:----------|:--------------|:-----|
+#'  |2021  |2658 |819     |457        |93         |5              |4032  |
+#'  |2022  |2988 |299     |146        |111        |-              |3544  |
+#'  |Total |5646 |1118    |603        |204        |5              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -83,15 +124,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |B/C/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
+#'  |B/C/-   |2024       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `courtsv`](https://gssdataexplorer.norc.org/variables/7586/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |too harshly |not harshly enough |about right (phone mode only: volunteered) |don't know |skipped on web |no answer |Total |
+#'  |:-----|:----|:-----------|:------------------|:------------------------------------------|:----------|:--------------|:---------|:-----|
+#'  |2021  |1987 |424         |965                |590                                        |12         |54             |-         |4032  |
+#'  |2022  |2683 |111         |405                |337                                        |1          |6              |1         |3544  |
+#'  |Total |4670 |535         |1370               |927                                        |13         |60             |1         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -120,15 +167,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
-#'  |2022 |A/B     |partial      |
-#'  |2024 |A/B     |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B     |2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `discaffwv`](https://gssdataexplorer.norc.org/variables/7587/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |not very likely |very unlikely |don't know |skipped on web |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-------------|:----------|:--------------|:-----|
+#'  |2021  |2658 |340         |587             |256             |127           |62         |2              |4032  |
+#'  |2022  |2990 |121         |250             |97              |52            |33         |1              |3544  |
+#'  |Total |5648 |461         |837             |353             |179           |95         |3              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -156,15 +208,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/C/-   |partial      |
-#'  |2024 |A/C/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021       |
+#'  |A/C/-   |2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racopenv`](https://gssdataexplorer.norc.org/variables/7588/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |first law |second law |neither (phone mode only: volunteered) |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:----------|:--------------------------------------|:----------|:---------|:--------------|:-----|
+#'  |2021  |1987 |214       |1521       |302                                    |1          |1         |6              |4032  |
+#'  |2022  |3544 |-         |-          |-                                      |-          |-         |-              |3544  |
+#'  |Total |5531 |214       |1521       |302                                    |1          |1         |6              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -192,15 +250,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/C     |partial      |
-#'  |2022 |A/C     |partial      |
-#'  |2024 |A/C     |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/C     |2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `getaheadv`](https://gssdataexplorer.norc.org/variables/7589/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |hard work most important |hard work, luck equally important (phone mode only: volunteered |luck most important |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:------------------------|:---------------------------------------------------------------|:-------------------|:----------|:---------|:--------------|:-----|
+#'  |2021  |2675 |660                      |595                                                             |94                  |3          |1         |4              |4032  |
+#'  |2022  |2962 |252                      |284                                                             |42                  |-          |-         |4              |3544  |
+#'  |Total |5637 |912                      |879                                                             |136                 |3          |1         |8              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -227,15 +290,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
-#'  |2022 |A/B     |partial      |
-#'  |2024 |A/B     |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B     |2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `divlawv`](https://gssdataexplorer.norc.org/variables/7590/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |easier |more difficult |stay as is (phone mode only: volunteered) |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:------|:--------------|:-----------------------------------------|:----------|:---------|:--------------|:-----|
+#'  |2021  |2658 |460    |241            |657                                       |6          |1         |9              |4032  |
+#'  |2022  |2998 |205    |66             |269                                       |-          |-         |6              |3544  |
+#'  |Total |5656 |665    |307            |926                                       |6          |1         |15             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -262,15 +330,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
-#'  |2022 |B/C     |partial      |
-#'  |2024 |B/C     |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |B/C     |2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `helpfulv`](https://gssdataexplorer.norc.org/variables/7591/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |try to be helpful |looking out for themselves |depends (phone mode only: volunteered) |don't know |skipped on web |Total |
+#'  |:-----|:----|:-----------------|:--------------------------|:--------------------------------------|:----------|:--------------|:-----|
+#'  |2021  |2673 |449               |327                        |582                                    |1          |-              |4032  |
+#'  |2022  |2974 |144               |153                        |272                                    |-          |1              |3544  |
+#'  |Total |5647 |593               |480                        |854                                    |1          |1              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -297,14 +370,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
-#'  |2022 |B/C     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |B/C     |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fairv`](https://gssdataexplorer.norc.org/variables/7592/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |would take advantage of you |would try to be fair |depends (phone mode only: volunteered) |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------------------------|:--------------------|:--------------------------------------|:---------|:--------------|:-----|
+#'  |2021  |3344 |140                         |280                  |264                                    |1         |3              |4032  |
+#'  |2022  |2974 |156                         |148                  |262                                    |-         |4              |3544  |
+#'  |Total |6318 |296                         |428                  |526                                    |1         |7              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -312,42 +391,6 @@ NULL
 #' @keywords variable
 #' @md
 #' @name fairv
-NULL
-
-
-#'  Can people be trusted (with volunteered response on web)
-#' 
-#'  trustv
-#' 
-#' Question Generally speaking, would you say that most people can be trusted or that you can't
-#' be too careful in dealing with people?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` most people can be trusted
-#'   * `2` can't be too careful
-#'   * `3` depends (phone mode only: volunteered)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
-#'  |2022 |B/C     |partial      |
-#'  |2024 |B/C     |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `trustv`](https://gssdataexplorer.norc.org/variables/7593/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name trustv
 NULL
 
 

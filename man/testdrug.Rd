@@ -27,16 +27,22 @@ B. Random drug tests
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5244/vshow}{GSS Data Explorer page for \code{testdrug}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 618 \tab 624 \tab 49 \tab 46 \tab 10 \tab 25 \tab 15 \tab 2832 \cr
+   2000 \tab 1398 \tab 687 \tab 544 \tab 92 \tab 45 \tab 12 \tab 22 \tab 17 \tab 2817 \cr
+   Total \tab 2843 \tab 1305 \tab 1168 \tab 141 \tab 91 \tab 22 \tab 47 \tab 32 \tab 5649 \cr
+}
 }
 
 \seealso{

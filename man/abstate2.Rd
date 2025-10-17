@@ -23,15 +23,21 @@ Question Here in (CURRENT STATE), do you think that laws should be changed to ma
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7176/vshow}{GSS Data Explorer page for \code{abstate2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab make it easier \tab make it harder \tab stay the same as now \tab don't know \tab no answer \tab Total \cr
+   2018 \tab - \tab 403 \tab 610 \tab 1046 \tab 235 \tab 54 \tab 2348 \cr
+   Total \tab 0 \tab 403 \tab 610 \tab 1046 \tab 235 \tab 54 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

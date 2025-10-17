@@ -26,19 +26,27 @@ I. A husband''s job is to earn money; a wife''s job is to look after the home an
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1988, 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4351/vshow}{GSS Data Explorer page for \code{hubbywrk}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 119 \tab 266 \tab 281 \tab 441 \tab 265 \tab 20 \tab 22 \tab 1481 \cr
+   1991 \tab 158 \tab 145 \tab 233 \tab 293 \tab 341 \tab 302 \tab 18 \tab 27 \tab 1517 \cr
+   1998 \tab 1548 \tab 121 \tab 153 \tab 237 \tab 305 \tab 420 \tab 23 \tab 25 \tab 2832 \cr
+   2008 \tab 658 \tab 159 \tab 216 \tab 283 \tab 413 \tab 287 \tab 6 \tab 1 \tab 2023 \cr
+   2018 \tab 1173 \tab 73 \tab 157 \tab 213 \tab 351 \tab 370 \tab 5 \tab 6 \tab 2348 \cr
+   Total \tab 3604 \tab 617 \tab 1025 \tab 1307 \tab 1851 \tab 1644 \tab 72 \tab 81 \tab 10201 \cr
+}
 }
 
 \seealso{

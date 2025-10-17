@@ -25,15 +25,21 @@ H. Not feeling calm and peaceful?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2695/vshow}{GSS Data Explorer page for \code{treat8}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely go \tab probably go \tab probably not go \tab definitely not go \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 213 \tab 223 \tab 371 \tab 333 \tab 12 \tab 267 \tab 2817 \cr
+   Total \tab 1398 \tab 213 \tab 223 \tab 371 \tab 333 \tab 12 \tab 267 \tab 2817 \cr
+}
 }
 
 \seealso{

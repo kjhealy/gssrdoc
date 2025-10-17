@@ -26,15 +26,21 @@ B...because s/he is not paying attention at school, does not follow through with
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2180/vshow}{GSS Data Explorer page for \code{psyckid2}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 126 \tab 250 \tab 222 \tab 259 \tab 444 \tab 82 \tab 4 \tab 2832 \cr
+   Total \tab 1445 \tab 126 \tab 250 \tab 222 \tab 259 \tab 444 \tab 82 \tab 4 \tab 2832 \cr
+}
 }
 
 \seealso{

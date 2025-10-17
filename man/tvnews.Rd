@@ -26,15 +26,21 @@ B. World or national news programs.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1420/vshow}{GSS Data Explorer page for \code{tvnews}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab daily \tab sevrl days in week \tab sevrl days in month \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 1024 \tab 344 \tab 100 \tab 89 \tab 40 \tab 1 \tab 8 \tab 1606 \cr
+   Total \tab 0 \tab 1024 \tab 344 \tab 100 \tab 89 \tab 40 \tab 1 \tab 8 \tab 1606 \cr
+}
 }
 
 \seealso{

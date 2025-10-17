@@ -29,15 +29,21 @@ B. About how long would it take you to get to where your brother lives? Think of
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4141/vshow}{GSS Data Explorer page for \code{brotime}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab lt 15 min \tab 15-30 min \tab 30 min-1 hr \tab 1-2 hr \tab 2-3 hr \tab 3-5 hr \tab 5-12 hr \tab 12+ hr \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 462 \tab 195 \tab 165 \tab 131 \tab 92 \tab 54 \tab 62 \tab 113 \tab 180 \tab 7 \tab 9 \tab 1470 \cr
+   Total \tab 462 \tab 195 \tab 165 \tab 131 \tab 92 \tab 54 \tab 62 \tab 113 \tab 180 \tab 7 \tab 9 \tab 1470 \cr
+}
 }
 
 \seealso{

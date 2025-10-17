@@ -22,15 +22,21 @@ C2. R''s sources of help during nervous breakdown -- Second mention.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2074/vshow}{GSS Data Explorer page for \code{brkdhlp2}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllll}{
+   year \tab iap \tab 100 \tab 101 \tab 106 \tab 107 \tab 190 \tab 200 \tab 201 \tab 202 \tab 290 \tab 390 \tab 400 \tab 401 \tab 402 \tab 403 \tab 500 \tab 502 \tab 505 \tab 506 \tab 590 \tab 604 \tab 605 \tab 606 \tab 800 \tab 910 \tab no answer \tab Total \cr
+   1996 \tab 2524 \tab 3 \tab 2 \tab 8 \tab 2 \tab 2 \tab 17 \tab 5 \tab 1 \tab 1 \tab 3 \tab 5 \tab 1 \tab 1 \tab 10 \tab 4 \tab 1 \tab 1 \tab 12 \tab 1 \tab 2 \tab 5 \tab 2 \tab 1 \tab 260 \tab 30 \tab 2904 \cr
+   Total \tab 2524 \tab 3 \tab 2 \tab 8 \tab 2 \tab 2 \tab 17 \tab 5 \tab 1 \tab 1 \tab 3 \tab 5 \tab 1 \tab 1 \tab 10 \tab 4 \tab 1 \tab 1 \tab 12 \tab 1 \tab 2 \tab 5 \tab 2 \tab 1 \tab 260 \tab 30 \tab 2904 \cr
+}
 }
 
 \seealso{

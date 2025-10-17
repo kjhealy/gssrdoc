@@ -26,15 +26,21 @@ C. American schools should make much more effort to teach foreign languages prop
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4852/vshow}{GSS Data Explorer page for \code{forlang}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 236 \tab 600 \tab 347 \tab 119 \tab 15 \tab 29 \tab 21 \tab 2904 \cr
+   Total \tab 1537 \tab 236 \tab 600 \tab 347 \tab 119 \tab 15 \tab 29 \tab 21 \tab 2904 \cr
+}
 }
 
 \seealso{

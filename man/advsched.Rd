@@ -28,15 +28,21 @@ Question How far in advance do you usually know what days and hours you will nee
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6296/vshow}{GSS Data Explorer page for \code{advsched}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab one day or less in advance \tab 2 to 3 days in advance \tab 4 to 7 days in advance \tab between 1 and 2 weeks in advance \tab between 3 and 4 weeks in advance \tab more than 4 weeks in advance \tab my schedule never changes \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2273 \tab 99 \tab 59 \tab 68 \tab 64 \tab 26 \tab 45 \tab 218 \tab 1 \tab 14 \tab 2867 \cr
+   Total \tab 2273 \tab 99 \tab 59 \tab 68 \tab 64 \tab 26 \tab 45 \tab 218 \tab 1 \tab 14 \tab 2867 \cr
+}
 }
 
 \seealso{

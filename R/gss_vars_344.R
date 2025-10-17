@@ -17,13 +17,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `joylifts`](https://gssdataexplorer.norc.org/variables/3084/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
+#'  |2004  |1472 |181              |260       |275       |207       |194             |195                   |9          |19        |2812  |
+#'  |Total |1472 |181              |260       |275       |207       |194             |195                   |9          |19        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -53,13 +59,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relsprt1`](https://gssdataexplorer.norc.org/variables/3085/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
+#'  |2004  |1472 |252              |387       |238       |135       |146             |160                   |6          |16        |2812  |
+#'  |Total |1472 |252              |387       |238       |135       |146             |160                   |6          |16        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -89,13 +101,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relsprt2`](https://gssdataexplorer.norc.org/variables/3086/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
+#'  |2004  |1472 |254              |422       |244       |118       |143             |136                   |7          |16        |2812  |
+#'  |Total |1472 |254              |422       |244       |118       |143             |136                   |7          |16        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -125,13 +143,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `godhelp`](https://gssdataexplorer.norc.org/variables/3087/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
+#'  |2004  |1472 |298              |319       |163       |191       |170             |180                   |4          |15        |2812  |
+#'  |Total |1472 |298              |319       |163       |191       |170             |180                   |4          |15        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -161,13 +185,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `godguide`](https://gssdataexplorer.norc.org/variables/3088/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
+#'  |2004  |1472 |225              |336       |181       |181       |179             |216                   |6          |16        |2812  |
+#'  |Total |1472 |225              |336       |181       |181       |179             |216                   |6          |16        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -197,13 +227,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `godlvdir`](https://gssdataexplorer.norc.org/variables/3089/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
+#'  |2004  |1472 |274              |386       |185       |130       |147             |195                   |6          |17        |2812  |
+#'  |Total |1472 |274              |386       |185       |130       |147             |195                   |6          |17        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -233,13 +269,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `godlvoth`](https://gssdataexplorer.norc.org/variables/3090/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
+#'  |2004  |1472 |195              |297       |268       |220       |155             |173                   |14         |18        |2812  |
+#'  |Total |1472 |195              |297       |268       |220       |155             |173                   |14         |18        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -269,13 +311,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `blessngs`](https://gssdataexplorer.norc.org/variables/3091/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
+#'  |2004  |1472 |423              |554       |204       |87        |27              |28                    |2          |15        |2812  |
+#'  |Total |1472 |423              |554       |204       |87        |27              |28                    |2          |15        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -305,13 +353,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `closrgod`](https://gssdataexplorer.norc.org/variables/3092/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
+#'  |2004  |1472 |235              |444       |189       |161       |139             |144                   |11         |17        |2812  |
+#'  |Total |1472 |235              |444       |189       |161       |139             |144                   |11         |17        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -339,13 +393,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `godclose`](https://gssdataexplorer.norc.org/variables/3093/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all close |somewhat close |very close |as close as possible |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:--------------|:----------|:--------------------|:----------|:---------|:-----|
+#'  |2004  |1472 |143              |478            |473        |223                  |6          |17        |2812  |
+#'  |Total |1472 |143              |478            |473        |223                  |6          |17        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion

@@ -22,21 +22,30 @@ Question Now, for a new subject. Do you ever read a horoscope or your personal a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3323/vshow}{GSS Data Explorer page for \code{astrolgy}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 1073 \tab 789 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 811 \tab 691 \tab 1 \tab 2 \tab 2023 \cr
+   2010 \tab 1353 \tab 367 \tab 322 \tab - \tab 2 \tab 2044 \cr
+   2012 \tab 972 \tab 492 \tab 504 \tab 2 \tab 4 \tab 1974 \cr
+   2014 \tab 1299 \tab 551 \tab 687 \tab - \tab 1 \tab 2538 \cr
+   2016 \tab 1477 \tab 616 \tab 770 \tab 1 \tab 3 \tab 2867 \cr
+   2018 \tab 1173 \tab 506 \tab 666 \tab 2 \tab 1 \tab 2348 \cr
+   Total \tab 9438 \tab 4416 \tab 4429 \tab 8 \tab 13 \tab 18304 \cr
+}
 }
 
 \seealso{

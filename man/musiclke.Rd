@@ -24,16 +24,22 @@ A. You visit music sites where you can learn about or hear music from artists yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2470/vshow}{GSS Data Explorer page for \code{musiclke}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not true \tab no answer \tab Total \cr
+   2000 \tab 2498 \tab 127 \tab 63 \tab 15 \tab 114 \tab 2817 \cr
+   2002 \tab 2492 \tab 146 \tab 58 \tab 23 \tab 46 \tab 2765 \cr
+   Total \tab 4990 \tab 273 \tab 121 \tab 38 \tab 160 \tab 5582 \cr
+}
 }
 
 \seealso{

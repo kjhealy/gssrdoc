@@ -25,16 +25,22 @@ G. Father
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/328/vshow}{GSS Data Explorer page for \code{father}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
+   1983 \tab - \tab 950 \tab 379 \tab 108 \tab 113 \tab 30 \tab 19 \tab 1599 \cr
+   1984 \tab 989 \tab 308 \tab 110 \tab 21 \tab 31 \tab 3 \tab 11 \tab 1473 \cr
+   Total \tab 989 \tab 1258 \tab 489 \tab 129 \tab 144 \tab 33 \tab 30 \tab 3072 \cr
+}
 }
 
 \seealso{

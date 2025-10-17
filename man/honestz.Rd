@@ -27,15 +27,21 @@ C. That he is honest
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1980 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/502/vshow}{GSS Data Explorer page for \code{honestz}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab no answer \tab Total \cr
+   1980 \tab 985 \tab 314 \tab 153 \tab 11 \tab 5 \tab 1468 \cr
+   Total \tab 985 \tab 314 \tab 153 \tab 11 \tab 5 \tab 1468 \cr
+}
 }
 
 \seealso{

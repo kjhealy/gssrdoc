@@ -22,15 +22,21 @@ Question B. Do you know what an Internet web browser is?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2631/vshow}{GSS Data Explorer page for \code{browser1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2142 \tab 457 \tab 115 \tab 4 \tab 47 \tab 2765 \cr
+   Total \tab 2142 \tab 457 \tab 115 \tab 4 \tab 47 \tab 2765 \cr
+}
 }
 
 \seealso{

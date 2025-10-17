@@ -22,15 +22,21 @@ Question Do you take part in any of the activities or organizations of your chur
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1074/vshow}{GSS Data Explorer page for \code{churhact}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1988 \tab 577 \tab 408 \tab 480 \tab 16 \tab 1481 \cr
+   Total \tab 577 \tab 408 \tab 480 \tab 16 \tab 1481 \cr
+}
 }
 
 \seealso{

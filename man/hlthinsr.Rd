@@ -22,15 +22,21 @@ Question First, are you, yourself, covered by health insurance, a government pla
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2185/vshow}{GSS Data Explorer page for \code{hlthinsr}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes covered \tab no not covered \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 1189 \tab 193 \tab 1 \tab 4 \tab 2832 \cr
+   Total \tab 1445 \tab 1189 \tab 193 \tab 1 \tab 4 \tab 2832 \cr
+}
 }
 
 \seealso{

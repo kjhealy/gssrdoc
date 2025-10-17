@@ -24,44 +24,50 @@ READ FIRST THREE CATEGORIES ONLY. CIRCLE ONLY ONE CODE.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
-   1996 \tab B/C \tab partial \cr
-   1998 \tab B/C \tab partial \cr
-   2000 \tab B/C \tab partial \cr
-   2002 \tab B/C \tab partial \cr
-   2004 \tab B/C \tab partial \cr
-   2006 \tab B/C \tab partial \cr
-   2008 \tab B/C \tab partial \cr
-   2010 \tab B/C \tab partial \cr
-   2012 \tab B/C \tab partial \cr
-   2014 \tab B/C \tab partial \cr
-   2016 \tab B/C \tab partial \cr
-   2018 \tab B/C \tab partial \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/640/vshow}{GSS Data Explorer page for \code{pornlaw}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab there should be laws against the distribution of pornography whatever the age \tab there should be laws against the distribution of pornography to persons under 18 \tab there should be no laws forbidding the distribution of pornography \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1973 \tab - \tab 626 \tab 705 \tab 138 \tab 29 \tab 6 \tab - \tab 1504 \cr
+   1975 \tab - \tab 602 \tab 709 \tab 160 \tab 18 \tab 1 \tab - \tab 1490 \cr
+   1976 \tab - \tab 599 \tab 745 \tab 121 \tab 31 \tab 3 \tab - \tab 1499 \cr
+   1978 \tab - \tab 661 \tab 743 \tab 111 \tab 16 \tab 1 \tab - \tab 1532 \cr
+   1980 \tab - \tab 591 \tab 755 \tab 90 \tab 32 \tab - \tab - \tab 1468 \cr
+   1983 \tab - \tab 656 \tab 847 \tab 71 \tab 21 \tab 4 \tab - \tab 1599 \cr
+   1984 \tab - \tab 595 \tab 790 \tab 61 \tab 18 \tab 9 \tab - \tab 1473 \cr
+   1986 \tab - \tab 626 \tab 776 \tab 53 \tab 14 \tab 1 \tab - \tab 1470 \cr
+   1987 \tab - \tab 681 \tab 1023 \tab 78 \tab 29 \tab 8 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 429 \tab 499 \tab 47 \tab 19 \tab 3 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 416 \tab 552 \tab 50 \tab 14 \tab 3 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 365 \tab 471 \tab 50 \tab 13 \tab - \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 401 \tab 558 \tab 40 \tab 15 \tab 3 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 438 \tab 568 \tab 34 \tab 14 \tab 3 \tab - \tab 1606 \cr
+   1994 \tab 981 \tab 736 \tab 1189 \tab 59 \tab 15 \tab 12 \tab - \tab 2992 \cr
+   1996 \tab 979 \tab 720 \tab 1109 \tab 72 \tab 21 \tab 3 \tab - \tab 2904 \cr
+   1998 \tab 921 \tab 720 \tab 1094 \tab 73 \tab 19 \tab 5 \tab - \tab 2832 \cr
+   2000 \tab 921 \tab 670 \tab 1136 \tab 59 \tab 21 \tab 10 \tab - \tab 2817 \cr
+   2002 \tab 1853 \tab 343 \tab 512 \tab 47 \tab 6 \tab 4 \tab - \tab 2765 \cr
+   2004 \tab 1936 \tab 339 \tab 493 \tab 37 \tab 4 \tab 3 \tab - \tab 2812 \cr
+   2006 \tab 2521 \tab 775 \tab 1125 \tab 67 \tab 19 \tab 3 \tab - \tab 4510 \cr
+   2008 \tab 658 \tab 460 \tab 848 \tab 51 \tab 6 \tab - \tab - \tab 2023 \cr
+   2010 \tab 667 \tab 436 \tab 874 \tab 55 \tab 9 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 636 \tab 455 \tab 825 \tab 43 \tab 12 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab 851 \tab 563 \tab 1042 \tab 71 \tab 8 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 911 \tab 611 \tab 1244 \tab 83 \tab 12 \tab 6 \tab - \tab 2867 \cr
+   2018 \tab 785 \tab 492 \tab 978 \tab 80 \tab 10 \tab 3 \tab - \tab 2348 \cr
+   2021 \tab 1361 \tab 686 \tab 1828 \tab 138 \tab 2 \tab - \tab 17 \tab 4032 \cr
+   2022 \tab 1173 \tab 672 \tab 1540 \tab 114 \tab 20 \tab 13 \tab 12 \tab 3544 \cr
+   Total \tab 19662 \tab 16364 \tab 25578 \tab 2153 \tab 467 \tab 116 \tab 29 \tab 64369 \cr
+}
 }
 
 \seealso{

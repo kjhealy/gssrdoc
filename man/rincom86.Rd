@@ -40,19 +40,26 @@ Question Respondent's income on 1986-90 surveys. For question wording, see RINCO
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990 \cr
+   Full \tab 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/112/vshow}{GSS Data Explorer page for \code{rincom86}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab lt $1000 \tab $1000-2999 \tab $3000-3999 \tab $4000-4999 \tab $5000-5999 \tab $6000-6999 \tab $7000-7999 \tab $8000-9999 \tab $10000-12499 \tab $12500-14999 \tab $15000-17499 \tab $17500-19999 \tab $20000-22499 \tab $22500-24999 \tab $25000-29999 \tab $30000-34999 \tab $35000-39999 \tab $40000-49999 \tab $50000-59999 \tab $60000+ \tab don't know \tab refused \tab no answer \tab Total \cr
+   1986 \tab 532 \tab 41 \tab 50 \tab 39 \tab 34 \tab 28 \tab 26 \tab 32 \tab 46 \tab 73 \tab 82 \tab 64 \tab 60 \tab 64 \tab 41 \tab 63 \tab 54 \tab 40 \tab 31 \tab 14 \tab 24 \tab 6 \tab 26 \tab - \tab 1470 \cr
+   1987 \tab 576 \tab 52 \tab 72 \tab 40 \tab 43 \tab 37 \tab 35 \tab 48 \tab 64 \tab 97 \tab 97 \tab 65 \tab 79 \tab 75 \tab 70 \tab 95 \tab 70 \tab 48 \tab 55 \tab 20 \tab 29 \tab 11 \tab 29 \tab 12 \tab 1819 \cr
+   1988 \tab 473 \tab 34 \tab 53 \tab 44 \tab 21 \tab 26 \tab 28 \tab 35 \tab 40 \tab 84 \tab 63 \tab 68 \tab 49 \tab 50 \tab 71 \tab 83 \tab 61 \tab 38 \tab 50 \tab 21 \tab 26 \tab 5 \tab 44 \tab 14 \tab 1481 \cr
+   1989 \tab 522 \tab 36 \tab 41 \tab 23 \tab 28 \tab 41 \tab 28 \tab 18 \tab 52 \tab 67 \tab 72 \tab 56 \tab 72 \tab 49 \tab 59 \tab 79 \tab 60 \tab 50 \tab 57 \tab 24 \tab 30 \tab 11 \tab 53 \tab 9 \tab 1537 \cr
+   1990 \tab 430 \tab 25 \tab 38 \tab 37 \tab 27 \tab 32 \tab 21 \tab 23 \tab 34 \tab 70 \tab 54 \tab 60 \tab 57 \tab 62 \tab 53 \tab 77 \tab 61 \tab 48 \tab 45 \tab 16 \tab 35 \tab 11 \tab 47 \tab 9 \tab 1372 \cr
+   Total \tab 2533 \tab 188 \tab 254 \tab 183 \tab 153 \tab 164 \tab 138 \tab 156 \tab 236 \tab 391 \tab 368 \tab 313 \tab 317 \tab 300 \tab 294 \tab 397 \tab 306 \tab 224 \tab 238 \tab 95 \tab 144 \tab 44 \tab 199 \tab 44 \tab 7679 \cr
+}
 }
 
 \seealso{

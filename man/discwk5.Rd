@@ -23,15 +23,21 @@ Question Over the past five years, have you been discriminated against with rega
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6325/vshow}{GSS Data Explorer page for \code{discwk5}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab did not work or did not seek work \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1390 \tab 269 \tab 1094 \tab 93 \tab 14 \tab 7 \tab 2867 \cr
+   Total \tab 1390 \tab 269 \tab 1094 \tab 93 \tab 14 \tab 7 \tab 2867 \cr
+}
 }
 
 \seealso{

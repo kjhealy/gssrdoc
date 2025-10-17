@@ -22,15 +22,21 @@ Question Have you ever worked with others in this community to try to solve some
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1024/vshow}{GSS Data Explorer page for \code{locprob}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1987 \tab - \tab 604 \tab 1206 \tab 9 \tab 1819 \cr
+   Total \tab 0 \tab 604 \tab 1206 \tab 9 \tab 1819 \cr
+}
 }
 
 \seealso{

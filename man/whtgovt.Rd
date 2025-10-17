@@ -25,15 +25,21 @@ Question A. Do you think that white people in this country get much more attenti
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1632/vshow}{GSS Data Explorer page for \code{whtgovt}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab much more \tab more \tab about right \tab less \tab much less \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 103 \tab 198 \tab 803 \tab 232 \tab 76 \tab 53 \tab 9 \tab 2992 \cr
+   Total \tab 1518 \tab 103 \tab 198 \tab 803 \tab 232 \tab 76 \tab 53 \tab 9 \tab 2992 \cr
+}
 }
 
 \seealso{

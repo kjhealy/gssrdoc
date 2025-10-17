@@ -24,15 +24,21 @@ Question How fair or unfair do you think the income distribution is in America?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7515/vshow}{GSS Data Explorer page for \code{fairdist}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very fair \tab fair \tab unfair \tab very unfair \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2029 \tab 74 \tab 406 \tab 805 \tab 367 \tab 166 \tab 174 \tab 11 \tab 4032 \cr
+   Total \tab 2029 \tab 74 \tab 406 \tab 805 \tab 367 \tab 166 \tab 174 \tab 11 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

@@ -22,15 +22,21 @@ Question Have you borrowed $100 or more from another person (not a bank, busines
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1849/vshow}{GSS Data Explorer page for \code{borrowed}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1996 \tab 2168 \tab 154 \tab 578 \tab 4 \tab 2904 \cr
+   Total \tab 2168 \tab 154 \tab 578 \tab 4 \tab 2904 \cr
+}
 }
 
 \seealso{

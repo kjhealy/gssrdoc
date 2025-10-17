@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fampress`](https://gssdataexplorer.norc.org/variables/7259/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no, never |yes, but rarely |yes, sometimes |yes, often |yes, very often |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------|:--------------|:----------|:---------------|:----------|:---------|:-----|
+#'  |2018  |1175 |626       |239             |211            |54         |38              |4          |1         |2348  |
+#'  |Total |1175 |626       |239             |211            |54         |38              |4          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -51,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `upset`](https://gssdataexplorer.norc.org/variables/7260/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |rarely |sometimes |often |very often |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:------|:---------|:-----|:----------|:----------|:---------|:-----|
+#'  |2018  |1175 |454   |444    |211       |42    |19         |1          |2         |2348  |
+#'  |Total |1175 |454   |444    |211       |42    |19         |1          |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -89,13 +101,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dinefrds`](https://gssdataexplorer.norc.org/variables/7261/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:----------|:---------|:-----|
+#'  |2018  |1175 |13    |57                   |113         |178                        |184          |196                  |201        |228   |1          |2         |2348  |
+#'  |Total |1175 |13    |57                   |113         |178                        |184          |196                  |201        |228   |1          |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -124,13 +142,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `newfrds`](https://gssdataexplorer.norc.org/variables/7262/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |rarely |sometimes |often |very often |don't know |Total |
+#'  |:-----|:----|:-----|:------|:---------|:-----|:----------|:----------|:-----|
+#'  |2018  |1404 |86    |296    |413       |95    |49         |5          |2348  |
+#'  |Total |1404 |86    |296    |413       |95    |49         |5          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -160,13 +184,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `conwkday`](https://gssdataexplorer.norc.org/variables/7263/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0-4 people |5-9 people |10-19 people |20-49 people |50-99 people |100 or more people |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:----------|:------------|:------------|:------------|:------------------|:----------|:---------|:-----|
+#'  |2018  |1175 |226        |313        |268          |224          |67           |70                 |4          |1         |2348  |
+#'  |Total |1175 |226        |313        |268          |224          |67           |70                 |4          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -195,13 +225,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `conf2f`](https://gssdataexplorer.norc.org/variables/7264/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |all or almost all of them |most of them |about half of them |some of them |none or almost none of them |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------------|:------------|:------------------|:------------|:---------------------------|:----------|:---------|:-----|
+#'  |2018  |1175 |189                       |308          |236                |332          |102                         |4          |2         |2348  |
+#'  |Total |1175 |189                       |308          |236                |332          |102                         |4          |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -235,13 +271,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cntctpar`](https://gssdataexplorer.norc.org/variables/7265/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |my parents are no longer alive |the parent i have contact with most frequently lives with me |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:------------------------------|:------------------------------------------------------------|:----------|:---------|:-----|
+#'  |2018  |1175 |262   |208                  |141         |67                         |29           |18                   |14         |22    |390                            |19                                                           |2          |1         |2348  |
+#'  |Total |1175 |262   |208                  |141         |67                         |29           |18                   |14         |22    |390                            |19                                                           |2          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -275,13 +317,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cntctsib`](https://gssdataexplorer.norc.org/variables/7266/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |i do not have brothers or sisters |the brother or sister i have contact with most frequently lives with me |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:---------------------------------|:-----------------------------------------------------------------------|:----------|:---------|:-----|
+#'  |2018  |1175 |176   |258                  |164         |193                        |118          |71                   |45         |61    |71                                |9                                                                       |5          |2         |2348  |
+#'  |Total |1175 |176   |258                  |164         |193                        |118          |71                   |45         |61    |71                                |9                                                                       |5          |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -315,13 +363,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cntctkid`](https://gssdataexplorer.norc.org/variables/7267/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |i do not have any adult children |the adult child i have contact with most frequently lives with me |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:--------------------------------|:-----------------------------------------------------------------|:----------|:---------|:-----|
+#'  |2018  |1175 |264   |151                  |63          |38                         |16           |13                   |7          |23    |563                              |18                                                                |15         |2         |2348  |
+#'  |Total |1175 |264   |151                  |63          |38                         |16           |13                   |7          |23    |563                              |18                                                                |15         |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -355,13 +409,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cntctfam`](https://gssdataexplorer.norc.org/variables/7268/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |i do not have other family members |the other family member i have the most contact with the most frequently lives with me |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:----------------------------------|:--------------------------------------------------------------------------------------|:----------|:---------|:-----|
+#'  |2018  |1175 |137   |221                  |178         |165                        |115          |167                  |79         |74    |28                                 |6                                                                                      |2          |1         |2348  |
+#'  |Total |1175 |137   |221                  |178         |165                        |115          |167                  |79         |74    |28                                 |6                                                                                      |2          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

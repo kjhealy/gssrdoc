@@ -24,15 +24,21 @@ Question Thinking back to the time when you were born, tell me which box shows t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3025/vshow}{GSS Data Explorer page for \code{bornhome}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab box a \tab box b \tab box c \tab other \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2539 \tab 51 \tab 180 \tab 16 \tab 3 \tab 16 \tab 7 \tab 2812 \cr
+   Total \tab 2539 \tab 51 \tab 180 \tab 16 \tab 3 \tab 16 \tab 7 \tab 2812 \cr
+}
 }
 
 \seealso{

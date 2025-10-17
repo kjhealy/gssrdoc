@@ -23,17 +23,23 @@ A. How well does democracy work in America today?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4960/vshow}{GSS Data Explorer page for \code{demtoday}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab very poorly \tab 1 \tab very well \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 50 \tab 5 \tab 140 \tab 23 \tab 58 \tab 67 \tab 227 \tab 170 \tab 277 \tab 316 \tab 108 \tab 25 \tab 6 \tab 2812 \cr
+   2014 \tab 1274 \tab 32 \tab 13 \tab 55 \tab 44 \tab 77 \tab 83 \tab 249 \tab 177 \tab 235 \tab 164 \tab 45 \tab 64 \tab 26 \tab 2538 \cr
+   Total \tab 2614 \tab 82 \tab 18 \tab 195 \tab 67 \tab 135 \tab 150 \tab 476 \tab 347 \tab 512 \tab 480 \tab 153 \tab 89 \tab 32 \tab 5350 \cr
+}
 }
 
 \seealso{

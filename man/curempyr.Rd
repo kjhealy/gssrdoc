@@ -21,15 +21,21 @@ Question How many years have you worked for your current employer?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3873/vshow}{GSS Data Explorer page for \code{curempyr}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 4 \tab 40 \tab 45 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1165 \tab 175 \tab 39 \tab 21 \tab 18 \tab 20 \tab 12 \tab 21 \tab 12 \tab 9 \tab 15 \tab 3 \tab 73 \tab 20 \tab 5 \tab 6 \tab 3 \tab 5 \tab 15 \tab 4 \tab 6 \tab 3 \tab 4 \tab 77 \tab 6 \tab 5 \tab 2 \tab 7 \tab 8 \tab 2 \tab 2 \tab 2 \tab 1 \tab 41 \tab 1 \tab 1 \tab 65 \tab 31 \tab 38 \tab 39 \tab 23 \tab 4 \tab 14 \tab 2023 \cr
+   Total \tab 1165 \tab 175 \tab 39 \tab 21 \tab 18 \tab 20 \tab 12 \tab 21 \tab 12 \tab 9 \tab 15 \tab 3 \tab 73 \tab 20 \tab 5 \tab 6 \tab 3 \tab 5 \tab 15 \tab 4 \tab 6 \tab 3 \tab 4 \tab 77 \tab 6 \tab 5 \tab 2 \tab 7 \tab 8 \tab 2 \tab 2 \tab 2 \tab 1 \tab 41 \tab 1 \tab 1 \tab 65 \tab 31 \tab 38 \tab 39 \tab 23 \tab 4 \tab 14 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ B. To other religious organizations, programs, or causes?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1140/vshow}{GSS Data Explorer page for \code{giverel}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 1000 \tab 10000 \tab 104 \tab 12 \tab 1200 \tab 125 \tab 15 \tab 150 \tab 1500 \tab 1650 \tab 2 \tab 20 \tab 200 \tab 2000 \tab 240 \tab 25 \tab 250 \tab 2500 \tab 25000 \tab 30 \tab 300 \tab 3000 \tab 35 \tab 350 \tab 40 \tab 400 \tab 4000 \tab 450 \tab 4500 \tab 5 \tab 50 \tab 500 \tab 50000 \tab 60 \tab 600 \tab 700 \tab 72 \tab 75 \tab 8 \tab 800 \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 947 \tab 1 \tab 14 \tab 54 \tab 10 \tab 5 \tab 1 \tab 2 \tab 1 \tab 4 \tab 2 \tab 5 \tab 2 \tab 1 \tab 2 \tab 13 \tab 39 \tab 9 \tab 2 \tab 21 \tab 5 \tab 2 \tab 1 \tab 4 \tab 23 \tab 5 \tab 1 \tab 1 \tab 2 \tab 11 \tab 1 \tab 1 \tab 1 \tab 7 \tab 41 \tab 28 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 4 \tab 1 \tab 1 \tab 68 \tab 94 \tab 2832 \cr
+   Total \tab 1387 \tab 947 \tab 1 \tab 14 \tab 54 \tab 10 \tab 5 \tab 1 \tab 2 \tab 1 \tab 4 \tab 2 \tab 5 \tab 2 \tab 1 \tab 2 \tab 13 \tab 39 \tab 9 \tab 2 \tab 21 \tab 5 \tab 2 \tab 1 \tab 4 \tab 23 \tab 5 \tab 1 \tab 1 \tab 2 \tab 11 \tab 1 \tab 1 \tab 1 \tab 7 \tab 41 \tab 28 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 4 \tab 1 \tab 1 \tab 68 \tab 94 \tab 2832 \cr
+}
 }
 
 \seealso{

@@ -13,14 +13,20 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1988, 1998 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `frndoth3`](https://gssdataexplorer.norc.org/variables/1120/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |12 |14 |18 |20 |23 |33 |35 |36 |40 |44 |51 |52 |54 |56 |58 |59 |61 |64 |65 |67 |68 |71 |74 |77 |78 |80 |81 |9  |93 |95 |97 |don't know |no answer |103 |138 |149 |150 |31 |63 |69 |99 |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:---|:---|:---|:---|:--|:--|:--|:--|:-----|
+#'  |1988  |1303 |9  |1  |2  |1  |1  |2  |4  |4  |4  |1  |2  |1  |1  |2  |8  |10 |1  |3  |4  |1  |10 |2  |1  |2  |1  |1  |2  |1  |1  |1  |1  |2          |91        |-   |-   |-   |-   |-  |-  |-  |-  |1481  |
+#'  |1998  |2686 |3  |-  |-  |-  |-  |1  |4  |-  |1  |-  |-  |-  |-  |4  |1  |-  |-  |-  |-  |-  |3  |-  |-  |1  |-  |1  |1  |-  |-  |-  |1  |4          |110       |1   |1   |1   |1   |3  |1  |2  |1  |2832  |
+#'  |Total |3989 |12 |1  |2  |1  |1  |3  |8  |4  |5  |1  |2  |1  |1  |6  |9  |10 |1  |3  |4  |1  |13 |2  |1  |3  |1  |2  |3  |1  |1  |1  |2  |6          |201       |1   |1   |1   |1   |3  |1  |2  |1  |4313  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -46,13 +52,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `frndoth4`](https://gssdataexplorer.norc.org/variables/1121/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |138 |150 |3  |31 |33 |35 |36 |40 |56 |58 |64 |68 |69 |70 |77 |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |1998  |2710 |1   |1   |1  |1  |1  |2  |1  |1  |1  |4  |1  |3  |1  |1  |2  |4          |96        |2832  |
+#'  |Total |2710 |1   |1   |1  |1  |1  |2  |1  |1  |1  |4  |1  |3  |1  |1  |2  |4          |96        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -78,13 +90,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `frndoth5`](https://gssdataexplorer.norc.org/variables/1122/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |103 |147 |20 |31 |33 |35 |40 |56 |64 |69 |80 |97 |no answer |Total |
+#'  |:-----|:----|:---|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---------|:-----|
+#'  |1998  |2735 |1   |1   |1  |2  |1  |1  |1  |2  |1  |1  |1  |1  |83        |2832  |
+#'  |Total |2735 |1   |1   |1  |2  |1  |1  |1  |2  |1  |1  |1  |1  |83        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -112,14 +130,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1988, 1998 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `frndfnd1`](https://gssdataexplorer.norc.org/variables/1123/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |fund |moderate |liberal |no answer |Total |
+#'  |:-----|:----|:----|:--------|:-------|:---------|:-----|
+#'  |1988  |39   |316  |472      |286     |368       |1481  |
+#'  |1998  |1454 |168  |322      |205     |683       |2832  |
+#'  |Total |1493 |484  |794      |491     |1051      |4313  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -147,14 +171,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1988, 1998 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `frndfnd2`](https://gssdataexplorer.norc.org/variables/1124/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |fund |moderate |liberal |no answer |Total |
+#'  |:-----|:----|:----|:--------|:-------|:---------|:-----|
+#'  |1988  |160  |261  |448      |262     |350       |1481  |
+#'  |1998  |1621 |120  |316      |160     |615       |2832  |
+#'  |Total |1781 |381  |764      |422     |965       |4313  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -182,14 +212,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1988, 1998 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `frndfnd3`](https://gssdataexplorer.norc.org/variables/1125/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |fund |moderate |liberal |no answer |Total |
+#'  |:-----|:----|:----|:--------|:-------|:---------|:-----|
+#'  |1988  |336  |259  |349      |230     |307       |1481  |
+#'  |1998  |1853 |105  |224      |142     |508       |2832  |
+#'  |Total |2189 |364  |573      |372     |815       |4313  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -217,13 +253,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `frndfnd4`](https://gssdataexplorer.norc.org/variables/1126/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |fund |moderate |liberal |no answer |Total |
+#'  |:-----|:----|:----|:--------|:-------|:---------|:-----|
+#'  |1998  |2046 |78   |190      |98      |420       |2832  |
+#'  |Total |2046 |78   |190      |98      |420       |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -251,13 +293,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `frndfnd5`](https://gssdataexplorer.norc.org/variables/1127/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |fund |moderate |liberal |no answer |Total |
+#'  |:-----|:----|:----|:--------|:-------|:---------|:-----|
+#'  |1998  |2213 |49   |152      |81      |337       |2832  |
+#'  |Total |2213 |49   |152      |81      |337       |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -287,13 +335,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `frndrac1`](https://gssdataexplorer.norc.org/variables/1128/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |asian |black |hispanic |white |something else |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:--------------|:----------|:---------|:-----|
+#'  |1998  |1454 |37    |172   |89       |979   |23             |1          |77        |2832  |
+#'  |Total |1454 |37    |172   |89       |979   |23             |1          |77        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -323,13 +377,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `frndrac2`](https://gssdataexplorer.norc.org/variables/1129/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |asian |black |hispanic |white |something else |no answer |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:--------------|:---------|:-----|
+#'  |1998  |1621 |33    |130   |63       |891   |22             |72        |2832  |
+#'  |Total |1621 |33    |130   |63       |891   |22             |72        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion

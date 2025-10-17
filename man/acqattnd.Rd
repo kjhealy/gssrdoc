@@ -26,15 +26,21 @@ C. How many do you think attend religious services regularly? Would you sayâ€
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3664/vshow}{GSS Data Explorer page for \code{acqattnd}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost all \tab most \tab about half \tab a few \tab none \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3139 \tab 90 \tab 242 \tab 429 \tab 383 \tab 36 \tab 171 \tab 20 \tab 4510 \cr
+   Total \tab 3139 \tab 90 \tab 242 \tab 429 \tab 383 \tab 36 \tab 171 \tab 20 \tab 4510 \cr
+}
 }
 
 \seealso{

@@ -26,16 +26,22 @@ B. Political parties do not give voters real policy choices
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4953/vshow}{GSS Data Explorer page for \code{choices}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 127 \tab 525 \tab 403 \tab 364 \tab 21 \tab 24 \tab 8 \tab 2812 \cr
+   2014 \tab 1274 \tab 94 \tab 490 \tab 348 \tab 210 \tab 17 \tab 97 \tab 8 \tab 2538 \cr
+   Total \tab 2614 \tab 221 \tab 1015 \tab 751 \tab 574 \tab 38 \tab 121 \tab 16 \tab 5350 \cr
+}
 }
 
 \seealso{

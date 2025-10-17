@@ -22,19 +22,26 @@ Question Are you a member of any group whose main aim is to preserve or protect 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4773/vshow}{GSS Data Explorer page for \code{grngroup}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 156 \tab 1362 \tab 39 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 113 \tab 1248 \tab 25 \tab - \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 105 \tab 1108 \tab 62 \tab 1 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 78 \tab 1344 \tab 6 \tab 2 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 186 \tab 1634 \tab 196 \tab 1 \tab 12 \tab 4032 \cr
+   Total \tab 5813 \tab 638 \tab 6696 \tab 328 \tab 4 \tab 12 \tab 13491 \cr
+}
 }
 
 \seealso{

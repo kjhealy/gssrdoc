@@ -24,15 +24,21 @@ B. The child frequently skips school and the parents don't do anything about it.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4029/vshow}{GSS Data Explorer page for \code{kidskips}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab take no action \tab give warning \tab take child \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 26 \tab 586 \tab 41 \tab 11 \tab 13 \tab 1534 \cr
+   Total \tab 857 \tab 26 \tab 586 \tab 41 \tab 11 \tab 13 \tab 1534 \cr
+}
 }
 
 \seealso{

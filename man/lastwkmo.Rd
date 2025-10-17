@@ -35,15 +35,21 @@ Question When were you last working for pay, that is what month and year were yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2868/vshow}{GSS Data Explorer page for \code{lastwkmo}}.
+
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab january \tab february \tab march \tab april \tab may \tab june \tab july \tab august \tab september \tab october \tab november \tab december \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1817 \tab 105 \tab 74 \tab 79 \tab 75 \tab 72 \tab 109 \tab 66 \tab 55 \tab 68 \tab 46 \tab 40 \tab 83 \tab 70 \tab 6 \tab 2765 \cr
+   Total \tab 1817 \tab 105 \tab 74 \tab 79 \tab 75 \tab 72 \tab 109 \tab 66 \tab 55 \tab 68 \tab 46 \tab 40 \tab 83 \tab 70 \tab 6 \tab 2765 \cr
+}
 }
 
 \seealso{

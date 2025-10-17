@@ -26,16 +26,23 @@ B. Having well educated parents?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/- \tab full \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1987 \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4242/vshow}{GSS Data Explorer page for \code{oppared}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 103 \tab 541 \tab 592 \tab 219 \tab 78 \tab 16 \tab 15 \tab - \tab 1819 \cr
+   2021 \tab 2029 \tab 159 \tab 642 \tab 738 \tab 233 \tab 73 \tab 33 \tab 116 \tab 9 \tab 4032 \cr
+   Total \tab 2284 \tab 262 \tab 1183 \tab 1330 \tab 452 \tab 151 \tab 49 \tab 131 \tab 9 \tab 5851 \cr
+}
 }
 
 \seealso{

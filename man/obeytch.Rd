@@ -25,15 +25,21 @@ C. Itâ€™s important to obey church teachings even if I donâ€™t underst
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1160/vshow}{GSS Data Explorer page for \code{obeytch}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2135 \tab 37 \tab 222 \tab 300 \tab 59 \tab 40 \tab 24 \tab 2817 \cr
+   Total \tab 2135 \tab 37 \tab 222 \tab 300 \tab 59 \tab 40 \tab 24 \tab 2817 \cr
+}
 }
 
 \seealso{

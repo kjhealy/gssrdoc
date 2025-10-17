@@ -30,15 +30,21 @@ PROBE FOR BEFORE THAT.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1484/vshow}{GSS Data Explorer page for \code{spfam16}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab other \tab both own mother and father \tab father and stepmother \tab mother and stepfather \tab father-no mother or stepmother \tab mother-no father or stepfather \tab some other male relative -no female head- \tab some other female relative -no male head- \tab other, with both male and female relatives \tab no answer \tab Total \cr
+   1994 \tab 2213 \tab 19 \tab 584 \tab 19 \tab 31 \tab 16 \tab 73 \tab 1 \tab 7 \tab 12 \tab 17 \tab 2992 \cr
+   Total \tab 2213 \tab 19 \tab 584 \tab 19 \tab 31 \tab 16 \tab 73 \tab 1 \tab 7 \tab 12 \tab 17 \tab 2992 \cr
+}
 }
 
 \seealso{

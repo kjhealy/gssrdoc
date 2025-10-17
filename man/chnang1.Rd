@@ -23,15 +23,21 @@ A. Tried to think about the situation in a different way
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1767/vshow}{GSS Data Explorer page for \code{chnang1}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab did \tab didnt \tab no answer \tab Total \cr
+   1996 \tab 1779 \tab 388 \tab 726 \tab 11 \tab 2904 \cr
+   Total \tab 1779 \tab 388 \tab 726 \tab 11 \tab 2904 \cr
+}
 }
 
 \seealso{

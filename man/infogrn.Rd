@@ -26,15 +26,21 @@ B. Environmental groups
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4792/vshow}{GSS Data Explorer page for \code{infogrn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal of trust \tab quite a lot of trust \tab some trust \tab not much trust \tab hardly any trust \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1541 \tab 156 \tab 370 \tab 416 \tab 143 \tab 42 \tab 35 \tab 114 \tab 2817 \cr
+   Total \tab 1541 \tab 156 \tab 370 \tab 416 \tab 143 \tab 42 \tab 35 \tab 114 \tab 2817 \cr
+}
 }
 
 \seealso{

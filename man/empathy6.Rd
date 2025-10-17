@@ -23,16 +23,22 @@ F. I am often quite touched by things that I see happen.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2875/vshow}{GSS Data Explorer page for \code{empathy6}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab does not describe very well \tab 2 \tab 3 \tab 4 \tab describes very well \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 46 \tab 49 \tab 241 \tab 364 \tab 651 \tab 14 \tab 7 \tab 2765 \cr
+   2004 \tab 1472 \tab 29 \tab 68 \tab 250 \tab 397 \tab 586 \tab 6 \tab 4 \tab 2812 \cr
+   Total \tab 2865 \tab 75 \tab 117 \tab 491 \tab 761 \tab 1237 \tab 20 \tab 11 \tab 5577 \cr
+}
 }
 
 \seealso{

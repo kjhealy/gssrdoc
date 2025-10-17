@@ -22,21 +22,27 @@ Question Do you feel in any way discriminated against on your job because of you
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2012, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2822/vshow}{GSS Data Explorer page for \code{wkracism}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 98 \tab 1676 \tab 8 \tab 14 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 82 \tab 1631 \tab 4 \tab 17 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 66 \tab 1096 \tab 2 \tab 23 \tab - \tab 2044 \cr
+   2012 \tab 795 \tab 80 \tab 1068 \tab 4 \tab 27 \tab - \tab 1974 \cr
+   2014 \tab 1288 \tab 47 \tab 1195 \tab 1 \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 80 \tab 1330 \tab 6 \tab 32 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 105 \tab 1845 \tab 7 \tab 14 \tab 18 \tab 3544 \cr
+   Total \tab 9140 \tab 558 \tab 9841 \tab 32 \tab 134 \tab 18 \tab 19723 \cr
+}
 }
 
 \seealso{

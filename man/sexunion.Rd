@@ -22,15 +22,21 @@ Question What is the sex of your (spouse/civil union partner/domestic partner)?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3912/vshow}{GSS Data Explorer page for \code{sexunion}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1946 \tab 25 \tab 19 \tab 1 \tab 32 \tab 2023 \cr
+   Total \tab 1946 \tab 25 \tab 19 \tab 1 \tab 32 \tab 2023 \cr
+}
 }
 
 \seealso{

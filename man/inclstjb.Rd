@@ -45,15 +45,21 @@ Question Thinking about your last job, in which of these groups did your earning
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3897/vshow}{GSS Data Explorer page for \code{inclstjb}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllll}{
+   year \tab iap \tab a. under $1,000 \tab b. $1,000 to 2,999 \tab c. $3,000 to 3,999 \tab d. $4,000 to 4,999 \tab e. $5,000 to 5,999 \tab f. $6,000 to 6,999 \tab g. $7,000 to 7,999 \tab h. $8,000 to 9,999 \tab i. $10,000 to 12,499 \tab j. $12,500 to 14,999 \tab k. $15,000 to 17,499 \tab l. $17,500 to 19,999 \tab m. $20,000 to 22,499 \tab n. $22,500 to 24,999 \tab o. $25,000 to 29,999 \tab p. $30,000 to 34,999 \tab q. $35,000 to 39,999 \tab r. $40,000 to 49,999 \tab s. $50,000 to 59,999 \tab t. $60,000 to 74,999 \tab u. $75,000 to $89,999 \tab v. $90,000 to $109,999 \tab w. $110,000 to $129,999 \tab x. $130,000 to $149,999 \tab y. $150,000 or over \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1822 \tab 5 \tab 5 \tab 6 \tab 4 \tab 7 \tab 2 \tab 6 \tab 11 \tab 14 \tab 10 \tab 9 \tab 8 \tab 10 \tab 9 \tab 18 \tab 11 \tab 9 \tab 15 \tab 6 \tab 6 \tab 6 \tab 4 \tab 2 \tab 2 \tab 1 \tab 7 \tab 8 \tab 2023 \cr
+   Total \tab 1822 \tab 5 \tab 5 \tab 6 \tab 4 \tab 7 \tab 2 \tab 6 \tab 11 \tab 14 \tab 10 \tab 9 \tab 8 \tab 10 \tab 9 \tab 18 \tab 11 \tab 9 \tab 15 \tab 6 \tab 6 \tab 6 \tab 4 \tab 2 \tab 2 \tab 1 \tab 7 \tab 8 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -25,20 +25,26 @@ N. The safety and health conditions where I work are good
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2787/vshow}{GSS Data Explorer page for \code{safehlth}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 650 \tab 969 \tab 131 \tab 21 \tab 10 \tab 15 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 667 \tab 923 \tab 89 \tab 17 \tab 24 \tab 14 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 422 \tab 655 \tab 58 \tab 18 \tab 7 \tab 27 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 489 \tab 689 \tab 51 \tab 11 \tab 3 \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 473 \tab 863 \tab 70 \tab 7 \tab 4 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 1548 \tab 746 \tab 1045 \tab 135 \tab 26 \tab 12 \tab 13 \tab 19 \tab 3544 \cr
+   Total \tab 8338 \tab 3447 \tab 5144 \tab 534 \tab 100 \tab 60 \tab 107 \tab 19 \tab 17749 \cr
+}
 }
 
 \seealso{

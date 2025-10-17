@@ -23,16 +23,22 @@ Question In the last five years, have you been denied a promotion or received a 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3923/vshow}{GSS Data Explorer page for \code{negjob5}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not employed in last 5 years \tab Total \cr
+   2008 \tab 1989 \tab 3 \tab 1 \tab 30 \tab - \tab 2023 \cr
+   2012 \tab 1918 \tab 5 \tab 1 \tab 47 \tab 3 \tab 1974 \cr
+   Total \tab 3907 \tab 8 \tab 2 \tab 77 \tab 3 \tab 3997 \cr
+}
 }
 
 \seealso{

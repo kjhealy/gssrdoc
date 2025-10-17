@@ -22,15 +22,21 @@ D. Reasons why people get angry:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1738/vshow}{GSS Data Explorer page for \code{angrywhy}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 23 \tab 29 \tab 3 \tab 32 \tab 4 \tab 43 \tab 44 \tab 45 \tab 47 \tab 48 \tab 49 \tab 5 \tab 50 \tab 56 \tab 57 \tab 58 \tab 59 \tab 6 \tab 7 \tab 8 \tab 9 \tab 90 \tab Total \cr
+   1996 \tab 1779 \tab 29 \tab 88 \tab 2 \tab 4 \tab 12 \tab 11 \tab 2 \tab 6 \tab 10 \tab 11 \tab 5 \tab 45 \tab 68 \tab 36 \tab 27 \tab 78 \tab 9 \tab 3 \tab 1 \tab 9 \tab 28 \tab 15 \tab 88 \tab 4 \tab 3 \tab 1 \tab 1 \tab 2 \tab 45 \tab 60 \tab 196 \tab 173 \tab 53 \tab 2904 \cr
+   Total \tab 1779 \tab 29 \tab 88 \tab 2 \tab 4 \tab 12 \tab 11 \tab 2 \tab 6 \tab 10 \tab 11 \tab 5 \tab 45 \tab 68 \tab 36 \tab 27 \tab 78 \tab 9 \tab 3 \tab 1 \tab 9 \tab 28 \tab 15 \tab 88 \tab 4 \tab 3 \tab 1 \tab 1 \tab 2 \tab 45 \tab 60 \tab 196 \tab 173 \tab 53 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question Are you or any members of your present household currently receiving an
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/828/vshow}{GSS Data Explorer page for \code{vetaid}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 145 \tab 1298 \tab 2 \tab 28 \tab 1473 \cr
+   Total \tab 0 \tab 145 \tab 1298 \tab 2 \tab 28 \tab 1473 \cr
+}
 }
 
 \seealso{

@@ -22,20 +22,26 @@ Question B. In the past 12 months, have you had pain in the hands, wrists, arms,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2832/vshow}{GSS Data Explorer page for \code{painarms}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 504 \tab 1271 \tab 6 \tab 15 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 473 \tab 1249 \tab 1 \tab 11 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 318 \tab 842 \tab 1 \tab 26 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 305 \tab 939 \tab 1 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 406 \tab 1008 \tab - \tab 34 \tab - \tab 2348 \cr
+   2022 \tab 1559 \tab 580 \tab 1364 \tab 5 \tab 16 \tab 20 \tab 3544 \cr
+   Total \tab 8349 \tab 2586 \tab 6673 \tab 14 \tab 107 \tab 20 \tab 17749 \cr
+}
 }
 
 \seealso{

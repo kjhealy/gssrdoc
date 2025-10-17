@@ -47,15 +47,21 @@ Question D. Specify name of web browser
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2633/vshow}{GSS Data Explorer page for \code{browser3}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllll}{
+   year \tab iap \tab explorer \tab netscape \tab excite \tab msn \tab aol \tab google \tab yahoo \tab earthlink \tab lycos \tab compuserve \tab bonzi \tab goto \tab altavista \tab hotbot \tab siap \tab mindspring \tab dogpile \tab prodigy \tab ask jeeves \tab dsl \tab netrax \tab webcorner \tab everyonesinternet \tab mamma \tab other \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2338 \tab 119 \tab 66 \tab 2 \tab 16 \tab 27 \tab 21 \tab 93 \tab 4 \tab 3 \tab 1 \tab 2 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 6 \tab 2 \tab 47 \tab 2765 \cr
+   Total \tab 2338 \tab 119 \tab 66 \tab 2 \tab 16 \tab 27 \tab 21 \tab 93 \tab 4 \tab 3 \tab 1 \tab 2 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 6 \tab 2 \tab 47 \tab 2765 \cr
+}
 }
 
 \seealso{

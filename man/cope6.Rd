@@ -25,15 +25,21 @@ F. I try to make sense of the situation and decide what to do without relying on
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2101/vshow}{GSS Data Explorer page for \code{cope6}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal \tab quite a bit \tab somewhat \tab not at all \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 180 \tab 218 \tab 470 \tab 530 \tab 26 \tab 21 \tab 2832 \cr
+   Total \tab 1387 \tab 180 \tab 218 \tab 470 \tab 530 \tab 26 \tab 21 \tab 2832 \cr
+}
 }
 
 \seealso{

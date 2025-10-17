@@ -26,18 +26,25 @@ C. Personally assisting people in trouble is very important to me
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2892/vshow}{GSS Data Explorer page for \code{peoptrbl}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 328 \tab 672 \tab 275 \tab 67 \tab 12 \tab 12 \tab 6 \tab 2765 \cr
+   2004 \tab 1472 \tab 329 \tab 715 \tab 245 \tab 41 \tab 7 \tab 1 \tab 2 \tab 2812 \cr
+   2012 \tab 666 \tab 277 \tab 748 \tab 218 \tab 47 \tab 3 \tab 7 \tab 8 \tab 1974 \cr
+   2014 \tab 1264 \tab 326 \tab 706 \tab 179 \tab 41 \tab 11 \tab 5 \tab 6 \tab 2538 \cr
+   Total \tab 4795 \tab 1260 \tab 2841 \tab 917 \tab 196 \tab 33 \tab 25 \tab 22 \tab 10089 \cr
+}
 }
 
 \seealso{

@@ -24,16 +24,22 @@ As of 2024, ETHREGION variables will only be available as restricted data, begin
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7714/vshow}{GSS Data Explorer page for \code{ethregion75}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 15 \tab 3296 \tab 6 \tab 681 \tab 1 \tab 33 \tab 4032 \cr
+   2022 \tab 216 \tab 3096 \tab 21 \tab 163 \tab 48 \tab - \tab 3544 \cr
+   Total \tab 231 \tab 6392 \tab 27 \tab 844 \tab 49 \tab 33 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

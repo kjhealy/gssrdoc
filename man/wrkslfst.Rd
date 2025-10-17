@@ -22,15 +22,21 @@ Question Respondent's First Occupation, Prestige, and Industry
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1464/vshow}{GSS Data Explorer page for \code{wrkslfst}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab self employed \tab someone else \tab no answer \tab Total \cr
+   1994 \tab 1587 \tab 63 \tab 1317 \tab 25 \tab 2992 \cr
+   Total \tab 1587 \tab 63 \tab 1317 \tab 25 \tab 2992 \cr
+}
 }
 
 \seealso{

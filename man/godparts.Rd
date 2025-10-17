@@ -25,15 +25,21 @@ F. God-parents
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4201/vshow}{GSS Data Explorer page for \code{godparts}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab more than twice in last 4 weeks \tab once or twice in last 4 weeks \tab not at all in last 4 weeks \tab i have no living relative of this type \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 39 \tab 55 \tab 291 \tab 749 \tab 5 \tab 10 \tab 2765 \cr
+   Total \tab 1616 \tab 39 \tab 55 \tab 291 \tab 749 \tab 5 \tab 10 \tab 2765 \cr
+}
 }
 
 \seealso{

@@ -22,16 +22,22 @@ Question In your job how easy is it for you to see whether your co-workers are w
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2863/vshow}{GSS Data Explorer page for \code{seecowrk}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab not at all easy to see \tab 1 \tab very easy to see \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 969 \tab 194 \tab 30 \tab 755 \tab 31 \tab 35 \tab 44 \tab 106 \tab 53 \tab 116 \tab 239 \tab 138 \tab 36 \tab 19 \tab 2765 \cr
+   2006 \tab 2778 \tab 145 \tab 20 \tab 793 \tab 31 \tab 38 \tab 38 \tab 114 \tab 39 \tab 91 \tab 212 \tab 116 \tab 65 \tab 30 \tab 4510 \cr
+   Total \tab 3747 \tab 339 \tab 50 \tab 1548 \tab 62 \tab 73 \tab 82 \tab 220 \tab 92 \tab 207 \tab 451 \tab 254 \tab 101 \tab 49 \tab 7275 \cr
+}
 }
 
 \seealso{

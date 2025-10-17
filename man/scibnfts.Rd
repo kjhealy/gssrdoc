@@ -23,21 +23,30 @@ Question Now for another type of question. People have frequently noted that sci
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3325/vshow}{GSS Data Explorer page for \code{scibnfts}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab benefits greater \tab about equal (if volunteered) \tab harmful results greater \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 1284 \tab 328 \tab 129 \tab 122 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 1015 \tab 227 \tab 149 \tab 109 \tab 5 \tab - \tab 2023 \cr
+   2010 \tab 1353 \tab 462 \tab 107 \tab 55 \tab 60 \tab 7 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 709 \tab 112 \tab 87 \tab 84 \tab 10 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 834 \tab 199 \tab 122 \tab 80 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 1007 \tab 163 \tab 112 \tab 100 \tab 8 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 861 \tab 124 \tab 117 \tab 64 \tab 9 \tab - \tab 2348 \cr
+   Total \tab 9438 \tab 6172 \tab 1260 \tab 771 \tab 619 \tab 44 \tab 0 \tab 18304 \cr
+}
 }
 
 \seealso{

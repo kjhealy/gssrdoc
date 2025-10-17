@@ -23,44 +23,50 @@ Question In general, do you find life exciting, pretty routine, or dull?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/438/vshow}{GSS Data Explorer page for \code{life}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab exciting \tab routine \tab dull \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1973 \tab - \tab 675 \tab 733 \tab 76 \tab 5 \tab 15 \tab - \tab 1504 \cr
+   1974 \tab - \tab 627 \tab 747 \tab 68 \tab 8 \tab 34 \tab - \tab 1484 \cr
+   1976 \tab - \tab 660 \tab 761 \tab 54 \tab 9 \tab 15 \tab - \tab 1499 \cr
+   1977 \tab - \tab 664 \tab 731 \tab 101 \tab 7 \tab 27 \tab - \tab 1530 \cr
+   1980 \tab - \tab 672 \tab 708 \tab 82 \tab 6 \tab - \tab - \tab 1468 \cr
+   1982 \tab - \tab 795 \tab 926 \tab 122 \tab 9 \tab 8 \tab - \tab 1860 \cr
+   1984 \tab - \tab 684 \tab 704 \tab 73 \tab 5 \tab 7 \tab - \tab 1473 \cr
+   1985 \tab - \tab 727 \tab 692 \tab 98 \tab 13 \tab 4 \tab - \tab 1534 \cr
+   1987 \tab - \tab 778 \tab 911 \tab 81 \tab 10 \tab 39 \tab - \tab 1819 \cr
+   1988 \tab 504 \tab 428 \tab 475 \tab 47 \tab 7 \tab 20 \tab - \tab 1481 \cr
+   1989 \tab 504 \tab 453 \tab 510 \tab 54 \tab 3 \tab 13 \tab - \tab 1537 \cr
+   1990 \tab 455 \tab 408 \tab 454 \tab 45 \tab 5 \tab 5 \tab - \tab 1372 \cr
+   1991 \tab 524 \tab 434 \tab 505 \tab 41 \tab 8 \tab 5 \tab - \tab 1517 \cr
+   1993 \tab 531 \tab 496 \tab 502 \tab 69 \tab 4 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab 996 \tab 938 \tab 958 \tab 82 \tab 12 \tab 6 \tab - \tab 2992 \cr
+   1996 \tab 981 \tab 951 \tab 873 \tab 80 \tab 14 \tab 5 \tab - \tab 2904 \cr
+   1998 \tab 950 \tab 838 \tab 919 \tab 103 \tab 16 \tab 6 \tab - \tab 2832 \cr
+   2000 \tab 956 \tab 853 \tab 895 \tab 90 \tab 16 \tab 7 \tab - \tab 2817 \cr
+   2002 \tab 1841 \tab 468 \tab 397 \tab 33 \tab 26 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1914 \tab 451 \tab 404 \tab 37 \tab 6 \tab - \tab - \tab 2812 \cr
+   2006 \tab 2507 \tab 984 \tab 888 \tab 102 \tab 28 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 671 \tab 647 \tab 626 \tab 64 \tab 14 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab 763 \tab 639 \tab 561 \tab 66 \tab 11 \tab 4 \tab - \tab 2044 \cr
+   2012 \tab 666 \tab 672 \tab 562 \tab 62 \tab 11 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 824 \tab 855 \tab 763 \tab 82 \tab 14 \tab - \tab - \tab 2538 \cr
+   2016 \tab 980 \tab 945 \tab 835 \tab 93 \tab 12 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab 774 \tab 766 \tab 717 \tab 72 \tab 18 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 1357 \tab 962 \tab 1571 \tab 136 \tab 1 \tab - \tab 5 \tab 4032 \cr
+   2022 \tab 1203 \tab 993 \tab 1225 \tab 114 \tab 4 \tab 1 \tab 4 \tab 3544 \cr
+   Total \tab 19901 \tab 20463 \tab 21553 \tab 2227 \tab 302 \tab 231 \tab 9 \tab 64686 \cr
+}
 }
 
 \seealso{

@@ -28,15 +28,21 @@ Other (SPECIFY).
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/363/vshow}{GSS Data Explorer page for \code{prayerx}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab prayer read daily \tab silent meditation \tab no prayers \tab other \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 730 \tab 209 \tab 382 \tab 126 \tab 11 \tab 5 \tab 7 \tab 1470 \cr
+   Total \tab 730 \tab 209 \tab 382 \tab 126 \tab 11 \tab 5 \tab 7 \tab 1470 \cr
+}
 }
 
 \seealso{

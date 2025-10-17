@@ -27,15 +27,21 @@ Question Now Iâ€™d like you to imagine a neighborhood that had an ethnic an
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2374/vshow}{GSS Data Explorer page for \code{neieth13}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab asian \tab black \tab hispanic \tab white \tab doesnt matter-dont care-race not important \tab rural-wants no neighbors \tab mixed race, 2 or more races in 1 hh \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 167 \tab 195 \tab 203 \tab 608 \tab 47 \tab 5 \tab 6 \tab 2 \tab 165 \tab 2817 \cr
+   Total \tab 1419 \tab 167 \tab 195 \tab 203 \tab 608 \tab 47 \tab 5 \tab 6 \tab 2 \tab 165 \tab 2817 \cr
+}
 }
 
 \seealso{

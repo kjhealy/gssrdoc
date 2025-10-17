@@ -25,15 +25,21 @@ G. Generally speaking, business profits are distributed fairly in the United Sta
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/231/vshow}{GSS Data Explorer page for \code{equal7}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 66 \tab 427 \tab 554 \tab 325 \tab 79 \tab 22 \tab 1473 \cr
+   Total \tab 0 \tab 66 \tab 427 \tab 554 \tab 325 \tab 79 \tab 22 \tab 1473 \cr
+}
 }
 
 \seealso{

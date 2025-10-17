@@ -23,30 +23,38 @@ D. Political clubs
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab B/C/- \tab partial \cr
-   1989 \tab B/C/- \tab partial \cr
-   1990 \tab B/C/- \tab partial \cr
-   1991 \tab B/C/- \tab partial \cr
-   1993 \tab B/C/- \tab partial \cr
-   1994 \tab B/C/- \tab partial \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
+   Full \tab 1974, 1975, 1977, 1978, 1980, 1983, 1984, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/966/vshow}{GSS Data Explorer page for \code{mempolit}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1974 \tab - \tab 66 \tab 1398 \tab 20 \tab - \tab 1484 \cr
+   1975 \tab - \tab 64 \tab 1396 \tab 29 \tab 1 \tab 1490 \cr
+   1977 \tab - \tab 73 \tab 1443 \tab 14 \tab - \tab 1530 \cr
+   1978 \tab - \tab 53 \tab 1462 \tab 17 \tab - \tab 1532 \cr
+   1980 \tab - \tab 46 \tab 1398 \tab 23 \tab 1 \tab 1468 \cr
+   1983 \tab - \tab 77 \tab 1514 \tab 8 \tab - \tab 1599 \cr
+   1984 \tab - \tab 58 \tab 1393 \tab 20 \tab 2 \tab 1473 \cr
+   1986 \tab - \tab 65 \tab 1396 \tab 9 \tab - \tab 1470 \cr
+   1987 \tab - \tab 73 \tab 1723 \tab 22 \tab 1 \tab 1819 \cr
+   1988 \tab 484 \tab 44 \tab 942 \tab 11 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 38 \tab 968 \tab 29 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 40 \tab 853 \tab 6 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 38 \tab 967 \tab 10 \tab 2 \tab 1517 \cr
+   1993 \tab 549 \tab 37 \tab 1014 \tab 5 \tab 1 \tab 1606 \cr
+   1994 \tab 2481 \tab 24 \tab 485 \tab 2 \tab - \tab 2992 \cr
+   2004 \tab 1340 \tab 63 \tab 1404 \tab 5 \tab - \tab 2812 \cr
+   Total \tab 6329 \tab 859 \tab 19756 \tab 230 \tab 8 \tab 27182 \cr
+}
 }
 
 \seealso{

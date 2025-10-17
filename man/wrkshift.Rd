@@ -24,15 +24,21 @@ Which of the following statements best describes your usual working schedule in 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6333/vshow}{GSS Data Explorer page for \code{wrkshift}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab i have a regular schedule or shift (daytime, evening, or night) \tab i have a schedule or shift which regularly changes (for example, from days to evenings or to nights) \tab i have a schedule where daily working times are decided at short notice by my employer \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1927 \tab 700 \tab 166 \tab 55 \tab 11 \tab 8 \tab 2867 \cr
+   Total \tab 1927 \tab 700 \tab 166 \tab 55 \tab 11 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

@@ -21,18 +21,26 @@ Question All in all, what do you think is the ideal number of children for a fam
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 1988, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4374/vshow}{GSS Data Explorer page for \code{numkids}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab seven or more \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1988 \tab 67 \tab 12 \tab 25 \tab 733 \tab 333 \tab 183 \tab 26 \tab 15 \tab 12 \tab 11 \tab 64 \tab - \tab 1481 \cr
+   1994 \tab 1547 \tab 9 \tab 34 \tab 783 \tab 295 \tab 159 \tab 17 \tab 4 \tab 1 \tab 18 \tab 125 \tab - \tab 2992 \cr
+   2012 \tab 672 \tab 12 \tab 32 \tab 637 \tab 355 \tab 118 \tab 23 \tab 10 \tab 2 \tab 89 \tab 24 \tab - \tab 1974 \cr
+   2022 \tab 2381 \tab 13 \tab 32 \tab 521 \tab 340 \tab 99 \tab 26 \tab 8 \tab 17 \tab 64 \tab 7 \tab 36 \tab 3544 \cr
+   Total \tab 4667 \tab 46 \tab 123 \tab 2674 \tab 1323 \tab 559 \tab 92 \tab 37 \tab 32 \tab 182 \tab 220 \tab 36 \tab 9991 \cr
+}
 }
 
 \seealso{
@@ -40,6 +48,7 @@ Other ISSP Family & Gender Roles:
 \code{\link{fourkids}},
 \code{\link{kidtrble}},
 \code{\link{mardiv}},
+\code{\link{marhomo}},
 \code{\link{nokids}},
 \code{\link{onekid}},
 \code{\link{threkids}},

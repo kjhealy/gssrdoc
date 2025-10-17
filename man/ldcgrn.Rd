@@ -26,16 +26,23 @@ B. Poorer countries should be expected to make less effort than richer countries
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010 \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4788/vshow}{GSS Data Explorer page for \code{ldcgrn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1541 \tab 40 \tab 164 \tab 245 \tab 522 \tab 142 \tab 60 \tab 103 \tab 2817 \cr
+   2010 \tab 614 \tab 31 \tab 202 \tab 202 \tab 737 \tab 173 \tab 78 \tab 7 \tab 2044 \cr
+   Total \tab 2155 \tab 71 \tab 366 \tab 447 \tab 1259 \tab 315 \tab 138 \tab 110 \tab 4861 \cr
+}
 }
 
 \seealso{

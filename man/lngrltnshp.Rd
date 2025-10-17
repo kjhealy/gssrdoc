@@ -23,15 +23,21 @@ Are you married to, partnered with, or otherwise in a long-term relationship wit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8016/vshow}{GSS Data Explorer page for \code{lngrltnshp}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2520 \tab 790 \tab 223 \tab 4 \tab 7 \tab 3544 \cr
+   Total \tab 2520 \tab 790 \tab 223 \tab 4 \tab 7 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

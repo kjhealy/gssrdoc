@@ -22,17 +22,25 @@ Question Are you currently working for pay?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4610/vshow}{GSS Data Explorer page for \code{worknow}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1998 \tab 1609 \tab 851 \tab 358 \tab 14 \tab 2832 \cr
+   2006 \tab 2994 \tab 1016 \tab 500 \tab - \tab 4510 \cr
+   2016 \tab 1390 \tab 936 \tab 537 \tab 4 \tab 2867 \cr
+   Total \tab 5993 \tab 2803 \tab 1395 \tab 18 \tab 10209 \cr
+}
 }
 
 \seealso{

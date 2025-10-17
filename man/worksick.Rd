@@ -21,15 +21,21 @@ Question During the past 3 months, how many days did you work while physically i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7967/vshow}{GSS Data Explorer page for \code{worksick}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 18 \tab 2 \tab 20 \tab 21 \tab 22 \tab 25 \tab 27 \tab 3 \tab 30 \tab 33 \tab 35 \tab 4 \tab 40 \tab 45 \tab 48 \tab 5 \tab 50 \tab 55 \tab 58 \tab 6 \tab 60 \tab 65 \tab 7 \tab 70 \tab 72 \tab 75 \tab 8 \tab 80 \tab 84 \tab 85 \tab 9 \tab 90 \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 1559 \tab 1222 \tab 83 \tab 35 \tab 1 \tab 9 \tab 2 \tab 7 \tab 11 \tab 2 \tab 1 \tab 145 \tab 16 \tab 2 \tab 1 \tab 4 \tab 1 \tab 94 \tab 19 \tab 1 \tab 1 \tab 25 \tab 6 \tab 2 \tab 1 \tab 95 \tab 3 \tab 1 \tab 1 \tab 19 \tab 13 \tab 1 \tab 34 \tab 5 \tab 1 \tab 1 \tab 10 \tab 2 \tab 3 \tab 1 \tab 1 \tab 33 \tab 18 \tab 19 \tab 33 \tab 3544 \cr
+   Total \tab 1559 \tab 1222 \tab 83 \tab 35 \tab 1 \tab 9 \tab 2 \tab 7 \tab 11 \tab 2 \tab 1 \tab 145 \tab 16 \tab 2 \tab 1 \tab 4 \tab 1 \tab 94 \tab 19 \tab 1 \tab 1 \tab 25 \tab 6 \tab 2 \tab 1 \tab 95 \tab 3 \tab 1 \tab 1 \tab 19 \tab 13 \tab 1 \tab 34 \tab 5 \tab 1 \tab 1 \tab 10 \tab 2 \tab 3 \tab 1 \tab 1 \tab 33 \tab 18 \tab 19 \tab 33 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

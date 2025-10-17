@@ -36,15 +36,21 @@ Question (If present) Second relationship with fifth person.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7109/vshow}{GSS Data Explorer page for \code{mhp5r2}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab member of religious community \tab other \tab no answer \tab Total \cr
+   2018 \tab 2245 \tab 1 \tab 1 \tab 101 \tab 2348 \cr
+   Total \tab 2245 \tab 1 \tab 1 \tab 101 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

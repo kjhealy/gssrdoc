@@ -22,20 +22,26 @@ Question In your job, do you normally work as part of a team, or do you mostly w
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2792/vshow}{GSS Data Explorer page for \code{partteam}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, i work as part of a team \tab no, i work mostly on my own \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 1015 \tab 759 \tab 8 \tab 14 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 850 \tab 861 \tab 11 \tab 12 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 629 \tab 531 \tab 2 \tab 25 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 683 \tab 556 \tab 5 \tab 6 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 760 \tab 650 \tab 7 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 1549 \tab 1172 \tab 788 \tab 6 \tab 13 \tab 16 \tab 3544 \cr
+   Total \tab 8339 \tab 5109 \tab 4145 \tab 39 \tab 101 \tab 16 \tab 17749 \cr
+}
 }
 
 \seealso{

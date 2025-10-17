@@ -22,15 +22,21 @@ O. Other (SPECIFY)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1959/vshow}{GSS Data Explorer page for \code{tototh}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 100 \tab 120 \tab 1200 \tab 15 \tab 150 \tab 20 \tab 200 \tab 2000 \tab 25 \tab 250 \tab 2500 \tab 2600 \tab 35 \tab 350 \tab 40 \tab 5 \tab 50 \tab 500 \tab 52 \tab 600 \tab 70 \tab 700 \tab 75 \tab 80 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2807 \tab 2 \tab 4 \tab 10 \tab 1 \tab 1 \tab 2 \tab 1 \tab 8 \tab 10 \tab 2 \tab 5 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 1 \tab 7 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 3 \tab 2 \tab 17 \tab 2904 \cr
+   Total \tab 2807 \tab 2 \tab 4 \tab 10 \tab 1 \tab 1 \tab 2 \tab 1 \tab 8 \tab 10 \tab 2 \tab 5 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 1 \tab 7 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 3 \tab 2 \tab 17 \tab 2904 \cr
+}
 }
 
 \seealso{

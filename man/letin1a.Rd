@@ -25,24 +25,31 @@ Question Do you think the number of immigrants to America nowadays should beÃ¢â‚
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4901/vshow}{GSS Data Explorer page for \code{letin1a}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab increased a lot \tab increased a little \tab remain the same as it is \tab reduced a little \tab reduced a lot \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2004 \tab 1906 \tab 30 \tab 52 \tab 330 \tab 222 \tab 256 \tab 16 \tab - \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 76 \tab 170 \tab 677 \tab 464 \tab 558 \tab 43 \tab 4 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 47 \tab 105 \tab 448 \tab 307 \tab 387 \tab 30 \tab 5 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 62 \tab 138 \tab 489 \tab 345 \tab 359 \tab 29 \tab 8 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 58 \tab 117 \tab 505 \tab 288 \tab 294 \tab 36 \tab 4 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 76 \tab 166 \tab 654 \tab 375 \tab 353 \tab 46 \tab 5 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 108 \tab 218 \tab 742 \tab 419 \tab 358 \tab 32 \tab 11 \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 113 \tab 227 \tab 646 \tab 298 \tab 236 \tab 32 \tab 7 \tab - \tab 2348 \cr
+   2021 \tab 1320 \tab 227 \tab 476 \tab 1128 \tab 426 \tab 413 \tab 8 \tab 3 \tab 31 \tab 4032 \cr
+   2022 \tab - \tab 398 \tab 542 \tab 1288 \tab 593 \tab 619 \tab 73 \tab 17 \tab 14 \tab 3544 \cr
+   Total \tab 10355 \tab 1195 \tab 2211 \tab 6907 \tab 3737 \tab 3833 \tab 345 \tab 64 \tab 45 \tab 28692 \cr
+}
 }
 
 \seealso{

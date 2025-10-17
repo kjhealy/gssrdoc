@@ -25,25 +25,33 @@ B. It is more important for a wife to help her husband's career than to have one
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1988 \tab A/B/- \tab partial \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/- \tab partial \cr
-   1991 \tab A/B/- \tab partial \cr
-   1993 \tab A/B/- \tab partial \cr
-   1994 \tab A/B/- \tab partial \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1998 \cr
+   A/B/C \tab 1996 \cr
+   Full \tab 1977, 1985, 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/704/vshow}{GSS Data Explorer page for \code{fehelp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1977 \tab - \tab 205 \tab 636 \tab 534 \tab 97 \tab 52 \tab 6 \tab 1530 \cr
+   1985 \tab - \tab 97 \tab 455 \tab 679 \tab 241 \tab 55 \tab 7 \tab 1534 \cr
+   1986 \tab - \tab 88 \tab 428 \tab 681 \tab 239 \tab 33 \tab 1 \tab 1470 \cr
+   1988 \tab 493 \tab 47 \tab 253 \tab 466 \tab 200 \tab 21 \tab 1 \tab 1481 \cr
+   1989 \tab 531 \tab 53 \tab 217 \tab 501 \tab 194 \tab 37 \tab 4 \tab 1537 \cr
+   1990 \tab 444 \tab 35 \tab 230 \tab 457 \tab 182 \tab 22 \tab 2 \tab 1372 \cr
+   1991 \tab 493 \tab 34 \tab 262 \tab 504 \tab 200 \tab 23 \tab 1 \tab 1517 \cr
+   1993 \tab 526 \tab 33 \tab 214 \tab 576 \tab 222 \tab 33 \tab 2 \tab 1606 \cr
+   1994 \tab 1015 \tab 59 \tab 351 \tab 1057 \tab 433 \tab 64 \tab 13 \tab 2992 \cr
+   1996 \tab 475 \tab 74 \tab 420 \tab 1278 \tab 574 \tab 73 \tab 10 \tab 2904 \cr
+   1998 \tab 961 \tab 44 \tab 303 \tab 999 \tab 459 \tab 54 \tab 12 \tab 2832 \cr
+   Total \tab 4938 \tab 769 \tab 3769 \tab 7732 \tab 3041 \tab 467 \tab 59 \tab 20775 \cr
+}
 }
 
 \seealso{

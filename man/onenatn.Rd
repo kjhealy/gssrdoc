@@ -22,15 +22,21 @@ Question Which of these two statements comes closer to your own view?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4826/vshow}{GSS Data Explorer page for \code{onenatn}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab essential to remain one nation \tab allowed to become separate \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 1155 \tab 69 \tab 120 \tab 23 \tab 2904 \cr
+   Total \tab 1537 \tab 1155 \tab 69 \tab 120 \tab 23 \tab 2904 \cr
+}
 }
 
 \seealso{

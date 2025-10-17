@@ -25,24 +25,30 @@ Question We are interested in what American Catholics think about religious matt
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/340/vshow}{GSS Data Explorer page for \code{popespks}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab certainly true \tab probably true \tab i am uncertain whether this is true or false \tab probably false \tab certainly false \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2004 \tab 2492 \tab 82 \tab 88 \tab 111 \tab 22 \tab 12 \tab 5 \tab - \tab - \tab 2812 \cr
+   2006 \tab 3756 \tab 187 \tab 191 \tab 243 \tab 68 \tab 40 \tab 7 \tab 18 \tab - \tab 4510 \cr
+   2008 \tab 1790 \tab 45 \tab 65 \tab 88 \tab 16 \tab 9 \tab 3 \tab 7 \tab - \tab 2023 \cr
+   2010 \tab 1561 \tab 84 \tab 149 \tab 167 \tab 45 \tab 23 \tab 12 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 1529 \tab 89 \tab 105 \tab 170 \tab 41 \tab 19 \tab 15 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab 1918 \tab 133 \tab 179 \tab 222 \tab 36 \tab 26 \tab 9 \tab 15 \tab - \tab 2538 \cr
+   2016 \tab 2204 \tab 155 \tab 208 \tab 210 \tab 53 \tab 13 \tab 8 \tab 16 \tab - \tab 2867 \cr
+   2018 \tab 1839 \tab 107 \tab 159 \tab 167 \tab 34 \tab 17 \tab 7 \tab 18 \tab - \tab 2348 \cr
+   2021 \tab 3203 \tab 132 \tab 215 \tab 327 \tab 84 \tab 55 \tab 5 \tab 7 \tab 4 \tab 4032 \cr
+   2022 \tab 2771 \tab 120 \tab 160 \tab 320 \tab 68 \tab 57 \tab 12 \tab 31 \tab 5 \tab 3544 \cr
+   Total \tab 23063 \tab 1134 \tab 1519 \tab 2025 \tab 467 \tab 271 \tab 83 \tab 121 \tab 9 \tab 28692 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question A. How concerned are you personally about women''s rights?  Are you ver
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/596/vshow}{GSS Data Explorer page for \code{fecare}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very concerned \tab somewhat concerned \tab not very concerned \tab not concerned at all \tab don't know \tab no answer \tab Total \cr
+   1983 \tab 804 \tab 171 \tab 377 \tab 162 \tab 69 \tab 11 \tab 5 \tab 1599 \cr
+   Total \tab 804 \tab 171 \tab 377 \tab 162 \tab 69 \tab 11 \tab 5 \tab 1599 \cr
+}
 }
 
 \seealso{

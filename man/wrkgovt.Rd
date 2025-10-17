@@ -30,26 +30,34 @@ G. About how much time (does/did) it usually take you to travel to work - about 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1985, 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/10/vshow}{GSS Data Explorer page for \code{wrkgovt}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab government \tab private \tab no answer \tab don't know \tab Total \cr
+   1985 \tab 81 \tab 263 \tab 1190 \tab - \tab - \tab 1534 \cr
+   1986 \tab 100 \tab 238 \tab 1131 \tab 1 \tab - \tab 1470 \cr
+   2000 \tab 125 \tab 415 \tab 2263 \tab 14 \tab - \tab 2817 \cr
+   2002 \tab 91 \tab 454 \tab 2187 \tab 16 \tab 17 \tab 2765 \cr
+   2004 \tab 113 \tab 504 \tab 2170 \tab 9 \tab 16 \tab 2812 \cr
+   2006 \tab 187 \tab 810 \tab 3447 \tab 26 \tab 40 \tab 4510 \cr
+   2008 \tab 62 \tab 343 \tab 1572 \tab 17 \tab 29 \tab 2023 \cr
+   2010 \tab 98 \tab 369 \tab 1538 \tab 10 \tab 29 \tab 2044 \cr
+   2012 \tab 75 \tab 371 \tab 1486 \tab 16 \tab 26 \tab 1974 \cr
+   2014 \tab 92 \tab 468 \tab 1939 \tab 11 \tab 28 \tab 2538 \cr
+   2016 \tab 90 \tab 585 \tab 2122 \tab 16 \tab 54 \tab 2867 \cr
+   2018 \tab 77 \tab 449 \tab 1765 \tab 12 \tab 45 \tab 2348 \cr
+   Total \tab 1191 \tab 5269 \tab 22810 \tab 148 \tab 284 \tab 29702 \cr
+}
 }
 
 \seealso{
@@ -57,12 +65,12 @@ Other Core:
 \code{\link{evwork}},
 \code{\link{hrs1}},
 \code{\link{hrs2}},
-\code{\link{id}},
+\code{\link{id}()},
 \code{\link{occ}},
 \code{\link{prestige}},
 \code{\link{wrkslf}},
 \code{\link{wrkstat}},
-\code{\link{year}}
+\code{\link{year}()}
 }
 \concept{Core}
 \keyword{variable}

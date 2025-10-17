@@ -27,15 +27,21 @@ G. That he acts like a boy (she acts likes a girl)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1980 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/506/vshow}{GSS Data Explorer page for \code{rolez}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab not too impt \tab not at all impt \tab don't know \tab no answer \tab Total \cr
+   1980 \tab 985 \tab 105 \tab 189 \tab 110 \tab 63 \tab 12 \tab 1 \tab 3 \tab 1468 \cr
+   Total \tab 985 \tab 105 \tab 189 \tab 110 \tab 63 \tab 12 \tab 1 \tab 3 \tab 1468 \cr
+}
 }
 
 \seealso{

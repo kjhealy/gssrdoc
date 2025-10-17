@@ -26,18 +26,24 @@ B. Immigrants are generally good for America''s economy
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4860/vshow}{GSS Data Explorer page for \code{immameco}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 60 \tab 364 \tab 413 \tab 361 \tab 52 \tab 60 \tab 57 \tab 2904 \cr
+   2004 \tab 1596 \tab 80 \tab 458 \tab 355 \tab 236 \tab 55 \tab 31 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 114 \tab 550 \tab 330 \tab 207 \tab 25 \tab 45 \tab 3 \tab 2538 \cr
+   Total \tab 4397 \tab 254 \tab 1372 \tab 1098 \tab 804 \tab 132 \tab 136 \tab 61 \tab 8254 \cr
+}
 }
 
 \seealso{

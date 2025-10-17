@@ -37,18 +37,24 @@ Question Family income on 1982-85 surveys. For question wording, see INCOME.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984, 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/109/vshow}{GSS Data Explorer page for \code{income82}}.
+
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab lt $1000 \tab $1000-2999 \tab $3000-3999 \tab $4000-4999 \tab $5000-5999 \tab $6000-6999 \tab $7000-7999 \tab $8000-9999 \tab $10000-12499 \tab $12500-14999 \tab $15000-17499 \tab $17500-19999 \tab $20000-22499 \tab $22500-24999 \tab $25000-34999 \tab $35000-49999 \tab $50000+ \tab don't know \tab no answer \tab refused \tab Total \cr
+   1982 \tab - \tab 31 \tab 59 \tab 83 \tab 71 \tab 64 \tab 63 \tab 54 \tab 95 \tab 150 \tab 146 \tab 106 \tab 84 \tab 94 \tab 105 \tab 230 \tab 161 \tab 83 \tab 80 \tab 7 \tab 94 \tab 1860 \cr
+   1983 \tab - \tab 12 \tab 38 \tab 44 \tab 45 \tab 53 \tab 31 \tab 40 \tab 87 \tab 127 \tab 94 \tab 89 \tab 69 \tab 94 \tab 93 \tab 242 \tab 153 \tab 142 \tab 69 \tab 2 \tab 75 \tab 1599 \cr
+   1984 \tab - \tab 20 \tab 32 \tab 44 \tab 31 \tab 47 \tab 30 \tab 41 \tab 55 \tab 104 \tab 97 \tab 89 \tab 65 \tab 108 \tab 85 \tab 206 \tab 168 \tab 120 \tab 78 \tab 2 \tab 51 \tab 1473 \cr
+   1985 \tab - \tab 10 \tab 31 \tab 46 \tab 48 \tab 44 \tab 60 \tab 33 \tab 61 \tab 87 \tab 92 \tab 80 \tab 61 \tab 90 \tab 78 \tab 251 \tab 185 \tab 162 \tab 51 \tab - \tab 64 \tab 1534 \cr
+   Total \tab 0 \tab 73 \tab 160 \tab 217 \tab 195 \tab 208 \tab 184 \tab 168 \tab 298 \tab 468 \tab 429 \tab 364 \tab 279 \tab 386 \tab 361 \tab 929 \tab 667 \tab 507 \tab 278 \tab 11 \tab 284 \tab 6466 \cr
+}
 }
 
 \seealso{

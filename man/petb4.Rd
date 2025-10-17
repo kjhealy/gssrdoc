@@ -22,15 +22,21 @@ Question Did your family have a pet 5 years ago?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7196/vshow}{GSS Data Explorer page for \code{petb4}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 765 \tab 385 \tab 2 \tab 21 \tab 2348 \cr
+   Total \tab 1175 \tab 765 \tab 385 \tab 2 \tab 21 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

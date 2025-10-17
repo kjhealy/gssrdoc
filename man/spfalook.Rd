@@ -22,16 +22,23 @@ Question And on average, how many hours a week does he/she spend looking after f
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
-   2022 \tab A/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/- \tab 2022 \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4484/vshow}{GSS Data Explorer page for \code{spfalook}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 hour \tab 10 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 2 \tab 20 \tab 21 \tab 24 \tab 25 \tab 26 \tab 28 \tab 3 \tab 30 \tab 32 \tab 35 \tab 36 \tab 4 \tab 40 \tab 45 \tab 48 \tab 5 \tab 50 \tab 56 \tab 6 \tab 60 \tab 65 \tab 7 \tab 70 \tab 72 \tab 75 \tab 78 \tab 8 \tab 80 \tab 84 \tab 9 \tab 96 \tab 97 hours or more \tab no answer \tab 100 \tab 120 \tab 128 \tab 140 \tab 160 \tab 168 \tab 22 \tab 27 \tab 33 \tab 34 \tab 42 \tab 90 \tab don't know \tab skipped on web \tab Total \cr
+   2012 \tab 1274 \tab 227 \tab 21 \tab 36 \tab 11 \tab 2 \tab 4 \tab 26 \tab 4 \tab 2 \tab 1 \tab 25 \tab 47 \tab 6 \tab 8 \tab 13 \tab 1 \tab 3 \tab 7 \tab 26 \tab 1 \tab 4 \tab 2 \tab 17 \tab 40 \tab 3 \tab 2 \tab 29 \tab 17 \tab 4 \tab 8 \tab 11 \tab 2 \tab 9 \tab 8 \tab 3 \tab 1 \tab 1 \tab 11 \tab 6 \tab 3 \tab 1 \tab 1 \tab 45 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2022 \tab 3023 \tab 197 \tab 13 \tab 26 \tab 10 \tab - \tab 5 \tab 9 \tab 3 \tab - \tab - \tab 17 \tab 23 \tab 1 \tab 12 \tab 9 \tab 1 \tab 1 \tab 7 \tab 10 \tab - \tab 3 \tab 1 \tab 16 \tab 21 \tab 4 \tab 4 \tab 31 \tab 5 \tab 4 \tab 14 \tab 8 \tab - \tab 4 \tab 2 \tab 1 \tab 1 \tab - \tab 9 \tab 6 \tab 1 \tab 1 \tab 1 \tab - \tab 4 \tab 10 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 9 \tab 3544 \cr
+   Total \tab 4297 \tab 424 \tab 34 \tab 62 \tab 21 \tab 2 \tab 9 \tab 35 \tab 7 \tab 2 \tab 1 \tab 42 \tab 70 \tab 7 \tab 20 \tab 22 \tab 2 \tab 4 \tab 14 \tab 36 \tab 1 \tab 7 \tab 3 \tab 33 \tab 61 \tab 7 \tab 6 \tab 60 \tab 22 \tab 8 \tab 22 \tab 19 \tab 2 \tab 13 \tab 10 \tab 4 \tab 2 \tab 1 \tab 20 \tab 12 \tab 4 \tab 2 \tab 2 \tab 45 \tab 5 \tab 10 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 9 \tab 5518 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ C. Move to another state
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4823/vshow}{GSS Data Explorer page for \code{movestat}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 271 \tab 303 \tab 190 \tab 218 \tab 320 \tab 39 \tab 26 \tab 2904 \cr
+   Total \tab 1537 \tab 271 \tab 303 \tab 190 \tab 218 \tab 320 \tab 39 \tab 26 \tab 2904 \cr
+}
 }
 
 \seealso{

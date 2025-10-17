@@ -31,31 +31,38 @@ Question Now think about the past five years--the time since February/March (199
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5064/vshow}{GSS Data Explorer page for \code{partnrs5}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab no partners \tab 1 partner \tab 2 partners \tab 3 partners \tab 4 partners \tab 5-10 partners \tab 11-20 partners \tab 21-100 partners \tab more than 100 partners \tab 1 or more, (unspecified) \tab no answer \tab don't know \tab Total \cr
+   1991 \tab 872 \tab 95 \tab 348 \tab 51 \tab 48 \tab 28 \tab 37 \tab 11 \tab 10 \tab 2 \tab 1 \tab 14 \tab - \tab 1517 \cr
+   1993 \tab 114 \tab 213 \tab 793 \tab 136 \tab 98 \tab 73 \tab 86 \tab 34 \tab 13 \tab 1 \tab 4 \tab 41 \tab - \tab 1606 \cr
+   1994 \tab 201 \tab 358 \tab 1457 \tab 253 \tab 196 \tab 130 \tab 185 \tab 53 \tab 36 \tab 4 \tab 6 \tab 112 \tab 1 \tab 2992 \cr
+   1996 \tab 258 \tab 323 \tab 1358 \tab 275 \tab 192 \tab 138 \tab 181 \tab 53 \tab 31 \tab 3 \tab 19 \tab 72 \tab 1 \tab 2904 \cr
+   1998 \tab 383 \tab 323 \tab 1294 \tab 234 \tab 151 \tab 115 \tab 149 \tab 50 \tab 16 \tab 5 \tab 34 \tab 78 \tab - \tab 2832 \cr
+   2000 \tab 417 \tab 323 \tab 1218 \tab 252 \tab 164 \tab 112 \tab 132 \tab 48 \tab 28 \tab 2 \tab 19 \tab 102 \tab - \tab 2817 \cr
+   2002 \tab 489 \tab 308 \tab 1139 \tab 231 \tab 154 \tab 129 \tab 159 \tab 56 \tab 25 \tab 2 \tab 5 \tab 60 \tab 8 \tab 2765 \cr
+   2004 \tab 584 \tab 253 \tab 1225 \tab 248 \tab 126 \tab 113 \tab 117 \tab 47 \tab 28 \tab 6 \tab 10 \tab 46 \tab 9 \tab 2812 \cr
+   2006 \tab 2096 \tab 348 \tab 1256 \tab 247 \tab 162 \tab 109 \tab 126 \tab 59 \tab 23 \tab 7 \tab 31 \tab 43 \tab 3 \tab 4510 \cr
+   2008 \tab 240 \tab 252 \tab 942 \tab 173 \tab 113 \tab 68 \tab 94 \tab 36 \tab 27 \tab 3 \tab 51 \tab 16 \tab 8 \tab 2023 \cr
+   2010 \tab 202 \tab 261 \tab 963 \tab 175 \tab 114 \tab 77 \tab 123 \tab 40 \tab 11 \tab 3 \tab 46 \tab 27 \tab 2 \tab 2044 \cr
+   2012 \tab 238 \tab 245 \tab 898 \tab 170 \tab 94 \tab 69 \tab 121 \tab 34 \tab 13 \tab 4 \tab 60 \tab 28 \tab - \tab 1974 \cr
+   2014 \tab 188 \tab 311 \tab 1272 \tab 225 \tab 145 \tab 93 \tab 138 \tab 45 \tab 23 \tab 2 \tab 41 \tab 52 \tab 3 \tab 2538 \cr
+   2016 \tab 1096 \tab 238 \tab 932 \tab 167 \tab 119 \tab 78 \tab 107 \tab 40 \tab 26 \tab 2 \tab 40 \tab 20 \tab 2 \tab 2867 \cr
+   2018 \tab 942 \tab 219 \tab 737 \tab 145 \tab 90 \tab 58 \tab 64 \tab 35 \tab 6 \tab 1 \tab 33 \tab 17 \tab 1 \tab 2348 \cr
+   2021 \tab 1699 \tab 336 \tab 1416 \tab 151 \tab 83 \tab 64 \tab 109 \tab 40 \tab 25 \tab 7 \tab 83 \tab 12 \tab 7 \tab 4032 \cr
+   2022 \tab 1898 \tab 298 \tab 864 \tab 115 \tab 94 \tab 47 \tab 76 \tab 37 \tab 16 \tab 7 \tab 20 \tab 46 \tab 26 \tab 3544 \cr
+   Total \tab 11917 \tab 4704 \tab 18112 \tab 3248 \tab 2143 \tab 1501 \tab 2004 \tab 718 \tab 357 \tab 61 \tab 503 \tab 786 \tab 71 \tab 46125 \cr
+}
 }
 
 \seealso{

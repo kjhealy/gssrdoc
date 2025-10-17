@@ -24,16 +24,22 @@ C. After the youngest child started school?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4425/vshow}{GSS Data Explorer page for \code{spwrksch}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab worked full-time \tab worked part-time \tab stayed home \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1545 \tab 608 \tab 111 \tab 125 \tab 200 \tab 403 \tab 2992 \cr
+   2002 \tab 1936 \tab 482 \tab 85 \tab 66 \tab 184 \tab 12 \tab 2765 \cr
+   Total \tab 3481 \tab 1090 \tab 196 \tab 191 \tab 384 \tab 415 \tab 5757 \cr
+}
 }
 
 \seealso{

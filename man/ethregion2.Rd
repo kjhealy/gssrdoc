@@ -22,16 +22,22 @@ Question From what country or countries did your ancestors come?  Belgium
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7641/vshow}{GSS Data Explorer page for \code{ethregion2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 15 \tab 3266 \tab 36 \tab 681 \tab 1 \tab 33 \tab 4032 \cr
+   2022 \tab 216 \tab 3089 \tab 28 \tab 163 \tab 48 \tab - \tab 3544 \cr
+   Total \tab 231 \tab 6355 \tab 64 \tab 844 \tab 49 \tab 33 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

@@ -30,16 +30,22 @@ Is (NAME) a member of your congregation?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1105/vshow}{GSS Data Explorer page for \code{frndcon3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab r isnt in congregtn \tab don't know \tab no answer \tab friend, no info \tab Total \cr
+   1988 \tab 336 \tab 253 \tab 637 \tab 197 \tab 14 \tab 44 \tab - \tab 1481 \cr
+   1998 \tab 1853 \tab 177 \tab 546 \tab 179 \tab 17 \tab 57 \tab 3 \tab 2832 \cr
+   Total \tab 2189 \tab 430 \tab 1183 \tab 376 \tab 31 \tab 101 \tab 3 \tab 4313 \cr
+}
 }
 
 \seealso{

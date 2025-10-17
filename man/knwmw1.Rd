@@ -25,15 +25,21 @@ Question Is (NAME 1), the first person, a man or a woman?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7095/vshow}{GSS Data Explorer page for \code{knwmw1}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab male \tab female \tab transgender ftm \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1751 \tab 272 \tab 321 \tab 2 \tab 1 \tab 1 \tab 2348 \cr
+   Total \tab 1751 \tab 272 \tab 321 \tab 2 \tab 1 \tab 1 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

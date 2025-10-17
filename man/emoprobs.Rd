@@ -25,16 +25,22 @@ Question In the past seven days, how often have you been bothered by emotional p
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7169/vshow}{GSS Data Explorer page for \code{emoprobs}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab rarely \tab sometimes \tab often \tab always \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 727 \tab 686 \tab 601 \tab 234 \tab 81 \tab 2 \tab 17 \tab - \tab 2348 \cr
+   2021 \tab 389 \tab 765 \tab 1092 \tab 1126 \tab 478 \tab 153 \tab - \tab 1 \tab 28 \tab 4032 \cr
+   Total \tab 389 \tab 1492 \tab 1778 \tab 1727 \tab 712 \tab 234 \tab 2 \tab 18 \tab 28 \tab 6380 \cr
+}
 }
 
 \keyword{variable}

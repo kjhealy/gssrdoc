@@ -23,15 +23,21 @@ A. IF YES:  If you could not get the rules changed, do you think you would resig
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/727/vshow}{GSS Data Explorer page for \code{racquit}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1977 \tab 998 \tab 221 \tab 269 \tab 37 \tab 5 \tab 1530 \cr
+   Total \tab 998 \tab 221 \tab 269 \tab 37 \tab 5 \tab 1530 \cr
+}
 }
 
 \seealso{

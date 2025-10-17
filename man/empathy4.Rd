@@ -23,16 +23,22 @@ D. Other people's misfortunes do not usually disturb me a great deal.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2873/vshow}{GSS Data Explorer page for \code{empathy4}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab does not describe very well \tab 2 \tab 3 \tab 4 \tab describes very well \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 485 \tab 341 \tab 302 \tab 141 \tab 83 \tab 14 \tab 6 \tab 2765 \cr
+   2004 \tab 1472 \tab 463 \tab 359 \tab 299 \tab 123 \tab 87 \tab 4 \tab 5 \tab 2812 \cr
+   Total \tab 2865 \tab 948 \tab 700 \tab 601 \tab 264 \tab 170 \tab 18 \tab 11 \tab 5577 \cr
+}
 }
 
 \seealso{

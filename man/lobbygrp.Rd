@@ -23,15 +23,21 @@ F. Contacted government officials on behalf of the organization
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1020/vshow}{GSS Data Explorer page for \code{lobbygrp}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1987 \tab 606 \tab 220 \tab 953 \tab 40 \tab 1819 \cr
+   Total \tab 606 \tab 220 \tab 953 \tab 40 \tab 1819 \cr
+}
 }
 
 \seealso{

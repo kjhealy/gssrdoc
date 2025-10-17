@@ -26,15 +26,21 @@ G. The employee''s family responsibilities
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4502/vshow}{GSS Data Explorer page for \code{famresp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab Total \cr
+   1989 \tab 84 \tab 5 \tab 19 \tab 42 \tab 1019 \tab 53 \tab 315 \tab 1537 \cr
+   Total \tab 84 \tab 5 \tab 19 \tab 42 \tab 1019 \tab 53 \tab 315 \tab 1537 \cr
+}
 }
 
 \seealso{

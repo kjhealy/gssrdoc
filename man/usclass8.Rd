@@ -25,15 +25,21 @@ H. All in all, I think social differences in this country are justified.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/240/vshow}{GSS Data Explorer page for \code{usclass8}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 120 \tab 631 \tab 474 \tab 164 \tab 58 \tab 26 \tab 1473 \cr
+   Total \tab 0 \tab 120 \tab 631 \tab 474 \tab 164 \tab 58 \tab 26 \tab 1473 \cr
+}
 }
 
 \seealso{

@@ -146,7 +146,7 @@ make_rd_describe <- function(value_labels) {
   o
 }
 
-## Old version; actually makes a crosstab
+## Construct full crosstab
 # make_rd_yrfreq <- function(var_yrtab, norc_url) {
 #   if (!is_tibble(var_yrtab)) {
 #     return("\n#'")
@@ -172,29 +172,65 @@ make_rd_describe <- function(value_labels) {
 #   paste0(headstring, paste("#' ", o, collapse = "\n"))
 # }
 
-## Experimenting with not going the crosstabs, on size grounds.
-make_rd_yrfreq <- function(variable, var_yrtab, norc_url) {
+## Construct small crosstab (valid years only)
+make_rd_yrfreq <- function(
+  variable = variable,
+  var_yrtab = var_yrtab,
+  yrballot_df = yrballot_df,
+  norc_url = norc_url
+) {
   if (!is_tibble(var_yrtab)) {
     return("\n#'")
   }
 
   options(knitr.kable.NA = '-')
 
+  valid <- yrballot_df$year
+  df <- var_yrtab |> filter(year %in% valid)
+
   headstring <- paste0(
     c(
       paste0(
-        "\n#' @section Link at the GSS: \n#' For further details see the [GSS Data Explorer page for `",
+        "\n#' @section Overview: \n#' For further details see the [GSS Data Explorer page for `",
         variable,
         "`](",
         norc_url,
         ")."
       ),
-      "#'"
+      "#'",
+      "#' Counts by year: \n#'\n"
     ),
     collapse = "\n"
   )
+  o <- df |>
+    prettify_yrtab() |>
+    knitr::kable()
+  paste0(headstring, paste("#' ", o, collapse = "\n"))
 }
 
+
+## Omit the crosstab on size grounds.
+# make_rd_yrfreq <- function(variable, var_yrtab, norc_url) {
+#   if (!is_tibble(var_yrtab)) {
+#     return("\n#'")
+#   }
+#
+#   options(knitr.kable.NA = '-')
+#
+#   headstring <- paste0(
+#     c(
+#       paste0(
+#         "\n#' @section Link at the GSS: \n#' For further details see the [GSS Data Explorer page for `",
+#         variable,
+#         "`](",
+#         norc_url,
+#         ")."
+#       ),
+#       "#'"
+#     ),
+#     collapse = "\n"
+#   )
+# }
 
 make_rd_ballotinfo <- function(yrballot_df) {
   if (!is_tibble(yrballot_df)) {
@@ -208,7 +244,22 @@ make_rd_ballotinfo <- function(yrballot_df) {
     collapse = ""
   )
   o <- yrballot_df |>
-    prettify_yrballot() |>
+    knitr::kable()
+  paste0(headstring, paste("#' ", o, collapse = "\n"))
+}
+
+make_rd_ballotinfo_wide <- function(yrballot_df_wide) {
+  if (!is_tibble(yrballot_df_wide)) {
+    return("\n#' ")
+  }
+
+  options(knitr.kable.NA = '-')
+
+  headstring <- paste0(
+    c("\n#' @section Question Years and Ballots: \n#'", "\n"),
+    collapse = ""
+  )
+  o <- yrballot_df_wide |>
     knitr::kable()
   paste0(headstring, paste("#' ", o, collapse = "\n"))
 }
@@ -303,22 +354,44 @@ gss_doc_rd <- gss_doc |>
     )
   )
 
+## Simplify the ballot table
+simplify_ballot <- function(yrballot_df) {
+  if (!is_tibble(yrballot_df)) {
+    return(NULL)
+  }
+
+  yrballot_df |>
+    mutate(ballots = str_replace(ballots, "-/-/-", "Full")) |>
+    group_by(ballots) |>
+    summarize(years = str_c(year, collapse = ", "))
+}
+
+gss_doc_rd <- gss_doc_rd |>
+  mutate(yrballot_df_wide = map(yrballot_df, \(x) simplify_ballot(x)))
 
 # Check a df
 # gss_doc_rd |>
-#   filter(variable %in% c("padeg", "madeg", "fefam", "vote16")) |>
+#   filter(variable %in% c("padeg", "madeg", "fefam", "vote16", "occ10")) |>
 #   mutate(
 #     rd4b = map_chr(subject_df, with_empty_default(\(x) pmap_chr(x, make_rd_family)))
 #   ) |>
 #   select(variable, rd4b)
 
 # docstring_test <- gss_doc_rd |>
-#   filter(variable %in% c("padeg", "polviews", "fefam", "weekswrk", "vote16")) |>
+#   filter(variable %in% c("padeg", "polviews", "fefam", "weekswrk", "vote16", "occ10")) |>
 #   mutate(
 #     rd1 = pmap_chr(list(variable, label, var_text), make_rd_skel),
 #     rd2 = map_chr(value_labels, make_rd_describe),
-#     rd3 = map_chr(yrballot_df, make_rd_ballotinfo),
-#     rd4 = pmap_chr(list(variable, var_yrtab, norc_url), make_rd_yrfreq),
+#     rd3 = map_chr(yrballot_df_wide, make_rd_ballotinfo_wide),
+#     rd4 = pmap_chr(
+#       list(
+#         variable = variable,
+#         yrballot_df = yrballot_df,
+#         var_yrtab = var_yrtab,
+#         norc_url = norc_url
+#       ),
+#       make_rd_yrfreq
+#     ),
 #     rd4a = map_chr(
 #       module_df,
 #       with_empty_default(\(x) pmap_chr(x, make_rd_family))
@@ -359,21 +432,29 @@ gss_doc_rd <- gss_doc |>
 ## Full
 docstring <- gss_doc_rd |>
   mutate(
-    rd1 = pmap_chr(list(variable, label, var_text), make_rd_skel),
-    rd2 = map_chr(value_labels, make_rd_describe),
-    rd3 = map_chr(yrballot_df, make_rd_ballotinfo),
-    rd4 = pmap_chr(list(variable, var_yrtab, norc_url), make_rd_yrfreq),
-    rd4a = map_chr(
+    rd1 = future_pmap_chr(list(variable, label, var_text), make_rd_skel),
+    rd2 = future_map_chr(value_labels, make_rd_describe),
+    rd3 = future_map_chr(yrballot_df_wide, make_rd_ballotinfo_wide),
+    rd4 = future_pmap_chr(
+      list(
+        variable = variable,
+        yrballot_df = yrballot_df,
+        var_yrtab = var_yrtab,
+        norc_url = norc_url
+      ),
+      make_rd_yrfreq
+    ),
+    rd4a = future_map_chr(
       module_df,
       with_empty_default(\(x) pmap_chr(x, make_rd_family))
     ),
     ## Too many subjects to include, but we get them anyway
-    rd4b = map_chr(
+    rd4b = future_map_chr(
       subject_df,
       with_empty_default(\(x) pmap_chr(x, make_rd_family))
     ),
-    rd5 = map_chr(variable, make_rd_varname),
-    rd6 = pmap_chr(
+    rd5 = future_map_chr(variable, make_rd_varname),
+    rd6 = future_pmap_chr(
       list(
         rd1,
         rd2,

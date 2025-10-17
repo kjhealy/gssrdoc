@@ -23,15 +23,21 @@ A. By what age should this normally occur?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2899/vshow}{GSS Data Explorer page for \code{ownhh1}}.
+
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab 13 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 30 \tab 45 \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1635 \tab 1 \tab 2 \tab 8 \tab 253 \tab 72 \tab 138 \tab 215 \tab 143 \tab 68 \tab 52 \tab 142 \tab 3 \tab 3 \tab 8 \tab 4 \tab 1 \tab 16 \tab 1 \tab 2765 \cr
+   Total \tab 1635 \tab 1 \tab 2 \tab 8 \tab 253 \tab 72 \tab 138 \tab 215 \tab 143 \tab 68 \tab 52 \tab 142 \tab 3 \tab 3 \tab 8 \tab 4 \tab 1 \tab 16 \tab 1 \tab 2765 \cr
+}
 }
 
 \seealso{

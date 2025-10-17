@@ -22,16 +22,23 @@ A. About how many e-mail messages do you send from all these computers on an ave
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2595/vshow}{GSS Data Explorer page for \code{emsent}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 110 \tab 115 \tab 12 \tab 13 \tab 15 \tab 2 \tab 20 \tab 200 \tab 25 \tab 3 \tab 30 \tab 35 \tab 4 \tab 40 \tab 5 \tab 50 \tab 52 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab 11 \tab 14 \tab 22 \tab 24 \tab 250 \tab 27 \tab 37 \tab 45 \tab 60 \tab 600 \tab 70 \tab 75 \tab 80 \tab 9 \tab Total \cr
+   2000 \tab 2423 \tab 27 \tab 69 \tab 34 \tab 3 \tab 1 \tab 1 \tab 5 \tab 1 \tab 14 \tab 46 \tab 7 \tab 1 \tab 7 \tab 39 \tab 3 \tab 3 \tab 21 \tab 4 \tab 35 \tab 6 \tab 1 \tab 9 \tab 3 \tab 2 \tab 1 \tab 51 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2131 \tab 23 \tab 76 \tab 57 \tab 2 \tab - \tab - \tab 7 \tab 1 \tab 16 \tab 78 \tab 37 \tab 5 \tab 13 \tab 63 \tab 13 \tab 3 \tab 42 \tab 13 \tab 72 \tab 13 \tab - \tab 13 \tab 6 \tab 14 \tab 7 \tab 41 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2765 \cr
+   Total \tab 4554 \tab 50 \tab 145 \tab 91 \tab 5 \tab 1 \tab 1 \tab 12 \tab 2 \tab 30 \tab 124 \tab 44 \tab 6 \tab 20 \tab 102 \tab 16 \tab 6 \tab 63 \tab 17 \tab 107 \tab 19 \tab 1 \tab 22 \tab 9 \tab 16 \tab 8 \tab 92 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

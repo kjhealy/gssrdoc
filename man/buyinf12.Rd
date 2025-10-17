@@ -23,16 +23,22 @@ C. Look for information about a product that you might want to buy?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2417/vshow}{GSS Data Explorer page for \code{buyinf12}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2075 \tab 531 \tab 135 \tab 76 \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 793 \tab 196 \tab 94 \tab 1 \tab 2765 \cr
+   Total \tab 3756 \tab 1324 \tab 331 \tab 170 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

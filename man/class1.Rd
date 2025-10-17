@@ -26,15 +26,21 @@ Question Most people see themselves as belonging to a particular class. Please t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7520/vshow}{GSS Data Explorer page for \code{class1}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab lower class \tab working class \tab lower middle class \tab middle class \tab upper middle class \tab upper class \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2029 \tab 95 \tab 461 \tab 336 \tab 666 \tab 226 \tab 22 \tab 4 \tab 178 \tab 15 \tab 4032 \cr
+   Total \tab 2029 \tab 95 \tab 461 \tab 336 \tab 666 \tab 226 \tab 22 \tab 4 \tab 178 \tab 15 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

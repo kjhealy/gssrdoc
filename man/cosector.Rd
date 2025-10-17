@@ -30,17 +30,23 @@ I. Sector of Institution?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6163/vshow}{GSS Data Explorer page for \code{cosector}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab public, 4-year or above \tab private not-for-profit, 4-year or above \tab public, 2-year \tab private for-profit, 4-year or above \tab private for-profit, 2-year \tab skipped on web \tab Total \cr
+   2012 \tab 1939 \tab 23 \tab 11 \tab 1 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2506 \tab 11 \tab 13 \tab 4 \tab 3 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 2806 \tab 29 \tab 21 \tab 8 \tab 2 \tab - \tab 1 \tab 2867 \cr
+   Total \tab 7251 \tab 63 \tab 45 \tab 13 \tab 5 \tab 1 \tab 1 \tab 7379 \cr
+}
 }
 
 \seealso{

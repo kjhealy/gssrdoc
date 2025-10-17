@@ -21,16 +21,23 @@ Question On what day or days do you attend religious services during the last se
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/C/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   A/C/- \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5310/vshow}{GSS Data Explorer page for \code{numdays}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab no answer \tab Total \cr
+   1996 \tab 2608 \tab 1 \tab 185 \tab 42 \tab 16 \tab 3 \tab 1 \tab 2 \tab 4 \tab 42 \tab 2904 \cr
+   1998 \tab 2329 \tab 2 \tab 336 \tab 105 \tab 29 \tab 12 \tab 3 \tab 1 \tab 8 \tab 7 \tab 2832 \cr
+   Total \tab 4937 \tab 3 \tab 521 \tab 147 \tab 45 \tab 15 \tab 4 \tab 3 \tab 12 \tab 49 \tab 5736 \cr
+}
 }
 
 \seealso{

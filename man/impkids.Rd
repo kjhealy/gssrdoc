@@ -26,15 +26,21 @@ C. Having children.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1440/vshow}{GSS Data Explorer page for \code{impkids}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 375 \tab 609 \tab 306 \tab 169 \tab 125 \tab 8 \tab 14 \tab 1606 \cr
+   Total \tab 0 \tab 375 \tab 609 \tab 306 \tab 169 \tab 125 \tab 8 \tab 14 \tab 1606 \cr
+}
 }
 
 \seealso{

@@ -1,108 +1,3 @@
-#'  Alt med provides better solutions
-#' 
-#'  altmed
-#' 
-#' Question How much do you agree or disagree with the following statement? Alternative medicine provides better solutions for health problems than mainstream medicine.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `altmed`](https://gssdataexplorer.norc.org/variables/7805/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name altmed
-NULL
-
-
-#'  Docs can be trusted
-#' 
-#'  doctrst
-#' 
-#' Question How much do you agree or disagree with the following statements about doctors in general in the United States? All things considered, doctors can be trusted.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `doctrst`](https://gssdataexplorer.norc.org/variables/7806/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name doctrst
-NULL
-
-
-#'  Medical skills of docs not as good as should be
-#' 
-#'  docskls
-#' 
-#' Question (How much do you agree or disagree with the following statements about doctors in general in the United States?) The medical skills of doctors are not as good as they should be.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `docskls`](https://gssdataexplorer.norc.org/variables/7807/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name docskls
-NULL
-
-
 #'  Docs care more about earnings than patients
 #' 
 #'  docearn
@@ -121,13 +16,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `docearn`](https://gssdataexplorer.norc.org/variables/7808/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2380 |83             |251   |391                        |332      |53                |48           |2         |4              |3544  |
+#'  |Total |2380 |83             |251   |391                        |332      |53                |48           |2         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -158,13 +59,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthweb`](https://gssdataexplorer.norc.org/variables/7809/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1   |2  |3   |4   |5   |6   |8  |Total |
+#'  |:-----|:----|:---|:--|:---|:---|:---|:---|:--|:-----|
+#'  |2022  |2406 |155 |28 |150 |261 |320 |200 |24 |3544  |
+#'  |Total |2406 |155 |28 |150 |261 |320 |200 |24 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -193,13 +100,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthwblif`](https://gssdataexplorer.norc.org/variables/7810/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |seldom |sometimes |often |very often |can't choose |skipped on web |Total |
+#'  |:-----|:----|:-----|:------|:---------|:-----|:----------|:------------|:--------------|:-----|
+#'  |2022  |2406 |181   |182    |411       |216   |107        |38           |3              |3544  |
+#'  |Total |2406 |181   |182    |411       |216   |107        |38           |3              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -228,13 +141,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthwbanx`](https://gssdataexplorer.norc.org/variables/7811/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |seldom |sometimes |often |very often |can't choose |skipped on web |Total |
+#'  |:-----|:----|:-----|:------|:---------|:-----|:----------|:------------|:--------------|:-----|
+#'  |2022  |2406 |357   |245    |289       |129   |75         |39           |4              |3544  |
+#'  |Total |2406 |357   |245    |289       |129   |75         |39           |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -263,13 +182,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthwbvax`](https://gssdataexplorer.norc.org/variables/7812/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |seldom |sometimes |often |very often |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----|:------|:---------|:-----|:----------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2406 |270   |256    |389       |133   |49         |39           |1         |1              |3544  |
+#'  |Total |2406 |270   |256    |389       |133   |49         |39           |1         |1              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -298,13 +223,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `webhltbeh`](https://gssdataexplorer.norc.org/variables/7813/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2406 |37             |325   |449                        |174      |73                |70           |5         |5              |3544  |
+#'  |Total |2406 |37             |325   |449                        |174      |73                |70           |5         |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -333,13 +264,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `webdocexp`](https://gssdataexplorer.norc.org/variables/7814/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2406 |70             |503   |288                        |153      |46                |70           |5         |3              |3544  |
+#'  |Total |2406 |70             |503   |288                        |153      |46                |70           |5         |3              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -347,6 +284,129 @@ NULL
 #' @keywords variable
 #' @md
 #' @name webdocexp
+NULL
+
+
+#'  Internet is useful to decide if symptoms are serious
+#' 
+#'  websympt
+#' 
+#' Question To what extent do you agree or disagree with the following statements? The internet is useful to help people decide if their symptoms are serious enough to go to the doctor.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `websympt`](https://gssdataexplorer.norc.org/variables/7815/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2381 |83             |574   |251                        |148      |43                |51           |8         |5              |3544  |
+#'  |Total |2381 |83             |574   |251                        |148      |43                |51           |8         |5              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name websympt
+NULL
+
+
+#'  Internet is useful to decide if doctors give good advice
+#' 
+#'  webdradv
+#' 
+#' Question (To what extent do you agree or disagree with the following statements?) The internet is useful to check that the doctor is giving people appropriate advice.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `webdradv`](https://gssdataexplorer.norc.org/variables/7816/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2381 |51             |431   |349                        |197      |48                |69           |8         |10             |3544  |
+#'  |Total |2381 |51             |431   |349                        |197      |48                |69           |8         |10             |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name webdradv
+NULL
+
+
+#'  Hard to distinguish reliable and unreliable info online
+#' 
+#'  webrely
+#' 
+#' Question (To what extent do you agree or disagree with the following statements?) It is not easy to distinguish between reliable and unreliable health information on the internet.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `webrely`](https://gssdataexplorer.norc.org/variables/7817/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2381 |163            |476   |268                        |159      |20                |60           |9         |8              |3544  |
+#'  |Total |2381 |163            |476   |268                        |159      |20                |60           |9         |8              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name webrely
 NULL
 
 

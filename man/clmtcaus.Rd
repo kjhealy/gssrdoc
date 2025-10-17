@@ -24,15 +24,21 @@ Question There has been a lot of discussion about the worldâ€™s climate and
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7486/vshow}{GSS Data Explorer page for \code{clmtcaus}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab has not been changing \tab has been changing mostly due to natural processes \tab has been changing about equally due to natural processes and human activity \tab has been changing mostly due to human activity \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2003 \tab 35 \tab 240 \tab 639 \tab 856 \tab 90 \tab 160 \tab 9 \tab 4032 \cr
+   Total \tab 2003 \tab 35 \tab 240 \tab 639 \tab 856 \tab 90 \tab 160 \tab 9 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

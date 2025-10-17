@@ -22,15 +22,21 @@ Question People use their health insurance to help cover the cost of receiving h
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7183/vshow}{GSS Data Explorer page for \code{abinspay}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab people should be able to \tab people should not be able to \tab don't know \tab no answer \tab Total \cr
+   2018 \tab - \tab 1077 \tab 1068 \tab 137 \tab 66 \tab 2348 \cr
+   Total \tab 0 \tab 1077 \tab 1068 \tab 137 \tab 66 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

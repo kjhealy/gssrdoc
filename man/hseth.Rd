@@ -28,15 +28,21 @@ B. Besides Whites, what was the largest racial group in your high school/the las
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2377/vshow}{GSS Data Explorer page for \code{hseth}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab blacks/african-americans \tab hispanics \tab asians \tab american indians \tab all, mixed \tab 2 or more groups \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1706 \tab 606 \tab 223 \tab 106 \tab 28 \tab 5 \tab 3 \tab 66 \tab 74 \tab 2817 \cr
+   Total \tab 1706 \tab 606 \tab 223 \tab 106 \tab 28 \tab 5 \tab 3 \tab 66 \tab 74 \tab 2817 \cr
+}
 }
 
 \seealso{

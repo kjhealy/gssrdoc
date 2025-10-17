@@ -22,45 +22,51 @@ Question What do you think is the ideal number of children for a family to have?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
-   1996 \tab A/B \tab partial \cr
-   1998 \tab A/B \tab partial \cr
-   2000 \tab A/B \tab partial \cr
-   2002 \tab A/B \tab partial \cr
-   2004 \tab A/B \tab partial \cr
-   2006 \tab A/B \tab partial \cr
-   2008 \tab A/B \tab partial \cr
-   2010 \tab A/B \tab partial \cr
-   2012 \tab A/B \tab partial \cr
-   2014 \tab A/B \tab partial \cr
-   2016 \tab A/B \tab partial \cr
-   2018 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1972, 1974, 1975, 1976, 1977, 1978, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/619/vshow}{GSS Data Explorer page for \code{chldidel}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 or more \tab as many as you want \tab don't know \tab iap \tab Total \cr
+   1972 \tab 27 \tab 19 \tab 638 \tab 375 \tab 286 \tab 49 \tab 43 \tab 18 \tab 97 \tab 61 \tab - \tab 1613 \cr
+   1974 \tab 17 \tab 30 \tab 651 \tab 346 \tab 231 \tab 32 \tab 15 \tab 6 \tab 116 \tab 40 \tab - \tab 1484 \cr
+   1975 \tab 16 \tab 28 \tab 712 \tab 347 \tab 216 \tab 17 \tab 14 \tab 5 \tab 89 \tab 46 \tab - \tab 1490 \cr
+   1976 \tab 31 \tab 49 \tab 753 \tab 298 \tab 192 \tab 27 \tab 11 \tab 6 \tab 94 \tab 38 \tab - \tab 1499 \cr
+   1977 \tab 16 \tab 28 \tab 736 \tab 347 \tab 222 \tab 37 \tab 11 \tab 12 \tab 91 \tab 30 \tab - \tab 1530 \cr
+   1978 \tab 16 \tab 26 \tab 752 \tab 353 \tab 196 \tab 34 \tab 14 \tab 8 \tab 85 \tab 48 \tab - \tab 1532 \cr
+   1982 \tab 17 \tab 54 \tab 934 \tab 350 \tab 259 \tab 37 \tab 24 \tab 22 \tab 104 \tab 59 \tab - \tab 1860 \cr
+   1983 \tab 17 \tab 27 \tab 815 \tab 370 \tab 195 \tab 23 \tab 15 \tab 3 \tab 91 \tab 43 \tab - \tab 1599 \cr
+   1985 \tab 16 \tab 38 \tab 840 \tab 331 \tab 165 \tab 27 \tab 9 \tab 10 \tab 64 \tab 34 \tab - \tab 1534 \cr
+   1986 \tab 15 \tab 24 \tab 742 \tab 359 \tab 185 \tab 25 \tab 15 \tab 5 \tab 70 \tab 30 \tab - \tab 1470 \cr
+   1988 \tab 17 \tab 16 \tab 496 \tab 252 \tab 111 \tab 15 \tab 9 \tab 3 \tab 49 \tab 20 \tab 493 \tab 1481 \cr
+   1989 \tab 11 \tab 27 \tab 536 \tab 213 \tab 89 \tab 26 \tab 8 \tab 6 \tab 53 \tab 37 \tab 531 \tab 1537 \cr
+   1990 \tab 10 \tab 17 \tab 502 \tab 217 \tab 90 \tab 12 \tab 7 \tab 1 \tab 43 \tab 29 \tab 444 \tab 1372 \cr
+   1991 \tab 11 \tab 28 \tab 537 \tab 221 \tab 103 \tab 14 \tab 7 \tab 2 \tab 61 \tab 40 \tab 493 \tab 1517 \cr
+   1993 \tab 10 \tab 37 \tab 595 \tab 216 \tab 90 \tab 13 \tab 3 \tab 3 \tab 61 \tab 52 \tab 526 \tab 1606 \cr
+   1994 \tab 27 \tab 50 \tab 1046 \tab 439 \tab 189 \tab 23 \tab 3 \tab 4 \tab 120 \tab 76 \tab 1015 \tab 2992 \cr
+   1996 \tab 24 \tab 54 \tab 1072 \tab 409 \tab 162 \tab 22 \tab 12 \tab 7 \tab 120 \tab 78 \tab 944 \tab 2904 \cr
+   1998 \tab 25 \tab 49 \tab 1005 \tab 365 \tab 163 \tab 17 \tab 11 \tab 8 \tab 157 \tab 71 \tab 961 \tab 2832 \cr
+   2000 \tab 24 \tab 64 \tab 946 \tab 439 \tab 153 \tab 14 \tab 7 \tab 2 \tab 134 \tab 94 \tab 940 \tab 2817 \cr
+   2002 \tab 13 \tab 29 \tab 447 \tab 223 \tab 81 \tab 16 \tab 5 \tab 1 \tab 79 \tab 14 \tab 1857 \tab 2765 \cr
+   2004 \tab 9 \tab 15 \tab 449 \tab 217 \tab 90 \tab 7 \tab 8 \tab 4 \tab 84 \tab 23 \tab 1906 \tab 2812 \cr
+   2006 \tab 22 \tab 42 \tab 963 \tab 506 \tab 161 \tab 23 \tab 14 \tab 6 \tab 214 \tab 41 \tab 2518 \tab 4510 \cr
+   2008 \tab 15 \tab 32 \tab 630 \tab 326 \tab 102 \tab 17 \tab 6 \tab 3 \tab 151 \tab 47 \tab 694 \tab 2023 \cr
+   2010 \tab 6 \tab 42 \tab 672 \tab 346 \tab 123 \tab 24 \tab 7 \tab 6 \tab 155 \tab 49 \tab 614 \tab 2044 \cr
+   2012 \tab 10 \tab 31 \tab 601 \tab 337 \tab 117 \tab 17 \tab 7 \tab 6 \tab 133 \tab 43 \tab 672 \tab 1974 \cr
+   2014 \tab 18 \tab 26 \tab 795 \tab 410 \tab 132 \tab 25 \tab 8 \tab 3 \tab 198 \tab 60 \tab 863 \tab 2538 \cr
+   2016 \tab 13 \tab 36 \tab 844 \tab 477 \tab 194 \tab 35 \tab 6 \tab 11 \tab 205 \tab 66 \tab 980 \tab 2867 \cr
+   2018 \tab 18 \tab 34 \tab 691 \tab 414 \tab 152 \tab 27 \tab 13 \tab 8 \tab 149 \tab 53 \tab 789 \tab 2348 \cr
+   2021 \tab 49 \tab 49 \tab 1076 \tab 501 \tab 160 \tab 22 \tab 9 \tab 3 \tab 824 \tab - \tab 1339 \tab 4032 \cr
+   2022 \tab 39 \tab 47 \tab 941 \tab 532 \tab 167 \tab 25 \tab 6 \tab 9 \tab 555 \tab - \tab 1223 \tab 3544 \cr
+   Total \tab 559 \tab 1048 \tab 22417 \tab 10536 \tab 4776 \tab 702 \tab 327 \tab 191 \tab 4446 \tab 1322 \tab 19802 \tab 66126 \cr
+}
 }
 
 \seealso{

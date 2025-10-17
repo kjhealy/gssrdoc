@@ -23,15 +23,21 @@ Question M. Does the literary, art, discussion, or study group meet in this area
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3273/vshow}{GSS Data Explorer page for \code{mtlit2}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2004 \tab 2784 \tab 16 \tab 3 \tab 9 \tab 2812 \cr
+   Total \tab 2784 \tab 16 \tab 3 \tab 9 \tab 2812 \cr
+}
 }
 
 \seealso{

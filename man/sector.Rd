@@ -30,18 +30,24 @@ A. Sector of Institution?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/69/vshow}{GSS Data Explorer page for \code{sector}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab administrative unit \tab public, 4-year or above \tab private not-for-profit, 4-year or above \tab private for-profit, 4-year or above \tab public, 2-year \tab private not-for-profit, 2-year or less \tab private for-profit, 2-year \tab private for-profit, less than 2-year \tab skipped on web \tab Total \cr
+   2012 \tab 1346 \tab 1 \tab 325 \tab 183 \tab 8 \tab 97 \tab 4 \tab 4 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab 1748 \tab - \tab 432 \tab 242 \tab 23 \tab 90 \tab 2 \tab 1 \tab - \tab - \tab 2538 \cr
+   2016 \tab 1936 \tab - \tab 538 \tab 269 \tab 15 \tab 100 \tab - \tab 2 \tab - \tab 7 \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 7378 \tab 1 \tab 1295 \tab 694 \tab 46 \tab 287 \tab 6 \tab 7 \tab 6 \tab 7 \tab 9727 \cr
+}
 }
 
 \seealso{

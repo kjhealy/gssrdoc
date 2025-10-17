@@ -24,18 +24,25 @@ Question Please remember, there are no right or wrong answers to these questions
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1987/vshow}{GSS Data Explorer page for \code{seriousp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very serious \tab somewhat serious \tab not very serious \tab not at all serious \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 899 \tab 308 \tab 148 \tab 65 \tab 9 \tab 15 \tab 2904 \cr
+   2006 \tab 3073 \tab 828 \tab 349 \tab 180 \tab 53 \tab 13 \tab 14 \tab 4510 \cr
+   2018 \tab 1175 \tab 720 \tab 265 \tab 122 \tab 34 \tab 4 \tab 28 \tab 2348 \cr
+   Total \tab 5708 \tab 2447 \tab 922 \tab 450 \tab 152 \tab 26 \tab 57 \tab 9762 \cr
+}
 }
 
 \seealso{

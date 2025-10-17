@@ -24,20 +24,26 @@ Question How hard is it to take time off during your work to take care of person
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2769/vshow}{GSS Data Explorer page for \code{famwkoff}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all hard \tab not too hard \tab somewhat hard \tab very hard \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 832 \tab 480 \tab 270 \tab 191 \tab 9 \tab 14 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 723 \tab 531 \tab 269 \tab 190 \tab 9 \tab 12 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 443 \tab 387 \tab 218 \tab 110 \tab 5 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 494 \tab 372 \tab 247 \tab 130 \tab 2 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 598 \tab 450 \tab 240 \tab 126 \tab 5 \tab 29 \tab - \tab 2348 \cr
+   2022 \tab 1541 \tab 823 \tab 651 \tab 333 \tab 168 \tab 4 \tab 12 \tab 12 \tab 3544 \cr
+   Total \tab 8331 \tab 3913 \tab 2871 \tab 1577 \tab 915 \tab 34 \tab 96 \tab 12 \tab 17749 \cr
+}
 }
 
 \seealso{

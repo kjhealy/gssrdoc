@@ -24,15 +24,21 @@ Question How concerned are you personally about the abortion issue?  Are you ver
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/618/vshow}{GSS Data Explorer page for \code{abcare}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very concerned \tab somewhat concerned \tab not very concerned \tab not concerned at all \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 989 \tab 155 \tab 209 \tab 77 \tab 35 \tab 5 \tab 3 \tab 1473 \cr
+   Total \tab 989 \tab 155 \tab 209 \tab 77 \tab 35 \tab 5 \tab 3 \tab 1473 \cr
+}
 }
 
 \seealso{

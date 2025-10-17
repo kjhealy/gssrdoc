@@ -22,15 +22,21 @@ F9. Highest school grade ninth child completed.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1536/vshow}{GSS Data Explorer page for \code{kdeduc9}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab Total \cr
+   1994 \tab 2983 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2992 \cr
+   Total \tab 2983 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2992 \cr
+}
 }
 
 \seealso{

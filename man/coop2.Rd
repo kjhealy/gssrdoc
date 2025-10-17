@@ -24,15 +24,21 @@ Question In general, what was the respondent's attitude toward the interview?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1972 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/694/vshow}{GSS Data Explorer page for \code{coop2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab friendly and eager \tab cooperative \tab indifferent \tab hostile \tab no answer \tab iap \tab Total \cr
+   1972 \tab 953 \tab 600 \tab 43 \tab 4 \tab 13 \tab - \tab 1613 \cr
+   Total \tab 953 \tab 600 \tab 43 \tab 4 \tab 13 \tab 0 \tab 1613 \cr
+}
 }
 
 \seealso{

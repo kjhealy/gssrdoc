@@ -24,16 +24,22 @@ Question Would you call yourself a strong (PREFERENCE NAMED IN RELIG) or a not v
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7596/vshow}{GSS Data Explorer page for \code{relitenv}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strong \tab not very strong \tab somewhat strong (phone mode only: volunteered) \tab no religion \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 5 \tab 483 \tab 601 \tab 338 \tab 1121 \tab 3 \tab 1430 \tab 51 \tab 4032 \cr
+   2022 \tab 239 \tab 77 \tab 90 \tab 65 \tab 439 \tab - \tab 2626 \tab 8 \tab 3544 \cr
+   Total \tab 244 \tab 560 \tab 691 \tab 403 \tab 1560 \tab 3 \tab 4056 \tab 59 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

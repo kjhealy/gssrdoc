@@ -51,16 +51,22 @@ Question What specific denomination is that, if any?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1113/vshow}{GSS Data Explorer page for \code{frndden1}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllll}{
+   year \tab iap \tab am baptist asso \tab am bapt ch in usa \tab nat bapt conv usa \tab southern baptist \tab other baptists \tab baptist-dk which \tab afr meth episcopal \tab afr meth ep zion \tab united methodist \tab other methodist \tab methodist-dk which \tab am lutheran \tab luth ch in america \tab lutheran-mo synod \tab other lutheran \tab evangelical lutheran \tab lutheran-dk which \tab presbyterian c in us \tab united pres ch in usa \tab presbyterian-dk wh \tab episcopal \tab other \tab no denomination \tab don't know \tab no answer \tab nat bapt conv of am \tab other presbyterian \tab presbyt ch usa \tab Total \cr
+   1988 \tab 731 \tab 16 \tab 5 \tab 5 \tab 100 \tab 20 \tab 75 \tab 6 \tab 1 \tab 63 \tab 4 \tab 24 \tab 18 \tab 2 \tab 12 \tab 2 \tab 2 \tab 25 \tab 6 \tab 13 \tab 19 \tab 16 \tab 120 \tab 82 \tab 21 \tab 93 \tab - \tab - \tab - \tab 1481 \cr
+   1998 \tab 2386 \tab 8 \tab 1 \tab 2 \tab 43 \tab 13 \tab 61 \tab 3 \tab 1 \tab 21 \tab 2 \tab 12 \tab 6 \tab 2 \tab 9 \tab 4 \tab 1 \tab 17 \tab 1 \tab 1 \tab 15 \tab 9 \tab 50 \tab 51 \tab 3 \tab 105 \tab 3 \tab 1 \tab 1 \tab 2832 \cr
+   Total \tab 3117 \tab 24 \tab 6 \tab 7 \tab 143 \tab 33 \tab 136 \tab 9 \tab 2 \tab 84 \tab 6 \tab 36 \tab 24 \tab 4 \tab 21 \tab 6 \tab 3 \tab 42 \tab 7 \tab 14 \tab 34 \tab 25 \tab 170 \tab 133 \tab 24 \tab 198 \tab 3 \tab 1 \tab 1 \tab 4313 \cr
+}
 }
 
 \seealso{

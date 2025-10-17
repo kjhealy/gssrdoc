@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `paidemps`](https://gssdataexplorer.norc.org/variables/3818/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |Total |
+#'  |:-----|:----|:---|:---|:-----|
+#'  |2008  |1773 |75  |175 |2023  |
+#'  |Total |1773 |75  |175 |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
@@ -52,13 +58,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bizgross`](https://gssdataexplorer.norc.org/variables/3819/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |( $15,000 |$15,001-$25,000 |$25,001-$30,000 |$30,001-$35,000 |$35,001-$50,000 |$50,001-$60,000 |$60,001-$75,000 |$75,001-$100,000 |) $100,000 |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:----------------|:----------|:----------|:---------|:-----|
+#'  |2008  |1773 |104       |16              |11              |7               |17              |9               |7               |7                |48         |12         |12        |2023  |
+#'  |Total |1773 |104       |16              |11              |7               |17              |9               |7               |7                |48         |12         |12        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
@@ -85,13 +97,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bizshare`](https://gssdataexplorer.norc.org/variables/3820/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |1  |10 |100 |15 |20 |25 |30 |33 |41 |5  |50 |51 |60 |70 |90 |don't know |Total |
+#'  |:-----|:----|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:-----|
+#'  |2008  |1773 |10 |2  |1  |164 |1  |3  |5  |2  |2  |1  |1  |44 |4  |2  |1  |1  |6          |2023  |
+#'  |Total |1773 |10 |2  |1  |164 |1  |3  |5  |2  |2  |1  |1  |44 |4  |2  |1  |1  |6          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
@@ -125,13 +143,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `owninc`](https://gssdataexplorer.norc.org/variables/3821/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |( $15,000 |$15,001-$25,000 |$25,001-$30,000 |$30,001-$35,000 |$35,001-$50,000 |$50,001-$60,000 |$60,001-$75,000 |$75,001-$100,000 |) $100,000 |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:----------------|:----------|:----------|:---------|:-----|
+#'  |2008  |1773 |120       |20              |10              |7               |18              |13              |9               |6                |24         |12         |11        |2023  |
+#'  |Total |1773 |120       |20              |10              |7               |18              |13              |9               |6                |24         |12         |11        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
@@ -159,13 +183,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whybiz`](https://gssdataexplorer.norc.org/variables/3822/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |you started it because you came across an opportunity |you started it because it was a necessity |both (volunteered) |don't know |Total |
+#'  |:-----|:----|:-----------------------------------------------------|:-----------------------------------------|:------------------|:----------|:-----|
+#'  |2008  |1773 |157                                                   |59                                        |31                 |3          |2023  |
+#'  |Total |1773 |157                                                   |59                                        |31                 |3          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
@@ -190,13 +220,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `numemps5`](https://gssdataexplorer.norc.org/variables/3823/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |10 |100 |12 |15 |2  |20 |22 |3  |30 |4  |40 |5  |50 |55 |6  |7  |70 |8  |don't know |Total |
+#'  |:-----|:----|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:-----|
+#'  |2008  |1882 |19 |12 |3   |2  |3  |23 |8  |1  |11 |1  |7  |2  |21 |2  |1  |5  |1  |1  |4  |14         |2023  |
+#'  |Total |1882 |19 |12 |3   |2  |3  |23 |8  |1  |11 |1  |7  |2  |21 |2  |1  |5  |1  |1  |4  |14         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
@@ -233,13 +269,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `spjrel16`](https://gssdataexplorer.norc.org/variables/3824/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |protestant |catholic |jewish |Total |
+#'  |:-----|:----|:----------|:--------|:------|:-----|
+#'  |2008  |1997 |8          |3        |15     |2023  |
+#'  |Total |1997 |8          |3        |15     |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -266,14 +308,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2008, 2012 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `spjoth16`](https://gssdataexplorer.norc.org/variables/3825/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |Total |
+#'  |:-----|:----|:---|:--|:-----|
+#'  |2008  |2020 |1   |2  |2023  |
+#'  |2012  |1971 |1   |2  |1974  |
+#'  |Total |3991 |2   |4  |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -300,14 +348,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2008, 2012 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `majwoth`](https://gssdataexplorer.norc.org/variables/3826/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |half/part |no |yes |Total |
+#'  |:-----|:----|:---------|:--|:---|:-----|
+#'  |2008  |2018 |2         |3  |-   |2023  |
+#'  |2012  |1971 |-         |2  |1   |1974  |
+#'  |Total |3989 |2         |5  |1   |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -334,14 +388,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2008, 2012 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `pajwoth`](https://gssdataexplorer.norc.org/variables/3827/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |half/part |no |yes |Total |
+#'  |:-----|:----|:---------|:--|:---|:-----|
+#'  |2008  |2018 |1         |4  |-   |2023  |
+#'  |2012  |1969 |-         |4  |1   |1974  |
+#'  |Total |3987 |1         |8  |1   |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity

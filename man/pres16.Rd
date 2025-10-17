@@ -24,18 +24,23 @@ Question Did you vote for Clinton or Trump?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7090/vshow}{GSS Data Explorer page for \code{pres16}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab clinton \tab trump \tab other candidate \tab didn't vote for president \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 764 \tab 577 \tab 87 \tab 20 \tab 35 \tab 811 \tab 54 \tab - \tab 2348 \cr
+   2021 \tab - \tab 1509 \tab 1037 \tab 169 \tab 49 \tab 77 \tab 902 \tab 250 \tab 39 \tab 4032 \cr
+   2022 \tab - \tab 1117 \tab 830 \tab 144 \tab 21 \tab 63 \tab 1211 \tab 143 \tab 15 \tab 3544 \cr
+   Total \tab 0 \tab 3390 \tab 2444 \tab 400 \tab 90 \tab 175 \tab 2924 \tab 447 \tab 54 \tab 9924 \cr
+}
 }
 
 \keyword{variable}

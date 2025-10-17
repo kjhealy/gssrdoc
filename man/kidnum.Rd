@@ -22,16 +22,22 @@ If you have no children age 18 and older, enter '0'.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4188/vshow}{GSS Data Explorer page for \code{kidnum}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 9 \tab Total \cr
+   2002 \tab 1616 \tab 691 \tab 99 \tab 162 \tab 100 \tab 46 \tab 18 \tab 8 \tab 21 \tab 4 \tab 2765 \cr
+   2012 \tab 1955 \tab - \tab 7 \tab 10 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   Total \tab 3571 \tab 691 \tab 106 \tab 172 \tab 102 \tab 46 \tab 18 \tab 8 \tab 21 \tab 4 \tab 4739 \cr
+}
 }
 
 \seealso{

@@ -23,16 +23,22 @@ Question Which of the following statements best describes your feelings about th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4531/vshow}{GSS Data Explorer page for \code{iwrkhard}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab only minimum \tab not to interfere \tab real hard \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 65 \tab 265 \tab 522 \tab 11 \tab 35 \tab 1537 \cr
+   1998 \tab 1967 \tab 67 \tab 306 \tab 451 \tab 13 \tab 28 \tab 2832 \cr
+   Total \tab 2606 \tab 132 \tab 571 \tab 973 \tab 24 \tab 63 \tab 4369 \cr
+}
 }
 
 \seealso{

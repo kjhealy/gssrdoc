@@ -25,15 +25,21 @@ C. A church or other religious organization
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4209/vshow}{GSS Data Explorer page for \code{grpchurh}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab i have participated more than twice \tab i have participated once or twice \tab i belong to such a group but never participate \tab i do not belong to such a group \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 422 \tab 184 \tab 116 \tab 420 \tab 7 \tab 2765 \cr
+   Total \tab 1616 \tab 422 \tab 184 \tab 116 \tab 420 \tab 7 \tab 2765 \cr
+}
 }
 
 \seealso{

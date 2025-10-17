@@ -25,19 +25,26 @@ Question (How much do you agree or disagree with each of these statements?) I do
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4740/vshow}{GSS Data Explorer page for \code{ihlpgrn}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 70 \tab 745 \tab 386 \tab 201 \tab 19 \tab 50 \tab 86 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 66 \tab 643 \tab 361 \tab 208 \tab 26 \tab 38 \tab 44 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 65 \tab 529 \tab 384 \tab 184 \tab 14 \tab 34 \tab 66 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 83 \tab 681 \tab 330 \tab 265 \tab 26 \tab 38 \tab 7 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 123 \tab 868 \tab 602 \tab 161 \tab 27 \tab 62 \tab 179 \tab 7 \tab 4032 \cr
+   Total \tab 5813 \tab 407 \tab 3466 \tab 2063 \tab 1019 \tab 112 \tab 222 \tab 382 \tab 7 \tab 13491 \cr
+}
 }
 
 \seealso{

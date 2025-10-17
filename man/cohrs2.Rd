@@ -22,21 +22,27 @@ B. IF WITH A JOB, BUT NOT AT WORK: How many hours a week does (he/she) usually w
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2012, 2024 \cr
+   A/B/C \tab 2014, 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6156/vshow}{GSS Data Explorer page for \code{cohrs2}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 30 \tab 42 \tab 40 \tab 50 \tab don't know \tab no answer \tab 34 \tab 52 \tab 32 \tab 25 \tab 35 \tab 70 \tab 89+ hours \tab Total \cr
+   2012 \tab 1972 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2532 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2862 \tab - \tab - \tab 2 \tab 1 \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2343 \tab - \tab - \tab 1 \tab 2 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 4014 \tab 1 \tab - \tab 5 \tab - \tab - \tab 8 \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 4032 \cr
+   2022 \tab 3538 \tab 1 \tab - \tab 3 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 17261 \tab 3 \tab 1 \tab 12 \tab 4 \tab 2 \tab 13 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 17303 \cr
+}
 }
 
 \seealso{

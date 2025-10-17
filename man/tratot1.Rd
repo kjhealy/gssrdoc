@@ -21,18 +21,24 @@ Question A. Total number of traumatic events happening to respondent and relativ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
-   1980 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978, 1980, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/757/vshow}{GSS Data Explorer page for \code{tratot1}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab no answer \tab 6 \tab Total \cr
+   1978 \tab - \tab 409 \tab 493 \tab 363 \tab 167 \tab 33 \tab 11 \tab 56 \tab - \tab 1532 \cr
+   1980 \tab - \tab 400 \tab 471 \tab 352 \tab 144 \tab 37 \tab 3 \tab 60 \tab 1 \tab 1468 \cr
+   1983 \tab - \tab 370 \tab 514 \tab 399 \tab 221 \tab 50 \tab 11 \tab 33 \tab 1 \tab 1599 \cr
+   1984 \tab - \tab 358 \tab 500 \tab 344 \tab 148 \tab 47 \tab 8 \tab 68 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 1537 \tab 1978 \tab 1458 \tab 680 \tab 167 \tab 33 \tab 217 \tab 2 \tab 6072 \cr
+}
 }
 
 \seealso{

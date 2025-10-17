@@ -24,27 +24,34 @@ Question B. What do you think the chances are these days that a woman won't get 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1675/vshow}{GSS Data Explorer page for \code{discaffw}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2149 \tab 132 \tab 363 \tab 152 \tab 66 \tab 31 \tab 11 \tab - \tab 2904 \cr
+   2000 \tab 1889 \tab 200 \tab 357 \tab 153 \tab 60 \tab 29 \tab 129 \tab - \tab 2817 \cr
+   2002 \tab 2295 \tab 121 \tab 234 \tab 65 \tab 29 \tab 21 \tab - \tab - \tab 2765 \cr
+   2004 \tab 2359 \tab 116 \tab 218 \tab 65 \tab 36 \tab 17 \tab 1 \tab - \tab 2812 \cr
+   2006 \tab 3512 \tab 236 \tab 440 \tab 198 \tab 85 \tab 39 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1342 \tab 165 \tab 323 \tab 135 \tab 49 \tab 9 \tab - \tab - \tab 2023 \cr
+   2010 \tab 1345 \tab 170 \tab 312 \tab 127 \tab 65 \tab 25 \tab - \tab - \tab 2044 \cr
+   2012 \tab 1332 \tab 134 \tab 294 \tab 133 \tab 60 \tab 21 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1689 \tab 175 \tab 413 \tab 164 \tab 77 \tab 19 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 1915 \tab 211 \tab 480 \tab 163 \tab 81 \tab 17 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1583 \tab 197 \tab 338 \tab 139 \tab 69 \tab 22 \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 2315 \tab 302 \tab 521 \tab 253 \tab 105 \tab 48 \tab - \tab - \tab 3544 \cr
+   Total \tab 23725 \tab 2159 \tab 4293 \tab 1747 \tab 782 \tab 298 \tab 142 \tab 4032 \tab 37178 \cr
+}
 }
 
 \seealso{

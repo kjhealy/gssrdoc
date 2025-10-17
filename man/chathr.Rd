@@ -22,16 +22,22 @@ A. Hours per week?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2386/vshow}{GSS Data Explorer page for \code{chathr}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 15 \tab 19 \tab 2 \tab 20 \tab 3 \tab 32 \tab 37 \tab 4 \tab 5 \tab 6 \tab 7 \tab 75 \tab 8 \tab 9 \tab don't know \tab no answer \tab 14 \tab 18 \tab 21 \tab 25 \tab 30 \tab 35 \tab 40 \tab Total \cr
+   2000 \tab 2074 \tab 485 \tab 49 \tab 12 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 35 \tab 2 \tab 15 \tab 1 \tab 1 \tab 10 \tab 17 \tab 9 \tab 3 \tab 1 \tab 2 \tab 3 \tab 3 \tab 86 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2403 \tab 222 \tab 22 \tab 8 \tab - \tab 2 \tab 1 \tab 5 \tab 1 \tab 13 \tab 2 \tab 7 \tab 1 \tab - \tab 2 \tab 9 \tab 5 \tab 2 \tab - \tab 3 \tab 1 \tab - \tab 49 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2765 \cr
+   Total \tab 4477 \tab 707 \tab 71 \tab 20 \tab 1 \tab 5 \tab 2 \tab 8 \tab 2 \tab 48 \tab 4 \tab 22 \tab 2 \tab 1 \tab 12 \tab 26 \tab 14 \tab 5 \tab 1 \tab 5 \tab 4 \tab 3 \tab 135 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

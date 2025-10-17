@@ -23,15 +23,21 @@ B. Offer paid time off to new parents.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1677/vshow}{GSS Data Explorer page for \code{parleave}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes, should offer this option \tab no, should not offer this option \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1444 \tab 1057 \tab 338 \tab 60 \tab 5 \tab 2904 \cr
+   Total \tab 1444 \tab 1057 \tab 338 \tab 60 \tab 5 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -27,15 +27,21 @@ Question What is the source of your health insurance?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3931/vshow}{GSS Data Explorer page for \code{hlthtype}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab my employer \tab employer of my spouse/partner \tab employer of someone else in my family \tab medicaid \tab medicare \tab individual plan from private insurer not related to current or past employment \tab other \tab no answer \tab Total \cr
+   2008 \tab 1907 \tab 46 \tab 10 \tab 2 \tab 7 \tab 16 \tab 7 \tab 4 \tab 24 \tab 2023 \cr
+   Total \tab 1907 \tab 46 \tab 10 \tab 2 \tab 7 \tab 16 \tab 7 \tab 4 \tab 24 \tab 2023 \cr
+}
 }
 
 \seealso{

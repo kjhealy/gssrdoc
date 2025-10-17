@@ -23,16 +23,22 @@ Question Now I have some questions about different groups in our society. I'm go
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1179/vshow}{GSS Data Explorer page for \code{wlthjews}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1 - rich \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 - poor \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 152 \tab 336 \tab 350 \tab 323 \tab 68 \tab 15 \tab 6 \tab 105 \tab 17 \tab 1372 \cr
+   2000 \tab 1419 \tab 138 \tab 283 \tab 325 \tab 328 \tab 73 \tab 33 \tab 14 \tab 188 \tab 16 \tab 2817 \cr
+   Total \tab 1419 \tab 290 \tab 619 \tab 675 \tab 651 \tab 141 \tab 48 \tab 20 \tab 293 \tab 33 \tab 4189 \cr
+}
 }
 
 \seealso{

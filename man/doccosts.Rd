@@ -25,15 +25,21 @@ Question How much would you trust the doctor to put your health above costs? Wou
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2756/vshow}{GSS Data Explorer page for \code{doccosts}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab completely \tab mostly \tab somewhat \tab a little \tab not at all \tab don't know \tab no answer \tab Total \cr
+   2002 \tab - \tab 362 \tab 647 \tab 748 \tab 377 \tab 585 \tab 41 \tab 5 \tab 2765 \cr
+   Total \tab 0 \tab 362 \tab 647 \tab 748 \tab 377 \tab 585 \tab 41 \tab 5 \tab 2765 \cr
+}
 }
 
 \seealso{

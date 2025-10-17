@@ -27,15 +27,21 @@ A. I would trust my family.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2251/vshow}{GSS Data Explorer page for \code{trustfam}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab completely \tab a great deal \tab somewhat \tab only a little \tab not at all \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 1025 \tab 242 \tab 77 \tab 17 \tab 17 \tab 2 \tab 7 \tab 2832 \cr
+   Total \tab 1445 \tab 1025 \tab 242 \tab 77 \tab 17 \tab 17 \tab 2 \tab 7 \tab 2832 \cr
+}
 }
 
 \seealso{

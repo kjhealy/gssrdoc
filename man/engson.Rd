@@ -23,15 +23,21 @@ Question B. If you had a son, how would you feel if he wanted to be an engineer√
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3523/vshow}{GSS Data Explorer page for \code{engson}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab happy \tab not care \tab unhappy \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1489 \tab 419 \tab 61 \tab 1 \tab 1 \tab 3 \tab 1974 \cr
+   Total \tab 1489 \tab 419 \tab 61 \tab 1 \tab 1 \tab 3 \tab 1974 \cr
+}
 }
 
 \seealso{

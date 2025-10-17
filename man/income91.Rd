@@ -41,18 +41,24 @@ Question Family income on the 1991-96 surveys. For question wording, see INCOME.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1993, 1994, 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/113/vshow}{GSS Data Explorer page for \code{income91}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab lt $1000 \tab $1000-2999 \tab $3000-3999 \tab $4000-4999 \tab $5000-5999 \tab $6000-6999 \tab $7000-7999 \tab $8000-9999 \tab $10000-12499 \tab $12500-14999 \tab $15000-17499 \tab $17500-19999 \tab $20000-22499 \tab $22500-24999 \tab $25000-29999 \tab $30000-34999 \tab $35000-39999 \tab $40000-49999 \tab $50000-59999 \tab $60000-74999 \tab $75000+ \tab don't know \tab no answer \tab refused \tab Total \cr
+   1991 \tab - \tab 11 \tab 26 \tab 31 \tab 35 \tab 39 \tab 29 \tab 23 \tab 38 \tab 76 \tab 82 \tab 97 \tab 60 \tab 60 \tab 68 \tab 112 \tab 94 \tab 86 \tab 149 \tab 86 \tab 86 \tab 80 \tab 47 \tab 17 \tab 85 \tab 1517 \cr
+   1993 \tab - \tab 17 \tab 20 \tab 25 \tab 34 \tab 34 \tab 24 \tab 29 \tab 39 \tab 69 \tab 77 \tab 63 \tab 59 \tab 63 \tab 76 \tab 98 \tab 118 \tab 107 \tab 133 \tab 114 \tab 108 \tab 160 \tab 57 \tab 11 \tab 71 \tab 1606 \cr
+   1994 \tab - \tab 23 \tab 32 \tab 36 \tab 40 \tab 49 \tab 39 \tab 42 \tab 80 \tab 131 \tab 108 \tab 120 \tab 113 \tab 125 \tab 137 \tab 195 \tab 214 \tab 163 \tab 308 \tab 227 \tab 183 \tab 271 \tab 128 \tab 52 \tab 176 \tab 2992 \cr
+   1996 \tab - \tab 26 \tab 35 \tab 18 \tab 31 \tab 43 \tab 42 \tab 31 \tab 77 \tab 119 \tab 124 \tab 104 \tab 82 \tab 100 \tab 120 \tab 187 \tab 218 \tab 185 \tab 259 \tab 231 \tab 200 \tab 329 \tab 117 \tab 39 \tab 187 \tab 2904 \cr
+   Total \tab 0 \tab 77 \tab 113 \tab 110 \tab 140 \tab 165 \tab 134 \tab 125 \tab 234 \tab 395 \tab 391 \tab 384 \tab 314 \tab 348 \tab 401 \tab 592 \tab 644 \tab 541 \tab 849 \tab 658 \tab 577 \tab 840 \tab 349 \tab 119 \tab 519 \tab 9019 \cr
+}
 }
 
 \seealso{

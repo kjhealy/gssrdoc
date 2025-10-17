@@ -25,15 +25,21 @@ Question How often do you and your spouse/partner disagree about the sharing of 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4438/vshow}{GSS Data Explorer page for \code{hhwkdis}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab several times a week \tab several times a month \tab several times a year \tab less often or rarely \tab never \tab can't choose \tab no answer \tab Total \cr
+   2002 \tab 2058 \tab 47 \tab 75 \tab 61 \tab 268 \tab 211 \tab 22 \tab 23 \tab 2765 \cr
+   Total \tab 2058 \tab 47 \tab 75 \tab 61 \tab 268 \tab 211 \tab 22 \tab 23 \tab 2765 \cr
+}
 }
 
 \seealso{

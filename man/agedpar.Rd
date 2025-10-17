@@ -23,15 +23,21 @@ Question As you know, many older people move into the homes of their grown child
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6174/vshow}{GSS Data Explorer page for \code{agedpar}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab a good idea \tab a bad idea \tab depends \tab don't know \tab Total \cr
+   2016 \tab 2411 \tab 270 \tab 113 \tab 71 \tab 2 \tab 2867 \cr
+   Total \tab 2411 \tab 270 \tab 113 \tab 71 \tab 2 \tab 2867 \cr
+}
 }
 
 \seealso{

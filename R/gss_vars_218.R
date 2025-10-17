@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relmhsp3`](https://gssdataexplorer.norc.org/variables/2061/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |oth relative |not oth relative |no answer |Total |
+#'  |:-----|:----|:------------|:----------------|:---------|:-----|
+#'  |1996  |2531 |99           |265              |9         |2904  |
+#'  |Total |2531 |99           |265              |9         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relmhsp4`](https://gssdataexplorer.norc.org/variables/2062/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |close friend |not close friend |no answer |Total |
+#'  |:-----|:----|:------------|:----------------|:---------|:-----|
+#'  |1996  |2531 |98           |266              |9         |2904  |
+#'  |Total |2531 |98           |266              |9         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relmhsp5`](https://gssdataexplorer.norc.org/variables/2063/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |acquaintance |not acquaintance |no answer |Total |
+#'  |:-----|:----|:------------|:----------------|:---------|:-----|
+#'  |1996  |2531 |88           |276              |9         |2904  |
+#'  |Total |2531 |88           |276              |9         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relmhsp6`](https://gssdataexplorer.norc.org/variables/2064/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |other |not other |no answer |Total |
+#'  |:-----|:----|:-----|:---------|:---------|:-----|
+#'  |1996  |2531 |26    |338       |9         |2904  |
+#'  |Total |2531 |26    |338       |9         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -145,15 +169,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2024 |A/C/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1996, 2002 |
+#'  |A/C/-   |2024       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwpatnt`](https://gssdataexplorer.norc.org/variables/2065/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no  |don't know |no answer |Total |
+#'  |:-----|:----|:----|:---|:----------|:---------|:-----|
+#'  |1996  |2168 |388  |271 |11         |66        |2904  |
+#'  |2002  |1859 |728  |176 |2          |-         |2765  |
+#'  |Total |4027 |1116 |447 |13         |66        |5669  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -179,14 +209,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2016 |B/C/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
+#'  |B/C/-   |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `evbrkdwn`](https://gssdataexplorer.norc.org/variables/2066/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |1996  |1460 |376 |1047 |10         |11        |2904  |
+#'  |2016  |1745 |385 |724  |1          |12        |2867  |
+#'  |Total |3205 |761 |1771 |11         |23        |5771  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -213,13 +250,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `brkdwhy1`](https://gssdataexplorer.norc.org/variables/2067/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |10 |101 |11 |12 |129 |13 |15 |16 |17 |18 |19 |202 |204 |206 |207 |21 |213 |216 |219 |22 |23 |24 |25 |29 |300 |304 |309 |31 |32 |34 |36 |39 |400 |404 |41 |411 |500 |502 |503 |504 |505 |508 |509 |519 |521 |523 |524 |526 |540 |611 |613 |614 |700 |702 |710 |730 |749 |80 |800 |801 |802 |803 |804 |805 |806 |807 |810 |811 |813 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:---|:--|:--|:---|:--|:--|:--|:--|:--|:--|:---|:---|:---|:---|:--|:---|:---|:---|:--|:--|:--|:--|:--|:---|:---|:---|:--|:--|:--|:--|:--|:---|:---|:--|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:--|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:----------|:---------|:-----|
+#'  |1996  |2517 |16 |6   |1  |7  |1   |7  |18 |5  |3  |18 |10 |1   |4   |1   |1   |27 |2   |7   |1   |8  |7  |2  |9  |7  |1   |3   |1   |1  |1  |1  |2  |5  |2   |3   |59 |1   |4   |4   |6   |4   |2   |2   |3   |1   |2   |6   |9   |4   |1   |3   |2   |2   |2   |1   |1   |1   |1   |10 |4   |1   |11  |7   |2   |1   |2   |4   |2   |1   |1   |1          |30        |2904  |
+#'  |Total |2517 |16 |6   |1  |7  |1   |7  |18 |5  |3  |18 |10 |1   |4   |1   |1   |27 |2   |7   |1   |8  |7  |2  |9  |7  |1   |3   |1   |1  |1  |1  |2  |5  |2   |3   |59 |1   |4   |4   |6   |4   |2   |2   |3   |1   |2   |6   |9   |4   |1   |3   |2   |2   |2   |1   |1   |1   |1   |10 |4   |1   |11  |7   |2   |1   |2   |4   |2   |1   |1   |1          |30        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -245,13 +288,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `brkdwhy2`](https://gssdataexplorer.norc.org/variables/2068/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |10 |101 |11 |12 |122 |129 |13 |14 |15 |16 |17 |18 |19 |200 |201 |203 |204 |206 |21 |213 |216 |219 |22 |23 |24 |25 |29 |309 |31 |33 |34 |39 |41 |500 |502 |504 |505 |506 |509 |521 |524 |532 |533 |703 |709 |730 |80 |802 |803 |804 |805 |807 |812 |981 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:---|:--|:--|:---|:---|:--|:--|:--|:--|:--|:--|:--|:---|:---|:---|:---|:---|:--|:---|:---|:---|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:--|:---|:---|:---|:---|:---|:---|:---|:----------|:---------|:-----|
+#'  |1996  |2700 |10 |3   |3  |5  |1   |2   |4  |1  |8  |1  |1  |8  |10 |2   |1   |1   |2   |1   |5  |2   |3   |1   |5  |3  |2  |6  |4  |1   |1  |1  |2  |8  |27 |1   |2   |2   |1   |1   |4   |1   |3   |1   |1   |1   |1   |1   |3  |1   |7   |1   |1   |1   |2   |1   |1          |31        |2904  |
+#'  |Total |2700 |10 |3   |3  |5  |1   |2   |4  |1  |8  |1  |1  |8  |10 |2   |1   |1   |2   |1   |5  |2   |3   |1   |5  |3  |2  |6  |4  |1   |1  |1  |2  |8  |27 |1   |2   |2   |1   |1   |4   |1   |3   |1   |1   |1   |1   |1   |3  |1   |7   |1   |1   |1   |2   |1   |1          |31        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -277,13 +326,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `brkdwhy3`](https://gssdataexplorer.norc.org/variables/2069/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |10 |11 |12 |121 |129 |13 |14 |15 |16 |18 |19 |21 |216 |219 |22 |23 |24 |25 |29 |304 |37 |39 |402 |41 |500 |505 |509 |80 |802 |803 |806 |807 |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:---|:---|:--|:--|:--|:--|:--|:--|:--|:---|:---|:--|:--|:--|:--|:--|:---|:--|:--|:---|:--|:---|:---|:---|:--|:---|:---|:---|:---|:---------|:-----|
+#'  |1996  |2798 |7  |2  |2  |1   |1   |1  |1  |3  |1  |3  |4  |1  |1   |1   |2  |2  |1  |2  |2  |2   |1  |1  |1   |19 |3   |1   |1   |1  |2   |2   |2   |1   |31        |2904  |
+#'  |Total |2798 |7  |2  |2  |1   |1   |1  |1  |3  |1  |3  |4  |1  |1   |1   |2  |2  |1  |2  |2  |2   |1  |1  |1   |19 |3   |1   |1   |1  |2   |2   |2   |1   |31        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -312,13 +367,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `brkddo1`](https://gssdataexplorer.norc.org/variables/2070/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |11 |21 |22 |23 |24 |31 |41 |51 |61 |62 |64 |65 |69 |71 |72 |73 |74 |75 |81 |82 |83 |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |1996  |2517 |2  |1  |11 |5  |3  |49 |4  |18 |8  |3  |13 |1  |11 |10 |25 |8  |18 |9  |66 |90 |5  |1          |26        |2904  |
+#'  |Total |2517 |2  |1  |11 |5  |3  |49 |4  |18 |8  |3  |13 |1  |11 |10 |25 |8  |18 |9  |66 |90 |5  |1          |26        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health

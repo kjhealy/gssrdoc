@@ -27,18 +27,26 @@ Question Would you describe yourself as. . .
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4679/vshow}{GSS Data Explorer page for \code{feelrel}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab extreme relgious \tab very religious \tab somewhat relgious \tab not religious nor non-religious \tab somewhat non-religious \tab very non-religious \tab extremely non-religious \tab can't choose \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 61 \tab 284 \tab 620 \tab 219 \tab 52 \tab 38 \tab 32 \tab 28 \tab 25 \tab 1517 \cr
+   1998 \tab 1548 \tab 83 \tab 234 \tab 603 \tab 121 \tab 59 \tab 46 \tab 56 \tab 40 \tab 42 \tab 2832 \cr
+   2008 \tab 658 \tab 91 \tab 271 \tab 678 \tab 96 \tab 97 \tab 52 \tab 70 \tab 4 \tab 6 \tab 2023 \cr
+   2018 \tab 1173 \tab 73 \tab 249 \tab 451 \tab 136 \tab 82 \tab 92 \tab 73 \tab 8 \tab 11 \tab 2348 \cr
+   Total \tab 3537 \tab 308 \tab 1038 \tab 2352 \tab 572 \tab 290 \tab 228 \tab 231 \tab 80 \tab 84 \tab 8720 \cr
+}
 }
 
 \seealso{

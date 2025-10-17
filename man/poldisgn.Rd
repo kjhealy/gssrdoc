@@ -25,16 +25,23 @@ G. Discussed your views about political or social policy issues, current affairs
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2538/vshow}{GSS Data Explorer page for \code{poldisgn}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab Total \cr
+   2000 \tab 1884 \tab 400 \tab 178 \tab 336 \tab 19 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1372 \tab 479 \tab 177 \tab 238 \tab 6 \tab 486 \tab 7 \tab 2765 \cr
+   Total \tab 3256 \tab 879 \tab 355 \tab 574 \tab 25 \tab 486 \tab 7 \tab 5582 \cr
+}
 }
 
 \seealso{

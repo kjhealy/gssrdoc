@@ -25,15 +25,21 @@ Question Is it fair or unfair that people with higher incomes can afford better 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7790/vshow}{GSS Data Explorer page for \code{hlthbtr}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very fair \tab somewhat fair \tab neither fair nor unfair \tab somewhat unfair \tab very unfair \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2378 \tab 68 \tab 161 \tab 226 \tab 223 \tab 439 \tab 38 \tab 3 \tab 8 \tab 3544 \cr
+   Total \tab 2378 \tab 68 \tab 161 \tab 226 \tab 223 \tab 439 \tab 38 \tab 3 \tab 8 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

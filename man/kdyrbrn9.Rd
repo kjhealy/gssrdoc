@@ -22,15 +22,21 @@ C9. Birth year of ninth child.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1509/vshow}{GSS Data Explorer page for \code{kdyrbrn9}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1933 \tab 1949 \tab 1950 \tab 1961 \tab 1963 \tab 1966 \tab 1968 \tab 1973 \tab Total \cr
+   1994 \tab 2983 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2992 \cr
+   Total \tab 2983 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2992 \cr
+}
 }
 
 \seealso{

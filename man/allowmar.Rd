@@ -22,15 +22,21 @@ Question F. Do you think the law should allow marriages between blacks and white
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4989/vshow}{GSS Data Explorer page for \code{allowmar}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab allow marriage \tab not allow marriage \tab don't know \tab no answer \tab Total \cr
+   1989 \tab 1029 \tab 311 \tab 145 \tab 22 \tab 30 \tab 1537 \cr
+   Total \tab 1029 \tab 311 \tab 145 \tab 22 \tab 30 \tab 1537 \cr
+}
 }
 
 \seealso{

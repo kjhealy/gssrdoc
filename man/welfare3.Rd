@@ -26,15 +26,21 @@ C. Encourage young women to have babies before marriage.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5500/vshow}{GSS Data Explorer page for \code{welfare3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1986 \tab - \tab 305 \tab 572 \tab 484 \tab 68 \tab 39 \tab 2 \tab 1470 \cr
+   Total \tab 0 \tab 305 \tab 572 \tab 484 \tab 68 \tab 39 \tab 2 \tab 1470 \cr
+}
 }
 
 \seealso{

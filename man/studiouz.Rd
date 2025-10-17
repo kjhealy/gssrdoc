@@ -27,15 +27,21 @@ M. That he is a good student
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1980 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/512/vshow}{GSS Data Explorer page for \code{studiouz}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab not too impt \tab not at all impt \tab don't know \tab no answer \tab Total \cr
+   1980 \tab 985 \tab 101 \tab 211 \tab 141 \tab 23 \tab 1 \tab 2 \tab 4 \tab 1468 \cr
+   Total \tab 985 \tab 101 \tab 211 \tab 141 \tab 23 \tab 1 \tab 2 \tab 4 \tab 1468 \cr
+}
 }
 
 \seealso{

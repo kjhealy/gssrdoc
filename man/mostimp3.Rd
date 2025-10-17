@@ -23,15 +23,21 @@ Question The next questions concern how people think about the past. There have 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1448/vshow}{GSS Data Explorer page for \code{mostimp3}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 150 \tab 18 \tab 19 \tab 2 \tab 21 \tab 26 \tab 29 \tab 3 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 38 \tab 39 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 45 \tab 48 \tab 5 \tab 50 \tab 51 \tab 52 \tab 53 \tab 54 \tab 55 \tab 6 \tab 61 \tab 62 \tab 64 \tab 65 \tab 66 \tab 69 \tab 71 \tab 72 \tab 73 \tab 77 \tab 79 \tab other \tab personal \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 1186 \tab 3 \tab 2 \tab 7 \tab 8 \tab 19 \tab 3 \tab 9 \tab 2 \tab 15 \tab 7 \tab 26 \tab 3 \tab 2 \tab 5 \tab 2 \tab 3 \tab 11 \tab 16 \tab 2 \tab 20 \tab 8 \tab 6 \tab 3 \tab 3 \tab 1 \tab 41 \tab 13 \tab 1 \tab 2 \tab 1 \tab 22 \tab 31 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 3 \tab 17 \tab 3 \tab 23 \tab 2 \tab 2 \tab 27 \tab 9 \tab 8 \tab 21 \tab 1606 \cr
+   Total \tab 1186 \tab 3 \tab 2 \tab 7 \tab 8 \tab 19 \tab 3 \tab 9 \tab 2 \tab 15 \tab 7 \tab 26 \tab 3 \tab 2 \tab 5 \tab 2 \tab 3 \tab 11 \tab 16 \tab 2 \tab 20 \tab 8 \tab 6 \tab 3 \tab 3 \tab 1 \tab 41 \tab 13 \tab 1 \tab 2 \tab 1 \tab 22 \tab 31 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 3 \tab 17 \tab 3 \tab 23 \tab 2 \tab 2 \tab 27 \tab 9 \tab 8 \tab 21 \tab 1606 \cr
+}
 }
 
 \seealso{

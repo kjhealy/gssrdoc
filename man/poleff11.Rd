@@ -26,21 +26,30 @@ A. People like me don't have any say about what the government does
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4095/vshow}{GSS Data Explorer page for \code{poleff11}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1572 \tab 219 \tab 392 \tab 189 \tab 377 \tab 110 \tab 24 \tab 21 \tab 2904 \cr
+   2004 \tab 1340 \tab 200 \tab 317 \tab 263 \tab 521 \tab 163 \tab 4 \tab 4 \tab 2812 \cr
+   2006 \tab 2992 \tab 309 \tab 392 \tab 227 \tab 419 \tab 159 \tab 11 \tab 1 \tab 4510 \cr
+   2012 \tab 1312 \tab 75 \tab 193 \tab 103 \tab 213 \tab 50 \tab 26 \tab 2 \tab 1974 \cr
+   2014 \tab 1274 \tab 242 \tab 327 \tab 202 \tab 330 \tab 138 \tab 18 \tab 7 \tab 2538 \cr
+   2016 \tab 1477 \tab 250 \tab 413 \tab 265 \tab 355 \tab 86 \tab 7 \tab 14 \tab 2867 \cr
+   2018 \tab 1175 \tab 174 \tab 300 \tab 222 \tab 367 \tab 88 \tab 20 \tab 2 \tab 2348 \cr
+   Total \tab 11142 \tab 1469 \tab 2334 \tab 1471 \tab 2582 \tab 794 \tab 110 \tab 51 \tab 19953 \cr
+}
 }
 
 \seealso{

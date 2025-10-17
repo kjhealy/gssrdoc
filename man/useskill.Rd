@@ -24,18 +24,26 @@ Question How much of your past work experience and/or job skills can you make us
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   B/C/- \tab 2016, 2018 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4582/vshow}{GSS Data Explorer page for \code{useskill}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost none \tab a little \tab a lot \tab almost all \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1967 \tab 89 \tab 160 \tab 195 \tab 361 \tab 30 \tab 30 \tab 2832 \cr
+   2006 \tab 3492 \tab 101 \tab 230 \tab 279 \tab 401 \tab 5 \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 89 \tab 181 \tab 242 \tab 418 \tab 3 \tab 7 \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 9734 \tab 279 \tab 571 \tab 716 \tab 1180 \tab 38 \tab 39 \tab 12557 \cr
+}
 }
 
 \seealso{

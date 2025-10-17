@@ -22,16 +22,22 @@ Question To the best of your knowledge, was your most recent sexual partnerâ€
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7560/vshow}{GSS Data Explorer page for \code{ptnrsxbrth}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 1746 \tab 1228 \tab 974 \tab 40 \tab 5 \tab 39 \tab 4032 \cr
+   2022 \tab 1954 \tab 832 \tab 670 \tab 46 \tab 9 \tab 33 \tab 3544 \cr
+   Total \tab 3700 \tab 2060 \tab 1644 \tab 86 \tab 14 \tab 72 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

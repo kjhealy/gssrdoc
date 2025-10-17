@@ -24,16 +24,21 @@ Question Do you consider yourself to be atheist, agnostic, something else, or no
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7522/vshow}{GSS Data Explorer page for \code{norelgsp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab atheist \tab agnostic \tab something else \tab nothing in particular \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2911 \tab 186 \tab 225 \tab 125 \tab 482 \tab 96 \tab 7 \tab 4032 \cr
+   Total \tab 2911 \tab 186 \tab 225 \tab 125 \tab 482 \tab 96 \tab 7 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

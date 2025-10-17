@@ -24,15 +24,21 @@ Question H. Engineers are not likely to be very religious people. Do you strongl
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3533/vshow}{GSS Data Explorer page for \code{engrel}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1489 \tab 3 \tab 77 \tab 271 \tab 31 \tab 97 \tab 6 \tab 1974 \cr
+   Total \tab 1489 \tab 3 \tab 77 \tab 271 \tab 31 \tab 97 \tab 6 \tab 1974 \cr
+}
 }
 
 \seealso{

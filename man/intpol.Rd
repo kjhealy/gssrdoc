@@ -24,15 +24,21 @@ Question How interested are you in politics and national affairs?  Are you very 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1027/vshow}{GSS Data Explorer page for \code{intpol}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very interested \tab somewhat int \tab slightly int \tab not interested \tab don't know \tab no answer \tab Total \cr
+   1987 \tab - \tab 402 \tab 742 \tab 481 \tab 180 \tab 5 \tab 9 \tab 1819 \cr
+   Total \tab 0 \tab 402 \tab 742 \tab 481 \tab 180 \tab 5 \tab 9 \tab 1819 \cr
+}
 }
 
 \seealso{

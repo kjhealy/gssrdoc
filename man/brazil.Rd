@@ -31,20 +31,26 @@ E. Brazil
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab - \tab full \cr
-   1975 \tab - \tab full \cr
-   1977 \tab - \tab full \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1974, 1975, 1977, 1982, 1983, 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5494/vshow}{GSS Data Explorer page for \code{brazil}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab not available in this year \tab +5 \tab +4 \tab +3 \tab +2 \tab +1 \tab -1 \tab -2 \tab -3 \tab -4 \tab -5 \tab dk, na, iap \tab iap \tab Total \cr
+   1974 \tab - \tab 97 \tab 126 \tab 256 \tab 196 \tab 333 \tab 135 \tab 47 \tab 36 \tab 21 \tab 24 \tab 213 \tab - \tab 1484 \cr
+   1975 \tab - \tab 77 \tab 102 \tab 208 \tab 230 \tab 342 \tab 141 \tab 69 \tab 56 \tab 27 \tab 25 \tab 213 \tab - \tab 1490 \cr
+   1977 \tab - \tab 92 \tab 94 \tab 194 \tab 195 \tab 338 \tab 161 \tab 76 \tab 65 \tab 39 \tab 68 \tab 208 \tab - \tab 1530 \cr
+   1982 \tab - \tab 110 \tab 139 \tab 253 \tab 256 \tab 410 \tab 186 \tab 79 \tab 57 \tab 26 \tab 39 \tab 305 \tab - \tab 1860 \cr
+   1983 \tab - \tab 74 \tab 72 \tab 153 \tab 250 \tab 475 \tab 205 \tab 78 \tab 55 \tab 22 \tab 29 \tab 186 \tab - \tab 1599 \cr
+   1985 \tab - \tab 31 \tab 43 \tab 98 \tab 100 \tab 209 \tab 80 \tab 37 \tab 27 \tab 15 \tab 19 \tab 875 \tab - \tab 1534 \cr
+   Total \tab 0 \tab 481 \tab 576 \tab 1162 \tab 1227 \tab 2107 \tab 908 \tab 386 \tab 296 \tab 150 \tab 204 \tab 2000 \tab 0 \tab 9497 \cr
+}
 }
 
 \seealso{

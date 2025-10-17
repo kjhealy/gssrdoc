@@ -32,15 +32,21 @@ Question What was the approximate total dollar value of these various payments i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7851/vshow}{GSS Data Explorer page for \code{extraval1}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab 10 \tab 11 \tab 12 \tab Total \cr
+   2022 \tab 3354 \tab 7 \tab 15 \tab 15 \tab 16 \tab 22 \tab 14 \tab 14 \tab 18 \tab 30 \tab 24 \tab 7 \tab 8 \tab 3544 \cr
+   Total \tab 3354 \tab 7 \tab 15 \tab 15 \tab 16 \tab 22 \tab 14 \tab 14 \tab 18 \tab 30 \tab 24 \tab 7 \tab 8 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

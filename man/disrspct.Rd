@@ -26,18 +26,23 @@ Question In your day-to-day life how often have any of the following things happ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7158/vshow}{GSS Data Explorer page for \code{disrspct}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab almost every day \tab at least once a week \tab a few times a month \tab a few times a year \tab less than once a year \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab 774 \tab 122 \tab 199 \tab 233 \tab 399 \tab 270 \tab 338 \tab 6 \tab 7 \tab - \tab 2348 \cr
+   2021 \tab 1408 \tab 136 \tab 231 \tab 327 \tab 801 \tab 552 \tab 554 \tab 1 \tab 1 \tab 21 \tab 4032 \cr
+   2022 \tab 1207 \tab 170 \tab 259 \tab 309 \tab 601 \tab 446 \tab 527 \tab 9 \tab 3 \tab 13 \tab 3544 \cr
+   Total \tab 3389 \tab 428 \tab 689 \tab 869 \tab 1801 \tab 1268 \tab 1419 \tab 16 \tab 11 \tab 34 \tab 9924 \cr
+}
 }
 
 \keyword{variable}

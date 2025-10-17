@@ -24,16 +24,22 @@ Question A. How much would you say you have heard or read about genetic screenin
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 1990, 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5083/vshow}{GSS Data Explorer page for \code{genetest}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal \tab not very much \tab nothing at all \tab refused \tab don't know \tab no answer \tab Total \cr
+   1990 \tab 455 \tab 117 \tab 541 \tab 237 \tab 2 \tab 16 \tab 4 \tab 1372 \cr
+   1996 \tab 2408 \tab 67 \tab 313 \tab 86 \tab - \tab 11 \tab 19 \tab 2904 \cr
+   Total \tab 2863 \tab 184 \tab 854 \tab 323 \tab 2 \tab 27 \tab 23 \tab 4276 \cr
+}
 }
 
 \seealso{

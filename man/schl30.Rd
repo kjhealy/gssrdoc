@@ -25,17 +25,24 @@ B. Sites related to a school that you or your children attend?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2395/vshow}{GSS Data Explorer page for \code{schl30}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2075 \tab 509 \tab 82 \tab 24 \tab 52 \tab 75 \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 716 \tab 149 \tab 42 \tab 81 \tab 94 \tab 2 \tab 2765 \cr
+   2004 \tab 2122 \tab 437 \tab 111 \tab 54 \tab 75 \tab 12 \tab 1 \tab 2812 \cr
+   Total \tab 5878 \tab 1662 \tab 342 \tab 120 \tab 208 \tab 181 \tab 3 \tab 8394 \cr
+}
 }
 
 \seealso{

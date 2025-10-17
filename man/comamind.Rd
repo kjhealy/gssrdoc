@@ -22,15 +22,21 @@ F. American Indians
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2328/vshow}{GSS Data Explorer page for \code{comamind}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 12 \tab 15 \tab 2 \tab 20 \tab 21 \tab 25 \tab 26 \tab 3 \tab 30 \tab 35 \tab 4 \tab 40 \tab 45 \tab 49 \tab 5 \tab 50 \tab 55 \tab 6 \tab 60 \tab 75 \tab 8 \tab 80 \tab 90 \tab 95 \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 521 \tab 212 \tab 98 \tab 1 \tab 2 \tab 14 \tab 86 \tab 35 \tab 1 \tab 10 \tab 1 \tab 21 \tab 18 \tab 2 \tab 7 \tab 5 \tab 2 \tab 1 \tab 173 \tab 9 \tab 1 \tab 1 \tab 3 \tab 1 \tab 4 \tab 2 \tab 2 \tab 2 \tab 97 \tab 66 \tab 2817 \cr
+   Total \tab 1419 \tab 521 \tab 212 \tab 98 \tab 1 \tab 2 \tab 14 \tab 86 \tab 35 \tab 1 \tab 10 \tab 1 \tab 21 \tab 18 \tab 2 \tab 7 \tab 5 \tab 2 \tab 1 \tab 173 \tab 9 \tab 1 \tab 1 \tab 3 \tab 1 \tab 4 \tab 2 \tab 2 \tab 2 \tab 97 \tab 66 \tab 2817 \cr
+}
 }
 
 \seealso{

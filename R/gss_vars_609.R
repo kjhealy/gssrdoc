@@ -12,42 +12,11 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-/- |full         |
-#'  |1973 |-/-/-/- |full         |
-#'  |1974 |-/-/-/- |full         |
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
+#'  |ballots |years                                                                                                            |
+#'  |:-------|:----------------------------------------------------------------------------------------------------------------|
+#'  |A/B/C/- |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 |
+#'  |A/B/C/D |2006                                                                                                             |
+#'  |Full/-  |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987                               |
 #' 
 #'
 #'
@@ -75,17 +44,10 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
+#'  |ballots |years                                          |
+#'  |:-------|:----------------------------------------------|
+#'  |A/B/C/- |2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 |
+#'  |A/B/C/D |2006                                           |
 #' 
 #'
 #'
@@ -114,21 +76,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
+#'  |ballots |years                                          |
+#'  |:-------|:----------------------------------------------|
+#'  |A/B/C/- |2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 |
+#'  |A/B/C/D |2006                                           |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `spanself`](https://gssdataexplorer.norc.org/variables/5582/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |have been able to do the interview easily in english |have been able to do the interview with difficulty |not have been able to do the interview |no answer |Total |
+#'  |:-----|:-----|:----------------------------------------------------|:--------------------------------------------------|:--------------------------------------|:---------|:-----|
+#'  |2006  |4233  |28                                                   |57                                                 |192                                    |-         |4510  |
+#'  |2008  |1943  |7                                                    |18                                                 |54                                     |1         |2023  |
+#'  |2010  |1971  |6                                                    |17                                                 |50                                     |-         |2044  |
+#'  |2012  |1894  |4                                                    |16                                                 |59                                     |1         |1974  |
+#'  |2014  |2427  |15                                                   |22                                                 |74                                     |-         |2538  |
+#'  |2016  |2775  |5                                                    |23                                                 |64                                     |-         |2867  |
+#'  |2018  |2260  |7                                                    |21                                                 |60                                     |-         |2348  |
+#'  |2021  |4005  |5                                                    |15                                                 |7                                      |-         |4032  |
+#'  |2022  |3433  |19                                                   |30                                                 |62                                     |-         |3544  |
+#'  |Total |24941 |96                                                   |219                                                |622                                    |2         |25880 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -154,20 +123,28 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |B/C/-/- |partial      |
-#'  |2022 |A/B/C/- |full         |
+#'  |ballots |years                              |
+#'  |:-------|:----------------------------------|
+#'  |A/B/C/- |2008, 2012, 2014, 2016, 2018, 2022 |
+#'  |A/B/C/D |2006                               |
+#'  |B/C/-/- |2021                               |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `spanint`](https://gssdataexplorer.norc.org/variables/5583/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |could have been interviewed in english |would have been excluded as language problem |don't know |no answer |Total |
+#'  |:-----|:-----|:--------------------------------------|:--------------------------------------------|:----------|:---------|:-----|
+#'  |2006  |4233  |41                                     |236                                          |-          |-         |4510  |
+#'  |2008  |1943  |6                                      |73                                           |1          |-         |2023  |
+#'  |2012  |1890  |6                                      |73                                           |1          |4         |1974  |
+#'  |2014  |2423  |20                                     |77                                           |5          |13        |2538  |
+#'  |2016  |2768  |4                                      |84                                           |3          |8         |2867  |
+#'  |2018  |2262  |13                                     |70                                           |1          |2         |2348  |
+#'  |2021  |4029  |-                                      |3                                            |-          |-         |4032  |
+#'  |2022  |3462  |14                                     |63                                           |5          |-         |3544  |
+#'  |Total |23010 |104                                    |679                                          |16         |27        |23836 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -193,47 +170,54 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-/- |full         |
-#'  |1973 |-/-/-/- |full         |
-#'  |1974 |-/-/-/- |full         |
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
+#'  |ballots |years                                                                                                                  |
+#'  |:-------|:----------------------------------------------------------------------------------------------------------------------|
+#'  |A/B/C/- |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+#'  |A/B/C/D |2006                                                                                                                   |
+#'  |Full/-  |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987                                     |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `spaneng`](https://gssdataexplorer.norc.org/variables/5584/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |english |spanish |no answer |Total |
+#'  |:-----|:-------|:-------|:---------|:-----|
+#'  |1972  |1613    |-       |-         |1613  |
+#'  |1973  |1504    |-       |-         |1504  |
+#'  |1974  |1484    |-       |-         |1484  |
+#'  |1975  |1490    |-       |-         |1490  |
+#'  |1976  |1499    |-       |-         |1499  |
+#'  |1977  |1530    |-       |-         |1530  |
+#'  |1978  |1532    |-       |-         |1532  |
+#'  |1980  |1468    |-       |-         |1468  |
+#'  |1982  |1860    |-       |-         |1860  |
+#'  |1983  |1599    |-       |-         |1599  |
+#'  |1984  |1473    |-       |-         |1473  |
+#'  |1985  |1534    |-       |-         |1534  |
+#'  |1986  |1470    |-       |-         |1470  |
+#'  |1987  |1819    |-       |-         |1819  |
+#'  |1988  |1481    |-       |-         |1481  |
+#'  |1989  |1537    |-       |-         |1537  |
+#'  |1990  |1372    |-       |-         |1372  |
+#'  |1991  |1517    |-       |-         |1517  |
+#'  |1993  |1606    |-       |-         |1606  |
+#'  |1994  |2992    |-       |-         |2992  |
+#'  |1996  |2904    |-       |-         |2904  |
+#'  |1998  |2832    |-       |-         |2832  |
+#'  |2000  |2817    |-       |-         |2817  |
+#'  |2002  |2765    |-       |-         |2765  |
+#'  |2004  |2812    |-       |-         |2812  |
+#'  |2006  |4233    |277     |-         |4510  |
+#'  |2008  |1942    |81      |-         |2023  |
+#'  |2010  |1971    |73      |-         |2044  |
+#'  |2012  |1892    |82      |-         |1974  |
+#'  |2014  |2423    |109     |6         |2538  |
+#'  |2016  |2773    |94      |-         |2867  |
+#'  |2018  |2258    |90      |-         |2348  |
+#'  |2021  |3976    |56      |-         |4032  |
+#'  |2022  |3431    |113     |-         |3544  |
+#'  |Total |71409   |975     |6         |72390 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -259,14 +243,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2008, 2010 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `res2006`](https://gssdataexplorer.norc.org/variables/5585/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |living in the u.s. |not living in u.s. |no answer |don't know |Total |
+#'  |:-----|:---|:------------------|:------------------|:---------|:----------|:-----|
+#'  |2008  |-   |1998               |24                 |1         |-          |2023  |
+#'  |2010  |-   |2002               |40                 |-         |2          |2044  |
+#'  |Total |0   |4000               |64                 |1         |2          |4067  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -292,14 +282,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2010 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2010, 2012 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `res2008`](https://gssdataexplorer.norc.org/variables/5586/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |living in the u.s. |not living in u.s. |don't know |no answer |Total |
+#'  |:-----|:---|:------------------|:------------------|:----------|:---------|:-----|
+#'  |2010  |-   |2023               |20                 |1          |-         |2044  |
+#'  |2012  |2   |1931               |40                 |-          |1         |1974  |
+#'  |Total |2   |3954               |60                 |1          |1         |4018  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -325,14 +321,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2012, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `res2010`](https://gssdataexplorer.norc.org/variables/5587/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |living in the u.s. |not living in u.s. |no answer |Total |
+#'  |:-----|:---|:------------------|:------------------|:---------|:-----|
+#'  |2012  |2   |1951               |20                 |1         |1974  |
+#'  |2014  |-   |2483               |54                 |1         |2538  |
+#'  |Total |2   |4434               |74                 |2         |4512  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -358,13 +360,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2014  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `res2012`](https://gssdataexplorer.norc.org/variables/5588/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |living in the u.s. |not living in u.s. |no answer |Total |
+#'  |:-----|:---|:------------------|:------------------|:---------|:-----|
+#'  |2014  |-   |2498               |39                 |1         |2538  |
+#'  |Total |0   |2498               |39                 |1         |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -392,14 +400,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2008, 2010 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cshutyp06`](https://gssdataexplorer.norc.org/variables/5589/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |living in household |living in institution |homeless (volunteered) |other |no answer |Total |
+#'  |:-----|:---|:-------------------|:---------------------|:----------------------|:-----|:---------|:-----|
+#'  |2008  |-   |1994                |21                    |6                      |1     |1         |2023  |
+#'  |2010  |-   |1991                |43                    |2                      |7     |1         |2044  |
+#'  |Total |0   |3985                |64                    |8                      |8     |2         |4067  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights

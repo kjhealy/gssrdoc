@@ -23,15 +23,21 @@ Question Which party, the Republican or the Democratic, do you feel will Do more
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/410/vshow}{GSS Data Explorer page for \code{racparty}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab republican party \tab democratic party \tab not much difference \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 1350 \tab 8 \tab 336 \tab 142 \tab 17 \tab 7 \tab 1860 \cr
+   Total \tab 1350 \tab 8 \tab 336 \tab 142 \tab 17 \tab 7 \tab 1860 \cr
+}
 }
 
 \seealso{

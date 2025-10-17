@@ -23,15 +23,21 @@ D. Make victims with AIDS eligible for disability benefits
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5048/vshow}{GSS Data Explorer page for \code{aidsfare}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab support \tab oppose \tab don't know \tab no answer \tab Total \cr
+   1988 \tab 718 \tab 402 \tab 273 \tab 76 \tab 12 \tab 1481 \cr
+   Total \tab 718 \tab 402 \tab 273 \tab 76 \tab 12 \tab 1481 \cr
+}
 }
 
 \concept{Victims & AIDS}

@@ -69,7 +69,7 @@ packge](https://kjhealy.github.io/gssrdoc) has a full listing of the
 variables and a topical index organized by survey module and the GSS’s
 own subject tags.
 
-<img src="man/figures/organsb_sshot.png" alt="The help page for organsb" />
+<img src="man/figures/readme_sshot.png" alt="Example help page" />
 
 Information about the variables is also contained in the `gss_dict`
 object:

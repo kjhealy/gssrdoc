@@ -25,15 +25,21 @@ Question What is your personal attitude towards members of the following religio
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7290/vshow}{GSS Data Explorer page for \code{jews}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very positive \tab somewhat positive \tab neither positive nor negative \tab somewhat negative \tab very negative \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1173 \tab 245 \tab 361 \tab 462 \tab 43 \tab 15 \tab 32 \tab 17 \tab 2348 \cr
+   Total \tab 1173 \tab 245 \tab 361 \tab 462 \tab 43 \tab 15 \tab 32 \tab 17 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

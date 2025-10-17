@@ -32,35 +32,41 @@ As of 2024, PARTNERS has been recoded to only account for 0 to 11+ partners and 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5049/vshow}{GSS Data Explorer page for \code{partners}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab no partners \tab 1 partner \tab 2 partners \tab 3 partners \tab 4 partners \tab 5-10 partners \tab 11-20 partners \tab 21-100 partners \tab more than 100 partners \tab 1 or more, (unspecified) \tab no answer \tab don't know \tab Total \cr
+   1988 \tab 91 \tab 318 \tab 875 \tab 78 \tab 51 \tab 26 \tab 22 \tab 5 \tab 5 \tab 1 \tab 9 \tab - \tab - \tab 1481 \cr
+   1989 \tab 136 \tab 308 \tab 906 \tab 89 \tab 40 \tab 20 \tab 23 \tab 2 \tab 2 \tab - \tab 6 \tab 5 \tab - \tab 1537 \cr
+   1990 \tab 199 \tab 230 \tab 765 \tab 66 \tab 32 \tab 22 \tab 25 \tab 1 \tab 2 \tab 1 \tab 15 \tab 14 \tab - \tab 1372 \cr
+   1991 \tab 872 \tab 146 \tab 418 \tab 39 \tab 15 \tab 8 \tab 7 \tab 2 \tab 1 \tab 1 \tab - \tab 8 \tab - \tab 1517 \cr
+   1993 \tab 114 \tab 313 \tab 983 \tab 87 \tab 33 \tab 25 \tab 20 \tab 4 \tab 1 \tab - \tab - \tab 26 \tab - \tab 1606 \cr
+   1994 \tab 201 \tab 608 \tab 1784 \tab 191 \tab 72 \tab 35 \tab 35 \tab 6 \tab 2 \tab - \tab 3 \tab 55 \tab - \tab 2992 \cr
+   1996 \tab 258 \tab 498 \tab 1724 \tab 190 \tab 91 \tab 45 \tab 31 \tab 6 \tab 7 \tab - \tab 25 \tab 27 \tab 2 \tab 2904 \cr
+   1998 \tab 383 \tab 512 \tab 1585 \tab 163 \tab 57 \tab 39 \tab 34 \tab 8 \tab 4 \tab 1 \tab 13 \tab 32 \tab 1 \tab 2832 \cr
+   2000 \tab 417 \tab 521 \tab 1502 \tab 151 \tab 79 \tab 42 \tab 36 \tab 9 \tab - \tab - \tab 2 \tab 58 \tab - \tab 2817 \cr
+   2002 \tab 489 \tab 511 \tab 1397 \tab 159 \tab 83 \tab 39 \tab 34 \tab 10 \tab 2 \tab 2 \tab 5 \tab 30 \tab 4 \tab 2765 \cr
+   2004 \tab 584 \tab 425 \tab 1462 \tab 142 \tab 65 \tab 45 \tab 34 \tab 12 \tab 4 \tab 1 \tab 8 \tab 26 \tab 4 \tab 2812 \cr
+   2006 \tab 2096 \tab 596 \tab 1485 \tab 152 \tab 66 \tab 37 \tab 38 \tab 17 \tab 3 \tab - \tab 6 \tab 13 \tab 1 \tab 4510 \cr
+   2008 \tab 240 \tab 415 \tab 1092 \tab 120 \tab 55 \tab 25 \tab 33 \tab 11 \tab 3 \tab 2 \tab 10 \tab 13 \tab 4 \tab 2023 \cr
+   2010 \tab 202 \tab 427 \tab 1129 \tab 124 \tab 63 \tab 39 \tab 25 \tab 2 \tab 1 \tab 2 \tab 15 \tab 14 \tab 1 \tab 2044 \cr
+   2012 \tab 238 \tab 405 \tab 1068 \tab 109 \tab 57 \tab 34 \tab 23 \tab 5 \tab 4 \tab - \tab 18 \tab 13 \tab - \tab 1974 \cr
+   2014 \tab 188 \tab 537 \tab 1490 \tab 130 \tab 68 \tab 32 \tab 31 \tab 7 \tab 1 \tab - \tab 15 \tab 37 \tab 2 \tab 2538 \cr
+   2016 \tab 1096 \tab 409 \tab 1085 \tab 124 \tab 50 \tab 34 \tab 38 \tab 11 \tab 1 \tab - \tab 9 \tab 9 \tab 1 \tab 2867 \cr
+   2018 \tab 942 \tab 358 \tab 868 \tab 79 \tab 40 \tab 21 \tab 23 \tab 1 \tab 1 \tab - \tab 4 \tab 10 \tab 1 \tab 2348 \cr
+   2021 \tab 1699 \tab 599 \tab 1504 \tab 83 \tab 44 \tab 27 \tab 40 \tab 4 \tab 2 \tab 4 \tab 6 \tab 11 \tab 9 \tab 4032 \cr
+   2022 \tab 1898 \tab 468 \tab 937 \tab 70 \tab 39 \tab 32 \tab 22 \tab 5 \tab 1 \tab 3 \tab - \tab 44 \tab 25 \tab 3544 \cr
+   Total \tab 12343 \tab 8604 \tab 24059 \tab 2346 \tab 1100 \tab 627 \tab 574 \tab 128 \tab 47 \tab 18 \tab 169 \tab 445 \tab 55 \tab 50515 \cr
+}
 }
 
 \seealso{

@@ -22,16 +22,22 @@ Question Do you have any children older than 5?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1146/vshow}{GSS Data Explorer page for \code{kid5up}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 870 \tab 553 \tab 22 \tab 2832 \cr
+   2000 \tab - \tab 1721 \tab 1093 \tab 3 \tab 2817 \cr
+   Total \tab 1387 \tab 2591 \tab 1646 \tab 25 \tab 5649 \cr
+}
 }
 
 \seealso{

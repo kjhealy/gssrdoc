@@ -22,15 +22,21 @@ Question Do you think Negroes should have as good a chance as white people to ge
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1972 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/401/vshow}{GSS Data Explorer page for \code{racjob}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab as good a chance \tab whites first \tab don't know \tab iap \tab no answer \tab Total \cr
+   1972 \tab 1289 \tab 43 \tab 16 \tab 261 \tab 4 \tab 1613 \cr
+   Total \tab 1289 \tab 43 \tab 16 \tab 261 \tab 4 \tab 1613 \cr
+}
 }
 
 \seealso{

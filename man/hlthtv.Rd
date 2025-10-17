@@ -25,17 +25,25 @@ F. Radio or television programs?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2522/vshow}{GSS Data Explorer page for \code{hlthtv}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab Total \cr
+   2000 \tab 2412 \tab 256 \tab 84 \tab 45 \tab 20 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2104 \tab 439 \tab 126 \tab 54 \tab 6 \tab 35 \tab 1 \tab 2765 \cr
+   2004 \tab 2209 \tab 415 \tab 99 \tab 39 \tab 6 \tab 44 \tab - \tab 2812 \cr
+   Total \tab 6725 \tab 1110 \tab 309 \tab 138 \tab 32 \tab 79 \tab 1 \tab 8394 \cr
+}
 }
 
 \seealso{

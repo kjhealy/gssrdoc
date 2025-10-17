@@ -24,17 +24,23 @@ Question Would you say the respondent's health in general is Excellent, Good, Fa
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6662/vshow}{GSS Data Explorer page for \code{rhlthend}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab excellent \tab good \tab fair \tab poor \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1437 \tab 443 \tab 664 \tab 186 \tab 39 \tab 98 \tab - \tab 2867 \cr
+   2018 \tab 1310 \tab 309 \tab 546 \tab 151 \tab 30 \tab 2 \tab - \tab 2348 \cr
+   2022 \tab 2698 \tab 210 \tab 451 \tab 149 \tab 36 \tab - \tab - \tab 3544 \cr
+   Total \tab 5445 \tab 962 \tab 1661 \tab 486 \tab 105 \tab 100 \tab 0 \tab 8759 \cr
+}
 }
 
 \keyword{variable}

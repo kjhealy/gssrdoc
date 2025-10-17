@@ -24,15 +24,21 @@ A. Which statement comes closest to your belief about what your friend has a rig
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4696/vshow}{GSS Data Explorer page for \code{carright}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab definite right \tab some right \tab no right \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1548 \tab 23 \tab 115 \tab 972 \tab 119 \tab 55 \tab 2832 \cr
+   Total \tab 1548 \tab 23 \tab 115 \tab 972 \tab 119 \tab 55 \tab 2832 \cr
+}
 }
 
 \seealso{

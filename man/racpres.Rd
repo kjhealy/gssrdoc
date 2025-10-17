@@ -22,32 +22,39 @@ Question If your party nominated a (Negro/Black/African-American) for President,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
-   1996 \tab A/B \tab partial \cr
-   2008 \tab A/B \tab partial \cr
-   2010 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1972, 1974, 1975, 1977, 1978, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 2008, 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/400/vshow}{GSS Data Explorer page for \code{racpres}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab yes \tab no \tab don't know \tab iap \tab no answer \tab Total \cr
+   1972 \tab 933 \tab 332 \tab 84 \tab 261 \tab 3 \tab 1613 \cr
+   1974 \tab 1181 \tab 242 \tab 56 \tab - \tab 5 \tab 1484 \cr
+   1975 \tab 1020 \tab 227 \tab 80 \tab 163 \tab - \tab 1490 \cr
+   1977 \tab 1007 \tab 291 \tab 49 \tab 176 \tab 7 \tab 1530 \cr
+   1978 \tab 1236 \tab 224 \tab 57 \tab - \tab 15 \tab 1532 \cr
+   1982 \tab 1588 \tab 181 \tab 84 \tab - \tab 7 \tab 1860 \cr
+   1983 \tab 1309 \tab 217 \tab 66 \tab - \tab 7 \tab 1599 \cr
+   1985 \tab 1238 \tab 221 \tab 65 \tab - \tab 10 \tab 1534 \cr
+   1986 \tab 1247 \tab 180 \tab 39 \tab - \tab 4 \tab 1470 \cr
+   1988 \tab 769 \tab 168 \tab 46 \tab 493 \tab 5 \tab 1481 \cr
+   1989 \tab 784 \tab 163 \tab 49 \tab 531 \tab 10 \tab 1537 \cr
+   1990 \tab 773 \tab 105 \tab 42 \tab 444 \tab 8 \tab 1372 \cr
+   1991 \tab 885 \tab 100 \tab 37 \tab 493 \tab 2 \tab 1517 \cr
+   1993 \tab 909 \tab 113 \tab 55 \tab 526 \tab 3 \tab 1606 \cr
+   1994 \tab 1727 \tab 174 \tab 65 \tab 1015 \tab 11 \tab 2992 \cr
+   1996 \tab 891 \tab 67 \tab 29 \tab 1913 \tab 4 \tab 2904 \cr
+   2008 \tab 1224 \tab 80 \tab 19 \tab 694 \tab 6 \tab 2023 \cr
+   2010 \tab 1351 \tab 55 \tab 17 \tab 614 \tab 7 \tab 2044 \cr
+   Total \tab 20072 \tab 3140 \tab 939 \tab 7323 \tab 114 \tab 31588 \cr
+}
 }
 
 \seealso{

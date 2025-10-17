@@ -22,16 +22,23 @@ C. About how many messages do you receive on all these computers on an average d
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2597/vshow}{GSS Data Explorer page for \code{emget}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 11 \tab 12 \tab 120 \tab 13 \tab 15 \tab 150 \tab 16 \tab 2 \tab 20 \tab 200 \tab 25 \tab 250 \tab 3 \tab 30 \tab 300 \tab 33 \tab 4 \tab 40 \tab 45 \tab 5 \tab 50 \tab 6 \tab 60 \tab 7 \tab 8 \tab 9 \tab 90 \tab don't know \tab no answer \tab 125 \tab 14 \tab 148 \tab 17 \tab 27 \tab 28 \tab 35 \tab 400 \tab 431 \tab 600 \tab 62 \tab 65 \tab 70 \tab 75 \tab 80 \tab 81 \tab 85 \tab 99 \tab Total \cr
+   2000 \tab 2423 \tab 16 \tab 32 \tab 44 \tab 4 \tab 1 \tab 7 \tab 1 \tab 1 \tab 17 \tab 2 \tab 1 \tab 31 \tab 25 \tab 1 \tab 10 \tab 1 \tab 32 \tab 11 \tab 1 \tab 1 \tab 21 \tab 5 \tab 1 \tab 29 \tab 10 \tab 13 \tab 4 \tab 7 \tab 8 \tab 2 \tab 1 \tab 1 \tab 53 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2131 \tab 15 \tab 22 \tab 78 \tab 17 \tab - \tab 15 \tab 2 \tab 1 \tab 42 \tab 3 \tab - \tab 32 \tab 61 \tab 4 \tab 20 \tab - \tab 31 \tab 39 \tab 4 \tab - \tab 16 \tab 19 \tab 5 \tab 44 \tab 30 \tab 25 \tab 12 \tab 6 \tab 9 \tab 4 \tab 2 \tab 4 \tab 41 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 6 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2765 \cr
+   Total \tab 4554 \tab 31 \tab 54 \tab 122 \tab 21 \tab 1 \tab 22 \tab 3 \tab 2 \tab 59 \tab 5 \tab 1 \tab 63 \tab 86 \tab 5 \tab 30 \tab 1 \tab 63 \tab 50 \tab 5 \tab 1 \tab 37 \tab 24 \tab 6 \tab 73 \tab 40 \tab 38 \tab 16 \tab 13 \tab 17 \tab 6 \tab 3 \tab 5 \tab 94 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 6 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

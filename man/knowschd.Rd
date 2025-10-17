@@ -25,17 +25,23 @@ Question How far in advance do you usually know what days and hours you will nee
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2839/vshow}{GSS Data Explorer page for \code{knowschd}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab one week or less \tab between 1 and 2 weeks \tab between 3 and 4 weeks \tab 4 weeks or more \tab don't know \tab no answer \tab 5 \tab skipped on web \tab Total \cr
+   2014 \tab 1288 \tab 540 \tab 165 \tab 65 \tab 459 \tab 13 \tab 8 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 599 \tab 183 \tab 85 \tab 531 \tab 20 \tab 30 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1540 \tab 440 \tab 233 \tab 118 \tab 165 \tab 18 \tab 12 \tab 1000 \tab 18 \tab 3544 \cr
+   Total \tab 3728 \tab 1579 \tab 581 \tab 268 \tab 1155 \tab 51 \tab 50 \tab 1000 \tab 18 \tab 8430 \cr
+}
 }
 
 \seealso{

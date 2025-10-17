@@ -25,17 +25,25 @@ C. Special health or medical magazine or newsletter?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2519/vshow}{GSS Data Explorer page for \code{hlthmag2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab Total \cr
+   2000 \tab 2412 \tab 222 \tab 102 \tab 59 \tab 22 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2104 \tab 363 \tab 168 \tab 71 \tab 6 \tab 53 \tab - \tab 2765 \cr
+   2004 \tab 2209 \tab 322 \tab 144 \tab 66 \tab 6 \tab 64 \tab 1 \tab 2812 \cr
+   Total \tab 6725 \tab 907 \tab 414 \tab 196 \tab 34 \tab 117 \tab 1 \tab 8394 \cr
+}
 }
 
 \seealso{

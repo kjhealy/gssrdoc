@@ -22,15 +22,21 @@ Question Do you employ other people for pay?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4569/vshow}{GSS Data Explorer page for \code{employer}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab yes \tab no \tab no answer \tab iap \tab Total \cr
+   1989 \tab - \tab 50 \tab 20 \tab 1467 \tab - \tab 1537 \cr
+   Total \tab 0 \tab 50 \tab 20 \tab 1467 \tab 0 \tab 1537 \cr
+}
 }
 
 \seealso{

@@ -22,30 +22,37 @@ Question Do you agree or disagree with this statement?  Women should take care o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
-   1996 \tab A/B \tab partial \cr
-   1998 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1974, 1975, 1977, 1978, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/588/vshow}{GSS Data Explorer page for \code{fehome}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1974 \tab - \tab 509 \tab 922 \tab 53 \tab - \tab 1484 \cr
+   1975 \tab - \tab 515 \tab 931 \tab 42 \tab 2 \tab 1490 \cr
+   1977 \tab - \tab 569 \tab 921 \tab 38 \tab 2 \tab 1530 \cr
+   1978 \tab - \tab 473 \tab 1009 \tab 48 \tab 2 \tab 1532 \cr
+   1982 \tab - \tab 511 \tab 1298 \tab 50 \tab 1 \tab 1860 \cr
+   1983 \tab - \tab 357 \tab 1182 \tab 55 \tab 5 \tab 1599 \cr
+   1985 \tab - \tab 394 \tab 1101 \tab 34 \tab 5 \tab 1534 \cr
+   1986 \tab - \tab 344 \tab 1080 \tab 43 \tab 3 \tab 1470 \cr
+   1988 \tab 493 \tab 201 \tab 749 \tab 34 \tab 4 \tab 1481 \cr
+   1989 \tab 531 \tab 192 \tab 767 \tab 43 \tab 4 \tab 1537 \cr
+   1990 \tab 444 \tab 159 \tab 731 \tab 32 \tab 6 \tab 1372 \cr
+   1991 \tab 493 \tab 190 \tab 793 \tab 35 \tab 6 \tab 1517 \cr
+   1993 \tab 526 \tab 154 \tab 888 \tab 34 \tab 4 \tab 1606 \cr
+   1994 \tab 1015 \tab 268 \tab 1632 \tab 71 \tab 6 \tab 2992 \cr
+   1996 \tab 944 \tab 308 \tab 1576 \tab 69 \tab 7 \tab 2904 \cr
+   1998 \tab 961 \tab 280 \tab 1534 \tab 50 \tab 7 \tab 2832 \cr
+   Total \tab 5407 \tab 5424 \tab 17114 \tab 731 \tab 64 \tab 28740 \cr
+}
 }
 
 \seealso{

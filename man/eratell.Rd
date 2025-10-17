@@ -25,15 +25,21 @@ C. The Equal Rights Amendment will amend the United States Constitution to provi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/710/vshow}{GSS Data Explorer page for \code{eratell}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly favor \tab somewhat favor \tab somewht oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 1676 \tab 47 \tab 73 \tab 21 \tab 11 \tab 31 \tab 1 \tab 1860 \cr
+   Total \tab 1676 \tab 47 \tab 73 \tab 21 \tab 11 \tab 31 \tab 1 \tab 1860 \cr
+}
 }
 
 \seealso{

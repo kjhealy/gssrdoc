@@ -26,15 +26,21 @@ Question Was that person's death emotionally distressing to you?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6190/vshow}{GSS Data Explorer page for \code{suineg2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, greatly \tab yes, to some extent \tab yes, but not much \tab no \tab not sure \tab no answer \tab Total \cr
+   2016 \tab 2425 \tab 85 \tab 138 \tab 102 \tab 84 \tab 9 \tab 24 \tab 2867 \cr
+   Total \tab 2425 \tab 85 \tab 138 \tab 102 \tab 84 \tab 9 \tab 24 \tab 2867 \cr
+}
 }
 
 \seealso{

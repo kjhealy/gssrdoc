@@ -23,15 +23,21 @@ Question A. Do you know whether the â€œ486" or â€œpentiumâ€ on a pe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2630/vshow}{GSS Data Explorer page for \code{processr}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab the size of the hard drive \tab the speed of the hard drive \tab the type of microprocessor \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2142 \tab 63 \tab 115 \tab 256 \tab 140 \tab 49 \tab 2765 \cr
+   Total \tab 2142 \tab 63 \tab 115 \tab 256 \tab 140 \tab 49 \tab 2765 \cr
+}
 }
 
 \seealso{

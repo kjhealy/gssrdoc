@@ -27,18 +27,25 @@ B. Given food or money to a homeless person
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2878/vshow}{GSS Data Explorer page for \code{givhmlss}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least 2 or 3 times in the past year \tab once in the past year \tab not at all in the past year \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 30 \tab 53 \tab 164 \tab 407 \tab 194 \tab 505 \tab 15 \tab 4 \tab 2765 \cr
+   2004 \tab 1472 \tab 39 \tab 56 \tab 149 \tab 433 \tab 191 \tab 466 \tab 4 \tab 2 \tab 2812 \cr
+   2012 \tab 666 \tab 47 \tab 57 \tab 138 \tab 415 \tab 214 \tab 424 \tab 7 \tab 6 \tab 1974 \cr
+   2014 \tab 1264 \tab 39 \tab 79 \tab 177 \tab 399 \tab 170 \tab 400 \tab 5 \tab 5 \tab 2538 \cr
+   Total \tab 4795 \tab 155 \tab 245 \tab 628 \tab 1654 \tab 769 \tab 1795 \tab 31 \tab 17 \tab 10089 \cr
+}
 }
 
 \seealso{

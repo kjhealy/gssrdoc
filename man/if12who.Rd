@@ -24,17 +24,23 @@ Question L. In 2012, you remember that Obama ran for President on the Democratic
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014, 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/177/vshow}{GSS Data Explorer page for \code{if12who}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab obama \tab romney \tab other \tab don't know \tab no answer \tab Total \cr
+   2014 \tab 1664 \tab 372 \tab 210 \tab 202 \tab 70 \tab 20 \tab 2538 \cr
+   2016 \tab 1794 \tab 532 \tab 219 \tab 154 \tab 93 \tab 75 \tab 2867 \cr
+   2018 \tab 1480 \tab 500 \tab 126 \tab 110 \tab 72 \tab 60 \tab 2348 \cr
+   Total \tab 4938 \tab 1404 \tab 555 \tab 466 \tab 235 \tab 155 \tab 7753 \cr
+}
 }
 
 \seealso{

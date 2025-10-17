@@ -25,15 +25,21 @@ The federal government ensuring the safety of vaccines to protect the public aga
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7580/vshow}{GSS Data Explorer page for \code{confedvac}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal \tab only some \tab hardly any \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2689 \tab 436 \tab 567 \tab 156 \tab 1 \tab 167 \tab 16 \tab 4032 \cr
+   Total \tab 2689 \tab 436 \tab 567 \tab 156 \tab 1 \tab 167 \tab 16 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

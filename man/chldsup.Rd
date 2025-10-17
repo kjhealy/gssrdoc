@@ -26,15 +26,21 @@ E. The supervision and discipline they receive from their parents.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5112/vshow}{GSS Data Explorer page for \code{chldsup}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab much better \tab better \tab about the same \tab worse \tab much worse \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 21 \tab 90 \tab 457 \tab 668 \tab 94 \tab 29 \tab 13 \tab 1372 \cr
+   Total \tab 0 \tab 21 \tab 90 \tab 457 \tab 668 \tab 94 \tab 29 \tab 13 \tab 1372 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ A. In our society everyone must look out for himself. It is of little use to uni
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/225/vshow}{GSS Data Explorer page for \code{equal1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 117 \tab 341 \tab 497 \tab 465 \tab 34 \tab 19 \tab 1473 \cr
+   Total \tab 0 \tab 117 \tab 341 \tab 497 \tab 465 \tab 34 \tab 19 \tab 1473 \cr
+}
 }
 
 \seealso{

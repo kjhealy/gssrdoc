@@ -26,15 +26,21 @@ B. Ethnic minority groups will never really fit in with mainstream American cult
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2727/vshow}{GSS Data Explorer page for \code{ethnofit}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab - \tab 88 \tab 333 \tab 390 \tab 1292 \tab 614 \tab 37 \tab 11 \tab 2765 \cr
+   Total \tab 0 \tab 88 \tab 333 \tab 390 \tab 1292 \tab 614 \tab 37 \tab 11 \tab 2765 \cr
+}
 }
 
 \seealso{

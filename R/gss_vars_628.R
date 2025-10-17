@@ -1,3 +1,44 @@
+#'  Amerca should limit immigration to protect way of life
+#' 
+#'  immlimit
+#' 
+#' Question America should limit immigration in order to protect our national way of life.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2021  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `immlimit`](https://gssdataexplorer.norc.org/variables/7481/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
+#'  |2021  |2003 |194            |433   |471                        |484      |231               |56           |151       |9              |4032  |
+#'  |Total |2003 |194            |433   |471                        |484      |231               |56           |151       |9              |4032  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name immlimit
+NULL
+
+
 #'  How much do you trust university research centers?
 #' 
 #'  trresrch
@@ -13,13 +54,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `trresrch`](https://gssdataexplorer.norc.org/variables/7482/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0 - no trust |1  |10 - complete trust |2  |3  |4  |5   |6   |7   |8   |9   |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:------------|:--|:-------------------|:--|:--|:--|:---|:---|:---|:---|:---|:----------|:---------|:--------------|:-----|
+#'  |2021  |2003 |58           |22 |98                  |64 |83 |93 |389 |151 |280 |343 |207 |77         |155       |9              |4032  |
+#'  |Total |2003 |58           |22 |98                  |64 |83 |93 |389 |151 |280 |343 |207 |77         |155       |9              |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -45,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `trmedia`](https://gssdataexplorer.norc.org/variables/7483/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0 - no trust |1   |10 - complete trust |2   |3   |4   |5   |6   |7   |8   |9  |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:------------|:---|:-------------------|:---|:---|:---|:---|:---|:---|:---|:--|:----------|:---------|:--------------|:-----|
+#'  |2021  |2003 |372          |149 |19                  |199 |179 |150 |291 |153 |172 |105 |31 |45         |155       |9              |4032  |
+#'  |Total |2003 |372          |149 |19                  |199 |179 |150 |291 |153 |172 |105 |31 |45         |155       |9              |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -77,13 +130,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `trbusind`](https://gssdataexplorer.norc.org/variables/7484/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0 - no trust |1  |10 - complete trust |2   |3   |4   |5   |6   |7   |8  |9  |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:------------|:--|:-------------------|:---|:---|:---|:---|:---|:---|:--|:--|:----------|:---------|:--------------|:-----|
+#'  |2021  |2003 |67           |45 |22                  |134 |218 |249 |571 |210 |193 |80 |16 |60         |155       |9              |4032  |
+#'  |Total |2003 |67           |45 |22                  |134 |218 |249 |571 |210 |193 |80 |16 |60         |155       |9              |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -109,13 +168,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `trlegis`](https://gssdataexplorer.norc.org/variables/7485/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0 - no trust |1   |10 - complete trust |2   |3   |4   |5   |6   |7  |8  |9  |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:------------|:---|:-------------------|:---|:---|:---|:---|:---|:--|:--|:--|:----------|:---------|:--------------|:-----|
+#'  |2021  |2003 |339          |195 |25                  |197 |255 |222 |332 |108 |88 |46 |11 |49         |156       |6              |4032  |
+#'  |Total |2003 |339          |195 |25                  |197 |255 |222 |332 |108 |88 |46 |11 |49         |156       |6              |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -143,13 +208,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `clmtcaus`](https://gssdataexplorer.norc.org/variables/7486/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |has not been changing |has been changing mostly due to natural processes |has been changing about equally due to natural processes and human activity |has been changing mostly due to human activity |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------------------|:-------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------------------------|:------------|:---------|:--------------|:-----|
+#'  |2021  |2003 |35                    |240                                               |639                                                                         |856                                            |90           |160       |9              |4032  |
+#'  |Total |2003 |35                    |240                                               |639                                                                         |856                                            |90           |160       |9              |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -175,13 +246,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `clmtwrld`](https://gssdataexplorer.norc.org/variables/7487/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0 - extremely bad |1   |10 - extremely good |2   |3   |4   |5   |6  |7  |8  |9  |can't choose |no answer |Total |
+#'  |:-----|:----|:-----------------|:---|:-------------------|:---|:---|:---|:---|:--|:--|:--|:--|:------------|:---------|:-----|
+#'  |2021  |2003 |428               |137 |25                  |243 |239 |184 |346 |56 |44 |20 |15 |83           |209       |4032  |
+#'  |Total |2003 |428               |137 |25                  |243 |239 |184 |346 |56 |44 |20 |15 |83           |209       |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -207,13 +284,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `clmtusa`](https://gssdataexplorer.norc.org/variables/7488/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0 - extremely bad |1   |10 - extremely good |2   |3   |4   |5   |6  |7  |8  |9  |can't choose |no answer |Total |
+#'  |:-----|:----|:-----------------|:---|:-------------------|:---|:---|:---|:---|:--|:--|:--|:--|:------------|:---------|:-----|
+#'  |2021  |2003 |372               |124 |19                  |242 |263 |198 |349 |60 |52 |19 |24 |89           |218       |4032  |
+#'  |Total |2003 |372               |124 |19                  |242 |263 |198 |349 |60 |52 |19 |24 |89           |218       |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -242,13 +325,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `naturdev`](https://gssdataexplorer.norc.org/variables/7489/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very willing |fairly willing |neither willing nor unwilling |fairly unwilling |very unwilling |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:------------|:--------------|:-----------------------------|:----------------|:--------------|:------------|:---------|:--------------|:-----|
+#'  |2021  |2003 |28           |159            |303                           |513              |768            |71           |176       |11             |4032  |
+#'  |Total |2003 |28           |159            |303                           |513              |768            |71           |176       |11             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -277,12 +366,10 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2021  |
 #' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `indusgen1`](https://gssdataexplorer.norc.org/variables/7490/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,41 +378,6 @@ NULL
 #' @keywords variable
 #' @md
 #' @name indusgen1
-NULL
-
-
-#'  Pesticides danger to envir
-#' 
-#'  chemgen1
-#' 
-#' Question And do you think that pesticides and chemicals used in farming areâ€¦
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` extremely dangerous
-#'   * `2` very dangerous
-#'   * `3` somewhat dangerous
-#'   * `4` not very dangerous
-#'   * `5` not dangerous at all
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `chemgen1`](https://gssdataexplorer.norc.org/variables/7491/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name chemgen1
 NULL
 
 

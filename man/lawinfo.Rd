@@ -24,15 +24,21 @@ Question How much information do you have about the law enforcement issue? Do yo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/282/vshow}{GSS Data Explorer page for \code{lawinfo}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab all info r needs \tab most of the info \tab some info \tab very little info \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 484 \tab 53 \tab 218 \tab 524 \tab 187 \tab 6 \tab 1 \tab 1473 \cr
+   Total \tab 484 \tab 53 \tab 218 \tab 524 \tab 187 \tab 6 \tab 1 \tab 1473 \cr
+}
 }
 
 \seealso{

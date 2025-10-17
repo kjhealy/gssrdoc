@@ -21,15 +21,21 @@ Question NUMBER OF SIBLING SELECTED FOR FOLLOW-UP QUESTIONS:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1581/vshow}{GSS Data Explorer page for \code{sbpicked}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab Total \cr
+   1994 \tab 330 \tab 1136 \tab 637 \tab 377 \tab 213 \tab 105 \tab 100 \tab 41 \tab 33 \tab 20 \tab 2992 \cr
+   Total \tab 330 \tab 1136 \tab 637 \tab 377 \tab 213 \tab 105 \tab 100 \tab 41 \tab 33 \tab 20 \tab 2992 \cr
+}
 }
 
 \seealso{

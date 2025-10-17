@@ -22,28 +22,35 @@ Question The last time you had sex, was it with someone you were in an on-going 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5069/vshow}{GSS Data Explorer page for \code{relatsex}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, the last time i had sex, it was with someone i was in an on-going relationship with \tab no, the last time i had sex, it was not with someone i was in an on-going relationship with \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1996 \tab 258 \tab 2260 \tab 196 \tab 190 \tab - \tab - \tab 2904 \cr
+   1998 \tab 383 \tab 2048 \tab 236 \tab 162 \tab 3 \tab - \tab 2832 \cr
+   2000 \tab 417 \tab 1959 \tab 236 \tab 204 \tab 1 \tab - \tab 2817 \cr
+   2002 \tab 476 \tab 1980 \tab 158 \tab 139 \tab 12 \tab - \tab 2765 \cr
+   2004 \tab 570 \tab 1956 \tab 176 \tab 96 \tab 14 \tab - \tab 2812 \cr
+   2006 \tab 2096 \tab 2074 \tab 229 \tab 97 \tab 14 \tab - \tab 4510 \cr
+   2008 \tab 240 \tab 1560 \tab 167 \tab 47 \tab 9 \tab - \tab 2023 \cr
+   2010 \tab 202 \tab 1611 \tab 157 \tab 65 \tab 9 \tab - \tab 2044 \cr
+   2012 \tab 238 \tab 1476 \tab 173 \tab 79 \tab 8 \tab - \tab 1974 \cr
+   2014 \tab 188 \tab 1999 \tab 249 \tab 92 \tab 10 \tab - \tab 2538 \cr
+   2016 \tab 1096 \tab 1476 \tab 219 \tab 68 \tab 8 \tab - \tab 2867 \cr
+   2018 \tab 942 \tab 1187 \tab 152 \tab 61 \tab 6 \tab - \tab 2348 \cr
+   2021 \tab 1706 \tab 1993 \tab 193 \tab 6 \tab 89 \tab 45 \tab 4032 \cr
+   2022 \tab 1900 \tab 1280 \tab 174 \tab 14 \tab 103 \tab 73 \tab 3544 \cr
+   Total \tab 10712 \tab 24859 \tab 2715 \tab 1320 \tab 286 \tab 118 \tab 40010 \cr
+}
 }
 
 \seealso{

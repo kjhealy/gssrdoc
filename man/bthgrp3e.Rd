@@ -36,15 +36,21 @@ Question What are the groups you both belong to? Circle all that apply.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5531/vshow}{GSS Data Explorer page for \code{bthgrp3e}}.
+
+Counts by year:\tabular{llll}{
+   year \tab iap \tab no answer \tab Total \cr
+   2004 \tab 2771 \tab 41 \tab 2812 \cr
+   Total \tab 2771 \tab 41 \tab 2812 \cr
+}
 }
 
 \seealso{

@@ -27,15 +27,21 @@ Question Do you smoke cigarettes, and if so about how many cigarettes a day?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7834/vshow}{GSS Data Explorer page for \code{smokeday}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab do not smoke and never did \tab do not smoke now but smoked in the past \tab smoke 1-5 cigarettes per day \tab smoke 6-10 cigarettes per day \tab smoke 11-20 cigarettes per day \tab smoke 21-40 cigarettes per day \tab smoke more than 40 cigarettes per day \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2382 \tab 665 \tab 279 \tab 53 \tab 53 \tab 56 \tab 17 \tab 5 \tab 25 \tab 3 \tab 6 \tab 3544 \cr
+   Total \tab 2382 \tab 665 \tab 279 \tab 53 \tab 53 \tab 56 \tab 17 \tab 5 \tab 25 \tab 3 \tab 6 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

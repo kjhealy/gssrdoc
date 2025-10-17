@@ -24,15 +24,21 @@ Question What about ten years ago, that is in 1972, which of these statements ca
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5489/vshow}{GSS Data Explorer page for \code{commun10}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab worst kind \tab bad, not worst \tab ok for some \tab good form \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 1090 \tab 327 \tab 220 \tab 35 \tab 179 \tab 9 \tab 1860 \cr
+   Total \tab 0 \tab 1090 \tab 327 \tab 220 \tab 35 \tab 179 \tab 9 \tab 1860 \cr
+}
 }
 
 \seealso{

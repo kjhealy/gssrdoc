@@ -13,16 +13,21 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |2018, 2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `wrkslffam`](https://gssdataexplorer.norc.org/variables/7224/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |don't know |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:---------|:----------|:--------------|:-----|
+#'  |2018  |2109 |130 |102 |7         |-          |-              |2348  |
+#'  |2021  |3574 |193 |236 |5         |1          |23             |4032  |
+#'  |2022  |3129 |177 |212 |7         |3          |16             |3544  |
+#'  |Total |8812 |500 |550 |19        |4          |39             |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -50,13 +55,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ignorwk`](https://gssdataexplorer.norc.org/variables/3015/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |often |sometimes |rarely |never |don't know |no answer |Total |
+#'  |:-----|:---|:-----|:---------|:------|:-----|:----------|:---------|:-----|
+#'  |2012  |795 |30    |139       |262    |703   |13         |32        |1974  |
+#'  |Total |795 |30    |139       |262    |703   |13         |32        |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -84,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rumorwk`](https://gssdataexplorer.norc.org/variables/3016/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |often |sometimes |rarely |never |don't know |no answer |Total |
+#'  |:-----|:---|:-----|:---------|:------|:-----|:----------|:---------|:-----|
+#'  |2012  |795 |31    |103       |208    |777   |29         |31        |1974  |
+#'  |Total |795 |31    |103       |208    |777   |29         |31        |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -118,13 +135,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `jokeswk`](https://gssdataexplorer.norc.org/variables/3017/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |often |sometimes |rarely |never |don't know |no answer |Total |
+#'  |:-----|:---|:-----|:---------|:------|:-----|:----------|:---------|:-----|
+#'  |2012  |795 |30    |95        |180    |821   |22         |31        |1974  |
+#'  |Total |795 |30    |95        |180    |821   |22         |31        |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -152,13 +175,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `eharaswk`](https://gssdataexplorer.norc.org/variables/3018/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |often |sometimes |rarely |never |don't know |no answer |Total |
+#'  |:-----|:---|:-----|:---------|:------|:-----|:----------|:---------|:-----|
+#'  |2012  |795 |2     |17        |37     |1079  |13         |31        |1974  |
+#'  |Total |795 |2     |17        |37     |1079  |13         |31        |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -186,13 +215,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rudewk`](https://gssdataexplorer.norc.org/variables/3019/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |often |sometimes |rarely |never |don't know |no answer |Total |
+#'  |:-----|:---|:-----|:---------|:------|:-----|:----------|:---------|:-----|
+#'  |2012  |795 |35    |110       |274    |718   |11         |31        |1974  |
+#'  |Total |795 |35    |110       |274    |718   |11         |31        |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -220,13 +255,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `liedcwkr`](https://gssdataexplorer.norc.org/variables/3020/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |often |sometimes |rarely |never |don't know |no answer |Total |
+#'  |:-----|:---|:-----|:---------|:------|:-----|:----------|:---------|:-----|
+#'  |2012  |795 |34    |216       |243    |636   |19         |31        |1974  |
+#'  |Total |795 |34    |216       |243    |636   |19         |31        |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -254,13 +295,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `denyrais`](https://gssdataexplorer.norc.org/variables/3021/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |often |sometimes |rarely |never |don't know |no answer |Total |
+#'  |:-----|:---|:-----|:---------|:------|:-----|:----------|:---------|:-----|
+#'  |2012  |795 |32    |101       |105    |897   |13         |31        |1974  |
+#'  |Total |795 |32    |101       |105    |897   |13         |31        |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -287,13 +334,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `wkbhvrs`](https://gssdataexplorer.norc.org/variables/3022/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a co-worker |your supervisor or boss |a customer/client/patient |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:-----------------------|:-------------------------|:----------|:---------|:-----|
+#'  |2012  |1219 |324         |175                     |180                       |52         |24        |1974  |
+#'  |Total |1219 |324         |175                     |180                       |52         |24        |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -325,13 +378,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `wkrspns`](https://gssdataexplorer.norc.org/variables/3023/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |did nothing (ignored it) |talked to co-workers or other people at work |talked to family or friends |reported the incident to management or those higher up |reported the incident to the union |confronted the person (s) engaging in the behaviors |filed a formal complaint or grievance about the behavior or experiences |did not know what to do |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:--------------------------------------------|:---------------------------|:------------------------------------------------------|:----------------------------------|:---------------------------------------------------|:-----------------------------------------------------------------------|:-----------------------|:----------|:---------|:-----|
+#'  |2012  |1219 |214                      |136                                          |59                          |109                                                    |6                                  |185                                                 |9                                                                       |14                      |15         |8         |1974  |
+#'  |Total |1219 |214                      |136                                          |59                          |109                                                    |6                                  |185                                                 |9                                                                       |14                      |15         |8         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict

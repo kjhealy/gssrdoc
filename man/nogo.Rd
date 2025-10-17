@@ -22,15 +22,21 @@ Question During the last 12 months, was there a performance or exhibit that you 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6247/vshow}{GSS Data Explorer page for \code{nogo}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1390 \tab 616 \tab 851 \tab 2 \tab 8 \tab 2867 \cr
+   Total \tab 1390 \tab 616 \tab 851 \tab 2 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

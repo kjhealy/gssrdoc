@@ -26,19 +26,27 @@ E. Large differences in income are necessary for America''s prosperity.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2000 \cr
+   B/C/- \tab 2008, 2021 \cr
+   Full \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4260/vshow}{GSS Data Explorer page for \code{inequal5}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 102 \tab 394 \tab 419 \tab 458 \tab 85 \tab 66 \tab 40 \tab - \tab 1819 \cr
+   1996 \tab 1460 \tab 114 \tab 287 \tab 177 \tab 434 \tab 361 \tab 64 \tab 7 \tab - \tab 2904 \cr
+   2000 \tab 1545 \tab 57 \tab 260 \tab 347 \tab 394 \tab 101 \tab 38 \tab 75 \tab - \tab 2817 \cr
+   2008 \tab 982 \tab 28 \tab 216 \tab 177 \tab 450 \tab 134 \tab 29 \tab 7 \tab - \tab 2023 \cr
+   2021 \tab 2252 \tab 35 \tab 161 \tab 451 \tab 664 \tab 373 \tab 75 \tab 3 \tab 18 \tab 4032 \cr
+   Total \tab 6494 \tab 336 \tab 1318 \tab 1571 \tab 2400 \tab 1054 \tab 272 \tab 132 \tab 18 \tab 13595 \cr
+}
 }
 
 \seealso{

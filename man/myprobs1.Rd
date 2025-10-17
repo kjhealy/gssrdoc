@@ -22,15 +22,21 @@ Question On a scale from 1 to 10, with 1 being not at all and 10 being very much
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7125/vshow}{GSS Data Explorer page for \code{myprobs1}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 1 - not at all \tab 10 - very much \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1751 \tab 275 \tab 34 \tab 61 \tab 49 \tab 26 \tab 46 \tab 25 \tab 32 \tab 32 \tab 13 \tab 3 \tab 1 \tab 2348 \cr
+   Total \tab 1751 \tab 275 \tab 34 \tab 61 \tab 49 \tab 26 \tab 46 \tab 25 \tab 32 \tab 32 \tab 13 \tab 3 \tab 1 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

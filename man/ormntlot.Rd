@@ -22,16 +22,22 @@ E. Go to a therapist, or counselor, like a psychologist, social worker, or other
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2025/vshow}{GSS Data Explorer page for \code{ormntlot}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1706 \tab 124 \tab 161 \tab 223 \tab 232 \tab 184 \tab 84 \tab 32 \tab 10 \tab 2 \tab 3 \tab 143 \tab 2904 \cr
+   2006 \tab 3272 \tab 57 \tab 157 \tab 236 \tab 294 \tab 280 \tab 113 \tab 48 \tab 9 \tab 4 \tab - \tab 40 \tab 4510 \cr
+   Total \tab 4978 \tab 181 \tab 318 \tab 459 \tab 526 \tab 464 \tab 197 \tab 80 \tab 19 \tab 6 \tab 3 \tab 183 \tab 7414 \cr
+}
 }
 
 \seealso{

@@ -23,16 +23,22 @@ Question A. Do you consider yourself to be Jewish for any reason?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/290/vshow}{GSS Data Explorer page for \code{othjew}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab half/part \tab no \tab no answer \tab Total \cr
+   2008 \tab 1682 \tab 4 \tab 5 \tab 320 \tab 12 \tab 2023 \cr
+   2012 \tab 1579 \tab 7 \tab 5 \tab 375 \tab 8 \tab 1974 \cr
+   Total \tab 3261 \tab 11 \tab 10 \tab 695 \tab 20 \tab 3997 \cr
+}
 }
 
 \seealso{

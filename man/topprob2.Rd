@@ -29,16 +29,22 @@ Question A2. Which is the next most important?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4799/vshow}{GSS Data Explorer page for \code{topprob2}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab health care \tab education \tab crime \tab the environment \tab immigration \tab the economy \tab terrorism \tab poverty \tab none of these \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab 614 \tab 327 \tab 325 \tab 73 \tab 120 \tab 76 \tab 203 \tab 152 \tab 71 \tab 6 \tab 69 \tab 8 \tab - \tab 2044 \cr
+   2021 \tab 2009 \tab 463 \tab 332 \tab 139 \tab 201 \tab 88 \tab 312 \tab 52 \tab 159 \tab 61 \tab 42 \tab 143 \tab 31 \tab 4032 \cr
+   Total \tab 2623 \tab 790 \tab 657 \tab 212 \tab 321 \tab 164 \tab 515 \tab 204 \tab 230 \tab 67 \tab 111 \tab 151 \tab 31 \tab 6076 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,23 @@ A. Environmental scientists. Would you say a great deal of influence, a fair amo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3359/vshow}{GSS Data Explorer page for \code{sciinfgw}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3582 \tab 438 \tab 347 \tab 73 \tab 30 \tab 38 \tab 2 \tab 4510 \cr
+   2010 \tab 1569 \tab 219 \tab 184 \tab 42 \tab 10 \tab 16 \tab 4 \tab 2044 \cr
+   Total \tab 5151 \tab 657 \tab 531 \tab 115 \tab 40 \tab 54 \tab 6 \tab 6554 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ C. I look to God for strength, support, guidance.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2098/vshow}{GSS Data Explorer page for \code{cope3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal \tab quite a bit \tab somewhat \tab not at all \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 616 \tab 291 \tab 324 \tab 185 \tab 8 \tab 21 \tab 2832 \cr
+   Total \tab 1387 \tab 616 \tab 291 \tab 324 \tab 185 \tab 8 \tab 21 \tab 2832 \cr
+}
 }
 
 \seealso{

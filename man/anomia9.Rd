@@ -23,17 +23,23 @@ C. Most people don''t really care what happens to the next fellow.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
-   1974 \tab - \tab full \cr
-   1976 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973, 1974, 1976 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/545/vshow}{GSS Data Explorer page for \code{anomia9}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 717 \tab 765 \tab 20 \tab 2 \tab 1504 \cr
+   1974 \tab - \tab 867 \tab 596 \tab 18 \tab 3 \tab 1484 \cr
+   1976 \tab - \tab 877 \tab 603 \tab 16 \tab 3 \tab 1499 \cr
+   Total \tab 0 \tab 2461 \tab 1964 \tab 54 \tab 8 \tab 4487 \cr
+}
 }
 
 \seealso{

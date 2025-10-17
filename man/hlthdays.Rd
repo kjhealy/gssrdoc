@@ -21,20 +21,26 @@ Question C. During the past 30 days, for about how many days did your poor physi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2829/vshow}{GSS Data Explorer page for \code{hlthdays}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 2 \tab 20 \tab 21 \tab 22 \tab 25 \tab 28 \tab 3 \tab 30 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab 12 \tab 27 \tab 9 \tab 24 \tab 26 \tab 29 \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 1389 \tab 80 \tab 22 \tab 5 \tab 21 \tab 1 \tab 1 \tab 1 \tab 72 \tab 11 \tab 6 \tab 1 \tab 2 \tab 1 \tab 49 \tab 24 \tab 34 \tab 34 \tab 2 \tab 16 \tab 2 \tab 6 \tab 16 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 1392 \tab 67 \tab 21 \tab 7 \tab 14 \tab 1 \tab - \tab 1 \tab 71 \tab 6 \tab 3 \tab 1 \tab - \tab - \tab 36 \tab 18 \tab 25 \tab 29 \tab 6 \tab 13 \tab 5 \tab 2 \tab 12 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 859 \tab 53 \tab 11 \tab 7 \tab 16 \tab - \tab - \tab - \tab 52 \tab 11 \tab 1 \tab - \tab - \tab - \tab 42 \tab 14 \tab 25 \tab 39 \tab 4 \tab 11 \tab 4 \tab 6 \tab 26 \tab 1 \tab - \tab 3 \tab 1 \tab 1 \tab - \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 1026 \tab 38 \tab 12 \tab 5 \tab 7 \tab - \tab - \tab - \tab 46 \tab 6 \tab - \tab - \tab 1 \tab - \tab 25 \tab 11 \tab 12 \tab 30 \tab 2 \tab 14 \tab 3 \tab - \tab 8 \tab 2 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 1058 \tab 65 \tab 26 \tab 6 \tab 21 \tab - \tab - \tab - \tab 75 \tab 9 \tab - \tab 1 \tab 3 \tab - \tab 38 \tab 14 \tab 19 \tab 38 \tab 3 \tab 24 \tab 4 \tab 4 \tab 34 \tab 3 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 1557 \tab 1326 \tab 61 \tab 51 \tab 9 \tab 41 \tab - \tab 2 \tab 1 \tab 104 \tab 26 \tab - \tab - \tab 5 \tab 1 \tab 63 \tab 36 \tab 37 \tab 89 \tab 11 \tab 37 \tab 10 \tab 14 \tab 18 \tab 4 \tab 1 \tab 2 \tab - \tab 1 \tab 3 \tab 34 \tab 3544 \cr
+   Total \tab 8347 \tab 7050 \tab 364 \tab 143 \tab 39 \tab 120 \tab 2 \tab 3 \tab 3 \tab 420 \tab 69 \tab 10 \tab 3 \tab 11 \tab 2 \tab 253 \tab 117 \tab 152 \tab 259 \tab 28 \tab 115 \tab 28 \tab 32 \tab 114 \tab 11 \tab 3 \tab 10 \tab 1 \tab 3 \tab 3 \tab 34 \tab 17749 \cr
+}
 }
 
 \seealso{

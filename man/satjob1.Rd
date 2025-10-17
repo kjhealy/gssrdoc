@@ -24,20 +24,26 @@ Question All in all, how satisfied would you say you are with your job?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2838/vshow}{GSS Data Explorer page for \code{satjob1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very satisfied \tab somewhat satisfied \tab not too satisfied \tab not at all satisfied \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 872 \tab 707 \tab 134 \tab 61 \tab 6 \tab 16 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 786 \tab 770 \tab 110 \tab 55 \tab 2 \tab 11 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 524 \tab 503 \tab 94 \tab 40 \tab 1 \tab 25 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 615 \tab 505 \tab 87 \tab 36 \tab 1 \tab 6 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 689 \tab 596 \tab 101 \tab 27 \tab 2 \tab 33 \tab - \tab 2348 \cr
+   2022 \tab 1560 \tab 927 \tab 810 \tab 155 \tab 55 \tab 6 \tab 10 \tab 21 \tab 3544 \cr
+   Total \tab 8350 \tab 4413 \tab 3891 \tab 681 \tab 274 \tab 18 \tab 101 \tab 21 \tab 17749 \cr
+}
 }
 
 \seealso{

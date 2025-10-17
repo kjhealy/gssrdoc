@@ -23,15 +23,21 @@ A. If a young man refuses to register for the draft, would you approve or disapp
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/817/vshow}{GSS Data Explorer page for \code{cojail}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab approve \tab disapprove \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 496 \tab 405 \tab 511 \tab 38 \tab 23 \tab 1473 \cr
+   Total \tab 496 \tab 405 \tab 511 \tab 38 \tab 23 \tab 1473 \cr
+}
 }
 
 \seealso{

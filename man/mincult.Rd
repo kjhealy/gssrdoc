@@ -26,17 +26,23 @@ B. Ethnic minorities should be given government assistance to preserve their cus
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4857/vshow}{GSS Data Explorer page for \code{mincult}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 46 \tab 168 \tab 293 \tab 502 \tab 242 \tab 55 \tab 61 \tab 2904 \cr
+   2004 \tab 1596 \tab 50 \tab 222 \tab 300 \tab 455 \tab 160 \tab 25 \tab 4 \tab 2812 \cr
+   2014 \tab 1264 \tab 13 \tab 189 \tab 245 \tab 537 \tab 235 \tab 52 \tab 3 \tab 2538 \cr
+   Total \tab 4397 \tab 109 \tab 579 \tab 838 \tab 1494 \tab 637 \tab 132 \tab 68 \tab 8254 \cr
+}
 }
 
 \seealso{

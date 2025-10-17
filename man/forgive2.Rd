@@ -25,15 +25,21 @@ B. I have forgiven those who hurt me.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2106/vshow}{GSS Data Explorer page for \code{forgive2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab alwys/almst alwy \tab often \tab seldom \tab never \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 669 \tab 547 \tab 141 \tab 60 \tab 3 \tab 25 \tab 2832 \cr
+   Total \tab 1387 \tab 669 \tab 547 \tab 141 \tab 60 \tab 3 \tab 25 \tab 2832 \cr
+}
 }
 
 \seealso{

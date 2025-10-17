@@ -22,16 +22,22 @@ Question Which of these would you say is more important in preparing children fo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4717/vshow}{GSS Data Explorer page for \code{obeythnk}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab to be obedient \tab to think for themselves \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 447 \tab 997 \tab 93 \tab 20 \tab 1606 \cr
+   1994 \tab 159 \tab 815 \tab 1788 \tab 142 \tab 88 \tab 2992 \cr
+   Total \tab 208 \tab 1262 \tab 2785 \tab 235 \tab 108 \tab 4598 \cr
+}
 }
 
 \concept{ISSP Environment}

@@ -26,28 +26,34 @@ Because of past discrimination, employers should make special efforts to hire an
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1697/vshow}{GSS Data Explorer page for \code{fehire}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1996 \tab 1444 \tab 248 \tab 553 \tab 200 \tab 340 \tab 95 \tab 22 \tab 2 \tab - \tab 2904 \cr
+   2000 \tab 1889 \tab 155 \tab 367 \tab 84 \tab 160 \tab 34 \tab 14 \tab 114 \tab - \tab 2817 \cr
+   2002 \tab 2295 \tab 99 \tab 220 \tab 43 \tab 87 \tab 20 \tab 1 \tab - \tab - \tab 2765 \cr
+   2004 \tab 2359 \tab 65 \tab 222 \tab 56 \tab 90 \tab 18 \tab 1 \tab 1 \tab - \tab 2812 \cr
+   2006 \tab 3512 \tab 181 \tab 463 \tab 133 \tab 183 \tab 34 \tab 4 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1342 \tab 120 \tab 316 \tab 66 \tab 153 \tab 22 \tab 3 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab 1345 \tab 127 \tab 342 \tab 71 \tab 126 \tab 30 \tab 2 \tab 1 \tab - \tab 2044 \cr
+   2012 \tab 1332 \tab 102 \tab 314 \tab 68 \tab 132 \tab 21 \tab 4 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 1689 \tab 156 \tab 432 \tab 75 \tab 157 \tab 23 \tab 4 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 1915 \tab 210 \tab 483 \tab 87 \tab 141 \tab 30 \tab 1 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1583 \tab 176 \tab 380 \tab 75 \tab 105 \tab 24 \tab 4 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 1315 \tab 622 \tab 898 \tab 673 \tab 381 \tab 134 \tab 1 \tab - \tab 8 \tab 4032 \cr
+   2022 \tab 1168 \tab 556 \tab 955 \tab 417 \tab 334 \tab 95 \tab 15 \tab 2 \tab 2 \tab 3544 \cr
+   Total \tab 23188 \tab 2817 \tab 5945 \tab 2048 \tab 2389 \tab 580 \tab 76 \tab 125 \tab 10 \tab 37178 \cr
+}
 }
 
 \seealso{

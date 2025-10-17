@@ -24,15 +24,21 @@ Question B. How much information do you have about the pornography issue--do you
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/644/vshow}{GSS Data Explorer page for \code{porninfo}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab all info r needs \tab most info \tab some info \tab very little info \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 209 \tab 303 \tab 542 \tab 381 \tab 18 \tab 20 \tab 1473 \cr
+   Total \tab 0 \tab 209 \tab 303 \tab 542 \tab 381 \tab 18 \tab 20 \tab 1473 \cr
+}
 }
 
 \seealso{

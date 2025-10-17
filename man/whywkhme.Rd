@@ -24,20 +24,26 @@ Question Is it usually because you want to, you have to in order to keep up with
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2768/vshow}{GSS Data Explorer page for \code{whywkhme}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab worker wants to work at home \tab worker has to work at home to keep up with job \tab worker is operating home-based business \tab no answer \tab don't know \tab other combinations and other reasons \tab skipped on web \tab Total \cr
+   2002 \tab 2077 \tab 254 \tab 224 \tab 197 \tab 13 \tab - \tab - \tab - \tab 2765 \cr
+   2006 \tab 3803 \tab 257 \tab 225 \tab 213 \tab 11 \tab 1 \tab - \tab - \tab 4510 \cr
+   2010 \tab 1531 \tab 160 \tab 189 \tab 60 \tab 27 \tab 3 \tab 74 \tab - \tab 2044 \cr
+   2014 \tab 2033 \tab 142 \tab 203 \tab 84 \tab 7 \tab - \tab 69 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 171 \tab 200 \tab 76 \tab 896 \tab 3 \tab 102 \tab - \tab 2348 \cr
+   2022 \tab 2641 \tab 476 \tab 160 \tab 106 \tab 3 \tab 8 \tab 130 \tab 20 \tab 3544 \cr
+   Total \tab 12985 \tab 1460 \tab 1201 \tab 736 \tab 957 \tab 15 \tab 375 \tab 20 \tab 17749 \cr
+}
 }
 
 \seealso{

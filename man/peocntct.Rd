@@ -29,16 +29,23 @@ Would you sayâ€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/-/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4126/vshow}{GSS Data Explorer page for \code{peocntct}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 0-4 persons \tab 5-9 \tab 10-19 \tab 20-49 \tab 50 or more \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 247 \tab 354 \tab 378 \tab 336 \tab 199 \tab 2 \tab 2 \tab 4510 \cr
+   2014 \tab 1274 \tab 278 \tab 358 \tab 286 \tab 216 \tab 115 \tab 10 \tab 1 \tab 2538 \cr
+   Total \tab 4266 \tab 525 \tab 712 \tab 664 \tab 552 \tab 314 \tab 12 \tab 3 \tab 7048 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ D. How many own a second home?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3605/vshow}{GSS Data Explorer page for \code{acqfmhme}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3996 \tab 264 \tab 97 \tab 118 \tab 9 \tab 3 \tab 17 \tab 6 \tab 4510 \cr
+   Total \tab 3996 \tab 264 \tab 97 \tab 118 \tab 9 \tab 3 \tab 17 \tab 6 \tab 4510 \cr
+}
 }
 
 \seealso{

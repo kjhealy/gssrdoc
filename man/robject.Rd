@@ -24,15 +24,21 @@ Question INTERVIEWER: DID THE RESPONDENT OBJECT TO OR DELAY ANSWERING IMMSTATS?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3029/vshow}{GSS Data Explorer page for \code{robject}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, objected verbally \tab yes, delayed, kept silent for a while \tab no \tab other \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2540 \tab 5 \tab 4 \tab 248 \tab 3 \tab 7 \tab 5 \tab 2812 \cr
+   Total \tab 2540 \tab 5 \tab 4 \tab 248 \tab 3 \tab 7 \tab 5 \tab 2812 \cr
+}
 }
 
 \seealso{

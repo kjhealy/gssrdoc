@@ -24,15 +24,21 @@ Which do you favor:  promoting equal opportunity or promoting equal outcomes?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1379/vshow}{GSS Data Explorer page for \code{opoutcme}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab promote equal oppotunity \tab promote equal outcomes \tab other \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 1347 \tab 194 \tab 17 \tab 41 \tab 7 \tab 1606 \cr
+   Total \tab 0 \tab 1347 \tab 194 \tab 17 \tab 41 \tab 7 \tab 1606 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,22 @@ G. Contacted or appeared in the media to express your views
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4926/vshow}{GSS Data Explorer page for \code{usemedia}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab have done it in the past yr \tab have done it in the more distant past \tab have not done it but might do it \tab have not done it and would never do it \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 75 \tab 137 \tab 671 \tab 583 \tab 2 \tab 4 \tab 2812 \cr
+   2014 \tab 1274 \tab 47 \tab 93 \tab 482 \tab 618 \tab 22 \tab 2 \tab 2538 \cr
+   Total \tab 2614 \tab 122 \tab 230 \tab 1153 \tab 1201 \tab 24 \tab 6 \tab 5350 \cr
+}
 }
 
 \seealso{

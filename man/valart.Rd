@@ -23,15 +23,21 @@ H. Arts, culture, and humanities
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1967/vshow}{GSS Data Explorer page for \code{valart}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 0 \tab 100 \tab 125 \tab 15 \tab 200 \tab 25 \tab 300 \tab 50 \tab 500 \tab 800 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2782 \tab 51 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 5 \tab 3 \tab 1 \tab 5 \tab 48 \tab 2904 \cr
+   Total \tab 2782 \tab 51 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 5 \tab 3 \tab 1 \tab 5 \tab 48 \tab 2904 \cr
+}
 }
 
 \seealso{

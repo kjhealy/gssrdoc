@@ -22,42 +22,50 @@ Question Mother's OCC/IND verbatim recovered
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/-/- \tab full \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5996/vshow}{GSS Data Explorer page for \code{maoccindv}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab no verbatims for ma \tab iap \tab verbatims for ma \tab Total \cr
+   1972 \tab 702 \tab 911 \tab - \tab 1613 \cr
+   1973 \tab 1234 \tab 270 \tab - \tab 1504 \cr
+   1974 \tab 1217 \tab 267 \tab - \tab 1484 \cr
+   1975 \tab 976 \tab 514 \tab - \tab 1490 \cr
+   1976 \tab 1230 \tab 269 \tab - \tab 1499 \cr
+   1977 \tab 817 \tab 713 \tab - \tab 1530 \cr
+   1978 \tab 1518 \tab 14 \tab - \tab 1532 \cr
+   1980 \tab 1293 \tab 175 \tab - \tab 1468 \cr
+   1982 \tab 1696 \tab 164 \tab - \tab 1860 \cr
+   1983 \tab 1475 \tab 124 \tab - \tab 1599 \cr
+   1984 \tab 1458 \tab 15 \tab - \tab 1473 \cr
+   1985 \tab 1296 \tab 238 \tab - \tab 1534 \cr
+   1986 \tab 1425 \tab 45 \tab - \tab 1470 \cr
+   1987 \tab 1511 \tab 308 \tab - \tab 1819 \cr
+   1988 \tab 1460 \tab 21 \tab - \tab 1481 \cr
+   1989 \tab 1420 \tab 117 \tab - \tab 1537 \cr
+   1990 \tab 1358 \tab 14 \tab - \tab 1372 \cr
+   1991 \tab 1499 \tab 18 \tab - \tab 1517 \cr
+   1993 \tab 1545 \tab 61 \tab - \tab 1606 \cr
+   1994 \tab 1228 \tab 54 \tab 1710 \tab 2992 \cr
+   1996 \tab 1101 \tab 21 \tab 1782 \tab 2904 \cr
+   1998 \tab 1056 \tab 31 \tab 1745 \tab 2832 \cr
+   2000 \tab 1172 \tab - \tab 1645 \tab 2817 \cr
+   2002 \tab 1123 \tab - \tab 1642 \tab 2765 \cr
+   2004 \tab 1104 \tab - \tab 1708 \tab 2812 \cr
+   2006 \tab 2674 \tab - \tab 1836 \tab 4510 \cr
+   2008 \tab 709 \tab - \tab 1314 \tab 2023 \cr
+   2010 \tab 666 \tab - \tab 1378 \tab 2044 \cr
+   Total \tab 35963 \tab 4364 \tab 14760 \tab 55087 \cr
+}
 }
 
 \seealso{

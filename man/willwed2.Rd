@@ -23,16 +23,22 @@ Question If the right person came along, would you like to be married?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1653/vshow}{GSS Data Explorer page for \code{willwed2}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2430 \tab 216 \tab 183 \tab 27 \tab 48 \tab 2904 \cr
+   1998 \tab 2381 \tab 193 \tab 181 \tab 39 \tab 38 \tab 2832 \cr
+   Total \tab 4811 \tab 409 \tab 364 \tab 66 \tab 86 \tab 5736 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ B. Where would you place what the federal government is doing at the present tim
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1980 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/762/vshow}{GSS Data Explorer page for \code{hlpminfg}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab havent thought much \tab govt help \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab help selves \tab don't know \tab no answer \tab Total \cr
+   1980 \tab - \tab 61 \tab 245 \tab 278 \tab 254 \tab 221 \tab 140 \tab 99 \tab 51 \tab 113 \tab 6 \tab 1468 \cr
+   Total \tab 0 \tab 61 \tab 245 \tab 278 \tab 254 \tab 221 \tab 140 \tab 99 \tab 51 \tab 113 \tab 6 \tab 1468 \cr
+}
 }
 
 \seealso{

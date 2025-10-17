@@ -22,41 +22,49 @@ Question Likelihood of respondent born on a date with a Vietnam War draft lotter
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7743/vshow}{GSS Data Explorer page for \code{vietdraft}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab draft lottery number made draft unlikely \tab draft lottery number made draft likely \tab missing birthdate information \tab iap \tab Total \cr
+   1978 \tab - \tab 224 \tab 166 \tab 8 \tab 1134 \tab 1532 \cr
+   1980 \tab - \tab 178 \tab 143 \tab 40 \tab 1107 \tab 1468 \cr
+   1982 \tab - \tab 217 \tab 162 \tab 22 \tab 1459 \tab 1860 \cr
+   1983 \tab - \tab 163 \tab 137 \tab 61 \tab 1238 \tab 1599 \cr
+   1984 \tab - \tab 172 \tab 148 \tab 14 \tab 1139 \tab 1473 \cr
+   1985 \tab - \tab 152 \tab 130 \tab 47 \tab 1205 \tab 1534 \cr
+   1986 \tab - \tab 168 \tab 123 \tab 23 \tab 1156 \tab 1470 \cr
+   1987 \tab - \tab 203 \tab 176 \tab 18 \tab 1422 \tab 1819 \cr
+   1988 \tab - \tab 176 \tab 149 \tab 5 \tab 1151 \tab 1481 \cr
+   1989 \tab - \tab 157 \tab 140 \tab 12 \tab 1228 \tab 1537 \cr
+   1990 \tab - \tab 154 \tab 127 \tab 7 \tab 1084 \tab 1372 \cr
+   1991 \tab - \tab 161 \tab 134 \tab 6 \tab 1216 \tab 1517 \cr
+   1993 \tab - \tab 172 \tab 143 \tab 16 \tab 1275 \tab 1606 \cr
+   1994 \tab - \tab 326 \tab 283 \tab 10 \tab 2373 \tab 2992 \cr
+   1996 \tab - \tab 289 \tab 255 \tab 18 \tab 2342 \tab 2904 \cr
+   1998 \tab - \tab 240 \tab 203 \tab 38 \tab 2351 \tab 2832 \cr
+   2000 \tab - \tab 233 \tab 206 \tab 42 \tab 2336 \tab 2817 \cr
+   2002 \tab - \tab 229 \tab 181 \tab - \tab 2355 \tab 2765 \cr
+   2004 \tab - \tab 243 \tab 200 \tab 23 \tab 2346 \tab 2812 \cr
+   2006 \tab - \tab 424 \tab 292 \tab 31 \tab 3763 \tab 4510 \cr
+   2008 \tab - \tab 176 \tab 135 \tab 5 \tab 1707 \tab 2023 \cr
+   2010 \tab - \tab 173 \tab 138 \tab 11 \tab 1722 \tab 2044 \cr
+   2012 \tab - \tab 148 \tab 140 \tab 8 \tab 1678 \tab 1974 \cr
+   2014 \tab - \tab 182 \tab 153 \tab 19 \tab 2184 \tab 2538 \cr
+   2016 \tab - \tab 200 \tab 178 \tab 9 \tab 2480 \tab 2867 \cr
+   2018 \tab - \tab 166 \tab 150 \tab 15 \tab 2017 \tab 2348 \cr
+   2021 \tab - \tab 284 \tab 272 \tab 12 \tab 3464 \tab 4032 \cr
+   Total \tab 0 \tab 5610 \tab 4664 \tab 520 \tab 48932 \tab 59726 \cr
+}
 }
 
 \keyword{variable}

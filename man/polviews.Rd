@@ -28,47 +28,54 @@ I'm going to show you a seven-point scale on which the political views that peop
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/178/vshow}{GSS Data Explorer page for \code{polviews}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab extremely liberal \tab liberal \tab slightly liberal \tab moderate, middle of the road \tab slightly conservative \tab conservative \tab extremely conservative \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1974 \tab - \tab 22 \tab 201 \tab 207 \tab 564 \tab 221 \tab 160 \tab 35 \tab 70 \tab 4 \tab - \tab 1484 \cr
+   1975 \tab - \tab 46 \tab 179 \tab 196 \tab 559 \tab 232 \tab 150 \tab 35 \tab 81 \tab 12 \tab - \tab 1490 \cr
+   1976 \tab - \tab 31 \tab 187 \tab 186 \tab 559 \tab 221 \tab 190 \tab 27 \tab 93 \tab 5 \tab - \tab 1499 \cr
+   1977 \tab - \tab 37 \tab 169 \tab 214 \tab 564 \tab 251 \tab 179 \tab 39 \tab 71 \tab 6 \tab - \tab 1530 \cr
+   1978 \tab - \tab 22 \tab 142 \tab 241 \tab 549 \tab 263 \tab 188 \tab 30 \tab 70 \tab 27 \tab - \tab 1532 \cr
+   1980 \tab - \tab 36 \tab 121 \tab 208 \tab 582 \tab 258 \tab 180 \tab 44 \tab 22 \tab 17 \tab - \tab 1468 \cr
+   1982 \tab - \tab 48 \tab 199 \tab 267 \tab 694 \tab 235 \tab 229 \tab 67 \tab 104 \tab 17 \tab - \tab 1860 \cr
+   1983 \tab 795 \tab 16 \tab 67 \tab 98 \tab 319 \tab 142 \tab 108 \tab 20 \tab 31 \tab 3 \tab - \tab 1599 \cr
+   1984 \tab - \tab 29 \tab 133 \tab 177 \tab 568 \tab 276 \tab 186 \tab 41 \tab 52 \tab 11 \tab - \tab 1473 \cr
+   1985 \tab - \tab 35 \tab 163 \tab 171 \tab 566 \tab 271 \tab 214 \tab 42 \tab 63 \tab 9 \tab - \tab 1534 \cr
+   1986 \tab - \tab 25 \tab 132 \tab 176 \tab 579 \tab 242 \tab 209 \tab 38 \tab 67 \tab 2 \tab - \tab 1470 \cr
+   1987 \tab - \tab 47 \tab 234 \tab 226 \tab 641 \tab 278 \tab 208 \tab 45 \tab 98 \tab 42 \tab - \tab 1819 \cr
+   1988 \tab - \tab 34 \tab 176 \tab 189 \tab 514 \tab 246 \tab 225 \tab 32 \tab 56 \tab 9 \tab - \tab 1481 \cr
+   1989 \tab - \tab 40 \tab 178 \tab 191 \tab 566 \tab 246 \tab 194 \tab 27 \tab 88 \tab 7 \tab - \tab 1537 \cr
+   1990 \tab - \tab 36 \tab 141 \tab 179 \tab 476 \tab 240 \tab 192 \tab 51 \tab 53 \tab 4 \tab - \tab 1372 \cr
+   1991 \tab - \tab 37 \tab 154 \tab 214 \tab 584 \tab 218 \tab 212 \tab 40 \tab 54 \tab 4 \tab - \tab 1517 \cr
+   1993 \tab - \tab 30 \tab 180 \tab 203 \tab 575 \tab 264 \tab 254 \tab 42 \tab 49 \tab 9 \tab - \tab 1606 \cr
+   1994 \tab - \tab 71 \tab 328 \tab 378 \tab 1049 \tab 472 \tab 478 \tab 103 \tab 101 \tab 12 \tab - \tab 2992 \cr
+   1996 \tab - \tab 59 \tab 303 \tab 334 \tab 1045 \tab 451 \tab 458 \tab 93 \tab 155 \tab 6 \tab - \tab 2904 \cr
+   1998 \tab - \tab 64 \tab 357 \tab 351 \tab 986 \tab 432 \tab 415 \tab 86 \tab 133 \tab 8 \tab - \tab 2832 \cr
+   2000 \tab - \tab 107 \tab 308 \tab 285 \tab 1054 \tab 390 \tab 411 \tab 89 \tab 149 \tab 24 \tab - \tab 2817 \cr
+   2002 \tab 1393 \tab 47 \tab 143 \tab 159 \tab 522 \tab 209 \tab 210 \tab 41 \tab 36 \tab 5 \tab - \tab 2765 \cr
+   2004 \tab 1472 \tab 46 \tab 120 \tab 153 \tab 497 \tab 214 \tab 223 \tab 56 \tab 26 \tab 5 \tab - \tab 2812 \cr
+   2006 \tab - \tab 139 \tab 524 \tab 517 \tab 1683 \tab 618 \tab 685 \tab 167 \tab 154 \tab 23 \tab - \tab 4510 \cr
+   2008 \tab - \tab 69 \tab 240 \tab 221 \tab 740 \tab 268 \tab 327 \tab 68 \tab 77 \tab 13 \tab - \tab 2023 \cr
+   2010 \tab - \tab 76 \tab 259 \tab 232 \tab 746 \tab 265 \tab 315 \tab 80 \tab 61 \tab 10 \tab - \tab 2044 \cr
+   2012 \tab - \tab 81 \tab 244 \tab 208 \tab 713 \tab 268 \tab 292 \tab 68 \tab 87 \tab 13 \tab - \tab 1974 \cr
+   2014 \tab - \tab 94 \tab 304 \tab 263 \tab 989 \tab 334 \tab 358 \tab 107 \tab 65 \tab 24 \tab - \tab 2538 \cr
+   2016 \tab - \tab 136 \tab 350 \tab 310 \tab 1032 \tab 382 \tab 426 \tab 120 \tab 81 \tab 30 \tab - \tab 2867 \cr
+   2018 \tab - \tab 122 \tab 278 \tab 256 \tab 855 \tab 283 \tab 354 \tab 99 \tab 79 \tab 22 \tab - \tab 2348 \cr
+   2021 \tab 15 \tab 207 \tab 623 \tab 490 \tab 1377 \tab 476 \tab 617 \tab 174 \tab 10 \tab 3 \tab 40 \tab 4032 \cr
+   2022 \tab 1 \tab 192 \tab 486 \tab 400 \tab 1245 \tab 430 \tab 514 \tab 159 \tab 73 \tab 27 \tab 17 \tab 3544 \cr
+   Total \tab 3676 \tab 2081 \tab 7623 \tab 7900 \tab 23992 \tab 9596 \tab 9361 \tab 2165 \tab 2409 \tab 413 \tab 57 \tab 69273 \cr
+}
 }
 
 \seealso{

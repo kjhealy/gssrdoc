@@ -46,15 +46,21 @@ Question A. What specific denomination is that, if any? (PROBE FOR EXACT DENOMIN
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1059/vshow}{GSS Data Explorer page for \code{maden}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllll}{
+   year \tab iap \tab am baptist asso \tab am bapt ch in usa \tab nat bapt conv of am \tab nat bapt conv usa \tab southern baptist \tab other baptists \tab baptist-dk which \tab afr meth episcopal \tab afr meth ep zion \tab united methodist \tab other methodist \tab methodist-dk which \tab am lutheran \tab luth ch in america \tab lutheran-mo synod \tab wi evan luth synod \tab other lutheran \tab lutheran-dk which \tab presbyterian c in us \tab united pres ch in us \tab other presbyterian \tab presbyterian-dk wh \tab episcopal \tab other \tab no denomination \tab no answer \tab Total \cr
+   1988 \tab 566 \tab 25 \tab 9 \tab 2 \tab 6 \tab 163 \tab 35 \tab 98 \tab 9 \tab 2 \tab 116 \tab 9 \tab 43 \tab 21 \tab 12 \tab 19 \tab 3 \tab 7 \tab 33 \tab 14 \tab 18 \tab 7 \tab 30 \tab 31 \tab 161 \tab 34 \tab 8 \tab 1481 \cr
+   Total \tab 566 \tab 25 \tab 9 \tab 2 \tab 6 \tab 163 \tab 35 \tab 98 \tab 9 \tab 2 \tab 116 \tab 9 \tab 43 \tab 21 \tab 12 \tab 19 \tab 3 \tab 7 \tab 33 \tab 14 \tab 18 \tab 7 \tab 30 \tab 31 \tab 161 \tab 34 \tab 8 \tab 1481 \cr
+}
 }
 
 \seealso{

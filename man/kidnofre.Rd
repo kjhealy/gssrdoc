@@ -26,18 +26,26 @@ C. Having children interferes too much with the freedom of parents.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 1988, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4382/vshow}{GSS Data Explorer page for \code{kidnofre}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1988 \tab 67 \tab 25 \tab 130 \tab 186 \tab 656 \tab 370 \tab 25 \tab 22 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 14 \tab 105 \tab 216 \tab 749 \tab 288 \tab 18 \tab 57 \tab - \tab 2992 \cr
+   2012 \tab 672 \tab 28 \tab 165 \tab 145 \tab 666 \tab 258 \tab 34 \tab 6 \tab - \tab 1974 \cr
+   2022 \tab 2380 \tab 67 \tab 172 \tab 325 \tab 357 \tab 173 \tab 58 \tab 4 \tab 8 \tab 3544 \cr
+   Total \tab 4664 \tab 134 \tab 572 \tab 872 \tab 2428 \tab 1089 \tab 135 \tab 89 \tab 8 \tab 9991 \cr
+}
 }
 
 \seealso{

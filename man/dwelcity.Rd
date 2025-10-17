@@ -25,17 +25,23 @@ Question B. Compared to houses/apartments in the city/town/county, would you say
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5293/vshow}{GSS Data Explorer page for \code{dwelcity}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab far above average \tab above average \tab average \tab below average \tab far below average \tab no answer \tab Total \cr
+   1982 \tab - \tab 37 \tab 318 \tab 982 \tab 382 \tab 72 \tab 69 \tab 1860 \cr
+   1983 \tab - \tab 43 \tab 312 \tab 872 \tab 300 \tab 44 \tab 28 \tab 1599 \cr
+   1984 \tab - \tab 34 \tab 272 \tab 810 \tab 273 \tab 38 \tab 46 \tab 1473 \cr
+   Total \tab 0 \tab 114 \tab 902 \tab 2664 \tab 955 \tab 154 \tab 143 \tab 4932 \cr
+}
 }
 
 \seealso{

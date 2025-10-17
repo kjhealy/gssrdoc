@@ -24,15 +24,21 @@ Question Example of Erosion.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3478/vshow}{GSS Data Explorer page for \code{erosion}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab the wind in the desert blows sand against a rock \tab a glacier picks up boulders as it moves \tab a flood washes over a riverbank, and the water carries small soil particles downstream \tab an icy winter causes the pavement in a road to crack \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 518 \tab 147 \tab 245 \tab 99 \tab 830 \tab 162 \tab 22 \tab 2023 \cr
+   Total \tab 518 \tab 147 \tab 245 \tab 99 \tab 830 \tab 162 \tab 22 \tab 2023 \cr
+}
 }
 
 \seealso{

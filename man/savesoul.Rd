@@ -22,25 +22,31 @@ Question Have you ever tried to encourage someone to believe in Jesus Christ or 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1998, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1078/vshow}{GSS Data Explorer page for \code{savesoul}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1988 \tab - \tab 682 \tab 785 \tab 1 \tab 13 \tab - \tab 1481 \cr
+   1998 \tab 1387 \tab 616 \tab 813 \tab 1 \tab 15 \tab - \tab 2832 \cr
+   2006 \tab 1518 \tab 1301 \tab 1673 \tab 9 \tab 9 \tab - \tab 4510 \cr
+   2008 \tab - \tab 912 \tab 1099 \tab 6 \tab 6 \tab - \tab 2023 \cr
+   2010 \tab - \tab 882 \tab 1157 \tab - \tab 5 \tab - \tab 2044 \cr
+   2012 \tab - \tab 868 \tab 1097 \tab 3 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab - \tab 1060 \tab 1468 \tab 3 \tab 7 \tab - \tab 2538 \cr
+   2016 \tab - \tab 1279 \tab 1576 \tab 1 \tab 11 \tab - \tab 2867 \cr
+   2018 \tab - \tab 1036 \tab 1302 \tab 2 \tab 8 \tab - \tab 2348 \cr
+   2021 \tab - \tab 1461 \tab 2488 \tab 2 \tab 47 \tab 34 \tab 4032 \cr
+   2022 \tab - \tab 1343 \tab 2152 \tab 11 \tab 20 \tab 18 \tab 3544 \cr
+   Total \tab 2905 \tab 11440 \tab 15610 \tab 39 \tab 147 \tab 52 \tab 30193 \cr
+}
 }
 
 \seealso{

@@ -24,19 +24,26 @@ Question B. And which one do you think should be America''s next highest priorit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4720/vshow}{GSS Data Explorer page for \code{postmat2}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab maintain order in the nation \tab give people more say in government decisions \tab fight rising prices \tab protect freedom of speech \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 383 \tab 422 \tab 333 \tab 224 \tab 134 \tab 61 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 361 \tab 353 \tab 271 \tab 241 \tab 122 \tab 38 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 271 \tab 335 \tab 212 \tab 263 \tab 141 \tab 54 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 350 \tab 291 \tab 335 \tab 266 \tab 180 \tab 8 \tab - \tab 2044 \cr
+   2021 \tab 5 \tab 448 \tab 453 \tab 363 \tab 468 \tab 90 \tab 2168 \tab 37 \tab 4032 \cr
+   Total \tab 3815 \tab 1813 \tab 1854 \tab 1514 \tab 1462 \tab 667 \tab 2329 \tab 37 \tab 13491 \cr
+}
 }
 
 \seealso{

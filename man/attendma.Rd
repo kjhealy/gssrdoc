@@ -30,18 +30,26 @@ Question When you were a child, how often did your mother attend religious servi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4673/vshow}{GSS Data Explorer page for \code{attendma}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month \tab 2-3 times a month \tab nearly every week \tab every week \tab several times a week \tab no mother/mother not present \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 51 \tab 52 \tab 82 \tab 140 \tab 48 \tab 126 \tab 215 \tab 368 \tab 114 \tab 10 \tab 96 \tab 57 \tab 1517 \cr
+   1998 \tab 1548 \tab 70 \tab 44 \tab 82 \tab 115 \tab 44 \tab 102 \tab 176 \tab 356 \tab 126 \tab 12 \tab 91 \tab 66 \tab 2832 \cr
+   2008 \tab 658 \tab 154 \tab 46 \tab 101 \tab 102 \tab 68 \tab 102 \tab 129 \tab 462 \tab 143 \tab 19 \tab 35 \tab 4 \tab 2023 \cr
+   2018 \tab 1173 \tab 159 \tab 31 \tab 104 \tab 77 \tab 61 \tab 73 \tab 63 \tab 441 \tab 112 \tab 11 \tab 31 \tab 12 \tab 2348 \cr
+   Total \tab 3537 \tab 434 \tab 173 \tab 369 \tab 434 \tab 221 \tab 403 \tab 583 \tab 1627 \tab 495 \tab 52 \tab 253 \tab 139 \tab 8720 \cr
+}
 }
 
 \seealso{

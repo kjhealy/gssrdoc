@@ -16,16 +16,23 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2024       |
+#'  |A/B/C   |1996, 2006 |
+#'  |B/C/-   |2018       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `genetics`](https://gssdataexplorer.norc.org/variables/1992/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1460 |155         |507             |419             |269               |78         |16        |2904  |
+#'  |2006  |3073 |201         |681             |331             |152               |58         |14        |4510  |
+#'  |2018  |1175 |167         |498             |288             |163               |28         |29        |2348  |
+#'  |Total |5708 |523         |1686            |1038            |584               |164        |59        |9762  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -54,16 +61,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2024       |
+#'  |A/B/C   |1996, 2006 |
+#'  |B/C/-   |2018       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `godswill`](https://gssdataexplorer.norc.org/variables/1993/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1460 |67          |134             |334             |827               |66         |16        |2904  |
+#'  |2006  |3073 |55          |126             |332             |868               |42         |14        |4510  |
+#'  |2018  |1175 |47          |107             |303             |664               |20         |32        |2348  |
+#'  |Total |5708 |169         |367             |969             |2359              |128        |62        |9762  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -92,16 +106,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2024       |
+#'  |A/B/C   |1996, 2006 |
+#'  |B/C/-   |2018       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `upsdowns`](https://gssdataexplorer.norc.org/variables/1994/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1460 |425         |462             |305             |211               |17         |24        |2904  |
+#'  |2006  |3073 |444         |479             |285             |180               |34         |15        |4510  |
+#'  |2018  |1175 |294         |420             |253             |163               |14         |29        |2348  |
+#'  |Total |5708 |1163        |1361            |843             |554               |65         |68        |9762  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -130,16 +151,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2024       |
+#'  |A/B/C   |1996, 2006 |
+#'  |B/C/-   |2018       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `breakdwn`](https://gssdataexplorer.norc.org/variables/1995/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1460 |249         |501             |411             |207               |52         |24        |2904  |
+#'  |2006  |3073 |269         |530             |387             |185               |51         |15        |4510  |
+#'  |2018  |1175 |206         |420             |328             |162               |28         |29        |2348  |
+#'  |Total |5708 |724         |1451            |1126            |554               |131        |68        |9762  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -168,16 +196,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2024       |
+#'  |A/B/C   |1996, 2006 |
+#'  |B/C/-   |2018       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mentlill`](https://gssdataexplorer.norc.org/variables/1996/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1460 |285         |460             |395             |216               |64         |24        |2904  |
+#'  |2006  |3073 |355         |504             |372             |147               |44         |15        |4510  |
+#'  |2018  |1175 |278         |414             |289             |140               |24         |28        |2348  |
+#'  |Total |5708 |918         |1378            |1056            |503               |132        |67        |9762  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -206,16 +241,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2024       |
+#'  |A/B/C   |1996, 2006 |
+#'  |B/C/-   |2018       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `physill`](https://gssdataexplorer.norc.org/variables/1997/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1460 |203         |512             |422             |223               |54         |30        |2904  |
+#'  |2006  |3073 |148         |590             |446             |188               |50         |15        |4510  |
+#'  |2018  |1175 |174         |445             |346             |148               |31         |29        |2348  |
+#'  |Total |5708 |525         |1547            |1214            |559               |135        |74        |9762  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -249,15 +291,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/-   |2024  |
+#'  |A/B/C   |1996  |
+#'  |B/C/-   |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `viglabel`](https://gssdataexplorer.norc.org/variables/1998/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1460 |755         |235             |48              |20                |50         |336       |2904  |
+#'  |2018  |1411 |481         |209             |29              |13                |20         |185       |2348  |
+#'  |Total |2871 |1236        |444             |77              |33                |70         |521       |5252  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -285,16 +334,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2024       |
+#'  |A/B/C   |1996, 2006 |
+#'  |B/C/-   |2018       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `dectreat`](https://gssdataexplorer.norc.org/variables/1999/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very able |somewhat able |not very able |not able at all |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:-------------|:-------------|:---------------|:----------|:---------|:-----|
+#'  |1996  |1460 |294       |422           |445           |241             |28         |14        |2904  |
+#'  |2006  |3073 |335       |519           |364           |163             |40         |16        |4510  |
+#'  |2018  |1175 |263       |425           |314           |125             |17         |29        |2348  |
+#'  |Total |5708 |892       |1366          |1123          |529             |85         |59        |9762  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -322,16 +378,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2024       |
+#'  |A/B/C   |1996, 2006 |
+#'  |B/C/-   |2018       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `decmoney`](https://gssdataexplorer.norc.org/variables/2000/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very able |somewhat able |not very able |not able at all |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:-------------|:-------------|:---------------|:----------|:---------|:-----|
+#'  |1996  |1460 |281       |384           |429           |292             |43         |15        |2904  |
+#'  |2006  |3073 |338       |484           |383           |163             |54         |15        |4510  |
+#'  |2018  |1175 |256       |387           |338           |138             |26         |28        |2348  |
+#'  |Total |5708 |875       |1255          |1150          |593             |123        |58        |9762  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -359,15 +422,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1996, 2006 |
+#'  |B/C/-   |2018       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `imprvown`](https://gssdataexplorer.norc.org/variables/2001/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |not likely at all |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |1996  |1460 |137         |256             |335               |668               |34         |14        |2904  |
+#'  |2006  |3073 |113         |324             |529               |407               |49         |15        |4510  |
+#'  |2018  |1175 |89          |247             |392               |395               |22         |28        |2348  |
+#'  |Total |5708 |339         |827             |1256              |1470              |105        |57        |9762  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health

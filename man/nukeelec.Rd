@@ -25,15 +25,21 @@ D. Which statement best describes your own view about increasing the use of nucl
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3498/vshow}{GSS Data Explorer page for \code{nukeelec}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 1578 \tab 56 \tab 214 \tab 104 \tab 37 \tab 47 \tab 8 \tab 2044 \cr
+   Total \tab 1578 \tab 56 \tab 214 \tab 104 \tab 37 \tab 47 \tab 8 \tab 2044 \cr
+}
 }
 
 \seealso{

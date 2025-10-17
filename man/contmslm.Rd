@@ -25,15 +25,21 @@ L. Muslims?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2282/vshow}{GSS Data Explorer page for \code{contmslm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab most important contribution \tab important contribution \tab some contribution \tab little positive contribution \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 32 \tab 202 \tab 462 \tab 406 \tab 286 \tab 10 \tab 2817 \cr
+   Total \tab 1419 \tab 32 \tab 202 \tab 462 \tab 406 \tab 286 \tab 10 \tab 2817 \cr
+}
 }
 
 \seealso{

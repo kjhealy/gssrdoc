@@ -25,15 +25,21 @@ Question When you think about these changes in the racial and ethnic make-up of 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2322/vshow}{GSS Data Explorer page for \code{ethchng}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very good thing \tab good thing \tab neither good nor bad \tab bad thing \tab very bad thing \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 42 \tab 301 \tab 730 \tab 195 \tab 52 \tab 61 \tab 17 \tab 2817 \cr
+   Total \tab 1419 \tab 42 \tab 301 \tab 730 \tab 195 \tab 52 \tab 61 \tab 17 \tab 2817 \cr
+}
 }
 
 \seealso{

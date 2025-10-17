@@ -25,16 +25,22 @@ B. How old was that person?  Was (he/she)â€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5028/vshow}{GSS Data Explorer page for \code{suiage}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab 11-20 \tab 21-40 \tab 41 year or older \tab no answer \tab Total \cr
+   1990 \tab 1238 \tab 24 \tab 63 \tab 45 \tab 2 \tab 1372 \cr
+   1991 \tab 1344 \tab 28 \tab 81 \tab 61 \tab 3 \tab 1517 \cr
+   Total \tab 2582 \tab 52 \tab 144 \tab 106 \tab 5 \tab 2889 \cr
+}
 }
 
 \seealso{

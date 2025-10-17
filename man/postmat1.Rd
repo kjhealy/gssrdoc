@@ -24,19 +24,26 @@ Question A. Looking at the list below, please check a box next to the one thing 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4719/vshow}{GSS Data Explorer page for \code{postmat1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab maintain order in the nation \tab give people more say in government decisions \tab fight rising prices \tab protect freedom of speech \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 434 \tab 511 \tab 281 \tab 167 \tab 105 \tab 59 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 489 \tab 469 \tab 175 \tab 120 \tab 93 \tab 40 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 412 \tab 294 \tab 194 \tab 187 \tab 135 \tab 54 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 382 \tab 464 \tab 214 \tab 196 \tab 167 \tab 7 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 509 \tab 618 \tab 141 \tab 342 \tab 251 \tab 153 \tab 15 \tab 4032 \cr
+   Total \tab 5813 \tab 2226 \tab 2356 \tab 1005 \tab 1012 \tab 751 \tab 313 \tab 15 \tab 13491 \cr
+}
 }
 
 \seealso{

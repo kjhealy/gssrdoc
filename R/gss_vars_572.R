@@ -18,14 +18,20 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1998, 2000 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lietest`](https://gssdataexplorer.norc.org/variables/5243/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1998  |1445 |398            |632   |137                        |137      |26                |41         |16        |2832  |
+#'  |2000  |1398 |458            |628   |151                        |111      |29                |26         |16        |2817  |
+#'  |Total |2843 |856            |1260  |288                        |248      |55                |67         |32        |5649  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -56,14 +62,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1998, 2000 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `testdrug`](https://gssdataexplorer.norc.org/variables/5244/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1998  |1445 |618            |624   |49                         |46       |10                |25         |15        |2832  |
+#'  |2000  |1398 |687            |544   |92                         |45       |12                |22         |17        |2817  |
+#'  |Total |2843 |1305           |1168  |141                        |91       |22                |47         |32        |5649  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -94,13 +106,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bugging`](https://gssdataexplorer.norc.org/variables/5245/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1998  |1445 |174            |356   |267                        |400      |124               |50         |16        |2832  |
+#'  |Total |1445 |174            |356   |267                        |400      |124               |50         |16        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -131,14 +149,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1998, 2000 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `finanqs`](https://gssdataexplorer.norc.org/variables/5246/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1998  |1445 |175            |513   |231                        |341      |69                |44         |14        |2832  |
+#'  |2000  |1398 |193            |462   |347                        |307      |60                |32         |18        |2817  |
+#'  |Total |2843 |368            |975   |578                        |648      |129               |76         |32        |5649  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -169,13 +193,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chkonjob`](https://gssdataexplorer.norc.org/variables/5247/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1998  |1445 |188            |498   |238                        |348      |64                |37         |14        |2832  |
+#'  |Total |1445 |188            |498   |238                        |348      |64                |37         |14        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -206,13 +236,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1998  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chkother`](https://gssdataexplorer.norc.org/variables/5248/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1998  |1445 |121            |468   |250                        |372      |103               |59         |14        |2832  |
+#'  |Total |1445 |121            |468   |250                        |372      |103               |59         |14        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -242,13 +278,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `compfin`](https://gssdataexplorer.norc.org/variables/5249/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2000  |1398 |185            |411   |286                        |386      |98                |37           |16        |2817  |
+#'  |Total |1398 |185            |411   |286                        |386      |98                |37           |16        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -278,13 +320,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `chktravl`](https://gssdataexplorer.norc.org/variables/5250/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2000  |1398 |301            |590   |227                        |209      |37                |38           |17        |2817  |
+#'  |Total |1398 |301            |590   |227                        |209      |37                |38           |17        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -314,13 +362,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `emailwrk`](https://gssdataexplorer.norc.org/variables/5251/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2000  |1398 |276            |629   |209                        |210      |32                |45           |18        |2817  |
+#'  |Total |1398 |276            |629   |209                        |210      |32                |45           |18        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -350,13 +404,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `emailhme`](https://gssdataexplorer.norc.org/variables/5252/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2000  |1398 |140            |277   |253                        |469      |213               |46           |21        |2817  |
+#'  |Total |1398 |140            |277   |253                        |469      |213               |46           |21        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security

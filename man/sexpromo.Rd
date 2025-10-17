@@ -23,16 +23,22 @@ Question Do you think your being a (man/woman) makes your promotion opportunitie
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1304/vshow}{GSS Data Explorer page for \code{sexpromo}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab better \tab worse \tab no effect \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 605 \tab 265 \tab 115 \tab 505 \tab 11 \tab 16 \tab 1517 \cr
+   1996 \tab 1446 \tab 416 \tab 306 \tab 609 \tab 53 \tab 74 \tab 2904 \cr
+   Total \tab 2051 \tab 681 \tab 421 \tab 1114 \tab 64 \tab 90 \tab 4421 \cr
+}
 }
 
 \seealso{

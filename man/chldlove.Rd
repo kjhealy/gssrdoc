@@ -26,15 +26,21 @@ B. The love, care and attention they receive from their parents.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5109/vshow}{GSS Data Explorer page for \code{chldlove}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab much better \tab better \tab about the same \tab worse \tab much worse \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 42 \tab 158 \tab 664 \tab 427 \tab 30 \tab 36 \tab 15 \tab 1372 \cr
+   Total \tab 0 \tab 42 \tab 158 \tab 664 \tab 427 \tab 30 \tab 36 \tab 15 \tab 1372 \cr
+}
 }
 
 \seealso{

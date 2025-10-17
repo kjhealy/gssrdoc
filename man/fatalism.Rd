@@ -26,18 +26,26 @@ B. There is little that people can do to change the course of their lives.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4658/vshow}{GSS Data Explorer page for \code{fatalism}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 55 \tab 113 \tab 104 \tab 525 \tab 464 \tab 33 \tab 65 \tab 1517 \cr
+   1998 \tab 1548 \tab 42 \tab 90 \tab 87 \tab 528 \tab 439 \tab 29 \tab 69 \tab 2832 \cr
+   2008 \tab 658 \tab 47 \tab 107 \tab 78 \tab 618 \tab 506 \tab 7 \tab 2 \tab 2023 \cr
+   2018 \tab 1173 \tab 46 \tab 103 \tab 84 \tab 472 \tab 460 \tab 3 \tab 7 \tab 2348 \cr
+   Total \tab 3537 \tab 190 \tab 413 \tab 353 \tab 2143 \tab 1869 \tab 72 \tab 143 \tab 8720 \cr
+}
 }
 
 \seealso{

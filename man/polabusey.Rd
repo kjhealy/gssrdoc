@@ -22,17 +22,22 @@ Question (Would you approve of a policeman striking a citizen who...) Had said v
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7448/vshow}{GSS Data Explorer page for \code{polabusey}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab skipped on web \tab no answer \tab Total \cr
+   2021 \tab 2673 \tab 123 \tab 1228 \tab 1 \tab 7 \tab - \tab 4032 \cr
+   2022 \tab 2364 \tab 119 \tab 1050 \tab 6 \tab 3 \tab 2 \tab 3544 \cr
+   Total \tab 5037 \tab 242 \tab 2278 \tab 7 \tab 10 \tab 2 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

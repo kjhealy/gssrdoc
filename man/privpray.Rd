@@ -28,15 +28,21 @@ Question How often do you pray privately in places other than at church or synag
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2090/vshow}{GSS Data Explorer page for \code{privpray}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab mre thn once/day \tab once a day \tab a few times/week \tab once a week \tab few times/month \tab once a month \tab less once/mnth \tab never \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 343 \tab 373 \tab 195 \tab 69 \tab 78 \tab 33 \tab 129 \tab 186 \tab 14 \tab 25 \tab 2832 \cr
+   Total \tab 1387 \tab 343 \tab 373 \tab 195 \tab 69 \tab 78 \tab 33 \tab 129 \tab 186 \tab 14 \tab 25 \tab 2832 \cr
+}
 }
 
 \seealso{

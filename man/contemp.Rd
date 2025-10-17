@@ -22,17 +22,25 @@ B. Conservatives
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989 \cr
+   A/B/C \tab 1988 \cr
+   Full \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/374/vshow}{GSS Data Explorer page for \code{contemp}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 100 \tab 15 \tab 20 \tab 25 \tab 30 \tab 33 \tab 35 \tab 40 \tab 45 \tab 49 \tab 50 \tab 51 \tab 52 \tab 53 \tab 55 \tab 60 \tab 65 \tab 70 \tab 75 \tab 80 \tab 85 \tab 90 \tab 95 \tab don't know \tab no answer \tab 1 \tab 72 \tab 98 \tab 4 \tab Total \cr
+   1986 \tab - \tab 21 \tab 3 \tab 44 \tab 29 \tab 5 \tab 4 \tab 64 \tab 1 \tab 1 \tab 142 \tab 5 \tab 6 \tab 227 \tab 10 \tab 2 \tab 1 \tab 6 \tab 359 \tab 3 \tab 237 \tab 16 \tab 23 \tab 127 \tab 12 \tab 2 \tab 102 \tab 18 \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1988 \tab - \tab 28 \tab 1 \tab 42 \tab 32 \tab 3 \tab 1 \tab 66 \tab - \tab 1 \tab 118 \tab 2 \tab - \tab 404 \tab - \tab - \tab - \tab 2 \tab 265 \tab 4 \tab 213 \tab 20 \tab 6 \tab 125 \tab 9 \tab - \tab 116 \tab 20 \tab 1 \tab 1 \tab 1 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 17 \tab 3 \tab 34 \tab 16 \tab 5 \tab 6 \tab 44 \tab - \tab 2 \tab 81 \tab 2 \tab - \tab 240 \tab - \tab - \tab - \tab 1 \tab 175 \tab 2 \tab 149 \tab 10 \tab 17 \tab 97 \tab 2 \tab - \tab 86 \tab 15 \tab 1 \tab - \tab - \tab 1 \tab 1537 \cr
+   Total \tab 531 \tab 66 \tab 7 \tab 120 \tab 77 \tab 13 \tab 11 \tab 174 \tab 1 \tab 4 \tab 341 \tab 9 \tab 6 \tab 871 \tab 10 \tab 2 \tab 1 \tab 9 \tab 799 \tab 9 \tab 599 \tab 46 \tab 46 \tab 349 \tab 23 \tab 2 \tab 304 \tab 53 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4488 \cr
+}
 }
 
 \seealso{

@@ -25,17 +25,23 @@ Question In order to maintain America's leadership in the world, the government 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 1996, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5205/vshow}{GSS Data Explorer page for \code{sectech}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 501 \tab 601 \tab 169 \tab 105 \tab 45 \tab 47 \tab 6 \tab 2992 \cr
+   1996 \tab 1444 \tab 455 \tab 579 \tab 142 \tab 171 \tab 60 \tab 46 \tab 7 \tab 2904 \cr
+   1998 \tab 1445 \tab 446 \tab 511 \tab 160 \tab 152 \tab 51 \tab 59 \tab 8 \tab 2832 \cr
+   Total \tab 4407 \tab 1402 \tab 1691 \tab 471 \tab 428 \tab 156 \tab 152 \tab 21 \tab 8728 \cr
+}
 }
 
 \seealso{

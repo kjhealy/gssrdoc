@@ -23,17 +23,23 @@ B. These days a person doesn''t really know whom he can count on.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
-   1974 \tab - \tab full \cr
-   1976 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973, 1974, 1976 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/544/vshow}{GSS Data Explorer page for \code{anomia8}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 965 \tab 523 \tab 14 \tab 2 \tab 1504 \cr
+   1974 \tab - \tab 1114 \tab 357 \tab 11 \tab 2 \tab 1484 \cr
+   1976 \tab - \tab 1121 \tab 358 \tab 17 \tab 3 \tab 1499 \cr
+   Total \tab 0 \tab 3200 \tab 1238 \tab 42 \tab 7 \tab 4487 \cr
+}
 }
 
 \seealso{

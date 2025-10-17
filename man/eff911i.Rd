@@ -25,15 +25,21 @@ Question How effective do you think changing mail handling procedures is for peo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3860/vshow}{GSS Data Explorer page for \code{eff911i}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 1 not at all effective \tab 2 \tab 3 \tab 4 \tab 5 extremely effective \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 671 \tab 634 \tab 140 \tab 263 \tab 88 \tab 131 \tab 90 \tab 6 \tab 2023 \cr
+   Total \tab 671 \tab 634 \tab 140 \tab 263 \tab 88 \tab 131 \tab 90 \tab 6 \tab 2023 \cr
+}
 }
 
 \seealso{

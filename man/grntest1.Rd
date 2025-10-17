@@ -25,17 +25,23 @@ A. If someone is exposed to any amount of radioactivity, they are certain to die
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4746/vshow}{GSS Data Explorer page for \code{grntest1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 77 \tab 302 \tab 591 \tab 419 \tab 87 \tab 81 \tab 1606 \cr
+   1994 \tab 1606 \tab 66 \tab 300 \tab 527 \tab 390 \tab 62 \tab 41 \tab 2992 \cr
+   2000 \tab 1541 \tab 79 \tab 250 \tab 424 \tab 338 \tab 119 \tab 66 \tab 2817 \cr
+   Total \tab 3196 \tab 222 \tab 852 \tab 1542 \tab 1147 \tab 268 \tab 188 \tab 7415 \cr
+}
 }
 
 \seealso{

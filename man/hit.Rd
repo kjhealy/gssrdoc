@@ -22,29 +22,36 @@ Question Have you ever been punched or beaten by another person?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1975, 1976, 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/658/vshow}{GSS Data Explorer page for \code{hit}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 413 \tab 1090 \tab 1 \tab - \tab 1504 \cr
+   1975 \tab - \tab 472 \tab 1017 \tab - \tab 1 \tab 1490 \cr
+   1976 \tab - \tab 424 \tab 1075 \tab - \tab - \tab 1499 \cr
+   1978 \tab - \tab 537 \tab 993 \tab 2 \tab - \tab 1532 \cr
+   1980 \tab - \tab 490 \tab 977 \tab - \tab 1 \tab 1468 \cr
+   1983 \tab - \tab 729 \tab 868 \tab 1 \tab 1 \tab 1599 \cr
+   1984 \tab - \tab 585 \tab 885 \tab 1 \tab 2 \tab 1473 \cr
+   1986 \tab - \tab 535 \tab 935 \tab - \tab - \tab 1470 \cr
+   1987 \tab - \tab 653 \tab 1161 \tab - \tab 5 \tab 1819 \cr
+   1988 \tab 484 \tab 352 \tab 643 \tab 2 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 378 \tab 657 \tab - \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 329 \tab 568 \tab 1 \tab 1 \tab 1372 \cr
+   1991 \tab 500 \tab 347 \tab 665 \tab - \tab 5 \tab 1517 \cr
+   1993 \tab 549 \tab 379 \tab 677 \tab - \tab 1 \tab 1606 \cr
+   1994 \tab 2481 \tab 195 \tab 315 \tab - \tab 1 \tab 2992 \cr
+   Total \tab 4989 \tab 6818 \tab 12526 \tab 8 \tab 18 \tab 24359 \cr
+}
 }
 
 \seealso{

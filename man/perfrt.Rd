@@ -25,15 +25,21 @@ Question If you received a performance rating from your organization in 2021, wh
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7853/vshow}{GSS Data Explorer page for \code{perfrt}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab below expectations \tab meets expectations \tab above expectations \tab r didn't receive a performance rating \tab none of the statements match the performance rating r received \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2569 \tab 26 \tab 216 \tab 364 \tab 264 \tab 37 \tab 48 \tab 8 \tab 12 \tab 3544 \cr
+   Total \tab 2569 \tab 26 \tab 216 \tab 364 \tab 264 \tab 37 \tab 48 \tab 8 \tab 12 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

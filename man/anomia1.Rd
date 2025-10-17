@@ -23,17 +23,23 @@ A. Next to health, money is the most important thing in life.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
-   1974 \tab - \tab full \cr
-   1976 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973, 1974, 1976 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/537/vshow}{GSS Data Explorer page for \code{anomia1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 498 \tab 999 \tab 7 \tab - \tab 1504 \cr
+   1974 \tab - \tab 424 \tab 1049 \tab 9 \tab 2 \tab 1484 \cr
+   1976 \tab - \tab 501 \tab 992 \tab 6 \tab - \tab 1499 \cr
+   Total \tab 0 \tab 1423 \tab 3040 \tab 22 \tab 2 \tab 4487 \cr
+}
 }
 
 \seealso{

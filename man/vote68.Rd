@@ -25,16 +25,22 @@ Question A. Now in 1968, you remember that Humphrey ran for President on the Dem
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab - \tab full \cr
-   1973 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1972, 1973 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/142/vshow}{GSS Data Explorer page for \code{vote68}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab voted \tab did not vote \tab not eligible \tab refused \tab don't know \tab wldnt vt-relig \tab no answer \tab iap \tab Total \cr
+   1972 \tab 1062 \tab 391 \tab 134 \tab 1 \tab 25 \tab - \tab - \tab - \tab 1613 \cr
+   1973 \tab 930 \tab 422 \tab 121 \tab 3 \tab 21 \tab 2 \tab 5 \tab - \tab 1504 \cr
+   Total \tab 1992 \tab 813 \tab 255 \tab 4 \tab 46 \tab 2 \tab 5 \tab 0 \tab 3117 \cr
+}
 }
 
 \seealso{

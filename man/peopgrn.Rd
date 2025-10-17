@@ -23,16 +23,22 @@ Question J. Which of these approaches do you think would be the best way of gett
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4812/vshow}{GSS Data Explorer page for \code{peopgrn}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab heavy fines for people who damage the environment \tab use the tax system to reward people who protect the environment \tab more information and education for people about the advantages of protecting the environment \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab 614 \tab 206 \tab 441 \tab 676 \tab 102 \tab 5 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 228 \tab 727 \tab 734 \tab 132 \tab 191 \tab 17 \tab 4032 \cr
+   Total \tab 2617 \tab 434 \tab 1168 \tab 1410 \tab 234 \tab 196 \tab 17 \tab 6076 \cr
+}
 }
 
 \seealso{

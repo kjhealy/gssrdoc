@@ -24,17 +24,23 @@ A. IF YES: On the average, about how many hours a day do you usually listen to t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978, 1982, 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/692/vshow}{GSS Data Explorer page for \code{radiohrs}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 18 \tab 2 \tab 20 \tab 24 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab 17 \tab 21 \tab Total \cr
+   1978 \tab 126 \tab 11 \tab 547 \tab 36 \tab 1 \tab 26 \tab 1 \tab 2 \tab 5 \tab 1 \tab 2 \tab 293 \tab 1 \tab 7 \tab 124 \tab 112 \tab 54 \tab 62 \tab 13 \tab 84 \tab 12 \tab 3 \tab 9 \tab - \tab - \tab 1532 \cr
+   1982 \tab 175 \tab - \tab 591 \tab 49 \tab 3 \tab 35 \tab - \tab 3 \tab 5 \tab 7 \tab 2 \tab 357 \tab 5 \tab 10 \tab 175 \tab 144 \tab 85 \tab 77 \tab 37 \tab 76 \tab 9 \tab 4 \tab 8 \tab 2 \tab 1 \tab 1860 \cr
+   1983 \tab 158 \tab 10 \tab 526 \tab 47 \tab 2 \tab 34 \tab 1 \tab 2 \tab 4 \tab 3 \tab 1 \tab 294 \tab - \tab 1 \tab 143 \tab 104 \tab 68 \tab 66 \tab 19 \tab 103 \tab 9 \tab 2 \tab 2 \tab - \tab - \tab 1599 \cr
+   Total \tab 459 \tab 21 \tab 1664 \tab 132 \tab 6 \tab 95 \tab 2 \tab 7 \tab 14 \tab 11 \tab 5 \tab 944 \tab 6 \tab 18 \tab 442 \tab 360 \tab 207 \tab 205 \tab 69 \tab 263 \tab 30 \tab 9 \tab 19 \tab 2 \tab 1 \tab 4991 \cr
+}
 }
 
 \seealso{

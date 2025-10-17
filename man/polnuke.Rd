@@ -23,15 +23,21 @@ A. Elected officials (How well elected officials know risk by nuclear power?)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3488/vshow}{GSS Data Explorer page for \code{polnuke}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very well \tab 2 \tab 3 \tab 4 \tab not at all \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 1578 \tab 21 \tab 46 \tab 145 \tab 158 \tab 66 \tab 23 \tab 7 \tab 2044 \cr
+   Total \tab 1578 \tab 21 \tab 46 \tab 145 \tab 158 \tab 66 \tab 23 \tab 7 \tab 2044 \cr
+}
 }
 
 \seealso{

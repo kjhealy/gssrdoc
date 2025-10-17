@@ -25,17 +25,23 @@ RECORD UNDER "C" BELOW.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/783/vshow}{GSS Data Explorer page for \code{fenumok}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab too many \tab about right number \tab should be more \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 158 \tab 965 \tab 550 \tab 173 \tab 14 \tab 1860 \cr
+   1983 \tab - \tab 120 \tab 864 \tab 476 \tab 133 \tab 6 \tab 1599 \cr
+   1984 \tab - \tab 108 \tab 785 \tab 460 \tab 93 \tab 27 \tab 1473 \cr
+   Total \tab 0 \tab 386 \tab 2614 \tab 1486 \tab 399 \tab 47 \tab 4932 \cr
+}
 }
 
 \seealso{

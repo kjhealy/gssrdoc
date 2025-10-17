@@ -26,17 +26,23 @@ A. It is impossible for people who do not share American customs and traditions 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4856/vshow}{GSS Data Explorer page for \code{amcult}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 119 \tab 329 \tab 283 \tab 430 \tab 104 \tab 46 \tab 56 \tab 2904 \cr
+   2004 \tab 1596 \tab 109 \tab 281 \tab 252 \tab 437 \tab 110 \tab 26 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 58 \tab 295 \tab 194 \tab 553 \tab 122 \tab 49 \tab 3 \tab 2538 \cr
+   Total \tab 4397 \tab 286 \tab 905 \tab 729 \tab 1420 \tab 336 \tab 121 \tab 60 \tab 8254 \cr
+}
 }
 
 \seealso{

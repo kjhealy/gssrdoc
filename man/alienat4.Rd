@@ -23,15 +23,21 @@ D. You''re left out of things going on around you.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/431/vshow}{GSS Data Explorer page for \code{alienat4}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab feel \tab not feel \tab don't know \tab no answer \tab Total \cr
+   1978 \tab - \tab 429 \tab 1047 \tab 42 \tab 14 \tab 1532 \cr
+   Total \tab 0 \tab 429 \tab 1047 \tab 42 \tab 14 \tab 1532 \cr
+}
 }
 
 \seealso{

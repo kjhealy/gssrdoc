@@ -24,18 +24,25 @@ Question In your opinion, how able is NAME to make his/her own decisions about m
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2000/vshow}{GSS Data Explorer page for \code{decmoney}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very able \tab somewhat able \tab not very able \tab not able at all \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 281 \tab 384 \tab 429 \tab 292 \tab 43 \tab 15 \tab 2904 \cr
+   2006 \tab 3073 \tab 338 \tab 484 \tab 383 \tab 163 \tab 54 \tab 15 \tab 4510 \cr
+   2018 \tab 1175 \tab 256 \tab 387 \tab 338 \tab 138 \tab 26 \tab 28 \tab 2348 \cr
+   Total \tab 5708 \tab 875 \tab 1255 \tab 1150 \tab 593 \tab 123 \tab 58 \tab 9762 \cr
+}
 }
 
 \seealso{

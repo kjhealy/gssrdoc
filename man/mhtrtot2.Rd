@@ -22,16 +22,22 @@ Question Let's turn away from (NAME) now. I have a few questions about your gene
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2024 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3802/vshow}{GSS Data Explorer page for \code{mhtrtot2}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 969 \tab 448 \tab 2 \tab 6 \tab 4510 \cr
+   Total \tab 3085 \tab 969 \tab 448 \tab 2 \tab 6 \tab 4510 \cr
+}
 }
 
 \seealso{

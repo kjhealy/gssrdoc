@@ -26,17 +26,25 @@ D. I would turn down another job that offered quite a bit more pay in order to s
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4588/vshow}{GSS Data Explorer page for \code{stayorg3}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1967 \tab 45 \tab 122 \tab 201 \tab 288 \tab 136 \tab 29 \tab 44 \tab 2832 \cr
+   2006 \tab 3492 \tab 128 \tab 201 \tab 181 \tab 314 \tab 187 \tab 5 \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 108 \tab 146 \tab 190 \tab 282 \tab 201 \tab 5 \tab 8 \tab 2867 \cr
+   Total \tab 7386 \tab 281 \tab 469 \tab 572 \tab 884 \tab 524 \tab 39 \tab 54 \tab 10209 \cr
+}
 }
 
 \seealso{

@@ -113,15 +113,22 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2008 |B/C/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1991, 1998 |
+#'  |B/C/-   |2008       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `densp`](https://gssdataexplorer.norc.org/variables/4672/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |amer baptist assoc |amer baptist ch in usa |natl baptist conv. of america |southern baptist conv |other baptist chs |baptist, dk which |african meth epis ch |united meth church |methodist, dk which |amer lutheran ch |luth ch in amer |luth ch--mo synod |evan lutheran |lutheran, dk which |presbyt ch in usa |united presbyt ch in usa |other presbyt chs |presbyt ch usa |presbyterian, dk which |episcopal church |evangeligal congregational |ind. bible fellowship |christ. and mission. alliance |assembly of god |free will baptist |brethren church |united brethren, breth. in christ |independent |christian; central christian |christian scientist |church of christ |churches of god -exc. christ & holiness |church of god in christ |congregationalist, 1st cong |dutch reform |disciples of christ |evangelical, evangelist |evangelist free church |1st christian |holiness; ch of holiness |pilgrim holiness |jehovah witnesses |lds |lds--mormon |lds--reorganized |lds--jesus christ; ch of jesus lds |mennonite |mormon |nazarene |pentecostal |quaker |reformed |7th day adventist |unitarian, universalist |united church of christ |wesleyan |missionary baptist |other fundamentalist |federated church |united church of canada |primitive baptist |no denom. given or non-denom ch |don't know |no answer |natl baptist conv., usa, inc |other meth ch |wisc evan luth synod |other luth chs |holiness, nazarene |christian reform |evangelical reformed |evangelical united brethren |moravian |adventist |apostolic |missionary |living church of god |christian born again |church of god israelite |Total |
+#'  |:-----|:----|:------------------|:----------------------|:-----------------------------|:---------------------|:-----------------|:-----------------|:--------------------|:------------------|:-------------------|:----------------|:---------------|:-----------------|:-------------|:------------------|:-----------------|:------------------------|:-----------------|:--------------|:----------------------|:----------------|:--------------------------|:---------------------|:-----------------------------|:---------------|:-----------------|:---------------|:---------------------------------|:-----------|:----------------------------|:-------------------|:----------------|:---------------------------------------|:-----------------------|:---------------------------|:------------|:-------------------|:-----------------------|:----------------------|:-------------|:------------------------|:----------------|:-----------------|:---|:-----------|:----------------|:----------------------------------|:---------|:------|:--------|:-----------|:------|:--------|:-----------------|:-----------------------|:-----------------------|:--------|:------------------|:--------------------|:----------------|:-----------------------|:-----------------|:-------------------------------|:----------|:---------|:----------------------------|:-------------|:--------------------|:--------------|:------------------|:----------------|:--------------------|:---------------------------|:--------|:---------|:---------|:----------|:--------------------|:--------------------|:-----------------------|:-----|
+#'  |1991  |800  |11                 |2                      |1                             |42                    |8                 |45                |2                    |32                 |10                  |6                |3               |4                 |6             |11                 |6                 |9                        |2                 |2              |14                     |13               |1                          |1                     |1                             |2               |2                 |1               |1                                 |1           |11                           |1                   |8                |4                                       |1                       |3                           |1            |2                   |2                       |1                      |4             |3                        |1                |2                 |15  |1           |1                |1                                  |1         |1      |3        |10          |1      |1        |3                 |3                       |4                       |2        |1                  |2                    |1                |1                       |1                 |10                              |2          |369       |-                            |-             |-                    |-              |-                  |-                |-                    |-                           |-        |-         |-         |-          |-                    |-                    |-                       |1517  |
+#'  |1998  |2473 |-                  |-                      |-                             |21                    |7                 |70                |12                   |6                  |28                  |2                |-               |4                 |-             |39                 |-                 |-                        |-                 |-              |12                     |2                |-                          |-                     |1                             |3               |-                 |1               |-                                 |-           |8                            |-                   |7                |2                                       |-                       |5                           |-            |-                   |-                       |-                      |1             |1                        |-                |4                 |-   |-           |-                |-                                  |-         |4      |2        |11          |1      |3        |4                 |2                       |2                       |-        |1                  |1                    |-                |-                       |-                 |5                               |4          |75        |1                            |1             |1                    |1              |1                  |1                |1                    |1                           |-        |-         |-         |-          |-                    |-                    |-                       |2832  |
+#'  |2008  |1639 |5                  |4                      |2                             |45                    |1                 |45                |1                    |34                 |7                   |7                |1               |6                 |2             |13                 |3                 |5                        |-                 |-              |15                     |16               |-                          |-                     |3                             |3               |2                 |-               |-                                 |2           |16                           |1                   |5                |3                                       |2                       |4                           |-            |-                   |2                       |-                      |-             |2                        |1                |5                 |6   |2           |-                |-                                  |-         |8      |4        |14          |2      |2        |2                 |2                       |1                       |-        |-                  |-                    |-                |-                       |-                 |50                              |8          |4         |4                            |-             |4                    |-              |-                  |1                |-                    |-                           |1        |1         |1         |1          |1                    |1                    |1                       |2023  |
+#'  |Total |4912 |16                 |6                      |3                             |108                   |16                |160               |15                   |72                 |45                  |15               |4               |14                |8             |63                 |9                 |14                       |2                 |2              |41                     |31               |1                          |1                     |5                             |8               |4                 |2               |1                                 |3           |35                           |2                   |20               |9                                       |3                       |12                          |1            |2                   |4                       |1                      |5             |6                        |2                |11                |21  |3           |1                |1                                  |1         |13     |9        |35          |4      |6        |9                 |7                       |7                       |2        |2                  |3                    |1                |1                       |1                 |65                              |14         |448       |5                            |1             |5                    |1              |1                  |2                |1                    |1                           |1        |1         |1         |1          |1                    |1                    |1                       |6372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -155,16 +162,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2008 |B/C/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2018       |
+#'  |A/B/C   |1991, 1998 |
+#'  |B/C/-   |2008       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `attendma`](https://gssdataexplorer.norc.org/variables/4673/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |less than once a year |about once or twice a year |several times a year |about once a month |2-3 times a month |nearly every week |every week |several times a week |no mother/mother not present |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:---------------------|:--------------------------|:--------------------|:------------------|:-----------------|:-----------------|:----------|:--------------------|:----------------------------|:----------|:---------|:-----|
+#'  |1991  |158  |51    |52                    |82                         |140                  |48                 |126               |215               |368        |114                  |10                           |96         |57        |1517  |
+#'  |1998  |1548 |70    |44                    |82                         |115                  |44                 |102               |176               |356        |126                  |12                           |91         |66        |2832  |
+#'  |2008  |658  |154   |46                    |101                        |102                  |68                 |102               |129               |462        |143                  |19                           |35         |4         |2023  |
+#'  |2018  |1173 |159   |31                    |104                        |77                   |61                 |73                |63                |441        |112                  |11                           |31         |12        |2348  |
+#'  |Total |3537 |434   |173                   |369                        |434                  |221                |403               |583               |1627       |495                  |52                           |253        |139       |8720  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -198,16 +213,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2008 |B/C/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2018       |
+#'  |A/B/C   |1991, 1998 |
+#'  |B/C/-   |2008       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `attendpa`](https://gssdataexplorer.norc.org/variables/4674/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |less than once a year |about once or twice a year |several times a year |about once a month |2-3 times a month |nearly every week |every week |several times a week |no father/father not present |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:---------------------|:--------------------------|:--------------------|:------------------|:-----------------|:-----------------|:----------|:--------------------|:----------------------------|:----------|:---------|:-----|
+#'  |1991  |158  |155   |93                    |123                        |132                  |60                 |103               |150               |267        |63                   |43                           |134        |36        |1517  |
+#'  |1998  |1548 |176   |81                    |97                         |87                   |54                 |76                |129               |250        |95                   |19                           |168        |52        |2832  |
+#'  |2008  |658  |268   |74                    |118                        |119                  |69                 |86                |111               |296        |82                   |69                           |69         |4         |2023  |
+#'  |2018  |1173 |256   |46                    |104                        |75                   |67                 |66                |42                |306        |66                   |52                           |82         |13        |2348  |
+#'  |Total |3537 |855   |294                   |442                        |413                  |250                |331               |432               |1119       |306                  |183                          |453        |105       |8720  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -240,16 +263,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2008 |B/C/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2018       |
+#'  |A/B/C   |1991, 1998 |
+#'  |B/C/-   |2008       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `attend12`](https://gssdataexplorer.norc.org/variables/4675/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |less than once a year |about once or twice a year |several times a year |about once a month |2-3 times a month |nearly every week |every week |several times a week |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:---------------------|:--------------------------|:--------------------|:------------------|:-----------------|:-----------------|:----------|:--------------------|:----------|:---------|:-----|
+#'  |1991  |158  |53    |31                    |62                         |113                  |50                 |131               |299               |435        |124                  |37         |24        |1517  |
+#'  |1998  |1548 |79    |39                    |43                         |92                   |62                 |114               |235               |393        |141                  |38         |48        |2832  |
+#'  |2008  |658  |112   |30                    |74                         |91                   |57                 |114               |194               |504        |173                  |12         |4         |2023  |
+#'  |2018  |1173 |127   |25                    |70                         |68                   |52                 |81                |96                |485        |141                  |19         |11        |2348  |
+#'  |Total |3537 |371   |125                   |249                        |364                  |221                |440               |824               |1817       |579                  |106        |87        |8720  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -284,16 +315,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2008 |B/C/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2018       |
+#'  |A/B/C   |1991, 1998 |
+#'  |B/C/-   |2008       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `prayfreq`](https://gssdataexplorer.norc.org/variables/4676/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |less than once a year |about once or twice a year |several times a year |about once a month |2-3 times a month |nearly every week |every week |several times a week |once a day |several times a day |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:---------------------|:--------------------------|:--------------------|:------------------|:-----------------|:-----------------|:----------|:--------------------|:----------|:-------------------|:----------|:---------|:-----|
+#'  |1991  |158  |105   |37                    |73                         |110                  |65                 |71                |77                |61         |166                  |289        |271                 |1          |33        |1517  |
+#'  |1998  |1548 |132   |41                    |41                         |54                   |49                 |57                |62                |63         |164                  |306        |275                 |-          |40        |2832  |
+#'  |2008  |658  |138   |28                    |25                         |68                   |38                 |63                |27                |66         |149                  |356        |391                 |6          |10        |2023  |
+#'  |2018  |1173 |168   |11                    |28                         |35                   |28                 |30                |31                |83         |730                  |-          |-                   |20         |11        |2348  |
+#'  |Total |3537 |543   |117                   |167                        |267                  |180                |221               |197               |273        |1209                 |951        |937                 |27         |94        |8720  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -328,24 +367,29 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
+#'  |ballots |years                                                                  |
+#'  |:-------|:----------------------------------------------------------------------|
+#'  |A/B/C   |1991, 1998, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relactiv`](https://gssdataexplorer.norc.org/variables/4677/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |less than once a year |about once or twice a year |several times a year |about once a month |2-3 times a month |nearly every week |every week |several times a week |no answer |once a day |several times a day |don't know |skipped on web |Total |
+#'  |:-----|:----|:-----|:---------------------|:--------------------------|:--------------------|:------------------|:-----------------|:-----------------|:----------|:--------------------|:---------|:----------|:-------------------|:----------|:--------------|:-----|
+#'  |1991  |158  |507   |160                   |171                        |128                  |83                 |82                |61                |89         |48                   |30        |-          |-                   |-          |-              |1517  |
+#'  |1998  |1548 |471   |147                   |136                        |131                  |64                 |66                |54                |88         |66                   |44        |8          |8                   |1          |-              |2832  |
+#'  |2006  |1518 |1325  |249                   |368                        |290                  |215                |174               |88                |236        |17                   |8         |17         |-                   |5          |-              |4510  |
+#'  |2008  |-    |861   |148                   |300                        |270                  |105                |108               |43                |143        |13                   |10        |15         |-                   |7          |-              |2023  |
+#'  |2010  |-    |864   |164                   |292                        |238                  |120                |140               |50                |137        |21                   |7         |5          |-                   |6          |-              |2044  |
+#'  |2012  |-    |887   |139                   |251                        |183                  |118                |129               |64                |167        |9                    |12        |12         |-                   |3          |-              |1974  |
+#'  |2014  |-    |1139  |197                   |353                        |261                  |146                |140               |76                |183        |21                   |13        |8          |-                   |1          |-              |2538  |
+#'  |2016  |-    |1286  |187                   |384                        |327                  |183                |162               |69                |213        |21                   |13        |16         |-                   |6          |-              |2867  |
+#'  |2018  |-    |1087  |148                   |304                        |241                  |154                |145               |37                |180        |13                   |10        |9          |-                   |20         |-              |2348  |
+#'  |2021  |-    |1650  |614                   |488                        |449                  |150                |159               |137               |241        |26                   |49        |35         |-                   |2          |32             |4032  |
+#'  |2022  |-    |1635  |413                   |438                        |365                  |164                |145               |85                |207        |10                   |21        |28         |-                   |16         |17             |3544  |
+#'  |Total |3224 |11712 |2566                  |3485                       |2883                 |1502               |1450              |764               |1884       |265                  |217       |153        |8                   |67         |49             |30229 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -380,13 +424,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relactiv1`](https://gssdataexplorer.norc.org/variables/4678/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |never |less than once a year |about once or twice a year |several times a year |about once a month |2-3 times a month |nearly every week |every week |several times a week |don't know |no answer |Total |
+#'  |:-----|:---|:-----|:---------------------|:--------------------------|:--------------------|:------------------|:-----------------|:-----------------|:----------|:--------------------|:----------|:---------|:-----|
+#'  |2008  |658 |549   |112                   |202                        |165                  |72                 |87                |27                |74         |68                   |4          |5         |2023  |
+#'  |Total |658 |549   |112                   |202                        |165                  |72                 |87                |27                |74         |68                   |4          |5         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -412,13 +462,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relscrpt`](https://gssdataexplorer.norc.org/variables/7278/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |can't choose |no answer |Total |
+#'  |:-----|:----|:---|:---|:------------|:---------|:-----|
+#'  |2018  |1173 |685 |478 |1            |11        |2348  |
+#'  |Total |1173 |685 |478 |1            |11        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -449,16 +505,24 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2008 |B/C/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2018       |
+#'  |A/B/C   |1991, 1998 |
+#'  |B/C/-   |2008       |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `feelrel`](https://gssdataexplorer.norc.org/variables/4679/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |extreme relgious |very religious |somewhat relgious |not religious nor non-religious |somewhat non-religious |very non-religious |extremely non-religious |can't choose |no answer |Total |
+#'  |:-----|:----|:----------------|:--------------|:-----------------|:-------------------------------|:----------------------|:------------------|:-----------------------|:------------|:---------|:-----|
+#'  |1991  |158  |61               |284            |620               |219                             |52                     |38                 |32                      |28           |25        |1517  |
+#'  |1998  |1548 |83               |234            |603               |121                             |59                     |46                 |56                      |40           |42        |2832  |
+#'  |2008  |658  |91               |271            |678               |96                              |97                     |52                 |70                      |4            |6         |2023  |
+#'  |2018  |1173 |73               |249            |451               |136                             |82                     |92                 |73                      |8            |11        |2348  |
+#'  |Total |3537 |308              |1038           |2352              |572                             |290                    |228                |231                     |80           |84        |8720  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -486,13 +550,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1991  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `schlpray`](https://gssdataexplorer.norc.org/variables/4680/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes, definitely |yes, probably |no, probably |no, definitely |don't know |no answer |Total |
+#'  |:-----|:---|:---------------|:-------------|:------------|:--------------|:----------|:---------|:-----|
+#'  |1991  |158 |466             |300           |201          |236            |135        |21        |1517  |
+#'  |Total |158 |466             |300           |201          |236            |135        |21        |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion

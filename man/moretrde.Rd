@@ -24,15 +24,21 @@ Question Suppose two friends of yours are talking about trade with other countri
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3884/vshow}{GSS Data Explorer page for \code{moretrde}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab created more jobs \tab about the same \tab taken them away \tab not relevant for my job \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1165 \tab 136 \tab 159 \tab 276 \tab 254 \tab 19 \tab 14 \tab 2023 \cr
+   Total \tab 1165 \tab 136 \tab 159 \tab 276 \tab 254 \tab 19 \tab 14 \tab 2023 \cr
+}
 }
 
 \seealso{

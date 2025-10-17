@@ -30,18 +30,26 @@ Question When you were a child, how often did your father attend religious servi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4674/vshow}{GSS Data Explorer page for \code{attendpa}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month \tab 2-3 times a month \tab nearly every week \tab every week \tab several times a week \tab no father/father not present \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 155 \tab 93 \tab 123 \tab 132 \tab 60 \tab 103 \tab 150 \tab 267 \tab 63 \tab 43 \tab 134 \tab 36 \tab 1517 \cr
+   1998 \tab 1548 \tab 176 \tab 81 \tab 97 \tab 87 \tab 54 \tab 76 \tab 129 \tab 250 \tab 95 \tab 19 \tab 168 \tab 52 \tab 2832 \cr
+   2008 \tab 658 \tab 268 \tab 74 \tab 118 \tab 119 \tab 69 \tab 86 \tab 111 \tab 296 \tab 82 \tab 69 \tab 69 \tab 4 \tab 2023 \cr
+   2018 \tab 1173 \tab 256 \tab 46 \tab 104 \tab 75 \tab 67 \tab 66 \tab 42 \tab 306 \tab 66 \tab 52 \tab 82 \tab 13 \tab 2348 \cr
+   Total \tab 3537 \tab 855 \tab 294 \tab 442 \tab 413 \tab 250 \tab 331 \tab 432 \tab 1119 \tab 306 \tab 183 \tab 453 \tab 105 \tab 8720 \cr
+}
 }
 
 \seealso{

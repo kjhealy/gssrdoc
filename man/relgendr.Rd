@@ -25,15 +25,21 @@ Question Which of the following best describes your current relationship situati
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3910/vshow}{GSS Data Explorer page for \code{relgendr}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab i am in a steady relationship with a woman and we live together \tab i am in a steady relationship with a man and we live together \tab i am in a steady relationship with a woman and we do not live together \tab i am in a steady relationship with a man and we do not live together \tab i am not in a steady relationship right now \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1879 \tab 25 \tab 24 \tab 5 \tab 9 \tab 38 \tab 5 \tab 38 \tab 2023 \cr
+   Total \tab 1879 \tab 25 \tab 24 \tab 5 \tab 9 \tab 38 \tab 5 \tab 38 \tab 2023 \cr
+}
 }
 
 \seealso{

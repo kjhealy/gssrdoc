@@ -25,17 +25,25 @@ A. Poor people and rich people?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   B/C/- \tab 2021 \cr
+   Full \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4306/vshow}{GSS Data Explorer page for \code{conwlth}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very strong conflicts \tab strong conflicts \tab not very strong conflicts \tab there are no conflicts \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 270 \tab 657 \tab 468 \tab 54 \tab 75 \tab 40 \tab - \tab 1819 \cr
+   2000 \tab 1545 \tab 157 \tab 472 \tab 425 \tab 33 \tab 72 \tab 113 \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 255 \tab 849 \tab 526 \tab 45 \tab 150 \tab 158 \tab 20 \tab 4032 \cr
+   Total \tab 3829 \tab 682 \tab 1978 \tab 1419 \tab 132 \tab 297 \tab 311 \tab 20 \tab 8668 \cr
+}
 }
 
 \seealso{

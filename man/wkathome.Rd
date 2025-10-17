@@ -28,15 +28,21 @@ Would you say...
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6330/vshow}{GSS Data Explorer page for \code{wkathome}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab no answer \tab Total \cr
+   2016 \tab 1927 \tab 64 \tab 83 \tab 142 \tab 162 \tab 484 \tab 5 \tab 2867 \cr
+   Total \tab 1927 \tab 64 \tab 83 \tab 142 \tab 162 \tab 484 \tab 5 \tab 2867 \cr
+}
 }
 
 \seealso{

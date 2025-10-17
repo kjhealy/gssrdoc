@@ -23,15 +23,21 @@ A. By what age should this normally occur?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2897/vshow}{GSS Data Explorer page for \code{finind1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 30 \tab 32 \tab 39 \tab 45 \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1435 \tab 1 \tab 6 \tab 5 \tab 6 \tab 56 \tab 24 \tab 291 \tab 62 \tab 126 \tab 255 \tab 160 \tab 67 \tab 71 \tab 141 \tab 3 \tab 5 \tab 6 \tab 17 \tab 1 \tab 1 \tab 2 \tab 20 \tab 4 \tab 2765 \cr
+   Total \tab 1435 \tab 1 \tab 6 \tab 5 \tab 6 \tab 56 \tab 24 \tab 291 \tab 62 \tab 126 \tab 255 \tab 160 \tab 67 \tab 71 \tab 141 \tab 3 \tab 5 \tab 6 \tab 17 \tab 1 \tab 1 \tab 2 \tab 20 \tab 4 \tab 2765 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Human beings developed from earlier species of animals.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4973/vshow}{GSS Data Explorer page for \code{scitesty}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 219 \tab 425 \tab 218 \tab 580 \tab 22 \tab 8 \tab 2812 \cr
+   Total \tab 1340 \tab 219 \tab 425 \tab 218 \tab 580 \tab 22 \tab 8 \tab 2812 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Question Which of the following best describes your relationship to the real est
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1825/vshow}{GSS Data Explorer page for \code{relagent}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab a relative including in-laws \tab a friend or acquaintance \tab a friend of a friend-relative \tab had previous business dealings \tab no prior relationship \tab Total \cr
+   1996 \tab 2686 \tab 10 \tab 35 \tab 15 \tab 14 \tab 144 \tab 2904 \cr
+   Total \tab 2686 \tab 10 \tab 35 \tab 15 \tab 14 \tab 144 \tab 2904 \cr
+}
 }
 
 \seealso{

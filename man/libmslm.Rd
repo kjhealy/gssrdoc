@@ -23,23 +23,28 @@ C. If some people in your community suggested that a book he wrote which preache
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/266/vshow}{GSS Data Explorer page for \code{libmslm}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab remove \tab not remove \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2008 \tab 671 \tab 663 \tab 662 \tab 21 \tab 6 \tab - \tab 2023 \cr
+   2010 \tab 763 \tab 649 \tab 619 \tab 9 \tab 4 \tab - \tab 2044 \cr
+   2012 \tab 666 \tab 641 \tab 638 \tab 22 \tab 7 \tab - \tab 1974 \cr
+   2014 \tab 824 \tab 858 \tab 831 \tab 14 \tab 11 \tab - \tab 2538 \cr
+   2016 \tab 977 \tab 935 \tab 930 \tab 16 \tab 9 \tab - \tab 2867 \cr
+   2018 \tab 774 \tab 775 \tab 776 \tab 17 \tab 6 \tab - \tab 2348 \cr
+   2021 \tab 2714 \tab 569 \tab 735 \tab 3 \tab - \tab 11 \tab 4032 \cr
+   2022 \tab 2380 \tab 513 \tab 626 \tab 18 \tab 1 \tab 6 \tab 3544 \cr
+   Total \tab 9769 \tab 5603 \tab 5817 \tab 120 \tab 44 \tab 17 \tab 21370 \cr
+}
 }
 
 \seealso{

@@ -22,16 +22,22 @@ Question Have you ever been diagnosed with a mental health problem?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2024 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7147/vshow}{GSS Data Explorer page for \code{diagnosd}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 197 \tab 936 \tab 5 \tab 35 \tab 2348 \cr
+   Total \tab 1175 \tab 197 \tab 936 \tab 5 \tab 35 \tab 2348 \cr
+}
 }
 
 \seealso{

@@ -29,17 +29,25 @@ Question What was the main reason that your job ended?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4595/vshow}{GSS Data Explorer page for \code{whyjbend}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab i reached retirement age \tab i retired early, by choice \tab i retired early, not by choice \tab i became (permanently) disabled \tab my place of work was shut down \tab i was dismissed \tab my term of employment/contract ended \tab family responsibilities \tab i got married \tab don't know \tab Total \cr
+   1998 \tab 2523 \tab 75 \tab 45 \tab 3 \tab 32 \tab 16 \tab 12 \tab 15 \tab 55 \tab 47 \tab 9 \tab 2832 \cr
+   2006 \tab 4066 \tab 80 \tab 66 \tab 16 \tab 93 \tab 34 \tab 17 \tab 34 \tab 78 \tab 14 \tab 12 \tab 4510 \cr
+   2016 \tab 2382 \tab 92 \tab 76 \tab 27 \tab 89 \tab 35 \tab 30 \tab 40 \tab 58 \tab 2 \tab 36 \tab 2867 \cr
+   Total \tab 8971 \tab 247 \tab 187 \tab 46 \tab 214 \tab 85 \tab 59 \tab 89 \tab 191 \tab 63 \tab 57 \tab 10209 \cr
+}
 }
 
 \seealso{

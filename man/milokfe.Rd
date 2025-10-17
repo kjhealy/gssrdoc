@@ -24,15 +24,21 @@ Question B. How about for most young women, do you think military service is def
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/819/vshow}{GSS Data Explorer page for \code{milokfe}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely good \tab probably good \tab prob not good \tab def not good \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 208 \tab 807 \tab 283 \tab 95 \tab 58 \tab 22 \tab 1473 \cr
+   Total \tab 0 \tab 208 \tab 807 \tab 283 \tab 95 \tab 58 \tab 22 \tab 1473 \cr
+}
 }
 
 \seealso{

@@ -22,16 +22,22 @@ Question E. Purchased a recording as a result of hearing it on the Web?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2460/vshow}{GSS Data Explorer page for \code{musicbuy}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2498 \tab 75 \tab 131 \tab 113 \tab 2817 \cr
+   2002 \tab 2492 \tab 100 \tab 127 \tab 46 \tab 2765 \cr
+   Total \tab 4990 \tab 175 \tab 258 \tab 159 \tab 5582 \cr
+}
 }
 
 \seealso{

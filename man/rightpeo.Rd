@@ -26,15 +26,21 @@ D. ...that practicing a religion helps people to meet the right kind of people?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4715/vshow}{GSS Data Explorer page for \code{rightpeo}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 658 \tab 220 \tab 573 \tab 391 \tab 130 \tab 28 \tab 17 \tab 6 \tab 2023 \cr
+   Total \tab 658 \tab 220 \tab 573 \tab 391 \tab 130 \tab 28 \tab 17 \tab 6 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question From what country or countries did your ancestors come?  Jamaica
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7734/vshow}{GSS Data Explorer page for \code{ethregion95}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 15 \tab 3302 \tab 681 \tab 1 \tab 33 \tab 4032 \cr
+   Total \tab 15 \tab 3302 \tab 681 \tab 1 \tab 33 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

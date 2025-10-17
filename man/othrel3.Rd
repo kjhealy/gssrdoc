@@ -32,16 +32,23 @@ Question (Besides the regular, weekly worship service,) What type of religious e
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/C/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   A/C/- \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5323/vshow}{GSS Data Explorer page for \code{othrel3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab choir, choral, concert, play \tab governing board, etc \tab preaching, taught sunday school \tab prayer group, breakfast, meeting \tab worship service \tab other, religious \tab Total \cr
+   1996 \tab 2898 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab 2904 \cr
+   1998 \tab 2829 \tab - \tab - \tab - \tab - \tab - \tab 3 \tab 2832 \cr
+   Total \tab 5727 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 3 \tab 5736 \cr
+}
 }
 
 \seealso{

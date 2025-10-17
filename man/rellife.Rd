@@ -24,18 +24,24 @@ Question I try hard to carry my religious beliefs over into all my other dealing
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006, 2008, 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2104/vshow}{GSS Data Explorer page for \code{rellife}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 391 \tab 632 \tab 288 \tab 103 \tab 8 \tab 23 \tab 2832 \cr
+   2006 \tab 1518 \tab 862 \tab 1218 \tab 561 \tab 308 \tab 35 \tab 8 \tab 4510 \cr
+   2008 \tab - \tab 575 \tab 823 \tab 403 \tab 188 \tab 22 \tab 12 \tab 2023 \cr
+   2010 \tab - \tab 557 \tab 827 \tab 393 \tab 226 \tab 23 \tab 18 \tab 2044 \cr
+   Total \tab 2905 \tab 2385 \tab 3500 \tab 1645 \tab 825 \tab 88 \tab 61 \tab 11409 \cr
+}
 }
 
 \seealso{

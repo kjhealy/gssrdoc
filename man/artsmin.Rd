@@ -22,16 +22,22 @@ A. Minutes per month?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2451/vshow}{GSS Data Explorer page for \code{artsmin}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 15 \tab 16 \tab 20 \tab 30 \tab 32 \tab 40 \tab 45 \tab 5 \tab 50 \tab 59 \tab don't know \tab no answer \tab 19 \tab 3 \tab Total \cr
+   2000 \tab 2075 \tab 551 \tab 13 \tab 17 \tab 1 \tab 18 \tab 57 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 3 \tab 74 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2043 \tab 562 \tab 16 \tab 17 \tab - \tab 14 \tab 56 \tab - \tab 1 \tab 1 \tab 6 \tab - \tab - \tab 1 \tab 46 \tab 1 \tab 1 \tab 2765 \cr
+   Total \tab 4118 \tab 1113 \tab 29 \tab 34 \tab 1 \tab 32 \tab 113 \tab 1 \tab 2 \tab 3 \tab 8 \tab 1 \tab 1 \tab 4 \tab 120 \tab 1 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

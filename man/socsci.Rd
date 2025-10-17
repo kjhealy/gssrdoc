@@ -26,16 +26,22 @@ A. Sociology. Is sociology very scientific, pretty scientific, not too scientifi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2006, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3406/vshow}{GSS Data Explorer page for \code{socsci}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 167 \tab 736 \tab 540 \tab 150 \tab 156 \tab 110 \tab 5 \tab 4510 \cr
+   2012 \tab 1477 \tab 46 \tab 188 \tab 154 \tab 34 \tab 38 \tab 31 \tab 6 \tab 1974 \cr
+   Total \tab 4123 \tab 213 \tab 924 \tab 694 \tab 184 \tab 194 \tab 141 \tab 11 \tab 6484 \cr
+}
 }
 
 \seealso{

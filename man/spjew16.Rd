@@ -26,22 +26,28 @@ B. Was (s/he) Orthodox, Conservative, Reform or none of these? (PROBE FOR EXACT 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/358/vshow}{GSS Data Explorer page for \code{spjew16}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab orthodox \tab conservative \tab reform \tab no answer \tab none of these \tab don't know \tab Total \cr
+   1988 \tab 1464 \tab 5 \tab 6 \tab 2 \tab 4 \tab - \tab - \tab 1481 \cr
+   1989 \tab 1518 \tab 1 \tab 5 \tab 5 \tab 8 \tab - \tab - \tab 1537 \cr
+   1990 \tab 1350 \tab 3 \tab 5 \tab 6 \tab 5 \tab 1 \tab 2 \tab 1372 \cr
+   1991 \tab 1496 \tab 2 \tab 7 \tab 5 \tab 5 \tab 2 \tab - \tab 1517 \cr
+   1993 \tab 1587 \tab 1 \tab 8 \tab 6 \tab 1 \tab 3 \tab - \tab 1606 \cr
+   1994 \tab 2961 \tab 1 \tab 4 \tab 2 \tab 23 \tab 1 \tab - \tab 2992 \cr
+   2008 \tab 2008 \tab 5 \tab 5 \tab 5 \tab - \tab - \tab - \tab 2023 \cr
+   2012 \tab 1962 \tab - \tab 4 \tab 7 \tab - \tab 1 \tab - \tab 1974 \cr
+   Total \tab 14346 \tab 18 \tab 44 \tab 38 \tab 46 \tab 8 \tab 2 \tab 14502 \cr
+}
 }
 
 \seealso{

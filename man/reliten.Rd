@@ -24,46 +24,54 @@ Question Would you call yourself a strong (PREFERENCE NAMED IN RELIG) or a not v
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/298/vshow}{GSS Data Explorer page for \code{reliten}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strong \tab not very strong \tab somewhat strong (vol.) \tab no religion \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1974 \tab - \tab 584 \tab 667 \tab 113 \tab 101 \tab 9 \tab 10 \tab - \tab 1484 \cr
+   1975 \tab - \tab 580 \tab 626 \tab 152 \tab 113 \tab 3 \tab 16 \tab - \tab 1490 \cr
+   1976 \tab - \tab 533 \tab 627 \tab 194 \tab 114 \tab 7 \tab 24 \tab - \tab 1499 \cr
+   1977 \tab - \tab 581 \tab 715 \tab 111 \tab 93 \tab 7 \tab 23 \tab - \tab 1530 \cr
+   1978 \tab - \tab 551 \tab 734 \tab 112 \tab 119 \tab 9 \tab 7 \tab - \tab 1532 \cr
+   1980 \tab - \tab 558 \tab 649 \tab 133 \tab 105 \tab 7 \tab 16 \tab - \tab 1468 \cr
+   1982 \tab - \tab 760 \tab 758 \tab 155 \tab 132 \tab 9 \tab 46 \tab - \tab 1860 \cr
+   1983 \tab - \tab 644 \tab 707 \tab 106 \tab 117 \tab 6 \tab 19 \tab - \tab 1599 \cr
+   1984 \tab - \tab 656 \tab 566 \tab 112 \tab 107 \tab 11 \tab 21 \tab - \tab 1473 \cr
+   1985 \tab - \tab 607 \tab 630 \tab 135 \tab 109 \tab 7 \tab 46 \tab - \tab 1534 \cr
+   1986 \tab - \tab 545 \tab 579 \tab 137 \tab 98 \tab 6 \tab 105 \tab - \tab 1470 \cr
+   1987 \tab - \tab 751 \tab 720 \tab 186 \tab 121 \tab 12 \tab 29 \tab - \tab 1819 \cr
+   1988 \tab - \tab 499 \tab 549 \tab 150 \tab 118 \tab 4 \tab 161 \tab - \tab 1481 \cr
+   1989 \tab - \tab 522 \tab 600 \tab 207 \tab 120 \tab 13 \tab 75 \tab - \tab 1537 \cr
+   1990 \tab - \tab 483 \tab 541 \tab 186 \tab 109 \tab 13 \tab 40 \tab - \tab 1372 \cr
+   1991 \tab - \tab 540 \tab 598 \tab 214 \tab 102 \tab 15 \tab 48 \tab - \tab 1517 \cr
+   1993 \tab - \tab 580 \tab 587 \tab 216 \tab 146 \tab 15 \tab 62 \tab - \tab 1606 \cr
+   1994 \tab - \tab 1102 \tab 1188 \tab 314 \tab 274 \tab 22 \tab 92 \tab - \tab 2992 \cr
+   1996 \tab - \tab 1018 \tab 1126 \tab 301 \tab 340 \tab 27 \tab 92 \tab - \tab 2904 \cr
+   1998 \tab - \tab 1022 \tab 958 \tab 285 \tab 401 \tab 28 \tab 138 \tab - \tab 2832 \cr
+   2000 \tab - \tab 938 \tab 957 \tab 287 \tab 399 \tab 36 \tab 200 \tab - \tab 2817 \cr
+   2002 \tab - \tab 1010 \tab 1041 \tab 308 \tab 383 \tab 8 \tab 15 \tab - \tab 2765 \cr
+   2004 \tab - \tab 1073 \tab 1026 \tab 266 \tab 403 \tab 8 \tab 36 \tab - \tab 2812 \cr
+   2006 \tab - \tab 1616 \tab 1632 \tab 482 \tab 739 \tab 12 \tab 29 \tab - \tab 4510 \cr
+   2008 \tab 1 \tab 721 \tab 744 \tab 144 \tab 332 \tab 3 \tab 78 \tab - \tab 2023 \cr
+   2010 \tab - \tab 707 \tab 747 \tab 128 \tab 364 \tab 11 \tab 87 \tab - \tab 2044 \cr
+   2012 \tab 5 \tab 713 \tab 690 \tab 165 \tab 387 \tab 6 \tab 8 \tab - \tab 1974 \cr
+   2014 \tab 3 \tab 908 \tab 892 \tab 181 \tab 522 \tab 11 \tab 21 \tab - \tab 2538 \cr
+   2016 \tab 3 \tab 1048 \tab 1015 \tab 155 \tab 619 \tab 4 \tab 23 \tab - \tab 2867 \cr
+   2018 \tab 5 \tab 802 \tab 869 \tab 101 \tab 542 \tab 7 \tab 22 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 2188 \tab 600 \tab 560 \tab 171 \tab - \tab 22 \tab 3 \tab - \tab 3544 \cr
+   Total \tab 2205 \tab 23252 \tab 24298 \tab 5907 \tab 7629 \tab 358 \tab 1592 \tab 4032 \tab 69273 \cr
+}
 }
 
 \seealso{

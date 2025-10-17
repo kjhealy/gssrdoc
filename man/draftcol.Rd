@@ -23,15 +23,21 @@ A. Do you think college students should be exempted from a draft?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/806/vshow}{GSS Data Explorer page for \code{draftcol}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no, not exempt \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 507 \tab 1279 \tab 71 \tab 3 \tab 1860 \cr
+   Total \tab 0 \tab 507 \tab 1279 \tab 71 \tab 3 \tab 1860 \cr
+}
 }
 
 \seealso{

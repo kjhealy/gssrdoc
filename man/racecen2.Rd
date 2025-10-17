@@ -27,27 +27,33 @@ As of 2024, RACECEN2 has been recoded to combine Native Hawaiian, Guamanian or C
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5278/vshow}{GSS Data Explorer page for \code{racecen2}}.
+
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab white \tab black or african american \tab american indian or alaska native \tab chinese \tab filipino \tab japanese \tab other pacific islander \tab some other race \tab hispanic \tab vietnamese \tab other asian \tab native hawaiian \tab guamanian or chamorro \tab don't know \tab no answer \tab korean \tab asian indian \tab samoan \tab Total \cr
+   2000 \tab 2745 \tab 8 \tab 2 \tab 40 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 15 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2601 \tab 28 \tab 10 \tab 94 \tab 3 \tab 1 \tab 1 \tab - \tab 3 \tab 10 \tab 2 \tab 6 \tab 1 \tab 1 \tab 2 \tab 2 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2650 \tab 28 \tab 7 \tab 95 \tab 2 \tab 2 \tab 4 \tab - \tab 5 \tab 11 \tab 1 \tab 2 \tab 1 \tab - \tab - \tab 1 \tab 3 \tab - \tab - \tab 2812 \cr
+   2006 \tab 4244 \tab 41 \tab 13 \tab 135 \tab 7 \tab 1 \tab 1 \tab 3 \tab 8 \tab 40 \tab - \tab 5 \tab 2 \tab 1 \tab 3 \tab 2 \tab - \tab 2 \tab 2 \tab 4510 \cr
+   2008 \tab 1902 \tab 14 \tab 10 \tab 71 \tab 4 \tab 1 \tab 1 \tab - \tab 2 \tab 13 \tab - \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab 2 \tab - \tab 2023 \cr
+   2010 \tab 1890 \tab 21 \tab 18 \tab 77 \tab 1 \tab 6 \tab 2 \tab 2 \tab 2 \tab 5 \tab - \tab 1 \tab 3 \tab 1 \tab - \tab 9 \tab 3 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 1830 \tab 22 \tab 17 \tab 70 \tab 2 \tab 5 \tab 2 \tab 1 \tab 2 \tab 12 \tab - \tab 1 \tab - \tab 1 \tab 1 \tab 4 \tab - \tab 3 \tab 1 \tab 1974 \cr
+   2014 \tab 2346 \tab 34 \tab 17 \tab 86 \tab 1 \tab 5 \tab 3 \tab - \tab 4 \tab 18 \tab - \tab 3 \tab - \tab 1 \tab 1 \tab 13 \tab 2 \tab 3 \tab 1 \tab 2538 \cr
+   2016 \tab 2617 \tab 35 \tab 24 \tab 140 \tab 2 \tab 3 \tab 3 \tab 3 \tab 4 \tab 8 \tab 1 \tab 4 \tab - \tab - \tab 1 \tab 15 \tab 3 \tab 1 \tab 3 \tab 2867 \cr
+   2018 \tab 2122 \tab 25 \tab 22 \tab 103 \tab 5 \tab 3 \tab 3 \tab 2 \tab 15 \tab 24 \tab - \tab 4 \tab 2 \tab - \tab 2 \tab 13 \tab 2 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 3858 \tab 51 \tab 10 \tab 62 \tab 7 \tab 3 \tab 7 \tab - \tab 3 \tab 8 \tab 1 \tab 3 \tab 3 \tab 1 \tab 10 \tab - \tab 2 \tab 3 \tab - \tab 4032 \cr
+   2022 \tab 3362 \tab 52 \tab 16 \tab 72 \tab 7 \tab 3 \tab 3 \tab 1 \tab 7 \tab 8 \tab 2 \tab 3 \tab 3 \tab - \tab - \tab 1 \tab - \tab 3 \tab 1 \tab 3544 \cr
+   Total \tab 32167 \tab 359 \tab 166 \tab 1045 \tab 43 \tab 35 \tab 31 \tab 13 \tab 56 \tab 172 \tab 7 \tab 32 \tab 17 \tab 7 \tab 20 \tab 60 \tab 15 \tab 21 \tab 8 \tab 34274 \cr
+}
 }
 
 \seealso{

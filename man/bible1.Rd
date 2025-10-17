@@ -24,16 +24,22 @@ Question Which of these statements comes closest to describing your feelings abo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4656/vshow}{GSS Data Explorer page for \code{bible1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab word of god, take literally \tab god-inspired, shouldn't take literally \tab book of fables, by man \tab this does not apply to me \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 430 \tab 639 \tab 188 \tab 27 \tab 50 \tab 25 \tab 1517 \cr
+   1998 \tab 1548 \tab 358 \tab 585 \tab 207 \tab 40 \tab 56 \tab 38 \tab 2832 \cr
+   Total \tab 1706 \tab 788 \tab 1224 \tab 395 \tab 67 \tab 106 \tab 63 \tab 4349 \cr
+}
 }
 
 \seealso{

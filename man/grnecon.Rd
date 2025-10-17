@@ -26,19 +26,26 @@ A. We worry too much about the future of the environment, and not enough about p
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4725/vshow}{GSS Data Explorer page for \code{grnecon}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 163 \tab 454 \tab 223 \tab 502 \tab 145 \tab 19 \tab 51 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 139 \tab 422 \tab 184 \tab 447 \tab 143 \tab 15 \tab 36 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 127 \tab 328 \tab 213 \tab 398 \tab 123 \tab 20 \tab 67 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 151 \tab 447 \tab 224 \tab 459 \tab 114 \tab 30 \tab 5 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 114 \tab 310 \tab 453 \tab 574 \tab 344 \tab 56 \tab 167 \tab 11 \tab 4032 \cr
+   Total \tab 5813 \tab 694 \tab 1961 \tab 1297 \tab 2380 \tab 869 \tab 140 \tab 326 \tab 11 \tab 13491 \cr
+}
 }
 
 \seealso{

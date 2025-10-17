@@ -1,3 +1,43 @@
+#'  Should aged live with their children (no volunteered response on web)
+#' 
+#'  agednv
+#' 
+#' Question As you know, many older people share a home with their grown children. Do you think this is generally a good idea or a bad idea?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` a good idea
+#'   * `2` a bad idea
+#'   * `3` depends (phone mode only: volunteered)
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |B/C     |2021, 2022 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `agednv`](https://gssdataexplorer.norc.org/variables/7614/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a good idea |a bad idea |depends (phone mode only: volunteered) |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------|:----------|:--------------------------------------|:----------|:---------|:--------------|:-----|
+#'  |2021  |2719 |863         |401        |30                                     |3          |1         |15             |4032  |
+#'  |2022  |2945 |387         |202        |-                                      |-          |-         |10             |3544  |
+#'  |Total |5664 |1250        |603        |30                                     |3          |1         |25             |7576  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name agednv
+NULL
+
+
 #'  Should marijuana be made legal (no volunteered response on web)
 #' 
 #'  grassnv
@@ -14,15 +54,20 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
-#'  |2022 |B/C     |partial      |
-#'  |2024 |B/C     |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |B/C     |2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `grassnv`](https://gssdataexplorer.norc.org/variables/7615/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |should be legal |should not be legal |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------------|:-------------------|:----------|:---------|:--------------|:-----|
+#'  |2021  |2719 |959             |336                 |8          |1         |9              |4032  |
+#'  |2022  |2954 |449             |137                 |-          |1         |3              |3544  |
+#'  |Total |5673 |1408            |473                 |8          |2         |12             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -50,14 +95,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `relitennv`](https://gssdataexplorer.norc.org/variables/7616/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strong |not very strong |somewhat strong (phone mode only: volunteered) |no religion |don't know |no answer |skipped on web |Total |
+#'  |:-----|:---|:------|:---------------|:----------------------------------------------|:-----------|:----------|:---------|:--------------|:-----|
+#'  |2021  |5   |624    |732             |9                                              |1121        |5          |1488      |48             |4032  |
+#'  |2022  |234 |102    |134             |-                                              |439         |-          |2626      |9              |3544  |
+#'  |Total |239 |726    |866             |9                                              |1560        |5          |4114      |57             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -89,15 +140,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `biblenv`](https://gssdataexplorer.norc.org/variables/7617/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |word of god |inspired word |ancient book |other (phone mode only: volunteered) |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------|:-------------|:------------|:------------------------------------|:----------|:---------|:--------------|:-----|
+#'  |2021  |2067 |415         |929           |587          |4                                    |2          |1         |27             |4032  |
+#'  |2022  |2688 |177         |370           |302          |-                                    |-          |-         |7              |3544  |
+#'  |Total |4755 |592         |1299          |889          |4                                    |2          |1         |34             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -124,15 +180,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `postlifenv`](https://gssdataexplorer.norc.org/variables/7618/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes  |no  |don't know |skipped on web |Total |
+#'  |:-----|:----|:----|:---|:----------|:--------------|:-----|
+#'  |2021  |2065 |1407 |514 |18         |28             |4032  |
+#'  |2022  |2688 |596  |245 |-          |15             |3544  |
+#'  |Total |4753 |2003 |759 |18         |43             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -162,15 +223,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |B/C     |partial      |
-#'  |2022 |B/C     |partial      |
-#'  |2024 |B/C     |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |B/C     |2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kidssolnv`](https://gssdataexplorer.norc.org/variables/7619/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |much better |somewhat better |about the same |somewhat worse |much worse |no children (phone mode only; volunteered) |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------|:---------------|:--------------|:--------------|:----------|:------------------------------------------|:----------|:---------|:--------------|:-----|
+#'  |2021  |2719 |261         |364             |331            |222            |75         |10                                         |6          |1         |43             |4032  |
+#'  |2022  |2954 |111         |158             |135            |110            |51         |-                                          |-          |-         |25             |3544  |
+#'  |Total |5673 |372         |522             |466            |332            |126        |10                                         |6          |1         |68             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -198,14 +264,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `uscitznnv`](https://gssdataexplorer.norc.org/variables/7620/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a u.s. citizen |not a u.s. citizen |skipped on web |Total |
+#'  |:-----|:----|:--------------|:------------------|:--------------|:-----|
+#'  |2021  |3817 |139            |71                 |5              |4032  |
+#'  |2022  |3445 |64             |34                 |1              |3544  |
+#'  |Total |7262 |203            |105                |6              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -233,14 +305,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fucitznnv`](https://gssdataexplorer.norc.org/variables/7621/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |currently applying for u.s. citizenship |planning to apply for u.s. citizenship |not planning to apply to u.s. citizenship |skipped on web |no answer |Total |
+#'  |:-----|:----|:---------------------------------------|:--------------------------------------|:-----------------------------------------|:--------------|:---------|:-----|
+#'  |2021  |3956 |12                                      |40                                     |19                                        |5              |-         |4032  |
+#'  |2022  |3509 |3                                       |14                                     |16                                        |1              |1         |3544  |
+#'  |Total |7465 |15                                      |54                                     |35                                        |6              |1         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -267,15 +345,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
-#'  |2022 |A/B     |partial      |
-#'  |2024 |A/B     |partial      |
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B     |2021, 2022, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fepolnv`](https://gssdataexplorer.norc.org/variables/7622/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree |disagree |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----|:--------|:----------|:---------|:--------------|:-----|
+#'  |2021  |2689 |151   |1179     |5          |1         |7              |4032  |
+#'  |2022  |2944 |72    |524      |-          |-         |4              |3544  |
+#'  |Total |5633 |223   |1703     |5          |1         |11             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -302,13 +385,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scibnftsv`](https://gssdataexplorer.norc.org/variables/7603/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |benefits greater |about equal (phone mode only: volunteered) |harmful results greater |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:----------------|:------------------------------------------|:-----------------------|:----------|:---------|:--------------|:-----|
+#'  |2021  |2159 |1078             |698                                        |62                      |12         |1         |22             |4032  |
+#'  |Total |2159 |1078             |698                                        |62                      |12         |1         |22             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -316,40 +405,6 @@ NULL
 #' @keywords variable
 #' @md
 #' @name scibnftsv
-NULL
-
-
-#'  Abortion if woman wants for any reason (grid on web)
-#' 
-#'  abanyg
-#' 
-#' Question (Pleae indicate whether or not you think it should be possible for a pregnant woman to obtain a legal abortion . . .) If the woman wants it for any reason?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2021 |A/C     |partial      |
-#'  |2022 |A/C     |partial      |
-#'  |2024 |A/C     |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `abanyg`](https://gssdataexplorer.norc.org/variables/7624/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name abanyg
 NULL
 
 

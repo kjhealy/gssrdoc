@@ -26,16 +26,22 @@ C. Any change humans cause in nature - no matter how scientific - is likely to m
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4723/vshow}{GSS Data Explorer page for \code{sciworse}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 80 \tab 375 \tab 348 \tab 543 \tab 87 \tab 66 \tab 58 \tab 1606 \cr
+   1994 \tab 1606 \tab 67 \tab 308 \tab 298 \tab 501 \tab 111 \tab 56 \tab 45 \tab 2992 \cr
+   Total \tab 1655 \tab 147 \tab 683 \tab 646 \tab 1044 \tab 198 \tab 122 \tab 103 \tab 4598 \cr
+}
 }
 
 \seealso{

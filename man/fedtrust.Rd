@@ -24,15 +24,21 @@ Question How much of the time do you think you can trust the government in Washi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1038/vshow}{GSS Data Explorer page for \code{fedtrust}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost always \tab most of time \tab some of time \tab almost never \tab don't know \tab no answer \tab Total \cr
+   1987 \tab - \tab 68 \tab 546 \tab 990 \tab 177 \tab 25 \tab 13 \tab 1819 \cr
+   Total \tab 0 \tab 68 \tab 546 \tab 990 \tab 177 \tab 25 \tab 13 \tab 1819 \cr
+}
 }
 
 \seealso{

@@ -21,15 +21,21 @@ Question For about how many years altogether have you worked for your present em
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1275/vshow}{GSS Data Explorer page for \code{empyears}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 1.08 \tab 1.16 \tab 1.25 \tab 1.33 \tab 1.41 \tab 1.5 \tab 1.66 \tab 1.83 \tab 1.91 \tab 10 \tab 10.41 \tab 10.5 \tab 11 \tab 11.25 \tab 11.41 \tab 11.58 \tab 11.83 \tab 12 \tab 12.25 \tab 12.33 \tab 12.41 \tab 12.5 \tab 12.66 \tab 12.83 \tab 13 \tab 13.33 \tab 13.5 \tab 13.91 \tab 14 \tab 15 \tab 15.25 \tab 15.33 \tab 15.58 \tab 16 \tab 16.25 \tab 16.5 \tab 17 \tab 18 \tab 18.16 \tab 18.33 \tab 18.5 \tab 19 \tab 19.16 \tab 19.25 \tab 19.58 \tab 2 \tab 2.08 \tab 2.16 \tab 2.25 \tab 2.33 \tab 2.41 \tab 2.5 \tab 2.58 \tab 2.66 \tab 2.75 \tab 2.83 \tab 20 \tab 21 \tab 22 \tab 22.08 \tab 22.25 \tab 22.5 \tab 23 \tab 23.58 \tab 24 \tab 24.75 \tab 25 \tab 26 \tab 27 \tab 27.16 \tab 27.25 \tab 28 \tab 29 \tab 29.25 \tab 29.5 \tab 3 \tab 3.08 \tab 3.25 \tab 3.41 \tab 3.5 \tab 3.58 \tab 3.75 \tab 3.83 \tab 3.91 \tab 30 \tab 31.91 \tab 32 \tab 32.33 \tab 33 \tab 34 \tab 35 \tab 36 \tab 38 \tab 4 \tab 4.08 \tab 4.33 \tab 4.5 \tab 4.58 \tab 4.83 \tab 40 \tab 41 \tab 46 \tab 48 \tab 5 \tab 5.16 \tab 5.5 \tab 5.66 \tab 50 \tab 52.25 \tab 54 \tab 58 \tab 6 \tab 6.41 \tab 66 \tab 7 \tab 7.08 \tab 7.33 \tab 7.5 \tab 75 \tab 8 \tab 8.08 \tab 8.5 \tab 83 \tab 9 \tab 9.41 \tab 9.5 \tab 9.66 \tab Total \cr
+   1991 \tab 614 \tab 4 \tab 71 \tab 6 \tab 2 \tab 3 \tab 1 \tab 2 \tab 29 \tab 1 \tab 2 \tab 1 \tab 32 \tab 1 \tab 6 \tab 20 \tab 1 \tab 1 \tab 1 \tab 1 \tab 14 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 12 \tab 1 \tab 1 \tab 1 \tab 12 \tab 13 \tab 1 \tab 1 \tab 1 \tab 24 \tab 1 \tab 1 \tab 10 \tab 8 \tab 2 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 57 \tab 2 \tab 4 \tab 1 \tab 3 \tab 1 \tab 11 \tab 1 \tab 3 \tab 1 \tab 1 \tab 14 \tab 9 \tab 9 \tab 1 \tab 1 \tab 1 \tab 7 \tab 1 \tab 4 \tab 2 \tab 27 \tab 2 \tab 3 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 64 \tab 1 \tab 2 \tab 2 \tab 6 \tab 2 \tab 1 \tab 1 \tab 1 \tab 6 \tab 1 \tab 3 \tab 1 \tab 15 \tab 2 \tab 2 \tab 1 \tab 3 \tab 41 \tab 2 \tab 2 \tab 4 \tab 1 \tab 1 \tab 4 \tab 9 \tab 1 \tab 1 \tab 56 \tab 1 \tab 7 \tab 1 \tab 25 \tab 1 \tab 1 \tab 12 \tab 25 \tab 1 \tab 16 \tab 22 \tab 1 \tab 1 \tab 3 \tab 9 \tab 36 \tab 1 \tab 2 \tab 4 \tab 11 \tab 2 \tab 2 \tab 2 \tab 1517 \cr
+   Total \tab 614 \tab 4 \tab 71 \tab 6 \tab 2 \tab 3 \tab 1 \tab 2 \tab 29 \tab 1 \tab 2 \tab 1 \tab 32 \tab 1 \tab 6 \tab 20 \tab 1 \tab 1 \tab 1 \tab 1 \tab 14 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 12 \tab 1 \tab 1 \tab 1 \tab 12 \tab 13 \tab 1 \tab 1 \tab 1 \tab 24 \tab 1 \tab 1 \tab 10 \tab 8 \tab 2 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 57 \tab 2 \tab 4 \tab 1 \tab 3 \tab 1 \tab 11 \tab 1 \tab 3 \tab 1 \tab 1 \tab 14 \tab 9 \tab 9 \tab 1 \tab 1 \tab 1 \tab 7 \tab 1 \tab 4 \tab 2 \tab 27 \tab 2 \tab 3 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 64 \tab 1 \tab 2 \tab 2 \tab 6 \tab 2 \tab 1 \tab 1 \tab 1 \tab 6 \tab 1 \tab 3 \tab 1 \tab 15 \tab 2 \tab 2 \tab 1 \tab 3 \tab 41 \tab 2 \tab 2 \tab 4 \tab 1 \tab 1 \tab 4 \tab 9 \tab 1 \tab 1 \tab 56 \tab 1 \tab 7 \tab 1 \tab 25 \tab 1 \tab 1 \tab 12 \tab 25 \tab 1 \tab 16 \tab 22 \tab 1 \tab 1 \tab 3 \tab 9 \tab 36 \tab 1 \tab 2 \tab 4 \tab 11 \tab 2 \tab 2 \tab 2 \tab 1517 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ A. Where would you place yourself on this scale, or haven't you thought much abo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1980 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/763/vshow}{GSS Data Explorer page for \code{cutspdr}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab havent thought much \tab cut spending \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab maintain services \tab don't know \tab no answer \tab Total \cr
+   1980 \tab - \tab 121 \tab 121 \tab 123 \tab 179 \tab 271 \tab 195 \tab 158 \tab 261 \tab 35 \tab 4 \tab 1468 \cr
+   Total \tab 0 \tab 121 \tab 121 \tab 123 \tab 179 \tab 271 \tab 195 \tab 158 \tab 261 \tab 35 \tab 4 \tab 1468 \cr
+}
 }
 
 \seealso{

@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mechanic`](https://gssdataexplorer.norc.org/variables/790/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |should |should not |don't know |no answer |Total |
+#'  |:-----|:---|:------|:----------|:----------|:---------|:-----|
+#'  |1982  |-   |1476   |335        |38         |11        |1860  |
+#'  |Total |0   |1476   |335        |38         |11        |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `nurse`](https://gssdataexplorer.norc.org/variables/791/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |should |should not |don't know |no answer |Total |
+#'  |:-----|:---|:------|:----------|:----------|:---------|:-----|
+#'  |1982  |-   |1676   |145        |28         |11        |1860  |
+#'  |Total |0   |1676   |145        |28         |11        |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `typist`](https://gssdataexplorer.norc.org/variables/792/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |should |should not |don't know |no answer |Total |
+#'  |:-----|:---|:------|:----------|:----------|:---------|:-----|
+#'  |1982  |-   |1775   |50         |23         |12        |1860  |
+#'  |Total |0   |1775   |50         |23         |12        |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `brass`](https://gssdataexplorer.norc.org/variables/793/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |should |should not |don't know |no answer |Total |
+#'  |:-----|:---|:------|:----------|:----------|:---------|:-----|
+#'  |1982  |-   |1033   |753        |61         |13        |1860  |
+#'  |Total |0   |1033   |753        |61         |13        |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -146,13 +170,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fightlnd`](https://gssdataexplorer.norc.org/variables/794/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |should |should not |don't know |no answer |Total |
+#'  |:-----|:---|:------|:----------|:----------|:---------|:-----|
+#'  |1982  |-   |616    |1174       |58         |12        |1860  |
+#'  |Total |0   |616    |1174       |58         |12        |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -179,13 +209,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `transair`](https://gssdataexplorer.norc.org/variables/795/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |should |should not |don't know |no answer |Total |
+#'  |:-----|:---|:------|:----------|:----------|:---------|:-----|
+#'  |1982  |-   |1267   |528        |53         |12        |1860  |
+#'  |Total |0   |1267   |528        |53         |12        |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -212,13 +248,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `gunner`](https://gssdataexplorer.norc.org/variables/796/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |should |should not |don't know |no answer |Total |
+#'  |:-----|:---|:------|:----------|:----------|:---------|:-----|
+#'  |1982  |-   |1000   |778        |69         |13        |1860  |
+#'  |Total |0   |1000   |778        |69         |13        |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -245,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fightsea`](https://gssdataexplorer.norc.org/variables/797/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |should |should not |don't know |no answer |Total |
+#'  |:-----|:---|:------|:----------|:----------|:---------|:-----|
+#'  |1982  |-   |994    |785        |66         |15        |1860  |
+#'  |Total |0   |994    |785        |66         |15        |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -277,13 +325,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fefight`](https://gssdataexplorer.norc.org/variables/798/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes, they are |no they arent |don't know |no answer |Total |
+#'  |:-----|:---|:-------------|:-------------|:----------|:---------|:-----|
+#'  |1982  |-   |418           |960           |462        |20        |1860  |
+#'  |Total |0   |418           |960           |462        |20        |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -309,13 +363,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `fedirty`](https://gssdataexplorer.norc.org/variables/799/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes, they are |no they arent |don't know |no answer |Total |
+#'  |:-----|:---|:-------------|:-------------|:----------|:---------|:-----|
+#'  |1982  |-   |863           |429           |546        |22        |1860  |
+#'  |Total |0   |863           |429           |546        |22        |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

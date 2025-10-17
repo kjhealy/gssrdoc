@@ -24,15 +24,21 @@ Question A. For most young men, do you think military service is definitely a go
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/818/vshow}{GSS Data Explorer page for \code{milokme}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely good \tab probably good \tab prob not good \tab def not good \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 471 \tab 796 \tab 132 \tab 23 \tab 29 \tab 22 \tab 1473 \cr
+   Total \tab 0 \tab 471 \tab 796 \tab 132 \tab 23 \tab 29 \tab 22 \tab 1473 \cr
+}
 }
 
 \seealso{

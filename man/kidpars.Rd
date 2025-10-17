@@ -26,16 +26,23 @@ A. Adult children have a duty to look after their elderly parents
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4229/vshow}{GSS Data Explorer page for \code{kidpars}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 406 \tab 417 \tab 198 \tab 79 \tab 25 \tab 17 \tab 7 \tab 2765 \cr
+   2018 \tab 1175 \tab 371 \tab 458 \tab 234 \tab 78 \tab 18 \tab 11 \tab 3 \tab 2348 \cr
+   Total \tab 2791 \tab 777 \tab 875 \tab 432 \tab 157 \tab 43 \tab 28 \tab 10 \tab 5113 \cr
+}
 }
 
 \seealso{

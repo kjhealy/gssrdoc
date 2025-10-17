@@ -23,15 +23,21 @@ B2. Sex of second sibling.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1546/vshow}{GSS Data Explorer page for \code{sbsex2}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab male \tab female \tab no answer \tab Total \cr
+   1994 \tab 721 \tab 1101 \tab 1127 \tab 43 \tab 2992 \cr
+   Total \tab 721 \tab 1101 \tab 1127 \tab 43 \tab 2992 \cr
+}
 }
 
 \seealso{

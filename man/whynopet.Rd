@@ -29,15 +29,21 @@ Question Why doesnï¿½t your family have a pet? Please choose the most importa
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7195/vshow}{GSS Data Explorer page for \code{whynopet}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab no interest \tab too expensive \tab too much time or work to care for pet \tab allergies (own or another household member) \tab health risks \tab residential restrictions \tab pet died \tab away too much, travelling, working, or both \tab other \tab no answer \tab Total \cr
+   2018 \tab 1848 \tab 95 \tab 28 \tab 158 \tab 39 \tab 14 \tab 58 \tab 37 \tab 20 \tab 25 \tab 26 \tab 2348 \cr
+   Total \tab 1848 \tab 95 \tab 28 \tab 158 \tab 39 \tab 14 \tab 58 \tab 37 \tab 20 \tab 25 \tab 26 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

@@ -24,15 +24,21 @@ D8. Relation to R. of eighth child
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1517/vshow}{GSS Data Explorer page for \code{kdrel8}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab biological \tab adopted \tab step \tab no answer \tab Total \cr
+   1994 \tab 2975 \tab 14 \tab 1 \tab 1 \tab 1 \tab 2992 \cr
+   Total \tab 2975 \tab 14 \tab 1 \tab 1 \tab 1 \tab 2992 \cr
+}
 }
 
 \seealso{

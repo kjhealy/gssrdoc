@@ -23,16 +23,22 @@ Question Is that a language you first learned as a child at home, in school, or 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2289/vshow}{GSS Data Explorer page for \code{getlang}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab childhood home \tab school \tab elsewhere \tab no answer \tab Total \cr
+   2000 \tab 2450 \tab 183 \tab 116 \tab 58 \tab 10 \tab 2817 \cr
+   2006 \tab 3837 \tab 342 \tab 230 \tab 99 \tab 2 \tab 4510 \cr
+   Total \tab 6287 \tab 525 \tab 346 \tab 157 \tab 12 \tab 7327 \cr
+}
 }
 
 \seealso{

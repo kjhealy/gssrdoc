@@ -25,15 +25,21 @@ G. Having pain interfere with your normal work, including both work outside the 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2705/vshow}{GSS Data Explorer page for \code{wait7}}.
+
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab zero days \tab 1 \tab 10 \tab 11 \tab 15 \tab 2 \tab 21 \tab 24 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab some days \tab some weeks \tab some months \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1617 \tab 27 \tab 436 \tab 2 \tab 1 \tab 1 \tab 263 \tab 1 \tab 1 \tab 72 \tab 19 \tab 10 \tab 9 \tab 7 \tab 44 \tab 57 \tab 13 \tab 4 \tab 233 \tab 2817 \cr
+   Total \tab 1617 \tab 27 \tab 436 \tab 2 \tab 1 \tab 1 \tab 263 \tab 1 \tab 1 \tab 72 \tab 19 \tab 10 \tab 9 \tab 7 \tab 44 \tab 57 \tab 13 \tab 4 \tab 233 \tab 2817 \cr
+}
 }
 
 \seealso{

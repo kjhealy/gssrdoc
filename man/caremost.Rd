@@ -26,16 +26,23 @@ G. Which of these possible effects do you care about most?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3444/vshow}{GSS Data Explorer page for \code{caremost}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab the extinction of the polar bears \tab the rise in sea level \tab the threat to the arctic seals \tab the threat to the inuit way of life \tab the melting of the northern ice cap \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 155 \tab 762 \tab 36 \tab 244 \tab 594 \tab 66 \tab 7 \tab 4510 \cr
+   2010 \tab 1338 \tab 74 \tab 308 \tab 8 \tab 94 \tab 182 \tab 26 \tab 14 \tab 2044 \cr
+   Total \tab 3984 \tab 229 \tab 1070 \tab 44 \tab 338 \tab 776 \tab 92 \tab 21 \tab 6554 \cr
+}
 }
 
 \seealso{

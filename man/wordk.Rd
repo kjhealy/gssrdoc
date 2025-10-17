@@ -22,15 +22,21 @@ Question Please indicate the word that comes closest to the meaning of the word 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7761/vshow}{GSS Data Explorer page for \code{wordk}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab incorrect answer \tab correct answer \tab no answer \tab Total \cr
+   2022 \tab 2345 \tab 292 \tab 817 \tab 90 \tab 3544 \cr
+   Total \tab 2345 \tab 292 \tab 817 \tab 90 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

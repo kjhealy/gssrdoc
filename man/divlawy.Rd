@@ -23,15 +23,21 @@ Question B. Should divorce in this country be easier to obtain, more difficult t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/628/vshow}{GSS Data Explorer page for \code{divlawy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab easier \tab more difficult \tab stay same \tab don't know \tab no answer \tab Total \cr
+   1978 \tab 761 \tab 175 \tab 252 \tab 310 \tab 33 \tab 1 \tab 1532 \cr
+   Total \tab 761 \tab 175 \tab 252 \tab 310 \tab 33 \tab 1 \tab 1532 \cr
+}
 }
 
 \seealso{

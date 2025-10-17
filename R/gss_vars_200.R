@@ -18,13 +18,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `decbed`](https://gssdataexplorer.norc.org/variables/1882/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |husband alone |husband after consulting with wife |husband and wife together |wife after consulting husband |wife alone |other |no answer |see codebook |Total |
+#'  |:-----|:----|:-------------|:----------------------------------|:-------------------------|:-----------------------------|:----------|:-----|:---------|:------------|:-----|
+#'  |1996  |2196 |6             |22                                 |471                       |94                            |61         |5     |5         |44           |2904  |
+#'  |Total |2196 |6             |22                                 |471                       |94                            |61         |5     |5         |44           |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -55,13 +61,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `decgift`](https://gssdataexplorer.norc.org/variables/1883/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |husband alone |husband after consulting with wife |husband and wife together |wife after consulting husband |wife alone |other |no answer |see codebook |Total |
+#'  |:-----|:----|:-------------|:----------------------------------|:-------------------------|:-----------------------------|:----------|:-----|:---------|:------------|:-----|
+#'  |1996  |2196 |29            |29                                 |475                       |45                            |53         |15    |6         |56           |2904  |
+#'  |Total |2196 |29            |29                                 |475                       |45                            |53         |15    |6         |56           |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -102,13 +114,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `layoffs`](https://gssdataexplorer.norc.org/variables/1884/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |those who have worked longest |those who have the greatest needs |those who are the best workers |difficulty in finding a new job |union members |older employees |younger employees |men |minorities-non-whites |other -please specify |owners,bosses |essential employees |newest employees |most loyal employees |production. hands-on employees |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------------------|:---------------------------------|:------------------------------|:-------------------------------|:-------------|:---------------|:-----------------|:---|:---------------------|:---------------------|:-------------|:-------------------|:----------------|:--------------------|:------------------------------|:----------|:---------|:-----|
+#'  |1996  |1460 |685                           |98                                |529                            |3                               |4             |11              |3                 |5   |7                     |22                    |9             |4                   |2                |3                    |4                              |48         |7         |2904  |
+#'  |Total |1460 |685                           |98                                |529                            |3                               |4             |11              |3                 |5   |7                     |22                    |9             |4                   |2                |3                    |4                              |48         |7         |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -135,13 +153,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volhlth`](https://gssdataexplorer.norc.org/variables/1885/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |1996  |1460 |147 |1209 |88        |2904  |
+#'  |Total |1460 |147 |1209 |88        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -168,13 +192,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `voleduc`](https://gssdataexplorer.norc.org/variables/1886/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |1996  |1460 |243 |1123 |78        |2904  |
+#'  |Total |1460 |243 |1123 |78        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -201,13 +231,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volrelig`](https://gssdataexplorer.norc.org/variables/1887/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |1996  |1460 |347 |1028 |69        |2904  |
+#'  |Total |1460 |347 |1028 |69        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -234,13 +270,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volhuman`](https://gssdataexplorer.norc.org/variables/1888/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |1996  |1460 |137 |1218 |89        |2904  |
+#'  |Total |1460 |137 |1218 |89        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -267,13 +309,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volenvir`](https://gssdataexplorer.norc.org/variables/1889/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |1996  |1460 |100 |1245 |99        |2904  |
+#'  |Total |1460 |100 |1245 |99        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -300,13 +348,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volpub`](https://gssdataexplorer.norc.org/variables/1890/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |1996  |1460 |110 |1247 |87        |2904  |
+#'  |Total |1460 |110 |1247 |87        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -333,13 +387,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `volrec`](https://gssdataexplorer.norc.org/variables/1891/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |no answer |Total |
+#'  |:-----|:----|:---|:----|:---------|:-----|
+#'  |1996  |1460 |91  |1254 |99        |2904  |
+#'  |Total |1460 |91  |1254 |99        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering

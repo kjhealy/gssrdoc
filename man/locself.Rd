@@ -24,15 +24,21 @@ A. Was this need or problem primarily of concern to you, your friends and family
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1032/vshow}{GSS Data Explorer page for \code{locself}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab self frnds famly \tab both \tab wider concern \tab no answer \tab Total \cr
+   1987 \tab 1216 \tab 175 \tab 82 \tab 333 \tab 13 \tab 1819 \cr
+   Total \tab 1216 \tab 175 \tab 82 \tab 333 \tab 13 \tab 1819 \cr
+}
 }
 
 \seealso{

@@ -22,16 +22,22 @@ Question (Pleae indicate whether or not you think it should be possible for a pr
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7469/vshow}{GSS Data Explorer page for \code{abpoorg}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab skipped on web \tab don't know \tab no answer \tab Total \cr
+   2021 \tab 2822 \tab 653 \tab 507 \tab 50 \tab - \tab - \tab 4032 \cr
+   2022 \tab 2380 \tab 696 \tab 417 \tab 11 \tab 34 \tab 6 \tab 3544 \cr
+   Total \tab 5202 \tab 1349 \tab 924 \tab 61 \tab 34 \tab 6 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

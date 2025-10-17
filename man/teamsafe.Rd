@@ -25,20 +25,26 @@ M. Where I work, employees and management work together to ensure the safest pos
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2786/vshow}{GSS Data Explorer page for \code{teamsafe}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 652 \tab 900 \tab 168 \tab 37 \tab 23 \tab 16 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 631 \tab 882 \tab 128 \tab 26 \tab 47 \tab 20 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 411 \tab 630 \tab 85 \tab 18 \tab 14 \tab 29 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 477 \tab 658 \tab 81 \tab 13 \tab 12 \tab 9 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 464 \tab 812 \tab 107 \tab 16 \tab 16 \tab 33 \tab - \tab 2348 \cr
+   2022 \tab 1547 \tab 732 \tab 990 \tab 171 \tab 40 \tab 24 \tab 14 \tab 26 \tab 3544 \cr
+   Total \tab 8337 \tab 3367 \tab 4872 \tab 740 \tab 150 \tab 136 \tab 121 \tab 26 \tab 17749 \cr
+}
 }
 
 \seealso{

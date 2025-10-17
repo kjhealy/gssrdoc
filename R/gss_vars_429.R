@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `emphlth1`](https://gssdataexplorer.norc.org/variables/3928/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
+#'  |2008  |1928 |54  |16 |1          |24        |2023  |
+#'  |Total |1928 |54  |16 |1          |24        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -46,13 +52,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `emphlth2`](https://gssdataexplorer.norc.org/variables/3929/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |only individual employees are covered |employees and their spouses are covered but domestic partners are not covered |employees and their spouses are covered and domestic partners are covered |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------------------------|:-----------------------------------------------------------------------------|:-------------------------------------------------------------------------|:----------|:---------|:-----|
+#'  |2008  |1945 |14                                    |27                                                                            |8                                                                         |3          |26        |2023  |
+#'  |Total |1945 |14                                    |27                                                                            |8                                                                         |3          |26        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -78,13 +90,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthcovr`](https://gssdataexplorer.norc.org/variables/3930/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
+#'  |2008  |1879 |90  |29 |1          |24        |2023  |
+#'  |Total |1879 |90  |29 |1          |24        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -115,13 +133,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `hlthtype`](https://gssdataexplorer.norc.org/variables/3931/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |my employer |employer of my spouse/partner |employer of someone else in my family |medicaid |medicare |individual plan from private insurer not related to current or past employment |other |no answer |Total |
+#'  |:-----|:----|:-----------|:-----------------------------|:-------------------------------------|:--------|:--------|:------------------------------------------------------------------------------|:-----|:---------|:-----|
+#'  |2008  |1907 |46          |10                            |2                                     |7        |16       |7                                                                              |4     |24        |2023  |
+#'  |Total |1907 |46          |10                            |2                                     |7        |16       |7                                                                              |4     |24        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -149,13 +173,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sppart`](https://gssdataexplorer.norc.org/variables/3932/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |not applicable |no answer |Total |
+#'  |:-----|:----|:---|:--|:--------------|:---------|:-----|
+#'  |2008  |1888 |26  |27 |39             |43        |2023  |
+#'  |Total |1888 |26  |27 |39             |43        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -183,13 +213,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mykids`](https://gssdataexplorer.norc.org/variables/3933/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |not applicable |no answer |Total |
+#'  |:-----|:----|:---|:--|:--------------|:---------|:-----|
+#'  |2008  |1888 |18  |20 |54             |43        |2023  |
+#'  |Total |1888 |18  |20 |54             |43        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -217,13 +253,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `othkids`](https://gssdataexplorer.norc.org/variables/3934/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |not applicable |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:--------------|:----------|:---------|:-----|
+#'  |2008  |1888 |7   |22 |62             |1          |43        |2023  |
+#'  |Total |1888 |7   |22 |62             |1          |43        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -249,13 +291,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `harsexjb`](https://gssdataexplorer.norc.org/variables/3935/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no   |don't know |no answer |Total |
+#'  |:-----|:---|:---|:----|:----------|:---------|:-----|
+#'  |2008  |233 |410 |1349 |5          |26        |2023  |
+#'  |Total |233 |410 |1349 |5          |26        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -281,13 +329,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `harsexcl`](https://gssdataexplorer.norc.org/variables/3936/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no   |don't know |no answer |Total |
+#'  |:-----|:---|:---|:----|:----------|:---------|:-----|
+#'  |2008  |233 |43  |1715 |3          |29        |2023  |
+#'  |Total |233 |43  |1715 |3          |29        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -313,13 +367,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ownclerg`](https://gssdataexplorer.norc.org/variables/3937/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |Total |
+#'  |:-----|:----|:---|:--|:-----|
+#'  |2008  |1980 |24  |19 |2023  |
+#'  |Total |1980 |24  |19 |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex

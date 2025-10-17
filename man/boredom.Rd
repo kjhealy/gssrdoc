@@ -26,15 +26,21 @@ D. Are you bored at work?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4553/vshow}{GSS Data Explorer page for \code{boredom}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 12 \tab 57 \tab 294 \tab 283 \tab 224 \tab 2 \tab 26 \tab 1537 \cr
+   Total \tab 639 \tab 12 \tab 57 \tab 294 \tab 283 \tab 224 \tab 2 \tab 26 \tab 1537 \cr
+}
 }
 
 \seealso{

@@ -22,17 +22,25 @@ Question Have you ever had a paid job for one year or more?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4593/vshow}{GSS Data Explorer page for \code{evjob}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1998 \tab 2460 \tab 274 \tab 63 \tab 35 \tab - \tab 2832 \cr
+   2006 \tab 4008 \tab 442 \tab 57 \tab 2 \tab 1 \tab 4510 \cr
+   2016 \tab 2326 \tab 462 \tab 56 \tab 23 \tab - \tab 2867 \cr
+   Total \tab 8794 \tab 1178 \tab 176 \tab 60 \tab 1 \tab 10209 \cr
+}
 }
 
 \seealso{

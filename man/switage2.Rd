@@ -26,15 +26,21 @@ C1. How old were you when you switched to (FIRST/SECOND MENTION)?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1055/vshow}{GSS Data Explorer page for \code{switage2}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 11 \tab 17 \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 39 \tab 40 \tab 41 \tab 45 \tab 46 \tab 50 \tab 55 \tab 57 \tab 60 \tab 61 \tab 67 \tab 73 \tab don't know \tab no answer \tab Total \cr
+   1988 \tab 1200 \tab 1 \tab 3 \tab 6 \tab 4 \tab 4 \tab 6 \tab 4 \tab 3 \tab 2 \tab 3 \tab 2 \tab 1 \tab 4 \tab 3 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 205 \tab 1481 \cr
+   Total \tab 1200 \tab 1 \tab 3 \tab 6 \tab 4 \tab 4 \tab 6 \tab 4 \tab 3 \tab 2 \tab 3 \tab 2 \tab 1 \tab 4 \tab 3 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 205 \tab 1481 \cr
+}
 }
 
 \seealso{

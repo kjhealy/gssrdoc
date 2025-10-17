@@ -25,15 +25,21 @@ Question To what extent, if at all, do you worry about the possibility of losing
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6350/vshow}{GSS Data Explorer page for \code{worecsup}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab i worry a great deal \tab i worry to some extent \tab i worry a little \tab i don't worry at all \tab no answer \tab Total \cr
+   2016 \tab 2326 \tab 104 \tab 88 \tab 122 \tab 203 \tab 24 \tab 2867 \cr
+   Total \tab 2326 \tab 104 \tab 88 \tab 122 \tab 203 \tab 24 \tab 2867 \cr
+}
 }
 
 \seealso{

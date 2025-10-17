@@ -25,15 +25,21 @@ Question D. Next, Iâ€™d like to ask how you rate your knowledge of what sci
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3510/vshow}{GSS Data Explorer page for \code{scientdo}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab excellent \tab good \tab fair \tab poor \tab very poor \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1457 \tab 54 \tab 126 \tab 168 \tab 113 \tab 40 \tab 13 \tab 3 \tab 1974 \cr
+   Total \tab 1457 \tab 54 \tab 126 \tab 168 \tab 113 \tab 40 \tab 13 \tab 3 \tab 1974 \cr
+}
 }
 
 \seealso{

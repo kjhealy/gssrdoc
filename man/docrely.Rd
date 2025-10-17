@@ -27,15 +27,21 @@ C. I prefer to rely on my doctor's knowledge and not try to find out about my co
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2742/vshow}{GSS Data Explorer page for \code{docrely}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab moderately agree \tab slightly agree \tab slightly disagree \tab moderately disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab - \tab 421 \tab 453 \tab 345 \tab 399 \tab 413 \tab 715 \tab 14 \tab 5 \tab 2765 \cr
+   Total \tab 0 \tab 421 \tab 453 \tab 345 \tab 399 \tab 413 \tab 715 \tab 14 \tab 5 \tab 2765 \cr
+}
 }
 
 \seealso{

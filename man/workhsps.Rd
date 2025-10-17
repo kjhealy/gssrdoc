@@ -24,21 +24,27 @@ B. The second set of characteristics asks if people in the group tend to be hard
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018, 2021, 2022, 2024 \cr
+   A/B/C \tab 1990, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1188/vshow}{GSS Data Explorer page for \code{workhsps}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 1 - hard-working \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 - lazy \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1990 \tab - \tab 53 \tab 73 \tab 210 \tab 449 \tab 269 \tab 148 \tab 37 \tab 106 \tab 27 \tab - \tab 1372 \cr
+   1994 \tab 1518 \tab 53 \tab 99 \tab 212 \tab 506 \tab 296 \tab 121 \tab 54 \tab 115 \tab 18 \tab - \tab 2992 \cr
+   2000 \tab 1419 \tab 93 \tab 148 \tab 236 \tab 508 \tab 181 \tab 71 \tab 25 \tab 120 \tab 16 \tab - \tab 2817 \cr
+   2018 \tab 789 \tab 162 \tab 275 \tab 357 \tab 560 \tab 109 \tab 33 \tab 15 \tab 29 \tab 19 \tab - \tab 2348 \cr
+   2021 \tab 1315 \tab 519 \tab 442 \tab 625 \tab 934 \tab 116 \tab 24 \tab 19 \tab 9 \tab 2 \tab 27 \tab 4032 \cr
+   2022 \tab 1168 \tab 452 \tab 391 \tab 499 \tab 778 \tab 118 \tab 44 \tab 22 \tab 39 \tab 18 \tab 15 \tab 3544 \cr
+   Total \tab 6209 \tab 1332 \tab 1428 \tab 2139 \tab 3735 \tab 1089 \tab 441 \tab 172 \tab 418 \tab 100 \tab 42 \tab 17105 \cr
+}
 }
 
 \seealso{

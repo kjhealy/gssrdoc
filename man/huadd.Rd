@@ -22,17 +22,23 @@ Question IS THERE A HOUSING UNIT (HU) AT THE ADDRESS SHOWN ON THE ASSIGNMENT LAB
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6652/vshow}{GSS Data Explorer page for \code{huadd}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab - \tab 2838 \tab 26 \tab 2 \tab 1 \tab - \tab 2867 \cr
+   2018 \tab - \tab 2342 \tab 6 \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 2076 \tab 1467 \tab 1 \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 2076 \tab 6647 \tab 33 \tab 2 \tab 1 \tab 0 \tab 8759 \cr
+}
 }
 
 \keyword{variable}

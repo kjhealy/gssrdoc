@@ -24,15 +24,21 @@ I. Would go to news or media site for information on candidate.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2992/vshow}{GSS Data Explorer page for \code{caninf9}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1789 \tab 646 \tab 49 \tab 25 \tab 308 \tab 2817 \cr
+   Total \tab 1789 \tab 646 \tab 49 \tab 25 \tab 308 \tab 2817 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ get married
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2908/vshow}{GSS Data Explorer page for \code{getmar}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely important \tab quite important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1372 \tab 256 \tab 191 \tab 284 \tab 330 \tab 290 \tab 34 \tab 8 \tab 2765 \cr
+   Total \tab 1372 \tab 256 \tab 191 \tab 284 \tab 330 \tab 290 \tab 34 \tab 8 \tab 2765 \cr
+}
 }
 
 \seealso{

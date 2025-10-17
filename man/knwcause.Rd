@@ -22,15 +22,21 @@ Question F1. How much do you feel you know about the causes of these sorts of en
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4805/vshow}{GSS Data Explorer page for \code{knwcause}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab know nothing at all \tab 2 \tab 3 \tab 4 \tab know a great deal \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 614 \tab 168 \tab 229 \tab 599 \tab 284 \tab 100 \tab 43 \tab 7 \tab 2044 \cr
+   Total \tab 614 \tab 168 \tab 229 \tab 599 \tab 284 \tab 100 \tab 43 \tab 7 \tab 2044 \cr
+}
 }
 
 \seealso{

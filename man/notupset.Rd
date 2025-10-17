@@ -26,15 +26,21 @@ H. I often don't tell my friends something that I think will upset them.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1732/vshow}{GSS Data Explorer page for \code{notupset}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2149 \tab 62 \tab 409 \tab 70 \tab 186 \tab 22 \tab 3 \tab 3 \tab 2904 \cr
+   Total \tab 2149 \tab 62 \tab 409 \tab 70 \tab 186 \tab 22 \tab 3 \tab 3 \tab 2904 \cr
+}
 }
 
 \seealso{

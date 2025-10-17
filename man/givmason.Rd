@@ -26,15 +26,21 @@ A. First, about how much do you think a bricklayer should earn?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4279/vshow}{GSS Data Explorer page for \code{givmason}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 11000 \tab 11500 \tab 12000 \tab 13000 \tab 13440 \tab 14000 \tab 14560 \tab 15000 \tab 16000 \tab 17000 \tab 17500 \tab 1800 \tab 18000 \tab 19000 \tab 19200 \tab 1e+05 \tab $1 million (or more, for 1987 & 2000) \tab 20000 \tab 20800 \tab 21000 \tab 2200 \tab 22000 \tab 22880 \tab 23000 \tab 23040 \tab 23500 \tab 24000 \tab 24960 \tab 25000 \tab 26000 \tab 27000 \tab 27500 \tab 28000 \tab 29000 \tab 3000 \tab 30000 \tab 31000 \tab 31200 \tab 32000 \tab 33280 \tab 34000 \tab 35000 \tab 36000 \tab 37000 \tab 37500 \tab 38000 \tab 39000 \tab 39520 \tab 40000 \tab 44000 \tab 45000 \tab 450000 \tab 48000 \tab 5000 \tab 50000 \tab 5200 \tab 52000 \tab 55000 \tab 5e+05 \tab 6000 \tab 60000 \tab 62400 \tab 65000 \tab 7000 \tab 70000 \tab 75000 \tab 7999 \tab 8000 \tab 80000 \tab 8500 \tab 85000 \tab 89000 \tab 9000 \tab 90000 \tab more than now paid \tab same as now paid \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 1 \tab 17 \tab 2 \tab 1 \tab 14 \tab 3 \tab 1 \tab 2 \tab 1 \tab 62 \tab 11 \tab 9 \tab 1 \tab 1 \tab 33 \tab 4 \tab 1 \tab 2 \tab 1 \tab 171 \tab 2 \tab 3 \tab 1 \tab 14 \tab 2 \tab 5 \tab 1 \tab 1 \tab 12 \tab 1 \tab 200 \tab 5 \tab 6 \tab 2 \tab 15 \tab 5 \tab 2 \tab 276 \tab 2 \tab 4 \tab 5 \tab 1 \tab 3 \tab 95 \tab 7 \tab 2 \tab 1 \tab 5 \tab 1 \tab 1 \tab 109 \tab 1 \tab 17 \tab 1 \tab 1 \tab 3 \tab 58 \tab 1 \tab 4 \tab 3 \tab 1 \tab 3 \tab 8 \tab 1 \tab 2 \tab 2 \tab 2 \tab 6 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 76 \tab 231 \tab 1819 \cr
+   Total \tab 255 \tab 1 \tab 17 \tab 2 \tab 1 \tab 14 \tab 3 \tab 1 \tab 2 \tab 1 \tab 62 \tab 11 \tab 9 \tab 1 \tab 1 \tab 33 \tab 4 \tab 1 \tab 2 \tab 1 \tab 171 \tab 2 \tab 3 \tab 1 \tab 14 \tab 2 \tab 5 \tab 1 \tab 1 \tab 12 \tab 1 \tab 200 \tab 5 \tab 6 \tab 2 \tab 15 \tab 5 \tab 2 \tab 276 \tab 2 \tab 4 \tab 5 \tab 1 \tab 3 \tab 95 \tab 7 \tab 2 \tab 1 \tab 5 \tab 1 \tab 1 \tab 109 \tab 1 \tab 17 \tab 1 \tab 1 \tab 3 \tab 58 \tab 1 \tab 4 \tab 3 \tab 1 \tab 3 \tab 8 \tab 1 \tab 2 \tab 2 \tab 2 \tab 6 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 76 \tab 231 \tab 1819 \cr
+}
 }
 
 \seealso{

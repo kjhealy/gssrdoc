@@ -26,16 +26,22 @@ C. Taking these medications interferes with daily activities.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2170/vshow}{GSS Data Explorer page for \code{psycmed3}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 99 \tab 398 \tab 310 \tab 335 \tab 62 \tab 179 \tab 4 \tab 2832 \cr
+   2006 \tab 3073 \tab 110 \tab 508 \tab 344 \tab 324 \tab 58 \tab 79 \tab 14 \tab 4510 \cr
+   Total \tab 4518 \tab 209 \tab 906 \tab 654 \tab 659 \tab 120 \tab 258 \tab 18 \tab 7342 \cr
+}
 }
 
 \seealso{

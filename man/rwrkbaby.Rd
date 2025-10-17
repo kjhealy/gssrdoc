@@ -24,17 +24,23 @@ B. And what about when a child was under school age?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1994, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4397/vshow}{GSS Data Explorer page for \code{rwrkbaby}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, full-time \tab yes,part-time \tab no \tab don't know \tab no answer \tab Total \cr
+   1988 \tab 1148 \tab 70 \tab 67 \tab 174 \tab 5 \tab 17 \tab 1481 \cr
+   1994 \tab 1545 \tab 586 \tab 136 \tab 281 \tab 72 \tab 372 \tab 2992 \cr
+   2002 \tab 1936 \tab 482 \tab 121 \tab 172 \tab 42 \tab 12 \tab 2765 \cr
+   Total \tab 4629 \tab 1138 \tab 324 \tab 627 \tab 119 \tab 401 \tab 7238 \cr
+}
 }
 
 \seealso{

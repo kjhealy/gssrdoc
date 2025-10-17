@@ -23,16 +23,22 @@ D. Brother or sister/brother-/sister-in-law?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2502/vshow}{GSS Data Explorer page for \code{advsib}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2145 \tab 230 \tab 346 \tab 96 \tab 2817 \cr
+   2002 \tab 2142 \tab 235 \tab 341 \tab 47 \tab 2765 \cr
+   Total \tab 4287 \tab 465 \tab 687 \tab 143 \tab 5582 \cr
+}
 }
 
 \seealso{

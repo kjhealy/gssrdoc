@@ -15,13 +15,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwbus`](https://gssdataexplorer.norc.org/variables/7229/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
+#'  |2018  |1175 |125                |113          |199                 |735    |1          |2348  |
+#'  |Total |1175 |125                |113          |199                 |735    |1          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -49,13 +55,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwexec`](https://gssdataexplorer.norc.org/variables/7230/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
+#'  |2018  |1175 |149                |147          |184                 |689    |4          |2348  |
+#'  |Total |1175 |149                |147          |184                 |689    |4          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -83,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwclenr`](https://gssdataexplorer.norc.org/variables/7231/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
+#'  |2018  |1175 |167                |161          |304                 |539    |2          |2348  |
+#'  |Total |1175 |167                |161          |304                 |539    |2          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -117,13 +135,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwcuttr`](https://gssdataexplorer.norc.org/variables/7232/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
+#'  |2018  |1175 |216                |327          |315                 |314    |1          |2348  |
+#'  |Total |1175 |216                |327          |315                 |314    |1          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -151,13 +175,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwhrman`](https://gssdataexplorer.norc.org/variables/7233/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
+#'  |2018  |1175 |135                |190          |298                 |545    |5          |2348  |
+#'  |Total |1175 |135                |190          |298                 |545    |5          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -185,13 +215,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwlawyr`](https://gssdataexplorer.norc.org/variables/7234/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
+#'  |2018  |1175 |187                |249          |243                 |493    |1          |2348  |
+#'  |Total |1175 |187                |249          |243                 |493    |1          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -219,13 +255,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwmchnc`](https://gssdataexplorer.norc.org/variables/7235/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
+#'  |2018  |1175 |278                |286          |286                 |322    |1          |2348  |
+#'  |Total |1175 |278                |286          |286                 |322    |1          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -253,13 +295,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwnurse`](https://gssdataexplorer.norc.org/variables/7236/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
+#'  |2018  |1175 |491                |328          |156                 |197    |1          |2348  |
+#'  |Total |1175 |491                |328          |156                 |197    |1          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -287,13 +335,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwcop`](https://gssdataexplorer.norc.org/variables/7237/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
+#'  |2018  |1175 |278                |220          |234                 |440    |1          |2348  |
+#'  |Total |1175 |278                |220          |234                 |440    |1          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -321,13 +375,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2018  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `knwtcher`](https://gssdataexplorer.norc.org/variables/7238/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
+#'  |2018  |1175 |425                |312          |184                 |250    |2          |2348  |
+#'  |Total |1175 |425                |312          |184                 |250    |2          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

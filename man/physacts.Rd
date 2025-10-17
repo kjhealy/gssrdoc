@@ -25,16 +25,22 @@ Question To what extent are you able to carry out your everyday physical activit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7168/vshow}{GSS Data Explorer page for \code{physacts}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab completely \tab mostly \tab moderately \tab a little \tab not at all \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 1499 \tab 407 \tab 276 \tab 129 \tab 18 \tab 2 \tab 17 \tab - \tab 2348 \cr
+   2021 \tab 386 \tab 2190 \tab 667 \tab 507 \tab 219 \tab 40 \tab - \tab 1 \tab 22 \tab 4032 \cr
+   Total \tab 386 \tab 3689 \tab 1074 \tab 783 \tab 348 \tab 58 \tab 2 \tab 18 \tab 22 \tab 6380 \cr
+}
 }
 
 \keyword{variable}

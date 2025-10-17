@@ -30,15 +30,21 @@ C. Third distinct subject mentioned
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2659/vshow}{GSS Data Explorer page for \code{freemns3}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab want:doing what i want \tab autonomy:self-realization \tab choices:making decision \tab rights:religion and speech \tab movement:movement and travel \tab negative:slave surbordinate discrimination \tab citizen:political participation \tab security:economic independence \tab other \tab Total \cr
+   2000 \tab 2623 \tab 28 \tab 9 \tab 21 \tab 53 \tab 14 \tab 18 \tab 16 \tab 17 \tab 18 \tab 2817 \cr
+   Total \tab 2623 \tab 28 \tab 9 \tab 21 \tab 53 \tab 14 \tab 18 \tab 16 \tab 17 \tab 18 \tab 2817 \cr
+}
 }
 
 \seealso{

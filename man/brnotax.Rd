@@ -25,15 +25,21 @@ Try to avoid paying their taxes?  (Would you say...)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6314/vshow}{GSS Data Explorer page for \code{brnotax}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost always \tab often \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1477 \tab 372 \tab 339 \tab 466 \tab 153 \tab 45 \tab 15 \tab 2867 \cr
+   Total \tab 1477 \tab 372 \tab 339 \tab 466 \tab 153 \tab 45 \tab 15 \tab 2867 \cr
+}
 }
 
 \seealso{

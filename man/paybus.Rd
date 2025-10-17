@@ -23,15 +23,21 @@ I. A city bus driver?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4271/vshow}{GSS Data Explorer page for \code{paybus}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10000 \tab 11000 \tab 12000 \tab 13000 \tab 13500 \tab 14000 \tab 14400 \tab 15000 \tab 16000 \tab 16500 \tab 16640 \tab 17000 \tab 17280 \tab 17500 \tab 1800 \tab 18000 \tab 18500 \tab 18720 \tab 19000 \tab 19200 \tab 19500 \tab 1e+05 \tab $1 million (or more, for 1987 & 2000) \tab 2000 \tab 20000 \tab 20500 \tab 20800 \tab 21000 \tab 21500 \tab 22000 \tab 23000 \tab 23500 \tab 24000 \tab 24960 \tab 25000 \tab 25500 \tab 26000 \tab 27000 \tab 27500 \tab 28000 \tab 29000 \tab 29120 \tab 3000 \tab 30000 \tab 31000 \tab 3160 \tab 32000 \tab 33000 \tab 34000 \tab 3500 \tab 35000 \tab 36000 \tab 3900 \tab 4000 \tab 40000 \tab 41000 \tab 45000 \tab 48000 \tab 5000 \tab 50000 \tab 5200 \tab 6000 \tab 60000 \tab 62400 \tab 65000 \tab 6999 \tab 7000 \tab 7500 \tab 77000 \tab 8000 \tab 8500 \tab 9000 \tab 9500 \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 71 \tab 16 \tab 82 \tab 26 \tab 1 \tab 31 \tab 1 \tab 154 \tab 34 \tab 3 \tab 2 \tab 31 \tab 1 \tab 4 \tab 1 \tab 89 \tab 2 \tab 2 \tab 16 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 209 \tab 1 \tab 2 \tab 10 \tab 1 \tab 44 \tab 16 \tab 1 \tab 17 \tab 1 \tab 159 \tab 1 \tab 12 \tab 9 \tab 1 \tab 15 \tab 6 \tab 1 \tab 7 \tab 80 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 36 \tab 7 \tab 1 \tab 3 \tab 16 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1 \tab 6 \tab 1 \tab 1 \tab 19 \tab 4 \tab 10 \tab 1 \tab 64 \tab 197 \tab 1819 \cr
+   Total \tab 255 \tab 71 \tab 16 \tab 82 \tab 26 \tab 1 \tab 31 \tab 1 \tab 154 \tab 34 \tab 3 \tab 2 \tab 31 \tab 1 \tab 4 \tab 1 \tab 89 \tab 2 \tab 2 \tab 16 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 209 \tab 1 \tab 2 \tab 10 \tab 1 \tab 44 \tab 16 \tab 1 \tab 17 \tab 1 \tab 159 \tab 1 \tab 12 \tab 9 \tab 1 \tab 15 \tab 6 \tab 1 \tab 7 \tab 80 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 36 \tab 7 \tab 1 \tab 3 \tab 16 \tab 1 \tab 1 \tab 1 \tab 9 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1 \tab 6 \tab 1 \tab 1 \tab 19 \tab 4 \tab 10 \tab 1 \tab 64 \tab 197 \tab 1819 \cr
+}
 }
 
 \seealso{

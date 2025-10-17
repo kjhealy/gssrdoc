@@ -21,15 +21,21 @@ Question How many are supervised?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4563/vshow}{GSS Data Explorer page for \code{supnum}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab not available in this year \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 3 \tab 30 \tab 36 \tab 4 \tab 40 \tab 45 \tab 5 \tab 50 \tab 6 \tab 60 \tab 65 \tab 7 \tab 79 \tab 8 \tab 9 \tab 95 \tab 96 \tab no answer \tab iap \tab Total \cr
+   1989 \tab - \tab 39 \tab 21 \tab 1 \tab 13 \tab 4 \tab 1 \tab 10 \tab 3 \tab 2 \tab 2 \tab 1 \tab 61 \tab 11 \tab 1 \tab 4 \tab 3 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 31 \tab 9 \tab 1 \tab 28 \tab 3 \tab 1 \tab 12 \tab 4 \tab 15 \tab 1 \tab 1 \tab 7 \tab 1 \tab 10 \tab 8 \tab 1 \tab 3 \tab 1214 \tab - \tab 1537 \cr
+   Total \tab 0 \tab 39 \tab 21 \tab 1 \tab 13 \tab 4 \tab 1 \tab 10 \tab 3 \tab 2 \tab 2 \tab 1 \tab 61 \tab 11 \tab 1 \tab 4 \tab 3 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 31 \tab 9 \tab 1 \tab 28 \tab 3 \tab 1 \tab 12 \tab 4 \tab 15 \tab 1 \tab 1 \tab 7 \tab 1 \tab 10 \tab 8 \tab 1 \tab 3 \tab 1214 \tab 0 \tab 1537 \cr
+}
 }
 
 \seealso{

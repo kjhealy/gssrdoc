@@ -29,49 +29,56 @@ Question A. REGION OF INTERVIEW
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/-/- \tab full \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/119/vshow}{GSS Data Explorer page for \code{region}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab new england \tab middle atlantic \tab east north central \tab west north central \tab south atlantic \tab east south atlantic \tab west south central \tab mountain \tab pacific \tab Total \cr
+   1972 \tab 90 \tab 298 \tab 305 \tab 141 \tab 218 \tab 84 \tab 197 \tab 56 \tab 224 \tab 1613 \cr
+   1973 \tab 75 \tab 268 \tab 333 \tab 95 \tab 284 \tab 75 \tab 121 \tab 59 \tab 194 \tab 1504 \cr
+   1974 \tab 71 \tab 257 \tab 334 \tab 95 \tab 282 \tab 75 \tab 120 \tab 55 \tab 195 \tab 1484 \cr
+   1975 \tab 64 \tab 262 \tab 329 \tab 100 \tab 295 \tab 84 \tab 121 \tab 61 \tab 174 \tab 1490 \cr
+   1976 \tab 70 \tab 270 \tab 321 \tab 103 \tab 282 \tab 85 \tab 114 \tab 64 \tab 190 \tab 1499 \cr
+   1977 \tab 62 \tab 239 \tab 371 \tab 85 \tab 313 \tab 76 \tab 119 \tab 61 \tab 204 \tab 1530 \cr
+   1978 \tab 72 \tab 263 \tab 327 \tab 116 \tab 305 \tab 85 \tab 112 \tab 66 \tab 186 \tab 1532 \cr
+   1980 \tab 53 \tab 239 \tab 306 \tab 102 \tab 267 \tab 111 \tab 120 \tab 79 \tab 191 \tab 1468 \cr
+   1982 \tab 63 \tab 331 \tab 402 \tab 110 \tab 379 \tab 149 \tab 148 \tab 58 \tab 220 \tab 1860 \cr
+   1983 \tab 85 \tab 254 \tab 330 \tab 154 \tab 252 \tab 101 \tab 135 \tab 88 \tab 200 \tab 1599 \cr
+   1984 \tab 78 \tab 217 \tab 282 \tab 134 \tab 249 \tab 118 \tab 128 \tab 86 \tab 181 \tab 1473 \cr
+   1985 \tab 94 \tab 201 \tab 270 \tab 140 \tab 264 \tab 123 \tab 150 \tab 102 \tab 190 \tab 1534 \cr
+   1986 \tab 86 \tab 217 \tab 270 \tab 134 \tab 252 \tab 116 \tab 119 \tab 88 \tab 188 \tab 1470 \cr
+   1987 \tab 78 \tab 263 \tab 362 \tab 144 \tab 389 \tab 150 \tab 141 \tab 103 \tab 189 \tab 1819 \cr
+   1988 \tab 80 \tab 209 \tab 268 \tab 139 \tab 265 \tab 105 \tab 134 \tab 105 \tab 176 \tab 1481 \cr
+   1989 \tab 82 \tab 221 \tab 256 \tab 145 \tab 293 \tab 114 \tab 122 \tab 92 \tab 212 \tab 1537 \cr
+   1990 \tab 73 \tab 200 \tab 243 \tab 134 \tab 238 \tab 105 \tab 115 \tab 85 \tab 179 \tab 1372 \cr
+   1991 \tab 92 \tab 207 \tab 262 \tab 118 \tab 301 \tab 114 \tab 129 \tab 79 \tab 215 \tab 1517 \cr
+   1993 \tab 60 \tab 230 \tab 299 \tab 118 \tab 278 \tab 129 \tab 152 \tab 86 \tab 254 \tab 1606 \cr
+   1994 \tab 150 \tab 416 \tab 484 \tab 231 \tab 575 \tab 203 \tab 317 \tab 202 \tab 414 \tab 2992 \cr
+   1996 \tab 157 \tab 412 \tab 489 \tab 210 \tab 542 \tab 209 \tab 265 \tab 200 \tab 420 \tab 2904 \cr
+   1998 \tab 141 \tab 428 \tab 492 \tab 204 \tab 532 \tab 189 \tab 300 \tab 188 \tab 358 \tab 2832 \cr
+   2000 \tab 139 \tab 429 \tab 467 \tab 203 \tab 510 \tab 195 \tab 301 \tab 182 \tab 391 \tab 2817 \cr
+   2002 \tab 141 \tab 435 \tab 478 \tab 223 \tab 486 \tab 199 \tab 272 \tab 165 \tab 366 \tab 2765 \cr
+   2004 \tab 86 \tab 363 \tab 494 \tab 203 \tab 611 \tab 161 \tab 312 \tab 203 \tab 379 \tab 2812 \cr
+   2006 \tab 163 \tab 548 \tab 762 \tab 276 \tab 1011 \tab 255 \tab 479 \tab 364 \tab 652 \tab 4510 \cr
+   2008 \tab 81 \tab 274 \tab 349 \tab 120 \tab 443 \tab 97 \tab 210 \tab 154 \tab 295 \tab 2023 \cr
+   2010 \tab 76 \tab 262 \tab 357 \tab 117 \tab 438 \tab 130 \tab 219 \tab 144 \tab 301 \tab 2044 \cr
+   2012 \tab 113 \tab 222 \tab 330 \tab 127 \tab 423 \tab 128 \tab 191 \tab 148 \tab 292 \tab 1974 \cr
+   2014 \tab 126 \tab 309 \tab 428 \tab 145 \tab 512 \tab 151 \tab 263 \tab 224 \tab 380 \tab 2538 \cr
+   2016 \tab 175 \tab 313 \tab 502 \tab 193 \tab 550 \tab 205 \tab 297 \tab 235 \tab 397 \tab 2867 \cr
+   2018 \tab 124 \tab 232 \tab 388 \tab 125 \tab 513 \tab 163 \tab 277 \tab 183 \tab 343 \tab 2348 \cr
+   2021 \tab 203 \tab 414 \tab 676 \tab 314 \tab 800 \tab 270 \tab 426 \tab 345 \tab 584 \tab 4032 \cr
+   2022 \tab 177 \tab 348 \tab 577 \tab 221 \tab 817 \tab 229 \tab 369 \tab 296 \tab 510 \tab 3544 \cr
+   Total \tab 3480 \tab 10051 \tab 13143 \tab 5219 \tab 14169 \tab 4783 \tab 6995 \tab 4706 \tab 9844 \tab 72390 \cr
+}
 }
 
 \seealso{

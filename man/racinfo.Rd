@@ -24,15 +24,21 @@ Question B. How much information do you have about the race relations issue. Do 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/416/vshow}{GSS Data Explorer page for \code{racinfo}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab all info r needs \tab most info \tab some info \tab very little info \tab don't know \tab no answer \tab Total \cr
+   1983 \tab 795 \tab 98 \tab 203 \tab 332 \tab 158 \tab 10 \tab 3 \tab 1599 \cr
+   Total \tab 795 \tab 98 \tab 203 \tab 332 \tab 158 \tab 10 \tab 3 \tab 1599 \cr
+}
 }
 
 \seealso{

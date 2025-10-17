@@ -36,15 +36,21 @@ Question What are the groups you both belong to? Circle all that apply.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5533/vshow}{GSS Data Explorer page for \code{bthgrp4a}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab fraternal groups \tab sports groups \tab youth groups \tab school service groups \tab hobby or garden clubs \tab school fraternities or sororities \tab nationality groups \tab literary art discussion or study grps \tab professional or academic societies \tab church-affiliated groups \tab other groups \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2734 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 3 \tab 11 \tab 4 \tab 1 \tab 46 \tab 2812 \cr
+   Total \tab 2734 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 3 \tab 11 \tab 4 \tab 1 \tab 46 \tab 2812 \cr
+}
 }
 
 \seealso{

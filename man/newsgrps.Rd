@@ -23,16 +23,22 @@ Question I. Newsgroups
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2638/vshow}{GSS Data Explorer page for \code{newsgrps}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very familiar \tab somewhat familiar \tab not familiar \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2142 \tab 158 \tab 187 \tab 230 \tab 1 \tab 47 \tab 2765 \cr
+   2004 \tab 992 \tab 510 \tab 600 \tab 689 \tab 1 \tab 20 \tab 2812 \cr
+   Total \tab 3134 \tab 668 \tab 787 \tab 919 \tab 2 \tab 67 \tab 5577 \cr
+}
 }
 
 \seealso{

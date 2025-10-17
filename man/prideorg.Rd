@@ -26,17 +26,25 @@ B. I am proud to be working for my firm or organization.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4586/vshow}{GSS Data Explorer page for \code{prideorg}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1967 \tab 192 \tab 417 \tab 165 \tab 32 \tab 5 \tab 9 \tab 45 \tab 2832 \cr
+   2006 \tab 3492 \tab 369 \tab 473 \tab 120 \tab 37 \tab 16 \tab 1 \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 339 \tab 428 \tab 126 \tab 29 \tab 9 \tab 2 \tab 7 \tab 2867 \cr
+   Total \tab 7386 \tab 900 \tab 1318 \tab 411 \tab 98 \tab 30 \tab 12 \tab 54 \tab 10209 \cr
+}
 }
 
 \seealso{

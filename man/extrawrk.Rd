@@ -25,15 +25,21 @@ Over the past 12 months, in addition to your main job, have you done any other w
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6337/vshow}{GSS Data Explorer page for \code{extrawrk}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, during all of that period \tab yes, during most of that period \tab yes, during some of that period \tab no \tab no answer \tab Total \cr
+   2016 \tab 1927 \tab 83 \tab 45 \tab 166 \tab 640 \tab 6 \tab 2867 \cr
+   Total \tab 1927 \tab 83 \tab 45 \tab 166 \tab 640 \tab 6 \tab 2867 \cr
+}
 }
 
 \seealso{

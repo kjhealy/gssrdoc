@@ -26,16 +26,23 @@ C. Having a good education yourself?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/- \tab full \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1987 \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4243/vshow}{GSS Data Explorer page for \code{opeduc}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 547 \tab 765 \tab 209 \tab 20 \tab 1 \tab 4 \tab 18 \tab - \tab 1819 \cr
+   2021 \tab 2029 \tab 623 \tab 875 \tab 313 \tab 32 \tab 10 \tab 21 \tab 116 \tab 13 \tab 4032 \cr
+   Total \tab 2284 \tab 1170 \tab 1640 \tab 522 \tab 52 \tab 11 \tab 25 \tab 134 \tab 13 \tab 5851 \cr
+}
 }
 
 \seealso{

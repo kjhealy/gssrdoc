@@ -23,15 +23,21 @@ A. Attend an amateur or professional sports event.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1405/vshow}{GSS Data Explorer page for \code{attsprts}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 855 \tab 739 \tab 2 \tab 10 \tab 1606 \cr
+   Total \tab 0 \tab 855 \tab 739 \tab 2 \tab 10 \tab 1606 \cr
+}
 }
 
 \seealso{

@@ -1,109 +1,3 @@
-#'  Financial distribution in household
-#' 
-#'  orginc
-#' 
-#' Question How do you and your (spousepartfill) organize the income that one or both of you receive? Please choose the option that comes closest.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` r manage all money and gives spouse/partner his/her share
-#'   * `2` r spouse/partner manages all money and gives r share
-#'   * `3` r and spouse/partner pool all money and take what we need
-#'   * `4` r and spouse/partner pool some money and keep rest separate
-#'   * `5` r and spouse/partner keep money separate
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `orginc`](https://gssdataexplorer.norc.org/variables/7774/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name orginc
-NULL
-
-
-#'  Who in household plans social activities
-#' 
-#'  plan1
-#' 
-#' Question (In your household who does the following things...?) Plans and organizes social and family activities?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` always me
-#'   * `2` usually me
-#'   * `3` about equal or both together
-#'   * `4` usually my spouse/partner
-#'   * `5` always my spouse/partner
-#'   * `6` is done by a third person
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `plan1`](https://gssdataexplorer.norc.org/variables/7775/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name plan1
-NULL
-
-
-#'  Who in household does housework
-#' 
-#'  sharehhw
-#' 
-#' Question Which of the following best applies to the sharing of household work between you and your (spousepartfill)?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` r does much more than fair share
-#'   * `2` r does a bit more than fair share
-#'   * `3` r does roughly fair share
-#'   * `4` r does a bit less than fair share
-#'   * `5` r does much less than fair share
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `sharehhw`](https://gssdataexplorer.norc.org/variables/7776/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name sharehhw
-NULL
-
-
 #'  Who are close relatives
 #' 
 #'  clsrltv
@@ -121,13 +15,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `clsrltv`](https://gssdataexplorer.norc.org/variables/7777/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1  |2   |3   |4   |Total |
+#'  |:-----|:----|:--|:---|:---|:---|:-----|
+#'  |2022  |2587 |97 |369 |282 |209 |3544  |
+#'  |Total |2587 |97 |369 |282 |209 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -153,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rsprltv1`](https://gssdataexplorer.norc.org/variables/7778/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes, they definitely should |2   |3   |4   |5  |6  |no, they definitely should not |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------------------------|:---|:---|:---|:--|:--|:------------------------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2386 |285                         |137 |178 |246 |67 |27 |80                             |120          |9         |9              |3544  |
+#'  |Total |2386 |285                         |137 |178 |246 |67 |27 |80                             |120          |9         |9              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -185,13 +91,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rsprltv2`](https://gssdataexplorer.norc.org/variables/7779/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes, they definitely should |2   |3   |4   |5  |6  |no, they definitely should not |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------------------------|:---|:---|:---|:--|:--|:------------------------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2386 |233                         |104 |145 |227 |98 |69 |118                            |145          |8         |11             |3544  |
+#'  |Total |2386 |233                         |104 |145 |227 |98 |69 |118                            |145          |8         |11             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -217,13 +129,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `eldfnce`](https://gssdataexplorer.norc.org/variables/7780/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes, they definitely should |2   |3   |4   |5  |6  |no, they definitely should not |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------------------------|:---|:---|:---|:--|:--|:------------------------------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2386 |307                         |148 |189 |240 |85 |38 |29                             |106          |8         |8              |3544  |
+#'  |Total |2386 |307                         |148 |189 |240 |85 |38 |29                             |106          |8         |8              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -251,13 +169,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rlyrltv`](https://gssdataexplorer.norc.org/variables/7781/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |you can definitely rely more on close relatives |2   |3   |you can rely equally on both |5  |6  |you can definitely rely more on close friends |9  |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------------------------------------------|:---|:---|:----------------------------|:--|:--|:---------------------------------------------|:--|:------------|:---------|:--------------|:-----|
+#'  |2022  |2386 |215                                             |111 |101 |408                          |43 |30 |87                                            |91 |56           |11        |5              |3544  |
+#'  |Total |2386 |215                                             |111 |101 |408                          |43 |30 |87                                            |91 |56           |11        |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -284,13 +208,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `frndfam`](https://gssdataexplorer.norc.org/variables/7782/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1   |2  |3   |4   |5  |6  |7  |Total |
+#'  |:-----|:----|:---|:--|:---|:---|:--|:--|:--|:-----|
+#'  |2022  |2500 |237 |78 |127 |529 |22 |18 |33 |3544  |
+#'  |Total |2500 |237 |78 |127 |529 |22 |18 |33 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -319,13 +249,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cabgndr`](https://gssdataexplorer.norc.org/variables/7783/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |women are much better suited |women are somewhat better suited |women and men are equally suited |men are somewhat better suited |men are much better suited |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:----------------------------|:--------------------------------|:--------------------------------|:------------------------------|:--------------------------|:----------|:---------|:--------------|:-----|
+#'  |2022  |2386 |30                           |51                               |888                              |58                             |23                         |93         |11        |4              |3544  |
+#'  |Total |2386 |30                           |51                               |888                              |58                             |23                         |93         |11        |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -333,6 +269,129 @@ NULL
 #' @keywords variable
 #' @md
 #' @name cabgndr
+NULL
+
+
+#'  Man vs woman head of university
+#' 
+#'  univgndr
+#' 
+#' Question (Please consider the following positions and select the options that come closest to your own opinion.) Head of a university
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` women are much better suited
+#'   * `2` women are somewhat better suited
+#'   * `3` women and men are equally suited
+#'   * `4` men are somewhat better suited
+#'   * `5` men are much better suited
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `univgndr`](https://gssdataexplorer.norc.org/variables/7784/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |women are much better suited |women are somewhat better suited |women and men are equally suited |men are somewhat better suited |men are much better suited |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:----------------------------|:--------------------------------|:--------------------------------|:------------------------------|:--------------------------|:----------|:---------|:--------------|:-----|
+#'  |2022  |2386 |36                           |32                               |936                              |39                             |18                         |84         |5         |8              |3544  |
+#'  |Total |2386 |36                           |32                               |936                              |39                             |18                         |84         |5         |8              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name univgndr
+NULL
+
+
+#'  Man vs woman senior executive
+#' 
+#'  execgndr
+#' 
+#' Question Please consider the following positions and select the options that come closest to your own opinion.) Senior executive of a large company
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` women are much better suited
+#'   * `2` women are somewhat better suited
+#'   * `3` women and men are equally suited
+#'   * `4` men are somewhat better suited
+#'   * `5` men are much better suited
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `execgndr`](https://gssdataexplorer.norc.org/variables/7785/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |women are much better suited |women are somewhat better suited |women and men are equally suited |men are somewhat better suited |men are much better suited |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:----------------------------|:--------------------------------|:--------------------------------|:------------------------------|:--------------------------|:----------|:---------|:--------------|:-----|
+#'  |2022  |2386 |27                           |25                               |922                              |73                             |20                         |80         |6         |5              |3544  |
+#'  |Total |2386 |27                           |25                               |922                              |73                             |20                         |80         |6         |5              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name execgndr
+NULL
+
+
+#'  Financial situation compared to last year
+#' 
+#'  yrfnce
+#' 
+#' Question Compared to 12 months ago, how do you think the financial situation of your household has changed? Would you say the current situation is...
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` much better
+#'   * `2` somewhat better
+#'   * `3` about the same
+#'   * `4` somewhat worse
+#'   * `5` much worse
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `yrfnce`](https://gssdataexplorer.norc.org/variables/7787/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |much better |somewhat better |about the same |somewhat worse |much worse |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------|:---------------|:--------------|:--------------|:----------|:------------|:---------|:--------------|:-----|
+#'  |2022  |2386 |73          |211             |456            |280            |91         |34           |8         |5              |3544  |
+#'  |Total |2386 |73          |211             |456            |280            |91         |34           |8         |5              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name yrfnce
 NULL
 
 

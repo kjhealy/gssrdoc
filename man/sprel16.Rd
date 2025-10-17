@@ -25,34 +25,41 @@ Question In what religion was your (husband/wife) raised?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 2012 \cr
+   Full \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/355/vshow}{GSS Data Explorer page for \code{sprel16}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab no answer \tab don't know \tab Total \cr
+   1973 \tab 428 \tab 732 \tab 268 \tab 24 \tab 34 \tab 9 \tab 9 \tab - \tab 1504 \cr
+   1974 \tab 419 \tab 708 \tab 270 \tab 41 \tab 29 \tab 7 \tab 5 \tab 5 \tab 1484 \cr
+   1975 \tab 488 \tab 686 \tab 254 \tab 17 \tab 27 \tab 8 \tab - \tab 10 \tab 1490 \cr
+   1976 \tab 525 \tab 648 \tab 267 \tab 19 \tab 24 \tab 7 \tab 2 \tab 7 \tab 1499 \cr
+   1977 \tab 555 \tab 651 \tab 264 \tab 20 \tab 21 \tab 7 \tab 2 \tab 10 \tab 1530 \cr
+   1978 \tab 572 \tab 644 \tab 248 \tab 17 \tab 27 \tab 11 \tab 5 \tab 8 \tab 1532 \cr
+   1980 \tab 579 \tab 575 \tab 233 \tab 18 \tab 26 \tab 14 \tab 4 \tab 19 \tab 1468 \cr
+   1982 \tab 867 \tab 665 \tab 250 \tab 23 \tab 29 \tab 14 \tab 11 \tab 1 \tab 1860 \cr
+   1983 \tab 634 \tab 600 \tab 274 \tab 24 \tab 45 \tab 10 \tab 8 \tab 4 \tab 1599 \cr
+   1984 \tab 644 \tab 521 \tab 228 \tab 16 \tab 36 \tab 14 \tab 14 \tab - \tab 1473 \cr
+   1985 \tab 663 \tab 554 \tab 241 \tab 26 \tab 27 \tab 10 \tab 8 \tab 5 \tab 1534 \cr
+   1986 \tab 644 \tab 494 \tab 243 \tab 24 \tab 31 \tab 17 \tab 8 \tab 9 \tab 1470 \cr
+   1987 \tab 903 \tab 618 \tab 223 \tab 20 \tab 26 \tab 16 \tab 11 \tab 2 \tab 1819 \cr
+   1988 \tab 693 \tab 521 \tab 183 \tab 15 \tab 45 \tab 22 \tab 1 \tab 1 \tab 1481 \cr
+   1989 \tab 690 \tab 517 \tab 256 \tab 11 \tab 33 \tab 22 \tab 7 \tab 1 \tab 1537 \cr
+   1990 \tab 645 \tab 439 \tab 216 \tab 15 \tab 36 \tab 14 \tab 5 \tab 2 \tab 1372 \cr
+   1991 \tab 713 \tab 497 \tab 240 \tab 16 \tab 34 \tab 12 \tab 5 \tab - \tab 1517 \cr
+   1993 \tab 747 \tab 539 \tab 227 \tab 19 \tab 41 \tab 20 \tab 10 \tab 3 \tab 1606 \cr
+   1994 \tab 2213 \tab 444 \tab 218 \tab 7 \tab 39 \tab 41 \tab 23 \tab 7 \tab 2992 \cr
+   2012 \tab 1952 \tab 5 \tab 4 \tab 12 \tab - \tab 1 \tab - \tab - \tab 1974 \cr
+   Total \tab 15574 \tab 11058 \tab 4607 \tab 384 \tab 610 \tab 276 \tab 138 \tab 94 \tab 32741 \cr
+}
 }
 
 \seealso{

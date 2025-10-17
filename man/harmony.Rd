@@ -27,16 +27,22 @@ C. I feel deep inner peace or harmony.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2110/vshow}{GSS Data Explorer page for \code{harmony}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never/almst nevr \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 163 \tab 269 \tab 392 \tab 283 \tab 204 \tab 89 \tab 14 \tab 31 \tab 2832 \cr
+   2004 \tab 1472 \tab 194 \tab 325 \tab 347 \tab 225 \tab 136 \tab 94 \tab 4 \tab 15 \tab 2812 \cr
+   Total \tab 2859 \tab 357 \tab 594 \tab 739 \tab 508 \tab 340 \tab 183 \tab 18 \tab 46 \tab 5644 \cr
+}
 }
 
 \seealso{

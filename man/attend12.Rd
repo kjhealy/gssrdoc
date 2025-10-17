@@ -29,18 +29,26 @@ Question And what about when you were around 11 or 12, how often did you attend 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4675/vshow}{GSS Data Explorer page for \code{attend12}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month \tab 2-3 times a month \tab nearly every week \tab every week \tab several times a week \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 53 \tab 31 \tab 62 \tab 113 \tab 50 \tab 131 \tab 299 \tab 435 \tab 124 \tab 37 \tab 24 \tab 1517 \cr
+   1998 \tab 1548 \tab 79 \tab 39 \tab 43 \tab 92 \tab 62 \tab 114 \tab 235 \tab 393 \tab 141 \tab 38 \tab 48 \tab 2832 \cr
+   2008 \tab 658 \tab 112 \tab 30 \tab 74 \tab 91 \tab 57 \tab 114 \tab 194 \tab 504 \tab 173 \tab 12 \tab 4 \tab 2023 \cr
+   2018 \tab 1173 \tab 127 \tab 25 \tab 70 \tab 68 \tab 52 \tab 81 \tab 96 \tab 485 \tab 141 \tab 19 \tab 11 \tab 2348 \cr
+   Total \tab 3537 \tab 371 \tab 125 \tab 249 \tab 364 \tab 221 \tab 440 \tab 824 \tab 1817 \tab 579 \tab 106 \tab 87 \tab 8720 \cr
+}
 }
 
 \seealso{

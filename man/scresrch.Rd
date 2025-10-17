@@ -24,16 +24,23 @@ Question Recently, there has been controversy over whether the government should
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3376/vshow}{GSS Data Explorer page for \code{scresrch}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should fund such research \tab probably should fund such research \tab probably should not fund such research \tab definitely should not fund such research \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3582 \tab 260 \tab 375 \tab 128 \tab 92 \tab 64 \tab 9 \tab 4510 \cr
+   2010 \tab 1569 \tab 139 \tab 200 \tab 61 \tab 43 \tab 25 \tab 7 \tab 2044 \cr
+   Total \tab 5151 \tab 399 \tab 575 \tab 189 \tab 135 \tab 89 \tab 16 \tab 6554 \cr
+}
 }
 
 \seealso{

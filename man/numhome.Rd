@@ -21,15 +21,21 @@ Question C. How many computers in working condition do you have in your home?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2551/vshow}{GSS Data Explorer page for \code{numhome}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2418 \tab 261 \tab 76 \tab 27 \tab 7 \tab 2 \tab 1 \tab 1 \tab 24 \tab 2817 \cr
+   Total \tab 2418 \tab 261 \tab 76 \tab 27 \tab 7 \tab 2 \tab 1 \tab 1 \tab 24 \tab 2817 \cr
+}
 }
 
 \seealso{

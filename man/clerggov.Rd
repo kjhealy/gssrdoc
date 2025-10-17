@@ -26,17 +26,24 @@ D. Religious leaders should not try to influence government decisions.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4648/vshow}{GSS Data Explorer page for \code{clerggov}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 287 \tab 401 \tab 308 \tab 254 \tab 36 \tab 51 \tab 22 \tab 1517 \cr
+   1998 \tab 1548 \tab 366 \tab 354 \tab 224 \tab 197 \tab 68 \tab 33 \tab 42 \tab 2832 \cr
+   2008 \tab 658 \tab 515 \tab 401 \tab 206 \tab 182 \tab 48 \tab 12 \tab 1 \tab 2023 \cr
+   Total \tab 2364 \tab 1168 \tab 1156 \tab 738 \tab 633 \tab 152 \tab 96 \tab 65 \tab 6372 \cr
+}
 }
 
 \seealso{

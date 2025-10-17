@@ -21,18 +21,26 @@ Question A natural history museum. How many times did you visit a natural histor
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   B/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3464/vshow}{GSS Data Explorer page for \code{visnhist}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 18 \tab 2 \tab 24 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab no answer \tab 12 \tab 11 \tab 15 \tab 30 \tab 50 \tab 52 \tab don't know \tab 20 \tab 95 \tab Total \cr
+   2008 \tab 518 \tab 1117 \tab 265 \tab 4 \tab 1 \tab 1 \tab 63 \tab 1 \tab 30 \tab 9 \tab 7 \tab 4 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2012 \tab 972 \tab 725 \tab 192 \tab 1 \tab - \tab - \tab 49 \tab - \tab 13 \tab 9 \tab 7 \tab - \tab - \tab 1 \tab 4 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2016 \tab 1477 \tab 975 \tab 277 \tab 1 \tab - \tab - \tab 77 \tab - \tab 28 \tab 10 \tab 6 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 830 \tab 220 \tab 2 \tab - \tab - \tab 73 \tab - \tab 17 \tab 15 \tab 11 \tab 2 \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2 \tab 1 \tab 2348 \cr
+   Total \tab 4140 \tab 3647 \tab 954 \tab 8 \tab 1 \tab 1 \tab 262 \tab 1 \tab 88 \tab 43 \tab 31 \tab 7 \tab 2 \tab 3 \tab 9 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 9212 \cr
+}
 }
 
 \seealso{

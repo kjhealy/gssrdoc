@@ -26,15 +26,21 @@ I will now read out a list of the ways you might have felt or behaved during the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6297/vshow}{GSS Data Explorer page for \code{cesd1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab none or almost none of the time \tab some of the time \tab most of the time \tab all or almost all of the time \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1888 \tab 646 \tab 264 \tab 32 \tab 21 \tab 3 \tab 13 \tab 2867 \cr
+   Total \tab 1888 \tab 646 \tab 264 \tab 32 \tab 21 \tab 3 \tab 13 \tab 2867 \cr
+}
 }
 
 \seealso{

@@ -22,37 +22,45 @@ Question Do you expect the United States to fight in another world war within th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1976 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
-   1996 \tab A/B \tab partial \cr
-   1998 \tab A/B \tab partial \cr
-   2000 \tab A/B \tab partial \cr
-   2002 \tab A/B \tab partial \cr
-   2004 \tab A/B \tab partial \cr
-   2006 \tab A/B \tab partial \cr
-   2008 \tab A/B \tab partial \cr
-   2010 \tab A/- \tab partial \cr
-   2012 \tab A/- \tab partial \cr
-   2014 \tab A/- \tab partial \cr
-   2016 \tab A/- \tab partial \cr
-   2018 \tab A/- \tab partial \cr
-   2021 \tab A/- \tab partial \cr
-   2022 \tab A/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1976, 1985, 1986 \cr
+   A/- \tab 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5485/vshow}{GSS Data Explorer page for \code{uswary}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1976 \tab 778 \tab 313 \tab 360 \tab 45 \tab 3 \tab - \tab 1499 \cr
+   1985 \tab 751 \tab 334 \tab 397 \tab 47 \tab 5 \tab - \tab 1534 \cr
+   1986 \tab - \tab 663 \tab 733 \tab 47 \tab 27 \tab - \tab 1470 \cr
+   1988 \tab 493 \tab 394 \tab 555 \tab 38 \tab 1 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 315 \tab 637 \tab 51 \tab 3 \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 255 \tab 635 \tab 37 \tab 1 \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 465 \tab 505 \tab 54 \tab - \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 505 \tab 536 \tab 38 \tab 1 \tab - \tab 1606 \cr
+   1994 \tab 1015 \tab 822 \tab 1007 \tab 90 \tab 58 \tab - \tab 2992 \cr
+   1996 \tab 944 \tab 756 \tab 1085 \tab 88 \tab 31 \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 815 \tab 836 \tab 86 \tab 134 \tab - \tab 2832 \cr
+   2000 \tab 940 \tab 668 \tab 1086 \tab 115 \tab 8 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 575 \tab 269 \tab 64 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 460 \tab 368 \tab 78 \tab - \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 1124 \tab 732 \tab 136 \tab - \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 652 \tab 590 \tab 22 \tab 65 \tab - \tab 2023 \cr
+   2010 \tab 1377 \tab 336 \tab 302 \tab 29 \tab - \tab - \tab 2044 \cr
+   2012 \tab 1338 \tab 307 \tab 292 \tab 37 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1687 \tab 453 \tab 342 \tab 56 \tab - \tab - \tab 2538 \cr
+   2016 \tab 1956 \tab 513 \tab 352 \tab 46 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1563 \tab 378 \tab 350 \tab 56 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 2936 \tab 334 \tab 219 \tab 55 \tab - \tab - \tab 3544 \cr
+   Total \tab 25708 \tab 11437 \tab 12188 \tab 1315 \tab 338 \tab 4032 \tab 55018 \cr
+}
 }
 
 \seealso{

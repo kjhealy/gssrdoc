@@ -25,19 +25,26 @@ Question E. In 1984, you remember that Mondale ran for President on the Democrat
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989 \cr
+   Full \tab 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/154/vshow}{GSS Data Explorer page for \code{vote84}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab voted \tab did not vote \tab not eligible \tab refused \tab don't know \tab no answer \tab Total \cr
+   1985 \tab - \tab 1057 \tab 429 \tab 36 \tab 1 \tab 9 \tab 2 \tab 1534 \cr
+   1986 \tab - \tab 983 \tab 411 \tab 49 \tab 4 \tab 23 \tab - \tab 1470 \cr
+   1987 \tab - \tab 1169 \tab 498 \tab 99 \tab 3 \tab 42 \tab 8 \tab 1819 \cr
+   1988 \tab - \tab 905 \tab 416 \tab 117 \tab 5 \tab 36 \tab 2 \tab 1481 \cr
+   1989 \tab - \tab 979 \tab 366 \tab 141 \tab 15 \tab 33 \tab 3 \tab 1537 \cr
+   Total \tab 0 \tab 5093 \tab 2120 \tab 442 \tab 28 \tab 143 \tab 15 \tab 7841 \cr
+}
 }
 
 \seealso{

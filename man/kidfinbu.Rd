@@ -26,15 +26,21 @@ C. Children are a financial burden on their parents.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4459/vshow}{GSS Data Explorer page for \code{kidfinbu}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 672 \tab 51 \tab 288 \tab 198 \tab 515 \tab 214 \tab 30 \tab 6 \tab 1974 \cr
+   Total \tab 672 \tab 51 \tab 288 \tab 198 \tab 515 \tab 214 \tab 30 \tab 6 \tab 1974 \cr
+}
 }
 
 \seealso{

@@ -23,46 +23,53 @@ Question A split ballot was used in the 1973, 1974, 1976, 1978, 1980, and 1982+.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1973, 1974, 1976, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/697/vshow}{GSS Data Explorer page for \code{form}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab standard (x) \tab alternate (y) \tab alternate (z) \tab Total \cr
+   1973 \tab - \tab 753 \tab 751 \tab - \tab 1504 \cr
+   1974 \tab - \tab 753 \tab 731 \tab - \tab 1484 \cr
+   1976 \tab - \tab 778 \tab 721 \tab - \tab 1499 \cr
+   1978 \tab - \tab 761 \tab 771 \tab - \tab 1532 \cr
+   1980 \tab - \tab 493 \tab 492 \tab 483 \tab 1468 \cr
+   1982 \tab - \tab 923 \tab 937 \tab - \tab 1860 \cr
+   1983 \tab - \tab 804 \tab 795 \tab - \tab 1599 \cr
+   1984 \tab - \tab 490 \tab 499 \tab 484 \tab 1473 \cr
+   1985 \tab - \tab 751 \tab 783 \tab - \tab 1534 \cr
+   1986 \tab - \tab 730 \tab 740 \tab - \tab 1470 \cr
+   1987 \tab - \tab 603 \tab 595 \tab 621 \tab 1819 \cr
+   1988 \tab - \tab 718 \tab 763 \tab - \tab 1481 \cr
+   1989 \tab - \tab 768 \tab 769 \tab - \tab 1537 \cr
+   1990 \tab - \tab 674 \tab 698 \tab - \tab 1372 \cr
+   1991 \tab - \tab 756 \tab 761 \tab - \tab 1517 \cr
+   1993 \tab - \tab 799 \tab 807 \tab - \tab 1606 \cr
+   1994 \tab - \tab 1508 \tab 1484 \tab - \tab 2992 \cr
+   1996 \tab - \tab 1441 \tab 1463 \tab - \tab 2904 \cr
+   1998 \tab - \tab 1381 \tab 1451 \tab - \tab 2832 \cr
+   2000 \tab - \tab 1409 \tab 1408 \tab - \tab 2817 \cr
+   2002 \tab - \tab 1358 \tab 1407 \tab - \tab 2765 \cr
+   2004 \tab - \tab 1401 \tab 1411 \tab - \tab 2812 \cr
+   2006 \tab - \tab 2220 \tab 2290 \tab - \tab 4510 \cr
+   2008 \tab - \tab 1004 \tab 1019 \tab - \tab 2023 \cr
+   2010 \tab - \tab 1014 \tab 1030 \tab - \tab 2044 \cr
+   2012 \tab - \tab 998 \tab 976 \tab - \tab 1974 \cr
+   2014 \tab - \tab 1274 \tab 1264 \tab - \tab 2538 \cr
+   2016 \tab - \tab 1437 \tab 1430 \tab - \tab 2867 \cr
+   2018 \tab - \tab 1188 \tab 1160 \tab - \tab 2348 \cr
+   2021 \tab - \tab 1987 \tab 2045 \tab - \tab 4032 \cr
+   2022 \tab - \tab 1780 \tab 1764 \tab - \tab 3544 \cr
+   Total \tab 0 \tab 32954 \tab 33215 \tab 1588 \tab 67757 \cr
+}
 }
 
 \seealso{

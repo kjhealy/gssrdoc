@@ -23,15 +23,21 @@ L. A lawyer?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4274/vshow}{GSS Data Explorer page for \code{paylaw}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 110000 \tab 115000 \tab 12000 \tab 120000 \tab 125000 \tab 128000 \tab 130000 \tab 140000 \tab 149000 \tab 1500 \tab 15000 \tab 150000 \tab 155000 \tab 160000 \tab 17000 \tab 170000 \tab 175000 \tab 180000 \tab 1e+05 \tab $1 million (or more, for 1987 & 2000) \tab 20000 \tab 23000 \tab 25000 \tab 250000 \tab 28000 \tab 2e+05 \tab 30000 \tab 312000 \tab 320000 \tab 35000 \tab 350000 \tab 38000 \tab 3e+05 \tab 40000 \tab 420000 \tab 45000 \tab 450000 \tab 48000 \tab 4e+05 \tab 50000 \tab 55000 \tab 5e+05 \tab 6000 \tab 60000 \tab 62000 \tab 65000 \tab 68000 \tab 6e+05 \tab 70000 \tab 75000 \tab 750000 \tab 80000 \tab 85000 \tab 8e+05 \tab 90000 \tab 95000 \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1545 \tab 1 \tab 3 \tab 4 \tab 2 \tab 4 \tab 22 \tab 15 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 111 \tab 1 \tab 1 \tab 1 \tab 3 \tab 11 \tab 3 \tab 216 \tab 19 \tab 4 \tab 1 \tab 6 \tab 47 \tab 1 \tab 106 \tab 13 \tab 1 \tab 1 \tab 3 \tab 7 \tab 1 \tab 33 \tab 11 \tab 1 \tab 8 \tab 2 \tab 3 \tab 10 \tab 41 \tab 2 \tab 34 \tab 1 \tab 43 \tab 1 \tab 10 \tab 1 \tab 2 \tab 32 \tab 61 \tab 4 \tab 74 \tab 15 \tab 1 \tab 36 \tab 4 \tab 70 \tab 155 \tab 2817 \cr
+   Total \tab 1545 \tab 1 \tab 3 \tab 4 \tab 2 \tab 4 \tab 22 \tab 15 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 111 \tab 1 \tab 1 \tab 1 \tab 3 \tab 11 \tab 3 \tab 216 \tab 19 \tab 4 \tab 1 \tab 6 \tab 47 \tab 1 \tab 106 \tab 13 \tab 1 \tab 1 \tab 3 \tab 7 \tab 1 \tab 33 \tab 11 \tab 1 \tab 8 \tab 2 \tab 3 \tab 10 \tab 41 \tab 2 \tab 34 \tab 1 \tab 43 \tab 1 \tab 10 \tab 1 \tab 2 \tab 32 \tab 61 \tab 4 \tab 74 \tab 15 \tab 1 \tab 36 \tab 4 \tab 70 \tab 155 \tab 2817 \cr
+}
 }
 
 \seealso{

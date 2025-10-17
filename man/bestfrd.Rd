@@ -25,15 +25,21 @@ Question Now think about your best friend, the friend you feel closest to (but n
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4204/vshow}{GSS Data Explorer page for \code{bestfrd}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a male relative \tab a female relative \tab a man who is not a relative \tab a woman who is not a relative \tab i dont have a close friend \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 151 \tab 186 \tab 328 \tab 419 \tab 56 \tab 2 \tab 7 \tab 2765 \cr
+   Total \tab 1616 \tab 151 \tab 186 \tab 328 \tab 419 \tab 56 \tab 2 \tab 7 \tab 2765 \cr
+}
 }
 
 \seealso{

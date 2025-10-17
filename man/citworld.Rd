@@ -26,15 +26,21 @@ E. I feel more like a citizen of the world than of any country.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4887/vshow}{GSS Data Explorer page for \code{citworld}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
+   2014 \tab 1264 \tab 68 \tab 287 \tab 222 \tab 529 \tab 129 \tab 36 \tab 3 \tab 2538 \cr
+   Total \tab 1264 \tab 68 \tab 287 \tab 222 \tab 529 \tab 129 \tab 36 \tab 3 \tab 2538 \cr
+}
 }
 
 \seealso{

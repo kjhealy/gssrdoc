@@ -23,16 +23,23 @@ A. Attend a regular, weekly worship service at a church/synagogue (e.g. mass or 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/C/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   A/C/- \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5318/vshow}{GSS Data Explorer page for \code{attreg}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1996 \tab 2608 \tab 219 \tab 33 \tab 44 \tab 2904 \cr
+   1998 \tab 2328 \tab 452 \tab 45 \tab 7 \tab 2832 \cr
+   Total \tab 4936 \tab 671 \tab 78 \tab 51 \tab 5736 \cr
+}
 }
 
 \seealso{

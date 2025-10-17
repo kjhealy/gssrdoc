@@ -22,32 +22,39 @@ Question Did your mother ever work for pay for as long as a year, after she was 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993 \cr
+   Full \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/88/vshow}{GSS Data Explorer page for \code{mawork}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1973 \tab 158 \tab 591 \tab 714 \tab 22 \tab 19 \tab 1504 \cr
+   1974 \tab 150 \tab 602 \tab 672 \tab 21 \tab 39 \tab 1484 \cr
+   1975 \tab 138 \tab 683 \tab 637 \tab 19 \tab 13 \tab 1490 \cr
+   1976 \tab 143 \tab 679 \tab 639 \tab 20 \tab 18 \tab 1499 \cr
+   1977 \tab 143 \tab 626 \tab 712 \tab 22 \tab 27 \tab 1530 \cr
+   1978 \tab 142 \tab 751 \tab 614 \tab 20 \tab 5 \tab 1532 \cr
+   1980 \tab 149 \tab 710 \tab 577 \tab 17 \tab 15 \tab 1468 \cr
+   1982 \tab 206 \tab 851 \tab 700 \tab 38 \tab 65 \tab 1860 \cr
+   1983 \tab 142 \tab 865 \tab 569 \tab 20 \tab 3 \tab 1599 \cr
+   1984 \tab 148 \tab 802 \tab 494 \tab 20 \tab 9 \tab 1473 \cr
+   1985 \tab 171 \tab 806 \tab 545 \tab 10 \tab 2 \tab 1534 \cr
+   1986 \tab 136 \tab 829 \tab 483 \tab 22 \tab - \tab 1470 \cr
+   1987 \tab 202 \tab 1018 \tab 567 \tab 25 \tab 7 \tab 1819 \cr
+   1988 \tab 146 \tab 842 \tab 462 \tab 29 \tab 2 \tab 1481 \cr
+   1989 \tab 151 \tab 842 \tab 518 \tab 20 \tab 6 \tab 1537 \cr
+   1990 \tab 135 \tab 797 \tab 412 \tab 24 \tab 4 \tab 1372 \cr
+   1991 \tab 171 \tab 866 \tab 448 \tab 25 \tab 7 \tab 1517 \cr
+   1993 \tab 166 \tab 940 \tab 449 \tab 37 \tab 14 \tab 1606 \cr
+   Total \tab 2797 \tab 14100 \tab 10212 \tab 411 \tab 255 \tab 27775 \cr
+}
 }
 
 \seealso{

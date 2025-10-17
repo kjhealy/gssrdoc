@@ -25,19 +25,28 @@ A. Organizing public meetings to protest against the government.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3982/vshow}{GSS Data Explorer page for \code{protest1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 315 \tab 177 \tab 81 \tab 58 \tab 30 \tab 16 \tab 1534 \cr
+   1990 \tab 155 \tab 554 \tab 318 \tab 163 \tab 110 \tab 53 \tab 19 \tab 1372 \cr
+   1996 \tab 1572 \tab 697 \tab 357 \tab 102 \tab 108 \tab 61 \tab 7 \tab 2904 \cr
+   2006 \tab 2992 \tab 877 \tab 408 \tab 132 \tab 85 \tab 16 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 709 \tab 401 \tab 165 \tab 84 \tab 20 \tab 11 \tab 2867 \cr
+   Total \tab 7053 \tab 3152 \tab 1661 \tab 643 \tab 445 \tab 180 \tab 53 \tab 13187 \cr
+}
 }
 
 \seealso{

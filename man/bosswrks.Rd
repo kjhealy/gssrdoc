@@ -26,15 +26,21 @@ A. There will always be conflict between management and workers because they are
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4505/vshow}{GSS Data Explorer page for \code{bosswrks}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 84 \tab 119 \tab 426 \tab 330 \tab 426 \tab 83 \tab 46 \tab 23 \tab 1537 \cr
+   Total \tab 84 \tab 119 \tab 426 \tab 330 \tab 426 \tab 83 \tab 46 \tab 23 \tab 1537 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ A. Immigrants improve American society by bringing in new ideas and cultures
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4890/vshow}{GSS Data Explorer page for \code{immimp}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1596 \tab 119 \tab 563 \tab 294 \tab 176 \tab 40 \tab 23 \tab 1 \tab 2812 \cr
+   Total \tab 1596 \tab 119 \tab 563 \tab 294 \tab 176 \tab 40 \tab 23 \tab 1 \tab 2812 \cr
+}
 }
 
 \seealso{

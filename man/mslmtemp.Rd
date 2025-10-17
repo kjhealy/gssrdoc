@@ -22,15 +22,21 @@ F. Muslims
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/378/vshow}{GSS Data Explorer page for \code{mslmtemp}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 11 \tab 15 \tab 20 \tab 25 \tab 3 \tab 30 \tab 35 \tab 40 \tab 45 \tab 49 \tab 5 \tab 50 \tab 55 \tab 60 \tab 65 \tab 7 \tab 70 \tab 75 \tab 80 \tab 85 \tab 90 \tab 95 \tab 99 \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 1939 \tab 50 \tab 4 \tab 15 \tab 25 \tab 1 \tab 34 \tab 13 \tab 4 \tab 1 \tab 47 \tab 1 \tab 69 \tab 2 \tab 1 \tab 3 \tab 330 \tab 4 \tab 60 \tab 5 \tab 1 \tab 62 \tab 17 \tab 7 \tab 32 \tab 3 \tab 1 \tab 1 \tab 63 \tab 17 \tab 2812 \cr
+   Total \tab 1939 \tab 50 \tab 4 \tab 15 \tab 25 \tab 1 \tab 34 \tab 13 \tab 4 \tab 1 \tab 47 \tab 1 \tab 69 \tab 2 \tab 1 \tab 3 \tab 330 \tab 4 \tab 60 \tab 5 \tab 1 \tab 62 \tab 17 \tab 7 \tab 32 \tab 3 \tab 1 \tab 1 \tab 63 \tab 17 \tab 2812 \cr
+}
 }
 
 \seealso{

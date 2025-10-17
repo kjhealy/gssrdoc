@@ -26,18 +26,25 @@ A. A job is just a way of earning money - no more
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998, 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4492/vshow}{GSS Data Explorer page for \code{wrkearn}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab iap \tab Total \cr
+   1989 \tab - \tab 104 \tab 215 \tab 251 \tab 569 \tab 279 \tab 15 \tab 104 \tab - \tab 1537 \cr
+   1998 \tab - \tab 75 \tab 209 \tab 198 \tab 483 \tab 201 \tab 25 \tab 1641 \tab - \tab 2832 \cr
+   2006 \tab - \tab 124 \tab 262 \tab 213 \tab 655 \tab 257 \tab 6 \tab 1 \tab 2992 \tab 4510 \cr
+   2016 \tab - \tab 128 \tab 277 \tab 242 \tab 605 \tab 220 \tab 1 \tab 1394 \tab - \tab 2867 \cr
+   Total \tab 0 \tab 431 \tab 963 \tab 904 \tab 2312 \tab 957 \tab 47 \tab 3140 \tab 2992 \tab 11746 \cr
+}
 }
 
 \seealso{

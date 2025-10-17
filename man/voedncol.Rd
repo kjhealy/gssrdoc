@@ -23,18 +23,24 @@ G. Did you complete any courses for credit at an institution such as a business 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/75/vshow}{GSS Data Explorer page for \code{voedncol}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   2012 \tab 1227 \tab 244 \tab 503 \tab 1974 \cr
+   2014 \tab 1573 \tab 288 \tab 677 \tab 2538 \cr
+   2016 \tab 1779 \tab 350 \tab 738 \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab 2348 \cr
+   Total \tab 6927 \tab 882 \tab 1918 \tab 9727 \cr
+}
 }
 
 \seealso{

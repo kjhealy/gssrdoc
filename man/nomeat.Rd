@@ -25,16 +25,22 @@ Question C. And how often do you refuse to eat meat for moral or environmental r
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4771/vshow}{GSS Data Explorer page for \code{nomeat}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab never \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 35 \tab 105 \tab 322 \tab 1056 \tab 39 \tab 1606 \cr
+   1994 \tab 1606 \tab 41 \tab 99 \tab 272 \tab 952 \tab 22 \tab 2992 \cr
+   Total \tab 1655 \tab 76 \tab 204 \tab 594 \tab 2008 \tab 61 \tab 4598 \cr
+}
 }
 
 \seealso{

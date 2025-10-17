@@ -25,16 +25,23 @@ Question How often do you feel that the demands of your family life interfere wi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4615/vshow}{GSS Data Explorer page for \code{famintjb}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab no answer \tab Total \cr
+   2006 \tab 3492 \tab 13 \tab 41 \tab 250 \tab 387 \tab 325 \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 17 \tab 51 \tab 257 \tab 334 \tab 275 \tab 6 \tab 2867 \cr
+   Total \tab 5419 \tab 30 \tab 92 \tab 507 \tab 721 \tab 600 \tab 8 \tab 7377 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ Question C. Some countries are doing more to protect the world environment than 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4768/vshow}{GSS Data Explorer page for \code{usdoenuf}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab more than enough \tab about the right amount, or \tab too little? \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 614 \tab 129 \tab 473 \tab 693 \tab 130 \tab 5 \tab 2044 \cr
+   Total \tab 614 \tab 129 \tab 473 \tab 693 \tab 130 \tab 5 \tab 2044 \cr
+}
 }
 
 \seealso{

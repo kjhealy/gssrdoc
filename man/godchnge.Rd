@@ -24,19 +24,27 @@ Question Which best describes your beliefs about God?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998, 2004 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4650/vshow}{GSS Data Explorer page for \code{godchnge}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab i don't believe in god now, and i never have \tab i don't believe in god now, but i used to \tab i believe in god now, but i didn't used to \tab i believe in god now, and i always have \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 24 \tab 47 \tab 63 \tab 1074 \tab 127 \tab 24 \tab 1517 \cr
+   1998 \tab 1548 \tab 33 \tab 59 \tab 69 \tab 960 \tab 118 \tab 45 \tab 2832 \cr
+   2004 \tab 2163 \tab 7 \tab 10 \tab 42 \tab 576 \tab 1 \tab 13 \tab 2812 \cr
+   2008 \tab 658 \tab 56 \tab 72 \tab 96 \tab 1099 \tab 30 \tab 12 \tab 2023 \cr
+   2018 \tab 1173 \tab 73 \tab 105 \tab 120 \tab 826 \tab 41 \tab 10 \tab 2348 \cr
+   Total \tab 5700 \tab 193 \tab 293 \tab 390 \tab 4535 \tab 317 \tab 104 \tab 11532 \cr
+}
 }
 
 \seealso{

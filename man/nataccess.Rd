@@ -24,15 +24,21 @@ Question I have easy access to natural environments, such as public parks, garde
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7186/vshow}{GSS Data Explorer page for \code{nataccess}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 885 \tab 214 \tab 30 \tab 16 \tab 4 \tab 24 \tab 2348 \cr
+   Total \tab 1175 \tab 885 \tab 214 \tab 30 \tab 16 \tab 4 \tab 24 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

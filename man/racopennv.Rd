@@ -23,17 +23,23 @@ Question Suppose there is a community-wide vote on the general housing issue. Th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/C/- \tab partial \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
+   A/C/- \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7608/vshow}{GSS Data Explorer page for \code{racopennv}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab first law \tab second law \tab neither (phone mode only: volunteered) \tab don't know \tab skipped on web \tab no answer \tab Total \cr
+   2021 \tab 2045 \tab 353 \tab 1600 \tab 9 \tab 2 \tab 23 \tab - \tab 4032 \cr
+   2022 \tab 2981 \tab 100 \tab 454 \tab - \tab - \tab 8 \tab 1 \tab 3544 \cr
+   Total \tab 5026 \tab 453 \tab 2054 \tab 9 \tab 2 \tab 31 \tab 1 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

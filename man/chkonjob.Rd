@@ -27,15 +27,21 @@ E. Monitoring at work (e.g., searches of briefcases and desks)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5247/vshow}{GSS Data Explorer page for \code{chkonjob}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 188 \tab 498 \tab 238 \tab 348 \tab 64 \tab 37 \tab 14 \tab 2832 \cr
+   Total \tab 1445 \tab 188 \tab 498 \tab 238 \tab 348 \tab 64 \tab 37 \tab 14 \tab 2832 \cr
+}
 }
 
 \seealso{

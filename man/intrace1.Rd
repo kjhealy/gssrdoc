@@ -37,23 +37,30 @@ A. First mention.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5512/vshow}{GSS Data Explorer page for \code{intrace1}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab white \tab black or african-american \tab american indian or alaska native \tab asian indian \tab chinese \tab filipino \tab vietnamese \tab other asian \tab some other race \tab hispanic \tab don't know \tab no answer \tab japanese \tab other pacific islander \tab korean \tab not available in this release \tab Total \cr
+   2004 \tab - \tab 2382 \tab 377 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 23 \tab 1 \tab 18 \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab - \tab 3675 \tab 556 \tab 60 \tab 38 \tab 8 \tab 1 \tab 14 \tab 3 \tab 70 \tab 66 \tab - \tab 18 \tab 1 \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 1707 \tab 269 \tab 1 \tab 19 \tab - \tab 7 \tab 1 \tab - \tab 7 \tab 9 \tab - \tab 3 \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 1618 \tab 282 \tab 27 \tab 23 \tab 16 \tab 7 \tab - \tab 2 \tab 26 \tab 10 \tab 1 \tab 31 \tab - \tab 1 \tab - \tab - \tab 2044 \cr
+   2012 \tab - \tab 1611 \tab 232 \tab 53 \tab 4 \tab 1 \tab - \tab 1 \tab - \tab 25 \tab 4 \tab 1 \tab 37 \tab 5 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 2152 \tab 259 \tab 13 \tab 10 \tab 1 \tab - \tab - \tab 6 \tab 25 \tab 16 \tab 1 \tab 34 \tab - \tab - \tab 21 \tab - \tab 2538 \cr
+   2016 \tab - \tab 2162 \tab 458 \tab 4 \tab 128 \tab 4 \tab 2 \tab 2 \tab 2 \tab 34 \tab 19 \tab 37 \tab 14 \tab 1 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab - \tab 1845 \tab 347 \tab 1 \tab 51 \tab 9 \tab 7 \tab - \tab 1 \tab 41 \tab - \tab 2 \tab 43 \tab - \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   Total \tab 0 \tab 17152 \tab 2780 \tab 160 \tab 276 \tab 41 \tab 25 \tab 19 \tab 15 \tab 230 \tab 147 \tab 43 \tab 198 \tab 7 \tab 2 \tab 21 \tab 4032 \tab 25148 \cr
+}
 }
 
 \seealso{

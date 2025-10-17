@@ -25,20 +25,26 @@ O. I am proud to be working for my employer
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2788/vshow}{GSS Data Explorer page for \code{proudemp}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 673 \tab 910 \tab 150 \tab 32 \tab 14 \tab 17 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 622 \tab 906 \tab 123 \tab 31 \tab 35 \tab 17 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 427 \tab 614 \tab 84 \tab 25 \tab 10 \tab 27 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 468 \tab 673 \tab 71 \tab 18 \tab 8 \tab 12 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 459 \tab 852 \tab 81 \tab 15 \tab 7 \tab 34 \tab - \tab 2348 \cr
+   2022 \tab 1548 \tab 726 \tab 1024 \tab 151 \tab 44 \tab 13 \tab 11 \tab 27 \tab 3544 \cr
+   Total \tab 8338 \tab 3375 \tab 4979 \tab 660 \tab 165 \tab 87 \tab 118 \tab 27 \tab 17749 \cr
+}
 }
 
 \seealso{

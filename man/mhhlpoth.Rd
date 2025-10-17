@@ -25,15 +25,21 @@ C. How much did the treatment help (him/her) with the mental health problem? Did
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3805/vshow}{GSS Data Explorer page for \code{mhhlpoth}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal \tab quite a bit \tab a little \tab not at all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3535 \tab 314 \tab 307 \tab 239 \tab 97 \tab 11 \tab 7 \tab 4510 \cr
+   Total \tab 3535 \tab 314 \tab 307 \tab 239 \tab 97 \tab 11 \tab 7 \tab 4510 \cr
+}
 }
 
 \seealso{

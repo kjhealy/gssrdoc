@@ -23,16 +23,22 @@ C. When I see someone being taken advantage of, I feel kind of protective toward
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2872/vshow}{GSS Data Explorer page for \code{empathy3}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab does not describe very well \tab 2 \tab 3 \tab 4 \tab describes very well \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 58 \tab 60 \tab 168 \tab 422 \tab 644 \tab 14 \tab 6 \tab 2765 \cr
+   2004 \tab 1472 \tab 31 \tab 43 \tab 144 \tab 459 \tab 653 \tab 5 \tab 5 \tab 2812 \cr
+   Total \tab 2865 \tab 89 \tab 103 \tab 312 \tab 881 \tab 1297 \tab 19 \tab 11 \tab 5577 \cr
+}
 }
 
 \seealso{

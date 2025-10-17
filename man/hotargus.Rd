@@ -24,15 +24,21 @@ Question J. Heated arguments occur in my workplace.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3007/vshow}{GSS Data Explorer page for \code{hotargus}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 945 \tab 76 \tab 341 \tab 516 \tab 874 \tab 18 \tab 42 \tab 2812 \cr
+   Total \tab 945 \tab 76 \tab 341 \tab 516 \tab 874 \tab 18 \tab 42 \tab 2812 \cr
+}
 }
 
 \seealso{

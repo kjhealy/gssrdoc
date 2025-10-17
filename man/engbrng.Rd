@@ -24,15 +24,21 @@ Question K. A job as an engineer would be boring. Do you strongly agree, agree, 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3536/vshow}{GSS Data Explorer page for \code{engbrng}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1489 \tab 12 \tab 49 \tab 331 \tab 36 \tab 54 \tab 3 \tab 1974 \cr
+   Total \tab 1489 \tab 12 \tab 49 \tab 331 \tab 36 \tab 54 \tab 3 \tab 1974 \cr
+}
 }
 
 \seealso{

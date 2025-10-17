@@ -24,17 +24,22 @@ Question (Please indicate how much you agree or disagree with each of the follow
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7557/vshow}{GSS Data Explorer page for \code{hivimmrl}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly disagree \tab somewhat disagree \tab somewhat agree \tab strongly agree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 1713 \tab 1163 \tab 500 \tab 280 \tab 89 \tab 254 \tab 6 \tab 27 \tab 4032 \cr
+   2022 \tab 1900 \tab 764 \tab 337 \tab 230 \tab 82 \tab 178 \tab 8 \tab 45 \tab 3544 \cr
+   Total \tab 3613 \tab 1927 \tab 837 \tab 510 \tab 171 \tab 432 \tab 14 \tab 72 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

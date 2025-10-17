@@ -22,25 +22,32 @@ Question Do you personally ever use a computer at home, at work, or at some othe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C \tab 2000, 2002, 2024 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2378/vshow}{GSS Data Explorer page for \code{compuse}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   2000 \tab 454 \tab 1360 \tab 993 \tab 10 \tab - \tab - \tab 2817 \cr
+   2002 \tab - \tab 1835 \tab 913 \tab 6 \tab 11 \tab - \tab 2765 \cr
+   2004 \tab 1828 \tab 723 \tab 255 \tab 6 \tab - \tab - \tab 2812 \cr
+   2010 \tab 614 \tab 1141 \tab 288 \tab 1 \tab - \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 1046 \tab 253 \tab 3 \tab - \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 1384 \tab 289 \tab 2 \tab - \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 1511 \tab 374 \tab 3 \tab - \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 1247 \tab 312 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 1315 \tab 2406 \tab 245 \tab 57 \tab - \tab 9 \tab 4032 \cr
+   2022 \tab 1168 \tab 1932 \tab 430 \tab 11 \tab 1 \tab 2 \tab 3544 \cr
+   Total \tab 8682 \tab 14585 \tab 4352 \tab 99 \tab 12 \tab 11 \tab 27741 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question Thinking of the (people/person) we''ve just been discussing, would you 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/961/vshow}{GSS Data Explorer page for \code{talkpol}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost always \tab most of the time \tab occasionally \tab almost never \tab don't know \tab no answer \tab Total \cr
+   1985 \tab 136 \tab 246 \tab 257 \tab 724 \tab 143 \tab 3 \tab 25 \tab 1534 \cr
+   Total \tab 136 \tab 246 \tab 257 \tab 724 \tab 143 \tab 3 \tab 25 \tab 1534 \cr
+}
 }
 
 \seealso{

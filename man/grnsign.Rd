@@ -23,19 +23,26 @@ A. ...signed a petition about an environmental issue?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4774/vshow}{GSS Data Explorer page for \code{grnsign}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, i have \tab no, i have not \tab no answer \tab can't choose \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 456 \tab 1024 \tab 77 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 370 \tab 957 \tab 56 \tab 3 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 264 \tab 920 \tab 91 \tab 1 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 238 \tab 1165 \tab 6 \tab 21 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 447 \tab 1355 \tab 196 \tab 4 \tab 27 \tab 4032 \cr
+   Total \tab 5813 \tab 1775 \tab 5421 \tab 426 \tab 29 \tab 27 \tab 13491 \cr
+}
 }
 
 \seealso{

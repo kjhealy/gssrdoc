@@ -17,14 +17,21 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-/-     |full         |
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-/-     |1987  |
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `oppared`](https://gssdataexplorer.norc.org/variables/4242/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:-----|
+#'  |1987  |255  |103       |541            |592              |219                |78                   |16           |15        |-              |1819  |
+#'  |2021  |2029 |159       |642            |738              |233                |73                   |33           |116       |9              |4032  |
+#'  |Total |2284 |262       |1183           |1330             |452                |151                  |49           |131       |9              |5851  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -54,14 +61,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-/-     |full         |
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-/-     |1987  |
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `opeduc`](https://gssdataexplorer.norc.org/variables/4243/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:-----|
+#'  |1987  |255  |547       |765            |209              |20                 |1                    |4            |18        |-              |1819  |
+#'  |2021  |2029 |623       |875            |313              |32                 |10                   |21           |116       |13             |4032  |
+#'  |Total |2284 |1170      |1640           |522              |52                 |11                   |25           |134       |13             |5851  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -91,13 +105,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `opambit`](https://gssdataexplorer.norc.org/variables/4244/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |Total |
+#'  |:-----|:---|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:-----|
+#'  |1987  |255 |627       |728            |154              |19                 |2                    |18           |16        |1819  |
+#'  |Total |255 |627       |728            |154              |19                 |2                    |18           |16        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -127,13 +147,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `opable`](https://gssdataexplorer.norc.org/variables/4245/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |Total |
+#'  |:-----|:---|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:-----|
+#'  |1987  |255 |210       |738            |521              |53                 |7                    |15           |20        |1819  |
+#'  |Total |255 |210       |738            |521              |53                 |7                    |15           |20        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -163,14 +189,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-/-     |full         |
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-/-     |1987  |
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ophrdwrk`](https://gssdataexplorer.norc.org/variables/4246/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:-----|
+#'  |1987  |255  |570       |814            |137              |21                 |5                    |2            |15        |-              |1819  |
+#'  |2021  |2029 |856       |797            |176              |24                 |4                    |20           |116       |10             |4032  |
+#'  |Total |2284 |1426      |1611           |313              |45                 |9                    |22           |131       |10             |5851  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -200,15 +233,23 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-/-/-   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2021 |B/C/-   |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2000  |
+#'  |B/C/-   |2021  |
+#'  |Full    |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `opknow`](https://gssdataexplorer.norc.org/variables/4247/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:-----|
+#'  |1987  |255  |137       |548            |654              |173                |27                   |9            |16        |-              |1819  |
+#'  |2000  |1545 |155       |410            |459              |129                |44                   |20           |55        |-              |2817  |
+#'  |2021  |2029 |250       |603            |763              |199                |30                   |29           |116       |13             |4032  |
+#'  |Total |3829 |542       |1561           |1876             |501                |101                  |58           |187       |13             |8668  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -238,14 +279,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-/-     |full         |
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-/-     |1987  |
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `opclout`](https://gssdataexplorer.norc.org/variables/4248/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:-----|
+#'  |1987  |255  |55        |236            |465              |516                |213                  |63           |16        |-              |1819  |
+#'  |2021  |2029 |76        |203            |499              |735                |280                  |78           |119       |13             |4032  |
+#'  |Total |2284 |131       |439            |964              |1251               |493                  |141          |135       |13             |5851  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -275,14 +323,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-/-     |full         |
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-/-     |1987  |
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `oprace`](https://gssdataexplorer.norc.org/variables/4249/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:-----|
+#'  |1987  |255  |41        |230            |363              |505                |359                  |50           |16        |-              |1819  |
+#'  |2021  |2029 |44        |184            |420              |398                |754                  |73           |120       |10             |4032  |
+#'  |Total |2284 |85        |414            |783              |903                |1113                 |123          |136       |10             |5851  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -312,14 +367,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-/-     |full         |
-#'  |2021 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-/-     |1987  |
+#'  |B/C     |2021  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `oprelig`](https://gssdataexplorer.norc.org/variables/4250/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:-----|
+#'  |1987  |255  |74        |189            |224              |506                |515                  |40           |16        |-              |1819  |
+#'  |2021  |2029 |42        |97             |217              |579                |871                  |61           |120       |16             |4032  |
+#'  |Total |2284 |116       |286            |441              |1085               |1386                 |101          |136       |16             |5851  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -349,13 +411,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1987 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1987  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `opregion`](https://gssdataexplorer.norc.org/variables/4251/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |Total |
+#'  |:-----|:---|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:-----|
+#'  |1987  |255 |30        |104            |235              |575                |566                  |38           |16        |1819  |
+#'  |Total |255 |30        |104            |235              |575                |566                  |38           |16        |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality

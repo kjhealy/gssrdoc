@@ -24,16 +24,22 @@ Question A. How important is the abortion issue to you--would you say it is one 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/615/vshow}{GSS Data Explorer page for \code{abimp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not imp at all \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 218 \tab 765 \tab 557 \tab 285 \tab 25 \tab 10 \tab 1860 \cr
+   1984 \tab 484 \tab 160 \tab 459 \tab 264 \tab 97 \tab 7 \tab 2 \tab 1473 \cr
+   Total \tab 484 \tab 378 \tab 1224 \tab 821 \tab 382 \tab 32 \tab 12 \tab 3333 \cr
+}
 }
 
 \seealso{

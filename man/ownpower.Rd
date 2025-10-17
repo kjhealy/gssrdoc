@@ -24,16 +24,23 @@ A. Electric power.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4071/vshow}{GSS Data Explorer page for \code{ownpower}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab own it \tab control prices \tab leave alone \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 37 \tab 394 \tab 199 \tab 34 \tab 13 \tab 1534 \cr
+   1990 \tab 155 \tab 63 \tab 618 \tab 366 \tab 122 \tab 48 \tab 1372 \cr
+   Total \tab 1012 \tab 100 \tab 1012 \tab 565 \tab 156 \tab 61 \tab 2906 \cr
+}
 }
 
 \seealso{

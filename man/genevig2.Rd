@@ -21,15 +21,21 @@ Question Vignette order given to respondent.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3031/vshow}{GSS Data Explorer page for \code{genevig2}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab Total \cr
+   2004 \tab - \tab 128 \tab 103 \tab 111 \tab 124 \tab 108 \tab 96 \tab 117 \tab 127 \tab 123 \tab 127 \tab 102 \tab 118 \tab 119 \tab 124 \tab 123 \tab 98 \tab 126 \tab 118 \tab 132 \tab 107 \tab 129 \tab 118 \tab 116 \tab 118 \tab 2812 \cr
+   Total \tab 0 \tab 128 \tab 103 \tab 111 \tab 124 \tab 108 \tab 96 \tab 117 \tab 127 \tab 123 \tab 127 \tab 102 \tab 118 \tab 119 \tab 124 \tab 123 \tab 98 \tab 126 \tab 118 \tab 132 \tab 107 \tab 129 \tab 118 \tab 116 \tab 118 \tab 2812 \cr
+}
 }
 
 \seealso{

@@ -86,13 +86,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natborn`](https://gssdataexplorer.norc.org/variables/3024/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |mexico |canada |china |colombia |cuba |germany |guatemala |haiti |honduras |india |jamaica |korea |philippines |poland |trinidad |antigua |pakistan |belize |guyana |egypt |moldovia |brazil |portugal |panama |iran |ghana |bangladesh |puerto rico |turkey |italy |el salvidor |greece |ecuador |england |thailand |peru |australia |israel |netherlands |macedonia |france |argentina |lebanon |russia |cambodia |venezuela |iraq |romania |czech republic |nicaragua |arabic |gambia |west africa |barbados |south africa |ukraine |hungary |eritrea |ireland |laos |vietnam |senegal |sudan |nigeria |bosnia |uruguay |malaysia |armenia |congo |japan |dutch east indies |indonesia |africa |jordan |no answer |Total |
+#'  |:-----|:----|:------|:------|:-----|:--------|:----|:-------|:---------|:-----|:--------|:-----|:-------|:-----|:-----------|:------|:--------|:-------|:--------|:------|:------|:-----|:--------|:------|:--------|:------|:----|:-----|:----------|:-----------|:------|:-----|:-----------|:------|:-------|:-------|:--------|:----|:---------|:------|:-----------|:---------|:------|:---------|:-------|:------|:--------|:---------|:----|:-------|:--------------|:---------|:------|:------|:-----------|:--------|:------------|:-------|:-------|:-------|:-------|:----|:-------|:-------|:-----|:-------|:------|:-------|:--------|:-------|:-----|:-----|:-----------------|:---------|:------|:------|:---------|:-----|
+#'  |2004  |2539 |41     |5      |12    |4        |5    |8       |4         |1     |1        |13    |8       |6     |15          |5      |5        |1       |2        |1      |2      |6     |1        |6      |3        |2      |2    |1     |1          |6           |2      |6     |4           |4      |1       |16      |2        |3    |1         |2      |3           |2         |5      |3         |1       |3      |1        |4         |2    |2       |1              |1         |1      |1      |1           |1        |2            |5       |1       |1       |1       |2    |1       |1       |1     |3       |1      |1       |1        |1       |1     |2     |1                 |1         |1      |2      |3         |2812  |
+#'  |Total |2539 |41     |5      |12    |4        |5    |8       |4         |1     |1        |13    |8       |6     |15          |5      |5        |1       |2        |1      |2      |6     |1        |6      |3        |2      |2    |1     |1          |6           |2      |6     |4           |4      |1       |16      |2        |3    |1         |2      |3           |2         |5      |3         |1       |3      |1        |4         |2    |2       |1              |1         |1      |1      |1           |1        |2            |5       |1       |1       |1       |2    |1       |1       |1     |3       |1      |1       |1        |1       |1     |2     |1                 |1         |1      |2      |3         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
@@ -120,13 +126,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bornhome`](https://gssdataexplorer.norc.org/variables/3025/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |box a |box b |box c |other |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:-----|:-----|:-----|:----------|:---------|:-----|
+#'  |2004  |2539 |51    |180   |16    |3     |16         |7         |2812  |
+#'  |Total |2539 |51    |180   |16    |3     |16         |7         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
@@ -154,13 +166,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `travelus`](https://gssdataexplorer.norc.org/variables/3026/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |box a |box b |other |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:-----|:-----|:----------|:---------|:-----|
+#'  |2004  |2539 |21    |225   |7     |12         |8         |2812  |
+#'  |Total |2539 |21    |225   |7     |12         |8         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
@@ -188,13 +206,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `immstats`](https://gssdataexplorer.norc.org/variables/3027/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |box a |box b |box c |other |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:-----|:-----|:-----|:----------|:---------|:-----|
+#'  |2004  |2539 |92    |152   |1     |7     |13         |8         |2812  |
+#'  |Total |2539 |92    |152   |1     |7     |13         |8         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
@@ -221,13 +245,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rundrstd`](https://gssdataexplorer.norc.org/variables/3028/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no |other |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:-----|:----------|:---------|:-----|
+#'  |2004  |2540 |220 |23 |16    |8          |5         |2812  |
+#'  |Total |2540 |220 |23 |16    |8          |5         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
@@ -255,13 +285,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `robject`](https://gssdataexplorer.norc.org/variables/3029/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes, objected verbally |yes, delayed, kept silent for a while |no  |other |don't know |no answer |Total |
+#'  |:-----|:----|:----------------------|:-------------------------------------|:---|:-----|:----------|:---------|:-----|
+#'  |2004  |2540 |5                      |4                                     |248 |3     |7          |5         |2812  |
+#'  |Total |2540 |5                      |4                                     |248 |3     |7          |5         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
@@ -286,13 +322,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `genevig1`](https://gssdataexplorer.norc.org/variables/3030/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |1  |10 |11 |12 |13 |14 |15 |16 |17 |18 |19 |2   |20 |21 |22 |23 |24 |25 |26 |27 |28 |29 |3  |30 |31 |32 |4  |5  |6  |7  |8  |9  |Total |
+#'  |:-----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:-----|
+#'  |2004  |-   |80 |79 |83 |89 |92 |83 |84 |89 |98 |96 |92 |102 |86 |92 |88 |84 |85 |80 |91 |82 |90 |90 |77 |95 |88 |89 |88 |94 |88 |85 |77 |96 |2812  |
+#'  |Total |0   |80 |79 |83 |89 |92 |83 |84 |89 |98 |96 |92 |102 |86 |92 |88 |84 |85 |80 |91 |82 |90 |90 |77 |95 |88 |89 |88 |94 |88 |85 |77 |96 |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -317,13 +359,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `genevig2`](https://gssdataexplorer.norc.org/variables/3031/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |1   |10  |11  |12  |13  |14 |15  |16  |17  |18  |19  |2   |20  |21  |22  |23 |24  |3   |4   |5   |6   |7   |8   |9   |Total |
+#'  |:-----|:---|:---|:---|:---|:---|:---|:--|:---|:---|:---|:---|:---|:---|:---|:---|:---|:--|:---|:---|:---|:---|:---|:---|:---|:---|:-----|
+#'  |2004  |-   |128 |103 |111 |124 |108 |96 |117 |127 |123 |127 |102 |118 |119 |124 |123 |98 |126 |118 |132 |107 |129 |118 |116 |118 |2812  |
+#'  |Total |0   |128 |103 |111 |124 |108 |96 |117 |127 |123 |127 |102 |118 |119 |124 |123 |98 |126 |118 |132 |107 |129 |118 |116 |118 |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -348,13 +396,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `genenvo1`](https://gssdataexplorer.norc.org/variables/3032/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |1   |10  |11  |12  |13 |14 |15  |16 |17  |18  |19 |2  |20  |21  |3  |4  |5   |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:---|:---|:--|:--|:---|:--|:---|:---|:--|:--|:---|:---|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2004  |432 |164 |248 |196 |126 |54 |74 |239 |77 |102 |155 |75 |42 |107 |288 |43 |39 |124 |42 |60 |55 |44 |14         |12        |2812  |
+#'  |Total |432 |164 |248 |196 |126 |54 |74 |239 |77 |102 |155 |75 |42 |107 |288 |43 |39 |124 |42 |60 |55 |44 |14         |12        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -379,13 +433,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `genenvo2`](https://gssdataexplorer.norc.org/variables/3033/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |1   |10  |11  |12  |13 |14 |15  |16 |17 |18  |19 |2  |20 |21  |3  |4  |5   |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:---|:---|:---|:---|:---|:--|:--|:---|:--|:--|:---|:--|:--|:--|:---|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2004  |432 |172 |251 |186 |141 |51 |61 |228 |79 |95 |141 |69 |42 |97 |276 |50 |49 |128 |57 |51 |83 |42 |18         |13        |2812  |
+#'  |Total |432 |172 |251 |186 |141 |51 |61 |228 |79 |95 |141 |69 |42 |97 |276 |50 |49 |128 |57 |51 |83 |42 |18         |13        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment

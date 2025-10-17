@@ -22,15 +22,21 @@ Question C. Have you ever spent any time in prison or jail?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/687/vshow}{GSS Data Explorer page for \code{lockedup}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2012 \tab 220 \tab 259 \tab 1489 \tab 6 \tab 1974 \cr
+   Total \tab 220 \tab 259 \tab 1489 \tab 6 \tab 1974 \cr
+}
 }
 
 \seealso{

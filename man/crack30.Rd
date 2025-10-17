@@ -24,26 +24,33 @@ Question How long has it been since you last used â€œcrackâ€ cocaine in
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5073/vshow}{GSS Data Explorer page for \code{crack30}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab within the past 30 days \tab more than 30 days ago but within the past 12 months \tab more than 12 months ago but within the past 3 years \tab more than 3 years ago \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2629 \tab 6 \tab 15 \tab 18 \tab 54 \tab 2 \tab 93 \tab 2817 \cr
+   2002 \tab 2638 \tab 7 \tab 6 \tab 14 \tab 77 \tab 2 \tab 21 \tab 2765 \cr
+   2004 \tab 2690 \tab 6 \tab 7 \tab 15 \tab 78 \tab 1 \tab 15 \tab 2812 \cr
+   2006 \tab 4327 \tab 16 \tab 17 \tab 22 \tab 108 \tab 1 \tab 19 \tab 4510 \cr
+   2008 \tab 1899 \tab 6 \tab 4 \tab 10 \tab 92 \tab - \tab 12 \tab 2023 \cr
+   2010 \tab 1913 \tab 6 \tab 7 \tab 20 \tab 82 \tab - \tab 16 \tab 2044 \cr
+   2012 \tab 1845 \tab 2 \tab 4 \tab 10 \tab 86 \tab - \tab 27 \tab 1974 \cr
+   2014 \tab 2403 \tab 3 \tab 6 \tab 19 \tab 75 \tab 1 \tab 31 \tab 2538 \cr
+   2016 \tab 2755 \tab 4 \tab 3 \tab 9 \tab 85 \tab - \tab 11 \tab 2867 \cr
+   2018 \tab 2250 \tab 2 \tab 9 \tab 4 \tab 68 \tab - \tab 15 \tab 2348 \cr
+   2021 \tab 3901 \tab 1 \tab 11 \tab 5 \tab 90 \tab 3 \tab 21 \tab 4032 \cr
+   2022 \tab 3416 \tab 3 \tab 3 \tab 8 \tab 78 \tab 3 \tab 33 \tab 3544 \cr
+   Total \tab 32666 \tab 62 \tab 92 \tab 154 \tab 973 \tab 13 \tab 314 \tab 34274 \cr
+}
 }
 
 \seealso{

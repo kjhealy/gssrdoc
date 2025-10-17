@@ -25,20 +25,26 @@ J. The people I work with take a personal interest in me
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2805/vshow}{GSS Data Explorer page for \code{cowrkint}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 789 \tab 722 \tab 155 \tab 89 \tab 20 \tab 21 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 699 \tab 728 \tab 173 \tab 77 \tab 35 \tab 22 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 469 \tab 508 \tab 110 \tab 54 \tab 18 \tab 28 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 493 \tab 574 \tab 114 \tab 46 \tab 13 \tab 10 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 588 \tab 621 \tab 131 \tab 61 \tab 12 \tab 35 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 734 \tab 862 \tab 205 \tab 117 \tab 28 \tab 18 \tab 25 \tab 3544 \cr
+   Total \tab 8345 \tab 3772 \tab 4015 \tab 888 \tab 444 \tab 126 \tab 134 \tab 25 \tab 17749 \cr
+}
 }
 
 \seealso{

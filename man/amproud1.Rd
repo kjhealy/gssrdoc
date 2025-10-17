@@ -25,16 +25,22 @@ Question How proud are you of being American? (Please, select one response)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4895/vshow}{GSS Data Explorer page for \code{amproud1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab i am not american \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1596 \tab 937 \tab 210 \tab 23 \tab 4 \tab 25 \tab 15 \tab 2 \tab 2812 \cr
+   2014 \tab 1264 \tab 853 \tab 333 \tab 23 \tab 7 \tab 29 \tab 26 \tab 3 \tab 2538 \cr
+   Total \tab 2860 \tab 1790 \tab 543 \tab 46 \tab 11 \tab 54 \tab 41 \tab 5 \tab 5350 \cr
+}
 }
 
 \seealso{

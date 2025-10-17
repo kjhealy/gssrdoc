@@ -23,15 +23,21 @@ Question Now for another type of question. People have frequently noted that sci
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7603/vshow}{GSS Data Explorer page for \code{scibnftsv}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab benefits greater \tab about equal (phone mode only: volunteered) \tab harmful results greater \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2159 \tab 1078 \tab 698 \tab 62 \tab 12 \tab 1 \tab 22 \tab 4032 \cr
+   Total \tab 2159 \tab 1078 \tab 698 \tab 62 \tab 12 \tab 1 \tab 22 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

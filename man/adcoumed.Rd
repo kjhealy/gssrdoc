@@ -26,16 +26,22 @@ A. If the therapist or counselor said your child should be on medication, how li
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   A/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2944/vshow}{GSS Data Explorer page for \code{adcoumed}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab Total \cr
+   2002 \tab 1824 \tab 433 \tab 370 \tab 98 \tab 34 \tab 6 \tab 2765 \cr
+   Total \tab 1824 \tab 433 \tab 370 \tab 98 \tab 34 \tab 6 \tab 2765 \cr
+}
 }
 
 \seealso{

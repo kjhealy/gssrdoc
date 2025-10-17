@@ -25,15 +25,21 @@ today. In general, would you say the increased number of women has raised the ef
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/801/vshow}{GSS Data Explorer page for \code{fehlpmil}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab raised effectiveness \tab no difference \tab lowered effctiveness \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 364 \tab 1119 \tab 145 \tab 221 \tab 11 \tab 1860 \cr
+   Total \tab 0 \tab 364 \tab 1119 \tab 145 \tab 221 \tab 11 \tab 1860 \cr
+}
 }
 
 \seealso{

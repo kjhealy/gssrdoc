@@ -24,16 +24,22 @@ Question B. How often do you participate with others in helping set the way thin
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2794/vshow}{GSS Data Explorer page for \code{setthngs}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 969 \tab 819 \tab 616 \tab 215 \tab 126 \tab 6 \tab 14 \tab 2765 \cr
+   2006 \tab 2776 \tab 739 \tab 565 \tab 248 \tab 155 \tab 15 \tab 12 \tab 4510 \cr
+   Total \tab 3745 \tab 1558 \tab 1181 \tab 463 \tab 281 \tab 21 \tab 26 \tab 7275 \cr
+}
 }
 
 \seealso{

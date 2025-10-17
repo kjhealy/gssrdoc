@@ -24,15 +24,21 @@ J. An occupation in which one can help others
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/564/vshow}{GSS Data Explorer page for \code{jobhelp}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 923 \tab 14 \tab 16 \tab 29 \tab 50 \tab 103 \tab 200 \tab 506 \tab 6 \tab 13 \tab 1860 \cr
+   Total \tab 923 \tab 14 \tab 16 \tab 29 \tab 50 \tab 103 \tab 200 \tab 506 \tab 6 \tab 13 \tab 1860 \cr
+}
 }
 
 \seealso{

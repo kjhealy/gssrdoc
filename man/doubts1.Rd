@@ -24,16 +24,22 @@ A. Evil in the world
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1095/vshow}{GSS Data Explorer page for \code{doubts1}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 158 \tab 536 \tab 738 \tab 31 \tab 18 \tab 1481 \cr
+   1998 \tab 1387 \tab 171 \tab 476 \tab 750 \tab 37 \tab 11 \tab 2832 \cr
+   Total \tab 1387 \tab 329 \tab 1012 \tab 1488 \tab 68 \tab 29 \tab 4313 \cr
+}
 }
 
 \seealso{

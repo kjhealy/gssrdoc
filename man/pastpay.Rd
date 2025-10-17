@@ -24,15 +24,21 @@ Question When you went to work for your current employer, was your starting pay 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3875/vshow}{GSS Data Explorer page for \code{pastpay}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab higher \tab about the same \tab lower \tab current employer is first job \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1165 \tab 372 \tab 185 \tab 258 \tab 23 \tab 8 \tab 12 \tab 2023 \cr
+   Total \tab 1165 \tab 372 \tab 185 \tab 258 \tab 23 \tab 8 \tab 12 \tab 2023 \cr
+}
 }
 
 \seealso{

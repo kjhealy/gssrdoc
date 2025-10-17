@@ -14,14 +14,20 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `oppsegov`](https://gssdataexplorer.norc.org/variables/4938/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |not at all important |2   |3   |4   |5   |6   |very important |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------------|:---|:---|:---|:---|:---|:--------------|:------------|:---------|:-----|
+#'  |2004  |1340 |307                  |144 |131 |209 |220 |131 |281            |38           |11        |2812  |
+#'  |2014  |1274 |207                  |81  |73  |214 |200 |137 |222            |128          |2         |2538  |
+#'  |Total |2614 |514                  |225 |204 |423 |420 |268 |503            |166          |13        |5350  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -51,14 +57,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `poleff18`](https://gssdataexplorer.norc.org/variables/4939/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2004  |1340 |227            |423   |273                        |470      |73                |2            |4         |2812  |
+#'  |2014  |1274 |308            |413   |213                        |238      |64                |25           |3         |2538  |
+#'  |Total |2614 |535            |836   |486                        |708      |137               |27           |7         |5350  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -88,14 +100,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `poleff19`](https://gssdataexplorer.norc.org/variables/4940/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2004  |1340 |269            |812   |233                        |127      |21                |5            |5         |2812  |
+#'  |2014  |1274 |201            |615   |229                        |134      |34                |48           |3         |2538  |
+#'  |Total |2614 |470            |1427  |462                        |261      |55                |53           |8         |5350  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -125,14 +143,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `poleff20`](https://gssdataexplorer.norc.org/variables/4941/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2004  |1340 |65             |287   |359                        |615      |141               |1            |4         |2812  |
+#'  |2014  |1274 |71             |303   |313                        |411      |133               |29           |4         |2538  |
+#'  |Total |2614 |136            |590   |672                        |1026     |274               |30           |8         |5350  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -160,14 +184,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `actlaw`](https://gssdataexplorer.norc.org/variables/4942/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |fairly likely |not very likely |not at all likely |can't choose |no answer |Total |
+#'  |:-----|:----|:-----------|:-------------|:---------------|:-----------------|:------------|:---------|:-----|
+#'  |2004  |1340 |289         |589           |427             |146               |14           |7         |2812  |
+#'  |2014  |1274 |193         |423           |379             |189               |77           |3         |2538  |
+#'  |Total |2614 |482         |1012          |806             |335               |91           |10        |5350  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -195,14 +225,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `affctlaw`](https://gssdataexplorer.norc.org/variables/4943/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |fairly likely |not very likely |not at all likely |can't choose |no answer |Total |
+#'  |:-----|:----|:-----------|:-------------|:---------------|:-----------------|:------------|:---------|:-----|
+#'  |2004  |1340 |92          |431           |683             |233               |24           |9         |2812  |
+#'  |2014  |1274 |55          |228           |536             |371               |70           |4         |2538  |
+#'  |Total |2614 |147         |659           |1219            |604               |94           |13        |5350  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -230,14 +266,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polint1`](https://gssdataexplorer.norc.org/variables/4944/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very interested |fairly interested |not very interested |not at all interested |can't choose |no answer |Total |
+#'  |:-----|:----|:---------------|:-----------------|:-------------------|:---------------------|:------------|:---------|:-----|
+#'  |2004  |1340 |304             |717               |299                 |145                   |2            |5         |2812  |
+#'  |2014  |1274 |186             |525               |354                 |174                   |23           |2         |2538  |
+#'  |Total |2614 |490             |1242              |653                 |319                   |25           |7         |5350  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -267,15 +309,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
-#'  |2010 |A/B/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2010       |
+#'  |A/B/C   |2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `govdook`](https://gssdataexplorer.norc.org/variables/4945/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2004  |1340 |33             |416   |434                        |433      |149               |2            |5         |2812  |
+#'  |2010  |614  |23             |303   |323                        |492      |248               |35           |6         |2044  |
+#'  |2014  |1274 |35             |224   |323                        |423      |226               |31           |2         |2538  |
+#'  |Total |3228 |91             |943   |1080                       |1348     |623               |68           |13        |7394  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -305,15 +354,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
-#'  |2010 |A/B/-   |partial      |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/-   |2010       |
+#'  |A/B/C   |2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polgreed`](https://gssdataexplorer.norc.org/variables/4946/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
+#'  |2004  |1340 |195            |508   |346                        |390      |23                |4            |6         |2812  |
+#'  |2010  |614  |204            |512   |314                        |324      |18                |52           |6         |2044  |
+#'  |2014  |1274 |205            |513   |294                        |204      |12                |34           |2         |2538  |
+#'  |Total |3228 |604            |1533  |954                        |918      |53                |90           |14        |7394  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -341,14 +397,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2004, 2014 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `discpol`](https://gssdataexplorer.norc.org/variables/4947/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |often |sometimes |rarely |never |no answer |can't choose |Total |
+#'  |:-----|:----|:-----|:---------|:------|:-----|:---------|:------------|:-----|
+#'  |2004  |1340 |229   |539       |448    |251   |5         |-            |2812  |
+#'  |2014  |1274 |117   |402       |419    |317   |4         |5            |2538  |
+#'  |Total |2614 |346   |941       |867    |568   |9         |5            |5350  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship

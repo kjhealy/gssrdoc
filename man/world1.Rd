@@ -24,25 +24,33 @@ Look at the first set of contrasting images. If you think that "The world is bas
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/- \tab partial \cr
-   1991 \tab A/B/C \tab full \cr
-   1994 \tab A/B/- \tab partial \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989, 1990, 1994, 1996, 2000, 2002 \cr
+   A/B/C \tab 1988, 1991, 1998 \cr
+   Full \tab 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/366/vshow}{GSS Data Explorer page for \code{world1}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab world is evil \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab world is good \tab don't know \tab no answer \tab Total \cr
+   1985 \tab - \tab 100 \tab 41 \tab 105 \tab 447 \tab 377 \tab 194 \tab 242 \tab 7 \tab 21 \tab 1534 \cr
+   1987 \tab - \tab 143 \tab 68 \tab 154 \tab 461 \tab 372 \tab 225 \tab 365 \tab - \tab 31 \tab 1819 \cr
+   1988 \tab - \tab 103 \tab 54 \tab 112 \tab 428 \tab 340 \tab 180 \tab 237 \tab 7 \tab 20 \tab 1481 \cr
+   1989 \tab 531 \tab 66 \tab 38 \tab 77 \tab 290 \tab 229 \tab 134 \tab 151 \tab - \tab 21 \tab 1537 \cr
+   1990 \tab 444 \tab 47 \tab 28 \tab 76 \tab 279 \tab 243 \tab 126 \tab 116 \tab 2 \tab 11 \tab 1372 \cr
+   1991 \tab 158 \tab 74 \tab 52 \tab 73 \tab 339 \tab 326 \tab 237 \tab 169 \tab 3 \tab 86 \tab 1517 \cr
+   1994 \tab 1522 \tab 78 \tab 61 \tab 155 \tab 418 \tab 345 \tab 196 \tab 196 \tab 1 \tab 20 \tab 2992 \cr
+   1996 \tab 944 \tab 107 \tab 65 \tab 179 \tab 553 \tab 467 \tab 298 \tab 268 \tab 5 \tab 18 \tab 2904 \cr
+   1998 \tab 463 \tab 125 \tab 92 \tab 196 \tab 687 \tab 542 \tab 384 \tab 307 \tab 7 \tab 29 \tab 2832 \cr
+   2000 \tab 940 \tab 71 \tab 74 \tab 135 \tab 503 \tab 465 \tab 327 \tab 278 \tab 4 \tab 20 \tab 2817 \cr
+   2002 \tab 1857 \tab 38 \tab 26 \tab 75 \tab 253 \tab 212 \tab 139 \tab 148 \tab 14 \tab 3 \tab 2765 \cr
+   Total \tab 6859 \tab 952 \tab 599 \tab 1337 \tab 4658 \tab 3918 \tab 2440 \tab 2477 \tab 50 \tab 280 \tab 23570 \cr
+}
 }
 
 \seealso{

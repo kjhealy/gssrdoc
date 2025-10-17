@@ -27,16 +27,22 @@ Question How often do you use the media, including television, newspapers, radio
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4966/vshow}{GSS Data Explorer page for \code{polnews}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab several times a day \tab once a day \tab 5-6 days a week \tab 3-4 days a week \tab 1-2 days a week \tab less than 1 day a week \tab never \tab can't choose \tab no answer \tab Total \cr
+   2014 \tab 1274 \tab 344 \tab 371 \tab 90 \tab 91 \tab 101 \tab 145 \tab 111 \tab 10 \tab 1 \tab 2538 \cr
+   Total \tab 1274 \tab 344 \tab 371 \tab 90 \tab 91 \tab 101 \tab 145 \tab 111 \tab 10 \tab 1 \tab 2538 \cr
+}
 }
 
 \seealso{

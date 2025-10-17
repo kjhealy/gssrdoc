@@ -22,16 +22,22 @@ Question C. During April through June 2010, were you living in the United States
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5587/vshow}{GSS Data Explorer page for \code{res2010}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab living in the u.s. \tab not living in u.s. \tab no answer \tab Total \cr
+   2012 \tab 2 \tab 1951 \tab 20 \tab 1 \tab 1974 \cr
+   2014 \tab - \tab 2483 \tab 54 \tab 1 \tab 2538 \cr
+   Total \tab 2 \tab 4434 \tab 74 \tab 2 \tab 4512 \cr
+}
 }
 
 \seealso{

@@ -22,16 +22,22 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |1989, 1990, 1991, 1993 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `aidsreg2`](https://gssdataexplorer.norc.org/variables/5018/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |new england |middle atlantic |e. nor. central |w. nor. central |south atlantic |e. sou. central |w. sou. central |pacific |no answer |mountain |foreign |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:---------------|:--------------|:---------------|:---------------|:-------|:---------|:--------|:-------|:-----|
+#'  |1989  |1486 |2           |10              |3               |1               |10             |1               |9               |10      |5         |-        |-       |1537  |
+#'  |1990  |1324 |-           |7               |6               |2               |13             |1               |4               |9       |2         |4        |-       |1372  |
+#'  |1991  |1422 |3           |16              |11              |3               |18             |1               |7               |29      |5         |2        |-       |1517  |
+#'  |1993  |1407 |18          |33              |23              |2               |36             |8               |17              |40      |10        |9        |3       |1606  |
+#'  |Total |5639 |23          |66              |43              |8               |77             |11              |37              |88      |22        |15       |3       |6032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -65,16 +71,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |1989, 1990, 1991, 1993 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `aidswho3`](https://gssdataexplorer.norc.org/variables/5019/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |friend |neighbor |co-worker |acquaintance |no answer |patient |other |son or daughter |other relative |Total |
+#'  |:-----|:----|:------|:--------|:---------|:------------|:---------|:-------|:-----|:---------------|:--------------|:-----|
+#'  |1989  |1517 |5      |1        |2         |8            |4         |-       |-     |-               |-              |1537  |
+#'  |1990  |1347 |6      |1        |4         |8            |1         |3       |2     |-               |-              |1372  |
+#'  |1991  |1466 |17     |1        |3         |17           |4         |6       |2     |1               |-              |1517  |
+#'  |1993  |1490 |30     |2        |10        |50           |6         |11      |4     |-               |3              |1606  |
+#'  |Total |5820 |58     |5        |19        |83           |15        |20      |8     |1               |3              |6032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -101,16 +113,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |1989, 1990, 1991, 1993 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `aidsded3`](https://gssdataexplorer.norc.org/variables/5020/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |living |died |no answer |don't know |Total |
+#'  |:-----|:----|:------|:----|:---------|:----------|:-----|
+#'  |1989  |1517 |13     |4    |3         |-          |1537  |
+#'  |1990  |1347 |11     |13   |1         |-          |1372  |
+#'  |1991  |1466 |17     |27   |5         |2          |1517  |
+#'  |1993  |1490 |34     |75   |6         |1          |1606  |
+#'  |Total |5820 |75     |119  |15        |3          |6032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -137,16 +155,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |1989, 1990, 1991, 1993 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `aidssex3`](https://gssdataexplorer.norc.org/variables/5021/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |male |female |no answer |Total |
+#'  |:-----|:----|:----|:------|:---------|:-----|
+#'  |1989  |1517 |16   |1      |3         |1537  |
+#'  |1990  |1347 |23   |1      |1         |1372  |
+#'  |1991  |1466 |43   |3      |5         |1517  |
+#'  |1993  |1490 |101  |9      |6         |1606  |
+#'  |Total |5820 |183  |14     |15        |6032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -175,16 +199,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |1989, 1990, 1991, 1993 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `aidsage3`](https://gssdataexplorer.norc.org/variables/5022/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |21-40 |41 year or older |no answer |11-20 |10 years or under |Total |
+#'  |:-----|:----|:-----|:----------------|:---------|:-----|:-----------------|:-----|
+#'  |1989  |1517 |15    |2                |3         |-     |-                 |1537  |
+#'  |1990  |1347 |19    |4                |1         |1     |-                 |1372  |
+#'  |1991  |1466 |37    |5                |5         |3     |1                 |1517  |
+#'  |1993  |1490 |88    |19               |6         |2     |1                 |1606  |
+#'  |Total |5820 |159   |30               |15        |6     |2                 |6032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -213,16 +243,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |1989, 1990, 1991, 1993 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `aidsrac3`](https://gssdataexplorer.norc.org/variables/5023/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |black |white |hispanic |no answer |other |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:---------|:-----|:-----|
+#'  |1989  |1517 |1     |15    |1        |3         |-     |1537  |
+#'  |1990  |1347 |2     |18    |4        |1         |-     |1372  |
+#'  |1991  |1466 |8     |34    |3        |6         |-     |1517  |
+#'  |1993  |1490 |20    |75    |10       |6         |5     |1606  |
+#'  |Total |5820 |31    |142   |18       |16        |5     |6032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -257,16 +293,22 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |1989, 1990, 1991, 1993 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `aidsreg3`](https://gssdataexplorer.norc.org/variables/5024/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |new england |middle atlantic |e. nor. central |south atlantic |w. sou. central |pacific |no answer |e. sou. central |mountain |w. nor. central |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:--------------|:---------------|:-------|:---------|:---------------|:--------|:---------------|:-----|
+#'  |1989  |1517 |1           |3               |1               |4              |4               |3       |4         |-               |-        |-               |1537  |
+#'  |1990  |1347 |-           |7               |4               |5              |1               |5       |1         |1               |1        |-               |1372  |
+#'  |1991  |1466 |1           |8               |6               |8              |2               |16      |7         |-               |1        |2               |1517  |
+#'  |1993  |1490 |5           |24              |12              |21             |9               |25      |6         |3               |8        |3               |1606  |
+#'  |Total |5820 |7           |42              |23              |38             |16              |49      |18        |4               |10       |5               |6032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -291,14 +333,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1990, 1991 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suiknew`](https://gssdataexplorer.norc.org/variables/5025/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |0    |1   |2  |3  |no answer |4  |Total |
+#'  |:-----|:---|:----|:---|:--|:--|:---------|:--|:-----|
+#'  |1990  |-   |1238 |109 |17 |6  |2         |-  |1372  |
+#'  |1991  |-   |1344 |133 |25 |11 |3         |1  |1517  |
+#'  |Total |0   |2582 |242 |42 |17 |5         |1  |2889  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -332,14 +380,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1990, 1991 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suiwho`](https://gssdataexplorer.norc.org/variables/5026/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |son or daughter |other relative |friend |neighbor |co-worker |acquaintance |other |no answer |partner or lover |patient |Total |
+#'  |:-----|:----|:---------------|:--------------|:------|:--------|:---------|:------------|:-----|:---------|:----------------|:-------|:-----|
+#'  |1990  |1238 |1               |18             |45     |9        |10        |43           |6     |2         |-                |-       |1372  |
+#'  |1991  |1344 |-               |24             |62     |10       |15        |46           |5     |4         |2                |5       |1517  |
+#'  |Total |2582 |1               |42             |107    |19       |25        |89           |11    |6         |2                |5       |2889  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -366,14 +420,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1990, 1991 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `suisex`](https://gssdataexplorer.norc.org/variables/5027/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |male |female |no answer |Total |
+#'  |:-----|:----|:----|:------|:---------|:-----|
+#'  |1990  |1238 |105  |27     |2         |1372  |
+#'  |1991  |1344 |133  |37     |3         |1517  |
+#'  |Total |2582 |238  |64     |5         |2889  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS

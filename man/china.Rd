@@ -31,27 +31,34 @@ F. China
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1974, 1975, 1977, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5495/vshow}{GSS Data Explorer page for \code{china}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab not available in this year \tab +5 \tab +4 \tab +3 \tab +2 \tab +1 \tab -1 \tab -2 \tab -3 \tab -4 \tab -5 \tab dk, na, iap \tab iap \tab Total \cr
+   1974 \tab - \tab 46 \tab 55 \tab 108 \tab 158 \tab 246 \tab 198 \tab 114 \tab 129 \tab 97 \tab 238 \tab 95 \tab - \tab 1484 \cr
+   1975 \tab - \tab 38 \tab 43 \tab 105 \tab 120 \tab 226 \tab 228 \tab 123 \tab 134 \tab 115 \tab 237 \tab 121 \tab - \tab 1490 \cr
+   1977 \tab - \tab 45 \tab 55 \tab 95 \tab 105 \tab 251 \tab 235 \tab 121 \tab 141 \tab 92 \tab 252 \tab 138 \tab - \tab 1530 \cr
+   1982 \tab - \tab 84 \tab 102 \tab 214 \tab 217 \tab 333 \tab 246 \tab 138 \tab 124 \tab 105 \tab 129 \tab 168 \tab - \tab 1860 \cr
+   1983 \tab - \tab 54 \tab 61 \tab 137 \tab 206 \tab 323 \tab 259 \tab 146 \tab 126 \tab 67 \tab 117 \tab 103 \tab - \tab 1599 \cr
+   1985 \tab - \tab 69 \tab 86 \tab 226 \tab 211 \tab 337 \tab 183 \tab 98 \tab 92 \tab 50 \tab 76 \tab 106 \tab - \tab 1534 \cr
+   1986 \tab - \tab 67 \tab 77 \tab 217 \tab 223 \tab 352 \tab 157 \tab 90 \tab 86 \tab 52 \tab 83 \tab 66 \tab - \tab 1470 \cr
+   1988 \tab - \tab 64 \tab 68 \tab 135 \tab 125 \tab 249 \tab 114 \tab 50 \tab 24 \tab 25 \tab 57 \tab 570 \tab - \tab 1481 \cr
+   1989 \tab - \tab 43 \tab 59 \tab 119 \tab 128 \tab 284 \tab 124 \tab 52 \tab 39 \tab 21 \tab 54 \tab 614 \tab - \tab 1537 \cr
+   1990 \tab - \tab 41 \tab 34 \tab 86 \tab 102 \tab 199 \tab 137 \tab 67 \tab 51 \tab 37 \tab 109 \tab 509 \tab - \tab 1372 \cr
+   1991 \tab - \tab 57 \tab 56 \tab 115 \tab 132 \tab 205 \tab 117 \tab 72 \tab 58 \tab 43 \tab 93 \tab 569 \tab - \tab 1517 \cr
+   1993 \tab - \tab 53 \tab 42 \tab 101 \tab 115 \tab 247 \tab 138 \tab 96 \tab 76 \tab 45 \tab 103 \tab 590 \tab - \tab 1606 \cr
+   1994 \tab - \tab 23 \tab 25 \tab 41 \tab 43 \tab 92 \tab 76 \tab 53 \tab 47 \tab 27 \tab 51 \tab 2514 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 684 \tab 763 \tab 1699 \tab 1885 \tab 3344 \tab 2212 \tab 1220 \tab 1127 \tab 776 \tab 1599 \tab 6163 \tab 0 \tab 21472 \cr
+}
 }
 
 \seealso{

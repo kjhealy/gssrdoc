@@ -22,21 +22,26 @@ A. IF WORKING, FULL OR PART TIME:  How many hours did (he/she) work last week, a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6155/vshow}{GSS Data Explorer page for \code{cohrs1}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 15 \tab 20 \tab 25 \tab 30 \tab 32 \tab 35 \tab 36 \tab 38 \tab 39 \tab 40 \tab 42 \tab 45 \tab 48 \tab 50 \tab 55 \tab 60 \tab 68 \tab 70 \tab 84 \tab 89+ hours \tab don't know \tab 24 \tab 26 \tab 27 \tab 28 \tab 34 \tab 4 \tab 44 \tab 54 \tab 58 \tab 63 \tab 65 \tab 78 \tab 8 \tab 80 \tab no answer \tab 12 \tab 16 \tab 33 \tab 37 \tab 43 \tab 46 \tab 47 \tab 49 \tab 62 \tab 72 \tab 17 \tab 22 \tab 52 \tab 23 \tab 41 \tab 5 \tab 53 \tab 6 \tab skipped on web \tab 0 \tab 56 \tab 64 \tab 75 \tab Total \cr
+   2012 \tab 1860 \tab 2 \tab 3 \tab 3 \tab 2 \tab 5 \tab 6 \tab 2 \tab 4 \tab 1 \tab 1 \tab 39 \tab 4 \tab 5 \tab 2 \tab 10 \tab 5 \tab 7 \tab 1 \tab 3 \tab 1 \tab 3 \tab 5 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2386 \tab - \tab - \tab 4 \tab 7 \tab 10 \tab 3 \tab 4 \tab - \tab - \tab - \tab 56 \tab 3 \tab 11 \tab 3 \tab 14 \tab 2 \tab 9 \tab - \tab 1 \tab - \tab - \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2693 \tab - \tab 3 \tab 5 \tab 3 \tab 11 \tab - \tab 4 \tab 3 \tab - \tab 1 \tab 66 \tab 2 \tab 4 \tab 3 \tab 12 \tab 4 \tab 17 \tab - \tab 6 \tab - \tab 2 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 3 \tab - \tab 2 \tab 1 \tab 1 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2181 \tab 1 \tab 2 \tab 4 \tab 1 \tab 8 \tab - \tab 4 \tab 5 \tab 3 \tab - \tab 68 \tab 2 \tab 6 \tab 4 \tab 15 \tab 5 \tab 13 \tab 1 \tab 2 \tab 1 \tab - \tab 4 \tab 1 \tab - \tab - \tab 1 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab 2 \tab - \tab 3 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 3791 \tab - \tab 3 \tab 6 \tab 2 \tab 9 \tab 1 \tab 3 \tab 3 \tab 2 \tab 2 \tab 105 \tab 2 \tab 8 \tab 8 \tab 24 \tab 2 \tab 13 \tab - \tab 2 \tab - \tab 1 \tab 1 \tab 6 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 3 \tab - \tab - \tab 2 \tab 8 \tab 2 \tab 2 \tab - \tab 1 \tab 2 \tab 1 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab 3317 \tab 3 \tab 1 \tab 2 \tab 1 \tab 11 \tab 2 \tab 4 \tab 1 \tab 2 \tab - \tab 113 \tab - \tab 9 \tab 3 \tab 20 \tab 2 \tab 12 \tab - \tab 5 \tab - \tab 2 \tab 4 \tab 1 \tab - \tab 1 \tab - \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab 2 \tab - \tab 2 \tab 3 \tab 2 \tab 1 \tab - \tab - \tab 1 \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 3544 \cr
+   Total \tab 16228 \tab 6 \tab 12 \tab 24 \tab 16 \tab 54 \tab 12 \tab 21 \tab 16 \tab 8 \tab 4 \tab 447 \tab 13 \tab 43 \tab 23 \tab 95 \tab 20 \tab 71 \tab 2 \tab 19 \tab 2 \tab 8 \tab 19 \tab 12 \tab 4 \tab 5 \tab 3 \tab 4 \tab 2 \tab 4 \tab 1 \tab 2 \tab 2 \tab 10 \tab 1 \tab 6 \tab 11 \tab 14 \tab 5 \tab 3 \tab 1 \tab 7 \tab 6 \tab 3 \tab 3 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 6 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 3 \tab 2 \tab 1 \tab 1 \tab 17303 \cr
+}
 }
 
 \seealso{

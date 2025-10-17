@@ -30,21 +30,30 @@ Question We are interested in how people get information about events in the new
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab C/-/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
+   C/-/- \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3314/vshow}{GSS Data Explorer page for \code{newsfrom}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab newspaper \tab magazines \tab the internet \tab books/other printed material \tab tv \tab radio \tab government agencies \tab family \tab friends/colleagues \tab other \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 446 \tab 20 \tab 253 \tab 9 \tab 916 \tab 131 \tab 3 \tab 33 \tab 33 \tab 15 \tab 3 \tab 2 \tab 4510 \cr
+   2008 \tab 518 \tab 286 \tab 16 \tab 310 \tab 8 \tab 741 \tab 93 \tab 2 \tab 21 \tab 20 \tab 3 \tab 2 \tab 3 \tab 2023 \cr
+   2010 \tab 1761 \tab 45 \tab 1 \tab 62 \tab 3 \tab 144 \tab 19 \tab 1 \tab 1 \tab 7 \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 121 \tab 6 \tab 299 \tab 5 \tab 476 \tab 54 \tab 1 \tab 17 \tab 13 \tab 2 \tab 4 \tab 4 \tab 1974 \cr
+   2014 \tab 1299 \tab 134 \tab 6 \tab 420 \tab 4 \tab 550 \tab 75 \tab 3 \tab 25 \tab 20 \tab 1 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 110 \tab 7 \tab 601 \tab 4 \tab 532 \tab 65 \tab 1 \tab 29 \tab 25 \tab 12 \tab - \tab 4 \tab 2867 \cr
+   2018 \tab 1173 \tab 79 \tab 2 \tab 539 \tab 5 \tab 422 \tab 69 \tab 4 \tab 30 \tab 22 \tab 2 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 9846 \tab 1221 \tab 58 \tab 2484 \tab 38 \tab 3781 \tab 506 \tab 15 \tab 156 \tab 140 \tab 35 \tab 11 \tab 13 \tab 18304 \cr
+}
 }
 
 \seealso{

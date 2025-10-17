@@ -22,15 +22,21 @@ Question Even though they are no longer drafted for military service, young men 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/816/vshow}{GSS Data Explorer page for \code{copunish}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 956 \tab 446 \tab 50 \tab 21 \tab 1473 \cr
+   Total \tab 0 \tab 956 \tab 446 \tab 50 \tab 21 \tab 1473 \cr
+}
 }
 
 \seealso{

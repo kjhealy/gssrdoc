@@ -23,23 +23,29 @@ C. Did she work for as long as a year around the time you were 16?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
-   1974 \tab - \tab full \cr
-   1975 \tab - \tab full \cr
-   1976 \tab - \tab full \cr
-   1977 \tab - \tab full \cr
-   1978 \tab - \tab full \cr
-   1980 \tab - \tab full \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/91/vshow}{GSS Data Explorer page for \code{mawk16}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1973 \tab 913 \tab 399 \tab 185 \tab 6 \tab 1 \tab 1504 \cr
+   1974 \tab 882 \tab 412 \tab 186 \tab 2 \tab 2 \tab 1484 \cr
+   1975 \tab 794 \tab 447 \tab 226 \tab 4 \tab 19 \tab 1490 \cr
+   1976 \tab 802 \tab 438 \tab 233 \tab 5 \tab 21 \tab 1499 \cr
+   1977 \tab 877 \tab 419 \tab 201 \tab 2 \tab 31 \tab 1530 \cr
+   1978 \tab 776 \tab 491 \tab 253 \tab 2 \tab 10 \tab 1532 \cr
+   1980 \tab 743 \tab 447 \tab 259 \tab 2 \tab 17 \tab 1468 \cr
+   1982 \tab 944 \tab 631 \tab 216 \tab 2 \tab 67 \tab 1860 \cr
+   1983 \tab 731 \tab 584 \tab 273 \tab 4 \tab 7 \tab 1599 \cr
+   Total \tab 7462 \tab 4268 \tab 2032 \tab 29 \tab 175 \tab 13966 \cr
+}
 }
 
 \seealso{

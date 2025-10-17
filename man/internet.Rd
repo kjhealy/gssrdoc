@@ -26,15 +26,21 @@ G. A benefit of the Internet is that it makes information available to more and 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4889/vshow}{GSS Data Explorer page for \code{internet}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1596 \tab 574 \tab 519 \tab 79 \tab 20 \tab 6 \tab 17 \tab 1 \tab 2812 \cr
+   Total \tab 1596 \tab 574 \tab 519 \tab 79 \tab 20 \tab 6 \tab 17 \tab 1 \tab 2812 \cr
+}
 }
 
 \seealso{

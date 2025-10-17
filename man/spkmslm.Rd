@@ -23,23 +23,28 @@ A. If such a person wanted to make a speech in your community preaching hatred o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/264/vshow}{GSS Data Explorer page for \code{spkmslm}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, allowed to speak \tab not allowed \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2008 \tab 671 \tab 567 \tab 761 \tab 16 \tab 8 \tab - \tab 2023 \cr
+   2010 \tab 763 \tab 528 \tab 736 \tab 14 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 666 \tab 569 \tab 713 \tab 19 \tab 7 \tab - \tab 1974 \cr
+   2014 \tab 824 \tab 748 \tab 945 \tab 14 \tab 7 \tab - \tab 2538 \cr
+   2016 \tab 977 \tab 825 \tab 1031 \tab 20 \tab 14 \tab - \tab 2867 \cr
+   2018 \tab 774 \tab 715 \tab 832 \tab 18 \tab 9 \tab - \tab 2348 \cr
+   2021 \tab 2714 \tab 629 \tab 678 \tab 1 \tab - \tab 10 \tab 4032 \cr
+   2022 \tab 2380 \tab 540 \tab 601 \tab 12 \tab 5 \tab 6 \tab 3544 \cr
+   Total \tab 9769 \tab 5121 \tab 6297 \tab 114 \tab 53 \tab 16 \tab 21370 \cr
+}
 }
 
 \seealso{

@@ -25,20 +25,26 @@ G. On my job, I know exactly what is expected of me
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2780/vshow}{GSS Data Explorer page for \code{knowwhat}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 772 \tab 890 \tab 91 \tab 22 \tab 8 \tab 13 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 721 \tab 862 \tab 111 \tab 19 \tab 9 \tab 12 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 468 \tab 626 \tab 58 \tab 11 \tab 1 \tab 23 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 516 \tab 670 \tab 53 \tab 4 \tab 1 \tab 6 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 514 \tab 832 \tab 60 \tab 7 \tab 4 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 752 \tab 1052 \tab 149 \tab 13 \tab 5 \tab 8 \tab 19 \tab 3544 \cr
+   Total \tab 8336 \tab 3743 \tab 4932 \tab 522 \tab 76 \tab 28 \tab 93 \tab 19 \tab 17749 \cr
+}
 }
 
 \seealso{

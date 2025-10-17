@@ -27,15 +27,21 @@ A. Deciding whether or not to buy an automobile.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1881/vshow}{GSS Data Explorer page for \code{decauto}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab husband alone \tab husband after consulting with wife \tab husband and wife together \tab wife after consulting husband \tab wife alone \tab other \tab no answer \tab see codebook \tab Total \cr
+   1996 \tab 2196 \tab 47 \tab 90 \tab 501 \tab 22 \tab 21 \tab 5 \tab 3 \tab 19 \tab 2904 \cr
+   Total \tab 2196 \tab 47 \tab 90 \tab 501 \tab 22 \tab 21 \tab 5 \tab 3 \tab 19 \tab 2904 \cr
+}
 }
 
 \seealso{

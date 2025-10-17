@@ -25,15 +25,21 @@ B. And are there people you could ask to help influence important decisions in y
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4120/vshow}{GSS Data Explorer page for \code{hlpinflu}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab no, nobody \tab yes, a few people \tab yes, some people \tab yes, a lot of people \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 566 \tab 630 \tab 229 \tab 85 \tab 6 \tab 2 \tab 4510 \cr
+   Total \tab 2992 \tab 566 \tab 630 \tab 229 \tab 85 \tab 6 \tab 2 \tab 4510 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,23 @@ Question Do you feel that your family, relatives and/or friends make too many de
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4235/vshow}{GSS Data Explorer page for \code{demands}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab no, never \tab yes, but seldom \tab yes, sometimes \tab yes, often \tab yes, very often \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 504 \tab 282 \tab 269 \tab 54 \tab 27 \tab 3 \tab 10 \tab 2765 \cr
+   2018 \tab 1175 \tab 696 \tab 228 \tab 177 \tab 44 \tab 24 \tab 2 \tab 2 \tab 2348 \cr
+   Total \tab 2791 \tab 1200 \tab 510 \tab 446 \tab 98 \tab 51 \tab 5 \tab 12 \tab 5113 \cr
+}
 }
 
 \seealso{

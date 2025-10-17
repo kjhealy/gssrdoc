@@ -23,15 +23,21 @@ I. By taking an active part in political and social affairs the people can contr
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4047/vshow}{GSS Data Explorer page for \code{poleff9}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 233 \tab 344 \tab 91 \tab 9 \tab 1534 \cr
+   Total \tab 857 \tab 233 \tab 344 \tab 91 \tab 9 \tab 1534 \cr
+}
 }
 
 \seealso{

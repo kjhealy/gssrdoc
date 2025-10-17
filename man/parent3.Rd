@@ -25,17 +25,24 @@ B3. Third Person is Parent
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   Full \tab 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/882/vshow}{GSS Data Explorer page for \code{parent3}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab don't know \tab Total \cr
+   1985 \tab 599 \tab 105 \tab 826 \tab 4 \tab - \tab 1534 \cr
+   1987 \tab 735 \tab 143 \tab 916 \tab 25 \tab - \tab 1819 \cr
+   2004 \tab 2240 \tab 66 \tab 458 \tab 47 \tab 1 \tab 2812 \cr
+   Total \tab 3574 \tab 314 \tab 2200 \tab 76 \tab 1 \tab 6165 \cr
+}
 }
 
 \seealso{

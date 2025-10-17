@@ -23,17 +23,23 @@ J. Total Fall Enrollment
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6166/vshow}{GSS Data Explorer page for \code{coeftotlt}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab 468 or more students \tab 0-467 students enrolled \tab no answer \tab Total \cr
+   2012 \tab 1939 \tab 35 \tab - \tab - \tab 1974 \cr
+   2014 \tab 2507 \tab 29 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 2806 \tab 60 \tab - \tab 1 \tab 2867 \cr
+   Total \tab 7252 \tab 124 \tab 2 \tab 1 \tab 7379 \cr
+}
 }
 
 \seealso{

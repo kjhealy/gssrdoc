@@ -22,16 +22,23 @@ Question B. School?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2580/vshow}{GSS Data Explorer page for \code{compschl}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2665 \tab 39 \tab 85 \tab 28 \tab 2817 \cr
+   2002 \tab 2537 \tab 69 \tab 156 \tab 3 \tab 2765 \cr
+   Total \tab 5202 \tab 108 \tab 241 \tab 31 \tab 5582 \cr
+}
 }
 
 \seealso{

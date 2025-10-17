@@ -22,17 +22,22 @@ Question Are/were you employed by a private employer (including non-profit organ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7433/vshow}{GSS Data Explorer page for \code{wrkgovt2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 79 \tab 2322 \tab 1597 \tab 2 \tab 5 \tab 27 \tab 4032 \cr
+   2022 \tab 113 \tab 2157 \tab 1221 \tab 35 \tab 4 \tab 14 \tab 3544 \cr
+   Total \tab 192 \tab 4479 \tab 2818 \tab 37 \tab 9 \tab 41 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

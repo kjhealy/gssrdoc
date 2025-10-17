@@ -27,18 +27,25 @@ C. Spent time talking with someone who was a bit down or depressed
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4222/vshow}{GSS Data Explorer page for \code{talkedto}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least two or three times in the past year \tab once in the past year \tab not at all in the past year \tab no answer \tab don't know \tab Total \cr
+   2002 \tab 1616 \tab 200 \tab 172 \tab 256 \tab 338 \tab 90 \tab 86 \tab 7 \tab - \tab 2765 \cr
+   2004 \tab 1472 \tab 206 \tab 230 \tab 355 \tab 394 \tab 78 \tab 72 \tab 2 \tab 3 \tab 2812 \cr
+   2012 \tab 666 \tab 169 \tab 197 \tab 307 \tab 391 \tab 98 \tab 135 \tab 6 \tab 5 \tab 1974 \cr
+   2014 \tab 1264 \tab 197 \tab 173 \tab 289 \tab 391 \tab 100 \tab 119 \tab 4 \tab 1 \tab 2538 \cr
+   Total \tab 5018 \tab 772 \tab 772 \tab 1207 \tab 1514 \tab 366 \tab 412 \tab 19 \tab 9 \tab 10089 \cr
+}
 }
 
 \seealso{

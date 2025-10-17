@@ -26,16 +26,22 @@ PROBE:  Anyone else?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/851/vshow}{GSS Data Explorer page for \code{rclose2}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab especially close \tab not esp. close \tab no answer \tab Total \cr
+   1985 \tab 1003 \tab 219 \tab 306 \tab 6 \tab 1534 \cr
+   1987 \tab 1209 \tab 146 \tab 394 \tab 70 \tab 1819 \cr
+   Total \tab 2212 \tab 365 \tab 700 \tab 76 \tab 3353 \cr
+}
 }
 
 \seealso{

@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `feelwhts`](https://gssdataexplorer.norc.org/variables/2733/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very warm |2   |3   |4   |5   |6  |7  |8  |very cool |don't know |no answer |Total |
+#'  |:-----|:---|:---------|:---|:---|:---|:---|:--|:--|:--|:---------|:----------|:---------|:-----|
+#'  |2002  |-   |953       |477 |361 |245 |522 |55 |53 |26 |42        |21         |10        |2765  |
+#'  |Total |0   |953       |477 |361 |245 |522 |55 |53 |26 |42        |21         |10        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -50,13 +56,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethsame`](https://gssdataexplorer.norc.org/variables/2734/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |-   |272            |1201  |453                        |645      |150               |32         |12        |2765  |
+#'  |Total |0   |272            |1201  |453                        |645      |150               |32         |12        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -86,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethdiff`](https://gssdataexplorer.norc.org/variables/2735/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |-   |278            |1378  |575                        |445      |37                |44         |8         |2765  |
+#'  |Total |0   |278            |1378  |575                        |445      |37                |44         |8         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -122,13 +140,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whtsdiff`](https://gssdataexplorer.norc.org/variables/2736/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |-   |258            |1108  |633                        |652      |71                |32         |11        |2765  |
+#'  |Total |0   |258            |1108  |633                        |652      |71                |32         |11        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -158,13 +182,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `docvig`](https://gssdataexplorer.norc.org/variables/2737/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |our physcian s group...(c4) |it use to be that physicans...(c5) |i can understand...(c6) |i understand that...(c7) |i have had a lot...(c8) |i usually don t order...(c9) |Total |
+#'  |:-----|:---|:---------------------------|:----------------------------------|:-----------------------|:------------------------|:-----------------------|:----------------------------|:-----|
+#'  |2002  |-   |466                         |461                                |451                     |464                      |465                     |458                          |2765  |
+#'  |Total |0   |466                         |461                                |451                     |464                      |465                     |458                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -190,13 +220,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `regdoc`](https://gssdataexplorer.norc.org/variables/2738/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes  |no  |don't know |no answer |Total |
+#'  |:-----|:---|:----|:---|:----------|:---------|:-----|
+#'  |2002  |-   |2294 |460 |7          |4         |2765  |
+#'  |Total |0   |2294 |460 |7          |4         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -222,13 +258,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `regdocyr`](https://gssdataexplorer.norc.org/variables/2739/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes  |no  |no answer |Total |
+#'  |:-----|:---|:----|:---|:---------|:-----|
+#'  |2002  |467 |2025 |269 |4         |2765  |
+#'  |Total |467 |2025 |269 |4         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -259,13 +301,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `docaskme`](https://gssdataexplorer.norc.org/variables/2740/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |moderately agree |slightly agree |slightly disagree |moderately disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:----------------|:--------------|:-----------------|:-------------------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |-   |1986           |521              |145            |43                |31                  |19                |15         |5         |2765  |
+#'  |Total |0   |1986           |521              |145            |43                |31                  |19                |15         |5         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -296,13 +344,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `docdecid`](https://gssdataexplorer.norc.org/variables/2741/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |moderately agree |slightly agree |slightly disagree |moderately disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:----------------|:--------------|:-----------------|:-------------------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |-   |394            |638              |412            |361               |378                 |562               |15         |5         |2765  |
+#'  |Total |0   |394            |638              |412            |361               |378                 |562               |15         |5         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
@@ -333,13 +387,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `docrely`](https://gssdataexplorer.norc.org/variables/2742/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |moderately agree |slightly agree |slightly disagree |moderately disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:----------------|:--------------|:-----------------|:-------------------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |-   |421            |453              |345            |399               |413                 |715               |14         |5         |2765  |
+#'  |Total |0   |421            |453              |345            |399               |413                 |715               |14         |5         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients

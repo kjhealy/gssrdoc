@@ -31,27 +31,34 @@ B. Japan
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab -/- \tab full \cr
-   1975 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1974, 1975, 1977, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5491/vshow}{GSS Data Explorer page for \code{japan}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab not available in this year \tab +5 \tab +4 \tab +3 \tab +2 \tab +1 \tab -1 \tab -2 \tab -3 \tab -4 \tab -5 \tab dk, na, iap \tab iap \tab Total \cr
+   1974 \tab - \tab 110 \tab 149 \tab 314 \tab 217 \tab 253 \tab 101 \tab 60 \tab 63 \tab 52 \tab 87 \tab 78 \tab - \tab 1484 \cr
+   1975 \tab - \tab 83 \tab 137 \tab 277 \tab 210 \tab 273 \tab 124 \tab 69 \tab 78 \tab 64 \tab 73 \tab 102 \tab - \tab 1490 \cr
+   1977 \tab - \tab 102 \tab 100 \tab 288 \tab 203 \tab 267 \tab 125 \tab 72 \tab 78 \tab 68 \tab 96 \tab 131 \tab - \tab 1530 \cr
+   1982 \tab - \tab 160 \tab 169 \tab 344 \tab 231 \tab 294 \tab 163 \tab 95 \tab 83 \tab 67 \tab 113 \tab 141 \tab - \tab 1860 \cr
+   1983 \tab - \tab 105 \tab 121 \tab 257 \tab 255 \tab 307 \tab 159 \tab 84 \tab 97 \tab 53 \tab 83 \tab 78 \tab - \tab 1599 \cr
+   1985 \tab - \tab 128 \tab 148 \tab 298 \tab 246 \tab 249 \tab 136 \tab 70 \tab 85 \tab 40 \tab 53 \tab 81 \tab - \tab 1534 \cr
+   1986 \tab - \tab 111 \tab 149 \tab 319 \tab 240 \tab 243 \tab 109 \tab 80 \tab 59 \tab 31 \tab 74 \tab 55 \tab - \tab 1470 \cr
+   1988 \tab - \tab 82 \tab 83 \tab 182 \tab 136 \tab 185 \tab 85 \tab 44 \tab 51 \tab 18 \tab 68 \tab 547 \tab - \tab 1481 \cr
+   1989 \tab - \tab 73 \tab 97 \tab 189 \tab 128 \tab 194 \tab 83 \tab 56 \tab 45 \tab 18 \tab 79 \tab 575 \tab - \tab 1537 \cr
+   1990 \tab - \tab 80 \tab 67 \tab 151 \tab 112 \tab 179 \tab 83 \tab 40 \tab 50 \tab 30 \tab 88 \tab 492 \tab - \tab 1372 \cr
+   1991 \tab - \tab 95 \tab 92 \tab 189 \tab 129 \tab 158 \tab 78 \tab 46 \tab 51 \tab 41 \tab 89 \tab 549 \tab - \tab 1517 \cr
+   1993 \tab - \tab 76 \tab 77 \tab 165 \tab 137 \tab 203 \tab 123 \tab 58 \tab 58 \tab 46 \tab 92 \tab 571 \tab - \tab 1606 \cr
+   1994 \tab - \tab 41 \tab 35 \tab 73 \tab 54 \tab 93 \tab 50 \tab 32 \tab 35 \tab 21 \tab 50 \tab 2508 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 1246 \tab 1424 \tab 3046 \tab 2298 \tab 2898 \tab 1419 \tab 806 \tab 833 \tab 549 \tab 1045 \tab 5908 \tab 0 \tab 21472 \cr
+}
 }
 
 \seealso{

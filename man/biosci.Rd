@@ -26,16 +26,22 @@ E. Biology. Is biology very scientific, pretty scientific, not too scientific, o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2006, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3410/vshow}{GSS Data Explorer page for \code{biosci}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 1300 \tab 447 \tab 39 \tab 14 \tab 14 \tab 46 \tab 4 \tab 4510 \cr
+   2012 \tab 1477 \tab 338 \tab 106 \tab 21 \tab 6 \tab 3 \tab 19 \tab 4 \tab 1974 \cr
+   Total \tab 4123 \tab 1638 \tab 553 \tab 60 \tab 20 \tab 17 \tab 65 \tab 8 \tab 6484 \cr
+}
 }
 
 \seealso{

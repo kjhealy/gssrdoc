@@ -25,15 +25,21 @@ Question The next few questions are about your success in different areas of lif
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1664/vshow}{GSS Data Explorer page for \code{famlife}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all successful \tab not very successful \tab somewhat successful \tab very successful \tab completely successful \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1444 \tab 25 \tab 95 \tab 550 \tab 588 \tab 185 \tab 12 \tab 5 \tab 2904 \cr
+   Total \tab 1444 \tab 25 \tab 95 \tab 550 \tab 588 \tab 185 \tab 12 \tab 5 \tab 2904 \cr
+}
 }
 
 \seealso{

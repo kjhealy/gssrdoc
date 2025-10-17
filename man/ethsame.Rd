@@ -27,15 +27,21 @@ A. Individuals who belong to the same ethnic group tend to be fairly similar to 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2734/vshow}{GSS Data Explorer page for \code{ethsame}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab - \tab 272 \tab 1201 \tab 453 \tab 645 \tab 150 \tab 32 \tab 12 \tab 2765 \cr
+   Total \tab 0 \tab 272 \tab 1201 \tab 453 \tab 645 \tab 150 \tab 32 \tab 12 \tab 2765 \cr
+}
 }
 
 \seealso{

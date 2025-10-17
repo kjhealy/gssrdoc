@@ -22,15 +22,21 @@ Question Do you have any kind of base of operations at all?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1374/vshow}{GSS Data Explorer page for \code{baseofop}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   1991 \tab 1422 \tab 80 \tab 6 \tab 9 \tab 1517 \cr
+   Total \tab 1422 \tab 80 \tab 6 \tab 9 \tab 1517 \cr
+}
 }
 
 \seealso{

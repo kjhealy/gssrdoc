@@ -22,15 +22,21 @@ Question Some religious and business groups have set up programs to encourage (N
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/719/vshow}{GSS Data Explorer page for \code{racsubs}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab favor \tab oppose \tab don't know \tab no answer \tab Total \cr
+   1977 \tab - \tab 585 \tab 832 \tab 106 \tab 7 \tab 1530 \cr
+   Total \tab 0 \tab 585 \tab 832 \tab 106 \tab 7 \tab 1530 \cr
+}
 }
 
 \seealso{

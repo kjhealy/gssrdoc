@@ -21,15 +21,21 @@ Question What is the smallest amount of money a family of four (husband, wife an
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/576/vshow}{GSS Data Explorer page for \code{mininc}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 100 \tab 120 \tab 125 \tab 150 \tab 160 \tab 170 \tab 175 \tab 185 \tab 200 \tab 220 \tab 225 \tab 230 \tab 235 \tab 25 \tab 250 \tab 270 \tab 275 \tab 300 \tab 325 \tab 330 \tab 349 \tab 350 \tab 375 \tab 390 \tab 400 \tab 420 \tab 425 \tab 45 \tab 450 \tab 50 \tab 500 \tab 520 \tab 550 \tab 575 \tab 600 \tab 625 \tab 650 \tab 700 \tab 750 \tab 800 \tab 900 \tab $997+ per week \tab don't know \tab no answer \tab Total \cr
+   1986 \tab - \tab 15 \tab 2 \tab 3 \tab 51 \tab 1 \tab 2 \tab 4 \tab 1 \tab 200 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 153 \tab 1 \tab 5 \tab 295 \tab 2 \tab 1 \tab 1 \tab 86 \tab 5 \tab 1 \tab 245 \tab 1 \tab 1 \tab 1 \tab 33 \tab 1 \tab 138 \tab 1 \tab 1 \tab 1 \tab 41 \tab 1 \tab 2 \tab 18 \tab 8 \tab 9 \tab 3 \tab 33 \tab 78 \tab 17 \tab 1470 \cr
+   Total \tab 0 \tab 15 \tab 2 \tab 3 \tab 51 \tab 1 \tab 2 \tab 4 \tab 1 \tab 200 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 153 \tab 1 \tab 5 \tab 295 \tab 2 \tab 1 \tab 1 \tab 86 \tab 5 \tab 1 \tab 245 \tab 1 \tab 1 \tab 1 \tab 33 \tab 1 \tab 138 \tab 1 \tab 1 \tab 1 \tab 41 \tab 1 \tab 2 \tab 18 \tab 8 \tab 9 \tab 3 \tab 33 \tab 78 \tab 17 \tab 1470 \cr
+}
 }
 
 \seealso{

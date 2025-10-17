@@ -24,19 +24,25 @@ Question How often do you think that people would try to take advantage of you i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2004, 2014 \cr
+   B/C/- \tab 2018, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4685/vshow}{GSS Data Explorer page for \code{befair}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab try to take advantage almost all of the time \tab try to take advantage most of the time \tab try to be fair most of the time \tab try to be fair almost all of the time \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1548 \tab 123 \tab 321 \tab 581 \tab 166 \tab 64 \tab 29 \tab 2832 \cr
+   2004 \tab 1340 \tab 115 \tab 368 \tab 845 \tab 125 \tab 12 \tab 7 \tab 2812 \cr
+   2014 \tab 1274 \tab 104 \tab 378 \tab 633 \tab 71 \tab 76 \tab 2 \tab 2538 \cr
+   2018 \tab 1175 \tab 81 \tab 240 \tab 654 \tab 156 \tab 37 \tab 5 \tab 2348 \cr
+   Total \tab 5337 \tab 423 \tab 1307 \tab 2713 \tab 518 \tab 189 \tab 43 \tab 10530 \cr
+}
 }
 
 \seealso{

@@ -25,18 +25,25 @@ F. To have NAME marry into your family?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2008/vshow}{GSS Data Explorer page for \code{vigmar}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 105 \tab 307 \tab 379 \tab 530 \tab 97 \tab 26 \tab 2904 \cr
+   2006 \tab 3073 \tab 130 \tab 403 \tab 436 \tab 378 \tab 74 \tab 16 \tab 4510 \cr
+   2018 \tab 1175 \tab 115 \tab 337 \tab 373 \tab 275 \tab 38 \tab 35 \tab 2348 \cr
+   Total \tab 5708 \tab 350 \tab 1047 \tab 1188 \tab 1183 \tab 209 \tab 77 \tab 9762 \cr
+}
 }
 
 \seealso{

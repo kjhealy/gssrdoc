@@ -25,18 +25,25 @@ B. To spend an evening socializing with NAME?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2004/vshow}{GSS Data Explorer page for \code{vigsoc}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 212 \tab 540 \tab 344 \tab 295 \tab 31 \tab 22 \tab 2904 \cr
+   2006 \tab 3073 \tab 240 \tab 609 \tab 362 \tab 173 \tab 38 \tab 15 \tab 4510 \cr
+   2018 \tab 1175 \tab 201 \tab 508 \tab 266 \tab 151 \tab 16 \tab 31 \tab 2348 \cr
+   Total \tab 5708 \tab 653 \tab 1657 \tab 972 \tab 619 \tab 85 \tab 68 \tab 9762 \cr
+}
 }
 
 \seealso{

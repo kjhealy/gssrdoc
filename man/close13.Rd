@@ -34,16 +34,23 @@ IF NO........(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/856/vshow}{GSS Data Explorer page for \code{close13}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab especially close \tab know each other \tab total strangers \tab no answer \tab Total \cr
+   1985 \tab 599 \tab 361 \tab 397 \tab 148 \tab 29 \tab 1534 \cr
+   2004 \tab 2240 \tab 226 \tab 232 \tab 67 \tab 47 \tab 2812 \cr
+   Total \tab 2839 \tab 587 \tab 629 \tab 215 \tab 76 \tab 4346 \cr
+}
 }
 
 \seealso{

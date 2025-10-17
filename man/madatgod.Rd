@@ -24,15 +24,21 @@ B. From Often felt agnry to Never felt angry at God
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1094/vshow}{GSS Data Explorer page for \code{madatgod}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab often angry at god \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab never angry at god \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 37 \tab 49 \tab 103 \tab 242 \tab 217 \tab 271 \tab 526 \tab 7 \tab 29 \tab 1481 \cr
+   Total \tab 0 \tab 37 \tab 49 \tab 103 \tab 242 \tab 217 \tab 271 \tab 526 \tab 7 \tab 29 \tab 1481 \cr
+}
 }
 
 \seealso{

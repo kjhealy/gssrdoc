@@ -22,18 +22,23 @@ Question In your (husband/wife/partner)'s job, does (he/she) supervise anyone wh
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7093/vshow}{GSS Data Explorer page for \code{spwksup}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab 1732 \tab 225 \tab 383 \tab 6 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 3058 \tab 334 \tab 602 \tab 34 \tab - \tab 4 \tab 4032 \cr
+   2022 \tab 2882 \tab 264 \tab 377 \tab 9 \tab 11 \tab 1 \tab 3544 \cr
+   Total \tab 7672 \tab 823 \tab 1362 \tab 49 \tab 13 \tab 5 \tab 9924 \cr
+}
 }
 
 \keyword{variable}

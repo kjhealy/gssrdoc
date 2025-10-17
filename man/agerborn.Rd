@@ -21,15 +21,21 @@ Question How old were you when this occurred?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3065/vshow}{GSS Data Explorer page for \code{agerborn}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 25 \tab 29 \tab 30 \tab 31 \tab 32 \tab 36 \tab 39 \tab 52 \tab 60 \tab 68 \tab 75 \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2756 \tab 1 \tab 5 \tab 4 \tab 4 \tab 1 \tab 4 \tab 2 \tab 2 \tab 2 \tab 2 \tab 2 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 10 \tab 2812 \cr
+   Total \tab 2756 \tab 1 \tab 5 \tab 4 \tab 4 \tab 1 \tab 4 \tab 2 \tab 2 \tab 2 \tab 2 \tab 2 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 10 \tab 2812 \cr
+}
 }
 
 \seealso{

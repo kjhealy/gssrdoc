@@ -25,19 +25,26 @@ Question A. How willing would you be to pay much higher prices in order to prote
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2021 \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4736/vshow}{GSS Data Explorer page for \code{grnprice}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1993 \tab 49 \tab 158 \tab 607 \tab 320 \tab 269 \tab 105 \tab 46 \tab 52 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 116 \tab 509 \tab 328 \tab 237 \tab 128 \tab 43 \tab 25 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 121 \tab 397 \tab 333 \tab 176 \tab 127 \tab 63 \tab 59 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 110 \tab 527 \tab 293 \tab 222 \tab 209 \tab 62 \tab 7 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 135 \tab 625 \tab 476 \tab 334 \tab 208 \tab 67 \tab 171 \tab 13 \tab 4032 \cr
+   Total \tab 5813 \tab 640 \tab 2665 \tab 1750 \tab 1238 \tab 777 \tab 281 \tab 314 \tab 13 \tab 13491 \cr
+}
 }
 
 \seealso{

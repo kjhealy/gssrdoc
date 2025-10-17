@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `parhardr`](https://gssdataexplorer.norc.org/variables/5093/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |640            |563   |109      |25                |18         |17        |1372  |
+#'  |Total |0   |640            |563   |109      |25                |18         |17        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -51,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `parworse`](https://gssdataexplorer.norc.org/variables/5094/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |207            |551   |447      |115               |35         |17        |1372  |
+#'  |Total |0   |207            |551   |447      |115               |35         |17        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -86,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `parrght`](https://gssdataexplorer.norc.org/variables/5095/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |245            |926   |122      |27                |35         |17        |1372  |
+#'  |Total |0   |245            |926   |122      |27                |35         |17        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -121,13 +139,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `parwhere`](https://gssdataexplorer.norc.org/variables/5096/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |258            |778   |236      |57                |25         |18        |1372  |
+#'  |Total |0   |258            |778   |236      |57                |25         |18        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -156,13 +180,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `parfin`](https://gssdataexplorer.norc.org/variables/5097/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |302            |893   |119      |20                |21         |17        |1372  |
+#'  |Total |0   |302            |893   |119      |20                |21         |17        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -191,13 +221,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `pargovt`](https://gssdataexplorer.norc.org/variables/5098/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |108            |485   |463      |117               |179        |20        |1372  |
+#'  |Total |0   |108            |485   |463      |117               |179        |20        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -226,13 +262,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `partime`](https://gssdataexplorer.norc.org/variables/5099/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |270            |840   |168      |32                |43         |19        |1372  |
+#'  |Total |0   |270            |840   |168      |32                |43         |19        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -261,13 +303,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `parwork`](https://gssdataexplorer.norc.org/variables/5100/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |245            |709   |301      |63                |34         |20        |1372  |
+#'  |Total |0   |245            |709   |301      |63                |34         |20        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -296,13 +344,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `partaxes`](https://gssdataexplorer.norc.org/variables/5101/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |82             |458   |563      |132               |117        |20        |1372  |
+#'  |Total |0   |82             |458   |563      |132               |117        |20        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -331,13 +385,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `rolema`](https://gssdataexplorer.norc.org/variables/5102/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very good |good |fairly good |fairly bad |very bad |don't know |no answer |Total |
+#'  |:-----|:---|:---------|:----|:-----------|:----------|:--------|:----------|:---------|:-----|
+#'  |1990  |-   |712       |478  |132         |11         |4        |23         |12        |1372  |
+#'  |Total |0   |712       |478  |132         |11         |4        |23         |12        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children

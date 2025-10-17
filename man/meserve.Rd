@@ -25,16 +25,22 @@ RECORD UNDER "B."
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/779/vshow}{GSS Data Explorer page for \code{meserve}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly favor \tab probably favor \tab probably oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 658 \tab 670 \tab 269 \tab 179 \tab 61 \tab 23 \tab 1860 \cr
+   1984 \tab - \tab 497 \tab 546 \tab 244 \tab 134 \tab 32 \tab 20 \tab 1473 \cr
+   Total \tab 0 \tab 1155 \tab 1216 \tab 513 \tab 313 \tab 93 \tab 43 \tab 3333 \cr
+}
 }
 
 \seealso{

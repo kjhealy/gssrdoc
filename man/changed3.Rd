@@ -24,15 +24,21 @@ C. Third mention
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3076/vshow}{GSS Data Explorer page for \code{changed3}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 22 \tab 24 \tab 25 \tab 28 \tab 29 \tab 30 \tab 32 \tab 33 \tab 40 \tab 41 \tab 45 \tab 49 \tab 51 \tab 52 \tab 58 \tab 60 \tab 62 \tab 70 \tab 90 \tab 95 \tab no mention \tab no answer \tab Total \cr
+   2004 \tab 2163 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 3 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 583 \tab 34 \tab 2812 \cr
+   Total \tab 2163 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 3 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 583 \tab 34 \tab 2812 \cr
+}
 }
 
 \seealso{

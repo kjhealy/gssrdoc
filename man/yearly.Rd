@@ -22,15 +22,21 @@ E. What is your 1998 annual salary, before any taxes or deductions?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2165/vshow}{GSS Data Explorer page for \code{yearly}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10000 \tab 110000 \tab 11500 \tab 117000 \tab 120000 \tab 122000 \tab 13000 \tab 130000 \tab 13500 \tab 14500 \tab 15000 \tab 16000 \tab 175000 \tab 17900 \tab 1e+05 \tab 20000 \tab 21000 \tab 21650 \tab 22000 \tab 22100 \tab 22500 \tab 23000 \tab 2400 \tab 24000 \tab 25000 \tab 26000 \tab 26500 \tab 27000 \tab 27500 \tab 2800 \tab 28000 \tab 28900 \tab 29000 \tab 29500 \tab 296000 \tab 29700 \tab 3000 \tab 30000 \tab 31000 \tab 31500 \tab 32000 \tab 32300 \tab 32398 \tab 33000 \tab 33600 \tab 33900 \tab 34000 \tab 34646 \tab 3500 \tab 35000 \tab 36000 \tab 36200 \tab 36400 \tab 36500 \tab 3800 \tab 38000 \tab 38400 \tab 38500 \tab 39000 \tab 3e+05 \tab 40000 \tab 41000 \tab 41500 \tab 4200 \tab 4300 \tab 43000 \tab 44000 \tab 44500 \tab 4500 \tab 45000 \tab 45100 \tab 46000 \tab 46800 \tab 47000 \tab 47500 \tab 48000 \tab 49000 \tab 49014 \tab 49450 \tab 49500 \tab 500 \tab 50000 \tab 51000 \tab 52000 \tab 53000 \tab 5400 \tab 54000 \tab 55000 \tab 56500 \tab 5700 \tab 57000 \tab 58000 \tab 60000 \tab 6200 \tab 62800 \tab 6400 \tab 65000 \tab 68000 \tab 7000 \tab 70000 \tab 72000 \tab 73900 \tab 75000 \tab 8000 \tab 80000 \tab 85000 \tab 90000 \tab 9500 \tab 95000 \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 2577 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 7 \tab 5 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 9 \tab 3 \tab 1 \tab 8 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 4 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 3 \tab 1 \tab 8 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 5 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 6 \tab 51 \tab 2832 \cr
+   Total \tab 2577 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 7 \tab 5 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 9 \tab 3 \tab 1 \tab 8 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 4 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 3 \tab 1 \tab 8 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 5 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 6 \tab 51 \tab 2832 \cr
+}
 }
 
 \seealso{

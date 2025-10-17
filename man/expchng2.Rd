@@ -24,15 +24,21 @@ B. Second Mention
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3069/vshow}{GSS Data Explorer page for \code{expchng2}}.
+
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 12 \tab 15 \tab 2 \tab 20 \tab 22 \tab 25 \tab 26 \tab 27 \tab 28 \tab 32 \tab 40 \tab 5 \tab 60 \tab no mention \tab nothing special happened \tab no answer \tab Total \cr
+   2004 \tab 2163 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 593 \tab 1 \tab 36 \tab 2812 \cr
+   Total \tab 2163 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 593 \tab 1 \tab 36 \tab 2812 \cr
+}
 }
 
 \seealso{

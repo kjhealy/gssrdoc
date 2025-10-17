@@ -23,16 +23,23 @@ D. Sending or receiving e-mail?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2563/vshow}{GSS Data Explorer page for \code{emhrh}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 15 \tab 2 \tab 20 \tab 3 \tab 35 \tab 4 \tab 40 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab 12 \tab 13 \tab 14 \tab 19 \tab 21 \tab 24 \tab 25 \tab 30 \tab 45 \tab 56 \tab 9 \tab Total \cr
+   2000 \tab 2519 \tab 61 \tab 8 \tab 4 \tab 53 \tab 2 \tab 34 \tab 1 \tab 18 \tab 2 \tab 17 \tab 1 \tab 5 \tab 9 \tab 1 \tab 2 \tab 80 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 1818 \tab 308 \tab 49 \tab 6 \tab 198 \tab 11 \tab 107 \tab - \tab 44 \tab 3 \tab 65 \tab 2 \tab 21 \tab 52 \tab 12 \tab 3 \tab 44 \tab 4 \tab 1 \tab 4 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 2765 \cr
+   Total \tab 4337 \tab 369 \tab 57 \tab 10 \tab 251 \tab 13 \tab 141 \tab 1 \tab 62 \tab 5 \tab 82 \tab 3 \tab 26 \tab 61 \tab 13 \tab 5 \tab 124 \tab 4 \tab 1 \tab 4 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 5582 \cr
+}
 }
 
 \seealso{

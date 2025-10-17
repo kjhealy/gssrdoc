@@ -26,30 +26,36 @@ B. Living in a neighborhood where half of your neighbors were blacks?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/- \tab partial \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1996, 1998, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C \tab 1990, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1215/vshow}{GSS Data Explorer page for \code{liveblks}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1990 \tab - \tab 67 \tab 148 \tab 568 \tab 391 \tab 179 \tab 9 \tab 10 \tab - \tab 1372 \cr
+   1996 \tab 1935 \tab 90 \tab 150 \tab 444 \tab 173 \tab 86 \tab 17 \tab 9 \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 212 \tab 245 \tab 839 \tab 355 \tab 182 \tab 23 \tab 15 \tab - \tab 2832 \cr
+   2000 \tab 486 \tab 258 \tab 366 \tab 1037 \tab 384 \tab 227 \tab 32 \tab 27 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 109 \tab 173 \tab 396 \tab 153 \tab 71 \tab 6 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 68 \tab 172 \tab 468 \tab 145 \tab 44 \tab 7 \tab 2 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 195 \tab 337 \tab 1015 \tab 302 \tab 126 \tab 11 \tab 6 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 137 \tab 241 \tab 675 \tab 180 \tab 78 \tab 15 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 148 \tab 270 \tab 723 \tab 198 \tab 78 \tab 7 \tab 6 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 118 \tab 261 \tab 646 \tab 175 \tab 82 \tab 17 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 166 \tab 276 \tab 913 \tab 226 \tab 81 \tab 9 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 180 \tab 390 \tab 982 \tab 242 \tab 82 \tab 9 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 233 \tab 286 \tab 759 \tab 200 \tab 66 \tab 9 \tab 6 \tab - \tab 2348 \cr
+   2021 \tab 1318 \tab 454 \tab 234 \tab 1694 \tab 233 \tab 80 \tab 1 \tab 1 \tab 17 \tab 4032 \cr
+   2022 \tab 1168 \tab 481 \tab 333 \tab 1295 \tab 178 \tab 66 \tab 14 \tab 7 \tab 2 \tab 3544 \cr
+   Total \tab 16760 \tab 2916 \tab 3882 \tab 12454 \tab 3535 \tab 1528 \tab 186 \tab 102 \tab 19 \tab 41382 \cr
+}
 }
 
 \seealso{

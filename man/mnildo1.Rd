@@ -23,15 +23,21 @@ B1. What R. did about the mental illness -- First mention.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2082/vshow}{GSS Data Explorer page for \code{mnildo1}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 31 \tab 51 \tab 61 \tab 62 \tab 64 \tab 69 \tab 72 \tab 74 \tab 75 \tab 81 \tab 82 \tab 83 \tab no answer \tab Total \cr
+   1996 \tab 2815 \tab 10 \tab 6 \tab 2 \tab 1 \tab 1 \tab 3 \tab 5 \tab 2 \tab 1 \tab 7 \tab 35 \tab 1 \tab 15 \tab 2904 \cr
+   Total \tab 2815 \tab 10 \tab 6 \tab 2 \tab 1 \tab 1 \tab 3 \tab 5 \tab 2 \tab 1 \tab 7 \tab 35 \tab 1 \tab 15 \tab 2904 \cr
+}
 }
 
 \seealso{

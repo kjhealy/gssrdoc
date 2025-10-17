@@ -25,16 +25,22 @@ A. Judge
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/322/vshow}{GSS Data Explorer page for \code{judge}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
+   1983 \tab - \tab 731 \tab 470 \tab 208 \tab 148 \tab 25 \tab 17 \tab 1599 \cr
+   1984 \tab 989 \tab 223 \tab 138 \tab 55 \tab 52 \tab 5 \tab 11 \tab 1473 \cr
+   Total \tab 989 \tab 954 \tab 608 \tab 263 \tab 200 \tab 30 \tab 28 \tab 3072 \cr
+}
 }
 
 \seealso{

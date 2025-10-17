@@ -24,16 +24,22 @@ Question In general, do you think the courts in this area deal too harshly, or n
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1974 \tab - \tab full \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1974, 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/277/vshow}{GSS Data Explorer page for \code{courtsy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab too harsh \tab not harsh enough \tab about right \tab can't choose \tab no answer \tab Total \cr
+   1974 \tab 753 \tab 33 \tab 436 \tab 44 \tab 210 \tab 8 \tab 1484 \cr
+   1982 \tab 923 \tab 57 \tab 689 \tab 42 \tab 138 \tab 11 \tab 1860 \cr
+   Total \tab 1676 \tab 90 \tab 1125 \tab 86 \tab 348 \tab 19 \tab 3344 \cr
+}
 }
 
 \seealso{

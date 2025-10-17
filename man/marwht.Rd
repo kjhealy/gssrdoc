@@ -26,26 +26,33 @@ G. What about having a close relative marry a white person?  Would you be very i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1227/vshow}{GSS Data Explorer page for \code{marwht}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 1419 \tab 698 \tab 154 \tab 405 \tab 29 \tab 14 \tab 12 \tab 86 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 478 \tab 109 \tab 275 \tab 26 \tab 13 \tab 6 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 387 \tab 119 \tab 362 \tab 19 \tab 13 \tab 2 \tab 4 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 876 \tab 280 \tab 767 \tab 38 \tab 21 \tab 7 \tab 3 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 544 \tab 191 \tab 548 \tab 25 \tab 15 \tab 4 \tab 2 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 564 \tab 204 \tab 600 \tab 33 \tab 20 \tab 5 \tab 4 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 500 \tab 172 \tab 589 \tab 24 \tab 11 \tab 5 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 607 \tab 238 \tab 765 \tab 40 \tab 13 \tab 8 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 680 \tab 274 \tab 876 \tab 41 \tab 13 \tab 2 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 550 \tab 227 \tab 706 \tab 43 \tab 23 \tab 5 \tab 5 \tab - \tab 2348 \cr
+   2021 \tab 1318 \tab 666 \tab 235 \tab 1709 \tab 54 \tab 30 \tab - \tab 2 \tab 18 \tab 4032 \cr
+   2022 \tab 1168 \tab 724 \tab 250 \tab 1319 \tab 47 \tab 23 \tab 8 \tab 4 \tab 1 \tab 3544 \cr
+   Total \tab 14797 \tab 7274 \tab 2453 \tab 8921 \tab 419 \tab 209 \tab 64 \tab 118 \tab 19 \tab 34274 \cr
+}
 }
 
 \seealso{

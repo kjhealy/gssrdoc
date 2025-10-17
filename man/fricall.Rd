@@ -27,15 +27,21 @@ F. And how often do you have any other contact with this friend besides visiting
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4168/vshow}{GSS Data Explorer page for \code{fricall}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
+   1986 \tab 92 \tab 285 \tab 312 \tab 277 \tab 247 \tab 104 \tab 141 \tab 12 \tab 1470 \cr
+   Total \tab 92 \tab 285 \tab 312 \tab 277 \tab 247 \tab 104 \tab 141 \tab 12 \tab 1470 \cr
+}
 }
 
 \seealso{

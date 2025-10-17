@@ -25,15 +25,21 @@ Question What kind of health insurance do you have?  Please check all that apply
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7975/vshow}{GSS Data Explorer page for \code{instype04}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab other \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 3525 \tab 1 \tab 1 \tab 8 \tab 9 \tab 3544 \cr
+   Total \tab 3525 \tab 1 \tab 1 \tab 8 \tab 9 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

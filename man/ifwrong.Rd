@@ -26,18 +26,24 @@ E. People should support their country even if the country is in the wrong
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4838/vshow}{GSS Data Explorer page for \code{ifwrong}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 143 \tab 277 \tab 245 \tab 499 \tab 151 \tab 37 \tab 15 \tab 2904 \cr
+   2004 \tab 1596 \tab 135 \tab 299 \tab 268 \tab 382 \tab 109 \tab 22 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 93 \tab 280 \tab 267 \tab 469 \tab 128 \tab 32 \tab 5 \tab 2538 \cr
+   Total \tab 4397 \tab 371 \tab 856 \tab 780 \tab 1350 \tab 388 \tab 91 \tab 21 \tab 8254 \cr
+}
 }
 
 \seealso{

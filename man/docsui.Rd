@@ -26,15 +26,21 @@ F. Ask for physician-assisted suicide.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2260/vshow}{GSS Data Explorer page for \code{docsui}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 184 \tab 234 \tab 260 \tab 338 \tab 277 \tab 56 \tab 38 \tab 2832 \cr
+   Total \tab 1445 \tab 184 \tab 234 \tab 260 \tab 338 \tab 277 \tab 56 \tab 38 \tab 2832 \cr
+}
 }
 
 \seealso{

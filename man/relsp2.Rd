@@ -43,25 +43,32 @@ B. Relationship of second person to spouse?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5454/vshow}{GSS Data Explorer page for \code{relsp2}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab hh spouse, partner \tab no answer \tab not available in this release \tab Total \cr
+   2000 \tab 1298 \tab 1519 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1387 \tab 1378 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1126 \tab 1686 \tab - \tab - \tab 2812 \cr
+   2006 \tab 1924 \tab 2586 \tab - \tab - \tab 4510 \cr
+   2008 \tab 870 \tab 1152 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab 948 \tab 1094 \tab 2 \tab - \tab 2044 \cr
+   2012 \tab 864 \tab 1110 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1121 \tab 1417 \tab - \tab - \tab 2538 \cr
+   2016 \tab 1344 \tab 1523 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1069 \tab 1278 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   Total \tab 11951 \tab 14743 \tab 4 \tab 4032 \tab 30730 \cr
+}
 }
 
 \seealso{

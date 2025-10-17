@@ -26,15 +26,21 @@ J. When I'm anxious, I try not to worry anyone else.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1734/vshow}{GSS Data Explorer page for \code{notworry}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab no answer \tab Total \cr
+   1996 \tab 2149 \tab 75 \tab 484 \tab 67 \tab 114 \tab 11 \tab 4 \tab 2904 \cr
+   Total \tab 2149 \tab 75 \tab 484 \tab 67 \tab 114 \tab 11 \tab 4 \tab 2904 \cr
+}
 }
 
 \seealso{

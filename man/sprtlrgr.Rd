@@ -27,15 +27,21 @@ Question How often R felt part of something larger than themselves
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7535/vshow}{GSS Data Explorer page for \code{sprtlrgr}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab at least once a day \tab almost every day \tab once or twice a week \tab once or twice a month \tab a few times per year \tab once a year or less \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 411 \tab 334 \tab 693 \tab 442 \tab 421 \tab 693 \tab 409 \tab 552 \tab 6 \tab 6 \tab 65 \tab 4032 \cr
+   Total \tab 411 \tab 334 \tab 693 \tab 442 \tab 421 \tab 693 \tab 409 \tab 552 \tab 6 \tab 6 \tab 65 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

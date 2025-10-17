@@ -70,15 +70,21 @@ Question In what country were you born?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3898/vshow}{GSS Data Explorer page for \code{bornsp}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab usa \tab antigua \tab trinidad \tab jamaica \tab pakistan \tab turkey \tab italy \tab west indies \tab colombia \tab kazakhstan \tab cuba \tab india \tab germany \tab ecuador \tab mexico \tab portugal \tab el salvador \tab canada \tab guatemala \tab zimbabwe \tab taiwan \tab philippines \tab israel \tab dominican republic \tab scotland \tab haiti \tab honduras \tab puerto rico \tab austraila \tab china \tab poland \tab lithuania \tab liberia \tab brazil \tab morocco \tab spain \tab bulgeria \tab ussr \tab kuwait \tab japan \tab korea \tab vietnam \tab bermuda \tab ghana \tab panama \tab france \tab romania \tab no answer \tab Total \cr
+   2008 \tab 603 \tab 1179 \tab 1 \tab 5 \tab 3 \tab 3 \tab 2 \tab 3 \tab 2 \tab 6 \tab 2 \tab 8 \tab 10 \tab 9 \tab 1 \tab 60 \tab 1 \tab 9 \tab 6 \tab 6 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 3 \tab 3 \tab 2 \tab 2 \tab 4 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 2 \tab 2 \tab 1 \tab 56 \tab 2023 \cr
+   Total \tab 603 \tab 1179 \tab 1 \tab 5 \tab 3 \tab 3 \tab 2 \tab 3 \tab 2 \tab 6 \tab 2 \tab 8 \tab 10 \tab 9 \tab 1 \tab 60 \tab 1 \tab 9 \tab 6 \tab 6 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 3 \tab 3 \tab 2 \tab 2 \tab 4 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 2 \tab 2 \tab 1 \tab 56 \tab 2023 \cr
+}
 }
 
 \seealso{

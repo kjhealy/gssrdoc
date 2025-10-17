@@ -25,15 +25,21 @@ A. These medications help people control their symptoms. Do you . . .
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2974/vshow}{GSS Data Explorer page for \code{medsymps}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1372 \tab 369 \tab 809 \tab 103 \tab 43 \tab 57 \tab 12 \tab 2765 \cr
+   Total \tab 1372 \tab 369 \tab 809 \tab 103 \tab 43 \tab 57 \tab 12 \tab 2765 \cr
+}
 }
 
 \seealso{

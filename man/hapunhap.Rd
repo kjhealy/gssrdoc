@@ -24,20 +24,29 @@ Question If you were to consider your life in general these days, how happy or u
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2022 \tab C/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998, 2002 \cr
+   B/C/- \tab 2008 \cr
+   C/-/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4627/vshow}{GSS Data Explorer page for \code{hapunhap}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab very happy \tab fairly happy \tab not very happy \tab not at all happy \tab don't know \tab no answer \tab 5 \tab 6 \tab 7 \tab skipped on web \tab Total \cr
+   1991 \tab 158 \tab 501 \tab 737 \tab 96 \tab 12 \tab 9 \tab 4 \tab - \tab - \tab - \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 467 \tab 667 \tab 113 \tab 25 \tab 6 \tab 6 \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2002 \tab 1616 \tab 464 \tab 575 \tab 76 \tab 14 \tab 11 \tab 9 \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2008 \tab 658 \tab 587 \tab 677 \tab 83 \tab 18 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 535 \tab 568 \tab 50 \tab 13 \tab 5 \tab 4 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 2378 \tab 162 \tab 357 \tab 452 \tab 81 \tab 14 \tab - \tab 73 \tab 17 \tab 6 \tab 4 \tab 3544 \cr
+   Total \tab 7531 \tab 2716 \tab 3581 \tab 870 \tab 163 \tab 45 \tab 23 \tab 73 \tab 17 \tab 6 \tab 4 \tab 15029 \cr
+}
 }
 
 \seealso{

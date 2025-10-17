@@ -27,17 +27,25 @@ C. Cares for sick family members?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4431/vshow}{GSS Data Explorer page for \code{caresik1}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab always me \tab usually me \tab about equal or both together \tab usually my spouse/partner \tab always my spouse/partner \tab is done by a third person \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 2058 \tab 129 \tab 127 \tab 292 \tab 93 \tab 5 \tab 6 \tab 32 \tab 23 \tab - \tab 2765 \cr
+   2012 \tab 1274 \tab 117 \tab 90 \tab 261 \tab 89 \tab 44 \tab 13 \tab 80 \tab 6 \tab - \tab 1974 \cr
+   2022 \tab 3024 \tab 60 \tab 77 \tab 237 \tab 57 \tab 32 \tab 14 \tab 39 \tab 1 \tab 3 \tab 3544 \cr
+   Total \tab 6356 \tab 306 \tab 294 \tab 790 \tab 239 \tab 81 \tab 33 \tab 151 \tab 30 \tab 3 \tab 8283 \cr
+}
 }
 
 \seealso{

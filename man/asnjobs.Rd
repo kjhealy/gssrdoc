@@ -25,15 +25,21 @@ C. Asian Americans?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1245/vshow}{GSS Data Explorer page for \code{asnjobs}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a lot \tab some \tab only a little \tab none at all \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 144 \tab 585 \tab 302 \tab 188 \tab 141 \tab 12 \tab 1372 \cr
+   Total \tab 0 \tab 144 \tab 585 \tab 302 \tab 188 \tab 141 \tab 12 \tab 1372 \cr
+}
 }
 
 \seealso{

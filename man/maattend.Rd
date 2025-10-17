@@ -29,20 +29,28 @@ Question A. When you were growing up, how often did your mother (MOTHER SUBSTITU
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989 \cr
+   A/B/C \tab 1988 \cr
+   Full \tab 1983, 1984, 1985, 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/295/vshow}{GSS Data Explorer page for \code{maattend}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab never \tab lt once a year \tab once a year \tab sevrl times a yr \tab once a month \tab 2-3x a month \tab nrly every week \tab every week \tab more thn once wk \tab don't know \tab Total \cr
+   1983 \tab 48 \tab 134 \tab 51 \tab 104 \tab 116 \tab 105 \tab 126 \tab 146 \tab 592 \tab 159 \tab 18 \tab 1599 \cr
+   1984 \tab 68 \tab 113 \tab 44 \tab 87 \tab 122 \tab 75 \tab 93 \tab 97 \tab 604 \tab 146 \tab 24 \tab 1473 \cr
+   1985 \tab 67 \tab 142 \tab 43 \tab 106 \tab 96 \tab 73 \tab 101 \tab 100 \tab 639 \tab 157 \tab 10 \tab 1534 \cr
+   1986 \tab 47 \tab 129 \tab 32 \tab 98 \tab 108 \tab 73 \tab 114 \tab 109 \tab 592 \tab 152 \tab 16 \tab 1470 \cr
+   1988 \tab 48 \tab 125 \tab 33 \tab 91 \tab 124 \tab 95 \tab 115 \tab 155 \tab 547 \tab 130 \tab 18 \tab 1481 \cr
+   1989 \tab 560 \tab 109 \tab 25 \tab 59 \tab 82 \tab 43 \tab 62 \tab 64 \tab 419 \tab 103 \tab 11 \tab 1537 \cr
+   Total \tab 838 \tab 752 \tab 228 \tab 545 \tab 648 \tab 464 \tab 611 \tab 671 \tab 3393 \tab 847 \tab 97 \tab 9094 \cr
+}
 }
 
 \seealso{

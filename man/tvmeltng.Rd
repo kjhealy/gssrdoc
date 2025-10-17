@@ -24,15 +24,21 @@ Question The next few questions are about the regions near the poles. Please loo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3422/vshow}{GSS Data Explorer page for \code{tvmeltng}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 596 \tab 696 \tab 295 \tab 253 \tab 22 \tab 2 \tab 4510 \cr
+   Total \tab 2646 \tab 596 \tab 696 \tab 295 \tab 253 \tab 22 \tab 2 \tab 4510 \cr
+}
 }
 
 \seealso{

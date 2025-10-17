@@ -22,15 +22,21 @@ Question Is (BROTHER'S NAME/SISTER'S NAME) currently working at a paid job?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1584/vshow}{GSS Data Explorer page for \code{sbwork1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 330 \tab 1721 \tab 791 \tab 101 \tab 49 \tab 2992 \cr
+   Total \tab 330 \tab 1721 \tab 791 \tab 101 \tab 49 \tab 2992 \cr
+}
 }
 
 \seealso{

@@ -22,27 +22,36 @@ Question There are many different ways of picturing God. We'd like to know the k
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/- \tab partial \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/- \tab partial \cr
-   1994 \tab A/B/- \tab partial \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989, 1990, 1993, 1994, 1996 \cr
+   A/B/C \tab 1988, 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
+   Full \tab 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/334/vshow}{GSS Data Explorer page for \code{mapa}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab mother \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab father \tab no answer \tab don't know \tab Total \cr
+   1984 \tab 484 \tab 32 \tab 16 \tab 30 \tab 257 \tab 86 \tab 80 \tab 429 \tab 59 \tab - \tab 1473 \cr
+   1985 \tab - \tab 50 \tab 15 \tab 26 \tab 353 \tab 142 \tab 140 \tab 732 \tab 58 \tab 18 \tab 1534 \cr
+   1986 \tab - \tab 62 \tab 15 \tab 24 \tab 347 \tab 109 \tab 123 \tab 735 \tab 47 \tab 8 \tab 1470 \cr
+   1987 \tab - \tab 64 \tab 23 \tab 22 \tab 454 \tab 126 \tab 133 \tab 895 \tab 81 \tab 21 \tab 1819 \cr
+   1988 \tab - \tab 41 \tab 26 \tab 26 \tab 372 \tab 105 \tab 104 \tab 720 \tab 59 \tab 28 \tab 1481 \cr
+   1989 \tab 531 \tab 33 \tab 10 \tab 12 \tab 257 \tab 85 \tab 93 \tab 471 \tab 41 \tab 4 \tab 1537 \cr
+   1990 \tab 444 \tab 20 \tab 14 \tab 14 \tab 229 \tab 77 \tab 91 \tab 437 \tab 38 \tab 8 \tab 1372 \cr
+   1991 \tab 158 \tab 42 \tab 26 \tab 52 \tab 325 \tab 114 \tab 116 \tab 522 \tab 162 \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 33 \tab 12 \tab 29 \tab 251 \tab 85 \tab 104 \tab 506 \tab 54 \tab 6 \tab 1606 \cr
+   1994 \tab 1015 \tab 48 \tab 28 \tab 33 \tab 504 \tab 158 \tab 174 \tab 940 \tab 72 \tab 20 \tab 2992 \cr
+   1996 \tab 1913 \tab 36 \tab 14 \tab 22 \tab 231 \tab 93 \tab 82 \tab 467 \tab 35 \tab 11 \tab 2904 \cr
+   1998 \tab 1387 \tab 42 \tab 16 \tab 30 \tab 354 \tab 119 \tab 139 \tab 681 \tab 50 \tab 14 \tab 2832 \cr
+   2008 \tab 658 \tab 50 \tab 15 \tab 43 \tab 340 \tab 102 \tab 118 \tab 599 \tab 32 \tab 66 \tab 2023 \cr
+   Total \tab 7116 \tab 553 \tab 230 \tab 363 \tab 4274 \tab 1401 \tab 1497 \tab 8134 \tab 788 \tab 204 \tab 24560 \cr
+}
 }
 
 \seealso{

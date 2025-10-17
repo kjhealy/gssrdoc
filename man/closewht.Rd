@@ -24,26 +24,32 @@ B. And in general, how close do you feel to Whites?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/427/vshow}{GSS Data Explorer page for \code{closewht}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab not at all close \tab 2 \tab 3 \tab 4 \tab neither one or the other \tab 6 \tab 7 \tab 8 \tab very close \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1932 \tab 12 \tab 7 \tab 18 \tab 19 \tab 308 \tab 55 \tab 131 \tab 114 \tab 292 \tab 8 \tab 8 \tab 2904 \cr
+   1998 \tab 950 \tab 23 \tab 17 \tab 29 \tab 35 \tab 566 \tab 139 \tab 270 \tab 220 \tab 517 \tab 27 \tab 39 \tab 2832 \cr
+   2000 \tab 956 \tab 32 \tab 18 \tab 18 \tab 29 \tab 511 \tab 84 \tab 235 \tab 247 \tab 591 \tab 10 \tab 86 \tab 2817 \cr
+   2002 \tab 1841 \tab 7 \tab 10 \tab 15 \tab 26 \tab 276 \tab 45 \tab 123 \tab 118 \tab 300 \tab 2 \tab 2 \tab 2765 \cr
+   2004 \tab 1914 \tab 8 \tab 4 \tab 8 \tab 13 \tab 301 \tab 58 \tab 132 \tab 122 \tab 245 \tab 6 \tab 1 \tab 2812 \cr
+   2006 \tab 2507 \tab 19 \tab 21 \tab 38 \tab 37 \tab 688 \tab 129 \tab 277 \tab 232 \tab 555 \tab 6 \tab 1 \tab 4510 \cr
+   2008 \tab 671 \tab 22 \tab 13 \tab 26 \tab 24 \tab 417 \tab 88 \tab 202 \tab 162 \tab 380 \tab 15 \tab 3 \tab 2023 \cr
+   2010 \tab 763 \tab 26 \tab 21 \tab 16 \tab 32 \tab 374 \tab 95 \tab 171 \tab 164 \tab 366 \tab 9 \tab 7 \tab 2044 \cr
+   2012 \tab 666 \tab 21 \tab 10 \tab 16 \tab 33 \tab 399 \tab 108 \tab 183 \tab 158 \tab 369 \tab 8 \tab 3 \tab 1974 \cr
+   2014 \tab 824 \tab 22 \tab 15 \tab 23 \tab 41 \tab 506 \tab 138 \tab 249 \tab 230 \tab 478 \tab 8 \tab 4 \tab 2538 \cr
+   2016 \tab 978 \tab 25 \tab 15 \tab 24 \tab 47 \tab 550 \tab 120 \tab 293 \tab 235 \tab 571 \tab 3 \tab 6 \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 16350 \tab 217 \tab 151 \tab 231 \tab 336 \tab 4896 \tab 1059 \tab 2266 \tab 2002 \tab 4664 \tab 102 \tab 160 \tab 32434 \cr
+}
 }
 
 \seealso{

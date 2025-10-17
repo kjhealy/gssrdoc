@@ -22,16 +22,22 @@ H. Take non-prescription medication, like over the counter sleeping pills.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2028/vshow}{GSS Data Explorer page for \code{orotcmed}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab Total \cr
+   1996 \tab 2762 \tab 4 \tab 5 \tab 9 \tab 4 \tab 15 \tab 8 \tab 13 \tab 12 \tab 16 \tab 8 \tab 48 \tab 2904 \cr
+   2006 \tab 4315 \tab 3 \tab 4 \tab 8 \tab 11 \tab 25 \tab 13 \tab 34 \tab 28 \tab 33 \tab 10 \tab 26 \tab 4510 \cr
+   Total \tab 7077 \tab 7 \tab 9 \tab 17 \tab 15 \tab 40 \tab 21 \tab 47 \tab 40 \tab 49 \tab 18 \tab 74 \tab 7414 \cr
+}
 }
 
 \seealso{

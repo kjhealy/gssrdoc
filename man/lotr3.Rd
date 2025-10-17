@@ -27,15 +27,21 @@ I'm always optimistic about my future.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6199/vshow}{GSS Data Explorer page for \code{lotr3}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly disagree \tab disagree \tab neutral \tab agree \tab strongly agree \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1409 \tab 43 \tab 144 \tab 281 \tab 724 \tab 256 \tab 1 \tab 9 \tab 2867 \cr
+   Total \tab 1409 \tab 43 \tab 144 \tab 281 \tab 724 \tab 256 \tab 1 \tab 9 \tab 2867 \cr
+}
 }
 
 \seealso{

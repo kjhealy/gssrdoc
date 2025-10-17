@@ -27,16 +27,23 @@ B. Makes small repairs around the house?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4430/vshow}{GSS Data Explorer page for \code{repairs1}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab always me \tab usually me \tab about equal or both together \tab usually my spouse/partner \tab always my spouse/partner \tab is done by a third person \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2058 \tab 142 \tab 147 \tab 129 \tab 219 \tab 15 \tab 30 \tab 3 \tab 22 \tab 2765 \cr
+   2012 \tab 1274 \tab 185 \tab 117 \tab 91 \tab 156 \tab 111 \tab 33 \tab 5 \tab 2 \tab 1974 \cr
+   Total \tab 3332 \tab 327 \tab 264 \tab 220 \tab 375 \tab 126 \tab 63 \tab 8 \tab 24 \tab 4739 \cr
+}
 }
 
 \seealso{

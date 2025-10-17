@@ -26,15 +26,21 @@ D. Ambition? -- how important is that?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4244/vshow}{GSS Data Explorer page for \code{opambit}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 627 \tab 728 \tab 154 \tab 19 \tab 2 \tab 18 \tab 16 \tab 1819 \cr
+   Total \tab 255 \tab 627 \tab 728 \tab 154 \tab 19 \tab 2 \tab 18 \tab 16 \tab 1819 \cr
+}
 }
 
 \seealso{

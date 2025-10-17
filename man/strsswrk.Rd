@@ -26,15 +26,21 @@ D. My job is rarely stressful
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4446/vshow}{GSS Data Explorer page for \code{strsswrk}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2002 \tab 1594 \tab 73 \tab 249 \tab 198 \tab 329 \tab 151 \tab 160 \tab 11 \tab 2765 \cr
+   Total \tab 1594 \tab 73 \tab 249 \tab 198 \tab 329 \tab 151 \tab 160 \tab 11 \tab 2765 \cr
+}
 }
 
 \seealso{

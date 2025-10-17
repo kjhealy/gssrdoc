@@ -26,15 +26,21 @@ Question What''s is (NAME''S) religious preference?  Is it Protestant, Catholic,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1112/vshow}{GSS Data Explorer page for \code{frndrel5}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 2338 \tab 135 \tab 104 \tab 10 \tab 47 \tab 21 \tab 105 \tab 72 \tab 2832 \cr
+   Total \tab 2338 \tab 135 \tab 104 \tab 10 \tab 47 \tab 21 \tab 105 \tab 72 \tab 2832 \cr
+}
 }
 
 \seealso{

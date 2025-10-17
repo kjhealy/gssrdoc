@@ -25,20 +25,26 @@ D. I have enough information to get the job done
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2799/vshow}{GSS Data Explorer page for \code{haveinfo}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 1055 \tab 621 \tab 64 \tab 37 \tab 5 \tab 14 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 941 \tab 663 \tab 74 \tab 24 \tab 16 \tab 16 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 664 \tab 437 \tab 43 \tab 18 \tab 1 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 732 \tab 455 \tab 45 \tab 11 \tab 1 \tab 6 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 809 \tab 527 \tab 62 \tab 15 \tab 3 \tab 32 \tab - \tab 2348 \cr
+   2022 \tab 1553 \tab 1019 \tab 792 \tab 109 \tab 27 \tab 11 \tab 11 \tab 22 \tab 3544 \cr
+   Total \tab 8343 \tab 5220 \tab 3495 \tab 397 \tab 132 \tab 37 \tab 103 \tab 22 \tab 17749 \cr
+}
 }
 
 \seealso{

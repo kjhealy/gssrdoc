@@ -25,15 +25,21 @@ A. ...in Reincarnation â€“ being reborn in this world again and again?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4705/vshow}{GSS Data Explorer page for \code{reincar}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 658 \tab 178 \tab 248 \tab 374 \tab 488 \tab 71 \tab 6 \tab 2023 \cr
+   Total \tab 658 \tab 178 \tab 248 \tab 374 \tab 488 \tab 71 \tab 6 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -27,15 +27,21 @@ Question Do the police treat Whites better than Black people, treat both the sam
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7562/vshow}{GSS Data Explorer page for \code{poltrtblk}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab treat whites much better than blacks \tab treat whites moderately better than blacks \tab treat whites a little better than blacks \tab treat both the same \tab treat blacks a little better than whites \tab treat blacks moderately better than whites \tab treat blacks much better than whites \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 1315 \tab 914 \tab 452 \tab 167 \tab 765 \tab 19 \tab 5 \tab 6 \tab 10 \tab 365 \tab 14 \tab 4032 \cr
+   Total \tab 1315 \tab 914 \tab 452 \tab 167 \tab 765 \tab 19 \tab 5 \tab 6 \tab 10 \tab 365 \tab 14 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yryouth1`](https://gssdataexplorer.norc.org/variables/3174/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |1  |10 |11 |12 |14 |15 |17 |19 |2  |20 |3  |30 |33 |4  |5  |50 |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2004  |2656 |6  |29 |9  |4  |2  |2  |4  |1  |1  |21 |8  |14 |2  |1  |9  |9  |1  |10 |6  |4  |1  |3          |9         |2812  |
+#'  |Total |2656 |6  |29 |9  |4  |2  |2  |4  |1  |1  |21 |8  |14 |2  |1  |9  |9  |1  |10 |6  |4  |1  |3          |9         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -45,13 +51,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yryouth2`](https://gssdataexplorer.norc.org/variables/3175/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |10 |15 |2  |3  |4  |5  |8  |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2004  |2793 |2  |1  |1  |2  |1  |1  |1  |1  |2          |7         |2812  |
+#'  |Total |2793 |2  |1  |1  |2  |1  |1  |1  |1  |2          |7         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -77,13 +89,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yryouth3`](https://gssdataexplorer.norc.org/variables/3176/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |3  |no answer |Total |
+#'  |:-----|:----|:--|:--|:---------|:-----|
+#'  |2004  |2803 |1  |1  |7         |2812  |
+#'  |Total |2803 |1  |1  |7         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -109,13 +127,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yryouth4`](https://gssdataexplorer.norc.org/variables/3177/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |no answer |Total |
+#'  |:-----|:----|:--|:---------|:-----|
+#'  |2004  |2804 |1  |7         |2812  |
+#'  |Total |2804 |1  |7         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -141,13 +165,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yryouth5`](https://gssdataexplorer.norc.org/variables/3178/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |no answer |Total |
+#'  |:-----|:----|:--|:---------|:-----|
+#'  |2004  |2804 |1  |7         |2812  |
+#'  |Total |2804 |1  |7         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -173,13 +203,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yrschl1`](https://gssdataexplorer.norc.org/variables/3179/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |1  |10 |11 |12 |13 |14 |15 |16 |18 |19 |2  |20 |25 |3  |30 |33 |4  |5  |51 |52 |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2004  |2601 |15 |31 |5  |2  |5  |1  |2  |5  |1  |1  |1  |37 |2  |3  |29 |3  |1  |12 |10 |1  |1  |7  |9  |4  |3  |7          |13        |2812  |
+#'  |Total |2601 |15 |31 |5  |2  |5  |1  |2  |5  |1  |1  |1  |37 |2  |3  |29 |3  |1  |12 |10 |1  |1  |7  |9  |4  |3  |7          |13        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -205,13 +241,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yrschl2`](https://gssdataexplorer.norc.org/variables/3180/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |10 |12 |2  |23 |3  |4  |5  |6  |8  |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2004  |2785 |4  |2  |1  |1  |1  |2  |1  |3  |1  |1  |1          |9         |2812  |
+#'  |Total |2785 |4  |2  |1  |1  |1  |2  |1  |3  |1  |1  |1          |9         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -237,13 +279,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yrschl3`](https://gssdataexplorer.norc.org/variables/3181/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |2  |3  |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:---------|:-----|
+#'  |2004  |2800 |2  |1  |1  |8         |2812  |
+#'  |Total |2800 |2  |1  |1  |8         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -269,13 +317,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yrschl4`](https://gssdataexplorer.norc.org/variables/3182/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1  |no answer |Total |
+#'  |:-----|:----|:--|:---------|:-----|
+#'  |2004  |2803 |1  |8         |2812  |
+#'  |Total |2803 |1  |8         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -301,13 +355,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yrhobby1`](https://gssdataexplorer.norc.org/variables/3183/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0  |1  |10 |12 |13 |14 |15 |2  |20 |22 |23 |25 |3  |30 |35 |4  |5  |50 |6  |7  |8  |9  |don't know |no answer |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
+#'  |2004  |2648 |7  |30 |12 |1  |2  |3  |3  |22 |5  |2  |1  |5  |17 |1  |1  |9  |11 |1  |5  |5  |5  |2  |5          |9         |2812  |
+#'  |Total |2648 |7  |30 |12 |1  |2  |3  |3  |22 |5  |2  |1  |5  |17 |1  |1  |9  |11 |1  |5  |5  |5  |2  |5          |9         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks

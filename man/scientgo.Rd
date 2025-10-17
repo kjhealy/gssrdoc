@@ -24,19 +24,27 @@ Question C. Scientific researchers are dedicated people who work for the good of
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2022 \cr
+   B/C/- \tab 2012, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3513/vshow}{GSS Data Explorer page for \code{scientgo}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 1457 \tab 106 \tab 347 \tab 30 \tab 3 \tab 27 \tab 4 \tab - \tab 1974 \cr
+   2016 \tab 1477 \tab 350 \tab 880 \tab 107 \tab 16 \tab 25 \tab 12 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 323 \tab 728 \tab 91 \tab 10 \tab 21 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 2154 \tab 491 \tab 1154 \tab 174 \tab 30 \tab 4 \tab 3 \tab 22 \tab 4032 \cr
+   2022 \tab 2309 \tab 264 \tab 800 \tab 156 \tab 8 \tab - \tab - \tab 7 \tab 3544 \cr
+   Total \tab 8570 \tab 1534 \tab 3909 \tab 558 \tab 67 \tab 77 \tab 21 \tab 29 \tab 14765 \cr
+}
 }
 
 \seealso{

@@ -15,13 +15,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natenviz`](https://gssdataexplorer.norc.org/variables/211/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |too little |about right |too much |don't know |no answer |Total |
+#'  |:-----|:---|:----------|:-----------|:--------|:----------|:---------|:-----|
+#'  |1984  |989 |279        |144         |42       |16         |3         |1473  |
+#'  |Total |989 |279        |144         |42       |16         |3         |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -49,13 +55,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `nathealz`](https://gssdataexplorer.norc.org/variables/212/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |too little |about right |too much |don't know |no answer |Total |
+#'  |:-----|:---|:----------|:-----------|:--------|:----------|:---------|:-----|
+#'  |1984  |989 |273        |169         |23       |15         |4         |1473  |
+#'  |Total |989 |273        |169         |23       |15         |4         |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -83,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natcityz`](https://gssdataexplorer.norc.org/variables/213/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |too little |about right |too much |don't know |no answer |Total |
+#'  |:-----|:---|:----------|:-----------|:--------|:----------|:---------|:-----|
+#'  |1984  |989 |218        |151         |58       |52         |5         |1473  |
+#'  |Total |989 |218        |151         |58       |52         |5         |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -117,13 +135,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natcrimz`](https://gssdataexplorer.norc.org/variables/214/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |too little |about right |too much |don't know |no answer |Total |
+#'  |:-----|:---|:----------|:-----------|:--------|:----------|:---------|:-----|
+#'  |1984  |989 |328        |122         |15       |14         |5         |1473  |
+#'  |Total |989 |328        |122         |15       |14         |5         |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -151,13 +175,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natdrugz`](https://gssdataexplorer.norc.org/variables/215/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |too little |about right |too much |don't know |no answer |Total |
+#'  |:-----|:---|:----------|:-----------|:--------|:----------|:---------|:-----|
+#'  |1984  |989 |305        |135         |21       |19         |4         |1473  |
+#'  |Total |989 |305        |135         |21       |19         |4         |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -185,13 +215,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `nateducz`](https://gssdataexplorer.norc.org/variables/216/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |too little |about right |too much |don't know |no answer |Total |
+#'  |:-----|:---|:----------|:-----------|:--------|:----------|:---------|:-----|
+#'  |1984  |989 |306        |136         |25       |12         |5         |1473  |
+#'  |Total |989 |306        |136         |25       |12         |5         |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -219,13 +255,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natracez`](https://gssdataexplorer.norc.org/variables/217/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |too little |about right |too much |don't know |no answer |Total |
+#'  |:-----|:---|:----------|:-----------|:--------|:----------|:---------|:-----|
+#'  |1984  |989 |157        |219         |76       |29         |3         |1473  |
+#'  |Total |989 |157        |219         |76       |29         |3         |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -253,13 +295,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natarmsz`](https://gssdataexplorer.norc.org/variables/218/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |too little |about right |too much |don't know |no answer |Total |
+#'  |:-----|:---|:----------|:-----------|:--------|:----------|:---------|:-----|
+#'  |1984  |989 |101        |200         |165      |15         |3         |1473  |
+#'  |Total |989 |101        |200         |165      |15         |3         |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -287,13 +335,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `nataidz`](https://gssdataexplorer.norc.org/variables/219/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |too little |about right |too much |don't know |no answer |Total |
+#'  |:-----|:---|:----------|:-----------|:--------|:----------|:---------|:-----|
+#'  |1984  |989 |16         |111         |332      |20         |5         |1473  |
+#'  |Total |989 |16         |111         |332      |20         |5         |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -321,13 +375,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1984  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natfarez`](https://gssdataexplorer.norc.org/variables/220/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |too little |about right |too much |don't know |no answer |Total |
+#'  |:-----|:---|:----------|:-----------|:--------|:----------|:---------|:-----|
+#'  |1984  |989 |328        |110         |35       |8          |3         |1473  |
+#'  |Total |989 |328        |110         |35       |8          |3         |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

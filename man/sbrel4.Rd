@@ -25,15 +25,21 @@ D4. Relation to R. of fourth sibling
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1566/vshow}{GSS Data Explorer page for \code{sbrel4}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab full \tab adopted \tab step \tab half \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1794 \tab 956 \tab 5 \tab 66 \tab 124 \tab 2 \tab 45 \tab 2992 \cr
+   Total \tab 1794 \tab 956 \tab 5 \tab 66 \tab 124 \tab 2 \tab 45 \tab 2992 \cr
+}
 }
 
 \seealso{

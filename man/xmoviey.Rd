@@ -30,16 +30,21 @@ Question The next questions are about pornography- Internet materials or website
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7757/vshow}{GSS Data Explorer page for \code{xmoviey}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month \tab 2-3 times a month \tab nearly every week \tab every week \tab once a day \tab several times a day \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2364 \tab 627 \tab 79 \tab 84 \tab 97 \tab 47 \tab 55 \tab 40 \tab 47 \tab 24 \tab 12 \tab 39 \tab 25 \tab 4 \tab 3544 \cr
+   Total \tab 2364 \tab 627 \tab 79 \tab 84 \tab 97 \tab 47 \tab 55 \tab 40 \tab 47 \tab 24 \tab 12 \tab 39 \tab 25 \tab 4 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

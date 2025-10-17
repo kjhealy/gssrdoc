@@ -22,15 +22,21 @@ C4. Birth year of fourth child.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1504/vshow}{GSS Data Explorer page for \code{kdyrbrn4}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1926 \tab 1931 \tab 1937 \tab 1941 \tab 1942 \tab 1943 \tab 1944 \tab 1945 \tab 1947 \tab 1948 \tab 1949 \tab 1950 \tab 1951 \tab 1952 \tab 1953 \tab 1954 \tab 1955 \tab 1956 \tab 1957 \tab 1958 \tab 1959 \tab 1960 \tab 1961 \tab 1962 \tab 1963 \tab 1964 \tab 1965 \tab 1966 \tab 1967 \tab 1968 \tab 1969 \tab 1970 \tab 1971 \tab 1972 \tab 1973 \tab 1974 \tab 1975 \tab 1976 \tab 1977 \tab 1978 \tab 1979 \tab 1980 \tab 1981 \tab 1982 \tab 1983 \tab 1984 \tab 1985 \tab 1986 \tab 1987 \tab 1988 \tab 1989 \tab 1990 \tab 1991 \tab 1992 \tab 1993 \tab 1994 \tab before 1976 \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2740 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 2 \tab 5 \tab 5 \tab 5 \tab 3 \tab 4 \tab 6 \tab 3 \tab 7 \tab 5 \tab 6 \tab 4 \tab 6 \tab 9 \tab 15 \tab 7 \tab 8 \tab 10 \tab 5 \tab 5 \tab 5 \tab 7 \tab 4 \tab 7 \tab 3 \tab 4 \tab 4 \tab 4 \tab 4 \tab 5 \tab 4 \tab 5 \tab 3 \tab 4 \tab 4 \tab 6 \tab 3 \tab 9 \tab 5 \tab 2 \tab 3 \tab 4 \tab 5 \tab 3 \tab 3 \tab 2 \tab 1 \tab 2 \tab 2 \tab 2 \tab 2992 \cr
+   Total \tab 2740 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 2 \tab 5 \tab 5 \tab 5 \tab 3 \tab 4 \tab 6 \tab 3 \tab 7 \tab 5 \tab 6 \tab 4 \tab 6 \tab 9 \tab 15 \tab 7 \tab 8 \tab 10 \tab 5 \tab 5 \tab 5 \tab 7 \tab 4 \tab 7 \tab 3 \tab 4 \tab 4 \tab 4 \tab 4 \tab 5 \tab 4 \tab 5 \tab 3 \tab 4 \tab 4 \tab 6 \tab 3 \tab 9 \tab 5 \tab 2 \tab 3 \tab 4 \tab 5 \tab 3 \tab 3 \tab 2 \tab 1 \tab 2 \tab 2 \tab 2 \tab 2992 \cr
+}
 }
 
 \seealso{

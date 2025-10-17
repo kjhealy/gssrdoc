@@ -24,15 +24,21 @@ D. Fourth listed child?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2642/vshow}{GSS Data Explorer page for \code{timekid4}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab too much \tab about the right amount \tab too little \tab no answer \tab Total \cr
+   2000 \tab 2742 \tab 3 \tab 34 \tab 20 \tab 18 \tab 2817 \cr
+   Total \tab 2742 \tab 3 \tab 34 \tab 20 \tab 18 \tab 2817 \cr
+}
 }
 
 \seealso{

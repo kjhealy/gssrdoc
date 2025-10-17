@@ -25,15 +25,21 @@ Question To understand the world, we must free our minds from old traditions and
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7539/vshow}{GSS Data Explorer page for \code{freemind}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 422 \tab 345 \tab 902 \tab 1334 \tab 740 \tab 235 \tab 6 \tab 5 \tab 43 \tab 4032 \cr
+   Total \tab 422 \tab 345 \tab 902 \tab 1334 \tab 740 \tab 235 \tab 6 \tab 5 \tab 43 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

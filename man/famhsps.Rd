@@ -23,15 +23,21 @@ D. Hispanics or Latin Americans?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2264/vshow}{GSS Data Explorer page for \code{famhsps}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab commitment to strong families \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab lacks commitment to strong families \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1419 \tab 167 \tab 276 \tab 276 \tab 369 \tab 118 \tab 36 \tab 17 \tab 125 \tab 14 \tab 2817 \cr
+   Total \tab 1419 \tab 167 \tab 276 \tab 276 \tab 369 \tab 118 \tab 36 \tab 17 \tab 125 \tab 14 \tab 2817 \cr
+}
 }
 
 \seealso{

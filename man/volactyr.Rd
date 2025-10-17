@@ -22,15 +22,21 @@ Question Since (CURRENT MONTH) 1st of last year, have you done any volunteer act
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3970/vshow}{GSS Data Explorer page for \code{volactyr}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2012 \tab 675 \tab 517 \tab 777 \tab 5 \tab 1974 \cr
+   Total \tab 675 \tab 517 \tab 777 \tab 5 \tab 1974 \cr
+}
 }
 
 \seealso{

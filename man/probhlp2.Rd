@@ -22,16 +22,22 @@ Question Problems often come up in life. Sometimes they're personal problems -- 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1984/vshow}{GSS Data Explorer page for \code{probhlp2}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 100 \tab 103 \tab 106 \tab 107 \tab 108 \tab 190 \tab 200 \tab 201 \tab 390 \tab 400 \tab 401 \tab 402 \tab 403 \tab 406 \tab 490 \tab 499 \tab 500 \tab 502 \tab 503 \tab 505 \tab 506 \tab 590 \tab 602 \tab 604 \tab 605 \tab 690 \tab 700 \tab 800 \tab no answer \tab 101 \tab 105 \tab 202 \tab 203 \tab 509 \tab 910 \tab 980 \tab 995 \tab Total \cr
+   1996 \tab 2639 \tab 9 \tab 2 \tab 22 \tab 1 \tab 8 \tab 2 \tab 42 \tab 5 \tab 3 \tab 30 \tab 1 \tab 1 \tab 17 \tab 1 \tab 2 \tab 5 \tab 10 \tab 6 \tab 1 \tab 4 \tab 38 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5 \tab 3 \tab 41 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
+   2006 \tab 3776 \tab 8 \tab 2 \tab 12 \tab 1 \tab - \tab - \tab 16 \tab - \tab 1 \tab 13 \tab - \tab 1 \tab 20 \tab - \tab 3 \tab - \tab 3 \tab 3 \tab 1 \tab - \tab 20 \tab - \tab - \tab - \tab - \tab - \tab 3 \tab - \tab 38 \tab 2 \tab 1 \tab 1 \tab 1 \tab 3 \tab 63 \tab 16 \tab 502 \tab 4510 \cr
+   Total \tab 6415 \tab 17 \tab 4 \tab 34 \tab 2 \tab 8 \tab 2 \tab 58 \tab 5 \tab 4 \tab 43 \tab 1 \tab 2 \tab 37 \tab 1 \tab 5 \tab 5 \tab 13 \tab 9 \tab 2 \tab 4 \tab 58 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 8 \tab 3 \tab 79 \tab 2 \tab 1 \tab 1 \tab 1 \tab 3 \tab 63 \tab 16 \tab 502 \tab 7414 \cr
+}
 }
 
 \seealso{

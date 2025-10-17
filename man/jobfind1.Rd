@@ -23,20 +23,26 @@ Question How easy would it be for you to find a job with another employer with a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2819/vshow}{GSS Data Explorer page for \code{jobfind1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very easy to find similar job \tab somewhat easy to find similar job \tab not easy at all to find similar job \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 427 \tab 626 \tab 702 \tab 25 \tab 16 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 503 \tab 636 \tab 552 \tab 31 \tab 12 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 170 \tab 398 \tab 573 \tab 22 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 224 \tab 475 \tab 533 \tab 13 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 341 \tab 592 \tab 469 \tab 14 \tab 32 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 547 \tab 833 \tab 558 \tab 17 \tab 16 \tab 18 \tab 3544 \cr
+   Total \tab 8345 \tab 2212 \tab 3560 \tab 3387 \tab 122 \tab 105 \tab 18 \tab 17749 \cr
+}
 }
 
 \seealso{

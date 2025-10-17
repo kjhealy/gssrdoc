@@ -26,16 +26,22 @@ D. Fourth problem mentioned.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab C \tab partial \cr
-   2004 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 1991, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5135/vshow}{GSS Data Explorer page for \code{prob4}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 1 \tab 16 \tab 166 \tab 172 \tab 175 \tab 2 \tab 20 \tab 201 \tab 30 \tab 70 \tab 73 \tab 10 \tab Total \cr
+   1991 \tab 1506 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab 1517 \cr
+   2004 \tab 2810 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab 2812 \cr
+   Total \tab 4316 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4329 \cr
+}
 }
 
 \seealso{

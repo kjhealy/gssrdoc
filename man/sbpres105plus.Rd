@@ -21,15 +21,21 @@ Question Prestige of Respondent's Sibling's Occupation (2010)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6027/vshow}{GSS Data Explorer page for \code{sbpres105plus}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 45 \tab 46 \tab 47 \tab 48 \tab 49 \tab 5 \tab 50 \tab 51 \tab 52 \tab 53 \tab 54 \tab 55 \tab 56 \tab 57 \tab 58 \tab 59 \tab 6 \tab 60 \tab 61 \tab 62 \tab 63 \tab 64 \tab 65 \tab 66 \tab 68 \tab 69 \tab 70 \tab 71 \tab 72 \tab 73 \tab 74 \tab 75 \tab 76 \tab 77 \tab 78 \tab 79 \tab 8 \tab 80 \tab 81 \tab 82 \tab 83 \tab 84 \tab 85 \tab 86 \tab 87 \tab 88 \tab 89 \tab 9 \tab 90 \tab 91 \tab 92 \tab 93 \tab 94 \tab 95 \tab 97 \tab Total \cr
+   1994 \tab 687 \tab 5 \tab 20 \tab 39 \tab 12 \tab 33 \tab 37 \tab 80 \tab 6 \tab 92 \tab 20 \tab 25 \tab 26 \tab 21 \tab 30 \tab 33 \tab 9 \tab 71 \tab 58 \tab 75 \tab 114 \tab 2 \tab 2 \tab 15 \tab 17 \tab 9 \tab 25 \tab 4 \tab 17 \tab 16 \tab 53 \tab 16 \tab 1 \tab 43 \tab 13 \tab 12 \tab 4 \tab 12 \tab 9 \tab 32 \tab 35 \tab 6 \tab 101 \tab 11 \tab 2 \tab 13 \tab 51 \tab 148 \tab 32 \tab 6 \tab 54 \tab 14 \tab 11 \tab 7 \tab 14 \tab 44 \tab 25 \tab 24 \tab 27 \tab 16 \tab 15 \tab 20 \tab 1 \tab 3 \tab 4 \tab 15 \tab 6 \tab 15 \tab 10 \tab 5 \tab 22 \tab 5 \tab 10 \tab 19 \tab 11 \tab 2 \tab 18 \tab 9 \tab 90 \tab 12 \tab 45 \tab 22 \tab 14 \tab 12 \tab 25 \tab 45 \tab 8 \tab 3 \tab 54 \tab 31 \tab 5 \tab 2992 \cr
+   Total \tab 687 \tab 5 \tab 20 \tab 39 \tab 12 \tab 33 \tab 37 \tab 80 \tab 6 \tab 92 \tab 20 \tab 25 \tab 26 \tab 21 \tab 30 \tab 33 \tab 9 \tab 71 \tab 58 \tab 75 \tab 114 \tab 2 \tab 2 \tab 15 \tab 17 \tab 9 \tab 25 \tab 4 \tab 17 \tab 16 \tab 53 \tab 16 \tab 1 \tab 43 \tab 13 \tab 12 \tab 4 \tab 12 \tab 9 \tab 32 \tab 35 \tab 6 \tab 101 \tab 11 \tab 2 \tab 13 \tab 51 \tab 148 \tab 32 \tab 6 \tab 54 \tab 14 \tab 11 \tab 7 \tab 14 \tab 44 \tab 25 \tab 24 \tab 27 \tab 16 \tab 15 \tab 20 \tab 1 \tab 3 \tab 4 \tab 15 \tab 6 \tab 15 \tab 10 \tab 5 \tab 22 \tab 5 \tab 10 \tab 19 \tab 11 \tab 2 \tab 18 \tab 9 \tab 90 \tab 12 \tab 45 \tab 22 \tab 14 \tab 12 \tab 25 \tab 45 \tab 8 \tab 3 \tab 54 \tab 31 \tab 5 \tab 2992 \cr
+}
 }
 
 \seealso{

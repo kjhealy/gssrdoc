@@ -26,15 +26,21 @@ O. A Supreme Court Justice?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4293/vshow}{GSS Data Explorer page for \code{givjudge}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10000 \tab 110000 \tab 12000 \tab 120000 \tab 125000 \tab 130000 \tab 140000 \tab 145000 \tab 15000 \tab 150000 \tab 160000 \tab 165000 \tab 170000 \tab 175000 \tab 177000 \tab 180000 \tab 1e+05 \tab $1 million (or more, for 1987 & 2000) \tab 20000 \tab 2250 \tab 225000 \tab 230000 \tab 24000 \tab 25000 \tab 250000 \tab 265000 \tab 27000 \tab 2e+05 \tab 3000 \tab 30000 \tab 35000 \tab 350000 \tab 39000 \tab 3e+05 \tab 4000 \tab 40000 \tab 404000 \tab 41600 \tab 45000 \tab 48000 \tab 4e+05 \tab 5000 \tab 50000 \tab 520 \tab 55000 \tab 57000 \tab 5e+05 \tab 60000 \tab 65000 \tab 6e+05 \tab 70000 \tab 75000 \tab 78000 \tab 7e+05 \tab 80000 \tab 85000 \tab 8e+05 \tab 90000 \tab 95000 \tab 98000 \tab 9e+05 \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1545 \tab 1 \tab 2 \tab 3 \tab 1 \tab 17 \tab 30 \tab 4 \tab 3 \tab 1 \tab 2 \tab 108 \tab 2 \tab 1 \tab 1 \tab 9 \tab 1 \tab 6 \tab 215 \tab 10 \tab 7 \tab 1 \tab 2 \tab 1 \tab 2 \tab 8 \tab 28 \tab 1 \tab 1 \tab 93 \tab 1 \tab 7 \tab 1 \tab 3 \tab 1 \tab 18 \tab 1 \tab 24 \tab 1 \tab 1 \tab 10 \tab 2 \tab 5 \tab 1 \tab 73 \tab 1 \tab 2 \tab 1 \tab 13 \tab 48 \tab 12 \tab 1 \tab 34 \tab 55 \tab 1 \tab 1 \tab 77 \tab 5 \tab 1 \tab 22 \tab 5 \tab 1 \tab 1 \tab 79 \tab 202 \tab 2817 \cr
+   Total \tab 1545 \tab 1 \tab 2 \tab 3 \tab 1 \tab 17 \tab 30 \tab 4 \tab 3 \tab 1 \tab 2 \tab 108 \tab 2 \tab 1 \tab 1 \tab 9 \tab 1 \tab 6 \tab 215 \tab 10 \tab 7 \tab 1 \tab 2 \tab 1 \tab 2 \tab 8 \tab 28 \tab 1 \tab 1 \tab 93 \tab 1 \tab 7 \tab 1 \tab 3 \tab 1 \tab 18 \tab 1 \tab 24 \tab 1 \tab 1 \tab 10 \tab 2 \tab 5 \tab 1 \tab 73 \tab 1 \tab 2 \tab 1 \tab 13 \tab 48 \tab 12 \tab 1 \tab 34 \tab 55 \tab 1 \tab 1 \tab 77 \tab 5 \tab 1 \tab 22 \tab 5 \tab 1 \tab 1 \tab 79 \tab 202 \tab 2817 \cr
+}
 }
 
 \seealso{

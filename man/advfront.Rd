@@ -25,22 +25,31 @@ D. Even if it brings no immediate benefits, scientific research that advances th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008, 2022 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3319/vshow}{GSS Data Explorer page for \code{advfront}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2006 \tab 2646 \tab 581 \tab 1043 \tab 160 \tab 22 \tab 56 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 354 \tab 905 \tab 160 \tab 13 \tab 65 \tab 8 \tab - \tab 2023 \cr
+   2010 \tab 1353 \tab 166 \tab 401 \tab 77 \tab 8 \tab 36 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 226 \tab 590 \tab 113 \tab 21 \tab 43 \tab 9 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 315 \tab 692 \tab 182 \tab 24 \tab 22 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 400 \tab 759 \tab 184 \tab 15 \tab 27 \tab 5 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 339 \tab 649 \tab 136 \tab 24 \tab 24 \tab 3 \tab - \tab 2348 \cr
+   2022 \tab 2309 \tab 488 \tab 583 \tab 142 \tab 20 \tab - \tab - \tab 2 \tab 3544 \cr
+   Total \tab 11747 \tab 2869 \tab 5622 \tab 1154 \tab 147 \tab 273 \tab 34 \tab 2 \tab 21848 \cr
+}
 }
 
 \seealso{

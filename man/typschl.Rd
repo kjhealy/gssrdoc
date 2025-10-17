@@ -22,15 +22,21 @@ Question H. Do you belong to more than one school service club?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3117/vshow}{GSS Data Explorer page for \code{typschl}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 2601 \tab 20 \tab 183 \tab 1 \tab 7 \tab 2812 \cr
+   Total \tab 2601 \tab 20 \tab 183 \tab 1 \tab 7 \tab 2812 \cr
+}
 }
 
 \seealso{

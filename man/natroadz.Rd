@@ -24,15 +24,21 @@ L. Improving the condition of highways and bridges
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/221/vshow}{GSS Data Explorer page for \code{natroadz}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 989 \tab 232 \tab 214 \tab 23 \tab 13 \tab 2 \tab 1473 \cr
+   Total \tab 989 \tab 232 \tab 214 \tab 23 \tab 13 \tab 2 \tab 1473 \cr
+}
 }
 
 \seealso{

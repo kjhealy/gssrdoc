@@ -25,16 +25,22 @@ G. Cars are not really an important cause of air pollution in America.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4752/vshow}{GSS Data Explorer page for \code{grntest7}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 91 \tab 232 \tab 388 \tab 715 \tab 50 \tab 81 \tab 1606 \cr
+   1994 \tab 1606 \tab 66 \tab 223 \tab 392 \tab 607 \tab 57 \tab 41 \tab 2992 \cr
+   Total \tab 1655 \tab 157 \tab 455 \tab 780 \tab 1322 \tab 107 \tab 122 \tab 4598 \cr
+}
 }
 
 \seealso{

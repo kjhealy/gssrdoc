@@ -23,17 +23,23 @@ Question In general, do you think the courts in this area deal too harshly or no
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7586/vshow}{GSS Data Explorer page for \code{courtsv}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too harshly \tab not harshly enough \tab about right (phone mode only: volunteered) \tab don't know \tab skipped on web \tab no answer \tab Total \cr
+   2021 \tab 1987 \tab 424 \tab 965 \tab 590 \tab 12 \tab 54 \tab - \tab 4032 \cr
+   2022 \tab 2683 \tab 111 \tab 405 \tab 337 \tab 1 \tab 6 \tab 1 \tab 3544 \cr
+   Total \tab 4670 \tab 535 \tab 1370 \tab 927 \tab 13 \tab 60 \tab 1 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

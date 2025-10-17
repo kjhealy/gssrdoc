@@ -23,15 +23,21 @@ D. Personal interests, games, or enjoyment?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2574/vshow}{GSS Data Explorer page for \code{perhrw}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 8 \tab no answer \tab Total \cr
+   2000 \tab 2486 \tab 224 \tab 13 \tab 3 \tab 9 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 74 \tab 2817 \cr
+   Total \tab 2486 \tab 224 \tab 13 \tab 3 \tab 9 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 74 \tab 2817 \cr
+}
 }
 
 \seealso{

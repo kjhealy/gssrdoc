@@ -22,17 +22,22 @@ Question Now, we would like to ask you some questions about a self-identified Co
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7438/vshow}{GSS Data Explorer page for \code{spkcomy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, allowed to speak \tab not allowed \tab don't know \tab skipped on web \tab no answer \tab Total \cr
+   2021 \tab 2675 \tab 953 \tab 385 \tab 5 \tab 14 \tab - \tab 4032 \cr
+   2022 \tab 2367 \tab 777 \tab 367 \tab 26 \tab 3 \tab 4 \tab 3544 \cr
+   Total \tab 5042 \tab 1730 \tab 752 \tab 31 \tab 17 \tab 4 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

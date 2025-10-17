@@ -26,15 +26,21 @@ B. Without trade unions the working conditions of employees would be much worse 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4609/vshow}{GSS Data Explorer page for \code{unbetter}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 261 \tab 606 \tab 321 \tab 226 \tab 61 \tab 41 \tab 2 \tab 4510 \cr
+   Total \tab 2992 \tab 261 \tab 606 \tab 321 \tab 226 \tab 61 \tab 41 \tab 2 \tab 4510 \cr
+}
 }
 
 \seealso{

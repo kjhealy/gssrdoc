@@ -25,16 +25,22 @@ D. Attended a political meeting or rally
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4923/vshow}{GSS Data Explorer page for \code{attrally}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab have done it in the past yr \tab have done it in the more distant past \tab have not done it but might do it \tab have not done it and would never do it \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 183 \tab 293 \tab 585 \tab 406 \tab 1 \tab 4 \tab 2812 \cr
+   2014 \tab 1274 \tab 100 \tab 269 \tab 479 \tab 395 \tab 19 \tab 2 \tab 2538 \cr
+   Total \tab 2614 \tab 283 \tab 562 \tab 1064 \tab 801 \tab 20 \tab 6 \tab 5350 \cr
+}
 }
 
 \seealso{

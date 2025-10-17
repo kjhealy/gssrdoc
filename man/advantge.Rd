@@ -26,15 +26,21 @@ C. If you are not careful, other people will take advantage of you
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4238/vshow}{GSS Data Explorer page for \code{advantge}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 280 \tab 514 \tab 180 \tab 143 \tab 12 \tab 9 \tab 11 \tab 2765 \cr
+   Total \tab 1616 \tab 280 \tab 514 \tab 180 \tab 143 \tab 12 \tab 9 \tab 11 \tab 2765 \cr
+}
 }
 
 \seealso{

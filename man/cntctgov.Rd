@@ -25,16 +25,22 @@ E. Contacted, or attempted to contact, a politician or a civil servant to expres
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4924/vshow}{GSS Data Explorer page for \code{cntctgov}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab have done it in the past yr \tab have done it in the more distant past \tab have not done it but might do it \tab have not done it and would never do it \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 321 \tab 313 \tab 544 \tab 290 \tab 1 \tab 3 \tab 2812 \cr
+   2014 \tab 1274 \tab 228 \tab 231 \tab 417 \tab 364 \tab 22 \tab 2 \tab 2538 \cr
+   Total \tab 2614 \tab 549 \tab 544 \tab 961 \tab 654 \tab 23 \tab 5 \tab 5350 \cr
+}
 }
 
 \seealso{

@@ -24,17 +24,23 @@ Question I. In 2000, you remember that Gore ran for President on the Democratic 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/166/vshow}{GSS Data Explorer page for \code{vote00}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab voted \tab did not vote \tab ineligible \tab refused to answer \tab don't know \tab no answer \tab Total \cr
+   2002 \tab - \tab 1780 \tab 822 \tab 138 \tab 11 \tab 14 \tab - \tab 2765 \cr
+   2004 \tab - \tab 1760 \tab 814 \tab 211 \tab 4 \tab 23 \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 1826 \tab 715 \tab 389 \tab - \tab 52 \tab 10 \tab 4510 \cr
+   Total \tab 1518 \tab 5366 \tab 2351 \tab 738 \tab 15 \tab 89 \tab 10 \tab 10087 \cr
+}
 }
 
 \seealso{

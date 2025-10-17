@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhreloth`](https://gssdataexplorer.norc.org/variables/3808/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |became stronger |became worse |was unchanged |ended as a result of the problem |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:------------|:-------------|:--------------------------------|:----------|:---------|:-----|
+#'  |2006  |3535 |292             |74           |530           |66                               |5          |8         |4510  |
+#'  |Total |3535 |292             |74           |530           |66                               |5          |8         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -50,13 +56,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhexpoth`](https://gssdataexplorer.norc.org/variables/3809/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |made you a better person |made you a worse person, or |had no effect on you as a person |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:---------------------------|:--------------------------------|:----------|:---------|:-----|
+#'  |2006  |3535 |558                      |6                           |397                              |6          |8         |4510  |
+#'  |Total |3535 |558                      |6                           |397                              |6          |8         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -82,13 +94,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhtrtslf`](https://gssdataexplorer.norc.org/variables/3810/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2006  |3085 |213 |1200 |1          |11        |4510  |
+#'  |Total |3085 |213 |1200 |1          |11        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -116,13 +134,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhseepub`](https://gssdataexplorer.norc.org/variables/3811/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |frequently |occasionally |rarely |never |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:------------|:------|:-----|:----------|:---------|:-----|
+#'  |2006  |3085 |223        |474          |465    |253   |5          |5         |4510  |
+#'  |Total |3085 |223        |474          |465    |253   |5          |5         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -151,13 +175,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhfright`](https://gssdataexplorer.norc.org/variables/3812/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very frightening |somewhat frightening |not very frightening |not at all frightening |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:--------------------|:--------------------|:----------------------|:----------|:---------|:-----|
+#'  |2006  |3343 |29               |324                  |490                  |305                    |13         |6         |4510  |
+#'  |Total |3343 |29               |324                  |490                  |305                    |13         |6         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -186,13 +216,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `mhsymp`](https://gssdataexplorer.norc.org/variables/3813/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |no sympathy at all |a little sympathy |quite a bit of sympathy |a great deal of sympathy |don't know |no answer |Total |
+#'  |:-----|:----|:------------------|:-----------------|:-----------------------|:------------------------|:----------|:---------|:-----|
+#'  |2006  |3343 |13                 |295               |469                     |379                      |6          |5         |4510  |
+#'  |Total |3343 |13                 |295               |469                     |379                      |6          |5         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -218,13 +254,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `startbiz`](https://gssdataexplorer.norc.org/variables/3814/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no   |no answer |Total |
+#'  |:-----|:---|:---|:----|:---------|:-----|
+#'  |2008  |-   |201 |1819 |3         |2023  |
+#'  |Total |0   |201 |1819 |3         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
@@ -250,13 +292,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ownbiz`](https://gssdataexplorer.norc.org/variables/3815/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |yes |no   |no answer |Total |
+#'  |:-----|:---|:---|:----|:---------|:-----|
+#'  |2008  |-   |250 |1771 |2         |2023  |
+#'  |Total |0   |250 |1771 |2         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
@@ -281,13 +329,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `numown`](https://gssdataexplorer.norc.org/variables/3816/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1   |2  |3  |4  |5  |6  |don't know |Total |
+#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:----------|:-----|
+#'  |2008  |1774 |205 |24 |10 |5  |1  |3  |1          |2023  |
+#'  |Total |1774 |205 |24 |10 |5  |1  |3  |1          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
@@ -312,13 +366,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yearbiz`](https://gssdataexplorer.norc.org/variables/3817/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1912 |1946 |1948 |1961 |1963 |1969 |1970 |1971 |1973 |1974 |1975 |1979 |1980 |1981 |1982 |1983 |1984 |1985 |1986 |1987 |1988 |1989 |1990 |1991 |1992 |1993 |1994 |1995 |1996 |1997 |1998 |1999 |2000 |2001 |2002 |2003 |2004 |2005 |2006 |2007 |2008 |no answer |Total |
+#'  |:-----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---------|:-----|
+#'  |2008  |1771 |1    |1    |1    |1    |1    |1    |1    |1    |4    |2    |3    |1    |2    |2    |5    |1    |3    |2    |1    |2    |6    |1    |4    |4    |3    |6    |3    |2    |6    |6    |11   |3    |11   |8    |11   |15   |20   |17   |26   |28   |22   |3         |2023  |
+#'  |Total |1771 |1    |1    |1    |1    |1    |1    |1    |1    |4    |2    |3    |1    |2    |2    |5    |1    |3    |2    |1    |2    |6    |1    |4    |4    |3    |6    |3    |2    |6    |6    |11   |3    |11   |8    |11   |15   |20   |17   |26   |28   |22   |3         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment

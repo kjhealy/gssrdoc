@@ -23,18 +23,25 @@ Question Today, tests are being developed that make it possible to detect seriou
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/C/- \tab partial \cr
-   1996 \tab A/C/- \tab partial \cr
-   2004 \tab A/B/C \tab full \cr
-   2018 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   A/C/- \tab 1990, 1996, 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5088/vshow}{GSS Data Explorer page for \code{geneself}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab have test \tab not have test \tab refused \tab don't know \tab no answer \tab Total \cr
+   1990 \tab 455 \tab 580 \tab 259 \tab 3 \tab 71 \tab 4 \tab 1372 \cr
+   1996 \tab 1936 \tab 616 \tab 285 \tab - \tab 8 \tab 59 \tab 2904 \cr
+   2004 \tab 2 \tab 1815 \tab 908 \tab - \tab 78 \tab 9 \tab 2812 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 4741 \tab 3011 \tab 1452 \tab 3 \tab 157 \tab 72 \tab 9436 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Question About how many of these people do you see face-to-face on a typical wee
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7264/vshow}{GSS Data Explorer page for \code{conf2f}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab all or almost all of them \tab most of them \tab about half of them \tab some of them \tab none or almost none of them \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 189 \tab 308 \tab 236 \tab 332 \tab 102 \tab 4 \tab 2 \tab 2348 \cr
+   Total \tab 1175 \tab 189 \tab 308 \tab 236 \tab 332 \tab 102 \tab 4 \tab 2 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

@@ -25,17 +25,25 @@ Question In general, would you say your health is excellent, very good, good, fa
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab C/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 2018 \cr
+   C/-/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7271/vshow}{GSS Data Explorer page for \code{healthissp}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 672 \tab 254 \tab 346 \tab 415 \tab 210 \tab 65 \tab 4 \tab 8 \tab - \tab 1974 \cr
+   2018 \tab - \tab 464 \tab 666 \tab 692 \tab 420 \tab 93 \tab 3 \tab 10 \tab - \tab 2348 \cr
+   2022 \tab 2382 \tab 142 \tab 307 \tab 397 \tab 235 \tab 60 \tab 15 \tab 3 \tab 3 \tab 3544 \cr
+   Total \tab 3054 \tab 860 \tab 1319 \tab 1504 \tab 865 \tab 218 \tab 22 \tab 21 \tab 3 \tab 7866 \cr
+}
 }
 
 \keyword{variable}

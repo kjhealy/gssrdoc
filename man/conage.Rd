@@ -25,16 +25,23 @@ G. Young people and older people?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   B/C/- \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4312/vshow}{GSS Data Explorer page for \code{conage}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very strong conflicts \tab strong conflicts \tab not very strong conflicts \tab there are no conflicts \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 1545 \tab 118 \tab 359 \tab 551 \tab 79 \tab 51 \tab 114 \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 138 \tab 537 \tab 925 \tab 116 \tab 111 \tab 159 \tab 17 \tab 4032 \cr
+   Total \tab 3574 \tab 256 \tab 896 \tab 1476 \tab 195 \tab 162 \tab 273 \tab 17 \tab 6849 \cr
+}
 }
 
 \seealso{

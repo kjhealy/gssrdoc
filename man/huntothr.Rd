@@ -22,18 +22,24 @@ Question B. Does any other member of this household go hunting?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
-   1980 \tab - \tab full \cr
-   1982 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977, 1980, 1982, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/689/vshow}{GSS Data Explorer page for \code{huntothr}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1977 \tab 738 \tab 176 \tab 497 \tab 1 \tab 118 \tab 1530 \cr
+   1980 \tab 782 \tab 134 \tab 528 \tab 4 \tab 20 \tab 1468 \cr
+   1982 \tab 963 \tab 143 \tab 568 \tab 4 \tab 182 \tab 1860 \cr
+   1984 \tab 778 \tab 137 \tab 494 \tab 3 \tab 61 \tab 1473 \cr
+   Total \tab 3261 \tab 590 \tab 2087 \tab 12 \tab 381 \tab 6331 \cr
+}
 }
 
 \seealso{

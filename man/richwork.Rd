@@ -22,44 +22,50 @@ Question If you were to get enough money to live as comfortably as you would lik
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/549/vshow}{GSS Data Explorer page for \code{richwork}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab continue to work \tab stop working \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1973 \tab 652 \tab 566 \tab 253 \tab 12 \tab 21 \tab - \tab 1504 \cr
+   1974 \tab 641 \tab 532 \tab 289 \tab 16 \tab 6 \tab - \tab 1484 \cr
+   1976 \tab 721 \tab 515 \tab 231 \tab 11 \tab 21 \tab - \tab 1499 \cr
+   1977 \tab 572 \tab 658 \tab 282 \tab 14 \tab 4 \tab - \tab 1530 \cr
+   1980 \tab 570 \tab 674 \tab 203 \tab 9 \tab 12 \tab - \tab 1468 \cr
+   1982 \tab 703 \tab 816 \tab 312 \tab 18 \tab 11 \tab - \tab 1860 \cr
+   1984 \tab 510 \tab 721 \tab 228 \tab 6 \tab 8 \tab - \tab 1473 \cr
+   1985 \tab 538 \tab 680 \tab 298 \tab 10 \tab 8 \tab - \tab 1534 \cr
+   1987 \tab 622 \tab 888 \tab 290 \tab 8 \tab 11 \tab - \tab 1819 \cr
+   1988 \tab 852 \tab 440 \tab 180 \tab 6 \tab 3 \tab - \tab 1481 \cr
+   1989 \tab 883 \tab 462 \tab 178 \tab 9 \tab 5 \tab - \tab 1537 \cr
+   1990 \tab 770 \tab 426 \tab 160 \tab 8 \tab 8 \tab - \tab 1372 \cr
+   1991 \tab 891 \tab 412 \tab 204 \tab 8 \tab 2 \tab - \tab 1517 \cr
+   1993 \tab 901 \tab 474 \tab 213 \tab 13 \tab 5 \tab - \tab 1606 \cr
+   1994 \tab 1610 \tab 895 \tab 465 \tab 16 \tab 6 \tab - \tab 2992 \cr
+   1996 \tab 1513 \tab 927 \tab 437 \tab 22 \tab 5 \tab - \tab 2904 \cr
+   1998 \tab 1524 \tab 894 \tab 391 \tab 18 \tab 5 \tab - \tab 2832 \cr
+   2000 \tab 1544 \tab 833 \tab 412 \tab 22 \tab 6 \tab - \tab 2817 \cr
+   2002 \tab 2113 \tab 444 \tab 201 \tab 4 \tab 3 \tab - \tab 2765 \cr
+   2004 \tab 2187 \tab 430 \tab 185 \tab 2 \tab 8 \tab - \tab 2812 \cr
+   2006 \tab 3197 \tab 896 \tab 403 \tab 10 \tab 4 \tab - \tab 4510 \cr
+   2008 \tab 1137 \tab 629 \tab 245 \tab 7 \tab 5 \tab - \tab 2023 \cr
+   2010 \tab 1183 \tab 591 \tab 256 \tab 5 \tab 9 \tab - \tab 2044 \cr
+   2012 \tab 1129 \tab 580 \tab 249 \tab 4 \tab 12 \tab - \tab 1974 \cr
+   2014 \tab 1440 \tab 749 \tab 345 \tab 3 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 1646 \tab 860 \tab 344 \tab 6 \tab 11 \tab - \tab 2867 \cr
+   2018 \tab 1326 \tab 723 \tab 280 \tab 6 \tab 13 \tab - \tab 2348 \cr
+   2021 \tab 2367 \tab 1004 \tab 620 \tab - \tab 34 \tab 7 \tab 4032 \cr
+   2022 \tab 2082 \tab 950 \tab 502 \tab 4 \tab 2 \tab 4 \tab 3544 \cr
+   Total \tab 35824 \tab 19669 \tab 8656 \tab 277 \tab 249 \tab 11 \tab 64686 \cr
+}
 }
 
 \seealso{

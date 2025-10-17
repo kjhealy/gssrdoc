@@ -25,17 +25,24 @@ Question D. And how often do you cut back on driving a car for environmental rea
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010 \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4772/vshow}{GSS Data Explorer page for \code{drivless}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab never \tab no car, dont drive \tab no answer \tab don't know \tab Total \cr
+   1993 \tab 49 \tab 32 \tab 119 \tab 393 \tab 860 \tab 113 \tab 40 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 20 \tab 75 \tab 366 \tab 808 \tab 98 \tab 19 \tab - \tab 2992 \cr
+   2010 \tab 614 \tab 64 \tab 193 \tab 427 \tab 637 \tab 98 \tab 7 \tab 4 \tab 2044 \cr
+   Total \tab 2269 \tab 116 \tab 387 \tab 1186 \tab 2305 \tab 309 \tab 66 \tab 4 \tab 6642 \cr
+}
 }
 
 \seealso{

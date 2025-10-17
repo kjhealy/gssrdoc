@@ -30,18 +30,24 @@ Question Think about the person you have known next best, living or dead, who ca
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1990, 1991, 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5013/vshow}{GSS Data Explorer page for \code{aidswho2}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab other relative \tab friend \tab neighbor \tab co-worker \tab acquaintance \tab patient \tab other \tab no answer \tab partner or lover \tab son or daughter \tab Total \cr
+   1989 \tab 1486 \tab 2 \tab 17 \tab 1 \tab 3 \tab 20 \tab 1 \tab 3 \tab 4 \tab - \tab - \tab 1537 \cr
+   1990 \tab 1324 \tab 2 \tab 13 \tab 1 \tab 5 \tab 19 \tab 4 \tab 2 \tab 2 \tab - \tab - \tab 1372 \cr
+   1991 \tab 1422 \tab 5 \tab 24 \tab 7 \tab 6 \tab 30 \tab 8 \tab 8 \tab 4 \tab 1 \tab 2 \tab 1517 \cr
+   1993 \tab 1407 \tab 11 \tab 51 \tab 7 \tab 29 \tab 75 \tab 9 \tab 10 \tab 7 \tab - \tab - \tab 1606 \cr
+   Total \tab 5639 \tab 20 \tab 105 \tab 16 \tab 43 \tab 144 \tab 22 \tab 23 \tab 17 \tab 1 \tab 2 \tab 6032 \cr
+}
 }
 
 \seealso{

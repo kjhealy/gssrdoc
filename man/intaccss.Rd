@@ -22,15 +22,21 @@ Question Do you have access to the Internet or World Wide Web through a Cellular
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2608/vshow}{GSS Data Explorer page for \code{intaccss}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2312 \tab 16 \tab 430 \tab 5 \tab 2 \tab 2765 \cr
+   Total \tab 2312 \tab 16 \tab 430 \tab 5 \tab 2 \tab 2765 \cr
+}
 }
 
 \seealso{

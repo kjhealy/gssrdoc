@@ -24,15 +24,21 @@ C. Marriage
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1101/vshow}{GSS Data Explorer page for \code{faith3}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 512 \tab 479 \tab 407 \tab 61 \tab 22 \tab 1481 \cr
+   Total \tab 0 \tab 512 \tab 479 \tab 407 \tab 61 \tab 22 \tab 1481 \cr
+}
 }
 
 \seealso{

@@ -25,16 +25,23 @@ E. Using the world Wide web (other than for e-mail)?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2564/vshow}{GSS Data Explorer page for \code{wwwminh}}.
+
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 15 \tab 20 \tab 25 \tab 30 \tab 45 \tab 5 \tab 50 \tab don't know \tab no answer \tab 2 \tab 3 \tab 4 \tab 40 \tab 55 \tab 8 \tab Total \cr
+   2000 \tab 2418 \tab 315 \tab 1 \tab 6 \tab 8 \tab 4 \tab 1 \tab 27 \tab 3 \tab 5 \tab 1 \tab 2 \tab 26 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 1162 \tab 1319 \tab 9 \tab 23 \tab 25 \tab 15 \tab 1 \tab 119 \tab 8 \tab 11 \tab 1 \tab 8 \tab 50 \tab 4 \tab 4 \tab 2 \tab 2 \tab 1 \tab 1 \tab 2765 \cr
+   Total \tab 3580 \tab 1634 \tab 10 \tab 29 \tab 33 \tab 19 \tab 2 \tab 146 \tab 11 \tab 16 \tab 2 \tab 10 \tab 76 \tab 4 \tab 4 \tab 2 \tab 2 \tab 1 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

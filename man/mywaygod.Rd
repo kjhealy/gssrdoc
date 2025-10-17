@@ -25,16 +25,23 @@ Question Do you agree or disagree with the following...I have my own way of conn
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab B/C \tab partial \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2018 \cr
+   B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4708/vshow}{GSS Data Explorer page for \code{mywaygod}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 658 \tab 339 \tab 543 \tab 155 \tab 194 \tab 118 \tab 9 \tab 7 \tab 2023 \cr
+   2018 \tab 1173 \tab 299 \tab 443 \tab 144 \tab 158 \tab 114 \tab 8 \tab 9 \tab 2348 \cr
+   Total \tab 1831 \tab 638 \tab 986 \tab 299 \tab 352 \tab 232 \tab 17 \tab 16 \tab 4371 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ G. When you think about the United States, how often do you feel UPSET? Do you f
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1795/vshow}{GSS Data Explorer page for \code{usupset}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab most of the time \tab some of the time \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2199 \tab 14 \tab 47 \tab 344 \tab 214 \tab 80 \tab 5 \tab 1 \tab 2904 \cr
+   Total \tab 2199 \tab 14 \tab 47 \tab 344 \tab 214 \tab 80 \tab 5 \tab 1 \tab 2904 \cr
+}
 }
 
 \seealso{

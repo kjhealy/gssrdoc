@@ -23,15 +23,21 @@ Classmates.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6280/vshow}{GSS Data Explorer page for \code{clssmtes}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2016 \tab 1483 \tab 77 \tab 1295 \tab 12 \tab 2867 \cr
+   Total \tab 1483 \tab 77 \tab 1295 \tab 12 \tab 2867 \cr
+}
 }
 
 \seealso{

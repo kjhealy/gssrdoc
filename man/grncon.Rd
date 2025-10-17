@@ -22,16 +22,22 @@ Question C. Generally speaking, how concerned are you about environmental issues
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4802/vshow}{GSS Data Explorer page for \code{grncon}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1 - not at all concerned \tab 2 \tab 3 \tab 4 \tab 5 - very concerned \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab 614 \tab 60 \tab 86 \tab 349 \tab 403 \tab 506 \tab 20 \tab 6 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 81 \tab 142 \tab 419 \tab 438 \tab 743 \tab 42 \tab 157 \tab 7 \tab 4032 \cr
+   Total \tab 2617 \tab 141 \tab 228 \tab 768 \tab 841 \tab 1249 \tab 62 \tab 163 \tab 7 \tab 6076 \cr
+}
 }
 
 \seealso{

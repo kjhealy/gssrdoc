@@ -24,16 +24,23 @@ PROBE FOR TWO MENTIONS. RECORD FIRST TWO MENTIONS BELOW.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab B/C/- \tab partial \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   B/C/- \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5195/vshow}{GSS Data Explorer page for \code{extra2}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 100 \tab 101 \tab 103 \tab 104 \tab 11 \tab 120 \tab 140 \tab 15 \tab 150 \tab 160 \tab 161 \tab 166 \tab 175 \tab 190 \tab 191 \tab 2 \tab 20 \tab 200 \tab 202 \tab 210 \tab 220 \tab 235 \tab 237 \tab 240 \tab 26 \tab 27 \tab 3 \tab 30 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 48 \tab 52 \tab 55 \tab 62 \tab 64 \tab 70 \tab 71 \tab 73 \tab 74 \tab 75 \tab 83 \tab 84 \tab 86 \tab 90 \tab 96 \tab 995 \tab 996 \tab 10 \tab 110 \tab 132 \tab 170 \tab 201 \tab 21 \tab 23 \tab 24 \tab 28 \tab 31 \tab 46 \tab 47 \tab 50 \tab 6 \tab 72 \tab 76 \tab 80 \tab 81 \tab 85 \tab 92 \tab no answer \tab Total \cr
+   1991 \tab 500 \tab 15 \tab 2 \tab 2 \tab 2 \tab 1 \tab 1 \tab 6 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 13 \tab 4 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 2 \tab 2 \tab 8 \tab 1 \tab 1 \tab 23 \tab 1 \tab 1 \tab 2 \tab 5 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 5 \tab 2 \tab 1 \tab 2 \tab 4 \tab 1 \tab 3 \tab 2 \tab 1 \tab 871 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   2004 \tab 1472 \tab 39 \tab 2 \tab 1 \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 5 \tab - \tab 17 \tab 2 \tab 4 \tab - \tab 8 \tab - \tab 2 \tab - \tab 10 \tab 11 \tab - \tab 1 \tab 30 \tab 5 \tab 1 \tab 1 \tab 3 \tab 2 \tab - \tab - \tab - \tab 1 \tab - \tab 6 \tab - \tab 14 \tab - \tab 2 \tab - \tab 1 \tab - \tab 3 \tab - \tab - \tab 1112 \tab 7 \tab 3 \tab 3 \tab 4 \tab 1 \tab 2 \tab 4 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 8 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 5 \tab 2812 \cr
+   Total \tab 1972 \tab 54 \tab 4 \tab 3 \tab 2 \tab 1 \tab 2 \tab 7 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 4 \tab 6 \tab 2 \tab 30 \tab 6 \tab 5 \tab 1 \tab 11 \tab 2 \tab 3 \tab 2 \tab 12 \tab 19 \tab 1 \tab 2 \tab 53 \tab 6 \tab 2 \tab 3 \tab 8 \tab 4 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 9 \tab 1 \tab 19 \tab 2 \tab 3 \tab 2 \tab 5 \tab 1 \tab 6 \tab 2 \tab 1 \tab 1983 \tab 7 \tab 3 \tab 3 \tab 4 \tab 1 \tab 2 \tab 4 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 8 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 5 \tab 4329 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ Question What is your current gender?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7293/vshow}{GSS Data Explorer page for \code{sexnow}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab female \tab male \tab transgender \tab a gender not listed here \tab no answer \tab Total \cr
+   2018 \tab 939 \tab 758 \tab 640 \tab 2 \tab 1 \tab 8 \tab 2348 \cr
+   Total \tab 939 \tab 758 \tab 640 \tab 2 \tab 1 \tab 8 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

@@ -25,16 +25,23 @@ E. Watch a feature film about the polar regions?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3428/vshow}{GSS Data Explorer page for \code{polaryr5}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 424 \tab 653 \tab 403 \tab 365 \tab 17 \tab 2 \tab 4510 \cr
+   2010 \tab 1338 \tab 177 \tab 283 \tab 124 \tab 111 \tab 3 \tab 8 \tab 2044 \cr
+   Total \tab 3984 \tab 601 \tab 936 \tab 527 \tab 476 \tab 20 \tab 10 \tab 6554 \cr
+}
 }
 
 \seealso{

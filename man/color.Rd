@@ -25,15 +25,21 @@ Question Respondent''s skin color is . . .
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/403/vshow}{GSS Data Explorer page for \code{color}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very dark brown \tab dark brown \tab medium brown \tab light brown \tab very light brown \tab no answer \tab Total \cr
+   1982 \tab 1350 \tab 50 \tab 125 \tab 233 \tab 73 \tab 14 \tab 15 \tab 1860 \cr
+   Total \tab 1350 \tab 50 \tab 125 \tab 233 \tab 73 \tab 14 \tab 15 \tab 1860 \cr
+}
 }
 
 \seealso{

@@ -26,16 +26,22 @@ E. Taking these medications makes things easier in relations with family and fri
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2172/vshow}{GSS Data Explorer page for \code{psycmed5}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 126 \tab 729 \tab 239 \tab 122 \tab 21 \tab 146 \tab 4 \tab 2832 \cr
+   2006 \tab 3073 \tab 198 \tab 849 \tab 221 \tab 86 \tab 12 \tab 57 \tab 14 \tab 4510 \cr
+   Total \tab 4518 \tab 324 \tab 1578 \tab 460 \tab 208 \tab 33 \tab 203 \tab 18 \tab 7342 \cr
+}
 }
 
 \seealso{

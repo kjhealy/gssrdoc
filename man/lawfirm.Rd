@@ -24,15 +24,21 @@ Question How firm are you about your opinion on law enforcement--would you say y
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/283/vshow}{GSS Data Explorer page for \code{lawfirm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 484 \tab 28 \tab 283 \tab 313 \tab 343 \tab 20 \tab 2 \tab 1473 \cr
+   Total \tab 484 \tab 28 \tab 283 \tab 313 \tab 343 \tab 20 \tab 2 \tab 1473 \cr
+}
 }
 
 \seealso{

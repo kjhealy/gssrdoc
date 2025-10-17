@@ -82,16 +82,22 @@ Second response
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4869/vshow}{GSS Data Explorer page for \code{spkhome2}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab english \tab spanish \tab polish \tab french \tab tagalog \tab chinese \tab italian \tab german \tab hungarian \tab navajo \tab malayam \tab arabic \tab farsi-persian \tab serbian \tab lithuanian \tab gujarati \tab slovak \tab vietnamese \tab hindu \tab no answer \tab hebrew \tab russian \tab romanian \tab japanese \tab portuguese \tab norwegian \tab latin \tab swedish \tab vesaya \tab american sign language \tab oriya \tab hnong \tab pangasian \tab macednian \tab hawaiian \tab fulani \tab greek \tab cajun \tab don't know \tab Total \cr
+   1996 \tab 2821 \tab 30 \tab 28 \tab 2 \tab 3 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
+   2004 \tab 2648 \tab 32 \tab 71 \tab 1 \tab 6 \tab 2 \tab 6 \tab 2 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab 11 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 2812 \cr
+   Total \tab 5469 \tab 62 \tab 99 \tab 3 \tab 9 \tab 4 \tab 7 \tab 4 \tab 6 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 12 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 5716 \cr
+}
 }
 
 \seealso{

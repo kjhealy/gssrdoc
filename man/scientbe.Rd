@@ -24,19 +24,27 @@ Question G. Most scientists want to work on things that will make life better fo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2022 \cr
+   B/C/- \tab 2012, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3517/vshow}{GSS Data Explorer page for \code{scientbe}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 1457 \tab 84 \tab 366 \tab 33 \tab 2 \tab 28 \tab 4 \tab - \tab 1974 \cr
+   2016 \tab 1477 \tab 322 \tab 903 \tab 129 \tab 9 \tab 20 \tab 7 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 277 \tab 766 \tab 98 \tab 13 \tab 19 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 2155 \tab 436 \tab 1202 \tab 184 \tab 27 \tab 5 \tab 1 \tab 22 \tab 4032 \cr
+   2022 \tab 2309 \tab 270 \tab 810 \tab 140 \tab 11 \tab - \tab - \tab 4 \tab 3544 \cr
+   Total \tab 8571 \tab 1389 \tab 4047 \tab 584 \tab 62 \tab 72 \tab 14 \tab 26 \tab 14765 \cr
+}
 }
 
 \seealso{

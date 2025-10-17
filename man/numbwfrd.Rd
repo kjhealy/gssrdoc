@@ -23,15 +23,21 @@ Question How many of your good friends are White/Black?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1135/vshow}{GSS Data Explorer page for \code{numbwfrd}}.
+
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 15 \tab 2 \tab 20 \tab 25 \tab 27 \tab 3 \tab 30 \tab 35 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1976 \tab 580 \tab 117 \tab 8 \tab 1 \tab 1 \tab 1 \tab 1 \tab 62 \tab 3 \tab 1 \tab 1 \tab 26 \tab 1 \tab 1 \tab 12 \tab 10 \tab 4 \tab 4 \tab 1 \tab 1 \tab 20 \tab 2832 \cr
+   Total \tab 1976 \tab 580 \tab 117 \tab 8 \tab 1 \tab 1 \tab 1 \tab 1 \tab 62 \tab 3 \tab 1 \tab 1 \tab 26 \tab 1 \tab 1 \tab 12 \tab 10 \tab 4 \tab 4 \tab 1 \tab 1 \tab 20 \tab 2832 \cr
+}
 }
 
 \seealso{

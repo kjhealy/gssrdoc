@@ -24,15 +24,21 @@ G. In what way are a fly and a tree alike?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1473/vshow}{GSS Data Explorer page for \code{alike7}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab completely wrong \tab partially right \tab completely right \tab don't know \tab no answer \tab Total \cr
+   1994 \tab - \tab 1410 \tab 387 \tab 631 \tab 530 \tab 34 \tab 2992 \cr
+   Total \tab 0 \tab 1410 \tab 387 \tab 631 \tab 530 \tab 34 \tab 2992 \cr
+}
 }
 
 \seealso{

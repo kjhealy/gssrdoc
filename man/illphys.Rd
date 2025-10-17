@@ -24,15 +24,21 @@ Question In your opinion, how likely is it that (John/Mary) is experiencing part
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2954/vshow}{GSS Data Explorer page for \code{illphys}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1372 \tab 260 \tab 480 \tab 405 \tab 197 \tab 39 \tab 12 \tab 2765 \cr
+   Total \tab 1372 \tab 260 \tab 480 \tab 405 \tab 197 \tab 39 \tab 12 \tab 2765 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question As far as you know, what is a nervous breakdown? (PROBES: How would you
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2053/vshow}{GSS Data Explorer page for \code{brkdimp3}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 102 \tab 103 \tab 104 \tab 105 \tab 106 \tab 107 \tab 108 \tab 109 \tab 110 \tab 111 \tab 113 \tab 709 \tab no answer \tab Total \cr
+   1996 \tab 2784 \tab 4 \tab 1 \tab 6 \tab 7 \tab 1 \tab 3 \tab 1 \tab 3 \tab 2 \tab 2 \tab 2 \tab 1 \tab 87 \tab 2904 \cr
+   Total \tab 2784 \tab 4 \tab 1 \tab 6 \tab 7 \tab 1 \tab 3 \tab 1 \tab 3 \tab 2 \tab 2 \tab 2 \tab 1 \tab 87 \tab 2904 \cr
+}
 }
 
 \seealso{

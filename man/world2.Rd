@@ -24,15 +24,21 @@ Look at the first set of contrasting images. If you think that "The world is bas
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/367/vshow}{GSS Data Explorer page for \code{world2}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab the good must act \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab good must beware \tab don't know \tab no answer \tab Total \cr
+   1985 \tab - \tab 341 \tab 197 \tab 243 \tab 415 \tab 121 \tab 61 \tab 127 \tab 9 \tab 20 \tab 1534 \cr
+   Total \tab 0 \tab 341 \tab 197 \tab 243 \tab 415 \tab 121 \tab 61 \tab 127 \tab 9 \tab 20 \tab 1534 \cr
+}
 }
 
 \seealso{

@@ -22,16 +22,22 @@ Question Some people say that it is better for America if different racial and e
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1599/vshow}{GSS Data Explorer page for \code{meltpot}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab maintain distinct cultures \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab blend in to larger society \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 191 \tab 102 \tab 166 \tab 424 \tab 230 \tab 114 \tab 208 \tab 33 \tab 6 \tab 2992 \cr
+   2000 \tab 1419 \tab 120 \tab 132 \tab 173 \tab 438 \tab 185 \tab 140 \tab 137 \tab 62 \tab 11 \tab 2817 \cr
+   Total \tab 2937 \tab 311 \tab 234 \tab 339 \tab 862 \tab 415 \tab 254 \tab 345 \tab 95 \tab 17 \tab 5809 \cr
+}
 }
 
 \seealso{

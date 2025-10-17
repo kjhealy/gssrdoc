@@ -24,15 +24,21 @@ Question C. How firm are you about (your opinion on/the way you feel about) porn
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/645/vshow}{GSS Data Explorer page for \code{pornfirm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 37 \tab 205 \tab 417 \tab 765 \tab 26 \tab 23 \tab 1473 \cr
+   Total \tab 0 \tab 37 \tab 205 \tab 417 \tab 765 \tab 26 \tab 23 \tab 1473 \cr
+}
 }
 
 \seealso{

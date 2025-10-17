@@ -23,15 +23,21 @@ Question How big a reason was wanting to gain knowledge or learn something new i
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6226/vshow}{GSS Data Explorer page for \code{prfmwhy6}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab major reason \tab minor reason \tab not a reason \tab no answer \tab Total \cr
+   2016 \tab 2433 \tab 74 \tab 117 \tab 235 \tab 8 \tab 2867 \cr
+   Total \tab 2433 \tab 74 \tab 117 \tab 235 \tab 8 \tab 2867 \cr
+}
 }
 
 \seealso{

@@ -37,15 +37,21 @@ Question Please give a general estimate of the total number of the stock options
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7849/vshow}{GSS Data Explorer page for \code{stoptyramt}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab less than 100 stock options \tab 100 to 499 stock options \tab 500 to 999 stock options \tab 1,000 to 2,999 stock options \tab 5,000 to 9,999 stock options \tab 40,000 to 79,999 stock options \tab don't know \tab Total \cr
+   2022 \tab 3529 \tab 6 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3544 \cr
+   Total \tab 3529 \tab 6 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

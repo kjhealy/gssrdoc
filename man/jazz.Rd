@@ -26,15 +26,21 @@ I. Jazz
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1395/vshow}{GSS Data Explorer page for \code{jazz}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 254 \tab 540 \tab 393 \tab 297 \tab 69 \tab 38 \tab 15 \tab 1606 \cr
+   Total \tab 0 \tab 254 \tab 540 \tab 393 \tab 297 \tab 69 \tab 38 \tab 15 \tab 1606 \cr
+}
 }
 
 \seealso{

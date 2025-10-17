@@ -26,15 +26,21 @@ D. I have little control over the bad things that happen to me.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1728/vshow}{GSS Data Explorer page for \code{litcntrl}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1444 \tab 69 \tab 362 \tab 120 \tab 713 \tab 177 \tab 12 \tab 7 \tab 2904 \cr
+   Total \tab 1444 \tab 69 \tab 362 \tab 120 \tab 713 \tab 177 \tab 12 \tab 7 \tab 2904 \cr
+}
 }
 
 \seealso{

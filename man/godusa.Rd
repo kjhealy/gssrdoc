@@ -25,15 +25,21 @@ Question The success of the United States is part of God’s plan.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7544/vshow}{GSS Data Explorer page for \code{godusa}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 424 \tab 326 \tab 607 \tab 1238 \tab 493 \tab 889 \tab 12 \tab 6 \tab 37 \tab 4032 \cr
+   Total \tab 424 \tab 326 \tab 607 \tab 1238 \tab 493 \tab 889 \tab 12 \tab 6 \tab 37 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

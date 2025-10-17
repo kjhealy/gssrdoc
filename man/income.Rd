@@ -32,48 +32,55 @@ Question In which of these groups did your total family income, from all sources
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/104/vshow}{GSS Data Explorer page for \code{income}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab under $1,000 \tab $1,000 to $2,999 \tab $3,000 to $3,999 \tab $4,000 to $4,999 \tab $5,000 to $5,999 \tab $6,000 to $6,999 \tab $7,000 to $7,999 \tab $8,000 to $9,999 \tab $10,000 to $14,999 \tab $15,000 to $19,999 \tab $20,000 to $24,999 \tab $25,000 or more \tab don't know \tab no answer \tab refused \tab skipped on web \tab Total \cr
+   1973 \tab - \tab 36 \tab 107 \tab 85 \tab 83 \tab 69 \tab 54 \tab 90 \tab 153 \tab 348 \tab 176 \tab 103 \tab 92 \tab 66 \tab 7 \tab 35 \tab - \tab 1504 \cr
+   1974 \tab - \tab 35 \tab 109 \tab 72 \tab 66 \tab 59 \tab 67 \tab 82 \tab 112 \tab 326 \tab 211 \tab 103 \tab 115 \tab 61 \tab 5 \tab 61 \tab - \tab 1484 \cr
+   1975 \tab - \tab 34 \tab 97 \tab 85 \tab 72 \tab 72 \tab 73 \tab 58 \tab 133 \tab 345 \tab 199 \tab 111 \tab 128 \tab 41 \tab 1 \tab 41 \tab - \tab 1490 \cr
+   1976 \tab - \tab 19 \tab 101 \tab 85 \tab 60 \tab 90 \tab 66 \tab 67 \tab 115 \tab 310 \tab 205 \tab 128 \tab 148 \tab 54 \tab 5 \tab 46 \tab - \tab 1499 \cr
+   1977 \tab - \tab 16 \tab 53 \tab 79 \tab 53 \tab 60 \tab 67 \tab 70 \tab 114 \tab 288 \tab 217 \tab 173 \tab 208 \tab 81 \tab 8 \tab 43 \tab - \tab 1530 \cr
+   1978 \tab - \tab 18 \tab 72 \tab 83 \tab 54 \tab 63 \tab 68 \tab 62 \tab 103 \tab 279 \tab 222 \tab 194 \tab 214 \tab 56 \tab 3 \tab 41 \tab - \tab 1532 \cr
+   1980 \tab - \tab 18 \tab 50 \tab 59 \tab 46 \tab 54 \tab 50 \tab 54 \tab 78 \tab 211 \tab 216 \tab 192 \tab 330 \tab 64 \tab 6 \tab 40 \tab - \tab 1468 \cr
+   1982 \tab - \tab 31 \tab 59 \tab 83 \tab 71 \tab 64 \tab 63 \tab 54 \tab 95 \tab 296 \tab 190 \tab 199 \tab 474 \tab 80 \tab 7 \tab 94 \tab - \tab 1860 \cr
+   1983 \tab - \tab 12 \tab 38 \tab 44 \tab 45 \tab 53 \tab 31 \tab 40 \tab 87 \tab 221 \tab 158 \tab 187 \tab 537 \tab 69 \tab 2 \tab 75 \tab - \tab 1599 \cr
+   1984 \tab - \tab 20 \tab 32 \tab 44 \tab 31 \tab 47 \tab 30 \tab 41 \tab 55 \tab 201 \tab 154 \tab 193 \tab 494 \tab 78 \tab 2 \tab 51 \tab - \tab 1473 \cr
+   1985 \tab - \tab 10 \tab 31 \tab 46 \tab 48 \tab 44 \tab 60 \tab 33 \tab 61 \tab 179 \tab 141 \tab 168 \tab 598 \tab 51 \tab - \tab 64 \tab - \tab 1534 \cr
+   1986 \tab - \tab 15 \tab 22 \tab 48 \tab 52 \tab 39 \tab 31 \tab 39 \tab 53 \tab 169 \tab 145 \tab 147 \tab 586 \tab 65 \tab 1 \tab 58 \tab - \tab 1470 \cr
+   1987 \tab - \tab 16 \tab 51 \tab 41 \tab 57 \tab 45 \tab 47 \tab 55 \tab 78 \tab 209 \tab 147 \tab 180 \tab 739 \tab 85 \tab 11 \tab 58 \tab - \tab 1819 \cr
+   1988 \tab - \tab 20 \tab 25 \tab 23 \tab 40 \tab 42 \tab 35 \tab 42 \tab 54 \tab 164 \tab 124 \tab 139 \tab 649 \tab 56 \tab 3 \tab 65 \tab - \tab 1481 \cr
+   1989 \tab - \tab 14 \tab 18 \tab 17 \tab 32 \tab 33 \tab 31 \tab 26 \tab 49 \tab 166 \tab 151 \tab 135 \tab 708 \tab 65 \tab 4 \tab 88 \tab - \tab 1537 \cr
+   1990 \tab - \tab 6 \tab 13 \tab 23 \tab 30 \tab 29 \tab 30 \tab 27 \tab 43 \tab 125 \tab 134 \tab 116 \tab 653 \tab 58 \tab 12 \tab 73 \tab - \tab 1372 \cr
+   1991 \tab - \tab 11 \tab 26 \tab 31 \tab 35 \tab 39 \tab 29 \tab 23 \tab 38 \tab 158 \tab 157 \tab 128 \tab 693 \tab 47 \tab 17 \tab 85 \tab - \tab 1517 \cr
+   1993 \tab - \tab 17 \tab 20 \tab 25 \tab 34 \tab 34 \tab 24 \tab 29 \tab 39 \tab 146 \tab 122 \tab 139 \tab 838 \tab 57 \tab 11 \tab 71 \tab - \tab 1606 \cr
+   1994 \tab - \tab 23 \tab 32 \tab 36 \tab 40 \tab 49 \tab 39 \tab 42 \tab 80 \tab 239 \tab 233 \tab 262 \tab 1561 \tab 128 \tab 52 \tab 176 \tab - \tab 2992 \cr
+   1996 \tab - \tab 26 \tab 35 \tab 18 \tab 31 \tab 43 \tab 42 \tab 31 \tab 77 \tab 243 \tab 186 \tab 220 \tab 1609 \tab 117 \tab 39 \tab 187 \tab - \tab 2904 \cr
+   1998 \tab - \tab 36 \tab 32 \tab 24 \tab 32 \tab 35 \tab 33 \tab 47 \tab 59 \tab 192 \tab 179 \tab 247 \tab 1587 \tab 114 \tab 19 \tab 196 \tab - \tab 2832 \cr
+   2000 \tab - \tab 30 \tab 32 \tab 25 \tab 20 \tab 29 \tab 35 \tab 38 \tab 74 \tab 207 \tab 202 \tab 200 \tab 1564 \tab 107 \tab 25 \tab 229 \tab - \tab 2817 \cr
+   2002 \tab - \tab 39 \tab 26 \tab 30 \tab 18 \tab 27 \tab 30 \tab 29 \tab 72 \tab 183 \tab 168 \tab 184 \tab 1657 \tab 120 \tab 1 \tab 181 \tab - \tab 2765 \cr
+   2004 \tab - \tab 46 \tab 30 \tab 21 \tab 19 \tab 25 \tab 38 \tab 24 \tab 36 \tab 160 \tab 153 \tab 166 \tab 1764 \tab 120 \tab - \tab 210 \tab - \tab 2812 \cr
+   2006 \tab - \tab 43 \tab 38 \tab 29 \tab 27 \tab 40 \tab 45 \tab 48 \tab 83 \tab 287 \tab 228 \tab 282 \tab 2723 \tab 195 \tab - \tab 442 \tab - \tab 4510 \cr
+   2008 \tab - \tab 20 \tab 27 \tab 23 \tab 9 \tab 15 \tab 20 \tab 28 \tab 34 \tab 105 \tab 99 \tab 130 \tab 1264 \tab 78 \tab - \tab 171 \tab - \tab 2023 \cr
+   2010 \tab - \tab 47 \tab 27 \tab 16 \tab 9 \tab 21 \tab 19 \tab 27 \tab 39 \tab 147 \tab 99 \tab 141 \tab 1213 \tab 103 \tab - \tab 136 \tab - \tab 2044 \cr
+   2012 \tab - \tab 25 \tab 26 \tab 18 \tab 10 \tab 8 \tab 24 \tab 24 \tab 38 \tab 140 \tab 106 \tab 125 \tab 1214 \tab 105 \tab - \tab 111 \tab - \tab 1974 \cr
+   2014 \tab - \tab 40 \tab 32 \tab 19 \tab 14 \tab 20 \tab 18 \tab 16 \tab 50 \tab 150 \tab 114 \tab 157 \tab 1684 \tab 98 \tab - \tab 126 \tab - \tab 2538 \cr
+   2016 \tab - \tab 39 \tab 40 \tab 21 \tab 15 \tab 19 \tab 15 \tab 22 \tab 47 \tab 160 \tab 129 \tab 198 \tab 1891 \tab 134 \tab - \tab 137 \tab - \tab 2867 \cr
+   2018 \tab - \tab 37 \tab 28 \tab 19 \tab 14 \tab 14 \tab 9 \tab 13 \tab 42 \tab 142 \tab 81 \tab 140 \tab 1613 \tab 91 \tab - \tab 105 \tab - \tab 2348 \cr
+   2021 \tab 335 \tab 64 \tab 50 \tab 19 \tab 11 \tab 17 \tab 12 \tab 18 \tab 54 \tab 167 \tab 140 \tab 149 \tab 2808 \tab - \tab - \tab 80 \tab 108 \tab 4032 \cr
+   2022 \tab 268 \tab 39 \tab 33 \tab 18 \tab 11 \tab 16 \tab 14 \tab 16 \tab 40 \tab 187 \tab 115 \tab 192 \tab 2429 \tab - \tab - \tab 132 \tab 34 \tab 3544 \cr
+   Total \tab 603 \tab 902 \tab 1412 \tab 1309 \tab 1189 \tab 1314 \tab 1249 \tab 1315 \tab 2285 \tab 6850 \tab 5301 \tab 5528 \tab 34785 \tab 2644 \tab 241 \tab 3708 \tab 142 \tab 70777 \cr
+}
 }
 
 \seealso{

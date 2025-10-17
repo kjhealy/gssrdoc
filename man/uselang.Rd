@@ -26,15 +26,21 @@ Question F. How often do you use that language in your everyday life? (READ CATE
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2288/vshow}{GSS Data Explorer page for \code{uselang}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab less than once a week \tab once a week \tab several times a week \tab once a day \tab several times a day \tab no answer \tab Total \cr
+   2000 \tab 2450 \tab 79 \tab 73 \tab 28 \tab 34 \tab 19 \tab 126 \tab 8 \tab 2817 \cr
+   Total \tab 2450 \tab 79 \tab 73 \tab 28 \tab 34 \tab 19 \tab 126 \tab 8 \tab 2817 \cr
+}
 }
 
 \seealso{

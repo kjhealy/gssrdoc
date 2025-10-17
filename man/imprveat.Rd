@@ -24,15 +24,21 @@ Question K. In your opinion, how likely is it that this youthâ€™s/child's s
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2931/vshow}{GSS Data Explorer page for \code{imprveat}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1372 \tab 89 \tab 584 \tab 437 \tab 228 \tab 44 \tab 11 \tab 2765 \cr
+   Total \tab 1372 \tab 89 \tab 584 \tab 437 \tab 228 \tab 44 \tab 11 \tab 2765 \cr
+}
 }
 
 \seealso{

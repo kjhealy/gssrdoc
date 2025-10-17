@@ -22,16 +22,22 @@ Question Have you ever in your life been denied a job or been fired from a job b
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3920/vshow}{GSS Data Explorer page for \code{evlosejb}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1879 \tab 11 \tab 96 \tab 5 \tab 32 \tab 2023 \cr
+   2012 \tab 1807 \tab 7 \tab 114 \tab - \tab 46 \tab 1974 \cr
+   Total \tab 3686 \tab 18 \tab 210 \tab 5 \tab 78 \tab 3997 \cr
+}
 }
 
 \seealso{

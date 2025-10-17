@@ -26,15 +26,21 @@ H. A secretary?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4286/vshow}{GSS Data Explorer page for \code{givsec}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 10400 \tab 11000 \tab 12000 \tab 12247 \tab 12480 \tab 12499 \tab 12500 \tab 13000 \tab 13440 \tab 14000 \tab 140000 \tab 15000 \tab 15500 \tab 15600 \tab 16000 \tab 16500 \tab 16640 \tab 17000 \tab 17500 \tab 18000 \tab 18500 \tab 18720 \tab 19000 \tab 1e+05 \tab 2000 \tab 20000 \tab 20800 \tab 21000 \tab 21120 \tab 22000 \tab 23000 \tab 24000 \tab 24960 \tab 2500 \tab 25000 \tab 26000 \tab 26500 \tab 27000 \tab 28000 \tab 29000 \tab 29200 \tab 3000 \tab 30000 \tab 32000 \tab 3250 \tab 35000 \tab 36000 \tab 4000 \tab 40000 \tab 4500 \tab 45000 \tab 450000 \tab 5000 \tab 50000 \tab 5200 \tab 52000 \tab 6000 \tab 69000 \tab 7000 \tab 70000 \tab 8000 \tab 80000 \tab 9000 \tab 9500 \tab 9600 \tab more than now paid \tab same as now paid \tab less than now paid \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 2 \tab 55 \tab 1 \tab 8 \tab 73 \tab 1 \tab 1 \tab 1 \tab 3 \tab 17 \tab 1 \tab 27 \tab 1 \tab 205 \tab 1 \tab 1 \tab 46 \tab 1 \tab 1 \tab 24 \tab 3 \tab 93 \tab 2 \tab 1 \tab 13 \tab 1 \tab 2 \tab 301 \tab 1 \tab 13 \tab 1 \tab 25 \tab 5 \tab 14 \tab 1 \tab 1 \tab 137 \tab 1 \tab 1 \tab 3 \tab 6 \tab 3 \tab 1 \tab 2 \tab 70 \tab 2 \tab 1 \tab 18 \tab 2 \tab 3 \tab 15 \tab 1 \tab 5 \tab 1 \tab 5 \tab 4 \tab 1 \tab 2 \tab 7 \tab 1 \tab 3 \tab 1 \tab 10 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 76 \tab 221 \tab 1819 \cr
+   Total \tab 255 \tab 2 \tab 55 \tab 1 \tab 8 \tab 73 \tab 1 \tab 1 \tab 1 \tab 3 \tab 17 \tab 1 \tab 27 \tab 1 \tab 205 \tab 1 \tab 1 \tab 46 \tab 1 \tab 1 \tab 24 \tab 3 \tab 93 \tab 2 \tab 1 \tab 13 \tab 1 \tab 2 \tab 301 \tab 1 \tab 13 \tab 1 \tab 25 \tab 5 \tab 14 \tab 1 \tab 1 \tab 137 \tab 1 \tab 1 \tab 3 \tab 6 \tab 3 \tab 1 \tab 2 \tab 70 \tab 2 \tab 1 \tab 18 \tab 2 \tab 3 \tab 15 \tab 1 \tab 5 \tab 1 \tab 5 \tab 4 \tab 1 \tab 2 \tab 7 \tab 1 \tab 3 \tab 1 \tab 10 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 76 \tab 221 \tab 1819 \cr
+}
 }
 
 \seealso{

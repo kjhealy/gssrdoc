@@ -22,15 +22,21 @@ A2. The causes and sources of R''s nervous breakdown -- Second mention.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2068/vshow}{GSS Data Explorer page for \code{brkdwhy2}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 101 \tab 11 \tab 12 \tab 122 \tab 129 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 200 \tab 201 \tab 203 \tab 204 \tab 206 \tab 21 \tab 213 \tab 216 \tab 219 \tab 22 \tab 23 \tab 24 \tab 25 \tab 29 \tab 309 \tab 31 \tab 33 \tab 34 \tab 39 \tab 41 \tab 500 \tab 502 \tab 504 \tab 505 \tab 506 \tab 509 \tab 521 \tab 524 \tab 532 \tab 533 \tab 703 \tab 709 \tab 730 \tab 80 \tab 802 \tab 803 \tab 804 \tab 805 \tab 807 \tab 812 \tab 981 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2700 \tab 10 \tab 3 \tab 3 \tab 5 \tab 1 \tab 2 \tab 4 \tab 1 \tab 8 \tab 1 \tab 1 \tab 8 \tab 10 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 5 \tab 2 \tab 3 \tab 1 \tab 5 \tab 3 \tab 2 \tab 6 \tab 4 \tab 1 \tab 1 \tab 1 \tab 2 \tab 8 \tab 27 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 31 \tab 2904 \cr
+   Total \tab 2700 \tab 10 \tab 3 \tab 3 \tab 5 \tab 1 \tab 2 \tab 4 \tab 1 \tab 8 \tab 1 \tab 1 \tab 8 \tab 10 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 5 \tab 2 \tab 3 \tab 1 \tab 5 \tab 3 \tab 2 \tab 6 \tab 4 \tab 1 \tab 1 \tab 1 \tab 2 \tab 8 \tab 27 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 31 \tab 2904 \cr
+}
 }
 
 \seealso{

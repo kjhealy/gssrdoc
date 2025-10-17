@@ -22,16 +22,22 @@ Question A. Have you ever first come into contact with someone on the Internetâ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2484/vshow}{GSS Data Explorer page for \code{wwwpersn}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2075 \tab 70 \tab 582 \tab 90 \tab - \tab 2817 \cr
+   2002 \tab 2043 \tab 71 \tab 603 \tab 47 \tab 1 \tab 2765 \cr
+   Total \tab 4118 \tab 141 \tab 1185 \tab 137 \tab 1 \tab 5582 \cr
+}
 }
 
 \seealso{

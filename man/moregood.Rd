@@ -25,15 +25,21 @@ I. Overall, I expect more good things to happen to me than bad.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3044/vshow}{GSS Data Explorer page for \code{moregood}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 432 \tab 819 \tab 1308 \tab 205 \tab 39 \tab 6 \tab 3 \tab 2812 \cr
+   Total \tab 432 \tab 819 \tab 1308 \tab 205 \tab 39 \tab 6 \tab 3 \tab 2812 \cr
+}
 }
 
 \seealso{

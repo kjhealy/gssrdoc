@@ -23,23 +23,30 @@ Question If you and your friends belonged to a social club that would not let (W
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1977, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/726/vshow}{GSS Data Explorer page for \code{racchng}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab wdnt belong \tab don't know \tab no answer \tab Total \cr
+   1977 \tab 176 \tab 527 \tab 723 \tab 8 \tab 91 \tab 5 \tab 1530 \cr
+   1985 \tab - \tab 800 \tab 637 \tab - \tab 94 \tab 3 \tab 1534 \cr
+   1986 \tab - \tab 906 \tab 474 \tab - \tab 79 \tab 11 \tab 1470 \cr
+   1988 \tab 493 \tab 558 \tab 342 \tab - \tab 78 \tab 10 \tab 1481 \cr
+   1989 \tab 531 \tab 590 \tab 330 \tab - \tab 72 \tab 14 \tab 1537 \cr
+   1990 \tab 444 \tab 540 \tab 296 \tab - \tab 85 \tab 7 \tab 1372 \cr
+   1991 \tab 493 \tab 638 \tab 287 \tab - \tab 93 \tab 6 \tab 1517 \cr
+   1993 \tab 526 \tab 693 \tab 300 \tab - \tab 76 \tab 11 \tab 1606 \cr
+   1994 \tab 2485 \tab 306 \tab 148 \tab - \tab 50 \tab 3 \tab 2992 \cr
+   Total \tab 5148 \tab 5558 \tab 3537 \tab 8 \tab 718 \tab 70 \tab 15039 \cr
+}
 }
 
 \seealso{

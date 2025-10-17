@@ -26,16 +26,22 @@ B. ...because you didn''t know how to cope anymore with the stresses of life.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2236/vshow}{GSS Data Explorer page for \code{prozslf2}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1635 \tab 104 \tab 210 \tab 136 \tab 191 \tab 444 \tab 100 \tab 12 \tab 2832 \cr
+   2006 \tab 3238 \tab 124 \tab 283 \tab 201 \tab 190 \tab 389 \tab 68 \tab 17 \tab 4510 \cr
+   Total \tab 4873 \tab 228 \tab 493 \tab 337 \tab 381 \tab 833 \tab 168 \tab 29 \tab 7342 \cr
+}
 }
 
 \seealso{

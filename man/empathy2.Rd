@@ -23,16 +23,22 @@ B. Sometimes I don't feel very sorry for other people when they are having probl
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2871/vshow}{GSS Data Explorer page for \code{empathy2}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab does not describe very well \tab 2 \tab 3 \tab 4 \tab describes very well \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 493 \tab 291 \tab 324 \tab 142 \tab 101 \tab 14 \tab 7 \tab 2765 \cr
+   2004 \tab 1472 \tab 420 \tab 338 \tab 335 \tab 153 \tab 86 \tab 3 \tab 5 \tab 2812 \cr
+   Total \tab 2865 \tab 913 \tab 629 \tab 659 \tab 295 \tab 187 \tab 17 \tab 12 \tab 5577 \cr
+}
 }
 
 \seealso{

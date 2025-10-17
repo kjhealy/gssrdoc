@@ -27,15 +27,21 @@ B. That he tries hard to succeed
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1980 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/501/vshow}{GSS Data Explorer page for \code{successz}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab not too impt \tab not at all impt \tab no answer \tab Total \cr
+   1980 \tab 985 \tab 134 \tab 245 \tab 88 \tab 10 \tab 1 \tab 5 \tab 1468 \cr
+   Total \tab 985 \tab 134 \tab 245 \tab 88 \tab 10 \tab 1 \tab 5 \tab 1468 \cr
+}
 }
 
 \seealso{

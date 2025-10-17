@@ -26,17 +26,24 @@ D. Time with your friends?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4489/vshow}{GSS Data Explorer page for \code{timefrnd}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab spend much more \tab spend a bit more \tab spend same \tab spend a bit less \tab spend much less \tab can't choose \tab no answer \tab iap \tab Total \cr
+   1989 \tab - \tab 240 \tab 644 \tab 462 \tab 38 \tab 14 \tab 18 \tab 121 \tab - \tab 1537 \cr
+   1998 \tab - \tab 230 \tab 536 \tab 361 \tab 29 \tab 15 \tab 14 \tab 202 \tab 1445 \tab 2832 \cr
+   2006 \tab - \tab 313 \tab 540 \tab 554 \tab 60 \tab 29 \tab 20 \tab 2 \tab 2992 \tab 4510 \cr
+   Total \tab 0 \tab 783 \tab 1720 \tab 1377 \tab 127 \tab 58 \tab 52 \tab 325 \tab 4437 \tab 8879 \cr
+}
 }
 
 \seealso{

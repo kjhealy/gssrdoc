@@ -30,16 +30,22 @@ Question D. Here is a list of some different environmental problems. Which probl
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4803/vshow}{GSS Data Explorer page for \code{enprbus}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab air pollution \tab chemicals and pesticides \tab water shortage \tab water pollution \tab nuclear waste \tab domestic waste disposal \tab climate change \tab genetically modified foods \tab using up our natural resources \tab none of these \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab 614 \tab 199 \tab 112 \tab 95 \tab 134 \tab 88 \tab 60 \tab 127 \tab 61 \tab 344 \tab 22 \tab 181 \tab 7 \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 141 \tab 140 \tab 76 \tab 131 \tab 40 \tab 87 \tab 642 \tab 115 \tab 177 \tab 93 \tab 217 \tab 160 \tab 10 \tab 4032 \cr
+   Total \tab 2617 \tab 340 \tab 252 \tab 171 \tab 265 \tab 128 \tab 147 \tab 769 \tab 176 \tab 521 \tab 115 \tab 398 \tab 167 \tab 10 \tab 6076 \cr
+}
 }
 
 \seealso{

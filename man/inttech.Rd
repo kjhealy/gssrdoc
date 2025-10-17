@@ -23,21 +23,30 @@ Question Issues about the use of new inventions and technologies. (Are you very 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2012, 2014, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3457/vshow}{GSS Data Explorer page for \code{inttech}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very interested \tab moderately interested \tab not at all interested \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2008 \tab 518 \tab 626 \tab 680 \tab 193 \tab 5 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab 1334 \tab 270 \tab 367 \tab 66 \tab 1 \tab 6 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 420 \tab 454 \tab 113 \tab 11 \tab 4 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 530 \tab 559 \tab 149 \tab - \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 570 \tab 637 \tab 179 \tab 1 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 468 \tab 549 \tab 156 \tab 2 \tab - \tab - \tab 2348 \cr
+   2021 \tab 2146 \tab 782 \tab 915 \tab 177 \tab - \tab - \tab 12 \tab 4032 \cr
+   Total \tab 8919 \tab 3666 \tab 4161 \tab 1033 \tab 20 \tab 15 \tab 12 \tab 17826 \cr
+}
 }
 
 \seealso{

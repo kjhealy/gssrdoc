@@ -29,17 +29,23 @@ d. The Bible was written by men who lived so long ago that it is worth very litt
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
-   1985 \tab - \tab full \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984, 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/365/vshow}{GSS Data Explorer page for \code{bibley}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab god's word \tab inspired by god \tab written by man \tab not worth much \tab other \tab don't know \tab no answer \tab Total \cr
+   1984 \tab 989 \tab 219 \tab 215 \tab 27 \tab 10 \tab 3 \tab 5 \tab 5 \tab 1473 \cr
+   1985 \tab 751 \tab 340 \tab 366 \tab 39 \tab 8 \tab 7 \tab 10 \tab 13 \tab 1534 \cr
+   1987 \tab 1198 \tab 293 \tab 260 \tab 37 \tab 8 \tab 2 \tab 7 \tab 14 \tab 1819 \cr
+   Total \tab 2938 \tab 852 \tab 841 \tab 103 \tab 26 \tab 12 \tab 22 \tab 32 \tab 4826 \cr
+}
 }
 
 \seealso{

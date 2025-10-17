@@ -25,18 +25,26 @@ H. Give financial assistance to college students from low-income families.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4083/vshow}{GSS Data Explorer page for \code{aidcol}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
+   1990 \tab 155 \tab 347 \tab 638 \tab 107 \tab 34 \tab 49 \tab 42 \tab 1372 \cr
+   1996 \tab 1572 \tab 428 \tab 624 \tab 134 \tab 47 \tab 44 \tab 55 \tab 2904 \cr
+   2006 \tab 2992 \tab 832 \tab 559 \tab 85 \tab 36 \tab 6 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 624 \tab 583 \tab 114 \tab 42 \tab 15 \tab 12 \tab 2867 \cr
+   Total \tab 6196 \tab 2231 \tab 2404 \tab 440 \tab 159 \tab 114 \tab 109 \tab 11653 \cr
+}
 }
 
 \seealso{

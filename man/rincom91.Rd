@@ -41,18 +41,24 @@ Question Respondent's income on the 1991-96 surveys. For question wording, see R
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 1993, 1994, 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/114/vshow}{GSS Data Explorer page for \code{rincom91}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab lt $1000 \tab $1000-2999 \tab $3000-3999 \tab $4000-4999 \tab $5000-5999 \tab $6000-6999 \tab $7000-7999 \tab $8000-9999 \tab $10000-12499 \tab $12500-14999 \tab $15000-17499 \tab $17500-19999 \tab $20000-22499 \tab $22500-24999 \tab $25000-29999 \tab $30000-34999 \tab $35000-39999 \tab $40000-49999 \tab $50000-59999 \tab $60000-74999 \tab $75000+ \tab don't know \tab no answer \tab refused \tab Total \cr
+   1991 \tab 463 \tab 36 \tab 34 \tab 35 \tab 29 \tab 35 \tab 16 \tab 14 \tab 41 \tab 61 \tab 58 \tab 71 \tab 56 \tab 49 \tab 56 \tab 80 \tab 72 \tab 48 \tab 57 \tab 34 \tab 12 \tab 18 \tab 7 \tab 95 \tab 40 \tab 1517 \cr
+   1993 \tab 522 \tab 26 \tab 38 \tab 33 \tab 28 \tab 24 \tab 25 \tab 16 \tab 34 \tab 62 \tab 58 \tab 69 \tab 63 \tab 57 \tab 66 \tab 90 \tab 89 \tab 61 \tab 70 \tab 38 \tab 25 \tab 47 \tab 11 \tab 5 \tab 49 \tab 1606 \cr
+   1994 \tab 865 \tab 55 \tab 58 \tab 63 \tab 43 \tab 43 \tab 30 \tab 35 \tab 105 \tab 117 \tab 123 \tab 110 \tab 118 \tab 122 \tab 131 \tab 189 \tab 154 \tab 111 \tab 160 \tab 78 \tab 49 \tab 66 \tab 33 \tab 19 \tab 115 \tab 2992 \cr
+   1996 \tab 770 \tab 28 \tab 88 \tab 39 \tab 36 \tab 39 \tab 41 \tab 36 \tab 73 \tab 118 \tab 112 \tab 111 \tab 96 \tab 136 \tab 105 \tab 175 \tab 182 \tab 106 \tab 167 \tab 102 \tab 70 \tab 87 \tab 27 \tab 45 \tab 115 \tab 2904 \cr
+   Total \tab 2620 \tab 145 \tab 218 \tab 170 \tab 136 \tab 141 \tab 112 \tab 101 \tab 253 \tab 358 \tab 351 \tab 361 \tab 333 \tab 364 \tab 358 \tab 534 \tab 497 \tab 326 \tab 454 \tab 252 \tab 156 \tab 218 \tab 78 \tab 164 \tab 319 \tab 9019 \cr
+}
 }
 
 \seealso{

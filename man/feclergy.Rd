@@ -24,15 +24,21 @@ Do you favor or oppose women as pastors, ministers, priests, or rabbis in your o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/380/vshow}{GSS Data Explorer page for \code{feclergy}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab favor \tab oppose \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 379 \tab 617 \tab 356 \tab 85 \tab 33 \tab 1470 \cr
+   Total \tab 379 \tab 617 \tab 356 \tab 85 \tab 33 \tab 1470 \cr
+}
 }
 
 \seealso{

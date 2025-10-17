@@ -25,15 +25,21 @@ Question How much, if at all, do you enjoy being outside in nature?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7495/vshow}{GSS Data Explorer page for \code{enjoynat}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab not at all \tab to a small extent \tab to some extent \tab to a great extent \tab to a very great extent \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2003 \tab 11 \tab 61 \tab 380 \tab 679 \tab 661 \tab 42 \tab 191 \tab 4 \tab 4032 \cr
+   Total \tab 2003 \tab 11 \tab 61 \tab 380 \tab 679 \tab 661 \tab 42 \tab 191 \tab 4 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

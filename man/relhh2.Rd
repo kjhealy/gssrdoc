@@ -43,25 +43,32 @@ B. Relationship of second person to head of household?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5440/vshow}{GSS Data Explorer page for \code{relhh2}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab spouse \tab partner, fiance(e), boyfriend, girlfriend, etc. \tab child, not specified \tab grandchild, great-grandchild \tab son-in-law, daughter-in-law \tab parent \tab parent-in-law \tab grandparent, great-grandparent \tab uncle or aunt \tab niece or nephew \tab cousin \tab brother, sister (full, half, or step sibling) \tab sibling-in-law \tab other relative (great-aunt, grandniece, etc.) \tab roommate, housemate \tab friend \tab natural/biological child \tab adopted child \tab stepchild \tab no answer \tab child of non-relative \tab other non-relative (employee, boarder) \tab don't know \tab not available in this release \tab Total \cr
+   2000 \tab 741 \tab 1327 \tab 192 \tab 65 \tab 13 \tab 4 \tab 26 \tab 1 \tab 1 \tab 1 \tab 9 \tab 3 \tab 29 \tab 1 \tab 1 \tab 92 \tab 13 \tab 284 \tab 2 \tab 2 \tab 10 \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 883 \tab 1215 \tab 161 \tab 93 \tab 7 \tab 13 \tab 11 \tab - \tab - \tab 1 \tab 1 \tab 4 \tab 36 \tab 2 \tab - \tab 51 \tab 24 \tab 228 \tab 3 \tab 4 \tab 6 \tab 2 \tab 19 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 707 \tab 1527 \tab 163 \tab 87 \tab 13 \tab 5 \tab 22 \tab - \tab 1 \tab 1 \tab 5 \tab 3 \tab 27 \tab 2 \tab - \tab 44 \tab 8 \tab 186 \tab 4 \tab - \tab 1 \tab 1 \tab 2 \tab 3 \tab - \tab 2812 \cr
+   2006 \tab 1226 \tab 2289 \tab 301 \tab 171 \tab 18 \tab 4 \tab 30 \tab - \tab 2 \tab 1 \tab 10 \tab 6 \tab 40 \tab 1 \tab 1 \tab 80 \tab 28 \tab 287 \tab 3 \tab 3 \tab 2 \tab - \tab 5 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 527 \tab 1002 \tab 151 \tab 115 \tab 15 \tab 5 \tab 11 \tab 1 \tab - \tab 2 \tab 4 \tab 4 \tab 25 \tab - \tab - \tab 31 \tab 10 \tab 110 \tab 2 \tab 1 \tab 1 \tab - \tab 3 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 595 \tab 909 \tab 192 \tab 148 \tab 10 \tab 4 \tab 18 \tab 1 \tab - \tab 1 \tab 7 \tab - \tab 17 \tab - \tab - \tab 36 \tab 12 \tab 75 \tab 1 \tab 1 \tab 9 \tab - \tab 3 \tab 5 \tab - \tab 2044 \cr
+   2012 \tab 533 \tab 937 \tab 173 \tab 115 \tab 15 \tab 1 \tab 23 \tab - \tab - \tab - \tab 7 \tab 3 \tab 21 \tab 1 \tab - \tab 50 \tab 10 \tab 70 \tab 1 \tab 1 \tab 9 \tab 1 \tab 2 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 678 \tab 1198 \tab 218 \tab 153 \tab 13 \tab 8 \tab 17 \tab - \tab 2 \tab 3 \tab 7 \tab 3 \tab 26 \tab - \tab - \tab 53 \tab 7 \tab 135 \tab 2 \tab - \tab 6 \tab 1 \tab 3 \tab 5 \tab - \tab 2538 \cr
+   2016 \tab 849 \tab 1256 \tab 269 \tab 236 \tab 16 \tab 3 \tab 22 \tab - \tab 2 \tab 1 \tab 5 \tab 3 \tab 39 \tab - \tab - \tab 67 \tab 14 \tab 73 \tab 2 \tab 4 \tab 3 \tab - \tab 1 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab 677 \tab 1057 \tab 217 \tab 148 \tab 11 \tab 1 \tab 22 \tab 2 \tab - \tab 1 \tab 7 \tab 3 \tab 19 \tab 6 \tab 1 \tab 64 \tab 4 \tab 99 \tab 1 \tab 1 \tab 3 \tab - \tab 1 \tab 3 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   Total \tab 7416 \tab 12717 \tab 2037 \tab 1331 \tab 131 \tab 48 \tab 202 \tab 5 \tab 8 \tab 12 \tab 62 \tab 32 \tab 279 \tab 13 \tab 3 \tab 568 \tab 130 \tab 1547 \tab 21 \tab 17 \tab 50 \tab 5 \tab 39 \tab 25 \tab 4032 \tab 30730 \cr
+}
 }
 
 \seealso{

@@ -26,16 +26,23 @@ G. Inequality continues to exist because ordinary people don''t join together to
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   Full \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4262/vshow}{GSS Data Explorer page for \code{inequal7}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 159 \tab 534 \tab 375 \tab 328 \tab 56 \tab 79 \tab 33 \tab 1819 \cr
+   2000 \tab 1545 \tab 125 \tab 410 \tab 319 \tab 213 \tab 73 \tab 51 \tab 81 \tab 2817 \cr
+   Total \tab 1800 \tab 284 \tab 944 \tab 694 \tab 541 \tab 129 \tab 130 \tab 114 \tab 4636 \cr
+}
 }
 
 \seealso{

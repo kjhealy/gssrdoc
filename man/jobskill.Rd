@@ -26,15 +26,21 @@ B. Training or experience gained in my present or a previous job
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4584/vshow}{GSS Data Explorer page for \code{jobskill}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab not impt/unimp \tab not important \tab not imprt at all \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1967 \tab 408 \tab 294 \tab 71 \tab 23 \tab 26 \tab 7 \tab 36 \tab 2832 \cr
+   Total \tab 1967 \tab 408 \tab 294 \tab 71 \tab 23 \tab 26 \tab 7 \tab 36 \tab 2832 \cr
+}
 }
 
 \seealso{

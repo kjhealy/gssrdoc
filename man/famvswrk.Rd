@@ -26,15 +26,21 @@ D. I have found it difficult to concentrate at work because of my family respons
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4450/vshow}{GSS Data Explorer page for \code{famvswrk}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab several times a week \tab several times a month \tab once or twice \tab never \tab doesnt apply or no job \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1594 \tab 31 \tab 60 \tab 279 \tab 464 \tab 328 \tab 4 \tab 5 \tab 2765 \cr
+   Total \tab 1594 \tab 31 \tab 60 \tab 279 \tab 464 \tab 328 \tab 4 \tab 5 \tab 2765 \cr
+}
 }
 
 \seealso{

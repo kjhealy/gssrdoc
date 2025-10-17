@@ -26,20 +26,26 @@ Question Which of the following best describes your usual work schedule?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2763/vshow}{GSS Data Explorer page for \code{wrksched}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab day shift \tab afternoon shift \tab night shift \tab split shift \tab irregular shift/on-call \tab rotating shifts \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 1255 \tab 78 \tab 122 \tab 52 \tab 175 \tab 90 \tab 10 \tab 14 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 1271 \tab 68 \tab 102 \tab 36 \tab 160 \tab 80 \tab 6 \tab 11 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 851 \tab 58 \tab 64 \tab 29 \tab 106 \tab 50 \tab 3 \tab 26 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 874 \tab 63 \tab 76 \tab 31 \tab 109 \tab 90 \tab 1 \tab 6 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 1030 \tab 67 \tab 106 \tab 39 \tab 94 \tab 80 \tab 4 \tab 28 \tab - \tab 2348 \cr
+   2022 \tab 1540 \tab 1497 \tab 80 \tab 115 \tab 45 \tab 155 \tab 90 \tab 2 \tab 9 \tab 11 \tab 3544 \cr
+   Total \tab 8330 \tab 6778 \tab 414 \tab 585 \tab 232 \tab 799 \tab 480 \tab 26 \tab 94 \tab 11 \tab 17749 \cr
+}
 }
 
 \seealso{

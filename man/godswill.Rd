@@ -25,18 +25,25 @@ F. God's will
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2018 \tab B/C/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2024 \cr
+   A/B/C \tab 1996, 2006 \cr
+   B/C/- \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1993/vshow}{GSS Data Explorer page for \code{godswill}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 67 \tab 134 \tab 334 \tab 827 \tab 66 \tab 16 \tab 2904 \cr
+   2006 \tab 3073 \tab 55 \tab 126 \tab 332 \tab 868 \tab 42 \tab 14 \tab 4510 \cr
+   2018 \tab 1175 \tab 47 \tab 107 \tab 303 \tab 664 \tab 20 \tab 32 \tab 2348 \cr
+   Total \tab 5708 \tab 169 \tab 367 \tab 969 \tab 2359 \tab 128 \tab 62 \tab 9762 \cr
+}
 }
 
 \seealso{

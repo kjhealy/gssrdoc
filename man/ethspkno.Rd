@@ -25,15 +25,21 @@ Question B. People should not be allowed to express opinions that are harmful or
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1604/vshow}{GSS Data Explorer page for \code{ethspkno}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2275 \tab 71 \tab 222 \tab 86 \tab 246 \tab 71 \tab 8 \tab 13 \tab 2992 \cr
+   Total \tab 2275 \tab 71 \tab 222 \tab 86 \tab 246 \tab 71 \tab 8 \tab 13 \tab 2992 \cr
+}
 }
 
 \seealso{

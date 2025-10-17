@@ -23,21 +23,30 @@ A. Does this mean that if their first child has the illness, the next three will
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3332/vshow}{GSS Data Explorer page for \code{odds1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 169 \tab 1596 \tab 96 \tab 3 \tab 4510 \cr
+   2008 \tab 518 \tab 156 \tab 1228 \tab 108 \tab 13 \tab 2023 \cr
+   2010 \tab 1328 \tab 75 \tab 585 \tab 48 \tab 8 \tab 2044 \cr
+   2012 \tab 972 \tab 90 \tab 819 \tab 84 \tab 9 \tab 1974 \cr
+   2014 \tab 1299 \tab 126 \tab 1021 \tab 88 \tab 4 \tab 2538 \cr
+   2016 \tab 1477 \tab 161 \tab 1155 \tab 63 \tab 11 \tab 2867 \cr
+   2018 \tab 1173 \tab 132 \tab 975 \tab 63 \tab 5 \tab 2348 \cr
+   Total \tab 9413 \tab 909 \tab 7379 \tab 550 \tab 53 \tab 18304 \cr
+}
 }
 
 \seealso{

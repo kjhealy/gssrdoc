@@ -23,16 +23,22 @@ Question Is (CHILDâ€™S NAME) considered Jewish for any reason?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3838/vshow}{GSS Data Explorer page for \code{kd1jwoth}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab half/part \tab no \tab Total \cr
+   2008 \tab 1866 \tab 2 \tab 3 \tab 152 \tab 2023 \cr
+   2012 \tab 1967 \tab 2 \tab 1 \tab 4 \tab 1974 \cr
+   Total \tab 3833 \tab 4 \tab 4 \tab 156 \tab 3997 \cr
+}
 }
 
 \seealso{

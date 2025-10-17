@@ -15,13 +15,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whypoor1`](https://gssdataexplorer.norc.org/variables/1170/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:-----|
+#'  |1990  |-   |486            |527                |323           |30         |6         |1372  |
+#'  |Total |0   |486            |527                |323           |30         |6         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -49,13 +55,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whypoor2`](https://gssdataexplorer.norc.org/variables/1171/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:-----|
+#'  |1990  |-   |521            |461                |338           |44         |8         |1372  |
+#'  |Total |0   |521            |461                |338           |44         |8         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -83,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whypoor3`](https://gssdataexplorer.norc.org/variables/1172/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:-----|
+#'  |1990  |-   |474            |571                |285           |35         |7         |1372  |
+#'  |Total |0   |474            |571                |285           |35         |7         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -117,13 +135,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whypoor4`](https://gssdataexplorer.norc.org/variables/1173/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:-----|
+#'  |1990  |-   |620            |602                |115           |29         |6         |1372  |
+#'  |Total |0   |620            |602                |115           |29         |6         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -152,13 +176,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `socdif1`](https://gssdataexplorer.norc.org/variables/1174/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |79             |632   |454      |61                |141        |5         |1372  |
+#'  |Total |0   |79             |632   |454      |61                |141        |5         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -187,13 +217,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `socdif2`](https://gssdataexplorer.norc.org/variables/1175/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |86             |459   |615      |159               |47         |6         |1372  |
+#'  |Total |0   |86             |459   |615      |159               |47         |6         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -222,13 +258,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `socdif3`](https://gssdataexplorer.norc.org/variables/1176/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |281            |738   |291      |35                |22         |5         |1372  |
+#'  |Total |0   |281            |738   |291      |35                |22         |5         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -257,13 +299,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1990  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `socdif4`](https://gssdataexplorer.norc.org/variables/1177/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |1990  |-   |161            |497   |555      |121               |31         |7         |1372  |
+#'  |Total |0   |161            |497   |555      |121               |31         |7         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -290,29 +338,35 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |1996 |A/B/-   |partial      |
-#'  |1998 |A/B/-   |partial      |
-#'  |2000 |A/B/C   |full         |
-#'  |2002 |A/B/-   |partial      |
-#'  |2004 |A/B/-   |partial      |
-#'  |2006 |A/B/-   |partial      |
-#'  |2008 |A/B/-   |partial      |
-#'  |2010 |A/B/-   |partial      |
-#'  |2012 |A/B/-   |partial      |
-#'  |2014 |A/B/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
-#'  |2021 |A/B/-   |partial      |
-#'  |2022 |A/B/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
+#'  |ballots |years                                                                              |
+#'  |:-------|:----------------------------------------------------------------------------------|
+#'  |A/B/-   |1996, 1998, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+#'  |A/B/C   |1990, 1994, 2000                                                                   |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `wlthwhts`](https://gssdataexplorer.norc.org/variables/1178/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1 - rich |2    |3    |4     |5    |6   |7 - poor |don't know |no answer |skipped on web |Total |
+#'  |:-----|:-----|:--------|:----|:----|:-----|:----|:---|:--------|:----------|:---------|:--------------|:-----|
+#'  |1990  |-     |56       |84   |398  |693   |77   |5   |3        |40         |16        |-              |1372  |
+#'  |1994  |1518  |56       |118  |375  |765   |84   |19  |6        |38         |13        |-              |2992  |
+#'  |1996  |1935  |41       |61   |248  |485   |82   |10  |2        |34         |6         |-              |2904  |
+#'  |1998  |961   |71       |159  |534  |878   |121  |25  |7        |66         |10        |-              |2832  |
+#'  |2000  |486   |122      |255  |670  |976   |175  |35  |8        |69         |21        |-              |2817  |
+#'  |2002  |1857  |36       |93   |279  |393   |73   |7   |6        |18         |3         |-              |2765  |
+#'  |2004  |1906  |43       |83   |247  |449   |59   |11  |-        |12         |2         |-              |2812  |
+#'  |2006  |2518  |105      |195  |573  |888   |150  |22  |10       |40         |9         |-              |4510  |
+#'  |2008  |694   |71       |87   |353  |662   |105  |11  |9        |25         |6         |-              |2023  |
+#'  |2010  |614   |73       |123  |361  |700   |115  |13  |5        |30         |10        |-              |2044  |
+#'  |2012  |672   |65       |90   |332  |681   |91   |12  |2        |20         |9         |-              |1974  |
+#'  |2014  |863   |89       |157  |412  |857   |107  |17  |10       |17         |9         |-              |2538  |
+#'  |2016  |979   |95       |186  |458  |985   |110  |22  |7        |16         |9         |-              |2867  |
+#'  |2018  |1170  |68       |112  |305  |585   |73   |12  |5        |11         |7         |-              |2348  |
+#'  |2021  |2689  |70       |133  |388  |653   |68   |19  |5        |2          |1         |4              |4032  |
+#'  |2022  |2339  |95       |142  |326  |526   |67   |11  |11       |19         |7         |1              |3544  |
+#'  |Total |21201 |1156     |2078 |6259 |11176 |1557 |251 |96       |457        |138       |5              |44374 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -339,14 +393,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1990 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1990, 2000 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `wlthjews`](https://gssdataexplorer.norc.org/variables/1179/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1 - rich |2   |3   |4   |5   |6  |7 - poor |don't know |no answer |Total |
+#'  |:-----|:----|:--------|:---|:---|:---|:---|:--|:--------|:----------|:---------|:-----|
+#'  |1990  |-    |152      |336 |350 |323 |68  |15 |6        |105        |17        |1372  |
+#'  |2000  |1419 |138      |283 |325 |328 |73  |33 |14       |188        |16        |2817  |
+#'  |Total |1419 |290      |619 |675 |651 |141 |48 |20       |293        |33        |4189  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations

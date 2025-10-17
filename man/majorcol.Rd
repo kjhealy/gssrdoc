@@ -101,21 +101,30 @@ Question In what field was that degree?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006, 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3348/vshow}{GSS Data Explorer page for \code{majorcol}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab accounting/bookkeeping \tab agriculture/horticulture \tab anthropology \tab architecture \tab art \tab biology \tab business administration \tab chemistry \tab communications/speech \tab comm. disorders \tab computer science \tab dentistry \tab education \tab economics \tab engineering \tab english \tab finance \tab foreign language \tab forestry \tab geography \tab geology \tab history \tab industry & technology \tab journalism \tab law \tab law enforcement \tab library science \tab marketing \tab mathematics \tab medicine \tab music \tab nursing \tab pharmacy \tab philosophy \tab physical education \tab physics \tab psychology \tab political science/international relations \tab sociology \tab special education \tab theater arts \tab theology \tab veterinary medicine \tab liberal arts \tab other \tab general sciences \tab social work \tab general studies \tab other vocational \tab health \tab don't know \tab no answer \tab allied health \tab home economics \tab industrial relations \tab child/human/family development \tab food science/nutrition/culinary arts \tab environmental science/ecology \tab human services/human resources \tab humanities \tab ethnic studies \tab television/film \tab statistics/biostatistics \tab advertising \tab visual arts/graphic design/design and drafting \tab fine arts \tab criminology/criminal justice \tab administrative science/public administration \tab electronics \tab dance \tab gerontology \tab textiles/cloth \tab parks and recreation \tab social sciences \tab educational administration \tab urban and regional planning \tab public relations \tab information technology \tab fashion \tab counseling \tab aviation/aeronatics \tab mechanics/machine trade \tab Total \cr
+   2006 \tab 3375 \tab 28 \tab 3 \tab 4 \tab 3 \tab 15 \tab 23 \tab 117 \tab 4 \tab 25 \tab 2 \tab 28 \tab 2 \tab 87 \tab 11 \tab 57 \tab 17 \tab 14 \tab 9 \tab 1 \tab 3 \tab 3 \tab 7 \tab 5 \tab 3 \tab 29 \tab 4 \tab 4 \tab 14 \tab 11 \tab 8 \tab 4 \tab 51 \tab 2 \tab 2 \tab 5 \tab 5 \tab 34 \tab 14 \tab 7 \tab 2 \tab 2 \tab 6 \tab 1 \tab 14 \tab 26 \tab 21 \tab 10 \tab 24 \tab 65 \tab 25 \tab 47 \tab 227 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 1493 \tab 13 \tab 2 \tab 3 \tab 5 \tab 14 \tab 16 \tab 79 \tab 1 \tab 11 \tab 1 \tab 22 \tab 1 \tab 52 \tab 6 \tab 27 \tab 10 \tab 6 \tab 3 \tab 1 \tab 2 \tab 4 \tab 8 \tab 2 \tab 3 \tab 16 \tab 11 \tab 3 \tab 9 \tab 5 \tab 5 \tab 8 \tab 24 \tab - \tab 2 \tab 2 \tab 2 \tab 16 \tab 14 \tab 7 \tab - \tab 1 \tab 3 \tab 3 \tab 10 \tab 10 \tab 16 \tab 8 \tab 10 \tab 30 \tab 15 \tab 1 \tab 3 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 1772 \tab 4 \tab 1 \tab - \tab 3 \tab 5 \tab 10 \tab 34 \tab 3 \tab 9 \tab - \tab 3 \tab 1 \tab 35 \tab 3 \tab 15 \tab 10 \tab 5 \tab - \tab - \tab - \tab - \tab 2 \tab 1 \tab 1 \tab 6 \tab 4 \tab 3 \tab 1 \tab 1 \tab 5 \tab 1 \tab 18 \tab - \tab - \tab - \tab 2 \tab 10 \tab 5 \tab 5 \tab 1 \tab 3 \tab 2 \tab 2 \tab 8 \tab 10 \tab 6 \tab 3 \tab 1 \tab 4 \tab 7 \tab 1 \tab 4 \tab - \tab - \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1612 \tab 10 \tab 1 \tab 2 \tab 2 \tab 3 \tab 6 \tab 54 \tab 1 \tab 10 \tab - \tab 14 \tab 2 \tab 46 \tab 5 \tab 22 \tab 6 \tab 5 \tab 2 \tab 1 \tab 1 \tab - \tab 6 \tab 3 \tab 4 \tab 9 \tab - \tab 1 \tab 5 \tab 4 \tab 5 \tab 4 \tab 22 \tab 2 \tab - \tab 5 \tab 1 \tab 9 \tab 10 \tab 6 \tab 3 \tab 2 \tab 2 \tab - \tab 4 \tab 3 \tab 5 \tab 5 \tab - \tab 3 \tab 11 \tab 3 \tab - \tab - \tab - \tab - \tab 3 \tab 2 \tab - \tab 4 \tab - \tab - \tab 1 \tab - \tab 1 \tab 2 \tab 2 \tab 9 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2099 \tab 14 \tab - \tab 2 \tab 2 \tab 3 \tab 12 \tab 64 \tab 2 \tab 10 \tab 1 \tab 12 \tab - \tab 50 \tab 5 \tab 21 \tab 9 \tab 6 \tab 1 \tab - \tab 1 \tab 2 \tab 9 \tab 3 \tab 2 \tab 11 \tab 4 \tab 2 \tab 11 \tab 4 \tab 11 \tab 1 \tab 17 \tab - \tab - \tab 3 \tab 2 \tab 10 \tab 10 \tab 6 \tab - \tab - \tab 3 \tab 1 \tab 7 \tab 6 \tab 8 \tab 9 \tab 7 \tab 6 \tab 18 \tab 3 \tab 1 \tab 1 \tab - \tab - \tab 2 \tab 1 \tab 4 \tab 5 \tab 2 \tab 1 \tab 2 \tab - \tab 1 \tab 3 \tab 3 \tab 9 \tab 2 \tab 2 \tab - \tab - \tab 1 \tab - \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2338 \tab 14 \tab 2 \tab 1 \tab 2 \tab 2 \tab 11 \tab 101 \tab 5 \tab 14 \tab - \tab 19 \tab 2 \tab 52 \tab 7 \tab 21 \tab 16 \tab 7 \tab 4 \tab 2 \tab 1 \tab 1 \tab 5 \tab 1 \tab 4 \tab 14 \tab 3 \tab 2 \tab 3 \tab 6 \tab 8 \tab 4 \tab 28 \tab 1 \tab 1 \tab 4 \tab 3 \tab 19 \tab 12 \tab 6 \tab 3 \tab 2 \tab 3 \tab - \tab 6 \tab 7 \tab 9 \tab 8 \tab 3 \tab 3 \tab 13 \tab - \tab 3 \tab 1 \tab 2 \tab - \tab 4 \tab 4 \tab 3 \tab 2 \tab - \tab - \tab 2 \tab 1 \tab - \tab 3 \tab 4 \tab 6 \tab 2 \tab 2 \tab - \tab - \tab - \tab - \tab 5 \tab 1 \tab 2 \tab 1 \tab 5 \tab 4 \tab 7 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1914 \tab 13 \tab 1 \tab 1 \tab 2 \tab 8 \tab 6 \tab 58 \tab 3 \tab 14 \tab 1 \tab 7 \tab 3 \tab 44 \tab 13 \tab 22 \tab 6 \tab 9 \tab 4 \tab - \tab 1 \tab 2 \tab 9 \tab - \tab 1 \tab 9 \tab - \tab - \tab 6 \tab 3 \tab 16 \tab 1 \tab 25 \tab 2 \tab 1 \tab 4 \tab 1 \tab 15 \tab 5 \tab 6 \tab - \tab 1 \tab 6 \tab 2 \tab 8 \tab 13 \tab 9 \tab 5 \tab - \tab 3 \tab 15 \tab - \tab 1 \tab 1 \tab - \tab 1 \tab 3 \tab 3 \tab 3 \tab 5 \tab - \tab - \tab 1 \tab - \tab - \tab 3 \tab 3 \tab 5 \tab - \tab 5 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab - \tab 5 \tab - \tab 4 \tab 3 \tab 1 \tab 2348 \cr
+   Total \tab 14603 \tab 96 \tab 10 \tab 13 \tab 19 \tab 50 \tab 84 \tab 507 \tab 19 \tab 93 \tab 5 \tab 105 \tab 11 \tab 366 \tab 50 \tab 185 \tab 74 \tab 52 \tab 23 \tab 5 \tab 9 \tab 12 \tab 46 \tab 15 \tab 18 \tab 94 \tab 26 \tab 15 \tab 49 \tab 34 \tab 58 \tab 23 \tab 185 \tab 7 \tab 6 \tab 23 \tab 16 \tab 113 \tab 70 \tab 43 \tab 9 \tab 11 \tab 25 \tab 9 \tab 57 \tab 75 \tab 74 \tab 48 \tab 45 \tab 114 \tab 104 \tab 55 \tab 239 \tab 4 \tab 5 \tab 2 \tab 13 \tab 14 \tab 11 \tab 18 \tab 3 \tab 3 \tab 7 \tab 2 \tab 2 \tab 11 \tab 12 \tab 29 \tab 6 \tab 11 \tab 1 \tab 1 \tab 2 \tab 1 \tab 7 \tab 5 \tab 4 \tab 2 \tab 12 \tab 4 \tab 11 \tab 3 \tab 1 \tab 18304 \cr
+}
 }
 
 \seealso{

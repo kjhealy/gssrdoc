@@ -26,18 +26,27 @@ G. Most government administrators can be trusted to do what is best for the coun
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2012 \tab A/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1996 \cr
+   A/C/- \tab 2012 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4101/vshow}{GSS Data Explorer page for \code{poleff17}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1572 \tab 39 \tab 214 \tab 326 \tab 492 \tab 192 \tab 43 \tab 26 \tab 2904 \cr
+   2006 \tab 2992 \tab 50 \tab 394 \tab 309 \tab 508 \tab 233 \tab 24 \tab - \tab 4510 \cr
+   2012 \tab 1312 \tab 9 \tab 120 \tab 176 \tab 230 \tab 102 \tab 21 \tab 4 \tab 1974 \cr
+   2016 \tab 1477 \tab 22 \tab 270 \tab 394 \tab 512 \tab 168 \tab 12 \tab 12 \tab 2867 \cr
+   Total \tab 7353 \tab 120 \tab 998 \tab 1205 \tab 1742 \tab 695 \tab 100 \tab 42 \tab 12255 \cr
+}
 }
 
 \seealso{

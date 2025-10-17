@@ -12,18 +12,26 @@ library(haven)
 library(tools)
 library(forcats)
 library(socviz)
+library(here)
 
 ## http://larmarange.github.io/labelled/
 library(labelled)
 
+# Load gss_dict
+load(here::here("data", "gss_dict.rda"))
+
 # Load the local labelled dataset; make sure it's up to date
-readRDS(here::here("data-raw", "objects", "gss_all_labelled.rda"))
+gss_all_labelled <- readRDS(here::here(
+  "data-raw",
+  "objects",
+  "gss_all_labelled.rda"
+))
 
 # Load the local scrape of NORC docs; make sure it's up to date
-norc_docs_df <- readRDS(here("data-raw", "objects", "norc_docs_df.rda"))
+norc_docs_df <- readRDS(here::here("data-raw", "objects", "norc_docs_df.rda"))
 
 # Check for mismatches
-gss_vnames <- colnames(gss_all)
+gss_vnames <- colnames(gss_all_labelled)
 length(gss_vnames)
 length(unique(gss_vnames))
 
@@ -47,76 +55,113 @@ setdiff(norc_vnames, gss_vnames)
 
 ## Functions to clean up the data dictionary
 
+# Occupation employment and industry codes
+exclude_from_xtab <- unique(c(
+  names(select(gss_all_labelled, contains("sei10"))),
+  names(select(gss_all_labelled, ends_with("sei"))),
+  names(select(gss_all_labelled, ends_with("spdot"))),
+  names(select(gss_all_labelled, contains("isco"))),
+  names(select(gss_all_labelled, contains("occ10"))),
+  names(select(gss_all_labelled, contains("occ80"))),
+  names(select(gss_all_labelled, contains("ind10"))),
+  names(select(gss_all_labelled, contains("ind80"))),
+  names(select(gss_all_labelled, contains("ind16"))),
+  names(select(gss_all_labelled, starts_with("spdot"))),
+  names(select(gss_all_labelled, starts_with("padot"))),
+  names(select(gss_all_labelled, starts_with("madot"))),
+  names(select(gss_all_labelled, starts_with("dot"))),
+  names(select(gss_all_labelled, starts_with("indus"))),
+  names(select(gss_all_labelled, starts_with("spind"))),
+  names(select(gss_all_labelled, matches("old\\d{1}"))),
+  names(select(gss_all_labelled, contains("sphrs"))),
+  names(select(gss_all_labelled, starts_with("wtss"))),
+  names(select(gss_all_labelled, starts_with("ballot"))),
+  names(select(gss_all_labelled, starts_with("spocc"))),
+  names(select(gss_all_labelled, starts_with("paocc"))),
+  names(select(gss_all_labelled, contains("isc681"))),
+  names(select(gss_all_labelled, contains("isco0")))
+))
+
+# Variables with very knarly structure, and weight vars
+# No need for xtabs there either
+exclude_from_xtab <- sort(unique(c(
+  exclude_from_xtab,
+  "spother",
+  "spoth16",
+  "hrs1",
+  "old11",
+  "ethnic",
+  "cohort",
+  "dateintv",
+  "other",
+  "oth16",
+  "othlang1",
+  "othlang2",
+  "other_next",
+  "occ",
+  "occonet",
+  "coocc10",
+  "sbocc80",
+  "sampcode",
+  "kish",
+  "maocc80",
+  "size",
+  "indus07",
+  "sbocc10",
+  "datefrst",
+  "paocc80",
+  "maocc10",
+  "spocc80",
+  "conrinc",
+  "realrinc",
+  "occ80",
+  "hivtest1",
+  "realinc",
+  "coninc",
+  "wtssps_nea",
+  "paocc10",
+  "spocc10",
+  "occ10",
+  "lngthinv",
+  "vstrat",
+  "wtssnr",
+  "wtss",
+  "wtssnr",
+  "wtssall",
+  "wtssps",
+  "wtssnrps",
+  "wtssps_nea",
+  "wtssnrps_nea",
+  "wtssps_next",
+  "wtssnrps_next",
+  "ballotformwt",
+  "ballotformwtnr",
+  "vp",
+  "hhtype",
+  "isco08",
+  "coisco08",
+  "spisco08",
+  "maisco08",
+  "paisco08",
+  "intyrs",
+  "sdastrata",
+  "sdaclusters",
+  "formwt",
+  "oversamp",
+  "compwt",
+  "sampcode",
+  "sample",
+  "phase",
+  "vpsu",
+  "year",
+  "id"
+)))
+
+
 ## Get a yearly crosstab of a variable
-make_var_yrtab <- function(x) {
-  # We don't need yr crosstabs for year or id,
-  if (rlang::as_name(x) %in% c("year", "id")) {
-    return("None")
-  }
-
-  # Variables with very knarly structure, and weight vars
-  # No need for xtabs there either
-  no_xtab <- c(
-    "occ",
-    "occ10_next",
-    "occonet",
-    "coocc10",
-    "sbocc80",
-    "sampcode",
-    "kish",
-    "maocc80",
-    "size",
-    "indus07",
-    "sbocc10",
-    "datefrst",
-    "paocc80",
-    "maocc10",
-    "spocc80",
-    "conrinc",
-    "realrinc",
-    "occ80",
-    "hivtest1",
-    "realinc",
-    "coninc",
-    "wtssps_nea",
-    "paocc10",
-    "spocc10",
-    "occ10",
-    "lngthinv",
-    "vstrat",
-    "wtssnr",
-    "wtss",
-    "wtssnr",
-    "wtssall",
-    "wtssps",
-    "wtssnrps",
-    "wtssps_nea",
-    "wtssnrps_nea",
-    "wtssps_next",
-    "wtssnrps_next",
-    "ballotformwt",
-    "ballotformwtnr",
-    "vp",
-    "hhtype",
-    "isco08",
-    "coisco08",
-    "spisco08",
-    "maisco08",
-    "paisco08",
-    "intyrs",
-    "sdastrata",
-    "sdaclusters",
-    "formwt",
-    "oversamp",
-    "compwt",
-    "sampcode",
-    "sample",
-    "phase",
-    "vpsu"
-  )
-
+make_var_yrtab <- function(x, no_xtab = exclude_from_xtab) {
   if (rlang::as_name(x) %in% no_xtab) {
-    return("None")
+    return("Not available or too large.")
   }
 
   # Note use of gss_all_labelled here
@@ -155,7 +200,7 @@ make_subject_df <- function(x) {
 
 ## Clean the data dict
 
-## Get a crosstab for every variable
+## Get a crosstab for every variable except no xtab
 gss_doc_base <- tibble(
   var_name = colnames(gss_all_labelled)
 ) |>

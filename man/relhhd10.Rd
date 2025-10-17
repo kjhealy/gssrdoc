@@ -39,30 +39,37 @@ Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELO
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5425/vshow}{GSS Data Explorer page for \code{relhhd10}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab child, natural or adopted, stepchild \tab grandchild, great-grandchild \tab niece or nephew \tab sibling-in-law \tab child of non-relative \tab no answer \tab roommate, housemate \tab not available in this release \tab Total \cr
+   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab 2903 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab 2830 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2000 \tab 2812 \tab 2 \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2763 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2809 \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 4507 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 2022 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 2036 \tab 2 \tab 2 \tab 1 \tab - \tab 1 \tab 2 \tab - \tab - \tab 2044 \cr
+   2012 \tab 1973 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2534 \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 2863 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2345 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 40539 \tab 19 \tab 10 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 4032 \tab 44608 \cr
+}
 }
 
 \seealso{

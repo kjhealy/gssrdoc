@@ -23,16 +23,21 @@ Question Do you think immigrants living in the U.S. should adopt U.S. culture, k
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7755/vshow}{GSS Data Explorer page for \code{adoptus}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab NA \tab 1 \tab 2 \tab 3 \tab Total \cr
+   2022 \tab 1231 \tab 258 \tab 195 \tab 1860 \tab 3544 \cr
+   Total \tab 1231 \tab 258 \tab 195 \tab 1860 \tab 3544 \cr
+}
 }
 
 \concept{Core}

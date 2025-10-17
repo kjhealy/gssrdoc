@@ -21,15 +21,21 @@ Question Calculated variable: total people in household according to roster. (RO
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8000/vshow}{GSS Data Explorer page for \code{hompoph}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 9 \tab no answer \tab Total \cr
+   2022 \tab - \tab 1401 \tab 1590 \tab 382 \tab 133 \tab 25 \tab 5 \tab 1 \tab 3 \tab 4 \tab 3544 \cr
+   Total \tab 0 \tab 1401 \tab 1590 \tab 382 \tab 133 \tab 25 \tab 5 \tab 1 \tab 3 \tab 4 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

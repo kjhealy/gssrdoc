@@ -23,15 +23,21 @@ C. Do you know any of these Blacks as a relative?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2342/vshow}{GSS Data Explorer page for \code{blkrel}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1788 \tab 106 \tab 885 \tab 3 \tab 35 \tab 2817 \cr
+   Total \tab 1788 \tab 106 \tab 885 \tab 3 \tab 35 \tab 2817 \cr
+}
 }
 
 \seealso{

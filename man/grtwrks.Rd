@@ -25,15 +25,21 @@ Question The great works of philosophy and science are the best source of truth,
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7538/vshow}{GSS Data Explorer page for \code{grtwrks}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 422 \tab 297 \tab 959 \tab 1624 \tab 506 \tab 161 \tab 11 \tab 5 \tab 47 \tab 4032 \cr
+   Total \tab 422 \tab 297 \tab 959 \tab 1624 \tab 506 \tab 161 \tab 11 \tab 5 \tab 47 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

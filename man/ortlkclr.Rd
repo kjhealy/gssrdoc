@@ -22,16 +22,22 @@ B. Talk to a minister, priest, rabbi or other religious leader.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2022/vshow}{GSS Data Explorer page for \code{ortlkclr}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1699 \tab 109 \tab 1 \tab 316 \tab 183 \tab 154 \tab 122 \tab 90 \tab 61 \tab 22 \tab 4 \tab 3 \tab 140 \tab 2904 \cr
+   2006 \tab 3288 \tab 74 \tab - \tab 379 \tab 185 \tab 131 \tab 121 \tab 124 \tab 100 \tab 60 \tab 13 \tab - \tab 35 \tab 4510 \cr
+   Total \tab 4987 \tab 183 \tab 1 \tab 695 \tab 368 \tab 285 \tab 243 \tab 214 \tab 161 \tab 82 \tab 17 \tab 3 \tab 175 \tab 7414 \cr
+}
 }
 
 \seealso{

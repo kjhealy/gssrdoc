@@ -26,16 +26,23 @@ A. You have come home from work too tired to do the chores which need to be done
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B \tab partial \cr
-   2022 \tab A/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/- \tab 2022 \cr
+   A/B \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4475/vshow}{GSS Data Explorer page for \code{tiredhm1}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab doesn't apply/no job \tab several times a week \tab several times a month \tab once or twice \tab never \tab don't know \tab no answer \tab 5 \tab skipped on web \tab Total \cr
+   2012 \tab 672 \tab 412 \tab 279 \tab 183 \tab 252 \tab 164 \tab 4 \tab 8 \tab - \tab - \tab 1974 \cr
+   2022 \tab 2386 \tab - \tab 278 \tab 206 \tab 225 \tab 143 \tab 5 \tab 6 \tab 289 \tab 6 \tab 3544 \cr
+   Total \tab 3058 \tab 412 \tab 557 \tab 389 \tab 477 \tab 307 \tab 9 \tab 14 \tab 289 \tab 6 \tab 5518 \cr
+}
 }
 
 \seealso{

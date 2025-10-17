@@ -23,16 +23,22 @@ A. To attend regularly religious services at church or synagogue.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1089/vshow}{GSS Data Explorer page for \code{gochurch}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab 2 \tab 3 \tab 4 \tab not very important \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 418 \tab 218 \tab 298 \tab 205 \tab 318 \tab 13 \tab 11 \tab 1481 \cr
+   1998 \tab 1387 \tab 428 \tab 183 \tab 292 \tab 158 \tab 345 \tab 27 \tab 12 \tab 2832 \cr
+   Total \tab 1387 \tab 846 \tab 401 \tab 590 \tab 363 \tab 663 \tab 40 \tab 23 \tab 4313 \cr
+}
 }
 
 \seealso{

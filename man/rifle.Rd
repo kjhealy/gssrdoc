@@ -24,44 +24,51 @@ A. IF YES:  Is it a pistol, shotgun, rifle, or what?  CODE ALL THAT APPLY. (Code
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/C/- \tab partial \cr
-   1989 \tab A/C/- \tab partial \cr
-   1990 \tab A/C/- \tab partial \cr
-   1991 \tab A/C/- \tab partial \cr
-   1993 \tab A/C/- \tab partial \cr
-   1994 \tab A/C/- \tab partial \cr
-   1996 \tab A/C/- \tab partial \cr
-   1998 \tab A/C/- \tab partial \cr
-   2000 \tab A/C/- \tab partial \cr
-   2002 \tab A/C/- \tab partial \cr
-   2004 \tab A/C/- \tab partial \cr
-   2006 \tab A/C/- \tab partial \cr
-   2008 \tab A/C/- \tab partial \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/C/- \tab partial \cr
-   2016 \tab A/C/- \tab partial \cr
-   2018 \tab A/C/- \tab partial \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/C/- \tab partial \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
+   A/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2022, 2024 \cr
+   Full \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/682/vshow}{GSS Data Explorer page for \code{rifle}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab refused \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1973 \tab - \tab 437 \tab 1045 \tab 15 \tab 7 \tab - \tab - \tab 1504 \cr
+   1974 \tab - \tab 396 \tab 1073 \tab 10 \tab 5 \tab - \tab - \tab 1484 \cr
+   1976 \tab - \tab 420 \tab 1052 \tab 17 \tab 10 \tab - \tab - \tab 1499 \cr
+   1977 \tab - \tab 460 \tab 1057 \tab 2 \tab 11 \tab - \tab - \tab 1530 \cr
+   1980 \tab - \tab 426 \tab 1025 \tab 7 \tab 10 \tab - \tab - \tab 1468 \cr
+   1982 \tab - \tab 455 \tab 1373 \tab 26 \tab 6 \tab - \tab - \tab 1860 \cr
+   1984 \tab - \tab 400 \tab 1058 \tab 9 \tab 6 \tab - \tab - \tab 1473 \cr
+   1985 \tab - \tab 433 \tab 1087 \tab 10 \tab 4 \tab - \tab - \tab 1534 \cr
+   1987 \tab - \tab 442 \tab 1360 \tab 10 \tab 7 \tab - \tab - \tab 1819 \cr
+   1988 \tab 504 \tab 235 \tab 725 \tab 10 \tab 7 \tab - \tab - \tab 1481 \cr
+   1989 \tab 504 \tab 283 \tab 746 \tab - \tab 4 \tab - \tab - \tab 1537 \cr
+   1990 \tab 455 \tab 230 \tab 677 \tab - \tab 9 \tab 1 \tab - \tab 1372 \cr
+   1991 \tab 524 \tab 245 \tab 730 \tab - \tab 18 \tab - \tab - \tab 1517 \cr
+   1993 \tab 531 \tab 249 \tab 817 \tab 7 \tab 2 \tab - \tab - \tab 1606 \cr
+   1994 \tab 996 \tab 483 \tab 1485 \tab 5 \tab 23 \tab - \tab - \tab 2992 \cr
+   1996 \tab 981 \tab 447 \tab 1464 \tab 7 \tab 5 \tab - \tab - \tab 2904 \cr
+   1998 \tab 951 \tab 390 \tab 1476 \tab 6 \tab 9 \tab - \tab - \tab 2832 \cr
+   2000 \tab 956 \tab 364 \tab 1459 \tab 23 \tab 14 \tab 1 \tab - \tab 2817 \cr
+   2002 \tab 1841 \tab 183 \tab 731 \tab 10 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 1916 \tab 174 \tab 695 \tab 16 \tab 11 \tab - \tab - \tab 2812 \cr
+   2006 \tab 2509 \tab 381 \tab 1582 \tab 35 \tab - \tab 3 \tab - \tab 4510 \cr
+   2008 \tab 674 \tab 276 \tab 1050 \tab 19 \tab - \tab 4 \tab - \tab 2023 \cr
+   2010 \tab 766 \tab 240 \tab 983 \tab 50 \tab - \tab 5 \tab - \tab 2044 \cr
+   2012 \tab 669 \tab 260 \tab 1010 \tab 28 \tab - \tab 7 \tab - \tab 1974 \cr
+   2014 \tab 827 \tab 317 \tab 1325 \tab 63 \tab - \tab 6 \tab - \tab 2538 \cr
+   2016 \tab 978 \tab 365 \tab 1458 \tab 60 \tab - \tab 6 \tab - \tab 2867 \cr
+   2018 \tab 779 \tab 325 \tab 1197 \tab 39 \tab 4 \tab 4 \tab - \tab 2348 \cr
+   2021 \tab - \tab 721 \tab 3105 \tab 117 \tab 4 \tab 76 \tab 9 \tab 4032 \cr
+   2022 \tab 1203 \tab 416 \tab 1816 \tab 72 \tab 6 \tab 24 \tab 7 \tab 3544 \cr
+   Total \tab 18564 \tab 10453 \tab 34661 \tab 673 \tab 182 \tab 137 \tab 16 \tab 64686 \cr
+}
 }
 
 \seealso{

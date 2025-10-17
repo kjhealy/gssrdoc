@@ -36,15 +36,21 @@ Question A. Could you tell me your major field of study (while you were) in coll
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1451/vshow}{GSS Data Explorer page for \code{colmajr2}}.
+
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab foreign language \tab fine arts \tab other humanities \tab economics \tab psychology \tab social science-other social study \tab mathematics \tab science \tab other \tab business \tab education \tab engineering \tab other vocational \tab no answer \tab Total \cr
+   1993 \tab 1507 \tab 2 \tab 2 \tab 1 \tab 1 \tab 5 \tab 5 \tab 6 \tab 5 \tab 16 \tab 15 \tab 17 \tab 6 \tab 10 \tab 8 \tab 1606 \cr
+   Total \tab 1507 \tab 2 \tab 2 \tab 1 \tab 1 \tab 5 \tab 5 \tab 6 \tab 5 \tab 16 \tab 15 \tab 17 \tab 6 \tab 10 \tab 8 \tab 1606 \cr
+}
 }
 
 \seealso{

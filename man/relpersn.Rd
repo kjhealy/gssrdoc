@@ -24,25 +24,30 @@ Question To what extent do you consider yourself a religious person?  Are you . 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2120/vshow}{GSS Data Explorer page for \code{relpersn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very religious \tab moderately religious \tab slightly religious \tab not religious at all \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1998 \tab 1387 \tab 268 \tab 606 \tab 335 \tab 218 \tab 2 \tab 16 \tab - \tab 2832 \cr
+   2006 \tab 1518 \tab 572 \tab 1285 \tab 669 \tab 444 \tab 12 \tab 10 \tab - \tab 4510 \cr
+   2008 \tab - \tab 374 \tab 843 \tab 466 \tab 317 \tab 11 \tab 12 \tab - \tab 2023 \cr
+   2010 \tab - \tab 343 \tab 842 \tab 470 \tab 375 \tab 6 \tab 8 \tab - \tab 2044 \cr
+   2012 \tab - \tab 360 \tab 784 \tab 426 \tab 382 \tab 11 \tab 11 \tab - \tab 1974 \cr
+   2014 \tab - \tab 434 \tab 958 \tab 609 \tab 519 \tab 6 \tab 12 \tab - \tab 2538 \cr
+   2016 \tab - \tab 464 \tab 1091 \tab 647 \tab 631 \tab 12 \tab 22 \tab - \tab 2867 \cr
+   2018 \tab - \tab 372 \tab 873 \tab 573 \tab 510 \tab 8 \tab 12 \tab - \tab 2348 \cr
+   2021 \tab - \tab 518 \tab 1284 \tab 939 \tab 1213 \tab 3 \tab 47 \tab 28 \tab 4032 \cr
+   2022 \tab - \tab 488 \tab 1124 \tab 841 \tab 1051 \tab 14 \tab 15 \tab 11 \tab 3544 \cr
+   Total \tab 2905 \tab 4193 \tab 9690 \tab 5975 \tab 5660 \tab 85 \tab 165 \tab 39 \tab 28712 \cr
+}
 }
 
 \seealso{

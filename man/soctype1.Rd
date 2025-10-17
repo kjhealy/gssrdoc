@@ -25,16 +25,23 @@ Question These five diagrams show different types of society. Please read the de
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   B/C/- \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4336/vshow}{GSS Data Explorer page for \code{soctype1}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab type a \tab type b \tab type c \tab type d \tab type e \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2000 \tab 1545 \tab 193 \tab 364 \tab 213 \tab 322 \tab 32 \tab 64 \tab 84 \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 436 \tab 680 \tab 268 \tab 307 \tab 48 \tab 73 \tab 177 \tab 14 \tab 4032 \cr
+   Total \tab 3574 \tab 629 \tab 1044 \tab 481 \tab 629 \tab 80 \tab 137 \tab 261 \tab 14 \tab 6849 \cr
+}
 }
 
 \seealso{

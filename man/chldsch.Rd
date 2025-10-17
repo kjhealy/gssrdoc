@@ -24,16 +24,22 @@ Question D. How willing would you be to have (John/Mary) in your child's class a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
+   A/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2936/vshow}{GSS Data Explorer page for \code{chldsch}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1372 \tab 602 \tab 620 \tab 98 \tab 32 \tab 28 \tab 13 \tab 2765 \cr
+   Total \tab 1372 \tab 602 \tab 620 \tab 98 \tab 32 \tab 28 \tab 13 \tab 2765 \cr
+}
 }
 
 \seealso{

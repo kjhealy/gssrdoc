@@ -26,15 +26,21 @@ B. Second listed child?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2652/vshow}{GSS Data Explorer page for \code{knowkid2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost all of the time \tab most of the time \tab about half of the time \tab some of the time \tab hardly any of the time \tab no answer \tab Total \cr
+   2000 \tab 2589 \tab 133 \tab 58 \tab 15 \tab 6 \tab 2 \tab 14 \tab 2817 \cr
+   Total \tab 2589 \tab 133 \tab 58 \tab 15 \tab 6 \tab 2 \tab 14 \tab 2817 \cr
+}
 }
 
 \seealso{

@@ -15,13 +15,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scientwk`](https://gssdataexplorer.norc.org/variables/3519/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2012  |1457 |15             |147   |260      |24                |67         |4         |1974  |
+#'  |Total |1457 |15             |147   |260      |24                |67         |4         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -49,13 +55,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scientmo`](https://gssdataexplorer.norc.org/variables/3520/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2012  |1457 |15             |83    |286      |23                |106        |4         |1974  |
+#'  |Total |1457 |15             |83    |286      |23                |106        |4         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -83,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `scientbr`](https://gssdataexplorer.norc.org/variables/3521/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2012  |1457 |10             |71    |336      |65                |32         |3         |1974  |
+#'  |Total |1457 |10             |71    |336      |65                |32         |3         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -116,13 +134,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `engda`](https://gssdataexplorer.norc.org/variables/3522/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |happy |not care |unhappy |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:--------|:-------|:----------|:---------|:-----|
+#'  |2012  |1489 |410   |68       |2       |2          |3         |1974  |
+#'  |Total |1489 |410   |68       |2       |2          |3         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -149,13 +173,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `engson`](https://gssdataexplorer.norc.org/variables/3523/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |happy |not care |unhappy |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:--------|:-------|:----------|:---------|:-----|
+#'  |2012  |1489 |419   |61       |1       |1          |3         |1974  |
+#'  |Total |1489 |419   |61       |1       |1          |3         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -181,13 +211,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `engresp`](https://gssdataexplorer.norc.org/variables/3524/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |can't choose |no answer |Total |
+#'  |:-----|:----|:---|:---|:------------|:---------|:-----|
+#'  |2012  |1489 |126 |355 |1            |3         |1974  |
+#'  |Total |1489 |126 |355 |1            |3         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -216,13 +252,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `engdo`](https://gssdataexplorer.norc.org/variables/3525/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |excellent |good |fair |poor |very poor |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:----|:----|:----|:---------|:----------|:---------|:-----|
+#'  |2012  |1489 |54        |142  |158  |79   |36        |13         |3         |1974  |
+#'  |Total |1489 |54        |142  |158  |79   |36        |13         |3         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -250,13 +292,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `englone`](https://gssdataexplorer.norc.org/variables/3526/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2012  |1489 |15             |86    |279      |51                |50         |4         |1974  |
+#'  |Total |1489 |15             |86    |279      |51                |50         |4         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -284,13 +332,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `engdgr`](https://gssdataexplorer.norc.org/variables/3527/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2012  |1489 |30             |152   |227      |24                |49         |3         |1974  |
+#'  |Total |1489 |30             |152   |227      |24                |49         |3         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -318,13 +372,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2012  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `enggood`](https://gssdataexplorer.norc.org/variables/3528/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2012  |1489 |59             |319   |49       |5                 |49         |4         |1974  |
+#'  |Total |1489 |59             |319   |49       |5                 |49         |4         |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes

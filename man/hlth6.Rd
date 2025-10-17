@@ -24,16 +24,23 @@ A. First, thinking about health related matters, did any of the following happen
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab B/C/- \tab partial \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   B/C/- \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5141/vshow}{GSS Data Explorer page for \code{hlth6}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 500 \tab 73 \tab 927 \tab 2 \tab 15 \tab 1517 \cr
+   2004 \tab 1472 \tab 135 \tab 1193 \tab 3 \tab 9 \tab 2812 \cr
+   Total \tab 1972 \tab 208 \tab 2120 \tab 5 \tab 24 \tab 4329 \cr
+}
 }
 
 \seealso{

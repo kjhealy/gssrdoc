@@ -22,16 +22,23 @@ Question C. At your home are you connected to the World Wide Web through a regul
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2554/vshow}{GSS Data Explorer page for \code{wwwline1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab regular telephone line \tab other means \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2471 \tab 302 \tab 20 \tab 1 \tab 23 \tab 2817 \cr
+   2002 \tab 2098 \tab 536 \tab 119 \tab 1 \tab 11 \tab 2765 \cr
+   Total \tab 4569 \tab 838 \tab 139 \tab 2 \tab 34 \tab 5582 \cr
+}
 }
 
 \seealso{

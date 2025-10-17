@@ -23,15 +23,21 @@ Question C. R did Gene Module
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5558/vshow}{GSS Data Explorer page for \code{saqgene}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab r did gene saq \tab administered by interviewer \tab r did not do gene \tab Total \cr
+   2004 \tab - \tab 1657 \tab 723 \tab 432 \tab 2812 \cr
+   Total \tab 0 \tab 1657 \tab 723 \tab 432 \tab 2812 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ Question B. Some people think that the income differences between the rich and t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/244/vshow}{GSS Data Explorer page for \code{eqwlthy}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab govt reduce diff \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no govt action \tab don't know \tab no answer \tab Total \cr
+   1978 \tab 761 \tab 145 \tab 62 \tab 144 \tab 170 \tab 84 \tab 60 \tab 84 \tab 19 \tab 3 \tab 1532 \cr
+   Total \tab 761 \tab 145 \tab 62 \tab 144 \tab 170 \tab 84 \tab 60 \tab 84 \tab 19 \tab 3 \tab 1532 \cr
+}
 }
 
 \seealso{

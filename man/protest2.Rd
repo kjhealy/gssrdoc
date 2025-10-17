@@ -25,16 +25,23 @@ B. Publishing pamphlets to protest against the government.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3983/vshow}{GSS Data Explorer page for \code{protest2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 259 \tab 164 \tab 104 \tab 96 \tab 30 \tab 24 \tab 1534 \cr
+   1990 \tab 155 \tab 469 \tab 326 \tab 188 \tab 145 \tab 64 \tab 25 \tab 1372 \cr
+   Total \tab 1012 \tab 728 \tab 490 \tab 292 \tab 241 \tab 94 \tab 49 \tab 2906 \cr
+}
 }
 
 \seealso{

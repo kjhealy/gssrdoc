@@ -23,27 +23,33 @@ when you committed yourself to Christ?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1991, 1998, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1077/vshow}{GSS Data Explorer page for \code{reborn}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1988 \tab - \tab 541 \tab 918 \tab 11 \tab 11 \tab - \tab 1481 \cr
+   1991 \tab 158 \tab 474 \tab 849 \tab 3 \tab 33 \tab - \tab 1517 \cr
+   1998 \tab 1387 \tab 535 \tab 892 \tab 5 \tab 13 \tab - \tab 2832 \cr
+   2004 \tab 1472 \tab 439 \tab 881 \tab 12 \tab 8 \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 1104 \tab 1862 \tab 21 \tab 5 \tab - \tab 4510 \cr
+   2008 \tab - \tab 758 \tab 1234 \tab 24 \tab 7 \tab - \tab 2023 \cr
+   2010 \tab - \tab 773 \tab 1241 \tab 19 \tab 11 \tab - \tab 2044 \cr
+   2012 \tab - \tab 832 \tab 1100 \tab 31 \tab 11 \tab - \tab 1974 \cr
+   2014 \tab - \tab 1006 \tab 1492 \tab 29 \tab 11 \tab - \tab 2538 \cr
+   2016 \tab - \tab 1203 \tab 1595 \tab 45 \tab 24 \tab - \tab 2867 \cr
+   2018 \tab - \tab 971 \tab 1327 \tab 31 \tab 19 \tab - \tab 2348 \cr
+   2021 \tab 1360 \tab 882 \tab 1718 \tab 5 \tab 31 \tab 36 \tab 4032 \cr
+   2022 \tab - \tab 1322 \tab 2129 \tab 51 \tab 18 \tab 24 \tab 3544 \cr
+   Total \tab 5895 \tab 10840 \tab 17238 \tab 287 \tab 202 \tab 60 \tab 34522 \cr
+}
 }
 
 \seealso{

@@ -22,15 +22,21 @@ O. Other (SPECIFY)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1929/vshow}{GSS Data Explorer page for \code{hrsoth}}.
+
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 15 \tab 16 \tab 2 \tab 20 \tab 21 \tab 3 \tab 4 \tab 5 \tab 6 \tab 8 \tab no answer \tab Total \cr
+   1996 \tab 2882 \tab 1 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 2904 \cr
+   Total \tab 2882 \tab 1 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 2904 \cr
+}
 }
 
 \seealso{

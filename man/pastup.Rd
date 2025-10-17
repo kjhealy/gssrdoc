@@ -23,15 +23,21 @@ A. Would you say much better or somewhat better?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1642/vshow}{GSS Data Explorer page for \code{pastup}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab much better \tab somewhat better \tab no answer \tab Total \cr
+   1994 \tab 2602 \tab 34 \tab 345 \tab 11 \tab 2992 \cr
+   Total \tab 2602 \tab 34 \tab 345 \tab 11 \tab 2992 \cr
+}
 }
 
 \seealso{

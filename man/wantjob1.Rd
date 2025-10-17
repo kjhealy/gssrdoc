@@ -24,17 +24,25 @@ Question Suppose you could decide on your work situation at present. Which of th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4577/vshow}{GSS Data Explorer page for \code{wantjob1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a full time job \tab a part-time job \tab a job with less than 10 hours a week \tab no paid job at all \tab no answer \tab don't know \tab Total \cr
+   1998 \tab 1609 \tab 672 \tab 325 \tab 69 \tab 120 \tab 37 \tab - \tab 2832 \cr
+   2006 \tab 2992 \tab 963 \tab 346 \tab 53 \tab 139 \tab 4 \tab 13 \tab 4510 \cr
+   2016 \tab 1390 \tab 921 \tab 318 \tab 67 \tab 152 \tab 10 \tab 9 \tab 2867 \cr
+   Total \tab 5991 \tab 2556 \tab 989 \tab 189 \tab 411 \tab 51 \tab 22 \tab 10209 \cr
+}
 }
 
 \seealso{

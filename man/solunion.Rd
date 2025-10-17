@@ -23,15 +23,21 @@ E. Labor unions
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/984/vshow}{GSS Data Explorer page for \code{solunion}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1987 \tab 1550 \tab 146 \tab 76 \tab 8 \tab 39 \tab 1819 \cr
+   Total \tab 1550 \tab 146 \tab 76 \tab 8 \tab 39 \tab 1819 \cr
+}
 }
 
 \seealso{

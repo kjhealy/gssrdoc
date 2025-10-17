@@ -29,20 +29,28 @@ Question B. When you were growing up, how often did your father (FATHER SUBSTITU
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989 \cr
+   A/B/C \tab 1988 \cr
+   Full \tab 1983, 1984, 1985, 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/296/vshow}{GSS Data Explorer page for \code{paattend}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab never \tab lt once a year \tab once a year \tab sevrl times a yr \tab once a month \tab 2-3x a month \tab nrly every week \tab every week \tab more thn once wk \tab don't know \tab Total \cr
+   1983 \tab 207 \tab 279 \tab 77 \tab 133 \tab 125 \tab 58 \tab 79 \tab 84 \tab 441 \tab 89 \tab 27 \tab 1599 \cr
+   1984 \tab 202 \tab 237 \tab 61 \tab 145 \tab 99 \tab 72 \tab 77 \tab 51 \tab 415 \tab 92 \tab 22 \tab 1473 \cr
+   1985 \tab 194 \tab 265 \tab 61 \tab 134 \tab 100 \tab 57 \tab 68 \tab 53 \tab 474 \tab 119 \tab 9 \tab 1534 \cr
+   1986 \tab 222 \tab 270 \tab 46 \tab 129 \tab 97 \tab 63 \tab 64 \tab 67 \tab 407 \tab 90 \tab 15 \tab 1470 \cr
+   1988 \tab 202 \tab 253 \tab 70 \tab 123 \tab 88 \tab 72 \tab 70 \tab 104 \tab 397 \tab 84 \tab 18 \tab 1481 \cr
+   1989 \tab 658 \tab 190 \tab 37 \tab 92 \tab 54 \tab 37 \tab 51 \tab 45 \tab 303 \tab 59 \tab 11 \tab 1537 \cr
+   Total \tab 1685 \tab 1494 \tab 352 \tab 756 \tab 563 \tab 359 \tab 409 \tab 404 \tab 2437 \tab 533 \tab 102 \tab 9094 \cr
+}
 }
 
 \seealso{

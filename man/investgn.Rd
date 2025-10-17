@@ -25,16 +25,23 @@ B. Invested money in a stock or mutual fund?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2533/vshow}{GSS Data Explorer page for \code{investgn}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab Total \cr
+   2000 \tab 1884 \tab 606 \tab 166 \tab 143 \tab 18 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1372 \tab 974 \tab 178 \tab 76 \tab 7 \tab 150 \tab 8 \tab 2765 \cr
+   Total \tab 3256 \tab 1580 \tab 344 \tab 219 \tab 25 \tab 150 \tab 8 \tab 5582 \cr
+}
 }
 
 \seealso{

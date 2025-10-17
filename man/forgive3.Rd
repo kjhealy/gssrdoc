@@ -25,15 +25,21 @@ C. I know thatd forgives me.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2107/vshow}{GSS Data Explorer page for \code{forgive3}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab alwys/almst alwy \tab often \tab seldom \tab never \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 1044 \tab 245 \tab 46 \tab 68 \tab 5 \tab 37 \tab 2832 \cr
+   Total \tab 1387 \tab 1044 \tab 245 \tab 46 \tab 68 \tab 5 \tab 37 \tab 2832 \cr
+}
 }
 
 \seealso{

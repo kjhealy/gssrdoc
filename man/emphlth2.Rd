@@ -23,15 +23,21 @@ Question Which of the following statements best describes your employerâ€™s
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3929/vshow}{GSS Data Explorer page for \code{emphlth2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab only individual employees are covered \tab employees and their spouses are covered but domestic partners are not covered \tab employees and their spouses are covered and domestic partners are covered \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1945 \tab 14 \tab 27 \tab 8 \tab 3 \tab 26 \tab 2023 \cr
+   Total \tab 1945 \tab 14 \tab 27 \tab 8 \tab 3 \tab 26 \tab 2023 \cr
+}
 }
 
 \seealso{

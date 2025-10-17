@@ -28,15 +28,21 @@ A. How often do you see or visit with your sister?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4136/vshow}{GSS Data Explorer page for \code{sisvisit}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 413 \tab 25 \tab 67 \tab 95 \tab 145 \tab 214 \tab 229 \tab 272 \tab 1 \tab 9 \tab 1470 \cr
+   Total \tab 413 \tab 25 \tab 67 \tab 95 \tab 145 \tab 214 \tab 229 \tab 272 \tab 1 \tab 9 \tab 1470 \cr
+}
 }
 
 \seealso{

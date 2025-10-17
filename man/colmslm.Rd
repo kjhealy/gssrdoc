@@ -23,23 +23,28 @@ B. Should such a person be allowed to teach in a college or university, or not?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/265/vshow}{GSS Data Explorer page for \code{colmslm}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, allowed to teach \tab not allowed \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2008 \tab 671 \tab 405 \tab 916 \tab 25 \tab 6 \tab - \tab 2023 \cr
+   2010 \tab 763 \tab 411 \tab 843 \tab 21 \tab 6 \tab - \tab 2044 \cr
+   2012 \tab 666 \tab 425 \tab 845 \tab 30 \tab 8 \tab - \tab 1974 \cr
+   2014 \tab 824 \tab 559 \tab 1127 \tab 19 \tab 9 \tab - \tab 2538 \cr
+   2016 \tab 977 \tab 627 \tab 1225 \tab 26 \tab 12 \tab - \tab 2867 \cr
+   2018 \tab 774 \tab 508 \tab 1023 \tab 33 \tab 10 \tab - \tab 2348 \cr
+   2021 \tab 1357 \tab 874 \tab 1772 \tab 5 \tab - \tab 24 \tab 4032 \cr
+   2022 \tab 1203 \tab 735 \tab 1544 \tab 39 \tab 6 \tab 17 \tab 3544 \cr
+   Total \tab 7235 \tab 4544 \tab 9295 \tab 198 \tab 57 \tab 41 \tab 21370 \cr
+}
 }
 
 \seealso{

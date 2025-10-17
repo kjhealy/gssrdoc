@@ -25,22 +25,31 @@ A. Provide a job for everyone who wants one.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1989, 1990, 1991, 1996, 1998 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4076/vshow}{GSS Data Explorer page for \code{jobsall}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 88 \tab 134 \tab 214 \tab 202 \tab 29 \tab 10 \tab 1534 \cr
+   1989 \tab 84 \tab 239 \tab 388 \tab 384 \tab 312 \tab 86 \tab 44 \tab 1537 \cr
+   1990 \tab 155 \tab 178 \tab 312 \tab 375 \tab 253 \tab 55 \tab 44 \tab 1372 \cr
+   1991 \tab 158 \tab 242 \tab 330 \tab 333 \tab 362 \tab 71 \tab 21 \tab 1517 \cr
+   1996 \tab 1572 \tab 167 \tab 317 \tab 400 \tab 343 \tab 48 \tab 57 \tab 2904 \cr
+   1998 \tab 1548 \tab 152 \tab 299 \tab 322 \tab 414 \tab 84 \tab 13 \tab 2832 \cr
+   2006 \tab 2992 \tab 239 \tab 356 \tab 521 \tab 388 \tab 14 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 162 \tab 333 \tab 479 \tab 390 \tab 17 \tab 9 \tab 2867 \cr
+   Total \tab 8843 \tab 1467 \tab 2469 \tab 3028 \tab 2664 \tab 404 \tab 198 \tab 19073 \cr
+}
 }
 
 \seealso{

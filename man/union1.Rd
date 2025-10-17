@@ -24,19 +24,24 @@ Question Do you (or your spouse or partner) belong to a labor union? (Who?)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
-   2018 \tab B/C \tab partial \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6180/vshow}{GSS Data Explorer page for \code{union1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes, respondent belongs \tab yes, spouse or partner belongs \tab yes, both belong \tab no, neither belong \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2016 \tab 913 \tab 153 \tab 75 \tab 17 \tab 1702 \tab 5 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab 785 \tab 137 \tab 40 \tab 17 \tab 1360 \tab 7 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 1371 \tab 202 \tab 100 \tab 49 \tab 2301 \tab 1 \tab - \tab 8 \tab 4032 \cr
+   2022 \tab 1174 \tab 192 \tab 55 \tab 31 \tab 2071 \tab 8 \tab 4 \tab 9 \tab 3544 \cr
+   Total \tab 4243 \tab 684 \tab 270 \tab 114 \tab 7434 \tab 21 \tab 8 \tab 17 \tab 12791 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ C. Did you meet the third name in one of these groups or did you meet somewhere 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3305/vshow}{GSS Data Explorer page for \code{frstmet3}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes, one of these groups \tab no, somewhere else \tab no answer \tab Total \cr
+   2004 \tab 2718 \tab 23 \tab 23 \tab 48 \tab 2812 \cr
+   Total \tab 2718 \tab 23 \tab 23 \tab 48 \tab 2812 \cr
+}
 }
 
 \seealso{

@@ -30,15 +30,21 @@ Question E. Which problem, if any, affects you and your family the most?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4804/vshow}{GSS Data Explorer page for \code{enprbfam}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab air pollution \tab chemicals and pesticides \tab water shortage \tab water pollution \tab nuclear waste \tab domestic waste disposal \tab climate change \tab genetically modified foods \tab using up our natural resources \tab none of these \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 614 \tab 300 \tab 159 \tab 71 \tab 124 \tab 15 \tab 65 \tab 85 \tab 132 \tab 150 \tab 123 \tab 199 \tab 7 \tab 2044 \cr
+   Total \tab 614 \tab 300 \tab 159 \tab 71 \tab 124 \tab 15 \tab 65 \tab 85 \tab 132 \tab 150 \tab 123 \tab 199 \tab 7 \tab 2044 \cr
+}
 }
 
 \seealso{

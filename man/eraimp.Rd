@@ -24,15 +24,21 @@ Question How important is the Equal Rights Amendment issue to you--would you say
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/714/vshow}{GSS Data Explorer page for \code{eraimp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not important \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 223 \tab 815 \tab 565 \tab 213 \tab 39 \tab 5 \tab 1860 \cr
+   Total \tab 0 \tab 223 \tab 815 \tab 565 \tab 213 \tab 39 \tab 5 \tab 1860 \cr
+}
 }
 
 \seealso{

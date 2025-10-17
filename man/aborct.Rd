@@ -22,15 +22,21 @@ Question Have you heard or read of the recent Supreme Court decision concerning 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/608/vshow}{GSS Data Explorer page for \code{aborct}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 1288 \tab 204 \tab 11 \tab 1 \tab 1504 \cr
+   Total \tab 0 \tab 1288 \tab 204 \tab 11 \tab 1 \tab 1504 \cr
+}
 }
 
 \seealso{

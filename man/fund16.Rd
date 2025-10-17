@@ -23,47 +23,54 @@ Question Fundamentalism/Liberalism of Respondent's Religion
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   Full \tab 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/347/vshow}{GSS Data Explorer page for \code{fund16}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab Total \cr
+   1973 \tab - \tab 442 \tab 807 \tab 217 \tab 38 \tab 1504 \cr
+   1974 \tab - \tab 451 \tab 789 \tab 225 \tab 19 \tab 1484 \cr
+   1975 \tab - \tab 449 \tab 831 \tab 193 \tab 17 \tab 1490 \cr
+   1976 \tab - \tab 432 \tab 808 \tab 237 \tab 22 \tab 1499 \cr
+   1977 \tab - \tab 477 \tab 812 \tab 215 \tab 26 \tab 1530 \cr
+   1978 \tab - \tab 485 \tab 823 \tab 202 \tab 22 \tab 1532 \cr
+   1980 \tab - \tab 439 \tab 771 \tab 230 \tab 28 \tab 1468 \cr
+   1982 \tab - \tab 664 \tab 902 \tab 257 \tab 37 \tab 1860 \cr
+   1983 \tab - \tab 481 \tab 856 \tab 241 \tab 21 \tab 1599 \cr
+   1984 \tab - \tab 495 \tab 585 \tab 334 \tab 59 \tab 1473 \cr
+   1985 \tab - \tab 513 \tab 620 \tab 381 \tab 20 \tab 1534 \cr
+   1986 \tab - \tab 523 \tab 575 \tab 335 \tab 37 \tab 1470 \cr
+   1987 \tab - \tab 785 \tab 604 \tab 363 \tab 67 \tab 1819 \cr
+   1988 \tab - \tab 509 \tab 570 \tab 361 \tab 41 \tab 1481 \cr
+   1989 \tab - \tab 482 \tab 659 \tab 350 \tab 46 \tab 1537 \cr
+   1990 \tab - \tab 426 \tab 552 \tab 352 \tab 42 \tab 1372 \cr
+   1991 \tab - \tab 504 \tab 630 \tab 354 \tab 29 \tab 1517 \cr
+   1993 \tab - \tab 559 \tab 609 \tab 389 \tab 49 \tab 1606 \cr
+   1994 \tab - \tab 973 \tab 1251 \tab 662 \tab 106 \tab 2992 \cr
+   1996 \tab - \tab 903 \tab 1165 \tab 721 \tab 115 \tab 2904 \cr
+   1998 \tab - \tab 890 \tab 1111 \tab 697 \tab 134 \tab 2832 \cr
+   2000 \tab - \tab 919 \tab 1132 \tab 660 \tab 106 \tab 2817 \cr
+   2002 \tab - \tab 882 \tab 1092 \tab 690 \tab 101 \tab 2765 \cr
+   2004 \tab - \tab 848 \tab 1179 \tab 693 \tab 92 \tab 2812 \cr
+   2006 \tab 1518 \tab 926 \tab 1248 \tab 706 \tab 112 \tab 4510 \cr
+   2008 \tab - \tab 630 \tab 832 \tab 484 \tab 77 \tab 2023 \cr
+   2010 \tab - \tab 593 \tab 904 \tab 465 \tab 82 \tab 2044 \cr
+   2012 \tab - \tab 552 \tab 906 \tab 441 \tab 75 \tab 1974 \cr
+   2014 \tab - \tab 736 \tab 1176 \tab 541 \tab 85 \tab 2538 \cr
+   2016 \tab - \tab 827 \tab 1296 \tab 625 \tab 119 \tab 2867 \cr
+   2018 \tab - \tab 677 \tab 1037 \tab 537 \tab 97 \tab 2348 \cr
+   2021 \tab - \tab 837 \tab 1829 \tab 1092 \tab 274 \tab 4032 \cr
+   2022 \tab - \tab 830 \tab 1675 \tab 822 \tab 217 \tab 3544 \cr
+   Total \tab 1518 \tab 21139 \tab 30636 \tab 15072 \tab 2412 \tab 70777 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ E. What about family and personal relationships?  During the last year, did you
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5177/vshow}{GSS Data Explorer page for \code{famper6}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2004 \tab 1472 \tab 48 \tab 1285 \tab 7 \tab 2812 \cr
+   Total \tab 1472 \tab 48 \tab 1285 \tab 7 \tab 2812 \cr
+}
 }
 
 \seealso{

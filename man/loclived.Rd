@@ -25,15 +25,21 @@ Question How long have you been living here in this community of (MENTION NAME O
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1021/vshow}{GSS Data Explorer page for \code{loclived}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab lt 1 year \tab 1-3 years \tab 4-10 years \tab gt 10 but lt life \tab entire life \tab no answer \tab Total \cr
+   1987 \tab - \tab 172 \tab 268 \tab 314 \tab 718 \tab 339 \tab 8 \tab 1819 \cr
+   Total \tab 0 \tab 172 \tab 268 \tab 314 \tab 718 \tab 339 \tab 8 \tab 1819 \cr
+}
 }
 
 \seealso{

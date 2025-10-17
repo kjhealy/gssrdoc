@@ -26,15 +26,21 @@ A. So sad nothing could cheer you up.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2114/vshow}{GSS Data Explorer page for \code{nocheer}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab all of the time \tab most of the time \tab some of the time \tab little of time \tab none of the time \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1387 \tab 22 \tab 68 \tab 242 \tab 412 \tab 686 \tab 2 \tab 13 \tab 2832 \cr
+   Total \tab 1387 \tab 22 \tab 68 \tab 242 \tab 412 \tab 686 \tab 2 \tab 13 \tab 2832 \cr
+}
 }
 
 \seealso{

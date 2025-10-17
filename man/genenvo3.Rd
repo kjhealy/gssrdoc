@@ -21,15 +21,21 @@ Question (The description of the third person presented to the respondent - plea
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3034/vshow}{GSS Data Explorer page for \code{genenvo3}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 432 \tab 155 \tab 239 \tab 185 \tab 153 \tab 45 \tab 64 \tab 203 \tab 78 \tab 98 \tab 147 \tab 73 \tab 43 \tab 93 \tab 296 \tab 50 \tab 57 \tab 144 \tab 44 \tab 55 \tab 66 \tab 60 \tab 18 \tab 14 \tab 2812 \cr
+   Total \tab 432 \tab 155 \tab 239 \tab 185 \tab 153 \tab 45 \tab 64 \tab 203 \tab 78 \tab 98 \tab 147 \tab 73 \tab 43 \tab 93 \tab 296 \tab 50 \tab 57 \tab 144 \tab 44 \tab 55 \tab 66 \tab 60 \tab 18 \tab 14 \tab 2812 \cr
+}
 }
 
 \seealso{

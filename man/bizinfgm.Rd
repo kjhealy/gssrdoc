@@ -25,15 +25,21 @@ C. Business leaders. (Would you say a great deal of influence, a fair amount, a 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3393/vshow}{GSS Data Explorer page for \code{bizinfgm}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab Total \cr
+   2006 \tab 3574 \tab 41 \tab 156 \tab 369 \tab 317 \tab 53 \tab 4510 \cr
+   Total \tab 3574 \tab 41 \tab 156 \tab 369 \tab 317 \tab 53 \tab 4510 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ Question During the past 4 weeks, how much of the time has your physical health 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2687/vshow}{GSS Data Explorer page for \code{socacts}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab all of the time \tab most of the time \tab a good bit of the time \tab some of the time \tab a little bit of the time \tab non of the time \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 40 \tab 49 \tab 52 \tab 134 \tab 196 \tab 936 \tab 12 \tab 2817 \cr
+   Total \tab 1398 \tab 40 \tab 49 \tab 52 \tab 134 \tab 196 \tab 936 \tab 12 \tab 2817 \cr
+}
 }
 
 \seealso{

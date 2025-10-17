@@ -39,15 +39,21 @@ B. And who would you turn to second if you felt a bit down or depressed and want
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4219/vshow}{GSS Data Explorer page for \code{down2a}}.
+
+Counts by year:\tabular{llllllllllllllllllllll}{
+   year \tab iap \tab husband, wife, partner \tab mother \tab father \tab daughter \tab son \tab sister \tab brother \tab other blood relative \tab other in-law relative \tab close friend \tab neighbor \tab someone you work with \tab priest or member of the clergy \tab family doctor \tab a psychologist or other professional counselor \tab someone else \tab no one \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 125 \tab 135 \tab 42 \tab 89 \tab 36 \tab 110 \tab 62 \tab 35 \tab 37 \tab 281 \tab 13 \tab 32 \tab 2 \tab 9 \tab 5 \tab 38 \tab 86 \tab 5 \tab 7 \tab 2765 \cr
+   Total \tab 1616 \tab 125 \tab 135 \tab 42 \tab 89 \tab 36 \tab 110 \tab 62 \tab 35 \tab 37 \tab 281 \tab 13 \tab 32 \tab 2 \tab 9 \tab 5 \tab 38 \tab 86 \tab 5 \tab 7 \tab 2765 \cr
+}
 }
 
 \seealso{

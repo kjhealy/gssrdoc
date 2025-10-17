@@ -23,15 +23,21 @@ A. The Bible
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1085/vshow}{GSS Data Explorer page for \code{decbible}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab 2 \tab 3 \tab 4 \tab not very important \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 505 \tab 204 \tab 320 \tab 181 \tab 260 \tab 6 \tab 5 \tab 1481 \cr
+   Total \tab 0 \tab 505 \tab 204 \tab 320 \tab 181 \tab 260 \tab 6 \tab 5 \tab 1481 \cr
+}
 }
 
 \seealso{

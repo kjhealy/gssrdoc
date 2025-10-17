@@ -40,45 +40,53 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5344/vshow}{GSS Data Explorer page for \code{relate3}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab spouse \tab child (natural, adopted, step) \tab son-/daughter-in-law \tab grand/great-grandchild \tab parent/parent-in-law \tab other relative \tab non-relative \tab no answer \tab head of household \tab Total \cr
+   1975 \tab 656 \tab 3 \tab 768 \tab 6 \tab 7 \tab 11 \tab 17 \tab 22 \tab - \tab - \tab 1490 \cr
+   1976 \tab 1134 \tab 2 \tab 333 \tab 1 \tab 7 \tab 5 \tab 9 \tab 8 \tab - \tab - \tab 1499 \cr
+   1977 \tab 724 \tab 3 \tab 742 \tab 2 \tab 11 \tab 18 \tab 16 \tab 9 \tab 5 \tab - \tab 1530 \cr
+   1978 \tab 749 \tab 3 \tab 714 \tab 4 \tab 9 \tab 11 \tab 18 \tab 17 \tab 7 \tab - \tab 1532 \cr
+   1980 \tab 780 \tab - \tab 597 \tab 8 \tab 10 \tab 11 \tab 14 \tab 24 \tab 24 \tab - \tab 1468 \cr
+   1982 \tab 991 \tab 5 \tab 766 \tab 5 \tab 27 \tab 18 \tab 16 \tab 20 \tab 12 \tab - \tab 1860 \cr
+   1983 \tab 797 \tab 7 \tab 723 \tab 5 \tab 14 \tab 10 \tab 21 \tab 17 \tab 3 \tab 2 \tab 1599 \cr
+   1984 \tab 783 \tab 5 \tab 619 \tab 1 \tab 10 \tab 11 \tab 11 \tab 25 \tab 8 \tab - \tab 1473 \cr
+   1985 \tab 844 \tab 9 \tab 625 \tab 2 \tab 5 \tab 13 \tab 10 \tab 22 \tab 4 \tab - \tab 1534 \cr
+   1986 \tab 768 \tab 8 \tab 612 \tab 6 \tab 12 \tab 14 \tab 15 \tab 29 \tab 6 \tab - \tab 1470 \cr
+   1987 \tab 948 \tab 10 \tab 707 \tab 2 \tab 27 \tab 11 \tab 28 \tab 47 \tab 37 \tab 2 \tab 1819 \cr
+   1988 \tab 847 \tab 3 \tab 548 \tab 2 \tab 14 \tab 9 \tab 27 \tab 22 \tab 9 \tab - \tab 1481 \cr
+   1989 \tab 834 \tab 8 \tab 592 \tab 6 \tab 12 \tab 4 \tab 11 \tab 29 \tab 40 \tab 1 \tab 1537 \cr
+   1990 \tab 810 \tab 4 \tab 491 \tab 5 \tab 10 \tab 6 \tab 17 \tab 23 \tab 6 \tab - \tab 1372 \cr
+   1991 \tab 849 \tab 5 \tab 577 \tab 1 \tab 10 \tab 10 \tab 22 \tab 34 \tab 9 \tab - \tab 1517 \cr
+   1993 \tab 895 \tab 5 \tab 630 \tab 7 \tab 9 \tab 11 \tab 17 \tab 28 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab 1751 \tab 13 \tab 1094 \tab 4 \tab 23 \tab 21 \tab 32 \tab 47 \tab 7 \tab - \tab 2992 \cr
+   1996 \tab 1729 \tab 13 \tab 970 \tab 10 \tab 21 \tab 20 \tab 24 \tab 63 \tab 54 \tab - \tab 2904 \cr
+   1998 \tab 1713 \tab 23 \tab 923 \tab 10 \tab 15 \tab 12 \tab 32 \tab 56 \tab 48 \tab - \tab 2832 \cr
+   2000 \tab 1668 \tab - \tab 924 \tab 10 \tab 33 \tab 29 \tab 37 \tab 56 \tab 60 \tab - \tab 2817 \cr
+   2002 \tab 1815 \tab - \tab 774 \tab 15 \tab 39 \tab 13 \tab 40 \tab 63 \tab 6 \tab - \tab 2765 \cr
+   2004 \tab 1780 \tab - \tab 899 \tab 11 \tab 34 \tab 24 \tab 29 \tab 31 \tab 4 \tab - \tab 2812 \cr
+   2006 \tab 2778 \tab - \tab 1495 \tab 9 \tab 44 \tab 45 \tab 52 \tab 84 \tab 3 \tab - \tab 4510 \cr
+   2008 \tab 1221 \tab - \tab 684 \tab 1 \tab 34 \tab 18 \tab 33 \tab 29 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 1319 \tab - \tab 600 \tab 10 \tab 26 \tab 15 \tab 26 \tab 45 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 1259 \tab - \tab 583 \tab 3 \tab 14 \tab 20 \tab 47 \tab 41 \tab 7 \tab - \tab 1974 \cr
+   2014 \tab 1642 \tab - \tab 743 \tab 8 \tab 21 \tab 22 \tab 29 \tab 68 \tab 5 \tab - \tab 2538 \cr
+   2016 \tab 1919 \tab - \tab 765 \tab 14 \tab 37 \tab 33 \tab 37 \tab 59 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab 1561 \tab - \tab 651 \tab 7 \tab 28 \tab 23 \tab 31 \tab 46 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 43140 \tab 129 \tab 21149 \tab 175 \tab 563 \tab 468 \tab 718 \tab 1064 \tab 378 \tab 5 \tab 67789 \cr
+}
 }
 
 \seealso{

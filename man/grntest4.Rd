@@ -25,17 +25,23 @@ D. Every time we use coal or oil or gas, we contribute to the greenhouse effect.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4749/vshow}{GSS Data Explorer page for \code{grntest4}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 264 \tab 680 \tab 287 \tab 51 \tab 191 \tab 84 \tab 1606 \cr
+   1994 \tab 1606 \tab 186 \tab 629 \tab 286 \tab 57 \tab 185 \tab 43 \tab 2992 \cr
+   2000 \tab 1541 \tab 215 \tab 527 \tab 230 \tab 56 \tab 184 \tab 64 \tab 2817 \cr
+   Total \tab 3196 \tab 665 \tab 1836 \tab 803 \tab 164 \tab 560 \tab 191 \tab 7415 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ K. Having physical health or emotional problems interfere with you social life, 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2709/vshow}{GSS Data Explorer page for \code{wait11}}.
+
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab iap \tab zero days \tab 1 \tab 11 \tab 12 \tab 14 \tab 2 \tab 3 \tab 30 \tab 4 \tab 5 \tab 6 \tab 7 \tab some days \tab some weeks \tab some months \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1922 \tab 9 \tab 265 \tab 1 \tab 3 \tab 1 \tab 179 \tab 33 \tab 1 \tab 16 \tab 7 \tab 9 \tab 6 \tab 23 \tab 48 \tab 25 \tab 3 \tab 266 \tab 2817 \cr
+   Total \tab 1922 \tab 9 \tab 265 \tab 1 \tab 3 \tab 1 \tab 179 \tab 33 \tab 1 \tab 16 \tab 7 \tab 9 \tab 6 \tab 23 \tab 48 \tab 25 \tab 3 \tab 266 \tab 2817 \cr
+}
 }
 
 \seealso{

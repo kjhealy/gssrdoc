@@ -23,22 +23,26 @@ As of 2024, BABIES_EXP has been recoded to only account for 0 to 2+ children you
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7998/vshow}{GSS Data Explorer page for \code{babies_exp}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 household members under 6 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 1788 \tab 1457 \tab 178 \tab 73 \tab 22 \tab 8 \tab 1 \tab 9 \tab 8 \tab 3544 \cr
+   Total \tab 1788 \tab 1457 \tab 178 \tab 73 \tab 22 \tab 8 \tab 1 \tab 9 \tab 8 \tab 3544 \cr
+}
 }
 
 \seealso{
 Other Core: 
-\code{\link{preteen_exp}},
-\code{\link{teens_exp}}
+\code{\link{hompop_exp}}
 }
 \concept{Core}
 \keyword{variable}

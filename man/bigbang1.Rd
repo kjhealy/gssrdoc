@@ -22,17 +22,24 @@ Question According to astronomers, the universe began with a huge explosion. (Is
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
-   2016 \tab B/- \tab partial \cr
-   2018 \tab B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/- \tab 2016, 2018 \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3548/vshow}{GSS Data Explorer page for \code{bigbang1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1489 \tab 287 \tab 85 \tab 109 \tab 4 \tab 1974 \cr
+   2016 \tab 2388 \tab 320 \tab 80 \tab 75 \tab 4 \tab 2867 \cr
+   2018 \tab 1958 \tab 255 \tab 83 \tab 52 \tab - \tab 2348 \cr
+   Total \tab 5835 \tab 862 \tab 248 \tab 236 \tab 8 \tab 7189 \cr
+}
 }
 
 \seealso{

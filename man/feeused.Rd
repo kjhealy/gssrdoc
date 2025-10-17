@@ -23,27 +23,34 @@ Question Was a respondent incentive or fee used as part of getting this case?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5560/vshow}{GSS Data Explorer page for \code{feeused}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, money \tab yes, other (flowers, food, etc.) \tab no \tab no answer \tab don't know \tab not available in this release \tab Total \cr
+   1998 \tab - \tab 1432 \tab 93 \tab 1253 \tab 54 \tab - \tab - \tab 2832 \cr
+   2000 \tab - \tab 1695 \tab 58 \tab 966 \tab 98 \tab - \tab - \tab 2817 \cr
+   2002 \tab - \tab 2339 \tab 46 \tab 367 \tab 13 \tab - \tab - \tab 2765 \cr
+   2004 \tab - \tab 1233 \tab 14 \tab 1553 \tab 12 \tab - \tab - \tab 2812 \cr
+   2006 \tab - \tab 2160 \tab 81 \tab 2262 \tab 7 \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 1199 \tab 17 \tab 804 \tab 3 \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 1336 \tab 20 \tab 672 \tab 12 \tab 4 \tab - \tab 2044 \cr
+   2012 \tab - \tab 1193 \tab 20 \tab 750 \tab 5 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab - \tab 1513 \tab 92 \tab 925 \tab 5 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab - \tab 2147 \tab 102 \tab 603 \tab 11 \tab 4 \tab - \tab 2867 \cr
+   2018 \tab - \tab 1953 \tab 5 \tab 295 \tab 10 \tab 85 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 3544 \tab 18200 \tab 548 \tab 10450 \tab 230 \tab 102 \tab 4032 \tab 37106 \cr
+}
 }
 
 \seealso{

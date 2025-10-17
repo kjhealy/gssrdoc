@@ -25,17 +25,23 @@ Question B. Was she Orthodox, Conservative, Reform, or none of these?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1061/vshow}{GSS Data Explorer page for \code{majew}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab orthodox \tab conservative \tab reform \tab none of these \tab don't know \tab no answer \tab Total \cr
+   1988 \tab 1444 \tab 8 \tab 14 \tab 7 \tab 1 \tab 1 \tab 6 \tab 1481 \cr
+   2008 \tab 1983 \tab 7 \tab 14 \tab 12 \tab 6 \tab 1 \tab - \tab 2023 \cr
+   2012 \tab 1945 \tab 5 \tab 5 \tab 14 \tab 5 \tab - \tab - \tab 1974 \cr
+   Total \tab 5372 \tab 20 \tab 33 \tab 33 \tab 12 \tab 2 \tab 6 \tab 5478 \cr
+}
 }
 
 \seealso{

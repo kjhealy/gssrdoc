@@ -26,17 +26,23 @@ H. Both the husband and the wife should contribute to the household income.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1994, 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4350/vshow}{GSS Data Explorer page for \code{twoincs}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 210 \tab 463 \tab 414 \tab 223 \tab 44 \tab 31 \tab 29 \tab 1481 \cr
+   1994 \tab 1545 \tab 277 \tab 527 \tab 417 \tab 157 \tab 17 \tab 26 \tab 26 \tab 2992 \cr
+   1996 \tab 1444 \tab 440 \tab 536 \tab 303 \tab 138 \tab 24 \tab 17 \tab 2 \tab 2904 \cr
+   Total \tab 3056 \tab 927 \tab 1526 \tab 1134 \tab 518 \tab 85 \tab 74 \tab 57 \tab 7377 \cr
+}
 }
 
 \seealso{

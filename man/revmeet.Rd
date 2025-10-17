@@ -24,16 +24,22 @@ Question Should people who want to overthrow the government by force be allowed 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4918/vshow}{GSS Data Explorer page for \code{revmeet}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab should definitely be allowed \tab should probably be allowed \tab should probably not be allowed \tab should definitely not be allowed \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 180 \tab 260 \tab 297 \tab 709 \tab 21 \tab 5 \tab 2812 \cr
+   2014 \tab 1274 \tab 196 \tab 223 \tab 244 \tab 512 \tab 86 \tab 3 \tab 2538 \cr
+   Total \tab 2614 \tab 376 \tab 483 \tab 541 \tab 1221 \tab 107 \tab 8 \tab 5350 \cr
+}
 }
 
 \seealso{

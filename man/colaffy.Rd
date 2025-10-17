@@ -23,15 +23,21 @@ Question A. What do you think the chances are these days that a white person won
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1623/vshow}{GSS Data Explorer page for \code{colaffy}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not likely \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2275 \tab 191 \tab 290 \tab 194 \tab 35 \tab 7 \tab 2992 \cr
+   Total \tab 2275 \tab 191 \tab 290 \tab 194 \tab 35 \tab 7 \tab 2992 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ D. A marriage without children is not fully complete.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4383/vshow}{GSS Data Explorer page for \code{kidless}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 196 \tab 427 \tab 324 \tab 305 \tab 102 \tab 44 \tab 16 \tab 1481 \cr
+   Total \tab 67 \tab 196 \tab 427 \tab 324 \tab 305 \tab 102 \tab 44 \tab 16 \tab 1481 \cr
+}
 }
 
 \seealso{

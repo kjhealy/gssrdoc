@@ -24,15 +24,21 @@ Question In general, how close do you feel to God?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3093/vshow}{GSS Data Explorer page for \code{godclose}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all close \tab somewhat close \tab very close \tab as close as possible \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 1472 \tab 143 \tab 478 \tab 473 \tab 223 \tab 6 \tab 17 \tab 2812 \cr
+   Total \tab 1472 \tab 143 \tab 478 \tab 473 \tab 223 \tab 6 \tab 17 \tab 2812 \cr
+}
 }
 
 \seealso{

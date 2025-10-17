@@ -22,15 +22,21 @@ Question Many people who want to volunteer for service in the armed forces Do no
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/820/vshow}{GSS Data Explorer page for \code{upgrade}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab refuse to accept \tab accept & educate \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 245 \tab 1176 \tab 27 \tab 25 \tab 1473 \cr
+   Total \tab 0 \tab 245 \tab 1176 \tab 27 \tab 25 \tab 1473 \cr
+}
 }
 
 \seealso{

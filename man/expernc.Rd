@@ -26,15 +26,21 @@ C. The experience of the employee in doing the work
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4498/vshow}{GSS Data Explorer page for \code{expernc}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab not available in this year \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab iap \tab Total \cr
+   1989 \tab - \tab 121 \tab 483 \tab 286 \tab 207 \tab 53 \tab 387 \tab - \tab 1537 \cr
+   Total \tab 0 \tab 121 \tab 483 \tab 286 \tab 207 \tab 53 \tab 387 \tab 0 \tab 1537 \cr
+}
 }
 
 \seealso{

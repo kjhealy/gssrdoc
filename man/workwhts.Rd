@@ -26,31 +26,37 @@ B. The second set of characteristics asks if people in the group tend to be hard
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/- \tab partial \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1996, 1998, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C \tab 1990, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1184/vshow}{GSS Data Explorer page for \code{workwhts}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 1 - hard-working \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 - lazy \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   1990 \tab - \tab 122 \tab 239 \tab 381 \tab 482 \tab 57 \tab 16 \tab 6 \tab 44 \tab 25 \tab - \tab 1372 \cr
+   1994 \tab 1518 \tab 111 \tab 255 \tab 381 \tab 553 \tab 78 \tab 31 \tab 14 \tab 33 \tab 18 \tab - \tab 2992 \cr
+   1996 \tab 1935 \tab 42 \tab 105 \tab 230 \tab 412 \tab 108 \tab 21 \tab 8 \tab 36 \tab 7 \tab - \tab 2904 \cr
+   1998 \tab 961 \tab 84 \tab 203 \tab 442 \tab 843 \tab 152 \tab 54 \tab 17 \tab 66 \tab 10 \tab - \tab 2832 \cr
+   2000 \tab 486 \tab 170 \tab 305 \tab 548 \tab 966 \tab 181 \tab 47 \tab 14 \tab 74 \tab 26 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 71 \tab 112 \tab 251 \tab 369 \tab 64 \tab 6 \tab 6 \tab 22 \tab 7 \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 47 \tab 97 \tab 186 \tab 460 \tab 73 \tab 15 \tab 12 \tab 13 \tab 3 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 116 \tab 196 \tab 494 \tab 880 \tab 180 \tab 48 \tab 17 \tab 47 \tab 14 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 91 \tab 122 \tab 279 \tab 613 \tab 129 \tab 30 \tab 16 \tab 32 \tab 17 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 73 \tab 127 \tab 320 \tab 677 \tab 134 \tab 38 \tab 16 \tab 33 \tab 12 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 82 \tab 133 \tab 266 \tab 637 \tab 113 \tab 29 \tab 10 \tab 19 \tab 13 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 102 \tab 172 \tab 361 \tab 848 \tab 110 \tab 36 \tab 17 \tab 17 \tab 12 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 102 \tab 185 \tab 402 \tab 943 \tab 165 \tab 40 \tab 21 \tab 17 \tab 13 \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 77 \tab 147 \tab 303 \tab 785 \tab 158 \tab 30 \tab 21 \tab 17 \tab 21 \tab - \tab 2348 \cr
+   2021 \tab 1315 \tab 160 \tab 231 \tab 590 \tab 1373 \tab 229 \tab 50 \tab 49 \tab 8 \tab 2 \tab 25 \tab 4032 \cr
+   2022 \tab 1168 \tab 162 \tab 163 \tab 422 \tab 1234 \tab 232 \tab 53 \tab 54 \tab 30 \tab 17 \tab 9 \tab 3544 \cr
+   Total \tab 18275 \tab 1612 \tab 2792 \tab 5856 \tab 12075 \tab 2163 \tab 544 \tab 298 \tab 508 \tab 217 \tab 34 \tab 44374 \cr
+}
 }
 
 \seealso{

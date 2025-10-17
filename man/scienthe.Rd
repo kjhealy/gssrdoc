@@ -24,19 +24,27 @@ Question E. Scientists are helping to solve challenging problems. Do you strongl
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2022 \cr
+   B/C/- \tab 2012, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3515/vshow}{GSS Data Explorer page for \code{scienthe}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 1457 \tab 116 \tab 377 \tab 2 \tab 1 \tab 18 \tab 3 \tab - \tab 1974 \cr
+   2016 \tab 1477 \tab 371 \tab 930 \tab 52 \tab 9 \tab 19 \tab 9 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 324 \tab 767 \tab 66 \tab 5 \tab 12 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 2155 \tab 653 \tab 1092 \tab 97 \tab 13 \tab 3 \tab 1 \tab 18 \tab 4032 \cr
+   2022 \tab 2309 \tab 428 \tab 738 \tab 54 \tab 9 \tab - \tab - \tab 6 \tab 3544 \cr
+   Total \tab 8571 \tab 1892 \tab 3904 \tab 271 \tab 37 \tab 52 \tab 14 \tab 24 \tab 14765 \cr
+}
 }
 
 \seealso{

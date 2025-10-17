@@ -25,15 +25,21 @@ B. If the family has a very low income and cannot afford any more children.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4634/vshow}{GSS Data Explorer page for \code{abpoor1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should allow it \tab probably should allow it \tab probably should not allow it \tab definitely should not allow it \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 479 \tab 198 \tab 164 \tab 378 \tab 96 \tab 44 \tab 1517 \cr
+   Total \tab 158 \tab 479 \tab 198 \tab 164 \tab 378 \tab 96 \tab 44 \tab 1517 \cr
+}
 }
 
 \seealso{

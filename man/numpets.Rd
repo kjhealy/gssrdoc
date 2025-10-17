@@ -22,15 +22,21 @@ Question How many pets does your family have? By family, we mean members of your
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7194/vshow}{GSS Data Explorer page for \code{numpets}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllll}{
+   year \tab iap \tab no pets \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 or more pets \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 474 \tab 288 \tab 4 \tab 7 \tab 5 \tab 3 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 159 \tab 12 \tab 82 \tab 45 \tab 29 \tab 14 \tab 8 \tab 5 \tab 5 \tab 1 \tab 25 \tab 2348 \cr
+   Total \tab 1175 \tab 474 \tab 288 \tab 4 \tab 7 \tab 5 \tab 3 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 159 \tab 12 \tab 82 \tab 45 \tab 29 \tab 14 \tab 8 \tab 5 \tab 5 \tab 1 \tab 25 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

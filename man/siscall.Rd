@@ -27,15 +27,21 @@ C. And how often do you have any other contact with your sister besides visiting
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4138/vshow}{GSS Data Explorer page for \code{siscall}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
+   1986 \tab 439 \tab 98 \tab 136 \tab 194 \tab 253 \tab 181 \tab 156 \tab 13 \tab 1470 \cr
+   Total \tab 439 \tab 98 \tab 136 \tab 194 \tab 253 \tab 181 \tab 156 \tab 13 \tab 1470 \cr
+}
 }
 
 \seealso{

@@ -23,15 +23,21 @@ Question Lightning and thunder happen at the same time, but you see the lightnin
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3474/vshow}{GSS Data Explorer page for \code{stormtxt}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab complete \tab partial \tab unsatisfactory/incorrect \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 518 \tab 656 \tab 61 \tab 299 \tab 466 \tab 23 \tab 2023 \cr
+   Total \tab 518 \tab 656 \tab 61 \tab 299 \tab 466 \tab 23 \tab 2023 \cr
+}
 }
 
 \seealso{

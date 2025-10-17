@@ -25,16 +25,22 @@ F. Human beings are the main cause of plant and animal species dying out.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4751/vshow}{GSS Data Explorer page for \code{grntest6}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 233 \tab 692 \tab 321 \tab 157 \tab 72 \tab 82 \tab 1606 \cr
+   1994 \tab 1606 \tab 196 \tab 584 \tab 349 \tab 142 \tab 73 \tab 42 \tab 2992 \cr
+   Total \tab 1655 \tab 429 \tab 1276 \tab 670 \tab 299 \tab 145 \tab 124 \tab 4598 \cr
+}
 }
 
 \seealso{

@@ -23,16 +23,23 @@ G. Family members who live with you?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2601/vshow}{GSS Data Explorer page for \code{emfamloc}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2423 \tab 50 \tab 284 \tab 60 \tab 2817 \cr
+   2002 \tab 2167 \tab 134 \tab 423 \tab 41 \tab 2765 \cr
+   Total \tab 4590 \tab 184 \tab 707 \tab 101 \tab 5582 \cr
+}
 }
 
 \seealso{

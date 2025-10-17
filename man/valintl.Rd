@@ -23,15 +23,21 @@ M. International/foreign
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1972/vshow}{GSS Data Explorer page for \code{valintl}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 12 \tab 40 \tab 50 \tab 500 \tab 60 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2871 \tab 14 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 11 \tab 2904 \cr
+   Total \tab 2871 \tab 14 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 11 \tab 2904 \cr
+}
 }
 
 \seealso{

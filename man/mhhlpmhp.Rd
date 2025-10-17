@@ -23,15 +23,21 @@ E. Go to a mental health professional for help.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3787/vshow}{GSS Data Explorer page for \code{mhhlpmhp}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab not at all important \tab very important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 161 \tab 559 \tab 60 \tab 46 \tab 43 \tab 110 \tab 54 \tab 84 \tab 166 \tab 119 \tab 13 \tab 10 \tab 4510 \cr
+   Total \tab 3085 \tab 161 \tab 559 \tab 60 \tab 46 \tab 43 \tab 110 \tab 54 \tab 84 \tab 166 \tab 119 \tab 13 \tab 10 \tab 4510 \cr
+}
 }
 
 \seealso{

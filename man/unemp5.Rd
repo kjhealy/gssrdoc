@@ -29,26 +29,33 @@ Question Unemployment during last five years.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/740/vshow}{GSS Data Explorer page for \code{unemp5}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab no \tab 4 prior yrs \tab 4 prior yrs, earner \tab last yr \tab both,not earner \tab both,earner prior 4 \tab last yr, earner \tab both,earner last yr \tab both,earner both \tab no answer \tab Total \cr
+   1978 \tab - \tab 1193 \tab 76 \tab 92 \tab 23 \tab 47 \tab 4 \tab 22 \tab 10 \tab 58 \tab 7 \tab 1532 \cr
+   1980 \tab - \tab 1157 \tab 79 \tab 88 \tab 16 \tab 41 \tab 1 \tab 33 \tab 7 \tab 42 \tab 4 \tab 1468 \cr
+   1983 \tab - \tab 1184 \tab 82 \tab 75 \tab 35 \tab 59 \tab 9 \tab 40 \tab 6 \tab 99 \tab 10 \tab 1599 \cr
+   1984 \tab - \tab 1097 \tab 65 \tab 95 \tab 19 \tab 61 \tab 5 \tab 26 \tab 10 \tab 79 \tab 16 \tab 1473 \cr
+   1986 \tab - \tab 1138 \tab 87 \tab 71 \tab 20 \tab 44 \tab 7 \tab 19 \tab 10 \tab 65 \tab 9 \tab 1470 \cr
+   1987 \tab - \tab 1371 \tab 106 \tab 118 \tab 28 \tab 56 \tab 6 \tab 34 \tab 7 \tab 78 \tab 15 \tab 1819 \cr
+   1988 \tab 484 \tab 753 \tab 72 \tab 67 \tab 16 \tab 24 \tab 3 \tab 16 \tab 4 \tab 37 \tab 5 \tab 1481 \cr
+   1989 \tab 502 \tab 840 \tab 47 \tab 55 \tab 16 \tab 17 \tab 4 \tab 16 \tab 2 \tab 28 \tab 10 \tab 1537 \cr
+   1990 \tab 473 \tab 718 \tab 37 \tab 50 \tab 9 \tab 20 \tab 5 \tab 14 \tab 3 \tab 39 \tab 4 \tab 1372 \cr
+   1991 \tab 500 \tab 799 \tab 53 \tab 46 \tab 12 \tab 30 \tab 3 \tab 15 \tab 3 \tab 46 \tab 10 \tab 1517 \cr
+   1993 \tab 549 \tab 814 \tab 56 \tab 61 \tab 16 \tab 38 \tab 7 \tab 20 \tab 2 \tab 40 \tab 3 \tab 1606 \cr
+   1994 \tab 2481 \tab 398 \tab 17 \tab 29 \tab 4 \tab 16 \tab 3 \tab 6 \tab 4 \tab 29 \tab 5 \tab 2992 \cr
+   Total \tab 4989 \tab 11462 \tab 777 \tab 847 \tab 214 \tab 453 \tab 57 \tab 261 \tab 68 \tab 640 \tab 98 \tab 19866 \cr
+}
 }
 
 \seealso{

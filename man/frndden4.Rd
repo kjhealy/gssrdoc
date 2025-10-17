@@ -49,15 +49,21 @@ Question What specific denomination is that, if any?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1116/vshow}{GSS Data Explorer page for \code{frndden4}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab am baptist asso \tab am bapt ch in usa \tab nat bapt conv usa \tab southern baptist \tab other baptists \tab baptist-dk which \tab united methodist \tab other methodist \tab methodist-dk which \tab am lutheran \tab luth ch in america \tab lutheran-mo synod \tab wi evan luth synod \tab other lutheran \tab lutheran-dk which \tab united pres ch in usa \tab other presbyterian \tab presbyt ch usa \tab presbyterian-dk wh \tab episcopal \tab other \tab no denomination \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 2555 \tab 3 \tab 1 \tab 1 \tab 22 \tab 2 \tab 22 \tab 9 \tab 2 \tab 4 \tab 6 \tab 1 \tab 4 \tab 3 \tab 6 \tab 7 \tab 2 \tab 3 \tab 1 \tab 5 \tab 7 \tab 29 \tab 39 \tab 2 \tab 96 \tab 2832 \cr
+   Total \tab 2555 \tab 3 \tab 1 \tab 1 \tab 22 \tab 2 \tab 22 \tab 9 \tab 2 \tab 4 \tab 6 \tab 1 \tab 4 \tab 3 \tab 6 \tab 7 \tab 2 \tab 3 \tab 1 \tab 5 \tab 7 \tab 29 \tab 39 \tab 2 \tab 96 \tab 2832 \cr
+}
 }
 
 \seealso{

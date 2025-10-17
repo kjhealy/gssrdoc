@@ -23,15 +23,21 @@ O. A Supreme Court Justice?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4277/vshow}{GSS Data Explorer page for \code{payjudge}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 110000 \tab 112000 \tab 115000 \tab 12000 \tab 120000 \tab 125000 \tab 128000 \tab 130000 \tab 135000 \tab 1400 \tab 140000 \tab 145000 \tab 15000 \tab 150000 \tab 16000 \tab 160000 \tab 165000 \tab 170000 \tab 175000 \tab 1800 \tab 180000 \tab 185000 \tab 190000 \tab 195000 \tab 1e+05 \tab $1 million (or more, for 1987 & 2000) \tab 20000 \tab 220000 \tab 225000 \tab 230000 \tab 24000 \tab 25000 \tab 250000 \tab 265000 \tab 29000 \tab 2e+05 \tab 30000 \tab 31000 \tab 33000 \tab 330000 \tab 35000 \tab 350000 \tab 39000 \tab 3e+05 \tab 40000 \tab 45000 \tab 450000 \tab 47000 \tab 4e+05 \tab 50000 \tab 520 \tab 55000 \tab 5e+05 \tab 6000 \tab 60000 \tab 65000 \tab 70000 \tab 72800 \tab 73000 \tab 75000 \tab 78000 \tab 7e+05 \tab 8000 \tab 80000 \tab 85000 \tab 8e+05 \tab 90000 \tab 95000 \tab 9e+05 \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1545 \tab 1 \tab 2 \tab 9 \tab 1 \tab 1 \tab 1 \tab 18 \tab 48 \tab 1 \tab 8 \tab 4 \tab 1 \tab 5 \tab 2 \tab 4 \tab 130 \tab 2 \tab 5 \tab 2 \tab 2 \tab 24 \tab 1 \tab 7 \tab 2 \tab 1 \tab 1 \tab 190 \tab 16 \tab 5 \tab 1 \tab 2 \tab 1 \tab 2 \tab 8 \tab 34 \tab 2 \tab 2 \tab 125 \tab 8 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 1 \tab 29 \tab 11 \tab 5 \tab 1 \tab 1 \tab 6 \tab 34 \tab 1 \tab 2 \tab 13 \tab 1 \tab 30 \tab 11 \tab 26 \tab 1 \tab 1 \tab 50 \tab 1 \tab 1 \tab 1 \tab 63 \tab 6 \tab 2 \tab 36 \tab 9 \tab 1 \tab 86 \tab 153 \tab 2817 \cr
+   Total \tab 1545 \tab 1 \tab 2 \tab 9 \tab 1 \tab 1 \tab 1 \tab 18 \tab 48 \tab 1 \tab 8 \tab 4 \tab 1 \tab 5 \tab 2 \tab 4 \tab 130 \tab 2 \tab 5 \tab 2 \tab 2 \tab 24 \tab 1 \tab 7 \tab 2 \tab 1 \tab 1 \tab 190 \tab 16 \tab 5 \tab 1 \tab 2 \tab 1 \tab 2 \tab 8 \tab 34 \tab 2 \tab 2 \tab 125 \tab 8 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 1 \tab 29 \tab 11 \tab 5 \tab 1 \tab 1 \tab 6 \tab 34 \tab 1 \tab 2 \tab 13 \tab 1 \tab 30 \tab 11 \tab 26 \tab 1 \tab 1 \tab 50 \tab 1 \tab 1 \tab 1 \tab 63 \tab 6 \tab 2 \tab 36 \tab 9 \tab 1 \tab 86 \tab 153 \tab 2817 \cr
+}
 }
 
 \seealso{

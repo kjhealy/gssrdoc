@@ -23,15 +23,21 @@ E. Are any of these Whites people that you feel close to?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2339/vshow}{GSS Data Explorer page for \code{whtcls}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2485 \tab 190 \tab 73 \tab 9 \tab 60 \tab 2817 \cr
+   Total \tab 2485 \tab 190 \tab 73 \tab 9 \tab 60 \tab 2817 \cr
+}
 }
 
 \seealso{

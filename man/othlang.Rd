@@ -22,25 +22,30 @@ Question A. Can you speak a language other than English (Spanish)?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2283/vshow}{GSS Data Explorer page for \code{othlang}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   2000 \tab 1419 \tab 363 \tab 1031 \tab 4 \tab - \tab - \tab 2817 \cr
+   2006 \tab 1702 \tab 671 \tab 2135 \tab 2 \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 555 \tab 1468 \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 536 \tab 1508 \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab - \tab 574 \tab 1397 \tab 3 \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 748 \tab 1789 \tab 1 \tab - \tab - \tab 2538 \cr
+   2016 \tab - \tab 816 \tab 2045 \tab 6 \tab - \tab - \tab 2867 \cr
+   2018 \tab - \tab 723 \tab 1623 \tab - \tab 2 \tab - \tab 2348 \cr
+   2021 \tab - \tab 1144 \tab 2793 \tab 78 \tab - \tab 17 \tab 4032 \cr
+   2022 \tab - \tab 987 \tab 2537 \tab 11 \tab - \tab 9 \tab 3544 \cr
+   Total \tab 3121 \tab 7117 \tab 18326 \tab 105 \tab 2 \tab 26 \tab 28697 \cr
+}
 }
 
 \seealso{

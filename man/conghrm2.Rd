@@ -24,15 +24,21 @@ Question How often are the people in your congregation critical of you and the t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2095/vshow}{GSS Data Explorer page for \code{conghrm2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very often \tab fairly often \tab once in a while \tab never \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1797 \tab 23 \tab 27 \tab 164 \tab 649 \tab 8 \tab 164 \tab 2832 \cr
+   Total \tab 1797 \tab 23 \tab 27 \tab 164 \tab 649 \tab 8 \tab 164 \tab 2832 \cr
+}
 }
 
 \seealso{

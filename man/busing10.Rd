@@ -22,15 +22,21 @@ Question B. Now, thinking about ten years ago, that is in 1972, did you then fav
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/399/vshow}{GSS Data Explorer page for \code{busing10}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab favor \tab oppose \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 482 \tab 1196 \tab 169 \tab 13 \tab 1860 \cr
+   Total \tab 0 \tab 482 \tab 1196 \tab 169 \tab 13 \tab 1860 \cr
+}
 }
 
 \seealso{

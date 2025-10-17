@@ -26,18 +26,26 @@ A. Job security?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4507/vshow}{GSS Data Explorer page for \code{secjob}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab neither important nor unimportant \tab not important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 84 \tab 778 \tab 564 \tab 67 \tab 14 \tab 4 \tab 7 \tab 19 \tab 1537 \cr
+   1998 \tab 1609 \tab 678 \tab 428 \tab 42 \tab 15 \tab 6 \tab 15 \tab 39 \tab 2832 \cr
+   2006 \tab 2992 \tab 932 \tab 467 \tab 68 \tab 36 \tab 10 \tab 4 \tab 1 \tab 4510 \cr
+   2016 \tab 1390 \tab 1082 \tab 345 \tab 24 \tab 14 \tab 5 \tab 3 \tab 4 \tab 2867 \cr
+   Total \tab 6075 \tab 3470 \tab 1804 \tab 201 \tab 79 \tab 25 \tab 29 \tab 63 \tab 11746 \cr
+}
 }
 
 \seealso{

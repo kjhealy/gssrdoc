@@ -30,15 +30,21 @@ Question Think about your adult child you have contact with most frequently: How
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7267/vshow}{GSS Data Explorer page for \code{cntctkid}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab daily \tab several times a week \tab once a week \tab two to three times a month \tab once a month \tab several times a year \tab less often \tab never \tab i do not have any adult children \tab the adult child i have contact with most frequently lives with me \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 264 \tab 151 \tab 63 \tab 38 \tab 16 \tab 13 \tab 7 \tab 23 \tab 563 \tab 18 \tab 15 \tab 2 \tab 2348 \cr
+   Total \tab 1175 \tab 264 \tab 151 \tab 63 \tab 38 \tab 16 \tab 13 \tab 7 \tab 23 \tab 563 \tab 18 \tab 15 \tab 2 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

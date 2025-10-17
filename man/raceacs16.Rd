@@ -22,17 +22,22 @@ Question What is your race? Indicate one or more races that you consider yoursel
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7465/vshow}{GSS Data Explorer page for \code{raceacs16}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab refused \tab Total \cr
+   2021 \tab - \tab 3858 \tab 169 \tab 4 \tab 1 \tab - \tab 4032 \cr
+   2022 \tab - \tab 3346 \tab 157 \tab 8 \tab 18 \tab 15 \tab 3544 \cr
+   Total \tab 0 \tab 7204 \tab 326 \tab 12 \tab 19 \tab 15 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

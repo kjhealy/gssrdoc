@@ -23,15 +23,21 @@ A. You can expect special problems with marriages between (Negroes/Blacks) and W
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/722/vshow}{GSS Data Explorer page for \code{racmarpr}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1977 \tab - \tab 1332 \tab 161 \tab 31 \tab 6 \tab 1530 \cr
+   Total \tab 0 \tab 1332 \tab 161 \tab 31 \tab 6 \tab 1530 \cr
+}
 }
 
 \seealso{

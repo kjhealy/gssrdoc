@@ -22,15 +22,21 @@ Question During the last 12 months, have you read or listened to the reading of 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7278/vshow}{GSS Data Explorer page for \code{relscrpt}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab can't choose \tab no answer \tab Total \cr
+   2018 \tab 1173 \tab 685 \tab 478 \tab 1 \tab 11 \tab 2348 \cr
+   Total \tab 1173 \tab 685 \tab 478 \tab 1 \tab 11 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

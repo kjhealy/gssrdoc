@@ -24,15 +24,21 @@ Question During elections, do you ever try to show people why they should vote f
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1028/vshow}{GSS Data Explorer page for \code{swayvote}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   1987 \tab - \tab 175 \tab 398 \tab 247 \tab 986 \tab 4 \tab 9 \tab 1819 \cr
+   Total \tab 0 \tab 175 \tab 398 \tab 247 \tab 986 \tab 4 \tab 9 \tab 1819 \cr
+}
 }
 
 \seealso{

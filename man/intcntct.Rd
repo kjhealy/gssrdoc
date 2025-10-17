@@ -27,15 +27,21 @@ or other communication devices that use the internet?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7270/vshow}{GSS Data Explorer page for \code{intcntct}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab all or almost all of it \tab most of it \tab about half of it \tab some of it \tab none or almost none of it \tab i do not use any of these devices \tab can't choose \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 275 \tab 357 \tab 265 \tab 184 \tab 78 \tab 10 \tab 3 \tab 1 \tab 2348 \cr
+   Total \tab 1175 \tab 275 \tab 357 \tab 265 \tab 184 \tab 78 \tab 10 \tab 3 \tab 1 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

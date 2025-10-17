@@ -26,16 +26,23 @@ PROBE FOR TWO MENTIONS. RECORD FIRST TWO MENTIONS BELOW.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab B/C/- \tab partial \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   B/C/- \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5194/vshow}{GSS Data Explorer page for \code{extra1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 100 \tab 104 \tab 110 \tab 120 \tab 130 \tab 131 \tab 132 \tab 140 \tab 15 \tab 150 \tab 151 \tab 16 \tab 160 \tab 165 \tab 171 \tab 175 \tab 176 \tab 180 \tab 191 \tab 2 \tab 20 \tab 200 \tab 201 \tab 202 \tab 21 \tab 210 \tab 220 \tab 230 \tab 235 \tab 237 \tab 240 \tab 26 \tab 28 \tab 30 \tab 31 \tab 4 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 5 \tab 51 \tab 55 \tab 61 \tab 63 \tab 70 \tab 72 \tab 73 \tab 74 \tab 75 \tab 78 \tab 80 \tab 83 \tab 84 \tab 85 \tab 86 \tab 90 \tab 93 \tab 94 \tab 995 \tab 996 \tab 101 \tab 103 \tab 133 \tab 134 \tab 161 \tab 166 \tab 170 \tab 172 \tab 190 \tab 211 \tab 24 \tab 25 \tab 27 \tab 29 \tab 3 \tab 46 \tab 47 \tab 50 \tab 6 \tab 65 \tab 7 \tab 76 \tab 81 \tab 91 \tab 92 \tab 96 \tab no answer \tab Total \cr
+   1991 \tab 500 \tab 67 \tab 4 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 3 \tab 2 \tab 8 \tab 1 \tab 3 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 4 \tab 3 \tab 1 \tab 3 \tab 45 \tab 13 \tab 2 \tab 3 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 3 \tab 3 \tab 7 \tab 4 \tab 4 \tab 59 \tab 3 \tab 1 \tab 2 \tab 3 \tab 1 \tab 9 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 1 \tab 13 \tab 3 \tab 3 \tab 1 \tab 4 \tab 2 \tab 2 \tab 2 \tab 3 \tab 3 \tab 2 \tab 1 \tab 1 \tab 681 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   2004 \tab 1472 \tab 56 \tab 11 \tab 1 \tab - \tab 2 \tab 2 \tab 2 \tab 1 \tab 1 \tab 7 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 6 \tab 1 \tab 2 \tab 4 \tab 51 \tab 7 \tab 2 \tab 3 \tab - \tab 2 \tab 5 \tab - \tab - \tab 7 \tab 3 \tab 22 \tab 18 \tab 2 \tab 68 \tab 3 \tab - \tab - \tab - \tab - \tab 1 \tab 3 \tab - \tab - \tab 2 \tab - \tab - \tab 7 \tab 2 \tab 17 \tab 1 \tab - \tab - \tab 2 \tab - \tab 1 \tab - \tab 1 \tab 2 \tab 4 \tab 3 \tab - \tab 944 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 5 \tab 11 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 7 \tab 2812 \cr
+   Total \tab 1972 \tab 123 \tab 15 \tab 2 \tab 1 \tab 4 \tab 5 \tab 3 \tab 4 \tab 3 \tab 15 \tab 2 \tab 3 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 10 \tab 4 \tab 3 \tab 7 \tab 96 \tab 20 \tab 4 \tab 6 \tab 1 \tab 3 \tab 7 \tab 3 \tab 1 \tab 10 \tab 6 \tab 29 \tab 22 \tab 6 \tab 127 \tab 6 \tab 1 \tab 2 \tab 3 \tab 1 \tab 10 \tab 4 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 11 \tab 3 \tab 30 \tab 4 \tab 3 \tab 1 \tab 6 \tab 2 \tab 3 \tab 2 \tab 4 \tab 5 \tab 6 \tab 4 \tab 1 \tab 1625 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 5 \tab 11 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 7 \tab 4329 \cr
+}
 }
 
 \seealso{

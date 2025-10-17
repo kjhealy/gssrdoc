@@ -23,16 +23,23 @@ C. Elected Officials
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3368/vshow}{GSS Data Explorer page for \code{scpol}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very well \tab 2 \tab 3 \tab 4 \tab not at all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3582 \tab 30 \tab 59 \tab 310 \tab 258 \tab 210 \tab 58 \tab 3 \tab 4510 \cr
+   2010 \tab 1569 \tab 16 \tab 32 \tab 164 \tab 139 \tab 97 \tab 22 \tab 5 \tab 2044 \cr
+   Total \tab 5151 \tab 46 \tab 91 \tab 474 \tab 397 \tab 307 \tab 80 \tab 8 \tab 6554 \cr
+}
 }
 
 \seealso{

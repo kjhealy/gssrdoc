@@ -21,17 +21,25 @@ Question B. And what about your spouse/partner? On average, how many hours a wee
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4436/vshow}{GSS Data Explorer page for \code{sphhwork}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 16 \tab 18 \tab 2 \tab 20 \tab 21 \tab 23 \tab 24 \tab 25 \tab 28 \tab 3 \tab 30 \tab 34 \tab 35 \tab 4 \tab 40 \tab 5 \tab 50 \tab 55 \tab 6 \tab 60 \tab 64 \tab 7 \tab 72 \tab 8 \tab 80 \tab 9 \tab 96 \tab don't know \tab no answer \tab 11 \tab 17 \tab 36 \tab 56 \tab 70 \tab 84 \tab 86 \tab 97 \tab 100 \tab 112 \tab 13 \tab 168 \tab 22 \tab 26 \tab 48 \tab skipped on web \tab Total \cr
+   2002 \tab 2058 \tab 58 \tab 54 \tab 83 \tab 23 \tab 12 \tab 23 \tab 5 \tab 2 \tab 79 \tab 45 \tab 1 \tab 1 \tab 3 \tab 10 \tab 1 \tab 47 \tab 16 \tab 1 \tab 4 \tab 45 \tab 14 \tab 55 \tab 1 \tab 1 \tab 27 \tab 1 \tab 1 \tab 24 \tab 1 \tab 33 \tab 1 \tab 5 \tab 1 \tab 4 \tab 25 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2012 \tab 1274 \tab 93 \tab 30 \tab 81 \tab 12 \tab 16 \tab 26 \tab 5 \tab 2 \tab 46 \tab 46 \tab 8 \tab - \tab 5 \tab 10 \tab 4 \tab 39 \tab 21 \tab - \tab 5 \tab 31 \tab 27 \tab 67 \tab 4 \tab 1 \tab 24 \tab 6 \tab - \tab 27 \tab 1 \tab 30 \tab 2 \tab 1 \tab - \tab 10 \tab 4 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 6 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2022 \tab 3023 \tab 36 \tab 24 \tab 64 \tab 14 \tab 10 \tab 27 \tab 6 \tab 2 \tab 32 \tab 40 \tab 6 \tab - \tab 4 \tab 4 \tab 3 \tab 25 \tab 14 \tab - \tab 4 \tab 38 \tab 19 \tab 41 \tab 1 \tab - \tab 24 \tab 2 \tab - \tab 23 \tab 1 \tab 23 \tab 1 \tab 2 \tab - \tab 7 \tab 3 \tab - \tab 1 \tab - \tab 1 \tab - \tab 2 \tab - \tab - \tab 2 \tab 1 \tab 2 \tab 2 \tab 3 \tab 1 \tab 1 \tab 5 \tab 3544 \cr
+   Total \tab 6355 \tab 187 \tab 108 \tab 228 \tab 49 \tab 38 \tab 76 \tab 16 \tab 6 \tab 157 \tab 131 \tab 15 \tab 1 \tab 12 \tab 24 \tab 8 \tab 111 \tab 51 \tab 1 \tab 13 \tab 114 \tab 60 \tab 163 \tab 6 \tab 2 \tab 75 \tab 9 \tab 1 \tab 74 \tab 3 \tab 86 \tab 4 \tab 8 \tab 1 \tab 21 \tab 32 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 6 \tab 2 \tab 1 \tab 2 \tab 2 \tab 3 \tab 1 \tab 1 \tab 5 \tab 8283 \cr
+}
 }
 
 \seealso{

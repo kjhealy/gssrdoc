@@ -21,20 +21,26 @@ Question After an average work day, about how many hours do you have to relax or
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2772/vshow}{GSS Data Explorer page for \code{hrsrelax}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 14 \tab 15 \tab 16 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 24 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab 13 \tab 17 \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 114 \tab 186 \tab 24 \tab 1 \tab 24 \tab 3 \tab 5 \tab 9 \tab 2 \tab 1 \tab 336 \tab 2 \tab 1 \tab 1 \tab 2 \tab 251 \tab 316 \tab 231 \tab 149 \tab 33 \tab 60 \tab 5 \tab 27 \tab 13 \tab - \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 64 \tab 194 \tab 16 \tab 2 \tab 15 \tab 2 \tab 4 \tab 4 \tab 2 \tab - \tab 360 \tab 1 \tab 1 \tab 1 \tab 5 \tab 292 \tab 324 \tab 175 \tab 146 \tab 36 \tab 52 \tab 7 \tab 19 \tab 12 \tab - \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 60 \tab 122 \tab 14 \tab - \tab 11 \tab 4 \tab - \tab 4 \tab 1 \tab - \tab 237 \tab 2 \tab - \tab - \tab 1 \tab 201 \tab 201 \tab 138 \tab 87 \tab 20 \tab 45 \tab 5 \tab 10 \tab 23 \tab 1 \tab - \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 78 \tab 133 \tab 18 \tab - \tab 17 \tab 2 \tab 2 \tab 3 \tab 1 \tab - \tab 237 \tab 1 \tab - \tab - \tab 1 \tab 212 \tab 230 \tab 141 \tab 99 \tab 30 \tab 25 \tab 2 \tab 8 \tab 9 \tab 1 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 90 \tab 143 \tab 16 \tab 3 \tab 10 \tab 4 \tab 3 \tab 3 \tab 1 \tab - \tab 278 \tab 5 \tab 1 \tab - \tab 1 \tab 221 \tab 268 \tab 171 \tab 84 \tab 23 \tab 74 \tab 5 \tab 13 \tab 30 \tab - \tab 1 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 107 \tab 236 \tab 36 \tab 3 \tab 28 \tab 7 \tab 10 \tab 6 \tab 4 \tab 1 \tab 340 \tab 17 \tab - \tab 1 \tab 8 \tab 298 \tab 332 \tab 213 \tab 153 \tab 38 \tab 83 \tab 9 \tab 23 \tab 14 \tab 1 \tab - \tab 30 \tab 3544 \cr
+   Total \tab 8336 \tab 513 \tab 1014 \tab 124 \tab 9 \tab 105 \tab 22 \tab 24 \tab 29 \tab 11 \tab 2 \tab 1788 \tab 28 \tab 3 \tab 3 \tab 18 \tab 1475 \tab 1671 \tab 1069 \tab 718 \tab 180 \tab 339 \tab 33 \tab 100 \tab 101 \tab 3 \tab 1 \tab 30 \tab 17749 \cr
+}
 }
 
 \seealso{

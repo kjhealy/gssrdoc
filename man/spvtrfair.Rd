@@ -24,18 +24,24 @@ Question My supervisor treats me fairly.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2834/vshow}{GSS Data Explorer page for \code{spvtrfair}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab 857 \tab 669 \tab 358 \tab 51 \tab 45 \tab 27 \tab 37 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 730 \tab 388 \tab 57 \tab 38 \tab 21 \tab 16 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 848 \tab 438 \tab 67 \tab 33 \tab 22 \tab 40 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 1097 \tab 633 \tab 106 \tab 73 \tab 34 \tab 18 \tab 28 \tab 3544 \cr
+   Total \tab 4600 \tab 3344 \tab 1817 \tab 281 \tab 189 \tab 104 \tab 111 \tab 28 \tab 10474 \cr
+}
 }
 
 \seealso{

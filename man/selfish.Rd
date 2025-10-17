@@ -27,15 +27,21 @@ E. A selfish person. Is this â€¦â€¦
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3051/vshow}{GSS Data Explorer page for \code{selfish}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a very good description \tab a good description \tab a fair description \tab not a very good description \tab not a good description at all \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 432 \tab 23 \tab 64 \tab 207 \tab 1160 \tab 918 \tab 1 \tab 7 \tab 2812 \cr
+   Total \tab 432 \tab 23 \tab 64 \tab 207 \tab 1160 \tab 918 \tab 1 \tab 7 \tab 2812 \cr
+}
 }
 
 \seealso{

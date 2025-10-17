@@ -22,15 +22,21 @@ Question C. Was this leader someone to whom you went for counseling?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3944/vshow}{GSS Data Explorer page for \code{counsel3}}.
+
+Counts by year:\tabular{llll}{
+   year \tab iap \tab no \tab Total \cr
+   2008 \tab 2021 \tab 2 \tab 2023 \cr
+   Total \tab 2021 \tab 2 \tab 2023 \cr
+}
 }
 
 \seealso{

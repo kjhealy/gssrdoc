@@ -25,15 +25,21 @@ Question In the United States, do you think it is easier or harder to get access
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7798/vshow}{GSS Data Explorer page for \code{hlthacc2}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab Total \cr
+   2022 \tab 2458 \tab 90 \tab 217 \tab 404 \tab 247 \tab 128 \tab 3544 \cr
+   Total \tab 2458 \tab 90 \tab 217 \tab 404 \tab 247 \tab 128 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

@@ -22,29 +22,36 @@ Question During the last year--that is, between last March and now--did anyone b
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab -/- \tab full \cr
-   1974 \tab -/- \tab full \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987 \cr
+   A/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/677/vshow}{GSS Data Explorer page for \code{burglr}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   1973 \tab - \tab 113 \tab 1391 \tab - \tab - \tab 1504 \cr
+   1974 \tab - \tab 113 \tab 1368 \tab 3 \tab - \tab 1484 \cr
+   1976 \tab - \tab 106 \tab 1390 \tab 3 \tab - \tab 1499 \cr
+   1977 \tab - \tab 101 \tab 1426 \tab 3 \tab - \tab 1530 \cr
+   1980 \tab - \tab 122 \tab 1343 \tab 3 \tab - \tab 1468 \cr
+   1982 \tab - \tab 154 \tab 1702 \tab 4 \tab - \tab 1860 \cr
+   1984 \tab - \tab 97 \tab 1374 \tab 2 \tab - \tab 1473 \cr
+   1985 \tab - \tab 101 \tab 1430 \tab 3 \tab - \tab 1534 \cr
+   1987 \tab - \tab 131 \tab 1682 \tab 6 \tab - \tab 1819 \cr
+   1988 \tab 504 \tab 67 \tab 910 \tab - \tab - \tab 1481 \cr
+   1989 \tab 504 \tab 62 \tab 971 \tab - \tab - \tab 1537 \cr
+   1990 \tab 455 \tab 55 \tab 859 \tab 2 \tab 1 \tab 1372 \cr
+   1991 \tab 524 \tab 53 \tab 934 \tab 6 \tab - \tab 1517 \cr
+   1993 \tab 531 \tab 63 \tab 1010 \tab 2 \tab - \tab 1606 \cr
+   1994 \tab 1767 \tab 68 \tab 1155 \tab 2 \tab - \tab 2992 \cr
+   Total \tab 4285 \tab 1406 \tab 18945 \tab 39 \tab 1 \tab 24676 \cr
+}
 }
 
 \seealso{

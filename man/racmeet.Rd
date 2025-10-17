@@ -24,16 +24,22 @@ Question Should people prejudiced against any racial or ethnic group be allowed 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4919/vshow}{GSS Data Explorer page for \code{racmeet}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab should definitely be allowed \tab should probably be allowed \tab should probably not be allowed \tab should definitely not be allowed \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 241 \tab 331 \tab 308 \tab 574 \tab 11 \tab 7 \tab 2812 \cr
+   2014 \tab 1274 \tab 217 \tab 263 \tab 275 \tab 442 \tab 65 \tab 2 \tab 2538 \cr
+   Total \tab 2614 \tab 458 \tab 594 \tab 583 \tab 1016 \tab 76 \tab 9 \tab 5350 \cr
+}
 }
 
 \seealso{

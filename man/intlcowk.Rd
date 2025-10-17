@@ -26,15 +26,21 @@ Question How often do you exchange information with co-workers located outside t
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3892/vshow}{GSS Data Explorer page for \code{intlcowk}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab once per year or less \tab several times per year \tab several times per month \tab several times per week \tab daily \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1165 \tab 673 \tab 36 \tab 30 \tab 27 \tab 19 \tab 53 \tab 6 \tab 14 \tab 2023 \cr
+   Total \tab 1165 \tab 673 \tab 36 \tab 30 \tab 27 \tab 19 \tab 53 \tab 6 \tab 14 \tab 2023 \cr
+}
 }
 
 \seealso{

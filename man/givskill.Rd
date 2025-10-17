@@ -26,16 +26,23 @@ F. A skilled worker in a factory?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   Full \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4284/vshow}{GSS Data Explorer page for \code{givskill}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 10400 \tab 11000 \tab 12000 \tab 12500 \tab 13000 \tab 14000 \tab 15000 \tab 15500 \tab 16000 \tab 17000 \tab 17280 \tab 18000 \tab 18500 \tab 19000 \tab 19200 \tab 1e+05 \tab $1 million (or more, for 1987 & 2000) \tab 20000 \tab 20500 \tab 20800 \tab 21000 \tab 22000 \tab 225000 \tab 22875 \tab 23000 \tab 24000 \tab 24500 \tab 24960 \tab 25000 \tab 26000 \tab 27000 \tab 27500 \tab 28000 \tab 29000 \tab 30000 \tab 30500 \tab 31000 \tab 31200 \tab 32000 \tab 32500 \tab 35000 \tab 36000 \tab 36500 \tab 37000 \tab 3800 \tab 38000 \tab 39000 \tab 39200 \tab 3e+05 \tab 4000 \tab 40000 \tab 41600 \tab 42000 \tab 45000 \tab 450000 \tab 46000 \tab 48000 \tab 49500 \tab 5000 \tab 50000 \tab 5200 \tab 52000 \tab 55000 \tab 6000 \tab 60000 \tab 62000 \tab 65000 \tab 7000 \tab 70000 \tab 75000 \tab 8000 \tab 80000 \tab 9000 \tab 90000 \tab more than now paid \tab same as now paid \tab less than now paid \tab can't choose \tab no answer \tab 1300 \tab 13440 \tab 16640 \tab 18200 \tab 19500 \tab 2000 \tab 2250 \tab 3000 \tab 34000 \tab 47000 \tab 5e+05 \tab 67000 \tab 78000 \tab 85000 \tab Total \cr
+   1987 \tab 255 \tab 1 \tab 27 \tab 1 \tab 5 \tab 15 \tab 1 \tab 6 \tab 10 \tab 56 \tab 1 \tab 14 \tab 11 \tab 1 \tab 42 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 180 \tab 1 \tab 6 \tab 4 \tab 15 \tab 1 \tab 1 \tab 10 \tab 14 \tab 1 \tab 1 \tab 217 \tab 8 \tab 12 \tab 4 \tab 16 \tab 2 \tab 234 \tab 1 \tab 1 \tab 2 \tab 7 \tab 1 \tab 91 \tab 11 \tab 1 \tab 3 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 4 \tab 111 \tab 1 \tab 1 \tab 17 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 31 \tab 1 \tab 1 \tab 1 \tab 3 \tab 11 \tab 1 \tab 3 \tab 2 \tab 1 \tab 2 \tab 5 \tab 5 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 73 \tab 222 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
+   2000 \tab 1545 \tab 1 \tab 9 \tab - \tab - \tab 2 \tab - \tab - \tab 1 \tab 9 \tab - \tab 2 \tab 5 \tab - \tab 7 \tab - \tab 2 \tab - \tab 9 \tab 1 \tab 76 \tab - \tab - \tab 2 \tab 6 \tab - \tab - \tab 2 \tab 11 \tab - \tab - \tab 98 \tab 6 \tab - \tab - \tab - \tab - \tab 135 \tab - \tab - \tab 2 \tab 7 \tab - \tab 109 \tab 6 \tab - \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 188 \tab 1 \tab 3 \tab 48 \tab - \tab - \tab 3 \tab - \tab - \tab 141 \tab - \tab - \tab 8 \tab - \tab 52 \tab - \tab 5 \tab 1 \tab 11 \tab 7 \tab - \tab 12 \tab - \tab 1 \tab - \tab - \tab - \tab 60 \tab 205 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2817 \cr
+   Total \tab 1800 \tab 2 \tab 36 \tab 1 \tab 5 \tab 17 \tab 1 \tab 6 \tab 11 \tab 65 \tab 1 \tab 16 \tab 16 \tab 1 \tab 49 \tab 1 \tab 8 \tab 1 \tab 10 \tab 2 \tab 256 \tab 1 \tab 6 \tab 6 \tab 21 \tab 1 \tab 1 \tab 12 \tab 25 \tab 1 \tab 1 \tab 315 \tab 14 \tab 12 \tab 4 \tab 16 \tab 2 \tab 369 \tab 1 \tab 1 \tab 4 \tab 14 \tab 1 \tab 200 \tab 17 \tab 1 \tab 4 \tab 1 \tab 4 \tab 2 \tab 1 \tab 1 \tab 4 \tab 299 \tab 2 \tab 4 \tab 65 \tab 1 \tab 1 \tab 4 \tab 1 \tab 3 \tab 172 \tab 1 \tab 1 \tab 9 \tab 3 \tab 63 \tab 1 \tab 8 \tab 3 \tab 12 \tab 9 \tab 5 \tab 17 \tab 3 \tab 2 \tab 1 \tab 2 \tab 1 \tab 133 \tab 427 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4636 \cr
+}
 }
 
 \seealso{

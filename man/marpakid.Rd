@@ -26,16 +26,23 @@ H. A single father can bring up his child as well as a married couple.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4371/vshow}{GSS Data Explorer page for \code{marpakid}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1988 \tab 67 \tab 94 \tab 348 \tab 235 \tab 529 \tab 164 \tab 18 \tab 26 \tab - \tab 1481 \cr
+   2022 \tab 2381 \tab 233 \tab 448 \tab 183 \tab 201 \tab 59 \tab 30 \tab 4 \tab 5 \tab 3544 \cr
+   Total \tab 2448 \tab 327 \tab 796 \tab 418 \tab 730 \tab 223 \tab 48 \tab 30 \tab 5 \tab 5025 \cr
+}
 }
 
 \seealso{

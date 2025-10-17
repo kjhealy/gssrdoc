@@ -24,15 +24,21 @@ Question Do you think the United States government should or should not have the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7840/vshow}{GSS Data Explorer page for \code{shutbus}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should have the right \tab probably should have the right \tab probably should not have the right \tab definitely should not have the right \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2382 \tab 367 \tab 310 \tab 164 \tab 214 \tab 96 \tab 2 \tab 9 \tab 3544 \cr
+   Total \tab 2382 \tab 367 \tab 310 \tab 164 \tab 214 \tab 96 \tab 2 \tab 9 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

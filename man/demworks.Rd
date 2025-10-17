@@ -24,15 +24,21 @@ Question All in all, how well or badly do you think the system of democracy in A
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4102/vshow}{GSS Data Explorer page for \code{demworks}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab it works well and needs no changes \tab it works well but needs some changes \tab needs a lot of changes \tab needs to be completely changed \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1572 \tab 57 \tab 832 \tab 299 \tab 58 \tab 62 \tab 24 \tab 2904 \cr
+   Total \tab 1572 \tab 57 \tab 832 \tab 299 \tab 58 \tab 62 \tab 24 \tab 2904 \cr
+}
 }
 
 \seealso{

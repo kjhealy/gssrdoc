@@ -25,15 +25,21 @@ Question Now I'd like to ask you about how you navigate around the Web. How freq
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2609/vshow}{GSS Data Explorer page for \code{emaillnk}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab less than half of the time \tab about half of the time \tab more than half of the time \tab almost always \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2403 \tab 65 \tab 152 \tab 43 \tab 29 \tab 23 \tab 1 \tab 49 \tab 2765 \cr
+   Total \tab 2403 \tab 65 \tab 152 \tab 43 \tab 29 \tab 23 \tab 1 \tab 49 \tab 2765 \cr
+}
 }
 
 \seealso{

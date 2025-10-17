@@ -26,16 +26,22 @@ C. I think most people in America are better informed about politics and governm
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4941/vshow}{GSS Data Explorer page for \code{poleff20}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2004 \tab 1340 \tab 65 \tab 287 \tab 359 \tab 615 \tab 141 \tab 1 \tab 4 \tab 2812 \cr
+   2014 \tab 1274 \tab 71 \tab 303 \tab 313 \tab 411 \tab 133 \tab 29 \tab 4 \tab 2538 \cr
+   Total \tab 2614 \tab 136 \tab 590 \tab 672 \tab 1026 \tab 274 \tab 30 \tab 8 \tab 5350 \cr
+}
 }
 
 \seealso{

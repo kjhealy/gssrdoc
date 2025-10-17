@@ -22,25 +22,32 @@ Question Do you expect the United States to fight in another war within the next
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1973 \tab - \tab full \cr
-   1975 \tab - \tab full \cr
-   1976 \tab - \tab full \cr
-   1978 \tab - \tab full \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1985 \tab - \tab full \cr
-   2010 \tab B \tab partial \cr
-   2012 \tab B \tab partial \cr
-   2014 \tab B \tab partial \cr
-   2016 \tab B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1973, 1975, 1976, 1978, 1982, 1983, 1985 \cr
+   B \tab 2010, 2012, 2014, 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5484/vshow}{GSS Data Explorer page for \code{uswar}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1973 \tab - \tab 845 \tab 562 \tab 87 \tab 10 \tab 1504 \cr
+   1975 \tab - \tab 1048 \tab 384 \tab 57 \tab 1 \tab 1490 \cr
+   1976 \tab 721 \tab 443 \tab 274 \tab 56 \tab 5 \tab 1499 \cr
+   1978 \tab - \tab 827 \tab 611 \tab 91 \tab 3 \tab 1532 \cr
+   1982 \tab - \tab 1324 \tab 454 \tab 82 \tab - \tab 1860 \cr
+   1983 \tab - \tab 1016 \tab 512 \tab 69 \tab 2 \tab 1599 \cr
+   1985 \tab 783 \tab 423 \tab 308 \tab 18 \tab 2 \tab 1534 \cr
+   2010 \tab 1281 \tab 508 \tab 212 \tab 43 \tab - \tab 2044 \cr
+   2012 \tab 1308 \tab 463 \tab 167 \tab 36 \tab - \tab 1974 \cr
+   2014 \tab 1714 \tab 643 \tab 153 \tab 28 \tab - \tab 2538 \cr
+   2016 \tab 1890 \tab 751 \tab 186 \tab 40 \tab - \tab 2867 \cr
+   Total \tab 7697 \tab 8291 \tab 3823 \tab 607 \tab 23 \tab 20441 \cr
+}
 }
 
 \seealso{

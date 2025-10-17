@@ -24,16 +24,22 @@ B. Visit sites that provide information without promoting a particular political
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2440/vshow}{GSS Data Explorer page for \code{polneutl}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not true \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2453 \tab 85 \tab 108 \tab 79 \tab 7 \tab 85 \tab 2817 \cr
+   2002 \tab 2411 \tab 96 \tab 109 \tab 102 \tab 2 \tab 45 \tab 2765 \cr
+   Total \tab 4864 \tab 181 \tab 217 \tab 181 \tab 9 \tab 130 \tab 5582 \cr
+}
 }
 
 \seealso{

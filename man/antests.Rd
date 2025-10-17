@@ -26,17 +26,23 @@ D. It is right to use animals for medical testing if it might save human lives.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4732/vshow}{GSS Data Explorer page for \code{antests}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 212 \tab 750 \tab 211 \tab 197 \tab 86 \tab 43 \tab 58 \tab 1606 \cr
+   1994 \tab 1606 \tab 188 \tab 685 \tab 207 \tab 160 \tab 82 \tab 33 \tab 31 \tab 2992 \cr
+   2000 \tab 1541 \tab 135 \tab 517 \tab 226 \tab 184 \tab 90 \tab 46 \tab 78 \tab 2817 \cr
+   Total \tab 3196 \tab 535 \tab 1952 \tab 644 \tab 541 \tab 258 \tab 122 \tab 167 \tab 7415 \cr
+}
 }
 
 \seealso{

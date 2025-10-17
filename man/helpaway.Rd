@@ -27,18 +27,25 @@ H. Looked after a person''s plants, mail, or pets while they were away
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2884/vshow}{GSS Data Explorer page for \code{helpaway}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least 2 or 3 times in the past year \tab once in the past year \tab not at all in the past year \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 31 \tab 19 \tab 67 \tab 426 \tab 213 \tab 600 \tab 12 \tab 4 \tab 2765 \cr
+   2004 \tab 1472 \tab 25 \tab 26 \tab 100 \tab 444 \tab 244 \tab 497 \tab 1 \tab 3 \tab 2812 \cr
+   2012 \tab 666 \tab 29 \tab 27 \tab 79 \tab 341 \tab 208 \tab 616 \tab 2 \tab 6 \tab 1974 \cr
+   2014 \tab 1264 \tab 27 \tab 14 \tab 69 \tab 333 \tab 206 \tab 620 \tab 1 \tab 4 \tab 2538 \cr
+   Total \tab 4795 \tab 112 \tab 86 \tab 315 \tab 1544 \tab 871 \tab 2333 \tab 16 \tab 17 \tab 10089 \cr
+}
 }
 
 \seealso{

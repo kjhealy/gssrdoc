@@ -21,15 +21,21 @@ Question What is your weight? Reported in pounds.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7839/vshow}{GSS Data Explorer page for \code{weight_issp}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 100 \tab 101 \tab 102 \tab 103 \tab 104 \tab 105 \tab 107 \tab 108 \tab 109 \tab 110 \tab 111 \tab 112 \tab 114 \tab 115 \tab 117 \tab 118 \tab 119 \tab 120 \tab 121 \tab 122 \tab 123 \tab 124 \tab 125 \tab 126 \tab 127 \tab 128 \tab 129 \tab 130 \tab 131 \tab 132 \tab 133 \tab 134 \tab 135 \tab 136 \tab 137 \tab 138 \tab 139 \tab 140 \tab 141 \tab 142 \tab 143 \tab 144 \tab 145 \tab 146 \tab 147 \tab 148 \tab 149 \tab 150 \tab 151 \tab 152 \tab 154 \tab 155 \tab 156 \tab 157 \tab 158 \tab 159 \tab 160 \tab 161 \tab 162 \tab 163 \tab 164 \tab 165 \tab 166 \tab 167 \tab 168 \tab 169 \tab 170 \tab 171 \tab 172 \tab 173 \tab 174 \tab 175 \tab 176 \tab 177 \tab 178 \tab 179 \tab 180 \tab 181 \tab 182 \tab 183 \tab 184 \tab 185 \tab 186 \tab 187 \tab 188 \tab 189 \tab 190 \tab 191 \tab 192 \tab 193 \tab 194 \tab 195 \tab 196 \tab 197 \tab 198 \tab 199 \tab 200 \tab 201 \tab 202 \tab 203 \tab 204 \tab 205 \tab 206 \tab 208 \tab 209 \tab 210 \tab 211 \tab 212 \tab 214 \tab 215 \tab 216 \tab 217 \tab 218 \tab 219 \tab 220 \tab 221 \tab 222 \tab 223 \tab 224 \tab 225 \tab 229 \tab 230 \tab 231 \tab 234 \tab 235 \tab 236 \tab 240 \tab 242 \tab 245 \tab 247 \tab 248 \tab 250 \tab 252 \tab 254 \tab 255 \tab 257 \tab 258 \tab 259 \tab 260 \tab 262 \tab 264 \tab 265 \tab 267 \tab 269 \tab 270 \tab 271 \tab 275 \tab 276 \tab 278 \tab 280 \tab 285 \tab 286 \tab 289 \tab 290 \tab 295 \tab 300 \tab 305 \tab 310 \tab 314 \tab 320 \tab 321 \tab 325 \tab 330 \tab 334 \tab 337 \tab 345 \tab 350 \tab 351 \tab 355 \tab 460 \tab 490 \tab 500 \tab 80 \tab 90 \tab 93 \tab 95 \tab 96 \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2382 \tab 2 \tab 1 \tab 2 \tab 4 \tab 1 \tab 6 \tab 1 \tab 2 \tab 2 \tab 6 \tab 1 \tab 3 \tab 2 \tab 11 \tab 1 \tab 1 \tab 4 \tab 14 \tab 3 \tab 4 \tab 5 \tab 2 \tab 13 \tab 1 \tab 5 \tab 3 \tab 4 \tab 32 \tab 2 \tab 6 \tab 4 \tab 2 \tab 34 \tab 2 \tab 4 \tab 4 \tab 2 \tab 25 \tab 1 \tab 5 \tab 6 \tab 3 \tab 31 \tab 4 \tab 6 \tab 13 \tab 1 \tab 35 \tab 3 \tab 3 \tab 7 \tab 21 \tab 2 \tab 6 \tab 3 \tab 3 \tab 49 \tab 1 \tab 5 \tab 3 \tab 6 \tab 33 \tab 2 \tab 7 \tab 5 \tab 5 \tab 45 \tab 4 \tab 8 \tab 2 \tab 2 \tab 32 \tab 2 \tab 1 \tab 7 \tab 3 \tab 48 \tab 1 \tab 1 \tab 4 \tab 2 \tab 24 \tab 3 \tab 3 \tab 3 \tab 5 \tab 41 \tab 1 \tab 2 \tab 2 \tab 3 \tab 20 \tab 3 \tab 1 \tab 7 \tab 1 \tab 35 \tab 2 \tab 2 \tab 1 \tab 2 \tab 14 \tab 3 \tab 3 \tab 1 \tab 23 \tab 1 \tab 1 \tab 1 \tab 16 \tab 2 \tab 1 \tab 1 \tab 2 \tab 32 \tab 2 \tab 1 \tab 2 \tab 4 \tab 12 \tab 2 \tab 25 \tab 1 \tab 2 \tab 7 \tab 1 \tab 10 \tab 1 \tab 6 \tab 1 \tab 2 \tab 10 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 9 \tab 2 \tab 1 \tab 6 \tab 1 \tab 1 \tab 6 \tab 1 \tab 3 \tab 1 \tab 1 \tab 6 \tab 2 \tab 1 \tab 3 \tab 5 \tab 2 \tab 4 \tab 2 \tab 3 \tab 1 \tab 3 \tab 1 \tab 3 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 26 \tab 26 \tab 3544 \cr
+   Total \tab 2382 \tab 2 \tab 1 \tab 2 \tab 4 \tab 1 \tab 6 \tab 1 \tab 2 \tab 2 \tab 6 \tab 1 \tab 3 \tab 2 \tab 11 \tab 1 \tab 1 \tab 4 \tab 14 \tab 3 \tab 4 \tab 5 \tab 2 \tab 13 \tab 1 \tab 5 \tab 3 \tab 4 \tab 32 \tab 2 \tab 6 \tab 4 \tab 2 \tab 34 \tab 2 \tab 4 \tab 4 \tab 2 \tab 25 \tab 1 \tab 5 \tab 6 \tab 3 \tab 31 \tab 4 \tab 6 \tab 13 \tab 1 \tab 35 \tab 3 \tab 3 \tab 7 \tab 21 \tab 2 \tab 6 \tab 3 \tab 3 \tab 49 \tab 1 \tab 5 \tab 3 \tab 6 \tab 33 \tab 2 \tab 7 \tab 5 \tab 5 \tab 45 \tab 4 \tab 8 \tab 2 \tab 2 \tab 32 \tab 2 \tab 1 \tab 7 \tab 3 \tab 48 \tab 1 \tab 1 \tab 4 \tab 2 \tab 24 \tab 3 \tab 3 \tab 3 \tab 5 \tab 41 \tab 1 \tab 2 \tab 2 \tab 3 \tab 20 \tab 3 \tab 1 \tab 7 \tab 1 \tab 35 \tab 2 \tab 2 \tab 1 \tab 2 \tab 14 \tab 3 \tab 3 \tab 1 \tab 23 \tab 1 \tab 1 \tab 1 \tab 16 \tab 2 \tab 1 \tab 1 \tab 2 \tab 32 \tab 2 \tab 1 \tab 2 \tab 4 \tab 12 \tab 2 \tab 25 \tab 1 \tab 2 \tab 7 \tab 1 \tab 10 \tab 1 \tab 6 \tab 1 \tab 2 \tab 10 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 9 \tab 2 \tab 1 \tab 6 \tab 1 \tab 1 \tab 6 \tab 1 \tab 3 \tab 1 \tab 1 \tab 6 \tab 2 \tab 1 \tab 3 \tab 5 \tab 2 \tab 4 \tab 2 \tab 3 \tab 1 \tab 3 \tab 1 \tab 3 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 26 \tab 26 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

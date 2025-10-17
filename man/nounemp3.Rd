@@ -26,16 +26,23 @@ C. To accept temporary employment
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4622/vshow}{GSS Data Explorer page for \code{nounemp3}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3492 \tab 238 \tab 551 \tab 89 \tab 99 \tab 34 \tab 5 \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 170 \tab 524 \tab 102 \tab 102 \tab 32 \tab 3 \tab 7 \tab 2867 \cr
+   Total \tab 5419 \tab 408 \tab 1075 \tab 191 \tab 201 \tab 66 \tab 8 \tab 9 \tab 7377 \cr
+}
 }
 
 \seealso{

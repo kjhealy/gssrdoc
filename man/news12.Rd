@@ -23,16 +23,22 @@ K. News headlines?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2438/vshow}{GSS Data Explorer page for \code{news12}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2453 \tab 212 \tab 68 \tab 84 \tab 2817 \cr
+   2002 \tab 2411 \tab 251 \tab 58 \tab 45 \tab 2765 \cr
+   Total \tab 4864 \tab 463 \tab 126 \tab 129 \tab 5582 \cr
+}
 }
 
 \seealso{

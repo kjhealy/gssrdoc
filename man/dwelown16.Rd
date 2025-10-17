@@ -23,18 +23,23 @@ Question When you were 16 years old, did your family own your own home, pay rent
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B \tab partial \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7299/vshow}{GSS Data Explorer page for \code{dwelown16}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab owned or was buying \tab paid rent \tab other \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab 789 \tab 1133 \tab 389 \tab 28 \tab 7 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 1367 \tab 2007 \tab 595 \tab 34 \tab 7 \tab - \tab 22 \tab 4032 \cr
+   2022 \tab 1174 \tab 1673 \tab 624 \tab 53 \tab 16 \tab 3 \tab 1 \tab 3544 \cr
+   Total \tab 3330 \tab 4813 \tab 1608 \tab 115 \tab 30 \tab 5 \tab 23 \tab 9924 \cr
+}
 }
 
 \keyword{variable}

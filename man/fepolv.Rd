@@ -23,17 +23,22 @@ Question Please indicate if you agree or disagree with this statement: Most men 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7602/vshow}{GSS Data Explorer page for \code{fepolv}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab skipped on web \tab Total \cr
+   2021 \tab 2658 \tab 126 \tab 1104 \tab 140 \tab 4 \tab 4032 \cr
+   2022 \tab 2988 \tab 51 \tab 437 \tab 68 \tab - \tab 3544 \cr
+   Total \tab 5646 \tab 177 \tab 1541 \tab 208 \tab 4 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

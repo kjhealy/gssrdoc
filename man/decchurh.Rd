@@ -23,15 +23,21 @@ C. The teachings of your church or synagogue
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1087/vshow}{GSS Data Explorer page for \code{decchurh}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab 2 \tab 3 \tab 4 \tab not very important \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 424 \tab 291 \tab 350 \tab 161 \tab 233 \tab 14 \tab 8 \tab 1481 \cr
+   Total \tab 0 \tab 424 \tab 291 \tab 350 \tab 161 \tab 233 \tab 14 \tab 8 \tab 1481 \cr
+}
 }
 
 \seealso{

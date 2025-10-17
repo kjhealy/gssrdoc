@@ -21,17 +21,25 @@ Question A. On average, how many hours a week do you personally spend on househo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2022 \tab A/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/-/- \tab 2022 \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4435/vshow}{GSS Data Explorer page for \code{rhhwork}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 28 \tab 3 \tab 30 \tab 34 \tab 35 \tab 36 \tab 4 \tab 40 \tab 45 \tab 48 \tab 5 \tab 50 \tab 51 \tab 55 \tab 56 \tab 6 \tab 60 \tab 7 \tab 72 \tab 8 \tab 84 \tab 9 \tab don't know \tab no answer \tab 11 \tab 17 \tab 27 \tab 42 \tab 49 \tab 70 \tab 80 \tab 85 \tab 97 or more \tab 100 \tab 168 \tab 26 \tab 32 \tab 47 \tab skipped on web \tab Total \cr
+   2002 \tab 2058 \tab 11 \tab 17 \tab 110 \tab 26 \tab 1 \tab 11 \tab 27 \tab 8 \tab 1 \tab 1 \tab 54 \tab 36 \tab 5 \tab 1 \tab 1 \tab 4 \tab 10 \tab 6 \tab 59 \tab 17 \tab 1 \tab 9 \tab 1 \tab 55 \tab 11 \tab 2 \tab 2 \tab 71 \tab 4 \tab 1 \tab 1 \tab 1 \tab 39 \tab 3 \tab 30 \tab 1 \tab 42 \tab 1 \tab 2 \tab 2 \tab 22 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 46 \tab 65 \tab 146 \tab 32 \tab 2 \tab 46 \tab 63 \tab 7 \tab 3 \tab 1 \tab 108 \tab 75 \tab 13 \tab 2 \tab - \tab 7 \tab 18 \tab 10 \tab 101 \tab 20 \tab - \tab 11 \tab - \tab 110 \tab 20 \tab - \tab 3 \tab 136 \tab 9 \tab - \tab - \tab 1 \tab 67 \tab 1 \tab 60 \tab 2 \tab 69 \tab - \tab 6 \tab 21 \tab 5 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 4 \tab 1 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2022 \tab 2385 \tab 26 \tab 34 \tab 137 \tab 35 \tab 2 \tab 42 \tab 37 \tab 5 \tab 3 \tab - \tab 107 \tab 65 \tab 14 \tab 3 \tab - \tab 11 \tab 12 \tab 9 \tab 103 \tab 19 \tab - \tab 5 \tab - \tab 93 \tab 17 \tab 2 \tab - \tab 123 \tab 2 \tab - \tab - \tab 1 \tab 59 \tab 4 \tab 58 \tab 2 \tab 79 \tab - \tab 6 \tab 13 \tab 4 \tab 1 \tab - \tab 2 \tab 1 \tab - \tab - \tab 2 \tab - \tab - \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 15 \tab 3544 \cr
+   Total \tab 5115 \tab 83 \tab 116 \tab 393 \tab 93 \tab 5 \tab 99 \tab 127 \tab 20 \tab 7 \tab 2 \tab 269 \tab 176 \tab 32 \tab 6 \tab 1 \tab 22 \tab 40 \tab 25 \tab 263 \tab 56 \tab 1 \tab 25 \tab 1 \tab 258 \tab 48 \tab 4 \tab 5 \tab 330 \tab 15 \tab 1 \tab 1 \tab 3 \tab 165 \tab 8 \tab 148 \tab 5 \tab 190 \tab 1 \tab 14 \tab 36 \tab 31 \tab 2 \tab 2 \tab 3 \tab 3 \tab 1 \tab 4 \tab 3 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 15 \tab 8283 \cr
+}
 }
 
 \seealso{

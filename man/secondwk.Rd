@@ -22,20 +22,26 @@ Question Do you have any jobs besides your main job or do any other work for pay
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2773/vshow}{GSS Data Explorer page for \code{secondwk}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 306 \tab 1471 \tab 6 \tab 13 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 285 \tab 1438 \tab 2 \tab 9 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 193 \tab 970 \tab - \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 182 \tab 1061 \tab - \tab 7 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 261 \tab 1154 \tab 2 \tab 31 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 286 \tab 1679 \tab 4 \tab 14 \tab 15 \tab 3544 \cr
+   Total \tab 8336 \tab 1513 \tab 7773 \tab 14 \tab 98 \tab 15 \tab 17749 \cr
+}
 }
 
 \seealso{

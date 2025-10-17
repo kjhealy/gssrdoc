@@ -26,15 +26,21 @@ Students who want to keep up with their native languages and cultures should be 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1608/vshow}{GSS Data Explorer page for \code{engteach}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab all classes in english \tab 1-2 yrs in native lang \tab native lang thru hs \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 1518 \tab 512 \tab 687 \tab 223 \tab 41 \tab 11 \tab 2992 \cr
+   Total \tab 1518 \tab 512 \tab 687 \tab 223 \tab 41 \tab 11 \tab 2992 \cr
+}
 }
 
 \seealso{

@@ -27,15 +27,21 @@ Question How often do you have any contact with people who are a lot poorer than
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7516/vshow}{GSS Data Explorer page for \code{contpoor}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab never \tab less than once a month \tab once a month \tab several times a month \tab once a week \tab several times a week \tab every day \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2021 \tab 2029 \tab 80 \tab 240 \tab 151 \tab 378 \tab 128 \tab 377 \tab 350 \tab 112 \tab 174 \tab 13 \tab 4032 \cr
+   Total \tab 2029 \tab 80 \tab 240 \tab 151 \tab 378 \tab 128 \tab 377 \tab 350 \tab 112 \tab 174 \tab 13 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

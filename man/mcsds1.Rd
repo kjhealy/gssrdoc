@@ -22,15 +22,21 @@ Question Next are a number of statements concerning personal attitudes and trait
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7149/vshow}{GSS Data Explorer page for \code{mcsds1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 947 \tab 199 \tab 3 \tab 24 \tab 2348 \cr
+   Total \tab 1175 \tab 947 \tab 199 \tab 3 \tab 24 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

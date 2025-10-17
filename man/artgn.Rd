@@ -25,16 +25,23 @@ J. Obtained information about an exhibit or other event at an art museum or art 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2541/vshow}{GSS Data Explorer page for \code{artgn}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab Total \cr
+   2000 \tab 1884 \tab 632 \tab 185 \tab 98 \tab 18 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1372 \tab 917 \tab 244 \tab 141 \tab 6 \tab 79 \tab 6 \tab 2765 \cr
+   Total \tab 3256 \tab 1549 \tab 429 \tab 239 \tab 24 \tab 79 \tab 6 \tab 5582 \cr
+}
 }
 
 \seealso{

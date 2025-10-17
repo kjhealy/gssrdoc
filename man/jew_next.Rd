@@ -25,15 +25,21 @@ Question  Do you consider yourself Orthodox, Conservative, Reform or none of the
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8003/vshow}{GSS Data Explorer page for \code{jew_next}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab orthodox \tab conservative \tab reform \tab none of these \tab other \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 1190 \tab 5 \tab 7 \tab 15 \tab 9 \tab 5 \tab 2308 \tab 5 \tab 3544 \cr
+   Total \tab 1190 \tab 5 \tab 7 \tab 15 \tab 9 \tab 5 \tab 2308 \tab 5 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

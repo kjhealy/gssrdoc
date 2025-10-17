@@ -28,21 +28,26 @@ Question Last week was your partner working full time, part time, going to schoo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6152/vshow}{GSS Data Explorer page for \code{cowrksta}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab working full time \tab working part time \tab with a job, but not at work because of temporary illness, vacation, strike \tab unemployed, laid off, looking for work \tab retired \tab in school \tab keeping house \tab other \tab no answer \tab Total \cr
+   2012 \tab 1806 \tab 98 \tab 16 \tab 2 \tab 16 \tab 11 \tab 5 \tab 17 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab 2325 \tab 127 \tab 22 \tab 3 \tab 8 \tab 16 \tab 6 \tab 22 \tab 6 \tab 3 \tab 2538 \cr
+   2016 \tab 2603 \tab 147 \tab 29 \tab 5 \tab 14 \tab 21 \tab 8 \tab 35 \tab 5 \tab - \tab 2867 \cr
+   2018 \tab 2117 \tab 143 \tab 24 \tab 5 \tab 10 \tab 16 \tab 3 \tab 26 \tab 3 \tab 1 \tab 2348 \cr
+   2021 \tab 3659 \tab 199 \tab 34 \tab 9 \tab 40 \tab 39 \tab 10 \tab 21 \tab 13 \tab 8 \tab 4032 \cr
+   2022 \tab 3228 \tab 198 \tab 27 \tab 4 \tab 16 \tab 23 \tab 12 \tab 19 \tab 15 \tab 2 \tab 3544 \cr
+   Total \tab 15738 \tab 912 \tab 152 \tab 28 \tab 104 \tab 126 \tab 44 \tab 140 \tab 45 \tab 14 \tab 17303 \cr
+}
 }
 
 \seealso{

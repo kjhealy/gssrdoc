@@ -24,16 +24,22 @@ Question A. Some people say that genetic screening is a wonderful medical advanc
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 1990, 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5085/vshow}{GSS Data Explorer page for \code{genegood}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab good ) harm \tab harm ) good \tab it depends \tab refused \tab don't know \tab no answer \tab Total \cr
+   1990 \tab 455 \tab 434 \tab 190 \tab 99 \tab 6 \tab 183 \tab 5 \tab 1372 \cr
+   1996 \tab 2408 \tab 242 \tab 112 \tab - \tab - \tab 119 \tab 23 \tab 2904 \cr
+   Total \tab 2863 \tab 676 \tab 302 \tab 99 \tab 6 \tab 302 \tab 28 \tab 4276 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Question People may have different opinions about whether women or men are best 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7783/vshow}{GSS Data Explorer page for \code{cabgndr}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab women are much better suited \tab women are somewhat better suited \tab women and men are equally suited \tab men are somewhat better suited \tab men are much better suited \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2386 \tab 30 \tab 51 \tab 888 \tab 58 \tab 23 \tab 93 \tab 11 \tab 4 \tab 3544 \cr
+   Total \tab 2386 \tab 30 \tab 51 \tab 888 \tab 58 \tab 23 \tab 93 \tab 11 \tab 4 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

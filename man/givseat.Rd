@@ -27,18 +27,25 @@ G. Offered your seat on a bus or in a public place to a stranger who was standin
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2883/vshow}{GSS Data Explorer page for \code{givseat}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least 2 or 3 times in the past year \tab once in the past year \tab not at all in the past year \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 20 \tab 26 \tab 70 \tab 259 \tab 185 \tab 788 \tab 18 \tab 6 \tab 2765 \cr
+   2004 \tab 1472 \tab 22 \tab 30 \tab 99 \tab 330 \tab 195 \tab 655 \tab 6 \tab 3 \tab 2812 \cr
+   2012 \tab 666 \tab 24 \tab 24 \tab 75 \tab 297 \tab 186 \tab 686 \tab 6 \tab 10 \tab 1974 \cr
+   2014 \tab 1264 \tab 27 \tab 23 \tab 87 \tab 240 \tab 196 \tab 687 \tab 9 \tab 5 \tab 2538 \cr
+   Total \tab 4795 \tab 93 \tab 103 \tab 331 \tab 1126 \tab 762 \tab 2816 \tab 39 \tab 24 \tab 10089 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Question Personally, how committed do you feel to this organization?  Not commit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1014/vshow}{GSS Data Explorer page for \code{caregrp}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not committed \tab slightly comm \tab moderately comm \tab strongly comm \tab very strongly comm \tab don't know \tab no answer \tab Total \cr
+   1987 \tab 606 \tab 50 \tab 170 \tab 275 \tab 351 \tab 331 \tab 1 \tab 35 \tab 1819 \cr
+   Total \tab 606 \tab 50 \tab 170 \tab 275 \tab 351 \tab 331 \tab 1 \tab 35 \tab 1819 \cr
+}
 }
 
 \seealso{

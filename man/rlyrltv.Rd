@@ -24,15 +24,21 @@ Question People have different opinions about who you can rely on and who should
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7781/vshow}{GSS Data Explorer page for \code{rlyrltv}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab you can definitely rely more on close relatives \tab 2 \tab 3 \tab you can rely equally on both \tab 5 \tab 6 \tab you can definitely rely more on close friends \tab 9 \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab 2386 \tab 215 \tab 111 \tab 101 \tab 408 \tab 43 \tab 30 \tab 87 \tab 91 \tab 56 \tab 11 \tab 5 \tab 3544 \cr
+   Total \tab 2386 \tab 215 \tab 111 \tab 101 \tab 408 \tab 43 \tab 30 \tab 87 \tab 91 \tab 56 \tab 11 \tab 5 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

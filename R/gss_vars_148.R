@@ -17,13 +17,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `country`](https://gssdataexplorer.norc.org/variables/1389/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |385            |592     |364            |167        |66                |22         |10        |1606  |
+#'  |Total |0   |385            |592     |364            |167        |66                |22         |10        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -53,13 +59,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `blues`](https://gssdataexplorer.norc.org/variables/1390/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |221            |669     |367            |220        |61                |56         |12        |1606  |
+#'  |Total |0   |221            |669     |367            |220        |61                |56         |12        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -89,13 +101,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `musicals`](https://gssdataexplorer.norc.org/variables/1391/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |235            |562     |369            |281        |68                |77         |14        |1606  |
+#'  |Total |0   |235            |562     |369            |281        |68                |77         |14        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -125,13 +143,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `classicl`](https://gssdataexplorer.norc.org/variables/1392/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |281            |478     |371            |263        |136               |66         |11        |1606  |
+#'  |Total |0   |281            |478     |371            |263        |136               |66         |11        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -161,13 +185,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `folk`](https://gssdataexplorer.norc.org/variables/1393/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |130            |553     |472            |274        |87                |78         |12        |1606  |
+#'  |Total |0   |130            |553     |472            |274        |87                |78         |12        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -197,13 +227,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `gospel`](https://gssdataexplorer.norc.org/variables/1394/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |356            |571     |364            |197        |71                |35         |12        |1606  |
+#'  |Total |0   |356            |571     |364            |197        |71                |35         |12        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -233,13 +269,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `jazz`](https://gssdataexplorer.norc.org/variables/1395/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |254            |540     |393            |297        |69                |38         |15        |1606  |
+#'  |Total |0   |254            |540     |393            |297        |69                |38         |15        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -269,13 +311,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `latin`](https://gssdataexplorer.norc.org/variables/1396/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |85             |325     |416            |403        |144               |221        |12        |1606  |
+#'  |Total |0   |85             |325     |416            |403        |144               |221        |12        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -305,13 +353,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `moodeasy`](https://gssdataexplorer.norc.org/variables/1397/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |251            |698     |323            |200        |49                |72         |13        |1606  |
+#'  |Total |0   |251            |698     |323            |200        |49                |72         |13        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -341,13 +395,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `newage`](https://gssdataexplorer.norc.org/variables/1398/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |48             |186     |269            |429        |368               |292        |14        |1606  |
+#'  |Total |0   |48             |186     |269            |429        |368               |292        |14        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture

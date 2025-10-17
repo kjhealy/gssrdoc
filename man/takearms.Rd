@@ -27,15 +27,21 @@ A. An army sergeant was convicted of stealing airplane parts, ammunition, explos
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5227/vshow}{GSS Data Explorer page for \code{takearms}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab reprimand \tab dismiss military \tab one year prison \tab 5-9 years prison \tab 10-20 yrs prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
+   1998 \tab 1445 \tab 34 \tab 395 \tab 167 \tab 358 \tab 272 \tab 97 \tab 48 \tab 16 \tab 2832 \cr
+   Total \tab 1445 \tab 34 \tab 395 \tab 167 \tab 358 \tab 272 \tab 97 \tab 48 \tab 16 \tab 2832 \cr
+}
 }
 
 \seealso{

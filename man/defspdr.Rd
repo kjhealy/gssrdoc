@@ -24,15 +24,21 @@ A. Where would you place yourself on this scale, or haven't you thought much abo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1980 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1980 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/759/vshow}{GSS Data Explorer page for \code{defspdr}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab havent thought much \tab greatly decrease \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab greatly increase \tab don't know \tab no answer \tab Total \cr
+   1980 \tab - \tab 135 \tab 47 \tab 49 \tab 97 \tab 308 \tab 335 \tab 189 \tab 278 \tab 25 \tab 5 \tab 1468 \cr
+   Total \tab 0 \tab 135 \tab 47 \tab 49 \tab 97 \tab 308 \tab 335 \tab 189 \tab 278 \tab 25 \tab 5 \tab 1468 \cr
+}
 }
 
 \seealso{

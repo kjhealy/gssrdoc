@@ -23,15 +23,21 @@ C. A school board should not hire a person to teach if that person belongs to an
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/724/vshow}{GSS Data Explorer page for \code{racteach}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1977 \tab - \tab 707 \tab 710 \tab 103 \tab 10 \tab 1530 \cr
+   Total \tab 0 \tab 707 \tab 710 \tab 103 \tab 10 \tab 1530 \cr
+}
 }
 
 \seealso{

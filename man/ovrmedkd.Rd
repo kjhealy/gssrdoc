@@ -25,15 +25,21 @@ A. Doctors today are over-medicating children with common behavior problems.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2961/vshow}{GSS Data Explorer page for \code{ovrmedkd}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1372 \tab 579 \tab 529 \tab 146 \tab 37 \tab 90 \tab 12 \tab 2765 \cr
+   Total \tab 1372 \tab 579 \tab 529 \tab 146 \tab 37 \tab 90 \tab 12 \tab 2765 \cr
+}
 }
 
 \seealso{

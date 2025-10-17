@@ -22,19 +22,25 @@ Question INTERVIEWER: PLEASE RECORD THE COLOR FROM THE COLOR CARD THAT MOST CLOS
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3978/vshow}{GSS Data Explorer page for \code{ratetone}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 1 - lightest \tab 10 - darkest \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab - \tab 561 \tab 18 \tab 531 \tab 234 \tab 106 \tab 72 \tab 45 \tab 65 \tab 49 \tab 17 \tab 276 \tab - \tab 1974 \cr
+   2014 \tab - \tab 1045 \tab 6 \tab 513 \tab 247 \tab 102 \tab 86 \tab 60 \tab 58 \tab 39 \tab 28 \tab 354 \tab - \tab 2538 \cr
+   2016 \tab - \tab 1049 \tab 9 \tab 785 \tab 292 \tab 166 \tab 116 \tab 82 \tab 79 \tab 61 \tab 21 \tab 207 \tab - \tab 2867 \cr
+   2018 \tab - \tab 904 \tab 3 \tab 556 \tab 219 \tab 106 \tab 86 \tab 60 \tab 56 \tab 46 \tab 17 \tab 295 \tab - \tab 2348 \cr
+   2022 \tab 1864 \tab 785 \tab 9 \tab 353 \tab 175 \tab 93 \tab 75 \tab 65 \tab 60 \tab 52 \tab 13 \tab - \tab - \tab 3544 \cr
+   Total \tab 1864 \tab 4344 \tab 45 \tab 2738 \tab 1167 \tab 573 \tab 435 \tab 312 \tab 318 \tab 247 \tab 96 \tab 1132 \tab 0 \tab 13271 \cr
+}
 }
 
 \seealso{

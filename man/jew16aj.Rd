@@ -26,15 +26,21 @@ A. Were you Orthodox, Conservative, Reform, or none of these? (PROBE FOR EXACT D
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/346/vshow}{GSS Data Explorer page for \code{jew16aj}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab reform \tab no answer \tab Total \cr
+   2012 \tab 1969 \tab 1 \tab 4 \tab 1974 \cr
+   Total \tab 1969 \tab 1 \tab 4 \tab 1974 \cr
+}
 }
 
 \seealso{

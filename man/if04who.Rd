@@ -24,17 +24,24 @@ Question J. In 2004, you remember that Kerry ran for President on the Democratic
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2008, 2010 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/171/vshow}{GSS Data Explorer page for \code{if04who}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab kerry \tab bush \tab nader \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3054 \tab 572 \tab 444 \tab 269 \tab 138 \tab 33 \tab 4510 \cr
+   2008 \tab 1290 \tab 309 \tab 195 \tab 125 \tab 81 \tab 23 \tab 2023 \cr
+   2010 \tab 1260 \tab 322 \tab 219 \tab 126 \tab 83 \tab 34 \tab 2044 \cr
+   Total \tab 5604 \tab 1203 \tab 858 \tab 520 \tab 302 \tab 90 \tab 8577 \cr
+}
 }
 
 \seealso{

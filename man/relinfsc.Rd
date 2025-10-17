@@ -25,16 +25,23 @@ B. Religious leaders. (Would you say a great deal of influence, a fair amount, a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3371/vshow}{GSS Data Explorer page for \code{relinfsc}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3582 \tab 68 \tab 197 \tab 345 \tab 265 \tab 49 \tab 4 \tab 4510 \cr
+   2010 \tab 1569 \tab 34 \tab 85 \tab 174 \tab 159 \tab 19 \tab 4 \tab 2044 \cr
+   Total \tab 5151 \tab 102 \tab 282 \tab 519 \tab 424 \tab 68 \tab 8 \tab 6554 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ H. Foreign business contacts
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5215/vshow}{GSS Data Explorer page for \code{askfrbiz}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1398 \tab 846 \tab 371 \tab 90 \tab 49 \tab 53 \tab 10 \tab 2817 \cr
+   Total \tab 1398 \tab 846 \tab 371 \tab 90 \tab 49 \tab 53 \tab 10 \tab 2817 \cr
+}
 }
 
 \seealso{

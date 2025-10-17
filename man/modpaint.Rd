@@ -25,16 +25,22 @@ E. Modern painting is just slapped on: a child could do it.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1426/vshow}{GSS Data Explorer page for \code{modpaint}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 72 \tab 528 \tab 720 \tab 153 \tab 117 \tab 16 \tab 1606 \cr
+   1998 \tab 1387 \tab 60 \tab 335 \tab 695 \tab 184 \tab 154 \tab 17 \tab 2832 \cr
+   Total \tab 1387 \tab 132 \tab 863 \tab 1415 \tab 337 \tab 271 \tab 33 \tab 4438 \cr
+}
 }
 
 \seealso{

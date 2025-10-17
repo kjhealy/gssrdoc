@@ -26,18 +26,26 @@ A. Do you come home from work exhausted?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4550/vshow}{GSS Data Explorer page for \code{xhaustn}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 55 \tab 259 \tab 441 \tab 96 \tab 20 \tab 3 \tab 24 \tab 1537 \cr
+   1998 \tab 1967 \tab 68 \tab 274 \tab 398 \tab 71 \tab 17 \tab 3 \tab 34 \tab 2832 \cr
+   2006 \tab 3492 \tab 151 \tab 251 \tab 465 \tab 116 \tab 33 \tab - \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 150 \tab 294 \tab 367 \tab 101 \tab 21 \tab 1 \tab 6 \tab 2867 \cr
+   Total \tab 8025 \tab 424 \tab 1078 \tab 1671 \tab 384 \tab 91 \tab 7 \tab 66 \tab 11746 \cr
+}
 }
 
 \seealso{

@@ -21,15 +21,21 @@ Question How many other close friends do you have - apart from those at work, in
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4234/vshow}{GSS Data Explorer page for \code{othfrd}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab no other close friends \tab 1 \tab 10 \tab 11 \tab 12 \tab 14 \tab 15 \tab 16 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 24 \tab 25 \tab 3 \tab 30 \tab 35 \tab 4 \tab 40 \tab 45 \tab 5 \tab 50 \tab 6 \tab 60 \tab 7 \tab 70 \tab 75 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 180 \tab 57 \tab 111 \tab 1 \tab 29 \tab 2 \tab 43 \tab 1 \tab 3 \tab 1 \tab 99 \tab 43 \tab 1 \tab 1 \tab 25 \tab 138 \tab 16 \tab 5 \tab 88 \tab 5 \tab 1 \tab 122 \tab 28 \tab 61 \tab 4 \tab 20 \tab 1 \tab 1 \tab 36 \tab 12 \tab 4 \tab 10 \tab 2765 \cr
+   Total \tab 1616 \tab 180 \tab 57 \tab 111 \tab 1 \tab 29 \tab 2 \tab 43 \tab 1 \tab 3 \tab 1 \tab 99 \tab 43 \tab 1 \tab 1 \tab 25 \tab 138 \tab 16 \tab 5 \tab 88 \tab 5 \tab 1 \tab 122 \tab 28 \tab 61 \tab 4 \tab 20 \tab 1 \tab 1 \tab 36 \tab 12 \tab 4 \tab 10 \tab 2765 \cr
+}
 }
 
 \seealso{

@@ -27,18 +27,25 @@ D. Allowed a stranger to go ahead of you in line
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2880/vshow}{GSS Data Explorer page for \code{cutahead}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least 2 or 3 times in the past year \tab once in the past year \tab not at all in the past year \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 56 \tab 95 \tab 273 \tab 581 \tab 152 \tab 193 \tab 17 \tab 5 \tab 2765 \cr
+   2004 \tab 1472 \tab 85 \tab 125 \tab 307 \tab 539 \tab 151 \tab 126 \tab 5 \tab 2 \tab 2812 \cr
+   2012 \tab 666 \tab 90 \tab 106 \tab 245 \tab 559 \tab 158 \tab 136 \tab 8 \tab 6 \tab 1974 \cr
+   2014 \tab 1264 \tab 96 \tab 136 \tab 249 \tab 467 \tab 147 \tab 171 \tab 4 \tab 4 \tab 2538 \cr
+   Total \tab 4795 \tab 327 \tab 462 \tab 1074 \tab 2146 \tab 608 \tab 626 \tab 34 \tab 17 \tab 10089 \cr
+}
 }
 
 \seealso{

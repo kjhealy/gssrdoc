@@ -23,16 +23,22 @@ B. Did your Web experience change your tastes or opinions in any way?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2455/vshow}{GSS Data Explorer page for \code{artschng}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2355 \tab 61 \tab 278 \tab 123 \tab - \tab 2817 \cr
+   2002 \tab 2284 \tab 73 \tab 360 \tab 46 \tab 2 \tab 2765 \cr
+   Total \tab 4639 \tab 134 \tab 638 \tab 169 \tab 2 \tab 5582 \cr
+}
 }
 
 \seealso{

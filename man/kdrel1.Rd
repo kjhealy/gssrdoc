@@ -24,15 +24,21 @@ D1. Relation to R. of first child
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1510/vshow}{GSS Data Explorer page for \code{kdrel1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab biological \tab adopted \tab step \tab no answer \tab Total \cr
+   1994 \tab 1860 \tab 1043 \tab 21 \tab 59 \tab 9 \tab 2992 \cr
+   Total \tab 1860 \tab 1043 \tab 21 \tab 59 \tab 9 \tab 2992 \cr
+}
 }
 
 \seealso{

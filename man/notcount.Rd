@@ -25,15 +25,21 @@ H. I rarely count on good things happening to me.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3043/vshow}{GSS Data Explorer page for \code{notcount}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 432 \tab 140 \tab 466 \tab 1241 \tab 523 \tab 6 \tab 4 \tab 2812 \cr
+   Total \tab 432 \tab 140 \tab 466 \tab 1241 \tab 523 \tab 6 \tab 4 \tab 2812 \cr
+}
 }
 
 \seealso{

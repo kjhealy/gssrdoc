@@ -22,15 +22,21 @@ H. MOST IMPORTANT REASON FROM ABOVE
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1809/vshow}{GSS Data Explorer page for \code{carbuy1}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab no answer \tab Total \cr
+   1996 \tab 2711 \tab 35 \tab 23 \tab 5 \tab 20 \tab 10 \tab 76 \tab 17 \tab 7 \tab 2904 \cr
+   Total \tab 2711 \tab 35 \tab 23 \tab 5 \tab 20 \tab 10 \tab 76 \tab 17 \tab 7 \tab 2904 \cr
+}
 }
 
 \seealso{

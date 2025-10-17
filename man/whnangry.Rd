@@ -25,15 +25,21 @@ Question How long ago did this event happen? (ALLOW OPEN-ENDED RESPONSE; IF A RA
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1740/vshow}{GSS Data Explorer page for \code{whnangry}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab today \tab yesterday \tab up to a week ago \tab up to a month ago \tab months ago \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1779 \tab 79 \tab 108 \tab 500 \tab 350 \tab 78 \tab 1 \tab 9 \tab 2904 \cr
+   Total \tab 1779 \tab 79 \tab 108 \tab 500 \tab 350 \tab 78 \tab 1 \tab 9 \tab 2904 \cr
+}
 }
 
 \seealso{

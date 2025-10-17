@@ -26,16 +26,23 @@ D. To travel longer to get to work
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D/- \tab partial \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
+   D/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4623/vshow}{GSS Data Explorer page for \code{nounemp4}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3492 \tab 158 \tab 438 \tab 101 \tab 231 \tab 86 \tab 2 \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 131 \tab 422 \tab 127 \tab 185 \tab 63 \tab 4 \tab 8 \tab 2867 \cr
+   Total \tab 5419 \tab 289 \tab 860 \tab 228 \tab 416 \tab 149 \tab 6 \tab 10 \tab 7377 \cr
+}
 }
 
 \seealso{

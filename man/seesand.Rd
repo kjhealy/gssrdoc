@@ -25,15 +25,21 @@ Question Please look at Card I-4. A gardener has an idea that a plant needs sand
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3484/vshow}{GSS Data Explorer page for \code{seesand}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab sunlight. sand and water \tab dark cupboard. sand, soil, and water \tab dark cupboard. soil and water \tab sunlight. sand and soil \tab sunlight. soil and water \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 709 \tab 105 \tab 170 \tab 43 \tab 144 \tab 692 \tab 136 \tab 24 \tab 2023 \cr
+   Total \tab 709 \tab 105 \tab 170 \tab 43 \tab 144 \tab 692 \tab 136 \tab 24 \tab 2023 \cr
+}
 }
 
 \seealso{

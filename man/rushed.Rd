@@ -23,18 +23,27 @@ Question In general, how do you feel about your time--would you say you always f
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab -/-/- \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
-   2016 \tab C/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
+   B/C/- \tab 2004 \cr
+   C/-/- \tab 2016 \cr
+   Full \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/774/vshow}{GSS Data Explorer page for \code{rushed}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab always \tab sometimes \tab never \tab no answer \tab don't know \tab Total \cr
+   1982 \tab - \tab 442 \tab 967 \tab 443 \tab 8 \tab - \tab 1860 \cr
+   1996 \tab 1444 \tab 434 \tab 757 \tab 261 \tab 7 \tab 1 \tab 2904 \cr
+   2004 \tab 1828 \tab 304 \tab 513 \tab 160 \tab 6 \tab 1 \tab 2812 \cr
+   2016 \tab 1888 \tab 215 \tab 542 \tab 218 \tab 4 \tab - \tab 2867 \cr
+   Total \tab 5160 \tab 1395 \tab 2779 \tab 1082 \tab 25 \tab 2 \tab 10443 \cr
+}
 }
 
 \seealso{

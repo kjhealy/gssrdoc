@@ -27,18 +27,26 @@ Question How satisfied are you in your job?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   B/C/- \tab 2016 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4561/vshow}{GSS Data Explorer page for \code{jobsat}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab completely satisfied \tab very satisfied \tab fairly satisfied \tab neither satisfied nor dissatisfied \tab fairly dissatisfied \tab very dissatisfied \tab completely dissatisfied \tab don't know \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 141 \tab 296 \tab 323 \tab 52 \tab 45 \tab 11 \tab 5 \tab 5 \tab 20 \tab 1537 \cr
+   1998 \tab 1967 \tab 133 \tab 271 \tab 292 \tab 61 \tab 53 \tab 15 \tab 9 \tab 3 \tab 28 \tab 2832 \cr
+   2006 \tab 3492 \tab 187 \tab 381 \tab 304 \tab 69 \tab 31 \tab 31 \tab 13 \tab - \tab 2 \tab 4510 \cr
+   2016 \tab 1927 \tab 164 \tab 343 \tab 293 \tab 54 \tab 52 \tab 20 \tab 7 \tab 1 \tab 6 \tab 2867 \cr
+   Total \tab 8025 \tab 625 \tab 1291 \tab 1212 \tab 236 \tab 181 \tab 77 \tab 34 \tab 9 \tab 56 \tab 11746 \cr
+}
 }
 
 \seealso{

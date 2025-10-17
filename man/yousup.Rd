@@ -22,19 +22,24 @@ A. How many people Do you supervise directly?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1314/vshow}{GSS Data Explorer page for \code{yousup}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 100 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 3 \tab 30 \tab 33 \tab 35 \tab 4 \tab 5 \tab 50 \tab 58 \tab 6 \tab 65 \tab 7 \tab 70 \tab 8 \tab 9 \tab no answer \tab 11 \tab 17 \tab 29 \tab 36 \tab 38 \tab 40 \tab 45 \tab 46 \tab 47 \tab 48 \tab 49 \tab 52 \tab 69 \tab 80 \tab 99 \tab 0 people \tab 110 \tab 120 \tab 125 \tab 140 \tab 150 \tab 170 \tab 187 \tab 200 \tab 23 \tab 300 \tab 31 \tab 32 \tab 34 \tab 43 \tab 57 \tab 60 \tab 66 \tab 71 \tab skipped on web \tab 130 \tab 203 \tab 236 \tab 39 \tab 42 \tab 44 \tab 600 \tab 77 \tab 96 \tab don't know \tab Total \cr
+   1991 \tab 1176 \tab 58 \tab 13 \tab 1 \tab 15 \tab 2 \tab 3 \tab 11 \tab 1 \tab 2 \tab 1 \tab 50 \tab 7 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 37 \tab 6 \tab 1 \tab 2 \tab 35 \tab 24 \tab 3 \tab 1 \tab 11 \tab 2 \tab 8 \tab 1 \tab 19 \tab 5 \tab 13 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   2018 \tab 1849 \tab 61 \tab 32 \tab - \tab 11 \tab 5 \tab 4 \tab 9 \tab 4 \tab 1 \tab - \tab 72 \tab 19 \tab - \tab - \tab 1 \tab 7 \tab 1 \tab 1 \tab - \tab 47 \tab 5 \tab - \tab 1 \tab 51 \tab 43 \tab 3 \tab - \tab 33 \tab 2 \tab 20 \tab 1 \tab 15 \tab 15 \tab 2 \tab 4 \tab 4 \tab 1 \tab 1 \tab 1 \tab 7 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 3331 \tab 80 \tab 36 \tab 3 \tab 27 \tab 2 \tab 3 \tab 10 \tab 4 \tab 3 \tab 2 \tab 115 \tab 19 \tab 1 \tab 2 \tab 1 \tab 10 \tab 2 \tab 1 \tab 3 \tab 72 \tab 14 \tab - \tab 3 \tab 62 \tab 48 \tab 5 \tab - \tab 45 \tab 2 \tab 25 \tab 2 \tab 37 \tab 9 \tab - \tab 4 \tab 2 \tab 2 \tab - \tab 1 \tab 4 \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 12 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 5 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab 2878 \tab 76 \tab 33 \tab 3 \tab 18 \tab 4 \tab 5 \tab 20 \tab 3 \tab 4 \tab - \tab 98 \tab 14 \tab - \tab 2 \tab 2 \tab 8 \tab - \tab 1 \tab - \tab 80 \tab 9 \tab - \tab 1 \tab 70 \tab 48 \tab 7 \tab - \tab 46 \tab - \tab 20 \tab - \tab 33 \tab 14 \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab 4 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 11 \tab - \tab 2 \tab - \tab - \tab - \tab 1 \tab - \tab 3 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3 \tab - \tab - \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 3544 \cr
+   Total \tab 9234 \tab 275 \tab 114 \tab 7 \tab 71 \tab 13 \tab 15 \tab 50 \tab 12 \tab 10 \tab 3 \tab 335 \tab 59 \tab 3 \tab 5 \tab 5 \tab 27 \tab 4 \tab 4 \tab 4 \tab 236 \tab 34 \tab 1 \tab 7 \tab 218 \tab 163 \tab 18 \tab 1 \tab 135 \tab 6 \tab 73 \tab 4 \tab 104 \tab 43 \tab 15 \tab 9 \tab 6 \tab 3 \tab 1 \tab 3 \tab 15 \tab 7 \tab 2 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 23 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 4 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5 \tab 1 \tab 1 \tab 8 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 11441 \cr
+}
 }
 
 \seealso{

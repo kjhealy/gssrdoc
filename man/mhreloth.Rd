@@ -25,15 +25,21 @@ F. As a result of the mental health problem, would you say that your relationshi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3808/vshow}{GSS Data Explorer page for \code{mhreloth}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab became stronger \tab became worse \tab was unchanged \tab ended as a result of the problem \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 3535 \tab 292 \tab 74 \tab 530 \tab 66 \tab 5 \tab 8 \tab 4510 \cr
+   Total \tab 3535 \tab 292 \tab 74 \tab 530 \tab 66 \tab 5 \tab 8 \tab 4510 \cr
+}
 }
 
 \seealso{

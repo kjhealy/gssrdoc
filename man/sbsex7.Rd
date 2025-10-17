@@ -23,15 +23,21 @@ B7. Sex of seventh sibling.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1551/vshow}{GSS Data Explorer page for \code{sbsex7}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2583 \tab 196 \tab 185 \tab 4 \tab 24 \tab 2992 \cr
+   Total \tab 2583 \tab 196 \tab 185 \tab 4 \tab 24 \tab 2992 \cr
+}
 }
 
 \seealso{

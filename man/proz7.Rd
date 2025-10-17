@@ -26,16 +26,22 @@ G. Taking Prozac makes people feel better about themselves.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2232/vshow}{GSS Data Explorer page for \code{proz7}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1635 \tab 52 \tab 491 \tab 272 \tab 96 \tab 23 \tab 250 \tab 13 \tab 2832 \cr
+   2006 \tab 3238 \tab 71 \tab 545 \tab 392 \tab 95 \tab 26 \tab 127 \tab 16 \tab 4510 \cr
+   Total \tab 4873 \tab 123 \tab 1036 \tab 664 \tab 191 \tab 49 \tab 377 \tab 29 \tab 7342 \cr
+}
 }
 
 \seealso{

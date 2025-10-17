@@ -26,15 +26,21 @@ A. All religious groups in America should have equal rights. Would you sayâ€�
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4699/vshow}{GSS Data Explorer page for \code{relgrpeq}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 658 \tab 376 \tab 683 \tab 154 \tab 107 \tab 24 \tab 15 \tab 6 \tab 2023 \cr
+   Total \tab 658 \tab 376 \tab 683 \tab 154 \tab 107 \tab 24 \tab 15 \tab 6 \tab 2023 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ Question Please look at Card I-3. Day-night rhythms dramatically affect our bodi
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3482/vshow}{GSS Data Explorer page for \code{daynight}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 2 a.m. to 4 a.m. \tab 8 a.m. to 10 a.m. \tab 12 p.m. to 2 p.m. \tab 2 p.m. to 4 p.m. \tab 8 p.m. to 10 p.m. \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 709 \tab 999 \tab 52 \tab 54 \tab 46 \tab 30 \tab 111 \tab 22 \tab 2023 \cr
+   Total \tab 709 \tab 999 \tab 52 \tab 54 \tab 46 \tab 30 \tab 111 \tab 22 \tab 2023 \cr
+}
 }
 
 \seealso{

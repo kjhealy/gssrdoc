@@ -22,15 +22,21 @@ L. Private and community foundations
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1956/vshow}{GSS Data Explorer page for \code{totfound}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 100 \tab 1000 \tab 120 \tab 1200 \tab 130 \tab 15 \tab 150 \tab 1500 \tab 192 \tab 2 \tab 20 \tab 200 \tab 210 \tab 216 \tab 240 \tab 25 \tab 250 \tab 260 \tab 2800 \tab 30 \tab 300 \tab 36 \tab 3650 \tab 40 \tab 400 \tab 450 \tab 5 \tab 50 \tab 500 \tab 52 \tab 520 \tab 55 \tab 60 \tab 600 \tab 70 \tab 75 \tab 77 \tab 800 \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2700 \tab 16 \tab 6 \tab 28 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 11 \tab 17 \tab 1 \tab 1 \tab 1 \tab 11 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 5 \tab 24 \tab 5 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 3 \tab 1 \tab 3 \tab 10 \tab 22 \tab 2904 \cr
+   Total \tab 2700 \tab 16 \tab 6 \tab 28 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 11 \tab 17 \tab 1 \tab 1 \tab 1 \tab 11 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 5 \tab 24 \tab 5 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 3 \tab 1 \tab 3 \tab 10 \tab 22 \tab 2904 \cr
+}
 }
 
 \seealso{

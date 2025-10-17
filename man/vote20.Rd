@@ -23,16 +23,21 @@ Question In 2020, you remember that Joe Biden ran for President on the Democrati
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7758/vshow}{GSS Data Explorer page for \code{vote20}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab voted \tab did not vote \tab ineligible \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 2474 \tab 681 \tab 166 \tab 87 \tab 130 \tab 6 \tab 3544 \cr
+   Total \tab 0 \tab 2474 \tab 681 \tab 166 \tab 87 \tab 130 \tab 6 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

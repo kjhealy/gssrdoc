@@ -26,17 +26,23 @@ America should take stronger measures to exclude illegal immigrants.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4797/vshow}{GSS Data Explorer page for \code{excldimm}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 592 \tab 395 \tab 179 \tab 86 \tab 27 \tab 68 \tab 20 \tab 2904 \cr
+   2004 \tab 1596 \tab 394 \tab 434 \tab 214 \tab 113 \tab 32 \tab 28 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 287 \tab 449 \tab 205 \tab 227 \tab 49 \tab 53 \tab 4 \tab 2538 \cr
+   Total \tab 4397 \tab 1273 \tab 1278 \tab 598 \tab 426 \tab 108 \tab 149 \tab 25 \tab 8254 \cr
+}
 }
 
 \seealso{

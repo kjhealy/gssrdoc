@@ -26,23 +26,30 @@ G. Living in a neighborhood where half of your neighbors were whites?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016 \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1220/vshow}{GSS Data Explorer page for \code{livewhts}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 412 \tab 294 \tab 537 \tab 71 \tab 23 \tab 13 \tab 48 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 257 \tab 212 \tab 365 \tab 48 \tab 19 \tab 7 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 167 \tab 201 \tab 460 \tab 52 \tab 17 \tab 7 \tab 2 \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 429 \tab 446 \tab 972 \tab 104 \tab 24 \tab 13 \tab 4 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 258 \tab 310 \tab 661 \tab 61 \tab 23 \tab 13 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 308 \tab 354 \tab 686 \tab 47 \tab 16 \tab 13 \tab 6 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 267 \tab 315 \tab 642 \tab 40 \tab 22 \tab 14 \tab 2 \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 322 \tab 371 \tab 878 \tab 65 \tab 23 \tab 12 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 368 \tab 453 \tab 945 \tab 78 \tab 28 \tab 11 \tab 5 \tab - \tab 2867 \cr
+   Total \tab 11522 \tab 2788 \tab 2956 \tab 6146 \tab 566 \tab 195 \tab 103 \tab 74 \tab 0 \tab 24350 \cr
+}
 }
 
 \seealso{

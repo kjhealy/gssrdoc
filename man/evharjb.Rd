@@ -22,16 +22,22 @@ Question Have you ever in your life been harassed verbally or in writing on the 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3924/vshow}{GSS Data Explorer page for \code{evharjb}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1879 \tab 20 \tab 87 \tab 5 \tab 32 \tab 2023 \cr
+   2012 \tab 1807 \tab 19 \tab 103 \tab - \tab 45 \tab 1974 \cr
+   Total \tab 3686 \tab 39 \tab 190 \tab 5 \tab 77 \tab 3997 \cr
+}
 }
 
 \seealso{

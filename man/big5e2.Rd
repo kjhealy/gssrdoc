@@ -26,15 +26,21 @@ E. â€¦has few artistic interests
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4983/vshow}{GSS Data Explorer page for \code{big5e2}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 2992 \tab 83 \tab 423 \tab 218 \tab 547 \tab 241 \tab 4 \tab 2 \tab 4510 \cr
+   Total \tab 2992 \tab 83 \tab 423 \tab 218 \tab 547 \tab 241 \tab 4 \tab 2 \tab 4510 \cr
+}
 }
 
 \seealso{

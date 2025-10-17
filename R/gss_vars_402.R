@@ -17,13 +17,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `acqvalib`](https://gssdataexplorer.norc.org/variables/3659/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |1  |2 - 5 |6 - 10 |more than 10 |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:-----|:------|:------------|:----------|:---------|:-----|
+#'  |2006  |3987 |110 |24 |91    |35     |91           |164        |8         |4510  |
+#'  |Total |3987 |110 |24 |91    |35     |91           |164        |8         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -53,13 +59,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `acqvacon`](https://gssdataexplorer.norc.org/variables/3660/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |1  |2 - 5 |6 - 10 |more than 10 |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:-----|:------|:------------|:----------|:---------|:-----|
+#'  |2006  |3987 |101 |16 |82    |46     |110          |160        |8         |4510  |
+#'  |Total |3987 |101 |16 |82    |46     |110          |160        |8         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -89,13 +101,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `acqvacoh`](https://gssdataexplorer.norc.org/variables/3661/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |1  |2 - 5 |6 - 10 |more than 10 |don't know |no answer |Total |
+#'  |:-----|:----|:---|:--|:-----|:------|:------------|:----------|:---------|:-----|
+#'  |2006  |3987 |211 |46 |92    |21     |36           |108        |9         |4510  |
+#'  |Total |3987 |211 |46 |92    |21     |36           |108        |9         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -125,13 +143,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `acqreps`](https://gssdataexplorer.norc.org/variables/3662/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost all |most |about half |a few |none |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:----|:----------|:-----|:----|:----------|:---------|:-----|
+#'  |2006  |3139 |71         |166  |498        |329   |75   |211        |21        |4510  |
+#'  |Total |3139 |71         |166  |498        |329   |75   |211        |21        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -161,13 +185,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `acqdems`](https://gssdataexplorer.norc.org/variables/3663/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost all |most |about half |a few |none |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:----|:----------|:-----|:----|:----------|:---------|:-----|
+#'  |2006  |3139 |106        |165  |555        |292   |29   |204        |20        |4510  |
+#'  |Total |3139 |106        |165  |555        |292   |29   |204        |20        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -197,13 +227,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `acqattnd`](https://gssdataexplorer.norc.org/variables/3664/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost all |most |about half |a few |none |don't know |no answer |Total |
+#'  |:-----|:----|:----------|:----|:----------|:-----|:----|:----------|:---------|:-----|
+#'  |2006  |3139 |90         |242  |429        |383   |36   |171        |20        |4510  |
+#'  |Total |3139 |90         |242  |429        |383   |36   |171        |20        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -232,13 +268,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `acqmyrac`](https://gssdataexplorer.norc.org/variables/3665/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost all the same race as you |mostly the same race as you |about evenly divided |mostly a different race than you |almost all a different race than you |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------------------|:---------------------------|:--------------------|:--------------------------------|:------------------------------------|:----------|:---------|:-----|
+#'  |2006  |3139 |447                             |530                         |270                  |57                               |18                                   |29         |20        |4510  |
+#'  |Total |3139 |447                             |530                         |270                  |57                               |18                                   |29         |20        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -268,13 +310,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `trtkevin`](https://gssdataexplorer.norc.org/variables/3666/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |1   |2 - 5 |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:-----|:----------|:---------|:-----|
+#'  |2006  |3821 |439 |162 |53    |20         |15        |4510  |
+#'  |Total |3821 |439 |162 |53    |20         |15        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -304,13 +352,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `trtkaren`](https://gssdataexplorer.norc.org/variables/3667/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |1   |2 - 5 |6 - 10 |more than 10 |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:-----|:------|:------------|:----------|:---------|:-----|
+#'  |2006  |3821 |384 |193 |72    |4      |1            |20         |15        |4510  |
+#'  |Total |3821 |384 |193 |72    |4      |1            |20         |15        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -340,13 +394,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `trtshawn`](https://gssdataexplorer.norc.org/variables/3668/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0   |1   |2 - 5 |more than 10 |don't know |no answer |Total |
+#'  |:-----|:----|:---|:---|:-----|:------------|:----------|:---------|:-----|
+#'  |2006  |3821 |468 |148 |41    |1            |16         |15        |4510  |
+#'  |Total |3821 |468 |148 |41    |1            |16         |15        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known

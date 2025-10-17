@@ -26,15 +26,21 @@ A. Prime-time drama or situation comedy programs.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1419/vshow}{GSS Data Explorer page for \code{tvshows}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab daily \tab sevrl days in week \tab sevrl days in month \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 336 \tab 587 \tab 275 \tab 296 \tab 101 \tab 3 \tab 8 \tab 1606 \cr
+   Total \tab 0 \tab 336 \tab 587 \tab 275 \tab 296 \tab 101 \tab 3 \tab 8 \tab 1606 \cr
+}
 }
 
 \seealso{

@@ -22,18 +22,25 @@ Question Do you think we should return to a military draft at this time, or shou
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984 \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/802/vshow}{GSS Data Explorer page for \code{draft}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab draft \tab volunteers \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 719 \tab 1012 \tab 122 \tab 7 \tab 1860 \cr
+   1983 \tab - \tab 458 \tab 1070 \tab 66 \tab 5 \tab 1599 \cr
+   1984 \tab - \tab 329 \tab 1058 \tab 64 \tab 22 \tab 1473 \cr
+   2006 \tab 2992 \tab 237 \tab 1244 \tab 35 \tab 2 \tab 4510 \cr
+   Total \tab 2992 \tab 1743 \tab 4384 \tab 287 \tab 36 \tab 9442 \cr
+}
 }
 
 \seealso{

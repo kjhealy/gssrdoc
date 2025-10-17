@@ -30,15 +30,21 @@ If I should find myself in a jam, I could think of many ways to get out of it.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6203/vshow}{GSS Data Explorer page for \code{hope1}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab definitely false \tab mostly false \tab somewhat false \tab slightly false \tab slightly true \tab somewhat true \tab mostly true \tab definitely true \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1409 \tab 19 \tab 23 \tab 27 \tab 28 \tab 154 \tab 299 \tab 543 \tab 346 \tab 7 \tab 12 \tab 2867 \cr
+   Total \tab 1409 \tab 19 \tab 23 \tab 27 \tab 28 \tab 154 \tab 299 \tab 543 \tab 346 \tab 7 \tab 12 \tab 2867 \cr
+}
 }
 
 \seealso{

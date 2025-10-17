@@ -25,15 +25,21 @@ Promote equality between men and women?  (Would you say...)
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6304/vshow}{GSS Data Explorer page for \code{gendereq}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 1477 \tab 697 \tab 445 \tab 138 \tab 67 \tab 27 \tab 16 \tab 2867 \cr
+   Total \tab 1477 \tab 697 \tab 445 \tab 138 \tab 67 \tab 27 \tab 16 \tab 2867 \cr
+}
 }
 
 \seealso{

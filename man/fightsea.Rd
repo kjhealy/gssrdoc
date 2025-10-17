@@ -23,15 +23,21 @@ I. A crew member on a combat ship ...
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/797/vshow}{GSS Data Explorer page for \code{fightsea}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 994 \tab 785 \tab 66 \tab 15 \tab 1860 \cr
+   Total \tab 0 \tab 994 \tab 785 \tab 66 \tab 15 \tab 1860 \cr
+}
 }
 
 \seealso{

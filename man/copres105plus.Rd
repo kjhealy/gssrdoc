@@ -21,21 +21,26 @@ Question COPRES105PLUS is based on the 2010 Census occupation classification. Th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6362/vshow}{GSS Data Explorer page for \code{copres105plus}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 18 \tab 19 \tab 20 \tab 23 \tab 24 \tab 26 \tab 27 \tab 28 \tab 29 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 40 \tab 42 \tab 44 \tab 45 \tab 48 \tab 49 \tab 50 \tab 53 \tab 54 \tab 55 \tab 56 \tab 58 \tab 59 \tab 6 \tab 62 \tab 63 \tab 65 \tab 68 \tab 7 \tab 71 \tab 72 \tab 73 \tab 75 \tab 78 \tab 79 \tab 80 \tab 83 \tab 85 \tab 87 \tab 89 \tab 90 \tab 91 \tab 94 \tab 17 \tab 21 \tab 25 \tab 31 \tab 32 \tab 43 \tab 51 \tab 60 \tab 64 \tab 66 \tab 74 \tab 76 \tab 8 \tab 81 \tab 88 \tab 9 \tab 92 \tab 93 \tab 95 \tab 22 \tab 47 \tab 52 \tab 61 \tab 69 \tab 77 \tab 84 \tab 86 \tab 5 \tab 70 \tab 97 \tab not available in this release \tab Total \cr
+   2012 \tab 1824 \tab 2 \tab 3 \tab 2 \tab 1 \tab 2 \tab 1 \tab 12 \tab 6 \tab 4 \tab 3 \tab 3 \tab 5 \tab 5 \tab 6 \tab 8 \tab 7 \tab 1 \tab 2 \tab 2 \tab 2 \tab 2 \tab 2 \tab 3 \tab 1 \tab 4 \tab 4 \tab 1 \tab 1 \tab 3 \tab 10 \tab 2 \tab 4 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2348 \tab 1 \tab 1 \tab 2 \tab 2 \tab 3 \tab 9 \tab 12 \tab 7 \tab 1 \tab 1 \tab 6 \tab 1 \tab 6 \tab 4 \tab 10 \tab 10 \tab 3 \tab 1 \tab 1 \tab - \tab 5 \tab 1 \tab 8 \tab - \tab 2 \tab 1 \tab - \tab 2 \tab 4 \tab 13 \tab 4 \tab 2 \tab 5 \tab - \tab 3 \tab 3 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab 3 \tab - \tab 2 \tab - \tab 1 \tab 5 \tab 1 \tab 5 \tab - \tab - \tab 1 \tab - \tab 1 \tab 4 \tab 1 \tab 1 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2628 \tab - \tab 3 \tab 3 \tab 4 \tab 1 \tab 7 \tab 18 \tab 9 \tab - \tab 8 \tab 4 \tab 5 \tab 9 \tab 7 \tab 9 \tab 13 \tab 4 \tab 2 \tab 3 \tab 1 \tab 1 \tab - \tab 8 \tab 1 \tab 5 \tab 2 \tab 1 \tab 2 \tab 4 \tab 10 \tab 3 \tab 4 \tab 7 \tab 1 \tab 2 \tab 1 \tab 1 \tab 4 \tab 4 \tab 1 \tab 2 \tab 2 \tab - \tab 1 \tab - \tab 3 \tab 2 \tab 1 \tab 5 \tab - \tab 7 \tab 4 \tab - \tab - \tab 2 \tab 3 \tab 1 \tab 4 \tab 1 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 5 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab 2 \tab - \tab - \tab 1 \tab 2 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2131 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 8 \tab 7 \tab 6 \tab 1 \tab 4 \tab 5 \tab 6 \tab 5 \tab 4 \tab 6 \tab 15 \tab 4 \tab - \tab 4 \tab 1 \tab 3 \tab 6 \tab 6 \tab - \tab 8 \tab - \tab 1 \tab 3 \tab 3 \tab 15 \tab - \tab 6 \tab 3 \tab - \tab 3 \tab 5 \tab 1 \tab - \tab 3 \tab 1 \tab 3 \tab - \tab - \tab 2 \tab 2 \tab 1 \tab 2 \tab - \tab - \tab 1 \tab 2 \tab 7 \tab - \tab - \tab 3 \tab 4 \tab - \tab 1 \tab 1 \tab - \tab 3 \tab 4 \tab - \tab - \tab 3 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab 3 \tab - \tab - \tab - \tab - \tab 2 \tab - \tab 2 \tab 3 \tab 2 \tab 1 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 12475 \tab 4 \tab 9 \tab 10 \tab 11 \tab 11 \tab 25 \tab 49 \tab 28 \tab 6 \tab 16 \tab 18 \tab 17 \tab 25 \tab 21 \tab 33 \tab 45 \tab 12 \tab 5 \tab 10 \tab 4 \tab 11 \tab 9 \tab 25 \tab 2 \tab 19 \tab 7 \tab 3 \tab 8 \tab 14 \tab 48 \tab 9 \tab 16 \tab 18 \tab 3 \tab 9 \tab 10 \tab 4 \tab 7 \tab 11 \tab 4 \tab 8 \tab 4 \tab 1 \tab 4 \tab 8 \tab 5 \tab 7 \tab 2 \tab 7 \tab 7 \tab 14 \tab 17 \tab 1 \tab 1 \tab 8 \tab 9 \tab 2 \tab 9 \tab 3 \tab 1 \tab 5 \tab 7 \tab 4 \tab 2 \tab 10 \tab 4 \tab 6 \tab 2 \tab 1 \tab 2 \tab 3 \tab 4 \tab 2 \tab 2 \tab 6 \tab 2 \tab 2 \tab 1 \tab 2 \tab 3 \tab 1 \tab 3 \tab 4 \tab 2 \tab 1 \tab 1 \tab 4032 \tab 17303 \cr
+}
 }
 
 \seealso{

@@ -29,15 +29,21 @@ Question What kind of business is this?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1878/vshow}{GSS Data Explorer page for \code{fambiz}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab manufacturing \tab retail sales \tab wholesale sales \tab services \tab transportation \tab construction \tab finance, insrnce or real est \tab farming \tab other specify \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2841 \tab 4 \tab 6 \tab 1 \tab 11 \tab 5 \tab 9 \tab 1 \tab 6 \tab 8 \tab 1 \tab 11 \tab 2904 \cr
+   Total \tab 2841 \tab 4 \tab 6 \tab 1 \tab 11 \tab 5 \tab 9 \tab 1 \tab 6 \tab 8 \tab 1 \tab 11 \tab 2904 \cr
+}
 }
 
 \seealso{

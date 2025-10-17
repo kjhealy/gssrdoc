@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `tvbears`](https://gssdataexplorer.norc.org/variables/3419/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2646 |535         |768             |308               |225           |26         |2         |4510  |
+#'  |Total |2646 |535         |768             |308               |225           |26         |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -51,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `tvinuit`](https://gssdataexplorer.norc.org/variables/3420/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2646 |477         |805             |325               |231           |24         |2         |4510  |
+#'  |Total |2646 |477         |805             |325               |231           |24         |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -86,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `tvozone`](https://gssdataexplorer.norc.org/variables/3421/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2646 |495         |690             |351               |292           |34         |2         |4510  |
+#'  |Total |2646 |495         |690             |351               |292           |34         |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -120,13 +138,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `tvmeltng`](https://gssdataexplorer.norc.org/variables/3422/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2646 |596         |696             |295               |253           |22         |2         |4510  |
+#'  |Total |2646 |596         |696             |295               |253           |22         |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -155,13 +179,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `tvoil`](https://gssdataexplorer.norc.org/variables/3423/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2646 |481         |645             |361               |351           |24         |2         |4510  |
+#'  |Total |2646 |481         |645             |361               |351           |24         |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -190,14 +220,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
-#'  |2010 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2010  |
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polaryr1`](https://gssdataexplorer.norc.org/variables/3424/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2646 |642         |727             |287               |187           |19         |2         |4510  |
+#'  |2010  |1338 |244         |290             |88                |70            |5          |9         |2044  |
+#'  |Total |3984 |886         |1017            |375               |257           |24         |11        |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -226,14 +263,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
-#'  |2010 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2010  |
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polaryr2`](https://gssdataexplorer.norc.org/variables/3425/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2646 |476         |633             |375               |361           |17         |2         |4510  |
+#'  |2010  |1338 |166         |267             |129               |133           |4          |7         |2044  |
+#'  |Total |3984 |642         |900             |504               |494           |21         |9         |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -262,14 +306,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
-#'  |2010 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2010  |
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polaryr3`](https://gssdataexplorer.norc.org/variables/3426/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2646 |430         |707             |366               |342           |17         |2         |4510  |
+#'  |2010  |1338 |162         |287             |120               |126           |4          |7         |2044  |
+#'  |Total |3984 |592         |994             |486               |468           |21         |9         |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -298,14 +349,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
-#'  |2010 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2010  |
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polaryr4`](https://gssdataexplorer.norc.org/variables/3427/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2646 |309         |561             |496               |478           |18         |2         |4510  |
+#'  |2010  |1338 |135         |235             |162               |164           |3          |7         |2044  |
+#'  |Total |3984 |444         |796             |658               |642           |21         |9         |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -334,14 +392,21 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |B/C     |partial      |
-#'  |2010 |A/C     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2010  |
+#'  |B/C     |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `polaryr5`](https://gssdataexplorer.norc.org/variables/3428/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2646 |424         |653             |403               |365           |17         |2         |4510  |
+#'  |2010  |1338 |177         |283             |124               |111           |3          |8         |2044  |
+#'  |Total |3984 |601         |936             |527               |476           |20         |10        |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes

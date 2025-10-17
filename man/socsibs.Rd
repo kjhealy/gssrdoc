@@ -29,25 +29,32 @@ F. Spend a social evening with a brother or sister?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1988 \tab A/B \tab partial \cr
-   1989 \tab A/B \tab partial \cr
-   1990 \tab A/B \tab partial \cr
-   1991 \tab A/B \tab partial \cr
-   1993 \tab A/B \tab partial \cr
-   1994 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1978, 1982, 1983, 1985, 1986 \cr
+   A/B \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/526/vshow}{GSS Data Explorer page for \code{socsibs}}.
+
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab no such people \tab almost daily \tab sev times a week \tab sev times a mnth \tab once a month \tab sev times a year \tab once a year \tab never \tab don't know \tab no answer \tab Total \cr
+   1978 \tab - \tab 168 \tab 71 \tab 208 \tab 182 \tab 167 \tab 329 \tab 245 \tab 153 \tab 4 \tab 5 \tab 1532 \cr
+   1982 \tab - \tab 188 \tab 126 \tab 259 \tab 220 \tab 248 \tab 379 \tab 268 \tab 151 \tab 11 \tab 10 \tab 1860 \cr
+   1983 \tab - \tab 169 \tab 70 \tab 221 \tab 208 \tab 204 \tab 349 \tab 207 \tab 163 \tab 5 \tab 3 \tab 1599 \cr
+   1985 \tab - \tab 141 \tab 70 \tab 168 \tab 222 \tab 197 \tab 324 \tab 259 \tab 145 \tab 4 \tab 4 \tab 1534 \cr
+   1986 \tab - \tab 114 \tab 88 \tab 190 \tab 162 \tab 208 \tab 319 \tab 229 \tab 148 \tab 5 \tab 7 \tab 1470 \cr
+   1988 \tab 493 \tab 74 \tab 57 \tab 137 \tab 109 \tab 131 \tab 213 \tab 148 \tab 106 \tab 2 \tab 11 \tab 1481 \cr
+   1989 \tab 531 \tab 68 \tab 52 \tab 132 \tab 104 \tab 144 \tab 241 \tab 158 \tab 102 \tab 2 \tab 3 \tab 1537 \cr
+   1990 \tab 444 \tab 86 \tab 61 \tab 121 \tab 91 \tab 134 \tab 215 \tab 131 \tab 84 \tab - \tab 5 \tab 1372 \cr
+   1991 \tab 493 \tab 82 \tab 50 \tab 126 \tab 118 \tab 150 \tab 236 \tab 157 \tab 95 \tab 6 \tab 4 \tab 1517 \cr
+   1993 \tab 526 \tab 95 \tab 52 \tab 128 \tab 140 \tab 152 \tab 231 \tab 158 \tab 112 \tab 3 \tab 9 \tab 1606 \cr
+   1994 \tab 2485 \tab 45 \tab 17 \tab 63 \tab 57 \tab 54 \tab 110 \tab 92 \tab 67 \tab 1 \tab 1 \tab 2992 \cr
+   Total \tab 4972 \tab 1230 \tab 714 \tab 1753 \tab 1613 \tab 1789 \tab 2946 \tab 2052 \tab 1326 \tab 43 \tab 62 \tab 18500 \cr
+}
 }
 
 \seealso{

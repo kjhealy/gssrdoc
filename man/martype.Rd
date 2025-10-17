@@ -23,21 +23,26 @@ Question This based on information coded by interviewer and information in the H
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/19/vshow}{GSS Data Explorer page for \code{martype}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab marriage between a man and a woman \tab marriage between two people of the same gender \tab not sure \tab Total \cr
+   2012 \tab 1074 \tab 899 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 1380 \tab 1150 \tab 8 \tab - \tab 2538 \cr
+   2016 \tab 1657 \tab 1195 \tab 15 \tab - \tab 2867 \cr
+   2018 \tab 1351 \tab 990 \tab 7 \tab - \tab 2348 \cr
+   2021 \tab 3929 \tab 83 \tab 1 \tab 19 \tab 4032 \cr
+   2022 \tab 2838 \tab 682 \tab 4 \tab 20 \tab 3544 \cr
+   Total \tab 12229 \tab 4999 \tab 36 \tab 39 \tab 17303 \cr
+}
 }
 
 \seealso{

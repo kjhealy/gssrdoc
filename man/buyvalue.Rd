@@ -21,18 +21,25 @@ Question Approximately what percent of the company stock that you own today did 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006, 2014, 2018 \cr
+   B/C/- \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3551/vshow}{GSS Data Explorer page for \code{buyvalue}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 100 \tab 12 \tab 15 \tab 20 \tab 25 \tab 3 \tab 4 \tab 40 \tab 5 \tab 50 \tab 51 \tab 6 \tab 60 \tab 66 \tab 7 \tab 70 \tab 75 \tab 80 \tab 85 \tab 90 \tab 94 \tab 95 \tab don't know \tab no answer \tab 10 \tab 2 \tab 30 \tab 9 \tab 33 \tab 35 \tab 48 \tab 8 \tab 97 \tab 11 \tab 24 \tab skipped on web \tab Total \cr
+   2006 \tab 4266 \tab 50 \tab 5 \tab 54 \tab 2 \tab 3 \tab 6 \tab 1 \tab 6 \tab 2 \tab 1 \tab 3 \tab 28 \tab 1 \tab 6 \tab 3 \tab 1 \tab 1 \tab 4 \tab 6 \tab 4 \tab 3 \tab 1 \tab 1 \tab 2 \tab 28 \tab 22 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2014 \tab 2432 \tab 31 \tab 3 \tab 20 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 3 \tab - \tab 5 \tab 5 \tab 1 \tab 2 \tab - \tab - \tab - \tab 1 \tab 2 \tab - \tab 2 \tab 1 \tab - \tab 1 \tab 9 \tab 2 \tab 6 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 2105 \tab 60 \tab 6 \tab 39 \tab - \tab - \tab 1 \tab 4 \tab - \tab 1 \tab 1 \tab 6 \tab 17 \tab 1 \tab 7 \tab 3 \tab - \tab - \tab 2 \tab 2 \tab 3 \tab 1 \tab 5 \tab - \tab 1 \tab 27 \tab 44 \tab 2 \tab 4 \tab - \tab - \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 3423 \tab 39 \tab - \tab 17 \tab 1 \tab - \tab 2 \tab 2 \tab 5 \tab 30 \tab - \tab 4 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3 \tab - \tab 1 \tab - \tab - \tab - \tab 2 \tab 3 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 7 \tab 3544 \cr
+   Total \tab 12226 \tab 180 \tab 14 \tab 130 \tab 4 \tab 5 \tab 11 \tab 8 \tab 12 \tab 36 \tab 2 \tab 18 \tab 51 \tab 3 \tab 15 \tab 6 \tab 1 \tab 1 \tab 7 \tab 10 \tab 10 \tab 6 \tab 8 \tab 1 \tab 4 \tab 64 \tab 70 \tab 11 \tab 8 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 7 \tab 12940 \cr
+}
 }
 
 \concept{Shared Capitalism}

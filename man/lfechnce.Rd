@@ -24,15 +24,21 @@ Question I'm going to read some statements that give reasons why a person's life
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1386/vshow}{GSS Data Explorer page for \code{lfechnce}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
+   1993 \tab - \tab 55 \tab 250 \tab 591 \tab 668 \tab 32 \tab 10 \tab 1606 \cr
+   Total \tab 0 \tab 55 \tab 250 \tab 591 \tab 668 \tab 32 \tab 10 \tab 1606 \cr
+}
 }
 
 \seealso{

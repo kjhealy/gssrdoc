@@ -24,16 +24,23 @@ B. Second, what about work-related matters?  Did any of the following happen to 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab B/C/- \tab partial \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   B/C/- \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5156/vshow}{GSS Data Explorer page for \code{work7}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 500 \tab 25 \tab 943 \tab 1 \tab 48 \tab 1517 \cr
+   2004 \tab 1472 \tab 46 \tab 1280 \tab 3 \tab 11 \tab 2812 \cr
+   Total \tab 1972 \tab 71 \tab 2223 \tab 4 \tab 59 \tab 4329 \cr
+}
 }
 
 \seealso{

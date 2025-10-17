@@ -15,13 +15,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `opoutcme`](https://gssdataexplorer.norc.org/variables/1379/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |promote equal oppotunity |promote equal outcomes |other |don't know |no answer |Total |
+#'  |:-----|:---|:------------------------|:----------------------|:-----|:----------|:---------|:-----|
+#'  |1993  |-   |1347                     |194                    |17    |41         |7         |1606  |
+#'  |Total |0   |1347                     |194                    |17    |41         |7         |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -47,14 +53,20 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |1993, 1994 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `united`](https://gssdataexplorer.norc.org/variables/1380/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |american are united |american are divided |don't know |no answer |Total |
+#'  |:-----|:----|:-------------------|:--------------------|:----------|:---------|:-----|
+#'  |1993  |-    |518                 |1009                 |73         |6         |1606  |
+#'  |1994  |1518 |581                 |810                  |73         |10        |2992  |
+#'  |Total |1518 |1099                |1819                 |146        |16        |4598  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -82,13 +94,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `obtohelp`](https://gssdataexplorer.norc.org/variables/1381/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |it is oblgation |only if they want to |other |don't know |no answer |Total |
+#'  |:-----|:---|:---------------|:--------------------|:-----|:----------|:---------|:-----|
+#'  |1993  |-   |890             |626                  |57    |24         |9         |1606  |
+#'  |Total |0   |890             |626                  |57    |24         |9         |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -117,13 +135,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lfegod`](https://gssdataexplorer.norc.org/variables/1382/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1993  |-   |372            |450       |361                |364                  |47         |12        |1606  |
+#'  |Total |0   |372            |450       |361                |364                  |47         |12        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -152,13 +176,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lfegenes`](https://gssdataexplorer.norc.org/variables/1383/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1993  |-   |150            |446       |472                |484                  |43         |11        |1606  |
+#'  |Total |0   |150            |446       |472                |484                  |43         |11        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -187,13 +217,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lfesocty`](https://gssdataexplorer.norc.org/variables/1384/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1993  |-   |213            |598       |524                |215                  |44         |12        |1606  |
+#'  |Total |0   |213            |598       |524                |215                  |44         |12        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -222,13 +258,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lfehrdwk`](https://gssdataexplorer.norc.org/variables/1385/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1993  |-   |911            |580       |70                 |20                   |15         |10        |1606  |
+#'  |Total |0   |911            |580       |70                 |20                   |15         |10        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -256,13 +298,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lfechnce`](https://gssdataexplorer.norc.org/variables/1386/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |1993  |-   |55             |250       |591                |668                  |32         |10        |1606  |
+#'  |Total |0   |55             |250       |591                |668                  |32         |10        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -292,13 +340,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `bigband`](https://gssdataexplorer.norc.org/variables/1387/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |269            |588     |290            |230        |53                |164        |12        |1606  |
+#'  |Total |0   |269            |588     |290            |230        |53                |164        |12        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -328,13 +382,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1993 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1993  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `blugrass`](https://gssdataexplorer.norc.org/variables/1388/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
+#'  |1993  |-   |145            |562     |411            |255        |59                |163        |11        |1606  |
+#'  |Total |0   |145            |562     |411            |255        |59                |163        |11        |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture

@@ -27,15 +27,21 @@ Question E. Which of these best describes what you are?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5329/vshow}{GSS Data Explorer page for \code{relidbst}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab pentecostal \tab fundamentalist \tab evangelical \tab mainline \tab liberal \tab none \tab other (specify) \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 2488 \tab 9 \tab 10 \tab 7 \tab 9 \tab 6 \tab 2 \tab 1 \tab 11 \tab 274 \tab 2817 \cr
+   Total \tab 2488 \tab 9 \tab 10 \tab 7 \tab 9 \tab 6 \tab 2 \tab 1 \tab 11 \tab 274 \tab 2817 \cr
+}
 }
 
 \seealso{

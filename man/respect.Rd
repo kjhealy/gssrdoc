@@ -25,20 +25,26 @@ I. At the place where I work, I am treated with respect
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2782/vshow}{GSS Data Explorer page for \code{respect}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 715 \tab 924 \tab 105 \tab 31 \tab 6 \tab 15 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 696 \tab 880 \tab 97 \tab 36 \tab 10 \tab 15 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 438 \tab 628 \tab 72 \tab 23 \tab 2 \tab 24 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 442 \tab 704 \tab 77 \tab 21 \tab - \tab 6 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 478 \tab 815 \tab 101 \tab 18 \tab 3 \tab 33 \tab - \tab 2348 \cr
+   2022 \tab 1546 \tab 766 \tab 1024 \tab 127 \tab 44 \tab 9 \tab 10 \tab 18 \tab 3544 \cr
+   Total \tab 8336 \tab 3535 \tab 4975 \tab 579 \tab 173 \tab 30 \tab 103 \tab 18 \tab 17749 \cr
+}
 }
 
 \seealso{

@@ -24,16 +24,22 @@ Question C. How firm are you about your opinion on abortion--would you say you a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/617/vshow}{GSS Data Explorer page for \code{abfirm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 48 \tab 215 \tab 413 \tab 1108 \tab 63 \tab 13 \tab 1860 \cr
+   1984 \tab - \tab 44 \tab 195 \tab 335 \tab 869 \tab 23 \tab 7 \tab 1473 \cr
+   Total \tab 0 \tab 92 \tab 410 \tab 748 \tab 1977 \tab 86 \tab 20 \tab 3333 \cr
+}
 }
 
 \seealso{

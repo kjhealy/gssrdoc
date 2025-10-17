@@ -24,15 +24,21 @@ F. An interesting job
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/560/vshow}{GSS Data Explorer page for \code{jobinter}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 923 \tab 9 \tab 9 \tab 10 \tab 42 \tab 70 \tab 189 \tab 586 \tab 7 \tab 15 \tab 1860 \cr
+   Total \tab 923 \tab 9 \tab 9 \tab 10 \tab 42 \tab 70 \tab 189 \tab 586 \tab 7 \tab 15 \tab 1860 \cr
+}
 }
 
 \seealso{

@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `moregood`](https://gssdataexplorer.norc.org/variables/3044/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2004  |432 |819            |1308  |205      |39                |6          |3         |2812  |
+#'  |Total |432 |819            |1308  |205      |39                |6          |3         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -50,13 +56,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `owndoing`](https://gssdataexplorer.norc.org/variables/3045/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |i have little influence over things that happens to me |what happens to me is largely my own doing |don't know |no answer |Total |
+#'  |:-----|:---|:------------------------------------------------------|:------------------------------------------|:----------|:---------|:-----|
+#'  |2004  |432 |341                                                    |2008                                       |17         |14        |2812  |
+#'  |Total |432 |341                                                    |2008                                       |17         |14        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -83,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `geneexps`](https://gssdataexplorer.norc.org/variables/3046/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |genes play major role in determining personality |it is experience that determine personality |don't know |no answer |Total |
+#'  |:-----|:---|:------------------------------------------------|:-------------------------------------------|:----------|:---------|:-----|
+#'  |2004  |432 |588                                              |1723                                        |51         |18        |2812  |
+#'  |Total |432 |588                                              |1723                                        |51         |18        |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -120,13 +138,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `depndabl`](https://gssdataexplorer.norc.org/variables/3047/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |a very good description |a good description |a fair description |not a very good description |not a good description at all |don't know |no answer |Total |
+#'  |:-----|:---|:-----------------------|:------------------|:------------------|:---------------------------|:-----------------------------|:----------|:---------|:-----|
+#'  |2004  |432 |1212                    |920                |203                |23                          |16                            |1          |5         |2812  |
+#'  |Total |432 |1212                    |920                |203                |23                          |16                            |1          |5         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -157,13 +181,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `sadblue`](https://gssdataexplorer.norc.org/variables/3048/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |a very good description |a good description |a fair description |not a very good description |not a good description at all |don't know |no answer |Total |
+#'  |:-----|:---|:-----------------------|:------------------|:------------------|:---------------------------|:-----------------------------|:----------|:---------|:-----|
+#'  |2004  |432 |46                      |86                 |292                |1169                        |781                           |1          |5         |2812  |
+#'  |Total |432 |46                      |86                 |292                |1169                        |781                           |1          |5         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -194,13 +224,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `athletic`](https://gssdataexplorer.norc.org/variables/3049/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |a very good description |a good description |a fair description |not a very good description |not a good description at all |don't know |no answer |Total |
+#'  |:-----|:---|:-----------------------|:------------------|:------------------|:---------------------------|:-----------------------------|:----------|:---------|:-----|
+#'  |2004  |432 |255                     |429                |761                |633                         |295                           |1          |6         |2812  |
+#'  |Total |432 |255                     |429                |761                |633                         |295                           |1          |6         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -231,13 +267,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `kindpers`](https://gssdataexplorer.norc.org/variables/3050/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |a very good description |a good description |a fair description |not a very good description |not a good description at all |don't know |no answer |Total |
+#'  |:-----|:---|:-----------------------|:------------------|:------------------|:---------------------------|:-----------------------------|:----------|:---------|:-----|
+#'  |2004  |432 |1228                    |926                |203                |14                          |4                             |1          |4         |2812  |
+#'  |Total |432 |1228                    |926                |203                |14                          |4                             |1          |4         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -268,13 +310,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `selfish`](https://gssdataexplorer.norc.org/variables/3051/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |a very good description |a good description |a fair description |not a very good description |not a good description at all |don't know |no answer |Total |
+#'  |:-----|:---|:-----------------------|:------------------|:------------------|:---------------------------|:-----------------------------|:----------|:---------|:-----|
+#'  |2004  |432 |23                      |64                 |207                |1160                        |918                           |1          |7         |2812  |
+#'  |Total |432 |23                      |64                 |207                |1160                        |918                           |1          |7         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -302,13 +350,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `intrwght`](https://gssdataexplorer.norc.org/variables/3052/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |below average |average |somewhat above average |considerably above average |don't know |no answer |Total |
+#'  |:-----|:---|:-------------|:-------|:----------------------|:--------------------------|:----------|:---------|:-----|
+#'  |2004  |432 |156           |1556    |457                    |96                         |113        |2         |2812  |
+#'  |Total |432 |156           |1556    |457                    |96                         |113        |2         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -338,13 +392,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2004 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2004  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `agape1`](https://gssdataexplorer.norc.org/variables/3053/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |agree strongly |agree somewhat |neither agree nor disagree |disagree somewhat |disagree strongly |don't know |no answer |Total |
+#'  |:-----|:----|:--------------|:--------------|:--------------------------|:-----------------|:-----------------|:----------|:---------|:-----|
+#'  |2004  |1472 |812            |364            |100                        |41                |13                |5          |5         |2812  |
+#'  |Total |1472 |812            |364            |100                        |41                |13                |5          |5         |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruistic Love

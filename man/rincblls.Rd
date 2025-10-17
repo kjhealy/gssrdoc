@@ -22,20 +22,26 @@ Question Do you feel that the income from your job alone is enough to meet your 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2817/vshow}{GSS Data Explorer page for \code{rincblls}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 827 \tab 944 \tab 11 \tab 14 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 827 \tab 881 \tab 8 \tab 18 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 506 \tab 646 \tab 5 \tab 30 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 613 \tab 627 \tab 2 \tab 8 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 713 \tab 693 \tab 7 \tab 35 \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 966 \tab 979 \tab 11 \tab 14 \tab 19 \tab 3544 \cr
+   Total \tab 8345 \tab 4452 \tab 4770 \tab 44 \tab 119 \tab 19 \tab 17749 \cr
+}
 }
 
 \seealso{

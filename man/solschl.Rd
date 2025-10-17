@@ -23,15 +23,21 @@ H. School service groups
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/987/vshow}{GSS Data Explorer page for \code{solschl}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1987 \tab 1578 \tab 174 \tab 35 \tab 1 \tab 31 \tab 1819 \cr
+   Total \tab 1578 \tab 174 \tab 35 \tab 1 \tab 31 \tab 1819 \cr
+}
 }
 
 \seealso{

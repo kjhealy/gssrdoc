@@ -27,18 +27,25 @@ B. I accept others even when they do things I think are wrong.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2012 \tab A/C/- \tab partial \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2014 \cr
+   A/C/- \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2889/vshow}{GSS Data Explorer page for \code{accptoth}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never or almost never \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1393 \tab 119 \tab 207 \tab 437 \tab 310 \tab 206 \tab 66 \tab 20 \tab 7 \tab 2765 \cr
+   2004 \tab 1472 \tab 144 \tab 365 \tab 451 \tab 212 \tab 124 \tab 20 \tab 10 \tab 14 \tab 2812 \cr
+   2012 \tab 666 \tab 136 \tab 281 \tab 389 \tab 223 \tab 189 \tab 76 \tab 8 \tab 6 \tab 1974 \cr
+   2014 \tab 1264 \tab 145 \tab 255 \tab 373 \tab 222 \tab 186 \tab 79 \tab 5 \tab 9 \tab 2538 \cr
+   Total \tab 4795 \tab 544 \tab 1108 \tab 1650 \tab 967 \tab 705 \tab 241 \tab 43 \tab 36 \tab 10089 \cr
+}
 }
 
 \seealso{

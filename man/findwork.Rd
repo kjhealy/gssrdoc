@@ -25,15 +25,21 @@ Question If you lost your job for any reason, and were looking actively for anot
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4558/vshow}{GSS Data Explorer page for \code{findwork}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 182 \tab 321 \tab 138 \tab 133 \tab 76 \tab 24 \tab 24 \tab 1537 \cr
+   Total \tab 639 \tab 182 \tab 321 \tab 138 \tab 133 \tab 76 \tab 24 \tab 24 \tab 1537 \cr
+}
 }
 
 \seealso{

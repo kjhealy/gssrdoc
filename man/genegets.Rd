@@ -23,15 +23,21 @@ Question C. Suppose a genetic screening test for certain forms of heart disease 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1262/vshow}{GSS Data Explorer page for \code{genegets}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab employer should \tab worker should \tab both - voluntary \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 524 \tab 83 \tab 715 \tab 157 \tab 31 \tab 7 \tab 1517 \cr
+   Total \tab 524 \tab 83 \tab 715 \tab 157 \tab 31 \tab 7 \tab 1517 \cr
+}
 }
 
 \seealso{

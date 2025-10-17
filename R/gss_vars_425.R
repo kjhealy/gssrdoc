@@ -15,13 +15,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `wocomptr`](https://gssdataexplorer.norc.org/variables/3888/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |couldn't do my job without a computer or computerized equipment |could do my job without a computer or computerized equipment but it would be much harder |doing my job without a computer or computerized equipment would be about the same as now |already do most of my job without a computer or computerized equipment |Total |
+#'  |:-----|:----|:---------------------------------------------------------------|:----------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|:----------------------------------------------------------------------|:-----|
+#'  |2008  |1381 |289                                                             |248                                                                                      |52                                                                                       |53                                                                     |2023  |
+#'  |Total |1381 |289                                                             |248                                                                                      |52                                                                                       |53                                                                     |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -47,13 +53,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `autonojb`](https://gssdataexplorer.norc.org/variables/3889/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |Total |
+#'  |:-----|:----|:---|:---|:-----|
+#'  |2008  |1381 |101 |541 |2023  |
+#'  |Total |1381 |101 |541 |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -83,13 +95,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `meetf2f1`](https://gssdataexplorer.norc.org/variables/3890/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |once per year or less, or |several times per year |several times per month |several times per week |daily |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:-------------------------|:----------------------|:-----------------------|:----------------------|:-----|:----------|:---------|:-----|
+#'  |2008  |1165 |139   |28                        |44                     |69                      |75                     |485   |5          |13        |2023  |
+#'  |Total |1165 |139   |28                        |44                     |69                      |75                     |485   |5          |13        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -119,13 +137,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `meetf2f2`](https://gssdataexplorer.norc.org/variables/3891/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |once per year or less, or |several times per year |several times per month |several times per week |daily |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:-------------------------|:----------------------|:-----------------------|:----------------------|:-----|:----------|:---------|:-----|
+#'  |2008  |1165 |84    |9                         |38                     |45                      |86                     |578   |5          |13        |2023  |
+#'  |Total |1165 |84    |9                         |38                     |45                      |86                     |578   |5          |13        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -155,13 +179,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `intlcowk`](https://gssdataexplorer.norc.org/variables/3892/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |never |once per year or less |several times per year |several times per month |several times per week |daily |don't know |no answer |Total |
+#'  |:-----|:----|:-----|:---------------------|:----------------------|:-----------------------|:----------------------|:-----|:----------|:---------|:-----|
+#'  |2008  |1165 |673   |36                    |30                     |27                      |19                     |53    |6          |14        |2023  |
+#'  |Total |1165 |673   |36                    |30                     |27                      |19                     |53    |6          |14        |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -186,13 +216,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `lastyrwk`](https://gssdataexplorer.norc.org/variables/3893/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |1974 |1976 |1980 |1986 |1989 |1991 |1995 |1997 |1999 |2000 |2001 |2002 |2003 |2004 |2005 |2006 |2007 |2008 |don't know |Total |
+#'  |:-----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----------|:-----|
+#'  |2008  |1797 |1    |1    |1    |2    |2    |1    |1    |1    |1    |1    |1    |5    |2    |2    |20   |35   |67   |79   |3          |2023  |
+#'  |Total |1797 |1    |1    |1    |2    |2    |1    |1    |1    |1    |1    |1    |5    |2    |2    |20   |35   |67   |79   |3          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -219,13 +255,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `leavejb`](https://gssdataexplorer.norc.org/variables/3894/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |left voluntarily |job was abolished |permanently laid off |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:-----------------|:--------------------|:----------|:---------|:-----|
+#'  |2008  |1820 |124              |18                |37                   |17         |7         |2023  |
+#'  |Total |1820 |124              |18                |37                   |17         |7         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -260,13 +302,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whynojb1`](https://gssdataexplorer.norc.org/variables/3895/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |company's sales were declining |job requirements changed and i was not able to do the job |job moved to another location in the united states |job moved to another country |other |Total |
+#'  |:-----|:----|:------------------------------|:---------------------------------------------------------|:--------------------------------------------------|:----------------------------|:-----|:-----|
+#'  |2008  |1968 |17                             |2                                                         |3                                                  |1                            |32    |2023  |
+#'  |Total |1968 |17                             |2                                                         |3                                                  |1                            |32    |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -301,13 +349,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `whynojb2`](https://gssdataexplorer.norc.org/variables/3896/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |company's sales were declining |job requirements changed and i was not able to do the job |job moved to another location in the united states |job moved to another country |other |Total |
+#'  |:-----|:----|:------------------------------|:---------------------------------------------------------|:--------------------------------------------------|:----------------------------|:-----|:-----|
+#'  |2008  |2013 |4                              |1                                                         |1                                                  |1                            |3     |2023  |
+#'  |Total |2013 |4                              |1                                                         |1                                                  |1                            |3     |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -356,13 +410,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2008  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `inclstjb`](https://gssdataexplorer.norc.org/variables/3897/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |a. under $1,000 |b. $1,000 to 2,999 |c. $3,000 to 3,999 |d. $4,000 to 4,999 |e. $5,000 to 5,999 |f. $6,000 to 6,999 |g. $7,000 to 7,999 |h. $8,000 to 9,999 |i. $10,000 to 12,499 |j. $12,500 to 14,999 |k. $15,000 to 17,499 |l. $17,500 to 19,999 |m. $20,000 to 22,499 |n. $22,500 to 24,999 |o. $25,000 to 29,999 |p. $30,000 to 34,999 |q. $35,000 to 39,999 |r. $40,000 to 49,999 |s. $50,000 to 59,999 |t. $60,000 to 74,999 |u. $75,000 to $89,999 |v. $90,000 to $109,999 |w. $110,000 to $129,999 |x. $130,000 to $149,999 |y. $150,000 or over |don't know |no answer |Total |
+#'  |:-----|:----|:---------------|:------------------|:------------------|:------------------|:------------------|:------------------|:------------------|:------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:---------------------|:----------------------|:-----------------------|:-----------------------|:-------------------|:----------|:---------|:-----|
+#'  |2008  |1822 |5               |5                  |6                  |4                  |7                  |2                  |6                  |11                 |14                   |10                   |9                    |8                    |10                   |9                    |18                   |11                   |9                    |15                   |6                    |6                    |6                     |4                      |2                       |2                       |1                   |7          |8         |2023  |
+#'  |Total |1822 |5               |5                  |6                  |4                  |7                  |2                  |6                  |11                 |14                   |10                   |9                    |8                    |10                   |9                    |18                   |11                   |9                    |15                   |6                    |6                    |6                     |4                      |2                       |2                       |1                   |7          |8         |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics

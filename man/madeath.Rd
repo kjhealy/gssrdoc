@@ -26,26 +26,33 @@ Question B. Death of respondent's mother
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1986 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab B/C \tab partial \cr
-   1989 \tab B/C \tab partial \cr
-   1990 \tab B/C \tab partial \cr
-   1991 \tab B/C \tab partial \cr
-   1993 \tab B/C \tab partial \cr
-   1994 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   -/- \tab 1978, 1980, 1983, 1984, 1986, 1987 \cr
+   B/C \tab 1988, 1989, 1990, 1991, 1993, 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/749/vshow}{GSS Data Explorer page for \code{madeath}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab no death reported \tab died before r 16 \tab died 6+ yrs ago \tab died 1-5 yrs ago \tab died last year \tab don't know \tab no answer \tab Total \cr
+   1978 \tab - \tab 914 \tab 36 \tab 386 \tab 87 \tab 30 \tab 63 \tab 16 \tab 1532 \cr
+   1980 \tab - \tab 868 \tab 39 \tab 363 \tab 78 \tab 35 \tab 72 \tab 13 \tab 1468 \cr
+   1983 \tab - \tab 1000 \tab 39 \tab 389 \tab 70 \tab 29 \tab 63 \tab 9 \tab 1599 \cr
+   1984 \tab - \tab 904 \tab 27 \tab 362 \tab 60 \tab 20 \tab 73 \tab 27 \tab 1473 \cr
+   1986 \tab - \tab 874 \tab 17 \tab 385 \tab 82 \tab 28 \tab 73 \tab 11 \tab 1470 \cr
+   1987 \tab - \tab 1107 \tab 30 \tab 415 \tab 106 \tab 37 \tab 97 \tab 27 \tab 1819 \cr
+   1988 \tab 484 \tab 581 \tab 19 \tab 257 \tab 58 \tab 29 \tab 41 \tab 12 \tab 1481 \cr
+   1989 \tab 502 \tab 629 \tab 21 \tab 263 \tab 41 \tab 25 \tab 54 \tab 2 \tab 1537 \cr
+   1990 \tab 473 \tab 568 \tab 15 \tab 214 \tab 38 \tab 14 \tab 48 \tab 2 \tab 1372 \cr
+   1991 \tab 500 \tab 639 \tab 20 \tab 246 \tab 45 \tab 10 \tab 53 \tab 4 \tab 1517 \cr
+   1993 \tab 549 \tab 650 \tab 23 \tab 266 \tab 47 \tab 20 \tab 48 \tab 3 \tab 1606 \cr
+   1994 \tab 2481 \tab 312 \tab 16 \tab 137 \tab 17 \tab 8 \tab 20 \tab 1 \tab 2992 \cr
+   Total \tab 4989 \tab 9046 \tab 302 \tab 3683 \tab 729 \tab 285 \tab 705 \tab 127 \tab 19866 \cr
+}
 }
 
 \seealso{

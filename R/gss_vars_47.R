@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racmix`](https://gssdataexplorer.norc.org/variables/406/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |none |one or two |three or more |no answer |Total |
+#'  |:-----|:----|:----|:----------|:-------------|:---------|:-----|
+#'  |1982  |1350 |170  |124        |214           |2         |1860  |
+#'  |Total |1350 |170  |124        |214           |2         |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -48,13 +54,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racneigh`](https://gssdataexplorer.norc.org/variables/407/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |all black |mostly black |.5 black - .5 white |mostly white |don't know |no answer |Total |
+#'  |:-----|:----|:---------|:------------|:-------------------|:------------|:----------|:---------|:-----|
+#'  |1982  |1350 |67        |83           |282                 |26           |36         |16        |1860  |
+#'  |Total |1350 |67        |83           |282                 |26           |36         |16        |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -80,13 +92,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racnobuy`](https://gssdataexplorer.norc.org/variables/408/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |no answer |Total |
+#'  |:-----|:----|:---|:---|:---------|:-----|
+#'  |1982  |1350 |135 |369 |6         |1860  |
+#'  |Total |1350 |135 |369 |6         |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ractrust`](https://gssdataexplorer.norc.org/variables/409/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most white people |some white people |no white people |no answer |Total |
+#'  |:-----|:----|:-----------------|:-----------------|:---------------|:---------|:-----|
+#'  |1982  |1350 |36                |411               |55              |8         |1860  |
+#'  |Total |1350 |36                |411               |55              |8         |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -146,13 +170,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racparty`](https://gssdataexplorer.norc.org/variables/410/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |republican party |democratic party |not much difference |don't know |no answer |Total |
+#'  |:-----|:----|:----------------|:----------------|:-------------------|:----------|:---------|:-----|
+#'  |1982  |1350 |8                |336              |142                 |17         |7         |1860  |
+#'  |Total |1350 |8                |336              |142                 |17         |7         |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -179,13 +209,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racocc`](https://gssdataexplorer.norc.org/variables/411/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost always |sometimes |almost never |don't know |no answer |Total |
+#'  |:-----|:----|:-------------|:---------|:------------|:----------|:---------|:-----|
+#'  |1982  |1350 |66            |271       |165          |3          |5         |1860  |
+#'  |Total |1350 |66            |271       |165          |3          |5         |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -212,13 +248,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racinc`](https://gssdataexplorer.norc.org/variables/412/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |almost always |sometimes |almost never |don't know |no answer |Total |
+#'  |:-----|:----|:-------------|:---------|:------------|:----------|:---------|:-----|
+#'  |1982  |1350 |66            |278       |159          |2          |5         |1860  |
+#'  |Total |1350 |66            |278       |159          |2          |5         |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -245,13 +287,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racopnow`](https://gssdataexplorer.norc.org/variables/413/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |improved |remained same |gotten worse |don't know |no answer |Total |
+#'  |:-----|:----|:--------|:-------------|:------------|:----------|:---------|:-----|
+#'  |1982  |1350 |241      |161           |100          |4          |4         |1860  |
+#'  |Total |1350 |241      |161           |100          |4          |4         |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -278,13 +326,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1982 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1982  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racopwil`](https://gssdataexplorer.norc.org/variables/414/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |improve |remain same |get worse |don't know |no answer |Total |
+#'  |:-----|:----|:-------|:-----------|:---------|:----------|:---------|:-----|
+#'  |1982  |1350 |177     |168         |145       |14         |6         |1860  |
+#'  |Total |1350 |177     |168         |145       |14         |6         |1860  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -312,13 +366,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1983 |-       |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |-       |1983  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racimp`](https://gssdataexplorer.norc.org/variables/415/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |one of most imp |important |not very imp |not imp at all |don't know |no answer |Total |
+#'  |:-----|:---|:---------------|:---------|:------------|:--------------|:----------|:---------|:-----|
+#'  |1983  |795 |76              |342       |286          |86             |12         |2         |1599  |
+#'  |Total |795 |76              |342       |286          |86             |12         |2         |1599  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

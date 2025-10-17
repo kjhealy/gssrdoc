@@ -25,17 +25,24 @@ Question How about business and industry, do they have too much power or too lit
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 1996 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4069/vshow}{GSS Data Explorer page for \code{buspow}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab far too much power \tab too much power \tab about the right amount of power \tab too little power \tab far too little power \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 79 \tab 221 \tab 269 \tab 36 \tab 3 \tab 61 \tab 8 \tab 1534 \cr
+   1990 \tab 155 \tab 105 \tab 388 \tab 509 \tab 68 \tab 2 \tab 121 \tab 24 \tab 1372 \cr
+   1996 \tab 1572 \tab 146 \tab 434 \tab 507 \tab 79 \tab 5 \tab 112 \tab 49 \tab 2904 \cr
+   Total \tab 2584 \tab 330 \tab 1043 \tab 1285 \tab 183 \tab 10 \tab 294 \tab 81 \tab 5810 \cr
+}
 }
 
 \seealso{

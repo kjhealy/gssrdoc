@@ -23,15 +23,21 @@ A. The people running the country don''t really care what happens to you.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/428/vshow}{GSS Data Explorer page for \code{alienat1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab feel \tab not feel \tab don't know \tab no answer \tab Total \cr
+   1978 \tab - \tab 779 \tab 678 \tab 63 \tab 12 \tab 1532 \cr
+   Total \tab 0 \tab 779 \tab 678 \tab 63 \tab 12 \tab 1532 \cr
+}
 }
 
 \seealso{

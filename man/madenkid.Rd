@@ -261,18 +261,26 @@ A.  If Protestant, what specific denomination was that?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4666/vshow}{GSS Data Explorer page for \code{madenkid}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab american baptist association \tab southern baptist convention \tab other baptist churches \tab baptist, don't know which \tab african methodist episcopal church \tab african methodist episcopal zion church \tab united methodist church \tab other methodist churches \tab methodist, don't know which \tab american lutheran church \tab lutheran church - missouri synod \tab wisconsin evangelical lutheran synod \tab other lutheran churches \tab lutheran, don't know which \tab united presbyterian church in the u.s.a. \tab presbyterian church u.s.a. \tab presbyterian, don't know which \tab episcopal church \tab new testament christian \tab moravian \tab assembly of god \tab free will baptist \tab christian; central christian \tab christian reform \tab christian scientist \tab church of christ \tab churches of god (except with christ and holiness) \tab church of god in christ \tab congregationalist, 1st congreg \tab covenant \tab dutch reform \tab disciples of christ \tab evangelical, evangelist \tab first christian disciples of christ \tab first reformed \tab first christian \tab full gospel \tab holiness; church of holiness \tab pilgrim holiness \tab jehovah''s witnesses \tab lds \tab lds--mormon \tab lds--reorganized \tab lds--jesus christ; church of jesus lds \tab mennonite \tab mormon \tab nazarene \tab pentecostal assembly of god \tab pentecostal \tab quaker \tab reformed \tab 7th day adventist \tab sanctified, sanctification \tab unitarian, universalist \tab united church of christ \tab wesleyan \tab wesleyan methodist--pilgrim \tab mission covenant \tab missionary baptist \tab other fundamentalist \tab worldwide church of god \tab united church of canada \tab evangelical united brethren \tab primitive baptist \tab new birth christian \tab no denomination given or non-denom. church \tab don't know \tab no answer \tab lutheran church in america \tab evangelical lutheran \tab independent \tab church of god in christ holiness \tab evangelical reformed \tab salvation army \tab apostolic church \tab american baptist churches in the u.s.a. \tab national baptist convention of america \tab national baptist convention u.s.a., inc. \tab presbyterian church in the u.s. \tab ind bible, bible, bible fellowship \tab christian & missionary alliance \tab apostolic faith \tab brethren church, brethren \tab united brethren, united brethren in christ \tab charismatic \tab missionary church \tab armenian apostolic church \tab Total \cr
+   1991 \tab 707 \tab 2 \tab 34 \tab 3 \tab 182 \tab 3 \tab 1 \tab 19 \tab 1 \tab 99 \tab 6 \tab 4 \tab 1 \tab 2 \tab 72 \tab 2 \tab 2 \tab 44 \tab 23 \tab 1 \tab 1 \tab 7 \tab 2 \tab 18 \tab 2 \tab 4 \tab 14 \tab 10 \tab 2 \tab 8 \tab 1 \tab 1 \tab 4 \tab 4 \tab 1 \tab 1 \tab 4 \tab 1 \tab 4 \tab 1 \tab 3 \tab 15 \tab 1 \tab 1 \tab 2 \tab 3 \tab 4 \tab 2 \tab 1 \tab 17 \tab 2 \tab 1 \tab 4 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 12 \tab 13 \tab 120 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   1998 \tab 2126 \tab 1 \tab 42 \tab 5 \tab 159 \tab 27 \tab 1 \tab 23 \tab 3 \tab 93 \tab 1 \tab 3 \tab 2 \tab 2 \tab 49 \tab - \tab - \tab 38 \tab 10 \tab - \tab 1 \tab 5 \tab - \tab 16 \tab 1 \tab 7 \tab 9 \tab 6 \tab 2 \tab 8 \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab 1 \tab 3 \tab 3 \tab - \tab 10 \tab - \tab - \tab - \tab 1 \tab - \tab 8 \tab 2 \tab - \tab 8 \tab - \tab 1 \tab 12 \tab - \tab 1 \tab 4 \tab 1 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab 4 \tab - \tab - \tab 16 \tab 20 \tab 83 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2008 \tab 1254 \tab 15 \tab 103 \tab 2 \tab 135 \tab 5 \tab 3 \tab 66 \tab - \tab 30 \tab 10 \tab 11 \tab 5 \tab 1 \tab 30 \tab 7 \tab - \tab 37 \tab 30 \tab - \tab - \tab 3 \tab 6 \tab 27 \tab 3 \tab - \tab 15 \tab 6 \tab 1 \tab 5 \tab - \tab 1 \tab 4 \tab 2 \tab - \tab - \tab - \tab 1 \tab 5 \tab 1 \tab 9 \tab 8 \tab 4 \tab - \tab - \tab 2 \tab 11 \tab 3 \tab - \tab 19 \tab 3 \tab 4 \tab 3 \tab - \tab 1 \tab 2 \tab - \tab - \tab - \tab 3 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 41 \tab 31 \tab 13 \tab 6 \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab 5 \tab 6 \tab 3 \tab 6 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 3 \tab - \tab 2023 \cr
+   2018 \tab 1748 \tab 2 \tab 15 \tab 1 \tab 186 \tab 1 \tab 1 \tab 12 \tab 1 \tab 58 \tab - \tab 4 \tab 1 \tab - \tab 42 \tab - \tab 1 \tab 27 \tab 21 \tab 1 \tab - \tab 3 \tab 4 \tab 55 \tab - \tab - \tab 13 \tab 3 \tab - \tab 4 \tab 1 \tab - \tab 1 \tab 5 \tab - \tab - \tab - \tab - \tab 2 \tab - \tab 12 \tab - \tab - \tab - \tab - \tab 3 \tab 14 \tab 1 \tab - \tab 21 \tab 3 \tab 2 \tab 7 \tab - \tab 2 \tab 2 \tab 1 \tab - \tab - \tab 3 \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab 24 \tab 27 \tab 3 \tab - \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 3 \tab - \tab - \tab - \tab 1 \tab 2348 \cr
+   Total \tab 5835 \tab 20 \tab 194 \tab 11 \tab 662 \tab 36 \tab 6 \tab 120 \tab 5 \tab 280 \tab 17 \tab 22 \tab 9 \tab 5 \tab 193 \tab 9 \tab 3 \tab 146 \tab 84 \tab 2 \tab 2 \tab 18 \tab 12 \tab 116 \tab 6 \tab 11 \tab 51 \tab 25 \tab 5 \tab 25 \tab 3 \tab 2 \tab 11 \tab 11 \tab 1 \tab 1 \tab 5 \tab 5 \tab 14 \tab 2 \tab 34 \tab 23 \tab 5 \tab 1 \tab 3 \tab 8 \tab 37 \tab 8 \tab 1 \tab 65 \tab 8 \tab 8 \tab 26 \tab 1 \tab 5 \tab 11 \tab 3 \tab 2 \tab 1 \tab 10 \tab 1 \tab 2 \tab 2 \tab 6 \tab 2 \tab 1 \tab 93 \tab 91 \tab 219 \tab 8 \tab 5 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 5 \tab 6 \tab 3 \tab 6 \tab 1 \tab 3 \tab 1 \tab 6 \tab 1 \tab 1 \tab 3 \tab 1 \tab 8720 \cr
+}
 }
 
 \seealso{

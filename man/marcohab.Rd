@@ -24,21 +24,26 @@ Question Cohabitating status
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6320/vshow}{GSS Data Explorer page for \code{marcohab}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab married \tab not married, cohabitating partner \tab not married, no cohabitating partner \tab not married, missing on cohabitating \tab 9 \tab no answer \tab Total \cr
+   2012 \tab - \tab 900 \tab 168 \tab 896 \tab 10 \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 1158 \tab 210 \tab 1161 \tab 6 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 16 \tab 1212 \tab 263 \tab 1376 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab - \tab 998 \tab 231 \tab 1111 \tab 7 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab - \tab 1999 \tab 372 \tab 1648 \tab 12 \tab - \tab 1 \tab 4032 \cr
+   2022 \tab - \tab 1464 \tab 316 \tab 1725 \tab 31 \tab - \tab 8 \tab 3544 \cr
+   Total \tab 16 \tab 7731 \tab 1560 \tab 7917 \tab 66 \tab 4 \tab 9 \tab 17303 \cr
+}
 }
 
 \seealso{

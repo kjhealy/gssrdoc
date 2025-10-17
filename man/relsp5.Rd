@@ -43,25 +43,32 @@ E. Relationship of fifth person to spouse?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
+   A/B/C/D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5457/vshow}{GSS Data Explorer page for \code{relsp5}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllll}{
+   year \tab iap \tab child, not specified \tab grandchild, great-grandchild \tab parent \tab uncle or aunt \tab niece or nephew \tab sibling-in-law \tab friend \tab child of non-relative \tab other non-relative (employee, boarder) \tab natural/biological child \tab adopted child \tab stepchild \tab no answer \tab grandparent, great-grandparent \tab brother, sister (full, half, or step sibling) \tab other relative (great-aunt, grandniece, etc.) \tab son-in-law, daughter-in-law \tab parent-in-law \tab roommate, housemate \tab don't know \tab cousin \tab not available in this release \tab Total \cr
+   2000 \tab 2597 \tab 23 \tab 14 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 135 \tab 7 \tab 8 \tab 23 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2594 \tab 30 \tab 10 \tab 2 \tab - \tab 1 \tab - \tab 1 \tab 3 \tab - \tab 111 \tab 1 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2606 \tab 49 \tab 12 \tab 2 \tab 1 \tab 4 \tab - \tab 1 \tab 2 \tab 3 \tab 115 \tab - \tab 11 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 4137 \tab 121 \tab 16 \tab - \tab 1 \tab 2 \tab 1 \tab 2 \tab 2 \tab 6 \tab 195 \tab 4 \tab 13 \tab - \tab - \tab 1 \tab - \tab 2 \tab 2 \tab 3 \tab 2 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1860 \tab 76 \tab 10 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 4 \tab - \tab 64 \tab - \tab 2 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab 2023 \cr
+   2010 \tab 1898 \tab 64 \tab 13 \tab - \tab - \tab 3 \tab 2 \tab 1 \tab 3 \tab 2 \tab 42 \tab 3 \tab 4 \tab 2 \tab - \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1810 \tab 82 \tab 12 \tab 2 \tab - \tab 1 \tab 2 \tab 1 \tab 2 \tab 4 \tab 51 \tab - \tab 3 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 2 \tab - \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 2362 \tab 90 \tab 7 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab 2 \tab 1 \tab 58 \tab 1 \tab 5 \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab 3 \tab 1 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 2675 \tab 120 \tab 15 \tab 1 \tab - \tab 6 \tab 1 \tab 1 \tab 2 \tab 4 \tab 27 \tab 2 \tab 7 \tab - \tab - \tab 3 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2219 \tab 71 \tab 16 \tab 1 \tab - \tab 1 \tab - \tab - \tab 1 \tab 1 \tab 26 \tab 3 \tab 4 \tab 1 \tab - \tab - \tab - \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   Total \tab 24758 \tab 726 \tab 125 \tab 11 \tab 5 \tab 22 \tab 8 \tab 9 \tab 24 \tab 22 \tab 824 \tab 21 \tab 64 \tab 28 \tab 2 \tab 9 \tab 6 \tab 7 \tab 9 \tab 12 \tab 4 \tab 2 \tab 4032 \tab 30730 \cr
+}
 }
 
 \seealso{

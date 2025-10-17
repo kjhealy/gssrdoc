@@ -25,20 +25,29 @@ D. Provide a decent standard of living for the old.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016 \cr
+   A/B/C \tab 1990, 1996, 2002 \cr
+   D/-/- \tab 2006 \cr
+   Full \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4079/vshow}{GSS Data Explorer page for \code{aidold}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 267 \tab 309 \tab 63 \tab 17 \tab 10 \tab 11 \tab 1534 \cr
+   1990 \tab 155 \tab 460 \tab 545 \tab 119 \tab 24 \tab 32 \tab 37 \tab 1372 \cr
+   1996 \tab 1572 \tab 484 \tab 608 \tab 125 \tab 42 \tab 19 \tab 54 \tab 2904 \cr
+   2002 \tab 1616 \tab 504 \tab 409 \tab 135 \tab 45 \tab 48 \tab 8 \tab 2765 \cr
+   2006 \tab 2992 \tab 863 \tab 498 \tab 124 \tab 27 \tab 6 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 672 \tab 535 \tab 128 \tab 32 \tab 12 \tab 11 \tab 2867 \cr
+   Total \tab 8669 \tab 3250 \tab 2904 \tab 694 \tab 187 \tab 127 \tab 121 \tab 15952 \cr
+}
 }
 
 \seealso{

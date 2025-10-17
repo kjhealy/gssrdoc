@@ -25,20 +25,26 @@ A. The chances for promotion are good
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2796/vshow}{GSS Data Explorer page for \code{promteok}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 364 \tab 604 \tab 401 \tab 375 \tab 31 \tab 21 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 327 \tab 604 \tab 389 \tab 343 \tab 48 \tab 23 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 197 \tab 421 \tab 272 \tab 252 \tab 14 \tab 31 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 250 \tab 452 \tab 307 \tab 218 \tab 12 \tab 11 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 295 \tab 534 \tab 329 \tab 238 \tab 17 \tab 35 \tab - \tab 2348 \cr
+   2022 \tab 1551 \tab 401 \tab 785 \tab 431 \tab 303 \tab 38 \tab 15 \tab 20 \tab 3544 \cr
+   Total \tab 8341 \tab 1834 \tab 3400 \tab 2129 \tab 1729 \tab 160 \tab 136 \tab 20 \tab 17749 \cr
+}
 }
 
 \seealso{

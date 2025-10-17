@@ -24,15 +24,21 @@ Question Did you ever live with a partner you didn't marry?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4411/vshow}{GSS Data Explorer page for \code{livnowed}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, with a previous partner \tab yes, with my present partner \tab yes, with previous and present partner \tab no, never \tab no answer \tab Total \cr
+   1994 \tab 1545 \tab 215 \tab 53 \tab 41 \tab 1001 \tab 137 \tab 2992 \cr
+   Total \tab 1545 \tab 215 \tab 53 \tab 41 \tab 1001 \tab 137 \tab 2992 \cr
+}
 }
 
 \seealso{

@@ -27,18 +27,24 @@ Do you remember for sure whether or not you voted in that election?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994, 1996, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/162/vshow}{GSS Data Explorer page for \code{if92who}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab clinton \tab bush \tab perot \tab other \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 1118 \tab 191 \tab 115 \tab 96 \tab 13 \tab 58 \tab 15 \tab 1606 \cr
+   1994 \tab 2084 \tab 350 \tab 243 \tab 168 \tab 32 \tab 92 \tab 23 \tab 2992 \cr
+   1996 \tab 1957 \tab 319 \tab 248 \tab 150 \tab 56 \tab 106 \tab 68 \tab 2904 \cr
+   1998 \tab 1857 \tab 325 \tab 216 \tab 99 \tab 38 \tab 143 \tab 154 \tab 2832 \cr
+   Total \tab 7016 \tab 1185 \tab 822 \tab 513 \tab 139 \tab 399 \tab 260 \tab 10334 \cr
+}
 }
 
 \seealso{

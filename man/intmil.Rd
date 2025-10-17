@@ -23,20 +23,29 @@ Question Issues about military and defense policy.  (Are you very interested, mo
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3461/vshow}{GSS Data Explorer page for \code{intmil}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very interested \tab moderately interested \tab not at all interested \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 518 \tab 611 \tab 674 \tab 210 \tab 9 \tab 1 \tab 2023 \cr
+   2010 \tab 1334 \tab 259 \tab 341 \tab 101 \tab 3 \tab 6 \tab 2044 \cr
+   2012 \tab 972 \tab 397 \tab 448 \tab 144 \tab 7 \tab 6 \tab 1974 \cr
+   2014 \tab 1299 \tab 439 \tab 614 \tab 183 \tab 2 \tab 1 \tab 2538 \cr
+   2016 \tab 1477 \tab 489 \tab 662 \tab 234 \tab 2 \tab 3 \tab 2867 \cr
+   2018 \tab 1173 \tab 385 \tab 577 \tab 211 \tab 2 \tab - \tab 2348 \cr
+   Total \tab 6773 \tab 2580 \tab 3316 \tab 1083 \tab 25 \tab 17 \tab 13794 \cr
+}
 }
 
 \seealso{

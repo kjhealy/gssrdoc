@@ -26,15 +26,21 @@ D. Commercials on network television.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5120/vshow}{GSS Data Explorer page for \code{infadstv}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very positive \tab positive \tab neutral \tab negative \tab very negative \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 61 \tab 187 \tab 398 \tab 504 \tab 177 \tab 38 \tab 7 \tab 1372 \cr
+   Total \tab 0 \tab 61 \tab 187 \tab 398 \tab 504 \tab 177 \tab 38 \tab 7 \tab 1372 \cr
+}
 }
 
 \seealso{

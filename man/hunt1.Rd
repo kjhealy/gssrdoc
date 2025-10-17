@@ -24,19 +24,25 @@ Question Do you (or does your (husband/wife/partner)) go hunting?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/C/- \tab partial \cr
-   2018 \tab A/C/- \tab partial \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/C/- \tab partial \cr
-   2024 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
+   A/C/- \tab 2016, 2018, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6195/vshow}{GSS Data Explorer page for \code{hunt1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes, respondent does \tab yes, spouse or partner does \tab yes, both do \tab no, neither r nor spouse or partner does \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2016 \tab 978 \tab 184 \tab 79 \tab 57 \tab 1566 \tab 1 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab 774 \tab 164 \tab 66 \tab 36 \tab 1307 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab 325 \tab 155 \tab 93 \tab 3452 \tab - \tab - \tab 7 \tab 4032 \cr
+   2022 \tab 1203 \tab 235 \tab 68 \tab 48 \tab 1985 \tab 3 \tab 1 \tab 1 \tab 3544 \cr
+   Total \tab 2955 \tab 908 \tab 368 \tab 234 \tab 8310 \tab 5 \tab 3 \tab 8 \tab 12791 \cr
+}
 }
 
 \seealso{

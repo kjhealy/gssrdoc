@@ -23,15 +23,21 @@ C. Business leaders
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3497/vshow}{GSS Data Explorer page for \code{bizbstnk}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab Total \cr
+   2010 \tab 1578 \tab 23 \tab 40 \tab 124 \tab 146 \tab 102 \tab 24 \tab 7 \tab 2044 \cr
+   Total \tab 1578 \tab 23 \tab 40 \tab 124 \tab 146 \tab 102 \tab 24 \tab 7 \tab 2044 \cr
+}
 }
 
 \seealso{

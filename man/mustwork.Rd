@@ -22,20 +22,26 @@ Question When you work extra hours on your main job, is it mandatory (required b
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2765/vshow}{GSS Data Explorer page for \code{mustwork}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 461 \tab 1293 \tab 24 \tab 18 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 451 \tab 1245 \tab 23 \tab 15 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 322 \tab 820 \tab 15 \tab 30 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 357 \tab 874 \tab 13 \tab 6 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 387 \tab 1022 \tab 9 \tab 30 \tab - \tab 2348 \cr
+   2022 \tab 1540 \tab 457 \tab 1482 \tab 23 \tab 22 \tab 20 \tab 3544 \cr
+   Total \tab 8330 \tab 2435 \tab 6736 \tab 107 \tab 121 \tab 20 \tab 17749 \cr
+}
 }
 
 \seealso{

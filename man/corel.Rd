@@ -33,21 +33,26 @@ Question What is your (PARTNER'S) religious preference? Is it Protestant, Cathol
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6169/vshow}{GSS Data Explorer page for \code{corel}}.
+
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab buddhism \tab christian \tab native american \tab don't know \tab muslim/islam \tab no answer \tab inter-nondenominational \tab other eastern religions \tab hinduism \tab skipped on web \tab orthodox-christian \tab Total \cr
+   2012 \tab 1806 \tab 43 \tab 45 \tab 2 \tab 56 \tab 4 \tab 1 \tab 11 \tab 1 \tab 5 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2325 \tab 52 \tab 61 \tab - \tab 71 \tab 2 \tab - \tab 12 \tab - \tab 10 \tab 2 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2603 \tab 85 \tab 60 \tab 4 \tab 80 \tab 4 \tab - \tab 12 \tab - \tab 15 \tab - \tab 3 \tab 1 \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2117 \tab 70 \tab 52 \tab 2 \tab 85 \tab 2 \tab - \tab 6 \tab 1 \tab - \tab 1 \tab - \tab - \tab 12 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 3676 \tab 86 \tab 66 \tab 12 \tab 167 \tab 2 \tab 3 \tab 6 \tab - \tab 7 \tab - \tab - \tab - \tab 1 \tab 2 \tab 4 \tab - \tab 4032 \cr
+   2022 \tab 3228 \tab 90 \tab 62 \tab 8 \tab 125 \tab 3 \tab 1 \tab 3 \tab - \tab 15 \tab - \tab 5 \tab - \tab - \tab - \tab - \tab 4 \tab 3544 \cr
+   Total \tab 15755 \tab 426 \tab 346 \tab 28 \tab 584 \tab 17 \tab 5 \tab 50 \tab 2 \tab 52 \tab 3 \tab 11 \tab 1 \tab 13 \tab 2 \tab 4 \tab 4 \tab 17303 \cr
+}
 }
 
 \seealso{

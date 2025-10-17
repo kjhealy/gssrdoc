@@ -25,15 +25,21 @@ B. Smoking in public places should be prohibited by law.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4037/vshow}{GSS Data Explorer page for \code{nosmoke}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab 5 \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 134 \tab 170 \tab 150 \tab 167 \tab 47 \tab 9 \tab 1534 \cr
+   Total \tab 857 \tab 134 \tab 170 \tab 150 \tab 167 \tab 47 \tab 9 \tab 1534 \cr
+}
 }
 
 \seealso{

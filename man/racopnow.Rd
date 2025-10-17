@@ -23,15 +23,21 @@ Question A. Do you think the opportunities for blacks to get ahead have improved
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/413/vshow}{GSS Data Explorer page for \code{racopnow}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab improved \tab remained same \tab gotten worse \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 1350 \tab 241 \tab 161 \tab 100 \tab 4 \tab 4 \tab 1860 \cr
+   Total \tab 1350 \tab 241 \tab 161 \tab 100 \tab 4 \tab 4 \tab 1860 \cr
+}
 }
 
 \seealso{

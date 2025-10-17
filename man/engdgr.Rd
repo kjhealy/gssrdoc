@@ -24,15 +24,21 @@ Question B. Engineering work is dangerous. Do you strongly agree, agree, disagre
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3527/vshow}{GSS Data Explorer page for \code{engdgr}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1489 \tab 30 \tab 152 \tab 227 \tab 24 \tab 49 \tab 3 \tab 1974 \cr
+   Total \tab 1489 \tab 30 \tab 152 \tab 227 \tab 24 \tab 49 \tab 3 \tab 1974 \cr
+}
 }
 
 \seealso{

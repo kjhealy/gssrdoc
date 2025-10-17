@@ -22,15 +22,21 @@ Question Were you granted stock options in the company where you work in 2021? A
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7848/vshow}{GSS Data Explorer page for \code{stockoptyr}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab skipped on web \tab Total \cr
+   2022 \tab 3513 \tab 15 \tab 15 \tab 1 \tab 3544 \cr
+   Total \tab 3513 \tab 15 \tab 15 \tab 1 \tab 3544 \cr
+}
 }
 
 \keyword{variable}

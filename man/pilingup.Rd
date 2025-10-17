@@ -25,15 +25,21 @@ Question During the past four weeks, how often have you felt difficulties were p
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7273/vshow}{GSS Data Explorer page for \code{pilingup}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab rarely \tab sometimes \tab often \tab very often \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 545 \tab 335 \tab 195 \tab 62 \tab 27 \tab 7 \tab 2 \tab 2348 \cr
+   Total \tab 1175 \tab 545 \tab 335 \tab 195 \tab 62 \tab 27 \tab 7 \tab 2 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

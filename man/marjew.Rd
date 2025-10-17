@@ -26,16 +26,22 @@ A. A Jewish person?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1221/vshow}{GSS Data Explorer page for \code{marjew}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 98 \tab 167 \tab 859 \tab 154 \tab 68 \tab 16 \tab 10 \tab 1372 \cr
+   2000 \tab 1419 \tab 245 \tab 245 \tab 649 \tab 110 \tab 66 \tab 70 \tab 13 \tab 2817 \cr
+   Total \tab 1419 \tab 343 \tab 412 \tab 1508 \tab 264 \tab 134 \tab 86 \tab 23 \tab 4189 \cr
+}
 }
 
 \seealso{

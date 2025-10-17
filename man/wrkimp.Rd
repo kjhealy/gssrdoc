@@ -26,16 +26,22 @@ C. Work is a person's most important activity
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4494/vshow}{GSS Data Explorer page for \code{wrkimp}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab strongly agree \tab agree \tab neither \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab iap \tab Total \cr
+   1989 \tab - \tab 180 \tab 344 \tab 299 \tab 458 \tab 137 \tab 14 \tab 105 \tab - \tab 1537 \cr
+   1998 \tab - \tab 93 \tab 263 \tab 225 \tab 428 \tab 176 \tab 15 \tab 187 \tab 1445 \tab 2832 \cr
+   Total \tab 0 \tab 273 \tab 607 \tab 524 \tab 886 \tab 313 \tab 29 \tab 292 \tab 1445 \tab 4369 \cr
+}
 }
 
 \seealso{

@@ -25,15 +25,21 @@ D. One of the big problems in this country is that we don''t give everyone an eq
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1990 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1177/vshow}{GSS Data Explorer page for \code{socdif4}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab disagree \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
+   1990 \tab - \tab 161 \tab 497 \tab 555 \tab 121 \tab 31 \tab 7 \tab 1372 \cr
+   Total \tab 0 \tab 161 \tab 497 \tab 555 \tab 121 \tab 31 \tab 7 \tab 1372 \cr
+}
 }
 
 \seealso{

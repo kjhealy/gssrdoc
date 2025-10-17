@@ -25,15 +25,21 @@ Question Jesus Christâ€™s death on the cross is the only sacrifice that cou
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7532/vshow}{GSS Data Explorer page for \code{sinsacri}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab see codebook \tab Total \cr
+   2021 \tab 2258 \tab 692 \tab 356 \tab 240 \tab 97 \tab 97 \tab 6 \tab 162 \tab 26 \tab 98 \tab 4032 \cr
+   Total \tab 2258 \tab 692 \tab 356 \tab 240 \tab 97 \tab 97 \tab 6 \tab 162 \tab 26 \tab 98 \tab 4032 \cr
+}
 }
 
 \keyword{variable}

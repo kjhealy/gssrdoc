@@ -24,15 +24,21 @@ Question C. How firm are you about your opinion on race relations--would you say
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1983 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/417/vshow}{GSS Data Explorer page for \code{racfirm}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely to chang \tab somewhat likely \tab somewhat unlikely \tab very unlikely to cha \tab don't know \tab no answer \tab Total \cr
+   1983 \tab 795 \tab 31 \tab 227 \tab 270 \tab 246 \tab 27 \tab 3 \tab 1599 \cr
+   Total \tab 795 \tab 31 \tab 227 \tab 270 \tab 246 \tab 27 \tab 3 \tab 1599 \cr
+}
 }
 
 \seealso{

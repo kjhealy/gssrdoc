@@ -22,15 +22,21 @@ Question C. In general, how warm or cool do you feel towards Hispanics?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2732/vshow}{GSS Data Explorer page for \code{feelhsps}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab very warm \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab very cool \tab don't know \tab no answer \tab Total \cr
+   2002 \tab - \tab 633 \tab 349 \tab 372 \tab 290 \tab 697 \tab 121 \tab 133 \tab 43 \tab 72 \tab 45 \tab 10 \tab 2765 \cr
+   Total \tab 0 \tab 633 \tab 349 \tab 372 \tab 290 \tab 697 \tab 121 \tab 133 \tab 43 \tab 72 \tab 45 \tab 10 \tab 2765 \cr
+}
 }
 
 \seealso{

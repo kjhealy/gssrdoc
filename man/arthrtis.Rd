@@ -23,17 +23,23 @@ B. Arthritis or rheumatism?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2843/vshow}{GSS Data Explorer page for \code{arthrtis}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2014 \tab 1288 \tab 202 \tab 1041 \tab 2 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 242 \tab 1170 \tab 3 \tab 33 \tab - \tab 2348 \cr
+   2022 \tab 1557 \tab 368 \tab 1596 \tab 4 \tab 7 \tab 12 \tab 3544 \cr
+   Total \tab 3745 \tab 812 \tab 3807 \tab 9 \tab 45 \tab 12 \tab 8430 \cr
+}
 }
 
 \seealso{

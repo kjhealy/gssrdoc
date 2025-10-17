@@ -27,16 +27,22 @@ Generally speaking, would you say that America benefits or does not benefit from
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4896/vshow}{GSS Data Explorer page for \code{nafta2a}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab greatly benefits \tab largely benefits \tab somewhat benefits \tab benefits only a little \tab does not benefit at all \tab have never heard of nafta \tab don't know \tab no answer \tab Total \cr
+   2004 \tab 1596 \tab 52 \tab 105 \tab 360 \tab 144 \tab 104 \tab 109 \tab 332 \tab 10 \tab 2812 \cr
+   2014 \tab 1601 \tab 57 \tab 116 \tab 321 \tab 110 \tab 79 \tab 44 \tab 202 \tab 8 \tab 2538 \cr
+   Total \tab 3197 \tab 109 \tab 221 \tab 681 \tab 254 \tab 183 \tab 153 \tab 534 \tab 18 \tab 5350 \cr
+}
 }
 
 \seealso{

@@ -22,19 +22,24 @@ Question In your (SPOUSE or PARTNER'S) job, (do you/does he/she) supervise anyon
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6178/vshow}{GSS Data Explorer page for \code{wksup1}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab 6 \tab Total \cr
+   2016 \tab 914 \tab 749 \tab 1197 \tab 5 \tab 2 \tab - \tab - \tab 2867 \cr
+   2018 \tab 693 \tab 595 \tab 1055 \tab 4 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab 1419 \tab 844 \tab 1704 \tab 59 \tab 1 \tab 5 \tab - \tab 4032 \cr
+   2022 \tab 1203 \tab 788 \tab 1527 \tab - \tab 5 \tab 2 \tab 19 \tab 3544 \cr
+   Total \tab 4229 \tab 2976 \tab 5483 \tab 68 \tab 9 \tab 7 \tab 19 \tab 12791 \cr
+}
 }
 
 \seealso{

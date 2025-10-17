@@ -25,15 +25,21 @@ FI INSTRUCTION: PROBE â€˜YESâ€™ RESPONSES
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4624/vshow}{GSS Data Explorer page for \code{otherwrk}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab no \tab yes, mostly as an employee \tab yes, mostly on a self-employed basis \tab yes, other \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 3492 \tab 764 \tab 71 \tab 151 \tab 28 \tab 1 \tab 3 \tab 4510 \cr
+   Total \tab 3492 \tab 764 \tab 71 \tab 151 \tab 28 \tab 1 \tab 3 \tab 4510 \cr
+}
 }
 
 \seealso{

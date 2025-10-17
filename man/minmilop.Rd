@@ -23,15 +23,21 @@ Question A. Thinking about opportunities and equal treatment for minority groups
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/814/vshow}{GSS Data Explorer page for \code{minmilop}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab military better \tab civilian better \tab no difference \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 706 \tab 85 \tab 558 \tab 100 \tab 24 \tab 1473 \cr
+   Total \tab 0 \tab 706 \tab 85 \tab 558 \tab 100 \tab 24 \tab 1473 \cr
+}
 }
 
 \seealso{

@@ -24,15 +24,21 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7960/vshow}{GSS Data Explorer page for \code{femself}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very \tab Total \cr
+   2022 \tab 2504 \tab 205 \tab 113 \tab 45 \tab 59 \tab 138 \tab 132 \tab 348 \tab 3544 \cr
+   Total \tab 2504 \tab 205 \tab 113 \tab 45 \tab 59 \tab 138 \tab 132 \tab 348 \tab 3544 \cr
+}
 }
 
 \seealso{

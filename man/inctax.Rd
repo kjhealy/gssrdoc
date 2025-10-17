@@ -26,15 +26,21 @@ Question Do you consider the amount of federal income tax that your household ha
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1985 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4065/vshow}{GSS Data Explorer page for \code{inctax}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab much too high \tab too high \tab about right \tab too low \tab does not apply \tab can't choose \tab no answer \tab Total \cr
+   1985 \tab 857 \tab 163 \tab 247 \tab 199 \tab 4 \tab 34 \tab 18 \tab 12 \tab 1534 \cr
+   Total \tab 857 \tab 163 \tab 247 \tab 199 \tab 4 \tab 34 \tab 18 \tab 12 \tab 1534 \cr
+}
 }
 
 \seealso{

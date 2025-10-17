@@ -22,16 +22,22 @@ A. First mention
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998, 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2223/vshow}{GSS Data Explorer page for \code{prozfor1}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 3 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab 10 \tab 27 \tab 28 \tab 29 \tab 30 \tab 32 \tab 34 \tab 95 \tab 97 \tab Total \cr
+   1998 \tab 1635 \tab 136 \tab 23 \tab 3 \tab 8 \tab 1 \tab 16 \tab 7 \tab 11 \tab 2 \tab 4 \tab 539 \tab 24 \tab 1 \tab 5 \tab 5 \tab 4 \tab 13 \tab 1 \tab 34 \tab 57 \tab 18 \tab 13 \tab 16 \tab 60 \tab 4 \tab 14 \tab 144 \tab 34 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2006 \tab 3252 \tab 711 \tab 9 \tab 26 \tab 23 \tab 25 \tab 1 \tab 8 \tab - \tab 51 \tab - \tab - \tab 9 \tab 11 \tab - \tab - \tab 9 \tab 5 \tab 18 \tab 1 \tab - \tab - \tab - \tab 31 \tab - \tab - \tab 1 \tab 1 \tab 10 \tab 90 \tab 12 \tab 1 \tab 2 \tab 8 \tab 1 \tab 6 \tab 91 \tab 97 \tab 4510 \cr
+   Total \tab 4887 \tab 847 \tab 32 \tab 29 \tab 31 \tab 26 \tab 17 \tab 15 \tab 11 \tab 53 \tab 4 \tab 539 \tab 33 \tab 12 \tab 5 \tab 5 \tab 13 \tab 18 \tab 19 \tab 35 \tab 57 \tab 18 \tab 13 \tab 47 \tab 60 \tab 4 \tab 15 \tab 145 \tab 44 \tab 90 \tab 12 \tab 1 \tab 2 \tab 8 \tab 1 \tab 6 \tab 91 \tab 97 \tab 7342 \cr
+}
 }
 
 \seealso{

@@ -27,15 +27,21 @@ Question B. When it comes to your religious identity, would you say you are a pe
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5326/vshow}{GSS Data Explorer page for \code{relid1}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab pentecostal \tab fundamentalist \tab evangelical \tab mainline \tab liberal \tab none \tab other (specify) \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1367 \tab 128 \tab 74 \tab 135 \tab 170 \tab 219 \tab 641 \tab 38 \tab 11 \tab 34 \tab 2817 \cr
+   Total \tab 1367 \tab 128 \tab 74 \tab 135 \tab 170 \tab 219 \tab 641 \tab 38 \tab 11 \tab 34 \tab 2817 \cr
+}
 }
 
 \seealso{

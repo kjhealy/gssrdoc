@@ -24,15 +24,21 @@ Question We are interested in the extent to which you have moved from one kind o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4698/vshow}{GSS Data Explorer page for \code{geomobil}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab i have lived in different countries \tab i have lived in different places in the same country \tab i have lived in different neighborhoods in the same place \tab i have always lived in the same neighborhood \tab don't know \tab Total \cr
+   2008 \tab 658 \tab 205 \tab 613 \tab 385 \tab 161 \tab 1 \tab 2023 \cr
+   Total \tab 658 \tab 205 \tab 613 \tab 385 \tab 161 \tab 1 \tab 2023 \cr
+}
 }
 
 \seealso{

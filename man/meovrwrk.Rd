@@ -26,29 +26,35 @@ C. Family life often suffers because men concentrate too much on their work.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   2000 \tab A/B/- \tab partial \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C \tab 1994, 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4404/vshow}{GSS Data Explorer page for \code{meovrwrk}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1994 \tab 1545 \tab 122 \tab 695 \tab 286 \tab 243 \tab 41 \tab 33 \tab 27 \tab - \tab 2992 \cr
+   1996 \tab 1444 \tab 230 \tab 825 \tab 169 \tab 198 \tab 21 \tab 16 \tab 1 \tab - \tab 2904 \cr
+   2000 \tab 940 \tab 209 \tab 877 \tab 331 \tab 361 \tab 34 \tab 43 \tab 22 \tab - \tab 2817 \cr
+   2002 \tab 1857 \tab 99 \tab 415 \tab 108 \tab 264 \tab 16 \tab 6 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1906 \tab 94 \tab 460 \tab 135 \tab 188 \tab 25 \tab 4 \tab - \tab - \tab 2812 \cr
+   2006 \tab 2518 \tab 208 \tab 945 \tab 304 \tab 477 \tab 43 \tab 14 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 694 \tab 143 \tab 653 \tab 161 \tab 310 \tab 50 \tab 12 \tab - \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 122 \tab 662 \tab 192 \tab 388 \tab 57 \tab 6 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 672 \tab 130 \tab 558 \tab 170 \tab 382 \tab 51 \tab 11 \tab - \tab - \tab 1974 \cr
+   2014 \tab 863 \tab 176 \tab 702 \tab 234 \tab 479 \tab 76 \tab 7 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 979 \tab 171 \tab 819 \tab 257 \tab 536 \tab 96 \tab 9 \tab - \tab - \tab 2867 \cr
+   2018 \tab 789 \tab 134 \tab 644 \tab 220 \tab 475 \tab 73 \tab 11 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 1315 \tab 202 \tab 886 \tab 1001 \tab 487 \tab 138 \tab 1 \tab - \tab 2 \tab 4032 \cr
+   2022 \tab 1168 \tab 201 \tab 885 \tab 618 \tab 537 \tab 117 \tab 15 \tab 1 \tab 2 \tab 3544 \cr
+   Total \tab 17304 \tab 2241 \tab 10026 \tab 4186 \tab 5325 \tab 838 \tab 188 \tab 58 \tab 4 \tab 40170 \cr
+}
 }
 
 \seealso{

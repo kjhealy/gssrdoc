@@ -23,15 +23,21 @@ Question And aside from your main job, do you have any other paid jobs, like a s
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4564/vshow}{GSS Data Explorer page for \code{moonlite}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab yes, regularly \tab yes, sometimes \tab no \tab no answer \tab iap \tab Total \cr
+   1989 \tab - \tab 71 \tab 158 \tab 644 \tab 664 \tab - \tab 1537 \cr
+   Total \tab 0 \tab 71 \tab 158 \tab 644 \tab 664 \tab 0 \tab 1537 \cr
+}
 }
 
 \seealso{

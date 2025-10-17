@@ -22,20 +22,26 @@ Question A. In the past 12 months, have you had back pain every day for a week o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2006, 2010, 2014, 2018, 2022 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2831/vshow}{GSS Data Explorer page for \code{backpain}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 506 \tab 1270 \tab 5 \tab 15 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 475 \tab 1248 \tab 1 \tab 10 \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 297 \tab 863 \tab 1 \tab 26 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 285 \tab 960 \tab - \tab 5 \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 378 \tab 1036 \tab - \tab 34 \tab - \tab 2348 \cr
+   2022 \tab 1558 \tab 542 \tab 1401 \tab 3 \tab 17 \tab 23 \tab 3544 \cr
+   Total \tab 8348 \tab 2483 \tab 6778 \tab 10 \tab 107 \tab 23 \tab 17749 \cr
+}
 }
 
 \seealso{

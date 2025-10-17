@@ -23,16 +23,23 @@ Question Which of the following statements come closest to your own views:
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4695/vshow}{GSS Data Explorer page for \code{reltruth}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab little truth any \tab basic truth many \tab truth in one \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1548 \tab 42 \tab 894 \tab 126 \tab 178 \tab 44 \tab 2832 \cr
+   2008 \tab 658 \tab 60 \tab 1103 \tab 166 \tab 27 \tab 9 \tab 2023 \cr
+   Total \tab 2206 \tab 102 \tab 1997 \tab 292 \tab 205 \tab 53 \tab 4855 \cr
+}
 }
 
 \seealso{

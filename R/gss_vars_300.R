@@ -16,13 +16,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `emotrely`](https://gssdataexplorer.norc.org/variables/2723/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
+#'  |2000  |2331 |103               |186             |88                  |29                    |44         |36        |2817  |
+#'  |Total |2331 |103               |186             |88                  |29                    |44         |36        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -51,13 +57,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |C       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |C       |2000  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `emotfeel`](https://gssdataexplorer.norc.org/variables/2724/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
+#'  |2000  |2331 |171               |196             |40                  |15                    |33         |31        |2817  |
+#'  |Total |2331 |171               |196             |40                  |15                    |33         |31        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -85,13 +97,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethimp`](https://gssdataexplorer.norc.org/variables/2725/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very important |moderately important |slightly important |not at all important |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:--------------------|:------------------|:--------------------|:----------|:---------|:-----|
+#'  |2002  |-   |903            |697                  |471                |667                  |20         |7         |2765  |
+#'  |Total |0   |903            |697                  |471                |667                  |20         |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -121,13 +139,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethignor`](https://gssdataexplorer.norc.org/variables/2726/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |-   |359            |667   |533                        |814      |334               |46         |12        |2765  |
+#'  |Total |0   |359            |667   |533                        |814      |334               |46         |12        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -157,13 +181,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethnofit`](https://gssdataexplorer.norc.org/variables/2727/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |-   |88             |333   |390                        |1292     |614               |37         |11        |2765  |
+#'  |Total |0   |88             |333   |390                        |1292     |614               |37         |11        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -193,13 +223,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethtrads`](https://gssdataexplorer.norc.org/variables/2728/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |-   |848            |1430  |266                        |147      |39                |28         |7         |2765  |
+#'  |Total |0   |848            |1430  |266                        |147      |39                |28         |7         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -229,13 +265,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `ethadapt`](https://gssdataexplorer.norc.org/variables/2729/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
+#'  |2002  |-   |412            |1210  |546                        |446      |99                |42         |10        |2765  |
+#'  |Total |0   |412            |1210  |546                        |446      |99                |42         |10        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -261,13 +303,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `feelblks`](https://gssdataexplorer.norc.org/variables/2730/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very warm |2   |3   |4   |5   |6   |7  |8  |very cool |don't know |no answer |Total |
+#'  |:-----|:---|:---------|:---|:---|:---|:---|:---|:--|:--|:---------|:----------|:---------|:-----|
+#'  |2002  |-   |740       |318 |364 |264 |745 |105 |99 |35 |59        |24         |12        |2765  |
+#'  |Total |0   |740       |318 |364 |264 |745 |105 |99 |35 |59        |24         |12        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -293,13 +341,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `feelasns`](https://gssdataexplorer.norc.org/variables/2731/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very warm |2   |3   |4   |5   |6   |7   |8  |very cool |don't know |no answer |Total |
+#'  |:-----|:---|:---------|:---|:---|:---|:---|:---|:---|:--|:---------|:----------|:---------|:-----|
+#'  |2002  |-   |562       |319 |379 |286 |784 |124 |107 |48 |76        |69         |11        |2765  |
+#'  |Total |0   |562       |319 |379 |286 |784 |124 |107 |48 |76        |69         |11        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -325,13 +379,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2002 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2002  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `feelhsps`](https://gssdataexplorer.norc.org/variables/2732/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap |very warm |2   |3   |4   |5   |6   |7   |8  |very cool |don't know |no answer |Total |
+#'  |:-----|:---|:---------|:---|:---|:---|:---|:---|:---|:--|:---------|:----------|:---------|:-----|
+#'  |2002  |-   |633       |349 |372 |290 |697 |121 |133 |43 |72        |45         |10        |2765  |
+#'  |Total |0   |633       |349 |372 |290 |697 |121 |133 |43 |72        |45         |10        |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice

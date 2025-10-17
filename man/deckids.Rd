@@ -25,16 +25,23 @@ Question Who usually makes/made the decisions about how to bring up your childre
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2012 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4439/vshow}{GSS Data Explorer page for \code{deckids}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab mostly me \tab mostly my spouse \tab sometimes me or sometimes my spouse \tab we decide together \tab someone else \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 2058 \tab 81 \tab 44 \tab 102 \tab 305 \tab 6 \tab 145 \tab 24 \tab 2765 \cr
+   2012 \tab 1044 \tab 233 \tab 65 \tab 96 \tab 481 \tab 3 \tab 42 \tab 10 \tab 1974 \cr
+   Total \tab 3102 \tab 314 \tab 109 \tab 198 \tab 786 \tab 9 \tab 187 \tab 34 \tab 4739 \cr
+}
 }
 
 \seealso{

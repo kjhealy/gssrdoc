@@ -25,15 +25,21 @@ Question How effective do you think (R'S ANSWER TO EFF911SP) is for people deali
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3870/vshow}{GSS Data Explorer page for \code{eff911n}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 1 not at all effective \tab 2 \tab 3 \tab 4 \tab 5 extremely effective \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1948 \tab 4 \tab 4 \tab 13 \tab 14 \tab 28 \tab 3 \tab 9 \tab 2023 \cr
+   Total \tab 1948 \tab 4 \tab 4 \tab 13 \tab 14 \tab 28 \tab 3 \tab 9 \tab 2023 \cr
+}
 }
 
 \seealso{

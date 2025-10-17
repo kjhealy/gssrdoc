@@ -23,15 +23,21 @@ A. The homeless or street-people
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1975/vshow}{GSS Data Explorer page for \code{homeless}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 1460 \tab 536 \tab 881 \tab 8 \tab 19 \tab 2904 \cr
+   Total \tab 1460 \tab 536 \tab 881 \tab 8 \tab 19 \tab 2904 \cr
+}
 }
 
 \seealso{

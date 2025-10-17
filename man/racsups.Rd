@@ -23,15 +23,21 @@ B. You can expect special problems with (Negroes/Black) supervisors getting alon
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/723/vshow}{GSS Data Explorer page for \code{racsups}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   1977 \tab - \tab 714 \tab 734 \tab 76 \tab 6 \tab 1530 \cr
+   Total \tab 0 \tab 714 \tab 734 \tab 76 \tab 6 \tab 1530 \cr
+}
 }
 
 \seealso{

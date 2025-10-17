@@ -25,15 +25,21 @@ IF R REPORTS NUMBER OF KNOWN SUICIDE VICTIMS=0, ASK: Just to be sure, thinking a
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6182/vshow}{GSS Data Explorer page for \code{suinum1}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab one person \tab no people \tab don't know \tab Total \cr
+   2016 \tab 2858 \tab 3 \tab 3 \tab 3 \tab 2867 \cr
+   Total \tab 2858 \tab 3 \tab 3 \tab 3 \tab 2867 \cr
+}
 }
 
 \seealso{

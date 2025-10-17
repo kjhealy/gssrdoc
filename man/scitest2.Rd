@@ -25,17 +25,23 @@ B. Antibiotics kill bacteria, but not viruses.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4742/vshow}{GSS Data Explorer page for \code{scitest2}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 374 \tab 615 \tab 206 \tab 114 \tab 165 \tab 83 \tab 1606 \cr
+   1994 \tab 1606 \tab 360 \tab 526 \tab 188 \tab 127 \tab 144 \tab 41 \tab 2992 \cr
+   2000 \tab 1541 \tab 383 \tab 511 \tab 141 \tab 52 \tab 123 \tab 66 \tab 2817 \cr
+   Total \tab 3196 \tab 1117 \tab 1652 \tab 535 \tab 293 \tab 432 \tab 190 \tab 7415 \cr
+}
 }
 
 \seealso{

@@ -24,16 +24,22 @@ A. DOES YOUR SPOUSE CONSIDER HIMSELF/HERSELF SELF AS JEWISH
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/351/vshow}{GSS Data Explorer page for \code{spothjew}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab no \tab no answer \tab yes \tab Total \cr
+   2008 \tab 2008 \tab 3 \tab 12 \tab - \tab 2023 \cr
+   2012 \tab 1971 \tab 2 \tab - \tab 1 \tab 1974 \cr
+   Total \tab 3979 \tab 5 \tab 12 \tab 1 \tab 3997 \cr
+}
 }
 
 \seealso{

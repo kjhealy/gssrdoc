@@ -24,15 +24,21 @@ Question Do strongly disagree, disagree, agree, or strongly agree that methods o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5570/vshow}{GSS Data Explorer page for \code{pilloky}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 1342 \tab 146 \tab 216 \tab 166 \tab 140 \tab 12 \tab 1 \tab 2023 \cr
+   Total \tab 1342 \tab 146 \tab 216 \tab 166 \tab 140 \tab 12 \tab 1 \tab 2023 \cr
+}
 }
 
 \concept{Form Y}

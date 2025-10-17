@@ -23,15 +23,21 @@ C. What you think doesn''t count very much anymore.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1978 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1978 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/430/vshow}{GSS Data Explorer page for \code{alienat3}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab feel \tab not feel \tab don't know \tab no answer \tab Total \cr
+   1978 \tab - \tab 836 \tab 594 \tab 87 \tab 15 \tab 1532 \cr
+   Total \tab 0 \tab 836 \tab 594 \tab 87 \tab 15 \tab 1532 \cr
+}
 }
 
 \seealso{

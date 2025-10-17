@@ -25,18 +25,24 @@ F. To respect America's political institutions and laws
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996, 2004, 2014 \cr
+   B/C/- \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4832/vshow}{GSS Data Explorer page for \code{amgovt}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
+   1996 \tab 1537 \tab 856 \tab 377 \tab 68 \tab 23 \tab 26 \tab 17 \tab 2904 \cr
+   2004 \tab 1596 \tab 871 \tab 288 \tab 36 \tab 11 \tab 9 \tab 1 \tab 2812 \cr
+   2014 \tab 1264 \tab 802 \tab 355 \tab 55 \tab 30 \tab 27 \tab 5 \tab 2538 \cr
+   Total \tab 4397 \tab 2529 \tab 1020 \tab 159 \tab 64 \tab 62 \tab 23 \tab 8254 \cr
+}
 }
 
 \seealso{

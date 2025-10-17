@@ -23,15 +23,21 @@ Question The next questions concern how people think about the past. There have 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1447/vshow}{GSS Data Explorer page for \code{mostimp2}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 141 \tab 143 \tab 144 \tab 150 \tab 18 \tab 19 \tab 2 \tab 21 \tab 22 \tab 23 \tab 25 \tab 26 \tab 29 \tab 3 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 48 \tab 49 \tab 5 \tab 50 \tab 51 \tab 52 \tab 53 \tab 55 \tab 6 \tab 60 \tab 61 \tab 62 \tab 64 \tab 66 \tab 68 \tab 69 \tab 70 \tab 71 \tab 72 \tab 73 \tab 75 \tab 76 \tab 77 \tab 79 \tab other \tab personal \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 226 \tab 17 \tab 3 \tab 2 \tab 11 \tab 7 \tab 28 \tab 24 \tab 45 \tab 23 \tab 3 \tab 4 \tab 1 \tab 20 \tab 13 \tab 36 \tab 4 \tab 32 \tab 95 \tab 3 \tab 4 \tab 18 \tab 6 \tab 2 \tab 1 \tab 44 \tab 16 \tab 4 \tab 62 \tab 15 \tab 8 \tab 1 \tab 4 \tab 19 \tab 190 \tab 48 \tab 6 \tab 2 \tab 22 \tab 106 \tab 1 \tab 2 \tab 1 \tab 2 \tab 3 \tab 11 \tab 1 \tab 1 \tab 77 \tab 5 \tab 61 \tab 7 \tab 1 \tab 9 \tab 22 \tab 84 \tab 28 \tab 94 \tab 21 \tab 1606 \cr
+   Total \tab 226 \tab 17 \tab 3 \tab 2 \tab 11 \tab 7 \tab 28 \tab 24 \tab 45 \tab 23 \tab 3 \tab 4 \tab 1 \tab 20 \tab 13 \tab 36 \tab 4 \tab 32 \tab 95 \tab 3 \tab 4 \tab 18 \tab 6 \tab 2 \tab 1 \tab 44 \tab 16 \tab 4 \tab 62 \tab 15 \tab 8 \tab 1 \tab 4 \tab 19 \tab 190 \tab 48 \tab 6 \tab 2 \tab 22 \tab 106 \tab 1 \tab 2 \tab 1 \tab 2 \tab 3 \tab 11 \tab 1 \tab 1 \tab 77 \tab 5 \tab 61 \tab 7 \tab 1 \tab 9 \tab 22 \tab 84 \tab 28 \tab 94 \tab 21 \tab 1606 \cr
+}
 }
 
 \seealso{

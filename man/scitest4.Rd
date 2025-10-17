@@ -25,17 +25,23 @@ D. Human beings developed from earlier species of animals.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1993, 1994, 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4744/vshow}{GSS Data Explorer page for \code{scitest4}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
+   1993 \tab 49 \tab 205 \tab 445 \tab 200 \tab 500 \tab 120 \tab 87 \tab 1606 \cr
+   1994 \tab 1606 \tab 188 \tab 406 \tab 224 \tab 410 \tab 113 \tab 45 \tab 2992 \cr
+   2000 \tab 1541 \tab 172 \tab 334 \tab 194 \tab 395 \tab 115 \tab 66 \tab 2817 \cr
+   Total \tab 3196 \tab 565 \tab 1185 \tab 618 \tab 1305 \tab 348 \tab 198 \tab 7415 \cr
+}
 }
 
 \seealso{

@@ -23,62 +23,69 @@ C. IF RETIRED, IN SCHOOL, KEEPING HOUSE, OR OTHER: Did you ever work for as long
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/-/- \tab full \cr
-   1973 \tab -/-/-/- \tab full \cr
-   1974 \tab -/-/-/- \tab full \cr
-   1975 \tab -/-/-/- \tab full \cr
-   1976 \tab -/-/-/- \tab full \cr
-   1977 \tab -/-/-/- \tab full \cr
-   1978 \tab -/-/-/- \tab full \cr
-   1980 \tab -/-/-/- \tab full \cr
-   1982 \tab -/-/-/- \tab full \cr
-   1983 \tab -/-/-/- \tab full \cr
-   1984 \tab -/-/-/- \tab full \cr
-   1985 \tab -/-/-/- \tab full \cr
-   1986 \tab -/-/-/- \tab full \cr
-   1987 \tab -/-/-/- \tab full \cr
-   1988 \tab A/B/C/- \tab full \cr
-   1989 \tab A/B/C/- \tab full \cr
-   1990 \tab A/B/C/- \tab full \cr
-   1991 \tab A/B/C/- \tab full \cr
-   1993 \tab A/B/C/- \tab full \cr
-   1994 \tab A/B/C/- \tab full \cr
-   1996 \tab A/B/C/- \tab full \cr
-   1998 \tab A/B/C/- \tab full \cr
-   2000 \tab A/B/C/- \tab full \cr
-   2002 \tab A/B/C/- \tab full \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2021 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
-   2024 \tab A/B/C/- \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
+   A/B/C/D \tab 2006 \cr
+   Full/- \tab 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6/vshow}{GSS Data Explorer page for \code{evwork}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab yes \tab no \tab iap \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1972 \tab 496 \tab 162 \tab 955 \tab - \tab - \tab - \tab 1613 \cr
+   1973 \tab 502 \tab 147 \tab 851 \tab 4 \tab - \tab - \tab 1504 \cr
+   1974 \tab 513 \tab 128 \tab 843 \tab - \tab - \tab - \tab 1484 \cr
+   1975 \tab 502 \tab 134 \tab 854 \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 513 \tab 145 \tab 841 \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 459 \tab 113 \tab 958 \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 471 \tab 127 \tab 933 \tab 1 \tab - \tab - \tab 1532 \cr
+   1980 \tab 451 \tab 119 \tab 898 \tab - \tab - \tab - \tab 1468 \cr
+   1982 \tab 579 \tab 122 \tab 1157 \tab 2 \tab - \tab - \tab 1860 \cr
+   1983 \tab 466 \tab 103 \tab 1029 \tab 1 \tab - \tab - \tab 1599 \cr
+   1984 \tab 421 \tab 88 \tab 962 \tab 2 \tab - \tab - \tab 1473 \cr
+   1985 \tab 457 \tab 81 \tab 996 \tab - \tab - \tab - \tab 1534 \cr
+   1986 \tab 462 \tab 100 \tab 908 \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab 527 \tab 95 \tab 1196 \tab 1 \tab - \tab - \tab 1819 \cr
+   1988 \tab 438 \tab 85 \tab 958 \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 462 \tab 92 \tab 979 \tab 4 \tab - \tab - \tab 1537 \cr
+   1990 \tab 389 \tab 71 \tab 910 \tab 2 \tab - \tab - \tab 1372 \cr
+   1991 \tab 469 \tab 97 \tab 951 \tab - \tab - \tab - \tab 1517 \cr
+   1993 \tab 464 \tab 78 \tab 1061 \tab 3 \tab - \tab - \tab 1606 \cr
+   1994 \tab 804 \tab 126 \tab 2057 \tab 5 \tab - \tab - \tab 2992 \cr
+   1996 \tab 717 \tab 106 \tab 2078 \tab 3 \tab - \tab - \tab 2904 \cr
+   1998 \tab 708 \tab 135 \tab 1976 \tab 13 \tab - \tab - \tab 2832 \cr
+   2000 \tab 737 \tab 125 \tab 1950 \tab 5 \tab - \tab - \tab 2817 \cr
+   2002 \tab 757 \tab 89 \tab 1917 \tab - \tab 2 \tab - \tab 2765 \cr
+   2004 \tab 734 \tab 113 \tab 1965 \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 1330 \tab 187 \tab 2988 \tab 5 \tab - \tab - \tab 4510 \cr
+   2008 \tab 618 \tab 62 \tab 1341 \tab 2 \tab - \tab - \tab 2023 \cr
+   2010 \tab 614 \tab 98 \tab 1329 \tab 3 \tab - \tab - \tab 2044 \cr
+   2012 \tab 616 \tab 78 \tab 1279 \tab 1 \tab - \tab - \tab 1974 \cr
+   2014 \tab 795 \tab 92 \tab 1647 \tab 4 \tab - \tab - \tab 2538 \cr
+   2016 \tab 933 \tab 90 \tab 1841 \tab 3 \tab - \tab - \tab 2867 \cr
+   2018 \tab 739 \tab 77 \tab 1530 \tab 2 \tab - \tab - \tab 2348 \cr
+   2021 \tab 1434 \tab 80 \tab 2510 \tab 2 \tab - \tab 6 \tab 4032 \cr
+   2022 \tab 1211 \tab 113 \tab 2212 \tab 3 \tab - \tab 5 \tab 3544 \cr
+   Total \tab 21788 \tab 3658 \tab 46860 \tab 71 \tab 2 \tab 11 \tab 72390 \cr
+}
 }
 
 \seealso{
 Other Core: 
 \code{\link{hrs1}},
 \code{\link{hrs2}},
-\code{\link{id}},
+\code{\link{id}()},
 \code{\link{occ}},
 \code{\link{prestige}},
 \code{\link{wrkgovt}},
 \code{\link{wrkslf}},
 \code{\link{wrkstat}},
-\code{\link{year}}
+\code{\link{year}()}
 }
 \concept{Core}
 \keyword{variable}

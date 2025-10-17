@@ -22,22 +22,28 @@ Question B. Do you have access to the Internet or World Wide Web in your home th
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C \tab 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2380/vshow}{GSS Data Explorer page for \code{webmob}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2010 \tab 1755 \tab 55 \tab 232 \tab 1 \tab 1 \tab - \tab 2044 \cr
+   2012 \tab 1718 \tab 59 \tab 193 \tab 1 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab 2247 \tab 92 \tab 197 \tab - \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 2490 \tab 148 \tab 225 \tab 1 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab 2036 \tab 176 \tab 135 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab 3778 \tab 179 \tab 66 \tab - \tab - \tab 9 \tab 4032 \cr
+   2022 \tab 3114 \tab 327 \tab 103 \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 17138 \tab 1036 \tab 1151 \tab 4 \tab 9 \tab 9 \tab 19347 \cr
+}
 }
 
 \seealso{

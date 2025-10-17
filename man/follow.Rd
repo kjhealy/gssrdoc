@@ -23,16 +23,22 @@ C. To follow faithfully the teachings of their church or synagogue.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1091/vshow}{GSS Data Explorer page for \code{follow}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab 2 \tab 3 \tab 4 \tab not very important \tab don't know \tab no answer \tab Total \cr
+   1988 \tab - \tab 465 \tab 331 \tab 353 \tab 155 \tab 152 \tab 12 \tab 13 \tab 1481 \cr
+   1998 \tab 1387 \tab 457 \tab 295 \tab 336 \tab 127 \tab 190 \tab 28 \tab 12 \tab 2832 \cr
+   Total \tab 1387 \tab 922 \tab 626 \tab 689 \tab 282 \tab 342 \tab 40 \tab 25 \tab 4313 \cr
+}
 }
 
 \seealso{

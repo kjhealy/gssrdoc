@@ -26,15 +26,21 @@ I. A city bus driver?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4287/vshow}{GSS Data Explorer page for \code{givbus}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 10400 \tab 11000 \tab 12000 \tab 13000 \tab 13500 \tab 14000 \tab 15000 \tab 15360 \tab 15600 \tab 16000 \tab 16500 \tab 16640 \tab 17000 \tab 17500 \tab 18000 \tab 18720 \tab 19000 \tab 19500 \tab 2000 \tab 20000 \tab 20800 \tab 21000 \tab 22000 \tab 23000 \tab 24000 \tab 2500 \tab 25000 \tab 26000 \tab 26500 \tab 27000 \tab 27500 \tab 28000 \tab 28500 \tab 29000 \tab 29120 \tab 3000 \tab 30000 \tab 31000 \tab 3160 \tab 32000 \tab 33000 \tab 35000 \tab 37000 \tab 37500 \tab 38000 \tab 39000 \tab 4000 \tab 40000 \tab 41000 \tab 42000 \tab 4500 \tab 45000 \tab 450000 \tab 47000 \tab 49873 \tab 5000 \tab 50000 \tab 5200 \tab 52000 \tab 6000 \tab 60000 \tab 62400 \tab 65000 \tab 6999 \tab 7000 \tab 8000 \tab 80000 \tab 8500 \tab 9000 \tab 90000 \tab more than now paid \tab same as now paid \tab less than now paid \tab can't choose \tab no answer \tab Total \cr
+   1987 \tab 255 \tab 1 \tab 51 \tab 2 \tab 7 \tab 64 \tab 14 \tab 1 \tab 18 \tab 157 \tab 1 \tab 1 \tab 18 \tab 1 \tab 1 \tab 18 \tab 2 \tab 89 \tab 1 \tab 14 \tab 1 \tab 3 \tab 274 \tab 2 \tab 5 \tab 29 \tab 11 \tab 14 \tab 1 \tab 186 \tab 6 \tab 1 \tab 5 \tab 2 \tab 10 \tab 1 \tab 4 \tab 1 \tab 5 \tab 104 \tab 1 \tab 1 \tab 1 \tab 1 \tab 32 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 28 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 5 \tab 6 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 2 \tab 1 \tab 5 \tab 11 \tab 1 \tab 2 \tab 8 \tab 1 \tab 1 \tab 2 \tab 1 \tab 74 \tab 230 \tab 1819 \cr
+   Total \tab 255 \tab 1 \tab 51 \tab 2 \tab 7 \tab 64 \tab 14 \tab 1 \tab 18 \tab 157 \tab 1 \tab 1 \tab 18 \tab 1 \tab 1 \tab 18 \tab 2 \tab 89 \tab 1 \tab 14 \tab 1 \tab 3 \tab 274 \tab 2 \tab 5 \tab 29 \tab 11 \tab 14 \tab 1 \tab 186 \tab 6 \tab 1 \tab 5 \tab 2 \tab 10 \tab 1 \tab 4 \tab 1 \tab 5 \tab 104 \tab 1 \tab 1 \tab 1 \tab 1 \tab 32 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 28 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 5 \tab 6 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 2 \tab 1 \tab 5 \tab 11 \tab 1 \tab 2 \tab 8 \tab 1 \tab 1 \tab 2 \tab 1 \tab 74 \tab 230 \tab 1819 \cr
+}
 }
 
 \seealso{

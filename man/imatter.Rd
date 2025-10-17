@@ -25,15 +25,21 @@ A. The success of my organization depends a lot on how well I do my job. Do you.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1340/vshow}{GSS Data Explorer page for \code{imatter}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 605 \tab 339 \tab 438 \tab 102 \tab 12 \tab 10 \tab 11 \tab 1517 \cr
+   Total \tab 605 \tab 339 \tab 438 \tab 102 \tab 12 \tab 10 \tab 11 \tab 1517 \cr
+}
 }
 
 \seealso{

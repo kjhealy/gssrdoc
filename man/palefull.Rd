@@ -22,18 +22,26 @@ Question A. People picture life after death in many different ways. We'd like to
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1989 \cr
+   A/B/C \tab 1988 \cr
+   Full \tab 1986, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/314/vshow}{GSS Data Explorer page for \code{palefull}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab pale, shadowy \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab complete fulfillment \tab don't know \tab no answer \tab Total \cr
+   1986 \tab 246 \tab 42 \tab 15 \tab 39 \tab 170 \tab 110 \tab 137 \tab 674 \tab 13 \tab 24 \tab 1470 \cr
+   1987 \tab 369 \tab 41 \tab 14 \tab 26 \tab 184 \tab 163 \tab 231 \tab 714 \tab 22 \tab 55 \tab 1819 \cr
+   1988 \tab 282 \tab 37 \tab 21 \tab 32 \tab 210 \tab 143 \tab 168 \tab 536 \tab 15 \tab 37 \tab 1481 \cr
+   1989 \tab 749 \tab 21 \tab 13 \tab 19 \tab 142 \tab 113 \tab 98 \tab 334 \tab 17 \tab 31 \tab 1537 \cr
+   Total \tab 1646 \tab 141 \tab 63 \tab 116 \tab 706 \tab 529 \tab 634 \tab 2258 \tab 67 \tab 147 \tab 6307 \cr
+}
 }
 
 \seealso{

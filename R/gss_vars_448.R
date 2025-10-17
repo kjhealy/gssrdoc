@@ -14,13 +14,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |1996  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cutdebt`](https://gssdataexplorer.norc.org/variables/4107/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |spend on social programs like health |spend less than now on social programs |can't choose |no answer |Total |
+#'  |:-----|:----|:------------------------------------|:--------------------------------------|:------------|:---------|:-----|
+#'  |1996  |1572 |685                                  |400                                    |209          |38        |2904  |
+#'  |Total |1572 |685                                  |400                                    |209          |38        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -50,13 +56,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `helphlth`](https://gssdataexplorer.norc.org/variables/4108/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:-----|
+#'  |2006  |2992 |70              |300              |416                                 |491                |211               |29           |1         |4510  |
+#'  |Total |2992 |70              |300              |416                                 |491                |211               |29           |1         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -86,13 +98,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `helpold`](https://gssdataexplorer.norc.org/variables/4109/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:-----|
+#'  |2006  |2992 |61              |286              |462                                 |499                |180               |29           |1         |4510  |
+#'  |Total |2992 |61              |286              |462                                 |499                |180               |29           |1         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -122,13 +140,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `helpsec`](https://gssdataexplorer.norc.org/variables/4110/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:-----|
+#'  |2006  |2992 |177             |523              |335                                 |282                |178               |23           |4510  |
+#'  |Total |2992 |177             |523              |335                                 |282                |178               |23           |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -158,13 +182,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `helpcrim`](https://gssdataexplorer.norc.org/variables/4111/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:-----|
+#'  |2006  |2992 |71              |461              |404                                 |389                |178               |15           |4510  |
+#'  |Total |2992 |71              |461              |404                                 |389                |178               |15           |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -194,13 +224,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `helpemp`](https://gssdataexplorer.norc.org/variables/4112/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:-----|
+#'  |2006  |2992 |79              |358              |491                                 |410                |139               |40           |1         |4510  |
+#'  |Total |2992 |79              |358              |491                                 |410                |139               |40           |1         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -230,13 +266,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `helpenv`](https://gssdataexplorer.norc.org/variables/4113/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:-----|
+#'  |2006  |2992 |75              |430              |422                                 |371                |195               |23           |2         |4510  |
+#'  |Total |2992 |75              |430              |422                                 |371                |195               |23           |2         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -266,14 +308,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |A/B     |partial      |
-#'  |2024 |A/B     |partial      |
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B     |2016, 2024 |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cctv`](https://gssdataexplorer.norc.org/variables/6315/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should have the right |probably should have the right |probably should not have the right |definitely should not have the right |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------------------|:------------------------------|:----------------------------------|:------------------------------------|:----------|:---------|:-----|
+#'  |2016  |1477 |345                              |534                            |264                                |215                                  |19         |13        |2867  |
+#'  |Total |1477 |345                              |534                            |264                                |215                                  |19         |13        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -302,13 +349,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `emonitor`](https://gssdataexplorer.norc.org/variables/6316/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |definitely should have the right |probably should have the right |probably should not have the right |definitely should not have the right |don't know |no answer |Total |
+#'  |:-----|:----|:--------------------------------|:------------------------------|:----------------------------------|:------------------------------------|:----------|:---------|:-----|
+#'  |2016  |1477 |125                              |315                            |410                                |511                                  |16         |13        |2867  |
+#'  |Total |1477 |125                              |315                            |410                                |511                                  |16         |13        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -337,13 +390,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2016 |A/B     |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2016  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `govtinfo`](https://gssdataexplorer.norc.org/variables/6317/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |0 - all government information should be publically available, even if this meant a risk to public security |1  |10 - public security should be given priority, even if this means limiting access to government information |2  |3   |4  |5   |6   |7   |8   |9  |don't know |no answer |Total |
+#'  |:-----|:----|:-----------------------------------------------------------------------------------------------------------|:--|:-----------------------------------------------------------------------------------------------------------|:--|:---|:--|:---|:---|:---|:---|:--|:----------|:---------|:-----|
+#'  |2016  |1477 |39                                                                                                          |31 |200                                                                                                         |51 |102 |66 |311 |139 |175 |186 |58 |19         |13        |2867  |
+#'  |Total |1477 |39                                                                                                          |31 |200                                                                                                         |51 |102 |66 |311 |139 |175 |186 |58 |19         |13        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't

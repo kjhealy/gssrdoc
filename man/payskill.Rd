@@ -23,16 +23,23 @@ F. A skilled worker in a factory?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   Full \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4268/vshow}{GSS Data Explorer page for \code{payskill}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1000 \tab 10000 \tab 10400 \tab 11000 \tab 11520 \tab 12000 \tab 12400 \tab 12480 \tab 12500 \tab 13000 \tab 14000 \tab 14500 \tab 14560 \tab 14900 \tab 15000 \tab 150000 \tab 16000 \tab 16500 \tab 17000 \tab 17280 \tab 17500 \tab 18000 \tab 1900 \tab 19000 \tab 19200 \tab 2000 \tab 20000 \tab 20400 \tab 20500 \tab 20800 \tab 21000 \tab 22000 \tab 22050 \tab 22500 \tab 23000 \tab 23040 \tab 24000 \tab 2500 \tab 25000 \tab 25500 \tab 26000 \tab 27000 \tab 27040 \tab 27500 \tab 28000 \tab 28800 \tab 29000 \tab 3000 \tab 30000 \tab 31000 \tab 32000 \tab 33000 \tab 34000 \tab 35000 \tab 36000 \tab 36500 \tab 37000 \tab 3800 \tab 38000 \tab 39000 \tab 4000 \tab 40000 \tab 41000 \tab 41600 \tab 42000 \tab 43000 \tab 45000 \tab 47840 \tab 48000 \tab 5000 \tab 50000 \tab 5200 \tab 52000 \tab 55000 \tab 57000 \tab 6000 \tab 60000 \tab 6500 \tab 6700 \tab 7000 \tab 70000 \tab 7200 \tab 75000 \tab 8000 \tab 9000 \tab 90000 \tab 96000 \tab 9e+05 \tab can't choose \tab no answer \tab 1040 \tab 1200 \tab 1300 \tab 1600 \tab 16640 \tab 1e+05 \tab $1 million (or more, for 1987 & 2000) \tab 2e+05 \tab 30430 \tab 3e+05 \tab 47000 \tab 65000 \tab 7680 \tab 78000 \tab 80000 \tab 85000 \tab Total \cr
+   1987 \tab 255 \tab 3 \tab 36 \tab 3 \tab 7 \tab 1 \tab 30 \tab 1 \tab 1 \tab 1 \tab 12 \tab 11 \tab 1 \tab 2 \tab 1 \tab 89 \tab 1 \tab 15 \tab 1 \tab 19 \tab 1 \tab 2 \tab 57 \tab 1 \tab 9 \tab 1 \tab 1 \tab 161 \tab 1 \tab 1 \tab 5 \tab 6 \tab 23 \tab 1 \tab 2 \tab 8 \tab 1 \tab 15 \tab 1 \tab 196 \tab 1 \tab 6 \tab 16 \tab 1 \tab 5 \tab 22 \tab 1 \tab 1 \tab 2 \tab 216 \tab 2 \tab 9 \tab 3 \tab 3 \tab 91 \tab 9 \tab 1 \tab 1 \tab 1 \tab 7 \tab 1 \tab 1 \tab 86 \tab 1 \tab 1 \tab 1 \tab 1 \tab 19 \tab 1 \tab 3 \tab 5 \tab 28 \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab 14 \tab 1 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 8 \tab 7 \tab 1 \tab 1 \tab 1 \tab 57 \tab 184 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
+   2000 \tab 1545 \tab 2 \tab 19 \tab - \tab 2 \tab - \tab 16 \tab - \tab - \tab - \tab 2 \tab 4 \tab - \tab 2 \tab - \tab 48 \tab - \tab 8 \tab - \tab 11 \tab - \tab 1 \tab 29 \tab - \tab 5 \tab - \tab 1 \tab 112 \tab - \tab - \tab 1 \tab 2 \tab 9 \tab - \tab - \tab 3 \tab - \tab 13 \tab 3 \tab 128 \tab - \tab 5 \tab 4 \tab - \tab - \tab 8 \tab - \tab 2 \tab 2 \tab 159 \tab - \tab 7 \tab 1 \tab 1 \tab 88 \tab 8 \tab - \tab - \tab - \tab 5 \tab - \tab 1 \tab 128 \tab 1 \tab 1 \tab 5 \tab 1 \tab 37 \tab - \tab 2 \tab 2 \tab 79 \tab - \tab - \tab 4 \tab - \tab - \tab 30 \tab - \tab - \tab 1 \tab 4 \tab - \tab 7 \tab 2 \tab 3 \tab 2 \tab - \tab - \tab 62 \tab 166 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2817 \cr
+   Total \tab 1800 \tab 5 \tab 55 \tab 3 \tab 9 \tab 1 \tab 46 \tab 1 \tab 1 \tab 1 \tab 14 \tab 15 \tab 1 \tab 4 \tab 1 \tab 137 \tab 1 \tab 23 \tab 1 \tab 30 \tab 1 \tab 3 \tab 86 \tab 1 \tab 14 \tab 1 \tab 2 \tab 273 \tab 1 \tab 1 \tab 6 \tab 8 \tab 32 \tab 1 \tab 2 \tab 11 \tab 1 \tab 28 \tab 4 \tab 324 \tab 1 \tab 11 \tab 20 \tab 1 \tab 5 \tab 30 \tab 1 \tab 3 \tab 4 \tab 375 \tab 2 \tab 16 \tab 4 \tab 4 \tab 179 \tab 17 \tab 1 \tab 1 \tab 1 \tab 12 \tab 1 \tab 2 \tab 214 \tab 2 \tab 2 \tab 6 \tab 2 \tab 56 \tab 1 \tab 5 \tab 7 \tab 107 \tab 1 \tab 1 \tab 6 \tab 1 \tab 3 \tab 44 \tab 1 \tab 1 \tab 4 \tab 6 \tab 1 \tab 8 \tab 10 \tab 10 \tab 3 \tab 1 \tab 1 \tab 119 \tab 350 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 4 \tab 1 \tab 4636 \cr
+}
 }
 
 \seealso{

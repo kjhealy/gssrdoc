@@ -25,17 +25,24 @@ A. Financial information?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000, 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2394/vshow}{GSS Data Explorer page for \code{fin30}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab Total \cr
+   2000 \tab 2075 \tab 303 \tab 158 \tab 63 \tab 145 \tab 73 \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 473 \tab 235 \tab 111 \tab 170 \tab 94 \tab 1 \tab 2765 \cr
+   2004 \tab 2122 \tab 361 \tab 153 \tab 54 \tab 108 \tab 13 \tab 1 \tab 2812 \cr
+   Total \tab 5878 \tab 1137 \tab 546 \tab 228 \tab 423 \tab 180 \tab 2 \tab 8394 \cr
+}
 }
 
 \seealso{

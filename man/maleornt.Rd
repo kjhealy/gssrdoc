@@ -23,15 +23,21 @@ Question INTERVIEWER ONLY, DO NOT ASK R
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7294/vshow}{GSS Data Explorer page for \code{maleornt}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab r is homosexual/gay \tab r is not homosexual/gay \tab r sexual orientation uncertain \tab no answer \tab Total \cr
+   2018 \tab 1647 \tab 7 \tab 448 \tab 91 \tab 155 \tab 2348 \cr
+   Total \tab 1647 \tab 7 \tab 448 \tab 91 \tab 155 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

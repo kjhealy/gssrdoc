@@ -26,17 +26,23 @@ forces?  RECORD UNDER "E."
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
-   1983 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982, 1983, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/785/vshow}{GSS Data Explorer page for \code{blnumok}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab too many \tab about right number \tab should be more \tab don't know \tab no answer \tab Total \cr
+   1982 \tab 937 \tab 104 \tab 523 \tab 180 \tab 104 \tab 12 \tab 1860 \cr
+   1983 \tab - \tab 129 \tab 987 \tab 284 \tab 189 \tab 10 \tab 1599 \cr
+   1984 \tab - \tab 111 \tab 947 \tab 262 \tab 122 \tab 31 \tab 1473 \cr
+   Total \tab 937 \tab 344 \tab 2457 \tab 726 \tab 415 \tab 53 \tab 4932 \cr
+}
 }
 
 \seealso{

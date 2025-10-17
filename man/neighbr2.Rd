@@ -25,17 +25,24 @@ H2. Second Person is Neighbor
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1985 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   2004 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2004 \cr
+   Full \tab 1985, 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/911/vshow}{GSS Data Explorer page for \code{neighbr2}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab Total \cr
+   1985 \tab 364 \tab 119 \tab 1048 \tab 3 \tab 1534 \cr
+   1987 \tab 385 \tab 178 \tab 1231 \tab 25 \tab 1819 \cr
+   2004 \tab 1977 \tab 56 \tab 732 \tab 47 \tab 2812 \cr
+   Total \tab 2726 \tab 353 \tab 3011 \tab 75 \tab 6165 \cr
+}
 }
 
 \seealso{

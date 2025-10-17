@@ -22,30 +22,38 @@ Question C. IF NO OR DON''T KNOW TO B:  Where more than half of the children are
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1988 \tab A/B/- \tab partial \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/- \tab partial \cr
-   1993 \tab A/B/- \tab partial \cr
-   1994 \tab A/B/- \tab partial \cr
-   1996 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 1988, 1989, 1991, 1993, 1994, 1996 \cr
+   A/B/C \tab 1990 \cr
+   Full \tab 1972, 1974, 1975, 1977, 1978, 1982, 1983, 1985, 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/397/vshow}{GSS Data Explorer page for \code{racmost}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab yes, object \tab no \tab don't know \tab iap \tab no answer \tab Total \cr
+   1972 \tab 401 \tab 562 \tab 65 \tab 573 \tab 12 \tab 1613 \cr
+   1974 \tab 407 \tab 454 \tab 61 \tab 541 \tab 21 \tab 1484 \cr
+   1975 \tab 397 \tab 490 \tab 68 \tab 524 \tab 11 \tab 1490 \cr
+   1977 \tab 453 \tab 517 \tab 41 \tab 506 \tab 13 \tab 1530 \cr
+   1978 \tab 427 \tab 703 \tab 59 \tab 329 \tab 14 \tab 1532 \cr
+   1982 \tab 470 \tab 939 \tab 73 \tab 360 \tab 18 \tab 1860 \cr
+   1983 \tab 528 \tab 647 \tab 64 \tab 345 \tab 15 \tab 1599 \cr
+   1985 \tab 486 \tab 678 \tab 55 \tab 301 \tab 14 \tab 1534 \cr
+   1986 \tab 479 \tab 624 \tab 41 \tab 316 \tab 10 \tab 1470 \cr
+   1988 \tab 290 \tab 460 \tab 44 \tab 682 \tab 5 \tab 1481 \cr
+   1989 \tab 313 \tab 430 \tab 48 \tab 736 \tab 10 \tab 1537 \cr
+   1990 \tab 438 \tab 590 \tab 74 \tab 255 \tab 15 \tab 1372 \cr
+   1991 \tab 284 \tab 501 \tab 48 \tab 672 \tab 12 \tab 1517 \cr
+   1993 \tab 311 \tab 513 \tab 53 \tab 721 \tab 8 \tab 1606 \cr
+   1994 \tab 571 \tab 994 \tab 89 \tab 1318 \tab 20 \tab 2992 \cr
+   1996 \tab 234 \tab 516 \tab 47 \tab 2082 \tab 25 \tab 2904 \cr
+   Total \tab 6489 \tab 9618 \tab 930 \tab 10261 \tab 223 \tab 27521 \cr
+}
 }
 
 \seealso{

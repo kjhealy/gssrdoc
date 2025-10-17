@@ -23,15 +23,21 @@ D. Friends and acquaintances.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1982 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/768/vshow}{GSS Data Explorer page for \code{impfrend}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab Total \cr
+   1982 \tab - \tab 13 \tab 32 \tab 69 \tab 203 \tab 373 \tab 448 \tab 699 \tab 4 \tab 19 \tab 1860 \cr
+   Total \tab 0 \tab 13 \tab 32 \tab 69 \tab 203 \tab 373 \tab 448 \tab 699 \tab 4 \tab 19 \tab 1860 \cr
+}
 }
 
 \seealso{

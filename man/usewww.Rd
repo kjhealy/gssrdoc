@@ -22,24 +22,32 @@ Question Other than for e-mail, do you ever use the Internet or World Wide Web? 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2010, 2012, 2014, 2016, 2018, 2021, 2022 \cr
+   A/B/C \tab 2000, 2002 \cr
+   B/C/- \tab 2004 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2383/vshow}{GSS Data Explorer page for \code{usewww}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab skipped on web \tab don't know \tab Total \cr
+   2000 \tab 1424 \tab 1000 \tab 339 \tab 54 \tab - \tab - \tab 2817 \cr
+   2002 \tab 855 \tab 1643 \tab 261 \tab 6 \tab - \tab - \tab 2765 \cr
+   2004 \tab 2083 \tab 684 \tab 39 \tab 6 \tab - \tab - \tab 2812 \cr
+   2010 \tab 1601 \tab 128 \tab 314 \tab 1 \tab - \tab - \tab 2044 \cr
+   2012 \tab 1580 \tab 138 \tab 255 \tab 1 \tab - \tab - \tab 1974 \cr
+   2014 \tab 2320 \tab 152 \tab 66 \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2638 \tab 158 \tab 70 \tab 1 \tab - \tab - \tab 2867 \cr
+   2018 \tab 2161 \tab 129 \tab 57 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab 3865 \tab 84 \tab 18 \tab 57 \tab 8 \tab - \tab 4032 \cr
+   2022 \tab 3249 \tab 223 \tab 53 \tab 12 \tab 5 \tab 2 \tab 3544 \cr
+   Total \tab 21776 \tab 4339 \tab 1472 \tab 139 \tab 13 \tab 2 \tab 27741 \cr
+}
 }
 
 \seealso{

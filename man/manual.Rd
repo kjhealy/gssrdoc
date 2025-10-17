@@ -23,15 +23,21 @@ B. Look in a printed manual, book, or CD that tells how to use the software?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2493/vshow}{GSS Data Explorer page for \code{manual}}.
+
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
+   2000 \tab 2075 \tab 486 \tab 168 \tab 88 \tab 2817 \cr
+   Total \tab 2075 \tab 486 \tab 168 \tab 88 \tab 2817 \cr
+}
 }
 
 \seealso{

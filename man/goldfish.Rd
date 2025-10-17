@@ -24,15 +24,21 @@ Question Experiment about goldfish and temperature.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3476/vshow}{GSS Data Explorer page for \code{goldfish}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab experiment a \tab experiment b \tab experiment c \tab experiment d \tab don't know \tab no answer \tab Total \cr
+   2008 \tab 709 \tab 761 \tab 84 \tab 116 \tab 77 \tab 248 \tab 28 \tab 2023 \cr
+   Total \tab 709 \tab 761 \tab 84 \tab 116 \tab 77 \tab 248 \tab 28 \tab 2023 \cr
+}
 }
 
 \seealso{

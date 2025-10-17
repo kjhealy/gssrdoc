@@ -25,18 +25,26 @@ A. Life after death
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2008 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2018 \cr
+   A/B/C \tab 1991, 1998 \cr
+   B/C/- \tab 2008 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4651/vshow}{GSS Data Explorer page for \code{afterlif}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 158 \tab 674 \tab 278 \tab 150 \tab 123 \tab 94 \tab 40 \tab 1517 \cr
+   1998 \tab 1548 \tab 660 \tab 247 \tab 110 \tab 110 \tab 110 \tab 47 \tab 2832 \cr
+   2008 \tab 658 \tab 745 \tab 279 \tab 152 \tab 127 \tab 54 \tab 8 \tab 2023 \cr
+   2018 \tab 1173 \tab 662 \tab 242 \tab 126 \tab 99 \tab 36 \tab 10 \tab 2348 \cr
+   Total \tab 3537 \tab 2741 \tab 1046 \tab 538 \tab 459 \tab 294 \tab 105 \tab 8720 \cr
+}
 }
 
 \seealso{

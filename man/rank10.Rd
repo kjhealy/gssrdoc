@@ -23,15 +23,21 @@ B. And ten years ago, where did you fit in then?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/571/vshow}{GSS Data Explorer page for \code{rank10}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 1 - top \tab 10 - bottom \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab can't choose \tab no answer \tab Total \cr
+   2000 \tab 1545 \tab 27 \tab 40 \tab 49 \tab 106 \tab 132 \tab 239 \tab 194 \tab 149 \tab 133 \tab 52 \tab 7 \tab 144 \tab 2817 \cr
+   Total \tab 1545 \tab 27 \tab 40 \tab 49 \tab 106 \tab 132 \tab 239 \tab 194 \tab 149 \tab 133 \tab 52 \tab 7 \tab 144 \tab 2817 \cr
+}
 }
 
 \seealso{

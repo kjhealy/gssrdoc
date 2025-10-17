@@ -25,15 +25,21 @@ Question Here in (CURRENT STATE), how easy or hard do you think it is for a woma
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7175/vshow}{GSS Data Explorer page for \code{abstate1}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very easy \tab easy \tab neither easy nor hard \tab hard \tab very hard \tab don't know \tab no answer \tab Total \cr
+   2018 \tab - \tab 367 \tab 671 \tab 518 \tab 217 \tab 83 \tab 442 \tab 50 \tab 2348 \cr
+   Total \tab 0 \tab 367 \tab 671 \tab 518 \tab 217 \tab 83 \tab 442 \tab 50 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

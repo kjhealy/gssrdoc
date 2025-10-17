@@ -24,15 +24,21 @@ Question D. Engineers donâ€™t get as much fun out of life as other people d
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3529/vshow}{GSS Data Explorer page for \code{engfun}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1489 \tab 13 \tab 58 \tab 287 \tab 54 \tab 68 \tab 5 \tab 1974 \cr
+   Total \tab 1489 \tab 13 \tab 58 \tab 287 \tab 54 \tab 68 \tab 5 \tab 1974 \cr
+}
 }
 
 \seealso{

@@ -13,13 +13,19 @@
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `natdiscm`](https://gssdataexplorer.norc.org/variables/3709/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |should |should not be |don't know |no answer |Total |
+#'  |:-----|:----|:------|:-------------|:----------|:---------|:-----|
+#'  |2006  |2992 |1333   |160           |24         |1         |4510  |
+#'  |Total |2992 |1333   |160           |24         |1         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
@@ -48,13 +54,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `newsprnt`](https://gssdataexplorer.norc.org/variables/3710/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |every day |a few times a week |once a week |less than once a week |never |no answer |Total |
+#'  |:-----|:----|:---------|:------------------|:-----------|:---------------------|:-----|:---------|:-----|
+#'  |2006  |3728 |264       |185                |120         |122                   |90    |1         |4510  |
+#'  |Total |3728 |264       |185                |120         |122                   |90    |1         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
@@ -81,13 +93,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |D       |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `getaheay`](https://gssdataexplorer.norc.org/variables/3711/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |hard work most important |hard work, luck equally important |luck or help from other people most important |don't know |no answer |Total |
+#'  |:-----|:----|:------------------------|:---------------------------------|:---------------------------------------------|:----------|:---------|:-----|
+#'  |2006  |3728 |465                      |158                               |152                                           |6          |1         |4510  |
+#'  |Total |3728 |465                      |158                               |152                                           |6          |1         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
@@ -113,13 +131,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C/D |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C/D |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `disabld1`](https://gssdataexplorer.norc.org/variables/3712/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2006  |1714 |171 |2613 |2          |10        |4510  |
+#'  |Total |1714 |171 |2613 |2          |10        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -145,13 +169,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C/D |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C/D |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `disabld2`](https://gssdataexplorer.norc.org/variables/3713/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2006  |1714 |174 |2609 |2          |11        |4510  |
+#'  |Total |1714 |174 |2609 |2          |11        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -177,13 +207,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C/D |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C/D |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `disabld3`](https://gssdataexplorer.norc.org/variables/3714/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2006  |1714 |482 |2300 |1          |13        |4510  |
+#'  |Total |1714 |482 |2300 |1          |13        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -209,13 +245,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C/D |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C/D |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `disabld4`](https://gssdataexplorer.norc.org/variables/3715/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2006  |1714 |296 |2483 |2          |15        |4510  |
+#'  |Total |1714 |296 |2483 |2          |15        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -241,13 +283,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C/D |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C/D |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `disabld5`](https://gssdataexplorer.norc.org/variables/3716/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2006  |1714 |156 |2621 |4          |15        |4510  |
+#'  |Total |1714 |156 |2621 |4          |15        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -273,13 +321,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C/D |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C/D |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `disabld6`](https://gssdataexplorer.norc.org/variables/3717/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2006  |1714 |289 |2489 |3          |15        |4510  |
+#'  |Total |1714 |289 |2489 |3          |15        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -305,13 +359,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C/D |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C/D |2006  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `disabld7`](https://gssdataexplorer.norc.org/variables/3718/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no   |don't know |no answer |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
+#'  |2006  |1714 |288 |2487 |6          |15        |4510  |
+#'  |Total |1714 |288 |2487 |6          |15        |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability

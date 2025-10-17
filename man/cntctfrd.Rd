@@ -31,15 +31,21 @@ either face-to-face, by phone, internet or any other communication device?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2018 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7269/vshow}{GSS Data Explorer page for \code{cntctfrd}}.
+
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab daily \tab several times a week \tab once a week \tab two to three times a month \tab once a month \tab several times a year \tab less often \tab never \tab i do not have any close friends \tab the close friend i have contact with the most frequently lives with me \tab don't know \tab no answer \tab Total \cr
+   2018 \tab 1175 \tab 274 \tab 402 \tab 171 \tab 137 \tab 54 \tab 62 \tab 22 \tab 23 \tab 21 \tab 2 \tab 4 \tab 1 \tab 2348 \cr
+   Total \tab 1175 \tab 274 \tab 402 \tab 171 \tab 137 \tab 54 \tab 62 \tab 22 \tab 23 \tab 21 \tab 2 \tab 4 \tab 1 \tab 2348 \cr
+}
 }
 
 \keyword{variable}

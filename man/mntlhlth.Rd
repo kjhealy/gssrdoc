@@ -21,23 +21,30 @@ Question B. Now thinking about your mental health, which includes stress, depres
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002, 2004, 2006, 2010, 2012, 2014, 2018, 2022 \cr
+   B/C/- \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2828/vshow}{GSS Data Explorer page for \code{mntlhlth}}.
+
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 25 \tab 26 \tab 28 \tab 3 \tab 30 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab 11 \tab 16 \tab 17 \tab 23 \tab 24 \tab 29 \tab 27 \tab 13 \tab skipped on web \tab Total \cr
+   2002 \tab 969 \tab 1050 \tab 64 \tab 63 \tab 3 \tab 11 \tab 54 \tab 1 \tab 1 \tab 117 \tab 32 \tab 3 \tab 2 \tab 9 \tab 2 \tab 4 \tab 84 \tab 86 \tab 44 \tab 87 \tab 5 \tab 39 \tab 4 \tab 1 \tab 14 \tab 16 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 945 \tab 769 \tab 125 \tab 92 \tab 6 \tab 16 \tab 57 \tab 2 \tab - \tab 175 \tab 58 \tab 1 \tab 1 \tab 16 \tab - \tab 2 \tab 140 \tab 51 \tab 76 \tab 140 \tab 15 \tab 45 \tab 16 \tab 2 \tab 10 \tab 40 \tab 1 \tab 2 \tab 3 \tab 3 \tab 1 \tab 2 \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 2776 \tab 1098 \tab 62 \tab 45 \tab 4 \tab 6 \tab 40 \tab - \tab - \tab 124 \tab 25 \tab - \tab 1 \tab 4 \tab - \tab 3 \tab 76 \tab 58 \tab 48 \tab 77 \tab 11 \tab 27 \tab 3 \tab - \tab 6 \tab 11 \tab - \tab - \tab 1 \tab - \tab - \tab 2 \tab 2 \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 646 \tab 63 \tab 40 \tab 3 \tab 10 \tab 41 \tab - \tab - \tab 77 \tab 17 \tab 2 \tab - \tab 9 \tab 1 \tab - \tab 48 \tab 47 \tab 43 \tab 68 \tab 7 \tab 22 \tab 3 \tab 1 \tab 8 \tab 28 \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab 2044 \cr
+   2012 \tab 795 \tab 518 \tab 88 \tab 46 \tab 10 \tab 3 \tab 34 \tab 2 \tab - \tab 132 \tab 31 \tab 2 \tab 1 \tab 6 \tab - \tab 3 \tab 67 \tab 24 \tab 38 \tab 88 \tab 8 \tab 21 \tab 5 \tab 1 \tab 10 \tab 30 \tab - \tab 3 \tab 1 \tab - \tab 1 \tab 5 \tab 1 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1288 \tab 796 \tab 48 \tab 37 \tab 2 \tab 7 \tab 29 \tab - \tab - \tab 69 \tab 18 \tab 2 \tab - \tab 4 \tab - \tab 1 \tab 45 \tab 56 \tab 29 \tab 63 \tab 5 \tab 21 \tab 7 \tab 1 \tab 3 \tab 6 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 1745 \tab 609 \tab 47 \tab 45 \tab 1 \tab 12 \tab 33 \tab - \tab - \tab 92 \tab 19 \tab 2 \tab - \tab 4 \tab 1 \tab - \tab 63 \tab 52 \tab 24 \tab 60 \tab 4 \tab 22 \tab 3 \tab 1 \tab 8 \tab 15 \tab - \tab 2 \tab 1 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab 2867 \cr
+   2018 \tab 900 \tab 788 \tab 76 \tab 60 \tab 5 \tab 13 \tab 41 \tab 1 \tab - \tab 107 \tab 19 \tab - \tab 2 \tab 7 \tab - \tab - \tab 85 \tab 51 \tab 32 \tab 75 \tab 9 \tab 26 \tab 6 \tab 1 \tab 7 \tab 33 \tab 1 \tab 2 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 1557 \tab 1001 \tab 82 \tab 89 \tab 12 \tab 18 \tab 65 \tab - \tab 1 \tab 126 \tab 48 \tab 1 \tab 1 \tab 18 \tab - \tab 5 \tab 82 \tab 90 \tab 51 \tab 141 \tab 19 \tab 38 \tab 7 \tab - \tab 16 \tab 22 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab - \tab 1 \tab 45 \tab 3544 \cr
+   Total \tab 11832 \tab 7275 \tab 655 \tab 517 \tab 46 \tab 96 \tab 394 \tab 6 \tab 2 \tab 1019 \tab 267 \tab 13 \tab 8 \tab 77 \tab 4 \tab 18 \tab 690 \tab 515 \tab 385 \tab 799 \tab 83 \tab 261 \tab 54 \tab 8 \tab 82 \tab 201 \tab 4 \tab 11 \tab 7 \tab 4 \tab 6 \tab 12 \tab 5 \tab 1 \tab 45 \tab 25402 \cr
+}
 }
 
 \seealso{

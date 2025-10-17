@@ -21,15 +21,21 @@ Question In total, how many levels of supervision are there beneath yours (inclu
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1991 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1316/vshow}{GSS Data Explorer page for \code{levels}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab Total \cr
+   1991 \tab 1411 \tab 36 \tab 34 \tab 15 \tab 5 \tab 2 \tab 1 \tab 4 \tab 9 \tab 1517 \cr
+   Total \tab 1411 \tab 36 \tab 34 \tab 15 \tab 5 \tab 2 \tab 1 \tab 4 \tab 9 \tab 1517 \cr
+}
 }
 
 \seealso{

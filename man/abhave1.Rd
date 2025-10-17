@@ -24,15 +24,21 @@ A. There is a strong chance of serious defect in the baby?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1977 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1977 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/699/vshow}{GSS Data Explorer page for \code{abhave1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
+   1977 \tab - \tab 1081 \tab 351 \tab 87 \tab 11 \tab 1530 \cr
+   Total \tab 0 \tab 1081 \tab 351 \tab 87 \tab 11 \tab 1530 \cr
+}
 }
 
 \seealso{

@@ -23,17 +23,25 @@ A. Nanotechnology involves manipulating extremely small units of matter, such as
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3446/vshow}{GSS Data Explorer page for \code{nanoknw1}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab true \tab false \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 3688 \tab 483 \tab 63 \tab 274 \tab 2 \tab 4510 \cr
+   2008 \tab 1312 \tab 449 \tab 58 \tab 200 \tab 4 \tab 2023 \cr
+   2010 \tab 1796 \tab 136 \tab 22 \tab 82 \tab 8 \tab 2044 \cr
+   Total \tab 6796 \tab 1068 \tab 143 \tab 556 \tab 14 \tab 8577 \cr
+}
 }
 
 \seealso{

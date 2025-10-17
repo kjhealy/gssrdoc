@@ -24,16 +24,22 @@ Question How important is the gun control issue to you--would you say it is one 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1976 \tab - \tab full \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1976, 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/273/vshow}{GSS Data Explorer page for \code{gunimp}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not important \tab don't know \tab no answer \tab Total \cr
+   1976 \tab - \tab 197 \tab 801 \tab 387 \tab 95 \tab 17 \tab 2 \tab 1499 \cr
+   1984 \tab 989 \tab 81 \tab 252 \tab 121 \tab 20 \tab 6 \tab 4 \tab 1473 \cr
+   Total \tab 989 \tab 278 \tab 1053 \tab 508 \tab 115 \tab 23 \tab 6 \tab 2972 \cr
+}
 }
 
 \seealso{

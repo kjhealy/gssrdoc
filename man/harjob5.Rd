@@ -23,16 +23,22 @@ Question In the last five years, have you been harassed verbally or in writing o
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2008, 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3925/vshow}{GSS Data Explorer page for \code{harjob5}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab not employed in last 5 years \tab no answer \tab Total \cr
+   2008 \tab 1971 \tab 14 \tab 4 \tab 1 \tab 33 \tab 2023 \cr
+   2012 \tab 1910 \tab 13 \tab 6 \tab - \tab 45 \tab 1974 \cr
+   Total \tab 3881 \tab 27 \tab 10 \tab 1 \tab 78 \tab 3997 \cr
+}
 }
 
 \seealso{

@@ -28,17 +28,24 @@ Question B. All things considered, how satisfied are you with your family life?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2012 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2012, 2018 \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4453/vshow}{GSS Data Explorer page for \code{satfam7}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab completely satisfied \tab very satisfied \tab fairly satisfied \tab neither satisfied nor dissatisfied \tab fairly dissatisfied \tab very dissatisfied \tab completely dissatisfied \tab can't choose \tab no answer \tab Total \cr
+   2002 \tab 1594 \tab 265 \tab 467 \tab 286 \tab 70 \tab 31 \tab 20 \tab 9 \tab 19 \tab 4 \tab 2765 \cr
+   2012 \tab 672 \tab 254 \tab 548 \tab 316 \tab 72 \tab 41 \tab 22 \tab 10 \tab 13 \tab 26 \tab 1974 \cr
+   2018 \tab 1173 \tab 331 \tab 450 \tab 254 \tab 60 \tab 40 \tab 23 \tab 9 \tab 3 \tab 5 \tab 2348 \cr
+   Total \tab 3439 \tab 850 \tab 1465 \tab 856 \tab 202 \tab 112 \tab 65 \tab 28 \tab 35 \tab 35 \tab 7087 \cr
+}
 }
 
 \seealso{

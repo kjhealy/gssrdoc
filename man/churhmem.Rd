@@ -24,15 +24,21 @@ No..........(GO TO  TVRELIG)........2
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1073/vshow}{GSS Data Explorer page for \code{churhmem}}.
+
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab no \tab Total \cr
+   1988 \tab - \tab 904 \tab 577 \tab 1481 \cr
+   Total \tab 0 \tab 904 \tab 577 \tab 1481 \cr
+}
 }
 
 \seealso{

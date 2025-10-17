@@ -23,15 +23,21 @@ Question How satisfied were you with the legal services you received?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1838/vshow}{GSS Data Explorer page for \code{satlawyr}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab not too satisfied \tab pretty satisfied \tab extremely satisfied \tab don't know \tab no answer \tab Total \cr
+   1996 \tab 2254 \tab 102 \tab 277 \tab 264 \tab 2 \tab 5 \tab 2904 \cr
+   Total \tab 2254 \tab 102 \tab 277 \tab 264 \tab 2 \tab 5 \tab 2904 \cr
+}
 }
 
 \seealso{

@@ -31,15 +31,21 @@ Please select one reason.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2016 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6326/vshow}{GSS Data Explorer page for \code{whydisc5}}.
+
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab my age \tab my race, ethnicity \tab my nationality \tab my sex \tab my religion \tab my disability/mental or physical illness \tab my family responsibilities \tab my political beliefs \tab other reason \tab don't know \tab no answer \tab Total \cr
+   2016 \tab 2595 \tab 63 \tab 56 \tab 10 \tab 36 \tab 2 \tab 8 \tab 15 \tab 3 \tab 73 \tab 3 \tab 3 \tab 2867 \cr
+   Total \tab 2595 \tab 63 \tab 56 \tab 10 \tab 36 \tab 2 \tab 8 \tab 15 \tab 3 \tab 73 \tab 3 \tab 3 \tab 2867 \cr
+}
 }
 
 \seealso{

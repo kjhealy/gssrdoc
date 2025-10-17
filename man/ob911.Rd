@@ -25,15 +25,21 @@ D. Reporting a crime that he or she may have witnessed?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1984 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/837/vshow}{GSS Data Explorer page for \code{ob911}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not obligation \tab don't know \tab no answer \tab Total \cr
+   1984 \tab - \tab 1312 \tab 114 \tab 16 \tab 8 \tab 23 \tab 1473 \cr
+   Total \tab 0 \tab 1312 \tab 114 \tab 16 \tab 8 \tab 23 \tab 1473 \cr
+}
 }
 
 \seealso{

@@ -23,16 +23,23 @@ A. The North Pole is on a sheet of ice that floats on the Arctic Ocean. (Is that
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab B/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/C \tab 2010 \cr
+   B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3432/vshow}{GSS Data Explorer page for \code{icesheet}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2646 \tab 756 \tab 426 \tab 681 \tab 1 \tab 4510 \cr
+   2010 \tab 1338 \tab 328 \tab 175 \tab 191 \tab 12 \tab 2044 \cr
+   Total \tab 3984 \tab 1084 \tab 601 \tab 872 \tab 13 \tab 6554 \cr
+}
 }
 
 \seealso{

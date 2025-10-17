@@ -24,15 +24,21 @@ A. Attended a public meeting organized to protest against the government.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1996 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4092/vshow}{GSS Data Explorer page for \code{rprtst15}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab never \tab once \tab more than once \tab no answer \tab Total \cr
+   1996 \tab 1572 \tab 1127 \tab 118 \tab 59 \tab 28 \tab 2904 \cr
+   Total \tab 1572 \tab 1127 \tab 118 \tab 59 \tab 28 \tab 2904 \cr
+}
 }
 
 \seealso{

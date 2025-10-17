@@ -24,17 +24,23 @@ D. After the children leave home.
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1988, 1994, 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4356/vshow}{GSS Data Explorer page for \code{wrkgrown}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab work full-time \tab work part-time \tab stay home \tab can't choose \tab no answer \tab Total \cr
+   1988 \tab 67 \tab 888 \tab 236 \tab 62 \tab 197 \tab 31 \tab 1481 \cr
+   1994 \tab 1545 \tab 986 \tab 203 \tab 30 \tab 200 \tab 28 \tab 2992 \cr
+   2002 \tab 1594 \tab 735 \tab 203 \tab 28 \tab 203 \tab 2 \tab 2765 \cr
+   Total \tab 3206 \tab 2609 \tab 642 \tab 120 \tab 600 \tab 61 \tab 7238 \cr
+}
 }
 
 \seealso{

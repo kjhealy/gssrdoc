@@ -24,15 +24,21 @@ Question E. Engineers are helping to solve challenging problems. Do you strongly
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab B/C \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   B/C \tab 2012 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3530/vshow}{GSS Data Explorer page for \code{engprob}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
+   2012 \tab 1489 \tab 97 \tab 344 \tab 10 \tab 30 \tab 4 \tab 1974 \cr
+   Total \tab 1489 \tab 97 \tab 344 \tab 10 \tab 30 \tab 4 \tab 1974 \cr
+}
 }
 
 \seealso{

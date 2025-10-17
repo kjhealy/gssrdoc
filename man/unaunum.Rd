@@ -24,15 +24,21 @@ C. Aunts, Uncles
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1986 \tab - \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   - \tab 1986 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4155/vshow}{GSS Data Explorer page for \code{unaunum}}.
+
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 24 \tab 25 \tab 26 \tab 28 \tab 3 \tab 30 \tab 32 \tab 34 \tab 35 \tab 36 \tab 38 \tab 4 \tab 40 \tab 48 \tab 5 \tab 50 \tab 55 \tab 6 \tab 64 \tab 7 \tab 70 \tab 8 \tab 9 \tab 96 or more \tab # dk but ) 0 \tab don't know \tab no answer \tab Total \cr
+   1986 \tab - \tab 298 \tab 124 \tab 76 \tab 16 \tab 46 \tab 15 \tab 13 \tab 33 \tab 19 \tab 15 \tab 12 \tab 2 \tab 117 \tab 53 \tab 2 \tab 5 \tab 7 \tab 9 \tab 2 \tab 4 \tab 95 \tab 8 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 122 \tab 5 \tab 1 \tab 111 \tab 4 \tab 1 \tab 86 \tab 1 \tab 51 \tab 1 \tab 57 \tab 33 \tab 1 \tab 1 \tab 9 \tab 8 \tab 1470 \cr
+   Total \tab 0 \tab 298 \tab 124 \tab 76 \tab 16 \tab 46 \tab 15 \tab 13 \tab 33 \tab 19 \tab 15 \tab 12 \tab 2 \tab 117 \tab 53 \tab 2 \tab 5 \tab 7 \tab 9 \tab 2 \tab 4 \tab 95 \tab 8 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 122 \tab 5 \tab 1 \tab 111 \tab 4 \tab 1 \tab 86 \tab 1 \tab 51 \tab 1 \tab 57 \tab 33 \tab 1 \tab 1 \tab 9 \tab 8 \tab 1470 \cr
+}
 }
 
 \seealso{

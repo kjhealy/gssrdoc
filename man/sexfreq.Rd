@@ -27,34 +27,40 @@ Question About how often did you have sex during the last 12 months?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
-   2024 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014 \cr
+   B/C/- \tab 2016, 2018, 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5057/vshow}{GSS Data Explorer page for \code{sexfreq}}.
+
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all \tab once or twice \tab once a month \tab 2 or 3 times a month \tab about once a week \tab 2 or 3 times a week \tab more than 3 times a week \tab no answer \tab don't know \tab Total \cr
+   1989 \tab 136 \tab 298 \tab 99 \tab 114 \tab 221 \tab 258 \tab 307 \tab 64 \tab 40 \tab - \tab 1537 \cr
+   1990 \tab 199 \tab 110 \tab 39 \tab 57 \tab 91 \tab 110 \tab 108 \tab 37 \tab 621 \tab - \tab 1372 \cr
+   1991 \tab 221 \tab 292 \tab 99 \tab 108 \tab 181 \tab 233 \tab 265 \tab 72 \tab 44 \tab 2 \tab 1517 \cr
+   1993 \tab 114 \tab 309 \tab 92 \tab 164 \tab 221 \tab 272 \tab 273 \tab 97 \tab 64 \tab - \tab 1606 \cr
+   1994 \tab 201 \tab 563 \tab 188 \tab 290 \tab 416 \tab 483 \tab 538 \tab 155 \tab 155 \tab 3 \tab 2992 \cr
+   1996 \tab 258 \tab 476 \tab 192 \tab 248 \tab 412 \tab 471 \tab 565 \tab 164 \tab 116 \tab 2 \tab 2904 \cr
+   1998 \tab 383 \tab 516 \tab 175 \tab 263 \tab 358 \tab 425 \tab 458 \tab 125 \tab 127 \tab 2 \tab 2832 \cr
+   2000 \tab 417 \tab 509 \tab 202 \tab 204 \tab 360 \tab 391 \tab 446 \tab 152 \tab 135 \tab 1 \tab 2817 \cr
+   2002 \tab 489 \tab 484 \tab 186 \tab 212 \tab 350 \tab 341 \tab 415 \tab 163 \tab 107 \tab 18 \tab 2765 \cr
+   2004 \tab 584 \tab 445 \tab 160 \tab 240 \tab 364 \tab 376 \tab 377 \tab 147 \tab 99 \tab 20 \tab 2812 \cr
+   2006 \tab 2096 \tab 595 \tab 205 \tab 265 \tab 361 \tab 343 \tab 430 \tab 134 \tab 75 \tab 6 \tab 4510 \cr
+   2008 \tab 240 \tab 416 \tab 149 \tab 176 \tab 243 \tab 285 \tab 309 \tab 108 \tab 71 \tab 26 \tab 2023 \cr
+   2010 \tab 202 \tab 440 \tab 174 \tab 194 \tab 284 \tab 257 \tab 304 \tab 99 \tab 75 \tab 15 \tab 2044 \cr
+   2012 \tab 643 \tab 35 \tab 127 \tab 169 \tab 255 \tab 215 \tab 283 \tab 112 \tab 109 \tab 26 \tab 1974 \cr
+   2014 \tab 188 \tab 571 \tab 220 \tab 255 \tab 357 \tab 333 \tab 365 \tab 122 \tab 108 \tab 19 \tab 2538 \cr
+   2016 \tab 1096 \tab 439 \tab 178 \tab 216 \tab 274 \tab 244 \tab 271 \tab 90 \tab 53 \tab 6 \tab 2867 \cr
+   2018 \tab 942 \tab 365 \tab 127 \tab 162 \tab 208 \tab 214 \tab 197 \tab 84 \tab 43 \tab 6 \tab 2348 \cr
+   2021 \tab 1701 \tab 633 \tab 251 \tab 283 \tab 351 \tab 287 \tab 268 \tab 84 \tab 47 \tab 127 \tab 4032 \cr
+   2022 \tab 1898 \tab 481 \tab 140 \tab 181 \tab 224 \tab 198 \tab 207 \tab 76 \tab 80 \tab 59 \tab 3544 \cr
+   Total \tab 12008 \tab 7977 \tab 3003 \tab 3801 \tab 5531 \tab 5736 \tab 6386 \tab 2085 \tab 2169 \tab 338 \tab 49034 \cr
+}
 }
 
 \seealso{

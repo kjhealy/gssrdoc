@@ -22,15 +22,21 @@ Question Do you think being homosexual is something people choose to be, or do y
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1994 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 1994 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/635/vshow}{GSS Data Explorer page for \code{homochng}}.
+
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab something people choose to be \tab something they cannot change \tab don't know \tab no answer \tab Total \cr
+   1994 \tab 2034 \tab 393 \tab 424 \tab 129 \tab 12 \tab 2992 \cr
+   Total \tab 2034 \tab 393 \tab 424 \tab 129 \tab 12 \tab 2992 \cr
+}
 }
 
 \seealso{

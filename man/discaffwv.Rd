@@ -25,17 +25,22 @@ Question What do you think the chances are these days that a woman won't get a j
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab A/B \tab partial \cr
-   2022 \tab A/B \tab partial \cr
-   2024 \tab A/B \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B \tab 2021, 2022, 2024 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7587/vshow}{GSS Data Explorer page for \code{discaffwv}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab very unlikely \tab don't know \tab skipped on web \tab Total \cr
+   2021 \tab 2658 \tab 340 \tab 587 \tab 256 \tab 127 \tab 62 \tab 2 \tab 4032 \cr
+   2022 \tab 2990 \tab 121 \tab 250 \tab 97 \tab 52 \tab 33 \tab 1 \tab 3544 \cr
+   Total \tab 5648 \tab 461 \tab 837 \tab 353 \tab 179 \tab 95 \tab 3 \tab 7576 \cr
+}
 }
 
 \keyword{variable}

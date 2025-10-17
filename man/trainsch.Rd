@@ -26,15 +26,21 @@ Question B. In total, how many years have you spent (on such specialized trainin
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2139/vshow}{GSS Data Explorer page for \code{trainsch}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab less than one year \tab two years or less \tab four years or less \tab six years or less \tab eight years or less \tab over eight years \tab no answer \tab Total \cr
+   1998 \tab 2194 \tab 136 \tab 150 \tab 110 \tab 50 \tab 19 \tab 29 \tab 144 \tab 2832 \cr
+   Total \tab 2194 \tab 136 \tab 150 \tab 110 \tab 50 \tab 19 \tab 29 \tab 144 \tab 2832 \cr
+}
 }
 
 \seealso{

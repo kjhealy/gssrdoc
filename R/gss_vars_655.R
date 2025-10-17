@@ -1,139 +1,3 @@
-#'  Archived livestreamed music or theater in past 12 months
-#' 
-#'  yrarmus
-#' 
-#' Question (During the last 12 months, did you...) watch or listen to an archived web event featuring a music, theater, or dance performance? This may have included video or audio clips on, for example, YouTube, an organization's website, or a social media platform.
-#' 
-#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `yrarmus`](https://gssdataexplorer.norc.org/variables/7874/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family NEA
-#' 
-#' @keywords variable
-#' @md
-#' @name yrarmus
-NULL
-
-
-#'  Livestreamed reading event in past 12 months
-#' 
-#'  yrstpo
-#' 
-#' Question (During the last 12 months, did you...) watch or listen to a live-streamed poetry event, book-reading, or storytelling event?
-#' 
-#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `yrstpo`](https://gssdataexplorer.norc.org/variables/7875/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family NEA
-#' 
-#' @keywords variable
-#' @md
-#' @name yrstpo
-NULL
-
-
-#'  Archived livestreamed reading event in past 12 months
-#' 
-#'  yrarpo
-#' 
-#' Question (During the last 12 months, did you...) watch or listen to an archived web event featuring poetry, book-reading, or storytelling? This may have included video or audio clips on, for example, YouTube, an organization's website, or a social media platform.
-#' 
-#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `yrarpo`](https://gssdataexplorer.norc.org/variables/7876/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family NEA
-#' 
-#' @keywords variable
-#' @md
-#' @name yrarpo
-NULL
-
-
-#'  Online class in past 12 months
-#' 
-#'  yrclass
-#' 
-#' Question (During the last 12 months, did you...) take any online classes or lessons -- or watch instructional videos -- on creating or performing art? This may have included music, theater, or dance; creative writing; crafts or visual arts; digital art; or filmmaking or photography done for artistic purposes.
-#' 
-#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
-#' 
-#' @section Link at the GSS: 
-#' For further details see the [GSS Data Explorer page for `yrclass`](https://gssdataexplorer.norc.org/variables/7877/vshow).
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family NEA
-#' 
-#' @keywords variable
-#' @md
-#' @name yrclass
-NULL
-
-
 #'  Listen to art podcasts in past 12 months
 #' 
 #'  yrpod
@@ -151,13 +15,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `yrpod`](https://gssdataexplorer.norc.org/variables/7878/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
+#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
+#'  |2022  |2701 |238 |600 |1          |4              |3544  |
+#'  |Total |2701 |238 |600 |1          |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -188,13 +58,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cvdlvmus`](https://gssdataexplorer.norc.org/variables/7879/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1   |2   |3   |4   |Total |
+#'  |:-----|:----|:---|:---|:---|:---|:-----|
+#'  |2022  |2702 |265 |168 |135 |274 |3544  |
+#'  |Total |2702 |265 |168 |135 |274 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -224,13 +100,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cvdart`](https://gssdataexplorer.norc.org/variables/7880/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1   |2   |3   |4   |Total |
+#'  |:-----|:----|:---|:---|:---|:---|:-----|
+#'  |2022  |2703 |149 |194 |101 |397 |3544  |
+#'  |Total |2703 |149 |194 |101 |397 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -260,13 +142,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cvdmov`](https://gssdataexplorer.norc.org/variables/7881/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1   |2   |3   |4   |Total |
+#'  |:-----|:----|:---|:---|:---|:---|:-----|
+#'  |2022  |2704 |176 |182 |170 |312 |3544  |
+#'  |Total |2704 |176 |182 |170 |312 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -296,13 +184,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cvdcreat`](https://gssdataexplorer.norc.org/variables/7882/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1  |2   |3  |4   |Total |
+#'  |:-----|:----|:--|:---|:--|:---|:-----|
+#'  |2022  |2705 |89 |206 |87 |457 |3544  |
+#'  |Total |2705 |89 |206 |87 |457 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -332,13 +226,19 @@ NULL
 #' 
 #' @section Question Years and Ballots: 
 #'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2022 |A/B/C   |full         |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
-#' @section Link at the GSS: 
+#' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `cvdrdg`](https://gssdataexplorer.norc.org/variables/7883/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1   |2   |3  |4   |Total |
+#'  |:-----|:----|:---|:---|:--|:---|:-----|
+#'  |2022  |2703 |127 |407 |74 |233 |3544  |
+#'  |Total |2703 |127 |407 |74 |233 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -346,6 +246,174 @@ NULL
 #' @keywords variable
 #' @md
 #' @name cvdrdg
+NULL
+
+
+#'  Change in online tours since first year of covid
+#' 
+#'  cvdtour
+#' 
+#' Question (Compared to the first year of the COVID-19 pandemic (March 2020 to March 2021), are you now...) visiting or touring online art museums, galleries, or exhibits more often, at the same rate, less often, or do you not visit or tour online art museums at all?
+#' 
+#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` more often
+#'   * `2` at the same rate
+#'   * `3` less often
+#'   * `4` r not attending these activities
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `cvdtour`](https://gssdataexplorer.norc.org/variables/7884/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1  |2   |3  |4   |Total |
+#'  |:-----|:----|:--|:---|:--|:---|:-----|
+#'  |2022  |2706 |61 |179 |94 |504 |3544  |
+#'  |Total |2706 |61 |179 |94 |504 |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family NEA
+#' 
+#' @keywords variable
+#' @md
+#' @name cvdtour
+NULL
+
+
+#'  Change in livesteamed music or theater since first year of covid
+#' 
+#'  cvdstmus
+#' 
+#' Question (Compared to the first year of the COVID-19 pandemic (March 2020 to March 2021), are you now...) going online to watch or listen to live-streamed events featuring music, theater, or dance performances more often, at the same rate, less often, or do you not watch or listen to live-streamed events at all?
+#' 
+#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` more often
+#'   * `2` at the same rate
+#'   * `3` less often
+#'   * `4` r not attending these activities
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `cvdstmus`](https://gssdataexplorer.norc.org/variables/7885/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1   |2   |3  |4   |Total |
+#'  |:-----|:----|:---|:---|:--|:---|:-----|
+#'  |2022  |2704 |120 |278 |96 |346 |3544  |
+#'  |Total |2704 |120 |278 |96 |346 |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family NEA
+#' 
+#' @keywords variable
+#' @md
+#' @name cvdstmus
+NULL
+
+
+#'  Change in archived livestreamed music or theater since first year of covid
+#' 
+#'  cvdarmus
+#' 
+#' Question (Compared to the first year of the COVID-19 pandemic (March 2020 to March 2021), are you now...) watching or listening to archived web events featuring music, theater, or dance performances more often, at the same rate, less often, or do you not  watch or listen to archived web events at all?  This may have included video or audio clips on, for example, YouTube, an organizationâ€™s website, or on a social media platform.
+#' 
+#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` more often
+#'   * `2` at the same rate
+#'   * `3` less often
+#'   * `4` r not attending these activities
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `cvdarmus`](https://gssdataexplorer.norc.org/variables/7886/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1   |2   |3  |4   |Total |
+#'  |:-----|:----|:---|:---|:--|:---|:-----|
+#'  |2022  |2708 |123 |366 |84 |263 |3544  |
+#'  |Total |2708 |123 |366 |84 |263 |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family NEA
+#' 
+#' @keywords variable
+#' @md
+#' @name cvdarmus
+NULL
+
+
+#'  Change in livestreamed reading events since first year of covid
+#' 
+#'  cvdstpo
+#' 
+#' Question (Compared to the first year of the COVID-19 pandemic (March 2020 to March 2021), are you now...) going online to watch or listen to live-streamed events featuring poetry, book-readings, or storytelling events more often, at the same rate, less often, or are you not watching or listening to live-streamed poetry, book-readings, or storytelling events at all?
+#' 
+#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` more often
+#'   * `2` at the same rate
+#'   * `3` less often
+#'   * `4` r not attending these activities
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `cvdstpo`](https://gssdataexplorer.norc.org/variables/7887/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |NA   |1  |2   |3  |4   |Total |
+#'  |:-----|:----|:--|:---|:--|:---|:-----|
+#'  |2022  |2708 |60 |189 |57 |530 |3544  |
+#'  |Total |2708 |60 |189 |57 |530 |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family NEA
+#' 
+#' @keywords variable
+#' @md
+#' @name cvdstpo
 NULL
 
 

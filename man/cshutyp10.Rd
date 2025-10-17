@@ -24,16 +24,22 @@ Question During April through June 2010, were you a resident in a household Ã¢â‚
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2012, 2014 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5591/vshow}{GSS Data Explorer page for \code{cshutyp10}}.
+
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab living in household \tab living in institution \tab homeless (volunteered) \tab other \tab no answer \tab Total \cr
+   2012 \tab - \tab 1944 \tab 19 \tab 4 \tab 4 \tab 3 \tab 1974 \cr
+   2014 \tab - \tab 2490 \tab 39 \tab 5 \tab 2 \tab 2 \tab 2538 \cr
+   Total \tab 0 \tab 4434 \tab 58 \tab 9 \tab 6 \tab 5 \tab 4512 \cr
+}
 }
 
 \seealso{

@@ -23,21 +23,30 @@ Question Issues about new scientific discoveries. (Are you very interested, mode
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/- \tab 2016, 2018 \cr
+   A/B/C \tab 2008 \cr
+   A/C/- \tab 2010 \cr
+   B/C/- \tab 2012, 2014, 2021 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3455/vshow}{GSS Data Explorer page for \code{intsci}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very interested \tab moderately interested \tab not at all interested \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2008 \tab 518 \tab 607 \tab 675 \tab 213 \tab 9 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab 1334 \tab 273 \tab 367 \tab 62 \tab 2 \tab 6 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 409 \tab 431 \tab 148 \tab 9 \tab 5 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 495 \tab 567 \tab 175 \tab 1 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 585 \tab 583 \tab 217 \tab 2 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 476 \tab 520 \tab 177 \tab 2 \tab - \tab - \tab 2348 \cr
+   2021 \tab 2144 \tab 849 \tab 858 \tab 170 \tab - \tab - \tab 11 \tab 4032 \cr
+   Total \tab 8917 \tab 3694 \tab 4001 \tab 1162 \tab 25 \tab 16 \tab 11 \tab 17826 \cr
+}
 }
 
 \seealso{

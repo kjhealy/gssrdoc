@@ -26,15 +26,21 @@ C. Given the chance, I would change my present type of work for something differ
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1998 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1998 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4587/vshow}{GSS Data Explorer page for \code{chngwork}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
+   1998 \tab 1967 \tab 111 \tab 210 \tab 188 \tab 214 \tab 87 \tab 11 \tab 44 \tab 2832 \cr
+   Total \tab 1967 \tab 111 \tab 210 \tab 188 \tab 214 \tab 87 \tab 11 \tab 44 \tab 2832 \cr
+}
 }
 
 \seealso{

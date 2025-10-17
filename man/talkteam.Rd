@@ -24,15 +24,21 @@ Question If you were to see a fellow employee not working as hard or well as he 
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3555/vshow}{GSS Data Explorer page for \code{talkteam}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab don't know \tab no answer \tab Total \cr
+   2006 \tab 2778 \tab 575 \tab 305 \tab 424 \tab 325 \tab 68 \tab 35 \tab 4510 \cr
+   Total \tab 2778 \tab 575 \tab 305 \tab 424 \tab 325 \tab 68 \tab 35 \tab 4510 \cr
+}
 }
 
 \seealso{

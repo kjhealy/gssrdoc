@@ -25,15 +25,21 @@ E. Provide disability benefits for (NAME).
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab D \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   D \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3792/vshow}{GSS Data Explorer page for \code{mhgvtdis}}.
+
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
+   2006 \tab 3085 \tab 397 \tab 669 \tab 232 \tab 78 \tab 38 \tab 11 \tab 4510 \cr
+   Total \tab 3085 \tab 397 \tab 669 \tab 232 \tab 78 \tab 38 \tab 11 \tab 4510 \cr
+}
 }
 
 \seealso{

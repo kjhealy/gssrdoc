@@ -39,15 +39,21 @@ A. Who would you turn to first for help?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2002 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4214/vshow}{GSS Data Explorer page for \code{sick1a}}.
+
+Counts by year:\tabular{llllllllllllllllllllll}{
+   year \tab iap \tab husband, wife, partner \tab mother \tab father \tab daughter \tab daughter-in-law \tab son \tab sister \tab brother \tab other blood relative \tab other in-law relative \tab close friend \tab neighbor \tab someone you work with \tab someone at a social services agency \tab someone you pay to help \tab someone else \tab no one \tab don't know \tab no answer \tab Total \cr
+   2002 \tab 1616 \tab 547 \tab 137 \tab 26 \tab 98 \tab 7 \tab 33 \tab 51 \tab 27 \tab 17 \tab 7 \tab 113 \tab 25 \tab 6 \tab 3 \tab 2 \tab 14 \tab 29 \tab 1 \tab 6 \tab 2765 \cr
+   Total \tab 1616 \tab 547 \tab 137 \tab 26 \tab 98 \tab 7 \tab 33 \tab 51 \tab 27 \tab 17 \tab 7 \tab 113 \tab 25 \tab 6 \tab 3 \tab 2 \tab 14 \tab 29 \tab 1 \tab 6 \tab 2765 \cr
+}
 }
 
 \seealso{

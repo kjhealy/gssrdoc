@@ -26,17 +26,24 @@ E. Do you work in dangerous conditions?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 1989, 1998 \cr
+   D/-/- \tab 2006 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4554/vshow}{GSS Data Explorer page for \code{danger}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab 639 \tab 36 \tab 71 \tab 176 \tab 192 \tab 396 \tab 3 \tab 24 \tab 1537 \cr
+   1998 \tab 1967 \tab 51 \tab 55 \tab 143 \tab 226 \tab 350 \tab 3 \tab 37 \tab 2832 \cr
+   2006 \tab 3492 \tab 74 \tab 85 \tab 154 \tab 213 \tab 490 \tab - \tab 2 \tab 4510 \cr
+   Total \tab 6098 \tab 161 \tab 211 \tab 473 \tab 631 \tab 1236 \tab 6 \tab 63 \tab 8879 \cr
+}
 }
 
 \seealso{

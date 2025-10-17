@@ -26,17 +26,25 @@ G. Knowing the right people?
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
+   B/C/- \tab 2021 \cr
+   Full \tab 1987 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4247/vshow}{GSS Data Explorer page for \code{opknow}}.
+
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
+   1987 \tab 255 \tab 137 \tab 548 \tab 654 \tab 173 \tab 27 \tab 9 \tab 16 \tab - \tab 1819 \cr
+   2000 \tab 1545 \tab 155 \tab 410 \tab 459 \tab 129 \tab 44 \tab 20 \tab 55 \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 250 \tab 603 \tab 763 \tab 199 \tab 30 \tab 29 \tab 116 \tab 13 \tab 4032 \cr
+   Total \tab 3829 \tab 542 \tab 1561 \tab 1876 \tab 501 \tab 101 \tab 58 \tab 187 \tab 13 \tab 8668 \cr
+}
 }
 
 \seealso{

@@ -26,15 +26,21 @@ E. Worship services
 }
 
 \section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
+\tabular{ll}{
+   ballots \tab years \cr
+   A/B/C \tab 2000 \cr
 }
 }
 
-\section{Link at the GSS}{
+\section{Overview}{
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1165/vshow}{GSS Data Explorer page for \code{worship}}.
+
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab Total \cr
+   2000 \tab 1831 \tab 298 \tab 286 \tab 224 \tab 47 \tab 7 \tab 50 \tab 74 \tab 2817 \cr
+   Total \tab 1831 \tab 298 \tab 286 \tab 224 \tab 47 \tab 7 \tab 50 \tab 74 \tab 2817 \cr
+}
 }
 
 \seealso{
