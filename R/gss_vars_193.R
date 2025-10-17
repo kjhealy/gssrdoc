@@ -18,7 +18,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evbuyhme`](https://gssdataexplorer.norc.org/variables/1812/vshow).
+#' For further details see the [GSS Data Explorer page for `evbuyhme`](https://gssdataexplorer.norc.org/variables/1812/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -49,7 +49,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `homeyear`](https://gssdataexplorer.norc.org/variables/1813/vshow).
+#' For further details see the [GSS Data Explorer page for `homeyear`](https://gssdataexplorer.norc.org/variables/1813/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `learnhme`](https://gssdataexplorer.norc.org/variables/1814/vshow).
+#' For further details see the [GSS Data Explorer page for `learnhme`](https://gssdataexplorer.norc.org/variables/1814/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -117,7 +117,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `newowned`](https://gssdataexplorer.norc.org/variables/1815/vshow).
+#' For further details see the [GSS Data Explorer page for `newowned`](https://gssdataexplorer.norc.org/variables/1815/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -152,7 +152,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relhome`](https://gssdataexplorer.norc.org/variables/1816/vshow).
+#' For further details see the [GSS Data Explorer page for `relhome`](https://gssdataexplorer.norc.org/variables/1816/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -186,7 +186,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whosold`](https://gssdataexplorer.norc.org/variables/1817/vshow).
+#' For further details see the [GSS Data Explorer page for `whosold`](https://gssdataexplorer.norc.org/variables/1817/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -219,7 +219,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `realtora`](https://gssdataexplorer.norc.org/variables/1818/vshow).
+#' For further details see the [GSS Data Explorer page for `realtora`](https://gssdataexplorer.norc.org/variables/1818/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -252,7 +252,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `realtorb`](https://gssdataexplorer.norc.org/variables/1819/vshow).
+#' For further details see the [GSS Data Explorer page for `realtorb`](https://gssdataexplorer.norc.org/variables/1819/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `realtorc`](https://gssdataexplorer.norc.org/variables/1820/vshow).
+#' For further details see the [GSS Data Explorer page for `realtorc`](https://gssdataexplorer.norc.org/variables/1820/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -318,7 +318,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `realtord`](https://gssdataexplorer.norc.org/variables/1821/vshow).
+#' For further details see the [GSS Data Explorer page for `realtord`](https://gssdataexplorer.norc.org/variables/1821/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

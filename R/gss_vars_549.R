@@ -30,7 +30,7 @@
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidsreg2`](https://gssdataexplorer.norc.org/variables/5018/vshow).
+#' For further details see the [GSS Data Explorer page for `aidsreg2`](https://gssdataexplorer.norc.org/variables/5018/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -73,7 +73,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidswho3`](https://gssdataexplorer.norc.org/variables/5019/vshow).
+#' For further details see the [GSS Data Explorer page for `aidswho3`](https://gssdataexplorer.norc.org/variables/5019/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -109,7 +109,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidsded3`](https://gssdataexplorer.norc.org/variables/5020/vshow).
+#' For further details see the [GSS Data Explorer page for `aidsded3`](https://gssdataexplorer.norc.org/variables/5020/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -145,7 +145,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidssex3`](https://gssdataexplorer.norc.org/variables/5021/vshow).
+#' For further details see the [GSS Data Explorer page for `aidssex3`](https://gssdataexplorer.norc.org/variables/5021/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -183,7 +183,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidsage3`](https://gssdataexplorer.norc.org/variables/5022/vshow).
+#' For further details see the [GSS Data Explorer page for `aidsage3`](https://gssdataexplorer.norc.org/variables/5022/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidsrac3`](https://gssdataexplorer.norc.org/variables/5023/vshow).
+#' For further details see the [GSS Data Explorer page for `aidsrac3`](https://gssdataexplorer.norc.org/variables/5023/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -265,7 +265,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidsreg3`](https://gssdataexplorer.norc.org/variables/5024/vshow).
+#' For further details see the [GSS Data Explorer page for `aidsreg3`](https://gssdataexplorer.norc.org/variables/5024/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suiknew`](https://gssdataexplorer.norc.org/variables/5025/vshow).
+#' For further details see the [GSS Data Explorer page for `suiknew`](https://gssdataexplorer.norc.org/variables/5025/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suiwho`](https://gssdataexplorer.norc.org/variables/5026/vshow).
+#' For further details see the [GSS Data Explorer page for `suiwho`](https://gssdataexplorer.norc.org/variables/5026/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -372,7 +372,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suisex`](https://gssdataexplorer.norc.org/variables/5027/vshow).
+#' For further details see the [GSS Data Explorer page for `suisex`](https://gssdataexplorer.norc.org/variables/5027/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

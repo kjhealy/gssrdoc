@@ -24,7 +24,7 @@
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `homosex1`](https://gssdataexplorer.norc.org/variables/4632/vshow).
+#' For further details see the [GSS Data Explorer page for `homosex1`](https://gssdataexplorer.norc.org/variables/4632/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -59,7 +59,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abdefct1`](https://gssdataexplorer.norc.org/variables/4633/vshow).
+#' For further details see the [GSS Data Explorer page for `abdefct1`](https://gssdataexplorer.norc.org/variables/4633/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abpoor1`](https://gssdataexplorer.norc.org/variables/4634/vshow).
+#' For further details see the [GSS Data Explorer page for `abpoor1`](https://gssdataexplorer.norc.org/variables/4634/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -132,7 +132,7 @@ NULL
 #'  |2008 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abdefctw`](https://gssdataexplorer.norc.org/variables/4635/vshow).
+#' For further details see the [GSS Data Explorer page for `abdefctw`](https://gssdataexplorer.norc.org/variables/4635/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -170,7 +170,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abpoorw`](https://gssdataexplorer.norc.org/variables/4636/vshow).
+#' For further details see the [GSS Data Explorer page for `abpoorw`](https://gssdataexplorer.norc.org/variables/4636/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -206,7 +206,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taxcheat`](https://gssdataexplorer.norc.org/variables/4637/vshow).
+#' For further details see the [GSS Data Explorer page for `taxcheat`](https://gssdataexplorer.norc.org/variables/4637/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -242,7 +242,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govcheat`](https://gssdataexplorer.norc.org/variables/4638/vshow).
+#' For further details see the [GSS Data Explorer page for `govcheat`](https://gssdataexplorer.norc.org/variables/4638/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -281,7 +281,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `concong`](https://gssdataexplorer.norc.org/variables/4639/vshow).
+#' For further details see the [GSS Data Explorer page for `concong`](https://gssdataexplorer.norc.org/variables/4639/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -320,7 +320,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conbiz`](https://gssdataexplorer.norc.org/variables/4640/vshow).
+#' For further details see the [GSS Data Explorer page for `conbiz`](https://gssdataexplorer.norc.org/variables/4640/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -356,7 +356,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `congovt`](https://gssdataexplorer.norc.org/variables/4641/vshow).
+#' For further details see the [GSS Data Explorer page for `congovt`](https://gssdataexplorer.norc.org/variables/4641/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

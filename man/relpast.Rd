@@ -33,7 +33,7 @@ Question In America, religion represents the past and not the future.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7284/vshow}{GSS Data Explorer page for \code{relpast}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7284/vshow}{GSS Data Explorer page for \code{relpast}}.
 }
 
 \keyword{variable}

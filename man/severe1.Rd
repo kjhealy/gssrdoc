@@ -30,7 +30,7 @@ Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7130/vshow}{GSS Data Explorer page for \code{severe1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7130/vshow}{GSS Data Explorer page for \code{severe1}}.
 }
 
 \keyword{variable}

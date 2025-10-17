@@ -23,7 +23,7 @@
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maoth`](https://gssdataexplorer.norc.org/variables/1060/vshow).
+#' For further details see the [GSS Data Explorer page for `maoth`](https://gssdataexplorer.norc.org/variables/1060/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `majew`](https://gssdataexplorer.norc.org/variables/1061/vshow).
+#' For further details see the [GSS Data Explorer page for `majew`](https://gssdataexplorer.norc.org/variables/1061/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -93,7 +93,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mafund`](https://gssdataexplorer.norc.org/variables/1062/vshow).
+#' For further details see the [GSS Data Explorer page for `mafund`](https://gssdataexplorer.norc.org/variables/1062/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `parelig`](https://gssdataexplorer.norc.org/variables/1063/vshow).
+#' For further details see the [GSS Data Explorer page for `parelig`](https://gssdataexplorer.norc.org/variables/1063/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -186,7 +186,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paden`](https://gssdataexplorer.norc.org/variables/1064/vshow).
+#' For further details see the [GSS Data Explorer page for `paden`](https://gssdataexplorer.norc.org/variables/1064/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -223,7 +223,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paoth`](https://gssdataexplorer.norc.org/variables/1065/vshow).
+#' For further details see the [GSS Data Explorer page for `paoth`](https://gssdataexplorer.norc.org/variables/1065/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -260,7 +260,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pajew`](https://gssdataexplorer.norc.org/variables/1066/vshow).
+#' For further details see the [GSS Data Explorer page for `pajew`](https://gssdataexplorer.norc.org/variables/1066/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -293,7 +293,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pafund`](https://gssdataexplorer.norc.org/variables/1067/vshow).
+#' For further details see the [GSS Data Explorer page for `pafund`](https://gssdataexplorer.norc.org/variables/1067/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `churhsch`](https://gssdataexplorer.norc.org/variables/1068/vshow).
+#' For further details see the [GSS Data Explorer page for `churhsch`](https://gssdataexplorer.norc.org/variables/1068/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -366,7 +366,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sunsch16`](https://gssdataexplorer.norc.org/variables/1069/vshow).
+#' For further details see the [GSS Data Explorer page for `sunsch16`](https://gssdataexplorer.norc.org/variables/1069/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -33,7 +33,7 @@ Question Is (NAME 5), the fifth person, a man or a woman?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7099/vshow}{GSS Data Explorer page for \code{knwmw5}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7099/vshow}{GSS Data Explorer page for \code{knwmw5}}.
 }
 
 \keyword{variable}

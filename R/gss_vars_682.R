@@ -20,7 +20,7 @@
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rumopeer`](https://gssdataexplorer.norc.org/variables/8140/vshow).
+#' For further details see the [GSS Data Explorer page for `rumopeer`](https://gssdataexplorer.norc.org/variables/8140/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fighpeer`](https://gssdataexplorer.norc.org/variables/8134/vshow).
+#' For further details see the [GSS Data Explorer page for `fighpeer`](https://gssdataexplorer.norc.org/variables/8134/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `schshoot`](https://gssdataexplorer.norc.org/variables/8141/vshow).
+#' For further details see the [GSS Data Explorer page for `schshoot`](https://gssdataexplorer.norc.org/variables/8141/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cutself`](https://gssdataexplorer.norc.org/variables/8133/vshow).
+#' For further details see the [GSS Data Explorer page for `cutself`](https://gssdataexplorer.norc.org/variables/8133/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `negself`](https://gssdataexplorer.norc.org/variables/8137/vshow).
+#' For further details see the [GSS Data Explorer page for `negself`](https://gssdataexplorer.norc.org/variables/8137/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `foodalc`](https://gssdataexplorer.norc.org/variables/8135/vshow).
+#' For further details see the [GSS Data Explorer page for `foodalc`](https://gssdataexplorer.norc.org/variables/8135/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `risklife`](https://gssdataexplorer.norc.org/variables/8139/vshow).
+#' For further details see the [GSS Data Explorer page for `risklife`](https://gssdataexplorer.norc.org/variables/8139/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `takelife`](https://gssdataexplorer.norc.org/variables/8143/vshow).
+#' For further details see the [GSS Data Explorer page for `takelife`](https://gssdataexplorer.norc.org/variables/8143/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexornt1`](https://gssdataexplorer.norc.org/variables/8171/vshow).
+#' For further details see the [GSS Data Explorer page for `sexornt1`](https://gssdataexplorer.norc.org/variables/8171/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexpaid`](https://gssdataexplorer.norc.org/variables/8204/vshow).
+#' For further details see the [GSS Data Explorer page for `sexpaid`](https://gssdataexplorer.norc.org/variables/8204/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

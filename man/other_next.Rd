@@ -245,7 +245,7 @@ Question What specific denomination is that, if any?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8007/vshow}{GSS Data Explorer page for \code{other_next}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8007/vshow}{GSS Data Explorer page for \code{other_next}}.
 }
 
 \keyword{variable}

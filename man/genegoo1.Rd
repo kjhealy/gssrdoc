@@ -32,7 +32,7 @@ Others think it is a wonderful medical advance. Based on what you know, do you t
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5086/vshow}{GSS Data Explorer page for \code{genegoo1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5086/vshow}{GSS Data Explorer page for \code{genegoo1}}.
 }
 
 \seealso{
@@ -42,10 +42,7 @@ Other Genes:
 \code{\link{genedef2}},
 \code{\link{genedef3}},
 \code{\link{genegoo2}},
-\code{\link{genegood}},
-\code{\link{geneself}},
-\code{\link{genetest}},
-\code{\link{genetst1}}
+\code{\link{geneself}}
 }
 \concept{Genes}
 \keyword{variable}

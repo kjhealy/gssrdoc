@@ -21,7 +21,7 @@
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prayernv`](https://gssdataexplorer.norc.org/variables/7605/vshow).
+#' For further details see the [GSS Data Explorer page for `prayernv`](https://gssdataexplorer.norc.org/variables/7605/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `courtsnv`](https://gssdataexplorer.norc.org/variables/7606/vshow).
+#' For further details see the [GSS Data Explorer page for `courtsnv`](https://gssdataexplorer.norc.org/variables/7606/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -93,7 +93,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `discaffwnv`](https://gssdataexplorer.norc.org/variables/7607/vshow).
+#' For further details see the [GSS Data Explorer page for `discaffwnv`](https://gssdataexplorer.norc.org/variables/7607/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racopennv`](https://gssdataexplorer.norc.org/variables/7608/vshow).
+#' For further details see the [GSS Data Explorer page for `racopennv`](https://gssdataexplorer.norc.org/variables/7608/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -164,7 +164,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `getaheadnv`](https://gssdataexplorer.norc.org/variables/7609/vshow).
+#' For further details see the [GSS Data Explorer page for `getaheadnv`](https://gssdataexplorer.norc.org/variables/7609/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -199,7 +199,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divlawnv`](https://gssdataexplorer.norc.org/variables/7610/vshow).
+#' For further details see the [GSS Data Explorer page for `divlawnv`](https://gssdataexplorer.norc.org/variables/7610/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -234,7 +234,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpfulnv`](https://gssdataexplorer.norc.org/variables/7611/vshow).
+#' For further details see the [GSS Data Explorer page for `helpfulnv`](https://gssdataexplorer.norc.org/variables/7611/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fairnv`](https://gssdataexplorer.norc.org/variables/7612/vshow).
+#' For further details see the [GSS Data Explorer page for `fairnv`](https://gssdataexplorer.norc.org/variables/7612/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trustnv`](https://gssdataexplorer.norc.org/variables/7613/vshow).
+#' For further details see the [GSS Data Explorer page for `trustnv`](https://gssdataexplorer.norc.org/variables/7613/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agednv`](https://gssdataexplorer.norc.org/variables/7614/vshow).
+#' For further details see the [GSS Data Explorer page for `agednv`](https://gssdataexplorer.norc.org/variables/7614/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -30,7 +30,7 @@ Question As a result of the 9/11 terrorist attacks, do you think that gun contro
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3703/vshow}{GSS Data Explorer page for \code{guns911}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3703/vshow}{GSS Data Explorer page for \code{guns911}}.
 }
 
 \seealso{

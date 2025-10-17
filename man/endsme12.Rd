@@ -33,7 +33,7 @@ Question During the next 12 months, how difficult or easy do you think it will b
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7518/vshow}{GSS Data Explorer page for \code{endsme12}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7518/vshow}{GSS Data Explorer page for \code{endsme12}}.
 }
 
 \keyword{variable}

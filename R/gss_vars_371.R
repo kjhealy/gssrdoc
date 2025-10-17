@@ -24,7 +24,7 @@
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colsci`](https://gssdataexplorer.norc.org/variables/3349/vshow).
+#' For further details see the [GSS Data Explorer page for `colsci`](https://gssdataexplorer.norc.org/variables/3349/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -61,7 +61,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colscinm`](https://gssdataexplorer.norc.org/variables/3350/vshow).
+#' For further details see the [GSS Data Explorer page for `colscinm`](https://gssdataexplorer.norc.org/variables/3350/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -108,7 +108,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hsmath`](https://gssdataexplorer.norc.org/variables/3351/vshow).
+#' For further details see the [GSS Data Explorer page for `hsmath`](https://gssdataexplorer.norc.org/variables/3351/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hsbio`](https://gssdataexplorer.norc.org/variables/3352/vshow).
+#' For further details see the [GSS Data Explorer page for `hsbio`](https://gssdataexplorer.norc.org/variables/3352/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hschem`](https://gssdataexplorer.norc.org/variables/3353/vshow).
+#' For further details see the [GSS Data Explorer page for `hschem`](https://gssdataexplorer.norc.org/variables/3353/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -222,7 +222,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hsphys`](https://gssdataexplorer.norc.org/variables/3354/vshow).
+#' For further details see the [GSS Data Explorer page for `hsphys`](https://gssdataexplorer.norc.org/variables/3354/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gwsci`](https://gssdataexplorer.norc.org/variables/3355/vshow).
+#' For further details see the [GSS Data Explorer page for `gwsci`](https://gssdataexplorer.norc.org/variables/3355/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -290,7 +290,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gwpol`](https://gssdataexplorer.norc.org/variables/3356/vshow).
+#' For further details see the [GSS Data Explorer page for `gwpol`](https://gssdataexplorer.norc.org/variables/3356/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gwbiz`](https://gssdataexplorer.norc.org/variables/3357/vshow).
+#' For further details see the [GSS Data Explorer page for `gwbiz`](https://gssdataexplorer.norc.org/variables/3357/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -357,7 +357,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciagrgw`](https://gssdataexplorer.norc.org/variables/3358/vshow).
+#' For further details see the [GSS Data Explorer page for `sciagrgw`](https://gssdataexplorer.norc.org/variables/3358/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -21,7 +21,7 @@
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `geneprob`](https://gssdataexplorer.norc.org/variables/2924/vshow).
+#' For further details see the [GSS Data Explorer page for `geneprob`](https://gssdataexplorer.norc.org/variables/2924/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `raised`](https://gssdataexplorer.norc.org/variables/2925/vshow).
+#' For further details see the [GSS Data Explorer page for `raised`](https://gssdataexplorer.norc.org/variables/2925/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `violtv`](https://gssdataexplorer.norc.org/variables/2926/vshow).
+#' For further details see the [GSS Data Explorer page for `violtv`](https://gssdataexplorer.norc.org/variables/2926/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `discipln`](https://gssdataexplorer.norc.org/variables/2927/vshow).
+#' For further details see the [GSS Data Explorer page for `discipln`](https://gssdataexplorer.norc.org/variables/2927/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `allergic`](https://gssdataexplorer.norc.org/variables/2928/vshow).
+#' For further details see the [GSS Data Explorer page for `allergic`](https://gssdataexplorer.norc.org/variables/2928/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -195,7 +195,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bettrown`](https://gssdataexplorer.norc.org/variables/2929/vshow).
+#' For further details see the [GSS Data Explorer page for `bettrown`](https://gssdataexplorer.norc.org/variables/2929/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -229,7 +229,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `imprvdis`](https://gssdataexplorer.norc.org/variables/2930/vshow).
+#' For further details see the [GSS Data Explorer page for `imprvdis`](https://gssdataexplorer.norc.org/variables/2930/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -263,7 +263,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `imprveat`](https://gssdataexplorer.norc.org/variables/2931/vshow).
+#' For further details see the [GSS Data Explorer page for `imprveat`](https://gssdataexplorer.norc.org/variables/2931/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `imprvmed`](https://gssdataexplorer.norc.org/variables/2932/vshow).
+#' For further details see the [GSS Data Explorer page for `imprvmed`](https://gssdataexplorer.norc.org/variables/2932/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -332,7 +332,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nextdoor`](https://gssdataexplorer.norc.org/variables/2933/vshow).
+#' For further details see the [GSS Data Explorer page for `nextdoor`](https://gssdataexplorer.norc.org/variables/2933/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

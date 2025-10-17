@@ -20,7 +20,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advofrnd`](https://gssdataexplorer.norc.org/variables/2509/vshow).
+#' For further details see the [GSS Data Explorer page for `advofrnd`](https://gssdataexplorer.norc.org/variables/2509/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advlib`](https://gssdataexplorer.norc.org/variables/2510/vshow).
+#' For further details see the [GSS Data Explorer page for `advlib`](https://gssdataexplorer.norc.org/variables/2510/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `srcheng1`](https://gssdataexplorer.norc.org/variables/2511/vshow).
+#' For further details see the [GSS Data Explorer page for `srcheng1`](https://gssdataexplorer.norc.org/variables/2511/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -163,7 +163,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `srcheng2`](https://gssdataexplorer.norc.org/variables/2512/vshow).
+#' For further details see the [GSS Data Explorer page for `srcheng2`](https://gssdataexplorer.norc.org/variables/2512/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -198,7 +198,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `download`](https://gssdataexplorer.norc.org/variables/2513/vshow).
+#' For further details see the [GSS Data Explorer page for `download`](https://gssdataexplorer.norc.org/variables/2513/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -232,7 +232,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `upload`](https://gssdataexplorer.norc.org/variables/2514/vshow).
+#' For further details see the [GSS Data Explorer page for `upload`](https://gssdataexplorer.norc.org/variables/2514/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -265,7 +265,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cmpvirus`](https://gssdataexplorer.norc.org/variables/2515/vshow).
+#' For further details see the [GSS Data Explorer page for `cmpvirus`](https://gssdataexplorer.norc.org/variables/2515/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthinfo`](https://gssdataexplorer.norc.org/variables/2516/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthinfo`](https://gssdataexplorer.norc.org/variables/2516/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthpapr`](https://gssdataexplorer.norc.org/variables/2517/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthpapr`](https://gssdataexplorer.norc.org/variables/2517/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -375,7 +375,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthmag1`](https://gssdataexplorer.norc.org/variables/2518/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthmag1`](https://gssdataexplorer.norc.org/variables/2518/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

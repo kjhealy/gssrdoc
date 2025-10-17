@@ -32,7 +32,7 @@ Question As you know, many older people share a home with their grown children. 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7614/vshow}{GSS Data Explorer page for \code{agednv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7614/vshow}{GSS Data Explorer page for \code{agednv}}.
 }
 
 \keyword{variable}

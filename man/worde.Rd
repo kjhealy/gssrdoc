@@ -55,7 +55,7 @@ E. Word E
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5299/vshow}{GSS Data Explorer page for \code{worde}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5299/vshow}{GSS Data Explorer page for \code{worde}}.
 }
 
 \seealso{
@@ -66,10 +66,7 @@ Other Vocabulary:
 \code{\link{wordd}},
 \code{\link{wordf}},
 \code{\link{wordg}},
-\code{\link{wordh}},
-\code{\link{wordi}},
-\code{\link{wordj}},
-\code{\link{wordsum}}
+\code{\link{wordh}}
 }
 \concept{Vocabulary}
 \keyword{variable}

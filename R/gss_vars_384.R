@@ -20,7 +20,7 @@
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genes`](https://gssdataexplorer.norc.org/variables/3479/vshow).
+#' For further details see the [GSS Data Explorer page for `genes`](https://gssdataexplorer.norc.org/variables/3479/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gills`](https://gssdataexplorer.norc.org/variables/3480/vshow).
+#' For further details see the [GSS Data Explorer page for `gills`](https://gssdataexplorer.norc.org/variables/3480/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -89,7 +89,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `upbreath`](https://gssdataexplorer.norc.org/variables/3481/vshow).
+#' For further details see the [GSS Data Explorer page for `upbreath`](https://gssdataexplorer.norc.org/variables/3481/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `daynight`](https://gssdataexplorer.norc.org/variables/3482/vshow).
+#' For further details see the [GSS Data Explorer page for `daynight`](https://gssdataexplorer.norc.org/variables/3482/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -159,7 +159,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `weighing`](https://gssdataexplorer.norc.org/variables/3483/vshow).
+#' For further details see the [GSS Data Explorer page for `weighing`](https://gssdataexplorer.norc.org/variables/3483/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -194,7 +194,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `seesand`](https://gssdataexplorer.norc.org/variables/3484/vshow).
+#' For further details see the [GSS Data Explorer page for `seesand`](https://gssdataexplorer.norc.org/variables/3484/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -228,7 +228,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fishexp1`](https://gssdataexplorer.norc.org/variables/3485/vshow).
+#' For further details see the [GSS Data Explorer page for `fishexp1`](https://gssdataexplorer.norc.org/variables/3485/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fishexp2`](https://gssdataexplorer.norc.org/variables/3486/vshow).
+#' For further details see the [GSS Data Explorer page for `fishexp2`](https://gssdataexplorer.norc.org/variables/3486/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `morempg`](https://gssdataexplorer.norc.org/variables/3487/vshow).
+#' For further details see the [GSS Data Explorer page for `morempg`](https://gssdataexplorer.norc.org/variables/3487/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polnuke`](https://gssdataexplorer.norc.org/variables/3488/vshow).
+#' For further details see the [GSS Data Explorer page for `polnuke`](https://gssdataexplorer.norc.org/variables/3488/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

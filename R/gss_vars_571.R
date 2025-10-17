@@ -23,7 +23,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `punleak`](https://gssdataexplorer.norc.org/variables/5233/vshow).
+#' For further details see the [GSS Data Explorer page for `punleak`](https://gssdataexplorer.norc.org/variables/5233/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `punenmy`](https://gssdataexplorer.norc.org/variables/5234/vshow).
+#' For further details see the [GSS Data Explorer page for `punenmy`](https://gssdataexplorer.norc.org/variables/5234/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `punfrnd`](https://gssdataexplorer.norc.org/variables/5235/vshow).
+#' For further details see the [GSS Data Explorer page for `punfrnd`](https://gssdataexplorer.norc.org/variables/5235/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `puntrck`](https://gssdataexplorer.norc.org/variables/5236/vshow).
+#' For further details see the [GSS Data Explorer page for `puntrck`](https://gssdataexplorer.norc.org/variables/5236/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comsteal`](https://gssdataexplorer.norc.org/variables/5237/vshow).
+#' For further details see the [GSS Data Explorer page for `comsteal`](https://gssdataexplorer.norc.org/variables/5237/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comdata`](https://gssdataexplorer.norc.org/variables/5238/vshow).
+#' For further details see the [GSS Data Explorer page for `comdata`](https://gssdataexplorer.norc.org/variables/5238/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comsys`](https://gssdataexplorer.norc.org/variables/5239/vshow).
+#' For further details see the [GSS Data Explorer page for `comsys`](https://gssdataexplorer.norc.org/variables/5239/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comsnoop`](https://gssdataexplorer.norc.org/variables/5240/vshow).
+#' For further details see the [GSS Data Explorer page for `comsnoop`](https://gssdataexplorer.norc.org/variables/5240/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comemail`](https://gssdataexplorer.norc.org/variables/5241/vshow).
+#' For further details see the [GSS Data Explorer page for `comemail`](https://gssdataexplorer.norc.org/variables/5241/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -356,7 +356,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comporn`](https://gssdataexplorer.norc.org/variables/5242/vshow).
+#' For further details see the [GSS Data Explorer page for `comporn`](https://gssdataexplorer.norc.org/variables/5242/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

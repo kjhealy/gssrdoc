@@ -24,7 +24,7 @@
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pavisit`](https://gssdataexplorer.norc.org/variables/4132/vshow).
+#' For further details see the [GSS Data Explorer page for `pavisit`](https://gssdataexplorer.norc.org/variables/4132/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -63,7 +63,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `patime`](https://gssdataexplorer.norc.org/variables/4133/vshow).
+#' For further details see the [GSS Data Explorer page for `patime`](https://gssdataexplorer.norc.org/variables/4133/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -100,7 +100,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pacall`](https://gssdataexplorer.norc.org/variables/4134/vshow).
+#' For further details see the [GSS Data Explorer page for `pacall`](https://gssdataexplorer.norc.org/variables/4134/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -136,7 +136,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sisnum`](https://gssdataexplorer.norc.org/variables/4135/vshow).
+#' For further details see the [GSS Data Explorer page for `sisnum`](https://gssdataexplorer.norc.org/variables/4135/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -174,7 +174,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sisvisit`](https://gssdataexplorer.norc.org/variables/4136/vshow).
+#' For further details see the [GSS Data Explorer page for `sisvisit`](https://gssdataexplorer.norc.org/variables/4136/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -213,7 +213,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sistime`](https://gssdataexplorer.norc.org/variables/4137/vshow).
+#' For further details see the [GSS Data Explorer page for `sistime`](https://gssdataexplorer.norc.org/variables/4137/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `siscall`](https://gssdataexplorer.norc.org/variables/4138/vshow).
+#' For further details see the [GSS Data Explorer page for `siscall`](https://gssdataexplorer.norc.org/variables/4138/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -286,7 +286,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bronum`](https://gssdataexplorer.norc.org/variables/4139/vshow).
+#' For further details see the [GSS Data Explorer page for `bronum`](https://gssdataexplorer.norc.org/variables/4139/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brovisit`](https://gssdataexplorer.norc.org/variables/4140/vshow).
+#' For further details see the [GSS Data Explorer page for `brovisit`](https://gssdataexplorer.norc.org/variables/4140/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -363,7 +363,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brotime`](https://gssdataexplorer.norc.org/variables/4141/vshow).
+#' For further details see the [GSS Data Explorer page for `brotime`](https://gssdataexplorer.norc.org/variables/4141/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

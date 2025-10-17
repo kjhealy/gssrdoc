@@ -24,7 +24,7 @@
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lotr1`](https://gssdataexplorer.norc.org/variables/6197/vshow).
+#' For further details see the [GSS Data Explorer page for `lotr1`](https://gssdataexplorer.norc.org/variables/6197/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -61,7 +61,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lotr2`](https://gssdataexplorer.norc.org/variables/6198/vshow).
+#' For further details see the [GSS Data Explorer page for `lotr2`](https://gssdataexplorer.norc.org/variables/6198/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -98,7 +98,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lotr3`](https://gssdataexplorer.norc.org/variables/6199/vshow).
+#' For further details see the [GSS Data Explorer page for `lotr3`](https://gssdataexplorer.norc.org/variables/6199/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -135,7 +135,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lotr4`](https://gssdataexplorer.norc.org/variables/6200/vshow).
+#' For further details see the [GSS Data Explorer page for `lotr4`](https://gssdataexplorer.norc.org/variables/6200/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -172,7 +172,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lotr5`](https://gssdataexplorer.norc.org/variables/6201/vshow).
+#' For further details see the [GSS Data Explorer page for `lotr5`](https://gssdataexplorer.norc.org/variables/6201/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -209,7 +209,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lotr6`](https://gssdataexplorer.norc.org/variables/6202/vshow).
+#' For further details see the [GSS Data Explorer page for `lotr6`](https://gssdataexplorer.norc.org/variables/6202/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -249,7 +249,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hope1`](https://gssdataexplorer.norc.org/variables/6203/vshow).
+#' For further details see the [GSS Data Explorer page for `hope1`](https://gssdataexplorer.norc.org/variables/6203/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hope2`](https://gssdataexplorer.norc.org/variables/6204/vshow).
+#' For further details see the [GSS Data Explorer page for `hope2`](https://gssdataexplorer.norc.org/variables/6204/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -329,7 +329,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hope3`](https://gssdataexplorer.norc.org/variables/6205/vshow).
+#' For further details see the [GSS Data Explorer page for `hope3`](https://gssdataexplorer.norc.org/variables/6205/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -369,7 +369,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hope4`](https://gssdataexplorer.norc.org/variables/6206/vshow).
+#' For further details see the [GSS Data Explorer page for `hope4`](https://gssdataexplorer.norc.org/variables/6206/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

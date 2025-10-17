@@ -33,7 +33,7 @@ Question Governments should not interfere with the attempts of any religion to s
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7282/vshow}{GSS Data Explorer page for \code{govvsrel}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7282/vshow}{GSS Data Explorer page for \code{govvsrel}}.
 }
 
 \keyword{variable}

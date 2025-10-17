@@ -30,7 +30,7 @@ Question To clarify, are you the biological parent of at least one individual 18
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8021/vshow}{GSS Data Explorer page for \code{rbioprnt18}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8021/vshow}{GSS Data Explorer page for \code{rbioprnt18}}.
 }
 
 \keyword{variable}

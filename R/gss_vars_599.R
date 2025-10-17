@@ -23,7 +23,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cosei10inc`](https://gssdataexplorer.norc.org/variables/6360/vshow).
+#' For further details see the [GSS Data Explorer page for `cosei10inc`](https://gssdataexplorer.norc.org/variables/6360/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `copres10`](https://gssdataexplorer.norc.org/variables/6159/vshow).
+#' For further details see the [GSS Data Explorer page for `copres10`](https://gssdataexplorer.norc.org/variables/6159/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `copres105plus`](https://gssdataexplorer.norc.org/variables/6362/vshow).
+#' For further details see the [GSS Data Explorer page for `copres105plus`](https://gssdataexplorer.norc.org/variables/6362/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -139,7 +139,7 @@ NULL
 #'  |2016 |B       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uswar`](https://gssdataexplorer.norc.org/variables/5484/vshow).
+#' For further details see the [GSS Data Explorer page for `uswar`](https://gssdataexplorer.norc.org/variables/5484/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -193,7 +193,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uswary`](https://gssdataexplorer.norc.org/variables/5485/vshow).
+#' For further details see the [GSS Data Explorer page for `uswary`](https://gssdataexplorer.norc.org/variables/5485/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |2006 |D/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `usintl`](https://gssdataexplorer.norc.org/variables/5486/vshow).
+#' For further details see the [GSS Data Explorer page for `usintl`](https://gssdataexplorer.norc.org/variables/5486/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `usun`](https://gssdataexplorer.norc.org/variables/5487/vshow).
+#' For further details see the [GSS Data Explorer page for `usun`](https://gssdataexplorer.norc.org/variables/5487/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -333,7 +333,7 @@ NULL
 #'  |1994 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `commun`](https://gssdataexplorer.norc.org/variables/5488/vshow).
+#' For further details see the [GSS Data Explorer page for `commun`](https://gssdataexplorer.norc.org/variables/5488/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -367,7 +367,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `commun10`](https://gssdataexplorer.norc.org/variables/5489/vshow).
+#' For further details see the [GSS Data Explorer page for `commun10`](https://gssdataexplorer.norc.org/variables/5489/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -420,7 +420,7 @@ NULL
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `russia`](https://gssdataexplorer.norc.org/variables/5490/vshow).
+#' For further details see the [GSS Data Explorer page for `russia`](https://gssdataexplorer.norc.org/variables/5490/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

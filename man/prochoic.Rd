@@ -33,7 +33,7 @@ Question I consider myself pro-choice.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7542/vshow}{GSS Data Explorer page for \code{prochoic}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7542/vshow}{GSS Data Explorer page for \code{prochoic}}.
 }
 
 \keyword{variable}

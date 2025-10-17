@@ -29,7 +29,7 @@ Question TOTAL INCENTIVE FOR CASE, INCLUDING PRE- AND POST- INCENTIVE FOR BASELI
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7976/vshow}{GSS Data Explorer page for \code{totalincentive}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7976/vshow}{GSS Data Explorer page for \code{totalincentive}}.
 }
 
 \keyword{variable}

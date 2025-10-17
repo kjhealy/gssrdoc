@@ -33,7 +33,7 @@ Question What do you believe the income status of this housing unit is, relative
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6657/vshow}{GSS Data Explorer page for \code{incuspop}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6657/vshow}{GSS Data Explorer page for \code{incuspop}}.
 }
 
 \keyword{variable}

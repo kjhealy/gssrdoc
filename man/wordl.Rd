@@ -30,7 +30,7 @@ Question Please indicate the word that comes closest to the meaning of the word 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7762/vshow}{GSS Data Explorer page for \code{wordl}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7762/vshow}{GSS Data Explorer page for \code{wordl}}.
 }
 
 \keyword{variable}

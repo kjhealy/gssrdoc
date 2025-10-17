@@ -21,7 +21,7 @@
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tvbears`](https://gssdataexplorer.norc.org/variables/3419/vshow).
+#' For further details see the [GSS Data Explorer page for `tvbears`](https://gssdataexplorer.norc.org/variables/3419/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tvinuit`](https://gssdataexplorer.norc.org/variables/3420/vshow).
+#' For further details see the [GSS Data Explorer page for `tvinuit`](https://gssdataexplorer.norc.org/variables/3420/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tvozone`](https://gssdataexplorer.norc.org/variables/3421/vshow).
+#' For further details see the [GSS Data Explorer page for `tvozone`](https://gssdataexplorer.norc.org/variables/3421/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -125,7 +125,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tvmeltng`](https://gssdataexplorer.norc.org/variables/3422/vshow).
+#' For further details see the [GSS Data Explorer page for `tvmeltng`](https://gssdataexplorer.norc.org/variables/3422/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -160,7 +160,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tvoil`](https://gssdataexplorer.norc.org/variables/3423/vshow).
+#' For further details see the [GSS Data Explorer page for `tvoil`](https://gssdataexplorer.norc.org/variables/3423/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polaryr1`](https://gssdataexplorer.norc.org/variables/3424/vshow).
+#' For further details see the [GSS Data Explorer page for `polaryr1`](https://gssdataexplorer.norc.org/variables/3424/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -232,7 +232,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polaryr2`](https://gssdataexplorer.norc.org/variables/3425/vshow).
+#' For further details see the [GSS Data Explorer page for `polaryr2`](https://gssdataexplorer.norc.org/variables/3425/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polaryr3`](https://gssdataexplorer.norc.org/variables/3426/vshow).
+#' For further details see the [GSS Data Explorer page for `polaryr3`](https://gssdataexplorer.norc.org/variables/3426/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polaryr4`](https://gssdataexplorer.norc.org/variables/3427/vshow).
+#' For further details see the [GSS Data Explorer page for `polaryr4`](https://gssdataexplorer.norc.org/variables/3427/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -340,7 +340,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polaryr5`](https://gssdataexplorer.norc.org/variables/3428/vshow).
+#' For further details see the [GSS Data Explorer page for `polaryr5`](https://gssdataexplorer.norc.org/variables/3428/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -21,7 +21,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `faith2`](https://gssdataexplorer.norc.org/variables/1100/vshow).
+#' For further details see the [GSS Data Explorer page for `faith2`](https://gssdataexplorer.norc.org/variables/1100/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `faith3`](https://gssdataexplorer.norc.org/variables/1101/vshow).
+#' For further details see the [GSS Data Explorer page for `faith3`](https://gssdataexplorer.norc.org/variables/1101/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -89,7 +89,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `faith4`](https://gssdataexplorer.norc.org/variables/1102/vshow).
+#' For further details see the [GSS Data Explorer page for `faith4`](https://gssdataexplorer.norc.org/variables/1102/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frndcon1`](https://gssdataexplorer.norc.org/variables/1103/vshow).
+#' For further details see the [GSS Data Explorer page for `frndcon1`](https://gssdataexplorer.norc.org/variables/1103/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frndcon2`](https://gssdataexplorer.norc.org/variables/1104/vshow).
+#' For further details see the [GSS Data Explorer page for `frndcon2`](https://gssdataexplorer.norc.org/variables/1104/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -212,7 +212,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frndcon3`](https://gssdataexplorer.norc.org/variables/1105/vshow).
+#' For further details see the [GSS Data Explorer page for `frndcon3`](https://gssdataexplorer.norc.org/variables/1105/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -252,7 +252,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frndcon4`](https://gssdataexplorer.norc.org/variables/1106/vshow).
+#' For further details see the [GSS Data Explorer page for `frndcon4`](https://gssdataexplorer.norc.org/variables/1106/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frndcon5`](https://gssdataexplorer.norc.org/variables/1107/vshow).
+#' For further details see the [GSS Data Explorer page for `frndcon5`](https://gssdataexplorer.norc.org/variables/1107/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -329,7 +329,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frndrel1`](https://gssdataexplorer.norc.org/variables/1108/vshow).
+#' For further details see the [GSS Data Explorer page for `frndrel1`](https://gssdataexplorer.norc.org/variables/1108/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -366,7 +366,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frndrel2`](https://gssdataexplorer.norc.org/variables/1109/vshow).
+#' For further details see the [GSS Data Explorer page for `frndrel2`](https://gssdataexplorer.norc.org/variables/1109/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

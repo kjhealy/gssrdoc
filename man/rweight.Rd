@@ -34,7 +34,7 @@ Question How would you rate the respondent's weight?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6661/vshow}{GSS Data Explorer page for \code{rweight}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6661/vshow}{GSS Data Explorer page for \code{rweight}}.
 }
 
 \keyword{variable}

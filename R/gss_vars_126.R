@@ -20,7 +20,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whypoor1`](https://gssdataexplorer.norc.org/variables/1170/vshow).
+#' For further details see the [GSS Data Explorer page for `whypoor1`](https://gssdataexplorer.norc.org/variables/1170/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whypoor2`](https://gssdataexplorer.norc.org/variables/1171/vshow).
+#' For further details see the [GSS Data Explorer page for `whypoor2`](https://gssdataexplorer.norc.org/variables/1171/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whypoor3`](https://gssdataexplorer.norc.org/variables/1172/vshow).
+#' For further details see the [GSS Data Explorer page for `whypoor3`](https://gssdataexplorer.norc.org/variables/1172/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whypoor4`](https://gssdataexplorer.norc.org/variables/1173/vshow).
+#' For further details see the [GSS Data Explorer page for `whypoor4`](https://gssdataexplorer.norc.org/variables/1173/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -157,7 +157,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socdif1`](https://gssdataexplorer.norc.org/variables/1174/vshow).
+#' For further details see the [GSS Data Explorer page for `socdif1`](https://gssdataexplorer.norc.org/variables/1174/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socdif2`](https://gssdataexplorer.norc.org/variables/1175/vshow).
+#' For further details see the [GSS Data Explorer page for `socdif2`](https://gssdataexplorer.norc.org/variables/1175/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socdif3`](https://gssdataexplorer.norc.org/variables/1176/vshow).
+#' For further details see the [GSS Data Explorer page for `socdif3`](https://gssdataexplorer.norc.org/variables/1176/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socdif4`](https://gssdataexplorer.norc.org/variables/1177/vshow).
+#' For further details see the [GSS Data Explorer page for `socdif4`](https://gssdataexplorer.norc.org/variables/1177/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -311,7 +311,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wlthwhts`](https://gssdataexplorer.norc.org/variables/1178/vshow).
+#' For further details see the [GSS Data Explorer page for `wlthwhts`](https://gssdataexplorer.norc.org/variables/1178/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -345,7 +345,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wlthjews`](https://gssdataexplorer.norc.org/variables/1179/vshow).
+#' For further details see the [GSS Data Explorer page for `wlthjews`](https://gssdataexplorer.norc.org/variables/1179/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -20,7 +20,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advsp`](https://gssdataexplorer.norc.org/variables/2499/vshow).
+#' For further details see the [GSS Data Explorer page for `advsp`](https://gssdataexplorer.norc.org/variables/2499/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advchld`](https://gssdataexplorer.norc.org/variables/2500/vshow).
+#' For further details see the [GSS Data Explorer page for `advchld`](https://gssdataexplorer.norc.org/variables/2500/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advpar`](https://gssdataexplorer.norc.org/variables/2501/vshow).
+#' For further details see the [GSS Data Explorer page for `advpar`](https://gssdataexplorer.norc.org/variables/2501/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advsib`](https://gssdataexplorer.norc.org/variables/2502/vshow).
+#' For further details see the [GSS Data Explorer page for `advsib`](https://gssdataexplorer.norc.org/variables/2502/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advfam`](https://gssdataexplorer.norc.org/variables/2503/vshow).
+#' For further details see the [GSS Data Explorer page for `advfam`](https://gssdataexplorer.norc.org/variables/2503/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advtchr`](https://gssdataexplorer.norc.org/variables/2504/vshow).
+#' For further details see the [GSS Data Explorer page for `advtchr`](https://gssdataexplorer.norc.org/variables/2504/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advstu`](https://gssdataexplorer.norc.org/variables/2505/vshow).
+#' For further details see the [GSS Data Explorer page for `advstu`](https://gssdataexplorer.norc.org/variables/2505/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advsup`](https://gssdataexplorer.norc.org/variables/2506/vshow).
+#' For further details see the [GSS Data Explorer page for `advsup`](https://gssdataexplorer.norc.org/variables/2506/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advcowrk`](https://gssdataexplorer.norc.org/variables/2507/vshow).
+#' For further details see the [GSS Data Explorer page for `advcowrk`](https://gssdataexplorer.norc.org/variables/2507/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advcfrnd`](https://gssdataexplorer.norc.org/variables/2508/vshow).
+#' For further details see the [GSS Data Explorer page for `advcfrnd`](https://gssdataexplorer.norc.org/variables/2508/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

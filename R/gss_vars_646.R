@@ -21,7 +21,7 @@
 #'  |2022 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `univgndr`](https://gssdataexplorer.norc.org/variables/7784/vshow).
+#' For further details see the [GSS Data Explorer page for `univgndr`](https://gssdataexplorer.norc.org/variables/7784/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2022 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `execgndr`](https://gssdataexplorer.norc.org/variables/7785/vshow).
+#' For further details see the [GSS Data Explorer page for `execgndr`](https://gssdataexplorer.norc.org/variables/7785/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2022 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrfnce`](https://gssdataexplorer.norc.org/variables/7787/vshow).
+#' For further details see the [GSS Data Explorer page for `yrfnce`](https://gssdataexplorer.norc.org/variables/7787/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2022 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nmbrkids`](https://gssdataexplorer.norc.org/variables/7788/vshow).
+#' For further details see the [GSS Data Explorer page for `nmbrkids`](https://gssdataexplorer.norc.org/variables/7788/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -157,7 +157,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conhlth`](https://gssdataexplorer.norc.org/variables/7789/vshow).
+#' For further details see the [GSS Data Explorer page for `conhlth`](https://gssdataexplorer.norc.org/variables/7789/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthbtr`](https://gssdataexplorer.norc.org/variables/7790/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthbtr`](https://gssdataexplorer.norc.org/variables/7790/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthmore`](https://gssdataexplorer.norc.org/variables/7791/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthmore`](https://gssdataexplorer.norc.org/variables/7791/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthgov`](https://gssdataexplorer.norc.org/variables/7792/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthgov`](https://gssdataexplorer.norc.org/variables/7792/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthinf`](https://gssdataexplorer.norc.org/variables/7793/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthinf`](https://gssdataexplorer.norc.org/variables/7793/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -332,7 +332,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthtax`](https://gssdataexplorer.norc.org/variables/7794/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthtax`](https://gssdataexplorer.norc.org/variables/7794/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

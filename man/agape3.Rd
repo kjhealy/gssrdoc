@@ -34,12 +34,11 @@ C. I am usually willing to sacrifice my own wishes to let the one I love achieve
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3055/vshow}{GSS Data Explorer page for \code{agape3}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3055/vshow}{GSS Data Explorer page for \code{agape3}}.
 }
 
 \seealso{
 Other Altruistic Love: 
-\code{\link{agape1}},
 \code{\link{agape2}},
 \code{\link{agape4}}
 }

@@ -28,7 +28,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stockval1`](https://gssdataexplorer.norc.org/variables/7845/vshow).
+#' For further details see the [GSS Data Explorer page for `stockval1`](https://gssdataexplorer.norc.org/variables/7845/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stockyr`](https://gssdataexplorer.norc.org/variables/7846/vshow).
+#' For further details see the [GSS Data Explorer page for `stockyr`](https://gssdataexplorer.norc.org/variables/7846/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -102,7 +102,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stockyrval`](https://gssdataexplorer.norc.org/variables/7847/vshow).
+#' For further details see the [GSS Data Explorer page for `stockyrval`](https://gssdataexplorer.norc.org/variables/7847/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stockoptyr`](https://gssdataexplorer.norc.org/variables/7848/vshow).
+#' For further details see the [GSS Data Explorer page for `stockoptyr`](https://gssdataexplorer.norc.org/variables/7848/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -181,7 +181,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stoptyramt`](https://gssdataexplorer.norc.org/variables/7849/vshow).
+#' For further details see the [GSS Data Explorer page for `stoptyramt`](https://gssdataexplorer.norc.org/variables/7849/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -213,7 +213,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `extr2021`](https://gssdataexplorer.norc.org/variables/7850/vshow).
+#' For further details see the [GSS Data Explorer page for `extr2021`](https://gssdataexplorer.norc.org/variables/7850/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `extraval1`](https://gssdataexplorer.norc.org/variables/7851/vshow).
+#' For further details see the [GSS Data Explorer page for `extraval1`](https://gssdataexplorer.norc.org/variables/7851/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yearval1`](https://gssdataexplorer.norc.org/variables/8039/vshow).
+#' For further details see the [GSS Data Explorer page for `yearval1`](https://gssdataexplorer.norc.org/variables/8039/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -344,7 +344,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `numorg1`](https://gssdataexplorer.norc.org/variables/7852/vshow).
+#' For further details see the [GSS Data Explorer page for `numorg1`](https://gssdataexplorer.norc.org/variables/7852/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -379,7 +379,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `perfrt`](https://gssdataexplorer.norc.org/variables/7853/vshow).
+#' For further details see the [GSS Data Explorer page for `perfrt`](https://gssdataexplorer.norc.org/variables/7853/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

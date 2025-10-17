@@ -60,7 +60,7 @@ Question Date of interview.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5467/vshow}{GSS Data Explorer page for \code{dateintv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5467/vshow}{GSS Data Explorer page for \code{dateintv}}.
 }
 
 \concept{Date of Interview}

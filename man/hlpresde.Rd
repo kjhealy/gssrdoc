@@ -35,7 +35,7 @@ Question Who or where would you turn to first toï¿½ Help you if you needed to
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7252/vshow}{GSS Data Explorer page for \code{hlpresde}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7252/vshow}{GSS Data Explorer page for \code{hlpresde}}.
 }
 
 \keyword{variable}

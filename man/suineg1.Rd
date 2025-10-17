@@ -34,24 +34,14 @@ Question Was that person's death emotionally distressing to you?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6184/vshow}{GSS Data Explorer page for \code{suineg1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6184/vshow}{GSS Data Explorer page for \code{suineg1}}.
 }
 
 \seealso{
 Other Suicide: 
-\code{\link{suiclse1}},
-\code{\link{suiclse2}},
-\code{\link{suimths1}},
-\code{\link{suimths2}},
-\code{\link{suineg2}},
 \code{\link{suinum}},
 \code{\link{suinum1}},
-\code{\link{suirel1}},
-\code{\link{suirel2}},
-\code{\link{suitime1}},
-\code{\link{suitime2}},
-\code{\link{suiyrs1}},
-\code{\link{suiyrs2}}
+\code{\link{suirel1}}
 }
 \concept{Suicide}
 \keyword{variable}

@@ -25,7 +25,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hapcohab`](https://gssdataexplorer.norc.org/variables/436/vshow).
+#' For further details see the [GSS Data Explorer page for `hapcohab`](https://gssdataexplorer.norc.org/variables/436/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `health`](https://gssdataexplorer.norc.org/variables/437/vshow).
+#' For further details see the [GSS Data Explorer page for `health`](https://gssdataexplorer.norc.org/variables/437/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -152,7 +152,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `life`](https://gssdataexplorer.norc.org/variables/438/vshow).
+#' For further details see the [GSS Data Explorer page for `life`](https://gssdataexplorer.norc.org/variables/438/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpful`](https://gssdataexplorer.norc.org/variables/439/vshow).
+#' For further details see the [GSS Data Explorer page for `helpful`](https://gssdataexplorer.norc.org/variables/439/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -276,7 +276,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fair`](https://gssdataexplorer.norc.org/variables/440/vshow).
+#' For further details see the [GSS Data Explorer page for `fair`](https://gssdataexplorer.norc.org/variables/440/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trust`](https://gssdataexplorer.norc.org/variables/441/vshow).
+#' For further details see the [GSS Data Explorer page for `trust`](https://gssdataexplorer.norc.org/variables/441/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -370,7 +370,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trusty`](https://gssdataexplorer.norc.org/variables/442/vshow).
+#' For further details see the [GSS Data Explorer page for `trusty`](https://gssdataexplorer.norc.org/variables/442/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -402,7 +402,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trust1`](https://gssdataexplorer.norc.org/variables/6644/vshow).
+#' For further details see the [GSS Data Explorer page for `trust1`](https://gssdataexplorer.norc.org/variables/6644/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -457,7 +457,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `satcity`](https://gssdataexplorer.norc.org/variables/443/vshow).
+#' For further details see the [GSS Data Explorer page for `satcity`](https://gssdataexplorer.norc.org/variables/443/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -512,7 +512,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sathobby`](https://gssdataexplorer.norc.org/variables/444/vshow).
+#' For further details see the [GSS Data Explorer page for `sathobby`](https://gssdataexplorer.norc.org/variables/444/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

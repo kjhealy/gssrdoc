@@ -23,7 +23,7 @@
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlploan`](https://gssdataexplorer.norc.org/variables/7249/vshow).
+#' For further details see the [GSS Data Explorer page for `hlploan`](https://gssdataexplorer.norc.org/variables/7249/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlpjob`](https://gssdataexplorer.norc.org/variables/7250/vshow).
+#' For further details see the [GSS Data Explorer page for `hlpjob`](https://gssdataexplorer.norc.org/variables/7250/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlppaper`](https://gssdataexplorer.norc.org/variables/7251/vshow).
+#' For further details see the [GSS Data Explorer page for `hlppaper`](https://gssdataexplorer.norc.org/variables/7251/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlpresde`](https://gssdataexplorer.norc.org/variables/7252/vshow).
+#' For further details see the [GSS Data Explorer page for `hlpresde`](https://gssdataexplorer.norc.org/variables/7252/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlpsickr`](https://gssdataexplorer.norc.org/variables/7253/vshow).
+#' For further details see the [GSS Data Explorer page for `hlpsickr`](https://gssdataexplorer.norc.org/variables/7253/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -206,7 +206,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lonely1`](https://gssdataexplorer.norc.org/variables/7254/vshow).
+#' For further details see the [GSS Data Explorer page for `lonely1`](https://gssdataexplorer.norc.org/variables/7254/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -241,7 +241,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lonely2`](https://gssdataexplorer.norc.org/variables/7255/vshow).
+#' For further details see the [GSS Data Explorer page for `lonely2`](https://gssdataexplorer.norc.org/variables/7255/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -276,7 +276,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lonely3`](https://gssdataexplorer.norc.org/variables/7256/vshow).
+#' For further details see the [GSS Data Explorer page for `lonely3`](https://gssdataexplorer.norc.org/variables/7256/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -308,7 +308,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trcourts`](https://gssdataexplorer.norc.org/variables/7257/vshow).
+#' For further details see the [GSS Data Explorer page for `trcourts`](https://gssdataexplorer.norc.org/variables/7257/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -340,7 +340,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trbigbus`](https://gssdataexplorer.norc.org/variables/7258/vshow).
+#' For further details see the [GSS Data Explorer page for `trbigbus`](https://gssdataexplorer.norc.org/variables/7258/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -30,7 +30,7 @@ Question Think of a score of 1 as meaning that major companies ought to reduce t
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7546/vshow}{GSS Data Explorer page for \code{buseqinc}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7546/vshow}{GSS Data Explorer page for \code{buseqinc}}.
 }
 
 \keyword{variable}

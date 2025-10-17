@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  American India
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7720/vshow}{GSS Data Explorer page for \code{ethregion81}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7720/vshow}{GSS Data Explorer page for \code{ethregion81}}.
 }
 
 \keyword{variable}

@@ -38,7 +38,7 @@ Question Please think about the parent you have contact with most frequently: Ho
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7265/vshow}{GSS Data Explorer page for \code{cntctpar}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7265/vshow}{GSS Data Explorer page for \code{cntctpar}}.
 }
 
 \keyword{variable}

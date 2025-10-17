@@ -33,7 +33,7 @@ Question In America, religion is just as relevant to life today as it was in the
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7285/vshow}{GSS Data Explorer page for \code{relrlvnt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7285/vshow}{GSS Data Explorer page for \code{relrlvnt}}.
 }
 
 \keyword{variable}

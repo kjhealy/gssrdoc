@@ -35,7 +35,7 @@
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socpars`](https://gssdataexplorer.norc.org/variables/525/vshow).
+#' For further details see the [GSS Data Explorer page for `socpars`](https://gssdataexplorer.norc.org/variables/525/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -84,7 +84,7 @@ NULL
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socsibs`](https://gssdataexplorer.norc.org/variables/526/vshow).
+#' For further details see the [GSS Data Explorer page for `socsibs`](https://gssdataexplorer.norc.org/variables/526/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -145,7 +145,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aged`](https://gssdataexplorer.norc.org/variables/527/vshow).
+#' For further details see the [GSS Data Explorer page for `aged`](https://gssdataexplorer.norc.org/variables/527/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -178,7 +178,7 @@ NULL
 #'  |2016 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agedpar`](https://gssdataexplorer.norc.org/variables/6174/vshow).
+#' For further details see the [GSS Data Explorer page for `agedpar`](https://gssdataexplorer.norc.org/variables/6174/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |2016 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agedchld`](https://gssdataexplorer.norc.org/variables/6175/vshow).
+#' For further details see the [GSS Data Explorer page for `agedchld`](https://gssdataexplorer.norc.org/variables/6175/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -257,7 +257,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `weekswrk`](https://gssdataexplorer.norc.org/variables/528/vshow).
+#' For further details see the [GSS Data Explorer page for `weekswrk`](https://gssdataexplorer.norc.org/variables/528/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -305,7 +305,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partfull`](https://gssdataexplorer.norc.org/variables/529/vshow).
+#' For further details see the [GSS Data Explorer page for `partfull`](https://gssdataexplorer.norc.org/variables/529/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -349,7 +349,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `drink`](https://gssdataexplorer.norc.org/variables/530/vshow).
+#' For further details see the [GSS Data Explorer page for `drink`](https://gssdataexplorer.norc.org/variables/530/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -394,7 +394,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `drunk`](https://gssdataexplorer.norc.org/variables/531/vshow).
+#' For further details see the [GSS Data Explorer page for `drunk`](https://gssdataexplorer.norc.org/variables/531/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -438,7 +438,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `smoke`](https://gssdataexplorer.norc.org/variables/532/vshow).
+#' For further details see the [GSS Data Explorer page for `smoke`](https://gssdataexplorer.norc.org/variables/532/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

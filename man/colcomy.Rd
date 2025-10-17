@@ -32,7 +32,7 @@ Question (Now, we would like to ask you some questions about a self-identified C
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7439/vshow}{GSS Data Explorer page for \code{colcomy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7439/vshow}{GSS Data Explorer page for \code{colcomy}}.
 }
 
 \keyword{variable}

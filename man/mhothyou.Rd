@@ -32,13 +32,11 @@ Question How much distress did this personâ€™s mental health problem cause 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3566/vshow}{GSS Data Explorer page for \code{mhothyou}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3566/vshow}{GSS Data Explorer page for \code{mhothyou}}.
 }
 
 \seealso{
 Other Mental Health III: 
-\code{\link{avoidmh}},
-\code{\link{gesttalk}},
 \code{\link{mhothrel}},
 \code{\link{mhtrtoth}},
 \code{\link{seemhpub}},

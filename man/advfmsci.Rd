@@ -33,7 +33,7 @@ Question All of the greatest advances for humanity have come from science and te
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7541/vshow}{GSS Data Explorer page for \code{advfmsci}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7541/vshow}{GSS Data Explorer page for \code{advfmsci}}.
 }
 
 \keyword{variable}

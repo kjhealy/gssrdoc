@@ -19,7 +19,7 @@
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suiclse1`](https://gssdataexplorer.norc.org/variables/6185/vshow).
+#' For further details see the [GSS Data Explorer page for `suiclse1`](https://gssdataexplorer.norc.org/variables/6185/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suitime1`](https://gssdataexplorer.norc.org/variables/6186/vshow).
+#' For further details see the [GSS Data Explorer page for `suitime1`](https://gssdataexplorer.norc.org/variables/6186/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -84,7 +84,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suimths1`](https://gssdataexplorer.norc.org/variables/6187/vshow).
+#' For further details see the [GSS Data Explorer page for `suimths1`](https://gssdataexplorer.norc.org/variables/6187/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -115,7 +115,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suiyrs1`](https://gssdataexplorer.norc.org/variables/6188/vshow).
+#' For further details see the [GSS Data Explorer page for `suiyrs1`](https://gssdataexplorer.norc.org/variables/6188/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -167,7 +167,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suirel2`](https://gssdataexplorer.norc.org/variables/6189/vshow).
+#' For further details see the [GSS Data Explorer page for `suirel2`](https://gssdataexplorer.norc.org/variables/6189/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -203,7 +203,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suineg2`](https://gssdataexplorer.norc.org/variables/6190/vshow).
+#' For further details see the [GSS Data Explorer page for `suineg2`](https://gssdataexplorer.norc.org/variables/6190/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -236,7 +236,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suiclse2`](https://gssdataexplorer.norc.org/variables/6191/vshow).
+#' For further details see the [GSS Data Explorer page for `suiclse2`](https://gssdataexplorer.norc.org/variables/6191/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -269,7 +269,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suitime2`](https://gssdataexplorer.norc.org/variables/6192/vshow).
+#' For further details see the [GSS Data Explorer page for `suitime2`](https://gssdataexplorer.norc.org/variables/6192/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suimths2`](https://gssdataexplorer.norc.org/variables/6193/vshow).
+#' For further details see the [GSS Data Explorer page for `suimths2`](https://gssdataexplorer.norc.org/variables/6193/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -332,7 +332,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suiyrs2`](https://gssdataexplorer.norc.org/variables/6194/vshow).
+#' For further details see the [GSS Data Explorer page for `suiyrs2`](https://gssdataexplorer.norc.org/variables/6194/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

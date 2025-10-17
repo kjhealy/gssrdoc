@@ -20,7 +20,7 @@
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paytaxes`](https://gssdataexplorer.norc.org/variables/4908/vshow).
+#' For further details see the [GSS Data Explorer page for `paytaxes`](https://gssdataexplorer.norc.org/variables/4908/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obeylaws`](https://gssdataexplorer.norc.org/variables/4909/vshow).
+#' For further details see the [GSS Data Explorer page for `obeylaws`](https://gssdataexplorer.norc.org/variables/4909/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `watchgov`](https://gssdataexplorer.norc.org/variables/4910/vshow).
+#' For further details see the [GSS Data Explorer page for `watchgov`](https://gssdataexplorer.norc.org/variables/4910/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `actassoc`](https://gssdataexplorer.norc.org/variables/4911/vshow).
+#' For further details see the [GSS Data Explorer page for `actassoc`](https://gssdataexplorer.norc.org/variables/4911/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othreasn`](https://gssdataexplorer.norc.org/variables/4912/vshow).
+#' For further details see the [GSS Data Explorer page for `othreasn`](https://gssdataexplorer.norc.org/variables/4912/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `buypol`](https://gssdataexplorer.norc.org/variables/4913/vshow).
+#' For further details see the [GSS Data Explorer page for `buypol`](https://gssdataexplorer.norc.org/variables/4913/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpusa`](https://gssdataexplorer.norc.org/variables/4914/vshow).
+#' For further details see the [GSS Data Explorer page for `helpusa`](https://gssdataexplorer.norc.org/variables/4914/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpwrld`](https://gssdataexplorer.norc.org/variables/4915/vshow).
+#' For further details see the [GSS Data Explorer page for `helpwrld`](https://gssdataexplorer.norc.org/variables/4915/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `milserve`](https://gssdataexplorer.norc.org/variables/4916/vshow).
+#' For further details see the [GSS Data Explorer page for `milserve`](https://gssdataexplorer.norc.org/variables/4916/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relmeet`](https://gssdataexplorer.norc.org/variables/4917/vshow).
+#' For further details see the [GSS Data Explorer page for `relmeet`](https://gssdataexplorer.norc.org/variables/4917/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -33,13 +33,11 @@ Question Do you believe your fixed annual wages in calendar year 2005 were highe
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3554/vshow}{GSS Data Explorer page for \code{compwage}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3554/vshow}{GSS Data Explorer page for \code{compwage}}.
 }
 
 \seealso{
 Other Shared Capitalism: 
-\code{\link{buyvalue}},
-\code{\link{defpensn}},
 \code{\link{empinput}},
 \code{\link{emptrain}},
 \code{\link{esop}},
@@ -48,7 +46,6 @@ Other Shared Capitalism:
 \code{\link{ops2005}},
 \code{\link{slfmangd}},
 \code{\link{talkteam}},
-\code{\link{trdestck}},
 \code{\link{wealth}}
 }
 \concept{Shared Capitalism}

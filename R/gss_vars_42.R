@@ -48,7 +48,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `coden`](https://gssdataexplorer.norc.org/variables/6170/vshow).
+#' For further details see the [GSS Data Explorer page for `coden`](https://gssdataexplorer.norc.org/variables/6170/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -300,7 +300,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `coother`](https://gssdataexplorer.norc.org/variables/6171/vshow).
+#' For further details see the [GSS Data Explorer page for `coother`](https://gssdataexplorer.norc.org/variables/6171/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -340,7 +340,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cojew`](https://gssdataexplorer.norc.org/variables/6172/vshow).
+#' For further details see the [GSS Data Explorer page for `cojew`](https://gssdataexplorer.norc.org/variables/6172/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -378,7 +378,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cofund`](https://gssdataexplorer.norc.org/variables/6173/vshow).
+#' For further details see the [GSS Data Explorer page for `cofund`](https://gssdataexplorer.norc.org/variables/6173/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -413,7 +413,7 @@ NULL
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tithing`](https://gssdataexplorer.norc.org/variables/360/vshow).
+#' For further details see the [GSS Data Explorer page for `tithing`](https://gssdataexplorer.norc.org/variables/360/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -471,7 +471,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prayer`](https://gssdataexplorer.norc.org/variables/361/vshow).
+#' For further details see the [GSS Data Explorer page for `prayer`](https://gssdataexplorer.norc.org/variables/361/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -504,7 +504,7 @@ NULL
 #'  |1974 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prayery`](https://gssdataexplorer.norc.org/variables/362/vshow).
+#' For further details see the [GSS Data Explorer page for `prayery`](https://gssdataexplorer.norc.org/variables/362/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -542,7 +542,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prayerx`](https://gssdataexplorer.norc.org/variables/363/vshow).
+#' For further details see the [GSS Data Explorer page for `prayerx`](https://gssdataexplorer.norc.org/variables/363/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -599,7 +599,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bible`](https://gssdataexplorer.norc.org/variables/364/vshow).
+#' For further details see the [GSS Data Explorer page for `bible`](https://gssdataexplorer.norc.org/variables/364/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -640,7 +640,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bibley`](https://gssdataexplorer.norc.org/variables/365/vshow).
+#' For further details see the [GSS Data Explorer page for `bibley`](https://gssdataexplorer.norc.org/variables/365/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

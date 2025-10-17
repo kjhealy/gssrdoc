@@ -33,7 +33,7 @@ Question (People suffer from severe health problems...) Because of the environme
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7802/vshow}{GSS Data Explorer page for \code{hlthenv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7802/vshow}{GSS Data Explorer page for \code{hlthenv}}.
 }
 
 \keyword{variable}

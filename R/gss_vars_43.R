@@ -30,7 +30,7 @@
 #'  |2002 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `world1`](https://gssdataexplorer.norc.org/variables/366/vshow).
+#' For further details see the [GSS Data Explorer page for `world1`](https://gssdataexplorer.norc.org/variables/366/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -64,7 +64,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `world2`](https://gssdataexplorer.norc.org/variables/367/vshow).
+#' For further details see the [GSS Data Explorer page for `world2`](https://gssdataexplorer.norc.org/variables/367/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -98,7 +98,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `world3`](https://gssdataexplorer.norc.org/variables/368/vshow).
+#' For further details see the [GSS Data Explorer page for `world3`](https://gssdataexplorer.norc.org/variables/368/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -140,7 +140,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `world4`](https://gssdataexplorer.norc.org/variables/369/vshow).
+#' For further details see the [GSS Data Explorer page for `world4`](https://gssdataexplorer.norc.org/variables/369/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -174,7 +174,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `world5`](https://gssdataexplorer.norc.org/variables/370/vshow).
+#' For further details see the [GSS Data Explorer page for `world5`](https://gssdataexplorer.norc.org/variables/370/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `world6`](https://gssdataexplorer.norc.org/variables/371/vshow).
+#' For further details see the [GSS Data Explorer page for `world6`](https://gssdataexplorer.norc.org/variables/371/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -242,7 +242,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `world7`](https://gssdataexplorer.norc.org/variables/372/vshow).
+#' For further details see the [GSS Data Explorer page for `world7`](https://gssdataexplorer.norc.org/variables/372/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -276,7 +276,7 @@ NULL
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libtemp`](https://gssdataexplorer.norc.org/variables/373/vshow).
+#' For further details see the [GSS Data Explorer page for `libtemp`](https://gssdataexplorer.norc.org/variables/373/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contemp`](https://gssdataexplorer.norc.org/variables/374/vshow).
+#' For further details see the [GSS Data Explorer page for `contemp`](https://gssdataexplorer.norc.org/variables/374/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -345,7 +345,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prottemp`](https://gssdataexplorer.norc.org/variables/375/vshow).
+#' For further details see the [GSS Data Explorer page for `prottemp`](https://gssdataexplorer.norc.org/variables/375/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

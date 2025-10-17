@@ -19,7 +19,7 @@
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eldcost`](https://gssdataexplorer.norc.org/variables/4472/vshow).
+#' For further details see the [GSS Data Explorer page for `eldcost`](https://gssdataexplorer.norc.org/variables/4472/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hhclean1`](https://gssdataexplorer.norc.org/variables/4473/vshow).
+#' For further details see the [GSS Data Explorer page for `hhclean1`](https://gssdataexplorer.norc.org/variables/4473/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wkndact`](https://gssdataexplorer.norc.org/variables/4474/vshow).
+#' For further details see the [GSS Data Explorer page for `wkndact`](https://gssdataexplorer.norc.org/variables/4474/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -129,7 +129,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tiredhm1`](https://gssdataexplorer.norc.org/variables/4475/vshow).
+#' For further details see the [GSS Data Explorer page for `tiredhm1`](https://gssdataexplorer.norc.org/variables/4475/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobvsfa1`](https://gssdataexplorer.norc.org/variables/4476/vshow).
+#' For further details see the [GSS Data Explorer page for `jobvsfa1`](https://gssdataexplorer.norc.org/variables/4476/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -203,7 +203,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tiredwk1`](https://gssdataexplorer.norc.org/variables/4477/vshow).
+#' For further details see the [GSS Data Explorer page for `tiredwk1`](https://gssdataexplorer.norc.org/variables/4477/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famvswk1`](https://gssdataexplorer.norc.org/variables/4478/vshow).
+#' For further details see the [GSS Data Explorer page for `famvswk1`](https://gssdataexplorer.norc.org/variables/4478/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wkkidscl`](https://gssdataexplorer.norc.org/variables/4479/vshow).
+#' For further details see the [GSS Data Explorer page for `wkkidscl`](https://gssdataexplorer.norc.org/variables/4479/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -308,7 +308,7 @@ NULL
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wkyngscl`](https://gssdataexplorer.norc.org/variables/4480/vshow).
+#' For further details see the [GSS Data Explorer page for `wkyngscl`](https://gssdataexplorer.norc.org/variables/4480/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -342,7 +342,7 @@ NULL
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wkkidscs`](https://gssdataexplorer.norc.org/variables/4481/vshow).
+#' For further details see the [GSS Data Explorer page for `wkkidscs`](https://gssdataexplorer.norc.org/variables/4481/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

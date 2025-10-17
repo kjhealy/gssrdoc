@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  Egypt
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7668/vshow}{GSS Data Explorer page for \code{ethregion29}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7668/vshow}{GSS Data Explorer page for \code{ethregion29}}.
 }
 
 \keyword{variable}

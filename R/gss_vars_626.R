@@ -20,7 +20,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `raceacs13`](https://gssdataexplorer.norc.org/variables/7462/vshow).
+#' For further details see the [GSS Data Explorer page for `raceacs13`](https://gssdataexplorer.norc.org/variables/7462/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -73,7 +73,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `raceacs14`](https://gssdataexplorer.norc.org/variables/7463/vshow).
+#' For further details see the [GSS Data Explorer page for `raceacs14`](https://gssdataexplorer.norc.org/variables/7463/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -107,7 +107,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `raceacs15`](https://gssdataexplorer.norc.org/variables/7464/vshow).
+#' For further details see the [GSS Data Explorer page for `raceacs15`](https://gssdataexplorer.norc.org/variables/7464/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -141,7 +141,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `raceacs16`](https://gssdataexplorer.norc.org/variables/7465/vshow).
+#' For further details see the [GSS Data Explorer page for `raceacs16`](https://gssdataexplorer.norc.org/variables/7465/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -174,7 +174,7 @@ NULL
 #'  |2022 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abdefectg`](https://gssdataexplorer.norc.org/variables/7466/vshow).
+#' For further details see the [GSS Data Explorer page for `abdefectg`](https://gssdataexplorer.norc.org/variables/7466/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -207,7 +207,7 @@ NULL
 #'  |2022 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abnomoreg`](https://gssdataexplorer.norc.org/variables/7467/vshow).
+#' For further details see the [GSS Data Explorer page for `abnomoreg`](https://gssdataexplorer.norc.org/variables/7467/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |2022 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abhlthg`](https://gssdataexplorer.norc.org/variables/7468/vshow).
+#' For further details see the [GSS Data Explorer page for `abhlthg`](https://gssdataexplorer.norc.org/variables/7468/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -273,7 +273,7 @@ NULL
 #'  |2022 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abpoorg`](https://gssdataexplorer.norc.org/variables/7469/vshow).
+#' For further details see the [GSS Data Explorer page for `abpoorg`](https://gssdataexplorer.norc.org/variables/7469/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |2022 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abrapeg`](https://gssdataexplorer.norc.org/variables/7470/vshow).
+#' For further details see the [GSS Data Explorer page for `abrapeg`](https://gssdataexplorer.norc.org/variables/7470/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -339,7 +339,7 @@ NULL
 #'  |2022 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `absingleg`](https://gssdataexplorer.norc.org/variables/7471/vshow).
+#' For further details see the [GSS Data Explorer page for `absingleg`](https://gssdataexplorer.norc.org/variables/7471/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

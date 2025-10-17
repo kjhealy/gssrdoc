@@ -65,7 +65,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intage`](https://gssdataexplorer.norc.org/variables/5563/vshow).
+#' For further details see the [GSS Data Explorer page for `intage`](https://gssdataexplorer.norc.org/variables/5563/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -100,7 +100,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `easyget`](https://gssdataexplorer.norc.org/variables/5564/vshow).
+#' For further details see the [GSS Data Explorer page for `easyget`](https://gssdataexplorer.norc.org/variables/5564/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -143,7 +143,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intethn`](https://gssdataexplorer.norc.org/variables/5565/vshow).
+#' For further details see the [GSS Data Explorer page for `intethn`](https://gssdataexplorer.norc.org/variables/5565/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mode`](https://gssdataexplorer.norc.org/variables/5566/vshow).
+#' For further details see the [GSS Data Explorer page for `mode`](https://gssdataexplorer.norc.org/variables/5566/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intsex`](https://gssdataexplorer.norc.org/variables/5567/vshow).
+#' For further details see the [GSS Data Explorer page for `intsex`](https://gssdataexplorer.norc.org/variables/5567/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -302,7 +302,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `consent`](https://gssdataexplorer.norc.org/variables/5569/vshow).
+#' For further details see the [GSS Data Explorer page for `consent`](https://gssdataexplorer.norc.org/variables/5569/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -336,7 +336,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `adminconsent`](https://gssdataexplorer.norc.org/variables/7425/vshow).
+#' For further details see the [GSS Data Explorer page for `adminconsent`](https://gssdataexplorer.norc.org/variables/7425/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -370,7 +370,7 @@ NULL
 #'  |2008 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pilloky`](https://gssdataexplorer.norc.org/variables/5570/vshow).
+#' For further details see the [GSS Data Explorer page for `pilloky`](https://gssdataexplorer.norc.org/variables/5570/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

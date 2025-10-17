@@ -35,7 +35,7 @@ Question Who would you turn to first to~. Be there for you if you felt a bit dow
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7246/vshow}{GSS Data Explorer page for \code{hlpdown}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7246/vshow}{GSS Data Explorer page for \code{hlpdown}}.
 }
 
 \keyword{variable}

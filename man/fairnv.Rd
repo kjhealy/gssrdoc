@@ -32,7 +32,7 @@ Question Do you think most people would try to take advantage of you if they got
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7612/vshow}{GSS Data Explorer page for \code{fairnv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7612/vshow}{GSS Data Explorer page for \code{fairnv}}.
 }
 
 \keyword{variable}

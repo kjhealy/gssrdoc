@@ -32,7 +32,7 @@ Question Was your father born in this country?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7477/vshow}{GSS Data Explorer page for \code{paborn}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7477/vshow}{GSS Data Explorer page for \code{paborn}}.
 }
 
 \keyword{variable}

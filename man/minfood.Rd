@@ -29,19 +29,12 @@ Question Now more specifically, thinking about that family of four at the "pover
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5203/vshow}{GSS Data Explorer page for \code{minfood}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5203/vshow}{GSS Data Explorer page for \code{minfood}}.
 }
 
 \seealso{
 Other Income: 
-\code{\link{coninc}},
-\code{\link{conrinc}},
-\code{\link{incdef}},
-\code{\link{minfour}},
-\code{\link{minthree}},
-\code{\link{povline}},
-\code{\link{realinc}},
-\code{\link{realrinc}}
+\code{\link{minthree}}
 }
 \concept{Income}
 \keyword{variable}

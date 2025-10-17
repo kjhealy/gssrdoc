@@ -32,7 +32,7 @@ If some people in your community suggested that a book this person wrote against
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7435/vshow}{GSS Data Explorer page for \code{libathy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7435/vshow}{GSS Data Explorer page for \code{libathy}}.
 }
 
 \keyword{variable}

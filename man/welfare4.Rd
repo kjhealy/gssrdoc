@@ -34,14 +34,11 @@ D. Helps keep people''s marriage together in times of financial problems?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5501/vshow}{GSS Data Explorer page for \code{welfare4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5501/vshow}{GSS Data Explorer page for \code{welfare4}}.
 }
 
 \seealso{
 Other Welfare: 
-\code{\link{welfare1}},
-\code{\link{welfare2}},
-\code{\link{welfare3}},
 \code{\link{welfare5}},
 \code{\link{welfare6}}
 }

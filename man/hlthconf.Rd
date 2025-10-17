@@ -33,7 +33,7 @@ Question (During the past 4 weeks how often...) Have you lost confidence in your
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7823/vshow}{GSS Data Explorer page for \code{hlthconf}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7823/vshow}{GSS Data Explorer page for \code{hlthconf}}.
 }
 
 \keyword{variable}

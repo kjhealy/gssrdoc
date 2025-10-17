@@ -30,7 +30,7 @@ Question Using the following scale ranging from 0 to 10, where 0 means ï¿½No 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7258/vshow}{GSS Data Explorer page for \code{trbigbus}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7258/vshow}{GSS Data Explorer page for \code{trbigbus}}.
 }
 
 \keyword{variable}

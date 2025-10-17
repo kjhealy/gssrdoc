@@ -20,7 +20,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caninf1`](https://gssdataexplorer.norc.org/variables/2984/vshow).
+#' For further details see the [GSS Data Explorer page for `caninf1`](https://gssdataexplorer.norc.org/variables/2984/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caninf2`](https://gssdataexplorer.norc.org/variables/2985/vshow).
+#' For further details see the [GSS Data Explorer page for `caninf2`](https://gssdataexplorer.norc.org/variables/2985/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caninf3`](https://gssdataexplorer.norc.org/variables/2986/vshow).
+#' For further details see the [GSS Data Explorer page for `caninf3`](https://gssdataexplorer.norc.org/variables/2986/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caninf4`](https://gssdataexplorer.norc.org/variables/2987/vshow).
+#' For further details see the [GSS Data Explorer page for `caninf4`](https://gssdataexplorer.norc.org/variables/2987/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caninf5`](https://gssdataexplorer.norc.org/variables/2988/vshow).
+#' For further details see the [GSS Data Explorer page for `caninf5`](https://gssdataexplorer.norc.org/variables/2988/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caninf6`](https://gssdataexplorer.norc.org/variables/2989/vshow).
+#' For further details see the [GSS Data Explorer page for `caninf6`](https://gssdataexplorer.norc.org/variables/2989/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caninf7`](https://gssdataexplorer.norc.org/variables/2990/vshow).
+#' For further details see the [GSS Data Explorer page for `caninf7`](https://gssdataexplorer.norc.org/variables/2990/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caninf8`](https://gssdataexplorer.norc.org/variables/2991/vshow).
+#' For further details see the [GSS Data Explorer page for `caninf8`](https://gssdataexplorer.norc.org/variables/2991/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caninf9`](https://gssdataexplorer.norc.org/variables/2992/vshow).
+#' For further details see the [GSS Data Explorer page for `caninf9`](https://gssdataexplorer.norc.org/variables/2992/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caninf10`](https://gssdataexplorer.norc.org/variables/2993/vshow).
+#' For further details see the [GSS Data Explorer page for `caninf10`](https://gssdataexplorer.norc.org/variables/2993/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -22,7 +22,7 @@
 #'  |2000 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givfctry`](https://gssdataexplorer.norc.org/variables/4292/vshow).
+#' For further details see the [GSS Data Explorer page for `givfctry`](https://gssdataexplorer.norc.org/variables/4292/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givjudge`](https://gssdataexplorer.norc.org/variables/4293/vshow).
+#' For further details see the [GSS Data Explorer page for `givjudge`](https://gssdataexplorer.norc.org/variables/4293/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givrocc`](https://gssdataexplorer.norc.org/variables/4294/vshow).
+#' For further details see the [GSS Data Explorer page for `givrocc`](https://gssdataexplorer.norc.org/variables/4294/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -135,7 +135,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `incgap`](https://gssdataexplorer.norc.org/variables/4295/vshow).
+#' For further details see the [GSS Data Explorer page for `incgap`](https://gssdataexplorer.norc.org/variables/4295/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -180,7 +180,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `goveqinc`](https://gssdataexplorer.norc.org/variables/4296/vshow).
+#' For further details see the [GSS Data Explorer page for `goveqinc`](https://gssdataexplorer.norc.org/variables/4296/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -216,7 +216,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govedop`](https://gssdataexplorer.norc.org/variables/4297/vshow).
+#' For further details see the [GSS Data Explorer page for `govedop`](https://gssdataexplorer.norc.org/variables/4297/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -252,7 +252,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govjobs`](https://gssdataexplorer.norc.org/variables/4298/vshow).
+#' For further details see the [GSS Data Explorer page for `govjobs`](https://gssdataexplorer.norc.org/variables/4298/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govless`](https://gssdataexplorer.norc.org/variables/4299/vshow).
+#' For further details see the [GSS Data Explorer page for `govless`](https://gssdataexplorer.norc.org/variables/4299/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -325,7 +325,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govunemp`](https://gssdataexplorer.norc.org/variables/4300/vshow).
+#' For further details see the [GSS Data Explorer page for `govunemp`](https://gssdataexplorer.norc.org/variables/4300/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -361,7 +361,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govminc`](https://gssdataexplorer.norc.org/variables/4301/vshow).
+#' For further details see the [GSS Data Explorer page for `govminc`](https://gssdataexplorer.norc.org/variables/4301/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

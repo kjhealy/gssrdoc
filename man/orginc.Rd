@@ -33,7 +33,7 @@ Question How do you and your (spousepartfill) organize the income that one or bo
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7774/vshow}{GSS Data Explorer page for \code{orginc}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7774/vshow}{GSS Data Explorer page for \code{orginc}}.
 }
 
 \keyword{variable}

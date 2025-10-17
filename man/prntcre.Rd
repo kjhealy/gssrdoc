@@ -33,7 +33,7 @@ Question (In your opinion, which parent should do the following? Who should...) 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7769/vshow}{GSS Data Explorer page for \code{prntcre}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7769/vshow}{GSS Data Explorer page for \code{prntcre}}.
 }
 
 \keyword{variable}

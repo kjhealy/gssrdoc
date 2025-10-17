@@ -34,17 +34,13 @@ A. â€¦is outgoing, sociable
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/4979/vshow}{GSS Data Explorer page for \code{big5a2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4979/vshow}{GSS Data Explorer page for \code{big5a2}}.
 }
 
 \seealso{
 Other Big 5: 
-\code{\link{big5a1}},
-\code{\link{big5b1}},
 \code{\link{big5b2}},
-\code{\link{big5c1}},
 \code{\link{big5c2}},
-\code{\link{big5d1}},
 \code{\link{big5d2}},
 \code{\link{big5e1}},
 \code{\link{big5e2}}

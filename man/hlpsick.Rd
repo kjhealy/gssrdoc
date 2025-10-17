@@ -35,7 +35,7 @@ Question Who would you turn to first toï¿½. Help you around your home if you 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7245/vshow}{GSS Data Explorer page for \code{hlpsick}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7245/vshow}{GSS Data Explorer page for \code{hlpsick}}.
 }
 
 \keyword{variable}

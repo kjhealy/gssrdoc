@@ -30,7 +30,7 @@ Question C. Generally speaking, would you say that most people can be trusted or
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6644/vshow}{GSS Data Explorer page for \code{trust1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6644/vshow}{GSS Data Explorer page for \code{trust1}}.
 }
 
 \keyword{variable}

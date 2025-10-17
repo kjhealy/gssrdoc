@@ -18,7 +18,7 @@
 #'  |2016 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `leasthrs`](https://gssdataexplorer.norc.org/variables/6294/vshow).
+#' For further details see the [GSS Data Explorer page for `leasthrs`](https://gssdataexplorer.norc.org/variables/6294/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2016 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sethrs`](https://gssdataexplorer.norc.org/variables/6295/vshow).
+#' For further details see the [GSS Data Explorer page for `sethrs`](https://gssdataexplorer.norc.org/variables/6295/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2016 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advsched`](https://gssdataexplorer.norc.org/variables/6296/vshow).
+#' For further details see the [GSS Data Explorer page for `advsched`](https://gssdataexplorer.norc.org/variables/6296/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -132,7 +132,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrktype`](https://gssdataexplorer.norc.org/variables/2760/vshow).
+#' For further details see the [GSS Data Explorer page for `wrktype`](https://gssdataexplorer.norc.org/variables/2760/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -168,7 +168,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yearsjob`](https://gssdataexplorer.norc.org/variables/2761/vshow).
+#' For further details see the [GSS Data Explorer page for `yearsjob`](https://gssdataexplorer.norc.org/variables/2761/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -215,7 +215,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `waypaid`](https://gssdataexplorer.norc.org/variables/2762/vshow).
+#' For further details see the [GSS Data Explorer page for `waypaid`](https://gssdataexplorer.norc.org/variables/2762/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrksched`](https://gssdataexplorer.norc.org/variables/2763/vshow).
+#' For further details see the [GSS Data Explorer page for `wrksched`](https://gssdataexplorer.norc.org/variables/2763/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `moredays`](https://gssdataexplorer.norc.org/variables/2764/vshow).
+#' For further details see the [GSS Data Explorer page for `moredays`](https://gssdataexplorer.norc.org/variables/2764/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -329,7 +329,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mustwork`](https://gssdataexplorer.norc.org/variables/2765/vshow).
+#' For further details see the [GSS Data Explorer page for `mustwork`](https://gssdataexplorer.norc.org/variables/2765/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -368,7 +368,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chngtme`](https://gssdataexplorer.norc.org/variables/2766/vshow).
+#' For further details see the [GSS Data Explorer page for `chngtme`](https://gssdataexplorer.norc.org/variables/2766/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

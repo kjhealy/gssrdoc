@@ -23,7 +23,7 @@
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlf1`](https://gssdataexplorer.norc.org/variables/301/vshow).
+#' For further details see the [GSS Data Explorer page for `postlf1`](https://gssdataexplorer.norc.org/variables/301/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlf2`](https://gssdataexplorer.norc.org/variables/302/vshow).
+#' For further details see the [GSS Data Explorer page for `postlf2`](https://gssdataexplorer.norc.org/variables/302/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlf3`](https://gssdataexplorer.norc.org/variables/303/vshow).
+#' For further details see the [GSS Data Explorer page for `postlf3`](https://gssdataexplorer.norc.org/variables/303/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlf4`](https://gssdataexplorer.norc.org/variables/304/vshow).
+#' For further details see the [GSS Data Explorer page for `postlf4`](https://gssdataexplorer.norc.org/variables/304/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlf5`](https://gssdataexplorer.norc.org/variables/305/vshow).
+#' For further details see the [GSS Data Explorer page for `postlf5`](https://gssdataexplorer.norc.org/variables/305/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlf6`](https://gssdataexplorer.norc.org/variables/306/vshow).
+#' For further details see the [GSS Data Explorer page for `postlf6`](https://gssdataexplorer.norc.org/variables/306/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlf7`](https://gssdataexplorer.norc.org/variables/307/vshow).
+#' For further details see the [GSS Data Explorer page for `postlf7`](https://gssdataexplorer.norc.org/variables/307/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlf8`](https://gssdataexplorer.norc.org/variables/308/vshow).
+#' For further details see the [GSS Data Explorer page for `postlf8`](https://gssdataexplorer.norc.org/variables/308/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlf9`](https://gssdataexplorer.norc.org/variables/309/vshow).
+#' For further details see the [GSS Data Explorer page for `postlf9`](https://gssdataexplorer.norc.org/variables/309/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -356,7 +356,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlf10`](https://gssdataexplorer.norc.org/variables/310/vshow).
+#' For further details see the [GSS Data Explorer page for `postlf10`](https://gssdataexplorer.norc.org/variables/310/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -32,7 +32,7 @@ Question Over the last 2 weeks, how often have you been bothered by the followin
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7862/vshow}{GSS Data Explorer page for \code{nointerest}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7862/vshow}{GSS Data Explorer page for \code{nointerest}}.
 }
 
 \keyword{variable}

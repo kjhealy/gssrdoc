@@ -30,7 +30,7 @@ Question (Did/Does) your (spouse/partner) work in their own family business or f
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7749/vshow}{GSS Data Explorer page for \code{spwrkslf2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7749/vshow}{GSS Data Explorer page for \code{spwrkslf2}}.
 }
 
 \keyword{variable}

@@ -32,14 +32,12 @@ Question A. Are you a member of an Employee Stock Ownership Plan commonly called
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3561/vshow}{GSS Data Explorer page for \code{esop}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3561/vshow}{GSS Data Explorer page for \code{esop}}.
 }
 
 \seealso{
 Other Shared Capitalism: 
-\code{\link{buyvalue}},
 \code{\link{compwage}},
-\code{\link{defpensn}},
 \code{\link{empinput}},
 \code{\link{emptrain}},
 \code{\link{extr2005}},
@@ -47,7 +45,6 @@ Other Shared Capitalism:
 \code{\link{ops2005}},
 \code{\link{slfmangd}},
 \code{\link{talkteam}},
-\code{\link{trdestck}},
 \code{\link{wealth}}
 }
 \concept{Shared Capitalism}

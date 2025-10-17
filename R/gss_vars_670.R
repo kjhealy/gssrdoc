@@ -105,7 +105,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `neaeligible`](https://gssdataexplorer.norc.org/variables/8108/vshow).
+#' For further details see the [GSS Data Explorer page for `neaeligible`](https://gssdataexplorer.norc.org/variables/8108/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -137,7 +137,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nexteligible`](https://gssdataexplorer.norc.org/variables/8109/vshow).
+#' For further details see the [GSS Data Explorer page for `nexteligible`](https://gssdataexplorer.norc.org/variables/8109/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -169,7 +169,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pawrkgrw`](https://gssdataexplorer.norc.org/variables/8201/vshow).
+#' For further details see the [GSS Data Explorer page for `pawrkgrw`](https://gssdataexplorer.norc.org/variables/8201/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -204,7 +204,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conlabory`](https://gssdataexplorer.norc.org/variables/8113/vshow).
+#' For further details see the [GSS Data Explorer page for `conlabory`](https://gssdataexplorer.norc.org/variables/8113/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -237,7 +237,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racdif5`](https://gssdataexplorer.norc.org/variables/8202/vshow).
+#' For further details see the [GSS Data Explorer page for `racdif5`](https://gssdataexplorer.norc.org/variables/8202/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -272,7 +272,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marsamey`](https://gssdataexplorer.norc.org/variables/8058/vshow).
+#' For further details see the [GSS Data Explorer page for `marsamey`](https://gssdataexplorer.norc.org/variables/8058/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mobiledata`](https://gssdataexplorer.norc.org/variables/8196/vshow).
+#' For further details see the [GSS Data Explorer page for `mobiledata`](https://gssdataexplorer.norc.org/variables/8196/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

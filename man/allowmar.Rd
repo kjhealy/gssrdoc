@@ -30,16 +30,12 @@ Question F. Do you think the law should allow marriages between blacks and white
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/4989/vshow}{GSS Data Explorer page for \code{allowmar}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4989/vshow}{GSS Data Explorer page for \code{allowmar}}.
 }
 
 \seealso{
 Other Civil Liberties: 
-\code{\link{allowcom}},
-\code{\link{allowrac}},
-\code{\link{forbdcom}},
-\code{\link{forbdmar}},
-\code{\link{forbdrac}}
+\code{\link{allowrac}}
 }
 \concept{Civil Liberties}
 \keyword{variable}

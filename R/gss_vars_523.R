@@ -26,7 +26,7 @@
 #'  |2018 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `indusgen`](https://gssdataexplorer.norc.org/variables/4758/vshow).
+#' For further details see the [GSS Data Explorer page for `indusgen`](https://gssdataexplorer.norc.org/variables/4758/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -63,7 +63,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `indusfam`](https://gssdataexplorer.norc.org/variables/4759/vshow).
+#' For further details see the [GSS Data Explorer page for `indusfam`](https://gssdataexplorer.norc.org/variables/4759/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -103,7 +103,7 @@ NULL
 #'  |2018 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chemgen`](https://gssdataexplorer.norc.org/variables/4760/vshow).
+#' For further details see the [GSS Data Explorer page for `chemgen`](https://gssdataexplorer.norc.org/variables/4760/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -140,7 +140,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chemfam`](https://gssdataexplorer.norc.org/variables/4761/vshow).
+#' For further details see the [GSS Data Explorer page for `chemfam`](https://gssdataexplorer.norc.org/variables/4761/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -180,7 +180,7 @@ NULL
 #'  |2018 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `watergen`](https://gssdataexplorer.norc.org/variables/4762/vshow).
+#' For further details see the [GSS Data Explorer page for `watergen`](https://gssdataexplorer.norc.org/variables/4762/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `waterfam`](https://gssdataexplorer.norc.org/variables/4763/vshow).
+#' For further details see the [GSS Data Explorer page for `waterfam`](https://gssdataexplorer.norc.org/variables/4763/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -257,7 +257,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tempgen`](https://gssdataexplorer.norc.org/variables/4764/vshow).
+#' For further details see the [GSS Data Explorer page for `tempgen`](https://gssdataexplorer.norc.org/variables/4764/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -294,7 +294,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tempfam`](https://gssdataexplorer.norc.org/variables/4765/vshow).
+#' For further details see the [GSS Data Explorer page for `tempfam`](https://gssdataexplorer.norc.org/variables/4765/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -329,7 +329,7 @@ NULL
 #'  |2010 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pubdecid`](https://gssdataexplorer.norc.org/variables/4766/vshow).
+#' For further details see the [GSS Data Explorer page for `pubdecid`](https://gssdataexplorer.norc.org/variables/4766/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -364,7 +364,7 @@ NULL
 #'  |2010 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `busdecid`](https://gssdataexplorer.norc.org/variables/4767/vshow).
+#' For further details see the [GSS Data Explorer page for `busdecid`](https://gssdataexplorer.norc.org/variables/4767/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

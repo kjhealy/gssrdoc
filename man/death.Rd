@@ -51,7 +51,7 @@ Question Respondent's possible vital status as of 2014
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7426/vshow}{GSS Data Explorer page for \code{death}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7426/vshow}{GSS Data Explorer page for \code{death}}.
 }
 
 \keyword{variable}

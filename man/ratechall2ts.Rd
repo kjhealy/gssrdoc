@@ -29,28 +29,15 @@ Question (Recode of RATECHALL224)
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8094/vshow}{GSS Data Explorer page for \code{ratechall2ts}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8094/vshow}{GSS Data Explorer page for \code{ratechall2ts}}.
 }
 
 \seealso{
 Other ANES: 
-\code{\link{econstat}},
-\code{\link{lkelyvot}},
-\code{\link{polintrst}},
-\code{\link{ratechall124}},
 \code{\link{ratechall1ts}},
-\code{\link{ratechall224}},
-\code{\link{ratechall324}},
 \code{\link{ratechall3ts}},
-\code{\link{ratedemp}},
-\code{\link{rateincumb24}},
 \code{\link{rateincumbts}},
-\code{\link{ratemaga}},
-\code{\link{raterepp}},
-\code{\link{satdemoc}},
 \code{\link{voteprob}},
-\code{\link{whovote24}},
-\code{\link{whovote24a}},
 \code{\link{whovotets}}
 }
 \concept{ANES}

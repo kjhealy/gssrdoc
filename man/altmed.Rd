@@ -33,7 +33,7 @@ Question How much do you agree or disagree with the following statement? Alterna
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7805/vshow}{GSS Data Explorer page for \code{altmed}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7805/vshow}{GSS Data Explorer page for \code{altmed}}.
 }
 
 \keyword{variable}

@@ -120,7 +120,7 @@
 #'  |2008 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `densp`](https://gssdataexplorer.norc.org/variables/4672/vshow).
+#' For further details see the [GSS Data Explorer page for `densp`](https://gssdataexplorer.norc.org/variables/4672/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -163,7 +163,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `attendma`](https://gssdataexplorer.norc.org/variables/4673/vshow).
+#' For further details see the [GSS Data Explorer page for `attendma`](https://gssdataexplorer.norc.org/variables/4673/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -206,7 +206,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `attendpa`](https://gssdataexplorer.norc.org/variables/4674/vshow).
+#' For further details see the [GSS Data Explorer page for `attendpa`](https://gssdataexplorer.norc.org/variables/4674/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -248,7 +248,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `attend12`](https://gssdataexplorer.norc.org/variables/4675/vshow).
+#' For further details see the [GSS Data Explorer page for `attend12`](https://gssdataexplorer.norc.org/variables/4675/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prayfreq`](https://gssdataexplorer.norc.org/variables/4676/vshow).
+#' For further details see the [GSS Data Explorer page for `prayfreq`](https://gssdataexplorer.norc.org/variables/4676/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -344,7 +344,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relactiv`](https://gssdataexplorer.norc.org/variables/4677/vshow).
+#' For further details see the [GSS Data Explorer page for `relactiv`](https://gssdataexplorer.norc.org/variables/4677/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -385,7 +385,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relactiv1`](https://gssdataexplorer.norc.org/variables/4678/vshow).
+#' For further details see the [GSS Data Explorer page for `relactiv1`](https://gssdataexplorer.norc.org/variables/4678/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -417,7 +417,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relscrpt`](https://gssdataexplorer.norc.org/variables/7278/vshow).
+#' For further details see the [GSS Data Explorer page for `relscrpt`](https://gssdataexplorer.norc.org/variables/7278/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -457,7 +457,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `feelrel`](https://gssdataexplorer.norc.org/variables/4679/vshow).
+#' For further details see the [GSS Data Explorer page for `feelrel`](https://gssdataexplorer.norc.org/variables/4679/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -491,7 +491,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `schlpray`](https://gssdataexplorer.norc.org/variables/4680/vshow).
+#' For further details see the [GSS Data Explorer page for `schlpray`](https://gssdataexplorer.norc.org/variables/4680/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

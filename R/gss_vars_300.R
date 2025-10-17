@@ -21,7 +21,7 @@
 #'  |2000 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emotrely`](https://gssdataexplorer.norc.org/variables/2723/vshow).
+#' For further details see the [GSS Data Explorer page for `emotrely`](https://gssdataexplorer.norc.org/variables/2723/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2000 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emotfeel`](https://gssdataexplorer.norc.org/variables/2724/vshow).
+#' For further details see the [GSS Data Explorer page for `emotfeel`](https://gssdataexplorer.norc.org/variables/2724/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethimp`](https://gssdataexplorer.norc.org/variables/2725/vshow).
+#' For further details see the [GSS Data Explorer page for `ethimp`](https://gssdataexplorer.norc.org/variables/2725/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethignor`](https://gssdataexplorer.norc.org/variables/2726/vshow).
+#' For further details see the [GSS Data Explorer page for `ethignor`](https://gssdataexplorer.norc.org/variables/2726/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -162,7 +162,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethnofit`](https://gssdataexplorer.norc.org/variables/2727/vshow).
+#' For further details see the [GSS Data Explorer page for `ethnofit`](https://gssdataexplorer.norc.org/variables/2727/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -198,7 +198,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethtrads`](https://gssdataexplorer.norc.org/variables/2728/vshow).
+#' For further details see the [GSS Data Explorer page for `ethtrads`](https://gssdataexplorer.norc.org/variables/2728/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -234,7 +234,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethadapt`](https://gssdataexplorer.norc.org/variables/2729/vshow).
+#' For further details see the [GSS Data Explorer page for `ethadapt`](https://gssdataexplorer.norc.org/variables/2729/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `feelblks`](https://gssdataexplorer.norc.org/variables/2730/vshow).
+#' For further details see the [GSS Data Explorer page for `feelblks`](https://gssdataexplorer.norc.org/variables/2730/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `feelasns`](https://gssdataexplorer.norc.org/variables/2731/vshow).
+#' For further details see the [GSS Data Explorer page for `feelasns`](https://gssdataexplorer.norc.org/variables/2731/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `feelhsps`](https://gssdataexplorer.norc.org/variables/2732/vshow).
+#' For further details see the [GSS Data Explorer page for `feelhsps`](https://gssdataexplorer.norc.org/variables/2732/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

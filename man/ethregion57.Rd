@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  Other Middle E
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7696/vshow}{GSS Data Explorer page for \code{ethregion57}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7696/vshow}{GSS Data Explorer page for \code{ethregion57}}.
 }
 
 \keyword{variable}

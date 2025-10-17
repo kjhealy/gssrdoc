@@ -30,7 +30,7 @@ Question Do you have a hearing problem that prevents you from hearing what is sa
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3712/vshow}{GSS Data Explorer page for \code{disabld1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3712/vshow}{GSS Data Explorer page for \code{disabld1}}.
 }
 
 \seealso{

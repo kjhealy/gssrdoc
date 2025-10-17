@@ -38,7 +38,7 @@ C.) The Bible is an ancient book of fables, legends, history, and moral precepts
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7597/vshow}{GSS Data Explorer page for \code{biblev}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7597/vshow}{GSS Data Explorer page for \code{biblev}}.
 }
 
 \keyword{variable}

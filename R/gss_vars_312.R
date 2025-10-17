@@ -23,7 +23,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `slpprblm`](https://gssdataexplorer.norc.org/variables/2837/vshow).
+#' For further details see the [GSS Data Explorer page for `slpprblm`](https://gssdataexplorer.norc.org/variables/2837/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -62,7 +62,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `satjob1`](https://gssdataexplorer.norc.org/variables/2838/vshow).
+#' For further details see the [GSS Data Explorer page for `satjob1`](https://gssdataexplorer.norc.org/variables/2838/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -99,7 +99,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knowschd`](https://gssdataexplorer.norc.org/variables/2839/vshow).
+#' For further details see the [GSS Data Explorer page for `knowschd`](https://gssdataexplorer.norc.org/variables/2839/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -132,7 +132,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `usetech`](https://gssdataexplorer.norc.org/variables/2840/vshow).
+#' For further details see the [GSS Data Explorer page for `usetech`](https://gssdataexplorer.norc.org/variables/2840/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stress12`](https://gssdataexplorer.norc.org/variables/2841/vshow).
+#' For further details see the [GSS Data Explorer page for `stress12`](https://gssdataexplorer.norc.org/variables/2841/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -201,7 +201,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hyperten`](https://gssdataexplorer.norc.org/variables/2842/vshow).
+#' For further details see the [GSS Data Explorer page for `hyperten`](https://gssdataexplorer.norc.org/variables/2842/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -236,7 +236,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `arthrtis`](https://gssdataexplorer.norc.org/variables/2843/vshow).
+#' For further details see the [GSS Data Explorer page for `arthrtis`](https://gssdataexplorer.norc.org/variables/2843/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -271,7 +271,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `diabetes`](https://gssdataexplorer.norc.org/variables/2844/vshow).
+#' For further details see the [GSS Data Explorer page for `diabetes`](https://gssdataexplorer.norc.org/variables/2844/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `depress`](https://gssdataexplorer.norc.org/variables/2845/vshow).
+#' For further details see the [GSS Data Explorer page for `depress`](https://gssdataexplorer.norc.org/variables/2845/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -339,7 +339,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `weight`](https://gssdataexplorer.norc.org/variables/2846/vshow).
+#' For further details see the [GSS Data Explorer page for `weight`](https://gssdataexplorer.norc.org/variables/2846/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

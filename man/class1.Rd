@@ -34,7 +34,7 @@ Question Most people see themselves as belonging to a particular class. Please t
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7520/vshow}{GSS Data Explorer page for \code{class1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7520/vshow}{GSS Data Explorer page for \code{class1}}.
 }
 
 \keyword{variable}

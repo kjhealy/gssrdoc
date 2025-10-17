@@ -32,7 +32,7 @@ Question How fair or unfair do you think the income distribution is in America?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7515/vshow}{GSS Data Explorer page for \code{fairdist}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7515/vshow}{GSS Data Explorer page for \code{fairdist}}.
 }
 
 \keyword{variable}

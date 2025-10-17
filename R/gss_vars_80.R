@@ -20,7 +20,7 @@
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `erawhy1`](https://gssdataexplorer.norc.org/variables/711/vshow).
+#' For further details see the [GSS Data Explorer page for `erawhy1`](https://gssdataexplorer.norc.org/variables/711/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `erawhy2`](https://gssdataexplorer.norc.org/variables/712/vshow).
+#' For further details see the [GSS Data Explorer page for `erawhy2`](https://gssdataexplorer.norc.org/variables/712/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `erawhy3`](https://gssdataexplorer.norc.org/variables/713/vshow).
+#' For further details see the [GSS Data Explorer page for `erawhy3`](https://gssdataexplorer.norc.org/variables/713/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eraimp`](https://gssdataexplorer.norc.org/variables/714/vshow).
+#' For further details see the [GSS Data Explorer page for `eraimp`](https://gssdataexplorer.norc.org/variables/714/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `erainfo`](https://gssdataexplorer.norc.org/variables/715/vshow).
+#' For further details see the [GSS Data Explorer page for `erainfo`](https://gssdataexplorer.norc.org/variables/715/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `erafirm`](https://gssdataexplorer.norc.org/variables/716/vshow).
+#' For further details see the [GSS Data Explorer page for `erafirm`](https://gssdataexplorer.norc.org/variables/716/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -223,7 +223,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `febear`](https://gssdataexplorer.norc.org/variables/717/vshow).
+#' For further details see the [GSS Data Explorer page for `febear`](https://gssdataexplorer.norc.org/variables/717/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |1977 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `feworkif`](https://gssdataexplorer.norc.org/variables/718/vshow).
+#' For further details see the [GSS Data Explorer page for `feworkif`](https://gssdataexplorer.norc.org/variables/718/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |1977 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racsubs`](https://gssdataexplorer.norc.org/variables/719/vshow).
+#' For further details see the [GSS Data Explorer page for `racsubs`](https://gssdataexplorer.norc.org/variables/719/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -321,7 +321,7 @@ NULL
 #'  |1977 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racsubgv`](https://gssdataexplorer.norc.org/variables/720/vshow).
+#' For further details see the [GSS Data Explorer page for `racsubgv`](https://gssdataexplorer.norc.org/variables/720/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

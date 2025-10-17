@@ -18,7 +18,7 @@
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rank1`](https://gssdataexplorer.norc.org/variables/7512/vshow).
+#' For further details see the [GSS Data Explorer page for `rank1`](https://gssdataexplorer.norc.org/variables/7512/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rank16`](https://gssdataexplorer.norc.org/variables/7513/vshow).
+#' For further details see the [GSS Data Explorer page for `rank16`](https://gssdataexplorer.norc.org/variables/7513/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rank10fut`](https://gssdataexplorer.norc.org/variables/7514/vshow).
+#' For further details see the [GSS Data Explorer page for `rank10fut`](https://gssdataexplorer.norc.org/variables/7514/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -116,7 +116,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fairdist`](https://gssdataexplorer.norc.org/variables/7515/vshow).
+#' For further details see the [GSS Data Explorer page for `fairdist`](https://gssdataexplorer.norc.org/variables/7515/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -153,7 +153,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contpoor`](https://gssdataexplorer.norc.org/variables/7516/vshow).
+#' For further details see the [GSS Data Explorer page for `contpoor`](https://gssdataexplorer.norc.org/variables/7516/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contrich`](https://gssdataexplorer.norc.org/variables/7517/vshow).
+#' For further details see the [GSS Data Explorer page for `contrich`](https://gssdataexplorer.norc.org/variables/7517/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -225,7 +225,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `endsme12`](https://gssdataexplorer.norc.org/variables/7518/vshow).
+#' For further details see the [GSS Data Explorer page for `endsme12`](https://gssdataexplorer.norc.org/variables/7518/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `skipmeal`](https://gssdataexplorer.norc.org/variables/7519/vshow).
+#' For further details see the [GSS Data Explorer page for `skipmeal`](https://gssdataexplorer.norc.org/variables/7519/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `class1`](https://gssdataexplorer.norc.org/variables/7520/vshow).
+#' For further details see the [GSS Data Explorer page for `class1`](https://gssdataexplorer.norc.org/variables/7520/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ratepain1`](https://gssdataexplorer.norc.org/variables/7521/vshow).
+#' For further details see the [GSS Data Explorer page for `ratepain1`](https://gssdataexplorer.norc.org/variables/7521/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

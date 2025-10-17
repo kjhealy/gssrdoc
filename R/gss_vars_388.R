@@ -20,7 +20,7 @@
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scientwk`](https://gssdataexplorer.norc.org/variables/3519/vshow).
+#' For further details see the [GSS Data Explorer page for `scientwk`](https://gssdataexplorer.norc.org/variables/3519/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scientmo`](https://gssdataexplorer.norc.org/variables/3520/vshow).
+#' For further details see the [GSS Data Explorer page for `scientmo`](https://gssdataexplorer.norc.org/variables/3520/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scientbr`](https://gssdataexplorer.norc.org/variables/3521/vshow).
+#' For further details see the [GSS Data Explorer page for `scientbr`](https://gssdataexplorer.norc.org/variables/3521/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -121,7 +121,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engda`](https://gssdataexplorer.norc.org/variables/3522/vshow).
+#' For further details see the [GSS Data Explorer page for `engda`](https://gssdataexplorer.norc.org/variables/3522/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engson`](https://gssdataexplorer.norc.org/variables/3523/vshow).
+#' For further details see the [GSS Data Explorer page for `engson`](https://gssdataexplorer.norc.org/variables/3523/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -186,7 +186,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engresp`](https://gssdataexplorer.norc.org/variables/3524/vshow).
+#' For further details see the [GSS Data Explorer page for `engresp`](https://gssdataexplorer.norc.org/variables/3524/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engdo`](https://gssdataexplorer.norc.org/variables/3525/vshow).
+#' For further details see the [GSS Data Explorer page for `engdo`](https://gssdataexplorer.norc.org/variables/3525/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `englone`](https://gssdataexplorer.norc.org/variables/3526/vshow).
+#' For further details see the [GSS Data Explorer page for `englone`](https://gssdataexplorer.norc.org/variables/3526/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engdgr`](https://gssdataexplorer.norc.org/variables/3527/vshow).
+#' For further details see the [GSS Data Explorer page for `engdgr`](https://gssdataexplorer.norc.org/variables/3527/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -323,7 +323,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `enggood`](https://gssdataexplorer.norc.org/variables/3528/vshow).
+#' For further details see the [GSS Data Explorer page for `enggood`](https://gssdataexplorer.norc.org/variables/3528/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

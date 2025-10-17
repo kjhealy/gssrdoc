@@ -52,7 +52,7 @@
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `switch1`](https://gssdataexplorer.norc.org/variables/1050/vshow).
+#' For further details see the [GSS Data Explorer page for `switch1`](https://gssdataexplorer.norc.org/variables/1050/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `switch2`](https://gssdataexplorer.norc.org/variables/1051/vshow).
+#' For further details see the [GSS Data Explorer page for `switch2`](https://gssdataexplorer.norc.org/variables/1051/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `switch3`](https://gssdataexplorer.norc.org/variables/1052/vshow).
+#' For further details see the [GSS Data Explorer page for `switch3`](https://gssdataexplorer.norc.org/variables/1052/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -219,7 +219,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `switnum`](https://gssdataexplorer.norc.org/variables/1053/vshow).
+#' For further details see the [GSS Data Explorer page for `switnum`](https://gssdataexplorer.norc.org/variables/1053/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `switage1`](https://gssdataexplorer.norc.org/variables/1054/vshow).
+#' For further details see the [GSS Data Explorer page for `switage1`](https://gssdataexplorer.norc.org/variables/1054/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `switage2`](https://gssdataexplorer.norc.org/variables/1055/vshow).
+#' For further details see the [GSS Data Explorer page for `switage2`](https://gssdataexplorer.norc.org/variables/1055/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -363,7 +363,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `switwhy1`](https://gssdataexplorer.norc.org/variables/1056/vshow).
+#' For further details see the [GSS Data Explorer page for `switwhy1`](https://gssdataexplorer.norc.org/variables/1056/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -435,7 +435,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `switwhy2`](https://gssdataexplorer.norc.org/variables/1057/vshow).
+#' For further details see the [GSS Data Explorer page for `switwhy2`](https://gssdataexplorer.norc.org/variables/1057/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -472,7 +472,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marelig`](https://gssdataexplorer.norc.org/variables/1058/vshow).
+#' For further details see the [GSS Data Explorer page for `marelig`](https://gssdataexplorer.norc.org/variables/1058/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -528,7 +528,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maden`](https://gssdataexplorer.norc.org/variables/1059/vshow).
+#' For further details see the [GSS Data Explorer page for `maden`](https://gssdataexplorer.norc.org/variables/1059/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

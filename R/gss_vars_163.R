@@ -18,7 +18,7 @@
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdeduc3`](https://gssdataexplorer.norc.org/variables/1530/vshow).
+#' For further details see the [GSS Data Explorer page for `kdeduc3`](https://gssdataexplorer.norc.org/variables/1530/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdeduc4`](https://gssdataexplorer.norc.org/variables/1531/vshow).
+#' For further details see the [GSS Data Explorer page for `kdeduc4`](https://gssdataexplorer.norc.org/variables/1531/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdeduc5`](https://gssdataexplorer.norc.org/variables/1532/vshow).
+#' For further details see the [GSS Data Explorer page for `kdeduc5`](https://gssdataexplorer.norc.org/variables/1532/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -114,7 +114,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdeduc6`](https://gssdataexplorer.norc.org/variables/1533/vshow).
+#' For further details see the [GSS Data Explorer page for `kdeduc6`](https://gssdataexplorer.norc.org/variables/1533/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdeduc7`](https://gssdataexplorer.norc.org/variables/1534/vshow).
+#' For further details see the [GSS Data Explorer page for `kdeduc7`](https://gssdataexplorer.norc.org/variables/1534/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -178,7 +178,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdeduc8`](https://gssdataexplorer.norc.org/variables/1535/vshow).
+#' For further details see the [GSS Data Explorer page for `kdeduc8`](https://gssdataexplorer.norc.org/variables/1535/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -210,7 +210,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdeduc9`](https://gssdataexplorer.norc.org/variables/1536/vshow).
+#' For further details see the [GSS Data Explorer page for `kdeduc9`](https://gssdataexplorer.norc.org/variables/1536/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -241,7 +241,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdpicked`](https://gssdataexplorer.norc.org/variables/1537/vshow).
+#' For further details see the [GSS Data Explorer page for `kdpicked`](https://gssdataexplorer.norc.org/variables/1537/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -273,7 +273,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdwork1`](https://gssdataexplorer.norc.org/variables/1538/vshow).
+#' For further details see the [GSS Data Explorer page for `kdwork1`](https://gssdataexplorer.norc.org/variables/1538/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -305,7 +305,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdwork2`](https://gssdataexplorer.norc.org/variables/1539/vshow).
+#' For further details see the [GSS Data Explorer page for `kdwork2`](https://gssdataexplorer.norc.org/variables/1539/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -31,7 +31,7 @@ Question Should penalties for illegally selling guns be tougher, less tough, or 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3701/vshow}{GSS Data Explorer page for \code{gunsdrug}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3701/vshow}{GSS Data Explorer page for \code{gunsdrug}}.
 }
 
 \seealso{

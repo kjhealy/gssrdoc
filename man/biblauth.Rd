@@ -33,7 +33,7 @@ Question The Bible is the highest authority for what I believe.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7530/vshow}{GSS Data Explorer page for \code{biblauth}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7530/vshow}{GSS Data Explorer page for \code{biblauth}}.
 }
 
 \keyword{variable}

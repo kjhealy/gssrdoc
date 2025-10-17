@@ -30,7 +30,7 @@ Question Do you have any emotional or mental disability?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3716/vshow}{GSS Data Explorer page for \code{disabld5}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3716/vshow}{GSS Data Explorer page for \code{disabld5}}.
 }
 
 \seealso{

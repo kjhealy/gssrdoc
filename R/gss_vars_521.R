@@ -25,7 +25,7 @@
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grnsol`](https://gssdataexplorer.norc.org/variables/4738/vshow).
+#' For further details see the [GSS Data Explorer page for `grnsol`](https://gssdataexplorer.norc.org/variables/4738/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -65,7 +65,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `toodifme`](https://gssdataexplorer.norc.org/variables/4739/vshow).
+#' For further details see the [GSS Data Explorer page for `toodifme`](https://gssdataexplorer.norc.org/variables/4739/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -104,7 +104,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ihlpgrn`](https://gssdataexplorer.norc.org/variables/4740/vshow).
+#' For further details see the [GSS Data Explorer page for `ihlpgrn`](https://gssdataexplorer.norc.org/variables/4740/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -140,7 +140,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scitest1`](https://gssdataexplorer.norc.org/variables/4741/vshow).
+#' For further details see the [GSS Data Explorer page for `scitest1`](https://gssdataexplorer.norc.org/variables/4741/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -177,7 +177,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scitest2`](https://gssdataexplorer.norc.org/variables/4742/vshow).
+#' For further details see the [GSS Data Explorer page for `scitest2`](https://gssdataexplorer.norc.org/variables/4742/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -213,7 +213,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scitest3`](https://gssdataexplorer.norc.org/variables/4743/vshow).
+#' For further details see the [GSS Data Explorer page for `scitest3`](https://gssdataexplorer.norc.org/variables/4743/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scitest4`](https://gssdataexplorer.norc.org/variables/4744/vshow).
+#' For further details see the [GSS Data Explorer page for `scitest4`](https://gssdataexplorer.norc.org/variables/4744/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -287,7 +287,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scitest5`](https://gssdataexplorer.norc.org/variables/4745/vshow).
+#' For further details see the [GSS Data Explorer page for `scitest5`](https://gssdataexplorer.norc.org/variables/4745/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grntest1`](https://gssdataexplorer.norc.org/variables/4746/vshow).
+#' For further details see the [GSS Data Explorer page for `grntest1`](https://gssdataexplorer.norc.org/variables/4746/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -360,7 +360,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grntest2`](https://gssdataexplorer.norc.org/variables/4747/vshow).
+#' For further details see the [GSS Data Explorer page for `grntest2`](https://gssdataexplorer.norc.org/variables/4747/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -43,20 +43,13 @@ Question Do you think our government should continue to belong to the United Nat
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5487/vshow}{GSS Data Explorer page for \code{usun}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5487/vshow}{GSS Data Explorer page for \code{usun}}.
 }
 
 \seealso{
 Other War and International: 
-\code{\link{brazil}},
-\code{\link{canada}},
-\code{\link{china}},
 \code{\link{commun}},
 \code{\link{commun10}},
-\code{\link{egypt}},
-\code{\link{england}},
-\code{\link{israel}},
-\code{\link{japan}},
 \code{\link{russia}},
 \code{\link{usintl}},
 \code{\link{uswar}},

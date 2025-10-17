@@ -30,7 +30,7 @@ Question Next are a number of statements concerning personal attitudes and trait
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7152/vshow}{GSS Data Explorer page for \code{mcsds4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7152/vshow}{GSS Data Explorer page for \code{mcsds4}}.
 }
 
 \keyword{variable}

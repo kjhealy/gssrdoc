@@ -21,7 +21,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volwkpol`](https://gssdataexplorer.norc.org/variables/4691/vshow).
+#' For further details see the [GSS Data Explorer page for `volwkpol`](https://gssdataexplorer.norc.org/variables/4691/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volwkchr`](https://gssdataexplorer.norc.org/variables/4692/vshow).
+#' For further details see the [GSS Data Explorer page for `volwkchr`](https://gssdataexplorer.norc.org/variables/4692/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volwkrel`](https://gssdataexplorer.norc.org/variables/4693/vshow).
+#' For further details see the [GSS Data Explorer page for `volwkrel`](https://gssdataexplorer.norc.org/variables/4693/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volwkoth`](https://gssdataexplorer.norc.org/variables/4694/vshow).
+#' For further details see the [GSS Data Explorer page for `volwkoth`](https://gssdataexplorer.norc.org/variables/4694/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -160,7 +160,7 @@ NULL
 #'  |2008 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `reltruth`](https://gssdataexplorer.norc.org/variables/4695/vshow).
+#' For further details see the [GSS Data Explorer page for `reltruth`](https://gssdataexplorer.norc.org/variables/4695/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -194,7 +194,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `carright`](https://gssdataexplorer.norc.org/variables/4696/vshow).
+#' For further details see the [GSS Data Explorer page for `carright`](https://gssdataexplorer.norc.org/variables/4696/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -229,7 +229,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cardo`](https://gssdataexplorer.norc.org/variables/4697/vshow).
+#' For further details see the [GSS Data Explorer page for `cardo`](https://gssdataexplorer.norc.org/variables/4697/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -263,7 +263,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `geomobil`](https://gssdataexplorer.norc.org/variables/4698/vshow).
+#' For further details see the [GSS Data Explorer page for `geomobil`](https://gssdataexplorer.norc.org/variables/4698/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -299,7 +299,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relgrpeq`](https://gssdataexplorer.norc.org/variables/4699/vshow).
+#' For further details see the [GSS Data Explorer page for `relgrpeq`](https://gssdataexplorer.norc.org/variables/4699/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -335,7 +335,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rspctrel`](https://gssdataexplorer.norc.org/variables/4700/vshow).
+#' For further details see the [GSS Data Explorer page for `rspctrel`](https://gssdataexplorer.norc.org/variables/4700/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

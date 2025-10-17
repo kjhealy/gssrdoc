@@ -32,7 +32,7 @@ Question Do you think a person has the right to end his or her own life if this 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7475/vshow}{GSS Data Explorer page for \code{suicide4g}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7475/vshow}{GSS Data Explorer page for \code{suicide4g}}.
 }
 
 \keyword{variable}

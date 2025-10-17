@@ -34,7 +34,7 @@ Question To what extent are you able to carry out your everyday physical activit
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7168/vshow}{GSS Data Explorer page for \code{physacts}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7168/vshow}{GSS Data Explorer page for \code{physacts}}.
 }
 
 \keyword{variable}

@@ -33,15 +33,12 @@ Question Would you like to see more or less government spending on natural disas
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3707/vshow}{GSS Data Explorer page for \code{spnatdis}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3707/vshow}{GSS Data Explorer page for \code{spnatdis}}.
 }
 
 \seealso{
 Other Misc I: 
-\code{\link{getaheay}},
-\code{\link{natdiscm}},
-\code{\link{natdisin}},
-\code{\link{newsprnt}}
+\code{\link{natdisin}}
 }
 \concept{Misc I}
 \keyword{variable}

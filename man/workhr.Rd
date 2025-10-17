@@ -33,7 +33,7 @@ Question What hours do you usually work--days, evenings, or nights?  CIRCLE ONE 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5288/vshow}{GSS Data Explorer page for \code{workhr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5288/vshow}{GSS Data Explorer page for \code{workhr}}.
 }
 
 \seealso{

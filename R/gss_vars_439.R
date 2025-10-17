@@ -20,7 +20,7 @@
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kiddrugs`](https://gssdataexplorer.norc.org/variables/4028/vshow).
+#' For further details see the [GSS Data Explorer page for `kiddrugs`](https://gssdataexplorer.norc.org/variables/4028/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidskips`](https://gssdataexplorer.norc.org/variables/4029/vshow).
+#' For further details see the [GSS Data Explorer page for `kidskips`](https://gssdataexplorer.norc.org/variables/4029/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidout`](https://gssdataexplorer.norc.org/variables/4030/vshow).
+#' For further details see the [GSS Data Explorer page for `kidout`](https://gssdataexplorer.norc.org/variables/4030/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidneedy`](https://gssdataexplorer.norc.org/variables/4031/vshow).
+#' For further details see the [GSS Data Explorer page for `kidneedy`](https://gssdataexplorer.norc.org/variables/4031/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidbeat`](https://gssdataexplorer.norc.org/variables/4032/vshow).
+#' For further details see the [GSS Data Explorer page for `kidbeat`](https://gssdataexplorer.norc.org/variables/4032/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidhlth`](https://gssdataexplorer.norc.org/variables/4033/vshow).
+#' For further details see the [GSS Data Explorer page for `kidhlth`](https://gssdataexplorer.norc.org/variables/4033/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidedpar`](https://gssdataexplorer.norc.org/variables/4034/vshow).
+#' For further details see the [GSS Data Explorer page for `kidedpar`](https://gssdataexplorer.norc.org/variables/4034/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidxfilm`](https://gssdataexplorer.norc.org/variables/4035/vshow).
+#' For further details see the [GSS Data Explorer page for `kidxfilm`](https://gssdataexplorer.norc.org/variables/4035/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -293,7 +293,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `beltup`](https://gssdataexplorer.norc.org/variables/4036/vshow).
+#' For further details see the [GSS Data Explorer page for `beltup`](https://gssdataexplorer.norc.org/variables/4036/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -328,7 +328,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nosmoke`](https://gssdataexplorer.norc.org/variables/4037/vshow).
+#' For further details see the [GSS Data Explorer page for `nosmoke`](https://gssdataexplorer.norc.org/variables/4037/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

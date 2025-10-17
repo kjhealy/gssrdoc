@@ -35,7 +35,7 @@ Question Who would you turn to first toï¿½. Enjoy a pleasant social occasion 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7248/vshow}{GSS Data Explorer page for \code{hlpsococ}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7248/vshow}{GSS Data Explorer page for \code{hlpsococ}}.
 }
 
 \keyword{variable}

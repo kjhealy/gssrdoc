@@ -25,7 +25,7 @@
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ifwrong`](https://gssdataexplorer.norc.org/variables/4838/vshow).
+#' For further details see the [GSS Data Explorer page for `ifwrong`](https://gssdataexplorer.norc.org/variables/4838/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -63,7 +63,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amsports`](https://gssdataexplorer.norc.org/variables/4839/vshow).
+#' For further details see the [GSS Data Explorer page for `amsports`](https://gssdataexplorer.norc.org/variables/4839/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -101,7 +101,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prouddem`](https://gssdataexplorer.norc.org/variables/4840/vshow).
+#' For further details see the [GSS Data Explorer page for `prouddem`](https://gssdataexplorer.norc.org/variables/4840/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -139,7 +139,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proudpol`](https://gssdataexplorer.norc.org/variables/4841/vshow).
+#' For further details see the [GSS Data Explorer page for `proudpol`](https://gssdataexplorer.norc.org/variables/4841/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -177,7 +177,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proudeco`](https://gssdataexplorer.norc.org/variables/4842/vshow).
+#' For further details see the [GSS Data Explorer page for `proudeco`](https://gssdataexplorer.norc.org/variables/4842/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proudsss`](https://gssdataexplorer.norc.org/variables/4843/vshow).
+#' For further details see the [GSS Data Explorer page for `proudsss`](https://gssdataexplorer.norc.org/variables/4843/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -251,7 +251,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proudsci`](https://gssdataexplorer.norc.org/variables/4844/vshow).
+#' For further details see the [GSS Data Explorer page for `proudsci`](https://gssdataexplorer.norc.org/variables/4844/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proudspt`](https://gssdataexplorer.norc.org/variables/4845/vshow).
+#' For further details see the [GSS Data Explorer page for `proudspt`](https://gssdataexplorer.norc.org/variables/4845/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -327,7 +327,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proudart`](https://gssdataexplorer.norc.org/variables/4846/vshow).
+#' For further details see the [GSS Data Explorer page for `proudart`](https://gssdataexplorer.norc.org/variables/4846/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -364,7 +364,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proudmil`](https://gssdataexplorer.norc.org/variables/4847/vshow).
+#' For further details see the [GSS Data Explorer page for `proudmil`](https://gssdataexplorer.norc.org/variables/4847/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

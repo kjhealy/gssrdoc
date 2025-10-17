@@ -33,7 +33,7 @@ Question (To what extent do you agree or disagree...?) A pre-school child is lik
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7765/vshow}{GSS Data Explorer page for \code{fepresch2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7765/vshow}{GSS Data Explorer page for \code{fepresch2}}.
 }
 
 \keyword{variable}

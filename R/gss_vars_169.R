@@ -17,7 +17,7 @@
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbpicked`](https://gssdataexplorer.norc.org/variables/1581/vshow).
+#' For further details see the [GSS Data Explorer page for `sbpicked`](https://gssdataexplorer.norc.org/variables/1581/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -48,7 +48,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbeduc`](https://gssdataexplorer.norc.org/variables/1582/vshow).
+#' For further details see the [GSS Data Explorer page for `sbeduc`](https://gssdataexplorer.norc.org/variables/1582/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -83,7 +83,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbdeg`](https://gssdataexplorer.norc.org/variables/1583/vshow).
+#' For further details see the [GSS Data Explorer page for `sbdeg`](https://gssdataexplorer.norc.org/variables/1583/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -115,7 +115,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbwork1`](https://gssdataexplorer.norc.org/variables/1584/vshow).
+#' For further details see the [GSS Data Explorer page for `sbwork1`](https://gssdataexplorer.norc.org/variables/1584/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -147,7 +147,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbwork2`](https://gssdataexplorer.norc.org/variables/1585/vshow).
+#' For further details see the [GSS Data Explorer page for `sbwork2`](https://gssdataexplorer.norc.org/variables/1585/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -179,7 +179,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbevwork`](https://gssdataexplorer.norc.org/variables/1586/vshow).
+#' For further details see the [GSS Data Explorer page for `sbevwork`](https://gssdataexplorer.norc.org/variables/1586/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -758,7 +758,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbpres80`](https://gssdataexplorer.norc.org/variables/1588/vshow).
+#' For further details see the [GSS Data Explorer page for `sbpres80`](https://gssdataexplorer.norc.org/variables/1588/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -797,7 +797,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbwrkslf`](https://gssdataexplorer.norc.org/variables/1589/vshow).
+#' For further details see the [GSS Data Explorer page for `sbwrkslf`](https://gssdataexplorer.norc.org/variables/1589/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1066,7 +1066,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbind80`](https://gssdataexplorer.norc.org/variables/1590/vshow).
+#' For further details see the [GSS Data Explorer page for `sbind80`](https://gssdataexplorer.norc.org/variables/1590/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -30,7 +30,7 @@ Question Are there any individuals under the age of 18 in this household who are
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8026/vshow}{GSS Data Explorer page for \code{rnrltu18}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8026/vshow}{GSS Data Explorer page for \code{rnrltu18}}.
 }
 
 \keyword{variable}

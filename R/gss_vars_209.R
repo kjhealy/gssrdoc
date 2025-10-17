@@ -19,7 +19,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `valintl`](https://gssdataexplorer.norc.org/variables/1972/vshow).
+#' For further details see the [GSS Data Explorer page for `valintl`](https://gssdataexplorer.norc.org/variables/1972/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `valinfrm`](https://gssdataexplorer.norc.org/variables/1973/vshow).
+#' For further details see the [GSS Data Explorer page for `valinfrm`](https://gssdataexplorer.norc.org/variables/1973/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `valoth`](https://gssdataexplorer.norc.org/variables/1974/vshow).
+#' For further details see the [GSS Data Explorer page for `valoth`](https://gssdataexplorer.norc.org/variables/1974/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `homeless`](https://gssdataexplorer.norc.org/variables/1975/vshow).
+#' For further details see the [GSS Data Explorer page for `homeless`](https://gssdataexplorer.norc.org/variables/1975/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `needynei`](https://gssdataexplorer.norc.org/variables/1976/vshow).
+#' For further details see the [GSS Data Explorer page for `needynei`](https://gssdataexplorer.norc.org/variables/1976/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `needyrel`](https://gssdataexplorer.norc.org/variables/1977/vshow).
+#' For further details see the [GSS Data Explorer page for `needyrel`](https://gssdataexplorer.norc.org/variables/1977/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `needyfrd`](https://gssdataexplorer.norc.org/variables/1978/vshow).
+#' For further details see the [GSS Data Explorer page for `needyfrd`](https://gssdataexplorer.norc.org/variables/1978/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `needyoth`](https://gssdataexplorer.norc.org/variables/1979/vshow).
+#' For further details see the [GSS Data Explorer page for `needyoth`](https://gssdataexplorer.norc.org/variables/1979/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `probfix1`](https://gssdataexplorer.norc.org/variables/1980/vshow).
+#' For further details see the [GSS Data Explorer page for `probfix1`](https://gssdataexplorer.norc.org/variables/1980/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `probfix2`](https://gssdataexplorer.norc.org/variables/1981/vshow).
+#' For further details see the [GSS Data Explorer page for `probfix2`](https://gssdataexplorer.norc.org/variables/1981/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

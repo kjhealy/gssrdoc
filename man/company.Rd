@@ -31,7 +31,7 @@ Question What kind of company would you be most likely to work for if these were
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7227/vshow}{GSS Data Explorer page for \code{company}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7227/vshow}{GSS Data Explorer page for \code{company}}.
 }
 
 \keyword{variable}

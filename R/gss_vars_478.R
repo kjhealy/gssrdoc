@@ -22,7 +22,7 @@
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ilikejob`](https://gssdataexplorer.norc.org/variables/4352/vshow).
+#' For further details see the [GSS Data Explorer page for `ilikejob`](https://gssdataexplorer.norc.org/variables/4352/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrknokid`](https://gssdataexplorer.norc.org/variables/4353/vshow).
+#' For further details see the [GSS Data Explorer page for `wrknokid`](https://gssdataexplorer.norc.org/variables/4353/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -96,7 +96,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkbaby`](https://gssdataexplorer.norc.org/variables/4354/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkbaby`](https://gssdataexplorer.norc.org/variables/4354/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrksch`](https://gssdataexplorer.norc.org/variables/4355/vshow).
+#' For further details see the [GSS Data Explorer page for `wrksch`](https://gssdataexplorer.norc.org/variables/4355/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -170,7 +170,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkgrown`](https://gssdataexplorer.norc.org/variables/4356/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkgrown`](https://gssdataexplorer.norc.org/variables/4356/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -205,7 +205,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `daycare1`](https://gssdataexplorer.norc.org/variables/4357/vshow).
+#' For further details see the [GSS Data Explorer page for `daycare1`](https://gssdataexplorer.norc.org/variables/4357/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `daycare2`](https://gssdataexplorer.norc.org/variables/4358/vshow).
+#' For further details see the [GSS Data Explorer page for `daycare2`](https://gssdataexplorer.norc.org/variables/4358/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -275,7 +275,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `daycare3`](https://gssdataexplorer.norc.org/variables/4359/vshow).
+#' For further details see the [GSS Data Explorer page for `daycare3`](https://gssdataexplorer.norc.org/variables/4359/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `daycare4`](https://gssdataexplorer.norc.org/variables/4360/vshow).
+#' For further details see the [GSS Data Explorer page for `daycare4`](https://gssdataexplorer.norc.org/variables/4360/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -345,7 +345,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `daycare5`](https://gssdataexplorer.norc.org/variables/4361/vshow).
+#' For further details see the [GSS Data Explorer page for `daycare5`](https://gssdataexplorer.norc.org/variables/4361/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

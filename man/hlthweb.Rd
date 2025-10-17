@@ -35,7 +35,7 @@ Question During the past 12 months, how often, if at all, did you use the intern
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7809/vshow}{GSS Data Explorer page for \code{hlthweb}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7809/vshow}{GSS Data Explorer page for \code{hlthweb}}.
 }
 
 \keyword{variable}

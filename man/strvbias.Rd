@@ -30,7 +30,7 @@ Question Favor strenghtening law and order vs. reducing bias in the criminal jus
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7575/vshow}{GSS Data Explorer page for \code{strvbias}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7575/vshow}{GSS Data Explorer page for \code{strvbias}}.
 }
 
 \keyword{variable}

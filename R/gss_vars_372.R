@@ -22,7 +22,7 @@
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciinfgw`](https://gssdataexplorer.norc.org/variables/3359/vshow).
+#' For further details see the [GSS Data Explorer page for `sciinfgw`](https://gssdataexplorer.norc.org/variables/3359/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polinfgw`](https://gssdataexplorer.norc.org/variables/3360/vshow).
+#' For further details see the [GSS Data Explorer page for `polinfgw`](https://gssdataexplorer.norc.org/variables/3360/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bizinfgw`](https://gssdataexplorer.norc.org/variables/3361/vshow).
+#' For further details see the [GSS Data Explorer page for `bizinfgw`](https://gssdataexplorer.norc.org/variables/3361/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -129,7 +129,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scibstgw`](https://gssdataexplorer.norc.org/variables/3362/vshow).
+#' For further details see the [GSS Data Explorer page for `scibstgw`](https://gssdataexplorer.norc.org/variables/3362/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -164,7 +164,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polbstgw`](https://gssdataexplorer.norc.org/variables/3363/vshow).
+#' For further details see the [GSS Data Explorer page for `polbstgw`](https://gssdataexplorer.norc.org/variables/3363/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -199,7 +199,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bizbstgw`](https://gssdataexplorer.norc.org/variables/3364/vshow).
+#' For further details see the [GSS Data Explorer page for `bizbstgw`](https://gssdataexplorer.norc.org/variables/3364/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -234,7 +234,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gasregs`](https://gssdataexplorer.norc.org/variables/3365/vshow).
+#' For further details see the [GSS Data Explorer page for `gasregs`](https://gssdataexplorer.norc.org/variables/3365/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scmed`](https://gssdataexplorer.norc.org/variables/3366/vshow).
+#' For further details see the [GSS Data Explorer page for `scmed`](https://gssdataexplorer.norc.org/variables/3366/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -302,7 +302,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `screlig`](https://gssdataexplorer.norc.org/variables/3367/vshow).
+#' For further details see the [GSS Data Explorer page for `screlig`](https://gssdataexplorer.norc.org/variables/3367/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -336,7 +336,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scpol`](https://gssdataexplorer.norc.org/variables/3368/vshow).
+#' For further details see the [GSS Data Explorer page for `scpol`](https://gssdataexplorer.norc.org/variables/3368/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

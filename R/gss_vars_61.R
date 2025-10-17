@@ -34,7 +34,7 @@
 #'  |2006 |D/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anomia7`](https://gssdataexplorer.norc.org/variables/543/vshow).
+#' For further details see the [GSS Data Explorer page for `anomia7`](https://gssdataexplorer.norc.org/variables/543/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -69,7 +69,7 @@ NULL
 #'  |1976 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anomia8`](https://gssdataexplorer.norc.org/variables/544/vshow).
+#' For further details see the [GSS Data Explorer page for `anomia8`](https://gssdataexplorer.norc.org/variables/544/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -104,7 +104,7 @@ NULL
 #'  |1976 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anomia9`](https://gssdataexplorer.norc.org/variables/545/vshow).
+#' For further details see the [GSS Data Explorer page for `anomia9`](https://gssdataexplorer.norc.org/variables/545/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -165,7 +165,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `joblose`](https://gssdataexplorer.norc.org/variables/546/vshow).
+#' For further details see the [GSS Data Explorer page for `joblose`](https://gssdataexplorer.norc.org/variables/546/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobfind`](https://gssdataexplorer.norc.org/variables/547/vshow).
+#' For further details see the [GSS Data Explorer page for `jobfind`](https://gssdataexplorer.norc.org/variables/547/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -293,7 +293,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `satjob`](https://gssdataexplorer.norc.org/variables/548/vshow).
+#' For further details see the [GSS Data Explorer page for `satjob`](https://gssdataexplorer.norc.org/variables/548/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -327,7 +327,7 @@ NULL
 #'  |2016 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `satjobhv`](https://gssdataexplorer.norc.org/variables/6645/vshow).
+#' For further details see the [GSS Data Explorer page for `satjobhv`](https://gssdataexplorer.norc.org/variables/6645/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -388,7 +388,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `richwork`](https://gssdataexplorer.norc.org/variables/549/vshow).
+#' For further details see the [GSS Data Explorer page for `richwork`](https://gssdataexplorer.norc.org/variables/549/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -444,7 +444,7 @@ NULL
 #'  |2014 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobinc`](https://gssdataexplorer.norc.org/variables/550/vshow).
+#' For further details see the [GSS Data Explorer page for `jobinc`](https://gssdataexplorer.norc.org/variables/550/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -500,7 +500,7 @@ NULL
 #'  |2014 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobsec`](https://gssdataexplorer.norc.org/variables/551/vshow).
+#' For further details see the [GSS Data Explorer page for `jobsec`](https://gssdataexplorer.norc.org/variables/551/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

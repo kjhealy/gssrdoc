@@ -19,7 +19,7 @@
 #'  |1973 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `strike`](https://gssdataexplorer.norc.org/variables/653/vshow).
+#' For further details see the [GSS Data Explorer page for `strike`](https://gssdataexplorer.norc.org/variables/653/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1973 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `civright`](https://gssdataexplorer.norc.org/variables/654/vshow).
+#' For further details see the [GSS Data Explorer page for `civright`](https://gssdataexplorer.norc.org/variables/654/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1973 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `antiwar`](https://gssdataexplorer.norc.org/variables/655/vshow).
+#' For further details see the [GSS Data Explorer page for `antiwar`](https://gssdataexplorer.norc.org/variables/655/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1973 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prowar`](https://gssdataexplorer.norc.org/variables/656/vshow).
+#' For further details see the [GSS Data Explorer page for `prowar`](https://gssdataexplorer.norc.org/variables/656/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1973 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `school`](https://gssdataexplorer.norc.org/variables/657/vshow).
+#' For further details see the [GSS Data Explorer page for `school`](https://gssdataexplorer.norc.org/variables/657/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -197,7 +197,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hit`](https://gssdataexplorer.norc.org/variables/658/vshow).
+#' For further details see the [GSS Data Explorer page for `hit`](https://gssdataexplorer.norc.org/variables/658/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hitage`](https://gssdataexplorer.norc.org/variables/659/vshow).
+#' For further details see the [GSS Data Explorer page for `hitage`](https://gssdataexplorer.norc.org/variables/659/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -286,7 +286,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hitnum`](https://gssdataexplorer.norc.org/variables/660/vshow).
+#' For further details see the [GSS Data Explorer page for `hitnum`](https://gssdataexplorer.norc.org/variables/660/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -332,7 +332,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gun`](https://gssdataexplorer.norc.org/variables/661/vshow).
+#' For further details see the [GSS Data Explorer page for `gun`](https://gssdataexplorer.norc.org/variables/661/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -380,7 +380,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gunage`](https://gssdataexplorer.norc.org/variables/662/vshow).
+#' For further details see the [GSS Data Explorer page for `gunage`](https://gssdataexplorer.norc.org/variables/662/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

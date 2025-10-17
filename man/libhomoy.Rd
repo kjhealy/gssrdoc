@@ -30,7 +30,7 @@ Question If somebody in your community suggests that a book the gay person wrote
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7444/vshow}{GSS Data Explorer page for \code{libhomoy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7444/vshow}{GSS Data Explorer page for \code{libhomoy}}.
 }
 
 \keyword{variable}

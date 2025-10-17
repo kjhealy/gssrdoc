@@ -31,7 +31,7 @@ Question Leaving aside what you think of abortion for yourself, do you think a w
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7172/vshow}{GSS Data Explorer page for \code{abfelegl}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7172/vshow}{GSS Data Explorer page for \code{abfelegl}}.
 }
 
 \keyword{variable}

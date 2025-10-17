@@ -21,7 +21,7 @@
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othmhneg`](https://gssdataexplorer.norc.org/variables/7146/vshow).
+#' For further details see the [GSS Data Explorer page for `othmhneg`](https://gssdataexplorer.norc.org/variables/7146/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `diagnosd`](https://gssdataexplorer.norc.org/variables/7147/vshow).
+#' For further details see the [GSS Data Explorer page for `diagnosd`](https://gssdataexplorer.norc.org/variables/7147/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhtreatd`](https://gssdataexplorer.norc.org/variables/7148/vshow).
+#' For further details see the [GSS Data Explorer page for `mhtreatd`](https://gssdataexplorer.norc.org/variables/7148/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -119,7 +119,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mcsds1`](https://gssdataexplorer.norc.org/variables/7149/vshow).
+#' For further details see the [GSS Data Explorer page for `mcsds1`](https://gssdataexplorer.norc.org/variables/7149/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mcsds2`](https://gssdataexplorer.norc.org/variables/7150/vshow).
+#' For further details see the [GSS Data Explorer page for `mcsds2`](https://gssdataexplorer.norc.org/variables/7150/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -183,7 +183,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mcsds3`](https://gssdataexplorer.norc.org/variables/7151/vshow).
+#' For further details see the [GSS Data Explorer page for `mcsds3`](https://gssdataexplorer.norc.org/variables/7151/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -215,7 +215,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mcsds4`](https://gssdataexplorer.norc.org/variables/7152/vshow).
+#' For further details see the [GSS Data Explorer page for `mcsds4`](https://gssdataexplorer.norc.org/variables/7152/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,7 +247,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mcsds5`](https://gssdataexplorer.norc.org/variables/7153/vshow).
+#' For further details see the [GSS Data Explorer page for `mcsds5`](https://gssdataexplorer.norc.org/variables/7153/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mcsds6`](https://gssdataexplorer.norc.org/variables/7154/vshow).
+#' For further details see the [GSS Data Explorer page for `mcsds6`](https://gssdataexplorer.norc.org/variables/7154/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -311,7 +311,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mcsds7`](https://gssdataexplorer.norc.org/variables/7155/vshow).
+#' For further details see the [GSS Data Explorer page for `mcsds7`](https://gssdataexplorer.norc.org/variables/7155/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

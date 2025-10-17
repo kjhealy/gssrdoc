@@ -26,7 +26,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `readword`](https://gssdataexplorer.norc.org/variables/1080/vshow).
+#' For further details see the [GSS Data Explorer page for `readword`](https://gssdataexplorer.norc.org/variables/1080/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -64,7 +64,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `punsin`](https://gssdataexplorer.norc.org/variables/1081/vshow).
+#' For further details see the [GSS Data Explorer page for `punsin`](https://gssdataexplorer.norc.org/variables/1081/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -102,7 +102,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blkwhite`](https://gssdataexplorer.norc.org/variables/1082/vshow).
+#' For further details see the [GSS Data Explorer page for `blkwhite`](https://gssdataexplorer.norc.org/variables/1082/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -140,7 +140,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rotapple`](https://gssdataexplorer.norc.org/variables/1083/vshow).
+#' For further details see the [GSS Data Explorer page for `rotapple`](https://gssdataexplorer.norc.org/variables/1083/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -178,7 +178,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `permoral`](https://gssdataexplorer.norc.org/variables/1084/vshow).
+#' For further details see the [GSS Data Explorer page for `permoral`](https://gssdataexplorer.norc.org/variables/1084/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `decbible`](https://gssdataexplorer.norc.org/variables/1085/vshow).
+#' For further details see the [GSS Data Explorer page for `decbible`](https://gssdataexplorer.norc.org/variables/1085/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -244,7 +244,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `decoths`](https://gssdataexplorer.norc.org/variables/1086/vshow).
+#' For further details see the [GSS Data Explorer page for `decoths`](https://gssdataexplorer.norc.org/variables/1086/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -277,7 +277,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `decchurh`](https://gssdataexplorer.norc.org/variables/1087/vshow).
+#' For further details see the [GSS Data Explorer page for `decchurh`](https://gssdataexplorer.norc.org/variables/1087/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -311,7 +311,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `decself`](https://gssdataexplorer.norc.org/variables/1088/vshow).
+#' For further details see the [GSS Data Explorer page for `decself`](https://gssdataexplorer.norc.org/variables/1088/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -345,7 +345,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gochurch`](https://gssdataexplorer.norc.org/variables/1089/vshow).
+#' For further details see the [GSS Data Explorer page for `gochurch`](https://gssdataexplorer.norc.org/variables/1089/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

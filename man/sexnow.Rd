@@ -32,7 +32,7 @@ Question What is your current gender?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7293/vshow}{GSS Data Explorer page for \code{sexnow}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7293/vshow}{GSS Data Explorer page for \code{sexnow}}.
 }
 
 \keyword{variable}

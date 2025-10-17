@@ -30,7 +30,7 @@ Question Consider an elderly couple. One of their grandchildren is in need of te
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7780/vshow}{GSS Data Explorer page for \code{eldfnce}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7780/vshow}{GSS Data Explorer page for \code{eldfnce}}.
 }
 
 \keyword{variable}

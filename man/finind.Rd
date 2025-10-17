@@ -34,31 +34,18 @@ Financially independent from their parents/guardians
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2896/vshow}{GSS Data Explorer page for \code{finind}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2896/vshow}{GSS Data Explorer page for \code{finind}}.
 }
 
 \seealso{
 Other Adult Transitions: 
-\code{\link{boycott}},
-\code{\link{conoffcl}},
 \code{\link{eddone}},
 \code{\link{eddone1}},
 \code{\link{finind1}},
 \code{\link{ftwork}},
 \code{\link{ftwork1}},
-\code{\link{getmar}},
-\code{\link{getmar1}},
-\code{\link{givchng}},
-\code{\link{havchld}},
-\code{\link{havchld1}},
-\code{\link{hlpneedy}},
 \code{\link{ownhh}},
-\code{\link{ownhh1}},
-\code{\link{partthon}},
-\code{\link{protest}},
-\code{\link{signpet}},
-\code{\link{supfam}},
-\code{\link{supfam1}}
+\code{\link{ownhh1}}
 }
 \concept{Adult Transitions}
 \keyword{variable}

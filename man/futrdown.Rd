@@ -31,76 +31,17 @@ B. Would you say much worse or somewhat worse?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/1646/vshow}{GSS Data Explorer page for \code{futrdown}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1646/vshow}{GSS Data Explorer page for \code{futrdown}}.
 }
 
 \seealso{
 Other Multiculturalism: 
-\code{\link{admirblk}},
-\code{\link{amissue}},
-\code{\link{amissue1}},
-\code{\link{amproud}},
-\code{\link{amrank}},
-\code{\link{asngovt}},
-\code{\link{bilinged}},
-\code{\link{blkgovt}},
-\code{\link{colaff}},
-\code{\link{colaffy}},
-\code{\link{congeth}},
-\code{\link{discaff}},
-\code{\link{discaffy}},
-\code{\link{discwhy1}},
-\code{\link{discwhy2}},
-\code{\link{discwhy3}},
-\code{\link{discwhy4}},
-\code{\link{discwhy5}},
-\code{\link{discwhy6}},
 \code{\link{econfutr}},
-\code{\link{econpast}},
-\code{\link{engballt}},
-\code{\link{engoffcl}},
-\code{\link{engteach}},
-\code{\link{ethhist}},
-\code{\link{ethid}},
-\code{\link{ethid1}},
-\code{\link{ethissu1}},
-\code{\link{ethissue}},
-\code{\link{ethorgs}},
-\code{\link{ethspkno}},
-\code{\link{ethspkok}},
 \code{\link{futrup}},
-\code{\link{gvtapart}},
-\code{\link{gvtmelt}},
-\code{\link{hspasn10}},
-\code{\link{hspgovt}},
-\code{\link{immecon}},
-\code{\link{immfare}},
-\code{\link{immpush}},
-\code{\link{immunemp}},
-\code{\link{immunite}},
-\code{\link{immwrkup}},
-\code{\link{jobaff}},
-\code{\link{letin}},
-\code{\link{meltpot}},
-\code{\link{obrespct}},
-\code{\link{owneth}},
 \code{\link{pastdown}},
 \code{\link{pastup}},
 \code{\link{rdiscaff}},
-\code{\link{rimmdisc}},
-\code{\link{schleth}},
-\code{\link{symptblk}},
-\code{\link{teacheth}},
-\code{\link{undoccol}},
-\code{\link{undockid}},
-\code{\link{undocwrk}},
-\code{\link{united}},
-\code{\link{whoteach}},
-\code{\link{whtgovt}},
-\code{\link{wlthimm}},
-\code{\link{wlthundc}},
-\code{\link{workimm}},
-\code{\link{workundc}}
+\code{\link{rimmdisc}}
 }
 \concept{Multiculturalism}
 \keyword{variable}

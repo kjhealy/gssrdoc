@@ -41,29 +41,19 @@ Question In what religion is (CHILDâ€™S NAME) being raised? Is it Protestan
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3835/vshow}{GSS Data Explorer page for \code{kd6relig}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3835/vshow}{GSS Data Explorer page for \code{kd6relig}}.
 }
 
 \seealso{
 Other Jewish Identity: 
 \code{\link{bmitzvah}},
-\code{\link{kd1jwoth}},
 \code{\link{kd1relig}},
-\code{\link{kd2jwoth}},
 \code{\link{kd2relig}},
-\code{\link{kd3jwoth}},
 \code{\link{kd3relig}},
-\code{\link{kd4jwoth}},
 \code{\link{kd4relig}},
-\code{\link{kd5jwoth}},
 \code{\link{kd5relig}},
 \code{\link{kd7relig}},
 \code{\link{kd8relig}},
-\code{\link{kidnum}},
-\code{\link{majwoth}},
-\code{\link{pajwoth}},
-\code{\link{spjoth16}},
-\code{\link{spjrel16}},
 \code{\link{synmem}}
 }
 \concept{Jewish Identity}

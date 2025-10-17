@@ -18,7 +18,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkoth`](https://gssdataexplorer.norc.org/variables/2141/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkoth`](https://gssdataexplorer.norc.org/variables/2141/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -49,7 +49,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othyrs`](https://gssdataexplorer.norc.org/variables/2142/vshow).
+#' For further details see the [GSS Data Explorer page for `othyrs`](https://gssdataexplorer.norc.org/variables/2142/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partorg`](https://gssdataexplorer.norc.org/variables/2143/vshow).
+#' For further details see the [GSS Data Explorer page for `partorg`](https://gssdataexplorer.norc.org/variables/2143/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `orgsize`](https://gssdataexplorer.norc.org/variables/2144/vshow).
+#' For further details see the [GSS Data Explorer page for `orgsize`](https://gssdataexplorer.norc.org/variables/2144/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -162,7 +162,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genderwk`](https://gssdataexplorer.norc.org/variables/2145/vshow).
+#' For further details see the [GSS Data Explorer page for `genderwk`](https://gssdataexplorer.norc.org/variables/2145/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -193,7 +193,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `locyrs`](https://gssdataexplorer.norc.org/variables/2146/vshow).
+#' For further details see the [GSS Data Explorer page for `locyrs`](https://gssdataexplorer.norc.org/variables/2146/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -225,7 +225,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `samework`](https://gssdataexplorer.norc.org/variables/2147/vshow).
+#' For further details see the [GSS Data Explorer page for `samework`](https://gssdataexplorer.norc.org/variables/2147/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `siteyrs`](https://gssdataexplorer.norc.org/variables/2148/vshow).
+#' For further details see the [GSS Data Explorer page for `siteyrs`](https://gssdataexplorer.norc.org/variables/2148/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `otjtrain`](https://gssdataexplorer.norc.org/variables/2149/vshow).
+#' For further details see the [GSS Data Explorer page for `otjtrain`](https://gssdataexplorer.norc.org/variables/2149/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -320,7 +320,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `formltrn`](https://gssdataexplorer.norc.org/variables/2150/vshow).
+#' For further details see the [GSS Data Explorer page for `formltrn`](https://gssdataexplorer.norc.org/variables/2150/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

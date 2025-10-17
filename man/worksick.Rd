@@ -29,7 +29,7 @@ Question During the past 3 months, how many days did you work while physically i
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7967/vshow}{GSS Data Explorer page for \code{worksick}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7967/vshow}{GSS Data Explorer page for \code{worksick}}.
 }
 
 \keyword{variable}

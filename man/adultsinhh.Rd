@@ -32,7 +32,7 @@ Question Calculated variable: Total adults in household according to roster
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7982/vshow}{GSS Data Explorer page for \code{adultsinhh}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7982/vshow}{GSS Data Explorer page for \code{adultsinhh}}.
 }
 
 \keyword{variable}

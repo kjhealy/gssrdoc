@@ -37,36 +37,20 @@ B. Those in need have to learn to take care of themselves and not depend on othe
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2891/vshow}{GSS Data Explorer page for \code{careself}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2891/vshow}{GSS Data Explorer page for \code{careself}}.
 }
 
 \seealso{
 Other Altruism: 
 \code{\link{accptoth}},
 \code{\link{carried}},
-\code{\link{cutahead}},
 \code{\link{directns}},
-\code{\link{empathy1}},
-\code{\link{empathy2}},
-\code{\link{empathy3}},
-\code{\link{empathy4}},
-\code{\link{empathy5}},
-\code{\link{empathy6}},
-\code{\link{empathy7}},
-\code{\link{givblood}},
-\code{\link{givchrty}},
-\code{\link{givhmlss}},
-\code{\link{givseat}},
 \code{\link{helpaway}},
 \code{\link{loanitem}},
 \code{\link{othshelp}},
 \code{\link{peoptrbl}},
-\code{\link{retchnge}},
 \code{\link{selffrst}},
-\code{\link{selfless}},
-\code{\link{valgiven}},
-\code{\link{volchrty}},
-\code{\link{volmonth}}
+\code{\link{selfless}}
 }
 \concept{Altruism}
 \keyword{variable}

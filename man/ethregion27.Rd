@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  Algeria
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7666/vshow}{GSS Data Explorer page for \code{ethregion27}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7666/vshow}{GSS Data Explorer page for \code{ethregion27}}.
 }
 
 \keyword{variable}

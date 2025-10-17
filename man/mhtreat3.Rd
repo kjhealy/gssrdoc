@@ -31,7 +31,7 @@ Question Is (NAME 3) currently receiving treatment for their mental health probl
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7122/vshow}{GSS Data Explorer page for \code{mhtreat3}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7122/vshow}{GSS Data Explorer page for \code{mhtreat3}}.
 }
 
 \keyword{variable}

@@ -20,7 +20,7 @@
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `femarry`](https://gssdataexplorer.norc.org/variables/4362/vshow).
+#' For further details see the [GSS Data Explorer page for `femarry`](https://gssdataexplorer.norc.org/variables/4362/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `memarry`](https://gssdataexplorer.norc.org/variables/4363/vshow).
+#' For further details see the [GSS Data Explorer page for `memarry`](https://gssdataexplorer.norc.org/variables/4363/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -93,7 +93,7 @@ NULL
 #'  |2012 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marhappy`](https://gssdataexplorer.norc.org/variables/4364/vshow).
+#' For further details see the [GSS Data Explorer page for `marhappy`](https://gssdataexplorer.norc.org/variables/4364/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marfree`](https://gssdataexplorer.norc.org/variables/4365/vshow).
+#' For further details see the [GSS Data Explorer page for `marfree`](https://gssdataexplorer.norc.org/variables/4365/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -168,7 +168,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marfin`](https://gssdataexplorer.norc.org/variables/4366/vshow).
+#' For further details see the [GSS Data Explorer page for `marfin`](https://gssdataexplorer.norc.org/variables/4366/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -205,7 +205,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `markids`](https://gssdataexplorer.norc.org/variables/4367/vshow).
+#' For further details see the [GSS Data Explorer page for `markids`](https://gssdataexplorer.norc.org/variables/4367/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -243,7 +243,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marnomar`](https://gssdataexplorer.norc.org/variables/4368/vshow).
+#' For further details see the [GSS Data Explorer page for `marnomar`](https://gssdataexplorer.norc.org/variables/4368/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marlegit`](https://gssdataexplorer.norc.org/variables/4369/vshow).
+#' For further details see the [GSS Data Explorer page for `marlegit`](https://gssdataexplorer.norc.org/variables/4369/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -320,7 +320,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marmakid`](https://gssdataexplorer.norc.org/variables/4370/vshow).
+#' For further details see the [GSS Data Explorer page for `marmakid`](https://gssdataexplorer.norc.org/variables/4370/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -357,7 +357,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marpakid`](https://gssdataexplorer.norc.org/variables/4371/vshow).
+#' For further details see the [GSS Data Explorer page for `marpakid`](https://gssdataexplorer.norc.org/variables/4371/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

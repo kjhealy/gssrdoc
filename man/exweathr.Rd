@@ -33,7 +33,7 @@ Question To what degree was your neighborhood affected by extreme weather over t
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7503/vshow}{GSS Data Explorer page for \code{exweathr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7503/vshow}{GSS Data Explorer page for \code{exweathr}}.
 }
 
 \keyword{variable}

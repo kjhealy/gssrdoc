@@ -33,14 +33,12 @@ Question B. In the last 12 months have you received any formal training from you
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3559/vshow}{GSS Data Explorer page for \code{emptrain}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3559/vshow}{GSS Data Explorer page for \code{emptrain}}.
 }
 
 \seealso{
 Other Shared Capitalism: 
-\code{\link{buyvalue}},
 \code{\link{compwage}},
-\code{\link{defpensn}},
 \code{\link{empinput}},
 \code{\link{esop}},
 \code{\link{extr2005}},
@@ -48,7 +46,6 @@ Other Shared Capitalism:
 \code{\link{ops2005}},
 \code{\link{slfmangd}},
 \code{\link{talkteam}},
-\code{\link{trdestck}},
 \code{\link{wealth}}
 }
 \concept{Shared Capitalism}

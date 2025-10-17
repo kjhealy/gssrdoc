@@ -25,7 +25,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `books16`](https://gssdataexplorer.norc.org/variables/4342/vshow).
+#' For further details see the [GSS Data Explorer page for `books16`](https://gssdataexplorer.norc.org/variables/4342/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -64,7 +64,7 @@ NULL
 #'  |2012 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mawrkwrm`](https://gssdataexplorer.norc.org/variables/4343/vshow).
+#' For further details see the [GSS Data Explorer page for `mawrkwrm`](https://gssdataexplorer.norc.org/variables/4343/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -103,7 +103,7 @@ NULL
 #'  |2012 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidsuffr`](https://gssdataexplorer.norc.org/variables/4344/vshow).
+#' For further details see the [GSS Data Explorer page for `kidsuffr`](https://gssdataexplorer.norc.org/variables/4344/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -145,7 +145,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famsuffr`](https://gssdataexplorer.norc.org/variables/4345/vshow).
+#' For further details see the [GSS Data Explorer page for `famsuffr`](https://gssdataexplorer.norc.org/variables/4345/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -181,7 +181,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hapifwrk`](https://gssdataexplorer.norc.org/variables/4346/vshow).
+#' For further details see the [GSS Data Explorer page for `hapifwrk`](https://gssdataexplorer.norc.org/variables/4346/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `homekid`](https://gssdataexplorer.norc.org/variables/4347/vshow).
+#' For further details see the [GSS Data Explorer page for `homekid`](https://gssdataexplorer.norc.org/variables/4347/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `housewrk`](https://gssdataexplorer.norc.org/variables/4348/vshow).
+#' For further details see the [GSS Data Explorer page for `housewrk`](https://gssdataexplorer.norc.org/variables/4348/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -299,7 +299,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fejobind`](https://gssdataexplorer.norc.org/variables/4349/vshow).
+#' For further details see the [GSS Data Explorer page for `fejobind`](https://gssdataexplorer.norc.org/variables/4349/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -337,7 +337,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `twoincs`](https://gssdataexplorer.norc.org/variables/4350/vshow).
+#' For further details see the [GSS Data Explorer page for `twoincs`](https://gssdataexplorer.norc.org/variables/4350/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -378,7 +378,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hubbywrk`](https://gssdataexplorer.norc.org/variables/4351/vshow).
+#' For further details see the [GSS Data Explorer page for `hubbywrk`](https://gssdataexplorer.norc.org/variables/4351/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -18,7 +18,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `samejob`](https://gssdataexplorer.norc.org/variables/1290/vshow).
+#' For further details see the [GSS Data Explorer page for `samejob`](https://gssdataexplorer.norc.org/variables/1290/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -49,7 +49,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobyears`](https://gssdataexplorer.norc.org/variables/1291/vshow).
+#' For further details see the [GSS Data Explorer page for `jobyears`](https://gssdataexplorer.norc.org/variables/1291/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `thisjob1`](https://gssdataexplorer.norc.org/variables/1292/vshow).
+#' For further details see the [GSS Data Explorer page for `thisjob1`](https://gssdataexplorer.norc.org/variables/1292/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -115,7 +115,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `thisjob2`](https://gssdataexplorer.norc.org/variables/1293/vshow).
+#' For further details see the [GSS Data Explorer page for `thisjob2`](https://gssdataexplorer.norc.org/variables/1293/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -148,7 +148,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `thisjob3`](https://gssdataexplorer.norc.org/variables/1294/vshow).
+#' For further details see the [GSS Data Explorer page for `thisjob3`](https://gssdataexplorer.norc.org/variables/1294/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -181,7 +181,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `thisjob4`](https://gssdataexplorer.norc.org/variables/1295/vshow).
+#' For further details see the [GSS Data Explorer page for `thisjob4`](https://gssdataexplorer.norc.org/variables/1295/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `thisjob5`](https://gssdataexplorer.norc.org/variables/1296/vshow).
+#' For further details see the [GSS Data Explorer page for `thisjob5`](https://gssdataexplorer.norc.org/variables/1296/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,7 +247,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `thisjob6`](https://gssdataexplorer.norc.org/variables/1297/vshow).
+#' For further details see the [GSS Data Explorer page for `thisjob6`](https://gssdataexplorer.norc.org/variables/1297/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `thisjob7`](https://gssdataexplorer.norc.org/variables/1298/vshow).
+#' For further details see the [GSS Data Explorer page for `thisjob7`](https://gssdataexplorer.norc.org/variables/1298/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -314,7 +314,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `promotng`](https://gssdataexplorer.norc.org/variables/1299/vshow).
+#' For further details see the [GSS Data Explorer page for `promotng`](https://gssdataexplorer.norc.org/variables/1299/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -33,7 +33,7 @@ Question Thinking about the important people in your life, such as your spouse o
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7260/vshow}{GSS Data Explorer page for \code{upset}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7260/vshow}{GSS Data Explorer page for \code{upset}}.
 }
 
 \keyword{variable}

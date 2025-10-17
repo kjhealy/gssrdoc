@@ -33,7 +33,7 @@ Question Only those who accept Jesus Christ alone as their Savior can achieve et
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7533/vshow}{GSS Data Explorer page for \code{chrstsav}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7533/vshow}{GSS Data Explorer page for \code{chrstsav}}.
 }
 
 \keyword{variable}

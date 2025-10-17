@@ -30,7 +30,7 @@ Question During the last 12 months, have you read or listened to the reading of 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7278/vshow}{GSS Data Explorer page for \code{relscrpt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7278/vshow}{GSS Data Explorer page for \code{relscrpt}}.
 }
 
 \keyword{variable}

@@ -34,7 +34,7 @@ be too careful in dealing with people?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7613/vshow}{GSS Data Explorer page for \code{trustnv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7613/vshow}{GSS Data Explorer page for \code{trustnv}}.
 }
 
 \keyword{variable}

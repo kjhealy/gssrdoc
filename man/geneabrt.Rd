@@ -34,7 +34,7 @@ Question Suppose a test shows the baby has a serious genetic defect. Would you (
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5089/vshow}{GSS Data Explorer page for \code{geneabrt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5089/vshow}{GSS Data Explorer page for \code{geneabrt}}.
 }
 
 \seealso{
@@ -44,10 +44,7 @@ Other Genes:
 \code{\link{genedef3}},
 \code{\link{genegoo1}},
 \code{\link{genegoo2}},
-\code{\link{genegood}},
-\code{\link{geneself}},
-\code{\link{genetest}},
-\code{\link{genetst1}}
+\code{\link{geneself}}
 }
 \concept{Genes}
 \keyword{variable}

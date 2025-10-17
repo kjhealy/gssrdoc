@@ -127,7 +127,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spanself`](https://gssdataexplorer.norc.org/variables/5582/vshow).
+#' For further details see the [GSS Data Explorer page for `spanself`](https://gssdataexplorer.norc.org/variables/5582/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spanint`](https://gssdataexplorer.norc.org/variables/5583/vshow).
+#' For further details see the [GSS Data Explorer page for `spanint`](https://gssdataexplorer.norc.org/variables/5583/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -232,7 +232,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spaneng`](https://gssdataexplorer.norc.org/variables/5584/vshow).
+#' For further details see the [GSS Data Explorer page for `spaneng`](https://gssdataexplorer.norc.org/variables/5584/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -265,7 +265,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `res2006`](https://gssdataexplorer.norc.org/variables/5585/vshow).
+#' For further details see the [GSS Data Explorer page for `res2006`](https://gssdataexplorer.norc.org/variables/5585/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `res2008`](https://gssdataexplorer.norc.org/variables/5586/vshow).
+#' For further details see the [GSS Data Explorer page for `res2008`](https://gssdataexplorer.norc.org/variables/5586/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -331,7 +331,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `res2010`](https://gssdataexplorer.norc.org/variables/5587/vshow).
+#' For further details see the [GSS Data Explorer page for `res2010`](https://gssdataexplorer.norc.org/variables/5587/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -363,7 +363,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `res2012`](https://gssdataexplorer.norc.org/variables/5588/vshow).
+#' For further details see the [GSS Data Explorer page for `res2012`](https://gssdataexplorer.norc.org/variables/5588/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -398,7 +398,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cshutyp06`](https://gssdataexplorer.norc.org/variables/5589/vshow).
+#' For further details see the [GSS Data Explorer page for `cshutyp06`](https://gssdataexplorer.norc.org/variables/5589/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

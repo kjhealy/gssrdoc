@@ -30,19 +30,13 @@ Question Are you, alone or with others, currently the owner of a business you he
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3815/vshow}{GSS Data Explorer page for \code{ownbiz}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3815/vshow}{GSS Data Explorer page for \code{ownbiz}}.
 }
 
 \seealso{
 Other Self Employment: 
-\code{\link{bizgross}},
-\code{\link{bizshare}},
-\code{\link{numemps5}},
 \code{\link{numown}},
-\code{\link{owninc}},
-\code{\link{paidemps}},
 \code{\link{startbiz}},
-\code{\link{whybiz}},
 \code{\link{yearbiz}}
 }
 \concept{Self Employment}

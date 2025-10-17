@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  Papua New Guin
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7731/vshow}{GSS Data Explorer page for \code{ethregion92}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7731/vshow}{GSS Data Explorer page for \code{ethregion92}}.
 }
 
 \keyword{variable}

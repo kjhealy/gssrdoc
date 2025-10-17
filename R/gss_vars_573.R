@@ -22,7 +22,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tapwrk`](https://gssdataexplorer.norc.org/variables/5253/vshow).
+#' For further details see the [GSS Data Explorer page for `tapwrk`](https://gssdataexplorer.norc.org/variables/5253/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taphme`](https://gssdataexplorer.norc.org/variables/5254/vshow).
+#' For further details see the [GSS Data Explorer page for `taphme`](https://gssdataexplorer.norc.org/variables/5254/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `srchwrk`](https://gssdataexplorer.norc.org/variables/5255/vshow).
+#' For further details see the [GSS Data Explorer page for `srchwrk`](https://gssdataexplorer.norc.org/variables/5255/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `camwrk`](https://gssdataexplorer.norc.org/variables/5256/vshow).
+#' For further details see the [GSS Data Explorer page for `camwrk`](https://gssdataexplorer.norc.org/variables/5256/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -164,7 +164,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `usspy`](https://gssdataexplorer.norc.org/variables/5257/vshow).
+#' For further details see the [GSS Data Explorer page for `usspy`](https://gssdataexplorer.norc.org/variables/5257/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -198,7 +198,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `forspy`](https://gssdataexplorer.norc.org/variables/5258/vshow).
+#' For further details see the [GSS Data Explorer page for `forspy`](https://gssdataexplorer.norc.org/variables/5258/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -232,7 +232,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `usterror`](https://gssdataexplorer.norc.org/variables/5259/vshow).
+#' For further details see the [GSS Data Explorer page for `usterror`](https://gssdataexplorer.norc.org/variables/5259/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frterror`](https://gssdataexplorer.norc.org/variables/5260/vshow).
+#' For further details see the [GSS Data Explorer page for `frterror`](https://gssdataexplorer.norc.org/variables/5260/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -300,7 +300,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `forsteal`](https://gssdataexplorer.norc.org/variables/5261/vshow).
+#' For further details see the [GSS Data Explorer page for `forsteal`](https://gssdataexplorer.norc.org/variables/5261/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -334,7 +334,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nuclrwar`](https://gssdataexplorer.norc.org/variables/5262/vshow).
+#' For further details see the [GSS Data Explorer page for `nuclrwar`](https://gssdataexplorer.norc.org/variables/5262/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

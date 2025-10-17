@@ -40,7 +40,7 @@ Question Please give a general estimate of the total value of all shares of comp
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7847/vshow}{GSS Data Explorer page for \code{stockyrval}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7847/vshow}{GSS Data Explorer page for \code{stockyrval}}.
 }
 
 \keyword{variable}

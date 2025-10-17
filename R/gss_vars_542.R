@@ -21,7 +21,7 @@
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chngeoth`](https://gssdataexplorer.norc.org/variables/4948/vshow).
+#' For further details see the [GSS Data Explorer page for `chngeoth`](https://gssdataexplorer.norc.org/variables/4948/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `powerun`](https://gssdataexplorer.norc.org/variables/4949/vshow).
+#' For further details see the [GSS Data Explorer page for `powerun`](https://gssdataexplorer.norc.org/variables/4949/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govngos`](https://gssdataexplorer.norc.org/variables/4950/vshow).
+#' For further details see the [GSS Data Explorer page for `govngos`](https://gssdataexplorer.norc.org/variables/4950/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -120,7 +120,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `unrghts`](https://gssdataexplorer.norc.org/variables/4951/vshow).
+#' For further details see the [GSS Data Explorer page for `unrghts`](https://gssdataexplorer.norc.org/variables/4951/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -157,7 +157,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polactve`](https://gssdataexplorer.norc.org/variables/4952/vshow).
+#' For further details see the [GSS Data Explorer page for `polactve`](https://gssdataexplorer.norc.org/variables/4952/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -194,7 +194,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `choices`](https://gssdataexplorer.norc.org/variables/4953/vshow).
+#' For further details see the [GSS Data Explorer page for `choices`](https://gssdataexplorer.norc.org/variables/4953/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `refrndms`](https://gssdataexplorer.norc.org/variables/4954/vshow).
+#' For further details see the [GSS Data Explorer page for `refrndms`](https://gssdataexplorer.norc.org/variables/4954/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -267,7 +267,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `elecvote`](https://gssdataexplorer.norc.org/variables/4955/vshow).
+#' For further details see the [GSS Data Explorer page for `elecvote`](https://gssdataexplorer.norc.org/variables/4955/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -303,7 +303,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `elecfair`](https://gssdataexplorer.norc.org/variables/4956/vshow).
+#' For further details see the [GSS Data Explorer page for `elecfair`](https://gssdataexplorer.norc.org/variables/4956/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `servepeo`](https://gssdataexplorer.norc.org/variables/4957/vshow).
+#' For further details see the [GSS Data Explorer page for `servepeo`](https://gssdataexplorer.norc.org/variables/4957/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -31,7 +31,7 @@ Question If you were asked to rate your overall life from 0-10, where 10 represe
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7156/vshow}{GSS Data Explorer page for \code{lifenow}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7156/vshow}{GSS Data Explorer page for \code{lifenow}}.
 }
 
 \keyword{variable}

@@ -32,7 +32,7 @@ Question If someone criticized your religion, to what extent would it feel like 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7529/vshow}{GSS Data Explorer page for \code{relidins}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7529/vshow}{GSS Data Explorer page for \code{relidins}}.
 }
 
 \keyword{variable}

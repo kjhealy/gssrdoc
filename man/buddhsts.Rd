@@ -33,7 +33,7 @@ Question What is your personal attitude towards members of the following religio
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7289/vshow}{GSS Data Explorer page for \code{buddhsts}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7289/vshow}{GSS Data Explorer page for \code{buddhsts}}.
 }
 
 \keyword{variable}

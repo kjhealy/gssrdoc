@@ -32,7 +32,7 @@ Question Do you know a woman or a man who isï¿½A lawyer
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7234/vshow}{GSS Data Explorer page for \code{knwlawyr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7234/vshow}{GSS Data Explorer page for \code{knwlawyr}}.
 }
 
 \keyword{variable}

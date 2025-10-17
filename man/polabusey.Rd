@@ -32,7 +32,7 @@ Question (Would you approve of a policeman striking a citizen who...) Had said v
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7448/vshow}{GSS Data Explorer page for \code{polabusey}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7448/vshow}{GSS Data Explorer page for \code{polabusey}}.
 }
 
 \keyword{variable}

@@ -35,7 +35,7 @@ Question How physically attractive is the respondent?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6659/vshow}{GSS Data Explorer page for \code{rlooks}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6659/vshow}{GSS Data Explorer page for \code{rlooks}}.
 }
 
 \keyword{variable}

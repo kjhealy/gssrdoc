@@ -54,19 +54,11 @@ K. Total number of correct words.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5305/vshow}{GSS Data Explorer page for \code{wordsum}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5305/vshow}{GSS Data Explorer page for \code{wordsum}}.
 }
 
 \seealso{
 Other Vocabulary: 
-\code{\link{worda}},
-\code{\link{wordb}},
-\code{\link{wordc}},
-\code{\link{wordd}},
-\code{\link{worde}},
-\code{\link{wordf}},
-\code{\link{wordg}},
-\code{\link{wordh}},
 \code{\link{wordi}},
 \code{\link{wordj}}
 }

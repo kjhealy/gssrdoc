@@ -33,7 +33,7 @@ Question In the United States, do you think it is easier or harder to get access
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7798/vshow}{GSS Data Explorer page for \code{hlthacc2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7798/vshow}{GSS Data Explorer page for \code{hlthacc2}}.
 }
 
 \keyword{variable}

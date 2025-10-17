@@ -433,4 +433,4 @@ gen_rds <- function(r_file) {
 gss_varfiles <- fs::dir_ls(here::here("R"), glob = "*vars*")
 furrr::future_walk(gss_varfiles, gen_rds)
 
-## Or do it single-threaded to guarantee crossrefs
+## Or do it single-threaded to guarantee crossrefs; but then the package is huge again.

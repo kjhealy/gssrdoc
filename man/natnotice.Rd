@@ -32,7 +32,7 @@ Question In my everyday life, I take notice of the natural elements around me (t
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7184/vshow}{GSS Data Explorer page for \code{natnotice}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7184/vshow}{GSS Data Explorer page for \code{natnotice}}.
 }
 
 \keyword{variable}

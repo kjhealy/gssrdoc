@@ -25,7 +25,7 @@
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conchurh`](https://gssdataexplorer.norc.org/variables/4642/vshow).
+#' For further details see the [GSS Data Explorer page for `conchurh`](https://gssdataexplorer.norc.org/variables/4642/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -64,7 +64,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `concourt`](https://gssdataexplorer.norc.org/variables/4643/vshow).
+#' For further details see the [GSS Data Explorer page for `concourt`](https://gssdataexplorer.norc.org/variables/4643/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -103,7 +103,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conschls`](https://gssdataexplorer.norc.org/variables/4644/vshow).
+#' For further details see the [GSS Data Explorer page for `conschls`](https://gssdataexplorer.norc.org/variables/4644/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -139,7 +139,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polsgod`](https://gssdataexplorer.norc.org/variables/4645/vshow).
+#' For further details see the [GSS Data Explorer page for `polsgod`](https://gssdataexplorer.norc.org/variables/4645/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -178,7 +178,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clergvte`](https://gssdataexplorer.norc.org/variables/4646/vshow).
+#' For further details see the [GSS Data Explorer page for `clergvte`](https://gssdataexplorer.norc.org/variables/4646/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `religpub`](https://gssdataexplorer.norc.org/variables/4647/vshow).
+#' For further details see the [GSS Data Explorer page for `religpub`](https://gssdataexplorer.norc.org/variables/4647/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -252,7 +252,7 @@ NULL
 #'  |2008 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clerggov`](https://gssdataexplorer.norc.org/variables/4648/vshow).
+#' For further details see the [GSS Data Explorer page for `clerggov`](https://gssdataexplorer.norc.org/variables/4648/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -290,7 +290,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `churhpow`](https://gssdataexplorer.norc.org/variables/4649/vshow).
+#' For further details see the [GSS Data Explorer page for `churhpow`](https://gssdataexplorer.norc.org/variables/4649/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -328,7 +328,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godchnge`](https://gssdataexplorer.norc.org/variables/4650/vshow).
+#' For further details see the [GSS Data Explorer page for `godchnge`](https://gssdataexplorer.norc.org/variables/4650/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -366,7 +366,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `afterlif`](https://gssdataexplorer.norc.org/variables/4651/vshow).
+#' For further details see the [GSS Data Explorer page for `afterlif`](https://gssdataexplorer.norc.org/variables/4651/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

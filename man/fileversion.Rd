@@ -22,7 +22,7 @@ Question fileversion
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org}{GSS Data Explorer page for \code{fileversion}}.
+For further details see the \href{https://gssdataexplorer.norc.org}{GSS Data Explorer page for \code{fileversion}}.
 }
 
 \keyword{variable}

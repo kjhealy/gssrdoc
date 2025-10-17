@@ -37,7 +37,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `papres16`](https://gssdataexplorer.norc.org/variables/37/vshow).
+#' For further details see the [GSS Data Explorer page for `papres16`](https://gssdataexplorer.norc.org/variables/37/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -107,7 +107,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pawrkslf`](https://gssdataexplorer.norc.org/variables/38/vshow).
+#' For further details see the [GSS Data Explorer page for `pawrkslf`](https://gssdataexplorer.norc.org/variables/38/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -370,7 +370,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paind16`](https://gssdataexplorer.norc.org/variables/39/vshow).
+#' For further details see the [GSS Data Explorer page for `paind16`](https://gssdataexplorer.norc.org/variables/39/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -962,7 +962,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `papres80`](https://gssdataexplorer.norc.org/variables/41/vshow).
+#' For further details see the [GSS Data Explorer page for `papres80`](https://gssdataexplorer.norc.org/variables/41/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1237,7 +1237,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paind80`](https://gssdataexplorer.norc.org/variables/42/vshow).
+#' For further details see the [GSS Data Explorer page for `paind80`](https://gssdataexplorer.norc.org/variables/42/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1898,7 +1898,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paoccindv`](https://gssdataexplorer.norc.org/variables/5991/vshow).
+#' For further details see the [GSS Data Explorer page for `paoccindv`](https://gssdataexplorer.norc.org/variables/5991/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1962,7 +1962,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paoccstatus`](https://gssdataexplorer.norc.org/variables/5992/vshow).
+#' For further details see the [GSS Data Explorer page for `paoccstatus`](https://gssdataexplorer.norc.org/variables/5992/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -2022,7 +2022,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paocctag`](https://gssdataexplorer.norc.org/variables/5993/vshow).
+#' For further details see the [GSS Data Explorer page for `paocctag`](https://gssdataexplorer.norc.org/variables/5993/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

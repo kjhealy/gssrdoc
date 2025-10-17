@@ -30,7 +30,7 @@ Question Did you receive any of these performance-based payments in the year 202
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7850/vshow}{GSS Data Explorer page for \code{extr2021}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7850/vshow}{GSS Data Explorer page for \code{extr2021}}.
 }
 
 \keyword{variable}

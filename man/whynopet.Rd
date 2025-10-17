@@ -37,7 +37,7 @@ Question Why doesnï¿½t your family have a pet? Please choose the most importa
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7195/vshow}{GSS Data Explorer page for \code{whynopet}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7195/vshow}{GSS Data Explorer page for \code{whynopet}}.
 }
 
 \keyword{variable}

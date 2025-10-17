@@ -33,7 +33,7 @@ Question And do you think that modifying the genes of certain crops isâ€¦
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7493/vshow}{GSS Data Explorer page for \code{genegen1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7493/vshow}{GSS Data Explorer page for \code{genegen1}}.
 }
 
 \keyword{variable}

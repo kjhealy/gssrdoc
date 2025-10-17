@@ -183,7 +183,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkstat`](https://gssdataexplorer.norc.org/variables/3/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkstat`](https://gssdataexplorer.norc.org/variables/3/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -248,7 +248,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hrs1`](https://gssdataexplorer.norc.org/variables/4/vshow).
+#' For further details see the [GSS Data Explorer page for `hrs1`](https://gssdataexplorer.norc.org/variables/4/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -313,7 +313,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hrs2`](https://gssdataexplorer.norc.org/variables/5/vshow).
+#' For further details see the [GSS Data Explorer page for `hrs2`](https://gssdataexplorer.norc.org/variables/5/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -380,7 +380,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evwork`](https://gssdataexplorer.norc.org/variables/6/vshow).
+#' For further details see the [GSS Data Explorer page for `evwork`](https://gssdataexplorer.norc.org/variables/6/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -488,7 +488,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prestige`](https://gssdataexplorer.norc.org/variables/8/vshow).
+#' For further details see the [GSS Data Explorer page for `prestige`](https://gssdataexplorer.norc.org/variables/8/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -562,7 +562,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkslf`](https://gssdataexplorer.norc.org/variables/9/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkslf`](https://gssdataexplorer.norc.org/variables/9/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -613,7 +613,7 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkgovt`](https://gssdataexplorer.norc.org/variables/10/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkgovt`](https://gssdataexplorer.norc.org/variables/10/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

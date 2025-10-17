@@ -50,7 +50,7 @@
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spoccstatus`](https://gssdataexplorer.norc.org/variables/5987/vshow).
+#' For further details see the [GSS Data Explorer page for `spoccstatus`](https://gssdataexplorer.norc.org/variables/5987/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -110,7 +110,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spocctag`](https://gssdataexplorer.norc.org/variables/5988/vshow).
+#' For further details see the [GSS Data Explorer page for `spocctag`](https://gssdataexplorer.norc.org/variables/5988/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -175,7 +175,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sppres10`](https://gssdataexplorer.norc.org/variables/5708/vshow).
+#' For further details see the [GSS Data Explorer page for `sppres10`](https://gssdataexplorer.norc.org/variables/5708/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sppres105plus`](https://gssdataexplorer.norc.org/variables/5709/vshow).
+#' For further details see the [GSS Data Explorer page for `sppres105plus`](https://gssdataexplorer.norc.org/variables/5709/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -575,7 +575,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spind10`](https://gssdataexplorer.norc.org/variables/35/vshow).
+#' For further details see the [GSS Data Explorer page for `spind10`](https://gssdataexplorer.norc.org/variables/35/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -639,7 +639,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spindstatus`](https://gssdataexplorer.norc.org/variables/5989/vshow).
+#' For further details see the [GSS Data Explorer page for `spindstatus`](https://gssdataexplorer.norc.org/variables/5989/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -699,7 +699,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spindtag`](https://gssdataexplorer.norc.org/variables/5990/vshow).
+#' For further details see the [GSS Data Explorer page for `spindtag`](https://gssdataexplorer.norc.org/variables/5990/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1582,7 +1582,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `coind10`](https://gssdataexplorer.norc.org/variables/6158/vshow).
+#' For further details see the [GSS Data Explorer page for `coind10`](https://gssdataexplorer.norc.org/variables/6158/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1633,7 +1633,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paocc16`](https://gssdataexplorer.norc.org/variables/36/vshow).
+#' For further details see the [GSS Data Explorer page for `paocc16`](https://gssdataexplorer.norc.org/variables/36/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

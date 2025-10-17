@@ -30,33 +30,20 @@ Question Have you, or anyone in your household, ever had difficulty getting a te
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2746/vshow}{GSS Data Explorer page for \code{diffcare}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2746/vshow}{GSS Data Explorer page for \code{diffcare}}.
 }
 
 \seealso{
 Other Doctors & Patients: 
 \code{\link{belvedoc}},
 \code{\link{chosedoc}},
-\code{\link{docaskme}},
-\code{\link{doccosts}},
-\code{\link{docdecid}},
-\code{\link{docinfo}},
-\code{\link{docnomri}},
-\code{\link{docrely}},
-\code{\link{docsat}},
-\code{\link{docswtch}},
-\code{\link{docvig}},
 \code{\link{fininc}},
 \code{\link{fininc1}},
 \code{\link{fininc2}},
 \code{\link{fininc3}},
 \code{\link{fininc4}},
 \code{\link{hlthplan}},
-\code{\link{insrchng}},
-\code{\link{insrlmts}},
-\code{\link{regdoc}},
-\code{\link{regdocyr}},
-\code{\link{secopin}}
+\code{\link{insrlmts}}
 }
 \concept{Doctors & Patients}
 \keyword{variable}

@@ -31,7 +31,7 @@
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `condom`](https://gssdataexplorer.norc.org/variables/5068/vshow).
+#' For further details see the [GSS Data Explorer page for `condom`](https://gssdataexplorer.norc.org/variables/5068/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -76,7 +76,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relatsex`](https://gssdataexplorer.norc.org/variables/5069/vshow).
+#' For further details see the [GSS Data Explorer page for `relatsex`](https://gssdataexplorer.norc.org/variables/5069/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -119,7 +119,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evidu`](https://gssdataexplorer.norc.org/variables/5070/vshow).
+#' For further details see the [GSS Data Explorer page for `evidu`](https://gssdataexplorer.norc.org/variables/5070/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -164,7 +164,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `idu30`](https://gssdataexplorer.norc.org/variables/5071/vshow).
+#' For further details see the [GSS Data Explorer page for `idu30`](https://gssdataexplorer.norc.org/variables/5071/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -207,7 +207,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evcrack`](https://gssdataexplorer.norc.org/variables/5072/vshow).
+#' For further details see the [GSS Data Explorer page for `evcrack`](https://gssdataexplorer.norc.org/variables/5072/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -252,7 +252,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `crack30`](https://gssdataexplorer.norc.org/variables/5073/vshow).
+#' For further details see the [GSS Data Explorer page for `crack30`](https://gssdataexplorer.norc.org/variables/5073/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hivtest`](https://gssdataexplorer.norc.org/variables/5074/vshow).
+#' For further details see the [GSS Data Explorer page for `hivtest`](https://gssdataexplorer.norc.org/variables/5074/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1038,7 +1038,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hivtest2`](https://gssdataexplorer.norc.org/variables/5076/vshow).
+#' For further details see the [GSS Data Explorer page for `hivtest2`](https://gssdataexplorer.norc.org/variables/5076/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1070,7 +1070,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidslook`](https://gssdataexplorer.norc.org/variables/5077/vshow).
+#' For further details see the [GSS Data Explorer page for `aidslook`](https://gssdataexplorer.norc.org/variables/5077/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

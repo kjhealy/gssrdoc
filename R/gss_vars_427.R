@@ -25,7 +25,7 @@
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `attractd`](https://gssdataexplorer.norc.org/variables/3908/vshow).
+#' For further details see the [GSS Data Explorer page for `attractd`](https://gssdataexplorer.norc.org/variables/3908/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -64,7 +64,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `toldsxor`](https://gssdataexplorer.norc.org/variables/3909/vshow).
+#' For further details see the [GSS Data Explorer page for `toldsxor`](https://gssdataexplorer.norc.org/variables/3909/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -99,7 +99,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relgendr`](https://gssdataexplorer.norc.org/variables/3910/vshow).
+#' For further details see the [GSS Data Explorer page for `relgendr`](https://gssdataexplorer.norc.org/variables/3910/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -133,7 +133,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marunion`](https://gssdataexplorer.norc.org/variables/3911/vshow).
+#' For further details see the [GSS Data Explorer page for `marunion`](https://gssdataexplorer.norc.org/variables/3911/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -165,7 +165,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexunion`](https://gssdataexplorer.norc.org/variables/3912/vshow).
+#' For further details see the [GSS Data Explorer page for `sexunion`](https://gssdataexplorer.norc.org/variables/3912/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -197,7 +197,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evkid`](https://gssdataexplorer.norc.org/variables/3913/vshow).
+#' For further details see the [GSS Data Explorer page for `evkid`](https://gssdataexplorer.norc.org/variables/3913/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -229,7 +229,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `adoptkid`](https://gssdataexplorer.norc.org/variables/3914/vshow).
+#' For further details see the [GSS Data Explorer page for `adoptkid`](https://gssdataexplorer.norc.org/variables/3914/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidlived`](https://gssdataexplorer.norc.org/variables/3915/vshow).
+#' For further details see the [GSS Data Explorer page for `kidlived`](https://gssdataexplorer.norc.org/variables/3915/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -293,7 +293,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidresp`](https://gssdataexplorer.norc.org/variables/3916/vshow).
+#' For further details see the [GSS Data Explorer page for `kidresp`](https://gssdataexplorer.norc.org/variables/3916/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidnow1`](https://gssdataexplorer.norc.org/variables/3917/vshow).
+#' For further details see the [GSS Data Explorer page for `kidnow1`](https://gssdataexplorer.norc.org/variables/3917/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

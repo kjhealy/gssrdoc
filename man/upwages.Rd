@@ -33,7 +33,7 @@ Question The government should ensure that the wages of low-paying jobs increase
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7549/vshow}{GSS Data Explorer page for \code{upwages}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7549/vshow}{GSS Data Explorer page for \code{upwages}}.
 }
 
 \keyword{variable}

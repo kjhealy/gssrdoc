@@ -32,22 +32,18 @@ Question When you think about yourself, how important is your ethnic group membe
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2725/vshow}{GSS Data Explorer page for \code{ethimp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2725/vshow}{GSS Data Explorer page for \code{ethimp}}.
 }
 
 \seealso{
 Other Prejudice: 
 \code{\link{ethadapt}},
-\code{\link{ethdiff}},
 \code{\link{ethignor}},
 \code{\link{ethnofit}},
-\code{\link{ethsame}},
 \code{\link{ethtrads}},
 \code{\link{feelasns}},
 \code{\link{feelblks}},
-\code{\link{feelhsps}},
-\code{\link{feelwhts}},
-\code{\link{whtsdiff}}
+\code{\link{feelhsps}}
 }
 \concept{Prejudice}
 \keyword{variable}

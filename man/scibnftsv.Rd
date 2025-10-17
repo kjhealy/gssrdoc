@@ -31,7 +31,7 @@ Question Now for another type of question. People have frequently noted that sci
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7603/vshow}{GSS Data Explorer page for \code{scibnftsv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7603/vshow}{GSS Data Explorer page for \code{scibnftsv}}.
 }
 
 \keyword{variable}

@@ -31,7 +31,7 @@ Question What sex were you assigned at birth? (For example, on your birth certif
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7292/vshow}{GSS Data Explorer page for \code{sexbirth}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7292/vshow}{GSS Data Explorer page for \code{sexbirth}}.
 }
 
 \keyword{variable}

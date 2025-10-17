@@ -21,7 +21,7 @@
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `drinkday1`](https://gssdataexplorer.norc.org/variables/7835/vshow).
+#' For further details see the [GSS Data Explorer page for `drinkday1`](https://gssdataexplorer.norc.org/variables/7835/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `physact`](https://gssdataexplorer.norc.org/variables/7836/vshow).
+#' For further details see the [GSS Data Explorer page for `physact`](https://gssdataexplorer.norc.org/variables/7836/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frtvegs`](https://gssdataexplorer.norc.org/variables/7837/vshow).
+#' For further details see the [GSS Data Explorer page for `frtvegs`](https://gssdataexplorer.norc.org/variables/7837/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -123,7 +123,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `disblty`](https://gssdataexplorer.norc.org/variables/7838/vshow).
+#' For further details see the [GSS Data Explorer page for `disblty`](https://gssdataexplorer.norc.org/variables/7838/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `weight_issp`](https://gssdataexplorer.norc.org/variables/7839/vshow).
+#' For further details see the [GSS Data Explorer page for `weight_issp`](https://gssdataexplorer.norc.org/variables/7839/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -188,7 +188,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `shutbus`](https://gssdataexplorer.norc.org/variables/7840/vshow).
+#' For further details see the [GSS Data Explorer page for `shutbus`](https://gssdataexplorer.norc.org/variables/7840/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -222,7 +222,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stayhome`](https://gssdataexplorer.norc.org/variables/7841/vshow).
+#' For further details see the [GSS Data Explorer page for `stayhome`](https://gssdataexplorer.norc.org/variables/7841/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mobilsurv`](https://gssdataexplorer.norc.org/variables/7842/vshow).
+#' For further details see the [GSS Data Explorer page for `mobilsurv`](https://gssdataexplorer.norc.org/variables/7842/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -290,7 +290,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `reqmasks`](https://gssdataexplorer.norc.org/variables/7843/vshow).
+#' For further details see the [GSS Data Explorer page for `reqmasks`](https://gssdataexplorer.norc.org/variables/7843/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bangather`](https://gssdataexplorer.norc.org/variables/7844/vshow).
+#' For further details see the [GSS Data Explorer page for `bangather`](https://gssdataexplorer.norc.org/variables/7844/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -30,7 +30,7 @@ Question Past pet - Cat
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7211/vshow}{GSS Data Explorer page for \code{catb4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7211/vshow}{GSS Data Explorer page for \code{catb4}}.
 }
 
 \keyword{variable}

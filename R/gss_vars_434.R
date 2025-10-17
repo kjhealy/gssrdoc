@@ -22,7 +22,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ratetone`](https://gssdataexplorer.norc.org/variables/3978/vshow).
+#' For further details see the [GSS Data Explorer page for `ratetone`](https://gssdataexplorer.norc.org/variables/3978/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pubdef`](https://gssdataexplorer.norc.org/variables/3979/vshow).
+#' For further details see the [GSS Data Explorer page for `pubdef`](https://gssdataexplorer.norc.org/variables/3979/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pubecon`](https://gssdataexplorer.norc.org/variables/3980/vshow).
+#' For further details see the [GSS Data Explorer page for `pubecon`](https://gssdataexplorer.norc.org/variables/3980/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obeylaw`](https://gssdataexplorer.norc.org/variables/3981/vshow).
+#' For further details see the [GSS Data Explorer page for `obeylaw`](https://gssdataexplorer.norc.org/variables/3981/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -163,7 +163,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `protest1`](https://gssdataexplorer.norc.org/variables/3982/vshow).
+#' For further details see the [GSS Data Explorer page for `protest1`](https://gssdataexplorer.norc.org/variables/3982/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -199,7 +199,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `protest2`](https://gssdataexplorer.norc.org/variables/3983/vshow).
+#' For further details see the [GSS Data Explorer page for `protest2`](https://gssdataexplorer.norc.org/variables/3983/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `protest3`](https://gssdataexplorer.norc.org/variables/3984/vshow).
+#' For further details see the [GSS Data Explorer page for `protest3`](https://gssdataexplorer.norc.org/variables/3984/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `protest4`](https://gssdataexplorer.norc.org/variables/3985/vshow).
+#' For further details see the [GSS Data Explorer page for `protest4`](https://gssdataexplorer.norc.org/variables/3985/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `protest5`](https://gssdataexplorer.norc.org/variables/3986/vshow).
+#' For further details see the [GSS Data Explorer page for `protest5`](https://gssdataexplorer.norc.org/variables/3986/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -348,7 +348,7 @@ NULL
 #'  |2006 |D/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `protest6`](https://gssdataexplorer.norc.org/variables/3987/vshow).
+#' For further details see the [GSS Data Explorer page for `protest6`](https://gssdataexplorer.norc.org/variables/3987/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

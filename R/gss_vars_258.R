@@ -19,7 +19,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwblk`](https://gssdataexplorer.norc.org/variables/2331/vshow).
+#' For further details see the [GSS Data Explorer page for `knwblk`](https://gssdataexplorer.norc.org/variables/2331/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwjew`](https://gssdataexplorer.norc.org/variables/2332/vshow).
+#' For further details see the [GSS Data Explorer page for `knwjew`](https://gssdataexplorer.norc.org/variables/2332/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwhisp`](https://gssdataexplorer.norc.org/variables/2333/vshow).
+#' For further details see the [GSS Data Explorer page for `knwhisp`](https://gssdataexplorer.norc.org/variables/2333/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwasn`](https://gssdataexplorer.norc.org/variables/2334/vshow).
+#' For further details see the [GSS Data Explorer page for `knwasn`](https://gssdataexplorer.norc.org/variables/2334/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whtschl`](https://gssdataexplorer.norc.org/variables/2335/vshow).
+#' For further details see the [GSS Data Explorer page for `whtschl`](https://gssdataexplorer.norc.org/variables/2335/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whtcom`](https://gssdataexplorer.norc.org/variables/2336/vshow).
+#' For further details see the [GSS Data Explorer page for `whtcom`](https://gssdataexplorer.norc.org/variables/2336/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whtrel`](https://gssdataexplorer.norc.org/variables/2337/vshow).
+#' For further details see the [GSS Data Explorer page for `whtrel`](https://gssdataexplorer.norc.org/variables/2337/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whtwrk`](https://gssdataexplorer.norc.org/variables/2338/vshow).
+#' For further details see the [GSS Data Explorer page for `whtwrk`](https://gssdataexplorer.norc.org/variables/2338/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whtcls`](https://gssdataexplorer.norc.org/variables/2339/vshow).
+#' For further details see the [GSS Data Explorer page for `whtcls`](https://gssdataexplorer.norc.org/variables/2339/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blkschl`](https://gssdataexplorer.norc.org/variables/2340/vshow).
+#' For further details see the [GSS Data Explorer page for `blkschl`](https://gssdataexplorer.norc.org/variables/2340/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

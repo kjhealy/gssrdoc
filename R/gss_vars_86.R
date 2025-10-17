@@ -19,7 +19,7 @@
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `imppol`](https://gssdataexplorer.norc.org/variables/771/vshow).
+#' For further details see the [GSS Data Explorer page for `imppol`](https://gssdataexplorer.norc.org/variables/771/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -53,7 +53,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `privacy`](https://gssdataexplorer.norc.org/variables/772/vshow).
+#' For further details see the [GSS Data Explorer page for `privacy`](https://gssdataexplorer.norc.org/variables/772/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `civic`](https://gssdataexplorer.norc.org/variables/773/vshow).
+#' For further details see the [GSS Data Explorer page for `civic`](https://gssdataexplorer.norc.org/variables/773/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -123,7 +123,7 @@ NULL
 #'  |2016 |C/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rushed`](https://gssdataexplorer.norc.org/variables/774/vshow).
+#' For further details see the [GSS Data Explorer page for `rushed`](https://gssdataexplorer.norc.org/variables/774/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -160,7 +160,7 @@ NULL
 #'  |2016 |C/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bored`](https://gssdataexplorer.norc.org/variables/775/vshow).
+#' For further details see the [GSS Data Explorer page for `bored`](https://gssdataexplorer.norc.org/variables/775/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -194,7 +194,7 @@ NULL
 #'  |2016 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stresswk`](https://gssdataexplorer.norc.org/variables/6196/vshow).
+#' For further details see the [GSS Data Explorer page for `stresswk`](https://gssdataexplorer.norc.org/variables/6196/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pollgood`](https://gssdataexplorer.norc.org/variables/776/vshow).
+#' For further details see the [GSS Data Explorer page for `pollgood`](https://gssdataexplorer.norc.org/variables/776/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polltrue`](https://gssdataexplorer.norc.org/variables/777/vshow).
+#' For further details see the [GSS Data Explorer page for `polltrue`](https://gssdataexplorer.norc.org/variables/777/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `feserve`](https://gssdataexplorer.norc.org/variables/778/vshow).
+#' For further details see the [GSS Data Explorer page for `feserve`](https://gssdataexplorer.norc.org/variables/778/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -334,7 +334,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `meserve`](https://gssdataexplorer.norc.org/variables/779/vshow).
+#' For further details see the [GSS Data Explorer page for `meserve`](https://gssdataexplorer.norc.org/variables/779/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -19,7 +19,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cutdebt`](https://gssdataexplorer.norc.org/variables/4107/vshow).
+#' For further details see the [GSS Data Explorer page for `cutdebt`](https://gssdataexplorer.norc.org/variables/4107/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helphlth`](https://gssdataexplorer.norc.org/variables/4108/vshow).
+#' For further details see the [GSS Data Explorer page for `helphlth`](https://gssdataexplorer.norc.org/variables/4108/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpold`](https://gssdataexplorer.norc.org/variables/4109/vshow).
+#' For further details see the [GSS Data Explorer page for `helpold`](https://gssdataexplorer.norc.org/variables/4109/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -127,7 +127,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpsec`](https://gssdataexplorer.norc.org/variables/4110/vshow).
+#' For further details see the [GSS Data Explorer page for `helpsec`](https://gssdataexplorer.norc.org/variables/4110/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -163,7 +163,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpcrim`](https://gssdataexplorer.norc.org/variables/4111/vshow).
+#' For further details see the [GSS Data Explorer page for `helpcrim`](https://gssdataexplorer.norc.org/variables/4111/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -199,7 +199,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpemp`](https://gssdataexplorer.norc.org/variables/4112/vshow).
+#' For further details see the [GSS Data Explorer page for `helpemp`](https://gssdataexplorer.norc.org/variables/4112/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -235,7 +235,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpenv`](https://gssdataexplorer.norc.org/variables/4113/vshow).
+#' For further details see the [GSS Data Explorer page for `helpenv`](https://gssdataexplorer.norc.org/variables/4113/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -272,7 +272,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cctv`](https://gssdataexplorer.norc.org/variables/6315/vshow).
+#' For further details see the [GSS Data Explorer page for `cctv`](https://gssdataexplorer.norc.org/variables/6315/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emonitor`](https://gssdataexplorer.norc.org/variables/6316/vshow).
+#' For further details see the [GSS Data Explorer page for `emonitor`](https://gssdataexplorer.norc.org/variables/6316/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -342,7 +342,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govtinfo`](https://gssdataexplorer.norc.org/variables/6317/vshow).
+#' For further details see the [GSS Data Explorer page for `govtinfo`](https://gssdataexplorer.norc.org/variables/6317/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

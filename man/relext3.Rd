@@ -32,7 +32,7 @@ Question There are some people whose views are considered extreme by the majorit
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7279/vshow}{GSS Data Explorer page for \code{relext3}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7279/vshow}{GSS Data Explorer page for \code{relext3}}.
 }
 
 \keyword{variable}

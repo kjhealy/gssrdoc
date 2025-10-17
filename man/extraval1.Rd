@@ -40,7 +40,7 @@ Question What was the approximate total dollar value of these various payments i
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7851/vshow}{GSS Data Explorer page for \code{extraval1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7851/vshow}{GSS Data Explorer page for \code{extraval1}}.
 }
 
 \keyword{variable}

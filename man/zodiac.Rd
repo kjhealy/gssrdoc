@@ -69,7 +69,7 @@ Question ASTROLOGICAL SIGN OF RESPONDENT
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5510/vshow}{GSS Data Explorer page for \code{zodiac}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5510/vshow}{GSS Data Explorer page for \code{zodiac}}.
 }
 
 \seealso{

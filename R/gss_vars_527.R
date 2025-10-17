@@ -26,7 +26,7 @@
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `topprob1`](https://gssdataexplorer.norc.org/variables/4798/vshow).
+#' For further details see the [GSS Data Explorer page for `topprob1`](https://gssdataexplorer.norc.org/variables/4798/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -66,7 +66,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `topprob2`](https://gssdataexplorer.norc.org/variables/4799/vshow).
+#' For further details see the [GSS Data Explorer page for `topprob2`](https://gssdataexplorer.norc.org/variables/4799/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -99,7 +99,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trust5`](https://gssdataexplorer.norc.org/variables/4800/vshow).
+#' For further details see the [GSS Data Explorer page for `trust5`](https://gssdataexplorer.norc.org/variables/4800/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -133,7 +133,7 @@ NULL
 #'  |2010 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fair5`](https://gssdataexplorer.norc.org/variables/4801/vshow).
+#' For further details see the [GSS Data Explorer page for `fair5`](https://gssdataexplorer.norc.org/variables/4801/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grncon`](https://gssdataexplorer.norc.org/variables/4802/vshow).
+#' For further details see the [GSS Data Explorer page for `grncon`](https://gssdataexplorer.norc.org/variables/4802/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -207,7 +207,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `enprbus`](https://gssdataexplorer.norc.org/variables/4803/vshow).
+#' For further details see the [GSS Data Explorer page for `enprbus`](https://gssdataexplorer.norc.org/variables/4803/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,7 +247,7 @@ NULL
 #'  |2010 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `enprbfam`](https://gssdataexplorer.norc.org/variables/4804/vshow).
+#' For further details see the [GSS Data Explorer page for `enprbfam`](https://gssdataexplorer.norc.org/variables/4804/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |2010 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwcause`](https://gssdataexplorer.norc.org/variables/4805/vshow).
+#' For further details see the [GSS Data Explorer page for `knwcause`](https://gssdataexplorer.norc.org/variables/4805/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -311,7 +311,7 @@ NULL
 #'  |2010 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knowsol`](https://gssdataexplorer.norc.org/variables/4806/vshow).
+#' For further details see the [GSS Data Explorer page for `knowsol`](https://gssdataexplorer.norc.org/variables/4806/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -348,7 +348,7 @@ NULL
 #'  |2010 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `futenrgy`](https://gssdataexplorer.norc.org/variables/4807/vshow).
+#' For further details see the [GSS Data Explorer page for `futenrgy`](https://gssdataexplorer.norc.org/variables/4807/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -41,7 +41,7 @@ Question Recoded from experimental Household Composition variables ADULTS_EXP to
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8036/vshow}{GSS Data Explorer page for \code{hhtype1_exp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8036/vshow}{GSS Data Explorer page for \code{hhtype1_exp}}.
 }
 
 \keyword{variable}

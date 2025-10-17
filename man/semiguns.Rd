@@ -30,7 +30,7 @@ Question Should semi-automatic, assault weapons or semi-automatic guns known as 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3702/vshow}{GSS Data Explorer page for \code{semiguns}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3702/vshow}{GSS Data Explorer page for \code{semiguns}}.
 }
 
 \seealso{

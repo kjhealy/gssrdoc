@@ -29,19 +29,12 @@ Question And finally, what amount of weekly income would you use as a "poverty l
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5204/vshow}{GSS Data Explorer page for \code{minthree}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5204/vshow}{GSS Data Explorer page for \code{minthree}}.
 }
 
 \seealso{
 Other Income: 
-\code{\link{coninc}},
-\code{\link{conrinc}},
-\code{\link{incdef}},
-\code{\link{minfood}},
-\code{\link{minfour}},
-\code{\link{povline}},
-\code{\link{realinc}},
-\code{\link{realrinc}}
+\code{\link{minfood}}
 }
 \concept{Income}
 \keyword{variable}

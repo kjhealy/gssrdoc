@@ -38,27 +38,16 @@ Question Amount of Fees Paid
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5561/vshow}{GSS Data Explorer page for \code{feelevel}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5561/vshow}{GSS Data Explorer page for \code{feelevel}}.
 }
 
 \seealso{
 Other Paradata: 
-\code{\link{consent}},
-\code{\link{easyget}},
 \code{\link{feeused}},
-\code{\link{huclean}},
-\code{\link{intage}},
-\code{\link{intethn}},
 \code{\link{intid}},
-\code{\link{intsex}},
-\code{\link{intyrs}},
-\code{\link{lngthinv}},
-\code{\link{mode}()},
 \code{\link{saqgene}},
 \code{\link{saqissp}},
 \code{\link{saqsex}},
-\code{\link{whoelse1}},
-\code{\link{whoelse2}},
 \code{\link{whoelse3}},
 \code{\link{whoelse4}},
 \code{\link{whoelse5}},

@@ -31,48 +31,12 @@ As of 2024, NODOCIDU has been slightly adjusted to help protect confidentiality.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8200/vshow}{GSS Data Explorer page for \code{nodocidu}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8200/vshow}{GSS Data Explorer page for \code{nodocidu}}.
 }
 
 \seealso{
 Other High Risk Behaviors: 
-\code{\link{acqntsex}},
-\code{\link{aidscndm}},
-\code{\link{aidslook}},
-\code{\link{condom}},
-\code{\link{crack30}},
-\code{\link{evcrack}},
-\code{\link{evidu}},
-\code{\link{evpaidsx}},
-\code{\link{evstray}},
-\code{\link{frndsex}},
-\code{\link{hivkiss}},
-\code{\link{hivtest}},
-\code{\link{hivtest1}},
-\code{\link{hivtest2}},
-\code{\link{hivvac}},
-\code{\link{idu30}},
-\code{\link{matesex}},
-\code{\link{nocondom}},
-\code{\link{nummen}},
-\code{\link{numwomen}},
-\code{\link{othersex}},
-\code{\link{paidsex}},
-\code{\link{partners}},
-\code{\link{partnrs5}},
-\code{\link{partopen}},
-\code{\link{partopn5}},
-\code{\link{pikupsex}},
-\code{\link{ptnrsxnow1}},
-\code{\link{relatsex}},
-\code{\link{sexfreq}},
-\code{\link{sexfreq1}},
-\code{\link{sexfreq2}},
-\code{\link{sexornt}},
-\code{\link{sexornt1}},
-\code{\link{sexpaid}},
-\code{\link{sexsex}},
-\code{\link{sexsex5}}
+\code{\link{nocondom}}
 }
 \concept{High Risk Behaviors}
 \keyword{variable}

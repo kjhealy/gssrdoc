@@ -33,7 +33,7 @@ Question What hours does (he/she) usually work--days, evenings, or nights?  CIRC
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5290/vshow}{GSS Data Explorer page for \code{sphour}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5290/vshow}{GSS Data Explorer page for \code{sphour}}.
 }
 
 \seealso{

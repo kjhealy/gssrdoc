@@ -33,7 +33,7 @@ Question What days of the week does (SPOUSE) normally work?  CODE ALL THAT APPLY
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5289/vshow}{GSS Data Explorer page for \code{spdays}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5289/vshow}{GSS Data Explorer page for \code{spdays}}.
 }
 
 \seealso{

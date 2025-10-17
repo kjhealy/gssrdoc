@@ -30,7 +30,7 @@
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `success`](https://gssdataexplorer.norc.org/variables/475/vshow).
+#' For further details see the [GSS Data Explorer page for `success`](https://gssdataexplorer.norc.org/variables/475/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -74,7 +74,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `honest`](https://gssdataexplorer.norc.org/variables/476/vshow).
+#' For further details see the [GSS Data Explorer page for `honest`](https://gssdataexplorer.norc.org/variables/476/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clean`](https://gssdataexplorer.norc.org/variables/477/vshow).
+#' For further details see the [GSS Data Explorer page for `clean`](https://gssdataexplorer.norc.org/variables/477/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -162,7 +162,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `judgment`](https://gssdataexplorer.norc.org/variables/478/vshow).
+#' For further details see the [GSS Data Explorer page for `judgment`](https://gssdataexplorer.norc.org/variables/478/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -206,7 +206,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `control`](https://gssdataexplorer.norc.org/variables/479/vshow).
+#' For further details see the [GSS Data Explorer page for `control`](https://gssdataexplorer.norc.org/variables/479/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `role`](https://gssdataexplorer.norc.org/variables/480/vshow).
+#' For further details see the [GSS Data Explorer page for `role`](https://gssdataexplorer.norc.org/variables/480/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -294,7 +294,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amicable`](https://gssdataexplorer.norc.org/variables/481/vshow).
+#' For further details see the [GSS Data Explorer page for `amicable`](https://gssdataexplorer.norc.org/variables/481/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obeys`](https://gssdataexplorer.norc.org/variables/482/vshow).
+#' For further details see the [GSS Data Explorer page for `obeys`](https://gssdataexplorer.norc.org/variables/482/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -382,7 +382,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `responsi`](https://gssdataexplorer.norc.org/variables/483/vshow).
+#' For further details see the [GSS Data Explorer page for `responsi`](https://gssdataexplorer.norc.org/variables/483/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -426,7 +426,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `consider`](https://gssdataexplorer.norc.org/variables/484/vshow).
+#' For further details see the [GSS Data Explorer page for `consider`](https://gssdataexplorer.norc.org/variables/484/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

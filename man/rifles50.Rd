@@ -30,7 +30,7 @@ Question Currently under federal law, very high power, 50-caliber rifles that ca
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3704/vshow}{GSS Data Explorer page for \code{rifles50}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3704/vshow}{GSS Data Explorer page for \code{rifles50}}.
 }
 
 \seealso{

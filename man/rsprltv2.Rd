@@ -30,7 +30,7 @@ Question Consider another couple living with their two children who has enough s
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7779/vshow}{GSS Data Explorer page for \code{rsprltv2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7779/vshow}{GSS Data Explorer page for \code{rsprltv2}}.
 }
 
 \keyword{variable}

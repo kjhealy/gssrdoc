@@ -29,7 +29,7 @@ Question Calculated variable: total people in household according to roster. (RO
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8000/vshow}{GSS Data Explorer page for \code{hompoph}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8000/vshow}{GSS Data Explorer page for \code{hompoph}}.
 }
 
 \keyword{variable}

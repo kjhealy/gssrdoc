@@ -20,7 +20,7 @@
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tvnews1`](https://gssdataexplorer.norc.org/variables/8166/vshow).
+#' For further details see the [GSS Data Explorer page for `tvnews1`](https://gssdataexplorer.norc.org/variables/8166/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `papernews`](https://gssdataexplorer.norc.org/variables/8163/vshow).
+#' For further details see the [GSS Data Explorer page for `papernews`](https://gssdataexplorer.norc.org/variables/8163/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `radionews`](https://gssdataexplorer.norc.org/variables/8164/vshow).
+#' For further details see the [GSS Data Explorer page for `radionews`](https://gssdataexplorer.norc.org/variables/8164/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `webnews`](https://gssdataexplorer.norc.org/variables/8167/vshow).
+#' For further details see the [GSS Data Explorer page for `webnews`](https://gssdataexplorer.norc.org/variables/8167/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `modepet`](https://gssdataexplorer.norc.org/variables/8156/vshow).
+#' For further details see the [GSS Data Explorer page for `modepet`](https://gssdataexplorer.norc.org/variables/8156/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `modeprot`](https://gssdataexplorer.norc.org/variables/8157/vshow).
+#' For further details see the [GSS Data Explorer page for `modeprot`](https://gssdataexplorer.norc.org/variables/8157/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `modelobby`](https://gssdataexplorer.norc.org/variables/8153/vshow).
+#' For further details see the [GSS Data Explorer page for `modelobby`](https://gssdataexplorer.norc.org/variables/8153/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `modeorgprot`](https://gssdataexplorer.norc.org/variables/8155/vshow).
+#' For further details see the [GSS Data Explorer page for `modeorgprot`](https://gssdataexplorer.norc.org/variables/8155/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `modeorg`](https://gssdataexplorer.norc.org/variables/8154/vshow).
+#' For further details see the [GSS Data Explorer page for `modeorg`](https://gssdataexplorer.norc.org/variables/8154/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trppl`](https://gssdataexplorer.norc.org/variables/8174/vshow).
+#' For further details see the [GSS Data Explorer page for `trppl`](https://gssdataexplorer.norc.org/variables/8174/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

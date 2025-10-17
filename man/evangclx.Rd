@@ -30,7 +30,7 @@ Question Would you describe yourself as a "born again" or evangelical Christian,
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7523/vshow}{GSS Data Explorer page for \code{evangclx}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7523/vshow}{GSS Data Explorer page for \code{evangclx}}.
 }
 
 \keyword{variable}

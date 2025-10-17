@@ -33,7 +33,7 @@ Question And do you think that nuclear power stations areâ€¦
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7494/vshow}{GSS Data Explorer page for \code{nukegen1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7494/vshow}{GSS Data Explorer page for \code{nukegen1}}.
 }
 
 \keyword{variable}

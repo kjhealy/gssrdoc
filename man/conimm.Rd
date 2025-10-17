@@ -32,7 +32,7 @@ Question People born in America and people from other countries who have come to
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7511/vshow}{GSS Data Explorer page for \code{conimm}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7511/vshow}{GSS Data Explorer page for \code{conimm}}.
 }
 
 \keyword{variable}

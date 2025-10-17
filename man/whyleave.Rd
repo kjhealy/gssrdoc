@@ -31,43 +31,15 @@ Question Why did you leave your last (full-time) job? Did you leave voluntarily,
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3876/vshow}{GSS Data Explorer page for \code{whyleave}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3876/vshow}{GSS Data Explorer page for \code{whyleave}}.
 }
 
 \seealso{
 Other Global Economics: 
-\code{\link{agecmeus}},
-\code{\link{autonojb}},
-\code{\link{bornsp}},
 \code{\link{curempyr}},
-\code{\link{emphlth}},
-\code{\link{emphplan}},
-\code{\link{findnwjb}},
-\code{\link{inclstjb}},
-\code{\link{intlcowk}},
-\code{\link{lastyrwk}},
-\code{\link{leavejb}},
-\code{\link{losejb12}},
-\code{\link{lostjobs}},
-\code{\link{meetf2f1}},
-\code{\link{meetf2f2}},
-\code{\link{moretrde}},
-\code{\link{natdeg}},
-\code{\link{newjobs}},
-\code{\link{othplan}},
 \code{\link{pastpay}},
 \code{\link{paychnge}},
-\code{\link{typevisa}},
-\code{\link{visa}},
 \code{\link{whyjbct1}},
-\code{\link{whyjbct2}},
-\code{\link{whylose1}},
-\code{\link{whylose2}},
-\code{\link{whylose3}},
-\code{\link{whynojb1}},
-\code{\link{whynojb2}},
-\code{\link{wkcomptr}},
-\code{\link{wocomptr}},
 \code{\link{work3yrs}}
 }
 \concept{Global Economics}

@@ -21,7 +21,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cowrkslffam`](https://gssdataexplorer.norc.org/variables/8014/vshow).
+#' For further details see the [GSS Data Explorer page for `cowrkslffam`](https://gssdataexplorer.norc.org/variables/8014/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cowksup`](https://gssdataexplorer.norc.org/variables/8013/vshow).
+#' For further details see the [GSS Data Explorer page for `cowksup`](https://gssdataexplorer.norc.org/variables/8013/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whatco2`](https://gssdataexplorer.norc.org/variables/8012/vshow).
+#' For further details see the [GSS Data Explorer page for `whatco2`](https://gssdataexplorer.norc.org/variables/8012/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -127,7 +127,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whatpa2`](https://gssdataexplorer.norc.org/variables/7744/vshow).
+#' For further details see the [GSS Data Explorer page for `whatpa2`](https://gssdataexplorer.norc.org/variables/7744/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -162,7 +162,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whatma2`](https://gssdataexplorer.norc.org/variables/7745/vshow).
+#' For further details see the [GSS Data Explorer page for `whatma2`](https://gssdataexplorer.norc.org/variables/7745/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -197,7 +197,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whatslf2`](https://gssdataexplorer.norc.org/variables/7746/vshow).
+#' For further details see the [GSS Data Explorer page for `whatslf2`](https://gssdataexplorer.norc.org/variables/7746/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -244,7 +244,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racerank1`](https://gssdataexplorer.norc.org/variables/7751/vshow).
+#' For further details see the [GSS Data Explorer page for `racerank1`](https://gssdataexplorer.norc.org/variables/7751/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racerank2`](https://gssdataexplorer.norc.org/variables/7752/vshow).
+#' For further details see the [GSS Data Explorer page for `racerank2`](https://gssdataexplorer.norc.org/variables/7752/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racerank3`](https://gssdataexplorer.norc.org/variables/7753/vshow).
+#' For further details see the [GSS Data Explorer page for `racerank3`](https://gssdataexplorer.norc.org/variables/7753/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -372,7 +372,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `adoptus`](https://gssdataexplorer.norc.org/variables/7755/vshow).
+#' For further details see the [GSS Data Explorer page for `adoptus`](https://gssdataexplorer.norc.org/variables/7755/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

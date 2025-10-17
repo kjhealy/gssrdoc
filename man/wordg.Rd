@@ -55,7 +55,7 @@ G. Word G
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5301/vshow}{GSS Data Explorer page for \code{wordg}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5301/vshow}{GSS Data Explorer page for \code{wordg}}.
 }
 
 \seealso{
@@ -66,10 +66,7 @@ Other Vocabulary:
 \code{\link{wordd}},
 \code{\link{worde}},
 \code{\link{wordf}},
-\code{\link{wordh}},
-\code{\link{wordi}},
-\code{\link{wordj}},
-\code{\link{wordsum}}
+\code{\link{wordh}}
 }
 \concept{Vocabulary}
 \keyword{variable}

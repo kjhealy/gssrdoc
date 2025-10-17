@@ -32,7 +32,7 @@ Question Do you expect the United States to fight in another world war within th
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7604/vshow}{GSS Data Explorer page for \code{uswarynv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7604/vshow}{GSS Data Explorer page for \code{uswarynv}}.
 }
 
 \keyword{variable}

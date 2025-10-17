@@ -33,7 +33,7 @@ Question (During the past 12 months, how often, if at all, have you used the int
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7812/vshow}{GSS Data Explorer page for \code{hlthwbvax}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7812/vshow}{GSS Data Explorer page for \code{hlthwbvax}}.
 }
 
 \keyword{variable}

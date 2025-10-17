@@ -45,7 +45,7 @@ A. In what branch of the service was that?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5286/vshow}{GSS Data Explorer page for \code{vetkind}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5286/vshow}{GSS Data Explorer page for \code{vetkind}}.
 }
 
 \seealso{

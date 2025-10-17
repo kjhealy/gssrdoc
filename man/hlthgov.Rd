@@ -33,7 +33,7 @@ Question (How much do you agree or disagree with the following statements?) The 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7792/vshow}{GSS Data Explorer page for \code{hlthgov}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7792/vshow}{GSS Data Explorer page for \code{hlthgov}}.
 }
 
 \keyword{variable}

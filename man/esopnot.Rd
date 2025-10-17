@@ -33,7 +33,7 @@ Question If you are given two job offers for the same position with the same sal
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7226/vshow}{GSS Data Explorer page for \code{esopnot}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7226/vshow}{GSS Data Explorer page for \code{esopnot}}.
 }
 
 \keyword{variable}

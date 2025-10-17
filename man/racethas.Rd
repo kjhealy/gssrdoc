@@ -29,7 +29,7 @@ Question d.  Asian American?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6354/vshow}{GSS Data Explorer page for \code{racethas}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6354/vshow}{GSS Data Explorer page for \code{racethas}}.
 }
 
 \seealso{

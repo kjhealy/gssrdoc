@@ -37,19 +37,15 @@ Question B. During the last 12 months, how often did you have at least 8, but le
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3103/vshow}{GSS Data Explorer page for \code{drink8}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3103/vshow}{GSS Data Explorer page for \code{drink8}}.
 }
 
 \seealso{
 Other Women & Alcohol: 
-\code{\link{drink1}},
 \code{\link{drink12}},
-\code{\link{drink3}},
-\code{\link{drink5}},
 \code{\link{drink6up}},
 \code{\link{drinkday}},
 \code{\link{drinkmax}},
-\code{\link{drinkmin}},
 \code{\link{drinkyr}},
 \code{\link{evdrink}}
 }

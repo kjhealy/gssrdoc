@@ -29,40 +29,20 @@ Question B. How long have you worked full time for those work sites? How many ye
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2148/vshow}{GSS Data Explorer page for \code{siteyrs}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2148/vshow}{GSS Data Explorer page for \code{siteyrs}}.
 }
 
 \seealso{
 Other Jobs: 
-\code{\link{daily}},
-\code{\link{doingdys}},
-\code{\link{doingfin}},
-\code{\link{doingtrn}},
-\code{\link{formldys}},
-\code{\link{formlfin}},
-\code{\link{formlhrs}},
 \code{\link{formltrn}},
 \code{\link{genderwk}},
-\code{\link{hourly}},
-\code{\link{howpaid}},
 \code{\link{locyrs}},
-\code{\link{monthly}},
-\code{\link{numemp}},
-\code{\link{occtrain}},
-\code{\link{occyrs}},
 \code{\link{orgsize}},
 \code{\link{othyrs}},
 \code{\link{otjtrain}},
 \code{\link{partorg}},
 \code{\link{samework}},
-\code{\link{trainsch}},
-\code{\link{trusting}},
-\code{\link{typeorg}},
-\code{\link{weekly}},
-\code{\link{wojob}},
-\code{\link{wojobyrs}},
-\code{\link{wrkoth}},
-\code{\link{yearly}}
+\code{\link{wrkoth}}
 }
 \concept{Jobs}
 \keyword{variable}

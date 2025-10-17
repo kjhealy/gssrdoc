@@ -35,7 +35,7 @@ Do you remember for sure whether or not you voted in that election?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7089/vshow}{GSS Data Explorer page for \code{vote16}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7089/vshow}{GSS Data Explorer page for \code{vote16}}.
 }
 
 \keyword{variable}

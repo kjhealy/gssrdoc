@@ -30,7 +30,7 @@ Question Which of these statements comes closer to your view about what informat
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7181/vshow}{GSS Data Explorer page for \code{abmedgov1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7181/vshow}{GSS Data Explorer page for \code{abmedgov1}}.
 }
 
 \keyword{variable}

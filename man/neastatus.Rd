@@ -29,7 +29,7 @@ Question FLAG INDICATING WHETHER OR NOT THE RESPONDENT PARTICIPATED IN THE NEA F
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7891/vshow}{GSS Data Explorer page for \code{neastatus}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7891/vshow}{GSS Data Explorer page for \code{neastatus}}.
 }
 
 \keyword{variable}

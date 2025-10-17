@@ -20,7 +20,7 @@
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `livnowed`](https://gssdataexplorer.norc.org/variables/4411/vshow).
+#' For further details see the [GSS Data Explorer page for `livnowed`](https://gssdataexplorer.norc.org/variables/4411/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mapaid`](https://gssdataexplorer.norc.org/variables/4412/vshow).
+#' For further details see the [GSS Data Explorer page for `mapaid`](https://gssdataexplorer.norc.org/variables/4412/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldcare`](https://gssdataexplorer.norc.org/variables/4413/vshow).
+#' For further details see the [GSS Data Explorer page for `chldcare`](https://gssdataexplorer.norc.org/variables/4413/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abchoose`](https://gssdataexplorer.norc.org/variables/4414/vshow).
+#' For further details see the [GSS Data Explorer page for `abchoose`](https://gssdataexplorer.norc.org/variables/4414/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -164,7 +164,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `teensex1`](https://gssdataexplorer.norc.org/variables/4415/vshow).
+#' For further details see the [GSS Data Explorer page for `teensex1`](https://gssdataexplorer.norc.org/variables/4415/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -198,7 +198,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexhar`](https://gssdataexplorer.norc.org/variables/4416/vshow).
+#' For further details see the [GSS Data Explorer page for `sexhar`](https://gssdataexplorer.norc.org/variables/4416/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -237,7 +237,7 @@ NULL
 #'  |2012 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fambudgt`](https://gssdataexplorer.norc.org/variables/4417/vshow).
+#' For further details see the [GSS Data Explorer page for `fambudgt`](https://gssdataexplorer.norc.org/variables/4417/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -275,7 +275,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `laundry`](https://gssdataexplorer.norc.org/variables/4418/vshow).
+#' For further details see the [GSS Data Explorer page for `laundry`](https://gssdataexplorer.norc.org/variables/4418/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -313,7 +313,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `repairs`](https://gssdataexplorer.norc.org/variables/4419/vshow).
+#' For further details see the [GSS Data Explorer page for `repairs`](https://gssdataexplorer.norc.org/variables/4419/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -351,7 +351,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caresick`](https://gssdataexplorer.norc.org/variables/4420/vshow).
+#' For further details see the [GSS Data Explorer page for `caresick`](https://gssdataexplorer.norc.org/variables/4420/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

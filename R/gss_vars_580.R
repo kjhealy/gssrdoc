@@ -19,7 +19,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tuesday`](https://gssdataexplorer.norc.org/variables/5313/vshow).
+#' For further details see the [GSS Data Explorer page for `tuesday`](https://gssdataexplorer.norc.org/variables/5313/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wednesdy`](https://gssdataexplorer.norc.org/variables/5314/vshow).
+#' For further details see the [GSS Data Explorer page for `wednesdy`](https://gssdataexplorer.norc.org/variables/5314/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `thursday`](https://gssdataexplorer.norc.org/variables/5315/vshow).
+#' For further details see the [GSS Data Explorer page for `thursday`](https://gssdataexplorer.norc.org/variables/5315/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `friday`](https://gssdataexplorer.norc.org/variables/5316/vshow).
+#' For further details see the [GSS Data Explorer page for `friday`](https://gssdataexplorer.norc.org/variables/5316/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `saturday`](https://gssdataexplorer.norc.org/variables/5317/vshow).
+#' For further details see the [GSS Data Explorer page for `saturday`](https://gssdataexplorer.norc.org/variables/5317/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -185,7 +185,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `attreg`](https://gssdataexplorer.norc.org/variables/5318/vshow).
+#' For further details see the [GSS Data Explorer page for `attreg`](https://gssdataexplorer.norc.org/variables/5318/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -219,7 +219,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mediarel`](https://gssdataexplorer.norc.org/variables/5319/vshow).
+#' For further details see the [GSS Data Explorer page for `mediarel`](https://gssdataexplorer.norc.org/variables/5319/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -253,7 +253,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othrel`](https://gssdataexplorer.norc.org/variables/5320/vshow).
+#' For further details see the [GSS Data Explorer page for `othrel`](https://gssdataexplorer.norc.org/variables/5320/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -296,7 +296,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othrel1`](https://gssdataexplorer.norc.org/variables/5321/vshow).
+#' For further details see the [GSS Data Explorer page for `othrel1`](https://gssdataexplorer.norc.org/variables/5321/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -339,7 +339,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othrel2`](https://gssdataexplorer.norc.org/variables/5322/vshow).
+#' For further details see the [GSS Data Explorer page for `othrel2`](https://gssdataexplorer.norc.org/variables/5322/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -32,29 +32,19 @@ Question In the November election for President, do you think you will probably 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8192/vshow}{GSS Data Explorer page for \code{whovote24a}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8192/vshow}{GSS Data Explorer page for \code{whovote24a}}.
 }
 
 \seealso{
 Other ANES: 
-\code{\link{econstat}},
 \code{\link{lkelyvot}},
-\code{\link{polintrst}},
 \code{\link{ratechall124}},
-\code{\link{ratechall1ts}},
 \code{\link{ratechall224}},
-\code{\link{ratechall2ts}},
 \code{\link{ratechall324}},
-\code{\link{ratechall3ts}},
 \code{\link{ratedemp}},
 \code{\link{rateincumb24}},
-\code{\link{rateincumbts}},
 \code{\link{ratemaga}},
-\code{\link{raterepp}},
-\code{\link{satdemoc}},
-\code{\link{voteprob}},
-\code{\link{whovote24}},
-\code{\link{whovotets}}
+\code{\link{raterepp}}
 }
 \concept{ANES}
 \keyword{variable}

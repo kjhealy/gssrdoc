@@ -30,16 +30,12 @@ Question E. Or, consider a person who believes that Blacks are genetically infer
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/4988/vshow}{GSS Data Explorer page for \code{allowrac}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4988/vshow}{GSS Data Explorer page for \code{allowrac}}.
 }
 
 \seealso{
 Other Civil Liberties: 
-\code{\link{allowcom}},
-\code{\link{allowmar}},
-\code{\link{forbdcom}},
-\code{\link{forbdmar}},
-\code{\link{forbdrac}}
+\code{\link{allowmar}}
 }
 \concept{Civil Liberties}
 \keyword{variable}

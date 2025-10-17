@@ -21,7 +21,7 @@
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `popespky`](https://gssdataexplorer.norc.org/variables/5571/vshow).
+#' For further details see the [GSS Data Explorer page for `popespky`](https://gssdataexplorer.norc.org/variables/5571/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -53,7 +53,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polhitoy`](https://gssdataexplorer.norc.org/variables/5572/vshow).
+#' For further details see the [GSS Data Explorer page for `polhitoy`](https://gssdataexplorer.norc.org/variables/5572/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `letdie1y`](https://gssdataexplorer.norc.org/variables/5573/vshow).
+#' For further details see the [GSS Data Explorer page for `letdie1y`](https://gssdataexplorer.norc.org/variables/5573/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -141,7 +141,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `death`](https://gssdataexplorer.norc.org/variables/7426/vshow).
+#' For further details see the [GSS Data Explorer page for `death`](https://gssdataexplorer.norc.org/variables/7426/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -195,7 +195,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ballot`](https://gssdataexplorer.norc.org/variables/5574/vshow).
+#' For further details see the [GSS Data Explorer page for `ballot`](https://gssdataexplorer.norc.org/variables/5574/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -248,7 +248,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `version`](https://gssdataexplorer.norc.org/variables/5575/vshow).
+#' For further details see the [GSS Data Explorer page for `version`](https://gssdataexplorer.norc.org/variables/5575/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -303,7 +303,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `issp`](https://gssdataexplorer.norc.org/variables/5576/vshow).
+#' For further details see the [GSS Data Explorer page for `issp`](https://gssdataexplorer.norc.org/variables/5576/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

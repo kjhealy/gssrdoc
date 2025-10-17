@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  Syria
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7693/vshow}{GSS Data Explorer page for \code{ethregion54}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7693/vshow}{GSS Data Explorer page for \code{ethregion54}}.
 }
 
 \keyword{variable}

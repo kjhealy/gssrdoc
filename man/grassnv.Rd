@@ -33,7 +33,7 @@ Question Do you think the use of marijuana should be made legal or not?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7615/vshow}{GSS Data Explorer page for \code{grassnv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7615/vshow}{GSS Data Explorer page for \code{grassnv}}.
 }
 
 \keyword{variable}

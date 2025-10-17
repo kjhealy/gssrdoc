@@ -33,7 +33,7 @@ Question How well does being a member of your religion describe you?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7527/vshow}{GSS Data Explorer page for \code{relidesc}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7527/vshow}{GSS Data Explorer page for \code{relidesc}}.
 }
 
 \keyword{variable}

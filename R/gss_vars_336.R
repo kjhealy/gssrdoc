@@ -20,7 +20,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `physharm`](https://gssdataexplorer.norc.org/variables/3004/vshow).
+#' For further details see the [GSS Data Explorer page for `physharm`](https://gssdataexplorer.norc.org/variables/3004/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `actupset`](https://gssdataexplorer.norc.org/variables/3005/vshow).
+#' For further details see the [GSS Data Explorer page for `actupset`](https://gssdataexplorer.norc.org/variables/3005/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `shout`](https://gssdataexplorer.norc.org/variables/3006/vshow).
+#' For further details see the [GSS Data Explorer page for `shout`](https://gssdataexplorer.norc.org/variables/3006/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hotargus`](https://gssdataexplorer.norc.org/variables/3007/vshow).
+#' For further details see the [GSS Data Explorer page for `hotargus`](https://gssdataexplorer.norc.org/variables/3007/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -158,7 +158,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `reliedon`](https://gssdataexplorer.norc.org/variables/3008/vshow).
+#' For further details see the [GSS Data Explorer page for `reliedon`](https://gssdataexplorer.norc.org/variables/3008/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gdjobsec`](https://gssdataexplorer.norc.org/variables/3009/vshow).
+#' For further details see the [GSS Data Explorer page for `gdjobsec`](https://gssdataexplorer.norc.org/variables/3009/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `treatres`](https://gssdataexplorer.norc.org/variables/3010/vshow).
+#' For further details see the [GSS Data Explorer page for `treatres`](https://gssdataexplorer.norc.org/variables/3010/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lookaway`](https://gssdataexplorer.norc.org/variables/3011/vshow).
+#' For further details see the [GSS Data Explorer page for `lookaway`](https://gssdataexplorer.norc.org/variables/3011/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -296,7 +296,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `skipwork`](https://gssdataexplorer.norc.org/variables/3013/vshow).
+#' For further details see the [GSS Data Explorer page for `skipwork`](https://gssdataexplorer.norc.org/variables/3013/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -340,7 +340,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `numemps`](https://gssdataexplorer.norc.org/variables/3014/vshow).
+#' For further details see the [GSS Data Explorer page for `numemps`](https://gssdataexplorer.norc.org/variables/3014/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -32,29 +32,13 @@ READ STATEMENTS 1-3 ONLY. CIRCLE ONLY ONE CODE.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2674/vshow}{GSS Data Explorer page for \code{freeprss}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2674/vshow}{GSS Data Explorer page for \code{freeprss}}.
 }
 
 \seealso{
 Other Freedom: 
-\code{\link{choice}},
 \code{\link{cntrlife}},
 \code{\link{expunpop}},
-\code{\link{freeexp1}},
-\code{\link{freeexp2}},
-\code{\link{freeexp3}},
-\code{\link{freemns1}},
-\code{\link{freemns2}},
-\code{\link{freemns3}},
-\code{\link{freenow}},
-\code{\link{howfree}},
-\code{\link{inpeace}},
-\code{\link{leftlone}},
-\code{\link{nogovt}},
-\code{\link{partpol}},
-\code{\link{rfreenow}},
-\code{\link{rhowfree}},
-\code{\link{satdemoc}},
 \code{\link{wlthpov}}
 }
 \concept{Freedom}

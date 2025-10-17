@@ -31,7 +31,7 @@ Question (Pleae indicate whether or not you think it should be possible for a pr
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7470/vshow}{GSS Data Explorer page for \code{abrapeg}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7470/vshow}{GSS Data Explorer page for \code{abrapeg}}.
 }
 
 \keyword{variable}

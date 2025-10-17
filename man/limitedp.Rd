@@ -30,7 +30,7 @@ Question Were limited in the kind of work or other activities?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2680/vshow}{GSS Data Explorer page for \code{limitedp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2680/vshow}{GSS Data Explorer page for \code{limitedp}}.
 }
 
 \seealso{
@@ -38,50 +38,8 @@ Other Health Status:
 \code{\link{crelesse}},
 \code{\link{didlesse}},
 \code{\link{didlessp}},
-\code{\link{downblue}},
-\code{\link{downcure}},
-\code{\link{downfam}},
-\code{\link{downfeel}},
-\code{\link{downqol}},
-\code{\link{downrely}},
-\code{\link{emotcure}},
-\code{\link{emotfam}},
-\code{\link{emotfeel}},
-\code{\link{emotqol}},
-\code{\link{emotrely}},
-\code{\link{energy}},
 \code{\link{modact}},
-\code{\link{pain}},
-\code{\link{paincure}},
-\code{\link{painfam}},
-\code{\link{painfeel}},
-\code{\link{painqol}},
-\code{\link{painrely}},
-\code{\link{peaceful}},
-\code{\link{socacts}},
-\code{\link{stairs}},
-\code{\link{treat1}},
-\code{\link{treat10}},
-\code{\link{treat11}},
-\code{\link{treat2}},
-\code{\link{treat3}},
-\code{\link{treat4}},
-\code{\link{treat5}},
-\code{\link{treat6}},
-\code{\link{treat7}},
-\code{\link{treat8}},
-\code{\link{treat9}},
-\code{\link{wait1}},
-\code{\link{wait10}},
-\code{\link{wait11}},
-\code{\link{wait2}},
-\code{\link{wait3}},
-\code{\link{wait4}},
-\code{\link{wait5}},
-\code{\link{wait6}},
-\code{\link{wait7}},
-\code{\link{wait8}},
-\code{\link{wait9}}
+\code{\link{stairs}}
 }
 \concept{Health Status}
 \keyword{variable}

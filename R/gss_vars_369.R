@@ -25,7 +25,7 @@
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `odds2`](https://gssdataexplorer.norc.org/variables/3333/vshow).
+#' For further details see the [GSS Data Explorer page for `odds2`](https://gssdataexplorer.norc.org/variables/3333/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -64,7 +64,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hotcore`](https://gssdataexplorer.norc.org/variables/3334/vshow).
+#' For further details see the [GSS Data Explorer page for `hotcore`](https://gssdataexplorer.norc.org/variables/3334/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -103,7 +103,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `radioact`](https://gssdataexplorer.norc.org/variables/3335/vshow).
+#' For further details see the [GSS Data Explorer page for `radioact`](https://gssdataexplorer.norc.org/variables/3335/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -142,7 +142,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `boyorgrl`](https://gssdataexplorer.norc.org/variables/3336/vshow).
+#' For further details see the [GSS Data Explorer page for `boyorgrl`](https://gssdataexplorer.norc.org/variables/3336/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -181,7 +181,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lasers`](https://gssdataexplorer.norc.org/variables/3337/vshow).
+#' For further details see the [GSS Data Explorer page for `lasers`](https://gssdataexplorer.norc.org/variables/3337/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -220,7 +220,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `electron`](https://gssdataexplorer.norc.org/variables/3338/vshow).
+#' For further details see the [GSS Data Explorer page for `electron`](https://gssdataexplorer.norc.org/variables/3338/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -259,7 +259,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `viruses`](https://gssdataexplorer.norc.org/variables/3339/vshow).
+#' For further details see the [GSS Data Explorer page for `viruses`](https://gssdataexplorer.norc.org/variables/3339/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |2018 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bigbang`](https://gssdataexplorer.norc.org/variables/3340/vshow).
+#' For further details see the [GSS Data Explorer page for `bigbang`](https://gssdataexplorer.norc.org/variables/3340/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -332,7 +332,7 @@ NULL
 #'  |2018 |B/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bigbang1`](https://gssdataexplorer.norc.org/variables/3548/vshow).
+#' For further details see the [GSS Data Explorer page for `bigbang1`](https://gssdataexplorer.norc.org/variables/3548/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -366,7 +366,7 @@ NULL
 #'  |2018 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bigbang2`](https://gssdataexplorer.norc.org/variables/6302/vshow).
+#' For further details see the [GSS Data Explorer page for `bigbang2`](https://gssdataexplorer.norc.org/variables/6302/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

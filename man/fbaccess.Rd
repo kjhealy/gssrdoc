@@ -30,7 +30,7 @@ Question Permission to access respondent's facebook account
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7427/vshow}{GSS Data Explorer page for \code{fbaccess}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7427/vshow}{GSS Data Explorer page for \code{fbaccess}}.
 }
 
 \keyword{variable}

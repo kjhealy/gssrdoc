@@ -30,7 +30,7 @@ Question Were you granted stock options in the company where you work in 2021? A
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7848/vshow}{GSS Data Explorer page for \code{stockoptyr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7848/vshow}{GSS Data Explorer page for \code{stockoptyr}}.
 }
 
 \keyword{variable}

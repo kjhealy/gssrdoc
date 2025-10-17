@@ -23,7 +23,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inequal7`](https://gssdataexplorer.norc.org/variables/4262/vshow).
+#' For further details see the [GSS Data Explorer page for `inequal7`](https://gssdataexplorer.norc.org/variables/4262/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paymason`](https://gssdataexplorer.norc.org/variables/4263/vshow).
+#' For further details see the [GSS Data Explorer page for `paymason`](https://gssdataexplorer.norc.org/variables/4263/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paydoc`](https://gssdataexplorer.norc.org/variables/4264/vshow).
+#' For further details see the [GSS Data Explorer page for `paydoc`](https://gssdataexplorer.norc.org/variables/4264/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payclerk`](https://gssdataexplorer.norc.org/variables/4265/vshow).
+#' For further details see the [GSS Data Explorer page for `payclerk`](https://gssdataexplorer.norc.org/variables/4265/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payowner`](https://gssdataexplorer.norc.org/variables/4266/vshow).
+#' For further details see the [GSS Data Explorer page for `payowner`](https://gssdataexplorer.norc.org/variables/4266/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payexec`](https://gssdataexplorer.norc.org/variables/4267/vshow).
+#' For further details see the [GSS Data Explorer page for `payexec`](https://gssdataexplorer.norc.org/variables/4267/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -230,7 +230,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payskill`](https://gssdataexplorer.norc.org/variables/4268/vshow).
+#' For further details see the [GSS Data Explorer page for `payskill`](https://gssdataexplorer.norc.org/variables/4268/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -263,7 +263,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payfarm`](https://gssdataexplorer.norc.org/variables/4269/vshow).
+#' For further details see the [GSS Data Explorer page for `payfarm`](https://gssdataexplorer.norc.org/variables/4269/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -296,7 +296,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paysec`](https://gssdataexplorer.norc.org/variables/4270/vshow).
+#' For further details see the [GSS Data Explorer page for `paysec`](https://gssdataexplorer.norc.org/variables/4270/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -329,7 +329,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paybus`](https://gssdataexplorer.norc.org/variables/4271/vshow).
+#' For further details see the [GSS Data Explorer page for `paybus`](https://gssdataexplorer.norc.org/variables/4271/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

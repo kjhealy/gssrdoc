@@ -47,7 +47,7 @@
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divlaw`](https://gssdataexplorer.norc.org/variables/627/vshow).
+#' For further details see the [GSS Data Explorer page for `divlaw`](https://gssdataexplorer.norc.org/variables/627/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -80,7 +80,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divlawy`](https://gssdataexplorer.norc.org/variables/628/vshow).
+#' For further details see the [GSS Data Explorer page for `divlawy`](https://gssdataexplorer.norc.org/variables/628/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -112,7 +112,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdue`](https://gssdataexplorer.norc.org/variables/629/vshow).
+#' For further details see the [GSS Data Explorer page for `spdue`](https://gssdataexplorer.norc.org/variables/629/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sppaid`](https://gssdataexplorer.norc.org/variables/630/vshow).
+#' For further details see the [GSS Data Explorer page for `sppaid`](https://gssdataexplorer.norc.org/variables/630/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `premarsx`](https://gssdataexplorer.norc.org/variables/631/vshow).
+#' For further details see the [GSS Data Explorer page for `premarsx`](https://gssdataexplorer.norc.org/variables/631/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `teensex`](https://gssdataexplorer.norc.org/variables/632/vshow).
+#' For further details see the [GSS Data Explorer page for `teensex`](https://gssdataexplorer.norc.org/variables/632/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -332,7 +332,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `xmarsex`](https://gssdataexplorer.norc.org/variables/633/vshow).
+#' For further details see the [GSS Data Explorer page for `xmarsex`](https://gssdataexplorer.norc.org/variables/633/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -396,7 +396,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `homosex`](https://gssdataexplorer.norc.org/variables/634/vshow).
+#' For further details see the [GSS Data Explorer page for `homosex`](https://gssdataexplorer.norc.org/variables/634/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -428,7 +428,7 @@ NULL
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `homochng`](https://gssdataexplorer.norc.org/variables/635/vshow).
+#' For further details see the [GSS Data Explorer page for `homochng`](https://gssdataexplorer.norc.org/variables/635/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -477,7 +477,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `porninf`](https://gssdataexplorer.norc.org/variables/636/vshow).
+#' For further details see the [GSS Data Explorer page for `porninf`](https://gssdataexplorer.norc.org/variables/636/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -32,7 +32,7 @@
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhp4r1`](https://gssdataexplorer.norc.org/variables/7106/vshow).
+#' For further details see the [GSS Data Explorer page for `mhp4r1`](https://gssdataexplorer.norc.org/variables/7106/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -78,7 +78,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhp4r2`](https://gssdataexplorer.norc.org/variables/7107/vshow).
+#' For further details see the [GSS Data Explorer page for `mhp4r2`](https://gssdataexplorer.norc.org/variables/7107/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhp5r1`](https://gssdataexplorer.norc.org/variables/7108/vshow).
+#' For further details see the [GSS Data Explorer page for `mhp5r1`](https://gssdataexplorer.norc.org/variables/7108/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -170,7 +170,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhp5r2`](https://gssdataexplorer.norc.org/variables/7109/vshow).
+#' For further details see the [GSS Data Explorer page for `mhp5r2`](https://gssdataexplorer.norc.org/variables/7109/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `closeto1`](https://gssdataexplorer.norc.org/variables/7110/vshow).
+#' For further details see the [GSS Data Explorer page for `closeto1`](https://gssdataexplorer.norc.org/variables/7110/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -234,7 +234,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `closeto2`](https://gssdataexplorer.norc.org/variables/7111/vshow).
+#' For further details see the [GSS Data Explorer page for `closeto2`](https://gssdataexplorer.norc.org/variables/7111/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `closeto3`](https://gssdataexplorer.norc.org/variables/7112/vshow).
+#' For further details see the [GSS Data Explorer page for `closeto3`](https://gssdataexplorer.norc.org/variables/7112/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `closeto4`](https://gssdataexplorer.norc.org/variables/7113/vshow).
+#' For further details see the [GSS Data Explorer page for `closeto4`](https://gssdataexplorer.norc.org/variables/7113/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `closeto5`](https://gssdataexplorer.norc.org/variables/7114/vshow).
+#' For further details see the [GSS Data Explorer page for `closeto5`](https://gssdataexplorer.norc.org/variables/7114/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -362,7 +362,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `seetalk1`](https://gssdataexplorer.norc.org/variables/7115/vshow).
+#' For further details see the [GSS Data Explorer page for `seetalk1`](https://gssdataexplorer.norc.org/variables/7115/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

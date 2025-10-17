@@ -30,14 +30,12 @@ Question A. Now I would like to ask you some questions about a man who admits he
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/4984/vshow}{GSS Data Explorer page for \code{forbdcom}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4984/vshow}{GSS Data Explorer page for \code{forbdcom}}.
 }
 
 \seealso{
 Other Civil Liberties: 
 \code{\link{allowcom}},
-\code{\link{allowmar}},
-\code{\link{allowrac}},
 \code{\link{forbdmar}},
 \code{\link{forbdrac}}
 }

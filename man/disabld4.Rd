@@ -30,7 +30,7 @@ Question Do you have any other physical disability?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3715/vshow}{GSS Data Explorer page for \code{disabld4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3715/vshow}{GSS Data Explorer page for \code{disabld4}}.
 }
 
 \seealso{

@@ -21,7 +21,7 @@
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fireftng`](https://gssdataexplorer.norc.org/variables/3539/vshow).
+#' For further details see the [GSS Data Explorer page for `fireftng`](https://gssdataexplorer.norc.org/variables/3539/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marrcoun`](https://gssdataexplorer.norc.org/variables/3540/vshow).
+#' For further details see the [GSS Data Explorer page for `marrcoun`](https://gssdataexplorer.norc.org/variables/3540/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medtreat`](https://gssdataexplorer.norc.org/variables/3541/vshow).
+#' For further details see the [GSS Data Explorer page for `medtreat`](https://gssdataexplorer.norc.org/variables/3541/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `architct`](https://gssdataexplorer.norc.org/variables/3542/vshow).
+#' For further details see the [GSS Data Explorer page for `architct`](https://gssdataexplorer.norc.org/variables/3542/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lawenfrc`](https://gssdataexplorer.norc.org/variables/3543/vshow).
+#' For further details see the [GSS Data Explorer page for `lawenfrc`](https://gssdataexplorer.norc.org/variables/3543/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engnring`](https://gssdataexplorer.norc.org/variables/3544/vshow).
+#' For further details see the [GSS Data Explorer page for `engnring`](https://gssdataexplorer.norc.org/variables/3544/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `slsmnshp`](https://gssdataexplorer.norc.org/variables/3545/vshow).
+#' For further details see the [GSS Data Explorer page for `slsmnshp`](https://gssdataexplorer.norc.org/variables/3545/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cmprgmng`](https://gssdataexplorer.norc.org/variables/3546/vshow).
+#' For further details see the [GSS Data Explorer page for `cmprgmng`](https://gssdataexplorer.norc.org/variables/3546/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `finlcoun`](https://gssdataexplorer.norc.org/variables/3547/vshow).
+#' For further details see the [GSS Data Explorer page for `finlcoun`](https://gssdataexplorer.norc.org/variables/3547/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -335,7 +335,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `buyvalue`](https://gssdataexplorer.norc.org/variables/3551/vshow).
+#' For further details see the [GSS Data Explorer page for `buyvalue`](https://gssdataexplorer.norc.org/variables/3551/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

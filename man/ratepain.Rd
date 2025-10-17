@@ -30,7 +30,7 @@ Question On a scale from 0 to 10, with 0 meaning no pain and 10 being the worst 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7171/vshow}{GSS Data Explorer page for \code{ratepain}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7171/vshow}{GSS Data Explorer page for \code{ratepain}}.
 }
 
 \keyword{variable}

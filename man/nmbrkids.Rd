@@ -29,7 +29,7 @@ Question How many children have you ever had? Please include any biological, ado
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7788/vshow}{GSS Data Explorer page for \code{nmbrkids}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7788/vshow}{GSS Data Explorer page for \code{nmbrkids}}.
 }
 
 \keyword{variable}

@@ -30,34 +30,18 @@ Question Did you happen to use the internet or web-enabled applications/APPS yes
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6268/vshow}{GSS Data Explorer page for \code{intrecnt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6268/vshow}{GSS Data Explorer page for \code{intrecnt}}.
 }
 
 \seealso{
 Other Social Media Usage: 
-\code{\link{clssmtes}},
 \code{\link{facebook}},
-\code{\link{flickr}},
 \code{\link{googlesn}},
 \code{\link{instagrm}},
-\code{\link{intmbile}},
-\code{\link{intuse}},
-\code{\link{intwkdyh}},
-\code{\link{intwkdym}},
-\code{\link{intwkenh}},
-\code{\link{intwkenm}},
 \code{\link{linkedin}},
-\code{\link{pinterst}},
 \code{\link{snapchat}},
-\code{\link{snsmfrst}},
-\code{\link{snsmnew}},
-\code{\link{snsmot2a}},
-\code{\link{snsmot2b}},
-\code{\link{snsmot2c}},
-\code{\link{snsmoth1}},
 \code{\link{tumblr}},
 \code{\link{twitter}},
-\code{\link{vine}},
 \code{\link{whatsapp}}
 }
 \concept{Social Media Usage}

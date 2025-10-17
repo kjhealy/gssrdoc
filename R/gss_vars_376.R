@@ -21,7 +21,7 @@
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciimp2`](https://gssdataexplorer.norc.org/variables/3399/vshow).
+#' For further details see the [GSS Data Explorer page for `sciimp2`](https://gssdataexplorer.norc.org/variables/3399/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciimp3`](https://gssdataexplorer.norc.org/variables/3400/vshow).
+#' For further details see the [GSS Data Explorer page for `sciimp3`](https://gssdataexplorer.norc.org/variables/3400/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciimp4`](https://gssdataexplorer.norc.org/variables/3401/vshow).
+#' For further details see the [GSS Data Explorer page for `sciimp4`](https://gssdataexplorer.norc.org/variables/3401/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciimp5`](https://gssdataexplorer.norc.org/variables/3402/vshow).
+#' For further details see the [GSS Data Explorer page for `sciimp5`](https://gssdataexplorer.norc.org/variables/3402/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciimp6`](https://gssdataexplorer.norc.org/variables/3403/vshow).
+#' For further details see the [GSS Data Explorer page for `sciimp6`](https://gssdataexplorer.norc.org/variables/3403/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciimp7`](https://gssdataexplorer.norc.org/variables/3404/vshow).
+#' For further details see the [GSS Data Explorer page for `sciimp7`](https://gssdataexplorer.norc.org/variables/3404/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciimp8`](https://gssdataexplorer.norc.org/variables/3405/vshow).
+#' For further details see the [GSS Data Explorer page for `sciimp8`](https://gssdataexplorer.norc.org/variables/3405/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socsci`](https://gssdataexplorer.norc.org/variables/3406/vshow).
+#' For further details see the [GSS Data Explorer page for `socsci`](https://gssdataexplorer.norc.org/variables/3406/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -305,7 +305,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `physcsci`](https://gssdataexplorer.norc.org/variables/3407/vshow).
+#' For further details see the [GSS Data Explorer page for `physcsci`](https://gssdataexplorer.norc.org/variables/3407/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -342,7 +342,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `histsci`](https://gssdataexplorer.norc.org/variables/3408/vshow).
+#' For further details see the [GSS Data Explorer page for `histsci`](https://gssdataexplorer.norc.org/variables/3408/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -648,7 +648,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sei`](https://gssdataexplorer.norc.org/variables/5479/vshow).
+#' For further details see the [GSS Data Explorer page for `sei`](https://gssdataexplorer.norc.org/variables/5479/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -679,7 +679,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `firstsei`](https://gssdataexplorer.norc.org/variables/5480/vshow).
+#' For further details see the [GSS Data Explorer page for `firstsei`](https://gssdataexplorer.norc.org/variables/5480/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -723,7 +723,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pasei`](https://gssdataexplorer.norc.org/variables/5481/vshow).
+#' For further details see the [GSS Data Explorer page for `pasei`](https://gssdataexplorer.norc.org/variables/5481/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -762,7 +762,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `masei`](https://gssdataexplorer.norc.org/variables/5482/vshow).
+#' For further details see the [GSS Data Explorer page for `masei`](https://gssdataexplorer.norc.org/variables/5482/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -806,7 +806,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spsei`](https://gssdataexplorer.norc.org/variables/5483/vshow).
+#' For further details see the [GSS Data Explorer page for `spsei`](https://gssdataexplorer.norc.org/variables/5483/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -871,7 +871,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sei10`](https://gssdataexplorer.norc.org/variables/5714/vshow).
+#' For further details see the [GSS Data Explorer page for `sei10`](https://gssdataexplorer.norc.org/variables/5714/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -936,7 +936,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sei10educ`](https://gssdataexplorer.norc.org/variables/5715/vshow).
+#' For further details see the [GSS Data Explorer page for `sei10educ`](https://gssdataexplorer.norc.org/variables/5715/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1001,7 +1001,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sei10inc`](https://gssdataexplorer.norc.org/variables/5716/vshow).
+#' For further details see the [GSS Data Explorer page for `sei10inc`](https://gssdataexplorer.norc.org/variables/5716/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1066,7 +1066,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pasei10`](https://gssdataexplorer.norc.org/variables/5717/vshow).
+#' For further details see the [GSS Data Explorer page for `pasei10`](https://gssdataexplorer.norc.org/variables/5717/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

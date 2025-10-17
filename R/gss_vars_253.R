@@ -21,7 +21,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contjpn`](https://gssdataexplorer.norc.org/variables/2281/vshow).
+#' For further details see the [GSS Data Explorer page for `contjpn`](https://gssdataexplorer.norc.org/variables/2281/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contmslm`](https://gssdataexplorer.norc.org/variables/2282/vshow).
+#' For further details see the [GSS Data Explorer page for `contmslm`](https://gssdataexplorer.norc.org/variables/2282/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -98,7 +98,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othlang`](https://gssdataexplorer.norc.org/variables/2283/vshow).
+#' For further details see the [GSS Data Explorer page for `othlang`](https://gssdataexplorer.norc.org/variables/2283/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othlang1`](https://gssdataexplorer.norc.org/variables/2284/vshow).
+#' For further details see the [GSS Data Explorer page for `othlang1`](https://gssdataexplorer.norc.org/variables/2284/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -562,7 +562,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othlang2`](https://gssdataexplorer.norc.org/variables/2285/vshow).
+#' For further details see the [GSS Data Explorer page for `othlang2`](https://gssdataexplorer.norc.org/variables/2285/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -688,7 +688,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othbest`](https://gssdataexplorer.norc.org/variables/2286/vshow).
+#' For further details see the [GSS Data Explorer page for `othbest`](https://gssdataexplorer.norc.org/variables/2286/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -732,7 +732,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spklang`](https://gssdataexplorer.norc.org/variables/2287/vshow).
+#' For further details see the [GSS Data Explorer page for `spklang`](https://gssdataexplorer.norc.org/variables/2287/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -768,7 +768,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uselang`](https://gssdataexplorer.norc.org/variables/2288/vshow).
+#' For further details see the [GSS Data Explorer page for `uselang`](https://gssdataexplorer.norc.org/variables/2288/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -802,7 +802,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `getlang`](https://gssdataexplorer.norc.org/variables/2289/vshow).
+#' For further details see the [GSS Data Explorer page for `getlang`](https://gssdataexplorer.norc.org/variables/2289/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -834,7 +834,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `parlang`](https://gssdataexplorer.norc.org/variables/2290/vshow).
+#' For further details see the [GSS Data Explorer page for `parlang`](https://gssdataexplorer.norc.org/variables/2290/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

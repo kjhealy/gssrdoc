@@ -33,7 +33,7 @@ Question How likely is it that you would be willing to have someone visit your h
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7865/vshow}{GSS Data Explorer page for \code{svyid2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7865/vshow}{GSS Data Explorer page for \code{svyid2}}.
 }
 
 \keyword{variable}

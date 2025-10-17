@@ -18,7 +18,7 @@
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cloning`](https://gssdataexplorer.norc.org/variables/3499/vshow).
+#' For further details see the [GSS Data Explorer page for `cloning`](https://gssdataexplorer.norc.org/variables/3499/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scinews1`](https://gssdataexplorer.norc.org/variables/3500/vshow).
+#' For further details see the [GSS Data Explorer page for `scinews1`](https://gssdataexplorer.norc.org/variables/3500/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scinews2`](https://gssdataexplorer.norc.org/variables/3501/vshow).
+#' For further details see the [GSS Data Explorer page for `scinews2`](https://gssdataexplorer.norc.org/variables/3501/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -137,7 +137,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scinews3`](https://gssdataexplorer.norc.org/variables/3502/vshow).
+#' For further details see the [GSS Data Explorer page for `scinews3`](https://gssdataexplorer.norc.org/variables/3502/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -179,7 +179,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `newsfrmy`](https://gssdataexplorer.norc.org/variables/3503/vshow).
+#' For further details see the [GSS Data Explorer page for `newsfrmy`](https://gssdataexplorer.norc.org/variables/3503/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scifromy`](https://gssdataexplorer.norc.org/variables/3504/vshow).
+#' For further details see the [GSS Data Explorer page for `scifromy`](https://gssdataexplorer.norc.org/variables/3504/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -264,7 +264,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `seeksciy`](https://gssdataexplorer.norc.org/variables/3505/vshow).
+#' For further details see the [GSS Data Explorer page for `seeksciy`](https://gssdataexplorer.norc.org/variables/3505/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -302,7 +302,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciinfgo`](https://gssdataexplorer.norc.org/variables/3506/vshow).
+#' For further details see the [GSS Data Explorer page for `sciinfgo`](https://gssdataexplorer.norc.org/variables/3506/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -335,7 +335,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scientda`](https://gssdataexplorer.norc.org/variables/3507/vshow).
+#' For further details see the [GSS Data Explorer page for `scientda`](https://gssdataexplorer.norc.org/variables/3507/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -368,7 +368,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scientsn`](https://gssdataexplorer.norc.org/variables/3508/vshow).
+#' For further details see the [GSS Data Explorer page for `scientsn`](https://gssdataexplorer.norc.org/variables/3508/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

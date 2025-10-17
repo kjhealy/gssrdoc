@@ -33,7 +33,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdotpre`](https://gssdataexplorer.norc.org/variables/134/vshow).
+#' For further details see the [GSS Data Explorer page for `spdotpre`](https://gssdataexplorer.norc.org/variables/134/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -80,7 +80,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `padotdat`](https://gssdataexplorer.norc.org/variables/135/vshow).
+#' For further details see the [GSS Data Explorer page for `padotdat`](https://gssdataexplorer.norc.org/variables/135/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -127,7 +127,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `padotpeo`](https://gssdataexplorer.norc.org/variables/136/vshow).
+#' For further details see the [GSS Data Explorer page for `padotpeo`](https://gssdataexplorer.norc.org/variables/136/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -174,7 +174,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `padotthn`](https://gssdataexplorer.norc.org/variables/137/vshow).
+#' For further details see the [GSS Data Explorer page for `padotthn`](https://gssdataexplorer.norc.org/variables/137/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `padotged`](https://gssdataexplorer.norc.org/variables/138/vshow).
+#' For further details see the [GSS Data Explorer page for `padotged`](https://gssdataexplorer.norc.org/variables/138/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `padotsvp`](https://gssdataexplorer.norc.org/variables/139/vshow).
+#' For further details see the [GSS Data Explorer page for `padotsvp`](https://gssdataexplorer.norc.org/variables/139/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -315,7 +315,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `padotpre`](https://gssdataexplorer.norc.org/variables/140/vshow).
+#' For further details see the [GSS Data Explorer page for `padotpre`](https://gssdataexplorer.norc.org/variables/140/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -387,7 +387,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partyid`](https://gssdataexplorer.norc.org/variables/141/vshow).
+#' For further details see the [GSS Data Explorer page for `partyid`](https://gssdataexplorer.norc.org/variables/141/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -423,7 +423,7 @@ NULL
 #'  |1973 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vote68`](https://gssdataexplorer.norc.org/variables/142/vshow).
+#' For further details see the [GSS Data Explorer page for `vote68`](https://gssdataexplorer.norc.org/variables/142/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -461,7 +461,7 @@ NULL
 #'  |1973 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pres68`](https://gssdataexplorer.norc.org/variables/143/vshow).
+#' For further details see the [GSS Data Explorer page for `pres68`](https://gssdataexplorer.norc.org/variables/143/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

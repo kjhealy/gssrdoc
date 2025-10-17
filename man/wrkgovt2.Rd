@@ -32,7 +32,7 @@ Question Are/were you employed by a private employer (including non-profit organ
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7433/vshow}{GSS Data Explorer page for \code{wrkgovt2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7433/vshow}{GSS Data Explorer page for \code{wrkgovt2}}.
 }
 
 \keyword{variable}

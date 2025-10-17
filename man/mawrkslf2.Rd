@@ -33,7 +33,7 @@ Question At this job, was your mother an employee, self-employed without employe
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7430/vshow}{GSS Data Explorer page for \code{mawrkslf2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7430/vshow}{GSS Data Explorer page for \code{mawrkslf2}}.
 }
 
 \keyword{variable}

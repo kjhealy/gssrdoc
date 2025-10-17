@@ -23,7 +23,7 @@
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `accntsci`](https://gssdataexplorer.norc.org/variables/3409/vshow).
+#' For further details see the [GSS Data Explorer page for `accntsci`](https://gssdataexplorer.norc.org/variables/3409/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `biosci`](https://gssdataexplorer.norc.org/variables/3410/vshow).
+#' For further details see the [GSS Data Explorer page for `biosci`](https://gssdataexplorer.norc.org/variables/3410/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `econsci`](https://gssdataexplorer.norc.org/variables/3411/vshow).
+#' For further details see the [GSS Data Explorer page for `econsci`](https://gssdataexplorer.norc.org/variables/3411/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medsci`](https://gssdataexplorer.norc.org/variables/3412/vshow).
+#' For further details see the [GSS Data Explorer page for `medsci`](https://gssdataexplorer.norc.org/variables/3412/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engnrsci`](https://gssdataexplorer.norc.org/variables/3413/vshow).
+#' For further details see the [GSS Data Explorer page for `engnrsci`](https://gssdataexplorer.norc.org/variables/3413/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -207,7 +207,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwforgn`](https://gssdataexplorer.norc.org/variables/3414/vshow).
+#' For further details see the [GSS Data Explorer page for `knwforgn`](https://gssdataexplorer.norc.org/variables/3414/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -243,7 +243,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwecon`](https://gssdataexplorer.norc.org/variables/3415/vshow).
+#' For further details see the [GSS Data Explorer page for `knwecon`](https://gssdataexplorer.norc.org/variables/3415/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwsci`](https://gssdataexplorer.norc.org/variables/3416/vshow).
+#' For further details see the [GSS Data Explorer page for `knwsci`](https://gssdataexplorer.norc.org/variables/3416/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -315,7 +315,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwgw`](https://gssdataexplorer.norc.org/variables/3417/vshow).
+#' For further details see the [GSS Data Explorer page for `knwgw`](https://gssdataexplorer.norc.org/variables/3417/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -352,7 +352,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwpolar`](https://gssdataexplorer.norc.org/variables/3418/vshow).
+#' For further details see the [GSS Data Explorer page for `knwpolar`](https://gssdataexplorer.norc.org/variables/3418/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -31,7 +31,7 @@ Question Here in (CURRENT STATE), do you think that laws should be changed to ma
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7176/vshow}{GSS Data Explorer page for \code{abstate2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7176/vshow}{GSS Data Explorer page for \code{abstate2}}.
 }
 
 \keyword{variable}

@@ -33,7 +33,7 @@ Question Compared to 12 months ago, how do you think the financial situation of 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7787/vshow}{GSS Data Explorer page for \code{yrfnce}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7787/vshow}{GSS Data Explorer page for \code{yrfnce}}.
 }
 
 \keyword{variable}

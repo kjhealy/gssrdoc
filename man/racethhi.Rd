@@ -29,7 +29,7 @@ Question b.  Hispanic or Latino?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6352/vshow}{GSS Data Explorer page for \code{racethhi}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6352/vshow}{GSS Data Explorer page for \code{racethhi}}.
 }
 
 \seealso{

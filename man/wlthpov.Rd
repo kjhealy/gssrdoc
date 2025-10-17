@@ -33,30 +33,14 @@ Question Please tell me whether you strongly agree, agree, neither agree nor dis
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2675/vshow}{GSS Data Explorer page for \code{wlthpov}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2675/vshow}{GSS Data Explorer page for \code{wlthpov}}.
 }
 
 \seealso{
 Other Freedom: 
-\code{\link{choice}},
 \code{\link{cntrlife}},
 \code{\link{expunpop}},
-\code{\link{freeexp1}},
-\code{\link{freeexp2}},
-\code{\link{freeexp3}},
-\code{\link{freemns1}},
-\code{\link{freemns2}},
-\code{\link{freemns3}},
-\code{\link{freenow}},
-\code{\link{freeprss}},
-\code{\link{howfree}},
-\code{\link{inpeace}},
-\code{\link{leftlone}},
-\code{\link{nogovt}},
-\code{\link{partpol}},
-\code{\link{rfreenow}},
-\code{\link{rhowfree}},
-\code{\link{satdemoc}}
+\code{\link{freeprss}}
 }
 \concept{Freedom}
 \keyword{variable}

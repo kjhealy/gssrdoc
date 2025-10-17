@@ -26,7 +26,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `safehlth`](https://gssdataexplorer.norc.org/variables/2787/vshow).
+#' For further details see the [GSS Data Explorer page for `safehlth`](https://gssdataexplorer.norc.org/variables/2787/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -66,7 +66,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proudemp`](https://gssdataexplorer.norc.org/variables/2788/vshow).
+#' For further details see the [GSS Data Explorer page for `proudemp`](https://gssdataexplorer.norc.org/variables/2788/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -106,7 +106,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prodctiv`](https://gssdataexplorer.norc.org/variables/2789/vshow).
+#' For further details see the [GSS Data Explorer page for `prodctiv`](https://gssdataexplorer.norc.org/variables/2789/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wksmooth`](https://gssdataexplorer.norc.org/variables/2790/vshow).
+#' For further details see the [GSS Data Explorer page for `wksmooth`](https://gssdataexplorer.norc.org/variables/2790/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -186,7 +186,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trdunion`](https://gssdataexplorer.norc.org/variables/2791/vshow).
+#' For further details see the [GSS Data Explorer page for `trdunion`](https://gssdataexplorer.norc.org/variables/2791/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -223,7 +223,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partteam`](https://gssdataexplorer.norc.org/variables/2792/vshow).
+#' For further details see the [GSS Data Explorer page for `partteam`](https://gssdataexplorer.norc.org/variables/2792/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wkdecide`](https://gssdataexplorer.norc.org/variables/2793/vshow).
+#' For further details see the [GSS Data Explorer page for `wkdecide`](https://gssdataexplorer.norc.org/variables/2793/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `setthngs`](https://gssdataexplorer.norc.org/variables/2794/vshow).
+#' For further details see the [GSS Data Explorer page for `setthngs`](https://gssdataexplorer.norc.org/variables/2794/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -336,7 +336,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `toofewwk`](https://gssdataexplorer.norc.org/variables/2795/vshow).
+#' For further details see the [GSS Data Explorer page for `toofewwk`](https://gssdataexplorer.norc.org/variables/2795/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -376,7 +376,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `promteok`](https://gssdataexplorer.norc.org/variables/2796/vshow).
+#' For further details see the [GSS Data Explorer page for `promteok`](https://gssdataexplorer.norc.org/variables/2796/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

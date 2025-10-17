@@ -21,7 +21,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `law6`](https://gssdataexplorer.norc.org/variables/5183/vshow).
+#' For further details see the [GSS Data Explorer page for `law6`](https://gssdataexplorer.norc.org/variables/5183/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `law7`](https://gssdataexplorer.norc.org/variables/5184/vshow).
+#' For further details see the [GSS Data Explorer page for `law7`](https://gssdataexplorer.norc.org/variables/5184/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `live1`](https://gssdataexplorer.norc.org/variables/5185/vshow).
+#' For further details see the [GSS Data Explorer page for `live1`](https://gssdataexplorer.norc.org/variables/5185/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `live2`](https://gssdataexplorer.norc.org/variables/5186/vshow).
+#' For further details see the [GSS Data Explorer page for `live2`](https://gssdataexplorer.norc.org/variables/5186/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `live3`](https://gssdataexplorer.norc.org/variables/5187/vshow).
+#' For further details see the [GSS Data Explorer page for `live3`](https://gssdataexplorer.norc.org/variables/5187/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `live4`](https://gssdataexplorer.norc.org/variables/5188/vshow).
+#' For further details see the [GSS Data Explorer page for `live4`](https://gssdataexplorer.norc.org/variables/5188/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oth1`](https://gssdataexplorer.norc.org/variables/5189/vshow).
+#' For further details see the [GSS Data Explorer page for `oth1`](https://gssdataexplorer.norc.org/variables/5189/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oth2`](https://gssdataexplorer.norc.org/variables/5190/vshow).
+#' For further details see the [GSS Data Explorer page for `oth2`](https://gssdataexplorer.norc.org/variables/5190/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oth3`](https://gssdataexplorer.norc.org/variables/5191/vshow).
+#' For further details see the [GSS Data Explorer page for `oth3`](https://gssdataexplorer.norc.org/variables/5191/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -336,7 +336,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oth4`](https://gssdataexplorer.norc.org/variables/5192/vshow).
+#' For further details see the [GSS Data Explorer page for `oth4`](https://gssdataexplorer.norc.org/variables/5192/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

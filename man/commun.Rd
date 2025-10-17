@@ -46,19 +46,12 @@ Question Thinking about all the different kinds of governments in the world toda
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5488/vshow}{GSS Data Explorer page for \code{commun}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5488/vshow}{GSS Data Explorer page for \code{commun}}.
 }
 
 \seealso{
 Other War and International: 
-\code{\link{brazil}},
-\code{\link{canada}},
-\code{\link{china}},
 \code{\link{commun10}},
-\code{\link{egypt}},
-\code{\link{england}},
-\code{\link{israel}},
-\code{\link{japan}},
 \code{\link{russia}},
 \code{\link{usintl}},
 \code{\link{usun}},

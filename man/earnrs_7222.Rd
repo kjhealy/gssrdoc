@@ -64,7 +64,7 @@ As of 2024, EARNRS has been recoded to only account for 0 to 3+ household earner
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8104/vshow}{GSS Data Explorer page for \code{earnrs_7222}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8104/vshow}{GSS Data Explorer page for \code{earnrs_7222}}.
 }
 
 \keyword{variable}

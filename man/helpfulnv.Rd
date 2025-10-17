@@ -33,7 +33,7 @@ Question Would you say that most of the time people try to be helpful, or that t
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7611/vshow}{GSS Data Explorer page for \code{helpfulnv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7611/vshow}{GSS Data Explorer page for \code{helpfulnv}}.
 }
 
 \keyword{variable}

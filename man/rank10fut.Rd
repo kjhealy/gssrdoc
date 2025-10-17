@@ -30,7 +30,7 @@ Question And thinking ahead 10 years from now, where do you think you will be on
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7514/vshow}{GSS Data Explorer page for \code{rank10fut}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7514/vshow}{GSS Data Explorer page for \code{rank10fut}}.
 }
 
 \keyword{variable}

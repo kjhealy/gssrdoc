@@ -19,7 +19,7 @@
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relobjct`](https://gssdataexplorer.norc.org/variables/4709/vshow).
+#' For further details see the [GSS Data Explorer page for `relobjct`](https://gssdataexplorer.norc.org/variables/4709/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vistholy`](https://gssdataexplorer.norc.org/variables/4710/vshow).
+#' For further details see the [GSS Data Explorer page for `vistholy`](https://gssdataexplorer.norc.org/variables/4710/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relsprt`](https://gssdataexplorer.norc.org/variables/4711/vshow).
+#' For further details see the [GSS Data Explorer page for `relsprt`](https://gssdataexplorer.norc.org/variables/4711/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paxhappy`](https://gssdataexplorer.norc.org/variables/4712/vshow).
+#' For further details see the [GSS Data Explorer page for `paxhappy`](https://gssdataexplorer.norc.org/variables/4712/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -165,7 +165,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `makefrnd`](https://gssdataexplorer.norc.org/variables/4713/vshow).
+#' For further details see the [GSS Data Explorer page for `makefrnd`](https://gssdataexplorer.norc.org/variables/4713/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comfort`](https://gssdataexplorer.norc.org/variables/4714/vshow).
+#' For further details see the [GSS Data Explorer page for `comfort`](https://gssdataexplorer.norc.org/variables/4714/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rightpeo`](https://gssdataexplorer.norc.org/variables/4715/vshow).
+#' For further details see the [GSS Data Explorer page for `rightpeo`](https://gssdataexplorer.norc.org/variables/4715/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -273,7 +273,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relgenbar`](https://gssdataexplorer.norc.org/variables/7281/vshow).
+#' For further details see the [GSS Data Explorer page for `relgenbar`](https://gssdataexplorer.norc.org/variables/7281/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -308,7 +308,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govvsrel`](https://gssdataexplorer.norc.org/variables/7282/vshow).
+#' For further details see the [GSS Data Explorer page for `govvsrel`](https://gssdataexplorer.norc.org/variables/7282/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -343,7 +343,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `difrel`](https://gssdataexplorer.norc.org/variables/7283/vshow).
+#' For further details see the [GSS Data Explorer page for `difrel`](https://gssdataexplorer.norc.org/variables/7283/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

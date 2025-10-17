@@ -33,7 +33,7 @@ Question To what degree was your neighborhood affected by water polution over th
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7502/vshow}{GSS Data Explorer page for \code{wtrpollu}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7502/vshow}{GSS Data Explorer page for \code{wtrpollu}}.
 }
 
 \keyword{variable}

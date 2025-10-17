@@ -34,7 +34,7 @@ Question Today, tests are being developed that make it possible to detect seriou
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5088/vshow}{GSS Data Explorer page for \code{geneself}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5088/vshow}{GSS Data Explorer page for \code{geneself}}.
 }
 
 \seealso{
@@ -44,10 +44,7 @@ Other Genes:
 \code{\link{genedef2}},
 \code{\link{genedef3}},
 \code{\link{genegoo1}},
-\code{\link{genegoo2}},
-\code{\link{genegood}},
-\code{\link{genetest}},
-\code{\link{genetst1}}
+\code{\link{genegoo2}}
 }
 \concept{Genes}
 \keyword{variable}

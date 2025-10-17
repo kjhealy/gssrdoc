@@ -19,7 +19,7 @@
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lobbygrp`](https://gssdataexplorer.norc.org/variables/1020/vshow).
+#' For further details see the [GSS Data Explorer page for `lobbygrp`](https://gssdataexplorer.norc.org/variables/1020/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `loclived`](https://gssdataexplorer.norc.org/variables/1021/vshow).
+#' For further details see the [GSS Data Explorer page for `loclived`](https://gssdataexplorer.norc.org/variables/1021/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `loctrust`](https://gssdataexplorer.norc.org/variables/1022/vshow).
+#' For further details see the [GSS Data Explorer page for `loctrust`](https://gssdataexplorer.norc.org/variables/1022/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `locinflu`](https://gssdataexplorer.norc.org/variables/1023/vshow).
+#' For further details see the [GSS Data Explorer page for `locinflu`](https://gssdataexplorer.norc.org/variables/1023/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `locprob`](https://gssdataexplorer.norc.org/variables/1024/vshow).
+#' For further details see the [GSS Data Explorer page for `locprob`](https://gssdataexplorer.norc.org/variables/1024/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -186,7 +186,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `locgrp`](https://gssdataexplorer.norc.org/variables/1025/vshow).
+#' For further details see the [GSS Data Explorer page for `locgrp`](https://gssdataexplorer.norc.org/variables/1025/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -220,7 +220,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `loccare`](https://gssdataexplorer.norc.org/variables/1026/vshow).
+#' For further details see the [GSS Data Explorer page for `loccare`](https://gssdataexplorer.norc.org/variables/1026/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -254,7 +254,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intpol`](https://gssdataexplorer.norc.org/variables/1027/vshow).
+#' For further details see the [GSS Data Explorer page for `intpol`](https://gssdataexplorer.norc.org/variables/1027/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `swayvote`](https://gssdataexplorer.norc.org/variables/1028/vshow).
+#' For further details see the [GSS Data Explorer page for `swayvote`](https://gssdataexplorer.norc.org/variables/1028/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -322,7 +322,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `workpol`](https://gssdataexplorer.norc.org/variables/1029/vshow).
+#' For further details see the [GSS Data Explorer page for `workpol`](https://gssdataexplorer.norc.org/variables/1029/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

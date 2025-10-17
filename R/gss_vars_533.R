@@ -20,7 +20,7 @@
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `meltpot1`](https://gssdataexplorer.norc.org/variables/4858/vshow).
+#' For further details see the [GSS Data Explorer page for `meltpot1`](https://gssdataexplorer.norc.org/variables/4858/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immcrime`](https://gssdataexplorer.norc.org/variables/4859/vshow).
+#' For further details see the [GSS Data Explorer page for `immcrime`](https://gssdataexplorer.norc.org/variables/4859/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -99,7 +99,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immameco`](https://gssdataexplorer.norc.org/variables/4860/vshow).
+#' For further details see the [GSS Data Explorer page for `immameco`](https://gssdataexplorer.norc.org/variables/4860/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -139,7 +139,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immjobs`](https://gssdataexplorer.norc.org/variables/4861/vshow).
+#' For further details see the [GSS Data Explorer page for `immjobs`](https://gssdataexplorer.norc.org/variables/4861/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -176,7 +176,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immideas`](https://gssdataexplorer.norc.org/variables/4862/vshow).
+#' For further details see the [GSS Data Explorer page for `immideas`](https://gssdataexplorer.norc.org/variables/4862/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -213,7 +213,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `letin1`](https://gssdataexplorer.norc.org/variables/4863/vshow).
+#' For further details see the [GSS Data Explorer page for `letin1`](https://gssdataexplorer.norc.org/variables/4863/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -248,7 +248,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `refugees`](https://gssdataexplorer.norc.org/variables/4864/vshow).
+#' For further details see the [GSS Data Explorer page for `refugees`](https://gssdataexplorer.norc.org/variables/4864/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `res161`](https://gssdataexplorer.norc.org/variables/4865/vshow).
+#' For further details see the [GSS Data Explorer page for `res161`](https://gssdataexplorer.norc.org/variables/4865/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -313,7 +313,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `livecom1`](https://gssdataexplorer.norc.org/variables/4866/vshow).
+#' For further details see the [GSS Data Explorer page for `livecom1`](https://gssdataexplorer.norc.org/variables/4866/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -347,7 +347,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abroad`](https://gssdataexplorer.norc.org/variables/4867/vshow).
+#' For further details see the [GSS Data Explorer page for `abroad`](https://gssdataexplorer.norc.org/variables/4867/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

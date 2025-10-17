@@ -31,7 +31,7 @@ Question Some people argue that more restrictions on handguns would decrease vio
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3058/vshow}{GSS Data Explorer page for \code{hguncrim}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3058/vshow}{GSS Data Explorer page for \code{hguncrim}}.
 }
 
 \seealso{

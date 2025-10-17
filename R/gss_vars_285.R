@@ -20,7 +20,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emwrkloc`](https://gssdataexplorer.norc.org/variables/2599/vshow).
+#' For further details see the [GSS Data Explorer page for `emwrkloc`](https://gssdataexplorer.norc.org/variables/2599/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emwrkawy`](https://gssdataexplorer.norc.org/variables/2600/vshow).
+#' For further details see the [GSS Data Explorer page for `emwrkawy`](https://gssdataexplorer.norc.org/variables/2600/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emfamloc`](https://gssdataexplorer.norc.org/variables/2601/vshow).
+#' For further details see the [GSS Data Explorer page for `emfamloc`](https://gssdataexplorer.norc.org/variables/2601/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emfamoth`](https://gssdataexplorer.norc.org/variables/2602/vshow).
+#' For further details see the [GSS Data Explorer page for `emfamoth`](https://gssdataexplorer.norc.org/variables/2602/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emfri`](https://gssdataexplorer.norc.org/variables/2603/vshow).
+#' For further details see the [GSS Data Explorer page for `emfri`](https://gssdataexplorer.norc.org/variables/2603/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emchurch`](https://gssdataexplorer.norc.org/variables/2604/vshow).
+#' For further details see the [GSS Data Explorer page for `emchurch`](https://gssdataexplorer.norc.org/variables/2604/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emgroups`](https://gssdataexplorer.norc.org/variables/2605/vshow).
+#' For further details see the [GSS Data Explorer page for `emgroups`](https://gssdataexplorer.norc.org/variables/2605/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intuse`](https://gssdataexplorer.norc.org/variables/6266/vshow).
+#' For further details see the [GSS Data Explorer page for `intuse`](https://gssdataexplorer.norc.org/variables/6266/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -287,7 +287,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intstart`](https://gssdataexplorer.norc.org/variables/6647/vshow).
+#' For further details see the [GSS Data Explorer page for `intstart`](https://gssdataexplorer.norc.org/variables/6647/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intmbile`](https://gssdataexplorer.norc.org/variables/6267/vshow).
+#' For further details see the [GSS Data Explorer page for `intmbile`](https://gssdataexplorer.norc.org/variables/6267/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

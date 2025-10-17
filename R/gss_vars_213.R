@@ -22,7 +22,7 @@
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tlkclrgy`](https://gssdataexplorer.norc.org/variables/2012/vshow).
+#' For further details see the [GSS Data Explorer page for `tlkclrgy`](https://gssdataexplorer.norc.org/variables/2012/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `meddoc`](https://gssdataexplorer.norc.org/variables/2013/vshow).
+#' For further details see the [GSS Data Explorer page for `meddoc`](https://gssdataexplorer.norc.org/variables/2013/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mentldoc`](https://gssdataexplorer.norc.org/variables/2014/vshow).
+#' For further details see the [GSS Data Explorer page for `mentldoc`](https://gssdataexplorer.norc.org/variables/2014/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mentloth`](https://gssdataexplorer.norc.org/variables/2015/vshow).
+#' For further details see the [GSS Data Explorer page for `mentloth`](https://gssdataexplorer.norc.org/variables/2015/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphealer`](https://gssdataexplorer.norc.org/variables/2016/vshow).
+#' For further details see the [GSS Data Explorer page for `sphealer`](https://gssdataexplorer.norc.org/variables/2016/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `selfhelp`](https://gssdataexplorer.norc.org/variables/2017/vshow).
+#' For further details see the [GSS Data Explorer page for `selfhelp`](https://gssdataexplorer.norc.org/variables/2017/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `otcmed`](https://gssdataexplorer.norc.org/variables/2018/vshow).
+#' For further details see the [GSS Data Explorer page for `otcmed`](https://gssdataexplorer.norc.org/variables/2018/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rxmed`](https://gssdataexplorer.norc.org/variables/2019/vshow).
+#' For further details see the [GSS Data Explorer page for `rxmed`](https://gssdataexplorer.norc.org/variables/2019/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mentlhos`](https://gssdataexplorer.norc.org/variables/2020/vshow).
+#' For further details see the [GSS Data Explorer page for `mentlhos`](https://gssdataexplorer.norc.org/variables/2020/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -352,7 +352,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dofirst`](https://gssdataexplorer.norc.org/variables/7094/vshow).
+#' For further details see the [GSS Data Explorer page for `dofirst`](https://gssdataexplorer.norc.org/variables/7094/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

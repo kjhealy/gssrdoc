@@ -33,7 +33,7 @@ Question The success of the United States is part of God’s plan.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7544/vshow}{GSS Data Explorer page for \code{godusa}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7544/vshow}{GSS Data Explorer page for \code{godusa}}.
 }
 
 \keyword{variable}

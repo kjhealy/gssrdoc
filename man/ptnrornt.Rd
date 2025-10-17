@@ -34,7 +34,7 @@ Question To the best of your knowledge, which of the following best describes ho
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7559/vshow}{GSS Data Explorer page for \code{ptnrornt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7559/vshow}{GSS Data Explorer page for \code{ptnrornt}}.
 }
 
 \keyword{variable}

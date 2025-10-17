@@ -30,7 +30,7 @@ Question Are you the stepparent of at least one individual under the age of 18 i
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8031/vshow}{GSS Data Explorer page for \code{rstpprnt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8031/vshow}{GSS Data Explorer page for \code{rstpprnt}}.
 }
 
 \keyword{variable}

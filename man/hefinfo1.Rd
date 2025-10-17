@@ -44,7 +44,7 @@ Question Number in family of person who was household informant (i.e. who provid
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8035/vshow}{GSS Data Explorer page for \code{hefinfo1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8035/vshow}{GSS Data Explorer page for \code{hefinfo1}}.
 }
 
 \keyword{variable}

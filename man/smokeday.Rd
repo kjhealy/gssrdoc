@@ -35,7 +35,7 @@ Question Do you smoke cigarettes, and if so about how many cigarettes a day?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7834/vshow}{GSS Data Explorer page for \code{smokeday}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7834/vshow}{GSS Data Explorer page for \code{smokeday}}.
 }
 
 \keyword{variable}

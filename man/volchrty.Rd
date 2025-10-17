@@ -38,20 +38,12 @@ E. Done volunteer work for a charity
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2881/vshow}{GSS Data Explorer page for \code{volchrty}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2881/vshow}{GSS Data Explorer page for \code{volchrty}}.
 }
 
 \seealso{
 Other Altruism: 
-\code{\link{accptoth}},
-\code{\link{careself}},
-\code{\link{carried}},
 \code{\link{cutahead}},
-\code{\link{directns}},
-\code{\link{empathy1}},
-\code{\link{empathy2}},
-\code{\link{empathy3}},
-\code{\link{empathy4}},
 \code{\link{empathy5}},
 \code{\link{empathy6}},
 \code{\link{empathy7}},
@@ -59,15 +51,7 @@ Other Altruism:
 \code{\link{givchrty}},
 \code{\link{givhmlss}},
 \code{\link{givseat}},
-\code{\link{helpaway}},
-\code{\link{loanitem}},
-\code{\link{othshelp}},
-\code{\link{peoptrbl}},
-\code{\link{retchnge}},
-\code{\link{selffrst}},
-\code{\link{selfless}},
-\code{\link{valgiven}},
-\code{\link{volmonth}}
+\code{\link{retchnge}}
 }
 \concept{Altruism}
 \keyword{variable}

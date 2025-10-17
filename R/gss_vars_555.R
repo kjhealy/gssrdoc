@@ -18,7 +18,7 @@
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidscndm`](https://gssdataexplorer.norc.org/variables/5078/vshow).
+#' For further details see the [GSS Data Explorer page for `aidscndm`](https://gssdataexplorer.norc.org/variables/5078/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hivvac`](https://gssdataexplorer.norc.org/variables/5079/vshow).
+#' For further details see the [GSS Data Explorer page for `hivvac`](https://gssdataexplorer.norc.org/variables/5079/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hivkiss`](https://gssdataexplorer.norc.org/variables/5080/vshow).
+#' For further details see the [GSS Data Explorer page for `hivkiss`](https://gssdataexplorer.norc.org/variables/5080/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -123,7 +123,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexornt`](https://gssdataexplorer.norc.org/variables/5081/vshow).
+#' For further details see the [GSS Data Explorer page for `sexornt`](https://gssdataexplorer.norc.org/variables/5081/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexbirth`](https://gssdataexplorer.norc.org/variables/7292/vshow).
+#' For further details see the [GSS Data Explorer page for `sexbirth`](https://gssdataexplorer.norc.org/variables/7292/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexnow`](https://gssdataexplorer.norc.org/variables/7293/vshow).
+#' For further details see the [GSS Data Explorer page for `sexnow`](https://gssdataexplorer.norc.org/variables/7293/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |1990 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `siborder`](https://gssdataexplorer.norc.org/variables/5082/vshow).
+#' For further details see the [GSS Data Explorer page for `siborder`](https://gssdataexplorer.norc.org/variables/5082/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |1996 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genetest`](https://gssdataexplorer.norc.org/variables/5083/vshow).
+#' For further details see the [GSS Data Explorer page for `genetest`](https://gssdataexplorer.norc.org/variables/5083/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2018 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genetst1`](https://gssdataexplorer.norc.org/variables/5084/vshow).
+#' For further details see the [GSS Data Explorer page for `genetst1`](https://gssdataexplorer.norc.org/variables/5084/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -327,7 +327,7 @@ NULL
 #'  |1996 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genegood`](https://gssdataexplorer.norc.org/variables/5085/vshow).
+#' For further details see the [GSS Data Explorer page for `genegood`](https://gssdataexplorer.norc.org/variables/5085/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

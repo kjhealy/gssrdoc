@@ -33,7 +33,7 @@ Question And do you think that pesticides and chemicals used in farming areâ€
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7491/vshow}{GSS Data Explorer page for \code{chemgen1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7491/vshow}{GSS Data Explorer page for \code{chemgen1}}.
 }
 
 \keyword{variable}

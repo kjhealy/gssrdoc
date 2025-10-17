@@ -19,7 +19,7 @@
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cowrkhrd`](https://gssdataexplorer.norc.org/variables/2864/vshow).
+#' For further details see the [GSS Data Explorer page for `cowrkhrd`](https://gssdataexplorer.norc.org/variables/2864/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `talkemp`](https://gssdataexplorer.norc.org/variables/2865/vshow).
+#' For further details see the [GSS Data Explorer page for `talkemp`](https://gssdataexplorer.norc.org/variables/2865/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `talksup`](https://gssdataexplorer.norc.org/variables/2866/vshow).
+#' For further details see the [GSS Data Explorer page for `talksup`](https://gssdataexplorer.norc.org/variables/2866/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `donothng`](https://gssdataexplorer.norc.org/variables/2867/vshow).
+#' For further details see the [GSS Data Explorer page for `donothng`](https://gssdataexplorer.norc.org/variables/2867/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lastwkmo`](https://gssdataexplorer.norc.org/variables/2868/vshow).
+#' For further details see the [GSS Data Explorer page for `lastwkmo`](https://gssdataexplorer.norc.org/variables/2868/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -203,7 +203,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lastwkyr`](https://gssdataexplorer.norc.org/variables/2869/vshow).
+#' For further details see the [GSS Data Explorer page for `lastwkyr`](https://gssdataexplorer.norc.org/variables/2869/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -237,7 +237,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `empathy1`](https://gssdataexplorer.norc.org/variables/2870/vshow).
+#' For further details see the [GSS Data Explorer page for `empathy1`](https://gssdataexplorer.norc.org/variables/2870/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -271,7 +271,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `empathy2`](https://gssdataexplorer.norc.org/variables/2871/vshow).
+#' For further details see the [GSS Data Explorer page for `empathy2`](https://gssdataexplorer.norc.org/variables/2871/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -305,7 +305,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `empathy3`](https://gssdataexplorer.norc.org/variables/2872/vshow).
+#' For further details see the [GSS Data Explorer page for `empathy3`](https://gssdataexplorer.norc.org/variables/2872/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -339,7 +339,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `empathy4`](https://gssdataexplorer.norc.org/variables/2873/vshow).
+#' For further details see the [GSS Data Explorer page for `empathy4`](https://gssdataexplorer.norc.org/variables/2873/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

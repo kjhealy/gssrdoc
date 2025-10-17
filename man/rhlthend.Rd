@@ -34,7 +34,7 @@ Question Would you say the respondent's health in general is Excellent, Good, Fa
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6662/vshow}{GSS Data Explorer page for \code{rhlthend}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6662/vshow}{GSS Data Explorer page for \code{rhlthend}}.
 }
 
 \keyword{variable}

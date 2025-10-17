@@ -21,7 +21,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `parhardr`](https://gssdataexplorer.norc.org/variables/5093/vshow).
+#' For further details see the [GSS Data Explorer page for `parhardr`](https://gssdataexplorer.norc.org/variables/5093/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `parworse`](https://gssdataexplorer.norc.org/variables/5094/vshow).
+#' For further details see the [GSS Data Explorer page for `parworse`](https://gssdataexplorer.norc.org/variables/5094/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `parrght`](https://gssdataexplorer.norc.org/variables/5095/vshow).
+#' For further details see the [GSS Data Explorer page for `parrght`](https://gssdataexplorer.norc.org/variables/5095/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `parwhere`](https://gssdataexplorer.norc.org/variables/5096/vshow).
+#' For further details see the [GSS Data Explorer page for `parwhere`](https://gssdataexplorer.norc.org/variables/5096/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `parfin`](https://gssdataexplorer.norc.org/variables/5097/vshow).
+#' For further details see the [GSS Data Explorer page for `parfin`](https://gssdataexplorer.norc.org/variables/5097/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pargovt`](https://gssdataexplorer.norc.org/variables/5098/vshow).
+#' For further details see the [GSS Data Explorer page for `pargovt`](https://gssdataexplorer.norc.org/variables/5098/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partime`](https://gssdataexplorer.norc.org/variables/5099/vshow).
+#' For further details see the [GSS Data Explorer page for `partime`](https://gssdataexplorer.norc.org/variables/5099/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `parwork`](https://gssdataexplorer.norc.org/variables/5100/vshow).
+#' For further details see the [GSS Data Explorer page for `parwork`](https://gssdataexplorer.norc.org/variables/5100/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partaxes`](https://gssdataexplorer.norc.org/variables/5101/vshow).
+#' For further details see the [GSS Data Explorer page for `partaxes`](https://gssdataexplorer.norc.org/variables/5101/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -336,7 +336,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rolema`](https://gssdataexplorer.norc.org/variables/5102/vshow).
+#' For further details see the [GSS Data Explorer page for `rolema`](https://gssdataexplorer.norc.org/variables/5102/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

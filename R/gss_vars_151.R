@@ -22,7 +22,7 @@
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tvshows`](https://gssdataexplorer.norc.org/variables/1419/vshow).
+#' For further details see the [GSS Data Explorer page for `tvshows`](https://gssdataexplorer.norc.org/variables/1419/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tvnews`](https://gssdataexplorer.norc.org/variables/1420/vshow).
+#' For further details see the [GSS Data Explorer page for `tvnews`](https://gssdataexplorer.norc.org/variables/1420/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tvpbs`](https://gssdataexplorer.norc.org/variables/1421/vshow).
+#' For further details see the [GSS Data Explorer page for `tvpbs`](https://gssdataexplorer.norc.org/variables/1421/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `judgeart`](https://gssdataexplorer.norc.org/variables/1422/vshow).
+#' For further details see the [GSS Data Explorer page for `judgeart`](https://gssdataexplorer.norc.org/variables/1422/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trstprof`](https://gssdataexplorer.norc.org/variables/1423/vshow).
+#' For further details see the [GSS Data Explorer page for `trstprof`](https://gssdataexplorer.norc.org/variables/1423/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -201,7 +201,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `classics`](https://gssdataexplorer.norc.org/variables/1424/vshow).
+#' For further details see the [GSS Data Explorer page for `classics`](https://gssdataexplorer.norc.org/variables/1424/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -236,7 +236,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grtbooks`](https://gssdataexplorer.norc.org/variables/1425/vshow).
+#' For further details see the [GSS Data Explorer page for `grtbooks`](https://gssdataexplorer.norc.org/variables/1425/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -272,7 +272,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `modpaint`](https://gssdataexplorer.norc.org/variables/1426/vshow).
+#' For further details see the [GSS Data Explorer page for `modpaint`](https://gssdataexplorer.norc.org/variables/1426/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `english`](https://gssdataexplorer.norc.org/variables/1427/vshow).
+#' For further details see the [GSS Data Explorer page for `english`](https://gssdataexplorer.norc.org/variables/1427/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -343,7 +343,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pclit`](https://gssdataexplorer.norc.org/variables/1428/vshow).
+#' For further details see the [GSS Data Explorer page for `pclit`](https://gssdataexplorer.norc.org/variables/1428/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

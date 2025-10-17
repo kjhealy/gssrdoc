@@ -21,7 +21,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rolepa`](https://gssdataexplorer.norc.org/variables/5103/vshow).
+#' For further details see the [GSS Data Explorer page for `rolepa`](https://gssdataexplorer.norc.org/variables/5103/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rolegp`](https://gssdataexplorer.norc.org/variables/5104/vshow).
+#' For further details see the [GSS Data Explorer page for `rolegp`](https://gssdataexplorer.norc.org/variables/5104/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `roleccp`](https://gssdataexplorer.norc.org/variables/5105/vshow).
+#' For further details see the [GSS Data Explorer page for `roleccp`](https://gssdataexplorer.norc.org/variables/5105/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `roletchr`](https://gssdataexplorer.norc.org/variables/5106/vshow).
+#' For further details see the [GSS Data Explorer page for `roletchr`](https://gssdataexplorer.norc.org/variables/5106/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `roleclrg`](https://gssdataexplorer.norc.org/variables/5107/vshow).
+#' For further details see the [GSS Data Explorer page for `roleclrg`](https://gssdataexplorer.norc.org/variables/5107/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -197,7 +197,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldeduc`](https://gssdataexplorer.norc.org/variables/5108/vshow).
+#' For further details see the [GSS Data Explorer page for `chldeduc`](https://gssdataexplorer.norc.org/variables/5108/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -233,7 +233,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldlove`](https://gssdataexplorer.norc.org/variables/5109/vshow).
+#' For further details see the [GSS Data Explorer page for `chldlove`](https://gssdataexplorer.norc.org/variables/5109/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -269,7 +269,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldsafe`](https://gssdataexplorer.norc.org/variables/5110/vshow).
+#' For further details see the [GSS Data Explorer page for `chldsafe`](https://gssdataexplorer.norc.org/variables/5110/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -305,7 +305,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldmorl`](https://gssdataexplorer.norc.org/variables/5111/vshow).
+#' For further details see the [GSS Data Explorer page for `chldmorl`](https://gssdataexplorer.norc.org/variables/5111/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -341,7 +341,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldsup`](https://gssdataexplorer.norc.org/variables/5112/vshow).
+#' For further details see the [GSS Data Explorer page for `chldsup`](https://gssdataexplorer.norc.org/variables/5112/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -33,7 +33,7 @@ Question How much, if at all, do you enjoy being outside in nature?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7495/vshow}{GSS Data Explorer page for \code{enjoynat}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7495/vshow}{GSS Data Explorer page for \code{enjoynat}}.
 }
 
 \keyword{variable}

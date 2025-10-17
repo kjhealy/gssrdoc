@@ -33,7 +33,7 @@ Question Does/did your (husband/wife/spouse/partner) work in their own family bu
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8033/vshow}{GSS Data Explorer page for \code{spwrkslffam}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8033/vshow}{GSS Data Explorer page for \code{spwrkslffam}}.
 }
 
 \keyword{variable}

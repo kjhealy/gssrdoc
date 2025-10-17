@@ -30,7 +30,7 @@ Question Do you have any paid employees?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3818/vshow}{GSS Data Explorer page for \code{paidemps}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3818/vshow}{GSS Data Explorer page for \code{paidemps}}.
 }
 
 \seealso{
@@ -38,12 +38,8 @@ Other Self Employment:
 \code{\link{bizgross}},
 \code{\link{bizshare}},
 \code{\link{numemps5}},
-\code{\link{numown}},
-\code{\link{ownbiz}},
 \code{\link{owninc}},
-\code{\link{startbiz}},
-\code{\link{whybiz}},
-\code{\link{yearbiz}}
+\code{\link{whybiz}}
 }
 \concept{Self Employment}
 \keyword{variable}

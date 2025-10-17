@@ -35,33 +35,19 @@ D. A kind person. Is this â€¦â€¦
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3050/vshow}{GSS Data Explorer page for \code{kindpers}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3050/vshow}{GSS Data Explorer page for \code{kindpers}}.
 }
 
 \seealso{
 Other Genes and the Environment: 
-\code{\link{afailure}},
 \code{\link{athletic}},
 \code{\link{depndabl}},
 \code{\link{geneexps}},
-\code{\link{genenvo1}},
-\code{\link{genenvo2}},
-\code{\link{genenvo3}},
-\code{\link{genenvo4}},
-\code{\link{genevig1}},
-\code{\link{genevig2}},
 \code{\link{intrwght}},
 \code{\link{moregood}},
-\code{\link{nogood}},
-\code{\link{notcount}},
-\code{\link{ofworth}},
-\code{\link{optimist}},
 \code{\link{owndoing}},
-\code{\link{pessimst}},
 \code{\link{sadblue}},
-\code{\link{satself}},
-\code{\link{selfish}},
-\code{\link{slfrspct}}
+\code{\link{selfish}}
 }
 \concept{Genes and the Environment}
 \keyword{variable}

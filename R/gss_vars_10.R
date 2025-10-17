@@ -51,7 +51,7 @@
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `age`](https://gssdataexplorer.norc.org/variables/53/vshow).
+#' For further details see the [GSS Data Explorer page for `age`](https://gssdataexplorer.norc.org/variables/53/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -98,7 +98,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agekdbrn`](https://gssdataexplorer.norc.org/variables/54/vshow).
+#' For further details see the [GSS Data Explorer page for `agekdbrn`](https://gssdataexplorer.norc.org/variables/54/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `educ`](https://gssdataexplorer.norc.org/variables/55/vshow).
+#' For further details see the [GSS Data Explorer page for `educ`](https://gssdataexplorer.norc.org/variables/55/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -272,7 +272,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paeduc`](https://gssdataexplorer.norc.org/variables/56/vshow).
+#' For further details see the [GSS Data Explorer page for `paeduc`](https://gssdataexplorer.norc.org/variables/56/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -357,7 +357,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maeduc`](https://gssdataexplorer.norc.org/variables/57/vshow).
+#' For further details see the [GSS Data Explorer page for `maeduc`](https://gssdataexplorer.norc.org/variables/57/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -441,7 +441,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `speduc`](https://gssdataexplorer.norc.org/variables/58/vshow).
+#' For further details see the [GSS Data Explorer page for `speduc`](https://gssdataexplorer.norc.org/variables/58/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -498,7 +498,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `coeduc`](https://gssdataexplorer.norc.org/variables/6160/vshow).
+#' For further details see the [GSS Data Explorer page for `coeduc`](https://gssdataexplorer.norc.org/variables/6160/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -539,7 +539,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `codeg`](https://gssdataexplorer.norc.org/variables/6161/vshow).
+#' For further details see the [GSS Data Explorer page for `codeg`](https://gssdataexplorer.norc.org/variables/6161/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -608,7 +608,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `degree`](https://gssdataexplorer.norc.org/variables/59/vshow).
+#' For further details see the [GSS Data Explorer page for `degree`](https://gssdataexplorer.norc.org/variables/59/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -677,7 +677,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `padeg`](https://gssdataexplorer.norc.org/variables/60/vshow).
+#' For further details see the [GSS Data Explorer page for `padeg`](https://gssdataexplorer.norc.org/variables/60/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

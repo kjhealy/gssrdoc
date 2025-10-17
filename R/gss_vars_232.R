@@ -18,7 +18,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aimofart`](https://gssdataexplorer.norc.org/variables/2128/vshow).
+#' For further details see the [GSS Data Explorer page for `aimofart`](https://gssdataexplorer.norc.org/variables/2128/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `readfict`](https://gssdataexplorer.norc.org/variables/2129/vshow).
+#' For further details see the [GSS Data Explorer page for `readfict`](https://gssdataexplorer.norc.org/variables/2129/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `popmusic`](https://gssdataexplorer.norc.org/variables/2130/vshow).
+#' For further details see the [GSS Data Explorer page for `popmusic`](https://gssdataexplorer.norc.org/variables/2130/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `drama`](https://gssdataexplorer.norc.org/variables/2131/vshow).
+#' For further details see the [GSS Data Explorer page for `drama`](https://gssdataexplorer.norc.org/variables/2131/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -155,7 +155,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relart`](https://gssdataexplorer.norc.org/variables/2132/vshow).
+#' For further details see the [GSS Data Explorer page for `relart`](https://gssdataexplorer.norc.org/variables/2132/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volarts`](https://gssdataexplorer.norc.org/variables/2133/vshow).
+#' For further details see the [GSS Data Explorer page for `volarts`](https://gssdataexplorer.norc.org/variables/2133/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -219,7 +219,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natlart`](https://gssdataexplorer.norc.org/variables/2134/vshow).
+#' For further details see the [GSS Data Explorer page for `natlart`](https://gssdataexplorer.norc.org/variables/2134/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -252,7 +252,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stateart`](https://gssdataexplorer.norc.org/variables/2135/vshow).
+#' For further details see the [GSS Data Explorer page for `stateart`](https://gssdataexplorer.norc.org/variables/2135/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `localart`](https://gssdataexplorer.norc.org/variables/2136/vshow).
+#' For further details see the [GSS Data Explorer page for `localart`](https://gssdataexplorer.norc.org/variables/2136/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -318,7 +318,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmnce`](https://gssdataexplorer.norc.org/variables/6209/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmnce`](https://gssdataexplorer.norc.org/variables/6209/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -33,7 +33,7 @@ Question People may have different opinions about whether women or men are best 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7783/vshow}{GSS Data Explorer page for \code{cabgndr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7783/vshow}{GSS Data Explorer page for \code{cabgndr}}.
 }
 
 \keyword{variable}

@@ -43,7 +43,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `browser3`](https://gssdataexplorer.norc.org/variables/2633/vshow).
+#' For further details see the [GSS Data Explorer page for `browser3`](https://gssdataexplorer.norc.org/variables/2633/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -77,7 +77,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advsrch`](https://gssdataexplorer.norc.org/variables/2634/vshow).
+#' For further details see the [GSS Data Explorer page for `advsrch`](https://gssdataexplorer.norc.org/variables/2634/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -110,7 +110,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mp3`](https://gssdataexplorer.norc.org/variables/2635/vshow).
+#' For further details see the [GSS Data Explorer page for `mp3`](https://gssdataexplorer.norc.org/variables/2635/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -143,7 +143,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ezines`](https://gssdataexplorer.norc.org/variables/2636/vshow).
+#' For further details see the [GSS Data Explorer page for `ezines`](https://gssdataexplorer.norc.org/variables/2636/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -177,7 +177,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prefsets`](https://gssdataexplorer.norc.org/variables/2637/vshow).
+#' For further details see the [GSS Data Explorer page for `prefsets`](https://gssdataexplorer.norc.org/variables/2637/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `newsgrps`](https://gssdataexplorer.norc.org/variables/2638/vshow).
+#' For further details see the [GSS Data Explorer page for `newsgrps`](https://gssdataexplorer.norc.org/variables/2638/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timekid1`](https://gssdataexplorer.norc.org/variables/2639/vshow).
+#' For further details see the [GSS Data Explorer page for `timekid1`](https://gssdataexplorer.norc.org/variables/2639/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timekid2`](https://gssdataexplorer.norc.org/variables/2640/vshow).
+#' For further details see the [GSS Data Explorer page for `timekid2`](https://gssdataexplorer.norc.org/variables/2640/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -313,7 +313,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timekid3`](https://gssdataexplorer.norc.org/variables/2641/vshow).
+#' For further details see the [GSS Data Explorer page for `timekid3`](https://gssdataexplorer.norc.org/variables/2641/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -347,7 +347,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timekid4`](https://gssdataexplorer.norc.org/variables/2642/vshow).
+#' For further details see the [GSS Data Explorer page for `timekid4`](https://gssdataexplorer.norc.org/variables/2642/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

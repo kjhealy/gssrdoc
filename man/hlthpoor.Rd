@@ -33,7 +33,7 @@ Question (People suffer from severe health problems...) Because they are poor.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7804/vshow}{GSS Data Explorer page for \code{hlthpoor}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7804/vshow}{GSS Data Explorer page for \code{hlthpoor}}.
 }
 
 \keyword{variable}

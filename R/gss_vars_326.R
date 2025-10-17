@@ -22,7 +22,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `supfam`](https://gssdataexplorer.norc.org/variables/2904/vshow).
+#' For further details see the [GSS Data Explorer page for `supfam`](https://gssdataexplorer.norc.org/variables/2904/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `supfam1`](https://gssdataexplorer.norc.org/variables/2905/vshow).
+#' For further details see the [GSS Data Explorer page for `supfam1`](https://gssdataexplorer.norc.org/variables/2905/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `havchld`](https://gssdataexplorer.norc.org/variables/2906/vshow).
+#' For further details see the [GSS Data Explorer page for `havchld`](https://gssdataexplorer.norc.org/variables/2906/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `havchld1`](https://gssdataexplorer.norc.org/variables/2907/vshow).
+#' For further details see the [GSS Data Explorer page for `havchld1`](https://gssdataexplorer.norc.org/variables/2907/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -160,7 +160,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `getmar`](https://gssdataexplorer.norc.org/variables/2908/vshow).
+#' For further details see the [GSS Data Explorer page for `getmar`](https://gssdataexplorer.norc.org/variables/2908/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -193,7 +193,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `getmar1`](https://gssdataexplorer.norc.org/variables/2909/vshow).
+#' For further details see the [GSS Data Explorer page for `getmar1`](https://gssdataexplorer.norc.org/variables/2909/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -226,7 +226,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `boycott`](https://gssdataexplorer.norc.org/variables/2910/vshow).
+#' For further details see the [GSS Data Explorer page for `boycott`](https://gssdataexplorer.norc.org/variables/2910/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -259,7 +259,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `signpet`](https://gssdataexplorer.norc.org/variables/2911/vshow).
+#' For further details see the [GSS Data Explorer page for `signpet`](https://gssdataexplorer.norc.org/variables/2911/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `protest`](https://gssdataexplorer.norc.org/variables/2912/vshow).
+#' For further details see the [GSS Data Explorer page for `protest`](https://gssdataexplorer.norc.org/variables/2912/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -325,7 +325,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conoffcl`](https://gssdataexplorer.norc.org/variables/2913/vshow).
+#' For further details see the [GSS Data Explorer page for `conoffcl`](https://gssdataexplorer.norc.org/variables/2913/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

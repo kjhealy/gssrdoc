@@ -42,7 +42,7 @@ Question Number in family of person who was respondent - selected from Household
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8037/vshow}{GSS Data Explorer page for \code{respnumh}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8037/vshow}{GSS Data Explorer page for \code{respnumh}}.
 }
 
 \keyword{variable}

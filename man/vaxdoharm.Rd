@@ -33,7 +33,7 @@ Question How much do you agree or disagree with the following statements about v
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7818/vshow}{GSS Data Explorer page for \code{vaxdoharm}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7818/vshow}{GSS Data Explorer page for \code{vaxdoharm}}.
 }
 
 \keyword{variable}

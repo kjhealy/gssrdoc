@@ -34,7 +34,7 @@ Question In general, would you say your quality of life isï¿½
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7163/vshow}{GSS Data Explorer page for \code{quallife}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7163/vshow}{GSS Data Explorer page for \code{quallife}}.
 }
 
 \keyword{variable}

@@ -33,7 +33,7 @@ Question Jesus Christâ€™s death on the cross is the only sacrifice that cou
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7532/vshow}{GSS Data Explorer page for \code{sinsacri}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7532/vshow}{GSS Data Explorer page for \code{sinsacri}}.
 }
 
 \keyword{variable}

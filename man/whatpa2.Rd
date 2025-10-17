@@ -33,7 +33,7 @@ Question How would you classify the place where your father worked? Was this mai
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7744/vshow}{GSS Data Explorer page for \code{whatpa2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7744/vshow}{GSS Data Explorer page for \code{whatpa2}}.
 }
 
 \keyword{variable}

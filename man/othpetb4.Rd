@@ -30,7 +30,7 @@ Question Past pet - Some other kind of pet
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7219/vshow}{GSS Data Explorer page for \code{othpetb4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7219/vshow}{GSS Data Explorer page for \code{othpetb4}}.
 }
 
 \keyword{variable}

@@ -33,7 +33,7 @@ Question To the best of your knowledge, does your most recent sexual partner des
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7561/vshow}{GSS Data Explorer page for \code{ptnrsxnow}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7561/vshow}{GSS Data Explorer page for \code{ptnrsxnow}}.
 }
 
 \keyword{variable}

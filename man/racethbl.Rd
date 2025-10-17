@@ -29,7 +29,7 @@ Question c.  Black or African American?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6353/vshow}{GSS Data Explorer page for \code{racethbl}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6353/vshow}{GSS Data Explorer page for \code{racethbl}}.
 }
 
 \seealso{

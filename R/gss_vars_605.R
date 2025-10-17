@@ -32,7 +32,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bthgrp5d`](https://gssdataexplorer.norc.org/variables/5542/vshow).
+#' For further details see the [GSS Data Explorer page for `bthgrp5d`](https://gssdataexplorer.norc.org/variables/5542/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -78,7 +78,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bthgrp5e`](https://gssdataexplorer.norc.org/variables/5543/vshow).
+#' For further details see the [GSS Data Explorer page for `bthgrp5e`](https://gssdataexplorer.norc.org/variables/5543/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bthgrp5f`](https://gssdataexplorer.norc.org/variables/5544/vshow).
+#' For further details see the [GSS Data Explorer page for `bthgrp5f`](https://gssdataexplorer.norc.org/variables/5544/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -170,7 +170,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frstgrp1`](https://gssdataexplorer.norc.org/variables/5545/vshow).
+#' For further details see the [GSS Data Explorer page for `frstgrp1`](https://gssdataexplorer.norc.org/variables/5545/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -216,7 +216,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frstgrp2`](https://gssdataexplorer.norc.org/variables/5546/vshow).
+#' For further details see the [GSS Data Explorer page for `frstgrp2`](https://gssdataexplorer.norc.org/variables/5546/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frstgrp3`](https://gssdataexplorer.norc.org/variables/5547/vshow).
+#' For further details see the [GSS Data Explorer page for `frstgrp3`](https://gssdataexplorer.norc.org/variables/5547/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -308,7 +308,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frstgrp4`](https://gssdataexplorer.norc.org/variables/5548/vshow).
+#' For further details see the [GSS Data Explorer page for `frstgrp4`](https://gssdataexplorer.norc.org/variables/5548/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -354,7 +354,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frstgrp5`](https://gssdataexplorer.norc.org/variables/5549/vshow).
+#' For further details see the [GSS Data Explorer page for `frstgrp5`](https://gssdataexplorer.norc.org/variables/5549/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -400,7 +400,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whoelse1`](https://gssdataexplorer.norc.org/variables/5550/vshow).
+#' For further details see the [GSS Data Explorer page for `whoelse1`](https://gssdataexplorer.norc.org/variables/5550/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -446,7 +446,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whoelse2`](https://gssdataexplorer.norc.org/variables/5551/vshow).
+#' For further details see the [GSS Data Explorer page for `whoelse2`](https://gssdataexplorer.norc.org/variables/5551/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

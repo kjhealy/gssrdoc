@@ -33,7 +33,7 @@ Question Did you vote for Joe Biden or Donald Trump?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7759/vshow}{GSS Data Explorer page for \code{pres20}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7759/vshow}{GSS Data Explorer page for \code{pres20}}.
 }
 
 \keyword{variable}

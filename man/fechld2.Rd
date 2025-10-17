@@ -33,7 +33,7 @@ Question To begin, we have some questions about women. To what extent do you agr
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7764/vshow}{GSS Data Explorer page for \code{fechld2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7764/vshow}{GSS Data Explorer page for \code{fechld2}}.
 }
 
 \keyword{variable}

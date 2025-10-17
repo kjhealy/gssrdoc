@@ -33,7 +33,7 @@ Question America should limit immigration in order to protect our national way o
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7481/vshow}{GSS Data Explorer page for \code{immlimit}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7481/vshow}{GSS Data Explorer page for \code{immlimit}}.
 }
 
 \keyword{variable}

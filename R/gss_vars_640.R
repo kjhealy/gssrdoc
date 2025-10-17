@@ -21,7 +21,7 @@
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grassnv`](https://gssdataexplorer.norc.org/variables/7615/vshow).
+#' For further details see the [GSS Data Explorer page for `grassnv`](https://gssdataexplorer.norc.org/variables/7615/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relitennv`](https://gssdataexplorer.norc.org/variables/7616/vshow).
+#' For further details see the [GSS Data Explorer page for `relitennv`](https://gssdataexplorer.norc.org/variables/7616/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -96,7 +96,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `biblenv`](https://gssdataexplorer.norc.org/variables/7617/vshow).
+#' For further details see the [GSS Data Explorer page for `biblenv`](https://gssdataexplorer.norc.org/variables/7617/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -131,7 +131,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlifenv`](https://gssdataexplorer.norc.org/variables/7618/vshow).
+#' For further details see the [GSS Data Explorer page for `postlifenv`](https://gssdataexplorer.norc.org/variables/7618/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -169,7 +169,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidssolnv`](https://gssdataexplorer.norc.org/variables/7619/vshow).
+#' For further details see the [GSS Data Explorer page for `kidssolnv`](https://gssdataexplorer.norc.org/variables/7619/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -204,7 +204,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uscitznnv`](https://gssdataexplorer.norc.org/variables/7620/vshow).
+#' For further details see the [GSS Data Explorer page for `uscitznnv`](https://gssdataexplorer.norc.org/variables/7620/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -239,7 +239,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fucitznnv`](https://gssdataexplorer.norc.org/variables/7621/vshow).
+#' For further details see the [GSS Data Explorer page for `fucitznnv`](https://gssdataexplorer.norc.org/variables/7621/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fepolnv`](https://gssdataexplorer.norc.org/variables/7622/vshow).
+#' For further details see the [GSS Data Explorer page for `fepolnv`](https://gssdataexplorer.norc.org/variables/7622/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scibnftsv`](https://gssdataexplorer.norc.org/variables/7603/vshow).
+#' For further details see the [GSS Data Explorer page for `scibnftsv`](https://gssdataexplorer.norc.org/variables/7603/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -341,7 +341,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abanyg`](https://gssdataexplorer.norc.org/variables/7624/vshow).
+#' For further details see the [GSS Data Explorer page for `abanyg`](https://gssdataexplorer.norc.org/variables/7624/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

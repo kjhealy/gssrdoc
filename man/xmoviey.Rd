@@ -39,7 +39,7 @@ Question The next questions are about pornography- Internet materials or website
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7757/vshow}{GSS Data Explorer page for \code{xmoviey}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7757/vshow}{GSS Data Explorer page for \code{xmoviey}}.
 }
 
 \keyword{variable}

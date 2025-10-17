@@ -35,57 +35,20 @@ Question I try hard to carry my religious beliefs over into all my other dealing
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2104/vshow}{GSS Data Explorer page for \code{rellife}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2104/vshow}{GSS Data Explorer page for \code{rellife}}.
 }
 
 \seealso{
 Other Religion and Culture: 
-\code{\link{aimofart}},
-\code{\link{artgod}},
-\code{\link{artists}},
-\code{\link{beausprt}},
-\code{\link{conghlp1}},
-\code{\link{conghlp2}},
-\code{\link{conghrm1}},
-\code{\link{conghrm2}},
-\code{\link{cope1}},
-\code{\link{cope2}},
-\code{\link{cope3}},
-\code{\link{cope4}},
 \code{\link{cope5}},
 \code{\link{cope6}},
-\code{\link{drama}},
-\code{\link{effort}},
 \code{\link{feelgod}},
-\code{\link{fidgety}},
 \code{\link{forgive1}},
 \code{\link{forgive2}},
 \code{\link{forgive3}},
-\code{\link{godlove}},
 \code{\link{godwatch}},
-\code{\link{harmony}},
-\code{\link{hopeless}},
-\code{\link{irrelart}},
-\code{\link{irreloff}},
 \code{\link{lesspain}},
-\code{\link{localart}},
-\code{\link{meditate}},
-\code{\link{natarts}},
-\code{\link{natlart}},
-\code{\link{nervous}},
-\code{\link{nocheer}},
-\code{\link{popmusic}},
-\code{\link{privpray}},
-\code{\link{readfict}},
-\code{\link{relart}},
-\code{\link{relcmfrt}},
-\code{\link{relexp}},
-\code{\link{relpersn}},
-\code{\link{sprtprsn}},
-\code{\link{stateart}},
-\code{\link{uniongod}},
-\code{\link{volarts}},
-\code{\link{wrthless}}
+\code{\link{relcmfrt}}
 }
 \concept{Religion and Culture}
 \keyword{variable}

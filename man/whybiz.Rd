@@ -32,7 +32,7 @@ IF R HAS MORE THAN ONE BUSINESS/FARM/PARTNERSHIP, ASK ABOUT THE PRIMARY BUSINESS
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3822/vshow}{GSS Data Explorer page for \code{whybiz}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3822/vshow}{GSS Data Explorer page for \code{whybiz}}.
 }
 
 \seealso{
@@ -40,12 +40,8 @@ Other Self Employment:
 \code{\link{bizgross}},
 \code{\link{bizshare}},
 \code{\link{numemps5}},
-\code{\link{numown}},
-\code{\link{ownbiz}},
 \code{\link{owninc}},
-\code{\link{paidemps}},
-\code{\link{startbiz}},
-\code{\link{yearbiz}}
+\code{\link{paidemps}}
 }
 \concept{Self Employment}
 \keyword{variable}

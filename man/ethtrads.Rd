@@ -34,22 +34,18 @@ C. If we want to help create a harmonious society, we must recognize that each e
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2728/vshow}{GSS Data Explorer page for \code{ethtrads}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2728/vshow}{GSS Data Explorer page for \code{ethtrads}}.
 }
 
 \seealso{
 Other Prejudice: 
 \code{\link{ethadapt}},
-\code{\link{ethdiff}},
 \code{\link{ethignor}},
 \code{\link{ethimp}},
 \code{\link{ethnofit}},
-\code{\link{ethsame}},
 \code{\link{feelasns}},
 \code{\link{feelblks}},
-\code{\link{feelhsps}},
-\code{\link{feelwhts}},
-\code{\link{whtsdiff}}
+\code{\link{feelhsps}}
 }
 \concept{Prejudice}
 \keyword{variable}

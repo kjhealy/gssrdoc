@@ -30,7 +30,7 @@ Question How much do you trust the news media?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7483/vshow}{GSS Data Explorer page for \code{trmedia}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7483/vshow}{GSS Data Explorer page for \code{trmedia}}.
 }
 
 \keyword{variable}

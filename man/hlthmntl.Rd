@@ -34,7 +34,7 @@ Question In general, how would you rate your mental health, including your mood 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7165/vshow}{GSS Data Explorer page for \code{hlthmntl}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7165/vshow}{GSS Data Explorer page for \code{hlthmntl}}.
 }
 
 \keyword{variable}

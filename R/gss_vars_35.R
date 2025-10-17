@@ -40,7 +40,7 @@
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jew`](https://gssdataexplorer.norc.org/variables/291/vshow).
+#' For further details see the [GSS Data Explorer page for `jew`](https://gssdataexplorer.norc.org/variables/291/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -75,7 +75,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jewaj`](https://gssdataexplorer.norc.org/variables/292/vshow).
+#' For further details see the [GSS Data Explorer page for `jewaj`](https://gssdataexplorer.norc.org/variables/292/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -141,7 +141,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fund`](https://gssdataexplorer.norc.org/variables/293/vshow).
+#' For further details see the [GSS Data Explorer page for `fund`](https://gssdataexplorer.norc.org/variables/293/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `attend`](https://gssdataexplorer.norc.org/variables/294/vshow).
+#' For further details see the [GSS Data Explorer page for `attend`](https://gssdataexplorer.norc.org/variables/294/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maattend`](https://gssdataexplorer.norc.org/variables/295/vshow).
+#' For further details see the [GSS Data Explorer page for `maattend`](https://gssdataexplorer.norc.org/variables/295/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -302,7 +302,7 @@ NULL
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paattend`](https://gssdataexplorer.norc.org/variables/296/vshow).
+#' For further details see the [GSS Data Explorer page for `paattend`](https://gssdataexplorer.norc.org/variables/296/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -345,7 +345,7 @@ NULL
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spattend`](https://gssdataexplorer.norc.org/variables/297/vshow).
+#' For further details see the [GSS Data Explorer page for `spattend`](https://gssdataexplorer.norc.org/variables/297/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -410,7 +410,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `reliten`](https://gssdataexplorer.norc.org/variables/298/vshow).
+#' For further details see the [GSS Data Explorer page for `reliten`](https://gssdataexplorer.norc.org/variables/298/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -444,7 +444,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relitena`](https://gssdataexplorer.norc.org/variables/299/vshow).
+#' For further details see the [GSS Data Explorer page for `relitena`](https://gssdataexplorer.norc.org/variables/299/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -504,7 +504,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postlife`](https://gssdataexplorer.norc.org/variables/300/vshow).
+#' For further details see the [GSS Data Explorer page for `postlife`](https://gssdataexplorer.norc.org/variables/300/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

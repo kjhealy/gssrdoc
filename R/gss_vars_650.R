@@ -21,7 +21,7 @@
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `docvst`](https://gssdataexplorer.norc.org/variables/7825/vshow).
+#' For further details see the [GSS Data Explorer page for `docvst`](https://gssdataexplorer.norc.org/variables/7825/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `docalt`](https://gssdataexplorer.norc.org/variables/7826/vshow).
+#' For further details see the [GSS Data Explorer page for `docalt`](https://gssdataexplorer.norc.org/variables/7826/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -89,7 +89,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medpay`](https://gssdataexplorer.norc.org/variables/7827/vshow).
+#' For further details see the [GSS Data Explorer page for `medpay`](https://gssdataexplorer.norc.org/variables/7827/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medcommt`](https://gssdataexplorer.norc.org/variables/7828/vshow).
+#' For further details see the [GSS Data Explorer page for `medcommt`](https://gssdataexplorer.norc.org/variables/7828/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -155,7 +155,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medwtlst`](https://gssdataexplorer.norc.org/variables/7829/vshow).
+#' For further details see the [GSS Data Explorer page for `medwtlst`](https://gssdataexplorer.norc.org/variables/7829/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medbest`](https://gssdataexplorer.norc.org/variables/7830/vshow).
+#' For further details see the [GSS Data Explorer page for `medbest`](https://gssdataexplorer.norc.org/variables/7830/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -228,7 +228,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthsat`](https://gssdataexplorer.norc.org/variables/7831/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthsat`](https://gssdataexplorer.norc.org/variables/7831/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `docsat1`](https://gssdataexplorer.norc.org/variables/7832/vshow).
+#' For further details see the [GSS Data Explorer page for `docsat1`](https://gssdataexplorer.norc.org/variables/7832/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `altsat`](https://gssdataexplorer.norc.org/variables/7833/vshow).
+#' For further details see the [GSS Data Explorer page for `altsat`](https://gssdataexplorer.norc.org/variables/7833/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -341,7 +341,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `smokeday`](https://gssdataexplorer.norc.org/variables/7834/vshow).
+#' For further details see the [GSS Data Explorer page for `smokeday`](https://gssdataexplorer.norc.org/variables/7834/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

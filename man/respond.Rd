@@ -32,7 +32,7 @@ Question Based on what you have learned about this housing unit, what is your es
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6656/vshow}{GSS Data Explorer page for \code{respond}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6656/vshow}{GSS Data Explorer page for \code{respond}}.
 }
 
 \keyword{variable}

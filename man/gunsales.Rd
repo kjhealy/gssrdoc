@@ -33,7 +33,7 @@ Question In most states a gun owner may legally sell his or her gun without proo
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3700/vshow}{GSS Data Explorer page for \code{gunsales}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3700/vshow}{GSS Data Explorer page for \code{gunsales}}.
 }
 
 \seealso{

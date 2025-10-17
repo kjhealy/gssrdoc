@@ -31,32 +31,16 @@ Question Do you agree with the doctorâ€™s decision nor to order the MRI at 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2754/vshow}{GSS Data Explorer page for \code{docnomri}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2754/vshow}{GSS Data Explorer page for \code{docnomri}}.
 }
 
 \seealso{
 Other Doctors & Patients: 
-\code{\link{belvedoc}},
-\code{\link{chosedoc}},
-\code{\link{diffcare}},
-\code{\link{docaskme}},
 \code{\link{doccosts}},
-\code{\link{docdecid}},
 \code{\link{docinfo}},
-\code{\link{docrely}},
 \code{\link{docsat}},
 \code{\link{docswtch}},
-\code{\link{docvig}},
-\code{\link{fininc}},
-\code{\link{fininc1}},
-\code{\link{fininc2}},
-\code{\link{fininc3}},
-\code{\link{fininc4}},
-\code{\link{hlthplan}},
 \code{\link{insrchng}},
-\code{\link{insrlmts}},
-\code{\link{regdoc}},
-\code{\link{regdocyr}},
 \code{\link{secopin}}
 }
 \concept{Doctors & Patients}

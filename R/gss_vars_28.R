@@ -20,7 +20,7 @@
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natroadz`](https://gssdataexplorer.norc.org/variables/221/vshow).
+#' For further details see the [GSS Data Explorer page for `natroadz`](https://gssdataexplorer.norc.org/variables/221/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natsocz`](https://gssdataexplorer.norc.org/variables/222/vshow).
+#' For further details see the [GSS Data Explorer page for `natsocz`](https://gssdataexplorer.norc.org/variables/222/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natmassz`](https://gssdataexplorer.norc.org/variables/223/vshow).
+#' For further details see the [GSS Data Explorer page for `natmassz`](https://gssdataexplorer.norc.org/variables/223/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natparkz`](https://gssdataexplorer.norc.org/variables/224/vshow).
+#' For further details see the [GSS Data Explorer page for `natparkz`](https://gssdataexplorer.norc.org/variables/224/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -157,7 +157,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `equal1`](https://gssdataexplorer.norc.org/variables/225/vshow).
+#' For further details see the [GSS Data Explorer page for `equal1`](https://gssdataexplorer.norc.org/variables/225/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `equal2`](https://gssdataexplorer.norc.org/variables/226/vshow).
+#' For further details see the [GSS Data Explorer page for `equal2`](https://gssdataexplorer.norc.org/variables/226/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `equal3`](https://gssdataexplorer.norc.org/variables/227/vshow).
+#' For further details see the [GSS Data Explorer page for `equal3`](https://gssdataexplorer.norc.org/variables/227/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `equal4`](https://gssdataexplorer.norc.org/variables/228/vshow).
+#' For further details see the [GSS Data Explorer page for `equal4`](https://gssdataexplorer.norc.org/variables/228/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `equal5`](https://gssdataexplorer.norc.org/variables/229/vshow).
+#' For further details see the [GSS Data Explorer page for `equal5`](https://gssdataexplorer.norc.org/variables/229/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -332,7 +332,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `equal6`](https://gssdataexplorer.norc.org/variables/230/vshow).
+#' For further details see the [GSS Data Explorer page for `equal6`](https://gssdataexplorer.norc.org/variables/230/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

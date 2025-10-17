@@ -18,7 +18,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othpay`](https://gssdataexplorer.norc.org/variables/1349/vshow).
+#' For further details see the [GSS Data Explorer page for `othpay`](https://gssdataexplorer.norc.org/variables/1349/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -51,7 +51,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `raiseall`](https://gssdataexplorer.norc.org/variables/1350/vshow).
+#' For further details see the [GSS Data Explorer page for `raiseall`](https://gssdataexplorer.norc.org/variables/1350/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -84,7 +84,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `raisehrd`](https://gssdataexplorer.norc.org/variables/1351/vshow).
+#' For further details see the [GSS Data Explorer page for `raisehrd`](https://gssdataexplorer.norc.org/variables/1351/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -117,7 +117,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `raisefav`](https://gssdataexplorer.norc.org/variables/1352/vshow).
+#' For further details see the [GSS Data Explorer page for `raisefav`](https://gssdataexplorer.norc.org/variables/1352/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -150,7 +150,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fringe1`](https://gssdataexplorer.norc.org/variables/1353/vshow).
+#' For further details see the [GSS Data Explorer page for `fringe1`](https://gssdataexplorer.norc.org/variables/1353/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -183,7 +183,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fringe2`](https://gssdataexplorer.norc.org/variables/1354/vshow).
+#' For further details see the [GSS Data Explorer page for `fringe2`](https://gssdataexplorer.norc.org/variables/1354/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -216,7 +216,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fringe3`](https://gssdataexplorer.norc.org/variables/1355/vshow).
+#' For further details see the [GSS Data Explorer page for `fringe3`](https://gssdataexplorer.norc.org/variables/1355/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -249,7 +249,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fringe4`](https://gssdataexplorer.norc.org/variables/1356/vshow).
+#' For further details see the [GSS Data Explorer page for `fringe4`](https://gssdataexplorer.norc.org/variables/1356/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fringe5`](https://gssdataexplorer.norc.org/variables/1357/vshow).
+#' For further details see the [GSS Data Explorer page for `fringe5`](https://gssdataexplorer.norc.org/variables/1357/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -315,7 +315,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fringe6`](https://gssdataexplorer.norc.org/variables/1358/vshow).
+#' For further details see the [GSS Data Explorer page for `fringe6`](https://gssdataexplorer.norc.org/variables/1358/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

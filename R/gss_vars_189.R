@@ -19,7 +19,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chnang6`](https://gssdataexplorer.norc.org/variables/1772/vshow).
+#' For further details see the [GSS Data Explorer page for `chnang6`](https://gssdataexplorer.norc.org/variables/1772/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chnang7`](https://gssdataexplorer.norc.org/variables/1773/vshow).
+#' For further details see the [GSS Data Explorer page for `chnang7`](https://gssdataexplorer.norc.org/variables/1773/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chnang8`](https://gssdataexplorer.norc.org/variables/1774/vshow).
+#' For further details see the [GSS Data Explorer page for `chnang8`](https://gssdataexplorer.norc.org/variables/1774/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chnang9`](https://gssdataexplorer.norc.org/variables/1775/vshow).
+#' For further details see the [GSS Data Explorer page for `chnang9`](https://gssdataexplorer.norc.org/variables/1775/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chnang10`](https://gssdataexplorer.norc.org/variables/1776/vshow).
+#' For further details see the [GSS Data Explorer page for `chnang10`](https://gssdataexplorer.norc.org/variables/1776/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chnang11`](https://gssdataexplorer.norc.org/variables/1777/vshow).
+#' For further details see the [GSS Data Explorer page for `chnang11`](https://gssdataexplorer.norc.org/variables/1777/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chnang12`](https://gssdataexplorer.norc.org/variables/1778/vshow).
+#' For further details see the [GSS Data Explorer page for `chnang12`](https://gssdataexplorer.norc.org/variables/1778/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chnang13`](https://gssdataexplorer.norc.org/variables/1779/vshow).
+#' For further details see the [GSS Data Explorer page for `chnang13`](https://gssdataexplorer.norc.org/variables/1779/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chnang14`](https://gssdataexplorer.norc.org/variables/1780/vshow).
+#' For further details see the [GSS Data Explorer page for `chnang14`](https://gssdataexplorer.norc.org/variables/1780/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chnang15`](https://gssdataexplorer.norc.org/variables/1781/vshow).
+#' For further details see the [GSS Data Explorer page for `chnang15`](https://gssdataexplorer.norc.org/variables/1781/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

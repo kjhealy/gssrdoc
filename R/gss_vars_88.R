@@ -19,7 +19,7 @@
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mechanic`](https://gssdataexplorer.norc.org/variables/790/vshow).
+#' For further details see the [GSS Data Explorer page for `mechanic`](https://gssdataexplorer.norc.org/variables/790/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nurse`](https://gssdataexplorer.norc.org/variables/791/vshow).
+#' For further details see the [GSS Data Explorer page for `nurse`](https://gssdataexplorer.norc.org/variables/791/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typist`](https://gssdataexplorer.norc.org/variables/792/vshow).
+#' For further details see the [GSS Data Explorer page for `typist`](https://gssdataexplorer.norc.org/variables/792/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brass`](https://gssdataexplorer.norc.org/variables/793/vshow).
+#' For further details see the [GSS Data Explorer page for `brass`](https://gssdataexplorer.norc.org/variables/793/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fightlnd`](https://gssdataexplorer.norc.org/variables/794/vshow).
+#' For further details see the [GSS Data Explorer page for `fightlnd`](https://gssdataexplorer.norc.org/variables/794/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `transair`](https://gssdataexplorer.norc.org/variables/795/vshow).
+#' For further details see the [GSS Data Explorer page for `transair`](https://gssdataexplorer.norc.org/variables/795/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gunner`](https://gssdataexplorer.norc.org/variables/796/vshow).
+#' For further details see the [GSS Data Explorer page for `gunner`](https://gssdataexplorer.norc.org/variables/796/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fightsea`](https://gssdataexplorer.norc.org/variables/797/vshow).
+#' For further details see the [GSS Data Explorer page for `fightsea`](https://gssdataexplorer.norc.org/variables/797/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fefight`](https://gssdataexplorer.norc.org/variables/798/vshow).
+#' For further details see the [GSS Data Explorer page for `fefight`](https://gssdataexplorer.norc.org/variables/798/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -314,7 +314,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fedirty`](https://gssdataexplorer.norc.org/variables/799/vshow).
+#' For further details see the [GSS Data Explorer page for `fedirty`](https://gssdataexplorer.norc.org/variables/799/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

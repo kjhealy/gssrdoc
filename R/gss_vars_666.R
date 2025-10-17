@@ -19,7 +19,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lngrltnshp`](https://gssdataexplorer.norc.org/variables/8016/vshow).
+#' For further details see the [GSS Data Explorer page for `lngrltnshp`](https://gssdataexplorer.norc.org/variables/8016/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -51,7 +51,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rsblng18`](https://gssdataexplorer.norc.org/variables/8030/vshow).
+#' For further details see the [GSS Data Explorer page for `rsblng18`](https://gssdataexplorer.norc.org/variables/8030/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -83,7 +83,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rchild18`](https://gssdataexplorer.norc.org/variables/8022/vshow).
+#' For further details see the [GSS Data Explorer page for `rchild18`](https://gssdataexplorer.norc.org/variables/8022/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -115,7 +115,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rprnt18`](https://gssdataexplorer.norc.org/variables/8028/vshow).
+#' For further details see the [GSS Data Explorer page for `rprnt18`](https://gssdataexplorer.norc.org/variables/8028/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -147,7 +147,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rbioprnt18`](https://gssdataexplorer.norc.org/variables/8021/vshow).
+#' For further details see the [GSS Data Explorer page for `rbioprnt18`](https://gssdataexplorer.norc.org/variables/8021/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -179,7 +179,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `radptprnt18`](https://gssdataexplorer.norc.org/variables/8019/vshow).
+#' For further details see the [GSS Data Explorer page for `radptprnt18`](https://gssdataexplorer.norc.org/variables/8019/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rstpprnt18`](https://gssdataexplorer.norc.org/variables/8032/vshow).
+#' For further details see the [GSS Data Explorer page for `rstpprnt18`](https://gssdataexplorer.norc.org/variables/8032/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -243,7 +243,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rgprnt18`](https://gssdataexplorer.norc.org/variables/8024/vshow).
+#' For further details see the [GSS Data Explorer page for `rgprnt18`](https://gssdataexplorer.norc.org/variables/8024/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -275,7 +275,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rfmly18`](https://gssdataexplorer.norc.org/variables/8023/vshow).
+#' For further details see the [GSS Data Explorer page for `rfmly18`](https://gssdataexplorer.norc.org/variables/8023/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rntrltd18`](https://gssdataexplorer.norc.org/variables/8027/vshow).
+#' For further details see the [GSS Data Explorer page for `rntrltd18`](https://gssdataexplorer.norc.org/variables/8027/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

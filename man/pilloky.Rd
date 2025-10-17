@@ -32,14 +32,8 @@ Question Do strongly disagree, disagree, agree, or strongly agree that methods o
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5570/vshow}{GSS Data Explorer page for \code{pilloky}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5570/vshow}{GSS Data Explorer page for \code{pilloky}}.
 }
 
-\seealso{
-Other Form Y: 
-\code{\link{letdie1y}},
-\code{\link{polhitoy}},
-\code{\link{popespky}}
-}
 \concept{Form Y}
 \keyword{variable}

@@ -33,7 +33,7 @@ Question The social benefits from the government make people lazy.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7240/vshow}{GSS Data Explorer page for \code{govlazy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7240/vshow}{GSS Data Explorer page for \code{govlazy}}.
 }
 
 \keyword{variable}

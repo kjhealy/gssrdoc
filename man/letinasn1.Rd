@@ -31,7 +31,7 @@ Question Do you think the number of immigrants from Asia who are permitted to co
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8004/vshow}{GSS Data Explorer page for \code{letinasn1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8004/vshow}{GSS Data Explorer page for \code{letinasn1}}.
 }
 
 \keyword{variable}

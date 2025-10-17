@@ -37,20 +37,16 @@ Question In which of these groups did the revenues from this business fall for l
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3819/vshow}{GSS Data Explorer page for \code{bizgross}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3819/vshow}{GSS Data Explorer page for \code{bizgross}}.
 }
 
 \seealso{
 Other Self Employment: 
 \code{\link{bizshare}},
 \code{\link{numemps5}},
-\code{\link{numown}},
-\code{\link{ownbiz}},
 \code{\link{owninc}},
 \code{\link{paidemps}},
-\code{\link{startbiz}},
-\code{\link{whybiz}},
-\code{\link{yearbiz}}
+\code{\link{whybiz}}
 }
 \concept{Self Employment}
 \keyword{variable}

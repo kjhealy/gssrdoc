@@ -48,7 +48,7 @@
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polescap`](https://gssdataexplorer.norc.org/variables/673/vshow).
+#' For further details see the [GSS Data Explorer page for `polescap`](https://gssdataexplorer.norc.org/variables/673/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -110,7 +110,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polattak`](https://gssdataexplorer.norc.org/variables/674/vshow).
+#' For further details see the [GSS Data Explorer page for `polattak`](https://gssdataexplorer.norc.org/variables/674/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fear`](https://gssdataexplorer.norc.org/variables/675/vshow).
+#' For further details see the [GSS Data Explorer page for `fear`](https://gssdataexplorer.norc.org/variables/675/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -203,7 +203,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fearhome`](https://gssdataexplorer.norc.org/variables/676/vshow).
+#' For further details see the [GSS Data Explorer page for `fearhome`](https://gssdataexplorer.norc.org/variables/676/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -249,7 +249,7 @@ NULL
 #'  |1994 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `burglr`](https://gssdataexplorer.norc.org/variables/677/vshow).
+#' For further details see the [GSS Data Explorer page for `burglr`](https://gssdataexplorer.norc.org/variables/677/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -295,7 +295,7 @@ NULL
 #'  |1994 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `robbry`](https://gssdataexplorer.norc.org/variables/678/vshow).
+#' For further details see the [GSS Data Explorer page for `robbry`](https://gssdataexplorer.norc.org/variables/678/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -357,7 +357,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `owngun`](https://gssdataexplorer.norc.org/variables/679/vshow).
+#' For further details see the [GSS Data Explorer page for `owngun`](https://gssdataexplorer.norc.org/variables/679/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -420,7 +420,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pistol`](https://gssdataexplorer.norc.org/variables/680/vshow).
+#' For further details see the [GSS Data Explorer page for `pistol`](https://gssdataexplorer.norc.org/variables/680/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -483,7 +483,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `shotgun`](https://gssdataexplorer.norc.org/variables/681/vshow).
+#' For further details see the [GSS Data Explorer page for `shotgun`](https://gssdataexplorer.norc.org/variables/681/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -546,7 +546,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rifle`](https://gssdataexplorer.norc.org/variables/682/vshow).
+#' For further details see the [GSS Data Explorer page for `rifle`](https://gssdataexplorer.norc.org/variables/682/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

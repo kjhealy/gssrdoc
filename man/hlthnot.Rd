@@ -33,7 +33,7 @@ Question (During the past 4 weeks how often...) Have you felt you could not over
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7824/vshow}{GSS Data Explorer page for \code{hlthnot}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7824/vshow}{GSS Data Explorer page for \code{hlthnot}}.
 }
 
 \keyword{variable}

@@ -34,31 +34,19 @@ Question A. Does the size of these performance-based payments depend on company 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2856/vshow}{GSS Data Explorer page for \code{compperf}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2856/vshow}{GSS Data Explorer page for \code{compperf}}.
 }
 
 \seealso{
 Other Employee Compensation: 
-\code{\link{cowrkhrd}},
 \code{\link{deptperf}},
-\code{\link{donothng}},
 \code{\link{extr2001}},
 \code{\link{extrapay}},
 \code{\link{extraval}},
 \code{\link{extrayr}},
 \code{\link{indperf}},
-\code{\link{lastwkmo}},
-\code{\link{lastwkyr}},
-\code{\link{ownstock}},
 \code{\link{seecowrk}},
-\code{\link{stockops}},
-\code{\link{stockval}},
-\code{\link{talkemp}},
-\code{\link{talksup}},
-\code{\link{workfor}},
-\code{\link{workfor1}},
-\code{\link{yearval}},
-\code{\link{yearval1}}
+\code{\link{yearval}}
 }
 \concept{Employee Compensation}
 \keyword{variable}

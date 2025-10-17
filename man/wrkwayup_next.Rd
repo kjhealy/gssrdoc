@@ -35,7 +35,7 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7892/vshow}{GSS Data Explorer page for \code{wrkwayup_next}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7892/vshow}{GSS Data Explorer page for \code{wrkwayup_next}}.
 }
 
 \keyword{variable}

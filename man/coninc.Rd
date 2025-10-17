@@ -65,9 +65,7 @@ Question Inflation-adjusted family income.
 Other Income: 
 \code{\link{conrinc}},
 \code{\link{incdef}},
-\code{\link{minfood}},
 \code{\link{minfour}},
-\code{\link{minthree}},
 \code{\link{povline}},
 \code{\link{realinc}},
 \code{\link{realrinc}}

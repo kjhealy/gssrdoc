@@ -32,7 +32,7 @@ Question Are there any situations you can imagine in which you would approve of 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7447/vshow}{GSS Data Explorer page for \code{polhitoky}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7447/vshow}{GSS Data Explorer page for \code{polhitoky}}.
 }
 
 \keyword{variable}

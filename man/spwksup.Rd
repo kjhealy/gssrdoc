@@ -33,7 +33,7 @@ Question In your (husband/wife/partner)'s job, does (he/she) supervise anyone wh
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7093/vshow}{GSS Data Explorer page for \code{spwksup}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7093/vshow}{GSS Data Explorer page for \code{spwksup}}.
 }
 
 \keyword{variable}

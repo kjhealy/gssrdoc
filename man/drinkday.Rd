@@ -30,19 +30,15 @@ PROBE IF NECESSARY:  Would it have been 5 or more?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3099/vshow}{GSS Data Explorer page for \code{drinkday}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3099/vshow}{GSS Data Explorer page for \code{drinkday}}.
 }
 
 \seealso{
 Other Women & Alcohol: 
-\code{\link{drink1}},
 \code{\link{drink12}},
-\code{\link{drink3}},
-\code{\link{drink5}},
 \code{\link{drink6up}},
 \code{\link{drink8}},
 \code{\link{drinkmax}},
-\code{\link{drinkmin}},
 \code{\link{drinkyr}},
 \code{\link{evdrink}}
 }

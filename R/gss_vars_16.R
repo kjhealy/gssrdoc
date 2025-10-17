@@ -28,7 +28,7 @@
 #'  |1972 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `income72`](https://gssdataexplorer.norc.org/variables/106/vshow).
+#' For further details see the [GSS Data Explorer page for `income72`](https://gssdataexplorer.norc.org/variables/106/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -76,7 +76,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `income77`](https://gssdataexplorer.norc.org/variables/107/vshow).
+#' For further details see the [GSS Data Explorer page for `income77`](https://gssdataexplorer.norc.org/variables/107/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rincom77`](https://gssdataexplorer.norc.org/variables/108/vshow).
+#' For further details see the [GSS Data Explorer page for `rincom77`](https://gssdataexplorer.norc.org/variables/108/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -174,7 +174,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `income82`](https://gssdataexplorer.norc.org/variables/109/vshow).
+#' For further details see the [GSS Data Explorer page for `income82`](https://gssdataexplorer.norc.org/variables/109/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rincom82`](https://gssdataexplorer.norc.org/variables/110/vshow).
+#' For further details see the [GSS Data Explorer page for `rincom82`](https://gssdataexplorer.norc.org/variables/110/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -278,7 +278,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `income86`](https://gssdataexplorer.norc.org/variables/111/vshow).
+#' For further details see the [GSS Data Explorer page for `income86`](https://gssdataexplorer.norc.org/variables/111/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -332,7 +332,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rincom86`](https://gssdataexplorer.norc.org/variables/112/vshow).
+#' For further details see the [GSS Data Explorer page for `rincom86`](https://gssdataexplorer.norc.org/variables/112/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -386,7 +386,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `income91`](https://gssdataexplorer.norc.org/variables/113/vshow).
+#' For further details see the [GSS Data Explorer page for `income91`](https://gssdataexplorer.norc.org/variables/113/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -440,7 +440,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rincom91`](https://gssdataexplorer.norc.org/variables/114/vshow).
+#' For further details see the [GSS Data Explorer page for `rincom91`](https://gssdataexplorer.norc.org/variables/114/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -496,7 +496,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `income98`](https://gssdataexplorer.norc.org/variables/115/vshow).
+#' For further details see the [GSS Data Explorer page for `income98`](https://gssdataexplorer.norc.org/variables/115/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -30,7 +30,7 @@ Question Would you describe yourself as an evangelical Christian, or not?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7524/vshow}{GSS Data Explorer page for \code{evangcly}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7524/vshow}{GSS Data Explorer page for \code{evangcly}}.
 }
 
 \keyword{variable}

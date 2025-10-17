@@ -22,7 +22,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knowkid3`](https://gssdataexplorer.norc.org/variables/2653/vshow).
+#' For further details see the [GSS Data Explorer page for `knowkid3`](https://gssdataexplorer.norc.org/variables/2653/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knowkid4`](https://gssdataexplorer.norc.org/variables/2654/vshow).
+#' For further details see the [GSS Data Explorer page for `knowkid4`](https://gssdataexplorer.norc.org/variables/2654/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `huclean`](https://gssdataexplorer.norc.org/variables/2655/vshow).
+#' For further details see the [GSS Data Explorer page for `huclean`](https://gssdataexplorer.norc.org/variables/2655/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -136,7 +136,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `homeband`](https://gssdataexplorer.norc.org/variables/2656/vshow).
+#' For further details see the [GSS Data Explorer page for `homeband`](https://gssdataexplorer.norc.org/variables/2656/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -176,7 +176,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `freemns1`](https://gssdataexplorer.norc.org/variables/2657/vshow).
+#' For further details see the [GSS Data Explorer page for `freemns1`](https://gssdataexplorer.norc.org/variables/2657/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -216,7 +216,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `freemns2`](https://gssdataexplorer.norc.org/variables/2658/vshow).
+#' For further details see the [GSS Data Explorer page for `freemns2`](https://gssdataexplorer.norc.org/variables/2658/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `freemns3`](https://gssdataexplorer.norc.org/variables/2659/vshow).
+#' For further details see the [GSS Data Explorer page for `freemns3`](https://gssdataexplorer.norc.org/variables/2659/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `freeexp1`](https://gssdataexplorer.norc.org/variables/2660/vshow).
+#' For further details see the [GSS Data Explorer page for `freeexp1`](https://gssdataexplorer.norc.org/variables/2660/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `freeexp2`](https://gssdataexplorer.norc.org/variables/2661/vshow).
+#' For further details see the [GSS Data Explorer page for `freeexp2`](https://gssdataexplorer.norc.org/variables/2661/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -379,7 +379,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `freeexp3`](https://gssdataexplorer.norc.org/variables/2662/vshow).
+#' For further details see the [GSS Data Explorer page for `freeexp3`](https://gssdataexplorer.norc.org/variables/2662/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

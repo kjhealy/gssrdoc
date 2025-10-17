@@ -33,7 +33,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dotpeop`](https://gssdataexplorer.norc.org/variables/124/vshow).
+#' For further details see the [GSS Data Explorer page for `dotpeop`](https://gssdataexplorer.norc.org/variables/124/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -80,7 +80,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dotthng`](https://gssdataexplorer.norc.org/variables/125/vshow).
+#' For further details see the [GSS Data Explorer page for `dotthng`](https://gssdataexplorer.norc.org/variables/125/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -127,7 +127,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dotged`](https://gssdataexplorer.norc.org/variables/126/vshow).
+#' For further details see the [GSS Data Explorer page for `dotged`](https://gssdataexplorer.norc.org/variables/126/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -174,7 +174,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dotsvp`](https://gssdataexplorer.norc.org/variables/127/vshow).
+#' For further details see the [GSS Data Explorer page for `dotsvp`](https://gssdataexplorer.norc.org/variables/127/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dotpres`](https://gssdataexplorer.norc.org/variables/128/vshow).
+#' For further details see the [GSS Data Explorer page for `dotpres`](https://gssdataexplorer.norc.org/variables/128/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdotdat`](https://gssdataexplorer.norc.org/variables/129/vshow).
+#' For further details see the [GSS Data Explorer page for `spdotdat`](https://gssdataexplorer.norc.org/variables/129/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -315,7 +315,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdotpeo`](https://gssdataexplorer.norc.org/variables/130/vshow).
+#' For further details see the [GSS Data Explorer page for `spdotpeo`](https://gssdataexplorer.norc.org/variables/130/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -362,7 +362,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdotthn`](https://gssdataexplorer.norc.org/variables/131/vshow).
+#' For further details see the [GSS Data Explorer page for `spdotthn`](https://gssdataexplorer.norc.org/variables/131/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -409,7 +409,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdotged`](https://gssdataexplorer.norc.org/variables/132/vshow).
+#' For further details see the [GSS Data Explorer page for `spdotged`](https://gssdataexplorer.norc.org/variables/132/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -456,7 +456,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdotsvp`](https://gssdataexplorer.norc.org/variables/133/vshow).
+#' For further details see the [GSS Data Explorer page for `spdotsvp`](https://gssdataexplorer.norc.org/variables/133/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

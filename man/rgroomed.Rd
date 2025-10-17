@@ -35,7 +35,7 @@ Question How well groomed is the respondent?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6660/vshow}{GSS Data Explorer page for \code{rgroomed}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6660/vshow}{GSS Data Explorer page for \code{rgroomed}}.
 }
 
 \keyword{variable}

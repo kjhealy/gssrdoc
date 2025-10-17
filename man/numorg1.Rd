@@ -41,7 +41,7 @@ Question About how many people work in your organization at all locations? Count
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7852/vshow}{GSS Data Explorer page for \code{numorg1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7852/vshow}{GSS Data Explorer page for \code{numorg1}}.
 }
 
 \keyword{variable}

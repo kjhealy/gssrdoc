@@ -32,13 +32,11 @@ Question How frequently are you in a public place where you see someone who seem
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3568/vshow}{GSS Data Explorer page for \code{seemhpub}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3568/vshow}{GSS Data Explorer page for \code{seemhpub}}.
 }
 
 \seealso{
 Other Mental Health III: 
-\code{\link{avoidmh}},
-\code{\link{gesttalk}},
 \code{\link{mhothrel}},
 \code{\link{mhothyou}},
 \code{\link{mhtrtoth}},

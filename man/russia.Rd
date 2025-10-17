@@ -51,20 +51,13 @@ A. Russia
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5490/vshow}{GSS Data Explorer page for \code{russia}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5490/vshow}{GSS Data Explorer page for \code{russia}}.
 }
 
 \seealso{
 Other War and International: 
-\code{\link{brazil}},
-\code{\link{canada}},
-\code{\link{china}},
 \code{\link{commun}},
 \code{\link{commun10}},
-\code{\link{egypt}},
-\code{\link{england}},
-\code{\link{israel}},
-\code{\link{japan}},
 \code{\link{usintl}},
 \code{\link{usun}},
 \code{\link{uswar}},

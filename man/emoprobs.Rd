@@ -34,7 +34,7 @@ Question In the past seven days, how often have you been bothered by emotional p
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7169/vshow}{GSS Data Explorer page for \code{emoprobs}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7169/vshow}{GSS Data Explorer page for \code{emoprobs}}.
 }
 
 \keyword{variable}

@@ -40,7 +40,7 @@ Question Please give a general estimate of how much cash you would get if all th
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7845/vshow}{GSS Data Explorer page for \code{stockval1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7845/vshow}{GSS Data Explorer page for \code{stockval1}}.
 }
 
 \keyword{variable}

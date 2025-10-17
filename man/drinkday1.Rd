@@ -33,7 +33,7 @@ Question How often do you... Drink 4 or more alcoholic drinks on the same day?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7835/vshow}{GSS Data Explorer page for \code{drinkday1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7835/vshow}{GSS Data Explorer page for \code{drinkday1}}.
 }
 
 \keyword{variable}

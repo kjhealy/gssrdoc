@@ -36,7 +36,7 @@ Question When your children are at the age you are now, do you think their stand
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7619/vshow}{GSS Data Explorer page for \code{kidssolnv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7619/vshow}{GSS Data Explorer page for \code{kidssolnv}}.
 }
 
 \keyword{variable}

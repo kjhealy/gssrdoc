@@ -19,7 +19,7 @@
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `camping`](https://gssdataexplorer.norc.org/variables/1409/vshow).
+#' For further details see the [GSS Data Explorer page for `camping`](https://gssdataexplorer.norc.org/variables/1409/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `garden`](https://gssdataexplorer.norc.org/variables/1410/vshow).
+#' For further details see the [GSS Data Explorer page for `garden`](https://gssdataexplorer.norc.org/variables/1410/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dance`](https://gssdataexplorer.norc.org/variables/1411/vshow).
+#' For further details see the [GSS Data Explorer page for `dance`](https://gssdataexplorer.norc.org/variables/1411/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gomusic`](https://gssdataexplorer.norc.org/variables/1412/vshow).
+#' For further details see the [GSS Data Explorer page for `gomusic`](https://gssdataexplorer.norc.org/variables/1412/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -155,7 +155,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `huntfish`](https://gssdataexplorer.norc.org/variables/1413/vshow).
+#' For further details see the [GSS Data Explorer page for `huntfish`](https://gssdataexplorer.norc.org/variables/1413/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `perform`](https://gssdataexplorer.norc.org/variables/1414/vshow).
+#' For further details see the [GSS Data Explorer page for `perform`](https://gssdataexplorer.norc.org/variables/1414/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -223,7 +223,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dosports`](https://gssdataexplorer.norc.org/variables/1415/vshow).
+#' For further details see the [GSS Data Explorer page for `dosports`](https://gssdataexplorer.norc.org/variables/1415/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `seemovie`](https://gssdataexplorer.norc.org/variables/1416/vshow).
+#' For further details see the [GSS Data Explorer page for `seemovie`](https://gssdataexplorer.norc.org/variables/1416/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `usevcr`](https://gssdataexplorer.norc.org/variables/1417/vshow).
+#' For further details see the [GSS Data Explorer page for `usevcr`](https://gssdataexplorer.norc.org/variables/1417/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `plymusic`](https://gssdataexplorer.norc.org/variables/1418/vshow).
+#' For further details see the [GSS Data Explorer page for `plymusic`](https://gssdataexplorer.norc.org/variables/1418/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

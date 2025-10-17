@@ -30,7 +30,7 @@ Question Past pet - Bird
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7213/vshow}{GSS Data Explorer page for \code{birdb4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7213/vshow}{GSS Data Explorer page for \code{birdb4}}.
 }
 
 \keyword{variable}

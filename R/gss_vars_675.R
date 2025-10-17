@@ -21,7 +21,7 @@
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intsearch`](https://gssdataexplorer.norc.org/variables/8119/vshow).
+#' For further details see the [GSS Data Explorer page for `intsearch`](https://gssdataexplorer.norc.org/variables/8119/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intgame`](https://gssdataexplorer.norc.org/variables/8118/vshow).
+#' For further details see the [GSS Data Explorer page for `intgame`](https://gssdataexplorer.norc.org/variables/8118/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intstream`](https://gssdataexplorer.norc.org/variables/8121/vshow).
+#' For further details see the [GSS Data Explorer page for `intstream`](https://gssdataexplorer.norc.org/variables/8121/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intfncl`](https://gssdataexplorer.norc.org/variables/8117/vshow).
+#' For further details see the [GSS Data Explorer page for `intfncl`](https://gssdataexplorer.norc.org/variables/8117/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intmeet`](https://gssdataexplorer.norc.org/variables/8055/vshow).
+#' For further details see the [GSS Data Explorer page for `intmeet`](https://gssdataexplorer.norc.org/variables/8055/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intlnly`](https://gssdataexplorer.norc.org/variables/8054/vshow).
+#' For further details see the [GSS Data Explorer page for `intlnly`](https://gssdataexplorer.norc.org/variables/8054/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inttrig`](https://gssdataexplorer.norc.org/variables/8184/vshow).
+#' For further details see the [GSS Data Explorer page for `inttrig`](https://gssdataexplorer.norc.org/variables/8184/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intnews`](https://gssdataexplorer.norc.org/variables/8183/vshow).
+#' For further details see the [GSS Data Explorer page for `intnews`](https://gssdataexplorer.norc.org/variables/8183/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intcnfrm`](https://gssdataexplorer.norc.org/variables/8182/vshow).
+#' For further details see the [GSS Data Explorer page for `intcnfrm`](https://gssdataexplorer.norc.org/variables/8182/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -333,7 +333,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intrust`](https://gssdataexplorer.norc.org/variables/8175/vshow).
+#' For further details see the [GSS Data Explorer page for `intrust`](https://gssdataexplorer.norc.org/variables/8175/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -33,7 +33,7 @@ Question People have different opinions about how well mothers and fathers are s
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7767/vshow}{GSS Data Explorer page for \code{prntlk}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7767/vshow}{GSS Data Explorer page for \code{prntlk}}.
 }
 
 \keyword{variable}

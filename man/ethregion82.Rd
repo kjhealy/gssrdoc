@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  Canada
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7721/vshow}{GSS Data Explorer page for \code{ethregion82}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7721/vshow}{GSS Data Explorer page for \code{ethregion82}}.
 }
 
 \keyword{variable}

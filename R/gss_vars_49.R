@@ -29,7 +29,7 @@
 #'  |2016 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `closeblk`](https://gssdataexplorer.norc.org/variables/426/vshow).
+#' For further details see the [GSS Data Explorer page for `closeblk`](https://gssdataexplorer.norc.org/variables/426/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -74,7 +74,7 @@ NULL
 #'  |2018 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `closewht`](https://gssdataexplorer.norc.org/variables/427/vshow).
+#' For further details see the [GSS Data Explorer page for `closewht`](https://gssdataexplorer.norc.org/variables/427/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -107,7 +107,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `alienat1`](https://gssdataexplorer.norc.org/variables/428/vshow).
+#' For further details see the [GSS Data Explorer page for `alienat1`](https://gssdataexplorer.norc.org/variables/428/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -140,7 +140,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `alienat2`](https://gssdataexplorer.norc.org/variables/429/vshow).
+#' For further details see the [GSS Data Explorer page for `alienat2`](https://gssdataexplorer.norc.org/variables/429/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -173,7 +173,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `alienat3`](https://gssdataexplorer.norc.org/variables/430/vshow).
+#' For further details see the [GSS Data Explorer page for `alienat3`](https://gssdataexplorer.norc.org/variables/430/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -206,7 +206,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `alienat4`](https://gssdataexplorer.norc.org/variables/431/vshow).
+#' For further details see the [GSS Data Explorer page for `alienat4`](https://gssdataexplorer.norc.org/variables/431/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -239,7 +239,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `alienat5`](https://gssdataexplorer.norc.org/variables/432/vshow).
+#' For further details see the [GSS Data Explorer page for `alienat5`](https://gssdataexplorer.norc.org/variables/432/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -272,7 +272,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `alienat6`](https://gssdataexplorer.norc.org/variables/433/vshow).
+#' For further details see the [GSS Data Explorer page for `alienat6`](https://gssdataexplorer.norc.org/variables/433/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -339,7 +339,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `happy`](https://gssdataexplorer.norc.org/variables/434/vshow).
+#' For further details see the [GSS Data Explorer page for `happy`](https://gssdataexplorer.norc.org/variables/434/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -406,7 +406,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hapmar`](https://gssdataexplorer.norc.org/variables/435/vshow).
+#' For further details see the [GSS Data Explorer page for `hapmar`](https://gssdataexplorer.norc.org/variables/435/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

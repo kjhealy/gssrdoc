@@ -30,7 +30,7 @@ Question How much do you trust the U.S. Congress?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7485/vshow}{GSS Data Explorer page for \code{trlegis}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7485/vshow}{GSS Data Explorer page for \code{trlegis}}.
 }
 
 \keyword{variable}

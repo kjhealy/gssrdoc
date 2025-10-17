@@ -19,7 +19,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion16`](https://gssdataexplorer.norc.org/variables/7655/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion16`](https://gssdataexplorer.norc.org/variables/7655/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion17`](https://gssdataexplorer.norc.org/variables/7656/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion17`](https://gssdataexplorer.norc.org/variables/7656/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion18`](https://gssdataexplorer.norc.org/variables/7657/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion18`](https://gssdataexplorer.norc.org/variables/7657/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion19`](https://gssdataexplorer.norc.org/variables/7658/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion19`](https://gssdataexplorer.norc.org/variables/7658/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion20`](https://gssdataexplorer.norc.org/variables/7659/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion20`](https://gssdataexplorer.norc.org/variables/7659/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion21`](https://gssdataexplorer.norc.org/variables/7660/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion21`](https://gssdataexplorer.norc.org/variables/7660/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion22`](https://gssdataexplorer.norc.org/variables/7661/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion22`](https://gssdataexplorer.norc.org/variables/7661/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion23`](https://gssdataexplorer.norc.org/variables/7662/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion23`](https://gssdataexplorer.norc.org/variables/7662/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion24`](https://gssdataexplorer.norc.org/variables/7663/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion24`](https://gssdataexplorer.norc.org/variables/7663/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -318,7 +318,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion25`](https://gssdataexplorer.norc.org/variables/7664/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion25`](https://gssdataexplorer.norc.org/variables/7664/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

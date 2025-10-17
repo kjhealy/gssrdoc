@@ -32,7 +32,7 @@ Question How often did you consider your pet to be a member of your family?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7222/vshow}{GSS Data Explorer page for \code{petb4fam}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7222/vshow}{GSS Data Explorer page for \code{petb4fam}}.
 }
 
 \keyword{variable}

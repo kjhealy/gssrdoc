@@ -29,7 +29,7 @@
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sector`](https://gssdataexplorer.norc.org/variables/69/vshow).
+#' For further details see the [GSS Data Explorer page for `sector`](https://gssdataexplorer.norc.org/variables/69/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -65,7 +65,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eftotlt`](https://gssdataexplorer.norc.org/variables/70/vshow).
+#' For further details see the [GSS Data Explorer page for `eftotlt`](https://gssdataexplorer.norc.org/variables/70/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -102,7 +102,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `barate`](https://gssdataexplorer.norc.org/variables/71/vshow).
+#' For further details see the [GSS Data Explorer page for `barate`](https://gssdataexplorer.norc.org/variables/71/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -138,7 +138,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gradtounder`](https://gssdataexplorer.norc.org/variables/72/vshow).
+#' For further details see the [GSS Data Explorer page for `gradtounder`](https://gssdataexplorer.norc.org/variables/72/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -174,7 +174,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `voedcol`](https://gssdataexplorer.norc.org/variables/73/vshow).
+#' For further details see the [GSS Data Explorer page for `voedcol`](https://gssdataexplorer.norc.org/variables/73/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -230,7 +230,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `voednme1`](https://gssdataexplorer.norc.org/variables/74/vshow).
+#' For further details see the [GSS Data Explorer page for `voednme1`](https://gssdataexplorer.norc.org/variables/74/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `voedncol`](https://gssdataexplorer.norc.org/variables/75/vshow).
+#' For further details see the [GSS Data Explorer page for `voedncol`](https://gssdataexplorer.norc.org/variables/75/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -322,7 +322,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `voednme2`](https://gssdataexplorer.norc.org/variables/76/vshow).
+#' For further details see the [GSS Data Explorer page for `voednme2`](https://gssdataexplorer.norc.org/variables/76/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -365,7 +365,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spsector`](https://gssdataexplorer.norc.org/variables/77/vshow).
+#' For further details see the [GSS Data Explorer page for `spsector`](https://gssdataexplorer.norc.org/variables/77/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -401,7 +401,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `speftotlt`](https://gssdataexplorer.norc.org/variables/78/vshow).
+#' For further details see the [GSS Data Explorer page for `speftotlt`](https://gssdataexplorer.norc.org/variables/78/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

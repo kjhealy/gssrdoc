@@ -30,15 +30,13 @@ Question B. Do you think it should or should not be the government's responsibil
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3709/vshow}{GSS Data Explorer page for \code{natdiscm}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3709/vshow}{GSS Data Explorer page for \code{natdiscm}}.
 }
 
 \seealso{
 Other Misc I: 
 \code{\link{getaheay}},
-\code{\link{natdisin}},
-\code{\link{newsprnt}},
-\code{\link{spnatdis}}
+\code{\link{newsprnt}}
 }
 \concept{Misc I}
 \keyword{variable}

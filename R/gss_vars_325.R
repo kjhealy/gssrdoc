@@ -19,7 +19,7 @@
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volmonth`](https://gssdataexplorer.norc.org/variables/2894/vshow).
+#' For further details see the [GSS Data Explorer page for `volmonth`](https://gssdataexplorer.norc.org/variables/2894/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -51,7 +51,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `valgiven`](https://gssdataexplorer.norc.org/variables/2895/vshow).
+#' For further details see the [GSS Data Explorer page for `valgiven`](https://gssdataexplorer.norc.org/variables/2895/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `finind`](https://gssdataexplorer.norc.org/variables/2896/vshow).
+#' For further details see the [GSS Data Explorer page for `finind`](https://gssdataexplorer.norc.org/variables/2896/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -120,7 +120,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `finind1`](https://gssdataexplorer.norc.org/variables/2897/vshow).
+#' For further details see the [GSS Data Explorer page for `finind1`](https://gssdataexplorer.norc.org/variables/2897/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ownhh`](https://gssdataexplorer.norc.org/variables/2898/vshow).
+#' For further details see the [GSS Data Explorer page for `ownhh`](https://gssdataexplorer.norc.org/variables/2898/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -189,7 +189,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ownhh1`](https://gssdataexplorer.norc.org/variables/2899/vshow).
+#' For further details see the [GSS Data Explorer page for `ownhh1`](https://gssdataexplorer.norc.org/variables/2899/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -225,7 +225,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eddone`](https://gssdataexplorer.norc.org/variables/2900/vshow).
+#' For further details see the [GSS Data Explorer page for `eddone`](https://gssdataexplorer.norc.org/variables/2900/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eddone1`](https://gssdataexplorer.norc.org/variables/2901/vshow).
+#' For further details see the [GSS Data Explorer page for `eddone1`](https://gssdataexplorer.norc.org/variables/2901/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -294,7 +294,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ftwork`](https://gssdataexplorer.norc.org/variables/2902/vshow).
+#' For further details see the [GSS Data Explorer page for `ftwork`](https://gssdataexplorer.norc.org/variables/2902/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -327,7 +327,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ftwork1`](https://gssdataexplorer.norc.org/variables/2903/vshow).
+#' For further details see the [GSS Data Explorer page for `ftwork1`](https://gssdataexplorer.norc.org/variables/2903/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

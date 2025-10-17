@@ -33,36 +33,17 @@ C. Go to a movie theater to see a film?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5308/vshow}{GSS Data Explorer page for \code{seefilm}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5308/vshow}{GSS Data Explorer page for \code{seefilm}}.
 }
 
 \seealso{
 Other Religious Attendance and Identity: 
-\code{\link{attreg}},
 \code{\link{attrelig}},
-\code{\link{attweek}},
-\code{\link{cathid}},
-\code{\link{charisma}},
 \code{\link{eatout}},
-\code{\link{friday}},
 \code{\link{godoc}},
-\code{\link{mediarel}},
 \code{\link{monday}},
 \code{\link{numdays}},
-\code{\link{othrel}},
-\code{\link{othrel1}},
-\code{\link{othrel2}},
-\code{\link{othrel3}},
-\code{\link{relid1}},
-\code{\link{relid2}},
-\code{\link{relid3}},
-\code{\link{relidbst}},
-\code{\link{religid}},
-\code{\link{saturday}},
-\code{\link{sunday}},
-\code{\link{thursday}},
-\code{\link{tuesday}},
-\code{\link{wednesdy}}
+\code{\link{sunday}}
 }
 \concept{Religious Attendance and Identity}
 \keyword{variable}

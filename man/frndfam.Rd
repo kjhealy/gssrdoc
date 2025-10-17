@@ -31,7 +31,7 @@ Question While some people think that close relatives should be the most importa
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7782/vshow}{GSS Data Explorer page for \code{frndfam}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7782/vshow}{GSS Data Explorer page for \code{frndfam}}.
 }
 
 \keyword{variable}

@@ -31,7 +31,7 @@ Question Calculated variable: The respondent answered yes to any of RBIOPRNT, RA
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8017/vshow}{GSS Data Explorer page for \code{prnt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8017/vshow}{GSS Data Explorer page for \code{prnt}}.
 }
 
 \keyword{variable}

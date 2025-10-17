@@ -34,7 +34,7 @@ Question (In your household who does the following things...?) Plans and organiz
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7775/vshow}{GSS Data Explorer page for \code{plan1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7775/vshow}{GSS Data Explorer page for \code{plan1}}.
 }
 
 \keyword{variable}

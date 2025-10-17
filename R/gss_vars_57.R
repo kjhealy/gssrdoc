@@ -23,7 +23,7 @@
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `controlz`](https://gssdataexplorer.norc.org/variables/505/vshow).
+#' For further details see the [GSS Data Explorer page for `controlz`](https://gssdataexplorer.norc.org/variables/505/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rolez`](https://gssdataexplorer.norc.org/variables/506/vshow).
+#' For further details see the [GSS Data Explorer page for `rolez`](https://gssdataexplorer.norc.org/variables/506/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amicablz`](https://gssdataexplorer.norc.org/variables/507/vshow).
+#' For further details see the [GSS Data Explorer page for `amicablz`](https://gssdataexplorer.norc.org/variables/507/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obeysz`](https://gssdataexplorer.norc.org/variables/508/vshow).
+#' For further details see the [GSS Data Explorer page for `obeysz`](https://gssdataexplorer.norc.org/variables/508/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `responsz`](https://gssdataexplorer.norc.org/variables/509/vshow).
+#' For further details see the [GSS Data Explorer page for `responsz`](https://gssdataexplorer.norc.org/variables/509/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `considez`](https://gssdataexplorer.norc.org/variables/510/vshow).
+#' For further details see the [GSS Data Explorer page for `considez`](https://gssdataexplorer.norc.org/variables/510/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `interesz`](https://gssdataexplorer.norc.org/variables/511/vshow).
+#' For further details see the [GSS Data Explorer page for `interesz`](https://gssdataexplorer.norc.org/variables/511/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `studiouz`](https://gssdataexplorer.norc.org/variables/512/vshow).
+#' For further details see the [GSS Data Explorer page for `studiouz`](https://gssdataexplorer.norc.org/variables/512/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -343,7 +343,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obey`](https://gssdataexplorer.norc.org/variables/513/vshow).
+#' For further details see the [GSS Data Explorer page for `obey`](https://gssdataexplorer.norc.org/variables/513/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -404,7 +404,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `popular`](https://gssdataexplorer.norc.org/variables/514/vshow).
+#' For further details see the [GSS Data Explorer page for `popular`](https://gssdataexplorer.norc.org/variables/514/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

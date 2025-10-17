@@ -20,7 +20,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethworld5`](https://gssdataexplorer.norc.org/variables/7635/vshow).
+#' For further details see the [GSS Data Explorer page for `ethworld5`](https://gssdataexplorer.norc.org/variables/7635/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethworld6`](https://gssdataexplorer.norc.org/variables/7636/vshow).
+#' For further details see the [GSS Data Explorer page for `ethworld6`](https://gssdataexplorer.norc.org/variables/7636/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethworld7`](https://gssdataexplorer.norc.org/variables/7637/vshow).
+#' For further details see the [GSS Data Explorer page for `ethworld7`](https://gssdataexplorer.norc.org/variables/7637/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethworld8`](https://gssdataexplorer.norc.org/variables/7638/vshow).
+#' For further details see the [GSS Data Explorer page for `ethworld8`](https://gssdataexplorer.norc.org/variables/7638/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethworld9`](https://gssdataexplorer.norc.org/variables/7639/vshow).
+#' For further details see the [GSS Data Explorer page for `ethworld9`](https://gssdataexplorer.norc.org/variables/7639/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -189,7 +189,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion1`](https://gssdataexplorer.norc.org/variables/7640/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion1`](https://gssdataexplorer.norc.org/variables/7640/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -222,7 +222,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion2`](https://gssdataexplorer.norc.org/variables/7641/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion2`](https://gssdataexplorer.norc.org/variables/7641/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion3`](https://gssdataexplorer.norc.org/variables/7642/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion3`](https://gssdataexplorer.norc.org/variables/7642/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion4`](https://gssdataexplorer.norc.org/variables/7643/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion4`](https://gssdataexplorer.norc.org/variables/7643/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -321,7 +321,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethregion5`](https://gssdataexplorer.norc.org/variables/7644/vshow).
+#' For further details see the [GSS Data Explorer page for `ethregion5`](https://gssdataexplorer.norc.org/variables/7644/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -22,7 +22,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chkfinan`](https://gssdataexplorer.norc.org/variables/5223/vshow).
+#' For further details see the [GSS Data Explorer page for `chkfinan`](https://gssdataexplorer.norc.org/variables/5223/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chkspfin`](https://gssdataexplorer.norc.org/variables/5224/vshow).
+#' For further details see the [GSS Data Explorer page for `chkspfin`](https://gssdataexplorer.norc.org/variables/5224/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chktaxes`](https://gssdataexplorer.norc.org/variables/5225/vshow).
+#' For further details see the [GSS Data Explorer page for `chktaxes`](https://gssdataexplorer.norc.org/variables/5225/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -131,7 +131,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knomentl`](https://gssdataexplorer.norc.org/variables/5226/vshow).
+#' For further details see the [GSS Data Explorer page for `knomentl`](https://gssdataexplorer.norc.org/variables/5226/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -168,7 +168,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `takearms`](https://gssdataexplorer.norc.org/variables/5227/vshow).
+#' For further details see the [GSS Data Explorer page for `takearms`](https://gssdataexplorer.norc.org/variables/5227/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -205,7 +205,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `leakinfo`](https://gssdataexplorer.norc.org/variables/5228/vshow).
+#' For further details see the [GSS Data Explorer page for `leakinfo`](https://gssdataexplorer.norc.org/variables/5228/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -242,7 +242,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spyenemy`](https://gssdataexplorer.norc.org/variables/5229/vshow).
+#' For further details see the [GSS Data Explorer page for `spyenemy`](https://gssdataexplorer.norc.org/variables/5229/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spyfrend`](https://gssdataexplorer.norc.org/variables/5230/vshow).
+#' For further details see the [GSS Data Explorer page for `spyfrend`](https://gssdataexplorer.norc.org/variables/5230/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taketrck`](https://gssdataexplorer.norc.org/variables/5231/vshow).
+#' For further details see the [GSS Data Explorer page for `taketrck`](https://gssdataexplorer.norc.org/variables/5231/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -353,7 +353,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `punarms`](https://gssdataexplorer.norc.org/variables/5232/vshow).
+#' For further details see the [GSS Data Explorer page for `punarms`](https://gssdataexplorer.norc.org/variables/5232/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

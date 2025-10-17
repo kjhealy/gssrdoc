@@ -43,7 +43,7 @@
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordi`](https://gssdataexplorer.norc.org/variables/5303/vshow).
+#' For further details see the [GSS Data Explorer page for `wordi`](https://gssdataexplorer.norc.org/variables/5303/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -100,7 +100,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordj`](https://gssdataexplorer.norc.org/variables/5304/vshow).
+#' For further details see the [GSS Data Explorer page for `wordj`](https://gssdataexplorer.norc.org/variables/5304/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordsum`](https://gssdataexplorer.norc.org/variables/5305/vshow).
+#' For further details see the [GSS Data Explorer page for `wordsum`](https://gssdataexplorer.norc.org/variables/5305/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -191,7 +191,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godoc`](https://gssdataexplorer.norc.org/variables/5306/vshow).
+#' For further details see the [GSS Data Explorer page for `godoc`](https://gssdataexplorer.norc.org/variables/5306/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -226,7 +226,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eatout`](https://gssdataexplorer.norc.org/variables/5307/vshow).
+#' For further details see the [GSS Data Explorer page for `eatout`](https://gssdataexplorer.norc.org/variables/5307/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `seefilm`](https://gssdataexplorer.norc.org/variables/5308/vshow).
+#' For further details see the [GSS Data Explorer page for `seefilm`](https://gssdataexplorer.norc.org/variables/5308/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -296,7 +296,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `attrelig`](https://gssdataexplorer.norc.org/variables/5309/vshow).
+#' For further details see the [GSS Data Explorer page for `attrelig`](https://gssdataexplorer.norc.org/variables/5309/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -328,7 +328,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `numdays`](https://gssdataexplorer.norc.org/variables/5310/vshow).
+#' For further details see the [GSS Data Explorer page for `numdays`](https://gssdataexplorer.norc.org/variables/5310/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -361,7 +361,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sunday`](https://gssdataexplorer.norc.org/variables/5311/vshow).
+#' For further details see the [GSS Data Explorer page for `sunday`](https://gssdataexplorer.norc.org/variables/5311/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -394,7 +394,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `monday`](https://gssdataexplorer.norc.org/variables/5312/vshow).
+#' For further details see the [GSS Data Explorer page for `monday`](https://gssdataexplorer.norc.org/variables/5312/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

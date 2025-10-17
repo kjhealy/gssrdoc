@@ -31,15 +31,13 @@ Question Which do you think is the most important reason why people get ahead: t
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3711/vshow}{GSS Data Explorer page for \code{getaheay}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3711/vshow}{GSS Data Explorer page for \code{getaheay}}.
 }
 
 \seealso{
 Other Misc I: 
 \code{\link{natdiscm}},
-\code{\link{natdisin}},
-\code{\link{newsprnt}},
-\code{\link{spnatdis}}
+\code{\link{newsprnt}}
 }
 \concept{Misc I}
 \keyword{variable}

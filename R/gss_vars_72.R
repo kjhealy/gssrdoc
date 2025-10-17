@@ -44,7 +44,7 @@
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `letdie1`](https://gssdataexplorer.norc.org/variables/647/vshow).
+#' For further details see the [GSS Data Explorer page for `letdie1`](https://gssdataexplorer.norc.org/variables/647/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -80,7 +80,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `letdie2`](https://gssdataexplorer.norc.org/variables/648/vshow).
+#' For further details see the [GSS Data Explorer page for `letdie2`](https://gssdataexplorer.norc.org/variables/648/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -139,7 +139,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suicide1`](https://gssdataexplorer.norc.org/variables/649/vshow).
+#' For further details see the [GSS Data Explorer page for `suicide1`](https://gssdataexplorer.norc.org/variables/649/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -198,7 +198,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suicide2`](https://gssdataexplorer.norc.org/variables/650/vshow).
+#' For further details see the [GSS Data Explorer page for `suicide2`](https://gssdataexplorer.norc.org/variables/650/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -257,7 +257,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suicide3`](https://gssdataexplorer.norc.org/variables/651/vshow).
+#' For further details see the [GSS Data Explorer page for `suicide3`](https://gssdataexplorer.norc.org/variables/651/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suicide4`](https://gssdataexplorer.norc.org/variables/652/vshow).
+#' For further details see the [GSS Data Explorer page for `suicide4`](https://gssdataexplorer.norc.org/variables/652/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -351,7 +351,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suinum`](https://gssdataexplorer.norc.org/variables/6181/vshow).
+#' For further details see the [GSS Data Explorer page for `suinum`](https://gssdataexplorer.norc.org/variables/6181/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -386,7 +386,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suinum1`](https://gssdataexplorer.norc.org/variables/6182/vshow).
+#' For further details see the [GSS Data Explorer page for `suinum1`](https://gssdataexplorer.norc.org/variables/6182/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -438,7 +438,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suirel1`](https://gssdataexplorer.norc.org/variables/6183/vshow).
+#' For further details see the [GSS Data Explorer page for `suirel1`](https://gssdataexplorer.norc.org/variables/6183/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -474,7 +474,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suineg1`](https://gssdataexplorer.norc.org/variables/6184/vshow).
+#' For further details see the [GSS Data Explorer page for `suineg1`](https://gssdataexplorer.norc.org/variables/6184/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

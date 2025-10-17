@@ -21,7 +21,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `willwed1`](https://gssdataexplorer.norc.org/variables/1652/vshow).
+#' For further details see the [GSS Data Explorer page for `willwed1`](https://gssdataexplorer.norc.org/variables/1652/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `willwed2`](https://gssdataexplorer.norc.org/variables/1653/vshow).
+#' For further details see the [GSS Data Explorer page for `willwed2`](https://gssdataexplorer.norc.org/variables/1653/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hapgirls`](https://gssdataexplorer.norc.org/variables/1654/vshow).
+#' For further details see the [GSS Data Explorer page for `hapgirls`](https://gssdataexplorer.norc.org/variables/1654/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -121,7 +121,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hapboys`](https://gssdataexplorer.norc.org/variables/1655/vshow).
+#' For further details see the [GSS Data Explorer page for `hapboys`](https://gssdataexplorer.norc.org/variables/1655/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -170,7 +170,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fejobaff`](https://gssdataexplorer.norc.org/variables/1656/vshow).
+#' For further details see the [GSS Data Explorer page for `fejobaff`](https://gssdataexplorer.norc.org/variables/1656/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -203,7 +203,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tradmod`](https://gssdataexplorer.norc.org/variables/1657/vshow).
+#' For further details see the [GSS Data Explorer page for `tradmod`](https://gssdataexplorer.norc.org/variables/1657/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -236,7 +236,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sharesep`](https://gssdataexplorer.norc.org/variables/1658/vshow).
+#' For further details see the [GSS Data Explorer page for `sharesep`](https://gssdataexplorer.norc.org/variables/1658/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -269,7 +269,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emoteoth`](https://gssdataexplorer.norc.org/variables/1659/vshow).
+#' For further details see the [GSS Data Explorer page for `emoteoth`](https://gssdataexplorer.norc.org/variables/1659/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rhmewrk`](https://gssdataexplorer.norc.org/variables/1660/vshow).
+#' For further details see the [GSS Data Explorer page for `rhmewrk`](https://gssdataexplorer.norc.org/variables/1660/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -343,7 +343,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphmewrk`](https://gssdataexplorer.norc.org/variables/1661/vshow).
+#' For further details see the [GSS Data Explorer page for `sphmewrk`](https://gssdataexplorer.norc.org/variables/1661/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

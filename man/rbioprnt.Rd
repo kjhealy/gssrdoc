@@ -31,7 +31,7 @@ Are you the biological parent of at least one individual under the age of 18 in 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8020/vshow}{GSS Data Explorer page for \code{rbioprnt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8020/vshow}{GSS Data Explorer page for \code{rbioprnt}}.
 }
 
 \keyword{variable}

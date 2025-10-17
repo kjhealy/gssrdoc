@@ -27,7 +27,7 @@
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gunnum`](https://gssdataexplorer.norc.org/variables/663/vshow).
+#' For further details see the [GSS Data Explorer page for `gunnum`](https://gssdataexplorer.norc.org/variables/663/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -73,7 +73,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hitok`](https://gssdataexplorer.norc.org/variables/664/vshow).
+#' For further details see the [GSS Data Explorer page for `hitok`](https://gssdataexplorer.norc.org/variables/664/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -120,7 +120,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hitmarch`](https://gssdataexplorer.norc.org/variables/665/vshow).
+#' For further details see the [GSS Data Explorer page for `hitmarch`](https://gssdataexplorer.norc.org/variables/665/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -167,7 +167,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hitdrunk`](https://gssdataexplorer.norc.org/variables/666/vshow).
+#' For further details see the [GSS Data Explorer page for `hitdrunk`](https://gssdataexplorer.norc.org/variables/666/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hitchild`](https://gssdataexplorer.norc.org/variables/667/vshow).
+#' For further details see the [GSS Data Explorer page for `hitchild`](https://gssdataexplorer.norc.org/variables/667/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hitbeatr`](https://gssdataexplorer.norc.org/variables/668/vshow).
+#' For further details see the [GSS Data Explorer page for `hitbeatr`](https://gssdataexplorer.norc.org/variables/668/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -308,7 +308,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hitrobbr`](https://gssdataexplorer.norc.org/variables/669/vshow).
+#' For further details see the [GSS Data Explorer page for `hitrobbr`](https://gssdataexplorer.norc.org/variables/669/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -369,7 +369,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polhitok`](https://gssdataexplorer.norc.org/variables/670/vshow).
+#' For further details see the [GSS Data Explorer page for `polhitok`](https://gssdataexplorer.norc.org/variables/670/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -431,7 +431,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polabuse`](https://gssdataexplorer.norc.org/variables/671/vshow).
+#' For further details see the [GSS Data Explorer page for `polabuse`](https://gssdataexplorer.norc.org/variables/671/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -493,7 +493,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polmurdr`](https://gssdataexplorer.norc.org/variables/672/vshow).
+#' For further details see the [GSS Data Explorer page for `polmurdr`](https://gssdataexplorer.norc.org/variables/672/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

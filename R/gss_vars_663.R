@@ -20,7 +20,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `firstkidsex`](https://gssdataexplorer.norc.org/variables/7958/vshow).
+#' For further details see the [GSS Data Explorer page for `firstkidsex`](https://gssdataexplorer.norc.org/variables/7958/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nonbinkids`](https://gssdataexplorer.norc.org/variables/7959/vshow).
+#' For further details see the [GSS Data Explorer page for `nonbinkids`](https://gssdataexplorer.norc.org/variables/7959/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `femself`](https://gssdataexplorer.norc.org/variables/7960/vshow).
+#' For further details see the [GSS Data Explorer page for `femself`](https://gssdataexplorer.norc.org/variables/7960/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mascself`](https://gssdataexplorer.norc.org/variables/7961/vshow).
+#' For further details see the [GSS Data Explorer page for `mascself`](https://gssdataexplorer.norc.org/variables/7961/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -165,7 +165,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relig_next`](https://gssdataexplorer.norc.org/variables/8009/vshow).
+#' For further details see the [GSS Data Explorer page for `relig_next`](https://gssdataexplorer.norc.org/variables/8009/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -222,7 +222,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `denom_next`](https://gssdataexplorer.norc.org/variables/8002/vshow).
+#' For further details see the [GSS Data Explorer page for `denom_next`](https://gssdataexplorer.norc.org/variables/8002/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -257,7 +257,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jew_next`](https://gssdataexplorer.norc.org/variables/8003/vshow).
+#' For further details see the [GSS Data Explorer page for `jew_next`](https://gssdataexplorer.norc.org/variables/8003/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nextstatus`](https://gssdataexplorer.norc.org/variables/7962/vshow).
+#' For further details see the [GSS Data Explorer page for `nextstatus`](https://gssdataexplorer.norc.org/variables/7962/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -321,7 +321,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racdif1x`](https://gssdataexplorer.norc.org/variables/7963/vshow).
+#' For further details see the [GSS Data Explorer page for `racdif1x`](https://gssdataexplorer.norc.org/variables/7963/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -354,7 +354,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racdif2x`](https://gssdataexplorer.norc.org/variables/7964/vshow).
+#' For further details see the [GSS Data Explorer page for `racdif2x`](https://gssdataexplorer.norc.org/variables/7964/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

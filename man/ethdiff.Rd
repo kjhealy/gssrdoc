@@ -34,20 +34,12 @@ B. Now think only about ethnic minority groups within the U.S. such as African A
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2735/vshow}{GSS Data Explorer page for \code{ethdiff}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2735/vshow}{GSS Data Explorer page for \code{ethdiff}}.
 }
 
 \seealso{
 Other Prejudice: 
-\code{\link{ethadapt}},
-\code{\link{ethignor}},
-\code{\link{ethimp}},
-\code{\link{ethnofit}},
 \code{\link{ethsame}},
-\code{\link{ethtrads}},
-\code{\link{feelasns}},
-\code{\link{feelblks}},
-\code{\link{feelhsps}},
 \code{\link{feelwhts}},
 \code{\link{whtsdiff}}
 }

@@ -22,7 +22,7 @@
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphedslf`](https://gssdataexplorer.norc.org/variables/1489/vshow).
+#' For further details see the [GSS Data Explorer page for `sphedslf`](https://gssdataexplorer.norc.org/variables/1489/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphedind`](https://gssdataexplorer.norc.org/variables/1490/vshow).
+#' For further details see the [GSS Data Explorer page for `sphedind`](https://gssdataexplorer.norc.org/variables/1490/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -629,7 +629,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphedocc10`](https://gssdataexplorer.norc.org/variables/6001/vshow).
+#' For further details see the [GSS Data Explorer page for `sphedocc10`](https://gssdataexplorer.norc.org/variables/6001/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -661,7 +661,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphedoccindv`](https://gssdataexplorer.norc.org/variables/6002/vshow).
+#' For further details see the [GSS Data Explorer page for `sphedoccindv`](https://gssdataexplorer.norc.org/variables/6002/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -699,7 +699,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphedoccstatus`](https://gssdataexplorer.norc.org/variables/6003/vshow).
+#' For further details see the [GSS Data Explorer page for `sphedoccstatus`](https://gssdataexplorer.norc.org/variables/6003/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -732,7 +732,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphedocctag`](https://gssdataexplorer.norc.org/variables/6004/vshow).
+#' For further details see the [GSS Data Explorer page for `sphedocctag`](https://gssdataexplorer.norc.org/variables/6004/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1034,7 +1034,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphedind10`](https://gssdataexplorer.norc.org/variables/6005/vshow).
+#' For further details see the [GSS Data Explorer page for `sphedind10`](https://gssdataexplorer.norc.org/variables/6005/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1072,7 +1072,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphedindstatus`](https://gssdataexplorer.norc.org/variables/6006/vshow).
+#' For further details see the [GSS Data Explorer page for `sphedindstatus`](https://gssdataexplorer.norc.org/variables/6006/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1105,7 +1105,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphedindtag`](https://gssdataexplorer.norc.org/variables/6007/vshow).
+#' For further details see the [GSS Data Explorer page for `sphedindtag`](https://gssdataexplorer.norc.org/variables/6007/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1136,7 +1136,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphedpre10`](https://gssdataexplorer.norc.org/variables/6008/vshow).
+#' For further details see the [GSS Data Explorer page for `sphedpre10`](https://gssdataexplorer.norc.org/variables/6008/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

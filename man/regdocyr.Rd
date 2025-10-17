@@ -30,33 +30,16 @@ Question Have you been a patient with this doctor or clinic for more than one ye
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2739/vshow}{GSS Data Explorer page for \code{regdocyr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2739/vshow}{GSS Data Explorer page for \code{regdocyr}}.
 }
 
 \seealso{
 Other Doctors & Patients: 
-\code{\link{belvedoc}},
-\code{\link{chosedoc}},
-\code{\link{diffcare}},
 \code{\link{docaskme}},
-\code{\link{doccosts}},
 \code{\link{docdecid}},
-\code{\link{docinfo}},
-\code{\link{docnomri}},
 \code{\link{docrely}},
-\code{\link{docsat}},
-\code{\link{docswtch}},
 \code{\link{docvig}},
-\code{\link{fininc}},
-\code{\link{fininc1}},
-\code{\link{fininc2}},
-\code{\link{fininc3}},
-\code{\link{fininc4}},
-\code{\link{hlthplan}},
-\code{\link{insrchng}},
-\code{\link{insrlmts}},
-\code{\link{regdoc}},
-\code{\link{secopin}}
+\code{\link{regdoc}}
 }
 \concept{Doctors & Patients}
 \keyword{variable}

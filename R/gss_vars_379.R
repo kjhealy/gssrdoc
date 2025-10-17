@@ -22,7 +22,7 @@
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polaryr6`](https://gssdataexplorer.norc.org/variables/3429/vshow).
+#' For further details see the [GSS Data Explorer page for `polaryr6`](https://gssdataexplorer.norc.org/variables/3429/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polaryr7`](https://gssdataexplorer.norc.org/variables/3430/vshow).
+#' For further details see the [GSS Data Explorer page for `polaryr7`](https://gssdataexplorer.norc.org/variables/3430/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polaryr8`](https://gssdataexplorer.norc.org/variables/3431/vshow).
+#' For further details see the [GSS Data Explorer page for `polaryr8`](https://gssdataexplorer.norc.org/variables/3431/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `icesheet`](https://gssdataexplorer.norc.org/variables/3432/vshow).
+#' For further details see the [GSS Data Explorer page for `icesheet`](https://gssdataexplorer.norc.org/variables/3432/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -162,7 +162,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nosun`](https://gssdataexplorer.norc.org/variables/3433/vshow).
+#' For further details see the [GSS Data Explorer page for `nosun`](https://gssdataexplorer.norc.org/variables/3433/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inuit`](https://gssdataexplorer.norc.org/variables/3434/vshow).
+#' For further details see the [GSS Data Explorer page for `inuit`](https://gssdataexplorer.norc.org/variables/3434/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -230,7 +230,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `huntbear`](https://gssdataexplorer.norc.org/variables/3435/vshow).
+#' For further details see the [GSS Data Explorer page for `huntbear`](https://gssdataexplorer.norc.org/variables/3435/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -265,7 +265,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `icecaps`](https://gssdataexplorer.norc.org/variables/3436/vshow).
+#' For further details see the [GSS Data Explorer page for `icecaps`](https://gssdataexplorer.norc.org/variables/3436/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comorsci`](https://gssdataexplorer.norc.org/variables/3437/vshow).
+#' For further details see the [GSS Data Explorer page for `comorsci`](https://gssdataexplorer.norc.org/variables/3437/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -337,7 +337,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `extinct`](https://gssdataexplorer.norc.org/variables/3438/vshow).
+#' For further details see the [GSS Data Explorer page for `extinct`](https://gssdataexplorer.norc.org/variables/3438/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

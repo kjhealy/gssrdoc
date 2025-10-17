@@ -22,7 +22,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cideage2`](https://gssdataexplorer.norc.org/variables/4998/vshow).
+#' For further details see the [GSS Data Explorer page for `cideage2`](https://gssdataexplorer.norc.org/variables/4998/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ciderac2`](https://gssdataexplorer.norc.org/variables/4999/vshow).
+#' For further details see the [GSS Data Explorer page for `ciderac2`](https://gssdataexplorer.norc.org/variables/4999/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -100,7 +100,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cidereg2`](https://gssdataexplorer.norc.org/variables/5000/vshow).
+#' For further details see the [GSS Data Explorer page for `cidereg2`](https://gssdataexplorer.norc.org/variables/5000/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -141,7 +141,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cidewho3`](https://gssdataexplorer.norc.org/variables/5001/vshow).
+#' For further details see the [GSS Data Explorer page for `cidewho3`](https://gssdataexplorer.norc.org/variables/5001/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -175,7 +175,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cidesex3`](https://gssdataexplorer.norc.org/variables/5002/vshow).
+#' For further details see the [GSS Data Explorer page for `cidesex3`](https://gssdataexplorer.norc.org/variables/5002/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cideage3`](https://gssdataexplorer.norc.org/variables/5003/vshow).
+#' For further details see the [GSS Data Explorer page for `cideage3`](https://gssdataexplorer.norc.org/variables/5003/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,7 +247,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ciderac3`](https://gssdataexplorer.norc.org/variables/5004/vshow).
+#' For further details see the [GSS Data Explorer page for `ciderac3`](https://gssdataexplorer.norc.org/variables/5004/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cidereg3`](https://gssdataexplorer.norc.org/variables/5005/vshow).
+#' For further details see the [GSS Data Explorer page for `cidereg3`](https://gssdataexplorer.norc.org/variables/5005/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidsknow`](https://gssdataexplorer.norc.org/variables/5006/vshow).
+#' For further details see the [GSS Data Explorer page for `aidsknow`](https://gssdataexplorer.norc.org/variables/5006/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -368,7 +368,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidswho`](https://gssdataexplorer.norc.org/variables/5007/vshow).
+#' For further details see the [GSS Data Explorer page for `aidswho`](https://gssdataexplorer.norc.org/variables/5007/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

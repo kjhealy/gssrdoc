@@ -35,7 +35,7 @@ Question How often do you have any contact with people who are a lot poorer than
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7516/vshow}{GSS Data Explorer page for \code{contpoor}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7516/vshow}{GSS Data Explorer page for \code{contpoor}}.
 }
 
 \keyword{variable}

@@ -30,13 +30,11 @@ Question Leaving yourself aside, have you personally ever known someone who has 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3565/vshow}{GSS Data Explorer page for \code{mhtrtoth}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3565/vshow}{GSS Data Explorer page for \code{mhtrtoth}}.
 }
 
 \seealso{
 Other Mental Health III: 
-\code{\link{avoidmh}},
-\code{\link{gesttalk}},
 \code{\link{mhothrel}},
 \code{\link{mhothyou}},
 \code{\link{seemhpub}},

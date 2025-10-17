@@ -42,7 +42,7 @@ Question Thinking about the most recent performance you wanted to attend but did
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6646/vshow}{GSS Data Explorer page for \code{prfmothr1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6646/vshow}{GSS Data Explorer page for \code{prfmothr1}}.
 }
 
 \keyword{variable}

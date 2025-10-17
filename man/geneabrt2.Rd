@@ -30,7 +30,7 @@ Question Suppose a test shows the baby has a serious genetic defect. Would you (
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7296/vshow}{GSS Data Explorer page for \code{geneabrt2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7296/vshow}{GSS Data Explorer page for \code{geneabrt2}}.
 }
 
 \keyword{variable}

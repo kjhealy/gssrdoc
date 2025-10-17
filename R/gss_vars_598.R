@@ -51,7 +51,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pasei10educ`](https://gssdataexplorer.norc.org/variables/5718/vshow).
+#' For further details see the [GSS Data Explorer page for `pasei10educ`](https://gssdataexplorer.norc.org/variables/5718/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -116,7 +116,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pasei10inc`](https://gssdataexplorer.norc.org/variables/5719/vshow).
+#' For further details see the [GSS Data Explorer page for `pasei10inc`](https://gssdataexplorer.norc.org/variables/5719/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -162,7 +162,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `masei10`](https://gssdataexplorer.norc.org/variables/5720/vshow).
+#' For further details see the [GSS Data Explorer page for `masei10`](https://gssdataexplorer.norc.org/variables/5720/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `masei10educ`](https://gssdataexplorer.norc.org/variables/5721/vshow).
+#' For further details see the [GSS Data Explorer page for `masei10educ`](https://gssdataexplorer.norc.org/variables/5721/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -254,7 +254,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `masei10inc`](https://gssdataexplorer.norc.org/variables/5722/vshow).
+#' For further details see the [GSS Data Explorer page for `masei10inc`](https://gssdataexplorer.norc.org/variables/5722/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spsei10`](https://gssdataexplorer.norc.org/variables/5723/vshow).
+#' For further details see the [GSS Data Explorer page for `spsei10`](https://gssdataexplorer.norc.org/variables/5723/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -384,7 +384,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spsei10educ`](https://gssdataexplorer.norc.org/variables/5724/vshow).
+#' For further details see the [GSS Data Explorer page for `spsei10educ`](https://gssdataexplorer.norc.org/variables/5724/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -449,7 +449,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spsei10inc`](https://gssdataexplorer.norc.org/variables/5725/vshow).
+#' For further details see the [GSS Data Explorer page for `spsei10inc`](https://gssdataexplorer.norc.org/variables/5725/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -486,7 +486,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cosei10`](https://gssdataexplorer.norc.org/variables/6358/vshow).
+#' For further details see the [GSS Data Explorer page for `cosei10`](https://gssdataexplorer.norc.org/variables/6358/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -523,7 +523,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cosei10educ`](https://gssdataexplorer.norc.org/variables/6359/vshow).
+#' For further details see the [GSS Data Explorer page for `cosei10educ`](https://gssdataexplorer.norc.org/variables/6359/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

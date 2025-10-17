@@ -45,7 +45,7 @@
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maoccindv`](https://gssdataexplorer.norc.org/variables/5996/vshow).
+#' For further details see the [GSS Data Explorer page for `maoccindv`](https://gssdataexplorer.norc.org/variables/5996/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -109,7 +109,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maoccstatus`](https://gssdataexplorer.norc.org/variables/5997/vshow).
+#' For further details see the [GSS Data Explorer page for `maoccstatus`](https://gssdataexplorer.norc.org/variables/5997/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -169,7 +169,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maocctag`](https://gssdataexplorer.norc.org/variables/5998/vshow).
+#' For further details see the [GSS Data Explorer page for `maocctag`](https://gssdataexplorer.norc.org/variables/5998/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -215,7 +215,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mapres10`](https://gssdataexplorer.norc.org/variables/5712/vshow).
+#' For further details see the [GSS Data Explorer page for `mapres10`](https://gssdataexplorer.norc.org/variables/5712/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mapres105plus`](https://gssdataexplorer.norc.org/variables/5713/vshow).
+#' For further details see the [GSS Data Explorer page for `mapres105plus`](https://gssdataexplorer.norc.org/variables/5713/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -583,7 +583,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maind10`](https://gssdataexplorer.norc.org/variables/50/vshow).
+#' For further details see the [GSS Data Explorer page for `maind10`](https://gssdataexplorer.norc.org/variables/50/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -647,7 +647,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maindstatus`](https://gssdataexplorer.norc.org/variables/5999/vshow).
+#' For further details see the [GSS Data Explorer page for `maindstatus`](https://gssdataexplorer.norc.org/variables/5999/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -707,7 +707,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maindtag`](https://gssdataexplorer.norc.org/variables/6000/vshow).
+#' For further details see the [GSS Data Explorer page for `maindtag`](https://gssdataexplorer.norc.org/variables/6000/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -771,7 +771,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sibs`](https://gssdataexplorer.norc.org/variables/51/vshow).
+#' For further details see the [GSS Data Explorer page for `sibs`](https://gssdataexplorer.norc.org/variables/51/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -836,7 +836,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `childs`](https://gssdataexplorer.norc.org/variables/52/vshow).
+#' For further details see the [GSS Data Explorer page for `childs`](https://gssdataexplorer.norc.org/variables/52/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

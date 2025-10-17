@@ -30,7 +30,7 @@ Question On a scale from 0 to 10, how bad or good do you think the impacts of cl
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7488/vshow}{GSS Data Explorer page for \code{clmtusa}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7488/vshow}{GSS Data Explorer page for \code{clmtusa}}.
 }
 
 \keyword{variable}

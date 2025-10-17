@@ -19,7 +19,7 @@
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racmix`](https://gssdataexplorer.norc.org/variables/406/vshow).
+#' For further details see the [GSS Data Explorer page for `racmix`](https://gssdataexplorer.norc.org/variables/406/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -53,7 +53,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racneigh`](https://gssdataexplorer.norc.org/variables/407/vshow).
+#' For further details see the [GSS Data Explorer page for `racneigh`](https://gssdataexplorer.norc.org/variables/407/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racnobuy`](https://gssdataexplorer.norc.org/variables/408/vshow).
+#' For further details see the [GSS Data Explorer page for `racnobuy`](https://gssdataexplorer.norc.org/variables/408/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ractrust`](https://gssdataexplorer.norc.org/variables/409/vshow).
+#' For further details see the [GSS Data Explorer page for `ractrust`](https://gssdataexplorer.norc.org/variables/409/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racparty`](https://gssdataexplorer.norc.org/variables/410/vshow).
+#' For further details see the [GSS Data Explorer page for `racparty`](https://gssdataexplorer.norc.org/variables/410/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racocc`](https://gssdataexplorer.norc.org/variables/411/vshow).
+#' For further details see the [GSS Data Explorer page for `racocc`](https://gssdataexplorer.norc.org/variables/411/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racinc`](https://gssdataexplorer.norc.org/variables/412/vshow).
+#' For further details see the [GSS Data Explorer page for `racinc`](https://gssdataexplorer.norc.org/variables/412/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racopnow`](https://gssdataexplorer.norc.org/variables/413/vshow).
+#' For further details see the [GSS Data Explorer page for `racopnow`](https://gssdataexplorer.norc.org/variables/413/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racopwil`](https://gssdataexplorer.norc.org/variables/414/vshow).
+#' For further details see the [GSS Data Explorer page for `racopwil`](https://gssdataexplorer.norc.org/variables/414/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -317,7 +317,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racimp`](https://gssdataexplorer.norc.org/variables/415/vshow).
+#' For further details see the [GSS Data Explorer page for `racimp`](https://gssdataexplorer.norc.org/variables/415/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

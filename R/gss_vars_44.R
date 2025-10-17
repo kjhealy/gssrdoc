@@ -21,7 +21,7 @@
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cathtemp`](https://gssdataexplorer.norc.org/variables/376/vshow).
+#' For further details see the [GSS Data Explorer page for `cathtemp`](https://gssdataexplorer.norc.org/variables/376/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jewtemp`](https://gssdataexplorer.norc.org/variables/377/vshow).
+#' For further details see the [GSS Data Explorer page for `jewtemp`](https://gssdataexplorer.norc.org/variables/377/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2004 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mslmtemp`](https://gssdataexplorer.norc.org/variables/378/vshow).
+#' For further details see the [GSS Data Explorer page for `mslmtemp`](https://gssdataexplorer.norc.org/variables/378/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -125,7 +125,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fepriest`](https://gssdataexplorer.norc.org/variables/379/vshow).
+#' For further details see the [GSS Data Explorer page for `fepriest`](https://gssdataexplorer.norc.org/variables/379/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -159,7 +159,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `feclergy`](https://gssdataexplorer.norc.org/variables/380/vshow).
+#' For further details see the [GSS Data Explorer page for `feclergy`](https://gssdataexplorer.norc.org/variables/380/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -195,7 +195,7 @@ NULL
 #'  |1989 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relgrade`](https://gssdataexplorer.norc.org/variables/381/vshow).
+#' For further details see the [GSS Data Explorer page for `relgrade`](https://gssdataexplorer.norc.org/variables/381/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,7 +247,7 @@ NULL
 #'  |2002 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racmar`](https://gssdataexplorer.norc.org/variables/382/vshow).
+#' For further details see the [GSS Data Explorer page for `racmar`](https://gssdataexplorer.norc.org/variables/382/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racmar10`](https://gssdataexplorer.norc.org/variables/383/vshow).
+#' For further details see the [GSS Data Explorer page for `racmar10`](https://gssdataexplorer.norc.org/variables/383/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -321,7 +321,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racdin`](https://gssdataexplorer.norc.org/variables/384/vshow).
+#' For further details see the [GSS Data Explorer page for `racdin`](https://gssdataexplorer.norc.org/variables/384/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -369,7 +369,7 @@ NULL
 #'  |2002 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racpush`](https://gssdataexplorer.norc.org/variables/385/vshow).
+#' For further details see the [GSS Data Explorer page for `racpush`](https://gssdataexplorer.norc.org/variables/385/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

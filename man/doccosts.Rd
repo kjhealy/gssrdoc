@@ -33,32 +33,16 @@ Question How much would you trust the doctor to put your health above costs? Wou
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2756/vshow}{GSS Data Explorer page for \code{doccosts}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2756/vshow}{GSS Data Explorer page for \code{doccosts}}.
 }
 
 \seealso{
 Other Doctors & Patients: 
-\code{\link{belvedoc}},
-\code{\link{chosedoc}},
-\code{\link{diffcare}},
-\code{\link{docaskme}},
-\code{\link{docdecid}},
 \code{\link{docinfo}},
 \code{\link{docnomri}},
-\code{\link{docrely}},
 \code{\link{docsat}},
 \code{\link{docswtch}},
-\code{\link{docvig}},
-\code{\link{fininc}},
-\code{\link{fininc1}},
-\code{\link{fininc2}},
-\code{\link{fininc3}},
-\code{\link{fininc4}},
-\code{\link{hlthplan}},
 \code{\link{insrchng}},
-\code{\link{insrlmts}},
-\code{\link{regdoc}},
-\code{\link{regdocyr}},
 \code{\link{secopin}}
 }
 \concept{Doctors & Patients}

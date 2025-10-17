@@ -30,7 +30,7 @@ Question Which do you think should be the bigger priority for the U.S. criminal 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7576/vshow}{GSS Data Explorer page for \code{strvbiasy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7576/vshow}{GSS Data Explorer page for \code{strvbiasy}}.
 }
 
 \keyword{variable}

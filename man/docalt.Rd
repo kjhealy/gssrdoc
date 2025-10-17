@@ -33,7 +33,7 @@ Question (During the past 12 months, how often did you visit or were visited by.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7826/vshow}{GSS Data Explorer page for \code{docalt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7826/vshow}{GSS Data Explorer page for \code{docalt}}.
 }
 
 \keyword{variable}

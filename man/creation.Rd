@@ -32,7 +32,7 @@ Question After I read off three statements, please tell me which one comes close
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/4972/vshow}{GSS Data Explorer page for \code{creation}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4972/vshow}{GSS Data Explorer page for \code{creation}}.
 }
 
 \seealso{

@@ -33,7 +33,7 @@ Question Is it fair or unfair that people with higher incomes can afford better 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7790/vshow}{GSS Data Explorer page for \code{hlthbtr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7790/vshow}{GSS Data Explorer page for \code{hlthbtr}}.
 }
 
 \keyword{variable}

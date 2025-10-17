@@ -32,7 +32,7 @@ Question I have easy access to natural environments, such as public parks, garde
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7186/vshow}{GSS Data Explorer page for \code{nataccess}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7186/vshow}{GSS Data Explorer page for \code{nataccess}}.
 }
 
 \keyword{variable}

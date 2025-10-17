@@ -34,19 +34,12 @@ Question B. How much would you say you have heard or read about genetic testing?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5084/vshow}{GSS Data Explorer page for \code{genetst1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5084/vshow}{GSS Data Explorer page for \code{genetst1}}.
 }
 
 \seealso{
 Other Genes: 
-\code{\link{geneabrt}},
-\code{\link{genedef1}},
-\code{\link{genedef2}},
-\code{\link{genedef3}},
-\code{\link{genegoo1}},
-\code{\link{genegoo2}},
 \code{\link{genegood}},
-\code{\link{geneself}},
 \code{\link{genetest}}
 }
 \concept{Genes}

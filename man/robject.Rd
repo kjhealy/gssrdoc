@@ -32,7 +32,7 @@ Question INTERVIEWER: DID THE RESPONDENT OBJECT TO OR DELAY ANSWERING IMMSTATS?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3029/vshow}{GSS Data Explorer page for \code{robject}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3029/vshow}{GSS Data Explorer page for \code{robject}}.
 }
 
 \seealso{

@@ -22,7 +22,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldhome`](https://gssdataexplorer.norc.org/variables/5113/vshow).
+#' For further details see the [GSS Data Explorer page for `chldhome`](https://gssdataexplorer.norc.org/variables/5113/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldhlth`](https://gssdataexplorer.norc.org/variables/5114/vshow).
+#' For further details see the [GSS Data Explorer page for `chldhlth`](https://gssdataexplorer.norc.org/variables/5114/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldskls`](https://gssdataexplorer.norc.org/variables/5115/vshow).
+#' For further details see the [GSS Data Explorer page for `chldskls`](https://gssdataexplorer.norc.org/variables/5115/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldtime`](https://gssdataexplorer.norc.org/variables/5116/vshow).
+#' For further details see the [GSS Data Explorer page for `chldtime`](https://gssdataexplorer.norc.org/variables/5116/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inffilms`](https://gssdataexplorer.norc.org/variables/5117/vshow).
+#' For further details see the [GSS Data Explorer page for `inffilms`](https://gssdataexplorer.norc.org/variables/5117/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `infpubtv`](https://gssdataexplorer.norc.org/variables/5118/vshow).
+#' For further details see the [GSS Data Explorer page for `infpubtv`](https://gssdataexplorer.norc.org/variables/5118/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `infnettv`](https://gssdataexplorer.norc.org/variables/5119/vshow).
+#' For further details see the [GSS Data Explorer page for `infnettv`](https://gssdataexplorer.norc.org/variables/5119/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `infadstv`](https://gssdataexplorer.norc.org/variables/5120/vshow).
+#' For further details see the [GSS Data Explorer page for `infadstv`](https://gssdataexplorer.norc.org/variables/5120/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `infmusic`](https://gssdataexplorer.norc.org/variables/5121/vshow).
+#' For further details see the [GSS Data Explorer page for `infmusic`](https://gssdataexplorer.norc.org/variables/5121/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -347,7 +347,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sppregnt`](https://gssdataexplorer.norc.org/variables/5122/vshow).
+#' For further details see the [GSS Data Explorer page for `sppregnt`](https://gssdataexplorer.norc.org/variables/5122/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

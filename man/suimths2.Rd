@@ -30,7 +30,7 @@ Question MONTHS:
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6193/vshow}{GSS Data Explorer page for \code{suimths2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6193/vshow}{GSS Data Explorer page for \code{suimths2}}.
 }
 
 \seealso{
@@ -38,11 +38,7 @@ Other Suicide:
 \code{\link{suiclse1}},
 \code{\link{suiclse2}},
 \code{\link{suimths1}},
-\code{\link{suineg1}},
 \code{\link{suineg2}},
-\code{\link{suinum}},
-\code{\link{suinum1}},
-\code{\link{suirel1}},
 \code{\link{suirel2}},
 \code{\link{suitime1}},
 \code{\link{suitime2}},

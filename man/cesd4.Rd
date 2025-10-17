@@ -34,7 +34,7 @@ Question (HAND CARD N1)
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6300/vshow}{GSS Data Explorer page for \code{cesd4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6300/vshow}{GSS Data Explorer page for \code{cesd4}}.
 }
 
 \seealso{

@@ -21,7 +21,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `reqinfo`](https://gssdataexplorer.norc.org/variables/1872/vshow).
+#' For further details see the [GSS Data Explorer page for `reqinfo`](https://gssdataexplorer.norc.org/variables/1872/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natrecon`](https://gssdataexplorer.norc.org/variables/1873/vshow).
+#' For further details see the [GSS Data Explorer page for `natrecon`](https://gssdataexplorer.norc.org/variables/1873/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tagsales`](https://gssdataexplorer.norc.org/variables/1874/vshow).
+#' For further details see the [GSS Data Explorer page for `tagsales`](https://gssdataexplorer.norc.org/variables/1874/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -123,7 +123,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `haggle`](https://gssdataexplorer.norc.org/variables/1875/vshow).
+#' For further details see the [GSS Data Explorer page for `haggle`](https://gssdataexplorer.norc.org/variables/1875/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -155,7 +155,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wkfambiz`](https://gssdataexplorer.norc.org/variables/1876/vshow).
+#' For further details see the [GSS Data Explorer page for `wkfambiz`](https://gssdataexplorer.norc.org/variables/1876/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -189,7 +189,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hrfambiz`](https://gssdataexplorer.norc.org/variables/1877/vshow).
+#' For further details see the [GSS Data Explorer page for `hrfambiz`](https://gssdataexplorer.norc.org/variables/1877/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -228,7 +228,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fambiz`](https://gssdataexplorer.norc.org/variables/1878/vshow).
+#' For further details see the [GSS Data Explorer page for `fambiz`](https://gssdataexplorer.norc.org/variables/1878/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `econsys`](https://gssdataexplorer.norc.org/variables/1879/vshow).
+#' For further details see the [GSS Data Explorer page for `econsys`](https://gssdataexplorer.norc.org/variables/1879/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famfinan`](https://gssdataexplorer.norc.org/variables/1880/vshow).
+#' For further details see the [GSS Data Explorer page for `famfinan`](https://gssdataexplorer.norc.org/variables/1880/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -335,7 +335,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `decauto`](https://gssdataexplorer.norc.org/variables/1881/vshow).
+#' For further details see the [GSS Data Explorer page for `decauto`](https://gssdataexplorer.norc.org/variables/1881/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

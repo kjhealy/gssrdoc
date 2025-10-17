@@ -29,7 +29,7 @@ Question In what year did you start using the internet or web-enabled applicatio
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6647/vshow}{GSS Data Explorer page for \code{intstart}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6647/vshow}{GSS Data Explorer page for \code{intstart}}.
 }
 
 \keyword{variable}

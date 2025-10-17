@@ -21,7 +21,7 @@
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `likediff`](https://gssdataexplorer.norc.org/variables/311/vshow).
+#' For further details see the [GSS Data Explorer page for `likediff`](https://gssdataexplorer.norc.org/variables/311/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mindbody`](https://gssdataexplorer.norc.org/variables/312/vshow).
+#' For further details see the [GSS Data Explorer page for `mindbody`](https://gssdataexplorer.norc.org/variables/312/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `restact`](https://gssdataexplorer.norc.org/variables/313/vshow).
+#' For further details see the [GSS Data Explorer page for `restact`](https://gssdataexplorer.norc.org/variables/313/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -123,7 +123,7 @@ NULL
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `palefull`](https://gssdataexplorer.norc.org/variables/314/vshow).
+#' For further details see the [GSS Data Explorer page for `palefull`](https://gssdataexplorer.norc.org/variables/314/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -182,7 +182,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pray`](https://gssdataexplorer.norc.org/variables/315/vshow).
+#' For further details see the [GSS Data Explorer page for `pray`](https://gssdataexplorer.norc.org/variables/315/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -220,7 +220,7 @@ NULL
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dejavu`](https://gssdataexplorer.norc.org/variables/316/vshow).
+#' For further details see the [GSS Data Explorer page for `dejavu`](https://gssdataexplorer.norc.org/variables/316/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `esp`](https://gssdataexplorer.norc.org/variables/317/vshow).
+#' For further details see the [GSS Data Explorer page for `esp`](https://gssdataexplorer.norc.org/variables/317/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -296,7 +296,7 @@ NULL
 #'  |1989 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `visions`](https://gssdataexplorer.norc.org/variables/318/vshow).
+#' For further details see the [GSS Data Explorer page for `visions`](https://gssdataexplorer.norc.org/variables/318/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -335,7 +335,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spirits`](https://gssdataexplorer.norc.org/variables/319/vshow).
+#' For further details see the [GSS Data Explorer page for `spirits`](https://gssdataexplorer.norc.org/variables/319/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -375,7 +375,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grace`](https://gssdataexplorer.norc.org/variables/320/vshow).
+#' For further details see the [GSS Data Explorer page for `grace`](https://gssdataexplorer.norc.org/variables/320/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

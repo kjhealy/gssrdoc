@@ -18,7 +18,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `promoted`](https://gssdataexplorer.norc.org/variables/1300/vshow).
+#' For further details see the [GSS Data Explorer page for `promoted`](https://gssdataexplorer.norc.org/variables/1300/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `numpromo`](https://gssdataexplorer.norc.org/variables/1301/vshow).
+#' For further details see the [GSS Data Explorer page for `numpromo`](https://gssdataexplorer.norc.org/variables/1301/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `imppromo`](https://gssdataexplorer.norc.org/variables/1302/vshow).
+#' For further details see the [GSS Data Explorer page for `imppromo`](https://gssdataexplorer.norc.org/variables/1302/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -119,7 +119,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `futpromo`](https://gssdataexplorer.norc.org/variables/1303/vshow).
+#' For further details see the [GSS Data Explorer page for `futpromo`](https://gssdataexplorer.norc.org/variables/1303/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -153,7 +153,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexpromo`](https://gssdataexplorer.norc.org/variables/1304/vshow).
+#' For further details see the [GSS Data Explorer page for `sexpromo`](https://gssdataexplorer.norc.org/variables/1304/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racpromo`](https://gssdataexplorer.norc.org/variables/1305/vshow).
+#' For further details see the [GSS Data Explorer page for `racpromo`](https://gssdataexplorer.norc.org/variables/1305/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -222,7 +222,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advances`](https://gssdataexplorer.norc.org/variables/1306/vshow).
+#' For further details see the [GSS Data Explorer page for `advances`](https://gssdataexplorer.norc.org/variables/1306/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobcntrl`](https://gssdataexplorer.norc.org/variables/1307/vshow).
+#' For further details see the [GSS Data Explorer page for `jobcntrl`](https://gssdataexplorer.norc.org/variables/1307/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkindep`](https://gssdataexplorer.norc.org/variables/1308/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkindep`](https://gssdataexplorer.norc.org/variables/1308/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lottosay`](https://gssdataexplorer.norc.org/variables/1309/vshow).
+#' For further details see the [GSS Data Explorer page for `lottosay`](https://gssdataexplorer.norc.org/variables/1309/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

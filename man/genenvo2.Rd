@@ -29,33 +29,14 @@ Question (The description of the second person presented to the respondent - ple
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3033/vshow}{GSS Data Explorer page for \code{genenvo2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3033/vshow}{GSS Data Explorer page for \code{genenvo2}}.
 }
 
 \seealso{
 Other Genes and the Environment: 
-\code{\link{afailure}},
-\code{\link{athletic}},
-\code{\link{depndabl}},
-\code{\link{geneexps}},
 \code{\link{genenvo1}},
-\code{\link{genenvo3}},
-\code{\link{genenvo4}},
 \code{\link{genevig1}},
-\code{\link{genevig2}},
-\code{\link{intrwght}},
-\code{\link{kindpers}},
-\code{\link{moregood}},
-\code{\link{nogood}},
-\code{\link{notcount}},
-\code{\link{ofworth}},
-\code{\link{optimist}},
-\code{\link{owndoing}},
-\code{\link{pessimst}},
-\code{\link{sadblue}},
-\code{\link{satself}},
-\code{\link{selfish}},
-\code{\link{slfrspct}}
+\code{\link{genevig2}}
 }
 \concept{Genes and the Environment}
 \keyword{variable}

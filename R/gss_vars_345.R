@@ -22,7 +22,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `idols`](https://gssdataexplorer.norc.org/variables/3094/vshow).
+#' For further details see the [GSS Data Explorer page for `idols`](https://gssdataexplorer.norc.org/variables/3094/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rosaries`](https://gssdataexplorer.norc.org/variables/3095/vshow).
+#' For further details see the [GSS Data Explorer page for `rosaries`](https://gssdataexplorer.norc.org/variables/3095/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `notthink`](https://gssdataexplorer.norc.org/variables/3096/vshow).
+#' For further details see the [GSS Data Explorer page for `notthink`](https://gssdataexplorer.norc.org/variables/3096/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evdrink`](https://gssdataexplorer.norc.org/variables/3097/vshow).
+#' For further details see the [GSS Data Explorer page for `evdrink`](https://gssdataexplorer.norc.org/variables/3097/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -164,7 +164,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `drinkyr`](https://gssdataexplorer.norc.org/variables/3098/vshow).
+#' For further details see the [GSS Data Explorer page for `drinkyr`](https://gssdataexplorer.norc.org/variables/3098/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `drinkday`](https://gssdataexplorer.norc.org/variables/3099/vshow).
+#' For further details see the [GSS Data Explorer page for `drinkday`](https://gssdataexplorer.norc.org/variables/3099/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -234,7 +234,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `drink6up`](https://gssdataexplorer.norc.org/variables/3100/vshow).
+#' For further details see the [GSS Data Explorer page for `drink6up`](https://gssdataexplorer.norc.org/variables/3100/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -272,7 +272,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `drinkmax`](https://gssdataexplorer.norc.org/variables/3101/vshow).
+#' For further details see the [GSS Data Explorer page for `drinkmax`](https://gssdataexplorer.norc.org/variables/3101/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -311,7 +311,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `drink12`](https://gssdataexplorer.norc.org/variables/3102/vshow).
+#' For further details see the [GSS Data Explorer page for `drink12`](https://gssdataexplorer.norc.org/variables/3102/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -350,7 +350,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `drink8`](https://gssdataexplorer.norc.org/variables/3103/vshow).
+#' For further details see the [GSS Data Explorer page for `drink8`](https://gssdataexplorer.norc.org/variables/3103/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

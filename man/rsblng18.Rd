@@ -30,7 +30,7 @@ Question Are you the sibling of another individual 18 or older in your house?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8030/vshow}{GSS Data Explorer page for \code{rsblng18}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8030/vshow}{GSS Data Explorer page for \code{rsblng18}}.
 }
 
 \keyword{variable}

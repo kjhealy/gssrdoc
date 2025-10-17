@@ -153,7 +153,7 @@
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethnic`](https://gssdataexplorer.norc.org/variables/5263/vshow).
+#' For further details see the [GSS Data Explorer page for `ethnic`](https://gssdataexplorer.norc.org/variables/5263/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -309,7 +309,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eth1`](https://gssdataexplorer.norc.org/variables/5264/vshow).
+#' For further details see the [GSS Data Explorer page for `eth1`](https://gssdataexplorer.norc.org/variables/5264/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -465,7 +465,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eth2`](https://gssdataexplorer.norc.org/variables/5265/vshow).
+#' For further details see the [GSS Data Explorer page for `eth2`](https://gssdataexplorer.norc.org/variables/5265/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -621,7 +621,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eth3`](https://gssdataexplorer.norc.org/variables/5266/vshow).
+#' For further details see the [GSS Data Explorer page for `eth3`](https://gssdataexplorer.norc.org/variables/5266/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -686,7 +686,7 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethnum`](https://gssdataexplorer.norc.org/variables/5267/vshow).
+#' For further details see the [GSS Data Explorer page for `ethnum`](https://gssdataexplorer.norc.org/variables/5267/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -768,7 +768,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spethnic`](https://gssdataexplorer.norc.org/variables/5268/vshow).
+#' For further details see the [GSS Data Explorer page for `spethnic`](https://gssdataexplorer.norc.org/variables/5268/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -849,7 +849,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `speth1`](https://gssdataexplorer.norc.org/variables/5269/vshow).
+#' For further details see the [GSS Data Explorer page for `speth1`](https://gssdataexplorer.norc.org/variables/5269/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -930,7 +930,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `speth2`](https://gssdataexplorer.norc.org/variables/5270/vshow).
+#' For further details see the [GSS Data Explorer page for `speth2`](https://gssdataexplorer.norc.org/variables/5270/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1011,7 +1011,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `speth3`](https://gssdataexplorer.norc.org/variables/5271/vshow).
+#' For further details see the [GSS Data Explorer page for `speth3`](https://gssdataexplorer.norc.org/variables/5271/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1053,7 +1053,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spethnum`](https://gssdataexplorer.norc.org/variables/5272/vshow).
+#' For further details see the [GSS Data Explorer page for `spethnum`](https://gssdataexplorer.norc.org/variables/5272/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -35,7 +35,7 @@ Question What do you think the chances are these days that a woman won't get a j
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7587/vshow}{GSS Data Explorer page for \code{discaffwv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7587/vshow}{GSS Data Explorer page for \code{discaffwv}}.
 }
 
 \keyword{variable}

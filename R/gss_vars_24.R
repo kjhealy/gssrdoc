@@ -53,7 +53,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natspac`](https://gssdataexplorer.norc.org/variables/181/vshow).
+#' For further details see the [GSS Data Explorer page for `natspac`](https://gssdataexplorer.norc.org/variables/181/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -120,7 +120,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natenvir`](https://gssdataexplorer.norc.org/variables/182/vshow).
+#' For further details see the [GSS Data Explorer page for `natenvir`](https://gssdataexplorer.norc.org/variables/182/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natheal`](https://gssdataexplorer.norc.org/variables/183/vshow).
+#' For further details see the [GSS Data Explorer page for `natheal`](https://gssdataexplorer.norc.org/variables/183/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -254,7 +254,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natcity`](https://gssdataexplorer.norc.org/variables/184/vshow).
+#' For further details see the [GSS Data Explorer page for `natcity`](https://gssdataexplorer.norc.org/variables/184/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -321,7 +321,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natcrime`](https://gssdataexplorer.norc.org/variables/185/vshow).
+#' For further details see the [GSS Data Explorer page for `natcrime`](https://gssdataexplorer.norc.org/variables/185/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -388,7 +388,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natdrug`](https://gssdataexplorer.norc.org/variables/186/vshow).
+#' For further details see the [GSS Data Explorer page for `natdrug`](https://gssdataexplorer.norc.org/variables/186/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -455,7 +455,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nateduc`](https://gssdataexplorer.norc.org/variables/187/vshow).
+#' For further details see the [GSS Data Explorer page for `nateduc`](https://gssdataexplorer.norc.org/variables/187/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -521,7 +521,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natrace`](https://gssdataexplorer.norc.org/variables/188/vshow).
+#' For further details see the [GSS Data Explorer page for `natrace`](https://gssdataexplorer.norc.org/variables/188/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -588,7 +588,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natarms`](https://gssdataexplorer.norc.org/variables/189/vshow).
+#' For further details see the [GSS Data Explorer page for `natarms`](https://gssdataexplorer.norc.org/variables/189/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -655,7 +655,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nataid`](https://gssdataexplorer.norc.org/variables/190/vshow).
+#' For further details see the [GSS Data Explorer page for `nataid`](https://gssdataexplorer.norc.org/variables/190/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

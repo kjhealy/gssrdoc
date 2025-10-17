@@ -45,20 +45,13 @@ Question Do you think it will be best for the future of this country if we take 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5486/vshow}{GSS Data Explorer page for \code{usintl}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5486/vshow}{GSS Data Explorer page for \code{usintl}}.
 }
 
 \seealso{
 Other War and International: 
-\code{\link{brazil}},
-\code{\link{canada}},
-\code{\link{china}},
 \code{\link{commun}},
 \code{\link{commun10}},
-\code{\link{egypt}},
-\code{\link{england}},
-\code{\link{israel}},
-\code{\link{japan}},
 \code{\link{russia}},
 \code{\link{usun}},
 \code{\link{uswar}},

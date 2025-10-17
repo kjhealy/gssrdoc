@@ -32,7 +32,7 @@ Question In your opinion, does your religion treat men and women equally, treat 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7280/vshow}{GSS Data Explorer page for \code{relgeneq}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7280/vshow}{GSS Data Explorer page for \code{relgeneq}}.
 }
 
 \keyword{variable}

@@ -31,7 +31,7 @@ Are there any individuals aged 0 to 17 years old living at this household?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8015/vshow}{GSS Data Explorer page for \code{kidsund18}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8015/vshow}{GSS Data Explorer page for \code{kidsund18}}.
 }
 
 \keyword{variable}

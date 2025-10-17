@@ -38,7 +38,7 @@ Right now, I see myself as being pretty successful.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6206/vshow}{GSS Data Explorer page for \code{hope4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6206/vshow}{GSS Data Explorer page for \code{hope4}}.
 }
 
 \seealso{
@@ -46,8 +46,6 @@ Other Hope and Optimism:
 \code{\link{hope1}},
 \code{\link{hope2}},
 \code{\link{hope3}},
-\code{\link{hope5}},
-\code{\link{hope6}},
 \code{\link{lotr1}},
 \code{\link{lotr2}},
 \code{\link{lotr3}},

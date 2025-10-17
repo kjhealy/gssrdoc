@@ -33,7 +33,7 @@ Question Is (NAME 2), the second person, a man or a woman?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7096/vshow}{GSS Data Explorer page for \code{knwmw2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7096/vshow}{GSS Data Explorer page for \code{knwmw2}}.
 }
 
 \keyword{variable}

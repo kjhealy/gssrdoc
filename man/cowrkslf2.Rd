@@ -33,7 +33,7 @@ Question Does/did your (husband/wife/spouse/partner) work without employees or d
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8010/vshow}{GSS Data Explorer page for \code{cowrkslf2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8010/vshow}{GSS Data Explorer page for \code{cowrkslf2}}.
 }
 
 \keyword{variable}

@@ -33,7 +33,7 @@ Question The government should give financial assistance to college students fro
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7554/vshow}{GSS Data Explorer page for \code{govfnaid}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7554/vshow}{GSS Data Explorer page for \code{govfnaid}}.
 }
 
 \keyword{variable}

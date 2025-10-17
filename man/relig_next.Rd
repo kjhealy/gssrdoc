@@ -41,7 +41,7 @@ Question What is your religious preference?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8009/vshow}{GSS Data Explorer page for \code{relig_next}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8009/vshow}{GSS Data Explorer page for \code{relig_next}}.
 }
 
 \keyword{variable}

@@ -21,7 +21,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fekids2`](https://gssdataexplorer.norc.org/variables/1692/vshow).
+#' For further details see the [GSS Data Explorer page for `fekids2`](https://gssdataexplorer.norc.org/variables/1692/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fekids3`](https://gssdataexplorer.norc.org/variables/1693/vshow).
+#' For further details see the [GSS Data Explorer page for `fekids3`](https://gssdataexplorer.norc.org/variables/1693/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fekids4`](https://gssdataexplorer.norc.org/variables/1694/vshow).
+#' For further details see the [GSS Data Explorer page for `fekids4`](https://gssdataexplorer.norc.org/variables/1694/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fekids5`](https://gssdataexplorer.norc.org/variables/1695/vshow).
+#' For further details see the [GSS Data Explorer page for `fekids5`](https://gssdataexplorer.norc.org/variables/1695/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -158,7 +158,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mebear`](https://gssdataexplorer.norc.org/variables/1696/vshow).
+#' For further details see the [GSS Data Explorer page for `mebear`](https://gssdataexplorer.norc.org/variables/1696/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -207,7 +207,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fehire`](https://gssdataexplorer.norc.org/variables/1697/vshow).
+#' For further details see the [GSS Data Explorer page for `fehire`](https://gssdataexplorer.norc.org/variables/1697/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -239,7 +239,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `feminist`](https://gssdataexplorer.norc.org/variables/1698/vshow).
+#' For further details see the [GSS Data Explorer page for `feminist`](https://gssdataexplorer.norc.org/variables/1698/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -273,7 +273,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fenews`](https://gssdataexplorer.norc.org/variables/1699/vshow).
+#' For further details see the [GSS Data Explorer page for `fenews`](https://gssdataexplorer.norc.org/variables/1699/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hmemaker`](https://gssdataexplorer.norc.org/variables/1700/vshow).
+#' For further details see the [GSS Data Explorer page for `hmemaker`](https://gssdataexplorer.norc.org/variables/1700/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -341,7 +341,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkclass`](https://gssdataexplorer.norc.org/variables/1701/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkclass`](https://gssdataexplorer.norc.org/variables/1701/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

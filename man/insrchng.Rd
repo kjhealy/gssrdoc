@@ -31,32 +31,16 @@ Question Based on what the doctor has just told you, if you could, would you swi
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2758/vshow}{GSS Data Explorer page for \code{insrchng}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2758/vshow}{GSS Data Explorer page for \code{insrchng}}.
 }
 
 \seealso{
 Other Doctors & Patients: 
-\code{\link{belvedoc}},
-\code{\link{chosedoc}},
-\code{\link{diffcare}},
-\code{\link{docaskme}},
 \code{\link{doccosts}},
-\code{\link{docdecid}},
 \code{\link{docinfo}},
 \code{\link{docnomri}},
-\code{\link{docrely}},
 \code{\link{docsat}},
 \code{\link{docswtch}},
-\code{\link{docvig}},
-\code{\link{fininc}},
-\code{\link{fininc1}},
-\code{\link{fininc2}},
-\code{\link{fininc3}},
-\code{\link{fininc4}},
-\code{\link{hlthplan}},
-\code{\link{insrlmts}},
-\code{\link{regdoc}},
-\code{\link{regdocyr}},
 \code{\link{secopin}}
 }
 \concept{Doctors & Patients}

@@ -30,7 +30,7 @@ Question In our society there are groups which tend to be towards the top and gr
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7512/vshow}{GSS Data Explorer page for \code{rank1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7512/vshow}{GSS Data Explorer page for \code{rank1}}.
 }
 
 \keyword{variable}

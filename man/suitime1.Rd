@@ -31,7 +31,7 @@ IF RESPONDENT PROVIDES AT LEAST A YEAR AMOUNT, PLEASE SELECT THE FIRST OPTION.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6186/vshow}{GSS Data Explorer page for \code{suitime1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6186/vshow}{GSS Data Explorer page for \code{suitime1}}.
 }
 
 \seealso{
@@ -40,11 +40,7 @@ Other Suicide:
 \code{\link{suiclse2}},
 \code{\link{suimths1}},
 \code{\link{suimths2}},
-\code{\link{suineg1}},
 \code{\link{suineg2}},
-\code{\link{suinum}},
-\code{\link{suinum1}},
-\code{\link{suirel1}},
 \code{\link{suirel2}},
 \code{\link{suitime2}},
 \code{\link{suiyrs1}},

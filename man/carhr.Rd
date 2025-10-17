@@ -29,7 +29,7 @@ Question In a typical week, about how many hours do you spend in a car or anothe
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7498/vshow}{GSS Data Explorer page for \code{carhr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7498/vshow}{GSS Data Explorer page for \code{carhr}}.
 }
 
 \keyword{variable}

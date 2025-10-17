@@ -35,7 +35,7 @@ Question In general, do the police treat Whites better than Latinos, treat both 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7568/vshow}{GSS Data Explorer page for \code{poltrthsp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7568/vshow}{GSS Data Explorer page for \code{poltrthsp}}.
 }
 
 \keyword{variable}

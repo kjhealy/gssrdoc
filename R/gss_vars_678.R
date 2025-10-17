@@ -18,7 +18,7 @@
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trcong`](https://gssdataexplorer.norc.org/variables/8176/vshow).
+#' For further details see the [GSS Data Explorer page for `trcong`](https://gssdataexplorer.norc.org/variables/8176/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -51,7 +51,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dataprot`](https://gssdataexplorer.norc.org/variables/8103/vshow).
+#' For further details see the [GSS Data Explorer page for `dataprot`](https://gssdataexplorer.norc.org/variables/8103/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emonitor1`](https://gssdataexplorer.norc.org/variables/8111/vshow).
+#' For further details see the [GSS Data Explorer page for `emonitor1`](https://gssdataexplorer.norc.org/variables/8111/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -120,7 +120,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `infodeal`](https://gssdataexplorer.norc.org/variables/8052/vshow).
+#' For further details see the [GSS Data Explorer page for `infodeal`](https://gssdataexplorer.norc.org/variables/8052/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -155,7 +155,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `infoprofit`](https://gssdataexplorer.norc.org/variables/8053/vshow).
+#' For further details see the [GSS Data Explorer page for `infoprofit`](https://gssdataexplorer.norc.org/variables/8053/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -189,7 +189,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gendtech`](https://gssdataexplorer.norc.org/variables/8110/vshow).
+#' For further details see the [GSS Data Explorer page for `gendtech`](https://gssdataexplorer.norc.org/variables/8110/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -223,7 +223,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agetech`](https://gssdataexplorer.norc.org/variables/8043/vshow).
+#' For further details see the [GSS Data Explorer page for `agetech`](https://gssdataexplorer.norc.org/variables/8043/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -257,7 +257,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `urbantech`](https://gssdataexplorer.norc.org/variables/8180/vshow).
+#' For further details see the [GSS Data Explorer page for `urbantech`](https://gssdataexplorer.norc.org/variables/8180/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eductech`](https://gssdataexplorer.norc.org/variables/8106/vshow).
+#' For further details see the [GSS Data Explorer page for `eductech`](https://gssdataexplorer.norc.org/variables/8106/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -325,7 +325,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `classtech`](https://gssdataexplorer.norc.org/variables/8070/vshow).
+#' For further details see the [GSS Data Explorer page for `classtech`](https://gssdataexplorer.norc.org/variables/8070/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

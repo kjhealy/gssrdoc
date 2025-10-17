@@ -34,7 +34,7 @@ Question In general, how would you rate your satisfaction with your social activ
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7166/vshow}{GSS Data Explorer page for \code{satsoc}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7166/vshow}{GSS Data Explorer page for \code{satsoc}}.
 }
 
 \keyword{variable}

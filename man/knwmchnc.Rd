@@ -32,7 +32,7 @@ Question Do you know a woman or a man who isï¿½A car mechanic
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7235/vshow}{GSS Data Explorer page for \code{knwmchnc}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7235/vshow}{GSS Data Explorer page for \code{knwmchnc}}.
 }
 
 \keyword{variable}

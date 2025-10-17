@@ -32,35 +32,17 @@ NOTE: This variable originates on the NEA follow-on, and should not be analyzed 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7868/vshow}{GSS Data Explorer page for \code{yrmovie}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7868/vshow}{GSS Data Explorer page for \code{yrmovie}}.
 }
 
 \seealso{
 Other NEA: 
 \code{\link{artsout}},
-\code{\link{cvdarmus}},
-\code{\link{cvdarpo}},
-\code{\link{cvdart}},
-\code{\link{cvdclass}},
-\code{\link{cvdcreat}},
-\code{\link{cvdlvmus}},
-\code{\link{cvdmov}},
-\code{\link{cvdpod}},
-\code{\link{cvdrdg}},
-\code{\link{cvdstmus}},
-\code{\link{cvdstpo}},
-\code{\link{cvdtour}},
-\code{\link{neaeligible}},
-\code{\link{yrarmus}},
-\code{\link{yrarpo}},
 \code{\link{yrartxbt}},
-\code{\link{yrclass}},
 \code{\link{yrcreat}},
 \code{\link{yrlvmus}},
-\code{\link{yrpod}},
 \code{\link{yrrdg}},
 \code{\link{yrstmus}},
-\code{\link{yrstpo}},
 \code{\link{yrtour}}
 }
 \concept{NEA}

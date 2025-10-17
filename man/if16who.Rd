@@ -35,7 +35,7 @@ Question Who would you have voted for, for president, if you had voted?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7091/vshow}{GSS Data Explorer page for \code{if16who}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7091/vshow}{GSS Data Explorer page for \code{if16who}}.
 }
 
 \keyword{variable}

@@ -22,7 +22,7 @@
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `welfare4`](https://gssdataexplorer.norc.org/variables/5501/vshow).
+#' For further details see the [GSS Data Explorer page for `welfare4`](https://gssdataexplorer.norc.org/variables/5501/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `welfare5`](https://gssdataexplorer.norc.org/variables/5502/vshow).
+#' For further details see the [GSS Data Explorer page for `welfare5`](https://gssdataexplorer.norc.org/variables/5502/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `welfare6`](https://gssdataexplorer.norc.org/variables/5503/vshow).
+#' For further details see the [GSS Data Explorer page for `welfare6`](https://gssdataexplorer.norc.org/variables/5503/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -131,7 +131,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wkcontct`](https://gssdataexplorer.norc.org/variables/5504/vshow).
+#' For further details see the [GSS Data Explorer page for `wkcontct`](https://gssdataexplorer.norc.org/variables/5504/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `talkspvs`](https://gssdataexplorer.norc.org/variables/5505/vshow).
+#' For further details see the [GSS Data Explorer page for `talkspvs`](https://gssdataexplorer.norc.org/variables/5505/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -201,7 +201,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `effctsup`](https://gssdataexplorer.norc.org/variables/5506/vshow).
+#' For further details see the [GSS Data Explorer page for `effctsup`](https://gssdataexplorer.norc.org/variables/5506/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cohort`](https://gssdataexplorer.norc.org/variables/5507/vshow).
+#' For further details see the [GSS Data Explorer page for `cohort`](https://gssdataexplorer.norc.org/variables/5507/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marcohrt`](https://gssdataexplorer.norc.org/variables/5508/vshow).
+#' For further details see the [GSS Data Explorer page for `marcohrt`](https://gssdataexplorer.norc.org/variables/5508/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -387,7 +387,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `zodiac`](https://gssdataexplorer.norc.org/variables/5510/vshow).
+#' For further details see the [GSS Data Explorer page for `zodiac`](https://gssdataexplorer.norc.org/variables/5510/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -453,7 +453,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inthisp`](https://gssdataexplorer.norc.org/variables/5511/vshow).
+#' For further details see the [GSS Data Explorer page for `inthisp`](https://gssdataexplorer.norc.org/variables/5511/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

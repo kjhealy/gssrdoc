@@ -29,20 +29,16 @@ Question How many people do you anticipate employing five years from now?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3823/vshow}{GSS Data Explorer page for \code{numemps5}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3823/vshow}{GSS Data Explorer page for \code{numemps5}}.
 }
 
 \seealso{
 Other Self Employment: 
 \code{\link{bizgross}},
 \code{\link{bizshare}},
-\code{\link{numown}},
-\code{\link{ownbiz}},
 \code{\link{owninc}},
 \code{\link{paidemps}},
-\code{\link{startbiz}},
-\code{\link{whybiz}},
-\code{\link{yearbiz}}
+\code{\link{whybiz}}
 }
 \concept{Self Employment}
 \keyword{variable}

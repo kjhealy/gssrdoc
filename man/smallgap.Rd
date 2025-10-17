@@ -33,7 +33,7 @@ Question For a society to be fair, differences in people's standards of living s
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7239/vshow}{GSS Data Explorer page for \code{smallgap}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7239/vshow}{GSS Data Explorer page for \code{smallgap}}.
 }
 
 \keyword{variable}

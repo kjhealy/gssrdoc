@@ -33,18 +33,11 @@ Question A. Some people say that genetic screening is a wonderful medical advanc
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5085/vshow}{GSS Data Explorer page for \code{genegood}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5085/vshow}{GSS Data Explorer page for \code{genegood}}.
 }
 
 \seealso{
 Other Genes: 
-\code{\link{geneabrt}},
-\code{\link{genedef1}},
-\code{\link{genedef2}},
-\code{\link{genedef3}},
-\code{\link{genegoo1}},
-\code{\link{genegoo2}},
-\code{\link{geneself}},
 \code{\link{genetest}},
 \code{\link{genetst1}}
 }

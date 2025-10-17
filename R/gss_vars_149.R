@@ -22,7 +22,7 @@
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `opera`](https://gssdataexplorer.norc.org/variables/1399/vshow).
+#' For further details see the [GSS Data Explorer page for `opera`](https://gssdataexplorer.norc.org/variables/1399/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rap`](https://gssdataexplorer.norc.org/variables/1400/vshow).
+#' For further details see the [GSS Data Explorer page for `rap`](https://gssdataexplorer.norc.org/variables/1400/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `reggae`](https://gssdataexplorer.norc.org/variables/1401/vshow).
+#' For further details see the [GSS Data Explorer page for `reggae`](https://gssdataexplorer.norc.org/variables/1401/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conrock`](https://gssdataexplorer.norc.org/variables/1402/vshow).
+#' For further details see the [GSS Data Explorer page for `conrock`](https://gssdataexplorer.norc.org/variables/1402/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oldies`](https://gssdataexplorer.norc.org/variables/1403/vshow).
+#' For further details see the [GSS Data Explorer page for `oldies`](https://gssdataexplorer.norc.org/variables/1403/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hvymetal`](https://gssdataexplorer.norc.org/variables/1404/vshow).
+#' For further details see the [GSS Data Explorer page for `hvymetal`](https://gssdataexplorer.norc.org/variables/1404/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -235,7 +235,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `attsprts`](https://gssdataexplorer.norc.org/variables/1405/vshow).
+#' For further details see the [GSS Data Explorer page for `attsprts`](https://gssdataexplorer.norc.org/variables/1405/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -270,7 +270,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `visitart`](https://gssdataexplorer.norc.org/variables/1406/vshow).
+#' For further details see the [GSS Data Explorer page for `visitart`](https://gssdataexplorer.norc.org/variables/1406/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -305,7 +305,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `makeart`](https://gssdataexplorer.norc.org/variables/1407/vshow).
+#' For further details see the [GSS Data Explorer page for `makeart`](https://gssdataexplorer.norc.org/variables/1407/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `autorace`](https://gssdataexplorer.norc.org/variables/1408/vshow).
+#' For further details see the [GSS Data Explorer page for `autorace`](https://gssdataexplorer.norc.org/variables/1408/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

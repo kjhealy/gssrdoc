@@ -32,45 +32,19 @@ Question People at work have spread rumors or gossip about me.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3016/vshow}{GSS Data Explorer page for \code{rumorwk}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3016/vshow}{GSS Data Explorer page for \code{rumorwk}}.
 }
 
 \seealso{
 Other Workplace Conflict: 
-\code{\link{actupset}},
 \code{\link{denyrais}},
-\code{\link{difstand}},
 \code{\link{eharaswk}},
-\code{\link{gdjobsec}},
-\code{\link{health1}},
-\code{\link{hotargus}},
 \code{\link{ignorwk}},
-\code{\link{jobsecok}},
 \code{\link{jokeswk}},
-\code{\link{lackinfo}},
 \code{\link{liedcwkr}},
-\code{\link{lookaway}},
-\code{\link{manvsemp}},
-\code{\link{mntlhlth}},
-\code{\link{numemps}},
-\code{\link{numemps_0422}},
-\code{\link{othcredt}},
-\code{\link{perspace}},
-\code{\link{physharm}},
-\code{\link{putdown}},
-\code{\link{reliedon}},
-\code{\link{rptprobs}},
 \code{\link{rudewk}},
-\code{\link{shout}},
-\code{\link{skipwork}},
-\code{\link{supcares}},
-\code{\link{treatres}},
-\code{\link{trynewjb}},
-\code{\link{wkageism}},
 \code{\link{wkbhvrs}},
-\code{\link{wkracism}},
-\code{\link{wkrspns}},
-\code{\link{wkvsfam}}
+\code{\link{wkrspns}}
 }
 \concept{Workplace Conflict}
 \keyword{variable}

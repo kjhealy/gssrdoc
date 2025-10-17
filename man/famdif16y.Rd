@@ -35,7 +35,7 @@ Question Which of the following best describes your situation?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7629/vshow}{GSS Data Explorer page for \code{famdif16y}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7629/vshow}{GSS Data Explorer page for \code{famdif16y}}.
 }
 
 \keyword{variable}

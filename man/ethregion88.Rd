@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  Dominican Repu
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7727/vshow}{GSS Data Explorer page for \code{ethregion88}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7727/vshow}{GSS Data Explorer page for \code{ethregion88}}.
 }
 
 \keyword{variable}

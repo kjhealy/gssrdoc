@@ -33,7 +33,7 @@ Question (People suffer from severe health problems...) Because of their genes.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7803/vshow}{GSS Data Explorer page for \code{hlthgene}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7803/vshow}{GSS Data Explorer page for \code{hlthgene}}.
 }
 
 \keyword{variable}

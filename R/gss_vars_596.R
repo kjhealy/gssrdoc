@@ -25,7 +25,7 @@
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maisc681`](https://gssdataexplorer.norc.org/variables/5473/vshow).
+#' For further details see the [GSS Data Explorer page for `maisc681`](https://gssdataexplorer.norc.org/variables/5473/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -69,7 +69,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spisc681`](https://gssdataexplorer.norc.org/variables/5474/vshow).
+#' For further details see the [GSS Data Explorer page for `spisc681`](https://gssdataexplorer.norc.org/variables/5474/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -131,7 +131,7 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `isco88`](https://gssdataexplorer.norc.org/variables/5475/vshow).
+#' For further details see the [GSS Data Explorer page for `isco88`](https://gssdataexplorer.norc.org/variables/5475/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -193,7 +193,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paisco88`](https://gssdataexplorer.norc.org/variables/5476/vshow).
+#' For further details see the [GSS Data Explorer page for `paisco88`](https://gssdataexplorer.norc.org/variables/5476/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -236,7 +236,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maisco88`](https://gssdataexplorer.norc.org/variables/5477/vshow).
+#' For further details see the [GSS Data Explorer page for `maisco88`](https://gssdataexplorer.norc.org/variables/5477/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spisco88`](https://gssdataexplorer.norc.org/variables/5478/vshow).
+#' For further details see the [GSS Data Explorer page for `spisco88`](https://gssdataexplorer.norc.org/variables/5478/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

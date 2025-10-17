@@ -31,7 +31,7 @@ Question INTERVIEWER: BY THE TIME YOU HANDED HAND CARD C4 (IMMSTATS) TO THE RESP
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3028/vshow}{GSS Data Explorer page for \code{rundrstd}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3028/vshow}{GSS Data Explorer page for \code{rundrstd}}.
 }
 
 \seealso{

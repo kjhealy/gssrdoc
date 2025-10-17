@@ -30,7 +30,7 @@ Question In a typical week, on how many days do you eat beef, lamb, or products 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7499/vshow}{GSS Data Explorer page for \code{eatmeat}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7499/vshow}{GSS Data Explorer page for \code{eatmeat}}.
 }
 
 \keyword{variable}

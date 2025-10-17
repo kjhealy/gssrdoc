@@ -27,7 +27,7 @@
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whyjbct2`](https://gssdataexplorer.norc.org/variables/3878/vshow).
+#' For further details see the [GSS Data Explorer page for `whyjbct2`](https://gssdataexplorer.norc.org/variables/3878/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -61,7 +61,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `losejb12`](https://gssdataexplorer.norc.org/variables/3879/vshow).
+#' For further details see the [GSS Data Explorer page for `losejb12`](https://gssdataexplorer.norc.org/variables/3879/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -102,7 +102,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whylose1`](https://gssdataexplorer.norc.org/variables/3880/vshow).
+#' For further details see the [GSS Data Explorer page for `whylose1`](https://gssdataexplorer.norc.org/variables/3880/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -143,7 +143,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whylose2`](https://gssdataexplorer.norc.org/variables/3881/vshow).
+#' For further details see the [GSS Data Explorer page for `whylose2`](https://gssdataexplorer.norc.org/variables/3881/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whylose3`](https://gssdataexplorer.norc.org/variables/3882/vshow).
+#' For further details see the [GSS Data Explorer page for `whylose3`](https://gssdataexplorer.norc.org/variables/3882/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `findnwjb`](https://gssdataexplorer.norc.org/variables/3883/vshow).
+#' For further details see the [GSS Data Explorer page for `findnwjb`](https://gssdataexplorer.norc.org/variables/3883/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -251,7 +251,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `moretrde`](https://gssdataexplorer.norc.org/variables/3884/vshow).
+#' For further details see the [GSS Data Explorer page for `moretrde`](https://gssdataexplorer.norc.org/variables/3884/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -284,7 +284,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `newjobs`](https://gssdataexplorer.norc.org/variables/3885/vshow).
+#' For further details see the [GSS Data Explorer page for `newjobs`](https://gssdataexplorer.norc.org/variables/3885/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -317,7 +317,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lostjobs`](https://gssdataexplorer.norc.org/variables/3886/vshow).
+#' For further details see the [GSS Data Explorer page for `lostjobs`](https://gssdataexplorer.norc.org/variables/3886/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -349,7 +349,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wkcomptr`](https://gssdataexplorer.norc.org/variables/3887/vshow).
+#' For further details see the [GSS Data Explorer page for `wkcomptr`](https://gssdataexplorer.norc.org/variables/3887/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

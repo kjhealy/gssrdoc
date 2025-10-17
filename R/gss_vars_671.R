@@ -18,7 +18,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `broadband`](https://gssdataexplorer.norc.org/variables/8195/vshow).
+#' For further details see the [GSS Data Explorer page for `broadband`](https://gssdataexplorer.norc.org/variables/8195/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -49,7 +49,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rateincumb24`](https://gssdataexplorer.norc.org/variables/8098/vshow).
+#' For further details see the [GSS Data Explorer page for `rateincumb24`](https://gssdataexplorer.norc.org/variables/8098/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -80,7 +80,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ratechall124`](https://gssdataexplorer.norc.org/variables/8091/vshow).
+#' For further details see the [GSS Data Explorer page for `ratechall124`](https://gssdataexplorer.norc.org/variables/8091/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -111,7 +111,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ratechall224`](https://gssdataexplorer.norc.org/variables/8093/vshow).
+#' For further details see the [GSS Data Explorer page for `ratechall224`](https://gssdataexplorer.norc.org/variables/8093/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -142,7 +142,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ratechall324`](https://gssdataexplorer.norc.org/variables/8095/vshow).
+#' For further details see the [GSS Data Explorer page for `ratechall324`](https://gssdataexplorer.norc.org/variables/8095/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -173,7 +173,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ratedemp`](https://gssdataexplorer.norc.org/variables/8097/vshow).
+#' For further details see the [GSS Data Explorer page for `ratedemp`](https://gssdataexplorer.norc.org/variables/8097/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -204,7 +204,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `raterepp`](https://gssdataexplorer.norc.org/variables/8101/vshow).
+#' For further details see the [GSS Data Explorer page for `raterepp`](https://gssdataexplorer.norc.org/variables/8101/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -235,7 +235,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ratemaga`](https://gssdataexplorer.norc.org/variables/8100/vshow).
+#' For further details see the [GSS Data Explorer page for `ratemaga`](https://gssdataexplorer.norc.org/variables/8100/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -270,7 +270,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lkelyvot`](https://gssdataexplorer.norc.org/variables/8146/vshow).
+#' For further details see the [GSS Data Explorer page for `lkelyvot`](https://gssdataexplorer.norc.org/variables/8146/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whovote24a`](https://gssdataexplorer.norc.org/variables/8192/vshow).
+#' For further details see the [GSS Data Explorer page for `whovote24a`](https://gssdataexplorer.norc.org/variables/8192/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

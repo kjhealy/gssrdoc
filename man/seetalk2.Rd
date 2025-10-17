@@ -30,7 +30,7 @@ Question On a scale from 1 to 10, with 1 being not at all and 10 being very ofte
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7116/vshow}{GSS Data Explorer page for \code{seetalk2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7116/vshow}{GSS Data Explorer page for \code{seetalk2}}.
 }
 
 \keyword{variable}

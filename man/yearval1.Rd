@@ -44,31 +44,8 @@ Question What was the approximate total dollar value of these various payments i
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8039/vshow}{GSS Data Explorer page for \code{yearval1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8039/vshow}{GSS Data Explorer page for \code{yearval1}}.
 }
 
-\seealso{
-Other Employee Compensation: 
-\code{\link{compperf}},
-\code{\link{cowrkhrd}},
-\code{\link{deptperf}},
-\code{\link{donothng}},
-\code{\link{extr2001}},
-\code{\link{extrapay}},
-\code{\link{extraval}},
-\code{\link{extrayr}},
-\code{\link{indperf}},
-\code{\link{lastwkmo}},
-\code{\link{lastwkyr}},
-\code{\link{ownstock}},
-\code{\link{seecowrk}},
-\code{\link{stockops}},
-\code{\link{stockval}},
-\code{\link{talkemp}},
-\code{\link{talksup}},
-\code{\link{workfor}},
-\code{\link{workfor1}},
-\code{\link{yearval}}
-}
 \concept{Employee Compensation}
 \keyword{variable}

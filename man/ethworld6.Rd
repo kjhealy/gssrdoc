@@ -32,7 +32,7 @@ Question From what part of the world did your ancestors come?  Central America
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7636/vshow}{GSS Data Explorer page for \code{ethworld6}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7636/vshow}{GSS Data Explorer page for \code{ethworld6}}.
 }
 
 \keyword{variable}

@@ -45,14 +45,12 @@ Question About how many people work in your organization at all locations? Count
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3556/vshow}{GSS Data Explorer page for \code{numorg}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3556/vshow}{GSS Data Explorer page for \code{numorg}}.
 }
 
 \seealso{
 Other Shared Capitalism: 
-\code{\link{buyvalue}},
 \code{\link{compwage}},
-\code{\link{defpensn}},
 \code{\link{empinput}},
 \code{\link{emptrain}},
 \code{\link{esop}},
@@ -60,7 +58,6 @@ Other Shared Capitalism:
 \code{\link{ops2005}},
 \code{\link{slfmangd}},
 \code{\link{talkteam}},
-\code{\link{trdestck}},
 \code{\link{wealth}}
 }
 \concept{Shared Capitalism}

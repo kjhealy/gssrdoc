@@ -33,36 +33,20 @@ Question During March through May 2006, were you a resident in a household â€
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5589/vshow}{GSS Data Explorer page for \code{cshutyp06}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5589/vshow}{GSS Data Explorer page for \code{cshutyp06}}.
 }
 
 \seealso{
 Other Sampling and Weights: 
-\code{\link{ballot}},
-\code{\link{batch}},
-\code{\link{cshutyp08}},
-\code{\link{cshutyp10}},
-\code{\link{cshutyp12}},
-\code{\link{formwt}},
-\code{\link{issp}},
 \code{\link{oversamp}},
 \code{\link{phase}},
 \code{\link{res2006}},
 \code{\link{res2008}},
 \code{\link{res2010}},
 \code{\link{res2012}},
-\code{\link{sampcode}},
-\code{\link{sample}()},
 \code{\link{spaneng}},
 \code{\link{spanint}},
-\code{\link{spanself}},
-\code{\link{subsamprate}},
-\code{\link{version}},
-\code{\link{vpsu}},
-\code{\link{vstrat}},
-\code{\link{wtss}},
-\code{\link{wtssall}},
-\code{\link{wtssnr}}
+\code{\link{spanself}}
 }
 \concept{Sampling and Weights}
 \keyword{variable}

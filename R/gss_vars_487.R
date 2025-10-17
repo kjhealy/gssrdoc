@@ -22,7 +22,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `weekend`](https://gssdataexplorer.norc.org/variables/4441/vshow).
+#' For further details see the [GSS Data Explorer page for `weekend`](https://gssdataexplorer.norc.org/variables/4441/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `buythngs`](https://gssdataexplorer.norc.org/variables/4442/vshow).
+#' For further details see the [GSS Data Explorer page for `buythngs`](https://gssdataexplorer.norc.org/variables/4442/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timehome`](https://gssdataexplorer.norc.org/variables/4443/vshow).
+#' For further details see the [GSS Data Explorer page for `timehome`](https://gssdataexplorer.norc.org/variables/4443/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `strsshme`](https://gssdataexplorer.norc.org/variables/4444/vshow).
+#' For further details see the [GSS Data Explorer page for `strsshme`](https://gssdataexplorer.norc.org/variables/4444/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timework`](https://gssdataexplorer.norc.org/variables/4445/vshow).
+#' For further details see the [GSS Data Explorer page for `timework`](https://gssdataexplorer.norc.org/variables/4445/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `strsswrk`](https://gssdataexplorer.norc.org/variables/4446/vshow).
+#' For further details see the [GSS Data Explorer page for `strsswrk`](https://gssdataexplorer.norc.org/variables/4446/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tiredhme`](https://gssdataexplorer.norc.org/variables/4447/vshow).
+#' For further details see the [GSS Data Explorer page for `tiredhme`](https://gssdataexplorer.norc.org/variables/4447/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobvsfam`](https://gssdataexplorer.norc.org/variables/4448/vshow).
+#' For further details see the [GSS Data Explorer page for `jobvsfam`](https://gssdataexplorer.norc.org/variables/4448/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tiredwrk`](https://gssdataexplorer.norc.org/variables/4449/vshow).
+#' For further details see the [GSS Data Explorer page for `tiredwrk`](https://gssdataexplorer.norc.org/variables/4449/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -346,7 +346,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famvswrk`](https://gssdataexplorer.norc.org/variables/4450/vshow).
+#' For further details see the [GSS Data Explorer page for `famvswrk`](https://gssdataexplorer.norc.org/variables/4450/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

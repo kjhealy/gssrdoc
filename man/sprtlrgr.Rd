@@ -35,7 +35,7 @@ Question How often R felt part of something larger than themselves
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7535/vshow}{GSS Data Explorer page for \code{sprtlrgr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7535/vshow}{GSS Data Explorer page for \code{sprtlrgr}}.
 }
 
 \keyword{variable}

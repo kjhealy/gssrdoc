@@ -33,7 +33,7 @@ Question Severe health problems may have many causes. How much do you agree or d
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7801/vshow}{GSS Data Explorer page for \code{hlthbeh}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7801/vshow}{GSS Data Explorer page for \code{hlthbeh}}.
 }
 
 \keyword{variable}

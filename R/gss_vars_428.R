@@ -18,7 +18,7 @@
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidnow2`](https://gssdataexplorer.norc.org/variables/3918/vshow).
+#' For further details see the [GSS Data Explorer page for `kidnow2`](https://gssdataexplorer.norc.org/variables/3918/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `toldwork`](https://gssdataexplorer.norc.org/variables/3919/vshow).
+#' For further details see the [GSS Data Explorer page for `toldwork`](https://gssdataexplorer.norc.org/variables/3919/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evlosejb`](https://gssdataexplorer.norc.org/variables/3920/vshow).
+#' For further details see the [GSS Data Explorer page for `evlosejb`](https://gssdataexplorer.norc.org/variables/3920/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -121,7 +121,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `losejob5`](https://gssdataexplorer.norc.org/variables/3921/vshow).
+#' For further details see the [GSS Data Explorer page for `losejob5`](https://gssdataexplorer.norc.org/variables/3921/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evnegjob`](https://gssdataexplorer.norc.org/variables/3922/vshow).
+#' For further details see the [GSS Data Explorer page for `evnegjob`](https://gssdataexplorer.norc.org/variables/3922/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -188,7 +188,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `negjob5`](https://gssdataexplorer.norc.org/variables/3923/vshow).
+#' For further details see the [GSS Data Explorer page for `negjob5`](https://gssdataexplorer.norc.org/variables/3923/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evharjb`](https://gssdataexplorer.norc.org/variables/3924/vshow).
+#' For further details see the [GSS Data Explorer page for `evharjb`](https://gssdataexplorer.norc.org/variables/3924/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `harjob5`](https://gssdataexplorer.norc.org/variables/3925/vshow).
+#' For further details see the [GSS Data Explorer page for `harjob5`](https://gssdataexplorer.norc.org/variables/3925/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evdwell`](https://gssdataexplorer.norc.org/variables/3926/vshow).
+#' For further details see the [GSS Data Explorer page for `evdwell`](https://gssdataexplorer.norc.org/variables/3926/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -321,7 +321,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dwell5`](https://gssdataexplorer.norc.org/variables/3927/vshow).
+#' For further details see the [GSS Data Explorer page for `dwell5`](https://gssdataexplorer.norc.org/variables/3927/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

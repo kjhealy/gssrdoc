@@ -18,7 +18,7 @@
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gavepol`](https://gssdataexplorer.norc.org/variables/1040/vshow).
+#' For further details see the [GSS Data Explorer page for `gavepol`](https://gssdataexplorer.norc.org/variables/1040/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -53,7 +53,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blkinflu`](https://gssdataexplorer.norc.org/variables/1041/vshow).
+#' For further details see the [GSS Data Explorer page for `blkinflu`](https://gssdataexplorer.norc.org/variables/1041/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blkgains`](https://gssdataexplorer.norc.org/variables/1042/vshow).
+#' For further details see the [GSS Data Explorer page for `blkgains`](https://gssdataexplorer.norc.org/variables/1042/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -120,7 +120,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `feinflu`](https://gssdataexplorer.norc.org/variables/1043/vshow).
+#' For further details see the [GSS Data Explorer page for `feinflu`](https://gssdataexplorer.norc.org/variables/1043/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -152,7 +152,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fegains`](https://gssdataexplorer.norc.org/variables/1044/vshow).
+#' For further details see the [GSS Data Explorer page for `fegains`](https://gssdataexplorer.norc.org/variables/1044/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -185,7 +185,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scisolve`](https://gssdataexplorer.norc.org/variables/1045/vshow).
+#' For further details see the [GSS Data Explorer page for `scisolve`](https://gssdataexplorer.norc.org/variables/1045/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -218,7 +218,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scichng`](https://gssdataexplorer.norc.org/variables/1046/vshow).
+#' For further details see the [GSS Data Explorer page for `scichng`](https://gssdataexplorer.norc.org/variables/1046/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -251,7 +251,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scipry`](https://gssdataexplorer.norc.org/variables/1047/vshow).
+#' For further details see the [GSS Data Explorer page for `scipry`](https://gssdataexplorer.norc.org/variables/1047/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -284,7 +284,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scimoral`](https://gssdataexplorer.norc.org/variables/1048/vshow).
+#' For further details see the [GSS Data Explorer page for `scimoral`](https://gssdataexplorer.norc.org/variables/1048/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `switched`](https://gssdataexplorer.norc.org/variables/1049/vshow).
+#' For further details see the [GSS Data Explorer page for `switched`](https://gssdataexplorer.norc.org/variables/1049/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

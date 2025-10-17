@@ -25,7 +25,7 @@
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caresik1`](https://gssdataexplorer.norc.org/variables/4431/vshow).
+#' For further details see the [GSS Data Explorer page for `caresik1`](https://gssdataexplorer.norc.org/variables/4431/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -64,7 +64,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `shop1`](https://gssdataexplorer.norc.org/variables/4432/vshow).
+#' For further details see the [GSS Data Explorer page for `shop1`](https://gssdataexplorer.norc.org/variables/4432/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -101,7 +101,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clean1`](https://gssdataexplorer.norc.org/variables/4433/vshow).
+#' For further details see the [GSS Data Explorer page for `clean1`](https://gssdataexplorer.norc.org/variables/4433/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -140,7 +140,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cooking1`](https://gssdataexplorer.norc.org/variables/4434/vshow).
+#' For further details see the [GSS Data Explorer page for `cooking1`](https://gssdataexplorer.norc.org/variables/4434/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -173,7 +173,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rhhwork`](https://gssdataexplorer.norc.org/variables/4435/vshow).
+#' For further details see the [GSS Data Explorer page for `rhhwork`](https://gssdataexplorer.norc.org/variables/4435/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -206,7 +206,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphhwork`](https://gssdataexplorer.norc.org/variables/4436/vshow).
+#' For further details see the [GSS Data Explorer page for `sphhwork`](https://gssdataexplorer.norc.org/variables/4436/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -242,7 +242,7 @@ NULL
 #'  |2012 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hhwkfair`](https://gssdataexplorer.norc.org/variables/4437/vshow).
+#' For further details see the [GSS Data Explorer page for `hhwkfair`](https://gssdataexplorer.norc.org/variables/4437/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -277,7 +277,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hhwkdis`](https://gssdataexplorer.norc.org/variables/4438/vshow).
+#' For further details see the [GSS Data Explorer page for `hhwkdis`](https://gssdataexplorer.norc.org/variables/4438/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -313,7 +313,7 @@ NULL
 #'  |2012 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `deckids`](https://gssdataexplorer.norc.org/variables/4439/vshow).
+#' For further details see the [GSS Data Explorer page for `deckids`](https://gssdataexplorer.norc.org/variables/4439/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -344,7 +344,7 @@ NULL
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spborn`](https://gssdataexplorer.norc.org/variables/4440/vshow).
+#' For further details see the [GSS Data Explorer page for `spborn`](https://gssdataexplorer.norc.org/variables/4440/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

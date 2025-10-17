@@ -33,39 +33,20 @@ Question How effective do you think avoiding travel to certain cities is for peo
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3864/vshow}{GSS Data Explorer page for \code{eff911k}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3864/vshow}{GSS Data Explorer page for \code{eff911k}}.
 }
 
 \seealso{
 Other Terrorism Preparedness: 
-\code{\link{done911a}},
-\code{\link{done911b}},
-\code{\link{done911c}},
-\code{\link{done911d}},
-\code{\link{done911e}},
-\code{\link{done911f}},
-\code{\link{done911g}},
-\code{\link{done911h}},
 \code{\link{done911i}},
 \code{\link{done911j}},
 \code{\link{done911k}},
 \code{\link{done911l}},
 \code{\link{done911m}},
-\code{\link{done911n}},
-\code{\link{doneelse}},
-\code{\link{eff911a}},
-\code{\link{eff911b}},
-\code{\link{eff911c}},
-\code{\link{eff911d}},
-\code{\link{eff911e}},
-\code{\link{eff911f}},
-\code{\link{eff911g}},
 \code{\link{eff911h}},
 \code{\link{eff911i}},
 \code{\link{eff911j}},
-\code{\link{eff911l}},
-\code{\link{eff911m}},
-\code{\link{eff911n}}
+\code{\link{eff911l}}
 }
 \concept{Terrorism Preparedness}
 \keyword{variable}

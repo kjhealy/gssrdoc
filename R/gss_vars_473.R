@@ -28,7 +28,7 @@
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taxrich`](https://gssdataexplorer.norc.org/variables/4302/vshow).
+#' For further details see the [GSS Data Explorer page for `taxrich`](https://gssdataexplorer.norc.org/variables/4302/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -68,7 +68,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taxmid`](https://gssdataexplorer.norc.org/variables/4303/vshow).
+#' For further details see the [GSS Data Explorer page for `taxmid`](https://gssdataexplorer.norc.org/variables/4303/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -108,7 +108,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taxpoor`](https://gssdataexplorer.norc.org/variables/4304/vshow).
+#' For further details see the [GSS Data Explorer page for `taxpoor`](https://gssdataexplorer.norc.org/variables/4304/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taxshare`](https://gssdataexplorer.norc.org/variables/4305/vshow).
+#' For further details see the [GSS Data Explorer page for `taxshare`](https://gssdataexplorer.norc.org/variables/4305/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -183,7 +183,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conwlth`](https://gssdataexplorer.norc.org/variables/4306/vshow).
+#' For further details see the [GSS Data Explorer page for `conwlth`](https://gssdataexplorer.norc.org/variables/4306/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -220,7 +220,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conclass`](https://gssdataexplorer.norc.org/variables/4307/vshow).
+#' For further details see the [GSS Data Explorer page for `conclass`](https://gssdataexplorer.norc.org/variables/4307/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conjobs`](https://gssdataexplorer.norc.org/variables/4308/vshow).
+#' For further details see the [GSS Data Explorer page for `conjobs`](https://gssdataexplorer.norc.org/variables/4308/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conunion`](https://gssdataexplorer.norc.org/variables/4309/vshow).
+#' For further details see the [GSS Data Explorer page for `conunion`](https://gssdataexplorer.norc.org/variables/4309/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -327,7 +327,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conurban`](https://gssdataexplorer.norc.org/variables/4310/vshow).
+#' For further details see the [GSS Data Explorer page for `conurban`](https://gssdataexplorer.norc.org/variables/4310/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -362,7 +362,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `consoc`](https://gssdataexplorer.norc.org/variables/4311/vshow).
+#' For further details see the [GSS Data Explorer page for `consoc`](https://gssdataexplorer.norc.org/variables/4311/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

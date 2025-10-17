@@ -30,7 +30,7 @@ Question Favor or oppose reducing funding for police and instead funding social 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7574/vshow}{GSS Data Explorer page for \code{defund}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7574/vshow}{GSS Data Explorer page for \code{defund}}.
 }
 
 \keyword{variable}

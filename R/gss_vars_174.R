@@ -19,7 +19,7 @@
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colaff`](https://gssdataexplorer.norc.org/variables/1622/vshow).
+#' For further details see the [GSS Data Explorer page for `colaff`](https://gssdataexplorer.norc.org/variables/1622/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colaffy`](https://gssdataexplorer.norc.org/variables/1623/vshow).
+#' For further details see the [GSS Data Explorer page for `colaffy`](https://gssdataexplorer.norc.org/variables/1623/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `discaffy`](https://gssdataexplorer.norc.org/variables/1624/vshow).
+#' For further details see the [GSS Data Explorer page for `discaffy`](https://gssdataexplorer.norc.org/variables/1624/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -121,7 +121,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobaff`](https://gssdataexplorer.norc.org/variables/1625/vshow).
+#' For further details see the [GSS Data Explorer page for `jobaff`](https://gssdataexplorer.norc.org/variables/1625/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -153,7 +153,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `owneth`](https://gssdataexplorer.norc.org/variables/1626/vshow).
+#' For further details see the [GSS Data Explorer page for `owneth`](https://gssdataexplorer.norc.org/variables/1626/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -186,7 +186,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `congeth`](https://gssdataexplorer.norc.org/variables/1627/vshow).
+#' For further details see the [GSS Data Explorer page for `congeth`](https://gssdataexplorer.norc.org/variables/1627/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -219,7 +219,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `teacheth`](https://gssdataexplorer.norc.org/variables/1628/vshow).
+#' For further details see the [GSS Data Explorer page for `teacheth`](https://gssdataexplorer.norc.org/variables/1628/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -252,7 +252,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `schleth`](https://gssdataexplorer.norc.org/variables/1629/vshow).
+#' For further details see the [GSS Data Explorer page for `schleth`](https://gssdataexplorer.norc.org/variables/1629/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethhist`](https://gssdataexplorer.norc.org/variables/1630/vshow).
+#' For further details see the [GSS Data Explorer page for `ethhist`](https://gssdataexplorer.norc.org/variables/1630/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -320,7 +320,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whoteach`](https://gssdataexplorer.norc.org/variables/1631/vshow).
+#' For further details see the [GSS Data Explorer page for `whoteach`](https://gssdataexplorer.norc.org/variables/1631/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

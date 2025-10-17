@@ -33,7 +33,7 @@ Question During the past 4 weeks how often... Have you had difficulties with wor
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7820/vshow}{GSS Data Explorer page for \code{hlthprb}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7820/vshow}{GSS Data Explorer page for \code{hlthprb}}.
 }
 
 \keyword{variable}

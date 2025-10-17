@@ -21,7 +21,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oth5`](https://gssdataexplorer.norc.org/variables/5193/vshow).
+#' For further details see the [GSS Data Explorer page for `oth5`](https://gssdataexplorer.norc.org/variables/5193/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `extra1`](https://gssdataexplorer.norc.org/variables/5194/vshow).
+#' For further details see the [GSS Data Explorer page for `extra1`](https://gssdataexplorer.norc.org/variables/5194/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `extra2`](https://gssdataexplorer.norc.org/variables/5195/vshow).
+#' For further details see the [GSS Data Explorer page for `extra2`](https://gssdataexplorer.norc.org/variables/5195/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -145,7 +145,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `povline`](https://gssdataexplorer.norc.org/variables/5196/vshow).
+#' For further details see the [GSS Data Explorer page for `povline`](https://gssdataexplorer.norc.org/variables/5196/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -201,7 +201,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `incdef`](https://gssdataexplorer.norc.org/variables/5197/vshow).
+#' For further details see the [GSS Data Explorer page for `incdef`](https://gssdataexplorer.norc.org/variables/5197/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -480,7 +480,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `minfour`](https://gssdataexplorer.norc.org/variables/5202/vshow).
+#' For further details see the [GSS Data Explorer page for `minfour`](https://gssdataexplorer.norc.org/variables/5202/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -33,7 +33,7 @@ Question How willing would you be to pay higher taxes to improve the level of he
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7794/vshow}{GSS Data Explorer page for \code{hlthtax}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7794/vshow}{GSS Data Explorer page for \code{hlthtax}}.
 }
 
 \keyword{variable}

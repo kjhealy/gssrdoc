@@ -34,7 +34,7 @@ Question In the past seven days, how would you rate your fatigue on average?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7170/vshow}{GSS Data Explorer page for \code{fatigue}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7170/vshow}{GSS Data Explorer page for \code{fatigue}}.
 }
 
 \keyword{variable}

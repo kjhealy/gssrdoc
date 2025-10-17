@@ -34,22 +34,18 @@ A. Harmony in the United States is best achieved by down playing or ignoring eth
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2726/vshow}{GSS Data Explorer page for \code{ethignor}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2726/vshow}{GSS Data Explorer page for \code{ethignor}}.
 }
 
 \seealso{
 Other Prejudice: 
 \code{\link{ethadapt}},
-\code{\link{ethdiff}},
 \code{\link{ethimp}},
 \code{\link{ethnofit}},
-\code{\link{ethsame}},
 \code{\link{ethtrads}},
 \code{\link{feelasns}},
 \code{\link{feelblks}},
-\code{\link{feelhsps}},
-\code{\link{feelwhts}},
-\code{\link{whtsdiff}}
+\code{\link{feelhsps}}
 }
 \concept{Prejudice}
 \keyword{variable}

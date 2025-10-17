@@ -52,7 +52,7 @@ Question A. Poverty Status of Household
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5196/vshow}{GSS Data Explorer page for \code{povline}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5196/vshow}{GSS Data Explorer page for \code{povline}}.
 }
 
 \seealso{
@@ -60,9 +60,7 @@ Other Income:
 \code{\link{coninc}},
 \code{\link{conrinc}},
 \code{\link{incdef}},
-\code{\link{minfood}},
 \code{\link{minfour}},
-\code{\link{minthree}},
 \code{\link{realinc}},
 \code{\link{realrinc}}
 }

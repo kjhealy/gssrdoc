@@ -32,7 +32,7 @@ Question At this job, did your mother work in her own family business or family 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7431/vshow}{GSS Data Explorer page for \code{mawrkslffam}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7431/vshow}{GSS Data Explorer page for \code{mawrkslffam}}.
 }
 
 \keyword{variable}

@@ -19,7 +19,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `supduty2`](https://gssdataexplorer.norc.org/variables/1319/vshow).
+#' For further details see the [GSS Data Explorer page for `supduty2`](https://gssdataexplorer.norc.org/variables/1319/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `supduty3`](https://gssdataexplorer.norc.org/variables/1320/vshow).
+#' For further details see the [GSS Data Explorer page for `supduty3`](https://gssdataexplorer.norc.org/variables/1320/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `supduty4`](https://gssdataexplorer.norc.org/variables/1321/vshow).
+#' For further details see the [GSS Data Explorer page for `supduty4`](https://gssdataexplorer.norc.org/variables/1321/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `supduty5`](https://gssdataexplorer.norc.org/variables/1322/vshow).
+#' For further details see the [GSS Data Explorer page for `supduty5`](https://gssdataexplorer.norc.org/variables/1322/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `supduty6`](https://gssdataexplorer.norc.org/variables/1323/vshow).
+#' For further details see the [GSS Data Explorer page for `supduty6`](https://gssdataexplorer.norc.org/variables/1323/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `supduty7`](https://gssdataexplorer.norc.org/variables/1324/vshow).
+#' For further details see the [GSS Data Explorer page for `supduty7`](https://gssdataexplorer.norc.org/variables/1324/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othduty1`](https://gssdataexplorer.norc.org/variables/1325/vshow).
+#' For further details see the [GSS Data Explorer page for `othduty1`](https://gssdataexplorer.norc.org/variables/1325/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othduty2`](https://gssdataexplorer.norc.org/variables/1326/vshow).
+#' For further details see the [GSS Data Explorer page for `othduty2`](https://gssdataexplorer.norc.org/variables/1326/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othduty3`](https://gssdataexplorer.norc.org/variables/1327/vshow).
+#' For further details see the [GSS Data Explorer page for `othduty3`](https://gssdataexplorer.norc.org/variables/1327/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othduty4`](https://gssdataexplorer.norc.org/variables/1328/vshow).
+#' For further details see the [GSS Data Explorer page for `othduty4`](https://gssdataexplorer.norc.org/variables/1328/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

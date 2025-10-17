@@ -23,7 +23,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `laborpow`](https://gssdataexplorer.norc.org/variables/4068/vshow).
+#' For further details see the [GSS Data Explorer page for `laborpow`](https://gssdataexplorer.norc.org/variables/4068/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `buspow`](https://gssdataexplorer.norc.org/variables/4069/vshow).
+#' For further details see the [GSS Data Explorer page for `buspow`](https://gssdataexplorer.norc.org/variables/4069/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govtpow`](https://gssdataexplorer.norc.org/variables/4070/vshow).
+#' For further details see the [GSS Data Explorer page for `govtpow`](https://gssdataexplorer.norc.org/variables/4070/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -132,7 +132,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ownpower`](https://gssdataexplorer.norc.org/variables/4071/vshow).
+#' For further details see the [GSS Data Explorer page for `ownpower`](https://gssdataexplorer.norc.org/variables/4071/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ownmass`](https://gssdataexplorer.norc.org/variables/4072/vshow).
+#' For further details see the [GSS Data Explorer page for `ownmass`](https://gssdataexplorer.norc.org/variables/4072/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -201,7 +201,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ownsteel`](https://gssdataexplorer.norc.org/variables/4073/vshow).
+#' For further details see the [GSS Data Explorer page for `ownsteel`](https://gssdataexplorer.norc.org/variables/4073/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -236,7 +236,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ownbanks`](https://gssdataexplorer.norc.org/variables/4074/vshow).
+#' For further details see the [GSS Data Explorer page for `ownbanks`](https://gssdataexplorer.norc.org/variables/4074/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -270,7 +270,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ownautos`](https://gssdataexplorer.norc.org/variables/4075/vshow).
+#' For further details see the [GSS Data Explorer page for `ownautos`](https://gssdataexplorer.norc.org/variables/4075/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -312,7 +312,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobsall`](https://gssdataexplorer.norc.org/variables/4076/vshow).
+#' For further details see the [GSS Data Explorer page for `jobsall`](https://gssdataexplorer.norc.org/variables/4076/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -351,7 +351,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pricecon`](https://gssdataexplorer.norc.org/variables/4077/vshow).
+#' For further details see the [GSS Data Explorer page for `pricecon`](https://gssdataexplorer.norc.org/variables/4077/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

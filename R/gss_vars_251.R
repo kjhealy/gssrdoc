@@ -19,7 +19,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famwhts`](https://gssdataexplorer.norc.org/variables/2261/vshow).
+#' For further details see the [GSS Data Explorer page for `famwhts`](https://gssdataexplorer.norc.org/variables/2261/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famblks`](https://gssdataexplorer.norc.org/variables/2262/vshow).
+#' For further details see the [GSS Data Explorer page for `famblks`](https://gssdataexplorer.norc.org/variables/2262/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famjews`](https://gssdataexplorer.norc.org/variables/2263/vshow).
+#' For further details see the [GSS Data Explorer page for `famjews`](https://gssdataexplorer.norc.org/variables/2263/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famhsps`](https://gssdataexplorer.norc.org/variables/2264/vshow).
+#' For further details see the [GSS Data Explorer page for `famhsps`](https://gssdataexplorer.norc.org/variables/2264/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famasns`](https://gssdataexplorer.norc.org/variables/2265/vshow).
+#' For further details see the [GSS Data Explorer page for `famasns`](https://gssdataexplorer.norc.org/variables/2265/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fairwhts`](https://gssdataexplorer.norc.org/variables/2266/vshow).
+#' For further details see the [GSS Data Explorer page for `fairwhts`](https://gssdataexplorer.norc.org/variables/2266/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fairblks`](https://gssdataexplorer.norc.org/variables/2267/vshow).
+#' For further details see the [GSS Data Explorer page for `fairblks`](https://gssdataexplorer.norc.org/variables/2267/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fairjews`](https://gssdataexplorer.norc.org/variables/2268/vshow).
+#' For further details see the [GSS Data Explorer page for `fairjews`](https://gssdataexplorer.norc.org/variables/2268/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fairhsps`](https://gssdataexplorer.norc.org/variables/2269/vshow).
+#' For further details see the [GSS Data Explorer page for `fairhsps`](https://gssdataexplorer.norc.org/variables/2269/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fairasns`](https://gssdataexplorer.norc.org/variables/2270/vshow).
+#' For further details see the [GSS Data Explorer page for `fairasns`](https://gssdataexplorer.norc.org/variables/2270/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

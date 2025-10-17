@@ -25,7 +25,7 @@
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff17`](https://gssdataexplorer.norc.org/variables/4101/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff17`](https://gssdataexplorer.norc.org/variables/4101/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -59,7 +59,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `demworks`](https://gssdataexplorer.norc.org/variables/4102/vshow).
+#' For further details see the [GSS Data Explorer page for `demworks`](https://gssdataexplorer.norc.org/variables/4102/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taxspend`](https://gssdataexplorer.norc.org/variables/4103/vshow).
+#' For further details see the [GSS Data Explorer page for `taxspend`](https://gssdataexplorer.norc.org/variables/4103/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taxpaid`](https://gssdataexplorer.norc.org/variables/6311/vshow).
+#' For further details see the [GSS Data Explorer page for `taxpaid`](https://gssdataexplorer.norc.org/variables/6311/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taxbylaw`](https://gssdataexplorer.norc.org/variables/6312/vshow).
+#' For further details see the [GSS Data Explorer page for `taxbylaw`](https://gssdataexplorer.norc.org/variables/6312/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brlawfl`](https://gssdataexplorer.norc.org/variables/6313/vshow).
+#' For further details see the [GSS Data Explorer page for `brlawfl`](https://gssdataexplorer.norc.org/variables/6313/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brnotax`](https://gssdataexplorer.norc.org/variables/6314/vshow).
+#' For further details see the [GSS Data Explorer page for `brnotax`](https://gssdataexplorer.norc.org/variables/6314/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -264,7 +264,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `runpower`](https://gssdataexplorer.norc.org/variables/4104/vshow).
+#' For further details see the [GSS Data Explorer page for `runpower`](https://gssdataexplorer.norc.org/variables/4104/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `runhosp`](https://gssdataexplorer.norc.org/variables/4105/vshow).
+#' For further details see the [GSS Data Explorer page for `runhosp`](https://gssdataexplorer.norc.org/variables/4105/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `runbanks`](https://gssdataexplorer.norc.org/variables/4106/vshow).
+#' For further details see the [GSS Data Explorer page for `runbanks`](https://gssdataexplorer.norc.org/variables/4106/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

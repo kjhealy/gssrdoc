@@ -21,7 +21,7 @@
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhsecret`](https://gssdataexplorer.norc.org/variables/3779/vshow).
+#' For further details see the [GSS Data Explorer page for `mhsecret`](https://gssdataexplorer.norc.org/variables/3779/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhsupwrk`](https://gssdataexplorer.norc.org/variables/3780/vshow).
+#' For further details see the [GSS Data Explorer page for `mhsupwrk`](https://gssdataexplorer.norc.org/variables/3780/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhnotch`](https://gssdataexplorer.norc.org/variables/3781/vshow).
+#' For further details see the [GSS Data Explorer page for `mhnotch`](https://gssdataexplorer.norc.org/variables/3781/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhhlpfam`](https://gssdataexplorer.norc.org/variables/3782/vshow).
+#' For further details see the [GSS Data Explorer page for `mhhlpfam`](https://gssdataexplorer.norc.org/variables/3782/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -157,7 +157,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhhlpfrd`](https://gssdataexplorer.norc.org/variables/3783/vshow).
+#' For further details see the [GSS Data Explorer page for `mhhlpfrd`](https://gssdataexplorer.norc.org/variables/3783/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhhlprel`](https://gssdataexplorer.norc.org/variables/3784/vshow).
+#' For further details see the [GSS Data Explorer page for `mhhlprel`](https://gssdataexplorer.norc.org/variables/3784/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -223,7 +223,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhhlpgp`](https://gssdataexplorer.norc.org/variables/3785/vshow).
+#' For further details see the [GSS Data Explorer page for `mhhlpgp`](https://gssdataexplorer.norc.org/variables/3785/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhhlppsy`](https://gssdataexplorer.norc.org/variables/3786/vshow).
+#' For further details see the [GSS Data Explorer page for `mhhlppsy`](https://gssdataexplorer.norc.org/variables/3786/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhhlpmhp`](https://gssdataexplorer.norc.org/variables/3787/vshow).
+#' For further details see the [GSS Data Explorer page for `mhhlpmhp`](https://gssdataexplorer.norc.org/variables/3787/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mhgvtjob`](https://gssdataexplorer.norc.org/variables/3788/vshow).
+#' For further details see the [GSS Data Explorer page for `mhgvtjob`](https://gssdataexplorer.norc.org/variables/3788/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

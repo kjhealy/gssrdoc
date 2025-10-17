@@ -23,7 +23,7 @@
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rclose1`](https://gssdataexplorer.norc.org/variables/850/vshow).
+#' For further details see the [GSS Data Explorer page for `rclose1`](https://gssdataexplorer.norc.org/variables/850/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rclose2`](https://gssdataexplorer.norc.org/variables/851/vshow).
+#' For further details see the [GSS Data Explorer page for `rclose2`](https://gssdataexplorer.norc.org/variables/851/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rclose3`](https://gssdataexplorer.norc.org/variables/852/vshow).
+#' For further details see the [GSS Data Explorer page for `rclose3`](https://gssdataexplorer.norc.org/variables/852/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -133,7 +133,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rclose4`](https://gssdataexplorer.norc.org/variables/853/vshow).
+#' For further details see the [GSS Data Explorer page for `rclose4`](https://gssdataexplorer.norc.org/variables/853/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -169,7 +169,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rclose5`](https://gssdataexplorer.norc.org/variables/854/vshow).
+#' For further details see the [GSS Data Explorer page for `rclose5`](https://gssdataexplorer.norc.org/variables/854/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `close12`](https://gssdataexplorer.norc.org/variables/855/vshow).
+#' For further details see the [GSS Data Explorer page for `close12`](https://gssdataexplorer.norc.org/variables/855/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -259,7 +259,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `close13`](https://gssdataexplorer.norc.org/variables/856/vshow).
+#' For further details see the [GSS Data Explorer page for `close13`](https://gssdataexplorer.norc.org/variables/856/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `close14`](https://gssdataexplorer.norc.org/variables/857/vshow).
+#' For further details see the [GSS Data Explorer page for `close14`](https://gssdataexplorer.norc.org/variables/857/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -349,7 +349,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `close15`](https://gssdataexplorer.norc.org/variables/858/vshow).
+#' For further details see the [GSS Data Explorer page for `close15`](https://gssdataexplorer.norc.org/variables/858/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -394,7 +394,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `close23`](https://gssdataexplorer.norc.org/variables/859/vshow).
+#' For further details see the [GSS Data Explorer page for `close23`](https://gssdataexplorer.norc.org/variables/859/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

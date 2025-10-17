@@ -21,7 +21,7 @@
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givinfusa`](https://gssdataexplorer.norc.org/variables/6318/vshow).
+#' For further details see the [GSS Data Explorer page for `givinfusa`](https://gssdataexplorer.norc.org/variables/6318/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givinffor`](https://gssdataexplorer.norc.org/variables/6319/vshow).
+#' For further details see the [GSS Data Explorer page for `givinffor`](https://gssdataexplorer.norc.org/variables/6319/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wotrial`](https://gssdataexplorer.norc.org/variables/4114/vshow).
+#' For further details see the [GSS Data Explorer page for `wotrial`](https://gssdataexplorer.norc.org/variables/4114/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tapphone`](https://gssdataexplorer.norc.org/variables/4115/vshow).
+#' For further details see the [GSS Data Explorer page for `tapphone`](https://gssdataexplorer.norc.org/variables/4115/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -164,7 +164,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stoprndm`](https://gssdataexplorer.norc.org/variables/4116/vshow).
+#' For further details see the [GSS Data Explorer page for `stoprndm`](https://gssdataexplorer.norc.org/variables/4116/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -200,7 +200,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fewtrsty`](https://gssdataexplorer.norc.org/variables/4117/vshow).
+#' For further details see the [GSS Data Explorer page for `fewtrsty`](https://gssdataexplorer.norc.org/variables/4117/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -236,7 +236,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `exploit`](https://gssdataexplorer.norc.org/variables/4118/vshow).
+#' For further details see the [GSS Data Explorer page for `exploit`](https://gssdataexplorer.norc.org/variables/4118/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -271,7 +271,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `youinflu`](https://gssdataexplorer.norc.org/variables/4119/vshow).
+#' For further details see the [GSS Data Explorer page for `youinflu`](https://gssdataexplorer.norc.org/variables/4119/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlpinflu`](https://gssdataexplorer.norc.org/variables/4120/vshow).
+#' For further details see the [GSS Data Explorer page for `hlpinflu`](https://gssdataexplorer.norc.org/variables/4120/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -341,7 +341,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polsfair`](https://gssdataexplorer.norc.org/variables/4121/vshow).
+#' For further details see the [GSS Data Explorer page for `polsfair`](https://gssdataexplorer.norc.org/variables/4121/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

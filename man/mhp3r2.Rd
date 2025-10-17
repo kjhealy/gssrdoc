@@ -44,7 +44,7 @@ Question (If present) Second relationship with third person.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7105/vshow}{GSS Data Explorer page for \code{mhp3r2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7105/vshow}{GSS Data Explorer page for \code{mhp3r2}}.
 }
 
 \keyword{variable}

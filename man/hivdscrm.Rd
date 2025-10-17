@@ -34,7 +34,7 @@ Question (Please indicate how much you agree or disagree with each of the follow
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7558/vshow}{GSS Data Explorer page for \code{hivdscrm}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7558/vshow}{GSS Data Explorer page for \code{hivdscrm}}.
 }
 
 \keyword{variable}

@@ -35,7 +35,7 @@ Question Who would you turn to first toï¿½. Give you advice about family prob
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7247/vshow}{GSS Data Explorer page for \code{hlpadvce}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7247/vshow}{GSS Data Explorer page for \code{hlpadvce}}.
 }
 
 \keyword{variable}

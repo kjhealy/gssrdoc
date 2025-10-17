@@ -33,7 +33,7 @@ Question In general, do you think the courts in this area deal too harshly or no
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7586/vshow}{GSS Data Explorer page for \code{courtsv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7586/vshow}{GSS Data Explorer page for \code{courtsv}}.
 }
 
 \keyword{variable}

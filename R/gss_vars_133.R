@@ -20,7 +20,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `influasn`](https://gssdataexplorer.norc.org/variables/1240/vshow).
+#' For further details see the [GSS Data Explorer page for `influasn`](https://gssdataexplorer.norc.org/variables/1240/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `influhsp`](https://gssdataexplorer.norc.org/variables/1241/vshow).
+#' For further details see the [GSS Data Explorer page for `influhsp`](https://gssdataexplorer.norc.org/variables/1241/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `influso`](https://gssdataexplorer.norc.org/variables/1242/vshow).
+#' For further details see the [GSS Data Explorer page for `influso`](https://gssdataexplorer.norc.org/variables/1242/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -123,7 +123,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hspjobs`](https://gssdataexplorer.norc.org/variables/1243/vshow).
+#' For further details see the [GSS Data Explorer page for `hspjobs`](https://gssdataexplorer.norc.org/variables/1243/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -158,7 +158,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blkjobs`](https://gssdataexplorer.norc.org/variables/1244/vshow).
+#' For further details see the [GSS Data Explorer page for `blkjobs`](https://gssdataexplorer.norc.org/variables/1244/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -193,7 +193,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `asnjobs`](https://gssdataexplorer.norc.org/variables/1245/vshow).
+#' For further details see the [GSS Data Explorer page for `asnjobs`](https://gssdataexplorer.norc.org/variables/1245/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -228,7 +228,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hsphouse`](https://gssdataexplorer.norc.org/variables/1246/vshow).
+#' For further details see the [GSS Data Explorer page for `hsphouse`](https://gssdataexplorer.norc.org/variables/1246/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -263,7 +263,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blkhouse`](https://gssdataexplorer.norc.org/variables/1247/vshow).
+#' For further details see the [GSS Data Explorer page for `blkhouse`](https://gssdataexplorer.norc.org/variables/1247/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `asnhouse`](https://gssdataexplorer.norc.org/variables/1248/vshow).
+#' For further details see the [GSS Data Explorer page for `asnhouse`](https://gssdataexplorer.norc.org/variables/1248/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -349,7 +349,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racwork`](https://gssdataexplorer.norc.org/variables/1249/vshow).
+#' For further details see the [GSS Data Explorer page for `racwork`](https://gssdataexplorer.norc.org/variables/1249/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

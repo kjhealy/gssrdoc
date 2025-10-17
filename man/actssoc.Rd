@@ -34,7 +34,7 @@ Question In general, please rate how well you carry out your usual social activi
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7167/vshow}{GSS Data Explorer page for \code{actssoc}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7167/vshow}{GSS Data Explorer page for \code{actssoc}}.
 }
 
 \keyword{variable}

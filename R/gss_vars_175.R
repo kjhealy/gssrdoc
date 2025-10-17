@@ -21,7 +21,7 @@
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whtgovt`](https://gssdataexplorer.norc.org/variables/1632/vshow).
+#' For further details see the [GSS Data Explorer page for `whtgovt`](https://gssdataexplorer.norc.org/variables/1632/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blkgovt`](https://gssdataexplorer.norc.org/variables/1633/vshow).
+#' For further details see the [GSS Data Explorer page for `blkgovt`](https://gssdataexplorer.norc.org/variables/1633/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hspgovt`](https://gssdataexplorer.norc.org/variables/1634/vshow).
+#' For further details see the [GSS Data Explorer page for `hspgovt`](https://gssdataexplorer.norc.org/variables/1634/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `asngovt`](https://gssdataexplorer.norc.org/variables/1635/vshow).
+#' For further details see the [GSS Data Explorer page for `asngovt`](https://gssdataexplorer.norc.org/variables/1635/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -159,7 +159,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wlthimm`](https://gssdataexplorer.norc.org/variables/1636/vshow).
+#' For further details see the [GSS Data Explorer page for `wlthimm`](https://gssdataexplorer.norc.org/variables/1636/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wlthundc`](https://gssdataexplorer.norc.org/variables/1637/vshow).
+#' For further details see the [GSS Data Explorer page for `wlthundc`](https://gssdataexplorer.norc.org/variables/1637/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -225,7 +225,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `workimm`](https://gssdataexplorer.norc.org/variables/1638/vshow).
+#' For further details see the [GSS Data Explorer page for `workimm`](https://gssdataexplorer.norc.org/variables/1638/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `workundc`](https://gssdataexplorer.norc.org/variables/1639/vshow).
+#' For further details see the [GSS Data Explorer page for `workundc`](https://gssdataexplorer.norc.org/variables/1639/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -293,7 +293,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obrespct`](https://gssdataexplorer.norc.org/variables/1640/vshow).
+#' For further details see the [GSS Data Explorer page for `obrespct`](https://gssdataexplorer.norc.org/variables/1640/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `econpast`](https://gssdataexplorer.norc.org/variables/1641/vshow).
+#' For further details see the [GSS Data Explorer page for `econpast`](https://gssdataexplorer.norc.org/variables/1641/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

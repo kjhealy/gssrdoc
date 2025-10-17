@@ -22,7 +22,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agape2`](https://gssdataexplorer.norc.org/variables/3054/vshow).
+#' For further details see the [GSS Data Explorer page for `agape2`](https://gssdataexplorer.norc.org/variables/3054/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agape3`](https://gssdataexplorer.norc.org/variables/3055/vshow).
+#' For further details see the [GSS Data Explorer page for `agape3`](https://gssdataexplorer.norc.org/variables/3055/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agape4`](https://gssdataexplorer.norc.org/variables/3056/vshow).
+#' For further details see the [GSS Data Explorer page for `agape4`](https://gssdataexplorer.norc.org/variables/3056/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hgunlaw`](https://gssdataexplorer.norc.org/variables/3057/vshow).
+#' For further details see the [GSS Data Explorer page for `hgunlaw`](https://gssdataexplorer.norc.org/variables/3057/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -159,7 +159,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hguncrim`](https://gssdataexplorer.norc.org/variables/3058/vshow).
+#' For further details see the [GSS Data Explorer page for `hguncrim`](https://gssdataexplorer.norc.org/variables/3058/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -191,7 +191,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `crimup`](https://gssdataexplorer.norc.org/variables/3059/vshow).
+#' For further details see the [GSS Data Explorer page for `crimup`](https://gssdataexplorer.norc.org/variables/3059/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -223,7 +223,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `crimdown`](https://gssdataexplorer.norc.org/variables/3060/vshow).
+#' For further details see the [GSS Data Explorer page for `crimdown`](https://gssdataexplorer.norc.org/variables/3060/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -260,7 +260,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `numrelex`](https://gssdataexplorer.norc.org/variables/3061/vshow).
+#' For further details see the [GSS Data Explorer page for `numrelex`](https://gssdataexplorer.norc.org/variables/3061/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agerelex`](https://gssdataexplorer.norc.org/variables/3062/vshow).
+#' For further details see the [GSS Data Explorer page for `agerelex`](https://gssdataexplorer.norc.org/variables/3062/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -323,7 +323,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chngrel`](https://gssdataexplorer.norc.org/variables/3063/vshow).
+#' For further details see the [GSS Data Explorer page for `chngrel`](https://gssdataexplorer.norc.org/variables/3063/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

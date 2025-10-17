@@ -37,7 +37,7 @@
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sick1`](https://gssdataexplorer.norc.org/variables/4171/vshow).
+#' For further details see the [GSS Data Explorer page for `sick1`](https://gssdataexplorer.norc.org/variables/4171/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sick2`](https://gssdataexplorer.norc.org/variables/4172/vshow).
+#' For further details see the [GSS Data Explorer page for `sick2`](https://gssdataexplorer.norc.org/variables/4172/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -136,7 +136,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `borrow1`](https://gssdataexplorer.norc.org/variables/4173/vshow).
+#' For further details see the [GSS Data Explorer page for `borrow1`](https://gssdataexplorer.norc.org/variables/4173/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `borrow2`](https://gssdataexplorer.norc.org/variables/4174/vshow).
+#' For further details see the [GSS Data Explorer page for `borrow2`](https://gssdataexplorer.norc.org/variables/4174/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -235,7 +235,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `upset1`](https://gssdataexplorer.norc.org/variables/4175/vshow).
+#' For further details see the [GSS Data Explorer page for `upset1`](https://gssdataexplorer.norc.org/variables/4175/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `upset2`](https://gssdataexplorer.norc.org/variables/4176/vshow).
+#' For further details see the [GSS Data Explorer page for `upset2`](https://gssdataexplorer.norc.org/variables/4176/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -334,7 +334,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `down1`](https://gssdataexplorer.norc.org/variables/4177/vshow).
+#' For further details see the [GSS Data Explorer page for `down1`](https://gssdataexplorer.norc.org/variables/4177/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -382,7 +382,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `down2`](https://gssdataexplorer.norc.org/variables/4178/vshow).
+#' For further details see the [GSS Data Explorer page for `down2`](https://gssdataexplorer.norc.org/variables/4178/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -434,7 +434,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `change1`](https://gssdataexplorer.norc.org/variables/4179/vshow).
+#' For further details see the [GSS Data Explorer page for `change1`](https://gssdataexplorer.norc.org/variables/4179/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -483,7 +483,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `change2`](https://gssdataexplorer.norc.org/variables/4180/vshow).
+#' For further details see the [GSS Data Explorer page for `change2`](https://gssdataexplorer.norc.org/variables/4180/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

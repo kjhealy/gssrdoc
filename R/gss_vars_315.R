@@ -22,7 +22,7 @@
 #'  |2021 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `physacts`](https://gssdataexplorer.norc.org/variables/7168/vshow).
+#' For further details see the [GSS Data Explorer page for `physacts`](https://gssdataexplorer.norc.org/variables/7168/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emoprobs`](https://gssdataexplorer.norc.org/variables/7169/vshow).
+#' For further details see the [GSS Data Explorer page for `emoprobs`](https://gssdataexplorer.norc.org/variables/7169/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fatigue`](https://gssdataexplorer.norc.org/variables/7170/vshow).
+#' For further details see the [GSS Data Explorer page for `fatigue`](https://gssdataexplorer.norc.org/variables/7170/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ratepain`](https://gssdataexplorer.norc.org/variables/7171/vshow).
+#' For further details see the [GSS Data Explorer page for `ratepain`](https://gssdataexplorer.norc.org/variables/7171/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -159,7 +159,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abfelegl`](https://gssdataexplorer.norc.org/variables/7172/vshow).
+#' For further details see the [GSS Data Explorer page for `abfelegl`](https://gssdataexplorer.norc.org/variables/7172/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abmelegl`](https://gssdataexplorer.norc.org/variables/7173/vshow).
+#' For further details see the [GSS Data Explorer page for `abmelegl`](https://gssdataexplorer.norc.org/variables/7173/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -226,7 +226,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abmoral`](https://gssdataexplorer.norc.org/variables/7174/vshow).
+#' For further details see the [GSS Data Explorer page for `abmoral`](https://gssdataexplorer.norc.org/variables/7174/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abstate1`](https://gssdataexplorer.norc.org/variables/7175/vshow).
+#' For further details see the [GSS Data Explorer page for `abstate1`](https://gssdataexplorer.norc.org/variables/7175/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -294,7 +294,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abstate2`](https://gssdataexplorer.norc.org/variables/7176/vshow).
+#' For further details see the [GSS Data Explorer page for `abstate2`](https://gssdataexplorer.norc.org/variables/7176/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -327,7 +327,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abhelp1`](https://gssdataexplorer.norc.org/variables/7177/vshow).
+#' For further details see the [GSS Data Explorer page for `abhelp1`](https://gssdataexplorer.norc.org/variables/7177/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

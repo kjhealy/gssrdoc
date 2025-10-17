@@ -36,19 +36,15 @@ Question Think of all kinds of alcoholic beverages combined, that is, any combin
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3101/vshow}{GSS Data Explorer page for \code{drinkmax}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3101/vshow}{GSS Data Explorer page for \code{drinkmax}}.
 }
 
 \seealso{
 Other Women & Alcohol: 
-\code{\link{drink1}},
 \code{\link{drink12}},
-\code{\link{drink3}},
-\code{\link{drink5}},
 \code{\link{drink6up}},
 \code{\link{drink8}},
 \code{\link{drinkday}},
-\code{\link{drinkmin}},
 \code{\link{drinkyr}},
 \code{\link{evdrink}}
 }

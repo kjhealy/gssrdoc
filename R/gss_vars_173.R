@@ -19,7 +19,7 @@
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hspasn10`](https://gssdataexplorer.norc.org/variables/1612/vshow).
+#' For further details see the [GSS Data Explorer page for `hspasn10`](https://gssdataexplorer.norc.org/variables/1612/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immecon`](https://gssdataexplorer.norc.org/variables/1613/vshow).
+#' For further details see the [GSS Data Explorer page for `immecon`](https://gssdataexplorer.norc.org/variables/1613/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -89,7 +89,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immunemp`](https://gssdataexplorer.norc.org/variables/1614/vshow).
+#' For further details see the [GSS Data Explorer page for `immunemp`](https://gssdataexplorer.norc.org/variables/1614/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -125,7 +125,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immunite`](https://gssdataexplorer.norc.org/variables/1615/vshow).
+#' For further details see the [GSS Data Explorer page for `immunite`](https://gssdataexplorer.norc.org/variables/1615/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -157,7 +157,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immfare`](https://gssdataexplorer.norc.org/variables/1616/vshow).
+#' For further details see the [GSS Data Explorer page for `immfare`](https://gssdataexplorer.norc.org/variables/1616/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -191,7 +191,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `undocwrk`](https://gssdataexplorer.norc.org/variables/1617/vshow).
+#' For further details see the [GSS Data Explorer page for `undocwrk`](https://gssdataexplorer.norc.org/variables/1617/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -225,7 +225,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `undoccol`](https://gssdataexplorer.norc.org/variables/1618/vshow).
+#' For further details see the [GSS Data Explorer page for `undoccol`](https://gssdataexplorer.norc.org/variables/1618/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -259,7 +259,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `undockid`](https://gssdataexplorer.norc.org/variables/1619/vshow).
+#' For further details see the [GSS Data Explorer page for `undockid`](https://gssdataexplorer.norc.org/variables/1619/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -295,7 +295,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immpush`](https://gssdataexplorer.norc.org/variables/1620/vshow).
+#' For further details see the [GSS Data Explorer page for `immpush`](https://gssdataexplorer.norc.org/variables/1620/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -331,7 +331,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immwrkup`](https://gssdataexplorer.norc.org/variables/1621/vshow).
+#' For further details see the [GSS Data Explorer page for `immwrkup`](https://gssdataexplorer.norc.org/variables/1621/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

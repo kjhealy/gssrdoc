@@ -35,7 +35,7 @@ Overall, I expect more good things to happen to me than bad.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6202/vshow}{GSS Data Explorer page for \code{lotr6}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6202/vshow}{GSS Data Explorer page for \code{lotr6}}.
 }
 
 \seealso{
@@ -44,8 +44,6 @@ Other Hope and Optimism:
 \code{\link{hope2}},
 \code{\link{hope3}},
 \code{\link{hope4}},
-\code{\link{hope5}},
-\code{\link{hope6}},
 \code{\link{lotr1}},
 \code{\link{lotr2}},
 \code{\link{lotr3}},

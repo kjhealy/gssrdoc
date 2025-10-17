@@ -33,7 +33,7 @@ Question What days of the week do you normally work?  CODE ALL THAT APPLY.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5287/vshow}{GSS Data Explorer page for \code{workdy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5287/vshow}{GSS Data Explorer page for \code{workdy}}.
 }
 
 \seealso{

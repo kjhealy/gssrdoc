@@ -32,19 +32,12 @@ Question What about ten years ago, that is in 1972, which of these statements ca
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5489/vshow}{GSS Data Explorer page for \code{commun10}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5489/vshow}{GSS Data Explorer page for \code{commun10}}.
 }
 
 \seealso{
 Other War and International: 
-\code{\link{brazil}},
-\code{\link{canada}},
-\code{\link{china}},
 \code{\link{commun}},
-\code{\link{egypt}},
-\code{\link{england}},
-\code{\link{israel}},
-\code{\link{japan}},
 \code{\link{russia}},
 \code{\link{usintl}},
 \code{\link{usun}},

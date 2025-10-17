@@ -44,24 +44,17 @@ E. Brazil
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5494/vshow}{GSS Data Explorer page for \code{brazil}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5494/vshow}{GSS Data Explorer page for \code{brazil}}.
 }
 
 \seealso{
 Other War and International: 
 \code{\link{canada}},
 \code{\link{china}},
-\code{\link{commun}},
-\code{\link{commun10}},
 \code{\link{egypt}},
 \code{\link{england}},
 \code{\link{israel}},
-\code{\link{japan}},
-\code{\link{russia}},
-\code{\link{usintl}},
-\code{\link{usun}},
-\code{\link{uswar}},
-\code{\link{uswary}}
+\code{\link{japan}}
 }
 \concept{War and International}
 \keyword{variable}

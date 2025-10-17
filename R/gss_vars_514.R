@@ -22,7 +22,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godright`](https://gssdataexplorer.norc.org/variables/4681/vshow).
+#' For further details see the [GSS Data Explorer page for `godright`](https://gssdataexplorer.norc.org/variables/4681/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socright`](https://gssdataexplorer.norc.org/variables/4682/vshow).
+#' For further details see the [GSS Data Explorer page for `socright`](https://gssdataexplorer.norc.org/variables/4682/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `perright`](https://gssdataexplorer.norc.org/variables/4683/vshow).
+#' For further details see the [GSS Data Explorer page for `perright`](https://gssdataexplorer.norc.org/variables/4683/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `antirel`](https://gssdataexplorer.norc.org/variables/4684/vshow).
+#' For further details see the [GSS Data Explorer page for `antirel`](https://gssdataexplorer.norc.org/variables/4684/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `befair`](https://gssdataexplorer.norc.org/variables/4685/vshow).
+#' For further details see the [GSS Data Explorer page for `befair`](https://gssdataexplorer.norc.org/variables/4685/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -206,7 +206,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cantrust`](https://gssdataexplorer.norc.org/variables/4686/vshow).
+#' For further details see the [GSS Data Explorer page for `cantrust`](https://gssdataexplorer.norc.org/variables/4686/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -243,7 +243,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trustsci`](https://gssdataexplorer.norc.org/variables/4687/vshow).
+#' For further details see the [GSS Data Explorer page for `trustsci`](https://gssdataexplorer.norc.org/variables/4687/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -281,7 +281,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `religcon`](https://gssdataexplorer.norc.org/variables/4688/vshow).
+#' For further details see the [GSS Data Explorer page for `religcon`](https://gssdataexplorer.norc.org/variables/4688/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `religint`](https://gssdataexplorer.norc.org/variables/4689/vshow).
+#' For further details see the [GSS Data Explorer page for `religint`](https://gssdataexplorer.norc.org/variables/4689/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -357,7 +357,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `religinf`](https://gssdataexplorer.norc.org/variables/4690/vshow).
+#' For further details see the [GSS Data Explorer page for `religinf`](https://gssdataexplorer.norc.org/variables/4690/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -30,22 +30,18 @@ Question C. In general, how warm or cool do you feel towards Hispanics?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2732/vshow}{GSS Data Explorer page for \code{feelhsps}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2732/vshow}{GSS Data Explorer page for \code{feelhsps}}.
 }
 
 \seealso{
 Other Prejudice: 
 \code{\link{ethadapt}},
-\code{\link{ethdiff}},
 \code{\link{ethignor}},
 \code{\link{ethimp}},
 \code{\link{ethnofit}},
-\code{\link{ethsame}},
 \code{\link{ethtrads}},
 \code{\link{feelasns}},
-\code{\link{feelblks}},
-\code{\link{feelwhts}},
-\code{\link{whtsdiff}}
+\code{\link{feelblks}}
 }
 \concept{Prejudice}
 \keyword{variable}

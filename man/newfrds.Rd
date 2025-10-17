@@ -33,7 +33,7 @@ Question At these occasions, how often do you make new friends or acquaintances?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7262/vshow}{GSS Data Explorer page for \code{newfrds}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7262/vshow}{GSS Data Explorer page for \code{newfrds}}.
 }
 
 \keyword{variable}

@@ -18,7 +18,7 @@
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polrally`](https://gssdataexplorer.norc.org/variables/1030/vshow).
+#' For further details see the [GSS Data Explorer page for `polrally`](https://gssdataexplorer.norc.org/variables/1030/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `loclobby`](https://gssdataexplorer.norc.org/variables/1031/vshow).
+#' For further details see the [GSS Data Explorer page for `loclobby`](https://gssdataexplorer.norc.org/variables/1031/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -84,7 +84,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `locself`](https://gssdataexplorer.norc.org/variables/1032/vshow).
+#' For further details see the [GSS Data Explorer page for `locself`](https://gssdataexplorer.norc.org/variables/1032/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -116,7 +116,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othlobby`](https://gssdataexplorer.norc.org/variables/1033/vshow).
+#' For further details see the [GSS Data Explorer page for `othlobby`](https://gssdataexplorer.norc.org/variables/1033/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -150,7 +150,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othself`](https://gssdataexplorer.norc.org/variables/1034/vshow).
+#' For further details see the [GSS Data Explorer page for `othself`](https://gssdataexplorer.norc.org/variables/1034/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -182,7 +182,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `governor`](https://gssdataexplorer.norc.org/variables/1035/vshow).
+#' For further details see the [GSS Data Explorer page for `governor`](https://gssdataexplorer.norc.org/variables/1035/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `usrep`](https://gssdataexplorer.norc.org/variables/1036/vshow).
+#' For further details see the [GSS Data Explorer page for `usrep`](https://gssdataexplorer.norc.org/variables/1036/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -246,7 +246,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `schlhead`](https://gssdataexplorer.norc.org/variables/1037/vshow).
+#' For further details see the [GSS Data Explorer page for `schlhead`](https://gssdataexplorer.norc.org/variables/1037/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -280,7 +280,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fedtrust`](https://gssdataexplorer.norc.org/variables/1038/vshow).
+#' For further details see the [GSS Data Explorer page for `fedtrust`](https://gssdataexplorer.norc.org/variables/1038/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -314,7 +314,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `locvote`](https://gssdataexplorer.norc.org/variables/1039/vshow).
+#' For further details see the [GSS Data Explorer page for `locvote`](https://gssdataexplorer.norc.org/variables/1039/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -32,17 +32,12 @@ Question How often do you see people in public who make strange gestures or talk
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3569/vshow}{GSS Data Explorer page for \code{gesttalk}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3569/vshow}{GSS Data Explorer page for \code{gesttalk}}.
 }
 
 \seealso{
 Other Mental Health III: 
-\code{\link{avoidmh}},
-\code{\link{mhothrel}},
-\code{\link{mhothyou}},
-\code{\link{mhtrtoth}},
-\code{\link{seemhpub}},
-\code{\link{viglab06}}
+\code{\link{avoidmh}}
 }
 \concept{Mental Health III}
 \keyword{variable}

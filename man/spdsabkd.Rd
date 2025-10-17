@@ -35,40 +35,11 @@ G. Services for disabled and chronically ill childrenâ€¦
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5128/vshow}{GSS Data Explorer page for \code{spdsabkd}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5128/vshow}{GSS Data Explorer page for \code{spdsabkd}}.
 }
 
 \seealso{
 Other Children: 
-\code{\link{chldeduc}},
-\code{\link{chldhlth}},
-\code{\link{chldhome}},
-\code{\link{chldlove}},
-\code{\link{chldmorl}},
-\code{\link{chldsafe}},
-\code{\link{chldskls}},
-\code{\link{chldsup}},
-\code{\link{chldtime}},
-\code{\link{infadstv}},
-\code{\link{inffilms}},
-\code{\link{infmusic}},
-\code{\link{infnettv}},
-\code{\link{infpubtv}},
-\code{\link{parfin}},
-\code{\link{pargovt}},
-\code{\link{parhardr}},
-\code{\link{parrght}},
-\code{\link{partaxes}},
-\code{\link{partime}},
-\code{\link{parwhere}},
-\code{\link{parwork}},
-\code{\link{parworse}},
-\code{\link{roleccp}},
-\code{\link{roleclrg}},
-\code{\link{rolegp}},
-\code{\link{rolema}},
-\code{\link{rolepa}},
-\code{\link{roletchr}},
 \code{\link{spdrugs}},
 \code{\link{spfoodkd}},
 \code{\link{spheadst}},
@@ -76,7 +47,6 @@ Other Children:
 \code{\link{sphomekd}},
 \code{\link{sppill}},
 \code{\link{sppoorkd}},
-\code{\link{sppregnt}},
 \code{\link{spwrkpar}}
 }
 \concept{Children}

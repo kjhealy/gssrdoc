@@ -33,7 +33,7 @@ As of 2024, ETHREGION variables will only be available as restricted data, begin
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7714/vshow}{GSS Data Explorer page for \code{ethregion75}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7714/vshow}{GSS Data Explorer page for \code{ethregion75}}.
 }
 
 \keyword{variable}

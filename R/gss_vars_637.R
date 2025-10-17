@@ -20,7 +20,7 @@
 #'  |2022 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uswaryv`](https://gssdataexplorer.norc.org/variables/7584/vshow).
+#' For further details see the [GSS Data Explorer page for `uswaryv`](https://gssdataexplorer.norc.org/variables/7584/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prayerv`](https://gssdataexplorer.norc.org/variables/7585/vshow).
+#' For further details see the [GSS Data Explorer page for `prayerv`](https://gssdataexplorer.norc.org/variables/7585/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `courtsv`](https://gssdataexplorer.norc.org/variables/7586/vshow).
+#' For further details see the [GSS Data Explorer page for `courtsv`](https://gssdataexplorer.norc.org/variables/7586/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -127,7 +127,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `discaffwv`](https://gssdataexplorer.norc.org/variables/7587/vshow).
+#' For further details see the [GSS Data Explorer page for `discaffwv`](https://gssdataexplorer.norc.org/variables/7587/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -163,7 +163,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racopenv`](https://gssdataexplorer.norc.org/variables/7588/vshow).
+#' For further details see the [GSS Data Explorer page for `racopenv`](https://gssdataexplorer.norc.org/variables/7588/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -199,7 +199,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `getaheadv`](https://gssdataexplorer.norc.org/variables/7589/vshow).
+#' For further details see the [GSS Data Explorer page for `getaheadv`](https://gssdataexplorer.norc.org/variables/7589/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -234,7 +234,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divlawv`](https://gssdataexplorer.norc.org/variables/7590/vshow).
+#' For further details see the [GSS Data Explorer page for `divlawv`](https://gssdataexplorer.norc.org/variables/7590/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -269,7 +269,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpfulv`](https://gssdataexplorer.norc.org/variables/7591/vshow).
+#' For further details see the [GSS Data Explorer page for `helpfulv`](https://gssdataexplorer.norc.org/variables/7591/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -303,7 +303,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fairv`](https://gssdataexplorer.norc.org/variables/7592/vshow).
+#' For further details see the [GSS Data Explorer page for `fairv`](https://gssdataexplorer.norc.org/variables/7592/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -339,7 +339,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trustv`](https://gssdataexplorer.norc.org/variables/7593/vshow).
+#' For further details see the [GSS Data Explorer page for `trustv`](https://gssdataexplorer.norc.org/variables/7593/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

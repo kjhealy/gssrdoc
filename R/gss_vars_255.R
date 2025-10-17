@@ -18,7 +18,7 @@
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othhome`](https://gssdataexplorer.norc.org/variables/2301/vshow).
+#' For further details see the [GSS Data Explorer page for `othhome`](https://gssdataexplorer.norc.org/variables/2301/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `betrlang`](https://gssdataexplorer.norc.org/variables/2302/vshow).
+#' For further details see the [GSS Data Explorer page for `betrlang`](https://gssdataexplorer.norc.org/variables/2302/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spklangw`](https://gssdataexplorer.norc.org/variables/2303/vshow).
+#' For further details see the [GSS Data Explorer page for `spklangw`](https://gssdataexplorer.norc.org/variables/2303/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -127,7 +127,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `letinhsp`](https://gssdataexplorer.norc.org/variables/2304/vshow).
+#' For further details see the [GSS Data Explorer page for `letinhsp`](https://gssdataexplorer.norc.org/variables/2304/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -163,7 +163,7 @@ NULL
 #'  |2022 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `letinasn`](https://gssdataexplorer.norc.org/variables/2305/vshow).
+#' For further details see the [GSS Data Explorer page for `letinasn`](https://gssdataexplorer.norc.org/variables/2305/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -198,7 +198,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `letineur`](https://gssdataexplorer.norc.org/variables/2306/vshow).
+#' For further details see the [GSS Data Explorer page for `letineur`](https://gssdataexplorer.norc.org/variables/2306/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -233,7 +233,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immcrmup`](https://gssdataexplorer.norc.org/variables/2307/vshow).
+#' For further details see the [GSS Data Explorer page for `immcrmup`](https://gssdataexplorer.norc.org/variables/2307/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immnew`](https://gssdataexplorer.norc.org/variables/2308/vshow).
+#' For further details see the [GSS Data Explorer page for `immnew`](https://gssdataexplorer.norc.org/variables/2308/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -303,7 +303,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immnojob`](https://gssdataexplorer.norc.org/variables/2309/vshow).
+#' For further details see the [GSS Data Explorer page for `immnojob`](https://gssdataexplorer.norc.org/variables/2309/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -335,7 +335,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uswht`](https://gssdataexplorer.norc.org/variables/2310/vshow).
+#' For further details see the [GSS Data Explorer page for `uswht`](https://gssdataexplorer.norc.org/variables/2310/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

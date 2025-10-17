@@ -31,29 +31,12 @@ Question Some people don't pay much attention to political campaigns. How about 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8158/vshow}{GSS Data Explorer page for \code{polintrst}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8158/vshow}{GSS Data Explorer page for \code{polintrst}}.
 }
 
 \seealso{
 Other ANES: 
-\code{\link{econstat}},
-\code{\link{lkelyvot}},
-\code{\link{ratechall124}},
-\code{\link{ratechall1ts}},
-\code{\link{ratechall224}},
-\code{\link{ratechall2ts}},
-\code{\link{ratechall324}},
-\code{\link{ratechall3ts}},
-\code{\link{ratedemp}},
-\code{\link{rateincumb24}},
-\code{\link{rateincumbts}},
-\code{\link{ratemaga}},
-\code{\link{raterepp}},
-\code{\link{satdemoc}},
-\code{\link{voteprob}},
-\code{\link{whovote24}},
-\code{\link{whovote24a}},
-\code{\link{whovotets}}
+\code{\link{econstat}}
 }
 \concept{ANES}
 \keyword{variable}

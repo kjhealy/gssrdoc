@@ -20,7 +20,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sptmkid1`](https://gssdataexplorer.norc.org/variables/2643/vshow).
+#' For further details see the [GSS Data Explorer page for `sptmkid1`](https://gssdataexplorer.norc.org/variables/2643/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sptmkid2`](https://gssdataexplorer.norc.org/variables/2644/vshow).
+#' For further details see the [GSS Data Explorer page for `sptmkid2`](https://gssdataexplorer.norc.org/variables/2644/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sptmkid3`](https://gssdataexplorer.norc.org/variables/2645/vshow).
+#' For further details see the [GSS Data Explorer page for `sptmkid3`](https://gssdataexplorer.norc.org/variables/2645/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sptmkid4`](https://gssdataexplorer.norc.org/variables/2646/vshow).
+#' For further details see the [GSS Data Explorer page for `sptmkid4`](https://gssdataexplorer.norc.org/variables/2646/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdtmkid1`](https://gssdataexplorer.norc.org/variables/2647/vshow).
+#' For further details see the [GSS Data Explorer page for `kdtmkid1`](https://gssdataexplorer.norc.org/variables/2647/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdtmkid2`](https://gssdataexplorer.norc.org/variables/2648/vshow).
+#' For further details see the [GSS Data Explorer page for `kdtmkid2`](https://gssdataexplorer.norc.org/variables/2648/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdtmkid3`](https://gssdataexplorer.norc.org/variables/2649/vshow).
+#' For further details see the [GSS Data Explorer page for `kdtmkid3`](https://gssdataexplorer.norc.org/variables/2649/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdtmkid4`](https://gssdataexplorer.norc.org/variables/2650/vshow).
+#' For further details see the [GSS Data Explorer page for `kdtmkid4`](https://gssdataexplorer.norc.org/variables/2650/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -294,7 +294,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knowkid1`](https://gssdataexplorer.norc.org/variables/2651/vshow).
+#' For further details see the [GSS Data Explorer page for `knowkid1`](https://gssdataexplorer.norc.org/variables/2651/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knowkid2`](https://gssdataexplorer.norc.org/variables/2652/vshow).
+#' For further details see the [GSS Data Explorer page for `knowkid2`](https://gssdataexplorer.norc.org/variables/2652/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

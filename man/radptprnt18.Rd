@@ -30,7 +30,7 @@ Question To clarify, are you the adoptive parent of at least one individual 18 o
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8019/vshow}{GSS Data Explorer page for \code{radptprnt18}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8019/vshow}{GSS Data Explorer page for \code{radptprnt18}}.
 }
 
 \keyword{variable}

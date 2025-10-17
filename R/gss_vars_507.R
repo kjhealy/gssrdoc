@@ -20,7 +20,7 @@
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dailywrk`](https://gssdataexplorer.norc.org/variables/4612/vshow).
+#' For further details see the [GSS Data Explorer page for `dailywrk`](https://gssdataexplorer.norc.org/variables/4612/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timeoff`](https://gssdataexplorer.norc.org/variables/4613/vshow).
+#' For further details see the [GSS Data Explorer page for `timeoff`](https://gssdataexplorer.norc.org/variables/4613/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jbintfam`](https://gssdataexplorer.norc.org/variables/4614/vshow).
+#' For further details see the [GSS Data Explorer page for `jbintfam`](https://gssdataexplorer.norc.org/variables/4614/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -127,7 +127,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famintjb`](https://gssdataexplorer.norc.org/variables/4615/vshow).
+#' For further details see the [GSS Data Explorer page for `famintjb`](https://gssdataexplorer.norc.org/variables/4615/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `newjob`](https://gssdataexplorer.norc.org/variables/4616/vshow).
+#' For further details see the [GSS Data Explorer page for `newjob`](https://gssdataexplorer.norc.org/variables/4616/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -194,7 +194,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jbtrain`](https://gssdataexplorer.norc.org/variables/4617/vshow).
+#' For further details see the [GSS Data Explorer page for `jbtrain`](https://gssdataexplorer.norc.org/variables/4617/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -230,7 +230,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobeasy`](https://gssdataexplorer.norc.org/variables/4618/vshow).
+#' For further details see the [GSS Data Explorer page for `jobeasy`](https://gssdataexplorer.norc.org/variables/4618/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -265,7 +265,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `replaceu`](https://gssdataexplorer.norc.org/variables/4619/vshow).
+#' For further details see the [GSS Data Explorer page for `replaceu`](https://gssdataexplorer.norc.org/variables/4619/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -302,7 +302,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nounemp1`](https://gssdataexplorer.norc.org/variables/4620/vshow).
+#' For further details see the [GSS Data Explorer page for `nounemp1`](https://gssdataexplorer.norc.org/variables/4620/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -339,7 +339,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nounemp2`](https://gssdataexplorer.norc.org/variables/4621/vshow).
+#' For further details see the [GSS Data Explorer page for `nounemp2`](https://gssdataexplorer.norc.org/variables/4621/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

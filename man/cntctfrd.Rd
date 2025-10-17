@@ -39,7 +39,7 @@ either face-to-face, by phone, internet or any other communication device?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7269/vshow}{GSS Data Explorer page for \code{cntctfrd}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7269/vshow}{GSS Data Explorer page for \code{cntctfrd}}.
 }
 
 \keyword{variable}

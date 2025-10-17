@@ -30,7 +30,7 @@ Question Are you the grandparent (or great-grandparent) of at least one individu
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8025/vshow}{GSS Data Explorer page for \code{rgprntu18}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8025/vshow}{GSS Data Explorer page for \code{rgprntu18}}.
 }
 
 \keyword{variable}

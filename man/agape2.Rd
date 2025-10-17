@@ -34,12 +34,11 @@ B. I cannot be happy unless I place the one I love''s happiness before my own.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3054/vshow}{GSS Data Explorer page for \code{agape2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3054/vshow}{GSS Data Explorer page for \code{agape2}}.
 }
 
 \seealso{
 Other Altruistic Love: 
-\code{\link{agape1}},
 \code{\link{agape3}},
 \code{\link{agape4}}
 }

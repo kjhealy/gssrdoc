@@ -33,7 +33,7 @@ Question People from poor countries should be allowed to work in wealthy countri
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7510/vshow}{GSS Data Explorer page for \code{migrpoor}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7510/vshow}{GSS Data Explorer page for \code{migrpoor}}.
 }
 
 \keyword{variable}

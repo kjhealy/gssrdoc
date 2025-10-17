@@ -33,7 +33,7 @@ Question During the past four weeks, how often have you felt difficulties were p
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7273/vshow}{GSS Data Explorer page for \code{pilingup}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7273/vshow}{GSS Data Explorer page for \code{pilingup}}.
 }
 
 \keyword{variable}

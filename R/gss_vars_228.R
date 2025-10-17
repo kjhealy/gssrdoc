@@ -21,7 +21,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cope5`](https://gssdataexplorer.norc.org/variables/2100/vshow).
+#' For further details see the [GSS Data Explorer page for `cope5`](https://gssdataexplorer.norc.org/variables/2100/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cope6`](https://gssdataexplorer.norc.org/variables/2101/vshow).
+#' For further details see the [GSS Data Explorer page for `cope6`](https://gssdataexplorer.norc.org/variables/2101/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godwatch`](https://gssdataexplorer.norc.org/variables/2102/vshow).
+#' For further details see the [GSS Data Explorer page for `godwatch`](https://gssdataexplorer.norc.org/variables/2102/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lesspain`](https://gssdataexplorer.norc.org/variables/2103/vshow).
+#' For further details see the [GSS Data Explorer page for `lesspain`](https://gssdataexplorer.norc.org/variables/2103/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rellife`](https://gssdataexplorer.norc.org/variables/2104/vshow).
+#' For further details see the [GSS Data Explorer page for `rellife`](https://gssdataexplorer.norc.org/variables/2104/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `forgive1`](https://gssdataexplorer.norc.org/variables/2105/vshow).
+#' For further details see the [GSS Data Explorer page for `forgive1`](https://gssdataexplorer.norc.org/variables/2105/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `forgive2`](https://gssdataexplorer.norc.org/variables/2106/vshow).
+#' For further details see the [GSS Data Explorer page for `forgive2`](https://gssdataexplorer.norc.org/variables/2106/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `forgive3`](https://gssdataexplorer.norc.org/variables/2107/vshow).
+#' For further details see the [GSS Data Explorer page for `forgive3`](https://gssdataexplorer.norc.org/variables/2107/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `feelgod`](https://gssdataexplorer.norc.org/variables/2108/vshow).
+#' For further details see the [GSS Data Explorer page for `feelgod`](https://gssdataexplorer.norc.org/variables/2108/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -341,7 +341,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relcmfrt`](https://gssdataexplorer.norc.org/variables/2109/vshow).
+#' For further details see the [GSS Data Explorer page for `relcmfrt`](https://gssdataexplorer.norc.org/variables/2109/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

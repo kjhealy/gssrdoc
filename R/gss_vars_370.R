@@ -25,7 +25,7 @@
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `condrift`](https://gssdataexplorer.norc.org/variables/3341/vshow).
+#' For further details see the [GSS Data Explorer page for `condrift`](https://gssdataexplorer.norc.org/variables/3341/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -64,7 +64,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evolved`](https://gssdataexplorer.norc.org/variables/3342/vshow).
+#' For further details see the [GSS Data Explorer page for `evolved`](https://gssdataexplorer.norc.org/variables/3342/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -96,7 +96,7 @@ NULL
 #'  |2012 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evolved1`](https://gssdataexplorer.norc.org/variables/3549/vshow).
+#' For further details see the [GSS Data Explorer page for `evolved1`](https://gssdataexplorer.norc.org/variables/3549/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evolved2`](https://gssdataexplorer.norc.org/variables/6303/vshow).
+#' For further details see the [GSS Data Explorer page for `evolved2`](https://gssdataexplorer.norc.org/variables/6303/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -169,7 +169,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `earthsun`](https://gssdataexplorer.norc.org/variables/3343/vshow).
+#' For further details see the [GSS Data Explorer page for `earthsun`](https://gssdataexplorer.norc.org/variables/3343/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -210,7 +210,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solarrev`](https://gssdataexplorer.norc.org/variables/3344/vshow).
+#' For further details see the [GSS Data Explorer page for `solarrev`](https://gssdataexplorer.norc.org/variables/3344/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -243,7 +243,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tomatoes`](https://gssdataexplorer.norc.org/variables/3345/vshow).
+#' For further details see the [GSS Data Explorer page for `tomatoes`](https://gssdataexplorer.norc.org/variables/3345/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |2014 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intrhome`](https://gssdataexplorer.norc.org/variables/3346/vshow).
+#' For further details see the [GSS Data Explorer page for `intrhome`](https://gssdataexplorer.norc.org/variables/3346/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -323,7 +323,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `coldeg1`](https://gssdataexplorer.norc.org/variables/3347/vshow).
+#' For further details see the [GSS Data Explorer page for `coldeg1`](https://gssdataexplorer.norc.org/variables/3347/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -440,7 +440,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `majorcol`](https://gssdataexplorer.norc.org/variables/3348/vshow).
+#' For further details see the [GSS Data Explorer page for `majorcol`](https://gssdataexplorer.norc.org/variables/3348/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

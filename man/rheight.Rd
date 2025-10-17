@@ -29,7 +29,7 @@ Question What is your height? Reported in inches.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7971/vshow}{GSS Data Explorer page for \code{rheight}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7971/vshow}{GSS Data Explorer page for \code{rheight}}.
 }
 
 \keyword{variable}

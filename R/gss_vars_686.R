@@ -17,7 +17,7 @@
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldchld_oth`](https://gssdataexplorer.norc.org/variables/8079/vshow).
+#' For further details see the [GSS Data Explorer page for `chldchld_oth`](https://gssdataexplorer.norc.org/variables/8079/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -48,7 +48,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldshop_asn`](https://gssdataexplorer.norc.org/variables/8086/vshow).
+#' For further details see the [GSS Data Explorer page for `chldshop_asn`](https://gssdataexplorer.norc.org/variables/8086/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -79,7 +79,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldshop_blk`](https://gssdataexplorer.norc.org/variables/8087/vshow).
+#' For further details see the [GSS Data Explorer page for `chldshop_blk`](https://gssdataexplorer.norc.org/variables/8087/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -110,7 +110,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldshop_hisp`](https://gssdataexplorer.norc.org/variables/8088/vshow).
+#' For further details see the [GSS Data Explorer page for `chldshop_hisp`](https://gssdataexplorer.norc.org/variables/8088/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -141,7 +141,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldshop_wht`](https://gssdataexplorer.norc.org/variables/8090/vshow).
+#' For further details see the [GSS Data Explorer page for `chldshop_wht`](https://gssdataexplorer.norc.org/variables/8090/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -172,7 +172,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldshop_oth`](https://gssdataexplorer.norc.org/variables/8089/vshow).
+#' For further details see the [GSS Data Explorer page for `chldshop_oth`](https://gssdataexplorer.norc.org/variables/8089/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -206,7 +206,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ptnrsxnow1`](https://gssdataexplorer.norc.org/variables/8169/vshow).
+#' For further details see the [GSS Data Explorer page for `ptnrsxnow1`](https://gssdataexplorer.norc.org/variables/8169/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hispanic_0022`](https://gssdataexplorer.norc.org/variables/8112/vshow).
+#' For further details see the [GSS Data Explorer page for `hispanic_0022`](https://gssdataexplorer.norc.org/variables/8112/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -329,7 +329,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `numemps_0422`](https://gssdataexplorer.norc.org/variables/8152/vshow).
+#' For further details see the [GSS Data Explorer page for `numemps_0422`](https://gssdataexplorer.norc.org/variables/8152/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -370,7 +370,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uscitzn_0822`](https://gssdataexplorer.norc.org/variables/8181/vshow).
+#' For further details see the [GSS Data Explorer page for `uscitzn_0822`](https://gssdataexplorer.norc.org/variables/8181/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -20,7 +20,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `empathy5`](https://gssdataexplorer.norc.org/variables/2874/vshow).
+#' For further details see the [GSS Data Explorer page for `empathy5`](https://gssdataexplorer.norc.org/variables/2874/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `empathy6`](https://gssdataexplorer.norc.org/variables/2875/vshow).
+#' For further details see the [GSS Data Explorer page for `empathy6`](https://gssdataexplorer.norc.org/variables/2875/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `empathy7`](https://gssdataexplorer.norc.org/variables/2876/vshow).
+#' For further details see the [GSS Data Explorer page for `empathy7`](https://gssdataexplorer.norc.org/variables/2876/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givblood`](https://gssdataexplorer.norc.org/variables/2877/vshow).
+#' For further details see the [GSS Data Explorer page for `givblood`](https://gssdataexplorer.norc.org/variables/2877/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -168,7 +168,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givhmlss`](https://gssdataexplorer.norc.org/variables/2878/vshow).
+#' For further details see the [GSS Data Explorer page for `givhmlss`](https://gssdataexplorer.norc.org/variables/2878/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `retchnge`](https://gssdataexplorer.norc.org/variables/2879/vshow).
+#' For further details see the [GSS Data Explorer page for `retchnge`](https://gssdataexplorer.norc.org/variables/2879/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -248,7 +248,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cutahead`](https://gssdataexplorer.norc.org/variables/2880/vshow).
+#' For further details see the [GSS Data Explorer page for `cutahead`](https://gssdataexplorer.norc.org/variables/2880/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volchrty`](https://gssdataexplorer.norc.org/variables/2881/vshow).
+#' For further details see the [GSS Data Explorer page for `volchrty`](https://gssdataexplorer.norc.org/variables/2881/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -328,7 +328,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givchrty`](https://gssdataexplorer.norc.org/variables/2882/vshow).
+#' For further details see the [GSS Data Explorer page for `givchrty`](https://gssdataexplorer.norc.org/variables/2882/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -368,7 +368,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givseat`](https://gssdataexplorer.norc.org/variables/2883/vshow).
+#' For further details see the [GSS Data Explorer page for `givseat`](https://gssdataexplorer.norc.org/variables/2883/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

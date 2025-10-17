@@ -34,12 +34,11 @@ D. I would endure all things for the sake of the one I love.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3056/vshow}{GSS Data Explorer page for \code{agape4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3056/vshow}{GSS Data Explorer page for \code{agape4}}.
 }
 
 \seealso{
 Other Altruistic Love: 
-\code{\link{agape1}},
 \code{\link{agape2}},
 \code{\link{agape3}}
 }

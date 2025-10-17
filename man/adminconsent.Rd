@@ -32,7 +32,7 @@ Question Respondent consent to possible data linkage
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7425/vshow}{GSS Data Explorer page for \code{adminconsent}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7425/vshow}{GSS Data Explorer page for \code{adminconsent}}.
 }
 
 \keyword{variable}

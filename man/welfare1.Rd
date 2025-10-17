@@ -34,16 +34,13 @@ A. Makes people work less than they would if there wasn''t a welfare system.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5498/vshow}{GSS Data Explorer page for \code{welfare1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5498/vshow}{GSS Data Explorer page for \code{welfare1}}.
 }
 
 \seealso{
 Other Welfare: 
 \code{\link{welfare2}},
-\code{\link{welfare3}},
-\code{\link{welfare4}},
-\code{\link{welfare5}},
-\code{\link{welfare6}}
+\code{\link{welfare3}}
 }
 \concept{Welfare}
 \keyword{variable}

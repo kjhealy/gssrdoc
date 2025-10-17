@@ -20,7 +20,7 @@
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwbus`](https://gssdataexplorer.norc.org/variables/7229/vshow).
+#' For further details see the [GSS Data Explorer page for `knwbus`](https://gssdataexplorer.norc.org/variables/7229/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwexec`](https://gssdataexplorer.norc.org/variables/7230/vshow).
+#' For further details see the [GSS Data Explorer page for `knwexec`](https://gssdataexplorer.norc.org/variables/7230/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwclenr`](https://gssdataexplorer.norc.org/variables/7231/vshow).
+#' For further details see the [GSS Data Explorer page for `knwclenr`](https://gssdataexplorer.norc.org/variables/7231/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwcuttr`](https://gssdataexplorer.norc.org/variables/7232/vshow).
+#' For further details see the [GSS Data Explorer page for `knwcuttr`](https://gssdataexplorer.norc.org/variables/7232/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwhrman`](https://gssdataexplorer.norc.org/variables/7233/vshow).
+#' For further details see the [GSS Data Explorer page for `knwhrman`](https://gssdataexplorer.norc.org/variables/7233/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwlawyr`](https://gssdataexplorer.norc.org/variables/7234/vshow).
+#' For further details see the [GSS Data Explorer page for `knwlawyr`](https://gssdataexplorer.norc.org/variables/7234/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwmchnc`](https://gssdataexplorer.norc.org/variables/7235/vshow).
+#' For further details see the [GSS Data Explorer page for `knwmchnc`](https://gssdataexplorer.norc.org/variables/7235/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwnurse`](https://gssdataexplorer.norc.org/variables/7236/vshow).
+#' For further details see the [GSS Data Explorer page for `knwnurse`](https://gssdataexplorer.norc.org/variables/7236/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwcop`](https://gssdataexplorer.norc.org/variables/7237/vshow).
+#' For further details see the [GSS Data Explorer page for `knwcop`](https://gssdataexplorer.norc.org/variables/7237/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwtcher`](https://gssdataexplorer.norc.org/variables/7238/vshow).
+#' For further details see the [GSS Data Explorer page for `knwtcher`](https://gssdataexplorer.norc.org/variables/7238/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

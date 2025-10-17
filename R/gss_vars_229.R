@@ -24,7 +24,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `harmony`](https://gssdataexplorer.norc.org/variables/2110/vshow).
+#' For further details see the [GSS Data Explorer page for `harmony`](https://gssdataexplorer.norc.org/variables/2110/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -61,7 +61,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uniongod`](https://gssdataexplorer.norc.org/variables/2111/vshow).
+#' For further details see the [GSS Data Explorer page for `uniongod`](https://gssdataexplorer.norc.org/variables/2111/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -98,7 +98,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godlove`](https://gssdataexplorer.norc.org/variables/2112/vshow).
+#' For further details see the [GSS Data Explorer page for `godlove`](https://gssdataexplorer.norc.org/variables/2112/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -136,7 +136,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `beausprt`](https://gssdataexplorer.norc.org/variables/2113/vshow).
+#' For further details see the [GSS Data Explorer page for `beausprt`](https://gssdataexplorer.norc.org/variables/2113/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -172,7 +172,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nocheer`](https://gssdataexplorer.norc.org/variables/2114/vshow).
+#' For further details see the [GSS Data Explorer page for `nocheer`](https://gssdataexplorer.norc.org/variables/2114/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nervous`](https://gssdataexplorer.norc.org/variables/2115/vshow).
+#' For further details see the [GSS Data Explorer page for `nervous`](https://gssdataexplorer.norc.org/variables/2115/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -244,7 +244,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fidgety`](https://gssdataexplorer.norc.org/variables/2116/vshow).
+#' For further details see the [GSS Data Explorer page for `fidgety`](https://gssdataexplorer.norc.org/variables/2116/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -280,7 +280,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hopeless`](https://gssdataexplorer.norc.org/variables/2117/vshow).
+#' For further details see the [GSS Data Explorer page for `hopeless`](https://gssdataexplorer.norc.org/variables/2117/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `effort`](https://gssdataexplorer.norc.org/variables/2118/vshow).
+#' For further details see the [GSS Data Explorer page for `effort`](https://gssdataexplorer.norc.org/variables/2118/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -352,7 +352,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrthless`](https://gssdataexplorer.norc.org/variables/2119/vshow).
+#' For further details see the [GSS Data Explorer page for `wrthless`](https://gssdataexplorer.norc.org/variables/2119/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

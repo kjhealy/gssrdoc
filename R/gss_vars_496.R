@@ -21,7 +21,7 @@
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `extrawrk`](https://gssdataexplorer.norc.org/variables/6337/vshow).
+#' For further details see the [GSS Data Explorer page for `extrawrk`](https://gssdataexplorer.norc.org/variables/6337/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `extraern`](https://gssdataexplorer.norc.org/variables/6338/vshow).
+#' For further details see the [GSS Data Explorer page for `extraern`](https://gssdataexplorer.norc.org/variables/6338/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -89,7 +89,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jbendyr`](https://gssdataexplorer.norc.org/variables/6339/vshow).
+#' For further details see the [GSS Data Explorer page for `jbendyr`](https://gssdataexplorer.norc.org/variables/6339/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -131,7 +131,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jbendmo`](https://gssdataexplorer.norc.org/variables/6340/vshow).
+#' For further details see the [GSS Data Explorer page for `jbendmo`](https://gssdataexplorer.norc.org/variables/6340/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -169,7 +169,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `exjobsat`](https://gssdataexplorer.norc.org/variables/6341/vshow).
+#' For further details see the [GSS Data Explorer page for `exjobsat`](https://gssdataexplorer.norc.org/variables/6341/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -204,7 +204,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wornojob`](https://gssdataexplorer.norc.org/variables/6342/vshow).
+#' For further details see the [GSS Data Explorer page for `wornojob`](https://gssdataexplorer.norc.org/variables/6342/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -242,7 +242,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `newskill`](https://gssdataexplorer.norc.org/variables/6343/vshow).
+#' For further details see the [GSS Data Explorer page for `newskill`](https://gssdataexplorer.norc.org/variables/6343/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -280,7 +280,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lowpay`](https://gssdataexplorer.norc.org/variables/6344/vshow).
+#' For further details see the [GSS Data Explorer page for `lowpay`](https://gssdataexplorer.norc.org/variables/6344/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -318,7 +318,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tempwork`](https://gssdataexplorer.norc.org/variables/6345/vshow).
+#' For further details see the [GSS Data Explorer page for `tempwork`](https://gssdataexplorer.norc.org/variables/6345/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -356,7 +356,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mortravl`](https://gssdataexplorer.norc.org/variables/6346/vshow).
+#' For further details see the [GSS Data Explorer page for `mortravl`](https://gssdataexplorer.norc.org/variables/6346/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

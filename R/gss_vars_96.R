@@ -23,7 +23,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `race1`](https://gssdataexplorer.norc.org/variables/870/vshow).
+#' For further details see the [GSS Data Explorer page for `race1`](https://gssdataexplorer.norc.org/variables/870/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `race2`](https://gssdataexplorer.norc.org/variables/871/vshow).
+#' For further details see the [GSS Data Explorer page for `race2`](https://gssdataexplorer.norc.org/variables/871/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `race3`](https://gssdataexplorer.norc.org/variables/872/vshow).
+#' For further details see the [GSS Data Explorer page for `race3`](https://gssdataexplorer.norc.org/variables/872/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `race4`](https://gssdataexplorer.norc.org/variables/873/vshow).
+#' For further details see the [GSS Data Explorer page for `race4`](https://gssdataexplorer.norc.org/variables/873/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `race5`](https://gssdataexplorer.norc.org/variables/874/vshow).
+#' For further details see the [GSS Data Explorer page for `race5`](https://gssdataexplorer.norc.org/variables/874/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spouse1`](https://gssdataexplorer.norc.org/variables/875/vshow).
+#' For further details see the [GSS Data Explorer page for `spouse1`](https://gssdataexplorer.norc.org/variables/875/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spouse2`](https://gssdataexplorer.norc.org/variables/876/vshow).
+#' For further details see the [GSS Data Explorer page for `spouse2`](https://gssdataexplorer.norc.org/variables/876/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spouse3`](https://gssdataexplorer.norc.org/variables/877/vshow).
+#' For further details see the [GSS Data Explorer page for `spouse3`](https://gssdataexplorer.norc.org/variables/877/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -318,7 +318,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spouse4`](https://gssdataexplorer.norc.org/variables/878/vshow).
+#' For further details see the [GSS Data Explorer page for `spouse4`](https://gssdataexplorer.norc.org/variables/878/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -354,7 +354,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spouse5`](https://gssdataexplorer.norc.org/variables/879/vshow).
+#' For further details see the [GSS Data Explorer page for `spouse5`](https://gssdataexplorer.norc.org/variables/879/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

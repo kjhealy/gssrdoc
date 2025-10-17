@@ -43,15 +43,12 @@ Are you salaried, paid by the hour, or paid some other way? If you have more tha
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6291/vshow}{GSS Data Explorer page for \code{paidhow}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6291/vshow}{GSS Data Explorer page for \code{paidhow}}.
 }
 
 \seealso{
 Other Flexible Work: 
-\code{\link{advsched}},
-\code{\link{leasthrs}},
 \code{\link{mosthrs}},
-\code{\link{sethrs}},
 \code{\link{usualhrs}}
 }
 \concept{Flexible Work}

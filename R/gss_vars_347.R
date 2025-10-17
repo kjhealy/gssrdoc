@@ -18,7 +18,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typunion`](https://gssdataexplorer.norc.org/variables/3114/vshow).
+#' For further details see the [GSS Data Explorer page for `typunion`](https://gssdataexplorer.norc.org/variables/3114/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typsport`](https://gssdataexplorer.norc.org/variables/3115/vshow).
+#' For further details see the [GSS Data Explorer page for `typsport`](https://gssdataexplorer.norc.org/variables/3115/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typyouth`](https://gssdataexplorer.norc.org/variables/3116/vshow).
+#' For further details see the [GSS Data Explorer page for `typyouth`](https://gssdataexplorer.norc.org/variables/3116/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -114,7 +114,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typschl`](https://gssdataexplorer.norc.org/variables/3117/vshow).
+#' For further details see the [GSS Data Explorer page for `typschl`](https://gssdataexplorer.norc.org/variables/3117/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typhobby`](https://gssdataexplorer.norc.org/variables/3118/vshow).
+#' For further details see the [GSS Data Explorer page for `typhobby`](https://gssdataexplorer.norc.org/variables/3118/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -178,7 +178,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typgreek`](https://gssdataexplorer.norc.org/variables/3119/vshow).
+#' For further details see the [GSS Data Explorer page for `typgreek`](https://gssdataexplorer.norc.org/variables/3119/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -210,7 +210,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typnat`](https://gssdataexplorer.norc.org/variables/3120/vshow).
+#' For further details see the [GSS Data Explorer page for `typnat`](https://gssdataexplorer.norc.org/variables/3120/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -242,7 +242,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typfarm`](https://gssdataexplorer.norc.org/variables/3121/vshow).
+#' For further details see the [GSS Data Explorer page for `typfarm`](https://gssdataexplorer.norc.org/variables/3121/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typlit`](https://gssdataexplorer.norc.org/variables/3122/vshow).
+#' For further details see the [GSS Data Explorer page for `typlit`](https://gssdataexplorer.norc.org/variables/3122/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typprof`](https://gssdataexplorer.norc.org/variables/3123/vshow).
+#' For further details see the [GSS Data Explorer page for `typprof`](https://gssdataexplorer.norc.org/variables/3123/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

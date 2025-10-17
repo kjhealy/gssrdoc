@@ -18,7 +18,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrunion1`](https://gssdataexplorer.norc.org/variables/3164/vshow).
+#' For further details see the [GSS Data Explorer page for `yrunion1`](https://gssdataexplorer.norc.org/variables/3164/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrunion2`](https://gssdataexplorer.norc.org/variables/3165/vshow).
+#' For further details see the [GSS Data Explorer page for `yrunion2`](https://gssdataexplorer.norc.org/variables/3165/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrunion3`](https://gssdataexplorer.norc.org/variables/3166/vshow).
+#' For further details see the [GSS Data Explorer page for `yrunion3`](https://gssdataexplorer.norc.org/variables/3166/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -114,7 +114,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrunion4`](https://gssdataexplorer.norc.org/variables/3167/vshow).
+#' For further details see the [GSS Data Explorer page for `yrunion4`](https://gssdataexplorer.norc.org/variables/3167/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrsport1`](https://gssdataexplorer.norc.org/variables/3168/vshow).
+#' For further details see the [GSS Data Explorer page for `yrsport1`](https://gssdataexplorer.norc.org/variables/3168/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -178,7 +178,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrsport2`](https://gssdataexplorer.norc.org/variables/3169/vshow).
+#' For further details see the [GSS Data Explorer page for `yrsport2`](https://gssdataexplorer.norc.org/variables/3169/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -210,7 +210,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrsport3`](https://gssdataexplorer.norc.org/variables/3170/vshow).
+#' For further details see the [GSS Data Explorer page for `yrsport3`](https://gssdataexplorer.norc.org/variables/3170/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -242,7 +242,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrsport4`](https://gssdataexplorer.norc.org/variables/3171/vshow).
+#' For further details see the [GSS Data Explorer page for `yrsport4`](https://gssdataexplorer.norc.org/variables/3171/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrsport5`](https://gssdataexplorer.norc.org/variables/3172/vshow).
+#' For further details see the [GSS Data Explorer page for `yrsport5`](https://gssdataexplorer.norc.org/variables/3172/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrsport6`](https://gssdataexplorer.norc.org/variables/3173/vshow).
+#' For further details see the [GSS Data Explorer page for `yrsport6`](https://gssdataexplorer.norc.org/variables/3173/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

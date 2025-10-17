@@ -31,7 +31,7 @@
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sibdeath`](https://gssdataexplorer.norc.org/variables/751/vshow).
+#' For further details see the [GSS Data Explorer page for `sibdeath`](https://gssdataexplorer.norc.org/variables/751/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -76,7 +76,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdeath`](https://gssdataexplorer.norc.org/variables/752/vshow).
+#' For further details see the [GSS Data Explorer page for `spdeath`](https://gssdataexplorer.norc.org/variables/752/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trauma1`](https://gssdataexplorer.norc.org/variables/753/vshow).
+#' For further details see the [GSS Data Explorer page for `trauma1`](https://gssdataexplorer.norc.org/variables/753/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -160,7 +160,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trauma5`](https://gssdataexplorer.norc.org/variables/754/vshow).
+#' For further details see the [GSS Data Explorer page for `trauma5`](https://gssdataexplorer.norc.org/variables/754/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -194,7 +194,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trarel1`](https://gssdataexplorer.norc.org/variables/755/vshow).
+#' For further details see the [GSS Data Explorer page for `trarel1`](https://gssdataexplorer.norc.org/variables/755/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -228,7 +228,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trarel5`](https://gssdataexplorer.norc.org/variables/756/vshow).
+#' For further details see the [GSS Data Explorer page for `trarel5`](https://gssdataexplorer.norc.org/variables/756/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tratot1`](https://gssdataexplorer.norc.org/variables/757/vshow).
+#' For further details see the [GSS Data Explorer page for `tratot1`](https://gssdataexplorer.norc.org/variables/757/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -296,7 +296,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tratot5`](https://gssdataexplorer.norc.org/variables/758/vshow).
+#' For further details see the [GSS Data Explorer page for `tratot5`](https://gssdataexplorer.norc.org/variables/758/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `defspdr`](https://gssdataexplorer.norc.org/variables/759/vshow).
+#' For further details see the [GSS Data Explorer page for `defspdr`](https://gssdataexplorer.norc.org/variables/759/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -364,7 +364,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `defspdfg`](https://gssdataexplorer.norc.org/variables/760/vshow).
+#' For further details see the [GSS Data Explorer page for `defspdfg`](https://gssdataexplorer.norc.org/variables/760/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

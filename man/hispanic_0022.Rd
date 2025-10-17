@@ -77,7 +77,7 @@ As of 2024, HISPANIC has been recoded to remove certain sensitive categories. Th
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8112/vshow}{GSS Data Explorer page for \code{hispanic_0022}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8112/vshow}{GSS Data Explorer page for \code{hispanic_0022}}.
 }
 
 \keyword{variable}

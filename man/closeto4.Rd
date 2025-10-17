@@ -30,7 +30,7 @@ Question On a scale from 1 to 10, with 1 being not at all close and 10 being ver
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7113/vshow}{GSS Data Explorer page for \code{closeto4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7113/vshow}{GSS Data Explorer page for \code{closeto4}}.
 }
 
 \keyword{variable}

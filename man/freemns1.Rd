@@ -38,30 +38,16 @@ A. First distinct subject mentioned
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2657/vshow}{GSS Data Explorer page for \code{freemns1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2657/vshow}{GSS Data Explorer page for \code{freemns1}}.
 }
 
 \seealso{
 Other Freedom: 
-\code{\link{choice}},
-\code{\link{cntrlife}},
-\code{\link{expunpop}},
 \code{\link{freeexp1}},
 \code{\link{freeexp2}},
 \code{\link{freeexp3}},
 \code{\link{freemns2}},
-\code{\link{freemns3}},
-\code{\link{freenow}},
-\code{\link{freeprss}},
-\code{\link{howfree}},
-\code{\link{inpeace}},
-\code{\link{leftlone}},
-\code{\link{nogovt}},
-\code{\link{partpol}},
-\code{\link{rfreenow}},
-\code{\link{rhowfree}},
-\code{\link{satdemoc}},
-\code{\link{wlthpov}}
+\code{\link{freemns3}}
 }
 \concept{Freedom}
 \keyword{variable}

@@ -29,7 +29,7 @@ Question In the last twelve months, how many trips did you make by plane? Count 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7497/vshow}{GSS Data Explorer page for \code{planetrp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7497/vshow}{GSS Data Explorer page for \code{planetrp}}.
 }
 
 \keyword{variable}

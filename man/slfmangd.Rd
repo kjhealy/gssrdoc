@@ -32,14 +32,12 @@ Question A. Are you currently involved in a self-managed team?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3558/vshow}{GSS Data Explorer page for \code{slfmangd}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3558/vshow}{GSS Data Explorer page for \code{slfmangd}}.
 }
 
 \seealso{
 Other Shared Capitalism: 
-\code{\link{buyvalue}},
 \code{\link{compwage}},
-\code{\link{defpensn}},
 \code{\link{empinput}},
 \code{\link{emptrain}},
 \code{\link{esop}},
@@ -47,7 +45,6 @@ Other Shared Capitalism:
 \code{\link{numorg}},
 \code{\link{ops2005}},
 \code{\link{talkteam}},
-\code{\link{trdestck}},
 \code{\link{wealth}}
 }
 \concept{Shared Capitalism}

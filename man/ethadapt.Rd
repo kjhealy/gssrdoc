@@ -34,22 +34,18 @@ D. In order to have a smoothly functioning society, members of ethnic minorities
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2729/vshow}{GSS Data Explorer page for \code{ethadapt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2729/vshow}{GSS Data Explorer page for \code{ethadapt}}.
 }
 
 \seealso{
 Other Prejudice: 
-\code{\link{ethdiff}},
 \code{\link{ethignor}},
 \code{\link{ethimp}},
 \code{\link{ethnofit}},
-\code{\link{ethsame}},
 \code{\link{ethtrads}},
 \code{\link{feelasns}},
 \code{\link{feelblks}},
-\code{\link{feelhsps}},
-\code{\link{feelwhts}},
-\code{\link{whtsdiff}}
+\code{\link{feelhsps}}
 }
 \concept{Prejudice}
 \keyword{variable}

@@ -51,7 +51,7 @@ B. Japan
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5491/vshow}{GSS Data Explorer page for \code{japan}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5491/vshow}{GSS Data Explorer page for \code{japan}}.
 }
 
 \seealso{
@@ -59,16 +59,9 @@ Other War and International:
 \code{\link{brazil}},
 \code{\link{canada}},
 \code{\link{china}},
-\code{\link{commun}},
-\code{\link{commun10}},
 \code{\link{egypt}},
 \code{\link{england}},
-\code{\link{israel}},
-\code{\link{russia}},
-\code{\link{usintl}},
-\code{\link{usun}},
-\code{\link{uswar}},
-\code{\link{uswary}}
+\code{\link{israel}}
 }
 \concept{War and International}
 \keyword{variable}

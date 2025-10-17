@@ -24,7 +24,7 @@
 #'  |2022 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intlhsps`](https://gssdataexplorer.norc.org/variables/1200/vshow).
+#' For further details see the [GSS Data Explorer page for `intlhsps`](https://gssdataexplorer.norc.org/variables/1200/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intlso`](https://gssdataexplorer.norc.org/variables/1201/vshow).
+#' For further details see the [GSS Data Explorer page for `intlso`](https://gssdataexplorer.norc.org/variables/1201/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `farewhts`](https://gssdataexplorer.norc.org/variables/1202/vshow).
+#' For further details see the [GSS Data Explorer page for `farewhts`](https://gssdataexplorer.norc.org/variables/1202/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `farejews`](https://gssdataexplorer.norc.org/variables/1203/vshow).
+#' For further details see the [GSS Data Explorer page for `farejews`](https://gssdataexplorer.norc.org/variables/1203/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -160,7 +160,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fareblks`](https://gssdataexplorer.norc.org/variables/1204/vshow).
+#' For further details see the [GSS Data Explorer page for `fareblks`](https://gssdataexplorer.norc.org/variables/1204/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -194,7 +194,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fareasns`](https://gssdataexplorer.norc.org/variables/1205/vshow).
+#' For further details see the [GSS Data Explorer page for `fareasns`](https://gssdataexplorer.norc.org/variables/1205/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -228,7 +228,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `farehsps`](https://gssdataexplorer.norc.org/variables/1206/vshow).
+#' For further details see the [GSS Data Explorer page for `farehsps`](https://gssdataexplorer.norc.org/variables/1206/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fareso`](https://gssdataexplorer.norc.org/variables/1207/vshow).
+#' For further details see the [GSS Data Explorer page for `fareso`](https://gssdataexplorer.norc.org/variables/1207/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -296,7 +296,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `patrwhts`](https://gssdataexplorer.norc.org/variables/1208/vshow).
+#' For further details see the [GSS Data Explorer page for `patrwhts`](https://gssdataexplorer.norc.org/variables/1208/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `patrjews`](https://gssdataexplorer.norc.org/variables/1209/vshow).
+#' For further details see the [GSS Data Explorer page for `patrjews`](https://gssdataexplorer.norc.org/variables/1209/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

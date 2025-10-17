@@ -29,7 +29,7 @@ Question e.  Native American or American Indian?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6355/vshow}{GSS Data Explorer page for \code{racethna}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6355/vshow}{GSS Data Explorer page for \code{racethna}}.
 }
 
 \seealso{

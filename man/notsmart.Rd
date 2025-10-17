@@ -37,7 +37,7 @@ Question In your day-to-day life how often have any of the following things happ
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7160/vshow}{GSS Data Explorer page for \code{notsmart}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7160/vshow}{GSS Data Explorer page for \code{notsmart}}.
 }
 
 \keyword{variable}

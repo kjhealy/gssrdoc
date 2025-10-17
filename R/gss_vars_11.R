@@ -55,7 +55,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madeg`](https://gssdataexplorer.norc.org/variables/61/vshow).
+#' For further details see the [GSS Data Explorer page for `madeg`](https://gssdataexplorer.norc.org/variables/61/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -123,7 +123,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdeg`](https://gssdataexplorer.norc.org/variables/62/vshow).
+#' For further details see the [GSS Data Explorer page for `spdeg`](https://gssdataexplorer.norc.org/variables/62/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `major1`](https://gssdataexplorer.norc.org/variables/63/vshow).
+#' For further details see the [GSS Data Explorer page for `major1`](https://gssdataexplorer.norc.org/variables/63/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -356,7 +356,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `major2`](https://gssdataexplorer.norc.org/variables/64/vshow).
+#' For further details see the [GSS Data Explorer page for `major2`](https://gssdataexplorer.norc.org/variables/64/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -397,7 +397,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dipged`](https://gssdataexplorer.norc.org/variables/65/vshow).
+#' For further details see the [GSS Data Explorer page for `dipged`](https://gssdataexplorer.norc.org/variables/65/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -434,7 +434,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdipged`](https://gssdataexplorer.norc.org/variables/66/vshow).
+#' For further details see the [GSS Data Explorer page for `spdipged`](https://gssdataexplorer.norc.org/variables/66/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -470,7 +470,7 @@ NULL
 #'  |2016 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `codipged`](https://gssdataexplorer.norc.org/variables/6162/vshow).
+#' For further details see the [GSS Data Explorer page for `codipged`](https://gssdataexplorer.norc.org/variables/6162/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -512,7 +512,7 @@ NULL
 #'  |2016 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cosector`](https://gssdataexplorer.norc.org/variables/6163/vshow).
+#' For further details see the [GSS Data Explorer page for `cosector`](https://gssdataexplorer.norc.org/variables/6163/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -546,7 +546,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whenhs`](https://gssdataexplorer.norc.org/variables/67/vshow).
+#' For further details see the [GSS Data Explorer page for `whenhs`](https://gssdataexplorer.norc.org/variables/67/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -580,7 +580,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whencol`](https://gssdataexplorer.norc.org/variables/68/vshow).
+#' For further details see the [GSS Data Explorer page for `whencol`](https://gssdataexplorer.norc.org/variables/68/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

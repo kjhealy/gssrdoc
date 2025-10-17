@@ -34,7 +34,7 @@ Question Please indicate about how many people do you have contact with on a typ
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7263/vshow}{GSS Data Explorer page for \code{conwkday}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7263/vshow}{GSS Data Explorer page for \code{conwkday}}.
 }
 
 \keyword{variable}

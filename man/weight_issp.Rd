@@ -29,7 +29,7 @@ Question What is your weight? Reported in pounds.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7839/vshow}{GSS Data Explorer page for \code{weight_issp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7839/vshow}{GSS Data Explorer page for \code{weight_issp}}.
 }
 
 \keyword{variable}

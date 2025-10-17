@@ -30,7 +30,7 @@ Question Today, tests are being developed that make it possible to detect seriou
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7295/vshow}{GSS Data Explorer page for \code{geneself2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7295/vshow}{GSS Data Explorer page for \code{geneself2}}.
 }
 
 \keyword{variable}

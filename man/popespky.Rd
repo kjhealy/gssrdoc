@@ -33,13 +33,12 @@ Question Under certain conditions, the pope is infallible when he speaks on matt
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5571/vshow}{GSS Data Explorer page for \code{popespky}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5571/vshow}{GSS Data Explorer page for \code{popespky}}.
 }
 
 \seealso{
 Other Form Y: 
 \code{\link{letdie1y}},
-\code{\link{pilloky}},
 \code{\link{polhitoy}}
 }
 \concept{Form Y}

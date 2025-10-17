@@ -34,28 +34,15 @@ Question If you had to choose, which of the following do you think is a bigger p
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8191/vshow}{GSS Data Explorer page for \code{voteprob}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8191/vshow}{GSS Data Explorer page for \code{voteprob}}.
 }
 
 \seealso{
 Other ANES: 
-\code{\link{econstat}},
-\code{\link{lkelyvot}},
-\code{\link{polintrst}},
-\code{\link{ratechall124}},
 \code{\link{ratechall1ts}},
-\code{\link{ratechall224}},
 \code{\link{ratechall2ts}},
-\code{\link{ratechall324}},
 \code{\link{ratechall3ts}},
-\code{\link{ratedemp}},
-\code{\link{rateincumb24}},
 \code{\link{rateincumbts}},
-\code{\link{ratemaga}},
-\code{\link{raterepp}},
-\code{\link{satdemoc}},
-\code{\link{whovote24}},
-\code{\link{whovote24a}},
 \code{\link{whovotets}}
 }
 \concept{ANES}

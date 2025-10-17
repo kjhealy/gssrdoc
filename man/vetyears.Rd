@@ -55,7 +55,7 @@ IF YES: What was your total time on active duty?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5285/vshow}{GSS Data Explorer page for \code{vetyears}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5285/vshow}{GSS Data Explorer page for \code{vetyears}}.
 }
 
 \seealso{

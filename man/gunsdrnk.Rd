@@ -30,7 +30,7 @@ Question In all states it is illegal to drive while under the influence of alcoh
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3706/vshow}{GSS Data Explorer page for \code{gunsdrnk}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3706/vshow}{GSS Data Explorer page for \code{gunsdrnk}}.
 }
 
 \seealso{

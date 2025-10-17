@@ -29,19 +29,13 @@ Question In how many privately-held businesses, professional practices, limited 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3816/vshow}{GSS Data Explorer page for \code{numown}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3816/vshow}{GSS Data Explorer page for \code{numown}}.
 }
 
 \seealso{
 Other Self Employment: 
-\code{\link{bizgross}},
-\code{\link{bizshare}},
-\code{\link{numemps5}},
 \code{\link{ownbiz}},
-\code{\link{owninc}},
-\code{\link{paidemps}},
 \code{\link{startbiz}},
-\code{\link{whybiz}},
 \code{\link{yearbiz}}
 }
 \concept{Self Employment}

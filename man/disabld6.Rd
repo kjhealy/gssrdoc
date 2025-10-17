@@ -30,7 +30,7 @@ Question Because of a physical, mental, or emotional condition lasting 3 months 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3717/vshow}{GSS Data Explorer page for \code{disabld6}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3717/vshow}{GSS Data Explorer page for \code{disabld6}}.
 }
 
 \seealso{

@@ -20,7 +20,7 @@
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oppsegov`](https://gssdataexplorer.norc.org/variables/4938/vshow).
+#' For further details see the [GSS Data Explorer page for `oppsegov`](https://gssdataexplorer.norc.org/variables/4938/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff18`](https://gssdataexplorer.norc.org/variables/4939/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff18`](https://gssdataexplorer.norc.org/variables/4939/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff19`](https://gssdataexplorer.norc.org/variables/4940/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff19`](https://gssdataexplorer.norc.org/variables/4940/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -131,7 +131,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff20`](https://gssdataexplorer.norc.org/variables/4941/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff20`](https://gssdataexplorer.norc.org/variables/4941/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `actlaw`](https://gssdataexplorer.norc.org/variables/4942/vshow).
+#' For further details see the [GSS Data Explorer page for `actlaw`](https://gssdataexplorer.norc.org/variables/4942/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -201,7 +201,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `affctlaw`](https://gssdataexplorer.norc.org/variables/4943/vshow).
+#' For further details see the [GSS Data Explorer page for `affctlaw`](https://gssdataexplorer.norc.org/variables/4943/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -236,7 +236,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polint1`](https://gssdataexplorer.norc.org/variables/4944/vshow).
+#' For further details see the [GSS Data Explorer page for `polint1`](https://gssdataexplorer.norc.org/variables/4944/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govdook`](https://gssdataexplorer.norc.org/variables/4945/vshow).
+#' For further details see the [GSS Data Explorer page for `govdook`](https://gssdataexplorer.norc.org/variables/4945/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -312,7 +312,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polgreed`](https://gssdataexplorer.norc.org/variables/4946/vshow).
+#' For further details see the [GSS Data Explorer page for `polgreed`](https://gssdataexplorer.norc.org/variables/4946/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -347,7 +347,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `discpol`](https://gssdataexplorer.norc.org/variables/4947/vshow).
+#' For further details see the [GSS Data Explorer page for `discpol`](https://gssdataexplorer.norc.org/variables/4947/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

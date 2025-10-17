@@ -33,7 +33,7 @@ Question It is very important for me personally to encourage non-Christians to a
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7531/vshow}{GSS Data Explorer page for \code{evngelze}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7531/vshow}{GSS Data Explorer page for \code{evngelze}}.
 }
 
 \keyword{variable}

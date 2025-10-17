@@ -32,7 +32,7 @@ Question What is your race? Indicate one or more races that you consider yoursel
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7454/vshow}{GSS Data Explorer page for \code{raceacs5}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7454/vshow}{GSS Data Explorer page for \code{raceacs5}}.
 }
 
 \keyword{variable}

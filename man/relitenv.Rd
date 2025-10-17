@@ -33,7 +33,7 @@ Question Would you call yourself a strong (PREFERENCE NAMED IN RELIG) or a not v
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7596/vshow}{GSS Data Explorer page for \code{relitenv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7596/vshow}{GSS Data Explorer page for \code{relitenv}}.
 }
 
 \keyword{variable}

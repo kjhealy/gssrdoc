@@ -32,7 +32,7 @@ Question Usually, I spend time in natural environments, such as public parks, ga
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7187/vshow}{GSS Data Explorer page for \code{nattime}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7187/vshow}{GSS Data Explorer page for \code{nattime}}.
 }
 
 \keyword{variable}

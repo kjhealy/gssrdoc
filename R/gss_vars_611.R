@@ -22,7 +22,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `neisafe`](https://gssdataexplorer.norc.org/variables/6658/vshow).
+#' For further details see the [GSS Data Explorer page for `neisafe`](https://gssdataexplorer.norc.org/variables/6658/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -59,7 +59,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rlooks`](https://gssdataexplorer.norc.org/variables/6659/vshow).
+#' For further details see the [GSS Data Explorer page for `rlooks`](https://gssdataexplorer.norc.org/variables/6659/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -96,7 +96,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rgroomed`](https://gssdataexplorer.norc.org/variables/6660/vshow).
+#' For further details see the [GSS Data Explorer page for `rgroomed`](https://gssdataexplorer.norc.org/variables/6660/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -132,7 +132,7 @@ NULL
 #'  |2018 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rweight`](https://gssdataexplorer.norc.org/variables/6661/vshow).
+#' For further details see the [GSS Data Explorer page for `rweight`](https://gssdataexplorer.norc.org/variables/6661/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -168,7 +168,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rhlthend`](https://gssdataexplorer.norc.org/variables/6662/vshow).
+#' For further details see the [GSS Data Explorer page for `rhlthend`](https://gssdataexplorer.norc.org/variables/6662/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

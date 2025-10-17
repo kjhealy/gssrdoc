@@ -32,30 +32,14 @@ Question Was your (husband/wife) raised Jewish?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3825/vshow}{GSS Data Explorer page for \code{spjoth16}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3825/vshow}{GSS Data Explorer page for \code{spjoth16}}.
 }
 
 \seealso{
 Other Jewish Identity: 
-\code{\link{bmitzvah}},
-\code{\link{kd1jwoth}},
-\code{\link{kd1relig}},
-\code{\link{kd2jwoth}},
-\code{\link{kd2relig}},
-\code{\link{kd3jwoth}},
-\code{\link{kd3relig}},
-\code{\link{kd4jwoth}},
-\code{\link{kd4relig}},
-\code{\link{kd5jwoth}},
-\code{\link{kd5relig}},
-\code{\link{kd6relig}},
-\code{\link{kd7relig}},
-\code{\link{kd8relig}},
-\code{\link{kidnum}},
 \code{\link{majwoth}},
 \code{\link{pajwoth}},
-\code{\link{spjrel16}},
-\code{\link{synmem}}
+\code{\link{spjrel16}}
 }
 \concept{Jewish Identity}
 \keyword{variable}

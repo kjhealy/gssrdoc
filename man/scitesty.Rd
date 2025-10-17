@@ -33,7 +33,7 @@ Human beings developed from earlier species of animals.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/4973/vshow}{GSS Data Explorer page for \code{scitesty}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4973/vshow}{GSS Data Explorer page for \code{scitesty}}.
 }
 
 \seealso{

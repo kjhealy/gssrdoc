@@ -32,7 +32,7 @@ Question Now, we would like to ask you some questions about a self-identified Co
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7438/vshow}{GSS Data Explorer page for \code{spkcomy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7438/vshow}{GSS Data Explorer page for \code{spkcomy}}.
 }
 
 \keyword{variable}

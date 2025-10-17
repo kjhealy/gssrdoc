@@ -21,7 +21,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `devil`](https://gssdataexplorer.norc.org/variables/4652/vshow).
+#' For further details see the [GSS Data Explorer page for `devil`](https://gssdataexplorer.norc.org/variables/4652/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -59,7 +59,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `heaven`](https://gssdataexplorer.norc.org/variables/4653/vshow).
+#' For further details see the [GSS Data Explorer page for `heaven`](https://gssdataexplorer.norc.org/variables/4653/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hell`](https://gssdataexplorer.norc.org/variables/4654/vshow).
+#' For further details see the [GSS Data Explorer page for `hell`](https://gssdataexplorer.norc.org/variables/4654/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -135,7 +135,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `miracles`](https://gssdataexplorer.norc.org/variables/4655/vshow).
+#' For further details see the [GSS Data Explorer page for `miracles`](https://gssdataexplorer.norc.org/variables/4655/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -170,7 +170,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bible1`](https://gssdataexplorer.norc.org/variables/4656/vshow).
+#' For further details see the [GSS Data Explorer page for `bible1`](https://gssdataexplorer.norc.org/variables/4656/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -209,7 +209,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `theism`](https://gssdataexplorer.norc.org/variables/4657/vshow).
+#' For further details see the [GSS Data Explorer page for `theism`](https://gssdataexplorer.norc.org/variables/4657/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -248,7 +248,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fatalism`](https://gssdataexplorer.norc.org/variables/4658/vshow).
+#' For further details see the [GSS Data Explorer page for `fatalism`](https://gssdataexplorer.norc.org/variables/4658/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -287,7 +287,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godmeans`](https://gssdataexplorer.norc.org/variables/4659/vshow).
+#' For further details see the [GSS Data Explorer page for `godmeans`](https://gssdataexplorer.norc.org/variables/4659/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nihilism`](https://gssdataexplorer.norc.org/variables/4660/vshow).
+#' For further details see the [GSS Data Explorer page for `nihilism`](https://gssdataexplorer.norc.org/variables/4660/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -362,7 +362,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `predeter`](https://gssdataexplorer.norc.org/variables/4661/vshow).
+#' For further details see the [GSS Data Explorer page for `predeter`](https://gssdataexplorer.norc.org/variables/4661/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

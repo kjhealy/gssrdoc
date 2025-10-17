@@ -36,7 +36,7 @@ F. Allowing business to make good profits is the best way to improve everyone''s
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7551/vshow}{GSS Data Explorer page for \code{inequal6}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7551/vshow}{GSS Data Explorer page for \code{inequal6}}.
 }
 
 \keyword{variable}

@@ -22,7 +22,7 @@
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `king`](https://gssdataexplorer.norc.org/variables/331/vshow).
+#' For further details see the [GSS Data Explorer page for `king`](https://gssdataexplorer.norc.org/variables/331/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `liberatr`](https://gssdataexplorer.norc.org/variables/332/vshow).
+#' For further details see the [GSS Data Explorer page for `liberatr`](https://gssdataexplorer.norc.org/variables/332/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `healer`](https://gssdataexplorer.norc.org/variables/333/vshow).
+#' For further details see the [GSS Data Explorer page for `healer`](https://gssdataexplorer.norc.org/variables/333/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -138,7 +138,7 @@ NULL
 #'  |2008 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mapa`](https://gssdataexplorer.norc.org/variables/334/vshow).
+#' For further details see the [GSS Data Explorer page for `mapa`](https://gssdataexplorer.norc.org/variables/334/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -182,7 +182,7 @@ NULL
 #'  |2008 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mastersp`](https://gssdataexplorer.norc.org/variables/335/vshow).
+#' For further details see the [GSS Data Explorer page for `mastersp`](https://gssdataexplorer.norc.org/variables/335/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -226,7 +226,7 @@ NULL
 #'  |2008 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `judgeluv`](https://gssdataexplorer.norc.org/variables/336/vshow).
+#' For further details see the [GSS Data Explorer page for `judgeluv`](https://gssdataexplorer.norc.org/variables/336/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -270,7 +270,7 @@ NULL
 #'  |2008 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frndking`](https://gssdataexplorer.norc.org/variables/337/vshow).
+#' For further details see the [GSS Data Explorer page for `frndking`](https://gssdataexplorer.norc.org/variables/337/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `crtrheal`](https://gssdataexplorer.norc.org/variables/338/vshow).
+#' For further details see the [GSS Data Explorer page for `crtrheal`](https://gssdataexplorer.norc.org/variables/338/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rdeemlib`](https://gssdataexplorer.norc.org/variables/339/vshow).
+#' For further details see the [GSS Data Explorer page for `rdeemlib`](https://gssdataexplorer.norc.org/variables/339/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -382,7 +382,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `popespks`](https://gssdataexplorer.norc.org/variables/340/vshow).
+#' For further details see the [GSS Data Explorer page for `popespks`](https://gssdataexplorer.norc.org/variables/340/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

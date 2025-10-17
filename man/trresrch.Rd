@@ -30,7 +30,7 @@ Question How much do you trust university research centers?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7482/vshow}{GSS Data Explorer page for \code{trresrch}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7482/vshow}{GSS Data Explorer page for \code{trresrch}}.
 }
 
 \keyword{variable}

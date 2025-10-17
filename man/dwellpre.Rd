@@ -40,7 +40,7 @@ Question SELECT ONE FROM THE LIST BELOW WHICH BEST DESCRIBES THE TYPE OF STRUCTU
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6654/vshow}{GSS Data Explorer page for \code{dwellpre}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6654/vshow}{GSS Data Explorer page for \code{dwellpre}}.
 }
 
 \keyword{variable}

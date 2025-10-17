@@ -62,7 +62,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relig16`](https://gssdataexplorer.norc.org/variables/341/vshow).
+#' For further details see the [GSS Data Explorer page for `relig16`](https://gssdataexplorer.norc.org/variables/341/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -153,7 +153,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `denom16`](https://gssdataexplorer.norc.org/variables/342/vshow).
+#' For further details see the [GSS Data Explorer page for `denom16`](https://gssdataexplorer.norc.org/variables/342/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -432,7 +432,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oth16`](https://gssdataexplorer.norc.org/variables/343/vshow).
+#' For further details see the [GSS Data Explorer page for `oth16`](https://gssdataexplorer.norc.org/variables/343/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -466,7 +466,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othjew16`](https://gssdataexplorer.norc.org/variables/344/vshow).
+#' For further details see the [GSS Data Explorer page for `othjew16`](https://gssdataexplorer.norc.org/variables/344/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -521,7 +521,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jew16`](https://gssdataexplorer.norc.org/variables/345/vshow).
+#' For further details see the [GSS Data Explorer page for `jew16`](https://gssdataexplorer.norc.org/variables/345/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -557,7 +557,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jew16aj`](https://gssdataexplorer.norc.org/variables/346/vshow).
+#' For further details see the [GSS Data Explorer page for `jew16aj`](https://gssdataexplorer.norc.org/variables/346/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -622,7 +622,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fund16`](https://gssdataexplorer.norc.org/variables/347/vshow).
+#' For further details see the [GSS Data Explorer page for `fund16`](https://gssdataexplorer.norc.org/variables/347/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -694,7 +694,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sprel`](https://gssdataexplorer.norc.org/variables/348/vshow).
+#' For further details see the [GSS Data Explorer page for `sprel`](https://gssdataexplorer.norc.org/variables/348/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -780,7 +780,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spden`](https://gssdataexplorer.norc.org/variables/349/vshow).
+#' For further details see the [GSS Data Explorer page for `spden`](https://gssdataexplorer.norc.org/variables/349/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1055,7 +1055,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spother`](https://gssdataexplorer.norc.org/variables/350/vshow).
+#' For further details see the [GSS Data Explorer page for `spother`](https://gssdataexplorer.norc.org/variables/350/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

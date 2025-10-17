@@ -33,7 +33,7 @@ has gone bankrupt?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7473/vshow}{GSS Data Explorer page for \code{suicide2g}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7473/vshow}{GSS Data Explorer page for \code{suicide2g}}.
 }
 
 \keyword{variable}

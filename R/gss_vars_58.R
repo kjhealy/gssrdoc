@@ -47,7 +47,7 @@
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `thnkself`](https://gssdataexplorer.norc.org/variables/515/vshow).
+#' For further details see the [GSS Data Explorer page for `thnkself`](https://gssdataexplorer.norc.org/variables/515/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -108,7 +108,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `workhard`](https://gssdataexplorer.norc.org/variables/516/vshow).
+#' For further details see the [GSS Data Explorer page for `workhard`](https://gssdataexplorer.norc.org/variables/516/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -169,7 +169,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpoth`](https://gssdataexplorer.norc.org/variables/517/vshow).
+#' For further details see the [GSS Data Explorer page for `helpoth`](https://gssdataexplorer.norc.org/variables/517/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldsex`](https://gssdataexplorer.norc.org/variables/518/vshow).
+#' For further details see the [GSS Data Explorer page for `chldsex`](https://gssdataexplorer.norc.org/variables/518/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -235,7 +235,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldsex1`](https://gssdataexplorer.norc.org/variables/519/vshow).
+#' For further details see the [GSS Data Explorer page for `chldsex1`](https://gssdataexplorer.norc.org/variables/519/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -269,7 +269,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `youngen`](https://gssdataexplorer.norc.org/variables/520/vshow).
+#' For further details see the [GSS Data Explorer page for `youngen`](https://gssdataexplorer.norc.org/variables/520/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -334,7 +334,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socrel`](https://gssdataexplorer.norc.org/variables/521/vshow).
+#' For further details see the [GSS Data Explorer page for `socrel`](https://gssdataexplorer.norc.org/variables/521/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -399,7 +399,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socommun`](https://gssdataexplorer.norc.org/variables/522/vshow).
+#' For further details see the [GSS Data Explorer page for `socommun`](https://gssdataexplorer.norc.org/variables/522/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -464,7 +464,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socfrend`](https://gssdataexplorer.norc.org/variables/523/vshow).
+#' For further details see the [GSS Data Explorer page for `socfrend`](https://gssdataexplorer.norc.org/variables/523/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -529,7 +529,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `socbar`](https://gssdataexplorer.norc.org/variables/524/vshow).
+#' For further details see the [GSS Data Explorer page for `socbar`](https://gssdataexplorer.norc.org/variables/524/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

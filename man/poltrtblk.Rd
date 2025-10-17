@@ -35,7 +35,7 @@ Question Do the police treat Whites better than Black people, treat both the sam
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7562/vshow}{GSS Data Explorer page for \code{poltrtblk}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7562/vshow}{GSS Data Explorer page for \code{poltrtblk}}.
 }
 
 \keyword{variable}

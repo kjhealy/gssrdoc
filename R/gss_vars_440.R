@@ -21,7 +21,7 @@
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mustret`](https://gssdataexplorer.norc.org/variables/4038/vshow).
+#' For further details see the [GSS Data Explorer page for `mustret`](https://gssdataexplorer.norc.org/variables/4038/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff1`](https://gssdataexplorer.norc.org/variables/4039/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff1`](https://gssdataexplorer.norc.org/variables/4039/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff2`](https://gssdataexplorer.norc.org/variables/4040/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff2`](https://gssdataexplorer.norc.org/variables/4040/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2012 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff3`](https://gssdataexplorer.norc.org/variables/4041/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff3`](https://gssdataexplorer.norc.org/variables/4041/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -159,7 +159,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff4`](https://gssdataexplorer.norc.org/variables/4042/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff4`](https://gssdataexplorer.norc.org/variables/4042/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff5`](https://gssdataexplorer.norc.org/variables/4043/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff5`](https://gssdataexplorer.norc.org/variables/4043/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -225,7 +225,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff6`](https://gssdataexplorer.norc.org/variables/4044/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff6`](https://gssdataexplorer.norc.org/variables/4044/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff7`](https://gssdataexplorer.norc.org/variables/4045/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff7`](https://gssdataexplorer.norc.org/variables/4045/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff8`](https://gssdataexplorer.norc.org/variables/4046/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff8`](https://gssdataexplorer.norc.org/variables/4046/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff9`](https://gssdataexplorer.norc.org/variables/4047/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff9`](https://gssdataexplorer.norc.org/variables/4047/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -32,7 +32,7 @@ Question Thinking about your day to day experience of nature, please tell me how
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7193/vshow}{GSS Data Explorer page for \code{natlack}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7193/vshow}{GSS Data Explorer page for \code{natlack}}.
 }
 
 \keyword{variable}

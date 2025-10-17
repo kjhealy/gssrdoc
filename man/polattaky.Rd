@@ -32,7 +32,7 @@ Question Would you approve if the citizen was attacking the police officer with 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7449/vshow}{GSS Data Explorer page for \code{polattaky}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7449/vshow}{GSS Data Explorer page for \code{polattaky}}.
 }
 
 \keyword{variable}

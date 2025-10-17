@@ -21,7 +21,7 @@
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abfirm`](https://gssdataexplorer.norc.org/variables/617/vshow).
+#' For further details see the [GSS Data Explorer page for `abfirm`](https://gssdataexplorer.norc.org/variables/617/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abcare`](https://gssdataexplorer.norc.org/variables/618/vshow).
+#' For further details see the [GSS Data Explorer page for `abcare`](https://gssdataexplorer.norc.org/variables/618/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -117,7 +117,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldidel`](https://gssdataexplorer.norc.org/variables/619/vshow).
+#' For further details see the [GSS Data Explorer page for `chldidel`](https://gssdataexplorer.norc.org/variables/619/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldmore`](https://gssdataexplorer.norc.org/variables/620/vshow).
+#' For further details see the [GSS Data Explorer page for `chldmore`](https://gssdataexplorer.norc.org/variables/620/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -213,7 +213,7 @@ NULL
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldnum`](https://gssdataexplorer.norc.org/variables/621/vshow).
+#' For further details see the [GSS Data Explorer page for `chldnum`](https://gssdataexplorer.norc.org/variables/621/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -252,7 +252,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldsoon`](https://gssdataexplorer.norc.org/variables/622/vshow).
+#' For further details see the [GSS Data Explorer page for `chldsoon`](https://gssdataexplorer.norc.org/variables/622/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pill`](https://gssdataexplorer.norc.org/variables/623/vshow).
+#' For further details see the [GSS Data Explorer page for `pill`](https://gssdataexplorer.norc.org/variables/623/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -325,7 +325,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `teenpill`](https://gssdataexplorer.norc.org/variables/624/vshow).
+#' For further details see the [GSS Data Explorer page for `teenpill`](https://gssdataexplorer.norc.org/variables/624/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -380,7 +380,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pillok`](https://gssdataexplorer.norc.org/variables/625/vshow).
+#' For further details see the [GSS Data Explorer page for `pillok`](https://gssdataexplorer.norc.org/variables/625/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -440,7 +440,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexeduc`](https://gssdataexplorer.norc.org/variables/626/vshow).
+#' For further details see the [GSS Data Explorer page for `sexeduc`](https://gssdataexplorer.norc.org/variables/626/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -38,7 +38,7 @@ Question Think about the brother or sister you have contact with most frequently
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7266/vshow}{GSS Data Explorer page for \code{cntctsib}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7266/vshow}{GSS Data Explorer page for \code{cntctsib}}.
 }
 
 \keyword{variable}

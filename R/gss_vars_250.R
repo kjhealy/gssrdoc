@@ -23,7 +23,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trustfam`](https://gssdataexplorer.norc.org/variables/2251/vshow).
+#' For further details see the [GSS Data Explorer page for `trustfam`](https://gssdataexplorer.norc.org/variables/2251/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trustdoc`](https://gssdataexplorer.norc.org/variables/2252/vshow).
+#' For further details see the [GSS Data Explorer page for `trustdoc`](https://gssdataexplorer.norc.org/variables/2252/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trustcrt`](https://gssdataexplorer.norc.org/variables/2253/vshow).
+#' For further details see the [GSS Data Explorer page for `trustcrt`](https://gssdataexplorer.norc.org/variables/2253/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -133,7 +133,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `termvig`](https://gssdataexplorer.norc.org/variables/2254/vshow).
+#' For further details see the [GSS Data Explorer page for `termvig`](https://gssdataexplorer.norc.org/variables/2254/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -169,7 +169,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rightref`](https://gssdataexplorer.norc.org/variables/2255/vshow).
+#' For further details see the [GSS Data Explorer page for `rightref`](https://gssdataexplorer.norc.org/variables/2255/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -205,7 +205,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `notreat`](https://gssdataexplorer.norc.org/variables/2256/vshow).
+#' For further details see the [GSS Data Explorer page for `notreat`](https://gssdataexplorer.norc.org/variables/2256/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -241,7 +241,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `instrctn`](https://gssdataexplorer.norc.org/variables/2257/vshow).
+#' For further details see the [GSS Data Explorer page for `instrctn`](https://gssdataexplorer.norc.org/variables/2257/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -277,7 +277,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hospice`](https://gssdataexplorer.norc.org/variables/2258/vshow).
+#' For further details see the [GSS Data Explorer page for `hospice`](https://gssdataexplorer.norc.org/variables/2258/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -313,7 +313,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `painmed`](https://gssdataexplorer.norc.org/variables/2259/vshow).
+#' For further details see the [GSS Data Explorer page for `painmed`](https://gssdataexplorer.norc.org/variables/2259/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -349,7 +349,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `docsui`](https://gssdataexplorer.norc.org/variables/2260/vshow).
+#' For further details see the [GSS Data Explorer page for `docsui`](https://gssdataexplorer.norc.org/variables/2260/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

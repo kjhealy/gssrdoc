@@ -21,7 +21,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `training`](https://gssdataexplorer.norc.org/variables/1369/vshow).
+#' For further details see the [GSS Data Explorer page for `training`](https://gssdataexplorer.norc.org/variables/1369/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `learning`](https://gssdataexplorer.norc.org/variables/1370/vshow).
+#' For further details see the [GSS Data Explorer page for `learning`](https://gssdataexplorer.norc.org/variables/1370/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `exptrain`](https://gssdataexplorer.norc.org/variables/1371/vshow).
+#' For further details see the [GSS Data Explorer page for `exptrain`](https://gssdataexplorer.norc.org/variables/1371/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -123,7 +123,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wherewrk`](https://gssdataexplorer.norc.org/variables/1372/vshow).
+#' For further details see the [GSS Data Explorer page for `wherewrk`](https://gssdataexplorer.norc.org/variables/1372/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -155,7 +155,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `findout`](https://gssdataexplorer.norc.org/variables/1373/vshow).
+#' For further details see the [GSS Data Explorer page for `findout`](https://gssdataexplorer.norc.org/variables/1373/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `baseofop`](https://gssdataexplorer.norc.org/variables/1374/vshow).
+#' For further details see the [GSS Data Explorer page for `baseofop`](https://gssdataexplorer.norc.org/variables/1374/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `splocnum`](https://gssdataexplorer.norc.org/variables/1375/vshow).
+#' For further details see the [GSS Data Explorer page for `splocnum`](https://gssdataexplorer.norc.org/variables/1375/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -257,7 +257,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `standup`](https://gssdataexplorer.norc.org/variables/1376/vshow).
+#' For further details see the [GSS Data Explorer page for `standup`](https://gssdataexplorer.norc.org/variables/1376/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -294,7 +294,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `selfirst`](https://gssdataexplorer.norc.org/variables/1377/vshow).
+#' For further details see the [GSS Data Explorer page for `selfirst`](https://gssdataexplorer.norc.org/variables/1377/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `richpoor`](https://gssdataexplorer.norc.org/variables/1378/vshow).
+#' For further details see the [GSS Data Explorer page for `richpoor`](https://gssdataexplorer.norc.org/variables/1378/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

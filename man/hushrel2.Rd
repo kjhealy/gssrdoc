@@ -30,38 +30,14 @@ Question B. Did this leader say or do anything to try to keep you from telling o
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3958/vshow}{GSS Data Explorer page for \code{hushrel2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3958/vshow}{GSS Data Explorer page for \code{hushrel2}}.
 }
 
 \seealso{
 Other Clergy/Sex: 
-\code{\link{clrggen1}},
-\code{\link{clrggen2}},
-\code{\link{clrggen3}},
-\code{\link{clrgmar1}},
-\code{\link{clrgmar2}},
-\code{\link{clrgmar3}},
-\code{\link{clrgmode}},
-\code{\link{clrgsex1}},
-\code{\link{clrgsex2}},
-\code{\link{clrgsex3}},
 \code{\link{clsclsex}},
-\code{\link{counsel1}},
-\code{\link{counsel2}},
-\code{\link{counsel3}},
-\code{\link{harsexcl}},
-\code{\link{harsexjb}},
-\code{\link{hushrel1}},
 \code{\link{hushrel3}},
 \code{\link{knwclsex}},
-\code{\link{numclerg}},
-\code{\link{ongorel1}},
-\code{\link{ongorel2}},
-\code{\link{ongorel3}},
-\code{\link{openrel1}},
-\code{\link{openrel2}},
-\code{\link{openrel3}},
-\code{\link{ownclerg}},
 \code{\link{toldexp1}},
 \code{\link{toldexp2}},
 \code{\link{toldexp3}},

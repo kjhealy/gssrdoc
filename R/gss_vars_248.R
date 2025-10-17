@@ -23,7 +23,7 @@
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proz6`](https://gssdataexplorer.norc.org/variables/2231/vshow).
+#' For further details see the [GSS Data Explorer page for `proz6`](https://gssdataexplorer.norc.org/variables/2231/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proz7`](https://gssdataexplorer.norc.org/variables/2232/vshow).
+#' For further details see the [GSS Data Explorer page for `proz7`](https://gssdataexplorer.norc.org/variables/2232/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proz8`](https://gssdataexplorer.norc.org/variables/2233/vshow).
+#' For further details see the [GSS Data Explorer page for `proz8`](https://gssdataexplorer.norc.org/variables/2233/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proz9`](https://gssdataexplorer.norc.org/variables/2234/vshow).
+#' For further details see the [GSS Data Explorer page for `proz9`](https://gssdataexplorer.norc.org/variables/2234/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prozslf1`](https://gssdataexplorer.norc.org/variables/2235/vshow).
+#' For further details see the [GSS Data Explorer page for `prozslf1`](https://gssdataexplorer.norc.org/variables/2235/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prozslf2`](https://gssdataexplorer.norc.org/variables/2236/vshow).
+#' For further details see the [GSS Data Explorer page for `prozslf2`](https://gssdataexplorer.norc.org/variables/2236/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prozslf3`](https://gssdataexplorer.norc.org/variables/2237/vshow).
+#' For further details see the [GSS Data Explorer page for `prozslf3`](https://gssdataexplorer.norc.org/variables/2237/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prozslf4`](https://gssdataexplorer.norc.org/variables/2238/vshow).
+#' For further details see the [GSS Data Explorer page for `prozslf4`](https://gssdataexplorer.norc.org/variables/2238/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -318,7 +318,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prozkid1`](https://gssdataexplorer.norc.org/variables/2239/vshow).
+#' For further details see the [GSS Data Explorer page for `prozkid1`](https://gssdataexplorer.norc.org/variables/2239/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -356,7 +356,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prozkid2`](https://gssdataexplorer.norc.org/variables/2240/vshow).
+#' For further details see the [GSS Data Explorer page for `prozkid2`](https://gssdataexplorer.norc.org/variables/2240/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

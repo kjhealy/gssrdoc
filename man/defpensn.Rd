@@ -32,23 +32,12 @@ Question B. Do you have a defined benefit pension plan at your company?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3562/vshow}{GSS Data Explorer page for \code{defpensn}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3562/vshow}{GSS Data Explorer page for \code{defpensn}}.
 }
 
 \seealso{
 Other Shared Capitalism: 
-\code{\link{buyvalue}},
-\code{\link{compwage}},
-\code{\link{empinput}},
-\code{\link{emptrain}},
-\code{\link{esop}},
-\code{\link{extr2005}},
-\code{\link{numorg}},
-\code{\link{ops2005}},
-\code{\link{slfmangd}},
-\code{\link{talkteam}},
-\code{\link{trdestck}},
-\code{\link{wealth}}
+\code{\link{trdestck}}
 }
 \concept{Shared Capitalism}
 \keyword{variable}

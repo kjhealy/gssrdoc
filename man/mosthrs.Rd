@@ -30,15 +30,12 @@ HOURS:
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6293/vshow}{GSS Data Explorer page for \code{mosthrs}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6293/vshow}{GSS Data Explorer page for \code{mosthrs}}.
 }
 
 \seealso{
 Other Flexible Work: 
-\code{\link{advsched}},
-\code{\link{leasthrs}},
 \code{\link{paidhow}},
-\code{\link{sethrs}},
 \code{\link{usualhrs}}
 }
 \concept{Flexible Work}

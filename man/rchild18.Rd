@@ -30,7 +30,7 @@ Question Are you the child of another individual 18 or older in your household?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8022/vshow}{GSS Data Explorer page for \code{rchild18}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8022/vshow}{GSS Data Explorer page for \code{rchild18}}.
 }
 
 \keyword{variable}

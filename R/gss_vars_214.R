@@ -19,7 +19,7 @@
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ortlkfm`](https://gssdataexplorer.norc.org/variables/2021/vshow).
+#' For further details see the [GSS Data Explorer page for `ortlkfm`](https://gssdataexplorer.norc.org/variables/2021/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ortlkclr`](https://gssdataexplorer.norc.org/variables/2022/vshow).
+#' For further details see the [GSS Data Explorer page for `ortlkclr`](https://gssdataexplorer.norc.org/variables/2022/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ormeddoc`](https://gssdataexplorer.norc.org/variables/2023/vshow).
+#' For further details see the [GSS Data Explorer page for `ormeddoc`](https://gssdataexplorer.norc.org/variables/2023/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ormntldc`](https://gssdataexplorer.norc.org/variables/2024/vshow).
+#' For further details see the [GSS Data Explorer page for `ormntldc`](https://gssdataexplorer.norc.org/variables/2024/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ormntlot`](https://gssdataexplorer.norc.org/variables/2025/vshow).
+#' For further details see the [GSS Data Explorer page for `ormntlot`](https://gssdataexplorer.norc.org/variables/2025/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `orhealer`](https://gssdataexplorer.norc.org/variables/2026/vshow).
+#' For further details see the [GSS Data Explorer page for `orhealer`](https://gssdataexplorer.norc.org/variables/2026/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `orslfhlp`](https://gssdataexplorer.norc.org/variables/2027/vshow).
+#' For further details see the [GSS Data Explorer page for `orslfhlp`](https://gssdataexplorer.norc.org/variables/2027/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `orotcmed`](https://gssdataexplorer.norc.org/variables/2028/vshow).
+#' For further details see the [GSS Data Explorer page for `orotcmed`](https://gssdataexplorer.norc.org/variables/2028/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `orrxmed`](https://gssdataexplorer.norc.org/variables/2029/vshow).
+#' For further details see the [GSS Data Explorer page for `orrxmed`](https://gssdataexplorer.norc.org/variables/2029/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ormntlhs`](https://gssdataexplorer.norc.org/variables/2030/vshow).
+#' For further details see the [GSS Data Explorer page for `ormntlhs`](https://gssdataexplorer.norc.org/variables/2030/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

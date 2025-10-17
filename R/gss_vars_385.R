@@ -19,7 +19,7 @@
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `biznuke`](https://gssdataexplorer.norc.org/variables/3489/vshow).
+#' For further details see the [GSS Data Explorer page for `biznuke`](https://gssdataexplorer.norc.org/variables/3489/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engnuke`](https://gssdataexplorer.norc.org/variables/3490/vshow).
+#' For further details see the [GSS Data Explorer page for `engnuke`](https://gssdataexplorer.norc.org/variables/3490/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -84,7 +84,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engagrnk`](https://gssdataexplorer.norc.org/variables/3491/vshow).
+#' For further details see the [GSS Data Explorer page for `engagrnk`](https://gssdataexplorer.norc.org/variables/3491/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -119,7 +119,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `enhinfnk`](https://gssdataexplorer.norc.org/variables/3492/vshow).
+#' For further details see the [GSS Data Explorer page for `enhinfnk`](https://gssdataexplorer.norc.org/variables/3492/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polinfnk`](https://gssdataexplorer.norc.org/variables/3493/vshow).
+#' For further details see the [GSS Data Explorer page for `polinfnk`](https://gssdataexplorer.norc.org/variables/3493/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -189,7 +189,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bizinfnk`](https://gssdataexplorer.norc.org/variables/3494/vshow).
+#' For further details see the [GSS Data Explorer page for `bizinfnk`](https://gssdataexplorer.norc.org/variables/3494/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -222,7 +222,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engbstnk`](https://gssdataexplorer.norc.org/variables/3495/vshow).
+#' For further details see the [GSS Data Explorer page for `engbstnk`](https://gssdataexplorer.norc.org/variables/3495/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polbstnk`](https://gssdataexplorer.norc.org/variables/3496/vshow).
+#' For further details see the [GSS Data Explorer page for `polbstnk`](https://gssdataexplorer.norc.org/variables/3496/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bizbstnk`](https://gssdataexplorer.norc.org/variables/3497/vshow).
+#' For further details see the [GSS Data Explorer page for `bizbstnk`](https://gssdataexplorer.norc.org/variables/3497/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -323,7 +323,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nukeelec`](https://gssdataexplorer.norc.org/variables/3498/vshow).
+#' For further details see the [GSS Data Explorer page for `nukeelec`](https://gssdataexplorer.norc.org/variables/3498/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

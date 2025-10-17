@@ -35,7 +35,7 @@ Question Some workers must respond to coworkers, supervisors, managers, customer
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5504/vshow}{GSS Data Explorer page for \code{wkcontct}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5504/vshow}{GSS Data Explorer page for \code{wkcontct}}.
 }
 
 \seealso{

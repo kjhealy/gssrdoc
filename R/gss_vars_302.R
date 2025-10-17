@@ -18,7 +18,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthplan`](https://gssdataexplorer.norc.org/variables/2743/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthplan`](https://gssdataexplorer.norc.org/variables/2743/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chosedoc`](https://gssdataexplorer.norc.org/variables/2744/vshow).
+#' For further details see the [GSS Data Explorer page for `chosedoc`](https://gssdataexplorer.norc.org/variables/2744/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `insrlmts`](https://gssdataexplorer.norc.org/variables/2745/vshow).
+#' For further details see the [GSS Data Explorer page for `insrlmts`](https://gssdataexplorer.norc.org/variables/2745/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -114,7 +114,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `diffcare`](https://gssdataexplorer.norc.org/variables/2746/vshow).
+#' For further details see the [GSS Data Explorer page for `diffcare`](https://gssdataexplorer.norc.org/variables/2746/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fininc`](https://gssdataexplorer.norc.org/variables/2747/vshow).
+#' For further details see the [GSS Data Explorer page for `fininc`](https://gssdataexplorer.norc.org/variables/2747/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fininc1`](https://gssdataexplorer.norc.org/variables/2748/vshow).
+#' For further details see the [GSS Data Explorer page for `fininc1`](https://gssdataexplorer.norc.org/variables/2748/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -220,7 +220,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fininc2`](https://gssdataexplorer.norc.org/variables/2749/vshow).
+#' For further details see the [GSS Data Explorer page for `fininc2`](https://gssdataexplorer.norc.org/variables/2749/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fininc3`](https://gssdataexplorer.norc.org/variables/2750/vshow).
+#' For further details see the [GSS Data Explorer page for `fininc3`](https://gssdataexplorer.norc.org/variables/2750/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -294,7 +294,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fininc4`](https://gssdataexplorer.norc.org/variables/2751/vshow).
+#' For further details see the [GSS Data Explorer page for `fininc4`](https://gssdataexplorer.norc.org/variables/2751/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -327,7 +327,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `belvedoc`](https://gssdataexplorer.norc.org/variables/2752/vshow).
+#' For further details see the [GSS Data Explorer page for `belvedoc`](https://gssdataexplorer.norc.org/variables/2752/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

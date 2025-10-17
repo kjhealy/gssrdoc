@@ -33,7 +33,7 @@ Question  Do you consider yourself Orthodox, Conservative, Reform or none of the
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8003/vshow}{GSS Data Explorer page for \code{jew_next}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8003/vshow}{GSS Data Explorer page for \code{jew_next}}.
 }
 
 \keyword{variable}

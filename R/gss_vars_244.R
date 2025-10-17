@@ -20,7 +20,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mntldif`](https://gssdataexplorer.norc.org/variables/2191/vshow).
+#' For further details see the [GSS Data Explorer page for `mntldif`](https://gssdataexplorer.norc.org/variables/2191/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mntldeny`](https://gssdataexplorer.norc.org/variables/2192/vshow).
+#' For further details see the [GSS Data Explorer page for `mntldeny`](https://gssdataexplorer.norc.org/variables/2192/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hmo1`](https://gssdataexplorer.norc.org/variables/2193/vshow).
+#' For further details see the [GSS Data Explorer page for `hmo1`](https://gssdataexplorer.norc.org/variables/2193/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hmo2`](https://gssdataexplorer.norc.org/variables/2194/vshow).
+#' For further details see the [GSS Data Explorer page for `hmo2`](https://gssdataexplorer.norc.org/variables/2194/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -160,7 +160,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hmo3`](https://gssdataexplorer.norc.org/variables/2195/vshow).
+#' For further details see the [GSS Data Explorer page for `hmo3`](https://gssdataexplorer.norc.org/variables/2195/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hmo4`](https://gssdataexplorer.norc.org/variables/2196/vshow).
+#' For further details see the [GSS Data Explorer page for `hmo4`](https://gssdataexplorer.norc.org/variables/2196/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -232,7 +232,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hmo5`](https://gssdataexplorer.norc.org/variables/2197/vshow).
+#' For further details see the [GSS Data Explorer page for `hmo5`](https://gssdataexplorer.norc.org/variables/2197/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hmo6`](https://gssdataexplorer.norc.org/variables/2198/vshow).
+#' For further details see the [GSS Data Explorer page for `hmo6`](https://gssdataexplorer.norc.org/variables/2198/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hmo7`](https://gssdataexplorer.norc.org/variables/2199/vshow).
+#' For further details see the [GSS Data Explorer page for `hmo7`](https://gssdataexplorer.norc.org/variables/2199/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -340,7 +340,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `doc1`](https://gssdataexplorer.norc.org/variables/2200/vshow).
+#' For further details see the [GSS Data Explorer page for `doc1`](https://gssdataexplorer.norc.org/variables/2200/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -17,7 +17,7 @@
 #'  |2016 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racethwh`](https://gssdataexplorer.norc.org/variables/6351/vshow).
+#' For further details see the [GSS Data Explorer page for `racethwh`](https://gssdataexplorer.norc.org/variables/6351/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -48,7 +48,7 @@ NULL
 #'  |2016 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racethhi`](https://gssdataexplorer.norc.org/variables/6352/vshow).
+#' For further details see the [GSS Data Explorer page for `racethhi`](https://gssdataexplorer.norc.org/variables/6352/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -79,7 +79,7 @@ NULL
 #'  |2016 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racethbl`](https://gssdataexplorer.norc.org/variables/6353/vshow).
+#' For further details see the [GSS Data Explorer page for `racethbl`](https://gssdataexplorer.norc.org/variables/6353/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -110,7 +110,7 @@ NULL
 #'  |2016 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racethas`](https://gssdataexplorer.norc.org/variables/6354/vshow).
+#' For further details see the [GSS Data Explorer page for `racethas`](https://gssdataexplorer.norc.org/variables/6354/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -141,7 +141,7 @@ NULL
 #'  |2016 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racethna`](https://gssdataexplorer.norc.org/variables/6355/vshow).
+#' For further details see the [GSS Data Explorer page for `racethna`](https://gssdataexplorer.norc.org/variables/6355/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -172,7 +172,7 @@ NULL
 #'  |2016 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racethot`](https://gssdataexplorer.norc.org/variables/6356/vshow).
+#' For further details see the [GSS Data Explorer page for `racethot`](https://gssdataexplorer.norc.org/variables/6356/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -210,7 +210,7 @@ NULL
 #'  |2016 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racethmn`](https://gssdataexplorer.norc.org/variables/6649/vshow).
+#' For further details see the [GSS Data Explorer page for `racethmn`](https://gssdataexplorer.norc.org/variables/6649/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -251,7 +251,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uscitzn`](https://gssdataexplorer.norc.org/variables/5283/vshow).
+#' For further details see the [GSS Data Explorer page for `uscitzn`](https://gssdataexplorer.norc.org/variables/5283/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fucitzn`](https://gssdataexplorer.norc.org/variables/5284/vshow).
+#' For further details see the [GSS Data Explorer page for `fucitzn`](https://gssdataexplorer.norc.org/variables/5284/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -325,7 +325,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yearsusa`](https://gssdataexplorer.norc.org/variables/7297/vshow).
+#' For further details see the [GSS Data Explorer page for `yearsusa`](https://gssdataexplorer.norc.org/variables/7297/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

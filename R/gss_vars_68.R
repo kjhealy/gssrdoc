@@ -47,7 +47,7 @@
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abany`](https://gssdataexplorer.norc.org/variables/607/vshow).
+#' For further details see the [GSS Data Explorer page for `abany`](https://gssdataexplorer.norc.org/variables/607/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -79,7 +79,7 @@ NULL
 #'  |1973 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aborct`](https://gssdataexplorer.norc.org/variables/608/vshow).
+#' For further details see the [GSS Data Explorer page for `aborct`](https://gssdataexplorer.norc.org/variables/608/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -111,7 +111,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abpro1`](https://gssdataexplorer.norc.org/variables/609/vshow).
+#' For further details see the [GSS Data Explorer page for `abpro1`](https://gssdataexplorer.norc.org/variables/609/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -143,7 +143,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abpro2`](https://gssdataexplorer.norc.org/variables/610/vshow).
+#' For further details see the [GSS Data Explorer page for `abpro2`](https://gssdataexplorer.norc.org/variables/610/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -175,7 +175,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abpro3`](https://gssdataexplorer.norc.org/variables/611/vshow).
+#' For further details see the [GSS Data Explorer page for `abpro3`](https://gssdataexplorer.norc.org/variables/611/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -207,7 +207,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abcon1`](https://gssdataexplorer.norc.org/variables/612/vshow).
+#' For further details see the [GSS Data Explorer page for `abcon1`](https://gssdataexplorer.norc.org/variables/612/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -239,7 +239,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abcon2`](https://gssdataexplorer.norc.org/variables/613/vshow).
+#' For further details see the [GSS Data Explorer page for `abcon2`](https://gssdataexplorer.norc.org/variables/613/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -271,7 +271,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abcon3`](https://gssdataexplorer.norc.org/variables/614/vshow).
+#' For further details see the [GSS Data Explorer page for `abcon3`](https://gssdataexplorer.norc.org/variables/614/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abimp`](https://gssdataexplorer.norc.org/variables/615/vshow).
+#' For further details see the [GSS Data Explorer page for `abimp`](https://gssdataexplorer.norc.org/variables/615/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -341,7 +341,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `abinfo`](https://gssdataexplorer.norc.org/variables/616/vshow).
+#' For further details see the [GSS Data Explorer page for `abinfo`](https://gssdataexplorer.norc.org/variables/616/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

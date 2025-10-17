@@ -22,7 +22,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `asnchng`](https://gssdataexplorer.norc.org/variables/2321/vshow).
+#' For further details see the [GSS Data Explorer page for `asnchng`](https://gssdataexplorer.norc.org/variables/2321/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethchng`](https://gssdataexplorer.norc.org/variables/2322/vshow).
+#' For further details see the [GSS Data Explorer page for `ethchng`](https://gssdataexplorer.norc.org/variables/2322/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -89,7 +89,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comwht`](https://gssdataexplorer.norc.org/variables/2323/vshow).
+#' For further details see the [GSS Data Explorer page for `comwht`](https://gssdataexplorer.norc.org/variables/2323/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -121,7 +121,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comblk`](https://gssdataexplorer.norc.org/variables/2324/vshow).
+#' For further details see the [GSS Data Explorer page for `comblk`](https://gssdataexplorer.norc.org/variables/2324/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -153,7 +153,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comjews`](https://gssdataexplorer.norc.org/variables/2325/vshow).
+#' For further details see the [GSS Data Explorer page for `comjews`](https://gssdataexplorer.norc.org/variables/2325/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -185,7 +185,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comhisp`](https://gssdataexplorer.norc.org/variables/2326/vshow).
+#' For further details see the [GSS Data Explorer page for `comhisp`](https://gssdataexplorer.norc.org/variables/2326/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comasn`](https://gssdataexplorer.norc.org/variables/2327/vshow).
+#' For further details see the [GSS Data Explorer page for `comasn`](https://gssdataexplorer.norc.org/variables/2327/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -249,7 +249,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comamind`](https://gssdataexplorer.norc.org/variables/2328/vshow).
+#' For further details see the [GSS Data Explorer page for `comamind`](https://gssdataexplorer.norc.org/variables/2328/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -286,7 +286,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hispwork`](https://gssdataexplorer.norc.org/variables/2329/vshow).
+#' For further details see the [GSS Data Explorer page for `hispwork`](https://gssdataexplorer.norc.org/variables/2329/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knwwht`](https://gssdataexplorer.norc.org/variables/2330/vshow).
+#' For further details see the [GSS Data Explorer page for `knwwht`](https://gssdataexplorer.norc.org/variables/2330/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

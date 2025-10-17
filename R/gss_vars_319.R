@@ -20,7 +20,7 @@
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `petcmfrt`](https://gssdataexplorer.norc.org/variables/7208/vshow).
+#' For further details see the [GSS Data Explorer page for `petcmfrt`](https://gssdataexplorer.norc.org/variables/7208/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `petfam`](https://gssdataexplorer.norc.org/variables/7209/vshow).
+#' For further details see the [GSS Data Explorer page for `petfam`](https://gssdataexplorer.norc.org/variables/7209/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -86,7 +86,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dogb4`](https://gssdataexplorer.norc.org/variables/7210/vshow).
+#' For further details see the [GSS Data Explorer page for `dogb4`](https://gssdataexplorer.norc.org/variables/7210/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `catb4`](https://gssdataexplorer.norc.org/variables/7211/vshow).
+#' For further details see the [GSS Data Explorer page for `catb4`](https://gssdataexplorer.norc.org/variables/7211/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -150,7 +150,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `smammalb4`](https://gssdataexplorer.norc.org/variables/7212/vshow).
+#' For further details see the [GSS Data Explorer page for `smammalb4`](https://gssdataexplorer.norc.org/variables/7212/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -182,7 +182,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `birdb4`](https://gssdataexplorer.norc.org/variables/7213/vshow).
+#' For further details see the [GSS Data Explorer page for `birdb4`](https://gssdataexplorer.norc.org/variables/7213/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fishb4`](https://gssdataexplorer.norc.org/variables/7214/vshow).
+#' For further details see the [GSS Data Explorer page for `fishb4`](https://gssdataexplorer.norc.org/variables/7214/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -246,7 +246,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `reptileb4`](https://gssdataexplorer.norc.org/variables/7215/vshow).
+#' For further details see the [GSS Data Explorer page for `reptileb4`](https://gssdataexplorer.norc.org/variables/7215/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -278,7 +278,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `horseb4`](https://gssdataexplorer.norc.org/variables/7216/vshow).
+#' For further details see the [GSS Data Explorer page for `horseb4`](https://gssdataexplorer.norc.org/variables/7216/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pigb4`](https://gssdataexplorer.norc.org/variables/7217/vshow).
+#' For further details see the [GSS Data Explorer page for `pigb4`](https://gssdataexplorer.norc.org/variables/7217/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

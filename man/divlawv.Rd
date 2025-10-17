@@ -33,7 +33,7 @@ Question Should divorce in this country be easier or more difficult to obtain th
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7590/vshow}{GSS Data Explorer page for \code{divlawv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7590/vshow}{GSS Data Explorer page for \code{divlawv}}.
 }
 
 \keyword{variable}

@@ -35,7 +35,7 @@ Question How often do you or other members of your household skip a meal because
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7519/vshow}{GSS Data Explorer page for \code{skipmeal}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7519/vshow}{GSS Data Explorer page for \code{skipmeal}}.
 }
 
 \keyword{variable}

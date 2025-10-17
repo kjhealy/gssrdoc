@@ -24,7 +24,7 @@
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `shopfood`](https://gssdataexplorer.norc.org/variables/4421/vshow).
+#' For further details see the [GSS Data Explorer page for `shopfood`](https://gssdataexplorer.norc.org/variables/4421/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -62,7 +62,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dinner`](https://gssdataexplorer.norc.org/variables/4422/vshow).
+#' For further details see the [GSS Data Explorer page for `dinner`](https://gssdataexplorer.norc.org/variables/4422/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spwknokd`](https://gssdataexplorer.norc.org/variables/4423/vshow).
+#' For further details see the [GSS Data Explorer page for `spwknokd`](https://gssdataexplorer.norc.org/variables/4423/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -132,7 +132,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spwkbaby`](https://gssdataexplorer.norc.org/variables/4424/vshow).
+#' For further details see the [GSS Data Explorer page for `spwkbaby`](https://gssdataexplorer.norc.org/variables/4424/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -167,7 +167,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spwrksch`](https://gssdataexplorer.norc.org/variables/4425/vshow).
+#' For further details see the [GSS Data Explorer page for `spwrksch`](https://gssdataexplorer.norc.org/variables/4425/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spwkgrwn`](https://gssdataexplorer.norc.org/variables/4426/vshow).
+#' For further details see the [GSS Data Explorer page for `spwkgrwn`](https://gssdataexplorer.norc.org/variables/4426/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mehhwork`](https://gssdataexplorer.norc.org/variables/4427/vshow).
+#' For further details see the [GSS Data Explorer page for `mehhwork`](https://gssdataexplorer.norc.org/variables/4427/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mekdcare`](https://gssdataexplorer.norc.org/variables/4428/vshow).
+#' For further details see the [GSS Data Explorer page for `mekdcare`](https://gssdataexplorer.norc.org/variables/4428/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -313,7 +313,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `laundry1`](https://gssdataexplorer.norc.org/variables/4429/vshow).
+#' For further details see the [GSS Data Explorer page for `laundry1`](https://gssdataexplorer.norc.org/variables/4429/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -351,7 +351,7 @@ NULL
 #'  |2012 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `repairs1`](https://gssdataexplorer.norc.org/variables/4430/vshow).
+#' For further details see the [GSS Data Explorer page for `repairs1`](https://gssdataexplorer.norc.org/variables/4430/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

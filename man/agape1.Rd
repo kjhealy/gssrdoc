@@ -34,14 +34,8 @@ A. I would rather suffer myself than let the one I love suffer.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3053/vshow}{GSS Data Explorer page for \code{agape1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3053/vshow}{GSS Data Explorer page for \code{agape1}}.
 }
 
-\seealso{
-Other Altruistic Love: 
-\code{\link{agape2}},
-\code{\link{agape3}},
-\code{\link{agape4}}
-}
 \concept{Altruistic Love}
 \keyword{variable}

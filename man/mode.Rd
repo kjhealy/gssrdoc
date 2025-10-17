@@ -42,31 +42,18 @@ Question Interview done in-person or over the phone
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5566/vshow}{GSS Data Explorer page for \code{mode}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5566/vshow}{GSS Data Explorer page for \code{mode}}.
 }
 
 \seealso{
 Other Paradata: 
 \code{\link{consent}},
 \code{\link{easyget}},
-\code{\link{feelevel}},
-\code{\link{feeused}},
-\code{\link{huclean}},
 \code{\link{intage}},
 \code{\link{intethn}},
-\code{\link{intid}},
 \code{\link{intsex}},
 \code{\link{intyrs}},
-\code{\link{lngthinv}},
-\code{\link{saqgene}},
-\code{\link{saqissp}},
-\code{\link{saqsex}},
-\code{\link{whoelse1}},
-\code{\link{whoelse2}},
-\code{\link{whoelse3}},
-\code{\link{whoelse4}},
-\code{\link{whoelse5}},
-\code{\link{whoelse6}}
+\code{\link{lngthinv}}
 }
 \concept{Paradata}
 \keyword{variable}

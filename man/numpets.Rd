@@ -30,7 +30,7 @@ Question How many pets does your family have? By family, we mean members of your
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7194/vshow}{GSS Data Explorer page for \code{numpets}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7194/vshow}{GSS Data Explorer page for \code{numpets}}.
 }
 
 \keyword{variable}

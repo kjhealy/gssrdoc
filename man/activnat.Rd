@@ -33,7 +33,7 @@ Question In the last twelve months how often, if at all, have you engaged in any
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7496/vshow}{GSS Data Explorer page for \code{activnat}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7496/vshow}{GSS Data Explorer page for \code{activnat}}.
 }
 
 \keyword{variable}

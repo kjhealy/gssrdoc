@@ -18,7 +18,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genecanx`](https://gssdataexplorer.norc.org/variables/1260/vshow).
+#' For further details see the [GSS Data Explorer page for `genecanx`](https://gssdataexplorer.norc.org/variables/1260/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genecany`](https://gssdataexplorer.norc.org/variables/1261/vshow).
+#' For further details see the [GSS Data Explorer page for `genecany`](https://gssdataexplorer.norc.org/variables/1261/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -83,7 +83,7 @@ NULL
 #'  |1991 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genegets`](https://gssdataexplorer.norc.org/variables/1262/vshow).
+#' For further details see the [GSS Data Explorer page for `genegets`](https://gssdataexplorer.norc.org/variables/1262/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -119,7 +119,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `profits1`](https://gssdataexplorer.norc.org/variables/1263/vshow).
+#' For further details see the [GSS Data Explorer page for `profits1`](https://gssdataexplorer.norc.org/variables/1263/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -155,7 +155,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `profits2`](https://gssdataexplorer.norc.org/variables/1264/vshow).
+#' For further details see the [GSS Data Explorer page for `profits2`](https://gssdataexplorer.norc.org/variables/1264/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -191,7 +191,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `unpower`](https://gssdataexplorer.norc.org/variables/1265/vshow).
+#' For further details see the [GSS Data Explorer page for `unpower`](https://gssdataexplorer.norc.org/variables/1265/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `unprog`](https://gssdataexplorer.norc.org/variables/1266/vshow).
+#' For further details see the [GSS Data Explorer page for `unprog`](https://gssdataexplorer.norc.org/variables/1266/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -260,7 +260,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `outofbiz`](https://gssdataexplorer.norc.org/variables/1267/vshow).
+#' For further details see the [GSS Data Explorer page for `outofbiz`](https://gssdataexplorer.norc.org/variables/1267/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -293,7 +293,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `merged`](https://gssdataexplorer.norc.org/variables/1268/vshow).
+#' For further details see the [GSS Data Explorer page for `merged`](https://gssdataexplorer.norc.org/variables/1268/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `reorg`](https://gssdataexplorer.norc.org/variables/1269/vshow).
+#' For further details see the [GSS Data Explorer page for `reorg`](https://gssdataexplorer.norc.org/variables/1269/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

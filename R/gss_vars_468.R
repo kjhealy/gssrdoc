@@ -23,7 +23,7 @@
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `opsex`](https://gssdataexplorer.norc.org/variables/4252/vshow).
+#' For further details see the [GSS Data Explorer page for `opsex`](https://gssdataexplorer.norc.org/variables/4252/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -59,7 +59,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oppol`](https://gssdataexplorer.norc.org/variables/4253/vshow).
+#' For further details see the [GSS Data Explorer page for `oppol`](https://gssdataexplorer.norc.org/variables/4253/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -110,7 +110,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `goodlife`](https://gssdataexplorer.norc.org/variables/4254/vshow).
+#' For further details see the [GSS Data Explorer page for `goodlife`](https://gssdataexplorer.norc.org/variables/4254/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -144,7 +144,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `incentiv`](https://gssdataexplorer.norc.org/variables/4255/vshow).
+#' For further details see the [GSS Data Explorer page for `incentiv`](https://gssdataexplorer.norc.org/variables/4255/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -181,7 +181,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inequal1`](https://gssdataexplorer.norc.org/variables/4256/vshow).
+#' For further details see the [GSS Data Explorer page for `inequal1`](https://gssdataexplorer.norc.org/variables/4256/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -218,7 +218,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inequal2`](https://gssdataexplorer.norc.org/variables/4257/vshow).
+#' For further details see the [GSS Data Explorer page for `inequal2`](https://gssdataexplorer.norc.org/variables/4257/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -257,7 +257,7 @@ NULL
 #'  |2008 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inequal3`](https://gssdataexplorer.norc.org/variables/4258/vshow).
+#' For further details see the [GSS Data Explorer page for `inequal3`](https://gssdataexplorer.norc.org/variables/4258/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -295,7 +295,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inequal4`](https://gssdataexplorer.norc.org/variables/4259/vshow).
+#' For further details see the [GSS Data Explorer page for `inequal4`](https://gssdataexplorer.norc.org/variables/4259/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -335,7 +335,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inequal5`](https://gssdataexplorer.norc.org/variables/4260/vshow).
+#' For further details see the [GSS Data Explorer page for `inequal5`](https://gssdataexplorer.norc.org/variables/4260/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -374,7 +374,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inequal6`](https://gssdataexplorer.norc.org/variables/7551/vshow).
+#' For further details see the [GSS Data Explorer page for `inequal6`](https://gssdataexplorer.norc.org/variables/7551/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -21,7 +21,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conteng`](https://gssdataexplorer.norc.org/variables/2271/vshow).
+#' For further details see the [GSS Data Explorer page for `conteng`](https://gssdataexplorer.norc.org/variables/2271/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contitl`](https://gssdataexplorer.norc.org/variables/2272/vshow).
+#' For further details see the [GSS Data Explorer page for `contitl`](https://gssdataexplorer.norc.org/variables/2272/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contchn`](https://gssdataexplorer.norc.org/variables/2273/vshow).
+#' For further details see the [GSS Data Explorer page for `contchn`](https://gssdataexplorer.norc.org/variables/2273/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contjew`](https://gssdataexplorer.norc.org/variables/2274/vshow).
+#' For further details see the [GSS Data Explorer page for `contjew`](https://gssdataexplorer.norc.org/variables/2274/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contblk`](https://gssdataexplorer.norc.org/variables/2275/vshow).
+#' For further details see the [GSS Data Explorer page for `contblk`](https://gssdataexplorer.norc.org/variables/2275/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contmex`](https://gssdataexplorer.norc.org/variables/2276/vshow).
+#' For further details see the [GSS Data Explorer page for `contmex`](https://gssdataexplorer.norc.org/variables/2276/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contvn`](https://gssdataexplorer.norc.org/variables/2277/vshow).
+#' For further details see the [GSS Data Explorer page for `contvn`](https://gssdataexplorer.norc.org/variables/2277/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contcuba`](https://gssdataexplorer.norc.org/variables/2278/vshow).
+#' For further details see the [GSS Data Explorer page for `contcuba`](https://gssdataexplorer.norc.org/variables/2278/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contirsh`](https://gssdataexplorer.norc.org/variables/2279/vshow).
+#' For further details see the [GSS Data Explorer page for `contirsh`](https://gssdataexplorer.norc.org/variables/2279/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -336,7 +336,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contpr`](https://gssdataexplorer.norc.org/variables/2280/vshow).
+#' For further details see the [GSS Data Explorer page for `contpr`](https://gssdataexplorer.norc.org/variables/2280/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

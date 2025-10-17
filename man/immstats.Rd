@@ -32,7 +32,7 @@ Question Thinking of your current immigration status right now, is that in Box A
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3027/vshow}{GSS Data Explorer page for \code{immstats}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3027/vshow}{GSS Data Explorer page for \code{immstats}}.
 }
 
 \seealso{

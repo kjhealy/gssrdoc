@@ -34,7 +34,7 @@ Question When you were 16 years old, did your family own your own home, pay rent
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7299/vshow}{GSS Data Explorer page for \code{dwelown16}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7299/vshow}{GSS Data Explorer page for \code{dwelown16}}.
 }
 
 \keyword{variable}

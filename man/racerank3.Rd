@@ -45,7 +45,7 @@ Question After your primary and secondary racial identity, which of these races 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7753/vshow}{GSS Data Explorer page for \code{racerank3}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7753/vshow}{GSS Data Explorer page for \code{racerank3}}.
 }
 
 \keyword{variable}

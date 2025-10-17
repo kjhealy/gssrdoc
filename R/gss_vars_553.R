@@ -18,7 +18,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexfreq1`](https://gssdataexplorer.norc.org/variables/5058/vshow).
+#' For further details see the [GSS Data Explorer page for `sexfreq1`](https://gssdataexplorer.norc.org/variables/5058/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -49,7 +49,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexfreq2`](https://gssdataexplorer.norc.org/variables/5059/vshow).
+#' For further details see the [GSS Data Explorer page for `sexfreq2`](https://gssdataexplorer.norc.org/variables/5059/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -106,7 +106,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `numwomen`](https://gssdataexplorer.norc.org/variables/5060/vshow).
+#' For further details see the [GSS Data Explorer page for `numwomen`](https://gssdataexplorer.norc.org/variables/5060/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -163,7 +163,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nummen`](https://gssdataexplorer.norc.org/variables/5061/vshow).
+#' For further details see the [GSS Data Explorer page for `nummen`](https://gssdataexplorer.norc.org/variables/5061/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -195,7 +195,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partopen`](https://gssdataexplorer.norc.org/variables/5062/vshow).
+#' For further details see the [GSS Data Explorer page for `partopen`](https://gssdataexplorer.norc.org/variables/5062/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partopn5`](https://gssdataexplorer.norc.org/variables/5063/vshow).
+#' For further details see the [GSS Data Explorer page for `partopn5`](https://gssdataexplorer.norc.org/variables/5063/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -284,7 +284,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partnrs5`](https://gssdataexplorer.norc.org/variables/5064/vshow).
+#' For further details see the [GSS Data Explorer page for `partnrs5`](https://gssdataexplorer.norc.org/variables/5064/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -333,7 +333,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexsex5`](https://gssdataexplorer.norc.org/variables/5065/vshow).
+#' For further details see the [GSS Data Explorer page for `sexsex5`](https://gssdataexplorer.norc.org/variables/5065/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -381,7 +381,7 @@ NULL
 #'  |2022 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evpaidsx`](https://gssdataexplorer.norc.org/variables/5066/vshow).
+#' For further details see the [GSS Data Explorer page for `evpaidsx`](https://gssdataexplorer.norc.org/variables/5066/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -429,7 +429,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evstray`](https://gssdataexplorer.norc.org/variables/5067/vshow).
+#' For further details see the [GSS Data Explorer page for `evstray`](https://gssdataexplorer.norc.org/variables/5067/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

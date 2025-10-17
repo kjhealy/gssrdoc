@@ -29,7 +29,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othrel3`](https://gssdataexplorer.norc.org/variables/5323/vshow).
+#' For further details see the [GSS Data Explorer page for `othrel3`](https://gssdataexplorer.norc.org/variables/5323/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -61,7 +61,7 @@ NULL
 #'  |1996 |B       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `attweek`](https://gssdataexplorer.norc.org/variables/5324/vshow).
+#' For further details see the [GSS Data Explorer page for `attweek`](https://gssdataexplorer.norc.org/variables/5324/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -98,7 +98,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `religid`](https://gssdataexplorer.norc.org/variables/5325/vshow).
+#' For further details see the [GSS Data Explorer page for `religid`](https://gssdataexplorer.norc.org/variables/5325/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -135,7 +135,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relid1`](https://gssdataexplorer.norc.org/variables/5326/vshow).
+#' For further details see the [GSS Data Explorer page for `relid1`](https://gssdataexplorer.norc.org/variables/5326/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -172,7 +172,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relid2`](https://gssdataexplorer.norc.org/variables/5327/vshow).
+#' For further details see the [GSS Data Explorer page for `relid2`](https://gssdataexplorer.norc.org/variables/5327/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -209,7 +209,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relid3`](https://gssdataexplorer.norc.org/variables/5328/vshow).
+#' For further details see the [GSS Data Explorer page for `relid3`](https://gssdataexplorer.norc.org/variables/5328/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -246,7 +246,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relidbst`](https://gssdataexplorer.norc.org/variables/5329/vshow).
+#' For further details see the [GSS Data Explorer page for `relidbst`](https://gssdataexplorer.norc.org/variables/5329/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cathid`](https://gssdataexplorer.norc.org/variables/5330/vshow).
+#' For further details see the [GSS Data Explorer page for `cathid`](https://gssdataexplorer.norc.org/variables/5330/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -314,7 +314,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `charisma`](https://gssdataexplorer.norc.org/variables/5331/vshow).
+#' For further details see the [GSS Data Explorer page for `charisma`](https://gssdataexplorer.norc.org/variables/5331/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -392,7 +392,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relate1`](https://gssdataexplorer.norc.org/variables/5332/vshow).
+#' For further details see the [GSS Data Explorer page for `relate1`](https://gssdataexplorer.norc.org/variables/5332/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

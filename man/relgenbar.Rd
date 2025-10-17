@@ -33,7 +33,7 @@ Question Religions are usually a barrier to equality between women and men.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7281/vshow}{GSS Data Explorer page for \code{relgenbar}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7281/vshow}{GSS Data Explorer page for \code{relgenbar}}.
 }
 
 \keyword{variable}

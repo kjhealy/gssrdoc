@@ -19,7 +19,7 @@
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `draftco`](https://gssdataexplorer.norc.org/variables/810/vshow).
+#' For further details see the [GSS Data Explorer page for `draftco`](https://gssdataexplorer.norc.org/variables/810/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `draftdef`](https://gssdataexplorer.norc.org/variables/811/vshow).
+#' For further details see the [GSS Data Explorer page for `draftdef`](https://gssdataexplorer.norc.org/variables/811/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vetfam`](https://gssdataexplorer.norc.org/variables/812/vshow).
+#' For further details see the [GSS Data Explorer page for `vetfam`](https://gssdataexplorer.norc.org/variables/812/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vetfamnw`](https://gssdataexplorer.norc.org/variables/813/vshow).
+#' For further details see the [GSS Data Explorer page for `vetfamnw`](https://gssdataexplorer.norc.org/variables/813/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `minmilop`](https://gssdataexplorer.norc.org/variables/814/vshow).
+#' For further details see the [GSS Data Explorer page for `minmilop`](https://gssdataexplorer.norc.org/variables/814/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `femilop`](https://gssdataexplorer.norc.org/variables/815/vshow).
+#' For further details see the [GSS Data Explorer page for `femilop`](https://gssdataexplorer.norc.org/variables/815/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -216,7 +216,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `copunish`](https://gssdataexplorer.norc.org/variables/816/vshow).
+#' For further details see the [GSS Data Explorer page for `copunish`](https://gssdataexplorer.norc.org/variables/816/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -249,7 +249,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cojail`](https://gssdataexplorer.norc.org/variables/817/vshow).
+#' For further details see the [GSS Data Explorer page for `cojail`](https://gssdataexplorer.norc.org/variables/817/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `milokme`](https://gssdataexplorer.norc.org/variables/818/vshow).
+#' For further details see the [GSS Data Explorer page for `milokme`](https://gssdataexplorer.norc.org/variables/818/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -317,7 +317,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `milokfe`](https://gssdataexplorer.norc.org/variables/819/vshow).
+#' For further details see the [GSS Data Explorer page for `milokfe`](https://gssdataexplorer.norc.org/variables/819/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

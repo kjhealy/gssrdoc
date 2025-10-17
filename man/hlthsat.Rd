@@ -36,7 +36,7 @@ Question In general, how satisfied or dissatisfied are you with the health care 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7831/vshow}{GSS Data Explorer page for \code{hlthsat}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7831/vshow}{GSS Data Explorer page for \code{hlthsat}}.
 }
 
 \keyword{variable}

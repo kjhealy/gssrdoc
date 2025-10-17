@@ -19,7 +19,7 @@
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff10`](https://gssdataexplorer.norc.org/variables/4048/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff10`](https://gssdataexplorer.norc.org/variables/4048/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `setwage`](https://gssdataexplorer.norc.org/variables/4049/vshow).
+#' For further details see the [GSS Data Explorer page for `setwage`](https://gssdataexplorer.norc.org/variables/4049/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -95,7 +95,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `setprice`](https://gssdataexplorer.norc.org/variables/4050/vshow).
+#' For further details see the [GSS Data Explorer page for `setprice`](https://gssdataexplorer.norc.org/variables/4050/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -135,7 +135,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cutgovt`](https://gssdataexplorer.norc.org/variables/4051/vshow).
+#' For further details see the [GSS Data Explorer page for `cutgovt`](https://gssdataexplorer.norc.org/variables/4051/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -175,7 +175,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `makejobs`](https://gssdataexplorer.norc.org/variables/4052/vshow).
+#' For further details see the [GSS Data Explorer page for `makejobs`](https://gssdataexplorer.norc.org/variables/4052/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -215,7 +215,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lessreg`](https://gssdataexplorer.norc.org/variables/4053/vshow).
+#' For further details see the [GSS Data Explorer page for `lessreg`](https://gssdataexplorer.norc.org/variables/4053/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlphitec`](https://gssdataexplorer.norc.org/variables/4054/vshow).
+#' For further details see the [GSS Data Explorer page for `hlphitec`](https://gssdataexplorer.norc.org/variables/4054/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -295,7 +295,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `savejobs`](https://gssdataexplorer.norc.org/variables/4055/vshow).
+#' For further details see the [GSS Data Explorer page for `savejobs`](https://gssdataexplorer.norc.org/variables/4055/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -335,7 +335,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cuthours`](https://gssdataexplorer.norc.org/variables/4056/vshow).
+#' For further details see the [GSS Data Explorer page for `cuthours`](https://gssdataexplorer.norc.org/variables/4056/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -375,7 +375,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spenviro`](https://gssdataexplorer.norc.org/variables/4057/vshow).
+#' For further details see the [GSS Data Explorer page for `spenviro`](https://gssdataexplorer.norc.org/variables/4057/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

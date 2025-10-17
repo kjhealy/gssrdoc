@@ -22,7 +22,7 @@
 #'  |2010 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `popgrwth`](https://gssdataexplorer.norc.org/variables/4778/vshow).
+#' For further details see the [GSS Data Explorer page for `popgrwth`](https://gssdataexplorer.norc.org/variables/4778/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impgrn`](https://gssdataexplorer.norc.org/variables/4779/vshow).
+#' For further details see the [GSS Data Explorer page for `impgrn`](https://gssdataexplorer.norc.org/variables/4779/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -98,7 +98,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othssame`](https://gssdataexplorer.norc.org/variables/4780/vshow).
+#' For further details see the [GSS Data Explorer page for `othssame`](https://gssdataexplorer.norc.org/variables/4780/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -136,7 +136,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grnexagg`](https://gssdataexplorer.norc.org/variables/4781/vshow).
+#' For further details see the [GSS Data Explorer page for `grnexagg`](https://gssdataexplorer.norc.org/variables/4781/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -174,7 +174,7 @@ NULL
 #'  |2018 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genegen`](https://gssdataexplorer.norc.org/variables/4782/vshow).
+#' For further details see the [GSS Data Explorer page for `genegen`](https://gssdataexplorer.norc.org/variables/4782/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -207,7 +207,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amprogrn`](https://gssdataexplorer.norc.org/variables/4783/vshow).
+#' For further details see the [GSS Data Explorer page for `amprogrn`](https://gssdataexplorer.norc.org/variables/4783/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bizpeop`](https://gssdataexplorer.norc.org/variables/4784/vshow).
+#' For further details see the [GSS Data Explorer page for `bizpeop`](https://gssdataexplorer.norc.org/variables/4784/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -273,7 +273,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govtbiz`](https://gssdataexplorer.norc.org/variables/4785/vshow).
+#' For further details see the [GSS Data Explorer page for `govtbiz`](https://gssdataexplorer.norc.org/variables/4785/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `peopgovt`](https://gssdataexplorer.norc.org/variables/4786/vshow).
+#' For further details see the [GSS Data Explorer page for `peopgovt`](https://gssdataexplorer.norc.org/variables/4786/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -343,7 +343,7 @@ NULL
 #'  |2010 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grnintl`](https://gssdataexplorer.norc.org/variables/4787/vshow).
+#' For further details see the [GSS Data Explorer page for `grnintl`](https://gssdataexplorer.norc.org/variables/4787/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

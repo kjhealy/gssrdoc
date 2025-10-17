@@ -33,7 +33,7 @@ Question And do you think that pollution of America's rivers, lakes and streams 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7492/vshow}{GSS Data Explorer page for \code{watergen1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7492/vshow}{GSS Data Explorer page for \code{watergen1}}.
 }
 
 \keyword{variable}

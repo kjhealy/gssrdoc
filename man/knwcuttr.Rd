@@ -32,7 +32,7 @@ Question Do you know a woman or a man who isï¿½A hairdresser or barber
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7232/vshow}{GSS Data Explorer page for \code{knwcuttr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7232/vshow}{GSS Data Explorer page for \code{knwcuttr}}.
 }
 
 \keyword{variable}

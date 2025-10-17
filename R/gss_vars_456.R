@@ -17,7 +17,7 @@
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `livecom`](https://gssdataexplorer.norc.org/variables/4181/vshow).
+#' For further details see the [GSS Data Explorer page for `livecom`](https://gssdataexplorer.norc.org/variables/4181/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -48,7 +48,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `livehome`](https://gssdataexplorer.norc.org/variables/4182/vshow).
+#' For further details see the [GSS Data Explorer page for `livehome`](https://gssdataexplorer.norc.org/variables/4182/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `matime1`](https://gssdataexplorer.norc.org/variables/4183/vshow).
+#' For further details see the [GSS Data Explorer page for `matime1`](https://gssdataexplorer.norc.org/variables/4183/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -120,7 +120,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sibnum`](https://gssdataexplorer.norc.org/variables/4184/vshow).
+#' For further details see the [GSS Data Explorer page for `sibnum`](https://gssdataexplorer.norc.org/variables/4184/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -153,7 +153,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sibmost`](https://gssdataexplorer.norc.org/variables/4185/vshow).
+#' For further details see the [GSS Data Explorer page for `sibmost`](https://gssdataexplorer.norc.org/variables/4185/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sibvisit`](https://gssdataexplorer.norc.org/variables/4186/vshow).
+#' For further details see the [GSS Data Explorer page for `sibvisit`](https://gssdataexplorer.norc.org/variables/4186/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -226,7 +226,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sibcall`](https://gssdataexplorer.norc.org/variables/4187/vshow).
+#' For further details see the [GSS Data Explorer page for `sibcall`](https://gssdataexplorer.norc.org/variables/4187/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -259,7 +259,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidnum`](https://gssdataexplorer.norc.org/variables/4188/vshow).
+#' For further details see the [GSS Data Explorer page for `kidnum`](https://gssdataexplorer.norc.org/variables/4188/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -293,7 +293,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidmost`](https://gssdataexplorer.norc.org/variables/4189/vshow).
+#' For further details see the [GSS Data Explorer page for `kidmost`](https://gssdataexplorer.norc.org/variables/4189/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidvisit`](https://gssdataexplorer.norc.org/variables/4190/vshow).
+#' For further details see the [GSS Data Explorer page for `kidvisit`](https://gssdataexplorer.norc.org/variables/4190/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

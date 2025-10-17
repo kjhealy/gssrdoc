@@ -20,7 +20,7 @@
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wkyngscs`](https://gssdataexplorer.norc.org/variables/4482/vshow).
+#' For further details see the [GSS Data Explorer page for `wkyngscs`](https://gssdataexplorer.norc.org/variables/4482/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rfamlook`](https://gssdataexplorer.norc.org/variables/4483/vshow).
+#' For further details see the [GSS Data Explorer page for `rfamlook`](https://gssdataexplorer.norc.org/variables/4483/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spfalook`](https://gssdataexplorer.norc.org/variables/4484/vshow).
+#' For further details see the [GSS Data Explorer page for `spfalook`](https://gssdataexplorer.norc.org/variables/4484/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -116,7 +116,7 @@ NULL
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `splive`](https://gssdataexplorer.norc.org/variables/4485/vshow).
+#' For further details see the [GSS Data Explorer page for `splive`](https://gssdataexplorer.norc.org/variables/4485/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |2006 |D/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timepdwk`](https://gssdataexplorer.norc.org/variables/4486/vshow).
+#' For further details see the [GSS Data Explorer page for `timepdwk`](https://gssdataexplorer.norc.org/variables/4486/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |2006 |D/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timehhwk`](https://gssdataexplorer.norc.org/variables/4487/vshow).
+#' For further details see the [GSS Data Explorer page for `timehhwk`](https://gssdataexplorer.norc.org/variables/4487/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -230,7 +230,7 @@ NULL
 #'  |2006 |D/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timefam`](https://gssdataexplorer.norc.org/variables/4488/vshow).
+#' For further details see the [GSS Data Explorer page for `timefam`](https://gssdataexplorer.norc.org/variables/4488/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |2006 |D/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timefrnd`](https://gssdataexplorer.norc.org/variables/4489/vshow).
+#' For further details see the [GSS Data Explorer page for `timefrnd`](https://gssdataexplorer.norc.org/variables/4489/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |2006 |D/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timeleis`](https://gssdataexplorer.norc.org/variables/4490/vshow).
+#' For further details see the [GSS Data Explorer page for `timeleis`](https://gssdataexplorer.norc.org/variables/4490/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -342,7 +342,7 @@ NULL
 #'  |1989 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `timerelx`](https://gssdataexplorer.norc.org/variables/4491/vshow).
+#' For further details see the [GSS Data Explorer page for `timerelx`](https://gssdataexplorer.norc.org/variables/4491/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

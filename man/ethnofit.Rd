@@ -34,22 +34,18 @@ B. Ethnic minority groups will never really fit in with mainstream American cult
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2727/vshow}{GSS Data Explorer page for \code{ethnofit}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2727/vshow}{GSS Data Explorer page for \code{ethnofit}}.
 }
 
 \seealso{
 Other Prejudice: 
 \code{\link{ethadapt}},
-\code{\link{ethdiff}},
 \code{\link{ethignor}},
 \code{\link{ethimp}},
-\code{\link{ethsame}},
 \code{\link{ethtrads}},
 \code{\link{feelasns}},
 \code{\link{feelblks}},
-\code{\link{feelhsps}},
-\code{\link{feelwhts}},
-\code{\link{whtsdiff}}
+\code{\link{feelhsps}}
 }
 \concept{Prejudice}
 \keyword{variable}

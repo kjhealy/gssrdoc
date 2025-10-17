@@ -19,7 +19,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fixerc`](https://gssdataexplorer.norc.org/variables/1842/vshow).
+#' For further details see the [GSS Data Explorer page for `fixerc`](https://gssdataexplorer.norc.org/variables/1842/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fixerd`](https://gssdataexplorer.norc.org/variables/1843/vshow).
+#' For further details see the [GSS Data Explorer page for `fixerd`](https://gssdataexplorer.norc.org/variables/1843/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fixere`](https://gssdataexplorer.norc.org/variables/1844/vshow).
+#' For further details see the [GSS Data Explorer page for `fixere`](https://gssdataexplorer.norc.org/variables/1844/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fixerf`](https://gssdataexplorer.norc.org/variables/1845/vshow).
+#' For further details see the [GSS Data Explorer page for `fixerf`](https://gssdataexplorer.norc.org/variables/1845/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -150,7 +150,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fixer1`](https://gssdataexplorer.norc.org/variables/1846/vshow).
+#' For further details see the [GSS Data Explorer page for `fixer1`](https://gssdataexplorer.norc.org/variables/1846/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -185,7 +185,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relfixer`](https://gssdataexplorer.norc.org/variables/1847/vshow).
+#' For further details see the [GSS Data Explorer page for `relfixer`](https://gssdataexplorer.norc.org/variables/1847/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -218,7 +218,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `satfixes`](https://gssdataexplorer.norc.org/variables/1848/vshow).
+#' For further details see the [GSS Data Explorer page for `satfixes`](https://gssdataexplorer.norc.org/variables/1848/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `borrowed`](https://gssdataexplorer.norc.org/variables/1849/vshow).
+#' For further details see the [GSS Data Explorer page for `borrowed`](https://gssdataexplorer.norc.org/variables/1849/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -286,7 +286,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wholoand`](https://gssdataexplorer.norc.org/variables/1850/vshow).
+#' For further details see the [GSS Data Explorer page for `wholoand`](https://gssdataexplorer.norc.org/variables/1850/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -320,7 +320,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sellbed`](https://gssdataexplorer.norc.org/variables/1851/vshow).
+#' For further details see the [GSS Data Explorer page for `sellbed`](https://gssdataexplorer.norc.org/variables/1851/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -33,7 +33,7 @@ The federal government ensuring the safety of vaccines to protect the public aga
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7580/vshow}{GSS Data Explorer page for \code{confedvac}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7580/vshow}{GSS Data Explorer page for \code{confedvac}}.
 }
 
 \keyword{variable}

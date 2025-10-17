@@ -45,7 +45,7 @@ Question Please give a general estimate of the total number of the stock options
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7849/vshow}{GSS Data Explorer page for \code{stoptyramt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7849/vshow}{GSS Data Explorer page for \code{stoptyramt}}.
 }
 
 \keyword{variable}

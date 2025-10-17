@@ -20,7 +20,7 @@
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `confedy`](https://gssdataexplorer.norc.org/variables/465/vshow).
+#' For further details see the [GSS Data Explorer page for `confedy`](https://gssdataexplorer.norc.org/variables/465/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conlaboy`](https://gssdataexplorer.norc.org/variables/466/vshow).
+#' For further details see the [GSS Data Explorer page for `conlaboy`](https://gssdataexplorer.norc.org/variables/466/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conpresy`](https://gssdataexplorer.norc.org/variables/467/vshow).
+#' For further details see the [GSS Data Explorer page for `conpresy`](https://gssdataexplorer.norc.org/variables/467/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conmediy`](https://gssdataexplorer.norc.org/variables/468/vshow).
+#' For further details see the [GSS Data Explorer page for `conmediy`](https://gssdataexplorer.norc.org/variables/468/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contvy`](https://gssdataexplorer.norc.org/variables/469/vshow).
+#' For further details see the [GSS Data Explorer page for `contvy`](https://gssdataexplorer.norc.org/variables/469/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conjudgy`](https://gssdataexplorer.norc.org/variables/470/vshow).
+#' For further details see the [GSS Data Explorer page for `conjudgy`](https://gssdataexplorer.norc.org/variables/470/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `consciy`](https://gssdataexplorer.norc.org/variables/471/vshow).
+#' For further details see the [GSS Data Explorer page for `consciy`](https://gssdataexplorer.norc.org/variables/471/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conlegiy`](https://gssdataexplorer.norc.org/variables/472/vshow).
+#' For further details see the [GSS Data Explorer page for `conlegiy`](https://gssdataexplorer.norc.org/variables/472/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conarmyy`](https://gssdataexplorer.norc.org/variables/473/vshow).
+#' For further details see the [GSS Data Explorer page for `conarmyy`](https://gssdataexplorer.norc.org/variables/473/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -336,7 +336,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `manners`](https://gssdataexplorer.norc.org/variables/474/vshow).
+#' For further details see the [GSS Data Explorer page for `manners`](https://gssdataexplorer.norc.org/variables/474/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

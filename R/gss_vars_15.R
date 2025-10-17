@@ -51,7 +51,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `granborn`](https://gssdataexplorer.norc.org/variables/96/vshow).
+#' For further details see the [GSS Data Explorer page for `granborn`](https://gssdataexplorer.norc.org/variables/96/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -117,7 +117,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hompop`](https://gssdataexplorer.norc.org/variables/97/vshow).
+#' For further details see the [GSS Data Explorer page for `hompop`](https://gssdataexplorer.norc.org/variables/97/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `babies`](https://gssdataexplorer.norc.org/variables/98/vshow).
+#' For further details see the [GSS Data Explorer page for `babies`](https://gssdataexplorer.norc.org/variables/98/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -251,7 +251,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `preteen`](https://gssdataexplorer.norc.org/variables/99/vshow).
+#' For further details see the [GSS Data Explorer page for `preteen`](https://gssdataexplorer.norc.org/variables/99/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -318,7 +318,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `teens`](https://gssdataexplorer.norc.org/variables/100/vshow).
+#' For further details see the [GSS Data Explorer page for `teens`](https://gssdataexplorer.norc.org/variables/100/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -384,7 +384,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `adults`](https://gssdataexplorer.norc.org/variables/101/vshow).
+#' For further details see the [GSS Data Explorer page for `adults`](https://gssdataexplorer.norc.org/variables/101/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -450,7 +450,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `unrelat`](https://gssdataexplorer.norc.org/variables/102/vshow).
+#' For further details see the [GSS Data Explorer page for `unrelat`](https://gssdataexplorer.norc.org/variables/102/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -514,7 +514,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `earnrs`](https://gssdataexplorer.norc.org/variables/103/vshow).
+#' For further details see the [GSS Data Explorer page for `earnrs`](https://gssdataexplorer.norc.org/variables/103/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -589,7 +589,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `income`](https://gssdataexplorer.norc.org/variables/104/vshow).
+#' For further details see the [GSS Data Explorer page for `income`](https://gssdataexplorer.norc.org/variables/104/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -666,7 +666,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rincome`](https://gssdataexplorer.norc.org/variables/105/vshow).
+#' For further details see the [GSS Data Explorer page for `rincome`](https://gssdataexplorer.norc.org/variables/105/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

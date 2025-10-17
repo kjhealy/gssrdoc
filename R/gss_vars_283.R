@@ -19,7 +19,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `compoth`](https://gssdataexplorer.norc.org/variables/2579/vshow).
+#' For further details see the [GSS Data Explorer page for `compoth`](https://gssdataexplorer.norc.org/variables/2579/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `compschl`](https://gssdataexplorer.norc.org/variables/2580/vshow).
+#' For further details see the [GSS Data Explorer page for `compschl`](https://gssdataexplorer.norc.org/variables/2580/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `complib`](https://gssdataexplorer.norc.org/variables/2581/vshow).
+#' For further details see the [GSS Data Explorer page for `complib`](https://gssdataexplorer.norc.org/variables/2581/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `compfri`](https://gssdataexplorer.norc.org/variables/2582/vshow).
+#' For further details see the [GSS Data Explorer page for `compfri`](https://gssdataexplorer.norc.org/variables/2582/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `compelse`](https://gssdataexplorer.norc.org/variables/2583/vshow).
+#' For further details see the [GSS Data Explorer page for `compelse`](https://gssdataexplorer.norc.org/variables/2583/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -186,7 +186,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mostloc`](https://gssdataexplorer.norc.org/variables/2584/vshow).
+#' For further details see the [GSS Data Explorer page for `mostloc`](https://gssdataexplorer.norc.org/variables/2584/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -219,7 +219,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ecommino`](https://gssdataexplorer.norc.org/variables/2585/vshow).
+#' For further details see the [GSS Data Explorer page for `ecommino`](https://gssdataexplorer.norc.org/variables/2585/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -252,7 +252,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ecomhro`](https://gssdataexplorer.norc.org/variables/2586/vshow).
+#' For further details see the [GSS Data Explorer page for `ecomhro`](https://gssdataexplorer.norc.org/variables/2586/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `permino`](https://gssdataexplorer.norc.org/variables/2587/vshow).
+#' For further details see the [GSS Data Explorer page for `permino`](https://gssdataexplorer.norc.org/variables/2587/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -318,7 +318,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `perhro`](https://gssdataexplorer.norc.org/variables/2588/vshow).
+#' For further details see the [GSS Data Explorer page for `perhro`](https://gssdataexplorer.norc.org/variables/2588/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

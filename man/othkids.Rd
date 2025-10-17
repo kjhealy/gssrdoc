@@ -32,39 +32,17 @@ C. Children for whom I am not a biological or adoptive parent
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3934/vshow}{GSS Data Explorer page for \code{othkids}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3934/vshow}{GSS Data Explorer page for \code{othkids}}.
 }
 
 \seealso{
 Other Sexual Orientation: 
-\code{\link{adoptkid}},
-\code{\link{attractd}},
-\code{\link{dwell5}},
 \code{\link{emphlth1}},
 \code{\link{emphlth2}},
-\code{\link{evdwell}},
-\code{\link{evharjb}},
-\code{\link{evkid}},
-\code{\link{evlosejb}},
-\code{\link{evnegjob}},
-\code{\link{harjob5}},
 \code{\link{hlthcovr}},
 \code{\link{hlthtype}},
-\code{\link{kidlived}},
-\code{\link{kidnow1}},
-\code{\link{kidnow2}},
-\code{\link{kidresp}},
-\code{\link{losejob5}},
-\code{\link{marunion}},
 \code{\link{mykids}},
-\code{\link{negjob5}},
-\code{\link{relgendr}},
-\code{\link{sexsex18}},
-\code{\link{sexunion}},
-\code{\link{sppart}},
-\code{\link{toldsmsx}},
-\code{\link{toldsxor}},
-\code{\link{toldwork}}
+\code{\link{sppart}}
 }
 \concept{Sexual Orientation}
 \keyword{variable}

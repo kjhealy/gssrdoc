@@ -32,7 +32,7 @@ Question When you felt bad, how often did you seek your pet for comfort?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7221/vshow}{GSS Data Explorer page for \code{petb4cmfrt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7221/vshow}{GSS Data Explorer page for \code{petb4cmfrt}}.
 }
 
 \keyword{variable}

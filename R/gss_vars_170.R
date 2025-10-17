@@ -588,7 +588,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sboccindv`](https://gssdataexplorer.norc.org/variables/6020/vshow).
+#' For further details see the [GSS Data Explorer page for `sboccindv`](https://gssdataexplorer.norc.org/variables/6020/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -626,7 +626,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sboccstatus`](https://gssdataexplorer.norc.org/variables/6021/vshow).
+#' For further details see the [GSS Data Explorer page for `sboccstatus`](https://gssdataexplorer.norc.org/variables/6021/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -659,7 +659,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbocctag`](https://gssdataexplorer.norc.org/variables/6022/vshow).
+#' For further details see the [GSS Data Explorer page for `sbocctag`](https://gssdataexplorer.norc.org/variables/6022/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -961,7 +961,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbind10`](https://gssdataexplorer.norc.org/variables/6023/vshow).
+#' For further details see the [GSS Data Explorer page for `sbind10`](https://gssdataexplorer.norc.org/variables/6023/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -999,7 +999,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbindstatus`](https://gssdataexplorer.norc.org/variables/6024/vshow).
+#' For further details see the [GSS Data Explorer page for `sbindstatus`](https://gssdataexplorer.norc.org/variables/6024/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1032,7 +1032,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbindtag`](https://gssdataexplorer.norc.org/variables/6025/vshow).
+#' For further details see the [GSS Data Explorer page for `sbindtag`](https://gssdataexplorer.norc.org/variables/6025/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1063,7 +1063,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbpres10`](https://gssdataexplorer.norc.org/variables/6026/vshow).
+#' For further details see the [GSS Data Explorer page for `sbpres10`](https://gssdataexplorer.norc.org/variables/6026/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1094,7 +1094,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sbpres105plus`](https://gssdataexplorer.norc.org/variables/6027/vshow).
+#' For further details see the [GSS Data Explorer page for `sbpres105plus`](https://gssdataexplorer.norc.org/variables/6027/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1129,7 +1129,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ethid`](https://gssdataexplorer.norc.org/variables/1591/vshow).
+#' For further details see the [GSS Data Explorer page for `ethid`](https://gssdataexplorer.norc.org/variables/1591/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

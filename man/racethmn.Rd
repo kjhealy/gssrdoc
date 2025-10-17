@@ -36,7 +36,7 @@ Question In describing our background, we often ask someone which racial or ethn
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6649/vshow}{GSS Data Explorer page for \code{racethmn}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6649/vshow}{GSS Data Explorer page for \code{racethmn}}.
 }
 
 \keyword{variable}

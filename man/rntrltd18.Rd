@@ -30,7 +30,7 @@ Question Is there anyone in your household who you are not related to? For examp
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8027/vshow}{GSS Data Explorer page for \code{rntrltd18}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8027/vshow}{GSS Data Explorer page for \code{rntrltd18}}.
 }
 
 \keyword{variable}

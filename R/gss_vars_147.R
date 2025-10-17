@@ -20,7 +20,7 @@
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `opoutcme`](https://gssdataexplorer.norc.org/variables/1379/vshow).
+#' For further details see the [GSS Data Explorer page for `opoutcme`](https://gssdataexplorer.norc.org/variables/1379/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -53,7 +53,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `united`](https://gssdataexplorer.norc.org/variables/1380/vshow).
+#' For further details see the [GSS Data Explorer page for `united`](https://gssdataexplorer.norc.org/variables/1380/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obtohelp`](https://gssdataexplorer.norc.org/variables/1381/vshow).
+#' For further details see the [GSS Data Explorer page for `obtohelp`](https://gssdataexplorer.norc.org/variables/1381/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lfegod`](https://gssdataexplorer.norc.org/variables/1382/vshow).
+#' For further details see the [GSS Data Explorer page for `lfegod`](https://gssdataexplorer.norc.org/variables/1382/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -157,7 +157,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lfegenes`](https://gssdataexplorer.norc.org/variables/1383/vshow).
+#' For further details see the [GSS Data Explorer page for `lfegenes`](https://gssdataexplorer.norc.org/variables/1383/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lfesocty`](https://gssdataexplorer.norc.org/variables/1384/vshow).
+#' For further details see the [GSS Data Explorer page for `lfesocty`](https://gssdataexplorer.norc.org/variables/1384/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lfehrdwk`](https://gssdataexplorer.norc.org/variables/1385/vshow).
+#' For further details see the [GSS Data Explorer page for `lfehrdwk`](https://gssdataexplorer.norc.org/variables/1385/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lfechnce`](https://gssdataexplorer.norc.org/variables/1386/vshow).
+#' For further details see the [GSS Data Explorer page for `lfechnce`](https://gssdataexplorer.norc.org/variables/1386/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bigband`](https://gssdataexplorer.norc.org/variables/1387/vshow).
+#' For further details see the [GSS Data Explorer page for `bigband`](https://gssdataexplorer.norc.org/variables/1387/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -333,7 +333,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blugrass`](https://gssdataexplorer.norc.org/variables/1388/vshow).
+#' For further details see the [GSS Data Explorer page for `blugrass`](https://gssdataexplorer.norc.org/variables/1388/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

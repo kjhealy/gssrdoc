@@ -16,7 +16,7 @@
 #' 
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uscitznv_2122`](https://gssdataexplorer.norc.org).
+#' For further details see the [GSS Data Explorer page for `uscitznv_2122`](https://gssdataexplorer.norc.org).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -46,7 +46,7 @@ NULL
 #' 
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uscitznnv_2122`](https://gssdataexplorer.norc.org).
+#' For further details see the [GSS Data Explorer page for `uscitznnv_2122`](https://gssdataexplorer.norc.org).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -112,7 +112,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sibs_7222`](https://gssdataexplorer.norc.org/variables/8102/vshow).
+#' For further details see the [GSS Data Explorer page for `sibs_7222`](https://gssdataexplorer.norc.org/variables/8102/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -172,7 +172,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racecen1_0022`](https://gssdataexplorer.norc.org/variables/8160/vshow).
+#' For further details see the [GSS Data Explorer page for `racecen1_0022`](https://gssdataexplorer.norc.org/variables/8160/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -232,7 +232,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racecen2_0022`](https://gssdataexplorer.norc.org/variables/8161/vshow).
+#' For further details see the [GSS Data Explorer page for `racecen2_0022`](https://gssdataexplorer.norc.org/variables/8161/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racecen3_0022`](https://gssdataexplorer.norc.org/variables/8162/vshow).
+#' For further details see the [GSS Data Explorer page for `racecen3_0022`](https://gssdataexplorer.norc.org/variables/8162/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -358,7 +358,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `earnrs_7222`](https://gssdataexplorer.norc.org/variables/8104/vshow).
+#' For further details see the [GSS Data Explorer page for `earnrs_7222`](https://gssdataexplorer.norc.org/variables/8104/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

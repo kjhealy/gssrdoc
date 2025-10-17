@@ -30,7 +30,7 @@ Question Are you the grandparent of another individual 18 or older in your house
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8024/vshow}{GSS Data Explorer page for \code{rgprnt18}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8024/vshow}{GSS Data Explorer page for \code{rgprnt18}}.
 }
 
 \keyword{variable}

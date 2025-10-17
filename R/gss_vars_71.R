@@ -35,7 +35,7 @@
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pornmorl`](https://gssdataexplorer.norc.org/variables/637/vshow).
+#' For further details see the [GSS Data Explorer page for `pornmorl`](https://gssdataexplorer.norc.org/variables/637/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -84,7 +84,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pornrape`](https://gssdataexplorer.norc.org/variables/638/vshow).
+#' For further details see the [GSS Data Explorer page for `pornrape`](https://gssdataexplorer.norc.org/variables/638/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -133,7 +133,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pornout`](https://gssdataexplorer.norc.org/variables/639/vshow).
+#' For further details see the [GSS Data Explorer page for `pornout`](https://gssdataexplorer.norc.org/variables/639/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pornlaw`](https://gssdataexplorer.norc.org/variables/640/vshow).
+#' For further details see the [GSS Data Explorer page for `pornlaw`](https://gssdataexplorer.norc.org/variables/640/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -257,7 +257,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `xmovie`](https://gssdataexplorer.norc.org/variables/641/vshow).
+#' For further details see the [GSS Data Explorer page for `xmovie`](https://gssdataexplorer.norc.org/variables/641/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `xmovie1`](https://gssdataexplorer.norc.org/variables/642/vshow).
+#' For further details see the [GSS Data Explorer page for `xmovie1`](https://gssdataexplorer.norc.org/variables/642/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -323,7 +323,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pornimp`](https://gssdataexplorer.norc.org/variables/643/vshow).
+#' For further details see the [GSS Data Explorer page for `pornimp`](https://gssdataexplorer.norc.org/variables/643/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -357,7 +357,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `porninfo`](https://gssdataexplorer.norc.org/variables/644/vshow).
+#' For further details see the [GSS Data Explorer page for `porninfo`](https://gssdataexplorer.norc.org/variables/644/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -391,7 +391,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pornfirm`](https://gssdataexplorer.norc.org/variables/645/vshow).
+#' For further details see the [GSS Data Explorer page for `pornfirm`](https://gssdataexplorer.norc.org/variables/645/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -446,7 +446,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spanking`](https://gssdataexplorer.norc.org/variables/646/vshow).
+#' For further details see the [GSS Data Explorer page for `spanking`](https://gssdataexplorer.norc.org/variables/646/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

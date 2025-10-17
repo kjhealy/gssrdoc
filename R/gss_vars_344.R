@@ -22,7 +22,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `joylifts`](https://gssdataexplorer.norc.org/variables/3084/vshow).
+#' For further details see the [GSS Data Explorer page for `joylifts`](https://gssdataexplorer.norc.org/variables/3084/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relsprt1`](https://gssdataexplorer.norc.org/variables/3085/vshow).
+#' For further details see the [GSS Data Explorer page for `relsprt1`](https://gssdataexplorer.norc.org/variables/3085/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relsprt2`](https://gssdataexplorer.norc.org/variables/3086/vshow).
+#' For further details see the [GSS Data Explorer page for `relsprt2`](https://gssdataexplorer.norc.org/variables/3086/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godhelp`](https://gssdataexplorer.norc.org/variables/3087/vshow).
+#' For further details see the [GSS Data Explorer page for `godhelp`](https://gssdataexplorer.norc.org/variables/3087/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godguide`](https://gssdataexplorer.norc.org/variables/3088/vshow).
+#' For further details see the [GSS Data Explorer page for `godguide`](https://gssdataexplorer.norc.org/variables/3088/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godlvdir`](https://gssdataexplorer.norc.org/variables/3089/vshow).
+#' For further details see the [GSS Data Explorer page for `godlvdir`](https://gssdataexplorer.norc.org/variables/3089/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godlvoth`](https://gssdataexplorer.norc.org/variables/3090/vshow).
+#' For further details see the [GSS Data Explorer page for `godlvoth`](https://gssdataexplorer.norc.org/variables/3090/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blessngs`](https://gssdataexplorer.norc.org/variables/3091/vshow).
+#' For further details see the [GSS Data Explorer page for `blessngs`](https://gssdataexplorer.norc.org/variables/3091/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `closrgod`](https://gssdataexplorer.norc.org/variables/3092/vshow).
+#' For further details see the [GSS Data Explorer page for `closrgod`](https://gssdataexplorer.norc.org/variables/3092/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -344,7 +344,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godclose`](https://gssdataexplorer.norc.org/variables/3093/vshow).
+#' For further details see the [GSS Data Explorer page for `godclose`](https://gssdataexplorer.norc.org/variables/3093/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

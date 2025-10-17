@@ -18,7 +18,7 @@
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clrgmode`](https://gssdataexplorer.norc.org/variables/3968/vshow).
+#' For further details see the [GSS Data Explorer page for `clrgmode`](https://gssdataexplorer.norc.org/variables/3968/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prespop`](https://gssdataexplorer.norc.org/variables/3969/vshow).
+#' For further details see the [GSS Data Explorer page for `prespop`](https://gssdataexplorer.norc.org/variables/3969/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volactyr`](https://gssdataexplorer.norc.org/variables/3970/vshow).
+#' For further details see the [GSS Data Explorer page for `volactyr`](https://gssdataexplorer.norc.org/variables/3970/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -114,7 +114,7 @@ NULL
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volacty2`](https://gssdataexplorer.norc.org/variables/3971/vshow).
+#' For further details see the [GSS Data Explorer page for `volacty2`](https://gssdataexplorer.norc.org/variables/3971/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -149,7 +149,7 @@ NULL
 #'  |2012 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polefy3`](https://gssdataexplorer.norc.org/variables/3972/vshow).
+#' For further details see the [GSS Data Explorer page for `polefy3`](https://gssdataexplorer.norc.org/variables/3972/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2012 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polefy11`](https://gssdataexplorer.norc.org/variables/3973/vshow).
+#' For further details see the [GSS Data Explorer page for `polefy11`](https://gssdataexplorer.norc.org/variables/3973/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -219,7 +219,7 @@ NULL
 #'  |2012 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polefy13`](https://gssdataexplorer.norc.org/variables/3974/vshow).
+#' For further details see the [GSS Data Explorer page for `polefy13`](https://gssdataexplorer.norc.org/variables/3974/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -254,7 +254,7 @@ NULL
 #'  |2012 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polefy15`](https://gssdataexplorer.norc.org/variables/3975/vshow).
+#' For further details see the [GSS Data Explorer page for `polefy15`](https://gssdataexplorer.norc.org/variables/3975/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |2012 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polefy16`](https://gssdataexplorer.norc.org/variables/3976/vshow).
+#' For further details see the [GSS Data Explorer page for `polefy16`](https://gssdataexplorer.norc.org/variables/3976/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |2012 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polefy17`](https://gssdataexplorer.norc.org/variables/3977/vshow).
+#' For further details see the [GSS Data Explorer page for `polefy17`](https://gssdataexplorer.norc.org/variables/3977/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

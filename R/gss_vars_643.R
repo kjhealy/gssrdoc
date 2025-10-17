@@ -20,7 +20,7 @@
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `immfate`](https://gssdataexplorer.norc.org/variables/7756/vshow).
+#' For further details see the [GSS Data Explorer page for `immfate`](https://gssdataexplorer.norc.org/variables/7756/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -53,7 +53,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `letinhsp1`](https://gssdataexplorer.norc.org/variables/8005/vshow).
+#' For further details see the [GSS Data Explorer page for `letinhsp1`](https://gssdataexplorer.norc.org/variables/8005/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -86,7 +86,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `letinasn1`](https://gssdataexplorer.norc.org/variables/8004/vshow).
+#' For further details see the [GSS Data Explorer page for `letinasn1`](https://gssdataexplorer.norc.org/variables/8004/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -127,7 +127,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `xmoviey`](https://gssdataexplorer.norc.org/variables/7757/vshow).
+#' For further details see the [GSS Data Explorer page for `xmoviey`](https://gssdataexplorer.norc.org/variables/7757/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vote20`](https://gssdataexplorer.norc.org/variables/7758/vshow).
+#' For further details see the [GSS Data Explorer page for `vote20`](https://gssdataexplorer.norc.org/variables/7758/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pres20`](https://gssdataexplorer.norc.org/variables/7759/vshow).
+#' For further details see the [GSS Data Explorer page for `pres20`](https://gssdataexplorer.norc.org/variables/7759/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `if20who`](https://gssdataexplorer.norc.org/variables/7760/vshow).
+#' For further details see the [GSS Data Explorer page for `if20who`](https://gssdataexplorer.norc.org/variables/7760/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -263,7 +263,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordk`](https://gssdataexplorer.norc.org/variables/7761/vshow).
+#' For further details see the [GSS Data Explorer page for `wordk`](https://gssdataexplorer.norc.org/variables/7761/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -295,7 +295,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordl`](https://gssdataexplorer.norc.org/variables/7762/vshow).
+#' For further details see the [GSS Data Explorer page for `wordl`](https://gssdataexplorer.norc.org/variables/7762/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -327,7 +327,7 @@ NULL
 #'  |2022 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordn`](https://gssdataexplorer.norc.org/variables/7763/vshow).
+#' For further details see the [GSS Data Explorer page for `wordn`](https://gssdataexplorer.norc.org/variables/7763/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

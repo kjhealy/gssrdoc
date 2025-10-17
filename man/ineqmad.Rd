@@ -30,7 +30,7 @@ Question How do you feel when you think about differences in wealth between the 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7509/vshow}{GSS Data Explorer page for \code{ineqmad}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7509/vshow}{GSS Data Explorer page for \code{ineqmad}}.
 }
 
 \keyword{variable}

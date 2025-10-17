@@ -33,7 +33,7 @@ Question To what extent do you agree or disagree with the following statement: M
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7507/vshow}{GSS Data Explorer page for \code{govineq1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7507/vshow}{GSS Data Explorer page for \code{govineq1}}.
 }
 
 \keyword{variable}

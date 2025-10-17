@@ -30,14 +30,12 @@ Question C. Do you think the law should forbid marriage between blacks and white
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/4986/vshow}{GSS Data Explorer page for \code{forbdmar}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4986/vshow}{GSS Data Explorer page for \code{forbdmar}}.
 }
 
 \seealso{
 Other Civil Liberties: 
 \code{\link{allowcom}},
-\code{\link{allowmar}},
-\code{\link{allowrac}},
 \code{\link{forbdcom}},
 \code{\link{forbdrac}}
 }

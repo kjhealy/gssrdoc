@@ -33,7 +33,7 @@ Question About how many of these people do you see face-to-face on a typical wee
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7264/vshow}{GSS Data Explorer page for \code{conf2f}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7264/vshow}{GSS Data Explorer page for \code{conf2f}}.
 }
 
 \keyword{variable}

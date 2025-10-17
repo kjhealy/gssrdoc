@@ -53,7 +53,7 @@
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conmedic`](https://gssdataexplorer.norc.org/variables/455/vshow).
+#' For further details see the [GSS Data Explorer page for `conmedic`](https://gssdataexplorer.norc.org/variables/455/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -120,7 +120,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contv`](https://gssdataexplorer.norc.org/variables/456/vshow).
+#' For further details see the [GSS Data Explorer page for `contv`](https://gssdataexplorer.norc.org/variables/456/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conjudge`](https://gssdataexplorer.norc.org/variables/457/vshow).
+#' For further details see the [GSS Data Explorer page for `conjudge`](https://gssdataexplorer.norc.org/variables/457/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -254,7 +254,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `consci`](https://gssdataexplorer.norc.org/variables/458/vshow).
+#' For further details see the [GSS Data Explorer page for `consci`](https://gssdataexplorer.norc.org/variables/458/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -321,7 +321,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conlegis`](https://gssdataexplorer.norc.org/variables/459/vshow).
+#' For further details see the [GSS Data Explorer page for `conlegis`](https://gssdataexplorer.norc.org/variables/459/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -388,7 +388,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conarmy`](https://gssdataexplorer.norc.org/variables/460/vshow).
+#' For further details see the [GSS Data Explorer page for `conarmy`](https://gssdataexplorer.norc.org/variables/460/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -422,7 +422,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `confinay`](https://gssdataexplorer.norc.org/variables/461/vshow).
+#' For further details see the [GSS Data Explorer page for `confinay`](https://gssdataexplorer.norc.org/variables/461/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -456,7 +456,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conbusy`](https://gssdataexplorer.norc.org/variables/462/vshow).
+#' For further details see the [GSS Data Explorer page for `conbusy`](https://gssdataexplorer.norc.org/variables/462/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -490,7 +490,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conclery`](https://gssdataexplorer.norc.org/variables/463/vshow).
+#' For further details see the [GSS Data Explorer page for `conclery`](https://gssdataexplorer.norc.org/variables/463/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -524,7 +524,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `coneducy`](https://gssdataexplorer.norc.org/variables/464/vshow).
+#' For further details see the [GSS Data Explorer page for `coneducy`](https://gssdataexplorer.norc.org/variables/464/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

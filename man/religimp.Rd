@@ -32,7 +32,7 @@ Question How important is religion in your life -- very important, somewhat impo
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7525/vshow}{GSS Data Explorer page for \code{religimp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7525/vshow}{GSS Data Explorer page for \code{religimp}}.
 }
 
 \keyword{variable}

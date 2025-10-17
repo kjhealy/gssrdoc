@@ -23,7 +23,7 @@
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `porn30`](https://gssdataexplorer.norc.org/variables/2410/vshow).
+#' For further details see the [GSS Data Explorer page for `porn30`](https://gssdataexplorer.norc.org/variables/2410/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `person30`](https://gssdataexplorer.norc.org/variables/2411/vshow).
+#' For further details see the [GSS Data Explorer page for `person30`](https://gssdataexplorer.norc.org/variables/2411/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sci30`](https://gssdataexplorer.norc.org/variables/2412/vshow).
+#' For further details see the [GSS Data Explorer page for `sci30`](https://gssdataexplorer.norc.org/variables/2412/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hobby30`](https://gssdataexplorer.norc.org/variables/2413/vshow).
+#' For further details see the [GSS Data Explorer page for `hobby30`](https://gssdataexplorer.norc.org/variables/2413/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cook30`](https://gssdataexplorer.norc.org/variables/2414/vshow).
+#' For further details see the [GSS Data Explorer page for `cook30`](https://gssdataexplorer.norc.org/variables/2414/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -205,7 +205,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `work12`](https://gssdataexplorer.norc.org/variables/2415/vshow).
+#' For further details see the [GSS Data Explorer page for `work12`](https://gssdataexplorer.norc.org/variables/2415/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -239,7 +239,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hmefin12`](https://gssdataexplorer.norc.org/variables/2416/vshow).
+#' For further details see the [GSS Data Explorer page for `hmefin12`](https://gssdataexplorer.norc.org/variables/2416/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -273,7 +273,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `buyinf12`](https://gssdataexplorer.norc.org/variables/2417/vshow).
+#' For further details see the [GSS Data Explorer page for `buyinf12`](https://gssdataexplorer.norc.org/variables/2417/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `buyit12`](https://gssdataexplorer.norc.org/variables/2418/vshow).
+#' For further details see the [GSS Data Explorer page for `buyit12`](https://gssdataexplorer.norc.org/variables/2418/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -341,7 +341,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `invest12`](https://gssdataexplorer.norc.org/variables/2419/vshow).
+#' For further details see the [GSS Data Explorer page for `invest12`](https://gssdataexplorer.norc.org/variables/2419/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

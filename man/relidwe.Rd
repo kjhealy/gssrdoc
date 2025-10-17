@@ -33,7 +33,7 @@ Question When talking about your religion, how often do you say we instead of th
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7528/vshow}{GSS Data Explorer page for \code{relidwe}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7528/vshow}{GSS Data Explorer page for \code{relidwe}}.
 }
 
 \keyword{variable}

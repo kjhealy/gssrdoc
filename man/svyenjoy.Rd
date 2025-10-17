@@ -34,7 +34,7 @@ Question Overall, how much do you enjoy participating in surveys? Would you say 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7863/vshow}{GSS Data Explorer page for \code{svyenjoy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7863/vshow}{GSS Data Explorer page for \code{svyenjoy}}.
 }
 
 \keyword{variable}

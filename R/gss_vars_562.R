@@ -21,7 +21,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlth8`](https://gssdataexplorer.norc.org/variables/5143/vshow).
+#' For further details see the [GSS Data Explorer page for `hlth8`](https://gssdataexplorer.norc.org/variables/5143/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlth9`](https://gssdataexplorer.norc.org/variables/5144/vshow).
+#' For further details see the [GSS Data Explorer page for `hlth9`](https://gssdataexplorer.norc.org/variables/5144/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlth10`](https://gssdataexplorer.norc.org/variables/5145/vshow).
+#' For further details see the [GSS Data Explorer page for `hlth10`](https://gssdataexplorer.norc.org/variables/5145/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlth11`](https://gssdataexplorer.norc.org/variables/5146/vshow).
+#' For further details see the [GSS Data Explorer page for `hlth11`](https://gssdataexplorer.norc.org/variables/5146/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -155,7 +155,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlth12`](https://gssdataexplorer.norc.org/variables/5147/vshow).
+#' For further details see the [GSS Data Explorer page for `hlth12`](https://gssdataexplorer.norc.org/variables/5147/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -188,7 +188,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlth13`](https://gssdataexplorer.norc.org/variables/5148/vshow).
+#' For further details see the [GSS Data Explorer page for `hlth13`](https://gssdataexplorer.norc.org/variables/5148/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlth14`](https://gssdataexplorer.norc.org/variables/5149/vshow).
+#' For further details see the [GSS Data Explorer page for `hlth14`](https://gssdataexplorer.norc.org/variables/5149/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `work1`](https://gssdataexplorer.norc.org/variables/5150/vshow).
+#' For further details see the [GSS Data Explorer page for `work1`](https://gssdataexplorer.norc.org/variables/5150/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `work2`](https://gssdataexplorer.norc.org/variables/5151/vshow).
+#' For further details see the [GSS Data Explorer page for `work2`](https://gssdataexplorer.norc.org/variables/5151/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `work3`](https://gssdataexplorer.norc.org/variables/5152/vshow).
+#' For further details see the [GSS Data Explorer page for `work3`](https://gssdataexplorer.norc.org/variables/5152/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

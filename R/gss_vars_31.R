@@ -21,7 +21,7 @@
 #'  |1974 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libsoc`](https://gssdataexplorer.norc.org/variables/251/vshow).
+#' For further details see the [GSS Data Explorer page for `libsoc`](https://gssdataexplorer.norc.org/variables/251/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -80,7 +80,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spkrac`](https://gssdataexplorer.norc.org/variables/252/vshow).
+#' For further details see the [GSS Data Explorer page for `spkrac`](https://gssdataexplorer.norc.org/variables/252/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -139,7 +139,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colrac`](https://gssdataexplorer.norc.org/variables/253/vshow).
+#' For further details see the [GSS Data Explorer page for `colrac`](https://gssdataexplorer.norc.org/variables/253/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -198,7 +198,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `librac`](https://gssdataexplorer.norc.org/variables/254/vshow).
+#' For further details see the [GSS Data Explorer page for `librac`](https://gssdataexplorer.norc.org/variables/254/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spkcom`](https://gssdataexplorer.norc.org/variables/255/vshow).
+#' For further details see the [GSS Data Explorer page for `spkcom`](https://gssdataexplorer.norc.org/variables/255/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colcom`](https://gssdataexplorer.norc.org/variables/256/vshow).
+#' For further details see the [GSS Data Explorer page for `colcom`](https://gssdataexplorer.norc.org/variables/256/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -387,7 +387,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libcom`](https://gssdataexplorer.norc.org/variables/257/vshow).
+#' For further details see the [GSS Data Explorer page for `libcom`](https://gssdataexplorer.norc.org/variables/257/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -445,7 +445,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spkmil`](https://gssdataexplorer.norc.org/variables/258/vshow).
+#' For further details see the [GSS Data Explorer page for `spkmil`](https://gssdataexplorer.norc.org/variables/258/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -503,7 +503,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colmil`](https://gssdataexplorer.norc.org/variables/259/vshow).
+#' For further details see the [GSS Data Explorer page for `colmil`](https://gssdataexplorer.norc.org/variables/259/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -561,7 +561,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libmil`](https://gssdataexplorer.norc.org/variables/260/vshow).
+#' For further details see the [GSS Data Explorer page for `libmil`](https://gssdataexplorer.norc.org/variables/260/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

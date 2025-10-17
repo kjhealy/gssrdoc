@@ -35,7 +35,7 @@ Question All things considered, how satisfied are you with your life as a whole 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7275/vshow}{GSS Data Explorer page for \code{satlife}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7275/vshow}{GSS Data Explorer page for \code{satlife}}.
 }
 
 \keyword{variable}

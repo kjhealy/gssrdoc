@@ -18,7 +18,7 @@
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clrgsex1`](https://gssdataexplorer.norc.org/variables/3948/vshow).
+#' For further details see the [GSS Data Explorer page for `clrgsex1`](https://gssdataexplorer.norc.org/variables/3948/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clrgsex2`](https://gssdataexplorer.norc.org/variables/3949/vshow).
+#' For further details see the [GSS Data Explorer page for `clrgsex2`](https://gssdataexplorer.norc.org/variables/3949/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clrgsex3`](https://gssdataexplorer.norc.org/variables/3950/vshow).
+#' For further details see the [GSS Data Explorer page for `clrgsex3`](https://gssdataexplorer.norc.org/variables/3950/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -114,7 +114,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clrggen1`](https://gssdataexplorer.norc.org/variables/3951/vshow).
+#' For further details see the [GSS Data Explorer page for `clrggen1`](https://gssdataexplorer.norc.org/variables/3951/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clrggen2`](https://gssdataexplorer.norc.org/variables/3952/vshow).
+#' For further details see the [GSS Data Explorer page for `clrggen2`](https://gssdataexplorer.norc.org/variables/3952/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -178,7 +178,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clrggen3`](https://gssdataexplorer.norc.org/variables/3953/vshow).
+#' For further details see the [GSS Data Explorer page for `clrggen3`](https://gssdataexplorer.norc.org/variables/3953/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -210,7 +210,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ongorel1`](https://gssdataexplorer.norc.org/variables/3954/vshow).
+#' For further details see the [GSS Data Explorer page for `ongorel1`](https://gssdataexplorer.norc.org/variables/3954/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -242,7 +242,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ongorel2`](https://gssdataexplorer.norc.org/variables/3955/vshow).
+#' For further details see the [GSS Data Explorer page for `ongorel2`](https://gssdataexplorer.norc.org/variables/3955/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ongorel3`](https://gssdataexplorer.norc.org/variables/3956/vshow).
+#' For further details see the [GSS Data Explorer page for `ongorel3`](https://gssdataexplorer.norc.org/variables/3956/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hushrel1`](https://gssdataexplorer.norc.org/variables/3957/vshow).
+#' For further details see the [GSS Data Explorer page for `hushrel1`](https://gssdataexplorer.norc.org/variables/3957/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

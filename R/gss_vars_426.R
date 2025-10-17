@@ -66,7 +66,7 @@
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bornsp`](https://gssdataexplorer.norc.org/variables/3898/vshow).
+#' For further details see the [GSS Data Explorer page for `bornsp`](https://gssdataexplorer.norc.org/variables/3898/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agecmeus`](https://gssdataexplorer.norc.org/variables/3899/vshow).
+#' For further details see the [GSS Data Explorer page for `agecmeus`](https://gssdataexplorer.norc.org/variables/3899/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -129,7 +129,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `visa`](https://gssdataexplorer.norc.org/variables/3900/vshow).
+#' For further details see the [GSS Data Explorer page for `visa`](https://gssdataexplorer.norc.org/variables/3900/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -164,7 +164,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `typevisa`](https://gssdataexplorer.norc.org/variables/3901/vshow).
+#' For further details see the [GSS Data Explorer page for `typevisa`](https://gssdataexplorer.norc.org/variables/3901/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -244,7 +244,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natdeg`](https://gssdataexplorer.norc.org/variables/3902/vshow).
+#' For further details see the [GSS Data Explorer page for `natdeg`](https://gssdataexplorer.norc.org/variables/3902/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -276,7 +276,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emphlth`](https://gssdataexplorer.norc.org/variables/3903/vshow).
+#' For further details see the [GSS Data Explorer page for `emphlth`](https://gssdataexplorer.norc.org/variables/3903/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -344,7 +344,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emphplan`](https://gssdataexplorer.norc.org/variables/3904/vshow).
+#' For further details see the [GSS Data Explorer page for `emphplan`](https://gssdataexplorer.norc.org/variables/3904/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -376,7 +376,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othplan`](https://gssdataexplorer.norc.org/variables/3905/vshow).
+#' For further details see the [GSS Data Explorer page for `othplan`](https://gssdataexplorer.norc.org/variables/3905/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -413,7 +413,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sexsex18`](https://gssdataexplorer.norc.org/variables/3906/vshow).
+#' For further details see the [GSS Data Explorer page for `sexsex18`](https://gssdataexplorer.norc.org/variables/3906/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -452,7 +452,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `toldsmsx`](https://gssdataexplorer.norc.org/variables/3907/vshow).
+#' For further details see the [GSS Data Explorer page for `toldsmsx`](https://gssdataexplorer.norc.org/variables/3907/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

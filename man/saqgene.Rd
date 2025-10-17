@@ -31,27 +31,16 @@ Question C. R did Gene Module
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5558/vshow}{GSS Data Explorer page for \code{saqgene}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5558/vshow}{GSS Data Explorer page for \code{saqgene}}.
 }
 
 \seealso{
 Other Paradata: 
-\code{\link{consent}},
-\code{\link{easyget}},
 \code{\link{feelevel}},
 \code{\link{feeused}},
-\code{\link{huclean}},
-\code{\link{intage}},
-\code{\link{intethn}},
 \code{\link{intid}},
-\code{\link{intsex}},
-\code{\link{intyrs}},
-\code{\link{lngthinv}},
-\code{\link{mode}()},
 \code{\link{saqissp}},
 \code{\link{saqsex}},
-\code{\link{whoelse1}},
-\code{\link{whoelse2}},
 \code{\link{whoelse3}},
 \code{\link{whoelse4}},
 \code{\link{whoelse5}},

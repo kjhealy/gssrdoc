@@ -21,7 +21,7 @@
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `opfamily`](https://gssdataexplorer.norc.org/variables/4008/vshow).
+#' For further details see the [GSS Data Explorer page for `opfamily`](https://gssdataexplorer.norc.org/variables/4008/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fecolop`](https://gssdataexplorer.norc.org/variables/4009/vshow).
+#' For further details see the [GSS Data Explorer page for `fecolop`](https://gssdataexplorer.norc.org/variables/4009/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fejobop`](https://gssdataexplorer.norc.org/variables/4010/vshow).
+#' For further details see the [GSS Data Explorer page for `fejobop`](https://gssdataexplorer.norc.org/variables/4010/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `feinc`](https://gssdataexplorer.norc.org/variables/4011/vshow).
+#' For further details see the [GSS Data Explorer page for `feinc`](https://gssdataexplorer.norc.org/variables/4011/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -162,7 +162,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fehlpbus`](https://gssdataexplorer.norc.org/variables/4012/vshow).
+#' For further details see the [GSS Data Explorer page for `fehlpbus`](https://gssdataexplorer.norc.org/variables/4012/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -198,7 +198,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fehlpcol`](https://gssdataexplorer.norc.org/variables/4013/vshow).
+#' For further details see the [GSS Data Explorer page for `fehlpcol`](https://gssdataexplorer.norc.org/variables/4013/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -234,7 +234,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fehlpjob`](https://gssdataexplorer.norc.org/variables/4014/vshow).
+#' For further details see the [GSS Data Explorer page for `fehlpjob`](https://gssdataexplorer.norc.org/variables/4014/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -270,7 +270,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hsbasics`](https://gssdataexplorer.norc.org/variables/4015/vshow).
+#' For further details see the [GSS Data Explorer page for `hsbasics`](https://gssdataexplorer.norc.org/variables/4015/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hssexed`](https://gssdataexplorer.norc.org/variables/4016/vshow).
+#' For further details see the [GSS Data Explorer page for `hssexed`](https://gssdataexplorer.norc.org/variables/4016/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -342,7 +342,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hsrespct`](https://gssdataexplorer.norc.org/variables/4017/vshow).
+#' For further details see the [GSS Data Explorer page for `hsrespct`](https://gssdataexplorer.norc.org/variables/4017/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

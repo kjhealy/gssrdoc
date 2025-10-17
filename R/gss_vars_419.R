@@ -19,7 +19,7 @@
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bmitzvah`](https://gssdataexplorer.norc.org/variables/3828/vshow).
+#' For further details see the [GSS Data Explorer page for `bmitzvah`](https://gssdataexplorer.norc.org/variables/3828/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `synmem`](https://gssdataexplorer.norc.org/variables/3829/vshow).
+#' For further details see the [GSS Data Explorer page for `synmem`](https://gssdataexplorer.norc.org/variables/3829/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -96,7 +96,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kd1relig`](https://gssdataexplorer.norc.org/variables/3830/vshow).
+#' For further details see the [GSS Data Explorer page for `kd1relig`](https://gssdataexplorer.norc.org/variables/3830/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -140,7 +140,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kd2relig`](https://gssdataexplorer.norc.org/variables/3831/vshow).
+#' For further details see the [GSS Data Explorer page for `kd2relig`](https://gssdataexplorer.norc.org/variables/3831/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2012 |C/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kd3relig`](https://gssdataexplorer.norc.org/variables/3832/vshow).
+#' For further details see the [GSS Data Explorer page for `kd3relig`](https://gssdataexplorer.norc.org/variables/3832/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kd4relig`](https://gssdataexplorer.norc.org/variables/3833/vshow).
+#' For further details see the [GSS Data Explorer page for `kd4relig`](https://gssdataexplorer.norc.org/variables/3833/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -270,7 +270,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kd5relig`](https://gssdataexplorer.norc.org/variables/3834/vshow).
+#' For further details see the [GSS Data Explorer page for `kd5relig`](https://gssdataexplorer.norc.org/variables/3834/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -313,7 +313,7 @@ NULL
 #'  |2008 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kd6relig`](https://gssdataexplorer.norc.org/variables/3835/vshow).
+#' For further details see the [GSS Data Explorer page for `kd6relig`](https://gssdataexplorer.norc.org/variables/3835/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -356,7 +356,7 @@ NULL
 #'  |2008 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kd7relig`](https://gssdataexplorer.norc.org/variables/3836/vshow).
+#' For further details see the [GSS Data Explorer page for `kd7relig`](https://gssdataexplorer.norc.org/variables/3836/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -399,7 +399,7 @@ NULL
 #'  |2008 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kd8relig`](https://gssdataexplorer.norc.org/variables/3837/vshow).
+#' For further details see the [GSS Data Explorer page for `kd8relig`](https://gssdataexplorer.norc.org/variables/3837/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

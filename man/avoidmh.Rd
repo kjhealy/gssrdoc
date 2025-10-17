@@ -32,17 +32,12 @@ Question Have you changed where you go for shopping or entertainment because of 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3570/vshow}{GSS Data Explorer page for \code{avoidmh}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3570/vshow}{GSS Data Explorer page for \code{avoidmh}}.
 }
 
 \seealso{
 Other Mental Health III: 
-\code{\link{gesttalk}},
-\code{\link{mhothrel}},
-\code{\link{mhothyou}},
-\code{\link{mhtrtoth}},
-\code{\link{seemhpub}},
-\code{\link{viglab06}}
+\code{\link{gesttalk}}
 }
 \concept{Mental Health III}
 \keyword{variable}

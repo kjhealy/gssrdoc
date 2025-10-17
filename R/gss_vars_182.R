@@ -20,7 +20,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `manprof`](https://gssdataexplorer.norc.org/variables/1702/vshow).
+#' For further details see the [GSS Data Explorer page for `manprof`](https://gssdataexplorer.norc.org/variables/1702/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `men`](https://gssdataexplorer.norc.org/variables/1703/vshow).
+#' For further details see the [GSS Data Explorer page for `men`](https://gssdataexplorer.norc.org/variables/1703/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `children`](https://gssdataexplorer.norc.org/variables/1704/vshow).
+#' For further details see the [GSS Data Explorer page for `children`](https://gssdataexplorer.norc.org/variables/1704/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yourself`](https://gssdataexplorer.norc.org/variables/1705/vshow).
+#' For further details see the [GSS Data Explorer page for `yourself`](https://gssdataexplorer.norc.org/variables/1705/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -155,7 +155,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `shakeblu`](https://gssdataexplorer.norc.org/variables/1706/vshow).
+#' For further details see the [GSS Data Explorer page for `shakeblu`](https://gssdataexplorer.norc.org/variables/1706/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -188,7 +188,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `calm`](https://gssdataexplorer.norc.org/variables/1707/vshow).
+#' For further details see the [GSS Data Explorer page for `calm`](https://gssdataexplorer.norc.org/variables/1707/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -220,7 +220,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `outraged`](https://gssdataexplorer.norc.org/variables/1708/vshow).
+#' For further details see the [GSS Data Explorer page for `outraged`](https://gssdataexplorer.norc.org/variables/1708/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -253,7 +253,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hapfeel`](https://gssdataexplorer.norc.org/variables/1709/vshow).
+#' For further details see the [GSS Data Explorer page for `hapfeel`](https://gssdataexplorer.norc.org/variables/1709/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -286,7 +286,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sad`](https://gssdataexplorer.norc.org/variables/1710/vshow).
+#' For further details see the [GSS Data Explorer page for `sad`](https://gssdataexplorer.norc.org/variables/1710/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ashamed`](https://gssdataexplorer.norc.org/variables/1711/vshow).
+#' For further details see the [GSS Data Explorer page for `ashamed`](https://gssdataexplorer.norc.org/variables/1711/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -63,7 +63,7 @@ Question Birth cohort of respondent.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5507/vshow}{GSS Data Explorer page for \code{cohort}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5507/vshow}{GSS Data Explorer page for \code{cohort}}.
 }
 
 \seealso{

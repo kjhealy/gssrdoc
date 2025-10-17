@@ -18,7 +18,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brkddo2`](https://gssdataexplorer.norc.org/variables/2071/vshow).
+#' For further details see the [GSS Data Explorer page for `brkddo2`](https://gssdataexplorer.norc.org/variables/2071/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brkddo3`](https://gssdataexplorer.norc.org/variables/2072/vshow).
+#' For further details see the [GSS Data Explorer page for `brkddo3`](https://gssdataexplorer.norc.org/variables/2072/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brkdhlp1`](https://gssdataexplorer.norc.org/variables/2073/vshow).
+#' For further details see the [GSS Data Explorer page for `brkdhlp1`](https://gssdataexplorer.norc.org/variables/2073/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -114,7 +114,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brkdhlp2`](https://gssdataexplorer.norc.org/variables/2074/vshow).
+#' For further details see the [GSS Data Explorer page for `brkdhlp2`](https://gssdataexplorer.norc.org/variables/2074/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brkdhlp3`](https://gssdataexplorer.norc.org/variables/2075/vshow).
+#' For further details see the [GSS Data Explorer page for `brkdhlp3`](https://gssdataexplorer.norc.org/variables/2075/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -178,7 +178,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brkdtime`](https://gssdataexplorer.norc.org/variables/2076/vshow).
+#' For further details see the [GSS Data Explorer page for `brkdtime`](https://gssdataexplorer.norc.org/variables/2076/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -210,7 +210,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brkddur`](https://gssdataexplorer.norc.org/variables/2077/vshow).
+#' For further details see the [GSS Data Explorer page for `brkddur`](https://gssdataexplorer.norc.org/variables/2077/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -242,7 +242,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evmhp`](https://gssdataexplorer.norc.org/variables/2078/vshow).
+#' For further details see the [GSS Data Explorer page for `evmhp`](https://gssdataexplorer.norc.org/variables/2078/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -275,7 +275,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mnilwhy1`](https://gssdataexplorer.norc.org/variables/2079/vshow).
+#' For further details see the [GSS Data Explorer page for `mnilwhy1`](https://gssdataexplorer.norc.org/variables/2079/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mnilwhy2`](https://gssdataexplorer.norc.org/variables/2080/vshow).
+#' For further details see the [GSS Data Explorer page for `mnilwhy2`](https://gssdataexplorer.norc.org/variables/2080/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

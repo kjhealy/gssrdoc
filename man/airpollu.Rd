@@ -33,7 +33,7 @@ Question To what degree was your neighborhood affected by air polution over the 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7501/vshow}{GSS Data Explorer page for \code{airpollu}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7501/vshow}{GSS Data Explorer page for \code{airpollu}}.
 }
 
 \keyword{variable}

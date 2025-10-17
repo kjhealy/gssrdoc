@@ -35,7 +35,7 @@ Question Who would you turn to first toï¿½. Help you with a household or a ga
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7244/vshow}{GSS Data Explorer page for \code{hlphome}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7244/vshow}{GSS Data Explorer page for \code{hlphome}}.
 }
 
 \keyword{variable}

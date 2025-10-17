@@ -36,69 +36,20 @@ D. What (is/was) that person''s race? (Is/Was) it black, white, hispanic or othe
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5023/vshow}{GSS Data Explorer page for \code{aidsrac3}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5023/vshow}{GSS Data Explorer page for \code{aidsrac3}}.
 }
 
 \seealso{
 Other Victims & AIDS: 
-\code{\link{aidsads}},
-\code{\link{aidsage}},
-\code{\link{aidsage2}},
 \code{\link{aidsage3}},
-\code{\link{aidsdead}},
-\code{\link{aidsded2}},
 \code{\link{aidsded3}},
-\code{\link{aidsfare}},
-\code{\link{aidshlth}},
-\code{\link{aidsids}},
-\code{\link{aidsinsr}},
-\code{\link{aidsknow}},
-\code{\link{aidsmar}},
-\code{\link{aidsrac2}},
-\code{\link{aidsrace}},
-\code{\link{aidsreg}},
 \code{\link{aidsreg2}},
 \code{\link{aidsreg3}},
-\code{\link{aidssch}},
-\code{\link{aidssex}},
-\code{\link{aidssex2}},
 \code{\link{aidssex3}},
-\code{\link{aidssxed}},
-\code{\link{aidswho}},
-\code{\link{aidswho2}},
 \code{\link{aidswho3}},
-\code{\link{cideage}},
-\code{\link{cideage2}},
-\code{\link{cideage3}},
-\code{\link{cideknew}},
-\code{\link{ciderac2}},
-\code{\link{ciderac3}},
-\code{\link{ciderace}},
-\code{\link{cidereg}},
-\code{\link{cidereg2}},
-\code{\link{cidereg3}},
-\code{\link{cidesex}},
-\code{\link{cidesex2}},
-\code{\link{cidesex3}},
-\code{\link{cidewho}},
-\code{\link{cidewho2}},
-\code{\link{cidewho3}},
-\code{\link{suiage}},
-\code{\link{suiage2}},
-\code{\link{suiage3}},
 \code{\link{suiknew}},
-\code{\link{suirac2}},
-\code{\link{suirac3}},
-\code{\link{suirace}},
-\code{\link{suireg}},
-\code{\link{suireg2}},
-\code{\link{suireg3}},
 \code{\link{suisex}},
-\code{\link{suisex2}},
-\code{\link{suisex3}},
-\code{\link{suiwho}},
-\code{\link{suiwho2}},
-\code{\link{suiwho3}}
+\code{\link{suiwho}}
 }
 \concept{Victims & AIDS}
 \keyword{variable}

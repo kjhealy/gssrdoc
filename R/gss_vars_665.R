@@ -21,7 +21,7 @@
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `instype01`](https://gssdataexplorer.norc.org/variables/7972/vshow).
+#' For further details see the [GSS Data Explorer page for `instype01`](https://gssdataexplorer.norc.org/variables/7972/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `instype02`](https://gssdataexplorer.norc.org/variables/7973/vshow).
+#' For further details see the [GSS Data Explorer page for `instype02`](https://gssdataexplorer.norc.org/variables/7973/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `instype03`](https://gssdataexplorer.norc.org/variables/7974/vshow).
+#' For further details see the [GSS Data Explorer page for `instype03`](https://gssdataexplorer.norc.org/variables/7974/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2022 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `instype04`](https://gssdataexplorer.norc.org/variables/7975/vshow).
+#' For further details see the [GSS Data Explorer page for `instype04`](https://gssdataexplorer.norc.org/variables/7975/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -157,7 +157,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `totalincentive`](https://gssdataexplorer.norc.org/variables/7976/vshow).
+#' For further details see the [GSS Data Explorer page for `totalincentive`](https://gssdataexplorer.norc.org/variables/7976/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidsund18`](https://gssdataexplorer.norc.org/variables/8015/vshow).
+#' For further details see the [GSS Data Explorer page for `kidsund18`](https://gssdataexplorer.norc.org/variables/8015/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `babies_exp`](https://gssdataexplorer.norc.org/variables/7998/vshow).
+#' For further details see the [GSS Data Explorer page for `babies_exp`](https://gssdataexplorer.norc.org/variables/7998/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `preteen_exp`](https://gssdataexplorer.norc.org/variables/8008/vshow).
+#' For further details see the [GSS Data Explorer page for `preteen_exp`](https://gssdataexplorer.norc.org/variables/8008/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `teens_exp`](https://gssdataexplorer.norc.org/variables/8011/vshow).
+#' For further details see the [GSS Data Explorer page for `teens_exp`](https://gssdataexplorer.norc.org/variables/8011/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `adults_exp`](https://gssdataexplorer.norc.org/variables/7983/vshow).
+#' For further details see the [GSS Data Explorer page for `adults_exp`](https://gssdataexplorer.norc.org/variables/7983/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

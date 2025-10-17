@@ -32,7 +32,7 @@ Question C. Some people say that genetic testing may cause trouble. Others think
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5087/vshow}{GSS Data Explorer page for \code{genegoo2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5087/vshow}{GSS Data Explorer page for \code{genegoo2}}.
 }
 
 \seealso{
@@ -42,10 +42,7 @@ Other Genes:
 \code{\link{genedef2}},
 \code{\link{genedef3}},
 \code{\link{genegoo1}},
-\code{\link{genegood}},
-\code{\link{geneself}},
-\code{\link{genetest}},
-\code{\link{genetst1}}
+\code{\link{geneself}}
 }
 \concept{Genes}
 \keyword{variable}

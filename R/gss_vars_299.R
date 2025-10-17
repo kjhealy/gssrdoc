@@ -21,7 +21,7 @@
 #'  |2000 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `downrely`](https://gssdataexplorer.norc.org/variables/2713/vshow).
+#' For further details see the [GSS Data Explorer page for `downrely`](https://gssdataexplorer.norc.org/variables/2713/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2000 |A       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `downfeel`](https://gssdataexplorer.norc.org/variables/2714/vshow).
+#' For further details see the [GSS Data Explorer page for `downfeel`](https://gssdataexplorer.norc.org/variables/2714/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2000 |B       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `painqol`](https://gssdataexplorer.norc.org/variables/2715/vshow).
+#' For further details see the [GSS Data Explorer page for `painqol`](https://gssdataexplorer.norc.org/variables/2715/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2000 |B       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `painfam`](https://gssdataexplorer.norc.org/variables/2716/vshow).
+#' For further details see the [GSS Data Explorer page for `painfam`](https://gssdataexplorer.norc.org/variables/2716/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2000 |B       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paincure`](https://gssdataexplorer.norc.org/variables/2717/vshow).
+#' For further details see the [GSS Data Explorer page for `paincure`](https://gssdataexplorer.norc.org/variables/2717/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2000 |B       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `painrely`](https://gssdataexplorer.norc.org/variables/2718/vshow).
+#' For further details see the [GSS Data Explorer page for `painrely`](https://gssdataexplorer.norc.org/variables/2718/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |2000 |B       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `painfeel`](https://gssdataexplorer.norc.org/variables/2719/vshow).
+#' For further details see the [GSS Data Explorer page for `painfeel`](https://gssdataexplorer.norc.org/variables/2719/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2000 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emotqol`](https://gssdataexplorer.norc.org/variables/2720/vshow).
+#' For further details see the [GSS Data Explorer page for `emotqol`](https://gssdataexplorer.norc.org/variables/2720/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |2000 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emotfam`](https://gssdataexplorer.norc.org/variables/2721/vshow).
+#' For further details see the [GSS Data Explorer page for `emotfam`](https://gssdataexplorer.norc.org/variables/2721/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -336,7 +336,7 @@ NULL
 #'  |2000 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emotcure`](https://gssdataexplorer.norc.org/variables/2722/vshow).
+#' For further details see the [GSS Data Explorer page for `emotcure`](https://gssdataexplorer.norc.org/variables/2722/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

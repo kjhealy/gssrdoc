@@ -34,7 +34,7 @@ Question Some people say that people get ahead by their own hard work; others sa
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7589/vshow}{GSS Data Explorer page for \code{getaheadv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7589/vshow}{GSS Data Explorer page for \code{getaheadv}}.
 }
 
 \keyword{variable}

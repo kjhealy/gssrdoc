@@ -31,20 +31,16 @@ INTEREST", "ONE OF THREE PARTNERS", ETC.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3820/vshow}{GSS Data Explorer page for \code{bizshare}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3820/vshow}{GSS Data Explorer page for \code{bizshare}}.
 }
 
 \seealso{
 Other Self Employment: 
 \code{\link{bizgross}},
 \code{\link{numemps5}},
-\code{\link{numown}},
-\code{\link{ownbiz}},
 \code{\link{owninc}},
 \code{\link{paidemps}},
-\code{\link{startbiz}},
-\code{\link{whybiz}},
-\code{\link{yearbiz}}
+\code{\link{whybiz}}
 }
 \concept{Self Employment}
 \keyword{variable}

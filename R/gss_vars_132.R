@@ -23,7 +23,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `povzone`](https://gssdataexplorer.norc.org/variables/1230/vshow).
+#' For further details see the [GSS Data Explorer page for `povzone`](https://gssdataexplorer.norc.org/variables/1230/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `povschs`](https://gssdataexplorer.norc.org/variables/1231/vshow).
+#' For further details see the [GSS Data Explorer page for `povschs`](https://gssdataexplorer.norc.org/variables/1231/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `povcol`](https://gssdataexplorer.norc.org/variables/1232/vshow).
+#' For further details see the [GSS Data Explorer page for `povcol`](https://gssdataexplorer.norc.org/variables/1232/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -135,7 +135,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blkzone`](https://gssdataexplorer.norc.org/variables/1233/vshow).
+#' For further details see the [GSS Data Explorer page for `blkzone`](https://gssdataexplorer.norc.org/variables/1233/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -173,7 +173,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blkschs`](https://gssdataexplorer.norc.org/variables/1234/vshow).
+#' For further details see the [GSS Data Explorer page for `blkschs`](https://gssdataexplorer.norc.org/variables/1234/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blkcol`](https://gssdataexplorer.norc.org/variables/1235/vshow).
+#' For further details see the [GSS Data Explorer page for `blkcol`](https://gssdataexplorer.norc.org/variables/1235/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -249,7 +249,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racquota`](https://gssdataexplorer.norc.org/variables/1236/vshow).
+#' For further details see the [GSS Data Explorer page for `racquota`](https://gssdataexplorer.norc.org/variables/1236/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `influwht`](https://gssdataexplorer.norc.org/variables/1237/vshow).
+#' For further details see the [GSS Data Explorer page for `influwht`](https://gssdataexplorer.norc.org/variables/1237/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -317,7 +317,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `influjew`](https://gssdataexplorer.norc.org/variables/1238/vshow).
+#' For further details see the [GSS Data Explorer page for `influjew`](https://gssdataexplorer.norc.org/variables/1238/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -351,7 +351,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `influblk`](https://gssdataexplorer.norc.org/variables/1239/vshow).
+#' For further details see the [GSS Data Explorer page for `influblk`](https://gssdataexplorer.norc.org/variables/1239/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

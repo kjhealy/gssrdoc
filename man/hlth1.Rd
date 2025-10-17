@@ -35,74 +35,20 @@ A. First, thinking about health related matters, did any of the following happen
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5136/vshow}{GSS Data Explorer page for \code{hlth1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5136/vshow}{GSS Data Explorer page for \code{hlth1}}.
 }
 
 \seealso{
 Other Negative Life Events: 
-\code{\link{extra1}},
-\code{\link{extra2}},
-\code{\link{famper1}},
-\code{\link{famper2}},
-\code{\link{famper3}},
-\code{\link{famper4}},
-\code{\link{famper5}},
-\code{\link{famper6}},
-\code{\link{finan1}},
-\code{\link{finan2}},
-\code{\link{finan3}},
-\code{\link{finan4}},
-\code{\link{finan5}},
-\code{\link{hlth10}},
-\code{\link{hlth11}},
-\code{\link{hlth12}},
-\code{\link{hlth13}},
-\code{\link{hlth14}},
 \code{\link{hlth2}},
 \code{\link{hlth3}},
 \code{\link{hlth4}},
 \code{\link{hlth5}},
 \code{\link{hlth6}},
 \code{\link{hlth7}},
-\code{\link{hlth8}},
-\code{\link{hlth9}},
-\code{\link{hrdshp1}},
-\code{\link{hrdshp2}},
-\code{\link{hrdshp3}},
-\code{\link{hrdshp4}},
-\code{\link{hrdshp5}},
-\code{\link{hrdshp6}},
-\code{\link{hrdshp7}},
-\code{\link{law1}},
-\code{\link{law2}},
-\code{\link{law3}},
-\code{\link{law4}},
-\code{\link{law5}},
-\code{\link{law6}},
-\code{\link{law7}},
-\code{\link{live1}},
-\code{\link{live2}},
-\code{\link{live3}},
-\code{\link{live4}},
-\code{\link{oth1}},
-\code{\link{oth2}},
-\code{\link{oth3}},
-\code{\link{oth4}},
-\code{\link{oth5}},
-\code{\link{prob1}},
 \code{\link{prob2}},
 \code{\link{prob3}},
-\code{\link{prob4}},
-\code{\link{work1}},
-\code{\link{work10}},
-\code{\link{work2}},
-\code{\link{work3}},
-\code{\link{work4}},
-\code{\link{work5}},
-\code{\link{work6}},
-\code{\link{work7}},
-\code{\link{work8}},
-\code{\link{work9}}
+\code{\link{prob4}}
 }
 \concept{Negative Life Events}
 \keyword{variable}

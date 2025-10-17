@@ -22,7 +22,7 @@
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `country`](https://gssdataexplorer.norc.org/variables/1389/vshow).
+#' For further details see the [GSS Data Explorer page for `country`](https://gssdataexplorer.norc.org/variables/1389/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blues`](https://gssdataexplorer.norc.org/variables/1390/vshow).
+#' For further details see the [GSS Data Explorer page for `blues`](https://gssdataexplorer.norc.org/variables/1390/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `musicals`](https://gssdataexplorer.norc.org/variables/1391/vshow).
+#' For further details see the [GSS Data Explorer page for `musicals`](https://gssdataexplorer.norc.org/variables/1391/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `classicl`](https://gssdataexplorer.norc.org/variables/1392/vshow).
+#' For further details see the [GSS Data Explorer page for `classicl`](https://gssdataexplorer.norc.org/variables/1392/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `folk`](https://gssdataexplorer.norc.org/variables/1393/vshow).
+#' For further details see the [GSS Data Explorer page for `folk`](https://gssdataexplorer.norc.org/variables/1393/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gospel`](https://gssdataexplorer.norc.org/variables/1394/vshow).
+#' For further details see the [GSS Data Explorer page for `gospel`](https://gssdataexplorer.norc.org/variables/1394/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jazz`](https://gssdataexplorer.norc.org/variables/1395/vshow).
+#' For further details see the [GSS Data Explorer page for `jazz`](https://gssdataexplorer.norc.org/variables/1395/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `latin`](https://gssdataexplorer.norc.org/variables/1396/vshow).
+#' For further details see the [GSS Data Explorer page for `latin`](https://gssdataexplorer.norc.org/variables/1396/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `moodeasy`](https://gssdataexplorer.norc.org/variables/1397/vshow).
+#' For further details see the [GSS Data Explorer page for `moodeasy`](https://gssdataexplorer.norc.org/variables/1397/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -346,7 +346,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `newage`](https://gssdataexplorer.norc.org/variables/1398/vshow).
+#' For further details see the [GSS Data Explorer page for `newage`](https://gssdataexplorer.norc.org/variables/1398/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

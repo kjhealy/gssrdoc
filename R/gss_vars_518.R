@@ -21,7 +21,7 @@
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relpast`](https://gssdataexplorer.norc.org/variables/7284/vshow).
+#' For further details see the [GSS Data Explorer page for `relpast`](https://gssdataexplorer.norc.org/variables/7284/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relrlvnt`](https://gssdataexplorer.norc.org/variables/7285/vshow).
+#' For further details see the [GSS Data Explorer page for `relrlvnt`](https://gssdataexplorer.norc.org/variables/7285/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `christns`](https://gssdataexplorer.norc.org/variables/7286/vshow).
+#' For further details see the [GSS Data Explorer page for `christns`](https://gssdataexplorer.norc.org/variables/7286/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `muslims`](https://gssdataexplorer.norc.org/variables/7287/vshow).
+#' For further details see the [GSS Data Explorer page for `muslims`](https://gssdataexplorer.norc.org/variables/7287/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hindus`](https://gssdataexplorer.norc.org/variables/7288/vshow).
+#' For further details see the [GSS Data Explorer page for `hindus`](https://gssdataexplorer.norc.org/variables/7288/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `buddhsts`](https://gssdataexplorer.norc.org/variables/7289/vshow).
+#' For further details see the [GSS Data Explorer page for `buddhsts`](https://gssdataexplorer.norc.org/variables/7289/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jews`](https://gssdataexplorer.norc.org/variables/7290/vshow).
+#' For further details see the [GSS Data Explorer page for `jews`](https://gssdataexplorer.norc.org/variables/7290/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `atheists`](https://gssdataexplorer.norc.org/variables/7291/vshow).
+#' For further details see the [GSS Data Explorer page for `atheists`](https://gssdataexplorer.norc.org/variables/7291/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `perscrfc`](https://gssdataexplorer.norc.org/variables/4716/vshow).
+#' For further details see the [GSS Data Explorer page for `perscrfc`](https://gssdataexplorer.norc.org/variables/4716/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -331,7 +331,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obeythnk`](https://gssdataexplorer.norc.org/variables/4717/vshow).
+#' For further details see the [GSS Data Explorer page for `obeythnk`](https://gssdataexplorer.norc.org/variables/4717/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

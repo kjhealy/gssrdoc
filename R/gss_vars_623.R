@@ -20,7 +20,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkgovt1`](https://gssdataexplorer.norc.org/variables/7432/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkgovt1`](https://gssdataexplorer.norc.org/variables/7432/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkgovt2`](https://gssdataexplorer.norc.org/variables/7433/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkgovt2`](https://gssdataexplorer.norc.org/variables/7433/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |2022 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spkathy`](https://gssdataexplorer.norc.org/variables/7434/vshow).
+#' For further details see the [GSS Data Explorer page for `spkathy`](https://gssdataexplorer.norc.org/variables/7434/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -121,7 +121,7 @@ NULL
 #'  |2022 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libathy`](https://gssdataexplorer.norc.org/variables/7435/vshow).
+#' For further details see the [GSS Data Explorer page for `libathy`](https://gssdataexplorer.norc.org/variables/7435/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |2022 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spkracy`](https://gssdataexplorer.norc.org/variables/7436/vshow).
+#' For further details see the [GSS Data Explorer page for `spkracy`](https://gssdataexplorer.norc.org/variables/7436/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -188,7 +188,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libracy`](https://gssdataexplorer.norc.org/variables/7437/vshow).
+#' For further details see the [GSS Data Explorer page for `libracy`](https://gssdataexplorer.norc.org/variables/7437/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -222,7 +222,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spkcomy`](https://gssdataexplorer.norc.org/variables/7438/vshow).
+#' For further details see the [GSS Data Explorer page for `spkcomy`](https://gssdataexplorer.norc.org/variables/7438/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colcomy`](https://gssdataexplorer.norc.org/variables/7439/vshow).
+#' For further details see the [GSS Data Explorer page for `colcomy`](https://gssdataexplorer.norc.org/variables/7439/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -290,7 +290,7 @@ NULL
 #'  |2022 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libcomy`](https://gssdataexplorer.norc.org/variables/7440/vshow).
+#' For further details see the [GSS Data Explorer page for `libcomy`](https://gssdataexplorer.norc.org/variables/7440/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -322,7 +322,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spkmily`](https://gssdataexplorer.norc.org/variables/7441/vshow).
+#' For further details see the [GSS Data Explorer page for `spkmily`](https://gssdataexplorer.norc.org/variables/7441/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

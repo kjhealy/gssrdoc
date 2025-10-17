@@ -23,7 +23,7 @@
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpharm`](https://gssdataexplorer.norc.org/variables/4808/vshow).
+#' For further details see the [GSS Data Explorer page for `helpharm`](https://gssdataexplorer.norc.org/variables/4808/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -59,7 +59,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grneffme`](https://gssdataexplorer.norc.org/variables/4809/vshow).
+#' For further details see the [GSS Data Explorer page for `grneffme`](https://gssdataexplorer.norc.org/variables/4809/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -95,7 +95,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tempgen1`](https://gssdataexplorer.norc.org/variables/4810/vshow).
+#' For further details see the [GSS Data Explorer page for `tempgen1`](https://gssdataexplorer.norc.org/variables/4810/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -129,7 +129,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `busgrn`](https://gssdataexplorer.norc.org/variables/4811/vshow).
+#' For further details see the [GSS Data Explorer page for `busgrn`](https://gssdataexplorer.norc.org/variables/4811/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -163,7 +163,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `peopgrn`](https://gssdataexplorer.norc.org/variables/4812/vshow).
+#' For further details see the [GSS Data Explorer page for `peopgrn`](https://gssdataexplorer.norc.org/variables/4812/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -197,7 +197,7 @@ NULL
 #'  |2010 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `redcehme`](https://gssdataexplorer.norc.org/variables/4813/vshow).
+#' For further details see the [GSS Data Explorer page for `redcehme`](https://gssdataexplorer.norc.org/variables/4813/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |2010 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `h2oless`](https://gssdataexplorer.norc.org/variables/4814/vshow).
+#' For further details see the [GSS Data Explorer page for `h2oless`](https://gssdataexplorer.norc.org/variables/4814/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nobuygrn`](https://gssdataexplorer.norc.org/variables/4815/vshow).
+#' For further details see the [GSS Data Explorer page for `nobuygrn`](https://gssdataexplorer.norc.org/variables/4815/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clsenei`](https://gssdataexplorer.norc.org/variables/4816/vshow).
+#' For further details see the [GSS Data Explorer page for `clsenei`](https://gssdataexplorer.norc.org/variables/4816/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clsetown`](https://gssdataexplorer.norc.org/variables/4817/vshow).
+#' For further details see the [GSS Data Explorer page for `clsetown`](https://gssdataexplorer.norc.org/variables/4817/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

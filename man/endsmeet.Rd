@@ -35,7 +35,7 @@ Question Thinking of your household's total income, including all the sources of
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7276/vshow}{GSS Data Explorer page for \code{endsmeet}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7276/vshow}{GSS Data Explorer page for \code{endsmeet}}.
 }
 
 \keyword{variable}

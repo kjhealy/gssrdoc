@@ -19,7 +19,7 @@
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solfrat`](https://gssdataexplorer.norc.org/variables/980/vshow).
+#' For further details see the [GSS Data Explorer page for `solfrat`](https://gssdataexplorer.norc.org/variables/980/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solserv`](https://gssdataexplorer.norc.org/variables/981/vshow).
+#' For further details see the [GSS Data Explorer page for `solserv`](https://gssdataexplorer.norc.org/variables/981/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solvet`](https://gssdataexplorer.norc.org/variables/982/vshow).
+#' For further details see the [GSS Data Explorer page for `solvet`](https://gssdataexplorer.norc.org/variables/982/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solpolit`](https://gssdataexplorer.norc.org/variables/983/vshow).
+#' For further details see the [GSS Data Explorer page for `solpolit`](https://gssdataexplorer.norc.org/variables/983/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solunion`](https://gssdataexplorer.norc.org/variables/984/vshow).
+#' For further details see the [GSS Data Explorer page for `solunion`](https://gssdataexplorer.norc.org/variables/984/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solsport`](https://gssdataexplorer.norc.org/variables/985/vshow).
+#' For further details see the [GSS Data Explorer page for `solsport`](https://gssdataexplorer.norc.org/variables/985/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solyouth`](https://gssdataexplorer.norc.org/variables/986/vshow).
+#' For further details see the [GSS Data Explorer page for `solyouth`](https://gssdataexplorer.norc.org/variables/986/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solschl`](https://gssdataexplorer.norc.org/variables/987/vshow).
+#' For further details see the [GSS Data Explorer page for `solschl`](https://gssdataexplorer.norc.org/variables/987/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solhobby`](https://gssdataexplorer.norc.org/variables/988/vshow).
+#' For further details see the [GSS Data Explorer page for `solhobby`](https://gssdataexplorer.norc.org/variables/988/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solgreek`](https://gssdataexplorer.norc.org/variables/989/vshow).
+#' For further details see the [GSS Data Explorer page for `solgreek`](https://gssdataexplorer.norc.org/variables/989/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  China
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7678/vshow}{GSS Data Explorer page for \code{ethregion39}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7678/vshow}{GSS Data Explorer page for \code{ethregion39}}.
 }
 
 \keyword{variable}

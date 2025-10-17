@@ -19,7 +19,7 @@
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gmbiz`](https://gssdataexplorer.norc.org/variables/3389/vshow).
+#' For further details see the [GSS Data Explorer page for `gmbiz`](https://gssdataexplorer.norc.org/variables/3389/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -51,7 +51,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medagrgm`](https://gssdataexplorer.norc.org/variables/3390/vshow).
+#' For further details see the [GSS Data Explorer page for `medagrgm`](https://gssdataexplorer.norc.org/variables/3390/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -86,7 +86,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medinfgm`](https://gssdataexplorer.norc.org/variables/3391/vshow).
+#' For further details see the [GSS Data Explorer page for `medinfgm`](https://gssdataexplorer.norc.org/variables/3391/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -121,7 +121,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polinfgm`](https://gssdataexplorer.norc.org/variables/3392/vshow).
+#' For further details see the [GSS Data Explorer page for `polinfgm`](https://gssdataexplorer.norc.org/variables/3392/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bizinfgm`](https://gssdataexplorer.norc.org/variables/3393/vshow).
+#' For further details see the [GSS Data Explorer page for `bizinfgm`](https://gssdataexplorer.norc.org/variables/3393/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medbstgm`](https://gssdataexplorer.norc.org/variables/3394/vshow).
+#' For further details see the [GSS Data Explorer page for `medbstgm`](https://gssdataexplorer.norc.org/variables/3394/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polbstgm`](https://gssdataexplorer.norc.org/variables/3395/vshow).
+#' For further details see the [GSS Data Explorer page for `polbstgm`](https://gssdataexplorer.norc.org/variables/3395/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bizbstgm`](https://gssdataexplorer.norc.org/variables/3396/vshow).
+#' For further details see the [GSS Data Explorer page for `bizbstgm`](https://gssdataexplorer.norc.org/variables/3396/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -293,7 +293,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eatgm`](https://gssdataexplorer.norc.org/variables/3397/vshow).
+#' For further details see the [GSS Data Explorer page for `eatgm`](https://gssdataexplorer.norc.org/variables/3397/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -328,7 +328,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciimp1`](https://gssdataexplorer.norc.org/variables/3398/vshow).
+#' For further details see the [GSS Data Explorer page for `sciimp1`](https://gssdataexplorer.norc.org/variables/3398/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

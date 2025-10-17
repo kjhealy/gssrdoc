@@ -32,7 +32,7 @@ Question Do you know a woman or a man who isï¿½A senior executive of a large 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7230/vshow}{GSS Data Explorer page for \code{knwexec}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7230/vshow}{GSS Data Explorer page for \code{knwexec}}.
 }
 
 \keyword{variable}

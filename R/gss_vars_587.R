@@ -61,7 +61,7 @@
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mar9`](https://gssdataexplorer.norc.org/variables/5383/vshow).
+#' For further details see the [GSS Data Explorer page for `mar9`](https://gssdataexplorer.norc.org/variables/5383/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -133,7 +133,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `away9`](https://gssdataexplorer.norc.org/variables/5384/vshow).
+#' For further details see the [GSS Data Explorer page for `away9`](https://gssdataexplorer.norc.org/variables/5384/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -207,7 +207,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `where9`](https://gssdataexplorer.norc.org/variables/5385/vshow).
+#' For further details see the [GSS Data Explorer page for `where9`](https://gssdataexplorer.norc.org/variables/5385/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relate10`](https://gssdataexplorer.norc.org/variables/5386/vshow).
+#' For further details see the [GSS Data Explorer page for `relate10`](https://gssdataexplorer.norc.org/variables/5386/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -358,7 +358,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gender10`](https://gssdataexplorer.norc.org/variables/5387/vshow).
+#' For further details see the [GSS Data Explorer page for `gender10`](https://gssdataexplorer.norc.org/variables/5387/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -431,7 +431,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `old10`](https://gssdataexplorer.norc.org/variables/5388/vshow).
+#' For further details see the [GSS Data Explorer page for `old10`](https://gssdataexplorer.norc.org/variables/5388/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -506,7 +506,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mar10`](https://gssdataexplorer.norc.org/variables/5389/vshow).
+#' For further details see the [GSS Data Explorer page for `mar10`](https://gssdataexplorer.norc.org/variables/5389/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -578,7 +578,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `away10`](https://gssdataexplorer.norc.org/variables/5390/vshow).
+#' For further details see the [GSS Data Explorer page for `away10`](https://gssdataexplorer.norc.org/variables/5390/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -652,7 +652,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `where10`](https://gssdataexplorer.norc.org/variables/5391/vshow).
+#' For further details see the [GSS Data Explorer page for `where10`](https://gssdataexplorer.norc.org/variables/5391/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -730,7 +730,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relate11`](https://gssdataexplorer.norc.org/variables/5392/vshow).
+#' For further details see the [GSS Data Explorer page for `relate11`](https://gssdataexplorer.norc.org/variables/5392/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

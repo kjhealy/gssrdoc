@@ -30,7 +30,7 @@ Question Current pet - Pig
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7204/vshow}{GSS Data Explorer page for \code{pig}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7204/vshow}{GSS Data Explorer page for \code{pig}}.
 }
 
 \keyword{variable}

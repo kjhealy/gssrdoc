@@ -45,7 +45,7 @@ Question If you had to choose, which of these races do you identify most with?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7751/vshow}{GSS Data Explorer page for \code{racerank1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7751/vshow}{GSS Data Explorer page for \code{racerank1}}.
 }
 
 \keyword{variable}

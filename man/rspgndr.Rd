@@ -33,7 +33,7 @@ Question People have different opinions about how much responsibility women and 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7766/vshow}{GSS Data Explorer page for \code{rspgndr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7766/vshow}{GSS Data Explorer page for \code{rspgndr}}.
 }
 
 \keyword{variable}

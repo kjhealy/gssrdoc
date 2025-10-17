@@ -18,7 +18,7 @@
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intrecnt`](https://gssdataexplorer.norc.org/variables/6268/vshow).
+#' For further details see the [GSS Data Explorer page for `intrecnt`](https://gssdataexplorer.norc.org/variables/6268/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fbaccess`](https://gssdataexplorer.norc.org/variables/7427/vshow).
+#' For further details see the [GSS Data Explorer page for `fbaccess`](https://gssdataexplorer.norc.org/variables/7427/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -83,7 +83,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `twitter`](https://gssdataexplorer.norc.org/variables/6269/vshow).
+#' For further details see the [GSS Data Explorer page for `twitter`](https://gssdataexplorer.norc.org/variables/6269/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -116,7 +116,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `facebook`](https://gssdataexplorer.norc.org/variables/6270/vshow).
+#' For further details see the [GSS Data Explorer page for `facebook`](https://gssdataexplorer.norc.org/variables/6270/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -149,7 +149,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `instagrm`](https://gssdataexplorer.norc.org/variables/6271/vshow).
+#' For further details see the [GSS Data Explorer page for `instagrm`](https://gssdataexplorer.norc.org/variables/6271/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -182,7 +182,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `linkedin`](https://gssdataexplorer.norc.org/variables/6272/vshow).
+#' For further details see the [GSS Data Explorer page for `linkedin`](https://gssdataexplorer.norc.org/variables/6272/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -215,7 +215,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `snapchat`](https://gssdataexplorer.norc.org/variables/6273/vshow).
+#' For further details see the [GSS Data Explorer page for `snapchat`](https://gssdataexplorer.norc.org/variables/6273/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -248,7 +248,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tumblr`](https://gssdataexplorer.norc.org/variables/6274/vshow).
+#' For further details see the [GSS Data Explorer page for `tumblr`](https://gssdataexplorer.norc.org/variables/6274/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -281,7 +281,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whatsapp`](https://gssdataexplorer.norc.org/variables/6275/vshow).
+#' For further details see the [GSS Data Explorer page for `whatsapp`](https://gssdataexplorer.norc.org/variables/6275/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -314,7 +314,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `googlesn`](https://gssdataexplorer.norc.org/variables/6276/vshow).
+#' For further details see the [GSS Data Explorer page for `googlesn`](https://gssdataexplorer.norc.org/variables/6276/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

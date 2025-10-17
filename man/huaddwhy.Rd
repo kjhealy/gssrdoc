@@ -40,7 +40,7 @@ Question A. SELECT ONE FROM THE LIST BELOW WHICH BEST DESCRIBES WHY THERE IS NO 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6653/vshow}{GSS Data Explorer page for \code{huaddwhy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6653/vshow}{GSS Data Explorer page for \code{huaddwhy}}.
 }
 
 \keyword{variable}

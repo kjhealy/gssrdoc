@@ -18,7 +18,7 @@
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `defund`](https://gssdataexplorer.norc.org/variables/7574/vshow).
+#' For further details see the [GSS Data Explorer page for `defund`](https://gssdataexplorer.norc.org/variables/7574/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `strvbias`](https://gssdataexplorer.norc.org/variables/7575/vshow).
+#' For further details see the [GSS Data Explorer page for `strvbias`](https://gssdataexplorer.norc.org/variables/7575/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `strvbiasy`](https://gssdataexplorer.norc.org/variables/7576/vshow).
+#' For further details see the [GSS Data Explorer page for `strvbiasy`](https://gssdataexplorer.norc.org/variables/7576/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -116,7 +116,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racesurv17`](https://gssdataexplorer.norc.org/variables/7577/vshow).
+#' For further details see the [GSS Data Explorer page for `racesurv17`](https://gssdataexplorer.norc.org/variables/7577/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conpharvac`](https://gssdataexplorer.norc.org/variables/7578/vshow).
+#' For further details see the [GSS Data Explorer page for `conpharvac`](https://gssdataexplorer.norc.org/variables/7578/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conpharvacy`](https://gssdataexplorer.norc.org/variables/7579/vshow).
+#' For further details see the [GSS Data Explorer page for `conpharvacy`](https://gssdataexplorer.norc.org/variables/7579/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -222,7 +222,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `confedvac`](https://gssdataexplorer.norc.org/variables/7580/vshow).
+#' For further details see the [GSS Data Explorer page for `confedvac`](https://gssdataexplorer.norc.org/variables/7580/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `confedvacy`](https://gssdataexplorer.norc.org/variables/7581/vshow).
+#' For further details see the [GSS Data Explorer page for `confedvacy`](https://gssdataexplorer.norc.org/variables/7581/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

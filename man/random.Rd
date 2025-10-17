@@ -30,7 +30,7 @@ Question Randomization for form
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7092/vshow}{GSS Data Explorer page for \code{random}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7092/vshow}{GSS Data Explorer page for \code{random}}.
 }
 
 \keyword{variable}

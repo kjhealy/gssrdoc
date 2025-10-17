@@ -32,13 +32,11 @@ Question As a result of the mental health problem, would you say that your relat
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3567/vshow}{GSS Data Explorer page for \code{mhothrel}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3567/vshow}{GSS Data Explorer page for \code{mhothrel}}.
 }
 
 \seealso{
 Other Mental Health III: 
-\code{\link{avoidmh}},
-\code{\link{gesttalk}},
 \code{\link{mhothyou}},
 \code{\link{mhtrtoth}},
 \code{\link{seemhpub}},

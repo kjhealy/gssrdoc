@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  Other North Am
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7724/vshow}{GSS Data Explorer page for \code{ethregion85}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7724/vshow}{GSS Data Explorer page for \code{ethregion85}}.
 }
 
 \keyword{variable}

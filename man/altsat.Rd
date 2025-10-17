@@ -36,7 +36,7 @@ Question (How satisfied or dissatisfied were you with the treatment you received
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7833/vshow}{GSS Data Explorer page for \code{altsat}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7833/vshow}{GSS Data Explorer page for \code{altsat}}.
 }
 
 \keyword{variable}

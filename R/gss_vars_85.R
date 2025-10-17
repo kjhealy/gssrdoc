@@ -21,7 +21,7 @@
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlpminr`](https://gssdataexplorer.norc.org/variables/761/vshow).
+#' For further details see the [GSS Data Explorer page for `hlpminr`](https://gssdataexplorer.norc.org/variables/761/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlpminfg`](https://gssdataexplorer.norc.org/variables/762/vshow).
+#' For further details see the [GSS Data Explorer page for `hlpminfg`](https://gssdataexplorer.norc.org/variables/762/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cutspdr`](https://gssdataexplorer.norc.org/variables/763/vshow).
+#' For further details see the [GSS Data Explorer page for `cutspdr`](https://gssdataexplorer.norc.org/variables/763/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |1980 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cutspdfg`](https://gssdataexplorer.norc.org/variables/764/vshow).
+#' For further details see the [GSS Data Explorer page for `cutspdfg`](https://gssdataexplorer.norc.org/variables/764/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -158,7 +158,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impfam`](https://gssdataexplorer.norc.org/variables/765/vshow).
+#' For further details see the [GSS Data Explorer page for `impfam`](https://gssdataexplorer.norc.org/variables/765/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -191,7 +191,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impwork`](https://gssdataexplorer.norc.org/variables/766/vshow).
+#' For further details see the [GSS Data Explorer page for `impwork`](https://gssdataexplorer.norc.org/variables/766/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `imprelax`](https://gssdataexplorer.norc.org/variables/767/vshow).
+#' For further details see the [GSS Data Explorer page for `imprelax`](https://gssdataexplorer.norc.org/variables/767/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -257,7 +257,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impfrend`](https://gssdataexplorer.norc.org/variables/768/vshow).
+#' For further details see the [GSS Data Explorer page for `impfrend`](https://gssdataexplorer.norc.org/variables/768/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -290,7 +290,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impkin`](https://gssdataexplorer.norc.org/variables/769/vshow).
+#' For further details see the [GSS Data Explorer page for `impkin`](https://gssdataexplorer.norc.org/variables/769/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -323,7 +323,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impchurh`](https://gssdataexplorer.norc.org/variables/770/vshow).
+#' For further details see the [GSS Data Explorer page for `impchurh`](https://gssdataexplorer.norc.org/variables/770/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

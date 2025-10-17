@@ -33,7 +33,7 @@ Question All things considered, people belonging to different religions cannot g
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7283/vshow}{GSS Data Explorer page for \code{difrel}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7283/vshow}{GSS Data Explorer page for \code{difrel}}.
 }
 
 \keyword{variable}

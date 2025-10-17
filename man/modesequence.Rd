@@ -31,7 +31,7 @@ Question SEQUENCE OF MODE ASSIGNMENT FOR RESPONDENT
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7970/vshow}{GSS Data Explorer page for \code{modesequence}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7970/vshow}{GSS Data Explorer page for \code{modesequence}}.
 }
 
 \keyword{variable}

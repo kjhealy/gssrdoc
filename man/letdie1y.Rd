@@ -33,12 +33,11 @@ Question When a person has a disease that cannot be cured, do you think doctors 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5573/vshow}{GSS Data Explorer page for \code{letdie1y}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5573/vshow}{GSS Data Explorer page for \code{letdie1y}}.
 }
 
 \seealso{
 Other Form Y: 
-\code{\link{pilloky}},
 \code{\link{polhitoy}},
 \code{\link{popespky}}
 }

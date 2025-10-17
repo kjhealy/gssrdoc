@@ -32,7 +32,7 @@ Question (Please tell us whether you strongly agree, agree, disagree, or strongl
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7855/vshow}{GSS Data Explorer page for \code{wrkmeangfl}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7855/vshow}{GSS Data Explorer page for \code{wrkmeangfl}}.
 }
 
 \keyword{variable}

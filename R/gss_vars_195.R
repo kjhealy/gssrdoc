@@ -19,7 +19,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lawyerd`](https://gssdataexplorer.norc.org/variables/1832/vshow).
+#' For further details see the [GSS Data Explorer page for `lawyerd`](https://gssdataexplorer.norc.org/variables/1832/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lawyere`](https://gssdataexplorer.norc.org/variables/1833/vshow).
+#' For further details see the [GSS Data Explorer page for `lawyere`](https://gssdataexplorer.norc.org/variables/1833/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lawyerf`](https://gssdataexplorer.norc.org/variables/1834/vshow).
+#' For further details see the [GSS Data Explorer page for `lawyerf`](https://gssdataexplorer.norc.org/variables/1834/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1996 |B       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lawyerg`](https://gssdataexplorer.norc.org/variables/1835/vshow).
+#' For further details see the [GSS Data Explorer page for `lawyerg`](https://gssdataexplorer.norc.org/variables/1835/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -150,7 +150,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lawyer1`](https://gssdataexplorer.norc.org/variables/1836/vshow).
+#' For further details see the [GSS Data Explorer page for `lawyer1`](https://gssdataexplorer.norc.org/variables/1836/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -185,7 +185,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rellaw`](https://gssdataexplorer.norc.org/variables/1837/vshow).
+#' For further details see the [GSS Data Explorer page for `rellaw`](https://gssdataexplorer.norc.org/variables/1837/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -218,7 +218,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `satlawyr`](https://gssdataexplorer.norc.org/variables/1838/vshow).
+#' For further details see the [GSS Data Explorer page for `satlawyr`](https://gssdataexplorer.norc.org/variables/1838/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fixhome`](https://gssdataexplorer.norc.org/variables/1839/vshow).
+#' For further details see the [GSS Data Explorer page for `fixhome`](https://gssdataexplorer.norc.org/variables/1839/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fixera`](https://gssdataexplorer.norc.org/variables/1840/vshow).
+#' For further details see the [GSS Data Explorer page for `fixera`](https://gssdataexplorer.norc.org/variables/1840/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fixerb`](https://gssdataexplorer.norc.org/variables/1841/vshow).
+#' For further details see the [GSS Data Explorer page for `fixerb`](https://gssdataexplorer.norc.org/variables/1841/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

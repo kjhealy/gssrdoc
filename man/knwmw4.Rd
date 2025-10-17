@@ -33,7 +33,7 @@ Question Is (NAME 4), the fourth person, a man or a woman?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7098/vshow}{GSS Data Explorer page for \code{knwmw4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7098/vshow}{GSS Data Explorer page for \code{knwmw4}}.
 }
 
 \keyword{variable}

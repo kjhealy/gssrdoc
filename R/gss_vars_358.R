@@ -19,7 +19,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mtfrat4`](https://gssdataexplorer.norc.org/variables/3224/vshow).
+#' For further details see the [GSS Data Explorer page for `mtfrat4`](https://gssdataexplorer.norc.org/variables/3224/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mtserv1`](https://gssdataexplorer.norc.org/variables/3225/vshow).
+#' For further details see the [GSS Data Explorer page for `mtserv1`](https://gssdataexplorer.norc.org/variables/3225/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mtserv2`](https://gssdataexplorer.norc.org/variables/3226/vshow).
+#' For further details see the [GSS Data Explorer page for `mtserv2`](https://gssdataexplorer.norc.org/variables/3226/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mtserv3`](https://gssdataexplorer.norc.org/variables/3227/vshow).
+#' For further details see the [GSS Data Explorer page for `mtserv3`](https://gssdataexplorer.norc.org/variables/3227/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mtserv4`](https://gssdataexplorer.norc.org/variables/3228/vshow).
+#' For further details see the [GSS Data Explorer page for `mtserv4`](https://gssdataexplorer.norc.org/variables/3228/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mtserv5`](https://gssdataexplorer.norc.org/variables/3229/vshow).
+#' For further details see the [GSS Data Explorer page for `mtserv5`](https://gssdataexplorer.norc.org/variables/3229/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mtserv6`](https://gssdataexplorer.norc.org/variables/3230/vshow).
+#' For further details see the [GSS Data Explorer page for `mtserv6`](https://gssdataexplorer.norc.org/variables/3230/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mtserv7`](https://gssdataexplorer.norc.org/variables/3231/vshow).
+#' For further details see the [GSS Data Explorer page for `mtserv7`](https://gssdataexplorer.norc.org/variables/3231/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mtserv8`](https://gssdataexplorer.norc.org/variables/3232/vshow).
+#' For further details see the [GSS Data Explorer page for `mtserv8`](https://gssdataexplorer.norc.org/variables/3232/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mtvet1`](https://gssdataexplorer.norc.org/variables/3233/vshow).
+#' For further details see the [GSS Data Explorer page for `mtvet1`](https://gssdataexplorer.norc.org/variables/3233/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

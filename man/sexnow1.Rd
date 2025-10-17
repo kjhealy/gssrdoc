@@ -33,7 +33,7 @@ Question Do you describe yourself as male, female, or transgender?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7479/vshow}{GSS Data Explorer page for \code{sexnow1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7479/vshow}{GSS Data Explorer page for \code{sexnow1}}.
 }
 
 \keyword{variable}

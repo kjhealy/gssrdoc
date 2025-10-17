@@ -32,7 +32,7 @@ Question What should be done about immigrants who are currently living in the U.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7756/vshow}{GSS Data Explorer page for \code{immfate}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7756/vshow}{GSS Data Explorer page for \code{immfate}}.
 }
 
 \keyword{variable}

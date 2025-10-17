@@ -34,7 +34,7 @@ When do you think is the best time to be told about these financial incentives?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2749/vshow}{GSS Data Explorer page for \code{fininc2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2749/vshow}{GSS Data Explorer page for \code{fininc2}}.
 }
 
 \seealso{
@@ -42,25 +42,12 @@ Other Doctors & Patients:
 \code{\link{belvedoc}},
 \code{\link{chosedoc}},
 \code{\link{diffcare}},
-\code{\link{docaskme}},
-\code{\link{doccosts}},
-\code{\link{docdecid}},
-\code{\link{docinfo}},
-\code{\link{docnomri}},
-\code{\link{docrely}},
-\code{\link{docsat}},
-\code{\link{docswtch}},
-\code{\link{docvig}},
 \code{\link{fininc}},
 \code{\link{fininc1}},
 \code{\link{fininc3}},
 \code{\link{fininc4}},
 \code{\link{hlthplan}},
-\code{\link{insrchng}},
-\code{\link{insrlmts}},
-\code{\link{regdoc}},
-\code{\link{regdocyr}},
-\code{\link{secopin}}
+\code{\link{insrlmts}}
 }
 \concept{Doctors & Patients}
 \keyword{variable}

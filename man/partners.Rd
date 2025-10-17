@@ -60,48 +60,19 @@ As of 2024, PARTNERS has been recoded to only account for 0 to 11+ partners and 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5049/vshow}{GSS Data Explorer page for \code{partners}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5049/vshow}{GSS Data Explorer page for \code{partners}}.
 }
 
 \seealso{
 Other High Risk Behaviors: 
 \code{\link{acqntsex}},
-\code{\link{aidscndm}},
-\code{\link{aidslook}},
-\code{\link{condom}},
-\code{\link{crack30}},
-\code{\link{evcrack}},
-\code{\link{evidu}},
-\code{\link{evpaidsx}},
-\code{\link{evstray}},
 \code{\link{frndsex}},
-\code{\link{hivkiss}},
-\code{\link{hivtest}},
-\code{\link{hivtest1}},
-\code{\link{hivtest2}},
-\code{\link{hivvac}},
-\code{\link{idu30}},
 \code{\link{matesex}},
-\code{\link{nocondom}},
-\code{\link{nodocidu}},
-\code{\link{nummen}},
-\code{\link{numwomen}},
 \code{\link{othersex}},
 \code{\link{paidsex}},
-\code{\link{partnrs5}},
-\code{\link{partopen}},
-\code{\link{partopn5}},
 \code{\link{pikupsex}},
-\code{\link{ptnrsxnow1}},
-\code{\link{relatsex}},
 \code{\link{sexfreq}},
-\code{\link{sexfreq1}},
-\code{\link{sexfreq2}},
-\code{\link{sexornt}},
-\code{\link{sexornt1}},
-\code{\link{sexpaid}},
-\code{\link{sexsex}},
-\code{\link{sexsex5}}
+\code{\link{sexsex}}
 }
 \concept{High Risk Behaviors}
 \keyword{variable}

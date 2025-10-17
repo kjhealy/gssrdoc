@@ -25,7 +25,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relig1`](https://gssdataexplorer.norc.org/variables/950/vshow).
+#' For further details see the [GSS Data Explorer page for `relig1`](https://gssdataexplorer.norc.org/variables/950/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -64,7 +64,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relig2`](https://gssdataexplorer.norc.org/variables/951/vshow).
+#' For further details see the [GSS Data Explorer page for `relig2`](https://gssdataexplorer.norc.org/variables/951/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -103,7 +103,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relig3`](https://gssdataexplorer.norc.org/variables/952/vshow).
+#' For further details see the [GSS Data Explorer page for `relig3`](https://gssdataexplorer.norc.org/variables/952/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -142,7 +142,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relig4`](https://gssdataexplorer.norc.org/variables/953/vshow).
+#' For further details see the [GSS Data Explorer page for `relig4`](https://gssdataexplorer.norc.org/variables/953/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -181,7 +181,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relig5`](https://gssdataexplorer.norc.org/variables/954/vshow).
+#' For further details see the [GSS Data Explorer page for `relig5`](https://gssdataexplorer.norc.org/variables/954/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -216,7 +216,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partyid1`](https://gssdataexplorer.norc.org/variables/955/vshow).
+#' For further details see the [GSS Data Explorer page for `partyid1`](https://gssdataexplorer.norc.org/variables/955/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -251,7 +251,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partyid2`](https://gssdataexplorer.norc.org/variables/956/vshow).
+#' For further details see the [GSS Data Explorer page for `partyid2`](https://gssdataexplorer.norc.org/variables/956/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -286,7 +286,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partyid3`](https://gssdataexplorer.norc.org/variables/957/vshow).
+#' For further details see the [GSS Data Explorer page for `partyid3`](https://gssdataexplorer.norc.org/variables/957/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -323,7 +323,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `talkpol1`](https://gssdataexplorer.norc.org/variables/958/vshow).
+#' For further details see the [GSS Data Explorer page for `talkpol1`](https://gssdataexplorer.norc.org/variables/958/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -360,7 +360,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `talkpol2`](https://gssdataexplorer.norc.org/variables/959/vshow).
+#' For further details see the [GSS Data Explorer page for `talkpol2`](https://gssdataexplorer.norc.org/variables/959/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

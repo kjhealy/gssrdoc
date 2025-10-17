@@ -33,7 +33,7 @@ Question Do/did) you work in your own family business or farm?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7224/vshow}{GSS Data Explorer page for \code{wrkslffam}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7224/vshow}{GSS Data Explorer page for \code{wrkslffam}}.
 }
 
 \keyword{variable}

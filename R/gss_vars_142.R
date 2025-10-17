@@ -19,7 +19,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othduty5`](https://gssdataexplorer.norc.org/variables/1329/vshow).
+#' For further details see the [GSS Data Explorer page for `othduty5`](https://gssdataexplorer.norc.org/variables/1329/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othduty6`](https://gssdataexplorer.norc.org/variables/1330/vshow).
+#' For further details see the [GSS Data Explorer page for `othduty6`](https://gssdataexplorer.norc.org/variables/1330/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othduty7`](https://gssdataexplorer.norc.org/variables/1331/vshow).
+#' For further details see the [GSS Data Explorer page for `othduty7`](https://gssdataexplorer.norc.org/variables/1331/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -117,7 +117,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `orgmoney`](https://gssdataexplorer.norc.org/variables/1332/vshow).
+#' For further details see the [GSS Data Explorer page for `orgmoney`](https://gssdataexplorer.norc.org/variables/1332/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -148,7 +148,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `totmoney`](https://gssdataexplorer.norc.org/variables/1333/vshow).
+#' For further details see the [GSS Data Explorer page for `totmoney`](https://gssdataexplorer.norc.org/variables/1333/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -179,7 +179,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `youmoney`](https://gssdataexplorer.norc.org/variables/1334/vshow).
+#' For further details see the [GSS Data Explorer page for `youmoney`](https://gssdataexplorer.norc.org/variables/1334/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobjudge`](https://gssdataexplorer.norc.org/variables/1335/vshow).
+#' For further details see the [GSS Data Explorer page for `jobjudge`](https://gssdataexplorer.norc.org/variables/1335/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `quantity`](https://gssdataexplorer.norc.org/variables/1336/vshow).
+#' For further details see the [GSS Data Explorer page for `quantity`](https://gssdataexplorer.norc.org/variables/1336/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `quality`](https://gssdataexplorer.norc.org/variables/1337/vshow).
+#' For further details see the [GSS Data Explorer page for `quality`](https://gssdataexplorer.norc.org/variables/1337/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -314,7 +314,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkwell`](https://gssdataexplorer.norc.org/variables/1338/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkwell`](https://gssdataexplorer.norc.org/variables/1338/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

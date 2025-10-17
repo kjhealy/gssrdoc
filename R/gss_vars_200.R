@@ -23,7 +23,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `decbed`](https://gssdataexplorer.norc.org/variables/1882/vshow).
+#' For further details see the [GSS Data Explorer page for `decbed`](https://gssdataexplorer.norc.org/variables/1882/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `decgift`](https://gssdataexplorer.norc.org/variables/1883/vshow).
+#' For further details see the [GSS Data Explorer page for `decgift`](https://gssdataexplorer.norc.org/variables/1883/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -107,7 +107,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `layoffs`](https://gssdataexplorer.norc.org/variables/1884/vshow).
+#' For further details see the [GSS Data Explorer page for `layoffs`](https://gssdataexplorer.norc.org/variables/1884/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -140,7 +140,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volhlth`](https://gssdataexplorer.norc.org/variables/1885/vshow).
+#' For further details see the [GSS Data Explorer page for `volhlth`](https://gssdataexplorer.norc.org/variables/1885/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -173,7 +173,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `voleduc`](https://gssdataexplorer.norc.org/variables/1886/vshow).
+#' For further details see the [GSS Data Explorer page for `voleduc`](https://gssdataexplorer.norc.org/variables/1886/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -206,7 +206,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volrelig`](https://gssdataexplorer.norc.org/variables/1887/vshow).
+#' For further details see the [GSS Data Explorer page for `volrelig`](https://gssdataexplorer.norc.org/variables/1887/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -239,7 +239,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volhuman`](https://gssdataexplorer.norc.org/variables/1888/vshow).
+#' For further details see the [GSS Data Explorer page for `volhuman`](https://gssdataexplorer.norc.org/variables/1888/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -272,7 +272,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volenvir`](https://gssdataexplorer.norc.org/variables/1889/vshow).
+#' For further details see the [GSS Data Explorer page for `volenvir`](https://gssdataexplorer.norc.org/variables/1889/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -305,7 +305,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volpub`](https://gssdataexplorer.norc.org/variables/1890/vshow).
+#' For further details see the [GSS Data Explorer page for `volpub`](https://gssdataexplorer.norc.org/variables/1890/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `volrec`](https://gssdataexplorer.norc.org/variables/1891/vshow).
+#' For further details see the [GSS Data Explorer page for `volrec`](https://gssdataexplorer.norc.org/variables/1891/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

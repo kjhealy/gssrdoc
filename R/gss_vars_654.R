@@ -21,7 +21,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `svyid1`](https://gssdataexplorer.norc.org/variables/7864/vshow).
+#' For further details see the [GSS Data Explorer page for `svyid1`](https://gssdataexplorer.norc.org/variables/7864/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `svyid2`](https://gssdataexplorer.norc.org/variables/7865/vshow).
+#' For further details see the [GSS Data Explorer page for `svyid2`](https://gssdataexplorer.norc.org/variables/7865/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrlvmus`](https://gssdataexplorer.norc.org/variables/7866/vshow).
+#' For further details see the [GSS Data Explorer page for `yrlvmus`](https://gssdataexplorer.norc.org/variables/7866/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrartxbt`](https://gssdataexplorer.norc.org/variables/7867/vshow).
+#' For further details see the [GSS Data Explorer page for `yrartxbt`](https://gssdataexplorer.norc.org/variables/7867/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -158,7 +158,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrmovie`](https://gssdataexplorer.norc.org/variables/7868/vshow).
+#' For further details see the [GSS Data Explorer page for `yrmovie`](https://gssdataexplorer.norc.org/variables/7868/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `artsout`](https://gssdataexplorer.norc.org/variables/7869/vshow).
+#' For further details see the [GSS Data Explorer page for `artsout`](https://gssdataexplorer.norc.org/variables/7869/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -226,7 +226,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrcreat`](https://gssdataexplorer.norc.org/variables/7870/vshow).
+#' For further details see the [GSS Data Explorer page for `yrcreat`](https://gssdataexplorer.norc.org/variables/7870/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -260,7 +260,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrrdg`](https://gssdataexplorer.norc.org/variables/7871/vshow).
+#' For further details see the [GSS Data Explorer page for `yrrdg`](https://gssdataexplorer.norc.org/variables/7871/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -294,7 +294,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrtour`](https://gssdataexplorer.norc.org/variables/7872/vshow).
+#' For further details see the [GSS Data Explorer page for `yrtour`](https://gssdataexplorer.norc.org/variables/7872/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -328,7 +328,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrstmus`](https://gssdataexplorer.norc.org/variables/7873/vshow).
+#' For further details see the [GSS Data Explorer page for `yrstmus`](https://gssdataexplorer.norc.org/variables/7873/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

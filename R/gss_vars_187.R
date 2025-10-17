@@ -19,7 +19,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madat12`](https://gssdataexplorer.norc.org/variables/1752/vshow).
+#' For further details see the [GSS Data Explorer page for `madat12`](https://gssdataexplorer.norc.org/variables/1752/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madat13`](https://gssdataexplorer.norc.org/variables/1753/vshow).
+#' For further details see the [GSS Data Explorer page for `madat13`](https://gssdataexplorer.norc.org/variables/1753/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madat14`](https://gssdataexplorer.norc.org/variables/1754/vshow).
+#' For further details see the [GSS Data Explorer page for `madat14`](https://gssdataexplorer.norc.org/variables/1754/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madat15`](https://gssdataexplorer.norc.org/variables/1755/vshow).
+#' For further details see the [GSS Data Explorer page for `madat15`](https://gssdataexplorer.norc.org/variables/1755/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madat16`](https://gssdataexplorer.norc.org/variables/1756/vshow).
+#' For further details see the [GSS Data Explorer page for `madat16`](https://gssdataexplorer.norc.org/variables/1756/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madat17`](https://gssdataexplorer.norc.org/variables/1757/vshow).
+#' For further details see the [GSS Data Explorer page for `madat17`](https://gssdataexplorer.norc.org/variables/1757/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madat18`](https://gssdataexplorer.norc.org/variables/1758/vshow).
+#' For further details see the [GSS Data Explorer page for `madat18`](https://gssdataexplorer.norc.org/variables/1758/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madat19`](https://gssdataexplorer.norc.org/variables/1759/vshow).
+#' For further details see the [GSS Data Explorer page for `madat19`](https://gssdataexplorer.norc.org/variables/1759/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madat20`](https://gssdataexplorer.norc.org/variables/1760/vshow).
+#' For further details see the [GSS Data Explorer page for `madat20`](https://gssdataexplorer.norc.org/variables/1760/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madat21`](https://gssdataexplorer.norc.org/variables/1761/vshow).
+#' For further details see the [GSS Data Explorer page for `madat21`](https://gssdataexplorer.norc.org/variables/1761/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

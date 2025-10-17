@@ -33,15 +33,13 @@ Question How often do you read a traditional newspaper (i.e. one that is printed
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3710/vshow}{GSS Data Explorer page for \code{newsprnt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3710/vshow}{GSS Data Explorer page for \code{newsprnt}}.
 }
 
 \seealso{
 Other Misc I: 
 \code{\link{getaheay}},
-\code{\link{natdiscm}},
-\code{\link{natdisin}},
-\code{\link{spnatdis}}
+\code{\link{natdiscm}}
 }
 \concept{Misc I}
 \keyword{variable}

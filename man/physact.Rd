@@ -33,7 +33,7 @@ Question (How often do you...) do physical activity for at least 20 minutes that
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7836/vshow}{GSS Data Explorer page for \code{physact}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7836/vshow}{GSS Data Explorer page for \code{physact}}.
 }
 
 \keyword{variable}

@@ -22,7 +22,7 @@
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `acqfmhsp`](https://gssdataexplorer.norc.org/variables/3609/vshow).
+#' For further details see the [GSS Data Explorer page for `acqfmhsp`](https://gssdataexplorer.norc.org/variables/3609/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `acqfmwht`](https://gssdataexplorer.norc.org/variables/3610/vshow).
+#' For further details see the [GSS Data Explorer page for `acqfmwht`](https://gssdataexplorer.norc.org/variables/3610/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `acqfmgay`](https://gssdataexplorer.norc.org/variables/3611/vshow).
+#' For further details see the [GSS Data Explorer page for `acqfmgay`](https://gssdataexplorer.norc.org/variables/3611/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `acqfmgo`](https://gssdataexplorer.norc.org/variables/3612/vshow).
+#' For further details see the [GSS Data Explorer page for `acqfmgo`](https://gssdataexplorer.norc.org/variables/3612/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `acqfmno`](https://gssdataexplorer.norc.org/variables/3613/vshow).
+#' For further details see the [GSS Data Explorer page for `acqfmno`](https://gssdataexplorer.norc.org/variables/3613/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `acqfmlib`](https://gssdataexplorer.norc.org/variables/3614/vshow).
+#' For further details see the [GSS Data Explorer page for `acqfmlib`](https://gssdataexplorer.norc.org/variables/3614/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `acqfmcon`](https://gssdataexplorer.norc.org/variables/3615/vshow).
+#' For further details see the [GSS Data Explorer page for `acqfmcon`](https://gssdataexplorer.norc.org/variables/3615/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `acqfmcoh`](https://gssdataexplorer.norc.org/variables/3616/vshow).
+#' For further details see the [GSS Data Explorer page for `acqfmcoh`](https://gssdataexplorer.norc.org/variables/3616/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `acqnhmrk`](https://gssdataexplorer.norc.org/variables/3617/vshow).
+#' For further details see the [GSS Data Explorer page for `acqnhmrk`](https://gssdataexplorer.norc.org/variables/3617/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -346,7 +346,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `acqnhlin`](https://gssdataexplorer.norc.org/variables/3618/vshow).
+#' For further details see the [GSS Data Explorer page for `acqnhlin`](https://gssdataexplorer.norc.org/variables/3618/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

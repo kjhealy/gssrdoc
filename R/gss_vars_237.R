@@ -18,7 +18,7 @@
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmint`](https://gssdataexplorer.norc.org/variables/6250/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmint`](https://gssdataexplorer.norc.org/variables/6250/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmtrvl`](https://gssdataexplorer.norc.org/variables/6251/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmtrvl`](https://gssdataexplorer.norc.org/variables/6251/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmgst`](https://gssdataexplorer.norc.org/variables/6252/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmgst`](https://gssdataexplorer.norc.org/variables/6252/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -114,7 +114,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmtime`](https://gssdataexplorer.norc.org/variables/6253/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmtime`](https://gssdataexplorer.norc.org/variables/6253/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmloc`](https://gssdataexplorer.norc.org/variables/6254/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmloc`](https://gssdataexplorer.norc.org/variables/6254/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -178,7 +178,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmothr`](https://gssdataexplorer.norc.org/variables/6255/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmothr`](https://gssdataexplorer.norc.org/variables/6255/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -222,7 +222,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmothr1`](https://gssdataexplorer.norc.org/variables/6646/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmothr1`](https://gssdataexplorer.norc.org/variables/6646/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `artcost`](https://gssdataexplorer.norc.org/variables/6256/vshow).
+#' For further details see the [GSS Data Explorer page for `artcost`](https://gssdataexplorer.norc.org/variables/6256/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -287,7 +287,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `artint`](https://gssdataexplorer.norc.org/variables/6257/vshow).
+#' For further details see the [GSS Data Explorer page for `artint`](https://gssdataexplorer.norc.org/variables/6257/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `arttrvl`](https://gssdataexplorer.norc.org/variables/6258/vshow).
+#' For further details see the [GSS Data Explorer page for `arttrvl`](https://gssdataexplorer.norc.org/variables/6258/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

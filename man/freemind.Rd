@@ -33,7 +33,7 @@ Question To understand the world, we must free our minds from old traditions and
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7539/vshow}{GSS Data Explorer page for \code{freemind}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7539/vshow}{GSS Data Explorer page for \code{freemind}}.
 }
 
 \keyword{variable}

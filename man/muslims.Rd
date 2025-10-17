@@ -33,7 +33,7 @@ Question What is your personal attitude towards members of the following religio
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7287/vshow}{GSS Data Explorer page for \code{muslims}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7287/vshow}{GSS Data Explorer page for \code{muslims}}.
 }
 
 \keyword{variable}

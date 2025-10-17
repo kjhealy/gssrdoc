@@ -18,7 +18,7 @@
 #'  |2021 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libmily`](https://gssdataexplorer.norc.org/variables/7442/vshow).
+#' For further details see the [GSS Data Explorer page for `libmily`](https://gssdataexplorer.norc.org/variables/7442/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spkhomoy`](https://gssdataexplorer.norc.org/variables/7443/vshow).
+#' For further details see the [GSS Data Explorer page for `spkhomoy`](https://gssdataexplorer.norc.org/variables/7443/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libhomoy`](https://gssdataexplorer.norc.org/variables/7444/vshow).
+#' For further details see the [GSS Data Explorer page for `libhomoy`](https://gssdataexplorer.norc.org/variables/7444/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -116,7 +116,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spkmslmy`](https://gssdataexplorer.norc.org/variables/7445/vshow).
+#' For further details see the [GSS Data Explorer page for `spkmslmy`](https://gssdataexplorer.norc.org/variables/7445/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -150,7 +150,7 @@ NULL
 #'  |2022 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libmslmy`](https://gssdataexplorer.norc.org/variables/7446/vshow).
+#' For further details see the [GSS Data Explorer page for `libmslmy`](https://gssdataexplorer.norc.org/variables/7446/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polhitoky`](https://gssdataexplorer.norc.org/variables/7447/vshow).
+#' For further details see the [GSS Data Explorer page for `polhitoky`](https://gssdataexplorer.norc.org/variables/7447/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -218,7 +218,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polabusey`](https://gssdataexplorer.norc.org/variables/7448/vshow).
+#' For further details see the [GSS Data Explorer page for `polabusey`](https://gssdataexplorer.norc.org/variables/7448/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -252,7 +252,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polattaky`](https://gssdataexplorer.norc.org/variables/7449/vshow).
+#' For further details see the [GSS Data Explorer page for `polattaky`](https://gssdataexplorer.norc.org/variables/7449/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -286,7 +286,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `raceacs1`](https://gssdataexplorer.norc.org/variables/7450/vshow).
+#' For further details see the [GSS Data Explorer page for `raceacs1`](https://gssdataexplorer.norc.org/variables/7450/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -320,7 +320,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `raceacs2`](https://gssdataexplorer.norc.org/variables/7451/vshow).
+#' For further details see the [GSS Data Explorer page for `raceacs2`](https://gssdataexplorer.norc.org/variables/7451/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

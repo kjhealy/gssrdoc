@@ -31,7 +31,7 @@ Question (During the past 12 months did it ever happen that you did not get the 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7828/vshow}{GSS Data Explorer page for \code{medcommt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7828/vshow}{GSS Data Explorer page for \code{medcommt}}.
 }
 
 \keyword{variable}

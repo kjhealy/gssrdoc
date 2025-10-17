@@ -33,7 +33,7 @@ Question Please consider the following positions and select the options that com
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7785/vshow}{GSS Data Explorer page for \code{execgndr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7785/vshow}{GSS Data Explorer page for \code{execgndr}}.
 }
 
 \keyword{variable}

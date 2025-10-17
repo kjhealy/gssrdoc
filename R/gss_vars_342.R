@@ -17,7 +17,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `numrborn`](https://gssdataexplorer.norc.org/variables/3064/vshow).
+#' For further details see the [GSS Data Explorer page for `numrborn`](https://gssdataexplorer.norc.org/variables/3064/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -48,7 +48,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agerborn`](https://gssdataexplorer.norc.org/variables/3065/vshow).
+#' For further details see the [GSS Data Explorer page for `agerborn`](https://gssdataexplorer.norc.org/variables/3065/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -80,7 +80,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chngrbrn`](https://gssdataexplorer.norc.org/variables/3066/vshow).
+#' For further details see the [GSS Data Explorer page for `chngrbrn`](https://gssdataexplorer.norc.org/variables/3066/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -111,7 +111,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `entity`](https://gssdataexplorer.norc.org/variables/3067/vshow).
+#' For further details see the [GSS Data Explorer page for `entity`](https://gssdataexplorer.norc.org/variables/3067/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -145,7 +145,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `expchng1`](https://gssdataexplorer.norc.org/variables/3068/vshow).
+#' For further details see the [GSS Data Explorer page for `expchng1`](https://gssdataexplorer.norc.org/variables/3068/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -179,7 +179,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `expchng2`](https://gssdataexplorer.norc.org/variables/3069/vshow).
+#' For further details see the [GSS Data Explorer page for `expchng2`](https://gssdataexplorer.norc.org/variables/3069/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -213,7 +213,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `expchng3`](https://gssdataexplorer.norc.org/variables/3070/vshow).
+#' For further details see the [GSS Data Explorer page for `expchng3`](https://gssdataexplorer.norc.org/variables/3070/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,7 +247,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whychng1`](https://gssdataexplorer.norc.org/variables/3071/vshow).
+#' For further details see the [GSS Data Explorer page for `whychng1`](https://gssdataexplorer.norc.org/variables/3071/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -281,7 +281,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whychng2`](https://gssdataexplorer.norc.org/variables/3072/vshow).
+#' For further details see the [GSS Data Explorer page for `whychng2`](https://gssdataexplorer.norc.org/variables/3072/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -315,7 +315,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `whychng3`](https://gssdataexplorer.norc.org/variables/3073/vshow).
+#' For further details see the [GSS Data Explorer page for `whychng3`](https://gssdataexplorer.norc.org/variables/3073/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

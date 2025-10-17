@@ -33,7 +33,7 @@ Question The United States Supreme Court has ruled that no state or local govern
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7605/vshow}{GSS Data Explorer page for \code{prayernv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7605/vshow}{GSS Data Explorer page for \code{prayernv}}.
 }
 
 \keyword{variable}

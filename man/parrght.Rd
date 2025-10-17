@@ -33,25 +33,11 @@ C. Parents today often feel uncertain about what is the right thing to do in rai
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5095/vshow}{GSS Data Explorer page for \code{parrght}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5095/vshow}{GSS Data Explorer page for \code{parrght}}.
 }
 
 \seealso{
 Other Children: 
-\code{\link{chldeduc}},
-\code{\link{chldhlth}},
-\code{\link{chldhome}},
-\code{\link{chldlove}},
-\code{\link{chldmorl}},
-\code{\link{chldsafe}},
-\code{\link{chldskls}},
-\code{\link{chldsup}},
-\code{\link{chldtime}},
-\code{\link{infadstv}},
-\code{\link{inffilms}},
-\code{\link{infmusic}},
-\code{\link{infnettv}},
-\code{\link{infpubtv}},
 \code{\link{parfin}},
 \code{\link{pargovt}},
 \code{\link{parhardr}},
@@ -60,22 +46,7 @@ Other Children:
 \code{\link{parwhere}},
 \code{\link{parwork}},
 \code{\link{parworse}},
-\code{\link{roleccp}},
-\code{\link{roleclrg}},
-\code{\link{rolegp}},
-\code{\link{rolema}},
-\code{\link{rolepa}},
-\code{\link{roletchr}},
-\code{\link{spdrugs}},
-\code{\link{spdsabkd}},
-\code{\link{spfoodkd}},
-\code{\link{spheadst}},
-\code{\link{sphlthkd}},
-\code{\link{sphomekd}},
-\code{\link{sppill}},
-\code{\link{sppoorkd}},
-\code{\link{sppregnt}},
-\code{\link{spwrkpar}}
+\code{\link{rolema}}
 }
 \concept{Children}
 \keyword{variable}

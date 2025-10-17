@@ -47,7 +47,7 @@ As of 2024, RACECEN3 has been recoded to combine Native Hawaiian, Guamanian or C
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5279/vshow}{GSS Data Explorer page for \code{racecen3}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5279/vshow}{GSS Data Explorer page for \code{racecen3}}.
 }
 
 \seealso{
@@ -55,28 +55,12 @@ Other Ethnicity:
 \code{\link{difrace1}},
 \code{\link{difrace2}},
 \code{\link{difrace3}},
-\code{\link{eth1}},
-\code{\link{eth2}},
-\code{\link{eth3}},
-\code{\link{ethnic}},
-\code{\link{ethnum}},
-\code{\link{fucitzn}},
 \code{\link{hispanic}},
 \code{\link{racecen1}},
-\code{\link{racecen1_0022}},
 \code{\link{racecen2}},
-\code{\link{racecen2_0022}},
-\code{\link{racecen3_0022}},
 \code{\link{racedbtf}},
 \code{\link{racesee}},
-\code{\link{raceself}},
-\code{\link{speth1}},
-\code{\link{speth2}},
-\code{\link{speth3}},
-\code{\link{spethnic}},
-\code{\link{spethnum}},
-\code{\link{uscitzn}},
-\code{\link{uscitzn_0822}}
+\code{\link{raceself}}
 }
 \concept{Ethnicity}
 \keyword{variable}

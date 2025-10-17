@@ -33,7 +33,7 @@ Question Do you believe there is a life after death?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7598/vshow}{GSS Data Explorer page for \code{postlifev}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7598/vshow}{GSS Data Explorer page for \code{postlifev}}.
 }
 
 \keyword{variable}

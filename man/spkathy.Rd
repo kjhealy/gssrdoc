@@ -31,7 +31,7 @@ Question Or consider a person who believes that Blacks are genetically inferior√
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7434/vshow}{GSS Data Explorer page for \code{spkathy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7434/vshow}{GSS Data Explorer page for \code{spkathy}}.
 }
 
 \keyword{variable}

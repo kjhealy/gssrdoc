@@ -21,7 +21,7 @@
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `watergen1`](https://gssdataexplorer.norc.org/variables/7492/vshow).
+#' For further details see the [GSS Data Explorer page for `watergen1`](https://gssdataexplorer.norc.org/variables/7492/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genegen1`](https://gssdataexplorer.norc.org/variables/7493/vshow).
+#' For further details see the [GSS Data Explorer page for `genegen1`](https://gssdataexplorer.norc.org/variables/7493/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nukegen1`](https://gssdataexplorer.norc.org/variables/7494/vshow).
+#' For further details see the [GSS Data Explorer page for `nukegen1`](https://gssdataexplorer.norc.org/variables/7494/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `enjoynat`](https://gssdataexplorer.norc.org/variables/7495/vshow).
+#' For further details see the [GSS Data Explorer page for `enjoynat`](https://gssdataexplorer.norc.org/variables/7495/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `activnat`](https://gssdataexplorer.norc.org/variables/7496/vshow).
+#' For further details see the [GSS Data Explorer page for `activnat`](https://gssdataexplorer.norc.org/variables/7496/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `planetrp`](https://gssdataexplorer.norc.org/variables/7497/vshow).
+#' For further details see the [GSS Data Explorer page for `planetrp`](https://gssdataexplorer.norc.org/variables/7497/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -223,7 +223,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `carhr`](https://gssdataexplorer.norc.org/variables/7498/vshow).
+#' For further details see the [GSS Data Explorer page for `carhr`](https://gssdataexplorer.norc.org/variables/7498/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eatmeat`](https://gssdataexplorer.norc.org/variables/7499/vshow).
+#' For further details see the [GSS Data Explorer page for `eatmeat`](https://gssdataexplorer.norc.org/variables/7499/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -286,7 +286,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `numrooms`](https://gssdataexplorer.norc.org/variables/7500/vshow).
+#' For further details see the [GSS Data Explorer page for `numrooms`](https://gssdataexplorer.norc.org/variables/7500/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -321,7 +321,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `airpollu`](https://gssdataexplorer.norc.org/variables/7501/vshow).
+#' For further details see the [GSS Data Explorer page for `airpollu`](https://gssdataexplorer.norc.org/variables/7501/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

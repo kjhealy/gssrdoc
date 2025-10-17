@@ -18,7 +18,7 @@
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmfree`](https://gssdataexplorer.norc.org/variables/6220/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmfree`](https://gssdataexplorer.norc.org/variables/6220/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -53,7 +53,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmwhy1`](https://gssdataexplorer.norc.org/variables/6221/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmwhy1`](https://gssdataexplorer.norc.org/variables/6221/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -87,7 +87,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmwhy2`](https://gssdataexplorer.norc.org/variables/6222/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmwhy2`](https://gssdataexplorer.norc.org/variables/6222/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -120,7 +120,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmwhy3`](https://gssdataexplorer.norc.org/variables/6223/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmwhy3`](https://gssdataexplorer.norc.org/variables/6223/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -153,7 +153,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmwhy4`](https://gssdataexplorer.norc.org/variables/6224/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmwhy4`](https://gssdataexplorer.norc.org/variables/6224/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -186,7 +186,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmwhy5`](https://gssdataexplorer.norc.org/variables/6225/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmwhy5`](https://gssdataexplorer.norc.org/variables/6225/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -219,7 +219,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmwhy6`](https://gssdataexplorer.norc.org/variables/6226/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmwhy6`](https://gssdataexplorer.norc.org/variables/6226/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -252,7 +252,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmwhy7`](https://gssdataexplorer.norc.org/variables/6227/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmwhy7`](https://gssdataexplorer.norc.org/variables/6227/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmwhy8`](https://gssdataexplorer.norc.org/variables/6228/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmwhy8`](https://gssdataexplorer.norc.org/variables/6228/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -317,7 +317,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prfmwhy9`](https://gssdataexplorer.norc.org/variables/6229/vshow).
+#' For further details see the [GSS Data Explorer page for `prfmwhy9`](https://gssdataexplorer.norc.org/variables/6229/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

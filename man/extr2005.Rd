@@ -30,14 +30,12 @@ Question Did you receive any of these performance-based payments in the year 200
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3553/vshow}{GSS Data Explorer page for \code{extr2005}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3553/vshow}{GSS Data Explorer page for \code{extr2005}}.
 }
 
 \seealso{
 Other Shared Capitalism: 
-\code{\link{buyvalue}},
 \code{\link{compwage}},
-\code{\link{defpensn}},
 \code{\link{empinput}},
 \code{\link{emptrain}},
 \code{\link{esop}},
@@ -45,7 +43,6 @@ Other Shared Capitalism:
 \code{\link{ops2005}},
 \code{\link{slfmangd}},
 \code{\link{talkteam}},
-\code{\link{trdestck}},
 \code{\link{wealth}}
 }
 \concept{Shared Capitalism}

@@ -18,7 +18,7 @@
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `upgrade`](https://gssdataexplorer.norc.org/variables/820/vshow).
+#' For further details see the [GSS Data Explorer page for `upgrade`](https://gssdataexplorer.norc.org/variables/820/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobtrain`](https://gssdataexplorer.norc.org/variables/821/vshow).
+#' For further details see the [GSS Data Explorer page for `jobtrain`](https://gssdataexplorer.norc.org/variables/821/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nukewar`](https://gssdataexplorer.norc.org/variables/822/vshow).
+#' For further details see the [GSS Data Explorer page for `nukewar`](https://gssdataexplorer.norc.org/variables/822/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -120,7 +120,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `landwar`](https://gssdataexplorer.norc.org/variables/823/vshow).
+#' For further details see the [GSS Data Explorer page for `landwar`](https://gssdataexplorer.norc.org/variables/823/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -155,7 +155,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `morenuke`](https://gssdataexplorer.norc.org/variables/824/vshow).
+#' For further details see the [GSS Data Explorer page for `morenuke`](https://gssdataexplorer.norc.org/variables/824/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lessnuke`](https://gssdataexplorer.norc.org/variables/825/vshow).
+#' For further details see the [GSS Data Explorer page for `lessnuke`](https://gssdataexplorer.norc.org/variables/825/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -225,7 +225,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nonuke`](https://gssdataexplorer.norc.org/variables/826/vshow).
+#' For further details see the [GSS Data Explorer page for `nonuke`](https://gssdataexplorer.norc.org/variables/826/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -260,7 +260,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `guerilla`](https://gssdataexplorer.norc.org/variables/827/vshow).
+#' For further details see the [GSS Data Explorer page for `guerilla`](https://gssdataexplorer.norc.org/variables/827/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vetaid`](https://gssdataexplorer.norc.org/variables/828/vshow).
+#' For further details see the [GSS Data Explorer page for `vetaid`](https://gssdataexplorer.norc.org/variables/828/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `defwrkev`](https://gssdataexplorer.norc.org/variables/829/vshow).
+#' For further details see the [GSS Data Explorer page for `defwrkev`](https://gssdataexplorer.norc.org/variables/829/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

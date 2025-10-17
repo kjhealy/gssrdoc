@@ -41,7 +41,7 @@
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `satfam`](https://gssdataexplorer.norc.org/variables/445/vshow).
+#' For further details see the [GSS Data Explorer page for `satfam`](https://gssdataexplorer.norc.org/variables/445/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -96,7 +96,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `satfrnd`](https://gssdataexplorer.norc.org/variables/446/vshow).
+#' For further details see the [GSS Data Explorer page for `satfrnd`](https://gssdataexplorer.norc.org/variables/446/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sathealt`](https://gssdataexplorer.norc.org/variables/447/vshow).
+#' For further details see the [GSS Data Explorer page for `sathealt`](https://gssdataexplorer.norc.org/variables/447/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -216,7 +216,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `confinan`](https://gssdataexplorer.norc.org/variables/448/vshow).
+#' For further details see the [GSS Data Explorer page for `confinan`](https://gssdataexplorer.norc.org/variables/448/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -283,7 +283,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conbus`](https://gssdataexplorer.norc.org/variables/449/vshow).
+#' For further details see the [GSS Data Explorer page for `conbus`](https://gssdataexplorer.norc.org/variables/449/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -350,7 +350,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conclerg`](https://gssdataexplorer.norc.org/variables/450/vshow).
+#' For further details see the [GSS Data Explorer page for `conclerg`](https://gssdataexplorer.norc.org/variables/450/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -417,7 +417,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `coneduc`](https://gssdataexplorer.norc.org/variables/451/vshow).
+#' For further details see the [GSS Data Explorer page for `coneduc`](https://gssdataexplorer.norc.org/variables/451/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -484,7 +484,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `confed`](https://gssdataexplorer.norc.org/variables/452/vshow).
+#' For further details see the [GSS Data Explorer page for `confed`](https://gssdataexplorer.norc.org/variables/452/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -551,7 +551,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conlabor`](https://gssdataexplorer.norc.org/variables/453/vshow).
+#' For further details see the [GSS Data Explorer page for `conlabor`](https://gssdataexplorer.norc.org/variables/453/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -618,7 +618,7 @@ NULL
 #'  |2024 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conpress`](https://gssdataexplorer.norc.org/variables/454/vshow).
+#' For further details see the [GSS Data Explorer page for `conpress`](https://gssdataexplorer.norc.org/variables/454/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

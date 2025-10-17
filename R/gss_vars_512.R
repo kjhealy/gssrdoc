@@ -25,7 +25,7 @@
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `egomeans`](https://gssdataexplorer.norc.org/variables/4662/vshow).
+#' For further details see the [GSS Data Explorer page for `egomeans`](https://gssdataexplorer.norc.org/variables/4662/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -62,7 +62,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ownfate`](https://gssdataexplorer.norc.org/variables/4663/vshow).
+#' For further details see the [GSS Data Explorer page for `ownfate`](https://gssdataexplorer.norc.org/variables/4663/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -99,7 +99,7 @@ NULL
 #'  |2010 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relexper`](https://gssdataexplorer.norc.org/variables/4664/vshow).
+#' For further details see the [GSS Data Explorer page for `relexper`](https://gssdataexplorer.norc.org/variables/4664/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -144,7 +144,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marelkid`](https://gssdataexplorer.norc.org/variables/4665/vshow).
+#' For further details see the [GSS Data Explorer page for `marelkid`](https://gssdataexplorer.norc.org/variables/4665/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -418,7 +418,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madenkid`](https://gssdataexplorer.norc.org/variables/4666/vshow).
+#' For further details see the [GSS Data Explorer page for `madenkid`](https://gssdataexplorer.norc.org/variables/4666/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -463,7 +463,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `parelkid`](https://gssdataexplorer.norc.org/variables/4667/vshow).
+#' For further details see the [GSS Data Explorer page for `parelkid`](https://gssdataexplorer.norc.org/variables/4667/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -737,7 +737,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `padenkid`](https://gssdataexplorer.norc.org/variables/4668/vshow).
+#' For further details see the [GSS Data Explorer page for `padenkid`](https://gssdataexplorer.norc.org/variables/4668/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -782,7 +782,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `religkid`](https://gssdataexplorer.norc.org/variables/4669/vshow).
+#' For further details see the [GSS Data Explorer page for `religkid`](https://gssdataexplorer.norc.org/variables/4669/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1056,7 +1056,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `denkid`](https://gssdataexplorer.norc.org/variables/4670/vshow).
+#' For further details see the [GSS Data Explorer page for `denkid`](https://gssdataexplorer.norc.org/variables/4670/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1095,7 +1095,7 @@ NULL
 #'  |2008 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `religsp`](https://gssdataexplorer.norc.org/variables/4671/vshow).
+#' For further details see the [GSS Data Explorer page for `religsp`](https://gssdataexplorer.norc.org/variables/4671/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

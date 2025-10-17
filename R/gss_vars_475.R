@@ -22,7 +22,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `corrupt`](https://gssdataexplorer.norc.org/variables/4322/vshow).
+#' For further details see the [GSS Data Explorer page for `corrupt`](https://gssdataexplorer.norc.org/variables/4322/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `earndes`](https://gssdataexplorer.norc.org/variables/4323/vshow).
+#' For further details see the [GSS Data Explorer page for `earndes`](https://gssdataexplorer.norc.org/variables/4323/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -95,7 +95,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ldcgap`](https://gssdataexplorer.norc.org/variables/4324/vshow).
+#' For further details see the [GSS Data Explorer page for `ldcgap`](https://gssdataexplorer.norc.org/variables/4324/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -132,7 +132,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ldctax`](https://gssdataexplorer.norc.org/variables/4325/vshow).
+#' For further details see the [GSS Data Explorer page for `ldctax`](https://gssdataexplorer.norc.org/variables/4325/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -169,7 +169,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `richhlth`](https://gssdataexplorer.norc.org/variables/4326/vshow).
+#' For further details see the [GSS Data Explorer page for `richhlth`](https://gssdataexplorer.norc.org/variables/4326/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -206,7 +206,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `richeduc`](https://gssdataexplorer.norc.org/variables/4327/vshow).
+#' For further details see the [GSS Data Explorer page for `richeduc`](https://gssdataexplorer.norc.org/variables/4327/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -243,7 +243,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payresp`](https://gssdataexplorer.norc.org/variables/4328/vshow).
+#' For further details see the [GSS Data Explorer page for `payresp`](https://gssdataexplorer.norc.org/variables/4328/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -280,7 +280,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payedtrn`](https://gssdataexplorer.norc.org/variables/4329/vshow).
+#' For further details see the [GSS Data Explorer page for `payedtrn`](https://gssdataexplorer.norc.org/variables/4329/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paysup`](https://gssdataexplorer.norc.org/variables/4330/vshow).
+#' For further details see the [GSS Data Explorer page for `paysup`](https://gssdataexplorer.norc.org/variables/4330/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -352,7 +352,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payfam1`](https://gssdataexplorer.norc.org/variables/4331/vshow).
+#' For further details see the [GSS Data Explorer page for `payfam1`](https://gssdataexplorer.norc.org/variables/4331/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

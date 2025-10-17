@@ -25,7 +25,7 @@ Question uscitznv_2122
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org}{GSS Data Explorer page for \code{uscitznv_2122}}.
+For further details see the \href{https://gssdataexplorer.norc.org}{GSS Data Explorer page for \code{uscitznv_2122}}.
 }
 
 \keyword{variable}

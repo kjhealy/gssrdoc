@@ -32,7 +32,7 @@ Question B. On the whole, how satisfied are you with the job you have -- would y
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6645/vshow}{GSS Data Explorer page for \code{satjobhv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6645/vshow}{GSS Data Explorer page for \code{satjobhv}}.
 }
 
 \keyword{variable}

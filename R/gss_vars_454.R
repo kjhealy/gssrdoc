@@ -23,7 +23,7 @@
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relcall`](https://gssdataexplorer.norc.org/variables/4161/vshow).
+#' For further details see the [GSS Data Explorer page for `relcall`](https://gssdataexplorer.norc.org/variables/4161/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frinum`](https://gssdataexplorer.norc.org/variables/4162/vshow).
+#' For further details see the [GSS Data Explorer page for `frinum`](https://gssdataexplorer.norc.org/variables/4162/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -86,7 +86,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `friwork`](https://gssdataexplorer.norc.org/variables/4163/vshow).
+#' For further details see the [GSS Data Explorer page for `friwork`](https://gssdataexplorer.norc.org/variables/4163/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frineigh`](https://gssdataexplorer.norc.org/variables/4164/vshow).
+#' For further details see the [GSS Data Explorer page for `frineigh`](https://gssdataexplorer.norc.org/variables/4164/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frisex`](https://gssdataexplorer.norc.org/variables/4165/vshow).
+#' For further details see the [GSS Data Explorer page for `frisex`](https://gssdataexplorer.norc.org/variables/4165/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -189,7 +189,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frivisit`](https://gssdataexplorer.norc.org/variables/4166/vshow).
+#' For further details see the [GSS Data Explorer page for `frivisit`](https://gssdataexplorer.norc.org/variables/4166/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -228,7 +228,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fritime`](https://gssdataexplorer.norc.org/variables/4167/vshow).
+#' For further details see the [GSS Data Explorer page for `fritime`](https://gssdataexplorer.norc.org/variables/4167/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -265,7 +265,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fricall`](https://gssdataexplorer.norc.org/variables/4168/vshow).
+#' For further details see the [GSS Data Explorer page for `fricall`](https://gssdataexplorer.norc.org/variables/4168/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -315,7 +315,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chores1`](https://gssdataexplorer.norc.org/variables/4169/vshow).
+#' For further details see the [GSS Data Explorer page for `chores1`](https://gssdataexplorer.norc.org/variables/4169/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -362,7 +362,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chores2`](https://gssdataexplorer.norc.org/variables/4170/vshow).
+#' For further details see the [GSS Data Explorer page for `chores2`](https://gssdataexplorer.norc.org/variables/4170/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -32,36 +32,20 @@ E. When I see someone being treated unfairly, I sometimes don't feel very much p
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2874/vshow}{GSS Data Explorer page for \code{empathy5}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2874/vshow}{GSS Data Explorer page for \code{empathy5}}.
 }
 
 \seealso{
 Other Altruism: 
-\code{\link{accptoth}},
-\code{\link{careself}},
-\code{\link{carried}},
 \code{\link{cutahead}},
-\code{\link{directns}},
-\code{\link{empathy1}},
-\code{\link{empathy2}},
-\code{\link{empathy3}},
-\code{\link{empathy4}},
 \code{\link{empathy6}},
 \code{\link{empathy7}},
 \code{\link{givblood}},
 \code{\link{givchrty}},
 \code{\link{givhmlss}},
 \code{\link{givseat}},
-\code{\link{helpaway}},
-\code{\link{loanitem}},
-\code{\link{othshelp}},
-\code{\link{peoptrbl}},
 \code{\link{retchnge}},
-\code{\link{selffrst}},
-\code{\link{selfless}},
-\code{\link{valgiven}},
-\code{\link{volchrty}},
-\code{\link{volmonth}}
+\code{\link{volchrty}}
 }
 \concept{Altruism}
 \keyword{variable}

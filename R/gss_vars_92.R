@@ -19,7 +19,7 @@
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `defwrknw`](https://gssdataexplorer.norc.org/variables/830/vshow).
+#' For further details see the [GSS Data Explorer page for `defwrknw`](https://gssdataexplorer.norc.org/variables/830/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -51,7 +51,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `milwrkev`](https://gssdataexplorer.norc.org/variables/831/vshow).
+#' For further details see the [GSS Data Explorer page for `milwrkev`](https://gssdataexplorer.norc.org/variables/831/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -84,7 +84,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `milwrknw`](https://gssdataexplorer.norc.org/variables/832/vshow).
+#' For further details see the [GSS Data Explorer page for `milwrknw`](https://gssdataexplorer.norc.org/variables/832/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -117,7 +117,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `resdefwk`](https://gssdataexplorer.norc.org/variables/833/vshow).
+#' For further details see the [GSS Data Explorer page for `resdefwk`](https://gssdataexplorer.norc.org/variables/833/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -152,7 +152,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obvote`](https://gssdataexplorer.norc.org/variables/834/vshow).
+#' For further details see the [GSS Data Explorer page for `obvote`](https://gssdataexplorer.norc.org/variables/834/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obvol`](https://gssdataexplorer.norc.org/variables/835/vshow).
+#' For further details see the [GSS Data Explorer page for `obvol`](https://gssdataexplorer.norc.org/variables/835/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -222,7 +222,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `objury`](https://gssdataexplorer.norc.org/variables/836/vshow).
+#' For further details see the [GSS Data Explorer page for `objury`](https://gssdataexplorer.norc.org/variables/836/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -257,7 +257,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ob911`](https://gssdataexplorer.norc.org/variables/837/vshow).
+#' For further details see the [GSS Data Explorer page for `ob911`](https://gssdataexplorer.norc.org/variables/837/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obeng`](https://gssdataexplorer.norc.org/variables/838/vshow).
+#' For further details see the [GSS Data Explorer page for `obeng`](https://gssdataexplorer.norc.org/variables/838/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -327,7 +327,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obknow`](https://gssdataexplorer.norc.org/variables/839/vshow).
+#' For further details see the [GSS Data Explorer page for `obknow`](https://gssdataexplorer.norc.org/variables/839/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

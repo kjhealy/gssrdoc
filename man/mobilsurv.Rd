@@ -32,7 +32,7 @@ Question (Do you think the United States government should or should not have th
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7842/vshow}{GSS Data Explorer page for \code{mobilsurv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7842/vshow}{GSS Data Explorer page for \code{mobilsurv}}.
 }
 
 \keyword{variable}

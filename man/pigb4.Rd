@@ -30,7 +30,7 @@ Question Past pet - Pig
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7217/vshow}{GSS Data Explorer page for \code{pigb4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7217/vshow}{GSS Data Explorer page for \code{pigb4}}.
 }
 
 \keyword{variable}

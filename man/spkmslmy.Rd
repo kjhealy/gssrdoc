@@ -32,7 +32,7 @@ Question Now consider a Islamic religious leader who preaches hatred of the Unit
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7445/vshow}{GSS Data Explorer page for \code{spkmslmy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7445/vshow}{GSS Data Explorer page for \code{spkmslmy}}.
 }
 
 \keyword{variable}

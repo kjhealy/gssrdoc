@@ -20,7 +20,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `believe`](https://gssdataexplorer.norc.org/variables/1090/vshow).
+#' For further details see the [GSS Data Explorer page for `believe`](https://gssdataexplorer.norc.org/variables/1090/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `follow`](https://gssdataexplorer.norc.org/variables/1091/vshow).
+#' For further details see the [GSS Data Explorer page for `follow`](https://gssdataexplorer.norc.org/variables/1091/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `goownway`](https://gssdataexplorer.norc.org/variables/1092/vshow).
+#' For further details see the [GSS Data Explorer page for `goownway`](https://gssdataexplorer.norc.org/variables/1092/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `myfaith`](https://gssdataexplorer.norc.org/variables/1093/vshow).
+#' For further details see the [GSS Data Explorer page for `myfaith`](https://gssdataexplorer.norc.org/variables/1093/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `madatgod`](https://gssdataexplorer.norc.org/variables/1094/vshow).
+#' For further details see the [GSS Data Explorer page for `madatgod`](https://gssdataexplorer.norc.org/variables/1094/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -191,7 +191,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `doubts1`](https://gssdataexplorer.norc.org/variables/1095/vshow).
+#' For further details see the [GSS Data Explorer page for `doubts1`](https://gssdataexplorer.norc.org/variables/1095/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -226,7 +226,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `doubts2`](https://gssdataexplorer.norc.org/variables/1096/vshow).
+#' For further details see the [GSS Data Explorer page for `doubts2`](https://gssdataexplorer.norc.org/variables/1096/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -260,7 +260,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `doubts3`](https://gssdataexplorer.norc.org/variables/1097/vshow).
+#' For further details see the [GSS Data Explorer page for `doubts3`](https://gssdataexplorer.norc.org/variables/1097/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -294,7 +294,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `doubts4`](https://gssdataexplorer.norc.org/variables/1098/vshow).
+#' For further details see the [GSS Data Explorer page for `doubts4`](https://gssdataexplorer.norc.org/variables/1098/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -329,7 +329,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `faith1`](https://gssdataexplorer.norc.org/variables/1099/vshow).
+#' For further details see the [GSS Data Explorer page for `faith1`](https://gssdataexplorer.norc.org/variables/1099/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

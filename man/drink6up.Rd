@@ -36,19 +36,15 @@ Question Now I would like to ask you some questions about your use of alcoholic 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3100/vshow}{GSS Data Explorer page for \code{drink6up}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3100/vshow}{GSS Data Explorer page for \code{drink6up}}.
 }
 
 \seealso{
 Other Women & Alcohol: 
-\code{\link{drink1}},
 \code{\link{drink12}},
-\code{\link{drink3}},
-\code{\link{drink5}},
 \code{\link{drink8}},
 \code{\link{drinkday}},
 \code{\link{drinkmax}},
-\code{\link{drinkmin}},
 \code{\link{drinkyr}},
 \code{\link{evdrink}}
 }

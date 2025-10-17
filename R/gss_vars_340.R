@@ -21,7 +21,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `moregood`](https://gssdataexplorer.norc.org/variables/3044/vshow).
+#' For further details see the [GSS Data Explorer page for `moregood`](https://gssdataexplorer.norc.org/variables/3044/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `owndoing`](https://gssdataexplorer.norc.org/variables/3045/vshow).
+#' For further details see the [GSS Data Explorer page for `owndoing`](https://gssdataexplorer.norc.org/variables/3045/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `geneexps`](https://gssdataexplorer.norc.org/variables/3046/vshow).
+#' For further details see the [GSS Data Explorer page for `geneexps`](https://gssdataexplorer.norc.org/variables/3046/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -125,7 +125,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `depndabl`](https://gssdataexplorer.norc.org/variables/3047/vshow).
+#' For further details see the [GSS Data Explorer page for `depndabl`](https://gssdataexplorer.norc.org/variables/3047/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -162,7 +162,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sadblue`](https://gssdataexplorer.norc.org/variables/3048/vshow).
+#' For further details see the [GSS Data Explorer page for `sadblue`](https://gssdataexplorer.norc.org/variables/3048/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -199,7 +199,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `athletic`](https://gssdataexplorer.norc.org/variables/3049/vshow).
+#' For further details see the [GSS Data Explorer page for `athletic`](https://gssdataexplorer.norc.org/variables/3049/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -236,7 +236,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kindpers`](https://gssdataexplorer.norc.org/variables/3050/vshow).
+#' For further details see the [GSS Data Explorer page for `kindpers`](https://gssdataexplorer.norc.org/variables/3050/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -273,7 +273,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `selfish`](https://gssdataexplorer.norc.org/variables/3051/vshow).
+#' For further details see the [GSS Data Explorer page for `selfish`](https://gssdataexplorer.norc.org/variables/3051/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intrwght`](https://gssdataexplorer.norc.org/variables/3052/vshow).
+#' For further details see the [GSS Data Explorer page for `intrwght`](https://gssdataexplorer.norc.org/variables/3052/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -343,7 +343,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agape1`](https://gssdataexplorer.norc.org/variables/3053/vshow).
+#' For further details see the [GSS Data Explorer page for `agape1`](https://gssdataexplorer.norc.org/variables/3053/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

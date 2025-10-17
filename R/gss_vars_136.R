@@ -21,7 +21,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `orgfin`](https://gssdataexplorer.norc.org/variables/1270/vshow).
+#' For further details see the [GSS Data Explorer page for `orgfin`](https://gssdataexplorer.norc.org/variables/1270/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkyears`](https://gssdataexplorer.norc.org/variables/1271/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkyears`](https://gssdataexplorer.norc.org/variables/1271/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evunemp`](https://gssdataexplorer.norc.org/variables/1272/vshow).
+#' For further details see the [GSS Data Explorer page for `evunemp`](https://gssdataexplorer.norc.org/variables/1272/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -116,7 +116,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `numunemp`](https://gssdataexplorer.norc.org/variables/1273/vshow).
+#' For further details see the [GSS Data Explorer page for `numunemp`](https://gssdataexplorer.norc.org/variables/1273/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -150,7 +150,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `totunemp`](https://gssdataexplorer.norc.org/variables/1274/vshow).
+#' For further details see the [GSS Data Explorer page for `totunemp`](https://gssdataexplorer.norc.org/variables/1274/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -181,7 +181,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `empyears`](https://gssdataexplorer.norc.org/variables/1275/vshow).
+#' For further details see the [GSS Data Explorer page for `empyears`](https://gssdataexplorer.norc.org/variables/1275/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fndjob1`](https://gssdataexplorer.norc.org/variables/1276/vshow).
+#' For further details see the [GSS Data Explorer page for `fndjob1`](https://gssdataexplorer.norc.org/variables/1276/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,7 +247,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fndjob2`](https://gssdataexplorer.norc.org/variables/1277/vshow).
+#' For further details see the [GSS Data Explorer page for `fndjob2`](https://gssdataexplorer.norc.org/variables/1277/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -280,7 +280,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fndjob3`](https://gssdataexplorer.norc.org/variables/1278/vshow).
+#' For further details see the [GSS Data Explorer page for `fndjob3`](https://gssdataexplorer.norc.org/variables/1278/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -313,7 +313,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fndjob4`](https://gssdataexplorer.norc.org/variables/1279/vshow).
+#' For further details see the [GSS Data Explorer page for `fndjob4`](https://gssdataexplorer.norc.org/variables/1279/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

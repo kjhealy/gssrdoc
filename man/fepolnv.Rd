@@ -33,7 +33,7 @@ Question Please indicate if you agree or disagree with this statement: Most men 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7622/vshow}{GSS Data Explorer page for \code{fepolnv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7622/vshow}{GSS Data Explorer page for \code{fepolnv}}.
 }
 
 \keyword{variable}

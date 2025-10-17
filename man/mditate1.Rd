@@ -35,7 +35,7 @@ Question How often do you meditate?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7537/vshow}{GSS Data Explorer page for \code{mditate1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7537/vshow}{GSS Data Explorer page for \code{mditate1}}.
 }
 
 \keyword{variable}

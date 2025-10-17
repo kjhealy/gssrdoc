@@ -31,7 +31,7 @@ Question Do you think the number of immigrants from Latin America who are permit
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8005/vshow}{GSS Data Explorer page for \code{letinhsp1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8005/vshow}{GSS Data Explorer page for \code{letinhsp1}}.
 }
 
 \keyword{variable}

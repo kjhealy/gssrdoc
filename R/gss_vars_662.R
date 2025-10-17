@@ -23,7 +23,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vaxhstncy`](https://gssdataexplorer.norc.org/variables/7948/vshow).
+#' For further details see the [GSS Data Explorer page for `vaxhstncy`](https://gssdataexplorer.norc.org/variables/7948/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vaxkids`](https://gssdataexplorer.norc.org/variables/7949/vshow).
+#' For further details see the [GSS Data Explorer page for `vaxkids`](https://gssdataexplorer.norc.org/variables/7949/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vaxsafe`](https://gssdataexplorer.norc.org/variables/7950/vshow).
+#' For further details see the [GSS Data Explorer page for `vaxsafe`](https://gssdataexplorer.norc.org/variables/7950/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -131,7 +131,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fluvax`](https://gssdataexplorer.norc.org/variables/7951/vshow).
+#' For further details see the [GSS Data Explorer page for `fluvax`](https://gssdataexplorer.norc.org/variables/7951/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -165,7 +165,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `covid12`](https://gssdataexplorer.norc.org/variables/7952/vshow).
+#' For further details see the [GSS Data Explorer page for `covid12`](https://gssdataexplorer.norc.org/variables/7952/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -203,7 +203,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `covemply`](https://gssdataexplorer.norc.org/variables/7953/vshow).
+#' For further details see the [GSS Data Explorer page for `covemply`](https://gssdataexplorer.norc.org/variables/7953/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pandinc`](https://gssdataexplorer.norc.org/variables/7954/vshow).
+#' For further details see the [GSS Data Explorer page for `pandinc`](https://gssdataexplorer.norc.org/variables/7954/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -277,7 +277,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pandmet`](https://gssdataexplorer.norc.org/variables/7955/vshow).
+#' For further details see the [GSS Data Explorer page for `pandmet`](https://gssdataexplorer.norc.org/variables/7955/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `biokids`](https://gssdataexplorer.norc.org/variables/7956/vshow).
+#' For further details see the [GSS Data Explorer page for `biokids`](https://gssdataexplorer.norc.org/variables/7956/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -343,7 +343,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `malekids`](https://gssdataexplorer.norc.org/variables/7957/vshow).
+#' For further details see the [GSS Data Explorer page for `malekids`](https://gssdataexplorer.norc.org/variables/7957/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

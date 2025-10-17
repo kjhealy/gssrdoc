@@ -33,7 +33,7 @@ Question How willing would you be to accept a reduction in the size of Americaâ
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7489/vshow}{GSS Data Explorer page for \code{naturdev}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7489/vshow}{GSS Data Explorer page for \code{naturdev}}.
 }
 
 \keyword{variable}

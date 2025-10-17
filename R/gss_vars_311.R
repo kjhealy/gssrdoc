@@ -22,7 +22,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `physhlth`](https://gssdataexplorer.norc.org/variables/2827/vshow).
+#' For further details see the [GSS Data Explorer page for `physhlth`](https://gssdataexplorer.norc.org/variables/2827/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -61,7 +61,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mntlhlth`](https://gssdataexplorer.norc.org/variables/2828/vshow).
+#' For further details see the [GSS Data Explorer page for `mntlhlth`](https://gssdataexplorer.norc.org/variables/2828/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -98,7 +98,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthdays`](https://gssdataexplorer.norc.org/variables/2829/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthdays`](https://gssdataexplorer.norc.org/variables/2829/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -138,7 +138,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `usedup`](https://gssdataexplorer.norc.org/variables/2830/vshow).
+#' For further details see the [GSS Data Explorer page for `usedup`](https://gssdataexplorer.norc.org/variables/2830/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -175,7 +175,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `backpain`](https://gssdataexplorer.norc.org/variables/2831/vshow).
+#' For further details see the [GSS Data Explorer page for `backpain`](https://gssdataexplorer.norc.org/variables/2831/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -212,7 +212,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `painarms`](https://gssdataexplorer.norc.org/variables/2832/vshow).
+#' For further details see the [GSS Data Explorer page for `painarms`](https://gssdataexplorer.norc.org/variables/2832/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -248,7 +248,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hurtatwk`](https://gssdataexplorer.norc.org/variables/2833/vshow).
+#' For further details see the [GSS Data Explorer page for `hurtatwk`](https://gssdataexplorer.norc.org/variables/2833/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spvtrfair`](https://gssdataexplorer.norc.org/variables/2834/vshow).
+#' For further details see the [GSS Data Explorer page for `spvtrfair`](https://gssdataexplorer.norc.org/variables/2834/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -320,7 +320,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `strredpg`](https://gssdataexplorer.norc.org/variables/2835/vshow).
+#' For further details see the [GSS Data Explorer page for `strredpg`](https://gssdataexplorer.norc.org/variables/2835/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -358,7 +358,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `phyeffrt`](https://gssdataexplorer.norc.org/variables/2836/vshow).
+#' For further details see the [GSS Data Explorer page for `phyeffrt`](https://gssdataexplorer.norc.org/variables/2836/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

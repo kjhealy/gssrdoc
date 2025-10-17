@@ -33,7 +33,7 @@ Question How successful do you think the government in America is nowadays in re
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7508/vshow}{GSS Data Explorer page for \code{govineq2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7508/vshow}{GSS Data Explorer page for \code{govineq2}}.
 }
 
 \keyword{variable}

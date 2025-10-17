@@ -32,7 +32,7 @@ Question How long have you lived in the United States? If you have lived in the 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7298/vshow}{GSS Data Explorer page for \code{mnthsusa}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7298/vshow}{GSS Data Explorer page for \code{mnthsusa}}.
 }
 
 \keyword{variable}

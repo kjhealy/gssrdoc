@@ -38,7 +38,7 @@ Question Think about your adult child you have contact with most frequently: How
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7267/vshow}{GSS Data Explorer page for \code{cntctkid}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7267/vshow}{GSS Data Explorer page for \code{cntctkid}}.
 }
 
 \keyword{variable}

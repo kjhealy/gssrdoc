@@ -20,7 +20,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `patrblks`](https://gssdataexplorer.norc.org/variables/1210/vshow).
+#' For further details see the [GSS Data Explorer page for `patrblks`](https://gssdataexplorer.norc.org/variables/1210/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `patrasns`](https://gssdataexplorer.norc.org/variables/1211/vshow).
+#' For further details see the [GSS Data Explorer page for `patrasns`](https://gssdataexplorer.norc.org/variables/1211/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `patrhsps`](https://gssdataexplorer.norc.org/variables/1212/vshow).
+#' For further details see the [GSS Data Explorer page for `patrhsps`](https://gssdataexplorer.norc.org/variables/1212/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `patrso`](https://gssdataexplorer.norc.org/variables/1213/vshow).
+#' For further details see the [GSS Data Explorer page for `patrso`](https://gssdataexplorer.norc.org/variables/1213/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -159,7 +159,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `livejews`](https://gssdataexplorer.norc.org/variables/1214/vshow).
+#' For further details see the [GSS Data Explorer page for `livejews`](https://gssdataexplorer.norc.org/variables/1214/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -210,7 +210,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `liveblks`](https://gssdataexplorer.norc.org/variables/1215/vshow).
+#' For further details see the [GSS Data Explorer page for `liveblks`](https://gssdataexplorer.norc.org/variables/1215/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,7 +247,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `liveasns`](https://gssdataexplorer.norc.org/variables/1216/vshow).
+#' For further details see the [GSS Data Explorer page for `liveasns`](https://gssdataexplorer.norc.org/variables/1216/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -284,7 +284,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `livehsps`](https://gssdataexplorer.norc.org/variables/1217/vshow).
+#' For further details see the [GSS Data Explorer page for `livehsps`](https://gssdataexplorer.norc.org/variables/1217/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -321,7 +321,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `liveno`](https://gssdataexplorer.norc.org/variables/1218/vshow).
+#' For further details see the [GSS Data Explorer page for `liveno`](https://gssdataexplorer.norc.org/variables/1218/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -357,7 +357,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `liveso`](https://gssdataexplorer.norc.org/variables/1219/vshow).
+#' For further details see the [GSS Data Explorer page for `liveso`](https://gssdataexplorer.norc.org/variables/1219/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

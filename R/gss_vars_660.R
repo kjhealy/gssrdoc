@@ -20,7 +20,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16sib`](https://gssdataexplorer.norc.org/variables/7926/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16sib`](https://gssdataexplorer.norc.org/variables/7926/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16grand`](https://gssdataexplorer.norc.org/variables/7924/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16grand`](https://gssdataexplorer.norc.org/variables/7924/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16oth`](https://gssdataexplorer.norc.org/variables/7927/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16oth`](https://gssdataexplorer.norc.org/variables/7927/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -121,7 +121,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16spnum`](https://gssdataexplorer.norc.org/variables/7928/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16spnum`](https://gssdataexplorer.norc.org/variables/7928/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16partnum`](https://gssdataexplorer.norc.org/variables/7929/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16partnum`](https://gssdataexplorer.norc.org/variables/7929/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16dadnum`](https://gssdataexplorer.norc.org/variables/7930/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16dadnum`](https://gssdataexplorer.norc.org/variables/7930/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -220,7 +220,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16momnum`](https://gssdataexplorer.norc.org/variables/7931/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16momnum`](https://gssdataexplorer.norc.org/variables/7931/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -253,7 +253,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16filnum`](https://gssdataexplorer.norc.org/variables/7932/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16filnum`](https://gssdataexplorer.norc.org/variables/7932/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -286,7 +286,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16milnum`](https://gssdataexplorer.norc.org/variables/7933/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16milnum`](https://gssdataexplorer.norc.org/variables/7933/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16gmanum`](https://gssdataexplorer.norc.org/variables/7934/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16gmanum`](https://gssdataexplorer.norc.org/variables/7934/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

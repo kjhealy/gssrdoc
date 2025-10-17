@@ -32,7 +32,7 @@ If you have roommates, please include them. Please also include those who usuall
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7983/vshow}{GSS Data Explorer page for \code{adults_exp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7983/vshow}{GSS Data Explorer page for \code{adults_exp}}.
 }
 
 \keyword{variable}

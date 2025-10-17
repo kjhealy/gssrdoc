@@ -31,7 +31,7 @@ IF ASKED: Performance-based pay means individual or group bonuses, commissions, 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7223/vshow}{GSS Data Explorer page for \code{extr2017}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7223/vshow}{GSS Data Explorer page for \code{extr2017}}.
 }
 
 \keyword{variable}

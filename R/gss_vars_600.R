@@ -39,7 +39,7 @@
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `japan`](https://gssdataexplorer.norc.org/variables/5491/vshow).
+#' For further details see the [GSS Data Explorer page for `japan`](https://gssdataexplorer.norc.org/variables/5491/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `england`](https://gssdataexplorer.norc.org/variables/5492/vshow).
+#' For further details see the [GSS Data Explorer page for `england`](https://gssdataexplorer.norc.org/variables/5492/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -138,7 +138,7 @@ NULL
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `canada`](https://gssdataexplorer.norc.org/variables/5493/vshow).
+#' For further details see the [GSS Data Explorer page for `canada`](https://gssdataexplorer.norc.org/variables/5493/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brazil`](https://gssdataexplorer.norc.org/variables/5494/vshow).
+#' For further details see the [GSS Data Explorer page for `brazil`](https://gssdataexplorer.norc.org/variables/5494/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -237,7 +237,7 @@ NULL
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `china`](https://gssdataexplorer.norc.org/variables/5495/vshow).
+#' For further details see the [GSS Data Explorer page for `china`](https://gssdataexplorer.norc.org/variables/5495/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -290,7 +290,7 @@ NULL
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `israel`](https://gssdataexplorer.norc.org/variables/5496/vshow).
+#' For further details see the [GSS Data Explorer page for `israel`](https://gssdataexplorer.norc.org/variables/5496/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -343,7 +343,7 @@ NULL
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `egypt`](https://gssdataexplorer.norc.org/variables/5497/vshow).
+#' For further details see the [GSS Data Explorer page for `egypt`](https://gssdataexplorer.norc.org/variables/5497/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -379,7 +379,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `welfare1`](https://gssdataexplorer.norc.org/variables/5498/vshow).
+#' For further details see the [GSS Data Explorer page for `welfare1`](https://gssdataexplorer.norc.org/variables/5498/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -415,7 +415,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `welfare2`](https://gssdataexplorer.norc.org/variables/5499/vshow).
+#' For further details see the [GSS Data Explorer page for `welfare2`](https://gssdataexplorer.norc.org/variables/5499/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -451,7 +451,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `welfare3`](https://gssdataexplorer.norc.org/variables/5500/vshow).
+#' For further details see the [GSS Data Explorer page for `welfare3`](https://gssdataexplorer.norc.org/variables/5500/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

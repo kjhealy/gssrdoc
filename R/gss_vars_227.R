@@ -24,7 +24,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `privpray`](https://gssdataexplorer.norc.org/variables/2090/vshow).
+#' For further details see the [GSS Data Explorer page for `privpray`](https://gssdataexplorer.norc.org/variables/2090/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -62,7 +62,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `meditate`](https://gssdataexplorer.norc.org/variables/2091/vshow).
+#' For further details see the [GSS Data Explorer page for `meditate`](https://gssdataexplorer.norc.org/variables/2091/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -96,7 +96,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conghlp1`](https://gssdataexplorer.norc.org/variables/2092/vshow).
+#' For further details see the [GSS Data Explorer page for `conghlp1`](https://gssdataexplorer.norc.org/variables/2092/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conghlp2`](https://gssdataexplorer.norc.org/variables/2093/vshow).
+#' For further details see the [GSS Data Explorer page for `conghlp2`](https://gssdataexplorer.norc.org/variables/2093/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -164,7 +164,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conghrm1`](https://gssdataexplorer.norc.org/variables/2094/vshow).
+#' For further details see the [GSS Data Explorer page for `conghrm1`](https://gssdataexplorer.norc.org/variables/2094/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -198,7 +198,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conghrm2`](https://gssdataexplorer.norc.org/variables/2095/vshow).
+#' For further details see the [GSS Data Explorer page for `conghrm2`](https://gssdataexplorer.norc.org/variables/2095/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -233,7 +233,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cope1`](https://gssdataexplorer.norc.org/variables/2096/vshow).
+#' For further details see the [GSS Data Explorer page for `cope1`](https://gssdataexplorer.norc.org/variables/2096/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cope2`](https://gssdataexplorer.norc.org/variables/2097/vshow).
+#' For further details see the [GSS Data Explorer page for `cope2`](https://gssdataexplorer.norc.org/variables/2097/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -303,7 +303,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cope3`](https://gssdataexplorer.norc.org/variables/2098/vshow).
+#' For further details see the [GSS Data Explorer page for `cope3`](https://gssdataexplorer.norc.org/variables/2098/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cope4`](https://gssdataexplorer.norc.org/variables/2099/vshow).
+#' For further details see the [GSS Data Explorer page for `cope4`](https://gssdataexplorer.norc.org/variables/2099/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

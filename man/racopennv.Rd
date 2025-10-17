@@ -33,7 +33,7 @@ Question Suppose there is a community-wide vote on the general housing issue. Th
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7608/vshow}{GSS Data Explorer page for \code{racopennv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7608/vshow}{GSS Data Explorer page for \code{racopennv}}.
 }
 
 \keyword{variable}

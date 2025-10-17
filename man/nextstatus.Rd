@@ -29,7 +29,7 @@ Question FLAG INDICATING WHETHER OR NOT THE RESPONDENT PARTICIPATED IN THE GSS N
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7962/vshow}{GSS Data Explorer page for \code{nextstatus}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7962/vshow}{GSS Data Explorer page for \code{nextstatus}}.
 }
 
 \keyword{variable}

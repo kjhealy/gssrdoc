@@ -32,7 +32,7 @@ Question How many languages do you speak well enough to hold a conversation in, 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7277/vshow}{GSS Data Explorer page for \code{numlangs}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7277/vshow}{GSS Data Explorer page for \code{numlangs}}.
 }
 
 \keyword{variable}

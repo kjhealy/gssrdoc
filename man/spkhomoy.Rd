@@ -30,7 +30,7 @@ Question And what about a gay person? Suppose this gay person wanted to make a s
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7443/vshow}{GSS Data Explorer page for \code{spkhomoy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7443/vshow}{GSS Data Explorer page for \code{spkhomoy}}.
 }
 
 \keyword{variable}

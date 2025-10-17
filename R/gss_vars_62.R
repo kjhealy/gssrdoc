@@ -42,7 +42,7 @@
 #'  |2014 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobhour`](https://gssdataexplorer.norc.org/variables/552/vshow).
+#' For further details see the [GSS Data Explorer page for `jobhour`](https://gssdataexplorer.norc.org/variables/552/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -98,7 +98,7 @@ NULL
 #'  |2014 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobpromo`](https://gssdataexplorer.norc.org/variables/553/vshow).
+#' For further details see the [GSS Data Explorer page for `jobpromo`](https://gssdataexplorer.norc.org/variables/553/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |2014 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobmeans`](https://gssdataexplorer.norc.org/variables/554/vshow).
+#' For further details see the [GSS Data Explorer page for `jobmeans`](https://gssdataexplorer.norc.org/variables/554/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobkeep`](https://gssdataexplorer.norc.org/variables/555/vshow).
+#' For further details see the [GSS Data Explorer page for `jobkeep`](https://gssdataexplorer.norc.org/variables/555/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobpay`](https://gssdataexplorer.norc.org/variables/556/vshow).
+#' For further details see the [GSS Data Explorer page for `jobpay`](https://gssdataexplorer.norc.org/variables/556/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobrise`](https://gssdataexplorer.norc.org/variables/557/vshow).
+#' For further details see the [GSS Data Explorer page for `jobrise`](https://gssdataexplorer.norc.org/variables/557/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobhonor`](https://gssdataexplorer.norc.org/variables/558/vshow).
+#' For further details see the [GSS Data Explorer page for `jobhonor`](https://gssdataexplorer.norc.org/variables/558/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -323,7 +323,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `joboff`](https://gssdataexplorer.norc.org/variables/559/vshow).
+#' For further details see the [GSS Data Explorer page for `joboff`](https://gssdataexplorer.norc.org/variables/559/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -357,7 +357,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobinter`](https://gssdataexplorer.norc.org/variables/560/vshow).
+#' For further details see the [GSS Data Explorer page for `jobinter`](https://gssdataexplorer.norc.org/variables/560/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -391,7 +391,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobindep`](https://gssdataexplorer.norc.org/variables/561/vshow).
+#' For further details see the [GSS Data Explorer page for `jobindep`](https://gssdataexplorer.norc.org/variables/561/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

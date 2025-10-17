@@ -21,7 +21,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medsymps`](https://gssdataexplorer.norc.org/variables/2974/vshow).
+#' For further details see the [GSS Data Explorer page for `medsymps`](https://gssdataexplorer.norc.org/variables/2974/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medaddct`](https://gssdataexplorer.norc.org/variables/2975/vshow).
+#' For further details see the [GSS Data Explorer page for `medaddct`](https://gssdataexplorer.norc.org/variables/2975/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medweak`](https://gssdataexplorer.norc.org/variables/2976/vshow).
+#' For further details see the [GSS Data Explorer page for `medweak`](https://gssdataexplorer.norc.org/variables/2976/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medunacc`](https://gssdataexplorer.norc.org/variables/2977/vshow).
+#' For further details see the [GSS Data Explorer page for `medunacc`](https://gssdataexplorer.norc.org/variables/2977/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -163,7 +163,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `solveown`](https://gssdataexplorer.norc.org/variables/2978/vshow).
+#' For further details see the [GSS Data Explorer page for `solveown`](https://gssdataexplorer.norc.org/variables/2978/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -199,7 +199,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `doc15a`](https://gssdataexplorer.norc.org/variables/2979/vshow).
+#' For further details see the [GSS Data Explorer page for `doc15a`](https://gssdataexplorer.norc.org/variables/2979/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -235,7 +235,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `doc16a`](https://gssdataexplorer.norc.org/variables/2980/vshow).
+#' For further details see the [GSS Data Explorer page for `doc16a`](https://gssdataexplorer.norc.org/variables/2980/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -271,7 +271,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `doc18a`](https://gssdataexplorer.norc.org/variables/2981/vshow).
+#' For further details see the [GSS Data Explorer page for `doc18a`](https://gssdataexplorer.norc.org/variables/2981/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `doc19a`](https://gssdataexplorer.norc.org/variables/2982/vshow).
+#' For further details see the [GSS Data Explorer page for `doc19a`](https://gssdataexplorer.norc.org/variables/2982/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -343,7 +343,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `doc20a`](https://gssdataexplorer.norc.org/variables/2983/vshow).
+#' For further details see the [GSS Data Explorer page for `doc20a`](https://gssdataexplorer.norc.org/variables/2983/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

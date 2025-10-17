@@ -34,46 +34,20 @@ Question Experience a connection to all of life
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3083/vshow}{GSS Data Explorer page for \code{alloflfe}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3083/vshow}{GSS Data Explorer page for \code{alloflfe}}.
 }
 
 \seealso{
 Other Spirituality and Religion: 
-\code{\link{agerborn}},
-\code{\link{agerelex}},
-\code{\link{blessngs}},
 \code{\link{changed1}},
 \code{\link{changed2}},
 \code{\link{changed3}},
-\code{\link{chngrbrn}},
-\code{\link{chngrel}},
-\code{\link{closrgod}},
-\code{\link{entity}},
-\code{\link{expchng1}},
-\code{\link{expchng2}},
-\code{\link{expchng3}},
-\code{\link{godclose}},
-\code{\link{godguide}},
-\code{\link{godhelp}},
-\code{\link{godlvdir}},
-\code{\link{godlvoth}},
-\code{\link{idols}},
-\code{\link{joylifts}},
-\code{\link{notthink}},
-\code{\link{numrborn}},
-\code{\link{numrelex}},
 \code{\link{relalt1}},
 \code{\link{relalt2}},
 \code{\link{relalt3}},
 \code{\link{relalt4}},
 \code{\link{relalt5}},
-\code{\link{relalt6}},
-\code{\link{relsprt1}},
-\code{\link{relsprt2}},
-\code{\link{rosaries}},
-\code{\link{whychng1}},
-\code{\link{whychng2}},
-\code{\link{whychng3}}
+\code{\link{relalt6}}
 }
 \concept{Spirituality and Religion}
 \keyword{variable}

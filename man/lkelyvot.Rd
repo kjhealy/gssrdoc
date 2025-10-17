@@ -33,29 +33,19 @@ Question How likely are you to vote in the November 2024 presidential election?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8146/vshow}{GSS Data Explorer page for \code{lkelyvot}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8146/vshow}{GSS Data Explorer page for \code{lkelyvot}}.
 }
 
 \seealso{
 Other ANES: 
-\code{\link{econstat}},
-\code{\link{polintrst}},
 \code{\link{ratechall124}},
-\code{\link{ratechall1ts}},
 \code{\link{ratechall224}},
-\code{\link{ratechall2ts}},
 \code{\link{ratechall324}},
-\code{\link{ratechall3ts}},
 \code{\link{ratedemp}},
 \code{\link{rateincumb24}},
-\code{\link{rateincumbts}},
 \code{\link{ratemaga}},
 \code{\link{raterepp}},
-\code{\link{satdemoc}},
-\code{\link{voteprob}},
-\code{\link{whovote24}},
-\code{\link{whovote24a}},
-\code{\link{whovotets}}
+\code{\link{whovote24a}}
 }
 \concept{ANES}
 \keyword{variable}

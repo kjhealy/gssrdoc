@@ -26,7 +26,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `posslqy`](https://gssdataexplorer.norc.org/variables/4152/vshow).
+#' For further details see the [GSS Data Explorer page for `posslqy`](https://gssdataexplorer.norc.org/variables/4152/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -66,7 +66,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marcohab`](https://gssdataexplorer.norc.org/variables/6320/vshow).
+#' For further details see the [GSS Data Explorer page for `marcohab`](https://gssdataexplorer.norc.org/variables/6320/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -100,7 +100,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grparnum`](https://gssdataexplorer.norc.org/variables/4153/vshow).
+#' For further details see the [GSS Data Explorer page for `grparnum`](https://gssdataexplorer.norc.org/variables/4153/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grkidnum`](https://gssdataexplorer.norc.org/variables/4154/vshow).
+#' For further details see the [GSS Data Explorer page for `grkidnum`](https://gssdataexplorer.norc.org/variables/4154/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -168,7 +168,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `unaunum`](https://gssdataexplorer.norc.org/variables/4155/vshow).
+#' For further details see the [GSS Data Explorer page for `unaunum`](https://gssdataexplorer.norc.org/variables/4155/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inlawnum`](https://gssdataexplorer.norc.org/variables/4156/vshow).
+#' For further details see the [GSS Data Explorer page for `inlawnum`](https://gssdataexplorer.norc.org/variables/4156/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -236,7 +236,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relnum`](https://gssdataexplorer.norc.org/variables/4157/vshow).
+#' For further details see the [GSS Data Explorer page for `relnum`](https://gssdataexplorer.norc.org/variables/4157/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relmost`](https://gssdataexplorer.norc.org/variables/4158/vshow).
+#' For further details see the [GSS Data Explorer page for `relmost`](https://gssdataexplorer.norc.org/variables/4158/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -317,7 +317,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relvisit`](https://gssdataexplorer.norc.org/variables/4159/vshow).
+#' For further details see the [GSS Data Explorer page for `relvisit`](https://gssdataexplorer.norc.org/variables/4159/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -356,7 +356,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `reltime`](https://gssdataexplorer.norc.org/variables/4160/vshow).
+#' For further details see the [GSS Data Explorer page for `reltime`](https://gssdataexplorer.norc.org/variables/4160/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

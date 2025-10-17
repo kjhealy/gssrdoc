@@ -23,7 +23,7 @@
 #'  |2018 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helpfrds`](https://gssdataexplorer.norc.org/variables/4231/vshow).
+#' For further details see the [GSS Data Explorer page for `helpfrds`](https://gssdataexplorer.norc.org/variables/4231/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -59,7 +59,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `usefrds`](https://gssdataexplorer.norc.org/variables/4232/vshow).
+#' For further details see the [GSS Data Explorer page for `usefrds`](https://gssdataexplorer.norc.org/variables/4232/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidkids`](https://gssdataexplorer.norc.org/variables/4233/vshow).
+#' For further details see the [GSS Data Explorer page for `aidkids`](https://gssdataexplorer.norc.org/variables/4233/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -125,7 +125,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othfrd`](https://gssdataexplorer.norc.org/variables/4234/vshow).
+#' For further details see the [GSS Data Explorer page for `othfrd`](https://gssdataexplorer.norc.org/variables/4234/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2018 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `demands`](https://gssdataexplorer.norc.org/variables/4235/vshow).
+#' For further details see the [GSS Data Explorer page for `demands`](https://gssdataexplorer.norc.org/variables/4235/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -197,7 +197,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trustpeo`](https://gssdataexplorer.norc.org/variables/4236/vshow).
+#' For further details see the [GSS Data Explorer page for `trustpeo`](https://gssdataexplorer.norc.org/variables/4236/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -233,7 +233,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wantbest`](https://gssdataexplorer.norc.org/variables/4237/vshow).
+#' For further details see the [GSS Data Explorer page for `wantbest`](https://gssdataexplorer.norc.org/variables/4237/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -269,7 +269,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `advantge`](https://gssdataexplorer.norc.org/variables/4238/vshow).
+#' For further details see the [GSS Data Explorer page for `advantge`](https://gssdataexplorer.norc.org/variables/4238/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -300,7 +300,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `comyear`](https://gssdataexplorer.norc.org/variables/4239/vshow).
+#' For further details see the [GSS Data Explorer page for `comyear`](https://gssdataexplorer.norc.org/variables/4239/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -334,7 +334,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `localgvt`](https://gssdataexplorer.norc.org/variables/4240/vshow).
+#' For further details see the [GSS Data Explorer page for `localgvt`](https://gssdataexplorer.norc.org/variables/4240/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

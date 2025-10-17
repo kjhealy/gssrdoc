@@ -44,7 +44,7 @@ Question First relationship with first person.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7100/vshow}{GSS Data Explorer page for \code{mhp1r1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7100/vshow}{GSS Data Explorer page for \code{mhp1r1}}.
 }
 
 \keyword{variable}

@@ -22,7 +22,7 @@
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hslibart`](https://gssdataexplorer.norc.org/variables/4018/vshow).
+#' For further details see the [GSS Data Explorer page for `hslibart`](https://gssdataexplorer.norc.org/variables/4018/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hsjudge`](https://gssdataexplorer.norc.org/variables/4019/vshow).
+#' For further details see the [GSS Data Explorer page for `hsjudge`](https://gssdataexplorer.norc.org/variables/4019/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hsjobtr`](https://gssdataexplorer.norc.org/variables/4020/vshow).
+#' For further details see the [GSS Data Explorer page for `hsjobtr`](https://gssdataexplorer.norc.org/variables/4020/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hssci`](https://gssdataexplorer.norc.org/variables/4021/vshow).
+#' For further details see the [GSS Data Explorer page for `hssci`](https://gssdataexplorer.norc.org/variables/4021/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hscaring`](https://gssdataexplorer.norc.org/variables/4022/vshow).
+#' For further details see the [GSS Data Explorer page for `hscaring`](https://gssdataexplorer.norc.org/variables/4022/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hsorder`](https://gssdataexplorer.norc.org/variables/4023/vshow).
+#' For further details see the [GSS Data Explorer page for `hsorder`](https://gssdataexplorer.norc.org/variables/4023/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -237,7 +237,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colop`](https://gssdataexplorer.norc.org/variables/4024/vshow).
+#' For further details see the [GSS Data Explorer page for `colop`](https://gssdataexplorer.norc.org/variables/4024/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -271,7 +271,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidneedy`](https://gssdataexplorer.norc.org/variables/4025/vshow).
+#' For further details see the [GSS Data Explorer page for `aidneedy`](https://gssdataexplorer.norc.org/variables/4025/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -305,7 +305,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidsmart`](https://gssdataexplorer.norc.org/variables/4026/vshow).
+#' For further details see the [GSS Data Explorer page for `aidsmart`](https://gssdataexplorer.norc.org/variables/4026/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -339,7 +339,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidavg`](https://gssdataexplorer.norc.org/variables/4027/vshow).
+#' For further details see the [GSS Data Explorer page for `aidavg`](https://gssdataexplorer.norc.org/variables/4027/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -25,7 +25,7 @@
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `commute`](https://gssdataexplorer.norc.org/variables/11/vshow).
+#' For further details see the [GSS Data Explorer page for `commute`](https://gssdataexplorer.norc.org/variables/11/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `industry`](https://gssdataexplorer.norc.org/variables/12/vshow).
+#' For further details see the [GSS Data Explorer page for `industry`](https://gssdataexplorer.norc.org/variables/12/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -884,7 +884,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prestg80`](https://gssdataexplorer.norc.org/variables/14/vshow).
+#' For further details see the [GSS Data Explorer page for `prestg80`](https://gssdataexplorer.norc.org/variables/14/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1159,7 +1159,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `indus80`](https://gssdataexplorer.norc.org/variables/15/vshow).
+#' For further details see the [GSS Data Explorer page for `indus80`](https://gssdataexplorer.norc.org/variables/15/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1278,7 +1278,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `found`](https://gssdataexplorer.norc.org/variables/5980/vshow).
+#' For further details see the [GSS Data Explorer page for `found`](https://gssdataexplorer.norc.org/variables/5980/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -1939,7 +1939,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `occindv`](https://gssdataexplorer.norc.org/variables/5981/vshow).
+#' For further details see the [GSS Data Explorer page for `occindv`](https://gssdataexplorer.norc.org/variables/5981/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

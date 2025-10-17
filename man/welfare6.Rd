@@ -34,14 +34,11 @@ F. Discourages young women who get pregnant from marrying the father of the chil
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5503/vshow}{GSS Data Explorer page for \code{welfare6}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5503/vshow}{GSS Data Explorer page for \code{welfare6}}.
 }
 
 \seealso{
 Other Welfare: 
-\code{\link{welfare1}},
-\code{\link{welfare2}},
-\code{\link{welfare3}},
 \code{\link{welfare4}},
 \code{\link{welfare5}}
 }

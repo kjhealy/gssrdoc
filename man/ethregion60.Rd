@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  Brazil
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7699/vshow}{GSS Data Explorer page for \code{ethregion60}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7699/vshow}{GSS Data Explorer page for \code{ethregion60}}.
 }
 
 \keyword{variable}

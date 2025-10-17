@@ -32,7 +32,7 @@ Question Thinking about your favorite pet, how often did you spend time each day
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7220/vshow}{GSS Data Explorer page for \code{petb4ply}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7220/vshow}{GSS Data Explorer page for \code{petb4ply}}.
 }
 
 \keyword{variable}

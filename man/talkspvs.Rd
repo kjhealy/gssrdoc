@@ -33,7 +33,7 @@ Question How comfortable are you talking with your supervisor about conflicts be
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5505/vshow}{GSS Data Explorer page for \code{talkspvs}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5505/vshow}{GSS Data Explorer page for \code{talkspvs}}.
 }
 
 \seealso{

@@ -38,7 +38,7 @@ At the present time, I am energetically pursuing my goals.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6204/vshow}{GSS Data Explorer page for \code{hope2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6204/vshow}{GSS Data Explorer page for \code{hope2}}.
 }
 
 \seealso{
@@ -46,8 +46,6 @@ Other Hope and Optimism:
 \code{\link{hope1}},
 \code{\link{hope3}},
 \code{\link{hope4}},
-\code{\link{hope5}},
-\code{\link{hope6}},
 \code{\link{lotr1}},
 \code{\link{lotr2}},
 \code{\link{lotr3}},

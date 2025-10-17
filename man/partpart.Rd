@@ -33,7 +33,7 @@ Question In the past 12 months, how often, if at all, have you taken part in the
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7242/vshow}{GSS Data Explorer page for \code{partpart}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7242/vshow}{GSS Data Explorer page for \code{partpart}}.
 }
 
 \keyword{variable}

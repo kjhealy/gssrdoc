@@ -30,7 +30,7 @@
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `livewhts`](https://gssdataexplorer.norc.org/variables/1220/vshow).
+#' For further details see the [GSS Data Explorer page for `livewhts`](https://gssdataexplorer.norc.org/variables/1220/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -67,7 +67,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marjew`](https://gssdataexplorer.norc.org/variables/1221/vshow).
+#' For further details see the [GSS Data Explorer page for `marjew`](https://gssdataexplorer.norc.org/variables/1221/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -117,7 +117,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marblk`](https://gssdataexplorer.norc.org/variables/1222/vshow).
+#' For further details see the [GSS Data Explorer page for `marblk`](https://gssdataexplorer.norc.org/variables/1222/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -164,7 +164,7 @@ NULL
 #'  |2022 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marasian`](https://gssdataexplorer.norc.org/variables/1223/vshow).
+#' For further details see the [GSS Data Explorer page for `marasian`](https://gssdataexplorer.norc.org/variables/1223/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marhisp`](https://gssdataexplorer.norc.org/variables/1224/vshow).
+#' For further details see the [GSS Data Explorer page for `marhisp`](https://gssdataexplorer.norc.org/variables/1224/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -248,7 +248,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marno`](https://gssdataexplorer.norc.org/variables/1225/vshow).
+#' For further details see the [GSS Data Explorer page for `marno`](https://gssdataexplorer.norc.org/variables/1225/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marso`](https://gssdataexplorer.norc.org/variables/1226/vshow).
+#' For further details see the [GSS Data Explorer page for `marso`](https://gssdataexplorer.norc.org/variables/1226/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -332,7 +332,7 @@ NULL
 #'  |2022 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marwht`](https://gssdataexplorer.norc.org/variables/1227/vshow).
+#' For further details see the [GSS Data Explorer page for `marwht`](https://gssdataexplorer.norc.org/variables/1227/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -368,7 +368,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `workfare`](https://gssdataexplorer.norc.org/variables/1228/vshow).
+#' For further details see the [GSS Data Explorer page for `workfare`](https://gssdataexplorer.norc.org/variables/1228/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -404,7 +404,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lessfare`](https://gssdataexplorer.norc.org/variables/1229/vshow).
+#' For further details see the [GSS Data Explorer page for `lessfare`](https://gssdataexplorer.norc.org/variables/1229/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

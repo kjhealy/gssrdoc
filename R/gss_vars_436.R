@@ -21,7 +21,7 @@
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mantail`](https://gssdataexplorer.norc.org/variables/3998/vshow).
+#' For further details see the [GSS Data Explorer page for `mantail`](https://gssdataexplorer.norc.org/variables/3998/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mantap`](https://gssdataexplorer.norc.org/variables/3999/vshow).
+#' For further details see the [GSS Data Explorer page for `mantap`](https://gssdataexplorer.norc.org/variables/3999/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `manread`](https://gssdataexplorer.norc.org/variables/4000/vshow).
+#' For further details see the [GSS Data Explorer page for `manread`](https://gssdataexplorer.norc.org/variables/4000/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `manhold`](https://gssdataexplorer.norc.org/variables/4001/vshow).
+#' For further details see the [GSS Data Explorer page for `manhold`](https://gssdataexplorer.norc.org/variables/4001/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -165,7 +165,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `verdict`](https://gssdataexplorer.norc.org/variables/4002/vshow).
+#' For further details see the [GSS Data Explorer page for `verdict`](https://gssdataexplorer.norc.org/variables/4002/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -201,7 +201,7 @@ NULL
 #'  |2006 |D/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `databank`](https://gssdataexplorer.norc.org/variables/4003/vshow).
+#' For further details see the [GSS Data Explorer page for `databank`](https://gssdataexplorer.norc.org/variables/4003/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -237,7 +237,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `progtax`](https://gssdataexplorer.norc.org/variables/4004/vshow).
+#' For further details see the [GSS Data Explorer page for `progtax`](https://gssdataexplorer.norc.org/variables/4004/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -273,7 +273,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eqincome`](https://gssdataexplorer.norc.org/variables/4005/vshow).
+#' For further details see the [GSS Data Explorer page for `eqincome`](https://gssdataexplorer.norc.org/variables/4005/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -308,7 +308,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oprich`](https://gssdataexplorer.norc.org/variables/4006/vshow).
+#' For further details see the [GSS Data Explorer page for `oprich`](https://gssdataexplorer.norc.org/variables/4006/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -343,7 +343,7 @@ NULL
 #'  |1985 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `opprof`](https://gssdataexplorer.norc.org/variables/4007/vshow).
+#' For further details see the [GSS Data Explorer page for `opprof`](https://gssdataexplorer.norc.org/variables/4007/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -32,7 +32,7 @@ Question IS THERE A HOUSING UNIT (HU) AT THE ADDRESS SHOWN ON THE ASSIGNMENT LAB
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6652/vshow}{GSS Data Explorer page for \code{huadd}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6652/vshow}{GSS Data Explorer page for \code{huadd}}.
 }
 
 \keyword{variable}

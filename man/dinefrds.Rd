@@ -36,7 +36,7 @@ Question How often do you go out to eat or drink with three or more friends or a
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7261/vshow}{GSS Data Explorer page for \code{dinefrds}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7261/vshow}{GSS Data Explorer page for \code{dinefrds}}.
 }
 
 \keyword{variable}

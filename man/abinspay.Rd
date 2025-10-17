@@ -30,7 +30,7 @@ Question People use their health insurance to help cover the cost of receiving h
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7183/vshow}{GSS Data Explorer page for \code{abinspay}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7183/vshow}{GSS Data Explorer page for \code{abinspay}}.
 }
 
 \keyword{variable}

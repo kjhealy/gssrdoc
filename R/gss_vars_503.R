@@ -22,7 +22,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paydojob`](https://gssdataexplorer.norc.org/variables/4571/vshow).
+#' For further details see the [GSS Data Explorer page for `paydojob`](https://gssdataexplorer.norc.org/variables/4571/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payfam`](https://gssdataexplorer.norc.org/variables/4572/vshow).
+#' For further details see the [GSS Data Explorer page for `payfam`](https://gssdataexplorer.norc.org/variables/4572/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payeduc`](https://gssdataexplorer.norc.org/variables/4573/vshow).
+#' For further details see the [GSS Data Explorer page for `payeduc`](https://gssdataexplorer.norc.org/variables/4573/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paytime`](https://gssdataexplorer.norc.org/variables/4574/vshow).
+#' For further details see the [GSS Data Explorer page for `paytime`](https://gssdataexplorer.norc.org/variables/4574/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -165,7 +165,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `techjobs`](https://gssdataexplorer.norc.org/variables/4575/vshow).
+#' For further details see the [GSS Data Explorer page for `techjobs`](https://gssdataexplorer.norc.org/variables/4575/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -200,7 +200,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `techwork`](https://gssdataexplorer.norc.org/variables/4576/vshow).
+#' For further details see the [GSS Data Explorer page for `techwork`](https://gssdataexplorer.norc.org/variables/4576/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -236,7 +236,7 @@ NULL
 #'  |2016 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wantjob1`](https://gssdataexplorer.norc.org/variables/4577/vshow).
+#' For further details see the [GSS Data Explorer page for `wantjob1`](https://gssdataexplorer.norc.org/variables/4577/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -270,7 +270,7 @@ NULL
 #'  |2016 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `worknow`](https://gssdataexplorer.norc.org/variables/4610/vshow).
+#' For further details see the [GSS Data Explorer page for `worknow`](https://gssdataexplorer.norc.org/variables/4610/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |2006 |D/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sethours`](https://gssdataexplorer.norc.org/variables/4579/vshow).
+#' For further details see the [GSS Data Explorer page for `sethours`](https://gssdataexplorer.norc.org/variables/4579/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `placewrk`](https://gssdataexplorer.norc.org/variables/4580/vshow).
+#' For further details see the [GSS Data Explorer page for `placewrk`](https://gssdataexplorer.norc.org/variables/4580/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

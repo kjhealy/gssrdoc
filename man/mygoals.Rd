@@ -35,7 +35,7 @@ Question To what extent is the following statement true or untrue for you? It is
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7274/vshow}{GSS Data Explorer page for \code{mygoals}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7274/vshow}{GSS Data Explorer page for \code{mygoals}}.
 }
 
 \keyword{variable}

@@ -36,20 +36,16 @@ Question Thinking back over the last 12 months, about how regularly did you drin
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3098/vshow}{GSS Data Explorer page for \code{drinkyr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3098/vshow}{GSS Data Explorer page for \code{drinkyr}}.
 }
 
 \seealso{
 Other Women & Alcohol: 
-\code{\link{drink1}},
 \code{\link{drink12}},
-\code{\link{drink3}},
-\code{\link{drink5}},
 \code{\link{drink6up}},
 \code{\link{drink8}},
 \code{\link{drinkday}},
 \code{\link{drinkmax}},
-\code{\link{drinkmin}},
 \code{\link{evdrink}}
 }
 \concept{Women & Alcohol}

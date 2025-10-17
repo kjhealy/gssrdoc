@@ -29,7 +29,7 @@ Question People who have incomes below a certain level can be considered poor. T
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5202/vshow}{GSS Data Explorer page for \code{minfour}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5202/vshow}{GSS Data Explorer page for \code{minfour}}.
 }
 
 \seealso{
@@ -37,8 +37,6 @@ Other Income:
 \code{\link{coninc}},
 \code{\link{conrinc}},
 \code{\link{incdef}},
-\code{\link{minfood}},
-\code{\link{minthree}},
 \code{\link{povline}},
 \code{\link{realinc}},
 \code{\link{realrinc}}

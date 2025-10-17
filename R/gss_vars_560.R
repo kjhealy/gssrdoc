@@ -23,7 +23,7 @@
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphlthkd`](https://gssdataexplorer.norc.org/variables/5123/vshow).
+#' For further details see the [GSS Data Explorer page for `sphlthkd`](https://gssdataexplorer.norc.org/variables/5123/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spheadst`](https://gssdataexplorer.norc.org/variables/5124/vshow).
+#' For further details see the [GSS Data Explorer page for `spheadst`](https://gssdataexplorer.norc.org/variables/5124/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sppoorkd`](https://gssdataexplorer.norc.org/variables/5125/vshow).
+#' For further details see the [GSS Data Explorer page for `sppoorkd`](https://gssdataexplorer.norc.org/variables/5125/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spwrkpar`](https://gssdataexplorer.norc.org/variables/5126/vshow).
+#' For further details see the [GSS Data Explorer page for `spwrkpar`](https://gssdataexplorer.norc.org/variables/5126/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphomekd`](https://gssdataexplorer.norc.org/variables/5127/vshow).
+#' For further details see the [GSS Data Explorer page for `sphomekd`](https://gssdataexplorer.norc.org/variables/5127/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdsabkd`](https://gssdataexplorer.norc.org/variables/5128/vshow).
+#' For further details see the [GSS Data Explorer page for `spdsabkd`](https://gssdataexplorer.norc.org/variables/5128/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spdrugs`](https://gssdataexplorer.norc.org/variables/5129/vshow).
+#' For further details see the [GSS Data Explorer page for `spdrugs`](https://gssdataexplorer.norc.org/variables/5129/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spfoodkd`](https://gssdataexplorer.norc.org/variables/5130/vshow).
+#' For further details see the [GSS Data Explorer page for `spfoodkd`](https://gssdataexplorer.norc.org/variables/5130/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sppill`](https://gssdataexplorer.norc.org/variables/5131/vshow).
+#' For further details see the [GSS Data Explorer page for `sppill`](https://gssdataexplorer.norc.org/variables/5131/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -356,7 +356,7 @@ NULL
 #'  |2004 |C       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prob1`](https://gssdataexplorer.norc.org/variables/5132/vshow).
+#' For further details see the [GSS Data Explorer page for `prob1`](https://gssdataexplorer.norc.org/variables/5132/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

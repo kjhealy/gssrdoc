@@ -27,7 +27,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `neargod`](https://gssdataexplorer.norc.org/variables/321/vshow).
+#' For further details see the [GSS Data Explorer page for `neargod`](https://gssdataexplorer.norc.org/variables/321/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -63,7 +63,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `judge`](https://gssdataexplorer.norc.org/variables/322/vshow).
+#' For further details see the [GSS Data Explorer page for `judge`](https://gssdataexplorer.norc.org/variables/322/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -99,7 +99,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `redeemer`](https://gssdataexplorer.norc.org/variables/323/vshow).
+#' For further details see the [GSS Data Explorer page for `redeemer`](https://gssdataexplorer.norc.org/variables/323/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -135,7 +135,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lover`](https://gssdataexplorer.norc.org/variables/324/vshow).
+#' For further details see the [GSS Data Explorer page for `lover`](https://gssdataexplorer.norc.org/variables/324/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `master`](https://gssdataexplorer.norc.org/variables/325/vshow).
+#' For further details see the [GSS Data Explorer page for `master`](https://gssdataexplorer.norc.org/variables/325/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -207,7 +207,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mother`](https://gssdataexplorer.norc.org/variables/326/vshow).
+#' For further details see the [GSS Data Explorer page for `mother`](https://gssdataexplorer.norc.org/variables/326/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -242,7 +242,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `creator`](https://gssdataexplorer.norc.org/variables/327/vshow).
+#' For further details see the [GSS Data Explorer page for `creator`](https://gssdataexplorer.norc.org/variables/327/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -278,7 +278,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `father`](https://gssdataexplorer.norc.org/variables/328/vshow).
+#' For further details see the [GSS Data Explorer page for `father`](https://gssdataexplorer.norc.org/variables/328/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -314,7 +314,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spouse`](https://gssdataexplorer.norc.org/variables/329/vshow).
+#' For further details see the [GSS Data Explorer page for `spouse`](https://gssdataexplorer.norc.org/variables/329/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -350,7 +350,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `friend`](https://gssdataexplorer.norc.org/variables/330/vshow).
+#' For further details see the [GSS Data Explorer page for `friend`](https://gssdataexplorer.norc.org/variables/330/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -20,7 +20,7 @@
 #'  |1996 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genegoo1`](https://gssdataexplorer.norc.org/variables/5086/vshow).
+#' For further details see the [GSS Data Explorer page for `genegoo1`](https://gssdataexplorer.norc.org/variables/5086/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2018 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genegoo2`](https://gssdataexplorer.norc.org/variables/5087/vshow).
+#' For further details see the [GSS Data Explorer page for `genegoo2`](https://gssdataexplorer.norc.org/variables/5087/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |2018 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `geneself`](https://gssdataexplorer.norc.org/variables/5088/vshow).
+#' For further details see the [GSS Data Explorer page for `geneself`](https://gssdataexplorer.norc.org/variables/5088/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2018 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `geneabrt`](https://gssdataexplorer.norc.org/variables/5089/vshow).
+#' For further details see the [GSS Data Explorer page for `geneabrt`](https://gssdataexplorer.norc.org/variables/5089/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -159,7 +159,7 @@ NULL
 #'  |2018 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maleornt`](https://gssdataexplorer.norc.org/variables/7294/vshow).
+#' For further details see the [GSS Data Explorer page for `maleornt`](https://gssdataexplorer.norc.org/variables/7294/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -191,7 +191,7 @@ NULL
 #'  |2018 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `geneself2`](https://gssdataexplorer.norc.org/variables/7295/vshow).
+#' For further details see the [GSS Data Explorer page for `geneself2`](https://gssdataexplorer.norc.org/variables/7295/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -223,7 +223,7 @@ NULL
 #'  |2018 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `geneabrt2`](https://gssdataexplorer.norc.org/variables/7296/vshow).
+#' For further details see the [GSS Data Explorer page for `geneabrt2`](https://gssdataexplorer.norc.org/variables/7296/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |1990 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genedef1`](https://gssdataexplorer.norc.org/variables/5090/vshow).
+#' For further details see the [GSS Data Explorer page for `genedef1`](https://gssdataexplorer.norc.org/variables/5090/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -359,7 +359,7 @@ NULL
 #'  |1990 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genedef2`](https://gssdataexplorer.norc.org/variables/5091/vshow).
+#' For further details see the [GSS Data Explorer page for `genedef2`](https://gssdataexplorer.norc.org/variables/5091/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -427,7 +427,7 @@ NULL
 #'  |1990 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genedef3`](https://gssdataexplorer.norc.org/variables/5092/vshow).
+#' For further details see the [GSS Data Explorer page for `genedef3`](https://gssdataexplorer.norc.org/variables/5092/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

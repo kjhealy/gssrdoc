@@ -33,7 +33,7 @@ Question Workers need strong trade unions to protect their interests
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7547/vshow}{GSS Data Explorer page for \code{trdunio1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7547/vshow}{GSS Data Explorer page for \code{trdunio1}}.
 }
 
 \keyword{variable}

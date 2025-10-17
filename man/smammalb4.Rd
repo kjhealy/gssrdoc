@@ -30,7 +30,7 @@ Question Past pet - A small mammal (rabbit, gerbil, hamster)
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7212/vshow}{GSS Data Explorer page for \code{smammalb4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7212/vshow}{GSS Data Explorer page for \code{smammalb4}}.
 }
 
 \keyword{variable}

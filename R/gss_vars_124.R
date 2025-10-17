@@ -21,7 +21,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chrissch`](https://gssdataexplorer.norc.org/variables/1150/vshow).
+#' For further details see the [GSS Data Explorer page for `chrissch`](https://gssdataexplorer.norc.org/variables/1150/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -66,7 +66,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `denomsch`](https://gssdataexplorer.norc.org/variables/1151/vshow).
+#' For further details see the [GSS Data Explorer page for `denomsch`](https://gssdataexplorer.norc.org/variables/1151/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -101,7 +101,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relsch`](https://gssdataexplorer.norc.org/variables/1152/vshow).
+#' For further details see the [GSS Data Explorer page for `relsch`](https://gssdataexplorer.norc.org/variables/1152/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -136,7 +136,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `privsch`](https://gssdataexplorer.norc.org/variables/1153/vshow).
+#' For further details see the [GSS Data Explorer page for `privsch`](https://gssdataexplorer.norc.org/variables/1153/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othsch`](https://gssdataexplorer.norc.org/variables/1154/vshow).
+#' For further details see the [GSS Data Explorer page for `othsch`](https://gssdataexplorer.norc.org/variables/1154/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -203,7 +203,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `shoprel`](https://gssdataexplorer.norc.org/variables/1155/vshow).
+#' For further details see the [GSS Data Explorer page for `shoprel`](https://gssdataexplorer.norc.org/variables/1155/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -235,7 +235,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `shopmove`](https://gssdataexplorer.norc.org/variables/1156/vshow).
+#' For further details see the [GSS Data Explorer page for `shopmove`](https://gssdataexplorer.norc.org/variables/1156/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `shopnum`](https://gssdataexplorer.norc.org/variables/1157/vshow).
+#' For further details see the [GSS Data Explorer page for `shopnum`](https://gssdataexplorer.norc.org/variables/1157/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othchrch`](https://gssdataexplorer.norc.org/variables/1158/vshow).
+#' For further details see the [GSS Data Explorer page for `othchrch`](https://gssdataexplorer.norc.org/variables/1158/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -336,7 +336,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `implives`](https://gssdataexplorer.norc.org/variables/1159/vshow).
+#' For further details see the [GSS Data Explorer page for `implives`](https://gssdataexplorer.norc.org/variables/1159/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

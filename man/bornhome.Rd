@@ -32,7 +32,7 @@ Question Thinking back to the time when you were born, tell me which box shows t
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3025/vshow}{GSS Data Explorer page for \code{bornhome}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3025/vshow}{GSS Data Explorer page for \code{bornhome}}.
 }
 
 \seealso{

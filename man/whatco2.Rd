@@ -34,7 +34,7 @@ Question How would you classify the place where your (husband/wife/spouse/partne
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8012/vshow}{GSS Data Explorer page for \code{whatco2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8012/vshow}{GSS Data Explorer page for \code{whatco2}}.
 }
 
 \keyword{variable}

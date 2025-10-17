@@ -33,7 +33,7 @@ Question (People should have access to publicly funded health care even if they.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7796/vshow}{GSS Data Explorer page for \code{hlthdmg}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7796/vshow}{GSS Data Explorer page for \code{hlthdmg}}.
 }
 
 \keyword{variable}

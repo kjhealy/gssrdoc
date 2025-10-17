@@ -30,7 +30,7 @@ Question Suppose this person wrote a book advocating doing away with elections a
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7442/vshow}{GSS Data Explorer page for \code{libmily}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7442/vshow}{GSS Data Explorer page for \code{libmily}}.
 }
 
 \keyword{variable}

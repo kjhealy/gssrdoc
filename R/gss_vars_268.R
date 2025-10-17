@@ -20,7 +20,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `moral12`](https://gssdataexplorer.norc.org/variables/2430/vshow).
+#' For further details see the [GSS Data Explorer page for `moral12`](https://gssdataexplorer.norc.org/variables/2430/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `foraff12`](https://gssdataexplorer.norc.org/variables/2431/vshow).
+#' For further details see the [GSS Data Explorer page for `foraff12`](https://gssdataexplorer.norc.org/variables/2431/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racrel12`](https://gssdataexplorer.norc.org/variables/2432/vshow).
+#' For further details see the [GSS Data Explorer page for `racrel12`](https://gssdataexplorer.norc.org/variables/2432/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `enviro12`](https://gssdataexplorer.norc.org/variables/2433/vshow).
+#' For further details see the [GSS Data Explorer page for `enviro12`](https://gssdataexplorer.norc.org/variables/2433/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -156,7 +156,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polcam12`](https://gssdataexplorer.norc.org/variables/2434/vshow).
+#' For further details see the [GSS Data Explorer page for `polcam12`](https://gssdataexplorer.norc.org/variables/2434/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -190,7 +190,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gun12`](https://gssdataexplorer.norc.org/variables/2435/vshow).
+#' For further details see the [GSS Data Explorer page for `gun12`](https://gssdataexplorer.norc.org/variables/2435/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -224,7 +224,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taxes12`](https://gssdataexplorer.norc.org/variables/2436/vshow).
+#' For further details see the [GSS Data Explorer page for `taxes12`](https://gssdataexplorer.norc.org/variables/2436/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -258,7 +258,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fe12`](https://gssdataexplorer.norc.org/variables/2437/vshow).
+#' For further details see the [GSS Data Explorer page for `fe12`](https://gssdataexplorer.norc.org/variables/2437/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `news12`](https://gssdataexplorer.norc.org/variables/2438/vshow).
+#' For further details see the [GSS Data Explorer page for `news12`](https://gssdataexplorer.norc.org/variables/2438/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -327,7 +327,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polagree`](https://gssdataexplorer.norc.org/variables/2439/vshow).
+#' For further details see the [GSS Data Explorer page for `polagree`](https://gssdataexplorer.norc.org/variables/2439/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

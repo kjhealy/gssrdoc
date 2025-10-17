@@ -59,7 +59,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `family16`](https://gssdataexplorer.norc.org/variables/86/vshow).
+#' For further details see the [GSS Data Explorer page for `family16`](https://gssdataexplorer.norc.org/variables/86/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famdif16`](https://gssdataexplorer.norc.org/variables/87/vshow).
+#' For further details see the [GSS Data Explorer page for `famdif16`](https://gssdataexplorer.norc.org/variables/87/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -177,7 +177,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mawork`](https://gssdataexplorer.norc.org/variables/88/vshow).
+#' For further details see the [GSS Data Explorer page for `mawork`](https://gssdataexplorer.norc.org/variables/88/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -218,7 +218,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mawkbaby`](https://gssdataexplorer.norc.org/variables/89/vshow).
+#' For further details see the [GSS Data Explorer page for `mawkbaby`](https://gssdataexplorer.norc.org/variables/89/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -257,7 +257,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mawkborn`](https://gssdataexplorer.norc.org/variables/90/vshow).
+#' For further details see the [GSS Data Explorer page for `mawkborn`](https://gssdataexplorer.norc.org/variables/90/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mawk16`](https://gssdataexplorer.norc.org/variables/91/vshow).
+#' For further details see the [GSS Data Explorer page for `mawk16`](https://gssdataexplorer.norc.org/variables/91/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -345,7 +345,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mawrkgrw`](https://gssdataexplorer.norc.org/variables/92/vshow).
+#' For further details see the [GSS Data Explorer page for `mawrkgrw`](https://gssdataexplorer.norc.org/variables/92/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -412,7 +412,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `incom16`](https://gssdataexplorer.norc.org/variables/93/vshow).
+#' For further details see the [GSS Data Explorer page for `incom16`](https://gssdataexplorer.norc.org/variables/93/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -473,7 +473,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `born`](https://gssdataexplorer.norc.org/variables/94/vshow).
+#' For further details see the [GSS Data Explorer page for `born`](https://gssdataexplorer.norc.org/variables/94/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -541,7 +541,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `parborn`](https://gssdataexplorer.norc.org/variables/95/vshow).
+#' For further details see the [GSS Data Explorer page for `parborn`](https://gssdataexplorer.norc.org/variables/95/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

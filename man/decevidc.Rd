@@ -33,7 +33,7 @@ Question When I make important decisions in my life, I rely mostly on reason and
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7540/vshow}{GSS Data Explorer page for \code{decevidc}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7540/vshow}{GSS Data Explorer page for \code{decevidc}}.
 }
 
 \keyword{variable}

@@ -20,7 +20,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fairhwrk`](https://gssdataexplorer.norc.org/variables/1662/vshow).
+#' For further details see the [GSS Data Explorer page for `fairhwrk`](https://gssdataexplorer.norc.org/variables/1662/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `earnmore`](https://gssdataexplorer.norc.org/variables/1663/vshow).
+#' For further details see the [GSS Data Explorer page for `earnmore`](https://gssdataexplorer.norc.org/variables/1663/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famlife`](https://gssdataexplorer.norc.org/variables/1664/vshow).
+#' For further details see the [GSS Data Explorer page for `famlife`](https://gssdataexplorer.norc.org/variables/1664/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -125,7 +125,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `worklife`](https://gssdataexplorer.norc.org/variables/1665/vshow).
+#' For further details see the [GSS Data Explorer page for `worklife`](https://gssdataexplorer.norc.org/variables/1665/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -160,7 +160,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `balwkfam`](https://gssdataexplorer.norc.org/variables/1666/vshow).
+#' For further details see the [GSS Data Explorer page for `balwkfam`](https://gssdataexplorer.norc.org/variables/1666/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -194,7 +194,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `refpromo`](https://gssdataexplorer.norc.org/variables/1667/vshow).
+#' For further details see the [GSS Data Explorer page for `refpromo`](https://gssdataexplorer.norc.org/variables/1667/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -228,7 +228,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `refmorwk`](https://gssdataexplorer.norc.org/variables/1668/vshow).
+#' For further details see the [GSS Data Explorer page for `refmorwk`](https://gssdataexplorer.norc.org/variables/1668/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `refxhour`](https://gssdataexplorer.norc.org/variables/1669/vshow).
+#' For further details see the [GSS Data Explorer page for `refxhour`](https://gssdataexplorer.norc.org/variables/1669/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -295,7 +295,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `workless`](https://gssdataexplorer.norc.org/variables/1670/vshow).
+#' For further details see the [GSS Data Explorer page for `workless`](https://gssdataexplorer.norc.org/variables/1670/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -329,7 +329,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `noathome`](https://gssdataexplorer.norc.org/variables/1671/vshow).
+#' For further details see the [GSS Data Explorer page for `noathome`](https://gssdataexplorer.norc.org/variables/1671/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -35,7 +35,7 @@ Question How often do you have any contact with people who are a lot richer than
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7517/vshow}{GSS Data Explorer page for \code{contrich}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7517/vshow}{GSS Data Explorer page for \code{contrich}}.
 }
 
 \keyword{variable}

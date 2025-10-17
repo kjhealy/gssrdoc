@@ -36,7 +36,7 @@ Was (NAME) over or under 18 on their last birthday?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7993/vshow}{GSS Data Explorer page for \code{agehef5}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7993/vshow}{GSS Data Explorer page for \code{agehef5}}.
 }
 
 \keyword{variable}

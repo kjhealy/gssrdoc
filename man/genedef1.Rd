@@ -66,7 +66,7 @@ A. First Mention
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5090/vshow}{GSS Data Explorer page for \code{genedef1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5090/vshow}{GSS Data Explorer page for \code{genedef1}}.
 }
 
 \seealso{
@@ -76,10 +76,7 @@ Other Genes:
 \code{\link{genedef3}},
 \code{\link{genegoo1}},
 \code{\link{genegoo2}},
-\code{\link{genegood}},
-\code{\link{geneself}},
-\code{\link{genetest}},
-\code{\link{genetst1}}
+\code{\link{geneself}}
 }
 \concept{Genes}
 \keyword{variable}

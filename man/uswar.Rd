@@ -40,20 +40,13 @@ Question Do you expect the United States to fight in another war within the next
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5484/vshow}{GSS Data Explorer page for \code{uswar}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5484/vshow}{GSS Data Explorer page for \code{uswar}}.
 }
 
 \seealso{
 Other War and International: 
-\code{\link{brazil}},
-\code{\link{canada}},
-\code{\link{china}},
 \code{\link{commun}},
 \code{\link{commun10}},
-\code{\link{egypt}},
-\code{\link{england}},
-\code{\link{israel}},
-\code{\link{japan}},
 \code{\link{russia}},
 \code{\link{usintl}},
 \code{\link{usun}},

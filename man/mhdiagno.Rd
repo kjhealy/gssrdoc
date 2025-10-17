@@ -31,7 +31,7 @@ Question Leaving yourself aside, have you ever known someone personally who has 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7228/vshow}{GSS Data Explorer page for \code{mhdiagno}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7228/vshow}{GSS Data Explorer page for \code{mhdiagno}}.
 }
 
 \keyword{variable}

@@ -103,7 +103,7 @@ Question What country were you born in?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3024/vshow}{GSS Data Explorer page for \code{natborn}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3024/vshow}{GSS Data Explorer page for \code{natborn}}.
 }
 
 \seealso{

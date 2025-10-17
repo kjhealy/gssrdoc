@@ -18,7 +18,7 @@
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `febrass`](https://gssdataexplorer.norc.org/variables/800/vshow).
+#' For further details see the [GSS Data Explorer page for `febrass`](https://gssdataexplorer.norc.org/variables/800/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -53,7 +53,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fehlpmil`](https://gssdataexplorer.norc.org/variables/801/vshow).
+#' For further details see the [GSS Data Explorer page for `fehlpmil`](https://gssdataexplorer.norc.org/variables/801/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `draft`](https://gssdataexplorer.norc.org/variables/802/vshow).
+#' For further details see the [GSS Data Explorer page for `draft`](https://gssdataexplorer.norc.org/variables/802/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -123,7 +123,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `draftfe`](https://gssdataexplorer.norc.org/variables/803/vshow).
+#' For further details see the [GSS Data Explorer page for `draftfe`](https://gssdataexplorer.norc.org/variables/803/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -158,7 +158,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `draftem`](https://gssdataexplorer.norc.org/variables/804/vshow).
+#' For further details see the [GSS Data Explorer page for `draftem`](https://gssdataexplorer.norc.org/variables/804/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -193,7 +193,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `draftfem`](https://gssdataexplorer.norc.org/variables/805/vshow).
+#' For further details see the [GSS Data Explorer page for `draftfem`](https://gssdataexplorer.norc.org/variables/805/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -226,7 +226,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `draftcol`](https://gssdataexplorer.norc.org/variables/806/vshow).
+#' For further details see the [GSS Data Explorer page for `draftcol`](https://gssdataexplorer.norc.org/variables/806/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -259,7 +259,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `draftmar`](https://gssdataexplorer.norc.org/variables/807/vshow).
+#' For further details see the [GSS Data Explorer page for `draftmar`](https://gssdataexplorer.norc.org/variables/807/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -292,7 +292,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `draftpar`](https://gssdataexplorer.norc.org/variables/808/vshow).
+#' For further details see the [GSS Data Explorer page for `draftpar`](https://gssdataexplorer.norc.org/variables/808/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -325,7 +325,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `draftgay`](https://gssdataexplorer.norc.org/variables/809/vshow).
+#' For further details see the [GSS Data Explorer page for `draftgay`](https://gssdataexplorer.norc.org/variables/809/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

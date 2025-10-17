@@ -19,7 +19,7 @@
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `actchurh`](https://gssdataexplorer.norc.org/variables/1010/vshow).
+#' For further details see the [GSS Data Explorer page for `actchurh`](https://gssdataexplorer.norc.org/variables/1010/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `actother`](https://gssdataexplorer.norc.org/variables/1011/vshow).
+#' For further details see the [GSS Data Explorer page for `actother`](https://gssdataexplorer.norc.org/variables/1011/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `churhgrp`](https://gssdataexplorer.norc.org/variables/1012/vshow).
+#' For further details see the [GSS Data Explorer page for `churhgrp`](https://gssdataexplorer.norc.org/variables/1012/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -131,7 +131,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mostact`](https://gssdataexplorer.norc.org/variables/1013/vshow).
+#' For further details see the [GSS Data Explorer page for `mostact`](https://gssdataexplorer.norc.org/variables/1013/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caregrp`](https://gssdataexplorer.norc.org/variables/1014/vshow).
+#' For further details see the [GSS Data Explorer page for `caregrp`](https://gssdataexplorer.norc.org/variables/1014/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -199,7 +199,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `servegrp`](https://gssdataexplorer.norc.org/variables/1015/vshow).
+#' For further details see the [GSS Data Explorer page for `servegrp`](https://gssdataexplorer.norc.org/variables/1015/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -232,7 +232,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `leadgrp`](https://gssdataexplorer.norc.org/variables/1016/vshow).
+#' For further details see the [GSS Data Explorer page for `leadgrp`](https://gssdataexplorer.norc.org/variables/1016/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -265,7 +265,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givegrp`](https://gssdataexplorer.norc.org/variables/1017/vshow).
+#' For further details see the [GSS Data Explorer page for `givegrp`](https://gssdataexplorer.norc.org/variables/1017/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `attndgrp`](https://gssdataexplorer.norc.org/variables/1018/vshow).
+#' For further details see the [GSS Data Explorer page for `attndgrp`](https://gssdataexplorer.norc.org/variables/1018/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -331,7 +331,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `writegrp`](https://gssdataexplorer.norc.org/variables/1019/vshow).
+#' For further details see the [GSS Data Explorer page for `writegrp`](https://gssdataexplorer.norc.org/variables/1019/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

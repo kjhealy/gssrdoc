@@ -18,7 +18,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `granlang`](https://gssdataexplorer.norc.org/variables/2291/vshow).
+#' For further details see the [GSS Data Explorer page for `granlang`](https://gssdataexplorer.norc.org/variables/2291/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `langcom`](https://gssdataexplorer.norc.org/variables/2292/vshow).
+#' For further details see the [GSS Data Explorer page for `langcom`](https://gssdataexplorer.norc.org/variables/2292/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `langwrk`](https://gssdataexplorer.norc.org/variables/2293/vshow).
+#' For further details see the [GSS Data Explorer page for `langwrk`](https://gssdataexplorer.norc.org/variables/2293/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engoff1`](https://gssdataexplorer.norc.org/variables/2294/vshow).
+#' For further details see the [GSS Data Explorer page for `engoff1`](https://gssdataexplorer.norc.org/variables/2294/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -157,7 +157,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `twolang`](https://gssdataexplorer.norc.org/variables/2295/vshow).
+#' For further details see the [GSS Data Explorer page for `twolang`](https://gssdataexplorer.norc.org/variables/2295/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nobiling`](https://gssdataexplorer.norc.org/variables/2296/vshow).
+#' For further details see the [GSS Data Explorer page for `nobiling`](https://gssdataexplorer.norc.org/variables/2296/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engunite`](https://gssdataexplorer.norc.org/variables/2297/vshow).
+#' For further details see the [GSS Data Explorer page for `engunite`](https://gssdataexplorer.norc.org/variables/2297/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `forlang1`](https://gssdataexplorer.norc.org/variables/2298/vshow).
+#' For further details see the [GSS Data Explorer page for `forlang1`](https://gssdataexplorer.norc.org/variables/2298/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engthrtn`](https://gssdataexplorer.norc.org/variables/2299/vshow).
+#' For further details see the [GSS Data Explorer page for `engthrtn`](https://gssdataexplorer.norc.org/variables/2299/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -332,7 +332,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `engvote`](https://gssdataexplorer.norc.org/variables/2300/vshow).
+#' For further details see the [GSS Data Explorer page for `engvote`](https://gssdataexplorer.norc.org/variables/2300/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

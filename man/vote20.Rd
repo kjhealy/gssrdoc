@@ -32,7 +32,7 @@ Question In 2020, you remember that Joe Biden ran for President on the Democrati
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7758/vshow}{GSS Data Explorer page for \code{vote20}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7758/vshow}{GSS Data Explorer page for \code{vote20}}.
 }
 
 \keyword{variable}

@@ -21,7 +21,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `obeytch`](https://gssdataexplorer.norc.org/variables/1160/vshow).
+#' For further details see the [GSS Data Explorer page for `obeytch`](https://gssdataexplorer.norc.org/variables/1160/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `preach`](https://gssdataexplorer.norc.org/variables/1161/vshow).
+#' For further details see the [GSS Data Explorer page for `preach`](https://gssdataexplorer.norc.org/variables/1161/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -93,7 +93,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ferespct`](https://gssdataexplorer.norc.org/variables/1162/vshow).
+#' For further details see the [GSS Data Explorer page for `ferespct`](https://gssdataexplorer.norc.org/variables/1162/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -129,7 +129,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sympcoun`](https://gssdataexplorer.norc.org/variables/1163/vshow).
+#' For further details see the [GSS Data Explorer page for `sympcoun`](https://gssdataexplorer.norc.org/variables/1163/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -165,7 +165,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkyoung`](https://gssdataexplorer.norc.org/variables/1164/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkyoung`](https://gssdataexplorer.norc.org/variables/1164/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -201,7 +201,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `worship`](https://gssdataexplorer.norc.org/variables/1165/vshow).
+#' For further details see the [GSS Data Explorer page for `worship`](https://gssdataexplorer.norc.org/variables/1165/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -237,7 +237,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ownthing`](https://gssdataexplorer.norc.org/variables/1166/vshow).
+#' For further details see the [GSS Data Explorer page for `ownthing`](https://gssdataexplorer.norc.org/variables/1166/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -272,7 +272,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `talkback`](https://gssdataexplorer.norc.org/variables/1167/vshow).
+#' For further details see the [GSS Data Explorer page for `talkback`](https://gssdataexplorer.norc.org/variables/1167/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `twoclass`](https://gssdataexplorer.norc.org/variables/1168/vshow).
+#' For further details see the [GSS Data Explorer page for `twoclass`](https://gssdataexplorer.norc.org/variables/1168/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -342,7 +342,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `openmind`](https://gssdataexplorer.norc.org/variables/1169/vshow).
+#' For further details see the [GSS Data Explorer page for `openmind`](https://gssdataexplorer.norc.org/variables/1169/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

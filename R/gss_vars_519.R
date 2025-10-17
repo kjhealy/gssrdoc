@@ -26,7 +26,7 @@
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `privent`](https://gssdataexplorer.norc.org/variables/4718/vshow).
+#' For further details see the [GSS Data Explorer page for `privent`](https://gssdataexplorer.norc.org/variables/4718/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -64,7 +64,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postmat1`](https://gssdataexplorer.norc.org/variables/4719/vshow).
+#' For further details see the [GSS Data Explorer page for `postmat1`](https://gssdataexplorer.norc.org/variables/4719/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -102,7 +102,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `postmat2`](https://gssdataexplorer.norc.org/variables/4720/vshow).
+#' For further details see the [GSS Data Explorer page for `postmat2`](https://gssdataexplorer.norc.org/variables/4720/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -141,7 +141,7 @@ NULL
 #'  |2010 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scifaith`](https://gssdataexplorer.norc.org/variables/4721/vshow).
+#' For further details see the [GSS Data Explorer page for `scifaith`](https://gssdataexplorer.norc.org/variables/4721/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -182,7 +182,7 @@ NULL
 #'  |2010 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `harmgood`](https://gssdataexplorer.norc.org/variables/4722/vshow).
+#' For further details see the [GSS Data Explorer page for `harmgood`](https://gssdataexplorer.norc.org/variables/4722/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -219,7 +219,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sciworse`](https://gssdataexplorer.norc.org/variables/4723/vshow).
+#' For further details see the [GSS Data Explorer page for `sciworse`](https://gssdataexplorer.norc.org/variables/4723/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -259,7 +259,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `scigrn`](https://gssdataexplorer.norc.org/variables/4724/vshow).
+#' For further details see the [GSS Data Explorer page for `scigrn`](https://gssdataexplorer.norc.org/variables/4724/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -299,7 +299,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grnecon`](https://gssdataexplorer.norc.org/variables/4725/vshow).
+#' For further details see the [GSS Data Explorer page for `grnecon`](https://gssdataexplorer.norc.org/variables/4725/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -339,7 +339,7 @@ NULL
 #'  |2021 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `harmsgrn`](https://gssdataexplorer.norc.org/variables/4726/vshow).
+#' For further details see the [GSS Data Explorer page for `harmsgrn`](https://gssdataexplorer.norc.org/variables/4726/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -376,7 +376,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anrights`](https://gssdataexplorer.norc.org/variables/4727/vshow).
+#' For further details see the [GSS Data Explorer page for `anrights`](https://gssdataexplorer.norc.org/variables/4727/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

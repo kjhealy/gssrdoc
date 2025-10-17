@@ -20,7 +20,7 @@
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anscitst`](https://gssdataexplorer.norc.org/variables/3469/vshow).
+#' For further details see the [GSS Data Explorer page for `anscitst`](https://gssdataexplorer.norc.org/variables/3469/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `maboygrl`](https://gssdataexplorer.norc.org/variables/3470/vshow).
+#' For further details see the [GSS Data Explorer page for `maboygrl`](https://gssdataexplorer.norc.org/variables/3470/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -86,7 +86,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `h2olife`](https://gssdataexplorer.norc.org/variables/3471/vshow).
+#' For further details see the [GSS Data Explorer page for `h2olife`](https://gssdataexplorer.norc.org/variables/3471/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -121,7 +121,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anheat`](https://gssdataexplorer.norc.org/variables/3472/vshow).
+#' For further details see the [GSS Data Explorer page for `anheat`](https://gssdataexplorer.norc.org/variables/3472/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -155,7 +155,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lftplane`](https://gssdataexplorer.norc.org/variables/3473/vshow).
+#' For further details see the [GSS Data Explorer page for `lftplane`](https://gssdataexplorer.norc.org/variables/3473/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -188,7 +188,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stormtxt`](https://gssdataexplorer.norc.org/variables/3474/vshow).
+#' For further details see the [GSS Data Explorer page for `stormtxt`](https://gssdataexplorer.norc.org/variables/3474/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `litmstxt`](https://gssdataexplorer.norc.org/variables/3475/vshow).
+#' For further details see the [GSS Data Explorer page for `litmstxt`](https://gssdataexplorer.norc.org/variables/3475/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -255,7 +255,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `goldfish`](https://gssdataexplorer.norc.org/variables/3476/vshow).
+#' For further details see the [GSS Data Explorer page for `goldfish`](https://gssdataexplorer.norc.org/variables/3476/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `salth2o`](https://gssdataexplorer.norc.org/variables/3477/vshow).
+#' For further details see the [GSS Data Explorer page for `salth2o`](https://gssdataexplorer.norc.org/variables/3477/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -323,7 +323,7 @@ NULL
 #'  |2008 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `erosion`](https://gssdataexplorer.norc.org/variables/3478/vshow).
+#' For further details see the [GSS Data Explorer page for `erosion`](https://gssdataexplorer.norc.org/variables/3478/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

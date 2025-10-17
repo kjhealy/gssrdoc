@@ -32,14 +32,12 @@ Question If you were to see a fellow employee not working as hard or well as he 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3555/vshow}{GSS Data Explorer page for \code{talkteam}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3555/vshow}{GSS Data Explorer page for \code{talkteam}}.
 }
 
 \seealso{
 Other Shared Capitalism: 
-\code{\link{buyvalue}},
 \code{\link{compwage}},
-\code{\link{defpensn}},
 \code{\link{empinput}},
 \code{\link{emptrain}},
 \code{\link{esop}},
@@ -47,7 +45,6 @@ Other Shared Capitalism:
 \code{\link{numorg}},
 \code{\link{ops2005}},
 \code{\link{slfmangd}},
-\code{\link{trdestck}},
 \code{\link{wealth}}
 }
 \concept{Shared Capitalism}

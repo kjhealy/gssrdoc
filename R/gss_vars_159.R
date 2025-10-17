@@ -17,7 +17,7 @@
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sphedpre105plus`](https://gssdataexplorer.norc.org/variables/6009/vshow).
+#' For further details see the [GSS Data Explorer page for `sphedpre105plus`](https://gssdataexplorer.norc.org/variables/6009/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -48,7 +48,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spsibs`](https://gssdataexplorer.norc.org/variables/1491/vshow).
+#' For further details see the [GSS Data Explorer page for `spsibs`](https://gssdataexplorer.norc.org/variables/1491/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdsex1`](https://gssdataexplorer.norc.org/variables/1492/vshow).
+#' For further details see the [GSS Data Explorer page for `kdsex1`](https://gssdataexplorer.norc.org/variables/1492/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -121,7 +121,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdsex2`](https://gssdataexplorer.norc.org/variables/1493/vshow).
+#' For further details see the [GSS Data Explorer page for `kdsex2`](https://gssdataexplorer.norc.org/variables/1493/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdsex3`](https://gssdataexplorer.norc.org/variables/1494/vshow).
+#' For further details see the [GSS Data Explorer page for `kdsex3`](https://gssdataexplorer.norc.org/variables/1494/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdsex4`](https://gssdataexplorer.norc.org/variables/1495/vshow).
+#' For further details see the [GSS Data Explorer page for `kdsex4`](https://gssdataexplorer.norc.org/variables/1495/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -220,7 +220,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdsex5`](https://gssdataexplorer.norc.org/variables/1496/vshow).
+#' For further details see the [GSS Data Explorer page for `kdsex5`](https://gssdataexplorer.norc.org/variables/1496/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -253,7 +253,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdsex6`](https://gssdataexplorer.norc.org/variables/1497/vshow).
+#' For further details see the [GSS Data Explorer page for `kdsex6`](https://gssdataexplorer.norc.org/variables/1497/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -286,7 +286,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdsex7`](https://gssdataexplorer.norc.org/variables/1498/vshow).
+#' For further details see the [GSS Data Explorer page for `kdsex7`](https://gssdataexplorer.norc.org/variables/1498/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kdsex8`](https://gssdataexplorer.norc.org/variables/1499/vshow).
+#' For further details see the [GSS Data Explorer page for `kdsex8`](https://gssdataexplorer.norc.org/variables/1499/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

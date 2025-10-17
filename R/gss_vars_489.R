@@ -23,7 +23,7 @@
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidsocst`](https://gssdataexplorer.norc.org/variables/4461/vshow).
+#' For further details see the [GSS Data Explorer page for `kidsocst`](https://gssdataexplorer.norc.org/variables/4461/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -59,7 +59,7 @@ NULL
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eldersup`](https://gssdataexplorer.norc.org/variables/4462/vshow).
+#' For further details see the [GSS Data Explorer page for `eldersup`](https://gssdataexplorer.norc.org/variables/4462/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paidlv`](https://gssdataexplorer.norc.org/variables/4463/vshow).
+#' For further details see the [GSS Data Explorer page for `paidlv`](https://gssdataexplorer.norc.org/variables/4463/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -127,7 +127,7 @@ NULL
 #'  |2012 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paidlvpy`](https://gssdataexplorer.norc.org/variables/4465/vshow).
+#' For further details see the [GSS Data Explorer page for `paidlvpy`](https://gssdataexplorer.norc.org/variables/4465/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -163,7 +163,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paidlvdv`](https://gssdataexplorer.norc.org/variables/4466/vshow).
+#' For further details see the [GSS Data Explorer page for `paidlvdv`](https://gssdataexplorer.norc.org/variables/4466/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -200,7 +200,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famwkbst`](https://gssdataexplorer.norc.org/variables/4467/vshow).
+#' For further details see the [GSS Data Explorer page for `famwkbst`](https://gssdataexplorer.norc.org/variables/4467/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -237,7 +237,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famwklst`](https://gssdataexplorer.norc.org/variables/4468/vshow).
+#' For further details see the [GSS Data Explorer page for `famwklst`](https://gssdataexplorer.norc.org/variables/4468/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -273,7 +273,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `careprov`](https://gssdataexplorer.norc.org/variables/4469/vshow).
+#' For further details see the [GSS Data Explorer page for `careprov`](https://gssdataexplorer.norc.org/variables/4469/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `carecost`](https://gssdataexplorer.norc.org/variables/4470/vshow).
+#' For further details see the [GSS Data Explorer page for `carecost`](https://gssdataexplorer.norc.org/variables/4470/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -344,7 +344,7 @@ NULL
 #'  |2022 |A/-     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eldhelp`](https://gssdataexplorer.norc.org/variables/4471/vshow).
+#' For further details see the [GSS Data Explorer page for `eldhelp`](https://gssdataexplorer.norc.org/variables/4471/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

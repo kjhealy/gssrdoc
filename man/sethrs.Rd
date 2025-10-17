@@ -34,16 +34,13 @@ Question Which of the following statements best describes how your working hours
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6295/vshow}{GSS Data Explorer page for \code{sethrs}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6295/vshow}{GSS Data Explorer page for \code{sethrs}}.
 }
 
 \seealso{
 Other Flexible Work: 
 \code{\link{advsched}},
-\code{\link{leasthrs}},
-\code{\link{mosthrs}},
-\code{\link{paidhow}},
-\code{\link{usualhrs}}
+\code{\link{leasthrs}}
 }
 \concept{Flexible Work}
 \keyword{variable}

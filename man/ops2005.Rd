@@ -30,14 +30,12 @@ Question Did your company grant you any  stock options  in 2005?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3552/vshow}{GSS Data Explorer page for \code{ops2005}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3552/vshow}{GSS Data Explorer page for \code{ops2005}}.
 }
 
 \seealso{
 Other Shared Capitalism: 
-\code{\link{buyvalue}},
 \code{\link{compwage}},
-\code{\link{defpensn}},
 \code{\link{empinput}},
 \code{\link{emptrain}},
 \code{\link{esop}},
@@ -45,7 +43,6 @@ Other Shared Capitalism:
 \code{\link{numorg}},
 \code{\link{slfmangd}},
 \code{\link{talkteam}},
-\code{\link{trdestck}},
 \code{\link{wealth}}
 }
 \concept{Shared Capitalism}

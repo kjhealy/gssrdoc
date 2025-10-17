@@ -20,7 +20,7 @@
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wktenure`](https://gssdataexplorer.norc.org/variables/4581/vshow).
+#' For further details see the [GSS Data Explorer page for `wktenure`](https://gssdataexplorer.norc.org/variables/4581/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |2018 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `useskill`](https://gssdataexplorer.norc.org/variables/4582/vshow).
+#' For further details see the [GSS Data Explorer page for `useskill`](https://gssdataexplorer.norc.org/variables/4582/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -93,7 +93,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `edcskill`](https://gssdataexplorer.norc.org/variables/4583/vshow).
+#' For further details see the [GSS Data Explorer page for `edcskill`](https://gssdataexplorer.norc.org/variables/4583/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -129,7 +129,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobskill`](https://gssdataexplorer.norc.org/variables/4584/vshow).
+#' For further details see the [GSS Data Explorer page for `jobskill`](https://gssdataexplorer.norc.org/variables/4584/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -167,7 +167,7 @@ NULL
 #'  |2016 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helporg1`](https://gssdataexplorer.norc.org/variables/4585/vshow).
+#' For further details see the [GSS Data Explorer page for `helporg1`](https://gssdataexplorer.norc.org/variables/4585/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -205,7 +205,7 @@ NULL
 #'  |2016 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prideorg`](https://gssdataexplorer.norc.org/variables/4586/vshow).
+#' For further details see the [GSS Data Explorer page for `prideorg`](https://gssdataexplorer.norc.org/variables/4586/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -241,7 +241,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chngwork`](https://gssdataexplorer.norc.org/variables/4587/vshow).
+#' For further details see the [GSS Data Explorer page for `chngwork`](https://gssdataexplorer.norc.org/variables/4587/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |2016 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stayorg3`](https://gssdataexplorer.norc.org/variables/4588/vshow).
+#' For further details see the [GSS Data Explorer page for `stayorg3`](https://gssdataexplorer.norc.org/variables/4588/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |2016 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proudwrk`](https://gssdataexplorer.norc.org/variables/4589/vshow).
+#' For further details see the [GSS Data Explorer page for `proudwrk`](https://gssdataexplorer.norc.org/variables/4589/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -351,7 +351,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `absent`](https://gssdataexplorer.norc.org/variables/4590/vshow).
+#' For further details see the [GSS Data Explorer page for `absent`](https://gssdataexplorer.norc.org/variables/4590/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

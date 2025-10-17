@@ -33,7 +33,7 @@ Question The government should take steps to limit the pay of executives at majo
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7550/vshow}{GSS Data Explorer page for \code{limitpay}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7550/vshow}{GSS Data Explorer page for \code{limitpay}}.
 }
 
 \keyword{variable}

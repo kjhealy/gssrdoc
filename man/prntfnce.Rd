@@ -33,7 +33,7 @@ Question Please consider a family with a father and a mother raising a child who
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7768/vshow}{GSS Data Explorer page for \code{prntfnce}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7768/vshow}{GSS Data Explorer page for \code{prntfnce}}.
 }
 
 \keyword{variable}

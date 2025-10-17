@@ -33,32 +33,16 @@ Question Based on what the doctor has just told you, how satisfied would you be 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2755/vshow}{GSS Data Explorer page for \code{docsat}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2755/vshow}{GSS Data Explorer page for \code{docsat}}.
 }
 
 \seealso{
 Other Doctors & Patients: 
-\code{\link{belvedoc}},
-\code{\link{chosedoc}},
-\code{\link{diffcare}},
-\code{\link{docaskme}},
 \code{\link{doccosts}},
-\code{\link{docdecid}},
 \code{\link{docinfo}},
 \code{\link{docnomri}},
-\code{\link{docrely}},
 \code{\link{docswtch}},
-\code{\link{docvig}},
-\code{\link{fininc}},
-\code{\link{fininc1}},
-\code{\link{fininc2}},
-\code{\link{fininc3}},
-\code{\link{fininc4}},
-\code{\link{hlthplan}},
 \code{\link{insrchng}},
-\code{\link{insrlmts}},
-\code{\link{regdoc}},
-\code{\link{regdocyr}},
 \code{\link{secopin}}
 }
 \concept{Doctors & Patients}

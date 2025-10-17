@@ -30,23 +30,12 @@ Question C. If your company has stock, is the stock of the company where your wo
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3563/vshow}{GSS Data Explorer page for \code{trdestck}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3563/vshow}{GSS Data Explorer page for \code{trdestck}}.
 }
 
 \seealso{
 Other Shared Capitalism: 
-\code{\link{buyvalue}},
-\code{\link{compwage}},
-\code{\link{defpensn}},
-\code{\link{empinput}},
-\code{\link{emptrain}},
-\code{\link{esop}},
-\code{\link{extr2005}},
-\code{\link{numorg}},
-\code{\link{ops2005}},
-\code{\link{slfmangd}},
-\code{\link{talkteam}},
-\code{\link{wealth}}
+\code{\link{defpensn}}
 }
 \concept{Shared Capitalism}
 \keyword{variable}

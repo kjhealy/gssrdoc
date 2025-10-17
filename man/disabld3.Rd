@@ -30,7 +30,7 @@ Question Do you have any condition that substantially limits one or more basic p
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3714/vshow}{GSS Data Explorer page for \code{disabld3}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3714/vshow}{GSS Data Explorer page for \code{disabld3}}.
 }
 
 \seealso{

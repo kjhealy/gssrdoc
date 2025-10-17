@@ -19,7 +19,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givintl`](https://gssdataexplorer.norc.org/variables/1942/vshow).
+#' For further details see the [GSS Data Explorer page for `givintl`](https://gssdataexplorer.norc.org/variables/1942/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givinfrm`](https://gssdataexplorer.norc.org/variables/1943/vshow).
+#' For further details see the [GSS Data Explorer page for `givinfrm`](https://gssdataexplorer.norc.org/variables/1943/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givoth`](https://gssdataexplorer.norc.org/variables/1944/vshow).
+#' For further details see the [GSS Data Explorer page for `givoth`](https://gssdataexplorer.norc.org/variables/1944/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -117,7 +117,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tothlth`](https://gssdataexplorer.norc.org/variables/1945/vshow).
+#' For further details see the [GSS Data Explorer page for `tothlth`](https://gssdataexplorer.norc.org/variables/1945/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -149,7 +149,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `toteduc`](https://gssdataexplorer.norc.org/variables/1946/vshow).
+#' For further details see the [GSS Data Explorer page for `toteduc`](https://gssdataexplorer.norc.org/variables/1946/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -181,7 +181,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `totrelig`](https://gssdataexplorer.norc.org/variables/1947/vshow).
+#' For further details see the [GSS Data Explorer page for `totrelig`](https://gssdataexplorer.norc.org/variables/1947/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -213,7 +213,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tothuman`](https://gssdataexplorer.norc.org/variables/1948/vshow).
+#' For further details see the [GSS Data Explorer page for `tothuman`](https://gssdataexplorer.norc.org/variables/1948/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `totenvir`](https://gssdataexplorer.norc.org/variables/1949/vshow).
+#' For further details see the [GSS Data Explorer page for `totenvir`](https://gssdataexplorer.norc.org/variables/1949/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -277,7 +277,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `totpub`](https://gssdataexplorer.norc.org/variables/1950/vshow).
+#' For further details see the [GSS Data Explorer page for `totpub`](https://gssdataexplorer.norc.org/variables/1950/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -309,7 +309,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `totrec`](https://gssdataexplorer.norc.org/variables/1951/vshow).
+#' For further details see the [GSS Data Explorer page for `totrec`](https://gssdataexplorer.norc.org/variables/1951/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

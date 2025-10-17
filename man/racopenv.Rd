@@ -34,7 +34,7 @@ to someone because of their race or color. Which law would you vote for?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7588/vshow}{GSS Data Explorer page for \code{racopenv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7588/vshow}{GSS Data Explorer page for \code{racopenv}}.
 }
 
 \keyword{variable}

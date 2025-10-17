@@ -33,7 +33,7 @@ Question What kind of health insurance do you have?  Please check all that apply
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7973/vshow}{GSS Data Explorer page for \code{instype02}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7973/vshow}{GSS Data Explorer page for \code{instype02}}.
 }
 
 \keyword{variable}

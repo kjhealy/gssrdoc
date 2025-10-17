@@ -30,7 +30,7 @@ Question Participating fully in school, housework, or other daily activities?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3718/vshow}{GSS Data Explorer page for \code{disabld7}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3718/vshow}{GSS Data Explorer page for \code{disabld7}}.
 }
 
 \seealso{

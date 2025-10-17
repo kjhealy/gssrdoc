@@ -54,16 +54,14 @@ Question B. Income Deficit of Household
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5197/vshow}{GSS Data Explorer page for \code{incdef}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5197/vshow}{GSS Data Explorer page for \code{incdef}}.
 }
 
 \seealso{
 Other Income: 
 \code{\link{coninc}},
 \code{\link{conrinc}},
-\code{\link{minfood}},
 \code{\link{minfour}},
-\code{\link{minthree}},
 \code{\link{povline}},
 \code{\link{realinc}},
 \code{\link{realrinc}}

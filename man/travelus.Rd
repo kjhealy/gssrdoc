@@ -32,7 +32,7 @@ Question Thinking about the most recent time you traveled to the United States f
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3026/vshow}{GSS Data Explorer page for \code{travelus}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3026/vshow}{GSS Data Explorer page for \code{travelus}}.
 }
 
 \seealso{

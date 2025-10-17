@@ -23,7 +23,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `neieth10`](https://gssdataexplorer.norc.org/variables/2371/vshow).
+#' For further details see the [GSS Data Explorer page for `neieth10`](https://gssdataexplorer.norc.org/variables/2371/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `neieth11`](https://gssdataexplorer.norc.org/variables/2372/vshow).
+#' For further details see the [GSS Data Explorer page for `neieth11`](https://gssdataexplorer.norc.org/variables/2372/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `neieth12`](https://gssdataexplorer.norc.org/variables/2373/vshow).
+#' For further details see the [GSS Data Explorer page for `neieth12`](https://gssdataexplorer.norc.org/variables/2373/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `neieth13`](https://gssdataexplorer.norc.org/variables/2374/vshow).
+#' For further details see the [GSS Data Explorer page for `neieth13`](https://gssdataexplorer.norc.org/variables/2374/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `neieth14`](https://gssdataexplorer.norc.org/variables/2375/vshow).
+#' For further details see the [GSS Data Explorer page for `neieth14`](https://gssdataexplorer.norc.org/variables/2375/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -209,7 +209,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hswht`](https://gssdataexplorer.norc.org/variables/2376/vshow).
+#' For further details see the [GSS Data Explorer page for `hswht`](https://gssdataexplorer.norc.org/variables/2376/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,7 +247,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hseth`](https://gssdataexplorer.norc.org/variables/2377/vshow).
+#' For further details see the [GSS Data Explorer page for `hseth`](https://gssdataexplorer.norc.org/variables/2377/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `compuse`](https://gssdataexplorer.norc.org/variables/2378/vshow).
+#' For further details see the [GSS Data Explorer page for `compuse`](https://gssdataexplorer.norc.org/variables/2378/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -322,7 +322,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `webtv`](https://gssdataexplorer.norc.org/variables/2379/vshow).
+#' For further details see the [GSS Data Explorer page for `webtv`](https://gssdataexplorer.norc.org/variables/2379/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -361,7 +361,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `webmob`](https://gssdataexplorer.norc.org/variables/2380/vshow).
+#' For further details see the [GSS Data Explorer page for `webmob`](https://gssdataexplorer.norc.org/variables/2380/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

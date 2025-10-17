@@ -62,14 +62,13 @@ Question DWELLING TYPE.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5291/vshow}{GSS Data Explorer page for \code{dwelling}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5291/vshow}{GSS Data Explorer page for \code{dwelling}}.
 }
 
 \seealso{
 Other Residence: 
 \code{\link{dwelcity}},
-\code{\link{dwelngh}},
-\code{\link{dwelown}}
+\code{\link{dwelngh}}
 }
 \concept{Residence}
 \keyword{variable}

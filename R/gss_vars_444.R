@@ -25,7 +25,7 @@
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthcare`](https://gssdataexplorer.norc.org/variables/4078/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthcare`](https://gssdataexplorer.norc.org/variables/4078/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -65,7 +65,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidold`](https://gssdataexplorer.norc.org/variables/4079/vshow).
+#' For further details see the [GSS Data Explorer page for `aidold`](https://gssdataexplorer.norc.org/variables/4079/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -104,7 +104,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidindus`](https://gssdataexplorer.norc.org/variables/4080/vshow).
+#' For further details see the [GSS Data Explorer page for `aidindus`](https://gssdataexplorer.norc.org/variables/4080/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -144,7 +144,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidunemp`](https://gssdataexplorer.norc.org/variables/4081/vshow).
+#' For further details see the [GSS Data Explorer page for `aidunemp`](https://gssdataexplorer.norc.org/variables/4081/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -185,7 +185,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `equalize`](https://gssdataexplorer.norc.org/variables/4082/vshow).
+#' For further details see the [GSS Data Explorer page for `equalize`](https://gssdataexplorer.norc.org/variables/4082/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -223,7 +223,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidcol`](https://gssdataexplorer.norc.org/variables/4083/vshow).
+#' For further details see the [GSS Data Explorer page for `aidcol`](https://gssdataexplorer.norc.org/variables/4083/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `aidhouse`](https://gssdataexplorer.norc.org/variables/4084/vshow).
+#' For further details see the [GSS Data Explorer page for `aidhouse`](https://gssdataexplorer.norc.org/variables/4084/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `protstrs`](https://gssdataexplorer.norc.org/variables/4085/vshow).
+#' For further details see the [GSS Data Explorer page for `protstrs`](https://gssdataexplorer.norc.org/variables/4085/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -333,7 +333,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `revoltrs`](https://gssdataexplorer.norc.org/variables/4086/vshow).
+#' For further details see the [GSS Data Explorer page for `revoltrs`](https://gssdataexplorer.norc.org/variables/4086/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -369,7 +369,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racists`](https://gssdataexplorer.norc.org/variables/4087/vshow).
+#' For further details see the [GSS Data Explorer page for `racists`](https://gssdataexplorer.norc.org/variables/4087/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

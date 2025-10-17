@@ -30,7 +30,7 @@ Question Do you have a vision problem that prevents you from reading a newspaper
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3713/vshow}{GSS Data Explorer page for \code{disabld2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3713/vshow}{GSS Data Explorer page for \code{disabld2}}.
 }
 
 \seealso{

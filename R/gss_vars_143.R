@@ -21,7 +21,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkmuch`](https://gssdataexplorer.norc.org/variables/1339/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkmuch`](https://gssdataexplorer.norc.org/variables/1339/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `imatter`](https://gssdataexplorer.norc.org/variables/1340/vshow).
+#' For further details see the [GSS Data Explorer page for `imatter`](https://gssdataexplorer.norc.org/variables/1340/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `helporg`](https://gssdataexplorer.norc.org/variables/1341/vshow).
+#' For further details see the [GSS Data Explorer page for `helporg`](https://gssdataexplorer.norc.org/variables/1341/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `notloyal`](https://gssdataexplorer.norc.org/variables/1342/vshow).
+#' For further details see the [GSS Data Explorer page for `notloyal`](https://gssdataexplorer.norc.org/variables/1342/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stayorg1`](https://gssdataexplorer.norc.org/variables/1343/vshow).
+#' For further details see the [GSS Data Explorer page for `stayorg1`](https://gssdataexplorer.norc.org/variables/1343/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `samevals`](https://gssdataexplorer.norc.org/variables/1344/vshow).
+#' For further details see the [GSS Data Explorer page for `samevals`](https://gssdataexplorer.norc.org/variables/1344/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -231,7 +231,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `proudorg`](https://gssdataexplorer.norc.org/variables/1345/vshow).
+#' For further details see the [GSS Data Explorer page for `proudorg`](https://gssdataexplorer.norc.org/variables/1345/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stayorg2`](https://gssdataexplorer.norc.org/variables/1346/vshow).
+#' For further details see the [GSS Data Explorer page for `stayorg2`](https://gssdataexplorer.norc.org/variables/1346/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `noticed`](https://gssdataexplorer.norc.org/variables/1347/vshow).
+#' For further details see the [GSS Data Explorer page for `noticed`](https://gssdataexplorer.norc.org/variables/1347/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -334,7 +334,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chngeorg`](https://gssdataexplorer.norc.org/variables/1348/vshow).
+#' For further details see the [GSS Data Explorer page for `chngeorg`](https://gssdataexplorer.norc.org/variables/1348/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

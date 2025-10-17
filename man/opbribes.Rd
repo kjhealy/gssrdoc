@@ -33,7 +33,7 @@ Question For each of these, please tell (CATIFILL3) how important you think it i
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7504/vshow}{GSS Data Explorer page for \code{opbribes}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7504/vshow}{GSS Data Explorer page for \code{opbribes}}.
 }
 
 \keyword{variable}

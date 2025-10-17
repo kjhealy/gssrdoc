@@ -34,7 +34,7 @@ Question From the following list, who do you think should have the greatest resp
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7506/vshow}{GSS Data Explorer page for \code{respineq}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7506/vshow}{GSS Data Explorer page for \code{respineq}}.
 }
 
 \keyword{variable}

@@ -21,7 +21,7 @@
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `taxserve`](https://gssdataexplorer.norc.org/variables/780/vshow).
+#' For further details see the [GSS Data Explorer page for `taxserve`](https://gssdataexplorer.norc.org/variables/780/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `milqual`](https://gssdataexplorer.norc.org/variables/781/vshow).
+#' For further details see the [GSS Data Explorer page for `milqual`](https://gssdataexplorer.norc.org/variables/781/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -93,7 +93,7 @@ NULL
 #'  |1983 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `milpay`](https://gssdataexplorer.norc.org/variables/782/vshow).
+#' For further details see the [GSS Data Explorer page for `milpay`](https://gssdataexplorer.norc.org/variables/782/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fenumok`](https://gssdataexplorer.norc.org/variables/783/vshow).
+#' For further details see the [GSS Data Explorer page for `fenumok`](https://gssdataexplorer.norc.org/variables/783/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -168,7 +168,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hinumok`](https://gssdataexplorer.norc.org/variables/784/vshow).
+#' For further details see the [GSS Data Explorer page for `hinumok`](https://gssdataexplorer.norc.org/variables/784/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -206,7 +206,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blnumok`](https://gssdataexplorer.norc.org/variables/785/vshow).
+#' For further details see the [GSS Data Explorer page for `blnumok`](https://gssdataexplorer.norc.org/variables/785/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hinumoky`](https://gssdataexplorer.norc.org/variables/786/vshow).
+#' For further details see the [GSS Data Explorer page for `hinumoky`](https://gssdataexplorer.norc.org/variables/786/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -273,7 +273,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `blnumoky`](https://gssdataexplorer.norc.org/variables/787/vshow).
+#' For further details see the [GSS Data Explorer page for `blnumoky`](https://gssdataexplorer.norc.org/variables/787/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -308,7 +308,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `milvolok`](https://gssdataexplorer.norc.org/variables/788/vshow).
+#' For further details see the [GSS Data Explorer page for `milvolok`](https://gssdataexplorer.norc.org/variables/788/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -341,7 +341,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fightair`](https://gssdataexplorer.norc.org/variables/789/vshow).
+#' For further details see the [GSS Data Explorer page for `fightair`](https://gssdataexplorer.norc.org/variables/789/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

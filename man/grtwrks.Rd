@@ -33,7 +33,7 @@ Question The great works of philosophy and science are the best source of truth,
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7538/vshow}{GSS Data Explorer page for \code{grtwrks}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7538/vshow}{GSS Data Explorer page for \code{grtwrks}}.
 }
 
 \keyword{variable}

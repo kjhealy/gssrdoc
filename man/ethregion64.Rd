@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  French Guiana
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7703/vshow}{GSS Data Explorer page for \code{ethregion64}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7703/vshow}{GSS Data Explorer page for \code{ethregion64}}.
 }
 
 \keyword{variable}

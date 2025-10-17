@@ -35,7 +35,7 @@ Question In general, would you say your health is excellent, very good, good, fa
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7271/vshow}{GSS Data Explorer page for \code{healthissp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7271/vshow}{GSS Data Explorer page for \code{healthissp}}.
 }
 
 \keyword{variable}

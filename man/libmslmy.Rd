@@ -32,7 +32,7 @@ If some people in your community suggested that a book this person wrote which p
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7446/vshow}{GSS Data Explorer page for \code{libmslmy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7446/vshow}{GSS Data Explorer page for \code{libmslmy}}.
 }
 
 \keyword{variable}

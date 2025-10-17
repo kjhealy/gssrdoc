@@ -32,7 +32,7 @@ Question Was your sex recorded as male or female at birth?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7478/vshow}{GSS Data Explorer page for \code{sexbirth1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7478/vshow}{GSS Data Explorer page for \code{sexbirth1}}.
 }
 
 \keyword{variable}

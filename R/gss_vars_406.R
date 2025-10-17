@@ -21,7 +21,7 @@
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trtmyrac`](https://gssdataexplorer.norc.org/variables/3699/vshow).
+#' For further details see the [GSS Data Explorer page for `trtmyrac`](https://gssdataexplorer.norc.org/variables/3699/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gunsales`](https://gssdataexplorer.norc.org/variables/3700/vshow).
+#' For further details see the [GSS Data Explorer page for `gunsales`](https://gssdataexplorer.norc.org/variables/3700/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -89,7 +89,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gunsdrug`](https://gssdataexplorer.norc.org/variables/3701/vshow).
+#' For further details see the [GSS Data Explorer page for `gunsdrug`](https://gssdataexplorer.norc.org/variables/3701/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -121,7 +121,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `semiguns`](https://gssdataexplorer.norc.org/variables/3702/vshow).
+#' For further details see the [GSS Data Explorer page for `semiguns`](https://gssdataexplorer.norc.org/variables/3702/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -153,7 +153,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `guns911`](https://gssdataexplorer.norc.org/variables/3703/vshow).
+#' For further details see the [GSS Data Explorer page for `guns911`](https://gssdataexplorer.norc.org/variables/3703/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -185,7 +185,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rifles50`](https://gssdataexplorer.norc.org/variables/3704/vshow).
+#' For further details see the [GSS Data Explorer page for `rifles50`](https://gssdataexplorer.norc.org/variables/3704/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -218,7 +218,7 @@ NULL
 #'  |2006 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othguns`](https://gssdataexplorer.norc.org/variables/3705/vshow).
+#' For further details see the [GSS Data Explorer page for `othguns`](https://gssdataexplorer.norc.org/variables/3705/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gunsdrnk`](https://gssdataexplorer.norc.org/variables/3706/vshow).
+#' For further details see the [GSS Data Explorer page for `gunsdrnk`](https://gssdataexplorer.norc.org/variables/3706/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spnatdis`](https://gssdataexplorer.norc.org/variables/3707/vshow).
+#' For further details see the [GSS Data Explorer page for `spnatdis`](https://gssdataexplorer.norc.org/variables/3707/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -317,7 +317,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natdisin`](https://gssdataexplorer.norc.org/variables/3708/vshow).
+#' For further details see the [GSS Data Explorer page for `natdisin`](https://gssdataexplorer.norc.org/variables/3708/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

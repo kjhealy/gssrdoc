@@ -19,7 +19,7 @@
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `harass5`](https://gssdataexplorer.norc.org/variables/6327/vshow).
+#' For further details see the [GSS Data Explorer page for `harass5`](https://gssdataexplorer.norc.org/variables/6327/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `unionsbd`](https://gssdataexplorer.norc.org/variables/6328/vshow).
+#' For further details see the [GSS Data Explorer page for `unionsbd`](https://gssdataexplorer.norc.org/variables/6328/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rcontact`](https://gssdataexplorer.norc.org/variables/6329/vshow).
+#' For further details see the [GSS Data Explorer page for `rcontact`](https://gssdataexplorer.norc.org/variables/6329/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -132,7 +132,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wkathome`](https://gssdataexplorer.norc.org/variables/6330/vshow).
+#' For further details see the [GSS Data Explorer page for `wkathome`](https://gssdataexplorer.norc.org/variables/6330/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -170,7 +170,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wkwkends`](https://gssdataexplorer.norc.org/variables/6331/vshow).
+#' For further details see the [GSS Data Explorer page for `wkwkends`](https://gssdataexplorer.norc.org/variables/6331/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -205,7 +205,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `decidwrk`](https://gssdataexplorer.norc.org/variables/6332/vshow).
+#' For further details see the [GSS Data Explorer page for `decidwrk`](https://gssdataexplorer.norc.org/variables/6332/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -239,7 +239,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkshift`](https://gssdataexplorer.norc.org/variables/6333/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkshift`](https://gssdataexplorer.norc.org/variables/6333/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -278,7 +278,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chngewrk`](https://gssdataexplorer.norc.org/variables/6334/vshow).
+#' For further details see the [GSS Data Explorer page for `chngewrk`](https://gssdataexplorer.norc.org/variables/6334/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nounemp5`](https://gssdataexplorer.norc.org/variables/6335/vshow).
+#' For further details see the [GSS Data Explorer page for `nounemp5`](https://gssdataexplorer.norc.org/variables/6335/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -354,7 +354,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nounemp6`](https://gssdataexplorer.norc.org/variables/6336/vshow).
+#' For further details see the [GSS Data Explorer page for `nounemp6`](https://gssdataexplorer.norc.org/variables/6336/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

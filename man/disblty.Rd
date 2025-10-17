@@ -30,7 +30,7 @@ Question Do you have a long-standing illness, a chronic condition, or a disabili
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7838/vshow}{GSS Data Explorer page for \code{disblty}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7838/vshow}{GSS Data Explorer page for \code{disblty}}.
 }
 
 \keyword{variable}

@@ -33,7 +33,7 @@ Question During the past four weeks, how often have you felt unhappy and depress
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7272/vshow}{GSS Data Explorer page for \code{unhappy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7272/vshow}{GSS Data Explorer page for \code{unhappy}}.
 }
 
 \keyword{variable}

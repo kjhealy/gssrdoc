@@ -21,7 +21,7 @@
 #'  |2021 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prochoic`](https://gssdataexplorer.norc.org/variables/7542/vshow).
+#' For further details see the [GSS Data Explorer page for `prochoic`](https://gssdataexplorer.norc.org/variables/7542/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prolife`](https://gssdataexplorer.norc.org/variables/7543/vshow).
+#' For further details see the [GSS Data Explorer page for `prolife`](https://gssdataexplorer.norc.org/variables/7543/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godusa`](https://gssdataexplorer.norc.org/variables/7544/vshow).
+#' For further details see the [GSS Data Explorer page for `godusa`](https://gssdataexplorer.norc.org/variables/7544/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govchrst`](https://gssdataexplorer.norc.org/variables/7545/vshow).
+#' For further details see the [GSS Data Explorer page for `govchrst`](https://gssdataexplorer.norc.org/variables/7545/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -158,7 +158,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `buseqinc`](https://gssdataexplorer.norc.org/variables/7546/vshow).
+#' For further details see the [GSS Data Explorer page for `buseqinc`](https://gssdataexplorer.norc.org/variables/7546/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -193,7 +193,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trdunio1`](https://gssdataexplorer.norc.org/variables/7547/vshow).
+#' For further details see the [GSS Data Explorer page for `trdunio1`](https://gssdataexplorer.norc.org/variables/7547/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -228,7 +228,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `boardrep`](https://gssdataexplorer.norc.org/variables/7548/vshow).
+#' For further details see the [GSS Data Explorer page for `boardrep`](https://gssdataexplorer.norc.org/variables/7548/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -263,7 +263,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `upwages`](https://gssdataexplorer.norc.org/variables/7549/vshow).
+#' For further details see the [GSS Data Explorer page for `upwages`](https://gssdataexplorer.norc.org/variables/7549/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `limitpay`](https://gssdataexplorer.norc.org/variables/7550/vshow).
+#' For further details see the [GSS Data Explorer page for `limitpay`](https://gssdataexplorer.norc.org/variables/7550/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -333,7 +333,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `govfnanc`](https://gssdataexplorer.norc.org/variables/7552/vshow).
+#' For further details see the [GSS Data Explorer page for `govfnanc`](https://gssdataexplorer.norc.org/variables/7552/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

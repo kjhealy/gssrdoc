@@ -21,7 +21,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trbllaw`](https://gssdataexplorer.norc.org/variables/2964/vshow).
+#' For further details see the [GSS Data Explorer page for `trbllaw`](https://gssdataexplorer.norc.org/variables/2964/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `medsavtx`](https://gssdataexplorer.norc.org/variables/2965/vshow).
+#' For further details see the [GSS Data Explorer page for `medsavtx`](https://gssdataexplorer.norc.org/variables/2965/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `zombies`](https://gssdataexplorer.norc.org/variables/2966/vshow).
+#' For further details see the [GSS Data Explorer page for `zombies`](https://gssdataexplorer.norc.org/variables/2966/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pryntfam`](https://gssdataexplorer.norc.org/variables/2967/vshow).
+#' For further details see the [GSS Data Explorer page for `pryntfam`](https://gssdataexplorer.norc.org/variables/2967/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -160,7 +160,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `adhdknow`](https://gssdataexplorer.norc.org/variables/2968/vshow).
+#' For further details see the [GSS Data Explorer page for `adhdknow`](https://gssdataexplorer.norc.org/variables/2968/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `adhdknw`](https://gssdataexplorer.norc.org/variables/2969/vshow).
+#' For further details see the [GSS Data Explorer page for `adhdknw`](https://gssdataexplorer.norc.org/variables/2969/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -234,7 +234,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `adhdreal`](https://gssdataexplorer.norc.org/variables/2970/vshow).
+#' For further details see the [GSS Data Explorer page for `adhdreal`](https://gssdataexplorer.norc.org/variables/2970/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `adhdcon`](https://gssdataexplorer.norc.org/variables/2971/vshow).
+#' For further details see the [GSS Data Explorer page for `adhdcon`](https://gssdataexplorer.norc.org/variables/2971/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -298,7 +298,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `adhdmed`](https://gssdataexplorer.norc.org/variables/2972/vshow).
+#' For further details see the [GSS Data Explorer page for `adhdmed`](https://gssdataexplorer.norc.org/variables/2972/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -332,7 +332,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mntlrel`](https://gssdataexplorer.norc.org/variables/2973/vshow).
+#' For further details see the [GSS Data Explorer page for `mntlrel`](https://gssdataexplorer.norc.org/variables/2973/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

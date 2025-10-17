@@ -33,7 +33,7 @@ Question If you received a performance rating from your organization in 2021, wh
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7853/vshow}{GSS Data Explorer page for \code{perfrt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7853/vshow}{GSS Data Explorer page for \code{perfrt}}.
 }
 
 \keyword{variable}

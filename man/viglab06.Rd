@@ -36,13 +36,11 @@ IF VIGVER06 = 4, Skip to MHTRTOTH
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3564/vshow}{GSS Data Explorer page for \code{viglab06}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3564/vshow}{GSS Data Explorer page for \code{viglab06}}.
 }
 
 \seealso{
 Other Mental Health III: 
-\code{\link{avoidmh}},
-\code{\link{gesttalk}},
 \code{\link{mhothrel}},
 \code{\link{mhothyou}},
 \code{\link{mhtrtoth}},

@@ -20,7 +20,7 @@
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lawimp`](https://gssdataexplorer.norc.org/variables/281/vshow).
+#' For further details see the [GSS Data Explorer page for `lawimp`](https://gssdataexplorer.norc.org/variables/281/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lawinfo`](https://gssdataexplorer.norc.org/variables/282/vshow).
+#' For further details see the [GSS Data Explorer page for `lawinfo`](https://gssdataexplorer.norc.org/variables/282/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lawfirm`](https://gssdataexplorer.norc.org/variables/283/vshow).
+#' For further details see the [GSS Data Explorer page for `lawfirm`](https://gssdataexplorer.norc.org/variables/283/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -133,7 +133,7 @@ NULL
 #'  |1994 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wirtap`](https://gssdataexplorer.norc.org/variables/284/vshow).
+#' For further details see the [GSS Data Explorer page for `wirtap`](https://gssdataexplorer.norc.org/variables/284/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -193,7 +193,7 @@ NULL
 #'  |2022 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grass`](https://gssdataexplorer.norc.org/variables/285/vshow).
+#' For further details see the [GSS Data Explorer page for `grass`](https://gssdataexplorer.norc.org/variables/285/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -226,7 +226,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `grassy`](https://gssdataexplorer.norc.org/variables/286/vshow).
+#' For further details see the [GSS Data Explorer page for `grassy`](https://gssdataexplorer.norc.org/variables/286/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -303,7 +303,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relig`](https://gssdataexplorer.norc.org/variables/287/vshow).
+#' For further details see the [GSS Data Explorer page for `relig`](https://gssdataexplorer.norc.org/variables/287/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -395,7 +395,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `denom`](https://gssdataexplorer.norc.org/variables/288/vshow).
+#' For further details see the [GSS Data Explorer page for `denom`](https://gssdataexplorer.norc.org/variables/288/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -675,7 +675,7 @@ NULL
 #'  |2022 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `other`](https://gssdataexplorer.norc.org/variables/289/vshow).
+#' For further details see the [GSS Data Explorer page for `other`](https://gssdataexplorer.norc.org/variables/289/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -709,7 +709,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `othjew`](https://gssdataexplorer.norc.org/variables/290/vshow).
+#' For further details see the [GSS Data Explorer page for `othjew`](https://gssdataexplorer.norc.org/variables/290/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

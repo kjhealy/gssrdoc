@@ -32,23 +32,8 @@ Question Approximately what percent of the company stock that you own today did 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3551/vshow}{GSS Data Explorer page for \code{buyvalue}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3551/vshow}{GSS Data Explorer page for \code{buyvalue}}.
 }
 
-\seealso{
-Other Shared Capitalism: 
-\code{\link{compwage}},
-\code{\link{defpensn}},
-\code{\link{empinput}},
-\code{\link{emptrain}},
-\code{\link{esop}},
-\code{\link{extr2005}},
-\code{\link{numorg}},
-\code{\link{ops2005}},
-\code{\link{slfmangd}},
-\code{\link{talkteam}},
-\code{\link{trdestck}},
-\code{\link{wealth}}
-}
 \concept{Shared Capitalism}
 \keyword{variable}

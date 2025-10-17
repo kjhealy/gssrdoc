@@ -32,7 +32,7 @@ Question Do you know a woman or a man who isï¿½A human resources manager
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7233/vshow}{GSS Data Explorer page for \code{knwhrman}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7233/vshow}{GSS Data Explorer page for \code{knwhrman}}.
 }
 
 \keyword{variable}

@@ -50,7 +50,7 @@
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `occstatus`](https://gssdataexplorer.norc.org/variables/5982/vshow).
+#' For further details see the [GSS Data Explorer page for `occstatus`](https://gssdataexplorer.norc.org/variables/5982/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -110,7 +110,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `occtag`](https://gssdataexplorer.norc.org/variables/5983/vshow).
+#' For further details see the [GSS Data Explorer page for `occtag`](https://gssdataexplorer.norc.org/variables/5983/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -175,7 +175,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prestg10`](https://gssdataexplorer.norc.org/variables/5706/vshow).
+#' For further details see the [GSS Data Explorer page for `prestg10`](https://gssdataexplorer.norc.org/variables/5706/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prestg105plus`](https://gssdataexplorer.norc.org/variables/5707/vshow).
+#' For further details see the [GSS Data Explorer page for `prestg105plus`](https://gssdataexplorer.norc.org/variables/5707/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -575,7 +575,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `indus10`](https://gssdataexplorer.norc.org/variables/17/vshow).
+#' For further details see the [GSS Data Explorer page for `indus10`](https://gssdataexplorer.norc.org/variables/17/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -639,7 +639,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `indstatus`](https://gssdataexplorer.norc.org/variables/5984/vshow).
+#' For further details see the [GSS Data Explorer page for `indstatus`](https://gssdataexplorer.norc.org/variables/5984/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -699,7 +699,7 @@ NULL
 #'  |2010 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `indtag`](https://gssdataexplorer.norc.org/variables/5985/vshow).
+#' For further details see the [GSS Data Explorer page for `indtag`](https://gssdataexplorer.norc.org/variables/5985/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -768,7 +768,7 @@ NULL
 #'  |2024 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `marital`](https://gssdataexplorer.norc.org/variables/18/vshow).
+#' For further details see the [GSS Data Explorer page for `marital`](https://gssdataexplorer.norc.org/variables/18/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -807,7 +807,7 @@ NULL
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `martype`](https://gssdataexplorer.norc.org/variables/19/vshow).
+#' For further details see the [GSS Data Explorer page for `martype`](https://gssdataexplorer.norc.org/variables/19/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -859,7 +859,7 @@ NULL
 #'  |2006 |D/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agewed`](https://gssdataexplorer.norc.org/variables/20/vshow).
+#' For further details see the [GSS Data Explorer page for `agewed`](https://gssdataexplorer.norc.org/variables/20/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

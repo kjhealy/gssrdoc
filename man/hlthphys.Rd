@@ -34,7 +34,7 @@ Question In general, how would you rate your physical health?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7164/vshow}{GSS Data Explorer page for \code{hlthphys}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7164/vshow}{GSS Data Explorer page for \code{hlthphys}}.
 }
 
 \keyword{variable}

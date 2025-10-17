@@ -34,7 +34,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `memschl`](https://gssdataexplorer.norc.org/variables/970/vshow).
+#' For further details see the [GSS Data Explorer page for `memschl`](https://gssdataexplorer.norc.org/variables/970/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `memhobby`](https://gssdataexplorer.norc.org/variables/971/vshow).
+#' For further details see the [GSS Data Explorer page for `memhobby`](https://gssdataexplorer.norc.org/variables/971/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `memgreek`](https://gssdataexplorer.norc.org/variables/972/vshow).
+#' For further details see the [GSS Data Explorer page for `memgreek`](https://gssdataexplorer.norc.org/variables/972/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -178,7 +178,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `memnat`](https://gssdataexplorer.norc.org/variables/973/vshow).
+#' For further details see the [GSS Data Explorer page for `memnat`](https://gssdataexplorer.norc.org/variables/973/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -226,7 +226,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `memfarm`](https://gssdataexplorer.norc.org/variables/974/vshow).
+#' For further details see the [GSS Data Explorer page for `memfarm`](https://gssdataexplorer.norc.org/variables/974/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `memlit`](https://gssdataexplorer.norc.org/variables/975/vshow).
+#' For further details see the [GSS Data Explorer page for `memlit`](https://gssdataexplorer.norc.org/variables/975/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -322,7 +322,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `memprof`](https://gssdataexplorer.norc.org/variables/976/vshow).
+#' For further details see the [GSS Data Explorer page for `memprof`](https://gssdataexplorer.norc.org/variables/976/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -370,7 +370,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `memchurh`](https://gssdataexplorer.norc.org/variables/977/vshow).
+#' For further details see the [GSS Data Explorer page for `memchurh`](https://gssdataexplorer.norc.org/variables/977/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -418,7 +418,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `memother`](https://gssdataexplorer.norc.org/variables/978/vshow).
+#' For further details see the [GSS Data Explorer page for `memother`](https://gssdataexplorer.norc.org/variables/978/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -465,7 +465,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `memnum`](https://gssdataexplorer.norc.org/variables/979/vshow).
+#' For further details see the [GSS Data Explorer page for `memnum`](https://gssdataexplorer.norc.org/variables/979/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

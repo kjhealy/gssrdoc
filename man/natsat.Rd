@@ -32,7 +32,7 @@ Question I am satisfied with my day to day experience of nature.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7188/vshow}{GSS Data Explorer page for \code{natsat}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7188/vshow}{GSS Data Explorer page for \code{natsat}}.
 }
 
 \keyword{variable}

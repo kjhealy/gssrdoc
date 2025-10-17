@@ -34,7 +34,7 @@ Question Now thinking about safety in this neighborhood, how safe do you think i
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6658/vshow}{GSS Data Explorer page for \code{neisafe}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6658/vshow}{GSS Data Explorer page for \code{neisafe}}.
 }
 
 \keyword{variable}

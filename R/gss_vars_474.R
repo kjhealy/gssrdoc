@@ -22,7 +22,7 @@
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conage`](https://gssdataexplorer.norc.org/variables/4312/vshow).
+#' For further details see the [GSS Data Explorer page for `conage`](https://gssdataexplorer.norc.org/variables/4312/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `occmobil`](https://gssdataexplorer.norc.org/variables/4313/vshow).
+#' For further details see the [GSS Data Explorer page for `occmobil`](https://gssdataexplorer.norc.org/variables/4313/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -100,7 +100,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pajob`](https://gssdataexplorer.norc.org/variables/4314/vshow).
+#' For further details see the [GSS Data Explorer page for `pajob`](https://gssdataexplorer.norc.org/variables/4314/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paslf`](https://gssdataexplorer.norc.org/variables/4315/vshow).
+#' For further details see the [GSS Data Explorer page for `paslf`](https://gssdataexplorer.norc.org/variables/4315/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -174,7 +174,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `firstjob`](https://gssdataexplorer.norc.org/variables/4316/vshow).
+#' For further details see the [GSS Data Explorer page for `firstjob`](https://gssdataexplorer.norc.org/variables/4316/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `firstslf`](https://gssdataexplorer.norc.org/variables/4317/vshow).
+#' For further details see the [GSS Data Explorer page for `firstslf`](https://gssdataexplorer.norc.org/variables/4317/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -248,7 +248,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lastjob`](https://gssdataexplorer.norc.org/variables/4318/vshow).
+#' For further details see the [GSS Data Explorer page for `lastjob`](https://gssdataexplorer.norc.org/variables/4318/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lastslf`](https://gssdataexplorer.norc.org/variables/4319/vshow).
+#' For further details see the [GSS Data Explorer page for `lastslf`](https://gssdataexplorer.norc.org/variables/4319/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -318,7 +318,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rewrdeff`](https://gssdataexplorer.norc.org/variables/4320/vshow).
+#' For further details see the [GSS Data Explorer page for `rewrdeff`](https://gssdataexplorer.norc.org/variables/4320/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -354,7 +354,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rewrdint`](https://gssdataexplorer.norc.org/variables/4321/vshow).
+#' For further details see the [GSS Data Explorer page for `rewrdint`](https://gssdataexplorer.norc.org/variables/4321/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

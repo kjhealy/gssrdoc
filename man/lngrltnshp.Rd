@@ -31,7 +31,7 @@ Are you married to, partnered with, or otherwise in a long-term relationship wit
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8016/vshow}{GSS Data Explorer page for \code{lngrltnshp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8016/vshow}{GSS Data Explorer page for \code{lngrltnshp}}.
 }
 
 \keyword{variable}

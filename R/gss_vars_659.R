@@ -19,7 +19,7 @@
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv5bronum`](https://gssdataexplorer.norc.org/variables/7914/vshow).
+#' For further details see the [GSS Data Explorer page for `brv5bronum`](https://gssdataexplorer.norc.org/variables/7914/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv5sisnum`](https://gssdataexplorer.norc.org/variables/7915/vshow).
+#' For further details see the [GSS Data Explorer page for `brv5sisnum`](https://gssdataexplorer.norc.org/variables/7915/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv5silnum`](https://gssdataexplorer.norc.org/variables/7916/vshow).
+#' For further details see the [GSS Data Explorer page for `brv5silnum`](https://gssdataexplorer.norc.org/variables/7916/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv5cuznum`](https://gssdataexplorer.norc.org/variables/7917/vshow).
+#' For further details see the [GSS Data Explorer page for `brv5cuznum`](https://gssdataexplorer.norc.org/variables/7917/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -151,7 +151,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv5frndnum`](https://gssdataexplorer.norc.org/variables/7918/vshow).
+#' For further details see the [GSS Data Explorer page for `brv5frndnum`](https://gssdataexplorer.norc.org/variables/7918/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -184,7 +184,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv5cowknum`](https://gssdataexplorer.norc.org/variables/7919/vshow).
+#' For further details see the [GSS Data Explorer page for `brv5cowknum`](https://gssdataexplorer.norc.org/variables/7919/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -217,7 +217,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv5othnum`](https://gssdataexplorer.norc.org/variables/7920/vshow).
+#' For further details see the [GSS Data Explorer page for `brv5othnum`](https://gssdataexplorer.norc.org/variables/7920/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -251,7 +251,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16`](https://gssdataexplorer.norc.org/variables/7921/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16`](https://gssdataexplorer.norc.org/variables/7921/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16sp`](https://gssdataexplorer.norc.org/variables/7922/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16sp`](https://gssdataexplorer.norc.org/variables/7922/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `brv16par`](https://gssdataexplorer.norc.org/variables/7923/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16par`](https://gssdataexplorer.norc.org/variables/7923/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

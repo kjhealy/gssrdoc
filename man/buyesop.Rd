@@ -33,7 +33,7 @@ with each employee having a share of ownership.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7225/vshow}{GSS Data Explorer page for \code{buyesop}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7225/vshow}{GSS Data Explorer page for \code{buyesop}}.
 }
 
 \keyword{variable}

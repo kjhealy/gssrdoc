@@ -33,7 +33,7 @@ Question Are youâ€¦
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7601/vshow}{GSS Data Explorer page for \code{fucitznv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7601/vshow}{GSS Data Explorer page for \code{fucitznv}}.
 }
 
 \keyword{variable}

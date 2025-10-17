@@ -23,7 +23,7 @@
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paychild`](https://gssdataexplorer.norc.org/variables/4332/vshow).
+#' For further details see the [GSS Data Explorer page for `paychild`](https://gssdataexplorer.norc.org/variables/4332/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `paydowel`](https://gssdataexplorer.norc.org/variables/4333/vshow).
+#' For further details see the [GSS Data Explorer page for `paydowel`](https://gssdataexplorer.norc.org/variables/4333/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -96,7 +96,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payhard`](https://gssdataexplorer.norc.org/variables/4334/vshow).
+#' For further details see the [GSS Data Explorer page for `payhard`](https://gssdataexplorer.norc.org/variables/4334/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -132,7 +132,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `justpay`](https://gssdataexplorer.norc.org/variables/4335/vshow).
+#' For further details see the [GSS Data Explorer page for `justpay`](https://gssdataexplorer.norc.org/variables/4335/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -168,7 +168,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `soctype1`](https://gssdataexplorer.norc.org/variables/4336/vshow).
+#' For further details see the [GSS Data Explorer page for `soctype1`](https://gssdataexplorer.norc.org/variables/4336/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -204,7 +204,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `soctype2`](https://gssdataexplorer.norc.org/variables/4337/vshow).
+#' For further details see the [GSS Data Explorer page for `soctype2`](https://gssdataexplorer.norc.org/variables/4337/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -237,7 +237,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famrnk`](https://gssdataexplorer.norc.org/variables/4338/vshow).
+#' For further details see the [GSS Data Explorer page for `famrnk`](https://gssdataexplorer.norc.org/variables/4338/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -270,7 +270,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `unsklrnk`](https://gssdataexplorer.norc.org/variables/4339/vshow).
+#' For further details see the [GSS Data Explorer page for `unsklrnk`](https://gssdataexplorer.norc.org/variables/4339/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -303,7 +303,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `execrnk`](https://gssdataexplorer.norc.org/variables/4340/vshow).
+#' For further details see the [GSS Data Explorer page for `execrnk`](https://gssdataexplorer.norc.org/variables/4340/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pasup`](https://gssdataexplorer.norc.org/variables/4341/vshow).
+#' For further details see the [GSS Data Explorer page for `pasup`](https://gssdataexplorer.norc.org/variables/4341/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

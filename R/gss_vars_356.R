@@ -18,7 +18,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrprof6`](https://gssdataexplorer.norc.org/variables/3204/vshow).
+#' For further details see the [GSS Data Explorer page for `yrprof6`](https://gssdataexplorer.norc.org/variables/3204/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrchurh1`](https://gssdataexplorer.norc.org/variables/3205/vshow).
+#' For further details see the [GSS Data Explorer page for `yrchurh1`](https://gssdataexplorer.norc.org/variables/3205/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrchurh2`](https://gssdataexplorer.norc.org/variables/3206/vshow).
+#' For further details see the [GSS Data Explorer page for `yrchurh2`](https://gssdataexplorer.norc.org/variables/3206/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -114,7 +114,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrchurh3`](https://gssdataexplorer.norc.org/variables/3207/vshow).
+#' For further details see the [GSS Data Explorer page for `yrchurh3`](https://gssdataexplorer.norc.org/variables/3207/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -146,7 +146,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrchurh4`](https://gssdataexplorer.norc.org/variables/3208/vshow).
+#' For further details see the [GSS Data Explorer page for `yrchurh4`](https://gssdataexplorer.norc.org/variables/3208/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -178,7 +178,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrchurh5`](https://gssdataexplorer.norc.org/variables/3209/vshow).
+#' For further details see the [GSS Data Explorer page for `yrchurh5`](https://gssdataexplorer.norc.org/variables/3209/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -210,7 +210,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrchurh6`](https://gssdataexplorer.norc.org/variables/3210/vshow).
+#' For further details see the [GSS Data Explorer page for `yrchurh6`](https://gssdataexplorer.norc.org/variables/3210/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -242,7 +242,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrother1`](https://gssdataexplorer.norc.org/variables/3211/vshow).
+#' For further details see the [GSS Data Explorer page for `yrother1`](https://gssdataexplorer.norc.org/variables/3211/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -274,7 +274,7 @@ NULL
 #'  |2004 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrother2`](https://gssdataexplorer.norc.org/variables/3212/vshow).
+#' For further details see the [GSS Data Explorer page for `yrother2`](https://gssdataexplorer.norc.org/variables/3212/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `yrother3`](https://gssdataexplorer.norc.org/variables/3213/vshow).
+#' For further details see the [GSS Data Explorer page for `yrother3`](https://gssdataexplorer.norc.org/variables/3213/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

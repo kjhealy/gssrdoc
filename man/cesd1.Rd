@@ -34,7 +34,7 @@ I will now read out a list of the ways you might have felt or behaved during the
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6297/vshow}{GSS Data Explorer page for \code{cesd1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6297/vshow}{GSS Data Explorer page for \code{cesd1}}.
 }
 
 \seealso{

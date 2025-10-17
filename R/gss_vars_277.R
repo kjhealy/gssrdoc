@@ -23,7 +23,7 @@
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthmag2`](https://gssdataexplorer.norc.org/variables/2519/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthmag2`](https://gssdataexplorer.norc.org/variables/2519/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthdoc`](https://gssdataexplorer.norc.org/variables/2520/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthdoc`](https://gssdataexplorer.norc.org/variables/2520/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthfrel`](https://gssdataexplorer.norc.org/variables/2521/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthfrel`](https://gssdataexplorer.norc.org/variables/2521/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthtv`](https://gssdataexplorer.norc.org/variables/2522/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthtv`](https://gssdataexplorer.norc.org/variables/2522/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlthwww`](https://gssdataexplorer.norc.org/variables/2523/vshow).
+#' For further details see the [GSS Data Explorer page for `hlthwww`](https://gssdataexplorer.norc.org/variables/2523/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -204,7 +204,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polinfo`](https://gssdataexplorer.norc.org/variables/2524/vshow).
+#' For further details see the [GSS Data Explorer page for `polinfo`](https://gssdataexplorer.norc.org/variables/2524/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polpapr`](https://gssdataexplorer.norc.org/variables/2525/vshow).
+#' For further details see the [GSS Data Explorer page for `polpapr`](https://gssdataexplorer.norc.org/variables/2525/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -272,7 +272,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polmag1`](https://gssdataexplorer.norc.org/variables/2526/vshow).
+#' For further details see the [GSS Data Explorer page for `polmag1`](https://gssdataexplorer.norc.org/variables/2526/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polmag2`](https://gssdataexplorer.norc.org/variables/2527/vshow).
+#' For further details see the [GSS Data Explorer page for `polmag2`](https://gssdataexplorer.norc.org/variables/2527/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -340,7 +340,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poltv`](https://gssdataexplorer.norc.org/variables/2528/vshow).
+#' For further details see the [GSS Data Explorer page for `poltv`](https://gssdataexplorer.norc.org/variables/2528/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

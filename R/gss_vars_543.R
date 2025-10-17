@@ -20,7 +20,7 @@
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fixmistk`](https://gssdataexplorer.norc.org/variables/4958/vshow).
+#' For further details see the [GSS Data Explorer page for `fixmistk`](https://gssdataexplorer.norc.org/variables/4958/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `corruptn`](https://gssdataexplorer.norc.org/variables/4959/vshow).
+#' For further details see the [GSS Data Explorer page for `corruptn`](https://gssdataexplorer.norc.org/variables/4959/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `demtoday`](https://gssdataexplorer.norc.org/variables/4960/vshow).
+#' For further details see the [GSS Data Explorer page for `demtoday`](https://gssdataexplorer.norc.org/variables/4960/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -127,7 +127,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dem10pst`](https://gssdataexplorer.norc.org/variables/4961/vshow).
+#' For further details see the [GSS Data Explorer page for `dem10pst`](https://gssdataexplorer.norc.org/variables/4961/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -162,7 +162,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dem10fut`](https://gssdataexplorer.norc.org/variables/4962/vshow).
+#' For further details see the [GSS Data Explorer page for `dem10fut`](https://gssdataexplorer.norc.org/variables/4962/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -194,7 +194,7 @@ NULL
 #'  |2004 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `demrghts`](https://gssdataexplorer.norc.org/variables/4963/vshow).
+#' For further details see the [GSS Data Explorer page for `demrghts`](https://gssdataexplorer.norc.org/variables/4963/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -227,7 +227,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gvtrghts`](https://gssdataexplorer.norc.org/variables/4964/vshow).
+#' For further details see the [GSS Data Explorer page for `gvtrghts`](https://gssdataexplorer.norc.org/variables/4964/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -262,7 +262,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polinter`](https://gssdataexplorer.norc.org/variables/4965/vshow).
+#' For further details see the [GSS Data Explorer page for `polinter`](https://gssdataexplorer.norc.org/variables/4965/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -300,7 +300,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polnews`](https://gssdataexplorer.norc.org/variables/4966/vshow).
+#' For further details see the [GSS Data Explorer page for `polnews`](https://gssdataexplorer.norc.org/variables/4966/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -333,7 +333,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `crimlose`](https://gssdataexplorer.norc.org/variables/4967/vshow).
+#' For further details see the [GSS Data Explorer page for `crimlose`](https://gssdataexplorer.norc.org/variables/4967/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

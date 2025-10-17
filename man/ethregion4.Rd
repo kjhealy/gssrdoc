@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  Denmark
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7643/vshow}{GSS Data Explorer page for \code{ethregion4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7643/vshow}{GSS Data Explorer page for \code{ethregion4}}.
 }
 
 \keyword{variable}

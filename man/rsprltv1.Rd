@@ -30,7 +30,7 @@ Question People have different opinions about responsibilities towards relatives
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7778/vshow}{GSS Data Explorer page for \code{rsprltv1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7778/vshow}{GSS Data Explorer page for \code{rsprltv1}}.
 }
 
 \keyword{variable}

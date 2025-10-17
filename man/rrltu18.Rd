@@ -30,7 +30,7 @@ Question Are you related in some other way to at least one individual under the 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8029/vshow}{GSS Data Explorer page for \code{rrltu18}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8029/vshow}{GSS Data Explorer page for \code{rrltu18}}.
 }
 
 \keyword{variable}

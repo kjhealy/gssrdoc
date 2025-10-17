@@ -45,76 +45,20 @@ Question A. What do you think the chances are these days that a man won't get a 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/1674/vshow}{GSS Data Explorer page for \code{discaffm}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1674/vshow}{GSS Data Explorer page for \code{discaffm}}.
 }
 
 \seealso{
 Other Gender: 
 \code{\link{allben}},
-\code{\link{allhrt}},
-\code{\link{balwkfam}},
-\code{\link{children}},
 \code{\link{chldben}},
-\code{\link{chldhrt}},
 \code{\link{discaffw}},
-\code{\link{earnmore}},
-\code{\link{emoteoth}},
-\code{\link{fairhwrk}},
-\code{\link{famlife}},
-\code{\link{febear}},
-\code{\link{fehire}},
-\code{\link{feimp}},
-\code{\link{fejobaff}},
-\code{\link{fekids1}},
-\code{\link{fekids2}},
-\code{\link{fekids3}},
-\code{\link{fekids4}},
-\code{\link{fekids5}},
-\code{\link{feless1}},
-\code{\link{feless2}},
-\code{\link{feless3}},
-\code{\link{feminist}},
-\code{\link{fenews}},
 \code{\link{flextime}},
-\code{\link{hapboys}},
-\code{\link{hapgirls}},
-\code{\link{haprom}},
-\code{\link{hmemaker}},
-\code{\link{livewith}},
-\code{\link{manprof}},
-\code{\link{marfree}},
-\code{\link{mebear}},
-\code{\link{men}},
 \code{\link{menben}},
-\code{\link{menhrt}},
-\code{\link{meovrwrk}},
-\code{\link{noathome}},
 \code{\link{nohmewrk}},
 \code{\link{nonurse}},
-\code{\link{nooneben}},
-\code{\link{noonehrt}},
 \code{\link{parleave}},
-\code{\link{refmorwk}},
-\code{\link{refpromo}},
-\code{\link{refxhour}},
-\code{\link{rhmewrk}},
-\code{\link{romance}},
-\code{\link{rushed}},
-\code{\link{selffrst}},
-\code{\link{sexhar}},
-\code{\link{sexpromo}},
-\code{\link{sharesep}},
-\code{\link{sphmewrk}},
-\code{\link{tradmod}},
-\code{\link{twoincs}},
-\code{\link{willwed1}},
-\code{\link{willwed2}},
-\code{\link{womenben}},
-\code{\link{womenhrt}},
-\code{\link{workless}},
-\code{\link{worklife}},
-\code{\link{wrkclass}},
-\code{\link{yourself}}
+\code{\link{womenben}}
 }
 \concept{Gender}
 \keyword{variable}

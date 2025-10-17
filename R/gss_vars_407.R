@@ -18,7 +18,7 @@
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `natdiscm`](https://gssdataexplorer.norc.org/variables/3709/vshow).
+#' For further details see the [GSS Data Explorer page for `natdiscm`](https://gssdataexplorer.norc.org/variables/3709/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -53,7 +53,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `newsprnt`](https://gssdataexplorer.norc.org/variables/3710/vshow).
+#' For further details see the [GSS Data Explorer page for `newsprnt`](https://gssdataexplorer.norc.org/variables/3710/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -86,7 +86,7 @@ NULL
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `getaheay`](https://gssdataexplorer.norc.org/variables/3711/vshow).
+#' For further details see the [GSS Data Explorer page for `getaheay`](https://gssdataexplorer.norc.org/variables/3711/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |2006 |A/B/C/D |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `disabld1`](https://gssdataexplorer.norc.org/variables/3712/vshow).
+#' For further details see the [GSS Data Explorer page for `disabld1`](https://gssdataexplorer.norc.org/variables/3712/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -150,7 +150,7 @@ NULL
 #'  |2006 |A/B/C/D |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `disabld2`](https://gssdataexplorer.norc.org/variables/3713/vshow).
+#' For further details see the [GSS Data Explorer page for `disabld2`](https://gssdataexplorer.norc.org/variables/3713/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -182,7 +182,7 @@ NULL
 #'  |2006 |A/B/C/D |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `disabld3`](https://gssdataexplorer.norc.org/variables/3714/vshow).
+#' For further details see the [GSS Data Explorer page for `disabld3`](https://gssdataexplorer.norc.org/variables/3714/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |2006 |A/B/C/D |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `disabld4`](https://gssdataexplorer.norc.org/variables/3715/vshow).
+#' For further details see the [GSS Data Explorer page for `disabld4`](https://gssdataexplorer.norc.org/variables/3715/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -246,7 +246,7 @@ NULL
 #'  |2006 |A/B/C/D |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `disabld5`](https://gssdataexplorer.norc.org/variables/3716/vshow).
+#' For further details see the [GSS Data Explorer page for `disabld5`](https://gssdataexplorer.norc.org/variables/3716/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -278,7 +278,7 @@ NULL
 #'  |2006 |A/B/C/D |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `disabld6`](https://gssdataexplorer.norc.org/variables/3717/vshow).
+#' For further details see the [GSS Data Explorer page for `disabld6`](https://gssdataexplorer.norc.org/variables/3717/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -310,7 +310,7 @@ NULL
 #'  |2006 |A/B/C/D |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `disabld7`](https://gssdataexplorer.norc.org/variables/3718/vshow).
+#' For further details see the [GSS Data Explorer page for `disabld7`](https://gssdataexplorer.norc.org/variables/3718/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

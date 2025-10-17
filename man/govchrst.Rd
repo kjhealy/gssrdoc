@@ -33,7 +33,7 @@ Question The federal government should advocate Christian values.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7545/vshow}{GSS Data Explorer page for \code{govchrst}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7545/vshow}{GSS Data Explorer page for \code{govchrst}}.
 }
 
 \keyword{variable}

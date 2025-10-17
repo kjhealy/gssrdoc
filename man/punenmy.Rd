@@ -35,68 +35,20 @@ C. Stealing and selling copies of secret codes and other classified intelligence
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5234/vshow}{GSS Data Explorer page for \code{punenmy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5234/vshow}{GSS Data Explorer page for \code{punenmy}}.
 }
 
 \seealso{
 Other National Security: 
-\code{\link{askcomp}},
-\code{\link{askcrime}},
-\code{\link{askdrink}},
-\code{\link{askdrugs}},
-\code{\link{askfinan}},
-\code{\link{askforgn}},
-\code{\link{askfrbiz}},
-\code{\link{askfrtrv}},
-\code{\link{askmentl}},
-\code{\link{asksexor}},
-\code{\link{bugging}},
-\code{\link{camwrk}},
-\code{\link{chkfinan}},
-\code{\link{chkonjob}},
-\code{\link{chkother}},
-\code{\link{chkspfin}},
-\code{\link{chktaxes}},
-\code{\link{chktravl}},
 \code{\link{comdata}},
 \code{\link{comemail}},
-\code{\link{compfin}},
 \code{\link{comporn}},
 \code{\link{comsnoop}},
 \code{\link{comsteal}},
 \code{\link{comsys}},
-\code{\link{emailhme}},
-\code{\link{emailwrk}},
-\code{\link{finanqs}},
-\code{\link{forspy}},
-\code{\link{forsteal}},
-\code{\link{frterror}},
-\code{\link{knomentl}},
-\code{\link{leakinfo}},
-\code{\link{lietest}},
-\code{\link{nuclrwar}},
-\code{\link{punarms}},
 \code{\link{punfrnd}},
 \code{\link{punleak}},
-\code{\link{puntrck}},
-\code{\link{rptcowrk}},
-\code{\link{secbudgt}},
-\code{\link{secdiplo}},
-\code{\link{secdocs}},
-\code{\link{secmilop}},
-\code{\link{secprvcy}},
-\code{\link{sectech}},
-\code{\link{secterr}},
-\code{\link{spyenemy}},
-\code{\link{spyfrend}},
-\code{\link{srchwrk}},
-\code{\link{takearms}},
-\code{\link{taketrck}},
-\code{\link{taphme}},
-\code{\link{tapwrk}},
-\code{\link{testdrug}},
-\code{\link{usspy}},
-\code{\link{usterror}}
+\code{\link{puntrck}}
 }
 \concept{National Security}
 \keyword{variable}

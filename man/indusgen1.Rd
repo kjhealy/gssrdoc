@@ -33,7 +33,7 @@ Question In general, do you think that air pollution caused by industry is…
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7490/vshow}{GSS Data Explorer page for \code{indusgen1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7490/vshow}{GSS Data Explorer page for \code{indusgen1}}.
 }
 
 \keyword{variable}

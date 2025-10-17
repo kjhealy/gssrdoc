@@ -33,7 +33,7 @@ Question Here in (CURRENT STATE), how easy or hard do you think it is for a woma
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7175/vshow}{GSS Data Explorer page for \code{abstate1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7175/vshow}{GSS Data Explorer page for \code{abstate1}}.
 }
 
 \keyword{variable}

@@ -36,16 +36,13 @@ Question How far in advance do you usually know what days and hours you will nee
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6296/vshow}{GSS Data Explorer page for \code{advsched}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6296/vshow}{GSS Data Explorer page for \code{advsched}}.
 }
 
 \seealso{
 Other Flexible Work: 
 \code{\link{leasthrs}},
-\code{\link{mosthrs}},
-\code{\link{paidhow}},
-\code{\link{sethrs}},
-\code{\link{usualhrs}}
+\code{\link{sethrs}}
 }
 \concept{Flexible Work}
 \keyword{variable}

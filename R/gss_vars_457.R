@@ -22,7 +22,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidcall`](https://gssdataexplorer.norc.org/variables/4191/vshow).
+#' For further details see the [GSS Data Explorer page for `kidcall`](https://gssdataexplorer.norc.org/variables/4191/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -62,7 +62,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pavisit1`](https://gssdataexplorer.norc.org/variables/4192/vshow).
+#' For further details see the [GSS Data Explorer page for `pavisit1`](https://gssdataexplorer.norc.org/variables/4192/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -99,7 +99,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pacall1`](https://gssdataexplorer.norc.org/variables/4193/vshow).
+#' For further details see the [GSS Data Explorer page for `pacall1`](https://gssdataexplorer.norc.org/variables/4193/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -139,7 +139,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mavisit1`](https://gssdataexplorer.norc.org/variables/4194/vshow).
+#' For further details see the [GSS Data Explorer page for `mavisit1`](https://gssdataexplorer.norc.org/variables/4194/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -176,7 +176,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `macall1`](https://gssdataexplorer.norc.org/variables/4195/vshow).
+#' For further details see the [GSS Data Explorer page for `macall1`](https://gssdataexplorer.norc.org/variables/4195/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `uncaunts`](https://gssdataexplorer.norc.org/variables/4196/vshow).
+#' For further details see the [GSS Data Explorer page for `uncaunts`](https://gssdataexplorer.norc.org/variables/4196/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -246,7 +246,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cousins`](https://gssdataexplorer.norc.org/variables/4197/vshow).
+#' For further details see the [GSS Data Explorer page for `cousins`](https://gssdataexplorer.norc.org/variables/4197/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -281,7 +281,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `parslaw`](https://gssdataexplorer.norc.org/variables/4198/vshow).
+#' For further details see the [GSS Data Explorer page for `parslaw`](https://gssdataexplorer.norc.org/variables/4198/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sibinlaw`](https://gssdataexplorer.norc.org/variables/4199/vshow).
+#' For further details see the [GSS Data Explorer page for `sibinlaw`](https://gssdataexplorer.norc.org/variables/4199/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -351,7 +351,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `niecenep`](https://gssdataexplorer.norc.org/variables/4200/vshow).
+#' For further details see the [GSS Data Explorer page for `niecenep`](https://gssdataexplorer.norc.org/variables/4200/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

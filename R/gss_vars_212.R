@@ -23,7 +23,7 @@
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `imprvtrt`](https://gssdataexplorer.norc.org/variables/2002/vshow).
+#' For further details see the [GSS Data Explorer page for `imprvtrt`](https://gssdataexplorer.norc.org/variables/2002/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -61,7 +61,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vignei`](https://gssdataexplorer.norc.org/variables/2003/vshow).
+#' For further details see the [GSS Data Explorer page for `vignei`](https://gssdataexplorer.norc.org/variables/2003/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -99,7 +99,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vigsoc`](https://gssdataexplorer.norc.org/variables/2004/vshow).
+#' For further details see the [GSS Data Explorer page for `vigsoc`](https://gssdataexplorer.norc.org/variables/2004/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -137,7 +137,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vigfrnd`](https://gssdataexplorer.norc.org/variables/2005/vshow).
+#' For further details see the [GSS Data Explorer page for `vigfrnd`](https://gssdataexplorer.norc.org/variables/2005/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -175,7 +175,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vigwork`](https://gssdataexplorer.norc.org/variables/2006/vshow).
+#' For further details see the [GSS Data Explorer page for `vigwork`](https://gssdataexplorer.norc.org/variables/2006/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -213,7 +213,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `viggrp`](https://gssdataexplorer.norc.org/variables/2007/vshow).
+#' For further details see the [GSS Data Explorer page for `viggrp`](https://gssdataexplorer.norc.org/variables/2007/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -251,7 +251,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vigmar`](https://gssdataexplorer.norc.org/variables/2008/vshow).
+#' For further details see the [GSS Data Explorer page for `vigmar`](https://gssdataexplorer.norc.org/variables/2008/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hurtoth`](https://gssdataexplorer.norc.org/variables/2009/vshow).
+#' For further details see the [GSS Data Explorer page for `hurtoth`](https://gssdataexplorer.norc.org/variables/2009/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -325,7 +325,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hurtself`](https://gssdataexplorer.norc.org/variables/2010/vshow).
+#' For further details see the [GSS Data Explorer page for `hurtself`](https://gssdataexplorer.norc.org/variables/2010/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -361,7 +361,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tlkfam`](https://gssdataexplorer.norc.org/variables/2011/vshow).
+#' For further details see the [GSS Data Explorer page for `tlkfam`](https://gssdataexplorer.norc.org/variables/2011/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

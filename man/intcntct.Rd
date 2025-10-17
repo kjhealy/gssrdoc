@@ -35,7 +35,7 @@ or other communication devices that use the internet?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7270/vshow}{GSS Data Explorer page for \code{intcntct}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7270/vshow}{GSS Data Explorer page for \code{intcntct}}.
 }
 
 \keyword{variable}

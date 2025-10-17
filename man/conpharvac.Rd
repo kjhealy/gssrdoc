@@ -33,7 +33,7 @@ Pharmaceutical companies working to create safe vaccines to protect the public a
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7578/vshow}{GSS Data Explorer page for \code{conpharvac}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7578/vshow}{GSS Data Explorer page for \code{conpharvac}}.
 }
 
 \keyword{variable}

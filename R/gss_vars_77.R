@@ -45,7 +45,7 @@
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rowngun`](https://gssdataexplorer.norc.org/variables/683/vshow).
+#' For further details see the [GSS Data Explorer page for `rowngun`](https://gssdataexplorer.norc.org/variables/683/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ticket`](https://gssdataexplorer.norc.org/variables/684/vshow).
+#' For further details see the [GSS Data Explorer page for `ticket`](https://gssdataexplorer.norc.org/variables/684/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -125,7 +125,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `arrest`](https://gssdataexplorer.norc.org/variables/685/vshow).
+#' For further details see the [GSS Data Explorer page for `arrest`](https://gssdataexplorer.norc.org/variables/685/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -157,7 +157,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `convictd`](https://gssdataexplorer.norc.org/variables/686/vshow).
+#' For further details see the [GSS Data Explorer page for `convictd`](https://gssdataexplorer.norc.org/variables/686/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -189,7 +189,7 @@ NULL
 #'  |2012 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `lockedup`](https://gssdataexplorer.norc.org/variables/687/vshow).
+#' For further details see the [GSS Data Explorer page for `lockedup`](https://gssdataexplorer.norc.org/variables/687/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -249,7 +249,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hunt`](https://gssdataexplorer.norc.org/variables/688/vshow).
+#' For further details see the [GSS Data Explorer page for `hunt`](https://gssdataexplorer.norc.org/variables/688/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -287,7 +287,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hunt1`](https://gssdataexplorer.norc.org/variables/6195/vshow).
+#' For further details see the [GSS Data Explorer page for `hunt1`](https://gssdataexplorer.norc.org/variables/6195/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -322,7 +322,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `huntothr`](https://gssdataexplorer.norc.org/variables/689/vshow).
+#' For further details see the [GSS Data Explorer page for `huntothr`](https://gssdataexplorer.norc.org/variables/689/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -386,7 +386,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `news`](https://gssdataexplorer.norc.org/variables/690/vshow).
+#' For further details see the [GSS Data Explorer page for `news`](https://gssdataexplorer.norc.org/variables/690/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -446,7 +446,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tvhours`](https://gssdataexplorer.norc.org/variables/691/vshow).
+#' For further details see the [GSS Data Explorer page for `tvhours`](https://gssdataexplorer.norc.org/variables/691/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

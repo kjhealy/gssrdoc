@@ -32,7 +32,7 @@ Question I have views of nature (trees, lawns, gardens, water, etc.) when I am h
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7185/vshow}{GSS Data Explorer page for \code{natviews}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7185/vshow}{GSS Data Explorer page for \code{natviews}}.
 }
 
 \keyword{variable}

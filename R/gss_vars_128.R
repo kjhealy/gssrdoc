@@ -21,7 +21,7 @@
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `violwhts`](https://gssdataexplorer.norc.org/variables/1190/vshow).
+#' For further details see the [GSS Data Explorer page for `violwhts`](https://gssdataexplorer.norc.org/variables/1190/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `violjews`](https://gssdataexplorer.norc.org/variables/1191/vshow).
+#' For further details see the [GSS Data Explorer page for `violjews`](https://gssdataexplorer.norc.org/variables/1191/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -91,7 +91,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `violblks`](https://gssdataexplorer.norc.org/variables/1192/vshow).
+#' For further details see the [GSS Data Explorer page for `violblks`](https://gssdataexplorer.norc.org/variables/1192/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -126,7 +126,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `violasns`](https://gssdataexplorer.norc.org/variables/1193/vshow).
+#' For further details see the [GSS Data Explorer page for `violasns`](https://gssdataexplorer.norc.org/variables/1193/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `violhsps`](https://gssdataexplorer.norc.org/variables/1194/vshow).
+#' For further details see the [GSS Data Explorer page for `violhsps`](https://gssdataexplorer.norc.org/variables/1194/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -195,7 +195,7 @@ NULL
 #'  |1990 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `violso`](https://gssdataexplorer.norc.org/variables/1195/vshow).
+#' For further details see the [GSS Data Explorer page for `violso`](https://gssdataexplorer.norc.org/variables/1195/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -243,7 +243,7 @@ NULL
 #'  |2022 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intlwhts`](https://gssdataexplorer.norc.org/variables/1196/vshow).
+#' For further details see the [GSS Data Explorer page for `intlwhts`](https://gssdataexplorer.norc.org/variables/1196/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -278,7 +278,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intljews`](https://gssdataexplorer.norc.org/variables/1197/vshow).
+#' For further details see the [GSS Data Explorer page for `intljews`](https://gssdataexplorer.norc.org/variables/1197/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -326,7 +326,7 @@ NULL
 #'  |2022 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intlblks`](https://gssdataexplorer.norc.org/variables/1198/vshow).
+#' For further details see the [GSS Data Explorer page for `intlblks`](https://gssdataexplorer.norc.org/variables/1198/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -361,7 +361,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intlasns`](https://gssdataexplorer.norc.org/variables/1199/vshow).
+#' For further details see the [GSS Data Explorer page for `intlasns`](https://gssdataexplorer.norc.org/variables/1199/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

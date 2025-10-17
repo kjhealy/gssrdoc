@@ -22,7 +22,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suiage`](https://gssdataexplorer.norc.org/variables/5028/vshow).
+#' For further details see the [GSS Data Explorer page for `suiage`](https://gssdataexplorer.norc.org/variables/5028/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suirace`](https://gssdataexplorer.norc.org/variables/5029/vshow).
+#' For further details see the [GSS Data Explorer page for `suirace`](https://gssdataexplorer.norc.org/variables/5029/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -100,7 +100,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suireg`](https://gssdataexplorer.norc.org/variables/5030/vshow).
+#' For further details see the [GSS Data Explorer page for `suireg`](https://gssdataexplorer.norc.org/variables/5030/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -141,7 +141,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suiwho2`](https://gssdataexplorer.norc.org/variables/5031/vshow).
+#' For further details see the [GSS Data Explorer page for `suiwho2`](https://gssdataexplorer.norc.org/variables/5031/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -175,7 +175,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suisex2`](https://gssdataexplorer.norc.org/variables/5032/vshow).
+#' For further details see the [GSS Data Explorer page for `suisex2`](https://gssdataexplorer.norc.org/variables/5032/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suiage2`](https://gssdataexplorer.norc.org/variables/5033/vshow).
+#' For further details see the [GSS Data Explorer page for `suiage2`](https://gssdataexplorer.norc.org/variables/5033/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,7 +247,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suirac2`](https://gssdataexplorer.norc.org/variables/5034/vshow).
+#' For further details see the [GSS Data Explorer page for `suirac2`](https://gssdataexplorer.norc.org/variables/5034/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suireg2`](https://gssdataexplorer.norc.org/variables/5035/vshow).
+#' For further details see the [GSS Data Explorer page for `suireg2`](https://gssdataexplorer.norc.org/variables/5035/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suiwho3`](https://gssdataexplorer.norc.org/variables/5036/vshow).
+#' For further details see the [GSS Data Explorer page for `suiwho3`](https://gssdataexplorer.norc.org/variables/5036/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -364,7 +364,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `suisex3`](https://gssdataexplorer.norc.org/variables/5037/vshow).
+#' For further details see the [GSS Data Explorer page for `suisex3`](https://gssdataexplorer.norc.org/variables/5037/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

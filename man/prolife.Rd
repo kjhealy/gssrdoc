@@ -33,7 +33,7 @@ Question I consider myself pro-life.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7543/vshow}{GSS Data Explorer page for \code{prolife}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7543/vshow}{GSS Data Explorer page for \code{prolife}}.
 }
 
 \keyword{variable}

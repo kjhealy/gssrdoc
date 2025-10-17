@@ -31,7 +31,7 @@ Question And how many other adults in your household personally own a gun?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/3705/vshow}{GSS Data Explorer page for \code{othguns}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3705/vshow}{GSS Data Explorer page for \code{othguns}}.
 }
 
 \seealso{

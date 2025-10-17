@@ -34,16 +34,13 @@ C. Encourage young women to have babies before marriage.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5500/vshow}{GSS Data Explorer page for \code{welfare3}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5500/vshow}{GSS Data Explorer page for \code{welfare3}}.
 }
 
 \seealso{
 Other Welfare: 
 \code{\link{welfare1}},
-\code{\link{welfare2}},
-\code{\link{welfare4}},
-\code{\link{welfare5}},
-\code{\link{welfare6}}
+\code{\link{welfare2}}
 }
 \concept{Welfare}
 \keyword{variable}

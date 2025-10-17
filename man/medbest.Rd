@@ -33,7 +33,7 @@ Question How likely is it that if you become seriously ill, you would get or not
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7830/vshow}{GSS Data Explorer page for \code{medbest}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7830/vshow}{GSS Data Explorer page for \code{medbest}}.
 }
 
 \keyword{variable}

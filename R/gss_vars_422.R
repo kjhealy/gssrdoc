@@ -21,7 +21,7 @@
 #'  |2008 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eff911h`](https://gssdataexplorer.norc.org/variables/3858/vshow).
+#' For further details see the [GSS Data Explorer page for `eff911h`](https://gssdataexplorer.norc.org/variables/3858/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |2008 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `done911i`](https://gssdataexplorer.norc.org/variables/3859/vshow).
+#' For further details see the [GSS Data Explorer page for `done911i`](https://gssdataexplorer.norc.org/variables/3859/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2008 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eff911i`](https://gssdataexplorer.norc.org/variables/3860/vshow).
+#' For further details see the [GSS Data Explorer page for `eff911i`](https://gssdataexplorer.norc.org/variables/3860/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2008 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `done911j`](https://gssdataexplorer.norc.org/variables/3861/vshow).
+#' For further details see the [GSS Data Explorer page for `done911j`](https://gssdataexplorer.norc.org/variables/3861/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -163,7 +163,7 @@ NULL
 #'  |2008 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eff911j`](https://gssdataexplorer.norc.org/variables/3862/vshow).
+#' For further details see the [GSS Data Explorer page for `eff911j`](https://gssdataexplorer.norc.org/variables/3862/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -199,7 +199,7 @@ NULL
 #'  |2008 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `done911k`](https://gssdataexplorer.norc.org/variables/3863/vshow).
+#' For further details see the [GSS Data Explorer page for `done911k`](https://gssdataexplorer.norc.org/variables/3863/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -234,7 +234,7 @@ NULL
 #'  |2008 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eff911k`](https://gssdataexplorer.norc.org/variables/3864/vshow).
+#' For further details see the [GSS Data Explorer page for `eff911k`](https://gssdataexplorer.norc.org/variables/3864/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -270,7 +270,7 @@ NULL
 #'  |2008 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `done911l`](https://gssdataexplorer.norc.org/variables/3865/vshow).
+#' For further details see the [GSS Data Explorer page for `done911l`](https://gssdataexplorer.norc.org/variables/3865/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -305,7 +305,7 @@ NULL
 #'  |2008 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `eff911l`](https://gssdataexplorer.norc.org/variables/3866/vshow).
+#' For further details see the [GSS Data Explorer page for `eff911l`](https://gssdataexplorer.norc.org/variables/3866/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -341,7 +341,7 @@ NULL
 #'  |2008 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `done911m`](https://gssdataexplorer.norc.org/variables/3867/vshow).
+#' For further details see the [GSS Data Explorer page for `done911m`](https://gssdataexplorer.norc.org/variables/3867/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

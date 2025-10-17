@@ -31,29 +31,11 @@ Cost too much.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6249/vshow}{GSS Data Explorer page for \code{prfmcost}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6249/vshow}{GSS Data Explorer page for \code{prfmcost}}.
 }
 
 \seealso{
 Other Arts and Culture: 
-\code{\link{artatt}},
-\code{\link{artatt1}},
-\code{\link{artatt2}},
-\code{\link{artatt3}},
-\code{\link{artatt4}},
-\code{\link{artatt5}},
-\code{\link{artcost}},
-\code{\link{artexbt}},
-\code{\link{artfree}},
-\code{\link{artgst}},
-\code{\link{artint}},
-\code{\link{artloc}},
-\code{\link{artmostoth}},
-\code{\link{artothr}},
-\code{\link{arttime}},
-\code{\link{arttrvl}},
-\code{\link{artwhy1}},
-\code{\link{artwhy2}},
 \code{\link{artwhy3}},
 \code{\link{artwhy4}},
 \code{\link{artwhy5}},
@@ -62,35 +44,7 @@ Other Arts and Culture:
 \code{\link{artwhy8}},
 \code{\link{artwhy9}},
 \code{\link{nogo}},
-\code{\link{nogo1}},
-\code{\link{prfmatt}},
-\code{\link{prfmatt1}},
-\code{\link{prfmatt2}},
-\code{\link{prfmatt3}},
-\code{\link{prfmatt4}},
-\code{\link{prfmatt5}},
-\code{\link{prfmdan}},
-\code{\link{prfmfree}},
-\code{\link{prfmgst}},
-\code{\link{prfmint}},
-\code{\link{prfmloc}},
-\code{\link{prfmmostoth}},
-\code{\link{prfmmus}},
-\code{\link{prfmnce}},
-\code{\link{prfmothr}},
-\code{\link{prfmthe}},
-\code{\link{prfmtime}},
-\code{\link{prfmtrvl}},
-\code{\link{prfmwhy0}},
-\code{\link{prfmwhy1}},
-\code{\link{prfmwhy2}},
-\code{\link{prfmwhy3}},
-\code{\link{prfmwhy4}},
-\code{\link{prfmwhy5}},
-\code{\link{prfmwhy6}},
-\code{\link{prfmwhy7}},
-\code{\link{prfmwhy8}},
-\code{\link{prfmwhy9}}
+\code{\link{nogo1}}
 }
 \concept{Arts and Culture}
 \keyword{variable}

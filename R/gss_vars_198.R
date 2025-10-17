@@ -20,7 +20,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `transrel`](https://gssdataexplorer.norc.org/variables/1862/vshow).
+#' For further details see the [GSS Data Explorer page for `transrel`](https://gssdataexplorer.norc.org/variables/1862/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -55,7 +55,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frnddeal`](https://gssdataexplorer.norc.org/variables/1863/vshow).
+#' For further details see the [GSS Data Explorer page for `frnddeal`](https://gssdataexplorer.norc.org/variables/1863/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `frndawk`](https://gssdataexplorer.norc.org/variables/1864/vshow).
+#' For further details see the [GSS Data Explorer page for `frndawk`](https://gssdataexplorer.norc.org/variables/1864/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -122,7 +122,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tablprce`](https://gssdataexplorer.norc.org/variables/1865/vshow).
+#' For further details see the [GSS Data Explorer page for `tablprce`](https://gssdataexplorer.norc.org/variables/1865/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -161,7 +161,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `organsb`](https://gssdataexplorer.norc.org/variables/1866/vshow).
+#' For further details see the [GSS Data Explorer page for `organsb`](https://gssdataexplorer.norc.org/variables/1866/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -200,7 +200,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `organsw`](https://gssdataexplorer.norc.org/variables/1867/vshow).
+#' For further details see the [GSS Data Explorer page for `organsw`](https://gssdataexplorer.norc.org/variables/1867/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -235,7 +235,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sellorgn`](https://gssdataexplorer.norc.org/variables/1868/vshow).
+#' For further details see the [GSS Data Explorer page for `sellorgn`](https://gssdataexplorer.norc.org/variables/1868/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -269,7 +269,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `adoption`](https://gssdataexplorer.norc.org/variables/1869/vshow).
+#' For further details see the [GSS Data Explorer page for `adoption`](https://gssdataexplorer.norc.org/variables/1869/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sellbaby`](https://gssdataexplorer.norc.org/variables/1870/vshow).
+#' For further details see the [GSS Data Explorer page for `sellbaby`](https://gssdataexplorer.norc.org/variables/1870/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -336,7 +336,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sellsex`](https://gssdataexplorer.norc.org/variables/1871/vshow).
+#' For further details see the [GSS Data Explorer page for `sellsex`](https://gssdataexplorer.norc.org/variables/1871/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

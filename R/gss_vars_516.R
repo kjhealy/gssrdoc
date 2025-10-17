@@ -22,7 +22,7 @@
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relmarry`](https://gssdataexplorer.norc.org/variables/4701/vshow).
+#' For further details see the [GSS Data Explorer page for `relmarry`](https://gssdataexplorer.norc.org/variables/4701/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relcand`](https://gssdataexplorer.norc.org/variables/4702/vshow).
+#' For further details see the [GSS Data Explorer page for `relcand`](https://gssdataexplorer.norc.org/variables/4702/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -93,7 +93,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relext1`](https://gssdataexplorer.norc.org/variables/4703/vshow).
+#' For further details see the [GSS Data Explorer page for `relext1`](https://gssdataexplorer.norc.org/variables/4703/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relext2`](https://gssdataexplorer.norc.org/variables/4704/vshow).
+#' For further details see the [GSS Data Explorer page for `relext2`](https://gssdataexplorer.norc.org/variables/4704/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -162,7 +162,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relext3`](https://gssdataexplorer.norc.org/variables/7279/vshow).
+#' For further details see the [GSS Data Explorer page for `relext3`](https://gssdataexplorer.norc.org/variables/7279/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -197,7 +197,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `reincar`](https://gssdataexplorer.norc.org/variables/4705/vshow).
+#' For further details see the [GSS Data Explorer page for `reincar`](https://gssdataexplorer.norc.org/variables/4705/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -232,7 +232,7 @@ NULL
 #'  |2008 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nirvana`](https://gssdataexplorer.norc.org/variables/4706/vshow).
+#' For further details see the [GSS Data Explorer page for `nirvana`](https://gssdataexplorer.norc.org/variables/4706/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ancestrs`](https://gssdataexplorer.norc.org/variables/4707/vshow).
+#' For further details see the [GSS Data Explorer page for `ancestrs`](https://gssdataexplorer.norc.org/variables/4707/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mywaygod`](https://gssdataexplorer.norc.org/variables/4708/vshow).
+#' For further details see the [GSS Data Explorer page for `mywaygod`](https://gssdataexplorer.norc.org/variables/4708/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -338,7 +338,7 @@ NULL
 #'  |2018 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relgeneq`](https://gssdataexplorer.norc.org/variables/7280/vshow).
+#' For further details see the [GSS Data Explorer page for `relgeneq`](https://gssdataexplorer.norc.org/variables/7280/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -29,7 +29,7 @@ Question How many rooms are there in your home (apartment or house)? Do not coun
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7500/vshow}{GSS Data Explorer page for \code{numrooms}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7500/vshow}{GSS Data Explorer page for \code{numrooms}}.
 }
 
 \keyword{variable}

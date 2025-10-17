@@ -35,7 +35,7 @@ Question How often R felt connected to world around them
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7534/vshow}{GSS Data Explorer page for \code{sprtconnct}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7534/vshow}{GSS Data Explorer page for \code{sprtconnct}}.
 }
 
 \keyword{variable}

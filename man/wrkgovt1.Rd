@@ -32,7 +32,7 @@ Question Are/were you employed by the government? (Please consider federal, stat
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7432/vshow}{GSS Data Explorer page for \code{wrkgovt1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7432/vshow}{GSS Data Explorer page for \code{wrkgovt1}}.
 }
 
 \keyword{variable}

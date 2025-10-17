@@ -25,7 +25,7 @@
 #'  |1989 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vote84`](https://gssdataexplorer.norc.org/variables/154/vshow).
+#' For further details see the [GSS Data Explorer page for `vote84`](https://gssdataexplorer.norc.org/variables/154/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -65,7 +65,7 @@ NULL
 #'  |1989 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pres84`](https://gssdataexplorer.norc.org/variables/155/vshow).
+#' For further details see the [GSS Data Explorer page for `pres84`](https://gssdataexplorer.norc.org/variables/155/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -106,7 +106,7 @@ NULL
 #'  |1989 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `if84who`](https://gssdataexplorer.norc.org/variables/156/vshow).
+#' For further details see the [GSS Data Explorer page for `if84who`](https://gssdataexplorer.norc.org/variables/156/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -144,7 +144,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vote88`](https://gssdataexplorer.norc.org/variables/157/vshow).
+#' For further details see the [GSS Data Explorer page for `vote88`](https://gssdataexplorer.norc.org/variables/157/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -183,7 +183,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pres88`](https://gssdataexplorer.norc.org/variables/158/vshow).
+#' For further details see the [GSS Data Explorer page for `pres88`](https://gssdataexplorer.norc.org/variables/158/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -223,7 +223,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `if88who`](https://gssdataexplorer.norc.org/variables/159/vshow).
+#' For further details see the [GSS Data Explorer page for `if88who`](https://gssdataexplorer.norc.org/variables/159/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -261,7 +261,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vote92`](https://gssdataexplorer.norc.org/variables/160/vshow).
+#' For further details see the [GSS Data Explorer page for `vote92`](https://gssdataexplorer.norc.org/variables/160/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -302,7 +302,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pres92`](https://gssdataexplorer.norc.org/variables/161/vshow).
+#' For further details see the [GSS Data Explorer page for `pres92`](https://gssdataexplorer.norc.org/variables/161/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -342,7 +342,7 @@ NULL
 #'  |1998 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `if92who`](https://gssdataexplorer.norc.org/variables/162/vshow).
+#' For further details see the [GSS Data Explorer page for `if92who`](https://gssdataexplorer.norc.org/variables/162/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -378,7 +378,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vote96`](https://gssdataexplorer.norc.org/variables/163/vshow).
+#' For further details see the [GSS Data Explorer page for `vote96`](https://gssdataexplorer.norc.org/variables/163/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

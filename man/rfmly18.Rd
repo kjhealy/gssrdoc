@@ -30,7 +30,7 @@ Question Are you related in some other way to another individual 18 or older in 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/8023/vshow}{GSS Data Explorer page for \code{rfmly18}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8023/vshow}{GSS Data Explorer page for \code{rfmly18}}.
 }
 
 \keyword{variable}

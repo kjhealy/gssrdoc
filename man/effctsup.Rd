@@ -33,7 +33,7 @@ Question How effectively does your supervisor work with employees to creatively 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5506/vshow}{GSS Data Explorer page for \code{effctsup}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5506/vshow}{GSS Data Explorer page for \code{effctsup}}.
 }
 
 \seealso{

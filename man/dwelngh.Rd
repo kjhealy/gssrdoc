@@ -35,14 +35,13 @@ Question A. Compared to houses/apartments in the neighborhood, would you say the
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5292/vshow}{GSS Data Explorer page for \code{dwelngh}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5292/vshow}{GSS Data Explorer page for \code{dwelngh}}.
 }
 
 \seealso{
 Other Residence: 
 \code{\link{dwelcity}},
-\code{\link{dwelling}},
-\code{\link{dwelown}}
+\code{\link{dwelling}}
 }
 \concept{Residence}
 \keyword{variable}

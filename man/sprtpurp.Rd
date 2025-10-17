@@ -35,7 +35,7 @@ Question How often R felt a sense of larger meaning in life
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7536/vshow}{GSS Data Explorer page for \code{sprtpurp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7536/vshow}{GSS Data Explorer page for \code{sprtpurp}}.
 }
 
 \keyword{variable}

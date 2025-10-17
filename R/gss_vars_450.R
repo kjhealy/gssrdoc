@@ -20,7 +20,7 @@
 #'  |2006 |D       |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `knowpols`](https://gssdataexplorer.norc.org/variables/4122/vshow).
+#' For further details see the [GSS Data Explorer page for `knowpols`](https://gssdataexplorer.norc.org/variables/4122/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `corrupt1`](https://gssdataexplorer.norc.org/variables/4123/vshow).
+#' For further details see the [GSS Data Explorer page for `corrupt1`](https://gssdataexplorer.norc.org/variables/4123/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `corrupt2`](https://gssdataexplorer.norc.org/variables/4124/vshow).
+#' For further details see the [GSS Data Explorer page for `corrupt2`](https://gssdataexplorer.norc.org/variables/4124/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `bribe`](https://gssdataexplorer.norc.org/variables/4125/vshow).
+#' For further details see the [GSS Data Explorer page for `bribe`](https://gssdataexplorer.norc.org/variables/4125/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -168,7 +168,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `peocntct`](https://gssdataexplorer.norc.org/variables/4126/vshow).
+#' For further details see the [GSS Data Explorer page for `peocntct`](https://gssdataexplorer.norc.org/variables/4126/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -201,7 +201,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `malive`](https://gssdataexplorer.norc.org/variables/4127/vshow).
+#' For further details see the [GSS Data Explorer page for `malive`](https://gssdataexplorer.norc.org/variables/4127/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mavisit`](https://gssdataexplorer.norc.org/variables/4128/vshow).
+#' For further details see the [GSS Data Explorer page for `mavisit`](https://gssdataexplorer.norc.org/variables/4128/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `matime`](https://gssdataexplorer.norc.org/variables/4129/vshow).
+#' For further details see the [GSS Data Explorer page for `matime`](https://gssdataexplorer.norc.org/variables/4129/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -316,7 +316,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `macall`](https://gssdataexplorer.norc.org/variables/4130/vshow).
+#' For further details see the [GSS Data Explorer page for `macall`](https://gssdataexplorer.norc.org/variables/4130/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -348,7 +348,7 @@ NULL
 #'  |1986 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `palive`](https://gssdataexplorer.norc.org/variables/4131/vshow).
+#' For further details see the [GSS Data Explorer page for `palive`](https://gssdataexplorer.norc.org/variables/4131/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

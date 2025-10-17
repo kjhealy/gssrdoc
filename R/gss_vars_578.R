@@ -42,7 +42,7 @@
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dwelown`](https://gssdataexplorer.norc.org/variables/5294/vshow).
+#' For further details see the [GSS Data Explorer page for `dwelown`](https://gssdataexplorer.norc.org/variables/5294/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -78,7 +78,7 @@ NULL
 #'  |2024 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dwelown16`](https://gssdataexplorer.norc.org/variables/7299/vshow).
+#' For further details see the [GSS Data Explorer page for `dwelown16`](https://gssdataexplorer.norc.org/variables/7299/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -135,7 +135,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `worda`](https://gssdataexplorer.norc.org/variables/5295/vshow).
+#' For further details see the [GSS Data Explorer page for `worda`](https://gssdataexplorer.norc.org/variables/5295/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -192,7 +192,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordb`](https://gssdataexplorer.norc.org/variables/5296/vshow).
+#' For further details see the [GSS Data Explorer page for `wordb`](https://gssdataexplorer.norc.org/variables/5296/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -249,7 +249,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordc`](https://gssdataexplorer.norc.org/variables/5297/vshow).
+#' For further details see the [GSS Data Explorer page for `wordc`](https://gssdataexplorer.norc.org/variables/5297/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -306,7 +306,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordd`](https://gssdataexplorer.norc.org/variables/5298/vshow).
+#' For further details see the [GSS Data Explorer page for `wordd`](https://gssdataexplorer.norc.org/variables/5298/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -363,7 +363,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `worde`](https://gssdataexplorer.norc.org/variables/5299/vshow).
+#' For further details see the [GSS Data Explorer page for `worde`](https://gssdataexplorer.norc.org/variables/5299/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -420,7 +420,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordf`](https://gssdataexplorer.norc.org/variables/5300/vshow).
+#' For further details see the [GSS Data Explorer page for `wordf`](https://gssdataexplorer.norc.org/variables/5300/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -477,7 +477,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordg`](https://gssdataexplorer.norc.org/variables/5301/vshow).
+#' For further details see the [GSS Data Explorer page for `wordg`](https://gssdataexplorer.norc.org/variables/5301/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -534,7 +534,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wordh`](https://gssdataexplorer.norc.org/variables/5302/vshow).
+#' For further details see the [GSS Data Explorer page for `wordh`](https://gssdataexplorer.norc.org/variables/5302/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

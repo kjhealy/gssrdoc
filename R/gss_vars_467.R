@@ -23,7 +23,7 @@
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oppared`](https://gssdataexplorer.norc.org/variables/4242/vshow).
+#' For further details see the [GSS Data Explorer page for `oppared`](https://gssdataexplorer.norc.org/variables/4242/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `opeduc`](https://gssdataexplorer.norc.org/variables/4243/vshow).
+#' For further details see the [GSS Data Explorer page for `opeduc`](https://gssdataexplorer.norc.org/variables/4243/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -96,7 +96,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `opambit`](https://gssdataexplorer.norc.org/variables/4244/vshow).
+#' For further details see the [GSS Data Explorer page for `opambit`](https://gssdataexplorer.norc.org/variables/4244/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -132,7 +132,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `opable`](https://gssdataexplorer.norc.org/variables/4245/vshow).
+#' For further details see the [GSS Data Explorer page for `opable`](https://gssdataexplorer.norc.org/variables/4245/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -169,7 +169,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ophrdwrk`](https://gssdataexplorer.norc.org/variables/4246/vshow).
+#' For further details see the [GSS Data Explorer page for `ophrdwrk`](https://gssdataexplorer.norc.org/variables/4246/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -207,7 +207,7 @@ NULL
 #'  |2021 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `opknow`](https://gssdataexplorer.norc.org/variables/4247/vshow).
+#' For further details see the [GSS Data Explorer page for `opknow`](https://gssdataexplorer.norc.org/variables/4247/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -244,7 +244,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `opclout`](https://gssdataexplorer.norc.org/variables/4248/vshow).
+#' For further details see the [GSS Data Explorer page for `opclout`](https://gssdataexplorer.norc.org/variables/4248/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -281,7 +281,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oprace`](https://gssdataexplorer.norc.org/variables/4249/vshow).
+#' For further details see the [GSS Data Explorer page for `oprace`](https://gssdataexplorer.norc.org/variables/4249/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -318,7 +318,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `oprelig`](https://gssdataexplorer.norc.org/variables/4250/vshow).
+#' For further details see the [GSS Data Explorer page for `oprelig`](https://gssdataexplorer.norc.org/variables/4250/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -354,7 +354,7 @@ NULL
 #'  |1987 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `opregion`](https://gssdataexplorer.norc.org/variables/4251/vshow).
+#' For further details see the [GSS Data Explorer page for `opregion`](https://gssdataexplorer.norc.org/variables/4251/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -44,7 +44,7 @@ Question What are the groups you both belong to? Circle all that apply.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5519/vshow}{GSS Data Explorer page for \code{bthgrp1e}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5519/vshow}{GSS Data Explorer page for \code{bthgrp1e}}.
 }
 
 \seealso{
@@ -55,35 +55,6 @@ Other Interviewer Characteristics:
 \code{\link{bthgrp1d}},
 \code{\link{bthgrp1f}},
 \code{\link{bthgrp2a}},
-\code{\link{bthgrp2b}},
-\code{\link{bthgrp2c}},
-\code{\link{bthgrp2d}},
-\code{\link{bthgrp2e}},
-\code{\link{bthgrp2f}},
-\code{\link{bthgrp3a}},
-\code{\link{bthgrp3b}},
-\code{\link{bthgrp3c}},
-\code{\link{bthgrp3d}},
-\code{\link{bthgrp3e}},
-\code{\link{bthgrp3f}},
-\code{\link{bthgrp4a}},
-\code{\link{bthgrp4b}},
-\code{\link{bthgrp4c}},
-\code{\link{bthgrp4d}},
-\code{\link{bthgrp4e}},
-\code{\link{bthgrp4f}},
-\code{\link{bthgrp5a}},
-\code{\link{bthgrp5b}},
-\code{\link{bthgrp5c}},
-\code{\link{bthgrp5d}},
-\code{\link{bthgrp5e}},
-\code{\link{bthgrp5f}},
-\code{\link{frstgrp1}},
-\code{\link{frstgrp2}},
-\code{\link{frstgrp3}},
-\code{\link{frstgrp4}},
-\code{\link{frstgrp5}},
-\code{\link{inthisp}},
 \code{\link{intrace1}},
 \code{\link{intrace2}},
 \code{\link{intrace3}}

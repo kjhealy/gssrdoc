@@ -30,14 +30,12 @@ Question B. Or consider a person who believes that Blacks are genetically inferi
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/4985/vshow}{GSS Data Explorer page for \code{forbdrac}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4985/vshow}{GSS Data Explorer page for \code{forbdrac}}.
 }
 
 \seealso{
 Other Civil Liberties: 
 \code{\link{allowcom}},
-\code{\link{allowmar}},
-\code{\link{allowrac}},
 \code{\link{forbdcom}},
 \code{\link{forbdmar}}
 }

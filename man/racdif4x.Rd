@@ -31,7 +31,7 @@ Question
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7966/vshow}{GSS Data Explorer page for \code{racdif4x}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7966/vshow}{GSS Data Explorer page for \code{racdif4x}}.
 }
 
 \keyword{variable}

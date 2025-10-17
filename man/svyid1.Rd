@@ -33,7 +33,7 @@ Question How likely is it that you would be willing to use a video chat for a su
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7864/vshow}{GSS Data Explorer page for \code{svyid1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7864/vshow}{GSS Data Explorer page for \code{svyid1}}.
 }
 
 \keyword{variable}

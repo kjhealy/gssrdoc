@@ -24,7 +24,7 @@
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amcit`](https://gssdataexplorer.norc.org/variables/4828/vshow).
+#' For further details see the [GSS Data Explorer page for `amcit`](https://gssdataexplorer.norc.org/variables/4828/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -61,7 +61,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amlived`](https://gssdataexplorer.norc.org/variables/4829/vshow).
+#' For further details see the [GSS Data Explorer page for `amlived`](https://gssdataexplorer.norc.org/variables/4829/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -98,7 +98,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amenglsh`](https://gssdataexplorer.norc.org/variables/4830/vshow).
+#' For further details see the [GSS Data Explorer page for `amenglsh`](https://gssdataexplorer.norc.org/variables/4830/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -136,7 +136,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amchrstn`](https://gssdataexplorer.norc.org/variables/4831/vshow).
+#' For further details see the [GSS Data Explorer page for `amchrstn`](https://gssdataexplorer.norc.org/variables/4831/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -174,7 +174,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amgovt`](https://gssdataexplorer.norc.org/variables/4832/vshow).
+#' For further details see the [GSS Data Explorer page for `amgovt`](https://gssdataexplorer.norc.org/variables/4832/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -212,7 +212,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amfeel`](https://gssdataexplorer.norc.org/variables/4833/vshow).
+#' For further details see the [GSS Data Explorer page for `amfeel`](https://gssdataexplorer.norc.org/variables/4833/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -251,7 +251,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amcitizn`](https://gssdataexplorer.norc.org/variables/4834/vshow).
+#' For further details see the [GSS Data Explorer page for `amcitizn`](https://gssdataexplorer.norc.org/variables/4834/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -290,7 +290,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `amshamed`](https://gssdataexplorer.norc.org/variables/4835/vshow).
+#' For further details see the [GSS Data Explorer page for `amshamed`](https://gssdataexplorer.norc.org/variables/4835/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -329,7 +329,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `belikeus`](https://gssdataexplorer.norc.org/variables/4836/vshow).
+#' For further details see the [GSS Data Explorer page for `belikeus`](https://gssdataexplorer.norc.org/variables/4836/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -368,7 +368,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ambetter`](https://gssdataexplorer.norc.org/variables/4837/vshow).
+#' For further details see the [GSS Data Explorer page for `ambetter`](https://gssdataexplorer.norc.org/variables/4837/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

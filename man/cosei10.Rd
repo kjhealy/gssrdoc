@@ -35,44 +35,17 @@ Question COSEI10 is based on the 2010 Census occupation classification. It is es
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6358/vshow}{GSS Data Explorer page for \code{cosei10}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6358/vshow}{GSS Data Explorer page for \code{cosei10}}.
 }
 
 \seealso{
 Other Occupation: 
-\code{\link{coisco08}},
-\code{\link{copres105plus}},
 \code{\link{cosei10educ}},
-\code{\link{cosei10inc}},
-\code{\link{firstsei}},
-\code{\link{isco08}},
-\code{\link{isco68}},
-\code{\link{isco681}},
-\code{\link{isco88}},
-\code{\link{maisc681}},
-\code{\link{maisco08}},
-\code{\link{maisco88}},
-\code{\link{masei}},
 \code{\link{masei10}},
 \code{\link{masei10educ}},
 \code{\link{masei10inc}},
-\code{\link{paisc681}},
-\code{\link{paisco08}},
-\code{\link{paisco68}},
-\code{\link{paisco88}},
-\code{\link{pasei}},
-\code{\link{pasei10}},
 \code{\link{pasei10educ}},
 \code{\link{pasei10inc}},
-\code{\link{sei}},
-\code{\link{sei10}},
-\code{\link{sei10educ}},
-\code{\link{sei10inc}},
-\code{\link{spisc681}},
-\code{\link{spisco08}},
-\code{\link{spisco68}},
-\code{\link{spisco88}},
-\code{\link{spsei}},
 \code{\link{spsei10}},
 \code{\link{spsei10educ}},
 \code{\link{spsei10inc}}

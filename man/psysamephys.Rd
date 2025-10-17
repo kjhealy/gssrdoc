@@ -33,7 +33,7 @@ Question (To what extent to do you agree or disagree with the following statemen
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7857/vshow}{GSS Data Explorer page for \code{psysamephys}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7857/vshow}{GSS Data Explorer page for \code{psysamephys}}.
 }
 
 \keyword{variable}

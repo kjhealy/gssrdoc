@@ -33,7 +33,7 @@ Question The government should support declining industries to protect jobs, eve
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7553/vshow}{GSS Data Explorer page for \code{dclindus}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7553/vshow}{GSS Data Explorer page for \code{dclindus}}.
 }
 
 \keyword{variable}

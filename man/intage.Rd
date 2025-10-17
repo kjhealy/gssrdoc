@@ -37,31 +37,18 @@ Question A. Age of interviewer
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5563/vshow}{GSS Data Explorer page for \code{intage}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5563/vshow}{GSS Data Explorer page for \code{intage}}.
 }
 
 \seealso{
 Other Paradata: 
 \code{\link{consent}},
 \code{\link{easyget}},
-\code{\link{feelevel}},
-\code{\link{feeused}},
-\code{\link{huclean}},
 \code{\link{intethn}},
-\code{\link{intid}},
 \code{\link{intsex}},
 \code{\link{intyrs}},
 \code{\link{lngthinv}},
-\code{\link{mode}()},
-\code{\link{saqgene}},
-\code{\link{saqissp}},
-\code{\link{saqsex}},
-\code{\link{whoelse1}},
-\code{\link{whoelse2}},
-\code{\link{whoelse3}},
-\code{\link{whoelse4}},
-\code{\link{whoelse5}},
-\code{\link{whoelse6}}
+\code{\link{mode}()}
 }
 \concept{Paradata}
 \keyword{variable}

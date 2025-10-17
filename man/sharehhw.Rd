@@ -33,7 +33,7 @@ Question Which of the following best applies to the sharing of household work be
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7776/vshow}{GSS Data Explorer page for \code{sharehhw}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7776/vshow}{GSS Data Explorer page for \code{sharehhw}}.
 }
 
 \keyword{variable}

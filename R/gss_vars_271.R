@@ -19,7 +19,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `musiclst`](https://gssdataexplorer.norc.org/variables/2459/vshow).
+#' For further details see the [GSS Data Explorer page for `musiclst`](https://gssdataexplorer.norc.org/variables/2459/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `musicbuy`](https://gssdataexplorer.norc.org/variables/2460/vshow).
+#' For further details see the [GSS Data Explorer page for `musicbuy`](https://gssdataexplorer.norc.org/variables/2460/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -86,7 +86,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wwwclass`](https://gssdataexplorer.norc.org/variables/2461/vshow).
+#' For further details see the [GSS Data Explorer page for `wwwclass`](https://gssdataexplorer.norc.org/variables/2461/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -120,7 +120,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wwwcntry`](https://gssdataexplorer.norc.org/variables/2462/vshow).
+#' For further details see the [GSS Data Explorer page for `wwwcntry`](https://gssdataexplorer.norc.org/variables/2462/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wwwgthic`](https://gssdataexplorer.norc.org/variables/2463/vshow).
+#' For further details see the [GSS Data Explorer page for `wwwgthic`](https://gssdataexplorer.norc.org/variables/2463/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -188,7 +188,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wwwjazz`](https://gssdataexplorer.norc.org/variables/2464/vshow).
+#' For further details see the [GSS Data Explorer page for `wwwjazz`](https://gssdataexplorer.norc.org/variables/2464/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -222,7 +222,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wwwoldie`](https://gssdataexplorer.norc.org/variables/2465/vshow).
+#' For further details see the [GSS Data Explorer page for `wwwoldie`](https://gssdataexplorer.norc.org/variables/2465/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wwwrap`](https://gssdataexplorer.norc.org/variables/2466/vshow).
+#' For further details see the [GSS Data Explorer page for `wwwrap`](https://gssdataexplorer.norc.org/variables/2466/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -290,7 +290,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wwwrelig`](https://gssdataexplorer.norc.org/variables/2467/vshow).
+#' For further details see the [GSS Data Explorer page for `wwwrelig`](https://gssdataexplorer.norc.org/variables/2467/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |2000 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wwwrock`](https://gssdataexplorer.norc.org/variables/2468/vshow).
+#' For further details see the [GSS Data Explorer page for `wwwrock`](https://gssdataexplorer.norc.org/variables/2468/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

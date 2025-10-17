@@ -32,7 +32,7 @@ Question People have different opinions about who you can rely on and who should
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7781/vshow}{GSS Data Explorer page for \code{rlyrltv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7781/vshow}{GSS Data Explorer page for \code{rlyrltv}}.
 }
 
 \keyword{variable}

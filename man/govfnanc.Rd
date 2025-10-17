@@ -33,7 +33,7 @@ Question The government should finance projects to create new jobs, even if it m
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7552/vshow}{GSS Data Explorer page for \code{govfnanc}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7552/vshow}{GSS Data Explorer page for \code{govfnanc}}.
 }
 
 \keyword{variable}

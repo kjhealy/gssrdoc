@@ -33,7 +33,7 @@
 #'  |1996 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rachaf`](https://gssdataexplorer.norc.org/variables/396/vshow).
+#' For further details see the [GSS Data Explorer page for `rachaf`](https://gssdataexplorer.norc.org/variables/396/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -80,7 +80,7 @@ NULL
 #'  |1996 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racmost`](https://gssdataexplorer.norc.org/variables/397/vshow).
+#' For further details see the [GSS Data Explorer page for `racmost`](https://gssdataexplorer.norc.org/variables/397/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |1996 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `busing`](https://gssdataexplorer.norc.org/variables/398/vshow).
+#' For further details see the [GSS Data Explorer page for `busing`](https://gssdataexplorer.norc.org/variables/398/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -160,7 +160,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `busing10`](https://gssdataexplorer.norc.org/variables/399/vshow).
+#' For further details see the [GSS Data Explorer page for `busing10`](https://gssdataexplorer.norc.org/variables/399/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -209,7 +209,7 @@ NULL
 #'  |2010 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racpres`](https://gssdataexplorer.norc.org/variables/400/vshow).
+#' For further details see the [GSS Data Explorer page for `racpres`](https://gssdataexplorer.norc.org/variables/400/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -241,7 +241,7 @@ NULL
 #'  |1972 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racjob`](https://gssdataexplorer.norc.org/variables/401/vshow).
+#' For further details see the [GSS Data Explorer page for `racjob`](https://gssdataexplorer.norc.org/variables/401/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -285,7 +285,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racchurh`](https://gssdataexplorer.norc.org/variables/402/vshow).
+#' For further details see the [GSS Data Explorer page for `racchurh`](https://gssdataexplorer.norc.org/variables/402/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -320,7 +320,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `color`](https://gssdataexplorer.norc.org/variables/403/vshow).
+#' For further details see the [GSS Data Explorer page for `color`](https://gssdataexplorer.norc.org/variables/403/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -355,7 +355,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racname`](https://gssdataexplorer.norc.org/variables/404/vshow).
+#' For further details see the [GSS Data Explorer page for `racname`](https://gssdataexplorer.norc.org/variables/404/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -389,7 +389,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `rachisch`](https://gssdataexplorer.norc.org/variables/405/vshow).
+#' For further details see the [GSS Data Explorer page for `rachisch`](https://gssdataexplorer.norc.org/variables/405/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

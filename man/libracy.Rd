@@ -32,7 +32,7 @@ Question (Or consider a person who believes that Black people are genetically in
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7437/vshow}{GSS Data Explorer page for \code{libracy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7437/vshow}{GSS Data Explorer page for \code{libracy}}.
 }
 
 \keyword{variable}

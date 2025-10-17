@@ -32,7 +32,7 @@ Question From what part of the world did your ancestors come?  Middle East
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7634/vshow}{GSS Data Explorer page for \code{ethworld4}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7634/vshow}{GSS Data Explorer page for \code{ethworld4}}.
 }
 
 \keyword{variable}

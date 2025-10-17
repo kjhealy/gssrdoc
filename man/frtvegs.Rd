@@ -33,7 +33,7 @@ Question (How often do you...) eat fresh fruit or vegetables?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7837/vshow}{GSS Data Explorer page for \code{frtvegs}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7837/vshow}{GSS Data Explorer page for \code{frtvegs}}.
 }
 
 \keyword{variable}

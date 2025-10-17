@@ -19,7 +19,7 @@
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pinterst`](https://gssdataexplorer.norc.org/variables/6277/vshow).
+#' For further details see the [GSS Data Explorer page for `pinterst`](https://gssdataexplorer.norc.org/variables/6277/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `flickr`](https://gssdataexplorer.norc.org/variables/6278/vshow).
+#' For further details see the [GSS Data Explorer page for `flickr`](https://gssdataexplorer.norc.org/variables/6278/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `vine`](https://gssdataexplorer.norc.org/variables/6279/vshow).
+#' For further details see the [GSS Data Explorer page for `vine`](https://gssdataexplorer.norc.org/variables/6279/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clssmtes`](https://gssdataexplorer.norc.org/variables/6280/vshow).
+#' For further details see the [GSS Data Explorer page for `clssmtes`](https://gssdataexplorer.norc.org/variables/6280/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -150,7 +150,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `snsmoth1`](https://gssdataexplorer.norc.org/variables/6281/vshow).
+#' For further details see the [GSS Data Explorer page for `snsmoth1`](https://gssdataexplorer.norc.org/variables/6281/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -200,7 +200,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `snsmot2a`](https://gssdataexplorer.norc.org/variables/6282/vshow).
+#' For further details see the [GSS Data Explorer page for `snsmot2a`](https://gssdataexplorer.norc.org/variables/6282/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `snsmot2b`](https://gssdataexplorer.norc.org/variables/6283/vshow).
+#' For further details see the [GSS Data Explorer page for `snsmot2b`](https://gssdataexplorer.norc.org/variables/6283/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -300,7 +300,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `snsmot2c`](https://gssdataexplorer.norc.org/variables/6284/vshow).
+#' For further details see the [GSS Data Explorer page for `snsmot2c`](https://gssdataexplorer.norc.org/variables/6284/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -363,7 +363,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `snsmnew`](https://gssdataexplorer.norc.org/variables/6285/vshow).
+#' For further details see the [GSS Data Explorer page for `snsmnew`](https://gssdataexplorer.norc.org/variables/6285/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -394,7 +394,7 @@ NULL
 #'  |2016 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `snsmyear`](https://gssdataexplorer.norc.org/variables/6648/vshow).
+#' For further details see the [GSS Data Explorer page for `snsmyear`](https://gssdataexplorer.norc.org/variables/6648/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -33,7 +33,7 @@ Question (During the past 4 weeks how often...) Have you had bodily aches or pai
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7821/vshow}{GSS Data Explorer page for \code{hlthpain}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7821/vshow}{GSS Data Explorer page for \code{hlthpain}}.
 }
 
 \keyword{variable}

@@ -22,7 +22,7 @@
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trtwhite`](https://gssdataexplorer.norc.org/variables/3689/vshow).
+#' For further details see the [GSS Data Explorer page for `trtwhite`](https://gssdataexplorer.norc.org/variables/3689/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trtgay`](https://gssdataexplorer.norc.org/variables/3690/vshow).
+#' For further details see the [GSS Data Explorer page for `trtgay`](https://gssdataexplorer.norc.org/variables/3690/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trtcohab`](https://gssdataexplorer.norc.org/variables/3691/vshow).
+#' For further details see the [GSS Data Explorer page for `trtcohab`](https://gssdataexplorer.norc.org/variables/3691/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trtgoatt`](https://gssdataexplorer.norc.org/variables/3692/vshow).
+#' For further details see the [GSS Data Explorer page for `trtgoatt`](https://gssdataexplorer.norc.org/variables/3692/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trtnoatt`](https://gssdataexplorer.norc.org/variables/3693/vshow).
+#' For further details see the [GSS Data Explorer page for `trtnoatt`](https://gssdataexplorer.norc.org/variables/3693/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trtlib`](https://gssdataexplorer.norc.org/variables/3694/vshow).
+#' For further details see the [GSS Data Explorer page for `trtlib`](https://gssdataexplorer.norc.org/variables/3694/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trtcon`](https://gssdataexplorer.norc.org/variables/3695/vshow).
+#' For further details see the [GSS Data Explorer page for `trtcon`](https://gssdataexplorer.norc.org/variables/3695/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -273,7 +273,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trtreps`](https://gssdataexplorer.norc.org/variables/3696/vshow).
+#' For further details see the [GSS Data Explorer page for `trtreps`](https://gssdataexplorer.norc.org/variables/3696/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -308,7 +308,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trtdems`](https://gssdataexplorer.norc.org/variables/3697/vshow).
+#' For further details see the [GSS Data Explorer page for `trtdems`](https://gssdataexplorer.norc.org/variables/3697/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -343,7 +343,7 @@ NULL
 #'  |2006 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trtattnd`](https://gssdataexplorer.norc.org/variables/3698/vshow).
+#' For further details see the [GSS Data Explorer page for `trtattnd`](https://gssdataexplorer.norc.org/variables/3698/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -23,7 +23,7 @@
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `prvdschl`](https://gssdataexplorer.norc.org/variables/6307/vshow).
+#' For further details see the [GSS Data Explorer page for `prvdschl`](https://gssdataexplorer.norc.org/variables/6307/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -67,7 +67,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gvinflu1`](https://gssdataexplorer.norc.org/variables/6308/vshow).
+#' For further details see the [GSS Data Explorer page for `gvinflu1`](https://gssdataexplorer.norc.org/variables/6308/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -110,7 +110,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gvinflu2`](https://gssdataexplorer.norc.org/variables/6309/vshow).
+#' For further details see the [GSS Data Explorer page for `gvinflu2`](https://gssdataexplorer.norc.org/variables/6309/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -143,7 +143,7 @@ NULL
 #'  |2016 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polgbeco`](https://gssdataexplorer.norc.org/variables/6310/vshow).
+#' For further details see the [GSS Data Explorer page for `polgbeco`](https://gssdataexplorer.norc.org/variables/6310/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -185,7 +185,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff11`](https://gssdataexplorer.norc.org/variables/4095/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff11`](https://gssdataexplorer.norc.org/variables/4095/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff12`](https://gssdataexplorer.norc.org/variables/4096/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff12`](https://gssdataexplorer.norc.org/variables/4096/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -260,7 +260,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff13`](https://gssdataexplorer.norc.org/variables/4097/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff13`](https://gssdataexplorer.norc.org/variables/4097/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -296,7 +296,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff14`](https://gssdataexplorer.norc.org/variables/4098/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff14`](https://gssdataexplorer.norc.org/variables/4098/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -334,7 +334,7 @@ NULL
 #'  |2012 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff15`](https://gssdataexplorer.norc.org/variables/4099/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff15`](https://gssdataexplorer.norc.org/variables/4099/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -373,7 +373,7 @@ NULL
 #'  |2016 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poleff16`](https://gssdataexplorer.norc.org/variables/4100/vshow).
+#' For further details see the [GSS Data Explorer page for `poleff16`](https://gssdataexplorer.norc.org/variables/4100/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

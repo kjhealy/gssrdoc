@@ -32,24 +32,14 @@ L. Would refuse to answer, not sure, or don''t know.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2995/vshow}{GSS Data Explorer page for \code{caninf12}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2995/vshow}{GSS Data Explorer page for \code{caninf12}}.
 }
 
 \seealso{
 Other Information Seeking Online: 
-\code{\link{caninf1}},
-\code{\link{caninf10}},
 \code{\link{caninf11}},
 \code{\link{caninf13}},
-\code{\link{caninf14}},
-\code{\link{caninf2}},
-\code{\link{caninf3}},
-\code{\link{caninf4}},
-\code{\link{caninf5}},
-\code{\link{caninf6}},
-\code{\link{caninf7}},
-\code{\link{caninf8}},
-\code{\link{caninf9}}
+\code{\link{caninf14}}
 }
 \concept{Information Seeking Online}
 \keyword{variable}

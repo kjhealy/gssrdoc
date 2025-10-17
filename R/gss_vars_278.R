@@ -20,7 +20,7 @@
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polfrel`](https://gssdataexplorer.norc.org/variables/2529/vshow).
+#' For further details see the [GSS Data Explorer page for `polfrel`](https://gssdataexplorer.norc.org/variables/2529/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -54,7 +54,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polcamp`](https://gssdataexplorer.norc.org/variables/2530/vshow).
+#' For further details see the [GSS Data Explorer page for `polcamp`](https://gssdataexplorer.norc.org/variables/2530/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -88,7 +88,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polwww`](https://gssdataexplorer.norc.org/variables/2531/vshow).
+#' For further details see the [GSS Data Explorer page for `polwww`](https://gssdataexplorer.norc.org/variables/2531/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `buyinfgn`](https://gssdataexplorer.norc.org/variables/2532/vshow).
+#' For further details see the [GSS Data Explorer page for `buyinfgn`](https://gssdataexplorer.norc.org/variables/2532/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -160,7 +160,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `investgn`](https://gssdataexplorer.norc.org/variables/2533/vshow).
+#' For further details see the [GSS Data Explorer page for `investgn`](https://gssdataexplorer.norc.org/variables/2533/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -196,7 +196,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `travelgn`](https://gssdataexplorer.norc.org/variables/2534/vshow).
+#' For further details see the [GSS Data Explorer page for `travelgn`](https://gssdataexplorer.norc.org/variables/2534/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -232,7 +232,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `peoplegn`](https://gssdataexplorer.norc.org/variables/2535/vshow).
+#' For further details see the [GSS Data Explorer page for `peoplegn`](https://gssdataexplorer.norc.org/variables/2535/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -268,7 +268,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gamegn`](https://gssdataexplorer.norc.org/variables/2536/vshow).
+#' For further details see the [GSS Data Explorer page for `gamegn`](https://gssdataexplorer.norc.org/variables/2536/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -303,7 +303,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `newjobgn`](https://gssdataexplorer.norc.org/variables/2537/vshow).
+#' For further details see the [GSS Data Explorer page for `newjobgn`](https://gssdataexplorer.norc.org/variables/2537/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -339,7 +339,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poldisgn`](https://gssdataexplorer.norc.org/variables/2538/vshow).
+#' For further details see the [GSS Data Explorer page for `poldisgn`](https://gssdataexplorer.norc.org/variables/2538/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

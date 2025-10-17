@@ -33,7 +33,7 @@ Question How often in the past 4 weeks have you felt thatï¿½ You are isolated
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7255/vshow}{GSS Data Explorer page for \code{lonely2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7255/vshow}{GSS Data Explorer page for \code{lonely2}}.
 }
 
 \keyword{variable}

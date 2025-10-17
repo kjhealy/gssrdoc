@@ -35,29 +35,13 @@ F. Freedom is being able to express unpopular ideas without fearing for my safet
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2673/vshow}{GSS Data Explorer page for \code{expunpop}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2673/vshow}{GSS Data Explorer page for \code{expunpop}}.
 }
 
 \seealso{
 Other Freedom: 
-\code{\link{choice}},
 \code{\link{cntrlife}},
-\code{\link{freeexp1}},
-\code{\link{freeexp2}},
-\code{\link{freeexp3}},
-\code{\link{freemns1}},
-\code{\link{freemns2}},
-\code{\link{freemns3}},
-\code{\link{freenow}},
 \code{\link{freeprss}},
-\code{\link{howfree}},
-\code{\link{inpeace}},
-\code{\link{leftlone}},
-\code{\link{nogovt}},
-\code{\link{partpol}},
-\code{\link{rfreenow}},
-\code{\link{rhowfree}},
-\code{\link{satdemoc}},
 \code{\link{wlthpov}}
 }
 \concept{Freedom}

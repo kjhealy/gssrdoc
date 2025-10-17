@@ -22,7 +22,7 @@
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impmar`](https://gssdataexplorer.norc.org/variables/1439/vshow).
+#' For further details see the [GSS Data Explorer page for `impmar`](https://gssdataexplorer.norc.org/variables/1439/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -58,7 +58,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impkids`](https://gssdataexplorer.norc.org/variables/1440/vshow).
+#' For further details see the [GSS Data Explorer page for `impkids`](https://gssdataexplorer.norc.org/variables/1440/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impgod`](https://gssdataexplorer.norc.org/variables/1441/vshow).
+#' For further details see the [GSS Data Explorer page for `impgod`](https://gssdataexplorer.norc.org/variables/1441/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -130,7 +130,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impthngs`](https://gssdataexplorer.norc.org/variables/1442/vshow).
+#' For further details see the [GSS Data Explorer page for `impthngs`](https://gssdataexplorer.norc.org/variables/1442/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impcultr`](https://gssdataexplorer.norc.org/variables/1443/vshow).
+#' For further details see the [GSS Data Explorer page for `impcultr`](https://gssdataexplorer.norc.org/variables/1443/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -202,7 +202,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impjob`](https://gssdataexplorer.norc.org/variables/1444/vshow).
+#' For further details see the [GSS Data Explorer page for `impjob`](https://gssdataexplorer.norc.org/variables/1444/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `impself`](https://gssdataexplorer.norc.org/variables/1445/vshow).
+#' For further details see the [GSS Data Explorer page for `impself`](https://gssdataexplorer.norc.org/variables/1445/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -271,7 +271,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mostimp1`](https://gssdataexplorer.norc.org/variables/1446/vshow).
+#' For further details see the [GSS Data Explorer page for `mostimp1`](https://gssdataexplorer.norc.org/variables/1446/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -304,7 +304,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mostimp2`](https://gssdataexplorer.norc.org/variables/1447/vshow).
+#' For further details see the [GSS Data Explorer page for `mostimp2`](https://gssdataexplorer.norc.org/variables/1447/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -337,7 +337,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mostimp3`](https://gssdataexplorer.norc.org/variables/1448/vshow).
+#' For further details see the [GSS Data Explorer page for `mostimp3`](https://gssdataexplorer.norc.org/variables/1448/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

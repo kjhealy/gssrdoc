@@ -32,7 +32,7 @@ Question People may have different perceptions about who they consider to be clo
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7777/vshow}{GSS Data Explorer page for \code{clsrltv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7777/vshow}{GSS Data Explorer page for \code{clsrltv}}.
 }
 
 \keyword{variable}

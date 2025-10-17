@@ -46,7 +46,7 @@
 #'  |2021 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spkhomo`](https://gssdataexplorer.norc.org/variables/261/vshow).
+#' For further details see the [GSS Data Explorer page for `spkhomo`](https://gssdataexplorer.norc.org/variables/261/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -106,7 +106,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colhomo`](https://gssdataexplorer.norc.org/variables/262/vshow).
+#' For further details see the [GSS Data Explorer page for `colhomo`](https://gssdataexplorer.norc.org/variables/262/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -166,7 +166,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libhomo`](https://gssdataexplorer.norc.org/variables/263/vshow).
+#' For further details see the [GSS Data Explorer page for `libhomo`](https://gssdataexplorer.norc.org/variables/263/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -207,7 +207,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `spkmslm`](https://gssdataexplorer.norc.org/variables/264/vshow).
+#' For further details see the [GSS Data Explorer page for `spkmslm`](https://gssdataexplorer.norc.org/variables/264/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -248,7 +248,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colmslm`](https://gssdataexplorer.norc.org/variables/265/vshow).
+#' For further details see the [GSS Data Explorer page for `colmslm`](https://gssdataexplorer.norc.org/variables/265/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -289,7 +289,7 @@ NULL
 #'  |2024 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `libmslm`](https://gssdataexplorer.norc.org/variables/266/vshow).
+#' For further details see the [GSS Data Explorer page for `libmslm`](https://gssdataexplorer.norc.org/variables/266/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -322,7 +322,7 @@ NULL
 #'  |1973 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cappun2`](https://gssdataexplorer.norc.org/variables/267/vshow).
+#' For further details see the [GSS Data Explorer page for `cappun2`](https://gssdataexplorer.norc.org/variables/267/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -386,7 +386,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cappun`](https://gssdataexplorer.norc.org/variables/268/vshow).
+#' For further details see the [GSS Data Explorer page for `cappun`](https://gssdataexplorer.norc.org/variables/268/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -420,7 +420,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `capimp`](https://gssdataexplorer.norc.org/variables/269/vshow).
+#' For further details see the [GSS Data Explorer page for `capimp`](https://gssdataexplorer.norc.org/variables/269/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -454,7 +454,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `capinfo`](https://gssdataexplorer.norc.org/variables/270/vshow).
+#' For further details see the [GSS Data Explorer page for `capinfo`](https://gssdataexplorer.norc.org/variables/270/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

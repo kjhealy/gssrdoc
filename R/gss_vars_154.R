@@ -19,7 +19,7 @@
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mostimp4`](https://gssdataexplorer.norc.org/variables/1449/vshow).
+#' For further details see the [GSS Data Explorer page for `mostimp4`](https://gssdataexplorer.norc.org/variables/1449/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -65,7 +65,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colmajr1`](https://gssdataexplorer.norc.org/variables/1450/vshow).
+#' For further details see the [GSS Data Explorer page for `colmajr1`](https://gssdataexplorer.norc.org/variables/1450/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -111,7 +111,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `colmajr2`](https://gssdataexplorer.norc.org/variables/1451/vshow).
+#' For further details see the [GSS Data Explorer page for `colmajr2`](https://gssdataexplorer.norc.org/variables/1451/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -157,7 +157,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hsclass1`](https://gssdataexplorer.norc.org/variables/1452/vshow).
+#' For further details see the [GSS Data Explorer page for `hsclass1`](https://gssdataexplorer.norc.org/variables/1452/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -203,7 +203,7 @@ NULL
 #'  |1993 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hsclass2`](https://gssdataexplorer.norc.org/variables/1453/vshow).
+#' For further details see the [GSS Data Explorer page for `hsclass2`](https://gssdataexplorer.norc.org/variables/1453/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -235,7 +235,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `malive1`](https://gssdataexplorer.norc.org/variables/1454/vshow).
+#' For further details see the [GSS Data Explorer page for `malive1`](https://gssdataexplorer.norc.org/variables/1454/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -266,7 +266,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mayrborn`](https://gssdataexplorer.norc.org/variables/1455/vshow).
+#' For further details see the [GSS Data Explorer page for `mayrborn`](https://gssdataexplorer.norc.org/variables/1455/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -297,7 +297,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mayrdied`](https://gssdataexplorer.norc.org/variables/1456/vshow).
+#' For further details see the [GSS Data Explorer page for `mayrdied`](https://gssdataexplorer.norc.org/variables/1456/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -329,7 +329,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `palive1`](https://gssdataexplorer.norc.org/variables/1457/vshow).
+#' For further details see the [GSS Data Explorer page for `palive1`](https://gssdataexplorer.norc.org/variables/1457/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -360,7 +360,7 @@ NULL
 #'  |1994 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `payrborn`](https://gssdataexplorer.norc.org/variables/1458/vshow).
+#' For further details see the [GSS Data Explorer page for `payrborn`](https://gssdataexplorer.norc.org/variables/1458/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

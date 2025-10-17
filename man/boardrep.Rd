@@ -33,7 +33,7 @@ Question Workers should be represented on the board of directors at major compan
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7548/vshow}{GSS Data Explorer page for \code{boardrep}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7548/vshow}{GSS Data Explorer page for \code{boardrep}}.
 }
 
 \keyword{variable}

@@ -49,7 +49,7 @@
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relhh5`](https://gssdataexplorer.norc.org/variables/5443/vshow).
+#' For further details see the [GSS Data Explorer page for `relhh5`](https://gssdataexplorer.norc.org/variables/5443/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -112,7 +112,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relhh6`](https://gssdataexplorer.norc.org/variables/5444/vshow).
+#' For further details see the [GSS Data Explorer page for `relhh6`](https://gssdataexplorer.norc.org/variables/5444/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -175,7 +175,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relhh7`](https://gssdataexplorer.norc.org/variables/5445/vshow).
+#' For further details see the [GSS Data Explorer page for `relhh7`](https://gssdataexplorer.norc.org/variables/5445/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -238,7 +238,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relhh8`](https://gssdataexplorer.norc.org/variables/5446/vshow).
+#' For further details see the [GSS Data Explorer page for `relhh8`](https://gssdataexplorer.norc.org/variables/5446/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -301,7 +301,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relhh9`](https://gssdataexplorer.norc.org/variables/5447/vshow).
+#' For further details see the [GSS Data Explorer page for `relhh9`](https://gssdataexplorer.norc.org/variables/5447/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -364,7 +364,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relhh10`](https://gssdataexplorer.norc.org/variables/5448/vshow).
+#' For further details see the [GSS Data Explorer page for `relhh10`](https://gssdataexplorer.norc.org/variables/5448/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -427,7 +427,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relhh11`](https://gssdataexplorer.norc.org/variables/5449/vshow).
+#' For further details see the [GSS Data Explorer page for `relhh11`](https://gssdataexplorer.norc.org/variables/5449/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -490,7 +490,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relhh12`](https://gssdataexplorer.norc.org/variables/5450/vshow).
+#' For further details see the [GSS Data Explorer page for `relhh12`](https://gssdataexplorer.norc.org/variables/5450/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -553,7 +553,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relhh13`](https://gssdataexplorer.norc.org/variables/5451/vshow).
+#' For further details see the [GSS Data Explorer page for `relhh13`](https://gssdataexplorer.norc.org/variables/5451/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -616,7 +616,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relhh14`](https://gssdataexplorer.norc.org/variables/5452/vshow).
+#' For further details see the [GSS Data Explorer page for `relhh14`](https://gssdataexplorer.norc.org/variables/5452/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -22,7 +22,7 @@
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sealevel`](https://gssdataexplorer.norc.org/variables/3439/vshow).
+#' For further details see the [GSS Data Explorer page for `sealevel`](https://gssdataexplorer.norc.org/variables/3439/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -57,7 +57,7 @@ NULL
 #'  |2006 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `artseals`](https://gssdataexplorer.norc.org/variables/3440/vshow).
+#' For further details see the [GSS Data Explorer page for `artseals`](https://gssdataexplorer.norc.org/variables/3440/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -92,7 +92,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `penguins`](https://gssdataexplorer.norc.org/variables/3441/vshow).
+#' For further details see the [GSS Data Explorer page for `penguins`](https://gssdataexplorer.norc.org/variables/3441/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -128,7 +128,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `inuitway`](https://gssdataexplorer.norc.org/variables/3442/vshow).
+#' For further details see the [GSS Data Explorer page for `inuitway`](https://gssdataexplorer.norc.org/variables/3442/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -164,7 +164,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `noicecap`](https://gssdataexplorer.norc.org/variables/3443/vshow).
+#' For further details see the [GSS Data Explorer page for `noicecap`](https://gssdataexplorer.norc.org/variables/3443/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -201,7 +201,7 @@ NULL
 #'  |2010 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `caremost`](https://gssdataexplorer.norc.org/variables/3444/vshow).
+#' For further details see the [GSS Data Explorer page for `caremost`](https://gssdataexplorer.norc.org/variables/3444/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -237,7 +237,7 @@ NULL
 #'  |2010 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nanotech`](https://gssdataexplorer.norc.org/variables/3445/vshow).
+#' For further details see the [GSS Data Explorer page for `nanotech`](https://gssdataexplorer.norc.org/variables/3445/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -272,7 +272,7 @@ NULL
 #'  |2010 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nanoknw1`](https://gssdataexplorer.norc.org/variables/3446/vshow).
+#' For further details see the [GSS Data Explorer page for `nanoknw1`](https://gssdataexplorer.norc.org/variables/3446/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -307,7 +307,7 @@ NULL
 #'  |2010 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nanoknw2`](https://gssdataexplorer.norc.org/variables/3447/vshow).
+#' For further details see the [GSS Data Explorer page for `nanoknw2`](https://gssdataexplorer.norc.org/variables/3447/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -344,7 +344,7 @@ NULL
 #'  |2018 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `nanowill`](https://gssdataexplorer.norc.org/variables/3448/vshow).
+#' For further details see the [GSS Data Explorer page for `nanowill`](https://gssdataexplorer.norc.org/variables/3448/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -19,7 +19,7 @@
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fndjob5`](https://gssdataexplorer.norc.org/variables/1280/vshow).
+#' For further details see the [GSS Data Explorer page for `fndjob5`](https://gssdataexplorer.norc.org/variables/1280/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fndjob6`](https://gssdataexplorer.norc.org/variables/1281/vshow).
+#' For further details see the [GSS Data Explorer page for `fndjob6`](https://gssdataexplorer.norc.org/variables/1281/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fndjob7`](https://gssdataexplorer.norc.org/variables/1282/vshow).
+#' For further details see the [GSS Data Explorer page for `fndjob7`](https://gssdataexplorer.norc.org/variables/1282/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fndjob8`](https://gssdataexplorer.norc.org/variables/1283/vshow).
+#' For further details see the [GSS Data Explorer page for `fndjob8`](https://gssdataexplorer.norc.org/variables/1283/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -154,7 +154,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fndjob9`](https://gssdataexplorer.norc.org/variables/1284/vshow).
+#' For further details see the [GSS Data Explorer page for `fndjob9`](https://gssdataexplorer.norc.org/variables/1284/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `intltest`](https://gssdataexplorer.norc.org/variables/1285/vshow).
+#' For further details see the [GSS Data Explorer page for `intltest`](https://gssdataexplorer.norc.org/variables/1285/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -220,7 +220,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `skiltest`](https://gssdataexplorer.norc.org/variables/1286/vshow).
+#' For further details see the [GSS Data Explorer page for `skiltest`](https://gssdataexplorer.norc.org/variables/1286/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -253,7 +253,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `drugtest`](https://gssdataexplorer.norc.org/variables/1287/vshow).
+#' For further details see the [GSS Data Explorer page for `drugtest`](https://gssdataexplorer.norc.org/variables/1287/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -286,7 +286,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `physical`](https://gssdataexplorer.norc.org/variables/1288/vshow).
+#' For further details see the [GSS Data Explorer page for `physical`](https://gssdataexplorer.norc.org/variables/1288/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |1991 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ltrsref`](https://gssdataexplorer.norc.org/variables/1289/vshow).
+#' For further details see the [GSS Data Explorer page for `ltrsref`](https://gssdataexplorer.norc.org/variables/1289/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

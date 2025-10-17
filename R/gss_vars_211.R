@@ -24,7 +24,7 @@
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `genetics`](https://gssdataexplorer.norc.org/variables/1992/vshow).
+#' For further details see the [GSS Data Explorer page for `genetics`](https://gssdataexplorer.norc.org/variables/1992/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -62,7 +62,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `godswill`](https://gssdataexplorer.norc.org/variables/1993/vshow).
+#' For further details see the [GSS Data Explorer page for `godswill`](https://gssdataexplorer.norc.org/variables/1993/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -100,7 +100,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `upsdowns`](https://gssdataexplorer.norc.org/variables/1994/vshow).
+#' For further details see the [GSS Data Explorer page for `upsdowns`](https://gssdataexplorer.norc.org/variables/1994/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -138,7 +138,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `breakdwn`](https://gssdataexplorer.norc.org/variables/1995/vshow).
+#' For further details see the [GSS Data Explorer page for `breakdwn`](https://gssdataexplorer.norc.org/variables/1995/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -176,7 +176,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `mentlill`](https://gssdataexplorer.norc.org/variables/1996/vshow).
+#' For further details see the [GSS Data Explorer page for `mentlill`](https://gssdataexplorer.norc.org/variables/1996/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `physill`](https://gssdataexplorer.norc.org/variables/1997/vshow).
+#' For further details see the [GSS Data Explorer page for `physill`](https://gssdataexplorer.norc.org/variables/1997/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `viglabel`](https://gssdataexplorer.norc.org/variables/1998/vshow).
+#' For further details see the [GSS Data Explorer page for `viglabel`](https://gssdataexplorer.norc.org/variables/1998/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -293,7 +293,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dectreat`](https://gssdataexplorer.norc.org/variables/1999/vshow).
+#' For further details see the [GSS Data Explorer page for `dectreat`](https://gssdataexplorer.norc.org/variables/1999/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |2024 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `decmoney`](https://gssdataexplorer.norc.org/variables/2000/vshow).
+#' For further details see the [GSS Data Explorer page for `decmoney`](https://gssdataexplorer.norc.org/variables/2000/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -366,7 +366,7 @@ NULL
 #'  |2018 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `imprvown`](https://gssdataexplorer.norc.org/variables/2001/vshow).
+#' For further details see the [GSS Data Explorer page for `imprvown`](https://gssdataexplorer.norc.org/variables/2001/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

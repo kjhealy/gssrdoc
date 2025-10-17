@@ -30,7 +30,7 @@
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `quitsmk`](https://gssdataexplorer.norc.org/variables/533/vshow).
+#' For further details see the [GSS Data Explorer page for `quitsmk`](https://gssdataexplorer.norc.org/variables/533/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -67,7 +67,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `smokecig`](https://gssdataexplorer.norc.org/variables/534/vshow).
+#' For further details see the [GSS Data Explorer page for `smokecig`](https://gssdataexplorer.norc.org/variables/534/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -100,7 +100,7 @@ NULL
 #'  |1977 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cigweek`](https://gssdataexplorer.norc.org/variables/535/vshow).
+#' For further details see the [GSS Data Explorer page for `cigweek`](https://gssdataexplorer.norc.org/variables/535/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -144,7 +144,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `evsmoke`](https://gssdataexplorer.norc.org/variables/536/vshow).
+#' For further details see the [GSS Data Explorer page for `evsmoke`](https://gssdataexplorer.norc.org/variables/536/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -179,7 +179,7 @@ NULL
 #'  |1976 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anomia1`](https://gssdataexplorer.norc.org/variables/537/vshow).
+#' For further details see the [GSS Data Explorer page for `anomia1`](https://gssdataexplorer.norc.org/variables/537/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -214,7 +214,7 @@ NULL
 #'  |1976 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anomia2`](https://gssdataexplorer.norc.org/variables/538/vshow).
+#' For further details see the [GSS Data Explorer page for `anomia2`](https://gssdataexplorer.norc.org/variables/538/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -249,7 +249,7 @@ NULL
 #'  |1976 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anomia3`](https://gssdataexplorer.norc.org/variables/539/vshow).
+#' For further details see the [GSS Data Explorer page for `anomia3`](https://gssdataexplorer.norc.org/variables/539/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -284,7 +284,7 @@ NULL
 #'  |1976 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anomia4`](https://gssdataexplorer.norc.org/variables/540/vshow).
+#' For further details see the [GSS Data Explorer page for `anomia4`](https://gssdataexplorer.norc.org/variables/540/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -331,7 +331,7 @@ NULL
 #'  |1994 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anomia5`](https://gssdataexplorer.norc.org/variables/541/vshow).
+#' For further details see the [GSS Data Explorer page for `anomia5`](https://gssdataexplorer.norc.org/variables/541/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -378,7 +378,7 @@ NULL
 #'  |1994 |A/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `anomia6`](https://gssdataexplorer.norc.org/variables/542/vshow).
+#' For further details see the [GSS Data Explorer page for `anomia6`](https://gssdataexplorer.norc.org/variables/542/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

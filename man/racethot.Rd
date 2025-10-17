@@ -29,7 +29,7 @@ Question f.  Other?
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6356/vshow}{GSS Data Explorer page for \code{racethot}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6356/vshow}{GSS Data Explorer page for \code{racethot}}.
 }
 
 \seealso{

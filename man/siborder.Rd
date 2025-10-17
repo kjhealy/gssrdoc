@@ -29,7 +29,7 @@ Question How many of your (number) brothers and sisters were born before you wer
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5082/vshow}{GSS Data Explorer page for \code{siborder}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5082/vshow}{GSS Data Explorer page for \code{siborder}}.
 }
 
 \concept{Birth Order}

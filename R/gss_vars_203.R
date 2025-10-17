@@ -19,7 +19,7 @@
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `monintl`](https://gssdataexplorer.norc.org/variables/1912/vshow).
+#' For further details see the [GSS Data Explorer page for `monintl`](https://gssdataexplorer.norc.org/variables/1912/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `moninfrm`](https://gssdataexplorer.norc.org/variables/1913/vshow).
+#' For further details see the [GSS Data Explorer page for `moninfrm`](https://gssdataexplorer.norc.org/variables/1913/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `monoth`](https://gssdataexplorer.norc.org/variables/1914/vshow).
+#' For further details see the [GSS Data Explorer page for `monoth`](https://gssdataexplorer.norc.org/variables/1914/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -117,7 +117,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hrshlth`](https://gssdataexplorer.norc.org/variables/1915/vshow).
+#' For further details see the [GSS Data Explorer page for `hrshlth`](https://gssdataexplorer.norc.org/variables/1915/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -149,7 +149,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hrseduc`](https://gssdataexplorer.norc.org/variables/1916/vshow).
+#' For further details see the [GSS Data Explorer page for `hrseduc`](https://gssdataexplorer.norc.org/variables/1916/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -181,7 +181,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hrsrelig`](https://gssdataexplorer.norc.org/variables/1917/vshow).
+#' For further details see the [GSS Data Explorer page for `hrsrelig`](https://gssdataexplorer.norc.org/variables/1917/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -213,7 +213,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hrshuman`](https://gssdataexplorer.norc.org/variables/1918/vshow).
+#' For further details see the [GSS Data Explorer page for `hrshuman`](https://gssdataexplorer.norc.org/variables/1918/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hrsenvir`](https://gssdataexplorer.norc.org/variables/1919/vshow).
+#' For further details see the [GSS Data Explorer page for `hrsenvir`](https://gssdataexplorer.norc.org/variables/1919/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -277,7 +277,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hrspub`](https://gssdataexplorer.norc.org/variables/1920/vshow).
+#' For further details see the [GSS Data Explorer page for `hrspub`](https://gssdataexplorer.norc.org/variables/1920/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -309,7 +309,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hrsrec`](https://gssdataexplorer.norc.org/variables/1921/vshow).
+#' For further details see the [GSS Data Explorer page for `hrsrec`](https://gssdataexplorer.norc.org/variables/1921/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

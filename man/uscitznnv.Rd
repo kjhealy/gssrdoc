@@ -33,7 +33,7 @@ Question Now we would like to ask you about U.S. citizenship. Are youâ€¦
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7620/vshow}{GSS Data Explorer page for \code{uscitznnv}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7620/vshow}{GSS Data Explorer page for \code{uscitznnv}}.
 }
 
 \keyword{variable}

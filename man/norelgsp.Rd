@@ -33,7 +33,7 @@ Question Do you consider yourself to be atheist, agnostic, something else, or no
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7522/vshow}{GSS Data Explorer page for \code{norelgsp}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7522/vshow}{GSS Data Explorer page for \code{norelgsp}}.
 }
 
 \keyword{variable}

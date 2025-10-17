@@ -32,17 +32,13 @@ F. Would use chat group, news group, discussion forum or other online interactiv
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/2989/vshow}{GSS Data Explorer page for \code{caninf6}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2989/vshow}{GSS Data Explorer page for \code{caninf6}}.
 }
 
 \seealso{
 Other Information Seeking Online: 
 \code{\link{caninf1}},
 \code{\link{caninf10}},
-\code{\link{caninf11}},
-\code{\link{caninf12}},
-\code{\link{caninf13}},
-\code{\link{caninf14}},
 \code{\link{caninf2}},
 \code{\link{caninf3}},
 \code{\link{caninf4}},

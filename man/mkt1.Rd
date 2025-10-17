@@ -33,7 +33,7 @@ Question It is the responsibility of private companies to reduce the differences
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7505/vshow}{GSS Data Explorer page for \code{mkt1}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7505/vshow}{GSS Data Explorer page for \code{mkt1}}.
 }
 
 \keyword{variable}

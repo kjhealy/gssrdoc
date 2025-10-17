@@ -32,7 +32,7 @@ Question (Pleae indicate whether or not you think it should be possible for a pr
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7624/vshow}{GSS Data Explorer page for \code{abanyg}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7624/vshow}{GSS Data Explorer page for \code{abanyg}}.
 }
 
 \keyword{variable}

@@ -31,7 +31,7 @@ Question From what country or countries did your ancestors come?  Finland
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7645/vshow}{GSS Data Explorer page for \code{ethregion6}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7645/vshow}{GSS Data Explorer page for \code{ethregion6}}.
 }
 
 \keyword{variable}

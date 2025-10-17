@@ -23,7 +23,7 @@
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `pol30`](https://gssdataexplorer.norc.org/variables/2400/vshow).
+#' For further details see the [GSS Data Explorer page for `pol30`](https://gssdataexplorer.norc.org/variables/2400/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `travel30`](https://gssdataexplorer.norc.org/variables/2401/vshow).
+#' For further details see the [GSS Data Explorer page for `travel30`](https://gssdataexplorer.norc.org/variables/2401/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sports30`](https://gssdataexplorer.norc.org/variables/2402/vshow).
+#' For further details see the [GSS Data Explorer page for `sports30`](https://gssdataexplorer.norc.org/variables/2402/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -134,7 +134,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `music30`](https://gssdataexplorer.norc.org/variables/2403/vshow).
+#' For further details see the [GSS Data Explorer page for `music30`](https://gssdataexplorer.norc.org/variables/2403/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -171,7 +171,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `art30`](https://gssdataexplorer.norc.org/variables/2404/vshow).
+#' For further details see the [GSS Data Explorer page for `art30`](https://gssdataexplorer.norc.org/variables/2404/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -208,7 +208,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `tvmov30`](https://gssdataexplorer.norc.org/variables/2405/vshow).
+#' For further details see the [GSS Data Explorer page for `tvmov30`](https://gssdataexplorer.norc.org/variables/2405/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -245,7 +245,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `health30`](https://gssdataexplorer.norc.org/variables/2406/vshow).
+#' For further details see the [GSS Data Explorer page for `health30`](https://gssdataexplorer.norc.org/variables/2406/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `relig30`](https://gssdataexplorer.norc.org/variables/2407/vshow).
+#' For further details see the [GSS Data Explorer page for `relig30`](https://gssdataexplorer.norc.org/variables/2407/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -319,7 +319,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `games30`](https://gssdataexplorer.norc.org/variables/2408/vshow).
+#' For further details see the [GSS Data Explorer page for `games30`](https://gssdataexplorer.norc.org/variables/2408/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -356,7 +356,7 @@ NULL
 #'  |2004 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `humor30`](https://gssdataexplorer.norc.org/variables/2409/vshow).
+#' For further details see the [GSS Data Explorer page for `humor30`](https://gssdataexplorer.norc.org/variables/2409/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

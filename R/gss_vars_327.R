@@ -19,7 +19,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `givchng`](https://gssdataexplorer.norc.org/variables/2914/vshow).
+#' For further details see the [GSS Data Explorer page for `givchng`](https://gssdataexplorer.norc.org/variables/2914/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `hlpneedy`](https://gssdataexplorer.norc.org/variables/2915/vshow).
+#' For further details see the [GSS Data Explorer page for `hlpneedy`](https://gssdataexplorer.norc.org/variables/2915/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `partthon`](https://gssdataexplorer.norc.org/variables/2916/vshow).
+#' For further details see the [GSS Data Explorer page for `partthon`](https://gssdataexplorer.norc.org/variables/2916/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -172,7 +172,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldvig`](https://gssdataexplorer.norc.org/variables/2917/vshow).
+#' For further details see the [GSS Data Explorer page for `chldvig`](https://gssdataexplorer.norc.org/variables/2917/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -215,7 +215,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldprb`](https://gssdataexplorer.norc.org/variables/2918/vshow).
+#' For further details see the [GSS Data Explorer page for `chldprb`](https://gssdataexplorer.norc.org/variables/2918/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -250,7 +250,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldprob`](https://gssdataexplorer.norc.org/variables/2919/vshow).
+#' For further details see the [GSS Data Explorer page for `chldprob`](https://gssdataexplorer.norc.org/variables/2919/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -300,7 +300,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chldhlp`](https://gssdataexplorer.norc.org/variables/2920/vshow).
+#' For further details see the [GSS Data Explorer page for `chldhlp`](https://gssdataexplorer.norc.org/variables/2920/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -335,7 +335,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `badchar`](https://gssdataexplorer.norc.org/variables/2921/vshow).
+#' For further details see the [GSS Data Explorer page for `badchar`](https://gssdataexplorer.norc.org/variables/2921/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -370,7 +370,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chembal`](https://gssdataexplorer.norc.org/variables/2922/vshow).
+#' For further details see the [GSS Data Explorer page for `chembal`](https://gssdataexplorer.norc.org/variables/2922/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -405,7 +405,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `stressfl`](https://gssdataexplorer.norc.org/variables/2923/vshow).
+#' For further details see the [GSS Data Explorer page for `stressfl`](https://gssdataexplorer.norc.org/variables/2923/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -19,7 +19,7 @@
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `perhrh`](https://gssdataexplorer.norc.org/variables/2559/vshow).
+#' For further details see the [GSS Data Explorer page for `perhrh`](https://gssdataexplorer.norc.org/variables/2559/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -52,7 +52,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkminh`](https://gssdataexplorer.norc.org/variables/2560/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkminh`](https://gssdataexplorer.norc.org/variables/2560/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -85,7 +85,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wrkhrh`](https://gssdataexplorer.norc.org/variables/2561/vshow).
+#' For further details see the [GSS Data Explorer page for `wrkhrh`](https://gssdataexplorer.norc.org/variables/2561/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -119,7 +119,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emminh`](https://gssdataexplorer.norc.org/variables/2562/vshow).
+#' For further details see the [GSS Data Explorer page for `emminh`](https://gssdataexplorer.norc.org/variables/2562/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -153,7 +153,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `emhrh`](https://gssdataexplorer.norc.org/variables/2563/vshow).
+#' For further details see the [GSS Data Explorer page for `emhrh`](https://gssdataexplorer.norc.org/variables/2563/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wwwminh`](https://gssdataexplorer.norc.org/variables/2564/vshow).
+#' For further details see the [GSS Data Explorer page for `wwwminh`](https://gssdataexplorer.norc.org/variables/2564/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -221,7 +221,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `wwwhrh`](https://gssdataexplorer.norc.org/variables/2565/vshow).
+#' For further details see the [GSS Data Explorer page for `wwwhrh`](https://gssdataexplorer.norc.org/variables/2565/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -254,7 +254,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `compwork`](https://gssdataexplorer.norc.org/variables/2566/vshow).
+#' For further details see the [GSS Data Explorer page for `compwork`](https://gssdataexplorer.norc.org/variables/2566/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -287,7 +287,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobminw`](https://gssdataexplorer.norc.org/variables/2567/vshow).
+#' For further details see the [GSS Data Explorer page for `jobminw`](https://gssdataexplorer.norc.org/variables/2567/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -320,7 +320,7 @@ NULL
 #'  |2000 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `jobhrw`](https://gssdataexplorer.norc.org/variables/2568/vshow).
+#' For further details see the [GSS Data Explorer page for `jobhrw`](https://gssdataexplorer.norc.org/variables/2568/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

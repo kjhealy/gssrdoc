@@ -56,7 +56,7 @@ Question Likelihood of respondent born on a date with a Vietnam War draft lotter
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7743/vshow}{GSS Data Explorer page for \code{vietdraft}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7743/vshow}{GSS Data Explorer page for \code{vietdraft}}.
 }
 
 \keyword{variable}

@@ -20,7 +20,7 @@
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `capfirm`](https://gssdataexplorer.norc.org/variables/271/vshow).
+#' For further details see the [GSS Data Explorer page for `capfirm`](https://gssdataexplorer.norc.org/variables/271/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -83,7 +83,7 @@ NULL
 #'  |2024 |A/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gunlaw`](https://gssdataexplorer.norc.org/variables/272/vshow).
+#' For further details see the [GSS Data Explorer page for `gunlaw`](https://gssdataexplorer.norc.org/variables/272/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -118,7 +118,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gunimp`](https://gssdataexplorer.norc.org/variables/273/vshow).
+#' For further details see the [GSS Data Explorer page for `gunimp`](https://gssdataexplorer.norc.org/variables/273/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -153,7 +153,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `guninfo`](https://gssdataexplorer.norc.org/variables/274/vshow).
+#' For further details see the [GSS Data Explorer page for `guninfo`](https://gssdataexplorer.norc.org/variables/274/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -187,7 +187,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `gunfirm`](https://gssdataexplorer.norc.org/variables/275/vshow).
+#' For further details see the [GSS Data Explorer page for `gunfirm`](https://gssdataexplorer.norc.org/variables/275/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -253,7 +253,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `courts`](https://gssdataexplorer.norc.org/variables/276/vshow).
+#' For further details see the [GSS Data Explorer page for `courts`](https://gssdataexplorer.norc.org/variables/276/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -288,7 +288,7 @@ NULL
 #'  |1982 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `courtsy`](https://gssdataexplorer.norc.org/variables/277/vshow).
+#' For further details see the [GSS Data Explorer page for `courtsy`](https://gssdataexplorer.norc.org/variables/277/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -322,7 +322,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `crimimp`](https://gssdataexplorer.norc.org/variables/278/vshow).
+#' For further details see the [GSS Data Explorer page for `crimimp`](https://gssdataexplorer.norc.org/variables/278/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -356,7 +356,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `criminfo`](https://gssdataexplorer.norc.org/variables/279/vshow).
+#' For further details see the [GSS Data Explorer page for `criminfo`](https://gssdataexplorer.norc.org/variables/279/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -390,7 +390,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `crimfirm`](https://gssdataexplorer.norc.org/variables/280/vshow).
+#' For further details see the [GSS Data Explorer page for `crimfirm`](https://gssdataexplorer.norc.org/variables/280/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

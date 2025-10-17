@@ -30,13 +30,12 @@ Question Are there any situations you can imagine in which you would approve of 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5572/vshow}{GSS Data Explorer page for \code{polhitoy}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5572/vshow}{GSS Data Explorer page for \code{polhitoy}}.
 }
 
 \seealso{
 Other Form Y: 
 \code{\link{letdie1y}},
-\code{\link{pilloky}},
 \code{\link{popespky}}
 }
 \concept{Form Y}

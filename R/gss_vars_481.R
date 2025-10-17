@@ -25,7 +25,7 @@
 #'  |2012 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidjoy`](https://gssdataexplorer.norc.org/variables/4381/vshow).
+#' For further details see the [GSS Data Explorer page for `kidjoy`](https://gssdataexplorer.norc.org/variables/4381/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -64,7 +64,7 @@ NULL
 #'  |2022 |A/-/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidnofre`](https://gssdataexplorer.norc.org/variables/4382/vshow).
+#' For further details see the [GSS Data Explorer page for `kidnofre`](https://gssdataexplorer.norc.org/variables/4382/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -100,7 +100,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidless`](https://gssdataexplorer.norc.org/variables/4383/vshow).
+#' For further details see the [GSS Data Explorer page for `kidless`](https://gssdataexplorer.norc.org/variables/4383/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -136,7 +136,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidfin`](https://gssdataexplorer.norc.org/variables/4384/vshow).
+#' For further details see the [GSS Data Explorer page for `kidfin`](https://gssdataexplorer.norc.org/variables/4384/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -174,7 +174,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `kidempty`](https://gssdataexplorer.norc.org/variables/4385/vshow).
+#' For further details see the [GSS Data Explorer page for `kidempty`](https://gssdataexplorer.norc.org/variables/4385/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -209,7 +209,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divnow`](https://gssdataexplorer.norc.org/variables/4386/vshow).
+#' For further details see the [GSS Data Explorer page for `divnow`](https://gssdataexplorer.norc.org/variables/4386/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -244,7 +244,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divnokid`](https://gssdataexplorer.norc.org/variables/4387/vshow).
+#' For further details see the [GSS Data Explorer page for `divnokid`](https://gssdataexplorer.norc.org/variables/4387/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -279,7 +279,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divifkid`](https://gssdataexplorer.norc.org/variables/4388/vshow).
+#' For further details see the [GSS Data Explorer page for `divifkid`](https://gssdataexplorer.norc.org/variables/4388/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -313,7 +313,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divkids`](https://gssdataexplorer.norc.org/variables/4389/vshow).
+#' For further details see the [GSS Data Explorer page for `divkids`](https://gssdataexplorer.norc.org/variables/4389/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -347,7 +347,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divwife`](https://gssdataexplorer.norc.org/variables/4390/vshow).
+#' For further details see the [GSS Data Explorer page for `divwife`](https://gssdataexplorer.norc.org/variables/4390/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

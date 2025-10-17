@@ -34,14 +34,11 @@ E. Helps to prevent hunger and starvation.
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/5502/vshow}{GSS Data Explorer page for \code{welfare5}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5502/vshow}{GSS Data Explorer page for \code{welfare5}}.
 }
 
 \seealso{
 Other Welfare: 
-\code{\link{welfare1}},
-\code{\link{welfare2}},
-\code{\link{welfare3}},
 \code{\link{welfare4}},
 \code{\link{welfare6}}
 }

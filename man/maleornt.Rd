@@ -31,7 +31,7 @@ Question INTERVIEWER ONLY, DO NOT ASK R
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7294/vshow}{GSS Data Explorer page for \code{maleornt}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7294/vshow}{GSS Data Explorer page for \code{maleornt}}.
 }
 
 \keyword{variable}

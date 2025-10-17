@@ -33,7 +33,7 @@ Question In general, how much confidence do you have in the health care system i
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7789/vshow}{GSS Data Explorer page for \code{conhlth}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7789/vshow}{GSS Data Explorer page for \code{conhlth}}.
 }
 
 \keyword{variable}

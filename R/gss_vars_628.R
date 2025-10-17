@@ -18,7 +18,7 @@
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trresrch`](https://gssdataexplorer.norc.org/variables/7482/vshow).
+#' For further details see the [GSS Data Explorer page for `trresrch`](https://gssdataexplorer.norc.org/variables/7482/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -50,7 +50,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trmedia`](https://gssdataexplorer.norc.org/variables/7483/vshow).
+#' For further details see the [GSS Data Explorer page for `trmedia`](https://gssdataexplorer.norc.org/variables/7483/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -82,7 +82,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trbusind`](https://gssdataexplorer.norc.org/variables/7484/vshow).
+#' For further details see the [GSS Data Explorer page for `trbusind`](https://gssdataexplorer.norc.org/variables/7484/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -114,7 +114,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `trlegis`](https://gssdataexplorer.norc.org/variables/7485/vshow).
+#' For further details see the [GSS Data Explorer page for `trlegis`](https://gssdataexplorer.norc.org/variables/7485/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -148,7 +148,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clmtcaus`](https://gssdataexplorer.norc.org/variables/7486/vshow).
+#' For further details see the [GSS Data Explorer page for `clmtcaus`](https://gssdataexplorer.norc.org/variables/7486/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -180,7 +180,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clmtwrld`](https://gssdataexplorer.norc.org/variables/7487/vshow).
+#' For further details see the [GSS Data Explorer page for `clmtwrld`](https://gssdataexplorer.norc.org/variables/7487/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -212,7 +212,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clmtusa`](https://gssdataexplorer.norc.org/variables/7488/vshow).
+#' For further details see the [GSS Data Explorer page for `clmtusa`](https://gssdataexplorer.norc.org/variables/7488/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -247,7 +247,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `naturdev`](https://gssdataexplorer.norc.org/variables/7489/vshow).
+#' For further details see the [GSS Data Explorer page for `naturdev`](https://gssdataexplorer.norc.org/variables/7489/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -282,7 +282,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `indusgen1`](https://gssdataexplorer.norc.org/variables/7490/vshow).
+#' For further details see the [GSS Data Explorer page for `indusgen1`](https://gssdataexplorer.norc.org/variables/7490/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -317,7 +317,7 @@ NULL
 #'  |2021 |A/B     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `chemgen1`](https://gssdataexplorer.norc.org/variables/7491/vshow).
+#' For further details see the [GSS Data Explorer page for `chemgen1`](https://gssdataexplorer.norc.org/variables/7491/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

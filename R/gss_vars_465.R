@@ -21,7 +21,7 @@
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `fampress`](https://gssdataexplorer.norc.org/variables/7259/vshow).
+#' For further details see the [GSS Data Explorer page for `fampress`](https://gssdataexplorer.norc.org/variables/7259/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `upset`](https://gssdataexplorer.norc.org/variables/7260/vshow).
+#' For further details see the [GSS Data Explorer page for `upset`](https://gssdataexplorer.norc.org/variables/7260/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -94,7 +94,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `dinefrds`](https://gssdataexplorer.norc.org/variables/7261/vshow).
+#' For further details see the [GSS Data Explorer page for `dinefrds`](https://gssdataexplorer.norc.org/variables/7261/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -129,7 +129,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `newfrds`](https://gssdataexplorer.norc.org/variables/7262/vshow).
+#' For further details see the [GSS Data Explorer page for `newfrds`](https://gssdataexplorer.norc.org/variables/7262/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -165,7 +165,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conwkday`](https://gssdataexplorer.norc.org/variables/7263/vshow).
+#' For further details see the [GSS Data Explorer page for `conwkday`](https://gssdataexplorer.norc.org/variables/7263/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -200,7 +200,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `conf2f`](https://gssdataexplorer.norc.org/variables/7264/vshow).
+#' For further details see the [GSS Data Explorer page for `conf2f`](https://gssdataexplorer.norc.org/variables/7264/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -240,7 +240,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cntctpar`](https://gssdataexplorer.norc.org/variables/7265/vshow).
+#' For further details see the [GSS Data Explorer page for `cntctpar`](https://gssdataexplorer.norc.org/variables/7265/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -280,7 +280,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cntctsib`](https://gssdataexplorer.norc.org/variables/7266/vshow).
+#' For further details see the [GSS Data Explorer page for `cntctsib`](https://gssdataexplorer.norc.org/variables/7266/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -320,7 +320,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cntctkid`](https://gssdataexplorer.norc.org/variables/7267/vshow).
+#' For further details see the [GSS Data Explorer page for `cntctkid`](https://gssdataexplorer.norc.org/variables/7267/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -360,7 +360,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `cntctfam`](https://gssdataexplorer.norc.org/variables/7268/vshow).
+#' For further details see the [GSS Data Explorer page for `cntctfam`](https://gssdataexplorer.norc.org/variables/7268/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

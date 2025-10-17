@@ -21,7 +21,7 @@
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polneutl`](https://gssdataexplorer.norc.org/variables/2440/vshow).
+#' For further details see the [GSS Data Explorer page for `polneutl`](https://gssdataexplorer.norc.org/variables/2440/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -56,7 +56,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `poldsagr`](https://gssdataexplorer.norc.org/variables/2441/vshow).
+#' For further details see the [GSS Data Explorer page for `poldsagr`](https://gssdataexplorer.norc.org/variables/2441/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -90,7 +90,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `petition`](https://gssdataexplorer.norc.org/variables/2442/vshow).
+#' For further details see the [GSS Data Explorer page for `petition`](https://gssdataexplorer.norc.org/variables/2442/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -124,7 +124,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `contact`](https://gssdataexplorer.norc.org/variables/2443/vshow).
+#' For further details see the [GSS Data Explorer page for `contact`](https://gssdataexplorer.norc.org/variables/2443/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -158,7 +158,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `meeting`](https://gssdataexplorer.norc.org/variables/2444/vshow).
+#' For further details see the [GSS Data Explorer page for `meeting`](https://gssdataexplorer.norc.org/variables/2444/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -193,7 +193,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polnew`](https://gssdataexplorer.norc.org/variables/2445/vshow).
+#' For further details see the [GSS Data Explorer page for `polnew`](https://gssdataexplorer.norc.org/variables/2445/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -226,7 +226,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `votefor`](https://gssdataexplorer.norc.org/variables/2622/vshow).
+#' For further details see the [GSS Data Explorer page for `votefor`](https://gssdataexplorer.norc.org/variables/2622/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -260,7 +260,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polchnge`](https://gssdataexplorer.norc.org/variables/2446/vshow).
+#' For further details see the [GSS Data Explorer page for `polchnge`](https://gssdataexplorer.norc.org/variables/2446/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -295,7 +295,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polforms`](https://gssdataexplorer.norc.org/variables/2447/vshow).
+#' For further details see the [GSS Data Explorer page for `polforms`](https://gssdataexplorer.norc.org/variables/2447/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -330,7 +330,7 @@ NULL
 #'  |2002 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `polconf`](https://gssdataexplorer.norc.org/variables/2448/vshow).
+#' For further details see the [GSS Data Explorer page for `polconf`](https://gssdataexplorer.norc.org/variables/2448/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

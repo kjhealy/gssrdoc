@@ -41,7 +41,7 @@
 #'  |2022 |A/B/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `racdif4`](https://gssdataexplorer.norc.org/variables/731/vshow).
+#' For further details see the [GSS Data Explorer page for `racdif4`](https://gssdataexplorer.norc.org/variables/731/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -75,7 +75,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `salfergt`](https://gssdataexplorer.norc.org/variables/732/vshow).
+#' For further details see the [GSS Data Explorer page for `salfergt`](https://gssdataexplorer.norc.org/variables/732/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -109,7 +109,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `sallabor`](https://gssdataexplorer.norc.org/variables/733/vshow).
+#' For further details see the [GSS Data Explorer page for `sallabor`](https://gssdataexplorer.norc.org/variables/733/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -143,7 +143,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `salsatfn`](https://gssdataexplorer.norc.org/variables/734/vshow).
+#' For further details see the [GSS Data Explorer page for `salsatfn`](https://gssdataexplorer.norc.org/variables/734/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -177,7 +177,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `salabort`](https://gssdataexplorer.norc.org/variables/735/vshow).
+#' For further details see the [GSS Data Explorer page for `salabort`](https://gssdataexplorer.norc.org/variables/735/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -211,7 +211,7 @@ NULL
 #'  |1978 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `salsci`](https://gssdataexplorer.norc.org/variables/736/vshow).
+#' For further details see the [GSS Data Explorer page for `salsci`](https://gssdataexplorer.norc.org/variables/736/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -256,7 +256,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divorce5`](https://gssdataexplorer.norc.org/variables/737/vshow).
+#' For further details see the [GSS Data Explorer page for `divorce5`](https://gssdataexplorer.norc.org/variables/737/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -290,7 +290,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divrel1`](https://gssdataexplorer.norc.org/variables/738/vshow).
+#' For further details see the [GSS Data Explorer page for `divrel1`](https://gssdataexplorer.norc.org/variables/738/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -324,7 +324,7 @@ NULL
 #'  |1984 |-       |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `divrel4`](https://gssdataexplorer.norc.org/variables/739/vshow).
+#' For further details see the [GSS Data Explorer page for `divrel4`](https://gssdataexplorer.norc.org/variables/739/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -374,7 +374,7 @@ NULL
 #'  |1994 |B/C     |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `unemp5`](https://gssdataexplorer.norc.org/variables/740/vshow).
+#' For further details see the [GSS Data Explorer page for `unemp5`](https://gssdataexplorer.norc.org/variables/740/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

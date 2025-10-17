@@ -33,7 +33,7 @@ Question In general, do your family members put pressure on you about the way yo
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7259/vshow}{GSS Data Explorer page for \code{fampress}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7259/vshow}{GSS Data Explorer page for \code{fampress}}.
 }
 
 \keyword{variable}

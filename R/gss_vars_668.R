@@ -25,7 +25,7 @@
 #'  |2024 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `famgen_exp`](https://gssdataexplorer.norc.org/variables/8034/vshow).
+#' For further details see the [GSS Data Explorer page for `famgen_exp`](https://gssdataexplorer.norc.org/variables/8034/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -63,7 +63,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agehef1`](https://gssdataexplorer.norc.org/variables/7984/vshow).
+#' For further details see the [GSS Data Explorer page for `agehef1`](https://gssdataexplorer.norc.org/variables/7984/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -101,7 +101,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agehef2`](https://gssdataexplorer.norc.org/variables/7990/vshow).
+#' For further details see the [GSS Data Explorer page for `agehef2`](https://gssdataexplorer.norc.org/variables/7990/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -139,7 +139,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agehef3`](https://gssdataexplorer.norc.org/variables/7991/vshow).
+#' For further details see the [GSS Data Explorer page for `agehef3`](https://gssdataexplorer.norc.org/variables/7991/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -177,7 +177,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agehef4`](https://gssdataexplorer.norc.org/variables/7992/vshow).
+#' For further details see the [GSS Data Explorer page for `agehef4`](https://gssdataexplorer.norc.org/variables/7992/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -215,7 +215,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agehef5`](https://gssdataexplorer.norc.org/variables/7993/vshow).
+#' For further details see the [GSS Data Explorer page for `agehef5`](https://gssdataexplorer.norc.org/variables/7993/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -253,7 +253,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agehef6`](https://gssdataexplorer.norc.org/variables/7994/vshow).
+#' For further details see the [GSS Data Explorer page for `agehef6`](https://gssdataexplorer.norc.org/variables/7994/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -291,7 +291,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agehef7`](https://gssdataexplorer.norc.org/variables/7995/vshow).
+#' For further details see the [GSS Data Explorer page for `agehef7`](https://gssdataexplorer.norc.org/variables/7995/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -329,7 +329,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agehef8`](https://gssdataexplorer.norc.org/variables/7996/vshow).
+#' For further details see the [GSS Data Explorer page for `agehef8`](https://gssdataexplorer.norc.org/variables/7996/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -367,7 +367,7 @@ NULL
 #'  |2022 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `agehef9`](https://gssdataexplorer.norc.org/variables/7997/vshow).
+#' For further details see the [GSS Data Explorer page for `agehef9`](https://gssdataexplorer.norc.org/variables/7997/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

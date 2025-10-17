@@ -23,7 +23,7 @@
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clsestat`](https://gssdataexplorer.norc.org/variables/4818/vshow).
+#' For further details see the [GSS Data Explorer page for `clsestat`](https://gssdataexplorer.norc.org/variables/4818/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -60,7 +60,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clseusa`](https://gssdataexplorer.norc.org/variables/4819/vshow).
+#' For further details see the [GSS Data Explorer page for `clseusa`](https://gssdataexplorer.norc.org/variables/4819/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -97,7 +97,7 @@ NULL
 #'  |2014 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `clsenoam`](https://gssdataexplorer.norc.org/variables/4820/vshow).
+#' For further details see the [GSS Data Explorer page for `clsenoam`](https://gssdataexplorer.norc.org/variables/4820/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -133,7 +133,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `movenei`](https://gssdataexplorer.norc.org/variables/4821/vshow).
+#' For further details see the [GSS Data Explorer page for `movenei`](https://gssdataexplorer.norc.org/variables/4821/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -169,7 +169,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `movetown`](https://gssdataexplorer.norc.org/variables/4822/vshow).
+#' For further details see the [GSS Data Explorer page for `movetown`](https://gssdataexplorer.norc.org/variables/4822/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -205,7 +205,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `movestat`](https://gssdataexplorer.norc.org/variables/4823/vshow).
+#' For further details see the [GSS Data Explorer page for `movestat`](https://gssdataexplorer.norc.org/variables/4823/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -241,7 +241,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `moveusa`](https://gssdataexplorer.norc.org/variables/4824/vshow).
+#' For further details see the [GSS Data Explorer page for `moveusa`](https://gssdataexplorer.norc.org/variables/4824/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -277,7 +277,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `movenoam`](https://gssdataexplorer.norc.org/variables/4825/vshow).
+#' For further details see the [GSS Data Explorer page for `movenoam`](https://gssdataexplorer.norc.org/variables/4825/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -309,7 +309,7 @@ NULL
 #'  |1996 |A/B/C   |full         |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `onenatn`](https://gssdataexplorer.norc.org/variables/4826/vshow).
+#' For further details see the [GSS Data Explorer page for `onenatn`](https://gssdataexplorer.norc.org/variables/4826/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
@@ -347,7 +347,7 @@ NULL
 #'  |2024 |B/C/-   |partial      |
 #' 
 #' @section Link at the GSS: 
-#' For details see the [GSS Data Explorer page for `ambornin`](https://gssdataexplorer.norc.org/variables/4827/vshow).
+#' For further details see the [GSS Data Explorer page for `ambornin`](https://gssdataexplorer.norc.org/variables/4827/vshow).
 #'
 #'
 #' @source General Social Survey https://gss.norc.org

@@ -31,7 +31,7 @@ Question Based on the features of this housing unit and the surrounding property
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/6655/vshow}{GSS Data Explorer page for \code{kidsinhh}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6655/vshow}{GSS Data Explorer page for \code{kidsinhh}}.
 }
 
 \keyword{variable}

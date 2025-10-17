@@ -33,7 +33,7 @@ Question How would you classify the place where you (work/worked)? Was this main
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7746/vshow}{GSS Data Explorer page for \code{whatslf2}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7746/vshow}{GSS Data Explorer page for \code{whatslf2}}.
 }
 
 \keyword{variable}

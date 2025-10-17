@@ -33,7 +33,7 @@ Question (How much do you agree or disagree with the following statements about 
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7819/vshow}{GSS Data Explorer page for \code{immunbetr}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7819/vshow}{GSS Data Explorer page for \code{immunbetr}}.
 }
 
 \keyword{variable}

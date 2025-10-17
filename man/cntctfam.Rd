@@ -38,7 +38,7 @@ Question Now, think about the other family member you have contact with most fre
 
 \section{Link at the GSS}{
 
-For details see the \href{https://gssdataexplorer.norc.org/variables/7268/vshow}{GSS Data Explorer page for \code{cntctfam}}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7268/vshow}{GSS Data Explorer page for \code{cntctfam}}.
 }
 
 \keyword{variable}
