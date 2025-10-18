@@ -10,15 +10,15 @@ General Social Survey https://gss.norc.org
 icesheet
 }
 \details{
-Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you donâ€™t know or arenâ€™t sure, just tell me so, and we will skip to the next question. Remember true, false, or donâ€™t know.
+Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know.
 A. The North Pole is on a sheet of ice that floats on the Arctic Ocean. (Is that true or false?)
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} true
-\item \code{2} false
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} true
+\item \verb{[2]} false
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

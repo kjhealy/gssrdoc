@@ -15,22 +15,22 @@ Question Please specify what it is you or someone you know has done.
 \section{Values}{
 
 \itemize{
-\item \code{1} research and collect more information
-\item \code{2} join military
-\item \code{3} avoid possible targets of terror
-\item \code{4} buy new insurance policy
-\item \code{5} psycho therapy
-\item \code{6} pray
-\item \code{7} more vigilant to surrounding
-\item \code{8} join secret service
-\item \code{9} buy weapons
-\item \code{10} vigilance and new assignments because they are already in military or secrete service
-\item \code{11} terror-related traiing at work
-\item \code{12} terror-related traiing in community
-\item \code{13} build safe place
-\item \code{14} deal with government
-\item \code{15} talk about it with other people
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} research and collect more information
+\item \verb{[2]} join military
+\item \verb{[3]} avoid possible targets of terror
+\item \verb{[4]} buy new insurance policy
+\item \verb{[5]} psycho therapy
+\item \verb{[6]} pray
+\item \verb{[7]} more vigilant to surrounding
+\item \verb{[8]} join secret service
+\item \verb{[9]} buy weapons
+\item \verb{[10]} vigilance and new assignments because they are already in military or secrete service
+\item \verb{[11]} terror-related traiing at work
+\item \verb{[12]} terror-related traiing in community
+\item \verb{[13]} build safe place
+\item \verb{[14]} deal with government
+\item \verb{[15]} talk about it with other people
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

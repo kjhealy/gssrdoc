@@ -10,15 +10,15 @@ General Social Survey https://gss.norc.org
 libathy
 }
 \details{
-Question (There are always some people whose ideas are considered bad or dangerous by other people. For instance, somebody who is against all churches and religionâ€¦)
+Question (There are always some people whose ideas are considered bad or dangerous by other people. For instance, somebody who is against all churches and religion…)
 If some people in your community suggested that a book this person wrote against churches and religion should be taken out of your public library, would you favor removing this book, or not?
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} remove
-\item \code{2} not remove
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} remove
+\item \verb{[2]} not remove
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -10,17 +10,17 @@ General Social Survey https://gss.norc.org
 gunsales
 }
 \details{
-Question In most states a gun owner may legally sell his or her gun without proof that the buyer has passed a criminal history check. How strongly do you favor or oppose a law that required private gun sales to be subject to the same background check requirements as sales by licensed dealers? Do youâ€¦
+Question In most states a gun owner may legally sell his or her gun without proof that the buyer has passed a criminal history check. How strongly do you favor or oppose a law that required private gun sales to be subject to the same background check requirements as sales by licensed dealers? Do you…
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} strongly favor
-\item \code{2} favor
-\item \code{3} neither favor nor oppose
-\item \code{4} oppose
-\item \code{5} strongly oppose
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} strongly favor
+\item \verb{[2]} favor
+\item \verb{[3]} neither favor nor oppose
+\item \verb{[4]} oppose
+\item \verb{[5]} strongly oppose
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

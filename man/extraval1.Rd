@@ -15,19 +15,19 @@ Question What was the approximate total dollar value of these various payments i
 \section{Values}{
 
 \itemize{
-\item \code{1} less than $100
-\item \code{2} $100 to $299
-\item \code{3} $300 to $499
-\item \code{4} $500 to $999
-\item \code{5} $1,000 to $1,499
-\item \code{6} $1,500 to $2,499
-\item \code{7} $2,500 to $3,999
-\item \code{8} $4,000 to $6,999
-\item \code{9} $7,000 to $14,999
-\item \code{10} $15,000 to $49,999
-\item \code{11} $50,000 to $99,999
-\item \code{12} over $100,000
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} less than $100
+\item \verb{[2]} $100 to $299
+\item \verb{[3]} $300 to $499
+\item \verb{[4]} $500 to $999
+\item \verb{[5]} $1,000 to $1,499
+\item \verb{[6]} $1,500 to $2,499
+\item \verb{[7]} $2,500 to $3,999
+\item \verb{[8]} $4,000 to $6,999
+\item \verb{[9]} $7,000 to $14,999
+\item \verb{[10]} $15,000 to $49,999
+\item \verb{[11]} $50,000 to $99,999
+\item \verb{[12]} over $100,000
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

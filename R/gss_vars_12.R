@@ -7,18 +7,18 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` administrative unit
-#'   * `1` public, 4-year or above
-#'   * `2` private not-for-profit, 4-year or above
-#'   * `3` private for-profit, 4-year or above
-#'   * `4` public, 2-year
-#'   * `5` private not-for-profit, 2-year or less
-#'   * `6` private for-profit, 2-year
-#'   * `7` public, less than 2-year
-#'   * `9` private for-profit, less than 2-year
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` administrative unit
+#'   * `[1]` public, 4-year or above
+#'   * `[2]` private not-for-profit, 4-year or above
+#'   * `[3]` private for-profit, 4-year or above
+#'   * `[4]` public, 2-year
+#'   * `[5]` private not-for-profit, 2-year or less
+#'   * `[6]` private for-profit, 2-year
+#'   * `[7]` public, less than 2-year
+#'   * `[9]` private for-profit, less than 2-year
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                  |
@@ -56,11 +56,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0-467 students enrolled
-#'   * `2` 468 or more students
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0-467 students enrolled
+#'   * `[2]` 468 or more students
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                  |
@@ -98,12 +98,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0-39.9pct
-#'   * `2` 40-57.9pct
-#'   * `3` 58pct or over
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0-39.9pct
+#'   * `[2]` 40-57.9pct
+#'   * `[3]` 58pct or over
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                  |
@@ -141,11 +141,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0-.210 graduate student per undergraduate student
-#'   * `2` .211 or over
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0-.210 graduate student per undergraduate student
+#'   * `[2]` .211 or over
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                  |
@@ -183,11 +183,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                  |
@@ -225,31 +225,31 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` jail/prison
-#'   * `2` high school
-#'   * `3` company/business
-#'   * `4` vocational school/trades/technical (not high school, not college)
-#'   * `5` secretarial school
-#'   * `6` adult education/school
-#'   * `7` medical/nursing/health/dental/hospital
-#'   * `8` union
-#'   * `9` armed forces
-#'   * `10` college/university
-#'   * `11` art/design
-#'   * `12` business college (not business school at a university)
-#'   * `13` home study/correspondence
-#'   * `14` job corp
-#'   * `15` beauty school/cosmetology
-#'   * `16` insurance, real estate, finance, executive management
-#'   * `17` police/fire academy; training
-#'   * `18` development center
-#'   * `19` career center
-#'   * `20` foreign college/university
-#'   * `30` other
-#'   * `40` unable to code response, unclear, not identifiable
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` jail/prison
+#'   * `[2]` high school
+#'   * `[3]` company/business
+#'   * `[4]` vocational school/trades/technical (not high school, not college)
+#'   * `[5]` secretarial school
+#'   * `[6]` adult education/school
+#'   * `[7]` medical/nursing/health/dental/hospital
+#'   * `[8]` union
+#'   * `[9]` armed forces
+#'   * `[10]` college/university
+#'   * `[11]` art/design
+#'   * `[12]` business college (not business school at a university)
+#'   * `[13]` home study/correspondence
+#'   * `[14]` job corp
+#'   * `[15]` beauty school/cosmetology
+#'   * `[16]` insurance, real estate, finance, executive management
+#'   * `[17]` police/fire academy; training
+#'   * `[18]` development center
+#'   * `[19]` career center
+#'   * `[20]` foreign college/university
+#'   * `[30]` other
+#'   * `[40]` unable to code response, unclear, not identifiable
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                  |
@@ -287,11 +287,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                  |
@@ -329,31 +329,31 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` jail/prison
-#'   * `2` high school
-#'   * `3` company/business
-#'   * `4` vocational school/trades/technical (not high school, not college)
-#'   * `5` secretarial school
-#'   * `6` adult education/school
-#'   * `7` medical/nursing/health/dental/hospital
-#'   * `8` union
-#'   * `9` armed forces
-#'   * `10` college/university
-#'   * `11` art/design
-#'   * `12` business college (not business school at a university)
-#'   * `13` home study/correspondence
-#'   * `14` job corp
-#'   * `15` beauty school/cosmetology
-#'   * `16` insurance, real estate, finance, executive management
-#'   * `17` police/fire academy; training
-#'   * `18` development center
-#'   * `19` career center
-#'   * `20` foreign college/university
-#'   * `30` other
-#'   * `40` unable to code response, unclear, not identifiable
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` jail/prison
+#'   * `[2]` high school
+#'   * `[3]` company/business
+#'   * `[4]` vocational school/trades/technical (not high school, not college)
+#'   * `[5]` secretarial school
+#'   * `[6]` adult education/school
+#'   * `[7]` medical/nursing/health/dental/hospital
+#'   * `[8]` union
+#'   * `[9]` armed forces
+#'   * `[10]` college/university
+#'   * `[11]` art/design
+#'   * `[12]` business college (not business school at a university)
+#'   * `[13]` home study/correspondence
+#'   * `[14]` job corp
+#'   * `[15]` beauty school/cosmetology
+#'   * `[16]` insurance, real estate, finance, executive management
+#'   * `[17]` police/fire academy; training
+#'   * `[18]` development center
+#'   * `[19]` career center
+#'   * `[20]` foreign college/university
+#'   * `[30]` other
+#'   * `[40]` unable to code response, unclear, not identifiable
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                  |
@@ -391,18 +391,18 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` administrative unit
-#'   * `1` public, 4-year or above
-#'   * `2` private not-for-profit, 4-year or above
-#'   * `3` private for-profit, 4-year or above
-#'   * `4` public, 2-year
-#'   * `5` private not-for-profit, 2-year or less
-#'   * `6` private for-profit, 2-year
-#'   * `7` public, less than 2-year
-#'   * `9` private for-profit, less than 2-year
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` administrative unit
+#'   * `[1]` public, 4-year or above
+#'   * `[2]` private not-for-profit, 4-year or above
+#'   * `[3]` private for-profit, 4-year or above
+#'   * `[4]` public, 2-year
+#'   * `[5]` private not-for-profit, 2-year or less
+#'   * `[6]` private for-profit, 2-year
+#'   * `[7]` public, less than 2-year
+#'   * `[9]` private for-profit, less than 2-year
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                  |
@@ -440,11 +440,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0-467 students enrolled
-#'   * `2` 468 or more students
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0-467 students enrolled
+#'   * `[2]` 468 or more students
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                  |

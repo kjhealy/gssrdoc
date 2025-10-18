@@ -16,28 +16,28 @@ Question Please tell me the relationship category of the person you knew second 
 \section{Values}{
 
 \itemize{
-\item \code{1} husband or wife
-\item \code{2} partner or lover
-\item \code{3} son or daughter
-\item \code{4} mother or father
-\item \code{5} brother or sister
-\item \code{6} step-brother or step-sister
-\item \code{7} step-parent
-\item \code{8} step-son or step-daughter
-\item \code{9} cousin
-\item \code{10} other relative
-\item \code{11} friend
-\item \code{12} neighbor
-\item \code{13} co-worker
-\item \code{14} patient
-\item \code{15} acquaintance
-\item \code{16} ex-spouse or ex-partner
-\item \code{18} classmate
-\item \code{19} relative of a friend
-\item \code{20} student
-\item \code{21} friend of a friend
-\item \code{30} other
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} husband or wife
+\item \verb{[2]} partner or lover
+\item \verb{[3]} son or daughter
+\item \verb{[4]} mother or father
+\item \verb{[5]} brother or sister
+\item \verb{[6]} step-brother or step-sister
+\item \verb{[7]} step-parent
+\item \verb{[8]} step-son or step-daughter
+\item \verb{[9]} cousin
+\item \verb{[10]} other relative
+\item \verb{[11]} friend
+\item \verb{[12]} neighbor
+\item \verb{[13]} co-worker
+\item \verb{[14]} patient
+\item \verb{[15]} acquaintance
+\item \verb{[16]} ex-spouse or ex-partner
+\item \verb{[18]} classmate
+\item \verb{[19]} relative of a friend
+\item \verb{[20]} student
+\item \verb{[21]} friend of a friend
+\item \verb{[30]} other
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

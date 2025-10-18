@@ -7,13 +7,13 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -50,13 +50,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -93,13 +93,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -137,11 +137,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -179,11 +179,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -221,11 +221,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -261,14 +261,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` strongly favor
-#'   * `2` favor
-#'   * `3` neither favor nor oppose
-#'   * `4` oppose
-#'   * `5` strongly oppose
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` strongly favor
+#'   * `[2]` favor
+#'   * `[3]` neither favor nor oppose
+#'   * `[4]` oppose
+#'   * `[5]` strongly oppose
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -298,16 +298,16 @@ NULL
 #' 
 #'  scmed
 #' 
-#' Question Here is another public issue: research that uses human embryonic stem cells. These are cells from human embryos that can develop into many different types of tissue. Some say that cells taken from human embryos are uniquely valuable in medical research. Others say that the same discoveries can be made without destroying living embryos. Please look at Card B6. (On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€), how well do the following groups understand stem cell research?
+#' Question Here is another public issue: research that uses human embryonic stem cells. These are cells from human embryos that can develop into many different types of tissue. Some say that cells taken from human embryos are uniquely valuable in medical research. Others say that the same discoveries can be made without destroying living embryos. Please look at Card B6. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand stem cell research?
 #' A. Medical researchers
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very well
-#'   * `5` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very well
+#'   * `[5]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -339,16 +339,16 @@ NULL
 #' 
 #'  screlig
 #' 
-#' Question Here is another public issue: research that uses human embryonic stem cells. These are cells from human embryos that can develop into many different types of tissue. Some say that cells taken from human embryos are uniquely valuable in medical research. Others say that the same discoveries can be made without destroying living embryos. Please look at Card B6. (On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€), how well do the following groups understand stem cell research?
+#' Question Here is another public issue: research that uses human embryonic stem cells. These are cells from human embryos that can develop into many different types of tissue. Some say that cells taken from human embryos are uniquely valuable in medical research. Others say that the same discoveries can be made without destroying living embryos. Please look at Card B6. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand stem cell research?
 #' B. Religious leaders
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very well
-#'   * `5` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very well
+#'   * `[5]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -380,16 +380,16 @@ NULL
 #' 
 #'  scpol
 #' 
-#' Question Here is another public issue: research that uses human embryonic stem cells. These are cells from human embryos that can develop into many different types of tissue. Some say that cells taken from human embryos are uniquely valuable in medical research. Others say that the same discoveries can be made without destroying living embryos. Please look at Card B6. (On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€), how well do the following groups understand stem cell research?
+#' Question Here is another public issue: research that uses human embryonic stem cells. These are cells from human embryos that can develop into many different types of tissue. Some say that cells taken from human embryos are uniquely valuable in medical research. Others say that the same discoveries can be made without destroying living embryos. Please look at Card B6. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand stem cell research?
 #' C. Elected Officials
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very well
-#'   * `5` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very well
+#'   * `[5]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

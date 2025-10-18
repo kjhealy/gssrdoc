@@ -16,24 +16,24 @@ B. Second Choice
 \section{Values}{
 
 \itemize{
-\item \code{1} spouse
-\item \code{2} mother
-\item \code{3} father
-\item \code{4} daughter
-\item \code{5} son
-\item \code{6} sister
-\item \code{7} brother
-\item \code{8} other relative
-\item \code{9} closest friend
-\item \code{10} other friend
-\item \code{11} neighbor
-\item \code{12} coworker
-\item \code{13} clergy
-\item \code{14} family doctor
-\item \code{15} prof counselor
-\item \code{16} other
-\item \code{17} no one
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} spouse
+\item \verb{[2]} mother
+\item \verb{[3]} father
+\item \verb{[4]} daughter
+\item \verb{[5]} son
+\item \verb{[6]} sister
+\item \verb{[7]} brother
+\item \verb{[8]} other relative
+\item \verb{[9]} closest friend
+\item \verb{[10]} other friend
+\item \verb{[11]} neighbor
+\item \verb{[12]} coworker
+\item \verb{[13]} clergy
+\item \verb{[14]} family doctor
+\item \verb{[15]} prof counselor
+\item \verb{[16]} other
+\item \verb{[17]} no one
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -6,11 +6,11 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -47,11 +47,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -87,12 +87,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` i would be less likely to buy from an employee-owned company
-#'   * `2` i would be neither more nor less likely to buy from an employee-owned company
-#'   * `3` i would be more likely to buy from an employee-owned company
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` i would be less likely to buy from an employee-owned company
+#'   * `[2]` i would be neither more nor less likely to buy from an employee-owned company
+#'   * `[3]` i would be more likely to buy from an employee-owned company
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -126,14 +126,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` i would definitely take the job without the esop (employee stock ownership plan) or cash profit sharing
-#'   * `2` i would probably take the job without the esop (employee stock ownership plan) or cash profit sharing
-#'   * `3` i would be neutral
-#'   * `4` i would probably take the job with the esop (employee stock ownership plan) or cash profit sharing
-#'   * `5` i would definitely take the job with the esop (employee stock ownership plan) or cash profit sharing
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` i would definitely take the job without the esop (employee stock ownership plan) or cash profit sharing
+#'   * `[2]` i would probably take the job without the esop (employee stock ownership plan) or cash profit sharing
+#'   * `[3]` i would be neutral
+#'   * `[4]` i would probably take the job with the esop (employee stock ownership plan) or cash profit sharing
+#'   * `[5]` i would definitely take the job with the esop (employee stock ownership plan) or cash profit sharing
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -167,12 +167,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a company in which the government owns the stock and appoints the management to run the company's operations
-#'   * `2` a company whose stock is owned by the employees who appoint the management to run the company's operations
-#'   * `3` a company whose stock is owned by outside investors who appoint the management to run the company's operations
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a company in which the government owns the stock and appoints the management to run the company's operations
+#'   * `[2]` a company whose stock is owned by the employees who appoint the management to run the company's operations
+#'   * `[3]` a company whose stock is owned by outside investors who appoint the management to run the company's operations
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -202,7 +202,7 @@ NULL
 #' 
 #'  viglab06
 #' 
-#' Question In your opinion, how likely is it that (NAME) is experiencingâ€¦ 
+#' Question In your opinion, how likely is it that (NAME) is experiencing… 
 #' IF VIGVER06 = 1, DISPLAY Alcohol dependence? 
 #' IF VIGVER06 = 2, DISPLAY A major depression? 
 #' IF VIGVER06 = 3, DISPLAY Schizophrenia? 
@@ -210,13 +210,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` not very likely
+#'   * `[4]` not at all likely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -250,11 +250,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -284,17 +284,17 @@ NULL
 #' 
 #'  mhothyou
 #' 
-#' Question How much distress did this personâ€™s mental health problem cause youâ€¦
+#' Question How much distress did this person's mental health problem cause you…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal
-#'   * `2` quite a bit
-#'   * `3` a little
-#'   * `4` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal
+#'   * `[2]` quite a bit
+#'   * `[3]` a little
+#'   * `[4]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -324,17 +324,17 @@ NULL
 #' 
 #'  mhothrel
 #' 
-#' Question As a result of the mental health problem, would you say that your relationship with this personâ€¦
+#' Question As a result of the mental health problem, would you say that your relationship with this person…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` became stronger
-#'   * `2` became worse
-#'   * `3` was unchanged
-#'   * `4` ended as a result of the problem
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` became stronger
+#'   * `[2]` became worse
+#'   * `[3]` was unchanged
+#'   * `[4]` ended as a result of the problem
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -364,17 +364,17 @@ NULL
 #' 
 #'  seemhpub
 #' 
-#' Question How frequently are you in a public place where you see someone who seems to be mentally illâ€¦
+#' Question How frequently are you in a public place where you see someone who seems to be mentally ill…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` often
-#'   * `2` sometimes
-#'   * `3` almost never
-#'   * `4` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` often
+#'   * `[2]` sometimes
+#'   * `[3]` almost never
+#'   * `[4]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

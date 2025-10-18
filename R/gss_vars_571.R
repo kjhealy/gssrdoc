@@ -2,20 +2,20 @@
 #' 
 #'  punleak
 #' 
-#' Question Iâ€™m going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+#' Question I'm going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
 #' B. Leaking sensitive information to a newspaper in order to influence public opinion about a controversial political issue. The offender received no money.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismissal from the military/fired by the government
-#'   * `3` one year in prison
-#'   * `4` 5-9 years in prison
-#'   * `5` 10-20 years in prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismissal from the military/fired by the government
+#'   * `[3]` one year in prison
+#'   * `[4]` 5-9 years in prison
+#'   * `[5]` 10-20 years in prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -45,20 +45,20 @@ NULL
 #' 
 #'  punenmy
 #' 
-#' Question Iâ€™m going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+#' Question I'm going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
 #' C. Stealing and selling copies of secret codes and other classified intelligence materials to an agent of a hostile foreign government.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismissal from the military/fired by the government
-#'   * `3` one year in prison
-#'   * `4` 5-9 years in prison
-#'   * `5` 10-20 years in prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismissal from the military/fired by the government
+#'   * `[3]` one year in prison
+#'   * `[4]` 5-9 years in prison
+#'   * `[5]` 10-20 years in prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -88,20 +88,20 @@ NULL
 #' 
 #'  punfrnd
 #' 
-#' Question Iâ€™m going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+#' Question I'm going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
 #'  D. Stealing and selling these same materials to a friendly foreign government.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismissal from the military/fired by the government
-#'   * `3` one year in prison
-#'   * `4` 5-9 years in prison
-#'   * `5` 10-20 years in prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismissal from the military/fired by the government
+#'   * `[3]` one year in prison
+#'   * `[4]` 5-9 years in prison
+#'   * `[5]` 10-20 years in prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -131,20 +131,20 @@ NULL
 #' 
 #'  puntrck
 #' 
-#' Question Iâ€™m going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+#' Question I'm going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
 #'  E. Stealing and selling truck parts and tires from a military depot.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismissal from the military/fired by the government
-#'   * `3` one year in prison
-#'   * `4` 5-9 years in prison
-#'   * `5` 10-20 years in prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismissal from the military/fired by the government
+#'   * `[3]` one year in prison
+#'   * `[4]` 5-9 years in prison
+#'   * `[5]` 10-20 years in prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -174,20 +174,20 @@ NULL
 #' 
 #'  comsteal
 #' 
-#' Question Now Iâ€™m going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+#' Question Now I'm going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
 #'  A. Stealing national security data in a computer system.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismissal from the military/fired by the government
-#'   * `3` one year in prison
-#'   * `4` 5-9 years in prison
-#'   * `5` 10-20 years in prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismissal from the military/fired by the government
+#'   * `[3]` one year in prison
+#'   * `[4]` 5-9 years in prison
+#'   * `[5]` 10-20 years in prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -217,20 +217,20 @@ NULL
 #' 
 #'  comdata
 #' 
-#' Question Now Iâ€™m going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+#' Question Now I'm going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
 #'  B. Intentionally damaging national security data in a computer system.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismissal from the military/fired by the government
-#'   * `3` one year in prison
-#'   * `4` 5-9 years in prison
-#'   * `5` 10-20 years in prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismissal from the military/fired by the government
+#'   * `[3]` one year in prison
+#'   * `[4]` 5-9 years in prison
+#'   * `[5]` 10-20 years in prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -260,20 +260,20 @@ NULL
 #' 
 #'  comsys
 #' 
-#' Question Now Iâ€™m going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+#' Question Now I'm going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
 #'  C. Intentionally damaging or destroying a computer system.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismissal from the military/fired by the government
-#'   * `3` one year in prison
-#'   * `4` 5-9 years in prison
-#'   * `5` 10-20 years in prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismissal from the military/fired by the government
+#'   * `[3]` one year in prison
+#'   * `[4]` 5-9 years in prison
+#'   * `[5]` 10-20 years in prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -303,20 +303,20 @@ NULL
 #' 
 #'  comsnoop
 #' 
-#' Question Now Iâ€™m going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+#' Question Now I'm going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
 #'  D. Unauthorized snooping into a computer system.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismissal from the military/fired by the government
-#'   * `3` one year in prison
-#'   * `4` 5-9 years in prison
-#'   * `5` 10-20 years in prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismissal from the military/fired by the government
+#'   * `[3]` one year in prison
+#'   * `[4]` 5-9 years in prison
+#'   * `[5]` 10-20 years in prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -346,20 +346,20 @@ NULL
 #' 
 #'  comemail
 #' 
-#' Question Now Iâ€™m going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+#' Question Now I'm going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
 #'  E. E-mailing SECRET or TOP SECRET government documents or data files to an unauthorized person.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismissal from the military/fired by the government
-#'   * `3` one year in prison
-#'   * `4` 5-9 years in prison
-#'   * `5` 10-20 years in prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismissal from the military/fired by the government
+#'   * `[3]` one year in prison
+#'   * `[4]` 5-9 years in prison
+#'   * `[5]` 10-20 years in prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -389,20 +389,20 @@ NULL
 #' 
 #'  comporn
 #' 
-#' Question Now Iâ€™m going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+#' Question Now I'm going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
 #'  F. Downloading pornographic material from the Internet to a computer at the office.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismissal from the military/fired by the government
-#'   * `3` one year in prison
-#'   * `4` 5-9 years in prison
-#'   * `5` 10-20 years in prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismissal from the military/fired by the government
+#'   * `[3]` one year in prison
+#'   * `[4]` 5-9 years in prison
+#'   * `[5]` 10-20 years in prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

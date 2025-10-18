@@ -15,35 +15,35 @@ Question Interviewer, are you Spanish, Hispanic, or Latino/Latina?  Which group 
 \section{Values}{
 
 \itemize{
-\item \code{1} not hispanic
-\item \code{2} mexican, mexican american, chicano/a
-\item \code{3} puerto rican
-\item \code{4} cuban
-\item \code{5} salvadorian
-\item \code{6} guatemalan
-\item \code{7} panamanian
-\item \code{8} nicaraguan
-\item \code{9} costa rican
-\item \code{10} central american
-\item \code{11} honduran
-\item \code{15} dominican
-\item \code{16} west indian
-\item \code{20} peruvian
-\item \code{21} ecuadorian
-\item \code{22} columbian
-\item \code{23} venezuelan
-\item \code{24} argentinian
-\item \code{27} colombian
-\item \code{30} spanish
-\item \code{31} basque
-\item \code{35} filipino/a
-\item \code{40} latin american
-\item \code{41} south american
-\item \code{45} latin
-\item \code{46} latino/a
-\item \code{47} hispanic
-\item \code{50} other, not specified
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} not hispanic
+\item \verb{[2]} mexican, mexican american, chicano/a
+\item \verb{[3]} puerto rican
+\item \verb{[4]} cuban
+\item \verb{[5]} salvadorian
+\item \verb{[6]} guatemalan
+\item \verb{[7]} panamanian
+\item \verb{[8]} nicaraguan
+\item \verb{[9]} costa rican
+\item \verb{[10]} central american
+\item \verb{[11]} honduran
+\item \verb{[15]} dominican
+\item \verb{[16]} west indian
+\item \verb{[20]} peruvian
+\item \verb{[21]} ecuadorian
+\item \verb{[22]} columbian
+\item \verb{[23]} venezuelan
+\item \verb{[24]} argentinian
+\item \verb{[27]} colombian
+\item \verb{[30]} spanish
+\item \verb{[31]} basque
+\item \verb{[35]} filipino/a
+\item \verb{[40]} latin american
+\item \verb{[41]} south american
+\item \verb{[45]} latin
+\item \verb{[46]} latino/a
+\item \verb{[47]} hispanic
+\item \verb{[50]} other, not specified
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

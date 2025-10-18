@@ -16,14 +16,14 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` married
-#'   * `2` widowed
-#'   * `3` divorced
-#'   * `4` separated
-#'   * `5` never married
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` married
+#'   * `[2]` widowed
+#'   * `[3]` divorced
+#'   * `[4]` separated
+#'   * `[5]` never married
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                            |
@@ -99,11 +99,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` no
+#'   * `[1]` yes
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                            |
@@ -179,13 +179,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` another household
-#'   * `2` traveling
-#'   * `3` institution
-#'   * `4` other, don't know
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` another household
+#'   * `[2]` traveling
+#'   * `[3]` institution
+#'   * `[4]` other, don't know
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                            |
@@ -251,28 +251,28 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, natural or adopted, stepchild
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, natural or adopted, stepchild
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                    |
@@ -322,28 +322,28 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, natural or adopted, stepchild
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, natural or adopted, stepchild
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                    |
@@ -393,28 +393,28 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, natural or adopted, stepchild
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, natural or adopted, stepchild
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                    |
@@ -464,28 +464,28 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, natural or adopted, stepchild
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, natural or adopted, stepchild
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                    |
@@ -535,28 +535,28 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, natural or adopted, stepchild
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, natural or adopted, stepchild
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                    |
@@ -606,28 +606,28 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, natural or adopted, stepchild
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, natural or adopted, stepchild
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                    |
@@ -677,28 +677,28 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, natural or adopted, stepchild
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, natural or adopted, stepchild
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                    |

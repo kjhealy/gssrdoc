@@ -10,19 +10,19 @@ General Social Survey https://gss.norc.org
 neieth6
 }
 \details{
-Question Now Iâ€™d like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
+Question Now I'd like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} asian
-\item \code{2} black
-\item \code{3} hispanic
-\item \code{4} white
-\item \code{5} doesnt matter-dont care-race not important
-\item \code{6} rural-wants no neighbors
-\item \code{7} mixed race, 2 or more races in 1 hh
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} asian
+\item \verb{[2]} black
+\item \verb{[3]} hispanic
+\item \verb{[4]} white
+\item \verb{[5]} doesnt matter-dont care-race not important
+\item \verb{[6]} rural-wants no neighbors
+\item \verb{[7]} mixed race, 2 or more races in 1 hh
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

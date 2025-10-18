@@ -15,29 +15,29 @@ Question A. CODE WITHOUT ASKING FOR ALL RESPONDENTS EVEN IF UNCERTAIN.
 \section{Values}{
 
 \itemize{
-\item \code{1} white
-\item \code{2} black
-\item \code{3} other
-\item \code{4} hispanic
-\item \code{5} black and white
-\item \code{6} spanish
-\item \code{7} filipino
-\item \code{8} american indian
-\item \code{9} asian
-\item \code{10} yellow
-\item \code{11} mexican
-\item \code{12} brown
-\item \code{13} latino
-\item \code{14} middle eastern
-\item \code{15} puerto rican
-\item \code{16} indian
-\item \code{17} alaska native
-\item \code{18} pacific islander
-\item \code{19} cuban
-\item \code{20} japanese
-\item \code{21} oriental
-\item \code{22} trinidad
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} white
+\item \verb{[2]} black
+\item \verb{[3]} other
+\item \verb{[4]} hispanic
+\item \verb{[5]} black and white
+\item \verb{[6]} spanish
+\item \verb{[7]} filipino
+\item \verb{[8]} american indian
+\item \verb{[9]} asian
+\item \verb{[10]} yellow
+\item \verb{[11]} mexican
+\item \verb{[12]} brown
+\item \verb{[13]} latino
+\item \verb{[14]} middle eastern
+\item \verb{[15]} puerto rican
+\item \verb{[16]} indian
+\item \verb{[17]} alaska native
+\item \verb{[18]} pacific islander
+\item \verb{[19]} cuban
+\item \verb{[20]} japanese
+\item \verb{[21]} oriental
+\item \verb{[22]} trinidad
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

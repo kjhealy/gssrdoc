@@ -15,16 +15,16 @@ Question A. Death of relatives during the last five years.
 \section{Values}{
 
 \itemize{
-\item \code{0} none
-\item \code{1} 1 in prior 4 yrs
-\item \code{2} 2+ in prior 4 yrs
-\item \code{3} 1 last yr
-\item \code{4} 1 last,1 in prior 4
-\item \code{5} 1 in last,2+ prior 4
-\item \code{6} 2+ last yr
-\item \code{7} 2+ last, 1 prior 4
-\item \code{8} 2+ last, 2+ prior 4
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[0]} none
+\item \verb{[1]} 1 in prior 4 yrs
+\item \verb{[2]} 2+ in prior 4 yrs
+\item \verb{[3]} 1 last yr
+\item \verb{[4]} 1 last,1 in prior 4
+\item \verb{[5]} 1 in last,2+ prior 4
+\item \verb{[6]} 2+ last yr
+\item \verb{[7]} 2+ last, 1 prior 4
+\item \verb{[8]} 2+ last, 2+ prior 4
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

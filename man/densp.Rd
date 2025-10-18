@@ -16,108 +16,108 @@ A. If Protestant, what specific denomination was that?
 \section{Values}{
 
 \itemize{
-\item \code{10000} amer baptist assoc
-\item \code{11000} amer baptist ch in usa
-\item \code{12000} natl baptist conv. of america
-\item \code{13000} natl baptist conv., usa, inc
-\item \code{14000} southern baptist conv
-\item \code{15000} other baptist chs
-\item \code{18000} baptist, dk which
-\item \code{20000} african meth epis ch
-\item \code{21000} ame zion church
-\item \code{22000} united meth church
-\item \code{23000} other meth ch
-\item \code{28000} methodist, dk which
-\item \code{30000} amer lutheran ch
-\item \code{31000} luth ch in amer
-\item \code{32000} luth ch--mo synod
-\item \code{33000} wisc evan luth synod
-\item \code{34000} other luth chs
-\item \code{35000} evan lutheran
-\item \code{38000} lutheran, dk which
-\item \code{40000} presbyt ch in usa
-\item \code{41000} united presbyt ch in usa
-\item \code{42000} other presbyt chs
-\item \code{43000} presbyt ch usa
-\item \code{48000} presbyterian, dk which
-\item \code{50000} episcopal church
-\item \code{60002} evangeligal congregational
-\item \code{60003} ind. bible fellowship
-\item \code{60006} new testament christian
-\item \code{60008} moravian
-\item \code{60009} christ. and mission. alliance
-\item \code{60010} adventist
-\item \code{60012} assembly of god
-\item \code{60013} free methodist
-\item \code{60014} apostolic
-\item \code{60015} african methodist
-\item \code{60016} free will baptist
-\item \code{60018} holiness, nazarene
-\item \code{60020} brethren church
-\item \code{60023} united brethren, breth. in christ
-\item \code{60024} independent
-\item \code{60031} christian; central christian
-\item \code{60032} christian reform
-\item \code{60033} christian scientist
-\item \code{60035} church of christ
-\item \code{60036} churches of god -exc. christ & holiness
-\item \code{60037} church of god in christ
-\item \code{60038} holiness
-\item \code{60040} congregationalist, 1st cong
-\item \code{60041} community church
-\item \code{60042} covenant
-\item \code{60043} dutch reform
-\item \code{60044} disciples of christ
-\item \code{60045} evangelical, evangelist
-\item \code{60046} evangelical reformed
-\item \code{60047} evangelist free church
-\item \code{60048} first church
-\item \code{60049} 1st christian disc of christ
-\item \code{60050} 1st reformed
-\item \code{60051} 1st christian
-\item \code{60052} full gospel
-\item \code{60056} holiness; ch of holiness
-\item \code{60057} pilgrim holiness
-\item \code{60058} jehovah witnesses
-\item \code{60059} lds
-\item \code{60060} lds--mormon
-\item \code{60061} lds--reorganized
-\item \code{60062} lds--jesus christ; ch of jesus lds
-\item \code{60063} mennonite
-\item \code{60064} mormon
-\item \code{60065} nazarene
-\item \code{60066} pentecostal assembly of god
-\item \code{60068} pentecostal
-\item \code{60070} quaker
-\item \code{60071} reformed
-\item \code{60076} salvation army
-\item \code{60077} 7th day adventist
-\item \code{60078} sanctified, sanctification
-\item \code{60080} unitarian, universalist
-\item \code{60081} united church of christ
-\item \code{60082} united church, unity church
-\item \code{60083} wesleyan
-\item \code{60084} wesleyan methodist--pilgrim
-\item \code{60092} mission covenant
-\item \code{60093} missionary baptist
-\item \code{60097} other fundamentalist
-\item \code{60098} federated church
-\item \code{60102} charismatic christian
-\item \code{60112} evangeligal methodist
-\item \code{60113} worldwide church of god
-\item \code{60117} missionary
-\item \code{60119} united church of canada
-\item \code{60120} evangelical united brethren
-\item \code{60133} primitive baptist
-\item \code{60138} apostolic church
-\item \code{60141} new birth christian
-\item \code{60149} polish catholic
-\item \code{60150} zwinglian
-\item \code{60156} living church of god
-\item \code{60181} christian born again
-\item \code{60184} church of god israelite
-\item \code{70000} no denom. given or non-denom ch
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[10000]} amer baptist assoc
+\item \verb{[11000]} amer baptist ch in usa
+\item \verb{[12000]} natl baptist conv. of america
+\item \verb{[13000]} natl baptist conv., usa, inc
+\item \verb{[14000]} southern baptist conv
+\item \verb{[15000]} other baptist chs
+\item \verb{[18000]} baptist, dk which
+\item \verb{[20000]} african meth epis ch
+\item \verb{[21000]} ame zion church
+\item \verb{[22000]} united meth church
+\item \verb{[23000]} other meth ch
+\item \verb{[28000]} methodist, dk which
+\item \verb{[30000]} amer lutheran ch
+\item \verb{[31000]} luth ch in amer
+\item \verb{[32000]} luth ch--mo synod
+\item \verb{[33000]} wisc evan luth synod
+\item \verb{[34000]} other luth chs
+\item \verb{[35000]} evan lutheran
+\item \verb{[38000]} lutheran, dk which
+\item \verb{[40000]} presbyt ch in usa
+\item \verb{[41000]} united presbyt ch in usa
+\item \verb{[42000]} other presbyt chs
+\item \verb{[43000]} presbyt ch usa
+\item \verb{[48000]} presbyterian, dk which
+\item \verb{[50000]} episcopal church
+\item \verb{[60002]} evangeligal congregational
+\item \verb{[60003]} ind. bible fellowship
+\item \verb{[60006]} new testament christian
+\item \verb{[60008]} moravian
+\item \verb{[60009]} christ. and mission. alliance
+\item \verb{[60010]} adventist
+\item \verb{[60012]} assembly of god
+\item \verb{[60013]} free methodist
+\item \verb{[60014]} apostolic
+\item \verb{[60015]} african methodist
+\item \verb{[60016]} free will baptist
+\item \verb{[60018]} holiness, nazarene
+\item \verb{[60020]} brethren church
+\item \verb{[60023]} united brethren, breth. in christ
+\item \verb{[60024]} independent
+\item \verb{[60031]} christian; central christian
+\item \verb{[60032]} christian reform
+\item \verb{[60033]} christian scientist
+\item \verb{[60035]} church of christ
+\item \verb{[60036]} churches of god -exc. christ & holiness
+\item \verb{[60037]} church of god in christ
+\item \verb{[60038]} holiness
+\item \verb{[60040]} congregationalist, 1st cong
+\item \verb{[60041]} community church
+\item \verb{[60042]} covenant
+\item \verb{[60043]} dutch reform
+\item \verb{[60044]} disciples of christ
+\item \verb{[60045]} evangelical, evangelist
+\item \verb{[60046]} evangelical reformed
+\item \verb{[60047]} evangelist free church
+\item \verb{[60048]} first church
+\item \verb{[60049]} 1st christian disc of christ
+\item \verb{[60050]} 1st reformed
+\item \verb{[60051]} 1st christian
+\item \verb{[60052]} full gospel
+\item \verb{[60056]} holiness; ch of holiness
+\item \verb{[60057]} pilgrim holiness
+\item \verb{[60058]} jehovah witnesses
+\item \verb{[60059]} lds
+\item \verb{[60060]} lds--mormon
+\item \verb{[60061]} lds--reorganized
+\item \verb{[60062]} lds--jesus christ; ch of jesus lds
+\item \verb{[60063]} mennonite
+\item \verb{[60064]} mormon
+\item \verb{[60065]} nazarene
+\item \verb{[60066]} pentecostal assembly of god
+\item \verb{[60068]} pentecostal
+\item \verb{[60070]} quaker
+\item \verb{[60071]} reformed
+\item \verb{[60076]} salvation army
+\item \verb{[60077]} 7th day adventist
+\item \verb{[60078]} sanctified, sanctification
+\item \verb{[60080]} unitarian, universalist
+\item \verb{[60081]} united church of christ
+\item \verb{[60082]} united church, unity church
+\item \verb{[60083]} wesleyan
+\item \verb{[60084]} wesleyan methodist--pilgrim
+\item \verb{[60092]} mission covenant
+\item \verb{[60093]} missionary baptist
+\item \verb{[60097]} other fundamentalist
+\item \verb{[60098]} federated church
+\item \verb{[60102]} charismatic christian
+\item \verb{[60112]} evangeligal methodist
+\item \verb{[60113]} worldwide church of god
+\item \verb{[60117]} missionary
+\item \verb{[60119]} united church of canada
+\item \verb{[60120]} evangelical united brethren
+\item \verb{[60133]} primitive baptist
+\item \verb{[60138]} apostolic church
+\item \verb{[60141]} new birth christian
+\item \verb{[60149]} polish catholic
+\item \verb{[60150]} zwinglian
+\item \verb{[60156]} living church of god
+\item \verb{[60181]} christian born again
+\item \verb{[60184]} church of god israelite
+\item \verb{[70000]} no denom. given or non-denom ch
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

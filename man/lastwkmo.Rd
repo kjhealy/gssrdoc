@@ -18,19 +18,19 @@ Question When were you last working for pay, that is what month and year were yo
 \section{Values}{
 
 \itemize{
-\item \code{1} january
-\item \code{2} february
-\item \code{3} march
-\item \code{4} april
-\item \code{5} may
-\item \code{6} june
-\item \code{7} july
-\item \code{8} august
-\item \code{9} september
-\item \code{10} october
-\item \code{11} november
-\item \code{12} december
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} january
+\item \verb{[2]} february
+\item \verb{[3]} march
+\item \verb{[4]} april
+\item \verb{[5]} may
+\item \verb{[6]} june
+\item \verb{[7]} july
+\item \verb{[8]} august
+\item \verb{[9]} september
+\item \verb{[10]} october
+\item \verb{[11]} november
+\item \verb{[12]} december
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

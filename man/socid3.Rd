@@ -16,17 +16,17 @@ C. Third Most Important
 \section{Values}{
 
 \itemize{
-\item \code{1} current occupation
-\item \code{2} race ethnic background
-\item \code{3} gender
-\item \code{4} age group
-\item \code{5} religion
-\item \code{6} political party
-\item \code{7} nationality
-\item \code{8} family or marital status
-\item \code{9} social class
-\item \code{10} region
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} current occupation
+\item \verb{[2]} race ethnic background
+\item \verb{[3]} gender
+\item \verb{[4]} age group
+\item \verb{[5]} religion
+\item \verb{[6]} political party
+\item \verb{[7]} nationality
+\item \verb{[8]} family or marital status
+\item \verb{[9]} social class
+\item \verb{[10]} region
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

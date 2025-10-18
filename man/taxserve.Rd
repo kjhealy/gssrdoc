@@ -15,11 +15,11 @@ Question C. IF STRONGLY FAVOR OR PROBABLY FAVOR EITHER A OR B: and suppose that 
 \section{Values}{
 
 \itemize{
-\item \code{1} strongly favor
-\item \code{2} probably favor
-\item \code{3} probably oppose
-\item \code{4} strongly oppose
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} strongly favor
+\item \verb{[2]} probably favor
+\item \verb{[3]} probably oppose
+\item \verb{[4]} strongly oppose
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -7,13 +7,13 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should
-#'   * `2` probably should
-#'   * `3` probably should not
-#'   * `4` definitely should not
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should
+#'   * `[2]` probably should
+#'   * `[3]` probably should not
+#'   * `[4]` definitely should not
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -49,13 +49,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should
-#'   * `2` probably should
-#'   * `3` probably should not
-#'   * `4` definitely should not
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should
+#'   * `[2]` probably should
+#'   * `[3]` probably should not
+#'   * `[4]` definitely should not
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -91,13 +91,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should
-#'   * `2` probably should
-#'   * `3` probably should not
-#'   * `4` definitely should not
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should
+#'   * `[2]` probably should
+#'   * `[3]` probably should not
+#'   * `[4]` definitely should not
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -132,14 +132,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` nothing about mental health
-#'   * `2` whether currently consulting
-#'   * `3` ever consulted a mental
-#'   * `4` ever consulted & diagnosis
-#'   * `5` diagnosis & confident. info
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` nothing about mental health
+#'   * `[2]` whether currently consulting
+#'   * `[3]` ever consulted a mental
+#'   * `[4]` ever consulted & diagnosis
+#'   * `[5]` diagnosis & confident. info
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -176,15 +176,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismiss military
-#'   * `3` one year prison
-#'   * `4` 5-9 years prison
-#'   * `5` 10-20 yrs prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismiss military
+#'   * `[3]` one year prison
+#'   * `[4]` 5-9 years prison
+#'   * `[5]` 10-20 yrs prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -219,15 +219,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismiss military
-#'   * `3` 1 year in prison
-#'   * `4` 5-9 yrs prison
-#'   * `5` 10-20 yrs prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismiss military
+#'   * `[3]` 1 year in prison
+#'   * `[4]` 5-9 yrs prison
+#'   * `[5]` 10-20 yrs prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -262,15 +262,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismiss/military
-#'   * `3` one yr in prison
-#'   * `4` 5-9 yrs in prisn
-#'   * `5` 10-20 yrs prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismiss/military
+#'   * `[3]` one yr in prison
+#'   * `[4]` 5-9 yrs in prisn
+#'   * `[5]` 10-20 yrs prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -305,15 +305,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismiss/military
-#'   * `3` one year prison
-#'   * `4` 5-9 years prison
-#'   * `5` 10-20 yrs prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismiss/military
+#'   * `[3]` one year prison
+#'   * `[4]` 5-9 years prison
+#'   * `[5]` 10-20 yrs prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -348,15 +348,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismiss military
-#'   * `3` one year prison
-#'   * `4` 5-9 years prison
-#'   * `5` 10-20 yrs prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismiss military
+#'   * `[3]` one year prison
+#'   * `[4]` 5-9 years prison
+#'   * `[5]` 10-20 yrs prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -386,20 +386,20 @@ NULL
 #' 
 #'  punarms
 #' 
-#' Question Iâ€™m going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+#' Question I'm going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
 #'  A. Stealing and selling weapons, ammunition, and explosives from a military depot.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reprimand
-#'   * `2` dismissal from the military/fired by the government
-#'   * `3` one year in prison
-#'   * `4` 5-9 years in prison
-#'   * `5` 10-20 years in prison
-#'   * `6` life in prison
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reprimand
+#'   * `[2]` dismissal from the military/fired by the government
+#'   * `[3]` one year in prison
+#'   * `[4]` 5-9 years in prison
+#'   * `[5]` 10-20 years in prison
+#'   * `[6]` life in prison
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

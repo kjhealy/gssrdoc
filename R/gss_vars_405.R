@@ -2,19 +2,19 @@
 #' 
 #'  trtwhite
 #' 
-#' Question Now Iâ€™m going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
+#' Question Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
 #' X. How many are White?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -44,19 +44,19 @@ NULL
 #' 
 #'  trtgay
 #' 
-#' Question Now Iâ€™m going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
+#' Question Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
 #' Y. How many are gay men or women?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -86,19 +86,19 @@ NULL
 #' 
 #'  trtcohab
 #' 
-#' Question Now Iâ€™m going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
+#' Question Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
 #' Z. How many of the women that you trust are you pretty certain live in a romantic relationship with a man to whom they are not married?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -128,19 +128,19 @@ NULL
 #' 
 #'  trtgoatt
 #' 
-#' Question Now Iâ€™m going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
+#' Question Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
 #' AA. How many of the people that you trust are you pretty certain attend religious services on a regular basis?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -170,19 +170,19 @@ NULL
 #' 
 #'  trtnoatt
 #' 
-#' Question Now Iâ€™m going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
+#' Question Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
 #' AB. How many people are you pretty certain attend religious services rarely or never?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -212,19 +212,19 @@ NULL
 #' 
 #'  trtlib
 #' 
-#' Question Now Iâ€™m going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
+#' Question Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
 #' AC. How many are you pretty certain are strongly liberal?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -254,19 +254,19 @@ NULL
 #' 
 #'  trtcon
 #' 
-#' Question Now Iâ€™m going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
+#' Question Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
 #' AD. How many are you pretty certain are strongly conservative?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -296,18 +296,18 @@ NULL
 #' 
 #'  trtreps
 #' 
-#' Question A. How many of the people that you trust do you think are Republicans? Would you sayâ€¦
+#' Question A. How many of the people that you trust do you think are Republicans? Would you say…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost all
-#'   * `2` most
-#'   * `3` about half
-#'   * `4` a few
-#'   * `5` none
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost all
+#'   * `[2]` most
+#'   * `[3]` about half
+#'   * `[4]` a few
+#'   * `[5]` none
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -337,18 +337,18 @@ NULL
 #' 
 #'  trtdems
 #' 
-#' Question B. How many do you think are Democrats? (Would you sayâ€¦)
+#' Question B. How many do you think are Democrats? (Would you say…)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost all
-#'   * `2` most
-#'   * `3` about half
-#'   * `4` a few
-#'   * `5` none
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost all
+#'   * `[2]` most
+#'   * `[3]` about half
+#'   * `[4]` a few
+#'   * `[5]` none
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -378,18 +378,18 @@ NULL
 #' 
 #'  trtattnd
 #' 
-#' Question C. How many do you think attend religious services regularly? (Would you sayâ€¦)
+#' Question C. How many do you think attend religious services regularly? (Would you say…)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost all
-#'   * `2` most
-#'   * `3` about half
-#'   * `4` a few
-#'   * `5` none
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost all
+#'   * `[2]` most
+#'   * `[3]` about half
+#'   * `[4]` a few
+#'   * `[5]` none
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

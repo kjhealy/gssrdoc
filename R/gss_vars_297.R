@@ -2,18 +2,18 @@
 #' 
 #'  treat6
 #' 
-#' Question Next, Iâ€™m going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
+#' Question Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
 #' F. Not working or doing other activities as carefully as usual as a result of any emotional problems such as feeling depressed or anxious?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely go
-#'   * `2` probably go
-#'   * `3` probably not go
-#'   * `4` definitely not go
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely go
+#'   * `[2]` probably go
+#'   * `[3]` probably not go
+#'   * `[4]` definitely not go
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -43,18 +43,18 @@ NULL
 #' 
 #'  treat7
 #' 
-#' Question Next, Iâ€™m going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
+#' Question Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
 #' G. Having pain interfere with your normal work, including both work outside the home and housework?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely go
-#'   * `2` probably go
-#'   * `3` probably not go
-#'   * `4` definitely not go
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely go
+#'   * `[2]` probably go
+#'   * `[3]` probably not go
+#'   * `[4]` definitely not go
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -84,18 +84,18 @@ NULL
 #' 
 #'  treat8
 #' 
-#' Question Next, Iâ€™m going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
+#' Question Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
 #' H. Not feeling calm and peaceful?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely go
-#'   * `2` probably go
-#'   * `3` probably not go
-#'   * `4` definitely not go
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely go
+#'   * `[2]` probably go
+#'   * `[3]` probably not go
+#'   * `[4]` definitely not go
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -125,18 +125,18 @@ NULL
 #' 
 #'  treat9
 #' 
-#' Question Next, Iâ€™m going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
+#' Question Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
 #' I. Not having lots of energy?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely go
-#'   * `2` probably go
-#'   * `3` probably not go
-#'   * `4` definitely not go
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely go
+#'   * `[2]` probably go
+#'   * `[3]` probably not go
+#'   * `[4]` definitely not go
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -166,18 +166,18 @@ NULL
 #' 
 #'  treat10
 #' 
-#' Question Next, Iâ€™m going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
+#' Question Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
 #' J. Feeling downhearted and blue?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely go
-#'   * `2` probably go
-#'   * `3` probably not go
-#'   * `4` definitely not go
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely go
+#'   * `[2]` probably go
+#'   * `[3]` probably not go
+#'   * `[4]` definitely not go
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -207,18 +207,18 @@ NULL
 #' 
 #'  treat11
 #' 
-#' Question Next, Iâ€™m going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
+#' Question Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
 #' K. Having physical health or emotional problems interfere with you social life, like visiting friends, relatives, etc.?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely go
-#'   * `2` probably go
-#'   * `3` probably not go
-#'   * `4` definitely not go
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely go
+#'   * `[2]` probably go
+#'   * `[3]` probably not go
+#'   * `[4]` definitely not go
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -253,13 +253,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` zero days
-#'   * `991` some days
-#'   * `992` some weeks
-#'   * `993` some months
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` zero days
+#'   * `[991]` some days
+#'   * `[992]` some weeks
+#'   * `[993]` some months
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -294,13 +294,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` zero days
-#'   * `991` some days
-#'   * `992` some weeks
-#'   * `993` some months
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` zero days
+#'   * `[991]` some days
+#'   * `[992]` some weeks
+#'   * `[993]` some months
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -337,13 +337,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` zero days
-#'   * `991` some days
-#'   * `992` some weeks
-#'   * `993` some months
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` zero days
+#'   * `[991]` some days
+#'   * `[992]` some weeks
+#'   * `[993]` some months
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -378,13 +378,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` zero days
-#'   * `991` some days
-#'   * `992` some weeks
-#'   * `993` some months
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` zero days
+#'   * `[991]` some days
+#'   * `[992]` some weeks
+#'   * `[993]` some months
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

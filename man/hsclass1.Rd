@@ -15,23 +15,23 @@ Question B. When you were in high school/In high school), what (was/is) your fav
 \section{Values}{
 
 \itemize{
-\item \code{0} none
-\item \code{1} english, literature
-\item \code{2} foreign language
-\item \code{3} fine arts
-\item \code{4} other humanities
-\item \code{5} economics
-\item \code{6} psychology
-\item \code{7} government-civics
-\item \code{8} social science-other social study
-\item \code{9} mathematics
-\item \code{10} science
-\item \code{11} other
-\item \code{12} business
-\item \code{13} education
-\item \code{14} engineering
-\item \code{15} other vocational
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[0]} none
+\item \verb{[1]} english, literature
+\item \verb{[2]} foreign language
+\item \verb{[3]} fine arts
+\item \verb{[4]} other humanities
+\item \verb{[5]} economics
+\item \verb{[6]} psychology
+\item \verb{[7]} government-civics
+\item \verb{[8]} social science-other social study
+\item \verb{[9]} mathematics
+\item \verb{[10]} science
+\item \verb{[11]} other
+\item \verb{[12]} business
+\item \verb{[13]} education
+\item \verb{[14]} engineering
+\item \verb{[15]} other vocational
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -19,34 +19,34 @@ Question What specific denomination is that, if any?
 \section{Values}{
 
 \itemize{
-\item \code{10} am baptist asso
-\item \code{11} am bapt ch in usa
-\item \code{12} nat bapt conv of am
-\item \code{13} nat bapt conv usa
-\item \code{14} southern baptist
-\item \code{15} other baptists
-\item \code{18} baptist-dk which
-\item \code{20} afr meth episcopal
-\item \code{21} afr meth ep zion
-\item \code{22} united methodist
-\item \code{23} other methodist
-\item \code{28} methodist-dk which
-\item \code{30} am lutheran
-\item \code{31} luth ch in america
-\item \code{32} lutheran-mo synod
-\item \code{33} wi evan luth synod
-\item \code{34} other lutheran
-\item \code{35} evangelical lutheran
-\item \code{38} lutheran-dk which
-\item \code{40} presbyterian c in us
-\item \code{41} united pres ch in usa
-\item \code{42} other presbyterian
-\item \code{43} presbyt ch usa
-\item \code{48} presbyterian-dk wh
-\item \code{50} episcopal
-\item \code{60} other
-\item \code{70} no denomination
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[10]} am baptist asso
+\item \verb{[11]} am bapt ch in usa
+\item \verb{[12]} nat bapt conv of am
+\item \verb{[13]} nat bapt conv usa
+\item \verb{[14]} southern baptist
+\item \verb{[15]} other baptists
+\item \verb{[18]} baptist-dk which
+\item \verb{[20]} afr meth episcopal
+\item \verb{[21]} afr meth ep zion
+\item \verb{[22]} united methodist
+\item \verb{[23]} other methodist
+\item \verb{[28]} methodist-dk which
+\item \verb{[30]} am lutheran
+\item \verb{[31]} luth ch in america
+\item \verb{[32]} lutheran-mo synod
+\item \verb{[33]} wi evan luth synod
+\item \verb{[34]} other lutheran
+\item \verb{[35]} evangelical lutheran
+\item \verb{[38]} lutheran-dk which
+\item \verb{[40]} presbyterian c in us
+\item \verb{[41]} united pres ch in usa
+\item \verb{[42]} other presbyterian
+\item \verb{[43]} presbyt ch usa
+\item \verb{[48]} presbyterian-dk wh
+\item \verb{[50]} episcopal
+\item \verb{[60]} other
+\item \verb{[70]} no denomination
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

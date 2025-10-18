@@ -7,12 +7,12 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes
-#'   * `2` yes, at least one url is not a .com
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` no
+#'   * `[1]` yes
+#'   * `[2]` yes, at least one url is not a .com
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -47,12 +47,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes
-#'   * `2` yes, at least one url is not a .com
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` no
+#'   * `[1]` yes
+#'   * `[2]` yes, at least one url is not a .com
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -87,12 +87,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes
-#'   * `2` yes, at least one url is not a .com
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` no
+#'   * `[1]` yes
+#'   * `[2]` yes, at least one url is not a .com
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -127,35 +127,35 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` no specific search engine mentioned
-#'   * `1` yahoo
-#'   * `2` aol
-#'   * `3` cnn
-#'   * `4` msn
-#'   * `5` excite
-#'   * `6` google
-#'   * `7` webferret
-#'   * `8` lycos
-#'   * `9` altavista
-#'   * `10` usatoday
-#'   * `11` copernic
-#'   * `12` askjeeves
-#'   * `13` peoplefind.com
-#'   * `14` abc
-#'   * `15` msnbc
-#'   * `16` infoseek go
-#'   * `17` dogpile
-#'   * `18` snap
-#'   * `19` metacrawler
-#'   * `20` webcrawler
-#'   * `21` netscape
-#'   * `22` iwon
-#'   * `23` politics.com
-#'   * `24` homp page search engine
-#'   * `25` nbc
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` no specific search engine mentioned
+#'   * `[1]` yahoo
+#'   * `[2]` aol
+#'   * `[3]` cnn
+#'   * `[4]` msn
+#'   * `[5]` excite
+#'   * `[6]` google
+#'   * `[7]` webferret
+#'   * `[8]` lycos
+#'   * `[9]` altavista
+#'   * `[10]` usatoday
+#'   * `[11]` copernic
+#'   * `[12]` askjeeves
+#'   * `[13]` peoplefind.com
+#'   * `[14]` abc
+#'   * `[15]` msnbc
+#'   * `[16]` infoseek go
+#'   * `[17]` dogpile
+#'   * `[18]` snap
+#'   * `[19]` metacrawler
+#'   * `[20]` webcrawler
+#'   * `[21]` netscape
+#'   * `[22]` iwon
+#'   * `[23]` politics.com
+#'   * `[24]` homp page search engine
+#'   * `[25]` nbc
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -189,13 +189,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` often
-#'   * `2` sometimes
-#'   * `3` rarely
-#'   * `4` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` often
+#'   * `[2]` sometimes
+#'   * `[3]` rarely
+#'   * `[4]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -230,13 +230,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` often
-#'   * `2` sometimes
-#'   * `3` rarely
-#'   * `4` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` often
+#'   * `[2]` sometimes
+#'   * `[3]` rarely
+#'   * `[4]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -270,13 +270,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` often
-#'   * `2` sometimes
-#'   * `3` rarely
-#'   * `4` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` often
+#'   * `[2]` sometimes
+#'   * `[3]` rarely
+#'   * `[4]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -311,13 +311,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` often
-#'   * `2` sometimes
-#'   * `3` rarely
-#'   * `4` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` often
+#'   * `[2]` sometimes
+#'   * `[3]` rarely
+#'   * `[4]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -352,13 +352,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` often
-#'   * `2` sometimes
-#'   * `3` rarely
-#'   * `4` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` often
+#'   * `[2]` sometimes
+#'   * `[3]` rarely
+#'   * `[4]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -393,13 +393,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` often
-#'   * `2` sometimes
-#'   * `3` rarely
-#'   * `4` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` often
+#'   * `[2]` sometimes
+#'   * `[3]` rarely
+#'   * `[4]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

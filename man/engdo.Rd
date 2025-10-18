@@ -10,17 +10,17 @@ General Social Survey https://gss.norc.org
 engdo
 }
 \details{
-Question D. Next, Iâ€™d like to ask how you rate your knowledge of what engineers do day-to-day in their jobs. would you say your knowledge of what engineers do day-to-day on their jobs is Excellent, Good, Fair, Poor, Very Poor?
+Question D. Next, I'd like to ask how you rate your knowledge of what engineers do day-to-day in their jobs. would you say your knowledge of what engineers do day-to-day on their jobs is Excellent, Good, Fair, Poor, Very Poor?
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} excellent
-\item \code{2} good
-\item \code{3} fair
-\item \code{4} poor
-\item \code{5} very poor
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} excellent
+\item \verb{[2]} good
+\item \verb{[3]} fair
+\item \verb{[4]} poor
+\item \verb{[5]} very poor
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

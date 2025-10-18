@@ -4,18 +4,18 @@
 #' 
 #' Question Here are some other areas of government spending. Please indicate whether you would like to see more or less government spending in each area. 
 #' Remember that if you say "much more", it might require a tax increase to pay for it. 
-#' B. Health care for children whose families don't have insuranceâ€¦
+#' B. Health care for children whose families don't have insurance…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spend much more
+#'   * `[2]` spend more
+#'   * `[3]` spend same
+#'   * `[4]` spend less
+#'   * `[5]` spend much less
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -47,18 +47,18 @@ NULL
 #' 
 #' Question Here are some other areas of government spending. Please indicate whether you would like to see more or less government spending in each area. 
 #' Remember that if you say "much more", it might require a tax increase to pay for it. 
-#' C. Preschool programs like Head Start for poor childrenâ€¦
+#' C. Preschool programs like Head Start for poor children…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spend much more
+#'   * `[2]` spend more
+#'   * `[3]` spend same
+#'   * `[4]` spend less
+#'   * `[5]` spend much less
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -90,18 +90,18 @@ NULL
 #' 
 #' Question Here are some other areas of government spending. Please indicate whether you would like to see more or less government spending in each area. 
 #' Remember that if you say "much more", it might require a tax increase to pay for it. 
-#' D. Child care for poor childrenâ€¦
+#' D. Child care for poor children…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spend much more
+#'   * `[2]` spend more
+#'   * `[3]` spend same
+#'   * `[4]` spend less
+#'   * `[5]` spend much less
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -133,18 +133,18 @@ NULL
 #' 
 #' Question Here are some other areas of government spending. Please indicate whether you would like to see more or less government spending in each area. 
 #' Remember that if you say "much more", it might require a tax increase to pay for it. 
-#' E. Child care for all children with working parentsâ€¦
+#' E. Child care for all children with working parents…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spend much more
+#'   * `[2]` spend more
+#'   * `[3]` spend same
+#'   * `[4]` spend less
+#'   * `[5]` spend much less
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -176,18 +176,18 @@ NULL
 #' 
 #' Question Here are some other areas of government spending. Please indicate whether you would like to see more or less government spending in each area. 
 #' Remember that if you say "much more", it might require a tax increase to pay for it. 
-#' F. Housing for poor families with childrenâ€¦
+#' F. Housing for poor families with children…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spend much more
+#'   * `[2]` spend more
+#'   * `[3]` spend same
+#'   * `[4]` spend less
+#'   * `[5]` spend much less
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -219,18 +219,18 @@ NULL
 #' 
 #' Question Here are some other areas of government spending. Please indicate whether you would like to see more or less government spending in each area. 
 #' Remember that if you say "much more", it might require a tax increase to pay for it. 
-#' G. Services for disabled and chronically ill childrenâ€¦
+#' G. Services for disabled and chronically ill children…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spend much more
+#'   * `[2]` spend more
+#'   * `[3]` spend same
+#'   * `[4]` spend less
+#'   * `[5]` spend much less
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -262,18 +262,18 @@ NULL
 #' 
 #' Question Here are some other areas of government spending. Please indicate whether you would like to see more or less government spending in each area. 
 #' Remember that if you say "much more", it might require a tax increase to pay for it. 
-#' H. Drug abuse prevention and treatment for children and youthâ€¦
+#' H. Drug abuse prevention and treatment for children and youth…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spend much more
+#'   * `[2]` spend more
+#'   * `[3]` spend same
+#'   * `[4]` spend less
+#'   * `[5]` spend much less
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -305,18 +305,18 @@ NULL
 #' 
 #' Question Here are some other areas of government spending. Please indicate whether you would like to see more or less government spending in each area. 
 #' Remember that if you say "much more", it might require a tax increase to pay for it. 
-#' I. Nutrition programs for poor children and families, such as food stamps and school lunchesâ€¦
+#' I. Nutrition programs for poor children and families, such as food stamps and school lunches…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spend much more
+#'   * `[2]` spend more
+#'   * `[3]` spend same
+#'   * `[4]` spend less
+#'   * `[5]` spend much less
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -348,18 +348,18 @@ NULL
 #' 
 #' Question Here are some other areas of government spending. Please indicate whether you would like to see more or less government spending in each area. 
 #' Remember that if you say "much more", it might require a tax increase to pay for it. 
-#' J. Contraceptive services for teenagersâ€¦
+#' J. Contraceptive services for teenagers…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spend much more
+#'   * `[2]` spend more
+#'   * `[3]` spend same
+#'   * `[4]` spend less
+#'   * `[5]` spend much less
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -397,11 +397,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `995` cant understand answer
-#'   * `996` no problems
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[995]` cant understand answer
+#'   * `[996]` no problems
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |

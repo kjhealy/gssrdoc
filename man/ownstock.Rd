@@ -15,12 +15,12 @@ Question Do you own any shares of stock in the company where you now work, eithe
 \section{Values}{
 
 \itemize{
-\item \code{1} yes
-\item \code{2} no, i work for a company that does not have stock
-\item \code{3} no, my company has stock but i do not own any
-\item \code{4} no, i do not own and do not know if my company has stock
-\item \code{5} i do not know if i own stock in my company
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} yes
+\item \verb{[2]} no, i work for a company that does not have stock
+\item \verb{[3]} no, my company has stock but i do not own any
+\item \verb{[4]} no, i do not own and do not know if my company has stock
+\item \verb{[5]} i do not know if i own stock in my company
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

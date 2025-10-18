@@ -10,18 +10,18 @@ General Social Survey https://gss.norc.org
 trtgoatt
 }
 \details{
-Question Now Iâ€™m going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can.
+Question Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can.
 AA. How many of the people that you trust are you pretty certain attend religious services on a regular basis?
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} 0
-\item \code{2} 1
-\item \code{3} 2 - 5
-\item \code{4} 6 - 10
-\item \code{5} more than 10
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} 0
+\item \verb{[2]} 1
+\item \verb{[3]} 2 - 5
+\item \verb{[4]} 6 - 10
+\item \verb{[5]} more than 10
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -15,18 +15,18 @@ Question A. Why do you think it is likely?
 \section{Values}{
 
 \itemize{
-\item \code{1} company's sales were declining
-\item \code{2} machines and computers made my job obsolete
-\item \code{3} job requirements changed and i was not able to do the job
-\item \code{4} job moved to another location in the united states
-\item \code{5} job moved to another country
-\item \code{6} other
-\item \code{7} company sold
-\item \code{8} job done
-\item \code{9} company in financial problem
-\item \code{10} end of contract
-\item \code{11} seasonal work
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} company's sales were declining
+\item \verb{[2]} machines and computers made my job obsolete
+\item \verb{[3]} job requirements changed and i was not able to do the job
+\item \verb{[4]} job moved to another location in the united states
+\item \verb{[5]} job moved to another country
+\item \verb{[6]} other
+\item \verb{[7]} company sold
+\item \verb{[8]} job done
+\item \verb{[9]} company in financial problem
+\item \verb{[10]} end of contract
+\item \verb{[11]} seasonal work
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

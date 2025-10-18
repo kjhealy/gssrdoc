@@ -15,28 +15,28 @@ Question Family income on the 1991-96 surveys. For question wording, see INCOME.
 \section{Values}{
 
 \itemize{
-\item \code{1} lt $1000
-\item \code{2} $1000-2999
-\item \code{3} $3000-3999
-\item \code{4} $4000-4999
-\item \code{5} $5000-5999
-\item \code{6} $6000-6999
-\item \code{7} $7000-7999
-\item \code{8} $8000-9999
-\item \code{9} $10000-12499
-\item \code{10} $12500-14999
-\item \code{11} $15000-17499
-\item \code{12} $17500-19999
-\item \code{13} $20000-22499
-\item \code{14} $22500-24999
-\item \code{15} $25000-29999
-\item \code{16} $30000-34999
-\item \code{17} $35000-39999
-\item \code{18} $40000-49999
-\item \code{19} $50000-59999
-\item \code{20} $60000-74999
-\item \code{21} $75000+
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} lt $1000
+\item \verb{[2]} $1000-2999
+\item \verb{[3]} $3000-3999
+\item \verb{[4]} $4000-4999
+\item \verb{[5]} $5000-5999
+\item \verb{[6]} $6000-6999
+\item \verb{[7]} $7000-7999
+\item \verb{[8]} $8000-9999
+\item \verb{[9]} $10000-12499
+\item \verb{[10]} $12500-14999
+\item \verb{[11]} $15000-17499
+\item \verb{[12]} $17500-19999
+\item \verb{[13]} $20000-22499
+\item \verb{[14]} $22500-24999
+\item \verb{[15]} $25000-29999
+\item \verb{[16]} $30000-34999
+\item \verb{[17]} $35000-39999
+\item \verb{[18]} $40000-49999
+\item \verb{[19]} $50000-59999
+\item \verb{[20]} $60000-74999
+\item \verb{[21]} $75000+
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

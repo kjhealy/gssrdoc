@@ -6,11 +6,11 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the elderly people themselves or their family
-#'   * `2` the government/public funds
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the elderly people themselves or their family
+#'   * `[2]` the government/public funds
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -47,15 +47,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` always me
-#'   * `2` usually me
-#'   * `3` about equal or both together
-#'   * `4` usually my spouse/partner
-#'   * `5` always my spouse/partner
-#'   * `6` is done by a third person
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` always me
+#'   * `[2]` usually me
+#'   * `[3]` about equal or both together
+#'   * `[4]` usually my spouse/partner
+#'   * `[5]` always my spouse/partner
+#'   * `[6]` is done by a third person
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -91,14 +91,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` mostly me
-#'   * `2` mostly my spousepartfill
-#'   * `3` sometimes me/sometimes my spousepartfill
-#'   * `4` we decide together
-#'   * `5` someone else
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` mostly me
+#'   * `[2]` mostly my spousepartfill
+#'   * `[3]` sometimes me/sometimes my spousepartfill
+#'   * `[4]` we decide together
+#'   * `[5]` someone else
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -133,14 +133,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` doesn't apply/no job
-#'   * `1` several times a week
-#'   * `2` several times a month
-#'   * `3` once or twice
-#'   * `4` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` doesn't apply/no job
+#'   * `[1]` several times a week
+#'   * `[2]` several times a month
+#'   * `[3]` once or twice
+#'   * `[4]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -177,14 +177,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` doesn't apply/no job
-#'   * `1` several times a week
-#'   * `2` several times a month
-#'   * `3` once or twice
-#'   * `4` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` doesn't apply/no job
+#'   * `[1]` several times a week
+#'   * `[2]` several times a month
+#'   * `[3]` once or twice
+#'   * `[4]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -221,14 +221,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` doesn't apply/no job
-#'   * `1` several times a week
-#'   * `2` several times a month
-#'   * `3` once or twice
-#'   * `4` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` doesn't apply/no job
+#'   * `[1]` several times a week
+#'   * `[2]` several times a month
+#'   * `[3]` once or twice
+#'   * `[4]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -265,14 +265,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` doesn't apply/no job
-#'   * `1` several times a week
-#'   * `2` several times a month
-#'   * `3` once or twice
-#'   * `4` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` doesn't apply/no job
+#'   * `[1]` several times a week
+#'   * `[2]` several times a month
+#'   * `[3]` once or twice
+#'   * `[4]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -304,17 +304,17 @@ NULL
 #' 
 #'  wkkidscl
 #' 
-#' Question Did you work outside the home full-time, part-time, or not at allâ€¦ 
+#' Question Did you work outside the home full-time, part-time, or not at all… 
 #' A. When a child was under school age?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` worked full-time
-#'   * `2` worked part-time
-#'   * `3` stayed at home
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` worked full-time
+#'   * `[2]` worked part-time
+#'   * `[3]` stayed at home
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -344,17 +344,17 @@ NULL
 #' 
 #'  wkyngscl
 #' 
-#' Question Did you work outside the home full-time, part-time, or not at allâ€¦ 
+#' Question Did you work outside the home full-time, part-time, or not at all… 
 #' B. After the youngest child started school?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` worked full-time
-#'   * `2` worked part-time
-#'   * `3` stayed at home
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` worked full-time
+#'   * `[2]` worked part-time
+#'   * `[3]` stayed at home
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -384,17 +384,17 @@ NULL
 #' 
 #'  wkkidscs
 #' 
-#' Question What about your (spouse/partner) at that time â€“ did (he/she) work outside the home full-time, part-time, or not at allâ€¦ 
+#' Question What about your (spouse/partner) at that time â€“ did (he/she) work outside the home full-time, part-time, or not at all… 
 #' A. When a child was under school age?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` worked full-time
-#'   * `2` worked part-time
-#'   * `3` stayed at home
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` worked full-time
+#'   * `[2]` worked part-time
+#'   * `[3]` stayed at home
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

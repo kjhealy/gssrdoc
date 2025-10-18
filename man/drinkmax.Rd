@@ -15,15 +15,15 @@ Question Think of all kinds of alcoholic beverages combined, that is, any combin
 \section{Values}{
 
 \itemize{
-\item \code{0} did not drink at all in the last 12 months
-\item \code{1} at least a sip, but less than one full drink
-\item \code{2} at least 1, but less than 3 drinks
-\item \code{3} at least 3, but less than 5 drinks
-\item \code{4} at least 5, but less than 8 drinks
-\item \code{5} at least 8, but less than 12 drinks
-\item \code{6} at least 12, but less than 20 drinks
-\item \code{7} 20 or more drinks in a single day
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[0]} did not drink at all in the last 12 months
+\item \verb{[1]} at least a sip, but less than one full drink
+\item \verb{[2]} at least 1, but less than 3 drinks
+\item \verb{[3]} at least 3, but less than 5 drinks
+\item \verb{[4]} at least 5, but less than 8 drinks
+\item \verb{[5]} at least 8, but less than 12 drinks
+\item \verb{[6]} at least 12, but less than 20 drinks
+\item \verb{[7]} 20 or more drinks in a single day
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

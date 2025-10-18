@@ -15,8 +15,8 @@ Question From what country or countries did your ancestors come?  Other Oceania
 \section{Values}{
 
 \itemize{
-\item No applicable value labels.
-\item 
+\item \verb{[Empty]} No applicable value labels
+\item \verb{[NA(d)]}NA
 }
 }
 

@@ -2,18 +2,18 @@
 #' 
 #'  polaryr6
 #' 
-#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earthâ€™s polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely toâ€¦ 
+#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earth's polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely to… 
 #' F. Read a book about the polar regions?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -45,18 +45,18 @@ NULL
 #' 
 #'  polaryr7
 #' 
-#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earthâ€™s polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely toâ€¦ 
+#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earth's polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely to… 
 #' G. Visit a web site about the polar regions?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -88,18 +88,18 @@ NULL
 #' 
 #'  polaryr8
 #' 
-#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earthâ€™s polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely toâ€¦ 
+#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earth's polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely to… 
 #' H. Attend a live lecture by a scientist about the polar regions?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -131,16 +131,16 @@ NULL
 #' 
 #'  icesheet
 #' 
-#' Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you donâ€™t know or arenâ€™t sure, just tell me so, and we will skip to the next question. Remember true, false, or donâ€™t know. 
+#' Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. 
 #' A. The North Pole is on a sheet of ice that floats on the Arctic Ocean. (Is that true or false?)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -172,16 +172,16 @@ NULL
 #' 
 #'  nosun
 #' 
-#' Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you donâ€™t know or arenâ€™t sure, just tell me so, and we will skip to the next question. Remember true, false, or donâ€™t know. 
+#' Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. 
 #' B. The sun never shines at the South Pole. (Is that true or false?)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -213,16 +213,16 @@ NULL
 #' 
 #'  inuit
 #' 
-#' Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you donâ€™t know or arenâ€™t sure, just tell me so, and we will skip to the next question. Remember true, false, or donâ€™t know. 
+#' Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. 
 #' C. Inuit (often called Eskimos) live north of the Arctic Circle. (Is that true or false?)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -254,16 +254,16 @@ NULL
 #' 
 #'  huntbear
 #' 
-#' Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you donâ€™t know or arenâ€™t sure, just tell me so, and we will skip to the next question. Remember true, false, or donâ€™t know. 
+#' Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. 
 #' D. Hunting is more likely than climate change to make polar bears become extinct. (Is that true or false?)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -295,17 +295,17 @@ NULL
 #' 
 #'  icecaps
 #' 
-#' Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you donâ€™t know or arenâ€™t sure, just tell me so, and we will skip to the next question. Remember true, false, or donâ€™t know. 
+#' Question The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. 
 #' E. Would you say the polar ice caps have gotten larger or smaller over the last 25 years?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` larger
-#'   * `2` smaller
-#'   * `3` stayed the same:volunteered
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` larger
+#'   * `[2]` smaller
+#'   * `[3]` stayed the same:volunteered
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -341,14 +341,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` strongly support reserving antarctica
-#'   * `2` somewhat support reserving antarctica
-#'   * `3` dont lean one way or the other on this issue
-#'   * `4` somewhat support opening antarctica
-#'   * `5` strongly support opening antarctica
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` strongly support reserving antarctica
+#'   * `[2]` somewhat support reserving antarctica
+#'   * `[3]` dont lean one way or the other on this issue
+#'   * `[4]` somewhat support opening antarctica
+#'   * `[5]` strongly support opening antarctica
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -385,13 +385,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal
-#'   * `2` some
-#'   * `3` a little
-#'   * `4` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal
+#'   * `[2]` some
+#'   * `[3]` a little
+#'   * `[4]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

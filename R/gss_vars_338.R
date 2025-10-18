@@ -6,84 +6,84 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` mexico
-#'   * `2` canada
-#'   * `3` china
-#'   * `4` colombia
-#'   * `5` cuba
-#'   * `6` germany
-#'   * `7` guatemala
-#'   * `8` haiti
-#'   * `9` honduras
-#'   * `10` india
-#'   * `11` jamaica
-#'   * `12` korea
-#'   * `13` philippines
-#'   * `14` poland
-#'   * `15` other
-#'   * `16` trinidad
-#'   * `17` antigua
-#'   * `18` pakistan
-#'   * `19` belize
-#'   * `20` guyana
-#'   * `21` egypt
-#'   * `22` moldovia
-#'   * `23` brazil
-#'   * `24` portugal
-#'   * `25` panama
-#'   * `26` iran
-#'   * `27` ghana
-#'   * `28` bangladesh
-#'   * `29` puerto rico
-#'   * `30` turkey
-#'   * `31` italy
-#'   * `32` el salvidor
-#'   * `33` greece
-#'   * `34` ecuador
-#'   * `35` england
-#'   * `36` thailand
-#'   * `37` peru
-#'   * `38` australia
-#'   * `39` israel
-#'   * `40` netherlands
-#'   * `41` macedonia
-#'   * `42` france
-#'   * `43` argentina
-#'   * `44` lebanon
-#'   * `45` russia
-#'   * `46` cambodia
-#'   * `47` venezuela
-#'   * `48` iraq
-#'   * `49` romania
-#'   * `50` czech republic
-#'   * `51` nicaragua
-#'   * `52` arabic
-#'   * `53` gambia
-#'   * `54` west africa
-#'   * `55` barbados
-#'   * `56` south africa
-#'   * `57` ukraine
-#'   * `58` hungary
-#'   * `59` eritrea
-#'   * `60` ireland
-#'   * `61` laos
-#'   * `62` vietnam
-#'   * `63` senegal
-#'   * `64` sudan
-#'   * `65` nigeria
-#'   * `66` bosnia
-#'   * `67` uruguay
-#'   * `68` malaysia
-#'   * `69` armenia
-#'   * `70` congo
-#'   * `71` japan
-#'   * `72` dutch east indies
-#'   * `73` indonesia
-#'   * `74` africa
-#'   * `75` jordan
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` mexico
+#'   * `[2]` canada
+#'   * `[3]` china
+#'   * `[4]` colombia
+#'   * `[5]` cuba
+#'   * `[6]` germany
+#'   * `[7]` guatemala
+#'   * `[8]` haiti
+#'   * `[9]` honduras
+#'   * `[10]` india
+#'   * `[11]` jamaica
+#'   * `[12]` korea
+#'   * `[13]` philippines
+#'   * `[14]` poland
+#'   * `[15]` other
+#'   * `[16]` trinidad
+#'   * `[17]` antigua
+#'   * `[18]` pakistan
+#'   * `[19]` belize
+#'   * `[20]` guyana
+#'   * `[21]` egypt
+#'   * `[22]` moldovia
+#'   * `[23]` brazil
+#'   * `[24]` portugal
+#'   * `[25]` panama
+#'   * `[26]` iran
+#'   * `[27]` ghana
+#'   * `[28]` bangladesh
+#'   * `[29]` puerto rico
+#'   * `[30]` turkey
+#'   * `[31]` italy
+#'   * `[32]` el salvidor
+#'   * `[33]` greece
+#'   * `[34]` ecuador
+#'   * `[35]` england
+#'   * `[36]` thailand
+#'   * `[37]` peru
+#'   * `[38]` australia
+#'   * `[39]` israel
+#'   * `[40]` netherlands
+#'   * `[41]` macedonia
+#'   * `[42]` france
+#'   * `[43]` argentina
+#'   * `[44]` lebanon
+#'   * `[45]` russia
+#'   * `[46]` cambodia
+#'   * `[47]` venezuela
+#'   * `[48]` iraq
+#'   * `[49]` romania
+#'   * `[50]` czech republic
+#'   * `[51]` nicaragua
+#'   * `[52]` arabic
+#'   * `[53]` gambia
+#'   * `[54]` west africa
+#'   * `[55]` barbados
+#'   * `[56]` south africa
+#'   * `[57]` ukraine
+#'   * `[58]` hungary
+#'   * `[59]` eritrea
+#'   * `[60]` ireland
+#'   * `[61]` laos
+#'   * `[62]` vietnam
+#'   * `[63]` senegal
+#'   * `[64]` sudan
+#'   * `[65]` nigeria
+#'   * `[66]` bosnia
+#'   * `[67]` uruguay
+#'   * `[68]` malaysia
+#'   * `[69]` armenia
+#'   * `[70]` congo
+#'   * `[71]` japan
+#'   * `[72]` dutch east indies
+#'   * `[73]` indonesia
+#'   * `[74]` africa
+#'   * `[75]` jordan
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -117,13 +117,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` box a
-#'   * `2` box b
-#'   * `3` box c
-#'   * `4` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` box a
+#'   * `[2]` box b
+#'   * `[3]` box c
+#'   * `[4]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -157,13 +157,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` box a
-#'   * `2` box b
-#'   * `3` box c
-#'   * `4` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` box a
+#'   * `[2]` box b
+#'   * `[3]` box c
+#'   * `[4]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -193,17 +193,17 @@ NULL
 #' 
 #'  immstats
 #' 
-#' Question Thinking of your current immigration status right now, is that in Box A, B, or C?  If itâ€™s in Box B, we do not want to know which specific category applies to you, and there will be no more questions about Box B. (IF RESPONDENT ASKS WHY, SAY: Because right now we are focusing on Box A.)
+#' Question Thinking of your current immigration status right now, is that in Box A, B, or C?  If it's in Box B, we do not want to know which specific category applies to you, and there will be no more questions about Box B. (IF RESPONDENT ASKS WHY, SAY: Because right now we are focusing on Box A.)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` box a
-#'   * `2` box b
-#'   * `3` box c
-#'   * `4` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` box a
+#'   * `[2]` box b
+#'   * `[3]` box c
+#'   * `[4]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -237,12 +237,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `3` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[3]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -276,13 +276,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes, objected verbally
-#'   * `2` yes, delayed, kept silent for a while
-#'   * `3` no
-#'   * `4` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes, objected verbally
+#'   * `[2]` yes, delayed, kept silent for a while
+#'   * `[3]` no
+#'   * `[4]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -316,10 +316,9 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * 
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -353,10 +352,9 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * 
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -390,10 +388,9 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * 
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -427,10 +424,9 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * 
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

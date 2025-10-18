@@ -6,11 +6,11 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -44,10 +44,9 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * 
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -81,13 +80,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have the right
-#'   * `2` probably should have the right
-#'   * `3` probably should not have the right
-#'   * `4` definitely should not have the right
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have the right
+#'   * `[2]` probably should have the right
+#'   * `[3]` probably should not have the right
+#'   * `[4]` definitely should not have the right
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -121,13 +120,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have the right
-#'   * `2` probably should have the right
-#'   * `3` probably should not have the right
-#'   * `4` definitely should not have the right
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have the right
+#'   * `[2]` probably should have the right
+#'   * `[3]` probably should not have the right
+#'   * `[4]` definitely should not have the right
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -161,13 +160,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have the right
-#'   * `2` probably should have the right
-#'   * `3` probably should not have the right
-#'   * `4` definitely should not have the right
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have the right
+#'   * `[2]` probably should have the right
+#'   * `[3]` probably should not have the right
+#'   * `[4]` definitely should not have the right
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -201,13 +200,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have the right
-#'   * `2` probably should have the right
-#'   * `3` probably should not have the right
-#'   * `4` definitely should not have the right
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have the right
+#'   * `[2]` probably should have the right
+#'   * `[3]` probably should not have the right
+#'   * `[4]` definitely should not have the right
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -241,13 +240,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have the right
-#'   * `2` probably should have the right
-#'   * `3` probably should not have the right
-#'   * `4` definitely should not have the right
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have the right
+#'   * `[2]` probably should have the right
+#'   * `[3]` probably should not have the right
+#'   * `[4]` definitely should not have the right
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -281,21 +280,21 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` less than $499
-#'   * `2` $500 to $999
-#'   * `3` $1,000 to $2,999
-#'   * `4` $3,000 to $4,999
-#'   * `5` $5,000 to $9,999
-#'   * `6` $10,000 to $19,999
-#'   * `7` $20,000 to $39,999
-#'   * `8` $40,000 to $79,999
-#'   * `9` $80,000 to $199,999
-#'   * `10` $200,000 to $499,999
-#'   * `11` $500,000 to $999,000
-#'   * `12` over $1 million
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` less than $499
+#'   * `[2]` $500 to $999
+#'   * `[3]` $1,000 to $2,999
+#'   * `[4]` $3,000 to $4,999
+#'   * `[5]` $5,000 to $9,999
+#'   * `[6]` $10,000 to $19,999
+#'   * `[7]` $20,000 to $39,999
+#'   * `[8]` $40,000 to $79,999
+#'   * `[9]` $80,000 to $199,999
+#'   * `[10]` $200,000 to $499,999
+#'   * `[11]` $500,000 to $999,000
+#'   * `[12]` over $1 million
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -329,11 +328,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -367,21 +366,21 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` less than $499
-#'   * `2` $500 to $999
-#'   * `3` $1,000 to $2,999
-#'   * `4` $3,000 to $4,999
-#'   * `5` $5,000 to $9,999
-#'   * `6` $10,000 to $19,999
-#'   * `7` $20,000 to $39,999
-#'   * `8` $40,000 to $79,999
-#'   * `9` $80,000 to $199,999
-#'   * `10` $200,000 to $499,999
-#'   * `11` $500,000 to $999,000
-#'   * `12` over $1 million
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` less than $499
+#'   * `[2]` $500 to $999
+#'   * `[3]` $1,000 to $2,999
+#'   * `[4]` $3,000 to $4,999
+#'   * `[5]` $5,000 to $9,999
+#'   * `[6]` $10,000 to $19,999
+#'   * `[7]` $20,000 to $39,999
+#'   * `[8]` $40,000 to $79,999
+#'   * `[9]` $80,000 to $199,999
+#'   * `[10]` $200,000 to $499,999
+#'   * `[11]` $500,000 to $999,000
+#'   * `[12]` over $1 million
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

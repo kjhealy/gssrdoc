@@ -2,18 +2,18 @@
 #' 
 #'  downrely
 #' 
-#' Question As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. Iâ€™m going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following:
+#' Question As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following:
 #' D. Would you definitely expect, probably expect, probably not expect, or definitely not expect to need to rely less on others?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely expect
+#'   * `[2]` probably expect
+#'   * `[3]` probably not expect
+#'   * `[4]` definitely not expect
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -43,18 +43,18 @@ NULL
 #' 
 #'  downfeel
 #' 
-#' Question As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. Iâ€™m going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following:
+#' Question As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following:
 #' E. Would you definitely expect, probably expect, probably not expect, or definitely not expect to feel better about yourself as a person?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely expect
+#'   * `[2]` probably expect
+#'   * `[3]` probably not expect
+#'   * `[4]` definitely not expect
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -89,13 +89,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely expect
+#'   * `[2]` probably expect
+#'   * `[3]` probably not expect
+#'   * `[4]` definitely not expect
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -130,13 +130,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely expect
+#'   * `[2]` probably expect
+#'   * `[3]` probably not expect
+#'   * `[4]` definitely not expect
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -171,13 +171,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely expect
+#'   * `[2]` probably expect
+#'   * `[3]` probably not expect
+#'   * `[4]` definitely not expect
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -212,13 +212,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely expect
+#'   * `[2]` probably expect
+#'   * `[3]` probably not expect
+#'   * `[4]` definitely not expect
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -253,13 +253,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely expect
+#'   * `[2]` probably expect
+#'   * `[3]` probably not expect
+#'   * `[4]` definitely not expect
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -294,13 +294,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely expect
+#'   * `[2]` probably expect
+#'   * `[3]` probably not expect
+#'   * `[4]` definitely not expect
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -335,13 +335,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely expect
+#'   * `[2]` probably expect
+#'   * `[3]` probably not expect
+#'   * `[4]` definitely not expect
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -376,13 +376,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely expect
+#'   * `[2]` probably expect
+#'   * `[3]` probably not expect
+#'   * `[4]` definitely not expect
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

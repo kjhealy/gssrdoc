@@ -18,19 +18,19 @@ Question A. WHY DO YOU THINK YOUR RACIAL CLASSIFICATION OF THE RESPONDENT IN "A"
 \section{Values}{
 
 \itemize{
-\item \code{1} r not serious
-\item \code{2} hispanic chosen over white
-\item \code{3} hispanic chosen over black
-\item \code{4} physically doesn't match race
-\item \code{5} racially mixed
-\item \code{6} r rejects racial categories
-\item \code{7} r rejects 'black' label
-\item \code{8} is married to member of another race
-\item \code{9} white or black chosen over hispanic
-\item \code{10} feelings, not biology matters
-\item \code{11} identifies with other than 'real' race
-\item \code{12} other hispanic complications
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} r not serious
+\item \verb{[2]} hispanic chosen over white
+\item \verb{[3]} hispanic chosen over black
+\item \verb{[4]} physically doesn't match race
+\item \verb{[5]} racially mixed
+\item \verb{[6]} r rejects racial categories
+\item \verb{[7]} r rejects 'black' label
+\item \verb{[8]} is married to member of another race
+\item \verb{[9]} white or black chosen over hispanic
+\item \verb{[10]} feelings, not biology matters
+\item \verb{[11]} identifies with other than 'real' race
+\item \verb{[12]} other hispanic complications
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

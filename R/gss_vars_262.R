@@ -2,20 +2,20 @@
 #' 
 #'  neieth10
 #' 
-#' Question Now Iâ€™d like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
+#' Question Now I'd like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` asian
-#'   * `2` black
-#'   * `3` hispanic
-#'   * `4` white
-#'   * `5` doesnt matter-dont care-race not important
-#'   * `6` rural-wants no neighbors
-#'   * `7` mixed race, 2 or more races in 1 hh
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` asian
+#'   * `[2]` black
+#'   * `[3]` hispanic
+#'   * `[4]` white
+#'   * `[5]` doesnt matter-dont care-race not important
+#'   * `[6]` rural-wants no neighbors
+#'   * `[7]` mixed race, 2 or more races in 1 hh
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -45,20 +45,20 @@ NULL
 #' 
 #'  neieth11
 #' 
-#' Question Now Iâ€™d like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
+#' Question Now I'd like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` asian
-#'   * `2` black
-#'   * `3` hispanic
-#'   * `4` white
-#'   * `5` doesnt matter-dont care-race not important
-#'   * `6` rural-wants no neighbors
-#'   * `7` mixed race, 2 or more races in 1 hh
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` asian
+#'   * `[2]` black
+#'   * `[3]` hispanic
+#'   * `[4]` white
+#'   * `[5]` doesnt matter-dont care-race not important
+#'   * `[6]` rural-wants no neighbors
+#'   * `[7]` mixed race, 2 or more races in 1 hh
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -88,20 +88,20 @@ NULL
 #' 
 #'  neieth12
 #' 
-#' Question Now Iâ€™d like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
+#' Question Now I'd like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` asian
-#'   * `2` black
-#'   * `3` hispanic
-#'   * `4` white
-#'   * `5` doesnt matter-dont care-race not important
-#'   * `6` rural-wants no neighbors
-#'   * `7` mixed race, 2 or more races in 1 hh
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` asian
+#'   * `[2]` black
+#'   * `[3]` hispanic
+#'   * `[4]` white
+#'   * `[5]` doesnt matter-dont care-race not important
+#'   * `[6]` rural-wants no neighbors
+#'   * `[7]` mixed race, 2 or more races in 1 hh
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -131,20 +131,20 @@ NULL
 #' 
 #'  neieth13
 #' 
-#' Question Now Iâ€™d like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
+#' Question Now I'd like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` asian
-#'   * `2` black
-#'   * `3` hispanic
-#'   * `4` white
-#'   * `5` doesnt matter-dont care-race not important
-#'   * `6` rural-wants no neighbors
-#'   * `7` mixed race, 2 or more races in 1 hh
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` asian
+#'   * `[2]` black
+#'   * `[3]` hispanic
+#'   * `[4]` white
+#'   * `[5]` doesnt matter-dont care-race not important
+#'   * `[6]` rural-wants no neighbors
+#'   * `[7]` mixed race, 2 or more races in 1 hh
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -174,20 +174,20 @@ NULL
 #' 
 #'  neieth14
 #' 
-#' Question Now Iâ€™d like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
+#' Question Now I'd like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` asian
-#'   * `2` black
-#'   * `3` hispanic
-#'   * `4` white
-#'   * `5` doesnt matter-dont care-race not important
-#'   * `6` rural-wants no neighbors
-#'   * `7` mixed race, 2 or more races in 1 hh
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` asian
+#'   * `[2]` black
+#'   * `[3]` hispanic
+#'   * `[4]` white
+#'   * `[5]` doesnt matter-dont care-race not important
+#'   * `[6]` rural-wants no neighbors
+#'   * `[7]` mixed race, 2 or more races in 1 hh
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -217,21 +217,21 @@ NULL
 #' 
 #'  hswht
 #' 
-#' Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF â€œHIGH SCHOOL.â€ 
-#' IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF â€œTHE LAST SCHOOL YOU ATTENDED.â€
+#' Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF "HIGH SCHOOL.â€ 
+#' IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF "THE LAST SCHOOL YOU ATTENDED.â€
 #' A. Was the high school/last school you attended all white, mostly white, about half white and half other races, mostly other races, or all other races?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` all white
-#'   * `2` mostly white
-#'   * `3` about half white and half other races
-#'   * `4` mostly other races
-#'   * `5` all other races
-#'   * `6` not all white
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` all white
+#'   * `[2]` mostly white
+#'   * `[3]` about half white and half other races
+#'   * `[4]` mostly other races
+#'   * `[5]` all other races
+#'   * `[6]` not all white
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -261,21 +261,21 @@ NULL
 #' 
 #'  hseth
 #' 
-#' Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF â€œHIGH SCHOOL.â€ 
-#' IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF â€œTHE LAST SCHOOL YOU ATTENDED.â€
+#' Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF "HIGH SCHOOL.â€ 
+#' IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF "THE LAST SCHOOL YOU ATTENDED.â€
 #' B. Besides Whites, what was the largest racial group in your high school/the last school you attendedâ€“ Blacks/African Americans, Hispanics, Asians, or American Indians?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` blacks/african-americans
-#'   * `2` hispanics
-#'   * `3` asians
-#'   * `4` american indians
-#'   * `5` all, mixed
-#'   * `6` 2 or more groups
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` blacks/african-americans
+#'   * `[2]` hispanics
+#'   * `[3]` asians
+#'   * `[4]` american indians
+#'   * `[5]` all, mixed
+#'   * `[6]` 2 or more groups
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -309,11 +309,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                    |
@@ -358,11 +358,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -397,11 +397,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                    |

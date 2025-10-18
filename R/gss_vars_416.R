@@ -2,17 +2,17 @@
 #' 
 #'  mhviooth
 #' 
-#' Question A. How likely is it (NAME) would do something violent or harmful toward other people. Is itâ€¦
+#' Question A. How likely is it (NAME) would do something violent or harmful toward other people. Is it…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` not very likely
+#'   * `[4]` not at all likely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -42,17 +42,17 @@ NULL
 #' 
 #'  mhvioslf
 #' 
-#' Question B. How likely is it (NAME) would do something violent or harmful toward (himself/herself). Is itâ€¦
+#' Question B. How likely is it (NAME) would do something violent or harmful toward (himself/herself). Is it…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` not very likely
+#'   * `[4]` not at all likely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -86,14 +86,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` depression
-#'   * `2` asthma
-#'   * `3` schizophrenia
-#'   * `4` stress
-#'   * `5` something else
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` depression
+#'   * `[2]` asthma
+#'   * `[3]` schizophrenia
+#'   * `[4]` stress
+#'   * `[5]` something else
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -127,11 +127,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -166,11 +166,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -207,13 +207,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` extremely close
-#'   * `2` very close
-#'   * `3` not very close
-#'   * `4` not at all close
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` extremely close
+#'   * `[2]` very close
+#'   * `[3]` not very close
+#'   * `[4]` not at all close
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -244,17 +244,17 @@ NULL
 #'  mhseroth
 #' 
 #' Question Let's turn away from (NAME) now. I have a few questions about your general experiences that I would like to ask you. Leaving yourself aside, have you personally ever known someone who has received treatment for a mental health situation? 
-#' B. How serious would you say (his/her) mental health problem was, was itâ€¦
+#' B. How serious would you say (his/her) mental health problem was, was it…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very serious
-#'   * `2` somewhat serious
-#'   * `3` not very serious
-#'   * `4` not at all serious
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very serious
+#'   * `[2]` somewhat serious
+#'   * `[3]` not very serious
+#'   * `[4]` not at all serious
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -285,17 +285,17 @@ NULL
 #'  mhhlpoth
 #' 
 #' Question Let's turn away from (NAME) now. I have a few questions about your general experiences that I would like to ask you. Leaving yourself aside, have you personally ever known someone who has received treatment for a mental health situation? 
-#' C. How much did the treatment help (him/her) with the mental health problem? Did it helpâ€¦
+#' C. How much did the treatment help (him/her) with the mental health problem? Did it help…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal
-#'   * `2` quite a bit
-#'   * `3` a little
-#'   * `4` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal
+#'   * `[2]` quite a bit
+#'   * `[3]` a little
+#'   * `[4]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -326,17 +326,17 @@ NULL
 #'  mhresoth
 #' 
 #' Question Let's turn away from (NAME) now. I have a few questions about your general experiences that I would like to ask you. Leaving yourself aside, have you personally ever known someone who has received treatment for a mental health situation? 
-#' D. How much responsibility did you have for making day-to-day decisions for this person? Would you sayâ€¦
+#' D. How much responsibility did you have for making day-to-day decisions for this person? Would you say…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal
-#'   * `2` quite a bit
-#'   * `3` a little
-#'   * `4` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal
+#'   * `[2]` quite a bit
+#'   * `[3]` a little
+#'   * `[4]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -371,13 +371,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal
-#'   * `2` quite a bit
-#'   * `3` a little
-#'   * `4` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal
+#'   * `[2]` quite a bit
+#'   * `[3]` a little
+#'   * `[4]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

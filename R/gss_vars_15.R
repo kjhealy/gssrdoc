@@ -7,14 +7,14 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` none
-#'   * `1` one
-#'   * `2` two
-#'   * `3` three
-#'   * `4` four
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` none
+#'   * `[1]` one
+#'   * `[2]` two
+#'   * `[3]` three
+#'   * `[4]` four
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                        |
@@ -78,10 +78,9 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * 
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                  |
@@ -151,11 +150,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` 0 household members under 6
-#'   * `8` 8 or more
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` 0 household members under 6
+#'   * `[8]` 8 or more
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                  |
@@ -225,11 +224,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` 0 household members between 6 to 12
-#'   * `8` 8 or more
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` 0 household members between 6 to 12
+#'   * `[8]` 8 or more
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                  |
@@ -299,11 +298,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` 0 household members between 13 to 17
-#'   * `8` 8 or more
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` 0 household members between 13 to 17
+#'   * `[8]` 8 or more
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                  |
@@ -373,11 +372,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 1 adult in household
-#'   * `8` 8 or more
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 1 adult in household
+#'   * `[8]` 8 or more
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                            |
@@ -447,10 +446,10 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `8` 8 or more
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[8]` 8 or more
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                  |
@@ -519,10 +518,10 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `3` 3 or more
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[3]` 3 or more
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                            |
@@ -591,21 +590,21 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` under $1,000
-#'   * `2` $1,000 to $2,999
-#'   * `3` $3,000 to $3,999
-#'   * `4` $4,000 to $4,999
-#'   * `5` $5,000 to $5,999
-#'   * `6` $6,000 to $6,999
-#'   * `7` $7,000 to $7,999
-#'   * `8` $8,000 to $9,999
-#'   * `9` $10,000 to $14,999
-#'   * `10` $15,000 to $19,999
-#'   * `11` $20,000 to $24,999
-#'   * `12` $25,000 or more
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` under $1,000
+#'   * `[2]` $1,000 to $2,999
+#'   * `[3]` $3,000 to $3,999
+#'   * `[4]` $4,000 to $4,999
+#'   * `[5]` $5,000 to $5,999
+#'   * `[6]` $6,000 to $6,999
+#'   * `[7]` $7,000 to $7,999
+#'   * `[8]` $8,000 to $9,999
+#'   * `[9]` $10,000 to $14,999
+#'   * `[10]` $15,000 to $19,999
+#'   * `[11]` $20,000 to $24,999
+#'   * `[12]` $25,000 or more
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                  |
@@ -676,21 +675,21 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` under $1,000
-#'   * `2` $1,000 to $2,999
-#'   * `3` $3,000 to $3,999
-#'   * `4` $4,000 to $4,999
-#'   * `5` $5,000 to $5,999
-#'   * `6` $6,000 to $6,999
-#'   * `7` $7,000 to $7,999
-#'   * `8` $8,000 to $9,999
-#'   * `9` $10,000 to $14,999
-#'   * `10` $15,000 to $19,999
-#'   * `11` $20,000 to $24,999
-#'   * `12` $25,000 or more
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` under $1,000
+#'   * `[2]` $1,000 to $2,999
+#'   * `[3]` $3,000 to $3,999
+#'   * `[4]` $4,000 to $4,999
+#'   * `[5]` $5,000 to $5,999
+#'   * `[6]` $6,000 to $6,999
+#'   * `[7]` $7,000 to $7,999
+#'   * `[8]` $8,000 to $9,999
+#'   * `[9]` $10,000 to $14,999
+#'   * `[10]` $15,000 to $19,999
+#'   * `[11]` $20,000 to $24,999
+#'   * `[12]` $25,000 or more
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                  |

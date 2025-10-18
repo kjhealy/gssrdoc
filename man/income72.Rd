@@ -15,19 +15,19 @@ Question In which of these groups did your total family income, from all sources
 \section{Values}{
 
 \itemize{
-\item \code{1} lt $2000
-\item \code{2} $2000 to $3999
-\item \code{3} $4000 to $5999
-\item \code{4} $6000 to $7999
-\item \code{5} $8000 to $9999
-\item \code{6} $10000 to $12499
-\item \code{7} $12500 to $14999
-\item \code{8} $15000 to $17499
-\item \code{9} $17500 to $19999
-\item \code{10} $20000 to $24999
-\item \code{11} $25000 to $29999
-\item \code{12} $30000+
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} lt $2000
+\item \verb{[2]} $2000 to $3999
+\item \verb{[3]} $4000 to $5999
+\item \verb{[4]} $6000 to $7999
+\item \verb{[5]} $8000 to $9999
+\item \verb{[6]} $10000 to $12499
+\item \verb{[7]} $12500 to $14999
+\item \verb{[8]} $15000 to $17499
+\item \verb{[9]} $17500 to $19999
+\item \verb{[10]} $20000 to $24999
+\item \verb{[11]} $25000 to $29999
+\item \verb{[12]} $30000+
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

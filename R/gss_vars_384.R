@@ -2,17 +2,17 @@
 #' 
 #'  genes
 #' 
-#' Question Traits are transferred from generation to generation through theâ€¦
+#' Question Traits are transferred from generation to generation through the…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` sperm only
-#'   * `2` egg only
-#'   * `3` sperm and egg
-#'   * `4` testes
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` sperm only
+#'   * `[2]` egg only
+#'   * `[3]` sperm and egg
+#'   * `[4]` testes
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -46,13 +46,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` they take in water and break it down into hydrogen and oxygen
-#'   * `2` using their gills, they take in oxygen that is dissolved in water
-#'   * `3` they get their oxygen from the food they eat
-#'   * `4` they come to the surface every few minutes to breathe air into their lungs
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` they take in water and break it down into hydrogen and oxygen
+#'   * `[2]` using their gills, they take in oxygen that is dissolved in water
+#'   * `[3]` they get their oxygen from the food they eat
+#'   * `[4]` they come to the surface every few minutes to breathe air into their lungs
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -86,14 +86,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a slower pulse rate
-#'   * `2` a greater gravitational force on the body
-#'   * `3` a lower percent of oxygen in the blood
-#'   * `4` a faster heartbeat
-#'   * `5` a slower circulation of blood
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a slower pulse rate
+#'   * `[2]` a greater gravitational force on the body
+#'   * `[3]` a lower percent of oxygen in the blood
+#'   * `[4]` a faster heartbeat
+#'   * `[5]` a slower circulation of blood
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -127,14 +127,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 2 a.m. to 4 a.m.
-#'   * `2` 8 a.m. to 10 a.m.
-#'   * `3` 12 p.m. to 2 p.m.
-#'   * `4` 2 p.m. to 4 p.m.
-#'   * `5` 8 p.m. to 10 p.m.
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 2 a.m. to 4 a.m.
+#'   * `[2]` 8 a.m. to 10 a.m.
+#'   * `[3]` 12 p.m. to 2 p.m.
+#'   * `[4]` 2 p.m. to 4 p.m.
+#'   * `[5]` 8 p.m. to 10 p.m.
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -168,14 +168,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` ask the teacher to weigh the leaf
-#'   * `2` report the first measurement
-#'   * `3` average all of the weights that were recorded
-#'   * `4` average the highest and lowest weights recorded
-#'   * `5` discard the lowest five weights
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` ask the teacher to weigh the leaf
+#'   * `[2]` report the first measurement
+#'   * `[3]` average all of the weights that were recorded
+#'   * `[4]` average the highest and lowest weights recorded
+#'   * `[5]` discard the lowest five weights
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -209,14 +209,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` sunlight. sand and water
-#'   * `2` dark cupboard. sand, soil, and water
-#'   * `3` dark cupboard. soil and water
-#'   * `4` sunlight. sand and soil
-#'   * `5` sunlight. soil and water
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` sunlight. sand and water
+#'   * `[2]` dark cupboard. sand, soil, and water
+#'   * `[3]` dark cupboard. soil and water
+#'   * `[4]` sunlight. sand and soil
+#'   * `[5]` sunlight. soil and water
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -250,13 +250,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` if the number of fish in the fish bowl affects the behavior of the fish
-#'   * `2` if the temperature of the fish bowl affects the behavior of the fish
-#'   * `3` if the temperature and the amount of light affect the behavior of the fish
-#'   * `4` if the number of fish, the temperature, and the amount of light affect the behavior of the fish
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` if the number of fish in the fish bowl affects the behavior of the fish
+#'   * `[2]` if the temperature of the fish bowl affects the behavior of the fish
+#'   * `[3]` if the temperature and the amount of light affect the behavior of the fish
+#'   * `[4]` if the number of fish, the temperature, and the amount of light affect the behavior of the fish
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -290,13 +290,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` because i already know what affects the behavior of fish
-#'   * `2` because that is what is allowed to change in this experiment
-#'   * `3` because that is what stays the same in this experiment
-#'   * `4` because that is what the scientist decided to include in this experiment
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` because i already know what affects the behavior of fish
+#'   * `[2]` because that is what is allowed to change in this experiment
+#'   * `[3]` because that is what stays the same in this experiment
+#'   * `[4]` because that is what the scientist decided to include in this experiment
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -330,14 +330,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` strongly favor
-#'   * `2` favor
-#'   * `3` neither favor nor oppose
-#'   * `4` oppose
-#'   * `5` strongly oppose
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` strongly favor
+#'   * `[2]` favor
+#'   * `[3]` neither favor nor oppose
+#'   * `[4]` oppose
+#'   * `[5]` strongly oppose
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -367,16 +367,16 @@ NULL
 #' 
 #'  polnuke
 #' 
-#' Question Hereâ€™s another public issue: nuclear power. Nuclear power uses the energy of the atom to generate electricity. some people say that nuclear power is a safe option to meet the energy needs of the United States without burning fossil fuels such as coal, oil, or natural gas. Others are concerned about potential risks in the operation of nuclear plants and about the disposal of nuclear waste. Please look at Card E13. (On a scale of 1 to 5, where 1 means "Very Well" and 5 means  Not At All), how well do the following groups understand the likely effects of using nuclear power to generate electricity?
+#' Question Here's another public issue: nuclear power. Nuclear power uses the energy of the atom to generate electricity. some people say that nuclear power is a safe option to meet the energy needs of the United States without burning fossil fuels such as coal, oil, or natural gas. Others are concerned about potential risks in the operation of nuclear plants and about the disposal of nuclear waste. Please look at Card E13. (On a scale of 1 to 5, where 1 means "Very Well" and 5 means  Not At All), how well do the following groups understand the likely effects of using nuclear power to generate electricity?
 #' A. Elected officials (How well elected officials know risk by nuclear power?)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very well
-#'   * `5` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very well
+#'   * `[5]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

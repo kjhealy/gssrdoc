@@ -6,31 +6,31 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` white
-#'   * `2` black
-#'   * `3` other
-#'   * `4` hispanic
-#'   * `5` black and white
-#'   * `6` spanish
-#'   * `7` filipino
-#'   * `8` american indian
-#'   * `9` asian
-#'   * `10` yellow
-#'   * `11` mexican
-#'   * `12` brown
-#'   * `13` latino
-#'   * `14` middle eastern
-#'   * `15` puerto rican
-#'   * `16` indian
-#'   * `17` alaska native
-#'   * `18` pacific islander
-#'   * `19` cuban
-#'   * `20` japanese
-#'   * `21` oriental
-#'   * `22` trinidad
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` white
+#'   * `[2]` black
+#'   * `[3]` other
+#'   * `[4]` hispanic
+#'   * `[5]` black and white
+#'   * `[6]` spanish
+#'   * `[7]` filipino
+#'   * `[8]` american indian
+#'   * `[9]` asian
+#'   * `[10]` yellow
+#'   * `[11]` mexican
+#'   * `[12]` brown
+#'   * `[13]` latino
+#'   * `[14]` middle eastern
+#'   * `[15]` puerto rican
+#'   * `[16]` indian
+#'   * `[17]` alaska native
+#'   * `[18]` pacific islander
+#'   * `[19]` cuban
+#'   * `[20]` japanese
+#'   * `[21]` oriental
+#'   * `[22]` trinidad
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -65,13 +65,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` no doubt
-#'   * `2` some doubt, pretty sure
-#'   * `3` a lot of doubt, pretty unsure
-#'   * `4` completely unsure
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` no doubt
+#'   * `[2]` some doubt, pretty sure
+#'   * `[3]` a lot of doubt, pretty unsure
+#'   * `[4]` completely unsure
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -106,12 +106,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` white
-#'   * `2` black
-#'   * `3` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` white
+#'   * `[2]` black
+#'   * `[3]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -154,14 +154,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` not hispanic
-#'   * `2` mexican, mexican american, chicano/a
-#'   * `3` puerto rican
-#'   * `4` cuban
-#'   * `5` another hispanic, latino, or spanish origin
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` not hispanic
+#'   * `[2]` mexican, mexican american, chicano/a
+#'   * `[3]` puerto rican
+#'   * `[4]` cuban
+#'   * `[5]` another hispanic, latino, or spanish origin
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                            |
@@ -208,15 +208,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` white
-#'   * `2` black or african american
-#'   * `3` american indian or alaska native
-#'   * `4` asian
-#'   * `5` native hawaiian or other pacific islander
-#'   * `6` some other race
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` white
+#'   * `[2]` black or african american
+#'   * `[3]` american indian or alaska native
+#'   * `[4]` asian
+#'   * `[5]` native hawaiian or other pacific islander
+#'   * `[6]` some other race
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                  |
@@ -263,15 +263,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` white
-#'   * `2` black or african american
-#'   * `3` american indian or alaska native
-#'   * `4` asian
-#'   * `5` native hawaiian or other pacific islander
-#'   * `6` some other race
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` white
+#'   * `[2]` black or african american
+#'   * `[3]` american indian or alaska native
+#'   * `[4]` asian
+#'   * `[5]` native hawaiian or other pacific islander
+#'   * `[6]` some other race
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                  |
@@ -318,15 +318,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` white
-#'   * `2` black or african american
-#'   * `3` american indian or alaska native
-#'   * `4` asian
-#'   * `5` native hawaiian or other pacific islander
-#'   * `6` some other race
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` white
+#'   * `[2]` black or african american
+#'   * `[3]` american indian or alaska native
+#'   * `[4]` asian
+#'   * `[5]` native hawaiian or other pacific islander
+#'   * `[6]` some other race
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                            |
@@ -374,21 +374,21 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` r not serious
-#'   * `2` hispanic chosen over white
-#'   * `3` hispanic chosen over black
-#'   * `4` physically doesn't match race
-#'   * `5` racially mixed
-#'   * `6` r rejects racial categories
-#'   * `7` r rejects 'black' label
-#'   * `8` is married to member of another race
-#'   * `9` white or black chosen over hispanic
-#'   * `10` feelings, not biology matters
-#'   * `11` identifies with other than 'real' race
-#'   * `12` other hispanic complications
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` r not serious
+#'   * `[2]` hispanic chosen over white
+#'   * `[3]` hispanic chosen over black
+#'   * `[4]` physically doesn't match race
+#'   * `[5]` racially mixed
+#'   * `[6]` r rejects racial categories
+#'   * `[7]` r rejects 'black' label
+#'   * `[8]` is married to member of another race
+#'   * `[9]` white or black chosen over hispanic
+#'   * `[10]` feelings, not biology matters
+#'   * `[11]` identifies with other than 'real' race
+#'   * `[12]` other hispanic complications
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -423,21 +423,21 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` r not serious
-#'   * `2` hispanic chosen over white
-#'   * `3` hispanic chosen over black
-#'   * `4` physically doesn't match race
-#'   * `5` racially mixed
-#'   * `6` r rejects racial categories
-#'   * `7` r rejects 'black' label
-#'   * `8` is married to member of another race
-#'   * `9` white or black chosen over hispanic
-#'   * `10` feelings, not biology matters
-#'   * `11` identifies with other than 'real' race
-#'   * `12` other hispanic complications
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` r not serious
+#'   * `[2]` hispanic chosen over white
+#'   * `[3]` hispanic chosen over black
+#'   * `[4]` physically doesn't match race
+#'   * `[5]` racially mixed
+#'   * `[6]` r rejects racial categories
+#'   * `[7]` r rejects 'black' label
+#'   * `[8]` is married to member of another race
+#'   * `[9]` white or black chosen over hispanic
+#'   * `[10]` feelings, not biology matters
+#'   * `[11]` identifies with other than 'real' race
+#'   * `[12]` other hispanic complications
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -472,21 +472,21 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` r not serious
-#'   * `2` hispanic chosen over white
-#'   * `3` hispanic chosen over black
-#'   * `4` physically doesn't match race
-#'   * `5` racially mixed
-#'   * `6` r rejects racial categories
-#'   * `7` r rejects 'black' label
-#'   * `8` is married to member of another race
-#'   * `9` white or black chosen over hispanic
-#'   * `10` feelings, not biology matters
-#'   * `11` identifies with other than 'real' race
-#'   * `12` other hispanic complications
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` r not serious
+#'   * `[2]` hispanic chosen over white
+#'   * `[3]` hispanic chosen over black
+#'   * `[4]` physically doesn't match race
+#'   * `[5]` racially mixed
+#'   * `[6]` r rejects racial categories
+#'   * `[7]` r rejects 'black' label
+#'   * `[8]` is married to member of another race
+#'   * `[9]` white or black chosen over hispanic
+#'   * `[10]` feelings, not biology matters
+#'   * `[11]` identifies with other than 'real' race
+#'   * `[12]` other hispanic complications
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

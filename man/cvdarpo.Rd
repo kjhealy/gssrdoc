@@ -10,18 +10,18 @@ General Social Survey https://gss.norc.org
 cvdarpo
 }
 \details{
-Question (Compared to the first year of the COVID-19 pandemic (March 2020 to March 2021), are you now...) watching or listening to archived web events featuring poetry, book-readings, or storytelling more often, at the same rate, less often, or are you not watching or listening to archived poetry, book-readings, or storytelling at all? This may have included video or audio clips on, for example, YouTube, an organizationâ€™s website, or on a social media platform.
+Question (Compared to the first year of the COVID-19 pandemic (March 2020 to March 2021), are you now...) watching or listening to archived web events featuring poetry, book-readings, or storytelling more often, at the same rate, less often, or are you not watching or listening to archived poetry, book-readings, or storytelling at all? This may have included video or audio clips on, for example, YouTube, an organization's website, or on a social media platform.
 
 NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} more often
-\item \code{2} at the same rate
-\item \code{3} less often
-\item \code{4} r not attending these activities
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} more often
+\item \verb{[2]} at the same rate
+\item \verb{[3]} less often
+\item \verb{[4]} r not attending these activities
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

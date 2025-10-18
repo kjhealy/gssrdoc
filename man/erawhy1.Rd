@@ -12,14 +12,13 @@ erawhy1
 \details{
 Question Why do you (favor/oppose) the Equal Rights Amendment?
 PROBE EACH RESPONSE FOR CLARITY AND PROBE FOR ADDITIONAL REASONS.
-IF â€œNO OPINIONâ€ TO   ERAREAD PROBE:  Why is that - why do you have no opinion on the Equal Rights Amendment?
+IF "NO OPINIONâ€ TO   ERAREAD PROBE:  Why is that - why do you have no opinion on the Equal Rights Amendment?
 A. First Reason
 }
 \section{Values}{
 
 \itemize{
-\item 
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

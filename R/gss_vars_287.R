@@ -7,11 +7,11 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -46,11 +46,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -85,11 +85,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -124,11 +124,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -162,11 +162,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -200,29 +200,29 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` youtube
-#'   * `2` myspace
-#'   * `3` reddit
-#'   * `4` viber
-#'   * `5` line
-#'   * `6` plenty of fish
-#'   * `7` kik
-#'   * `8` ravelry
-#'   * `9` wechat
-#'   * `11` imo
-#'   * `12` online dating sites
-#'   * `13` spotify
-#'   * `14` groupme
-#'   * `15` tinder
-#'   * `16` hangouts
-#'   * `17` researchgate
-#'   * `18` online gaming
-#'   * `19` yahoo
-#'   * `30` other social networks
-#'   * `40` not a social network
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` youtube
+#'   * `[2]` myspace
+#'   * `[3]` reddit
+#'   * `[4]` viber
+#'   * `[5]` line
+#'   * `[6]` plenty of fish
+#'   * `[7]` kik
+#'   * `[8]` ravelry
+#'   * `[9]` wechat
+#'   * `[11]` imo
+#'   * `[12]` online dating sites
+#'   * `[13]` spotify
+#'   * `[14]` groupme
+#'   * `[15]` tinder
+#'   * `[16]` hangouts
+#'   * `[17]` researchgate
+#'   * `[18]` online gaming
+#'   * `[19]` yahoo
+#'   * `[30]` other social networks
+#'   * `[40]` not a social network
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -256,29 +256,29 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` youtube
-#'   * `2` myspace
-#'   * `3` reddit
-#'   * `4` viber
-#'   * `5` line
-#'   * `6` plenty of fish
-#'   * `7` kik
-#'   * `8` ravelry
-#'   * `9` wechat
-#'   * `11` imo
-#'   * `12` online dating sites
-#'   * `13` spotify
-#'   * `14` groupme
-#'   * `15` tinder
-#'   * `16` hangouts
-#'   * `17` researchgate
-#'   * `18` online gaming
-#'   * `19` yahoo
-#'   * `30` other social networks
-#'   * `40` not a social network
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` youtube
+#'   * `[2]` myspace
+#'   * `[3]` reddit
+#'   * `[4]` viber
+#'   * `[5]` line
+#'   * `[6]` plenty of fish
+#'   * `[7]` kik
+#'   * `[8]` ravelry
+#'   * `[9]` wechat
+#'   * `[11]` imo
+#'   * `[12]` online dating sites
+#'   * `[13]` spotify
+#'   * `[14]` groupme
+#'   * `[15]` tinder
+#'   * `[16]` hangouts
+#'   * `[17]` researchgate
+#'   * `[18]` online gaming
+#'   * `[19]` yahoo
+#'   * `[30]` other social networks
+#'   * `[40]` not a social network
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -312,29 +312,29 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` youtube
-#'   * `2` myspace
-#'   * `3` reddit
-#'   * `4` viber
-#'   * `5` line
-#'   * `6` plenty of fish
-#'   * `7` kik
-#'   * `8` ravelry
-#'   * `9` wechat
-#'   * `11` imo
-#'   * `12` online dating sites
-#'   * `13` spotify
-#'   * `14` groupme
-#'   * `15` tinder
-#'   * `16` hangouts
-#'   * `17` researchgate
-#'   * `18` online gaming
-#'   * `19` yahoo
-#'   * `30` other social networks
-#'   * `40` not a social network
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` youtube
+#'   * `[2]` myspace
+#'   * `[3]` reddit
+#'   * `[4]` viber
+#'   * `[5]` line
+#'   * `[6]` plenty of fish
+#'   * `[7]` kik
+#'   * `[8]` ravelry
+#'   * `[9]` wechat
+#'   * `[11]` imo
+#'   * `[12]` online dating sites
+#'   * `[13]` spotify
+#'   * `[14]` groupme
+#'   * `[15]` tinder
+#'   * `[16]` hangouts
+#'   * `[17]` researchgate
+#'   * `[18]` online gaming
+#'   * `[19]` yahoo
+#'   * `[30]` other social networks
+#'   * `[40]` not a social network
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -369,41 +369,41 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` twitter
-#'   * `2` facebook
-#'   * `3` instagram
-#'   * `4` linkedin
-#'   * `5` snapchat
-#'   * `6` tumblr
-#'   * `7` whatsapp
-#'   * `8` google+
-#'   * `9` pinterest
-#'   * `10` flickr
-#'   * `11` vine
-#'   * `12` classmates
-#'   * `13` youtube
-#'   * `14` myspace
-#'   * `15` reddit
-#'   * `16` viber
-#'   * `17` line
-#'   * `18` plenty of fish
-#'   * `19` kik
-#'   * `20` ravelry
-#'   * `22` wechat
-#'   * `23` imo
-#'   * `24` online dating sites
-#'   * `25` spotify
-#'   * `26` groupme
-#'   * `27` tinder
-#'   * `28` hangouts
-#'   * `29` researchgate
-#'   * `30` online gaming
-#'   * `31` yahoo
-#'   * `32` other social networks
-#'   * `33` not a social network
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` twitter
+#'   * `[2]` facebook
+#'   * `[3]` instagram
+#'   * `[4]` linkedin
+#'   * `[5]` snapchat
+#'   * `[6]` tumblr
+#'   * `[7]` whatsapp
+#'   * `[8]` google+
+#'   * `[9]` pinterest
+#'   * `[10]` flickr
+#'   * `[11]` vine
+#'   * `[12]` classmates
+#'   * `[13]` youtube
+#'   * `[14]` myspace
+#'   * `[15]` reddit
+#'   * `[16]` viber
+#'   * `[17]` line
+#'   * `[18]` plenty of fish
+#'   * `[19]` kik
+#'   * `[20]` ravelry
+#'   * `[22]` wechat
+#'   * `[23]` imo
+#'   * `[24]` online dating sites
+#'   * `[25]` spotify
+#'   * `[26]` groupme
+#'   * `[27]` tinder
+#'   * `[28]` hangouts
+#'   * `[29]` researchgate
+#'   * `[30]` online gaming
+#'   * `[31]` yahoo
+#'   * `[32]` other social networks
+#'   * `[33]` not a social network
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -437,10 +437,9 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * 
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

@@ -15,28 +15,28 @@ Question RESPONDENT'S SPOUSE'S EDUCATION
 \section{Values}{
 
 \itemize{
-\item \code{0} no formal schooling
-\item \code{1} 1st grade
-\item \code{2} 2nd grade
-\item \code{3} 3rd grade
-\item \code{4} 4th grade
-\item \code{5} 5th grade
-\item \code{6} 6th grade
-\item \code{7} 7th grade
-\item \code{8} 8th grade
-\item \code{9} 9th grade
-\item \code{10} 10th grade
-\item \code{11} 11th grade
-\item \code{12} 12th grade
-\item \code{13} 1 year of college
-\item \code{14} 2 years of college
-\item \code{15} 3 years of college
-\item \code{16} 4 years of college
-\item \code{17} 5 years of college
-\item \code{18} 6 years of college
-\item \code{19} 7 years of college
-\item \code{20} 8 or more years of college
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[0]} no formal schooling
+\item \verb{[1]} 1st grade
+\item \verb{[2]} 2nd grade
+\item \verb{[3]} 3rd grade
+\item \verb{[4]} 4th grade
+\item \verb{[5]} 5th grade
+\item \verb{[6]} 6th grade
+\item \verb{[7]} 7th grade
+\item \verb{[8]} 8th grade
+\item \verb{[9]} 9th grade
+\item \verb{[10]} 10th grade
+\item \verb{[11]} 11th grade
+\item \verb{[12]} 12th grade
+\item \verb{[13]} 1 year of college
+\item \verb{[14]} 2 years of college
+\item \verb{[15]} 3 years of college
+\item \verb{[16]} 4 years of college
+\item \verb{[17]} 5 years of college
+\item \verb{[18]} 6 years of college
+\item \verb{[19]} 7 years of college
+\item \verb{[20]} 8 or more years of college
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

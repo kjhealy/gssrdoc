@@ -6,59 +6,59 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` usa
-#'   * `2` antigua
-#'   * `3` trinidad
-#'   * `4` jamaica
-#'   * `5` pakistan
-#'   * `6` turkey
-#'   * `7` italy
-#'   * `8` west indies
-#'   * `9` colombia
-#'   * `10` kazakhstan
-#'   * `12` cuba
-#'   * `13` india
-#'   * `14` germany
-#'   * `15` ecuador
-#'   * `16` mexico
-#'   * `17` portugal
-#'   * `18` el salvador
-#'   * `19` canada
-#'   * `20` guatemala
-#'   * `21` zimbabwe
-#'   * `23` taiwan
-#'   * `24` philippines
-#'   * `25` israel
-#'   * `26` dominican republic
-#'   * `27` scotland
-#'   * `28` haiti
-#'   * `29` honduras
-#'   * `30` puerto rico
-#'   * `31` austraila
-#'   * `32` china
-#'   * `33` poland
-#'   * `34` lithuania
-#'   * `35` liberia
-#'   * `36` brazil
-#'   * `37` morocco
-#'   * `38` spain
-#'   * `39` bulgeria
-#'   * `40` ussr
-#'   * `41` kuwait
-#'   * `42` japan
-#'   * `43` korea
-#'   * `44` vietnam
-#'   * `45` bermuda
-#'   * `46` ghana
-#'   * `47` panama
-#'   * `48` france
-#'   * `49` romania
-#'   * `50` south africa
-#'   * `51` england
-#'   * `52` britain
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` usa
+#'   * `[2]` antigua
+#'   * `[3]` trinidad
+#'   * `[4]` jamaica
+#'   * `[5]` pakistan
+#'   * `[6]` turkey
+#'   * `[7]` italy
+#'   * `[8]` west indies
+#'   * `[9]` colombia
+#'   * `[10]` kazakhstan
+#'   * `[12]` cuba
+#'   * `[13]` india
+#'   * `[14]` germany
+#'   * `[15]` ecuador
+#'   * `[16]` mexico
+#'   * `[17]` portugal
+#'   * `[18]` el salvador
+#'   * `[19]` canada
+#'   * `[20]` guatemala
+#'   * `[21]` zimbabwe
+#'   * `[23]` taiwan
+#'   * `[24]` philippines
+#'   * `[25]` israel
+#'   * `[26]` dominican republic
+#'   * `[27]` scotland
+#'   * `[28]` haiti
+#'   * `[29]` honduras
+#'   * `[30]` puerto rico
+#'   * `[31]` austraila
+#'   * `[32]` china
+#'   * `[33]` poland
+#'   * `[34]` lithuania
+#'   * `[35]` liberia
+#'   * `[36]` brazil
+#'   * `[37]` morocco
+#'   * `[38]` spain
+#'   * `[39]` bulgeria
+#'   * `[40]` ussr
+#'   * `[41]` kuwait
+#'   * `[42]` japan
+#'   * `[43]` korea
+#'   * `[44]` vietnam
+#'   * `[45]` bermuda
+#'   * `[46]` ghana
+#'   * `[47]` panama
+#'   * `[48]` france
+#'   * `[49]` romania
+#'   * `[50]` south africa
+#'   * `[51]` england
+#'   * `[52]` britain
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -92,10 +92,10 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `96` have not permanently moved to us
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[96]` have not permanently moved to us
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -129,11 +129,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -167,14 +167,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` h1b
-#'   * `2` l1
-#'   * `3` student
-#'   * `4` tourist
-#'   * `5` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` h1b
+#'   * `[2]` l1
+#'   * `[3]` student
+#'   * `[4]` tourist
+#'   * `[5]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -208,59 +208,59 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` usa
-#'   * `2` antigua
-#'   * `3` trinidad
-#'   * `4` jamaica
-#'   * `5` pakistan
-#'   * `6` turkey
-#'   * `7` italy
-#'   * `8` west indies
-#'   * `9` colombia
-#'   * `10` kazakhstan
-#'   * `12` cuba
-#'   * `13` india
-#'   * `14` germany
-#'   * `15` ecuador
-#'   * `16` mexico
-#'   * `17` portugal
-#'   * `18` el salvador
-#'   * `19` canada
-#'   * `20` guatemala
-#'   * `21` zimbabwe
-#'   * `23` taiwan
-#'   * `24` philippines
-#'   * `25` israel
-#'   * `26` dominican republic
-#'   * `27` scotland
-#'   * `28` haiti
-#'   * `29` honduras
-#'   * `30` puerto rico
-#'   * `31` austraila
-#'   * `32` china
-#'   * `33` poland
-#'   * `34` lithuania
-#'   * `35` liberia
-#'   * `36` brazil
-#'   * `37` morocco
-#'   * `38` spain
-#'   * `39` bulgeria
-#'   * `40` ussr
-#'   * `41` kuwait
-#'   * `42` japan
-#'   * `43` korea
-#'   * `44` vietnam
-#'   * `45` bermuda
-#'   * `46` ghana
-#'   * `47` panama
-#'   * `48` france
-#'   * `49` romania
-#'   * `50` south africa
-#'   * `51` england
-#'   * `52` britain
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` usa
+#'   * `[2]` antigua
+#'   * `[3]` trinidad
+#'   * `[4]` jamaica
+#'   * `[5]` pakistan
+#'   * `[6]` turkey
+#'   * `[7]` italy
+#'   * `[8]` west indies
+#'   * `[9]` colombia
+#'   * `[10]` kazakhstan
+#'   * `[12]` cuba
+#'   * `[13]` india
+#'   * `[14]` germany
+#'   * `[15]` ecuador
+#'   * `[16]` mexico
+#'   * `[17]` portugal
+#'   * `[18]` el salvador
+#'   * `[19]` canada
+#'   * `[20]` guatemala
+#'   * `[21]` zimbabwe
+#'   * `[23]` taiwan
+#'   * `[24]` philippines
+#'   * `[25]` israel
+#'   * `[26]` dominican republic
+#'   * `[27]` scotland
+#'   * `[28]` haiti
+#'   * `[29]` honduras
+#'   * `[30]` puerto rico
+#'   * `[31]` austraila
+#'   * `[32]` china
+#'   * `[33]` poland
+#'   * `[34]` lithuania
+#'   * `[35]` liberia
+#'   * `[36]` brazil
+#'   * `[37]` morocco
+#'   * `[38]` spain
+#'   * `[39]` bulgeria
+#'   * `[40]` ussr
+#'   * `[41]` kuwait
+#'   * `[42]` japan
+#'   * `[43]` korea
+#'   * `[44]` vietnam
+#'   * `[45]` bermuda
+#'   * `[46]` ghana
+#'   * `[47]` panama
+#'   * `[48]` france
+#'   * `[49]` romania
+#'   * `[50]` south africa
+#'   * `[51]` england
+#'   * `[52]` britain
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -294,11 +294,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -332,47 +332,47 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` aetna
-#'   * `2` anthem/wellpoint
-#'   * `3` blue cross/blue shield
-#'   * `4` blue cross
-#'   * `5` blue shield
-#'   * `6` cigna
-#'   * `7` covington
-#'   * `8` harvard pilgrim
-#'   * `9` humana
-#'   * `10` kaiser permanente
-#'   * `11` tufts
-#'   * `12` united
-#'   * `13` wellpoint
-#'   * `14` oxford
-#'   * `15` healthnet
-#'   * `16` united health care
-#'   * `17` health partners
-#'   * `18` great west
-#'   * `19` unicare
-#'   * `20` medcost
-#'   * `21` pacific care
-#'   * `22` fallon hmo
-#'   * `23` arise
-#'   * `24` medical mutual of ohio
-#'   * `25` florida health care
-#'   * `26` hawaiian medical system association
-#'   * `27` coventry
-#'   * `28` winhealth
-#'   * `29` health choice
-#'   * `30` preferred care
-#'   * `31` mvp
-#'   * `32` first health
-#'   * `33` umr
-#'   * `34` affinity health care
-#'   * `35` priority health
-#'   * `36` ghi
-#'   * `87` christian brothers employee benefit trust
-#'   * `89` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` aetna
+#'   * `[2]` anthem/wellpoint
+#'   * `[3]` blue cross/blue shield
+#'   * `[4]` blue cross
+#'   * `[5]` blue shield
+#'   * `[6]` cigna
+#'   * `[7]` covington
+#'   * `[8]` harvard pilgrim
+#'   * `[9]` humana
+#'   * `[10]` kaiser permanente
+#'   * `[11]` tufts
+#'   * `[12]` united
+#'   * `[13]` wellpoint
+#'   * `[14]` oxford
+#'   * `[15]` healthnet
+#'   * `[16]` united health care
+#'   * `[17]` health partners
+#'   * `[18]` great west
+#'   * `[19]` unicare
+#'   * `[20]` medcost
+#'   * `[21]` pacific care
+#'   * `[22]` fallon hmo
+#'   * `[23]` arise
+#'   * `[24]` medical mutual of ohio
+#'   * `[25]` florida health care
+#'   * `[26]` hawaiian medical system association
+#'   * `[27]` coventry
+#'   * `[28]` winhealth
+#'   * `[29]` health choice
+#'   * `[30]` preferred care
+#'   * `[31]` mvp
+#'   * `[32]` first health
+#'   * `[33]` umr
+#'   * `[34]` affinity health care
+#'   * `[35]` priority health
+#'   * `[36]` ghi
+#'   * `[87]` christian brothers employee benefit trust
+#'   * `[89]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -406,11 +406,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes, another name
-#'   * `2` no other name
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes, another name
+#'   * `[2]` no other name
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -444,15 +444,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` only men
-#'   * `2` some women, but mostly men
-#'   * `3` equally men and women
-#'   * `4` some men, but mostly women
-#'   * `5` only women
-#'   * `6` i have not had any sex partners
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` only men
+#'   * `[2]` some women, but mostly men
+#'   * `[3]` equally men and women
+#'   * `[4]` some men, but mostly women
+#'   * `[5]` only women
+#'   * `[6]` i have not had any sex partners
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -487,18 +487,18 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` under age 14
-#'   * `2` age 14-18
-#'   * `3` age 18-25
-#'   * `4` age 26-35
-#'   * `5` age 36-45
-#'   * `6` age 46-55
-#'   * `7` age 56-65
-#'   * `8` age 66 or older
-#'   * `9` i have never told anyone
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` under age 14
+#'   * `[2]` age 14-18
+#'   * `[3]` age 18-25
+#'   * `[4]` age 26-35
+#'   * `[5]` age 36-45
+#'   * `[6]` age 46-55
+#'   * `[7]` age 56-65
+#'   * `[8]` age 66 or older
+#'   * `[9]` i have never told anyone
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

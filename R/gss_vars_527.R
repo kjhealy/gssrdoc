@@ -6,18 +6,18 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` health care
-#'   * `2` education
-#'   * `3` crime
-#'   * `4` the environment
-#'   * `5` immigration
-#'   * `6` the economy
-#'   * `7` terrorism
-#'   * `8` poverty
-#'   * `9` none of these
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` health care
+#'   * `[2]` education
+#'   * `[3]` crime
+#'   * `[4]` the environment
+#'   * `[5]` immigration
+#'   * `[6]` the economy
+#'   * `[7]` terrorism
+#'   * `[8]` poverty
+#'   * `[9]` none of these
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -52,18 +52,18 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` health care
-#'   * `2` education
-#'   * `3` crime
-#'   * `4` the environment
-#'   * `5` immigration
-#'   * `6` the economy
-#'   * `7` terrorism
-#'   * `8` poverty
-#'   * `9` none of these
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` health care
+#'   * `[2]` education
+#'   * `[3]` crime
+#'   * `[4]` the environment
+#'   * `[5]` immigration
+#'   * `[6]` the economy
+#'   * `[7]` terrorism
+#'   * `[8]` poverty
+#'   * `[9]` none of these
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -94,15 +94,15 @@ NULL
 #' 
 #'  trust5
 #' 
-#' Question B1. Generally speaking, would you say that most people can be trusted, or that you canâ€™t be too careful in dealing with people? please tell me what you think, where 1 means you canâ€™t be too careful and 5 means most people can be trusted.
+#' Question B1. Generally speaking, would you say that most people can be trusted, or that you can't be too careful in dealing with people? please tell me what you think, where 1 means you can't be too careful and 5 means most people can be trusted.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` you can't be too careful
-#'   * `5` most people can be trusted
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` you can't be too careful
+#'   * `[5]` most people can be trusted
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -138,12 +138,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` most people would try to take advantage
-#'   * `5` most people would try to be fair
-#'   * `6` 6 can't choose
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` most people would try to take advantage
+#'   * `[5]` most people would try to be fair
+#'   * `[6]` 6 can't choose
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -177,11 +177,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 1 - not at all concerned
-#'   * `5` 5 - very concerned
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 1 - not at all concerned
+#'   * `[5]` 5 - very concerned
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -216,19 +216,19 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` air pollution
-#'   * `2` chemicals and pesticides
-#'   * `3` water shortage
-#'   * `4` water pollution
-#'   * `5` nuclear waste
-#'   * `6` domestic waste disposal
-#'   * `7` climate change
-#'   * `8` genetically modified foods
-#'   * `9` using up our natural resources
-#'   * `10` none of these
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` air pollution
+#'   * `[2]` chemicals and pesticides
+#'   * `[3]` water shortage
+#'   * `[4]` water pollution
+#'   * `[5]` nuclear waste
+#'   * `[6]` domestic waste disposal
+#'   * `[7]` climate change
+#'   * `[8]` genetically modified foods
+#'   * `[9]` using up our natural resources
+#'   * `[10]` none of these
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -263,19 +263,19 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` air pollution
-#'   * `2` chemicals and pesticides
-#'   * `3` water shortage
-#'   * `4` water pollution
-#'   * `5` nuclear waste
-#'   * `6` domestic waste disposal
-#'   * `7` climate change
-#'   * `8` genetically modified foods
-#'   * `9` using up our natural resources
-#'   * `10` none of these
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` air pollution
+#'   * `[2]` chemicals and pesticides
+#'   * `[3]` water shortage
+#'   * `[4]` water pollution
+#'   * `[5]` nuclear waste
+#'   * `[6]` domestic waste disposal
+#'   * `[7]` climate change
+#'   * `[8]` genetically modified foods
+#'   * `[9]` using up our natural resources
+#'   * `[10]` none of these
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -309,11 +309,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` know nothing at all
-#'   * `5` know a great deal
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` know nothing at all
+#'   * `[5]` know a great deal
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -347,11 +347,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` know nothing at all
-#'   * `5` know a great deal
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` know nothing at all
+#'   * `[5]` know a great deal
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -385,16 +385,16 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` coal, oil and natural gas
-#'   * `2` nuclear power
-#'   * `3` solar, wind or water power
-#'   * `4` fuels made from crops
-#'   * `5` fuels made from waste
-#'   * `6` none of them
-#'   * `7` can't choose
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` coal, oil and natural gas
+#'   * `[2]` nuclear power
+#'   * `[3]` solar, wind or water power
+#'   * `[4]` fuels made from crops
+#'   * `[5]` fuels made from waste
+#'   * `[6]` none of them
+#'   * `[7]` can't choose
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

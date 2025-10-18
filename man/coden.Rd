@@ -15,34 +15,34 @@ Question What is your (PARTNER'S) religious preference? Is it Protestant, Cathol
 \section{Values}{
 
 \itemize{
-\item \code{10} american baptist association
-\item \code{11} american baptist churches in the u.s.a.
-\item \code{12} national baptist convention of america
-\item \code{13} national baptist convention u.s.a., inc.
-\item \code{14} southern baptist convention
-\item \code{15} other baptist churches
-\item \code{18} baptist, don't know which
-\item \code{20} african methodist episcopal church
-\item \code{21} african methodist episcopal zion church
-\item \code{22} united methodist church
-\item \code{23} other methodist churches
-\item \code{28} methodist, don't know which
-\item \code{30} american lutheran church
-\item \code{31} lutheran church in america
-\item \code{32} lutheran church - missouri synod
-\item \code{33} wisconsin evangelical lutheran synod
-\item \code{34} other lutheran churches
-\item \code{35} evangelical lutheran
-\item \code{38} lutheran, don't know which
-\item \code{40} presbyterian church in the u.s.
-\item \code{41} united presbyterian church in the u.s.a.
-\item \code{42} other presbyterian churches
-\item \code{43} presbyterian, merged
-\item \code{48} presbyterian, don't know which
-\item \code{50} episcopal church
-\item \code{60} other, specify
-\item \code{70} no denomination or non-denominational church
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[10]} american baptist association
+\item \verb{[11]} american baptist churches in the u.s.a.
+\item \verb{[12]} national baptist convention of america
+\item \verb{[13]} national baptist convention u.s.a., inc.
+\item \verb{[14]} southern baptist convention
+\item \verb{[15]} other baptist churches
+\item \verb{[18]} baptist, don't know which
+\item \verb{[20]} african methodist episcopal church
+\item \verb{[21]} african methodist episcopal zion church
+\item \verb{[22]} united methodist church
+\item \verb{[23]} other methodist churches
+\item \verb{[28]} methodist, don't know which
+\item \verb{[30]} american lutheran church
+\item \verb{[31]} lutheran church in america
+\item \verb{[32]} lutheran church - missouri synod
+\item \verb{[33]} wisconsin evangelical lutheran synod
+\item \verb{[34]} other lutheran churches
+\item \verb{[35]} evangelical lutheran
+\item \verb{[38]} lutheran, don't know which
+\item \verb{[40]} presbyterian church in the u.s.
+\item \verb{[41]} united presbyterian church in the u.s.a.
+\item \verb{[42]} other presbyterian churches
+\item \verb{[43]} presbyterian, merged
+\item \verb{[48]} presbyterian, don't know which
+\item \verb{[50]} episcopal church
+\item \verb{[60]} other, specify
+\item \verb{[70]} no denomination or non-denominational church
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -2,18 +2,18 @@
 #' 
 #'  mhupdown
 #' 
-#' Question Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)''s situation is caused byâ€¦ 
+#' Question Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)''s situation is caused by… 
 #' H. Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME) is experiencing the normal ups-and-downs of life.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` not very likely
+#'   * `[4]` not at all likely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -43,18 +43,18 @@ NULL
 #' 
 #'  mhillnss
 #' 
-#' Question Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)''s situation is caused byâ€¦ 
+#' Question Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)''s situation is caused by… 
 #' I. A mental illness
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` not very likely
+#'   * `[4]` not at all likely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -84,18 +84,18 @@ NULL
 #' 
 #'  mhphyscl
 #' 
-#' Question Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)''s situation is caused byâ€¦ 
+#' Question Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)''s situation is caused by… 
 #' J. A physical illness
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` not very likely
+#'   * `[4]` not at all likely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -125,18 +125,18 @@ NULL
 #' 
 #'  mhneihbr
 #' 
-#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwillingâ€¦ 
+#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling… 
 #' A. To have (NAME) as a neighbor?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely willing
-#'   * `2` probably willing
-#'   * `3` probably unwilling
-#'   * `4` definitely unwilling
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely willing
+#'   * `[2]` probably willing
+#'   * `[3]` probably unwilling
+#'   * `[4]` definitely unwilling
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -166,18 +166,18 @@ NULL
 #' 
 #'  mhsocial
 #' 
-#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwillingâ€¦ 
+#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling… 
 #' B. To spend time socializing with (NAME)?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely willing
-#'   * `2` probably willing
-#'   * `3` probably unwilling
-#'   * `4` definitely unwilling
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely willing
+#'   * `[2]` probably willing
+#'   * `[3]` probably unwilling
+#'   * `[4]` definitely unwilling
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -207,18 +207,18 @@ NULL
 #' 
 #'  mhkdcare
 #' 
-#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwillingâ€¦ 
+#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling… 
 #' C. To have (NAME) care for your children or children you know?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely willing
-#'   * `2` probably willing
-#'   * `3` probably unwilling
-#'   * `4` definitely unwilling
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely willing
+#'   * `[2]` probably willing
+#'   * `[3]` probably unwilling
+#'   * `[4]` definitely unwilling
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -248,18 +248,18 @@ NULL
 #' 
 #'  mhfriend
 #' 
-#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwillingâ€¦ 
+#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling… 
 #' D. To make friends with (NAME)?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely willing
-#'   * `2` probably willing
-#'   * `3` probably unwilling
-#'   * `4` definitely unwilling
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely willing
+#'   * `[2]` probably willing
+#'   * `[3]` probably unwilling
+#'   * `[4]` definitely unwilling
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -289,18 +289,18 @@ NULL
 #' 
 #'  mhwkwith
 #' 
-#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwillingâ€¦ 
+#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling… 
 #' E. To work closely with (NAME) on a job?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely willing
-#'   * `2` probably willing
-#'   * `3` probably unwilling
-#'   * `4` definitely unwilling
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely willing
+#'   * `[2]` probably willing
+#'   * `[3]` probably unwilling
+#'   * `[4]` definitely unwilling
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -330,18 +330,18 @@ NULL
 #' 
 #'  mhwedrel
 #' 
-#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwillingâ€¦ 
+#' Question Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling… 
 #' F. To have (NAME) marry someone related to you?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely willing
-#'   * `2` probably willing
-#'   * `3` probably unwilling
-#'   * `4` definitely unwilling
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely willing
+#'   * `[2]` probably willing
+#'   * `[3]` probably unwilling
+#'   * `[4]` definitely unwilling
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -375,13 +375,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` not very likely
+#'   * `[4]` not at all likely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

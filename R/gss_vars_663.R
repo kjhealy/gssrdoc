@@ -8,11 +8,11 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` male
-#'   * `2` female
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` male
+#'   * `[2]` female
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -48,11 +48,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -88,11 +88,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` not at all
-#'   * `7` very
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` not at all
+#'   * `[7]` very
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -128,11 +128,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` not at all
-#'   * `7` very
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` not at all
+#'   * `[7]` very
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -166,22 +166,22 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` christian
-#'   * `12` native american
-#'   * `13` inter-nondenominational
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` protestant
+#'   * `[2]` catholic
+#'   * `[3]` jewish
+#'   * `[4]` none
+#'   * `[5]` other
+#'   * `[6]` buddhism
+#'   * `[7]` hinduism
+#'   * `[8]` other eastern religions
+#'   * `[9]` muslim/islam
+#'   * `[10]` orthodox-christian
+#'   * `[11]` christian
+#'   * `[12]` native american
+#'   * `[13]` inter-nondenominational
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -215,36 +215,36 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `10` american baptist association
-#'   * `11` american baptist churches in the u.s.a.
-#'   * `12` national baptist convention of america
-#'   * `13` national baptist convention u.s.a., inc.
-#'   * `14` southern baptist convention
-#'   * `15` other baptist churches
-#'   * `18` baptist, don't know which
-#'   * `20` african methodist episcopal church
-#'   * `21` african methodist episcopal zion church
-#'   * `22` united methodist church
-#'   * `23` other methodist churches
-#'   * `28` methodist, don't know which
-#'   * `30` american lutheran church
-#'   * `31` lutheran church in america
-#'   * `32` lutheran church - missouri synod
-#'   * `33` wisconsin evangelical lutheran synod
-#'   * `34` other lutheran churches
-#'   * `35` evangelical lutheran
-#'   * `38` lutheran, don't know which
-#'   * `40` presbyterian church in the u.s.
-#'   * `41` united presbyterian church in the u.s.a.
-#'   * `42` other presbyterian churches
-#'   * `43` presbyterian, merged
-#'   * `48` presbyterian, don't know which
-#'   * `50` episcopal church
-#'   * `60` other, specify
-#'   * `70` no denomination or non-denominational church
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[10]` american baptist association
+#'   * `[11]` american baptist churches in the u.s.a.
+#'   * `[12]` national baptist convention of america
+#'   * `[13]` national baptist convention u.s.a., inc.
+#'   * `[14]` southern baptist convention
+#'   * `[15]` other baptist churches
+#'   * `[18]` baptist, don't know which
+#'   * `[20]` african methodist episcopal church
+#'   * `[21]` african methodist episcopal zion church
+#'   * `[22]` united methodist church
+#'   * `[23]` other methodist churches
+#'   * `[28]` methodist, don't know which
+#'   * `[30]` american lutheran church
+#'   * `[31]` lutheran church in america
+#'   * `[32]` lutheran church - missouri synod
+#'   * `[33]` wisconsin evangelical lutheran synod
+#'   * `[34]` other lutheran churches
+#'   * `[35]` evangelical lutheran
+#'   * `[38]` lutheran, don't know which
+#'   * `[40]` presbyterian church in the u.s.
+#'   * `[41]` united presbyterian church in the u.s.a.
+#'   * `[42]` other presbyterian churches
+#'   * `[43]` presbyterian, merged
+#'   * `[48]` presbyterian, don't know which
+#'   * `[50]` episcopal church
+#'   * `[60]` other, specify
+#'   * `[70]` no denomination or non-denominational church
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -278,14 +278,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` orthodox
-#'   * `2` conservative
-#'   * `3` reform
-#'   * `4` none of these
-#'   * `5` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` orthodox
+#'   * `[2]` conservative
+#'   * `[3]` reform
+#'   * `[4]` none of these
+#'   * `[5]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -319,10 +319,10 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` completed
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` completed
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -356,11 +356,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -394,11 +394,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |

@@ -16,25 +16,25 @@ A. Who would you turn to first for help?
 \section{Values}{
 
 \itemize{
-\item \code{1} husband, wife, partner
-\item \code{2} mother
-\item \code{3} father
-\item \code{4} daughter
-\item \code{5} daughter-in-law
-\item \code{6} son
-\item \code{7} son-in-law
-\item \code{8} sister
-\item \code{9} brother
-\item \code{10} other blood relative
-\item \code{11} other in-law relative
-\item \code{12} close friend
-\item \code{13} neighbor
-\item \code{14} someone you work with
-\item \code{15} someone at a social services agency
-\item \code{16} someone you pay to help
-\item \code{17} someone else
-\item \code{18} no one
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} husband, wife, partner
+\item \verb{[2]} mother
+\item \verb{[3]} father
+\item \verb{[4]} daughter
+\item \verb{[5]} daughter-in-law
+\item \verb{[6]} son
+\item \verb{[7]} son-in-law
+\item \verb{[8]} sister
+\item \verb{[9]} brother
+\item \verb{[10]} other blood relative
+\item \verb{[11]} other in-law relative
+\item \verb{[12]} close friend
+\item \verb{[13]} neighbor
+\item \verb{[14]} someone you work with
+\item \verb{[15]} someone at a social services agency
+\item \verb{[16]} someone you pay to help
+\item \verb{[17]} someone else
+\item \verb{[18]} no one
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -15,12 +15,12 @@ Question Which of the following best describes your current relationship situati
 \section{Values}{
 
 \itemize{
-\item \code{1} i am in a steady relationship with a woman and we live together
-\item \code{2} i am in a steady relationship with a man and we live together
-\item \code{3} i am in a steady relationship with a woman and we do not live together
-\item \code{4} i am in a steady relationship with a man and we do not live together
-\item \code{5} i am not in a steady relationship right now
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} i am in a steady relationship with a woman and we live together
+\item \verb{[2]} i am in a steady relationship with a man and we live together
+\item \verb{[3]} i am in a steady relationship with a woman and we do not live together
+\item \verb{[4]} i am in a steady relationship with a man and we do not live together
+\item \verb{[5]} i am not in a steady relationship right now
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

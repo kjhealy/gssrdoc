@@ -16,29 +16,29 @@ H. IF YES: What institution was that?
 \section{Values}{
 
 \itemize{
-\item \code{1} jail/prison
-\item \code{2} high school
-\item \code{3} company/business
-\item \code{4} vocational school/trades/technical (not high school, not college)
-\item \code{5} secretarial school
-\item \code{6} adult education/school
-\item \code{7} medical/nursing/health/dental/hospital
-\item \code{8} union
-\item \code{9} armed forces
-\item \code{10} college/university
-\item \code{11} art/design
-\item \code{12} business college (not business school at a university)
-\item \code{13} home study/correspondence
-\item \code{14} job corp
-\item \code{15} beauty school/cosmetology
-\item \code{16} insurance, real estate, finance, executive management
-\item \code{17} police/fire academy; training
-\item \code{18} development center
-\item \code{19} career center
-\item \code{20} foreign college/university
-\item \code{30} other
-\item \code{40} unable to code response, unclear, not identifiable
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} jail/prison
+\item \verb{[2]} high school
+\item \verb{[3]} company/business
+\item \verb{[4]} vocational school/trades/technical (not high school, not college)
+\item \verb{[5]} secretarial school
+\item \verb{[6]} adult education/school
+\item \verb{[7]} medical/nursing/health/dental/hospital
+\item \verb{[8]} union
+\item \verb{[9]} armed forces
+\item \verb{[10]} college/university
+\item \verb{[11]} art/design
+\item \verb{[12]} business college (not business school at a university)
+\item \verb{[13]} home study/correspondence
+\item \verb{[14]} job corp
+\item \verb{[15]} beauty school/cosmetology
+\item \verb{[16]} insurance, real estate, finance, executive management
+\item \verb{[17]} police/fire academy; training
+\item \verb{[18]} development center
+\item \verb{[19]} career center
+\item \verb{[20]} foreign college/university
+\item \verb{[30]} other
+\item \verb{[40]} unable to code response, unclear, not identifiable
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

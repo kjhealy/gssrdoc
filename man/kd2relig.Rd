@@ -10,25 +10,25 @@ General Social Survey https://gss.norc.org
 kd2relig
 }
 \details{
-Question In what religion is (CHILDâ€™S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+Question In what religion is (CHILD'S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} protestant
-\item \code{2} catholic
-\item \code{3} jewish
-\item \code{4} none
-\item \code{5} other
-\item \code{6} buddhism
-\item \code{7} hinduism
-\item \code{8} other eastern religions
-\item \code{9} muslim/islam
-\item \code{10} orthodox-christian
-\item \code{11} christian
-\item \code{12} native american
-\item \code{13} inter-nondenominational
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} protestant
+\item \verb{[2]} catholic
+\item \verb{[3]} jewish
+\item \verb{[4]} none
+\item \verb{[5]} other
+\item \verb{[6]} buddhism
+\item \verb{[7]} hinduism
+\item \verb{[8]} other eastern religions
+\item \verb{[9]} muslim/islam
+\item \verb{[10]} orthodox-christian
+\item \verb{[11]} christian
+\item \verb{[12]} native american
+\item \verb{[13]} inter-nondenominational
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

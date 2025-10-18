@@ -15,97 +15,97 @@ Question Next I'm going to describe a person -- lets call him/her (REFER TO NAME
 \section{Values}{
 
 \itemize{
-\item \code{1} 1: alcohol dependence, john, white, eighth grade
-\item \code{2} 2: alcohol dependence, john, african american, eighth grade
-\item \code{3} 3: alcohol dependence, john, hispanic, eighth grade
-\item \code{4} 4: alcohol dependence, john, white, high school
-\item \code{5} 5: alcohol dependence, john, african american, high school
-\item \code{6} 6: alcohol dependence, john, hispanic, high school
-\item \code{7} 7: alcohol dependence, john, white, college
-\item \code{8} 8: alcohol dependence, john, african american, college
-\item \code{9} 9: alcohol dependence, john, hispanic, college
-\item \code{10} 10: alcohol dependence, mary, white, eighth grade
-\item \code{11} 11: alcohol dependence, mary, african american, eighth grade
-\item \code{12} 12: alcohol dependence, mary, hispanic, eighth grade
-\item \code{13} 13: alcohol dependence, mary, white, high school
-\item \code{14} 14: alcohol dependence, mary, african american, high school
-\item \code{15} 15: alcohol dependence, mary, hispanic, high school
-\item \code{16} 16: alcohol dependence, mary, white, college
-\item \code{17} 17: alcohol dependence, mary, african american, college
-\item \code{18} 18: alcohol dependence, mary, hispanic, college
-\item \code{19} 19: major depression, john, white, eighth grade
-\item \code{20} 20: major depression, john, african american, eighth grade
-\item \code{21} 21: major depression, john, hispanic, eighth grade
-\item \code{22} 22: major depression, john, white, high school
-\item \code{23} 23: major depression, john, african american, high school
-\item \code{24} 24: major depression, john, hispanic, high school
-\item \code{25} 25: major depression, john, white, college
-\item \code{26} 26: major depression, john, african american, college
-\item \code{27} 27: major depression, john, hispanic, college
-\item \code{28} 28: major depression, mary, white, eighth grade
-\item \code{29} 29: major depression, mary, african american, eighth grade
-\item \code{30} 30: major depression, mary, hispanic, eighth grade
-\item \code{31} 31: major depression, mary, white, high school
-\item \code{32} 32: major depression, mary, african american, high school
-\item \code{33} 33: major depression, mary, hispanic, high school
-\item \code{34} 34: major depression, mary, white, college
-\item \code{35} 35: major depression, mary, african american, college
-\item \code{36} 36: major depression, mary, hispanic, college
-\item \code{37} 37: schizophrenia, john, white, eighth grade
-\item \code{38} 38: schizophrenia, john, african american, eighth grade
-\item \code{39} 39: schizophrenia, john, hispanic, eighth grade
-\item \code{40} 40: schizophrenia, john, white, high school
-\item \code{41} 41: schizophrenia, john, african american, high school
-\item \code{42} 42: schizophrenia, john, hispanic, high school
-\item \code{43} 43: schizophrenia, john, white, college
-\item \code{44} 44: schizophrenia, john, african american, college
-\item \code{45} 45: schizophrenia, john, hispanic, college
-\item \code{46} 46: schizophrenia, mary, white, eighth grade
-\item \code{47} 47: schizophrenia, mary, african american, eighth grade
-\item \code{48} 48: schizophrenia, mary, hispanic, eighth grade
-\item \code{49} 49: schizophrenia, mary, white, high school
-\item \code{50} 50: schizophrenia, mary, african american, high school
-\item \code{51} 51: schizophrenia, mary, hispanic, high school
-\item \code{52} 52: schizophrenia, mary, white, college
-\item \code{53} 53: schizophrenia, mary, african american, college
-\item \code{54} 54: schizophrenia, mary, hispanic, college
-\item \code{55} 55: drug problem, john, white, eighth grade
-\item \code{56} 56: drug problem, john, african american, eighth grade
-\item \code{57} 57: drug problem, john, hispanic, eighth grade
-\item \code{58} 58: drug problem, john, white, high school
-\item \code{59} 59: drug problem, john, african american, high school
-\item \code{60} 60: drug problem, john, hispanic, high school
-\item \code{61} 61: drug problem, john, white, college
-\item \code{62} 62: drug problem, john, african american, college
-\item \code{63} 63: drug problem, john, hispanic, college
-\item \code{64} 64: drug problem, mary, white, eighth grade
-\item \code{65} 65: drug problem, mary, african american, eighth grade
-\item \code{66} 66: drug problem, mary, hispanic, eighth grade
-\item \code{67} 67: drug problem, mary, white, high school
-\item \code{68} 68: drug problem, mary, african american, high school
-\item \code{69} 69: drug problem, mary, hispanic, high school
-\item \code{70} 70: drug problem, mary, white, college
-\item \code{71} 71: drug problem, mary, african american, college
-\item \code{72} 72: drug problem, mary, hispanic, college
-\item \code{73} 73: no problem, john, white, eighth grade
-\item \code{74} 74: no problem, john, african american, eighth grade
-\item \code{75} 75: no problem, john, hispanic, eighth grade
-\item \code{76} 76: no problem, john, white, high school
-\item \code{77} 77: no problem, john, african american, high school
-\item \code{78} 78: no problem, john, hispanic, high school
-\item \code{79} 79: no problem, john, white, college
-\item \code{80} 80: no problem, john, african american, college
-\item \code{81} 81: no problem, john, hispanic, college
-\item \code{82} 82: no problem, mary, white, eighth grade
-\item \code{83} 83: no problem, mary, african american, eighth grade
-\item \code{84} 84: no problem, mary, hispanic, eighth grade
-\item \code{85} 85: no problem, mary, white, high school
-\item \code{86} 86: no problem, mary, african american, high school
-\item \code{87} 87: no problem, mary, hispanic, high school
-\item \code{88} 88: no problem, mary, white, college
-\item \code{89} 89: no problem, mary, african american, college
-\item \code{90} 90: no problem, mary, hispanic, college
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} 1:  alcohol dependence, john, white, eighth grade
+\item \verb{[2]} 2:  alcohol dependence, john, african american, eighth grade
+\item \verb{[3]} 3:  alcohol dependence, john, hispanic, eighth grade
+\item \verb{[4]} 4:  alcohol dependence, john, white, high school
+\item \verb{[5]} 5:  alcohol dependence, john, african american, high school
+\item \verb{[6]} 6:  alcohol dependence, john, hispanic, high school
+\item \verb{[7]} 7:  alcohol dependence, john, white, college
+\item \verb{[8]} 8:  alcohol dependence, john, african american, college
+\item \verb{[9]} 9:  alcohol dependence, john, hispanic, college
+\item \verb{[10]} 10: alcohol dependence, mary, white, eighth grade
+\item \verb{[11]} 11: alcohol dependence, mary, african american, eighth grade
+\item \verb{[12]} 12: alcohol dependence, mary, hispanic, eighth grade
+\item \verb{[13]} 13: alcohol dependence, mary, white, high school
+\item \verb{[14]} 14: alcohol dependence, mary, african american, high school
+\item \verb{[15]} 15: alcohol dependence, mary, hispanic, high school
+\item \verb{[16]} 16: alcohol dependence, mary, white, college
+\item \verb{[17]} 17: alcohol dependence, mary, african american, college
+\item \verb{[18]} 18: alcohol dependence, mary, hispanic, college
+\item \verb{[19]} 19: major depression, john, white, eighth grade
+\item \verb{[20]} 20: major depression, john, african american, eighth grade
+\item \verb{[21]} 21: major depression, john, hispanic, eighth grade
+\item \verb{[22]} 22: major depression, john, white, high school
+\item \verb{[23]} 23: major depression, john, african american, high school
+\item \verb{[24]} 24: major depression, john, hispanic, high school
+\item \verb{[25]} 25: major depression, john, white, college
+\item \verb{[26]} 26: major depression, john, african american, college
+\item \verb{[27]} 27: major depression, john, hispanic, college
+\item \verb{[28]} 28: major depression, mary, white, eighth grade
+\item \verb{[29]} 29: major depression, mary, african american, eighth grade
+\item \verb{[30]} 30: major depression, mary, hispanic, eighth grade
+\item \verb{[31]} 31: major depression, mary, white, high school
+\item \verb{[32]} 32: major depression, mary, african american, high school
+\item \verb{[33]} 33: major depression, mary, hispanic, high school
+\item \verb{[34]} 34: major depression, mary, white, college
+\item \verb{[35]} 35: major depression, mary, african american, college
+\item \verb{[36]} 36: major depression, mary, hispanic, college
+\item \verb{[37]} 37: schizophrenia, john, white, eighth grade
+\item \verb{[38]} 38: schizophrenia, john, african american, eighth grade
+\item \verb{[39]} 39: schizophrenia, john, hispanic, eighth grade
+\item \verb{[40]} 40: schizophrenia, john, white, high school
+\item \verb{[41]} 41: schizophrenia, john, african american, high school
+\item \verb{[42]} 42: schizophrenia, john, hispanic, high school
+\item \verb{[43]} 43: schizophrenia, john, white, college
+\item \verb{[44]} 44: schizophrenia, john, african american, college
+\item \verb{[45]} 45: schizophrenia, john, hispanic, college
+\item \verb{[46]} 46: schizophrenia, mary, white, eighth grade
+\item \verb{[47]} 47: schizophrenia, mary, african american, eighth grade
+\item \verb{[48]} 48: schizophrenia, mary, hispanic, eighth grade
+\item \verb{[49]} 49: schizophrenia, mary, white, high school
+\item \verb{[50]} 50: schizophrenia, mary, african american, high school
+\item \verb{[51]} 51: schizophrenia, mary, hispanic, high school
+\item \verb{[52]} 52: schizophrenia, mary, white, college
+\item \verb{[53]} 53: schizophrenia, mary, african american, college
+\item \verb{[54]} 54: schizophrenia, mary, hispanic, college
+\item \verb{[55]} 55: drug problem, john, white, eighth grade
+\item \verb{[56]} 56: drug problem, john, african american, eighth grade
+\item \verb{[57]} 57: drug problem, john, hispanic, eighth grade
+\item \verb{[58]} 58: drug problem, john, white, high school
+\item \verb{[59]} 59: drug problem, john, african american, high school
+\item \verb{[60]} 60: drug problem, john, hispanic, high school
+\item \verb{[61]} 61: drug problem, john, white, college
+\item \verb{[62]} 62: drug problem, john, african american, college
+\item \verb{[63]} 63: drug problem, john, hispanic, college
+\item \verb{[64]} 64: drug problem, mary, white, eighth grade
+\item \verb{[65]} 65: drug problem, mary, african american, eighth grade
+\item \verb{[66]} 66: drug problem, mary, hispanic, eighth grade
+\item \verb{[67]} 67: drug problem, mary, white, high school
+\item \verb{[68]} 68: drug problem, mary, african american, high school
+\item \verb{[69]} 69: drug problem, mary, hispanic, high school
+\item \verb{[70]} 70: drug problem, mary, white, college
+\item \verb{[71]} 71: drug problem, mary, african american, college
+\item \verb{[72]} 72: drug problem, mary, hispanic, college
+\item \verb{[73]} 73: no problem, john, white, eighth grade
+\item \verb{[74]} 74: no problem, john, african american, eighth grade
+\item \verb{[75]} 75: no problem, john, hispanic, eighth grade
+\item \verb{[76]} 76: no problem, john, white, high school
+\item \verb{[77]} 77: no problem, john, african american, high school
+\item \verb{[78]} 78: no problem, john, hispanic, high school
+\item \verb{[79]} 79: no problem, john, white, college
+\item \verb{[80]} 80: no problem, john, african american, college
+\item \verb{[81]} 81: no problem, john, hispanic, college
+\item \verb{[82]} 82: no problem, mary, white, eighth grade
+\item \verb{[83]} 83: no problem, mary, african american, eighth grade
+\item \verb{[84]} 84: no problem, mary, hispanic, eighth grade
+\item \verb{[85]} 85: no problem, mary, white, high school
+\item \verb{[86]} 86: no problem, mary, african american, high school
+\item \verb{[87]} 87: no problem, mary, hispanic, high school
+\item \verb{[88]} 88: no problem, mary, white, college
+\item \verb{[89]} 89: no problem, mary, african american, college
+\item \verb{[90]} 90: no problem, mary, hispanic, college
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

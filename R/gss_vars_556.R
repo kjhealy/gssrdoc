@@ -7,12 +7,12 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` harm ) good
-#'   * `2` good ) harm
-#'   * `7` refused
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` harm ) good
+#'   * `[2]` good ) harm
+#'   * `[7]` refused
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -46,12 +46,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` more good than harm
-#'   * `2` more harm than good
-#'   * `3` it depends
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` more good than harm
+#'   * `[2]` more harm than good
+#'   * `[3]` it depends
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -87,12 +87,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` have test
-#'   * `2` not have test
-#'   * `7` refused
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` have test
+#'   * `[2]` not have test
+#'   * `[7]` refused
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -130,12 +130,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` have abortion
-#'   * `2` no abortion
-#'   * `7` refused
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` have abortion
+#'   * `[2]` no abortion
+#'   * `[7]` refused
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -173,12 +173,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` r is homosexual/gay
-#'   * `2` r is not homosexual/gay
-#'   * `3` r sexual orientation uncertain
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` r is homosexual/gay
+#'   * `[2]` r is not homosexual/gay
+#'   * `[3]` r sexual orientation uncertain
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -212,11 +212,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -250,11 +250,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -290,45 +290,45 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` downs syndrome
-#'   * `2` mental retardation
-#'   * `3` spina bifida
-#'   * `4` muscular dystrophy
-#'   * `5` cystic fibrosis
-#'   * `6` cerebral palsy
-#'   * `7` crippling diseases
-#'   * `10` blind,deaf
-#'   * `11` missing limbs
-#'   * `12` major deformities
-#'   * `13` life-threatening deform
-#'   * `14` handicapped
-#'   * `15` physical defects
-#'   * `20` sickle cell anemia
-#'   * `21` rh factor
-#'   * `22` hemophilia
-#'   * `30` addiction to drugs
-#'   * `31` aids
-#'   * `35` multiple sclerosis
-#'   * `60` heart
-#'   * `61` kidneys
-#'   * `62` siamese twins
-#'   * `70` incurable disease
-#'   * `71` tourettes syndrome
-#'   * `72` sexual transmitted diseases
-#'   * `73` diabetes
-#'   * `74` birth defects
-#'   * `75` cancer
-#'   * `76` psychological problems
-#'   * `77` neurological problems
-#'   * `78` hydrocephalus
-#'   * `79` huntingtons chorea
-#'   * `80` tay-sachs
-#'   * `81` reyes syndrome
-#'   * `90` unable to take care of self
-#'   * `95` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` downs syndrome
+#'   * `[2]` mental retardation
+#'   * `[3]` spina bifida
+#'   * `[4]` muscular dystrophy
+#'   * `[5]` cystic fibrosis
+#'   * `[6]` cerebral palsy
+#'   * `[7]` crippling diseases
+#'   * `[10]` blind,deaf
+#'   * `[11]` missing limbs
+#'   * `[12]` major deformities
+#'   * `[13]` life-threatening deform
+#'   * `[14]` handicapped
+#'   * `[15]` physical defects
+#'   * `[20]` sickle cell anemia
+#'   * `[21]` rh factor
+#'   * `[22]` hemophilia
+#'   * `[30]` addiction to drugs
+#'   * `[31]` aids
+#'   * `[35]` multiple sclerosis
+#'   * `[60]` heart
+#'   * `[61]` kidneys
+#'   * `[62]` siamese twins
+#'   * `[70]` incurable disease
+#'   * `[71]` tourettes syndrome
+#'   * `[72]` sexual transmitted diseases
+#'   * `[73]` diabetes
+#'   * `[74]` birth defects
+#'   * `[75]` cancer
+#'   * `[76]` psychological problems
+#'   * `[77]` neurological problems
+#'   * `[78]` hydrocephalus
+#'   * `[79]` huntingtons chorea
+#'   * `[80]` tay-sachs
+#'   * `[81]` reyes syndrome
+#'   * `[90]` unable to take care of self
+#'   * `[95]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -364,45 +364,45 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` downs syndrome
-#'   * `2` mental retardation
-#'   * `3` spina bifida
-#'   * `4` muscular dystrophy
-#'   * `5` cystic fibrosis
-#'   * `6` cerebral palsy
-#'   * `7` crippling diseases
-#'   * `10` blind,deaf
-#'   * `11` missing limbs
-#'   * `12` major deformities
-#'   * `13` life-threatening deform
-#'   * `14` handicapped
-#'   * `15` physical defects
-#'   * `20` sickle cell anemia
-#'   * `21` rh factor
-#'   * `22` hemophilia
-#'   * `30` addiction to drugs
-#'   * `31` aids
-#'   * `35` multiple sclerosis
-#'   * `60` heart
-#'   * `61` kidneys
-#'   * `62` siamese twins
-#'   * `70` incurable disease
-#'   * `71` tourettes syndrome
-#'   * `72` sexual transmitted diseases
-#'   * `73` diabetes
-#'   * `74` birth defects
-#'   * `75` cancer
-#'   * `76` psychological problems
-#'   * `77` neurological problems
-#'   * `78` hydrocephalus
-#'   * `79` huntingtons chorea
-#'   * `80` tay-sachs
-#'   * `81` reyes syndrome
-#'   * `90` unable to take care of self
-#'   * `95` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` downs syndrome
+#'   * `[2]` mental retardation
+#'   * `[3]` spina bifida
+#'   * `[4]` muscular dystrophy
+#'   * `[5]` cystic fibrosis
+#'   * `[6]` cerebral palsy
+#'   * `[7]` crippling diseases
+#'   * `[10]` blind,deaf
+#'   * `[11]` missing limbs
+#'   * `[12]` major deformities
+#'   * `[13]` life-threatening deform
+#'   * `[14]` handicapped
+#'   * `[15]` physical defects
+#'   * `[20]` sickle cell anemia
+#'   * `[21]` rh factor
+#'   * `[22]` hemophilia
+#'   * `[30]` addiction to drugs
+#'   * `[31]` aids
+#'   * `[35]` multiple sclerosis
+#'   * `[60]` heart
+#'   * `[61]` kidneys
+#'   * `[62]` siamese twins
+#'   * `[70]` incurable disease
+#'   * `[71]` tourettes syndrome
+#'   * `[72]` sexual transmitted diseases
+#'   * `[73]` diabetes
+#'   * `[74]` birth defects
+#'   * `[75]` cancer
+#'   * `[76]` psychological problems
+#'   * `[77]` neurological problems
+#'   * `[78]` hydrocephalus
+#'   * `[79]` huntingtons chorea
+#'   * `[80]` tay-sachs
+#'   * `[81]` reyes syndrome
+#'   * `[90]` unable to take care of self
+#'   * `[95]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -438,45 +438,45 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` downs syndrome
-#'   * `2` mental retardation
-#'   * `3` spina bifida
-#'   * `4` muscular dystrophy
-#'   * `5` cystic fibrosis
-#'   * `6` cerebral palsy
-#'   * `7` crippling diseases
-#'   * `10` blind,deaf
-#'   * `11` missing limbs
-#'   * `12` major deformities
-#'   * `13` life-threatening deform
-#'   * `14` handicapped
-#'   * `15` physical defects
-#'   * `20` sickle cell anemia
-#'   * `21` rh factor
-#'   * `22` hemophilia
-#'   * `30` addiction to drugs
-#'   * `31` aids
-#'   * `35` multiple sclerosis
-#'   * `60` heart
-#'   * `61` kidneys
-#'   * `62` siamese twins
-#'   * `70` incurable disease
-#'   * `71` tourettes syndrome
-#'   * `72` sexual transmitted diseases
-#'   * `73` diabetes
-#'   * `74` birth defects
-#'   * `75` cancer
-#'   * `76` psychological problems
-#'   * `77` neurological problems
-#'   * `78` hydrocephalus
-#'   * `79` huntingtons chorea
-#'   * `80` tay-sachs
-#'   * `81` reyes syndrome
-#'   * `90` unable to take care of self
-#'   * `95` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` downs syndrome
+#'   * `[2]` mental retardation
+#'   * `[3]` spina bifida
+#'   * `[4]` muscular dystrophy
+#'   * `[5]` cystic fibrosis
+#'   * `[6]` cerebral palsy
+#'   * `[7]` crippling diseases
+#'   * `[10]` blind,deaf
+#'   * `[11]` missing limbs
+#'   * `[12]` major deformities
+#'   * `[13]` life-threatening deform
+#'   * `[14]` handicapped
+#'   * `[15]` physical defects
+#'   * `[20]` sickle cell anemia
+#'   * `[21]` rh factor
+#'   * `[22]` hemophilia
+#'   * `[30]` addiction to drugs
+#'   * `[31]` aids
+#'   * `[35]` multiple sclerosis
+#'   * `[60]` heart
+#'   * `[61]` kidneys
+#'   * `[62]` siamese twins
+#'   * `[70]` incurable disease
+#'   * `[71]` tourettes syndrome
+#'   * `[72]` sexual transmitted diseases
+#'   * `[73]` diabetes
+#'   * `[74]` birth defects
+#'   * `[75]` cancer
+#'   * `[76]` psychological problems
+#'   * `[77]` neurological problems
+#'   * `[78]` hydrocephalus
+#'   * `[79]` huntingtons chorea
+#'   * `[80]` tay-sachs
+#'   * `[81]` reyes syndrome
+#'   * `[90]` unable to take care of self
+#'   * `[95]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

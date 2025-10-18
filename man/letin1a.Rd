@@ -10,17 +10,17 @@ General Social Survey https://gss.norc.org
 letin1a
 }
 \details{
-Question Do you think the number of immigrants to America nowadays should beâ€¦
+Question Do you think the number of immigrants to America nowadays should be…
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} increased a lot
-\item \code{2} increased a little
-\item \code{3} remain the same as it is
-\item \code{4} reduced a little
-\item \code{5} reduced a lot
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} increased a lot
+\item \verb{[2]} increased a little
+\item \verb{[3]} remain the same as it is
+\item \verb{[4]} reduced a little
+\item \verb{[5]} reduced a lot
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

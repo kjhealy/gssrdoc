@@ -6,11 +6,11 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 1 month
-#'   * `11` 11 months
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 1 month
+#'   * `[11]` 11 months
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -47,14 +47,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` no active duty
-#'   * `1` yes, less than 2 years
-#'   * `2` yes, 2-4 years
-#'   * `3` yes, more than 4 years
-#'   * `4` some, don't know how long
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` no active duty
+#'   * `[1]` yes, less than 2 years
+#'   * `[2]` yes, 2-4 years
+#'   * `[3]` yes, more than 4 years
+#'   * `[4]` some, don't know how long
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                          |
@@ -112,18 +112,18 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` several
-#'   * `1` air force guard
-#'   * `2` air force
-#'   * `3` navy
-#'   * `4` army
-#'   * `5` national guard
-#'   * `6` marines
-#'   * `7` coast guard
-#'   * `8` public health
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` several
+#'   * `[1]` air force guard
+#'   * `[2]` air force
+#'   * `[3]` navy
+#'   * `[4]` army
+#'   * `[5]` national guard
+#'   * `[6]` marines
+#'   * `[7]` coast guard
+#'   * `[8]` public health
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                    |
@@ -163,14 +163,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` mon to fri
-#'   * `2` mon to fri,sat
-#'   * `3` mon to fri,sun
-#'   * `4` wkend plus
-#'   * `5` no schedule
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` mon to fri
+#'   * `[2]` mon to fri,sat
+#'   * `[3]` mon to fri,sun
+#'   * `[4]` wkend plus
+#'   * `[5]` no schedule
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -204,14 +204,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reg day
-#'   * `2` eve
-#'   * `3` nights
-#'   * `4` varies
-#'   * `5` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reg day
+#'   * `[2]` eve
+#'   * `[3]` nights
+#'   * `[4]` varies
+#'   * `[5]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -245,14 +245,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` mon to fri
-#'   * `2` mon to fri,sat
-#'   * `3` mon to fri,sun
-#'   * `4` wkend plus
-#'   * `5` no schedule
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` mon to fri
+#'   * `[2]` mon to fri,sat
+#'   * `[3]` mon to fri,sun
+#'   * `[4]` wkend plus
+#'   * `[5]` no schedule
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -286,14 +286,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` reg day
-#'   * `2` eve
-#'   * `3` nights
-#'   * `4` varies
-#'   * `5` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` reg day
+#'   * `[2]` eve
+#'   * `[3]` nights
+#'   * `[4]` varies
+#'   * `[5]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -327,19 +327,19 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` trailer
-#'   * `2` detached single family house
-#'   * `3` 2-family house, 2 units side-by-side
-#'   * `4` 2-family house, 2 units one above the other
-#'   * `5` detached 3-4 family house
-#'   * `6` row house (3 or more units in an attached row)
-#'   * `7` apartment house (5 or more units, 3 stories or less)
-#'   * `8` apartment house (5 or more units, 4 stories or more)
-#'   * `9` apartment in a partly commercial structure
-#'   * `10` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` trailer
+#'   * `[2]` detached single family house
+#'   * `[3]` 2-family house, 2 units side-by-side
+#'   * `[4]` 2-family house, 2 units one above the other
+#'   * `[5]` detached 3-4 family house
+#'   * `[6]` row house (3 or more units in an attached row)
+#'   * `[7]` apartment house (5 or more units, 3 stories or less)
+#'   * `[8]` apartment house (5 or more units, 4 stories or more)
+#'   * `[9]` apartment in a partly commercial structure
+#'   * `[10]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                      |
@@ -399,14 +399,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` far above average
-#'   * `2` above average
-#'   * `3` average
-#'   * `4` below average
-#'   * `5` far below average
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` far above average
+#'   * `[2]` above average
+#'   * `[3]` average
+#'   * `[4]` below average
+#'   * `[5]` far below average
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -442,14 +442,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` far above average
-#'   * `2` above average
-#'   * `3` average
-#'   * `4` below average
-#'   * `5` far below average
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` far above average
+#'   * `[2]` above average
+#'   * `[3]` average
+#'   * `[4]` below average
+#'   * `[5]` far below average
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |

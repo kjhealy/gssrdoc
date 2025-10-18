@@ -20,513 +20,513 @@ E. IF ALREADY ANSWERED, CODE WITHOUT ASKING:  (Is/was) (s/he) self-employed or (
 \section{Values}{
 
 \itemize{
-\item \code{3} legislators
-\item \code{4} chief executives and general admin., public admin
-\item \code{5} administrators and officials, public administration
-\item \code{6} administrators, protective service
-\item \code{7} financial managers
-\item \code{8} personnel and labor relations managers
-\item \code{9} purchasing managers
-\item \code{13} managers, marketing, advertising, and public relations
-\item \code{14} administrators, education and related fields
-\item \code{15} managers, medicine and health
-\item \code{16} managers, properties and real estate
-\item \code{17} postmasters and mail superintendents
-\item \code{18} funeral directors
-\item \code{19} managers and administrators, n.e.c.
-\item \code{23} accountants and auditors
-\item \code{24} underwriters
-\item \code{25} other financial officers
-\item \code{26} management analysts
-\item \code{27} personnel, training, and labor relations specialists
-\item \code{28} purchasing agents and buyers, farm products
-\item \code{29} buyers, wholesale and retail trade except farm products
-\item \code{33} purchasing agents and buyers
-\item \code{34} business and promotion agents
-\item \code{35} construction inspectors
-\item \code{36} inspectors/compliance officers, except construction
-\item \code{37} management related occupations, n.e.c.
-\item \code{43} architects
-\item \code{44} aerospace engineers
-\item \code{45} metallurgical and materials engineers
-\item \code{46} mining engineers
-\item \code{47} petroleum engineers
-\item \code{48} chemical engineers
-\item \code{49} nuclear engineers
-\item \code{53} civil engineers
-\item \code{54} agricultural engineers
-\item \code{55} electrical and electronic engineers
-\item \code{56} industrial engineers
-\item \code{57} mechanical engineers
-\item \code{58} marine and naval architects
-\item \code{59} engineers, n.e.c.
-\item \code{63} surveyors and mapping scientists
-\item \code{64} computer systems analysts and scientists
-\item \code{65} operations and systems researchers and analysts
-\item \code{66} actuaries
-\item \code{67} statisticians
-\item \code{68} mathematical scientists, n.e.c.
-\item \code{69} physicists and astronomers
-\item \code{73} chemists, except biochemists
-\item \code{74} atmospheric and space scientists
-\item \code{75} geologists and geodesists
-\item \code{76} physical scientists, n.e.c.
-\item \code{77} agricultural and food scientists
-\item \code{78} biological and life scientists
-\item \code{79} forestry and conservation scientists
-\item \code{83} medical scientists
-\item \code{84} physicians
-\item \code{85} dentists
-\item \code{86} veterinarians
-\item \code{87} optometrists
-\item \code{88} podiatrists
-\item \code{89} health diagnosing practitioners, n.e.c.
-\item \code{95} registered nurses
-\item \code{96} pharmacists
-\item \code{97} dietitians
-\item \code{98} inhalation therapists
-\item \code{99} occupational therapists
-\item \code{103} physical therapists
-\item \code{104} speech therapists
-\item \code{105} therapists, n.e.c.
-\item \code{106} physicians' assistants
-\item \code{113} earth, environmental, and marine science teachers
-\item \code{114} biological science teachers
-\item \code{115} chemistry teachers
-\item \code{116} physics teachers
-\item \code{117} natural science teachers, n.e.c.
-\item \code{118} psychology teachers
-\item \code{119} economics teachers
-\item \code{123} history teachers
-\item \code{124} political science teachers
-\item \code{125} sociology teachers
-\item \code{126} social science teachers, n.e.c.
-\item \code{127} engineering teachers
-\item \code{128} mathematical science teachers
-\item \code{129} computer science teachers
-\item \code{133} medical science teachers
-\item \code{134} health specialties teachers
-\item \code{135} business, commerce, and marketing teachers
-\item \code{136} agriculture and forestry teachers
-\item \code{137} art, drama, and music teachers
-\item \code{138} physical education teachers
-\item \code{139} education teachers
-\item \code{143} english teachers
-\item \code{144} foreign language teachers
-\item \code{145} law teachers
-\item \code{146} social work teachers
-\item \code{147} theology teachers
-\item \code{148} trade and industrial teachers
-\item \code{149} home economics teachers
-\item \code{153} teachers, postsecondary, n.e.c.
-\item \code{154} postsecondary teachers, subject not specified
-\item \code{155} teachers, prekindergarten and kindergarten
-\item \code{156} teachers, elementary school
-\item \code{157} teachers, secondary school
-\item \code{158} teachers, special education
-\item \code{159} teachers, n.e.c.
-\item \code{163} counselors, educational and vocational
-\item \code{164} librarians
-\item \code{165} archivists and curators
-\item \code{166} economists
-\item \code{167} psychologists
-\item \code{168} sociologists
-\item \code{169} social scientists, n.e.c.
-\item \code{173} urban planners
-\item \code{174} social workers
-\item \code{175} recreation workers
-\item \code{176} clergy
-\item \code{177} religious workers, n.e.c.
-\item \code{178} lawyers
-\item \code{179} judges
-\item \code{183} authors
-\item \code{184} technical writers
-\item \code{185} designers
-\item \code{186} musicians and composers
-\item \code{187} actors and directors
-\item \code{188} painters, sculptors, craft-artists, and printmakers
-\item \code{189} photographers
-\item \code{193} dancers
-\item \code{194} artists, performers, and related workers, n.e.c.
-\item \code{195} editors and reporters
-\item \code{197} public relations specialists
-\item \code{198} announcers
-\item \code{199} athletes
-\item \code{203} clinical laboratory technologists and technicians
-\item \code{204} dental hygienists
-\item \code{205} health record technologists and technicians
-\item \code{206} radiologic technicians
-\item \code{207} licensed practical nurses
-\item \code{208} health technologists and technicians, n.e.c.
-\item \code{213} electrical and electronic technicians
-\item \code{214} industrial engineering technicians
-\item \code{215} mechanical engineering technicians
-\item \code{216} engineering technicians, n.e.c.
-\item \code{217} drafting occupations
-\item \code{218} surveying and mapping technicians
-\item \code{223} biological technicians
-\item \code{224} chemical technicians
-\item \code{225} science technicians, n.e.c.
-\item \code{226} airplane pilots and navigators
-\item \code{227} air traffic controllers
-\item \code{228} broadcast equipment operators
-\item \code{229} computer programmers
-\item \code{233} tool programmers, numerical control
-\item \code{234} legal assistants
-\item \code{235} technicians, n.e.c.
-\item \code{243} supervisors and proprietors, sales occupations
-\item \code{253} insurance sales occupations
-\item \code{254} real estate sales occupations
-\item \code{255} securities and financial services sales occupations
-\item \code{256} advertising and related sales occupations
-\item \code{257} sales occupations, other business services
-\item \code{258} sales engineers
-\item \code{259} sales rep., mining, manufacturing, and wholesale
-\item \code{263} sales workers, motor vehicles and boats
-\item \code{264} sales workers, apparel
-\item \code{265} sales workers, shoes
-\item \code{266} sales workers, furniture and home furnishings
-\item \code{267} sales workers, radio, tv, hi-fi, and appliances
-\item \code{268} sales workers, hardware and building supplies
-\item \code{269} sales workers, parts
-\item \code{274} sales workers, other commodities
-\item \code{275} sales counter clerks
-\item \code{276} cashiers
-\item \code{277} street and door-to-door sales workers
-\item \code{278} news vendors
-\item \code{283} demonstrators, promoters and models, sales
-\item \code{284} auctioneers
-\item \code{285} sales support occupations, n.e.c.
-\item \code{303} supervisors, general office
-\item \code{304} supervisors, computer equipment operators
-\item \code{305} supervisors, financial records processing
-\item \code{306} chief communications operators
-\item \code{307} supervisors, distribution, scheduling, and adjusting clerks
-\item \code{308} computer operators
-\item \code{309} peripheral equipment operators
-\item \code{313} secretaries
-\item \code{314} stenographers
-\item \code{315} typists
-\item \code{316} interviewers
-\item \code{317} hotel clerks
-\item \code{318} transportation ticket and reservation agents
-\item \code{319} receptionists
-\item \code{323} information clerks, n.e.c.
-\item \code{325} classified-ad clerks
-\item \code{326} correspondence clerks
-\item \code{327} order clerks
-\item \code{328} personnel clerks, except payroll and timekeeping
-\item \code{329} library clerks
-\item \code{335} file clerks
-\item \code{336} records clerks
-\item \code{337} bookkeepers, accounting and auditing clerks
-\item \code{338} payroll and timekeeping clerks
-\item \code{339} billing clerks
-\item \code{343} cost and rate clerks
-\item \code{344} billing, posting, and calculating machine operators
-\item \code{345} duplicating machine operators
-\item \code{346} mail preparing and paper handling machine operators
-\item \code{347} office machine operators, n.e.c.
-\item \code{348} telephone operators
-\item \code{349} telegraphers
-\item \code{353} communications equipment operators, n.e.c.
-\item \code{354} postal clerks, excluding mail carriers
-\item \code{355} mail carriers, postal service
-\item \code{356} mail clerks, excluding postal service
-\item \code{357} messengers
-\item \code{359} dispatchers
-\item \code{363} production coordinators
-\item \code{364} traffic, shipping and receiving clerks
-\item \code{365} stock and inventory clerks
-\item \code{366} meter readers
-\item \code{368} weighers, measurers, and checkers
-\item \code{369} samplers
-\item \code{373} expediters
-\item \code{374} material recording, scheduling and distributing clerks, n.e.c.
-\item \code{375} insurance adjusters, examiners, and investigators
-\item \code{376} investigators and adjusters, except insurance
-\item \code{377} eligibility clerks, social welfare
-\item \code{378} bill and account collectors
-\item \code{379} general office clerks
-\item \code{383} bank tellers
-\item \code{384} proofreaders
-\item \code{385} data-entry keyers
-\item \code{386} statistical clerks
-\item \code{387} teachers' aides
-\item \code{389} administrative support occupations, n.e.c.
-\item \code{403} launderers and ironers
-\item \code{404} cooks, private household
-\item \code{405} housekeepers and butlers
-\item \code{406} child care workers, private household
-\item \code{407} private household cleaners and servants
-\item \code{413} supervisors, firefighting and fire prevention occupations
-\item \code{414} supervisors, police and detectives
-\item \code{415} supervisors, guards
-\item \code{416} fire inspection and fire prevention occupations
-\item \code{417} firefighting occupations
-\item \code{418} police and detectives, public service
-\item \code{423} sheriffs, bailiffs, and other law enforcement officers
-\item \code{424} correctional institution officers
-\item \code{425} crossing guards
-\item \code{426} guards and police, excluding public service
-\item \code{427} protective service occupations
-\item \code{430} former member of the armed forces
-\item \code{431} current member of the armed forces
-\item \code{433} supervisors, food preparation and service occupations
-\item \code{434} bartenders
-\item \code{435} waiters and waitresses
-\item \code{436} cooks, except short order
-\item \code{437} short-order cooks
-\item \code{438} food counter, fountain and related occupations
-\item \code{439} kitchen workers, food preparation
-\item \code{443} waiters'/waitresses' assistants
-\item \code{444} miscellaneous food preparation occupations
-\item \code{445} dental assistants
-\item \code{446} health aids, except nursing
-\item \code{447} nursing aides, orderlies and attendants
-\item \code{448} supervisors, cleaning and building service workers
-\item \code{449} maids and housemen
-\item \code{453} janitors and cleaners
-\item \code{454} elevator operators
-\item \code{455} pest control occupations
-\item \code{456} supervisors, personal service occupations
-\item \code{457} barbers
-\item \code{458} hairdressers and cosmetologists
-\item \code{459} attendants, amusement and recreation facilities
-\item \code{463} guides
-\item \code{464} ushers
-\item \code{465} public transportation attendants
-\item \code{466} baggage porters and bellhops
-\item \code{467} welfare service aides
-\item \code{468} child care workers, except private household
-\item \code{469} personal service occupations, n.e.c.
-\item \code{473} farmers, except horticultural
-\item \code{474} horticultural specialty farmers
-\item \code{475} managers, farms, except horticultural
-\item \code{476} managers, horticultural specialty farms
-\item \code{477} supervisors, farm workers
-\item \code{479} farm workers
-\item \code{483} marine life cultivation workers
-\item \code{484} nursery workers
-\item \code{485} supervisors, related agricultural occupations
-\item \code{486} groundskeepers and gardeners, except farm
-\item \code{487} animal caretakers, except farm
-\item \code{488} graders and sorters, agricultural products
-\item \code{489} inspectors, agricultural products
-\item \code{494} supervisors, forestry and logging workers
-\item \code{495} forestry workers, except logging
-\item \code{496} timber cutting and logging occupations
-\item \code{497} captains and other officers, fishing vessels
-\item \code{498} fishers
-\item \code{499} hunters and trappers
-\item \code{503} supervisors, mechanics and repairers
-\item \code{505} automobile mechanics, except apprentices
-\item \code{506} automobile mechanic apprentices
-\item \code{507} bus, truck, and stationary engine mechanics
-\item \code{508} aircraft engine mechanics
-\item \code{509} small engine repairers
-\item \code{514} automobile body and related repairers
-\item \code{515} aircraft mechanics, excluding engine
-\item \code{516} heavy equipment mechanics
-\item \code{517} farm equipment mechanics
-\item \code{518} industrial machinery repairers
-\item \code{519} machinery maintenance occupations
-\item \code{523} electronic repairers, communications and industrial equipment
-\item \code{525} data processing equipment repairers
-\item \code{526} household appliance and power tool repairers
-\item \code{527} telephone line installers and repairers
-\item \code{529} telephone installers and repairers
-\item \code{533} misc. electrical and electronic equipment repairers
-\item \code{534} heating, air conditioning, and refrigeration mechanics
-\item \code{535} camera, watch, and musical instrument repairers
-\item \code{536} locksmiths and safe repairers
-\item \code{538} office machine repairers
-\item \code{539} mechanical controls and valve repairers
-\item \code{543} elevator installers and repairers
-\item \code{544} millwrights
-\item \code{547} specified mechanics and repairers, n.e.c.
-\item \code{549} not specified mechanics and repairers
-\item \code{553} supervisors, brickmasons, stonemasons, and title setters
-\item \code{554} supervisors, carpenters and related work
-\item \code{555} supervisors, electricians and power transmission installers
-\item \code{556} supervisors, painters, paperhangers, and plasterers
-\item \code{557} supervisors, plumbers, pipefitters, and steamfitters
-\item \code{558} supervisors, n.e.c.
-\item \code{563} brickmasons and stonemasons, except apprentices
-\item \code{564} brickmasons and stonemasons apprentices
-\item \code{565} tile setters, hard and soft
-\item \code{566} carpet installers
-\item \code{567} carpenters, except apprentices
-\item \code{569} carpenter apprentices
-\item \code{573} drywall installers
-\item \code{575} electricians, except apprentices
-\item \code{576} electrician apprentices
-\item \code{577} electrical power installers and repairers
-\item \code{579} painters, construction and maintenance
-\item \code{583} paperhangers
-\item \code{584} plasterers
-\item \code{585} plumbers, pipefitters, and steamfitters, except apprentices
-\item \code{587} plumber, pipefitter, and steamfitter apprentices
-\item \code{588} concrete and terrazzo finishers
-\item \code{589} glaziers
-\item \code{593} insulation workers
-\item \code{594} paving, surfacing, and tamping equipment operators
-\item \code{595} roofers
-\item \code{596} sheetmetal duct installers
-\item \code{597} structural metal workers
-\item \code{598} drillers, earth
-\item \code{599} construction trades, n.e.c.
-\item \code{613} supervisors, extractive occupations
-\item \code{614} drillers, oil well
-\item \code{615} explosives workers
-\item \code{616} mining machine operators
-\item \code{617} mining occupations, n.e.c.
-\item \code{633} supervisors, production occupations
-\item \code{634} tool and die makers, except apprentices
-\item \code{635} tool and die maker apprentices
-\item \code{636} precision assemblers, metal
-\item \code{637} machinists, except apprentices
-\item \code{639} machinist apprentices
-\item \code{643} boilermakers
-\item \code{644} precision grinders, fitters, and tool sharpeners
-\item \code{645} patternmakers and model makers, metal
-\item \code{646} lay-out workers
-\item \code{647} precious stones and metals workers
-\item \code{649} engravers, metal
-\item \code{653} sheet metal workers, except apprentices
-\item \code{654} sheet metal worker, apprentices
-\item \code{655} miscellaneous precision metal workers
-\item \code{656} patternmakers and model makers, wood
-\item \code{657} cabinet makers and bench carpenters
-\item \code{658} furniture and wood finishers
-\item \code{659} miscellaneous precision woodworkers
-\item \code{666} dressmakers
-\item \code{667} tailors
-\item \code{668} upholsterers
-\item \code{669} shoe repairers
-\item \code{673} apparel and fabric patternmakers
-\item \code{674} miscellaneous precision apparel and fabric workers
-\item \code{675} hand molders and shapers, except jewelers
-\item \code{676} patternmakers, lay-out workers, and cutters
-\item \code{677} optical goods workers
-\item \code{678} dental laboratory and medical appliance technicians
-\item \code{679} bookbinders
-\item \code{683} electrical and electronic equipment assemblers
-\item \code{684} miscellaneous precision workers, n.e.c.
-\item \code{686} butchers and meat cutters
-\item \code{687} bakers
-\item \code{688} food batchmakers
-\item \code{689} inspectors, testers, and graders
-\item \code{693} adjusters and calibrators
-\item \code{694} water and sewage treatment plant operators
-\item \code{695} power plant operators
-\item \code{696} stationary engineers
-\item \code{699} miscellaneous plant and system operators
-\item \code{703} lathe and turning machine set-up operators
-\item \code{704} lathe and turning machine operators
-\item \code{705} milling and planing machine operators
-\item \code{706} punching and stamping press machine operators
-\item \code{707} rolling machine operators
-\item \code{708} drilling and boring machine operators
-\item \code{709} grinding, abrading, buffing, and polishing machine operators
-\item \code{713} forging machine operators
-\item \code{715} miscellaneous metal, plastic, stone, and glass working machine operators
-\item \code{717} fabricating machine operators, n.e.c.
-\item \code{719} molding and casting machine operators
-\item \code{723} metal plating machine operators
-\item \code{724} heat treating equipment operators
-\item \code{725} miscellaneous metal and plastic processing machine operators
-\item \code{726} wood lathe, routing and planing machine operators
-\item \code{727} sawing machine operators
-\item \code{728} shaping and joining machine operators
-\item \code{729} nailing and tacking machine operators
-\item \code{733} miscellaneous woodworking machine operators
-\item \code{734} printing machine operators
-\item \code{735} photoengravers and lithographers
-\item \code{736} typesetters and compositors
-\item \code{737} miscellaneous printing machine operators
-\item \code{738} winding and twisting machine operators
-\item \code{739} knitting, looping, taping, and weaving machine operators
-\item \code{743} textile cutting machine operators
-\item \code{744} textile sewing machine operators
-\item \code{745} shoe machine operators
-\item \code{747} pressing machine operators
-\item \code{748} laundering and dry cleaning machine operators
-\item \code{749} miscellaneous textile machine operators
-\item \code{753} cementing and gluing machine operators
-\item \code{754} packaging and filling machine operators
-\item \code{755} extruding and forming machine operators
-\item \code{756} mixing and blending machine operators
-\item \code{757} separating, filtering, and clarifying machine operators
-\item \code{758} compressing and compacting machine operators
-\item \code{759} painting and paint spraying machine operators
-\item \code{763} roasting and baking machine operators, food
-\item \code{764} washing, cleaning, and pickling machine operators
-\item \code{765} folding machine operators
-\item \code{766} furnace, kiln, and oven operators, except food
-\item \code{768} crushing and grinding machine operators
-\item \code{769} slicing and cutting machine operators
-\item \code{773} motion picture projectionists
-\item \code{774} photographic process machine operators
-\item \code{777} miscellaneous and not specified machine operators, n.e.c.
-\item \code{779} machine operators, not specified
-\item \code{783} welders and cutters
-\item \code{784} solderers and blazers
-\item \code{785} assemblers
-\item \code{786} hand cutting and trimming occupations
-\item \code{787} hand molding, casting, and forming occupations
-\item \code{789} hand painting,coating, and decorating occupations
-\item \code{793} hand engraving and printing occupations
-\item \code{794} hand grinding and polishing occupations
-\item \code{795} miscellaneous hand working occupations
-\item \code{796} production inspectors, checkers, and examiners
-\item \code{797} production testers
-\item \code{798} production samplers and weighers
-\item \code{799} graders and sorters, except agricultural
-\item \code{803} supervisors, motor vehicle operators
-\item \code{804} truck drivers, heavy
-\item \code{805} truck drivers, light
-\item \code{806} driver-sales workers
-\item \code{808} bus drivers
-\item \code{809} taxicab drivers and chauffeurs
-\item \code{813} parking lot attendants
-\item \code{814} motor transportation occupations, n.e.c.
-\item \code{823} railroad conductors and yardmasters
-\item \code{824} locomotive operating occupations
-\item \code{825} railroad brake, signal, and switch operators
-\item \code{826} rail vehicle operators, n.e.c.
-\item \code{828} ship captains and mates, except fishing boats
-\item \code{829} sailors and deckhands
-\item \code{833} marine engineers
-\item \code{834} bridge, lock and lighthouse tenders
-\item \code{843} supervisors, material moving equipment operators
-\item \code{844} operating engineers
-\item \code{845} longshore equipment operators
-\item \code{848} hoist and winch operators
-\item \code{849} crane and tower operators
-\item \code{853} excavating and loading machine operators
-\item \code{855} grader, dozer, and scraper operators
-\item \code{856} industrial truck and tractor equipment operators
-\item \code{859} miscellaneous material moving equipment operators
-\item \code{863} handlers, equipment cleaners, helpers, and laborers, n.e.c.
-\item \code{864} helpers, mechanics and repairers
-\item \code{865} helpers, construction trades
-\item \code{866} helpers, surveyor
-\item \code{867} helpers, extractive occupations
-\item \code{869} construction laborers
-\item \code{873} production helpers
-\item \code{875} garbage collectors
-\item \code{876} stevedores
-\item \code{877} stock handlers and baggers
-\item \code{878} machine feeders and offbearers
-\item \code{883} freight, stock, and material handlers, n.e.c.
-\item \code{885} garage and service station related occupations
-\item \code{887} vehicle washers and equipment cleaners
-\item \code{888} hand packers and packagers
-\item \code{889} laborers, except construction
-\item \code{998} dk
-\item \code{999} na
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[3]} legislators
+\item \verb{[4]} chief executives and general admin., public admin
+\item \verb{[5]} administrators and officials, public administration
+\item \verb{[6]} administrators, protective service
+\item \verb{[7]} financial managers
+\item \verb{[8]} personnel and labor relations managers
+\item \verb{[9]} purchasing managers
+\item \verb{[13]} managers, marketing, advertising, and public relations
+\item \verb{[14]} administrators, education and related fields
+\item \verb{[15]} managers, medicine and health
+\item \verb{[16]} managers, properties and real estate
+\item \verb{[17]} postmasters and mail superintendents
+\item \verb{[18]} funeral directors
+\item \verb{[19]} managers and administrators, n.e.c.
+\item \verb{[23]} accountants and auditors
+\item \verb{[24]} underwriters
+\item \verb{[25]} other financial officers
+\item \verb{[26]} management analysts
+\item \verb{[27]} personnel, training, and labor relations specialists
+\item \verb{[28]} purchasing agents and buyers, farm products
+\item \verb{[29]} buyers, wholesale and retail trade except farm products
+\item \verb{[33]} purchasing agents and buyers
+\item \verb{[34]} business and promotion agents
+\item \verb{[35]} construction inspectors
+\item \verb{[36]} inspectors/compliance officers, except construction
+\item \verb{[37]} management related occupations, n.e.c.
+\item \verb{[43]} architects
+\item \verb{[44]} aerospace engineers
+\item \verb{[45]} metallurgical and materials engineers
+\item \verb{[46]} mining engineers
+\item \verb{[47]} petroleum engineers
+\item \verb{[48]} chemical engineers
+\item \verb{[49]} nuclear engineers
+\item \verb{[53]} civil engineers
+\item \verb{[54]} agricultural engineers
+\item \verb{[55]} electrical and electronic engineers
+\item \verb{[56]} industrial engineers
+\item \verb{[57]} mechanical engineers
+\item \verb{[58]} marine and naval architects
+\item \verb{[59]} engineers, n.e.c.
+\item \verb{[63]} surveyors and mapping scientists
+\item \verb{[64]} computer systems analysts and scientists
+\item \verb{[65]} operations and systems researchers and analysts
+\item \verb{[66]} actuaries
+\item \verb{[67]} statisticians
+\item \verb{[68]} mathematical scientists, n.e.c.
+\item \verb{[69]} physicists and astronomers
+\item \verb{[73]} chemists, except biochemists
+\item \verb{[74]} atmospheric and space scientists
+\item \verb{[75]} geologists and geodesists
+\item \verb{[76]} physical scientists, n.e.c.
+\item \verb{[77]} agricultural and food scientists
+\item \verb{[78]} biological and life scientists
+\item \verb{[79]} forestry and conservation scientists
+\item \verb{[83]} medical scientists
+\item \verb{[84]} physicians
+\item \verb{[85]} dentists
+\item \verb{[86]} veterinarians
+\item \verb{[87]} optometrists
+\item \verb{[88]} podiatrists
+\item \verb{[89]} health diagnosing practitioners, n.e.c.
+\item \verb{[95]} registered nurses
+\item \verb{[96]} pharmacists
+\item \verb{[97]} dietitians
+\item \verb{[98]} inhalation therapists
+\item \verb{[99]} occupational therapists
+\item \verb{[103]} physical therapists
+\item \verb{[104]} speech therapists
+\item \verb{[105]} therapists, n.e.c.
+\item \verb{[106]} physicians' assistants
+\item \verb{[113]} earth, environmental, and marine science teachers
+\item \verb{[114]} biological science teachers
+\item \verb{[115]} chemistry teachers
+\item \verb{[116]} physics teachers
+\item \verb{[117]} natural science teachers, n.e.c.
+\item \verb{[118]} psychology teachers
+\item \verb{[119]} economics teachers
+\item \verb{[123]} history teachers
+\item \verb{[124]} political science teachers
+\item \verb{[125]} sociology teachers
+\item \verb{[126]} social science teachers, n.e.c.
+\item \verb{[127]} engineering teachers
+\item \verb{[128]} mathematical science teachers
+\item \verb{[129]} computer science teachers
+\item \verb{[133]} medical science teachers
+\item \verb{[134]} health specialties teachers
+\item \verb{[135]} business, commerce, and marketing teachers
+\item \verb{[136]} agriculture and forestry teachers
+\item \verb{[137]} art, drama, and music teachers
+\item \verb{[138]} physical education teachers
+\item \verb{[139]} education teachers
+\item \verb{[143]} english teachers
+\item \verb{[144]} foreign language teachers
+\item \verb{[145]} law teachers
+\item \verb{[146]} social work teachers
+\item \verb{[147]} theology teachers
+\item \verb{[148]} trade and industrial teachers
+\item \verb{[149]} home economics teachers
+\item \verb{[153]} teachers, postsecondary, n.e.c.
+\item \verb{[154]} postsecondary teachers, subject not specified
+\item \verb{[155]} teachers, prekindergarten and kindergarten
+\item \verb{[156]} teachers, elementary school
+\item \verb{[157]} teachers, secondary school
+\item \verb{[158]} teachers, special education
+\item \verb{[159]} teachers, n.e.c.
+\item \verb{[163]} counselors, educational and vocational
+\item \verb{[164]} librarians
+\item \verb{[165]} archivists and curators
+\item \verb{[166]} economists
+\item \verb{[167]} psychologists
+\item \verb{[168]} sociologists
+\item \verb{[169]} social scientists, n.e.c.
+\item \verb{[173]} urban planners
+\item \verb{[174]} social workers
+\item \verb{[175]} recreation workers
+\item \verb{[176]} clergy
+\item \verb{[177]} religious workers, n.e.c.
+\item \verb{[178]} lawyers
+\item \verb{[179]} judges
+\item \verb{[183]} authors
+\item \verb{[184]} technical writers
+\item \verb{[185]} designers
+\item \verb{[186]} musicians and composers
+\item \verb{[187]} actors and directors
+\item \verb{[188]} painters, sculptors, craft-artists, and printmakers
+\item \verb{[189]} photographers
+\item \verb{[193]} dancers
+\item \verb{[194]} artists, performers, and related workers, n.e.c.
+\item \verb{[195]} editors and reporters
+\item \verb{[197]} public relations specialists
+\item \verb{[198]} announcers
+\item \verb{[199]} athletes
+\item \verb{[203]} clinical laboratory technologists and technicians
+\item \verb{[204]} dental hygienists
+\item \verb{[205]} health record technologists and technicians
+\item \verb{[206]} radiologic technicians
+\item \verb{[207]} licensed practical nurses
+\item \verb{[208]} health technologists and technicians, n.e.c.
+\item \verb{[213]} electrical and electronic technicians
+\item \verb{[214]} industrial engineering technicians
+\item \verb{[215]} mechanical engineering technicians
+\item \verb{[216]} engineering technicians, n.e.c.
+\item \verb{[217]} drafting occupations
+\item \verb{[218]} surveying and mapping technicians
+\item \verb{[223]} biological technicians
+\item \verb{[224]} chemical technicians
+\item \verb{[225]} science technicians, n.e.c.
+\item \verb{[226]} airplane pilots and navigators
+\item \verb{[227]} air traffic controllers
+\item \verb{[228]} broadcast equipment operators
+\item \verb{[229]} computer programmers
+\item \verb{[233]} tool programmers, numerical control
+\item \verb{[234]} legal assistants
+\item \verb{[235]} technicians, n.e.c.
+\item \verb{[243]} supervisors and proprietors, sales occupations
+\item \verb{[253]} insurance sales occupations
+\item \verb{[254]} real estate sales occupations
+\item \verb{[255]} securities and financial services sales occupations
+\item \verb{[256]} advertising and related sales occupations
+\item \verb{[257]} sales occupations, other business services
+\item \verb{[258]} sales engineers
+\item \verb{[259]} sales rep., mining, manufacturing, and wholesale
+\item \verb{[263]} sales workers, motor vehicles and boats
+\item \verb{[264]} sales workers, apparel
+\item \verb{[265]} sales workers, shoes
+\item \verb{[266]} sales workers, furniture and home furnishings
+\item \verb{[267]} sales workers, radio, tv, hi-fi, and appliances
+\item \verb{[268]} sales workers, hardware and building supplies
+\item \verb{[269]} sales workers, parts
+\item \verb{[274]} sales workers, other commodities
+\item \verb{[275]} sales counter clerks
+\item \verb{[276]} cashiers
+\item \verb{[277]} street and door-to-door sales workers
+\item \verb{[278]} news vendors
+\item \verb{[283]} demonstrators, promoters and models, sales
+\item \verb{[284]} auctioneers
+\item \verb{[285]} sales support occupations, n.e.c.
+\item \verb{[303]} supervisors, general office
+\item \verb{[304]} supervisors, computer equipment operators
+\item \verb{[305]} supervisors, financial records processing
+\item \verb{[306]} chief communications operators
+\item \verb{[307]} supervisors, distribution, scheduling, and adjusting clerks
+\item \verb{[308]} computer operators
+\item \verb{[309]} peripheral equipment operators
+\item \verb{[313]} secretaries
+\item \verb{[314]} stenographers
+\item \verb{[315]} typists
+\item \verb{[316]} interviewers
+\item \verb{[317]} hotel clerks
+\item \verb{[318]} transportation ticket and reservation agents
+\item \verb{[319]} receptionists
+\item \verb{[323]} information clerks, n.e.c.
+\item \verb{[325]} classified-ad clerks
+\item \verb{[326]} correspondence clerks
+\item \verb{[327]} order clerks
+\item \verb{[328]} personnel clerks, except payroll and timekeeping
+\item \verb{[329]} library clerks
+\item \verb{[335]} file clerks
+\item \verb{[336]} records clerks
+\item \verb{[337]} bookkeepers, accounting and auditing clerks
+\item \verb{[338]} payroll and timekeeping clerks
+\item \verb{[339]} billing clerks
+\item \verb{[343]} cost and rate clerks
+\item \verb{[344]} billing, posting, and calculating machine operators
+\item \verb{[345]} duplicating machine operators
+\item \verb{[346]} mail preparing and paper handling machine operators
+\item \verb{[347]} office machine operators, n.e.c.
+\item \verb{[348]} telephone operators
+\item \verb{[349]} telegraphers
+\item \verb{[353]} communications equipment operators, n.e.c.
+\item \verb{[354]} postal clerks, excluding mail carriers
+\item \verb{[355]} mail carriers, postal service
+\item \verb{[356]} mail clerks, excluding postal service
+\item \verb{[357]} messengers
+\item \verb{[359]} dispatchers
+\item \verb{[363]} production coordinators
+\item \verb{[364]} traffic, shipping and receiving clerks
+\item \verb{[365]} stock and inventory clerks
+\item \verb{[366]} meter readers
+\item \verb{[368]} weighers, measurers, and checkers
+\item \verb{[369]} samplers
+\item \verb{[373]} expediters
+\item \verb{[374]} material recording, scheduling and distributing clerks, n.e.c.
+\item \verb{[375]} insurance adjusters, examiners, and investigators
+\item \verb{[376]} investigators and adjusters, except insurance
+\item \verb{[377]} eligibility clerks, social welfare
+\item \verb{[378]} bill and account collectors
+\item \verb{[379]} general office clerks
+\item \verb{[383]} bank tellers
+\item \verb{[384]} proofreaders
+\item \verb{[385]} data-entry keyers
+\item \verb{[386]} statistical clerks
+\item \verb{[387]} teachers' aides
+\item \verb{[389]} administrative support occupations, n.e.c.
+\item \verb{[403]} launderers and ironers
+\item \verb{[404]} cooks, private household
+\item \verb{[405]} housekeepers and butlers
+\item \verb{[406]} child care workers, private household
+\item \verb{[407]} private household cleaners and servants
+\item \verb{[413]} supervisors, firefighting and fire prevention occupations
+\item \verb{[414]} supervisors, police and detectives
+\item \verb{[415]} supervisors, guards
+\item \verb{[416]} fire inspection and fire prevention occupations
+\item \verb{[417]} firefighting occupations
+\item \verb{[418]} police and detectives, public service
+\item \verb{[423]} sheriffs, bailiffs, and other law enforcement officers
+\item \verb{[424]} correctional institution officers
+\item \verb{[425]} crossing guards
+\item \verb{[426]} guards and police, excluding public service
+\item \verb{[427]} protective service occupations
+\item \verb{[430]} former member of the armed forces
+\item \verb{[431]} current member of the armed forces
+\item \verb{[433]} supervisors, food preparation and service occupations
+\item \verb{[434]} bartenders
+\item \verb{[435]} waiters and waitresses
+\item \verb{[436]} cooks, except short order
+\item \verb{[437]} short-order cooks
+\item \verb{[438]} food counter, fountain and related occupations
+\item \verb{[439]} kitchen workers, food preparation
+\item \verb{[443]} waiters'/waitresses' assistants
+\item \verb{[444]} miscellaneous food preparation occupations
+\item \verb{[445]} dental assistants
+\item \verb{[446]} health aids, except nursing
+\item \verb{[447]} nursing aides, orderlies and attendants
+\item \verb{[448]} supervisors, cleaning and building service workers
+\item \verb{[449]} maids and housemen
+\item \verb{[453]} janitors and cleaners
+\item \verb{[454]} elevator operators
+\item \verb{[455]} pest control occupations
+\item \verb{[456]} supervisors, personal service occupations
+\item \verb{[457]} barbers
+\item \verb{[458]} hairdressers and cosmetologists
+\item \verb{[459]} attendants, amusement and recreation facilities
+\item \verb{[463]} guides
+\item \verb{[464]} ushers
+\item \verb{[465]} public transportation attendants
+\item \verb{[466]} baggage porters and bellhops
+\item \verb{[467]} welfare service aides
+\item \verb{[468]} child care workers, except private household
+\item \verb{[469]} personal service occupations, n.e.c.
+\item \verb{[473]} farmers, except horticultural
+\item \verb{[474]} horticultural specialty farmers
+\item \verb{[475]} managers, farms, except horticultural
+\item \verb{[476]} managers, horticultural specialty farms
+\item \verb{[477]} supervisors, farm workers
+\item \verb{[479]} farm workers
+\item \verb{[483]} marine life cultivation workers
+\item \verb{[484]} nursery workers
+\item \verb{[485]} supervisors, related agricultural occupations
+\item \verb{[486]} groundskeepers and gardeners, except farm
+\item \verb{[487]} animal caretakers, except farm
+\item \verb{[488]} graders and sorters, agricultural products
+\item \verb{[489]} inspectors, agricultural products
+\item \verb{[494]} supervisors, forestry and logging workers
+\item \verb{[495]} forestry workers, except logging
+\item \verb{[496]} timber cutting and logging occupations
+\item \verb{[497]} captains and other officers, fishing vessels
+\item \verb{[498]} fishers
+\item \verb{[499]} hunters and trappers
+\item \verb{[503]} supervisors, mechanics and repairers
+\item \verb{[505]} automobile mechanics, except apprentices
+\item \verb{[506]} automobile mechanic apprentices
+\item \verb{[507]} bus, truck, and stationary engine mechanics
+\item \verb{[508]} aircraft engine mechanics
+\item \verb{[509]} small engine repairers
+\item \verb{[514]} automobile body and related repairers
+\item \verb{[515]} aircraft mechanics, excluding engine
+\item \verb{[516]} heavy equipment mechanics
+\item \verb{[517]} farm equipment mechanics
+\item \verb{[518]} industrial machinery repairers
+\item \verb{[519]} machinery maintenance occupations
+\item \verb{[523]} electronic repairers, communications and industrial equipment
+\item \verb{[525]} data processing equipment repairers
+\item \verb{[526]} household appliance and power tool repairers
+\item \verb{[527]} telephone line installers and repairers
+\item \verb{[529]} telephone installers and repairers
+\item \verb{[533]} misc. electrical and electronic equipment repairers
+\item \verb{[534]} heating, air conditioning, and refrigeration mechanics
+\item \verb{[535]} camera, watch, and musical instrument repairers
+\item \verb{[536]} locksmiths and safe repairers
+\item \verb{[538]} office machine repairers
+\item \verb{[539]} mechanical controls and valve repairers
+\item \verb{[543]} elevator installers and repairers
+\item \verb{[544]} millwrights
+\item \verb{[547]} specified mechanics and repairers, n.e.c.
+\item \verb{[549]} not specified mechanics and repairers
+\item \verb{[553]} supervisors, brickmasons, stonemasons, and title setters
+\item \verb{[554]} supervisors, carpenters and related work
+\item \verb{[555]} supervisors, electricians and power transmission installers
+\item \verb{[556]} supervisors, painters, paperhangers, and plasterers
+\item \verb{[557]} supervisors, plumbers, pipefitters, and steamfitters
+\item \verb{[558]} supervisors, n.e.c.
+\item \verb{[563]} brickmasons and stonemasons, except apprentices
+\item \verb{[564]} brickmasons and stonemasons apprentices
+\item \verb{[565]} tile setters, hard and soft
+\item \verb{[566]} carpet installers
+\item \verb{[567]} carpenters, except apprentices
+\item \verb{[569]} carpenter apprentices
+\item \verb{[573]} drywall installers
+\item \verb{[575]} electricians, except apprentices
+\item \verb{[576]} electrician apprentices
+\item \verb{[577]} electrical power installers and repairers
+\item \verb{[579]} painters, construction and maintenance
+\item \verb{[583]} paperhangers
+\item \verb{[584]} plasterers
+\item \verb{[585]} plumbers, pipefitters, and steamfitters, except apprentices
+\item \verb{[587]} plumber, pipefitter, and steamfitter apprentices
+\item \verb{[588]} concrete and terrazzo finishers
+\item \verb{[589]} glaziers
+\item \verb{[593]} insulation workers
+\item \verb{[594]} paving, surfacing, and tamping equipment operators
+\item \verb{[595]} roofers
+\item \verb{[596]} sheetmetal duct installers
+\item \verb{[597]} structural metal workers
+\item \verb{[598]} drillers, earth
+\item \verb{[599]} construction trades, n.e.c.
+\item \verb{[613]} supervisors, extractive occupations
+\item \verb{[614]} drillers, oil well
+\item \verb{[615]} explosives workers
+\item \verb{[616]} mining machine operators
+\item \verb{[617]} mining occupations, n.e.c.
+\item \verb{[633]} supervisors, production occupations
+\item \verb{[634]} tool and die makers, except apprentices
+\item \verb{[635]} tool and die maker apprentices
+\item \verb{[636]} precision assemblers, metal
+\item \verb{[637]} machinists, except apprentices
+\item \verb{[639]} machinist apprentices
+\item \verb{[643]} boilermakers
+\item \verb{[644]} precision grinders, fitters, and tool sharpeners
+\item \verb{[645]} patternmakers and model makers, metal
+\item \verb{[646]} lay-out workers
+\item \verb{[647]} precious stones and metals workers
+\item \verb{[649]} engravers, metal
+\item \verb{[653]} sheet metal workers, except apprentices
+\item \verb{[654]} sheet metal worker, apprentices
+\item \verb{[655]} miscellaneous precision metal workers
+\item \verb{[656]} patternmakers and model makers, wood
+\item \verb{[657]} cabinet makers and bench carpenters
+\item \verb{[658]} furniture and wood finishers
+\item \verb{[659]} miscellaneous precision woodworkers
+\item \verb{[666]} dressmakers
+\item \verb{[667]} tailors
+\item \verb{[668]} upholsterers
+\item \verb{[669]} shoe repairers
+\item \verb{[673]} apparel and fabric patternmakers
+\item \verb{[674]} miscellaneous precision apparel and fabric workers
+\item \verb{[675]} hand molders and shapers, except jewelers
+\item \verb{[676]} patternmakers, lay-out workers, and cutters
+\item \verb{[677]} optical goods workers
+\item \verb{[678]} dental laboratory and medical appliance technicians
+\item \verb{[679]} bookbinders
+\item \verb{[683]} electrical and electronic equipment assemblers
+\item \verb{[684]} miscellaneous precision workers, n.e.c.
+\item \verb{[686]} butchers and meat cutters
+\item \verb{[687]} bakers
+\item \verb{[688]} food batchmakers
+\item \verb{[689]} inspectors, testers, and graders
+\item \verb{[693]} adjusters and calibrators
+\item \verb{[694]} water and sewage treatment plant operators
+\item \verb{[695]} power plant operators
+\item \verb{[696]} stationary engineers
+\item \verb{[699]} miscellaneous plant and system operators
+\item \verb{[703]} lathe and turning machine set-up operators
+\item \verb{[704]} lathe and turning machine operators
+\item \verb{[705]} milling and planing machine operators
+\item \verb{[706]} punching and stamping press machine operators
+\item \verb{[707]} rolling machine operators
+\item \verb{[708]} drilling and boring machine operators
+\item \verb{[709]} grinding, abrading, buffing, and polishing machine operators
+\item \verb{[713]} forging machine operators
+\item \verb{[715]} miscellaneous metal, plastic, stone, and glass working machine operators
+\item \verb{[717]} fabricating machine operators, n.e.c.
+\item \verb{[719]} molding and casting machine operators
+\item \verb{[723]} metal plating machine operators
+\item \verb{[724]} heat treating equipment operators
+\item \verb{[725]} miscellaneous metal and plastic processing machine operators
+\item \verb{[726]} wood lathe, routing and planing machine operators
+\item \verb{[727]} sawing machine operators
+\item \verb{[728]} shaping and joining machine operators
+\item \verb{[729]} nailing and tacking machine operators
+\item \verb{[733]} miscellaneous woodworking machine operators
+\item \verb{[734]} printing machine operators
+\item \verb{[735]} photoengravers and lithographers
+\item \verb{[736]} typesetters and compositors
+\item \verb{[737]} miscellaneous printing machine operators
+\item \verb{[738]} winding and twisting machine operators
+\item \verb{[739]} knitting, looping, taping, and weaving machine operators
+\item \verb{[743]} textile cutting machine operators
+\item \verb{[744]} textile sewing machine operators
+\item \verb{[745]} shoe machine operators
+\item \verb{[747]} pressing machine operators
+\item \verb{[748]} laundering and dry cleaning machine operators
+\item \verb{[749]} miscellaneous textile machine operators
+\item \verb{[753]} cementing and gluing machine operators
+\item \verb{[754]} packaging and filling machine operators
+\item \verb{[755]} extruding and forming machine operators
+\item \verb{[756]} mixing and blending machine operators
+\item \verb{[757]} separating, filtering, and clarifying machine operators
+\item \verb{[758]} compressing and compacting machine operators
+\item \verb{[759]} painting and paint spraying machine operators
+\item \verb{[763]} roasting and baking machine operators, food
+\item \verb{[764]} washing, cleaning, and pickling machine operators
+\item \verb{[765]} folding machine operators
+\item \verb{[766]} furnace, kiln, and oven operators, except food
+\item \verb{[768]} crushing and grinding machine operators
+\item \verb{[769]} slicing and cutting machine operators
+\item \verb{[773]} motion picture projectionists
+\item \verb{[774]} photographic process machine operators
+\item \verb{[777]} miscellaneous and not specified machine operators, n.e.c.
+\item \verb{[779]} machine operators, not specified
+\item \verb{[783]} welders and cutters
+\item \verb{[784]} solderers and blazers
+\item \verb{[785]} assemblers
+\item \verb{[786]} hand cutting and trimming occupations
+\item \verb{[787]} hand molding, casting, and forming occupations
+\item \verb{[789]} hand painting,coating, and decorating occupations
+\item \verb{[793]} hand engraving and printing occupations
+\item \verb{[794]} hand grinding and polishing occupations
+\item \verb{[795]} miscellaneous hand working occupations
+\item \verb{[796]} production inspectors, checkers, and examiners
+\item \verb{[797]} production testers
+\item \verb{[798]} production samplers and weighers
+\item \verb{[799]} graders and sorters, except agricultural
+\item \verb{[803]} supervisors, motor vehicle operators
+\item \verb{[804]} truck drivers, heavy
+\item \verb{[805]} truck drivers, light
+\item \verb{[806]} driver-sales workers
+\item \verb{[808]} bus drivers
+\item \verb{[809]} taxicab drivers and chauffeurs
+\item \verb{[813]} parking lot attendants
+\item \verb{[814]} motor transportation occupations, n.e.c.
+\item \verb{[823]} railroad conductors and yardmasters
+\item \verb{[824]} locomotive operating occupations
+\item \verb{[825]} railroad brake, signal, and switch operators
+\item \verb{[826]} rail vehicle operators, n.e.c.
+\item \verb{[828]} ship captains and mates, except fishing boats
+\item \verb{[829]} sailors and deckhands
+\item \verb{[833]} marine engineers
+\item \verb{[834]} bridge, lock and lighthouse tenders
+\item \verb{[843]} supervisors, material moving equipment operators
+\item \verb{[844]} operating engineers
+\item \verb{[845]} longshore equipment operators
+\item \verb{[848]} hoist and winch operators
+\item \verb{[849]} crane and tower operators
+\item \verb{[853]} excavating and loading machine operators
+\item \verb{[855]} grader, dozer, and scraper operators
+\item \verb{[856]} industrial truck and tractor equipment operators
+\item \verb{[859]} miscellaneous material moving equipment operators
+\item \verb{[863]} handlers, equipment cleaners, helpers, and laborers, n.e.c.
+\item \verb{[864]} helpers, mechanics and repairers
+\item \verb{[865]} helpers, construction trades
+\item \verb{[866]} helpers, surveyor
+\item \verb{[867]} helpers, extractive occupations
+\item \verb{[869]} construction laborers
+\item \verb{[873]} production helpers
+\item \verb{[875]} garbage collectors
+\item \verb{[876]} stevedores
+\item \verb{[877]} stock handlers and baggers
+\item \verb{[878]} machine feeders and offbearers
+\item \verb{[883]} freight, stock, and material handlers, n.e.c.
+\item \verb{[885]} garage and service station related occupations
+\item \verb{[887]} vehicle washers and equipment cleaners
+\item \verb{[888]} hand packers and packagers
+\item \verb{[889]} laborers, except construction
+\item \verb{[998]} dk
+\item \verb{[999]} na
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

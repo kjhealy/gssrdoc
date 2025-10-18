@@ -10,19 +10,19 @@ General Social Survey https://gss.norc.org
 numrelex
 }
 \details{
-Question IF RELEXPER = yes and RELEXP = no, READ: Thinking of the â€œturning point in your life when you made a new and personal commitment to religion,â€ how many such experiences have you had?
+Question IF RELEXPER = yes and RELEXP = no, READ: Thinking of the "turning point in your life when you made a new and personal commitment to religion,â€ how many such experiences have you had?
 READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR?
-IF RELEXPER = no and RELEXP = yes, READ: Thinking of the â€œreligious or spiritual experience that changed your life,â€ how many such experiences have you had?
+IF RELEXPER = no and RELEXP = yes, READ: Thinking of the "religious or spiritual experience that changed your life,â€ how many such experiences have you had?
 READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR?
-IF RELEXPER = yes and RELEXP = yes, READ: Thinking of the â€œturning point in your life when you made a new and personal commitment to religion,â€ and the "religious or spiritual experience that changed your life,â€ how many such experiences have you had?
+IF RELEXPER = yes and RELEXP = yes, READ: Thinking of the "turning point in your life when you made a new and personal commitment to religion,â€ and the "religious or spiritual experience that changed your life,â€ how many such experiences have you had?
 READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR?
 }
 \section{Values}{
 
 \itemize{
-\item \code{7} seven or more
-\item \code{8} 1 or more experience, dk
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[7]} seven or more
+\item \verb{[8]} 1 or more experience, dk
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

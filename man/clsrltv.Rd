@@ -15,11 +15,11 @@ Question People may have different perceptions about who they consider to be clo
 \section{Values}{
 
 \itemize{
-\item \code{1} children and partner only
-\item \code{2} children, partner, parents and siblings
-\item \code{3} children, partner, parents, siblings, cousins, aunts/uncles, nephews/nieces
-\item \code{4} children, partner, parents, siblings, cousins, aunts/uncles, nephews/nieces, but others as well
-\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} children and partner only
+\item \verb{[2]} children, partner, parents and siblings
+\item \verb{[3]} children, partner, parents, siblings, cousins, aunts/uncles, nephews/nieces
+\item \verb{[4]} children, partner, parents, siblings, cousins, aunts/uncles, nephews/nieces, but others as well
+\item \verb{[NA(d)]} can't choose \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

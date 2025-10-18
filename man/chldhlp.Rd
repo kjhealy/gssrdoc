@@ -16,26 +16,26 @@ PROBE: Anything else?
 \section{Values}{
 
 \itemize{
-\item \code{10} nothing
-\item \code{20} medical general
-\item \code{21} doctor
-\item \code{22} specialist
-\item \code{30} mental health general
-\item \code{31} psychiatrist
-\item \code{32} social worker
-\item \code{33} counselor therapist
-\item \code{34} psychologist
-\item \code{40} family friends general
-\item \code{41} negative blaming parenting
-\item \code{42} positive parenting
-\item \code{50} assistance from school general
-\item \code{51} involve teacher
-\item \code{52} involve school counselor
-\item \code{60} religion
-\item \code{80} social extracurricular activity
-\item \code{90} other help miscellaneous
-\item \code{97} dk ref
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[10]} nothing
+\item \verb{[20]} medical general
+\item \verb{[21]} doctor
+\item \verb{[22]} specialist
+\item \verb{[30]} mental health general
+\item \verb{[31]} psychiatrist
+\item \verb{[32]} social worker
+\item \verb{[33]} counselor therapist
+\item \verb{[34]} psychologist
+\item \verb{[40]} family friends general
+\item \verb{[41]} negative blaming parenting
+\item \verb{[42]} positive parenting
+\item \verb{[50]} assistance from school general
+\item \verb{[51]} involve teacher
+\item \verb{[52]} involve school counselor
+\item \verb{[60]} religion
+\item \verb{[80]} social extracurricular activity
+\item \verb{[90]} other help miscellaneous
+\item \verb{[97]} dk ref
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

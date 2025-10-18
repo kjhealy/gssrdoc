@@ -12,19 +12,19 @@ readword
 \details{
 Question Have you read any part of the Bible at home within the last year.
 Yes..........(ASK A)...............1
-Noâ€¦.â€¦................................2
+No….…................................2
 IF YES: A. How often have you read the Bible in the last year? (USE CATEGORIES AS PROBES IF NEEDED).
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} several x day
-\item \code{2} once a day
-\item \code{3} several x week
-\item \code{4} once a week
-\item \code{5} lt once a week
-\item \code{6} didnt read last year
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} several x day
+\item \verb{[2]} once a day
+\item \verb{[3]} several x week
+\item \verb{[4]} once a week
+\item \verb{[5]} lt once a week
+\item \verb{[6]} didnt read last year
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

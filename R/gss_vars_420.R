@@ -2,16 +2,16 @@
 #' 
 #'  kd1jwoth
 #' 
-#' Question Is (CHILDâ€™S NAME) considered Jewish for any reason?
+#' Question Is (CHILD'S NAME) considered Jewish for any reason?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` half/part
-#'   * `3` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` half/part
+#'   * `[3]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -42,16 +42,16 @@ NULL
 #' 
 #'  kd2jwoth
 #' 
-#' Question Is (CHILDâ€™S NAME) considered Jewish for any reason?
+#' Question Is (CHILD'S NAME) considered Jewish for any reason?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` half/part
-#'   * `3` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` half/part
+#'   * `[3]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -82,16 +82,16 @@ NULL
 #' 
 #'  kd3jwoth
 #' 
-#' Question Is (CHILDâ€™S NAME) considered Jewish for any reason?
+#' Question Is (CHILD'S NAME) considered Jewish for any reason?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` half/part
-#'   * `3` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` half/part
+#'   * `[3]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -121,16 +121,16 @@ NULL
 #' 
 #'  kd4jwoth
 #' 
-#' Question Is (CHILDâ€™S NAME) considered Jewish for any reason?
+#' Question Is (CHILD'S NAME) considered Jewish for any reason?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` half/part
-#'   * `3` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` half/part
+#'   * `[3]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -160,16 +160,16 @@ NULL
 #' 
 #'  kd5jwoth
 #' 
-#' Question Is (CHILDâ€™S NAME) considered Jewish for any reason?
+#' Question Is (CHILD'S NAME) considered Jewish for any reason?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` half/part
-#'   * `3` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` half/part
+#'   * `[3]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -202,17 +202,17 @@ NULL
 #' 
 #' Question Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) 
 #' Have you, or anyone you know developed emergency plans (evacuation, meeting places)? 
-#' FI PROBE: IF RESPONDENT ANSWERS â€˜YES,â€™ ASK; â€˜Was this you, someone you know, or both yourself and someone you know?
+#' FI PROBE: IF RESPONDENT ANSWERS 'YES,' ASK; 'Was this you, someone you know, or both yourself and someone you know?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes, respondent
-#'   * `2` yes, someone respondent knows
-#'   * `3` yes, both respondent and someone respondent knows
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` no
+#'   * `[1]` yes, respondent
+#'   * `[2]` yes, someone respondent knows
+#'   * `[3]` yes, both respondent and someone respondent knows
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -247,14 +247,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 1 not at all effective
-#'   * `2` 2
-#'   * `3` 3
-#'   * `4` 4
-#'   * `5` 5 extremely effective
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 1 not at all effective
+#'   * `[2]` 2
+#'   * `[3]` 3
+#'   * `[4]` 4
+#'   * `[5]` 5 extremely effective
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -286,17 +286,17 @@ NULL
 #' 
 #' Question (Do you know anyone who has done any of the following things of terrorism since September 11th, 2001?) 
 #' Have you, or anyone you know stockpiled supplies (food, water, antibiotics, etc.)? 
-#' FI PROBE: IF RESPONDENT ANSWERS â€˜YES,â€™ ASK; â€˜Was this you, someone you know, or both yourself and someone you know?
+#' FI PROBE: IF RESPONDENT ANSWERS 'YES,' ASK; 'Was this you, someone you know, or both yourself and someone you know?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes, respondent
-#'   * `2` yes, someone respondent knows
-#'   * `3` yes, both respondent and someone respondent knows
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` no
+#'   * `[1]` yes, respondent
+#'   * `[2]` yes, someone respondent knows
+#'   * `[3]` yes, both respondent and someone respondent knows
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -330,14 +330,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 1 not at all effective
-#'   * `2` 2
-#'   * `3` 3
-#'   * `4` 4
-#'   * `5` 5 extremely effective
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 1 not at all effective
+#'   * `[2]` 2
+#'   * `[3]` 3
+#'   * `[4]` 4
+#'   * `[5]` 5 extremely effective
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -369,17 +369,17 @@ NULL
 #' 
 #' Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) 
 #' Have you, or anyone you know purchased things to make them safer (gas masks, duct tape, things to make their house safer, etc.)? 
-#' FI PROBE: IF RESPONDENT ANSWERS â€˜YES,â€™ ASK; â€˜Was this you, someone you know, or both yourself and someone you know?
+#' FI PROBE: IF RESPONDENT ANSWERS 'YES,' ASK; 'Was this you, someone you know, or both yourself and someone you know?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes, respondent
-#'   * `2` yes, someone respondent knows
-#'   * `3` yes, both respondent and someone respondent knows
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` no
+#'   * `[1]` yes, respondent
+#'   * `[2]` yes, someone respondent knows
+#'   * `[3]` yes, both respondent and someone respondent knows
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

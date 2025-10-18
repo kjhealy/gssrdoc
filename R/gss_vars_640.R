@@ -6,12 +6,12 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a good idea
-#'   * `2` a bad idea
-#'   * `3` depends (phone mode only: volunteered)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a good idea
+#'   * `[2]` a bad idea
+#'   * `[3]` depends (phone mode only: volunteered)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -46,12 +46,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` should be legal
-#'   * `2` should not be legal
-#'   * `3` no opinion (phone mode only: volunteered)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` should be legal
+#'   * `[2]` should not be legal
+#'   * `[3]` no opinion (phone mode only: volunteered)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -86,13 +86,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` strong
-#'   * `2` not very strong
-#'   * `3` somewhat strong (phone mode only: volunteered)
-#'   * `4` no religion
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` strong
+#'   * `[2]` not very strong
+#'   * `[3]` somewhat strong (phone mode only: volunteered)
+#'   * `[4]` no religion
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -131,13 +131,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` word of god
-#'   * `2` inspired word
-#'   * `3` ancient book
-#'   * `4` other (phone mode only: volunteered)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` word of god
+#'   * `[2]` inspired word
+#'   * `[3]` ancient book
+#'   * `[4]` other (phone mode only: volunteered)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -172,12 +172,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `3` undecided (phone mode only: volunteered)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[3]` undecided (phone mode only: volunteered)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -212,15 +212,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` much better
-#'   * `2` somewhat better
-#'   * `3` about the same
-#'   * `4` somewhat worse
-#'   * `5` much worse
-#'   * `6` no children (phone mode only; volunteered)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` much better
+#'   * `[2]` somewhat better
+#'   * `[3]` about the same
+#'   * `[4]` somewhat worse
+#'   * `[5]` much worse
+#'   * `[6]` no children (phone mode only; volunteered)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -251,17 +251,17 @@ NULL
 #' 
 #'  uscitznnv
 #' 
-#' Question Now we would like to ask you about U.S. citizenship. Are youâ€¦
+#' Question Now we would like to ask you about U.S. citizenship. Are you…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a u.s. citizen
-#'   * `2` not a u.s. citizen
-#'   * `3` a u.s. citizen born in puerto rico, the u.s. virgin islands, or the northern marianas islands (phone mode only: v
-#'   * `4` born outside of the u.s. to parents who were u.s. citizens at that time (phone mode only: volunteered)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a u.s. citizen
+#'   * `[2]` not a u.s. citizen
+#'   * `[3]` a u.s. citizen born in puerto rico, the u.s. virgin islands, or the northern marianas islands (phone mode only: v
+#'   * `[4]` born outside of the u.s. to parents who were u.s. citizens at that time (phone mode only: volunteered)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -292,17 +292,17 @@ NULL
 #' 
 #'  fucitznnv
 #' 
-#' Question Are youâ€¦
+#' Question Are you…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` currently applying for u.s. citizenship
-#'   * `2` planning to apply for u.s. citizenship
-#'   * `3` not planning to apply to u.s. citizenship
-#'   * `4` not eligible to become a u.s. citizen (phone mode only: volunteered)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` currently applying for u.s. citizenship
+#'   * `[2]` planning to apply for u.s. citizenship
+#'   * `[3]` not planning to apply to u.s. citizenship
+#'   * `[4]` not eligible to become a u.s. citizen (phone mode only: volunteered)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -337,12 +337,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` agree
-#'   * `2` disagree
-#'   * `3` not sure (phone mode only: volunteered)
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` agree
+#'   * `[2]` disagree
+#'   * `[3]` not sure (phone mode only: volunteered)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -377,12 +377,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` benefits greater
-#'   * `2` about equal (phone mode only: volunteered)
-#'   * `3` harmful results greater
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` benefits greater
+#'   * `[2]` about equal (phone mode only: volunteered)
+#'   * `[3]` harmful results greater
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

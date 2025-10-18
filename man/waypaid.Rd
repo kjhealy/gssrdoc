@@ -15,19 +15,19 @@ Question In your main job, are you salaried, paid by the hour, or what?
 \section{Values}{
 
 \itemize{
-\item \code{1} salaried
-\item \code{2} paid by the hour
-\item \code{3} other
-\item \code{4} commission
-\item \code{5} self-employed
-\item \code{6} paid by the job
-\item \code{7} salary and bonus/commission
-\item \code{8} tips
-\item \code{9} piece work
-\item \code{10} paid by day
-\item \code{11} paid by percent
-\item \code{12} paid by contract
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} salaried
+\item \verb{[2]} paid by the hour
+\item \verb{[3]} other
+\item \verb{[4]} commission
+\item \verb{[5]} self-employed
+\item \verb{[6]} paid by the job
+\item \verb{[7]} salary and bonus/commission
+\item \verb{[8]} tips
+\item \verb{[9]} piece work
+\item \verb{[10]} paid by day
+\item \verb{[11]} paid by percent
+\item \verb{[12]} paid by contract
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

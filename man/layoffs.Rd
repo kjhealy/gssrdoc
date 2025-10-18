@@ -15,24 +15,24 @@ Question From time to time companies must lay-off some of their employees. If so
 \section{Values}{
 
 \itemize{
-\item \code{1} those who have worked longest
-\item \code{2} those who have the greatest needs
-\item \code{3} those who are the best workers
-\item \code{4} difficulty in finding a new job
-\item \code{5} union members
-\item \code{6} older employees
-\item \code{7} younger employees
-\item \code{8} men
-\item \code{9} women
-\item \code{10} whites
-\item \code{11} minorities-non-whites
-\item \code{12} other -please specify
-\item \code{13} owners,bosses
-\item \code{14} essential employees
-\item \code{15} newest employees
-\item \code{16} most loyal employees
-\item \code{17} production. hands-on employees
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} those who have worked longest
+\item \verb{[2]} those who have the greatest needs
+\item \verb{[3]} those who are the best workers
+\item \verb{[4]} difficulty in finding a new job
+\item \verb{[5]} union members
+\item \verb{[6]} older employees
+\item \verb{[7]} younger employees
+\item \verb{[8]} men
+\item \verb{[9]} women
+\item \verb{[10]} whites
+\item \verb{[11]} minorities-non-whites
+\item \verb{[12]} other -please specify
+\item \verb{[13]} owners,bosses
+\item \verb{[14]} essential employees
+\item \verb{[15]} newest employees
+\item \verb{[16]} most loyal employees
+\item \verb{[17]} production. hands-on employees
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

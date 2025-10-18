@@ -10,58 +10,58 @@ General Social Survey https://gss.norc.org
 srcheng2
 }
 \details{
-Question Now weâ€™d like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web.
+Question Now we'd like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web.
 B. Please name one.
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} yahoo
-\item \code{2} lycos
-\item \code{3} search.com
-\item \code{4} gopher
-\item \code{5} all the web
-\item \code{6} msn
-\item \code{7} ebay
-\item \code{8} infoseek
-\item \code{9} altavista
-\item \code{10} explorer
-\item \code{11} netscape
-\item \code{12} isearch
-\item \code{13} excite
-\item \code{14} aol
-\item \code{15} java
-\item \code{16} webcrawler
-\item \code{17} hotbot
-\item \code{18} google
-\item \code{19} copernic
-\item \code{20} ask jeeves
-\item \code{21} iwon
-\item \code{22} dogpile
-\item \code{23} streetviolence.com
-\item \code{24} browser
-\item \code{25} northern lights
-\item \code{26} www.irs.com
-\item \code{27} netfind
-\item \code{28} keysearch
-\item \code{29} metacrawler
-\item \code{30} uproar.com
-\item \code{31} siap
-\item \code{32} go
-\item \code{33} myway
-\item \code{34} fuse
-\item \code{35} espn
-\item \code{36} uswest
-\item \code{37} terra.com
-\item \code{38} goto.com
-\item \code{39} bizrate
-\item \code{40} fastsearch
-\item \code{41} sherlock
-\item \code{42} lynco
-\item \code{43} inference
-\item \code{44} 4anything
-\item \code{45} navistar
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} yahoo
+\item \verb{[2]} lycos
+\item \verb{[3]} search.com
+\item \verb{[4]} gopher
+\item \verb{[5]} all the web
+\item \verb{[6]} msn
+\item \verb{[7]} ebay
+\item \verb{[8]} infoseek
+\item \verb{[9]} altavista
+\item \verb{[10]} explorer
+\item \verb{[11]} netscape
+\item \verb{[12]} isearch
+\item \verb{[13]} excite
+\item \verb{[14]} aol
+\item \verb{[15]} java
+\item \verb{[16]} webcrawler
+\item \verb{[17]} hotbot
+\item \verb{[18]} google
+\item \verb{[19]} copernic
+\item \verb{[20]} ask jeeves
+\item \verb{[21]} iwon
+\item \verb{[22]} dogpile
+\item \verb{[23]} streetviolence.com
+\item \verb{[24]} browser
+\item \verb{[25]} northern lights
+\item \verb{[26]} www.irs.com
+\item \verb{[27]} netfind
+\item \verb{[28]} keysearch
+\item \verb{[29]} metacrawler
+\item \verb{[30]} uproar.com
+\item \verb{[31]} siap
+\item \verb{[32]} go
+\item \verb{[33]} myway
+\item \verb{[34]} fuse
+\item \verb{[35]} espn
+\item \verb{[36]} uswest
+\item \verb{[37]} terra.com
+\item \verb{[38]} goto.com
+\item \verb{[39]} bizrate
+\item \verb{[40]} fastsearch
+\item \verb{[41]} sherlock
+\item \verb{[42]} lynco
+\item \verb{[43]} inference
+\item \verb{[44]} 4anything
+\item \verb{[45]} navistar
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

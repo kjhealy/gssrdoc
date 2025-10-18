@@ -6,11 +6,11 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -45,11 +45,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -80,26 +80,26 @@ NULL
 #' 
 #'  kd1relig
 #' 
-#' Question In what religion is (CHILDâ€™S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' Question In what religion is (CHILD'S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` christian
-#'   * `12` native american
-#'   * `13` inter-nondenominational
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` protestant
+#'   * `[2]` catholic
+#'   * `[3]` jewish
+#'   * `[4]` none
+#'   * `[5]` other
+#'   * `[6]` buddhism
+#'   * `[7]` hinduism
+#'   * `[8]` other eastern religions
+#'   * `[9]` muslim/islam
+#'   * `[10]` orthodox-christian
+#'   * `[11]` christian
+#'   * `[12]` native american
+#'   * `[13]` inter-nondenominational
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -130,26 +130,26 @@ NULL
 #' 
 #'  kd2relig
 #' 
-#' Question In what religion is (CHILDâ€™S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' Question In what religion is (CHILD'S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` christian
-#'   * `12` native american
-#'   * `13` inter-nondenominational
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` protestant
+#'   * `[2]` catholic
+#'   * `[3]` jewish
+#'   * `[4]` none
+#'   * `[5]` other
+#'   * `[6]` buddhism
+#'   * `[7]` hinduism
+#'   * `[8]` other eastern religions
+#'   * `[9]` muslim/islam
+#'   * `[10]` orthodox-christian
+#'   * `[11]` christian
+#'   * `[12]` native american
+#'   * `[13]` inter-nondenominational
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -180,26 +180,26 @@ NULL
 #' 
 #'  kd3relig
 #' 
-#' Question In what religion is (CHILDâ€™S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' Question In what religion is (CHILD'S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` christian
-#'   * `12` native american
-#'   * `13` inter-nondenominational
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` protestant
+#'   * `[2]` catholic
+#'   * `[3]` jewish
+#'   * `[4]` none
+#'   * `[5]` other
+#'   * `[6]` buddhism
+#'   * `[7]` hinduism
+#'   * `[8]` other eastern religions
+#'   * `[9]` muslim/islam
+#'   * `[10]` orthodox-christian
+#'   * `[11]` christian
+#'   * `[12]` native american
+#'   * `[13]` inter-nondenominational
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -231,26 +231,26 @@ NULL
 #' 
 #'  kd4relig
 #' 
-#' Question In what religion is (CHILDâ€™S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' Question In what religion is (CHILD'S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` christian
-#'   * `12` native american
-#'   * `13` inter-nondenominational
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` protestant
+#'   * `[2]` catholic
+#'   * `[3]` jewish
+#'   * `[4]` none
+#'   * `[5]` other
+#'   * `[6]` buddhism
+#'   * `[7]` hinduism
+#'   * `[8]` other eastern religions
+#'   * `[9]` muslim/islam
+#'   * `[10]` orthodox-christian
+#'   * `[11]` christian
+#'   * `[12]` native american
+#'   * `[13]` inter-nondenominational
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -280,26 +280,26 @@ NULL
 #' 
 #'  kd5relig
 #' 
-#' Question In what religion is (CHILDâ€™S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' Question In what religion is (CHILD'S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` christian
-#'   * `12` native american
-#'   * `13` inter-nondenominational
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` protestant
+#'   * `[2]` catholic
+#'   * `[3]` jewish
+#'   * `[4]` none
+#'   * `[5]` other
+#'   * `[6]` buddhism
+#'   * `[7]` hinduism
+#'   * `[8]` other eastern religions
+#'   * `[9]` muslim/islam
+#'   * `[10]` orthodox-christian
+#'   * `[11]` christian
+#'   * `[12]` native american
+#'   * `[13]` inter-nondenominational
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -329,26 +329,26 @@ NULL
 #' 
 #'  kd6relig
 #' 
-#' Question In what religion is (CHILDâ€™S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' Question In what religion is (CHILD'S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` christian
-#'   * `12` native american
-#'   * `13` inter-nondenominational
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` protestant
+#'   * `[2]` catholic
+#'   * `[3]` jewish
+#'   * `[4]` none
+#'   * `[5]` other
+#'   * `[6]` buddhism
+#'   * `[7]` hinduism
+#'   * `[8]` other eastern religions
+#'   * `[9]` muslim/islam
+#'   * `[10]` orthodox-christian
+#'   * `[11]` christian
+#'   * `[12]` native american
+#'   * `[13]` inter-nondenominational
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -378,26 +378,26 @@ NULL
 #' 
 #'  kd7relig
 #' 
-#' Question In what religion is (CHILDâ€™S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' Question In what religion is (CHILD'S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` christian
-#'   * `12` native american
-#'   * `13` inter-nondenominational
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` protestant
+#'   * `[2]` catholic
+#'   * `[3]` jewish
+#'   * `[4]` none
+#'   * `[5]` other
+#'   * `[6]` buddhism
+#'   * `[7]` hinduism
+#'   * `[8]` other eastern religions
+#'   * `[9]` muslim/islam
+#'   * `[10]` orthodox-christian
+#'   * `[11]` christian
+#'   * `[12]` native american
+#'   * `[13]` inter-nondenominational
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -427,26 +427,26 @@ NULL
 #' 
 #'  kd8relig
 #' 
-#' Question In what religion is (CHILDâ€™S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' Question In what religion is (CHILD'S NAME) being raised? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` christian
-#'   * `12` native american
-#'   * `13` inter-nondenominational
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` protestant
+#'   * `[2]` catholic
+#'   * `[3]` jewish
+#'   * `[4]` none
+#'   * `[5]` other
+#'   * `[6]` buddhism
+#'   * `[7]` hinduism
+#'   * `[8]` other eastern religions
+#'   * `[9]` muslim/islam
+#'   * `[10]` orthodox-christian
+#'   * `[11]` christian
+#'   * `[12]` native american
+#'   * `[13]` inter-nondenominational
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

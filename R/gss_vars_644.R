@@ -6,14 +6,14 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` mothers are much better suited
-#'   * `2` mothers are somewhat better suited
-#'   * `3` mothers and fathers are equally suited
-#'   * `4` fathers are somewhat better suited
-#'   * `5` fathers are much better suited
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` mothers are much better suited
+#'   * `[2]` mothers are somewhat better suited
+#'   * `[3]` mothers and fathers are equally suited
+#'   * `[4]` fathers are somewhat better suited
+#'   * `[5]` fathers are much better suited
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -47,14 +47,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the mother mostly
-#'   * `2` the mother somewhat more than the father
-#'   * `3` the mother and father equally
-#'   * `4` the father somewhat more than the mother
-#'   * `5` the father mostly
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the mother mostly
+#'   * `[2]` the mother somewhat more than the father
+#'   * `[3]` the mother and father equally
+#'   * `[4]` the father somewhat more than the mother
+#'   * `[5]` the father mostly
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -88,14 +88,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the mother mostly
-#'   * `2` the mother somewhat more than the father
-#'   * `3` the mother and father equally
-#'   * `4` the father somewhat more than the mother
-#'   * `5` the father mostly
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the mother mostly
+#'   * `[2]` the mother somewhat more than the father
+#'   * `[3]` the mother and father equally
+#'   * `[4]` the father somewhat more than the mother
+#'   * `[5]` the father mostly
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -129,14 +129,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the mother mostly
-#'   * `2` the mother somewhat more than the father
-#'   * `3` the mother and father equally
-#'   * `4` the father somewhat more than the mother
-#'   * `5` the father mostly
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the mother mostly
+#'   * `[2]` the mother somewhat more than the father
+#'   * `[3]` the mother and father equally
+#'   * `[4]` the father somewhat more than the mother
+#'   * `[5]` the father mostly
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -170,14 +170,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the mother mostly
-#'   * `2` the mother somewhat more than the father
-#'   * `3` the mother and father equally
-#'   * `4` the father somewhat more than the mother
-#'   * `5` the father mostly
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the mother mostly
+#'   * `[2]` the mother somewhat more than the father
+#'   * `[3]` the mother and father equally
+#'   * `[4]` the father somewhat more than the mother
+#'   * `[5]` the father mostly
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -211,14 +211,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the mother mostly
-#'   * `2` the mother somewhat more than the father
-#'   * `3` the mother and father equally
-#'   * `4` the father somewhat more than the mother
-#'   * `5` the father mostly
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the mother mostly
+#'   * `[2]` the mother somewhat more than the father
+#'   * `[3]` the mother and father equally
+#'   * `[4]` the father somewhat more than the mother
+#'   * `[5]` the father mostly
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -252,14 +252,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the mother mostly
-#'   * `2` the mother somewhat more than the father
-#'   * `3` the mother and father equally
-#'   * `4` the father somewhat more than the mother
-#'   * `5` the father mostly
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the mother mostly
+#'   * `[2]` the mother somewhat more than the father
+#'   * `[3]` the mother and father equally
+#'   * `[4]` the father somewhat more than the mother
+#'   * `[5]` the father mostly
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -293,14 +293,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` r manage all money and gives spouse/partner his/her share
-#'   * `2` r spouse/partner manages all money and gives r share
-#'   * `3` r and spouse/partner pool all money and take what we need
-#'   * `4` r and spouse/partner pool some money and keep rest separate
-#'   * `5` r and spouse/partner keep money separate
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` r manage all money and gives spouse/partner his/her share
+#'   * `[2]` r spouse/partner manages all money and gives r share
+#'   * `[3]` r and spouse/partner pool all money and take what we need
+#'   * `[4]` r and spouse/partner pool some money and keep rest separate
+#'   * `[5]` r and spouse/partner keep money separate
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -334,15 +334,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` always me
-#'   * `2` usually me
-#'   * `3` about equal or both together
-#'   * `4` usually my spouse/partner
-#'   * `5` always my spouse/partner
-#'   * `6` is done by a third person
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` always me
+#'   * `[2]` usually me
+#'   * `[3]` about equal or both together
+#'   * `[4]` usually my spouse/partner
+#'   * `[5]` always my spouse/partner
+#'   * `[6]` is done by a third person
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -376,14 +376,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` r does much more than fair share
-#'   * `2` r does a bit more than fair share
-#'   * `3` r does roughly fair share
-#'   * `4` r does a bit less than fair share
-#'   * `5` r does much less than fair share
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` r does much more than fair share
+#'   * `[2]` r does a bit more than fair share
+#'   * `[3]` r does roughly fair share
+#'   * `[4]` r does a bit less than fair share
+#'   * `[5]` r does much less than fair share
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

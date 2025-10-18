@@ -10,15 +10,15 @@ General Social Survey https://gss.norc.org
 engnuke
 }
 \details{
-Question Hereâ€™s another public issue: nuclear power. Nuclear power uses the energy of the atom to generate electricity. some people say that nuclear power is a safe option to meet the energy needs of the United States without burning fossil fuels such as coal, oil, or natural gas. Others are concerned about potential risks in the operation of nuclear plants and about the disposal of nuclear waste. Please look at Card E13. (On a scale of 1 to 5, where 1 means "Very Well" and 5 means  Not At All), how well do the following groups understand the likely effects of using nuclear power to generate electricity?
+Question Here's another public issue: nuclear power. Nuclear power uses the energy of the atom to generate electricity. some people say that nuclear power is a safe option to meet the energy needs of the United States without burning fossil fuels such as coal, oil, or natural gas. Others are concerned about potential risks in the operation of nuclear plants and about the disposal of nuclear waste. Please look at Card E13. (On a scale of 1 to 5, where 1 means "Very Well" and 5 means  Not At All), how well do the following groups understand the likely effects of using nuclear power to generate electricity?
 C. Nuclear Engineers (How well nuclear engineers understand nuclear power?)
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} very well
-\item \code{5} not at all
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} very well
+\item \verb{[5]} not at all
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

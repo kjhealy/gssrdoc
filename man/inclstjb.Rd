@@ -15,32 +15,32 @@ Question Thinking about your last job, in which of these groups did your earning
 \section{Values}{
 
 \itemize{
-\item \code{1} a. under $1,000
-\item \code{2} b. $1,000 to 2,999
-\item \code{3} c. $3,000 to 3,999
-\item \code{4} d. $4,000 to 4,999
-\item \code{5} e. $5,000 to 5,999
-\item \code{6} f. $6,000 to 6,999
-\item \code{7} g. $7,000 to 7,999
-\item \code{8} h. $8,000 to 9,999
-\item \code{9} i. $10,000 to 12,499
-\item \code{10} j. $12,500 to 14,999
-\item \code{11} k. $15,000 to 17,499
-\item \code{12} l. $17,500 to 19,999
-\item \code{13} m. $20,000 to 22,499
-\item \code{14} n. $22,500 to 24,999
-\item \code{15} o. $25,000 to 29,999
-\item \code{16} p. $30,000 to 34,999
-\item \code{17} q. $35,000 to 39,999
-\item \code{18} r. $40,000 to 49,999
-\item \code{19} s. $50,000 to 59,999
-\item \code{20} t. $60,000 to 74,999
-\item \code{21} u. $75,000 to $89,999
-\item \code{22} v. $90,000 to $109,999
-\item \code{23} w. $110,000 to $129,999
-\item \code{24} x. $130,000 to $149,999
-\item \code{25} y. $150,000 or over
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} a. under $1,000
+\item \verb{[2]} b. $1,000 to 2,999
+\item \verb{[3]} c. $3,000 to 3,999
+\item \verb{[4]} d. $4,000 to 4,999
+\item \verb{[5]} e. $5,000 to 5,999
+\item \verb{[6]} f. $6,000 to 6,999
+\item \verb{[7]} g. $7,000 to 7,999
+\item \verb{[8]} h. $8,000 to 9,999
+\item \verb{[9]} i. $10,000 to 12,499
+\item \verb{[10]} j. $12,500 to 14,999
+\item \verb{[11]} k. $15,000 to 17,499
+\item \verb{[12]} l. $17,500 to 19,999
+\item \verb{[13]} m. $20,000 to 22,499
+\item \verb{[14]} n. $22,500 to 24,999
+\item \verb{[15]} o. $25,000 to 29,999
+\item \verb{[16]} p. $30,000 to 34,999
+\item \verb{[17]} q. $35,000 to 39,999
+\item \verb{[18]} r. $40,000 to 49,999
+\item \verb{[19]} s. $50,000 to 59,999
+\item \verb{[20]} t. $60,000 to 74,999
+\item \verb{[21]} u. $75,000 to $89,999
+\item \verb{[22]} v. $90,000 to $109,999
+\item \verb{[23]} w. $110,000 to $129,999
+\item \verb{[24]} x. $130,000 to $149,999
+\item \verb{[25]} y. $150,000 or over
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

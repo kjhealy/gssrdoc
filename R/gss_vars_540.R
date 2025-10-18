@@ -4,20 +4,20 @@
 #' 
 #' Question People sometimes belong to different kinds of groups or associations. For each type of group, please indicate whether you: 
 #' -Belong and actively participate, 
-#' -Belong but donâ€™t actively participate, 
+#' -Belong but don't actively participate, 
 #' -Used to belong but do not any more, 
 #' -Have never belonged to it. 
 #' A. A political party
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` belong and actively participate
-#'   * `2` belong but dont participate
-#'   * `3` used to belong
-#'   * `4` never belonged
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` belong and actively participate
+#'   * `[2]` belong but dont participate
+#'   * `[3]` used to belong
+#'   * `[4]` never belonged
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -50,20 +50,20 @@ NULL
 #' 
 #' Question People sometimes belong to different kinds of groups or associations. For each type of group, please indicate whether you: 
 #' -Belong and actively participate, 
-#' -Belong but donâ€™t actively participate, 
+#' -Belong but don't actively participate, 
 #' -Used to belong but do not any more, 
 #' -Have never belonged to it. 
 #' B. A trade union, business, or professional association
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` belong and actively participate
-#'   * `2` belong but dont participate
-#'   * `3` used to belong
-#'   * `4` never belonged
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` belong and actively participate
+#'   * `[2]` belong but dont participate
+#'   * `[3]` used to belong
+#'   * `[4]` never belonged
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -96,20 +96,20 @@ NULL
 #' 
 #' Question People sometimes belong to different kinds of groups or associations. For each type of group, please indicate whether you: 
 #' -Belong and actively participate, 
-#' -Belong but donâ€™t actively participate, 
+#' -Belong but don't actively participate, 
 #' -Used to belong but do not any more, 
 #' -Have never belonged to it. 
 #' C. A church or other religious organization
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` belong and actively participate
-#'   * `2` belong but dont participate
-#'   * `3` used to belong
-#'   * `4` never belonged
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` belong and actively participate
+#'   * `[2]` belong but dont participate
+#'   * `[3]` used to belong
+#'   * `[4]` never belonged
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -142,20 +142,20 @@ NULL
 #' 
 #' Question People sometimes belong to different kinds of groups or associations. For each type of group, please indicate whether you: 
 #' -Belong and actively participate, 
-#' -Belong but donâ€™t actively participate, 
+#' -Belong but don't actively participate, 
 #' -Used to belong but do not any more, 
 #' -Have never belonged to it. 
 #' D. A sports, leisure or cultural group
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` belong and actively participate
-#'   * `2` belong but dont participate
-#'   * `3` used to belong
-#'   * `4` never belonged
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` belong and actively participate
+#'   * `[2]` belong but dont participate
+#'   * `[3]` used to belong
+#'   * `[4]` never belonged
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -188,20 +188,20 @@ NULL
 #' 
 #' Question People sometimes belong to different kinds of groups or associations. For each type of group, please indicate whether you: 
 #' -Belong and actively participate, 
-#' -Belong but donâ€™t actively participate, 
+#' -Belong but don't actively participate, 
 #' -Used to belong but do not any more, 
 #' -Have never belonged to it. 
 #' E. Another voluntary association
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` belong and actively participate
-#'   * `2` belong but dont participate
-#'   * `3` used to belong
-#'   * `4` never belonged
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` belong and actively participate
+#'   * `[2]` belong but dont participate
+#'   * `[3]` used to belong
+#'   * `[4]` never belonged
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -237,11 +237,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` not at all important
-#'   * `7` very important
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` not at all important
+#'   * `[7]` very important
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -278,11 +278,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` not at all important
-#'   * `7` very important
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` not at all important
+#'   * `[7]` very important
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -318,11 +318,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` not at all important
-#'   * `7` very important
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` not at all important
+#'   * `[7]` very important
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -357,11 +357,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` not at all important
-#'   * `7` very important
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` not at all important
+#'   * `[7]` very important
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -396,11 +396,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` not at all important
-#'   * `7` very important
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` not at all important
+#'   * `[7]` very important
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |

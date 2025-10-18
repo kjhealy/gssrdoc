@@ -2,15 +2,15 @@
 #' 
 #'  medagrsc
 #' 
-#' Question Please look at Card B7. (On a scale of 1 to 5, where 1 means â€œNear complete agreementâ€ and 5 means â€œNo agreement at allâ€) to what extent do medical researchers agree on the importance of stem cells for research?
+#' Question Please look at Card B7. (On a scale of 1 to 5, where 1 means "Near complete agreementâ€ and 5 means "No agreement at allâ€) to what extent do medical researchers agree on the importance of stem cells for research?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` near complete agreement
-#'   * `5` no agreement at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` near complete agreement
+#'   * `[5]` no agreement at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -47,13 +47,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -90,13 +90,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -133,13 +133,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -177,11 +177,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -219,11 +219,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -261,11 +261,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -297,17 +297,17 @@ NULL
 #' 
 #'  scresrch
 #' 
-#' Question Recently, there has been controversy over whether the government should provide any funds at all for scientific research that uses â€œstem cellsâ€ taken from human embryos. Would you say the governmentâ€¦
+#' Question Recently, there has been controversy over whether the government should provide any funds at all for scientific research that uses "stem cellsâ€ taken from human embryos. Would you say the government…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should fund such research
-#'   * `2` probably should fund such research
-#'   * `3` probably should not fund such research
-#'   * `4` definitely should not fund such research
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should fund such research
+#'   * `[2]` probably should fund such research
+#'   * `[3]` probably should not fund such research
+#'   * `[4]` definitely should not fund such research
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -339,16 +339,16 @@ NULL
 #' 
 #'  txeco
 #' 
-#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€), how well do the following groups understand the likely effects of reducing federal income taxes?
+#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the likely effects of reducing federal income taxes?
 #' A. Economists
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very well
-#'   * `5` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very well
+#'   * `[5]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -380,16 +380,16 @@ NULL
 #' 
 #'  txbiz
 #' 
-#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where  1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€), how well do the following groups understand the likely effects of reducing federal income taxes?
+#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where  1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the likely effects of reducing federal income taxes?
 #' B. Business leaders
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very well
-#'   * `5` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very well
+#'   * `[5]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

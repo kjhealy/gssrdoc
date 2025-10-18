@@ -7,13 +7,13 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` i have participated more than twice
-#'   * `2` i have participated once or twice
-#'   * `3` i belong to such a group but never participate
-#'   * `4` i do not belong to such a group
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` i have participated more than twice
+#'   * `[2]` i have participated once or twice
+#'   * `[3]` i belong to such a group but never participate
+#'   * `[4]` i do not belong to such a group
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -48,13 +48,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` i have participated more than twice
-#'   * `2` i have participated once or twice
-#'   * `3` i belong to such a group but never participate
-#'   * `4` i do not belong to such a group
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` i have participated more than twice
+#'   * `[2]` i have participated once or twice
+#'   * `[3]` i belong to such a group but never participate
+#'   * `[4]` i do not belong to such a group
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -89,13 +89,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` i have participated more than twice
-#'   * `2` i have participated once or twice
-#'   * `3` i belong to such a group but never participate
-#'   * `4` i do not belong to such a group
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` i have participated more than twice
+#'   * `[2]` i have participated once or twice
+#'   * `[3]` i belong to such a group but never participate
+#'   * `[4]` i do not belong to such a group
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -130,27 +130,27 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` husband, wife, partner
-#'   * `2` mother
-#'   * `3` father
-#'   * `4` daughter
-#'   * `5` daughter-in-law
-#'   * `6` son
-#'   * `7` son-in-law
-#'   * `8` sister
-#'   * `9` brother
-#'   * `10` other blood relative
-#'   * `11` other in-law relative
-#'   * `12` close friend
-#'   * `13` neighbor
-#'   * `14` someone you work with
-#'   * `15` someone at a social services agency
-#'   * `16` someone you pay to help
-#'   * `17` someone else
-#'   * `18` no one
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` husband, wife, partner
+#'   * `[2]` mother
+#'   * `[3]` father
+#'   * `[4]` daughter
+#'   * `[5]` daughter-in-law
+#'   * `[6]` son
+#'   * `[7]` son-in-law
+#'   * `[8]` sister
+#'   * `[9]` brother
+#'   * `[10]` other blood relative
+#'   * `[11]` other in-law relative
+#'   * `[12]` close friend
+#'   * `[13]` neighbor
+#'   * `[14]` someone you work with
+#'   * `[15]` someone at a social services agency
+#'   * `[16]` someone you pay to help
+#'   * `[17]` someone else
+#'   * `[18]` no one
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -185,27 +185,27 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` husband, wife, partner
-#'   * `2` mother
-#'   * `3` father
-#'   * `4` daughter
-#'   * `5` daughter-in-law
-#'   * `6` son
-#'   * `7` son-in-law
-#'   * `8` sister
-#'   * `9` brother
-#'   * `10` other blood relative
-#'   * `11` other in-law relative
-#'   * `12` close friend
-#'   * `13` neighbor
-#'   * `14` someone you work with
-#'   * `15` someone at a social services agency
-#'   * `16` someone you pay to help
-#'   * `17` other
-#'   * `18` no one
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` husband, wife, partner
+#'   * `[2]` mother
+#'   * `[3]` father
+#'   * `[4]` daughter
+#'   * `[5]` daughter-in-law
+#'   * `[6]` son
+#'   * `[7]` son-in-law
+#'   * `[8]` sister
+#'   * `[9]` brother
+#'   * `[10]` other blood relative
+#'   * `[11]` other in-law relative
+#'   * `[12]` close friend
+#'   * `[13]` neighbor
+#'   * `[14]` someone you work with
+#'   * `[15]` someone at a social services agency
+#'   * `[16]` someone you pay to help
+#'   * `[17]` other
+#'   * `[18]` no one
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -240,28 +240,28 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` husband, wife, partner
-#'   * `2` mother
-#'   * `3` father
-#'   * `4` daughter
-#'   * `5` son
-#'   * `6` sister
-#'   * `7` brother
-#'   * `8` other blood relative
-#'   * `9` other in-law relative
-#'   * `10` god-parent
-#'   * `11` close friend
-#'   * `12` neighbor
-#'   * `13` someone you work with
-#'   * `14` employer
-#'   * `15` government or social services agency
-#'   * `16` bank or credit union
-#'   * `17` private money lender
-#'   * `18` someone else
-#'   * `19` no one
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` husband, wife, partner
+#'   * `[2]` mother
+#'   * `[3]` father
+#'   * `[4]` daughter
+#'   * `[5]` son
+#'   * `[6]` sister
+#'   * `[7]` brother
+#'   * `[8]` other blood relative
+#'   * `[9]` other in-law relative
+#'   * `[10]` god-parent
+#'   * `[11]` close friend
+#'   * `[12]` neighbor
+#'   * `[13]` someone you work with
+#'   * `[14]` employer
+#'   * `[15]` government or social services agency
+#'   * `[16]` bank or credit union
+#'   * `[17]` private money lender
+#'   * `[18]` someone else
+#'   * `[19]` no one
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -296,28 +296,28 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` husband, wife, partner
-#'   * `2` mother
-#'   * `3` father
-#'   * `4` daughter
-#'   * `5` son
-#'   * `6` sister
-#'   * `7` brother
-#'   * `8` other blood relative
-#'   * `9` other in-law relative
-#'   * `10` god-parent
-#'   * `11` close friend
-#'   * `12` neighbor
-#'   * `13` someone you work with
-#'   * `14` employer
-#'   * `15` government or social services agency
-#'   * `16` bank or credit union
-#'   * `17` private money lender
-#'   * `18` someone else
-#'   * `19` no one
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` husband, wife, partner
+#'   * `[2]` mother
+#'   * `[3]` father
+#'   * `[4]` daughter
+#'   * `[5]` son
+#'   * `[6]` sister
+#'   * `[7]` brother
+#'   * `[8]` other blood relative
+#'   * `[9]` other in-law relative
+#'   * `[10]` god-parent
+#'   * `[11]` close friend
+#'   * `[12]` neighbor
+#'   * `[13]` someone you work with
+#'   * `[14]` employer
+#'   * `[15]` government or social services agency
+#'   * `[16]` bank or credit union
+#'   * `[17]` private money lender
+#'   * `[18]` someone else
+#'   * `[19]` no one
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -352,27 +352,27 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` husband, wife, partner
-#'   * `2` mother
-#'   * `3` father
-#'   * `4` daughter
-#'   * `5` son
-#'   * `6` sister
-#'   * `7` brother
-#'   * `8` other blood relative
-#'   * `9` other in-law relative
-#'   * `10` close friend
-#'   * `11` neighbor
-#'   * `12` someone you work with
-#'   * `13` priest or member of the clergy
-#'   * `14` family doctor
-#'   * `15` a psychologist or other professional counselor
-#'   * `16` a self-help group
-#'   * `17` someone else
-#'   * `18` no one
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` husband, wife, partner
+#'   * `[2]` mother
+#'   * `[3]` father
+#'   * `[4]` daughter
+#'   * `[5]` son
+#'   * `[6]` sister
+#'   * `[7]` brother
+#'   * `[8]` other blood relative
+#'   * `[9]` other in-law relative
+#'   * `[10]` close friend
+#'   * `[11]` neighbor
+#'   * `[12]` someone you work with
+#'   * `[13]` priest or member of the clergy
+#'   * `[14]` family doctor
+#'   * `[15]` a psychologist or other professional counselor
+#'   * `[16]` a self-help group
+#'   * `[17]` someone else
+#'   * `[18]` no one
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -407,27 +407,27 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` husband, wife, partner
-#'   * `2` mother
-#'   * `3` father
-#'   * `4` daughter
-#'   * `5` son
-#'   * `6` sister
-#'   * `7` brother
-#'   * `8` other blood relative
-#'   * `9` other in-law relative
-#'   * `10` close friend
-#'   * `11` neighbor
-#'   * `12` someone you work with
-#'   * `13` priest or member of the clergy
-#'   * `14` family doctor
-#'   * `15` a psychologist or other professional counselor
-#'   * `16` a self-help group
-#'   * `17` someone else
-#'   * `18` no one
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` husband, wife, partner
+#'   * `[2]` mother
+#'   * `[3]` father
+#'   * `[4]` daughter
+#'   * `[5]` son
+#'   * `[6]` sister
+#'   * `[7]` brother
+#'   * `[8]` other blood relative
+#'   * `[9]` other in-law relative
+#'   * `[10]` close friend
+#'   * `[11]` neighbor
+#'   * `[12]` someone you work with
+#'   * `[13]` priest or member of the clergy
+#'   * `[14]` family doctor
+#'   * `[15]` a psychologist or other professional counselor
+#'   * `[16]` a self-help group
+#'   * `[17]` someone else
+#'   * `[18]` no one
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -462,15 +462,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` more than once a week
-#'   * `2` once a week
-#'   * `3` once a month
-#'   * `4` at least two or three times in the past year
-#'   * `5` once in the past year
-#'   * `6` not at all in the past year
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` more than once a week
+#'   * `[2]` once a week
+#'   * `[3]` once a month
+#'   * `[4]` at least two or three times in the past year
+#'   * `[5]` once in the past year
+#'   * `[6]` not at all in the past year
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |

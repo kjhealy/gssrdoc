@@ -15,15 +15,15 @@ Question Thinking back over the last 12 months, about how regularly did you drin
 \section{Values}{
 
 \itemize{
-\item \code{1} never in those 12 months
-\item \code{2} 1 to 3 times in 12 months
-\item \code{3} 4 to 7 times in 12 months
-\item \code{4} 8 to 11 times in 12 months
-\item \code{5} 1 to 3 times a month
-\item \code{6} once or twice a week
-\item \code{7} 3 to 4 times a week
-\item \code{8} 5 times a week or more
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} never in those 12 months
+\item \verb{[2]} 1 to 3 times in 12 months
+\item \verb{[3]} 4 to 7 times in 12 months
+\item \verb{[4]} 8 to 11 times in 12 months
+\item \verb{[5]} 1 to 3 times a month
+\item \verb{[6]} once or twice a week
+\item \verb{[7]} 3 to 4 times a week
+\item \verb{[8]} 5 times a week or more
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -10,19 +10,19 @@ General Social Survey https://gss.norc.org
 partpol
 }
 \details{
-Question Iâ€™m going to read you several statements about freedom. Each one may say something true and important about freedom, but Iâ€™d like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
+Question I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
 D. Freedom is having the right to participate in politics and elections.
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} one of the most important
-\item \code{2} extremely important
-\item \code{3} very important
-\item \code{4} moderately important
-\item \code{5} somewhat important
-\item \code{6} not too important
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} one of the most important
+\item \verb{[2]} extremely important
+\item \verb{[3]} very important
+\item \verb{[4]} moderately important
+\item \verb{[5]} somewhat important
+\item \verb{[6]} not too important
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

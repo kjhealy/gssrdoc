@@ -6,20 +6,20 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` company's sales were declining
-#'   * `2` machines and computers made my job obsolete
-#'   * `3` job requirements changed and i was not able to do the job
-#'   * `4` job moved to another location in the united states
-#'   * `5` job moved to another country
-#'   * `6` other
-#'   * `7` company sold
-#'   * `8` job done
-#'   * `9` company in financial problem
-#'   * `10` end of contract
-#'   * `11` seasonal work
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` company's sales were declining
+#'   * `[2]` machines and computers made my job obsolete
+#'   * `[3]` job requirements changed and i was not able to do the job
+#'   * `[4]` job moved to another location in the united states
+#'   * `[5]` job moved to another country
+#'   * `[6]` other
+#'   * `[7]` company sold
+#'   * `[8]` job done
+#'   * `[9]` company in financial problem
+#'   * `[10]` end of contract
+#'   * `[11]` seasonal work
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -49,17 +49,17 @@ NULL
 #' 
 #'  losejb12
 #' 
-#' Question Thinking now about the next 12 months, how likely do you think it is that you will lose your job or be laid off for reasons other than for your performance? Would you sayâ€¦
+#' Question Thinking now about the next 12 months, how likely do you think it is that you will lose your job or be laid off for reasons other than for your performance? Would you say…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` fairly likely
-#'   * `3` not too likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` fairly likely
+#'   * `[3]` not too likely
+#'   * `[4]` not at all likely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -93,20 +93,20 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` company's sales were declining
-#'   * `2` machines and computers made my job obsolete
-#'   * `3` job requirements changed and i was not able to do the job
-#'   * `4` job moved to another location in the united states
-#'   * `5` job moved to another country
-#'   * `6` other
-#'   * `7` company sold
-#'   * `8` job done
-#'   * `9` company in financial problem
-#'   * `10` end of contract
-#'   * `11` seasonal work
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` company's sales were declining
+#'   * `[2]` machines and computers made my job obsolete
+#'   * `[3]` job requirements changed and i was not able to do the job
+#'   * `[4]` job moved to another location in the united states
+#'   * `[5]` job moved to another country
+#'   * `[6]` other
+#'   * `[7]` company sold
+#'   * `[8]` job done
+#'   * `[9]` company in financial problem
+#'   * `[10]` end of contract
+#'   * `[11]` seasonal work
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -140,20 +140,20 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` company's sales were declining
-#'   * `2` machines and computers made my job obsolete
-#'   * `3` job requirements changed and i was not able to do the job
-#'   * `4` job moved to another location in the united states
-#'   * `5` job moved to another country
-#'   * `6` other
-#'   * `7` company sold
-#'   * `8` job done
-#'   * `9` company in financial problem
-#'   * `10` end of contract
-#'   * `11` seasonal work
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` company's sales were declining
+#'   * `[2]` machines and computers made my job obsolete
+#'   * `[3]` job requirements changed and i was not able to do the job
+#'   * `[4]` job moved to another location in the united states
+#'   * `[5]` job moved to another country
+#'   * `[6]` other
+#'   * `[7]` company sold
+#'   * `[8]` job done
+#'   * `[9]` company in financial problem
+#'   * `[10]` end of contract
+#'   * `[11]` seasonal work
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -187,20 +187,20 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` company's sales were declining
-#'   * `2` machines and computers made my job obsolete
-#'   * `3` job requirements changed and i was not able to do the job
-#'   * `4` job moved to another location in the united states
-#'   * `5` job moved to another country
-#'   * `6` other
-#'   * `7` company sold
-#'   * `8` job done
-#'   * `9` company in financial problem
-#'   * `10` end of contract
-#'   * `11` seasonal work
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` company's sales were declining
+#'   * `[2]` machines and computers made my job obsolete
+#'   * `[3]` job requirements changed and i was not able to do the job
+#'   * `[4]` job moved to another location in the united states
+#'   * `[5]` job moved to another country
+#'   * `[6]` other
+#'   * `[7]` company sold
+#'   * `[8]` job done
+#'   * `[9]` company in financial problem
+#'   * `[10]` end of contract
+#'   * `[11]` seasonal work
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -230,16 +230,16 @@ NULL
 #' 
 #'  findnwjb
 #' 
-#' Question If you were laid off, how easy do you think it would be for you to find a job with another employer with approximately the same or better retirement and health benefits you now have? Would you sayâ€¦
+#' Question If you were laid off, how easy do you think it would be for you to find a job with another employer with approximately the same or better retirement and health benefits you now have? Would you say…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very easy
-#'   * `2` somewhat easy
-#'   * `3` not at all easy
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very easy
+#'   * `[2]` somewhat easy
+#'   * `[3]` not at all easy
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -273,13 +273,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` created more jobs
-#'   * `2` about the same
-#'   * `3` taken them away
-#'   * `4` not relevant for my job
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` created more jobs
+#'   * `[2]` about the same
+#'   * `[3]` taken them away
+#'   * `[4]` not relevant for my job
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -313,12 +313,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` better
-#'   * `2` about the same
-#'   * `3` worse
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` better
+#'   * `[2]` about the same
+#'   * `[3]` worse
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -352,12 +352,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` better
-#'   * `2` about the same
-#'   * `3` worse
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` better
+#'   * `[2]` about the same
+#'   * `[3]` worse
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -391,11 +391,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

@@ -15,20 +15,20 @@ Question Thinking of all the adult relatives, which one do you have the most con
 \section{Values}{
 
 \itemize{
-\item \code{1} grmother
-\item \code{2} grfather
-\item \code{3} grdaughter
-\item \code{4} grandson
-\item \code{5} aunt
-\item \code{6} uncle
-\item \code{7} mother-in-law
-\item \code{8} father-in-law
-\item \code{9} sister-in-law
-\item \code{10} brother-in-law
-\item \code{11} female relative
-\item \code{12} male relative
-\item \code{13} none
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} grmother
+\item \verb{[2]} grfather
+\item \verb{[3]} grdaughter
+\item \verb{[4]} grandson
+\item \verb{[5]} aunt
+\item \verb{[6]} uncle
+\item \verb{[7]} mother-in-law
+\item \verb{[8]} father-in-law
+\item \verb{[9]} sister-in-law
+\item \verb{[10]} brother-in-law
+\item \verb{[11]} female relative
+\item \verb{[12]} male relative
+\item \verb{[13]} none
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

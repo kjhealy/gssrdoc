@@ -15,23 +15,23 @@ Question What are the groups you both belong to? Circle all that apply.
 \section{Values}{
 
 \itemize{
-\item \code{1} fraternal groups
-\item \code{2} service clubs
-\item \code{3} veterans groups
-\item \code{4} political clubs
-\item \code{5} labor unions
-\item \code{6} sports groups
-\item \code{7} youth groups
-\item \code{8} school service groups
-\item \code{9} hobby or garden clubs
-\item \code{10} school fraternities or sororities
-\item \code{11} nationality groups
-\item \code{12} farm organizations
-\item \code{13} literary art discussion or study grps
-\item \code{14} professional or academic societies
-\item \code{15} church-affiliated groups
-\item \code{16} other groups
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} fraternal groups
+\item \verb{[2]} service clubs
+\item \verb{[3]} veterans groups
+\item \verb{[4]} political clubs
+\item \verb{[5]} labor unions
+\item \verb{[6]} sports groups
+\item \verb{[7]} youth groups
+\item \verb{[8]} school service groups
+\item \verb{[9]} hobby or garden clubs
+\item \verb{[10]} school fraternities or sororities
+\item \verb{[11]} nationality groups
+\item \verb{[12]} farm organizations
+\item \verb{[13]} literary art discussion or study grps
+\item \verb{[14]} professional or academic societies
+\item \verb{[15]} church-affiliated groups
+\item \verb{[16]} other groups
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

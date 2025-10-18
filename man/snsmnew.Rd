@@ -16,39 +16,39 @@ SOCIAL NETWORKING/SOCIAL MEDIA SITE:
 \section{Values}{
 
 \itemize{
-\item \code{1} twitter
-\item \code{2} facebook
-\item \code{3} instagram
-\item \code{4} linkedin
-\item \code{5} snapchat
-\item \code{6} tumblr
-\item \code{7} whatsapp
-\item \code{8} google+
-\item \code{9} pinterest
-\item \code{10} flickr
-\item \code{11} vine
-\item \code{12} classmates
-\item \code{13} youtube
-\item \code{14} myspace
-\item \code{15} reddit
-\item \code{16} viber
-\item \code{17} line
-\item \code{18} plenty of fish
-\item \code{19} kik
-\item \code{20} ravelry
-\item \code{22} wechat
-\item \code{23} imo
-\item \code{24} online dating sites
-\item \code{25} spotify
-\item \code{26} groupme
-\item \code{27} tinder
-\item \code{28} hangouts
-\item \code{29} researchgate
-\item \code{30} online gaming
-\item \code{31} yahoo
-\item \code{32} other social networks
-\item \code{33} not a social network
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} twitter
+\item \verb{[2]} facebook
+\item \verb{[3]} instagram
+\item \verb{[4]} linkedin
+\item \verb{[5]} snapchat
+\item \verb{[6]} tumblr
+\item \verb{[7]} whatsapp
+\item \verb{[8]} google+
+\item \verb{[9]} pinterest
+\item \verb{[10]} flickr
+\item \verb{[11]} vine
+\item \verb{[12]} classmates
+\item \verb{[13]} youtube
+\item \verb{[14]} myspace
+\item \verb{[15]} reddit
+\item \verb{[16]} viber
+\item \verb{[17]} line
+\item \verb{[18]} plenty of fish
+\item \verb{[19]} kik
+\item \verb{[20]} ravelry
+\item \verb{[22]} wechat
+\item \verb{[23]} imo
+\item \verb{[24]} online dating sites
+\item \verb{[25]} spotify
+\item \verb{[26]} groupme
+\item \verb{[27]} tinder
+\item \verb{[28]} hangouts
+\item \verb{[29]} researchgate
+\item \verb{[30]} online gaming
+\item \verb{[31]} yahoo
+\item \verb{[32]} other social networks
+\item \verb{[33]} not a social network
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

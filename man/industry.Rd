@@ -23,220 +23,220 @@ G. About how much time (does/did) it usually take you to travel to work - about 
 \section{Values}{
 
 \itemize{
-\item \code{17} agricultural production
-\item \code{18} agricultural services, except horticultural
-\item \code{19} horticultural services
-\item \code{27} forestry
-\item \code{28} fisheries
-\item \code{47} metal mining
-\item \code{48} coal mining
-\item \code{49} crude petroleum and natural gas extractions
-\item \code{57} nonmetallic mining and quarrying, except fuel
-\item \code{67} general building contractors
-\item \code{68} general contractors, except building
-\item \code{69} special trade contractors
-\item \code{77} not specified construction
-\item \code{107} logging
-\item \code{108} sawmills, planing mills, and mill work
-\item \code{109} miscellaneous wood products
-\item \code{118} furniture fixtures
-\item \code{119} glass and glass products
-\item \code{127} cement concrete, gypsum, and plaster products
-\item \code{128} structural clay products
-\item \code{137} pottery and related products
-\item \code{138} miscellaneous nonmetallic mineral and stone products
-\item \code{139} blast furnaces, steel works, rolling and finishing mills
-\item \code{147} other primary iron and steel industries
-\item \code{148} primary aluminum industries
-\item \code{149} other primary nonferrous industries
-\item \code{157} cutlery, hand tools, and other hardware
-\item \code{158} fabricated structural metal products
-\item \code{159} screw machine products
-\item \code{167} metal stamping
-\item \code{168} miscellaneous fabricated metal products
-\item \code{169} not specified metal industries
-\item \code{177} engines and turbines
-\item \code{178} farm machinery and equipment
-\item \code{179} construction and material handling machines
-\item \code{187} metalworking machinery
-\item \code{188} office and accounting machines
-\item \code{189} electronic computing equipment
-\item \code{197} machinery, except electrical, n.e.c.
-\item \code{198} not specified machinery
-\item \code{199} household appliances
-\item \code{207} radio, t.v., and communication equipment
-\item \code{208} electrical machinery, equipment, and supplies, n.e.c.
-\item \code{209} not specified electrical machinery, equipment, and supplies
-\item \code{219} motor vehicles and motor vehicle equipment
-\item \code{227} aircraft and parts
-\item \code{228} ship and boat building and repairing
-\item \code{229} railroad locomotives and equipment
-\item \code{237} mobile dwellings and campers
-\item \code{238} cycles and miscellaneous transportation equipment
-\item \code{239} scientific and controlling instruments
-\item \code{247} optical and health services supplies
-\item \code{248} photographic equipment and supplies
-\item \code{249} watches, clocks, and clockwork-operated devices
-\item \code{257} not specified professional equipment
-\item \code{258} ordinance
-\item \code{259} miscellaneous manufacturing industries
-\item \code{268} meat products
-\item \code{269} dairy products
-\item \code{278} canning and preserving fruits, vegetables, and sea foods
-\item \code{279} grain-mill products
-\item \code{287} bakery products
-\item \code{288} confectionery and related products
-\item \code{289} beverage industries
-\item \code{297} miscellaneous food preparation and kindred products
-\item \code{298} not specified food industries
-\item \code{299} tobacco manufactures
-\item \code{307} knitting mills
-\item \code{308} dyeing and finishing textiles, except wool and knit goods
-\item \code{309} floor coverings, except hard surface
-\item \code{317} yarn, thread, and fabric mills
-\item \code{318} miscellaneous textile mill products
-\item \code{319} apparel and accessories
-\item \code{327} miscellaneous fabricated textile products
-\item \code{328} pulp, paper and paperboard mills
-\item \code{329} miscellaneous paper and pulp products
-\item \code{337} paperboard containers and boxes
-\item \code{338} newspaper publishing and printing
-\item \code{339} printing, publishing, and allied industries, except newspapers
-\item \code{347} industrial chemicals
-\item \code{348} plastics, synthetics and resins, except fibers
-\item \code{349} synthetic fibers
-\item \code{357} drugs and medicines
-\item \code{358} soaps and cosmetics
-\item \code{359} paints, varnishes, and related products
-\item \code{367} agricultural chemicals
-\item \code{368} miscellaneous chemicals
-\item \code{369} not specified chemicals and allied products
-\item \code{377} petroleum refining
-\item \code{378} miscellaneous petroleum and coal products
-\item \code{379} rubber products
-\item \code{387} miscellaneous plastic products
-\item \code{388} tanned, curried, and finished leather
-\item \code{389} footwear, except rubber
-\item \code{397} leather products, except footwear
-\item \code{398} not specified manufacturing industries
-\item \code{407} railroads and railway express
-\item \code{408} street railways and bus lines
-\item \code{409} taxicab service
-\item \code{417} trucking service
-\item \code{418} warehousing and storage
-\item \code{419} water transportation
-\item \code{427} air transportation
-\item \code{428} pipe lines, except natural gas
-\item \code{429} services incidental to transportation
-\item \code{447} radio broadcasting and television
-\item \code{448} telephone (wire and radio)
-\item \code{449} telegraph and miscellaneous communication services
-\item \code{467} electric light and power
-\item \code{468} electric-gas utilities
-\item \code{469} gas and steam supply systems
-\item \code{477} water supply
-\item \code{478} sanitary services
-\item \code{479} other and not specified utilities
-\item \code{507} motor vehicles and equipment
-\item \code{508} drugs, chemicals, and allied products
-\item \code{509} dry goods and apparel
-\item \code{527} food and related products
-\item \code{528} farm products-raw materials
-\item \code{529} electrical goods
-\item \code{537} hardware, plumbing, and heating supplies
-\item \code{538} not specified electrical and hardware products
-\item \code{539} machinery equipment and supplies
-\item \code{557} metals and minerals, n.e.c.
-\item \code{558} petroleum products
-\item \code{559} scrap and waste materials
-\item \code{567} alcoholic beverages
-\item \code{568} paper and its products
-\item \code{569} lumber and construction materials
-\item \code{587} wholesalers, n.e.c.
-\item \code{588} not specified wholesale trade
-\item \code{607} lumber and building material retailing
-\item \code{608} hardware and farm equipment stores
-\item \code{609} department and mail order establishments
-\item \code{617} limited price variety stores
-\item \code{618} vending machine operators
-\item \code{619} direct selling establishments
-\item \code{627} misc. general merchandise stores
-\item \code{628} grocery stores
-\item \code{629} dairy product stores
-\item \code{637} retail bakeries
-\item \code{638} food stores, n.e.c.
-\item \code{639} motor vehicle dealers
-\item \code{647} tire, battery, and accessory dealers
-\item \code{648} gasoline service stations
-\item \code{649} miscellaneous vehicle dealers
-\item \code{657} apparel and accessories stores, except shoe stores
-\item \code{658} shoe stores
-\item \code{667} furniture and home furnishing stores
-\item \code{668} household appliances, tv, and radio stores
-\item \code{669} eating and drinking places
-\item \code{677} drug stores
-\item \code{678} liquor stores
-\item \code{679} farm and garden supply stores
-\item \code{687} jewelry stores
-\item \code{688} fuel and ice dealers
-\item \code{689} retail florists
-\item \code{697} miscellaneous retail stores
-\item \code{698} not specified retail trade
-\item \code{707} banking
-\item \code{708} credit agencies
-\item \code{709} security, commodity brokerage, and investment companies
-\item \code{717} insurance
-\item \code{718} real estate, incl. real estate-insurance-law offices
-\item \code{727} advertising
-\item \code{728} services to dwellings and other buildings
-\item \code{729} commercial research, development, and testing labs
-\item \code{737} employment and temporary help agencies
-\item \code{738} business management and consulting services
-\item \code{739} computer programming services
-\item \code{747} detective and protective services
-\item \code{748} business services, n.e.c.
-\item \code{749} automobile services, except repair
-\item \code{757} automobile repair and related services
-\item \code{758} electrical repair shops
-\item \code{759} miscellaneous repair services
-\item \code{769} private households
-\item \code{777} hotels and motels
-\item \code{778} lodging places, except hotels and motels
-\item \code{779} laundering, cleaning, and other garment services
-\item \code{787} beauty shops
-\item \code{788} barber shops
-\item \code{789} shoe repair shops
-\item \code{797} dressmaking shops
-\item \code{798} miscellaneous personal services
-\item \code{807} theaters and motion pictures
-\item \code{808} bowling alleys, billiard and pool parlors
-\item \code{809} miscellaneous entertainment and recreation services
-\item \code{828} offices of physicians
-\item \code{829} offices of dentists
-\item \code{837} offices of chiropractors
-\item \code{838} hospitals
-\item \code{839} convalescent institutions
-\item \code{847} offices of health practitioners,n.e.c.
-\item \code{848} health services, n.e.c.
-\item \code{849} legal services
-\item \code{857} elementary and secondary schools
-\item \code{858} colleges and universities
-\item \code{859} libraries
-\item \code{867} educational services, n.e.c.
-\item \code{868} not specified educational services
-\item \code{869} museums, art galleries, and zoos
-\item \code{877} religious organizations
-\item \code{878} welfare services
-\item \code{879} residential welfare facilities
-\item \code{887} nonprofit membership organizations
-\item \code{888} engineering and architectural services
-\item \code{889} accounting, auditing, and bookkeeping services
-\item \code{897} miscellaneous professional and related services
-\item \code{907} postal service
-\item \code{917} federal public administration
-\item \code{927} state public administration
-\item \code{937} local public administration
-\item 
+\item \verb{[17]} agricultural production
+\item \verb{[18]} agricultural services, except horticultural
+\item \verb{[19]} horticultural services
+\item \verb{[27]} forestry
+\item \verb{[28]} fisheries
+\item \verb{[47]} metal mining
+\item \verb{[48]} coal mining
+\item \verb{[49]} crude petroleum and natural gas extractions
+\item \verb{[57]} nonmetallic mining and quarrying, except fuel
+\item \verb{[67]} general building contractors
+\item \verb{[68]} general contractors, except building
+\item \verb{[69]} special trade contractors
+\item \verb{[77]} not specified construction
+\item \verb{[107]} logging
+\item \verb{[108]} sawmills, planing mills, and  mill work
+\item \verb{[109]} miscellaneous wood products
+\item \verb{[118]} furniture fixtures
+\item \verb{[119]} glass and glass products
+\item \verb{[127]} cement concrete, gypsum, and  plaster products
+\item \verb{[128]} structural clay products
+\item \verb{[137]} pottery and related products
+\item \verb{[138]} miscellaneous nonmetallic mineral and stone products
+\item \verb{[139]} blast furnaces, steel works, rolling and finishing mills
+\item \verb{[147]} other primary iron and steel industries
+\item \verb{[148]} primary aluminum industries
+\item \verb{[149]} other primary nonferrous industries
+\item \verb{[157]} cutlery, hand tools, and other hardware
+\item \verb{[158]} fabricated structural metal products
+\item \verb{[159]} screw machine products
+\item \verb{[167]} metal stamping
+\item \verb{[168]} miscellaneous fabricated metal products
+\item \verb{[169]} not specified metal industries
+\item \verb{[177]} engines and turbines
+\item \verb{[178]} farm machinery and equipment
+\item \verb{[179]} construction and material handling machines
+\item \verb{[187]} metalworking machinery
+\item \verb{[188]} office and accounting machines
+\item \verb{[189]} electronic computing equipment
+\item \verb{[197]} machinery, except electrical, n.e.c.
+\item \verb{[198]} not specified machinery
+\item \verb{[199]} household appliances
+\item \verb{[207]} radio, t.v., and communication equipment
+\item \verb{[208]} electrical machinery, equipment, and supplies, n.e.c.
+\item \verb{[209]} not specified electrical machinery, equipment, and supplies
+\item \verb{[219]} motor vehicles and motor vehicle equipment
+\item \verb{[227]} aircraft and parts
+\item \verb{[228]} ship and boat building and repairing
+\item \verb{[229]} railroad locomotives and equipment
+\item \verb{[237]} mobile dwellings and campers
+\item \verb{[238]} cycles and miscellaneous transportation equipment
+\item \verb{[239]} scientific and controlling instruments
+\item \verb{[247]} optical and health services supplies
+\item \verb{[248]} photographic equipment and supplies
+\item \verb{[249]} watches, clocks, and clockwork-operated devices
+\item \verb{[257]} not specified professional equipment
+\item \verb{[258]} ordinance
+\item \verb{[259]} miscellaneous manufacturing industries
+\item \verb{[268]} meat products
+\item \verb{[269]} dairy products
+\item \verb{[278]} canning and preserving fruits, vegetables, and sea foods
+\item \verb{[279]} grain-mill products
+\item \verb{[287]} bakery products
+\item \verb{[288]} confectionery and related products
+\item \verb{[289]} beverage industries
+\item \verb{[297]} miscellaneous food preparation and kindred products
+\item \verb{[298]} not specified food industries
+\item \verb{[299]} tobacco manufactures
+\item \verb{[307]} knitting mills
+\item \verb{[308]} dyeing and finishing textiles, except wool and knit goods
+\item \verb{[309]} floor coverings, except hard surface
+\item \verb{[317]} yarn, thread, and fabric mills
+\item \verb{[318]} miscellaneous textile mill products
+\item \verb{[319]} apparel and accessories
+\item \verb{[327]} miscellaneous fabricated textile products
+\item \verb{[328]} pulp, paper and paperboard mills
+\item \verb{[329]} miscellaneous paper and pulp products
+\item \verb{[337]} paperboard containers and boxes
+\item \verb{[338]} newspaper publishing and printing
+\item \verb{[339]} printing, publishing, and allied industries, except newspapers
+\item \verb{[347]} industrial chemicals
+\item \verb{[348]} plastics, synthetics and resins, except fibers
+\item \verb{[349]} synthetic fibers
+\item \verb{[357]} drugs and medicines
+\item \verb{[358]} soaps and cosmetics
+\item \verb{[359]} paints, varnishes, and related products
+\item \verb{[367]} agricultural chemicals
+\item \verb{[368]} miscellaneous chemicals
+\item \verb{[369]} not specified chemicals and allied products
+\item \verb{[377]} petroleum refining
+\item \verb{[378]} miscellaneous petroleum and coal products
+\item \verb{[379]} rubber products
+\item \verb{[387]} miscellaneous plastic products
+\item \verb{[388]} tanned, curried, and finished leather
+\item \verb{[389]} footwear, except rubber
+\item \verb{[397]} leather products, except footwear
+\item \verb{[398]} not specified manufacturing industries
+\item \verb{[407]} railroads and railway express
+\item \verb{[408]} street railways and bus lines
+\item \verb{[409]} taxicab service
+\item \verb{[417]} trucking service
+\item \verb{[418]} warehousing and storage
+\item \verb{[419]} water transportation
+\item \verb{[427]} air transportation
+\item \verb{[428]} pipe lines, except natural gas
+\item \verb{[429]} services incidental to transportation
+\item \verb{[447]} radio broadcasting and television
+\item \verb{[448]} telephone (wire and radio)
+\item \verb{[449]} telegraph and miscellaneous communication services
+\item \verb{[467]} electric light and power
+\item \verb{[468]} electric-gas utilities
+\item \verb{[469]} gas and steam supply systems
+\item \verb{[477]} water supply
+\item \verb{[478]} sanitary services
+\item \verb{[479]} other and not specified utilities
+\item \verb{[507]} motor vehicles and equipment
+\item \verb{[508]} drugs, chemicals, and allied products
+\item \verb{[509]} dry goods and apparel
+\item \verb{[527]} food and related products
+\item \verb{[528]} farm products-raw materials
+\item \verb{[529]} electrical goods
+\item \verb{[537]} hardware, plumbing, and heating supplies
+\item \verb{[538]} not specified electrical and hardware products
+\item \verb{[539]} machinery equipment and supplies
+\item \verb{[557]} metals and minerals, n.e.c.
+\item \verb{[558]} petroleum products
+\item \verb{[559]} scrap and waste materials
+\item \verb{[567]} alcoholic beverages
+\item \verb{[568]} paper and its products
+\item \verb{[569]} lumber and construction materials
+\item \verb{[587]} wholesalers, n.e.c.
+\item \verb{[588]} not specified wholesale trade
+\item \verb{[607]} lumber and building material retailing
+\item \verb{[608]} hardware and farm equipment stores
+\item \verb{[609]} department and mail order establishments
+\item \verb{[617]} limited price variety stores
+\item \verb{[618]} vending machine operators
+\item \verb{[619]} direct selling establishments
+\item \verb{[627]} misc. general merchandise stores
+\item \verb{[628]} grocery stores
+\item \verb{[629]} dairy product stores
+\item \verb{[637]} retail bakeries
+\item \verb{[638]} food stores, n.e.c.
+\item \verb{[639]} motor vehicle dealers
+\item \verb{[647]} tire, battery, and accessory dealers
+\item \verb{[648]} gasoline service stations
+\item \verb{[649]} miscellaneous vehicle dealers
+\item \verb{[657]} apparel and accessories stores, except shoe stores
+\item \verb{[658]} shoe stores
+\item \verb{[667]} furniture and home furnishing stores
+\item \verb{[668]} household appliances, tv, and radio stores
+\item \verb{[669]} eating and drinking places
+\item \verb{[677]} drug stores
+\item \verb{[678]} liquor stores
+\item \verb{[679]} farm and garden supply stores
+\item \verb{[687]} jewelry stores
+\item \verb{[688]} fuel and ice dealers
+\item \verb{[689]} retail florists
+\item \verb{[697]} miscellaneous retail stores
+\item \verb{[698]} not specified retail trade
+\item \verb{[707]} banking
+\item \verb{[708]} credit agencies
+\item \verb{[709]} security, commodity brokerage, and investment companies
+\item \verb{[717]} insurance
+\item \verb{[718]} real estate, incl. real estate-insurance-law offices
+\item \verb{[727]} advertising
+\item \verb{[728]} services to dwellings and other buildings
+\item \verb{[729]} commercial research, development, and testing labs
+\item \verb{[737]} employment and temporary help agencies
+\item \verb{[738]} business management and consulting services
+\item \verb{[739]} computer programming services
+\item \verb{[747]} detective and protective services
+\item \verb{[748]} business services, n.e.c.
+\item \verb{[749]} automobile services, except repair
+\item \verb{[757]} automobile repair and related services
+\item \verb{[758]} electrical repair shops
+\item \verb{[759]} miscellaneous repair services
+\item \verb{[769]} private households
+\item \verb{[777]} hotels and motels
+\item \verb{[778]} lodging places, except hotels and motels
+\item \verb{[779]} laundering, cleaning, and other garment services
+\item \verb{[787]} beauty shops
+\item \verb{[788]} barber shops
+\item \verb{[789]} shoe repair shops
+\item \verb{[797]} dressmaking shops
+\item \verb{[798]} miscellaneous personal services
+\item \verb{[807]} theaters and motion pictures
+\item \verb{[808]} bowling alleys, billiard and pool parlors
+\item \verb{[809]} miscellaneous entertainment and recreation services
+\item \verb{[828]} offices of physicians
+\item \verb{[829]} offices of dentists
+\item \verb{[837]} offices of chiropractors
+\item \verb{[838]} hospitals
+\item \verb{[839]} convalescent institutions
+\item \verb{[847]} offices of health practitioners,n.e.c.
+\item \verb{[848]} health services, n.e.c.
+\item \verb{[849]} legal services
+\item \verb{[857]} elementary and secondary schools
+\item \verb{[858]} colleges and universities
+\item \verb{[859]} libraries
+\item \verb{[867]} educational services, n.e.c.
+\item \verb{[868]} not specified educational services
+\item \verb{[869]} museums, art galleries, and zoos
+\item \verb{[877]} religious organizations
+\item \verb{[878]} welfare services
+\item \verb{[879]} residential welfare facilities
+\item \verb{[887]} nonprofit membership organizations
+\item \verb{[888]} engineering and architectural services
+\item \verb{[889]} accounting, auditing, and bookkeeping services
+\item \verb{[897]} miscellaneous professional and related services
+\item \verb{[907]} postal service
+\item \verb{[917]} federal public administration
+\item \verb{[927]} state public administration
+\item \verb{[937]} local public administration
+\item \verb{[NA(d)]}NA
 }
 }
 

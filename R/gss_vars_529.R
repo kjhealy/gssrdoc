@@ -2,18 +2,18 @@
 #' 
 #'  clsestat
 #' 
-#' Question How close do you feel toâ€¦ 
+#' Question How close do you feel to… 
 #' 3. Your state
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very close
-#'   * `2` close
-#'   * `3` not very close
-#'   * `4` not close at all
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very close
+#'   * `[2]` close
+#'   * `[3]` not very close
+#'   * `[4]` not close at all
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -45,18 +45,18 @@ NULL
 #' 
 #'  clseusa
 #' 
-#' Question How close do you feel toâ€¦ 
+#' Question How close do you feel to… 
 #' 4. America
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very close
-#'   * `2` close
-#'   * `3` not very close
-#'   * `4` not close at all
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very close
+#'   * `[2]` close
+#'   * `[3]` not very close
+#'   * `[4]` not close at all
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -88,18 +88,18 @@ NULL
 #' 
 #'  clsenoam
 #' 
-#' Question How close do you feel toâ€¦ 
+#' Question How close do you feel to… 
 #' 5. North America
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very close
-#'   * `2` close
-#'   * `3` not very close
-#'   * `4` not close at all
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very close
+#'   * `[2]` close
+#'   * `[3]` not very close
+#'   * `[4]` not close at all
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -131,19 +131,19 @@ NULL
 #' 
 #'  movenei
 #' 
-#' Question If you could improve your work or living conditions, how willing or unwilling would you be toâ€¦ 
+#' Question If you could improve your work or living conditions, how willing or unwilling would you be to… 
 #' A. Move to another neighborhood (or village)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very willing
-#'   * `2` fairly willing
-#'   * `3` neither willing nor unwilling
-#'   * `4` fairly unwilling
-#'   * `5` very unwilling
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very willing
+#'   * `[2]` fairly willing
+#'   * `[3]` neither willing nor unwilling
+#'   * `[4]` fairly unwilling
+#'   * `[5]` very unwilling
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -173,19 +173,19 @@ NULL
 #' 
 #'  movetown
 #' 
-#' Question If you could improve your work or living conditions, how willing or unwilling would you be toâ€¦ 
+#' Question If you could improve your work or living conditions, how willing or unwilling would you be to… 
 #' B. Move to another town or city within this state
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very willing
-#'   * `2` fairly willing
-#'   * `3` neither willing nor unwilling
-#'   * `4` fairly unwilling
-#'   * `5` very unwilling
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very willing
+#'   * `[2]` fairly willing
+#'   * `[3]` neither willing nor unwilling
+#'   * `[4]` fairly unwilling
+#'   * `[5]` very unwilling
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -215,19 +215,19 @@ NULL
 #' 
 #'  movestat
 #' 
-#' Question If you could improve your work or living conditions, how willing or unwilling would you be toâ€¦ 
+#' Question If you could improve your work or living conditions, how willing or unwilling would you be to… 
 #' C. Move to another state
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very willing
-#'   * `2` fairly willing
-#'   * `3` neither willing nor unwilling
-#'   * `4` fairly unwilling
-#'   * `5` very unwilling
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very willing
+#'   * `[2]` fairly willing
+#'   * `[3]` neither willing nor unwilling
+#'   * `[4]` fairly unwilling
+#'   * `[5]` very unwilling
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -257,19 +257,19 @@ NULL
 #' 
 #'  moveusa
 #' 
-#' Question If you could improve your work or living conditions, how willing or unwilling would you be toâ€¦ 
+#' Question If you could improve your work or living conditions, how willing or unwilling would you be to… 
 #' D. Move outside America
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very willing
-#'   * `2` fairly willing
-#'   * `3` neither willing nor unwilling
-#'   * `4` fairly unwilling
-#'   * `5` very unwilling
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very willing
+#'   * `[2]` fairly willing
+#'   * `[3]` neither willing nor unwilling
+#'   * `[4]` fairly unwilling
+#'   * `[5]` very unwilling
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -299,19 +299,19 @@ NULL
 #' 
 #'  movenoam
 #' 
-#' Question If you could improve your work or living conditions, how willing or unwilling would you be toâ€¦ 
+#' Question If you could improve your work or living conditions, how willing or unwilling would you be to… 
 #' E. Move outside North America
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very willing
-#'   * `2` fairly willing
-#'   * `3` neither willing nor unwilling
-#'   * `4` fairly unwilling
-#'   * `5` very unwilling
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very willing
+#'   * `[2]` fairly willing
+#'   * `[3]` neither willing nor unwilling
+#'   * `[4]` fairly unwilling
+#'   * `[5]` very unwilling
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -345,11 +345,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` essential to remain one nation
-#'   * `2` allowed to become separate
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` essential to remain one nation
+#'   * `[2]` allowed to become separate
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -384,13 +384,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very important
-#'   * `2` fairly important
-#'   * `3` not very important
-#'   * `4` not important at all
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very important
+#'   * `[2]` fairly important
+#'   * `[3]` not very important
+#'   * `[4]` not important at all
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |

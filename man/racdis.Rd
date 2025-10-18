@@ -10,17 +10,17 @@ General Social Survey https://gss.norc.org
 racdis
 }
 \details{
-Question Are there any (â€œwhitesâ€ for black respondents, â€œblacksâ€ for non-black respondents) living in this neighborhood now?
+Question Are there any ("whitesâ€ for black respondents, "blacksâ€ for non-black respondents) living in this neighborhood now?
 B. How many blocks (or miles) away do they (the (Negro/Black/African-American) families who live closest to you) live?
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} same block
-\item \code{2} 1-3 blks away
-\item \code{3} 4-8 blks away
-\item \code{4} over 8 blks
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} same block
+\item \verb{[2]} 1-3 blks away
+\item \verb{[3]} 4-8 blks away
+\item \verb{[4]} over 8 blks
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -6,13 +6,13 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` should definitely be allowed
-#'   * `2` should probably be allowed
-#'   * `3` should probably not be allowed
-#'   * `4` should definitely not be allowed
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` should definitely be allowed
+#'   * `[2]` should probably be allowed
+#'   * `[3]` should probably not be allowed
+#'   * `[4]` should definitely not be allowed
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -47,13 +47,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` should definitely be allowed
-#'   * `2` should probably be allowed
-#'   * `3` should probably not be allowed
-#'   * `4` should definitely not be allowed
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` should definitely be allowed
+#'   * `[2]` should probably be allowed
+#'   * `[3]` should probably not be allowed
+#'   * `[4]` should definitely not be allowed
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -89,13 +89,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` have done it in the past yr
-#'   * `2` have done it in the more distant past
-#'   * `3` have not done it but might do it
-#'   * `4` have not done it and would never do it
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` have done it in the past yr
+#'   * `[2]` have done it in the more distant past
+#'   * `[3]` have not done it but might do it
+#'   * `[4]` have not done it and would never do it
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -131,13 +131,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` have done it in the past yr
-#'   * `2` have done it in the more distant past
-#'   * `3` have not done it but might do it
-#'   * `4` have not done it and would never do it
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` have done it in the past yr
+#'   * `[2]` have done it in the more distant past
+#'   * `[3]` have not done it but might do it
+#'   * `[4]` have not done it and would never do it
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -173,13 +173,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` have done it in the past yr
-#'   * `2` have done it in the more distant past
-#'   * `3` have not done it but might do it
-#'   * `4` have not done it and would never do it
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` have done it in the past yr
+#'   * `[2]` have done it in the more distant past
+#'   * `[3]` have not done it but might do it
+#'   * `[4]` have not done it and would never do it
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -215,13 +215,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` have done it in the past yr
-#'   * `2` have done it in the more distant past
-#'   * `3` have not done it but might do it
-#'   * `4` have not done it and would never do it
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` have done it in the past yr
+#'   * `[2]` have done it in the more distant past
+#'   * `[3]` have not done it but might do it
+#'   * `[4]` have not done it and would never do it
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -257,13 +257,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` have done it in the past yr
-#'   * `2` have done it in the more distant past
-#'   * `3` have not done it but might do it
-#'   * `4` have not done it and would never do it
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` have done it in the past yr
+#'   * `[2]` have done it in the more distant past
+#'   * `[3]` have not done it but might do it
+#'   * `[4]` have not done it and would never do it
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -299,13 +299,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` have done it in the past yr
-#'   * `2` have done it in the more distant past
-#'   * `3` have not done it but might do it
-#'   * `4` have not done it and would never do it
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` have done it in the past yr
+#'   * `[2]` have done it in the more distant past
+#'   * `[3]` have not done it but might do it
+#'   * `[4]` have not done it and would never do it
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -341,13 +341,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` have done it in the past yr
-#'   * `2` have done it in the more distant past
-#'   * `3` have not done it but might do it
-#'   * `4` have not done it and would never do it
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` have done it in the past yr
+#'   * `[2]` have done it in the more distant past
+#'   * `[3]` have not done it but might do it
+#'   * `[4]` have not done it and would never do it
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -383,13 +383,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` have done it in the past yr
-#'   * `2` have done it in the more distant past
-#'   * `3` have not done it but might do it
-#'   * `4` have not done it and would never do it
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` have done it in the past yr
+#'   * `[2]` have done it in the more distant past
+#'   * `[3]` have not done it but might do it
+#'   * `[4]` have not done it and would never do it
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

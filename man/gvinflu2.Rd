@@ -17,18 +17,18 @@ And which do you think has the second most influence on the actions of the Ameri
 \section{Values}{
 
 \itemize{
-\item \code{1} the media
-\item \code{2} trade unions
-\item \code{3} businesses, banks and industry
-\item \code{4} religious organizations/authorities
-\item \code{5} the military/army
-\item \code{6} organized crime
-\item \code{7} people who vote for the party/parties in government
-\item \code{8} citizens in general
-\item \code{9} civic and voluntary organizations
-\item \code{10} international organizations (e.g. united nations, international monetary fund)
-\item \code{11} can't choose
-\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} the media
+\item \verb{[2]} trade unions
+\item \verb{[3]} businesses, banks and industry
+\item \verb{[4]} religious organizations/authorities
+\item \verb{[5]} the military/army
+\item \verb{[6]} organized crime
+\item \verb{[7]} people who vote for the party/parties in government
+\item \verb{[8]} citizens in general
+\item \verb{[9]} civic and voluntary organizations
+\item \verb{[10]} international organizations (e.g. united nations, international monetary fund)
+\item \verb{[11]} can't choose
+\item \verb{[NA(d)]} can't choose \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -10,14 +10,14 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` first
-#'   * `2` second
-#'   * `3` third
-#'   * `4` fourth
-#'   * `5` fifth
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` first
+#'   * `[2]` second
+#'   * `[3]` third
+#'   * `[4]` fourth
+#'   * `[5]` fifth
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                        |
@@ -77,14 +77,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` first
-#'   * `2` second
-#'   * `3` third
-#'   * `4` fourth
-#'   * `5` fifth
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` first
+#'   * `[2]` second
+#'   * `[3]` third
+#'   * `[4]` fourth
+#'   * `[5]` fifth
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                        |
@@ -144,14 +144,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` first
-#'   * `2` second
-#'   * `3` third
-#'   * `4` fourth
-#'   * `5` fifth
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` first
+#'   * `[2]` second
+#'   * `[3]` third
+#'   * `[4]` fourth
+#'   * `[5]` fifth
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                        |
@@ -207,12 +207,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` mostly boys
-#'   * `2` mostly girls
-#'   * `3` both equally
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` mostly boys
+#'   * `[2]` mostly girls
+#'   * `[3]` both equally
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -246,12 +246,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` mostly boys
-#'   * `2` mostly girls
-#'   * `3` both equally
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` mostly boys
+#'   * `[2]` mostly girls
+#'   * `[3]` both equally
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -287,11 +287,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what elders think
-#'   * `2` think for selves
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what elders think
+#'   * `[2]` think for selves
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -321,21 +321,21 @@ NULL
 #' 
 #'  socrel
 #' 
-#' Question Would you use this card and tell me which answer comes closest to how often you do the following thingsâ€¦ 
+#' Question Would you use this card and tell me which answer comes closest to how often you do the following things… 
 #' A. Spend a social evening with relatives?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost daily
-#'   * `2` once or twice a week
-#'   * `3` several times a month
-#'   * `4` about once a month
-#'   * `5` several times a year
-#'   * `6` about once a year
-#'   * `7` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost daily
+#'   * `[2]` once or twice a week
+#'   * `[3]` several times a month
+#'   * `[4]` about once a month
+#'   * `[5]` several times a year
+#'   * `[6]` about once a year
+#'   * `[7]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                  |
@@ -393,21 +393,21 @@ NULL
 #' 
 #'  socommun
 #' 
-#' Question Would you use this card and tell me which answer comes closest to how often you do the following thingsâ€¦ 
+#' Question Would you use this card and tell me which answer comes closest to how often you do the following things… 
 #' B. Spend a social evening with someone who lives in your neighborhood?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost daily
-#'   * `2` once or twice a week
-#'   * `3` several times a month
-#'   * `4` about once a month
-#'   * `5` several times a year
-#'   * `6` about once a year
-#'   * `7` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost daily
+#'   * `[2]` once or twice a week
+#'   * `[3]` several times a month
+#'   * `[4]` about once a month
+#'   * `[5]` several times a year
+#'   * `[6]` about once a year
+#'   * `[7]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                  |
@@ -465,21 +465,21 @@ NULL
 #' 
 #'  socfrend
 #' 
-#' Question Would you use this card and tell me which answer comes closest to how often you do the following thingsâ€¦ 
+#' Question Would you use this card and tell me which answer comes closest to how often you do the following things… 
 #' C. Spend a social evening with friends who live outside the neighborhood?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost daily
-#'   * `2` once or twice a week
-#'   * `3` several times a month
-#'   * `4` about once a month
-#'   * `5` several times a year
-#'   * `6` about once a year
-#'   * `7` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost daily
+#'   * `[2]` once or twice a week
+#'   * `[3]` several times a month
+#'   * `[4]` about once a month
+#'   * `[5]` several times a year
+#'   * `[6]` about once a year
+#'   * `[7]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                  |
@@ -537,21 +537,21 @@ NULL
 #' 
 #'  socbar
 #' 
-#' Question Would you use this card and tell me which answer comes closest to how often you do the following thingsâ€¦ 
+#' Question Would you use this card and tell me which answer comes closest to how often you do the following things… 
 #' D. Go to a bar or tavern?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost daily
-#'   * `2` once or twice a week
-#'   * `3` several times a month
-#'   * `4` about once a month
-#'   * `5` several times a year
-#'   * `6` about once a year
-#'   * `7` never
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost daily
+#'   * `[2]` once or twice a week
+#'   * `[3]` several times a month
+#'   * `[4]` about once a month
+#'   * `[5]` several times a year
+#'   * `[6]` about once a year
+#'   * `[7]` never
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                                                                                  |

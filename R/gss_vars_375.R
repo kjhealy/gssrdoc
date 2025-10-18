@@ -2,16 +2,16 @@
 #' 
 #'  gmbiz
 #' 
-#' Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT â€œADVANCED LABORATORY TECHNIQUESâ€ MEANS: This typically involves â€œrecombinant DNAâ€ or â€œgene splicing,â€ in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species. 
+#' Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT "ADVANCED LABORATORY TECHNIQUESâ€ MEANS: This typically involves "recombinant DNAâ€ or "gene splicing,â€ in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species. 
 #' C. Business leaders
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very well
-#'   * `5` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very well
+#'   * `[5]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -41,15 +41,15 @@ NULL
 #' 
 #'  medagrgm
 #' 
-#' Question Please look at Card B16. (On a scale of 1 to 5, where 1 means â€œNear complete agreementâ€ and 5 means â€œNo agreement at allâ€) to what extent Do medical researchers agree on the risks and benefits of genetically modified foods?
+#' Question Please look at Card B16. (On a scale of 1 to 5, where 1 means "Near complete agreementâ€ and 5 means "No agreement at allâ€) to what extent Do medical researchers agree on the risks and benefits of genetically modified foods?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` near complete agreement
-#'   * `5` no agreement at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` near complete agreement
+#'   * `[5]` no agreement at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -84,13 +84,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -125,13 +125,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -166,13 +166,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -208,11 +208,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -248,11 +248,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -288,11 +288,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -328,12 +328,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` dont care whether or not food has been genetically modified
-#'   * `2` willing to eat but would prefer unmodified foods
-#'   * `3` will not eat genetically modified food
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` dont care whether or not food has been genetically modified
+#'   * `[2]` willing to eat but would prefer unmodified foods
+#'   * `[3]` will not eat genetically modified food
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -363,18 +363,18 @@ NULL
 #' 
 #'  sciimp1
 #' 
-#' Question Now Iâ€™m going to read you some statements about science and scientists. Please look at Card B19. How important are each of the following in making something scientific? 
+#' Question Now I'm going to read you some statements about science and scientists. Please look at Card B19. How important are each of the following in making something scientific? 
 #' A. It is done by scientists employed in a university setting. Would you say this is very important, pretty important, not too important, or not important at all in making something scientific?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very important
-#'   * `2` pretty important
-#'   * `3` not too important
-#'   * `4` not important at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very important
+#'   * `[2]` pretty important
+#'   * `[3]` not too important
+#'   * `[4]` not important at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

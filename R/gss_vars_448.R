@@ -7,11 +7,11 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spend on social programs like health
-#'   * `2` spend less than now on social programs
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spend on social programs like health
+#'   * `[2]` spend less than now on social programs
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -42,18 +42,18 @@ NULL
 #'  helphlth
 #' 
 #' Question How successful do you think the government in America is nowadays in each of the following areas? 
-#' A. Providing health care for the sick? Would you sayâ€¦
+#' A. Providing health care for the sick? Would you say…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very successful
-#'   * `2` quite successful
-#'   * `3` neither successful nor unsuccessful
-#'   * `4` quite unsuccessful
-#'   * `5` very unsuccessful
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very successful
+#'   * `[2]` quite successful
+#'   * `[3]` neither successful nor unsuccessful
+#'   * `[4]` quite unsuccessful
+#'   * `[5]` very unsuccessful
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -88,14 +88,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very successful
-#'   * `2` quite successful
-#'   * `3` neither successful nor unsuccessful
-#'   * `4` quite unsuccessful
-#'   * `5` very unsuccessful
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very successful
+#'   * `[2]` quite successful
+#'   * `[3]` neither successful nor unsuccessful
+#'   * `[4]` quite unsuccessful
+#'   * `[5]` very unsuccessful
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -130,14 +130,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very successful
-#'   * `2` quite successful
-#'   * `3` neither successful nor unsuccessful
-#'   * `4` quite unsuccessful
-#'   * `5` very unsuccessful
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very successful
+#'   * `[2]` quite successful
+#'   * `[3]` neither successful nor unsuccessful
+#'   * `[4]` quite unsuccessful
+#'   * `[5]` very unsuccessful
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -172,14 +172,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very successful
-#'   * `2` quite successful
-#'   * `3` neither successful nor unsuccessful
-#'   * `4` quite unsuccessful
-#'   * `5` very unsuccessful
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very successful
+#'   * `[2]` quite successful
+#'   * `[3]` neither successful nor unsuccessful
+#'   * `[4]` quite unsuccessful
+#'   * `[5]` very unsuccessful
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -214,14 +214,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very successful
-#'   * `2` quite successful
-#'   * `3` neither successful nor unsuccessful
-#'   * `4` quite unsuccessful
-#'   * `5` very unsuccessful
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very successful
+#'   * `[2]` quite successful
+#'   * `[3]` neither successful nor unsuccessful
+#'   * `[4]` quite unsuccessful
+#'   * `[5]` very unsuccessful
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -256,14 +256,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very successful
-#'   * `2` quite successful
-#'   * `3` neither successful nor unsuccessful
-#'   * `4` quite unsuccessful
-#'   * `5` very unsuccessful
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very successful
+#'   * `[2]` quite successful
+#'   * `[3]` neither successful nor unsuccessful
+#'   * `[4]` quite unsuccessful
+#'   * `[5]` very unsuccessful
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -299,13 +299,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have the right
-#'   * `2` probably should have the right
-#'   * `3` probably should not have the right
-#'   * `4` definitely should not have the right
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have the right
+#'   * `[2]` probably should have the right
+#'   * `[3]` probably should not have the right
+#'   * `[4]` definitely should not have the right
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -340,13 +340,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have the right
-#'   * `2` probably should have the right
-#'   * `3` probably should not have the right
-#'   * `4` definitely should not have the right
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have the right
+#'   * `[2]` probably should have the right
+#'   * `[3]` probably should not have the right
+#'   * `[4]` definitely should not have the right
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -383,11 +383,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` 0 - all government information should be publically available, even if this meant a risk to public security
-#'   * `10` 10 - public security should be given priority, even if this means limiting access to government information
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` 0 - all government information should be publically available, even if this meant a risk to public security
+#'   * `[10]` 10 - public security should be given priority, even if this means limiting access to government information
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

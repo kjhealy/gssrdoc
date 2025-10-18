@@ -15,239 +15,239 @@ Question Respondent's Occupation, Prestige, and Industry
 \section{Values}{
 
 \itemize{
-\item \code{10} agricultural production, crops
-\item \code{11} agricultural production, livestock
-\item \code{20} agricultural services, except horticultural
-\item \code{21} horticultural services
-\item \code{30} forestry
-\item \code{31} fishing, hunting, and trapping, etc.
-\item \code{40} metal mining
-\item \code{41} coal mining
-\item \code{42} crude petroleum and natural gas extraction
-\item \code{50} nonmetallic mining and quarrying, except fuel
-\item \code{60} construction
-\item \code{100} meat products
-\item \code{101} dairy products
-\item \code{102} canned and preserved fruits and vegetables
-\item \code{110} grain mill products
-\item \code{111} bakery products
-\item \code{112} sugar and confectionery products
-\item \code{120} beverage industries
-\item \code{121} miscellaneous food preparations and kindred products
-\item \code{122} not specified food industries
-\item \code{130} tobacco manufactures
-\item \code{132} knitting mills
-\item \code{140} dyeing and finishing textiles, except wool and knit goods
-\item \code{141} floor coverings, except hard surface
-\item \code{142} yarn, thread, and fabric mills
-\item \code{150} miscellaneous textile mill products
-\item \code{151} apparel and accessories, except knit
-\item \code{152} miscellaneous fabricated textile products
-\item \code{160} pulp, paper, and paperboard mills
-\item \code{161} miscellaneous paper and pulp products
-\item \code{162} paperboard containers and boxes
-\item \code{171} newspaper publishing and printing
-\item \code{172} printing, publishing, and allied industries, except newspapers
-\item \code{180} plastics, synthetics, and resins
-\item \code{181} drugs
-\item \code{182} soaps and cosmetics
-\item \code{185} paints, varnishes, and related products
-\item \code{190} agricultural chemicals
-\item \code{191} industrial and miscellaneous chemicals
-\item \code{192} petroleum and coal products
-\item \code{200} petroleum refining
-\item \code{201} miscellaneous petroleum and coal products
-\item \code{210} tires and inner tubes
-\item \code{211} other rubber products, and plastics footwear and belting
-\item \code{212} miscellaneous plastics products
-\item \code{220} leather tanning and finishing
-\item \code{221} footwear, except rubber and plastic
-\item \code{222} leather products, except footwear
-\item \code{230} logging
-\item \code{231} sawmills, planning mills, and millwork
-\item \code{232} wood buildings and mobile homes
-\item \code{241} miscellaneous wood products
-\item \code{242} furniture and fixtures
-\item \code{250} glass and glass products
-\item \code{251} cement, concrete, gypsum, and plaster products
-\item \code{252} structural clay products
-\item \code{261} pottery and related products
-\item \code{262} miscellaneous nonmetallic mineral and stone products
-\item \code{270} blast furnaces, steelworks, rolling and finishing mills
-\item \code{271} iron and steel foundries
-\item \code{272} primary aluminum industries
-\item \code{280} other primary metal industries
-\item \code{281} cutlery, hand tools, and other hardware
-\item \code{282} fabricated structural metal products
-\item \code{290} screw machine products
-\item \code{291} metal forgings and stampings
-\item \code{292} ordnance
-\item \code{300} miscellaneous fabricated metal products
-\item \code{301} not specified metal industries
-\item \code{310} engines and turbines
-\item \code{311} farm machinery and equipment
-\item \code{312} construction and material handling machines
-\item \code{320} metalworking machinery
-\item \code{321} office and accounting machines
-\item \code{322} electronic computing equipment
-\item \code{331} machinery, except electrical, n.e.c.
-\item \code{332} not specified machinery
-\item \code{340} household appliances
-\item \code{341} radio, tv, and communication equipment
-\item \code{342} electrical machinery, equipment, and supplies, n.e.c.
-\item \code{350} not specified electrical machinery, equipment, and supplies
-\item \code{351} motor vehicles and motor vehicle equipment
-\item \code{352} aircraft and parts
-\item \code{360} ship and boat building and repairing
-\item \code{361} railroad locomotives and equipment
-\item \code{362} guided missiles, space vehicles, and parts
-\item \code{370} cycles and miscellaneous transportation equipment
-\item \code{371} scientific and controlling instruments
-\item \code{372} optical and health services supplies
-\item \code{380} photographic equipment and supplies
-\item \code{381} watches, clocks, and clockwork operated devices
-\item \code{382} not specified professional equipment
-\item \code{390} toys, amusement, and sporting goods
-\item \code{391} miscellaneous manufacturing industries
-\item \code{392} not specified manufacturing industries
-\item \code{400} railroads
-\item \code{401} bus service and urban transit
-\item \code{402} taxicab service
-\item \code{410} trucking service
-\item \code{411} warehousing and storage
-\item \code{412} u.s. postal service
-\item \code{420} water transportation
-\item \code{421} air transportation
-\item \code{422} pipe lines, except natural gas
-\item \code{432} services incidental to transportation
-\item \code{440} radio and television broadcasting
-\item \code{441} telephone (wire and radio)
-\item \code{442} telegraph and miscellaneous communication service
-\item \code{460} electric light and power
-\item \code{461} gas and steam supply systems
-\item \code{462} electric and gas, and other combinations
-\item \code{470} water supply and irrigation
-\item \code{471} sanitary services
-\item \code{472} not specified utilities
-\item \code{500} motor vehicles and equipment
-\item \code{501} furniture and home furnishings
-\item \code{502} lumber and construction materials
-\item \code{510} sporting goods, toys, and hobby goods
-\item \code{511} metals and minerals, except petroleum
-\item \code{512} electrical goods
-\item \code{521} hardware, plumbing and heating supplies
-\item \code{522} not specified electrical and hardware products
-\item \code{530} machinery, equipment, and supplies
-\item \code{531} scrap and waste materials
-\item \code{532} miscellaneous wholesale, durable goods
-\item \code{540} paper and paper products
-\item \code{541} drugs, chemicals, and allied products
-\item \code{542} apparel, fabrics, and notions
-\item \code{550} groceries and related products
-\item \code{551} farm products-raw materials
-\item \code{552} petroleum products
-\item \code{560} alcoholic beverages
-\item \code{561} farm supplies
-\item \code{562} miscellaneous wholesale, nondurable goods
-\item \code{571} not specified wholesale trade
-\item \code{580} lumber and building material retailing
-\item \code{581} hardware stores
-\item \code{582} retail nurseries and garden stores
-\item \code{590} mobile home dealers
-\item \code{591} department stores
-\item \code{592} variety stores
-\item \code{600} miscellaneous general merchandise stores
-\item \code{601} grocery stores
-\item \code{602} dairy products stores
-\item \code{610} retail bakeries
-\item \code{611} food stores, n.e.c.
-\item \code{612} motor vehicle dealers
-\item \code{620} auto and home supply stores
-\item \code{621} gasoline service stations
-\item \code{622} miscellaneous vehicle dealers
-\item \code{630} apparel and accessory stores, except shoe
-\item \code{631} shoe stores
-\item \code{632} furniture and home furnishings stores
-\item \code{640} household appliances, tv, and radio stores
-\item \code{641} eating and drinking places
-\item \code{642} drug stores
-\item \code{650} liquor stores
-\item \code{651} sporting goods, bicycles, and hobby stores
-\item \code{652} book and stationery stores
-\item \code{660} jewelry stores
-\item \code{661} sewing, needlework, and piece goods stores
-\item \code{662} mail order houses
-\item \code{670} vending machine operators
-\item \code{671} direct selling establishments
-\item \code{672} fuel and ice dealers
-\item \code{681} retail florists
-\item \code{682} miscellaneous retail stores
-\item \code{691} not specified retail trade
-\item \code{700} banking
-\item \code{701} savings and loan associations
-\item \code{702} credit agencies, n.e.c.
-\item \code{710} security, commodity brokerage, and investment companies
-\item \code{711} insurance
-\item \code{712} real estate, including real estate-insurance-law offices
-\item \code{721} advertising
-\item \code{722} services to dwellings and other buildings
-\item \code{730} commercial research, development, and testing labs
-\item \code{731} personnel supply services
-\item \code{732} business management and consulting services
-\item \code{740} computer and data processing services
-\item \code{741} detective and protective services
-\item \code{742} business services, n.e.c.
-\item \code{750} automotive services, except repair
-\item \code{751} automotive repair shops
-\item \code{752} electrical repair shops
-\item \code{760} miscellaneous repair services
-\item \code{761} private households
-\item \code{762} hotels and motels
-\item \code{770} lodging places, except hotels and motels
-\item \code{771} laundry, cleaning, and garment services
-\item \code{772} beauty shops
-\item \code{780} barber shops
-\item \code{781} funeral service and crematories
-\item \code{782} shoe repair shops
-\item \code{790} dressmaking shops
-\item \code{791} miscellaneous personal services
-\item \code{800} theaters and motion pictures
-\item \code{801} bowling alleys, billiard and pool parlors
-\item \code{802} miscellaneous entertainment and recreation services
-\item \code{812} offices of physicians
-\item \code{820} offices of dentists
-\item \code{821} offices of chiropractors
-\item \code{822} offices of optometrists
-\item \code{830} offices of health practitioners, n.e.c.
-\item \code{831} hospitals
-\item \code{832} nursing and personal care facilities
-\item \code{840} health services, n.e.c.
-\item \code{841} legal services
-\item \code{842} elementary and secondary schools
-\item \code{850} colleges and universities
-\item \code{851} business, trade, and vocational schools
-\item \code{852} libraries
-\item \code{860} educational services, n.e.c.
-\item \code{861} job training and vocational rehabilitation services
-\item \code{862} child day care services
-\item \code{870} residential care facilities, without nursing
-\item \code{871} social services, n.e.c.
-\item \code{872} museums, art galleries and zoos
-\item \code{880} religious organizations
-\item \code{881} membership organizations
-\item \code{882} engineering, architectural, and surveying services
-\item \code{890} accounting, auditing, and bookkeeping services
-\item \code{891} noncommercial educational and scientific research
-\item \code{892} miscellaneous professional and related services
-\item \code{900} executive and legislative offices
-\item \code{901} general government, n.e.c.
-\item \code{910} justice, public order, and safety
-\item \code{921} public finance, taxation, and monetary policy
-\item \code{922} administration of human resources programs
-\item \code{930} administration of environmental quality and household programs
-\item \code{931} administration of economic programs
-\item \code{932} national security and international affairs
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[10]} agricultural production, crops
+\item \verb{[11]} agricultural production, livestock
+\item \verb{[20]} agricultural services, except horticultural
+\item \verb{[21]} horticultural services
+\item \verb{[30]} forestry
+\item \verb{[31]} fishing, hunting, and trapping, etc.
+\item \verb{[40]} metal mining
+\item \verb{[41]} coal mining
+\item \verb{[42]} crude petroleum and natural gas extraction
+\item \verb{[50]} nonmetallic mining and quarrying, except fuel
+\item \verb{[60]} construction
+\item \verb{[100]} meat products
+\item \verb{[101]} dairy products
+\item \verb{[102]} canned and preserved fruits and vegetables
+\item \verb{[110]} grain mill products
+\item \verb{[111]} bakery products
+\item \verb{[112]} sugar and confectionery products
+\item \verb{[120]} beverage industries
+\item \verb{[121]} miscellaneous food preparations and kindred products
+\item \verb{[122]} not specified food industries
+\item \verb{[130]} tobacco manufactures
+\item \verb{[132]} knitting mills
+\item \verb{[140]} dyeing and finishing textiles, except wool and knit goods
+\item \verb{[141]} floor coverings, except hard surface
+\item \verb{[142]} yarn, thread, and fabric mills
+\item \verb{[150]} miscellaneous textile mill products
+\item \verb{[151]} apparel and accessories, except knit
+\item \verb{[152]} miscellaneous fabricated textile products
+\item \verb{[160]} pulp, paper, and paperboard mills
+\item \verb{[161]} miscellaneous paper and pulp products
+\item \verb{[162]} paperboard containers and boxes
+\item \verb{[171]} newspaper publishing and printing
+\item \verb{[172]} printing, publishing, and allied industries, except newspapers
+\item \verb{[180]} plastics, synthetics, and resins
+\item \verb{[181]} drugs
+\item \verb{[182]} soaps and cosmetics
+\item \verb{[185]} paints, varnishes, and related products
+\item \verb{[190]} agricultural chemicals
+\item \verb{[191]} industrial and miscellaneous chemicals
+\item \verb{[192]} petroleum and coal products
+\item \verb{[200]} petroleum refining
+\item \verb{[201]} miscellaneous petroleum and coal products
+\item \verb{[210]} tires and inner tubes
+\item \verb{[211]} other rubber products, and plastics footwear and belting
+\item \verb{[212]} miscellaneous plastics products
+\item \verb{[220]} leather tanning and finishing
+\item \verb{[221]} footwear, except rubber and plastic
+\item \verb{[222]} leather products, except footwear
+\item \verb{[230]} logging
+\item \verb{[231]} sawmills, planning mills, and millwork
+\item \verb{[232]} wood buildings and mobile homes
+\item \verb{[241]} miscellaneous wood products
+\item \verb{[242]} furniture and fixtures
+\item \verb{[250]} glass and glass products
+\item \verb{[251]} cement, concrete, gypsum, and plaster products
+\item \verb{[252]} structural clay products
+\item \verb{[261]} pottery and related products
+\item \verb{[262]} miscellaneous nonmetallic mineral and stone products
+\item \verb{[270]} blast furnaces, steelworks, rolling and finishing mills
+\item \verb{[271]} iron and steel foundries
+\item \verb{[272]} primary aluminum industries
+\item \verb{[280]} other primary metal industries
+\item \verb{[281]} cutlery, hand tools, and other hardware
+\item \verb{[282]} fabricated structural metal products
+\item \verb{[290]} screw machine products
+\item \verb{[291]} metal forgings and stampings
+\item \verb{[292]} ordnance
+\item \verb{[300]} miscellaneous fabricated metal products
+\item \verb{[301]} not specified metal industries
+\item \verb{[310]} engines and turbines
+\item \verb{[311]} farm machinery and equipment
+\item \verb{[312]} construction and material handling machines
+\item \verb{[320]} metalworking machinery
+\item \verb{[321]} office and accounting machines
+\item \verb{[322]} electronic computing equipment
+\item \verb{[331]} machinery, except electrical, n.e.c.
+\item \verb{[332]} not specified machinery
+\item \verb{[340]} household appliances
+\item \verb{[341]} radio, tv, and communication equipment
+\item \verb{[342]} electrical machinery, equipment, and supplies, n.e.c.
+\item \verb{[350]} not specified electrical machinery, equipment, and supplies
+\item \verb{[351]} motor vehicles and motor vehicle equipment
+\item \verb{[352]} aircraft and parts
+\item \verb{[360]} ship and boat building and repairing
+\item \verb{[361]} railroad locomotives and equipment
+\item \verb{[362]} guided missiles, space vehicles, and parts
+\item \verb{[370]} cycles and miscellaneous transportation equipment
+\item \verb{[371]} scientific and controlling instruments
+\item \verb{[372]} optical and health services supplies
+\item \verb{[380]} photographic equipment and supplies
+\item \verb{[381]} watches, clocks, and clockwork operated devices
+\item \verb{[382]} not specified professional equipment
+\item \verb{[390]} toys, amusement, and sporting goods
+\item \verb{[391]} miscellaneous manufacturing industries
+\item \verb{[392]} not specified manufacturing industries
+\item \verb{[400]} railroads
+\item \verb{[401]} bus service and urban transit
+\item \verb{[402]} taxicab service
+\item \verb{[410]} trucking service
+\item \verb{[411]} warehousing and storage
+\item \verb{[412]} u.s. postal service
+\item \verb{[420]} water transportation
+\item \verb{[421]} air transportation
+\item \verb{[422]} pipe lines, except natural gas
+\item \verb{[432]} services incidental to transportation
+\item \verb{[440]} radio and television broadcasting
+\item \verb{[441]} telephone (wire and radio)
+\item \verb{[442]} telegraph and miscellaneous communication service
+\item \verb{[460]} electric light and power
+\item \verb{[461]} gas and steam supply systems
+\item \verb{[462]} electric and gas, and other combinations
+\item \verb{[470]} water supply and irrigation
+\item \verb{[471]} sanitary services
+\item \verb{[472]} not specified utilities
+\item \verb{[500]} motor vehicles and equipment
+\item \verb{[501]} furniture and home furnishings
+\item \verb{[502]} lumber and construction materials
+\item \verb{[510]} sporting goods, toys, and hobby goods
+\item \verb{[511]} metals and minerals, except petroleum
+\item \verb{[512]} electrical goods
+\item \verb{[521]} hardware, plumbing and heating supplies
+\item \verb{[522]} not specified electrical and hardware products
+\item \verb{[530]} machinery, equipment, and supplies
+\item \verb{[531]} scrap and waste materials
+\item \verb{[532]} miscellaneous wholesale, durable goods
+\item \verb{[540]} paper and paper products
+\item \verb{[541]} drugs, chemicals, and allied products
+\item \verb{[542]} apparel, fabrics, and notions
+\item \verb{[550]} groceries and related products
+\item \verb{[551]} farm products-raw materials
+\item \verb{[552]} petroleum products
+\item \verb{[560]} alcoholic beverages
+\item \verb{[561]} farm supplies
+\item \verb{[562]} miscellaneous wholesale, nondurable goods
+\item \verb{[571]} not specified wholesale trade
+\item \verb{[580]} lumber and building material retailing
+\item \verb{[581]} hardware stores
+\item \verb{[582]} retail nurseries and garden stores
+\item \verb{[590]} mobile home dealers
+\item \verb{[591]} department stores
+\item \verb{[592]} variety stores
+\item \verb{[600]} miscellaneous general merchandise stores
+\item \verb{[601]} grocery stores
+\item \verb{[602]} dairy products stores
+\item \verb{[610]} retail bakeries
+\item \verb{[611]} food stores, n.e.c.
+\item \verb{[612]} motor vehicle dealers
+\item \verb{[620]} auto and home supply stores
+\item \verb{[621]} gasoline service stations
+\item \verb{[622]} miscellaneous vehicle dealers
+\item \verb{[630]} apparel and accessory stores, except shoe
+\item \verb{[631]} shoe stores
+\item \verb{[632]} furniture and home furnishings stores
+\item \verb{[640]} household appliances, tv, and radio stores
+\item \verb{[641]} eating and drinking places
+\item \verb{[642]} drug stores
+\item \verb{[650]} liquor stores
+\item \verb{[651]} sporting goods, bicycles, and hobby stores
+\item \verb{[652]} book and stationery stores
+\item \verb{[660]} jewelry stores
+\item \verb{[661]} sewing, needlework, and piece goods stores
+\item \verb{[662]} mail order houses
+\item \verb{[670]} vending machine operators
+\item \verb{[671]} direct selling establishments
+\item \verb{[672]} fuel and ice dealers
+\item \verb{[681]} retail florists
+\item \verb{[682]} miscellaneous retail stores
+\item \verb{[691]} not specified retail trade
+\item \verb{[700]} banking
+\item \verb{[701]} savings and loan associations
+\item \verb{[702]} credit agencies, n.e.c.
+\item \verb{[710]} security, commodity brokerage, and investment companies
+\item \verb{[711]} insurance
+\item \verb{[712]} real estate, including real estate-insurance-law offices
+\item \verb{[721]} advertising
+\item \verb{[722]} services to dwellings and other buildings
+\item \verb{[730]} commercial research, development, and testing labs
+\item \verb{[731]} personnel supply services
+\item \verb{[732]} business management and consulting services
+\item \verb{[740]} computer and data processing services
+\item \verb{[741]} detective and protective services
+\item \verb{[742]} business services, n.e.c.
+\item \verb{[750]} automotive services, except repair
+\item \verb{[751]} automotive repair shops
+\item \verb{[752]} electrical repair shops
+\item \verb{[760]} miscellaneous repair services
+\item \verb{[761]} private households
+\item \verb{[762]} hotels and motels
+\item \verb{[770]} lodging places, except hotels and motels
+\item \verb{[771]} laundry, cleaning, and garment services
+\item \verb{[772]} beauty shops
+\item \verb{[780]} barber shops
+\item \verb{[781]} funeral service and crematories
+\item \verb{[782]} shoe repair shops
+\item \verb{[790]} dressmaking shops
+\item \verb{[791]} miscellaneous personal services
+\item \verb{[800]} theaters and motion pictures
+\item \verb{[801]} bowling alleys, billiard and pool parlors
+\item \verb{[802]} miscellaneous entertainment and recreation services
+\item \verb{[812]} offices of physicians
+\item \verb{[820]} offices of dentists
+\item \verb{[821]} offices of chiropractors
+\item \verb{[822]} offices of optometrists
+\item \verb{[830]} offices of health practitioners, n.e.c.
+\item \verb{[831]} hospitals
+\item \verb{[832]} nursing and personal care facilities
+\item \verb{[840]} health services, n.e.c.
+\item \verb{[841]} legal services
+\item \verb{[842]} elementary and secondary schools
+\item \verb{[850]} colleges and universities
+\item \verb{[851]} business, trade, and vocational schools
+\item \verb{[852]} libraries
+\item \verb{[860]} educational services, n.e.c.
+\item \verb{[861]} job training and vocational rehabilitation services
+\item \verb{[862]} child day care services
+\item \verb{[870]} residential care facilities, without nursing
+\item \verb{[871]} social services, n.e.c.
+\item \verb{[872]} museums, art galleries and zoos
+\item \verb{[880]} religious organizations
+\item \verb{[881]} membership organizations
+\item \verb{[882]} engineering, architectural, and surveying services
+\item \verb{[890]} accounting, auditing, and bookkeeping services
+\item \verb{[891]} noncommercial educational and scientific research
+\item \verb{[892]} miscellaneous professional and related services
+\item \verb{[900]} executive and legislative offices
+\item \verb{[901]} general government, n.e.c.
+\item \verb{[910]} justice, public order, and safety
+\item \verb{[921]} public finance, taxation, and monetary policy
+\item \verb{[922]} administration of human resources programs
+\item \verb{[930]} administration of environmental quality and household programs
+\item \verb{[931]} administration of economic programs
+\item \verb{[932]} national security and international affairs
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

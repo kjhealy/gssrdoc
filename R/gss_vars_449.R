@@ -7,13 +7,13 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have the right
-#'   * `2` probably should have the right
-#'   * `3` probably should not have the right
-#'   * `4` definitely should not have the right
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have the right
+#'   * `[2]` probably should have the right
+#'   * `[3]` probably should not have the right
+#'   * `[4]` definitely should not have the right
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -48,13 +48,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have the right
-#'   * `2` probably should have the right
-#'   * `3` probably should not have the right
-#'   * `4` definitely should not have the right
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have the right
+#'   * `[2]` probably should have the right
+#'   * `[3]` probably should not have the right
+#'   * `[4]` definitely should not have the right
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -84,18 +84,18 @@ NULL
 #' 
 #'  wotrial
 #' 
-#' Question Suppose the government suspected that a terrorist act was about to happen. Do you think the authorities should have the right toâ€¦ 
+#' Question Suppose the government suspected that a terrorist act was about to happen. Do you think the authorities should have the right to… 
 #' A. Detain people for as long as they want without putting them on trial?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have right
-#'   * `2` probably should have right
-#'   * `3` probably should not have right
-#'   * `4` definitely should not have right
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have right
+#'   * `[2]` probably should have right
+#'   * `[3]` probably should not have right
+#'   * `[4]` definitely should not have right
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -127,18 +127,18 @@ NULL
 #' 
 #'  tapphone
 #' 
-#' Question Suppose the government suspected that a terrorist act was about to happen. Do you think the authorities should have the right toâ€¦ 
-#' B. Tap peopleâ€™s telephone conversations?
+#' Question Suppose the government suspected that a terrorist act was about to happen. Do you think the authorities should have the right to… 
+#' B. Tap people's telephone conversations?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have right
-#'   * `2` probably should have right
-#'   * `3` probably should not have right
-#'   * `4` definitely should not have right
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have right
+#'   * `[2]` probably should have right
+#'   * `[3]` probably should not have right
+#'   * `[4]` definitely should not have right
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -170,18 +170,18 @@ NULL
 #' 
 #'  stoprndm
 #' 
-#' Question Suppose the government suspected that a terrorist act was about to happen. Do you think the authorities should have the right toâ€¦ 
+#' Question Suppose the government suspected that a terrorist act was about to happen. Do you think the authorities should have the right to… 
 #' C. Stop and search people in the street at random?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should have right
-#'   * `2` probably should have right
-#'   * `3` probably should not have right
-#'   * `4` definitely should not have right
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should have right
+#'   * `[2]` probably should have right
+#'   * `[3]` probably should not have right
+#'   * `[4]` definitely should not have right
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -214,18 +214,18 @@ NULL
 #'  fewtrsty
 #' 
 #' Question To what extent do you agree or disagree with the following statements? 
-#' A. â€œThere are only a few people I can trust completely.â€ Do you...
+#' A. "There are only a few people I can trust completely.â€ Do you...
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` strongly agree
+#'   * `[2]` agree
+#'   * `[3]` neither agree nor disagree
+#'   * `[4]` disagree
+#'   * `[5]` strongly disagree
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -256,18 +256,18 @@ NULL
 #'  exploit
 #' 
 #' Question To what extent do you agree or disagree with the following statements? 
-#' B. â€œIf you are not careful, other people will take advantage of you.â€ Do you...
+#' B. "If you are not careful, other people will take advantage of you.â€ Do you...
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` strongly agree
+#'   * `[2]` agree
+#'   * `[3]` neither agree nor disagree
+#'   * `[4]` disagree
+#'   * `[5]` strongly disagree
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -298,17 +298,17 @@ NULL
 #'  youinflu
 #' 
 #' Question Some people because of their job, position in the community or contacts, are asked by others to  help influence important decisions in their favor. 
-#' A. What about you? How often are you asked to help influence important decisions in other peopleâ€™s favor?
+#' A. What about you? How often are you asked to help influence important decisions in other people's favor?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` never
-#'   * `2` seldom
-#'   * `3` occasionally
-#'   * `4` often
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` never
+#'   * `[2]` seldom
+#'   * `[3]` occasionally
+#'   * `[4]` often
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -343,13 +343,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` no, nobody
-#'   * `2` yes, a few people
-#'   * `3` yes, some people
-#'   * `4` yes, a lot of people
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` no, nobody
+#'   * `[2]` yes, a few people
+#'   * `[3]` yes, some people
+#'   * `[4]` yes, a lot of people
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -383,14 +383,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost always
-#'   * `2` often
-#'   * `3` occasionally
-#'   * `4` seldom
-#'   * `5` almost never
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost always
+#'   * `[2]` often
+#'   * `[3]` occasionally
+#'   * `[4]` seldom
+#'   * `[5]` almost never
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

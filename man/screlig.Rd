@@ -10,15 +10,15 @@ General Social Survey https://gss.norc.org
 screlig
 }
 \details{
-Question Here is another public issue: research that uses human embryonic stem cells. These are cells from human embryos that can develop into many different types of tissue. Some say that cells taken from human embryos are uniquely valuable in medical research. Others say that the same discoveries can be made without destroying living embryos. Please look at Card B6. (On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€), how well do the following groups understand stem cell research?
+Question Here is another public issue: research that uses human embryonic stem cells. These are cells from human embryos that can develop into many different types of tissue. Some say that cells taken from human embryos are uniquely valuable in medical research. Others say that the same discoveries can be made without destroying living embryos. Please look at Card B6. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand stem cell research?
 B. Religious leaders
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} very well
-\item \code{5} not at all
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} very well
+\item \verb{[5]} not at all
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

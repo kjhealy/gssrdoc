@@ -15,21 +15,21 @@ Question About how many people work in your organization at all locations? Count
 \section{Values}{
 
 \itemize{
-\item \code{9981} 1-9 in range
-\item \code{9982} 10-49 in range
-\item \code{9983} 50-99 in range
-\item \code{9984} 100-499 in range
-\item \code{9985} 500-999 in range
-\item \code{9986} 1,000-1,999 in range
-\item \code{9987} 2,000-2,999 in range
-\item \code{9988} 3,000-3,999 in range
-\item \code{9989} 4,000-4,999 in range
-\item \code{9990} 5,000-10,000 in range
-\item \code{9991} 10,000-50,000 in range
-\item \code{9992} 50,000-100,000 in range
-\item \code{9993} above 100,000 in range
-\item \code{9997} 10,000 or more
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[9981]} 1-9 in range
+\item \verb{[9982]} 10-49 in range
+\item \verb{[9983]} 50-99 in range
+\item \verb{[9984]} 100-499 in range
+\item \verb{[9985]} 500-999 in range
+\item \verb{[9986]} 1,000-1,999 in range
+\item \verb{[9987]} 2,000-2,999 in range
+\item \verb{[9988]} 3,000-3,999 in range
+\item \verb{[9989]} 4,000-4,999 in range
+\item \verb{[9990]} 5,000-10,000 in range
+\item \verb{[9991]} 10,000-50,000 in range
+\item \verb{[9992]} 50,000-100,000 in range
+\item \verb{[9993]} above 100,000 in range
+\item \verb{[9997]} 10,000 or more
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

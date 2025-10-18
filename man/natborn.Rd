@@ -15,82 +15,82 @@ Question What country were you born in?
 \section{Values}{
 
 \itemize{
-\item \code{1} mexico
-\item \code{2} canada
-\item \code{3} china
-\item \code{4} colombia
-\item \code{5} cuba
-\item \code{6} germany
-\item \code{7} guatemala
-\item \code{8} haiti
-\item \code{9} honduras
-\item \code{10} india
-\item \code{11} jamaica
-\item \code{12} korea
-\item \code{13} philippines
-\item \code{14} poland
-\item \code{15} other
-\item \code{16} trinidad
-\item \code{17} antigua
-\item \code{18} pakistan
-\item \code{19} belize
-\item \code{20} guyana
-\item \code{21} egypt
-\item \code{22} moldovia
-\item \code{23} brazil
-\item \code{24} portugal
-\item \code{25} panama
-\item \code{26} iran
-\item \code{27} ghana
-\item \code{28} bangladesh
-\item \code{29} puerto rico
-\item \code{30} turkey
-\item \code{31} italy
-\item \code{32} el salvidor
-\item \code{33} greece
-\item \code{34} ecuador
-\item \code{35} england
-\item \code{36} thailand
-\item \code{37} peru
-\item \code{38} australia
-\item \code{39} israel
-\item \code{40} netherlands
-\item \code{41} macedonia
-\item \code{42} france
-\item \code{43} argentina
-\item \code{44} lebanon
-\item \code{45} russia
-\item \code{46} cambodia
-\item \code{47} venezuela
-\item \code{48} iraq
-\item \code{49} romania
-\item \code{50} czech republic
-\item \code{51} nicaragua
-\item \code{52} arabic
-\item \code{53} gambia
-\item \code{54} west africa
-\item \code{55} barbados
-\item \code{56} south africa
-\item \code{57} ukraine
-\item \code{58} hungary
-\item \code{59} eritrea
-\item \code{60} ireland
-\item \code{61} laos
-\item \code{62} vietnam
-\item \code{63} senegal
-\item \code{64} sudan
-\item \code{65} nigeria
-\item \code{66} bosnia
-\item \code{67} uruguay
-\item \code{68} malaysia
-\item \code{69} armenia
-\item \code{70} congo
-\item \code{71} japan
-\item \code{72} dutch east indies
-\item \code{73} indonesia
-\item \code{74} africa
-\item \code{75} jordan
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} mexico
+\item \verb{[2]} canada
+\item \verb{[3]} china
+\item \verb{[4]} colombia
+\item \verb{[5]} cuba
+\item \verb{[6]} germany
+\item \verb{[7]} guatemala
+\item \verb{[8]} haiti
+\item \verb{[9]} honduras
+\item \verb{[10]} india
+\item \verb{[11]} jamaica
+\item \verb{[12]} korea
+\item \verb{[13]} philippines
+\item \verb{[14]} poland
+\item \verb{[15]} other
+\item \verb{[16]} trinidad
+\item \verb{[17]} antigua
+\item \verb{[18]} pakistan
+\item \verb{[19]} belize
+\item \verb{[20]} guyana
+\item \verb{[21]} egypt
+\item \verb{[22]} moldovia
+\item \verb{[23]} brazil
+\item \verb{[24]} portugal
+\item \verb{[25]} panama
+\item \verb{[26]} iran
+\item \verb{[27]} ghana
+\item \verb{[28]} bangladesh
+\item \verb{[29]} puerto rico
+\item \verb{[30]} turkey
+\item \verb{[31]} italy
+\item \verb{[32]} el salvidor
+\item \verb{[33]} greece
+\item \verb{[34]} ecuador
+\item \verb{[35]} england
+\item \verb{[36]} thailand
+\item \verb{[37]} peru
+\item \verb{[38]} australia
+\item \verb{[39]} israel
+\item \verb{[40]} netherlands
+\item \verb{[41]} macedonia
+\item \verb{[42]} france
+\item \verb{[43]} argentina
+\item \verb{[44]} lebanon
+\item \verb{[45]} russia
+\item \verb{[46]} cambodia
+\item \verb{[47]} venezuela
+\item \verb{[48]} iraq
+\item \verb{[49]} romania
+\item \verb{[50]} czech republic
+\item \verb{[51]} nicaragua
+\item \verb{[52]} arabic
+\item \verb{[53]} gambia
+\item \verb{[54]} west africa
+\item \verb{[55]} barbados
+\item \verb{[56]} south africa
+\item \verb{[57]} ukraine
+\item \verb{[58]} hungary
+\item \verb{[59]} eritrea
+\item \verb{[60]} ireland
+\item \verb{[61]} laos
+\item \verb{[62]} vietnam
+\item \verb{[63]} senegal
+\item \verb{[64]} sudan
+\item \verb{[65]} nigeria
+\item \verb{[66]} bosnia
+\item \verb{[67]} uruguay
+\item \verb{[68]} malaysia
+\item \verb{[69]} armenia
+\item \verb{[70]} congo
+\item \verb{[71]} japan
+\item \verb{[72]} dutch east indies
+\item \verb{[73]} indonesia
+\item \verb{[74]} africa
+\item \verb{[75]} jordan
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

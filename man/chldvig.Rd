@@ -15,63 +15,63 @@ Question Child mental health vignette version number
 \section{Values}{
 
 \itemize{
-\item \code{1} 1: adhd, john, white, 8
-\item \code{2} 2: adhd, john, white, 14
-\item \code{3} 3: adhd, mary, white, 8
-\item \code{4} 4: adhd, mary, white, 14
-\item \code{5} 5: adhd, john, black, 8
-\item \code{6} 6: adhd, john, black, 14
-\item \code{7} 7: adhd, mary, black, 8
-\item \code{8} 8: adhd, mary, black, 14
-\item \code{9} 9: depression, john, white, 8
-\item \code{10} 10: depression, john, white, 14
-\item \code{11} 11: depression, mary, white, 8
-\item \code{12} 12: depression, mary, white, 14
-\item \code{13} 13: depression, john, black, 8
-\item \code{14} 14: depression, john, black, 14
-\item \code{15} 15: depression, mary, black, 8
-\item \code{16} 16: depression, mary, black, 14
-\item \code{17} 17: normal, john, white, 8
-\item \code{18} 18: normal, john, white, 14
-\item \code{19} 19: normal, mary, white, 8
-\item \code{20} 20: normal, mary, white, 14
-\item \code{21} 21: normal, john, black, 8
-\item \code{22} 22: normal, john, black, 14
-\item \code{23} 23: normal, mary, black, 8
-\item \code{24} 24: normal, mary, black, 14
-\item \code{25} 25: asthma, john, white, 8
-\item \code{26} 26: asthma, john, white, 14
-\item \code{27} 27: asthma, mary, white, 8
-\item \code{28} 28: asthma, mary, white, 14
-\item \code{29} 29: asthma, john, black, 8
-\item \code{30} 30: asthma, john, black, 14
-\item \code{31} 31: asthma, mary, black, 8
-\item \code{32} 32: asthma, mary, black, 14
-\item \code{33} 33: classic depression, john, white, 8
-\item \code{34} 34: classic depression, john, white, 14
-\item \code{35} 35: classic depression, mary, white, 8
-\item \code{36} 36: classic depression, mary, white, 14
-\item \code{37} 37: classic depression, john, black, 8
-\item \code{38} 38: classic depression, john, black, 14
-\item \code{39} 39: classic depression, mary, black, 8
-\item \code{40} 40: classic depression, mary, black, 14
-\item \code{41} 41: impulsivity, john, white, 8
-\item \code{42} 42: impulsivity, john, white, 14
-\item \code{43} 43: impulsivity, mary, white, 8
-\item \code{44} 44: impulsivity, mary, white, 14
-\item \code{45} 45: impulsivity, john, black, 8
-\item \code{46} 46: impulsivity, john, black, 14
-\item \code{47} 47: impulsivity, mary, black, 8
-\item \code{48} 48: impulsivity, mary, black, 14
-\item \code{49} 49: perfectionism, john, white, 8
-\item \code{50} 50: perfectionism, john, white, 14
-\item \code{51} 51: perfectionism, mary, white, 8
-\item \code{52} 52: perfectionism, mary, white, 14
-\item \code{53} 53: perfectionism, john, black, 8
-\item \code{54} 54: perfectionism, john, black, 14
-\item \code{55} 55: perfectionism, mary, black, 8
-\item \code{56} 56: perfectionism, mary, black, 14
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} 1:  adhd, john, white, 8
+\item \verb{[2]} 2:  adhd, john, white, 14
+\item \verb{[3]} 3:  adhd, mary, white, 8
+\item \verb{[4]} 4:  adhd, mary, white, 14
+\item \verb{[5]} 5:  adhd, john, black, 8
+\item \verb{[6]} 6:  adhd, john, black, 14
+\item \verb{[7]} 7:  adhd, mary, black, 8
+\item \verb{[8]} 8:  adhd, mary, black, 14
+\item \verb{[9]} 9:  depression, john, white, 8
+\item \verb{[10]} 10: depression, john, white, 14
+\item \verb{[11]} 11: depression, mary, white, 8
+\item \verb{[12]} 12: depression, mary, white, 14
+\item \verb{[13]} 13: depression, john, black, 8
+\item \verb{[14]} 14: depression, john, black, 14
+\item \verb{[15]} 15: depression, mary, black, 8
+\item \verb{[16]} 16: depression, mary, black, 14
+\item \verb{[17]} 17: normal, john, white, 8
+\item \verb{[18]} 18: normal, john, white, 14
+\item \verb{[19]} 19: normal, mary, white, 8
+\item \verb{[20]} 20: normal, mary, white, 14
+\item \verb{[21]} 21: normal, john, black, 8
+\item \verb{[22]} 22: normal, john, black, 14
+\item \verb{[23]} 23: normal, mary, black, 8
+\item \verb{[24]} 24: normal, mary, black, 14
+\item \verb{[25]} 25: asthma, john, white, 8
+\item \verb{[26]} 26: asthma, john, white, 14
+\item \verb{[27]} 27: asthma, mary, white, 8
+\item \verb{[28]} 28: asthma, mary, white, 14
+\item \verb{[29]} 29: asthma, john, black, 8
+\item \verb{[30]} 30: asthma, john, black, 14
+\item \verb{[31]} 31: asthma, mary, black, 8
+\item \verb{[32]} 32: asthma, mary, black, 14
+\item \verb{[33]} 33: classic depression, john, white, 8
+\item \verb{[34]} 34: classic depression, john, white, 14
+\item \verb{[35]} 35: classic depression, mary, white, 8
+\item \verb{[36]} 36: classic depression, mary, white, 14
+\item \verb{[37]} 37: classic depression, john, black, 8
+\item \verb{[38]} 38: classic depression, john, black, 14
+\item \verb{[39]} 39: classic depression, mary, black, 8
+\item \verb{[40]} 40: classic depression, mary, black, 14
+\item \verb{[41]} 41: impulsivity, john, white, 8
+\item \verb{[42]} 42: impulsivity, john, white, 14
+\item \verb{[43]} 43: impulsivity, mary, white, 8
+\item \verb{[44]} 44: impulsivity, mary, white, 14
+\item \verb{[45]} 45: impulsivity, john, black, 8
+\item \verb{[46]} 46: impulsivity, john, black, 14
+\item \verb{[47]} 47: impulsivity, mary, black, 8
+\item \verb{[48]} 48: impulsivity, mary, black, 14
+\item \verb{[49]} 49: perfectionism, john, white, 8
+\item \verb{[50]} 50: perfectionism, john, white, 14
+\item \verb{[51]} 51: perfectionism, mary, white, 8
+\item \verb{[52]} 52: perfectionism, mary, white, 14
+\item \verb{[53]} 53: perfectionism, john, black, 8
+\item \verb{[54]} 54: perfectionism, john, black, 14
+\item \verb{[55]} 55: perfectionism, mary, black, 8
+\item \verb{[56]} 56: perfectionism, mary, black, 14
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

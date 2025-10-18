@@ -15,17 +15,17 @@ Question SELECT ONE FROM THE LIST BELOW WHICH BEST DESCRIBES THE TYPE OF STRUCTU
 \section{Values}{
 
 \itemize{
-\item \code{1} trailer
-\item \code{2} detached single family house
-\item \code{3} 2-family house, 2 units side-by-side
-\item \code{4} 2-family house, 2 units one above the other
-\item \code{5} detached 3-4 family house
-\item \code{6} row house (3 or more units in an attached row)
-\item \code{7} apartment house (5 or more units, 3 stories or less)
-\item \code{8} apartment house (5 or more units, 4 stories or more)
-\item \code{9} apartment in a partly commercial structure
-\item \code{10} other
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} trailer
+\item \verb{[2]} detached single family house
+\item \verb{[3]} 2-family house, 2 units side-by-side
+\item \verb{[4]} 2-family house, 2 units one above the other
+\item \verb{[5]} detached 3-4 family house
+\item \verb{[6]} row house (3 or more units in an attached row)
+\item \verb{[7]} apartment house (5 or more units, 3 stories or less)
+\item \verb{[8]} apartment house (5 or more units, 4 stories or more)
+\item \verb{[9]} apartment in a partly commercial structure
+\item \verb{[10]} other
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

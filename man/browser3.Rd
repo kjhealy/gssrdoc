@@ -15,34 +15,34 @@ Question D. Specify name of web browser
 \section{Values}{
 
 \itemize{
-\item \code{1} explorer
-\item \code{2} netscape
-\item \code{3} excite
-\item \code{4} msn
-\item \code{5} aol
-\item \code{6} google
-\item \code{7} yahoo
-\item \code{8} earthlink
-\item \code{9} lycos
-\item \code{10} compuserve
-\item \code{11} bonzi
-\item \code{12} goto
-\item \code{13} altavista
-\item \code{14} hotbot
-\item \code{15} siap
-\item \code{16} mindspring
-\item \code{17} dogpile
-\item \code{18} prodigy
-\item \code{19} ask jeeves
-\item \code{20} dsl
-\item \code{21} netrax
-\item \code{22} webcorner
-\item \code{23} mozilla
-\item \code{24} everyonesinternet
-\item \code{25} mamma
-\item \code{26} dogpatch
-\item \code{27} other
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} explorer
+\item \verb{[2]} netscape
+\item \verb{[3]} excite
+\item \verb{[4]} msn
+\item \verb{[5]} aol
+\item \verb{[6]} google
+\item \verb{[7]} yahoo
+\item \verb{[8]} earthlink
+\item \verb{[9]} lycos
+\item \verb{[10]} compuserve
+\item \verb{[11]} bonzi
+\item \verb{[12]} goto
+\item \verb{[13]} altavista
+\item \verb{[14]} hotbot
+\item \verb{[15]} siap
+\item \verb{[16]} mindspring
+\item \verb{[17]} dogpile
+\item \verb{[18]} prodigy
+\item \verb{[19]} ask jeeves
+\item \verb{[20]} dsl
+\item \verb{[21]} netrax
+\item \verb{[22]} webcorner
+\item \verb{[23]} mozilla
+\item \verb{[24]} everyonesinternet
+\item \verb{[25]} mamma
+\item \verb{[26]} dogpatch
+\item \verb{[27]} other
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

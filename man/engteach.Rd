@@ -11,17 +11,17 @@ engteach
 }
 \details{
 Question There are several different ideas about how to teach children who don't speak English when they enter our public schools. Please look at the card and tell me which statement best describes how you feel:
-All classes should be conducted only in English so that children have to learn English right from the startâ€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦.â€¦â€¦â€¦â€¦â€¦â€¦â€¦1
-Children who don't know English should have classes in their native language just for a year or two until they learn Englishâ€¦â€¦â€¦â€¦â€¦â€¦...â€¦â€¦â€¦.â€¦.....â€¦â€¦â€¦â€¦â€¦ 2
-Students who want to keep up with their native languages and cultures should be able to take many of the classes in Spanish or other languages All the way through high schoolâ€¦â€¦......3
+All classes should be conducted only in English so that children have to learn English right from the start…………………………………………………….…………………1
+Children who don't know English should have classes in their native language just for a year or two until they learn English………………...……….….....…………… 2
+Students who want to keep up with their native languages and cultures should be able to take many of the classes in Spanish or other languages All the way through high school……......3
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} all classes in english
-\item \code{2} 1-2 yrs in native lang
-\item \code{3} native lang thru hs
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} all classes in english
+\item \verb{[2]} 1-2 yrs in native lang
+\item \verb{[3]} native lang thru hs
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -15,20 +15,20 @@ Question About how many people work in your organization at all locations? Count
 \section{Values}{
 
 \itemize{
-\item \code{1} 1-9 in range
-\item \code{2} 10-49 in range
-\item \code{3} 50-99 in range
-\item \code{4} 100-499 in range
-\item \code{5} 500-999 in range
-\item \code{6} 1,000-1,999 in range
-\item \code{7} 2,000-2,999 in range
-\item \code{8} 3,000-3,999 in range
-\item \code{9} 4,000-4,999 in range
-\item \code{10} 5,000-10,000 in range
-\item \code{11} 10,000-50,000 in range
-\item \code{12} 50,000-100,000 in range
-\item \code{13} above 100,000 in range
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} 1-9 in range
+\item \verb{[2]} 10-49 in range
+\item \verb{[3]} 50-99 in range
+\item \verb{[4]} 100-499 in range
+\item \verb{[5]} 500-999 in range
+\item \verb{[6]} 1,000-1,999 in range
+\item \verb{[7]} 2,000-2,999 in range
+\item \verb{[8]} 3,000-3,999 in range
+\item \verb{[9]} 4,000-4,999 in range
+\item \verb{[10]} 5,000-10,000 in range
+\item \verb{[11]} 10,000-50,000 in range
+\item \verb{[12]} 50,000-100,000 in range
+\item \verb{[13]} above 100,000 in range
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

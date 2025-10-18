@@ -20,44 +20,44 @@ C2. Why did you become a (FIRST/SECOND MENTION)?
 \section{Values}{
 
 \itemize{
-\item \code{0} na
-\item \code{10} marriage
-\item \code{14} marr & location
-\item \code{15} marr & theology
-\item \code{16} marr. & clergy
-\item \code{17} marr & positive blf
-\item \code{20} friends
-\item \code{23} frnds & family
-\item \code{24} frnds & location
-\item \code{25} frnds & theo dis
-\item \code{26} frnds & clergy
-\item \code{28} frnds & other pos
-\item \code{30} family
-\item \code{34} fam & location
-\item \code{35} fam & theo diss
-\item \code{37} fam & positive blf
-\item \code{39} fam & misc
-\item \code{40} location
-\item \code{41} loc & to change
-\item \code{45} loc & theo dissat
-\item \code{46} loc and clergy
-\item \code{47} loc & positive blf
-\item \code{50} theological diss
-\item \code{56} theo diss & clergy
-\item \code{60} clergy
-\item \code{68} clergy & oth pos
-\item \code{69} clergy & missing
-\item \code{70} to change
-\item \code{71} other, to change
-\item \code{76} other, misc
-\item \code{77} other, pos blfs
-\item \code{78} other, pos other
-\item \code{79} other, missing
-\item \code{85} loc, theo & clrgy
-\item \code{86} frnds,fam,location
-\item \code{87} marr,loc,theo dis
-\item \code{99} missing values
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[0]} na
+\item \verb{[10]} marriage
+\item \verb{[14]} marr & location
+\item \verb{[15]} marr & theology
+\item \verb{[16]} marr. & clergy
+\item \verb{[17]} marr & positive blf
+\item \verb{[20]} friends
+\item \verb{[23]} frnds & family
+\item \verb{[24]} frnds & location
+\item \verb{[25]} frnds & theo dis
+\item \verb{[26]} frnds & clergy
+\item \verb{[28]} frnds & other pos
+\item \verb{[30]} family
+\item \verb{[34]} fam & location
+\item \verb{[35]} fam & theo diss
+\item \verb{[37]} fam & positive blf
+\item \verb{[39]} fam & misc
+\item \verb{[40]} location
+\item \verb{[41]} loc & to change
+\item \verb{[45]} loc & theo dissat
+\item \verb{[46]} loc and clergy
+\item \verb{[47]} loc & positive blf
+\item \verb{[50]} theological diss
+\item \verb{[56]} theo diss & clergy
+\item \verb{[60]} clergy
+\item \verb{[68]} clergy & oth pos
+\item \verb{[69]} clergy & missing
+\item \verb{[70]} to change
+\item \verb{[71]} other, to change
+\item \verb{[76]} other, misc
+\item \verb{[77]} other, pos blfs
+\item \verb{[78]} other, pos other
+\item \verb{[79]} other, missing
+\item \verb{[85]} loc, theo & clrgy
+\item \verb{[86]} frnds,fam,location
+\item \verb{[87]} marr,loc,theo dis
+\item \verb{[99]} missing values
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

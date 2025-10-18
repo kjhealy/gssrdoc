@@ -16,88 +16,88 @@ Question What was your major or field of study when you received your (RESPONDEN
 \section{Values}{
 
 \itemize{
-\item \code{1} accounting/bookkeeping
-\item \code{2} advertising
-\item \code{3} agriculture/horticulture
-\item \code{4} allied health
-\item \code{5} anthropology
-\item \code{6} architecture
-\item \code{7} art
-\item \code{8} biology
-\item \code{9} business administration
-\item \code{11} chemistry
-\item \code{12} communications/speech
-\item \code{13} comm. disorders
-\item \code{14} computer science
-\item \code{15} dentistry
-\item \code{16} education
-\item \code{17} economics
-\item \code{18} engineering
-\item \code{19} english
-\item \code{20} finance
-\item \code{21} foreign language
-\item \code{22} forestry
-\item \code{23} geography
-\item \code{24} geology
-\item \code{25} history
-\item \code{26} home economics
-\item \code{27} industry & technology
-\item \code{28} journalism
-\item \code{29} law
-\item \code{30} law enforcement
-\item \code{31} library science
-\item \code{32} marketing
-\item \code{33} mathematics
-\item \code{34} medicine
-\item \code{35} music
-\item \code{36} nursing
-\item \code{37} optometry
-\item \code{38} pharmacy
-\item \code{39} philosophy
-\item \code{40} physical education
-\item \code{41} physics
-\item \code{42} psychology
-\item \code{43} political science/international relations
-\item \code{44} sociology
-\item \code{45} special education
-\item \code{46} theater arts
-\item \code{47} theology
-\item \code{48} veterinary medicine
-\item \code{49} liberal arts
-\item \code{50} other
-\item \code{51} general sciences
-\item \code{52} social work
-\item \code{53} general studies
-\item \code{54} other vocational
-\item \code{55} health
-\item \code{56} industrial relations
-\item \code{57} child/human/family development
-\item \code{58} food science/nutrition/culinary arts
-\item \code{59} environmental science/ecology
-\item \code{60} social sciences
-\item \code{61} human services/human resources
-\item \code{62} visual arts/graphic design/design and drafting
-\item \code{63} fine arts
-\item \code{64} humanities
-\item \code{65} ethnic studies
-\item \code{66} educational administration
-\item \code{67} television/film
-\item \code{68} aviation/aeronatics
-\item \code{69} statistics/biostatistics
-\item \code{70} criminology/criminal justice
-\item \code{71} administrative science/public administration
-\item \code{72} electronics
-\item \code{73} urban and regional planning
-\item \code{74} mechanics/machine trade
-\item \code{75} dance
-\item \code{76} gerontology
-\item \code{77} public relations
-\item \code{78} textiles/cloth
-\item \code{79} parks and recreation
-\item \code{80} information technology
-\item \code{81} fashion
-\item \code{82} counseling
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} accounting/bookkeeping
+\item \verb{[2]} advertising
+\item \verb{[3]} agriculture/horticulture
+\item \verb{[4]} allied health
+\item \verb{[5]} anthropology
+\item \verb{[6]} architecture
+\item \verb{[7]} art
+\item \verb{[8]} biology
+\item \verb{[9]} business administration
+\item \verb{[11]} chemistry
+\item \verb{[12]} communications/speech
+\item \verb{[13]} comm. disorders
+\item \verb{[14]} computer science
+\item \verb{[15]} dentistry
+\item \verb{[16]} education
+\item \verb{[17]} economics
+\item \verb{[18]} engineering
+\item \verb{[19]} english
+\item \verb{[20]} finance
+\item \verb{[21]} foreign language
+\item \verb{[22]} forestry
+\item \verb{[23]} geography
+\item \verb{[24]} geology
+\item \verb{[25]} history
+\item \verb{[26]} home economics
+\item \verb{[27]} industry & technology
+\item \verb{[28]} journalism
+\item \verb{[29]} law
+\item \verb{[30]} law enforcement
+\item \verb{[31]} library science
+\item \verb{[32]} marketing
+\item \verb{[33]} mathematics
+\item \verb{[34]} medicine
+\item \verb{[35]} music
+\item \verb{[36]} nursing
+\item \verb{[37]} optometry
+\item \verb{[38]} pharmacy
+\item \verb{[39]} philosophy
+\item \verb{[40]} physical education
+\item \verb{[41]} physics
+\item \verb{[42]} psychology
+\item \verb{[43]} political science/international relations
+\item \verb{[44]} sociology
+\item \verb{[45]} special education
+\item \verb{[46]} theater arts
+\item \verb{[47]} theology
+\item \verb{[48]} veterinary medicine
+\item \verb{[49]} liberal arts
+\item \verb{[50]} other
+\item \verb{[51]} general sciences
+\item \verb{[52]} social work
+\item \verb{[53]} general studies
+\item \verb{[54]} other vocational
+\item \verb{[55]} health
+\item \verb{[56]} industrial relations
+\item \verb{[57]} child/human/family development
+\item \verb{[58]} food science/nutrition/culinary arts
+\item \verb{[59]} environmental science/ecology
+\item \verb{[60]} social sciences
+\item \verb{[61]} human services/human resources
+\item \verb{[62]} visual arts/graphic design/design and drafting
+\item \verb{[63]} fine arts
+\item \verb{[64]} humanities
+\item \verb{[65]} ethnic studies
+\item \verb{[66]} educational administration
+\item \verb{[67]} television/film
+\item \verb{[68]} aviation/aeronatics
+\item \verb{[69]} statistics/biostatistics
+\item \verb{[70]} criminology/criminal justice
+\item \verb{[71]} administrative science/public administration
+\item \verb{[72]} electronics
+\item \verb{[73]} urban and regional planning
+\item \verb{[74]} mechanics/machine trade
+\item \verb{[75]} dance
+\item \verb{[76]} gerontology
+\item \verb{[77]} public relations
+\item \verb{[78]} textiles/cloth
+\item \verb{[79]} parks and recreation
+\item \verb{[80]} information technology
+\item \verb{[81]} fashion
+\item \verb{[82]} counseling
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -14,17 +14,17 @@ Question On average, about how many people do you have contact with in a typical
 We are interested in contact on a  one-to-one basis, including everyone with whom you chat, talk, or discuss matters.
 This can be face-to-face, by telephone, by mail, or on the internet. Please include only people you know.
 Please tell me which of the following categories best matches your estimate.
-Would you sayâ€¦
+Would you say…
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} 0-4 persons
-\item \code{2} 5-9
-\item \code{3} 10-19
-\item \code{4} 20-49
-\item \code{5} 50 or more
-\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} 0-4 persons
+\item \verb{[2]} 5-9
+\item \verb{[3]} 10-19
+\item \verb{[4]} 20-49
+\item \verb{[5]} 50 or more
+\item \verb{[NA(d)]} can't choose \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

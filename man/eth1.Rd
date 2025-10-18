@@ -16,109 +16,109 @@ B. FIRST ETHNICITY MENTIONED
 \section{Values}{
 
 \itemize{
-\item \code{1} africa (general)
-\item \code{2} austria
-\item \code{3} french canada
-\item \code{4} other canada
-\item \code{5} china
-\item \code{6} czechoslovakia
-\item \code{7} denmark
-\item \code{8} england & wales
-\item \code{9} finland
-\item \code{10} france
-\item \code{11} germany
-\item \code{12} greece
-\item \code{13} hungary
-\item \code{14} ireland
-\item \code{15} italy
-\item \code{16} japan
-\item \code{17} mexico
-\item \code{18} netherlands
-\item \code{19} norway
-\item \code{20} philippines
-\item \code{21} poland
-\item \code{22} puerto rico
-\item \code{23} russia
-\item \code{24} scotland
-\item \code{25} spain
-\item \code{26} sweden
-\item \code{27} switzerland
-\item \code{28} west indies
-\item \code{29} other
-\item \code{30} american indian
-\item \code{31} india
-\item \code{32} portugal
-\item \code{33} lithuania
-\item \code{34} yugoslavia
-\item \code{35} romania
-\item \code{36} belgium
-\item \code{37} arabic
-\item \code{38} other spanish
-\item \code{39} non-span west indies
-\item \code{40} other asian
-\item \code{41} other european
-\item \code{97} american only
-\item \code{101} turkey
-\item \code{202} algeria
-\item \code{203} congo
-\item \code{204} egypt
-\item \code{205} ethiopia
-\item \code{206} kenya
-\item \code{207} nigeria
-\item \code{208} south africa
-\item \code{209} sudan
-\item \code{210} tanzania
-\item \code{211} uganda
-\item \code{299} other africa
-\item \code{301} south korea
-\item \code{302} bangladesh
-\item \code{303} indonesia
-\item \code{304} pakistan
-\item \code{306} thailand
-\item \code{307} vietnam
-\item \code{401} iran
-\item \code{402} iraq
-\item \code{403} israel
-\item \code{404} jordan
-\item \code{405} saudi arabia
-\item \code{406} syria
-\item \code{407} uae
-\item \code{408} yemen
-\item \code{499} other middle east
-\item \code{501} argentina
-\item \code{502} bolivia
-\item \code{503} brazil
-\item \code{504} chile
-\item \code{505} colombia
-\item \code{506} ecuador
-\item \code{507} french guiana
-\item \code{508} guyana
-\item \code{509} paraguay
-\item \code{510} peru
-\item \code{511} suriname
-\item \code{512} uruguay
-\item \code{513} venezuela
-\item \code{599} other south america
-\item \code{601} belize
-\item \code{602} costa rica
-\item \code{603} el salvador
-\item \code{604} guatemala
-\item \code{605} honduras
-\item \code{606} nicaragua
-\item \code{607} panama
-\item \code{699} other central america
-\item \code{799} other north america
-\item \code{801} cuba
-\item \code{802} haiti
-\item \code{803} dominican republic
-\item \code{804} jamaica
-\item \code{899} other caribbean
-\item \code{901} australia
-\item \code{902} papua new guinea
-\item \code{903} new zealand
-\item \code{904} samoa
-\item \code{999} other oceania
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} africa (general)
+\item \verb{[2]} austria
+\item \verb{[3]} french canada
+\item \verb{[4]} other canada
+\item \verb{[5]} china
+\item \verb{[6]} czechoslovakia
+\item \verb{[7]} denmark
+\item \verb{[8]} england & wales
+\item \verb{[9]} finland
+\item \verb{[10]} france
+\item \verb{[11]} germany
+\item \verb{[12]} greece
+\item \verb{[13]} hungary
+\item \verb{[14]} ireland
+\item \verb{[15]} italy
+\item \verb{[16]} japan
+\item \verb{[17]} mexico
+\item \verb{[18]} netherlands
+\item \verb{[19]} norway
+\item \verb{[20]} philippines
+\item \verb{[21]} poland
+\item \verb{[22]} puerto rico
+\item \verb{[23]} russia
+\item \verb{[24]} scotland
+\item \verb{[25]} spain
+\item \verb{[26]} sweden
+\item \verb{[27]} switzerland
+\item \verb{[28]} west indies
+\item \verb{[29]} other
+\item \verb{[30]} american indian
+\item \verb{[31]} india
+\item \verb{[32]} portugal
+\item \verb{[33]} lithuania
+\item \verb{[34]} yugoslavia
+\item \verb{[35]} romania
+\item \verb{[36]} belgium
+\item \verb{[37]} arabic
+\item \verb{[38]} other spanish
+\item \verb{[39]} non-span west indies
+\item \verb{[40]} other asian
+\item \verb{[41]} other european
+\item \verb{[97]} american only
+\item \verb{[101]} turkey
+\item \verb{[202]} algeria
+\item \verb{[203]} congo
+\item \verb{[204]} egypt
+\item \verb{[205]} ethiopia
+\item \verb{[206]} kenya
+\item \verb{[207]} nigeria
+\item \verb{[208]} south africa
+\item \verb{[209]} sudan
+\item \verb{[210]} tanzania
+\item \verb{[211]} uganda
+\item \verb{[299]} other africa
+\item \verb{[301]} south korea
+\item \verb{[302]} bangladesh
+\item \verb{[303]} indonesia
+\item \verb{[304]} pakistan
+\item \verb{[306]} thailand
+\item \verb{[307]} vietnam
+\item \verb{[401]} iran
+\item \verb{[402]} iraq
+\item \verb{[403]} israel
+\item \verb{[404]} jordan
+\item \verb{[405]} saudi arabia
+\item \verb{[406]} syria
+\item \verb{[407]} uae
+\item \verb{[408]} yemen
+\item \verb{[499]} other middle east
+\item \verb{[501]} argentina
+\item \verb{[502]} bolivia
+\item \verb{[503]} brazil
+\item \verb{[504]} chile
+\item \verb{[505]} colombia
+\item \verb{[506]} ecuador
+\item \verb{[507]} french guiana
+\item \verb{[508]} guyana
+\item \verb{[509]} paraguay
+\item \verb{[510]} peru
+\item \verb{[511]} suriname
+\item \verb{[512]} uruguay
+\item \verb{[513]} venezuela
+\item \verb{[599]} other south america
+\item \verb{[601]} belize
+\item \verb{[602]} costa rica
+\item \verb{[603]} el salvador
+\item \verb{[604]} guatemala
+\item \verb{[605]} honduras
+\item \verb{[606]} nicaragua
+\item \verb{[607]} panama
+\item \verb{[699]} other central america
+\item \verb{[799]} other north america
+\item \verb{[801]} cuba
+\item \verb{[802]} haiti
+\item \verb{[803]} dominican republic
+\item \verb{[804]} jamaica
+\item \verb{[899]} other caribbean
+\item \verb{[901]} australia
+\item \verb{[902]} papua new guinea
+\item \verb{[903]} new zealand
+\item \verb{[904]} samoa
+\item \verb{[999]} other oceania
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

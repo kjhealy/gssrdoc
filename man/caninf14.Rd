@@ -16,33 +16,33 @@ N. First site mentioned.
 \section{Values}{
 
 \itemize{
-\item \code{0} no specific search engine mentioned
-\item \code{1} yahoo
-\item \code{2} aol
-\item \code{3} cnn
-\item \code{4} msn
-\item \code{5} excite
-\item \code{6} google
-\item \code{7} webferret
-\item \code{8} lycos
-\item \code{9} altavista
-\item \code{10} usatoday
-\item \code{11} copernic
-\item \code{12} askjeeves
-\item \code{13} peoplefind.com
-\item \code{14} abc
-\item \code{15} msnbc
-\item \code{16} infoseek go
-\item \code{17} dogpile
-\item \code{18} snap
-\item \code{19} metacrawler
-\item \code{20} webcrawler
-\item \code{21} netscape
-\item \code{22} iwon
-\item \code{23} politics.com
-\item \code{24} homp page search engine
-\item \code{25} nbc
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[0]} no specific search engine mentioned
+\item \verb{[1]} yahoo
+\item \verb{[2]} aol
+\item \verb{[3]} cnn
+\item \verb{[4]} msn
+\item \verb{[5]} excite
+\item \verb{[6]} google
+\item \verb{[7]} webferret
+\item \verb{[8]} lycos
+\item \verb{[9]} altavista
+\item \verb{[10]} usatoday
+\item \verb{[11]} copernic
+\item \verb{[12]} askjeeves
+\item \verb{[13]} peoplefind.com
+\item \verb{[14]} abc
+\item \verb{[15]} msnbc
+\item \verb{[16]} infoseek go
+\item \verb{[17]} dogpile
+\item \verb{[18]} snap
+\item \verb{[19]} metacrawler
+\item \verb{[20]} webcrawler
+\item \verb{[21]} netscape
+\item \verb{[22]} iwon
+\item \verb{[23]} politics.com
+\item \verb{[24]} homp page search engine
+\item \verb{[25]} nbc
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

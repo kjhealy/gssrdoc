@@ -16,8 +16,8 @@ J. Homosexual couples should have the right to marry one another.
 \section{Values}{
 
 \itemize{
-\item No applicable value labels.
-\item 
+\item \verb{[Empty]} No applicable value labels
+\item \verb{[NA(d)]}NA
 }
 }
 

@@ -2,16 +2,16 @@
 #' 
 #'  txpol
 #' 
-#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where  1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€), how well do the following groups understand the likely effects of reducing federal income taxes?
+#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where  1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the likely effects of reducing federal income taxes?
 #' C. Elected Officials
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very well
-#'   * `5` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very well
+#'   * `[5]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -43,15 +43,15 @@ NULL
 #' 
 #'  ecoagree
 #' 
-#' Question Please look at Card B11. On a scale of 1 to 5, where 1 means â€œNear complete agreementâ€ and 5 means â€œNo agreement at allâ€, to what extent Do economists agree on the effects of reducing federal income taxes?
+#' Question Please look at Card B11. On a scale of 1 to 5, where 1 means "Near complete agreementâ€ and 5 means "No agreement at allâ€, to what extent Do economists agree on the effects of reducing federal income taxes?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` near complete agreement
-#'   * `5` no agreement at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` near complete agreement
+#'   * `[5]` no agreement at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -88,13 +88,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -131,13 +131,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -174,13 +174,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a great deal of influence
+#'   * `[2]` a fair amount
+#'   * `[3]` a little influence
+#'   * `[4]` none at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -218,11 +218,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -260,11 +260,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -302,11 +302,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` what is best for the country
-#'   * `5` own narrow interests
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` what is best for the country
+#'   * `[5]` own narrow interests
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -338,16 +338,16 @@ NULL
 #' 
 #'  gmmed
 #' 
-#' Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT â€œADVANCED LABORATORY TECHNIQUESâ€ MEANS: This typically involves â€œrecombinant DNAâ€ or â€œgene splicing,â€ in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species. 
+#' Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT "ADVANCED LABORATORY TECHNIQUESâ€ MEANS: This typically involves "recombinant DNAâ€ or "gene splicing,â€ in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species. 
 #' A. Medical researchers
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very well
-#'   * `5` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very well
+#'   * `[5]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -377,16 +377,16 @@ NULL
 #' 
 #'  gmpol
 #' 
-#' Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT â€œADVANCED LABORATORY TECHNIQUESâ€ MEANS: This typically involves â€œrecombinant DNAâ€ or â€œgene splicing,â€ in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species. 
+#' Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT "ADVANCED LABORATORY TECHNIQUESâ€ MEANS: This typically involves "recombinant DNAâ€ or "gene splicing,â€ in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species. 
 #' B. Elected officials
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very well
-#'   * `5` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very well
+#'   * `[5]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

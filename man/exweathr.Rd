@@ -15,12 +15,12 @@ Question To what degree was your neighborhood affected by extreme weather over t
 \section{Values}{
 
 \itemize{
-\item \code{1} not at all
-\item \code{2} to a small extent
-\item \code{3} to some extent
-\item \code{4} to a great extent
-\item \code{5} to a very great extent
-\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} not at all
+\item \verb{[2]} to a small extent
+\item \verb{[3]} to some extent
+\item \verb{[4]} to a great extent
+\item \verb{[5]} to a very great extent
+\item \verb{[NA(d)]} can't choose \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

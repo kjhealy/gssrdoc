@@ -6,12 +6,12 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `3` did not need medical treatment
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[3]` did not need medical treatment
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -45,12 +45,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `3` did not need medical treatment
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[3]` did not need medical treatment
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -84,14 +84,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` it's certain r would get
-#'   * `2` it's likely r would get
-#'   * `3` equal chance of getting or not getting
-#'   * `4` it's likely r would not get
-#'   * `5` it's certain r would not get
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` it's certain r would get
+#'   * `[2]` it's likely r would get
+#'   * `[3]` equal chance of getting or not getting
+#'   * `[4]` it's likely r would not get
+#'   * `[5]` it's certain r would not get
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -125,17 +125,17 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` completely satisfied
-#'   * `2` very satisfied
-#'   * `3` fairly satisfied
-#'   * `4` neither satisfied nor dissatisfied
-#'   * `5` fairly dissatisfied
-#'   * `6` very dissatisfied
-#'   * `7` completely dissatisfied
-#'   * `8` does not apply
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` completely satisfied
+#'   * `[2]` very satisfied
+#'   * `[3]` fairly satisfied
+#'   * `[4]` neither satisfied nor dissatisfied
+#'   * `[5]` fairly dissatisfied
+#'   * `[6]` very dissatisfied
+#'   * `[7]` completely dissatisfied
+#'   * `[8]` does not apply
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -169,17 +169,17 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` completely satisfied
-#'   * `2` very satisfied
-#'   * `3` fairly satisfied
-#'   * `4` neither satisfied nor dissatisfied
-#'   * `5` fairly dissatisfied
-#'   * `6` very dissatisfied
-#'   * `7` completely dissatisfied
-#'   * `8` does not apply
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` completely satisfied
+#'   * `[2]` very satisfied
+#'   * `[3]` fairly satisfied
+#'   * `[4]` neither satisfied nor dissatisfied
+#'   * `[5]` fairly dissatisfied
+#'   * `[6]` very dissatisfied
+#'   * `[7]` completely dissatisfied
+#'   * `[8]` does not apply
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -213,17 +213,17 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` completely satisfied
-#'   * `2` very satisfied
-#'   * `3` fairly satisfied
-#'   * `4` neither satisfied nor dissatisfied
-#'   * `5` fairly dissatisfied
-#'   * `6` very dissatisfied
-#'   * `7` completely dissatisfied
-#'   * `8` does not apply
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` completely satisfied
+#'   * `[2]` very satisfied
+#'   * `[3]` fairly satisfied
+#'   * `[4]` neither satisfied nor dissatisfied
+#'   * `[5]` fairly dissatisfied
+#'   * `[6]` very dissatisfied
+#'   * `[7]` completely dissatisfied
+#'   * `[8]` does not apply
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -257,16 +257,16 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` do not smoke and never did
-#'   * `2` do not smoke now but smoked in the past
-#'   * `3` smoke 1-5 cigarettes per day
-#'   * `4` smoke 6-10 cigarettes per day
-#'   * `5` smoke 11-20 cigarettes per day
-#'   * `6` smoke 21-40 cigarettes per day
-#'   * `7` smoke more than 40 cigarettes per day
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` do not smoke and never did
+#'   * `[2]` do not smoke now but smoked in the past
+#'   * `[3]` smoke 1-5 cigarettes per day
+#'   * `[4]` smoke 6-10 cigarettes per day
+#'   * `[5]` smoke 11-20 cigarettes per day
+#'   * `[6]` smoke 21-40 cigarettes per day
+#'   * `[7]` smoke more than 40 cigarettes per day
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -300,14 +300,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` never
-#'   * `2` once a month or less often
-#'   * `3` several times a month
-#'   * `4` several times a week
-#'   * `5` daily
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` never
+#'   * `[2]` once a month or less often
+#'   * `[3]` several times a month
+#'   * `[4]` several times a week
+#'   * `[5]` daily
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -341,14 +341,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` never
-#'   * `2` once a month or less often
-#'   * `3` several times a month
-#'   * `4` several times a week
-#'   * `5` daily
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` never
+#'   * `[2]` once a month or less often
+#'   * `[3]` several times a month
+#'   * `[4]` several times a week
+#'   * `[5]` daily
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -382,14 +382,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` never
-#'   * `2` once a month or less often
-#'   * `3` several times a month
-#'   * `4` several times a week
-#'   * `5` daily
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` never
+#'   * `[2]` once a month or less often
+#'   * `[3]` several times a month
+#'   * `[4]` several times a week
+#'   * `[5]` daily
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

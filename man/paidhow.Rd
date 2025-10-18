@@ -16,21 +16,21 @@ Are you salaried, paid by the hour, or paid some other way? If you have more tha
 \section{Values}{
 
 \itemize{
-\item \code{1} salary
-\item \code{2} by the hour
-\item \code{3} earnings from business
-\item \code{4} piecework
-\item \code{5} by the job/project
-\item \code{6} wage + commission
-\item \code{7} by hour + tips
-\item \code{8} mileage
-\item \code{9} salary & hours combination
-\item \code{10} by day/week
-\item \code{11} by route
-\item \code{12} by client
-\item \code{13} by contract
-\item \code{20} other
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} salary
+\item \verb{[2]} by the hour
+\item \verb{[3]} earnings from business
+\item \verb{[4]} piecework
+\item \verb{[5]} by the job/project
+\item \verb{[6]} wage + commission
+\item \verb{[7]} by hour + tips
+\item \verb{[8]} mileage
+\item \verb{[9]} salary & hours combination
+\item \verb{[10]} by day/week
+\item \verb{[11]} by route
+\item \verb{[12]} by client
+\item \verb{[13]} by contract
+\item \verb{[20]} other
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

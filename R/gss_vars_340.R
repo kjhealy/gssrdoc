@@ -7,13 +7,13 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` disagree
-#'   * `4` strongly disagree
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` strongly agree
+#'   * `[2]` agree
+#'   * `[3]` disagree
+#'   * `[4]` strongly disagree
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -48,12 +48,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` i have little influence over things that happens to me
-#'   * `2` what happens to me is largely my own doing
-#'   * `9` refused
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` i have little influence over things that happens to me
+#'   * `[2]` what happens to me is largely my own doing
+#'   * `[9]` refused
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -87,12 +87,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` genes play major role in determining personality
-#'   * `2` it is experience that determine personality
-#'   * `9` refused
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` genes play major role in determining personality
+#'   * `[2]` it is experience that determine personality
+#'   * `[9]` refused
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -123,19 +123,19 @@ NULL
 #'  depndabl
 #' 
 #' Question For each of the following, please indicate how well the description applies to you by circling one number: 
-#' A. A dependable person. Is this â€¦â€¦â€¦
+#' A. A dependable person. Is this ………
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a very good description
-#'   * `2` a good description
-#'   * `3` a fair description
-#'   * `4` not a very good description
-#'   * `5` not a good description at all
-#'   * `9` refused
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a very good description
+#'   * `[2]` a good description
+#'   * `[3]` a fair description
+#'   * `[4]` not a very good description
+#'   * `[5]` not a good description at all
+#'   * `[9]` refused
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -166,19 +166,19 @@ NULL
 #'  sadblue
 #' 
 #' Question For each of the following, please indicate how well the description applies to you by circling one number: 
-#' B. A person who often feels sad and blue. Is this â€¦â€¦
+#' B. A person who often feels sad and blue. Is this ……
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a very good description
-#'   * `2` a good description
-#'   * `3` a fair description
-#'   * `4` not a very good description
-#'   * `5` not a good description at all
-#'   * `9` refused
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a very good description
+#'   * `[2]` a good description
+#'   * `[3]` a fair description
+#'   * `[4]` not a very good description
+#'   * `[5]` not a good description at all
+#'   * `[9]` refused
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -209,19 +209,19 @@ NULL
 #'  athletic
 #' 
 #' Question For each of the following, please indicate how well the description applies to you by circling one number: 
-#' C. An athletic person. Is this â€¦...
+#' C. An athletic person. Is this …...
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a very good description
-#'   * `2` a good description
-#'   * `3` a fair description
-#'   * `4` not a very good description
-#'   * `5` not a good description at all
-#'   * `9` refused
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a very good description
+#'   * `[2]` a good description
+#'   * `[3]` a fair description
+#'   * `[4]` not a very good description
+#'   * `[5]` not a good description at all
+#'   * `[9]` refused
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -252,19 +252,19 @@ NULL
 #'  kindpers
 #' 
 #' Question For each of the following, please indicate how well the description applies to you by circling one number: 
-#' D. A kind person. Is this â€¦â€¦
+#' D. A kind person. Is this ……
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a very good description
-#'   * `2` a good description
-#'   * `3` a fair description
-#'   * `4` not a very good description
-#'   * `5` not a good description at all
-#'   * `9` refused
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a very good description
+#'   * `[2]` a good description
+#'   * `[3]` a fair description
+#'   * `[4]` not a very good description
+#'   * `[5]` not a good description at all
+#'   * `[9]` refused
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -295,19 +295,19 @@ NULL
 #'  selfish
 #' 
 #' Question For each of the following, please indicate how well the description applies to you by circling one number: 
-#' E. A selfish person. Is this â€¦â€¦
+#' E. A selfish person. Is this ……
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a very good description
-#'   * `2` a good description
-#'   * `3` a fair description
-#'   * `4` not a very good description
-#'   * `5` not a good description at all
-#'   * `9` refused
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a very good description
+#'   * `[2]` a good description
+#'   * `[3]` a fair description
+#'   * `[4]` not a very good description
+#'   * `[5]` not a good description at all
+#'   * `[9]` refused
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -341,13 +341,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` below average
-#'   * `2` average
-#'   * `3` somewhat above average
-#'   * `4` considerably above average
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` below average
+#'   * `[2]` average
+#'   * `[3]` somewhat above average
+#'   * `[4]` considerably above average
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -382,14 +382,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` agree strongly
-#'   * `2` agree somewhat
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree somewhat
-#'   * `5` disagree strongly
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` agree strongly
+#'   * `[2]` agree somewhat
+#'   * `[3]` neither agree nor disagree
+#'   * `[4]` disagree somewhat
+#'   * `[5]` disagree strongly
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

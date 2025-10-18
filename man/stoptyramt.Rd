@@ -15,24 +15,24 @@ Question Please give a general estimate of the total number of the stock options
 \section{Values}{
 
 \itemize{
-\item \code{1} less than 100 stock options
-\item \code{2} 100 to 499 stock options
-\item \code{3} 500 to 999 stock options
-\item \code{4} 1,000 to 2,999 stock options
-\item \code{5} 3,000 to 4,999 stock options
-\item \code{6} 5,000 to 9,999 stock options
-\item \code{7} 10,000 to 19,999 stock options
-\item \code{8} 20,000 to 39,999 stock options
-\item \code{9} 40,000 to 79,999 stock options
-\item \code{10} 80,000 to 99,999 stock options
-\item \code{11} 100,000 to 199,999 stock options
-\item \code{12} 200,000 to 299,000 stock options
-\item \code{13} 300,000 to 399,999 stock options
-\item \code{14} 400,000 to 499,999 stock options
-\item \code{15} 500,000 to 699,999 stock options
-\item \code{16} 700,000 to 999,999 stock options
-\item \code{17} over one million stock options
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} less than 100 stock options
+\item \verb{[2]} 100 to 499 stock options
+\item \verb{[3]} 500 to 999 stock options
+\item \verb{[4]} 1,000 to 2,999 stock options
+\item \verb{[5]} 3,000 to 4,999 stock options
+\item \verb{[6]} 5,000 to 9,999 stock options
+\item \verb{[7]} 10,000 to 19,999 stock options
+\item \verb{[8]} 20,000 to 39,999 stock options
+\item \verb{[9]} 40,000 to 79,999 stock options
+\item \verb{[10]} 80,000 to 99,999 stock options
+\item \verb{[11]} 100,000 to 199,999 stock options
+\item \verb{[12]} 200,000 to 299,000 stock options
+\item \verb{[13]} 300,000 to 399,999 stock options
+\item \verb{[14]} 400,000 to 499,999 stock options
+\item \verb{[15]} 500,000 to 699,999 stock options
+\item \verb{[16]} 700,000 to 999,999 stock options
+\item \verb{[17]} over one million stock options
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -15,12 +15,12 @@ Question And in general, how easy or difficult do you think the law should make 
 \section{Values}{
 
 \itemize{
-\item \code{1} very easy
-\item \code{2} fairly easy
-\item \code{3} neither easy nor difficult
-\item \code{4} fairly difficult
-\item \code{5} very difficult
-\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} very easy
+\item \verb{[2]} fairly easy
+\item \verb{[3]} neither easy nor difficult
+\item \verb{[4]} fairly difficult
+\item \verb{[5]} very difficult
+\item \verb{[NA(d)]} can't choose \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -7,13 +7,13 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should be
-#'   * `2` probably should be
-#'   * `3` probably should not be
-#'   * `4` definitely should not be
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should be
+#'   * `[2]` probably should be
+#'   * `[3]` probably should not be
+#'   * `[4]` definitely should not be
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -44,17 +44,17 @@ NULL
 #'  mhgvthme
 #' 
 #' Question The next few questions deal with the government's responsibility to help people like (NAME). For each statement please tell me if you think the government definitely should, probably should, probably should not, or definitely should not be responsible for helping people with situations like (NAME). 
-#' C. Provide housing for (NAME) if (NAME) canâ€™t afford it.
+#' C. Provide housing for (NAME) if (NAME) can't afford it.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should be
-#'   * `2` probably should be
-#'   * `3` probably should not be
-#'   * `4` definitely should not be
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should be
+#'   * `[2]` probably should be
+#'   * `[3]` probably should not be
+#'   * `[4]` definitely should not be
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -89,13 +89,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should be
-#'   * `2` probably should be
-#'   * `3` probably should not be
-#'   * `4` definitely should not be
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should be
+#'   * `[2]` probably should be
+#'   * `[3]` probably should not be
+#'   * `[4]` definitely should not be
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -130,13 +130,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should be
-#'   * `2` probably should be
-#'   * `3` probably should not be
-#'   * `4` definitely should not be
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should be
+#'   * `[2]` probably should be
+#'   * `[3]` probably should not be
+#'   * `[4]` definitely should not be
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -171,13 +171,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should be
-#'   * `2` probably should be
-#'   * `3` probably should not be
-#'   * `4` definitely should not be
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should be
+#'   * `[2]` probably should be
+#'   * `[3]` probably should not be
+#'   * `[4]` definitely should not be
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -212,13 +212,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should be
-#'   * `2` probably should be
-#'   * `3` probably should not be
-#'   * `4` definitely should not be
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should be
+#'   * `[2]` probably should be
+#'   * `[3]` probably should not be
+#'   * `[4]` definitely should not be
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -248,18 +248,18 @@ NULL
 #' 
 #'  mhseedoc
 #' 
-#' Question Some countries have laws that force people with situations like (NAME)'s into psychiatric treatment. Do you think that people like (NAME) definitely should be, probably should be, probably shouldn't be, or definitely shouldn't be forced by law toâ€¦ 
+#' Question Some countries have laws that force people with situations like (NAME)'s into psychiatric treatment. Do you think that people like (NAME) definitely should be, probably should be, probably shouldn't be, or definitely shouldn't be forced by law to… 
 #' A. To be examined at a clinic or by a doctor?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should be
-#'   * `2` probably should be
-#'   * `3` probably should not be
-#'   * `4` definitely should not be
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should be
+#'   * `[2]` probably should be
+#'   * `[3]` probably should not be
+#'   * `[4]` definitely should not be
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -289,18 +289,18 @@ NULL
 #' 
 #'  mhmeds
 #' 
-#' Question Some countries have laws that force people with situations like (NAME)'s into psychiatric treatment. Do you think that people like (NAME) definitely should be, probably should be, probably shouldn't be, or definitely shouldn't be forced by law toâ€¦ 
+#' Question Some countries have laws that force people with situations like (NAME)'s into psychiatric treatment. Do you think that people like (NAME) definitely should be, probably should be, probably shouldn't be, or definitely shouldn't be forced by law to… 
 #' B. Take medication prescribed by a doctor?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should be
-#'   * `2` probably should be
-#'   * `3` probably should not be
-#'   * `4` definitely should not be
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should be
+#'   * `[2]` probably should be
+#'   * `[3]` probably should not be
+#'   * `[4]` definitely should not be
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -330,18 +330,18 @@ NULL
 #' 
 #'  mhhsptrt
 #' 
-#' Question Some countries have laws that force people with situations like (NAME)'s into psychiatric treatment. Do you think that people like (NAME) definitely should be, probably should be, probably shouldn't be, or definitely shouldn't be forced by law toâ€¦ 
+#' Question Some countries have laws that force people with situations like (NAME)'s into psychiatric treatment. Do you think that people like (NAME) definitely should be, probably should be, probably shouldn't be, or definitely shouldn't be forced by law to… 
 #' C. Be hospitalized for treatment?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should be
-#'   * `2` probably should be
-#'   * `3` probably should not be
-#'   * `4` definitely should not be
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should be
+#'   * `[2]` probably should be
+#'   * `[3]` probably should not be
+#'   * `[4]` definitely should not be
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -371,18 +371,18 @@ NULL
 #' 
 #'  mhmnthsp
 #' 
-#' Question Some countries have laws that force people with situations like (NAME)'s into psychiatric treatment. Do you think that people like (NAME) definitely should be, probably should be, probably shouldn't be, or definitely shouldn't be forced by law toâ€¦ 
+#' Question Some countries have laws that force people with situations like (NAME)'s into psychiatric treatment. Do you think that people like (NAME) definitely should be, probably should be, probably shouldn't be, or definitely shouldn't be forced by law to… 
 #' D. Go to a mental hospital for treatment?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` definitely should be
-#'   * `2` probably should be
-#'   * `3` probably should not be
-#'   * `4` definitely should not be
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` definitely should be
+#'   * `[2]` probably should be
+#'   * `[3]` probably should not be
+#'   * `[4]` definitely should not be
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

@@ -10,15 +10,15 @@ General Social Survey https://gss.norc.org
 gmmed
 }
 \details{
-Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT â€œADVANCED LABORATORY TECHNIQUESâ€ MEANS: This typically involves â€œrecombinant DNAâ€ or â€œgene splicing,â€ in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species.
+Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT "ADVANCED LABORATORY TECHNIQUESâ€ MEANS: This typically involves "recombinant DNAâ€ or "gene splicing,â€ in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species.
 A. Medical researchers
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} very well
-\item \code{5} not at all
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} very well
+\item \verb{[5]} not at all
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

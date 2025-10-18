@@ -15,57 +15,57 @@ Question In what country were you born?
 \section{Values}{
 
 \itemize{
-\item \code{1} usa
-\item \code{2} antigua
-\item \code{3} trinidad
-\item \code{4} jamaica
-\item \code{5} pakistan
-\item \code{6} turkey
-\item \code{7} italy
-\item \code{8} west indies
-\item \code{9} colombia
-\item \code{10} kazakhstan
-\item \code{12} cuba
-\item \code{13} india
-\item \code{14} germany
-\item \code{15} ecuador
-\item \code{16} mexico
-\item \code{17} portugal
-\item \code{18} el salvador
-\item \code{19} canada
-\item \code{20} guatemala
-\item \code{21} zimbabwe
-\item \code{23} taiwan
-\item \code{24} philippines
-\item \code{25} israel
-\item \code{26} dominican republic
-\item \code{27} scotland
-\item \code{28} haiti
-\item \code{29} honduras
-\item \code{30} puerto rico
-\item \code{31} austraila
-\item \code{32} china
-\item \code{33} poland
-\item \code{34} lithuania
-\item \code{35} liberia
-\item \code{36} brazil
-\item \code{37} morocco
-\item \code{38} spain
-\item \code{39} bulgeria
-\item \code{40} ussr
-\item \code{41} kuwait
-\item \code{42} japan
-\item \code{43} korea
-\item \code{44} vietnam
-\item \code{45} bermuda
-\item \code{46} ghana
-\item \code{47} panama
-\item \code{48} france
-\item \code{49} romania
-\item \code{50} south africa
-\item \code{51} england
-\item \code{52} britain
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} usa
+\item \verb{[2]} antigua
+\item \verb{[3]} trinidad
+\item \verb{[4]} jamaica
+\item \verb{[5]} pakistan
+\item \verb{[6]} turkey
+\item \verb{[7]} italy
+\item \verb{[8]} west indies
+\item \verb{[9]} colombia
+\item \verb{[10]} kazakhstan
+\item \verb{[12]} cuba
+\item \verb{[13]} india
+\item \verb{[14]} germany
+\item \verb{[15]} ecuador
+\item \verb{[16]} mexico
+\item \verb{[17]} portugal
+\item \verb{[18]} el salvador
+\item \verb{[19]} canada
+\item \verb{[20]} guatemala
+\item \verb{[21]} zimbabwe
+\item \verb{[23]} taiwan
+\item \verb{[24]} philippines
+\item \verb{[25]} israel
+\item \verb{[26]} dominican republic
+\item \verb{[27]} scotland
+\item \verb{[28]} haiti
+\item \verb{[29]} honduras
+\item \verb{[30]} puerto rico
+\item \verb{[31]} austraila
+\item \verb{[32]} china
+\item \verb{[33]} poland
+\item \verb{[34]} lithuania
+\item \verb{[35]} liberia
+\item \verb{[36]} brazil
+\item \verb{[37]} morocco
+\item \verb{[38]} spain
+\item \verb{[39]} bulgeria
+\item \verb{[40]} ussr
+\item \verb{[41]} kuwait
+\item \verb{[42]} japan
+\item \verb{[43]} korea
+\item \verb{[44]} vietnam
+\item \verb{[45]} bermuda
+\item \verb{[46]} ghana
+\item \verb{[47]} panama
+\item \verb{[48]} france
+\item \verb{[49]} romania
+\item \verb{[50]} south africa
+\item \verb{[51]} england
+\item \verb{[52]} britain
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

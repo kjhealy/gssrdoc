@@ -15,18 +15,18 @@ Question There are many ways people hear about jobs - from other people, from ad
 \section{Values}{
 
 \itemize{
-\item \code{1} i have never worked for pay
-\item \code{2} from parents, brothers or sisters
-\item \code{3} from other relatives
-\item \code{4} from a close friend
-\item \code{5} from an acquaintance
-\item \code{6} from a public employment agency or service
-\item \code{7} from a private employment agency
-\item \code{8} from a school or university placement office
-\item \code{9} from an advertisement or a sign
-\item \code{10} the employer contacted me about a job
-\item \code{11} i just called them or went there to ask for work
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} i have never worked for pay
+\item \verb{[2]} from parents, brothers or sisters
+\item \verb{[3]} from other relatives
+\item \verb{[4]} from a close friend
+\item \verb{[5]} from an acquaintance
+\item \verb{[6]} from a public employment agency or service
+\item \verb{[7]} from a private employment agency
+\item \verb{[8]} from a school or university placement office
+\item \verb{[9]} from an advertisement or a sign
+\item \verb{[10]} the employer contacted me about a job
+\item \verb{[11]} i just called them or went there to ask for work
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

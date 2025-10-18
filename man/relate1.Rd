@@ -27,15 +27,15 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 \section{Values}{
 
 \itemize{
-\item \code{1} head of household
-\item \code{2} spouse
-\item \code{3} child (natural, adopted, step)
-\item \code{4} son-/daughter-in-law
-\item \code{5} grand/great-grandchild
-\item \code{6} parent/parent-in-law
-\item \code{7} other relative
-\item \code{8} non-relative
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} head of household
+\item \verb{[2]} spouse
+\item \verb{[3]} child (natural, adopted, step)
+\item \verb{[4]} son-/daughter-in-law
+\item \verb{[5]} grand/great-grandchild
+\item \verb{[6]} parent/parent-in-law
+\item \verb{[7]} other relative
+\item \verb{[8]} non-relative
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

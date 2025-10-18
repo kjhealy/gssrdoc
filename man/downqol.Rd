@@ -10,17 +10,17 @@ General Social Survey https://gss.norc.org
 downqol
 }
 \details{
-Question As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. Iâ€™m going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following:
+Question As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following:
 A. Say you went to treatment because you feel downhearted and blue and this interferes with your social activities (like visiting friends, relatives, etc.) Would you definitely expect, probably expect, probably not expect, or definitely not expect your overall quality of life to improve?
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} definitely expect
-\item \code{2} probably expect
-\item \code{3} probably not expect
-\item \code{4} definitely not expect
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} definitely expect
+\item \verb{[2]} probably expect
+\item \verb{[3]} probably not expect
+\item \verb{[4]} definitely not expect
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

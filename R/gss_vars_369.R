@@ -2,16 +2,16 @@
 #' 
 #'  odds2
 #' 
-#' Question Now, think about this situation. A doctor tells a couple that their genetic makeup means that theyâ€™ve got one in four chances of having a child with an inherited illness. 
-#' B. Does this mean that each of the coupleâ€™s children will have the same risk of suffering from the illness?
+#' Question Now, think about this situation. A doctor tells a couple that their genetic makeup means that they've got one in four chances of having a child with an inherited illness. 
+#' B. Does this mean that each of the couple's children will have the same risk of suffering from the illness?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -50,16 +50,16 @@ NULL
 #' 
 #'  hotcore
 #' 
-#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you donâ€™t know or arenâ€™t sure, just tell me so, and we will skip to the next question. Remember true, false, or donâ€™t know. 
+#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. 
 #' A. First, the center of the Earth is very hot. Is that true or false?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -103,11 +103,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -146,16 +146,16 @@ NULL
 #' 
 #'  boyorgrl
 #' 
-#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you donâ€™t know or arenâ€™t sure, just tell me so,  and we will skip to the next question. Remember true, false, or donâ€™t know. 
-#' C. It is the fatherâ€™s gene that decides whether the baby is a boy or a girl. (Is that true or false?)
+#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so,  and we will skip to the next question. Remember true, false, or don't know. 
+#' C. It is the father's gene that decides whether the baby is a boy or a girl. (Is that true or false?)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -194,16 +194,16 @@ NULL
 #' 
 #'  lasers
 #' 
-#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you donâ€™t know or arenâ€™t sure, just tell me so,  and we will skip to the next question. Remember true, false, or donâ€™t know. 
+#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so,  and we will skip to the next question. Remember true, false, or don't know. 
 #' D. Lasers work by focusing sound waves. (Is that true or false?)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -242,16 +242,16 @@ NULL
 #' 
 #'  electron
 #' 
-#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you donâ€™t know or arenâ€™t sure, just tell me so,  and we will skip to the next question. Remember true, false, or donâ€™t know. 
+#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so,  and we will skip to the next question. Remember true, false, or don't know. 
 #' E. Electrons are smaller than atoms. (Is that true or false?)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -290,16 +290,16 @@ NULL
 #' 
 #'  viruses
 #' 
-#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you donâ€™t know or arenâ€™t sure, just tell me so,  and we will skip to the next question. Remember true, false, or donâ€™t know. 
+#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so,  and we will skip to the next question. Remember true, false, or don't know. 
 #' F. Antibiotics kill viruses as well as bacteria. (Is that true or false?)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -338,16 +338,16 @@ NULL
 #' 
 #'  bigbang
 #' 
-#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you donâ€™t know or arenâ€™t sure, just tell me so,  and we will skip to the next question. Remember true, false, or donâ€™t know. 
+#' Question Now, I would like to ask you a few short questions like those you might see on a television game show. for each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so,  and we will skip to the next question. Remember true, false, or don't know. 
 #' G. The universe began with a huge explosion. (Is that true or false?)
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -390,11 +390,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -432,11 +432,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` true
+#'   * `[2]` false
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |

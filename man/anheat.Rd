@@ -15,12 +15,12 @@ Question Please look at Card I-1. The two objects shown there have the same mass
 \section{Values}{
 
 \itemize{
-\item \code{1} long ears and a long body
-\item \code{2} small ears and a short tail
-\item \code{3} a long nose and a long tail
-\item \code{4} a short nose and large ears
-\item \code{5} a long tail and a short nose
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} long ears and a long body
+\item \verb{[2]} small ears and a short tail
+\item \verb{[3]} a long nose and a long tail
+\item \verb{[4]} a short nose and large ears
+\item \verb{[5]} a long tail and a short nose
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -6,14 +6,14 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 1 not at all effective
-#'   * `2` 2
-#'   * `3` 3
-#'   * `4` 4
-#'   * `5` 5 extremely effective
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 1 not at all effective
+#'   * `[2]` 2
+#'   * `[3]` 3
+#'   * `[4]` 4
+#'   * `[5]` 5 extremely effective
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -45,17 +45,17 @@ NULL
 #' 
 #' Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) 
 #' Have you, or anyone you know done anything else to deal with terrorism? 
-#' FI PROBE: IF RESPONDENT ANSWERS â€˜YES,â€™ ASK; â€˜Was this you, someone you know, or both yourself and someone you know?
+#' FI PROBE: IF RESPONDENT ANSWERS 'YES,' ASK; 'Was this you, someone you know, or both yourself and someone you know?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes, respondent
-#'   * `2` yes, someone respondent knows
-#'   * `3` yes, both respondent and someone respondent knows
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` no
+#'   * `[1]` yes, respondent
+#'   * `[2]` yes, someone respondent knows
+#'   * `[3]` yes, both respondent and someone respondent knows
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -89,14 +89,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 1 not at all effective
-#'   * `2` 2
-#'   * `3` 3
-#'   * `4` 4
-#'   * `5` 5 extremely effective
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 1 not at all effective
+#'   * `[2]` 2
+#'   * `[3]` 3
+#'   * `[4]` 4
+#'   * `[5]` 5 extremely effective
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -130,24 +130,24 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` research and collect more information
-#'   * `2` join military
-#'   * `3` avoid possible targets of terror
-#'   * `4` buy new insurance policy
-#'   * `5` psycho therapy
-#'   * `6` pray
-#'   * `7` more vigilant to surrounding
-#'   * `8` join secret service
-#'   * `9` buy weapons
-#'   * `10` vigilance and new assignments because they are already in military or secrete service
-#'   * `11` terror-related traiing at work
-#'   * `12` terror-related traiing in community
-#'   * `13` build safe place
-#'   * `14` deal with government
-#'   * `15` talk about it with other people
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` research and collect more information
+#'   * `[2]` join military
+#'   * `[3]` avoid possible targets of terror
+#'   * `[4]` buy new insurance policy
+#'   * `[5]` psycho therapy
+#'   * `[6]` pray
+#'   * `[7]` more vigilant to surrounding
+#'   * `[8]` join secret service
+#'   * `[9]` buy weapons
+#'   * `[10]` vigilance and new assignments because they are already in military or secrete service
+#'   * `[11]` terror-related traiing at work
+#'   * `[12]` terror-related traiing in community
+#'   * `[13]` build safe place
+#'   * `[14]` deal with government
+#'   * `[15]` talk about it with other people
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -181,12 +181,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` one
-#'   * `2` number greater than 1
-#'   * `3` none
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` one
+#'   * `[2]` number greater than 1
+#'   * `[3]` none
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -220,10 +220,9 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * 
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -253,16 +252,16 @@ NULL
 #' 
 #'  paychnge
 #' 
-#' Question Thinking about your current employer, how much has your pay changed on your current job since you began?  would you sayâ€¦
+#' Question Thinking about your current employer, how much has your pay changed on your current job since you began?  would you say…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` my pay has gone up more than the cost of living
-#'   * `2` my pay has stayed about the same as the cost of living
-#'   * `3` my pay has not kept up with the cost of living
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` my pay has gone up more than the cost of living
+#'   * `[2]` my pay has stayed about the same as the cost of living
+#'   * `[3]` my pay has not kept up with the cost of living
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -296,13 +295,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` higher
-#'   * `2` about the same
-#'   * `3` lower
-#'   * `4` current employer is first job
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` higher
+#'   * `[2]` about the same
+#'   * `[3]` lower
+#'   * `[4]` current employer is first job
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -336,12 +335,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` left voluntarily
-#'   * `2` job was abolished
-#'   * `3` permanently laid off
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` left voluntarily
+#'   * `[2]` job was abolished
+#'   * `[3]` permanently laid off
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -375,20 +374,20 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` company's sales were declining
-#'   * `2` machines and computers made my job obsolete
-#'   * `3` job requirements changed and i was not able to do the job
-#'   * `4` job moved to another location in the united states
-#'   * `5` job moved to another country
-#'   * `6` other
-#'   * `7` company sold
-#'   * `8` job done
-#'   * `9` company in financial problem
-#'   * `10` end of contract
-#'   * `11` seasonal work
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` company's sales were declining
+#'   * `[2]` machines and computers made my job obsolete
+#'   * `[3]` job requirements changed and i was not able to do the job
+#'   * `[4]` job moved to another location in the united states
+#'   * `[5]` job moved to another country
+#'   * `[6]` other
+#'   * `[7]` company sold
+#'   * `[8]` job done
+#'   * `[9]` company in financial problem
+#'   * `[10]` end of contract
+#'   * `[11]` seasonal work
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

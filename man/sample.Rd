@@ -15,21 +15,21 @@ Question The GSS has employed various sampling procedures and frames. Appendix A
 \section{Values}{
 
 \itemize{
-\item \code{1} 1960 sample frame, block quota
-\item \code{2} 1970 sample frame, block quota
-\item \code{3} 1970 sample frame, full probability
-\item \code{4} 1970 sample frame, full probability black oversample
-\item \code{5} 1980 black sample frame, full probability black oversample
-\item \code{6} 1980 sample frame, full probability
-\item \code{7} 1980 sample frame, full probability black oversample
-\item \code{8} 1990 sample frame, full probability
-\item \code{9} 2000 sample frame, full probability
-\item \code{10} 2010 sample frame, full probability
-\item \code{11} 2020 address based sample, full probability
-\item \code{12} 2022 amerispeak frame, full probability black/hispanic/aanhpi oversample
-\item \code{13} 2020 sample frame, full probability
-\item \code{14} 2024 amerispeak frame, full probability black/hispanic/aanhpi oversample
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} 1960 sample frame, block quota
+\item \verb{[2]} 1970 sample frame, block quota
+\item \verb{[3]} 1970 sample frame, full probability
+\item \verb{[4]} 1970 sample frame, full probability black oversample
+\item \verb{[5]} 1980 black sample frame, full probability black oversample
+\item \verb{[6]} 1980 sample frame, full probability
+\item \verb{[7]} 1980 sample frame, full probability black oversample
+\item \verb{[8]} 1990 sample frame, full probability
+\item \verb{[9]} 2000 sample frame, full probability
+\item \verb{[10]} 2010 sample frame, full probability
+\item \verb{[11]} 2020 address based sample, full probability
+\item \verb{[12]} 2022 amerispeak frame, full probability black/hispanic/aanhpi oversample
+\item \verb{[13]} 2020 sample frame, full probability
+\item \verb{[14]} 2024 amerispeak frame, full probability black/hispanic/aanhpi oversample
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

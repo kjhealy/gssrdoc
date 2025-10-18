@@ -10,35 +10,35 @@ General Social Survey https://gss.norc.org
 relhh2
 }
 \details{
-Question What is (PERSON)â€™s relationship to head of household?
+Question What is (PERSON)'s relationship to head of household?
 B. Relationship of second person to head of household?
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} head of household
-\item \code{2} spouse
-\item \code{3} partner, fiance(e), boyfriend, girlfriend, etc.
-\item \code{4} child, not specified
-\item \code{5} grandchild, great-grandchild
-\item \code{6} son-in-law, daughter-in-law
-\item \code{7} parent
-\item \code{8} parent-in-law
-\item \code{9} grandparent, great-grandparent
-\item \code{10} uncle or aunt
-\item \code{11} niece or nephew
-\item \code{12} cousin
-\item \code{13} brother, sister (full, half, or step sibling)
-\item \code{14} sibling-in-law
-\item \code{15} other relative (great-aunt, grandniece, etc.)
-\item \code{16} roommate, housemate
-\item \code{17} friend
-\item \code{18} child of non-relative
-\item \code{19} other non-relative (employee, boarder)
-\item \code{41} natural/biological child
-\item \code{42} adopted child
-\item \code{43} stepchild
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} head of household
+\item \verb{[2]} spouse
+\item \verb{[3]} partner, fiance(e), boyfriend, girlfriend, etc.
+\item \verb{[4]} child, not specified
+\item \verb{[5]} grandchild, great-grandchild
+\item \verb{[6]} son-in-law, daughter-in-law
+\item \verb{[7]} parent
+\item \verb{[8]} parent-in-law
+\item \verb{[9]} grandparent, great-grandparent
+\item \verb{[10]} uncle or aunt
+\item \verb{[11]} niece or nephew
+\item \verb{[12]} cousin
+\item \verb{[13]} brother, sister (full, half, or step sibling)
+\item \verb{[14]} sibling-in-law
+\item \verb{[15]} other relative (great-aunt, grandniece, etc.)
+\item \verb{[16]} roommate, housemate
+\item \verb{[17]} friend
+\item \verb{[18]} child of non-relative
+\item \verb{[19]} other non-relative (employee, boarder)
+\item \verb{[41]} natural/biological child
+\item \verb{[42]} adopted child
+\item \verb{[43]} stepchild
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

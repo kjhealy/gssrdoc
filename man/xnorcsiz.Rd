@@ -15,17 +15,17 @@ Question B. NORC SIZE OF PLACE
 \section{Values}{
 
 \itemize{
-\item \code{1} a large central city (over 250,000)
-\item \code{2} a medium size central city (50,000 to 250,000)
-\item \code{3} a suburb of a large central city
-\item \code{4} a suburb of a medium size central city
-\item \code{5} an unincorporated area of a large central city (division, township, etc.)
-\item \code{6} an unincorporated area of a medium central city
-\item \code{7} not within an smsa, (within a county) and a small city (10,000 to 49,999)
-\item \code{8} a town or village (2,500 to 9,999)
-\item \code{9} an incorporated area less than 2,500 or an unincorporated area of 1,000 to 2,499
-\item \code{10} open country within larger civil divisions (division, township, etc.)
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} a large central city (over 250,000)
+\item \verb{[2]} a medium size central city (50,000 to 250,000)
+\item \verb{[3]} a suburb of a large central city
+\item \verb{[4]} a suburb of a medium size central city
+\item \verb{[5]} an unincorporated area of a large central city (division, township, etc.)
+\item \verb{[6]} an unincorporated area of a medium central city
+\item \verb{[7]} not within an smsa, (within a county) and a small city (10,000 to 49,999)
+\item \verb{[8]} a town or village (2,500 to 9,999)
+\item \verb{[9]} an incorporated area less than 2,500 or an unincorporated area of 1,000 to 2,499
+\item \verb{[10]} open country within larger civil divisions (division, township, etc.)
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

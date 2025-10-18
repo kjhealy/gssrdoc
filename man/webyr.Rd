@@ -15,14 +15,14 @@ Question B. When did you first begin using the World Wide Web (for purposes othe
 \section{Values}{
 
 \itemize{
-\item \code{1} this year
-\item \code{2} in the last year
-\item \code{3} 1-2 years ago
-\item \code{4} 2-3 years ago
-\item \code{5} 3-4 years ago
-\item \code{6} 4-5 years ago
-\item \code{7} 5 or more years ago
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} this year
+\item \verb{[2]} in the last year
+\item \verb{[3]} 1-2 years ago
+\item \verb{[4]} 2-3 years ago
+\item \verb{[5]} 3-4 years ago
+\item \verb{[6]} 4-5 years ago
+\item \verb{[7]} 5 or more years ago
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

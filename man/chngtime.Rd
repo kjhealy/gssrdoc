@@ -15,8 +15,8 @@ Question How often are you allowed to change your starting and quitting times on
 \section{Values}{
 
 \itemize{
-\item No applicable value labels.
-\item 
+\item \verb{[Empty]} No applicable value labels
+\item \verb{[NA(d)]}NA
 }
 }
 

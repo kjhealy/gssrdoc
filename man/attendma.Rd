@@ -15,17 +15,17 @@ Question When you were a child, how often did your mother attend religious servi
 \section{Values}{
 
 \itemize{
-\item \code{1} never
-\item \code{2} less than once a year
-\item \code{3} about once or twice a year
-\item \code{4} several times a year
-\item \code{5} about once a month
-\item \code{6} 2-3 times a month
-\item \code{7} nearly every week
-\item \code{8} every week
-\item \code{9} several times a week
-\item \code{10} no mother/mother not present
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} never
+\item \verb{[2]} less than once a year
+\item \verb{[3]} about once or twice a year
+\item \verb{[4]} several times a year
+\item \verb{[5]} about once a month
+\item \verb{[6]} 2-3 times a month
+\item \verb{[7]} nearly every week
+\item \verb{[8]} every week
+\item \verb{[9]} several times a week
+\item \verb{[10]} no mother/mother not present
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

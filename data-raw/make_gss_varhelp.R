@@ -33,8 +33,25 @@ set.seed(251015)
 
 ## Cleaning errant characters that make things crash!
 ## Not all of these are present now that we're relying on the NORC json
-fix_pct <- function(x) {
-  x |>
+fix_chrs <- function(x) {
+  replacements <- tribble(
+    ~bad,
+    ~good,
+    "â€™",
+    "'",
+    "â€˜",
+    "'",
+    "â€œ",
+    '"',
+    "â€�",
+    '"',
+    'â€"',
+    "--",
+    "â€¦",
+    "…"
+  )
+
+  o <- x |>
     stringr::str_replace_all("%", "pct") |>
     stringr::str_replace_all("<", "(") |>
     stringr::str_replace_all(">", ")") |>
@@ -47,6 +64,15 @@ fix_pct <- function(x) {
     stringr::str_replace_all("guess~\\)", "guess: ") |>
     stringr::str_replace_all("\\#spousepartfill", "spousepartfill") |>
     stringr::str_replace_all("\\{spousepartfill\\}", "spousepartfill")
+
+  out <- reduce2(
+    replacements$bad,
+    replacements$good,
+    str_replace_all,
+    .init = o
+  )
+
+  out
 }
 
 
@@ -116,35 +142,58 @@ make_rd_skel <- function(variable, label, var_text) {
 
 
 make_rd_describe <- function(value_labels) {
-  ## can't split on `;` along because of some labels with ; in them
-  ## and several weird questions with strange codes addressed by these fixes
-  o <- stringr::str_squish(stringr::str_split_1(value_labels, "; \\["))
-  o <- str_replace(o, "^(\\d{1,9}\\])", "[\\1") # digits
-  o <- str_replace(o, "^(NA\\([a-z]\\)\\])", "[\\1")
-  o <- str_replace(o, "^(\\d{1}e\\+05)", "[\\1")
-  o <- str_squish(str_replace(o, "\\[(.*?)\\](.*)", "`\\1` \\2"))
+  x <- str_replace_all(value_labels, "\\[", "`[") |>
+    str_replace_all("\\]", "]`")
 
-  o_items <- o[!str_detect(o, "`NA\\(")]
-  o_missings <- o[str_detect(o, "`NA\\(")]
+  x <- unlist(str_split(x, "`\\[NA\\(d\\)\\]`"))
+  x_items <- x[1] |>
+    str_replace_all(" / ", "") |>
+    str_replace_all("`\\[", "\n#'   * `[")
 
-  main_items <- paste0(c("#'   * "), o_items, collapse = "\n")
-  missings <- paste0(
-    c("   * "),
-    paste0(o_missings, collapse = " / "),
-    collapse = "\n"
-  )
-  o <- paste0(
-    "\n#' \n#' @section Values: \n#' \n",
-    main_items,
+  x_missings <- paste0("\n#'   * ", "`[NA(d)]`", x[2]) |>
+    str_replace_all(" / ", " ")
+
+  vals <- paste0(x_items, x_missings)
+
+  out <- paste0(
+    "\n#' \n#' @section Values: \n#'",
+    vals,
     "\n#'"
   )
-  o <- paste0(
-    o,
-    missings,
-    "\n#' "
-  )
-  o
+
+  out
 }
+
+# make_rd_describe <- function(value_labels) {
+#   ## can't split on `;` along because of some labels with ; in them
+#   ## and several weird questions with strange codes addressed by these fixes
+#   o <- stringr::str_squish(stringr::str_split_1(value_labels, "; \\["))
+#   o <- str_replace(o, "^(\\d{1,9}\\])", "[\\1") # digits
+#   o <- str_replace(o, "^(NA\\([a-z]\\)\\])", "[\\1")
+#   o <- str_replace(o, "^(\\d{1}e\\+05)", "[\\1")
+#   o <- str_squish(str_replace(o, "\\[(.*?)\\](.*)", "`\\1` \\2"))
+#
+#   o_items <- o[!str_detect(o, "`NA\\(")]
+#   o_missings <- o[str_detect(o, "`NA\\(")]
+#
+#   main_items <- paste0(c("#'   * "), o_items, collapse = "\n")
+#   missings <- paste0(
+#     c("   * "),
+#     paste0(o_missings, collapse = " / "),
+#     collapse = "\n"
+#   )
+#   o <- paste0(
+#     "\n#' \n#' @section Values: \n#' \n",
+#     main_items,
+#     "\n#'"
+#   )
+#   o <- paste0(
+#     o,
+#     missings,
+#     "\n#' "
+#   )
+#   o
+# }
 
 ## Construct full crosstab
 # make_rd_yrfreq <- function(var_yrtab, norc_url) {
@@ -323,14 +372,7 @@ load(here("data", "gss_dict.rda"))
 ## And by data-raw/make_gss_doc.R
 gss_doc <- readRDS(here("data-raw", "objects", "gss_doc.rda"))
 
-## Harmonize with gss_dict; replace NAs with something inoffensive. Also fix at least
-## the following variables:
-## fileversion.Rd:5-7: Empty section \title
-## id.Rd:15-24: Empty section ‘Values’
-## intid.Rd:15-24: Empty section ‘Values’
-## random.Rd:15-24: Empty section ‘Values’
-## uscitznnv_2122.Rd:5-7: Empty section \title
-## uscitznv_2122.Rd:5-7: Empty section \title
+## Harmonize with gss_dict
 
 gss_doc_rd <- gss_doc |>
   rename(label = description, var_text = question) |>
@@ -347,10 +389,10 @@ gss_doc_rd <- gss_doc |>
       "https://gssdataexplorer.norc.org",
       norc_url
     ),
-    value_labels = ifelse(
-      value_labels == "-",
-      "No applicable value labels.",
-      value_labels
+    value_labels = case_when(
+      value_labels == "" ~ "[Empty] No applicable value labels",
+      value_labels == "-" ~ "[Empty] No applicable value labels",
+      .default = value_labels
     )
   )
 
@@ -370,15 +412,11 @@ gss_doc_rd <- gss_doc_rd |>
   mutate(yrballot_df_wide = map(yrballot_df, \(x) simplify_ballot(x)))
 
 # Check a df
-# gss_doc_rd |>
-#   filter(variable %in% c("padeg", "madeg", "fefam", "vote16", "occ10")) |>
-#   mutate(
-#     rd4b = map_chr(subject_df, with_empty_default(\(x) pmap_chr(x, make_rd_family)))
-#   ) |>
-#   select(variable, rd4b)
 
 # docstring_test <- gss_doc_rd |>
-#   filter(variable %in% c("padeg", "polviews", "fefam", "weekswrk", "vote16", "occ10")) |>
+#   filter(
+#     variable %in% c("padeg", "marhomo", "fefam", "weekswrk", "vote16", "occ10")
+#   ) |>
 #   mutate(
 #     rd1 = pmap_chr(list(variable, label, var_text), make_rd_skel),
 #     rd2 = map_chr(value_labels, make_rd_describe),
@@ -420,7 +458,7 @@ gss_doc_rd <- gss_doc_rd |>
 #     )
 #   ) |>
 #   pull(rd6) |>
-#   fix_pct() ## rd char fixes
+#   fix_chrs() ## rd char fixes
 # test_docs_list <- split(docstring_test, ceiling(seq_along(docstring_test) / 10))
 # test_docs_list <- set_names(
 #   test_docs_list,
@@ -473,7 +511,7 @@ docstring <- gss_doc_rd |>
     )
   ) |>
   pull(rd6) |>
-  fix_pct() ## rd char fixes
+  fix_chrs() ## rd char fixes
 
 ## Chunk it into a list we can walk
 ## We pick a small ceiling number here (so, more files)

@@ -15,224 +15,224 @@ Question What specific denomination is that, if any?
 \section{Values}{
 
 \itemize{
-\item \code{1} hungarian reformed
-\item \code{2} evangelical congregational
-\item \code{3} ind bible, bible, bible fellowship
-\item \code{5} church of prophecy
-\item \code{6} new testament christian
-\item \code{7} church of god, saint & christ
-\item \code{8} moravian
-\item \code{9} christian & missionary alliance
-\item \code{10} advent children
-\item \code{11} spiritualist
-\item \code{12} assembly of god
-\item \code{13} free methodist
-\item \code{14} apostolic faith
-\item \code{15} african methodist
-\item \code{16} free will baptist
-\item \code{17} eden evangelist
-\item \code{18} holiness (nazarene)
-\item \code{19} baptist (northern)
-\item \code{20} brethren church, brethren
-\item \code{21} witness holiness
-\item \code{22} brethren, plymouth
-\item \code{23} united brethren, united brethren in christ
-\item \code{24} independent
-\item \code{25} christian disciples
-\item \code{26} christ in christian union
-\item \code{27} open bible
-\item \code{28} christian catholic
-\item \code{29} christ church unity
-\item \code{30} christ adelphians
-\item \code{31} christian; central christian
-\item \code{32} christian reform
-\item \code{33} christian scientist
-\item \code{34} church of christ, evangelical
-\item \code{35} church of christ
-\item \code{36} churches of god (except with christ and holiness)
-\item \code{37} church of god in christ
-\item \code{38} church of god in christ holiness
-\item \code{39} church of the living god
-\item \code{40} congregationalist, 1st congreg
-\item \code{41} community church
-\item \code{42} covenant
-\item \code{43} dutch reform
-\item \code{44} disciples of christ
-\item \code{45} evangelical, evangelist
-\item \code{46} evangelical reformed
-\item \code{47} evangelist free church
-\item \code{48} first church
-\item \code{49} first christian disciples of christ
-\item \code{50} first reformed
-\item \code{51} first christian
-\item \code{52} full gospel
-\item \code{53} four square gospel
-\item \code{54} friends
-\item \code{55} holy roller
-\item \code{56} holiness; church of holiness
-\item \code{57} pilgrim holiness
-\item \code{58} jehovah's witnesses
-\item \code{59} lds
-\item \code{60} lds--mormon
-\item \code{61} lds--reorganized
-\item \code{62} lds--jesus christ; church of jesus lds
-\item \code{63} mennonite
-\item \code{64} mormon
-\item \code{65} nazarene
-\item \code{66} pentecostal assembly of god
-\item \code{67} pentecostal church of god
-\item \code{68} pentecostal
-\item \code{69} pentecostal holiness, holiness pentecostal
-\item \code{70} quaker
-\item \code{71} reformed
-\item \code{72} reformed united church of christ
-\item \code{73} reformed church of christ
-\item \code{74} religious science
-\item \code{75} mind science
-\item \code{76} salvation army
-\item \code{77} 7th day adventist
-\item \code{78} sanctified, sanctification
-\item \code{79} united holiness
-\item \code{80} unitarian, universalist
-\item \code{81} united church of christ
-\item \code{82} united church, unity church
-\item \code{83} wesleyan
-\item \code{84} wesleyan methodist--pilgrim
-\item \code{85} zion union
-\item \code{86} zion union apostolic
-\item \code{87} zion union apostolic--reformed
-\item \code{88} disciples of god
-\item \code{89} grace reformed
-\item \code{90} holiness church of god
-\item \code{91} evangelical covenant
-\item \code{92} mission covenant
-\item \code{93} missionary baptist
-\item \code{94} swedish mission
-\item \code{95} unity
-\item \code{96} united church of christianity
-\item \code{97} other fundamentalist
-\item \code{98} federated church
-\item \code{99} american reform
-\item \code{100} grace brethren
-\item \code{101} christ in god
-\item \code{102} charismatic
-\item \code{103} pentecostal apostolic
-\item \code{104} house of prayer
-\item \code{105} latvian lutheran
-\item \code{106} triumph church of god
-\item \code{107} apostolic christian
-\item \code{108} christ cathedral of truth
-\item \code{109} bible missionary
-\item \code{110} calvary bible
-\item \code{111} amish
-\item \code{112} evangelical methodist
-\item \code{113} worldwide church of god
-\item \code{114} church universal and triumphant
-\item \code{115} mennonite brethren
-\item \code{116} church of the first born
-\item \code{117} missionary church
-\item \code{118} the way ministry
-\item \code{119} united church of canada
-\item \code{120} evangelical united brethren
-\item \code{121} the church of god of prophecy
-\item \code{122} chapel of faith
-\item \code{123} polish national church
-\item \code{124} faith gospel tabernacle
-\item \code{125} christian calvary chapel
-\item \code{126} carmelite
-\item \code{127} church of daniel's band
-\item \code{128} christian tabernacle
-\item \code{129} living word
-\item \code{130} true light church of christ
-\item \code{131} macedonia
-\item \code{132} brother of christ
-\item \code{133} primitive baptist
-\item \code{134} independent fundamental church of america
-\item \code{135} chinese gospel church
-\item \code{136} new age spirituality
-\item \code{137} new song
-\item \code{138} apostolic church
-\item \code{139} faith christian
-\item \code{140} people's church
-\item \code{141} new birth christian
-\item \code{142} unity school of christianity
-\item \code{143} assyrian evangelist church
-\item \code{144} spirit of christ
-\item \code{145} church of jesus christ of the restoration
-\item \code{146} laotian christian
-\item \code{148} schwenkfelder
-\item \code{149} polish catholic
-\item \code{150} zwinglian
-\item \code{151} world overcomer outreach ministry
-\item \code{152} course in miracles
-\item \code{153} unity of the brethren
-\item \code{154} spirit filled
-\item \code{155} christian union
-\item \code{156} church of living christ
-\item \code{157} community of christ
-\item \code{158} new hope christian fellowship
-\item \code{159} community christian fellowship
-\item \code{160} friends in christ
-\item \code{161} hawaiian ohana
-\item \code{162} reformed church of jesus christ of latter day saints
-\item \code{163} swedenurgian/churches of the new jerusalem
-\item \code{164} divine science
-\item \code{166} united christian
-\item \code{167} sanctuary
-\item \code{168} rain on us deliverance ministries
-\item \code{169} the word church
-\item \code{170} cornerstone church
-\item \code{171} life sanctuary
-\item \code{172} word of faith church
-\item \code{173} harvest church
-\item \code{174} shephard's chapel
-\item \code{175} greater new testament church
-\item \code{176} vineyard church
-\item \code{177} real life ministries
-\item \code{178} cathedral of joy
-\item \code{179} great faith ministries
-\item \code{180} shield of faith ministries
-\item \code{181} born again
-\item \code{182} alliance
-\item \code{183} jacobite apostolic
-\item \code{184} church of god of israel
-\item \code{185} journeys
-\item \code{186} national progressive baptist
-\item \code{187} new apostolic
-\item \code{188} metropolitan community
-\item \code{189} family life church
-\item \code{190} faith fellowship
-\item \code{191} faith covenant
-\item \code{192} new thought
-\item \code{193} free spirit ministry
-\item \code{194} jacobite syrian christian church
-\item \code{195} the ark church
-\item \code{196} empowerment temple
-\item \code{197} grace independent baptist church
-\item \code{198} new life
-\item \code{201} pathways christian church
-\item \code{204} universal church of the kingdom of god
-\item \code{205} assembly of christ
-\item \code{206} the amana church
-\item \code{207} the legacy church
-\item \code{208} calvary
-\item \code{210} ethiopian evangelical church
-\item \code{211} disciple of jesus
-\item \code{212} scandinavian church
-\item \code{213} hebrew roots
-\item \code{214} hebrew israelites
-\item \code{215} armenian apostolic church
-\item \code{216} word of jesus
-\item \code{217} old testament
-\item \code{218} apostolic church of jesus christ
-\item \code{219} cowboy church
-\item \code{220} pilgrim church
-\item \code{221} good united
-\item \code{222} hutterite
-\item \code{223} armenian evangelical church
-\item \code{224} 3c usa church
-\item \code{225} israelite church of god
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} hungarian reformed
+\item \verb{[2]} evangelical congregational
+\item \verb{[3]} ind bible, bible, bible fellowship
+\item \verb{[5]} church of prophecy
+\item \verb{[6]} new testament christian
+\item \verb{[7]} church of god, saint & christ
+\item \verb{[8]} moravian
+\item \verb{[9]} christian & missionary alliance
+\item \verb{[10]} advent children
+\item \verb{[11]} spiritualist
+\item \verb{[12]} assembly of god
+\item \verb{[13]} free methodist
+\item \verb{[14]} apostolic faith
+\item \verb{[15]} african methodist
+\item \verb{[16]} free will baptist
+\item \verb{[17]} eden evangelist
+\item \verb{[18]} holiness (nazarene)
+\item \verb{[19]} baptist (northern)
+\item \verb{[20]} brethren church, brethren
+\item \verb{[21]} witness holiness
+\item \verb{[22]} brethren, plymouth
+\item \verb{[23]} united brethren, united brethren in christ
+\item \verb{[24]} independent
+\item \verb{[25]} christian disciples
+\item \verb{[26]} christ in christian union
+\item \verb{[27]} open bible
+\item \verb{[28]} christian catholic
+\item \verb{[29]} christ church unity
+\item \verb{[30]} christ adelphians
+\item \verb{[31]} christian; central christian
+\item \verb{[32]} christian reform
+\item \verb{[33]} christian scientist
+\item \verb{[34]} church of christ, evangelical
+\item \verb{[35]} church of christ
+\item \verb{[36]} churches of god (except with christ and holiness)
+\item \verb{[37]} church of god in christ
+\item \verb{[38]} church of god in christ holiness
+\item \verb{[39]} church of the living god
+\item \verb{[40]} congregationalist, 1st congreg
+\item \verb{[41]} community church
+\item \verb{[42]} covenant
+\item \verb{[43]} dutch reform
+\item \verb{[44]} disciples of christ
+\item \verb{[45]} evangelical, evangelist
+\item \verb{[46]} evangelical reformed
+\item \verb{[47]} evangelist free church
+\item \verb{[48]} first church
+\item \verb{[49]} first christian disciples of christ
+\item \verb{[50]} first reformed
+\item \verb{[51]} first christian
+\item \verb{[52]} full gospel
+\item \verb{[53]} four square gospel
+\item \verb{[54]} friends
+\item \verb{[55]} holy roller
+\item \verb{[56]} holiness; church of holiness
+\item \verb{[57]} pilgrim holiness
+\item \verb{[58]} jehovah's witnesses
+\item \verb{[59]} lds
+\item \verb{[60]} lds--mormon
+\item \verb{[61]} lds--reorganized
+\item \verb{[62]} lds--jesus christ; church of jesus lds
+\item \verb{[63]} mennonite
+\item \verb{[64]} mormon
+\item \verb{[65]} nazarene
+\item \verb{[66]} pentecostal assembly of god
+\item \verb{[67]} pentecostal church of god
+\item \verb{[68]} pentecostal
+\item \verb{[69]} pentecostal holiness, holiness pentecostal
+\item \verb{[70]} quaker
+\item \verb{[71]} reformed
+\item \verb{[72]} reformed united church of christ
+\item \verb{[73]} reformed church of christ
+\item \verb{[74]} religious science
+\item \verb{[75]} mind science
+\item \verb{[76]} salvation army
+\item \verb{[77]} 7th day adventist
+\item \verb{[78]} sanctified, sanctification
+\item \verb{[79]} united holiness
+\item \verb{[80]} unitarian, universalist
+\item \verb{[81]} united church of christ
+\item \verb{[82]} united church, unity church
+\item \verb{[83]} wesleyan
+\item \verb{[84]} wesleyan methodist--pilgrim
+\item \verb{[85]} zion union
+\item \verb{[86]} zion union apostolic
+\item \verb{[87]} zion union apostolic--reformed
+\item \verb{[88]} disciples of god
+\item \verb{[89]} grace reformed
+\item \verb{[90]} holiness church of god
+\item \verb{[91]} evangelical covenant
+\item \verb{[92]} mission covenant
+\item \verb{[93]} missionary baptist
+\item \verb{[94]} swedish mission
+\item \verb{[95]} unity
+\item \verb{[96]} united church of christianity
+\item \verb{[97]} other fundamentalist
+\item \verb{[98]} federated church
+\item \verb{[99]} american reform
+\item \verb{[100]} grace brethren
+\item \verb{[101]} christ in god
+\item \verb{[102]} charismatic
+\item \verb{[103]} pentecostal apostolic
+\item \verb{[104]} house of prayer
+\item \verb{[105]} latvian lutheran
+\item \verb{[106]} triumph church of god
+\item \verb{[107]} apostolic christian
+\item \verb{[108]} christ cathedral of truth
+\item \verb{[109]} bible missionary
+\item \verb{[110]} calvary bible
+\item \verb{[111]} amish
+\item \verb{[112]} evangelical methodist
+\item \verb{[113]} worldwide church of god
+\item \verb{[114]} church universal and triumphant
+\item \verb{[115]} mennonite brethren
+\item \verb{[116]} church of the first born
+\item \verb{[117]} missionary church
+\item \verb{[118]} the way ministry
+\item \verb{[119]} united church of canada
+\item \verb{[120]} evangelical united brethren
+\item \verb{[121]} the church of god of prophecy
+\item \verb{[122]} chapel of faith
+\item \verb{[123]} polish national church
+\item \verb{[124]} faith gospel tabernacle
+\item \verb{[125]} christian calvary chapel
+\item \verb{[126]} carmelite
+\item \verb{[127]} church of daniel's band
+\item \verb{[128]} christian tabernacle
+\item \verb{[129]} living word
+\item \verb{[130]} true light church of christ
+\item \verb{[131]} macedonia
+\item \verb{[132]} brother of christ
+\item \verb{[133]} primitive baptist
+\item \verb{[134]} independent fundamental church of america
+\item \verb{[135]} chinese gospel church
+\item \verb{[136]} new age spirituality
+\item \verb{[137]} new song
+\item \verb{[138]} apostolic church
+\item \verb{[139]} faith christian
+\item \verb{[140]} people's church
+\item \verb{[141]} new birth christian
+\item \verb{[142]} unity school of christianity
+\item \verb{[143]} assyrian evangelist church
+\item \verb{[144]} spirit of christ
+\item \verb{[145]} church of jesus christ of the restoration
+\item \verb{[146]} laotian christian
+\item \verb{[148]} schwenkfelder
+\item \verb{[149]} polish catholic
+\item \verb{[150]} zwinglian
+\item \verb{[151]} world overcomer outreach ministry
+\item \verb{[152]} course in miracles
+\item \verb{[153]} unity of the brethren
+\item \verb{[154]} spirit filled
+\item \verb{[155]} christian union
+\item \verb{[156]} church of living christ
+\item \verb{[157]} community of christ
+\item \verb{[158]} new hope christian fellowship
+\item \verb{[159]} community christian fellowship
+\item \verb{[160]} friends in christ
+\item \verb{[161]} hawaiian ohana
+\item \verb{[162]} reformed church of jesus christ of latter day saints
+\item \verb{[163]} swedenurgian/churches of the new jerusalem
+\item \verb{[164]} divine science
+\item \verb{[166]} united christian
+\item \verb{[167]} sanctuary
+\item \verb{[168]} rain on us deliverance ministries
+\item \verb{[169]} the word church
+\item \verb{[170]} cornerstone church
+\item \verb{[171]} life sanctuary
+\item \verb{[172]} word of faith church
+\item \verb{[173]} harvest church
+\item \verb{[174]} shephard's chapel
+\item \verb{[175]} greater new testament church
+\item \verb{[176]} vineyard church
+\item \verb{[177]} real life ministries
+\item \verb{[178]} cathedral of joy
+\item \verb{[179]} great faith ministries
+\item \verb{[180]} shield of faith ministries
+\item \verb{[181]} born again
+\item \verb{[182]} alliance
+\item \verb{[183]} jacobite apostolic
+\item \verb{[184]} church of god of israel
+\item \verb{[185]} journeys
+\item \verb{[186]} national progressive baptist
+\item \verb{[187]} new apostolic
+\item \verb{[188]} metropolitan community
+\item \verb{[189]} family life church
+\item \verb{[190]} faith fellowship
+\item \verb{[191]} faith covenant
+\item \verb{[192]} new thought
+\item \verb{[193]} free spirit ministry
+\item \verb{[194]} jacobite syrian christian church
+\item \verb{[195]} the ark church
+\item \verb{[196]} empowerment temple
+\item \verb{[197]} grace independent baptist church
+\item \verb{[198]} new life
+\item \verb{[201]} pathways christian church
+\item \verb{[204]} universal church of the kingdom of god
+\item \verb{[205]} assembly of christ
+\item \verb{[206]} the amana church
+\item \verb{[207]} the legacy church
+\item \verb{[208]} calvary
+\item \verb{[210]} ethiopian evangelical church
+\item \verb{[211]} disciple of jesus
+\item \verb{[212]} scandinavian church
+\item \verb{[213]} hebrew roots
+\item \verb{[214]} hebrew israelites
+\item \verb{[215]} armenian apostolic church
+\item \verb{[216]} word of jesus
+\item \verb{[217]} old testament
+\item \verb{[218]} apostolic church of jesus christ
+\item \verb{[219]} cowboy church
+\item \verb{[220]} pilgrim church
+\item \verb{[221]} good united
+\item \verb{[222]} hutterite
+\item \verb{[223]} armenian evangelical church
+\item \verb{[224]} 3c usa church
+\item \verb{[225]} israelite church of god
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

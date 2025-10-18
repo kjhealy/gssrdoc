@@ -15,23 +15,23 @@ Question (If present) Second relationship with second person.
 \section{Values}{
 
 \itemize{
-\item \code{1} spouse/partner (current/ex)
-\item \code{2} parent
-\item \code{3} sibling
-\item \code{4} child
-\item \code{5} grandparent
-\item \code{6} grandchild
-\item \code{7} other family
-\item \code{8} coworker
-\item \code{9} neighbor
-\item \code{10} friend
-\item \code{11} member of religious community
-\item \code{12} acquaintance
-\item \code{13} student/classmate
-\item \code{14} relative of a friend
-\item \code{15} friend of a relative
-\item \code{16} other
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} spouse/partner (current/ex)
+\item \verb{[2]} parent
+\item \verb{[3]} sibling
+\item \verb{[4]} child
+\item \verb{[5]} grandparent
+\item \verb{[6]} grandchild
+\item \verb{[7]} other family
+\item \verb{[8]} coworker
+\item \verb{[9]} neighbor
+\item \verb{[10]} friend
+\item \verb{[11]} member of religious community
+\item \verb{[12]} acquaintance
+\item \verb{[13]} student/classmate
+\item \verb{[14]} relative of a friend
+\item \verb{[15]} friend of a relative
+\item \verb{[16]} other
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

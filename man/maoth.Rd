@@ -15,14 +15,14 @@ Question A. What specific denomination is that, if any?
 \section{Values}{
 
 \itemize{
-\item \code{149} polish catholic
-\item \code{196} empowerment temple
-\item \code{197} grace independent baptist church
-\item \code{198} new life
-\item \code{199} follower of christ
-\item \code{201} pathways christian church
-\item \code{204} renia de deus
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[149]} polish catholic
+\item \verb{[196]} empowerment temple
+\item \verb{[197]} grace independent baptist church
+\item \verb{[198]} new life
+\item \verb{[199]} follower of christ
+\item \verb{[201]} pathways christian church
+\item \verb{[204]} renia de deus
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -15,16 +15,16 @@ Question Why doesnï¿½t your family have a pet? Please choose the most importa
 \section{Values}{
 
 \itemize{
-\item \code{1} no interest
-\item \code{2} too expensive
-\item \code{3} too much time or work to care for pet
-\item \code{4} allergies (own or another household member)
-\item \code{5} health risks
-\item \code{6} residential restrictions
-\item \code{7} pet died
-\item \code{8} away too much, travelling, working, or both
-\item \code{9} other
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} no interest
+\item \verb{[2]} too expensive
+\item \verb{[3]} too much time or work to care for pet
+\item \verb{[4]} allergies (own or another household member)
+\item \verb{[5]} health risks
+\item \verb{[6]} residential restrictions
+\item \verb{[7]} pet died
+\item \verb{[8]} away too much, travelling, working, or both
+\item \verb{[9]} other
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

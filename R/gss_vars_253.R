@@ -7,13 +7,13 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` most important contribution
-#'   * `2` important contribution
-#'   * `3` some contribution
-#'   * `4` little positive contribution
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` most important contribution
+#'   * `[2]` important contribution
+#'   * `[3]` some contribution
+#'   * `[4]` little positive contribution
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -48,13 +48,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` most important contribution
-#'   * `2` important contribution
-#'   * `3` some contribution
-#'   * `4` little positive contribution
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` most important contribution
+#'   * `[2]` important contribution
+#'   * `[3]` some contribution
+#'   * `[4]` little positive contribution
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -88,11 +88,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                            |
@@ -135,202 +135,202 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` english
-#'   * `2` spanish
-#'   * `3` polish
-#'   * `4` french
-#'   * `5` hebrew
-#'   * `6` russian
-#'   * `7` tagalog
-#'   * `8` chinese
-#'   * `9` urdu
-#'   * `10` italian
-#'   * `11` romanian
-#'   * `12` german
-#'   * `13` pashtu
-#'   * `14` chamorro
-#'   * `15` ukranian
-#'   * `16` hungarian
-#'   * `17` turkish
-#'   * `18` khmer
-#'   * `19` korean
-#'   * `20` navajo
-#'   * `21` malayam
-#'   * `22` arabic
-#'   * `23` farsi/persian
-#'   * `24` serbian
-#'   * `25` lithuanian
-#'   * `27` thai
-#'   * `28` gujarati
-#'   * `30` dari
-#'   * `31` slovak
-#'   * `32` japanese
-#'   * `33` portuguese
-#'   * `34` vajun
-#'   * `35` yiddish
-#'   * `36` creole
-#'   * `37` vietnamese
-#'   * `38` norwegian
-#'   * `39` malaysian
-#'   * `40` latin
-#'   * `41` czech
-#'   * `42` hindi
-#'   * `43` hakka
-#'   * `44` swedish
-#'   * `45` vesaya
-#'   * `46` sign language
-#'   * `47` tongan
-#'   * `48` armenian
-#'   * `49` ibo
-#'   * `50` dutch
-#'   * `51` cherokee
-#'   * `52` samoan
-#'   * `53` yoruba
-#'   * `54` greek
-#'   * `55` lakota
-#'   * `56` african
-#'   * `57` anishnabee
-#'   * `58` ilokand
-#'   * `59` assyrian
-#'   * `60` danish
-#'   * `61` laotian
-#'   * `62` finnish
-#'   * `63` mohawk
-#'   * `64` amharic
-#'   * `65` bengali
-#'   * `66` oriya
-#'   * `67` hawaiian
-#'   * `68` albanian
-#'   * `69` hmong
-#'   * `70` indonesian
-#'   * `71` swahili
-#'   * `72` telugu
-#'   * `73` kannada
-#'   * `74` bulgarian
-#'   * `75` guarani
-#'   * `76` bosnian
-#'   * `77` punjabi
-#'   * `78` latvian
-#'   * `79` basque
-#'   * `80` bikol/bicolano
-#'   * `81` croatian
-#'   * `82` romani
-#'   * `83` slovenian
-#'   * `84` belgian
-#'   * `85` mandingo
-#'   * `86` jamaican
-#'   * `87` somali
-#'   * `88` other native american language
-#'   * `89` tigrinya
-#'   * `90` krio
-#'   * `91` unspecified asian indian language
-#'   * `92` cebuano
-#'   * `93` macedonian
-#'   * `94` patois
-#'   * `95` pangasinan
-#'   * `96` ilocano
-#'   * `97` marathi
-#'   * `98` kashmiri
-#'   * `99` tamil
-#'   * `100` akan
-#'   * `101` ethiopian
-#'   * `102` georgian
-#'   * `103` yugoslavian
-#'   * `104` irish
-#'   * `105` catalan
-#'   * `106` mixtec
-#'   * `107` garifuna
-#'   * `108` fang
-#'   * `109` apache
-#'   * `110` bassa
-#'   * `111` efik
-#'   * `112` twi
-#'   * `113` maltese
-#'   * `114` zuni
-#'   * `115` ga
-#'   * `116` mina
-#'   * `117` surinamese
-#'   * `118` yaqui
-#'   * `119` quechua
-#'   * `120` tok pisin
-#'   * `121` pima
-#'   * `122` lingala
-#'   * `123` otomi
-#'   * `124` chindali
-#'   * `125` tibetan
-#'   * `126` oromo
-#'   * `127` nepali
-#'   * `128` eskimo
-#'   * `129` mam
-#'   * `130` choctaw
-#'   * `131` ashanti
-#'   * `132` burmese
-#'   * `133` hewa
-#'   * `134` sango
-#'   * `135` chitumbuka
-#'   * `136` maratsi
-#'   * `137` yemba
-#'   * `138` k'iche'
-#'   * `139` fante
-#'   * `140` sinhalase
-#'   * `141` icelandic
-#'   * `142` maricopa
-#'   * `143` quechan
-#'   * `144` pohnpeian
-#'   * `145` luganda
-#'   * `146` shona
-#'   * `147` urhobo
-#'   * `148` colville tribe
-#'   * `149` chickasau
-#'   * `150` dakota
-#'   * `151` hokkien
-#'   * `152` wolof
-#'   * `153` ewe
-#'   * `154` igbo
-#'   * `155` luhya
-#'   * `156` black feet
-#'   * `157` inupiaq
-#'   * `158` paiute
-#'   * `159` afrikaans
-#'   * `160` kaien
-#'   * `161` shawnee
-#'   * `162` welsh
-#'   * `163` chuj
-#'   * `164` oremagna
-#'   * `165` kaugel
-#'   * `166` sanskrit
-#'   * `167` hausa
-#'   * `168` aramaic
-#'   * `169` chuukese
-#'   * `170` dagbani
-#'   * `171` fijian
-#'   * `172` kapampagng
-#'   * `173` kinyarwanda
-#'   * `174` doric
-#'   * `175` sesotho
-#'   * `176` sousou
-#'   * `177` estonian
-#'   * `178` ebon
-#'   * `179` chibemba
-#'   * `180` chewa
-#'   * `181` gusii
-#'   * `182` gun
-#'   * `183` nuer
-#'   * `184` oro
-#'   * `185` kamba
-#'   * `186` huichol
-#'   * `187` papiamento
-#'   * `188` hiligaynon
-#'   * `189` mongolian
-#'   * `190` bunong
-#'   * `191` kikuyu
-#'   * `192` konkani
-#'   * `193` mende
-#'   * `194` naija
-#'   * `195` wendish
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` english
+#'   * `[2]` spanish
+#'   * `[3]` polish
+#'   * `[4]` french
+#'   * `[5]` hebrew
+#'   * `[6]` russian
+#'   * `[7]` tagalog
+#'   * `[8]` chinese
+#'   * `[9]` urdu
+#'   * `[10]` italian
+#'   * `[11]` romanian
+#'   * `[12]` german
+#'   * `[13]` pashtu
+#'   * `[14]` chamorro
+#'   * `[15]` ukranian
+#'   * `[16]` hungarian
+#'   * `[17]` turkish
+#'   * `[18]` khmer
+#'   * `[19]` korean
+#'   * `[20]` navajo
+#'   * `[21]` malayam
+#'   * `[22]` arabic
+#'   * `[23]` farsi/persian
+#'   * `[24]` serbian
+#'   * `[25]` lithuanian
+#'   * `[27]` thai
+#'   * `[28]` gujarati
+#'   * `[30]` dari
+#'   * `[31]` slovak
+#'   * `[32]` japanese
+#'   * `[33]` portuguese
+#'   * `[34]` vajun
+#'   * `[35]` yiddish
+#'   * `[36]` creole
+#'   * `[37]` vietnamese
+#'   * `[38]` norwegian
+#'   * `[39]` malaysian
+#'   * `[40]` latin
+#'   * `[41]` czech
+#'   * `[42]` hindi
+#'   * `[43]` hakka
+#'   * `[44]` swedish
+#'   * `[45]` vesaya
+#'   * `[46]` sign language
+#'   * `[47]` tongan
+#'   * `[48]` armenian
+#'   * `[49]` ibo
+#'   * `[50]` dutch
+#'   * `[51]` cherokee
+#'   * `[52]` samoan
+#'   * `[53]` yoruba
+#'   * `[54]` greek
+#'   * `[55]` lakota
+#'   * `[56]` african
+#'   * `[57]` anishnabee
+#'   * `[58]` ilokand
+#'   * `[59]` assyrian
+#'   * `[60]` danish
+#'   * `[61]` laotian
+#'   * `[62]` finnish
+#'   * `[63]` mohawk
+#'   * `[64]` amharic
+#'   * `[65]` bengali
+#'   * `[66]` oriya
+#'   * `[67]` hawaiian
+#'   * `[68]` albanian
+#'   * `[69]` hmong
+#'   * `[70]` indonesian
+#'   * `[71]` swahili
+#'   * `[72]` telugu
+#'   * `[73]` kannada
+#'   * `[74]` bulgarian
+#'   * `[75]` guarani
+#'   * `[76]` bosnian
+#'   * `[77]` punjabi
+#'   * `[78]` latvian
+#'   * `[79]` basque
+#'   * `[80]` bikol/bicolano
+#'   * `[81]` croatian
+#'   * `[82]` romani
+#'   * `[83]` slovenian
+#'   * `[84]` belgian
+#'   * `[85]` mandingo
+#'   * `[86]` jamaican
+#'   * `[87]` somali
+#'   * `[88]` other native american language
+#'   * `[89]` tigrinya
+#'   * `[90]` krio
+#'   * `[91]` unspecified asian indian language
+#'   * `[92]` cebuano
+#'   * `[93]` macedonian
+#'   * `[94]` patois
+#'   * `[95]` pangasinan
+#'   * `[96]` ilocano
+#'   * `[97]` marathi
+#'   * `[98]` kashmiri
+#'   * `[99]` tamil
+#'   * `[100]` akan
+#'   * `[101]` ethiopian
+#'   * `[102]` georgian
+#'   * `[103]` yugoslavian
+#'   * `[104]` irish
+#'   * `[105]` catalan
+#'   * `[106]` mixtec
+#'   * `[107]` garifuna
+#'   * `[108]` fang
+#'   * `[109]` apache
+#'   * `[110]` bassa
+#'   * `[111]` efik
+#'   * `[112]` twi
+#'   * `[113]` maltese
+#'   * `[114]` zuni
+#'   * `[115]` ga
+#'   * `[116]` mina
+#'   * `[117]` surinamese
+#'   * `[118]` yaqui
+#'   * `[119]` quechua
+#'   * `[120]` tok pisin
+#'   * `[121]` pima
+#'   * `[122]` lingala
+#'   * `[123]` otomi
+#'   * `[124]` chindali
+#'   * `[125]` tibetan
+#'   * `[126]` oromo
+#'   * `[127]` nepali
+#'   * `[128]` eskimo
+#'   * `[129]` mam
+#'   * `[130]` choctaw
+#'   * `[131]` ashanti
+#'   * `[132]` burmese
+#'   * `[133]` hewa
+#'   * `[134]` sango
+#'   * `[135]` chitumbuka
+#'   * `[136]` maratsi
+#'   * `[137]` yemba
+#'   * `[138]` k'iche'
+#'   * `[139]` fante
+#'   * `[140]` sinhalase
+#'   * `[141]` icelandic
+#'   * `[142]` maricopa
+#'   * `[143]` quechan
+#'   * `[144]` pohnpeian
+#'   * `[145]` luganda
+#'   * `[146]` shona
+#'   * `[147]` urhobo
+#'   * `[148]` colville tribe
+#'   * `[149]` chickasau
+#'   * `[150]` dakota
+#'   * `[151]` hokkien
+#'   * `[152]` wolof
+#'   * `[153]` ewe
+#'   * `[154]` igbo
+#'   * `[155]` luhya
+#'   * `[156]` black feet
+#'   * `[157]` inupiaq
+#'   * `[158]` paiute
+#'   * `[159]` afrikaans
+#'   * `[160]` kaien
+#'   * `[161]` shawnee
+#'   * `[162]` welsh
+#'   * `[163]` chuj
+#'   * `[164]` oremagna
+#'   * `[165]` kaugel
+#'   * `[166]` sanskrit
+#'   * `[167]` hausa
+#'   * `[168]` aramaic
+#'   * `[169]` chuukese
+#'   * `[170]` dagbani
+#'   * `[171]` fijian
+#'   * `[172]` kapampagng
+#'   * `[173]` kinyarwanda
+#'   * `[174]` doric
+#'   * `[175]` sesotho
+#'   * `[176]` sousou
+#'   * `[177]` estonian
+#'   * `[178]` ebon
+#'   * `[179]` chibemba
+#'   * `[180]` chewa
+#'   * `[181]` gusii
+#'   * `[182]` gun
+#'   * `[183]` nuer
+#'   * `[184]` oro
+#'   * `[185]` kamba
+#'   * `[186]` huichol
+#'   * `[187]` papiamento
+#'   * `[188]` hiligaynon
+#'   * `[189]` mongolian
+#'   * `[190]` bunong
+#'   * `[191]` kikuyu
+#'   * `[192]` konkani
+#'   * `[193]` mende
+#'   * `[194]` naija
+#'   * `[195]` wendish
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |
@@ -356,202 +356,202 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` english
-#'   * `2` spanish
-#'   * `3` polish
-#'   * `4` french
-#'   * `5` hebrew
-#'   * `6` russian
-#'   * `7` tagalog
-#'   * `8` chinese
-#'   * `9` urdu
-#'   * `10` italian
-#'   * `11` romanian
-#'   * `12` german
-#'   * `13` pashtu
-#'   * `14` chamorro
-#'   * `15` ukranian
-#'   * `16` hungarian
-#'   * `17` turkish
-#'   * `18` khmer
-#'   * `19` korean
-#'   * `20` navajo
-#'   * `21` malayam
-#'   * `22` arabic
-#'   * `23` farsi/persian
-#'   * `24` serbian
-#'   * `25` lithuanian
-#'   * `27` thai
-#'   * `28` gujarati
-#'   * `30` dari
-#'   * `31` slovak
-#'   * `32` japanese
-#'   * `33` portuguese
-#'   * `34` vajun
-#'   * `35` yiddish
-#'   * `36` creole
-#'   * `37` vietnamese
-#'   * `38` norwegian
-#'   * `39` malaysian
-#'   * `40` latin
-#'   * `41` czech
-#'   * `42` hindi
-#'   * `43` hakka
-#'   * `44` swedish
-#'   * `45` vesaya
-#'   * `46` sign language
-#'   * `47` tongan
-#'   * `48` armenian
-#'   * `49` ibo
-#'   * `50` dutch
-#'   * `51` cherokee
-#'   * `52` samoan
-#'   * `53` yoruba
-#'   * `54` greek
-#'   * `55` lakota
-#'   * `56` african
-#'   * `57` anishnabee
-#'   * `58` ilokand
-#'   * `59` assyrian
-#'   * `60` danish
-#'   * `61` laotian
-#'   * `62` finnish
-#'   * `63` mohawk
-#'   * `64` amharic
-#'   * `65` bengali
-#'   * `66` oriya
-#'   * `67` hawaiian
-#'   * `68` albanian
-#'   * `69` hmong
-#'   * `70` indonesian
-#'   * `71` swahili
-#'   * `72` telugu
-#'   * `73` kannada
-#'   * `74` bulgarian
-#'   * `75` guarani
-#'   * `76` bosnian
-#'   * `77` punjabi
-#'   * `78` latvian
-#'   * `79` basque
-#'   * `80` bikol/bicolano
-#'   * `81` croatian
-#'   * `82` romani
-#'   * `83` slovenian
-#'   * `84` belgian
-#'   * `85` mandingo
-#'   * `86` jamaican
-#'   * `87` somali
-#'   * `88` other native american language
-#'   * `89` tigrinya
-#'   * `90` krio
-#'   * `91` unspecified asian indian language
-#'   * `92` cebuano
-#'   * `93` macedonian
-#'   * `94` patois
-#'   * `95` pangasinan
-#'   * `96` ilocano
-#'   * `97` marathi
-#'   * `98` kashmiri
-#'   * `99` tamil
-#'   * `100` akan
-#'   * `101` ethiopian
-#'   * `102` georgian
-#'   * `103` yugoslavian
-#'   * `104` irish
-#'   * `105` catalan
-#'   * `106` mixtec
-#'   * `107` garifuna
-#'   * `108` fang
-#'   * `109` apache
-#'   * `110` bassa
-#'   * `111` efik
-#'   * `112` twi
-#'   * `113` maltese
-#'   * `114` zuni
-#'   * `115` ga
-#'   * `116` mina
-#'   * `117` surinamese
-#'   * `118` yaqui
-#'   * `119` quechua
-#'   * `120` tok pisin
-#'   * `121` pima
-#'   * `122` lingala
-#'   * `123` otomi
-#'   * `124` chindali
-#'   * `125` tibetan
-#'   * `126` oromo
-#'   * `127` nepali
-#'   * `128` eskimo
-#'   * `129` mam
-#'   * `130` choctaw
-#'   * `131` ashanti
-#'   * `132` burmese
-#'   * `133` hewa
-#'   * `134` sango
-#'   * `135` chitumbuka
-#'   * `136` maratsi
-#'   * `137` yemba
-#'   * `138` k'iche'
-#'   * `139` fante
-#'   * `140` sinhalase
-#'   * `141` icelandic
-#'   * `142` maricopa
-#'   * `143` quechan
-#'   * `144` pohnpeian
-#'   * `145` luganda
-#'   * `146` shona
-#'   * `147` urhobo
-#'   * `148` colville tribe
-#'   * `149` chickasau
-#'   * `150` dakota
-#'   * `151` hokkien
-#'   * `152` wolof
-#'   * `153` ewe
-#'   * `154` igbo
-#'   * `155` luhya
-#'   * `156` black feet
-#'   * `157` inupiaq
-#'   * `158` paiute
-#'   * `159` afrikaans
-#'   * `160` kaien
-#'   * `161` shawnee
-#'   * `162` welsh
-#'   * `163` chuj
-#'   * `164` oremagna
-#'   * `165` kaugel
-#'   * `166` sanskrit
-#'   * `167` hausa
-#'   * `168` aramaic
-#'   * `169` chuukese
-#'   * `170` dagbani
-#'   * `171` fijian
-#'   * `172` kapampagng
-#'   * `173` kinyarwanda
-#'   * `174` doric
-#'   * `175` sesotho
-#'   * `176` sousou
-#'   * `177` estonian
-#'   * `178` ebon
-#'   * `179` chibemba
-#'   * `180` chewa
-#'   * `181` gusii
-#'   * `182` gun
-#'   * `183` nuer
-#'   * `184` oro
-#'   * `185` kamba
-#'   * `186` huichol
-#'   * `187` papiamento
-#'   * `188` hiligaynon
-#'   * `189` mongolian
-#'   * `190` bunong
-#'   * `191` kikuyu
-#'   * `192` konkani
-#'   * `193` mende
-#'   * `194` naija
-#'   * `195` wendish
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` english
+#'   * `[2]` spanish
+#'   * `[3]` polish
+#'   * `[4]` french
+#'   * `[5]` hebrew
+#'   * `[6]` russian
+#'   * `[7]` tagalog
+#'   * `[8]` chinese
+#'   * `[9]` urdu
+#'   * `[10]` italian
+#'   * `[11]` romanian
+#'   * `[12]` german
+#'   * `[13]` pashtu
+#'   * `[14]` chamorro
+#'   * `[15]` ukranian
+#'   * `[16]` hungarian
+#'   * `[17]` turkish
+#'   * `[18]` khmer
+#'   * `[19]` korean
+#'   * `[20]` navajo
+#'   * `[21]` malayam
+#'   * `[22]` arabic
+#'   * `[23]` farsi/persian
+#'   * `[24]` serbian
+#'   * `[25]` lithuanian
+#'   * `[27]` thai
+#'   * `[28]` gujarati
+#'   * `[30]` dari
+#'   * `[31]` slovak
+#'   * `[32]` japanese
+#'   * `[33]` portuguese
+#'   * `[34]` vajun
+#'   * `[35]` yiddish
+#'   * `[36]` creole
+#'   * `[37]` vietnamese
+#'   * `[38]` norwegian
+#'   * `[39]` malaysian
+#'   * `[40]` latin
+#'   * `[41]` czech
+#'   * `[42]` hindi
+#'   * `[43]` hakka
+#'   * `[44]` swedish
+#'   * `[45]` vesaya
+#'   * `[46]` sign language
+#'   * `[47]` tongan
+#'   * `[48]` armenian
+#'   * `[49]` ibo
+#'   * `[50]` dutch
+#'   * `[51]` cherokee
+#'   * `[52]` samoan
+#'   * `[53]` yoruba
+#'   * `[54]` greek
+#'   * `[55]` lakota
+#'   * `[56]` african
+#'   * `[57]` anishnabee
+#'   * `[58]` ilokand
+#'   * `[59]` assyrian
+#'   * `[60]` danish
+#'   * `[61]` laotian
+#'   * `[62]` finnish
+#'   * `[63]` mohawk
+#'   * `[64]` amharic
+#'   * `[65]` bengali
+#'   * `[66]` oriya
+#'   * `[67]` hawaiian
+#'   * `[68]` albanian
+#'   * `[69]` hmong
+#'   * `[70]` indonesian
+#'   * `[71]` swahili
+#'   * `[72]` telugu
+#'   * `[73]` kannada
+#'   * `[74]` bulgarian
+#'   * `[75]` guarani
+#'   * `[76]` bosnian
+#'   * `[77]` punjabi
+#'   * `[78]` latvian
+#'   * `[79]` basque
+#'   * `[80]` bikol/bicolano
+#'   * `[81]` croatian
+#'   * `[82]` romani
+#'   * `[83]` slovenian
+#'   * `[84]` belgian
+#'   * `[85]` mandingo
+#'   * `[86]` jamaican
+#'   * `[87]` somali
+#'   * `[88]` other native american language
+#'   * `[89]` tigrinya
+#'   * `[90]` krio
+#'   * `[91]` unspecified asian indian language
+#'   * `[92]` cebuano
+#'   * `[93]` macedonian
+#'   * `[94]` patois
+#'   * `[95]` pangasinan
+#'   * `[96]` ilocano
+#'   * `[97]` marathi
+#'   * `[98]` kashmiri
+#'   * `[99]` tamil
+#'   * `[100]` akan
+#'   * `[101]` ethiopian
+#'   * `[102]` georgian
+#'   * `[103]` yugoslavian
+#'   * `[104]` irish
+#'   * `[105]` catalan
+#'   * `[106]` mixtec
+#'   * `[107]` garifuna
+#'   * `[108]` fang
+#'   * `[109]` apache
+#'   * `[110]` bassa
+#'   * `[111]` efik
+#'   * `[112]` twi
+#'   * `[113]` maltese
+#'   * `[114]` zuni
+#'   * `[115]` ga
+#'   * `[116]` mina
+#'   * `[117]` surinamese
+#'   * `[118]` yaqui
+#'   * `[119]` quechua
+#'   * `[120]` tok pisin
+#'   * `[121]` pima
+#'   * `[122]` lingala
+#'   * `[123]` otomi
+#'   * `[124]` chindali
+#'   * `[125]` tibetan
+#'   * `[126]` oromo
+#'   * `[127]` nepali
+#'   * `[128]` eskimo
+#'   * `[129]` mam
+#'   * `[130]` choctaw
+#'   * `[131]` ashanti
+#'   * `[132]` burmese
+#'   * `[133]` hewa
+#'   * `[134]` sango
+#'   * `[135]` chitumbuka
+#'   * `[136]` maratsi
+#'   * `[137]` yemba
+#'   * `[138]` k'iche'
+#'   * `[139]` fante
+#'   * `[140]` sinhalase
+#'   * `[141]` icelandic
+#'   * `[142]` maricopa
+#'   * `[143]` quechan
+#'   * `[144]` pohnpeian
+#'   * `[145]` luganda
+#'   * `[146]` shona
+#'   * `[147]` urhobo
+#'   * `[148]` colville tribe
+#'   * `[149]` chickasau
+#'   * `[150]` dakota
+#'   * `[151]` hokkien
+#'   * `[152]` wolof
+#'   * `[153]` ewe
+#'   * `[154]` igbo
+#'   * `[155]` luhya
+#'   * `[156]` black feet
+#'   * `[157]` inupiaq
+#'   * `[158]` paiute
+#'   * `[159]` afrikaans
+#'   * `[160]` kaien
+#'   * `[161]` shawnee
+#'   * `[162]` welsh
+#'   * `[163]` chuj
+#'   * `[164]` oremagna
+#'   * `[165]` kaugel
+#'   * `[166]` sanskrit
+#'   * `[167]` hausa
+#'   * `[168]` aramaic
+#'   * `[169]` chuukese
+#'   * `[170]` dagbani
+#'   * `[171]` fijian
+#'   * `[172]` kapampagng
+#'   * `[173]` kinyarwanda
+#'   * `[174]` doric
+#'   * `[175]` sesotho
+#'   * `[176]` sousou
+#'   * `[177]` estonian
+#'   * `[178]` ebon
+#'   * `[179]` chibemba
+#'   * `[180]` chewa
+#'   * `[181]` gusii
+#'   * `[182]` gun
+#'   * `[183]` nuer
+#'   * `[184]` oro
+#'   * `[185]` kamba
+#'   * `[186]` huichol
+#'   * `[187]` papiamento
+#'   * `[188]` hiligaynon
+#'   * `[189]` mongolian
+#'   * `[190]` bunong
+#'   * `[191]` kikuyu
+#'   * `[192]` konkani
+#'   * `[193]` mende
+#'   * `[194]` naija
+#'   * `[195]` wendish
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |
@@ -577,105 +577,105 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` english
-#'   * `2` spanish
-#'   * `3` polish
-#'   * `4` french
-#'   * `5` hebrew
-#'   * `6` russian
-#'   * `7` tagalog
-#'   * `8` chinese
-#'   * `9` urdu
-#'   * `10` italian
-#'   * `11` romanian
-#'   * `12` german
-#'   * `13` pashtu
-#'   * `14` chamorro
-#'   * `15` ukranian
-#'   * `16` hungarian
-#'   * `17` turkish
-#'   * `18` khmer
-#'   * `19` korean
-#'   * `20` navajo
-#'   * `21` malayam
-#'   * `22` arabic
-#'   * `23` farsi-persian
-#'   * `24` serbian
-#'   * `25` lithuanian
-#'   * `27` thai
-#'   * `28` gujarati
-#'   * `30` dari
-#'   * `31` slovak
-#'   * `32` japanese
-#'   * `33` portuguese
-#'   * `34` vajun
-#'   * `35` yidddish
-#'   * `36` creole
-#'   * `37` vietnamese
-#'   * `38` norwegian
-#'   * `39` malaysian
-#'   * `40` latin
-#'   * `41` czech
-#'   * `42` hindu
-#'   * `43` hakka
-#'   * `44` swedish
-#'   * `45` vesaya
-#'   * `46` sign language
-#'   * `47` tongan
-#'   * `48` armenian
-#'   * `49` ibo
-#'   * `50` dutch
-#'   * `51` cherokee
-#'   * `52` samoan
-#'   * `53` yoruba
-#'   * `54` greek
-#'   * `55` lakota
-#'   * `56` african
-#'   * `57` anishnabee
-#'   * `58` ilokand
-#'   * `59` assyrian
-#'   * `60` danish
-#'   * `61` laotian
-#'   * `62` finnish
-#'   * `63` mohawk
-#'   * `64` amharic
-#'   * `65` bangladesh
-#'   * `66` oriya
-#'   * `67` hawaiian
-#'   * `69` hmong
-#'   * `70` indonesian
-#'   * `71` swahili
-#'   * `72` telugu
-#'   * `73` kannada
-#'   * `74` bulgarian
-#'   * `75` guarani
-#'   * `76` bosnian
-#'   * `77` punjabi
-#'   * `78` latavain
-#'   * `79` basque
-#'   * `80` bicol
-#'   * `81` croatian
-#'   * `82` tigan gypsy
-#'   * `83` slovenian
-#'   * `84` belgian
-#'   * `85` mandingo
-#'   * `86` jamaca
-#'   * `87` somali
-#'   * `88` native amerian
-#'   * `89` tagringa
-#'   * `90` krio
-#'   * `91` indian
-#'   * `92` cebuano
-#'   * `93` macedonian
-#'   * `94` patois
-#'   * `95` pangasinan
-#'   * `96` ilocano
-#'   * `97` marathi
-#'   * `98` kashmiri/cashmiri
-#'   * `99` tamil
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` english
+#'   * `[2]` spanish
+#'   * `[3]` polish
+#'   * `[4]` french
+#'   * `[5]` hebrew
+#'   * `[6]` russian
+#'   * `[7]` tagalog
+#'   * `[8]` chinese
+#'   * `[9]` urdu
+#'   * `[10]` italian
+#'   * `[11]` romanian
+#'   * `[12]` german
+#'   * `[13]` pashtu
+#'   * `[14]` chamorro
+#'   * `[15]` ukranian
+#'   * `[16]` hungarian
+#'   * `[17]` turkish
+#'   * `[18]` khmer
+#'   * `[19]` korean
+#'   * `[20]` navajo
+#'   * `[21]` malayam
+#'   * `[22]` arabic
+#'   * `[23]` farsi-persian
+#'   * `[24]` serbian
+#'   * `[25]` lithuanian
+#'   * `[27]` thai
+#'   * `[28]` gujarati
+#'   * `[30]` dari
+#'   * `[31]` slovak
+#'   * `[32]` japanese
+#'   * `[33]` portuguese
+#'   * `[34]` vajun
+#'   * `[35]` yidddish
+#'   * `[36]` creole
+#'   * `[37]` vietnamese
+#'   * `[38]` norwegian
+#'   * `[39]` malaysian
+#'   * `[40]` latin
+#'   * `[41]` czech
+#'   * `[42]` hindu
+#'   * `[43]` hakka
+#'   * `[44]` swedish
+#'   * `[45]` vesaya
+#'   * `[46]` sign language
+#'   * `[47]` tongan
+#'   * `[48]` armenian
+#'   * `[49]` ibo
+#'   * `[50]` dutch
+#'   * `[51]` cherokee
+#'   * `[52]` samoan
+#'   * `[53]` yoruba
+#'   * `[54]` greek
+#'   * `[55]` lakota
+#'   * `[56]` african
+#'   * `[57]` anishnabee
+#'   * `[58]` ilokand
+#'   * `[59]` assyrian
+#'   * `[60]` danish
+#'   * `[61]` laotian
+#'   * `[62]` finnish
+#'   * `[63]` mohawk
+#'   * `[64]` amharic
+#'   * `[65]` bangladesh
+#'   * `[66]` oriya
+#'   * `[67]` hawaiian
+#'   * `[69]` hmong
+#'   * `[70]` indonesian
+#'   * `[71]` swahili
+#'   * `[72]` telugu
+#'   * `[73]` kannada
+#'   * `[74]` bulgarian
+#'   * `[75]` guarani
+#'   * `[76]` bosnian
+#'   * `[77]` punjabi
+#'   * `[78]` latavain
+#'   * `[79]` basque
+#'   * `[80]` bicol
+#'   * `[81]` croatian
+#'   * `[82]` tigan gypsy
+#'   * `[83]` slovenian
+#'   * `[84]` belgian
+#'   * `[85]` mandingo
+#'   * `[86]` jamaca
+#'   * `[87]` somali
+#'   * `[88]` native amerian
+#'   * `[89]` tagringa
+#'   * `[90]` krio
+#'   * `[91]` indian
+#'   * `[92]` cebuano
+#'   * `[93]` macedonian
+#'   * `[94]` patois
+#'   * `[95]` pangasinan
+#'   * `[96]` ilocano
+#'   * `[97]` marathi
+#'   * `[98]` kashmiri/cashmiri
+#'   * `[99]` tamil
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -709,13 +709,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very well
-#'   * `2` well
-#'   * `3` not well
-#'   * `4` poorly/hardly at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very well
+#'   * `[2]` well
+#'   * `[3]` not well
+#'   * `[4]` poorly/hardly at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                            |
@@ -758,15 +758,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` never
-#'   * `2` less than once a week
-#'   * `3` once a week
-#'   * `4` several times a week
-#'   * `5` once a day
-#'   * `6` several times a day
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` never
+#'   * `[2]` less than once a week
+#'   * `[3]` once a week
+#'   * `[4]` several times a week
+#'   * `[5]` once a day
+#'   * `[6]` several times a day
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -800,12 +800,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` childhood home
-#'   * `2` school
-#'   * `3` elsewhere
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` childhood home
+#'   * `[2]` school
+#'   * `[3]` elsewhere
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -840,11 +840,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

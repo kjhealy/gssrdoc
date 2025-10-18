@@ -15,14 +15,14 @@ Question G. To which of the following should America give priority in order to m
 \section{Values}{
 
 \itemize{
-\item \code{1} coal, oil and natural gas
-\item \code{2} nuclear power
-\item \code{3} solar, wind or water power
-\item \code{4} fuels made from crops
-\item \code{5} fuels made from waste
-\item \code{6} none of them
-\item \code{7} can't choose
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} coal, oil and natural gas
+\item \verb{[2]} nuclear power
+\item \verb{[3]} solar, wind or water power
+\item \verb{[4]} fuels made from crops
+\item \verb{[5]} fuels made from waste
+\item \verb{[6]} none of them
+\item \verb{[7]} can't choose
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

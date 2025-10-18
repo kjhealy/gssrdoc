@@ -15,15 +15,15 @@ Question Last week were you working full time, part time, going to school, keepi
 \section{Values}{
 
 \itemize{
-\item \code{1} working full time
-\item \code{2} working part time
-\item \code{3} with a job, but not at work because of temporary illness, vacation, strike
-\item \code{4} unemployed, laid off, looking for work
-\item \code{5} retired
-\item \code{6} in school
-\item \code{7} keeping house
-\item \code{8} other
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} working full time
+\item \verb{[2]} working part time
+\item \verb{[3]} with a job, but not at work because of temporary illness, vacation, strike
+\item \verb{[4]} unemployed, laid off, looking for work
+\item \verb{[5]} retired
+\item \verb{[6]} in school
+\item \verb{[7]} keeping house
+\item \verb{[8]} other
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

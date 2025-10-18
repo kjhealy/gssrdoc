@@ -3,18 +3,18 @@
 #'  kidsocst
 #' 
 #' Question To what extent do you agree or disagree with the following statements? 
-#' E. Having children increases peopleâ€™s social standing in society.
+#' E. Having children increases people's social standing in society.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` strongly agree
+#'   * `[2]` agree
+#'   * `[3]` neither agree nor disagree
+#'   * `[4]` disagree
+#'   * `[5]` strongly disagree
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -51,14 +51,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` strongly agree
+#'   * `[2]` agree
+#'   * `[3]` neither agree nor disagree
+#'   * `[4]` disagree
+#'   * `[5]` strongly disagree
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -92,11 +92,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` no, there should be no paid leave
-#'   * `1` yes, enter months
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` no, there should be no paid leave
+#'   * `[1]` yes, enter months
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -133,13 +133,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the government
-#'   * `2` the employer
-#'   * `3` both government and the employer
-#'   * `4` other sources
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the government
+#'   * `[2]` the employer
+#'   * `[3]` both government and the employer
+#'   * `[4]` other sources
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -173,14 +173,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the mother should take the entire paid leave period and the father should not take any paid leave
-#'   * `2` the mother should take most of the paid leave period and the father should take some of it
-#'   * `3` the mother and the father should each take half of the paid leave period
-#'   * `4` the father should take most of the paid leave period and the mother should take some of it
-#'   * `5` the father should take the entire paid leave period and the mother should not take any paid leave
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the mother should take the entire paid leave period and the father should not take any paid leave
+#'   * `[2]` the mother should take most of the paid leave period and the father should take some of it
+#'   * `[3]` the mother and the father should each take half of the paid leave period
+#'   * `[4]` the father should take most of the paid leave period and the mother should take some of it
+#'   * `[5]` the father should take the entire paid leave period and the mother should not take any paid leave
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -212,19 +212,19 @@ NULL
 #' 
 #'  famwkbst
 #' 
-#' Question Consider a family with a child under school age. What, in your opinion, is the best way for them to organize their family and work life? Shouldâ€¦
+#' Question Consider a family with a child under school age. What, in your opinion, is the best way for them to organize their family and work life? Should…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the mother stays at home and the father works full-time
-#'   * `2` the mother works part-time and the father works full-time
-#'   * `3` both the mother and father work full-time
-#'   * `4` both the mother and father work part-time
-#'   * `5` the father works part-time and the mother works full-time
-#'   * `6` the father stays at home and the mother works full-time
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the mother stays at home and the father works full-time
+#'   * `[2]` the mother works part-time and the father works full-time
+#'   * `[3]` both the mother and father work full-time
+#'   * `[4]` both the mother and father work part-time
+#'   * `[5]` the father works part-time and the mother works full-time
+#'   * `[6]` the father stays at home and the mother works full-time
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -260,15 +260,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the mother stays at home and the father works full-time
-#'   * `2` the mother works part-time and the father works full-time
-#'   * `3` both the mother and father work full-time
-#'   * `4` both the mother and father work part-time
-#'   * `5` the father works part-time and the mother works full-time
-#'   * `6` the father stays at home and the mother works full-time
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the mother stays at home and the father works full-time
+#'   * `[2]` the mother works part-time and the father works full-time
+#'   * `[3]` both the mother and father work full-time
+#'   * `[4]` both the mother and father work part-time
+#'   * `[5]` the father works part-time and the mother works full-time
+#'   * `[6]` the father stays at home and the mother works full-time
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -304,14 +304,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` family members
-#'   * `2` government agencies
-#'   * `3` non-profit organizations (e.g., charitable organizations, churches/religious organizations)
-#'   * `4` private childcare providers (e.g., private day care center, nanny, babysitter)
-#'   * `5` employers
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` family members
+#'   * `[2]` government agencies
+#'   * `[3]` non-profit organizations (e.g., charitable organizations, churches/religious organizations)
+#'   * `[4]` private childcare providers (e.g., private day care center, nanny, babysitter)
+#'   * `[5]` employers
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -347,12 +347,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` the family
-#'   * `2` the government/public funds
-#'   * `3` the employers
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` the family
+#'   * `[2]` the government/public funds
+#'   * `[3]` the employers
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -389,14 +389,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` family members
-#'   * `2` government agencies
-#'   * `3` non-profit organizations (e.g., charitable organizations, churches/religious organizations)
-#'   * `4` private providers of this kind of help
-#'   * `5` employers
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` family members
+#'   * `[2]` government agencies
+#'   * `[3]` non-profit organizations (e.g., charitable organizations, churches/religious organizations)
+#'   * `[4]` private providers of this kind of help
+#'   * `[5]` employers
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

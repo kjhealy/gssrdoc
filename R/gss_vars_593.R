@@ -2,36 +2,36 @@
 #' 
 #'  relhh5
 #' 
-#' Question What is (PERSON)â€™s relationship to head of household?
+#' Question What is (PERSON)'s relationship to head of household?
 #'  E. Relationship of fifth person to head of household?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, not specified
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `41` natural/biological child
-#'   * `42` adopted child
-#'   * `43` stepchild
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, not specified
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[41]` natural/biological child
+#'   * `[42]` adopted child
+#'   * `[43]` stepchild
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |
@@ -72,36 +72,36 @@ NULL
 #' 
 #'  relhh6
 #' 
-#' Question What is (PERSON)â€™s relationship to head of household?
+#' Question What is (PERSON)'s relationship to head of household?
 #'  F. Relationship of sixth person to head of household?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, not specified
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `41` natural/biological child
-#'   * `42` adopted child
-#'   * `43` stepchild
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, not specified
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[41]` natural/biological child
+#'   * `[42]` adopted child
+#'   * `[43]` stepchild
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |
@@ -142,36 +142,36 @@ NULL
 #' 
 #'  relhh7
 #' 
-#' Question What is (PERSON)â€™s relationship to head of household?
+#' Question What is (PERSON)'s relationship to head of household?
 #'  G. Relationship of seventh person to head of household?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, not specified
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `41` natural/biological child
-#'   * `42` adopted child
-#'   * `43` stepchild
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, not specified
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[41]` natural/biological child
+#'   * `[42]` adopted child
+#'   * `[43]` stepchild
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |
@@ -212,36 +212,36 @@ NULL
 #' 
 #'  relhh8
 #' 
-#' Question What is (PERSON)â€™s relationship to head of household?
+#' Question What is (PERSON)'s relationship to head of household?
 #'  H. Relationship of eighth person to head of household?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, not specified
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `41` natural/biological child
-#'   * `42` adopted child
-#'   * `43` stepchild
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, not specified
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[41]` natural/biological child
+#'   * `[42]` adopted child
+#'   * `[43]` stepchild
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |
@@ -282,36 +282,36 @@ NULL
 #' 
 #'  relhh9
 #' 
-#' Question What is (PERSON)â€™s relationship to head of household?
+#' Question What is (PERSON)'s relationship to head of household?
 #'  I. Relationship of ninth person to head of household?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, not specified
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `41` natural/biological child
-#'   * `42` adopted child
-#'   * `43` stepchild
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, not specified
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[41]` natural/biological child
+#'   * `[42]` adopted child
+#'   * `[43]` stepchild
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |
@@ -352,36 +352,36 @@ NULL
 #' 
 #'  relhh10
 #' 
-#' Question What is (PERSON)â€™s relationship to head of household?
+#' Question What is (PERSON)'s relationship to head of household?
 #'  J. Relationship of tenth person to head of household?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, not specified
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `41` natural/biological child
-#'   * `42` adopted child
-#'   * `43` stepchild
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, not specified
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[41]` natural/biological child
+#'   * `[42]` adopted child
+#'   * `[43]` stepchild
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |
@@ -422,36 +422,36 @@ NULL
 #' 
 #'  relhh11
 #' 
-#' Question What is (PERSON)â€™s relationship to head of household?
+#' Question What is (PERSON)'s relationship to head of household?
 #'  K. Relationship of eleventh person to head of household?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, not specified
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `41` natural/biological child
-#'   * `42` adopted child
-#'   * `43` stepchild
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, not specified
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[41]` natural/biological child
+#'   * `[42]` adopted child
+#'   * `[43]` stepchild
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |
@@ -492,36 +492,36 @@ NULL
 #' 
 #'  relhh12
 #' 
-#' Question What is (PERSON)â€™s relationship to head of household?
+#' Question What is (PERSON)'s relationship to head of household?
 #'  L. Relationship of twelfth person to head of household?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, not specified
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `41` natural/biological child
-#'   * `42` adopted child
-#'   * `43` stepchild
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, not specified
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[41]` natural/biological child
+#'   * `[42]` adopted child
+#'   * `[43]` stepchild
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |
@@ -562,36 +562,36 @@ NULL
 #' 
 #'  relhh13
 #' 
-#' Question What is (PERSON)â€™s relationship to head of household?
+#' Question What is (PERSON)'s relationship to head of household?
 #'  M. Relationship of thirteenth person to head of household?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, not specified
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `41` natural/biological child
-#'   * `42` adopted child
-#'   * `43` stepchild
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, not specified
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[41]` natural/biological child
+#'   * `[42]` adopted child
+#'   * `[43]` stepchild
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |
@@ -632,36 +632,36 @@ NULL
 #' 
 #'  relhh14
 #' 
-#' Question What is (PERSON)â€™s relationship to head of household?
+#' Question What is (PERSON)'s relationship to head of household?
 #'  N. Relationship of fourteenth person to head of household?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, not specified
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `41` natural/biological child
-#'   * `42` adopted child
-#'   * `43` stepchild
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` head of household
+#'   * `[2]` spouse
+#'   * `[3]` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `[4]` child, not specified
+#'   * `[5]` grandchild, great-grandchild
+#'   * `[6]` son-in-law, daughter-in-law
+#'   * `[7]` parent
+#'   * `[8]` parent-in-law
+#'   * `[9]` grandparent, great-grandparent
+#'   * `[10]` uncle or aunt
+#'   * `[11]` niece or nephew
+#'   * `[12]` cousin
+#'   * `[13]` brother, sister (full, half, or step sibling)
+#'   * `[14]` sibling-in-law
+#'   * `[15]` other relative (great-aunt, grandniece, etc.)
+#'   * `[16]` roommate, housemate
+#'   * `[17]` friend
+#'   * `[18]` child of non-relative
+#'   * `[19]` other non-relative (employee, boarder)
+#'   * `[41]` natural/biological child
+#'   * `[42]` adopted child
+#'   * `[43]` stepchild
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                                                      |

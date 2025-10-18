@@ -20,6 +20,10 @@ library(labelled)
 # Load gss_dict
 load(here::here("data", "gss_dict.rda"))
 
+
+# Load the local unlabelled dataset; make sure it's up to date
+load(here::here("data-raw", "from_gssr", "gss_all.rda"))
+
 # Load the local labelled dataset; make sure it's up to date
 gss_all_labelled <- readRDS(here::here(
   "data-raw",
@@ -86,6 +90,7 @@ exclude_from_xtab <- unique(c(
 # No need for xtabs there either
 exclude_from_xtab <- sort(unique(c(
   exclude_from_xtab,
+  "marcohrt",
   "spother",
   "spoth16",
   "hrs1",
@@ -204,15 +209,24 @@ make_subject_df <- function(x) {
 gss_doc_base <- tibble(
   var_name = colnames(gss_all_labelled)
 ) |>
-  # We need sym() because the function takes a bare col name
   mutate(var_yrtab = map(var_name, \(v) make_var_yrtab(sym(v))))
 
+## Get the value labels with the values prefixed
+out <- labelled::get_value_labels(gss_all, prefixed = TRUE)
+
+gss_val_labels <- tibble(
+  var_name = names(out),
+  value_labels = map_chr(out, \(x) str_c(names(unlist(x)), collapse = " / "))
+)
+
 ## Just the columns we want from gss_dict
+## Formerly we got value_labels from here, but now we extract them as above
 dict_columns <- gss_dict |>
-  select(variable, value_labels, var_type, var_na_codes)
+  select(variable, var_type, var_na_codes)
 
 gss_doc <- gss_doc_base |>
   left_join(norc_docs_df, by = "var_name") |>
+  left_join(gss_val_labels, by = "var_name") |>
   rename(variable = var_name) |>
   relocate(var_yrtab, .after = norc_url) |>
   left_join(dict_columns, by = "variable") |>

@@ -2,19 +2,19 @@
 #' 
 #'  paydojob
 #' 
-#' Question In deciding on pay for two people doing the same kind of work, how important should be â€¦ 
+#' Question In deciding on pay for two people doing the same kind of work, how important should be … 
 #' A. How well the person does the job?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` essential
-#'   * `2` very important
-#'   * `3` fairly important
-#'   * `4` not very important
-#'   * `5` not important at all
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` essential
+#'   * `[2]` very important
+#'   * `[3]` fairly important
+#'   * `[4]` not very important
+#'   * `[5]` not important at all
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -44,19 +44,19 @@ NULL
 #' 
 #'  payfam
 #' 
-#' Question In deciding on pay for two people doing the same kind of work, how important should be â€¦ 
+#' Question In deciding on pay for two people doing the same kind of work, how important should be … 
 #' B. The person''s family responsibilities?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` essential
-#'   * `2` very important
-#'   * `3` fairly important
-#'   * `4` not very important
-#'   * `5` not important at all
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` essential
+#'   * `[2]` very important
+#'   * `[3]` fairly important
+#'   * `[4]` not very important
+#'   * `[5]` not important at all
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -86,19 +86,19 @@ NULL
 #' 
 #'  payeduc
 #' 
-#' Question In deciding on pay for two people doing the same kind of work, how important should be â€¦ 
+#' Question In deciding on pay for two people doing the same kind of work, how important should be … 
 #' C. The person''s education and formal qualifications?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` essential
-#'   * `2` very important
-#'   * `3` fairly important
-#'   * `4` not very important
-#'   * `5` not important at all
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` essential
+#'   * `[2]` very important
+#'   * `[3]` fairly important
+#'   * `[4]` not very important
+#'   * `[5]` not important at all
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -128,19 +128,19 @@ NULL
 #' 
 #'  paytime
 #' 
-#' Question In deciding on pay for two people doing the same kind of work, how important should be â€¦ 
+#' Question In deciding on pay for two people doing the same kind of work, how important should be … 
 #' D. How long the person has been with the firm?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` essential
-#'   * `2` very important
-#'   * `3` fairly important
-#'   * `4` not very important
-#'   * `5` not important at all
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` essential
+#'   * `[2]` very important
+#'   * `[3]` fairly important
+#'   * `[4]` not very important
+#'   * `[5]` not important at all
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -174,14 +174,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` greatly increase
-#'   * `2` slight increase
-#'   * `3` no difference to
-#'   * `4` slightly reduce
-#'   * `5` greatly reduce
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` greatly increase
+#'   * `[2]` slight increase
+#'   * `[3]` no difference to
+#'   * `[4]` slightly reduce
+#'   * `[5]` greatly reduce
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -211,18 +211,18 @@ NULL
 #' 
 #'  techwork
 #' 
-#' Question Do you think that the introduction of new technologies in the United States over the next few years will make workâ€¦
+#' Question Do you think that the introduction of new technologies in the United States over the next few years will make work…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` much more
-#'   * `2` little more
-#'   * `3` neither mre/less
-#'   * `4` a little less
-#'   * `5` much less
-#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` much more
+#'   * `[2]` little more
+#'   * `[3]` neither mre/less
+#'   * `[4]` a little less
+#'   * `[5]` much less
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -256,13 +256,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` a full time job
-#'   * `2` a part-time job
-#'   * `3` a job with less than 10 hours a week
-#'   * `4` no paid job at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` a full time job
+#'   * `[2]` a part-time job
+#'   * `[3]` a job with less than 10 hours a week
+#'   * `[4]` no paid job at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -300,11 +300,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -342,12 +342,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` employer decides
-#'   * `2` i decide w/limts
-#'   * `3` free to decide
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` employer decides
+#'   * `[2]` i decide w/limts
+#'   * `[3]` free to decide
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -383,13 +383,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` in 1 place away
-#'   * `2` at home
-#'   * `3` part home/ away
-#'   * `4` variety places
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` in 1 place away
+#'   * `[2]` at home
+#'   * `[3]` part home/ away
+#'   * `[4]` variety places
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

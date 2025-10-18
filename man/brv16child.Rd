@@ -10,15 +10,15 @@ General Social Survey https://gss.norc.org
 brv16child
 }
 \details{
-Question Weâ€™re very sorry. Who would that be?
+Question We're very sorry. Who would that be?
 
 NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
 }
 \section{Values}{
 
 \itemize{
-\item No applicable value labels.
-\item 
+\item \verb{[Empty]} No applicable value labels
+\item \verb{[NA(d)]}NA
 }
 }
 

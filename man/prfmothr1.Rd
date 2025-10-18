@@ -15,21 +15,21 @@ Question Thinking about the most recent performance you wanted to attend but did
 \section{Values}{
 
 \itemize{
-\item \code{1} cost too much
-\item \code{2} programs or events were not of interest
-\item \code{3} too difficult to get there
-\item \code{4} could not find anyone to go with
-\item \code{5} could not find the time
-\item \code{6} did not want to go to that location
-\item \code{7} work conflict
-\item \code{8} ill, too tired
-\item \code{10} no childcare
-\item \code{11} sold out
-\item \code{12} forgot, didn't act in time
-\item \code{13} away, other conflict
-\item \code{14} taking care of family member
-\item \code{20} some other reason not shown
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} cost too much
+\item \verb{[2]} programs or events were not of interest
+\item \verb{[3]} too difficult to get there
+\item \verb{[4]} could not find anyone to go with
+\item \verb{[5]} could not find the time
+\item \verb{[6]} did not want to go to that location
+\item \verb{[7]} work conflict
+\item \verb{[8]} ill, too tired
+\item \verb{[10]} no childcare
+\item \verb{[11]} sold out
+\item \verb{[12]} forgot, didn't act in time
+\item \verb{[13]} away, other conflict
+\item \verb{[14]} taking care of family member
+\item \verb{[20]} some other reason not shown
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

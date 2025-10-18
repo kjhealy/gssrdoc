@@ -15,45 +15,45 @@ Question Name of Insurance or HMO.
 \section{Values}{
 
 \itemize{
-\item \code{1} aetna
-\item \code{2} anthem/wellpoint
-\item \code{3} blue cross/blue shield
-\item \code{4} blue cross
-\item \code{5} blue shield
-\item \code{6} cigna
-\item \code{7} covington
-\item \code{8} harvard pilgrim
-\item \code{9} humana
-\item \code{10} kaiser permanente
-\item \code{11} tufts
-\item \code{12} united
-\item \code{13} wellpoint
-\item \code{14} oxford
-\item \code{15} healthnet
-\item \code{16} united health care
-\item \code{17} health partners
-\item \code{18} great west
-\item \code{19} unicare
-\item \code{20} medcost
-\item \code{21} pacific care
-\item \code{22} fallon hmo
-\item \code{23} arise
-\item \code{24} medical mutual of ohio
-\item \code{25} florida health care
-\item \code{26} hawaiian medical system association
-\item \code{27} coventry
-\item \code{28} winhealth
-\item \code{29} health choice
-\item \code{30} preferred care
-\item \code{31} mvp
-\item \code{32} first health
-\item \code{33} umr
-\item \code{34} affinity health care
-\item \code{35} priority health
-\item \code{36} ghi
-\item \code{87} christian brothers employee benefit trust
-\item \code{89} other
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} aetna
+\item \verb{[2]} anthem/wellpoint
+\item \verb{[3]} blue cross/blue shield
+\item \verb{[4]} blue cross
+\item \verb{[5]} blue shield
+\item \verb{[6]} cigna
+\item \verb{[7]} covington
+\item \verb{[8]} harvard pilgrim
+\item \verb{[9]} humana
+\item \verb{[10]} kaiser permanente
+\item \verb{[11]} tufts
+\item \verb{[12]} united
+\item \verb{[13]} wellpoint
+\item \verb{[14]} oxford
+\item \verb{[15]} healthnet
+\item \verb{[16]} united health care
+\item \verb{[17]} health partners
+\item \verb{[18]} great west
+\item \verb{[19]} unicare
+\item \verb{[20]} medcost
+\item \verb{[21]} pacific care
+\item \verb{[22]} fallon hmo
+\item \verb{[23]} arise
+\item \verb{[24]} medical mutual of ohio
+\item \verb{[25]} florida health care
+\item \verb{[26]} hawaiian medical system association
+\item \verb{[27]} coventry
+\item \verb{[28]} winhealth
+\item \verb{[29]} health choice
+\item \verb{[30]} preferred care
+\item \verb{[31]} mvp
+\item \verb{[32]} first health
+\item \verb{[33]} umr
+\item \verb{[34]} affinity health care
+\item \verb{[35]} priority health
+\item \verb{[36]} ghi
+\item \verb{[87]} christian brothers employee benefit trust
+\item \verb{[89]} other
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

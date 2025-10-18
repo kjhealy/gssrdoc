@@ -2,18 +2,18 @@
 #' 
 #'  tvbears
 #' 
-#' Question The next few questions are about the regions near the poles. Please look at Card B22. If you were choosing a television program to watch, would you be very likely, somewhat likely, somewhat unlikely, or very unlikely to watch a program aboutâ€¦ 
+#' Question The next few questions are about the regions near the poles. Please look at Card B22. If you were choosing a television program to watch, would you be very likely, somewhat likely, somewhat unlikely, or very unlikely to watch a program about… 
 #' A. Polar bears?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -43,18 +43,18 @@ NULL
 #' 
 #'  tvinuit
 #' 
-#' Question The next few questions are about the regions near the poles. Please look at Card B22. If you were choosing a television program to watch, would you be very likely, somewhat likely, somewhat unlikely, or very unlikely to watch a program aboutâ€¦ 
+#' Question The next few questions are about the regions near the poles. Please look at Card B22. If you were choosing a television program to watch, would you be very likely, somewhat likely, somewhat unlikely, or very unlikely to watch a program about… 
 #' B. Native peoples living in the Arctic?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -84,18 +84,18 @@ NULL
 #' 
 #'  tvozone
 #' 
-#' Question The next few questions are about the regions near the poles. Please look at Card B22. If you were choosing a television program to watch, would you be very likely, somewhat likely, somewhat unlikely, or very unlikely to watch a program aboutâ€¦ 
+#' Question The next few questions are about the regions near the poles. Please look at Card B22. If you were choosing a television program to watch, would you be very likely, somewhat likely, somewhat unlikely, or very unlikely to watch a program about… 
 #' C. The ozone hole over the Antarctic?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -129,13 +129,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -165,18 +165,18 @@ NULL
 #' 
 #'  tvoil
 #' 
-#' Question The next few questions are about the regions near the poles. Please look at Card B22. If you were choosing a television program to watch, would you be very likely, somewhat likely, somewhat unlikely, or very unlikely to watch a program aboutâ€¦ 
+#' Question The next few questions are about the regions near the poles. Please look at Card B22. If you were choosing a television program to watch, would you be very likely, somewhat likely, somewhat unlikely, or very unlikely to watch a program about… 
 #' E. Oil drilling in the Arctic?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -206,18 +206,18 @@ NULL
 #' 
 #'  polaryr1
 #' 
-#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earthâ€™s polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely toâ€¦ 
+#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earth's polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely to… 
 #' A. Watch a television program about the polar regions?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -249,18 +249,18 @@ NULL
 #' 
 #'  polaryr2
 #' 
-#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earthâ€™s polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely toâ€¦ 
+#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earth's polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely to… 
 #' B. Read a newspaper article about the polar regions?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -292,18 +292,18 @@ NULL
 #' 
 #'  polaryr3
 #' 
-#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earthâ€™s polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely toâ€¦ 
+#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earth's polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely to… 
 #' C. Read a magazine article about the polar regions?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -335,18 +335,18 @@ NULL
 #' 
 #'  polaryr4
 #' 
-#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earthâ€™s polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely toâ€¦ 
+#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earth's polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely to… 
 #' D. Go to a museum to see an exhibit about the polar regions?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -378,18 +378,18 @@ NULL
 #' 
 #'  polaryr5
 #' 
-#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earthâ€™s polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely toâ€¦ 
+#' Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earth's polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely to… 
 #' E. Watch a feature film about the polar regions?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` somewhat unlikely
+#'   * `[4]` very unlikely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

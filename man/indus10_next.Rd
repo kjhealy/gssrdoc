@@ -17,278 +17,278 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 \section{Values}{
 
 \itemize{
-\item \code{170} crop production
-\item \code{180} animal production
-\item \code{190} forestry, except logging
-\item \code{270} logging
-\item \code{280} fishing, hunting, and trapping
-\item \code{290} support activities for agriculture and forestry
-\item \code{370} oil and gas extraction
-\item \code{380} coal mining
-\item \code{390} metal ore mining
-\item \code{470} nonmetallic mineral mining and quarrying
-\item \code{480} not specified type of mining
-\item \code{490} support activities for mining
-\item \code{570} electric power generation, transmission, and distribution
-\item \code{580} natural gas distribution
-\item \code{590} electric and gas, and other combinations
-\item \code{670} water, steam, air-conditioning, and irrigation systems
-\item \code{680} sewage treatment facilities
-\item \code{690} not specified utilities
-\item \code{770} construction
-\item \code{1070} animal food, grain, and oilseed milling
-\item \code{1080} sugar and confectionery products
-\item \code{1090} fruit and vegetable preserving and specialty food manufacturing
-\item \code{1170} dairy product manufacturing
-\item \code{1180} animal slaughtering and processing
-\item \code{1190} retail bakeries
-\item \code{1270} bakeries, except retail
-\item \code{1280} seafood and other miscellaneous foods, n.e.c.
-\item \code{1290} not specified food industries
-\item \code{1370} beverage manufacturing
-\item \code{1390} tobacco manufacturing
-\item \code{1470} fiber, yarn, and thread mills
-\item \code{1480} fabric mills, except knitting mills
-\item \code{1490} textile and fabric finishing and coating mills
-\item \code{1570} carpet and rug mills
-\item \code{1590} textile product mills, except carpet and rug
-\item \code{1670} knitting fabric mills, and apparel knitting mills
-\item \code{1680} cut and sew apparel manufacturing
-\item \code{1690} apparel accessories and other apparel manufacturing
-\item \code{1770} footwear manufacturing
-\item \code{1790} leather tanning and finishing and other allied products manufacturing
-\item \code{1870} pulp, paper, and paperboard mills
-\item \code{1880} paperboard containers and boxes
-\item \code{1890} miscellaneous paper and pulp products
-\item \code{1990} printing and related support activities
-\item \code{2070} petroleum refining
-\item \code{2090} miscellaneous petroleum and coal products
-\item \code{2170} resin, synthetic rubber and fibers, and filaments manufacturing
-\item \code{2180} agricultural chemical manufacturing
-\item \code{2190} pharmaceutical and medicine manufacturing
-\item \code{2270} paint, coating, and adhesive manufacturing
-\item \code{2280} soap, cleaning compound, and cosmetics manufacturing
-\item \code{2290} industrial and miscellaneous chemicals
-\item \code{2370} plastics product manufacturing
-\item \code{2380} tire manufacturing
-\item \code{2390} rubber product, except tire, manufacturing
-\item \code{2470} pottery, ceramics, and plumbing fixture manufacturing
-\item \code{2480} structural clay product manufacturing
-\item \code{2490} glass and glass product manufacturing
-\item \code{2570} cement, concrete, lime, and gypsum product manufacturing
-\item \code{2590} miscellaneous nonmetallic mineral product manufacturing
-\item \code{2670} iron and steel mills and steel product manufacturing
-\item \code{2680} aluminum production and processing
-\item \code{2690} nonferrous metal (except aluminum) production and processing
-\item \code{2770} foundries
-\item \code{2780} metal forgings and stampings
-\item \code{2790} cutlery and hand tool manufacturing
-\item \code{2870} structural metals, and boiler, tank, and shipping container manufacturing
-\item \code{2880} machine shops; turned product; screw, nut, and bolt manufacturing
-\item \code{2890} coating, engraving, heat treating and allied activities
-\item \code{2970} ordnance
-\item \code{2980} miscellaneous fabricated metal products manufacturing
-\item \code{2990} not specified metal industries
-\item \code{3070} agricultural implement manufacturing
-\item \code{3080} construction, and mining and oil and gas field machinery manufacturing
-\item \code{3090} commercial and service industry machinery manufacturing
-\item \code{3170} metalworking machinery manufacturing
-\item \code{3180} engines, turbines, and power transmission equipment manufacturing
-\item \code{3190} machinery manufacturing, n.e.c.
-\item \code{3290} not specified machinery manufacturing
-\item \code{3360} computer and peripheral equipment manufacturing
-\item \code{3370} communications, and audio and video equipment manufacturing
-\item \code{3380} navigational, measuring, electromedical, and control instruments manufacturing
-\item \code{3390} electronic component and product manufacturing, n.e.c.
-\item \code{3470} household appliance manufacturing
-\item \code{3490} electrical lighting and electrical equipment manufacturing, and other electrical component manufacturing, n.e.c.
-\item \code{3570} motor vehicles and motor vehicle equipment manufacturing
-\item \code{3580} aircraft and parts manufacturing
-\item \code{3590} aerospace product and parts manufacturing
-\item \code{3670} railroad rolling stock manufacturing
-\item \code{3680} ship and boat building
-\item \code{3690} other transportation equipment manufacturing
-\item \code{3770} sawmills and wood preservation
-\item \code{3780} veneer, plywood, and engineered wood products
-\item \code{3790} prefabricated wood buildings and mobile homes
-\item \code{3870} miscellaneous wood products
-\item \code{3890} furniture and related product manufacturing
-\item \code{3960} medical equipment and supplies manufacturing
-\item \code{3970} sporting and athletic goods, and doll, toy and game manufacturing
-\item \code{3980} miscellaneous manufacturing, n.e.c.
-\item \code{3990} not specified manufacturing industries
-\item \code{4070} motor vehicles, parts and supplies, merchant wholesalers
-\item \code{4080} furniture and home furnishing, merchant wholesalers
-\item \code{4090} lumber and other construction materials, merchant wholesalers
-\item \code{4170} professional and commercial equipment and supplies, merchant wholesalers
-\item \code{4180} metals and minerals, except petroleum, merchant wholesalers
-\item \code{4190} electrical and electronic goods, merchant wholesalers
-\item \code{4260} hardware, plumbing and heating equipment, and supplies, merchant wholesalers
-\item \code{4270} machinery, equipment, and supplies, merchant wholesalers
-\item \code{4280} recyclable material, merchant wholesalers
-\item \code{4290} miscellaneous durable goods, merchant wholesalers
-\item \code{4370} paper and paper products, merchant wholesalers
-\item \code{4380} drugs, sundries, and chemical and allied products, merchant wholesalers
-\item \code{4390} apparel, fabrics, and notions, merchant wholesalers
-\item \code{4470} groceries and related products, merchant wholesalers
-\item \code{4480} farm product raw materials, merchant wholesalers
-\item \code{4490} petroleum and petroleum products, merchant wholesalers
-\item \code{4560} alcoholic beverages, merchant wholesalers
-\item \code{4570} farm supplies, merchant wholesalers
-\item \code{4580} miscellaneous nondurable goods, merchant wholesalers
-\item \code{4585} wholesale electronic markets, agents and brokers
-\item \code{4590} not specified wholesale trade
-\item \code{4670} automobile dealers
-\item \code{4680} other motor vehicle dealers
-\item \code{4690} auto parts, accessories, and tire stores
-\item \code{4770} furniture and home furnishings stores
-\item \code{4780} household appliance stores
-\item \code{4790} radio, tv, and computer stores
-\item \code{4870} building material and supplies dealers
-\item \code{4880} hardware stores
-\item \code{4890} lawn and garden equipment and supplies stores
-\item \code{4970} grocery stores
-\item \code{4980} specialty food stores
-\item \code{4990} beer, wine, and liquor stores
-\item \code{5070} pharmacies and drug stores
-\item \code{5080} health and personal care, except drug, stores
-\item \code{5090} gasoline stations
-\item \code{5170} clothing stores
-\item \code{5180} shoe stores
-\item \code{5190} jewelry, luggage, and leather goods stores
-\item \code{5270} sporting goods, camera, and hobby and toy stores
-\item \code{5280} sewing, needlework, and piece goods stores
-\item \code{5290} music stores
-\item \code{5370} book stores and news dealers
-\item \code{5380} department stores and discount stores
-\item \code{5390} miscellaneous general merchandise stores
-\item \code{5470} retail florists
-\item \code{5480} office supplies and stationery stores
-\item \code{5490} used merchandise stores
-\item \code{5570} gift, novelty, and souvenir shops
-\item \code{5580} miscellaneous retail stores
-\item \code{5590} electronic shopping
-\item \code{5591} electronic auctions
-\item \code{5592} mail order houses
-\item \code{5670} vending machine operators
-\item \code{5680} fuel dealers
-\item \code{5690} other direct selling establishments
-\item \code{5790} not specified retail trade
-\item \code{6070} air transportation
-\item \code{6080} rail transportation
-\item \code{6090} water transportation
-\item \code{6170} truck transportation
-\item \code{6180} bus service and urban transit
-\item \code{6190} taxi and limousine service
-\item \code{6270} pipeline transportation
-\item \code{6280} scenic and sightseeing transportation
-\item \code{6290} services incidental to transportation
-\item \code{6370} postal service
-\item \code{6380} couriers and messengers
-\item \code{6390} warehousing and storage
-\item \code{6470} newspaper publishers
-\item \code{6480} periodical, book, and directory publishers
-\item \code{6490} software publishers
-\item \code{6570} motion pictures and video industries
-\item \code{6590} sound recording industries
-\item \code{6670} radio and television broadcasting and cable subscription programming
-\item \code{6672} internet publishing and broadcasting and web search portals
-\item \code{6680} wired telecommunications carriers
-\item \code{6690} other telecommunications services
-\item \code{6695} data processing, hosting, and related services
-\item \code{6770} libraries and archives
-\item \code{6780} other information services
-\item \code{6870} banking and related activities
-\item \code{6880} savings institutions, including credit unions
-\item \code{6890} non-depository credit and related activities
-\item \code{6970} securities, commodities, funds, trusts, and other financial investments
-\item \code{6990} insurance carriers and related activities
-\item \code{7070} real estate
-\item \code{7080} automotive equipment rental and leasing
-\item \code{7170} video tape and disk rental
-\item \code{7180} other consumer goods rental
-\item \code{7190} commercial, industrial, and other intangible assets rental and leasing
-\item \code{7270} legal services
-\item \code{7280} accounting, tax preparation, bookkeeping, and payroll services
-\item \code{7290} architectural, engineering, and related services
-\item \code{7370} specialized design services
-\item \code{7380} computer systems design and related services
-\item \code{7390} management, scientific, and technical consulting services
-\item \code{7460} scientific research and development services
-\item \code{7470} advertising and related services
-\item \code{7480} veterinary services
-\item \code{7490} other professional, scientific, and technical services
-\item \code{7570} management of companies and enterprises
-\item \code{7580} employment services
-\item \code{7590} business support services
-\item \code{7670} travel arrangements and reservation services
-\item \code{7680} investigation and security services
-\item \code{7690} services to buildings and dwellings
-\item \code{7770} landscaping services
-\item \code{7780} other administrative and other support services
-\item \code{7790} waste management and remediation services
-\item \code{7860} elementary and secondary schools
-\item \code{7870} colleges and universities, including junior colleges
-\item \code{7880} business, technical, and trade schools and training
-\item \code{7890} other schools and instruction, and educational support services
-\item \code{7970} offices of physicians
-\item \code{7980} offices of dentists
-\item \code{7990} offices of chiropractors
-\item \code{8070} offices of optometrists
-\item \code{8080} offices of other health practitioners
-\item \code{8090} outpatient care centers
-\item \code{8170} home health care services
-\item \code{8180} other health care services
-\item \code{8190} hospitals
-\item \code{8270} nursing care facilities
-\item \code{8290} residential care facilities, without nursing
-\item \code{8370} individual and family services
-\item \code{8380} community food and housing, and emergency services
-\item \code{8390} vocational rehabilitation services
-\item \code{8470} child day care services
-\item \code{8560} independent artists, performing arts, spectator sports, and related industries
-\item \code{8570} museums, art galleries, historical sites, and similar institutions
-\item \code{8580} bowling centers
-\item \code{8590} other amusement, gambling, and recreation industries
-\item \code{8660} traveler accommodation
-\item \code{8670} recreational vehicle parks and camps, and rooming and boarding houses
-\item \code{8680} restaurants and other food services
-\item \code{8690} drinking places, alcoholic beverages
-\item \code{8770} automotive repair and maintenance
-\item \code{8780} car washes
-\item \code{8790} electronic and precision equipment repair and maintenance
-\item \code{8870} commercial and industrial machinery and equipment repair and maintenance
-\item \code{8880} personal and household goods repair and maintenance
-\item \code{8890} footwear and leather goods repair
-\item \code{8970} barber shops
-\item \code{8980} beauty salons
-\item \code{8990} nail salons and other personal care services
-\item \code{9070} drycleaning and laundry services
-\item \code{9080} funeral homes, and cemeteries and crematories
-\item \code{9090} other personal services
-\item \code{9160} religious organizations
-\item \code{9170} civic, social, advocacy organizations, and grantmaking and giving services
-\item \code{9180} labor unions
-\item \code{9190} business, professional, political, and similar organizations
-\item \code{9290} private households
-\item \code{9370} executive offices and legislative bodies
-\item \code{9380} public finance activities
-\item \code{9390} other general government and support
-\item \code{9470} justice, public order, and safety activities
-\item \code{9480} administration of human resource programs
-\item \code{9490} administration of environmental quality and housing programs
-\item \code{9570} administration of economic programs and space research
-\item \code{9590} national security and international affairs
-\item \code{9670} u.s. army
-\item \code{9680} u.s. air force
-\item \code{9690} u.s. navy
-\item \code{9770} u.s. marine corps
-\item \code{9780} u.s. coast guard
-\item \code{9790} u.s. armed forces/n.s.
-\item \code{9870} active duty military personnel, all other
-\item \code{9890} uncodeable
-\item \code{9997} uncodeable
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[170]} crop production
+\item \verb{[180]} animal production
+\item \verb{[190]} forestry, except logging
+\item \verb{[270]} logging
+\item \verb{[280]} fishing, hunting, and trapping
+\item \verb{[290]} support activities for agriculture and forestry
+\item \verb{[370]} oil and gas extraction
+\item \verb{[380]} coal mining
+\item \verb{[390]} metal ore mining
+\item \verb{[470]} nonmetallic mineral mining and quarrying
+\item \verb{[480]} not specified type of mining
+\item \verb{[490]} support activities for mining
+\item \verb{[570]} electric power generation, transmission, and distribution
+\item \verb{[580]} natural gas distribution
+\item \verb{[590]} electric and gas, and other combinations
+\item \verb{[670]} water, steam, air-conditioning, and irrigation systems
+\item \verb{[680]} sewage treatment facilities
+\item \verb{[690]} not specified utilities
+\item \verb{[770]} construction
+\item \verb{[1070]} animal food, grain, and oilseed milling
+\item \verb{[1080]} sugar and confectionery products
+\item \verb{[1090]} fruit and vegetable preserving and specialty food manufacturing
+\item \verb{[1170]} dairy product manufacturing
+\item \verb{[1180]} animal slaughtering and processing
+\item \verb{[1190]} retail bakeries
+\item \verb{[1270]} bakeries, except retail
+\item \verb{[1280]} seafood and other miscellaneous foods, n.e.c.
+\item \verb{[1290]} not specified food industries
+\item \verb{[1370]} beverage manufacturing
+\item \verb{[1390]} tobacco manufacturing
+\item \verb{[1470]} fiber, yarn, and thread mills
+\item \verb{[1480]} fabric mills, except knitting mills
+\item \verb{[1490]} textile and fabric finishing and coating mills
+\item \verb{[1570]} carpet and rug mills
+\item \verb{[1590]} textile product mills, except carpet and rug
+\item \verb{[1670]} knitting fabric mills, and apparel knitting mills
+\item \verb{[1680]} cut and sew apparel manufacturing
+\item \verb{[1690]} apparel accessories and other apparel manufacturing
+\item \verb{[1770]} footwear manufacturing
+\item \verb{[1790]} leather tanning and finishing and other allied products manufacturing
+\item \verb{[1870]} pulp, paper, and paperboard mills
+\item \verb{[1880]} paperboard containers and boxes
+\item \verb{[1890]} miscellaneous paper and pulp products
+\item \verb{[1990]} printing and related support activities
+\item \verb{[2070]} petroleum refining
+\item \verb{[2090]} miscellaneous petroleum and coal products
+\item \verb{[2170]} resin, synthetic rubber and fibers, and filaments manufacturing
+\item \verb{[2180]} agricultural chemical manufacturing
+\item \verb{[2190]} pharmaceutical and medicine manufacturing
+\item \verb{[2270]} paint, coating, and adhesive manufacturing
+\item \verb{[2280]} soap, cleaning compound, and cosmetics manufacturing
+\item \verb{[2290]} industrial and miscellaneous chemicals
+\item \verb{[2370]} plastics product manufacturing
+\item \verb{[2380]} tire manufacturing
+\item \verb{[2390]} rubber product, except tire, manufacturing
+\item \verb{[2470]} pottery, ceramics, and plumbing fixture manufacturing
+\item \verb{[2480]} structural clay product manufacturing
+\item \verb{[2490]} glass and glass product manufacturing
+\item \verb{[2570]} cement, concrete, lime, and gypsum product manufacturing
+\item \verb{[2590]} miscellaneous nonmetallic mineral product manufacturing
+\item \verb{[2670]} iron and steel mills and steel product manufacturing
+\item \verb{[2680]} aluminum production and processing
+\item \verb{[2690]} nonferrous metal (except aluminum) production and processing
+\item \verb{[2770]} foundries
+\item \verb{[2780]} metal forgings and stampings
+\item \verb{[2790]} cutlery and hand tool manufacturing
+\item \verb{[2870]} structural metals, and boiler, tank, and shipping container manufacturing
+\item \verb{[2880]} machine shops; turned product; screw, nut, and bolt manufacturing
+\item \verb{[2890]} coating, engraving, heat treating and allied activities
+\item \verb{[2970]} ordnance
+\item \verb{[2980]} miscellaneous fabricated metal products manufacturing
+\item \verb{[2990]} not specified metal industries
+\item \verb{[3070]} agricultural implement manufacturing
+\item \verb{[3080]} construction, and mining and oil and gas field machinery manufacturing
+\item \verb{[3090]} commercial and service industry machinery manufacturing
+\item \verb{[3170]} metalworking machinery manufacturing
+\item \verb{[3180]} engines, turbines, and power transmission equipment manufacturing
+\item \verb{[3190]} machinery manufacturing, n.e.c.
+\item \verb{[3290]} not specified machinery manufacturing
+\item \verb{[3360]} computer and peripheral equipment manufacturing
+\item \verb{[3370]} communications, and audio and video equipment manufacturing
+\item \verb{[3380]} navigational, measuring, electromedical, and control instruments manufacturing
+\item \verb{[3390]} electronic component and product manufacturing, n.e.c.
+\item \verb{[3470]} household appliance manufacturing
+\item \verb{[3490]} electrical lighting and electrical equipment manufacturing, and other electrical component manufacturing, n.e.c.
+\item \verb{[3570]} motor vehicles and motor vehicle equipment manufacturing
+\item \verb{[3580]} aircraft and parts manufacturing
+\item \verb{[3590]} aerospace product and parts manufacturing
+\item \verb{[3670]} railroad rolling stock manufacturing
+\item \verb{[3680]} ship and boat building
+\item \verb{[3690]} other transportation equipment manufacturing
+\item \verb{[3770]} sawmills and wood preservation
+\item \verb{[3780]} veneer, plywood, and engineered wood products
+\item \verb{[3790]} prefabricated wood buildings and mobile homes
+\item \verb{[3870]} miscellaneous wood products
+\item \verb{[3890]} furniture and related product manufacturing
+\item \verb{[3960]} medical equipment and supplies manufacturing
+\item \verb{[3970]} sporting and athletic goods, and doll, toy and game manufacturing
+\item \verb{[3980]} miscellaneous manufacturing, n.e.c.
+\item \verb{[3990]} not specified manufacturing industries
+\item \verb{[4070]} motor vehicles, parts and supplies, merchant wholesalers
+\item \verb{[4080]} furniture and home furnishing, merchant wholesalers
+\item \verb{[4090]} lumber and other construction materials, merchant wholesalers
+\item \verb{[4170]} professional and commercial equipment and supplies, merchant wholesalers
+\item \verb{[4180]} metals and minerals, except petroleum, merchant wholesalers
+\item \verb{[4190]} electrical and electronic goods, merchant wholesalers
+\item \verb{[4260]} hardware, plumbing and heating equipment, and supplies, merchant wholesalers
+\item \verb{[4270]} machinery, equipment, and supplies, merchant wholesalers
+\item \verb{[4280]} recyclable material, merchant wholesalers
+\item \verb{[4290]} miscellaneous durable goods, merchant wholesalers
+\item \verb{[4370]} paper and paper products, merchant wholesalers
+\item \verb{[4380]} drugs, sundries, and chemical and allied products, merchant wholesalers
+\item \verb{[4390]} apparel, fabrics, and notions, merchant wholesalers
+\item \verb{[4470]} groceries and related products, merchant wholesalers
+\item \verb{[4480]} farm product raw materials, merchant wholesalers
+\item \verb{[4490]} petroleum and petroleum products, merchant wholesalers
+\item \verb{[4560]} alcoholic beverages, merchant wholesalers
+\item \verb{[4570]} farm supplies, merchant wholesalers
+\item \verb{[4580]} miscellaneous nondurable goods, merchant wholesalers
+\item \verb{[4585]} wholesale electronic markets, agents and brokers
+\item \verb{[4590]} not specified wholesale trade
+\item \verb{[4670]} automobile dealers
+\item \verb{[4680]} other motor vehicle dealers
+\item \verb{[4690]} auto parts, accessories, and tire stores
+\item \verb{[4770]} furniture and home furnishings stores
+\item \verb{[4780]} household appliance stores
+\item \verb{[4790]} radio, tv, and computer stores
+\item \verb{[4870]} building material and supplies dealers
+\item \verb{[4880]} hardware stores
+\item \verb{[4890]} lawn and garden equipment and supplies stores
+\item \verb{[4970]} grocery stores
+\item \verb{[4980]} specialty food stores
+\item \verb{[4990]} beer, wine, and liquor stores
+\item \verb{[5070]} pharmacies and drug stores
+\item \verb{[5080]} health and personal care, except drug, stores
+\item \verb{[5090]} gasoline stations
+\item \verb{[5170]} clothing stores
+\item \verb{[5180]} shoe stores
+\item \verb{[5190]} jewelry, luggage, and leather goods stores
+\item \verb{[5270]} sporting goods, camera, and hobby and toy stores
+\item \verb{[5280]} sewing, needlework, and piece goods stores
+\item \verb{[5290]} music stores
+\item \verb{[5370]} book stores and news dealers
+\item \verb{[5380]} department stores and discount stores
+\item \verb{[5390]} miscellaneous general merchandise stores
+\item \verb{[5470]} retail florists
+\item \verb{[5480]} office supplies and stationery stores
+\item \verb{[5490]} used merchandise stores
+\item \verb{[5570]} gift, novelty, and souvenir shops
+\item \verb{[5580]} miscellaneous retail stores
+\item \verb{[5590]} electronic shopping
+\item \verb{[5591]} electronic auctions
+\item \verb{[5592]} mail order houses
+\item \verb{[5670]} vending machine operators
+\item \verb{[5680]} fuel dealers
+\item \verb{[5690]} other direct selling establishments
+\item \verb{[5790]} not specified retail trade
+\item \verb{[6070]} air transportation
+\item \verb{[6080]} rail transportation
+\item \verb{[6090]} water transportation
+\item \verb{[6170]} truck transportation
+\item \verb{[6180]} bus service and urban transit
+\item \verb{[6190]} taxi and limousine service
+\item \verb{[6270]} pipeline transportation
+\item \verb{[6280]} scenic and sightseeing transportation
+\item \verb{[6290]} services incidental to transportation
+\item \verb{[6370]} postal service
+\item \verb{[6380]} couriers and messengers
+\item \verb{[6390]} warehousing and storage
+\item \verb{[6470]} newspaper publishers
+\item \verb{[6480]} periodical, book, and directory publishers
+\item \verb{[6490]} software publishers
+\item \verb{[6570]} motion pictures and video industries
+\item \verb{[6590]} sound recording industries
+\item \verb{[6670]} radio and television broadcasting and cable subscription programming
+\item \verb{[6672]} internet publishing and broadcasting and web search portals
+\item \verb{[6680]} wired telecommunications carriers
+\item \verb{[6690]} other telecommunications services
+\item \verb{[6695]} data processing, hosting, and related services
+\item \verb{[6770]} libraries and archives
+\item \verb{[6780]} other information services
+\item \verb{[6870]} banking and related activities
+\item \verb{[6880]} savings institutions, including credit unions
+\item \verb{[6890]} non-depository credit and related activities
+\item \verb{[6970]} securities, commodities, funds, trusts, and other financial investments
+\item \verb{[6990]} insurance carriers and related activities
+\item \verb{[7070]} real estate
+\item \verb{[7080]} automotive equipment rental and leasing
+\item \verb{[7170]} video tape and disk rental
+\item \verb{[7180]} other consumer goods rental
+\item \verb{[7190]} commercial, industrial, and other intangible assets rental and leasing
+\item \verb{[7270]} legal services
+\item \verb{[7280]} accounting, tax preparation, bookkeeping, and payroll services
+\item \verb{[7290]} architectural, engineering, and related services
+\item \verb{[7370]} specialized design services
+\item \verb{[7380]} computer systems design and related services
+\item \verb{[7390]} management, scientific, and technical consulting services
+\item \verb{[7460]} scientific research and development services
+\item \verb{[7470]} advertising and related services
+\item \verb{[7480]} veterinary services
+\item \verb{[7490]} other professional, scientific, and technical services
+\item \verb{[7570]} management of companies and enterprises
+\item \verb{[7580]} employment services
+\item \verb{[7590]} business support services
+\item \verb{[7670]} travel arrangements and reservation services
+\item \verb{[7680]} investigation and security services
+\item \verb{[7690]} services to buildings and dwellings
+\item \verb{[7770]} landscaping services
+\item \verb{[7780]} other administrative and other support services
+\item \verb{[7790]} waste management and remediation services
+\item \verb{[7860]} elementary and secondary schools
+\item \verb{[7870]} colleges and universities, including junior colleges
+\item \verb{[7880]} business, technical, and trade schools and training
+\item \verb{[7890]} other schools and instruction, and educational support services
+\item \verb{[7970]} offices of physicians
+\item \verb{[7980]} offices of dentists
+\item \verb{[7990]} offices of chiropractors
+\item \verb{[8070]} offices of optometrists
+\item \verb{[8080]} offices of other health practitioners
+\item \verb{[8090]} outpatient care centers
+\item \verb{[8170]} home health care services
+\item \verb{[8180]} other health care services
+\item \verb{[8190]} hospitals
+\item \verb{[8270]} nursing care facilities
+\item \verb{[8290]} residential care facilities, without nursing
+\item \verb{[8370]} individual and family services
+\item \verb{[8380]} community food and housing, and emergency services
+\item \verb{[8390]} vocational rehabilitation services
+\item \verb{[8470]} child day care services
+\item \verb{[8560]} independent artists, performing arts, spectator sports, and related industries
+\item \verb{[8570]} museums, art galleries, historical sites, and similar institutions
+\item \verb{[8580]} bowling centers
+\item \verb{[8590]} other amusement, gambling, and recreation industries
+\item \verb{[8660]} traveler accommodation
+\item \verb{[8670]} recreational vehicle parks and camps, and rooming and boarding houses
+\item \verb{[8680]} restaurants and other food services
+\item \verb{[8690]} drinking places, alcoholic beverages
+\item \verb{[8770]} automotive repair and maintenance
+\item \verb{[8780]} car washes
+\item \verb{[8790]} electronic and precision equipment repair and maintenance
+\item \verb{[8870]} commercial and industrial machinery and equipment repair and maintenance
+\item \verb{[8880]} personal and household goods repair and maintenance
+\item \verb{[8890]} footwear and leather goods repair
+\item \verb{[8970]} barber shops
+\item \verb{[8980]} beauty salons
+\item \verb{[8990]} nail salons and other personal care services
+\item \verb{[9070]} drycleaning and laundry services
+\item \verb{[9080]} funeral homes, and cemeteries and crematories
+\item \verb{[9090]} other personal services
+\item \verb{[9160]} religious organizations
+\item \verb{[9170]} civic, social, advocacy organizations, and grantmaking and giving services
+\item \verb{[9180]} labor unions
+\item \verb{[9190]} business, professional, political, and similar organizations
+\item \verb{[9290]} private households
+\item \verb{[9370]} executive offices and legislative bodies
+\item \verb{[9380]} public finance activities
+\item \verb{[9390]} other general government and support
+\item \verb{[9470]} justice, public order, and safety activities
+\item \verb{[9480]} administration of human resource programs
+\item \verb{[9490]} administration of environmental quality and housing programs
+\item \verb{[9570]} administration of economic programs and space research
+\item \verb{[9590]} national security and international affairs
+\item \verb{[9670]} u.s. army
+\item \verb{[9680]} u.s. air force
+\item \verb{[9690]} u.s. navy
+\item \verb{[9770]} u.s. marine corps
+\item \verb{[9780]} u.s. coast guard
+\item \verb{[9790]} u.s. armed forces/n.s.
+\item \verb{[9870]} active duty military personnel, all other
+\item \verb{[9890]} uncodeable
+\item \verb{[9997]} uncodeable
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

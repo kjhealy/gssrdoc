@@ -15,8 +15,8 @@ Question
 \section{Values}{
 
 \itemize{
-\item No applicable value labels.
-\item 
+\item \verb{[Empty]} No applicable value labels
+\item \verb{[NA(d)]}NA
 }
 }
 

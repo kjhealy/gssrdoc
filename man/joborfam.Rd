@@ -16,11 +16,11 @@ Have you ever remained or would you remain in a job that was not satisfying for 
 \section{Values}{
 
 \itemize{
-\item \code{1} yes, i have done so and probably would do so again
-\item \code{2} yes, i have done so but probably would not do so again
-\item \code{3} no, i have not done so but probably would do so
-\item \code{4} no, i have not done so and probably would not do so
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} yes, i have done so and probably would do so again
+\item \verb{[2]} yes, i have done so but probably would not do so again
+\item \verb{[3]} no, i have not done so but probably would do so
+\item \verb{[4]} no, i have not done so and probably would not do so
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

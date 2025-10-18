@@ -16,665 +16,665 @@ As of 2024, HIVTEST1 accounts for only the year in which the respondent tested f
 \section{Values}{
 
 \itemize{
-\item \code{198001} jan 1980
-\item \code{198002} feb 1980
-\item \code{198003} mar 1980
-\item \code{198004} apr 1980
-\item \code{198005} may 1980
-\item \code{198006} jun 1980
-\item \code{198007} jul 1980
-\item \code{198008} aug 1980
-\item \code{198009} sep 1980
-\item \code{198010} oct 1980
-\item \code{198011} nov 1980
-\item \code{198012} dec 1980
-\item \code{198098} 1980, don't know when
-\item \code{198099} 1980, no month given
-\item \code{198101} jan 1981
-\item \code{198102} feb 1981
-\item \code{198103} mar 1981
-\item \code{198104} apr 1981
-\item \code{198105} may 1981
-\item \code{198106} jun 1981
-\item \code{198107} jul 1981
-\item \code{198108} aug 1981
-\item \code{198109} sep 1981
-\item \code{198110} oct 1981
-\item \code{198111} nov 1981
-\item \code{198112} dec 1981
-\item \code{198198} 1981, don't know when
-\item \code{198199} 1981, no month given
-\item \code{198201} jan 1982
-\item \code{198202} feb 1982
-\item \code{198203} mar 1982
-\item \code{198204} apr 1982
-\item \code{198205} may 1982
-\item \code{198206} jun 1982
-\item \code{198207} jul 1982
-\item \code{198208} aug 1982
-\item \code{198209} sep 1982
-\item \code{198210} oct 1982
-\item \code{198211} nov 1982
-\item \code{198212} dec 1982
-\item \code{198298} 1982, don't know when
-\item \code{198299} 1982, no month given
-\item \code{198301} jan 1983
-\item \code{198302} feb 1983
-\item \code{198303} mar 1983
-\item \code{198304} apr 1983
-\item \code{198305} may 1983
-\item \code{198306} jun 1983
-\item \code{198307} jul 1983
-\item \code{198308} aug 1983
-\item \code{198309} sep 1983
-\item \code{198310} oct 1983
-\item \code{198311} nov 1983
-\item \code{198312} dec 1983
-\item \code{198398} 1983, don't know when
-\item \code{198399} 1983, no month given
-\item \code{198401} jan 1984
-\item \code{198402} feb 1984
-\item \code{198403} mar 1984
-\item \code{198404} apr 1984
-\item \code{198405} may 1984
-\item \code{198406} jun 1984
-\item \code{198407} jul 1984
-\item \code{198408} aug 1984
-\item \code{198409} sep 1984
-\item \code{198410} oct 1984
-\item \code{198411} nov 1984
-\item \code{198412} dec 1984
-\item \code{198498} 1984, don't know when
-\item \code{198499} 1984, no month given
-\item \code{198501} jan 1985
-\item \code{198502} feb 1985
-\item \code{198503} mar 1985
-\item \code{198504} apr 1985
-\item \code{198505} may 1985
-\item \code{198506} jun 1985
-\item \code{198507} jul 1985
-\item \code{198508} aug 1985
-\item \code{198509} sep 1985
-\item \code{198510} oct 1985
-\item \code{198511} nov 1985
-\item \code{198512} dec 1985
-\item \code{198598} 1985, don't know when
-\item \code{198599} 1985, no month given
-\item \code{198601} jan 1986
-\item \code{198602} feb 1986
-\item \code{198603} mar 1986
-\item \code{198604} apr 1986
-\item \code{198605} may 1986
-\item \code{198606} jun 1986
-\item \code{198607} jul 1986
-\item \code{198608} aug 1986
-\item \code{198609} sep 1986
-\item \code{198610} oct 1986
-\item \code{198611} nov 1986
-\item \code{198612} dec 1986
-\item \code{198698} 1986, don't know when
-\item \code{198699} 1986, no month given
-\item \code{198701} jan 1987
-\item \code{198702} feb 1987
-\item \code{198703} mar 1987
-\item \code{198704} apr 1987
-\item \code{198705} may 1987
-\item \code{198706} jun 1987
-\item \code{198707} jul 1987
-\item \code{198708} aug 1987
-\item \code{198709} sep 1987
-\item \code{198710} oct 1987
-\item \code{198711} nov 1987
-\item \code{198712} dec 1987
-\item \code{198798} 1987, don't know when
-\item \code{198799} 1987, no month given
-\item \code{198801} jan 1988
-\item \code{198802} feb 1988
-\item \code{198803} mar 1988
-\item \code{198804} apr 1988
-\item \code{198805} may 1988
-\item \code{198806} jun 1988
-\item \code{198807} jul 1988
-\item \code{198808} aug 1988
-\item \code{198809} sep 1988
-\item \code{198810} oct 1988
-\item \code{198811} nov 1988
-\item \code{198812} dec 1988
-\item \code{198898} 1988, don't know when
-\item \code{198899} 1988, no month given
-\item \code{198901} jan 1989
-\item \code{198902} feb 1989
-\item \code{198903} mar 1989
-\item \code{198904} apr 1989
-\item \code{198905} may 1989
-\item \code{198906} jun 1989
-\item \code{198907} jul 1989
-\item \code{198908} aug 1989
-\item \code{198909} sep 1989
-\item \code{198910} oct 1989
-\item \code{198911} nov 1989
-\item \code{198912} dec 1989
-\item \code{198998} 1989, don't know when
-\item \code{198999} 1989, no month given
-\item \code{199001} jan 1990
-\item \code{199002} feb 1990
-\item \code{199003} mar 1990
-\item \code{199004} apr 1990
-\item \code{199005} may 1990
-\item \code{199006} jun 1990
-\item \code{199007} jul 1990
-\item \code{199008} aug 1990
-\item \code{199009} sep 1990
-\item \code{199010} oct 1990
-\item \code{199011} nov 1990
-\item \code{199012} dec 1990
-\item \code{199098} 1990, don't know when
-\item \code{199099} 1990, no month given
-\item \code{199101} jan 1991
-\item \code{199102} feb 1991
-\item \code{199103} mar 1991
-\item \code{199104} apr 1991
-\item \code{199105} may 1991
-\item \code{199106} jun 1991
-\item \code{199107} jul 1991
-\item \code{199108} aug 1991
-\item \code{199109} sep 1991
-\item \code{199110} oct 1991
-\item \code{199111} nov 1991
-\item \code{199112} dec 1991
-\item \code{199198} 1991, don't know when
-\item \code{199199} 1991, no month given
-\item \code{199201} jan 1992
-\item \code{199202} feb 1992
-\item \code{199203} mar 1992
-\item \code{199204} apr 1992
-\item \code{199205} may 1992
-\item \code{199206} jun 1992
-\item \code{199207} jul 1992
-\item \code{199208} aug 1992
-\item \code{199209} sep 1992
-\item \code{199210} oct 1992
-\item \code{199211} nov 1992
-\item \code{199212} dec 1992
-\item \code{199298} 1992, don't know when
-\item \code{199299} 1992, no month given
-\item \code{199301} jan 1993
-\item \code{199302} feb 1993
-\item \code{199303} mar 1993
-\item \code{199304} apr 1993
-\item \code{199305} may 1993
-\item \code{199306} jun 1993
-\item \code{199307} jul 1993
-\item \code{199308} aug 1993
-\item \code{199309} sep 1993
-\item \code{199310} oct 1993
-\item \code{199311} nov 1993
-\item \code{199312} dec 1993
-\item \code{199398} 1993, don't know when
-\item \code{199399} 1993, no month given
-\item \code{199401} jan 1994
-\item \code{199402} feb 1994
-\item \code{199403} mar 1994
-\item \code{199404} apr 1994
-\item \code{199405} may 1994
-\item \code{199406} jun 1994
-\item \code{199407} jul 1994
-\item \code{199408} aug 1994
-\item \code{199409} sep 1994
-\item \code{199410} oct 1994
-\item \code{199411} nov 1994
-\item \code{199412} dec 1994
-\item \code{199498} 1994, don't know when
-\item \code{199499} 1994, no month given
-\item \code{199501} jan 1995
-\item \code{199502} feb 1995
-\item \code{199503} mar 1995
-\item \code{199504} apr 1995
-\item \code{199505} may 1995
-\item \code{199506} jun 1995
-\item \code{199507} jul 1995
-\item \code{199508} aug 1995
-\item \code{199509} sep 1995
-\item \code{199510} oct 1995
-\item \code{199511} nov 1995
-\item \code{199512} dec 1995
-\item \code{199598} 1995, don't know when
-\item \code{199599} 1995, no month given
-\item \code{199601} jan 1996
-\item \code{199602} feb 1996
-\item \code{199603} mar 1996
-\item \code{199604} apr 1996
-\item \code{199605} may 1996
-\item \code{199606} jun 1996
-\item \code{199607} jul 1996
-\item \code{199608} aug 1996
-\item \code{199609} sep 1996
-\item \code{199610} oct 1996
-\item \code{199611} nov 1996
-\item \code{199612} dec 1996
-\item \code{199698} 1996, don't know when
-\item \code{199699} 1996, no month given
-\item \code{199701} jan 1997
-\item \code{199702} feb 1997
-\item \code{199703} mar 1997
-\item \code{199704} apr 1997
-\item \code{199705} may 1997
-\item \code{199706} jun 1997
-\item \code{199707} jul 1997
-\item \code{199708} aug 1997
-\item \code{199709} sep 1997
-\item \code{199710} oct 1997
-\item \code{199711} nov 1997
-\item \code{199712} dec 1997
-\item \code{199798} 1997, don't know when
-\item \code{199799} 1997, no month given
-\item \code{199801} jan 1998
-\item \code{199802} feb 1998
-\item \code{199803} mar 1998
-\item \code{199804} apr 1998
-\item \code{199805} may 1998
-\item \code{199806} jun 1998
-\item \code{199807} jul 1998
-\item \code{199808} aug 1998
-\item \code{199809} sep 1998
-\item \code{199810} oct 1998
-\item \code{199811} nov 1998
-\item \code{199812} dec 1998
-\item \code{199898} 1998, don't know when
-\item \code{199899} 1998, no month given
-\item \code{199901} jan 1999
-\item \code{199902} feb 1999
-\item \code{199903} mar 1999
-\item \code{199904} apr 1999
-\item \code{199905} may 1999
-\item \code{199906} jun 1999
-\item \code{199907} jul 1999
-\item \code{199908} aug 1999
-\item \code{199909} sep 1999
-\item \code{199910} oct 1999
-\item \code{199911} nov 1999
-\item \code{199912} dec 1999
-\item \code{199998} 1999, don't know when
-\item \code{199999} 1999, no month given
-\item \code{200001} jan 2000
-\item \code{200002} feb 2000
-\item \code{200003} mar 2000
-\item \code{200004} apr 2000
-\item \code{200005} may 2000
-\item \code{200006} jun 2000
-\item \code{200007} jul 2000
-\item \code{200008} aug 2000
-\item \code{200009} sep 2000
-\item \code{200010} oct 2000
-\item \code{200011} nov 2000
-\item \code{200012} dec 2000
-\item \code{200098} 2000, don't know when
-\item \code{200099} 2000, no month given
-\item \code{200101} jan 2001
-\item \code{200102} feb 2001
-\item \code{200103} mar 2001
-\item \code{200104} apr 2001
-\item \code{200105} may 2001
-\item \code{200106} jun 2001
-\item \code{200107} jul 2001
-\item \code{200108} aug 2001
-\item \code{200109} sep 2001
-\item \code{200110} oct 2001
-\item \code{200111} nov 2001
-\item \code{200112} dec 2001
-\item \code{200198} 2001, don't know when
-\item \code{200199} 2001, no month given
-\item \code{200201} jan 2002
-\item \code{200202} feb 2002
-\item \code{200203} mar 2002
-\item \code{200204} apr 2002
-\item \code{200205} may 2002
-\item \code{200206} jun 2002
-\item \code{200207} jul 2002
-\item \code{200208} aug 2002
-\item \code{200209} sep 2002
-\item \code{200210} oct 2002
-\item \code{200211} nov 2002
-\item \code{200212} dec 2002
-\item \code{200298} 2002, don't know when
-\item \code{200299} 2002, no month given
-\item \code{200301} jan 2003
-\item \code{200302} feb 2003
-\item \code{200303} mar 2003
-\item \code{200304} apr 2003
-\item \code{200305} may 2003
-\item \code{200306} jun 2003
-\item \code{200307} jul 2003
-\item \code{200308} aug 2003
-\item \code{200309} sep 2003
-\item \code{200310} oct 2003
-\item \code{200311} nov 2003
-\item \code{200312} dec 2003
-\item \code{200398} 2003, don't know when
-\item \code{200399} 2003, no month given
-\item \code{200401} jan 2004
-\item \code{200402} feb 2004
-\item \code{200403} mar 2004
-\item \code{200404} apr 2004
-\item \code{200405} may 2004
-\item \code{200406} jun 2004
-\item \code{200407} jul 2004
-\item \code{200408} aug 2004
-\item \code{200409} sep 2004
-\item \code{200410} oct 2004
-\item \code{200411} nov 2004
-\item \code{200412} dec 2004
-\item \code{200498} 2004, don't know when
-\item \code{200499} 2004, no month given
-\item \code{200501} jan 2005
-\item \code{200502} feb 2005
-\item \code{200503} mar 2005
-\item \code{200504} apr 2005
-\item \code{200505} may 2005
-\item \code{200506} jun 2005
-\item \code{200507} jul 2005
-\item \code{200508} aug 2005
-\item \code{200509} sep 2005
-\item \code{200510} oct 2005
-\item \code{200511} nov 2005
-\item \code{200512} dec 2005
-\item \code{200598} 2005, don't know when
-\item \code{200599} 2005, no month given
-\item \code{200601} jan 2006
-\item \code{200602} feb 2006
-\item \code{200603} mar 2006
-\item \code{200604} apr 2006
-\item \code{200605} may 2006
-\item \code{200606} jun 2006
-\item \code{200607} jul 2006
-\item \code{200608} aug 2006
-\item \code{200609} sep 2006
-\item \code{200610} oct 2006
-\item \code{200611} nov 2006
-\item \code{200612} dec 2006
-\item \code{200698} 2006, don't know when
-\item \code{200699} 2006, no month given
-\item \code{200701} jan 2007
-\item \code{200702} feb 2007
-\item \code{200703} mar 2007
-\item \code{200704} apr 2007
-\item \code{200705} may 2007
-\item \code{200706} jun 2007
-\item \code{200707} jul 2007
-\item \code{200708} aug 2007
-\item \code{200709} sep 2007
-\item \code{200710} oct 2007
-\item \code{200711} nov 2007
-\item \code{200712} dec 2007
-\item \code{200798} 2007, don't know when
-\item \code{200799} 2007, no month given
-\item \code{200801} jan 2008
-\item \code{200802} feb 2008
-\item \code{200803} mar 2008
-\item \code{200804} apr 2008
-\item \code{200805} may 2008
-\item \code{200806} jun 2008
-\item \code{200807} jul 2008
-\item \code{200808} aug 2008
-\item \code{200809} sep 2008
-\item \code{200810} oct 2008
-\item \code{200811} nov 2008
-\item \code{200812} dec 2008
-\item \code{200898} 2008, don't know when
-\item \code{200899} 2008, no month given
-\item \code{200901} jan 2009
-\item \code{200902} feb 2009
-\item \code{200903} mar 2009
-\item \code{200904} apr 2009
-\item \code{200905} may 2009
-\item \code{200906} jun 2009
-\item \code{200907} jul 2009
-\item \code{200908} aug 2009
-\item \code{200909} sep 2009
-\item \code{200910} oct 2009
-\item \code{200911} nov 2009
-\item \code{200912} dec 2009
-\item \code{200998} 2009, don't know when
-\item \code{200999} 2009, no month given
-\item \code{201001} jan 2010
-\item \code{201002} feb 2010
-\item \code{201003} mar 2010
-\item \code{201004} apr 2010
-\item \code{201005} may 2010
-\item \code{201006} jun 2010
-\item \code{201007} jul 2010
-\item \code{201008} aug 2010
-\item \code{201009} sep 2010
-\item \code{201010} oct 2010
-\item \code{201011} nov 2010
-\item \code{201012} dec 2010
-\item \code{201098} 2010, don't know when
-\item \code{201099} 2010, no month given
-\item \code{201101} jan 2011
-\item \code{201102} feb 2011
-\item \code{201103} mar 2011
-\item \code{201104} apr 2011
-\item \code{201105} may 2011
-\item \code{201106} jun 2011
-\item \code{201107} jul 2011
-\item \code{201108} aug 2011
-\item \code{201109} sep 2011
-\item \code{201110} oct 2011
-\item \code{201111} nov 2011
-\item \code{201112} dec 2011
-\item \code{201198} 2011, don't know when
-\item \code{201199} 2011, no month given
-\item \code{201201} jan 2012
-\item \code{201202} feb 2012
-\item \code{201203} mar 2012
-\item \code{201204} apr 2012
-\item \code{201205} may 2012
-\item \code{201206} jun 2012
-\item \code{201207} jul 2012
-\item \code{201208} aug 2012
-\item \code{201209} sep 2012
-\item \code{201210} oct 2012
-\item \code{201211} nov 2012
-\item \code{201212} dec 2012
-\item \code{201298} 2012, don't know when
-\item \code{201299} 2012, no month given
-\item \code{201301} jan 2013
-\item \code{201302} feb 2013
-\item \code{201303} mar 2013
-\item \code{201304} apr 2013
-\item \code{201305} may 2013
-\item \code{201306} jun 2013
-\item \code{201307} jul 2013
-\item \code{201308} aug 2013
-\item \code{201309} sep 2013
-\item \code{201310} oct 2013
-\item \code{201311} nov 2013
-\item \code{201312} dec 2013
-\item \code{201398} 2013, don't know when
-\item \code{201399} 2013, no month given
-\item \code{201401} jan 2014
-\item \code{201402} feb 2014
-\item \code{201403} mar 2014
-\item \code{201404} apr 2014
-\item \code{201405} may 2014
-\item \code{201406} jun 2014
-\item \code{201407} jul 2014
-\item \code{201408} aug 2014
-\item \code{201409} sep 2014
-\item \code{201410} oct 2014
-\item \code{201411} nov 2014
-\item \code{201412} dec 2014
-\item \code{201498} 2014, don't know when
-\item \code{201499} 2014, no month given
-\item \code{201501} jan 2015
-\item \code{201502} feb 2015
-\item \code{201503} mar 2015
-\item \code{201504} apr 2015
-\item \code{201505} may 2015
-\item \code{201506} jun 2015
-\item \code{201507} jul 2015
-\item \code{201508} aug 2015
-\item \code{201509} sep 2015
-\item \code{201510} oct 2015
-\item \code{201511} nov 2015
-\item \code{201512} dec 2015
-\item \code{201598} 2015, don't know when
-\item \code{201599} 2015, no month given
-\item \code{201601} jan 2016
-\item \code{201602} feb 2016
-\item \code{201603} mar 2016
-\item \code{201604} apr 2016
-\item \code{201605} may 2016
-\item \code{201606} jun 2016
-\item \code{201607} jul 2016
-\item \code{201608} aug 2016
-\item \code{201609} sep 2016
-\item \code{201610} oct 2016
-\item \code{201611} nov 2016
-\item \code{201612} dec 2016
-\item \code{201698} 2016, don't know when
-\item \code{201699} 2016, no month given
-\item \code{201701} jan 2017
-\item \code{201702} feb 2017
-\item \code{201703} mar 2017
-\item \code{201704} apr 2017
-\item \code{201705} may 2017
-\item \code{201706} jun 2017
-\item \code{201707} jul 2017
-\item \code{201708} aug 2017
-\item \code{201709} sep 2017
-\item \code{201710} oct 2017
-\item \code{201711} nov 2017
-\item \code{201712} dec 2017
-\item \code{201798} 2017, don't know when
-\item \code{201799} 2017, no month given
-\item \code{201801} jan 2018
-\item \code{201802} feb 2018
-\item \code{201803} mar 2018
-\item \code{201804} apr 2018
-\item \code{201805} may 2018
-\item \code{201806} jun 2018
-\item \code{201807} jul 2018
-\item \code{201808} aug 2018
-\item \code{201809} sep 2018
-\item \code{201810} oct 2018
-\item \code{201811} nov 2018
-\item \code{201812} dec 2018
-\item \code{201898} 2018, don't know when
-\item \code{201899} 2018, no month given
-\item \code{201901} jan 2019
-\item \code{201902} feb 2019
-\item \code{201903} mar 2019
-\item \code{201904} apr 2019
-\item \code{201905} may 2019
-\item \code{201906} jun 2019
-\item \code{201907} jul 2019
-\item \code{201908} aug 2019
-\item \code{201909} sep 2019
-\item \code{201910} oct 2019
-\item \code{201911} nov 2019
-\item \code{201912} dec 2019
-\item \code{201998} 2019, don't know when
-\item \code{201999} 2019, no month given
-\item \code{202001} jan 2020
-\item \code{202002} feb 2020
-\item \code{202003} mar 2020
-\item \code{202004} apr 2020
-\item \code{202005} may 2020
-\item \code{202006} jun 2020
-\item \code{202007} jul 2020
-\item \code{202008} aug 2020
-\item \code{202009} sep 2020
-\item \code{202010} oct 2020
-\item \code{202011} nov 2020
-\item \code{202012} dec 2020
-\item \code{202098} 2020, don't know when
-\item \code{202099} 2020, no month given
-\item \code{202101} jan 2021
-\item \code{202102} feb 2021
-\item \code{202103} mar 2021
-\item \code{202104} apr 2021
-\item \code{202105} may 2021
-\item \code{202106} jun 2021
-\item \code{202107} jul 2021
-\item \code{202108} aug 2021
-\item \code{202109} sep 2021
-\item \code{202110} oct 2021
-\item \code{202111} nov 2021
-\item \code{202112} dec 2021
-\item \code{202198} 2021, don't know when
-\item \code{202199} 2021, no month given
-\item \code{202201} jan 2022
-\item \code{202202} feb 2022
-\item \code{202203} mar 2022
-\item \code{202204} apr 2022
-\item \code{202205} may 2022
-\item \code{202206} jun 2022
-\item \code{202207} jul 2022
-\item \code{202208} aug 2022
-\item \code{202209} sep 2022
-\item \code{202210} oct 2022
-\item \code{202211} nov 2022
-\item \code{202212} dec 2022
-\item \code{202298} 2022, don't know when
-\item \code{202299} 2022, no month given
-\item \code{202301} jan 2023
-\item \code{202302} feb 2023
-\item \code{202303} mar 2023
-\item \code{202304} apr 2023
-\item \code{202305} may 2023
-\item \code{202306} jun 2023
-\item \code{202307} jul 2023
-\item \code{202308} aug 2023
-\item \code{202309} sep 2023
-\item \code{202310} oct 2023
-\item \code{202311} nov 2023
-\item \code{202312} dec 2023
-\item \code{202398} 2023, don't know when
-\item \code{202399} 2023, no month given
-\item \code{202401} jan 2024
-\item \code{202402} feb 2024
-\item \code{202403} mar 2024
-\item \code{202404} apr 2024
-\item \code{202405} may 2024
-\item \code{202406} jun 2024
-\item \code{202407} jul 2024
-\item \code{202408} aug 2024
-\item \code{202409} sep 2024
-\item \code{202410} oct 2024
-\item \code{202411} nov 2024
-\item \code{202412} dec 2024
-\item \code{202498} 2024, don't know when
-\item \code{202499} 2024, no month given
-\item \code{999801} jan, don't know year
-\item \code{999802} feb, don't know year
-\item \code{999803} mar, don't know year
-\item \code{999804} apr, don't know year
-\item \code{999805} may, don't know year
-\item \code{999806} jun, don't know year
-\item \code{999807} jul, don't know year
-\item \code{999808} aug, don't know year
-\item \code{999809} sep, don't know year
-\item \code{999810} oct, don't know year
-\item \code{999811} nov, don't know year
-\item \code{999812} dec, don't know year
-\item \code{999898} don't know year & month
-\item \code{999899} don't know year & no answer month
-\item \code{999901} jan, no answer year
-\item \code{999902} feb, no answer year
-\item \code{999903} mar, no answer year
-\item \code{999904} apr, no answer year
-\item \code{999905} may, no answer year
-\item \code{999906} jun, no answer year
-\item \code{999907} jul, no answer year
-\item \code{999908} aug, no answer year
-\item \code{999909} sep, no answer year
-\item \code{999910} oct, no answer year
-\item \code{999911} nov, no answer year
-\item \code{999912} dec, no answer year
-\item \code{999998} no answer year & don't know month
-\item \code{999999} no answer year & month
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[198001]} jan 1980
+\item \verb{[198002]} feb 1980
+\item \verb{[198003]} mar 1980
+\item \verb{[198004]} apr 1980
+\item \verb{[198005]} may 1980
+\item \verb{[198006]} jun 1980
+\item \verb{[198007]} jul 1980
+\item \verb{[198008]} aug 1980
+\item \verb{[198009]} sep 1980
+\item \verb{[198010]} oct 1980
+\item \verb{[198011]} nov 1980
+\item \verb{[198012]} dec 1980
+\item \verb{[198098]} 1980, don't know when
+\item \verb{[198099]} 1980, no month given
+\item \verb{[198101]} jan 1981
+\item \verb{[198102]} feb 1981
+\item \verb{[198103]} mar 1981
+\item \verb{[198104]} apr 1981
+\item \verb{[198105]} may 1981
+\item \verb{[198106]} jun 1981
+\item \verb{[198107]} jul 1981
+\item \verb{[198108]} aug 1981
+\item \verb{[198109]} sep 1981
+\item \verb{[198110]} oct 1981
+\item \verb{[198111]} nov 1981
+\item \verb{[198112]} dec 1981
+\item \verb{[198198]} 1981, don't know when
+\item \verb{[198199]} 1981, no month given
+\item \verb{[198201]} jan 1982
+\item \verb{[198202]} feb 1982
+\item \verb{[198203]} mar 1982
+\item \verb{[198204]} apr 1982
+\item \verb{[198205]} may 1982
+\item \verb{[198206]} jun 1982
+\item \verb{[198207]} jul 1982
+\item \verb{[198208]} aug 1982
+\item \verb{[198209]} sep 1982
+\item \verb{[198210]} oct 1982
+\item \verb{[198211]} nov 1982
+\item \verb{[198212]} dec 1982
+\item \verb{[198298]} 1982, don't know when
+\item \verb{[198299]} 1982, no month given
+\item \verb{[198301]} jan 1983
+\item \verb{[198302]} feb 1983
+\item \verb{[198303]} mar 1983
+\item \verb{[198304]} apr 1983
+\item \verb{[198305]} may 1983
+\item \verb{[198306]} jun 1983
+\item \verb{[198307]} jul 1983
+\item \verb{[198308]} aug 1983
+\item \verb{[198309]} sep 1983
+\item \verb{[198310]} oct 1983
+\item \verb{[198311]} nov 1983
+\item \verb{[198312]} dec 1983
+\item \verb{[198398]} 1983, don't know when
+\item \verb{[198399]} 1983, no month given
+\item \verb{[198401]} jan 1984
+\item \verb{[198402]} feb 1984
+\item \verb{[198403]} mar 1984
+\item \verb{[198404]} apr 1984
+\item \verb{[198405]} may 1984
+\item \verb{[198406]} jun 1984
+\item \verb{[198407]} jul 1984
+\item \verb{[198408]} aug 1984
+\item \verb{[198409]} sep 1984
+\item \verb{[198410]} oct 1984
+\item \verb{[198411]} nov 1984
+\item \verb{[198412]} dec 1984
+\item \verb{[198498]} 1984, don't know when
+\item \verb{[198499]} 1984, no month given
+\item \verb{[198501]} jan 1985
+\item \verb{[198502]} feb 1985
+\item \verb{[198503]} mar 1985
+\item \verb{[198504]} apr 1985
+\item \verb{[198505]} may 1985
+\item \verb{[198506]} jun 1985
+\item \verb{[198507]} jul 1985
+\item \verb{[198508]} aug 1985
+\item \verb{[198509]} sep 1985
+\item \verb{[198510]} oct 1985
+\item \verb{[198511]} nov 1985
+\item \verb{[198512]} dec 1985
+\item \verb{[198598]} 1985, don't know when
+\item \verb{[198599]} 1985, no month given
+\item \verb{[198601]} jan 1986
+\item \verb{[198602]} feb 1986
+\item \verb{[198603]} mar 1986
+\item \verb{[198604]} apr 1986
+\item \verb{[198605]} may 1986
+\item \verb{[198606]} jun 1986
+\item \verb{[198607]} jul 1986
+\item \verb{[198608]} aug 1986
+\item \verb{[198609]} sep 1986
+\item \verb{[198610]} oct 1986
+\item \verb{[198611]} nov 1986
+\item \verb{[198612]} dec 1986
+\item \verb{[198698]} 1986, don't know when
+\item \verb{[198699]} 1986, no month given
+\item \verb{[198701]} jan 1987
+\item \verb{[198702]} feb 1987
+\item \verb{[198703]} mar 1987
+\item \verb{[198704]} apr 1987
+\item \verb{[198705]} may 1987
+\item \verb{[198706]} jun 1987
+\item \verb{[198707]} jul 1987
+\item \verb{[198708]} aug 1987
+\item \verb{[198709]} sep 1987
+\item \verb{[198710]} oct 1987
+\item \verb{[198711]} nov 1987
+\item \verb{[198712]} dec 1987
+\item \verb{[198798]} 1987, don't know when
+\item \verb{[198799]} 1987, no month given
+\item \verb{[198801]} jan 1988
+\item \verb{[198802]} feb 1988
+\item \verb{[198803]} mar 1988
+\item \verb{[198804]} apr 1988
+\item \verb{[198805]} may 1988
+\item \verb{[198806]} jun 1988
+\item \verb{[198807]} jul 1988
+\item \verb{[198808]} aug 1988
+\item \verb{[198809]} sep 1988
+\item \verb{[198810]} oct 1988
+\item \verb{[198811]} nov 1988
+\item \verb{[198812]} dec 1988
+\item \verb{[198898]} 1988, don't know when
+\item \verb{[198899]} 1988, no month given
+\item \verb{[198901]} jan 1989
+\item \verb{[198902]} feb 1989
+\item \verb{[198903]} mar 1989
+\item \verb{[198904]} apr 1989
+\item \verb{[198905]} may 1989
+\item \verb{[198906]} jun 1989
+\item \verb{[198907]} jul 1989
+\item \verb{[198908]} aug 1989
+\item \verb{[198909]} sep 1989
+\item \verb{[198910]} oct 1989
+\item \verb{[198911]} nov 1989
+\item \verb{[198912]} dec 1989
+\item \verb{[198998]} 1989, don't know when
+\item \verb{[198999]} 1989, no month given
+\item \verb{[199001]} jan 1990
+\item \verb{[199002]} feb 1990
+\item \verb{[199003]} mar 1990
+\item \verb{[199004]} apr 1990
+\item \verb{[199005]} may 1990
+\item \verb{[199006]} jun 1990
+\item \verb{[199007]} jul 1990
+\item \verb{[199008]} aug 1990
+\item \verb{[199009]} sep 1990
+\item \verb{[199010]} oct 1990
+\item \verb{[199011]} nov 1990
+\item \verb{[199012]} dec 1990
+\item \verb{[199098]} 1990, don't know when
+\item \verb{[199099]} 1990, no month given
+\item \verb{[199101]} jan 1991
+\item \verb{[199102]} feb 1991
+\item \verb{[199103]} mar 1991
+\item \verb{[199104]} apr 1991
+\item \verb{[199105]} may 1991
+\item \verb{[199106]} jun 1991
+\item \verb{[199107]} jul 1991
+\item \verb{[199108]} aug 1991
+\item \verb{[199109]} sep 1991
+\item \verb{[199110]} oct 1991
+\item \verb{[199111]} nov 1991
+\item \verb{[199112]} dec 1991
+\item \verb{[199198]} 1991, don't know when
+\item \verb{[199199]} 1991, no month given
+\item \verb{[199201]} jan 1992
+\item \verb{[199202]} feb 1992
+\item \verb{[199203]} mar 1992
+\item \verb{[199204]} apr 1992
+\item \verb{[199205]} may 1992
+\item \verb{[199206]} jun 1992
+\item \verb{[199207]} jul 1992
+\item \verb{[199208]} aug 1992
+\item \verb{[199209]} sep 1992
+\item \verb{[199210]} oct 1992
+\item \verb{[199211]} nov 1992
+\item \verb{[199212]} dec 1992
+\item \verb{[199298]} 1992, don't know when
+\item \verb{[199299]} 1992, no month given
+\item \verb{[199301]} jan 1993
+\item \verb{[199302]} feb 1993
+\item \verb{[199303]} mar 1993
+\item \verb{[199304]} apr 1993
+\item \verb{[199305]} may 1993
+\item \verb{[199306]} jun 1993
+\item \verb{[199307]} jul 1993
+\item \verb{[199308]} aug 1993
+\item \verb{[199309]} sep 1993
+\item \verb{[199310]} oct 1993
+\item \verb{[199311]} nov 1993
+\item \verb{[199312]} dec 1993
+\item \verb{[199398]} 1993, don't know when
+\item \verb{[199399]} 1993, no month given
+\item \verb{[199401]} jan 1994
+\item \verb{[199402]} feb 1994
+\item \verb{[199403]} mar 1994
+\item \verb{[199404]} apr 1994
+\item \verb{[199405]} may 1994
+\item \verb{[199406]} jun 1994
+\item \verb{[199407]} jul 1994
+\item \verb{[199408]} aug 1994
+\item \verb{[199409]} sep 1994
+\item \verb{[199410]} oct 1994
+\item \verb{[199411]} nov 1994
+\item \verb{[199412]} dec 1994
+\item \verb{[199498]} 1994, don't know when
+\item \verb{[199499]} 1994, no month given
+\item \verb{[199501]} jan 1995
+\item \verb{[199502]} feb 1995
+\item \verb{[199503]} mar 1995
+\item \verb{[199504]} apr 1995
+\item \verb{[199505]} may 1995
+\item \verb{[199506]} jun 1995
+\item \verb{[199507]} jul 1995
+\item \verb{[199508]} aug 1995
+\item \verb{[199509]} sep 1995
+\item \verb{[199510]} oct 1995
+\item \verb{[199511]} nov 1995
+\item \verb{[199512]} dec 1995
+\item \verb{[199598]} 1995, don't know when
+\item \verb{[199599]} 1995, no month given
+\item \verb{[199601]} jan 1996
+\item \verb{[199602]} feb 1996
+\item \verb{[199603]} mar 1996
+\item \verb{[199604]} apr 1996
+\item \verb{[199605]} may 1996
+\item \verb{[199606]} jun 1996
+\item \verb{[199607]} jul 1996
+\item \verb{[199608]} aug 1996
+\item \verb{[199609]} sep 1996
+\item \verb{[199610]} oct 1996
+\item \verb{[199611]} nov 1996
+\item \verb{[199612]} dec 1996
+\item \verb{[199698]} 1996, don't know when
+\item \verb{[199699]} 1996, no month given
+\item \verb{[199701]} jan 1997
+\item \verb{[199702]} feb 1997
+\item \verb{[199703]} mar 1997
+\item \verb{[199704]} apr 1997
+\item \verb{[199705]} may 1997
+\item \verb{[199706]} jun 1997
+\item \verb{[199707]} jul 1997
+\item \verb{[199708]} aug 1997
+\item \verb{[199709]} sep 1997
+\item \verb{[199710]} oct 1997
+\item \verb{[199711]} nov 1997
+\item \verb{[199712]} dec 1997
+\item \verb{[199798]} 1997, don't know when
+\item \verb{[199799]} 1997, no month given
+\item \verb{[199801]} jan 1998
+\item \verb{[199802]} feb 1998
+\item \verb{[199803]} mar 1998
+\item \verb{[199804]} apr 1998
+\item \verb{[199805]} may 1998
+\item \verb{[199806]} jun 1998
+\item \verb{[199807]} jul 1998
+\item \verb{[199808]} aug 1998
+\item \verb{[199809]} sep 1998
+\item \verb{[199810]} oct 1998
+\item \verb{[199811]} nov 1998
+\item \verb{[199812]} dec 1998
+\item \verb{[199898]} 1998, don't know when
+\item \verb{[199899]} 1998, no month given
+\item \verb{[199901]} jan 1999
+\item \verb{[199902]} feb 1999
+\item \verb{[199903]} mar 1999
+\item \verb{[199904]} apr 1999
+\item \verb{[199905]} may 1999
+\item \verb{[199906]} jun 1999
+\item \verb{[199907]} jul 1999
+\item \verb{[199908]} aug 1999
+\item \verb{[199909]} sep 1999
+\item \verb{[199910]} oct 1999
+\item \verb{[199911]} nov 1999
+\item \verb{[199912]} dec 1999
+\item \verb{[199998]} 1999, don't know when
+\item \verb{[199999]} 1999, no month given
+\item \verb{[200001]} jan 2000
+\item \verb{[200002]} feb 2000
+\item \verb{[200003]} mar 2000
+\item \verb{[200004]} apr 2000
+\item \verb{[200005]} may 2000
+\item \verb{[200006]} jun 2000
+\item \verb{[200007]} jul 2000
+\item \verb{[200008]} aug 2000
+\item \verb{[200009]} sep 2000
+\item \verb{[200010]} oct 2000
+\item \verb{[200011]} nov 2000
+\item \verb{[200012]} dec 2000
+\item \verb{[200098]} 2000, don't know when
+\item \verb{[200099]} 2000, no month given
+\item \verb{[200101]} jan 2001
+\item \verb{[200102]} feb 2001
+\item \verb{[200103]} mar 2001
+\item \verb{[200104]} apr 2001
+\item \verb{[200105]} may 2001
+\item \verb{[200106]} jun 2001
+\item \verb{[200107]} jul 2001
+\item \verb{[200108]} aug 2001
+\item \verb{[200109]} sep 2001
+\item \verb{[200110]} oct 2001
+\item \verb{[200111]} nov 2001
+\item \verb{[200112]} dec 2001
+\item \verb{[200198]} 2001, don't know when
+\item \verb{[200199]} 2001, no month given
+\item \verb{[200201]} jan 2002
+\item \verb{[200202]} feb 2002
+\item \verb{[200203]} mar 2002
+\item \verb{[200204]} apr 2002
+\item \verb{[200205]} may 2002
+\item \verb{[200206]} jun 2002
+\item \verb{[200207]} jul 2002
+\item \verb{[200208]} aug 2002
+\item \verb{[200209]} sep 2002
+\item \verb{[200210]} oct 2002
+\item \verb{[200211]} nov 2002
+\item \verb{[200212]} dec 2002
+\item \verb{[200298]} 2002, don't know when
+\item \verb{[200299]} 2002, no month given
+\item \verb{[200301]} jan 2003
+\item \verb{[200302]} feb 2003
+\item \verb{[200303]} mar 2003
+\item \verb{[200304]} apr 2003
+\item \verb{[200305]} may 2003
+\item \verb{[200306]} jun 2003
+\item \verb{[200307]} jul 2003
+\item \verb{[200308]} aug 2003
+\item \verb{[200309]} sep 2003
+\item \verb{[200310]} oct 2003
+\item \verb{[200311]} nov 2003
+\item \verb{[200312]} dec 2003
+\item \verb{[200398]} 2003, don't know when
+\item \verb{[200399]} 2003, no month given
+\item \verb{[200401]} jan 2004
+\item \verb{[200402]} feb 2004
+\item \verb{[200403]} mar 2004
+\item \verb{[200404]} apr 2004
+\item \verb{[200405]} may 2004
+\item \verb{[200406]} jun 2004
+\item \verb{[200407]} jul 2004
+\item \verb{[200408]} aug 2004
+\item \verb{[200409]} sep 2004
+\item \verb{[200410]} oct 2004
+\item \verb{[200411]} nov 2004
+\item \verb{[200412]} dec 2004
+\item \verb{[200498]} 2004, don't know when
+\item \verb{[200499]} 2004, no month given
+\item \verb{[200501]} jan 2005
+\item \verb{[200502]} feb 2005
+\item \verb{[200503]} mar 2005
+\item \verb{[200504]} apr 2005
+\item \verb{[200505]} may 2005
+\item \verb{[200506]} jun 2005
+\item \verb{[200507]} jul 2005
+\item \verb{[200508]} aug 2005
+\item \verb{[200509]} sep 2005
+\item \verb{[200510]} oct 2005
+\item \verb{[200511]} nov 2005
+\item \verb{[200512]} dec 2005
+\item \verb{[200598]} 2005, don't know when
+\item \verb{[200599]} 2005, no month given
+\item \verb{[200601]} jan 2006
+\item \verb{[200602]} feb 2006
+\item \verb{[200603]} mar 2006
+\item \verb{[200604]} apr 2006
+\item \verb{[200605]} may 2006
+\item \verb{[200606]} jun 2006
+\item \verb{[200607]} jul 2006
+\item \verb{[200608]} aug 2006
+\item \verb{[200609]} sep 2006
+\item \verb{[200610]} oct 2006
+\item \verb{[200611]} nov 2006
+\item \verb{[200612]} dec 2006
+\item \verb{[200698]} 2006, don't know when
+\item \verb{[200699]} 2006, no month given
+\item \verb{[200701]} jan 2007
+\item \verb{[200702]} feb 2007
+\item \verb{[200703]} mar 2007
+\item \verb{[200704]} apr 2007
+\item \verb{[200705]} may 2007
+\item \verb{[200706]} jun 2007
+\item \verb{[200707]} jul 2007
+\item \verb{[200708]} aug 2007
+\item \verb{[200709]} sep 2007
+\item \verb{[200710]} oct 2007
+\item \verb{[200711]} nov 2007
+\item \verb{[200712]} dec 2007
+\item \verb{[200798]} 2007, don't know when
+\item \verb{[200799]} 2007, no month given
+\item \verb{[200801]} jan 2008
+\item \verb{[200802]} feb 2008
+\item \verb{[200803]} mar 2008
+\item \verb{[200804]} apr 2008
+\item \verb{[200805]} may 2008
+\item \verb{[200806]} jun 2008
+\item \verb{[200807]} jul 2008
+\item \verb{[200808]} aug 2008
+\item \verb{[200809]} sep 2008
+\item \verb{[200810]} oct 2008
+\item \verb{[200811]} nov 2008
+\item \verb{[200812]} dec 2008
+\item \verb{[200898]} 2008, don't know when
+\item \verb{[200899]} 2008, no month given
+\item \verb{[200901]} jan 2009
+\item \verb{[200902]} feb 2009
+\item \verb{[200903]} mar 2009
+\item \verb{[200904]} apr 2009
+\item \verb{[200905]} may 2009
+\item \verb{[200906]} jun 2009
+\item \verb{[200907]} jul 2009
+\item \verb{[200908]} aug 2009
+\item \verb{[200909]} sep 2009
+\item \verb{[200910]} oct 2009
+\item \verb{[200911]} nov 2009
+\item \verb{[200912]} dec 2009
+\item \verb{[200998]} 2009, don't know when
+\item \verb{[200999]} 2009, no month given
+\item \verb{[201001]} jan 2010
+\item \verb{[201002]} feb 2010
+\item \verb{[201003]} mar 2010
+\item \verb{[201004]} apr 2010
+\item \verb{[201005]} may 2010
+\item \verb{[201006]} jun 2010
+\item \verb{[201007]} jul 2010
+\item \verb{[201008]} aug 2010
+\item \verb{[201009]} sep 2010
+\item \verb{[201010]} oct 2010
+\item \verb{[201011]} nov 2010
+\item \verb{[201012]} dec 2010
+\item \verb{[201098]} 2010, don't know when
+\item \verb{[201099]} 2010, no month given
+\item \verb{[201101]} jan 2011
+\item \verb{[201102]} feb 2011
+\item \verb{[201103]} mar 2011
+\item \verb{[201104]} apr 2011
+\item \verb{[201105]} may 2011
+\item \verb{[201106]} jun 2011
+\item \verb{[201107]} jul 2011
+\item \verb{[201108]} aug 2011
+\item \verb{[201109]} sep 2011
+\item \verb{[201110]} oct 2011
+\item \verb{[201111]} nov 2011
+\item \verb{[201112]} dec 2011
+\item \verb{[201198]} 2011, don't know when
+\item \verb{[201199]} 2011, no month given
+\item \verb{[201201]} jan 2012
+\item \verb{[201202]} feb 2012
+\item \verb{[201203]} mar 2012
+\item \verb{[201204]} apr 2012
+\item \verb{[201205]} may 2012
+\item \verb{[201206]} jun 2012
+\item \verb{[201207]} jul 2012
+\item \verb{[201208]} aug 2012
+\item \verb{[201209]} sep 2012
+\item \verb{[201210]} oct 2012
+\item \verb{[201211]} nov 2012
+\item \verb{[201212]} dec 2012
+\item \verb{[201298]} 2012, don't know when
+\item \verb{[201299]} 2012, no month given
+\item \verb{[201301]} jan 2013
+\item \verb{[201302]} feb 2013
+\item \verb{[201303]} mar 2013
+\item \verb{[201304]} apr 2013
+\item \verb{[201305]} may 2013
+\item \verb{[201306]} jun 2013
+\item \verb{[201307]} jul 2013
+\item \verb{[201308]} aug 2013
+\item \verb{[201309]} sep 2013
+\item \verb{[201310]} oct 2013
+\item \verb{[201311]} nov 2013
+\item \verb{[201312]} dec 2013
+\item \verb{[201398]} 2013, don't know when
+\item \verb{[201399]} 2013, no month given
+\item \verb{[201401]} jan 2014
+\item \verb{[201402]} feb 2014
+\item \verb{[201403]} mar 2014
+\item \verb{[201404]} apr 2014
+\item \verb{[201405]} may 2014
+\item \verb{[201406]} jun 2014
+\item \verb{[201407]} jul 2014
+\item \verb{[201408]} aug 2014
+\item \verb{[201409]} sep 2014
+\item \verb{[201410]} oct 2014
+\item \verb{[201411]} nov 2014
+\item \verb{[201412]} dec 2014
+\item \verb{[201498]} 2014, don't know when
+\item \verb{[201499]} 2014, no month given
+\item \verb{[201501]} jan 2015
+\item \verb{[201502]} feb 2015
+\item \verb{[201503]} mar 2015
+\item \verb{[201504]} apr 2015
+\item \verb{[201505]} may 2015
+\item \verb{[201506]} jun 2015
+\item \verb{[201507]} jul 2015
+\item \verb{[201508]} aug 2015
+\item \verb{[201509]} sep 2015
+\item \verb{[201510]} oct 2015
+\item \verb{[201511]} nov 2015
+\item \verb{[201512]} dec 2015
+\item \verb{[201598]} 2015, don't know when
+\item \verb{[201599]} 2015, no month given
+\item \verb{[201601]} jan 2016
+\item \verb{[201602]} feb 2016
+\item \verb{[201603]} mar 2016
+\item \verb{[201604]} apr 2016
+\item \verb{[201605]} may 2016
+\item \verb{[201606]} jun 2016
+\item \verb{[201607]} jul 2016
+\item \verb{[201608]} aug 2016
+\item \verb{[201609]} sep 2016
+\item \verb{[201610]} oct 2016
+\item \verb{[201611]} nov 2016
+\item \verb{[201612]} dec 2016
+\item \verb{[201698]} 2016, don't know when
+\item \verb{[201699]} 2016, no month given
+\item \verb{[201701]} jan 2017
+\item \verb{[201702]} feb 2017
+\item \verb{[201703]} mar 2017
+\item \verb{[201704]} apr 2017
+\item \verb{[201705]} may 2017
+\item \verb{[201706]} jun 2017
+\item \verb{[201707]} jul 2017
+\item \verb{[201708]} aug 2017
+\item \verb{[201709]} sep 2017
+\item \verb{[201710]} oct 2017
+\item \verb{[201711]} nov 2017
+\item \verb{[201712]} dec 2017
+\item \verb{[201798]} 2017, don't know when
+\item \verb{[201799]} 2017, no month given
+\item \verb{[201801]} jan 2018
+\item \verb{[201802]} feb 2018
+\item \verb{[201803]} mar 2018
+\item \verb{[201804]} apr 2018
+\item \verb{[201805]} may 2018
+\item \verb{[201806]} jun 2018
+\item \verb{[201807]} jul 2018
+\item \verb{[201808]} aug 2018
+\item \verb{[201809]} sep 2018
+\item \verb{[201810]} oct 2018
+\item \verb{[201811]} nov 2018
+\item \verb{[201812]} dec 2018
+\item \verb{[201898]} 2018, don't know when
+\item \verb{[201899]} 2018, no month given
+\item \verb{[201901]} jan 2019
+\item \verb{[201902]} feb 2019
+\item \verb{[201903]} mar 2019
+\item \verb{[201904]} apr 2019
+\item \verb{[201905]} may 2019
+\item \verb{[201906]} jun 2019
+\item \verb{[201907]} jul 2019
+\item \verb{[201908]} aug 2019
+\item \verb{[201909]} sep 2019
+\item \verb{[201910]} oct 2019
+\item \verb{[201911]} nov 2019
+\item \verb{[201912]} dec 2019
+\item \verb{[201998]} 2019, don't know when
+\item \verb{[201999]} 2019, no month given
+\item \verb{[202001]} jan 2020
+\item \verb{[202002]} feb 2020
+\item \verb{[202003]} mar 2020
+\item \verb{[202004]} apr 2020
+\item \verb{[202005]} may 2020
+\item \verb{[202006]} jun 2020
+\item \verb{[202007]} jul 2020
+\item \verb{[202008]} aug 2020
+\item \verb{[202009]} sep 2020
+\item \verb{[202010]} oct 2020
+\item \verb{[202011]} nov 2020
+\item \verb{[202012]} dec 2020
+\item \verb{[202098]} 2020, don't know when
+\item \verb{[202099]} 2020, no month given
+\item \verb{[202101]} jan 2021
+\item \verb{[202102]} feb 2021
+\item \verb{[202103]} mar 2021
+\item \verb{[202104]} apr 2021
+\item \verb{[202105]} may 2021
+\item \verb{[202106]} jun 2021
+\item \verb{[202107]} jul 2021
+\item \verb{[202108]} aug 2021
+\item \verb{[202109]} sep 2021
+\item \verb{[202110]} oct 2021
+\item \verb{[202111]} nov 2021
+\item \verb{[202112]} dec 2021
+\item \verb{[202198]} 2021, don't know when
+\item \verb{[202199]} 2021, no month given
+\item \verb{[202201]} jan 2022
+\item \verb{[202202]} feb 2022
+\item \verb{[202203]} mar 2022
+\item \verb{[202204]} apr 2022
+\item \verb{[202205]} may 2022
+\item \verb{[202206]} jun 2022
+\item \verb{[202207]} jul 2022
+\item \verb{[202208]} aug 2022
+\item \verb{[202209]} sep 2022
+\item \verb{[202210]} oct 2022
+\item \verb{[202211]} nov 2022
+\item \verb{[202212]} dec 2022
+\item \verb{[202298]} 2022, don't know when
+\item \verb{[202299]} 2022, no month given
+\item \verb{[202301]} jan 2023
+\item \verb{[202302]} feb 2023
+\item \verb{[202303]} mar 2023
+\item \verb{[202304]} apr 2023
+\item \verb{[202305]} may 2023
+\item \verb{[202306]} jun 2023
+\item \verb{[202307]} jul 2023
+\item \verb{[202308]} aug 2023
+\item \verb{[202309]} sep 2023
+\item \verb{[202310]} oct 2023
+\item \verb{[202311]} nov 2023
+\item \verb{[202312]} dec 2023
+\item \verb{[202398]} 2023, don't know when
+\item \verb{[202399]} 2023, no month given
+\item \verb{[202401]} jan 2024
+\item \verb{[202402]} feb 2024
+\item \verb{[202403]} mar 2024
+\item \verb{[202404]} apr 2024
+\item \verb{[202405]} may 2024
+\item \verb{[202406]} jun 2024
+\item \verb{[202407]} jul 2024
+\item \verb{[202408]} aug 2024
+\item \verb{[202409]} sep 2024
+\item \verb{[202410]} oct 2024
+\item \verb{[202411]} nov 2024
+\item \verb{[202412]} dec 2024
+\item \verb{[202498]} 2024, don't know when
+\item \verb{[202499]} 2024, no month given
+\item \verb{[999801]} jan, don't know year
+\item \verb{[999802]} feb, don't know year
+\item \verb{[999803]} mar, don't know year
+\item \verb{[999804]} apr, don't know year
+\item \verb{[999805]} may, don't know year
+\item \verb{[999806]} jun, don't know year
+\item \verb{[999807]} jul, don't know year
+\item \verb{[999808]} aug, don't know year
+\item \verb{[999809]} sep, don't know year
+\item \verb{[999810]} oct, don't know year
+\item \verb{[999811]} nov, don't know year
+\item \verb{[999812]} dec, don't know year
+\item \verb{[999898]} don't know year & month
+\item \verb{[999899]} don't know year & no answer month
+\item \verb{[999901]} jan, no answer year
+\item \verb{[999902]} feb, no answer year
+\item \verb{[999903]} mar, no answer year
+\item \verb{[999904]} apr, no answer year
+\item \verb{[999905]} may, no answer year
+\item \verb{[999906]} jun, no answer year
+\item \verb{[999907]} jul, no answer year
+\item \verb{[999908]} aug, no answer year
+\item \verb{[999909]} sep, no answer year
+\item \verb{[999910]} oct, no answer year
+\item \verb{[999911]} nov, no answer year
+\item \verb{[999912]} dec, no answer year
+\item \verb{[999998]} no answer year & don't know month
+\item \verb{[999999]} no answer year & month
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

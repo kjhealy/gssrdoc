@@ -15,27 +15,27 @@ Question THIRD MENTION:
 \section{Values}{
 
 \itemize{
-\item \code{1} youtube
-\item \code{2} myspace
-\item \code{3} reddit
-\item \code{4} viber
-\item \code{5} line
-\item \code{6} plenty of fish
-\item \code{7} kik
-\item \code{8} ravelry
-\item \code{9} wechat
-\item \code{11} imo
-\item \code{12} online dating sites
-\item \code{13} spotify
-\item \code{14} groupme
-\item \code{15} tinder
-\item \code{16} hangouts
-\item \code{17} researchgate
-\item \code{18} online gaming
-\item \code{19} yahoo
-\item \code{30} other social networks
-\item \code{40} not a social network
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} youtube
+\item \verb{[2]} myspace
+\item \verb{[3]} reddit
+\item \verb{[4]} viber
+\item \verb{[5]} line
+\item \verb{[6]} plenty of fish
+\item \verb{[7]} kik
+\item \verb{[8]} ravelry
+\item \verb{[9]} wechat
+\item \verb{[11]} imo
+\item \verb{[12]} online dating sites
+\item \verb{[13]} spotify
+\item \verb{[14]} groupme
+\item \verb{[15]} tinder
+\item \verb{[16]} hangouts
+\item \verb{[17]} researchgate
+\item \verb{[18]} online gaming
+\item \verb{[19]} yahoo
+\item \verb{[30]} other social networks
+\item \verb{[40]} not a social network
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

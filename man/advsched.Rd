@@ -16,14 +16,14 @@ Question How far in advance do you usually know what days and hours you will nee
 \section{Values}{
 
 \itemize{
-\item \code{1} one day or less in advance
-\item \code{2} 2 to 3 days in advance
-\item \code{3} 4 to 7 days in advance
-\item \code{4} between 1 and 2 weeks in advance
-\item \code{5} between 3 and 4 weeks in advance
-\item \code{6} more than 4 weeks in advance
-\item \code{7} my schedule never changes
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} one day or less in advance
+\item \verb{[2]} 2 to 3 days in advance
+\item \verb{[3]} 4 to 7 days in advance
+\item \verb{[4]} between 1 and 2 weeks in advance
+\item \verb{[5]} between 3 and 4 weeks in advance
+\item \verb{[6]} more than 4 weeks in advance
+\item \verb{[7]} my schedule never changes
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -7,15 +7,15 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` daily
-#'   * `2` several x week
-#'   * `3` once a week
-#'   * `4` once a month
-#'   * `5` several x year
-#'   * `6` less often
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` daily
+#'   * `[2]` several x week
+#'   * `[3]` once a week
+#'   * `[4]` once a month
+#'   * `[5]` several x year
+#'   * `[6]` less often
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -45,14 +45,14 @@ NULL
 #' 
 #'  frinum
 #' 
-#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close toâ€¦ How many close friends would you say you have?
+#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close to… How many close friends would you say you have?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `96` 96 or more
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[96]` 96 or more
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -82,15 +82,14 @@ NULL
 #' 
 #'  friwork
 #' 
-#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close toâ€¦ 
+#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close to… 
 #' A. How many of these close friends are people you work with now?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * 
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -120,15 +119,14 @@ NULL
 #' 
 #'  frineigh
 #' 
-#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close toâ€¦ How many close friends would you say you have? 
+#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close to… How many close friends would you say you have? 
 #' B. How many of these close friends are your neighbors now?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * 
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -158,16 +156,16 @@ NULL
 #' 
 #'  frisex
 #' 
-#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close toâ€¦ 
+#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close to… 
 #' C. Now thinking of your best friend, or the friend you feel closest to: Is this friend a man or a woman?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` man
-#'   * `2` woman
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` man
+#'   * `[2]` woman
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -197,21 +195,21 @@ NULL
 #' 
 #'  frivisit
 #' 
-#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close toâ€¦ 
+#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close to… 
 #' D. How often do you see or visit with your friend (the friend you feel closest to)?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` lives in hshld
-#'   * `2` daily
-#'   * `3` several x week
-#'   * `4` once a week
-#'   * `5` once a month
-#'   * `6` several x year
-#'   * `7` less often
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` lives in hshld
+#'   * `[2]` daily
+#'   * `[3]` several x week
+#'   * `[4]` once a week
+#'   * `[5]` once a month
+#'   * `[6]` several x year
+#'   * `[7]` less often
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -241,22 +239,22 @@ NULL
 #' 
 #'  fritime
 #' 
-#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close toâ€¦ 
+#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close to… 
 #' E. About how long would it take you to get to where this friend lives? Think of the time it usually takes door to door.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` lt 15 min
-#'   * `2` 15-30 min
-#'   * `3` 30 min-1 hr
-#'   * `4` 1-2 hr
-#'   * `5` 2-3 hr
-#'   * `6` 3-5 hr
-#'   * `7` 5-12 hr
-#'   * `8` 12+ hr
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` lt 15 min
+#'   * `[2]` 15-30 min
+#'   * `[3]` 30 min-1 hr
+#'   * `[4]` 1-2 hr
+#'   * `[5]` 2-3 hr
+#'   * `[6]` 3-5 hr
+#'   * `[7]` 5-12 hr
+#'   * `[8]` 12+ hr
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -286,20 +284,20 @@ NULL
 #' 
 #'  fricall
 #' 
-#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close toâ€¦ 
+#' Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close to… 
 #' F. And how often do you have any other contact with this friend besides visiting, either by telephone or letter?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` daily
-#'   * `2` several x week
-#'   * `3` once a week
-#'   * `4` once a month
-#'   * `5` several x year
-#'   * `6` less often
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` daily
+#'   * `[2]` several x week
+#'   * `[3]` once a week
+#'   * `[4]` once a month
+#'   * `[5]` several x year
+#'   * `[6]` less often
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -337,25 +335,25 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spouse
-#'   * `2` mother
-#'   * `3` father
-#'   * `4` daughter
-#'   * `5` son
-#'   * `6` sister
-#'   * `7` brother
-#'   * `8` other relative
-#'   * `9` closest friend
-#'   * `10` other friend
-#'   * `11` neighbor
-#'   * `12` coworker
-#'   * `13` social service
-#'   * `14` paid help
-#'   * `15` other
-#'   * `16` no one
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spouse
+#'   * `[2]` mother
+#'   * `[3]` father
+#'   * `[4]` daughter
+#'   * `[5]` son
+#'   * `[6]` sister
+#'   * `[7]` brother
+#'   * `[8]` other relative
+#'   * `[9]` closest friend
+#'   * `[10]` other friend
+#'   * `[11]` neighbor
+#'   * `[12]` coworker
+#'   * `[13]` social service
+#'   * `[14]` paid help
+#'   * `[15]` other
+#'   * `[16]` no one
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -390,25 +388,25 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` spouse
-#'   * `2` mother
-#'   * `3` father
-#'   * `4` daughter
-#'   * `5` son
-#'   * `6` sister
-#'   * `7` brother
-#'   * `8` other relative
-#'   * `9` closest friend
-#'   * `10` other friend
-#'   * `11` neighbor
-#'   * `12` coworker
-#'   * `13` social service
-#'   * `14` paid help
-#'   * `15` other
-#'   * `16` no one
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` spouse
+#'   * `[2]` mother
+#'   * `[3]` father
+#'   * `[4]` daughter
+#'   * `[5]` son
+#'   * `[6]` sister
+#'   * `[7]` brother
+#'   * `[8]` other relative
+#'   * `[9]` closest friend
+#'   * `[10]` other friend
+#'   * `[11]` neighbor
+#'   * `[12]` coworker
+#'   * `[13]` social service
+#'   * `[14]` paid help
+#'   * `[15]` other
+#'   * `[16]` no one
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

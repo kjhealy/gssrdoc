@@ -7,11 +7,11 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -47,11 +47,11 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -82,16 +82,16 @@ NULL
 #' 
 #'  srcheng1
 #' 
-#' Question Now weâ€™d like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. 
+#' Question Now we'd like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. 
 #' A. Do you know the name of any search engine?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -121,59 +121,59 @@ NULL
 #' 
 #'  srcheng2
 #' 
-#' Question Now weâ€™d like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. 
+#' Question Now we'd like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. 
 #' B. Please name one.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yahoo
-#'   * `2` lycos
-#'   * `3` search.com
-#'   * `4` gopher
-#'   * `5` all the web
-#'   * `6` msn
-#'   * `7` ebay
-#'   * `8` infoseek
-#'   * `9` altavista
-#'   * `10` explorer
-#'   * `11` netscape
-#'   * `12` isearch
-#'   * `13` excite
-#'   * `14` aol
-#'   * `15` java
-#'   * `16` webcrawler
-#'   * `17` hotbot
-#'   * `18` google
-#'   * `19` copernic
-#'   * `20` ask jeeves
-#'   * `21` iwon
-#'   * `22` dogpile
-#'   * `23` streetviolence.com
-#'   * `24` browser
-#'   * `25` northern lights
-#'   * `26` www.irs.com
-#'   * `27` netfind
-#'   * `28` keysearch
-#'   * `29` metacrawler
-#'   * `30` uproar.com
-#'   * `31` siap
-#'   * `32` go
-#'   * `33` myway
-#'   * `34` fuse
-#'   * `35` espn
-#'   * `36` uswest
-#'   * `37` terra.com
-#'   * `38` goto.com
-#'   * `39` bizrate
-#'   * `40` fastsearch
-#'   * `41` sherlock
-#'   * `42` lynco
-#'   * `43` inference
-#'   * `44` 4anything
-#'   * `45` navistar
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yahoo
+#'   * `[2]` lycos
+#'   * `[3]` search.com
+#'   * `[4]` gopher
+#'   * `[5]` all the web
+#'   * `[6]` msn
+#'   * `[7]` ebay
+#'   * `[8]` infoseek
+#'   * `[9]` altavista
+#'   * `[10]` explorer
+#'   * `[11]` netscape
+#'   * `[12]` isearch
+#'   * `[13]` excite
+#'   * `[14]` aol
+#'   * `[15]` java
+#'   * `[16]` webcrawler
+#'   * `[17]` hotbot
+#'   * `[18]` google
+#'   * `[19]` copernic
+#'   * `[20]` ask jeeves
+#'   * `[21]` iwon
+#'   * `[22]` dogpile
+#'   * `[23]` streetviolence.com
+#'   * `[24]` browser
+#'   * `[25]` northern lights
+#'   * `[26]` www.irs.com
+#'   * `[27]` netfind
+#'   * `[28]` keysearch
+#'   * `[29]` metacrawler
+#'   * `[30]` uproar.com
+#'   * `[31]` siap
+#'   * `[32]` go
+#'   * `[33]` myway
+#'   * `[34]` fuse
+#'   * `[35]` espn
+#'   * `[36]` uswest
+#'   * `[37]` terra.com
+#'   * `[38]` goto.com
+#'   * `[39]` bizrate
+#'   * `[40]` fastsearch
+#'   * `[41]` sherlock
+#'   * `[42]` lynco
+#'   * `[43]` inference
+#'   * `[44]` 4anything
+#'   * `[45]` navistar
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -203,16 +203,16 @@ NULL
 #' 
 #'  download
 #' 
-#' Question Now weâ€™d like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. 
+#' Question Now we'd like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. 
 #' C. Do you know how to download a file from the World Wide Web to your computer?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years            |
@@ -244,16 +244,16 @@ NULL
 #' 
 #'  upload
 #' 
-#' Question Now weâ€™d like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. 
-#' D. Do you know how to send a file that is on your computerâ€™s hard drive to someone using another computer?
+#' Question Now we'd like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. 
+#' D. Do you know how to send a file that is on your computer's hard drive to someone using another computer?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -284,16 +284,16 @@ NULL
 #' 
 #'  cmpvirus
 #' 
-#' Question Now weâ€™d like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. 
+#' Question Now we'd like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. 
 #' E. Do you know what a computer virus is?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -327,13 +327,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` not at all
-#'   * `1` 1 or 2 times
-#'   * `2` 3-5 times
-#'   * `3` 6 or more times
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` not at all
+#'   * `[1]` 1 or 2 times
+#'   * `[2]` 3-5 times
+#'   * `[3]` 6 or more times
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -372,13 +372,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` not at all
-#'   * `1` 1 or 2 times
-#'   * `2` 3-5 times
-#'   * `3` 6 or more times
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` not at all
+#'   * `[1]` 1 or 2 times
+#'   * `[2]` 3-5 times
+#'   * `[3]` 6 or more times
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -417,13 +417,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `0` not at all
-#'   * `1` 1 or 2 times
-#'   * `2` 3-5 times
-#'   * `3` 6 or more times
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[0]` not at all
+#'   * `[1]` 1 or 2 times
+#'   * `[2]` 3-5 times
+#'   * `[3]` 6 or more times
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

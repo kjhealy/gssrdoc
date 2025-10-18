@@ -15,19 +15,19 @@ Question Household type (condensed)
 \section{Values}{
 
 \itemize{
-\item \code{1} married couple, no children
-\item \code{2} single parent
-\item \code{3} other family, no children
-\item \code{4} single adult
-\item \code{5} cohabitating couple, no children
-\item \code{6} non-family, no children
-\item \code{8} unsure, no children
-\item \code{11} married couple with children
-\item \code{13} other family with children
-\item \code{15} cohabitating couple with children
-\item \code{16} non-family with children
-\item \code{18} unsure with children
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} married couple, no children
+\item \verb{[2]} single parent
+\item \verb{[3]} other family, no children
+\item \verb{[4]} single adult
+\item \verb{[5]} cohabitating couple, no children
+\item \verb{[6]} non-family, no children
+\item \verb{[8]} unsure, no children
+\item \verb{[11]} married couple with children
+\item \verb{[13]} other family with children
+\item \verb{[15]} cohabitating couple with children
+\item \verb{[16]} non-family with children
+\item \verb{[18]} unsure with children
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -6,14 +6,14 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` complete freedom
-#'   * `2` a great deal of freedom
-#'   * `3` a moderate degree of freedom
-#'   * `4` not much freedom
-#'   * `5` no freedom at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` complete freedom
+#'   * `[2]` a great deal of freedom
+#'   * `[3]` a moderate degree of freedom
+#'   * `[4]` not much freedom
+#'   * `[5]` no freedom at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -47,14 +47,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` complete freedom
-#'   * `2` a great deal of freedom
-#'   * `3` a moderate degree of freedom
-#'   * `4` not much freedom
-#'   * `5` no freedom at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` complete freedom
+#'   * `[2]` a great deal of freedom
+#'   * `[3]` a moderate degree of freedom
+#'   * `[4]` not much freedom
+#'   * `[5]` no freedom at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -88,12 +88,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` more freedom
-#'   * `2` about the same amount of freedom
-#'   * `3` less freedom
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` more freedom
+#'   * `[2]` about the same amount of freedom
+#'   * `[3]` less freedom
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -127,12 +127,12 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` more freedom
-#'   * `2` about the same amount of freedom
-#'   * `3` less freedom
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` more freedom
+#'   * `[2]` about the same amount of freedom
+#'   * `[3]` less freedom
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -166,13 +166,13 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very satisfied
-#'   * `2` fairly satisfied
-#'   * `3` not very satisfied
-#'   * `4` not at all satisfied
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very satisfied
+#'   * `[2]` fairly satisfied
+#'   * `[3]` not very satisfied
+#'   * `[4]` not at all satisfied
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years      |
@@ -203,20 +203,20 @@ NULL
 #' 
 #'  leftlone
 #' 
-#' Question Iâ€™m going to read you several statements about freedom. Each one may say something true and important about freedom, but Iâ€™d like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
+#' Question I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
 #' A. Freedom is being left alone to do what I want.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` one of the most important
-#'   * `2` extremely important
-#'   * `3` very important
-#'   * `4` moderately important
-#'   * `5` somewhat important
-#'   * `6` not too important
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` one of the most important
+#'   * `[2]` extremely important
+#'   * `[3]` very important
+#'   * `[4]` moderately important
+#'   * `[5]` somewhat important
+#'   * `[6]` not too important
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -246,20 +246,20 @@ NULL
 #' 
 #'  nogovt
 #' 
-#' Question Iâ€™m going to read you several statements about freedom. Each one may say something true and important about freedom, but Iâ€™d like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
-#' B. Freedom is having a government that doesnâ€™t spy on me or interfere in my life.
+#' Question I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
+#' B. Freedom is having a government that doesn't spy on me or interfere in my life.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` one of the most important
-#'   * `2` extremely important
-#'   * `3` very important
-#'   * `4` moderately important
-#'   * `5` somewhat important
-#'   * `6` not too important
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` one of the most important
+#'   * `[2]` extremely important
+#'   * `[3]` very important
+#'   * `[4]` moderately important
+#'   * `[5]` somewhat important
+#'   * `[6]` not too important
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -289,20 +289,20 @@ NULL
 #' 
 #'  inpeace
 #' 
-#' Question Iâ€™m going to read you several statements about freedom. Each one may say something true and important about freedom, but Iâ€™d like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
+#' Question I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
 #' C. True freedom is feeling an inner spiritual peace.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` one of the most important
-#'   * `2` extremely important
-#'   * `3` very important
-#'   * `4` moderately important
-#'   * `5` somewhat important
-#'   * `6` not too important
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` one of the most important
+#'   * `[2]` extremely important
+#'   * `[3]` very important
+#'   * `[4]` moderately important
+#'   * `[5]` somewhat important
+#'   * `[6]` not too important
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -332,20 +332,20 @@ NULL
 #' 
 #'  partpol
 #' 
-#' Question Iâ€™m going to read you several statements about freedom. Each one may say something true and important about freedom, but Iâ€™d like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
+#' Question I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
 #' D. Freedom is having the right to participate in politics and elections.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` one of the most important
-#'   * `2` extremely important
-#'   * `3` very important
-#'   * `4` moderately important
-#'   * `5` somewhat important
-#'   * `6` not too important
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` one of the most important
+#'   * `[2]` extremely important
+#'   * `[3]` very important
+#'   * `[4]` moderately important
+#'   * `[5]` somewhat important
+#'   * `[6]` not too important
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -375,20 +375,20 @@ NULL
 #' 
 #'  choice
 #' 
-#' Question Iâ€™m going to read you several statements about freedom. Each one may say something true and important about freedom, but Iâ€™d like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
+#' Question I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
 #' E. Freedom is having the power to choose and do what I want in life.
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` one of the most important
-#'   * `2` extremely important
-#'   * `3` very important
-#'   * `4` moderately important
-#'   * `5` somewhat important
-#'   * `6` not too important
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` one of the most important
+#'   * `[2]` extremely important
+#'   * `[3]` very important
+#'   * `[4]` moderately important
+#'   * `[5]` somewhat important
+#'   * `[6]` not too important
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

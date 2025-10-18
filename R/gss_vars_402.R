@@ -7,14 +7,14 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -49,14 +49,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -91,14 +91,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -129,18 +129,18 @@ NULL
 #'  acqreps
 #' 
 #' Question Now thinking about all the people you are acquainted with: 
-#' A. How many of do you think are Republicans? Would you sayâ€¦
+#' A. How many of do you think are Republicans? Would you say…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost all
-#'   * `2` most
-#'   * `3` about half
-#'   * `4` a few
-#'   * `5` none
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost all
+#'   * `[2]` most
+#'   * `[3]` about half
+#'   * `[4]` a few
+#'   * `[5]` none
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -171,18 +171,18 @@ NULL
 #'  acqdems
 #' 
 #' Question Now thinking about all the people you are acquainted with: 
-#' B. How many of do you think are Democrats? Would you sayâ€¦
+#' B. How many of do you think are Democrats? Would you say…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost all
-#'   * `2` most
-#'   * `3` about half
-#'   * `4` a few
-#'   * `5` none
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost all
+#'   * `[2]` most
+#'   * `[3]` about half
+#'   * `[4]` a few
+#'   * `[5]` none
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -213,18 +213,18 @@ NULL
 #'  acqattnd
 #' 
 #' Question Now thinking about all the people you are acquainted with: 
-#' C. How many do you think attend religious services regularly? Would you sayâ€¦
+#' C. How many do you think attend religious services regularly? Would you say…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost all
-#'   * `2` most
-#'   * `3` about half
-#'   * `4` a few
-#'   * `5` none
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost all
+#'   * `[2]` most
+#'   * `[3]` about half
+#'   * `[4]` a few
+#'   * `[5]` none
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -254,18 +254,18 @@ NULL
 #' 
 #'  acqmyrac
 #' 
-#' Question Are the people that you are acquainted withâ€¦
+#' Question Are the people that you are acquainted with…
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost all the same race as you
-#'   * `2` mostly the same race as you
-#'   * `3` about evenly divided
-#'   * `4` mostly a different race than you
-#'   * `5` almost all a different race than you
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost all the same race as you
+#'   * `[2]` mostly the same race as you
+#'   * `[3]` about evenly divided
+#'   * `[4]` mostly a different race than you
+#'   * `[5]` almost all a different race than you
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -295,19 +295,19 @@ NULL
 #' 
 #'  trtkevin
 #' 
-#' Question Now Iâ€™m going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
+#' Question Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
 #' A. How many of the people that you trust are named Kevin?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -337,19 +337,19 @@ NULL
 #' 
 #'  trtkaren
 #' 
-#' Question Now Iâ€™m going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
+#' Question Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
 #' B. How many are named Karen?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -379,19 +379,19 @@ NULL
 #' 
 #'  trtshawn
 #' 
-#' Question Now Iâ€™m going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
+#' Question Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 
 #' C. How many are named Shawn?
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` 0
-#'   * `2` 1
-#'   * `3` 2 - 5
-#'   * `4` 6 - 10
-#'   * `5` more than 10
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` 0
+#'   * `[2]` 1
+#'   * `[3]` 2 - 5
+#'   * `[4]` 6 - 10
+#'   * `[5]` more than 10
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

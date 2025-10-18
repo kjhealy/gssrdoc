@@ -15,19 +15,19 @@ Question Please give a general estimate of how much cash you would get if all th
 \section{Values}{
 
 \itemize{
-\item \code{1} less than $499
-\item \code{2} $500 to $999
-\item \code{3} $1,000 to $2,999
-\item \code{4} $3,000 to $4,999
-\item \code{5} $5,000 to $9,999
-\item \code{6} $10,000 to $19,999
-\item \code{7} $20,000 to $39,999
-\item \code{8} $40,000 to $79,999
-\item \code{9} $80,000 to $199,999
-\item \code{10} $200,000 to $499,999
-\item \code{11} $500,000 to $999,000
-\item \code{12} over $1 million
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} less than $499
+\item \verb{[2]} $500 to $999
+\item \verb{[3]} $1,000 to $2,999
+\item \verb{[4]} $3,000 to $4,999
+\item \verb{[5]} $5,000 to $9,999
+\item \verb{[6]} $10,000 to $19,999
+\item \verb{[7]} $20,000 to $39,999
+\item \verb{[8]} $40,000 to $79,999
+\item \verb{[9]} $80,000 to $199,999
+\item \verb{[10]} $200,000 to $499,999
+\item \verb{[11]} $500,000 to $999,000
+\item \verb{[12]} over $1 million
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

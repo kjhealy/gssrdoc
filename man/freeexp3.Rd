@@ -16,17 +16,17 @@ C. Third distinct experience mentioned
 \section{Values}{
 
 \itemize{
-\item \code{1} moving:driving travel
-\item \code{2} leisure:recreation enjoyable activity
-\item \code{3} social:engagement with family or institutions
-\item \code{4} negative:no obigation, divorced, being alone
-\item \code{5} inner:spiritual and religious freedom
-\item \code{6} choices:variant of making choices
-\item \code{7} citizen:political participation
-\item \code{8} security:economic security and independence
-\item \code{9} other
-\item \code{98} no answer dont know
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} moving:driving travel
+\item \verb{[2]} leisure:recreation enjoyable activity
+\item \verb{[3]} social:engagement with family or institutions
+\item \verb{[4]} negative:no obigation, divorced, being alone
+\item \verb{[5]} inner:spiritual and religious freedom
+\item \verb{[6]} choices:variant of making choices
+\item \verb{[7]} citizen:political participation
+\item \verb{[8]} security:economic security and independence
+\item \verb{[9]} other
+\item \verb{[98]} no answer dont know
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

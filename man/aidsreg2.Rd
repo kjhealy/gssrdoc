@@ -16,17 +16,17 @@ E. What state did this person live in?
 \section{Values}{
 
 \itemize{
-\item \code{0} foreign
-\item \code{1} new england
-\item \code{2} middle atlantic
-\item \code{3} e. nor. central
-\item \code{4} w. nor. central
-\item \code{5} south atlantic
-\item \code{6} e. sou. central
-\item \code{7} w. sou. central
-\item \code{8} mountain
-\item \code{9} pacific
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[0]} foreign
+\item \verb{[1]} new england
+\item \verb{[2]} middle atlantic
+\item \verb{[3]} e. nor. central
+\item \verb{[4]} w. nor. central
+\item \verb{[5]} south atlantic
+\item \verb{[6]} e. sou. central
+\item \verb{[7]} w. sou. central
+\item \verb{[8]} mountain
+\item \verb{[9]} pacific
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

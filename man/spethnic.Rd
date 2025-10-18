@@ -17,49 +17,49 @@ A. SUMMARY ETHNICITY OF SPOUSE
 \section{Values}{
 
 \itemize{
-\item \code{1} africa
-\item \code{2} austria
-\item \code{3} french canada
-\item \code{4} other canada
-\item \code{5} china
-\item \code{6} czechoslovakia
-\item \code{7} denmark
-\item \code{8} england & wales
-\item \code{9} finland
-\item \code{10} france
-\item \code{11} germany
-\item \code{12} greece
-\item \code{13} hungary
-\item \code{14} ireland
-\item \code{15} italy
-\item \code{16} japan
-\item \code{17} mexico
-\item \code{18} netherlands
-\item \code{19} norway
-\item \code{20} philippines
-\item \code{21} poland
-\item \code{22} puerto rico
-\item \code{23} russia
-\item \code{24} scotland
-\item \code{25} spain
-\item \code{26} sweden
-\item \code{27} switzerland
-\item \code{28} west indies
-\item \code{29} other
-\item \code{30} american indian
-\item \code{31} india
-\item \code{32} portugal
-\item \code{33} lithuania
-\item \code{34} yugoslavia
-\item \code{35} rumania
-\item \code{36} belgium
-\item \code{37} arabic
-\item \code{38} other spanish
-\item \code{39} non-span windies
-\item \code{40} other asian
-\item \code{41} other european
-\item \code{97} american only
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} africa
+\item \verb{[2]} austria
+\item \verb{[3]} french canada
+\item \verb{[4]} other canada
+\item \verb{[5]} china
+\item \verb{[6]} czechoslovakia
+\item \verb{[7]} denmark
+\item \verb{[8]} england & wales
+\item \verb{[9]} finland
+\item \verb{[10]} france
+\item \verb{[11]} germany
+\item \verb{[12]} greece
+\item \verb{[13]} hungary
+\item \verb{[14]} ireland
+\item \verb{[15]} italy
+\item \verb{[16]} japan
+\item \verb{[17]} mexico
+\item \verb{[18]} netherlands
+\item \verb{[19]} norway
+\item \verb{[20]} philippines
+\item \verb{[21]} poland
+\item \verb{[22]} puerto rico
+\item \verb{[23]} russia
+\item \verb{[24]} scotland
+\item \verb{[25]} spain
+\item \verb{[26]} sweden
+\item \verb{[27]} switzerland
+\item \verb{[28]} west indies
+\item \verb{[29]} other
+\item \verb{[30]} american indian
+\item \verb{[31]} india
+\item \verb{[32]} portugal
+\item \verb{[33]} lithuania
+\item \verb{[34]} yugoslavia
+\item \verb{[35]} rumania
+\item \verb{[36]} belgium
+\item \verb{[37]} arabic
+\item \verb{[38]} other spanish
+\item \verb{[39]} non-span windies
+\item \verb{[40]} other asian
+\item \verb{[41]} other european
+\item \verb{[97]} american only
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

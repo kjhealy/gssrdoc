@@ -15,22 +15,22 @@ Question Number in family of person who was household informant (i.e. who provid
 \section{Values}{
 
 \itemize{
-\item \code{1} 1st person
-\item \code{2} 2nd person
-\item \code{3} 3rd person
-\item \code{4} 4th person
-\item \code{5} 5th person
-\item \code{6} 6th person
-\item \code{7} 7th person
-\item \code{8} 8th person
-\item \code{9} 9th person
-\item \code{10} 10th person
-\item \code{11} 11th person
-\item \code{12} 12th person
-\item \code{13} 13th person
-\item \code{14} 14th person
-\item \code{22} non-household person
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} 1st person
+\item \verb{[2]} 2nd person
+\item \verb{[3]} 3rd person
+\item \verb{[4]} 4th person
+\item \verb{[5]} 5th person
+\item \verb{[6]} 6th person
+\item \verb{[7]} 7th person
+\item \verb{[8]} 8th person
+\item \verb{[9]} 9th person
+\item \verb{[10]} 10th person
+\item \verb{[11]} 11th person
+\item \verb{[12]} 12th person
+\item \verb{[13]} 13th person
+\item \verb{[14]} 14th person
+\item \verb{[22]} non-household person
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -7,14 +7,14 @@
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost all of the time
-#'   * `2` most of the time
-#'   * `3` about half of the time
-#'   * `4` some of the time
-#'   * `5` hardly any of the time
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost all of the time
+#'   * `[2]` most of the time
+#'   * `[3]` about half of the time
+#'   * `[4]` some of the time
+#'   * `[5]` hardly any of the time
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -49,14 +49,14 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` almost all of the time
-#'   * `2` most of the time
-#'   * `3` about half of the time
-#'   * `4` some of the time
-#'   * `5` hardly any of the time
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` almost all of the time
+#'   * `[2]` most of the time
+#'   * `[3]` about half of the time
+#'   * `[4]` some of the time
+#'   * `[5]` hardly any of the time
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -90,15 +90,15 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` very clean
-#'   * `2` clean
-#'   * `3` so-so
-#'   * `4` not very clean
-#'   * `5` dirty
-#'   * `6` interviewer never saw interior of the respondent's hu
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` very clean
+#'   * `[2]` clean
+#'   * `[3]` so-so
+#'   * `[4]` not very clean
+#'   * `[5]` dirty
+#'   * `[6]` interviewer never saw interior of the respondent's hu
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years                  |
@@ -136,17 +136,17 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` telephone line
-#'   * `2` dsl
-#'   * `3` cable
-#'   * `4` satellite
-#'   * `5` wireless
-#'   * `6` cellphone
-#'   * `7` other
-#'   * `8` not at all
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` telephone line
+#'   * `[2]` dsl
+#'   * `[3]` cable
+#'   * `[4]` satellite
+#'   * `[5]` wireless
+#'   * `[6]` cellphone
+#'   * `[7]` other
+#'   * `[8]` not at all
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -181,18 +181,18 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` want:doing what i want
-#'   * `2` autonomy:self-realization
-#'   * `3` choices:making decision
-#'   * `4` rights:religion and speech
-#'   * `5` movement:movement and travel
-#'   * `6` negative:slave surbordinate discrimination
-#'   * `7` citizen:political participation
-#'   * `8` security:economic independence
-#'   * `9` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` want:doing what i want
+#'   * `[2]` autonomy:self-realization
+#'   * `[3]` choices:making decision
+#'   * `[4]` rights:religion and speech
+#'   * `[5]` movement:movement and travel
+#'   * `[6]` negative:slave surbordinate discrimination
+#'   * `[7]` citizen:political participation
+#'   * `[8]` security:economic independence
+#'   * `[9]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -227,18 +227,18 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` want:doing what i want
-#'   * `2` autonomy:self-realization
-#'   * `3` choices:making decision
-#'   * `4` rights:religion and speech
-#'   * `5` movement:movement and travel
-#'   * `6` negative:slave surbordinate discrimination
-#'   * `7` citizen:political participation
-#'   * `8` security:economic independence
-#'   * `9` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` want:doing what i want
+#'   * `[2]` autonomy:self-realization
+#'   * `[3]` choices:making decision
+#'   * `[4]` rights:religion and speech
+#'   * `[5]` movement:movement and travel
+#'   * `[6]` negative:slave surbordinate discrimination
+#'   * `[7]` citizen:political participation
+#'   * `[8]` security:economic independence
+#'   * `[9]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -273,18 +273,18 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` want:doing what i want
-#'   * `2` autonomy:self-realization
-#'   * `3` choices:making decision
-#'   * `4` rights:religion and speech
-#'   * `5` movement:movement and travel
-#'   * `6` negative:slave surbordinate discrimination
-#'   * `7` citizen:political participation
-#'   * `8` security:economic independence
-#'   * `9` other
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` want:doing what i want
+#'   * `[2]` autonomy:self-realization
+#'   * `[3]` choices:making decision
+#'   * `[4]` rights:religion and speech
+#'   * `[5]` movement:movement and travel
+#'   * `[6]` negative:slave surbordinate discrimination
+#'   * `[7]` citizen:political participation
+#'   * `[8]` security:economic independence
+#'   * `[9]` other
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -319,19 +319,19 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` moving:driving travel
-#'   * `2` leisure:recreation enjoyable activity
-#'   * `3` social:engagement with family or institutions
-#'   * `4` negative:no obigation, divorced, being alone
-#'   * `5` inner:spiritual and religious freedom
-#'   * `6` choices:variant of making choices
-#'   * `7` citizen:political participation
-#'   * `8` security:economic security and independence
-#'   * `9` other
-#'   * `98` no answer dont know
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` moving:driving travel
+#'   * `[2]` leisure:recreation enjoyable activity
+#'   * `[3]` social:engagement with family or institutions
+#'   * `[4]` negative:no obigation, divorced, being alone
+#'   * `[5]` inner:spiritual and religious freedom
+#'   * `[6]` choices:variant of making choices
+#'   * `[7]` citizen:political participation
+#'   * `[8]` security:economic security and independence
+#'   * `[9]` other
+#'   * `[98]` no answer dont know
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -366,19 +366,19 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` moving:driving travel
-#'   * `2` leisure:recreation enjoyable activity
-#'   * `3` social:engagement with family or institutions
-#'   * `4` negative:no obigation, divorced, being alone
-#'   * `5` inner:spiritual and religious freedom
-#'   * `6` choices:variant of making choices
-#'   * `7` citizen:political participation
-#'   * `8` security:economic security and independence
-#'   * `9` other
-#'   * `98` no answer dont know
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` moving:driving travel
+#'   * `[2]` leisure:recreation enjoyable activity
+#'   * `[3]` social:engagement with family or institutions
+#'   * `[4]` negative:no obigation, divorced, being alone
+#'   * `[5]` inner:spiritual and religious freedom
+#'   * `[6]` choices:variant of making choices
+#'   * `[7]` citizen:political participation
+#'   * `[8]` security:economic security and independence
+#'   * `[9]` other
+#'   * `[98]` no answer dont know
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
@@ -413,19 +413,19 @@ NULL
 #' 
 #' 
 #' @section Values: 
-#' 
-#'   * `1` moving:driving travel
-#'   * `2` leisure:recreation enjoyable activity
-#'   * `3` social:engagement with family or institutions
-#'   * `4` negative:no obigation, divorced, being alone
-#'   * `5` inner:spiritual and religious freedom
-#'   * `6` choices:variant of making choices
-#'   * `7` citizen:political participation
-#'   * `8` security:economic security and independence
-#'   * `9` other
-#'   * `98` no answer dont know
-#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
-#' 
+#'
+#'   * `[1]` moving:driving travel
+#'   * `[2]` leisure:recreation enjoyable activity
+#'   * `[3]` social:engagement with family or institutions
+#'   * `[4]` negative:no obigation, divorced, being alone
+#'   * `[5]` inner:spiritual and religious freedom
+#'   * `[6]` choices:variant of making choices
+#'   * `[7]` citizen:political participation
+#'   * `[8]` security:economic security and independence
+#'   * `[9]` other
+#'   * `[98]` no answer dont know
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |

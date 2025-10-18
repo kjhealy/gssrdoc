@@ -20,38 +20,38 @@ A. Starting when you were 16 years old, what other religious preferences have yo
 \section{Values}{
 
 \itemize{
-\item \code{110000} amer baptist assoc
-\item \code{111000} amer bapt ch in us
-\item \code{112000} natl bapt con of am
-\item \code{113000} natl bapt con, usa
-\item \code{114000} southern bapt con
-\item \code{115000} other baptist church
-\item \code{118000} baptist, dk which
-\item \code{120000} afrcn meth epis ch
-\item \code{121000} afrcn meth epis zion
-\item \code{122000} united methodist ch
-\item \code{123000} other methodist ch
-\item \code{128000} methodist, dk which
-\item \code{130000} amer lutheran church
-\item \code{131000} lutheran ch in amer
-\item \code{132000} luth ch-missouri syn
-\item \code{133000} wisconsin ev luth sn
-\item \code{134000} other lutheran churc
-\item \code{135000} evangelical lutheran
-\item \code{138000} lutheran, dk which
-\item \code{140000} presbyterian ch n us
-\item \code{141000} united pres ch in us
-\item \code{142000} other presbyterian
-\item \code{148000} presbyterian, dk whi
-\item \code{150000} episcopal church
-\item \code{160000} other protestant
-\item \code{170000} no denomination
-\item \code{2e+05} catholic
-\item \code{3e+05} jewish
-\item \code{4e+05} none
-\item \code{5e+05} other religion
-\item \code{999999} missing
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[110000]} amer baptist assoc
+\item \verb{[111000]} amer bapt ch in us
+\item \verb{[112000]} natl bapt con of am
+\item \verb{[113000]} natl bapt con, usa
+\item \verb{[114000]} southern bapt con
+\item \verb{[115000]} other baptist church
+\item \verb{[118000]} baptist, dk which
+\item \verb{[120000]} afrcn meth epis ch
+\item \verb{[121000]} afrcn meth epis zion
+\item \verb{[122000]} united methodist ch
+\item \verb{[123000]} other methodist ch
+\item \verb{[128000]} methodist, dk which
+\item \verb{[130000]} amer lutheran church
+\item \verb{[131000]} lutheran ch in amer
+\item \verb{[132000]} luth ch-missouri syn
+\item \verb{[133000]} wisconsin ev luth sn
+\item \verb{[134000]} other lutheran churc
+\item \verb{[135000]} evangelical lutheran
+\item \verb{[138000]} lutheran, dk which
+\item \verb{[140000]} presbyterian ch n us
+\item \verb{[141000]} united pres ch in us
+\item \verb{[142000]} other presbyterian
+\item \verb{[148000]} presbyterian, dk whi
+\item \verb{[150000]} episcopal church
+\item \verb{[160000]} other protestant
+\item \verb{[170000]} no denomination
+\item \verb{[2e+05]} catholic
+\item \verb{[3e+05]} jewish
+\item \verb{[4e+05]} none
+\item \verb{[5e+05]} other religion
+\item \verb{[999999]} missing
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

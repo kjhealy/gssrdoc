@@ -15,13 +15,13 @@ Question C. SRC (SURVEY RESEARCH CENTER, UNIVERSITY OF MICHIGAN) NEW BELT CODE
 \section{Values}{
 
 \itemize{
-\item \code{1} central city of 12 largest smsas
-\item \code{2} central city of the remainder of the 100 largest smsas
-\item \code{3} suburbs of 12 largest smsas
-\item \code{4} suburbs of the remaining 100 largest smsas
-\item \code{5} other urban (counties having towns of 10,000 or more)
-\item \code{6} other rural (counties having no towns of 10,000 or more)
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} central city of 12 largest smsas
+\item \verb{[2]} central city of the remainder of the 100 largest smsas
+\item \verb{[3]} suburbs of 12 largest smsas
+\item \verb{[4]} suburbs of the remaining 100 largest smsas
+\item \verb{[5]} other urban (counties having towns of 10,000 or more)
+\item \verb{[6]} other rural (counties having no towns of 10,000 or more)
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

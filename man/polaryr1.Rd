@@ -10,17 +10,17 @@ General Social Survey https://gss.norc.org
 polaryr1
 }
 \details{
-Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earthâ€™s polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely toâ€¦
+Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earth's polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely to…
 A. Watch a television program about the polar regions?
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} very likely
-\item \code{2} somewhat likely
-\item \code{3} somewhat unlikely
-\item \code{4} very unlikely
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} very likely
+\item \verb{[2]} somewhat likely
+\item \verb{[3]} somewhat unlikely
+\item \verb{[4]} very unlikely
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

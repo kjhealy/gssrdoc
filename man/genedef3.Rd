@@ -17,43 +17,43 @@ C. Third Mention
 \section{Values}{
 
 \itemize{
-\item \code{1} downs syndrome
-\item \code{2} mental retardation
-\item \code{3} spina bifida
-\item \code{4} muscular dystrophy
-\item \code{5} cystic fibrosis
-\item \code{6} cerebral palsy
-\item \code{7} crippling diseases
-\item \code{10} blind,deaf
-\item \code{11} missing limbs
-\item \code{12} major deformities
-\item \code{13} life-threatening deform
-\item \code{14} handicapped
-\item \code{15} physical defects
-\item \code{20} sickle cell anemia
-\item \code{21} rh factor
-\item \code{22} hemophilia
-\item \code{30} addiction to drugs
-\item \code{31} aids
-\item \code{35} multiple sclerosis
-\item \code{60} heart
-\item \code{61} kidneys
-\item \code{62} siamese twins
-\item \code{70} incurable disease
-\item \code{71} tourettes syndrome
-\item \code{72} sexual transmitted diseases
-\item \code{73} diabetes
-\item \code{74} birth defects
-\item \code{75} cancer
-\item \code{76} psychological problems
-\item \code{77} neurological problems
-\item \code{78} hydrocephalus
-\item \code{79} huntingtons chorea
-\item \code{80} tay-sachs
-\item \code{81} reyes syndrome
-\item \code{90} unable to take care of self
-\item \code{95} other
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} downs syndrome
+\item \verb{[2]} mental retardation
+\item \verb{[3]} spina bifida
+\item \verb{[4]} muscular dystrophy
+\item \verb{[5]} cystic fibrosis
+\item \verb{[6]} cerebral palsy
+\item \verb{[7]} crippling diseases
+\item \verb{[10]} blind,deaf
+\item \verb{[11]} missing limbs
+\item \verb{[12]} major deformities
+\item \verb{[13]} life-threatening deform
+\item \verb{[14]} handicapped
+\item \verb{[15]} physical defects
+\item \verb{[20]} sickle cell anemia
+\item \verb{[21]} rh factor
+\item \verb{[22]} hemophilia
+\item \verb{[30]} addiction to drugs
+\item \verb{[31]} aids
+\item \verb{[35]} multiple sclerosis
+\item \verb{[60]} heart
+\item \verb{[61]} kidneys
+\item \verb{[62]} siamese twins
+\item \verb{[70]} incurable disease
+\item \verb{[71]} tourettes syndrome
+\item \verb{[72]} sexual transmitted diseases
+\item \verb{[73]} diabetes
+\item \verb{[74]} birth defects
+\item \verb{[75]} cancer
+\item \verb{[76]} psychological problems
+\item \verb{[77]} neurological problems
+\item \verb{[78]} hydrocephalus
+\item \verb{[79]} huntingtons chorea
+\item \verb{[80]} tay-sachs
+\item \verb{[81]} reyes syndrome
+\item \verb{[90]} unable to take care of self
+\item \verb{[95]} other
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

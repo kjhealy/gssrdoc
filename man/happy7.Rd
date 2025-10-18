@@ -15,14 +15,14 @@ Question If you were to consider your life in general, how happy or unhappy woul
 \section{Values}{
 
 \itemize{
-\item \code{1} completely happy
-\item \code{2} very happy
-\item \code{3} fairly happy
-\item \code{4} neither happy nor unhappy
-\item \code{5} fairly unhappy
-\item \code{6} very unhappy
-\item \code{7} completely unhappy
-\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} completely happy
+\item \verb{[2]} very happy
+\item \verb{[3]} fairly happy
+\item \verb{[4]} neither happy nor unhappy
+\item \verb{[5]} fairly unhappy
+\item \verb{[6]} very unhappy
+\item \verb{[7]} completely unhappy
+\item \verb{[NA(d)]} can't choose \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

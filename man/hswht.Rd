@@ -10,20 +10,20 @@ General Social Survey https://gss.norc.org
 hswht
 }
 \details{
-Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF â€œHIGH SCHOOL.â€
-IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF â€œTHE LAST SCHOOL YOU ATTENDED.â€
+Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF "HIGH SCHOOL.â€
+IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF "THE LAST SCHOOL YOU ATTENDED.â€
 A. Was the high school/last school you attended all white, mostly white, about half white and half other races, mostly other races, or all other races?
 }
 \section{Values}{
 
 \itemize{
-\item \code{1} all white
-\item \code{2} mostly white
-\item \code{3} about half white and half other races
-\item \code{4} mostly other races
-\item \code{5} all other races
-\item \code{6} not all white
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} all white
+\item \verb{[2]} mostly white
+\item \verb{[3]} about half white and half other races
+\item \verb{[4]} mostly other races
+\item \verb{[5]} all other races
+\item \verb{[6]} not all white
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

@@ -17,15 +17,15 @@ Right now, I see myself as being pretty successful.
 \section{Values}{
 
 \itemize{
-\item \code{1} definitely false
-\item \code{2} mostly false
-\item \code{3} somewhat false
-\item \code{4} slightly false
-\item \code{5} slightly true
-\item \code{6} somewhat true
-\item \code{7} mostly true
-\item \code{8} definitely true
-\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+\item \verb{[1]} definitely false
+\item \verb{[2]} mostly false
+\item \verb{[3]} somewhat false
+\item \verb{[4]} slightly false
+\item \verb{[5]} slightly true
+\item \verb{[6]} somewhat true
+\item \verb{[7]} mostly true
+\item \verb{[8]} definitely true
+\item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
 

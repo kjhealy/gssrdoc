@@ -17,8 +17,8 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 \section{Values}{
 
 \itemize{
-\item No applicable value labels.
-\item 
+\item \verb{[Empty]} No applicable value labels
+\item \verb{[NA(d)]}NA
 }
 }
 
