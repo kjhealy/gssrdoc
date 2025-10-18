@@ -34,21 +34,15 @@ set.seed(251015)
 ## Cleaning errant characters that make things crash!
 ## Not all of these are present now that we're relying on the NORC json
 fix_chrs <- function(x) {
+  # fmt: skip
   replacements <- tribble(
-    ~bad,
-    ~good,
-    "â€™",
-    "'",
-    "â€˜",
-    "'",
-    "â€œ",
-    '"',
-    "â€�",
-    '"',
-    'â€"',
-    "--",
-    "â€¦",
-    "…"
+    ~bad, ~good,
+    "â€™", "'",
+    "â€˜", "'",
+    "â€œ", '"',
+    "â€�", '"',
+    'â€"', "--",
+    "â€¦", "…"
   )
 
   o <- x |>
