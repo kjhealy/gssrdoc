@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name ratepain1
@@ -70,6 +71,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name norelgsp
@@ -106,6 +108,7 @@ NULL
 #'  |Total |3199 |365 |358 |1          |103       |5              |1            |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -146,6 +149,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name evangcly
@@ -184,6 +188,7 @@ NULL
 #'  |Total |390 |1124           |923                |668               |894                  |2          |1         |30             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -227,6 +232,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name relidimp
@@ -266,6 +272,7 @@ NULL
 #'  |Total |442 |689            |1085      |1130          |363           |183        |6          |2         |34             |98           |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -309,6 +316,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name relidwe
@@ -347,6 +355,7 @@ NULL
 #'  |Total |394 |483          |1115     |927         |971        |3          |4         |37             |98           |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -388,6 +397,7 @@ NULL
 #'  |Total |2258 |559            |393   |278                        |156      |106               |2          |162       |20             |98           |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

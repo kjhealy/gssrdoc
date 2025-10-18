@@ -51,6 +51,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{mtprof3}},
 \code{\link{mtprof4}},
 \code{\link{mtprof5}}
+
+Other Voluntary Associations: 
+\code{\link{mtchurh1}},
+\code{\link{mtchurh2}},
+\code{\link{mtlit3}},
+\code{\link{mtlit4}},
+\code{\link{mtprof1}},
+\code{\link{mtprof2}},
+\code{\link{mtprof3}},
+\code{\link{mtprof4}},
+\code{\link{mtprof5}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

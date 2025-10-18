@@ -43,6 +43,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -95,6 +96,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -143,6 +145,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -191,6 +194,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -230,6 +234,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -269,6 +274,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -308,6 +314,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -347,6 +354,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -387,6 +395,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Spending
 #' 
 #' @keywords variable
 #' @md
@@ -427,6 +436,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Spending
 #' 
 #' @keywords variable
 #' @md

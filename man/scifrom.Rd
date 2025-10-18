@@ -68,6 +68,22 @@ Other Science Knowledge & Attitudes:
 \code{\link{seeksci}},
 \code{\link{toofast}},
 \code{\link{whichsci}}
+
+Other Knowledge: 
+\code{\link{seeksci}}
+
+Other Science: 
+\code{\link{advfront}},
+\code{\link{bettrlfe}},
+\code{\link{leadsci}},
+\code{\link{newsfrom}},
+\code{\link{nextgen}},
+\code{\link{scispec}},
+\code{\link{seeksci}},
+\code{\link{toofast}},
+\code{\link{whichsci}}
 }
+\concept{Knowledge}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

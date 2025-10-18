@@ -61,5 +61,6 @@ Other Science Knowledge & Attitudes:
 \code{\link{nanoharm}},
 \code{\link{scimode}}
 }
+\concept{Education}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

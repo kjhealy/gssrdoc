@@ -54,6 +54,18 @@ Other Mental Health:
 \code{\link{doc7}},
 \code{\link{doc8}},
 \code{\link{doc9}}
+
+Other Health: 
+\code{\link{doc10}},
+\code{\link{doc11}},
+\code{\link{doc2}},
+\code{\link{doc3}},
+\code{\link{doc4}},
+\code{\link{doc6}},
+\code{\link{doc7}},
+\code{\link{doc8}},
+\code{\link{doc9}}
 }
+\concept{Health}
 \concept{Mental Health}
 \keyword{variable}

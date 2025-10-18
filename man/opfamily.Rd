@@ -53,6 +53,16 @@ Other ISSP Role of Gov't:
 \code{\link{hsbasics}},
 \code{\link{hsrespct}},
 \code{\link{hssexed}}
+
+Other Opportunity: 
+\code{\link{fecolop}},
+\code{\link{fehlpbus}},
+\code{\link{fehlpcol}},
+\code{\link{fehlpjob}},
+\code{\link{feinc}},
+\code{\link{fejobop}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Opportunity}
+\concept{Split Ballots}
 \keyword{variable}

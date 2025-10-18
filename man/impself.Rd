@@ -54,6 +54,15 @@ Other Culture:
 \code{\link{mostimp1}},
 \code{\link{mostimp2}},
 \code{\link{mostimp3}}
+
+Other Values: 
+\code{\link{impcultr}},
+\code{\link{impgod}},
+\code{\link{impjob}},
+\code{\link{impkids}},
+\code{\link{impmar}},
+\code{\link{impthngs}}
 }
 \concept{Culture}
+\concept{Values}
 \keyword{variable}

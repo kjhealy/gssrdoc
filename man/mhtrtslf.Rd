@@ -46,6 +46,14 @@ Other Mental Health IV:
 \code{\link{mhreloth}},
 \code{\link{mhseepub}},
 \code{\link{mhsymp}}
+
+Other Mental Health: 
+\code{\link{mhexpoth}},
+\code{\link{mhfright}},
+\code{\link{mhreloth}},
+\code{\link{mhseepub}},
+\code{\link{mhsymp}}
 }
+\concept{Mental Health}
 \concept{Mental Health IV}
 \keyword{variable}

@@ -51,6 +51,21 @@ Other Core:
 \code{\link{minmilop}},
 \code{\link{vetfam}},
 \code{\link{vetfamnw}}
+
+Other Military: 
+\code{\link{cojail}},
+\code{\link{copunish}},
+\code{\link{draftco}},
+\code{\link{femilop}},
+\code{\link{milokfe}},
+\code{\link{milokme}},
+\code{\link{minmilop}},
+\code{\link{vetfamnw}}
+
+Other Split Ballots: 
+\code{\link{draftco}}
 }
 \concept{Core}
+\concept{Military}
+\concept{Split Ballots}
 \keyword{variable}

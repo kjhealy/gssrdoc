@@ -91,6 +91,11 @@ Other Core:
 \code{\link{pres68}},
 \code{\link{spdotpre}},
 \code{\link{vote68}}
+
+Other Political: 
+\code{\link{pres68}},
+\code{\link{vote68}}
 }
 \concept{Core}
+\concept{Political}
 \keyword{variable}

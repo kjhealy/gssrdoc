@@ -85,4 +85,5 @@ Other Core:
 \code{\link{wksups1}}
 }
 \concept{Core}
+\concept{Labor Unions}
 \keyword{variable}

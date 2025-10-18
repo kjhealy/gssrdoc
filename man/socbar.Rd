@@ -84,6 +84,13 @@ Other Core:
 \code{\link{thnkself}},
 \code{\link{workhard}},
 \code{\link{youngen}}
+
+Other Sociability: 
+\code{\link{socfrend}},
+\code{\link{socommun}},
+\code{\link{socrel}}
 }
 \concept{Core}
+\concept{Drinking}
+\concept{Sociability}
 \keyword{variable}

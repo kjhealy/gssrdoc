@@ -46,6 +46,14 @@ Counts by year:\tabular{llllllll}{
 Other Sampling and Weights: 
 \code{\link{cshutyp08}},
 \code{\link{cshutyp12}}
+
+Other Dwelling (R's): 
+\code{\link{cshutyp08}}
+
+Other Residence: 
+\code{\link{cshutyp08}}
 }
+\concept{Dwelling (R's)}
+\concept{Residence}
 \concept{Sampling and Weights}
 \keyword{variable}

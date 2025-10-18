@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name evngelze
@@ -74,6 +75,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sinsacri
@@ -113,6 +115,7 @@ NULL
 #'  |Total |2258 |565            |307   |317                        |150      |145               |4          |163       |25             |98           |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -158,6 +161,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sprtconnct
@@ -199,6 +203,7 @@ NULL
 #'  |Total |411 |334                 |693              |442                  |421                   |693                  |409                 |552   |6          |6         |65             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -244,6 +249,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sprtpurp
@@ -287,6 +293,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mditate1
@@ -326,6 +333,7 @@ NULL
 #'  |Total |422 |297            |959   |1624                       |506      |161               |11           |5         |47             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -369,6 +377,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name freemind
@@ -408,6 +417,7 @@ NULL
 #'  |Total |422 |833            |1888  |626                        |167      |50                |1            |3         |42             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

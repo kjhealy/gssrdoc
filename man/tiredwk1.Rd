@@ -56,6 +56,11 @@ Other ISSP Family & Gender Roles:
 \code{\link{wkkidscs}},
 \code{\link{wkndact}},
 \code{\link{wkyngscl}}
+
+Other Household: 
+\code{\link{hhclean1}},
+\code{\link{tiredhm1}}
 }
+\concept{Household}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

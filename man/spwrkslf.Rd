@@ -91,6 +91,18 @@ Other Core:
 \code{\link{spoccindv}},
 \code{\link{sppres}},
 \code{\link{sppres80}}
+
+Other Occupation: 
+\code{\link{spind}},
+\code{\link{spind80}},
+\code{\link{spocc}},
+\code{\link{spocc10}},
+\code{\link{spocc80}},
+\code{\link{sppres}},
+\code{\link{sppres80}}
 }
 \concept{Core}
+\concept{Job}
+\concept{Occupation}
+\concept{Work}
 \keyword{variable}

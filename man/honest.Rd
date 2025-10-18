@@ -62,6 +62,30 @@ Other Core:
 \code{\link{responsi}},
 \code{\link{role}},
 \code{\link{success}}
+
+Other Children: 
+\code{\link{amicable}},
+\code{\link{clean}},
+\code{\link{consider}},
+\code{\link{control}},
+\code{\link{judgment}},
+\code{\link{obeys}},
+\code{\link{responsi}},
+\code{\link{role}},
+\code{\link{success}}
+
+Other Split Ballots: 
+\code{\link{amicable}},
+\code{\link{clean}},
+\code{\link{consider}},
+\code{\link{control}},
+\code{\link{judgment}},
+\code{\link{obeys}},
+\code{\link{responsi}},
+\code{\link{role}},
+\code{\link{success}}
 }
+\concept{Children}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

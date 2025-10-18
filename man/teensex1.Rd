@@ -54,4 +54,5 @@ Other ISSP Family & Gender Roles:
 \code{\link{sexhar}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Sex}
 \keyword{variable}

@@ -69,6 +69,24 @@ Other War and International:
 \code{\link{egypt}},
 \code{\link{england}},
 \code{\link{israel}}
+
+Other Countries: 
+\code{\link{brazil}},
+\code{\link{canada}},
+\code{\link{china}},
+\code{\link{egypt}},
+\code{\link{england}},
+\code{\link{israel}}
+
+Other Split Ballots: 
+\code{\link{brazil}},
+\code{\link{canada}},
+\code{\link{china}},
+\code{\link{egypt}},
+\code{\link{england}},
+\code{\link{israel}}
 }
+\concept{Countries}
+\concept{Split Ballots}
 \concept{War and International}
 \keyword{variable}

@@ -58,6 +58,18 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{pavisit1}},
 \code{\link{sibinlaw}},
 \code{\link{uncaunts}}
+
+Other Family: 
+\code{\link{cousins}},
+\code{\link{kidcall}},
+\code{\link{macall1}},
+\code{\link{niecenep}},
+\code{\link{pacall1}},
+\code{\link{parslaw}},
+\code{\link{pavisit1}},
+\code{\link{sibinlaw}},
+\code{\link{uncaunts}}
 }
+\concept{Family}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

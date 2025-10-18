@@ -54,6 +54,18 @@ Other Freedom:
 \code{\link{freeexp3}},
 \code{\link{freemns1}},
 \code{\link{freemns2}}
+
+Other Feelings: 
+\code{\link{freemns1}},
+\code{\link{freemns2}}
+
+Other Freedom: 
+\code{\link{freeexp1}},
+\code{\link{freeexp2}},
+\code{\link{freeexp3}},
+\code{\link{freemns1}},
+\code{\link{freemns2}}
 }
+\concept{Feelings}
 \concept{Freedom}
 \keyword{variable}

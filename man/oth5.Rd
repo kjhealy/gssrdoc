@@ -49,4 +49,5 @@ Other Negative Life Events:
 \code{\link{extra2}}
 }
 \concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

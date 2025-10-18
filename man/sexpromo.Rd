@@ -54,5 +54,6 @@ Other Work Organizations:
 \code{\link{wrkindep}}
 }
 \concept{Gender}
+\concept{Women}
 \concept{Work Organizations}
 \keyword{variable}

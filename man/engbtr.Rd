@@ -52,6 +52,30 @@ Other Science Knowledge & Attitudes:
 \code{\link{engrel}},
 \code{\link{farming}},
 \code{\link{journlsm}}
+
+Other Employment: 
+\code{\link{engbrng}},
+\code{\link{engearn}},
+\code{\link{engfun}},
+\code{\link{engint}},
+\code{\link{engodd}},
+\code{\link{engprob}},
+\code{\link{engrel}},
+\code{\link{farming}},
+\code{\link{journlsm}}
+
+Other Job: 
+\code{\link{engbrng}},
+\code{\link{engearn}},
+\code{\link{engfun}},
+\code{\link{engint}},
+\code{\link{engodd}},
+\code{\link{engprob}},
+\code{\link{engrel}},
+\code{\link{farming}},
+\code{\link{journlsm}}
 }
+\concept{Employment}
+\concept{Job}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

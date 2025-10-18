@@ -48,6 +48,10 @@ Other Socio-political participation:
 \code{\link{fegains}},
 \code{\link{feinflu}},
 \code{\link{gavepol}}
+
+Other Race: 
+\code{\link{blkgains}}
 }
+\concept{Race}
 \concept{Socio-political participation}
 \keyword{variable}

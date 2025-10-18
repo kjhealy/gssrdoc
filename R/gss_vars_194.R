@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -106,6 +108,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -147,6 +150,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -186,6 +190,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -225,6 +230,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
+#' @family Purchases/Transactions
+#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
@@ -263,6 +270,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -302,6 +310,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -341,6 +350,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -380,6 +390,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md

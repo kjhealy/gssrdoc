@@ -49,6 +49,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{yrunion1}},
 \code{\link{yrunion3}},
 \code{\link{yrunion4}}
+
+Other Voluntary Associations: 
+\code{\link{yrsport1}},
+\code{\link{yrsport2}},
+\code{\link{yrsport3}},
+\code{\link{yrsport4}},
+\code{\link{yrsport5}},
+\code{\link{yrsport6}},
+\code{\link{yrunion1}},
+\code{\link{yrunion3}},
+\code{\link{yrunion4}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

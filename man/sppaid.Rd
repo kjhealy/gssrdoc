@@ -52,6 +52,12 @@ Other Core:
 \code{\link{spdue}},
 \code{\link{teensex}},
 \code{\link{xmarsex}}
+
+Other Divorce: 
+\code{\link{divlaw}},
+\code{\link{divlawy}},
+\code{\link{spdue}}
 }
 \concept{Core}
+\concept{Divorce}
 \keyword{variable}

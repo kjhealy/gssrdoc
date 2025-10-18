@@ -54,5 +54,6 @@ Other Multiculturalism:
 \code{\link{workimm}},
 \code{\link{workundc}}
 }
+\concept{Children}
 \concept{Multiculturalism}
 \keyword{variable}

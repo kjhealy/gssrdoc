@@ -58,6 +58,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -125,6 +126,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -192,6 +194,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -231,6 +234,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -270,6 +274,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -310,6 +315,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Authority
 #' 
 #' @keywords variable
 #' @md
@@ -382,6 +388,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Family
+#' @family Sociability
 #' 
 #' @keywords variable
 #' @md
@@ -454,6 +462,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Sociability
 #' 
 #' @keywords variable
 #' @md
@@ -526,6 +535,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Sociability
 #' 
 #' @keywords variable
 #' @md
@@ -598,6 +608,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Drinking
+#' @family Sociability
 #' 
 #' @keywords variable
 #' @md

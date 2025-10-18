@@ -57,6 +57,14 @@ Other Core:
 \code{\link{wksup1}},
 \code{\link{wksups}},
 \code{\link{wksups1}}
+
+Other Income: 
+\code{\link{getaid}}
+
+Other Welfare: 
+\code{\link{getaid}}
 }
 \concept{Core}
+\concept{Income}
+\concept{Welfare}
 \keyword{variable}

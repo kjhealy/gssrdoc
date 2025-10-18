@@ -52,6 +52,10 @@ Other Family Mobility:
 \code{\link{spmarnum}},
 \code{\link{sppaeduc}},
 \code{\link{spyrborn}}
+
+Other Occupation: 
+\code{\link{sphedpre}}
 }
 \concept{Family Mobility}
+\concept{Occupation}
 \keyword{variable}

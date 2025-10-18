@@ -58,6 +58,10 @@ Other Family Mobility:
 \code{\link{spmarnum}},
 \code{\link{sppaeduc}},
 \code{\link{spyrborn}}
+
+Other Family: 
+\code{\link{agewedcr}}
 }
+\concept{Family}
 \concept{Family Mobility}
 \keyword{variable}

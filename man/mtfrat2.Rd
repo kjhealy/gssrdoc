@@ -51,6 +51,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{yrinfrm5}},
 \code{\link{yrother4}},
 \code{\link{yrother5}}
+
+Other Voluntary Associations: 
+\code{\link{mtfrat1}},
+\code{\link{mtfrat3}},
+\code{\link{yrinfrm1}},
+\code{\link{yrinfrm2}},
+\code{\link{yrinfrm3}},
+\code{\link{yrinfrm4}},
+\code{\link{yrinfrm5}},
+\code{\link{yrother4}},
+\code{\link{yrother5}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

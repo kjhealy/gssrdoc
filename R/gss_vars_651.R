@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name disblty
@@ -64,6 +65,7 @@ NULL
 #'  |Total |2382 |2   |1   |2   |4   |1   |6   |1   |2   |2   |6   |1   |3   |2   |11  |1   |1   |4   |14  |3   |4   |5   |2   |13  |1   |5   |3   |4   |32  |2   |6   |4   |2   |34  |2   |4   |4   |2   |25  |1   |5   |6   |3   |31  |4   |6   |13  |1   |35  |3   |3   |7   |21  |2   |6   |3   |3   |49  |1   |5   |3   |6   |33  |2   |7   |5   |5   |45  |4   |8   |2   |2   |32  |2   |1   |7   |3   |48  |1   |1   |4   |2   |24  |3   |3   |3   |5   |41  |1   |2   |2   |3   |20  |3   |1   |7   |1   |35  |2   |2   |1   |2   |14  |3   |3   |1   |23  |1   |1   |1   |16  |2   |1   |1   |2   |32  |2   |1   |2   |4   |12  |2   |25  |1   |2   |7   |1   |10  |1   |6   |1   |2   |10  |1   |2   |4   |1   |1   |1   |9   |2   |1   |6   |1   |1   |6   |1   |3   |1   |1   |6   |2   |1   |3   |5   |2   |4   |2   |3   |1   |3   |1   |3   |3   |1   |1   |1   |2   |1   |1   |1   |1   |1   |2  |1  |2  |1  |1  |9          |26        |26             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -106,6 +108,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name shutbus
@@ -144,6 +147,7 @@ NULL
 #'  |Total |2382 |356                              |335                            |152                                |220                                  |85           |3         |11             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -186,6 +190,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mobilsurv
@@ -226,6 +231,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name reqmasks
@@ -264,6 +270,7 @@ NULL
 #'  |Total |2382 |388                              |322                            |164                                |208                                  |69           |2         |9              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -314,6 +321,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name stockval1
@@ -350,6 +358,7 @@ NULL
 #'  |Total |3423 |46  |67 |6          |2              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -398,6 +407,7 @@ NULL
 #'  |Total |3498 |5              |4            |8                |4                |3                |3                  |2                  |5                  |2                   |1               |8          |1         |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

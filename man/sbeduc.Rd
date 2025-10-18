@@ -48,6 +48,22 @@ Other Family Mobility:
 \code{\link{sbwork1}},
 \code{\link{sbwork2}},
 \code{\link{sbwrkslf}}
+
+Other Education: 
+\code{\link{sbdeg}}
+
+Other Siblings: 
+\code{\link{sbdeg}},
+\code{\link{sbevwork}},
+\code{\link{sbind80}},
+\code{\link{sbocc80}},
+\code{\link{sbpicked}},
+\code{\link{sbpres80}},
+\code{\link{sbwork1}},
+\code{\link{sbwork2}},
+\code{\link{sbwrkslf}}
 }
+\concept{Education}
 \concept{Family Mobility}
+\concept{Siblings}
 \keyword{variable}

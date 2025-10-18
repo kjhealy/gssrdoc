@@ -57,4 +57,5 @@ Other Intergroup Relations:
 \code{\link{patrso}}
 }
 \concept{Intergroup Relations}
+\concept{Whites}
 \keyword{variable}

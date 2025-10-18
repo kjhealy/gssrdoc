@@ -56,6 +56,30 @@ Other Work Orientation:
 \code{\link{techjobs}},
 \code{\link{techwork}},
 \code{\link{worknow}}
+
+Other Job: 
+\code{\link{paydojob}},
+\code{\link{payeduc}},
+\code{\link{payfam}},
+\code{\link{paytime}},
+\code{\link{placewrk}},
+\code{\link{sethours}},
+\code{\link{techjobs}},
+\code{\link{techwork}}
+
+Other Work: 
+\code{\link{paydojob}},
+\code{\link{payeduc}},
+\code{\link{payfam}},
+\code{\link{paytime}},
+\code{\link{placewrk}},
+\code{\link{sethours}},
+\code{\link{techjobs}},
+\code{\link{techwork}},
+\code{\link{worknow}}
 }
+\concept{Employment}
+\concept{Job}
+\concept{Work}
 \concept{Work Orientation}
 \keyword{variable}

@@ -56,6 +56,17 @@ Other Mental Health:
 \code{\link{stresses}},
 \code{\link{vigversn}},
 \code{\link{wayraise}}
+
+Other Mental Health: 
+\code{\link{charactr}},
+\code{\link{imbalnce}},
+\code{\link{probfix3}},
+\code{\link{probhlp1}},
+\code{\link{probhlp2}},
+\code{\link{probhlp3}},
+\code{\link{stresses}},
+\code{\link{vigversn}},
+\code{\link{wayraise}}
 }
 \concept{Mental Health}
 \keyword{variable}

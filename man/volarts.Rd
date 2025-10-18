@@ -49,6 +49,14 @@ Other Religion and Culture:
 \code{\link{readfict}},
 \code{\link{relart}},
 \code{\link{stateart}}
+
+Other Leisure: 
+\code{\link{drama}},
+\code{\link{popmusic}},
+\code{\link{readfict}},
+\code{\link{relart}}
 }
+\concept{Leisure}
 \concept{Religion and Culture}
+\concept{Voluntary Associations}
 \keyword{variable}

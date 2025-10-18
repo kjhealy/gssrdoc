@@ -37,6 +37,14 @@ Other Family Mobility:
 \code{\link{payrdied}},
 \code{\link{presfrst}},
 \code{\link{wrkslfst}}
+
+Other Occupation: 
+\code{\link{indfirst}},
+\code{\link{occfirst}},
+\code{\link{presfrst}},
+\code{\link{wrkslfst}}
 }
 \concept{Family Mobility}
+\concept{Job}
+\concept{Occupation}
 \keyword{variable}

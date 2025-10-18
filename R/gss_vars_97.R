@@ -35,6 +35,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -78,6 +79,7 @@ NULL
 #'  |Total |2726 |535       |2829          |75        |6165  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -123,6 +125,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -166,6 +169,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -208,6 +212,7 @@ NULL
 #'  |Total |3753 |49        |495           |49        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -253,6 +258,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Siblings
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -296,6 +303,8 @@ NULL
 #'  |Total |2726 |310       |3054          |75        |6165  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Siblings
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -341,6 +350,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Siblings
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -384,6 +395,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Siblings
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -426,6 +439,8 @@ NULL
 #'  |Total |3753 |60        |484           |49        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Siblings
 #' @family Social Networks
 #' 
 #' @keywords variable

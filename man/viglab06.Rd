@@ -51,6 +51,13 @@ Other Mental Health III:
 \code{\link{mhothyou}},
 \code{\link{mhtrtoth}},
 \code{\link{seemhpub}}
+
+Other Mental Health: 
+\code{\link{mhothrel}},
+\code{\link{mhothyou}},
+\code{\link{mhtrtoth}},
+\code{\link{seemhpub}}
 }
+\concept{Mental Health}
 \concept{Mental Health III}
 \keyword{variable}

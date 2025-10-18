@@ -59,6 +59,13 @@ Other Science Knowledge & Attitudes:
 \code{\link{nanoben}},
 \code{\link{nanoharm}},
 \code{\link{scimode}}
+
+Other Science: 
+\code{\link{intsci}},
+\code{\link{nanoben}},
+\code{\link{nanoharm}}
 }
+\concept{Health}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -50,6 +50,16 @@ Other ISSP Environment:
 \code{\link{peopgrn}},
 \code{\link{redcehme}},
 \code{\link{tempgen1}}
+
+Other Environment: 
+\code{\link{busgrn}},
+\code{\link{grneffme}},
+\code{\link{helpharm}},
+\code{\link{nobuygrn}},
+\code{\link{peopgrn}},
+\code{\link{redcehme}},
+\code{\link{tempgen1}}
 }
+\concept{Environment}
 \concept{ISSP Environment}
 \keyword{variable}

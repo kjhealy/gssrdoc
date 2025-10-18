@@ -55,6 +55,18 @@ Other National Security:
 \code{\link{punfrnd}},
 \code{\link{punleak}},
 \code{\link{puntrck}}
+
+Other United States: 
+\code{\link{comdata}},
+\code{\link{comporn}},
+\code{\link{comsnoop}},
+\code{\link{comsteal}},
+\code{\link{comsys}},
+\code{\link{punenmy}},
+\code{\link{punfrnd}},
+\code{\link{punleak}},
+\code{\link{puntrck}}
 }
 \concept{National Security}
+\concept{United States}
 \keyword{variable}

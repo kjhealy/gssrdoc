@@ -58,6 +58,13 @@ Other ISSP Family & Gender Roles:
 \code{\link{wrkgrown}},
 \code{\link{wrknokid}},
 \code{\link{wrksch}}
+
+Other Women: 
+\code{\link{ilikejob}},
+\code{\link{wrkgrown}},
+\code{\link{wrknokid}},
+\code{\link{wrksch}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Women}
 \keyword{variable}

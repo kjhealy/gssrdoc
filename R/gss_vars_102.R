@@ -34,6 +34,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -76,6 +77,7 @@ NULL
 #'  |Total |2341 |960          |693         |232          |67              |53        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -120,6 +122,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -162,6 +165,7 @@ NULL
 #'  |Total |3392 |320          |375         |171          |39              |49        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -206,6 +210,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -245,6 +250,7 @@ NULL
 #'  |Total |136 |144        |200       |1042      |12        |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -286,6 +292,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -325,6 +332,7 @@ NULL
 #'  |Total |599 |117        |137       |666       |1          |14        |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -366,6 +374,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -405,6 +414,7 @@ NULL
 #'  |Total |1153 |52         |55        |269       |1          |4         |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable

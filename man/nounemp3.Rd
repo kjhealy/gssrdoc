@@ -51,6 +51,10 @@ Other Work Orientation:
 \code{\link{otherwrk}},
 \code{\link{skltrain}},
 \code{\link{spwrkgvt}}
+
+Other Unemployment: 
+\code{\link{nounemp4}}
 }
+\concept{Unemployment}
 \concept{Work Orientation}
 \keyword{variable}

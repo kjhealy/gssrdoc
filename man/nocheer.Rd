@@ -54,6 +54,14 @@ Other Religion and Culture:
 \code{\link{nervous}},
 \code{\link{uniongod}},
 \code{\link{wrthless}}
+
+Other Feelings: 
+\code{\link{effort}},
+\code{\link{fidgety}},
+\code{\link{hopeless}},
+\code{\link{nervous}},
+\code{\link{wrthless}}
 }
+\concept{Feelings}
 \concept{Religion and Culture}
 \keyword{variable}

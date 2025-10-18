@@ -35,6 +35,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -77,6 +78,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -117,6 +119,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -158,6 +161,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -201,6 +205,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -245,6 +250,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -289,6 +295,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -332,6 +339,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Spending
 #' 
 #' @keywords variable
 #' @md
@@ -373,6 +381,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Spending
 #' 
 #' @keywords variable
 #' @md
@@ -417,6 +426,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Aged
 #' 
 #' @keywords variable
 #' @md

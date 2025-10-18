@@ -52,6 +52,10 @@ Other Intergroup Relations:
 \code{\link{intlso}},
 \code{\link{patrjews}},
 \code{\link{patrwhts}}
+
+Other Southern Whites: 
+\code{\link{intlso}}
 }
 \concept{Intergroup Relations}
+\concept{Southern Whites}
 \keyword{variable}

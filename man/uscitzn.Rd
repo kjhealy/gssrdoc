@@ -50,6 +50,10 @@ Counts by year:\tabular{llllllllll}{
 \seealso{
 Other Ethnicity: 
 \code{\link{fucitzn}}
+
+Other Citizenship: 
+\code{\link{fucitzn}}
 }
+\concept{Citizenship}
 \concept{Ethnicity}
 \keyword{variable}

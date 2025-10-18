@@ -66,5 +66,6 @@ Other Core:
 \code{\link{robbry}},
 \code{\link{shotgun}}
 }
+\concept{Burglary}
 \concept{Core}
 \keyword{variable}

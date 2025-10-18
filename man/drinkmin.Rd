@@ -51,6 +51,12 @@ Other Women & Alcohol:
 \code{\link{drink1}},
 \code{\link{drink3}},
 \code{\link{drink5}}
+
+Other Drinking: 
+\code{\link{drink1}},
+\code{\link{drink3}},
+\code{\link{drink5}}
 }
+\concept{Drinking}
 \concept{Women & Alcohol}
 \keyword{variable}

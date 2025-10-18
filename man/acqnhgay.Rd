@@ -54,6 +54,19 @@ Other Number Known:
 \code{\link{acqnhpri}},
 \code{\link{acqnhune}},
 \code{\link{acqnhwht}}
+
+Other Social Networks: 
+\code{\link{acqnhasn}},
+\code{\link{acqnhblk}},
+\code{\link{acqnhgo}},
+\code{\link{acqnhhme}},
+\code{\link{acqnhhsp}},
+\code{\link{acqnhno}},
+\code{\link{acqnhpri}},
+\code{\link{acqnhune}},
+\code{\link{acqnhwht}}
 }
+\concept{Gays And Lesbians}
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

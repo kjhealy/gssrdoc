@@ -51,6 +51,22 @@ Other Culture:
 \code{\link{plymusic}},
 \code{\link{seemovie}},
 \code{\link{usevcr}}
+
+Other Leisure: 
+\code{\link{camping}},
+\code{\link{dance}},
+\code{\link{garden}},
+\code{\link{gomusic}},
+\code{\link{huntfish}},
+\code{\link{perform}},
+\code{\link{plymusic}},
+\code{\link{seemovie}},
+\code{\link{usevcr}}
+
+Other Sports: 
+\code{\link{huntfish}}
 }
 \concept{Culture}
+\concept{Leisure}
+\concept{Sports}
 \keyword{variable}

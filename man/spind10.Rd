@@ -310,6 +310,10 @@ Other Core:
 \code{\link{spocctag}},
 \code{\link{sppres10}},
 \code{\link{sppres105plus}}
+
+Other Occupation: 
+\code{\link{paocc16}}
 }
 \concept{Core}
+\concept{Occupation}
 \keyword{variable}

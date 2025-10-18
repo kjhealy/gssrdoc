@@ -41,6 +41,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sector
@@ -82,6 +83,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -126,6 +128,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name barate
@@ -168,6 +171,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name gradtounder
@@ -209,6 +213,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -271,6 +276,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -313,6 +319,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -375,6 +382,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -425,6 +433,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name spsector
@@ -466,6 +475,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md

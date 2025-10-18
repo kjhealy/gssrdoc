@@ -53,6 +53,26 @@ Other ISSP Role of Gov't:
 \code{\link{ractch15}},
 \code{\link{revpub}},
 \code{\link{revspeak}}
+
+Other Civil Liberties: 
+\code{\link{crimhold}},
+\code{\link{crimread}},
+\code{\link{crimtail}},
+\code{\link{crimtap}},
+\code{\link{racpub}},
+\code{\link{racspeak}},
+\code{\link{ractch15}},
+\code{\link{revpub}},
+\code{\link{revspeak}}
+
+Other Demonstrations: 
+\code{\link{racpub}},
+\code{\link{racspeak}},
+\code{\link{ractch15}},
+\code{\link{revpub}},
+\code{\link{revspeak}}
 }
+\concept{Civil Liberties}
+\concept{Demonstrations}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

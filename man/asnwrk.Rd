@@ -51,6 +51,13 @@ Other Multi-Ethnic United States:
 \code{\link{hisprel}},
 \code{\link{hispwrk}},
 \code{\link{mostcom}}
+
+Other Asian Americans: 
+\code{\link{asncls}},
+\code{\link{asncom}},
+\code{\link{asnrel}},
+\code{\link{asnschl}}
 }
+\concept{Asian Americans}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

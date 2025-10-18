@@ -53,4 +53,5 @@ Other Core:
 \code{\link{vetfamnw}}
 }
 \concept{Core}
+\concept{Veteran Status}
 \keyword{variable}

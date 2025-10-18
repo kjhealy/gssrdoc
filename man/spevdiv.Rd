@@ -52,6 +52,11 @@ Other ISSP Family & Gender Roles:
 \code{\link{rwrkgrwn}},
 \code{\link{rwrknokd}},
 \code{\link{rwrksch}}
+
+Other Divorce: 
+\code{\link{divhubby}},
+\code{\link{evdiv}}
 }
+\concept{Divorce}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

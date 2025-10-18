@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -70,6 +71,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -110,6 +112,7 @@ NULL
 #'  |Total |900 |121                                                          |753                                                                           |517                                                          |26         |31        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -153,6 +156,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name esopnot
@@ -190,6 +194,7 @@ NULL
 #'  |Total |900 |123                                                                                                          |981                                                                                                        |250                                                                                                            |56         |38        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -235,6 +240,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -273,6 +279,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -313,6 +320,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -353,6 +361,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -393,6 +402,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md

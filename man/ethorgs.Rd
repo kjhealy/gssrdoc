@@ -54,6 +54,18 @@ Other Multiculturalism:
 \code{\link{ethspkok}},
 \code{\link{letin}},
 \code{\link{symptblk}}
+
+Other Political: 
+\code{\link{engballt}}
+
+Other Race: 
+\code{\link{admirblk}},
+\code{\link{ethspkno}},
+\code{\link{ethspkok}},
+\code{\link{symptblk}}
 }
+\concept{Ethnicity}
 \concept{Multiculturalism}
+\concept{Political}
+\concept{Race}
 \keyword{variable}

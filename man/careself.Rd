@@ -58,6 +58,17 @@ Other Altruism:
 \code{\link{peoptrbl}},
 \code{\link{selffrst}},
 \code{\link{selfless}}
+
+Other Altruism: 
+\code{\link{accptoth}},
+\code{\link{carried}},
+\code{\link{directns}},
+\code{\link{helpaway}},
+\code{\link{loanitem}},
+\code{\link{othshelp}},
+\code{\link{peoptrbl}},
+\code{\link{selffrst}},
+\code{\link{selfless}}
 }
 \concept{Altruism}
 \keyword{variable}

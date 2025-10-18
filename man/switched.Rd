@@ -48,6 +48,12 @@ Other Religion:
 \code{\link{scimoral}},
 \code{\link{scipry}},
 \code{\link{scisolve}}
+
+Other Religion: 
+\code{\link{scichng}},
+\code{\link{scimoral}},
+\code{\link{scipry}},
+\code{\link{scisolve}}
 }
 \concept{Religion}
 \keyword{variable}

@@ -50,6 +50,19 @@ Other Markets:
 \code{\link{natrecon}},
 \code{\link{reqinfo}},
 \code{\link{tagsales}}
+
+Other Agriculture: 
+\code{\link{fambiz}}
+
+Other Labor Force Status: 
+\code{\link{hrfambiz}}
+
+Other Occupation: 
+\code{\link{fambiz}}
 }
+\concept{Agriculture}
+\concept{Labor Force Status}
 \concept{Markets}
+\concept{Occupation}
+\concept{Work}
 \keyword{variable}

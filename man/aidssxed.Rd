@@ -51,6 +51,21 @@ Other Victims & AIDS:
 \code{\link{suiage3}},
 \code{\link{suirac3}},
 \code{\link{suireg3}}
+
+Other Aids: 
+\code{\link{aidsads}},
+\code{\link{aidshlth}},
+\code{\link{aidsids}},
+\code{\link{aidsinsr}},
+\code{\link{aidsmar}}
+
+Other Split Ballots: 
+\code{\link{aidsads}},
+\code{\link{aidshlth}},
+\code{\link{aidsids}},
+\code{\link{aidssch}}
 }
+\concept{Aids}
+\concept{Split Ballots}
 \concept{Victims & AIDS}
 \keyword{variable}

@@ -55,4 +55,5 @@ Other Culture:
 \code{\link{tvshows}}
 }
 \concept{Culture}
+\concept{Language}
 \keyword{variable}

@@ -34,6 +34,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -76,6 +77,7 @@ NULL
 #'  |Total |5708 |1061 |2764 |166        |63        |9762  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -120,6 +122,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -162,6 +165,7 @@ NULL
 #'  |Total |5708 |3526 |377 |84         |67        |9762  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -206,6 +210,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -248,6 +253,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -288,6 +294,7 @@ NULL
 #'  |Total |6429 |426            |77         |384       |34              |18         |46        |7414  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -332,6 +339,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Federal Government
+#' @family Mental Health
+#' @family Spending
 #' 
 #' @keywords variable
 #' @md
@@ -374,6 +384,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -410,6 +421,7 @@ NULL
 #'  |Total |2196 |84 |2  |106 |3  |58 |12 |16 |18 |36 |1  |37 |48 |104 |4  |4  |78 |53 |44        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable

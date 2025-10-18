@@ -57,5 +57,6 @@ Other Intergroup Relations:
 \code{\link{povschs}},
 \code{\link{povzone}}
 }
+\concept{Affirmative Action}
 \concept{Intergroup Relations}
 \keyword{variable}

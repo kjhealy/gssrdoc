@@ -56,6 +56,13 @@ Other Work Orientation:
 \code{\link{unbetter}},
 \code{\link{unjobsec}},
 \code{\link{wantads}}
+
+Other Unemployment: 
+\code{\link{adforjob}},
+\code{\link{askhelp}},
+\code{\link{econsup}},
+\code{\link{wantads}}
 }
+\concept{Unemployment}
 \concept{Work Orientation}
 \keyword{variable}

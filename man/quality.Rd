@@ -52,6 +52,18 @@ Other Work Organizations:
 \code{\link{totmoney}},
 \code{\link{wrkwell}},
 \code{\link{youmoney}}
+
+Other Work: 
+\code{\link{jobjudge}},
+\code{\link{orgmoney}},
+\code{\link{othduty5}},
+\code{\link{othduty6}},
+\code{\link{othduty7}},
+\code{\link{quantity}},
+\code{\link{totmoney}},
+\code{\link{wrkwell}},
+\code{\link{youmoney}}
 }
+\concept{Work}
 \concept{Work Organizations}
 \keyword{variable}

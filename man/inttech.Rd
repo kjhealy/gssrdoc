@@ -62,4 +62,5 @@ Other Science Knowledge & Attitudes:
 \code{\link{scimode}}
 }
 \concept{Science Knowledge & Attitudes}
+\concept{Technology}
 \keyword{variable}

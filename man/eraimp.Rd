@@ -52,6 +52,21 @@ Other Core:
 \code{\link{feworkif}},
 \code{\link{racsubgv}},
 \code{\link{racsubs}}
+
+Other Equal Rights Amendment: 
+\code{\link{erainfo}},
+\code{\link{erawhy1}},
+\code{\link{erawhy2}},
+\code{\link{erawhy3}}
+
+Other Split Ballots: 
+\code{\link{erafirm}},
+\code{\link{erainfo}},
+\code{\link{erawhy1}},
+\code{\link{erawhy2}},
+\code{\link{erawhy3}}
 }
 \concept{Core}
+\concept{Equal Rights Amendment}
+\concept{Split Ballots}
 \keyword{variable}

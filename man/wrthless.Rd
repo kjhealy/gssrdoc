@@ -54,6 +54,14 @@ Other Religion and Culture:
 \code{\link{nervous}},
 \code{\link{nocheer}},
 \code{\link{uniongod}}
+
+Other Feelings: 
+\code{\link{effort}},
+\code{\link{fidgety}},
+\code{\link{hopeless}},
+\code{\link{nervous}},
+\code{\link{nocheer}}
 }
+\concept{Feelings}
 \concept{Religion and Culture}
 \keyword{variable}

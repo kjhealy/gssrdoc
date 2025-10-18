@@ -50,6 +50,12 @@ Other Quality of Working Life:
 \code{\link{slpprblm}},
 \code{\link{stress12}},
 \code{\link{weight}}
+
+Other Job: 
+\code{\link{knowschd}},
+\code{\link{satjob1}},
+\code{\link{stress12}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
 \keyword{variable}

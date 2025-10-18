@@ -54,5 +54,6 @@ Other ISSP Citizenship:
 \code{\link{signdpet}},
 \code{\link{usemedia}}
 }
+\concept{Civil Liberties}
 \concept{ISSP Citizenship}
 \keyword{variable}

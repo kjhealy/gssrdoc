@@ -57,4 +57,5 @@ Other ISSP Family & Gender Roles:
 \code{\link{spevdiv}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Labor Force Status}
 \keyword{variable}

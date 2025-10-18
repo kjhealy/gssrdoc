@@ -51,6 +51,19 @@ Other ISSP Role of Gov't:
 \code{\link{protest6}},
 \code{\link{pubecon}},
 \code{\link{ratetone}}
+
+Other Authority: 
+\code{\link{obeylaw}},
+\code{\link{pubecon}}
+
+Other Civil Liberties: 
+\code{\link{pubecon}}
+
+Other Media: 
+\code{\link{pubecon}}
 }
+\concept{Authority}
+\concept{Civil Liberties}
 \concept{ISSP Role of Gov't}
+\concept{Media}
 \keyword{variable}

@@ -58,6 +58,10 @@ Other ISSP Citizenship:
 \code{\link{polopts}},
 \code{\link{rghtsmin}},
 \code{\link{solok}}
+
+Other Social Networks: 
+\code{\link{grpsprts}}
 }
 \concept{ISSP Citizenship}
+\concept{Social Networks}
 \keyword{variable}

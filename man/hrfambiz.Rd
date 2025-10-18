@@ -52,6 +52,10 @@ Other Markets:
 \code{\link{reqinfo}},
 \code{\link{tagsales}},
 \code{\link{wkfambiz}}
+
+Other Labor Force Status: 
+\code{\link{wkfambiz}}
 }
+\concept{Labor Force Status}
 \concept{Markets}
 \keyword{variable}

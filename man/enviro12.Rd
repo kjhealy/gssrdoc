@@ -52,6 +52,18 @@ Other Information Society:
 \code{\link{polcam12}},
 \code{\link{racrel12}},
 \code{\link{taxes12}}
+
+Other Computers And Internet: 
+\code{\link{fe12}},
+\code{\link{foraff12}},
+\code{\link{gun12}},
+\code{\link{moral12}},
+\code{\link{news12}},
+\code{\link{polagree}},
+\code{\link{polcam12}},
+\code{\link{racrel12}},
+\code{\link{taxes12}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

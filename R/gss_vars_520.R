@@ -34,6 +34,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -81,6 +82,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -124,6 +126,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -171,6 +174,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -215,6 +219,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -258,6 +263,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -305,6 +311,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -346,6 +353,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -392,6 +400,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -438,6 +447,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md

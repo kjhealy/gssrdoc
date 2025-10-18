@@ -53,6 +53,12 @@ Other Intergroup Relations:
 \code{\link{whypoor4}},
 \code{\link{wlthjews}},
 \code{\link{wlthwhts}}
+
+Other Inequality, Income: 
+\code{\link{socdif1}},
+\code{\link{socdif2}},
+\code{\link{socdif3}}
 }
+\concept{Inequality, Income}
 \concept{Intergroup Relations}
 \keyword{variable}

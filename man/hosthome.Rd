@@ -55,4 +55,5 @@ Other Culture:
 \code{\link{impfinan}}
 }
 \concept{Culture}
+\concept{Sociability}
 \keyword{variable}

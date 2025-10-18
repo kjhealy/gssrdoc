@@ -67,6 +67,18 @@ Other Core:
 \code{\link{racjoin}},
 \code{\link{racthink}},
 \code{\link{racwrite}}
+
+Other Blacks: 
+\code{\link{blksimp}}
+
+Other Race: 
+\code{\link{blksimp}},
+\code{\link{racfirm}},
+\code{\link{racinfo}}
 }
+\concept{Blacks}
 \concept{Core}
+\concept{Opportunity}
+\concept{Race}
+\concept{Social Mobility}
 \keyword{variable}

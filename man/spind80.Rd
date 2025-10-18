@@ -270,6 +270,20 @@ Other Core:
 \code{\link{sppres}},
 \code{\link{sppres80}},
 \code{\link{spwrkslf}}
+
+Other Industry: 
+\code{\link{spind}}
+
+Other Occupation: 
+\code{\link{spind}},
+\code{\link{spocc}},
+\code{\link{spocc10}},
+\code{\link{spocc80}},
+\code{\link{sppres}},
+\code{\link{sppres80}},
+\code{\link{spwrkslf}}
 }
 \concept{Core}
+\concept{Industry}
+\concept{Occupation}
 \keyword{variable}

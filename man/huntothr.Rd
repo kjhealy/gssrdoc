@@ -53,6 +53,10 @@ Other Core:
 \code{\link{rowngun}},
 \code{\link{ticket}},
 \code{\link{tvhours}}
+
+Other Hunting: 
+\code{\link{hunt}}
 }
 \concept{Core}
+\concept{Hunting}
 \keyword{variable}

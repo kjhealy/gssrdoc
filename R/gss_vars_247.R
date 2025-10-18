@@ -31,6 +31,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -71,6 +72,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +110,7 @@ NULL
 #'  |Total |4887 |847 |32 |29 |31 |26 |17 |15 |11 |53 |4  |539 |33 |12 |5  |5  |13 |18 |19 |35 |57 |18 |13 |47 |60 |4  |15 |145        |44        |90 |12 |1  |2  |8  |1  |6  |91 |97 |7342  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -147,6 +150,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -184,6 +188,7 @@ NULL
 #'  |Total |6009 |9  |4  |4  |4  |5  |1  |7  |5  |8  |5  |3  |10 |6  |3  |6  |3  |5  |7  |2  |6         |1  |1  |1  |1  |2  |3  |5  |1216       |7342  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -228,6 +233,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -269,6 +275,7 @@ NULL
 #'  |Total |1635 |126            |428   |163                        |225      |52                |192          |11        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -313,6 +320,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -356,6 +364,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -398,6 +407,7 @@ NULL
 #'  |Total |4873 |124            |1133  |594                        |181      |33                |375          |29        |7342  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable

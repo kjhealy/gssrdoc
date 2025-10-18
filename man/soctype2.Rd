@@ -55,6 +55,13 @@ Other ISSP Social Inequality:
 \code{\link{payhard}},
 \code{\link{soctype1}},
 \code{\link{unsklrnk}}
+
+Other Social Class: 
+\code{\link{execrnk}},
+\code{\link{famrnk}},
+\code{\link{soctype1}},
+\code{\link{unsklrnk}}
 }
 \concept{ISSP Social Inequality}
+\concept{Social Class}
 \keyword{variable}

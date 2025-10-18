@@ -81,6 +81,18 @@ Other Core:
 \code{\link{satcity}},
 \code{\link{sathobby}},
 \code{\link{trusty}}
+
+Other People: 
+\code{\link{fair}},
+\code{\link{helpful}},
+\code{\link{trusty}}
+
+Other Split Ballots: 
+\code{\link{satcity}},
+\code{\link{sathobby}},
+\code{\link{trusty}}
 }
 \concept{Core}
+\concept{People}
+\concept{Split Ballots}
 \keyword{variable}

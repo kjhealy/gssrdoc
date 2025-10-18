@@ -59,4 +59,5 @@ Other ISSP Family & Gender Roles:
 \code{\link{twoincs1}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Income}
 \keyword{variable}

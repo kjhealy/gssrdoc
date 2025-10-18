@@ -47,6 +47,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Anomia
+#' @family Political
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -88,6 +91,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Anomia
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -129,6 +134,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Anomia
 #' 
 #' @keywords variable
 #' @md
@@ -196,6 +202,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -261,6 +268,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -336,6 +344,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Job
+#' @family Satisfaction
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -375,6 +386,7 @@ NULL
 #'  |Total |2561 |118            |134                  |32                    |10                |10         |2         |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -443,6 +455,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -508,6 +521,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Job
+#' @family Split Ballots
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -573,6 +589,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Job
+#' @family Split Ballots
+#' @family Work
 #' 
 #' @keywords variable
 #' @md

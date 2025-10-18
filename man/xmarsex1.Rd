@@ -53,6 +53,10 @@ Other ISSP Religion:
 \code{\link{hapunhap}},
 \code{\link{premars1}},
 \code{\link{stiffpun}}
+
+Other Sex: 
+\code{\link{premars1}}
 }
 \concept{ISSP Religion}
+\concept{Sex}
 \keyword{variable}

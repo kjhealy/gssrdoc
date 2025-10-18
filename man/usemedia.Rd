@@ -54,6 +54,16 @@ Other ISSP Citizenship:
 \code{\link{racmeet}},
 \code{\link{revmeet}},
 \code{\link{signdpet}}
+
+Other Political: 
+\code{\link{attrally}},
+\code{\link{avoidbuy}},
+\code{\link{cntctgov}},
+\code{\link{interpol}},
+\code{\link{joindem}},
+\code{\link{polfunds}},
+\code{\link{signdpet}}
 }
 \concept{ISSP Citizenship}
+\concept{Political}
 \keyword{variable}

@@ -52,6 +52,12 @@ Other Core:
 \code{\link{libmslm}},
 \code{\link{spkhomo}},
 \code{\link{spkmslm}}
+
+Other Capital Punishment: 
+\code{\link{capinfo}},
+\code{\link{cappun}},
+\code{\link{cappun2}}
 }
+\concept{Capital Punishment}
 \concept{Core}
 \keyword{variable}

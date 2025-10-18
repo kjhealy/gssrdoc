@@ -51,6 +51,10 @@ Other Multi-Ethnic United States:
 \code{\link{famhsps}},
 \code{\link{famjews}},
 \code{\link{famwhts}}
+
+Other Asian Americans: 
+\code{\link{fairasns}}
 }
+\concept{Asian Americans}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

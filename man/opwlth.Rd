@@ -48,4 +48,5 @@ Counts by year:\tabular{lllllllllll}{
 }
 
 \concept{ISSP Social Inequality}
+\concept{Social Mobility}
 \keyword{variable}

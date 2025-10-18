@@ -52,6 +52,14 @@ Other ISSP Role of Gov't:
 \code{\link{prespop}},
 \code{\link{volacty2}},
 \code{\link{volactyr}}
+
+Other Political: 
+\code{\link{polefy11}},
+\code{\link{polefy13}},
+\code{\link{polefy15}},
+\code{\link{polefy16}},
+\code{\link{prespop}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Political}
 \keyword{variable}

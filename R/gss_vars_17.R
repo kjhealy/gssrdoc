@@ -53,6 +53,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -120,6 +121,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -186,6 +188,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -253,6 +256,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name income16
@@ -318,6 +322,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -398,6 +403,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Region
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -479,6 +486,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Residence
+#' @family Size Of Place Of Interview
 #' 
 #' @keywords variable
 #' @md
@@ -556,6 +565,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Residence
+#' @family Size Of Place Of Interview
 #' 
 #' @keywords variable
 #' @md
@@ -589,6 +600,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Residence
+#' @family Size Of Place Of Interview
 #' 
 #' @keywords variable
 #' @md
@@ -618,6 +631,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family D.O.T. Codes
 #' 
 #' @keywords variable
 #' @md

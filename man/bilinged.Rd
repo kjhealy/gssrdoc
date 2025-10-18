@@ -52,6 +52,16 @@ Other Multiculturalism:
 \code{\link{ethspkok}},
 \code{\link{letin}},
 \code{\link{symptblk}}
+
+Other Education: 
+\code{\link{engteach}}
+
+Other Language: 
+\code{\link{engballt}},
+\code{\link{engoffcl}},
+\code{\link{engteach}}
 }
+\concept{Education}
+\concept{Language}
 \concept{Multiculturalism}
 \keyword{variable}

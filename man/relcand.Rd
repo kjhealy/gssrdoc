@@ -51,6 +51,21 @@ Other ISSP Religion:
 \code{\link{relext1}},
 \code{\link{relext2}},
 \code{\link{relmarry}}
+
+Other Religion: 
+\code{\link{ancestrs}},
+\code{\link{mywaygod}},
+\code{\link{nirvana}},
+\code{\link{reincar}},
+\code{\link{relext1}},
+\code{\link{relext2}},
+\code{\link{relmarry}}
+
+Other Values: 
+\code{\link{relmarry}}
 }
 \concept{ISSP Religion}
+\concept{Political}
+\concept{Religion}
+\concept{Values}
 \keyword{variable}

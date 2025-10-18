@@ -46,6 +46,19 @@ Other Jewish Identity:
 \code{\link{majwoth}},
 \code{\link{pajwoth}},
 \code{\link{spjrel16}}
+
+Other Family: 
+\code{\link{spjrel16}}
+
+Other Jews: 
+\code{\link{majwoth}},
+\code{\link{pajwoth}}
+
+Other Religion: 
+\code{\link{majwoth}}
 }
+\concept{Family}
 \concept{Jewish Identity}
+\concept{Jews}
+\concept{Religion}
 \keyword{variable}

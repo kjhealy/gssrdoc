@@ -53,6 +53,18 @@ Other ISSP Role of Gov't:
 \code{\link{spretire}},
 \code{\link{spschool}},
 \code{\link{spunemp}}
+
+Other Taxes: 
+\code{\link{inctax}},
+\code{\link{sparms}},
+\code{\link{sparts}},
+\code{\link{sphlth}},
+\code{\link{sppolice}},
+\code{\link{spretire}},
+\code{\link{spschool}},
+\code{\link{spunemp}}
 }
+\concept{Business}
 \concept{ISSP Role of Gov't}
+\concept{Taxes}
 \keyword{variable}

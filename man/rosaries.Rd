@@ -47,6 +47,11 @@ Counts by year:\tabular{llllllllll}{
 Other Spirituality and Religion: 
 \code{\link{idols}},
 \code{\link{notthink}}
+
+Other Religion: 
+\code{\link{idols}},
+\code{\link{notthink}}
 }
+\concept{Religion}
 \concept{Spirituality and Religion}
 \keyword{variable}

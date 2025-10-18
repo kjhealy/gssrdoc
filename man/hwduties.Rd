@@ -53,5 +53,6 @@ Other Work Orientation:
 \code{\link{wrkimp}},
 \code{\link{yrsfirm}}
 }
+\concept{Household}
 \concept{Work Orientation}
 \keyword{variable}

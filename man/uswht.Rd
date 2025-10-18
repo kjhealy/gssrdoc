@@ -51,4 +51,6 @@ Other Multi-Ethnic United States:
 \code{\link{spklangw}}
 }
 \concept{Multi-Ethnic United States}
+\concept{United States}
+\concept{Whites}
 \keyword{variable}

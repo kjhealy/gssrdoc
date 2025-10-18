@@ -52,6 +52,11 @@ Other Core:
 \code{\link{jobsec}},
 \code{\link{richwork}},
 \code{\link{satjob}}
+
+Other Anomia: 
+\code{\link{anomia7}},
+\code{\link{anomia8}}
 }
+\concept{Anomia}
 \concept{Core}
 \keyword{variable}

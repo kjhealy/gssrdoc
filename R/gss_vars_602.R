@@ -53,6 +53,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
+#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -115,6 +116,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
+#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -177,6 +179,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
+#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -230,6 +233,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name bthgrp1a
@@ -281,6 +285,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -334,6 +339,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name bthgrp1c
@@ -385,6 +391,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -438,6 +445,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name bthgrp1e
@@ -490,6 +498,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name bthgrp1f
@@ -541,6 +550,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md

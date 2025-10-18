@@ -68,6 +68,17 @@ Other Core:
 \code{\link{spanking}},
 \code{\link{xmovie}},
 \code{\link{xmovie1}}
+
+Other Sex: 
+\code{\link{pornfirm}},
+\code{\link{pornimp}},
+\code{\link{porninfo}},
+\code{\link{pornlaw}},
+\code{\link{pornout}},
+\code{\link{pornrape}},
+\code{\link{xmovie}},
+\code{\link{xmovie1}}
 }
 \concept{Core}
+\concept{Sex}
 \keyword{variable}

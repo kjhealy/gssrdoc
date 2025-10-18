@@ -54,6 +54,18 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{sisnum}},
 \code{\link{sistime}},
 \code{\link{sisvisit}}
+
+Other Family: 
+\code{\link{brotime}},
+\code{\link{brovisit}},
+\code{\link{pacall}},
+\code{\link{patime}},
+\code{\link{pavisit}},
+\code{\link{siscall}},
+\code{\link{sisnum}},
+\code{\link{sistime}},
+\code{\link{sisvisit}}
 }
+\concept{Family}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

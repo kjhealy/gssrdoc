@@ -52,6 +52,22 @@ Other ISSP Family & Gender Roles:
 \code{\link{marmakid}},
 \code{\link{marnomar}},
 \code{\link{marpakid}}
+
+Other Cohabitation: 
+\code{\link{femarry}}
+
+Other Marriage: 
+\code{\link{femarry}},
+\code{\link{marfin}},
+\code{\link{marfree}},
+\code{\link{marhappy}},
+\code{\link{markids}},
+\code{\link{marlegit}},
+\code{\link{marmakid}},
+\code{\link{marnomar}},
+\code{\link{marpakid}}
 }
+\concept{Cohabitation}
 \concept{ISSP Family & Gender Roles}
+\concept{Marriage}
 \keyword{variable}

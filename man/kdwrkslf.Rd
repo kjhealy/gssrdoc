@@ -55,6 +55,21 @@ Other Family Mobility:
 \code{\link{kdoccstatus}},
 \code{\link{kdocctag}},
 \code{\link{kdpres80}}
+
+Other Children: 
+\code{\link{kdevwork}},
+\code{\link{kdind80}},
+\code{\link{kdocc80}},
+\code{\link{kdpres80}}
+
+Other Occupation: 
+\code{\link{kdind80}},
+\code{\link{kdocc80}},
+\code{\link{kdpres80}}
 }
+\concept{Children}
 \concept{Family Mobility}
+\concept{Job}
+\concept{Occupation}
+\concept{Work}
 \keyword{variable}

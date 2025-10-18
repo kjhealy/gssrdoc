@@ -54,5 +54,6 @@ Other Quality of Working Life:
 \code{\link{workfast}},
 \code{\link{wrkhome}}
 }
+\concept{Leisure}
 \concept{Quality of Working Life}
 \keyword{variable}

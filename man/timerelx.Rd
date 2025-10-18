@@ -50,6 +50,14 @@ Other Work Orientation:
 \code{\link{timehhwk}},
 \code{\link{timeleis}},
 \code{\link{timepdwk}}
+
+Other Leisure: 
+\code{\link{timefam}},
+\code{\link{timefrnd}},
+\code{\link{timehhwk}},
+\code{\link{timeleis}},
+\code{\link{timepdwk}}
 }
+\concept{Leisure}
 \concept{Work Orientation}
 \keyword{variable}

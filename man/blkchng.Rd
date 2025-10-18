@@ -54,6 +54,22 @@ Other Multi-Ethnic United States:
 \code{\link{usjews}},
 \code{\link{usmixed}},
 \code{\link{whtchng}}
+
+Other Blacks: 
+\code{\link{usblk}}
+
+Other United States: 
+\code{\link{hispchng}},
+\code{\link{jewschng}},
+\code{\link{usamind}},
+\code{\link{usasn}},
+\code{\link{usblk}},
+\code{\link{ushisp}},
+\code{\link{usjews}},
+\code{\link{usmixed}},
+\code{\link{whtchng}}
 }
+\concept{Blacks}
 \concept{Multi-Ethnic United States}
+\concept{United States}
 \keyword{variable}

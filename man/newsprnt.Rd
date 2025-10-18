@@ -47,5 +47,6 @@ Other Misc I:
 \code{\link{getaheay}},
 \code{\link{natdiscm}}
 }
+\concept{Media}
 \concept{Misc I}
 \keyword{variable}

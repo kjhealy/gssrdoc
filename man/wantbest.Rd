@@ -54,6 +54,11 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{othfrd}},
 \code{\link{trustpeo}},
 \code{\link{usefrds}}
+
+Other People: 
+\code{\link{advantge}},
+\code{\link{trustpeo}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{People}
 \keyword{variable}

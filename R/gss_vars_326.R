@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Adult Transitions
 #' 
 #' @keywords variable
 #' @md
@@ -70,6 +71,7 @@ NULL
 #'  |Total |1483 |7  |3  |58 |12 |62 |116 |100 |65 |92 |373 |61 |37 |55 |9  |138 |1  |7  |14 |2  |1  |1  |65         |3         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
 #' @family Adult Transitions
 #' 
 #' @keywords variable
@@ -113,6 +115,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Adult Transitions
 #' 
 #' @keywords variable
 #' @md
@@ -150,6 +153,7 @@ NULL
 #'  |Total |2065 |1  |13 |2  |29 |40 |27 |19 |27 |198 |39 |36 |53 |19 |126 |2  |11 |2  |1  |15 |1  |1  |5  |32         |1         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
 #' @family Adult Transitions
 #' 
 #' @keywords variable
@@ -193,6 +197,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Adult Transitions
 #' 
 #' @keywords variable
 #' @md
@@ -230,6 +235,7 @@ NULL
 #'  |Total |2034 |16 |2  |33 |61 |42 |29 |48 |208 |43 |28 |46 |3  |107 |3  |8  |1  |1  |12 |4  |1  |1  |1  |1  |31         |1         |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
 #' @family Adult Transitions
 #' 
 #' @keywords variable
@@ -270,6 +276,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -309,6 +316,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -348,6 +356,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -387,6 +396,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md

@@ -138,6 +138,10 @@ Other Science Knowledge & Attitudes:
 \code{\link{intrhome}},
 \code{\link{solarrev}},
 \code{\link{tomatoes}}
+
+Other Education: 
+\code{\link{coldeg1}}
 }
+\concept{Education}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

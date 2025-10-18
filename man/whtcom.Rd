@@ -51,6 +51,13 @@ Other Multi-Ethnic United States:
 \code{\link{whtrel}},
 \code{\link{whtschl}},
 \code{\link{whtwrk}}
+
+Other Whites: 
+\code{\link{whtcls}},
+\code{\link{whtrel}},
+\code{\link{whtschl}},
+\code{\link{whtwrk}}
 }
 \concept{Multi-Ethnic United States}
+\concept{Whites}
 \keyword{variable}

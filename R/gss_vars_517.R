@@ -31,6 +31,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -76,6 +77,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -118,6 +120,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -160,6 +163,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -204,6 +208,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Friends
+#' @family Religion
+#' @family Sociability
 #' 
 #' @keywords variable
 #' @md
@@ -248,6 +255,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -290,6 +298,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Friends
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -330,6 +340,7 @@ NULL
 #'  |Total |1173 |62             |255   |305                        |415      |101               |23           |14        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -373,6 +384,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name govvsrel
@@ -412,6 +424,7 @@ NULL
 #'  |Total |1173 |23             |133   |212                        |598      |185               |11           |13        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

@@ -56,6 +56,27 @@ Other Quality of Working Life:
 \code{\link{waypaid}},
 \code{\link{wrktype}},
 \code{\link{yearsjob}}
+
+Other Employment: 
+\code{\link{chngtme}},
+\code{\link{moredays}},
+\code{\link{mustwork}},
+\code{\link{waypaid}},
+\code{\link{wrktype}},
+\code{\link{yearsjob}}
+
+Other Job: 
+\code{\link{chngtme}},
+\code{\link{yearsjob}}
+
+Other Work: 
+\code{\link{moredays}},
+\code{\link{mustwork}},
+\code{\link{waypaid}},
+\code{\link{yearsjob}}
 }
+\concept{Employment}
+\concept{Job}
 \concept{Quality of Working Life}
+\concept{Work}
 \keyword{variable}

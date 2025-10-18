@@ -51,6 +51,18 @@ Other Work Organizations:
 \code{\link{thisjob5}},
 \code{\link{thisjob6}},
 \code{\link{thisjob7}}
+
+Other Employment: 
+\code{\link{jobyears}},
+\code{\link{promotng}},
+\code{\link{samejob}},
+\code{\link{thisjob2}},
+\code{\link{thisjob3}},
+\code{\link{thisjob4}},
+\code{\link{thisjob5}},
+\code{\link{thisjob6}},
+\code{\link{thisjob7}}
 }
+\concept{Employment}
 \concept{Work Organizations}
 \keyword{variable}

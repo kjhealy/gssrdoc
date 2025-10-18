@@ -40,5 +40,12 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
+\seealso{
+Other Split Ballots: 
+\code{\link{partners}},
+\code{\link{sexfreq}}
+}
+\concept{Aids}
+\concept{Split Ballots}
 \concept{Victims & AIDS}
 \keyword{variable}

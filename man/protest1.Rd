@@ -60,6 +60,14 @@ Other ISSP Role of Gov't:
 \code{\link{pubdef}},
 \code{\link{pubecon}},
 \code{\link{ratetone}}
+
+Other Protest: 
+\code{\link{protest2}},
+\code{\link{protest3}},
+\code{\link{protest4}},
+\code{\link{protest5}},
+\code{\link{protest6}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Protest}
 \keyword{variable}

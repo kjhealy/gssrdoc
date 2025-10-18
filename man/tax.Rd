@@ -80,6 +80,12 @@ Other Core:
 \code{\link{libath}},
 \code{\link{spkath}},
 \code{\link{spksoc}}
+
+Other Split Ballots: 
+\code{\link{eqwlth}},
+\code{\link{eqwlthy}}
 }
 \concept{Core}
+\concept{Split Ballots}
+\concept{Taxes}
 \keyword{variable}

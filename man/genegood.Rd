@@ -46,6 +46,11 @@ Counts by year:\tabular{lllllllll}{
 Other Genes: 
 \code{\link{genetest}},
 \code{\link{genetst1}}
+
+Other Genetic Testing: 
+\code{\link{genetest}},
+\code{\link{genetst1}}
 }
 \concept{Genes}
+\concept{Genetic Testing}
 \keyword{variable}

@@ -51,6 +51,18 @@ Other Markets & Exchange - Giving & Volunteering:
 \code{\link{givrec}},
 \code{\link{givrelig}},
 \code{\link{givwork}}
+
+Other Voluntary Associations: 
+\code{\link{givart}},
+\code{\link{givenvir}},
+\code{\link{givfound}},
+\code{\link{givhuman}},
+\code{\link{givpol}},
+\code{\link{givpub}},
+\code{\link{givrec}},
+\code{\link{givrelig}},
+\code{\link{givwork}}
 }
 \concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

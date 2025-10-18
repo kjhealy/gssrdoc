@@ -53,6 +53,12 @@ Other ISSP Religion:
 \code{\link{volwkoth}},
 \code{\link{volwkpol}},
 \code{\link{volwkrel}}
+
+Other Voluntary Associations: 
+\code{\link{volwkoth}},
+\code{\link{volwkpol}},
+\code{\link{volwkrel}}
 }
 \concept{ISSP Religion}
+\concept{Voluntary Associations}
 \keyword{variable}

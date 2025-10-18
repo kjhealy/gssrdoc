@@ -33,6 +33,12 @@ Other Sampling and Weights:
 \code{\link{vstrat}},
 \code{\link{wtss}},
 \code{\link{wtssall}}
+
+Other Sample: 
+\code{\link{vpsu}},
+\code{\link{wtss}},
+\code{\link{wtssall}}
 }
+\concept{Sample}
 \concept{Sampling and Weights}
 \keyword{variable}

@@ -51,6 +51,18 @@ Other Socio-political participation:
 \code{\link{solsport}},
 \code{\link{solunion}},
 \code{\link{solvet}}
+
+Other Voluntary Associations: 
+\code{\link{solfrat}},
+\code{\link{solgreek}},
+\code{\link{solhobby}},
+\code{\link{solpolit}},
+\code{\link{solschl}},
+\code{\link{solserv}},
+\code{\link{solsport}},
+\code{\link{solunion}},
+\code{\link{solvet}}
 }
 \concept{Socio-political participation}
+\concept{Voluntary Associations}
 \keyword{variable}

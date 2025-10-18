@@ -51,6 +51,14 @@ Other Core:
 \code{\link{impfrend}},
 \code{\link{imprelax}},
 \code{\link{impwork}}
+
+Other Life Aspects, Importance Of: 
+\code{\link{impchurh}},
+\code{\link{impfam}},
+\code{\link{impfrend}},
+\code{\link{imprelax}},
+\code{\link{impwork}}
 }
 \concept{Core}
+\concept{Life Aspects, Importance Of}
 \keyword{variable}

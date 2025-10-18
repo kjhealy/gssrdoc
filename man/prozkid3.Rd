@@ -54,6 +54,17 @@ Other Mental Health:
 \code{\link{termpain}},
 \code{\link{termpay}},
 \code{\link{termrel}}
+
+Other Mental Health: 
+\code{\link{socsecfx}},
+\code{\link{socsecnu}},
+\code{\link{socsecrt}},
+\code{\link{termecon}},
+\code{\link{termemot}},
+\code{\link{terminal}},
+\code{\link{termpain}},
+\code{\link{termpay}},
+\code{\link{termrel}}
 }
 \concept{Mental Health}
 \keyword{variable}

@@ -49,6 +49,17 @@ Other Religion:
 \code{\link{reborn}},
 \code{\link{savesoul}},
 \code{\link{saygrace}}
+
+Other Religion: 
+\code{\link{churhact}},
+\code{\link{churhmem}},
+\code{\link{god}},
+\code{\link{grace16}},
+\code{\link{join16}},
+\code{\link{lapsed}},
+\code{\link{reborn}},
+\code{\link{savesoul}},
+\code{\link{saygrace}}
 }
 \concept{Religion}
 \keyword{variable}

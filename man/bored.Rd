@@ -56,6 +56,10 @@ Other Core:
 \code{\link{privacy}},
 \code{\link{rushed}},
 \code{\link{stresswk}}
+
+Other Time: 
+\code{\link{rushed}}
 }
 \concept{Core}
+\concept{Time}
 \keyword{variable}

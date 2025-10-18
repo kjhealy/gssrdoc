@@ -79,6 +79,13 @@ Other Core:
 \code{\link{socrel}},
 \code{\link{workhard}},
 \code{\link{youngen}}
+
+Other Children: 
+\code{\link{chldsex}},
+\code{\link{chldsex1}},
+\code{\link{helpoth}},
+\code{\link{workhard}}
 }
+\concept{Children}
 \concept{Core}
 \keyword{variable}

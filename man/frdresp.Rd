@@ -56,6 +56,15 @@ Other Culture:
 \code{\link{frdintel}},
 \code{\link{hosthome}},
 \code{\link{impfinan}}
+
+Other Friends: 
+\code{\link{frdcreat}},
+\code{\link{frdcultr}},
+\code{\link{frddynam}},
+\code{\link{frdfun}},
+\code{\link{frdhonst}},
+\code{\link{frdintel}}
 }
 \concept{Culture}
+\concept{Friends}
 \keyword{variable}

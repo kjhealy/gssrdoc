@@ -93,6 +93,17 @@ Other Core:
 \code{\link{rincom98}},
 \code{\link{size}},
 \code{\link{srcbelt}}
+
+Other Residence: 
+\code{\link{region}},
+\code{\link{size}},
+\code{\link{srcbelt}}
+
+Other Size Of Place Of Interview: 
+\code{\link{size}},
+\code{\link{srcbelt}}
 }
 \concept{Core}
+\concept{Residence}
+\concept{Size Of Place Of Interview}
 \keyword{variable}

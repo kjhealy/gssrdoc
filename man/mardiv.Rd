@@ -53,6 +53,11 @@ Other ISSP Family & Gender Roles:
 \code{\link{onekid}},
 \code{\link{threkids}},
 \code{\link{twokids}}
+
+Other Marriage: 
+\code{\link{marhomo}},
+\code{\link{marhomo1}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Marriage}
 \keyword{variable}

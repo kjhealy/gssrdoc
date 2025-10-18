@@ -74,6 +74,11 @@ Other Core:
 \code{\link{size}},
 \code{\link{srcbelt}},
 \code{\link{xnorcsiz}}
+
+Other Income: 
+\code{\link{income06}},
+\code{\link{rincom06}}
 }
 \concept{Core}
+\concept{Income}
 \keyword{variable}

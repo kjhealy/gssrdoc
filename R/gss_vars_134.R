@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Affirmative Action
 #' 
 #' @keywords variable
 #' @md
@@ -86,6 +87,10 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
 #' @family Multiculturalism
+#' @family Affirmative Action
+#' @family Blacks
+#' @family Job
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -127,6 +132,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
 #' @family Multiculturalism
+#' @family Blacks
 #' 
 #' @keywords variable
 #' @md
@@ -168,6 +174,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
 #' @family Multiculturalism
+#' @family Blacks
 #' 
 #' @keywords variable
 #' @md
@@ -209,6 +216,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
 #' @family Multiculturalism
+#' @family Blacks
 #' 
 #' @keywords variable
 #' @md
@@ -250,6 +258,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
 #' @family Multiculturalism
+#' @family Blacks
 #' 
 #' @keywords variable
 #' @md
@@ -291,6 +300,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
 #' @family Multiculturalism
+#' @family Blacks
 #' 
 #' @keywords variable
 #' @md
@@ -333,6 +343,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
 #' @family Multiculturalism
+#' @family Blacks
 #' 
 #' @keywords variable
 #' @md
@@ -372,6 +383,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -410,6 +422,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md

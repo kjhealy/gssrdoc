@@ -54,6 +54,17 @@ Other Religion:
 \code{\link{pajew}},
 \code{\link{paoth}},
 \code{\link{parelig}}
+
+Other Religion: 
+\code{\link{churhsch}},
+\code{\link{mafund}},
+\code{\link{majew}},
+\code{\link{maoth}},
+\code{\link{paden}},
+\code{\link{pafund}},
+\code{\link{pajew}},
+\code{\link{paoth}},
+\code{\link{parelig}}
 }
 \concept{Religion}
 \keyword{variable}

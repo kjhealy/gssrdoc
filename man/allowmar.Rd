@@ -44,4 +44,5 @@ Other Civil Liberties:
 \code{\link{allowrac}}
 }
 \concept{Civil Liberties}
+\concept{Race}
 \keyword{variable}

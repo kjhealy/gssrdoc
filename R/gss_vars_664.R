@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name racdif3x
@@ -68,6 +69,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name racdif4x
@@ -102,6 +104,7 @@ NULL
 #'  |Total |1559 |1222 |83 |35 |1  |9  |2  |7  |11 |2  |1  |145 |16 |2  |1  |4  |1  |94 |19 |1  |1  |25 |6  |2  |1  |95 |3  |1  |1  |19 |13 |1  |34 |5  |1  |1  |10 |2  |3  |1  |1  |33 |18         |19        |33             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -403,6 +406,7 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -975,6 +979,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name occ10_next
@@ -1220,6 +1225,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name other_next
@@ -1258,6 +1264,7 @@ NULL
 #'  |Total |9622 |24             |268              |4          |4         |2              |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -1300,6 +1307,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cowrkslffam
@@ -1338,6 +1346,7 @@ NULL
 #'  |Total |9757 |52  |104 |7          |4         |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -1379,6 +1388,7 @@ NULL
 #'  |Total |7276 |41            |6               |45           |195                                                          |7          |3         |3              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

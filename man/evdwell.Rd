@@ -51,6 +51,25 @@ Other Sexual Orientation:
 \code{\link{losejob5}},
 \code{\link{negjob5}},
 \code{\link{toldwork}}
+
+Other Dwelling (R's): 
+\code{\link{dwell5}}
+
+Other Gays And Lesbians: 
+\code{\link{dwell5}},
+\code{\link{evharjb}},
+\code{\link{evlosejb}},
+\code{\link{evnegjob}},
+\code{\link{harjob5}},
+\code{\link{losejob5}},
+\code{\link{negjob5}},
+\code{\link{toldwork}}
+
+Other Residence: 
+\code{\link{dwell5}}
 }
+\concept{Dwelling (R's)}
+\concept{Gays And Lesbians}
+\concept{Residence}
 \concept{Sexual Orientation}
 \keyword{variable}

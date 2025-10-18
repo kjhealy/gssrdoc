@@ -55,4 +55,5 @@ Other ISSP Role of Gov't:
 \code{\link{nosmoke}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Seat Belts}
 \keyword{variable}

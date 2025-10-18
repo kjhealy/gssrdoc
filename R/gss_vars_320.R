@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name goatb4
@@ -66,6 +67,7 @@ NULL
 #'  |Total |2144 |178          |3   |23        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -108,6 +110,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name petb4ply
@@ -146,6 +149,7 @@ NULL
 #'  |Total |2144 |55            |43    |49        |34    |23        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -188,6 +192,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name petb4fam
@@ -228,6 +233,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -269,6 +275,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -315,6 +322,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -355,6 +363,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -399,6 +408,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md

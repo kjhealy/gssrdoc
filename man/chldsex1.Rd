@@ -51,6 +51,13 @@ Other Core:
 \code{\link{thnkself}},
 \code{\link{workhard}},
 \code{\link{youngen}}
+
+Other Children: 
+\code{\link{chldsex}},
+\code{\link{helpoth}},
+\code{\link{thnkself}},
+\code{\link{workhard}}
 }
+\concept{Children}
 \concept{Core}
 \keyword{variable}

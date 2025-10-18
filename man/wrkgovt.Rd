@@ -71,6 +71,13 @@ Other Core:
 \code{\link{wrkslf}},
 \code{\link{wrkstat}},
 \code{\link{year}()}
+
+Other Occupation: 
+\code{\link{occ}},
+\code{\link{prestige}},
+\code{\link{wrkslf}}
 }
 \concept{Core}
+\concept{Industry}
+\concept{Occupation}
 \keyword{variable}

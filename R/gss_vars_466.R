@@ -39,6 +39,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cntctfrd
@@ -80,6 +81,7 @@ NULL
 #'  |Total |1175 |275                     |357        |265              |184        |78                        |10                                |3            |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -127,6 +129,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name healthissp
@@ -168,6 +171,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name unhappy
@@ -207,6 +211,7 @@ NULL
 #'  |Total |1175 |545   |335    |195       |62    |27         |7          |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -252,6 +257,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mygoals
@@ -293,6 +299,7 @@ NULL
 #'  |Total |1175 |187                  |446              |389                |82                                 |44                    |12                  |9                       |2          |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -339,6 +346,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name endsmeet
@@ -377,6 +385,7 @@ NULL
 #'  |Total |1175 |920          |213           |29              |7                      |3          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -424,6 +433,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md

@@ -55,4 +55,5 @@ Other Intergroup Relations:
 \code{\link{workwhts}}
 }
 \concept{Intergroup Relations}
+\concept{Jews}
 \keyword{variable}

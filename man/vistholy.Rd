@@ -54,6 +54,15 @@ Other ISSP Religion:
 \code{\link{relobjct}},
 \code{\link{relsprt}},
 \code{\link{rightpeo}}
+
+Other Religion: 
+\code{\link{comfort}},
+\code{\link{makefrnd}},
+\code{\link{paxhappy}},
+\code{\link{relobjct}},
+\code{\link{relsprt}},
+\code{\link{rightpeo}}
 }
 \concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

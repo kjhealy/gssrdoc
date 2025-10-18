@@ -80,6 +80,14 @@ Other Core:
 \code{\link{rifle}},
 \code{\link{robbry}},
 \code{\link{shotgun}}
+
+Other Crime: 
+\code{\link{fearhome}}
+
+Other Residence: 
+\code{\link{fearhome}}
 }
 \concept{Core}
+\concept{Crime}
+\concept{Residence}
 \keyword{variable}

@@ -45,6 +45,10 @@ Counts by year:\tabular{lllllllll}{
 \seealso{
 Other Health Status: 
 \code{\link{emotrely}}
+
+Other Health: 
+\code{\link{emotrely}}
 }
+\concept{Health}
 \concept{Health Status}
 \keyword{variable}

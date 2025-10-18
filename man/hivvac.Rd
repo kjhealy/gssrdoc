@@ -44,6 +44,16 @@ Other High Risk Behaviors:
 \code{\link{aidscndm}},
 \code{\link{hivkiss}},
 \code{\link{sexornt}}
+
+Other Aids: 
+\code{\link{aidscndm}},
+\code{\link{hivkiss}}
+
+Other Health: 
+\code{\link{aidscndm}},
+\code{\link{hivkiss}}
 }
+\concept{Aids}
+\concept{Health}
 \concept{High Risk Behaviors}
 \keyword{variable}

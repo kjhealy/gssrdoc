@@ -51,6 +51,10 @@ Other Multi-Ethnic United States:
 \code{\link{whtrel}},
 \code{\link{whtschl}},
 \code{\link{whtwrk}}
+
+Other Blacks: 
+\code{\link{knwblk}}
 }
+\concept{Blacks}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

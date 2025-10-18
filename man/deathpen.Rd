@@ -50,5 +50,6 @@ Other ISSP Religion:
 \code{\link{stiffpun}},
 \code{\link{xmarsex1}}
 }
+\concept{Capital Punishment}
 \concept{ISSP Religion}
 \keyword{variable}

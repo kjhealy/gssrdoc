@@ -53,6 +53,14 @@ Other Core:
 \code{\link{natparkz}},
 \code{\link{natroadz}},
 \code{\link{natsocz}}
+
+Other Social Class: 
+\code{\link{equal1}},
+\code{\link{equal3}},
+\code{\link{equal4}},
+\code{\link{equal6}}
 }
 \concept{Core}
+\concept{Economy}
+\concept{Social Class}
 \keyword{variable}

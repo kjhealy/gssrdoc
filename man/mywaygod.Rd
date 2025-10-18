@@ -53,6 +53,16 @@ Other ISSP Religion:
 \code{\link{relext1}},
 \code{\link{relext2}},
 \code{\link{relmarry}}
+
+Other Religion: 
+\code{\link{ancestrs}},
+\code{\link{nirvana}},
+\code{\link{reincar}},
+\code{\link{relcand}},
+\code{\link{relext1}},
+\code{\link{relext2}},
+\code{\link{relmarry}}
 }
 \concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

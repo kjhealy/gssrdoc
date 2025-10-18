@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -75,6 +76,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -121,6 +123,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
 #' @family Paradata
+#' @family Dwelling (R's)
 #' 
 #' @keywords variable
 #' @md
@@ -165,6 +168,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -210,6 +214,8 @@ NULL
 #'  |Total |1403 |461                    |64                        |161                     |272                        |115                          |73                                         |56                              |51                             |137   |24         |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Freedom
+#' @family Feelings
 #' @family Freedom
 #' 
 #' @keywords variable
@@ -257,6 +263,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
+#' @family Feelings
+#' @family Freedom
 #' 
 #' @keywords variable
 #' @md
@@ -302,6 +310,8 @@ NULL
 #'  |Total |2623 |28                     |9                         |21                      |53                         |14                           |18                                         |16                              |17                             |18    |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Freedom
+#' @family Feelings
 #' @family Freedom
 #' 
 #' @keywords variable
@@ -350,6 +360,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
+#' @family Freedom
 #' 
 #' @keywords variable
 #' @md
@@ -397,6 +408,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
+#' @family Freedom
 #' 
 #' @keywords variable
 #' @md
@@ -443,6 +455,7 @@ NULL
 #'  |Total |2710 |13                    |15                                    |15                                            |8                                            |13                                    |3                                 |17                              |19                                          |4     |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Freedom
 #' @family Freedom
 #' 
 #' @keywords variable

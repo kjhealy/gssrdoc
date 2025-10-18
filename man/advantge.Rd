@@ -54,6 +54,11 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{trustpeo}},
 \code{\link{usefrds}},
 \code{\link{wantbest}}
+
+Other People: 
+\code{\link{trustpeo}},
+\code{\link{wantbest}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{People}
 \keyword{variable}

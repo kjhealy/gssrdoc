@@ -54,6 +54,12 @@ Other National Security:
 \code{\link{secdiplo}},
 \code{\link{secprvcy}},
 \code{\link{secterr}}
+
+Other Federal Government: 
+\code{\link{secbudgt}},
+\code{\link{secdiplo}},
+\code{\link{secterr}}
 }
+\concept{Federal Government}
 \concept{National Security}
 \keyword{variable}

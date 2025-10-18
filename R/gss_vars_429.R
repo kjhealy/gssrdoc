@@ -29,6 +29,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Employment
+#' @family Health
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -68,6 +71,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Employment
+#' @family Health
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -106,6 +112,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -149,6 +156,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Health
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -189,6 +198,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Family
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -229,6 +240,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Children
+#' @family Family
+#' @family Health
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -269,6 +284,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Children
+#' @family Family
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -307,6 +325,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
+#' @family Job
+#' @family Sex
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -345,6 +366,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
+#' @family Religion
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -383,6 +406,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
+#' @family Religion
+#' @family Sex
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md

@@ -54,6 +54,15 @@ Other Victims & AIDS:
 \code{\link{suiknew}},
 \code{\link{suisex}},
 \code{\link{suiwho}}
+
+Other Aids: 
+\code{\link{aidsage3}},
+\code{\link{aidsded3}},
+\code{\link{aidsrac3}},
+\code{\link{aidsreg2}},
+\code{\link{aidsreg3}},
+\code{\link{aidswho3}}
 }
+\concept{Aids}
 \concept{Victims & AIDS}
 \keyword{variable}

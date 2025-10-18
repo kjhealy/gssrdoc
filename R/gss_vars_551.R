@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Suicide
 #' 
 #' @keywords variable
 #' @md
@@ -75,6 +76,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Suicide
 #' 
 #' @keywords variable
 #' @md
@@ -123,6 +125,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Suicide
 #' 
 #' @keywords variable
 #' @md
@@ -162,6 +165,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -201,6 +205,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Aids
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -240,6 +246,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Aids
 #' 
 #' @keywords variable
 #' @md
@@ -279,6 +286,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Aids
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -318,6 +327,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Aids
 #' 
 #' @keywords variable
 #' @md
@@ -357,6 +367,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Aids
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -396,6 +408,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Aids
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

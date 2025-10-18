@@ -52,6 +52,11 @@ Other Information Society:
 \code{\link{polfrel}},
 \code{\link{polwww}},
 \code{\link{travelgn}}
+
+Other Political: 
+\code{\link{polfrel}},
+\code{\link{polwww}}
 }
 \concept{Information Society}
+\concept{Political}
 \keyword{variable}

@@ -35,6 +35,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name poltrthsp
@@ -71,6 +72,7 @@ NULL
 #'  |Total |1315 |952   |1392   |7          |332       |34             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -111,6 +113,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name strvbias
@@ -147,6 +150,7 @@ NULL
 #'  |Total |2658 |398                                                                                 |770                                                                                                     |8          |168       |30             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -189,6 +193,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name racesurv17
@@ -228,6 +233,7 @@ NULL
 #'  |Total |2689 |541          |519       |102        |2          |167       |12             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -273,6 +279,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name conpharvacy
@@ -312,6 +319,7 @@ NULL
 #'  |Total |2689 |436          |567       |156        |1          |167       |16             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -357,6 +365,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name confedvacy
@@ -385,6 +394,7 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

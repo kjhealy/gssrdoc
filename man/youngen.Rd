@@ -53,5 +53,6 @@ Other Core:
 \code{\link{thnkself}},
 \code{\link{workhard}}
 }
+\concept{Authority}
 \concept{Core}
 \keyword{variable}

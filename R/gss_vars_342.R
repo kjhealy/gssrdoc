@@ -28,6 +28,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -64,6 +65,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -102,6 +104,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -139,6 +142,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -179,6 +183,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -219,6 +224,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -259,6 +265,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -299,6 +306,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -339,6 +347,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -379,6 +388,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md

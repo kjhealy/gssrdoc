@@ -58,6 +58,11 @@ Other Work Orientation:
 \code{\link{wrkenjoy}},
 \code{\link{wrkimp}},
 \code{\link{yrsfirm}}
+
+Other Work: 
+\code{\link{wrkenjoy}},
+\code{\link{wrkimp}}
 }
+\concept{Work}
 \concept{Work Orientation}
 \keyword{variable}

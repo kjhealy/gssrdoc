@@ -52,6 +52,22 @@ Other Global Economics:
 \code{\link{meetf2f2}},
 \code{\link{whynojb1}},
 \code{\link{whynojb2}}
+
+Other Computers And Internet: 
+\code{\link{autonojb}}
+
+Other Job: 
+\code{\link{autonojb}},
+\code{\link{inclstjb}},
+\code{\link{intlcowk}},
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{meetf2f1}},
+\code{\link{meetf2f2}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}}
 }
+\concept{Computers And Internet}
 \concept{Global Economics}
+\concept{Job}
 \keyword{variable}

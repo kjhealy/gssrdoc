@@ -56,4 +56,5 @@ Other ISSP Social Inequality:
 \code{\link{richhlth}}
 }
 \concept{ISSP Social Inequality}
+\concept{United States}
 \keyword{variable}

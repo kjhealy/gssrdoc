@@ -67,7 +67,23 @@ Other Science Knowledge & Attitudes:
 Other GSS Next: 
 \code{\link{nextgen}},
 \code{\link{toofast}}
+
+Other Federal Government: 
+\code{\link{leadsci}}
+
+Other Science: 
+\code{\link{bettrlfe}},
+\code{\link{leadsci}},
+\code{\link{newsfrom}},
+\code{\link{nextgen}},
+\code{\link{scifrom}},
+\code{\link{scispec}},
+\code{\link{seeksci}},
+\code{\link{toofast}},
+\code{\link{whichsci}}
 }
+\concept{Federal Government}
 \concept{GSS Next}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -69,5 +69,6 @@ Other Intergroup Relations:
 \code{\link{marwht}},
 \code{\link{workfare}}
 }
+\concept{Blacks}
 \concept{Intergroup Relations}
 \keyword{variable}

@@ -53,6 +53,18 @@ Other Family Mobility:
 \code{\link{sbrel8}},
 \code{\link{sbyrbrn8}},
 \code{\link{sbyrbrn9}}
+
+Other Siblings: 
+\code{\link{sbrel1}},
+\code{\link{sbrel2}},
+\code{\link{sbrel4}},
+\code{\link{sbrel5}},
+\code{\link{sbrel6}},
+\code{\link{sbrel7}},
+\code{\link{sbrel8}},
+\code{\link{sbyrbrn8}},
+\code{\link{sbyrbrn9}}
 }
 \concept{Family Mobility}
+\concept{Siblings}
 \keyword{variable}

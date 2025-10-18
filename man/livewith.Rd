@@ -45,6 +45,12 @@ Counts by year:\tabular{llllll}{
 Other Gender: 
 \code{\link{haprom}},
 \code{\link{romance}}
+
+Other Romantic Relationships: 
+\code{\link{haprom}},
+\code{\link{romance}}
 }
+\concept{Cohabitation}
 \concept{Gender}
+\concept{Romantic Relationships}
 \keyword{variable}

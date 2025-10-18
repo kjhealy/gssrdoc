@@ -37,6 +37,13 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Crime
+#' @family Economy
+#' @family Education
+#' @family Environment
+#' @family Foreign Affairs
+#' @family Salience Of Issues
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -83,6 +90,13 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Crime
+#' @family Economy
+#' @family Education
+#' @family Environment
+#' @family Foreign Affairs
+#' @family Salience Of Issues
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -122,6 +136,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family People
 #' 
 #' @keywords variable
 #' @md
@@ -162,6 +177,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family People
 #' 
 #' @keywords variable
 #' @md
@@ -201,6 +217,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -248,6 +265,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -294,6 +312,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -332,6 +351,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -370,6 +390,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -413,6 +434,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family United States
 #' 
 #' @keywords variable
 #' @md

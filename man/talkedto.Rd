@@ -59,6 +59,11 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{kidpars}},
 \code{\link{learnjob}},
 \code{\link{lentto}}
+
+Other Social Networks: 
+\code{\link{helpjob}},
+\code{\link{lentto}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Social Networks}
 \keyword{variable}

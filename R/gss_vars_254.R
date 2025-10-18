@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -71,6 +72,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -113,6 +115,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -151,6 +154,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -192,6 +196,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -233,6 +238,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -274,6 +280,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -315,6 +322,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -356,6 +364,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -397,6 +406,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md

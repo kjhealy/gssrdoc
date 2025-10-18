@@ -54,6 +54,17 @@ Other Social Networks:
 \code{\link{rclose2}},
 \code{\link{rclose3}},
 \code{\link{rclose4}}
+
+Other Social Networks: 
+\code{\link{close12}},
+\code{\link{close13}},
+\code{\link{close14}},
+\code{\link{close15}},
+\code{\link{close23}},
+\code{\link{rclose1}},
+\code{\link{rclose2}},
+\code{\link{rclose3}},
+\code{\link{rclose4}}
 }
 \concept{Social Networks}
 \keyword{variable}

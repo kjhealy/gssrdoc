@@ -52,6 +52,14 @@ Other Core:
 \code{\link{feworkif}},
 \code{\link{racsubgv}},
 \code{\link{racsubs}}
+
+Other Split Ballots: 
+\code{\link{eraimp}},
+\code{\link{erainfo}},
+\code{\link{erawhy1}},
+\code{\link{erawhy2}},
+\code{\link{erawhy3}}
 }
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

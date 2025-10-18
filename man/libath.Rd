@@ -81,6 +81,13 @@ Other Core:
 \code{\link{spkath}},
 \code{\link{spksoc}},
 \code{\link{tax}}
+
+Other Civil Liberties: 
+\code{\link{colath}},
+\code{\link{colsoc}},
+\code{\link{spkath}},
+\code{\link{spksoc}}
 }
+\concept{Civil Liberties}
 \concept{Core}
 \keyword{variable}

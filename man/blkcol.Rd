@@ -56,6 +56,22 @@ Other Intergroup Relations:
 \code{\link{povschs}},
 \code{\link{povzone}},
 \code{\link{racquota}}
+
+Other Poverty: 
+\code{\link{blkschs}},
+\code{\link{blkzone}},
+\code{\link{povcol}},
+\code{\link{povschs}},
+\code{\link{povzone}}
+
+Other Split Ballots: 
+\code{\link{blkschs}},
+\code{\link{blkzone}},
+\code{\link{povcol}},
+\code{\link{povschs}},
+\code{\link{povzone}}
 }
 \concept{Intergroup Relations}
+\concept{Poverty}
+\concept{Split Ballots}
 \keyword{variable}

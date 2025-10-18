@@ -52,6 +52,22 @@ Other Sexual Orientation:
 \code{\link{mykids}},
 \code{\link{othkids}},
 \code{\link{sppart}}
+
+Other Health: 
+\code{\link{emphlth1}},
+\code{\link{emphlth2}},
+\code{\link{hlthcovr}},
+\code{\link{mykids}},
+\code{\link{othkids}},
+\code{\link{sppart}}
+
+Other Job: 
+\code{\link{emphlth1}},
+\code{\link{emphlth2}},
+\code{\link{harsexjb}},
+\code{\link{mykids}}
 }
+\concept{Health}
+\concept{Job}
 \concept{Sexual Orientation}
 \keyword{variable}

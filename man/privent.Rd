@@ -60,5 +60,6 @@ Other ISSP Environment:
 \code{\link{scigrn}},
 \code{\link{sciworse}}
 }
+\concept{Business}
 \concept{ISSP Environment}
 \keyword{variable}

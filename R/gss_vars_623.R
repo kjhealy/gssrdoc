@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name ethregion96
@@ -67,6 +68,7 @@ NULL
 #'  |Total |192 |1527 |5793 |18         |9         |37             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -108,6 +110,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name wrkgovt2
@@ -145,6 +148,7 @@ NULL
 #'  |Total |5042 |2020                  |490         |15         |6              |3         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -187,6 +191,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name libathy
@@ -224,6 +229,7 @@ NULL
 #'  |Total |5042 |1195                  |1307        |13         |6         |13             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -265,6 +271,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name libracy
@@ -302,6 +309,7 @@ NULL
 #'  |Total |5042 |1730                  |752         |31         |17             |4         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -343,6 +351,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name colcomy
@@ -381,6 +390,7 @@ NULL
 #'  |Total |5042 |615    |1863       |32         |21             |3         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

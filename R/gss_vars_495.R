@@ -31,6 +31,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name harass5
@@ -73,6 +74,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -118,6 +120,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name rcontact
@@ -161,6 +164,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -206,6 +210,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name wkwkends
@@ -247,6 +252,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name decidwrk
@@ -286,6 +292,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -332,6 +339,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name chngewrk
@@ -376,6 +384,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name nounemp5
@@ -419,6 +428,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
+#' 
 #' 
 #' @keywords variable
 #' @md

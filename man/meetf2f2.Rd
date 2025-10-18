@@ -54,6 +54,28 @@ Other Global Economics:
 \code{\link{whynojb1}},
 \code{\link{whynojb2}},
 \code{\link{wocomptr}}
+
+Other Job: 
+\code{\link{autonojb}},
+\code{\link{inclstjb}},
+\code{\link{intlcowk}},
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{meetf2f1}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}},
+\code{\link{wocomptr}}
+
+Other Technology: 
+\code{\link{autonojb}},
+\code{\link{meetf2f1}}
+
+Other Work: 
+\code{\link{autonojb}},
+\code{\link{meetf2f1}}
 }
 \concept{Global Economics}
+\concept{Job}
+\concept{Technology}
+\concept{Work}
 \keyword{variable}

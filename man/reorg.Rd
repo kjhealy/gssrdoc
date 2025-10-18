@@ -51,6 +51,13 @@ Other Work Organizations:
 \code{\link{profits2}},
 \code{\link{unpower}},
 \code{\link{unprog}}
+
+Other Corporations: 
+\code{\link{merged}},
+\code{\link{outofbiz}},
+\code{\link{profits1}},
+\code{\link{profits2}}
 }
+\concept{Corporations}
 \concept{Work Organizations}
 \keyword{variable}

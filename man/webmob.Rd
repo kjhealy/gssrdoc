@@ -50,6 +50,11 @@ Counts by year:\tabular{llllllll}{
 Other Information Society: 
 \code{\link{compuse}},
 \code{\link{webtv}}
+
+Other Computers And Internet: 
+\code{\link{compuse}},
+\code{\link{webtv}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

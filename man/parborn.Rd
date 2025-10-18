@@ -86,6 +86,10 @@ Other Core:
 \code{\link{mawkborn}},
 \code{\link{mawork}},
 \code{\link{mawrkgrw}}
+
+Other Nativity: 
+\code{\link{born}}
 }
 \concept{Core}
+\concept{Nativity}
 \keyword{variable}

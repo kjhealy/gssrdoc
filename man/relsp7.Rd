@@ -82,6 +82,18 @@ Other Household Members and Structure:
 \code{\link{relsp6}},
 \code{\link{relsp8}},
 \code{\link{relsp9}}
+
+Other Household: 
+\code{\link{relsp1}},
+\code{\link{relsp10}},
+\code{\link{relsp2}},
+\code{\link{relsp3}},
+\code{\link{relsp4}},
+\code{\link{relsp5}},
+\code{\link{relsp6}},
+\code{\link{relsp8}},
+\code{\link{relsp9}}
 }
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

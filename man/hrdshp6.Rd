@@ -54,6 +54,19 @@ Other Negative Life Events:
 \code{\link{hrdshp4}},
 \code{\link{hrdshp5}},
 \code{\link{hrdshp7}}
+
+Other Trauma: 
+\code{\link{famper1}},
+\code{\link{finan4}},
+\code{\link{finan5}},
+\code{\link{hrdshp1}},
+\code{\link{hrdshp2}},
+\code{\link{hrdshp3}},
+\code{\link{hrdshp4}},
+\code{\link{hrdshp5}},
+\code{\link{hrdshp7}}
 }
+\concept{Health}
 \concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

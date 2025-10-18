@@ -96,4 +96,5 @@ Other Core:
 \code{\link{spgradtounder}}
 }
 \concept{Core}
+\concept{Region}
 \keyword{variable}

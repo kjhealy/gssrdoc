@@ -55,6 +55,25 @@ Other Science Knowledge & Attitudes:
 \code{\link{nanowill}},
 \code{\link{penguins}},
 \code{\link{sealevel}}
+
+Other Environment: 
+\code{\link{artseals}},
+\code{\link{caremost}},
+\code{\link{inuitway}},
+\code{\link{penguins}},
+\code{\link{sealevel}}
+
+Other Science: 
+\code{\link{artseals}},
+\code{\link{caremost}},
+\code{\link{inuitway}},
+\code{\link{nanoknw1}},
+\code{\link{nanoknw2}},
+\code{\link{nanotech}},
+\code{\link{nanowill}},
+\code{\link{sealevel}}
 }
+\concept{Environment}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -54,6 +54,18 @@ Other Spirituality and Religion:
 \code{\link{joylifts}},
 \code{\link{relsprt1}},
 \code{\link{relsprt2}}
+
+Other Religion: 
+\code{\link{blessngs}},
+\code{\link{closrgod}},
+\code{\link{godclose}},
+\code{\link{godguide}},
+\code{\link{godhelp}},
+\code{\link{godlvoth}},
+\code{\link{joylifts}},
+\code{\link{relsprt1}},
+\code{\link{relsprt2}}
 }
+\concept{Religion}
 \concept{Spirituality and Religion}
 \keyword{variable}

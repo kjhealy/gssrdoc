@@ -54,6 +54,19 @@ Other Number Known:
 \code{\link{acqnhno}},
 \code{\link{acqnhpri}},
 \code{\link{acqnhune}}
+
+Other Social Networks: 
+\code{\link{acqnhasn}},
+\code{\link{acqnhblk}},
+\code{\link{acqnhgay}},
+\code{\link{acqnhgo}},
+\code{\link{acqnhhme}},
+\code{\link{acqnhhsp}},
+\code{\link{acqnhno}},
+\code{\link{acqnhpri}},
+\code{\link{acqnhune}}
 }
 \concept{Number Known}
+\concept{Social Networks}
+\concept{Whites}
 \keyword{variable}

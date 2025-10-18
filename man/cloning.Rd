@@ -51,5 +51,6 @@ Other Science Knowledge & Attitudes:
 \code{\link{scinews3}},
 \code{\link{seeksciy}}
 }
+\concept{Genetic Testing}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

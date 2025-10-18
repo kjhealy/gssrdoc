@@ -56,4 +56,5 @@ Other Core:
 \code{\link{sprel}}
 }
 \concept{Core}
+\concept{Jews}
 \keyword{variable}

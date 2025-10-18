@@ -49,6 +49,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{yrvet3}},
 \code{\link{yrvet4}},
 \code{\link{yrvet5}}
+
+Other Voluntary Associations: 
+\code{\link{yrpolit1}},
+\code{\link{yrpolit2}},
+\code{\link{yrpolit3}},
+\code{\link{yrserv7}},
+\code{\link{yrvet1}},
+\code{\link{yrvet2}},
+\code{\link{yrvet3}},
+\code{\link{yrvet4}},
+\code{\link{yrvet5}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

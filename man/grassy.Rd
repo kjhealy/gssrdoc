@@ -51,6 +51,17 @@ Other Core:
 \code{\link{othjew}},
 \code{\link{relig}},
 \code{\link{wirtap}}
+
+Other Marijuana: 
+\code{\link{grass}}
+
+Other Split Ballots: 
+\code{\link{grass}},
+\code{\link{lawfirm}},
+\code{\link{lawimp}},
+\code{\link{lawinfo}}
 }
 \concept{Core}
+\concept{Marijuana}
+\concept{Split Ballots}
 \keyword{variable}

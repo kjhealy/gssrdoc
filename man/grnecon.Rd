@@ -59,6 +59,12 @@ Other ISSP Environment:
 \code{\link{scifaith}},
 \code{\link{scigrn}},
 \code{\link{sciworse}}
+
+Other Environment: 
+\code{\link{anrights}},
+\code{\link{harmsgrn}},
+\code{\link{sciworse}}
 }
+\concept{Environment}
 \concept{ISSP Environment}
 \keyword{variable}

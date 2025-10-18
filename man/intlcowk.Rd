@@ -54,6 +54,18 @@ Other Global Economics:
 \code{\link{whynojb1}},
 \code{\link{whynojb2}},
 \code{\link{wocomptr}}
+
+Other Job: 
+\code{\link{autonojb}},
+\code{\link{inclstjb}},
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{meetf2f1}},
+\code{\link{meetf2f2}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}},
+\code{\link{wocomptr}}
 }
 \concept{Global Economics}
+\concept{Job}
 \keyword{variable}

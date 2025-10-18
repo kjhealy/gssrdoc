@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name govfnanc
@@ -72,6 +73,7 @@ NULL
 #'  |Total |2246 |54             |311   |582                        |553      |177               |82           |2         |25             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -115,6 +117,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name govfnaid
@@ -154,6 +157,7 @@ NULL
 #'  |Total |3613 |2041              |836               |543            |276            |206        |12        |49             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -197,6 +201,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hivimmrl
@@ -236,6 +241,7 @@ NULL
 #'  |Total |3614 |274               |812               |1582           |721            |492        |12        |69             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -279,6 +285,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name ptnrornt
@@ -316,6 +323,7 @@ NULL
 #'  |Total |3700 |2060 |1644   |86         |14        |72             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -359,6 +367,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name ptnrsxnow
@@ -400,6 +409,7 @@ NULL
 #'  |Total |1315 |914                                  |452                                        |167                                      |765                 |19                                       |5                                          |6                                    |10         |365       |14             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

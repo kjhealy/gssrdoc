@@ -47,6 +47,10 @@ Other Immigration:
 \code{\link{natborn}},
 \code{\link{robject}},
 \code{\link{travelus}}
+
+Other Interview: 
+\code{\link{robject}}
 }
 \concept{Immigration}
+\concept{Interview}
 \keyword{variable}

@@ -52,4 +52,5 @@ Other Core:
 \code{\link{upgrade}()}
 }
 \concept{Core}
+\concept{Veterans' Aid}
 \keyword{variable}

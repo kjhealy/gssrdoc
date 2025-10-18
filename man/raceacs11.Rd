@@ -48,6 +48,14 @@ Other Core:
 \code{\link{raceacs4}},
 \code{\link{raceacs6}},
 \code{\link{raceacs8}}
+
+Other Race: 
+\code{\link{raceacs10}},
+\code{\link{raceacs3}},
+\code{\link{raceacs5}},
+\code{\link{raceacs7}},
+\code{\link{raceacs9}}
 }
 \concept{Core}
+\concept{Race}
 \keyword{variable}

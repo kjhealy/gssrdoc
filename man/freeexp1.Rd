@@ -55,6 +55,13 @@ Other Freedom:
 \code{\link{freemns1}},
 \code{\link{freemns2}},
 \code{\link{freemns3}}
+
+Other Freedom: 
+\code{\link{freeexp2}},
+\code{\link{freeexp3}},
+\code{\link{freemns1}},
+\code{\link{freemns2}},
+\code{\link{freemns3}}
 }
 \concept{Freedom}
 \keyword{variable}

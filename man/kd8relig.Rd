@@ -61,6 +61,39 @@ Other Jewish Identity:
 \code{\link{kd6relig}},
 \code{\link{kd7relig}},
 \code{\link{synmem}}
+
+Other Children: 
+\code{\link{kd1relig}},
+\code{\link{kd2relig}},
+\code{\link{kd3relig}},
+\code{\link{kd4relig}},
+\code{\link{kd5relig}},
+\code{\link{kd6relig}},
+\code{\link{kd7relig}}
+
+Other Jews: 
+\code{\link{bmitzvah}},
+\code{\link{kd1relig}},
+\code{\link{kd2relig}},
+\code{\link{kd3relig}},
+\code{\link{kd4relig}},
+\code{\link{kd5relig}},
+\code{\link{kd6relig}},
+\code{\link{kd7relig}}
+
+Other Religion: 
+\code{\link{bmitzvah}},
+\code{\link{kd1relig}},
+\code{\link{kd2relig}},
+\code{\link{kd3relig}},
+\code{\link{kd4relig}},
+\code{\link{kd5relig}},
+\code{\link{kd6relig}},
+\code{\link{kd7relig}},
+\code{\link{synmem}}
 }
+\concept{Children}
 \concept{Jewish Identity}
+\concept{Jews}
+\concept{Religion}
 \keyword{variable}

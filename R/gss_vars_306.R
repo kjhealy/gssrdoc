@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -75,6 +76,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
+#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
@@ -121,6 +124,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -167,6 +171,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -213,6 +218,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -259,6 +265,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -305,6 +312,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -351,6 +359,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -397,6 +406,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -443,6 +453,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
 #' 
 #' @keywords variable
 #' @md

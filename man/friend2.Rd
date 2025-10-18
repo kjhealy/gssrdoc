@@ -56,6 +56,17 @@ Other Social Networks:
 \code{\link{neighbr3}},
 \code{\link{neighbr4}},
 \code{\link{neighbr5}}
+
+Other Social Networks: 
+\code{\link{friend1}},
+\code{\link{friend3}},
+\code{\link{friend4}},
+\code{\link{friend5}},
+\code{\link{neighbr1}},
+\code{\link{neighbr2}},
+\code{\link{neighbr3}},
+\code{\link{neighbr4}},
+\code{\link{neighbr5}}
 }
 \concept{Social Networks}
 \keyword{variable}

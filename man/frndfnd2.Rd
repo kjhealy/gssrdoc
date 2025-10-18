@@ -53,6 +53,17 @@ Other Religion:
 \code{\link{frndoth5}},
 \code{\link{frndrac1}},
 \code{\link{frndrac2}}
+
+Other Religion: 
+\code{\link{frndfnd1}},
+\code{\link{frndfnd3}},
+\code{\link{frndfnd4}},
+\code{\link{frndfnd5}},
+\code{\link{frndoth3}},
+\code{\link{frndoth4}},
+\code{\link{frndoth5}},
+\code{\link{frndrac1}},
+\code{\link{frndrac2}}
 }
 \concept{Religion}
 \keyword{variable}

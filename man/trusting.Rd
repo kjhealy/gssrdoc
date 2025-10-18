@@ -50,4 +50,5 @@ Other Jobs:
 \code{\link{yearly}}
 }
 \concept{Jobs}
+\concept{People}
 \keyword{variable}

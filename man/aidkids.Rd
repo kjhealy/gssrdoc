@@ -54,5 +54,6 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{usefrds}},
 \code{\link{wantbest}}
 }
+\concept{Children}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

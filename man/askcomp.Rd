@@ -53,6 +53,14 @@ Other National Security:
 \code{\link{secmilop}},
 \code{\link{secprvcy}},
 \code{\link{secterr}}
+
+Other United States: 
+\code{\link{askdrink}},
+\code{\link{askfrbiz}},
+\code{\link{askfrtrv}},
+\code{\link{asksexor}},
+\code{\link{secprvcy}}
 }
 \concept{National Security}
+\concept{United States}
 \keyword{variable}

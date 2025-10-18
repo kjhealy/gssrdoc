@@ -44,6 +44,9 @@ Counts by year:\tabular{llllll}{
 \seealso{
 Other Social Networks: 
 \code{\link{numgiven}}
+
+Other Social Networks: 
+\code{\link{numgiven}}
 }
 \concept{Social Networks}
 \keyword{variable}

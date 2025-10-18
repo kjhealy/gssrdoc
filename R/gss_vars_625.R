@@ -31,6 +31,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name raceacs2
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -109,6 +111,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name raceacs4
@@ -147,6 +150,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -187,6 +191,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name raceacs6
@@ -225,6 +230,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -265,6 +271,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name raceacs8
@@ -303,6 +310,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -342,6 +350,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -382,6 +391,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md

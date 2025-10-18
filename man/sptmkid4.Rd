@@ -52,6 +52,17 @@ Other Information Society:
 \code{\link{sptmkid1}},
 \code{\link{sptmkid2}},
 \code{\link{sptmkid3}}
+
+Other Children: 
+\code{\link{kdtmkid1}},
+\code{\link{kdtmkid2}},
+\code{\link{kdtmkid3}},
+\code{\link{kdtmkid4}},
+\code{\link{knowkid1}},
+\code{\link{knowkid2}},
+\code{\link{sptmkid1}},
+\code{\link{sptmkid2}}
 }
+\concept{Children}
 \concept{Information Society}
 \keyword{variable}

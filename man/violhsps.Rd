@@ -54,5 +54,6 @@ Other Intergroup Relations:
 \code{\link{violso}},
 \code{\link{violwhts}}
 }
+\concept{Hispanics}
 \concept{Intergroup Relations}
 \keyword{variable}

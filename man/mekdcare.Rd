@@ -54,6 +54,14 @@ Other ISSP Family & Gender Roles:
 \code{\link{spwkgrwn}},
 \code{\link{spwknokd}},
 \code{\link{spwrksch}}
+
+Other Men: 
+\code{\link{mehhwork}}
+
+Other Women: 
+\code{\link{mehhwork}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Men}
+\concept{Women}
 \keyword{variable}

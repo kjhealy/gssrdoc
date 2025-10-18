@@ -54,6 +54,18 @@ Other Mental Health:
 \code{\link{trustcrt}},
 \code{\link{trustdoc}},
 \code{\link{trustfam}}
+
+Other Terminal Illness: 
+\code{\link{docsui}},
+\code{\link{instrctn}},
+\code{\link{notreat}},
+\code{\link{painmed}},
+\code{\link{rightref}},
+\code{\link{termvig}},
+\code{\link{trustcrt}},
+\code{\link{trustdoc}},
+\code{\link{trustfam}}
 }
 \concept{Mental Health}
+\concept{Terminal Illness}
 \keyword{variable}

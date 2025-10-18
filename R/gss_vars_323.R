@@ -31,6 +31,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -71,6 +72,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -111,6 +113,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -157,6 +160,7 @@ NULL
 #'  |Total |4795 |9                     |24           |292                                    |414                   |4518                        |10         |18        |9           |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable
@@ -205,6 +209,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Altruism
 #' 
 #' @keywords variable
 #' @md
@@ -251,6 +256,7 @@ NULL
 #'  |Total |4795 |46                    |41          |115          |836                                    |1262                  |2927                        |48         |19        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable
@@ -299,6 +305,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Altruism
 #' 
 #' @keywords variable
 #' @md
@@ -345,6 +352,7 @@ NULL
 #'  |Total |4795 |231                   |231         |482          |901                                    |631                   |2789                        |13         |16        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable
@@ -393,6 +401,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Altruism
 #' 
 #' @keywords variable
 #' @md
@@ -439,6 +448,7 @@ NULL
 #'  |Total |4795 |93                    |103         |331          |1126                                   |762                   |2816                        |39         |24        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable

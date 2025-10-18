@@ -56,5 +56,6 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{frivisit}},
 \code{\link{friwork}}
 }
+\concept{Family}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

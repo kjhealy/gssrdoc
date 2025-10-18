@@ -59,5 +59,6 @@ Other Quality of Working Life:
 \code{\link{wkdecide}},
 \code{\link{wksmooth}}
 }
+\concept{Labor Unions}
 \concept{Quality of Working Life}
 \keyword{variable}

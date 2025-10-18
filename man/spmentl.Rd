@@ -55,6 +55,19 @@ Other Mental Health:
 \code{\link{mustdoc}},
 \code{\link{musthosp}},
 \code{\link{mustmed}}
+
+Other Mental Health: 
+\code{\link{dangroth}},
+\code{\link{dangrslf}},
+\code{\link{govmentl}},
+\code{\link{medcare1}},
+\code{\link{medcare2}},
+\code{\link{mntlas1}},
+\code{\link{mustdoc}},
+\code{\link{musthosp}},
+\code{\link{mustmed}}
 }
+\concept{Federal Government}
 \concept{Mental Health}
+\concept{Spending}
 \keyword{variable}

@@ -52,6 +52,10 @@ Other Intergroup Relations:
 \code{\link{patrasns}},
 \code{\link{patrblks}},
 \code{\link{patrso}}
+
+Other Hispanics: 
+\code{\link{livehsps}}
 }
+\concept{Hispanics}
 \concept{Intergroup Relations}
 \keyword{variable}

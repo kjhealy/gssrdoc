@@ -51,6 +51,18 @@ Other Work Organizations:
 \code{\link{intltest}},
 \code{\link{ltrsref}},
 \code{\link{physical}}
+
+Other Employment: 
+\code{\link{drugtest}},
+\code{\link{fndjob5}},
+\code{\link{fndjob6}},
+\code{\link{fndjob7}},
+\code{\link{fndjob8}},
+\code{\link{fndjob9}},
+\code{\link{intltest}},
+\code{\link{ltrsref}},
+\code{\link{physical}}
 }
+\concept{Employment}
 \concept{Work Organizations}
 \keyword{variable}

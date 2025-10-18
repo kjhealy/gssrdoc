@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -110,6 +112,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -151,6 +154,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -190,6 +194,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -229,6 +234,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -268,6 +274,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -320,6 +327,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Flexible Work
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name paidhow
@@ -357,6 +365,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Flexible Work
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name usualhrs
@@ -393,6 +402,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Flexible Work
+#' 
 #' 
 #' @keywords variable
 #' @md

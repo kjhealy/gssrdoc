@@ -21,6 +21,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name wtssnrps
@@ -59,6 +60,7 @@ NULL
 #'  |Total |6610 |349 |455 |160        |2              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -101,6 +103,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name prayerv
@@ -140,6 +143,7 @@ NULL
 #'  |Total |4670 |535         |1370               |927                                        |13         |60             |1         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -184,6 +188,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name discaffwv
@@ -224,6 +229,7 @@ NULL
 #'  |Total |5531 |214       |1521       |302                                    |1          |1         |6              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -267,6 +273,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name getaheadv
@@ -305,6 +312,7 @@ NULL
 #'  |Total |5656 |665    |307            |926                                       |6          |1         |15             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -347,6 +355,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name helpfulv
@@ -385,6 +394,7 @@ NULL
 #'  |Total |6318 |296                         |428                  |526                                    |1         |7              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

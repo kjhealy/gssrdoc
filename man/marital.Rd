@@ -88,6 +88,14 @@ Other Core:
 \code{\link{occtag}},
 \code{\link{prestg10}},
 \code{\link{prestg105plus}}
+
+Other Family: 
+\code{\link{agewed}}
+
+Other Marital Status: 
+\code{\link{agewed}}
 }
 \concept{Core}
+\concept{Family}
+\concept{Marital Status}
 \keyword{variable}

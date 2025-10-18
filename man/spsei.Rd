@@ -38,6 +38,17 @@ Other Occupation:
 \code{\link{sei10}},
 \code{\link{sei10educ}},
 \code{\link{sei10inc}}
+
+Other Occupation: 
+\code{\link{coisco08}},
+\code{\link{firstsei}},
+\code{\link{masei}},
+\code{\link{pasei}},
+\code{\link{pasei10}},
+\code{\link{sei}},
+\code{\link{sei10}},
+\code{\link{sei10educ}},
+\code{\link{sei10inc}}
 }
 \concept{Occupation}
 \keyword{variable}

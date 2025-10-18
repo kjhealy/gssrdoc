@@ -51,6 +51,10 @@ Other Gender:
 \code{\link{tradmod}},
 \code{\link{willwed1}},
 \code{\link{willwed2}}
+
+Other Family: 
+\code{\link{hapboys}}
 }
+\concept{Family}
 \concept{Gender}
 \keyword{variable}

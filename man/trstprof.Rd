@@ -54,6 +54,10 @@ Other Culture:
 \code{\link{tvnews}},
 \code{\link{tvpbs}},
 \code{\link{tvshows}}
+
+Other Education: 
+\code{\link{classics}}
 }
 \concept{Culture}
+\concept{Education}
 \keyword{variable}

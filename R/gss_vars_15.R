@@ -62,6 +62,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Nativity
 #' 
 #' @keywords variable
 #' @md
@@ -134,6 +135,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -208,6 +210,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -282,6 +285,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -356,6 +360,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -430,6 +435,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -503,6 +509,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -575,6 +582,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -657,6 +665,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -741,6 +750,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Income
 #' 
 #' @keywords variable
 #' @md

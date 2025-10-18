@@ -91,6 +91,14 @@ Other Core:
 \code{\link{mawork}},
 \code{\link{mawrkgrw}},
 \code{\link{parborn}}
+
+Other Family: 
+\code{\link{famdif16}}
+
+Other Parents: 
+\code{\link{famdif16}}
 }
 \concept{Core}
+\concept{Family}
+\concept{Parents}
 \keyword{variable}

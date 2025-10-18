@@ -52,6 +52,10 @@ Other Mental Health II:
 \code{\link{pryntfam}},
 \code{\link{trbllaw}},
 \code{\link{zombies}}
+
+Other Mental Health: 
+\code{\link{pryntfam}}
 }
+\concept{Mental Health}
 \concept{Mental Health II}
 \keyword{variable}

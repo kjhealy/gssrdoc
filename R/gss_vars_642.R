@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name spwrkslf2
@@ -68,6 +69,7 @@ NULL
 #'  |Total |9740 |104 |79 |1              |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -122,6 +124,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name racerank1
@@ -172,6 +175,7 @@ NULL
 #'  |Total |3332 |52    |16                        |72                               |3            |7       |3        |3        |2          |3           |3               |1      |1                      |7               |8        |9          |20        |2              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -226,6 +230,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name racerank3
@@ -261,6 +266,7 @@ NULL
 #'  |Total |2367 |134       |919        |100     |18         |5         |1              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -302,6 +308,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name adoptus
@@ -339,6 +346,7 @@ NULL
 #'  |Total |1203 |1575            |341                              |382                     |26         |7         |10             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -380,6 +388,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name letinhsp1
@@ -417,6 +426,7 @@ NULL
 #'  |Total |1203 |385       |419       |1422          |88         |7         |20             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

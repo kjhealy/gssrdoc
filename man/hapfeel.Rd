@@ -46,6 +46,14 @@ Other Emotions:
 \code{\link{outraged}},
 \code{\link{sad}},
 \code{\link{shakeblu}}
+
+Other Feelings: 
+\code{\link{ashamed}},
+\code{\link{calm}},
+\code{\link{outraged}},
+\code{\link{sad}},
+\code{\link{shakeblu}}
 }
 \concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

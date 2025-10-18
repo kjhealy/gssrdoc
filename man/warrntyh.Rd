@@ -51,6 +51,18 @@ Other Markets:
 \code{\link{realtorf}},
 \code{\link{relagent}},
 \code{\link{sathome}}
+
+Other Purchases/Transactions: 
+\code{\link{lawyer}},
+\code{\link{lawyera}},
+\code{\link{lawyerb}},
+\code{\link{lawyerc}},
+\code{\link{realtor1}},
+\code{\link{realtore}},
+\code{\link{realtorf}},
+\code{\link{relagent}},
+\code{\link{sathome}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

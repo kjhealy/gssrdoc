@@ -53,5 +53,6 @@ Other ISSP Family & Gender Roles:
 \code{\link{wkndact}},
 \code{\link{wkyngscl}}
 }
+\concept{Aged}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

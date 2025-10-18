@@ -52,6 +52,14 @@ Other Core:
 \code{\link{salsatfn}},
 \code{\link{salsci}},
 \code{\link{unemp5}}
+
+Other Salience Of Issues: 
+\code{\link{salfergt}},
+\code{\link{sallabor}},
+\code{\link{salsatfn}},
+\code{\link{salsci}}
 }
+\concept{Abortion}
 \concept{Core}
+\concept{Salience Of Issues}
 \keyword{variable}

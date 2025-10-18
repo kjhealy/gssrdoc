@@ -49,6 +49,13 @@ Other Terrorism Preparedness:
 \code{\link{done911c}},
 \code{\link{eff911a}},
 \code{\link{eff911b}}
+
+Other Terrorism: 
+\code{\link{done911b}},
+\code{\link{done911c}},
+\code{\link{eff911a}},
+\code{\link{eff911b}}
 }
+\concept{Terrorism}
 \concept{Terrorism Preparedness}
 \keyword{variable}

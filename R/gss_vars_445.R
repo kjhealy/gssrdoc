@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Labor Unions
 #' 
 #' @keywords variable
 #' @md
@@ -78,6 +79,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -119,6 +121,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Protest
 #' 
 #' @keywords variable
 #' @md
@@ -160,6 +163,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Demonstrations
+#' @family Protest
 #' 
 #' @keywords variable
 #' @md
@@ -200,6 +205,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Protest
 #' 
 #' @keywords variable
 #' @md
@@ -240,6 +246,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Demonstrations
+#' @family Protest
 #' 
 #' @keywords variable
 #' @md
@@ -284,6 +292,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -325,6 +334,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -370,6 +380,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name prvdhlth
@@ -413,6 +424,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' 
 #' 
 #' @keywords variable
 #' @md

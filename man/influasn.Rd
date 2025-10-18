@@ -52,6 +52,11 @@ Other Intergroup Relations:
 \code{\link{influhsp}},
 \code{\link{influso}},
 \code{\link{racwork}}
+
+Other Asian Americans: 
+\code{\link{asnhouse}},
+\code{\link{asnjobs}}
 }
+\concept{Asian Americans}
 \concept{Intergroup Relations}
 \keyword{variable}

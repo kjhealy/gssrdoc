@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name brv5milnum
@@ -68,6 +69,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +110,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name brv5gpanum
@@ -145,6 +148,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -184,6 +188,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name brv5daunum
@@ -221,6 +226,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -260,6 +266,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name brv5bronum
@@ -297,6 +304,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -336,6 +344,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name brv5silnum
@@ -373,6 +382,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
+#' 
 #' 
 #' @keywords variable
 #' @md

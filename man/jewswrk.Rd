@@ -51,6 +51,13 @@ Other Multi-Ethnic United States:
 \code{\link{jewscom}},
 \code{\link{jewsrel}},
 \code{\link{jewsschl}}
+
+Other Jews: 
+\code{\link{jewscls}},
+\code{\link{jewscom}},
+\code{\link{jewsrel}},
+\code{\link{jewsschl}}
 }
+\concept{Jews}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

@@ -62,6 +62,12 @@ Other High Risk Behaviors:
 \code{\link{hivtest2}},
 \code{\link{idu30}},
 \code{\link{relatsex}}
+
+Other Drug Use And Addiction: 
+\code{\link{crack30}},
+\code{\link{evidu}},
+\code{\link{idu30}}
 }
+\concept{Drug Use And Addiction}
 \concept{High Risk Behaviors}
 \keyword{variable}

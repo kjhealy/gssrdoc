@@ -53,6 +53,14 @@ Other Core:
 \code{\link{obknow}},
 \code{\link{obvol}},
 \code{\link{resdefwk}}
+
+Other Citizenship: 
+\code{\link{ob911}},
+\code{\link{obeng}},
+\code{\link{objury}},
+\code{\link{obknow}},
+\code{\link{obvol}}
 }
+\concept{Citizenship}
 \concept{Core}
 \keyword{variable}

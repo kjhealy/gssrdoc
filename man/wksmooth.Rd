@@ -58,6 +58,17 @@ Other Quality of Working Life:
 \code{\link{toofewwk}},
 \code{\link{trdunion}},
 \code{\link{wkdecide}}
+
+Other Job: 
+\code{\link{partteam}},
+\code{\link{prodctiv}},
+\code{\link{promteok}},
+\code{\link{proudemp}},
+\code{\link{safehlth}},
+\code{\link{setthngs}},
+\code{\link{toofewwk}},
+\code{\link{wkdecide}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
 \keyword{variable}

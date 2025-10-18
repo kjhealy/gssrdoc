@@ -31,6 +31,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -71,6 +74,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -111,6 +117,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -151,6 +160,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -191,6 +203,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -231,6 +246,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -271,6 +289,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -311,6 +332,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -351,6 +375,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -390,6 +417,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md

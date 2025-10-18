@@ -48,6 +48,10 @@ Other Intergroup Relations:
 \code{\link{discwhy4}},
 \code{\link{discwhy5}},
 \code{\link{discwhy6}}
+
+Other Affirmative Action: 
+\code{\link{discaff}}
 }
+\concept{Affirmative Action}
 \concept{Intergroup Relations}
 \keyword{variable}

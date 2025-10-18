@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Form Y
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -70,6 +71,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Form Y
+#' @family Police
 #' 
 #' @keywords variable
 #' @md
@@ -110,6 +112,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Form Y
+#' @family Euthanasia
 #' 
 #' @keywords variable
 #' @md
@@ -172,6 +175,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name death
@@ -204,6 +208,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
+#' @family Sample
 #' 
 #' @keywords variable
 #' @md
@@ -264,6 +269,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
+#' @family Sample
 #' 
 #' @keywords variable
 #' @md
@@ -328,6 +334,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
+#' @family Sample
 #' 
 #' @keywords variable
 #' @md
@@ -358,6 +365,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
+#' @family Sample
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -388,6 +397,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
+#' @family Sample
 #' 
 #' @keywords variable
 #' @md
@@ -432,6 +442,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
+#' @family Sample
 #' 
 #' @keywords variable
 #' @md

@@ -54,6 +54,28 @@ Other Core:
 \code{\link{draftpar}},
 \code{\link{febrass}},
 \code{\link{fehlpmil}}
+
+Other Military: 
+\code{\link{draftcol}},
+\code{\link{draftem}},
+\code{\link{draftfe}},
+\code{\link{draftfem}},
+\code{\link{draftgay}},
+\code{\link{draftmar}},
+\code{\link{draftpar}},
+\code{\link{febrass}},
+\code{\link{fehlpmil}}
+
+Other Split Ballots: 
+\code{\link{draftcol}},
+\code{\link{draftem}},
+\code{\link{draftfe}},
+\code{\link{draftfem}},
+\code{\link{draftgay}},
+\code{\link{draftmar}},
+\code{\link{draftpar}}
 }
 \concept{Core}
+\concept{Military}
+\concept{Split Ballots}
 \keyword{variable}

@@ -94,6 +94,30 @@ Other Household Members and Structure:
 \code{\link{relhhd5}},
 \code{\link{relhhd6}},
 \code{\link{relhhd7}}
+
+Other Family: 
+\code{\link{away14}},
+\code{\link{mar14}},
+\code{\link{relhhd1}},
+\code{\link{relhhd2}},
+\code{\link{relhhd3}},
+\code{\link{relhhd4}},
+\code{\link{relhhd5}},
+\code{\link{relhhd6}},
+\code{\link{relhhd7}}
+
+Other Household: 
+\code{\link{away14}},
+\code{\link{mar14}},
+\code{\link{relhhd1}},
+\code{\link{relhhd2}},
+\code{\link{relhhd3}},
+\code{\link{relhhd4}},
+\code{\link{relhhd5}},
+\code{\link{relhhd6}},
+\code{\link{relhhd7}}
 }
+\concept{Family}
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

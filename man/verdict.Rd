@@ -61,5 +61,6 @@ Other ISSP Role of Gov't:
 \code{\link{oprich}},
 \code{\link{progtax}}
 }
+\concept{Courts}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

@@ -52,6 +52,30 @@ Other Science Knowledge & Attitudes:
 \code{\link{scientbr}},
 \code{\link{scientmo}},
 \code{\link{scientwk}}
+
+Other Employment: 
+\code{\link{engda}},
+\code{\link{engdgr}},
+\code{\link{engdo}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
+
+Other Job: 
+\code{\link{engda}},
+\code{\link{engdgr}},
+\code{\link{engdo}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
 }
+\concept{Employment}
+\concept{Job}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

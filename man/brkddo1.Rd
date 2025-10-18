@@ -52,6 +52,17 @@ Other Mental Health:
 \code{\link{relmhsp4}},
 \code{\link{relmhsp5}},
 \code{\link{relmhsp6}}
+
+Other Mental Health: 
+\code{\link{brkdwhy1}},
+\code{\link{brkdwhy2}},
+\code{\link{brkdwhy3}},
+\code{\link{evbrkdwn}},
+\code{\link{knwpatnt}},
+\code{\link{relmhsp3}},
+\code{\link{relmhsp4}},
+\code{\link{relmhsp5}},
+\code{\link{relmhsp6}}
 }
 \concept{Mental Health}
 \keyword{variable}

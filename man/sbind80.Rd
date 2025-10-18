@@ -276,6 +276,25 @@ Other Family Mobility:
 \code{\link{sbwork1}},
 \code{\link{sbwork2}},
 \code{\link{sbwrkslf}}
+
+Other Occupation: 
+\code{\link{sbocc80}},
+\code{\link{sbpres80}},
+\code{\link{sbwrkslf}}
+
+Other Siblings: 
+\code{\link{sbdeg}},
+\code{\link{sbeduc}},
+\code{\link{sbevwork}},
+\code{\link{sbocc80}},
+\code{\link{sbpicked}},
+\code{\link{sbpres80}},
+\code{\link{sbwork1}},
+\code{\link{sbwork2}},
+\code{\link{sbwrkslf}}
 }
 \concept{Family Mobility}
+\concept{Industry}
+\concept{Occupation}
+\concept{Siblings}
 \keyword{variable}

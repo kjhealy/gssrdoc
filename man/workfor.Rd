@@ -50,4 +50,5 @@ Other Employee Compensation:
 \code{\link{workfor1}}
 }
 \concept{Employee Compensation}
+\concept{Work}
 \keyword{variable}

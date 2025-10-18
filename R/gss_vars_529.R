@@ -34,6 +34,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -77,6 +78,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -120,6 +122,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -162,6 +165,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -204,6 +208,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -246,6 +251,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -288,6 +294,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -330,6 +337,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -368,6 +376,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -412,6 +421,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family United States
 #' 
 #' @keywords variable
 #' @md

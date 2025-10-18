@@ -56,6 +56,10 @@ Other Work Orientation:
 \code{\link{whyjbend}},
 \code{\link{worryjob}},
 \code{\link{yrjobend}}
+
+Other Job: 
+\code{\link{worryjob}}
 }
+\concept{Job}
 \concept{Work Orientation}
 \keyword{variable}

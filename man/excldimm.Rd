@@ -58,4 +58,5 @@ Other ISSP Environment:
 \code{\link{nukeacc}}
 }
 \concept{ISSP Environment}
+\concept{United States}
 \keyword{variable}

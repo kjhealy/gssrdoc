@@ -53,6 +53,13 @@ Other Culture:
 \code{\link{obtohelp}},
 \code{\link{opoutcme}},
 \code{\link{united}}
+
+Other Success: 
+\code{\link{lfechnce}},
+\code{\link{lfegod}},
+\code{\link{lfehrdwk}},
+\code{\link{lfesocty}}
 }
 \concept{Culture}
+\concept{Success}
 \keyword{variable}

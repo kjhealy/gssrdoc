@@ -53,6 +53,14 @@ Other ISSP Role of Gov't:
 \code{\link{opprof}},
 \code{\link{progtax}},
 \code{\link{verdict}}
+
+Other Opportunity: 
+\code{\link{opprof}}
+
+Other Split Ballots: 
+\code{\link{opprof}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Opportunity}
+\concept{Split Ballots}
 \keyword{variable}

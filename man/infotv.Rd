@@ -54,6 +54,14 @@ Other ISSP Environment:
 \code{\link{infonews}},
 \code{\link{ldcgrn}},
 \code{\link{nukeacc}}
+
+Other Confidence: 
+\code{\link{infobiz}},
+\code{\link{infocol}},
+\code{\link{infogovt}},
+\code{\link{infogrn}},
+\code{\link{infonews}}
 }
+\concept{Confidence}
 \concept{ISSP Environment}
 \keyword{variable}

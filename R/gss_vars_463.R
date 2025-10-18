@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name smallgap
@@ -72,6 +73,7 @@ NULL
 #'  |Total |1175 |171            |419   |251                        |226      |90                |15           |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -115,6 +117,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name partlsc
@@ -156,6 +159,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name partpart
@@ -195,6 +199,7 @@ NULL
 #'  |Total |1175 |64                  |108                        |279                  |225                   |489   |8          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -240,6 +245,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlphome
@@ -281,6 +287,7 @@ NULL
 #'  |Total |1175 |910                 |10                         |170          |22       |5                   |26           |29     |1          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -326,6 +333,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlpdown
@@ -369,6 +377,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlpadvce
@@ -410,6 +419,7 @@ NULL
 #'  |Total |1175 |542                 |13                         |536          |18       |19                  |26           |11     |7          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

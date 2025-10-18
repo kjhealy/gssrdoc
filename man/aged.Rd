@@ -81,5 +81,6 @@ Other Core:
 \code{\link{socsibs}},
 \code{\link{weekswrk}}
 }
+\concept{Aged}
 \concept{Core}
 \keyword{variable}

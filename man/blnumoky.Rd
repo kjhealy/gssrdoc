@@ -51,6 +51,18 @@ Other Core:
 \code{\link{milqual}},
 \code{\link{milvolok}},
 \code{\link{taxserve}}
+
+Other Military: 
+\code{\link{blnumok}},
+\code{\link{fenumok}},
+\code{\link{fightair}},
+\code{\link{hinumok}},
+\code{\link{hinumoky}},
+\code{\link{milpay}},
+\code{\link{milqual}},
+\code{\link{milvolok}},
+\code{\link{taxserve}}
 }
 \concept{Core}
+\concept{Military}
 \keyword{variable}

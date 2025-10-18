@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -73,6 +74,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Immigration
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -114,6 +117,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -165,6 +169,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -205,6 +210,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -247,6 +253,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -289,6 +296,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -331,6 +339,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -373,6 +382,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Immigration
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -413,6 +424,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md

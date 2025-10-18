@@ -59,6 +59,21 @@ Other ISSP Religion:
 \code{\link{godchnge}},
 \code{\link{polsgod}},
 \code{\link{religpub}}
+
+Other Confidence: 
+\code{\link{concourt}},
+\code{\link{conschls}}
+
+Other Religion: 
+\code{\link{afterlif}},
+\code{\link{churhpow}},
+\code{\link{clerggov}},
+\code{\link{clergvte}},
+\code{\link{godchnge}},
+\code{\link{polsgod}},
+\code{\link{religpub}}
 }
+\concept{Confidence}
 \concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

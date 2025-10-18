@@ -32,6 +32,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
+#' @family Parents
 #' 
 #' @keywords variable
 #' @md
@@ -72,6 +74,7 @@ NULL
 #'  |Total |0   |575       |569  |176         |12         |1        |26         |13        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -114,6 +117,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -155,6 +159,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -195,6 +200,7 @@ NULL
 #'  |Total |0   |325       |595  |329         |32         |8        |72         |11        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -238,6 +244,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -279,6 +287,7 @@ NULL
 #'  |Total |0   |42          |158    |664            |427   |30         |36         |15        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -322,6 +331,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -364,6 +374,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -405,6 +416,7 @@ NULL
 #'  |Total |0   |21          |90     |457            |668   |94         |29         |13        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable

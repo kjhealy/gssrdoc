@@ -52,5 +52,8 @@ Other Multiculturalism:
 \code{\link{undockid}},
 \code{\link{undocwrk}}
 }
+\concept{Asian Americans}
+\concept{Hispanics}
 \concept{Multiculturalism}
+\concept{Residence}
 \keyword{variable}

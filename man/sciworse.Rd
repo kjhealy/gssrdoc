@@ -55,6 +55,18 @@ Other ISSP Environment:
 \code{\link{privent}},
 \code{\link{scifaith}},
 \code{\link{scigrn}}
+
+Other Environment: 
+\code{\link{anrights}},
+\code{\link{grnecon}},
+\code{\link{harmsgrn}}
+
+Other Science: 
+\code{\link{harmgood}},
+\code{\link{scifaith}},
+\code{\link{scigrn}}
 }
+\concept{Environment}
 \concept{ISSP Environment}
+\concept{Science}
 \keyword{variable}

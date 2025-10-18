@@ -50,6 +50,22 @@ Other Socio-political participation:
 \code{\link{othself}},
 \code{\link{polrally}},
 \code{\link{schlhead}}
+
+Other Knowledge: 
+\code{\link{governor}},
+\code{\link{schlhead}}
+
+Other Political: 
+\code{\link{governor}},
+\code{\link{loclobby}},
+\code{\link{locself}},
+\code{\link{locvote}},
+\code{\link{othlobby}},
+\code{\link{othself}},
+\code{\link{polrally}},
+\code{\link{schlhead}}
 }
+\concept{Knowledge}
+\concept{Political}
 \concept{Socio-political participation}
 \keyword{variable}

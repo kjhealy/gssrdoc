@@ -92,6 +92,18 @@ Other Household Members and Structure:
 \code{\link{rplace}},
 \code{\link{rvisitor}},
 \code{\link{visitors}}
+
+Other Household: 
+\code{\link{famgen}},
+\code{\link{hhtype}},
+\code{\link{relhh1}},
+\code{\link{relhh2}},
+\code{\link{relhh3}},
+\code{\link{relhh4}},
+\code{\link{rplace}},
+\code{\link{rvisitor}},
+\code{\link{visitors}}
 }
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

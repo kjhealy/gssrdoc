@@ -53,6 +53,15 @@ Other Science Knowledge & Attitudes:
 \code{\link{scmed}},
 \code{\link{scpol}},
 \code{\link{screlig}}
+
+Other Environment: 
+\code{\link{bizbstgw}},
+\code{\link{bizinfgw}},
+\code{\link{polbstgw}},
+\code{\link{polinfgw}},
+\code{\link{scibstgw}},
+\code{\link{sciinfgw}}
 }
+\concept{Environment}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

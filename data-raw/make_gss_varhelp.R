@@ -362,11 +362,12 @@ docstring <- gss_doc_rd |>
       ),
       make_rd_yrfreq
     ),
+    ## Modules
     rd4a = future_map_chr(
       module_df,
       with_empty_default(\(x) pmap_chr(x, make_rd_family))
     ),
-    ## Too many subjects to include, but we get them anyway
+    ## Subjects to include, but we get them anyway
     rd4b = future_map_chr(
       subject_df,
       with_empty_default(\(x) pmap_chr(x, make_rd_family))
@@ -381,7 +382,7 @@ docstring <- gss_doc_rd |>
         rd4,
         sourcestring,
         rd4a,
-        # 4d4b, # omit subjects
+        rd4b,
         roclet_empty_line,
         rd5,
         true_blank_line,

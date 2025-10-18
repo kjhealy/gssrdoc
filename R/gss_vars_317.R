@@ -32,6 +32,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name natsat
@@ -70,6 +71,7 @@ NULL
 #'  |Total |1175 |975            |155            |7                 |9                 |4          |23        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -112,6 +114,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name natactive
@@ -150,6 +153,7 @@ NULL
 #'  |Total |1175 |687            |392            |53                |10                |9          |22        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -192,6 +196,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name nattimeok
@@ -232,6 +237,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name natlack
@@ -268,6 +274,7 @@ NULL
 #'  |Total |1175 |474     |288 |4  |7  |5  |3  |1  |3  |1  |1  |1  |159 |12              |82 |45 |29 |14 |8  |5  |5  |1          |25        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -315,6 +322,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name whynopet
@@ -353,6 +361,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name petb4
@@ -389,6 +398,7 @@ NULL
 #'  |Total |1649 |169           |504 |26        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

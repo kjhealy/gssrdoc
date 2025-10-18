@@ -59,6 +59,15 @@ Other Core:
 \code{\link{rowngun}},
 \code{\link{ticket}},
 \code{\link{tvhours}}
+
+Other Arrest (R's): 
+\code{\link{ticket}}
+
+Other Police: 
+\code{\link{lockedup}},
+\code{\link{ticket}}
 }
+\concept{Arrest (R's)}
 \concept{Core}
+\concept{Police}
 \keyword{variable}

@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -74,6 +75,7 @@ NULL
 #'  |Total |0   |101         |510    |415            |278   |25         |28         |15        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -117,6 +119,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -158,6 +161,7 @@ NULL
 #'  |Total |0   |18          |117    |401            |718   |71         |33         |14        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -201,6 +205,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
+#' @family Movies
 #' 
 #' @keywords variable
 #' @md
@@ -242,6 +248,7 @@ NULL
 #'  |Total |0   |299           |811      |146     |54       |17            |38         |7         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -285,6 +292,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -326,6 +334,7 @@ NULL
 #'  |Total |0   |61            |187      |398     |504      |177           |38         |7         |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -369,6 +378,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -411,6 +421,7 @@ NULL
 #'  |Total |155 |126             |400        |510        |84         |25              |53           |19        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable

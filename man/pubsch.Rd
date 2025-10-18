@@ -51,6 +51,17 @@ Other Religion:
 \code{\link{numcong}},
 \code{\link{relhrs1}},
 \code{\link{relhrs2}}
+
+Other Children: 
+\code{\link{cathsch}},
+\code{\link{homesch}},
+\code{\link{kid5up}}
+
+Other Education: 
+\code{\link{cathsch}},
+\code{\link{homesch}}
 }
+\concept{Children}
+\concept{Education}
 \concept{Religion}
 \keyword{variable}

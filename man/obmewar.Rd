@@ -51,6 +51,12 @@ Other Core:
 \code{\link{obfepax}},
 \code{\link{obfewar}},
 \code{\link{obmepax}}
+
+Other Citizenship: 
+\code{\link{obfepax}},
+\code{\link{obfewar}},
+\code{\link{obmepax}}
 }
+\concept{Citizenship}
 \concept{Core}
 \keyword{variable}

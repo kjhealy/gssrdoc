@@ -54,5 +54,6 @@ Other Work Organizations:
 \code{\link{stayorg1}},
 \code{\link{stayorg2}}
 }
+\concept{Work}
 \concept{Work Organizations}
 \keyword{variable}

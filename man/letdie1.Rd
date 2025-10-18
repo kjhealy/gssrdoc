@@ -72,6 +72,10 @@ Other Core:
 \code{\link{suicide2}},
 \code{\link{suicide3}},
 \code{\link{suicide4}}
+
+Other Euthanasia: 
+\code{\link{letdie2}}
 }
 \concept{Core}
+\concept{Euthanasia}
 \keyword{variable}

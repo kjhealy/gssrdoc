@@ -61,6 +61,36 @@ Other ISSP Role of Gov't:
 \code{\link{spretire}},
 \code{\link{spschool}},
 \code{\link{spunemp}}
+
+Other Federal Government: 
+\code{\link{sparms}},
+\code{\link{sphlth}},
+\code{\link{sppolice}},
+\code{\link{spretire}},
+\code{\link{spschool}},
+\code{\link{spunemp}}
+
+Other Spending: 
+\code{\link{sparms}},
+\code{\link{sphlth}},
+\code{\link{sppolice}},
+\code{\link{spretire}},
+\code{\link{spschool}},
+\code{\link{spunemp}}
+
+Other Taxes: 
+\code{\link{bustax}},
+\code{\link{inctax}},
+\code{\link{sparms}},
+\code{\link{sphlth}},
+\code{\link{sppolice}},
+\code{\link{spretire}},
+\code{\link{spschool}},
+\code{\link{spunemp}}
 }
+\concept{Art/The Arts (And Literature)}
+\concept{Federal Government}
 \concept{ISSP Role of Gov't}
+\concept{Spending}
+\concept{Taxes}
 \keyword{variable}

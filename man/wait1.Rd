@@ -53,6 +53,18 @@ Other Health Status:
 \code{\link{wait2}},
 \code{\link{wait3}},
 \code{\link{wait4}}
+
+Other Health: 
+\code{\link{treat10}},
+\code{\link{treat11}},
+\code{\link{treat6}},
+\code{\link{treat7}},
+\code{\link{treat8}},
+\code{\link{treat9}},
+\code{\link{wait2}},
+\code{\link{wait3}},
+\code{\link{wait4}}
 }
+\concept{Health}
 \concept{Health Status}
 \keyword{variable}

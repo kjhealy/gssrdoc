@@ -55,7 +55,14 @@ Other Religion and Culture:
 \code{\link{relart}},
 \code{\link{stateart}},
 \code{\link{volarts}}
+
+Other Leisure: 
+\code{\link{popmusic}},
+\code{\link{readfict}},
+\code{\link{relart}},
+\code{\link{volarts}}
 }
 \concept{Culture}
+\concept{Leisure}
 \concept{Religion and Culture}
 \keyword{variable}

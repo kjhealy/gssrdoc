@@ -67,5 +67,7 @@ Other Gender:
 \code{\link{willwed1}},
 \code{\link{willwed2}}
 }
+\concept{Affirmative Action}
 \concept{Gender}
+\concept{Women}
 \keyword{variable}

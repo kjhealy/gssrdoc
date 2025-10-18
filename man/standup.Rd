@@ -46,4 +46,5 @@ Other Culture:
 \code{\link{selfirst}}
 }
 \concept{Culture}
+\concept{Sociability}
 \keyword{variable}

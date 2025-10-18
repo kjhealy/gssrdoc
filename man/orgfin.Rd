@@ -54,5 +54,6 @@ Other Work Organizations:
 \code{\link{totunemp}},
 \code{\link{wrkyears}}
 }
+\concept{Corporations}
 \concept{Work Organizations}
 \keyword{variable}

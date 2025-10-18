@@ -50,6 +50,15 @@ Other ISSP National Identity:
 \code{\link{livecom1}},
 \code{\link{refugees}},
 \code{\link{res161}}
+
+Other United States: 
+\code{\link{immameco}},
+\code{\link{immcrime}},
+\code{\link{immideas}},
+\code{\link{immjobs}},
+\code{\link{letin1}},
+\code{\link{refugees}}
 }
 \concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

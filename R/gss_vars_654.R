@@ -32,6 +32,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name yrmovie
@@ -71,6 +72,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -112,6 +114,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name yrcreat
@@ -151,6 +154,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -192,6 +196,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name yrtour
@@ -231,6 +236,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -272,6 +278,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name yrarmus
@@ -311,6 +318,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -352,6 +360,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name yrarpo
@@ -391,6 +400,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
+#' 
 #' 
 #' @keywords variable
 #' @md

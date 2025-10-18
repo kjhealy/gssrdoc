@@ -49,5 +49,6 @@ Other Prejudice:
 \code{\link{feelasns}},
 \code{\link{feelhsps}}
 }
+\concept{Blacks}
 \concept{Prejudice}
 \keyword{variable}

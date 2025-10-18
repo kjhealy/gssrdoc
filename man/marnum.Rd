@@ -52,4 +52,5 @@ Other Family Mobility:
 \code{\link{fstspyr}}
 }
 \concept{Family Mobility}
+\concept{Marital Status}
 \keyword{variable}

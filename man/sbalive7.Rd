@@ -51,6 +51,18 @@ Other Family Mobility:
 \code{\link{sbalive8}},
 \code{\link{sbalive9}},
 \code{\link{sbrel9}}
+
+Other Siblings: 
+\code{\link{sbalive1}},
+\code{\link{sbalive2}},
+\code{\link{sbalive3}},
+\code{\link{sbalive4}},
+\code{\link{sbalive5}},
+\code{\link{sbalive6}},
+\code{\link{sbalive8}},
+\code{\link{sbalive9}},
+\code{\link{sbrel9}}
 }
 \concept{Family Mobility}
+\concept{Siblings}
 \keyword{variable}

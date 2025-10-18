@@ -54,6 +54,19 @@ Other Number Known:
 \code{\link{trtmils}},
 \code{\link{trtprisn}},
 \code{\link{trtunemp}}
+
+Other Social Networks: 
+\code{\link{trtasian}},
+\code{\link{trtblack}},
+\code{\link{trtchild}},
+\code{\link{trtelecs}},
+\code{\link{trthome}},
+\code{\link{trtjans}},
+\code{\link{trtmils}},
+\code{\link{trtprisn}},
+\code{\link{trtunemp}}
 }
+\concept{Hispanics}
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

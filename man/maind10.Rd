@@ -316,4 +316,5 @@ Other Core:
 \code{\link{sibs}}
 }
 \concept{Core}
+\concept{Occupation}
 \keyword{variable}

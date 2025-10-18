@@ -54,4 +54,5 @@ Other Core:
 \code{\link{phone}}
 }
 \concept{Core}
+\concept{Radio Listening}
 \keyword{variable}

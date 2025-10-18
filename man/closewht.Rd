@@ -63,6 +63,15 @@ Other Core:
 \code{\link{closeblk}},
 \code{\link{hapmar}},
 \code{\link{happy}}
+
+Other Ethnicity: 
+\code{\link{closeblk}}
+
+Other Race: 
+\code{\link{closeblk}}
 }
 \concept{Core}
+\concept{Ethnicity}
+\concept{Race}
+\concept{Whites}
 \keyword{variable}

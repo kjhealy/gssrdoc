@@ -84,6 +84,10 @@ Other Core:
 \code{\link{padeg}},
 \code{\link{paeduc}},
 \code{\link{speduc}}
+
+Other Age: 
+\code{\link{agekdbrn}}
 }
+\concept{Age}
 \concept{Core}
 \keyword{variable}

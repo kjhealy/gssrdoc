@@ -56,6 +56,17 @@ Other Quality of Working Life:
 \code{\link{spvtrfair}},
 \code{\link{strredpg}},
 \code{\link{usedup}}
+
+Other Job: 
+\code{\link{hurtatwk}},
+\code{\link{spvtrfair}},
+\code{\link{strredpg}}
+
+Other Work: 
+\code{\link{spvtrfair}},
+\code{\link{strredpg}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
+\concept{Work}
 \keyword{variable}

@@ -84,6 +84,26 @@ Other Core:
 \code{\link{fejoin}},
 \code{\link{fethink}},
 \code{\link{fewrite}}
+
+Other Abortion: 
+\code{\link{abdefect}},
+\code{\link{abhlth}},
+\code{\link{abnomore}},
+\code{\link{abpoor}},
+\code{\link{abrape}}
+
+Other Split Ballots: 
+\code{\link{abdefect}},
+\code{\link{abhlth}},
+\code{\link{abnomore}},
+\code{\link{abpoor}},
+\code{\link{abrape}},
+\code{\link{fegive}},
+\code{\link{fejoin}},
+\code{\link{fethink}},
+\code{\link{fewrite}}
 }
+\concept{Abortion}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

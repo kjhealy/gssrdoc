@@ -65,6 +65,23 @@ Other Gender:
 \code{\link{nonurse}},
 \code{\link{parleave}},
 \code{\link{womenben}}
+
+Other Affirmative Action: 
+\code{\link{discaffw}}
+
+Other Job: 
+\code{\link{discaffw}},
+\code{\link{flextime}},
+\code{\link{nohmewrk}},
+\code{\link{nonurse}},
+\code{\link{parleave}}
+
+Other Women: 
+\code{\link{discaffw}},
+\code{\link{womenben}}
 }
+\concept{Affirmative Action}
 \concept{Gender}
+\concept{Job}
+\concept{Women}
 \keyword{variable}

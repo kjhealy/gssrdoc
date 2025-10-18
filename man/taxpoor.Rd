@@ -61,6 +61,12 @@ Other ISSP Social Inequality:
 \code{\link{taxmid}},
 \code{\link{taxrich}},
 \code{\link{taxshare}}
+
+Other Taxes: 
+\code{\link{taxmid}},
+\code{\link{taxrich}},
+\code{\link{taxshare}}
 }
 \concept{ISSP Social Inequality}
+\concept{Taxes}
 \keyword{variable}

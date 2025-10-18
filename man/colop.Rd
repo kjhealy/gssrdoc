@@ -53,6 +53,20 @@ Other ISSP Role of Gov't:
 \code{\link{hslibart}},
 \code{\link{hsorder}},
 \code{\link{hssci}}
+
+Other Education: 
+\code{\link{aidavg}},
+\code{\link{aidneedy}},
+\code{\link{aidsmart}},
+\code{\link{hscaring}},
+\code{\link{hsjobtr}},
+\code{\link{hsjudge}},
+\code{\link{hslibart}},
+\code{\link{hsorder}},
+\code{\link{hssci}}
 }
+\concept{Education}
 \concept{ISSP Role of Gov't}
+\concept{Opportunity}
+\concept{Split Ballots}
 \keyword{variable}

@@ -52,6 +52,18 @@ Other Mental Health IV:
 \code{\link{mhupdown}},
 \code{\link{mhwedrel}},
 \code{\link{mhwkwith}}
+
+Other Mental Health: 
+\code{\link{mhfriend}},
+\code{\link{mhillnss}},
+\code{\link{mhkdcare}},
+\code{\link{mhneihbr}},
+\code{\link{mhphyscl}},
+\code{\link{mhsocial}},
+\code{\link{mhupdown}},
+\code{\link{mhwedrel}},
+\code{\link{mhwkwith}}
 }
+\concept{Mental Health}
 \concept{Mental Health IV}
 \keyword{variable}

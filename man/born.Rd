@@ -79,6 +79,10 @@ Other Core:
 \code{\link{mawork}},
 \code{\link{mawrkgrw}},
 \code{\link{parborn}}
+
+Other Nativity: 
+\code{\link{parborn}}
 }
 \concept{Core}
+\concept{Nativity}
 \keyword{variable}

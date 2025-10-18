@@ -55,6 +55,22 @@ Other ISSP Environment:
 \code{\link{scitest3}},
 \code{\link{scitest4}},
 \code{\link{toodifme}}
+
+Other Knowledge: 
+\code{\link{grntest1}},
+\code{\link{grntest2}},
+\code{\link{scitest1}},
+\code{\link{scitest2}},
+\code{\link{scitest3}},
+\code{\link{scitest4}}
+
+Other Science: 
+\code{\link{scitest1}},
+\code{\link{scitest2}},
+\code{\link{scitest3}},
+\code{\link{scitest4}}
 }
 \concept{ISSP Environment}
+\concept{Knowledge}
+\concept{Science}
 \keyword{variable}

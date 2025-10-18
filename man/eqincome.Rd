@@ -57,4 +57,5 @@ Other ISSP Role of Gov't:
 \code{\link{verdict}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Inequality, Income}
 \keyword{variable}

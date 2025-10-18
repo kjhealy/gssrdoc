@@ -50,6 +50,35 @@ Other Clergy/Sex:
 \code{\link{hushrel1}},
 \code{\link{ongorel2}},
 \code{\link{ongorel3}}
+
+Other Religion: 
+\code{\link{clrggen1}},
+\code{\link{clrggen2}},
+\code{\link{clrggen3}},
+\code{\link{clrgsex1}},
+\code{\link{clrgsex2}},
+\code{\link{clrgsex3}},
+\code{\link{hushrel1}},
+\code{\link{ongorel2}},
+\code{\link{ongorel3}}
+
+Other Romantic Relationships: 
+\code{\link{ongorel2}},
+\code{\link{ongorel3}}
+
+Other Sex: 
+\code{\link{clrggen1}},
+\code{\link{clrggen2}},
+\code{\link{clrggen3}},
+\code{\link{clrgsex1}},
+\code{\link{clrgsex2}},
+\code{\link{clrgsex3}},
+\code{\link{hushrel1}},
+\code{\link{ongorel2}},
+\code{\link{ongorel3}}
 }
 \concept{Clergy/Sex}
+\concept{Religion}
+\concept{Romantic Relationships}
+\concept{Sex}
 \keyword{variable}

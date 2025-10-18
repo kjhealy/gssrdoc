@@ -58,5 +58,7 @@ Other ISSP Religion:
 \code{\link{religint}},
 \code{\link{socright}}
 }
+\concept{Confidence}
 \concept{ISSP Religion}
+\concept{Science}
 \keyword{variable}

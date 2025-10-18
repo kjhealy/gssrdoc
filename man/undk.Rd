@@ -51,6 +51,14 @@ Other Work Orientation:
 \code{\link{unbored}},
 \code{\link{wantjob}},
 \code{\link{workweek}}
+
+Other Trauma: 
+\code{\link{unbored}}
+
+Other Unemployment: 
+\code{\link{unbored}}
 }
+\concept{Trauma}
+\concept{Unemployment}
 \concept{Work Orientation}
 \keyword{variable}

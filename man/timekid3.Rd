@@ -52,6 +52,12 @@ Other Information Society:
 \code{\link{timekid1}},
 \code{\link{timekid2}},
 \code{\link{timekid4}}
+
+Other Children: 
+\code{\link{timekid1}},
+\code{\link{timekid2}},
+\code{\link{timekid4}}
 }
+\concept{Children}
 \concept{Information Society}
 \keyword{variable}

@@ -52,5 +52,6 @@ Other Science Knowledge & Attitudes:
 \code{\link{majorcol}},
 \code{\link{solarrev}}
 }
+\concept{Genetic Testing}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

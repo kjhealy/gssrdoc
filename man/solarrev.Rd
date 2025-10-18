@@ -62,6 +62,20 @@ Other Science Knowledge & Attitudes:
 \code{\link{intrhome}},
 \code{\link{majorcol}},
 \code{\link{tomatoes}}
+
+Other Knowledge: 
+\code{\link{condrift}},
+\code{\link{earthsun}},
+\code{\link{evolved}},
+\code{\link{evolved1}}
+
+Other Science: 
+\code{\link{condrift}},
+\code{\link{earthsun}},
+\code{\link{evolved}},
+\code{\link{evolved1}}
 }
+\concept{Knowledge}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

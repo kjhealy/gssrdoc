@@ -49,6 +49,31 @@ Other Sexual Orientation:
 \code{\link{hlthtype}},
 \code{\link{othkids}},
 \code{\link{sppart}}
+
+Other Children: 
+\code{\link{othkids}}
+
+Other Family: 
+\code{\link{othkids}},
+\code{\link{sppart}}
+
+Other Health: 
+\code{\link{emphlth1}},
+\code{\link{emphlth2}},
+\code{\link{hlthcovr}},
+\code{\link{hlthtype}},
+\code{\link{othkids}},
+\code{\link{sppart}}
+
+Other Job: 
+\code{\link{emphlth1}},
+\code{\link{emphlth2}},
+\code{\link{harsexjb}},
+\code{\link{hlthtype}}
 }
+\concept{Children}
+\concept{Family}
+\concept{Health}
+\concept{Job}
 \concept{Sexual Orientation}
 \keyword{variable}

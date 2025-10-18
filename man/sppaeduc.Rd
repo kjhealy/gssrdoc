@@ -70,6 +70,12 @@ Other Family Mobility:
 \code{\link{spmaeduc}},
 \code{\link{spmarnum}},
 \code{\link{spyrborn}}
+
+Other Education: 
+\code{\link{fstspmed}},
+\code{\link{fstspped}},
+\code{\link{spmaeduc}}
 }
+\concept{Education}
 \concept{Family Mobility}
 \keyword{variable}

@@ -47,6 +47,27 @@ Other Jewish Identity:
 \code{\link{kd3jwoth}},
 \code{\link{kd4jwoth}},
 \code{\link{kd5jwoth}}
+
+Other Children: 
+\code{\link{kd1jwoth}},
+\code{\link{kd3jwoth}},
+\code{\link{kd4jwoth}},
+\code{\link{kd5jwoth}}
+
+Other Jews: 
+\code{\link{kd1jwoth}},
+\code{\link{kd3jwoth}},
+\code{\link{kd4jwoth}},
+\code{\link{kd5jwoth}}
+
+Other Religion: 
+\code{\link{kd1jwoth}},
+\code{\link{kd3jwoth}},
+\code{\link{kd4jwoth}},
+\code{\link{kd5jwoth}}
 }
+\concept{Children}
 \concept{Jewish Identity}
+\concept{Jews}
+\concept{Religion}
 \keyword{variable}

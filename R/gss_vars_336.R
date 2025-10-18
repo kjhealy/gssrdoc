@@ -31,6 +31,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -72,6 +73,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -113,6 +115,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -153,6 +156,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -193,6 +197,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -233,6 +238,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -274,6 +280,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -315,6 +322,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -355,6 +363,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -406,6 +415,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
+#' @family Business
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md

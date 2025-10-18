@@ -48,4 +48,5 @@ Other Form Y:
 \code{\link{polhitoy}}
 }
 \concept{Form Y}
+\concept{Religion}
 \keyword{variable}

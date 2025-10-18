@@ -67,5 +67,6 @@ Other Intergroup Relations:
 \code{\link{marwht}},
 \code{\link{workfare}}
 }
+\concept{Asian Americans}
 \concept{Intergroup Relations}
 \keyword{variable}

@@ -45,6 +45,10 @@ Other ISSP Family & Gender Roles:
 \code{\link{spfalook}},
 \code{\link{splive}},
 \code{\link{wkyngscs}}
+
+Other Family: 
+\code{\link{spfalook}}
 }
+\concept{Family}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

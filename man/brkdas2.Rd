@@ -49,6 +49,17 @@ Other Mental Health:
 \code{\link{mntlsym1}},
 \code{\link{mntlsym2}},
 \code{\link{mntlsym3}}
+
+Other Mental Health: 
+\code{\link{brkdas1}},
+\code{\link{mntlas2}},
+\code{\link{mntlimp1}},
+\code{\link{mntlimp2}},
+\code{\link{mntlimp3}},
+\code{\link{mntloth}},
+\code{\link{mntlsym1}},
+\code{\link{mntlsym2}},
+\code{\link{mntlsym3}}
 }
 \concept{Mental Health}
 \keyword{variable}

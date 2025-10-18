@@ -53,6 +53,19 @@ Other Religion:
 \code{\link{shopmove}},
 \code{\link{shopnum}},
 \code{\link{shoprel}}
+
+Other Children: 
+\code{\link{chrissch}},
+\code{\link{othsch}},
+\code{\link{privsch}}
+
+Other Education: 
+\code{\link{chrissch}},
+\code{\link{denomsch}},
+\code{\link{othsch}},
+\code{\link{privsch}}
 }
+\concept{Children}
+\concept{Education}
 \concept{Religion}
 \keyword{variable}

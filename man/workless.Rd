@@ -52,6 +52,31 @@ Other Gender:
 \code{\link{refpromo}},
 \code{\link{refxhour}},
 \code{\link{worklife}}
+
+Other Family: 
+\code{\link{balwkfam}},
+\code{\link{famlife}},
+\code{\link{noathome}},
+\code{\link{refmorwk}},
+\code{\link{refpromo}},
+\code{\link{refxhour}}
+
+Other Job: 
+\code{\link{noathome}},
+\code{\link{refmorwk}},
+\code{\link{refpromo}},
+\code{\link{refxhour}}
+
+Other Work: 
+\code{\link{balwkfam}},
+\code{\link{noathome}},
+\code{\link{refmorwk}},
+\code{\link{refpromo}},
+\code{\link{refxhour}},
+\code{\link{worklife}}
 }
+\concept{Family}
 \concept{Gender}
+\concept{Job}
+\concept{Work}
 \keyword{variable}

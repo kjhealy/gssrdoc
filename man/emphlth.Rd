@@ -48,6 +48,20 @@ Other Global Economics:
 \code{\link{othplan}},
 \code{\link{typevisa}},
 \code{\link{visa}}
+
+Other Employment: 
+\code{\link{emphplan}}
+
+Other Health: 
+\code{\link{emphplan}},
+\code{\link{othplan}}
+
+Other Job: 
+\code{\link{emphplan}},
+\code{\link{othplan}}
 }
+\concept{Employment}
 \concept{Global Economics}
+\concept{Health}
+\concept{Job}
 \keyword{variable}

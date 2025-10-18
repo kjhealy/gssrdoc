@@ -55,6 +55,18 @@ Other Science Knowledge & Attitudes:
 \code{\link{sciimp6}},
 \code{\link{sciimp7}},
 \code{\link{sciimp8}}
+
+Other Science: 
+\code{\link{histsci}},
+\code{\link{physcsci}},
+\code{\link{sciimp2}},
+\code{\link{sciimp3}},
+\code{\link{sciimp4}},
+\code{\link{sciimp5}},
+\code{\link{sciimp6}},
+\code{\link{sciimp7}},
+\code{\link{sciimp8}}
 }
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

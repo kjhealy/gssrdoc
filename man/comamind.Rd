@@ -51,4 +51,6 @@ Other Multi-Ethnic United States:
 \code{\link{knwwht}}
 }
 \concept{Multi-Ethnic United States}
+\concept{Residence}
+\concept{Social Networks}
 \keyword{variable}

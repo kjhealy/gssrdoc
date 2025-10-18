@@ -81,4 +81,5 @@ Other Core:
 \code{\link{ticket}}
 }
 \concept{Core}
+\concept{Television Viewing}
 \keyword{variable}

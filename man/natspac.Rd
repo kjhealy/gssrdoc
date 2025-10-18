@@ -85,6 +85,54 @@ Other Core:
 \code{\link{natenvir}},
 \code{\link{natheal}},
 \code{\link{natrace}}
+
+Other Federal Government: 
+\code{\link{nataid}},
+\code{\link{natarms}},
+\code{\link{natcity}},
+\code{\link{natcrime}},
+\code{\link{natdrug}},
+\code{\link{nateduc}},
+\code{\link{natenvir}},
+\code{\link{natheal}},
+\code{\link{natrace}}
+
+Other Spending: 
+\code{\link{nataid}},
+\code{\link{natarms}},
+\code{\link{natcity}},
+\code{\link{natcrime}},
+\code{\link{natdrug}},
+\code{\link{nateduc}},
+\code{\link{natenvir}},
+\code{\link{natheal}},
+\code{\link{natrace}}
+
+Other Split Ballots: 
+\code{\link{nataid}},
+\code{\link{natarms}},
+\code{\link{natcity}},
+\code{\link{natcrime}},
+\code{\link{natdrug}},
+\code{\link{nateduc}},
+\code{\link{natenvir}},
+\code{\link{natheal}},
+\code{\link{natrace}}
+
+Other United States: 
+\code{\link{nataid}},
+\code{\link{natarms}},
+\code{\link{natcity}},
+\code{\link{natcrime}},
+\code{\link{natdrug}},
+\code{\link{nateduc}},
+\code{\link{natenvir}},
+\code{\link{natheal}},
+\code{\link{natrace}}
 }
 \concept{Core}
+\concept{Federal Government}
+\concept{Spending}
+\concept{Split Ballots}
+\concept{United States}
 \keyword{variable}

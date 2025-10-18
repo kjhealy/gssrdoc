@@ -46,6 +46,14 @@ Other Doctors & Patients:
 \code{\link{docrely}},
 \code{\link{docvig}},
 \code{\link{regdocyr}}
+
+Other Health: 
+\code{\link{docaskme}},
+\code{\link{docdecid}},
+\code{\link{docrely}},
+\code{\link{docvig}},
+\code{\link{regdocyr}}
 }
 \concept{Doctors & Patients}
+\concept{Health}
 \keyword{variable}

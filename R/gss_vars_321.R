@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -76,6 +77,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -119,6 +121,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -162,6 +165,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -200,6 +204,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -240,6 +245,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name extr2017
@@ -278,6 +284,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -318,6 +325,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -360,6 +368,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -399,6 +408,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md

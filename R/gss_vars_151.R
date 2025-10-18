@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Television Viewing
 #' 
 #' @keywords variable
 #' @md
@@ -75,6 +76,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Television Viewing
 #' 
 #' @keywords variable
 #' @md
@@ -117,6 +119,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Television Viewing
 #' 
 #' @keywords variable
 #' @md
@@ -159,6 +162,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Art/The Arts (And Literature)
 #' 
 #' @keywords variable
 #' @md
@@ -201,6 +205,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -242,6 +247,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -283,6 +289,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Art/The Arts (And Literature)
 #' 
 #' @keywords variable
 #' @md
@@ -325,6 +332,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Art/The Arts (And Literature)
 #' 
 #' @keywords variable
 #' @md
@@ -366,6 +374,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -408,6 +417,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Art/The Arts (And Literature)
 #' 
 #' @keywords variable
 #' @md

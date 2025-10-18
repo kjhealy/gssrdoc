@@ -55,6 +55,17 @@ Other Social Networks:
 \code{\link{othfam3}},
 \code{\link{othfam4}},
 \code{\link{othfam5}}
+
+Other Social Networks: 
+\code{\link{child1}},
+\code{\link{child2}},
+\code{\link{child3}},
+\code{\link{child5}},
+\code{\link{othfam1}},
+\code{\link{othfam2}},
+\code{\link{othfam3}},
+\code{\link{othfam4}},
+\code{\link{othfam5}}
 }
 \concept{Social Networks}
 \keyword{variable}

@@ -58,6 +58,30 @@ Other ISSP Social Inequality:
 \code{\link{givsales}},
 \code{\link{givsec}},
 \code{\link{givskill}}
+
+Other Inequality, Income: 
+\code{\link{givbus}},
+\code{\link{givcabnt}},
+\code{\link{givexec}},
+\code{\link{givfarm}},
+\code{\link{givlaw}},
+\code{\link{givowner}},
+\code{\link{givsales}},
+\code{\link{givsec}},
+\code{\link{givskill}}
+
+Other Occupation: 
+\code{\link{givbus}},
+\code{\link{givcabnt}},
+\code{\link{givexec}},
+\code{\link{givfarm}},
+\code{\link{givlaw}},
+\code{\link{givowner}},
+\code{\link{givsales}},
+\code{\link{givsec}},
+\code{\link{givskill}}
 }
 \concept{ISSP Social Inequality}
+\concept{Inequality, Income}
+\concept{Occupation}
 \keyword{variable}

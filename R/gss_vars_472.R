@@ -33,6 +33,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -75,6 +77,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -117,6 +121,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -167,6 +173,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -220,6 +227,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -262,6 +271,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Education
+#' @family Opportunity
 #' 
 #' @keywords variable
 #' @md
@@ -304,6 +315,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Poverty
+#' @family Welfare
 #' 
 #' @keywords variable
 #' @md
@@ -346,6 +360,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Poverty
+#' @family Welfare
 #' 
 #' @keywords variable
 #' @md
@@ -390,6 +407,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Poverty
+#' @family Welfare
 #' 
 #' @keywords variable
 #' @md
@@ -432,6 +452,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md

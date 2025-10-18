@@ -56,6 +56,24 @@ Other Social Networks:
 \code{\link{spouse3}},
 \code{\link{spouse4}},
 \code{\link{spouse5}}
+
+Other Race: 
+\code{\link{race1}},
+\code{\link{race2}},
+\code{\link{race4}},
+\code{\link{race5}}
+
+Other Social Networks: 
+\code{\link{race1}},
+\code{\link{race2}},
+\code{\link{race4}},
+\code{\link{race5}},
+\code{\link{spouse1}},
+\code{\link{spouse2}},
+\code{\link{spouse3}},
+\code{\link{spouse4}},
+\code{\link{spouse5}}
 }
+\concept{Race}
 \concept{Social Networks}
 \keyword{variable}

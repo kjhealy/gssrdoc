@@ -43,6 +43,22 @@ Other Self Employment:
 \code{\link{ownbiz}},
 \code{\link{startbiz}},
 \code{\link{yearbiz}}
+
+Other Business: 
+\code{\link{ownbiz}},
+\code{\link{startbiz}},
+\code{\link{yearbiz}}
+
+Other Employment: 
+\code{\link{ownbiz}},
+\code{\link{startbiz}},
+\code{\link{yearbiz}}
+
+Other Job: 
+\code{\link{yearbiz}}
 }
+\concept{Business}
+\concept{Employment}
+\concept{Job}
 \concept{Self Employment}
 \keyword{variable}

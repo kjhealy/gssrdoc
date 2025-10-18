@@ -53,6 +53,10 @@ Other Multi-Ethnic United States:
 \code{\link{parlang}},
 \code{\link{spklang}},
 \code{\link{uselang}}
+
+Other United States: 
+\code{\link{contjpn}}
 }
 \concept{Multi-Ethnic United States}
+\concept{United States}
 \keyword{variable}

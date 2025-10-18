@@ -46,6 +46,12 @@ Other ISSP Role of Gov't:
 \code{\link{bribe}},
 \code{\link{corrupt1}},
 \code{\link{corrupt2}}
+
+Other Political: 
+\code{\link{bribe}},
+\code{\link{corrupt1}},
+\code{\link{corrupt2}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Political}
 \keyword{variable}

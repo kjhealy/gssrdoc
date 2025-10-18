@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Blacks
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Jews
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +110,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Hispanics
 #' 
 #' @keywords variable
 #' @md
@@ -147,6 +150,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Asian Americans
 #' 
 #' @keywords variable
 #' @md
@@ -186,6 +190,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -225,6 +230,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -264,6 +270,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -303,6 +310,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -342,6 +350,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -381,6 +390,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
+#' @family Blacks
 #' 
 #' @keywords variable
 #' @md

@@ -54,6 +54,18 @@ Other Victims & AIDS:
 \code{\link{aidsreg}},
 \code{\link{aidssex}},
 \code{\link{aidswho2}}
+
+Other Aids: 
+\code{\link{aidsage}},
+\code{\link{aidsage2}},
+\code{\link{aidsdead}},
+\code{\link{aidsded2}},
+\code{\link{aidsrac2}},
+\code{\link{aidsrace}},
+\code{\link{aidsreg}},
+\code{\link{aidssex}},
+\code{\link{aidswho2}}
 }
+\concept{Aids}
 \concept{Victims & AIDS}
 \keyword{variable}

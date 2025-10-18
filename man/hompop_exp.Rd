@@ -41,6 +41,10 @@ Counts by year:\tabular{llllllllllllll}{
 \seealso{
 Other Core: 
 \code{\link{babies_exp}}
+
+Other Household: 
+\code{\link{babies_exp}}
 }
 \concept{Core}
+\concept{Household}
 \keyword{variable}

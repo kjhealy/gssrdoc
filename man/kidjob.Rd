@@ -54,6 +54,12 @@ Other ISSP Family & Gender Roles:
 \code{\link{ssfchild}},
 \code{\link{ssmchild}},
 \code{\link{twoincs1}}
+
+Other Children: 
+\code{\link{kidfinbu}},
+\code{\link{ssfchild}},
+\code{\link{ssmchild}}
 }
+\concept{Children}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

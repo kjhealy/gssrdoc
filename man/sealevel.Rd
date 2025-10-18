@@ -55,6 +55,25 @@ Other Science Knowledge & Attitudes:
 \code{\link{nanowill}},
 \code{\link{noicecap}},
 \code{\link{penguins}}
+
+Other Environment: 
+\code{\link{artseals}},
+\code{\link{caremost}},
+\code{\link{inuitway}},
+\code{\link{noicecap}},
+\code{\link{penguins}}
+
+Other Science: 
+\code{\link{artseals}},
+\code{\link{caremost}},
+\code{\link{inuitway}},
+\code{\link{nanoknw1}},
+\code{\link{nanoknw2}},
+\code{\link{nanotech}},
+\code{\link{nanowill}},
+\code{\link{noicecap}}
 }
+\concept{Environment}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

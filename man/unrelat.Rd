@@ -85,6 +85,15 @@ Other Core:
 \code{\link{preteen}},
 \code{\link{rincome}},
 \code{\link{teens}}
+
+Other Household: 
+\code{\link{adults}},
+\code{\link{babies}},
+\code{\link{earnrs}},
+\code{\link{hompop}},
+\code{\link{preteen}},
+\code{\link{teens}}
 }
 \concept{Core}
+\concept{Household}
 \keyword{variable}

@@ -49,6 +49,24 @@ Other Sexual Orientation:
 \code{\link{hlthtype}},
 \code{\link{mykids}},
 \code{\link{sppart}}
+
+Other Children: 
+\code{\link{mykids}}
+
+Other Family: 
+\code{\link{mykids}},
+\code{\link{sppart}}
+
+Other Health: 
+\code{\link{emphlth1}},
+\code{\link{emphlth2}},
+\code{\link{hlthcovr}},
+\code{\link{hlthtype}},
+\code{\link{mykids}},
+\code{\link{sppart}}
 }
+\concept{Children}
+\concept{Family}
+\concept{Health}
 \concept{Sexual Orientation}
 \keyword{variable}

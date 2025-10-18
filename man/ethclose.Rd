@@ -54,5 +54,6 @@ Other ISSP National Identity:
 \code{\link{spklang2}},
 \code{\link{spklang3}}
 }
+\concept{Ethnicity}
 \concept{ISSP National Identity}
 \keyword{variable}

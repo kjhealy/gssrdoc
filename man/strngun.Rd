@@ -57,5 +57,6 @@ Other Work Orientation:
 \code{\link{promotn}},
 \code{\link{secjob}}
 }
+\concept{Labor Unions}
 \concept{Work Orientation}
 \keyword{variable}

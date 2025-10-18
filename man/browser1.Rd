@@ -50,6 +50,18 @@ Other Information Society:
 \code{\link{payelse}},
 \code{\link{processr}},
 \code{\link{tecsup}}
+
+Other Computers And Internet: 
+\code{\link{askelse}},
+\code{\link{askwksch}},
+\code{\link{browser2}},
+\code{\link{cussup}},
+\code{\link{doself}},
+\code{\link{manbook}},
+\code{\link{payelse}},
+\code{\link{processr}},
+\code{\link{tecsup}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

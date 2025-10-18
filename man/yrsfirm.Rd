@@ -72,6 +72,20 @@ Other Work Orientation:
 \code{\link{wrkearn}},
 \code{\link{wrkenjoy}},
 \code{\link{wrkimp}}
+
+Other Employment: 
+\code{\link{dowell}},
+\code{\link{expernc}},
+\code{\link{paysame}}
+
+Other Occupation: 
+\code{\link{ageemp}},
+\code{\link{dowell}},
+\code{\link{expernc}},
+\code{\link{paysame}},
+\code{\link{sexemp}}
 }
+\concept{Employment}
+\concept{Occupation}
 \concept{Work Orientation}
 \keyword{variable}

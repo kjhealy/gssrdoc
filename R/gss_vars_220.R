@@ -28,6 +28,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -66,6 +67,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -102,6 +104,7 @@ NULL
 #'  |Total |2854 |2  |1  |1  |1  |7  |1  |1  |1  |6  |14 |15        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -140,6 +143,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -176,6 +180,7 @@ NULL
 #'  |Total |2815 |1   |1   |1   |3   |1   |1   |2   |2   |6   |1   |1   |1   |8   |4   |1   |13  |2   |1   |1   |23  |15        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -214,6 +219,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -250,6 +256,7 @@ NULL
 #'  |Total |2879 |1   |2   |1   |3   |1   |1   |1   |15        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -288,6 +295,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -324,6 +332,7 @@ NULL
 #'  |Total |2815 |18 |2  |6  |1  |1  |1  |17 |2  |41        |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -365,6 +374,7 @@ NULL
 #'  |Total |1751 |272  |321    |2               |1          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

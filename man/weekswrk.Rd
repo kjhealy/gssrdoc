@@ -63,6 +63,16 @@ Other Core:
 \code{\link{smoke}},
 \code{\link{socpars}},
 \code{\link{socsibs}}
+
+Other Employment: 
+\code{\link{partfull}}
+
+Other Labor Force Status: 
+\code{\link{partfull}}
 }
 \concept{Core}
+\concept{Employment}
+\concept{Labor Force Status}
+\concept{Weeks Worked}
+\concept{Work}
 \keyword{variable}

@@ -76,6 +76,25 @@ Other Core:
 \code{\link{prayerx}},
 \code{\link{prayery}},
 \code{\link{tithing}}
+
+Other Prayer In School: 
+\code{\link{prayery}}
+
+Other Religion: 
+\code{\link{bible}},
+\code{\link{bibley}},
+\code{\link{prayerx}},
+\code{\link{prayery}},
+\code{\link{tithing}}
+
+Other Split Ballots: 
+\code{\link{bible}},
+\code{\link{bibley}},
+\code{\link{prayerx}},
+\code{\link{prayery}}
 }
 \concept{Core}
+\concept{Prayer In School}
+\concept{Religion}
+\concept{Split Ballots}
 \keyword{variable}

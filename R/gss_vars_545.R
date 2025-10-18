@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -75,6 +76,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -117,6 +119,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -159,6 +162,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -201,6 +205,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -243,6 +248,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -281,6 +287,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Civil Liberties
+#' @family Civil Liberties
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -319,6 +327,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Civil Liberties
+#' @family Civil Liberties
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -357,6 +367,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Civil Liberties
+#' @family Race
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -394,6 +406,7 @@ NULL
 #'  |Total |1029 |303        |161           |13         |31        |1537  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Civil Liberties
 #' @family Civil Liberties
 #' 
 #' @keywords variable

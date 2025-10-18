@@ -52,6 +52,20 @@ Other Science Knowledge & Attitudes:
 \code{\link{hschem}},
 \code{\link{hsmath}},
 \code{\link{hsphys}}
+
+Other Environment: 
+\code{\link{gwbiz}},
+\code{\link{gwpol}},
+\code{\link{gwsci}}
+
+Other Science: 
+\code{\link{colsci}},
+\code{\link{colscinm}},
+\code{\link{gwbiz}},
+\code{\link{gwpol}},
+\code{\link{gwsci}}
 }
+\concept{Environment}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

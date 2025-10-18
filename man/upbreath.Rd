@@ -53,6 +53,26 @@ Other Science Knowledge & Attitudes:
 \code{\link{polnuke}},
 \code{\link{seesand}},
 \code{\link{weighing}}
+
+Other Knowledge: 
+\code{\link{daynight}},
+\code{\link{fishexp1}},
+\code{\link{fishexp2}},
+\code{\link{genes}},
+\code{\link{gills}},
+\code{\link{seesand}},
+\code{\link{weighing}}
+
+Other Science: 
+\code{\link{daynight}},
+\code{\link{fishexp1}},
+\code{\link{fishexp2}},
+\code{\link{genes}},
+\code{\link{gills}},
+\code{\link{seesand}},
+\code{\link{weighing}}
 }
+\concept{Knowledge}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

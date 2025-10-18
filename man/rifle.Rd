@@ -82,6 +82,12 @@ Other Core:
 \code{\link{polescap}},
 \code{\link{robbry}},
 \code{\link{shotgun}}
+
+Other Guns: 
+\code{\link{owngun}},
+\code{\link{pistol}},
+\code{\link{shotgun}}
 }
 \concept{Core}
+\concept{Guns}
 \keyword{variable}

@@ -53,6 +53,10 @@ Other Victims & AIDS:
 \code{\link{cidereg3}},
 \code{\link{cidesex3}},
 \code{\link{cidewho3}}
+
+Other Aids: 
+\code{\link{aidswho}}
 }
+\concept{Aids}
 \concept{Victims & AIDS}
 \keyword{variable}

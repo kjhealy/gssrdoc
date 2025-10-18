@@ -55,4 +55,6 @@ Other Gender:
 \code{\link{worklife}}
 }
 \concept{Gender}
+\concept{Income}
+\concept{Women}
 \keyword{variable}

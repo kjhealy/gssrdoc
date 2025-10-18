@@ -54,6 +54,16 @@ Other ISSP National Identity:
 \code{\link{movestat}},
 \code{\link{moveusa}},
 \code{\link{onenatn}}
+
+Other Residence: 
+\code{\link{clsenoam}},
+\code{\link{clsestat}},
+\code{\link{clseusa}},
+\code{\link{movenei}},
+\code{\link{movenoam}},
+\code{\link{movestat}},
+\code{\link{moveusa}}
 }
 \concept{ISSP National Identity}
+\concept{Residence}
 \keyword{variable}

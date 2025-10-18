@@ -52,6 +52,18 @@ Other Markets:
 \code{\link{loanedto}},
 \code{\link{sellauto}},
 \code{\link{sellhome}}
+
+Other Purchases/Transactions: 
+\code{\link{buyauto}},
+\code{\link{buybed}},
+\code{\link{buyfixes}},
+\code{\link{buyhome}},
+\code{\link{buylaw}},
+\code{\link{loaned}},
+\code{\link{loanedto}},
+\code{\link{sellauto}},
+\code{\link{sellhome}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

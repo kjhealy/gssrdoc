@@ -53,6 +53,13 @@ Other Work Organizations:
 \code{\link{racpromo}},
 \code{\link{sexpromo}},
 \code{\link{wrkindep}}
+
+Other Employment: 
+\code{\link{advances}},
+\code{\link{futpromo}},
+\code{\link{numpromo}},
+\code{\link{promoted}}
 }
+\concept{Employment}
 \concept{Work Organizations}
 \keyword{variable}

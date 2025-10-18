@@ -29,6 +29,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -568,6 +570,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -609,6 +613,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Occupation
+#' @family Occupational Prestige
 #' 
 #' @keywords variable
 #' @md
@@ -652,6 +659,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Job
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -917,6 +928,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Industry
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -1488,6 +1502,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name kdocc10
@@ -1525,6 +1540,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -1570,6 +1586,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name kdoccstatus
@@ -1608,6 +1625,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -1908,6 +1926,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' 
 #' 
 #' @keywords variable
 #' @md

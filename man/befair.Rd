@@ -56,6 +56,10 @@ Other ISSP Religion:
 \code{\link{religint}},
 \code{\link{socright}},
 \code{\link{trustsci}}
+
+Other People: 
+\code{\link{cantrust}}
 }
 \concept{ISSP Religion}
+\concept{People}
 \keyword{variable}

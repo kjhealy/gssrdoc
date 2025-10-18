@@ -51,6 +51,22 @@ Other Socio-political participation:
 \code{\link{actsport}},
 \code{\link{actunion}},
 \code{\link{actyouth}}
+
+Other Education: 
+\code{\link{actschl}}
+
+Other Voluntary Associations: 
+\code{\link{actfarm}},
+\code{\link{acthobby}},
+\code{\link{actlit}},
+\code{\link{actnat}},
+\code{\link{actprof}},
+\code{\link{actschl}},
+\code{\link{actsport}},
+\code{\link{actunion}},
+\code{\link{actyouth}}
 }
+\concept{Education}
 \concept{Socio-political participation}
+\concept{Voluntary Associations}
 \keyword{variable}

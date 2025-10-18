@@ -47,6 +47,14 @@ Counts by year:\tabular{lllllllllll}{
 \seealso{
 Other Sexual Orientation: 
 \code{\link{toldsmsx}}
+
+Other Gays And Lesbians: 
+\code{\link{toldsmsx}}
+
+Other Sex: 
+\code{\link{toldsmsx}}
 }
+\concept{Gays And Lesbians}
+\concept{Sex}
 \concept{Sexual Orientation}
 \keyword{variable}

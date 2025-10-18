@@ -55,5 +55,7 @@ Other ISSP Social Inequality:
 \code{\link{govunemp}},
 \code{\link{incgap}}
 }
+\concept{Education}
 \concept{ISSP Social Inequality}
+\concept{Opportunity}
 \keyword{variable}

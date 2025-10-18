@@ -59,6 +59,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Divorce
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -98,6 +100,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Divorce
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -136,6 +140,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Divorce
+#' @family Marital Status
 #' 
 #' @keywords variable
 #' @md
@@ -176,6 +182,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Divorce
 #' 
 #' @keywords variable
 #' @md
@@ -247,6 +254,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -310,6 +318,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -380,6 +389,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -450,6 +460,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Gays And Lesbians
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -488,6 +500,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Gays And Lesbians
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -544,6 +558,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md

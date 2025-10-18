@@ -55,6 +55,18 @@ Other Core:
 \code{\link{postlf7}},
 \code{\link{postlf8}},
 \code{\link{postlf9}}
+
+Other Religion: 
+\code{\link{postlf1}},
+\code{\link{postlf10}},
+\code{\link{postlf2}},
+\code{\link{postlf3}},
+\code{\link{postlf4}},
+\code{\link{postlf5}},
+\code{\link{postlf7}},
+\code{\link{postlf8}},
+\code{\link{postlf9}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

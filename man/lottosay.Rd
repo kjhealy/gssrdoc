@@ -53,6 +53,15 @@ Other Work Organizations:
 \code{\link{racpromo}},
 \code{\link{sexpromo}},
 \code{\link{wrkindep}}
+
+Other Job: 
+\code{\link{jobcntrl}}
+
+Other Work: 
+\code{\link{jobcntrl}},
+\code{\link{wrkindep}}
 }
+\concept{Job}
+\concept{Work}
 \concept{Work Organizations}
 \keyword{variable}

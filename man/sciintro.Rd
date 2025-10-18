@@ -51,5 +51,6 @@ Other Science Knowledge & Attitudes:
 \code{\link{vissci}},
 \code{\link{viszoo}}
 }
+\concept{Interview}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name airpollu
@@ -72,6 +73,7 @@ NULL
 #'  |Total |2003 |854        |449               |285            |88                |23                     |110          |201       |19             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -115,6 +117,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name exweathr
@@ -156,6 +159,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name opbribes
@@ -195,6 +199,7 @@ NULL
 #'  |Total |2029 |384            |680   |425                        |224      |77                |61           |135       |17             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -239,6 +244,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name respineq
@@ -278,6 +284,7 @@ NULL
 #'  |Total |2029 |593            |692   |338                        |103      |23                |94           |145       |15             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -321,6 +328,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name govineq2
@@ -357,6 +365,7 @@ NULL
 #'  |Total |2029 |266                  |76 |132                  |109 |124 |125 |356 |168 |229 |143 |50 |68           |147       |10             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -398,6 +407,7 @@ NULL
 #'  |Total |2029 |280            |770   |498                        |145      |49                |91           |156       |14             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

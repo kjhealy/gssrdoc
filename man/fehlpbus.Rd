@@ -54,6 +54,22 @@ Other ISSP Role of Gov't:
 \code{\link{hsrespct}},
 \code{\link{hssexed}},
 \code{\link{opfamily}}
+
+Other Opportunity: 
+\code{\link{fecolop}},
+\code{\link{fehlpcol}},
+\code{\link{fehlpjob}},
+\code{\link{feinc}},
+\code{\link{fejobop}},
+\code{\link{opfamily}}
+
+Other Women: 
+\code{\link{fecolop}},
+\code{\link{fehlpcol}},
+\code{\link{fehlpjob}},
+\code{\link{fejobop}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Opportunity}
+\concept{Women}
 \keyword{variable}

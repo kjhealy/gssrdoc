@@ -46,6 +46,14 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{typfrat}},
 \code{\link{typpolit}},
 \code{\link{typserv}}
+
+Other Voluntary Associations: 
+\code{\link{churchtx}},
+\code{\link{infrmgrp}},
+\code{\link{typfrat}},
+\code{\link{typpolit}},
+\code{\link{typserv}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

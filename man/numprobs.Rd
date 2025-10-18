@@ -44,6 +44,10 @@ Other Information Society:
 \code{\link{intaccss}},
 \code{\link{jobinfo}},
 \code{\link{jobpaper}}
+
+Other Family: 
+\code{\link{byemprob}}
 }
+\concept{Family}
 \concept{Information Society}
 \keyword{variable}

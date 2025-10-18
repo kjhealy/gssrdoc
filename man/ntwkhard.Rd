@@ -43,6 +43,10 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 Other Quality of Working Life: 
 \code{\link{height}},
 \code{\link{misswork}}
+
+Other Job: 
+\code{\link{misswork}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
 \keyword{variable}

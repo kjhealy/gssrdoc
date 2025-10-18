@@ -42,6 +42,9 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 \seealso{
 Other Altruism: 
 \code{\link{volmonth}}
+
+Other Altruism: 
+\code{\link{volmonth}}
 }
 \concept{Altruism}
 \keyword{variable}

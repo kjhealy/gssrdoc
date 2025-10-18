@@ -58,6 +58,10 @@ Other Intergroup Relations:
 \code{\link{workjews}},
 \code{\link{workso}},
 \code{\link{workwhts}}
+
+Other Hispanics: 
+\code{\link{wlthhsps}}
 }
+\concept{Hispanics}
 \concept{Intergroup Relations}
 \keyword{variable}

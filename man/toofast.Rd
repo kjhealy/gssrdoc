@@ -68,7 +68,19 @@ Other Science Knowledge & Attitudes:
 Other GSS Next: 
 \code{\link{advfront}},
 \code{\link{nextgen}}
+
+Other Science: 
+\code{\link{advfront}},
+\code{\link{bettrlfe}},
+\code{\link{leadsci}},
+\code{\link{newsfrom}},
+\code{\link{nextgen}},
+\code{\link{scifrom}},
+\code{\link{scispec}},
+\code{\link{seeksci}},
+\code{\link{whichsci}}
 }
 \concept{GSS Next}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

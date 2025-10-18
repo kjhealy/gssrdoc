@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name seetalk2
@@ -66,6 +67,7 @@ NULL
 #'  |Total |2095 |60             |29              |28 |24 |18 |16 |23 |19 |17 |12 |7         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -106,6 +108,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name seetalk4
@@ -142,6 +145,7 @@ NULL
 #'  |Total |2245 |25             |9               |14 |11 |11 |7  |5  |9  |2  |2  |2          |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -183,6 +187,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mhtreat1
@@ -220,6 +225,7 @@ NULL
 #'  |Total |1982 |191 |114 |54     |4          |3         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -261,6 +267,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mhtreat3
@@ -298,6 +305,7 @@ NULL
 #'  |Total |2190 |70  |51 |26     |5          |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -339,6 +347,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mhtreat5
@@ -375,6 +384,7 @@ NULL
 #'  |Total |1751 |275            |34             |61 |49 |26 |46 |25 |32 |32 |13 |3          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

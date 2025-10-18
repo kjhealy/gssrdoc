@@ -52,6 +52,18 @@ Other Core:
 \code{\link{racmar10}},
 \code{\link{racpush}},
 \code{\link{relgrade}}
+
+Other Religion: 
+\code{\link{cathtemp}},
+\code{\link{fepriest}},
+\code{\link{jewtemp}},
+\code{\link{mslmtemp}},
+\code{\link{relgrade}}
+
+Other Women: 
+\code{\link{fepriest}}
 }
 \concept{Core}
+\concept{Religion}
+\concept{Women}
 \keyword{variable}

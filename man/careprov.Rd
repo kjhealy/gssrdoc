@@ -55,6 +55,10 @@ Other ISSP Family & Gender Roles:
 \code{\link{paidlv}},
 \code{\link{paidlvdv}},
 \code{\link{paidlvpy}}
+
+Other Spending: 
+\code{\link{carecost}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Spending}
 \keyword{variable}

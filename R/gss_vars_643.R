@@ -38,6 +38,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name xmoviey
@@ -75,6 +76,7 @@ NULL
 #'  |Total |0   |2474  |681          |166        |87         |130       |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -117,6 +119,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name pres20
@@ -157,6 +160,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name if20who
@@ -193,6 +197,7 @@ NULL
 #'  |Total |2345 |292              |817            |90        |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -233,6 +238,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name wordl
@@ -269,6 +275,7 @@ NULL
 #'  |Total |2345 |359              |763            |77        |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -312,6 +319,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name fechld2
@@ -353,6 +361,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name fepresch2
@@ -392,6 +401,7 @@ NULL
 #'  |Total |2379 |18                                  |35                                      |912                                     |78                                    |39                                |69           |7         |7              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

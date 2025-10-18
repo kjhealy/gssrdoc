@@ -52,6 +52,17 @@ Other Core:
 \code{\link{jobsoc}},
 \code{\link{rank}()},
 \code{\link{rank10}}
+
+Other Split Ballots: 
+\code{\link{class}()},
+\code{\link{classy}},
+\code{\link{jobaccmp}},
+\code{\link{jobhelp}},
+\code{\link{jobpeop}},
+\code{\link{jobsafe}},
+\code{\link{jobsoc}},
+\code{\link{rank}()}
 }
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

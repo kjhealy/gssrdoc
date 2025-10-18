@@ -50,6 +50,17 @@ Other Religion:
 \code{\link{frndrel3}},
 \code{\link{frndrel4}},
 \code{\link{frndrel5}}
+
+Other Religion: 
+\code{\link{frndden1}},
+\code{\link{frndden2}},
+\code{\link{frndden3}},
+\code{\link{frndden4}},
+\code{\link{frndden5}},
+\code{\link{frndoth1}},
+\code{\link{frndrel3}},
+\code{\link{frndrel4}},
+\code{\link{frndrel5}}
 }
 \concept{Religion}
 \keyword{variable}

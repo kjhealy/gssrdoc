@@ -69,6 +69,10 @@ Other Intergroup Relations:
 \code{\link{patrblks}},
 \code{\link{patrhsps}},
 \code{\link{patrso}}
+
+Other Blacks: 
+\code{\link{patrblks}}
 }
+\concept{Blacks}
 \concept{Intergroup Relations}
 \keyword{variable}

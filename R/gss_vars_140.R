@@ -32,6 +32,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -73,6 +75,14 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Business
+#' @family Corporations
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Technology
+#' @family Unemployment
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -114,6 +124,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -152,6 +164,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -193,6 +207,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -234,6 +250,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name spwksup
@@ -271,6 +288,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -307,6 +326,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -343,6 +364,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -382,6 +405,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md

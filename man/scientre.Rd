@@ -53,5 +53,9 @@ Other Science Knowledge & Attitudes:
 \code{\link{scientod}},
 \code{\link{scientr}}
 }
+\concept{Employment}
+\concept{Job}
+\concept{Occupation}
 \concept{Science Knowledge & Attitudes}
+\concept{Work}
 \keyword{variable}

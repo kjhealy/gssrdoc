@@ -54,6 +54,10 @@ Other Intergroup Relations:
 \code{\link{intlso}},
 \code{\link{patrjews}},
 \code{\link{patrwhts}}
+
+Other Whites: 
+\code{\link{patrwhts}}
 }
 \concept{Intergroup Relations}
+\concept{Whites}
 \keyword{variable}

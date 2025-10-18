@@ -34,6 +34,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -77,6 +78,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -120,6 +122,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -161,6 +164,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -203,6 +207,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -252,6 +257,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -301,6 +307,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -350,6 +357,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -399,6 +407,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -448,6 +457,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Family
 #' 
 #' @keywords variable
 #' @md

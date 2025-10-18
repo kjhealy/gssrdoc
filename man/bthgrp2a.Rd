@@ -66,4 +66,5 @@ Other Interviewer Characteristics:
 \code{\link{intrace3}}
 }
 \concept{Interviewer Characteristics}
+\concept{Voluntary Associations}
 \keyword{variable}

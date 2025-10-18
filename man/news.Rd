@@ -85,4 +85,5 @@ Other Core:
 \code{\link{tvhours}}
 }
 \concept{Core}
+\concept{Newspaper Readership}
 \keyword{variable}

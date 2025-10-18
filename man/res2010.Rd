@@ -51,6 +51,12 @@ Other Sampling and Weights:
 \code{\link{spaneng}},
 \code{\link{spanint}},
 \code{\link{spanself}}
+
+Other Dwelling (R's): 
+\code{\link{cshutyp06}},
+\code{\link{res2006}},
+\code{\link{res2008}}
 }
+\concept{Dwelling (R's)}
 \concept{Sampling and Weights}
 \keyword{variable}

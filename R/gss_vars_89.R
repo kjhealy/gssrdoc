@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
 #' 
 #' @keywords variable
 #' @md
@@ -70,6 +71,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
 #' 
 #' @keywords variable
 #' @md
@@ -112,6 +114,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -153,6 +157,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -194,6 +200,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -235,6 +243,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -274,6 +284,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -313,6 +325,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -352,6 +366,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -391,6 +407,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Gays And Lesbians
+#' @family Military
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

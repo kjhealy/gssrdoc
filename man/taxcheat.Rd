@@ -54,6 +54,12 @@ Other ISSP Religion:
 \code{\link{congovt}},
 \code{\link{govcheat}},
 \code{\link{homosex1}}
+
+Other Federal Government: 
+\code{\link{concong}},
+\code{\link{congovt}},
+\code{\link{govcheat}}
 }
+\concept{Federal Government}
 \concept{ISSP Religion}
 \keyword{variable}

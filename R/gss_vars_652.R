@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name stockoptyr
@@ -83,6 +84,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name stoptyramt
@@ -119,6 +121,7 @@ NULL
 #'  |Total |3222 |207 |103 |10         |2         |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -167,6 +170,7 @@ NULL
 #'  |Total |3354 |7  |15 |15 |16 |22 |14 |14 |18 |30 |24 |7  |8  |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -218,6 +222,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name numorg1
@@ -259,6 +264,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name perfrt
@@ -294,6 +300,7 @@ NULL
 #'  |Total |1540 |675   |413       |323    |549   |12         |15        |17             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -334,6 +341,7 @@ NULL
 #'  |Total |1548 |680            |1034  |186      |53                |12         |11        |20             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -377,6 +385,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name strmgtsup
@@ -416,6 +425,7 @@ NULL
 #'  |Total |1549 |245               |262      |510                        |684   |218            |28         |26        |22             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

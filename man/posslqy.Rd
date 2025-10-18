@@ -59,4 +59,5 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{unaunum}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Marital Status}
 \keyword{variable}

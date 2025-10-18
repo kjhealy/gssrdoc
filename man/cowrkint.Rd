@@ -58,6 +58,18 @@ Other Quality of Working Life:
 \code{\link{promtefr}},
 \code{\link{supcares}},
 \code{\link{wkfreedm}}
+
+Other Job: 
+\code{\link{condemnd}},
+\code{\link{fringeok}},
+\code{\link{haveinfo}},
+\code{\link{hlpequip}},
+\code{\link{jobsecok}},
+\code{\link{opdevel}},
+\code{\link{promtefr}},
+\code{\link{supcares}},
+\code{\link{wkfreedm}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
 \keyword{variable}

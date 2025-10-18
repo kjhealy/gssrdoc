@@ -54,6 +54,14 @@ Other Core:
 \code{\link{racmar}},
 \code{\link{racmar10}},
 \code{\link{racpush}}
+
+Other Religion: 
+\code{\link{cathtemp}},
+\code{\link{feclergy}},
+\code{\link{fepriest}},
+\code{\link{jewtemp}},
+\code{\link{mslmtemp}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

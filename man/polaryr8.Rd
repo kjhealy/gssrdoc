@@ -55,6 +55,18 @@ Other Science Knowledge & Attitudes:
 \code{\link{nosun}},
 \code{\link{polaryr6}},
 \code{\link{polaryr7}}
+
+Other Science: 
+\code{\link{comorsci}},
+\code{\link{extinct}},
+\code{\link{huntbear}},
+\code{\link{icecaps}},
+\code{\link{icesheet}},
+\code{\link{inuit}},
+\code{\link{nosun}},
+\code{\link{polaryr6}},
+\code{\link{polaryr7}}
 }
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

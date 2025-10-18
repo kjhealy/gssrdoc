@@ -52,6 +52,11 @@ Other Family Mobility:
 \code{\link{sphedocctag}},
 \code{\link{sphedpre10}},
 \code{\link{sphedslf}}
+
+Other Occupation: 
+\code{\link{sphedslf}}
 }
 \concept{Family Mobility}
+\concept{Industry}
+\concept{Occupation}
 \keyword{variable}

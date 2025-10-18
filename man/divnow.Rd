@@ -53,6 +53,13 @@ Other ISSP Family & Gender Roles:
 \code{\link{kidjoy}},
 \code{\link{kidless}},
 \code{\link{kidnofre}}
+
+Other Divorce: 
+\code{\link{divifkid}},
+\code{\link{divkids}},
+\code{\link{divnokid}},
+\code{\link{divwife}}
 }
+\concept{Divorce}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

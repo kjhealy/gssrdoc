@@ -56,6 +56,17 @@ Other Religion:
 \code{\link{permoral}},
 \code{\link{punsin}},
 \code{\link{readword}}
+
+Other Religion: 
+\code{\link{blkwhite}},
+\code{\link{decbible}},
+\code{\link{decchurh}},
+\code{\link{decoths}},
+\code{\link{decself}},
+\code{\link{gochurch}},
+\code{\link{permoral}},
+\code{\link{punsin}},
+\code{\link{readword}}
 }
 \concept{Religion}
 \keyword{variable}

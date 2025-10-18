@@ -50,6 +50,13 @@ Other Religion:
 \code{\link{preach}},
 \code{\link{sympcoun}},
 \code{\link{worship}}
+
+Other Religion: 
+\code{\link{ferespct}},
+\code{\link{obeytch}},
+\code{\link{preach}},
+\code{\link{sympcoun}},
+\code{\link{worship}}
 }
 \concept{Religion}
 \keyword{variable}

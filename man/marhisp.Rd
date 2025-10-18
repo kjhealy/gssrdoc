@@ -66,5 +66,6 @@ Other Intergroup Relations:
 \code{\link{marwht}},
 \code{\link{workfare}}
 }
+\concept{Hispanics}
 \concept{Intergroup Relations}
 \keyword{variable}

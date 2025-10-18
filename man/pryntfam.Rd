@@ -53,6 +53,10 @@ Other Mental Health II:
 \code{\link{mntlrel}},
 \code{\link{trbllaw}},
 \code{\link{zombies}}
+
+Other Mental Health: 
+\code{\link{mntlrel}}
 }
+\concept{Mental Health}
 \concept{Mental Health II}
 \keyword{variable}

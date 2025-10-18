@@ -51,6 +51,18 @@ Other Markets & Exchange - Giving & Volunteering:
 \code{\link{monrec}},
 \code{\link{monrelig}},
 \code{\link{monwork}}
+
+Other Voluntary Associations: 
+\code{\link{monart}},
+\code{\link{monenvir}},
+\code{\link{monfound}},
+\code{\link{monhuman}},
+\code{\link{monpol}},
+\code{\link{monpub}},
+\code{\link{monrec}},
+\code{\link{monrelig}},
+\code{\link{monwork}}
 }
 \concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

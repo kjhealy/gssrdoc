@@ -65,5 +65,7 @@ Other Core:
 \code{\link{othjew}},
 \code{\link{relig}}
 }
+\concept{Civil Liberties}
 \concept{Core}
+\concept{Wiretapping}
 \keyword{variable}

@@ -65,6 +65,16 @@ Other Socio-political participation:
 \code{\link{memunion}},
 \code{\link{memvet}},
 \code{\link{memyouth}}
+
+Other Voluntary Associations: 
+\code{\link{mempolit}},
+\code{\link{memserv}},
+\code{\link{memsport}},
+\code{\link{memunion}},
+\code{\link{memvet}},
+\code{\link{memyouth}}
 }
+\concept{Education}
 \concept{Socio-political participation}
+\concept{Voluntary Associations}
 \keyword{variable}

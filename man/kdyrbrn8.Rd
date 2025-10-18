@@ -50,6 +50,52 @@ Other Family Mobility:
 \code{\link{kdyrbrn6}},
 \code{\link{kdyrbrn7}},
 \code{\link{kdyrbrn9}}
+
+Other Children: 
+\code{\link{kdsex9}},
+\code{\link{kdyrbrn1}},
+\code{\link{kdyrbrn2}},
+\code{\link{kdyrbrn3}},
+\code{\link{kdyrbrn4}},
+\code{\link{kdyrbrn5}},
+\code{\link{kdyrbrn6}},
+\code{\link{kdyrbrn7}},
+\code{\link{kdyrbrn9}}
+
+Other Date Of Birth: 
+\code{\link{kdyrbrn1}},
+\code{\link{kdyrbrn2}},
+\code{\link{kdyrbrn3}},
+\code{\link{kdyrbrn4}},
+\code{\link{kdyrbrn5}},
+\code{\link{kdyrbrn6}},
+\code{\link{kdyrbrn7}},
+\code{\link{kdyrbrn9}}
+
+Other Family: 
+\code{\link{kdyrbrn1}},
+\code{\link{kdyrbrn2}},
+\code{\link{kdyrbrn3}},
+\code{\link{kdyrbrn4}},
+\code{\link{kdyrbrn5}},
+\code{\link{kdyrbrn6}},
+\code{\link{kdyrbrn7}},
+\code{\link{kdyrbrn9}}
+
+Other Household: 
+\code{\link{kdsex9}},
+\code{\link{kdyrbrn1}},
+\code{\link{kdyrbrn2}},
+\code{\link{kdyrbrn3}},
+\code{\link{kdyrbrn4}},
+\code{\link{kdyrbrn5}},
+\code{\link{kdyrbrn6}},
+\code{\link{kdyrbrn7}},
+\code{\link{kdyrbrn9}}
 }
+\concept{Children}
+\concept{Date Of Birth}
+\concept{Family}
 \concept{Family Mobility}
+\concept{Household}
 \keyword{variable}

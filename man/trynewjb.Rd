@@ -63,7 +63,17 @@ Other Workplace Conflict:
 \code{\link{health1}},
 \code{\link{wkageism}},
 \code{\link{wkracism}}
+
+Other Work: 
+\code{\link{jobfind1}},
+\code{\link{wkageism}},
+\code{\link{wkharoth}},
+\code{\link{wkharsex}},
+\code{\link{wkracism}},
+\code{\link{wksexism}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
+\concept{Work}
 \concept{Workplace Conflict}
 \keyword{variable}

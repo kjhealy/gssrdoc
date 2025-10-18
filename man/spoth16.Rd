@@ -230,6 +230,16 @@ Other Core:
 \code{\link{spjewaj}},
 \code{\link{spothjew}},
 \code{\link{sprel16}}
+
+Other Religion: 
+\code{\link{spden16}},
+\code{\link{spfund}},
+\code{\link{spfund16}},
+\code{\link{spjew}},
+\code{\link{spjew16}},
+\code{\link{spothjew}},
+\code{\link{sprel16}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

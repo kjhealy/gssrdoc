@@ -54,6 +54,30 @@ Other Sexual Orientation:
 \code{\link{kidnow2}},
 \code{\link{losejob5}},
 \code{\link{negjob5}}
+
+Other Gays And Lesbians: 
+\code{\link{dwell5}},
+\code{\link{evdwell}},
+\code{\link{evharjb}},
+\code{\link{evlosejb}},
+\code{\link{evnegjob}},
+\code{\link{harjob5}},
+\code{\link{losejob5}},
+\code{\link{negjob5}}
+
+Other Job: 
+\code{\link{evharjb}},
+\code{\link{evlosejb}},
+\code{\link{harjob5}},
+\code{\link{negjob5}}
+
+Other Work: 
+\code{\link{evharjb}},
+\code{\link{harjob5}},
+\code{\link{negjob5}}
 }
+\concept{Gays And Lesbians}
+\concept{Job}
 \concept{Sexual Orientation}
+\concept{Work}
 \keyword{variable}

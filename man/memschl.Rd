@@ -68,6 +68,22 @@ Other Socio-political participation:
 \code{\link{memnum}},
 \code{\link{memother}},
 \code{\link{memprof}}
+
+Other Education: 
+\code{\link{memgreek}}
+
+Other Voluntary Associations: 
+\code{\link{memchurh}},
+\code{\link{memfarm}},
+\code{\link{memgreek}},
+\code{\link{memhobby}},
+\code{\link{memlit}},
+\code{\link{memnat}},
+\code{\link{memnum}},
+\code{\link{memother}},
+\code{\link{memprof}}
 }
+\concept{Education}
 \concept{Socio-political participation}
+\concept{Voluntary Associations}
 \keyword{variable}

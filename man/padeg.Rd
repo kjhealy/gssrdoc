@@ -87,6 +87,14 @@ Other Core:
 \code{\link{maeduc}},
 \code{\link{paeduc}},
 \code{\link{speduc}}
+
+Other Education: 
+\code{\link{degree}},
+\code{\link{educ}},
+\code{\link{maeduc}},
+\code{\link{paeduc}},
+\code{\link{speduc}}
 }
 \concept{Core}
+\concept{Education}
 \keyword{variable}

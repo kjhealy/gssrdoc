@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -67,6 +68,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -105,6 +107,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -144,6 +147,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
+#' @family Household
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -183,6 +188,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
+#' @family Household
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -222,6 +229,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
+#' @family Household
+#' @family Purchases/Transactions
+#' @family Relatives
 #' 
 #' @keywords variable
 #' @md
@@ -261,6 +271,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
+#' @family Friends
+#' @family Household
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -300,6 +313,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
+#' @family Household
+#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -338,6 +353,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -375,6 +391,7 @@ NULL
 #'  |Total |6224 |1  |1  |17 |1  |8  |1  |35 |13 |4  |1  |8  |5  |15 |21 |71 |11 |16 |9  |172 |201 |2          |66        |1  |2  |508 |7414  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable

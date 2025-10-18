@@ -90,4 +90,5 @@ Other Core:
 \code{\link{radiohrs}}
 }
 \concept{Core}
+\concept{Telephone In Household}
 \keyword{variable}

@@ -57,6 +57,14 @@ Other ISSP Social Inequality:
 \code{\link{taxpoor}},
 \code{\link{taxrich}},
 \code{\link{taxshare}}
+
+Other Social Class: 
+\code{\link{conclass}},
+\code{\link{conjobs}},
+\code{\link{consoc}},
+\code{\link{conurban}},
+\code{\link{conwlth}}
 }
 \concept{ISSP Social Inequality}
+\concept{Social Class}
 \keyword{variable}

@@ -55,6 +55,17 @@ Other Mental Health:
 \code{\link{usepsyc2}},
 \code{\link{usepsyc3}},
 \code{\link{usepsyc4}}
+
+Other Mental Health: 
+\code{\link{psyckid1}},
+\code{\link{psyckid2}},
+\code{\link{psycmed4}},
+\code{\link{psycmed5}},
+\code{\link{psycmed6}},
+\code{\link{usepsyc1}},
+\code{\link{usepsyc2}},
+\code{\link{usepsyc3}},
+\code{\link{usepsyc4}}
 }
 \concept{Mental Health}
 \keyword{variable}

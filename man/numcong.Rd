@@ -53,6 +53,17 @@ Other Religion:
 \code{\link{pubsch}},
 \code{\link{relhrs1}},
 \code{\link{relhrs2}}
+
+Other Religion: 
+\code{\link{cathsch}},
+\code{\link{givearts}},
+\code{\link{giveoth}},
+\code{\link{giverel}},
+\code{\link{homesch}},
+\code{\link{kid5up}},
+\code{\link{pubsch}},
+\code{\link{relhrs1}},
+\code{\link{relhrs2}}
 }
 \concept{Religion}
 \keyword{variable}

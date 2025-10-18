@@ -54,6 +54,18 @@ Other Number Known:
 \code{\link{acqfmwht}},
 \code{\link{acqnhlin}},
 \code{\link{acqnhmrk}}
+
+Other Social Networks: 
+\code{\link{acqfmcoh}},
+\code{\link{acqfmcon}},
+\code{\link{acqfmgay}},
+\code{\link{acqfmgo}},
+\code{\link{acqfmhsp}},
+\code{\link{acqfmlib}},
+\code{\link{acqfmwht}},
+\code{\link{acqnhlin}},
+\code{\link{acqnhmrk}}
 }
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

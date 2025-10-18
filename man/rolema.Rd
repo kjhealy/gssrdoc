@@ -53,6 +53,29 @@ Other Children:
 \code{\link{parwhere}},
 \code{\link{parwork}},
 \code{\link{parworse}}
+
+Other Children: 
+\code{\link{parfin}},
+\code{\link{pargovt}},
+\code{\link{parhardr}},
+\code{\link{parrght}},
+\code{\link{partaxes}},
+\code{\link{partime}},
+\code{\link{parwhere}},
+\code{\link{parwork}},
+\code{\link{parworse}}
+
+Other Parents: 
+\code{\link{parfin}},
+\code{\link{pargovt}},
+\code{\link{parhardr}},
+\code{\link{parrght}},
+\code{\link{partaxes}},
+\code{\link{partime}},
+\code{\link{parwhere}},
+\code{\link{parwork}},
+\code{\link{parworse}}
 }
 \concept{Children}
+\concept{Parents}
 \keyword{variable}

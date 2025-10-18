@@ -52,6 +52,7 @@ Other Information Society:
 \code{\link{knowkid3}},
 \code{\link{knowkid4}}
 }
+\concept{Dwelling (R's)}
 \concept{Information Society}
 \concept{Paradata}
 \keyword{variable}

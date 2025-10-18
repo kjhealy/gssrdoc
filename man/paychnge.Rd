@@ -47,6 +47,23 @@ Other Global Economics:
 \code{\link{whyjbct1}},
 \code{\link{whyleave}},
 \code{\link{work3yrs}}
+
+Other Income: 
+\code{\link{pastpay}}
+
+Other Job: 
+\code{\link{curempyr}},
+\code{\link{pastpay}},
+\code{\link{whyjbct1}},
+\code{\link{whyleave}},
+\code{\link{work3yrs}}
+
+Other Occupation: 
+\code{\link{curempyr}},
+\code{\link{pastpay}}
 }
 \concept{Global Economics}
+\concept{Income}
+\concept{Job}
+\concept{Occupation}
 \keyword{variable}

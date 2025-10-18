@@ -54,6 +54,13 @@ Other ISSP Family & Gender Roles:
 \code{\link{kidfin}},
 \code{\link{kidjoy}},
 \code{\link{kidnofre}}
+
+Other Children: 
+\code{\link{kidempty}},
+\code{\link{kidfin}},
+\code{\link{kidjoy}},
+\code{\link{kidnofre}}
 }
+\concept{Children}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

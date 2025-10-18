@@ -55,6 +55,12 @@ Other ISSP Social Inequality:
 \code{\link{inequal4}},
 \code{\link{inequal5}},
 \code{\link{oppol}}
+
+Other Social Mobility: 
+\code{\link{goodlife}},
+\code{\link{oppol}}
 }
 \concept{ISSP Social Inequality}
+\concept{Social Mobility}
+\concept{Women}
 \keyword{variable}

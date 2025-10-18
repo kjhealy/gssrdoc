@@ -58,6 +58,13 @@ Other Quality of Working Life:
 \code{\link{workdiff}},
 \code{\link{workfast}},
 \code{\link{wrkhome}}
+
+Other Job: 
+\code{\link{famwkoff}},
+\code{\link{secondwk}},
+\code{\link{workdiff}},
+\code{\link{workfast}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
 \keyword{variable}

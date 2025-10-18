@@ -53,6 +53,18 @@ Other Mental Health II:
 \code{\link{forcehos}},
 \code{\link{forcemed}},
 \code{\link{mntlill}}
+
+Other Children: 
+\code{\link{adcoumed}},
+\code{\link{adhos}},
+\code{\link{adhosmed}},
+\code{\link{adpsy}},
+\code{\link{adpsymed}},
+\code{\link{forcedoc}},
+\code{\link{forcehos}},
+\code{\link{forcemed}},
+\code{\link{mntlill}}
 }
+\concept{Children}
 \concept{Mental Health II}
 \keyword{variable}

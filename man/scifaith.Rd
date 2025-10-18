@@ -58,6 +58,12 @@ Other ISSP Environment:
 \code{\link{privent}},
 \code{\link{scigrn}},
 \code{\link{sciworse}}
+
+Other Science: 
+\code{\link{harmgood}},
+\code{\link{scigrn}},
+\code{\link{sciworse}}
 }
 \concept{ISSP Environment}
+\concept{Science}
 \keyword{variable}

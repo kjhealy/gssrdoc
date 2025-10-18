@@ -57,7 +57,11 @@ Other Quality of Working Life:
 \code{\link{spvtrfair}},
 \code{\link{strredpg}},
 \code{\link{usedup}}
+
+Other Mental Health: 
+\code{\link{hlthdays}}
 }
+\concept{Mental Health}
 \concept{Quality of Working Life}
 \concept{Workplace Conflict}
 \keyword{variable}

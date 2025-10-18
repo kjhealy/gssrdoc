@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name dangoth2
@@ -66,6 +67,7 @@ NULL
 #'  |Total |2095 |147                      |5                   |29 |19 |8  |8  |7  |11 |8  |2  |2          |7         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -106,6 +108,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name dangoth4
@@ -142,6 +145,7 @@ NULL
 #'  |Total |2245 |63                       |3                   |8  |3  |1  |8  |1  |5  |1  |1  |3          |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -182,6 +186,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name dangslf1
@@ -218,6 +223,7 @@ NULL
 #'  |Total |1982 |141                      |19                  |39 |30 |24 |30 |16 |24 |17 |8  |13         |5         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -258,6 +264,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name dangslf3
@@ -296,6 +303,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name dangslf4
@@ -332,6 +340,7 @@ NULL
 #'  |Total |2245 |40                       |8                   |9  |10 |3  |10 |3  |5  |3  |2  |4          |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -374,6 +383,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' 
 #' 
 #' @keywords variable
 #' @md

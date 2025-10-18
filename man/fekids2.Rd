@@ -53,6 +53,30 @@ Other Gender:
 \code{\link{hmemaker}},
 \code{\link{mebear}},
 \code{\link{wrkclass}}
+
+Other Children: 
+\code{\link{fekids3}},
+\code{\link{fekids4}},
+\code{\link{fekids5}}
+
+Other Household: 
+\code{\link{fekids3}},
+\code{\link{fekids4}},
+\code{\link{fekids5}}
+
+Other Women: 
+\code{\link{fehire}},
+\code{\link{fekids3}},
+\code{\link{fekids4}},
+\code{\link{fekids5}},
+\code{\link{feminist}},
+\code{\link{fenews}},
+\code{\link{hmemaker}},
+\code{\link{mebear}},
+\code{\link{wrkclass}}
 }
+\concept{Children}
 \concept{Gender}
+\concept{Household}
+\concept{Women}
 \keyword{variable}

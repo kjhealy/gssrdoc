@@ -31,6 +31,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -71,6 +72,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -112,6 +114,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sptmkid3
@@ -151,6 +154,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -191,6 +195,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -231,6 +236,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -271,6 +277,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -311,6 +318,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -353,6 +361,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -395,6 +404,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Children
 #' 
 #' @keywords variable
 #' @md

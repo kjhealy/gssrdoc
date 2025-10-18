@@ -87,4 +87,5 @@ Other Core:
 \code{\link{parborn}}
 }
 \concept{Core}
+\concept{Income}
 \keyword{variable}

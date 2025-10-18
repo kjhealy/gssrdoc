@@ -256,6 +256,12 @@ Other Core:
 \code{\link{othjew}},
 \code{\link{relig}},
 \code{\link{wirtap}}
+
+Other Religion: 
+\code{\link{denom}},
+\code{\link{othjew}},
+\code{\link{relig}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

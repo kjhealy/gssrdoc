@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -107,6 +109,7 @@ NULL
 #'  |Total |1788 |699                  |764 |171 |63 |12 |6  |1  |1  |4         |35             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -148,6 +151,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name lngrltnshp
@@ -184,6 +188,7 @@ NULL
 #'  |Total |3243 |64  |231 |1         |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -224,6 +229,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name rchild18
@@ -260,6 +266,7 @@ NULL
 #'  |Total |3213 |134 |190 |1         |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -300,6 +307,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name rbioprnt18
@@ -338,6 +346,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name radptprnt18
@@ -374,6 +383,7 @@ NULL
 #'  |Total |3440 |6   |98 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

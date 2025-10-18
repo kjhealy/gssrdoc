@@ -58,6 +58,14 @@ Other Paradata:
 \code{\link{whoelse4}},
 \code{\link{whoelse5}},
 \code{\link{whoelse6}}
+
+Other Interview: 
+\code{\link{feelevel}},
+\code{\link{feeused}},
+\code{\link{saqgene}},
+\code{\link{saqissp}},
+\code{\link{saqsex}}
 }
+\concept{Interview}
 \concept{Paradata}
 \keyword{variable}

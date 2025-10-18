@@ -53,6 +53,10 @@ Other Intergroup Relations:
 \code{\link{violjews}},
 \code{\link{violso}},
 \code{\link{violwhts}}
+
+Other Jews: 
+\code{\link{violjews}}
 }
 \concept{Intergroup Relations}
+\concept{Jews}
 \keyword{variable}

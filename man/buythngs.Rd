@@ -54,6 +54,10 @@ Other ISSP Family & Gender Roles:
 \code{\link{tiredhme}},
 \code{\link{tiredwrk}},
 \code{\link{weekend}}
+
+Other Marriage: 
+\code{\link{weekend}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Marriage}
 \keyword{variable}

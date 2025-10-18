@@ -28,6 +28,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Contribute Money To
+#' @family Religion
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -65,6 +68,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Contribute Money To
+#' @family Political
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -104,6 +110,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Contribute Money To
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -140,6 +148,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -175,6 +184,7 @@ NULL
 #'  |Total |1387 |749 |53 |64 |1   |1  |26 |1   |1  |6  |1   |30 |13 |1  |6  |1  |61 |38 |3   |1  |1  |7  |6  |1   |1  |2  |1  |42 |19 |4  |1  |1  |98 |9  |1  |40 |7  |38 |7  |1  |2  |9  |2  |2  |46 |1  |5  |2  |1  |5          |26        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable
@@ -217,6 +227,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -256,6 +267,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -295,6 +307,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Children
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -336,6 +350,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Children
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -377,6 +393,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Children
+#' @family Education
 #' 
 #' @keywords variable
 #' @md

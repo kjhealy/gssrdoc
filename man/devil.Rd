@@ -53,6 +53,18 @@ Other ISSP Religion:
 \code{\link{nihilism}},
 \code{\link{predeter}},
 \code{\link{theism}}
+
+Other Religion: 
+\code{\link{bible1}},
+\code{\link{fatalism}},
+\code{\link{godmeans}},
+\code{\link{heaven}},
+\code{\link{hell}},
+\code{\link{miracles}},
+\code{\link{nihilism}},
+\code{\link{predeter}},
+\code{\link{theism}}
 }
 \concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

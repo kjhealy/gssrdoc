@@ -52,6 +52,18 @@ Other Core:
 \code{\link{jobpay}},
 \code{\link{jobpromo}},
 \code{\link{jobrise}}
+
+Other Split Ballots: 
+\code{\link{jobhonor}},
+\code{\link{jobhour}},
+\code{\link{jobindep}},
+\code{\link{jobinter}},
+\code{\link{jobkeep}},
+\code{\link{jobmeans}},
+\code{\link{jobpay}},
+\code{\link{jobpromo}},
+\code{\link{jobrise}}
 }
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

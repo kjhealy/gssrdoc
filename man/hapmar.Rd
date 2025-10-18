@@ -85,6 +85,21 @@ Other Core:
 \code{\link{closeblk}},
 \code{\link{closewht}},
 \code{\link{happy}}
+
+Other Happiness: 
+\code{\link{happy}}
+
+Other Split Ballots: 
+\code{\link{alienat1}},
+\code{\link{alienat2}},
+\code{\link{alienat3}},
+\code{\link{alienat4}},
+\code{\link{alienat5}},
+\code{\link{alienat6}},
+\code{\link{happy}}
 }
 \concept{Core}
+\concept{Happiness}
+\concept{Marital Status}
+\concept{Split Ballots}
 \keyword{variable}

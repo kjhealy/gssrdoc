@@ -76,6 +76,25 @@ Other Core:
 \code{\link{joblose}},
 \code{\link{richwork}},
 \code{\link{satjob}}
+
+Other Job: 
+\code{\link{jobinc}},
+\code{\link{satjob}}
+
+Other Split Ballots: 
+\code{\link{anomia7}},
+\code{\link{anomia8}},
+\code{\link{jobinc}}
+
+Other Work: 
+\code{\link{jobfind}},
+\code{\link{jobinc}},
+\code{\link{joblose}},
+\code{\link{richwork}},
+\code{\link{satjob}}
 }
 \concept{Core}
+\concept{Job}
+\concept{Split Ballots}
+\concept{Work}
 \keyword{variable}

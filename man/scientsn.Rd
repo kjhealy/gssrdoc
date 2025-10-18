@@ -51,6 +51,17 @@ Other Science Knowledge & Attitudes:
 \code{\link{scinews2}},
 \code{\link{scinews3}},
 \code{\link{seeksciy}}
+
+Other Science: 
+\code{\link{newsfrmy}},
+\code{\link{scientda}},
+\code{\link{scifromy}},
+\code{\link{sciinfgo}},
+\code{\link{scinews1}},
+\code{\link{scinews2}},
+\code{\link{scinews3}},
+\code{\link{seeksciy}}
 }
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

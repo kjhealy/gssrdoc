@@ -55,6 +55,18 @@ Other Multi-Ethnic United States:
 \code{\link{neieth6}},
 \code{\link{neieth7}},
 \code{\link{neieth9}}
+
+Other Race: 
+\code{\link{leastcom}},
+\code{\link{neieth1}},
+\code{\link{neieth2}},
+\code{\link{neieth3}},
+\code{\link{neieth4}},
+\code{\link{neieth5}},
+\code{\link{neieth6}},
+\code{\link{neieth7}},
+\code{\link{neieth9}}
 }
 \concept{Multi-Ethnic United States}
+\concept{Race}
 \keyword{variable}

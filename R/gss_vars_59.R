@@ -47,6 +47,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Family
+#' @family Sociability
 #' 
 #' @keywords variable
 #' @md
@@ -103,6 +105,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Family
+#' @family Sociability
 #' 
 #' @keywords variable
 #' @md
@@ -171,6 +175,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Aged
 #' 
 #' @keywords variable
 #' @md
@@ -211,6 +216,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name agedpar
@@ -249,6 +255,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -300,6 +307,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Employment
+#' @family Labor Force Status
+#' @family Weeks Worked
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -353,6 +364,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Employment
+#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -404,6 +417,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Drinking
 #' 
 #' @keywords variable
 #' @md
@@ -456,6 +470,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Drinking
 #' 
 #' @keywords variable
 #' @md
@@ -507,6 +522,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Smoking
 #' 
 #' @keywords variable
 #' @md

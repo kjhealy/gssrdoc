@@ -55,6 +55,17 @@ Other Workplace Conflict:
 \code{\link{rudewk}},
 \code{\link{rumorwk}},
 \code{\link{wkbhvrs}}
+
+Other Work: 
+\code{\link{denyrais}},
+\code{\link{eharaswk}},
+\code{\link{ignorwk}},
+\code{\link{jokeswk}},
+\code{\link{liedcwkr}},
+\code{\link{rudewk}},
+\code{\link{rumorwk}},
+\code{\link{wkbhvrs}}
 }
+\concept{Work}
 \concept{Workplace Conflict}
 \keyword{variable}

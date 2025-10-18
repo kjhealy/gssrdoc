@@ -53,6 +53,17 @@ Other Workplace Conflict:
 \code{\link{reliedon}},
 \code{\link{shout}},
 \code{\link{skipwork}}
+
+Other Job: 
+\code{\link{actupset}},
+\code{\link{gdjobsec}},
+\code{\link{hotargus}},
+\code{\link{lookaway}},
+\code{\link{physharm}},
+\code{\link{reliedon}},
+\code{\link{shout}},
+\code{\link{skipwork}}
 }
+\concept{Job}
 \concept{Workplace Conflict}
 \keyword{variable}

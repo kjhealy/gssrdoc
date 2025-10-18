@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name docearn
@@ -76,6 +77,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthweb
@@ -115,6 +117,7 @@ NULL
 #'  |Total |2406 |181   |182    |411       |216   |107        |38           |3              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -158,6 +161,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthwbanx
@@ -197,6 +201,7 @@ NULL
 #'  |Total |2406 |270   |256    |389       |133   |49         |39           |1         |1              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -240,6 +245,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name webhltbeh
@@ -279,6 +285,7 @@ NULL
 #'  |Total |2406 |70             |503   |288                        |153      |46                |70           |5         |3              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -322,6 +329,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name websympt
@@ -363,6 +371,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name webdradv
@@ -402,6 +411,7 @@ NULL
 #'  |Total |2381 |163            |476   |268                        |159      |20                |60           |9         |8              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

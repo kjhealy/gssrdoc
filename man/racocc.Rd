@@ -51,6 +51,17 @@ Other Core:
 \code{\link{racopwil}},
 \code{\link{racparty}},
 \code{\link{ractrust}}
+
+Other Race: 
+\code{\link{racimp}},
+\code{\link{racinc}},
+\code{\link{racmix}},
+\code{\link{racneigh}},
+\code{\link{racnobuy}},
+\code{\link{racopnow}},
+\code{\link{racparty}},
+\code{\link{ractrust}}
 }
 \concept{Core}
+\concept{Race}
 \keyword{variable}

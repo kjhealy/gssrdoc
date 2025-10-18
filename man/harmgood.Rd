@@ -61,6 +61,12 @@ Other ISSP Environment:
 \code{\link{scifaith}},
 \code{\link{scigrn}},
 \code{\link{sciworse}}
+
+Other Science: 
+\code{\link{scifaith}},
+\code{\link{scigrn}},
+\code{\link{sciworse}}
 }
 \concept{ISSP Environment}
+\concept{Science}
 \keyword{variable}

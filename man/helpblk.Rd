@@ -75,6 +75,14 @@ Other Core:
 \code{\link{obfewar}},
 \code{\link{obmepax}},
 \code{\link{obmewar}}
+
+Other Federal Government: 
+\code{\link{helpnot}},
+\code{\link{helppoor}},
+\code{\link{helpsick}}
 }
+\concept{Affirmative Action}
 \concept{Core}
+\concept{Federal Government}
+\concept{Race}
 \keyword{variable}

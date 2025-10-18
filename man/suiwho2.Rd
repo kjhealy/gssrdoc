@@ -59,6 +59,18 @@ Other Victims & AIDS:
 \code{\link{suisex2}},
 \code{\link{suisex3}},
 \code{\link{suiwho3}}
+
+Other Suicide: 
+\code{\link{suiage}},
+\code{\link{suiage2}},
+\code{\link{suirac2}},
+\code{\link{suirace}},
+\code{\link{suireg}},
+\code{\link{suireg2}},
+\code{\link{suisex2}},
+\code{\link{suisex3}},
+\code{\link{suiwho3}}
 }
+\concept{Suicide}
 \concept{Victims & AIDS}
 \keyword{variable}

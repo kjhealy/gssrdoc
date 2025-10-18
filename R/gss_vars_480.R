@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -83,6 +84,8 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
 #' @family Core
+#' @family Gays And Lesbians
+#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -127,6 +130,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Gays And Lesbians
+#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -169,6 +174,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -211,6 +217,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -253,6 +260,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -295,6 +303,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -337,6 +346,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -379,6 +389,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -421,6 +432,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md

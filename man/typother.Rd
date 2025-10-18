@@ -50,6 +50,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{numyouth}},
 \code{\link{typchurh}},
 \code{\link{typinfrm}}
+
+Other Voluntary Associations: 
+\code{\link{numfrat}},
+\code{\link{numpolit}},
+\code{\link{numserv}},
+\code{\link{numsport}},
+\code{\link{numunion}},
+\code{\link{numvet}},
+\code{\link{numyouth}},
+\code{\link{typchurh}},
+\code{\link{typinfrm}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

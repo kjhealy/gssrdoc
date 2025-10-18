@@ -51,6 +51,18 @@ Other Core:
 \code{\link{mechanic}},
 \code{\link{nurse}},
 \code{\link{transair}}
+
+Other Military: 
+\code{\link{brass}},
+\code{\link{fedirty}},
+\code{\link{fefight}},
+\code{\link{fightlnd}},
+\code{\link{fightsea}},
+\code{\link{gunner}},
+\code{\link{mechanic}},
+\code{\link{nurse}},
+\code{\link{transair}}
 }
 \concept{Core}
+\concept{Military}
 \keyword{variable}

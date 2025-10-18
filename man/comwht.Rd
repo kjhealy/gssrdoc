@@ -49,6 +49,10 @@ Other Multi-Ethnic United States:
 \code{\link{ethchng}},
 \code{\link{hispwork}},
 \code{\link{knwwht}}
+
+Other Whites: 
+\code{\link{knwwht}}
 }
 \concept{Multi-Ethnic United States}
+\concept{Whites}
 \keyword{variable}

@@ -54,6 +54,18 @@ Other Emotions:
 \code{\link{proud}},
 \code{\link{showangr}},
 \code{\link{showfeel}}
+
+Other Feelings: 
+\code{\link{angry}},
+\code{\link{badbrks}},
+\code{\link{embarrss}},
+\code{\link{litcntrl}},
+\code{\link{mostluck}},
+\code{\link{noplan}},
+\code{\link{proud}},
+\code{\link{showangr}},
+\code{\link{showfeel}}
 }
 \concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

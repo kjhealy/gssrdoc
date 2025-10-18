@@ -52,6 +52,14 @@ Other Core:
 \code{\link{sallabor}},
 \code{\link{salsatfn}},
 \code{\link{unemp5}}
+
+Other Salience Of Issues: 
+\code{\link{salabort}},
+\code{\link{salfergt}},
+\code{\link{sallabor}},
+\code{\link{salsatfn}}
 }
 \concept{Core}
+\concept{Salience Of Issues}
+\concept{Science}
 \keyword{variable}

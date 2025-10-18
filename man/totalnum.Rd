@@ -56,6 +56,15 @@ Other Work Orientation:
 \code{\link{supervis}},
 \code{\link{supnum}},
 \code{\link{suprvsjb}}
+
+Other Job: 
+\code{\link{localnum}},
+\code{\link{moonlite}},
+\code{\link{numsites}},
+\code{\link{othhrs}},
+\code{\link{supervis}},
+\code{\link{supnum}}
 }
+\concept{Job}
 \concept{Work Orientation}
 \keyword{variable}

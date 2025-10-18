@@ -49,5 +49,6 @@ Other Culture:
 \code{\link{richpoor}},
 \code{\link{standup}}
 }
+\concept{Anomia}
 \concept{Culture}
 \keyword{variable}

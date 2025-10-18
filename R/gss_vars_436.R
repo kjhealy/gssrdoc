@@ -32,6 +32,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Civil Liberties
+#' @family Privacy
 #' 
 #' @keywords variable
 #' @md
@@ -73,6 +75,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Civil Liberties
+#' @family Privacy
+#' @family Wiretapping
 #' 
 #' @keywords variable
 #' @md
@@ -114,6 +119,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Civil Liberties
+#' @family Privacy
 #' 
 #' @keywords variable
 #' @md
@@ -155,6 +162,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Civil Liberties
+#' @family Privacy
 #' 
 #' @keywords variable
 #' @md
@@ -203,6 +212,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Courts
 #' 
 #' @keywords variable
 #' @md
@@ -247,6 +257,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Privacy
 #' 
 #' @keywords variable
 #' @md
@@ -290,6 +301,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -333,6 +345,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -374,6 +387,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Opportunity
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -415,6 +430,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Opportunity
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

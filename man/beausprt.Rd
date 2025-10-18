@@ -56,6 +56,12 @@ Other Religion and Culture:
 \code{\link{nocheer}},
 \code{\link{uniongod}},
 \code{\link{wrthless}}
+
+Other Religion: 
+\code{\link{godlove}},
+\code{\link{harmony}},
+\code{\link{uniongod}}
 }
+\concept{Religion}
 \concept{Religion and Culture}
 \keyword{variable}

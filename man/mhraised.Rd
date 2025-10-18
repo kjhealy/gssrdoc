@@ -53,6 +53,18 @@ Other Mental Health IV:
 \code{\link{mhgod}},
 \code{\link{mhluck}},
 \code{\link{mhstress}}
+
+Other Mental Health: 
+\code{\link{mhbrain}},
+\code{\link{mhchrctr}},
+\code{\link{mhdomove}},
+\code{\link{mhdonone}},
+\code{\link{mhdooth}},
+\code{\link{mhgenes}},
+\code{\link{mhgod}},
+\code{\link{mhluck}},
+\code{\link{mhstress}}
 }
+\concept{Mental Health}
 \concept{Mental Health IV}
 \keyword{variable}

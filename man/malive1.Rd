@@ -45,6 +45,20 @@ Other Family Mobility:
 \code{\link{mayrdied}},
 \code{\link{palive1}},
 \code{\link{payrborn}}
+
+Other Family: 
+\code{\link{mayrborn}},
+\code{\link{mayrdied}},
+\code{\link{palive1}},
+\code{\link{payrborn}}
+
+Other Parents: 
+\code{\link{mayrborn}},
+\code{\link{mayrdied}},
+\code{\link{palive1}},
+\code{\link{payrborn}}
 }
+\concept{Family}
 \concept{Family Mobility}
+\concept{Parents}
 \keyword{variable}

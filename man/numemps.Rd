@@ -64,5 +64,7 @@ Other Workplace Conflict:
 \code{\link{skipwork}},
 \code{\link{treatres}}
 }
+\concept{Business}
+\concept{Employment}
 \concept{Workplace Conflict}
 \keyword{variable}

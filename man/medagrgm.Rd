@@ -50,6 +50,18 @@ Other Science Knowledge & Attitudes:
 \code{\link{polbstgm}},
 \code{\link{polinfgm}},
 \code{\link{sciimp1}}
+
+Other Science: 
+\code{\link{bizbstgm}},
+\code{\link{bizinfgm}},
+\code{\link{eatgm}},
+\code{\link{gmbiz}},
+\code{\link{medbstgm}},
+\code{\link{medinfgm}},
+\code{\link{polbstgm}},
+\code{\link{polinfgm}},
+\code{\link{sciimp1}}
 }
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -45,6 +45,10 @@ Counts by year:\tabular{lllllllll}{
 \seealso{
 Other Health Status: 
 \code{\link{emotfeel}}
+
+Other Health: 
+\code{\link{emotfeel}}
 }
+\concept{Health}
 \concept{Health Status}
 \keyword{variable}

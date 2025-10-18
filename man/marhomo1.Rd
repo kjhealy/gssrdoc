@@ -48,6 +48,15 @@ Counts by year:\tabular{lllllllllll}{
 \seealso{
 Other Core: 
 \code{\link{marhomo}}
+
+Other Gays And Lesbians: 
+\code{\link{marhomo}}
+
+Other Marriage: 
+\code{\link{mardiv}},
+\code{\link{marhomo}}
 }
 \concept{Core}
+\concept{Gays And Lesbians}
+\concept{Marriage}
 \keyword{variable}

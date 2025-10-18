@@ -54,6 +54,18 @@ Other Health Status:
 \code{\link{treat3}},
 \code{\link{treat4}},
 \code{\link{treat5}}
+
+Other Health: 
+\code{\link{downblue}},
+\code{\link{energy}},
+\code{\link{pain}},
+\code{\link{peaceful}},
+\code{\link{treat1}},
+\code{\link{treat2}},
+\code{\link{treat3}},
+\code{\link{treat4}},
+\code{\link{treat5}}
 }
+\concept{Health}
 \concept{Health Status}
 \keyword{variable}

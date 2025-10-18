@@ -43,5 +43,6 @@ Other ISSP Family & Gender Roles:
 \code{\link{spfalook}},
 \code{\link{wkyngscs}}
 }
+\concept{Cohabitation}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

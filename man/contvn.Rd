@@ -53,6 +53,18 @@ Other Multi-Ethnic United States:
 \code{\link{contjew}},
 \code{\link{contmex}},
 \code{\link{contpr}}
+
+Other United States: 
+\code{\link{contblk}},
+\code{\link{contchn}},
+\code{\link{contcuba}},
+\code{\link{conteng}},
+\code{\link{contirsh}},
+\code{\link{contitl}},
+\code{\link{contjew}},
+\code{\link{contmex}},
+\code{\link{contpr}}
 }
 \concept{Multi-Ethnic United States}
+\concept{United States}
 \keyword{variable}

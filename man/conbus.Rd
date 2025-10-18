@@ -85,6 +85,31 @@ Other Core:
 \code{\link{satfam}},
 \code{\link{satfrnd}},
 \code{\link{sathealt}}
+
+Other Business: 
+\code{\link{confinan}}
+
+Other Confidence: 
+\code{\link{conclerg}},
+\code{\link{coneduc}},
+\code{\link{confed}},
+\code{\link{confinan}},
+\code{\link{conlabor}},
+\code{\link{conpress}}
+
+Other Split Ballots: 
+\code{\link{conclerg}},
+\code{\link{coneduc}},
+\code{\link{confed}},
+\code{\link{confinan}},
+\code{\link{conlabor}},
+\code{\link{conpress}},
+\code{\link{satfam}},
+\code{\link{satfrnd}},
+\code{\link{sathealt}}
 }
+\concept{Business}
+\concept{Confidence}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

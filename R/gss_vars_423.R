@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
+#' @family Terrorism
 #' 
 #' @keywords variable
 #' @md
@@ -74,6 +75,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
+#' @family Terrorism
 #' 
 #' @keywords variable
 #' @md
@@ -115,6 +117,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
+#' @family Terrorism
 #' 
 #' @keywords variable
 #' @md
@@ -166,6 +169,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
+#' @family Terrorism
 #' 
 #' @keywords variable
 #' @md
@@ -205,6 +209,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -241,6 +247,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -280,6 +289,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Income
+#' @family Job
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -320,6 +332,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Income
+#' @family Job
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -359,6 +374,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
+#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -406,6 +424,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
+#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md

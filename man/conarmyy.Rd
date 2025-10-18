@@ -52,6 +52,35 @@ Other Core:
 \code{\link{consciy}},
 \code{\link{contvy}},
 \code{\link{manners}}
+
+Other Confidence: 
+\code{\link{confedy}},
+\code{\link{conjudgy}},
+\code{\link{conlaboy}},
+\code{\link{conlegiy}},
+\code{\link{conmediy}},
+\code{\link{conpresy}},
+\code{\link{consciy}},
+\code{\link{contvy}}
+
+Other Federal Government: 
+\code{\link{confedy}},
+\code{\link{conjudgy}},
+\code{\link{conlegiy}}
+
+Other Split Ballots: 
+\code{\link{confedy}},
+\code{\link{conjudgy}},
+\code{\link{conlaboy}},
+\code{\link{conlegiy}},
+\code{\link{conmediy}},
+\code{\link{conpresy}},
+\code{\link{consciy}},
+\code{\link{contvy}},
+\code{\link{manners}}
 }
+\concept{Confidence}
 \concept{Core}
+\concept{Federal Government}
+\concept{Split Ballots}
 \keyword{variable}

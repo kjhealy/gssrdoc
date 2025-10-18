@@ -61,4 +61,5 @@ Other Core:
 \code{\link{polmurdr}}
 }
 \concept{Core}
+\concept{Guns}
 \keyword{variable}

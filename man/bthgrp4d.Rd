@@ -64,6 +64,16 @@ Other Interviewer Characteristics:
 \code{\link{bthgrp5a}},
 \code{\link{bthgrp5b}},
 \code{\link{bthgrp5c}}
+
+Other Voluntary Associations: 
+\code{\link{bthgrp4a}},
+\code{\link{bthgrp4b}},
+\code{\link{bthgrp4c}},
+\code{\link{bthgrp4e}},
+\code{\link{bthgrp5a}},
+\code{\link{bthgrp5b}},
+\code{\link{bthgrp5c}}
 }
 \concept{Interviewer Characteristics}
+\concept{Voluntary Associations}
 \keyword{variable}

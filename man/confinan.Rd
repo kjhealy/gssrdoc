@@ -83,6 +83,32 @@ Other Core:
 \code{\link{satfam}},
 \code{\link{satfrnd}},
 \code{\link{sathealt}}
+
+Other Business: 
+\code{\link{conbus}}
+
+Other Confidence: 
+\code{\link{conbus}},
+\code{\link{conclerg}},
+\code{\link{coneduc}},
+\code{\link{confed}},
+\code{\link{conlabor}},
+\code{\link{conpress}}
+
+Other Split Ballots: 
+\code{\link{conbus}},
+\code{\link{conclerg}},
+\code{\link{coneduc}},
+\code{\link{confed}},
+\code{\link{conlabor}},
+\code{\link{conpress}},
+\code{\link{satfam}},
+\code{\link{satfrnd}},
+\code{\link{sathealt}}
 }
+\concept{Business}
+\concept{Confidence}
 \concept{Core}
+\concept{Financial Institutions And Banks}
+\concept{Split Ballots}
 \keyword{variable}

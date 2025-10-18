@@ -63,7 +63,15 @@ Other ISSP Social Inequality:
 \code{\link{inequal4}},
 \code{\link{oppol}},
 \code{\link{opsex}}
+
+Other Inequality, Income: 
+\code{\link{incentiv}},
+\code{\link{inequal1}},
+\code{\link{inequal2}},
+\code{\link{inequal3}},
+\code{\link{inequal4}}
 }
 \concept{ISSP Social Inequality}
+\concept{Inequality, Income}
 \concept{Markets}
 \keyword{variable}

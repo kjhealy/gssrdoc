@@ -52,6 +52,17 @@ Other Mental Health:
 \code{\link{prozfor1}},
 \code{\link{prozfor2}},
 \code{\link{prozfor3}}
+
+Other Mental Health: 
+\code{\link{knwnproz}},
+\code{\link{proz1}},
+\code{\link{proz2}},
+\code{\link{proz3}},
+\code{\link{proz4}},
+\code{\link{proz5}},
+\code{\link{prozfor1}},
+\code{\link{prozfor2}},
+\code{\link{prozfor3}}
 }
 \concept{Mental Health}
 \keyword{variable}

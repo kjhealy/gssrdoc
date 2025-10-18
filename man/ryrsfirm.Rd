@@ -55,6 +55,38 @@ Other Work Orientation:
 \code{\link{rfamresp}},
 \code{\link{rpaysame}},
 \code{\link{rsecjob}}
+
+Other Employment: 
+\code{\link{rageemp}},
+\code{\link{rdk}},
+\code{\link{rdowell}},
+\code{\link{reducemp}},
+\code{\link{rexpernc}},
+\code{\link{rfamresp}},
+\code{\link{rpaysame}}
+
+Other Job: 
+\code{\link{hrsmoney}},
+\code{\link{rageemp}},
+\code{\link{rdk}},
+\code{\link{rdowell}},
+\code{\link{reducemp}},
+\code{\link{rexpernc}},
+\code{\link{rfamresp}},
+\code{\link{rpaysame}},
+\code{\link{rsecjob}}
+
+Other Occupation: 
+\code{\link{rageemp}},
+\code{\link{rdk}},
+\code{\link{rdowell}},
+\code{\link{reducemp}},
+\code{\link{rexpernc}},
+\code{\link{rfamresp}},
+\code{\link{rpaysame}}
 }
+\concept{Employment}
+\concept{Job}
+\concept{Occupation}
 \concept{Work Orientation}
 \keyword{variable}

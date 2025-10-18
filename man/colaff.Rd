@@ -51,6 +51,30 @@ Other Multiculturalism:
 \code{\link{schleth}},
 \code{\link{teacheth}},
 \code{\link{whoteach}}
+
+Other Affirmative Action: 
+\code{\link{colaffy}},
+\code{\link{discaffy}},
+\code{\link{jobaff}}
+
+Other Blacks: 
+\code{\link{colaffy}},
+\code{\link{discaffy}},
+\code{\link{jobaff}}
+
+Other Education: 
+\code{\link{colaffy}},
+\code{\link{ethhist}},
+\code{\link{schleth}},
+\code{\link{teacheth}},
+\code{\link{whoteach}}
+
+Other Split Ballots: 
+\code{\link{discaffy}}
 }
+\concept{Affirmative Action}
+\concept{Blacks}
+\concept{Education}
 \concept{Multiculturalism}
+\concept{Split Ballots}
 \keyword{variable}

@@ -50,6 +50,24 @@ Other Science Knowledge & Attitudes:
 \code{\link{litmstxt}},
 \code{\link{salth2o}},
 \code{\link{stormtxt}}
+
+Other Knowledge: 
+\code{\link{anheat}},
+\code{\link{h2olife}},
+\code{\link{lftplane}},
+\code{\link{stormtxt}}
+
+Other Science: 
+\code{\link{anheat}},
+\code{\link{anscitst}},
+\code{\link{erosion}},
+\code{\link{goldfish}},
+\code{\link{h2olife}},
+\code{\link{lftplane}},
+\code{\link{salth2o}},
+\code{\link{stormtxt}}
 }
+\concept{Knowledge}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

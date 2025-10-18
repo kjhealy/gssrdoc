@@ -54,6 +54,16 @@ Other ISSP Religion:
 \code{\link{conschls}},
 \code{\link{godchnge}},
 \code{\link{polsgod}}
+
+Other Religion: 
+\code{\link{afterlif}},
+\code{\link{churhpow}},
+\code{\link{clerggov}},
+\code{\link{clergvte}},
+\code{\link{conchurh}},
+\code{\link{godchnge}},
+\code{\link{polsgod}}
 }
 \concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

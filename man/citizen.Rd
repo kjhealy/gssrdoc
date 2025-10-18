@@ -53,6 +53,12 @@ Other ISSP National Identity:
 \code{\link{spklang1}},
 \code{\link{spklang2}},
 \code{\link{spklang3}}
+
+Other United States: 
+\code{\link{nafta1}},
+\code{\link{nafta2}},
+\code{\link{parcit}}
 }
 \concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

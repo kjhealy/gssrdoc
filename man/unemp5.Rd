@@ -69,6 +69,14 @@ Other Core:
 \code{\link{sallabor}},
 \code{\link{salsatfn}},
 \code{\link{salsci}}
+
+Other Trauma: 
+\code{\link{divorce5}},
+\code{\link{divrel1}},
+\code{\link{divrel4}}
 }
 \concept{Core}
+\concept{Employment}
+\concept{Trauma}
+\concept{Unemployment}
 \keyword{variable}

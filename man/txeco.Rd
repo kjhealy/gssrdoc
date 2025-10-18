@@ -53,6 +53,10 @@ Other Science Knowledge & Attitudes:
 \code{\link{relinfsc}},
 \code{\link{scresrch}},
 \code{\link{txbiz}}
+
+Other Economy: 
+\code{\link{txbiz}}
 }
+\concept{Economy}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

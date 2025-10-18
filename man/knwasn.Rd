@@ -52,5 +52,6 @@ Other Multi-Ethnic United States:
 \code{\link{whtschl}},
 \code{\link{whtwrk}}
 }
+\concept{Asian Americans}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

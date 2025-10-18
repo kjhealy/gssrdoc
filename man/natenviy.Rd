@@ -76,6 +76,56 @@ Other Core:
 \code{\link{natsci}},
 \code{\link{natsoc}},
 \code{\link{natspacy}}
+
+Other Environment: 
+\code{\link{natenrgy}}
+
+Other Federal Government: 
+\code{\link{natchld}},
+\code{\link{natfare}},
+\code{\link{natmass}},
+\code{\link{natpark}},
+\code{\link{natroad}},
+\code{\link{natsci}},
+\code{\link{natsoc}},
+\code{\link{natspacy}}
+
+Other Spending: 
+\code{\link{natchld}},
+\code{\link{natfare}},
+\code{\link{natmass}},
+\code{\link{natpark}},
+\code{\link{natroad}},
+\code{\link{natsci}},
+\code{\link{natsoc}},
+\code{\link{natspacy}}
+
+Other Split Ballots: 
+\code{\link{natchld}},
+\code{\link{natenrgy}},
+\code{\link{natfare}},
+\code{\link{natmass}},
+\code{\link{natpark}},
+\code{\link{natroad}},
+\code{\link{natsci}},
+\code{\link{natsoc}},
+\code{\link{natspacy}}
+
+Other United States: 
+\code{\link{natchld}},
+\code{\link{natenrgy}},
+\code{\link{natfare}},
+\code{\link{natmass}},
+\code{\link{natpark}},
+\code{\link{natroad}},
+\code{\link{natsci}},
+\code{\link{natsoc}},
+\code{\link{natspacy}}
 }
 \concept{Core}
+\concept{Environment}
+\concept{Federal Government}
+\concept{Spending}
+\concept{Split Ballots}
+\concept{United States}
 \keyword{variable}

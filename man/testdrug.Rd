@@ -56,6 +56,18 @@ Other National Security:
 \code{\link{emailwrk}},
 \code{\link{finanqs}},
 \code{\link{lietest}}
+
+Other United States: 
+\code{\link{bugging}},
+\code{\link{chkonjob}},
+\code{\link{chkother}},
+\code{\link{chktravl}},
+\code{\link{compfin}},
+\code{\link{emailhme}},
+\code{\link{emailwrk}},
+\code{\link{finanqs}},
+\code{\link{lietest}}
 }
 \concept{National Security}
+\concept{United States}
 \keyword{variable}

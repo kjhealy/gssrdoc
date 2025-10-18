@@ -54,4 +54,5 @@ Other Gender:
 \code{\link{worklife}}
 }
 \concept{Gender}
+\concept{Household}
 \keyword{variable}

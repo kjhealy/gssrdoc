@@ -51,6 +51,10 @@ Other Core:
 \code{\link{privacy}},
 \code{\link{rushed}},
 \code{\link{stresswk}}
+
+Other Surveys: 
+\code{\link{polltrue}}
 }
 \concept{Core}
+\concept{Surveys}
 \keyword{variable}

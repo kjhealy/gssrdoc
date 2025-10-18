@@ -53,6 +53,18 @@ Other Mental Health IV:
 \code{\link{mhnokids}},
 \code{\link{mhprdctv}},
 \code{\link{mhtrusty}}
+
+Other Mental Health: 
+\code{\link{mhaccptd}},
+\code{\link{mhcreatv}},
+\code{\link{mhfeelem}},
+\code{\link{mhhired}},
+\code{\link{mhhrdtlk}},
+\code{\link{mhnervs}},
+\code{\link{mhnokids}},
+\code{\link{mhprdctv}},
+\code{\link{mhtrusty}}
 }
+\concept{Mental Health}
 \concept{Mental Health IV}
 \keyword{variable}

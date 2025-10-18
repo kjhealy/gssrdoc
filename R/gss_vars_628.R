@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name immlimit
@@ -69,6 +70,7 @@ NULL
 #'  |Total |2003 |58           |22 |98                  |64 |83 |93 |389 |151 |280 |343 |207 |77         |155       |9              |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -109,6 +111,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name trmedia
@@ -147,6 +150,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name trbusind
@@ -183,6 +187,7 @@ NULL
 #'  |Total |2003 |339          |195 |25                  |197 |255 |222 |332 |108 |88 |46 |11 |49         |156       |6              |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -225,6 +230,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name clmtcaus
@@ -263,6 +269,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name clmtwrld
@@ -299,6 +306,7 @@ NULL
 #'  |Total |2003 |372               |124 |19                  |242 |263 |198 |349 |60 |52 |19 |24 |89           |218       |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -342,6 +350,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name naturdev
@@ -373,6 +382,7 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

@@ -62,6 +62,17 @@ Other ISSP Religion:
 \code{\link{relactiv}},
 \code{\link{relactiv1}},
 \code{\link{schlpray}}
+
+Other Religion: 
+\code{\link{attend12}},
+\code{\link{attendpa}},
+\code{\link{densp}},
+\code{\link{feelrel}},
+\code{\link{prayfreq}},
+\code{\link{relactiv}},
+\code{\link{relactiv1}},
+\code{\link{schlpray}}
 }
 \concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

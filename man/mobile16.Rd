@@ -89,4 +89,5 @@ Other Core:
 \code{\link{spgradtounder}}
 }
 \concept{Core}
+\concept{Geographic Mobility}
 \keyword{variable}

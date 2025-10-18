@@ -51,6 +51,23 @@ Other Family Mobility:
 \code{\link{sbyrbrn5}},
 \code{\link{sbyrbrn6}},
 \code{\link{sbyrbrn7}}
+
+Other Sex: 
+\code{\link{sbsex7}},
+\code{\link{sbsex9}}
+
+Other Siblings: 
+\code{\link{sbsex7}},
+\code{\link{sbsex9}},
+\code{\link{sbyrbrn1}},
+\code{\link{sbyrbrn2}},
+\code{\link{sbyrbrn3}},
+\code{\link{sbyrbrn4}},
+\code{\link{sbyrbrn5}},
+\code{\link{sbyrbrn6}},
+\code{\link{sbyrbrn7}}
 }
 \concept{Family Mobility}
+\concept{Sex}
+\concept{Siblings}
 \keyword{variable}

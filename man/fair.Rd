@@ -80,6 +80,12 @@ Other Core:
 \code{\link{sathobby}},
 \code{\link{trust}},
 \code{\link{trusty}}
+
+Other People: 
+\code{\link{helpful}},
+\code{\link{trust}},
+\code{\link{trusty}}
 }
 \concept{Core}
+\concept{People}
 \keyword{variable}

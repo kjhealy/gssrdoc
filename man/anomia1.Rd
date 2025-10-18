@@ -53,6 +53,22 @@ Other Core:
 \code{\link{evsmoke}},
 \code{\link{quitsmk}},
 \code{\link{smokecig}}
+
+Other Anomia: 
+\code{\link{anomia2}},
+\code{\link{anomia3}},
+\code{\link{anomia4}},
+\code{\link{anomia5}},
+\code{\link{anomia6}}
+
+Other Split Ballots: 
+\code{\link{anomia2}},
+\code{\link{anomia3}},
+\code{\link{anomia4}},
+\code{\link{anomia5}},
+\code{\link{anomia6}}
 }
+\concept{Anomia}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

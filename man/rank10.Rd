@@ -51,6 +51,12 @@ Other Core:
 \code{\link{jobsafe}},
 \code{\link{jobsoc}},
 \code{\link{rank}()}
+
+Other Social Class: 
+\code{\link{class}()},
+\code{\link{classy}},
+\code{\link{rank}()}
 }
 \concept{Core}
+\concept{Social Class}
 \keyword{variable}

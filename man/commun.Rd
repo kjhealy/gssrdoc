@@ -64,6 +64,10 @@ Other War and International:
 \code{\link{usun}},
 \code{\link{uswar}},
 \code{\link{uswary}}
+
+Other Communism: 
+\code{\link{commun10}}
 }
+\concept{Communism}
 \concept{War and International}
 \keyword{variable}

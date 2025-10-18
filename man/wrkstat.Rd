@@ -91,6 +91,17 @@ Other Core:
 \code{\link{wrkgovt}},
 \code{\link{wrkslf}},
 \code{\link{year}()}
+
+Other Employment: 
+\code{\link{hrs1}},
+\code{\link{hrs2}}
+
+Other Labor Force Status: 
+\code{\link{evwork}},
+\code{\link{hrs1}},
+\code{\link{hrs2}}
 }
 \concept{Core}
+\concept{Employment}
+\concept{Labor Force Status}
 \keyword{variable}

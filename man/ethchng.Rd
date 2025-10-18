@@ -55,4 +55,5 @@ Other Multi-Ethnic United States:
 \code{\link{knwwht}}
 }
 \concept{Multi-Ethnic United States}
+\concept{Race}
 \keyword{variable}

@@ -50,6 +50,11 @@ Other Multi-Ethnic United States:
 \code{\link{letinhsp}},
 \code{\link{spklangw}},
 \code{\link{uswht}}
+
+Other Language: 
+\code{\link{betrlang}},
+\code{\link{spklangw}}
 }
+\concept{Language}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

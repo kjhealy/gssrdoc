@@ -50,6 +50,16 @@ Other Multiculturalism:
 \code{\link{ethspkok}},
 \code{\link{letin}},
 \code{\link{symptblk}}
+
+Other Language: 
+\code{\link{bilinged}},
+\code{\link{engoffcl}},
+\code{\link{engteach}}
+
+Other Political: 
+\code{\link{ethorgs}}
 }
+\concept{Language}
 \concept{Multiculturalism}
+\concept{Political}
 \keyword{variable}

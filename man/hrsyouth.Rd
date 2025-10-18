@@ -49,6 +49,18 @@ Other Markets & Exchange - Giving & Volunteering:
 \code{\link{hrsoth}},
 \code{\link{hrspol}},
 \code{\link{hrswork}}
+
+Other Voluntary Associations: 
+\code{\link{giveduc}},
+\code{\link{givhlth}},
+\code{\link{hrsart}},
+\code{\link{hrsfound}},
+\code{\link{hrsinfrm}},
+\code{\link{hrsintl}},
+\code{\link{hrsoth}},
+\code{\link{hrspol}},
+\code{\link{hrswork}}
 }
 \concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

@@ -32,6 +32,12 @@ Other Occupation:
 \code{\link{isco681}},
 \code{\link{paisco68}},
 \code{\link{spisco68}}
+
+Other Occupation: 
+\code{\link{isco68}},
+\code{\link{isco681}},
+\code{\link{paisco68}},
+\code{\link{spisco68}}
 }
 \concept{Occupation}
 \keyword{variable}

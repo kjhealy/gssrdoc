@@ -49,6 +49,18 @@ Other Markets & Exchange - Giving & Volunteering:
 \code{\link{moninfrm}},
 \code{\link{monintl}},
 \code{\link{monoth}}
+
+Other Voluntary Associations: 
+\code{\link{hrseduc}},
+\code{\link{hrsenvir}},
+\code{\link{hrshlth}},
+\code{\link{hrspub}},
+\code{\link{hrsrec}},
+\code{\link{hrsrelig}},
+\code{\link{moninfrm}},
+\code{\link{monintl}},
+\code{\link{monoth}}
 }
 \concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

@@ -51,6 +51,11 @@ Counts by year:\tabular{llllllllll}{
 \seealso{
 Other Ethnicity: 
 \code{\link{uscitzn}}
+
+Other Citizenship: 
+\code{\link{uscitzn}}
 }
+\concept{Citizenship}
 \concept{Ethnicity}
+\concept{Immigration}
 \keyword{variable}

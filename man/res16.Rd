@@ -90,4 +90,5 @@ Other Core:
 \code{\link{spgradtounder}}
 }
 \concept{Core}
+\concept{Residence}
 \keyword{variable}

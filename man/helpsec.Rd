@@ -54,6 +54,14 @@ Other ISSP Role of Gov't:
 \code{\link{helpenv}},
 \code{\link{helphlth}},
 \code{\link{helpold}}
+
+Other United States: 
+\code{\link{helpcrim}},
+\code{\link{helpemp}},
+\code{\link{helpenv}},
+\code{\link{helphlth}},
+\code{\link{helpold}}
 }
 \concept{ISSP Role of Gov't}
+\concept{United States}
 \keyword{variable}

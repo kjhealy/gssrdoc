@@ -59,5 +59,9 @@ Other Markets:
 \code{\link{decbed}},
 \code{\link{decgift}}
 }
+\concept{Employment}
+\concept{Job}
 \concept{Markets}
+\concept{Occupation}
+\concept{Work}
 \keyword{variable}

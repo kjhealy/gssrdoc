@@ -51,6 +51,12 @@ Other Multiculturalism:
 \code{\link{wlthimm}},
 \code{\link{wlthundc}},
 \code{\link{workimm}}
+
+Other Immigration: 
+\code{\link{wlthimm}},
+\code{\link{wlthundc}},
+\code{\link{workimm}}
 }
+\concept{Immigration}
 \concept{Multiculturalism}
 \keyword{variable}

@@ -53,6 +53,14 @@ Other Quality of Working Life:
 \code{\link{stress12}},
 \code{\link{usetech}},
 \code{\link{weight}}
+
+Other Health: 
+\code{\link{arthrtis}},
+\code{\link{depress}},
+\code{\link{diabetes}},
+\code{\link{slpprblm}},
+\code{\link{weight}}
 }
+\concept{Health}
 \concept{Quality of Working Life}
 \keyword{variable}

@@ -31,6 +31,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name abhelp2
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -109,6 +111,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name abhelp4
@@ -145,6 +148,7 @@ NULL
 #'  |Total |1160 |1043                                               |88                           |29         |28        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -185,6 +189,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name abmedgov2
@@ -221,6 +226,7 @@ NULL
 #'  |Total |0   |1077                     |1068                         |137        |66        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -263,6 +269,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name natnotice
@@ -301,6 +308,7 @@ NULL
 #'  |Total |1175 |781            |275            |58                |32                |6          |21        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -343,6 +351,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name nataccess
@@ -381,6 +390,7 @@ NULL
 #'  |Total |1175 |408            |347            |251               |141               |2          |24        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

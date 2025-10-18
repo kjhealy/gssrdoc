@@ -54,6 +54,19 @@ Other Number Known:
 \code{\link{acqfmwht}},
 \code{\link{acqnhlin}},
 \code{\link{acqnhmrk}}
+
+Other Social Networks: 
+\code{\link{acqfmcoh}},
+\code{\link{acqfmcon}},
+\code{\link{acqfmgay}},
+\code{\link{acqfmgo}},
+\code{\link{acqfmlib}},
+\code{\link{acqfmno}},
+\code{\link{acqfmwht}},
+\code{\link{acqnhlin}},
+\code{\link{acqnhmrk}}
 }
+\concept{Hispanics}
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

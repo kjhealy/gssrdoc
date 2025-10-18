@@ -69,6 +69,16 @@ Counts by year:\tabular{lllllll}{
 Other Vocabulary: 
 \code{\link{wordi}},
 \code{\link{wordsum}}
+
+Other Knowledge: 
+\code{\link{wordi}},
+\code{\link{wordsum}}
+
+Other Vocabulary Test: 
+\code{\link{wordi}},
+\code{\link{wordsum}}
 }
+\concept{Knowledge}
 \concept{Vocabulary}
+\concept{Vocabulary Test}
 \keyword{variable}

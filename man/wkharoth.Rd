@@ -55,6 +55,15 @@ Other Quality of Working Life:
 \code{\link{wkharsex}},
 \code{\link{wkracism}},
 \code{\link{wksexism}}
+
+Other Work: 
+\code{\link{jobfind1}},
+\code{\link{trynewjb}},
+\code{\link{wkageism}},
+\code{\link{wkharsex}},
+\code{\link{wkracism}},
+\code{\link{wksexism}}
 }
 \concept{Quality of Working Life}
+\concept{Work}
 \keyword{variable}

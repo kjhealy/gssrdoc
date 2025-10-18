@@ -86,6 +86,12 @@ Other Core:
 \code{\link{wrkslf}},
 \code{\link{wrkstat}},
 \code{\link{year}()}
+
+Other Labor Force Status: 
+\code{\link{hrs1}},
+\code{\link{hrs2}},
+\code{\link{wrkstat}}
 }
 \concept{Core}
+\concept{Labor Force Status}
 \keyword{variable}

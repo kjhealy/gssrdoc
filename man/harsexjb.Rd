@@ -43,6 +43,19 @@ Counts by year:\tabular{lllllll}{
 Other Clergy/Sex: 
 \code{\link{harsexcl}},
 \code{\link{ownclerg}}
+
+Other Job: 
+\code{\link{emphlth1}},
+\code{\link{emphlth2}},
+\code{\link{hlthtype}},
+\code{\link{mykids}}
+
+Other Sex: 
+\code{\link{harsexcl}},
+\code{\link{ownclerg}}
 }
 \concept{Clergy/Sex}
+\concept{Job}
+\concept{Sex}
+\concept{Work}
 \keyword{variable}

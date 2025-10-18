@@ -52,6 +52,10 @@ Other Adult Transitions:
 \code{\link{ftwork1}},
 \code{\link{ownhh}},
 \code{\link{ownhh1}}
+
+Other Income: 
+\code{\link{finind1}}
 }
 \concept{Adult Transitions}
+\concept{Income}
 \keyword{variable}

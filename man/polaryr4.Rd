@@ -55,6 +55,18 @@ Other Science Knowledge & Attitudes:
 \code{\link{tvmeltng}},
 \code{\link{tvoil}},
 \code{\link{tvozone}}
+
+Other Science: 
+\code{\link{polaryr1}},
+\code{\link{polaryr2}},
+\code{\link{polaryr3}},
+\code{\link{polaryr5}},
+\code{\link{tvbears}},
+\code{\link{tvinuit}},
+\code{\link{tvmeltng}},
+\code{\link{tvoil}},
+\code{\link{tvozone}}
 }
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

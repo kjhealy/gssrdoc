@@ -54,6 +54,18 @@ Other Number Known:
 \code{\link{acqvano}},
 \code{\link{acqvaune}},
 \code{\link{acqvawht}}
+
+Other Social Networks: 
+\code{\link{acqvaasn}},
+\code{\link{acqvablk}},
+\code{\link{acqvagay}},
+\code{\link{acqvago}},
+\code{\link{acqvahme}},
+\code{\link{acqvahsp}},
+\code{\link{acqvano}},
+\code{\link{acqvaune}},
+\code{\link{acqvawht}}
 }
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

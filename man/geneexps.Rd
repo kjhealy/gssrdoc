@@ -52,4 +52,5 @@ Other Genes and the Environment:
 \code{\link{selfish}}
 }
 \concept{Genes and the Environment}
+\concept{Genetic Testing}
 \keyword{variable}

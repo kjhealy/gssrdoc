@@ -80,6 +80,12 @@ Other Core:
 \code{\link{pillok}},
 \code{\link{sexeduc}},
 \code{\link{teenpill}}
+
+Other Children: 
+\code{\link{chldmore}},
+\code{\link{chldnum}},
+\code{\link{chldsoon}}
 }
+\concept{Children}
 \concept{Core}
 \keyword{variable}

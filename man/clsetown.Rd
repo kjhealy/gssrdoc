@@ -47,6 +47,10 @@ Counts by year:\tabular{lllllllll}{
 \seealso{
 Other ISSP National Identity: 
 \code{\link{clsenei}}
+
+Other Residence: 
+\code{\link{clsenei}}
 }
 \concept{ISSP National Identity}
+\concept{Residence}
 \keyword{variable}

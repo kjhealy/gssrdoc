@@ -31,6 +31,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -71,6 +72,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -111,6 +113,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -151,6 +154,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -191,6 +195,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -231,6 +236,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -271,6 +277,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -311,6 +318,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -350,6 +358,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -391,6 +400,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md

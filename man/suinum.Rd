@@ -43,6 +43,10 @@ Counts by year:\tabular{lllllllllllllllllllll}{
 
 \seealso{
 Other Suicide: 
+\code{\link{suicide1}},
+\code{\link{suicide2}},
+\code{\link{suicide3}},
+\code{\link{suicide4}},
 \code{\link{suineg1}},
 \code{\link{suinum1}},
 \code{\link{suirel1}}

@@ -52,5 +52,6 @@ Other Multi-Ethnic United States:
 \code{\link{jewsschl}},
 \code{\link{jewswrk}}
 }
+\concept{Hispanics}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

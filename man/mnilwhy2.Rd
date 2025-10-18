@@ -49,6 +49,17 @@ Other Mental Health:
 \code{\link{brkdtime}},
 \code{\link{evmhp}},
 \code{\link{mnilwhy1}}
+
+Other Mental Health: 
+\code{\link{brkddo2}},
+\code{\link{brkddo3}},
+\code{\link{brkddur}},
+\code{\link{brkdhlp1}},
+\code{\link{brkdhlp2}},
+\code{\link{brkdhlp3}},
+\code{\link{brkdtime}},
+\code{\link{evmhp}},
+\code{\link{mnilwhy1}}
 }
 \concept{Mental Health}
 \keyword{variable}

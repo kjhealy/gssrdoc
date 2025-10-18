@@ -50,6 +50,31 @@ Other Multiculturalism:
 \code{\link{schleth}},
 \code{\link{teacheth}},
 \code{\link{whoteach}}
+
+Other Ethnicity: 
+\code{\link{congeth}},
+\code{\link{ethhist}},
+\code{\link{schleth}},
+\code{\link{teacheth}},
+\code{\link{whoteach}}
+
+Other Federal Government: 
+\code{\link{congeth}},
+\code{\link{jobaff}}
+
+Other Political: 
+\code{\link{congeth}}
+
+Other Race: 
+\code{\link{congeth}},
+\code{\link{ethhist}},
+\code{\link{schleth}},
+\code{\link{teacheth}},
+\code{\link{whoteach}}
 }
+\concept{Ethnicity}
+\concept{Federal Government}
 \concept{Multiculturalism}
+\concept{Political}
+\concept{Race}
 \keyword{variable}

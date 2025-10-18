@@ -85,5 +85,6 @@ Other Cohort and Birth:
 \code{\link{cohort}},
 \code{\link{marcohrt}}
 }
+\concept{Astrological Sign}
 \concept{Cohort and Birth}
 \keyword{variable}

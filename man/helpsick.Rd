@@ -75,6 +75,13 @@ Other Core:
 \code{\link{obfewar}},
 \code{\link{obmepax}},
 \code{\link{obmewar}}
+
+Other Federal Government: 
+\code{\link{helpblk}},
+\code{\link{helpnot}},
+\code{\link{helppoor}}
 }
 \concept{Core}
+\concept{Federal Government}
+\concept{Health}
 \keyword{variable}

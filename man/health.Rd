@@ -86,4 +86,5 @@ Other Core:
 \code{\link{trusty}}
 }
 \concept{Core}
+\concept{Health}
 \keyword{variable}

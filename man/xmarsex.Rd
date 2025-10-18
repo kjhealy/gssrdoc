@@ -82,6 +82,14 @@ Other Core:
 \code{\link{spdue}},
 \code{\link{sppaid}},
 \code{\link{teensex}}
+
+Other Sex: 
+\code{\link{homochng}},
+\code{\link{homosex}},
+\code{\link{porninf}},
+\code{\link{premarsx}},
+\code{\link{teensex}}
 }
 \concept{Core}
+\concept{Sex}
 \keyword{variable}

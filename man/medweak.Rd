@@ -53,6 +53,12 @@ Other Mental Health II:
 \code{\link{medsymps}},
 \code{\link{medunacc}},
 \code{\link{solveown}}
+
+Other Mental Health: 
+\code{\link{medaddct}},
+\code{\link{medsymps}},
+\code{\link{medunacc}}
 }
+\concept{Mental Health}
 \concept{Mental Health II}
 \keyword{variable}

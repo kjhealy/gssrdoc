@@ -48,6 +48,10 @@ Counts by year:\tabular{lllllllllll}{
 Other Social Networks: 
 \code{\link{frndknow}},
 \code{\link{talkpol}}
+
+Other Social Networks: 
+\code{\link{frndknow}},
+\code{\link{talkpol}}
 }
 \concept{Social Networks}
 \keyword{variable}

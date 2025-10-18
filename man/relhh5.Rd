@@ -82,6 +82,17 @@ Other Household Members and Structure:
 \code{\link{relhh7}},
 \code{\link{relhh8}},
 \code{\link{relhh9}}
+
+Other Household: 
+\code{\link{relhh10}},
+\code{\link{relhh11}},
+\code{\link{relhh12}},
+\code{\link{relhh14}},
+\code{\link{relhh6}},
+\code{\link{relhh7}},
+\code{\link{relhh8}},
+\code{\link{relhh9}}
 }
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

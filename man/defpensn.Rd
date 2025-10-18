@@ -47,4 +47,5 @@ Other Shared Capitalism:
 \code{\link{trdestck}}
 }
 \concept{Shared Capitalism}
+\concept{Work}
 \keyword{variable}

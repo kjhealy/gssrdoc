@@ -50,6 +50,11 @@ Other Core:
 \code{\link{nukewar}},
 \code{\link{upgrade}()},
 \code{\link{vetaid}}
+
+Other Military: 
+\code{\link{jobtrain}},
+\code{\link{upgrade}()}
 }
 \concept{Core}
+\concept{Military}
 \keyword{variable}

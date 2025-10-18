@@ -48,6 +48,10 @@ Other Prejudice:
 \code{\link{ethdiff}},
 \code{\link{ethsame}},
 \code{\link{feelwhts}}
+
+Other Whites: 
+\code{\link{feelwhts}}
 }
 \concept{Prejudice}
+\concept{Whites}
 \keyword{variable}

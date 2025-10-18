@@ -50,6 +50,18 @@ Other Jobs:
 \code{\link{samework}},
 \code{\link{siteyrs}},
 \code{\link{wrkoth}}
+
+Other Job: 
+\code{\link{formltrn}},
+\code{\link{genderwk}},
+\code{\link{locyrs}},
+\code{\link{orgsize}},
+\code{\link{othyrs}},
+\code{\link{partorg}},
+\code{\link{samework}},
+\code{\link{siteyrs}},
+\code{\link{wrkoth}}
 }
+\concept{Job}
 \concept{Jobs}
 \keyword{variable}

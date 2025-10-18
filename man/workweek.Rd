@@ -52,5 +52,6 @@ Other Work Orientation:
 \code{\link{undk}},
 \code{\link{wantjob}}
 }
+\concept{Hours Worked}
 \concept{Work Orientation}
 \keyword{variable}

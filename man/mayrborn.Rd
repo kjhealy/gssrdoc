@@ -43,6 +43,24 @@ Other Family Mobility:
 \code{\link{mayrdied}},
 \code{\link{palive1}},
 \code{\link{payrborn}}
+
+Other Date Of Birth: 
+\code{\link{payrborn}}
+
+Other Family: 
+\code{\link{malive1}},
+\code{\link{mayrdied}},
+\code{\link{palive1}},
+\code{\link{payrborn}}
+
+Other Parents: 
+\code{\link{malive1}},
+\code{\link{mayrdied}},
+\code{\link{palive1}},
+\code{\link{payrborn}}
 }
+\concept{Date Of Birth}
+\concept{Family}
 \concept{Family Mobility}
+\concept{Parents}
 \keyword{variable}

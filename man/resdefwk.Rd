@@ -51,6 +51,12 @@ Other Core:
 \code{\link{obknow}},
 \code{\link{obvol}},
 \code{\link{obvote}}
+
+Other Military: 
+\code{\link{defwrknw}},
+\code{\link{milwrkev}},
+\code{\link{milwrknw}}
 }
 \concept{Core}
+\concept{Military}
 \keyword{variable}

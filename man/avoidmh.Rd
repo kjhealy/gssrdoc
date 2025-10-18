@@ -44,6 +44,10 @@ Counts by year:\tabular{lllllllll}{
 \seealso{
 Other Mental Health III: 
 \code{\link{gesttalk}}
+
+Other Mental Health: 
+\code{\link{gesttalk}}
 }
+\concept{Mental Health}
 \concept{Mental Health III}
 \keyword{variable}

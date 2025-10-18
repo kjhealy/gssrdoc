@@ -59,5 +59,7 @@ Other ISSP Religion:
 \code{\link{govcheat}},
 \code{\link{taxcheat}}
 }
+\concept{Gays And Lesbians}
 \concept{ISSP Religion}
+\concept{Sex}
 \keyword{variable}

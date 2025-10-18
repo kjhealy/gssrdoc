@@ -51,6 +51,12 @@ Other Religion:
 \code{\link{pubsch}},
 \code{\link{relhrs1}},
 \code{\link{relhrs2}}
+
+Other Children: 
+\code{\link{cathsch}},
+\code{\link{homesch}},
+\code{\link{pubsch}}
 }
+\concept{Children}
 \concept{Religion}
 \keyword{variable}

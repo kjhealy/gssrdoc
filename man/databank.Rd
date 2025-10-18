@@ -56,6 +56,13 @@ Other ISSP Role of Gov't:
 \code{\link{oprich}},
 \code{\link{progtax}},
 \code{\link{verdict}}
+
+Other Privacy: 
+\code{\link{manhold}},
+\code{\link{manread}},
+\code{\link{mantail}},
+\code{\link{mantap}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Privacy}
 \keyword{variable}

@@ -57,4 +57,5 @@ Other ISSP Social Inequality:
 \code{\link{rewrdint}}
 }
 \concept{ISSP Social Inequality}
+\concept{Social Class}
 \keyword{variable}

@@ -53,6 +53,18 @@ Other Multi-Ethnic United States:
 \code{\link{langwrk}},
 \code{\link{nobiling}},
 \code{\link{twolang}}
+
+Other Language: 
+\code{\link{engoff1}},
+\code{\link{engthrtn}},
+\code{\link{engvote}},
+\code{\link{forlang1}},
+\code{\link{granlang}},
+\code{\link{langcom}},
+\code{\link{langwrk}},
+\code{\link{nobiling}},
+\code{\link{twolang}}
 }
+\concept{Language}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

@@ -58,6 +58,11 @@ Other ISSP Citizenship:
 \code{\link{polopts}},
 \code{\link{rghtsmin}},
 \code{\link{solok}}
+
+Other Voluntary Associations: 
+\code{\link{grpparty}},
+\code{\link{grprelig}}
 }
 \concept{ISSP Citizenship}
+\concept{Voluntary Associations}
 \keyword{variable}

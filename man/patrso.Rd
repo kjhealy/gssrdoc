@@ -52,6 +52,10 @@ Other Intergroup Relations:
 \code{\link{patrasns}},
 \code{\link{patrblks}},
 \code{\link{patrhsps}}
+
+Other Southern Whites: 
+\code{\link{liveso}}
 }
 \concept{Intergroup Relations}
+\concept{Southern Whites}
 \keyword{variable}

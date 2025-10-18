@@ -92,6 +92,13 @@ Other Core:
 \code{\link{size}},
 \code{\link{srcbelt}},
 \code{\link{xnorcsiz}}
+
+Other Residence: 
+\code{\link{size}},
+\code{\link{srcbelt}},
+\code{\link{xnorcsiz}}
 }
 \concept{Core}
+\concept{Region}
+\concept{Residence}
 \keyword{variable}

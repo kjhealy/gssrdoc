@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -68,6 +69,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -106,6 +108,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -144,6 +147,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -187,6 +191,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -225,6 +230,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -267,6 +273,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -309,6 +316,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -351,6 +359,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -393,6 +402,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
+#' @family United States
 #' 
 #' @keywords variable
 #' @md

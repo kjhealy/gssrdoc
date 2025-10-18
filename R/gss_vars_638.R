@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name trustv
@@ -71,6 +72,7 @@ NULL
 #'  |Total |5634 |503         |225        |1210                                   |3          |1              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -113,6 +115,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name grassv
@@ -152,6 +155,7 @@ NULL
 #'  |Total |244 |560    |691             |403                                            |1560        |3          |4056      |59             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -199,6 +203,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name biblev
@@ -237,6 +242,7 @@ NULL
 #'  |Total |4705 |1670 |470 |718        |1         |12             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -282,6 +288,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name kidssolv
@@ -321,6 +328,7 @@ NULL
 #'  |Total |7225 |215            |120                |4                                                                                                                 |6                                                                                                      |1         |5              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -364,6 +372,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name fucitznv
@@ -402,6 +411,7 @@ NULL
 #'  |Total |5646 |177   |1541     |208        |4              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

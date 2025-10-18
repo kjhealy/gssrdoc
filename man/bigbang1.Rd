@@ -53,6 +53,28 @@ Other Science Knowledge & Attitudes:
 \code{\link{odds2}},
 \code{\link{radioact}},
 \code{\link{viruses}}
+
+Other Knowledge: 
+\code{\link{bigbang}},
+\code{\link{boyorgrl}},
+\code{\link{electron}},
+\code{\link{hotcore}},
+\code{\link{lasers}},
+\code{\link{odds2}},
+\code{\link{radioact}},
+\code{\link{viruses}}
+
+Other Science: 
+\code{\link{bigbang}},
+\code{\link{boyorgrl}},
+\code{\link{electron}},
+\code{\link{hotcore}},
+\code{\link{lasers}},
+\code{\link{odds2}},
+\code{\link{radioact}},
+\code{\link{viruses}}
 }
+\concept{Knowledge}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

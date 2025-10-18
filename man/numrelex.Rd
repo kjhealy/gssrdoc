@@ -48,6 +48,11 @@ Counts by year:\tabular{llllllllllll}{
 Other Spirituality and Religion: 
 \code{\link{agerelex}},
 \code{\link{chngrel}}
+
+Other Religion: 
+\code{\link{agerelex}},
+\code{\link{chngrel}}
 }
+\concept{Religion}
 \concept{Spirituality and Religion}
 \keyword{variable}

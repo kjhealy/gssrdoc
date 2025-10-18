@@ -59,6 +59,32 @@ Other Global Economics:
 \code{\link{meetf2f2}},
 \code{\link{whynojb1}},
 \code{\link{wocomptr}}
+
+Other Employment: 
+\code{\link{autonojb}},
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{whynojb1}}
+
+Other Job: 
+\code{\link{autonojb}},
+\code{\link{inclstjb}},
+\code{\link{intlcowk}},
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{meetf2f1}},
+\code{\link{meetf2f2}},
+\code{\link{whynojb1}},
+\code{\link{wocomptr}}
+
+Other Unemployment: 
+\code{\link{autonojb}},
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{whynojb1}}
 }
+\concept{Employment}
 \concept{Global Economics}
+\concept{Job}
+\concept{Unemployment}
 \keyword{variable}

@@ -55,6 +55,14 @@ Other National Security:
 \code{\link{spyfrend}},
 \code{\link{takearms}},
 \code{\link{taketrck}}
+
+Other United States: 
+\code{\link{punarms}},
+\code{\link{spyenemy}},
+\code{\link{spyfrend}},
+\code{\link{takearms}},
+\code{\link{taketrck}}
 }
 \concept{National Security}
+\concept{United States}
 \keyword{variable}

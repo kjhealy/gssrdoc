@@ -86,6 +86,12 @@ Other Core:
 \code{\link{sphrs2}},
 \code{\link{spwrksta}},
 \code{\link{widowed}}
+
+Other Labor Force Status: 
+\code{\link{sphrs1}},
+\code{\link{sphrs2}},
+\code{\link{spwrksta}}
 }
 \concept{Core}
+\concept{Labor Force Status}
 \keyword{variable}

@@ -58,6 +58,34 @@ Other Core:
 \code{\link{natsci}},
 \code{\link{natsoc}},
 \code{\link{natspacy}}
+
+Other Environment: 
+\code{\link{natenviy}}
+
+Other Split Ballots: 
+\code{\link{natchld}},
+\code{\link{natenviy}},
+\code{\link{natfare}},
+\code{\link{natmass}},
+\code{\link{natpark}},
+\code{\link{natroad}},
+\code{\link{natsci}},
+\code{\link{natsoc}},
+\code{\link{natspacy}}
+
+Other United States: 
+\code{\link{natchld}},
+\code{\link{natenviy}},
+\code{\link{natfare}},
+\code{\link{natmass}},
+\code{\link{natpark}},
+\code{\link{natroad}},
+\code{\link{natsci}},
+\code{\link{natsoc}},
+\code{\link{natspacy}}
 }
 \concept{Core}
+\concept{Environment}
+\concept{Split Ballots}
+\concept{United States}
 \keyword{variable}

@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +110,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -146,6 +149,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -186,6 +190,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc II
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -227,6 +232,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc II
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -269,6 +275,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -311,6 +318,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -353,6 +361,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -395,6 +404,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md

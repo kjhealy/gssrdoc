@@ -64,6 +64,19 @@ Other Core:
 \code{\link{conpresy}},
 \code{\link{consciy}},
 \code{\link{contvy}}
+
+Other Split Ballots: 
+\code{\link{conarmyy}},
+\code{\link{confedy}},
+\code{\link{conjudgy}},
+\code{\link{conlaboy}},
+\code{\link{conlegiy}},
+\code{\link{conmediy}},
+\code{\link{conpresy}},
+\code{\link{consciy}},
+\code{\link{contvy}}
 }
+\concept{Children}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

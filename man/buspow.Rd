@@ -56,6 +56,19 @@ Other ISSP Role of Gov't:
 \code{\link{ownpower}},
 \code{\link{ownsteel}},
 \code{\link{pricecon}}
+
+Other Business: 
+\code{\link{ownautos}},
+\code{\link{ownbanks}},
+\code{\link{ownmass}},
+\code{\link{ownpower}},
+\code{\link{ownsteel}}
+
+Other Political: 
+\code{\link{govtpow}},
+\code{\link{laborpow}}
 }
+\concept{Business}
 \concept{ISSP Role of Gov't}
+\concept{Political}
 \keyword{variable}

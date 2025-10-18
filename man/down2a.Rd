@@ -67,6 +67,15 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{helphwrk}},
 \code{\link{sick1a}},
 \code{\link{sick2a}}
+
+Other Social Networks: 
+\code{\link{borrow1a}},
+\code{\link{borrow2a}},
+\code{\link{down1a}},
+\code{\link{helphwrk}},
+\code{\link{sick1a}},
+\code{\link{sick2a}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Social Networks}
 \keyword{variable}

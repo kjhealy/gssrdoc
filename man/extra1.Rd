@@ -48,6 +48,10 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 Other Negative Life Events: 
 \code{\link{extra2}},
 \code{\link{oth5}}
+
+Other Life Events: 
+\code{\link{extra2}}
 }
+\concept{Life Events}
 \concept{Negative Life Events}
 \keyword{variable}

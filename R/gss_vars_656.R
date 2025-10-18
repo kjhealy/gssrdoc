@@ -34,6 +34,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cvdarpo
@@ -75,6 +76,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -118,6 +120,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cvdpod
@@ -153,6 +156,7 @@ NULL
 #'  |Total |2701 |843       |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -198,6 +202,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name wrkwayup_next
@@ -240,6 +245,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -284,6 +290,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name blkdsrv
@@ -327,6 +334,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name blktry
@@ -367,6 +375,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name brv5
@@ -406,6 +415,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
+#' 
 #' 
 #' @keywords variable
 #' @md

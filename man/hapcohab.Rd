@@ -57,4 +57,5 @@ Other Core:
 \code{\link{trusty}}
 }
 \concept{Core}
+\concept{Romantic Relationships}
 \keyword{variable}

@@ -55,5 +55,6 @@ Other Work Orientation:
 \code{\link{wantjob}},
 \code{\link{workweek}}
 }
+\concept{Employment}
 \concept{Work Orientation}
 \keyword{variable}

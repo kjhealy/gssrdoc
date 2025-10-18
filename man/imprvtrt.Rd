@@ -56,6 +56,17 @@ Other Mental Health:
 \code{\link{vignei}},
 \code{\link{vigsoc}},
 \code{\link{vigwork}}
+
+Other Mental Health: 
+\code{\link{hurtoth}},
+\code{\link{hurtself}},
+\code{\link{tlkfam}},
+\code{\link{vigfrnd}},
+\code{\link{viggrp}},
+\code{\link{vigmar}},
+\code{\link{vignei}},
+\code{\link{vigsoc}},
+\code{\link{vigwork}}
 }
 \concept{Mental Health}
 \keyword{variable}

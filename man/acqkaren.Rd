@@ -52,6 +52,15 @@ Other Number Known:
 \code{\link{acqrachl}},
 \code{\link{acqshawn}},
 \code{\link{numknown}}
+
+Other Social Networks: 
+\code{\link{acqbrnda}},
+\code{\link{acqkeith}},
+\code{\link{acqkevin}},
+\code{\link{acqmark}},
+\code{\link{acqrachl}},
+\code{\link{acqshawn}}
 }
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

@@ -72,6 +72,22 @@ Other Income:
 \code{\link{povline}},
 \code{\link{realinc}},
 \code{\link{realrinc}}
+
+Other Household: 
+\code{\link{povline}}
+
+Other Income: 
+\code{\link{coninc}},
+\code{\link{conrinc}},
+\code{\link{minfour}},
+\code{\link{povline}},
+\code{\link{realinc}},
+\code{\link{realrinc}}
+
+Other Poverty: 
+\code{\link{povline}}
 }
+\concept{Household}
 \concept{Income}
+\concept{Poverty}
 \keyword{variable}

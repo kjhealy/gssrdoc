@@ -53,4 +53,5 @@ Other ISSP Role of Gov't:
 \code{\link{spenviro}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Political}
 \keyword{variable}

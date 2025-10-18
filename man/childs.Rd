@@ -85,5 +85,6 @@ Other Core:
 \code{\link{mapres105plus}},
 \code{\link{sibs}}
 }
+\concept{Children}
 \concept{Core}
 \keyword{variable}

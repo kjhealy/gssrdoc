@@ -67,6 +67,10 @@ Other Intergroup Relations:
 \code{\link{workjews}},
 \code{\link{workso}},
 \code{\link{workwhts}}
+
+Other Blacks: 
+\code{\link{workblks}}
 }
+\concept{Blacks}
 \concept{Intergroup Relations}
 \keyword{variable}

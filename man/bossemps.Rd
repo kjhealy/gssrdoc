@@ -60,6 +60,18 @@ Other Work Orientation:
 \code{\link{stress}},
 \code{\link{unhlthy}},
 \code{\link{unpleznt}}
+
+Other Job: 
+\code{\link{boredom}},
+\code{\link{cowrkers}},
+\code{\link{danger}},
+\code{\link{jobsat}},
+\code{\link{planwrk}},
+\code{\link{stress}},
+\code{\link{unhlthy}},
+\code{\link{unpleznt}}
 }
+\concept{Job}
+\concept{Social Class}
 \concept{Work Orientation}
 \keyword{variable}

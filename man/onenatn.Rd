@@ -50,6 +50,10 @@ Other ISSP National Identity:
 \code{\link{movestat}},
 \code{\link{movetown}},
 \code{\link{moveusa}}
+
+Other United States: 
+\code{\link{ambornin}}
 }
 \concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

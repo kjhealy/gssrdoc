@@ -48,6 +48,19 @@ Other Global Economics:
 \code{\link{natdeg}},
 \code{\link{othplan}},
 \code{\link{typevisa}}
+
+Other Citizenship: 
+\code{\link{agecmeus}},
+\code{\link{bornsp}},
+\code{\link{typevisa}}
+
+Other Immigration: 
+\code{\link{agecmeus}},
+\code{\link{bornsp}},
+\code{\link{natdeg}},
+\code{\link{typevisa}}
 }
+\concept{Citizenship}
 \concept{Global Economics}
+\concept{Immigration}
 \keyword{variable}

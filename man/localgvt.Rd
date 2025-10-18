@@ -54,4 +54,5 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{wantbest}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Political}
 \keyword{variable}

@@ -51,6 +51,18 @@ Other Information Society:
 \code{\link{wwwgfbf}},
 \code{\link{wwwlit}},
 \code{\link{wwwpersn}}
+
+Other Computers And Internet: 
+\code{\link{litauth}},
+\code{\link{litget}},
+\code{\link{litread}},
+\code{\link{litsite}},
+\code{\link{wwwbiz}},
+\code{\link{wwwcowrk}},
+\code{\link{wwwgfbf}},
+\code{\link{wwwlit}},
+\code{\link{wwwpersn}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

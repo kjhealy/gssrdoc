@@ -55,6 +55,15 @@ Other ISSP National Identity:
 \code{\link{meltpot1}},
 \code{\link{refugees}},
 \code{\link{res161}}
+
+Other United States: 
+\code{\link{immcrime}},
+\code{\link{immideas}},
+\code{\link{immjobs}},
+\code{\link{letin1}},
+\code{\link{meltpot1}},
+\code{\link{refugees}}
 }
 \concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

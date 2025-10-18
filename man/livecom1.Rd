@@ -46,6 +46,11 @@ Other ISSP National Identity:
 \code{\link{meltpot1}},
 \code{\link{refugees}},
 \code{\link{res161}}
+
+Other Residence: 
+\code{\link{abroad}},
+\code{\link{res161}}
 }
 \concept{ISSP National Identity}
+\concept{Residence}
 \keyword{variable}

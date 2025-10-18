@@ -52,6 +52,18 @@ Other Information Society:
 \code{\link{perminw}},
 \code{\link{wwwhrw}},
 \code{\link{wwwminw}}
+
+Other Computers And Internet: 
+\code{\link{ecomhrw}},
+\code{\link{emhrw}},
+\code{\link{emminw}},
+\code{\link{inchrw}},
+\code{\link{incminw}},
+\code{\link{perhrw}},
+\code{\link{perminw}},
+\code{\link{wwwhrw}},
+\code{\link{wwwminw}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

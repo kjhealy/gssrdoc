@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name advfmsci
@@ -72,6 +73,7 @@ NULL
 #'  |Total |424 |1053           |1004  |729                        |379      |386               |9            |6         |42             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -115,6 +117,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name prolife
@@ -154,6 +157,7 @@ NULL
 #'  |Total |424 |326            |607   |1238                       |493      |889               |12           |6         |37             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -197,6 +201,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name govchrst
@@ -233,6 +238,7 @@ NULL
 #'  |Total |2241 |547                                           |196 |316 |372 |156 |70 |97                                                 |5          |4         |28             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -276,6 +282,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name trdunio1
@@ -315,6 +322,7 @@ NULL
 #'  |Total |2243 |427            |820   |342                        |84       |28                |61           |2         |25             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -358,6 +366,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name upwages
@@ -397,6 +406,7 @@ NULL
 #'  |Total |2244 |259            |432   |459                        |374      |173               |71           |2         |18             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

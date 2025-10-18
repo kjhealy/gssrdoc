@@ -48,6 +48,10 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{sibmost}},
 \code{\link{sibnum}},
 \code{\link{sibvisit}}
+
+Other Residence: 
+\code{\link{livehome}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Residence}
 \keyword{variable}

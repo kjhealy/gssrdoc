@@ -52,6 +52,10 @@ Other Intergroup Relations:
 \code{\link{patrasns}},
 \code{\link{patrhsps}},
 \code{\link{patrso}}
+
+Other Blacks: 
+\code{\link{liveblks}}
 }
+\concept{Blacks}
 \concept{Intergroup Relations}
 \keyword{variable}

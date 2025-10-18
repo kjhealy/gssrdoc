@@ -50,6 +50,16 @@ Other ISSP Role of Gov't:
 \code{\link{runpower}},
 \code{\link{taxbylaw}},
 \code{\link{taxpaid}}
+
+Other Federal Government: 
+\code{\link{demworks}},
+\code{\link{poleff17}},
+\code{\link{runbanks}},
+\code{\link{runhosp}},
+\code{\link{runpower}}
 }
+\concept{Federal Government}
 \concept{ISSP Role of Gov't}
+\concept{Spending}
+\concept{Taxes}
 \keyword{variable}

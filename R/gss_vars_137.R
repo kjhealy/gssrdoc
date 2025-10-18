@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +110,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -147,6 +150,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -189,6 +193,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -228,6 +233,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -267,6 +273,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -306,6 +313,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Drinking
+#' @family Drug Use And Addiction
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -345,6 +355,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -384,6 +395,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md

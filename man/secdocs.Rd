@@ -53,6 +53,16 @@ Other National Security:
 \code{\link{askmentl}},
 \code{\link{rptcowrk}},
 \code{\link{sectech}}
+
+Other United States: 
+\code{\link{askcrime}},
+\code{\link{askdrugs}},
+\code{\link{askfinan}},
+\code{\link{askforgn}},
+\code{\link{askmentl}},
+\code{\link{rptcowrk}},
+\code{\link{sectech}}
 }
 \concept{National Security}
+\concept{United States}
 \keyword{variable}

@@ -52,6 +52,15 @@ Other Core:
 \code{\link{world4}},
 \code{\link{world5}},
 \code{\link{world6}}
+
+Other World View: 
+\code{\link{world1}},
+\code{\link{world2}},
+\code{\link{world3}},
+\code{\link{world4}},
+\code{\link{world5}},
+\code{\link{world6}}
 }
 \concept{Core}
+\concept{World View}
 \keyword{variable}

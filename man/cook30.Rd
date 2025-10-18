@@ -56,6 +56,18 @@ Other Information Society:
 \code{\link{porn30}},
 \code{\link{sci30}},
 \code{\link{work12}}
+
+Other Computers And Internet: 
+\code{\link{buyinf12}},
+\code{\link{buyit12}},
+\code{\link{hmefin12}},
+\code{\link{hobby30}},
+\code{\link{invest12}},
+\code{\link{person30}},
+\code{\link{porn30}},
+\code{\link{sci30}},
+\code{\link{work12}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

@@ -80,4 +80,6 @@ Other Core:
 \code{\link{teenpill}}
 }
 \concept{Core}
+\concept{Education}
+\concept{Sex}
 \keyword{variable}

@@ -57,6 +57,15 @@ Other Markets:
 \code{\link{reqinfo}},
 \code{\link{tagsales}},
 \code{\link{wkfambiz}}
+
+Other Agriculture: 
+\code{\link{wkfambiz}}
+
+Other Occupation: 
+\code{\link{wkfambiz}}
 }
+\concept{Agriculture}
+\concept{Industry}
 \concept{Markets}
+\concept{Occupation}
 \keyword{variable}

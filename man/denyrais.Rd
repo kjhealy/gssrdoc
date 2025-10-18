@@ -51,6 +51,37 @@ Other Workplace Conflict:
 \code{\link{rumorwk}},
 \code{\link{wkbhvrs}},
 \code{\link{wkrspns}}
+
+Other Employment: 
+\code{\link{eharaswk}},
+\code{\link{ignorwk}},
+\code{\link{jokeswk}},
+\code{\link{liedcwkr}},
+\code{\link{rudewk}},
+\code{\link{rumorwk}},
+\code{\link{wkbhvrs}}
+
+Other Job: 
+\code{\link{eharaswk}},
+\code{\link{ignorwk}},
+\code{\link{jokeswk}},
+\code{\link{liedcwkr}},
+\code{\link{rudewk}},
+\code{\link{rumorwk}},
+\code{\link{wkbhvrs}}
+
+Other Work: 
+\code{\link{eharaswk}},
+\code{\link{ignorwk}},
+\code{\link{jokeswk}},
+\code{\link{liedcwkr}},
+\code{\link{rudewk}},
+\code{\link{rumorwk}},
+\code{\link{wkbhvrs}},
+\code{\link{wkrspns}}
 }
+\concept{Employment}
+\concept{Job}
+\concept{Work}
 \concept{Workplace Conflict}
 \keyword{variable}

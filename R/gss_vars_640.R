@@ -32,6 +32,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name agednv
@@ -70,6 +71,7 @@ NULL
 #'  |Total |5673 |1408            |473                 |8          |2         |12             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -111,6 +113,7 @@ NULL
 #'  |Total |239 |726    |866             |9                                              |1560        |5          |4114      |57             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -158,6 +161,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name biblenv
@@ -196,6 +200,7 @@ NULL
 #'  |Total |4753 |2003 |759 |18         |43             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -241,6 +246,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name kidssolnv
@@ -280,6 +286,7 @@ NULL
 #'  |Total |7262 |203            |105                |6              |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -323,6 +330,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name fucitznnv
@@ -363,6 +371,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name fepolnv
@@ -400,6 +409,7 @@ NULL
 #'  |Total |2159 |1078             |698                                        |62                      |12         |1         |22             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

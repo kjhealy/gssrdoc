@@ -51,6 +51,17 @@ Other Mental Health:
 \code{\link{knwmhosp}},
 \code{\link{relmhsp1}},
 \code{\link{relmhsp2}}
+
+Other Mental Health: 
+\code{\link{brkdimp1}},
+\code{\link{brkdimp2}},
+\code{\link{brkdimp3}},
+\code{\link{brkdoth}},
+\code{\link{brkdsym2}},
+\code{\link{brkdsym3}},
+\code{\link{knwmhosp}},
+\code{\link{relmhsp1}},
+\code{\link{relmhsp2}}
 }
 \concept{Mental Health}
 \keyword{variable}

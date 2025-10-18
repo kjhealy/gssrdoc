@@ -62,6 +62,18 @@ Other Core:
 \code{\link{mapa}},
 \code{\link{mastersp}},
 \code{\link{rdeemlib}}
+
+Other Religion: 
+\code{\link{crtrheal}},
+\code{\link{frndking}},
+\code{\link{healer}},
+\code{\link{judgeluv}},
+\code{\link{king}},
+\code{\link{liberatr}},
+\code{\link{mapa}},
+\code{\link{mastersp}},
+\code{\link{rdeemlib}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

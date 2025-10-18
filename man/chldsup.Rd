@@ -54,6 +54,17 @@ Other Children:
 \code{\link{rolegp}},
 \code{\link{rolepa}},
 \code{\link{roletchr}}
+
+Other Children: 
+\code{\link{chldeduc}},
+\code{\link{chldlove}},
+\code{\link{chldmorl}},
+\code{\link{chldsafe}},
+\code{\link{roleccp}},
+\code{\link{roleclrg}},
+\code{\link{rolegp}},
+\code{\link{rolepa}},
+\code{\link{roletchr}}
 }
 \concept{Children}
 \keyword{variable}

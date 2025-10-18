@@ -31,6 +31,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name ethregion26
@@ -68,6 +69,7 @@ NULL
 #'  |Total |231 |6406 |13  |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -109,6 +111,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name ethregion28
@@ -146,6 +149,7 @@ NULL
 #'  |Total |231 |6372 |47  |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -187,6 +191,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name ethregion30
@@ -224,6 +229,7 @@ NULL
 #'  |Total |231 |6390 |29  |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -265,6 +271,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name ethregion32
@@ -302,6 +309,7 @@ NULL
 #'  |Total |231 |6341 |78  |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -343,6 +351,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name ethregion34
@@ -380,6 +389,7 @@ NULL
 #'  |Total |231 |6411 |8   |844        |49        |33             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

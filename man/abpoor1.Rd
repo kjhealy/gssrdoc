@@ -53,6 +53,12 @@ Other ISSP Religion:
 \code{\link{govcheat}},
 \code{\link{homosex1}},
 \code{\link{taxcheat}}
+
+Other Abortion: 
+\code{\link{abdefct1}},
+\code{\link{abdefctw}},
+\code{\link{abpoorw}}
 }
+\concept{Abortion}
 \concept{ISSP Religion}
 \keyword{variable}

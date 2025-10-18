@@ -48,6 +48,14 @@ Other Workplace Conflict:
 \code{\link{othcredt}},
 \code{\link{putdown}},
 \code{\link{rptprobs}}
+
+Other Job: 
+\code{\link{difstand}},
+\code{\link{lackinfo}},
+\code{\link{othcredt}},
+\code{\link{putdown}},
+\code{\link{rptprobs}}
 }
+\concept{Job}
 \concept{Workplace Conflict}
 \keyword{variable}

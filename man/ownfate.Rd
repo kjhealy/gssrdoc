@@ -55,6 +55,22 @@ Other ISSP Religion:
 \code{\link{relexper}},
 \code{\link{religkid}},
 \code{\link{religsp}}
+
+Other Religion: 
+\code{\link{denkid}},
+\code{\link{egomeans}},
+\code{\link{madenkid}},
+\code{\link{marelkid}},
+\code{\link{padenkid}},
+\code{\link{parelkid}},
+\code{\link{relexper}},
+\code{\link{religkid}},
+\code{\link{religsp}}
+
+Other World View: 
+\code{\link{egomeans}}
 }
 \concept{ISSP Religion}
+\concept{Religion}
+\concept{World View}
 \keyword{variable}

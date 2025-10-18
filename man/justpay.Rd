@@ -54,6 +54,12 @@ Other ISSP Social Inequality:
 \code{\link{soctype1}},
 \code{\link{soctype2}},
 \code{\link{unsklrnk}}
+
+Other Income: 
+\code{\link{paychild}},
+\code{\link{paydowel}},
+\code{\link{payhard}}
 }
 \concept{ISSP Social Inequality}
+\concept{Income}
 \keyword{variable}

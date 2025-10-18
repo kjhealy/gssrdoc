@@ -55,6 +55,10 @@ Other Core:
 \code{\link{world5}},
 \code{\link{world6}},
 \code{\link{world7}}
+
+Other Religion: 
+\code{\link{world3}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

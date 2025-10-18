@@ -53,6 +53,18 @@ Other Number Known:
 \code{\link{trtnoatt}},
 \code{\link{trtreps}},
 \code{\link{trtwhite}}
+
+Other Social Networks: 
+\code{\link{trtattnd}},
+\code{\link{trtcohab}},
+\code{\link{trtcon}},
+\code{\link{trtgay}},
+\code{\link{trtgoatt}},
+\code{\link{trtlib}},
+\code{\link{trtnoatt}},
+\code{\link{trtreps}},
+\code{\link{trtwhite}}
 }
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

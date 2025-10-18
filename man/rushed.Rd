@@ -57,7 +57,11 @@ Other Core:
 \code{\link{polltrue}},
 \code{\link{privacy}},
 \code{\link{stresswk}}
+
+Other Time: 
+\code{\link{bored}}
 }
 \concept{Core}
 \concept{Gender}
+\concept{Time}
 \keyword{variable}

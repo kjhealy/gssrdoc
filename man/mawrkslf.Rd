@@ -70,6 +70,16 @@ Other Core:
 \code{\link{paindtag}},
 \code{\link{papres10}},
 \code{\link{papres105plus}}
+
+Other Occupation: 
+\code{\link{maind80}},
+\code{\link{maocc10}},
+\code{\link{maocc80}},
+\code{\link{mapres80}},
+\code{\link{paind10}}
 }
 \concept{Core}
+\concept{Job}
+\concept{Occupation}
+\concept{Work}
 \keyword{variable}

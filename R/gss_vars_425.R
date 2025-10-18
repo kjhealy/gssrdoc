@@ -31,6 +31,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Computers And Internet
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +71,15 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Business
+#' @family Computers And Internet
+#' @family Corporations
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Technology
+#' @family Unemployment
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -111,6 +122,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Job
+#' @family Technology
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -153,6 +167,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Job
+#' @family Technology
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -195,6 +212,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -231,6 +249,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
+#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -270,6 +291,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
+#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -317,6 +341,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
+#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -364,6 +391,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
+#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -425,6 +455,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Income
+#' @family Job
 #' 
 #' @keywords variable
 #' @md

@@ -92,6 +92,16 @@ Other Core:
 \code{\link{reliten}},
 \code{\link{relitena}},
 \code{\link{spattend}}
+
+Other Religion: 
+\code{\link{fund}},
+\code{\link{jew}},
+\code{\link{maattend}},
+\code{\link{paattend}},
+\code{\link{postlife}},
+\code{\link{reliten}},
+\code{\link{spattend}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

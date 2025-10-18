@@ -52,6 +52,18 @@ Other Information Society:
 \code{\link{mostloc}},
 \code{\link{perhro}},
 \code{\link{permino}}
+
+Other Computers And Internet: 
+\code{\link{compelse}},
+\code{\link{compfri}},
+\code{\link{complib}},
+\code{\link{compoth}},
+\code{\link{ecomhro}},
+\code{\link{ecommino}},
+\code{\link{mostloc}},
+\code{\link{perhro}},
+\code{\link{permino}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

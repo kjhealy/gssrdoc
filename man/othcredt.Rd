@@ -49,6 +49,14 @@ Other Workplace Conflict:
 \code{\link{perspace}},
 \code{\link{putdown}},
 \code{\link{rptprobs}}
+
+Other Job: 
+\code{\link{difstand}},
+\code{\link{lackinfo}},
+\code{\link{perspace}},
+\code{\link{putdown}},
+\code{\link{rptprobs}}
 }
+\concept{Job}
 \concept{Workplace Conflict}
 \keyword{variable}

@@ -46,6 +46,12 @@ Other Altruism:
 \code{\link{empathy1}},
 \code{\link{empathy2}},
 \code{\link{empathy3}}
+
+Other Feelings: 
+\code{\link{empathy1}},
+\code{\link{empathy2}},
+\code{\link{empathy3}}
 }
 \concept{Altruism}
+\concept{Feelings}
 \keyword{variable}

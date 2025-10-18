@@ -59,6 +59,11 @@ Other Sampling and Weights:
 \code{\link{res2012}},
 \code{\link{spaneng}},
 \code{\link{spanself}}
+
+Other Interview: 
+\code{\link{spaneng}},
+\code{\link{spanself}}
 }
+\concept{Interview}
 \concept{Sampling and Weights}
 \keyword{variable}

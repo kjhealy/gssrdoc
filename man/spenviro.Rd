@@ -61,6 +61,13 @@ Other ISSP Role of Gov't:
 \code{\link{savejobs}},
 \code{\link{setprice}},
 \code{\link{setwage}}
+
+Other Spending: 
+\code{\link{cutgovt}}
 }
+\concept{Environment}
+\concept{Federal Government}
 \concept{ISSP Role of Gov't}
+\concept{Spending}
+\concept{Taxes}
 \keyword{variable}

@@ -54,6 +54,19 @@ Other Quality of Working Life:
 \code{\link{safetywk}},
 \code{\link{teamsafe}},
 \code{\link{trustman}}
+
+Other Job: 
+\code{\link{knowwhat}},
+\code{\link{lotofsay}},
+\code{\link{myskills}},
+\code{\link{overwork}},
+\code{\link{respect}},
+\code{\link{safefrst}},
+\code{\link{safetywk}},
+\code{\link{teamsafe}},
+\code{\link{trustman}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
+\concept{Satisfaction}
 \keyword{variable}

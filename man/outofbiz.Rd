@@ -51,6 +51,14 @@ Other Work Organizations:
 \code{\link{reorg}},
 \code{\link{unpower}},
 \code{\link{unprog}}
+
+Other Corporations: 
+\code{\link{merged}},
+\code{\link{profits1}},
+\code{\link{profits2}},
+\code{\link{reorg}}
 }
+\concept{Corporations}
+\concept{Trauma}
 \concept{Work Organizations}
 \keyword{variable}

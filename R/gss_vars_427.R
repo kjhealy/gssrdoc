@@ -36,6 +36,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Gays And Lesbians
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -81,6 +83,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Gays And Lesbians
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -122,6 +126,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Marital Status
+#' @family Romantic Relationships
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -162,6 +169,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Family
+#' @family Gays And Lesbians
+#' @family Marital Status
 #' 
 #' @keywords variable
 #' @md
@@ -200,6 +210,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Gays And Lesbians
+#' @family Marital Status
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -238,6 +251,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Children
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -276,6 +291,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Children
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -314,6 +331,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -352,6 +372,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -391,6 +414,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md

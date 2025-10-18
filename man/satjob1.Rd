@@ -57,6 +57,12 @@ Other Quality of Working Life:
 \code{\link{stress12}},
 \code{\link{usetech}},
 \code{\link{weight}}
+
+Other Job: 
+\code{\link{knowschd}},
+\code{\link{stress12}},
+\code{\link{usetech}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
 \keyword{variable}

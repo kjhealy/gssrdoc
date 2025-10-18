@@ -51,6 +51,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{yrserv4}},
 \code{\link{yrserv5}},
 \code{\link{yrserv6}}
+
+Other Voluntary Associations: 
+\code{\link{yrfrat1}},
+\code{\link{yrfrat2}},
+\code{\link{yrfrat3}},
+\code{\link{yrfrat4}},
+\code{\link{yrserv2}},
+\code{\link{yrserv3}},
+\code{\link{yrserv4}},
+\code{\link{yrserv5}},
+\code{\link{yrserv6}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

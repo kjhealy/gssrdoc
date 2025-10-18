@@ -50,6 +50,27 @@ Other Core:
 \code{\link{pornrape}},
 \code{\link{spanking}},
 \code{\link{xmovie}}
+
+Other Movies: 
+\code{\link{xmovie}}
+
+Other Sex: 
+\code{\link{pornfirm}},
+\code{\link{pornimp}},
+\code{\link{porninfo}},
+\code{\link{pornlaw}},
+\code{\link{pornmorl}},
+\code{\link{pornout}},
+\code{\link{pornrape}},
+\code{\link{xmovie}}
+
+Other Split Ballots: 
+\code{\link{pornfirm}},
+\code{\link{pornimp}},
+\code{\link{porninfo}}
 }
 \concept{Core}
+\concept{Movies}
+\concept{Sex}
+\concept{Split Ballots}
 \keyword{variable}

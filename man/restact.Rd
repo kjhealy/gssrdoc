@@ -50,6 +50,13 @@ Other Core:
 \code{\link{pray}},
 \code{\link{spirits}},
 \code{\link{visions}}
+
+Other Religion: 
+\code{\link{likediff}},
+\code{\link{mindbody}},
+\code{\link{palefull}},
+\code{\link{pray}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

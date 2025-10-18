@@ -55,6 +55,15 @@ Other Information Society:
 \code{\link{polfrel}},
 \code{\link{polwww}},
 \code{\link{travelgn}}
+
+Other Leisure: 
+\code{\link{buyinfgn}},
+\code{\link{gamegn}},
+\code{\link{newjobgn}},
+\code{\link{peoplegn}},
+\code{\link{poldisgn}},
+\code{\link{travelgn}}
 }
 \concept{Information Society}
+\concept{Leisure}
 \keyword{variable}

@@ -59,6 +59,11 @@ Other Science Knowledge & Attitudes:
 \code{\link{nanoben}},
 \code{\link{nanoharm}},
 \code{\link{scimode}}
+
+Other United States: 
+\code{\link{intintl}}
 }
+\concept{Agriculture}
 \concept{Science Knowledge & Attitudes}
+\concept{United States}
 \keyword{variable}

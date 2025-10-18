@@ -55,4 +55,5 @@ Other Freedom:
 }
 \concept{ANES}
 \concept{Freedom}
+\concept{United States}
 \keyword{variable}

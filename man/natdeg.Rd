@@ -96,6 +96,14 @@ Other Global Economics:
 \code{\link{othplan}},
 \code{\link{typevisa}},
 \code{\link{visa}}
+
+Other Immigration: 
+\code{\link{agecmeus}},
+\code{\link{bornsp}},
+\code{\link{typevisa}},
+\code{\link{visa}}
 }
+\concept{Education}
 \concept{Global Economics}
+\concept{Immigration}
 \keyword{variable}

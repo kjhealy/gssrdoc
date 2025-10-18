@@ -53,6 +53,12 @@ Other ISSP Citizenship:
 \code{\link{gvtrghts}},
 \code{\link{polinter}},
 \code{\link{polnews}}
+
+Other United States: 
+\code{\link{dem10fut}},
+\code{\link{dem10pst}},
+\code{\link{demrghts}}
 }
 \concept{ISSP Citizenship}
+\concept{United States}
 \keyword{variable}

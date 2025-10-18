@@ -43,6 +43,16 @@ Counts by year:\tabular{lllll}{
 Other Clergy/Sex: 
 \code{\link{harsexcl}},
 \code{\link{harsexjb}}
+
+Other Religion: 
+\code{\link{harsexcl}}
+
+Other Sex: 
+\code{\link{harsexcl}},
+\code{\link{harsexjb}}
 }
 \concept{Clergy/Sex}
+\concept{Religion}
+\concept{Sex}
+\concept{Trauma}
 \keyword{variable}

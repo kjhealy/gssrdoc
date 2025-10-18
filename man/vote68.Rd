@@ -54,6 +54,11 @@ Other Core:
 \code{\link{partyid}},
 \code{\link{pres68}},
 \code{\link{spdotpre}}
+
+Other Political: 
+\code{\link{partyid}},
+\code{\link{pres68}}
 }
 \concept{Core}
+\concept{Political}
 \keyword{variable}

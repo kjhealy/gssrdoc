@@ -47,6 +47,11 @@ Counts by year:\tabular{llllllllll}{
 Other Altruistic Love: 
 \code{\link{agape2}},
 \code{\link{agape3}}
+
+Other Values: 
+\code{\link{agape2}},
+\code{\link{agape3}}
 }
 \concept{Altruistic Love}
+\concept{Values}
 \keyword{variable}

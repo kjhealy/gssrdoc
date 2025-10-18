@@ -124,6 +124,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
+#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -287,6 +288,7 @@ NULL
 #'  |Total |0          |3961             |268     |508           |243          |280   |526            |317     |5753            |144     |1208   |8673    |235    |266     |5230    |2303  |145   |2100   |685         |760    |260         |1308   |476         |757    |1684     |678   |728    |211         |45          |341   |1567            |296   |189      |159       |158        |91      |101     |642           |279                  |993           |4672       |249       |110    |249         |191            |6715 |1     |5     |1        |2     |7       |3            |1     |2      |7            |1           |1        |2        |1                 |1         |1      |1        |1      |2           |1      |3                   |2    |1     |1                  |2       |1     |1             |5              |56811 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Ethnicity
 #' @family Ethnicity
 #' 
 #' @keywords variable
@@ -452,6 +454,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
+#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -616,6 +619,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
+#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -688,6 +692,7 @@ NULL
 #'  |Total |32198             |18881                                    |6941                                      |6380           |414        |0   |64814 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Ethnicity
 #' @family Ethnicity
 #' 
 #' @keywords variable
@@ -778,6 +783,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
+#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -865,6 +871,7 @@ NULL
 #'  |Total |8293       |347    |42      |83            |37           |30    |77             |77      |869             |27      |169    |1244    |36     |36      |642     |328   |28    |198    |135         |119    |18          |218    |39          |122    |232      |60    |116    |30          |68    |210             |23    |25       |24        |21         |14      |10     |32            |26               |80            |1067       |63        |1           |7       |4           |1              |0                          |0   |15328 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Ethnicity
 #' @family Ethnicity
 #' 
 #' @keywords variable
@@ -954,6 +961,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
+#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -1042,6 +1050,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
+#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -1090,6 +1099,7 @@ NULL
 #'  |Total |8289 |3735    |1663            |474             |1069            |98         |15328 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Ethnicity
 #' @family Ethnicity
 #' 
 #' @keywords variable

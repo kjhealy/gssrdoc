@@ -40,4 +40,5 @@ Other Core:
 \code{\link{xnorcsiz}}
 }
 \concept{Core}
+\concept{D.O.T. Codes}
 \keyword{variable}

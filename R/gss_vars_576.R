@@ -28,6 +28,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name racethwh
@@ -63,6 +64,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -100,6 +102,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name racethbl
@@ -135,6 +138,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -172,6 +176,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name racethna
@@ -207,6 +212,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -250,6 +256,7 @@ NULL
 #'  |Total |1888 |22       |2        |1       |6          |5           |2                        |12    |2          |927       |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -297,6 +304,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
+#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -344,6 +352,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
+#' @family Citizenship
+#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -381,6 +391,7 @@ NULL
 #'  |Total |8804 |16 |33 |10 |28 |21 |19 |34 |30 |14 |35 |28 |23 |51 |12 |26 |18 |20 |34 |17 |15 |12 |21 |28 |32 |12 |15 |17 |15 |17 |8  |13 |10 |9  |28 |27 |9  |14 |14 |9  |14 |9  |7  |38 |23 |5  |6  |9  |10 |5  |8  |2  |3  |23 |2  |4  |6  |2  |2  |18 |2  |2  |1  |27 |14 |1  |8         |11 |16 |4  |1  |5  |2  |3  |2  |2  |1  |3          |25             |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

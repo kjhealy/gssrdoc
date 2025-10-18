@@ -63,6 +63,12 @@ Other Core:
 \code{\link{cigweek}},
 \code{\link{quitsmk}},
 \code{\link{smokecig}}
+
+Other Smoking: 
+\code{\link{cigweek}},
+\code{\link{quitsmk}},
+\code{\link{smokecig}}
 }
 \concept{Core}
+\concept{Smoking}
 \keyword{variable}

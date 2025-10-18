@@ -53,6 +53,26 @@ Other Gender:
 \code{\link{nooneben}},
 \code{\link{noonehrt}},
 \code{\link{womenhrt}}
+
+Other Children: 
+\code{\link{chldhrt}}
+
+Other Household: 
+\code{\link{allhrt}},
+\code{\link{chldhrt}},
+\code{\link{menhrt}},
+\code{\link{nooneben}},
+\code{\link{noonehrt}},
+\code{\link{womenhrt}}
+
+Other Women: 
+\code{\link{feless1}},
+\code{\link{feless2}},
+\code{\link{feless3}},
+\code{\link{womenhrt}}
 }
+\concept{Children}
 \concept{Gender}
+\concept{Household}
+\concept{Women}
 \keyword{variable}

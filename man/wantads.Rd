@@ -56,6 +56,13 @@ Other Work Orientation:
 \code{\link{selfemp2}},
 \code{\link{unbetter}},
 \code{\link{unjobsec}}
+
+Other Unemployment: 
+\code{\link{adforjob}},
+\code{\link{appemps}},
+\code{\link{askhelp}},
+\code{\link{econsup}}
 }
+\concept{Unemployment}
 \concept{Work Orientation}
 \keyword{variable}

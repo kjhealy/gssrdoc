@@ -41,5 +41,6 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
+\concept{Citizenship}
 \concept{ISSP Citizenship}
 \keyword{variable}

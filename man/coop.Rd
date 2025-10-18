@@ -85,6 +85,11 @@ Other Core:
 \code{\link{form}},
 \code{\link{phone}},
 \code{\link{radiohrs}}
+
+Other Interview: 
+\code{\link{comprend}},
+\code{\link{coop2}}
 }
 \concept{Core}
+\concept{Interview}
 \keyword{variable}

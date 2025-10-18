@@ -52,6 +52,18 @@ Other Information Society:
 \code{\link{wwwhome}},
 \code{\link{wwwline1}},
 \code{\link{wwwline2}}
+
+Other Computers And Internet: 
+\code{\link{ecomhrh}},
+\code{\link{ecomminh}},
+\code{\link{numhome}},
+\code{\link{paywww}},
+\code{\link{perminh}},
+\code{\link{usehome}},
+\code{\link{wwwhome}},
+\code{\link{wwwline1}},
+\code{\link{wwwline2}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

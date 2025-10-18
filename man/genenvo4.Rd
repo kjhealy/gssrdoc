@@ -48,6 +48,10 @@ Other Genes and the Environment:
 \code{\link{pessimst}},
 \code{\link{satself}},
 \code{\link{slfrspct}}
+
+Other Genetic Testing: 
+\code{\link{genenvo3}}
 }
 \concept{Genes and the Environment}
+\concept{Genetic Testing}
 \keyword{variable}

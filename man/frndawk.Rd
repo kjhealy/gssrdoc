@@ -53,6 +53,18 @@ Other Markets:
 \code{\link{sellsex}},
 \code{\link{tablprce}},
 \code{\link{transrel}}
+
+Other Purchases/Transactions: 
+\code{\link{adoption}},
+\code{\link{frnddeal}},
+\code{\link{organsb}},
+\code{\link{organsw}},
+\code{\link{sellbaby}},
+\code{\link{sellorgn}},
+\code{\link{sellsex}},
+\code{\link{tablprce}},
+\code{\link{transrel}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

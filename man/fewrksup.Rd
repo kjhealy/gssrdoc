@@ -53,6 +53,17 @@ Other ISSP Family & Gender Roles:
 \code{\link{meovrwrk}},
 \code{\link{mrmom}},
 \code{\link{singlpar}}
+
+Other Household: 
+\code{\link{hubbywk1}},
+\code{\link{mrmom}}
+
+Other Women: 
+\code{\link{hubbywk1}},
+\code{\link{meovrwrk}},
+\code{\link{mrmom}}
 }
+\concept{Household}
 \concept{ISSP Family & Gender Roles}
+\concept{Women}
 \keyword{variable}

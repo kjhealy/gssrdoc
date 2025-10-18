@@ -45,6 +45,20 @@ Other Jobs:
 \code{\link{monthly}},
 \code{\link{trusting}},
 \code{\link{yearly}}
+
+Other Job: 
+\code{\link{daily}},
+\code{\link{hourly}},
+\code{\link{monthly}},
+\code{\link{yearly}}
+
+Other Occupation: 
+\code{\link{daily}},
+\code{\link{hourly}},
+\code{\link{monthly}},
+\code{\link{yearly}}
 }
+\concept{Job}
 \concept{Jobs}
+\concept{Occupation}
 \keyword{variable}

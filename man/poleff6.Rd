@@ -51,6 +51,17 @@ Other ISSP Role of Gov't:
 \code{\link{poleff7}},
 \code{\link{poleff8}},
 \code{\link{poleff9}}
+
+Other Political: 
+\code{\link{poleff1}},
+\code{\link{poleff2}},
+\code{\link{poleff3}},
+\code{\link{poleff4}},
+\code{\link{poleff5}},
+\code{\link{poleff7}},
+\code{\link{poleff8}},
+\code{\link{poleff9}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Political}
 \keyword{variable}

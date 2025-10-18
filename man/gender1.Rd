@@ -93,6 +93,30 @@ Other Household Members and Structure:
 \code{\link{old2}},
 \code{\link{relate2}},
 \code{\link{where1}}
+
+Other Family: 
+\code{\link{away1}},
+\code{\link{away2}},
+\code{\link{gender2}},
+\code{\link{mar1}},
+\code{\link{mar2}},
+\code{\link{old1}},
+\code{\link{old2}},
+\code{\link{relate2}},
+\code{\link{where1}}
+
+Other Household: 
+\code{\link{away1}},
+\code{\link{away2}},
+\code{\link{gender2}},
+\code{\link{mar1}},
+\code{\link{mar2}},
+\code{\link{old1}},
+\code{\link{old2}},
+\code{\link{relate2}},
+\code{\link{where1}}
 }
+\concept{Family}
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

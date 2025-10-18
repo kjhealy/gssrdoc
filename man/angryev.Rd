@@ -51,6 +51,18 @@ Other Emotions:
 \code{\link{notupset}},
 \code{\link{notworry}},
 \code{\link{whnangry}}
+
+Other Feelings: 
+\code{\link{angryfam}},
+\code{\link{angrygvt}},
+\code{\link{angrywhy}},
+\code{\link{angrywrk}},
+\code{\link{beplesnt}},
+\code{\link{madat1}},
+\code{\link{notupset}},
+\code{\link{notworry}},
+\code{\link{whnangry}}
 }
 \concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

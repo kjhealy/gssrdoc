@@ -52,6 +52,17 @@ Other Religion:
 \code{\link{follow}},
 \code{\link{goownway}},
 \code{\link{madatgod}}
+
+Other Religion: 
+\code{\link{believe}},
+\code{\link{doubts1}},
+\code{\link{doubts2}},
+\code{\link{doubts3}},
+\code{\link{doubts4}},
+\code{\link{faith1}},
+\code{\link{follow}},
+\code{\link{goownway}},
+\code{\link{madatgod}}
 }
 \concept{Religion}
 \keyword{variable}

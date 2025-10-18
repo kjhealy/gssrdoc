@@ -89,5 +89,8 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
+\concept{Cohabitation}
+\concept{Family}
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

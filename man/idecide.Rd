@@ -52,6 +52,28 @@ Other Work Organizations:
 \code{\link{supothrs}},
 \code{\link{totsup}},
 \code{\link{yousup}}
+
+Other Job: 
+\code{\link{automatn}},
+\code{\link{levels}()},
+\code{\link{monitred}},
+\code{\link{offsup}},
+\code{\link{supduty1}},
+\code{\link{supothrs}},
+\code{\link{totsup}},
+\code{\link{yousup}}
+
+Other Work: 
+\code{\link{automatn}},
+\code{\link{levels}()},
+\code{\link{monitred}},
+\code{\link{offsup}},
+\code{\link{supduty1}},
+\code{\link{supothrs}},
+\code{\link{totsup}},
+\code{\link{yousup}}
 }
+\concept{Job}
+\concept{Work}
 \concept{Work Organizations}
 \keyword{variable}

@@ -52,6 +52,10 @@ Other Core:
 \code{\link{fefam}},
 \code{\link{fehelp}},
 \code{\link{fepresch}}
+
+Other Abortion: 
+\code{\link{ablegal}}
 }
+\concept{Abortion}
 \concept{Core}
 \keyword{variable}

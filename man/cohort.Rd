@@ -33,5 +33,6 @@ Other Cohort and Birth:
 \code{\link{marcohrt}},
 \code{\link{zodiac}}
 }
+\concept{Age}
 \concept{Cohort and Birth}
 \keyword{variable}

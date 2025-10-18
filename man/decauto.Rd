@@ -55,6 +55,16 @@ Other Markets:
 \code{\link{reqinfo}},
 \code{\link{tagsales}},
 \code{\link{wkfambiz}}
+
+Other Household: 
+\code{\link{famfinan}}
+
+Other Purchases/Transactions: 
+\code{\link{famfinan}},
+\code{\link{haggle}},
+\code{\link{tagsales}}
 }
+\concept{Household}
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

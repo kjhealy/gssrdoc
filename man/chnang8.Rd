@@ -51,6 +51,18 @@ Other Emotions:
 \code{\link{chnang6}},
 \code{\link{chnang7}},
 \code{\link{chnang9}}
+
+Other Feelings: 
+\code{\link{chnang10}},
+\code{\link{chnang11}},
+\code{\link{chnang12}},
+\code{\link{chnang13}},
+\code{\link{chnang14}},
+\code{\link{chnang15}},
+\code{\link{chnang6}},
+\code{\link{chnang7}},
+\code{\link{chnang9}}
 }
 \concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

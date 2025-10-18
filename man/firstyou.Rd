@@ -57,5 +57,6 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{lentto}},
 \code{\link{talkedto}}
 }
+\concept{Altruism}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

@@ -49,6 +49,17 @@ Other Markets:
 \code{\link{lawyerg}},
 \code{\link{rellaw}},
 \code{\link{satlawyr}}
+
+Other Purchases/Transactions: 
+\code{\link{fixera}},
+\code{\link{fixerb}},
+\code{\link{fixhome}},
+\code{\link{lawyerd}},
+\code{\link{lawyere}},
+\code{\link{lawyerf}},
+\code{\link{rellaw}},
+\code{\link{satlawyr}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

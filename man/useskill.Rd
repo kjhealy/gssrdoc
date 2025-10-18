@@ -57,6 +57,25 @@ Other Work Orientation:
 \code{\link{proudwrk}},
 \code{\link{stayorg3}},
 \code{\link{wktenure}}
+
+Other Job: 
+\code{\link{absent}},
+\code{\link{edcskill}},
+\code{\link{jobskill}},
+\code{\link{wktenure}}
+
+Other Work: 
+\code{\link{absent}},
+\code{\link{chngwork}},
+\code{\link{edcskill}},
+\code{\link{helporg1}},
+\code{\link{jobskill}},
+\code{\link{prideorg}},
+\code{\link{proudwrk}},
+\code{\link{stayorg3}},
+\code{\link{wktenure}}
 }
+\concept{Job}
+\concept{Work}
 \concept{Work Orientation}
 \keyword{variable}

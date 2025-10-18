@@ -56,6 +56,25 @@ Other Science Knowledge & Attitudes:
 \code{\link{noicecap}},
 \code{\link{penguins}},
 \code{\link{sealevel}}
+
+Other Environment: 
+\code{\link{artseals}},
+\code{\link{inuitway}},
+\code{\link{noicecap}},
+\code{\link{penguins}},
+\code{\link{sealevel}}
+
+Other Science: 
+\code{\link{artseals}},
+\code{\link{inuitway}},
+\code{\link{nanoknw1}},
+\code{\link{nanoknw2}},
+\code{\link{nanotech}},
+\code{\link{nanowill}},
+\code{\link{noicecap}},
+\code{\link{sealevel}}
 }
+\concept{Environment}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

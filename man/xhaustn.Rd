@@ -59,6 +59,18 @@ Other Work Orientation:
 \code{\link{rleisure}},
 \code{\link{rpromotn}},
 \code{\link{rwrkindp}}
+
+Other Job: 
+\code{\link{physwrk}},
+\code{\link{rflexhrs}},
+\code{\link{rhiinc}},
+\code{\link{rhlpoths}},
+\code{\link{rhlpsoc}},
+\code{\link{rintjob}},
+\code{\link{rleisure}},
+\code{\link{rpromotn}},
+\code{\link{rwrkindp}}
 }
+\concept{Job}
 \concept{Work Orientation}
 \keyword{variable}

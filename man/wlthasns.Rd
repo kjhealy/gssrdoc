@@ -53,6 +53,10 @@ Other Intergroup Relations:
 \code{\link{workjews}},
 \code{\link{workso}},
 \code{\link{workwhts}}
+
+Other Asian Americans: 
+\code{\link{workasns}}
 }
+\concept{Asian Americans}
 \concept{Intergroup Relations}
 \keyword{variable}

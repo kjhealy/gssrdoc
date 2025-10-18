@@ -52,6 +52,18 @@ Other Mental Health IV:
 \code{\link{mhdorel}},
 \code{\link{mhproblm}},
 \code{\link{vigvermy}}
+
+Other Mental Health: 
+\code{\link{mhdodoc}},
+\code{\link{mhdofam}},
+\code{\link{mhdoheal}},
+\code{\link{mhdomhp}},
+\code{\link{mhdootc}},
+\code{\link{mhdopsyc}},
+\code{\link{mhdorel}},
+\code{\link{mhproblm}},
+\code{\link{vigvermy}}
 }
+\concept{Mental Health}
 \concept{Mental Health IV}
 \keyword{variable}

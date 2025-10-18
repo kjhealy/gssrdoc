@@ -69,6 +69,12 @@ Other Information Seeking Online:
 \code{\link{caninf11}},
 \code{\link{caninf12}},
 \code{\link{caninf13}}
+
+Other Political: 
+\code{\link{caninf11}},
+\code{\link{caninf12}},
+\code{\link{caninf13}}
 }
 \concept{Information Seeking Online}
+\concept{Political}
 \keyword{variable}

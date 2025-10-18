@@ -48,6 +48,11 @@ Other Markets & Exchange - Giving & Volunteering:
 \code{\link{needyrel}},
 \code{\link{valintl}},
 \code{\link{valoth}}
+
+Other Voluntary Associations: 
+\code{\link{valintl}},
+\code{\link{valoth}}
 }
 \concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

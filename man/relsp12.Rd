@@ -76,6 +76,12 @@ Other Household Members and Structure:
 \code{\link{relsp11}},
 \code{\link{relsp13}},
 \code{\link{relsp14}}
+
+Other Household: 
+\code{\link{relsp11}},
+\code{\link{relsp13}},
+\code{\link{relsp14}}
 }
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

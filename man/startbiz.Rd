@@ -44,6 +44,23 @@ Other Self Employment:
 \code{\link{numown}},
 \code{\link{ownbiz}},
 \code{\link{yearbiz}}
+
+Other Business: 
+\code{\link{numown}},
+\code{\link{ownbiz}},
+\code{\link{yearbiz}}
+
+Other Corporations: 
+\code{\link{ownbiz}},
+\code{\link{yearbiz}}
+
+Other Employment: 
+\code{\link{numown}},
+\code{\link{ownbiz}},
+\code{\link{yearbiz}}
 }
+\concept{Business}
+\concept{Corporations}
+\concept{Employment}
 \concept{Self Employment}
 \keyword{variable}

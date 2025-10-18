@@ -49,5 +49,6 @@ Other Prejudice:
 \code{\link{feelasns}},
 \code{\link{feelblks}}
 }
+\concept{Hispanics}
 \concept{Prejudice}
 \keyword{variable}

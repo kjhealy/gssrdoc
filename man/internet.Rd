@@ -55,5 +55,6 @@ Other ISSP National Identity:
 \code{\link{nafta2a}},
 \code{\link{nafta3}}
 }
+\concept{Computers And Internet}
 \concept{ISSP National Identity}
 \keyword{variable}

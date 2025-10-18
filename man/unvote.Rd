@@ -51,5 +51,6 @@ Other Work Organizations:
 \code{\link{schoolng}},
 \code{\link{unmanrel}}
 }
+\concept{Labor Unions}
 \concept{Work Organizations}
 \keyword{variable}

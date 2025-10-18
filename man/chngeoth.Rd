@@ -53,6 +53,18 @@ Other ISSP Citizenship:
 \code{\link{refrndms}},
 \code{\link{servepeo}},
 \code{\link{unrghts}}
+
+Other Political: 
+\code{\link{choices}},
+\code{\link{elecfair}},
+\code{\link{elecvote}},
+\code{\link{govngos}},
+\code{\link{polactve}},
+\code{\link{powerun}},
+\code{\link{refrndms}},
+\code{\link{servepeo}},
+\code{\link{unrghts}}
 }
 \concept{ISSP Citizenship}
+\concept{Political}
 \keyword{variable}

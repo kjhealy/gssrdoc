@@ -52,6 +52,29 @@ Other Core:
 \code{\link{conpresy}},
 \code{\link{consciy}},
 \code{\link{manners}}
+
+Other Confidence: 
+\code{\link{conarmyy}},
+\code{\link{confedy}},
+\code{\link{conjudgy}},
+\code{\link{conlaboy}},
+\code{\link{conlegiy}},
+\code{\link{conmediy}},
+\code{\link{conpresy}},
+\code{\link{consciy}}
+
+Other Split Ballots: 
+\code{\link{conarmyy}},
+\code{\link{confedy}},
+\code{\link{conjudgy}},
+\code{\link{conlaboy}},
+\code{\link{conlegiy}},
+\code{\link{conmediy}},
+\code{\link{conpresy}},
+\code{\link{consciy}},
+\code{\link{manners}}
 }
+\concept{Confidence}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

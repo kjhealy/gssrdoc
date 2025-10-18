@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +110,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -202,6 +205,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
 #' @family Mental Health
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -251,6 +255,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name chldprb
@@ -291,6 +296,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -347,6 +353,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -388,6 +395,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -429,6 +437,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -470,6 +479,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
+#' @family Children
 #' 
 #' @keywords variable
 #' @md

@@ -40,6 +40,9 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllll}{
 \seealso{
 Other Income: 
 \code{\link{minthree}}
+
+Other Income: 
+\code{\link{minthree}}
 }
 \concept{Income}
 \keyword{variable}

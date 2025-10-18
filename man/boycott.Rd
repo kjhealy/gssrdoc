@@ -51,6 +51,12 @@ Other Adult Transitions:
 \code{\link{signpet}},
 \code{\link{supfam}},
 \code{\link{supfam1}}
+
+Other Demonstrations: 
+\code{\link{conoffcl}},
+\code{\link{protest}},
+\code{\link{signpet}}
 }
 \concept{Adult Transitions}
+\concept{Demonstrations}
 \keyword{variable}

@@ -51,5 +51,8 @@ Other Sexual Orientation:
 \code{\link{negjob5}},
 \code{\link{toldwork}}
 }
+\concept{Children}
+\concept{Family}
+\concept{Household}
 \concept{Sexual Orientation}
 \keyword{variable}

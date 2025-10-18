@@ -50,6 +50,15 @@ Other ISSP Environment:
 \code{\link{topprob1}},
 \code{\link{topprob2}},
 \code{\link{trust5}}
+
+Other Environment: 
+\code{\link{enprbfam}},
+\code{\link{enprbus}},
+\code{\link{grncon}},
+\code{\link{knwcause}},
+\code{\link{topprob1}},
+\code{\link{topprob2}}
 }
+\concept{Environment}
 \concept{ISSP Environment}
 \keyword{variable}

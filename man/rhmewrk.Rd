@@ -55,6 +55,10 @@ Other Gender:
 \code{\link{tradmod}},
 \code{\link{willwed1}},
 \code{\link{willwed2}}
+
+Other Household: 
+\code{\link{sphmewrk}}
 }
 \concept{Gender}
+\concept{Household}
 \keyword{variable}

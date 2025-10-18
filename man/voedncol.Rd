@@ -54,6 +54,12 @@ Other Core:
 \code{\link{voedcol}},
 \code{\link{voednme1}},
 \code{\link{voednme2}}
+
+Other Education: 
+\code{\link{voedcol}},
+\code{\link{voednme1}},
+\code{\link{voednme2}}
 }
 \concept{Core}
+\concept{Education}
 \keyword{variable}

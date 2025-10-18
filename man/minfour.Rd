@@ -45,6 +45,14 @@ Other Income:
 \code{\link{povline}},
 \code{\link{realinc}},
 \code{\link{realrinc}}
+
+Other Income: 
+\code{\link{coninc}},
+\code{\link{conrinc}},
+\code{\link{incdef}},
+\code{\link{povline}},
+\code{\link{realinc}},
+\code{\link{realrinc}}
 }
 \concept{Income}
 \keyword{variable}

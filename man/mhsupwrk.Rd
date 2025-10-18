@@ -53,6 +53,18 @@ Other Mental Health IV:
 \code{\link{mhhlprel}},
 \code{\link{mhnotch}},
 \code{\link{mhsecret}}
+
+Other Mental Health: 
+\code{\link{mhgvtjob}},
+\code{\link{mhhlpfam}},
+\code{\link{mhhlpfrd}},
+\code{\link{mhhlpgp}},
+\code{\link{mhhlpmhp}},
+\code{\link{mhhlppsy}},
+\code{\link{mhhlprel}},
+\code{\link{mhnotch}},
+\code{\link{mhsecret}}
 }
+\concept{Mental Health}
 \concept{Mental Health IV}
 \keyword{variable}

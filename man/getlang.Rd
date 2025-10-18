@@ -52,6 +52,16 @@ Other Multi-Ethnic United States:
 \code{\link{parlang}},
 \code{\link{spklang}},
 \code{\link{uselang}}
+
+Other Language: 
+\code{\link{othbest}},
+\code{\link{othlang}},
+\code{\link{othlang1}},
+\code{\link{othlang2}},
+\code{\link{parlang}},
+\code{\link{spklang}},
+\code{\link{uselang}}
 }
+\concept{Language}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

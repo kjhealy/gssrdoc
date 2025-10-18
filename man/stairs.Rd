@@ -48,6 +48,14 @@ Other Health Status:
 \code{\link{didlessp}},
 \code{\link{limitedp}},
 \code{\link{modact}}
+
+Other Health: 
+\code{\link{crelesse}},
+\code{\link{didlesse}},
+\code{\link{didlessp}},
+\code{\link{limitedp}},
+\code{\link{modact}}
 }
+\concept{Health}
 \concept{Health Status}
 \keyword{variable}

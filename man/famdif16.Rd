@@ -87,6 +87,15 @@ Other Core:
 \code{\link{mawork}},
 \code{\link{mawrkgrw}},
 \code{\link{parborn}}
+
+Other Family: 
+\code{\link{family16}}
+
+Other Parents: 
+\code{\link{family16}}
 }
 \concept{Core}
+\concept{Divorce}
+\concept{Family}
+\concept{Parents}
 \keyword{variable}

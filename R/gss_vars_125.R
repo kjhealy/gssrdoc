@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -73,6 +74,7 @@ NULL
 #'  |Total |1831 |260       |280       |243  |61   |18   |51         |73        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable
@@ -116,6 +118,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -157,6 +160,7 @@ NULL
 #'  |Total |1831 |253       |263       |197  |62   |15   |122        |74        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable
@@ -200,6 +204,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -241,6 +246,7 @@ NULL
 #'  |Total |1831 |298       |286       |224  |47   |7    |50         |74        |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable
@@ -284,6 +290,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Authority
 #' 
 #' @keywords variable
 #' @md
@@ -325,6 +332,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Authority
 #' 
 #' @keywords variable
 #' @md
@@ -366,6 +374,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family People
 #' 
 #' @keywords variable
 #' @md
@@ -407,6 +416,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Values
 #' 
 #' @keywords variable
 #' @md

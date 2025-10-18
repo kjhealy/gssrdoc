@@ -50,6 +50,16 @@ Other Mental Health II:
 \code{\link{pryntfam}},
 \code{\link{trbllaw}},
 \code{\link{zombies}}
+
+Other Children: 
+\code{\link{adhdcon}},
+\code{\link{adhdknow}},
+\code{\link{adhdknw}},
+\code{\link{adhdmed}},
+\code{\link{medsavtx}},
+\code{\link{trbllaw}},
+\code{\link{zombies}}
 }
+\concept{Children}
 \concept{Mental Health II}
 \keyword{variable}

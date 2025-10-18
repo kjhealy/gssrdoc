@@ -55,6 +55,17 @@ Other Children:
 \code{\link{infmusic}},
 \code{\link{infnettv}},
 \code{\link{infpubtv}}
+
+Other Children: 
+\code{\link{chldhlth}},
+\code{\link{chldhome}},
+\code{\link{chldskls}},
+\code{\link{chldtime}},
+\code{\link{infadstv}},
+\code{\link{inffilms}},
+\code{\link{infmusic}},
+\code{\link{infnettv}},
+\code{\link{infpubtv}}
 }
 \concept{Children}
 \keyword{variable}

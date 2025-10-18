@@ -55,6 +55,18 @@ Other Core:
 \code{\link{vote00}},
 \code{\link{vote04}},
 \code{\link{vote08}}
+
+Other Political: 
+\code{\link{if00who}},
+\code{\link{if04who}},
+\code{\link{pres00}},
+\code{\link{pres04}},
+\code{\link{pres08}},
+\code{\link{pres96}},
+\code{\link{vote00}},
+\code{\link{vote04}},
+\code{\link{vote08}}
 }
 \concept{Core}
+\concept{Political}
 \keyword{variable}

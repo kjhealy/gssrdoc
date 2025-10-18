@@ -51,6 +51,18 @@ Other Gender:
 \code{\link{sphmewrk}},
 \code{\link{willwed1}},
 \code{\link{willwed2}}
+
+Other Cohabitation: 
+\code{\link{emoteoth}},
+\code{\link{sharesep}}
+
+Other Marriage: 
+\code{\link{emoteoth}},
+\code{\link{sharesep}},
+\code{\link{willwed1}},
+\code{\link{willwed2}}
 }
+\concept{Cohabitation}
 \concept{Gender}
+\concept{Marriage}
 \keyword{variable}

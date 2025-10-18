@@ -53,6 +53,21 @@ Other ISSP Religion:
 \code{\link{relcand}},
 \code{\link{relext1}},
 \code{\link{relext2}}
+
+Other Religion: 
+\code{\link{ancestrs}},
+\code{\link{mywaygod}},
+\code{\link{nirvana}},
+\code{\link{reincar}},
+\code{\link{relcand}},
+\code{\link{relext1}},
+\code{\link{relext2}}
+
+Other Values: 
+\code{\link{relcand}}
 }
+\concept{Family}
 \concept{ISSP Religion}
+\concept{Religion}
+\concept{Values}
 \keyword{variable}

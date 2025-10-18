@@ -85,6 +85,35 @@ Other Core:
 \code{\link{conmedic}},
 \code{\link{consci}},
 \code{\link{contv}}
+
+Other Confidence: 
+\code{\link{conarmy}},
+\code{\link{conbusy}},
+\code{\link{conclery}},
+\code{\link{coneducy}},
+\code{\link{confinay}},
+\code{\link{conjudge}},
+\code{\link{conmedic}},
+\code{\link{consci}},
+\code{\link{contv}}
+
+Other Federal Government: 
+\code{\link{conarmy}},
+\code{\link{conjudge}}
+
+Other Split Ballots: 
+\code{\link{conarmy}},
+\code{\link{conbusy}},
+\code{\link{conclery}},
+\code{\link{coneducy}},
+\code{\link{confinay}},
+\code{\link{conjudge}},
+\code{\link{conmedic}},
+\code{\link{consci}},
+\code{\link{contv}}
 }
+\concept{Confidence}
 \concept{Core}
+\concept{Federal Government}
+\concept{Split Ballots}
 \keyword{variable}

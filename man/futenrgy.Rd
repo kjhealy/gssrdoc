@@ -55,6 +55,11 @@ Other ISSP Environment:
 \code{\link{topprob1}},
 \code{\link{topprob2}},
 \code{\link{trust5}}
+
+Other United States: 
+\code{\link{topprob1}},
+\code{\link{topprob2}}
 }
 \concept{ISSP Environment}
+\concept{United States}
 \keyword{variable}

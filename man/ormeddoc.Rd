@@ -50,6 +50,17 @@ Other Mental Health:
 \code{\link{orslfhlp}},
 \code{\link{ortlkclr}},
 \code{\link{ortlkfm}}
+
+Other Mental Health: 
+\code{\link{orhealer}},
+\code{\link{ormntldc}},
+\code{\link{ormntlhs}},
+\code{\link{ormntlot}},
+\code{\link{orotcmed}},
+\code{\link{orrxmed}},
+\code{\link{orslfhlp}},
+\code{\link{ortlkclr}},
+\code{\link{ortlkfm}}
 }
 \concept{Mental Health}
 \keyword{variable}

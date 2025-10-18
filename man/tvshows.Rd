@@ -54,6 +54,11 @@ Other Culture:
 \code{\link{trstprof}},
 \code{\link{tvnews}},
 \code{\link{tvpbs}}
+
+Other Television Viewing: 
+\code{\link{tvnews}},
+\code{\link{tvpbs}}
 }
 \concept{Culture}
+\concept{Television Viewing}
 \keyword{variable}

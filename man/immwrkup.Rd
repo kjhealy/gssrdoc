@@ -54,6 +54,17 @@ Other Multiculturalism:
 \code{\link{undoccol}},
 \code{\link{undockid}},
 \code{\link{undocwrk}}
+
+Other Immigration: 
+\code{\link{immecon}},
+\code{\link{immfare}},
+\code{\link{immpush}},
+\code{\link{immunemp}},
+\code{\link{immunite}},
+\code{\link{undoccol}},
+\code{\link{undockid}},
+\code{\link{undocwrk}}
 }
+\concept{Immigration}
 \concept{Multiculturalism}
 \keyword{variable}

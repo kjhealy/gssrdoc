@@ -51,6 +51,16 @@ Other Religion:
 \code{\link{pubsch}},
 \code{\link{relhrs1}},
 \code{\link{relhrs2}}
+
+Other Contribute Money To: 
+\code{\link{giveoth}},
+\code{\link{giverel}}
+
+Other Voluntary Associations: 
+\code{\link{giveoth}},
+\code{\link{giverel}}
 }
+\concept{Contribute Money To}
 \concept{Religion}
+\concept{Voluntary Associations}
 \keyword{variable}

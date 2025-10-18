@@ -50,6 +50,17 @@ Other Employee Compensation:
 \code{\link{indperf}},
 \code{\link{seecowrk}},
 \code{\link{yearval}}
+
+Other Job: 
+\code{\link{compperf}},
+\code{\link{deptperf}},
+\code{\link{extr2001}},
+\code{\link{extrapay}},
+\code{\link{extrayr}},
+\code{\link{indperf}},
+\code{\link{seecowrk}},
+\code{\link{yearval}}
 }
 \concept{Employee Compensation}
+\concept{Job}
 \keyword{variable}

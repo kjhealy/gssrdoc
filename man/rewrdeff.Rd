@@ -54,6 +54,10 @@ Other ISSP Social Inequality:
 \code{\link{pajob}},
 \code{\link{paslf}},
 \code{\link{rewrdint}}
+
+Other United States: 
+\code{\link{rewrdint}}
 }
 \concept{ISSP Social Inequality}
+\concept{United States}
 \keyword{variable}

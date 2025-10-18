@@ -52,6 +52,10 @@ Other Intergroup Relations:
 \code{\link{intlso}},
 \code{\link{patrjews}},
 \code{\link{patrwhts}}
+
+Other Jews: 
+\code{\link{patrjews}}
 }
 \concept{Intergroup Relations}
+\concept{Jews}
 \keyword{variable}

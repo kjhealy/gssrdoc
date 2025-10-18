@@ -60,6 +60,30 @@ Other Core:
 \code{\link{padeath}},
 \code{\link{unrel1}},
 \code{\link{unrel4}}
+
+Other Family: 
+\code{\link{chlddth}},
+\code{\link{death5}},
+\code{\link{madeath}},
+\code{\link{padeath}}
+
+Other Relatives: 
+\code{\link{death5}},
+\code{\link{hosrel1}},
+\code{\link{hosrel4}},
+\code{\link{unrel1}},
+\code{\link{unrel4}}
+
+Other Trauma: 
+\code{\link{death5}},
+\code{\link{hosdis5}},
+\code{\link{hosrel1}},
+\code{\link{hosrel4}},
+\code{\link{unrel1}},
+\code{\link{unrel4}}
 }
 \concept{Core}
+\concept{Family}
+\concept{Relatives}
+\concept{Trauma}
 \keyword{variable}

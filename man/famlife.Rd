@@ -53,6 +53,20 @@ Other Gender:
 \code{\link{refxhour}},
 \code{\link{workless}},
 \code{\link{worklife}}
+
+Other Family: 
+\code{\link{balwkfam}},
+\code{\link{noathome}},
+\code{\link{refmorwk}},
+\code{\link{refpromo}},
+\code{\link{refxhour}},
+\code{\link{workless}}
+
+Other Success: 
+\code{\link{balwkfam}},
+\code{\link{worklife}}
 }
+\concept{Family}
 \concept{Gender}
+\concept{Success}
 \keyword{variable}

@@ -52,6 +52,35 @@ Other Core:
 \code{\link{conmedic}},
 \code{\link{consci}},
 \code{\link{contv}}
+
+Other Business: 
+\code{\link{conbusy}}
+
+Other Confidence: 
+\code{\link{conarmy}},
+\code{\link{conbusy}},
+\code{\link{conclery}},
+\code{\link{coneducy}},
+\code{\link{conjudge}},
+\code{\link{conlegis}},
+\code{\link{conmedic}},
+\code{\link{consci}},
+\code{\link{contv}}
+
+Other Split Ballots: 
+\code{\link{conarmy}},
+\code{\link{conbusy}},
+\code{\link{conclery}},
+\code{\link{coneducy}},
+\code{\link{conjudge}},
+\code{\link{conlegis}},
+\code{\link{conmedic}},
+\code{\link{consci}},
+\code{\link{contv}}
 }
+\concept{Business}
+\concept{Confidence}
 \concept{Core}
+\concept{Financial Institutions And Banks}
+\concept{Split Ballots}
 \keyword{variable}

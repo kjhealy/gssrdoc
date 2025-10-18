@@ -49,6 +49,18 @@ Other Markets & Exchange - Giving & Volunteering:
 \code{\link{totyouth}},
 \code{\link{valeduc}},
 \code{\link{valhlth}}
+
+Other Voluntary Associations: 
+\code{\link{totart}},
+\code{\link{totfound}},
+\code{\link{totinfrm}},
+\code{\link{totintl}},
+\code{\link{tototh}},
+\code{\link{totpol}},
+\code{\link{totyouth}},
+\code{\link{valeduc}},
+\code{\link{valhlth}}
 }
 \concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

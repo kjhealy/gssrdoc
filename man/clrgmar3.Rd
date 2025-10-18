@@ -50,6 +50,30 @@ Other Clergy/Sex:
 \code{\link{openrel1}},
 \code{\link{openrel2}},
 \code{\link{openrel3}}
+
+Other Religion: 
+\code{\link{clrgmar1}},
+\code{\link{clrgmar2}},
+\code{\link{counsel1}},
+\code{\link{counsel2}},
+\code{\link{counsel3}},
+\code{\link{numclerg}},
+\code{\link{openrel1}},
+\code{\link{openrel2}},
+\code{\link{openrel3}}
+
+Other Sex: 
+\code{\link{clrgmar1}},
+\code{\link{clrgmar2}},
+\code{\link{counsel1}},
+\code{\link{counsel2}},
+\code{\link{counsel3}},
+\code{\link{numclerg}},
+\code{\link{openrel1}},
+\code{\link{openrel2}},
+\code{\link{openrel3}}
 }
 \concept{Clergy/Sex}
+\concept{Religion}
+\concept{Sex}
 \keyword{variable}

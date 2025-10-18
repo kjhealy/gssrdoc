@@ -49,5 +49,6 @@ Other Immigration:
 \code{\link{rundrstd}},
 \code{\link{travelus}}
 }
+\concept{Dwelling (R's)}
 \concept{Immigration}
 \keyword{variable}

@@ -65,6 +65,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Divorce
+#' @family Family
+#' @family Marital Status
 #' 
 #' @keywords variable
 #' @md
@@ -126,6 +129,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Family
+#' @family Marital Status
 #' 
 #' @keywords variable
 #' @md
@@ -205,6 +210,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -237,6 +243,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Hours Worked
+#' @family Job
+#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -269,6 +278,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Hours Worked
+#' @family Job
+#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -343,6 +355,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -393,6 +406,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cowrksta
@@ -442,6 +456,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cowrkslf
@@ -485,6 +500,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name coevwork
@@ -527,6 +543,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md

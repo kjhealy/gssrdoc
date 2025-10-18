@@ -53,5 +53,6 @@ Other Intergroup Relations:
 \code{\link{patrjews}},
 \code{\link{patrwhts}}
 }
+\concept{Asian Americans}
 \concept{Intergroup Relations}
 \keyword{variable}

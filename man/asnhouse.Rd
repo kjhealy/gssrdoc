@@ -53,6 +53,16 @@ Other Intergroup Relations:
 \code{\link{influhsp}},
 \code{\link{influso}},
 \code{\link{racwork}}
+
+Other Asian Americans: 
+\code{\link{asnjobs}},
+\code{\link{influasn}}
+
+Other Housing: 
+\code{\link{blkhouse}},
+\code{\link{hsphouse}}
 }
+\concept{Asian Americans}
+\concept{Housing}
 \concept{Intergroup Relations}
 \keyword{variable}

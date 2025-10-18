@@ -50,6 +50,49 @@ Other Global Economics:
 \code{\link{whynojb1}},
 \code{\link{whynojb2}},
 \code{\link{wocomptr}}
+
+Other Computers And Internet: 
+\code{\link{wocomptr}}
+
+Other Employment: 
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}}
+
+Other Job: 
+\code{\link{inclstjb}},
+\code{\link{intlcowk}},
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{meetf2f1}},
+\code{\link{meetf2f2}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}},
+\code{\link{wocomptr}}
+
+Other Technology: 
+\code{\link{meetf2f1}},
+\code{\link{meetf2f2}}
+
+Other Unemployment: 
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}}
+
+Other Work: 
+\code{\link{meetf2f1}},
+\code{\link{meetf2f2}}
 }
+\concept{Business}
+\concept{Computers And Internet}
+\concept{Corporations}
+\concept{Employment}
 \concept{Global Economics}
+\concept{Job}
+\concept{Occupation}
+\concept{Technology}
+\concept{Unemployment}
+\concept{Work}
 \keyword{variable}

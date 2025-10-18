@@ -35,6 +35,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlploan
@@ -76,6 +77,7 @@ NULL
 #'  |Total |1175 |432                             |166           |147               |215             |17                                    |73                  |88                        |33         |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -121,6 +123,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlppaper
@@ -162,6 +165,7 @@ NULL
 #'  |Total |1175 |769                             |69            |76                |107             |43                                    |45                  |49                        |14         |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -207,6 +211,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlpsickr
@@ -246,6 +251,7 @@ NULL
 #'  |Total |1175 |555   |264    |213       |73    |62         |3          |3         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -289,6 +295,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name lonely2
@@ -330,6 +337,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name lonely3
@@ -368,6 +376,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name trcourts
@@ -404,6 +413,7 @@ NULL
 #'  |Total |1175 |88           |32 |12                  |73 |152 |143 |280 |150 |144 |62 |15 |20         |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

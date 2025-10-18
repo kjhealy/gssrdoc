@@ -59,6 +59,16 @@ Other ISSP Family & Gender Roles:
 \code{\link{rhhwork}},
 \code{\link{spborn}},
 \code{\link{sphhwork}}
+
+Other Household: 
+\code{\link{caresik1}},
+\code{\link{clean1}},
+\code{\link{cooking1}},
+\code{\link{hhwkdis}},
+\code{\link{hhwkfair}},
+\code{\link{rhhwork}},
+\code{\link{sphhwork}}
 }
+\concept{Household}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

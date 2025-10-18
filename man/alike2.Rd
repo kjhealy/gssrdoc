@@ -52,6 +52,14 @@ Other Family Mobility:
 \code{\link{payrdied}},
 \code{\link{presfrst}},
 \code{\link{wrkslfst}}
+
+Other Knowledge: 
+\code{\link{alike1}}
+
+Other Reasoning Abilities: 
+\code{\link{alike1}}
 }
 \concept{Family Mobility}
+\concept{Knowledge}
+\concept{Reasoning Abilities}
 \keyword{variable}

@@ -52,6 +52,14 @@ Other Work Orientation:
 \code{\link{unbored}},
 \code{\link{undk}},
 \code{\link{workweek}}
+
+Other Job: 
+\code{\link{empself}},
+\code{\link{indusoth}},
+\code{\link{iwrkhard}},
+\code{\link{privgovt}},
+\code{\link{smallbig}}
 }
+\concept{Job}
 \concept{Work Orientation}
 \keyword{variable}

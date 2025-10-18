@@ -54,6 +54,19 @@ Other Number Known:
 \code{\link{acqprisn}},
 \code{\link{acqunemp}},
 \code{\link{acqwhite}}
+
+Other Social Networks: 
+\code{\link{acqblack}},
+\code{\link{acqhisp}},
+\code{\link{acqhome}},
+\code{\link{acqjose}},
+\code{\link{acqlinda}},
+\code{\link{acqmaria}},
+\code{\link{acqprisn}},
+\code{\link{acqunemp}},
+\code{\link{acqwhite}}
 }
+\concept{Asian Americans}
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

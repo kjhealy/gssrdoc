@@ -48,6 +48,15 @@ Other Markets & Exchange - Giving & Volunteering:
 \code{\link{volhuman}},
 \code{\link{volpub}},
 \code{\link{volrelig}}
+
+Other Voluntary Associations: 
+\code{\link{voleduc}},
+\code{\link{volenvir}},
+\code{\link{volhlth}},
+\code{\link{volhuman}},
+\code{\link{volpub}},
+\code{\link{volrelig}}
 }
 \concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

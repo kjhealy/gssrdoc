@@ -54,4 +54,5 @@ Other Culture:
 \code{\link{united}}
 }
 \concept{Culture}
+\concept{Inequality, Income}
 \keyword{variable}

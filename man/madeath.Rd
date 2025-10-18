@@ -66,6 +66,13 @@ Other Core:
 \code{\link{padeath}},
 \code{\link{unrel1}},
 \code{\link{unrel4}}
+
+Other Family: 
+\code{\link{chlddth}},
+\code{\link{death16}},
+\code{\link{death5}},
+\code{\link{padeath}}
 }
 \concept{Core}
+\concept{Family}
 \keyword{variable}

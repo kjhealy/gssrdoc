@@ -77,4 +77,7 @@ Other Core:
 \code{\link{unemp5}}
 }
 \concept{Core}
+\concept{Inequality, Income}
+\concept{Poverty}
+\concept{Race}
 \keyword{variable}

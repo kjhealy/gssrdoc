@@ -53,6 +53,17 @@ Other ISSP Citizenship:
 \code{\link{poleff19}},
 \code{\link{poleff20}},
 \code{\link{polgreed}}
+
+Other Political: 
+\code{\link{actlaw}},
+\code{\link{affctlaw}},
+\code{\link{discpol}},
+\code{\link{govdook}},
+\code{\link{poleff18}},
+\code{\link{poleff19}},
+\code{\link{poleff20}},
+\code{\link{polgreed}}
 }
 \concept{ISSP Citizenship}
+\concept{Political}
 \keyword{variable}

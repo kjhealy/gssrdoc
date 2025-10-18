@@ -34,6 +34,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -75,6 +76,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -118,6 +120,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -160,6 +163,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -201,6 +205,7 @@ NULL
 #'  |Total |0   |6628  |1960         |709        |247        |370       |10             |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -245,6 +250,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name pres16
@@ -285,6 +291,7 @@ NULL
 #'  |Total |6548 |1023    |737   |602   |164        |693       |14             |143                       |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -363,6 +370,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Political
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -408,6 +417,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Political
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -447,6 +458,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Political
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

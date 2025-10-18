@@ -52,6 +52,18 @@ Other Spirituality and Religion:
 \code{\link{numrborn}},
 \code{\link{whychng2}},
 \code{\link{whychng3}}
+
+Other Religion: 
+\code{\link{agerborn}},
+\code{\link{chngrbrn}},
+\code{\link{entity}},
+\code{\link{expchng1}},
+\code{\link{expchng2}},
+\code{\link{expchng3}},
+\code{\link{numrborn}},
+\code{\link{whychng2}},
+\code{\link{whychng3}}
 }
+\concept{Religion}
 \concept{Spirituality and Religion}
 \keyword{variable}

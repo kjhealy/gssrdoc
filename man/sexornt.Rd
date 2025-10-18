@@ -54,5 +54,7 @@ Other High Risk Behaviors:
 \code{\link{hivkiss}},
 \code{\link{hivvac}}
 }
+\concept{Gays And Lesbians}
 \concept{High Risk Behaviors}
+\concept{Sex}
 \keyword{variable}

@@ -52,6 +52,18 @@ Other Core:
 \code{\link{othjew}},
 \code{\link{relig}},
 \code{\link{wirtap}}
+
+Other Crime: 
+\code{\link{lawfirm}},
+\code{\link{lawimp}}
+
+Other Split Ballots: 
+\code{\link{grass}},
+\code{\link{grassy}},
+\code{\link{lawfirm}},
+\code{\link{lawimp}}
 }
 \concept{Core}
+\concept{Crime}
+\concept{Split Ballots}
 \keyword{variable}

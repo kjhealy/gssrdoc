@@ -54,6 +54,12 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{learnjob}},
 \code{\link{lentto}},
 \code{\link{talkedto}}
+
+Other Friends: 
+\code{\link{frdenjoy}},
+\code{\link{frdhelps}},
+\code{\link{frdthink}}
 }
+\concept{Friends}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

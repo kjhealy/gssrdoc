@@ -50,6 +50,15 @@ Counts by year:\tabular{lllllllllll}{
 \seealso{
 Other Core: 
 \code{\link{immcrime}}
+
+Other United States: 
+\code{\link{immameco}},
+\code{\link{immcrime}},
+\code{\link{immideas}},
+\code{\link{letin1}},
+\code{\link{meltpot1}},
+\code{\link{refugees}}
 }
 \concept{Core}
+\concept{United States}
 \keyword{variable}

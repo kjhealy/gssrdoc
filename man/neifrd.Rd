@@ -50,6 +50,13 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{grppol}},
 \code{\link{grpsport}},
 \code{\link{grpunion}}
+
+Other Friends: 
+\code{\link{bestfrd}},
+\code{\link{bstcall}},
+\code{\link{bstvisit}},
+\code{\link{cowrkfrd}}
 }
+\concept{Friends}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

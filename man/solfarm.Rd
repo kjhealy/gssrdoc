@@ -51,6 +51,19 @@ Other Socio-political participation:
 \code{\link{solnat}},
 \code{\link{solother}},
 \code{\link{solprof}}
+
+Other Voluntary Associations: 
+\code{\link{actfrat}},
+\code{\link{actpolit}},
+\code{\link{actserv}},
+\code{\link{actvet}},
+\code{\link{solchurh}},
+\code{\link{sollit}},
+\code{\link{solnat}},
+\code{\link{solother}},
+\code{\link{solprof}}
 }
+\concept{Agriculture}
 \concept{Socio-political participation}
+\concept{Voluntary Associations}
 \keyword{variable}

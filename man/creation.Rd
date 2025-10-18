@@ -44,6 +44,10 @@ Counts by year:\tabular{lllllllll}{
 \seealso{
 Other Misc II: 
 \code{\link{scitesty}}
+
+Other Religion: 
+\code{\link{scitesty}}
 }
 \concept{Misc II}
+\concept{Religion}
 \keyword{variable}

@@ -50,6 +50,16 @@ Other Global Economics:
 \code{\link{whylose1}},
 \code{\link{whylose2}},
 \code{\link{whylose3}}
+
+Other Job: 
+\code{\link{findnwjb}},
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{moretrde}},
+\code{\link{newjobs}},
+\code{\link{whyjbct2}}
 }
+\concept{Computers And Internet}
 \concept{Global Economics}
+\concept{Job}
 \keyword{variable}

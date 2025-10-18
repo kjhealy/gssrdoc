@@ -269,6 +269,19 @@ Other Core:
 \code{\link{papres16}},
 \code{\link{papres80}},
 \code{\link{pawrkslf}}
+
+Other Industry: 
+\code{\link{paind16}}
+
+Other Occupation: 
+\code{\link{paind16}},
+\code{\link{paocc10}},
+\code{\link{paocc80}},
+\code{\link{papres16}},
+\code{\link{papres80}},
+\code{\link{pawrkslf}}
 }
 \concept{Core}
+\concept{Industry}
+\concept{Occupation}
 \keyword{variable}

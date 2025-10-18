@@ -49,6 +49,10 @@ Other Multi-Ethnic United States:
 \code{\link{ethchng}},
 \code{\link{hispwork}},
 \code{\link{knwwht}}
+
+Other Asian Americans: 
+\code{\link{asnchng}}
 }
+\concept{Asian Americans}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

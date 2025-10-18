@@ -54,6 +54,11 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{othfrd}},
 \code{\link{usefrds}},
 \code{\link{wantbest}}
+
+Other People: 
+\code{\link{advantge}},
+\code{\link{wantbest}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{People}
 \keyword{variable}

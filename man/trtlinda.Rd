@@ -54,6 +54,18 @@ Other Number Known:
 \code{\link{trtmark}},
 \code{\link{trtrachl}},
 \code{\link{trtsocs}}
+
+Other Social Networks: 
+\code{\link{trtbrnda}},
+\code{\link{trtcops}},
+\code{\link{trtjose}},
+\code{\link{trtkeith}},
+\code{\link{trtlaws}},
+\code{\link{trtmaria}},
+\code{\link{trtmark}},
+\code{\link{trtrachl}},
+\code{\link{trtsocs}}
 }
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

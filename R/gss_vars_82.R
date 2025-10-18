@@ -54,6 +54,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Inequality, Income
+#' @family Poverty
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -94,6 +97,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Salience Of Issues
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -134,6 +139,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Labor Unions
+#' @family Salience Of Issues
 #' 
 #' @keywords variable
 #' @md
@@ -174,6 +181,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Income
+#' @family Salience Of Issues
 #' 
 #' @keywords variable
 #' @md
@@ -214,6 +223,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Abortion
+#' @family Salience Of Issues
 #' 
 #' @keywords variable
 #' @md
@@ -254,6 +265,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Salience Of Issues
+#' @family Science
 #' 
 #' @keywords variable
 #' @md
@@ -306,6 +319,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Marital Status
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -345,6 +360,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Marital Status
+#' @family Relatives
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -384,6 +402,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Marital Status
+#' @family Relatives
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -441,6 +462,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Employment
+#' @family Trauma
+#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md

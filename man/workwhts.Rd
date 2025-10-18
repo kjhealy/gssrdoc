@@ -72,4 +72,5 @@ Other Intergroup Relations:
 \code{\link{workso}}
 }
 \concept{Intergroup Relations}
+\concept{Whites}
 \keyword{variable}

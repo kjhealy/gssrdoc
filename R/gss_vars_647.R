@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthacc2
@@ -72,6 +73,7 @@ NULL
 #'  |Total |2485 |47 |87 |721 |154 |50 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -115,6 +117,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthacc4
@@ -154,6 +157,7 @@ NULL
 #'  |Total |2379 |85             |338   |403                        |191      |75                |66           |2         |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -197,6 +201,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthenv
@@ -236,6 +241,7 @@ NULL
 #'  |Total |2380 |128            |633   |279                        |51       |12                |54           |1         |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -279,6 +285,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthpoor
@@ -318,6 +325,7 @@ NULL
 #'  |Total |2380 |68             |170   |498                        |237      |78                |105          |4         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -361,6 +369,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name doctrst
@@ -400,6 +409,7 @@ NULL
 #'  |Total |2380 |74             |274   |358                        |356      |48                |49           |2         |3              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

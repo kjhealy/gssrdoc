@@ -53,6 +53,18 @@ Other Mental Health II:
 \code{\link{imprvmed}},
 \code{\link{raised}},
 \code{\link{violtv}}
+
+Other Children: 
+\code{\link{allergic}},
+\code{\link{bettrown}},
+\code{\link{discipln}},
+\code{\link{geneprob}},
+\code{\link{imprvdis}},
+\code{\link{imprveat}},
+\code{\link{imprvmed}},
+\code{\link{raised}},
+\code{\link{violtv}}
 }
+\concept{Children}
 \concept{Mental Health II}
 \keyword{variable}

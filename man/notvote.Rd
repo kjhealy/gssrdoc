@@ -46,5 +46,6 @@ Other ISSP Citizenship:
 \code{\link{leftrght}},
 \code{\link{ntcitvte}}
 }
+\concept{Citizenship}
 \concept{ISSP Citizenship}
 \keyword{variable}

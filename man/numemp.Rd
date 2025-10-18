@@ -53,6 +53,17 @@ Other Jobs:
 \code{\link{howpaid}},
 \code{\link{wojob}},
 \code{\link{wojobyrs}}
+
+Other Job: 
+\code{\link{doingdys}},
+\code{\link{doingfin}},
+\code{\link{doingtrn}},
+\code{\link{formldys}},
+\code{\link{formlfin}},
+\code{\link{formlhrs}},
+\code{\link{howpaid}}
 }
+\concept{Employment}
+\concept{Job}
 \concept{Jobs}
 \keyword{variable}

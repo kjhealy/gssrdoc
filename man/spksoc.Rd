@@ -53,6 +53,13 @@ Other Core:
 \code{\link{libath}},
 \code{\link{spkath}},
 \code{\link{tax}}
+
+Other Civil Liberties: 
+\code{\link{colath}},
+\code{\link{colsoc}},
+\code{\link{libath}},
+\code{\link{spkath}}
 }
+\concept{Civil Liberties}
 \concept{Core}
 \keyword{variable}

@@ -34,6 +34,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
+#' @family Knowledge
 #' 
 #' @keywords variable
 #' @md
@@ -77,6 +79,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
+#' @family Knowledge
 #' 
 #' @keywords variable
 #' @md
@@ -119,6 +123,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
+#' @family Knowledge
 #' 
 #' @keywords variable
 #' @md
@@ -161,6 +167,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
+#' @family Knowledge
 #' 
 #' @keywords variable
 #' @md
@@ -203,6 +211,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
+#' @family Knowledge
 #' 
 #' @keywords variable
 #' @md
@@ -250,6 +260,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -294,6 +305,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -337,6 +349,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -385,6 +398,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
@@ -427,6 +441,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md

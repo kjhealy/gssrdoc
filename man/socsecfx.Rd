@@ -52,6 +52,21 @@ Other Mental Health:
 \code{\link{termpain}},
 \code{\link{termpay}},
 \code{\link{termrel}}
+
+Other Federal Government: 
+\code{\link{socsecnu}},
+\code{\link{socsecrt}}
+
+Other Social Security: 
+\code{\link{socsecnu}},
+\code{\link{socsecrt}}
+
+Other United States: 
+\code{\link{socsecnu}},
+\code{\link{socsecrt}}
 }
+\concept{Federal Government}
 \concept{Mental Health}
+\concept{Social Security}
+\concept{United States}
 \keyword{variable}

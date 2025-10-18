@@ -54,6 +54,29 @@ Other Multiculturalism:
 \code{\link{immwrkup}},
 \code{\link{undoccol}},
 \code{\link{undockid}}
+
+Other Federal Government: 
+\code{\link{immfare}},
+\code{\link{undoccol}},
+\code{\link{undockid}}
+
+Other Immigration: 
+\code{\link{immecon}},
+\code{\link{immfare}},
+\code{\link{immpush}},
+\code{\link{immunemp}},
+\code{\link{immunite}},
+\code{\link{immwrkup}},
+\code{\link{undoccol}},
+\code{\link{undockid}}
+
+Other United States: 
+\code{\link{immfare}},
+\code{\link{undoccol}},
+\code{\link{undockid}}
 }
+\concept{Federal Government}
+\concept{Immigration}
 \concept{Multiculturalism}
+\concept{United States}
 \keyword{variable}

@@ -47,6 +47,14 @@ Other Markets:
 \code{\link{newused}},
 \code{\link{relprivt}},
 \code{\link{typdealr}}
+
+Other Purchases/Transactions: 
+\code{\link{cardealr}},
+\code{\link{carprivt}},
+\code{\link{newused}},
+\code{\link{relprivt}},
+\code{\link{typdealr}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

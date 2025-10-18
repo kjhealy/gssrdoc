@@ -56,5 +56,6 @@ Other Quality of Working Life:
 \code{\link{wkracism}},
 \code{\link{wksexism}}
 }
+\concept{Income}
 \concept{Quality of Working Life}
 \keyword{variable}

@@ -32,6 +32,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name conimm
@@ -68,6 +69,7 @@ NULL
 #'  |Total |2029 |34      |40          |44 |228 |267 |730 |197 |165 |78 |29 |5            |161       |25             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -108,6 +110,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name rank16
@@ -144,6 +147,7 @@ NULL
 #'  |Total |2029 |77      |49          |106 |282 |317 |554 |170 |129 |82 |27 |12           |165       |33             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -184,6 +188,7 @@ NULL
 #'  |Total |2029 |74        |406  |805    |367         |166          |174       |11             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -229,6 +234,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name contpoor
@@ -272,6 +278,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name contrich
@@ -311,6 +318,7 @@ NULL
 #'  |Total |2029 |132            |349              |507                        |488         |276       |59           |176       |16             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -356,6 +364,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name skipmeal
@@ -396,6 +405,7 @@ NULL
 #'  |Total |2029 |95          |461           |336                |666          |226                |22          |4            |178       |15             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

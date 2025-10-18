@@ -53,6 +53,18 @@ Other Information Society:
 \code{\link{polalter}},
 \code{\link{poltough}},
 \code{\link{wwwmusic}}
+
+Other Computers And Internet: 
+\code{\link{artschat}},
+\code{\link{artschng}},
+\code{\link{artshr}},
+\code{\link{artsmin}},
+\code{\link{musicget}},
+\code{\link{musicinf}},
+\code{\link{polalter}},
+\code{\link{poltough}},
+\code{\link{wwwmusic}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

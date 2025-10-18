@@ -49,5 +49,6 @@ Other Work Orientation:
 \code{\link{skltrain}},
 \code{\link{spwrkgvt}}
 }
+\concept{Job}
 \concept{Work Orientation}
 \keyword{variable}

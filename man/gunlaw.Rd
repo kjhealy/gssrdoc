@@ -82,6 +82,12 @@ Other Core:
 \code{\link{gunfirm}},
 \code{\link{gunimp}},
 \code{\link{guninfo}}
+
+Other Guns: 
+\code{\link{gunfirm}},
+\code{\link{gunimp}},
+\code{\link{guninfo}}
 }
 \concept{Core}
+\concept{Guns}
 \keyword{variable}

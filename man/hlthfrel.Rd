@@ -57,6 +57,13 @@ Other Information Society:
 \code{\link{polmag2}},
 \code{\link{polpapr}},
 \code{\link{poltv}}
+
+Other Health: 
+\code{\link{hlthdoc}},
+\code{\link{hlthmag2}},
+\code{\link{hlthtv}},
+\code{\link{hlthwww}}
 }
+\concept{Health}
 \concept{Information Society}
 \keyword{variable}

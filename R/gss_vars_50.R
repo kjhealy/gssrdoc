@@ -35,6 +35,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Romantic Relationships
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +109,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -176,6 +178,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Life Outlook
 #' 
 #' @keywords variable
 #' @md
@@ -245,6 +248,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family People
 #' 
 #' @keywords variable
 #' @md
@@ -314,6 +318,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family People
 #' 
 #' @keywords variable
 #' @md
@@ -384,6 +389,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family People
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -422,6 +429,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family People
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -459,6 +468,7 @@ NULL
 #'  |Total |3085 |465       |937                     |18         |5         |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -522,6 +532,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Satisfaction
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -584,6 +596,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Satisfaction
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

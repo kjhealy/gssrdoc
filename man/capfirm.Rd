@@ -53,5 +53,6 @@ Other Core:
 \code{\link{guninfo}},
 \code{\link{gunlaw}}
 }
+\concept{Capital Punishment}
 \concept{Core}
 \keyword{variable}

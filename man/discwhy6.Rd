@@ -59,7 +59,16 @@ Other Multiculturalism:
 \code{\link{discwhy3}},
 \code{\link{discwhy4}},
 \code{\link{discwhy5}}
+
+Other Blacks: 
+\code{\link{discaff}},
+\code{\link{discwhy1}},
+\code{\link{discwhy2}},
+\code{\link{discwhy3}},
+\code{\link{discwhy4}},
+\code{\link{discwhy5}}
 }
+\concept{Blacks}
 \concept{Intergroup Relations}
 \concept{Multiculturalism}
 \keyword{variable}

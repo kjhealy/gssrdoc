@@ -54,6 +54,14 @@ Other ISSP Religion:
 \code{\link{volwkoth}},
 \code{\link{volwkpol}},
 \code{\link{volwkrel}}
+
+Other Religion: 
+\code{\link{cardo}},
+\code{\link{carright}},
+\code{\link{reltruth}},
+\code{\link{rspctrel}}
 }
+\concept{Civil Liberties}
 \concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

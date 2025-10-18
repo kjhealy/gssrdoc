@@ -49,6 +49,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{yrprof2}},
 \code{\link{yrprof3}},
 \code{\link{yrprof5}}
+
+Other Voluntary Associations: 
+\code{\link{yrfarm3}},
+\code{\link{yrlit1}},
+\code{\link{yrlit2}},
+\code{\link{yrlit3}},
+\code{\link{yrlit4}},
+\code{\link{yrprof1}},
+\code{\link{yrprof2}},
+\code{\link{yrprof3}},
+\code{\link{yrprof5}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

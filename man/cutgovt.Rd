@@ -61,6 +61,20 @@ Other ISSP Role of Gov't:
 \code{\link{setprice}},
 \code{\link{setwage}},
 \code{\link{spenviro}}
+
+Other Economy: 
+\code{\link{cuthours}},
+\code{\link{hlphitec}},
+\code{\link{lessreg}},
+\code{\link{makejobs}},
+\code{\link{savejobs}},
+\code{\link{setprice}},
+\code{\link{setwage}}
+
+Other Spending: 
+\code{\link{spenviro}}
 }
+\concept{Economy}
 \concept{ISSP Role of Gov't}
+\concept{Spending}
 \keyword{variable}

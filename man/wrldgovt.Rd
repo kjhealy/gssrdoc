@@ -57,6 +57,18 @@ Other ISSP National Identity:
 \code{\link{mincult}},
 \code{\link{proudgrp}},
 \code{\link{proudhis}}
+
+Other United States: 
+\code{\link{amcult}},
+\code{\link{amownway}},
+\code{\link{amtv}},
+\code{\link{forland}},
+\code{\link{forlang}},
+\code{\link{imports}},
+\code{\link{mincult}},
+\code{\link{proudgrp}},
+\code{\link{proudhis}}
 }
 \concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

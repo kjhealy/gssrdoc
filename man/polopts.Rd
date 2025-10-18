@@ -53,6 +53,13 @@ Other ISSP Citizenship:
 \code{\link{grpwork}},
 \code{\link{rghtsmin}},
 \code{\link{solok}}
+
+Other Democracy: 
+\code{\link{citviews}},
+\code{\link{eqtreat}},
+\code{\link{rghtsmin}},
+\code{\link{solok}}
 }
+\concept{Democracy}
 \concept{ISSP Citizenship}
 \keyword{variable}

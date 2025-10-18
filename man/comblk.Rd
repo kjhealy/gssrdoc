@@ -50,5 +50,6 @@ Other Multi-Ethnic United States:
 \code{\link{hispwork}},
 \code{\link{knwwht}}
 }
+\concept{Blacks}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

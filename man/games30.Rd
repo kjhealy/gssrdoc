@@ -56,6 +56,18 @@ Other Information Society:
 \code{\link{sports30}},
 \code{\link{travel30}},
 \code{\link{tvmov30}}
+
+Other Computers And Internet: 
+\code{\link{art30}},
+\code{\link{health30}},
+\code{\link{humor30}},
+\code{\link{music30}},
+\code{\link{pol30}},
+\code{\link{relig30}},
+\code{\link{sports30}},
+\code{\link{travel30}},
+\code{\link{tvmov30}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

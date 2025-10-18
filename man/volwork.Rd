@@ -51,6 +51,18 @@ Other Markets & Exchange - Giving & Volunteering:
 \code{\link{voloth}},
 \code{\link{volpol}},
 \code{\link{volyouth}}
+
+Other Voluntary Associations: 
+\code{\link{moneduc}},
+\code{\link{monhlth}},
+\code{\link{volart}},
+\code{\link{volfound}},
+\code{\link{volinfrm}},
+\code{\link{volintl}},
+\code{\link{voloth}},
+\code{\link{volpol}},
+\code{\link{volyouth}}
 }
 \concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

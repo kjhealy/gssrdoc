@@ -50,5 +50,7 @@ Other ISSP Religion:
 \code{\link{premars1}},
 \code{\link{xmarsex1}}
 }
+\concept{Courts}
+\concept{Crime}
 \concept{ISSP Religion}
 \keyword{variable}

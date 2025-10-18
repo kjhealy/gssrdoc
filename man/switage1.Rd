@@ -53,6 +53,17 @@ Other Religion:
 \code{\link{switnum}},
 \code{\link{switwhy1}},
 \code{\link{switwhy2}}
+
+Other Religion: 
+\code{\link{maden}},
+\code{\link{marelig}},
+\code{\link{switage2}},
+\code{\link{switch1}},
+\code{\link{switch2}},
+\code{\link{switch3}},
+\code{\link{switnum}},
+\code{\link{switwhy1}},
+\code{\link{switwhy2}}
 }
 \concept{Religion}
 \keyword{variable}

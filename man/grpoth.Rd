@@ -53,6 +53,11 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{helphwrk}},
 \code{\link{sick1a}},
 \code{\link{sick2a}}
+
+Other Voluntary Associations: 
+\code{\link{grpchrty}},
+\code{\link{grpnei}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Voluntary Associations}
 \keyword{variable}

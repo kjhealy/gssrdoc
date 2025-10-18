@@ -53,6 +53,12 @@ Other Mental Health II:
 \code{\link{medunacc}},
 \code{\link{medweak}},
 \code{\link{solveown}}
+
+Other Mental Health: 
+\code{\link{medaddct}},
+\code{\link{medunacc}},
+\code{\link{medweak}}
 }
+\concept{Mental Health}
 \concept{Mental Health II}
 \keyword{variable}

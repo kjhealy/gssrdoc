@@ -54,6 +54,18 @@ Other Work Orientation:
 \code{\link{techjobs}},
 \code{\link{techwork}},
 \code{\link{wantjob1}}
+
+Other Work: 
+\code{\link{paydojob}},
+\code{\link{payeduc}},
+\code{\link{payfam}},
+\code{\link{paytime}},
+\code{\link{placewrk}},
+\code{\link{sethours}},
+\code{\link{techjobs}},
+\code{\link{techwork}},
+\code{\link{wantjob1}}
 }
+\concept{Work}
 \concept{Work Orientation}
 \keyword{variable}

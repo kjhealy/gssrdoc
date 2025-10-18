@@ -60,5 +60,6 @@ Other Science Knowledge & Attitudes:
 \code{\link{vissci}},
 \code{\link{viszoo}}
 }
+\concept{Military}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

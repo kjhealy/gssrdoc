@@ -48,4 +48,5 @@ Other Culture:
 \code{\link{hsclass2}}
 }
 \concept{Culture}
+\concept{World Events}
 \keyword{variable}

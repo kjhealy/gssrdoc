@@ -62,6 +62,30 @@ Other Core:
 \code{\link{mannersy}},
 \code{\link{roley}},
 \code{\link{successy}}
+
+Other Children: 
+\code{\link{amicably}},
+\code{\link{cleany}},
+\code{\link{controly}},
+\code{\link{honesty}},
+\code{\link{interest}},
+\code{\link{judgmeny}},
+\code{\link{mannersy}},
+\code{\link{roley}},
+\code{\link{successy}}
+
+Other Split Ballots: 
+\code{\link{amicably}},
+\code{\link{cleany}},
+\code{\link{controly}},
+\code{\link{honesty}},
+\code{\link{interest}},
+\code{\link{judgmeny}},
+\code{\link{mannersy}},
+\code{\link{roley}},
+\code{\link{successy}}
 }
+\concept{Children}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

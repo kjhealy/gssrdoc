@@ -55,6 +55,18 @@ Other ISSP National Identity:
 \code{\link{proudpol}},
 \code{\link{proudspt}},
 \code{\link{proudsss}}
+
+Other United States: 
+\code{\link{amsports}},
+\code{\link{ifwrong}},
+\code{\link{proudart}},
+\code{\link{prouddem}},
+\code{\link{proudeco}},
+\code{\link{proudmil}},
+\code{\link{proudpol}},
+\code{\link{proudspt}},
+\code{\link{proudsss}}
 }
 \concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

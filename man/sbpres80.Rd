@@ -55,6 +55,25 @@ Other Family Mobility:
 \code{\link{sbwork1}},
 \code{\link{sbwork2}},
 \code{\link{sbwrkslf}}
+
+Other Occupation: 
+\code{\link{sbind80}},
+\code{\link{sbocc80}},
+\code{\link{sbwrkslf}}
+
+Other Siblings: 
+\code{\link{sbdeg}},
+\code{\link{sbeduc}},
+\code{\link{sbevwork}},
+\code{\link{sbind80}},
+\code{\link{sbocc80}},
+\code{\link{sbpicked}},
+\code{\link{sbwork1}},
+\code{\link{sbwork2}},
+\code{\link{sbwrkslf}}
 }
 \concept{Family Mobility}
+\concept{Occupation}
+\concept{Occupational Prestige}
+\concept{Siblings}
 \keyword{variable}

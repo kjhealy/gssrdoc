@@ -64,6 +64,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name occstatus
@@ -131,6 +132,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -203,6 +205,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name prestg10
@@ -273,6 +276,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -574,6 +578,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -647,6 +652,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name indstatus
@@ -714,6 +720,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -790,6 +797,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Family
+#' @family Marital Status
 #' 
 #' @keywords variable
 #' @md
@@ -834,6 +843,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -893,6 +903,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Family
+#' @family Marital Status
 #' 
 #' @keywords variable
 #' @md

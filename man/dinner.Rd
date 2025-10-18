@@ -56,6 +56,12 @@ Other ISSP Family & Gender Roles:
 \code{\link{spwkgrwn}},
 \code{\link{spwknokd}},
 \code{\link{spwrksch}}
+
+Other Household: 
+\code{\link{laundry1}},
+\code{\link{repairs1}},
+\code{\link{shopfood}}
 }
+\concept{Household}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

@@ -52,6 +52,18 @@ Other Ethnicity:
 \code{\link{racecen3}},
 \code{\link{racedbtf}},
 \code{\link{racesee}}
+
+Other Race: 
+\code{\link{difrace1}},
+\code{\link{difrace2}},
+\code{\link{difrace3}},
+\code{\link{hispanic}},
+\code{\link{racecen1}},
+\code{\link{racecen2}},
+\code{\link{racecen3}},
+\code{\link{racedbtf}},
+\code{\link{racesee}}
 }
 \concept{Ethnicity}
+\concept{Race}
 \keyword{variable}

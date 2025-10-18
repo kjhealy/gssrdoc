@@ -46,5 +46,6 @@ Other ISSP Citizenship:
 \code{\link{notvote}},
 \code{\link{ntcitvte}}
 }
+\concept{Health}
 \concept{ISSP Citizenship}
 \keyword{variable}

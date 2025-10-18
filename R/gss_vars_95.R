@@ -43,6 +43,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -93,6 +94,7 @@ NULL
 #'  |Total |3753 |174              |204             |148             |67        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -146,6 +148,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -197,6 +200,7 @@ NULL
 #'  |Total |3753 |173              |201             |152             |67        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -250,6 +254,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -290,6 +295,8 @@ NULL
 #'  |Total |1832 |1185 |1273   |56        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Sex
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -332,6 +339,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Sex
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -372,6 +381,8 @@ NULL
 #'  |Total |2839 |675  |782    |50        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Sex
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -414,6 +425,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Sex
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -454,6 +467,8 @@ NULL
 #'  |Total |3753 |265  |278    |50        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Sex
 #' @family Social Networks
 #' 
 #' @keywords variable

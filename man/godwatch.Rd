@@ -52,6 +52,18 @@ Other Religion and Culture:
 \code{\link{lesspain}},
 \code{\link{relcmfrt}},
 \code{\link{rellife}}
+
+Other Religion: 
+\code{\link{cope5}},
+\code{\link{cope6}},
+\code{\link{feelgod}},
+\code{\link{forgive1}},
+\code{\link{forgive2}},
+\code{\link{forgive3}},
+\code{\link{lesspain}},
+\code{\link{relcmfrt}},
+\code{\link{rellife}}
 }
+\concept{Religion}
 \concept{Religion and Culture}
 \keyword{variable}

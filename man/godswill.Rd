@@ -57,6 +57,17 @@ Other Mental Health:
 \code{\link{physill}},
 \code{\link{upsdowns}},
 \code{\link{viglabel}}
+
+Other Mental Health: 
+\code{\link{breakdwn}},
+\code{\link{decmoney}},
+\code{\link{dectreat}},
+\code{\link{genetics}},
+\code{\link{imprvown}},
+\code{\link{mentlill}},
+\code{\link{physill}},
+\code{\link{upsdowns}},
+\code{\link{viglabel}}
 }
 \concept{Mental Health}
 \keyword{variable}

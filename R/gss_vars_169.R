@@ -27,6 +27,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -63,6 +64,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Education
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -104,6 +107,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Education
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -142,6 +147,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -180,6 +186,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -218,6 +225,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -759,6 +767,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Occupation
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -802,6 +812,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Occupation
+#' @family Occupational Prestige
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -847,6 +860,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Job
+#' @family Occupation
+#' @family Siblings
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -1114,6 +1131,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Industry
+#' @family Occupation
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md

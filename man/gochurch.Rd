@@ -52,6 +52,17 @@ Other Religion:
 \code{\link{punsin}},
 \code{\link{readword}},
 \code{\link{rotapple}}
+
+Other Religion: 
+\code{\link{blkwhite}},
+\code{\link{decbible}},
+\code{\link{decchurh}},
+\code{\link{decoths}},
+\code{\link{decself}},
+\code{\link{permoral}},
+\code{\link{punsin}},
+\code{\link{readword}},
+\code{\link{rotapple}}
 }
 \concept{Religion}
 \keyword{variable}

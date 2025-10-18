@@ -53,6 +53,17 @@ Other Mental Health II:
 \code{\link{putsoff}},
 \code{\link{sufadult}},
 \code{\link{violpeop}}
+
+Other Children: 
+\code{\link{comknows}},
+\code{\link{failure}},
+\code{\link{illphys}},
+\code{\link{medkdneg}},
+\code{\link{outsider}},
+\code{\link{ovrmedkd}},
+\code{\link{sufadult}},
+\code{\link{violpeop}}
 }
+\concept{Children}
 \concept{Mental Health II}
 \keyword{variable}

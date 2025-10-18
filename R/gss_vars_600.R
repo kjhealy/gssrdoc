@@ -51,6 +51,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Countries
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -103,6 +105,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Countries
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -163,6 +167,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Countries
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -215,6 +221,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Countries
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -275,6 +283,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Countries
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -335,6 +345,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Countries
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -395,6 +407,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Countries
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -436,6 +450,8 @@ NULL
 #'  |Total |0   |481            |753   |191      |27                |17         |1         |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Welfare
+#' @family Income
 #' @family Welfare
 #' 
 #' @keywords variable
@@ -479,6 +495,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Welfare
+#' @family Income
+#' @family Welfare
 #' 
 #' @keywords variable
 #' @md
@@ -520,6 +538,8 @@ NULL
 #'  |Total |0   |305            |572   |484      |68                |39         |2         |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Welfare
+#' @family Income
 #' @family Welfare
 #' 
 #' @keywords variable

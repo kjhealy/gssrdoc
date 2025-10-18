@@ -48,4 +48,5 @@ Other Freedom:
 \code{\link{wlthpov}}
 }
 \concept{Freedom}
+\concept{Media}
 \keyword{variable}

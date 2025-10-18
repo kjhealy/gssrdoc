@@ -49,6 +49,19 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{numother}},
 \code{\link{numprof}},
 \code{\link{numschl}}
+
+Other Voluntary Associations: 
+\code{\link{numchurh}},
+\code{\link{numgreek}},
+\code{\link{numhobby}},
+\code{\link{numinfrm}},
+\code{\link{numlit}},
+\code{\link{numnat}},
+\code{\link{numother}},
+\code{\link{numprof}},
+\code{\link{numschl}}
 }
+\concept{Agriculture}
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

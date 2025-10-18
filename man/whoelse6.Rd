@@ -65,6 +65,12 @@ Other Paradata:
 \code{\link{whoelse3}},
 \code{\link{whoelse4}},
 \code{\link{whoelse5}}
+
+Other Voluntary Associations: 
+\code{\link{whoelse3}},
+\code{\link{whoelse4}},
+\code{\link{whoelse5}}
 }
 \concept{Paradata}
+\concept{Voluntary Associations}
 \keyword{variable}

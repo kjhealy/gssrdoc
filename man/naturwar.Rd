@@ -55,6 +55,18 @@ Other ISSP Environment:
 \code{\link{naturgod}},
 \code{\link{naturpax}},
 \code{\link{resnatur}}
+
+Other Environment: 
+\code{\link{antests}},
+\code{\link{grnprice}},
+\code{\link{grnprog}},
+\code{\link{grntaxes}},
+\code{\link{grwtharm}},
+\code{\link{grwthelp}},
+\code{\link{naturgod}},
+\code{\link{naturpax}},
+\code{\link{resnatur}}
 }
+\concept{Environment}
 \concept{ISSP Environment}
 \keyword{variable}

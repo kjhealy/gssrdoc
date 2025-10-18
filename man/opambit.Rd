@@ -54,6 +54,18 @@ Other ISSP Social Inequality:
 \code{\link{oprace}},
 \code{\link{opregion}},
 \code{\link{oprelig}}
+
+Other Social Mobility: 
+\code{\link{opable}},
+\code{\link{opclout}},
+\code{\link{opeduc}},
+\code{\link{ophrdwrk}},
+\code{\link{opknow}},
+\code{\link{oppared}},
+\code{\link{oprace}},
+\code{\link{opregion}},
+\code{\link{oprelig}}
 }
 \concept{ISSP Social Inequality}
+\concept{Social Mobility}
 \keyword{variable}

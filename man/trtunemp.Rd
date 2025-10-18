@@ -54,6 +54,18 @@ Other Number Known:
 \code{\link{trtjans}},
 \code{\link{trtmils}},
 \code{\link{trtprisn}}
+
+Other Social Networks: 
+\code{\link{trtasian}},
+\code{\link{trtblack}},
+\code{\link{trtchild}},
+\code{\link{trtelecs}},
+\code{\link{trthisp}},
+\code{\link{trthome}},
+\code{\link{trtjans}},
+\code{\link{trtmils}},
+\code{\link{trtprisn}}
 }
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

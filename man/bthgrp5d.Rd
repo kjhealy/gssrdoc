@@ -62,6 +62,17 @@ Other Interviewer Characteristics:
 \code{\link{frstgrp3}},
 \code{\link{frstgrp4}},
 \code{\link{frstgrp5}}
+
+Other Voluntary Associations: 
+\code{\link{bthgrp5e}},
+\code{\link{frstgrp1}},
+\code{\link{frstgrp2}},
+\code{\link{frstgrp3}},
+\code{\link{frstgrp4}},
+\code{\link{frstgrp5}},
+\code{\link{whoelse1}},
+\code{\link{whoelse2}}
 }
 \concept{Interviewer Characteristics}
+\concept{Voluntary Associations}
 \keyword{variable}

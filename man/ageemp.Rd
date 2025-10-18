@@ -54,6 +54,14 @@ Other Work Orientation:
 \code{\link{wrkenjoy}},
 \code{\link{wrkimp}},
 \code{\link{yrsfirm}}
+
+Other Occupation: 
+\code{\link{dowell}},
+\code{\link{expernc}},
+\code{\link{paysame}},
+\code{\link{sexemp}},
+\code{\link{yrsfirm}}
 }
+\concept{Occupation}
 \concept{Work Orientation}
 \keyword{variable}

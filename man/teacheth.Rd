@@ -51,6 +51,30 @@ Other Multiculturalism:
 \code{\link{owneth}},
 \code{\link{schleth}},
 \code{\link{whoteach}}
+
+Other Education: 
+\code{\link{colaff}},
+\code{\link{colaffy}},
+\code{\link{ethhist}},
+\code{\link{schleth}},
+\code{\link{whoteach}}
+
+Other Ethnicity: 
+\code{\link{congeth}},
+\code{\link{ethhist}},
+\code{\link{owneth}},
+\code{\link{schleth}},
+\code{\link{whoteach}}
+
+Other Race: 
+\code{\link{congeth}},
+\code{\link{ethhist}},
+\code{\link{owneth}},
+\code{\link{schleth}},
+\code{\link{whoteach}}
 }
+\concept{Education}
+\concept{Ethnicity}
 \concept{Multiculturalism}
+\concept{Race}
 \keyword{variable}

@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -67,6 +68,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -107,6 +109,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -145,6 +148,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -185,6 +189,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -223,6 +228,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
+#' @family Knowledge
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -261,6 +268,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
+#' @family Knowledge
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -299,6 +308,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
+#' @family Education
+#' @family Knowledge
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -339,6 +351,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
+#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -379,6 +392,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
+#' @family Political
 #' 
 #' @keywords variable
 #' @md

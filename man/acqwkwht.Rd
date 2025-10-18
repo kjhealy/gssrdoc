@@ -55,6 +55,19 @@ Other Number Known:
 \code{\link{acqwkhsp}},
 \code{\link{acqwklib}},
 \code{\link{acqwkno}}
+
+Other Social Networks: 
+\code{\link{acqvalin}},
+\code{\link{acqvamrk}},
+\code{\link{acqwkcoh}},
+\code{\link{acqwkcon}},
+\code{\link{acqwkgay}},
+\code{\link{acqwkgo}},
+\code{\link{acqwkhsp}},
+\code{\link{acqwklib}},
+\code{\link{acqwkno}}
 }
 \concept{Number Known}
+\concept{Social Networks}
+\concept{Whites}
 \keyword{variable}

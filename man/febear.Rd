@@ -52,7 +52,12 @@ Other Core:
 \code{\link{feworkif}},
 \code{\link{racsubgv}},
 \code{\link{racsubs}}
+
+Other Women: 
+\code{\link{feworkif}}
 }
 \concept{Core}
 \concept{Gender}
+\concept{Parents}
+\concept{Women}
 \keyword{variable}

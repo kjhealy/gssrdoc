@@ -33,6 +33,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -73,6 +75,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Industry
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -644,6 +648,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sphedocc10
@@ -681,6 +686,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -726,6 +732,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sphedoccstatus
@@ -764,6 +771,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -1065,6 +1073,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sphedind10
@@ -1109,6 +1118,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sphedindstatus
@@ -1148,6 +1158,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sphedindtag
@@ -1183,6 +1194,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' 
 #' 
 #' @keywords variable
 #' @md

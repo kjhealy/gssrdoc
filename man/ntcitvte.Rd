@@ -45,6 +45,10 @@ Other ISSP Citizenship:
 \code{\link{hlthall}},
 \code{\link{leftrght}},
 \code{\link{notvote}}
+
+Other Political: 
+\code{\link{leftrght}}
 }
 \concept{ISSP Citizenship}
+\concept{Political}
 \keyword{variable}

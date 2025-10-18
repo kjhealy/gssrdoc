@@ -44,6 +44,10 @@ Counts by year:\tabular{lllllll}{
 \seealso{
 Other Altruism: 
 \code{\link{valgiven}}
+
+Other Altruism: 
+\code{\link{valgiven}}
 }
 \concept{Altruism}
+\concept{Voluntary Associations}
 \keyword{variable}

@@ -56,4 +56,7 @@ Other Culture:
 \code{\link{hosthome}}
 }
 \concept{Culture}
+\concept{Income}
+\concept{Poverty}
+\concept{Values}
 \keyword{variable}

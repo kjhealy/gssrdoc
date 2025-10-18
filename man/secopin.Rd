@@ -48,6 +48,15 @@ Other Doctors & Patients:
 \code{\link{docsat}},
 \code{\link{docswtch}},
 \code{\link{insrchng}}
+
+Other Health: 
+\code{\link{doccosts}},
+\code{\link{docinfo}},
+\code{\link{docnomri}},
+\code{\link{docsat}},
+\code{\link{docswtch}},
+\code{\link{insrchng}}
 }
 \concept{Doctors & Patients}
+\concept{Health}
 \keyword{variable}

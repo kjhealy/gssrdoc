@@ -52,6 +52,52 @@ Other Core:
 \code{\link{natenviz}},
 \code{\link{natfarez}},
 \code{\link{nathealz}}
+
+Other Federal Government: 
+\code{\link{nataidz}},
+\code{\link{natarmsz}},
+\code{\link{natcityz}},
+\code{\link{natcrimz}},
+\code{\link{natdrugz}},
+\code{\link{nateducz}},
+\code{\link{natenviz}},
+\code{\link{natfarez}},
+\code{\link{nathealz}}
+
+Other Spending: 
+\code{\link{nataidz}},
+\code{\link{natarmsz}},
+\code{\link{natcityz}},
+\code{\link{natcrimz}},
+\code{\link{natdrugz}},
+\code{\link{nateducz}},
+\code{\link{natenviz}},
+\code{\link{natfarez}},
+\code{\link{nathealz}}
+
+Other Split Ballots: 
+\code{\link{nataidz}},
+\code{\link{natarmsz}},
+\code{\link{natcityz}},
+\code{\link{natcrimz}},
+\code{\link{nateducz}},
+\code{\link{natenviz}},
+\code{\link{natfarez}},
+\code{\link{nathealz}}
+
+Other United States: 
+\code{\link{nataidz}},
+\code{\link{natarmsz}},
+\code{\link{natcityz}},
+\code{\link{natcrimz}},
+\code{\link{nateducz}},
+\code{\link{natenviz}},
+\code{\link{natfarez}},
+\code{\link{nathealz}}
 }
 \concept{Core}
+\concept{Federal Government}
+\concept{Spending}
+\concept{Split Ballots}
+\concept{United States}
 \keyword{variable}

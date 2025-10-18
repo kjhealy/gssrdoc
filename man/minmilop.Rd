@@ -51,6 +51,17 @@ Other Core:
 \code{\link{milokme}},
 \code{\link{vetfam}},
 \code{\link{vetfamnw}}
+
+Other Military: 
+\code{\link{cojail}},
+\code{\link{copunish}},
+\code{\link{draftco}},
+\code{\link{draftdef}},
+\code{\link{femilop}},
+\code{\link{milokfe}},
+\code{\link{milokme}},
+\code{\link{vetfamnw}}
 }
 \concept{Core}
+\concept{Military}
 \keyword{variable}

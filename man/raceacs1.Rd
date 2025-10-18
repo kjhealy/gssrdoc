@@ -41,4 +41,5 @@ Counts by year:\tabular{llllllll}{
 }
 
 \concept{Core}
+\concept{Race}
 \keyword{variable}

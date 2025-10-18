@@ -50,6 +50,10 @@ Other Core:
 \code{\link{febear}},
 \code{\link{racsubgv}},
 \code{\link{racsubs}}
+
+Other Women: 
+\code{\link{febear}}
 }
 \concept{Core}
+\concept{Women}
 \keyword{variable}

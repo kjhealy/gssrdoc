@@ -55,6 +55,18 @@ Other ISSP Environment:
 \code{\link{impgrn}},
 \code{\link{othssame}},
 \code{\link{peopgovt}}
+
+Other Environment: 
+\code{\link{amprogrn}},
+\code{\link{bizpeop}},
+\code{\link{genegen}},
+\code{\link{govtbiz}},
+\code{\link{grnexagg}},
+\code{\link{grnintl}},
+\code{\link{impgrn}},
+\code{\link{othssame}},
+\code{\link{peopgovt}}
 }
+\concept{Environment}
 \concept{ISSP Environment}
 \keyword{variable}

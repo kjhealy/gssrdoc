@@ -54,6 +54,18 @@ Other Negative Life Events:
 \code{\link{work7}},
 \code{\link{work8}},
 \code{\link{work9}}
+
+Other Trauma: 
+\code{\link{finan1}},
+\code{\link{finan2}},
+\code{\link{finan3}},
+\code{\link{work10}},
+\code{\link{work4}},
+\code{\link{work6}},
+\code{\link{work7}},
+\code{\link{work8}},
+\code{\link{work9}}
 }
 \concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

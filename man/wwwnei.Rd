@@ -51,6 +51,18 @@ Other Information Society:
 \code{\link{payother}},
 \code{\link{wwwfrnd}},
 \code{\link{wwwvol}}
+
+Other Computers And Internet: 
+\code{\link{askother}},
+\code{\link{askwork}},
+\code{\link{callcomp}},
+\code{\link{doonown}},
+\code{\link{manual}},
+\code{\link{online}},
+\code{\link{payother}},
+\code{\link{wwwfrnd}},
+\code{\link{wwwvol}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

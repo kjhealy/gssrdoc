@@ -51,6 +51,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{mtvet2}},
 \code{\link{mtvet3}},
 \code{\link{mtvet5}}
+
+Other Voluntary Associations: 
+\code{\link{mtpolit1}},
+\code{\link{mtpolit2}},
+\code{\link{mtpolit3}},
+\code{\link{mtunion1}},
+\code{\link{mtunion2}},
+\code{\link{mtunion3}},
+\code{\link{mtvet2}},
+\code{\link{mtvet3}},
+\code{\link{mtvet5}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

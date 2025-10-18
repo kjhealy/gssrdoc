@@ -38,6 +38,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Altruism
 #' 
 #' @keywords variable
 #' @md
@@ -84,6 +85,7 @@ NULL
 #'  |Total |4795 |100                   |119         |303          |1030                                   |872                   |2833                        |19         |18        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable
@@ -132,6 +134,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Altruism
 #' 
 #' @keywords variable
 #' @md
@@ -178,6 +181,7 @@ NULL
 #'  |Total |4795 |55                    |76          |250          |883                                    |817                   |3172                        |20         |21        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable
@@ -226,6 +230,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -273,6 +278,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -318,6 +324,7 @@ NULL
 #'  |Total |4795 |2269           |2490  |394                        |59       |36                |23         |23        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable
@@ -365,6 +372,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Altruism
 #' 
 #' @keywords variable
 #' @md
@@ -410,6 +418,7 @@ NULL
 #'  |Total |4795 |1260           |2841  |917                        |196      |33                |25         |22        |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable
@@ -457,6 +466,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
+#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable

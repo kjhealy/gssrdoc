@@ -45,6 +45,11 @@ Other Freedom:
 \code{\link{expunpop}},
 \code{\link{freeprss}},
 \code{\link{wlthpov}}
+
+Other Freedom: 
+\code{\link{expunpop}},
+\code{\link{freeprss}},
+\code{\link{wlthpov}}
 }
 \concept{Freedom}
 \keyword{variable}

@@ -57,6 +57,10 @@ Other ISSP Environment:
 \code{\link{scifaith}},
 \code{\link{scigrn}},
 \code{\link{sciworse}}
+
+Other United States: 
+\code{\link{postmat2}}
 }
 \concept{ISSP Environment}
+\concept{United States}
 \keyword{variable}

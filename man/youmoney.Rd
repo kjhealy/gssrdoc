@@ -49,6 +49,27 @@ Other Work Organizations:
 \code{\link{quantity}},
 \code{\link{totmoney}},
 \code{\link{wrkwell}}
+
+Other Job: 
+\code{\link{jobjudge}},
+\code{\link{orgmoney}},
+\code{\link{othduty5}},
+\code{\link{othduty6}},
+\code{\link{othduty7}},
+\code{\link{totmoney}}
+
+Other Work: 
+\code{\link{jobjudge}},
+\code{\link{orgmoney}},
+\code{\link{othduty5}},
+\code{\link{othduty6}},
+\code{\link{othduty7}},
+\code{\link{quality}},
+\code{\link{quantity}},
+\code{\link{totmoney}},
+\code{\link{wrkwell}}
 }
+\concept{Job}
+\concept{Work}
 \concept{Work Organizations}
 \keyword{variable}

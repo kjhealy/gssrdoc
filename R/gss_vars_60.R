@@ -42,6 +42,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Smoking
 #' 
 #' @keywords variable
 #' @md
@@ -85,6 +86,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Smoking
 #' 
 #' @keywords variable
 #' @md
@@ -124,6 +126,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Smoking
 #' 
 #' @keywords variable
 #' @md
@@ -175,6 +178,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Smoking
 #' 
 #' @keywords variable
 #' @md
@@ -216,6 +220,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Anomia
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -257,6 +263,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Anomia
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -298,6 +306,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Anomia
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -339,6 +349,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Anomia
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -393,6 +405,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Anomia
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -447,6 +461,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Anomia
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

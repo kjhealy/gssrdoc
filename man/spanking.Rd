@@ -74,5 +74,7 @@ Other Core:
 \code{\link{xmovie}},
 \code{\link{xmovie1}}
 }
+\concept{Children}
 \concept{Core}
+\concept{Violence}
 \keyword{variable}

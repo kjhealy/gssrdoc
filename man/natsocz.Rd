@@ -52,6 +52,30 @@ Other Core:
 \code{\link{natmassz}},
 \code{\link{natparkz}},
 \code{\link{natroadz}}
+
+Other Federal Government: 
+\code{\link{natmassz}},
+\code{\link{natparkz}},
+\code{\link{natroadz}}
+
+Other Spending: 
+\code{\link{natmassz}},
+\code{\link{natparkz}},
+\code{\link{natroadz}}
+
+Other Split Ballots: 
+\code{\link{natmassz}},
+\code{\link{natparkz}},
+\code{\link{natroadz}}
+
+Other United States: 
+\code{\link{natmassz}},
+\code{\link{natparkz}},
+\code{\link{natroadz}}
 }
 \concept{Core}
+\concept{Federal Government}
+\concept{Spending}
+\concept{Split Ballots}
+\concept{United States}
 \keyword{variable}

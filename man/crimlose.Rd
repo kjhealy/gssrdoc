@@ -52,5 +52,6 @@ Other ISSP Citizenship:
 \code{\link{polinter}},
 \code{\link{polnews}}
 }
+\concept{Democracy}
 \concept{ISSP Citizenship}
 \keyword{variable}

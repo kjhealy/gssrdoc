@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -78,6 +79,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
 #' @family Workplace Conflict
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -119,6 +121,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -165,6 +169,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -208,6 +213,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -251,6 +257,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -293,6 +300,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -336,6 +344,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
+#' @family Sex
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -377,6 +388,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -421,6 +434,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md

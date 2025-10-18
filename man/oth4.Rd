@@ -54,6 +54,18 @@ Other Negative Life Events:
 \code{\link{oth1}},
 \code{\link{oth2}},
 \code{\link{oth3}}
+
+Other Trauma: 
+\code{\link{law6}},
+\code{\link{law7}},
+\code{\link{live1}},
+\code{\link{live2}},
+\code{\link{live3}},
+\code{\link{live4}},
+\code{\link{oth1}},
+\code{\link{oth2}},
+\code{\link{oth3}}
 }
 \concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

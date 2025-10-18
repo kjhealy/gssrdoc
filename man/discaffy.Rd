@@ -51,6 +51,26 @@ Other Multiculturalism:
 \code{\link{schleth}},
 \code{\link{teacheth}},
 \code{\link{whoteach}}
+
+Other Affirmative Action: 
+\code{\link{colaff}},
+\code{\link{colaffy}},
+\code{\link{jobaff}}
+
+Other Blacks: 
+\code{\link{colaff}},
+\code{\link{colaffy}},
+\code{\link{jobaff}}
+
+Other Job: 
+\code{\link{jobaff}}
+
+Other Split Ballots: 
+\code{\link{colaff}}
 }
+\concept{Affirmative Action}
+\concept{Blacks}
+\concept{Job}
 \concept{Multiculturalism}
+\concept{Split Ballots}
 \keyword{variable}

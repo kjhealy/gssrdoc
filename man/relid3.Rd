@@ -54,6 +54,17 @@ Other Religious Attendance and Identity:
 \code{\link{relid2}},
 \code{\link{relidbst}},
 \code{\link{religid}}
+
+Other Religion: 
+\code{\link{attweek}},
+\code{\link{cathid}},
+\code{\link{charisma}},
+\code{\link{othrel3}},
+\code{\link{relid1}},
+\code{\link{relid2}},
+\code{\link{relidbst}},
+\code{\link{religid}}
 }
+\concept{Religion}
 \concept{Religious Attendance and Identity}
 \keyword{variable}

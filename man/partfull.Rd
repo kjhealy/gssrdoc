@@ -65,6 +65,14 @@ Other Core:
 \code{\link{socpars}},
 \code{\link{socsibs}},
 \code{\link{weekswrk}}
+
+Other Employment: 
+\code{\link{weekswrk}}
+
+Other Labor Force Status: 
+\code{\link{weekswrk}}
 }
 \concept{Core}
+\concept{Employment}
+\concept{Labor Force Status}
 \keyword{variable}

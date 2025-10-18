@@ -41,5 +41,18 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllll}{
 }
 }
 
+\seealso{
+Other Work: 
+\code{\link{architct}},
+\code{\link{cmprgmng}},
+\code{\link{engnring}},
+\code{\link{finlcoun}},
+\code{\link{fireftng}},
+\code{\link{lawenfrc}},
+\code{\link{marrcoun}},
+\code{\link{medtreat}},
+\code{\link{slsmnshp}}
+}
 \concept{Shared Capitalism}
+\concept{Work}
 \keyword{variable}

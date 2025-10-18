@@ -51,6 +51,12 @@ Other Religious Attendance and Identity:
 \code{\link{monday}},
 \code{\link{numdays}},
 \code{\link{sunday}}
+
+Other Life Events: 
+\code{\link{attrelig}},
+\code{\link{eatout}},
+\code{\link{godoc}}
 }
+\concept{Life Events}
 \concept{Religious Attendance and Identity}
 \keyword{variable}

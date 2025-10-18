@@ -54,6 +54,15 @@ Other Genes and the Environment:
 \code{\link{owndoing}},
 \code{\link{sadblue}},
 \code{\link{selfish}}
+
+Other Satisfaction: 
+\code{\link{athletic}},
+\code{\link{kindpers}},
+\code{\link{moregood}},
+\code{\link{owndoing}},
+\code{\link{sadblue}},
+\code{\link{selfish}}
 }
 \concept{Genes and the Environment}
+\concept{Satisfaction}
 \keyword{variable}

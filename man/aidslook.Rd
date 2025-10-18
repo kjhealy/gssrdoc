@@ -50,6 +50,13 @@ Other High Risk Behaviors:
 \code{\link{hivtest2}},
 \code{\link{idu30}},
 \code{\link{relatsex}}
+
+Other Health: 
+\code{\link{hivtest}},
+\code{\link{hivtest1}},
+\code{\link{hivtest2}}
 }
+\concept{Aids}
+\concept{Health}
 \concept{High Risk Behaviors}
 \keyword{variable}

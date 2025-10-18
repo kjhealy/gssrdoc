@@ -50,6 +50,18 @@ Other Doctors & Patients:
 \code{\link{fininc4}},
 \code{\link{hlthplan}},
 \code{\link{insrlmts}}
+
+Other Health: 
+\code{\link{belvedoc}},
+\code{\link{diffcare}},
+\code{\link{fininc}},
+\code{\link{fininc1}},
+\code{\link{fininc2}},
+\code{\link{fininc3}},
+\code{\link{fininc4}},
+\code{\link{hlthplan}},
+\code{\link{insrlmts}}
 }
 \concept{Doctors & Patients}
+\concept{Health}
 \keyword{variable}

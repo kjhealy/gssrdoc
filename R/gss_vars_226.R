@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name othmhneg
@@ -71,6 +72,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -111,6 +113,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mhtreatd
@@ -147,6 +150,7 @@ NULL
 #'  |Total |1175 |947  |199   |3          |24        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -187,6 +191,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mcsds2
@@ -223,6 +228,7 @@ NULL
 #'  |Total |1175 |782  |360   |5          |26        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -263,6 +269,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mcsds4
@@ -299,6 +306,7 @@ NULL
 #'  |Total |1175 |458  |684   |4          |27        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -339,6 +347,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mcsds6
@@ -375,6 +384,7 @@ NULL
 #'  |Total |1175 |363  |777   |6          |27        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

@@ -53,6 +53,11 @@ Other Core:
 \code{\link{pillok}},
 \code{\link{sexeduc}},
 \code{\link{teenpill}}
+
+Other Split Ballots: 
+\code{\link{abcare}}
 }
+\concept{Abortion}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

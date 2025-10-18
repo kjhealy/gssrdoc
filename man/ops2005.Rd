@@ -50,6 +50,25 @@ Other Shared Capitalism:
 \code{\link{slfmangd}},
 \code{\link{talkteam}},
 \code{\link{wealth}}
+
+Other Job: 
+\code{\link{emptrain}},
+\code{\link{esop}},
+\code{\link{extr2005}},
+\code{\link{numorg}}
+
+Other Work: 
+\code{\link{compwage}},
+\code{\link{empinput}},
+\code{\link{emptrain}},
+\code{\link{esop}},
+\code{\link{extr2005}},
+\code{\link{numorg}},
+\code{\link{slfmangd}},
+\code{\link{talkteam}},
+\code{\link{wealth}}
 }
+\concept{Job}
 \concept{Shared Capitalism}
+\concept{Work}
 \keyword{variable}

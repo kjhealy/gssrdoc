@@ -32,6 +32,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name yrpod
@@ -75,6 +76,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cvdlvmus
@@ -116,6 +118,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -159,6 +162,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cvdmov
@@ -200,6 +204,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -243,6 +248,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cvdrdg
@@ -284,6 +290,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -327,6 +334,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cvdstmus
@@ -369,6 +377,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cvdarmus
@@ -410,6 +419,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
+#' 
 #' 
 #' @keywords variable
 #' @md

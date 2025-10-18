@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -72,6 +73,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
+#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -114,6 +116,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
+#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -156,6 +159,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -198,6 +202,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -236,6 +241,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -274,6 +280,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -317,6 +324,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -360,6 +368,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -403,6 +412,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Doctors & Patients
+#' @family Health
 #' 
 #' @keywords variable
 #' @md

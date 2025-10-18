@@ -51,6 +51,36 @@ Other Core:
 \code{\link{jobpay}},
 \code{\link{jobpromo}},
 \code{\link{jobrise}}
+
+Other Job: 
+\code{\link{jobhonor}},
+\code{\link{jobhour}},
+\code{\link{jobmeans}},
+\code{\link{jobpay}},
+\code{\link{jobpromo}},
+\code{\link{jobrise}}
+
+Other Split Ballots: 
+\code{\link{jobhonor}},
+\code{\link{jobhour}},
+\code{\link{jobindep}},
+\code{\link{jobinter}},
+\code{\link{jobmeans}},
+\code{\link{joboff}},
+\code{\link{jobpay}},
+\code{\link{jobpromo}},
+\code{\link{jobrise}}
+
+Other Work: 
+\code{\link{jobhonor}},
+\code{\link{jobhour}},
+\code{\link{jobmeans}},
+\code{\link{jobpay}},
+\code{\link{jobpromo}},
+\code{\link{jobrise}}
 }
 \concept{Core}
+\concept{Job}
+\concept{Split Ballots}
+\concept{Work}
 \keyword{variable}

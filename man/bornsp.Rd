@@ -96,6 +96,20 @@ Other Global Economics:
 \code{\link{othplan}},
 \code{\link{typevisa}},
 \code{\link{visa}}
+
+Other Citizenship: 
+\code{\link{agecmeus}},
+\code{\link{typevisa}},
+\code{\link{visa}}
+
+Other Immigration: 
+\code{\link{agecmeus}},
+\code{\link{natdeg}},
+\code{\link{typevisa}},
+\code{\link{visa}}
 }
+\concept{Citizenship}
 \concept{Global Economics}
+\concept{Immigration}
+\concept{Nativity}
 \keyword{variable}

@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -73,6 +74,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -114,6 +116,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -155,6 +158,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -196,6 +200,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -237,6 +242,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -278,6 +284,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -317,6 +324,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name intuse
@@ -351,6 +359,7 @@ NULL
 #'  |Total |1483 |1    |1    |1    |2    |1    |3    |1    |4    |3    |4    |7    |7    |4    |4    |3    |41   |10   |28   |30   |34   |97   |65   |56   |95   |56   |154  |34   |33   |23   |27   |55   |52   |24   |36   |37   |79   |24   |39   |32   |36   |18   |8    |93         |22        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -390,6 +399,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
+#' 
 #' 
 #' @keywords variable
 #' @md

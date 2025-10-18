@@ -52,6 +52,16 @@ Other Work Orientation:
 \code{\link{nounemp2}},
 \code{\link{replaceu}},
 \code{\link{timeoff}}
+
+Other Job: 
+\code{\link{dailywrk}},
+\code{\link{famintjb}},
+\code{\link{jbintfam}},
+\code{\link{jobeasy}},
+\code{\link{newjob}},
+\code{\link{replaceu}},
+\code{\link{timeoff}}
 }
+\concept{Job}
 \concept{Work Orientation}
 \keyword{variable}

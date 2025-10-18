@@ -51,6 +51,23 @@ Other Gender:
 \code{\link{menhrt}},
 \code{\link{nooneben}},
 \code{\link{womenhrt}}
+
+Other Family: 
+\code{\link{allhrt}},
+\code{\link{chldhrt}},
+\code{\link{menhrt}},
+\code{\link{nooneben}},
+\code{\link{womenhrt}}
+
+Other Household: 
+\code{\link{allhrt}},
+\code{\link{chldhrt}},
+\code{\link{fekids1}},
+\code{\link{menhrt}},
+\code{\link{nooneben}},
+\code{\link{womenhrt}}
 }
+\concept{Family}
 \concept{Gender}
+\concept{Household}
 \keyword{variable}

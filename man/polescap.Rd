@@ -80,6 +80,14 @@ Other Core:
 \code{\link{rifle}},
 \code{\link{robbry}},
 \code{\link{shotgun}}
+
+Other Police: 
+\code{\link{polattak}}
+
+Other Violence: 
+\code{\link{polattak}}
 }
 \concept{Core}
+\concept{Police}
+\concept{Violence}
 \keyword{variable}

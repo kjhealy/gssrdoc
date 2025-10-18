@@ -51,6 +51,10 @@ Other Core:
 \code{\link{racopnow}},
 \code{\link{racparty}},
 \code{\link{ractrust}}
+
+Other Opportunity: 
+\code{\link{racopnow}}
 }
 \concept{Core}
+\concept{Opportunity}
 \keyword{variable}

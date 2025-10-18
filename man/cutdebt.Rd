@@ -53,4 +53,5 @@ Other ISSP Role of Gov't:
 \code{\link{helpsec}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Spending}
 \keyword{variable}

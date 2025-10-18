@@ -51,6 +51,17 @@ Other Work Organizations:
 \code{\link{orgfin}},
 \code{\link{totunemp}},
 \code{\link{wrkyears}}
+
+Other Employment: 
+\code{\link{empyears}},
+\code{\link{evunemp}},
+\code{\link{fndjob1}},
+\code{\link{fndjob3}},
+\code{\link{fndjob4}},
+\code{\link{numunemp}},
+\code{\link{totunemp}},
+\code{\link{wrkyears}}
 }
+\concept{Employment}
 \concept{Work Organizations}
 \keyword{variable}

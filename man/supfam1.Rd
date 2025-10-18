@@ -50,6 +50,17 @@ Other Adult Transitions:
 \code{\link{protest}},
 \code{\link{signpet}},
 \code{\link{supfam}}
+
+Other Adult Transitions: 
+\code{\link{boycott}},
+\code{\link{conoffcl}},
+\code{\link{getmar}},
+\code{\link{getmar1}},
+\code{\link{havchld}},
+\code{\link{havchld1}},
+\code{\link{protest}},
+\code{\link{signpet}},
+\code{\link{supfam}}
 }
 \concept{Adult Transitions}
 \keyword{variable}

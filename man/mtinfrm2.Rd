@@ -51,6 +51,12 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{mtinfrm3}},
 \code{\link{mtinfrm4}},
 \code{\link{mtinfrm5}}
+
+Other Voluntary Associations: 
+\code{\link{mtinfrm3}},
+\code{\link{mtinfrm4}},
+\code{\link{mtinfrm5}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

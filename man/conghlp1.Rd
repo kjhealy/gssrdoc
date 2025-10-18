@@ -52,6 +52,22 @@ Other Religion and Culture:
 \code{\link{cope4}},
 \code{\link{meditate}},
 \code{\link{privpray}}
+
+Other Religion: 
+\code{\link{conghlp2}},
+\code{\link{conghrm1}},
+\code{\link{conghrm2}},
+\code{\link{cope1}},
+\code{\link{cope2}},
+\code{\link{cope3}},
+\code{\link{cope4}},
+\code{\link{meditate}},
+\code{\link{privpray}}
+
+Other Social Networks: 
+\code{\link{conghlp2}}
 }
+\concept{Religion}
 \concept{Religion and Culture}
+\concept{Social Networks}
 \keyword{variable}

@@ -50,6 +50,18 @@ Other Emotions:
 \code{\link{ovrjoyed}},
 \code{\link{restless}},
 \code{\link{worried}}
+
+Other Feelings: 
+\code{\link{anxious}},
+\code{\link{atease}},
+\code{\link{contentd}},
+\code{\link{excited}},
+\code{\link{fearful}},
+\code{\link{madat}},
+\code{\link{ovrjoyed}},
+\code{\link{restless}},
+\code{\link{worried}}
 }
 \concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

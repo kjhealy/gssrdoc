@@ -44,6 +44,10 @@ Other Information Society:
 \code{\link{jobinfo}},
 \code{\link{jobpaper}},
 \code{\link{numprobs}}
+
+Other Family: 
+\code{\link{numprobs}}
 }
+\concept{Family}
 \concept{Information Society}
 \keyword{variable}

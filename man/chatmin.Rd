@@ -50,6 +50,18 @@ Other Information Society:
 \code{\link{usewww}},
 \code{\link{wwwhr}},
 \code{\link{wwwmin}}
+
+Other Computers And Internet: 
+\code{\link{chathr}},
+\code{\link{drctlink}},
+\code{\link{emailhr}},
+\code{\link{emailmin}},
+\code{\link{srcheng}},
+\code{\link{typeurl}},
+\code{\link{usewww}},
+\code{\link{wwwhr}},
+\code{\link{wwwmin}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

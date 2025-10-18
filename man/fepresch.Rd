@@ -77,6 +77,12 @@ Other Core:
 \code{\link{fechld}},
 \code{\link{fefam}},
 \code{\link{fehelp}}
+
+Other Women: 
+\code{\link{fechld}},
+\code{\link{fefam}},
+\code{\link{fehelp}}
 }
 \concept{Core}
+\concept{Women}
 \keyword{variable}

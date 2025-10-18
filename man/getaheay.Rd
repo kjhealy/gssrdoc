@@ -46,4 +46,6 @@ Other Misc I:
 \code{\link{newsprnt}}
 }
 \concept{Misc I}
+\concept{Social Mobility}
+\concept{Work}
 \keyword{variable}

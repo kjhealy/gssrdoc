@@ -53,6 +53,18 @@ Other Religious Attendance and Identity:
 \code{\link{thursday}},
 \code{\link{tuesday}},
 \code{\link{wednesdy}}
+
+Other Religion: 
+\code{\link{attreg}},
+\code{\link{friday}},
+\code{\link{othrel}},
+\code{\link{othrel1}},
+\code{\link{othrel2}},
+\code{\link{saturday}},
+\code{\link{thursday}},
+\code{\link{tuesday}},
+\code{\link{wednesdy}}
 }
+\concept{Religion}
 \concept{Religious Attendance and Identity}
 \keyword{variable}

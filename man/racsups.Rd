@@ -51,6 +51,18 @@ Other Core:
 \code{\link{racmarpr}},
 \code{\link{racquit}},
 \code{\link{racteach}}
+
+Other Race: 
+\code{\link{racavoid}},
+\code{\link{racchng}},
+\code{\link{racdif1}},
+\code{\link{racdif2}},
+\code{\link{racdif3}},
+\code{\link{racmarel}},
+\code{\link{racmarpr}},
+\code{\link{racquit}},
+\code{\link{racteach}}
 }
 \concept{Core}
+\concept{Race}
 \keyword{variable}

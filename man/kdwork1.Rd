@@ -50,6 +50,22 @@ Other Family Mobility:
 \code{\link{kdeduc9}},
 \code{\link{kdpicked}},
 \code{\link{kdwork2}}
+
+Other Children: 
+\code{\link{kdeduc3}},
+\code{\link{kdeduc4}},
+\code{\link{kdeduc5}},
+\code{\link{kdeduc6}},
+\code{\link{kdeduc7}},
+\code{\link{kdeduc8}},
+\code{\link{kdeduc9}},
+\code{\link{kdpicked}},
+\code{\link{kdwork2}}
+
+Other Labor Force Status: 
+\code{\link{kdwork2}}
 }
+\concept{Children}
 \concept{Family Mobility}
+\concept{Labor Force Status}
 \keyword{variable}

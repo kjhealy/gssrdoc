@@ -52,6 +52,17 @@ Other Gender:
 \code{\link{sphmewrk}},
 \code{\link{tradmod}},
 \code{\link{willwed1}}
+
+Other Marriage: 
+\code{\link{emoteoth}},
+\code{\link{sharesep}},
+\code{\link{tradmod}},
+\code{\link{willwed1}}
+
+Other Romantic Relationships: 
+\code{\link{willwed1}}
 }
 \concept{Gender}
+\concept{Marriage}
+\concept{Romantic Relationships}
 \keyword{variable}

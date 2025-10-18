@@ -84,4 +84,5 @@ Other Core:
 \code{\link{radiohrs}}
 }
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

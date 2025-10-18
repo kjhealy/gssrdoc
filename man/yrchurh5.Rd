@@ -49,6 +49,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{yrother2}},
 \code{\link{yrother3}},
 \code{\link{yrprof6}}
+
+Other Voluntary Associations: 
+\code{\link{yrchurh1}},
+\code{\link{yrchurh2}},
+\code{\link{yrchurh3}},
+\code{\link{yrchurh4}},
+\code{\link{yrchurh6}},
+\code{\link{yrother1}},
+\code{\link{yrother2}},
+\code{\link{yrother3}},
+\code{\link{yrprof6}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

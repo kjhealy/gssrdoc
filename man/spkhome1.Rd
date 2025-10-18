@@ -111,6 +111,13 @@ Other ISSP National Identity:
 \code{\link{spklang1}},
 \code{\link{spklang2}},
 \code{\link{spklang3}}
+
+Other Language: 
+\code{\link{spkhome2}},
+\code{\link{spklang1}},
+\code{\link{spklang2}},
+\code{\link{spklang3}}
 }
 \concept{ISSP National Identity}
+\concept{Language}
 \keyword{variable}

@@ -50,6 +50,14 @@ Other Family Mobility:
 \code{\link{kdocctag}},
 \code{\link{kdpres80}},
 \code{\link{kdwrkslf}}
+
+Other Children: 
+\code{\link{kdind80}},
+\code{\link{kdocc80}},
+\code{\link{kdpres80}},
+\code{\link{kdwrkslf}}
 }
+\concept{Children}
 \concept{Family Mobility}
+\concept{Labor Force Status}
 \keyword{variable}

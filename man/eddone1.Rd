@@ -48,6 +48,10 @@ Other Adult Transitions:
 \code{\link{ftwork1}},
 \code{\link{ownhh}},
 \code{\link{ownhh1}}
+
+Other Education: 
+\code{\link{eddone}}
 }
 \concept{Adult Transitions}
+\concept{Education}
 \keyword{variable}

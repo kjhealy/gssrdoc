@@ -53,6 +53,10 @@ Other Core:
 \code{\link{world5}},
 \code{\link{world6}},
 \code{\link{world7}}
+
+Other Political: 
+\code{\link{contemp}}
 }
 \concept{Core}
+\concept{Political}
 \keyword{variable}

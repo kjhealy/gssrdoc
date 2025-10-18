@@ -51,6 +51,20 @@ Other ISSP Religion:
 \code{\link{relcand}},
 \code{\link{relext1}},
 \code{\link{relmarry}}
+
+Other Civil Liberties: 
+\code{\link{relext1}}
+
+Other Religion: 
+\code{\link{ancestrs}},
+\code{\link{mywaygod}},
+\code{\link{nirvana}},
+\code{\link{reincar}},
+\code{\link{relcand}},
+\code{\link{relext1}},
+\code{\link{relmarry}}
 }
+\concept{Civil Liberties}
 \concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

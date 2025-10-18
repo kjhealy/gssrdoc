@@ -49,6 +49,12 @@ Other Family Mobility:
 \code{\link{spmarnum}},
 \code{\link{sppaeduc}},
 \code{\link{spyrborn}}
+
+Other Education: 
+\code{\link{fstspped}},
+\code{\link{spmaeduc}},
+\code{\link{sppaeduc}}
 }
+\concept{Education}
 \concept{Family Mobility}
 \keyword{variable}

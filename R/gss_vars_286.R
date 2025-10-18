@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name intrecnt
@@ -66,6 +67,7 @@ NULL
 #'  |Total |1903 |317                |623               |2          |22        |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -107,6 +109,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name twitter
@@ -145,6 +148,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -185,6 +189,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name instagrm
@@ -223,6 +228,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -263,6 +269,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name snapchat
@@ -301,6 +308,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -341,6 +349,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name whatsapp
@@ -379,6 +388,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
+#' 
 #' 
 #' @keywords variable
 #' @md

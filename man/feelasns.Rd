@@ -49,5 +49,6 @@ Other Prejudice:
 \code{\link{feelblks}},
 \code{\link{feelhsps}}
 }
+\concept{Asian Americans}
 \concept{Prejudice}
 \keyword{variable}

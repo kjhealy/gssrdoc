@@ -51,6 +51,12 @@ Other Multi-Ethnic United States:
 \code{\link{hispcom}},
 \code{\link{hispwrk}},
 \code{\link{mostcom}}
+
+Other Hispanics: 
+\code{\link{hispcls}},
+\code{\link{hispcom}},
+\code{\link{hispwrk}}
 }
+\concept{Hispanics}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

@@ -60,4 +60,5 @@ Other ISSP Role of Gov't:
 \code{\link{unionsok}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Political}
 \keyword{variable}

@@ -54,6 +54,19 @@ Other Number Known:
 \code{\link{acqvapri}},
 \code{\link{acqvaune}},
 \code{\link{acqvawht}}
+
+Other Social Networks: 
+\code{\link{acqvaasn}},
+\code{\link{acqvablk}},
+\code{\link{acqvagay}},
+\code{\link{acqvago}},
+\code{\link{acqvahme}},
+\code{\link{acqvano}},
+\code{\link{acqvapri}},
+\code{\link{acqvaune}},
+\code{\link{acqvawht}}
 }
+\concept{Hispanics}
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

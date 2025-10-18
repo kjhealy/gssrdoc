@@ -47,5 +47,6 @@ Other Social Networks:
 \code{\link{talkpol}},
 \code{\link{talkpol3}}
 }
+\concept{Friends}
 \concept{Social Networks}
 \keyword{variable}

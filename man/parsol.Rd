@@ -69,4 +69,6 @@ Other Core:
 \code{\link{wksups1}}
 }
 \concept{Core}
+\concept{Parents}
+\concept{Social Mobility}
 \keyword{variable}

@@ -49,4 +49,5 @@ Other Culture:
 \code{\link{standup}}
 }
 \concept{Culture}
+\concept{Inequality, Income}
 \keyword{variable}

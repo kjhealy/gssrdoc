@@ -53,6 +53,17 @@ Other Quality of Working Life:
 \code{\link{spvtrfair}},
 \code{\link{strredpg}},
 \code{\link{usedup}}
+
+Other Health: 
+\code{\link{backpain}},
+\code{\link{painarms}},
+\code{\link{physhlth}},
+\code{\link{usedup}}
+
+Other Mental Health: 
+\code{\link{mntlhlth}}
 }
+\concept{Health}
+\concept{Mental Health}
 \concept{Quality of Working Life}
 \keyword{variable}

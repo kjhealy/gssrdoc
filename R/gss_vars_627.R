@@ -31,6 +31,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name absingleg
@@ -68,6 +69,7 @@ NULL
 #'  |Total |5133 |1649 |718 |30             |35         |11        |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -111,6 +113,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name suicide2g
@@ -148,6 +151,7 @@ NULL
 #'  |Total |5133 |300 |2059 |57             |18         |9         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -189,6 +193,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name suicide4g
@@ -226,6 +231,7 @@ NULL
 #'  |Total |48  |6153 |1296 |46         |26             |7         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -267,6 +273,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name paborn
@@ -304,6 +311,7 @@ NULL
 #'  |Total |79  |3355 |4092   |33         |16             |1         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -347,6 +355,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sexnow1
@@ -386,6 +395,7 @@ NULL
 #'  |Total |2029 |345            |480   |405                        |305      |263               |55           |135       |15             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

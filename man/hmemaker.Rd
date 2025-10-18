@@ -52,6 +52,18 @@ Other Gender:
 \code{\link{fenews}},
 \code{\link{mebear}},
 \code{\link{wrkclass}}
+
+Other Women: 
+\code{\link{fehire}},
+\code{\link{fekids2}},
+\code{\link{fekids3}},
+\code{\link{fekids4}},
+\code{\link{fekids5}},
+\code{\link{feminist}},
+\code{\link{fenews}},
+\code{\link{mebear}},
+\code{\link{wrkclass}}
 }
 \concept{Gender}
+\concept{Women}
 \keyword{variable}

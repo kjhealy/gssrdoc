@@ -63,6 +63,11 @@ Other Intergroup Relations:
 \code{\link{marso}},
 \code{\link{marwht}},
 \code{\link{workfare}}
+
+Other Whites: 
+\code{\link{marno}},
+\code{\link{marwht}}
 }
 \concept{Intergroup Relations}
+\concept{Whites}
 \keyword{variable}

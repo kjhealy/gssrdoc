@@ -56,6 +56,12 @@ Other ISSP Family & Gender Roles:
 \code{\link{repairs}},
 \code{\link{sexhar}},
 \code{\link{teensex1}}
+
+Other Household: 
+\code{\link{fambudgt}},
+\code{\link{laundry}},
+\code{\link{repairs}}
 }
+\concept{Household}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

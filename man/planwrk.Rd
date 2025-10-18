@@ -51,6 +51,17 @@ Other Work Orientation:
 \code{\link{stress}},
 \code{\link{unhlthy}},
 \code{\link{unpleznt}}
+
+Other Job: 
+\code{\link{boredom}},
+\code{\link{bossemps}},
+\code{\link{cowrkers}},
+\code{\link{danger}},
+\code{\link{jobsat}},
+\code{\link{stress}},
+\code{\link{unhlthy}},
+\code{\link{unpleznt}}
 }
+\concept{Job}
 \concept{Work Orientation}
 \keyword{variable}

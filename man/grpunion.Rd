@@ -53,6 +53,12 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{grppol}},
 \code{\link{grpsport}},
 \code{\link{neifrd}}
+
+Other Voluntary Associations: 
+\code{\link{grpchurh}},
+\code{\link{grppol}},
+\code{\link{grpsport}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Voluntary Associations}
 \keyword{variable}

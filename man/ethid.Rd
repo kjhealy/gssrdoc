@@ -42,5 +42,6 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
+\concept{Ethnicity}
 \concept{Multiculturalism}
 \keyword{variable}

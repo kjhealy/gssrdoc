@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Life Aspects, Importance Of
 #' 
 #' @keywords variable
 #' @md
@@ -70,6 +71,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Privacy
 #' 
 #' @keywords variable
 #' @md
@@ -110,6 +112,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -156,6 +159,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' @family Gender
+#' @family Time
 #' 
 #' @keywords variable
 #' @md
@@ -200,6 +204,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Time
 #' 
 #' @keywords variable
 #' @md
@@ -241,6 +246,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name stresswk
@@ -279,6 +285,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Surveys
 #' 
 #' @keywords variable
 #' @md
@@ -319,6 +326,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Surveys
 #' 
 #' @keywords variable
 #' @md
@@ -362,6 +370,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -404,6 +414,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

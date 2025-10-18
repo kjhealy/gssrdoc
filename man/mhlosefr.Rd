@@ -53,6 +53,18 @@ Other Mental Health IV:
 \code{\link{mhoutsdr}},
 \code{\link{mhuneasy}},
 \code{\link{mhunsure}}
+
+Other Mental Health: 
+\code{\link{mhdecslf}},
+\code{\link{mhimptrt}},
+\code{\link{mhintl}},
+\code{\link{mhlessop}},
+\code{\link{mhmoney}},
+\code{\link{mhnotpol}},
+\code{\link{mhoutsdr}},
+\code{\link{mhuneasy}},
+\code{\link{mhunsure}}
 }
+\concept{Mental Health}
 \concept{Mental Health IV}
 \keyword{variable}

@@ -51,6 +51,26 @@ Other Multiculturalism:
 \code{\link{schleth}},
 \code{\link{teacheth}},
 \code{\link{whoteach}}
+
+Other Affirmative Action: 
+\code{\link{colaff}},
+\code{\link{discaffy}},
+\code{\link{jobaff}}
+
+Other Blacks: 
+\code{\link{colaff}},
+\code{\link{discaffy}},
+\code{\link{jobaff}}
+
+Other Education: 
+\code{\link{colaff}},
+\code{\link{ethhist}},
+\code{\link{schleth}},
+\code{\link{teacheth}},
+\code{\link{whoteach}}
 }
+\concept{Affirmative Action}
+\concept{Blacks}
+\concept{Education}
 \concept{Multiculturalism}
 \keyword{variable}

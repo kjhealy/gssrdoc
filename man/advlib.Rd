@@ -52,6 +52,15 @@ Other Information Society:
 \code{\link{srcheng1}},
 \code{\link{srcheng2}},
 \code{\link{upload}}
+
+Other Computers And Internet: 
+\code{\link{advofrnd}},
+\code{\link{cmpvirus}},
+\code{\link{download}},
+\code{\link{srcheng1}},
+\code{\link{srcheng2}},
+\code{\link{upload}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

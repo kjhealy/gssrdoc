@@ -29,6 +29,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Flexible Work
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name leasthrs
@@ -70,6 +71,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Flexible Work
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -114,6 +116,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Flexible Work
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -160,6 +163,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -201,6 +205,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Employment
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -254,6 +261,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Employment
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -301,6 +310,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Employment
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -342,6 +354,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Employment
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -385,6 +399,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Employment
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -430,6 +446,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Employment
+#' @family Job
 #' 
 #' @keywords variable
 #' @md

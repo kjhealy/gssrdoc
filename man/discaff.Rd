@@ -74,7 +74,22 @@ Other Multiculturalism:
 \code{\link{discwhy4}},
 \code{\link{discwhy5}},
 \code{\link{discwhy6}}
+
+Other Affirmative Action: 
+\code{\link{affact}}
+
+Other Blacks: 
+\code{\link{discwhy1}},
+\code{\link{discwhy2}},
+\code{\link{discwhy3}},
+\code{\link{discwhy4}},
+\code{\link{discwhy5}},
+\code{\link{discwhy6}}
 }
+\concept{Affirmative Action}
+\concept{Blacks}
 \concept{Intergroup Relations}
+\concept{Job}
 \concept{Multiculturalism}
+\concept{Split Ballots}
 \keyword{variable}

@@ -52,6 +52,12 @@ Other ISSP Role of Gov't:
 \code{\link{rprtst3}},
 \code{\link{rprtst35}},
 \code{\link{unionsok}}
+
+Other Protest: 
+\code{\link{rprtst1}},
+\code{\link{rprtst3}},
+\code{\link{rprtst35}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Protest}
 \keyword{variable}

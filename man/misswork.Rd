@@ -43,6 +43,15 @@ Counts by year:\tabular{llllllllllllllllllllllllllll}{
 Other Quality of Working Life: 
 \code{\link{height}},
 \code{\link{ntwkhard}}
+
+Other Health: 
+\code{\link{height}}
+
+Other Job: 
+\code{\link{ntwkhard}}
 }
+\concept{Health}
+\concept{Job}
+\concept{Mental Health}
 \concept{Quality of Working Life}
 \keyword{variable}

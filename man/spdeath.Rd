@@ -64,6 +64,10 @@ Other Core:
 \code{\link{tratot5}},
 \code{\link{trauma1}},
 \code{\link{trauma5}}
+
+Other Family: 
+\code{\link{sibdeath}}
 }
 \concept{Core}
+\concept{Family}
 \keyword{variable}

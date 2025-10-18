@@ -53,4 +53,5 @@ Other Core:
 \code{\link{stresswk}}
 }
 \concept{Core}
+\concept{Life Aspects, Importance Of}
 \keyword{variable}

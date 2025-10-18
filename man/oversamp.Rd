@@ -40,6 +40,10 @@ Other Sampling and Weights:
 \code{\link{spaneng}},
 \code{\link{spanint}},
 \code{\link{spanself}}
+
+Other Sample: 
+\code{\link{phase}}
 }
+\concept{Sample}
 \concept{Sampling and Weights}
 \keyword{variable}

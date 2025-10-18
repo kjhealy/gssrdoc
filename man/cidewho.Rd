@@ -58,6 +58,16 @@ Other Victims & AIDS:
 \code{\link{cidesex}},
 \code{\link{cidesex2}},
 \code{\link{cidewho2}}
+
+Other Homicide: 
+\code{\link{cideage}},
+\code{\link{cideknew}},
+\code{\link{ciderace}},
+\code{\link{cidereg}},
+\code{\link{cidesex}},
+\code{\link{cidesex2}},
+\code{\link{cidewho2}}
 }
+\concept{Homicide}
 \concept{Victims & AIDS}
 \keyword{variable}

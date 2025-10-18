@@ -65,6 +65,11 @@ Other Core:
 \code{\link{prowar}},
 \code{\link{school}},
 \code{\link{strike}}
+
+Other Violence: 
+\code{\link{hitage}},
+\code{\link{hitnum}}
 }
 \concept{Core}
+\concept{Violence}
 \keyword{variable}

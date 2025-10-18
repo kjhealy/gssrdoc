@@ -56,6 +56,10 @@ Other ISSP Family & Gender Roles:
 \code{\link{paidlv}},
 \code{\link{paidlvdv}},
 \code{\link{paidlvpy}}
+
+Other Family: 
+\code{\link{famwklst}}
 }
+\concept{Family}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

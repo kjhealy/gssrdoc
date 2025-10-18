@@ -52,6 +52,31 @@ Other Core:
 \code{\link{conmedic}},
 \code{\link{consci}},
 \code{\link{contv}}
+
+Other Confidence: 
+\code{\link{conarmy}},
+\code{\link{conbusy}},
+\code{\link{coneducy}},
+\code{\link{confinay}},
+\code{\link{conjudge}},
+\code{\link{conlegis}},
+\code{\link{conmedic}},
+\code{\link{consci}},
+\code{\link{contv}}
+
+Other Split Ballots: 
+\code{\link{conarmy}},
+\code{\link{conbusy}},
+\code{\link{coneducy}},
+\code{\link{confinay}},
+\code{\link{conjudge}},
+\code{\link{conlegis}},
+\code{\link{conmedic}},
+\code{\link{consci}},
+\code{\link{contv}}
 }
+\concept{Confidence}
 \concept{Core}
+\concept{Religion}
+\concept{Split Ballots}
 \keyword{variable}

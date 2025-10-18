@@ -50,6 +50,14 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{mtinfrm3}},
 \code{\link{mtinfrm4}},
 \code{\link{mtinfrm5}}
+
+Other Social Networks: 
+\code{\link{frstmet1}},
+\code{\link{grpboth2}},
+\code{\link{grpboth3}},
+\code{\link{grpboth4}},
+\code{\link{grpboth5}}
 }
+\concept{Social Networks}
 \concept{Voluntary Assocations/Social Networks}
 \keyword{variable}

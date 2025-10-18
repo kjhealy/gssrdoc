@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Art/The Arts (And Literature)
 #' 
 #' @keywords variable
 #' @md
@@ -73,6 +74,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Sociability
 #' 
 #' @keywords variable
 #' @md
@@ -117,6 +119,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Friends
 #' 
 #' @keywords variable
 #' @md
@@ -161,6 +164,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Friends
 #' 
 #' @keywords variable
 #' @md
@@ -205,6 +209,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Friends
 #' 
 #' @keywords variable
 #' @md
@@ -249,6 +254,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Friends
 #' 
 #' @keywords variable
 #' @md
@@ -293,6 +299,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Friends
 #' 
 #' @keywords variable
 #' @md
@@ -337,6 +344,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Friends
 #' 
 #' @keywords variable
 #' @md
@@ -381,6 +389,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Friends
 #' 
 #' @keywords variable
 #' @md
@@ -423,6 +432,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Income
+#' @family Poverty
+#' @family Values
 #' 
 #' @keywords variable
 #' @md

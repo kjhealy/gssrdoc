@@ -57,6 +57,11 @@ Other ISSP Role of Gov't:
 \code{\link{pubdef}},
 \code{\link{pubecon}},
 \code{\link{ratetone}}
+
+Other Authority: 
+\code{\link{pubdef}},
+\code{\link{pubecon}}
 }
+\concept{Authority}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

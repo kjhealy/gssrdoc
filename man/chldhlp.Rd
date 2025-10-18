@@ -65,6 +65,14 @@ Other Mental Health II:
 \code{\link{chldprob}},
 \code{\link{chldvig}},
 \code{\link{stressfl}}
+
+Other Children: 
+\code{\link{badchar}},
+\code{\link{chembal}},
+\code{\link{chldprob}},
+\code{\link{chldvig}},
+\code{\link{stressfl}}
 }
+\concept{Children}
 \concept{Mental Health II}
 \keyword{variable}

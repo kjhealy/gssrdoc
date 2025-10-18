@@ -73,6 +73,16 @@ Other Core:
 \code{\link{sathobby}},
 \code{\link{trust}},
 \code{\link{trusty}}
+
+Other Satisfaction: 
+\code{\link{sathobby}}
+
+Other Split Ballots: 
+\code{\link{sathobby}},
+\code{\link{trust}},
+\code{\link{trusty}}
 }
 \concept{Core}
+\concept{Satisfaction}
+\concept{Split Ballots}
 \keyword{variable}

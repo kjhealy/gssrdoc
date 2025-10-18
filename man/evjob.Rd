@@ -54,6 +54,16 @@ Other Work Orientation:
 \code{\link{whyjbend}},
 \code{\link{worryjob}},
 \code{\link{yrjobend}}
+
+Other Unemployment: 
+\code{\link{getjob}},
+\code{\link{lookjob}},
+\code{\link{priagncy}},
+\code{\link{pubagncy}},
+\code{\link{wantjob2}},
+\code{\link{whyjbend}},
+\code{\link{yrjobend}}
 }
+\concept{Unemployment}
 \concept{Work Orientation}
 \keyword{variable}

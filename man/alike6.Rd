@@ -52,6 +52,22 @@ Other Family Mobility:
 \code{\link{fstspedc}},
 \code{\link{fstspyr}},
 \code{\link{marnum}}
+
+Other Knowledge: 
+\code{\link{alike3}},
+\code{\link{alike4}},
+\code{\link{alike5}},
+\code{\link{alike7}},
+\code{\link{alike8}}
+
+Other Reasoning Abilities: 
+\code{\link{alike3}},
+\code{\link{alike4}},
+\code{\link{alike5}},
+\code{\link{alike7}},
+\code{\link{alike8}}
 }
 \concept{Family Mobility}
+\concept{Knowledge}
+\concept{Reasoning Abilities}
 \keyword{variable}

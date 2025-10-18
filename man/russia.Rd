@@ -69,6 +69,12 @@ Other War and International:
 \code{\link{usun}},
 \code{\link{uswar}},
 \code{\link{uswary}}
+
+Other Split Ballots: 
+\code{\link{uswar}},
+\code{\link{uswary}}
 }
+\concept{Countries}
+\concept{Split Ballots}
 \concept{War and International}
 \keyword{variable}

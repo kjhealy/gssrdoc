@@ -45,6 +45,12 @@ Other Jobs:
 \code{\link{occtrain}},
 \code{\link{occyrs}},
 \code{\link{trainsch}}
+
+Other Job: 
+\code{\link{occtrain}},
+\code{\link{occyrs}},
+\code{\link{trainsch}}
 }
+\concept{Job}
 \concept{Jobs}
 \keyword{variable}

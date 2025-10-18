@@ -71,4 +71,5 @@ Other Intergroup Relations:
 \code{\link{wlthjews}}
 }
 \concept{Intergroup Relations}
+\concept{Whites}
 \keyword{variable}

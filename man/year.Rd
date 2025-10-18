@@ -39,6 +39,11 @@ Other Core:
 \code{\link{wrkgovt}},
 \code{\link{wrkslf}},
 \code{\link{wrkstat}}
+
+Other Interview: 
+\code{\link{id}()}
 }
 \concept{Core}
+\concept{Date Of Interview}
+\concept{Interview}
 \keyword{variable}

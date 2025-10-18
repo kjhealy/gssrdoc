@@ -79,6 +79,22 @@ Other Core:
 \code{\link{hitrobbr}},
 \code{\link{polabuse}},
 \code{\link{polmurdr}}
+
+Other Police: 
+\code{\link{polabuse}},
+\code{\link{polmurdr}}
+
+Other Violence: 
+\code{\link{hitbeatr}},
+\code{\link{hitchild}},
+\code{\link{hitdrunk}},
+\code{\link{hitmarch}},
+\code{\link{hitok}},
+\code{\link{hitrobbr}},
+\code{\link{polabuse}},
+\code{\link{polmurdr}}
 }
 \concept{Core}
+\concept{Police}
+\concept{Violence}
 \keyword{variable}

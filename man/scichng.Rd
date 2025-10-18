@@ -46,6 +46,12 @@ Other Religion:
 \code{\link{scipry}},
 \code{\link{scisolve}},
 \code{\link{switched}}
+
+Other Science: 
+\code{\link{scimoral}},
+\code{\link{scipry}},
+\code{\link{scisolve}}
 }
 \concept{Religion}
+\concept{Science}
 \keyword{variable}

@@ -52,6 +52,13 @@ Other Information Society:
 \code{\link{polmag1}},
 \code{\link{polmag2}},
 \code{\link{poltv}}
+
+Other Political: 
+\code{\link{polinfo}},
+\code{\link{polmag1}},
+\code{\link{polmag2}},
+\code{\link{poltv}}
 }
 \concept{Information Society}
+\concept{Political}
 \keyword{variable}

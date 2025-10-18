@@ -42,6 +42,10 @@ Counts by year:\tabular{lllllll}{
 \seealso{
 Other Misc I: 
 \code{\link{spnatdis}}
+
+Other Federal Government: 
+\code{\link{spnatdis}}
 }
+\concept{Federal Government}
 \concept{Misc I}
 \keyword{variable}

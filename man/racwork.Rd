@@ -71,4 +71,5 @@ Other Intergroup Relations:
 \code{\link{influso}}
 }
 \concept{Intergroup Relations}
+\concept{Race}
 \keyword{variable}

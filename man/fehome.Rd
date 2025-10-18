@@ -66,6 +66,17 @@ Other Core:
 \code{\link{fepres}},
 \code{\link{fework}},
 \code{\link{kidssol}}
+
+Other Women: 
+\code{\link{fecare}},
+\code{\link{fefirm}},
+\code{\link{feimp}},
+\code{\link{feinfo}},
+\code{\link{fepol}},
+\code{\link{fepoly}},
+\code{\link{fepres}},
+\code{\link{fework}}
 }
 \concept{Core}
+\concept{Women}
 \keyword{variable}

@@ -38,6 +38,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -85,6 +87,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -132,6 +136,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -179,6 +185,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -226,6 +234,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -269,6 +279,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -312,6 +323,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -355,6 +368,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -398,6 +413,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -441,6 +458,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Children
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

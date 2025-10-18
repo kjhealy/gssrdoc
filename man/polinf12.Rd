@@ -52,6 +52,18 @@ Other Information Society:
 \code{\link{newjob12}},
 \code{\link{people12}},
 \code{\link{travel12}}
+
+Other Computers And Internet: 
+\code{\link{abort12}},
+\code{\link{chat12}},
+\code{\link{econ12}},
+\code{\link{game12}},
+\code{\link{health12}},
+\code{\link{locate12}},
+\code{\link{newjob12}},
+\code{\link{people12}},
+\code{\link{travel12}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

@@ -52,6 +52,14 @@ Other Core:
 \code{\link{impkin}},
 \code{\link{imprelax}},
 \code{\link{impwork}}
+
+Other Federal Government: 
+\code{\link{cutspdfg}}
+
+Other Spending: 
+\code{\link{cutspdfg}}
 }
 \concept{Core}
+\concept{Federal Government}
+\concept{Spending}
 \keyword{variable}

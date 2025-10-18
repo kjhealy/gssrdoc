@@ -53,6 +53,14 @@ Other Science Knowledge & Attitudes:
 \code{\link{nanowill}},
 \code{\link{noicecap}},
 \code{\link{sealevel}}
+
+Other Environment: 
+\code{\link{artseals}},
+\code{\link{caremost}},
+\code{\link{inuitway}},
+\code{\link{noicecap}},
+\code{\link{sealevel}}
 }
+\concept{Environment}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

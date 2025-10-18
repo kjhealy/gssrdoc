@@ -46,6 +46,15 @@ Other Women & Alcohol:
 \code{\link{drinkmax}},
 \code{\link{drinkyr}},
 \code{\link{evdrink}}
+
+Other Drinking: 
+\code{\link{drink12}},
+\code{\link{drink6up}},
+\code{\link{drink8}},
+\code{\link{drinkmax}},
+\code{\link{drinkyr}},
+\code{\link{evdrink}}
 }
+\concept{Drinking}
 \concept{Women & Alcohol}
 \keyword{variable}

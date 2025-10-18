@@ -37,6 +37,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Gays And Lesbians
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -78,6 +80,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Abortion
 #' 
 #' @keywords variable
 #' @md
@@ -119,6 +122,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Abortion
 #' 
 #' @keywords variable
 #' @md
@@ -164,6 +168,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Abortion
 #' 
 #' @keywords variable
 #' @md
@@ -210,6 +215,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Abortion
 #' 
 #' @keywords variable
 #' @md
@@ -252,6 +258,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -294,6 +301,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -341,6 +349,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Confidence
+#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -388,6 +398,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Confidence
 #' 
 #' @keywords variable
 #' @md
@@ -430,6 +441,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
+#' @family Confidence
+#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md

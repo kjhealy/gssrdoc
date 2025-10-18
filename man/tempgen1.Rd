@@ -52,6 +52,18 @@ Other ISSP Environment:
 \code{\link{nobuygrn}},
 \code{\link{peopgrn}},
 \code{\link{redcehme}}
+
+Other Environment: 
+\code{\link{busgrn}},
+\code{\link{grneffme}},
+\code{\link{h2oless}},
+\code{\link{helpharm}},
+\code{\link{nobuygrn}},
+\code{\link{peopgrn}},
+\code{\link{redcehme}}
 }
+\concept{Environment}
 \concept{ISSP Environment}
+\concept{Knowledge}
+\concept{Science}
 \keyword{variable}

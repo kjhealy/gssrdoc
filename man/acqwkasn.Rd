@@ -55,6 +55,19 @@ Other Number Known:
 \code{\link{acqwkmrk}},
 \code{\link{acqwkpri}},
 \code{\link{acqwkune}}
+
+Other Social Networks: 
+\code{\link{acqnhcoh}},
+\code{\link{acqnhcon}},
+\code{\link{acqnhlib}},
+\code{\link{acqwkblk}},
+\code{\link{acqwkhme}},
+\code{\link{acqwklin}},
+\code{\link{acqwkmrk}},
+\code{\link{acqwkpri}},
+\code{\link{acqwkune}}
 }
+\concept{Asian Americans}
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

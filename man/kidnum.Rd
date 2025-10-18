@@ -51,6 +51,7 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{sibnum}},
 \code{\link{sibvisit}}
 }
+\concept{Children}
 \concept{ISSP Social Networks & Support Systems}
 \concept{Jewish Identity}
 \keyword{variable}

@@ -57,6 +57,18 @@ Other Sexual Orientation:
 \code{\link{marunion}},
 \code{\link{relgendr}},
 \code{\link{sexunion}}
+
+Other Gays And Lesbians: 
+\code{\link{attractd}},
+\code{\link{marunion}},
+\code{\link{sexunion}}
+
+Other Sex: 
+\code{\link{attractd}},
+\code{\link{relgendr}},
+\code{\link{sexunion}}
 }
+\concept{Gays And Lesbians}
+\concept{Sex}
 \concept{Sexual Orientation}
 \keyword{variable}

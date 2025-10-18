@@ -36,6 +36,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -82,6 +83,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -128,6 +130,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -178,6 +181,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -220,6 +224,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -268,6 +273,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -316,6 +322,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -360,6 +367,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -405,6 +413,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
 #' @family ISSP Family & Gender Roles
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -453,6 +462,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Women
 #' 
 #' @keywords variable
 #' @md

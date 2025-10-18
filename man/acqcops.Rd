@@ -53,6 +53,18 @@ Other Number Known:
 \code{\link{acqlib}},
 \code{\link{acqnoatt}},
 \code{\link{acqsocs}}
+
+Other Social Networks: 
+\code{\link{acqcohab}},
+\code{\link{acqcon}},
+\code{\link{acqgay}},
+\code{\link{acqgoatt}},
+\code{\link{acqjans}},
+\code{\link{acqlaws}},
+\code{\link{acqlib}},
+\code{\link{acqnoatt}},
+\code{\link{acqsocs}}
 }
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

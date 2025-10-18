@@ -51,6 +51,10 @@ Other ISSP Environment:
 \code{\link{knwcause}},
 \code{\link{topprob1}},
 \code{\link{topprob2}}
+
+Other People: 
+\code{\link{fair5}}
 }
 \concept{ISSP Environment}
+\concept{People}
 \keyword{variable}

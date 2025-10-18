@@ -78,6 +78,14 @@ Other Core:
 \code{\link{joblose}},
 \code{\link{jobsec}},
 \code{\link{satjob}}
+
+Other Work: 
+\code{\link{jobfind}},
+\code{\link{jobinc}},
+\code{\link{joblose}},
+\code{\link{jobsec}},
+\code{\link{satjob}}
 }
 \concept{Core}
+\concept{Work}
 \keyword{variable}

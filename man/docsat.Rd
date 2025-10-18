@@ -50,6 +50,15 @@ Other Doctors & Patients:
 \code{\link{docswtch}},
 \code{\link{insrchng}},
 \code{\link{secopin}}
+
+Other Health: 
+\code{\link{doccosts}},
+\code{\link{docinfo}},
+\code{\link{docnomri}},
+\code{\link{docswtch}},
+\code{\link{insrchng}},
+\code{\link{secopin}}
 }
 \concept{Doctors & Patients}
+\concept{Health}
 \keyword{variable}

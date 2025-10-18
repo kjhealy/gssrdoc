@@ -75,6 +75,54 @@ Other Core:
 \code{\link{natfarey}},
 \code{\link{nathealy}},
 \code{\link{natspacz}}
+
+Other Federal Government: 
+\code{\link{nataidy}},
+\code{\link{natarmsy}},
+\code{\link{natcityy}},
+\code{\link{natcrimy}},
+\code{\link{natdrugy}},
+\code{\link{nateducy}},
+\code{\link{natfarey}},
+\code{\link{nathealy}},
+\code{\link{natspacz}}
+
+Other Spending: 
+\code{\link{nataidy}},
+\code{\link{natarmsy}},
+\code{\link{natcityy}},
+\code{\link{natcrimy}},
+\code{\link{natdrugy}},
+\code{\link{nateducy}},
+\code{\link{natfarey}},
+\code{\link{nathealy}},
+\code{\link{natspacz}}
+
+Other Split Ballots: 
+\code{\link{nataidy}},
+\code{\link{natarmsy}},
+\code{\link{natcityy}},
+\code{\link{natcrimy}},
+\code{\link{natdrugy}},
+\code{\link{nateducy}},
+\code{\link{natfarey}},
+\code{\link{nathealy}},
+\code{\link{natspacz}}
+
+Other United States: 
+\code{\link{nataidy}},
+\code{\link{natarmsy}},
+\code{\link{natcityy}},
+\code{\link{natcrimy}},
+\code{\link{natdrugy}},
+\code{\link{nateducy}},
+\code{\link{natfarey}},
+\code{\link{nathealy}},
+\code{\link{natspacz}}
 }
 \concept{Core}
+\concept{Federal Government}
+\concept{Spending}
+\concept{Split Ballots}
+\concept{United States}
 \keyword{variable}

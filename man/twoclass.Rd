@@ -49,4 +49,5 @@ Other Intergroup Relations:
 \code{\link{talkback}}
 }
 \concept{Intergroup Relations}
+\concept{People}
 \keyword{variable}

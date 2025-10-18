@@ -53,6 +53,15 @@ Other ISSP Family & Gender Roles:
 \code{\link{numkids}},
 \code{\link{onekid}},
 \code{\link{threkids}}
+
+Other Children: 
+\code{\link{fourkids}},
+\code{\link{kidtrble}},
+\code{\link{nokids}},
+\code{\link{numkids}},
+\code{\link{onekid}},
+\code{\link{threkids}}
 }
+\concept{Children}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

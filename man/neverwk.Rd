@@ -51,5 +51,7 @@ Other Family Mobility:
 \code{\link{presfrst}},
 \code{\link{wrkslfst}}
 }
+\concept{Employment}
 \concept{Family Mobility}
+\concept{Labor Force Status}
 \keyword{variable}

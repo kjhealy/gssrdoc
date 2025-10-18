@@ -52,6 +52,16 @@ Other ISSP Role of Gov't:
 \code{\link{kidskips}},
 \code{\link{kidxfilm}},
 \code{\link{nosmoke}}
+
+Other Children: 
+\code{\link{kidbeat}},
+\code{\link{kiddrugs}},
+\code{\link{kidhlth}},
+\code{\link{kidneedy}},
+\code{\link{kidout}},
+\code{\link{kidskips}},
+\code{\link{kidxfilm}}
 }
+\concept{Children}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

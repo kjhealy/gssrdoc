@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name spkmily
@@ -66,6 +67,7 @@ NULL
 #'  |Total |2675 |391    |947        |3          |16             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -106,6 +108,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name spkhomoy
@@ -142,6 +145,7 @@ NULL
 #'  |Total |2675 |149    |1193       |4          |11             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -181,6 +185,7 @@ NULL
 #'  |Total |5042 |1149                  |1353        |16         |12             |4         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -223,6 +228,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name libmslmy
@@ -260,6 +266,7 @@ NULL
 #'  |Total |5037 |1665 |832 |17             |20         |5         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -301,6 +308,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name polabusey
@@ -338,6 +346,7 @@ NULL
 #'  |Total |5037 |1956 |561 |7              |15         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -378,6 +387,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md

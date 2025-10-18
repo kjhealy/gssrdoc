@@ -47,6 +47,15 @@ Other Disability:
 \code{\link{disabld5}},
 \code{\link{disabld6}},
 \code{\link{disabld7}}
+
+Other Health: 
+\code{\link{disabld1}},
+\code{\link{disabld2}},
+\code{\link{disabld4}},
+\code{\link{disabld5}},
+\code{\link{disabld6}},
+\code{\link{disabld7}}
 }
 \concept{Disability}
+\concept{Health}
 \keyword{variable}

@@ -29,6 +29,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Education
+#' @family Opportunity
+#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -67,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -131,6 +135,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Inequality, Income
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -169,6 +175,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Inequality, Income
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -237,6 +245,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Split Ballots
+#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -306,6 +316,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -375,6 +386,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -444,6 +456,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -485,6 +498,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -526,6 +540,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md

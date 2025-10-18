@@ -85,6 +85,14 @@ Other Core:
 \code{\link{wksubs}},
 \code{\link{wksubs1}},
 \code{\link{wksup}}
+
+Other Income: 
+\code{\link{finalter}},
+\code{\link{finrela}},
+\code{\link{incneed}},
+\code{\link{mininc}}
 }
 \concept{Core}
+\concept{Income}
+\concept{Satisfaction}
 \keyword{variable}

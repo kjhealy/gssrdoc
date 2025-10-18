@@ -51,6 +51,19 @@ Other Markets:
 \code{\link{relfixer}},
 \code{\link{sellbed}},
 \code{\link{wholoand}}
+
+Other Purchases/Transactions: 
+\code{\link{borrowed}},
+\code{\link{fixer1}},
+\code{\link{fixerc}},
+\code{\link{fixerd}},
+\code{\link{fixere}},
+\code{\link{fixerf}},
+\code{\link{relfixer}},
+\code{\link{sellbed}},
+\code{\link{wholoand}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
+\concept{Satisfaction}
 \keyword{variable}

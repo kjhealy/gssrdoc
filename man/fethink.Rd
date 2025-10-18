@@ -52,6 +52,18 @@ Other Core:
 \code{\link{fegive}},
 \code{\link{fejoin}},
 \code{\link{fewrite}}
+
+Other Split Ballots: 
+\code{\link{abdefect}},
+\code{\link{abhlth}},
+\code{\link{abnomore}},
+\code{\link{abpoor}},
+\code{\link{abrape}},
+\code{\link{absingle}},
+\code{\link{fegive}},
+\code{\link{fejoin}},
+\code{\link{fewrite}}
 }
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

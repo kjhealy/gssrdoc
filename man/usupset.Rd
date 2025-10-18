@@ -48,6 +48,12 @@ Other Emotions:
 \code{\link{usangry}},
 \code{\link{usenthus}},
 \code{\link{ushopefl}}
+
+Other United States: 
+\code{\link{usangry}},
+\code{\link{usenthus}},
+\code{\link{ushopefl}}
 }
 \concept{Emotions}
+\concept{United States}
 \keyword{variable}

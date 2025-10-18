@@ -43,4 +43,6 @@ Counts by year:\tabular{llllllllll}{
 }
 
 \concept{Number Known}
+\concept{Race}
+\concept{Social Networks}
 \keyword{variable}

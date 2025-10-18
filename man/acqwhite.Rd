@@ -54,6 +54,19 @@ Other Number Known:
 \code{\link{acqmaria}},
 \code{\link{acqprisn}},
 \code{\link{acqunemp}}
+
+Other Social Networks: 
+\code{\link{acqasian}},
+\code{\link{acqblack}},
+\code{\link{acqhisp}},
+\code{\link{acqhome}},
+\code{\link{acqjose}},
+\code{\link{acqlinda}},
+\code{\link{acqmaria}},
+\code{\link{acqprisn}},
+\code{\link{acqunemp}}
 }
 \concept{Number Known}
+\concept{Social Networks}
+\concept{Whites}
 \keyword{variable}

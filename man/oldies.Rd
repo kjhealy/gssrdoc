@@ -54,6 +54,14 @@ Other Culture:
 \code{\link{rap}},
 \code{\link{reggae}},
 \code{\link{visitart}}
+
+Other Music: 
+\code{\link{conrock}},
+\code{\link{hvymetal}},
+\code{\link{opera}},
+\code{\link{rap}},
+\code{\link{reggae}}
 }
 \concept{Culture}
+\concept{Music}
 \keyword{variable}

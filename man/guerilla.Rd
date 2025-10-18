@@ -53,6 +53,14 @@ Other Core:
 \code{\link{nukewar}},
 \code{\link{upgrade}()},
 \code{\link{vetaid}}
+
+Other United States: 
+\code{\link{landwar}},
+\code{\link{lessnuke}},
+\code{\link{morenuke}},
+\code{\link{nonuke}},
+\code{\link{nukewar}}
 }
 \concept{Core}
+\concept{United States}
 \keyword{variable}

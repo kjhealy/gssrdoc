@@ -59,4 +59,5 @@ Other ISSP Family & Gender Roles:
 \code{\link{mrmom}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Parents}
 \keyword{variable}

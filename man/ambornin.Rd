@@ -56,6 +56,10 @@ Other ISSP National Identity:
 \code{\link{movetown}},
 \code{\link{moveusa}},
 \code{\link{onenatn}}
+
+Other United States: 
+\code{\link{onenatn}}
 }
 \concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

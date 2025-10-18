@@ -40,6 +40,10 @@ Other Core:
 \code{\link{wrkslf}},
 \code{\link{wrkstat}},
 \code{\link{year}()}
+
+Other Interview: 
+\code{\link{year}()}
 }
 \concept{Core}
+\concept{Interview}
 \keyword{variable}

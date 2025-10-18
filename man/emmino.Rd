@@ -54,6 +54,18 @@ Other Information Society:
 \code{\link{wrkmino}},
 \code{\link{wwwhro}},
 \code{\link{wwwmino}}
+
+Other Computers And Internet: 
+\code{\link{emget}},
+\code{\link{emgetp}},
+\code{\link{emhro}},
+\code{\link{emsent}},
+\code{\link{emsentp}},
+\code{\link{wrkhro}},
+\code{\link{wrkmino}},
+\code{\link{wwwhro}},
+\code{\link{wwwmino}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

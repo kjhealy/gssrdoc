@@ -52,6 +52,11 @@ Other Altruism:
 \code{\link{givseat}},
 \code{\link{retchnge}},
 \code{\link{volchrty}}
+
+Other Feelings: 
+\code{\link{empathy5}},
+\code{\link{empathy6}}
 }
 \concept{Altruism}
+\concept{Feelings}
 \keyword{variable}

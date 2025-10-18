@@ -55,6 +55,28 @@ Other Core:
 \code{\link{popular}},
 \code{\link{responsz}},
 \code{\link{rolez}}
+
+Other Children: 
+\code{\link{amicablz}},
+\code{\link{considez}},
+\code{\link{controlz}},
+\code{\link{interesz}},
+\code{\link{obey}},
+\code{\link{obeysz}},
+\code{\link{popular}},
+\code{\link{responsz}},
+\code{\link{rolez}}
+
+Other Split Ballots: 
+\code{\link{amicablz}},
+\code{\link{considez}},
+\code{\link{controlz}},
+\code{\link{interesz}},
+\code{\link{obeysz}},
+\code{\link{responsz}},
+\code{\link{rolez}}
 }
+\concept{Children}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

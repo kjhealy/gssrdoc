@@ -63,5 +63,6 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
+\concept{Dwelling (R's)}
 \concept{Residence}
 \keyword{variable}

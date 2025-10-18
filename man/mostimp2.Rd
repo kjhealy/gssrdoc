@@ -51,6 +51,11 @@ Other Culture:
 \code{\link{impthngs}},
 \code{\link{mostimp1}},
 \code{\link{mostimp3}}
+
+Other World Events: 
+\code{\link{mostimp1}},
+\code{\link{mostimp3}}
 }
 \concept{Culture}
+\concept{World Events}
 \keyword{variable}

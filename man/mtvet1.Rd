@@ -53,6 +53,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{mtserv6}},
 \code{\link{mtserv7}},
 \code{\link{mtserv8}}
+
+Other Voluntary Associations: 
+\code{\link{mtfrat4}},
+\code{\link{mtserv1}},
+\code{\link{mtserv2}},
+\code{\link{mtserv3}},
+\code{\link{mtserv4}},
+\code{\link{mtserv5}},
+\code{\link{mtserv6}},
+\code{\link{mtserv7}},
+\code{\link{mtserv8}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

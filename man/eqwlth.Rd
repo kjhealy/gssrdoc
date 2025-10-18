@@ -76,6 +76,15 @@ Other Core:
 \code{\link{spkath}},
 \code{\link{spksoc}},
 \code{\link{tax}}
+
+Other Inequality, Income: 
+\code{\link{eqwlthy}}
+
+Other Split Ballots: 
+\code{\link{eqwlthy}},
+\code{\link{tax}}
 }
 \concept{Core}
+\concept{Inequality, Income}
+\concept{Split Ballots}
 \keyword{variable}

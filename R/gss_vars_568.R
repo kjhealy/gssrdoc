@@ -27,6 +27,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Income
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -62,6 +63,7 @@ NULL
 #'  |Total |0   |51  |10   |3   |1   |3   |1    |15  |2   |1   |1   |1   |113 |1   |1   |3   |1   |3   |44  |4   |1   |2   |252 |1   |2   |17  |3   |2   |1  |142 |2   |17  |1   |5   |1   |1   |2  |214 |1   |1   |6   |1   |1   |2   |88  |1   |1    |10  |3   |1   |1   |134 |1   |2   |1  |23  |1   |2   |8  |93  |3   |3  |19  |2  |2   |1   |2  |9   |11 |4   |4  |7   |3  |5  |1   |1          |222       |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Income
 #' @family Income
 #' 
 #' @keywords variable
@@ -106,6 +108,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -149,6 +152,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -189,6 +193,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -233,6 +238,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -277,6 +283,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -321,6 +328,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family Drug Use And Addiction
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -365,6 +374,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -409,6 +419,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md

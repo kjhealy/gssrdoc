@@ -49,6 +49,29 @@ Other Core:
 \code{\link{aborct}},
 \code{\link{abpro1}},
 \code{\link{abpro2}}
+
+Other Abortion: 
+\code{\link{abany}},
+\code{\link{abcon1}},
+\code{\link{abcon2}},
+\code{\link{abcon3}},
+\code{\link{abimp}},
+\code{\link{abinfo}},
+\code{\link{aborct}},
+\code{\link{abpro1}},
+\code{\link{abpro2}}
+
+Other Split Ballots: 
+\code{\link{abany}},
+\code{\link{abcon1}},
+\code{\link{abcon2}},
+\code{\link{abcon3}},
+\code{\link{abimp}},
+\code{\link{abinfo}},
+\code{\link{abpro1}},
+\code{\link{abpro2}}
 }
+\concept{Abortion}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

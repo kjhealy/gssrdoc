@@ -70,6 +70,17 @@ Other High Risk Behaviors:
 \code{\link{pikupsex}},
 \code{\link{sexfreq}},
 \code{\link{sexsex}}
+
+Other Sex: 
+\code{\link{acqntsex}},
+\code{\link{matesex}},
+\code{\link{othersex}},
+\code{\link{paidsex}},
+\code{\link{partners}},
+\code{\link{pikupsex}},
+\code{\link{sexfreq}},
+\code{\link{sexsex}}
 }
 \concept{High Risk Behaviors}
+\concept{Sex}
 \keyword{variable}

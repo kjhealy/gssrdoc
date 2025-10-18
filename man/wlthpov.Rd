@@ -49,4 +49,5 @@ Other Freedom:
 \code{\link{freeprss}}
 }
 \concept{Freedom}
+\concept{Social Class}
 \keyword{variable}

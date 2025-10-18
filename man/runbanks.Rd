@@ -51,6 +51,14 @@ Other ISSP Role of Gov't:
 \code{\link{taxbylaw}},
 \code{\link{taxpaid}},
 \code{\link{taxspend}}
+
+Other Federal Government: 
+\code{\link{demworks}},
+\code{\link{poleff17}},
+\code{\link{runhosp}},
+\code{\link{runpower}},
+\code{\link{taxspend}}
 }
+\concept{Federal Government}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

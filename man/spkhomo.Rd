@@ -79,6 +79,19 @@ Other Core:
 \code{\link{libhomo}},
 \code{\link{libmslm}},
 \code{\link{spkmslm}}
+
+Other Civil Liberties: 
+\code{\link{colhomo}},
+\code{\link{colmslm}},
+\code{\link{libhomo}},
+\code{\link{libmslm}},
+\code{\link{spkmslm}}
+
+Other Gays And Lesbians: 
+\code{\link{colhomo}},
+\code{\link{libhomo}}
 }
+\concept{Civil Liberties}
 \concept{Core}
+\concept{Gays And Lesbians}
 \keyword{variable}

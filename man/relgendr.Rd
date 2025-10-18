@@ -53,6 +53,18 @@ Other Sexual Orientation:
 \code{\link{marunion}},
 \code{\link{sexunion}},
 \code{\link{toldsxor}}
+
+Other Marital Status: 
+\code{\link{marunion}},
+\code{\link{sexunion}}
+
+Other Sex: 
+\code{\link{attractd}},
+\code{\link{sexunion}},
+\code{\link{toldsxor}}
 }
+\concept{Marital Status}
+\concept{Romantic Relationships}
+\concept{Sex}
 \concept{Sexual Orientation}
 \keyword{variable}

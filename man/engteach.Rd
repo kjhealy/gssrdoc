@@ -54,6 +54,17 @@ Other Multiculturalism:
 \code{\link{ethspkok}},
 \code{\link{letin}},
 \code{\link{symptblk}}
+
+Other Education: 
+\code{\link{bilinged}}
+
+Other Language: 
+\code{\link{bilinged}},
+\code{\link{engballt}},
+\code{\link{engoffcl}}
 }
+\concept{Education}
+\concept{Hispanics}
+\concept{Language}
 \concept{Multiculturalism}
 \keyword{variable}

@@ -51,6 +51,18 @@ Other ISSP Environment:
 \code{\link{grnsign}},
 \code{\link{nomeat}},
 \code{\link{recycle}}
+
+Other Environment: 
+\code{\link{chemfree}},
+\code{\link{drivless}},
+\code{\link{grndemo}},
+\code{\link{grngroup}},
+\code{\link{grnmoney}},
+\code{\link{grnsign}},
+\code{\link{nomeat}},
+\code{\link{recycle}}
 }
+\concept{Environment}
 \concept{ISSP Environment}
+\concept{United States}
 \keyword{variable}

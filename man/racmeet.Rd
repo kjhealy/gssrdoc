@@ -55,4 +55,5 @@ Other ISSP Citizenship:
 \code{\link{usemedia}}
 }
 \concept{ISSP Citizenship}
+\concept{Race}
 \keyword{variable}

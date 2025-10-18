@@ -61,6 +61,14 @@ Other Information Society:
 \code{\link{perfrmgn}},
 \code{\link{polcangn}},
 \code{\link{polinfgn}}
+
+Other Family: 
+\code{\link{byphone}},
+\code{\link{inperson}},
+\code{\link{letters}},
+\code{\link{meetings}},
+\code{\link{numcntct}}
 }
+\concept{Family}
 \concept{Information Society}
 \keyword{variable}

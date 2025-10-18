@@ -53,6 +53,18 @@ Other Mental Health IV:
 \code{\link{mhmeds}},
 \code{\link{mhmnthsp}},
 \code{\link{mhseedoc}}
+
+Other Mental Health: 
+\code{\link{mhfamshm}},
+\code{\link{mhgvtdis}},
+\code{\link{mhgvtedc}},
+\code{\link{mhgvthlt}},
+\code{\link{mhgvthme}},
+\code{\link{mhhsptrt}},
+\code{\link{mhmeds}},
+\code{\link{mhmnthsp}},
+\code{\link{mhseedoc}}
 }
+\concept{Mental Health}
 \concept{Mental Health IV}
 \keyword{variable}

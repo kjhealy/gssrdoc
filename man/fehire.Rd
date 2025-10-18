@@ -67,6 +67,20 @@ Other Gender:
 \code{\link{hmemaker}},
 \code{\link{mebear}},
 \code{\link{wrkclass}}
+
+Other Women: 
+\code{\link{fekids2}},
+\code{\link{fekids3}},
+\code{\link{fekids4}},
+\code{\link{fekids5}},
+\code{\link{feminist}},
+\code{\link{fenews}},
+\code{\link{hmemaker}},
+\code{\link{mebear}},
+\code{\link{wrkclass}}
 }
+\concept{Affirmative Action}
 \concept{Gender}
+\concept{Job}
+\concept{Women}
 \keyword{variable}

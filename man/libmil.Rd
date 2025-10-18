@@ -77,6 +77,18 @@ Other Core:
 \code{\link{spkcom}},
 \code{\link{spkmil}},
 \code{\link{spkrac}}
+
+Other Civil Liberties: 
+\code{\link{colcom}},
+\code{\link{colmil}},
+\code{\link{colrac}},
+\code{\link{libcom}},
+\code{\link{librac}},
+\code{\link{libsoc}},
+\code{\link{spkcom}},
+\code{\link{spkmil}},
+\code{\link{spkrac}}
 }
+\concept{Civil Liberties}
 \concept{Core}
 \keyword{variable}

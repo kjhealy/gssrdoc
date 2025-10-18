@@ -56,6 +56,14 @@ Other ISSP National Identity:
 \code{\link{socid1}},
 \code{\link{socid2}},
 \code{\link{socid3}}
+
+Other United States: 
+\code{\link{amancstr}},
+\code{\link{decsorgs}},
+\code{\link{freetrde}},
+\code{\link{lessprd}},
+\code{\link{powrorgs}}
 }
 \concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

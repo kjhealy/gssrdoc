@@ -81,4 +81,5 @@ Other Core:
 \code{\link{trusty}}
 }
 \concept{Core}
+\concept{Life Outlook}
 \keyword{variable}

@@ -53,6 +53,18 @@ Other Work Organizations:
 \code{\link{jobvshme}},
 \code{\link{unmanrel}},
 \code{\link{unvote}}
+
+Other Job: 
+\code{\link{cowrkrel}},
+\code{\link{fringe10}},
+\code{\link{fringe11}},
+\code{\link{fringe7}},
+\code{\link{fringe8}},
+\code{\link{fringe9}},
+\code{\link{jobvshme}},
+\code{\link{unmanrel}}
 }
+\concept{Education}
+\concept{Job}
 \concept{Work Organizations}
 \keyword{variable}

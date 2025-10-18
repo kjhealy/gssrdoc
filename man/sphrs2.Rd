@@ -41,6 +41,20 @@ Other Core:
 \code{\link{sphrs1}},
 \code{\link{spwrksta}},
 \code{\link{widowed}}
+
+Other Hours Worked: 
+\code{\link{sphrs1}}
+
+Other Job: 
+\code{\link{sphrs1}}
+
+Other Labor Force Status: 
+\code{\link{spevwork}},
+\code{\link{sphrs1}},
+\code{\link{spwrksta}}
 }
 \concept{Core}
+\concept{Hours Worked}
+\concept{Job}
+\concept{Labor Force Status}
 \keyword{variable}

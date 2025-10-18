@@ -48,6 +48,18 @@ Other Markets:
 \code{\link{realtord}},
 \code{\link{relhome}},
 \code{\link{whosold}}
+
+Other Purchases/Transactions: 
+\code{\link{evbuyhme}},
+\code{\link{learnhme}},
+\code{\link{newowned}},
+\code{\link{realtora}},
+\code{\link{realtorb}},
+\code{\link{realtorc}},
+\code{\link{realtord}},
+\code{\link{relhome}},
+\code{\link{whosold}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

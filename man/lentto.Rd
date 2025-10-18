@@ -59,6 +59,11 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{kidpars}},
 \code{\link{learnjob}},
 \code{\link{talkedto}}
+
+Other Social Networks: 
+\code{\link{helpjob}},
+\code{\link{talkedto}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Social Networks}
 \keyword{variable}

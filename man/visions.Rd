@@ -58,6 +58,13 @@ Other Core:
 \code{\link{pray}},
 \code{\link{restact}},
 \code{\link{spirits}}
+
+Other Parapsychological Experiences: 
+\code{\link{dejavu}},
+\code{\link{esp}},
+\code{\link{grace}},
+\code{\link{spirits}}
 }
 \concept{Core}
+\concept{Parapsychological Experiences}
 \keyword{variable}

@@ -56,6 +56,18 @@ Other Religion and Culture:
 \code{\link{cope3}},
 \code{\link{cope4}},
 \code{\link{privpray}}
+
+Other Religion: 
+\code{\link{conghlp1}},
+\code{\link{conghlp2}},
+\code{\link{conghrm1}},
+\code{\link{conghrm2}},
+\code{\link{cope1}},
+\code{\link{cope2}},
+\code{\link{cope3}},
+\code{\link{cope4}},
+\code{\link{privpray}}
 }
+\concept{Religion}
 \concept{Religion and Culture}
 \keyword{variable}

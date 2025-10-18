@@ -53,6 +53,13 @@ Other Science Knowledge & Attitudes:
 \code{\link{vislib}},
 \code{\link{visnhist}},
 \code{\link{vissci}}
+
+Other Leisure: 
+\code{\link{visart}},
+\code{\link{vislib}},
+\code{\link{visnhist}},
+\code{\link{vissci}}
 }
+\concept{Leisure}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -54,6 +54,13 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{matime}},
 \code{\link{palive}},
 \code{\link{peocntct}}
+
+Other Family: 
+\code{\link{macall}},
+\code{\link{malive}},
+\code{\link{matime}},
+\code{\link{palive}}
 }
+\concept{Family}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

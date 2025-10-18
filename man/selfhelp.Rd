@@ -55,6 +55,17 @@ Other Mental Health:
 \code{\link{rxmed}},
 \code{\link{sphealer}},
 \code{\link{tlkclrgy}}
+
+Other Mental Health: 
+\code{\link{dofirst}},
+\code{\link{meddoc}},
+\code{\link{mentldoc}},
+\code{\link{mentlhos}},
+\code{\link{mentloth}},
+\code{\link{otcmed}},
+\code{\link{rxmed}},
+\code{\link{sphealer}},
+\code{\link{tlkclrgy}}
 }
 \concept{Mental Health}
 \keyword{variable}

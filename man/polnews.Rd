@@ -56,6 +56,12 @@ Other ISSP Citizenship:
 \code{\link{fixmistk}},
 \code{\link{gvtrghts}},
 \code{\link{polinter}}
+
+Other Political: 
+\code{\link{corruptn}},
+\code{\link{fixmistk}},
+\code{\link{polinter}}
 }
 \concept{ISSP Citizenship}
+\concept{Political}
 \keyword{variable}

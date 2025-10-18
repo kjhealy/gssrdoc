@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +110,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -147,6 +150,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Civil Liberties
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -185,6 +190,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -233,6 +239,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -272,6 +279,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -336,6 +344,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Inequality, Income
+#' @family Poverty
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -400,6 +411,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Inequality, Income
+#' @family Poverty
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -463,6 +477,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Inequality, Income
+#' @family Poverty
+#' @family Race
 #' 
 #' @keywords variable
 #' @md

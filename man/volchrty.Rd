@@ -59,6 +59,17 @@ Other Altruism:
 \code{\link{givhmlss}},
 \code{\link{givseat}},
 \code{\link{retchnge}}
+
+Other Altruism: 
+\code{\link{cutahead}},
+\code{\link{empathy5}},
+\code{\link{empathy6}},
+\code{\link{empathy7}},
+\code{\link{givblood}},
+\code{\link{givchrty}},
+\code{\link{givhmlss}},
+\code{\link{givseat}},
+\code{\link{retchnge}}
 }
 \concept{Altruism}
 \keyword{variable}

@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name chemgen1
@@ -72,6 +73,7 @@ NULL
 #'  |Total |2003 |591                 |691            |442                |51                 |5                    |52           |185       |12             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -115,6 +117,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name genegen1
@@ -154,6 +157,7 @@ NULL
 #'  |Total |2003 |309                 |386            |631                |328                |89                   |88           |188       |10             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -197,6 +201,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name enjoynat
@@ -238,6 +243,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name activnat
@@ -274,6 +280,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name planetrp
@@ -308,6 +315,7 @@ NULL
 #'  |Total |2003 |126 |214 |153 |3  |43 |3  |18 |34 |7  |2  |7  |302 |35 |5  |2  |17 |1  |2  |209 |8  |2  |1  |5  |2  |154 |8  |2  |1  |1  |150 |2  |1  |1  |109 |5  |1  |2  |77 |1  |1  |65 |1  |1  |15 |1  |229       |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -348,6 +356,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name eatmeat
@@ -382,6 +391,7 @@ NULL
 #'  |Total |2003 |3  |83 |63 |24 |28 |10 |9  |3  |3  |1  |189 |1  |270 |221 |259 |235 |165 |156 |89 |192       |25             |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

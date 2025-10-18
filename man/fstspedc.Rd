@@ -48,6 +48,10 @@ Other Family Mobility:
 \code{\link{fstspdeg}},
 \code{\link{fstspyr}},
 \code{\link{marnum}}
+
+Other Education: 
+\code{\link{fstspdeg}}
 }
+\concept{Education}
 \concept{Family Mobility}
 \keyword{variable}

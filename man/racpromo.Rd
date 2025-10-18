@@ -52,5 +52,6 @@ Other Work Organizations:
 \code{\link{sexpromo}},
 \code{\link{wrkindep}}
 }
+\concept{Race}
 \concept{Work Organizations}
 \keyword{variable}

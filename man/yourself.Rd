@@ -46,6 +46,12 @@ Other Gender:
 \code{\link{children}},
 \code{\link{manprof}},
 \code{\link{men}}
+
+Other Women: 
+\code{\link{children}},
+\code{\link{manprof}},
+\code{\link{men}}
 }
 \concept{Gender}
+\concept{Women}
 \keyword{variable}

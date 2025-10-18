@@ -49,6 +49,14 @@ Other Sampling and Weights:
 \code{\link{issp}},
 \code{\link{sampcode}},
 \code{\link{version}}
+
+Other Sample: 
+\code{\link{ballot}},
+\code{\link{formwt}},
+\code{\link{issp}},
+\code{\link{sampcode}},
+\code{\link{version}}
 }
+\concept{Sample}
 \concept{Sampling and Weights}
 \keyword{variable}

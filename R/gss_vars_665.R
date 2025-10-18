@@ -28,6 +28,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -67,6 +68,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name modesequence
@@ -101,6 +103,7 @@ NULL
 #'  |Total |2382 |1  |1  |1  |2  |17 |36 |42 |87 |93 |86 |91 |107 |90 |78 |70 |83 |76 |71 |28 |28 |14 |14 |7  |2  |1  |1  |3          |12        |20             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -144,6 +147,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name instype01
@@ -183,6 +187,7 @@ NULL
 #'  |Total |3526 |1          |8         |9              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -226,6 +231,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name instype03
@@ -267,6 +273,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name instype04
@@ -302,6 +309,7 @@ NULL
 #'  |Total |0   |440 |2   |98  |96  |94  |8   |13  |109 |303 |30  |32  |267 |5   |27  |58  |97  |41  |1   |46  |5   |1   |46  |7   |5   |824                     |233 |2  |15 |86 |57 |4  |11 |19 |103 |6  |15 |298 |5  |28 |7  |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -343,6 +351,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name kidsund18
@@ -381,6 +390,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Household
 #' 
 #' @keywords variable
 #' @md

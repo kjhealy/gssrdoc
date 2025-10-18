@@ -54,6 +54,10 @@ Other Intergroup Relations:
 \code{\link{marso}},
 \code{\link{marwht}},
 \code{\link{workfare}}
+
+Other Welfare: 
+\code{\link{workfare}}
 }
 \concept{Intergroup Relations}
+\concept{Welfare}
 \keyword{variable}

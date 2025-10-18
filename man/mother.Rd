@@ -54,6 +54,29 @@ Other Core:
 \code{\link{neargod}},
 \code{\link{redeemer}},
 \code{\link{spouse}}
+
+Other Religion: 
+\code{\link{creator}},
+\code{\link{father}},
+\code{\link{friend}},
+\code{\link{judge}},
+\code{\link{lover}},
+\code{\link{master}},
+\code{\link{neargod}},
+\code{\link{redeemer}},
+\code{\link{spouse}}
+
+Other Split Ballots: 
+\code{\link{creator}},
+\code{\link{father}},
+\code{\link{friend}},
+\code{\link{judge}},
+\code{\link{lover}},
+\code{\link{master}},
+\code{\link{redeemer}},
+\code{\link{spouse}}
 }
 \concept{Core}
+\concept{Religion}
+\concept{Split Ballots}
 \keyword{variable}

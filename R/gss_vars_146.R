@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -73,6 +74,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -114,6 +116,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -152,6 +155,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -190,6 +194,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -228,6 +233,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -271,6 +277,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -310,6 +317,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Sociability
 #' 
 #' @keywords variable
 #' @md
@@ -353,6 +361,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Anomia
 #' 
 #' @keywords variable
 #' @md
@@ -395,6 +404,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md

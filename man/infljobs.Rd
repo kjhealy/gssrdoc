@@ -54,5 +54,6 @@ Other ISSP Role of Gov't:
 \code{\link{spschool}},
 \code{\link{spunemp}}
 }
+\concept{Economy}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

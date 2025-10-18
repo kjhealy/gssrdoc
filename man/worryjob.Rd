@@ -56,6 +56,10 @@ Other Work Orientation:
 \code{\link{wantjob2}},
 \code{\link{whyjbend}},
 \code{\link{yrjobend}}
+
+Other Job: 
+\code{\link{leavejob}}
 }
+\concept{Job}
 \concept{Work Orientation}
 \keyword{variable}

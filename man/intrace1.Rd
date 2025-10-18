@@ -74,6 +74,11 @@ Other Interviewer Characteristics:
 \code{\link{bthgrp2a}},
 \code{\link{intrace2}},
 \code{\link{intrace3}}
+
+Other Interview: 
+\code{\link{intrace2}},
+\code{\link{intrace3}}
 }
+\concept{Interview}
 \concept{Interviewer Characteristics}
 \keyword{variable}

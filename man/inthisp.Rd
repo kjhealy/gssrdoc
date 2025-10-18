@@ -74,5 +74,6 @@ Counts by year:\tabular{lllllllllllllllllllllllllll}{
 }
 }
 
+\concept{Interview}
 \concept{Interviewer Characteristics}
 \keyword{variable}

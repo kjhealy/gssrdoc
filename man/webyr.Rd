@@ -56,6 +56,11 @@ Other Information Society:
 \code{\link{jobpub}},
 \code{\link{jobtvrad}},
 \code{\link{webable}}
+
+Other Computers And Internet: 
+\code{\link{emailyr}},
+\code{\link{webable}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

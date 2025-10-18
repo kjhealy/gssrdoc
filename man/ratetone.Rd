@@ -56,4 +56,5 @@ Other ISSP Role of Gov't:
 \code{\link{pubecon}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Race}
 \keyword{variable}

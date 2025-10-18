@@ -53,6 +53,10 @@ Other Intergroup Relations:
 \code{\link{violjews}},
 \code{\link{violso}},
 \code{\link{violwhts}}
+
+Other Blacks: 
+\code{\link{intlblks}}
 }
+\concept{Blacks}
 \concept{Intergroup Relations}
 \keyword{variable}

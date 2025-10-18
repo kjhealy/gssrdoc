@@ -50,6 +50,11 @@ Other Core:
 \code{\link{nonuke}},
 \code{\link{nukewar}},
 \code{\link{vetaid}}
+
+Other Military: 
+\code{\link{defwrkev}},
+\code{\link{jobtrain}}
 }
 \concept{Core}
+\concept{Military}
 \keyword{variable}

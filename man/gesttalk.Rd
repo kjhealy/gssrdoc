@@ -44,6 +44,10 @@ Counts by year:\tabular{lllllllll}{
 \seealso{
 Other Mental Health III: 
 \code{\link{avoidmh}}
+
+Other Mental Health: 
+\code{\link{avoidmh}}
 }
+\concept{Mental Health}
 \concept{Mental Health III}
 \keyword{variable}

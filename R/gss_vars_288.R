@@ -61,6 +61,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name snsmfrst
@@ -96,6 +97,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -133,6 +135,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name intwkdyh
@@ -168,6 +171,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -205,6 +209,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name intwkenh
@@ -241,6 +246,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -278,6 +284,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -316,6 +323,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -359,6 +367,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -402,6 +411,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
+#' @family Job
 #' 
 #' @keywords variable
 #' @md

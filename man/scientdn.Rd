@@ -52,6 +52,17 @@ Other Science Knowledge & Attitudes:
 \code{\link{scientod}},
 \code{\link{scientr}},
 \code{\link{scientre}}
+
+Other Science: 
+\code{\link{sciental}},
+\code{\link{scientbe}},
+\code{\link{scientdo}},
+\code{\link{scientfu}},
+\code{\link{scientgo}},
+\code{\link{scienthe}},
+\code{\link{scientod}},
+\code{\link{scientr}}
 }
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

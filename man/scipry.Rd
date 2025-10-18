@@ -46,6 +46,16 @@ Other Religion:
 \code{\link{scimoral}},
 \code{\link{scisolve}},
 \code{\link{switched}}
+
+Other Knowledge: 
+\code{\link{scimoral}}
+
+Other Science: 
+\code{\link{scichng}},
+\code{\link{scimoral}},
+\code{\link{scisolve}}
 }
+\concept{Knowledge}
 \concept{Religion}
+\concept{Science}
 \keyword{variable}

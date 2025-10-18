@@ -50,6 +50,18 @@ Other Markets:
 \code{\link{satfixes}},
 \code{\link{sellbed}},
 \code{\link{wholoand}}
+
+Other Purchases/Transactions: 
+\code{\link{fixer1}},
+\code{\link{fixerc}},
+\code{\link{fixerd}},
+\code{\link{fixere}},
+\code{\link{fixerf}},
+\code{\link{relfixer}},
+\code{\link{satfixes}},
+\code{\link{sellbed}},
+\code{\link{wholoand}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

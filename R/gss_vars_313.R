@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -67,6 +68,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -105,6 +107,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Quality of Working Life
+#' @family Health
+#' @family Job
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -145,6 +150,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name lifenow
@@ -182,6 +188,7 @@ NULL
 #'  |Total |2460 |1                        |16 |769                      |11 |23 |40 |95 |163 |266 |641 |838 |59         |50        |435 |25             |5892  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -226,6 +233,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ESS Health
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cesd1
@@ -267,6 +275,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ESS Health
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -310,6 +319,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ESS Health
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cesd3
@@ -352,6 +362,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ESS Health
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cesd4
@@ -393,6 +404,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ESS Health
+#' 
 #' 
 #' @keywords variable
 #' @md

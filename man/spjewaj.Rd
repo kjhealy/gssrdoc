@@ -88,4 +88,5 @@ Other Core:
 \code{\link{sprel16}}
 }
 \concept{Core}
+\concept{Jews}
 \keyword{variable}

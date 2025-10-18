@@ -49,6 +49,21 @@ Other Markets & Exchange - Giving & Volunteering:
 \code{\link{valinfrm}},
 \code{\link{valintl}},
 \code{\link{valoth}}
+
+Other Household: 
+\code{\link{homeless}},
+\code{\link{needynei}},
+\code{\link{needyoth}},
+\code{\link{needyrel}}
+
+Other Purchases/Transactions: 
+\code{\link{homeless}},
+\code{\link{needynei}},
+\code{\link{needyoth}},
+\code{\link{needyrel}}
 }
+\concept{Friends}
+\concept{Household}
 \concept{Markets & Exchange - Giving & Volunteering}
+\concept{Purchases/Transactions}
 \keyword{variable}

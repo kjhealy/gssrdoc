@@ -48,6 +48,10 @@ Other Information Society:
 \code{\link{homeband}},
 \code{\link{huclean}},
 \code{\link{knowkid4}}
+
+Other Children: 
+\code{\link{knowkid4}}
 }
+\concept{Children}
 \concept{Information Society}
 \keyword{variable}

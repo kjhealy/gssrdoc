@@ -31,6 +31,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Poverty
 #' 
 #' @keywords variable
 #' @md
@@ -71,6 +72,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Poverty
 #' 
 #' @keywords variable
 #' @md
@@ -111,6 +113,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Poverty
 #' 
 #' @keywords variable
 #' @md
@@ -151,6 +154,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Poverty
 #' 
 #' @keywords variable
 #' @md
@@ -192,6 +196,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Incentives
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -233,6 +239,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -274,6 +281,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Incentives
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -315,6 +324,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -370,6 +380,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -410,6 +421,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Jews
 #' 
 #' @keywords variable
 #' @md

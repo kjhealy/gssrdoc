@@ -60,6 +60,24 @@ Other Social Networks:
 \code{\link{educ3}},
 \code{\link{educ4}},
 \code{\link{educ5}}
+
+Other Education: 
+\code{\link{educ1}},
+\code{\link{educ3}},
+\code{\link{educ4}},
+\code{\link{educ5}}
+
+Other Social Networks: 
+\code{\link{age1}},
+\code{\link{age2}},
+\code{\link{age3}},
+\code{\link{age4}},
+\code{\link{age5}},
+\code{\link{educ1}},
+\code{\link{educ3}},
+\code{\link{educ4}},
+\code{\link{educ5}}
 }
+\concept{Education}
 \concept{Social Networks}
 \keyword{variable}

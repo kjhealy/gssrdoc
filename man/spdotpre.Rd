@@ -38,6 +38,14 @@ Other Core:
 \code{\link{partyid}},
 \code{\link{pres68}},
 \code{\link{vote68}}
+
+Other D.O.T. Codes: 
+\code{\link{padotdat}},
+\code{\link{padotged}},
+\code{\link{padotpeo}},
+\code{\link{padotsvp}},
+\code{\link{padotthn}}
 }
 \concept{Core}
+\concept{D.O.T. Codes}
 \keyword{variable}

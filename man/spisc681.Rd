@@ -38,6 +38,17 @@ Other Occupation:
 \code{\link{paisco88}},
 \code{\link{spisco08}},
 \code{\link{spisco88}}
+
+Other Occupation: 
+\code{\link{isco08}},
+\code{\link{isco88}},
+\code{\link{maisc681}},
+\code{\link{maisco08}},
+\code{\link{maisco88}},
+\code{\link{paisco08}},
+\code{\link{paisco88}},
+\code{\link{spisco08}},
+\code{\link{spisco88}}
 }
 \concept{Occupation}
 \keyword{variable}

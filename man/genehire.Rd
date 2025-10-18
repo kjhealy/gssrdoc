@@ -42,6 +42,10 @@ Counts by year:\tabular{lllllll}{
 \seealso{
 Other Work Organizations: 
 \code{\link{genejob}}
+
+Other Genetic Testing: 
+\code{\link{genejob}}
 }
+\concept{Genetic Testing}
 \concept{Work Organizations}
 \keyword{variable}

@@ -52,6 +52,10 @@ Other Core:
 \code{\link{tratot5}},
 \code{\link{trauma1}},
 \code{\link{trauma5}}
+
+Other Spending: 
+\code{\link{defspdr}}
 }
 \concept{Core}
+\concept{Spending}
 \keyword{variable}

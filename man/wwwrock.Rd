@@ -52,6 +52,18 @@ Other Information Society:
 \code{\link{wwwoldie}},
 \code{\link{wwwrap}},
 \code{\link{wwwrelig}}
+
+Other Computers And Internet: 
+\code{\link{musicbuy}},
+\code{\link{musiclst}},
+\code{\link{wwwclass}},
+\code{\link{wwwcntry}},
+\code{\link{wwwgthic}},
+\code{\link{wwwjazz}},
+\code{\link{wwwoldie}},
+\code{\link{wwwrap}},
+\code{\link{wwwrelig}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

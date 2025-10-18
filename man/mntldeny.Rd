@@ -50,6 +50,29 @@ Other Mental Health:
 \code{\link{hmo6}},
 \code{\link{hmo7}},
 \code{\link{mntldif}}
+
+Other Health: 
+\code{\link{doc1}},
+\code{\link{hmo1}},
+\code{\link{hmo2}},
+\code{\link{hmo3}},
+\code{\link{hmo4}},
+\code{\link{hmo5}},
+\code{\link{hmo6}},
+\code{\link{hmo7}},
+\code{\link{mntldif}}
+
+Other Mental Health: 
+\code{\link{doc1}},
+\code{\link{hmo1}},
+\code{\link{hmo2}},
+\code{\link{hmo3}},
+\code{\link{hmo4}},
+\code{\link{hmo5}},
+\code{\link{hmo6}},
+\code{\link{hmo7}},
+\code{\link{mntldif}}
 }
+\concept{Health}
 \concept{Mental Health}
 \keyword{variable}

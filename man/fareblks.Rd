@@ -53,5 +53,6 @@ Other Intergroup Relations:
 \code{\link{patrjews}},
 \code{\link{patrwhts}}
 }
+\concept{Blacks}
 \concept{Intergroup Relations}
 \keyword{variable}

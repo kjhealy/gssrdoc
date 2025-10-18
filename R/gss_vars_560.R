@@ -34,6 +34,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -76,6 +77,7 @@ NULL
 #'  |Total |155 |216             |514        |362        |41         |20              |39           |25        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -120,6 +122,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -162,6 +165,7 @@ NULL
 #'  |Total |155 |124             |301        |451        |188        |86              |47           |20        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -206,6 +210,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -248,6 +253,7 @@ NULL
 #'  |Total |155 |293             |573        |274        |18         |7               |32           |20        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -292,6 +298,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Children
+#' @family Drug Use And Addiction
 #' 
 #' @keywords variable
 #' @md
@@ -334,6 +342,7 @@ NULL
 #'  |Total |155 |238             |423        |423        |54         |24              |34           |21        |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -378,6 +387,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
+#' @family Birth Control
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -421,6 +432,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' @family Life Events
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md

@@ -49,6 +49,19 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{yrnat1}},
 \code{\link{yrnat2}},
 \code{\link{yrnat3}}
+
+Other Voluntary Associations: 
+\code{\link{yrfarm1}},
+\code{\link{yrgreek1}},
+\code{\link{yrgreek2}},
+\code{\link{yrgreek3}},
+\code{\link{yrhobby2}},
+\code{\link{yrhobby3}},
+\code{\link{yrnat1}},
+\code{\link{yrnat2}},
+\code{\link{yrnat3}}
 }
+\concept{Agriculture}
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

@@ -56,6 +56,21 @@ Other Core:
 \code{\link{prayer}},
 \code{\link{prayery}},
 \code{\link{tithing}}
+
+Other Religion: 
+\code{\link{bible}},
+\code{\link{bibley}},
+\code{\link{prayer}},
+\code{\link{prayery}},
+\code{\link{tithing}}
+
+Other Split Ballots: 
+\code{\link{bible}},
+\code{\link{bibley}},
+\code{\link{prayer}},
+\code{\link{prayery}}
 }
 \concept{Core}
+\concept{Religion}
+\concept{Split Ballots}
 \keyword{variable}

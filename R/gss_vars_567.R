@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -74,6 +75,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' @family Life Events
 #' 
 #' @keywords variable
 #' @md
@@ -115,6 +117,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' @family Life Events
 #' 
 #' @keywords variable
 #' @md
@@ -176,6 +179,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Income
+#' @family Household
+#' @family Income
+#' @family Poverty
 #' 
 #' @keywords variable
 #' @md
@@ -239,6 +245,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Income
+#' @family Household
+#' @family Income
+#' @family Poverty
 #' 
 #' @keywords variable
 #' @md
@@ -268,6 +277,7 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Income
 #' @family Income
 #' 
 #' @keywords variable
@@ -299,6 +309,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Income
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -329,6 +340,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Income
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -358,6 +370,7 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Income
 #' @family Income
 #' 
 #' @keywords variable
@@ -394,6 +407,7 @@ NULL
 #'  |Total |0   |44  |18   |1   |1    |1    |6   |3   |1   |51  |2    |1   |3   |2   |7   |247 |1   |1   |4   |1   |2   |1  |121 |1   |3   |3   |4   |1   |2  |269 |1   |2   |2   |4   |1   |1   |1   |56  |1   |4   |1   |8   |200 |2   |13  |1   |1   |3   |2  |192 |1    |1   |3   |1  |48  |1   |1   |1   |10  |1    |2  |5   |12  |1  |1  |219       |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Income
 #' @family Income
 #' 
 #' @keywords variable

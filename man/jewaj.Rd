@@ -55,4 +55,5 @@ Other Core:
 \code{\link{spattend}}
 }
 \concept{Core}
+\concept{Jews}
 \keyword{variable}

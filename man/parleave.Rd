@@ -51,6 +51,30 @@ Other Gender:
 \code{\link{nohmewrk}},
 \code{\link{nonurse}},
 \code{\link{womenben}}
+
+Other Family: 
+\code{\link{allben}},
+\code{\link{chldben}},
+\code{\link{flextime}},
+\code{\link{menben}},
+\code{\link{nohmewrk}},
+\code{\link{nonurse}},
+\code{\link{womenben}}
+
+Other Job: 
+\code{\link{discaffm}},
+\code{\link{discaffw}},
+\code{\link{flextime}},
+\code{\link{nohmewrk}},
+\code{\link{nonurse}}
+
+Other Work: 
+\code{\link{flextime}},
+\code{\link{nohmewrk}},
+\code{\link{nonurse}}
 }
+\concept{Family}
 \concept{Gender}
+\concept{Job}
+\concept{Work}
 \keyword{variable}

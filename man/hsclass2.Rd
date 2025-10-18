@@ -59,6 +59,12 @@ Other Culture:
 \code{\link{colmajr2}},
 \code{\link{hsclass1}},
 \code{\link{mostimp4}}
+
+Other Education: 
+\code{\link{colmajr1}},
+\code{\link{colmajr2}},
+\code{\link{hsclass1}}
 }
 \concept{Culture}
+\concept{Education}
 \keyword{variable}

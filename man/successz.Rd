@@ -55,6 +55,29 @@ Other Core:
 \code{\link{obeysy}},
 \code{\link{responsy}},
 \code{\link{studiouy}}
+
+Other Children: 
+\code{\link{cleanz}},
+\code{\link{considey}},
+\code{\link{honestz}},
+\code{\link{interesy}},
+\code{\link{judgmenz}},
+\code{\link{mannersz}},
+\code{\link{obeysy}},
+\code{\link{responsy}},
+\code{\link{studiouy}}
+
+Other Split Ballots: 
+\code{\link{cleanz}},
+\code{\link{considey}},
+\code{\link{honestz}},
+\code{\link{interesy}},
+\code{\link{judgmenz}},
+\code{\link{obeysy}},
+\code{\link{responsy}},
+\code{\link{studiouy}}
 }
+\concept{Children}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

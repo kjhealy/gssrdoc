@@ -77,6 +77,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Citizenship
+#' @family Immigration
+#' @family Nativity
 #' 
 #' @keywords variable
 #' @md
@@ -114,6 +117,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Age
+#' @family Citizenship
+#' @family Immigration
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -152,6 +159,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Citizenship
+#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -193,6 +202,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Citizenship
+#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -279,6 +290,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Education
+#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -317,6 +330,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Health
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -391,6 +407,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Health
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -429,6 +448,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Health
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -472,6 +493,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Gays And Lesbians
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -517,6 +540,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Gays And Lesbians
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md

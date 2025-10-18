@@ -55,4 +55,5 @@ Other ISSP Family & Gender Roles:
 \code{\link{wkyngscl}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Marriage}
 \keyword{variable}

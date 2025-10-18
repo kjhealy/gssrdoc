@@ -80,4 +80,5 @@ Other Core:
 \code{\link{tvhours}}
 }
 \concept{Core}
+\concept{Guns}
 \keyword{variable}

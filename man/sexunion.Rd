@@ -50,6 +50,23 @@ Other Sexual Orientation:
 \code{\link{marunion}},
 \code{\link{relgendr}},
 \code{\link{toldsxor}}
+
+Other Gays And Lesbians: 
+\code{\link{attractd}},
+\code{\link{marunion}},
+\code{\link{toldsxor}}
+
+Other Marital Status: 
+\code{\link{marunion}},
+\code{\link{relgendr}}
+
+Other Sex: 
+\code{\link{attractd}},
+\code{\link{relgendr}},
+\code{\link{toldsxor}}
 }
+\concept{Gays And Lesbians}
+\concept{Marital Status}
+\concept{Sex}
 \concept{Sexual Orientation}
 \keyword{variable}

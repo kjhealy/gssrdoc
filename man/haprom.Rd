@@ -44,6 +44,11 @@ Counts by year:\tabular{llllllll}{
 Other Gender: 
 \code{\link{livewith}},
 \code{\link{romance}}
+
+Other Romantic Relationships: 
+\code{\link{livewith}},
+\code{\link{romance}}
 }
 \concept{Gender}
+\concept{Romantic Relationships}
 \keyword{variable}

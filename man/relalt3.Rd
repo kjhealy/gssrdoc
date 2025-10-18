@@ -52,6 +52,18 @@ Other Spirituality and Religion:
 \code{\link{relalt4}},
 \code{\link{relalt5}},
 \code{\link{relalt6}}
+
+Other Religion: 
+\code{\link{alloflfe}},
+\code{\link{changed1}},
+\code{\link{changed2}},
+\code{\link{changed3}},
+\code{\link{relalt1}},
+\code{\link{relalt2}},
+\code{\link{relalt4}},
+\code{\link{relalt5}},
+\code{\link{relalt6}}
 }
+\concept{Religion}
 \concept{Spirituality and Religion}
 \keyword{variable}

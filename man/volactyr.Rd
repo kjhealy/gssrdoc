@@ -49,6 +49,10 @@ Other ISSP Role of Gov't:
 \code{\link{polefy3}},
 \code{\link{prespop}},
 \code{\link{volacty2}}
+
+Other Voluntary Associations: 
+\code{\link{volacty2}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Voluntary Associations}
 \keyword{variable}

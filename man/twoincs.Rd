@@ -55,7 +55,18 @@ Other ISSP Family & Gender Roles:
 \code{\link{hubbywrk}},
 \code{\link{kidsuffr}},
 \code{\link{mawrkwrm}}
+
+Other Women: 
+\code{\link{famsuffr}},
+\code{\link{fejobind}},
+\code{\link{hapifwrk}},
+\code{\link{homekid}},
+\code{\link{housewrk}},
+\code{\link{hubbywrk}},
+\code{\link{kidsuffr}},
+\code{\link{mawrkwrm}}
 }
 \concept{Gender}
 \concept{ISSP Family & Gender Roles}
+\concept{Women}
 \keyword{variable}

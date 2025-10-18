@@ -51,6 +51,15 @@ Other Core:
 \code{\link{racjoin}},
 \code{\link{racthink}},
 \code{\link{wrkwayup}}
+
+Other Split Ballots: 
+\code{\link{raccare}},
+\code{\link{racfirm}},
+\code{\link{racgive}},
+\code{\link{racinfo}},
+\code{\link{racjoin}},
+\code{\link{racthink}}
 }
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

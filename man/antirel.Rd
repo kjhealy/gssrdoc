@@ -53,5 +53,6 @@ Other ISSP Religion:
 \code{\link{socright}},
 \code{\link{trustsci}}
 }
+\concept{Civil Liberties}
 \concept{ISSP Religion}
 \keyword{variable}

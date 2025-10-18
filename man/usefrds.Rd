@@ -54,6 +54,10 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{othfrd}},
 \code{\link{trustpeo}},
 \code{\link{wantbest}}
+
+Other Altruism: 
+\code{\link{helpfrds}}
 }
+\concept{Altruism}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

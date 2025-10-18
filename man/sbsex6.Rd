@@ -51,6 +51,22 @@ Other Family Mobility:
 \code{\link{sbsex3}},
 \code{\link{sbsex4}},
 \code{\link{sbsex5}}
+
+Other Sex: 
+\code{\link{sbsex1}},
+\code{\link{sbsex2}},
+\code{\link{sbsex3}},
+\code{\link{sbsex4}},
+\code{\link{sbsex5}}
+
+Other Siblings: 
+\code{\link{sbsex1}},
+\code{\link{sbsex2}},
+\code{\link{sbsex3}},
+\code{\link{sbsex4}},
+\code{\link{sbsex5}}
 }
 \concept{Family Mobility}
+\concept{Sex}
+\concept{Siblings}
 \keyword{variable}

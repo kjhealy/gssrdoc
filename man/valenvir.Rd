@@ -50,6 +50,18 @@ Other Markets & Exchange - Giving & Volunteering:
 \code{\link{valrelig}},
 \code{\link{valwork}},
 \code{\link{valyouth}}
+
+Other Voluntary Associations: 
+\code{\link{valart}},
+\code{\link{valfound}},
+\code{\link{valhuman}},
+\code{\link{valpol}},
+\code{\link{valpub}},
+\code{\link{valrec}},
+\code{\link{valrelig}},
+\code{\link{valwork}},
+\code{\link{valyouth}}
 }
 \concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

@@ -54,6 +54,17 @@ Other National Security:
 \code{\link{rptcowrk}},
 \code{\link{secdocs}},
 \code{\link{sectech}}
+
+Other United States: 
+\code{\link{askcrime}},
+\code{\link{askfinan}},
+\code{\link{askforgn}},
+\code{\link{askmentl}},
+\code{\link{rptcowrk}},
+\code{\link{secdocs}},
+\code{\link{sectech}}
 }
+\concept{Drug Use And Addiction}
 \concept{National Security}
+\concept{United States}
 \keyword{variable}

@@ -53,6 +53,14 @@ Other ISSP National Identity:
 \code{\link{patriot2}},
 \code{\link{patriot4}},
 \code{\link{shortcom}}
+
+Other United States: 
+\code{\link{immcult}},
+\code{\link{patriot1}},
+\code{\link{patriot2}},
+\code{\link{patriot4}},
+\code{\link{shortcom}}
 }
 \concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

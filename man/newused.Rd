@@ -46,6 +46,14 @@ Other Markets:
 \code{\link{relprivt}},
 \code{\link{typdealr}},
 \code{\link{warrntyc}}
+
+Other Purchases/Transactions: 
+\code{\link{cardealr}},
+\code{\link{carprivt}},
+\code{\link{relprivt}},
+\code{\link{typdealr}},
+\code{\link{warrntyc}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

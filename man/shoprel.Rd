@@ -50,6 +50,17 @@ Other Religion:
 \code{\link{relsch}},
 \code{\link{shopmove}},
 \code{\link{shopnum}}
+
+Other Religion: 
+\code{\link{chrissch}},
+\code{\link{denomsch}},
+\code{\link{implives}},
+\code{\link{othchrch}},
+\code{\link{othsch}},
+\code{\link{privsch}},
+\code{\link{relsch}},
+\code{\link{shopmove}},
+\code{\link{shopnum}}
 }
 \concept{Religion}
 \keyword{variable}

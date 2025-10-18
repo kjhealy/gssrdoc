@@ -53,6 +53,20 @@ Other ISSP Religion:
 \code{\link{relsprt}},
 \code{\link{rightpeo}},
 \code{\link{vistholy}}
+
+Other Friends: 
+\code{\link{rightpeo}}
+
+Other Religion: 
+\code{\link{comfort}},
+\code{\link{paxhappy}},
+\code{\link{relobjct}},
+\code{\link{relsprt}},
+\code{\link{rightpeo}},
+\code{\link{vistholy}}
 }
+\concept{Friends}
 \concept{ISSP Religion}
+\concept{Religion}
+\concept{Sociability}
 \keyword{variable}

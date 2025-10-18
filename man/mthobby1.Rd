@@ -53,6 +53,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{mtschl4}},
 \code{\link{mtyouth4}},
 \code{\link{mtyouth5}}
+
+Other Voluntary Associations: 
+\code{\link{mtgreek1}},
+\code{\link{mthobby2}},
+\code{\link{mthobby3}},
+\code{\link{mtschl1}},
+\code{\link{mtschl2}},
+\code{\link{mtschl3}},
+\code{\link{mtschl4}},
+\code{\link{mtyouth4}},
+\code{\link{mtyouth5}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

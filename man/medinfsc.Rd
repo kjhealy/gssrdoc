@@ -55,6 +55,16 @@ Other Science Knowledge & Attitudes:
 \code{\link{scresrch}},
 \code{\link{txbiz}},
 \code{\link{txeco}}
+
+Other Science: 
+\code{\link{medagrsc}},
+\code{\link{medbstsc}},
+\code{\link{polbstsc}},
+\code{\link{polinfsc}},
+\code{\link{relbstsc}},
+\code{\link{relinfsc}},
+\code{\link{scresrch}}
 }
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

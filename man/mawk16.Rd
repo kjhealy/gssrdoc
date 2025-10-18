@@ -59,6 +59,13 @@ Other Core:
 \code{\link{mawork}},
 \code{\link{mawrkgrw}},
 \code{\link{parborn}}
+
+Other Labor Force Status: 
+\code{\link{mawkbaby}},
+\code{\link{mawkborn}},
+\code{\link{mawork}},
+\code{\link{mawrkgrw}}
 }
 \concept{Core}
+\concept{Labor Force Status}
 \keyword{variable}

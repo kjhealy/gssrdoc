@@ -52,5 +52,6 @@ Other Multiculturalism:
 \code{\link{workimm}},
 \code{\link{workundc}}
 }
+\concept{Economy}
 \concept{Multiculturalism}
 \keyword{variable}

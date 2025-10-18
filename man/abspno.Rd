@@ -49,6 +49,11 @@ Other Core:
 \code{\link{form}},
 \code{\link{phone}},
 \code{\link{radiohrs}}
+
+Other Abortion: 
+\code{\link{abhave1}},
+\code{\link{abhave2}}
 }
+\concept{Abortion}
 \concept{Core}
 \keyword{variable}

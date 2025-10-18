@@ -53,6 +53,21 @@ Other Core:
 \code{\link{nukewar}},
 \code{\link{upgrade}()},
 \code{\link{vetaid}}
+
+Other Foreign Affairs: 
+\code{\link{lessnuke}},
+\code{\link{morenuke}},
+\code{\link{nonuke}},
+\code{\link{nukewar}}
+
+Other United States: 
+\code{\link{guerilla}},
+\code{\link{lessnuke}},
+\code{\link{morenuke}},
+\code{\link{nonuke}},
+\code{\link{nukewar}}
 }
 \concept{Core}
+\concept{Foreign Affairs}
+\concept{United States}
 \keyword{variable}

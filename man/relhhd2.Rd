@@ -83,6 +83,39 @@ Other Household Members and Structure:
 \code{\link{relhhd6}},
 \code{\link{relhhd7}},
 \code{\link{where14}}
+
+Other Cohabitation: 
+\code{\link{relhhd1}},
+\code{\link{relhhd3}},
+\code{\link{relhhd4}},
+\code{\link{relhhd5}},
+\code{\link{relhhd6}},
+\code{\link{relhhd7}}
+
+Other Family: 
+\code{\link{away14}},
+\code{\link{mar14}},
+\code{\link{relhhd1}},
+\code{\link{relhhd3}},
+\code{\link{relhhd4}},
+\code{\link{relhhd5}},
+\code{\link{relhhd6}},
+\code{\link{relhhd7}},
+\code{\link{where14}}
+
+Other Household: 
+\code{\link{away14}},
+\code{\link{mar14}},
+\code{\link{relhhd1}},
+\code{\link{relhhd3}},
+\code{\link{relhhd4}},
+\code{\link{relhhd5}},
+\code{\link{relhhd6}},
+\code{\link{relhhd7}},
+\code{\link{where14}}
 }
+\concept{Cohabitation}
+\concept{Family}
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

@@ -56,6 +56,10 @@ Other ISSP Social Inequality:
 \code{\link{paysup}},
 \code{\link{richeduc}},
 \code{\link{richhlth}}
+
+Other Foreign Affairs: 
+\code{\link{ldctax}}
 }
+\concept{Foreign Affairs}
 \concept{ISSP Social Inequality}
 \keyword{variable}

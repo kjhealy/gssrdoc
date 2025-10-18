@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name clrgmode
@@ -67,6 +68,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -105,6 +107,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -143,6 +146,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -184,6 +188,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -225,6 +230,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -266,6 +272,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -307,6 +314,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -348,6 +356,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Federal Government
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -389,6 +399,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md

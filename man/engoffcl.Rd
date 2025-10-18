@@ -51,6 +51,16 @@ Other Multiculturalism:
 \code{\link{ethspkok}},
 \code{\link{letin}},
 \code{\link{symptblk}}
+
+Other Language: 
+\code{\link{bilinged}},
+\code{\link{engballt}},
+\code{\link{engteach}}
+
+Other United States: 
+\code{\link{letin}}
 }
+\concept{Language}
 \concept{Multiculturalism}
+\concept{United States}
 \keyword{variable}

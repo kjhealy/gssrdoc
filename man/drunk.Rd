@@ -64,6 +64,10 @@ Other Core:
 \code{\link{socpars}},
 \code{\link{socsibs}},
 \code{\link{weekswrk}}
+
+Other Drinking: 
+\code{\link{drink}}
 }
 \concept{Core}
+\concept{Drinking}
 \keyword{variable}

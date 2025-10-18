@@ -62,6 +62,22 @@ Other Quality of Working Life:
 \code{\link{wrksched}},
 \code{\link{wrktype}},
 \code{\link{yearsjob}}
+
+Other Employment: 
+\code{\link{chngtme}},
+\code{\link{moredays}},
+\code{\link{mustwork}},
+\code{\link{wrksched}},
+\code{\link{wrktype}},
+\code{\link{yearsjob}}
+
+Other Work: 
+\code{\link{moredays}},
+\code{\link{mustwork}},
+\code{\link{wrksched}},
+\code{\link{yearsjob}}
 }
+\concept{Employment}
 \concept{Quality of Working Life}
+\concept{Work}
 \keyword{variable}

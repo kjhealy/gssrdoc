@@ -56,4 +56,5 @@ Other ISSP Family & Gender Roles:
 \code{\link{spevdiv}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Income}
 \keyword{variable}

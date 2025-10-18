@@ -51,6 +51,14 @@ Other Mental Health:
 \code{\link{psyckid3}},
 \code{\link{psycpsyc}},
 \code{\link{usedmntl}}
+
+Other Health: 
+\code{\link{anydoc}},
+\code{\link{doclist}},
+\code{\link{hlthinsr}},
+\code{\link{mntlcare}},
+\code{\link{usedmntl}}
 }
+\concept{Health}
 \concept{Mental Health}
 \keyword{variable}

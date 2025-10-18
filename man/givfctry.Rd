@@ -54,6 +54,22 @@ Other ISSP Social Inequality:
 \code{\link{govminc}},
 \code{\link{govunemp}},
 \code{\link{incgap}}
+
+Other Inequality, Income: 
+\code{\link{givjudge}},
+\code{\link{givrocc}},
+\code{\link{goveqinc}},
+\code{\link{govjobs}},
+\code{\link{govless}},
+\code{\link{govminc}},
+\code{\link{govunemp}},
+\code{\link{incgap}}
+
+Other Occupation: 
+\code{\link{givjudge}},
+\code{\link{givrocc}}
 }
 \concept{ISSP Social Inequality}
+\concept{Inequality, Income}
+\concept{Occupation}
 \keyword{variable}

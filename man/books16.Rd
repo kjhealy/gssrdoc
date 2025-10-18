@@ -47,4 +47,5 @@ Counts by year:\tabular{llllllllllllll}{
 }
 
 \concept{ISSP Social Inequality}
+\concept{Social Class}
 \keyword{variable}

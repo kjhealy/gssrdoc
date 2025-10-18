@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name allorglevel
@@ -71,6 +72,7 @@ NULL
 #'  |Total |1557 |991        |666          |144                     |141              |8          |20        |17             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -113,6 +115,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name worry
@@ -153,6 +156,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name feeldown
@@ -191,6 +195,7 @@ NULL
 #'  |Total |1557 |1329       |447          |100                     |66               |6          |19        |20             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -234,6 +239,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name svyenjoy
@@ -272,6 +278,7 @@ NULL
 #'  |Total |66  |424         |1015            |825             |1152              |27         |25        |10             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -314,6 +321,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name svyid2
@@ -354,6 +362,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name yrlvmus
@@ -393,6 +402,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
+#' 
 #' 
 #' @keywords variable
 #' @md

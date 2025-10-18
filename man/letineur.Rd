@@ -53,6 +53,14 @@ Other Multi-Ethnic United States:
 \code{\link{othhome}},
 \code{\link{spklangw}},
 \code{\link{uswht}}
+
+Other Immigration: 
+\code{\link{immcrmup}},
+\code{\link{immnew}},
+\code{\link{immnojob}},
+\code{\link{letinasn}},
+\code{\link{letinhsp}}
 }
+\concept{Immigration}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

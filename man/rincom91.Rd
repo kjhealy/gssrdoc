@@ -72,6 +72,18 @@ Other Core:
 \code{\link{rincom77}},
 \code{\link{rincom82}},
 \code{\link{rincom86}}
+
+Other Income: 
+\code{\link{income72}},
+\code{\link{income77}},
+\code{\link{income82}},
+\code{\link{income86}},
+\code{\link{income91}},
+\code{\link{income98}},
+\code{\link{rincom77}},
+\code{\link{rincom82}},
+\code{\link{rincom86}}
 }
 \concept{Core}
+\concept{Income}
 \keyword{variable}

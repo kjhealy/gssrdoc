@@ -56,6 +56,17 @@ Other Social Networks:
 \code{\link{memgrp3}},
 \code{\link{memgrp4}},
 \code{\link{memgrp5}}
+
+Other Social Networks: 
+\code{\link{cowork1}},
+\code{\link{cowork3}},
+\code{\link{cowork4}},
+\code{\link{cowork5}},
+\code{\link{memgrp1}},
+\code{\link{memgrp2}},
+\code{\link{memgrp3}},
+\code{\link{memgrp4}},
+\code{\link{memgrp5}}
 }
 \concept{Social Networks}
 \keyword{variable}

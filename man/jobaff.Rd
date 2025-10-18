@@ -54,6 +54,27 @@ Other Multiculturalism:
 \code{\link{schleth}},
 \code{\link{teacheth}},
 \code{\link{whoteach}}
+
+Other Affirmative Action: 
+\code{\link{colaff}},
+\code{\link{colaffy}},
+\code{\link{discaffy}}
+
+Other Blacks: 
+\code{\link{colaff}},
+\code{\link{colaffy}},
+\code{\link{discaffy}}
+
+Other Federal Government: 
+\code{\link{congeth}},
+\code{\link{owneth}}
+
+Other Job: 
+\code{\link{discaffy}}
 }
+\concept{Affirmative Action}
+\concept{Blacks}
+\concept{Federal Government}
+\concept{Job}
 \concept{Multiculturalism}
 \keyword{variable}

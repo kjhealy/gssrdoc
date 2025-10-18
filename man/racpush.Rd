@@ -67,6 +67,12 @@ Other Core:
 \code{\link{racmar}},
 \code{\link{racmar10}},
 \code{\link{relgrade}}
+
+Other Race: 
+\code{\link{racdin}},
+\code{\link{racmar}},
+\code{\link{racmar10}}
 }
 \concept{Core}
+\concept{Race}
 \keyword{variable}

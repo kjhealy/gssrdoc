@@ -47,6 +47,12 @@ Other Employee Compensation:
 \code{\link{lastwkyr}},
 \code{\link{talkemp}},
 \code{\link{talksup}}
+
+Other Job: 
+\code{\link{donothng}},
+\code{\link{talkemp}},
+\code{\link{talksup}}
 }
 \concept{Employee Compensation}
+\concept{Job}
 \keyword{variable}

@@ -61,6 +61,17 @@ Other Mental Health:
 \code{\link{mentlill}},
 \code{\link{physill}},
 \code{\link{upsdowns}}
+
+Other Mental Health: 
+\code{\link{breakdwn}},
+\code{\link{decmoney}},
+\code{\link{dectreat}},
+\code{\link{genetics}},
+\code{\link{godswill}},
+\code{\link{imprvown}},
+\code{\link{mentlill}},
+\code{\link{physill}},
+\code{\link{upsdowns}}
 }
 \concept{Mental Health}
 \keyword{variable}

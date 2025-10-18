@@ -55,6 +55,17 @@ Other Social Networks:
 \code{\link{relig4}},
 \code{\link{relig5}},
 \code{\link{talkpol1}}
+
+Other Social Networks: 
+\code{\link{partyid1}},
+\code{\link{partyid2}},
+\code{\link{partyid3}},
+\code{\link{relig1}},
+\code{\link{relig2}},
+\code{\link{relig3}},
+\code{\link{relig4}},
+\code{\link{relig5}},
+\code{\link{talkpol1}}
 }
 \concept{Social Networks}
 \keyword{variable}

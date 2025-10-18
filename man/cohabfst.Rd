@@ -56,6 +56,10 @@ Other ISSP Family & Gender Roles:
 \code{\link{meovrwrk}},
 \code{\link{mrmom}},
 \code{\link{singlpar}}
+
+Other Cohabitation: 
+\code{\link{cohabok}}
 }
+\concept{Cohabitation}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

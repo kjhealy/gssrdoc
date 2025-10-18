@@ -54,6 +54,22 @@ Other Religion:
 \code{\link{godsport}},
 \code{\link{numbwfrd}},
 \code{\link{numfrend}}
+
+Other Friends: 
+\code{\link{bwfriend}},
+\code{\link{friends}},
+\code{\link{frndrac3}},
+\code{\link{frndrac5}},
+\code{\link{numbwfrd}},
+\code{\link{numfrend}}
+
+Other Race: 
+\code{\link{bwfriend}},
+\code{\link{frndrac3}},
+\code{\link{frndrac5}},
+\code{\link{numbwfrd}}
 }
+\concept{Friends}
+\concept{Race}
 \concept{Religion}
 \keyword{variable}

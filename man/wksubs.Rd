@@ -83,6 +83,11 @@ Other Core:
 \code{\link{wksub1}},
 \code{\link{wksubs1}},
 \code{\link{wksup}}
+
+Other Work: 
+\code{\link{wksub}},
+\code{\link{wksup}}
 }
 \concept{Core}
+\concept{Work}
 \keyword{variable}

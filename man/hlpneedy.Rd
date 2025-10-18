@@ -44,6 +44,11 @@ Counts by year:\tabular{lllllll}{
 Other Adult Transitions: 
 \code{\link{givchng}},
 \code{\link{partthon}}
+
+Other Demonstrations: 
+\code{\link{givchng}},
+\code{\link{partthon}}
 }
 \concept{Adult Transitions}
+\concept{Demonstrations}
 \keyword{variable}

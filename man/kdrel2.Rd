@@ -52,6 +52,42 @@ Other Family Mobility:
 \code{\link{kdrel7}},
 \code{\link{kdrel8}},
 \code{\link{kdrel9}}
+
+Other Children: 
+\code{\link{kdalive1}},
+\code{\link{kdrel1}},
+\code{\link{kdrel3}},
+\code{\link{kdrel4}},
+\code{\link{kdrel5}},
+\code{\link{kdrel6}},
+\code{\link{kdrel7}},
+\code{\link{kdrel8}},
+\code{\link{kdrel9}}
+
+Other Family: 
+\code{\link{kdalive1}},
+\code{\link{kdrel1}},
+\code{\link{kdrel3}},
+\code{\link{kdrel4}},
+\code{\link{kdrel5}},
+\code{\link{kdrel6}},
+\code{\link{kdrel7}},
+\code{\link{kdrel8}},
+\code{\link{kdrel9}}
+
+Other Household: 
+\code{\link{kdalive1}},
+\code{\link{kdrel1}},
+\code{\link{kdrel3}},
+\code{\link{kdrel4}},
+\code{\link{kdrel5}},
+\code{\link{kdrel6}},
+\code{\link{kdrel7}},
+\code{\link{kdrel8}},
+\code{\link{kdrel9}}
 }
+\concept{Children}
+\concept{Family}
 \concept{Family Mobility}
+\concept{Household}
 \keyword{variable}

@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
+#' @family Art/The Arts (And Literature)
 #' 
 #' @keywords variable
 #' @md
@@ -70,6 +71,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
 #' @family Religion and Culture
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -111,6 +113,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
 #' @family Religion and Culture
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -152,6 +155,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
 #' @family Religion and Culture
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -190,6 +194,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -228,6 +233,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
+#' @family Leisure
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -266,6 +273,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
+#' @family Art/The Arts (And Literature)
 #' 
 #' @keywords variable
 #' @md
@@ -305,6 +313,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
+#' @family Art/The Arts (And Literature)
 #' 
 #' @keywords variable
 #' @md
@@ -344,6 +353,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
+#' @family Art/The Arts (And Literature)
 #' 
 #' @keywords variable
 #' @md
@@ -383,6 +393,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
+#' 
 #' 
 #' @keywords variable
 #' @md

@@ -55,4 +55,5 @@ Other ISSP Social Inequality:
 \code{\link{unsklrnk}}
 }
 \concept{ISSP Social Inequality}
+\concept{Occupation}
 \keyword{variable}

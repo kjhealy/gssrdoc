@@ -53,6 +53,10 @@ Other Intergroup Relations:
 \code{\link{violjews}},
 \code{\link{violso}},
 \code{\link{violwhts}}
+
+Other Asian Americans: 
+\code{\link{violasns}}
 }
+\concept{Asian Americans}
 \concept{Intergroup Relations}
 \keyword{variable}

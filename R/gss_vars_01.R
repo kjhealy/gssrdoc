@@ -21,6 +21,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Date Of Interview
+#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -52,6 +54,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -131,6 +134,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Employment
+#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -163,6 +168,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Employment
+#' @family Hours Worked
+#' @family Labor Force Status
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -235,6 +244,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Employment
+#' @family Hours Worked
+#' @family Labor Force Status
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -309,6 +322,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -346,6 +360,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -407,6 +422,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Occupation
+#' @family Occupational Prestige
 #' 
 #' @keywords variable
 #' @md
@@ -488,6 +505,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Job
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -547,6 +567,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Industry
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md

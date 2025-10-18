@@ -52,6 +52,18 @@ Other Mental Health IV:
 \code{\link{mhdohosp}},
 \code{\link{mhdolife}},
 \code{\link{mhdorx}}
+
+Other Mental Health: 
+\code{\link{mhdoactv}},
+\code{\link{mhdodiet}},
+\code{\link{mhdoexrc}},
+\code{\link{mhdofrgt}},
+\code{\link{mhdogrp}},
+\code{\link{mhdoherb}},
+\code{\link{mhdohosp}},
+\code{\link{mhdolife}},
+\code{\link{mhdorx}}
 }
+\concept{Mental Health}
 \concept{Mental Health IV}
 \keyword{variable}

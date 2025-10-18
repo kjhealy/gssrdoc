@@ -50,6 +50,11 @@ Other ISSP National Identity:
 \code{\link{livecom1}},
 \code{\link{meltpot1}},
 \code{\link{refugees}}
+
+Other Residence: 
+\code{\link{abroad}},
+\code{\link{livecom1}}
 }
 \concept{ISSP National Identity}
+\concept{Residence}
 \keyword{variable}

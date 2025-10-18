@@ -60,5 +60,7 @@ Other ISSP Family & Gender Roles:
 \code{\link{ssmchild}},
 \code{\link{twoincs1}}
 }
+\concept{Happiness}
 \concept{ISSP Family & Gender Roles}
+\concept{Split Ballots}
 \keyword{variable}

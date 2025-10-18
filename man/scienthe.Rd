@@ -62,7 +62,18 @@ Other Science Knowledge & Attitudes:
 Other GSS Next: 
 \code{\link{scientbe}},
 \code{\link{scientgo}}
+
+Other Science: 
+\code{\link{sciental}},
+\code{\link{scientbe}},
+\code{\link{scientdn}},
+\code{\link{scientdo}},
+\code{\link{scientfu}},
+\code{\link{scientgo}},
+\code{\link{scientod}},
+\code{\link{scientr}}
 }
 \concept{GSS Next}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

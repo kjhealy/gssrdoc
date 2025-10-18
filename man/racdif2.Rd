@@ -76,6 +76,28 @@ Other Core:
 \code{\link{racquit}},
 \code{\link{racsups}},
 \code{\link{racteach}}
+
+Other Inequality, Income: 
+\code{\link{racdif1}},
+\code{\link{racdif3}}
+
+Other Poverty: 
+\code{\link{racdif1}},
+\code{\link{racdif3}}
+
+Other Race: 
+\code{\link{racavoid}},
+\code{\link{racchng}},
+\code{\link{racdif1}},
+\code{\link{racdif3}},
+\code{\link{racmarel}},
+\code{\link{racmarpr}},
+\code{\link{racquit}},
+\code{\link{racsups}},
+\code{\link{racteach}}
 }
 \concept{Core}
+\concept{Inequality, Income}
+\concept{Poverty}
+\concept{Race}
 \keyword{variable}

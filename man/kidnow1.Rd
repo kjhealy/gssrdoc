@@ -51,6 +51,26 @@ Other Sexual Orientation:
 \code{\link{relgendr}},
 \code{\link{sexunion}},
 \code{\link{toldsxor}}
+
+Other Children: 
+\code{\link{adoptkid}},
+\code{\link{evkid}},
+\code{\link{kidlived}},
+\code{\link{kidresp}}
+
+Other Family: 
+\code{\link{adoptkid}},
+\code{\link{evkid}},
+\code{\link{kidlived}},
+\code{\link{kidresp}},
+\code{\link{marunion}}
+
+Other Household: 
+\code{\link{kidlived}},
+\code{\link{kidresp}}
 }
+\concept{Children}
+\concept{Family}
+\concept{Household}
 \concept{Sexual Orientation}
 \keyword{variable}

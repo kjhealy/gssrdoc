@@ -44,6 +44,27 @@ Other Self Employment:
 \code{\link{owninc}},
 \code{\link{paidemps}},
 \code{\link{whybiz}}
+
+Other Business: 
+\code{\link{bizgross}},
+\code{\link{bizshare}},
+\code{\link{owninc}},
+\code{\link{paidemps}},
+\code{\link{whybiz}}
+
+Other Employment: 
+\code{\link{bizgross}},
+\code{\link{bizshare}},
+\code{\link{paidemps}},
+\code{\link{whybiz}}
+
+Other Job: 
+\code{\link{owninc}},
+\code{\link{paidemps}},
+\code{\link{whybiz}}
 }
+\concept{Business}
+\concept{Employment}
+\concept{Job}
 \concept{Self Employment}
 \keyword{variable}

@@ -28,6 +28,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name nmbrkids
@@ -67,6 +68,7 @@ NULL
 #'  |Total |2397 |60 |225 |544 |227 |91 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -110,6 +112,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthbtr
@@ -149,6 +152,7 @@ NULL
 #'  |Total |2378 |100            |273   |365                        |280      |83                |58           |1         |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -192,6 +196,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthgov
@@ -231,6 +236,7 @@ NULL
 #'  |Total |2378 |257            |415   |246                        |166      |36                |40           |2         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -274,6 +280,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthtax
@@ -313,6 +320,7 @@ NULL
 #'  |Total |2379 |169            |331   |184                        |231      |205               |44           |1         |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -356,6 +364,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthdmg
@@ -395,6 +404,7 @@ NULL
 #'  |Total |2430 |693 |211 |143 |41 |26 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

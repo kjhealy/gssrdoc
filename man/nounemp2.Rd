@@ -56,6 +56,10 @@ Other Work Orientation:
 \code{\link{nounemp1}},
 \code{\link{replaceu}},
 \code{\link{timeoff}}
+
+Other Unemployment: 
+\code{\link{nounemp1}}
 }
+\concept{Unemployment}
 \concept{Work Orientation}
 \keyword{variable}

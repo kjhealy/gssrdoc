@@ -53,6 +53,10 @@ Other Science Knowledge & Attitudes:
 \code{\link{seesand}},
 \code{\link{upbreath}},
 \code{\link{weighing}}
+
+Other Environment: 
+\code{\link{polnuke}}
 }
+\concept{Environment}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

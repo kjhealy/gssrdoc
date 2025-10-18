@@ -51,6 +51,34 @@ Other Global Economics:
 \code{\link{whylose2}},
 \code{\link{whylose3}},
 \code{\link{wkcomptr}}
+
+Other Employment: 
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{moretrde}},
+\code{\link{whyjbct2}},
+\code{\link{whylose1}},
+\code{\link{whylose2}},
+\code{\link{whylose3}}
+
+Other Job: 
+\code{\link{findnwjb}},
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{moretrde}},
+\code{\link{whyjbct2}},
+\code{\link{wkcomptr}}
+
+Other Unemployment: 
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{moretrde}},
+\code{\link{whyjbct2}}
 }
+\concept{Employment}
 \concept{Global Economics}
+\concept{Job}
+\concept{Technology}
+\concept{Unemployment}
+\concept{Work}
 \keyword{variable}

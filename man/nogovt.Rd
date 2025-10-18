@@ -55,6 +55,17 @@ Other Freedom:
 \code{\link{rfreenow}},
 \code{\link{rhowfree}},
 \code{\link{satdemoc}}
+
+Other Freedom: 
+\code{\link{choice}},
+\code{\link{freenow}},
+\code{\link{howfree}},
+\code{\link{inpeace}},
+\code{\link{leftlone}},
+\code{\link{partpol}},
+\code{\link{rfreenow}},
+\code{\link{rhowfree}},
+\code{\link{satdemoc}}
 }
 \concept{Freedom}
 \keyword{variable}

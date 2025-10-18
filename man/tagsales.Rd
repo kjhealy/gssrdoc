@@ -53,6 +53,12 @@ Other Markets:
 \code{\link{natrecon}},
 \code{\link{reqinfo}},
 \code{\link{wkfambiz}}
+
+Other Purchases/Transactions: 
+\code{\link{decauto}},
+\code{\link{famfinan}},
+\code{\link{haggle}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

@@ -51,6 +51,11 @@ Other Employee Compensation:
 \code{\link{stockval}},
 \code{\link{workfor}},
 \code{\link{workfor1}}
+
+Other Job: 
+\code{\link{ownstock}},
+\code{\link{stockval}}
 }
 \concept{Employee Compensation}
+\concept{Job}
 \keyword{variable}

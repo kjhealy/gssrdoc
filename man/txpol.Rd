@@ -53,6 +53,16 @@ Other Science Knowledge & Attitudes:
 \code{\link{gmpol}},
 \code{\link{polbsttx}},
 \code{\link{polinftx}}
+
+Other Economy: 
+\code{\link{bizbsttx}},
+\code{\link{bizinftx}},
+\code{\link{ecoagree}},
+\code{\link{ecobsttx}},
+\code{\link{ecoinftx}},
+\code{\link{polbsttx}},
+\code{\link{polinftx}}
 }
+\concept{Economy}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

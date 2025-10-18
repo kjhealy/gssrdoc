@@ -54,6 +54,18 @@ Other Markets:
 \code{\link{relfixer}},
 \code{\link{satfixes}},
 \code{\link{sellbed}}
+
+Other Purchases/Transactions: 
+\code{\link{borrowed}},
+\code{\link{fixer1}},
+\code{\link{fixerc}},
+\code{\link{fixerd}},
+\code{\link{fixere}},
+\code{\link{fixerf}},
+\code{\link{relfixer}},
+\code{\link{satfixes}},
+\code{\link{sellbed}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

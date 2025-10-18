@@ -59,6 +59,10 @@ Other Altruism:
 \code{\link{othshelp}},
 \code{\link{peoptrbl}},
 \code{\link{selffrst}}
+
+Other Feelings: 
+\code{\link{accptoth}}
 }
 \concept{Altruism}
+\concept{Feelings}
 \keyword{variable}

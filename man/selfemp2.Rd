@@ -54,6 +54,13 @@ Other Work Orientation:
 \code{\link{unbetter}},
 \code{\link{unjobsec}},
 \code{\link{wantads}}
+
+Other Work: 
+\code{\link{rimpskls}},
+\code{\link{selfemp1}},
+\code{\link{unbetter}},
+\code{\link{unjobsec}}
 }
+\concept{Work}
 \concept{Work Orientation}
 \keyword{variable}

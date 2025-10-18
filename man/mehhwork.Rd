@@ -54,6 +54,14 @@ Other ISSP Family & Gender Roles:
 \code{\link{spwkgrwn}},
 \code{\link{spwknokd}},
 \code{\link{spwrksch}}
+
+Other Men: 
+\code{\link{mekdcare}}
+
+Other Women: 
+\code{\link{mekdcare}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Men}
+\concept{Women}
 \keyword{variable}

@@ -56,6 +56,12 @@ Other ISSP National Identity:
 \code{\link{kidsaway}},
 \code{\link{kidshere}},
 \code{\link{nafta3}}
+
+Other United States: 
+\code{\link{amproud1}},
+\code{\link{forcult}},
+\code{\link{nafta3}}
 }
 \concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

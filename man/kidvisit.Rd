@@ -55,6 +55,14 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{sibmost}},
 \code{\link{sibnum}},
 \code{\link{sibvisit}}
+
+Other Family: 
+\code{\link{kidmost}},
+\code{\link{matime1}},
+\code{\link{sibcall}},
+\code{\link{sibmost}},
+\code{\link{sibvisit}}
 }
+\concept{Family}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

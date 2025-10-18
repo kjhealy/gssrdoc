@@ -49,6 +49,17 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{yrskwn2}},
 \code{\link{yrskwn3}},
 \code{\link{yrskwn4}}
+
+Other Social Networks: 
+\code{\link{frstmet2}},
+\code{\link{frstmet3}},
+\code{\link{frstmet4}},
+\code{\link{frstmet5}},
+\code{\link{yrskwn1}},
+\code{\link{yrskwn2}},
+\code{\link{yrskwn3}},
+\code{\link{yrskwn4}}
 }
+\concept{Social Networks}
 \concept{Voluntary Assocations/Social Networks}
 \keyword{variable}

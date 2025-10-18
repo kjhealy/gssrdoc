@@ -55,6 +55,20 @@ Other Science Knowledge & Attitudes:
 \code{\link{knwpolar}},
 \code{\link{knwsci}},
 \code{\link{medsci}}
+
+Other Science: 
+\code{\link{biosci}},
+\code{\link{econsci}},
+\code{\link{engnrsci}},
+\code{\link{knwgw}},
+\code{\link{knwpolar}},
+\code{\link{knwsci}},
+\code{\link{medsci}}
 }
+\concept{Employment}
+\concept{Job}
+\concept{Occupation}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
+\concept{Work}
 \keyword{variable}

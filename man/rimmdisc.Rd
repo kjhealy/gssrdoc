@@ -49,6 +49,11 @@ Other Multiculturalism:
 \code{\link{pastdown}},
 \code{\link{pastup}},
 \code{\link{rdiscaff}}
+
+Other Job: 
+\code{\link{rdiscaff}}
 }
+\concept{Immigration}
+\concept{Job}
 \concept{Multiculturalism}
 \keyword{variable}

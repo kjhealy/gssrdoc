@@ -54,5 +54,6 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{grpunion}},
 \code{\link{neifrd}}
 }
+\concept{Family}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

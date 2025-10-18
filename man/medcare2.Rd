@@ -53,6 +53,17 @@ Other Mental Health:
 \code{\link{musthosp}},
 \code{\link{mustmed}},
 \code{\link{spmentl}}
+
+Other Mental Health: 
+\code{\link{dangroth}},
+\code{\link{dangrslf}},
+\code{\link{govmentl}},
+\code{\link{medcare1}},
+\code{\link{mntlas1}},
+\code{\link{mustdoc}},
+\code{\link{musthosp}},
+\code{\link{mustmed}},
+\code{\link{spmentl}}
 }
 \concept{Mental Health}
 \keyword{variable}

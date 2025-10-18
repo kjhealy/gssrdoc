@@ -64,6 +64,17 @@ Other Core:
 \code{\link{salsatfn}},
 \code{\link{salsci}},
 \code{\link{unemp5}}
+
+Other Marital Status: 
+\code{\link{divrel1}},
+\code{\link{divrel4}}
+
+Other Trauma: 
+\code{\link{divrel1}},
+\code{\link{divrel4}},
+\code{\link{unemp5}}
 }
 \concept{Core}
+\concept{Marital Status}
+\concept{Trauma}
 \keyword{variable}

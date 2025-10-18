@@ -52,6 +52,19 @@ Other Core:
 \code{\link{world5}},
 \code{\link{world6}},
 \code{\link{world7}}
+
+Other Religion: 
+\code{\link{prottemp}}
+
+Other World View: 
+\code{\link{world1}},
+\code{\link{world2}},
+\code{\link{world4}},
+\code{\link{world5}},
+\code{\link{world6}},
+\code{\link{world7}}
 }
 \concept{Core}
+\concept{Religion}
+\concept{World View}
 \keyword{variable}

@@ -62,7 +62,19 @@ Other Quality of Working Life:
 
 Other Workplace Conflict: 
 \code{\link{jobsecok}}
+
+Other Job: 
+\code{\link{condemnd}},
+\code{\link{cowrkint}},
+\code{\link{fringeok}},
+\code{\link{haveinfo}},
+\code{\link{hlpequip}},
+\code{\link{jobsecok}},
+\code{\link{opdevel}},
+\code{\link{promtefr}},
+\code{\link{wkfreedm}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
 \concept{Workplace Conflict}
 \keyword{variable}

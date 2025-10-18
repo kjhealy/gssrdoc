@@ -49,6 +49,11 @@ Other Multiculturalism:
 \code{\link{pastdown}},
 \code{\link{pastup}},
 \code{\link{rimmdisc}}
+
+Other Job: 
+\code{\link{rimmdisc}}
 }
+\concept{Affirmative Action}
+\concept{Job}
 \concept{Multiculturalism}
 \keyword{variable}

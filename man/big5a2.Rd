@@ -50,6 +50,14 @@ Other Big 5:
 \code{\link{big5d2}},
 \code{\link{big5e1}},
 \code{\link{big5e2}}
+
+Other Feelings: 
+\code{\link{big5b2}},
+\code{\link{big5c2}},
+\code{\link{big5d2}},
+\code{\link{big5e1}},
+\code{\link{big5e2}}
 }
 \concept{Big 5}
+\concept{Feelings}
 \keyword{variable}

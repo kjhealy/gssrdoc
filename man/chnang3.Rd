@@ -51,6 +51,18 @@ Other Emotions:
 \code{\link{madat22}},
 \code{\link{madat23}},
 \code{\link{thnkangr}}
+
+Other Feelings: 
+\code{\link{angrlast}},
+\code{\link{chnang1}},
+\code{\link{chnang2}},
+\code{\link{chnang4}},
+\code{\link{chnang5}},
+\code{\link{howangry}},
+\code{\link{madat22}},
+\code{\link{madat23}},
+\code{\link{thnkangr}}
 }
 \concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

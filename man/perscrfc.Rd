@@ -40,4 +40,5 @@ Counts by year:\tabular{lllllll}{
 }
 
 \concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

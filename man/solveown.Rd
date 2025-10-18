@@ -56,5 +56,6 @@ Other Mental Health II:
 \code{\link{medunacc}},
 \code{\link{medweak}}
 }
+\concept{Life Events}
 \concept{Mental Health II}
 \keyword{variable}

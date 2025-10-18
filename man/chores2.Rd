@@ -65,6 +65,17 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{frivisit}},
 \code{\link{friwork}},
 \code{\link{relcall}}
+
+Other Social Networks: 
+\code{\link{chores1}},
+\code{\link{fricall}},
+\code{\link{frineigh}},
+\code{\link{frinum}},
+\code{\link{frisex}},
+\code{\link{fritime}},
+\code{\link{frivisit}},
+\code{\link{friwork}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Social Networks}
 \keyword{variable}

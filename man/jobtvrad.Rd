@@ -55,6 +55,15 @@ Other Information Society:
 \code{\link{jobpub}},
 \code{\link{webable}},
 \code{\link{webyr}}
+
+Other Job: 
+\code{\link{jobcntct}},
+\code{\link{jobcowrk}},
+\code{\link{jobfrnds}},
+\code{\link{jobonwww}},
+\code{\link{jobplace}},
+\code{\link{jobpub}}
 }
 \concept{Information Society}
+\concept{Job}
 \keyword{variable}

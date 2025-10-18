@@ -53,6 +53,13 @@ Other ISSP Family & Gender Roles:
 \code{\link{wrkgrown}},
 \code{\link{wrknokid}},
 \code{\link{wrksch}}
+
+Other Children: 
+\code{\link{daycare1}},
+\code{\link{daycare2}},
+\code{\link{daycare3}},
+\code{\link{daycare4}}
 }
+\concept{Children}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

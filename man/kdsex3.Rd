@@ -51,6 +51,36 @@ Other Family Mobility:
 \code{\link{kdsex8}},
 \code{\link{sphedpre105plus}},
 \code{\link{spsibs}}
+
+Other Children: 
+\code{\link{kdsex1}},
+\code{\link{kdsex2}},
+\code{\link{kdsex4}},
+\code{\link{kdsex5}},
+\code{\link{kdsex6}},
+\code{\link{kdsex7}},
+\code{\link{kdsex8}}
+
+Other Household: 
+\code{\link{kdsex1}},
+\code{\link{kdsex2}},
+\code{\link{kdsex4}},
+\code{\link{kdsex5}},
+\code{\link{kdsex6}},
+\code{\link{kdsex7}},
+\code{\link{kdsex8}}
+
+Other Sex: 
+\code{\link{kdsex1}},
+\code{\link{kdsex2}},
+\code{\link{kdsex4}},
+\code{\link{kdsex5}},
+\code{\link{kdsex6}},
+\code{\link{kdsex7}},
+\code{\link{kdsex8}}
 }
+\concept{Children}
 \concept{Family Mobility}
+\concept{Household}
+\concept{Sex}
 \keyword{variable}

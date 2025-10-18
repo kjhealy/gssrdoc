@@ -53,6 +53,18 @@ Other Information Society:
 \code{\link{polneutl}},
 \code{\link{polnew}},
 \code{\link{votefor}}
+
+Other Computers And Internet: 
+\code{\link{contact}},
+\code{\link{meeting}},
+\code{\link{petition}},
+\code{\link{polchnge}},
+\code{\link{polconf}},
+\code{\link{poldsagr}},
+\code{\link{polneutl}},
+\code{\link{polnew}},
+\code{\link{votefor}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

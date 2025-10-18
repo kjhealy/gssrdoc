@@ -47,6 +47,15 @@ Other Work Organizations:
 \code{\link{splocnum}},
 \code{\link{training}},
 \code{\link{wherewrk}}
+
+Other Job: 
+\code{\link{baseofop}},
+\code{\link{exptrain}},
+\code{\link{learning}},
+\code{\link{splocnum}},
+\code{\link{training}},
+\code{\link{wherewrk}}
 }
+\concept{Job}
 \concept{Work Organizations}
 \keyword{variable}

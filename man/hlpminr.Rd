@@ -53,6 +53,10 @@ Other Core:
 \code{\link{impkin}},
 \code{\link{imprelax}},
 \code{\link{impwork}}
+
+Other Race: 
+\code{\link{hlpminfg}}
 }
 \concept{Core}
+\concept{Race}
 \keyword{variable}

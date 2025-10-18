@@ -69,6 +69,18 @@ Other Socio-political participation:
 \code{\link{memnum}},
 \code{\link{memprof}},
 \code{\link{memschl}}
+
+Other Voluntary Associations: 
+\code{\link{memchurh}},
+\code{\link{memfarm}},
+\code{\link{memgreek}},
+\code{\link{memhobby}},
+\code{\link{memlit}},
+\code{\link{memnat}},
+\code{\link{memnum}},
+\code{\link{memprof}},
+\code{\link{memschl}}
 }
 \concept{Socio-political participation}
+\concept{Voluntary Associations}
 \keyword{variable}

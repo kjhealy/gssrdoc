@@ -59,6 +59,14 @@ Other Religion and Culture:
 \code{\link{natarts}},
 \code{\link{relexp}},
 \code{\link{relpersn}}
+
+Other Religion: 
+\code{\link{artgod}},
+\code{\link{irrelart}},
+\code{\link{irreloff}},
+\code{\link{relexp}},
+\code{\link{relpersn}}
 }
+\concept{Religion}
 \concept{Religion and Culture}
 \keyword{variable}

@@ -67,5 +67,7 @@ Other Core:
 \code{\link{racwrite}},
 \code{\link{wrkwayup}}
 }
+\concept{Affirmative Action}
 \concept{Core}
+\concept{Federal Government}
 \keyword{variable}

@@ -50,6 +50,17 @@ Other Socio-political participation:
 \code{\link{loctrust}},
 \code{\link{swayvote}},
 \code{\link{workpol}}
+
+Other Political: 
+\code{\link{intpol}},
+\code{\link{loccare}},
+\code{\link{locgrp}},
+\code{\link{locinflu}},
+\code{\link{loclived}},
+\code{\link{loctrust}},
+\code{\link{swayvote}},
+\code{\link{workpol}}
 }
+\concept{Political}
 \concept{Socio-political participation}
 \keyword{variable}

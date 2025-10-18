@@ -30,6 +30,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name myprobs2
@@ -66,6 +67,7 @@ NULL
 #'  |Total |2095 |118            |5              |35 |23 |17 |24 |6  |10 |9  |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -106,6 +108,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name myprobs4
@@ -142,6 +145,7 @@ NULL
 #'  |Total |2245 |45             |3              |12 |14 |4  |6  |3  |3  |4  |1  |2          |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -182,6 +186,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name severe1
@@ -218,6 +223,7 @@ NULL
 #'  |Total |1982 |29                    |40               |28 |30 |39 |50 |41 |37 |43 |20 |4          |5         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -258,6 +264,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name severe3
@@ -294,6 +301,7 @@ NULL
 #'  |Total |2190 |19                    |12               |16 |11 |17 |29 |8  |9  |15 |10 |6          |6         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -334,6 +342,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name severe5
@@ -370,6 +379,7 @@ NULL
 #'  |Total |1751 |307                      |23                  |72 |55 |29 |30 |26 |19 |15 |7  |11         |3         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

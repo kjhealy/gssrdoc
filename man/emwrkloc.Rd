@@ -50,6 +50,15 @@ Other Information Society:
 \code{\link{emfri}},
 \code{\link{emgroups}},
 \code{\link{emwrkawy}}
+
+Other Computers And Internet: 
+\code{\link{emchurch}},
+\code{\link{emfamloc}},
+\code{\link{emfamoth}},
+\code{\link{emfri}},
+\code{\link{emgroups}},
+\code{\link{emwrkawy}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

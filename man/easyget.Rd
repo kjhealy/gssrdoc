@@ -51,6 +51,16 @@ Other Paradata:
 \code{\link{intyrs}},
 \code{\link{lngthinv}},
 \code{\link{mode}()}
+
+Other Interview: 
+\code{\link{consent}},
+\code{\link{intage}},
+\code{\link{intethn}},
+\code{\link{intsex}},
+\code{\link{intyrs}},
+\code{\link{lngthinv}},
+\code{\link{mode}()}
 }
+\concept{Interview}
 \concept{Paradata}
 \keyword{variable}

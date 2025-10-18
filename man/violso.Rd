@@ -54,4 +54,5 @@ Other Intergroup Relations:
 \code{\link{violwhts}}
 }
 \concept{Intergroup Relations}
+\concept{Southern Whites}
 \keyword{variable}

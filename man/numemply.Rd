@@ -56,5 +56,7 @@ Other Work Orientation:
 \code{\link{suprvsjb}},
 \code{\link{totalnum}}
 }
+\concept{Business}
+\concept{Employment}
 \concept{Work Orientation}
 \keyword{variable}

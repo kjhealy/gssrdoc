@@ -50,6 +50,11 @@ Other Work Organizations:
 \code{\link{reorg}},
 \code{\link{unpower}},
 \code{\link{unprog}}
+
+Other Genetic Testing: 
+\code{\link{genecany}},
+\code{\link{genegets}}
 }
+\concept{Genetic Testing}
 \concept{Work Organizations}
 \keyword{variable}

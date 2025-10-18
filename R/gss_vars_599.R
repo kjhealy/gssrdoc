@@ -20,6 +20,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cosei10inc
@@ -61,6 +62,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name copres10
@@ -101,6 +103,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -150,6 +153,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Foreign Affairs
+#' @family Split Ballots
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -212,6 +218,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Foreign Affairs
+#' @family Split Ballots
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -267,6 +276,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Foreign Affairs
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -319,6 +330,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Foreign Affairs
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -374,6 +387,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Communism
 #' 
 #' @keywords variable
 #' @md
@@ -414,6 +428,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Communism
 #' 
 #' @keywords variable
 #' @md
@@ -474,6 +489,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
+#' @family Countries
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

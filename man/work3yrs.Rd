@@ -47,6 +47,20 @@ Other Global Economics:
 \code{\link{paychnge}},
 \code{\link{whyjbct1}},
 \code{\link{whyleave}}
+
+Other Employment: 
+\code{\link{curempyr}},
+\code{\link{whyjbct1}},
+\code{\link{whyleave}}
+
+Other Job: 
+\code{\link{curempyr}},
+\code{\link{pastpay}},
+\code{\link{paychnge}},
+\code{\link{whyjbct1}},
+\code{\link{whyleave}}
 }
+\concept{Employment}
 \concept{Global Economics}
+\concept{Job}
 \keyword{variable}

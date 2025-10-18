@@ -35,6 +35,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Altruism
 #' 
 #' @keywords variable
 #' @md
@@ -77,6 +78,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Altruism
 #' 
 #' @keywords variable
 #' @md
@@ -118,6 +120,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -155,6 +158,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Friends
 #' 
 #' @keywords variable
 #' @md
@@ -198,6 +202,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -240,6 +245,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family People
 #' 
 #' @keywords variable
 #' @md
@@ -282,6 +288,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family People
 #' 
 #' @keywords variable
 #' @md
@@ -324,6 +331,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family People
 #' 
 #' @keywords variable
 #' @md
@@ -360,6 +368,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -400,6 +409,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Political
 #' 
 #' @keywords variable
 #' @md

@@ -52,6 +52,12 @@ Other Intergroup Relations:
 \code{\link{whypoor4}},
 \code{\link{wlthjews}},
 \code{\link{wlthwhts}}
+
+Other Poverty: 
+\code{\link{whypoor1}},
+\code{\link{whypoor3}},
+\code{\link{whypoor4}}
 }
 \concept{Intergroup Relations}
+\concept{Poverty}
 \keyword{variable}

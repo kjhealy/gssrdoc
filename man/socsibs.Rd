@@ -68,6 +68,14 @@ Other Core:
 \code{\link{smoke}},
 \code{\link{socpars}},
 \code{\link{weekswrk}}
+
+Other Family: 
+\code{\link{socpars}}
+
+Other Sociability: 
+\code{\link{socpars}}
 }
 \concept{Core}
+\concept{Family}
+\concept{Sociability}
 \keyword{variable}

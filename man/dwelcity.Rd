@@ -48,6 +48,11 @@ Counts by year:\tabular{lllllllll}{
 Other Residence: 
 \code{\link{dwelling}},
 \code{\link{dwelngh}}
+
+Other Dwelling (R's): 
+\code{\link{dwelling}},
+\code{\link{dwelngh}}
 }
+\concept{Dwelling (R's)}
 \concept{Residence}
 \keyword{variable}

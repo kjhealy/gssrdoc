@@ -51,6 +51,22 @@ Other Socio-political participation:
 \code{\link{mostact}},
 \code{\link{servegrp}},
 \code{\link{writegrp}}
+
+Other Religion: 
+\code{\link{actchurh}}
+
+Other Voluntary Associations: 
+\code{\link{actchurh}},
+\code{\link{actother}},
+\code{\link{attndgrp}},
+\code{\link{caregrp}},
+\code{\link{givegrp}},
+\code{\link{leadgrp}},
+\code{\link{mostact}},
+\code{\link{servegrp}},
+\code{\link{writegrp}}
 }
+\concept{Religion}
 \concept{Socio-political participation}
+\concept{Voluntary Associations}
 \keyword{variable}

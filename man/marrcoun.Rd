@@ -52,6 +52,51 @@ Other Science Knowledge & Attitudes:
 \code{\link{lawenfrc}},
 \code{\link{medtreat}},
 \code{\link{slsmnshp}}
+
+Other Employment: 
+\code{\link{architct}},
+\code{\link{cmprgmng}},
+\code{\link{engnring}},
+\code{\link{finlcoun}},
+\code{\link{fireftng}},
+\code{\link{lawenfrc}},
+\code{\link{medtreat}},
+\code{\link{slsmnshp}}
+
+Other Job: 
+\code{\link{architct}},
+\code{\link{cmprgmng}},
+\code{\link{engnring}},
+\code{\link{finlcoun}},
+\code{\link{fireftng}},
+\code{\link{lawenfrc}},
+\code{\link{medtreat}},
+\code{\link{slsmnshp}}
+
+Other Occupation: 
+\code{\link{architct}},
+\code{\link{cmprgmng}},
+\code{\link{engnring}},
+\code{\link{finlcoun}},
+\code{\link{fireftng}},
+\code{\link{lawenfrc}},
+\code{\link{medtreat}},
+\code{\link{slsmnshp}}
+
+Other Work: 
+\code{\link{architct}},
+\code{\link{buyvalue}},
+\code{\link{cmprgmng}},
+\code{\link{engnring}},
+\code{\link{finlcoun}},
+\code{\link{fireftng}},
+\code{\link{lawenfrc}},
+\code{\link{medtreat}},
+\code{\link{slsmnshp}}
 }
+\concept{Employment}
+\concept{Job}
+\concept{Occupation}
 \concept{Science Knowledge & Attitudes}
+\concept{Work}
 \keyword{variable}

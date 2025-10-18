@@ -51,6 +51,10 @@ Other Multi-Ethnic United States:
 \code{\link{famblks}},
 \code{\link{famhsps}},
 \code{\link{famwhts}}
+
+Other Jews: 
+\code{\link{fairjews}}
 }
+\concept{Jews}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

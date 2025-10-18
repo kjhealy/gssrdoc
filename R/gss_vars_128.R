@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -73,6 +74,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Jews
 #' 
 #' @keywords variable
 #' @md
@@ -114,6 +116,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Blacks
 #' 
 #' @keywords variable
 #' @md
@@ -155,6 +158,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Asian Americans
 #' 
 #' @keywords variable
 #' @md
@@ -196,6 +200,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Hispanics
 #' 
 #' @keywords variable
 #' @md
@@ -236,6 +241,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Southern Whites
 #' 
 #' @keywords variable
 #' @md
@@ -291,6 +297,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -332,6 +339,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Jews
 #' 
 #' @keywords variable
 #' @md
@@ -387,6 +395,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Blacks
 #' 
 #' @keywords variable
 #' @md
@@ -428,6 +437,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
+#' @family Asian Americans
 #' 
 #' @keywords variable
 #' @md

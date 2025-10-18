@@ -55,5 +55,6 @@ Other ISSP Family & Gender Roles:
 \code{\link{sexhar}},
 \code{\link{teensex1}}
 }
+\concept{Abortion}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

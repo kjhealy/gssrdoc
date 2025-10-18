@@ -54,6 +54,12 @@ Other Culture:
 \code{\link{tvnews}},
 \code{\link{tvpbs}},
 \code{\link{tvshows}}
+
+Other Art/The Arts (And Literature): 
+\code{\link{grtbooks}},
+\code{\link{modpaint}},
+\code{\link{pclit}}
 }
+\concept{Art/The Arts (And Literature)}
 \concept{Culture}
 \keyword{variable}

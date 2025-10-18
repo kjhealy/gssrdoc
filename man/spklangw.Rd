@@ -52,6 +52,11 @@ Other Multi-Ethnic United States:
 \code{\link{letinhsp}},
 \code{\link{othhome}},
 \code{\link{uswht}}
+
+Other Language: 
+\code{\link{betrlang}},
+\code{\link{othhome}}
 }
+\concept{Language}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

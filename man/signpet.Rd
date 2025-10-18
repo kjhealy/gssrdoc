@@ -51,6 +51,12 @@ Other Adult Transitions:
 \code{\link{protest}},
 \code{\link{supfam}},
 \code{\link{supfam1}}
+
+Other Demonstrations: 
+\code{\link{boycott}},
+\code{\link{conoffcl}},
+\code{\link{protest}}
 }
 \concept{Adult Transitions}
+\concept{Demonstrations}
 \keyword{variable}

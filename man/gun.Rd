@@ -65,6 +65,10 @@ Other Core:
 \code{\link{prowar}},
 \code{\link{school}},
 \code{\link{strike}}
+
+Other Guns: 
+\code{\link{gunage}}
 }
 \concept{Core}
+\concept{Guns}
 \keyword{variable}

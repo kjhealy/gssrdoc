@@ -51,6 +51,29 @@ Other ISSP Social Inequality:
 \code{\link{paymason}},
 \code{\link{payowner}},
 \code{\link{payskill}}
+
+Other Inequality, Income: 
+\code{\link{inequal7}},
+\code{\link{paybus}},
+\code{\link{payclerk}},
+\code{\link{paydoc}},
+\code{\link{payexec}},
+\code{\link{payfarm}},
+\code{\link{paymason}},
+\code{\link{payowner}},
+\code{\link{payskill}}
+
+Other Occupation: 
+\code{\link{paybus}},
+\code{\link{payclerk}},
+\code{\link{paydoc}},
+\code{\link{payexec}},
+\code{\link{payfarm}},
+\code{\link{paymason}},
+\code{\link{payowner}},
+\code{\link{payskill}}
 }
 \concept{ISSP Social Inequality}
+\concept{Inequality, Income}
+\concept{Occupation}
 \keyword{variable}

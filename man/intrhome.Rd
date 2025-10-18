@@ -57,5 +57,6 @@ Other Science Knowledge & Attitudes:
 \code{\link{solarrev}},
 \code{\link{tomatoes}}
 }
+\concept{Computers And Internet}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

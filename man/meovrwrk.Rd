@@ -68,7 +68,19 @@ Other ISSP Family & Gender Roles:
 \code{\link{hubbywk1}},
 \code{\link{mrmom}},
 \code{\link{singlpar}}
+
+Other Men: 
+\code{\link{hubbywk1}},
+\code{\link{mrmom}}
+
+Other Women: 
+\code{\link{fewrksup}},
+\code{\link{hubbywk1}},
+\code{\link{mrmom}}
 }
+\concept{Family}
 \concept{Gender}
 \concept{ISSP Family & Gender Roles}
+\concept{Men}
+\concept{Women}
 \keyword{variable}

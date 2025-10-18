@@ -96,6 +96,10 @@ Other Core:
 \code{\link{preteen}},
 \code{\link{teens}},
 \code{\link{unrelat}}
+
+Other Income: 
+\code{\link{income}}
 }
 \concept{Core}
+\concept{Income}
 \keyword{variable}

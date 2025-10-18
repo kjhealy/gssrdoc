@@ -53,6 +53,22 @@ Other Science Knowledge & Attitudes:
 \code{\link{seeksci}},
 \code{\link{toofast}},
 \code{\link{whichsci}}
+
+Other Federal Government: 
+\code{\link{advfront}}
+
+Other Science: 
+\code{\link{advfront}},
+\code{\link{bettrlfe}},
+\code{\link{newsfrom}},
+\code{\link{nextgen}},
+\code{\link{scifrom}},
+\code{\link{scispec}},
+\code{\link{seeksci}},
+\code{\link{toofast}},
+\code{\link{whichsci}}
 }
+\concept{Federal Government}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

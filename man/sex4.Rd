@@ -53,6 +53,24 @@ Other Social Networks:
 \code{\link{sex2}},
 \code{\link{sex3}},
 \code{\link{sex5}}
+
+Other Sex: 
+\code{\link{sex1}},
+\code{\link{sex2}},
+\code{\link{sex3}},
+\code{\link{sex5}}
+
+Other Social Networks: 
+\code{\link{close24}},
+\code{\link{close25}},
+\code{\link{close34}},
+\code{\link{close35}},
+\code{\link{close45}},
+\code{\link{sex1}},
+\code{\link{sex2}},
+\code{\link{sex3}},
+\code{\link{sex5}}
 }
+\concept{Sex}
 \concept{Social Networks}
 \keyword{variable}

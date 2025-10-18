@@ -30,6 +30,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Equal Rights Amendment
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +71,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Equal Rights Amendment
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +112,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Equal Rights Amendment
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -148,6 +154,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Equal Rights Amendment
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -188,6 +196,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Equal Rights Amendment
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -228,6 +238,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -269,6 +280,8 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' @family Gender
+#' @family Parents
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -307,6 +320,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -345,6 +359,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -384,6 +399,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md

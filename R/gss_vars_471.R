@@ -35,6 +35,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -81,6 +83,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -125,6 +129,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -167,6 +173,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Agriculture
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -209,6 +218,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -251,6 +262,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -297,6 +310,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -343,6 +358,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -385,6 +402,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -427,6 +446,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md

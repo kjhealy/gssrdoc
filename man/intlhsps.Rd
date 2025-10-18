@@ -57,6 +57,10 @@ Other Intergroup Relations:
 \code{\link{intlso}},
 \code{\link{patrjews}},
 \code{\link{patrwhts}}
+
+Other Hispanics: 
+\code{\link{farehsps}}
 }
+\concept{Hispanics}
 \concept{Intergroup Relations}
 \keyword{variable}

@@ -69,5 +69,7 @@ Other Core:
 \code{\link{fepres}},
 \code{\link{fework}}
 }
+\concept{Children}
 \concept{Core}
+\concept{Social Mobility}
 \keyword{variable}

@@ -53,6 +53,18 @@ Other Number Known:
 \code{\link{acqfmpri}},
 \code{\link{acqfmune}},
 \code{\link{acqmils}}
+
+Other Social Networks: 
+\code{\link{acqelecs}},
+\code{\link{acqfmasn}},
+\code{\link{acqfmblk}},
+\code{\link{acqfmhme}},
+\code{\link{acqfmlin}},
+\code{\link{acqfmmrk}},
+\code{\link{acqfmpri}},
+\code{\link{acqfmune}},
+\code{\link{acqmils}}
 }
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

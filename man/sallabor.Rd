@@ -52,6 +52,14 @@ Other Core:
 \code{\link{salsatfn}},
 \code{\link{salsci}},
 \code{\link{unemp5}}
+
+Other Salience Of Issues: 
+\code{\link{salabort}},
+\code{\link{salfergt}},
+\code{\link{salsatfn}},
+\code{\link{salsci}}
 }
 \concept{Core}
+\concept{Labor Unions}
+\concept{Salience Of Issues}
 \keyword{variable}

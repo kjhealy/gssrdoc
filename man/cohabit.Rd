@@ -52,5 +52,6 @@ Other ISSP Family & Gender Roles:
 \code{\link{rwrksch}},
 \code{\link{spevdiv}}
 }
+\concept{Cohabitation}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

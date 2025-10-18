@@ -55,6 +55,18 @@ Other ISSP National Identity:
 \code{\link{amgovt}},
 \code{\link{amshamed}},
 \code{\link{belikeus}}
+
+Other United States: 
+\code{\link{ambetter}},
+\code{\link{amchrstn}},
+\code{\link{amcit}},
+\code{\link{amcitizn}},
+\code{\link{amenglsh}},
+\code{\link{amfeel}},
+\code{\link{amgovt}},
+\code{\link{amshamed}},
+\code{\link{belikeus}}
 }
 \concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

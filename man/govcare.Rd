@@ -52,4 +52,5 @@ Other Core:
 \code{\link{tax}}
 }
 \concept{Core}
+\concept{Economy}
 \keyword{variable}

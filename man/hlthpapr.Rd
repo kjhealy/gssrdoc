@@ -57,6 +57,11 @@ Other Information Society:
 \code{\link{srcheng1}},
 \code{\link{srcheng2}},
 \code{\link{upload}}
+
+Other Health: 
+\code{\link{hlthinfo}},
+\code{\link{hlthmag1}}
 }
+\concept{Health}
 \concept{Information Society}
 \keyword{variable}

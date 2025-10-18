@@ -90,6 +90,17 @@ Other Core:
 \code{\link{relig16}},
 \code{\link{spden}},
 \code{\link{spother}}
+
+Other Religion: 
+\code{\link{denom16}},
+\code{\link{fund16}},
+\code{\link{jew16}},
+\code{\link{oth16}},
+\code{\link{othjew16}},
+\code{\link{relig16}},
+\code{\link{spden}},
+\code{\link{spother}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

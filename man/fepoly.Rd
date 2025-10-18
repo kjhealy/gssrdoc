@@ -52,6 +52,25 @@ Other Core:
 \code{\link{fepres}},
 \code{\link{fework}},
 \code{\link{kidssol}}
+
+Other Split Ballots: 
+\code{\link{fecare}},
+\code{\link{fefirm}},
+\code{\link{feimp}},
+\code{\link{feinfo}},
+\code{\link{fepol}}
+
+Other Women: 
+\code{\link{fecare}},
+\code{\link{fefirm}},
+\code{\link{fehome}},
+\code{\link{feimp}},
+\code{\link{feinfo}},
+\code{\link{fepol}},
+\code{\link{fepres}},
+\code{\link{fework}}
 }
 \concept{Core}
+\concept{Split Ballots}
+\concept{Women}
 \keyword{variable}

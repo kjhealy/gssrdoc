@@ -31,6 +31,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Democracy
 #' 
 #' @keywords variable
 #' @md
@@ -74,6 +75,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -117,6 +119,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -160,6 +163,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Knowledge
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -201,6 +206,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -242,6 +248,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -283,6 +290,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -328,6 +336,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Confidence
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -373,6 +383,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -414,6 +425,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Political
 #' 
 #' @keywords variable
 #' @md

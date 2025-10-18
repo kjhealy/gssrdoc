@@ -50,6 +50,25 @@ Other Mental Health:
 \code{\link{psyckid3}},
 \code{\link{psycpsyc}},
 \code{\link{swithlth}}
+
+Other Health: 
+\code{\link{anydoc}},
+\code{\link{doclist}},
+\code{\link{hlthinsr}},
+\code{\link{mntlcare}},
+\code{\link{swithlth}}
+
+Other Mental Health: 
+\code{\link{anydoc}},
+\code{\link{doclist}},
+\code{\link{hlthinsr}},
+\code{\link{mntlcare}},
+\code{\link{psycdrct}},
+\code{\link{psycfdoc}},
+\code{\link{psyckid3}},
+\code{\link{psycpsyc}},
+\code{\link{swithlth}}
 }
+\concept{Health}
 \concept{Mental Health}
 \keyword{variable}

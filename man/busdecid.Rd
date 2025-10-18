@@ -54,6 +54,19 @@ Other ISSP Environment:
 \code{\link{tempgen}},
 \code{\link{waterfam}},
 \code{\link{watergen}}
+
+Other Environment: 
+\code{\link{chemfam}},
+\code{\link{chemgen}},
+\code{\link{indusfam}},
+\code{\link{indusgen}},
+\code{\link{pubdecid}},
+\code{\link{tempfam}},
+\code{\link{tempgen}},
+\code{\link{waterfam}},
+\code{\link{watergen}}
 }
+\concept{Business}
+\concept{Environment}
 \concept{ISSP Environment}
 \keyword{variable}

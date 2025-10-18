@@ -57,6 +57,17 @@ Counts by year:\tabular{llllllll}{
 \seealso{
 Other Paradata: 
 \code{\link{whoelse1}}
+
+Other Voluntary Associations: 
+\code{\link{bthgrp5d}},
+\code{\link{bthgrp5e}},
+\code{\link{frstgrp1}},
+\code{\link{frstgrp2}},
+\code{\link{frstgrp3}},
+\code{\link{frstgrp4}},
+\code{\link{frstgrp5}},
+\code{\link{whoelse1}}
 }
 \concept{Paradata}
+\concept{Voluntary Associations}
 \keyword{variable}

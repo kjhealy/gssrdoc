@@ -31,6 +31,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
+#' @family Altruism
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -68,6 +70,7 @@ NULL
 #'  |Total |1990 |422 |1  |13 |181 |142  |33    |2   |2    |2     |2  |8   |23   |8     |2   |1   |3    |1    |1    |4     |1   |4  |33  |42   |12    |1   |4    |1    |1     |1  |3     |3  |29 |158 |107  |10    |2     |3    |2    |17 |30  |29   |6     |1   |1    |2    |2  |11 |100 |57   |2     |1  |6   |11   |1     |3   |3    |1   |8  |39  |32   |2   |6    |1  |2   |1    |9  |50 |190 |63   |1  |1    |1  |2   |3    |1    |13 |35  |20   |1    |1  |2    |3  |19  |12   |4  |5   |3  |20  |13   |1  |6   |7    |3    |1   |309        |49        |1    |1    |1    |1     |2   |1     |1    |1    |1     |1  |1   |1     |1     |1     |1   |1    |1     |1   |1   |3     |1   |1     |1  |1     |1    |1  |1    |1   |4512  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable
@@ -111,6 +114,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -149,6 +153,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -191,6 +196,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -229,6 +235,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -271,6 +278,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -309,6 +317,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -351,6 +360,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -389,6 +399,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
+#' @family Job
 #' 
 #' @keywords variable
 #' @md

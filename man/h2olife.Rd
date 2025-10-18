@@ -52,6 +52,24 @@ Other Science Knowledge & Attitudes:
 \code{\link{maboygrl}},
 \code{\link{salth2o}},
 \code{\link{stormtxt}}
+
+Other Knowledge: 
+\code{\link{anheat}},
+\code{\link{lftplane}},
+\code{\link{maboygrl}},
+\code{\link{stormtxt}}
+
+Other Science: 
+\code{\link{anheat}},
+\code{\link{anscitst}},
+\code{\link{erosion}},
+\code{\link{goldfish}},
+\code{\link{lftplane}},
+\code{\link{maboygrl}},
+\code{\link{salth2o}},
+\code{\link{stormtxt}}
 }
+\concept{Knowledge}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

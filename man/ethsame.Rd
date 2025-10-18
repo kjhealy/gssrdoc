@@ -49,6 +49,10 @@ Other Prejudice:
 \code{\link{ethdiff}},
 \code{\link{feelwhts}},
 \code{\link{whtsdiff}}
+
+Other Ethnicity: 
+\code{\link{ethdiff}}
 }
+\concept{Ethnicity}
 \concept{Prejudice}
 \keyword{variable}

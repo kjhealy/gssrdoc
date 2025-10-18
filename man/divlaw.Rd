@@ -80,6 +80,16 @@ Other Core:
 \code{\link{sppaid}},
 \code{\link{teensex}},
 \code{\link{xmarsex}}
+
+Other Divorce: 
+\code{\link{divlawy}},
+\code{\link{spdue}},
+\code{\link{sppaid}}
+
+Other Split Ballots: 
+\code{\link{divlawy}}
 }
 \concept{Core}
+\concept{Divorce}
+\concept{Split Ballots}
 \keyword{variable}

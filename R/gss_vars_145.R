@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +110,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -147,6 +150,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -186,6 +190,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -226,6 +231,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -264,6 +270,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Labor Unions
 #' 
 #' @keywords variable
 #' @md
@@ -305,6 +312,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -346,6 +354,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -387,6 +396,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
+#' @family Education
+#' @family Job
 #' 
 #' @keywords variable
 #' @md

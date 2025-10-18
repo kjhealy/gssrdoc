@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name fampress
@@ -72,6 +73,7 @@ NULL
 #'  |Total |1175 |454   |444    |211       |42    |19         |1          |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -118,6 +120,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name dinefrds
@@ -157,6 +160,7 @@ NULL
 #'  |Total |1404 |86    |296    |413       |95    |49         |5          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -201,6 +205,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name conwkday
@@ -240,6 +245,7 @@ NULL
 #'  |Total |1175 |189                       |308          |236                |332          |102                         |4          |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -288,6 +294,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cntctpar
@@ -332,6 +339,7 @@ NULL
 #'  |Total |1175 |176   |258                  |164         |193                        |118          |71                   |45         |61    |71                                |9                                                                       |5          |2         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -380,6 +388,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cntctkid
@@ -424,6 +433,7 @@ NULL
 #'  |Total |1175 |137   |221                  |178         |165                        |115          |167                  |79         |74    |28                                 |6                                                                                      |2          |1         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

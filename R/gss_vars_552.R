@@ -30,6 +30,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Aids
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -98,6 +100,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Sex
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -156,6 +160,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -215,6 +220,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -274,6 +280,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -333,6 +340,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -392,6 +400,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -451,6 +460,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -510,6 +520,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -572,6 +583,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Sex
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

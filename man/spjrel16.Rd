@@ -55,6 +55,10 @@ Other Jewish Identity:
 \code{\link{majwoth}},
 \code{\link{pajwoth}},
 \code{\link{spjoth16}}
+
+Other Family: 
+\code{\link{spjoth16}}
 }
+\concept{Family}
 \concept{Jewish Identity}
 \keyword{variable}

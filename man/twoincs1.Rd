@@ -56,6 +56,10 @@ Other ISSP Family & Gender Roles:
 \code{\link{satjob7}},
 \code{\link{ssfchild}},
 \code{\link{ssmchild}}
+
+Other Women: 
+\code{\link{fewknokd}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Women}
 \keyword{variable}

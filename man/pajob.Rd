@@ -58,6 +58,15 @@ Other ISSP Social Inequality:
 \code{\link{paslf}},
 \code{\link{rewrdeff}},
 \code{\link{rewrdint}}
+
+Other Occupation: 
+\code{\link{firstjob}},
+\code{\link{firstslf}},
+\code{\link{lastjob}},
+\code{\link{lastslf}},
+\code{\link{occmobil}},
+\code{\link{paslf}}
 }
 \concept{ISSP Social Inequality}
+\concept{Occupation}
 \keyword{variable}

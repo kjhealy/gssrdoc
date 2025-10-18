@@ -51,6 +51,17 @@ Other Work Organizations:
 \code{\link{stayorg1}},
 \code{\link{stayorg2}},
 \code{\link{wrkmuch}}
+
+Other Job: 
+\code{\link{helporg}},
+\code{\link{imatter}},
+\code{\link{noticed}},
+\code{\link{notloyal}},
+\code{\link{proudorg}},
+\code{\link{samevals}},
+\code{\link{stayorg1}},
+\code{\link{stayorg2}}
 }
+\concept{Job}
 \concept{Work Organizations}
 \keyword{variable}

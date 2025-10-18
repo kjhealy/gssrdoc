@@ -52,6 +52,10 @@ Other ISSP Environment:
 \code{\link{topprob1}},
 \code{\link{topprob2}},
 \code{\link{trust5}}
+
+Other People: 
+\code{\link{trust5}}
 }
 \concept{ISSP Environment}
+\concept{People}
 \keyword{variable}

@@ -51,6 +51,17 @@ Other Global Economics:
 \code{\link{whylose2}},
 \code{\link{whylose3}},
 \code{\link{wkcomptr}}
+
+Other Job: 
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{moretrde}},
+\code{\link{newjobs}},
+\code{\link{whyjbct2}},
+\code{\link{wkcomptr}}
 }
 \concept{Global Economics}
+\concept{Health}
+\concept{Job}
+\concept{Occupation}
 \keyword{variable}

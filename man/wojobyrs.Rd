@@ -54,6 +54,10 @@ Other Jobs:
 \code{\link{howpaid}},
 \code{\link{numemp}},
 \code{\link{wojob}}
+
+Other Unemployment: 
+\code{\link{wojob}}
 }
 \concept{Jobs}
+\concept{Unemployment}
 \keyword{variable}

@@ -53,6 +53,10 @@ Other Intergroup Relations:
 \code{\link{influhsp}},
 \code{\link{influso}},
 \code{\link{racwork}}
+
+Other Blacks: 
+\code{\link{blkhouse}}
 }
+\concept{Blacks}
 \concept{Intergroup Relations}
 \keyword{variable}

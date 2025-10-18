@@ -79,6 +79,18 @@ Other Core:
 \code{\link{responsz}},
 \code{\link{rolez}},
 \code{\link{studiouz}}
+
+Other Children: 
+\code{\link{amicablz}},
+\code{\link{considez}},
+\code{\link{controlz}},
+\code{\link{interesz}},
+\code{\link{obey}},
+\code{\link{obeysz}},
+\code{\link{responsz}},
+\code{\link{rolez}},
+\code{\link{studiouz}}
 }
+\concept{Children}
 \concept{Core}
 \keyword{variable}

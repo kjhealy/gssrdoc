@@ -58,6 +58,17 @@ Other Quality of Working Life:
 \code{\link{trainops}},
 \code{\link{wkbonus}},
 \code{\link{wkpraise}}
+
+Other Job: 
+\code{\link{cowrkhlp}},
+\code{\link{handmove}},
+\code{\link{hvylift}},
+\code{\link{manvsemp}},
+\code{\link{suphelp}},
+\code{\link{trainops}},
+\code{\link{wkbonus}},
+\code{\link{wkpraise}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
 \keyword{variable}

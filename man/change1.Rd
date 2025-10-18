@@ -70,6 +70,18 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{sick2}},
 \code{\link{upset1}},
 \code{\link{upset2}}
+
+Other Social Networks: 
+\code{\link{borrow1}},
+\code{\link{borrow2}},
+\code{\link{change2}},
+\code{\link{down1}},
+\code{\link{down2}},
+\code{\link{sick1}},
+\code{\link{sick2}},
+\code{\link{upset1}},
+\code{\link{upset2}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Social Networks}
 \keyword{variable}

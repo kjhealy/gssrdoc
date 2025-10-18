@@ -52,6 +52,22 @@ Other National Security:
 \code{\link{taphme}},
 \code{\link{tapwrk}},
 \code{\link{usspy}}
+
+Other Terrorism: 
+\code{\link{frterror}}
+
+Other United States: 
+\code{\link{camwrk}},
+\code{\link{forspy}},
+\code{\link{forsteal}},
+\code{\link{frterror}},
+\code{\link{nuclrwar}},
+\code{\link{srchwrk}},
+\code{\link{taphme}},
+\code{\link{tapwrk}},
+\code{\link{usspy}}
 }
 \concept{National Security}
+\concept{Terrorism}
+\concept{United States}
 \keyword{variable}

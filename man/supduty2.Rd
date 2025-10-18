@@ -51,6 +51,30 @@ Other Work Organizations:
 \code{\link{supduty5}},
 \code{\link{supduty6}},
 \code{\link{supduty7}}
+
+Other Job: 
+\code{\link{othduty1}},
+\code{\link{othduty2}},
+\code{\link{othduty3}},
+\code{\link{othduty4}},
+\code{\link{supduty3}},
+\code{\link{supduty4}},
+\code{\link{supduty5}},
+\code{\link{supduty6}},
+\code{\link{supduty7}}
+
+Other Work: 
+\code{\link{othduty1}},
+\code{\link{othduty2}},
+\code{\link{othduty3}},
+\code{\link{othduty4}},
+\code{\link{supduty3}},
+\code{\link{supduty4}},
+\code{\link{supduty5}},
+\code{\link{supduty6}},
+\code{\link{supduty7}}
 }
+\concept{Job}
+\concept{Work}
 \concept{Work Organizations}
 \keyword{variable}

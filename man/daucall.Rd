@@ -55,6 +55,18 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{sonnum}},
 \code{\link{sontime}},
 \code{\link{sonvisit}}
+
+Other Family: 
+\code{\link{brocall}},
+\code{\link{daunum}},
+\code{\link{dautime}},
+\code{\link{dauvisit}},
+\code{\link{posslq}},
+\code{\link{soncall}},
+\code{\link{sonnum}},
+\code{\link{sontime}},
+\code{\link{sonvisit}}
 }
+\concept{Family}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

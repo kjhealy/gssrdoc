@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -75,6 +76,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -117,6 +119,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -159,6 +162,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -201,6 +205,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -243,6 +248,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -286,6 +292,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -328,6 +335,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -372,6 +380,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -414,6 +423,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
+#' @family United States
 #' 
 #' @keywords variable
 #' @md

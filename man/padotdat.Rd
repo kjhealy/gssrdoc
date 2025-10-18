@@ -38,6 +38,14 @@ Other Core:
 \code{\link{pres68}},
 \code{\link{spdotpre}},
 \code{\link{vote68}}
+
+Other D.O.T. Codes: 
+\code{\link{padotged}},
+\code{\link{padotpeo}},
+\code{\link{padotsvp}},
+\code{\link{padotthn}},
+\code{\link{spdotpre}}
 }
 \concept{Core}
+\concept{D.O.T. Codes}
 \keyword{variable}

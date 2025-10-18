@@ -50,6 +50,30 @@ Other Clergy/Sex:
 \code{\link{toldexp3}},
 \code{\link{toldrel2}},
 \code{\link{toldrel3}}
+
+Other Religion: 
+\code{\link{clsclsex}},
+\code{\link{hushrel2}},
+\code{\link{hushrel3}},
+\code{\link{knwclsex}},
+\code{\link{toldexp1}},
+\code{\link{toldexp2}},
+\code{\link{toldexp3}},
+\code{\link{toldrel2}},
+\code{\link{toldrel3}}
+
+Other Sex: 
+\code{\link{clsclsex}},
+\code{\link{hushrel2}},
+\code{\link{hushrel3}},
+\code{\link{knwclsex}},
+\code{\link{toldexp1}},
+\code{\link{toldexp2}},
+\code{\link{toldexp3}},
+\code{\link{toldrel2}},
+\code{\link{toldrel3}}
 }
 \concept{Clergy/Sex}
+\concept{Religion}
+\concept{Sex}
 \keyword{variable}

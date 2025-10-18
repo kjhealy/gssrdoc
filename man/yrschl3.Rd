@@ -49,6 +49,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{yryouth3}},
 \code{\link{yryouth4}},
 \code{\link{yryouth5}}
+
+Other Voluntary Associations: 
+\code{\link{yrhobby1}},
+\code{\link{yrschl1}},
+\code{\link{yrschl2}},
+\code{\link{yrschl4}},
+\code{\link{yryouth1}},
+\code{\link{yryouth2}},
+\code{\link{yryouth3}},
+\code{\link{yryouth4}},
+\code{\link{yryouth5}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

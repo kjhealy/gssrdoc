@@ -56,6 +56,13 @@ Other ISSP Family & Gender Roles:
 \code{\link{paidlv}},
 \code{\link{paidlvdv}},
 \code{\link{paidlvpy}}
+
+Other Children: 
+\code{\link{eldersup}},
+\code{\link{paidlv}},
+\code{\link{paidlvdv}},
+\code{\link{paidlvpy}}
 }
+\concept{Children}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

@@ -48,6 +48,16 @@ Other Global Economics:
 \code{\link{natdeg}},
 \code{\link{typevisa}},
 \code{\link{visa}}
+
+Other Health: 
+\code{\link{emphlth}},
+\code{\link{emphplan}}
+
+Other Job: 
+\code{\link{emphlth}},
+\code{\link{emphplan}}
 }
 \concept{Global Economics}
+\concept{Health}
+\concept{Job}
 \keyword{variable}

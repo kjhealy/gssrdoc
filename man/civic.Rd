@@ -54,4 +54,5 @@ Other Core:
 \code{\link{stresswk}}
 }
 \concept{Core}
+\concept{Political}
 \keyword{variable}

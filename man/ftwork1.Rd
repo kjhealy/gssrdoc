@@ -48,6 +48,10 @@ Other Adult Transitions:
 \code{\link{ftwork}},
 \code{\link{ownhh}},
 \code{\link{ownhh1}}
+
+Other Job: 
+\code{\link{ftwork}}
 }
 \concept{Adult Transitions}
+\concept{Job}
 \keyword{variable}

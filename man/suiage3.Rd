@@ -54,6 +54,11 @@ Other Victims & AIDS:
 \code{\link{aidssxed}},
 \code{\link{suirac3}},
 \code{\link{suireg3}}
+
+Other Suicide: 
+\code{\link{suirac3}},
+\code{\link{suireg3}}
 }
+\concept{Suicide}
 \concept{Victims & AIDS}
 \keyword{variable}

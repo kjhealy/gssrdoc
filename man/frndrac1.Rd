@@ -56,6 +56,14 @@ Other Religion:
 \code{\link{frndoth4}},
 \code{\link{frndoth5}},
 \code{\link{frndrac2}}
+
+Other Friends: 
+\code{\link{frndrac2}}
+
+Other Race: 
+\code{\link{frndrac2}}
 }
+\concept{Friends}
+\concept{Race}
 \concept{Religion}
 \keyword{variable}

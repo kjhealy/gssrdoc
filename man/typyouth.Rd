@@ -50,6 +50,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{typschl}},
 \code{\link{typsport}},
 \code{\link{typunion}}
+
+Other Voluntary Associations: 
+\code{\link{typfarm}},
+\code{\link{typgreek}},
+\code{\link{typhobby}},
+\code{\link{typlit}},
+\code{\link{typnat}},
+\code{\link{typprof}},
+\code{\link{typschl}},
+\code{\link{typsport}},
+\code{\link{typunion}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

@@ -52,6 +52,16 @@ Other Multiculturalism:
 \code{\link{gvtapart}},
 \code{\link{gvtmelt}},
 \code{\link{meltpot}}
+
+Other Ethnicity: 
+\code{\link{amissue}},
+\code{\link{ethid1}},
+\code{\link{ethissu1}},
+\code{\link{ethissue}},
+\code{\link{gvtapart}},
+\code{\link{gvtmelt}},
+\code{\link{meltpot}}
 }
+\concept{Ethnicity}
 \concept{Multiculturalism}
 \keyword{variable}

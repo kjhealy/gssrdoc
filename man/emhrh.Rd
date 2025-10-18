@@ -52,6 +52,18 @@ Other Information Society:
 \code{\link{wrkminh}},
 \code{\link{wwwhrh}},
 \code{\link{wwwminh}}
+
+Other Computers And Internet: 
+\code{\link{compwork}},
+\code{\link{emminh}},
+\code{\link{jobhrw}},
+\code{\link{jobminw}},
+\code{\link{perhrh}},
+\code{\link{wrkhrh}},
+\code{\link{wrkminh}},
+\code{\link{wwwhrh}},
+\code{\link{wwwminh}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

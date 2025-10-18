@@ -54,6 +54,11 @@ Other Multiculturalism:
 \code{\link{ethspkno}},
 \code{\link{ethspkok}},
 \code{\link{symptblk}}
+
+Other United States: 
+\code{\link{engoffcl}}
 }
+\concept{Immigration}
 \concept{Multiculturalism}
+\concept{United States}
 \keyword{variable}

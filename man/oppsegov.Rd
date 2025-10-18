@@ -53,5 +53,6 @@ Other ISSP Citizenship:
 \code{\link{polgreed}},
 \code{\link{polint1}}
 }
+\concept{Democracy}
 \concept{ISSP Citizenship}
 \keyword{variable}

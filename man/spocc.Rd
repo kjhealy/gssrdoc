@@ -44,6 +44,16 @@ Other Core:
 \code{\link{sppres}},
 \code{\link{sppres80}},
 \code{\link{spwrkslf}}
+
+Other Occupation: 
+\code{\link{spind}},
+\code{\link{spind80}},
+\code{\link{spocc10}},
+\code{\link{spocc80}},
+\code{\link{sppres}},
+\code{\link{sppres80}},
+\code{\link{spwrkslf}}
 }
 \concept{Core}
+\concept{Occupation}
 \keyword{variable}

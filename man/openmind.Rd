@@ -49,4 +49,5 @@ Other Intergroup Relations:
 \code{\link{twoclass}}
 }
 \concept{Intergroup Relations}
+\concept{Values}
 \keyword{variable}

@@ -50,6 +50,22 @@ Other Family Mobility:
 \code{\link{sbrel7}},
 \code{\link{sbrel8}},
 \code{\link{sbyrbrn9}}
+
+Other Date Of Birth: 
+\code{\link{sbyrbrn9}}
+
+Other Siblings: 
+\code{\link{sbrel1}},
+\code{\link{sbrel2}},
+\code{\link{sbrel3}},
+\code{\link{sbrel4}},
+\code{\link{sbrel5}},
+\code{\link{sbrel6}},
+\code{\link{sbrel7}},
+\code{\link{sbrel8}},
+\code{\link{sbyrbrn9}}
 }
+\concept{Date Of Birth}
 \concept{Family Mobility}
+\concept{Siblings}
 \keyword{variable}

@@ -53,6 +53,25 @@ Other Science Knowledge & Attitudes:
 \code{\link{tvinuit}},
 \code{\link{tvmeltng}},
 \code{\link{tvoil}}
+
+Other Science: 
+\code{\link{polaryr1}},
+\code{\link{polaryr2}},
+\code{\link{polaryr3}},
+\code{\link{polaryr4}},
+\code{\link{polaryr5}},
+\code{\link{tvbears}},
+\code{\link{tvinuit}},
+\code{\link{tvmeltng}},
+\code{\link{tvoil}}
+
+Other Television Viewing: 
+\code{\link{tvbears}},
+\code{\link{tvinuit}},
+\code{\link{tvmeltng}},
+\code{\link{tvoil}}
 }
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
+\concept{Television Viewing}
 \keyword{variable}

@@ -60,6 +60,25 @@ Other ISSP Role of Gov't:
 \code{\link{protstrs}},
 \code{\link{racists}},
 \code{\link{revoltrs}}
+
+Other Economy: 
+\code{\link{aidcol}},
+\code{\link{aidhouse}},
+\code{\link{aidindus}},
+\code{\link{aidold}},
+\code{\link{aidunemp}},
+\code{\link{equalize}}
+
+Other Federal Government: 
+\code{\link{aidcol}},
+\code{\link{aidhouse}},
+\code{\link{aidindus}},
+\code{\link{aidold}},
+\code{\link{aidunemp}},
+\code{\link{equalize}}
 }
+\concept{Economy}
+\concept{Federal Government}
+\concept{Health}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

@@ -31,6 +31,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -70,6 +71,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -110,6 +112,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -146,6 +149,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Cohabitation
 #' 
 #' @keywords variable
 #' @md
@@ -191,6 +195,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -236,6 +241,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -281,6 +287,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -326,6 +333,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -371,6 +379,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -413,6 +422,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
+#' @family Leisure
 #' 
 #' @keywords variable
 #' @md

@@ -51,6 +51,16 @@ Other Culture:
 \code{\link{rap}},
 \code{\link{reggae}},
 \code{\link{visitart}}
+
+Other Leisure: 
+\code{\link{autorace}},
+\code{\link{makeart}},
+\code{\link{visitart}}
+
+Other Sports: 
+\code{\link{autorace}}
 }
 \concept{Culture}
+\concept{Leisure}
+\concept{Sports}
 \keyword{variable}

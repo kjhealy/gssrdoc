@@ -54,6 +54,16 @@ Other Children:
 \code{\link{sphomekd}},
 \code{\link{sppill}},
 \code{\link{sppoorkd}}
+
+Other Children: 
+\code{\link{spdrugs}},
+\code{\link{spdsabkd}},
+\code{\link{spfoodkd}},
+\code{\link{spheadst}},
+\code{\link{sphlthkd}},
+\code{\link{sphomekd}},
+\code{\link{sppill}},
+\code{\link{sppoorkd}}
 }
 \concept{Children}
 \keyword{variable}

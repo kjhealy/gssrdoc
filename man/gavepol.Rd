@@ -46,5 +46,6 @@ Other Socio-political participation:
 \code{\link{fegains}},
 \code{\link{feinflu}}
 }
+\concept{Political}
 \concept{Socio-political participation}
 \keyword{variable}

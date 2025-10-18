@@ -58,6 +58,19 @@ Other Core:
 \code{\link{libmslm}},
 \code{\link{spkhomo}},
 \code{\link{spkmslm}}
+
+Other Civil Liberties: 
+\code{\link{colhomo}},
+\code{\link{libhomo}},
+\code{\link{libmslm}},
+\code{\link{spkhomo}},
+\code{\link{spkmslm}}
+
+Other Religion: 
+\code{\link{libmslm}},
+\code{\link{spkmslm}}
 }
+\concept{Civil Liberties}
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

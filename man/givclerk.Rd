@@ -56,6 +56,30 @@ Other ISSP Social Inequality:
 \code{\link{payrocc}},
 \code{\link{paysales}},
 \code{\link{payunskl}}
+
+Other Inequality, Income: 
+\code{\link{givdoc}},
+\code{\link{givmason}},
+\code{\link{paycabnt}},
+\code{\link{payfctry}},
+\code{\link{payjudge}},
+\code{\link{paylaw}},
+\code{\link{payrocc}},
+\code{\link{paysales}},
+\code{\link{payunskl}}
+
+Other Occupation: 
+\code{\link{givdoc}},
+\code{\link{givmason}},
+\code{\link{paycabnt}},
+\code{\link{payfctry}},
+\code{\link{payjudge}},
+\code{\link{paylaw}},
+\code{\link{payrocc}},
+\code{\link{paysales}},
+\code{\link{payunskl}}
 }
 \concept{ISSP Social Inequality}
+\concept{Inequality, Income}
+\concept{Occupation}
 \keyword{variable}

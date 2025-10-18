@@ -56,6 +56,17 @@ Other Social Networks:
 \code{\link{sibling3}},
 \code{\link{sibling4}},
 \code{\link{sibling5}}
+
+Other Social Networks: 
+\code{\link{parent1}},
+\code{\link{parent2}},
+\code{\link{parent4}},
+\code{\link{parent5}},
+\code{\link{sibling1}},
+\code{\link{sibling2}},
+\code{\link{sibling3}},
+\code{\link{sibling4}},
+\code{\link{sibling5}}
 }
 \concept{Social Networks}
 \keyword{variable}

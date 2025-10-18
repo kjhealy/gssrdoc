@@ -48,6 +48,10 @@ Other Adult Transitions:
 \code{\link{ftwork}},
 \code{\link{ftwork1}},
 \code{\link{ownhh}}
+
+Other Household: 
+\code{\link{ownhh}}
 }
 \concept{Adult Transitions}
+\concept{Household}
 \keyword{variable}

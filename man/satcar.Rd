@@ -51,6 +51,19 @@ Other Markets:
 \code{\link{carbuyf}},
 \code{\link{carbuyg}},
 \code{\link{reldealr}}
+
+Other Purchases/Transactions: 
+\code{\link{carbuy1}},
+\code{\link{carbuya}},
+\code{\link{carbuyb}},
+\code{\link{carbuyc}},
+\code{\link{carbuyd}},
+\code{\link{carbuye}},
+\code{\link{carbuyf}},
+\code{\link{carbuyg}},
+\code{\link{reldealr}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
+\concept{Satisfaction}
 \keyword{variable}

@@ -51,6 +51,18 @@ Other Emotions:
 \code{\link{madat6}},
 \code{\link{madat8}},
 \code{\link{madat9}}
+
+Other Feelings: 
+\code{\link{madat10}},
+\code{\link{madat11}},
+\code{\link{madat2}},
+\code{\link{madat3}},
+\code{\link{madat4}},
+\code{\link{madat5}},
+\code{\link{madat6}},
+\code{\link{madat8}},
+\code{\link{madat9}}
 }
 \concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

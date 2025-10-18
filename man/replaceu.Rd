@@ -53,6 +53,16 @@ Other Work Orientation:
 \code{\link{nounemp1}},
 \code{\link{nounemp2}},
 \code{\link{timeoff}}
+
+Other Job: 
+\code{\link{dailywrk}},
+\code{\link{famintjb}},
+\code{\link{jbintfam}},
+\code{\link{jbtrain}},
+\code{\link{jobeasy}},
+\code{\link{newjob}},
+\code{\link{timeoff}}
 }
+\concept{Job}
 \concept{Work Orientation}
 \keyword{variable}

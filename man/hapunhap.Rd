@@ -56,6 +56,7 @@ Other ISSP Religion:
 \code{\link{stiffpun}},
 \code{\link{xmarsex1}}
 }
+\concept{Happiness}
 \concept{ISSP Religion}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

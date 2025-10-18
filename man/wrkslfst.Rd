@@ -50,6 +50,14 @@ Other Family Mobility:
 \code{\link{occfirst}},
 \code{\link{payrdied}},
 \code{\link{presfrst}}
+
+Other Occupation: 
+\code{\link{datefrst}},
+\code{\link{indfirst}},
+\code{\link{occfirst}},
+\code{\link{presfrst}}
 }
 \concept{Family Mobility}
+\concept{Occupation}
+\concept{Work}
 \keyword{variable}

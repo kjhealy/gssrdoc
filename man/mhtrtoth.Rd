@@ -45,6 +45,13 @@ Other Mental Health III:
 \code{\link{mhothyou}},
 \code{\link{seemhpub}},
 \code{\link{viglab06}}
+
+Other Mental Health: 
+\code{\link{mhothrel}},
+\code{\link{mhothyou}},
+\code{\link{seemhpub}},
+\code{\link{viglab06}}
 }
+\concept{Mental Health}
 \concept{Mental Health III}
 \keyword{variable}

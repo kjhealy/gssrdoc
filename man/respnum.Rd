@@ -94,6 +94,18 @@ Other Household Members and Structure:
 \code{\link{relhhd14}},
 \code{\link{relhhd8}},
 \code{\link{relhhd9}}
+
+Other Household: 
+\code{\link{hefinfo}},
+\code{\link{hhrace}},
+\code{\link{relhhd10}},
+\code{\link{relhhd11}},
+\code{\link{relhhd12}},
+\code{\link{relhhd13}},
+\code{\link{relhhd14}},
+\code{\link{relhhd8}},
+\code{\link{relhhd9}}
 }
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

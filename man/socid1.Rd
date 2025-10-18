@@ -59,6 +59,11 @@ Other ISSP National Identity:
 \code{\link{powrorgs}},
 \code{\link{socid2}},
 \code{\link{socid3}}
+
+Other Occupation: 
+\code{\link{socid2}},
+\code{\link{socid3}}
 }
 \concept{ISSP National Identity}
+\concept{Occupation}
 \keyword{variable}

@@ -50,6 +50,13 @@ Other Emotions:
 \code{\link{usfrustr}},
 \code{\link{ussat}},
 \code{\link{usworry}}
+
+Other Feelings: 
+\code{\link{chnang16}},
+\code{\link{likeoth}},
+\code{\link{othresp}},
+\code{\link{selfresp}}
 }
 \concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

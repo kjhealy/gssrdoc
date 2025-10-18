@@ -52,6 +52,13 @@ Other Science Knowledge & Attitudes:
 \code{\link{visnhist}},
 \code{\link{vissci}},
 \code{\link{viszoo}}
+
+Other Science: 
+\code{\link{intspace}},
+\code{\link{visnhist}},
+\code{\link{vissci}}
 }
+\concept{Education}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

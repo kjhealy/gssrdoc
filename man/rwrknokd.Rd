@@ -54,6 +54,12 @@ Other ISSP Family & Gender Roles:
 \code{\link{rwrkgrwn}},
 \code{\link{rwrksch}},
 \code{\link{spevdiv}}
+
+Other Women: 
+\code{\link{rwrkbaby}},
+\code{\link{rwrkgrwn}},
+\code{\link{rwrksch}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Women}
 \keyword{variable}

@@ -52,6 +52,15 @@ Other Core:
 \code{\link{polviewy}},
 \code{\link{pres12}},
 \code{\link{vote12}}
+
+Other Political: 
+\code{\link{if12who}},
+\code{\link{polviews}},
+\code{\link{polviewx}},
+\code{\link{polviewy}},
+\code{\link{pres12}},
+\code{\link{vote12}}
 }
 \concept{Core}
+\concept{Political}
 \keyword{variable}

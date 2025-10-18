@@ -53,6 +53,17 @@ Other Multiculturalism:
 \code{\link{ethspkok}},
 \code{\link{letin}},
 \code{\link{symptblk}}
+
+Other Blacks: 
+\code{\link{symptblk}}
+
+Other Race: 
+\code{\link{ethorgs}},
+\code{\link{ethspkno}},
+\code{\link{ethspkok}},
+\code{\link{symptblk}}
 }
+\concept{Blacks}
 \concept{Multiculturalism}
+\concept{Race}
 \keyword{variable}

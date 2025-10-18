@@ -85,6 +85,20 @@ Other Core:
 \code{\link{closeblk}},
 \code{\link{closewht}},
 \code{\link{hapmar}}
+
+Other Happiness: 
+\code{\link{hapmar}}
+
+Other Split Ballots: 
+\code{\link{alienat1}},
+\code{\link{alienat2}},
+\code{\link{alienat3}},
+\code{\link{alienat4}},
+\code{\link{alienat5}},
+\code{\link{alienat6}},
+\code{\link{hapmar}}
 }
 \concept{Core}
+\concept{Happiness}
+\concept{Split Ballots}
 \keyword{variable}

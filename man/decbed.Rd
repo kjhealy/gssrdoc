@@ -48,6 +48,14 @@ Counts by year:\tabular{lllllllllll}{
 Other Markets: 
 \code{\link{decgift}},
 \code{\link{layoffs}}
+
+Other Household: 
+\code{\link{decgift}}
+
+Other Purchases/Transactions: 
+\code{\link{decgift}}
 }
+\concept{Household}
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

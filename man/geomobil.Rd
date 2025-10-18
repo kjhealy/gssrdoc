@@ -53,5 +53,7 @@ Other ISSP Religion:
 \code{\link{volwkpol}},
 \code{\link{volwkrel}}
 }
+\concept{Dwelling (R's)}
 \concept{ISSP Religion}
+\concept{Residence}
 \keyword{variable}

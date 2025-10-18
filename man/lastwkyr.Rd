@@ -45,6 +45,10 @@ Other Employee Compensation:
 \code{\link{lastwkmo}},
 \code{\link{talkemp}},
 \code{\link{talksup}}
+
+Other Work: 
+\code{\link{lastwkmo}}
 }
 \concept{Employee Compensation}
+\concept{Work}
 \keyword{variable}

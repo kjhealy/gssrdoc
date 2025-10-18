@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
 #' 
 #' @keywords variable
 #' @md
@@ -67,6 +68,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +110,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Foreign Affairs
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -149,6 +153,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Foreign Affairs
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -190,6 +196,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Disarmament
+#' @family Foreign Affairs
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -231,6 +240,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Disarmament
+#' @family Foreign Affairs
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -272,6 +284,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Disarmament
+#' @family Foreign Affairs
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -313,6 +328,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -351,6 +367,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Veterans' Aid
 #' 
 #' @keywords variable
 #' @md
@@ -389,6 +406,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Military
 #' 
 #' @keywords variable
 #' @md

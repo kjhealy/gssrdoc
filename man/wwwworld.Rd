@@ -52,6 +52,18 @@ Other Information Society:
 \code{\link{musiclke}},
 \code{\link{musicnew}},
 \code{\link{wwwart}}
+
+Other Computers And Internet: 
+\code{\link{artinfo}},
+\code{\link{artmus1}},
+\code{\link{artmus2}},
+\code{\link{artmus3}},
+\code{\link{artview}},
+\code{\link{musicdif}},
+\code{\link{musiclke}},
+\code{\link{musicnew}},
+\code{\link{wwwart}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

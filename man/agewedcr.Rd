@@ -48,6 +48,14 @@ Other Family Mobility:
 \code{\link{spmarnum}},
 \code{\link{sppaeduc}},
 \code{\link{spyrborn}}
+
+Other Family: 
+\code{\link{spfam16}}
+
+Other Marital Status: 
+\code{\link{spmarnum}}
 }
+\concept{Family}
 \concept{Family Mobility}
+\concept{Marital Status}
 \keyword{variable}

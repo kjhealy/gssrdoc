@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Civil Liberties
+#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -67,6 +68,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Civil Liberties
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -106,6 +108,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Homicide
 #' 
 #' @keywords variable
 #' @md
@@ -154,6 +157,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Homicide
 #' 
 #' @keywords variable
 #' @md
@@ -195,6 +199,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Homicide
 #' 
 #' @keywords variable
 #' @md
@@ -238,6 +243,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Homicide
 #' 
 #' @keywords variable
 #' @md
@@ -281,6 +287,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Homicide
 #' 
 #' @keywords variable
 #' @md
@@ -329,6 +336,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Homicide
 #' 
 #' @keywords variable
 #' @md
@@ -376,6 +384,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Homicide
 #' 
 #' @keywords variable
 #' @md
@@ -416,6 +425,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
+#' @family Homicide
 #' 
 #' @keywords variable
 #' @md

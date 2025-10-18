@@ -54,6 +54,10 @@ Other Culture:
 \code{\link{obtohelp}},
 \code{\link{opoutcme}},
 \code{\link{united}}
+
+Other Music: 
+\code{\link{blugrass}}
 }
 \concept{Culture}
+\concept{Music}
 \keyword{variable}

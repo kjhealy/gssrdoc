@@ -53,6 +53,25 @@ Other Multiculturalism:
 \code{\link{ethspkno}},
 \code{\link{letin}},
 \code{\link{symptblk}}
+
+Other Civil Liberties: 
+\code{\link{ethspkno}}
+
+Other Race: 
+\code{\link{admirblk}},
+\code{\link{ethorgs}},
+\code{\link{ethspkno}},
+\code{\link{symptblk}}
+
+Other Religion: 
+\code{\link{ethspkno}}
+
+Other Split Ballots: 
+\code{\link{ethspkno}}
 }
+\concept{Civil Liberties}
 \concept{Multiculturalism}
+\concept{Race}
+\concept{Religion}
+\concept{Split Ballots}
 \keyword{variable}

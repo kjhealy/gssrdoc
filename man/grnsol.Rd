@@ -58,6 +58,13 @@ Other ISSP Environment:
 \code{\link{scitest4}},
 \code{\link{scitest5}},
 \code{\link{toodifme}}
+
+Other Environment: 
+\code{\link{grntest1}},
+\code{\link{grntest2}},
+\code{\link{ihlpgrn}},
+\code{\link{toodifme}}
 }
+\concept{Environment}
 \concept{ISSP Environment}
 \keyword{variable}

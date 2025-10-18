@@ -93,6 +93,18 @@ Other Core:
 \code{\link{wrkgovt}},
 \code{\link{wrkstat}},
 \code{\link{year}()}
+
+Other Occupation: 
+\code{\link{occ}},
+\code{\link{prestige}},
+\code{\link{wrkgovt}}
+
+Other Work: 
+\code{\link{hrs1}},
+\code{\link{hrs2}}
 }
 \concept{Core}
+\concept{Job}
+\concept{Occupation}
+\concept{Work}
 \keyword{variable}

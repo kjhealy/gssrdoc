@@ -55,6 +55,10 @@ Other ISSP Family & Gender Roles:
 \code{\link{repairs}},
 \code{\link{sexhar}},
 \code{\link{teensex1}}
+
+Other Children: 
+\code{\link{mapaid}}
 }
+\concept{Children}
 \concept{ISSP Family & Gender Roles}
 \keyword{variable}

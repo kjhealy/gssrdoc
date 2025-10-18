@@ -52,6 +52,10 @@ Other Intergroup Relations:
 \code{\link{patrblks}},
 \code{\link{patrhsps}},
 \code{\link{patrso}}
+
+Other Asian Americans: 
+\code{\link{liveasns}}
 }
+\concept{Asian Americans}
 \concept{Intergroup Relations}
 \keyword{variable}

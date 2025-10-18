@@ -59,5 +59,6 @@ Other Quality of Working Life:
 \code{\link{wkpraise}},
 \code{\link{wrktime}}
 }
+\concept{Income}
 \concept{Quality of Working Life}
 \keyword{variable}

@@ -45,6 +45,9 @@ Counts by year:\tabular{lllllllllll}{
 \seealso{
 Other Social Networks: 
 \code{\link{eqclose}}
+
+Other Social Networks: 
+\code{\link{eqclose}}
 }
 \concept{Social Networks}
 \keyword{variable}

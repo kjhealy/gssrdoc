@@ -43,6 +43,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -95,6 +96,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -145,6 +147,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Drug Use And Addiction
 #' 
 #' @keywords variable
 #' @md
@@ -197,6 +200,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Drug Use And Addiction
 #' 
 #' @keywords variable
 #' @md
@@ -247,6 +251,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Drug Use And Addiction
 #' 
 #' @keywords variable
 #' @md
@@ -299,6 +304,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Drug Use And Addiction
 #' 
 #' @keywords variable
 #' @md
@@ -346,6 +352,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -1034,6 +1041,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -1090,6 +1098,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -1128,6 +1137,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Aids
+#' @family Health
 #' 
 #' @keywords variable
 #' @md

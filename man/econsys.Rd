@@ -52,6 +52,10 @@ Other Markets:
 \code{\link{reqinfo}},
 \code{\link{tagsales}},
 \code{\link{wkfambiz}}
+
+Other Economy: 
+\code{\link{reqinfo}}
 }
+\concept{Economy}
 \concept{Markets}
 \keyword{variable}

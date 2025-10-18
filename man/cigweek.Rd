@@ -51,6 +51,12 @@ Other Core:
 \code{\link{evsmoke}},
 \code{\link{quitsmk}},
 \code{\link{smokecig}}
+
+Other Smoking: 
+\code{\link{evsmoke}},
+\code{\link{quitsmk}},
+\code{\link{smokecig}}
 }
 \concept{Core}
+\concept{Smoking}
 \keyword{variable}

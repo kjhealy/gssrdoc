@@ -30,6 +30,10 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Affirmative Action
+#' @family Blacks
+#' @family Education
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +73,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Affirmative Action
+#' @family Blacks
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +115,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Affirmative Action
+#' @family Blacks
+#' @family Job
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -150,6 +161,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Affirmative Action
+#' @family Blacks
+#' @family Federal Government
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -188,6 +203,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Ethnicity
+#' @family Federal Government
+#' @family Political
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -227,6 +246,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Ethnicity
+#' @family Federal Government
+#' @family Political
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -266,6 +289,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Education
+#' @family Ethnicity
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -305,6 +331,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Education
+#' @family Ethnicity
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -344,6 +373,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Education
+#' @family Ethnicity
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -385,6 +417,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Education
+#' @family Ethnicity
+#' @family Race
 #' 
 #' @keywords variable
 #' @md

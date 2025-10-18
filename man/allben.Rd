@@ -51,6 +51,22 @@ Other Gender:
 \code{\link{nonurse}},
 \code{\link{parleave}},
 \code{\link{womenben}}
+
+Other Family: 
+\code{\link{chldben}},
+\code{\link{flextime}},
+\code{\link{menben}},
+\code{\link{nohmewrk}},
+\code{\link{nonurse}},
+\code{\link{parleave}},
+\code{\link{womenben}}
+
+Other Household: 
+\code{\link{chldben}},
+\code{\link{menben}},
+\code{\link{womenben}}
 }
+\concept{Family}
 \concept{Gender}
+\concept{Household}
 \keyword{variable}

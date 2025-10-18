@@ -61,6 +61,18 @@ Other Core:
 \code{\link{mother}},
 \code{\link{redeemer}},
 \code{\link{spouse}}
+
+Other Religion: 
+\code{\link{creator}},
+\code{\link{father}},
+\code{\link{friend}},
+\code{\link{judge}},
+\code{\link{lover}},
+\code{\link{master}},
+\code{\link{mother}},
+\code{\link{redeemer}},
+\code{\link{spouse}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

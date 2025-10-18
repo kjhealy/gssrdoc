@@ -60,6 +60,22 @@ Other ISSP Role of Gov't:
 \code{\link{poleff15}},
 \code{\link{polgbeco}},
 \code{\link{prvdschl}}
+
+Other Federal Government: 
+\code{\link{poleff11}},
+\code{\link{poleff12}},
+\code{\link{poleff13}},
+\code{\link{poleff14}},
+\code{\link{poleff15}}
+
+Other Political: 
+\code{\link{poleff11}},
+\code{\link{poleff12}},
+\code{\link{poleff13}},
+\code{\link{poleff14}},
+\code{\link{poleff15}}
 }
+\concept{Federal Government}
 \concept{ISSP Role of Gov't}
+\concept{Political}
 \keyword{variable}

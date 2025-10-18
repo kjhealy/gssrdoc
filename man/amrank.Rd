@@ -51,6 +51,10 @@ Other Multiculturalism:
 \code{\link{gvtapart}},
 \code{\link{gvtmelt}},
 \code{\link{meltpot}}
+
+Other United States: 
+\code{\link{amproud}}
 }
 \concept{Multiculturalism}
+\concept{United States}
 \keyword{variable}

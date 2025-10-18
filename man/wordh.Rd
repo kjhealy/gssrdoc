@@ -74,6 +74,26 @@ Other Vocabulary:
 \code{\link{worde}},
 \code{\link{wordf}},
 \code{\link{wordg}}
+
+Other Knowledge: 
+\code{\link{worda}},
+\code{\link{wordb}},
+\code{\link{wordc}},
+\code{\link{wordd}},
+\code{\link{worde}},
+\code{\link{wordf}},
+\code{\link{wordg}}
+
+Other Vocabulary Test: 
+\code{\link{worda}},
+\code{\link{wordb}},
+\code{\link{wordc}},
+\code{\link{wordd}},
+\code{\link{worde}},
+\code{\link{wordf}},
+\code{\link{wordg}}
 }
+\concept{Knowledge}
 \concept{Vocabulary}
+\concept{Vocabulary Test}
 \keyword{variable}

@@ -52,6 +52,33 @@ Other ISSP Role of Gov't:
 \code{\link{ownpower}},
 \code{\link{ownsteel}},
 \code{\link{pricecon}}
+
+Other Business: 
+\code{\link{buspow}},
+\code{\link{ownbanks}},
+\code{\link{ownmass}},
+\code{\link{ownpower}},
+\code{\link{ownsteel}}
+
+Other Economy: 
+\code{\link{jobsall}},
+\code{\link{ownbanks}},
+\code{\link{ownmass}},
+\code{\link{ownpower}},
+\code{\link{ownsteel}},
+\code{\link{pricecon}}
+
+Other Federal Government: 
+\code{\link{govtpow}},
+\code{\link{jobsall}},
+\code{\link{ownbanks}},
+\code{\link{ownmass}},
+\code{\link{ownpower}},
+\code{\link{ownsteel}},
+\code{\link{pricecon}}
 }
+\concept{Business}
+\concept{Economy}
+\concept{Federal Government}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

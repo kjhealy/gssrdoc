@@ -62,7 +62,27 @@ Other Genes and the Environment:
 \code{\link{optimist}},
 \code{\link{satself}},
 \code{\link{slfrspct}}
+
+Other Feelings: 
+\code{\link{afailure}},
+\code{\link{nogood}},
+\code{\link{notcount}},
+\code{\link{ofworth}},
+\code{\link{optimist}},
+\code{\link{satself}},
+\code{\link{slfrspct}}
+
+Other Satisfaction: 
+\code{\link{afailure}},
+\code{\link{nogood}},
+\code{\link{notcount}},
+\code{\link{ofworth}},
+\code{\link{optimist}},
+\code{\link{satself}},
+\code{\link{slfrspct}}
 }
+\concept{Feelings}
 \concept{Genes and the Environment}
+\concept{Satisfaction}
 \concept{Work Organizations}
 \keyword{variable}

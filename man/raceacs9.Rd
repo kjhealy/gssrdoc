@@ -40,4 +40,13 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
+\seealso{
+Other Race: 
+\code{\link{raceacs10}},
+\code{\link{raceacs11}},
+\code{\link{raceacs3}},
+\code{\link{raceacs5}},
+\code{\link{raceacs7}}
+}
+\concept{Race}
 \keyword{variable}

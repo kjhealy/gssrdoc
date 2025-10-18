@@ -59,7 +59,19 @@ Other ISSP Environment:
 \code{\link{grntest6}},
 \code{\link{grntest7}},
 \code{\link{nukefam}}
+
+Other Environment: 
+\code{\link{carsfam}},
+\code{\link{carsgen}},
+\code{\link{carsten}},
+\code{\link{grntest3}},
+\code{\link{grntest4}},
+\code{\link{grntest5}},
+\code{\link{grntest6}},
+\code{\link{grntest7}},
+\code{\link{nukefam}}
 }
+\concept{Environment}
 \concept{ISSP Environment}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -49,6 +49,10 @@ Other Religion and Culture:
 \code{\link{relexp}},
 \code{\link{relpersn}},
 \code{\link{sprtprsn}}
+
+Other Art/The Arts (And Literature): 
+\code{\link{artists}}
 }
+\concept{Art/The Arts (And Literature)}
 \concept{Religion and Culture}
 \keyword{variable}

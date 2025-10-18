@@ -36,6 +36,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -286,6 +288,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Industry
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -822,6 +826,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -872,6 +877,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Occupation
+#' @family Occupational Prestige
 #' 
 #' @keywords variable
 #' @md
@@ -1133,6 +1140,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Industry
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -1163,6 +1172,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name indus07
@@ -1191,6 +1201,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -1258,6 +1269,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -1828,6 +1840,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -1895,6 +1908,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md

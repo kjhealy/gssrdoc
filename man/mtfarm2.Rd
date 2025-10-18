@@ -51,6 +51,23 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{mtnat1}},
 \code{\link{mtnat2}},
 \code{\link{mtnat3}}
+
+Other Agriculture: 
+\code{\link{mtfarm1}},
+\code{\link{mtfarm3}}
+
+Other Voluntary Associations: 
+\code{\link{mtfarm1}},
+\code{\link{mtfarm3}},
+\code{\link{mtgreek2}},
+\code{\link{mtgreek3}},
+\code{\link{mtlit1}},
+\code{\link{mtlit2}},
+\code{\link{mtnat1}},
+\code{\link{mtnat2}},
+\code{\link{mtnat3}}
 }
+\concept{Agriculture}
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

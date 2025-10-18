@@ -64,6 +64,15 @@ Other Core:
 \code{\link{padeath}},
 \code{\link{unrel1}},
 \code{\link{unrel4}}
+
+Other Trauma: 
+\code{\link{death16}},
+\code{\link{death5}},
+\code{\link{hosrel1}},
+\code{\link{hosrel4}},
+\code{\link{unrel1}},
+\code{\link{unrel4}}
 }
 \concept{Core}
+\concept{Trauma}
 \keyword{variable}

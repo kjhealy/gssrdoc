@@ -55,6 +55,10 @@ Other Intergroup Relations:
 \code{\link{violhsps}},
 \code{\link{violjews}},
 \code{\link{violso}}
+
+Other Whites: 
+\code{\link{intlwhts}}
 }
 \concept{Intergroup Relations}
+\concept{Whites}
 \keyword{variable}

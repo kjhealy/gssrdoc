@@ -45,6 +45,10 @@ Other Socio-political participation:
 \code{\link{blkinflu}},
 \code{\link{feinflu}},
 \code{\link{gavepol}}
+
+Other Women: 
+\code{\link{feinflu}}
 }
 \concept{Socio-political participation}
+\concept{Women}
 \keyword{variable}

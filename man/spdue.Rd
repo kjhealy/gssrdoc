@@ -50,6 +50,13 @@ Other Core:
 \code{\link{sppaid}},
 \code{\link{teensex}},
 \code{\link{xmarsex}}
+
+Other Divorce: 
+\code{\link{divlaw}},
+\code{\link{divlawy}},
+\code{\link{sppaid}}
 }
 \concept{Core}
+\concept{Divorce}
+\concept{Marital Status}
 \keyword{variable}

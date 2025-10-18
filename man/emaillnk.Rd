@@ -53,6 +53,18 @@ Other Information Society:
 \code{\link{news30}},
 \code{\link{schl30}},
 \code{\link{work30}}
+
+Other Computers And Internet: 
+\code{\link{bookmark}},
+\code{\link{catdrcty}},
+\code{\link{educ30}},
+\code{\link{fin30}},
+\code{\link{govt30}},
+\code{\link{hyperlnk}},
+\code{\link{news30}},
+\code{\link{schl30}},
+\code{\link{work30}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

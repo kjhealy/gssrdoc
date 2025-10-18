@@ -37,6 +37,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -83,6 +84,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -129,6 +131,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -175,6 +178,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -221,6 +225,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -262,6 +267,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Democracy
 #' 
 #' @keywords variable
 #' @md
@@ -302,6 +308,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Democracy
 #' 
 #' @keywords variable
 #' @md
@@ -341,6 +348,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Democracy
 #' 
 #' @keywords variable
 #' @md
@@ -380,6 +388,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Democracy
 #' 
 #' @keywords variable
 #' @md
@@ -421,6 +430,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
+#' @family Democracy
 #' 
 #' @keywords variable
 #' @md

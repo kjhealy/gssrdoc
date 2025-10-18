@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Spending
 #' 
 #' @keywords variable
 #' @md
@@ -72,6 +73,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -114,6 +116,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -156,6 +159,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -198,6 +202,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -240,6 +245,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -282,6 +288,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -325,6 +332,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cctv
@@ -366,6 +374,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name emonitor
@@ -406,6 +415,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' 
 #' 
 #' @keywords variable
 #' @md

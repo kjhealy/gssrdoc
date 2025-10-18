@@ -51,6 +51,42 @@ Other Family Mobility:
 \code{\link{kdalive9}},
 \code{\link{kdeduc1}},
 \code{\link{kdeduc2}}
+
+Other Children: 
+\code{\link{kdalive2}},
+\code{\link{kdalive3}},
+\code{\link{kdalive4}},
+\code{\link{kdalive5}},
+\code{\link{kdalive6}},
+\code{\link{kdalive7}},
+\code{\link{kdalive9}},
+\code{\link{kdeduc1}},
+\code{\link{kdeduc2}}
+
+Other Family: 
+\code{\link{kdalive2}},
+\code{\link{kdalive3}},
+\code{\link{kdalive4}},
+\code{\link{kdalive5}},
+\code{\link{kdalive6}},
+\code{\link{kdalive7}},
+\code{\link{kdalive9}},
+\code{\link{kdeduc1}},
+\code{\link{kdeduc2}}
+
+Other Household: 
+\code{\link{kdalive2}},
+\code{\link{kdalive3}},
+\code{\link{kdalive4}},
+\code{\link{kdalive5}},
+\code{\link{kdalive6}},
+\code{\link{kdalive7}},
+\code{\link{kdalive9}},
+\code{\link{kdeduc1}},
+\code{\link{kdeduc2}}
 }
+\concept{Children}
+\concept{Family}
 \concept{Family Mobility}
+\concept{Household}
 \keyword{variable}

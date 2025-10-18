@@ -33,6 +33,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Friends
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -75,6 +77,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Friends
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -117,6 +121,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Friends
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -155,6 +161,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Friends
 #' 
 #' @keywords variable
 #' @md
@@ -194,6 +201,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Friends
 #' 
 #' @keywords variable
 #' @md
@@ -233,6 +241,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Friends
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -271,6 +281,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Friends
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -312,6 +324,7 @@ NULL
 #'  |Total |1387 |35               |79               |320              |314             |619             |68         |10        |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable
@@ -355,6 +368,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Religion
+#' @family Sports
 #' 
 #' @keywords variable
 #' @md
@@ -392,6 +407,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Contribute Money To
+#' @family Religion
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md

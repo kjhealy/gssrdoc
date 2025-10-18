@@ -32,6 +32,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -73,6 +74,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -113,6 +115,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Federal Government
+#' @family Spending
 #' 
 #' @keywords variable
 #' @md
@@ -153,6 +157,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Federal Government
+#' @family Spending
 #' 
 #' @keywords variable
 #' @md
@@ -193,6 +199,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Life Aspects, Importance Of
 #' 
 #' @keywords variable
 #' @md
@@ -232,6 +239,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Life Aspects, Importance Of
 #' 
 #' @keywords variable
 #' @md
@@ -271,6 +279,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Life Aspects, Importance Of
 #' 
 #' @keywords variable
 #' @md
@@ -310,6 +319,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Life Aspects, Importance Of
 #' 
 #' @keywords variable
 #' @md
@@ -349,6 +359,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Life Aspects, Importance Of
 #' 
 #' @keywords variable
 #' @md
@@ -388,6 +399,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Life Aspects, Importance Of
 #' 
 #' @keywords variable
 #' @md

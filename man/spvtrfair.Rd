@@ -55,6 +55,18 @@ Other Quality of Working Life:
 \code{\link{physhlth}},
 \code{\link{strredpg}},
 \code{\link{usedup}}
+
+Other Job: 
+\code{\link{hurtatwk}},
+\code{\link{phyeffrt}},
+\code{\link{strredpg}}
+
+Other Work: 
+\code{\link{phyeffrt}},
+\code{\link{strredpg}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
+\concept{Sex}
+\concept{Work}
 \keyword{variable}

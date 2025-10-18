@@ -35,6 +35,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Social Mobility
+#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -77,6 +79,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -134,6 +137,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -174,6 +178,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Incentives
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -219,6 +225,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -261,6 +268,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -309,6 +317,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -353,6 +362,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -402,6 +412,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
 #' @family ISSP Social Inequality
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -447,6 +458,7 @@ NULL
 #'  |Total |3960 |603            |1689  |1065                       |905      |288               |180          |40        |25             |8755  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

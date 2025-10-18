@@ -52,6 +52,17 @@ Other Socio-political participation:
 \code{\link{polrally}},
 \code{\link{schlhead}},
 \code{\link{usrep}}
+
+Other Political: 
+\code{\link{governor}},
+\code{\link{loclobby}},
+\code{\link{locvote}},
+\code{\link{othlobby}},
+\code{\link{othself}},
+\code{\link{polrally}},
+\code{\link{schlhead}},
+\code{\link{usrep}}
 }
+\concept{Political}
 \concept{Socio-political participation}
 \keyword{variable}

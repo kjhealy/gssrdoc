@@ -54,6 +54,17 @@ Other Work Organizations:
 \code{\link{reorg}},
 \code{\link{unpower}},
 \code{\link{unprog}}
+
+Other Corporations: 
+\code{\link{merged}},
+\code{\link{outofbiz}},
+\code{\link{profits2}},
+\code{\link{reorg}}
+
+Other Social Class: 
+\code{\link{profits2}}
 }
+\concept{Corporations}
+\concept{Social Class}
 \concept{Work Organizations}
 \keyword{variable}

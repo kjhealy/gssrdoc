@@ -55,6 +55,11 @@ Other ISSP Role of Gov't:
 \code{\link{tapphone}},
 \code{\link{wotrial}},
 \code{\link{youinflu}}
+
+Other United States: 
+\code{\link{tapphone}},
+\code{\link{wotrial}}
 }
 \concept{ISSP Role of Gov't}
+\concept{United States}
 \keyword{variable}

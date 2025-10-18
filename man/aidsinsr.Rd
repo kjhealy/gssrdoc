@@ -51,6 +51,14 @@ Other Victims & AIDS:
 \code{\link{suiage3}},
 \code{\link{suirac3}},
 \code{\link{suireg3}}
+
+Other Aids: 
+\code{\link{aidsads}},
+\code{\link{aidshlth}},
+\code{\link{aidsids}},
+\code{\link{aidsmar}},
+\code{\link{aidssxed}}
 }
+\concept{Aids}
 \concept{Victims & AIDS}
 \keyword{variable}

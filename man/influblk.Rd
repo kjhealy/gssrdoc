@@ -53,5 +53,6 @@ Other Intergroup Relations:
 \code{\link{povzone}},
 \code{\link{racquota}}
 }
+\concept{Blacks}
 \concept{Intergroup Relations}
 \keyword{variable}

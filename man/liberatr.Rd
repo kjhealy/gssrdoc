@@ -54,6 +54,29 @@ Other Core:
 \code{\link{mastersp}},
 \code{\link{popespks}},
 \code{\link{rdeemlib}}
+
+Other Religion: 
+\code{\link{crtrheal}},
+\code{\link{frndking}},
+\code{\link{healer}},
+\code{\link{judgeluv}},
+\code{\link{king}},
+\code{\link{mapa}},
+\code{\link{mastersp}},
+\code{\link{popespks}},
+\code{\link{rdeemlib}}
+
+Other Split Ballots: 
+\code{\link{crtrheal}},
+\code{\link{frndking}},
+\code{\link{healer}},
+\code{\link{judgeluv}},
+\code{\link{king}},
+\code{\link{mapa}},
+\code{\link{mastersp}},
+\code{\link{rdeemlib}}
 }
 \concept{Core}
+\concept{Religion}
+\concept{Split Ballots}
 \keyword{variable}

@@ -54,5 +54,6 @@ Other Work Orientation:
 \code{\link{unhlthy}},
 \code{\link{unpleznt}}
 }
+\concept{Unemployment}
 \concept{Work Orientation}
 \keyword{variable}

@@ -54,6 +54,18 @@ Other Culture:
 \code{\link{moodeasy}},
 \code{\link{musicals}},
 \code{\link{newage}}
+
+Other Music: 
+\code{\link{blues}},
+\code{\link{classicl}},
+\code{\link{folk}},
+\code{\link{gospel}},
+\code{\link{jazz}},
+\code{\link{latin}},
+\code{\link{moodeasy}},
+\code{\link{musicals}},
+\code{\link{newage}}
 }
 \concept{Culture}
+\concept{Music}
 \keyword{variable}

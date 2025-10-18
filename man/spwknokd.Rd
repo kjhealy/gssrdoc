@@ -53,6 +53,12 @@ Other ISSP Family & Gender Roles:
 \code{\link{spwkbaby}},
 \code{\link{spwkgrwn}},
 \code{\link{spwrksch}}
+
+Other Work: 
+\code{\link{spwkbaby}},
+\code{\link{spwkgrwn}},
+\code{\link{spwrksch}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Work}
 \keyword{variable}

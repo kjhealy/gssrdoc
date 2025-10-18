@@ -31,6 +31,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name medcommt
@@ -68,6 +69,7 @@ NULL
 #'  |Total |2381 |147 |836 |173                            |1          |2         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -109,6 +111,7 @@ NULL
 #'  |Total |2382 |242                      |418                     |284                                    |130                         |33                           |48           |3         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -155,6 +158,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthsat
@@ -197,6 +201,7 @@ NULL
 #'  |Total |2382 |224                  |382            |314              |78                                 |66                  |21                |29                      |30 |11           |3         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -243,6 +248,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name altsat
@@ -286,6 +292,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name smokeday
@@ -325,6 +332,7 @@ NULL
 #'  |Total |2382 |725   |248                        |112                   |36                   |17    |17           |3         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -368,6 +376,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name physact
@@ -407,6 +416,7 @@ NULL
 #'  |Total |2382 |13    |51                         |185                   |392                  |498   |14           |3         |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

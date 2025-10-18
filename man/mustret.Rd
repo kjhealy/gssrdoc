@@ -54,5 +54,6 @@ Other ISSP Role of Gov't:
 \code{\link{poleff8}},
 \code{\link{poleff9}}
 }
+\concept{Federal Government}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

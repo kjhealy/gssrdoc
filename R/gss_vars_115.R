@@ -34,6 +34,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -77,6 +78,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Jews
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -115,6 +118,7 @@ NULL
 #'  |Total |48  |475            |566      |343     |49        |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable
@@ -158,6 +162,7 @@ NULL
 #'  |Total |4102 |713        |365      |94     |161  |32    |5          |6         |5478  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable
@@ -221,6 +226,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -263,6 +269,7 @@ NULL
 #'  |Total |1350 |1   |1   |8  |1   |1   |1  |3  |3  |1  |6  |2  |1  |9  |4  |1  |10 |1  |5  |1  |2  |4  |1  |1  |1  |2  |14 |2  |1  |8  |2  |7  |1  |1  |2  |4  |1  |1  |1  |3  |1  |1  |10        |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable
@@ -307,6 +314,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Jews
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -345,6 +354,7 @@ NULL
 #'  |Total |202 |351            |504      |381     |43        |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable
@@ -390,6 +400,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -431,6 +442,7 @@ NULL
 #'  |Total |1387 |1544      |433              |589              |250   |95                |15        |4313  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable

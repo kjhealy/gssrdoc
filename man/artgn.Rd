@@ -55,6 +55,12 @@ Other Information Society:
 \code{\link{perfrmgn}},
 \code{\link{polcangn}},
 \code{\link{polinfgn}}
+
+Other Leisure: 
+\code{\link{perfrmgn}},
+\code{\link{polcangn}},
+\code{\link{polinfgn}}
 }
 \concept{Information Society}
+\concept{Leisure}
 \keyword{variable}

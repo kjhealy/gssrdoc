@@ -53,6 +53,22 @@ Other Work Orientation:
 \code{\link{unrespct}},
 \code{\link{unslfcon}},
 \code{\link{worecsup}}
+
+Other Trauma: 
+\code{\link{unfamten}},
+\code{\link{unjobexp}},
+\code{\link{unmoney}},
+\code{\link{unrespct}},
+\code{\link{unslfcon}}
+
+Other Unemployment: 
+\code{\link{unfamten}},
+\code{\link{unjobexp}},
+\code{\link{unmoney}},
+\code{\link{unrespct}},
+\code{\link{unslfcon}}
 }
+\concept{Trauma}
+\concept{Unemployment}
 \concept{Work Orientation}
 \keyword{variable}

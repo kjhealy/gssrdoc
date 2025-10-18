@@ -83,6 +83,36 @@ Other Household Members and Structure:
 \code{\link{relhhd8}},
 \code{\link{relhhd9}},
 \code{\link{respnum}}
+
+Other Cohabitation: 
+\code{\link{relhhd10}},
+\code{\link{relhhd11}},
+\code{\link{relhhd13}},
+\code{\link{relhhd14}},
+\code{\link{relhhd8}},
+\code{\link{relhhd9}}
+
+Other Family: 
+\code{\link{relhhd10}},
+\code{\link{relhhd11}},
+\code{\link{relhhd13}},
+\code{\link{relhhd14}},
+\code{\link{relhhd8}},
+\code{\link{relhhd9}}
+
+Other Household: 
+\code{\link{hefinfo}},
+\code{\link{hhrace}},
+\code{\link{relhhd10}},
+\code{\link{relhhd11}},
+\code{\link{relhhd13}},
+\code{\link{relhhd14}},
+\code{\link{relhhd8}},
+\code{\link{relhhd9}},
+\code{\link{respnum}}
 }
+\concept{Cohabitation}
+\concept{Family}
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

@@ -100,6 +100,34 @@ Other Household Members and Structure:
 \code{\link{relate8}},
 \code{\link{where7}},
 \code{\link{where8}}
+
+Other Cohabitation: 
+\code{\link{relate8}}
+
+Other Family: 
+\code{\link{away8}},
+\code{\link{gender8}},
+\code{\link{gender9}},
+\code{\link{mar8}},
+\code{\link{old8}},
+\code{\link{old9}},
+\code{\link{relate8}},
+\code{\link{where7}},
+\code{\link{where8}}
+
+Other Household: 
+\code{\link{away8}},
+\code{\link{gender8}},
+\code{\link{gender9}},
+\code{\link{mar8}},
+\code{\link{old8}},
+\code{\link{old9}},
+\code{\link{relate8}},
+\code{\link{where7}},
+\code{\link{where8}}
 }
+\concept{Cohabitation}
+\concept{Family}
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

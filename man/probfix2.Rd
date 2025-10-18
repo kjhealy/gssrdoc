@@ -42,6 +42,9 @@ Counts by year:\tabular{llllllllllllllllllllllllllll}{
 \seealso{
 Other Mental Health: 
 \code{\link{probfix1}}
+
+Other Mental Health: 
+\code{\link{probfix1}}
 }
 \concept{Mental Health}
 \keyword{variable}

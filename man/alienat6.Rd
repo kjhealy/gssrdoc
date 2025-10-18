@@ -51,6 +51,23 @@ Other Core:
 \code{\link{closewht}},
 \code{\link{hapmar}},
 \code{\link{happy}}
+
+Other Alienation: 
+\code{\link{alienat1}},
+\code{\link{alienat2}},
+\code{\link{alienat4}},
+\code{\link{alienat5}}
+
+Other Split Ballots: 
+\code{\link{alienat1}},
+\code{\link{alienat2}},
+\code{\link{alienat3}},
+\code{\link{alienat4}},
+\code{\link{alienat5}},
+\code{\link{hapmar}},
+\code{\link{happy}}
 }
+\concept{Alienation}
 \concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

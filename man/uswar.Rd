@@ -58,6 +58,23 @@ Other War and International:
 \code{\link{usintl}},
 \code{\link{usun}},
 \code{\link{uswary}}
+
+Other Foreign Affairs: 
+\code{\link{usintl}},
+\code{\link{usun}},
+\code{\link{uswary}}
+
+Other Split Ballots: 
+\code{\link{russia}},
+\code{\link{uswary}}
+
+Other United States: 
+\code{\link{usintl}},
+\code{\link{usun}},
+\code{\link{uswary}}
 }
+\concept{Foreign Affairs}
+\concept{Split Ballots}
+\concept{United States}
 \concept{War and International}
 \keyword{variable}

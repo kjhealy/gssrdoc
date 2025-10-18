@@ -32,6 +32,10 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -73,6 +77,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -114,6 +122,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -155,6 +167,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -196,6 +212,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -237,6 +257,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -278,6 +302,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -319,6 +347,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -360,6 +392,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -400,6 +436,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
+#' @family Work
 #' 
 #' @keywords variable
 #' @md

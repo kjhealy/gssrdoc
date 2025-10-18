@@ -44,6 +44,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mhp4r1
@@ -94,6 +95,7 @@ NULL
 #'  |Total |2190 |1      |1                             |156       |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -148,6 +150,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mhp5r1
@@ -200,6 +203,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name mhp5r2
@@ -236,6 +240,7 @@ NULL
 #'  |Total |1751 |80                   |143             |43 |46 |37 |68 |37 |46 |59 |33 |2          |3         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -276,6 +281,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name closeto2
@@ -312,6 +318,7 @@ NULL
 #'  |Total |2095 |43                   |37              |12 |24 |15 |34 |23 |22 |24 |12 |7         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -352,6 +359,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name closeto4
@@ -390,6 +398,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name closeto5
@@ -426,6 +435,7 @@ NULL
 #'  |Total |1751 |172            |100             |74 |42 |33 |52 |26 |40 |35 |19 |1          |3         |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

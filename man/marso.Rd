@@ -57,4 +57,5 @@ Other Intergroup Relations:
 \code{\link{workfare}}
 }
 \concept{Intergroup Relations}
+\concept{Southern Whites}
 \keyword{variable}

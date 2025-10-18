@@ -55,4 +55,5 @@ Other ISSP Citizenship:
 \code{\link{watchgov}}
 }
 \concept{ISSP Citizenship}
+\concept{Religion}
 \keyword{variable}

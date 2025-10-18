@@ -59,6 +59,21 @@ Other Work Orientation:
 \code{\link{promotn}},
 \code{\link{secjob}},
 \code{\link{strngun}}
+
+Other Job: 
+\code{\link{bosswrks}},
+\code{\link{intjob}},
+\code{\link{leisure}},
+\code{\link{promotn}},
+\code{\link{secjob}}
+
+Other Work: 
+\code{\link{intjob}},
+\code{\link{leisure}},
+\code{\link{promotn}},
+\code{\link{secjob}}
 }
+\concept{Job}
+\concept{Work}
 \concept{Work Orientation}
 \keyword{variable}

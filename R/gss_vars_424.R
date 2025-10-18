@@ -38,6 +38,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
+#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -78,6 +81,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
+#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -125,6 +131,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -172,6 +179,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -219,6 +227,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -258,6 +267,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Health
+#' @family Job
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -298,6 +310,11 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Economy
+#' @family Employment
+#' @family Foreign Affairs
+#' @family Job
+#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -337,6 +354,11 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
+#' @family Technology
+#' @family Unemployment
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -376,6 +398,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Employment
+#' @family Job
+#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -414,6 +439,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
+#' @family Computers And Internet
+#' @family Job
 #' 
 #' @keywords variable
 #' @md

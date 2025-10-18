@@ -59,6 +59,25 @@ Other ISSP Religion:
 \code{\link{miracles}},
 \code{\link{predeter}},
 \code{\link{theism}}
+
+Other Religion: 
+\code{\link{bible1}},
+\code{\link{devil}},
+\code{\link{fatalism}},
+\code{\link{godmeans}},
+\code{\link{heaven}},
+\code{\link{hell}},
+\code{\link{miracles}},
+\code{\link{predeter}},
+\code{\link{theism}}
+
+Other World View: 
+\code{\link{fatalism}},
+\code{\link{godmeans}},
+\code{\link{predeter}},
+\code{\link{theism}}
 }
 \concept{ISSP Religion}
+\concept{Religion}
+\concept{World View}
 \keyword{variable}

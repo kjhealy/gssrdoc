@@ -40,6 +40,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Blacks
+#' @family Ethnicity
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -91,6 +94,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Ethnicity
+#' @family Race
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -130,6 +136,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Alienation
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -169,6 +177,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Alienation
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -208,6 +218,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -247,6 +258,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Alienation
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -286,6 +299,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Alienation
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -325,6 +340,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Alienation
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -398,6 +415,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Happiness
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -471,6 +490,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Happiness
+#' @family Marital Status
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

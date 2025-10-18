@@ -53,6 +53,10 @@ Other Science Knowledge & Attitudes:
 \code{\link{relinfsc}},
 \code{\link{scresrch}},
 \code{\link{txeco}}
+
+Other Economy: 
+\code{\link{txeco}}
 }
+\concept{Economy}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

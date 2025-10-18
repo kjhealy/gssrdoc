@@ -44,6 +44,11 @@ Counts by year:\tabular{lllllll}{
 Other Information Society: 
 \code{\link{compuse}},
 \code{\link{webmob}}
+
+Other Computers And Internet: 
+\code{\link{compuse}},
+\code{\link{webmob}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

@@ -51,5 +51,6 @@ Other Work Organizations:
 \code{\link{raisefav}},
 \code{\link{raisehrd}}
 }
+\concept{Income}
 \concept{Work Organizations}
 \keyword{variable}

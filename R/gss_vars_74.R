@@ -30,6 +30,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -69,6 +70,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -108,6 +110,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -147,6 +150,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -186,6 +190,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -239,6 +244,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Violence
 #' 
 #' @keywords variable
 #' @md
@@ -294,6 +300,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Violence
 #' 
 #' @keywords variable
 #' @md
@@ -341,6 +348,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Violence
 #' 
 #' @keywords variable
 #' @md
@@ -394,6 +402,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -449,6 +458,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Guns
 #' 
 #' @keywords variable
 #' @md

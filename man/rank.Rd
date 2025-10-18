@@ -65,7 +65,24 @@ Other Core:
 \code{\link{jobsafe}},
 \code{\link{jobsoc}},
 \code{\link{rank10}}
+
+Other Social Class: 
+\code{\link{class}()},
+\code{\link{classy}},
+\code{\link{rank10}}
+
+Other Split Ballots: 
+\code{\link{class}()},
+\code{\link{classy}},
+\code{\link{jobaccmp}},
+\code{\link{jobhelp}},
+\code{\link{jobpeop}},
+\code{\link{jobresp}},
+\code{\link{jobsafe}},
+\code{\link{jobsoc}}
 }
 \concept{Core}
 \concept{ISSP Social Inequality}
+\concept{Social Class}
+\concept{Split Ballots}
 \keyword{variable}

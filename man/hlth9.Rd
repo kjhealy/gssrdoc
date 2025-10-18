@@ -54,6 +54,21 @@ Other Negative Life Events:
 \code{\link{work1}},
 \code{\link{work2}},
 \code{\link{work3}}
+
+Other Health: 
+\code{\link{hlth10}},
+\code{\link{hlth11}},
+\code{\link{hlth8}}
+
+Other Trauma: 
+\code{\link{hlth10}},
+\code{\link{hlth11}},
+\code{\link{hlth8}},
+\code{\link{work1}},
+\code{\link{work2}},
+\code{\link{work3}}
 }
+\concept{Health}
 \concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

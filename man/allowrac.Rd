@@ -42,6 +42,9 @@ Counts by year:\tabular{lllllll}{
 \seealso{
 Other Civil Liberties: 
 \code{\link{allowmar}}
+
+Other Civil Liberties: 
+\code{\link{allowmar}}
 }
 \concept{Civil Liberties}
 \keyword{variable}

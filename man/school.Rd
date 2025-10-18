@@ -51,6 +51,13 @@ Other Core:
 \code{\link{hitnum}},
 \code{\link{prowar}},
 \code{\link{strike}}
+
+Other Demonstrations: 
+\code{\link{antiwar}},
+\code{\link{civright}},
+\code{\link{prowar}},
+\code{\link{strike}}
 }
 \concept{Core}
+\concept{Demonstrations}
 \keyword{variable}

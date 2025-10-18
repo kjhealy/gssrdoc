@@ -65,4 +65,5 @@ Other Core:
 \code{\link{weekswrk}}
 }
 \concept{Core}
+\concept{Smoking}
 \keyword{variable}

@@ -54,4 +54,5 @@ Other Intergroup Relations:
 \code{\link{racquota}}
 }
 \concept{Intergroup Relations}
+\concept{Jews}
 \keyword{variable}

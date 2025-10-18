@@ -54,5 +54,6 @@ Other Culture:
 \code{\link{hosthome}},
 \code{\link{impfinan}}
 }
+\concept{Art/The Arts (And Literature)}
 \concept{Culture}
 \keyword{variable}

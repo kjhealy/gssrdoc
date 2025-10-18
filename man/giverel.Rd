@@ -49,6 +49,27 @@ Other Religion:
 \code{\link{pubsch}},
 \code{\link{relhrs1}},
 \code{\link{relhrs2}}
+
+Other Contribute Money To: 
+\code{\link{givearts}},
+\code{\link{giveoth}}
+
+Other Religion: 
+\code{\link{cathsch}},
+\code{\link{givearts}},
+\code{\link{giveoth}},
+\code{\link{homesch}},
+\code{\link{kid5up}},
+\code{\link{numcong}},
+\code{\link{pubsch}},
+\code{\link{relhrs1}},
+\code{\link{relhrs2}}
+
+Other Voluntary Associations: 
+\code{\link{givearts}},
+\code{\link{giveoth}}
 }
+\concept{Contribute Money To}
 \concept{Religion}
+\concept{Voluntary Associations}
 \keyword{variable}

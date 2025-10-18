@@ -53,5 +53,7 @@ Other Negative Life Events:
 \code{\link{law4}},
 \code{\link{law5}}
 }
+\concept{Divorce}
+\concept{Life Events}
 \concept{Negative Life Events}
 \keyword{variable}

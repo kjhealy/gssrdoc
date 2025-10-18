@@ -85,6 +85,17 @@ Other Ethnicity:
 \code{\link{speth3}},
 \code{\link{spethnic}},
 \code{\link{spethnum}}
+
+Other Ethnicity: 
+\code{\link{eth1}},
+\code{\link{eth2}},
+\code{\link{eth3}},
+\code{\link{ethnic}},
+\code{\link{speth1}},
+\code{\link{speth2}},
+\code{\link{speth3}},
+\code{\link{spethnic}},
+\code{\link{spethnum}}
 }
 \concept{Ethnicity}
 \keyword{variable}

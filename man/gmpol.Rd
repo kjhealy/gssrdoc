@@ -51,6 +51,10 @@ Other Science Knowledge & Attitudes:
 \code{\link{polbsttx}},
 \code{\link{polinftx}},
 \code{\link{txpol}}
+
+Other Science: 
+\code{\link{gmmed}}
 }
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

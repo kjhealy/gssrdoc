@@ -67,6 +67,10 @@ Other Intergroup Relations:
 \code{\link{violjews}},
 \code{\link{violso}},
 \code{\link{violwhts}}
+
+Other Blacks: 
+\code{\link{violblks}}
 }
+\concept{Blacks}
 \concept{Intergroup Relations}
 \keyword{variable}

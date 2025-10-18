@@ -51,6 +51,17 @@ Other Work Organizations:
 \code{\link{othpay}},
 \code{\link{raiseall}},
 \code{\link{raisefav}}
+
+Other Job: 
+\code{\link{fringe1}},
+\code{\link{fringe2}},
+\code{\link{fringe3}},
+\code{\link{fringe4}},
+\code{\link{fringe5}},
+\code{\link{fringe6}},
+\code{\link{raiseall}},
+\code{\link{raisefav}}
 }
+\concept{Job}
 \concept{Work Organizations}
 \keyword{variable}

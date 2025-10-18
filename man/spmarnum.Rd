@@ -50,6 +50,10 @@ Other Family Mobility:
 \code{\link{spmaeduc}},
 \code{\link{sppaeduc}},
 \code{\link{spyrborn}}
+
+Other Marital Status: 
+\code{\link{agewedcr}}
 }
 \concept{Family Mobility}
+\concept{Marital Status}
 \keyword{variable}

@@ -82,4 +82,7 @@ Other Core:
 \code{\link{wksups1}}
 }
 \concept{Core}
+\concept{Employment}
+\concept{Labor Force Status}
+\concept{Unemployment}
 \keyword{variable}

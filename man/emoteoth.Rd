@@ -51,6 +51,18 @@ Other Gender:
 \code{\link{tradmod}},
 \code{\link{willwed1}},
 \code{\link{willwed2}}
+
+Other Cohabitation: 
+\code{\link{sharesep}},
+\code{\link{tradmod}}
+
+Other Marriage: 
+\code{\link{sharesep}},
+\code{\link{tradmod}},
+\code{\link{willwed1}},
+\code{\link{willwed2}}
 }
+\concept{Cohabitation}
 \concept{Gender}
+\concept{Marriage}
 \keyword{variable}

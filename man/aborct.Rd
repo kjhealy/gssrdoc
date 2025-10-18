@@ -50,6 +50,18 @@ Other Core:
 \code{\link{abpro1}},
 \code{\link{abpro2}},
 \code{\link{abpro3}}
+
+Other Abortion: 
+\code{\link{abany}},
+\code{\link{abcon1}},
+\code{\link{abcon2}},
+\code{\link{abcon3}},
+\code{\link{abimp}},
+\code{\link{abinfo}},
+\code{\link{abpro1}},
+\code{\link{abpro2}},
+\code{\link{abpro3}}
 }
+\concept{Abortion}
 \concept{Core}
 \keyword{variable}

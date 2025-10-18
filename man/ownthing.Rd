@@ -48,6 +48,10 @@ Other Intergroup Relations:
 \code{\link{openmind}},
 \code{\link{talkback}},
 \code{\link{twoclass}}
+
+Other Authority: 
+\code{\link{talkback}}
 }
+\concept{Authority}
 \concept{Intergroup Relations}
 \keyword{variable}

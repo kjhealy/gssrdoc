@@ -46,5 +46,6 @@ Other Information Society:
 \code{\link{jobpaper}},
 \code{\link{numprobs}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

@@ -33,6 +33,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Ethnicity
+#' @family Political
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -74,6 +77,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Civil Liberties
+#' @family Race
+#' @family Religion
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -115,6 +122,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Civil Liberties
+#' @family Race
+#' @family Religion
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -156,6 +167,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Blacks
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -197,6 +210,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Blacks
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -237,6 +252,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Education
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -279,6 +296,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Education
+#' @family Hispanics
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
@@ -317,6 +337,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Language
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -356,6 +378,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Language
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -398,6 +422,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
+#' @family Immigration
+#' @family United States
 #' 
 #' @keywords variable
 #' @md

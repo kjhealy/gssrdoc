@@ -32,6 +32,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name knwbus
@@ -70,6 +71,7 @@ NULL
 #'  |Total |1175 |149                |147          |184                 |689    |4          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -112,6 +114,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name knwclenr
@@ -150,6 +153,7 @@ NULL
 #'  |Total |1175 |216                |327          |315                 |314    |1          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -192,6 +196,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name knwhrman
@@ -230,6 +235,7 @@ NULL
 #'  |Total |1175 |187                |249          |243                 |493    |1          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -272,6 +278,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name knwmchnc
@@ -310,6 +317,7 @@ NULL
 #'  |Total |1175 |491                |328          |156                 |197    |1          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -352,6 +360,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name knwcop
@@ -390,6 +399,7 @@ NULL
 #'  |Total |1175 |425                |312          |184                 |250    |2          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

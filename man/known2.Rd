@@ -52,6 +52,17 @@ Other Social Networks:
 \code{\link{talkto3}},
 \code{\link{talkto4}},
 \code{\link{talkto5}}
+
+Other Social Networks: 
+\code{\link{known1}},
+\code{\link{known3}},
+\code{\link{known4}},
+\code{\link{known5}},
+\code{\link{talkto1}},
+\code{\link{talkto2}},
+\code{\link{talkto3}},
+\code{\link{talkto4}},
+\code{\link{talkto5}}
 }
 \concept{Social Networks}
 \keyword{variable}

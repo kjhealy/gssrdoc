@@ -53,6 +53,17 @@ Other Science Knowledge & Attitudes:
 \code{\link{sciinfgw}},
 \code{\link{scmed}},
 \code{\link{scpol}}
+
+Other Science: 
+\code{\link{bizbstgw}},
+\code{\link{bizinfgw}},
+\code{\link{polbstgw}},
+\code{\link{polinfgw}},
+\code{\link{scibstgw}},
+\code{\link{sciinfgw}},
+\code{\link{scmed}},
+\code{\link{scpol}}
 }
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

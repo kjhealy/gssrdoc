@@ -52,4 +52,7 @@ Other Core:
 \code{\link{tax}}
 }
 \concept{Core}
+\concept{Education}
+\concept{Opportunity}
+\concept{Social Class}
 \keyword{variable}

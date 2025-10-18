@@ -52,6 +52,18 @@ Other Mental Health II:
 \code{\link{chldfrnd}},
 \code{\link{chldsch}},
 \code{\link{spendeve}}
+
+Other Children: 
+\code{\link{adcou}},
+\code{\link{addoc}},
+\code{\link{addocmed}},
+\code{\link{adfam}},
+\code{\link{adfammed}},
+\code{\link{adtchmed}},
+\code{\link{chldfrnd}},
+\code{\link{chldsch}},
+\code{\link{spendeve}}
 }
+\concept{Children}
 \concept{Mental Health II}
 \keyword{variable}

@@ -53,5 +53,6 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{yrskwn4}},
 \code{\link{yrskwn5}}
 }
+\concept{Religion}
 \concept{Voluntary Assocations/Social Networks}
 \keyword{variable}

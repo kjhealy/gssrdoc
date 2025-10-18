@@ -73,6 +73,11 @@ Other Core:
 \code{\link{pill}},
 \code{\link{sexeduc}},
 \code{\link{teenpill}}
+
+Other Birth Control: 
+\code{\link{pill}},
+\code{\link{teenpill}}
 }
+\concept{Birth Control}
 \concept{Core}
 \keyword{variable}

@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name prntlk
@@ -72,6 +73,7 @@ NULL
 #'  |Total |2383 |6                 |5                                        |612                           |213                                      |157               |159          |4         |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -115,6 +117,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name prntcre
@@ -154,6 +157,7 @@ NULL
 #'  |Total |2383 |10                |18                                       |1038                          |15                                       |8                 |61           |4         |7              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -197,6 +201,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name prntbhav
@@ -236,6 +241,7 @@ NULL
 #'  |Total |2383 |17                |26                                       |1055                          |4                                        |6                 |42           |4         |7              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -279,6 +285,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name prntmdl
@@ -318,6 +325,7 @@ NULL
 #'  |Total |3023 |47                                                        |44                                                   |257                                                       |69                                                          |89                                       |11           |2         |2              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -362,6 +370,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name plan1
@@ -401,6 +410,7 @@ NULL
 #'  |Total |3024 |77                               |97                                |228                       |73                                |39                               |2          |3         |1              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

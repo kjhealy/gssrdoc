@@ -51,6 +51,12 @@ Other Multi-Ethnic United States:
 \code{\link{jewsrel}},
 \code{\link{jewsschl}},
 \code{\link{jewswrk}}
+
+Other Blacks: 
+\code{\link{blkcls}},
+\code{\link{blkcom}},
+\code{\link{blkwrk}}
 }
+\concept{Blacks}
 \concept{Multi-Ethnic United States}
 \keyword{variable}

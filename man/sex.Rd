@@ -87,4 +87,5 @@ Other Core:
 \code{\link{spgradtounder}}
 }
 \concept{Core}
+\concept{Sex}
 \keyword{variable}

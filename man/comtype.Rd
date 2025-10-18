@@ -57,4 +57,5 @@ Other ISSP Environment:
 \code{\link{usdoenuf}}
 }
 \concept{ISSP Environment}
+\concept{Residence}
 \keyword{variable}

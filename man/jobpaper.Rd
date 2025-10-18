@@ -50,6 +50,10 @@ Other Information Society:
 \code{\link{intaccss}},
 \code{\link{jobinfo}},
 \code{\link{numprobs}}
+
+Other Job: 
+\code{\link{jobinfo}}
 }
 \concept{Information Society}
+\concept{Job}
 \keyword{variable}

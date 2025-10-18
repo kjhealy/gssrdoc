@@ -53,6 +53,20 @@ Other Science Knowledge & Attitudes:
 \code{\link{hsmath}},
 \code{\link{hsphys}},
 \code{\link{sciagrgw}}
+
+Other Environment: 
+\code{\link{gwbiz}},
+\code{\link{gwsci}},
+\code{\link{sciagrgw}}
+
+Other Science: 
+\code{\link{colsci}},
+\code{\link{colscinm}},
+\code{\link{gwbiz}},
+\code{\link{gwsci}},
+\code{\link{sciagrgw}}
 }
+\concept{Environment}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -52,6 +52,13 @@ Other ISSP Family & Gender Roles:
 \code{\link{wkkidscl}},
 \code{\link{wkndact}},
 \code{\link{wkyngscl}}
+
+Other Work: 
+\code{\link{famvswk1}},
+\code{\link{jobvsfa1}},
+\code{\link{wkkidscl}},
+\code{\link{wkyngscl}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Work}
 \keyword{variable}

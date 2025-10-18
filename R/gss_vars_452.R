@@ -34,6 +34,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -76,6 +77,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -120,6 +122,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -165,6 +168,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -208,6 +212,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -250,6 +255,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -294,6 +300,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -339,6 +346,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -382,6 +390,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -437,6 +446,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
+#' @family Cohabitation
+#' @family Family
 #' 
 #' @keywords variable
 #' @md

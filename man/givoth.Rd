@@ -51,6 +51,18 @@ Other Markets & Exchange - Giving & Volunteering:
 \code{\link{totpub}},
 \code{\link{totrec}},
 \code{\link{totrelig}}
+
+Other Voluntary Associations: 
+\code{\link{givinfrm}},
+\code{\link{givintl}},
+\code{\link{toteduc}},
+\code{\link{totenvir}},
+\code{\link{tothlth}},
+\code{\link{tothuman}},
+\code{\link{totpub}},
+\code{\link{totrec}},
+\code{\link{totrelig}}
 }
 \concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

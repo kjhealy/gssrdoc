@@ -312,4 +312,5 @@ Other Core:
 \code{\link{prestg105plus}}
 }
 \concept{Core}
+\concept{Occupation}
 \keyword{variable}

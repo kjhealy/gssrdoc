@@ -54,6 +54,18 @@ Other Number Known:
 \code{\link{trtkaren}},
 \code{\link{trtkevin}},
 \code{\link{trtshawn}}
+
+Other Social Networks: 
+\code{\link{acqdems}},
+\code{\link{acqmyrac}},
+\code{\link{acqreps}},
+\code{\link{acqvacoh}},
+\code{\link{acqvacon}},
+\code{\link{acqvalib}},
+\code{\link{trtkaren}},
+\code{\link{trtkevin}},
+\code{\link{trtshawn}}
 }
 \concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

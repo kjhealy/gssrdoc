@@ -52,6 +52,16 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{reltime}},
 \code{\link{relvisit}},
 \code{\link{unaunum}}
+
+Other Family: 
+\code{\link{grparnum}},
+\code{\link{inlawnum}},
+\code{\link{relmost}},
+\code{\link{relnum}},
+\code{\link{reltime}},
+\code{\link{relvisit}},
+\code{\link{unaunum}}
 }
+\concept{Family}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

@@ -86,6 +86,15 @@ Other Core:
 \code{\link{sphrs2}},
 \code{\link{spwrksta}},
 \code{\link{widowed}}
+
+Other Family: 
+\code{\link{widowed}}
+
+Other Marital Status: 
+\code{\link{widowed}}
 }
 \concept{Core}
+\concept{Divorce}
+\concept{Family}
+\concept{Marital Status}
 \keyword{variable}

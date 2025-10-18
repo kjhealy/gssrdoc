@@ -54,6 +54,11 @@ Other ISSP Role of Gov't:
 \code{\link{hsbasics}},
 \code{\link{hsrespct}},
 \code{\link{opfamily}}
+
+Other Education: 
+\code{\link{hsbasics}},
+\code{\link{hsrespct}}
 }
+\concept{Education}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

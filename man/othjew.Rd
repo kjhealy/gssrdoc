@@ -52,6 +52,12 @@ Other Core:
 \code{\link{other}},
 \code{\link{relig}},
 \code{\link{wirtap}}
+
+Other Religion: 
+\code{\link{denom}},
+\code{\link{other}},
+\code{\link{relig}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

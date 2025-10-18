@@ -46,5 +46,6 @@ Other Form Y:
 \code{\link{polhitoy}},
 \code{\link{popespky}}
 }
+\concept{Euthanasia}
 \concept{Form Y}
 \keyword{variable}

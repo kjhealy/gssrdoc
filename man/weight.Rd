@@ -50,6 +50,14 @@ Other Quality of Working Life:
 \code{\link{slpprblm}},
 \code{\link{stress12}},
 \code{\link{usetech}}
+
+Other Health: 
+\code{\link{arthrtis}},
+\code{\link{depress}},
+\code{\link{diabetes}},
+\code{\link{hyperten}},
+\code{\link{slpprblm}}
 }
+\concept{Health}
 \concept{Quality of Working Life}
 \keyword{variable}

@@ -29,6 +29,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Aids
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -67,6 +69,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Aids
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -105,6 +109,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Aids
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -152,6 +158,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
+#' @family Gays And Lesbians
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -190,6 +198,7 @@ NULL
 #'  |Total |939 |759    |637  |1        |12        |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -232,6 +241,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sexnow
@@ -268,6 +278,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Birth Order
+#' @family Birth Order
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -309,6 +321,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
+#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -352,6 +365,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
+#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -393,6 +407,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
+#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md

@@ -55,6 +55,24 @@ Other Global Economics:
 \code{\link{paychnge}},
 \code{\link{whyleave}},
 \code{\link{work3yrs}}
+
+Other Employment: 
+\code{\link{curempyr}},
+\code{\link{whyleave}},
+\code{\link{work3yrs}}
+
+Other Job: 
+\code{\link{curempyr}},
+\code{\link{pastpay}},
+\code{\link{paychnge}},
+\code{\link{whyleave}},
+\code{\link{work3yrs}}
+
+Other Unemployment: 
+\code{\link{whyleave}}
 }
+\concept{Employment}
 \concept{Global Economics}
+\concept{Job}
+\concept{Unemployment}
 \keyword{variable}

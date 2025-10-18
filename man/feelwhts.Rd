@@ -44,6 +44,10 @@ Other Prejudice:
 \code{\link{ethdiff}},
 \code{\link{ethsame}},
 \code{\link{whtsdiff}}
+
+Other Whites: 
+\code{\link{whtsdiff}}
 }
 \concept{Prejudice}
+\concept{Whites}
 \keyword{variable}

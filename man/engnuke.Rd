@@ -51,6 +51,18 @@ Other Science Knowledge & Attitudes:
 \code{\link{nukeelec}},
 \code{\link{polbstnk}},
 \code{\link{polinfnk}}
+
+Other Environment: 
+\code{\link{bizbstnk}},
+\code{\link{bizinfnk}},
+\code{\link{biznuke}},
+\code{\link{engagrnk}},
+\code{\link{engbstnk}},
+\code{\link{enhinfnk}},
+\code{\link{nukeelec}},
+\code{\link{polbstnk}},
+\code{\link{polinfnk}}
 }
+\concept{Environment}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

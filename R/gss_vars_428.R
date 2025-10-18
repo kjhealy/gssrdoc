@@ -29,6 +29,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Children
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -71,6 +74,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Gays And Lesbians
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -110,6 +116,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Employment
+#' @family Gays And Lesbians
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -150,6 +159,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Employment
+#' @family Gays And Lesbians
 #' 
 #' @keywords variable
 #' @md
@@ -189,6 +200,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Employment
+#' @family Gays And Lesbians
 #' 
 #' @keywords variable
 #' @md
@@ -229,6 +242,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Employment
+#' @family Gays And Lesbians
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -268,6 +285,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Employment
+#' @family Gays And Lesbians
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -308,6 +329,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Employment
+#' @family Gays And Lesbians
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -347,6 +372,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Dwelling (R's)
+#' @family Gays And Lesbians
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -386,6 +414,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
+#' @family Dwelling (R's)
+#' @family Gays And Lesbians
+#' @family Residence
 #' 
 #' @keywords variable
 #' @md

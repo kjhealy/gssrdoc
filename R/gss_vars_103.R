@@ -39,6 +39,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Education
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -86,6 +88,8 @@ NULL
 #'  |Total |2341 |21        |87        |148         |606       |325          |85           |356          |258          |57         |62        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Education
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -135,6 +139,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Education
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -182,6 +188,8 @@ NULL
 #'  |Total |3392 |15        |25        |68          |257       |153          |40           |201          |116          |23         |56        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Education
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -231,6 +239,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Education
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -269,6 +279,7 @@ NULL
 #'  |Total |1832 |3  |3  |4  |7  |13 |12 |20 |20 |36 |29 |44 |53 |49 |47 |47 |40 |74 |48 |59 |54 |56 |39 |47 |52 |43 |53 |73 |35 |63 |46 |53 |71 |29 |54 |58 |36 |84 |43 |51 |50 |44 |63 |56 |49 |34 |31 |54 |20 |40 |32 |24 |38 |15 |28 |18 |21 |26 |7  |15 |15 |13 |18 |12 |9  |7  |7  |4  |8  |5  |8  |2  |1  |3  |19         |66        |2  |1  |1  |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -309,6 +320,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -347,6 +359,7 @@ NULL
 #'  |Total |2839 |2  |1  |5  |9  |8  |8  |9  |20 |18 |21 |25 |24 |20 |35 |37 |30 |25 |43 |32 |40 |27 |28 |41 |35 |29 |39 |25 |41 |29 |47 |29 |16 |58 |21 |18 |29 |27 |43 |20 |18 |25 |21 |34 |32 |15 |25 |21 |37 |11 |16 |11 |15 |24 |6  |9  |11 |3  |16 |9  |9  |5  |7  |7  |2  |5  |4  |1  |2  |3  |3  |1  |1  |13         |58        |1  |1  |2  |1  |2  |3  |1  |1  |1  |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -387,6 +400,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -425,6 +439,7 @@ NULL
 #'  |Total |3753 |2  |3  |2  |2  |2  |3  |4  |3  |4  |9  |14 |10 |8  |16 |10 |9  |10 |10 |16 |9  |16 |20 |14 |25 |10 |11 |16 |10 |17 |11 |6  |10 |12 |11 |9  |8  |8  |7  |14 |3  |12 |4  |7  |16 |8  |9  |7  |7  |10 |4  |6  |8  |5  |5  |1  |5  |4  |6  |5  |1  |7  |1  |2  |2  |3  |3  |1  |1  |3  |1  |50        |1  |3  |1  |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable

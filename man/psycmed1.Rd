@@ -49,6 +49,11 @@ Other Mental Health:
 \code{\link{psycmed2}},
 \code{\link{psycmed3}},
 \code{\link{seenmntl}}
+
+Other Mental Health: 
+\code{\link{psycmed2}},
+\code{\link{psycmed3}},
+\code{\link{seenmntl}}
 }
 \concept{Mental Health}
 \keyword{variable}

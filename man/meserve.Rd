@@ -54,6 +54,14 @@ Other Core:
 \code{\link{privacy}},
 \code{\link{rushed}},
 \code{\link{stresswk}}
+
+Other Military: 
+\code{\link{feserve}}
+
+Other Split Ballots: 
+\code{\link{feserve}}
 }
 \concept{Core}
+\concept{Military}
+\concept{Split Ballots}
 \keyword{variable}

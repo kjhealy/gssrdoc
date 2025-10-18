@@ -57,6 +57,18 @@ Other Sexual Orientation:
 \code{\link{relgendr}},
 \code{\link{sexunion}},
 \code{\link{toldsxor}}
+
+Other Gays And Lesbians: 
+\code{\link{marunion}},
+\code{\link{sexunion}},
+\code{\link{toldsxor}}
+
+Other Sex: 
+\code{\link{relgendr}},
+\code{\link{sexunion}},
+\code{\link{toldsxor}}
 }
+\concept{Gays And Lesbians}
+\concept{Sex}
 \concept{Sexual Orientation}
 \keyword{variable}

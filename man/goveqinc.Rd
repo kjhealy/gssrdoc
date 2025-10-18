@@ -65,6 +65,18 @@ Other ISSP Social Inequality:
 \code{\link{govminc}},
 \code{\link{govunemp}},
 \code{\link{incgap}}
+
+Other Inequality, Income: 
+\code{\link{givfctry}},
+\code{\link{givjudge}},
+\code{\link{givrocc}},
+\code{\link{govjobs}},
+\code{\link{govless}},
+\code{\link{govminc}},
+\code{\link{govunemp}},
+\code{\link{incgap}}
 }
 \concept{ISSP Social Inequality}
+\concept{Inequality, Income}
+\concept{Social Class}
 \keyword{variable}

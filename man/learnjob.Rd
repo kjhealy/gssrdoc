@@ -61,4 +61,5 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{talkedto}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Job}
 \keyword{variable}

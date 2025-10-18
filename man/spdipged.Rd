@@ -55,6 +55,16 @@ Other Core:
 \code{\link{spdeg}},
 \code{\link{whencol}},
 \code{\link{whenhs}}
+
+Other Education: 
+\code{\link{dipged}},
+\code{\link{madeg}},
+\code{\link{major1}},
+\code{\link{major2}},
+\code{\link{spdeg}},
+\code{\link{whencol}},
+\code{\link{whenhs}}
 }
 \concept{Core}
+\concept{Education}
 \keyword{variable}

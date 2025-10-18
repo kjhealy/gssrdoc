@@ -56,6 +56,18 @@ Other Work Orientation:
 \code{\link{rpaysame}},
 \code{\link{rsecjob}},
 \code{\link{ryrsfirm}}
+
+Other Job: 
+\code{\link{rageemp}},
+\code{\link{rdk}},
+\code{\link{rdowell}},
+\code{\link{reducemp}},
+\code{\link{rexpernc}},
+\code{\link{rfamresp}},
+\code{\link{rpaysame}},
+\code{\link{rsecjob}},
+\code{\link{ryrsfirm}}
 }
+\concept{Job}
 \concept{Work Orientation}
 \keyword{variable}

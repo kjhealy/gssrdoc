@@ -63,6 +63,16 @@ Other Core:
 \code{\link{postlife}},
 \code{\link{reliten}},
 \code{\link{relitena}}
+
+Other Religion: 
+\code{\link{attend}},
+\code{\link{fund}},
+\code{\link{jew}},
+\code{\link{maattend}},
+\code{\link{paattend}},
+\code{\link{postlife}},
+\code{\link{reliten}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

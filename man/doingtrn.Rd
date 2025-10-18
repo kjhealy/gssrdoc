@@ -50,6 +50,16 @@ Other Jobs:
 \code{\link{numemp}},
 \code{\link{wojob}},
 \code{\link{wojobyrs}}
+
+Other Job: 
+\code{\link{doingdys}},
+\code{\link{doingfin}},
+\code{\link{formldys}},
+\code{\link{formlfin}},
+\code{\link{formlhrs}},
+\code{\link{howpaid}},
+\code{\link{numemp}}
 }
+\concept{Job}
 \concept{Jobs}
 \keyword{variable}

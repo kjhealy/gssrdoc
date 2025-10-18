@@ -65,6 +65,10 @@ Other Science Knowledge & Attitudes:
 \code{\link{majorcol}},
 \code{\link{solarrev}},
 \code{\link{tomatoes}}
+
+Other Education: 
+\code{\link{majorcol}}
 }
+\concept{Education}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

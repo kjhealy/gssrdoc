@@ -73,6 +73,16 @@ Other Core:
 \code{\link{satcity}},
 \code{\link{trust}},
 \code{\link{trusty}}
+
+Other Satisfaction: 
+\code{\link{satcity}}
+
+Other Split Ballots: 
+\code{\link{satcity}},
+\code{\link{trust}},
+\code{\link{trusty}}
 }
 \concept{Core}
+\concept{Satisfaction}
+\concept{Split Ballots}
 \keyword{variable}

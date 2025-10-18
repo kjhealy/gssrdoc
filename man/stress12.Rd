@@ -52,6 +52,13 @@ Other Quality of Working Life:
 \code{\link{slpprblm}},
 \code{\link{usetech}},
 \code{\link{weight}}
+
+Other Job: 
+\code{\link{knowschd}},
+\code{\link{satjob1}},
+\code{\link{usetech}}
 }
+\concept{Job}
 \concept{Quality of Working Life}
+\concept{Work}
 \keyword{variable}

@@ -53,4 +53,5 @@ Other Culture:
 \code{\link{united}}
 }
 \concept{Culture}
+\concept{Family}
 \keyword{variable}

@@ -43,6 +43,12 @@ Other Jobs:
 \code{\link{occtrain}},
 \code{\link{trainsch}},
 \code{\link{typeorg}}
+
+Other Job: 
+\code{\link{occtrain}},
+\code{\link{trainsch}},
+\code{\link{typeorg}}
 }
+\concept{Job}
 \concept{Jobs}
 \keyword{variable}

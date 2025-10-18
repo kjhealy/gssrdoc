@@ -31,6 +31,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name suiclse1
@@ -70,6 +71,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name suitime1
@@ -108,6 +110,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name suimths1
@@ -144,6 +147,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -203,6 +207,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name suirel2
@@ -245,6 +250,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name suineg2
@@ -283,6 +289,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -323,6 +330,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name suitime2
@@ -361,6 +369,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name suimths2
@@ -397,6 +406,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
+#' 
 #' 
 #' @keywords variable
 #' @md

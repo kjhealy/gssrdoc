@@ -48,6 +48,13 @@ Other Multiculturalism:
 \code{\link{pastdown}},
 \code{\link{rdiscaff}},
 \code{\link{rimmdisc}}
+
+Other Economy: 
+\code{\link{econfutr}},
+\code{\link{futrdown}},
+\code{\link{futrup}},
+\code{\link{pastdown}}
 }
+\concept{Economy}
 \concept{Multiculturalism}
 \keyword{variable}

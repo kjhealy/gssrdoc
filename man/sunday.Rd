@@ -49,6 +49,12 @@ Other Religious Attendance and Identity:
 \code{\link{monday}},
 \code{\link{numdays}},
 \code{\link{seefilm}}
+
+Other Religion: 
+\code{\link{attrelig}},
+\code{\link{monday}},
+\code{\link{numdays}}
 }
+\concept{Religion}
 \concept{Religious Attendance and Identity}
 \keyword{variable}

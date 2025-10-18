@@ -57,4 +57,5 @@ Other Multi-Ethnic United States:
 \code{\link{hispwrk}}
 }
 \concept{Multi-Ethnic United States}
+\concept{Race}
 \keyword{variable}

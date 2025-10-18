@@ -54,6 +54,28 @@ Other Negative Life Events:
 \code{\link{prob2}},
 \code{\link{prob3}},
 \code{\link{prob4}}
+
+Other Health: 
+\code{\link{hlth1}},
+\code{\link{hlth2}},
+\code{\link{hlth3}},
+\code{\link{hlth4}},
+\code{\link{hlth6}},
+\code{\link{hlth7}}
+
+Other Trauma: 
+\code{\link{hlth1}},
+\code{\link{hlth2}},
+\code{\link{hlth3}},
+\code{\link{hlth4}},
+\code{\link{hlth6}},
+\code{\link{hlth7}},
+\code{\link{prob2}},
+\code{\link{prob3}},
+\code{\link{prob4}}
 }
+\concept{Drug Use And Addiction}
+\concept{Health}
 \concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

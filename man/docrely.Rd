@@ -51,6 +51,14 @@ Other Doctors & Patients:
 \code{\link{docvig}},
 \code{\link{regdoc}},
 \code{\link{regdocyr}}
+
+Other Health: 
+\code{\link{docaskme}},
+\code{\link{docdecid}},
+\code{\link{docvig}},
+\code{\link{regdoc}},
+\code{\link{regdocyr}}
 }
 \concept{Doctors & Patients}
+\concept{Health}
 \keyword{variable}

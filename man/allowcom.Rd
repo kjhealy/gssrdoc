@@ -44,6 +44,11 @@ Other Civil Liberties:
 \code{\link{forbdcom}},
 \code{\link{forbdmar}},
 \code{\link{forbdrac}}
+
+Other Civil Liberties: 
+\code{\link{forbdcom}},
+\code{\link{forbdmar}},
+\code{\link{forbdrac}}
 }
 \concept{Civil Liberties}
 \keyword{variable}

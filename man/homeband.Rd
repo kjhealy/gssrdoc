@@ -51,5 +51,6 @@ Other Information Society:
 \code{\link{knowkid3}},
 \code{\link{knowkid4}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

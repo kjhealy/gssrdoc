@@ -54,6 +54,14 @@ Other Mental Health:
 \code{\link{terminal}},
 \code{\link{termpain}},
 \code{\link{termpay}}
+
+Other Terminal Illness: 
+\code{\link{termecon}},
+\code{\link{termemot}},
+\code{\link{terminal}},
+\code{\link{termpain}},
+\code{\link{termpay}}
 }
 \concept{Mental Health}
+\concept{Terminal Illness}
 \keyword{variable}

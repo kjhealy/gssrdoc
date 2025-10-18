@@ -53,6 +53,25 @@ Other Multiculturalism:
 \code{\link{wlthundc}},
 \code{\link{workimm}},
 \code{\link{workundc}}
+
+Other Ethnicity: 
+\code{\link{asngovt}},
+\code{\link{hspgovt}},
+\code{\link{whtgovt}}
+
+Other Federal Government: 
+\code{\link{asngovt}},
+\code{\link{hspgovt}},
+\code{\link{whtgovt}}
+
+Other Race: 
+\code{\link{asngovt}},
+\code{\link{hspgovt}},
+\code{\link{whtgovt}}
 }
+\concept{Blacks}
+\concept{Ethnicity}
+\concept{Federal Government}
 \concept{Multiculturalism}
+\concept{Race}
 \keyword{variable}

@@ -47,6 +47,10 @@ Other Intergroup Relations:
 \code{\link{openmind}},
 \code{\link{ownthing}},
 \code{\link{twoclass}}
+
+Other Authority: 
+\code{\link{ownthing}}
 }
+\concept{Authority}
 \concept{Intergroup Relations}
 \keyword{variable}

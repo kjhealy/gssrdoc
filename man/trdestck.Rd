@@ -43,5 +43,6 @@ Counts by year:\tabular{lllllll}{
 Other Shared Capitalism: 
 \code{\link{defpensn}}
 }
+\concept{Job}
 \concept{Shared Capitalism}
 \keyword{variable}

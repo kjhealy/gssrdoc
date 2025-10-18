@@ -63,6 +63,25 @@ Other Science Knowledge & Attitudes:
 \code{\link{odds1}},
 \code{\link{scibnfts}},
 \code{\link{scistudy}}
+
+Other Knowledge: 
+\code{\link{expdesgn}},
+\code{\link{exptext}},
+\code{\link{odds1}},
+\code{\link{scistudy}}
+
+Other Science: 
+\code{\link{astrolgy}},
+\code{\link{astrosci}},
+\code{\link{balneg}},
+\code{\link{balpos}},
+\code{\link{expdesgn}},
+\code{\link{exptext}},
+\code{\link{odds1}},
+\code{\link{scibnfts}},
+\code{\link{scistudy}}
 }
+\concept{Knowledge}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

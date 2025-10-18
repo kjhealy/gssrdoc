@@ -54,6 +54,17 @@ Other Children:
 \code{\link{sppill}},
 \code{\link{sppoorkd}},
 \code{\link{spwrkpar}}
+
+Other Children: 
+\code{\link{spdsabkd}},
+\code{\link{spfoodkd}},
+\code{\link{spheadst}},
+\code{\link{sphlthkd}},
+\code{\link{sphomekd}},
+\code{\link{sppill}},
+\code{\link{sppoorkd}},
+\code{\link{spwrkpar}}
 }
 \concept{Children}
+\concept{Drug Use And Addiction}
 \keyword{variable}

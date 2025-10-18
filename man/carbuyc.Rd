@@ -51,6 +51,18 @@ Other Markets:
 \code{\link{carbuyg}},
 \code{\link{reldealr}},
 \code{\link{satcar}}
+
+Other Purchases/Transactions: 
+\code{\link{carbuy1}},
+\code{\link{carbuya}},
+\code{\link{carbuyb}},
+\code{\link{carbuyd}},
+\code{\link{carbuye}},
+\code{\link{carbuyf}},
+\code{\link{carbuyg}},
+\code{\link{reldealr}},
+\code{\link{satcar}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

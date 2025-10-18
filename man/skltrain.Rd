@@ -49,5 +49,6 @@ Other Work Orientation:
 \code{\link{otherwrk}},
 \code{\link{spwrkgvt}}
 }
+\concept{Work}
 \concept{Work Orientation}
 \keyword{variable}

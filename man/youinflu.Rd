@@ -53,6 +53,12 @@ Other ISSP Role of Gov't:
 \code{\link{stoprndm}},
 \code{\link{tapphone}},
 \code{\link{wotrial}}
+
+Other Social Networks: 
+\code{\link{exploit}},
+\code{\link{fewtrsty}},
+\code{\link{hlpinflu}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Social Networks}
 \keyword{variable}

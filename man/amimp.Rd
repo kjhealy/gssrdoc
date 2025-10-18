@@ -50,6 +50,13 @@ Other Emotions:
 \code{\link{usfrustr}},
 \code{\link{ussat}},
 \code{\link{usworry}}
+
+Other United States: 
+\code{\link{notam}},
+\code{\link{usfrustr}},
+\code{\link{ussat}},
+\code{\link{usworry}}
 }
 \concept{Emotions}
+\concept{United States}
 \keyword{variable}

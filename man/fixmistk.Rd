@@ -52,6 +52,12 @@ Other ISSP Citizenship:
 \code{\link{gvtrghts}},
 \code{\link{polinter}},
 \code{\link{polnews}}
+
+Other Political: 
+\code{\link{corruptn}},
+\code{\link{polinter}},
+\code{\link{polnews}}
 }
 \concept{ISSP Citizenship}
+\concept{Political}
 \keyword{variable}

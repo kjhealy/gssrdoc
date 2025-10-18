@@ -38,6 +38,18 @@ Other Core:
 \code{\link{spdotpeo}},
 \code{\link{spdotsvp}},
 \code{\link{spdotthn}}
+
+Other D.O.T. Codes: 
+\code{\link{dotged}},
+\code{\link{dotpres}},
+\code{\link{dotsvp}},
+\code{\link{dotthng}},
+\code{\link{spdotdat}},
+\code{\link{spdotged}},
+\code{\link{spdotpeo}},
+\code{\link{spdotsvp}},
+\code{\link{spdotthn}}
 }
 \concept{Core}
+\concept{D.O.T. Codes}
 \keyword{variable}

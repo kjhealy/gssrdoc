@@ -64,6 +64,18 @@ Other War and International:
 \code{\link{usun}},
 \code{\link{uswar}},
 \code{\link{uswary}}
+
+Other Foreign Affairs: 
+\code{\link{usun}},
+\code{\link{uswar}},
+\code{\link{uswary}}
+
+Other United States: 
+\code{\link{usun}},
+\code{\link{uswar}},
+\code{\link{uswary}}
 }
+\concept{Foreign Affairs}
+\concept{United States}
 \concept{War and International}
 \keyword{variable}

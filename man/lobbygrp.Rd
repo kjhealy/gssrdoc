@@ -53,4 +53,5 @@ Other Socio-political participation:
 \code{\link{workpol}}
 }
 \concept{Socio-political participation}
+\concept{Voluntary Associations}
 \keyword{variable}

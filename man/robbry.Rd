@@ -67,4 +67,5 @@ Other Core:
 \code{\link{shotgun}}
 }
 \concept{Core}
+\concept{Robbery}
 \keyword{variable}

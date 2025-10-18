@@ -51,6 +51,12 @@ Other Core:
 \code{\link{fefam}},
 \code{\link{fehelp}},
 \code{\link{fepresch}}
+
+Other Equal Rights Amendment: 
+\code{\link{era}},
+\code{\link{erameans}},
+\code{\link{eratell}}
 }
 \concept{Core}
+\concept{Equal Rights Amendment}
 \keyword{variable}

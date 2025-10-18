@@ -31,6 +31,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Cohabitation
 #' 
 #' @keywords variable
 #' @md
@@ -74,6 +75,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -117,6 +119,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -159,6 +162,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Abortion
 #' 
 #' @keywords variable
 #' @md
@@ -199,6 +203,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -240,6 +245,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
 #' @family ISSP Family & Gender Roles
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -285,6 +291,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -329,6 +336,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -373,6 +381,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -417,6 +426,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
+#' @family Household
 #' 
 #' @keywords variable
 #' @md

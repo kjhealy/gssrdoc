@@ -50,6 +50,12 @@ Other Religion and Culture:
 \code{\link{relart}},
 \code{\link{stateart}},
 \code{\link{volarts}}
+
+Other Art/The Arts (And Literature): 
+\code{\link{aimofart}},
+\code{\link{natlart}},
+\code{\link{stateart}}
 }
+\concept{Art/The Arts (And Literature)}
 \concept{Religion and Culture}
 \keyword{variable}

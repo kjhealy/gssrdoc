@@ -60,6 +60,20 @@ Other Science Knowledge & Attitudes:
 \code{\link{majorcol}},
 \code{\link{solarrev}},
 \code{\link{tomatoes}}
+
+Other Knowledge: 
+\code{\link{condrift}},
+\code{\link{evolved}},
+\code{\link{evolved1}},
+\code{\link{solarrev}}
+
+Other Science: 
+\code{\link{condrift}},
+\code{\link{evolved}},
+\code{\link{evolved1}},
+\code{\link{solarrev}}
 }
+\concept{Knowledge}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

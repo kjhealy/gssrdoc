@@ -53,6 +53,18 @@ Other Core:
 \code{\link{racjob}},
 \code{\link{racmost}},
 \code{\link{racpres}}
+
+Other Race: 
+\code{\link{busing}},
+\code{\link{busing10}},
+\code{\link{color}},
+\code{\link{racchurh}},
+\code{\link{rachaf}},
+\code{\link{rachisch}},
+\code{\link{racjob}},
+\code{\link{racmost}},
+\code{\link{racpres}}
 }
 \concept{Core}
+\concept{Race}
 \keyword{variable}

@@ -57,6 +57,15 @@ Other Core:
 \code{\link{occindv}},
 \code{\link{occonet}},
 \code{\link{prestg80}}
+
+Other Occupation: 
+\code{\link{indus80}},
+\code{\link{industry}},
+\code{\link{occ10}},
+\code{\link{occ80}},
+\code{\link{prestg80}}
 }
 \concept{Core}
+\concept{Occupation}
+\concept{Work}
 \keyword{variable}

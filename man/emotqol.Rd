@@ -53,6 +53,18 @@ Other Health Status:
 \code{\link{painfeel}},
 \code{\link{painqol}},
 \code{\link{painrely}}
+
+Other Health: 
+\code{\link{downfeel}},
+\code{\link{downrely}},
+\code{\link{emotcure}},
+\code{\link{emotfam}},
+\code{\link{paincure}},
+\code{\link{painfam}},
+\code{\link{painfeel}},
+\code{\link{painqol}},
+\code{\link{painrely}}
 }
+\concept{Health}
 \concept{Health Status}
 \keyword{variable}

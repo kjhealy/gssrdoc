@@ -54,6 +54,17 @@ Other Negative Life Events:
 \code{\link{law3}},
 \code{\link{law4}},
 \code{\link{law5}}
+
+Other Trauma: 
+\code{\link{famper2}},
+\code{\link{famper3}},
+\code{\link{famper4}},
+\code{\link{famper5}},
+\code{\link{law1}},
+\code{\link{law3}},
+\code{\link{law4}},
+\code{\link{law5}}
 }
 \concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

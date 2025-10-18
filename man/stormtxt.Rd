@@ -51,6 +51,24 @@ Other Science Knowledge & Attitudes:
 \code{\link{litmstxt}},
 \code{\link{maboygrl}},
 \code{\link{salth2o}}
+
+Other Knowledge: 
+\code{\link{anheat}},
+\code{\link{h2olife}},
+\code{\link{lftplane}},
+\code{\link{maboygrl}}
+
+Other Science: 
+\code{\link{anheat}},
+\code{\link{anscitst}},
+\code{\link{erosion}},
+\code{\link{goldfish}},
+\code{\link{h2olife}},
+\code{\link{lftplane}},
+\code{\link{maboygrl}},
+\code{\link{salth2o}}
 }
+\concept{Knowledge}
+\concept{Science}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

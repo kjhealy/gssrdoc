@@ -55,4 +55,5 @@ Other ISSP Role of Gov't:
 \code{\link{youinflu}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Political}
 \keyword{variable}

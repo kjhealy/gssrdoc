@@ -48,6 +48,17 @@ Other Religion:
 \code{\link{numcong}},
 \code{\link{pubsch}},
 \code{\link{relhrs2}}
+
+Other Religion: 
+\code{\link{cathsch}},
+\code{\link{givearts}},
+\code{\link{giveoth}},
+\code{\link{giverel}},
+\code{\link{homesch}},
+\code{\link{kid5up}},
+\code{\link{numcong}},
+\code{\link{pubsch}},
+\code{\link{relhrs2}}
 }
 \concept{Religion}
 \keyword{variable}

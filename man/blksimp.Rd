@@ -55,6 +55,16 @@ Other Core:
 \code{\link{racthink}},
 \code{\link{racwrite}},
 \code{\link{wrkwayup}}
+
+Other Blacks: 
+\code{\link{wrkwayup}}
+
+Other Race: 
+\code{\link{racfirm}},
+\code{\link{racinfo}},
+\code{\link{wrkwayup}}
 }
+\concept{Blacks}
 \concept{Core}
+\concept{Race}
 \keyword{variable}

@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -72,6 +73,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Authority
+#' @family Civil Liberties
+#' @family Media
 #' 
 #' @keywords variable
 #' @md
@@ -111,6 +115,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Authority
+#' @family Civil Liberties
+#' @family Media
 #' 
 #' @keywords variable
 #' @md
@@ -156,6 +163,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Authority
 #' 
 #' @keywords variable
 #' @md
@@ -204,6 +212,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Protest
 #' 
 #' @keywords variable
 #' @md
@@ -247,6 +256,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Protest
 #' 
 #' @keywords variable
 #' @md
@@ -295,6 +305,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Demonstrations
+#' @family Protest
 #' 
 #' @keywords variable
 #' @md
@@ -338,6 +350,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Protest
 #' 
 #' @keywords variable
 #' @md
@@ -381,6 +394,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Protest
 #' 
 #' @keywords variable
 #' @md
@@ -427,6 +441,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
+#' @family Protest
 #' 
 #' @keywords variable
 #' @md

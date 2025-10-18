@@ -63,7 +63,16 @@ Other ISSP Family & Gender Roles:
 
 Other Core: 
 \code{\link{marhomo1}}
+
+Other Gays And Lesbians: 
+\code{\link{marhomo1}}
+
+Other Marriage: 
+\code{\link{mardiv}},
+\code{\link{marhomo1}}
 }
 \concept{Core}
+\concept{Gays And Lesbians}
 \concept{ISSP Family & Gender Roles}
+\concept{Marriage}
 \keyword{variable}

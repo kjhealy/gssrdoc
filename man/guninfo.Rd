@@ -53,6 +53,22 @@ Other Core:
 \code{\link{gunfirm}},
 \code{\link{gunimp}},
 \code{\link{gunlaw}}
+
+Other Guns: 
+\code{\link{gunfirm}},
+\code{\link{gunimp}},
+\code{\link{gunlaw}}
+
+Other Split Ballots: 
+\code{\link{courts}},
+\code{\link{courtsy}},
+\code{\link{crimfirm}},
+\code{\link{crimimp}},
+\code{\link{criminfo}},
+\code{\link{gunfirm}},
+\code{\link{gunimp}}
 }
 \concept{Core}
+\concept{Guns}
+\concept{Split Ballots}
 \keyword{variable}

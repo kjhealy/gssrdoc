@@ -51,6 +51,18 @@ Other Voluntary Assocations/Social Networks:
 \code{\link{mtother3}},
 \code{\link{mtother4}},
 \code{\link{mtother5}}
+
+Other Voluntary Associations: 
+\code{\link{mtchurh3}},
+\code{\link{mtchurh4}},
+\code{\link{mtchurh5}},
+\code{\link{mtinfrm1}},
+\code{\link{mtother1}},
+\code{\link{mtother2}},
+\code{\link{mtother3}},
+\code{\link{mtother4}},
+\code{\link{mtother5}}
 }
 \concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

@@ -42,6 +42,12 @@ Other Genes and the Environment:
 \code{\link{genenvo1}},
 \code{\link{genenvo2}},
 \code{\link{genevig1}}
+
+Other Genetic Testing: 
+\code{\link{genenvo1}},
+\code{\link{genenvo2}},
+\code{\link{genevig1}}
 }
 \concept{Genes and the Environment}
+\concept{Genetic Testing}
 \keyword{variable}

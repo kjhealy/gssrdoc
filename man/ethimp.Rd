@@ -50,6 +50,13 @@ Other Prejudice:
 \code{\link{feelasns}},
 \code{\link{feelblks}},
 \code{\link{feelhsps}}
+
+Other Ethnicity: 
+\code{\link{ethadapt}},
+\code{\link{ethignor}},
+\code{\link{ethnofit}},
+\code{\link{ethtrads}}
 }
+\concept{Ethnicity}
 \concept{Prejudice}
 \keyword{variable}

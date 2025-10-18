@@ -55,6 +55,19 @@ Other National Security:
 \code{\link{finanqs}},
 \code{\link{lietest}},
 \code{\link{testdrug}}
+
+Other United States: 
+\code{\link{chkonjob}},
+\code{\link{chkother}},
+\code{\link{chktravl}},
+\code{\link{compfin}},
+\code{\link{emailhme}},
+\code{\link{emailwrk}},
+\code{\link{finanqs}},
+\code{\link{lietest}},
+\code{\link{testdrug}}
 }
 \concept{National Security}
+\concept{United States}
+\concept{Wiretapping}
 \keyword{variable}

@@ -51,6 +51,10 @@ Other Core:
 \code{\link{febear}},
 \code{\link{feworkif}},
 \code{\link{racsubs}}
+
+Other Race: 
+\code{\link{racsubs}}
 }
 \concept{Core}
+\concept{Race}
 \keyword{variable}

@@ -51,6 +51,17 @@ Other ISSP Citizenship:
 \code{\link{paytaxes}},
 \code{\link{relmeet}},
 \code{\link{watchgov}}
+
+Other Citizenship: 
+\code{\link{actassoc}},
+\code{\link{buypol}},
+\code{\link{helpusa}},
+\code{\link{helpwrld}},
+\code{\link{obeylaws}},
+\code{\link{othreasn}},
+\code{\link{paytaxes}},
+\code{\link{watchgov}}
 }
+\concept{Citizenship}
 \concept{ISSP Citizenship}
 \keyword{variable}

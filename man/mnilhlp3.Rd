@@ -48,6 +48,16 @@ Other Mental Health:
 \code{\link{mnilhlp2}},
 \code{\link{mniltime}},
 \code{\link{mnilwhy3}}
+
+Other Mental Health: 
+\code{\link{mnildo1}},
+\code{\link{mnildo2}},
+\code{\link{mnildo3}},
+\code{\link{mnildur}},
+\code{\link{mnilhlp1}},
+\code{\link{mnilhlp2}},
+\code{\link{mniltime}},
+\code{\link{mnilwhy3}}
 }
 \concept{Mental Health}
 \keyword{variable}

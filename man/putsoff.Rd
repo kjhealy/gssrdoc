@@ -54,5 +54,6 @@ Other Mental Health II:
 \code{\link{violpeop}},
 \code{\link{violself}}
 }
+\concept{Mental Health}
 \concept{Mental Health II}
 \keyword{variable}

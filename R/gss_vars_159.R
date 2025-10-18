@@ -28,6 +28,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name sphedpre105plus
@@ -63,6 +64,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -109,6 +111,10 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Family
+#' @family Household
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -148,6 +154,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Household
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -187,6 +196,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Household
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -226,6 +238,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Household
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -265,6 +280,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Household
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -304,6 +322,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Household
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -343,6 +364,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Household
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -382,6 +406,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Children
+#' @family Household
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md

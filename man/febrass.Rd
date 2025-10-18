@@ -50,6 +50,18 @@ Other Core:
 \code{\link{draftmar}},
 \code{\link{draftpar}},
 \code{\link{fehlpmil}}
+
+Other Military: 
+\code{\link{draft}},
+\code{\link{draftcol}},
+\code{\link{draftem}},
+\code{\link{draftfe}},
+\code{\link{draftfem}},
+\code{\link{draftgay}},
+\code{\link{draftmar}},
+\code{\link{draftpar}},
+\code{\link{fehlpmil}}
 }
 \concept{Core}
+\concept{Military}
 \keyword{variable}

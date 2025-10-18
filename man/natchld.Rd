@@ -63,6 +63,52 @@ Other Core:
 \code{\link{natsci}},
 \code{\link{natsoc}},
 \code{\link{natspacy}}
+
+Other Federal Government: 
+\code{\link{natenviy}},
+\code{\link{natfare}},
+\code{\link{natmass}},
+\code{\link{natpark}},
+\code{\link{natroad}},
+\code{\link{natsci}},
+\code{\link{natsoc}},
+\code{\link{natspacy}}
+
+Other Spending: 
+\code{\link{natenviy}},
+\code{\link{natfare}},
+\code{\link{natmass}},
+\code{\link{natpark}},
+\code{\link{natroad}},
+\code{\link{natsci}},
+\code{\link{natsoc}},
+\code{\link{natspacy}}
+
+Other Split Ballots: 
+\code{\link{natenrgy}},
+\code{\link{natenviy}},
+\code{\link{natfare}},
+\code{\link{natmass}},
+\code{\link{natpark}},
+\code{\link{natroad}},
+\code{\link{natsci}},
+\code{\link{natsoc}},
+\code{\link{natspacy}}
+
+Other United States: 
+\code{\link{natenrgy}},
+\code{\link{natenviy}},
+\code{\link{natfare}},
+\code{\link{natmass}},
+\code{\link{natpark}},
+\code{\link{natroad}},
+\code{\link{natsci}},
+\code{\link{natsoc}},
+\code{\link{natspacy}}
 }
 \concept{Core}
+\concept{Federal Government}
+\concept{Spending}
+\concept{Split Ballots}
+\concept{United States}
 \keyword{variable}

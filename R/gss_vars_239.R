@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -65,6 +66,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -107,6 +109,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -152,6 +155,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -196,6 +200,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -232,6 +237,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -270,6 +276,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -306,6 +313,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -344,6 +352,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -382,6 +391,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
+#' @family Job
 #' 
 #' @keywords variable
 #' @md

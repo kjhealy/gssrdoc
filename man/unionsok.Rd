@@ -55,4 +55,5 @@ Other ISSP Role of Gov't:
 \code{\link{rprtst35}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Labor Unions}
 \keyword{variable}

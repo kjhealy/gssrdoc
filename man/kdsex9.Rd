@@ -51,6 +51,31 @@ Other Family Mobility:
 \code{\link{kdyrbrn7}},
 \code{\link{kdyrbrn8}},
 \code{\link{kdyrbrn9}}
+
+Other Children: 
+\code{\link{kdyrbrn1}},
+\code{\link{kdyrbrn2}},
+\code{\link{kdyrbrn3}},
+\code{\link{kdyrbrn4}},
+\code{\link{kdyrbrn5}},
+\code{\link{kdyrbrn6}},
+\code{\link{kdyrbrn7}},
+\code{\link{kdyrbrn8}},
+\code{\link{kdyrbrn9}}
+
+Other Household: 
+\code{\link{kdyrbrn1}},
+\code{\link{kdyrbrn2}},
+\code{\link{kdyrbrn3}},
+\code{\link{kdyrbrn4}},
+\code{\link{kdyrbrn5}},
+\code{\link{kdyrbrn6}},
+\code{\link{kdyrbrn7}},
+\code{\link{kdyrbrn8}},
+\code{\link{kdyrbrn9}}
 }
+\concept{Children}
 \concept{Family Mobility}
+\concept{Household}
+\concept{Sex}
 \keyword{variable}

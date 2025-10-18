@@ -55,6 +55,14 @@ Other Core:
 \code{\link{prayer}},
 \code{\link{prayerx}},
 \code{\link{prayery}}
+
+Other Religion: 
+\code{\link{bible}},
+\code{\link{bibley}},
+\code{\link{prayer}},
+\code{\link{prayerx}},
+\code{\link{prayery}}
 }
 \concept{Core}
+\concept{Religion}
 \keyword{variable}

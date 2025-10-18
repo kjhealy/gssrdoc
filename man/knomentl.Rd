@@ -55,6 +55,12 @@ Other National Security:
 \code{\link{spyfrend}},
 \code{\link{takearms}},
 \code{\link{taketrck}}
+
+Other Federal Government: 
+\code{\link{chkfinan}},
+\code{\link{chkspfin}},
+\code{\link{chktaxes}}
 }
+\concept{Federal Government}
 \concept{National Security}
 \keyword{variable}

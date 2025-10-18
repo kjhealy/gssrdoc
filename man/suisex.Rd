@@ -52,6 +52,11 @@ Other Victims & AIDS:
 \code{\link{aidswho3}},
 \code{\link{suiknew}},
 \code{\link{suiwho}}
+
+Other Suicide: 
+\code{\link{suiknew}},
+\code{\link{suiwho}}
 }
+\concept{Suicide}
 \concept{Victims & AIDS}
 \keyword{variable}

@@ -51,6 +51,10 @@ Other Intergroup Relations:
 \code{\link{workjews}},
 \code{\link{workso}},
 \code{\link{workwhts}}
+
+Other Southern Whites: 
+\code{\link{workso}}
 }
 \concept{Intergroup Relations}
+\concept{Southern Whites}
 \keyword{variable}

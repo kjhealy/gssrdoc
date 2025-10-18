@@ -68,6 +68,7 @@ Other Workplace Conflict:
 \code{\link{wkageism}},
 \code{\link{wkracism}}
 }
+\concept{Health}
 \concept{Quality of Working Life}
 \concept{Workplace Conflict}
 \keyword{variable}

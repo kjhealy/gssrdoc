@@ -55,4 +55,5 @@ Other ISSP Role of Gov't:
 \code{\link{kidxfilm}}
 }
 \concept{ISSP Role of Gov't}
+\concept{Smoking}
 \keyword{variable}

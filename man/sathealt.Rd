@@ -74,6 +74,24 @@ Other Core:
 \code{\link{conpress}},
 \code{\link{satfam}},
 \code{\link{satfrnd}}
+
+Other Satisfaction: 
+\code{\link{satfam}},
+\code{\link{satfrnd}}
+
+Other Split Ballots: 
+\code{\link{conbus}},
+\code{\link{conclerg}},
+\code{\link{coneduc}},
+\code{\link{confed}},
+\code{\link{confinan}},
+\code{\link{conlabor}},
+\code{\link{conpress}},
+\code{\link{satfam}},
+\code{\link{satfrnd}}
 }
 \concept{Core}
+\concept{Health}
+\concept{Satisfaction}
+\concept{Split Ballots}
 \keyword{variable}

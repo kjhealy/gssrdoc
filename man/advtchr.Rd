@@ -52,6 +52,18 @@ Other Information Society:
 \code{\link{advsp}},
 \code{\link{advstu}},
 \code{\link{advsup}}
+
+Other Computers And Internet: 
+\code{\link{advcfrnd}},
+\code{\link{advchld}},
+\code{\link{advcowrk}},
+\code{\link{advfam}},
+\code{\link{advpar}},
+\code{\link{advsib}},
+\code{\link{advsp}},
+\code{\link{advstu}},
+\code{\link{advsup}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

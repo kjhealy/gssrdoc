@@ -50,6 +50,18 @@ Other Core:
 \code{\link{sppaid}},
 \code{\link{teensex}},
 \code{\link{xmarsex}}
+
+Other Gays And Lesbians: 
+\code{\link{homosex}}
+
+Other Sex: 
+\code{\link{homosex}},
+\code{\link{porninf}},
+\code{\link{premarsx}},
+\code{\link{teensex}},
+\code{\link{xmarsex}}
 }
 \concept{Core}
+\concept{Gays And Lesbians}
+\concept{Sex}
 \keyword{variable}

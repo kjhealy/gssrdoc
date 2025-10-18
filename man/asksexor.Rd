@@ -56,6 +56,15 @@ Other National Security:
 \code{\link{secmilop}},
 \code{\link{secprvcy}},
 \code{\link{secterr}}
+
+Other United States: 
+\code{\link{askcomp}},
+\code{\link{askdrink}},
+\code{\link{askfrbiz}},
+\code{\link{askfrtrv}},
+\code{\link{secprvcy}}
 }
+\concept{Gays And Lesbians}
 \concept{National Security}
+\concept{United States}
 \keyword{variable}

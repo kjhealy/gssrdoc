@@ -59,6 +59,18 @@ Other Work Orientation:
 \code{\link{joborfam}},
 \code{\link{whydisc5}},
 \code{\link{wkpersnl}}
+
+Other Job: 
+\code{\link{flexhrs}},
+\code{\link{hlpoths}},
+\code{\link{hlpsoc}}
+
+Other Work: 
+\code{\link{flexhrs}},
+\code{\link{hlpoths}},
+\code{\link{hlpsoc}}
 }
+\concept{Job}
+\concept{Work}
 \concept{Work Orientation}
 \keyword{variable}

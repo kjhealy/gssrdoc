@@ -33,6 +33,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -75,6 +76,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -117,6 +119,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -159,6 +162,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -199,6 +203,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -239,6 +244,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -279,6 +285,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family Terrorism
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -319,6 +327,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family Terrorism
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -359,6 +369,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -399,6 +410,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
+#' @family United States
 #' 
 #' @keywords variable
 #' @md

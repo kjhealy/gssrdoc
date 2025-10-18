@@ -29,6 +29,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -66,6 +67,7 @@ NULL
 #'  |Total |4987 |183 |1  |695 |368 |285 |243 |214 |161 |82 |17 |3          |175       |7414  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -105,6 +107,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -142,6 +145,7 @@ NULL
 #'  |Total |5297 |167 |271 |392 |433 |319 |221 |108 |36 |6  |4          |160       |7414  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -181,6 +185,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -218,6 +223,7 @@ NULL
 #'  |Total |6519 |12 |6  |35 |52 |76 |106 |178 |156 |113 |66 |1          |94        |7414  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -257,6 +263,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -294,6 +301,7 @@ NULL
 #'  |Total |7077 |7  |9  |17 |15 |40 |21 |47 |40 |49 |18 |74        |7414  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable
@@ -333,6 +341,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -370,6 +379,7 @@ NULL
 #'  |Total |6456 |57 |40 |40 |46 |50 |78 |87 |146 |192 |98 |3          |121       |7414  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable

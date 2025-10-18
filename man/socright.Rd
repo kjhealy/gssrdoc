@@ -54,6 +54,14 @@ Other ISSP Religion:
 \code{\link{religinf}},
 \code{\link{religint}},
 \code{\link{trustsci}}
+
+Other Religion: 
+\code{\link{godright}},
+\code{\link{perright}},
+\code{\link{religcon}},
+\code{\link{religinf}},
+\code{\link{religint}}
 }
 \concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

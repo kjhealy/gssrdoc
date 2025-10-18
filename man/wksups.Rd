@@ -82,6 +82,10 @@ Other Core:
 \code{\link{union1}},
 \code{\link{wksup1}},
 \code{\link{wksups1}}
+
+Other Work: 
+\code{\link{getahead}}
 }
 \concept{Core}
+\concept{Work}
 \keyword{variable}

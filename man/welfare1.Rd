@@ -47,6 +47,15 @@ Counts by year:\tabular{lllllllll}{
 Other Welfare: 
 \code{\link{welfare2}},
 \code{\link{welfare3}}
+
+Other Income: 
+\code{\link{welfare2}},
+\code{\link{welfare3}}
+
+Other Welfare: 
+\code{\link{welfare2}},
+\code{\link{welfare3}}
 }
+\concept{Income}
 \concept{Welfare}
 \keyword{variable}

@@ -59,6 +59,14 @@ Other Science Knowledge & Attitudes:
 \code{\link{hschem}},
 \code{\link{hsmath}},
 \code{\link{sciagrgw}}
+
+Other Education: 
+\code{\link{colsci}},
+\code{\link{colscinm}},
+\code{\link{hsbio}},
+\code{\link{hschem}},
+\code{\link{hsmath}}
 }
+\concept{Education}
 \concept{Science Knowledge & Attitudes}
 \keyword{variable}

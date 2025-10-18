@@ -50,6 +50,12 @@ Other Markets:
 \code{\link{reqinfo}},
 \code{\link{tagsales}},
 \code{\link{wkfambiz}}
+
+Other Purchases/Transactions: 
+\code{\link{decauto}},
+\code{\link{famfinan}},
+\code{\link{tagsales}}
 }
 \concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

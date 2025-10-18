@@ -35,6 +35,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Race
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -78,6 +80,8 @@ NULL
 #'  |Total |2341 |30    |159   |80       |1667  |17    |52        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Race
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -123,6 +127,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Race
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -166,6 +172,8 @@ NULL
 #'  |Total |3392 |10    |69    |39       |776   |9     |51        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Race
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -211,6 +219,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Race
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -254,6 +264,7 @@ NULL
 #'  |Total |1930 |1377      |2784          |74        |6165  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable
@@ -299,6 +310,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -343,6 +355,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -386,6 +399,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -428,6 +442,7 @@ NULL
 #'  |Total |3753 |23        |521           |49        |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable

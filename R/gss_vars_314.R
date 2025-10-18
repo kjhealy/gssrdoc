@@ -36,6 +36,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name disrspct
@@ -78,6 +79,7 @@ NULL
 #'  |Total |3391 |85               |252                  |486                 |1615               |1748                  |2284  |19         |6         |38             |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -124,6 +126,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name notsmart
@@ -166,6 +169,7 @@ NULL
 #'  |Total |3391 |184              |202                  |355                 |833                |1050                  |3860  |17         |6         |26             |9924  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -212,6 +216,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name threaten
@@ -252,6 +257,7 @@ NULL
 #'  |Total |379 |956       |2399      |1883 |623  |101  |2          |17        |20             |6380  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -296,6 +302,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthphys
@@ -336,6 +343,7 @@ NULL
 #'  |Total |380 |1057      |2218      |1818 |708  |165  |3          |17        |14             |6380  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -380,6 +388,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name satsoc
@@ -420,6 +429,7 @@ NULL
 #'  |Total |383 |746       |2506      |2033 |535  |129  |8          |18        |22             |6380  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

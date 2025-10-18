@@ -53,6 +53,20 @@ Other ISSP Role of Gov't:
 \code{\link{oprich}},
 \code{\link{progtax}},
 \code{\link{verdict}}
+
+Other Civil Liberties: 
+\code{\link{manhold}},
+\code{\link{manread}},
+\code{\link{mantail}}
+
+Other Privacy: 
+\code{\link{databank}},
+\code{\link{manhold}},
+\code{\link{manread}},
+\code{\link{mantail}}
 }
+\concept{Civil Liberties}
 \concept{ISSP Role of Gov't}
+\concept{Privacy}
+\concept{Wiretapping}
 \keyword{variable}

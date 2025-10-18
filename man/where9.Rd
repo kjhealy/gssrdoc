@@ -94,6 +94,30 @@ Other Household Members and Structure:
 \code{\link{relate10}},
 \code{\link{relate11}},
 \code{\link{where10}}
+
+Other Family: 
+\code{\link{away10}},
+\code{\link{away9}},
+\code{\link{gender10}},
+\code{\link{mar10}},
+\code{\link{mar9}},
+\code{\link{old10}},
+\code{\link{relate10}},
+\code{\link{relate11}},
+\code{\link{where10}}
+
+Other Household: 
+\code{\link{away10}},
+\code{\link{away9}},
+\code{\link{gender10}},
+\code{\link{mar10}},
+\code{\link{mar9}},
+\code{\link{old10}},
+\code{\link{relate10}},
+\code{\link{relate11}},
+\code{\link{where10}}
 }
+\concept{Family}
+\concept{Household}
 \concept{Household Members and Structure}
 \keyword{variable}

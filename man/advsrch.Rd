@@ -52,6 +52,14 @@ Other Information Society:
 \code{\link{timekid2}},
 \code{\link{timekid3}},
 \code{\link{timekid4}}
+
+Other Computers And Internet: 
+\code{\link{browser3}},
+\code{\link{ezines}},
+\code{\link{mp3}},
+\code{\link{newsgrps}},
+\code{\link{prefsets}}
 }
+\concept{Computers And Internet}
 \concept{Information Society}
 \keyword{variable}

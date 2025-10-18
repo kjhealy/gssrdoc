@@ -58,6 +58,40 @@ Other ISSP Environment:
 \code{\link{knwcause}},
 \code{\link{topprob1}},
 \code{\link{trust5}}
+
+Other Crime: 
+\code{\link{topprob1}}
+
+Other Economy: 
+\code{\link{topprob1}}
+
+Other Education: 
+\code{\link{topprob1}}
+
+Other Environment: 
+\code{\link{enprbfam}},
+\code{\link{enprbus}},
+\code{\link{grncon}},
+\code{\link{knowsol}},
+\code{\link{knwcause}},
+\code{\link{topprob1}}
+
+Other Foreign Affairs: 
+\code{\link{topprob1}}
+
+Other Salience Of Issues: 
+\code{\link{topprob1}}
+
+Other United States: 
+\code{\link{futenrgy}},
+\code{\link{topprob1}}
 }
+\concept{Crime}
+\concept{Economy}
+\concept{Education}
+\concept{Environment}
+\concept{Foreign Affairs}
 \concept{ISSP Environment}
+\concept{Salience Of Issues}
+\concept{United States}
 \keyword{variable}

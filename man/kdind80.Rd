@@ -274,6 +274,20 @@ Other Family Mobility:
 \code{\link{kdocctag}},
 \code{\link{kdpres80}},
 \code{\link{kdwrkslf}}
+
+Other Children: 
+\code{\link{kdevwork}},
+\code{\link{kdocc80}},
+\code{\link{kdpres80}},
+\code{\link{kdwrkslf}}
+
+Other Occupation: 
+\code{\link{kdocc80}},
+\code{\link{kdpres80}},
+\code{\link{kdwrkslf}}
 }
+\concept{Children}
 \concept{Family Mobility}
+\concept{Industry}
+\concept{Occupation}
 \keyword{variable}

@@ -47,6 +47,12 @@ Other Terrorism Preparedness:
 \code{\link{done911n}},
 \code{\link{doneelse}},
 \code{\link{eff911m}}
+
+Other Terrorism: 
+\code{\link{done911n}},
+\code{\link{doneelse}},
+\code{\link{eff911m}}
 }
+\concept{Terrorism}
 \concept{Terrorism Preparedness}
 \keyword{variable}

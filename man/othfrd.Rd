@@ -50,5 +50,6 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{usefrds}},
 \code{\link{wantbest}}
 }
+\concept{Friends}
 \concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

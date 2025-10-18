@@ -50,4 +50,5 @@ Other ISSP Social Networks & Support Systems:
 \code{\link{wantbest}}
 }
 \concept{ISSP Social Networks & Support Systems}
+\concept{Residence}
 \keyword{variable}

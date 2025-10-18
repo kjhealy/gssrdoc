@@ -44,5 +44,7 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
+\concept{Life Events}
 \concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

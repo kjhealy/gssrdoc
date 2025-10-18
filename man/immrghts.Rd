@@ -55,6 +55,12 @@ Other ISSP National Identity:
 \code{\link{kidshere}},
 \code{\link{nafta2a}},
 \code{\link{nafta3}}
+
+Other Immigration: 
+\code{\link{immimp}},
+\code{\link{kidsaway}},
+\code{\link{kidshere}}
 }
 \concept{ISSP National Identity}
+\concept{Immigration}
 \keyword{variable}

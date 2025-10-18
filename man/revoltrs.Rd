@@ -54,6 +54,15 @@ Other ISSP Role of Gov't:
 \code{\link{hlthcare}},
 \code{\link{protstrs}},
 \code{\link{racists}}
+
+Other Civil Liberties: 
+\code{\link{protstrs}},
+\code{\link{racists}}
+
+Other Demonstrations: 
+\code{\link{racists}}
 }
+\concept{Civil Liberties}
+\concept{Demonstrations}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

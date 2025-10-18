@@ -31,6 +31,7 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -71,6 +72,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -130,6 +132,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -170,6 +173,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name raceacs15
@@ -208,6 +212,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -246,6 +251,7 @@ NULL
 #'  |Total |5202 |1866 |427 |42             |31         |8         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -287,6 +293,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name abnomoreg
@@ -324,6 +331,7 @@ NULL
 #'  |Total |5202 |2100 |205 |29             |34         |6         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -365,6 +373,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name abpoorg
@@ -402,6 +411,7 @@ NULL
 #'  |Total |5202 |1961 |339 |41             |26         |7         |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

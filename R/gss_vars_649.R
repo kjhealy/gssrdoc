@@ -33,6 +33,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name vaxdoharm
@@ -72,6 +73,7 @@ NULL
 #'  |Total |2381 |55             |138   |272                        |354      |278               |54           |3         |9              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -115,6 +117,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthprb
@@ -154,6 +157,7 @@ NULL
 #'  |Total |2381 |182   |224    |353       |193   |183        |18           |3         |7              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -197,6 +201,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthdep
@@ -236,6 +241,7 @@ NULL
 #'  |Total |2381 |556   |252    |209       |68    |47         |19           |3         |9              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -279,6 +285,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlthnot
@@ -318,6 +325,7 @@ NULL
 #'  |Total |2381 |185   |305    |381       |185   |82         |17           |2         |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -361,6 +369,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name docalt
@@ -398,6 +407,7 @@ NULL
 #'  |Total |2381 |150 |842 |165                            |1         |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

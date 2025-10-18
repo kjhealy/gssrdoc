@@ -53,6 +53,12 @@ Other Culture:
 \code{\link{opera}},
 \code{\link{rap}},
 \code{\link{reggae}}
+
+Other Leisure: 
+\code{\link{attsprts}},
+\code{\link{autorace}},
+\code{\link{makeart}}
 }
 \concept{Culture}
+\concept{Leisure}
 \keyword{variable}

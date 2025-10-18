@@ -49,5 +49,6 @@ Other Family Mobility:
 \code{\link{presfrst}},
 \code{\link{wrkslfst}}
 }
+\concept{Education}
 \concept{Family Mobility}
 \keyword{variable}

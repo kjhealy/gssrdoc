@@ -86,6 +86,20 @@ Other Core:
 \code{\link{polviewy}},
 \code{\link{pres12}},
 \code{\link{vote12}}
+
+Other Political: 
+\code{\link{if08who}},
+\code{\link{if12who}},
+\code{\link{polviewx}},
+\code{\link{polviewy}},
+\code{\link{pres12}},
+\code{\link{vote12}}
+
+Other Split Ballots: 
+\code{\link{polviewx}},
+\code{\link{polviewy}}
 }
 \concept{Core}
+\concept{Political}
+\concept{Split Ballots}
 \keyword{variable}

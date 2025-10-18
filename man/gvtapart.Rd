@@ -51,6 +51,25 @@ Other Multiculturalism:
 \code{\link{ethissue}},
 \code{\link{gvtmelt}},
 \code{\link{meltpot}}
+
+Other Ethnicity: 
+\code{\link{amissue}},
+\code{\link{amissue1}},
+\code{\link{ethid1}},
+\code{\link{ethissu1}},
+\code{\link{ethissue}},
+\code{\link{gvtmelt}},
+\code{\link{meltpot}}
+
+Other Federal Government: 
+\code{\link{gvtmelt}}
+
+Other Race: 
+\code{\link{gvtmelt}},
+\code{\link{meltpot}}
 }
+\concept{Ethnicity}
+\concept{Federal Government}
 \concept{Multiculturalism}
+\concept{Race}
 \keyword{variable}

@@ -51,6 +51,14 @@ Other Core:
 \code{\link{tratot5}},
 \code{\link{trauma1}},
 \code{\link{trauma5}}
+
+Other Trauma: 
+\code{\link{trarel1}},
+\code{\link{trarel5}},
+\code{\link{tratot5}},
+\code{\link{trauma1}},
+\code{\link{trauma5}}
 }
 \concept{Core}
+\concept{Trauma}
 \keyword{variable}

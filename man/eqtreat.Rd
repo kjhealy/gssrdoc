@@ -51,6 +51,13 @@ Other ISSP Citizenship:
 \code{\link{polopts}},
 \code{\link{rghtsmin}},
 \code{\link{solok}}
+
+Other Democracy: 
+\code{\link{citviews}},
+\code{\link{polopts}},
+\code{\link{rghtsmin}},
+\code{\link{solok}}
 }
+\concept{Democracy}
 \concept{ISSP Citizenship}
 \keyword{variable}

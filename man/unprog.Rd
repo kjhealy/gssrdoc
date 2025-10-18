@@ -54,6 +54,10 @@ Other Work Organizations:
 \code{\link{profits2}},
 \code{\link{reorg}},
 \code{\link{unpower}}
+
+Other Labor Unions: 
+\code{\link{unpower}}
 }
+\concept{Labor Unions}
 \concept{Work Organizations}
 \keyword{variable}

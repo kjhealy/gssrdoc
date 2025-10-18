@@ -82,6 +82,10 @@ Other Core:
 \code{\link{wksup1}},
 \code{\link{wksups}},
 \code{\link{wksups1}}
+
+Other Work: 
+\code{\link{wksups}}
 }
 \concept{Core}
+\concept{Work}
 \keyword{variable}

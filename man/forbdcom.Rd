@@ -44,6 +44,16 @@ Other Civil Liberties:
 \code{\link{allowcom}},
 \code{\link{forbdmar}},
 \code{\link{forbdrac}}
+
+Other Civil Liberties: 
+\code{\link{allowcom}},
+\code{\link{forbdmar}},
+\code{\link{forbdrac}}
+
+Other Split Ballots: 
+\code{\link{forbdmar}},
+\code{\link{forbdrac}}
 }
 \concept{Civil Liberties}
+\concept{Split Ballots}
 \keyword{variable}

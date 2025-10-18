@@ -33,6 +33,11 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' @family Children
+#' @family Drinking
+#' @family Drug Use And Addiction
+#' @family Health
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -75,6 +80,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' @family Health
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -115,6 +122,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' @family Health
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -153,6 +162,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' @family Health
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -193,6 +204,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlth12
@@ -232,6 +244,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name hlth13
@@ -270,6 +283,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' 
 #' 
 #' @keywords variable
 #' @md
@@ -312,6 +326,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -354,6 +369,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -396,6 +412,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md

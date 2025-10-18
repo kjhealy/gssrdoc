@@ -32,6 +32,7 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name clsrltv
@@ -68,6 +69,7 @@ NULL
 #'  |Total |2386 |285                         |137 |178 |246 |67 |27 |80                             |120          |9         |9              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -108,6 +110,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name rsprltv2
@@ -144,6 +147,7 @@ NULL
 #'  |Total |2386 |307                         |148 |189 |240 |85 |38 |29                             |106          |8         |8              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -186,6 +190,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name rlyrltv
@@ -223,6 +228,7 @@ NULL
 #'  |Total |2500 |237 |78 |127 |529 |22 |18 |33 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -266,6 +272,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name cabgndr
@@ -305,6 +312,7 @@ NULL
 #'  |Total |2386 |36                           |32                               |936                              |39                             |18                         |84         |5         |8              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable
@@ -348,6 +356,7 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
+#' 
 #' @keywords variable
 #' @md
 #' @name execgndr
@@ -387,6 +396,7 @@ NULL
 #'  |Total |2386 |73          |211             |456            |280            |91         |34           |8         |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
 #' 
 #' 
 #' @keywords variable

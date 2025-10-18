@@ -54,6 +54,16 @@ Other ISSP Family & Gender Roles:
 \code{\link{tiredhme}},
 \code{\link{tiredwrk}},
 \code{\link{weekend}}
+
+Other Work: 
+\code{\link{famvswrk}},
+\code{\link{jobvsfam}},
+\code{\link{strsshme}},
+\code{\link{timehome}},
+\code{\link{timework}},
+\code{\link{tiredhme}},
+\code{\link{tiredwrk}}
 }
 \concept{ISSP Family & Gender Roles}
+\concept{Work}
 \keyword{variable}

@@ -54,6 +54,13 @@ Other ISSP Social Inequality:
 \code{\link{payresp}},
 \code{\link{richeduc}},
 \code{\link{richhlth}}
+
+Other Income: 
+\code{\link{earndes}},
+\code{\link{payedtrn}},
+\code{\link{payfam1}},
+\code{\link{payresp}}
 }
 \concept{ISSP Social Inequality}
+\concept{Income}
 \keyword{variable}

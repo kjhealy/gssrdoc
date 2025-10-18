@@ -74,6 +74,16 @@ Other Core:
 \code{\link{suicide1}},
 \code{\link{suicide2}},
 \code{\link{suicide4}}
+
+Other Suicide: 
+\code{\link{suicide1}},
+\code{\link{suicide2}},
+\code{\link{suicide4}},
+\code{\link{suineg1}},
+\code{\link{suinum}},
+\code{\link{suinum1}},
+\code{\link{suirel1}}
 }
 \concept{Core}
+\concept{Suicide}
 \keyword{variable}

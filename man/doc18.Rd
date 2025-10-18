@@ -55,6 +55,17 @@ Other Mental Health:
 \code{\link{doc19}},
 \code{\link{doc20}},
 \code{\link{prozac}}
+
+Other Health: 
+\code{\link{doc12}},
+\code{\link{doc13}},
+\code{\link{doc14}},
+\code{\link{doc15}},
+\code{\link{doc16}},
+\code{\link{doc17}},
+\code{\link{doc19}},
+\code{\link{doc20}}
 }
+\concept{Health}
 \concept{Mental Health}
 \keyword{variable}
