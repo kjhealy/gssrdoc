@@ -55,11 +55,11 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>The relatively large number of variables documented in <a href="https://github.com/kjhealy/gssrdoc" class="external-link">gssrdoc</a> means it is not suitable for hosting on <a href="https://cran.r-project.org/" class="external-link">CRAN</a>, the core R package repository. The same is true of the <code>{gssr}</code> package.</p>
+<p>The relatively large number of variables documented in <a href="https://github.com/kjhealy/gssrdoc" class="external-link">gssrdoc</a> means it is not suitable for hosting on <a href="https://cran.r-project.org/" class="external-link">CRAN</a>, the core R package repository. The same is true of the <a href="https://kjhealy.github.io/gssr" class="external-link"><code>gssr</code></a> package.</p>
 <div class="section level3">
 <h3 id="install-via-r-universe">Install via R-Universe<a class="anchor" aria-label="anchor" href="#install-via-r-universe"></a>
 </h3>
-<p>My <a href="https://kjhealy.r-universe.dev/" class="external-link">R Universe</a> provides binary packages for <a href="https://github.com/kjhealy/gssrdoc" class="external-link">gssrdoc</a> and <code>{gssr}</code>. To install both packages, copy and paste the following code to the R console:</p>
+<p>My <a href="https://kjhealy.r-universe.dev/" class="external-link">R Universe</a> provides binary packages for <a href="https://github.com/kjhealy/gssrdoc" class="external-link">gssrdoc</a> and <a href="https://kjhealy.github.io/gssr" class="external-link"><code>gssr</code></a>. To install both packages, copy and paste the following code to the R console:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Install 'gssrdoc' from 'ropensci' universe</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">'gssrdoc'</span>, repos <span class="op">=</span></span>
@@ -68,8 +68,7 @@
 <span><span class="co"># Also recommended: install 'gssr' as well</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">'gssr'</span>, repos <span class="op">=</span></span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'https://kjhealy.r-universe.dev'</span>, <span class="st">'https://cloud.r-project.org'</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
-<p>Because the packages have dependencies that are on CRAN, we add CRAN as well as the R Universe to the <code>repos</code> argument.</p>
-<p>The binary packages will install noticeably quicker than building the package from source. Plus, you can use <code><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages()</a></code> directly.</p>
+<p>Because the packages have dependencies that are on CRAN, we add CRAN as well as the R Universe to the <code>repos</code> argument. These binary packages will install much faster than building the package from source. Plus, you can use <code><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages()</a></code> directly.</p>
 </div>
 </div>
 <div class="section level2">
