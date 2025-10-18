@@ -19,13 +19,15 @@ install both of them.
 
 The relatively large number of variables documented in `{gssrdoc}` means
 it is not suitable for hosting on [CRAN](https://cran.r-project.org/),
-the core R package repository. The same is true of the `{gssr}` package.
+the core R package repository. The same is true of the
+[`gssr`](https://kjhealy.github.io/gssr) package.
 
 ### Install via R-Universe
 
 My [R Universe](https://kjhealy.r-universe.dev/) provides binary
-packages for `{gssrdoc}` and `{gssr}`. To install both packages, copy
-and paste the following code to the R console:
+packages for `{gssrdoc}` and [`gssr`](https://kjhealy.github.io/gssr).
+To install both packages, copy and paste the following code to the R
+console:
 
 ``` r
 # Install 'gssrdoc' from 'ropensci' universe
@@ -38,10 +40,9 @@ install.packages('gssr', repos =
 ```
 
 Because the packages have dependencies that are on CRAN, we add CRAN as
-well as the R Universe to the `repos` argument.
-
-The binary packages will install noticeably quicker than building the
-package from source. Plus, you can use `install.packages()` directly.
+well as the R Universe to the `repos` argument. These binary packages
+will install much faster than building the package from source. Plus,
+you can use `install.packages()` directly.
 
 ## Install direct from GitHub
 
