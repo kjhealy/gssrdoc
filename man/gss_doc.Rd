@@ -5,28 +5,32 @@
 \alias{gss_doc}
 \title{Data Dictionary for the GSS Cumulative Data File 1972-2024}
 \format{
-A tibble.
-
- * `variable` The name of the variable. (Character.)
- * `description` The variable's label. 'r' means 'Respondent'. (Character.)
- * `question` The question as asked. (Character)
- * `norc_id` The variable's ID on GSS Data Explorer. (Integer)
- * `norc_url` The URL for the variable's page on the GSS Data Explorer. (Character.)
- * `var_yrtab` Crosstab of responses by year. Stored in a list-column. The tibbles contain `year` values in the rows and value labels across their columns, with response freqencies in the cells as counts. (List.)
- * `yrballot_df` Crosstab of ballots by year. Stored in a list-column. (List)
- * `module_df` Tibble showing which module or modules the question belongs to. (List)
- * `subject_df` Tibble of NORC subject or topic classifications for the variable. (List)
- * `value_labels` Vector of values taken by the variable. (Character)
- * `var_type` The variable type of the variable in `gss_all`. (Character.)
- * `var_na_codes` The missing value codes associated with the variable in `gss_all`. (Character.)
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 6694 rows and 12 columns.
 }
 \source{
-National Opinion Research Center, [http://gss.norc.org](http://gss.norc.org).
+National Opinion Research Center, \url{http://gss.norc.org}.
 }
 \usage{
-data(gss_doc)
+gss_doc
 }
 \description{
 A tibble containing information on the variables in the GSS Cumulative Data File.
+}
+\details{
+A tibble.
+\itemize{
+\item \code{variable} The name of the variable. (Character.)
+\item \code{description} The variable's label. 'r' means 'Respondent'. (Character.)
+\item \code{question} The question as asked. (Character)
+\item \code{norc_id} The variable's ID on GSS Data Explorer. (Integer)
+\item \code{norc_url} The URL for the variable's page on the GSS Data Explorer. (Character.)
+\item \code{var_yrtab} Crosstab of responses by year. Stored in a list-column. The tibbles contain \code{year} values in the rows and value labels across their columns, with response freqencies in the cells as counts. (List.)
+\item \code{yrballot_df} Crosstab of ballots by year. Stored in a list-column. (List)
+\item \code{module_df} Tibble showing which module or modules the question belongs to. (List)
+\item \code{subject_df} Tibble of NORC subject or topic classifications for the variable. (List)
+\item \code{value_labels} Vector of values taken by the variable. (Character)
+\item \code{var_type} The variable type of the variable in \code{gss_all}. (Character.)
+\item \code{var_na_codes} The missing value codes associated with the variable in \code{gss_all}. (Character.)
+}
 }
 \keyword{datasets}

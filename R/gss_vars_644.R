@@ -289,7 +289,7 @@ NULL
 #' 
 #'  orginc
 #' 
-#' Question How do you and your (spousepartfill) organize the income that one or both of you receive? Please choose the option that comes closest.
+#' Question How do you and your spousepartfill organize the income that one or both of you receive? Please choose the option that comes closest.
 #' 
 #' 
 #' @section Values: 
@@ -372,7 +372,7 @@ NULL
 #' 
 #'  sharehhw
 #' 
-#' Question Which of the following best applies to the sharing of household work between you and your (spousepartfill)?
+#' Question Which of the following best applies to the sharing of household work between you and your spousepartfill?
 #' 
 #' 
 #' @section Values: 

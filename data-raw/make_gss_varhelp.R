@@ -31,6 +31,9 @@ plan(multisession, workers = n_cores)
 
 set.seed(251015)
 
+# Function to cleanup encoding; we use it in make_gss_doc.R but need to reapply it here.
+# because the variable crosstabs get created too early, before we can clean the factor labels
+source(here("data-raw", "fix_chrs.R"))
 
 ## Need to replace `[` and `]` because
 ## in cases like [NAME] and [PROMPT] etc they will trigger autolinking
@@ -240,10 +243,10 @@ make_rd_varname <- function(variable) {
 
 ### Required objects
 ## This is made by data-raw/make_gss_dict.R
-load(here("data", "gss_dict.rda"))
+gss_dict <- readRDS(here("data-raw", "objects", "gss_dict.rda"))
 
-## And by data-raw/make_gss_doc.R
-gss_doc <- readRDS(here("data-raw", "objects", "gss_doc.rda"))
+## And by data-raw/make_gss_doc.R (`load()` is for data we actually have in the package)
+load(here("data", "gss_doc.rda"))
 
 ## Harmonize with gss_dict
 
@@ -333,7 +336,8 @@ gss_doc_rd <- gss_doc_rd |>
 #       paste0
 #     )
 #   ) |>
-#   pull(rd6)
+#   pull(rd6) |>
+#   fix_chrs()
 #
 # test_docs_list <- split(docstring_test, ceiling(seq_along(docstring_test) / 10))
 # test_docs_list <- set_names(
@@ -386,7 +390,8 @@ docstring <- gss_doc_rd |>
       paste0
     )
   ) |>
-  pull(rd6)
+  pull(rd6) |>
+  fix_chrs() # clean-up encoding; second pass catches the crosstabs
 
 ## Chunk it into a list we can walk
 ## We pick a small ceiling number here (so, more files)

@@ -2,32 +2,30 @@
 % Please edit documentation in R/gssrdoc_funs.R
 \name{gss_which_ballots}
 \alias{gss_which_ballots}
-\title{gss_which_ballots}
+\title{Which ballots did a particular question appear on in each GSS year?}
 \usage{
 gss_which_ballots(question)
 }
 \arguments{
-\item{question}{A gss variable name (in lower case).}
+\item{question}{A GSS variable name (in lower case)
+
+Columns returned are
+\itemize{
+\item \code{variable} Variable name
+\item \code{year} GSS year
+\item \code{ballots} Ballots, separated by a slash \code{/}, with \code{-} for blank or inapplicable
+\item \code{availability} Can be \code{full} or \code{partial}
+}}
 }
 \value{
 A tibble with the name of the variable and the ballot information.
 }
 \description{
-See which ballots (if any) a question appeared on across GSS years
-}
-\details{
-What ballots did a particular question appear on in each GSS year?
-
-
-Columns returned are
-- `variable` Variable name
-- `year` GSS year
-- `ballots` Ballots, separated by a slash `/`, with `-` for blank or inapplicable
-- `availability` Can be `full` or `partial`
+Which ballots did a particular question appear on in each GSS year?
 }
 \examples{
 \dontrun{
 gss_which_ballots(fefam)
-
 }
+
 }
