@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 sciagrgw
 }
 \details{
-Question Please look at Card B3. On a scale of 1 to 5, where 1 means "Near complete agreementâ€ and 5 means "No agreement at allâ€, to what extent do environmental scientists agree among themselves about the existence and causes of global warming?
+Question Please look at Card B3. On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all", to what extent do environmental scientists agree among themselves about the existence and causes of global warming?
 }
 \section{Values}{
 

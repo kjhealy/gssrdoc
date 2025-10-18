@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 racinteg
 }
 \details{
-Question Are there any ("whitesâ€ for black respondents, "blacksâ€ for non-black respondents) living in this neighborhood now?
+Question Are there any ("whites" for black respondents, "blacks" for non-black respondents) living in this neighborhood now?
 C. Do you think this neighborhood will become all (Negro/Black/African-American) in the next few years, or  will it remain integrated?
 }
 \section{Values}{

@@ -12,7 +12,7 @@ erawhy1
 \details{
 Question Why do you (favor/oppose) the Equal Rights Amendment?
 PROBE EACH RESPONSE FOR CLARITY AND PROBE FOR ADDITIONAL REASONS.
-IF "NO OPINIONâ€ TO   ERAREAD PROBE:  Why is that - why do you have no opinion on the Equal Rights Amendment?
+IF "NO OPINION" TO   ERAREAD PROBE:  Why is that - why do you have no opinion on the Equal Rights Amendment?
 A. First Reason
 }
 \section{Values}{

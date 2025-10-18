@@ -165,7 +165,7 @@ NULL
 #' 
 #'  wwwart
 #' 
-#' Question A. Do you ever use the Web to learn about, view, or discuss topics related to the visual artsâ€“painting, sculpture, or so on?
+#' Question A. Do you ever use the Web to learn about, view, or discuss topics related to the visual arts"painting, sculpture, or so on?
 #' 
 #' 
 #' @section Values: 

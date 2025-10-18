@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 scresrch
 }
 \details{
-Question Recently, there has been controversy over whether the government should provide any funds at all for scientific research that uses "stem cellsâ€ taken from human embryos. Would you say the government…
+Question Recently, there has been controversy over whether the government should provide any funds at all for scientific research that uses "stem cells" taken from human embryos. Would you say the government…
 }
 \section{Values}{
 

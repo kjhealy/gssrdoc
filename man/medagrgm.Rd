@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 medagrgm
 }
 \details{
-Question Please look at Card B16. (On a scale of 1 to 5, where 1 means "Near complete agreementâ€ and 5 means "No agreement at allâ€) to what extent Do medical researchers agree on the risks and benefits of genetically modified foods?
+Question Please look at Card B16. (On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all") to what extent Do medical researchers agree on the risks and benefits of genetically modified foods?
 }
 \section{Values}{
 

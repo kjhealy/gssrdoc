@@ -131,7 +131,7 @@ NULL
 #' 
 #'  fluvax
 #' 
-#' Question Did you receive a seasonal influenza vaccine ("flu shotâ€) in the past 12 months?
+#' Question Did you receive a seasonal influenza vaccine ("flu shot") in the past 12 months?
 #' 
 #' NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
 #' 

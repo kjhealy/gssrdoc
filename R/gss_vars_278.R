@@ -122,7 +122,7 @@ NULL
 #' 
 #'  buyinfgn
 #' 
-#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002â€“have you:
+#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002"have you:
 #' A. Looked for information about a product you might want to buy?
 #' 
 #' 
@@ -165,7 +165,7 @@ NULL
 #' 
 #'  investgn
 #' 
-#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002â€“have you:
+#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002"have you:
 #' B. Invested money in a stock or mutual fund?
 #' 
 #' 
@@ -208,7 +208,7 @@ NULL
 #' 
 #'  travelgn
 #' 
-#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002â€“have you:
+#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002"have you:
 #' C. Made an airplane or other travel reservations?
 #' 
 #' 
@@ -251,7 +251,7 @@ NULL
 #' 
 #'  peoplegn
 #' 
-#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002â€“have you:
+#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002"have you:
 #' D. Tried to meet new people for social purposes?
 #' 
 #' 
@@ -294,7 +294,7 @@ NULL
 #' 
 #'  gamegn
 #' 
-#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002â€“have you:
+#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002"have you:
 #' E. Played an indoor game with other people, like a board game, card game, or strategy game?
 #' 
 #' 
@@ -337,7 +337,7 @@ NULL
 #' 
 #'  newjobgn
 #' 
-#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002â€“have you:
+#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002"have you:
 #' F. Looked for a new job or explored career opportunities?
 #' 
 #' 
@@ -378,7 +378,7 @@ NULL
 #' 
 #'  poldisgn
 #' 
-#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002â€“have you:
+#' Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002"have you:
 #' G. Discussed your views about political or social policy issues, current affairs, or political campaigns with other people?
 #' 
 #' 

@@ -11,7 +11,7 @@ fewtrsty
 }
 \details{
 Question To what extent do you agree or disagree with the following statements?
-A. "There are only a few people I can trust completely.â€ Do you...
+A. "There are only a few people I can trust completely." Do you...
 }
 \section{Values}{
 

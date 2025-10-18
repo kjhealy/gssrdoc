@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 travelgn
 }
 \details{
-Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002â€“have you:
+Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002"have you:
 C. Made an airplane or other travel reservations?
 }
 \section{Values}{

@@ -289,7 +289,7 @@ NULL
 #' 
 #'  intaccss
 #' 
-#' Question Do you have access to the Internet or World Wide Web through a Cellular Telephone, Palm Pilot, or other Personal Digital Assistant (like "Blackberryâ€)?
+#' Question Do you have access to the Internet or World Wide Web through a Cellular Telephone, Palm Pilot, or other Personal Digital Assistant (like "Blackberry")?
 #' 
 #' 
 #' @section Values: 
@@ -328,7 +328,7 @@ NULL
 #'  jobinfo
 #' 
 #' Question Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: Click on a link in an email message from a friend, relative, or co-worker.
-#' A. In the past year, that is, between (INSERT CURRENT MONTH) 2001/2003 and  (INSERT CURRENT MONTH) 2002/2004â€“have you searched for information about a new job or explored career opportunities?
+#' A. In the past year, that is, between (INSERT CURRENT MONTH) 2001/2003 and  (INSERT CURRENT MONTH) 2002/2004"have you searched for information about a new job or explored career opportunities?
 #' 
 #' 
 #' @section Values: 

@@ -2,7 +2,7 @@
 #' 
 #'  compoth
 #' 
-#' Question A. Do you use a computer at some other place besides your home or workplaceâ€“say, at school, library, friend''s  home, or other location?
+#' Question A. Do you use a computer at some other place besides your home or workplace"say, at school, library, friend''s  home, or other location?
 #' 
 #' 
 #' @section Values: 

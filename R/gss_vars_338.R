@@ -153,7 +153,7 @@ NULL
 #' 
 #'  travelus
 #' 
-#' Question Thinking about the most recent time you traveled to the United States from another countryâ€”please tell me which box shows the kind of transportation you took: A, B, or C.
+#' Question Thinking about the most recent time you traveled to the United States from another country"please tell me which box shows the kind of transportation you took: A, B, or C.
 #' 
 #' 
 #' @section Values: 

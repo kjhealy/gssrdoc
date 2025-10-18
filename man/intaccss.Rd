@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 intaccss
 }
 \details{
-Question Do you have access to the Internet or World Wide Web through a Cellular Telephone, Palm Pilot, or other Personal Digital Assistant (like "Blackberryâ€)?
+Question Do you have access to the Internet or World Wide Web through a Cellular Telephone, Palm Pilot, or other Personal Digital Assistant (like "Blackberry")?
 }
 \section{Values}{
 

@@ -227,7 +227,7 @@ NULL
 #' 
 #'  polinfo
 #' 
-#' Question In the past two years, that is, between (INSERT CURRENT MONTH) 1998 and (INSERT CURRENT MONTH) 2000â€“have you looked for information about the views or background of a candidate for political office?
+#' Question In the past two years, that is, between (INSERT CURRENT MONTH) 1998 and (INSERT CURRENT MONTH) 2000"have you looked for information about the views or background of a candidate for political office?
 #' 
 #' 
 #' @section Values: 

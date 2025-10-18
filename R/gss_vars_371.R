@@ -291,7 +291,7 @@ NULL
 #' 
 #'  gwsci
 #' 
-#' Question The first issue is global warming. Global warming means a trend toward warmer temperatures throughoutthe world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€, how well do the following groups understand the causes of global warming? 
+#' Question The first issue is global warming. Global warming means a trend toward warmer temperatures throughoutthe world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All", how well do the following groups understand the causes of global warming? 
 #' A. Environmental Scientists
 #' 
 #' 
@@ -332,7 +332,7 @@ NULL
 #' 
 #'  gwpol
 #' 
-#' Question The first issue is global warming. Global warming means a trend toward warmer temperatures throughoutthe world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€, how well do the following groups understand the causes of global warming? 
+#' Question The first issue is global warming. Global warming means a trend toward warmer temperatures throughoutthe world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All", how well do the following groups understand the causes of global warming? 
 #' B. Elected Officials
 #' 
 #' 
@@ -373,7 +373,7 @@ NULL
 #' 
 #'  gwbiz
 #' 
-#' Question The first issue is global warming. Global warming means a trend toward warmer temperatures throughoutthe world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€, how well do the following groups understand the causes of global warming?
+#' Question The first issue is global warming. Global warming means a trend toward warmer temperatures throughoutthe world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All", how well do the following groups understand the causes of global warming?
 #' C. Business Leaders
 #' 
 #' 
@@ -414,7 +414,7 @@ NULL
 #' 
 #'  sciagrgw
 #' 
-#' Question Please look at Card B3. On a scale of 1 to 5, where 1 means "Near complete agreementâ€ and 5 means "No agreement at allâ€, to what extent do environmental scientists agree among themselves about the existence and causes of global warming?
+#' Question Please look at Card B3. On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all", to what extent do environmental scientists agree among themselves about the existence and causes of global warming?
 #' 
 #' 
 #' @section Values: 

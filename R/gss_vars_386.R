@@ -130,7 +130,7 @@ NULL
 #' 
 #'  scinews3
 #' 
-#' Question You said you get most of your information about science and technology from the Internet. What is the place you are most likely to go on the Internet for science and technology informationâ€”online newspapers, online magazines, or some other place on the Internet?
+#' Question You said you get most of your information about science and technology from the Internet. What is the place you are most likely to go on the Internet for science and technology information"online newspapers, online magazines, or some other place on the Internet?
 #' you most likely to go on the Internet for science and technology information?
 #' 
 #' 
@@ -183,7 +183,7 @@ NULL
 #' 
 #'  newsfrmy
 #' 
-#' Question We are interested in how people get information about events in the news. Where do you get most of your information about current news events â€“ printed newspapers,  online newspapers, printed magazines, online magazines, other places on the Internet, books or other printed materials, TV, radio, family, friends, colleagues, or some other source?
+#' Question We are interested in how people get information about events in the news. Where do you get most of your information about current news events " printed newspapers,  online newspapers, printed magazines, online magazines, other places on the Internet, books or other printed materials, TV, radio, family, friends, colleagues, or some other source?
 #' 
 #' 
 #' @section Values: 
@@ -279,7 +279,7 @@ NULL
 #' 
 #'  seeksciy
 #' 
-#' Question If you wanted to learn about scientific issues such as global warming or biotechnology, where would you get information â€“ printed newspapers, online newspapers, printed magazines, online magazines, other places on the Internet, books or other printed materials, TV, radio, family, friends, colleagues, or some other source)? 
+#' Question If you wanted to learn about scientific issues such as global warming or biotechnology, where would you get information " printed newspapers, online newspapers, printed magazines, online magazines, other places on the Internet, books or other printed materials, TV, radio, family, friends, colleagues, or some other source)? 
 #' PROBE: What would be your main source of information?
 #' 
 #' 
@@ -331,7 +331,7 @@ NULL
 #' Question You said you get most of your information about science and technology from a place on the internet other 
 #' than online newspapers or magazines. We'd like to ask you the place you are most likely to go on the internet for this information. What is the place you are most likely to go on the internet for science and 
 #' technology information? 
-#' FI INSTRUCTION:  IF R GIVES MORE THAN ONE PLACE OR SAYS "IT DEPENDS,â€ PROBE ONCE: Which site are you most likely to go on the Internet for science and technology information?
+#' FI INSTRUCTION:  IF R GIVES MORE THAN ONE PLACE OR SAYS "IT DEPENDS," PROBE ONCE: Which site are you most likely to go on the Internet for science and technology information?
 #' 
 #' 
 #' @section Values: 
@@ -372,7 +372,7 @@ NULL
 #' 
 #'  scientda
 #' 
-#' Question A. If you had a daughter, how would you feel if she wanted to be a scientistâ€”would you feel happy, unhappy, or would you not care one way or the other?
+#' Question A. If you had a daughter, how would you feel if she wanted to be a scientist"would you feel happy, unhappy, or would you not care one way or the other?
 #' 
 #' 
 #' @section Values: 
@@ -411,7 +411,7 @@ NULL
 #' 
 #'  scientsn
 #' 
-#' Question B. If you had a son, how would you feel if he wanted to be a scientistâ€”would you feel happy, unhappy, or would you not care one way or the other?
+#' Question B. If you had a son, how would you feel if he wanted to be a scientist"would you feel happy, unhappy, or would you not care one way or the other?
 #' 
 #' 
 #' @section Values: 

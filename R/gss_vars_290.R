@@ -275,7 +275,7 @@ NULL
 #' 
 #'  processr
 #' 
-#' Question A. Do you know whether the "486" or "pentiumâ€ on a personal computer (and G3 on a Mac) refer to...
+#' Question A. Do you know whether the "486" or "pentium" on a personal computer (and G3 on a Mac) refer to...
 #' 
 #' 
 #' @section Values: 

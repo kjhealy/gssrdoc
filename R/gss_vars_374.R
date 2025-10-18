@@ -2,7 +2,7 @@
 #' 
 #'  txpol
 #' 
-#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where  1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the likely effects of reducing federal income taxes?
+#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where  1 means "Very Well" and 5 means "Not at All"), how well do the following groups understand the likely effects of reducing federal income taxes?
 #' C. Elected Officials
 #' 
 #' 
@@ -43,7 +43,7 @@ NULL
 #' 
 #'  ecoagree
 #' 
-#' Question Please look at Card B11. On a scale of 1 to 5, where 1 means "Near complete agreementâ€ and 5 means "No agreement at allâ€, to what extent Do economists agree on the effects of reducing federal income taxes?
+#' Question Please look at Card B11. On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all", to what extent Do economists agree on the effects of reducing federal income taxes?
 #' 
 #' 
 #' @section Values: 
@@ -338,7 +338,7 @@ NULL
 #' 
 #'  gmmed
 #' 
-#' Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT "ADVANCED LABORATORY TECHNIQUESâ€ MEANS: This typically involves "recombinant DNAâ€ or "gene splicing,â€ in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species. 
+#' Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All"), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT "ADVANCED LABORATORY TECHNIQUES" MEANS: This typically involves "recombinant DNA" or "gene splicing," in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species. 
 #' A. Medical researchers
 #' 
 #' 
@@ -377,7 +377,7 @@ NULL
 #' 
 #'  gmpol
 #' 
-#' Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT "ADVANCED LABORATORY TECHNIQUESâ€ MEANS: This typically involves "recombinant DNAâ€ or "gene splicing,â€ in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species. 
+#' Question Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All"), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT "ADVANCED LABORATORY TECHNIQUES" MEANS: This typically involves "recombinant DNA" or "gene splicing," in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species. 
 #' B. Elected officials
 #' 
 #' 

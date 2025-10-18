@@ -10,8 +10,8 @@ General Social Survey https://gss.norc.org
 hswht
 }
 \details{
-Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF "HIGH SCHOOL.â€
-IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF "THE LAST SCHOOL YOU ATTENDED.â€
+Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF "HIGH SCHOOL."
+IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF "THE LAST SCHOOL YOU ATTENDED."
 A. Was the high school/last school you attended all white, mostly white, about half white and half other races, mostly other races, or all other races?
 }
 \section{Values}{

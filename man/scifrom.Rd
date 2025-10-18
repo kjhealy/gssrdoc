@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 scifrom
 }
 \details{
-Question We are interested in how people get information about science and technology. Where do you get most of your information about science and technology (â€“ newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues,  or some other source)?
+Question We are interested in how people get information about science and technology. Where do you get most of your information about science and technology (" newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues,  or some other source)?
 }
 \section{Values}{
 

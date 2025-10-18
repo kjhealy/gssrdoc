@@ -2,7 +2,7 @@
 #' 
 #'  cshutyp08
 #' 
-#' Question During April through June 2008, were you a resident in a household â€“ such as living in a house, apartment or similar residence - or did you live elsewhere such as living in an institution like a college dorm, military barrack, work camp, shelter, residential treatment center, long-term medical care facility or nursing home?
+#' Question During April through June 2008, were you a resident in a household " such as living in a house, apartment or similar residence - or did you live elsewhere such as living in an institution like a college dorm, military barrack, work camp, shelter, residential treatment center, long-term medical care facility or nursing home?
 #' 
 #' 
 #' @section Values: 
@@ -43,7 +43,7 @@ NULL
 #' 
 #'  cshutyp10
 #' 
-#' Question During April through June 2010, were you a resident in a household â€“ such as living in a house, apartment or similar residence - or did you live elsewhere such as living in an institution like a college dorm, military barrack, work camp, shelter, residential treatment center, long-term medical care facility or nursing home?
+#' Question During April through June 2010, were you a resident in a household " such as living in a house, apartment or similar residence - or did you live elsewhere such as living in an institution like a college dorm, military barrack, work camp, shelter, residential treatment center, long-term medical care facility or nursing home?
 #' 
 #' 
 #' @section Values: 
@@ -84,7 +84,7 @@ NULL
 #' 
 #'  cshutyp12
 #' 
-#' Question During April through June 2012, were you a resident in a household â€“ such as living in a house, apartment or similar residence - or did you live elsewhere such as living in an institution like a college dorm, military barrack, work camp, shelter, residential treatment center, long-term medical care facility or nursing home?
+#' Question During April through June 2012, were you a resident in a household " such as living in a house, apartment or similar residence - or did you live elsewhere such as living in an institution like a college dorm, military barrack, work camp, shelter, residential treatment center, long-term medical care facility or nursing home?
 #' 
 #' 
 #' @section Values: 

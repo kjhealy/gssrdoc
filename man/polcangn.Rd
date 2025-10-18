@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 polcangn
 }
 \details{
-Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002â€“have you:
+Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002"have you:
 K. Looked up the views of a political candidate for office?
 }
 \section{Values}{

@@ -13,7 +13,7 @@ sciinfgo
 Question You said you get most of your information about science and technology from a place on the internet other
 than online newspapers or magazines. We'd like to ask you the place you are most likely to go on the internet for this information. What is the place you are most likely to go on the internet for science and
 technology information?
-FI INSTRUCTION:  IF R GIVES MORE THAN ONE PLACE OR SAYS "IT DEPENDS,â€ PROBE ONCE: Which site are you most likely to go on the Internet for science and technology information?
+FI INSTRUCTION:  IF R GIVES MORE THAN ONE PLACE OR SAYS "IT DEPENDS," PROBE ONCE: Which site are you most likely to go on the Internet for science and technology information?
 }
 \section{Values}{
 

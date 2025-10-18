@@ -208,7 +208,7 @@ NULL
 #' 
 #'  evcrack
 #' 
-#' Question Have you ever, even once, used "crackâ€ cocaine in chunk or rock form?
+#' Question Have you ever, even once, used "crack" cocaine in chunk or rock form?
 #' 
 #' 
 #' @section Values: 
@@ -258,7 +258,7 @@ NULL
 #' 
 #'  crack30
 #' 
-#' Question How long has it been since you last used "crackâ€ cocaine in chunk or rock form?
+#' Question How long has it been since you last used "crack" cocaine in chunk or rock form?
 #' 
 #' 
 #' @section Values: 

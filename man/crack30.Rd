@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 crack30
 }
 \details{
-Question How long has it been since you last used "crackâ€ cocaine in chunk or rock form?
+Question How long has it been since you last used "crack" cocaine in chunk or rock form?
 }
 \section{Values}{
 

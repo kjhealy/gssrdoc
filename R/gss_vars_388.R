@@ -161,7 +161,7 @@ NULL
 #' 
 #'  engson
 #' 
-#' Question B. If you had a son, how would you feel if he wanted to be an engineerâ€”would you feel happy, unhappy, or would you not care one way or the other?
+#' Question B. If you had a son, how would you feel if he wanted to be an engineer"would you feel happy, unhappy, or would you not care one way or the other?
 #' 
 #' 
 #' @section Values: 

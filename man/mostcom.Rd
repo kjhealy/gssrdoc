@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mostcom
 }
 \details{
-Question Of these groupsâ€“whites, blacks, Jews, Hispanics and Latin Americans, Asian Americans, if you had to say, which One (other than your own) do you feel you have the most in common with?
+Question Of these groups"whites, blacks, Jews, Hispanics and Latin Americans, Asian Americans, if you had to say, which One (other than your own) do you feel you have the most in common with?
 }
 \section{Values}{
 

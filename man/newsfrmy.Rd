@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 newsfrmy
 }
 \details{
-Question We are interested in how people get information about events in the news. Where do you get most of your information about current news events â€“ printed newspapers,  online newspapers, printed magazines, online magazines, other places on the Internet, books or other printed materials, TV, radio, family, friends, colleagues, or some other source?
+Question We are interested in how people get information about events in the news. Where do you get most of your information about current news events " printed newspapers,  online newspapers, printed magazines, online magazines, other places on the Internet, books or other printed materials, TV, radio, family, friends, colleagues, or some other source?
 }
 \section{Values}{
 

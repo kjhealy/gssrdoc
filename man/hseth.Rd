@@ -10,9 +10,9 @@ General Social Survey https://gss.norc.org
 hseth
 }
 \details{
-Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF "HIGH SCHOOL.â€
-IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF "THE LAST SCHOOL YOU ATTENDED.â€
-B. Besides Whites, what was the largest racial group in your high school/the last school you attendedâ€“ Blacks/African Americans, Hispanics, Asians, or American Indians?
+Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF "HIGH SCHOOL."
+IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF "THE LAST SCHOOL YOU ATTENDED."
+B. Besides Whites, what was the largest racial group in your high school/the last school you attended" Blacks/African Americans, Hispanics, Asians, or American Indians?
 }
 \section{Values}{
 

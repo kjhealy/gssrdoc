@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 gamegn
 }
 \details{
-Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002â€“have you:
+Question In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002"have you:
 E. Played an indoor game with other people, like a board game, card game, or strategy game?
 }
 \section{Values}{

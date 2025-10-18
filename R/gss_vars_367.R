@@ -2,7 +2,7 @@
 #' 
 #'  newsfrom
 #' 
-#' Question We are interested in how people get information about events in the news. Where do you get most  of your information about current news events â€“ newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues, or some other source?
+#' Question We are interested in how people get information about events in the news. Where do you get most  of your information about current news events " newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues, or some other source?
 #' 
 #' 
 #' @section Values: 
@@ -57,7 +57,7 @@ NULL
 #' 
 #'  scifrom
 #' 
-#' Question We are interested in how people get information about science and technology. Where do you get most of your information about science and technology (â€“ newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues,  or some other source)?
+#' Question We are interested in how people get information about science and technology. Where do you get most of your information about science and technology (" newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues,  or some other source)?
 #' 
 #' 
 #' @section Values: 
@@ -113,7 +113,7 @@ NULL
 #' 
 #'  seeksci
 #' 
-#' Question If you wanted to learn about scientific issues such as global warming or biotechnology, where would you get information (â€“ newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues, or some other source)?
+#' Question If you wanted to learn about scientific issues such as global warming or biotechnology, where would you get information (" newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues, or some other source)?
 #' 
 #' 
 #' @section Values: 

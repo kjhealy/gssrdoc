@@ -11,7 +11,7 @@ reincar
 }
 \details{
 Question Do you believe in…
-A. ...in Reincarnation â€“ being reborn in this world again and again?
+A. ...in Reincarnation " being reborn in this world again and again?
 }
 \section{Values}{
 

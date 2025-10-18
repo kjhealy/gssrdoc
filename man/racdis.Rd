@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 racdis
 }
 \details{
-Question Are there any ("whitesâ€ for black respondents, "blacksâ€ for non-black respondents) living in this neighborhood now?
+Question Are there any ("whites" for black respondents, "blacks" for non-black respondents) living in this neighborhood now?
 B. How many blocks (or miles) away do they (the (Negro/Black/African-American) families who live closest to you) live?
 }
 \section{Values}{

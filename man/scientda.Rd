@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 scientda
 }
 \details{
-Question A. If you had a daughter, how would you feel if she wanted to be a scientistâ€”would you feel happy, unhappy, or would you not care one way or the other?
+Question A. If you had a daughter, how would you feel if she wanted to be a scientist"would you feel happy, unhappy, or would you not care one way or the other?
 }
 \section{Values}{
 

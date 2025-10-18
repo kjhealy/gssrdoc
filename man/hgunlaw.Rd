@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 hgunlaw
 }
 \details{
-Question Please tell me whether you agree or disagree with the following statement: "There should be more legal restrictions on handguns in our society.â€
+Question Please tell me whether you agree or disagree with the following statement: "There should be more legal restrictions on handguns in our society."
 }
 \section{Values}{
 

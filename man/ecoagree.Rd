@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 ecoagree
 }
 \details{
-Question Please look at Card B11. On a scale of 1 to 5, where 1 means "Near complete agreementâ€ and 5 means "No agreement at allâ€, to what extent Do economists agree on the effects of reducing federal income taxes?
+Question Please look at Card B11. On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all", to what extent Do economists agree on the effects of reducing federal income taxes?
 }
 \section{Values}{
 

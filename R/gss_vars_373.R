@@ -2,7 +2,7 @@
 #' 
 #'  medagrsc
 #' 
-#' Question Please look at Card B7. (On a scale of 1 to 5, where 1 means "Near complete agreementâ€ and 5 means "No agreement at allâ€) to what extent do medical researchers agree on the importance of stem cells for research?
+#' Question Please look at Card B7. (On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all") to what extent do medical researchers agree on the importance of stem cells for research?
 #' 
 #' 
 #' @section Values: 
@@ -297,7 +297,7 @@ NULL
 #' 
 #'  scresrch
 #' 
-#' Question Recently, there has been controversy over whether the government should provide any funds at all for scientific research that uses "stem cellsâ€ taken from human embryos. Would you say the government…
+#' Question Recently, there has been controversy over whether the government should provide any funds at all for scientific research that uses "stem cells" taken from human embryos. Would you say the government…
 #' 
 #' 
 #' @section Values: 
@@ -339,7 +339,7 @@ NULL
 #' 
 #'  txeco
 #' 
-#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where 1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the likely effects of reducing federal income taxes?
+#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All"), how well do the following groups understand the likely effects of reducing federal income taxes?
 #' A. Economists
 #' 
 #' 
@@ -380,7 +380,7 @@ NULL
 #' 
 #'  txbiz
 #' 
-#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where  1 means "Very Wellâ€ and 5 means "Not at Allâ€), how well do the following groups understand the likely effects of reducing federal income taxes?
+#' Question The first issue is federal income taxes. Some people say that reducing income taxes almost always helps the economy grow. Others say that reducing income taxes has very little long-term impact on economic growth but could cause a big increase in the deficit. Please look at Card B10. (On a scale of 1 to 5, where  1 means "Very Well" and 5 means "Not at All"), how well do the following groups understand the likely effects of reducing federal income taxes?
 #' B. Business leaders
 #' 
 #' 

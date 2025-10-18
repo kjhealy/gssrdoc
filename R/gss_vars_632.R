@@ -196,7 +196,7 @@ NULL
 #' 
 #'  relidimp
 #' 
-#' Question How important is religion in your life â€“ very important, somewhat important, not too important, or not at all important?
+#' Question How important is religion in your life " very important, somewhat important, not too important, or not at all important?
 #' 
 #' 
 #' @section Values: 

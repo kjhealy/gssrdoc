@@ -126,7 +126,7 @@ NULL
 #' 
 #'  letinhsp
 #' 
-#' Question What about the number of immigrants from Latin America (that is, Spanish-speaking countries of the Americas)â€“should it be increased a lot, increased a little, left the same as it is now, decreased a little, or decreased a lot?
+#' Question What about the number of immigrants from Latin America (that is, Spanish-speaking countries of the Americas)"should it be increased a lot, increased a little, left the same as it is now, decreased a little, or decreased a lot?
 #' 
 #' 
 #' @section Values: 
@@ -374,7 +374,7 @@ NULL
 #' 
 #'  uswht
 #' 
-#' Question Just your best guessâ€“what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
+#' Question Just your best guess"what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
 #' A. Whites?
 #' 
 #' 

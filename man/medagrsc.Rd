@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 medagrsc
 }
 \details{
-Question Please look at Card B7. (On a scale of 1 to 5, where 1 means "Near complete agreementâ€ and 5 means "No agreement at allâ€) to what extent do medical researchers agree on the importance of stem cells for research?
+Question Please look at Card B7. (On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all") to what extent do medical researchers agree on the importance of stem cells for research?
 }
 \section{Values}{
 

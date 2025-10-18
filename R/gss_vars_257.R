@@ -85,7 +85,7 @@ NULL
 #' 
 #'  comwht
 #' 
-#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' Question Just your best guess"what percentage of the people who live in your local community is each group? 
 #' A. Whites?
 #' 
 #' 
@@ -122,7 +122,7 @@ NULL
 #' 
 #'  comblk
 #' 
-#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' Question Just your best guess"what percentage of the people who live in your local community is each group? 
 #' B. Blacks/African-Americans?
 #' 
 #' 
@@ -159,7 +159,7 @@ NULL
 #' 
 #'  comjews
 #' 
-#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' Question Just your best guess"what percentage of the people who live in your local community is each group? 
 #' C. Jews?
 #' 
 #' 
@@ -196,7 +196,7 @@ NULL
 #' 
 #'  comhisp
 #' 
-#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' Question Just your best guess"what percentage of the people who live in your local community is each group? 
 #' D. Hispanics?
 #' 
 #' 
@@ -233,7 +233,7 @@ NULL
 #' 
 #'  comasn
 #' 
-#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' Question Just your best guess"what percentage of the people who live in your local community is each group? 
 #' E. Asian Americans?
 #' 
 #' 
@@ -270,7 +270,7 @@ NULL
 #' 
 #'  comamind
 #' 
-#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' Question Just your best guess"what percentage of the people who live in your local community is each group? 
 #' F. American Indians
 #' 
 #' 

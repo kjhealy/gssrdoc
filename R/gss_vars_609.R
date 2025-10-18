@@ -387,7 +387,7 @@ NULL
 #' 
 #'  cshutyp06
 #' 
-#' Question During March through May 2006, were you a resident in a household â€“ such as living in a house, apartment or similar residence - or did you live elsewhere such as living in an institution like a college dorm, military barrack, work camp, shelter, residential treatment center, long-term medical care facility or nursing home?
+#' Question During March through May 2006, were you a resident in a household " such as living in a house, apartment or similar residence - or did you live elsewhere such as living in an institution like a college dorm, military barrack, work camp, shelter, residential treatment center, long-term medical care facility or nursing home?
 #' 
 #' 
 #' @section Values: 

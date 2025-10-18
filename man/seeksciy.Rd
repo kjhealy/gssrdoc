@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 seeksciy
 }
 \details{
-Question If you wanted to learn about scientific issues such as global warming or biotechnology, where would you get information â€“ printed newspapers, online newspapers, printed magazines, online magazines, other places on the Internet, books or other printed materials, TV, radio, family, friends, colleagues, or some other source)?
+Question If you wanted to learn about scientific issues such as global warming or biotechnology, where would you get information " printed newspapers, online newspapers, printed magazines, online magazines, other places on the Internet, books or other printed materials, TV, radio, family, friends, colleagues, or some other source)?
 PROBE: What would be your main source of information?
 }
 \section{Values}{

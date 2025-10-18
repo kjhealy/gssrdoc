@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 letinhsp
 }
 \details{
-Question What about the number of immigrants from Latin America (that is, Spanish-speaking countries of the Americas)â€“should it be increased a lot, increased a little, left the same as it is now, decreased a little, or decreased a lot?
+Question What about the number of immigrants from Latin America (that is, Spanish-speaking countries of the Americas)"should it be increased a lot, increased a little, left the same as it is now, decreased a little, or decreased a lot?
 }
 \section{Values}{
 

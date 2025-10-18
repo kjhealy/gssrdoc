@@ -263,7 +263,7 @@ NULL
 #'  payresp
 #' 
 #' Question In deciding how much people ought to earn, how important should each of these things be, in your opinion: 
-#' A How much responsibility goes with the jobâ€”how important do you think that ought to be in deciding pay?
+#' A How much responsibility goes with the job"how important do you think that ought to be in deciding pay?
 #' 
 #' 
 #' @section Values: 

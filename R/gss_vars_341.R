@@ -128,7 +128,7 @@ NULL
 #' 
 #'  hgunlaw
 #' 
-#' Question Please tell me whether you agree or disagree with the following statement: "There should be more legal restrictions on handguns in our society.â€
+#' Question Please tell me whether you agree or disagree with the following statement: "There should be more legal restrictions on handguns in our society."
 #' 
 #' 
 #' @section Values: 
@@ -281,11 +281,11 @@ NULL
 #' 
 #'  numrelex
 #' 
-#' Question IF RELEXPER = yes and RELEXP = no, READ: Thinking of the "turning point in your life when you made a new and personal commitment to religion,â€ how many such experiences have you had? 
+#' Question IF RELEXPER = yes and RELEXP = no, READ: Thinking of the "turning point in your life when you made a new and personal commitment to religion," how many such experiences have you had? 
 #' READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR? 
-#' IF RELEXPER = no and RELEXP = yes, READ: Thinking of the "religious or spiritual experience that changed your life,â€ how many such experiences have you had? 
+#' IF RELEXPER = no and RELEXP = yes, READ: Thinking of the "religious or spiritual experience that changed your life," how many such experiences have you had? 
 #' READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR? 
-#' IF RELEXPER = yes and RELEXP = yes, READ: Thinking of the "turning point in your life when you made a new and personal commitment to religion,â€ and the "religious or spiritual experience that changed your life,â€ how many such experiences have you had? 
+#' IF RELEXPER = yes and RELEXP = yes, READ: Thinking of the "turning point in your life when you made a new and personal commitment to religion," and the "religious or spiritual experience that changed your life," how many such experiences have you had? 
 #' READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR?
 #' 
 #' 

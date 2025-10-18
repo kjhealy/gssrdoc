@@ -2,7 +2,7 @@
 #' 
 #'  usblk
 #' 
-#' Question Just your best guessâ€“what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
+#' Question Just your best guess"what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
 #' B. Blacks/African-Americans?
 #' 
 #' 
@@ -39,7 +39,7 @@ NULL
 #' 
 #'  usjews
 #' 
-#' Question Just your best guessâ€“what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
+#' Question Just your best guess"what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
 #' C. Jews?
 #' 
 #' 
@@ -76,7 +76,7 @@ NULL
 #' 
 #'  ushisp
 #' 
-#' Question Just your best guessâ€“what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
+#' Question Just your best guess"what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
 #' D. Hispanics?
 #' 
 #' 
@@ -113,7 +113,7 @@ NULL
 #' 
 #'  usasn
 #' 
-#' Question Just your best guessâ€“what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
+#' Question Just your best guess"what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
 #' E. Asian Americans?
 #' 
 #' 
@@ -150,7 +150,7 @@ NULL
 #' 
 #'  usamind
 #' 
-#' Question Just your best guessâ€“what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
+#' Question Just your best guess"what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.) 
 #' F. American Indians?
 #' 
 #' 

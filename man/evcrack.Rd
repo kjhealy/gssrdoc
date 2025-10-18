@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 evcrack
 }
 \details{
-Question Have you ever, even once, used "crackâ€ cocaine in chunk or rock form?
+Question Have you ever, even once, used "crack" cocaine in chunk or rock form?
 }
 \section{Values}{
 

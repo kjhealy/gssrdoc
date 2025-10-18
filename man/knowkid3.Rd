@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 knowkid3
 }
 \details{
-Question Thinking now only about weekends (SATURDAY AND SUNDAY) and only when your child is awakeâ€“would you say that you know exactly what (NAME OF CHILD) is doing on the weekend almost all of the time, most of the time, about half of the time, some of the time or hardly any of the time?
+Question Thinking now only about weekends (SATURDAY AND SUNDAY) and only when your child is awake"would you say that you know exactly what (NAME OF CHILD) is doing on the weekend almost all of the time, most of the time, about half of the time, some of the time or hardly any of the time?
 C. Third listed child?
 }
 \section{Values}{

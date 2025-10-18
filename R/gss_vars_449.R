@@ -214,7 +214,7 @@ NULL
 #'  fewtrsty
 #' 
 #' Question To what extent do you agree or disagree with the following statements? 
-#' A. "There are only a few people I can trust completely.â€ Do you...
+#' A. "There are only a few people I can trust completely." Do you...
 #' 
 #' 
 #' @section Values: 
@@ -256,7 +256,7 @@ NULL
 #'  exploit
 #' 
 #' Question To what extent do you agree or disagree with the following statements? 
-#' B. "If you are not careful, other people will take advantage of you.â€ Do you...
+#' B. "If you are not careful, other people will take advantage of you." Do you...
 #' 
 #' 
 #' @section Values: 

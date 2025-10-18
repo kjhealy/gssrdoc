@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 comamind
 }
 \details{
-Question Just your best guessâ€“what percentage of the people who live in your local community is each group?
+Question Just your best guess"what percentage of the people who live in your local community is each group?
 F. American Indians
 }
 \section{Values}{

@@ -11,7 +11,7 @@ online
 }
 \details{
 Question When you want to learn how to do something new with your software and you need advice on how to do it, which of the following do you do? (Name as many as are correct.) (PROMPT: Anything else?)
-A. Look in the on-line "helpâ€ provided as part of the software?
+A. Look in the on-line "help" provided as part of the software?
 }
 \section{Values}{
 

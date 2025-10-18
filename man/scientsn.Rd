@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 scientsn
 }
 \details{
-Question B. If you had a son, how would you feel if he wanted to be a scientistâ€”would you feel happy, unhappy, or would you not care one way or the other?
+Question B. If you had a son, how would you feel if he wanted to be a scientist"would you feel happy, unhappy, or would you not care one way or the other?
 }
 \section{Values}{
 

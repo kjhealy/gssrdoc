@@ -11,7 +11,7 @@ jobcntct
 }
 \details{
 Question Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: Click on a link in an email message from a friend, relative, or co-worker.
-E. Business or work contacts outside your workplaceâ€“that is outside where you were then working?
+E. Business or work contacts outside your workplace"that is outside where you were then working?
 }
 \section{Values}{
 

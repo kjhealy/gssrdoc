@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 kidshere
 }
 \details{
-Question There are different opinions about immigrants from other countries living in America. (By "immigrantsâ€ we mean people who come to settle in America) How much do you agree or disagree with each of the following statements? (Please, select one response)
+Question There are different opinions about immigrants from other countries living in America. (By "immigrants" we mean people who come to settle in America) How much do you agree or disagree with each of the following statements? (Please, select one response)
 C. Children born in America of parents who are not citizens should have the right to become American citizens.
 }
 \section{Values}{

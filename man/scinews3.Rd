@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 scinews3
 }
 \details{
-Question You said you get most of your information about science and technology from the Internet. What is the place you are most likely to go on the Internet for science and technology informationâ€”online newspapers, online magazines, or some other place on the Internet?
+Question You said you get most of your information about science and technology from the Internet. What is the place you are most likely to go on the Internet for science and technology information"online newspapers, online magazines, or some other place on the Internet?
 you most likely to go on the Internet for science and technology information?
 }
 \section{Values}{

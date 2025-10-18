@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 wkyngscs
 }
 \details{
-Question What about your (spouse/partner) at that time â€“ did (he/she) work outside the home full-time, part-time, or not at all…
+Question What about your (spouse/partner) at that time " did (he/she) work outside the home full-time, part-time, or not at all…
 B. After the youngest child started school?
 }
 \section{Values}{

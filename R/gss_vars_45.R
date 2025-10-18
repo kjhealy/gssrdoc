@@ -125,7 +125,7 @@ NULL
 #' 
 #'  raclive
 #' 
-#' Question Are there any ("whitesâ€ for black respondents, "blacksâ€ for non-black respondents) living in this neighborhood now?
+#' Question Are there any ("whites" for black respondents, "blacks" for non-black respondents) living in this neighborhood now?
 #' 
 #' 
 #' @section Values: 
@@ -197,7 +197,7 @@ NULL
 #' 
 #'  racclos
 #' 
-#' Question Are there any ("whitesâ€ for black respondents, "blacksâ€ for non-black respondents) living in this neighborhood now?
+#' Question Are there any ("whites" for black respondents, "blacks" for non-black respondents) living in this neighborhood now?
 #'  A. Are there any (Negro/Black/African-American) families living close to you?
 #' 
 #' 
@@ -256,7 +256,7 @@ NULL
 #' 
 #'  racdis
 #' 
-#' Question Are there any ("whitesâ€ for black respondents, "blacksâ€ for non-black respondents) living in this neighborhood now?
+#' Question Are there any ("whites" for black respondents, "blacks" for non-black respondents) living in this neighborhood now?
 #'  B. How many blocks (or miles) away do they (the (Negro/Black/African-American) families who live closest to you) live?
 #' 
 #' 
@@ -317,7 +317,7 @@ NULL
 #' 
 #'  racinteg
 #' 
-#' Question Are there any ("whitesâ€ for black respondents, "blacksâ€ for non-black respondents) living in this neighborhood now?
+#' Question Are there any ("whites" for black respondents, "blacks" for non-black respondents) living in this neighborhood now?
 #'  C. Do you think this neighborhood will become all (Negro/Black/African-American) in the next few years, or  will it remain integrated?
 #' 
 #' 
