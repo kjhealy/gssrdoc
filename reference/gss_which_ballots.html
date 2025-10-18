@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">gssrdoc</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.8.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.8.1</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,8 +60,8 @@
 <p>Columns returned are
 - `variable` Variable name
 - `year` GSS year
-- `iap` Numbers in this column mean the question wasn't asked _or_ the ballot system was not in use.
-- `ballot a`, `ballot b`, etc: Count of the n respondents on each ballot for a particular year.</p>
+- `ballots` Ballots, separated by a slash `/`, with `-` for blank or inapplicable
+- `availability` Can be `full` or `partial`</p>
     </div>
 
     <div class="section level2">
