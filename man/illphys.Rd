@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 illphys
 }
 \details{
-Question In your opinion, how likely is it that (John/Mary) is experiencing part of the normal ups and downs of growing up -- very likely, somewhat likely, not very likely, or not at all likely? C. In your opinion, how likely is it that (John/Mary) is experiencing a physical illness?
+Question In your opinion, how likely is it that (John/Mary) is experiencing part of the normal ups and downs of growing up -- very likely, somewhat likely, not very likely, or not at all likely? C. In your opinion, how likely is it that (John/Mary) is experiencing a physical illness?
 }
 \section{Values}{
 

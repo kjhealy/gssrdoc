@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{mcsds1}
 \alias{mcsds1}
-\title{Im always willing to admit it when i make a mistake}
+\title{I'm always willing to admit it when i make a mistake}
 \source{
 General Social Survey https://gss.norc.org
 }

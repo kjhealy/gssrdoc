@@ -117,7 +117,7 @@ NULL
 NULL
 
 
-#'  Im always willing to admit it when i make a mistake
+#'  I'm always willing to admit it when i make a mistake
 #' 
 #'  mcsds1
 #' 
@@ -269,7 +269,7 @@ NULL
 NULL
 
 
-#'  I have never deliberately said something that hurt someones feelings
+#'  I have never deliberately said something that hurt someone's feelings
 #' 
 #'  mcsds5
 #' 

@@ -348,7 +348,7 @@ NULL
 NULL
 
 
-#'  In general, do you think that air pollution caused by industry is
+#'  In general, do you think that air pollution caused by industry is
 #' 
 #'  indusgen1
 #' 

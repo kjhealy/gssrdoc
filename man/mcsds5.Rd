@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{mcsds5}
 \alias{mcsds5}
-\title{I have never deliberately said something that hurt someones feelings}
+\title{I have never deliberately said something that hurt someone's feelings}
 \source{
 General Social Survey https://gss.norc.org
 }

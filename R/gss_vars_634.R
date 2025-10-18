@@ -121,7 +121,7 @@ NULL
 NULL
 
 
-#'  The success of the us is part of gods plan
+#'  The success of the us is part of god's plan
 #' 
 #'  godusa
 #' 
