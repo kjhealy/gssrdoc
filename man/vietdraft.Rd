@@ -26,7 +26,7 @@ Question Likelihood of respondent born on a date with a Vietnam War draft lotter
    ballots \tab years \cr
    A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021 \cr
    A/B/C/D \tab 2006 \cr
-   Full/- \tab 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
+   Full \tab 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 

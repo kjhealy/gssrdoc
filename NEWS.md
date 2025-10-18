@@ -1,3 +1,8 @@
+# gssrdoc 0.8.1
+
+- Replace `gss_dict` with improved `gss_doc`.
+- Fix UTF-8 encoding and other minor errors in the documentation.
+
 # gssrdoc 0.8
 
 - The beginning of the Overview section for each question now links to the [GSS Data Explorer Page](https://gssdataexplorer.norc.org) for that question. 

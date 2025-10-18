@@ -18,7 +18,7 @@
 #'  |A/B/C/- |2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024             |
 #'  |A/B/C/D |2006                                                             |
 #'  |A/C/-/- |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004 |
-#'  |Full/-  |1972, 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987       |
+#'  |Full    |1972, 1973, 1974, 1976, 1977, 1980, 1982, 1984, 1985, 1987       |
 #' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `wksups`](https://gssdataexplorer.norc.org/variables/580/vshow).

@@ -11,8 +11,8 @@
 #' Columns returned are
 #' - `variable` Variable name
 #' - `year` GSS year
-#' - `iap` Numbers in this column mean the question wasn't asked _or_ the ballot system was not in use.
-#' - `ballot a`, `ballot b`, etc: Count of the n respondents on each ballot for a particular year.
+#' - `ballots` Ballots, separated by a slash `/`, with `-` for blank or inapplicable
+#' - `availability` Can be `full` or `partial`
 #'
 #' @export
 #'
@@ -22,15 +22,15 @@
 #'
 #'}
 gss_which_ballots <- function(question) {
-  if(!exists("gss_dict")) {
-    message("Loading the codebook (gss_dict)")
-    data("gss_dict")
+  if (!exists("gss_doc")) {
+    message("Loading the codebook (gss_doc)")
+    data("gss_doc")
   }
 
   question <- rlang::as_name(rlang::expr({{ question }}))
 
-  gss_dict |>
-    dplyr::select(variable, var_ballots) |>
+  gss_doc |>
+    dplyr::select(variable, yrballot_df) |>
     dplyr::filter(variable %in% question) |>
-    tidyr::unnest(cols = c(var_ballots))
+    tidyr::unnest(cols = c(yrballot_df))
 }

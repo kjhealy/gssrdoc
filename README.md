@@ -72,13 +72,28 @@ own subject tags.
 
 <img src="man/figures/readme_sshot.png" alt="Example help page" />
 
-Information about the variables is also contained in the `gss_dict`
+Information about the variables is also contained in the `gss_doc`
 object:
 
 ``` r
 library(tibble)
 library(gssrdoc)
-gss_dict
+
+gss_doc
+#> # A tibble: 6,694 × 12
+#>    variable description                           question                   norc_id norc_url var_yrtab yrballot_df module_df subject_df value_labels var_type var_na_codes
+#>    <chr>    <chr>                                 <chr>                        <int> <chr>    <list>    <list>      <list>    <list>     <chr>        <chr>    <chr>       
+#>  1 year     GSS year for this respondent          "GSS year"                       1 https:/… <chr [1]> <tibble>    <tibble>  <tibble>   "[NA(d)] do… numeric  .d,.i,.j,.m…
+#>  2 id       Respondent id number                  "Respondent id number"           2 https:/… <chr [1]> <tibble>    <tibble>  <tibble>   ""           <NA>     <NA>        
+#>  3 wrkstat  labor force status                    "Last week were you worki…       3 https:/… <tibble>  <tibble>    <tibble>  <tibble>   "[1] workin… numeric  .d,.i,.j,.m…
+#>  4 hrs1     number of hours worked last week      "Last week were you worki…       4 https:/… <chr [1]> <tibble>    <tibble>  <tibble>   "[89] 89+ h… numeric  .d,.i,.j,.m…
+#>  5 hrs2     number of hours usually work a week   "Last week were you worki…       5 https:/… <tibble>  <tibble>    <tibble>  <tibble>   "[89] 89+ h… numeric  .d,.i,.j,.m…
+#>  6 evwork   ever work as long as one year         "Last week were you worki…       6 https:/… <tibble>  <tibble>    <tibble>  <tibble>   "[1] yes / … numeric  .d,.i,.j,.m…
+#>  7 occ      R's census occupation code (1970)     "A. What kind of work do …       7 https:/… <chr [1]> <tibble>    <tibble>  <tibble>   "[NA(d)] do… numeric  .d,.i,.j,.m…
+#>  8 prestige r's occupational prestige score(1970) "A. What kind of work do …       8 https:/… <tibble>  <tibble>    <tibble>  <tibble>   "[NA(d)] do… numeric  .d,.i,.j,.m…
+#>  9 wrkslf   r self-emp or works for somebody      "A. What kind of work do …       9 https:/… <tibble>  <tibble>    <tibble>  <tibble>   "[1] self-e… numeric  .d,.i,.j,.m…
+#> 10 wrkgovt  govt or private employee              "A. What kind of work do …      10 https:/… <tibble>  <tibble>    <tibble>  <tibble>   "[1] govern… numeric  .d,.i,.j,.m…
+#> # ℹ 6,684 more rows
 ```
 
 ## Official GSS Documentation

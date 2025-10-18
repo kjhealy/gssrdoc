@@ -31,7 +31,7 @@ As of 2024, RACECEN3 has been recoded to combine Native Hawaiian, Guamanian or C
    ballots \tab years \cr
    A/B/C/- \tab 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 \cr
    A/B/C/D \tab 2006 \cr
-   B/Full \tab 2000 \cr
+   B/-/-/- \tab 2000 \cr
 }
 }
 

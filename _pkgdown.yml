@@ -22,7 +22,7 @@ reference:
     desc: >
       Tibble documenting the cumulative data file.
     contents:
-    - gss_dict
+    - gss_doc
   - title: "Variables"
     desc: >
       GSS Variables in the cumulative data file.

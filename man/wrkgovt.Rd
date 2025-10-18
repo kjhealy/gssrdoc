@@ -34,7 +34,7 @@ G. About how much time (does/did) it usually take you to travel to work - about 
    ballots \tab years \cr
    A/B/C/- \tab 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018 \cr
    A/B/C/D \tab 2006 \cr
-   Full/- \tab 1985, 1986 \cr
+   Full \tab 1985, 1986 \cr
 }
 }
 

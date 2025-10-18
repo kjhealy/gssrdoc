@@ -31,49 +31,6 @@ plan(multisession, workers = n_cores)
 
 set.seed(251015)
 
-## Cleaning errant characters that make things crash!
-## Not all of these are present now that we're relying on the NORC json
-fix_chrs <- function(x) {
-  # fmt: skip
-  replacements <- tribble(
-    ~bad, ~good,
-    "â€™", "'",
-    "â€˜", "'",
-    "â€œ", '"',
-    "â€�", '"',
-    'â€"', "--",
-    "â€¦", "…",
-    "â€\u009d", '"',
-    "â€“", '"',
-    'â€”', '"',
-    "\\u0092", "'", # '
-    "\u0085", "" # NEL
-  )
-
-  o <- x |>
-    stringr::str_replace_all("%", "pct") |>
-    stringr::str_replace_all("<", "(") |>
-    stringr::str_replace_all(">", ")") |>
-    stringr::str_replace_all("�", "~") |>
-    stringr::str_replace_all("n~t", "n't") |>
-    stringr::str_replace_all("y~s", "y's") |>
-    stringr::str_replace_all("figures~like", "figures---like") |>
-    stringr::str_replace_all("I~m", "I'm") |>
-    stringr::str_replace_all("\\(~", "\\('") |>
-    stringr::str_replace_all("guess~\\)", "guess: ") |>
-    stringr::str_replace_all("\\#spousepartfill", "spousepartfill") |>
-    stringr::str_replace_all("\\{spousepartfill\\}", "spousepartfill")
-
-  out <- reduce2(
-    replacements$bad,
-    replacements$good,
-    str_replace_all,
-    .init = o
-  )
-
-  out
-}
-
 
 ## Need to replace `[` and `]` because
 ## in cases like [NAME] and [PROMPT] etc they will trigger autolinking
@@ -163,62 +120,6 @@ make_rd_describe <- function(value_labels) {
   out
 }
 
-# make_rd_describe <- function(value_labels) {
-#   ## can't split on `;` along because of some labels with ; in them
-#   ## and several weird questions with strange codes addressed by these fixes
-#   o <- stringr::str_squish(stringr::str_split_1(value_labels, "; \\["))
-#   o <- str_replace(o, "^(\\d{1,9}\\])", "[\\1") # digits
-#   o <- str_replace(o, "^(NA\\([a-z]\\)\\])", "[\\1")
-#   o <- str_replace(o, "^(\\d{1}e\\+05)", "[\\1")
-#   o <- str_squish(str_replace(o, "\\[(.*?)\\](.*)", "`\\1` \\2"))
-#
-#   o_items <- o[!str_detect(o, "`NA\\(")]
-#   o_missings <- o[str_detect(o, "`NA\\(")]
-#
-#   main_items <- paste0(c("#'   * "), o_items, collapse = "\n")
-#   missings <- paste0(
-#     c("   * "),
-#     paste0(o_missings, collapse = " / "),
-#     collapse = "\n"
-#   )
-#   o <- paste0(
-#     "\n#' \n#' @section Values: \n#' \n",
-#     main_items,
-#     "\n#'"
-#   )
-#   o <- paste0(
-#     o,
-#     missings,
-#     "\n#' "
-#   )
-#   o
-# }
-
-## Construct full crosstab
-# make_rd_yrfreq <- function(var_yrtab, norc_url) {
-#   if (!is_tibble(var_yrtab)) {
-#     return("\n#'")
-#   }
-#
-#   options(knitr.kable.NA = '-')
-#
-#   headstring <- paste0(
-#     c(
-#       paste0(
-#         "\n#' @section Overview: \n#' For further details see the [GSS Data Explorer page for this variable](",
-#         norc_url,
-#         ")."
-#       ),
-#       "#'",
-#       "#' Counts by year: \n#'\n"
-#     ),
-#     collapse = "\n"
-#   )
-#   o <- var_yrtab |>
-#     prettify_yrtab() |>
-#     knitr::kable()
-#   paste0(headstring, paste("#' ", o, collapse = "\n"))
-# }
 
 ## Construct small crosstab (valid years only)
 make_rd_yrfreq <- function(
@@ -256,29 +157,6 @@ make_rd_yrfreq <- function(
   paste0(headstring, paste("#' ", o, collapse = "\n"))
 }
 
-
-## Omit the crosstab on size grounds.
-# make_rd_yrfreq <- function(variable, var_yrtab, norc_url) {
-#   if (!is_tibble(var_yrtab)) {
-#     return("\n#'")
-#   }
-#
-#   options(knitr.kable.NA = '-')
-#
-#   headstring <- paste0(
-#     c(
-#       paste0(
-#         "\n#' @section Link at the GSS: \n#' For further details see the [GSS Data Explorer page for `",
-#         variable,
-#         "`](",
-#         norc_url,
-#         ")."
-#       ),
-#       "#'"
-#     ),
-#     collapse = "\n"
-#   )
-# }
 
 make_rd_ballotinfo <- function(yrballot_df) {
   if (!is_tibble(yrballot_df)) {
@@ -325,10 +203,6 @@ with_empty_default <- function(.f, .default = "\n#' ") {
     out
   }
 }
-
-# remove_duplicate_family <- function(x) {
-#   str_replace_all(x, "(\\n#' @family [^\\n]+)(?=.*\\1)", "")
-# }
 
 remove_duplicate_family <- function(x) {
   map_chr(
@@ -402,7 +276,10 @@ simplify_ballot <- function(yrballot_df) {
   }
 
   yrballot_df |>
-    mutate(ballots = str_replace(ballots, "-/-/-", "Full")) |>
+    mutate(
+      ballots = str_replace(ballots, "^-/-/-/-$", "Full"),
+      ballots = str_replace(ballots, "^-/-/-$", "Full")
+    ) |>
     group_by(ballots) |>
     summarize(years = str_c(year, collapse = ", "))
 }
@@ -456,8 +333,8 @@ gss_doc_rd <- gss_doc_rd |>
 #       paste0
 #     )
 #   ) |>
-#   pull(rd6) |>
-#   fix_chrs() ## rd char fixes
+#   pull(rd6)
+#
 # test_docs_list <- split(docstring_test, ceiling(seq_along(docstring_test) / 10))
 # test_docs_list <- set_names(
 #   test_docs_list,
@@ -509,8 +386,7 @@ docstring <- gss_doc_rd |>
       paste0
     )
   ) |>
-  pull(rd6) |>
-  fix_chrs() ## rd char fixes
+  pull(rd6)
 
 ## Chunk it into a list we can walk
 ## We pick a small ceiling number here (so, more files)

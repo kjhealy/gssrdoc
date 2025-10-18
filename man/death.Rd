@@ -26,7 +26,7 @@ Question Respondent's possible vital status as of 2014
    ballots \tab years \cr
    A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010 \cr
    A/B/C/D \tab 2006 \cr
-   Full/- \tab 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
+   Full \tab 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987 \cr
 }
 }
 

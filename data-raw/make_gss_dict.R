@@ -91,4 +91,10 @@ gss_dict <- left_join(gss_dict, gss_doc, by = "variable") |>
   relocate(var_ballots, .after = var_yrtab)
 
 ## Save out
-usethis::use_data(gss_dict, overwrite = TRUE, compress = "xz")
+# usethis::use_data(gss_dict, overwrite = TRUE, compress = "xz")
+
+saveRDS(
+  gss_dict,
+  file = here("data-raw", "objects", "gss_dict.rda"),
+  compress = "xz"
+)

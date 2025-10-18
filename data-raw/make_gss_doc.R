@@ -18,7 +18,7 @@ library(here)
 library(labelled)
 
 # Load gss_dict
-load(here::here("data", "gss_dict.rda"))
+load(here::here("data-raw", "objects", "gss_dict.rda"))
 
 
 # Load the local unlabelled dataset; make sure it's up to date
@@ -203,6 +203,48 @@ make_subject_df <- function(x) {
     unnest_wider(subject, names_sep = "_")
 }
 
+## Cleaning errant characters that make things crash!
+## Not all of these are present now that we're relying on the NORC json
+fix_chrs <- function(x) {
+  # fmt: skip
+  replacements <- tribble(
+    ~bad, ~good,
+    "â€™", "'",
+    "â€˜", "'",
+    "â€œ", '"',
+    "â€�", '"',
+    'â€"', "--",
+    "â€¦", "…",
+    "â€\u009d", '"',
+    "â€“", '"',
+    'â€”', '"',
+    "\\u0092", "'", # '
+    "\u0085", "", # NEL
+    "%", "pct",
+    "<", "(",
+    ">", ")",
+    "�", "~",
+    "n~t", "n't",
+    "y~s", "y's",
+    "figures~like", "figures---like",
+    "I~m", "I'm",
+    "\\(~", "\\('",
+    "guess~\\)", "guess: ",
+    "\\#spousepartfill", "spousepartfill",
+    "\\{spousepartfill\\}", "spousepartfill"
+  )
+
+  out <- reduce2(
+    replacements$bad,
+    replacements$good,
+    str_replace_all,
+    .init = x
+  )
+
+  out
+}
+
+
 ## Clean the data dict
 
 ## Get a crosstab for every variable except no xtab
@@ -235,27 +277,30 @@ gss_doc <- gss_doc_base |>
     module_df = map(module, possibly(make_module_df, otherwise = NULL)),
     subject_df = map(subject, possibly(make_subject_df, otherwise = NULL))
   ) |>
+  # UTF-8 related cleanup
+  mutate(
+    across(c(description, question, value_labels), fix_chrs)
+  ) |>
   select(
     variable,
     description,
     question,
-    norc_id,
-    norc_url,
+    value_labels,
     var_yrtab,
     yrballot_df,
     module_df,
     subject_df,
-    value_labels,
     var_type,
-    var_na_codes
+    var_na_codes,
+    norc_id,
+    norc_url
   )
 
-
 ## Save out
-#usethis::use_data(gss_doc, overwrite = TRUE, compress = "xz")
+usethis::use_data(gss_doc, overwrite = TRUE, compress = "xz")
 
-saveRDS(
-  gss_doc,
-  file = here("data-raw", "objects", "gss_doc.rda"),
-  compress = "xz"
-)
+# saveRDS(
+#   gss_doc,
+#   file = here("data-raw", "objects", "gss_doc.rda"),
+#   compress = "xz"
+# )

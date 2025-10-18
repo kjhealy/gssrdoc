@@ -333,7 +333,7 @@ NULL
 #'  |:-------|:----------------------------------------------------------------|
 #'  |A/B/C/- |2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
 #'  |A/B/C/D |2006                                                             |
-#'  |B/Full  |2000                                                             |
+#'  |B/-/-/- |2000                                                             |
 #' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for `racecen3`](https://gssdataexplorer.norc.org/variables/5279/vshow).

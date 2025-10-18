@@ -22,9 +22,9 @@ Question Spouse's Occupation, Prestige, and Industry
 \section{Question Years and Ballots}{
 \tabular{ll}{
    ballots \tab years \cr
+   A/-/-/- \tab 2021 \cr
    A/B/C/- \tab 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010 \cr
    A/B/C/D \tab 2006 \cr
-   A/Full \tab 2021 \cr
 }
 }
 
