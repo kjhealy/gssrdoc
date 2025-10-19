@@ -89,19 +89,19 @@
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/kjhealy/gssrdoc" class="external-link">gssrdoc</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">gss_doc</span></span>
-<span><span class="co">#&gt; # A tibble: 6,694 × 12</span></span>
-<span><span class="co">#&gt;    variable description                           question                   norc_id norc_url var_yrtab yrballot_df module_df subject_df value_labels var_type var_na_codes</span></span>
-<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;                                 &lt;chr&gt;                        &lt;int&gt; &lt;chr&gt;    &lt;list&gt;    &lt;list&gt;      &lt;list&gt;    &lt;list&gt;     &lt;chr&gt;        &lt;chr&gt;    &lt;chr&gt;       </span></span>
-<span><span class="co">#&gt;  1 year     GSS year for this respondent          "GSS year"                       1 https:/… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;   "[NA(d)] do… numeric  .d,.i,.j,.m…</span></span>
-<span><span class="co">#&gt;  2 id       Respondent id number                  "Respondent id number"           2 https:/… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;   ""           &lt;NA&gt;     &lt;NA&gt;        </span></span>
-<span><span class="co">#&gt;  3 wrkstat  labor force status                    "Last week were you worki…       3 https:/… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;   "[1] workin… numeric  .d,.i,.j,.m…</span></span>
-<span><span class="co">#&gt;  4 hrs1     number of hours worked last week      "Last week were you worki…       4 https:/… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;   "[89] 89+ h… numeric  .d,.i,.j,.m…</span></span>
-<span><span class="co">#&gt;  5 hrs2     number of hours usually work a week   "Last week were you worki…       5 https:/… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;   "[89] 89+ h… numeric  .d,.i,.j,.m…</span></span>
-<span><span class="co">#&gt;  6 evwork   ever work as long as one year         "Last week were you worki…       6 https:/… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;   "[1] yes / … numeric  .d,.i,.j,.m…</span></span>
-<span><span class="co">#&gt;  7 occ      R's census occupation code (1970)     "A. What kind of work do …       7 https:/… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;   "[NA(d)] do… numeric  .d,.i,.j,.m…</span></span>
-<span><span class="co">#&gt;  8 prestige r's occupational prestige score(1970) "A. What kind of work do …       8 https:/… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;   "[NA(d)] do… numeric  .d,.i,.j,.m…</span></span>
-<span><span class="co">#&gt;  9 wrkslf   r self-emp or works for somebody      "A. What kind of work do …       9 https:/… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;   "[1] self-e… numeric  .d,.i,.j,.m…</span></span>
-<span><span class="co">#&gt; 10 wrkgovt  govt or private employee              "A. What kind of work do …      10 https:/… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;   "[1] govern… numeric  .d,.i,.j,.m…</span></span>
+<span><span class="co">#&gt; # A tibble: 6,694 × 10</span></span>
+<span><span class="co">#&gt;    variable description                           question         value_labels var_yrtab yrballot_df module_df subject_df norc_id norc_url</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;                                 &lt;chr&gt;            &lt;chr&gt;        &lt;list&gt;    &lt;list&gt;      &lt;list&gt;    &lt;list&gt;       &lt;int&gt; &lt;chr&gt;   </span></span>
+<span><span class="co">#&gt;  1 year     GSS year for this respondent          "GSS year"       "[NA(d)] do… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         1 https:/…</span></span>
+<span><span class="co">#&gt;  2 id       Respondent id number                  "Respondent id … ""           &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         2 https:/…</span></span>
+<span><span class="co">#&gt;  3 wrkstat  labor force status                    "Last week were… "[1] workin… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         3 https:/…</span></span>
+<span><span class="co">#&gt;  4 hrs1     number of hours worked last week      "Last week were… "[89] 89+ h… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         4 https:/…</span></span>
+<span><span class="co">#&gt;  5 hrs2     number of hours usually work a week   "Last week were… "[89] 89+ h… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         5 https:/…</span></span>
+<span><span class="co">#&gt;  6 evwork   ever work as long as one year         "Last week were… "[1] yes / … &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         6 https:/…</span></span>
+<span><span class="co">#&gt;  7 occ      R's census occupation code (1970)     "A. What kind o… "[NA(d)] do… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         7 https:/…</span></span>
+<span><span class="co">#&gt;  8 prestige r's occupational prestige score(1970) "A. What kind o… "[NA(d)] do… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         8 https:/…</span></span>
+<span><span class="co">#&gt;  9 wrkslf   r self-emp or works for somebody      "A. What kind o… "[1] self-e… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         9 https:/…</span></span>
+<span><span class="co">#&gt; 10 wrkgovt  govt or private employee              "A. What kind o… "[1] govern… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;        10 https:/…</span></span>
 <span><span class="co">#&gt; # ℹ 6,684 more rows</span></span></code></pre></div>
 </div>
 <div class="section level2">

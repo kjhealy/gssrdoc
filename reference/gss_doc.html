@@ -43,7 +43,7 @@
 
     <div class="section level2">
     <h2 id="format">Format<a class="anchor" aria-label="anchor" href="#format"></a></h2>
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 6694 rows and 12 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 6694 rows and 10 columns.</p>
     </div>
     <div class="section level2">
     <h2 id="source">Source<a class="anchor" aria-label="anchor" href="#source"></a></h2>
@@ -54,15 +54,13 @@
     <p>A tibble.</p><ul><li><p><code>variable</code> The name of the variable. (Character.)</p></li>
 <li><p><code>description</code> The variable's label. 'r' means 'Respondent'. (Character.)</p></li>
 <li><p><code>question</code> The question as asked. (Character)</p></li>
-<li><p><code>norc_id</code> The variable's ID on GSS Data Explorer. (Integer)</p></li>
-<li><p><code>norc_url</code> The URL for the variable's page on the GSS Data Explorer. (Character.)</p></li>
+<li><p><code>value_labels</code> Vector of values taken by the variable. (Character)</p></li>
 <li><p><code>var_yrtab</code> Crosstab of responses by year. Stored in a list-column. The tibbles contain <code>year</code> values in the rows and value labels across their columns, with response freqencies in the cells as counts. (List.)</p></li>
 <li><p><code>yrballot_df</code> Crosstab of ballots by year. Stored in a list-column. (List)</p></li>
 <li><p><code>module_df</code> Tibble showing which module or modules the question belongs to. (List)</p></li>
 <li><p><code>subject_df</code> Tibble of NORC subject or topic classifications for the variable. (List)</p></li>
-<li><p><code>value_labels</code> Vector of values taken by the variable. (Character)</p></li>
-<li><p><code>var_type</code> The variable type of the variable in <code>gss_all</code>. (Character.)</p></li>
-<li><p><code>var_na_codes</code> The missing value codes associated with the variable in <code>gss_all</code>. (Character.)</p></li>
+<li><p><code>norc_id</code> The variable's ID on GSS Data Explorer. (Integer)</p></li>
+<li><p><code>norc_url</code> The URL for the variable's page on the GSS Data Explorer. (Character.)</p></li>
 </ul></div>
 
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
