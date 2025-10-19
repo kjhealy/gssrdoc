@@ -1,20 +1,19 @@
-## 6.
+## 5.
 
-## Depends on all the make_gss* files being done:
+## Depends on all the other make_gss* files being done:
 ## — Run make_gss_all.R first to create gss_all
 ## — Run make_gss_all_labelled.R to make sure gss_all_labelled exists too.
 ## — Run make_gss_norctibble.R to get NORC's version of the variable overviews.
-## — Run make_gss_dict.R to get the dict generated from gss_all and gss_all_labelled only
 ## — Run make_gss_doc.R to get the gss_doc object that we use below to construct every individual help file.
 
 ## Make help pages
-## We'll use the gss_dict and gss_doc objects to do this. Mostly the latter.
+## We'll use gss_doc objects to do this.
 
 ## Procedure:
 ## So as not to choke devtools::document(), first remove all .Rd files from man/,
 ## then remove all gss_vars_*.R from R/. Then run devtools::document() as usual.
 ## This will regenerate the "regular" package documentation and vignettes, of which
-## there will just be the gss_dict object. Once done, run this file, which will use
+## there will just be the gss_doc object. Once done, run this file, which will use
 ## future and furrr to generate the ~6,900 or so Rd files, one for each GSS variable.
 
 library(tidyverse)
@@ -242,13 +241,9 @@ make_rd_varname <- function(variable) {
 
 
 ### Required objects
-## This is made by data-raw/make_gss_dict.R
-gss_dict <- readRDS(here("data-raw", "objects", "gss_dict.rda"))
 
-## And by data-raw/make_gss_doc.R (`load()` is for data we actually have in the package)
+## Made by data-raw/make_gss_doc.R (Use `load()` because we actually have it in the package)
 load(here("data", "gss_doc.rda"))
-
-## Harmonize with gss_dict
 
 gss_doc_rd <- gss_doc |>
   rename(label = description, var_text = question) |>
@@ -429,7 +424,8 @@ gen_rds <- function(r_file) {
 
 ## Doing it this way won't successfully get all the @family crossrefs
 ## But it is faster than the single-threaded devtools::document() on
-## the full data file.
+## the full data file. And we don't actually want the entirety of e.g.
+## core, etc, crossrefed for every core question.
 gss_varfiles <- fs::dir_ls(here::here("R"), glob = "*vars*")
 furrr::future_walk(gss_varfiles, gen_rds)
 

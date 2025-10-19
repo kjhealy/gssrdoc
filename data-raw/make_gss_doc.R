@@ -1,9 +1,8 @@
-## 5.
+## 4.
 
 ## — Run make_gss_all.R first to create gss_all
 ## — Run make_gss_all_labelled.R to make sure gss_all_labelled exists too.
 ## — Run make_gss_norctibble.R to get NORC's version of the variable overviews.
-## — Run make_gss_dict.R to get the dict generated from gss_all and gss_all_labelled only
 
 ## Make the tibble of crosstabs
 
@@ -16,9 +15,6 @@ library(here)
 
 ## http://larmarange.github.io/labelled/
 library(labelled)
-
-# Load gss_dict
-gss_dict <- readRDS(here::here("data-raw", "objects", "gss_dict.rda"))
 
 
 # Load the local unlabelled dataset; make sure it's up to date
@@ -206,7 +202,7 @@ make_subject_df <- function(x) {
     unnest_wider(subject, names_sep = "_")
 }
 
-## Clean the data dict
+### Start building the object
 
 ## Get a crosstab for every variable except no xtab
 gss_doc_base <- tibble(
@@ -222,17 +218,11 @@ gss_val_labels <- tibble(
   value_labels = map_chr(out, \(x) str_c(names(unlist(x)), collapse = " / "))
 )
 
-## Just the columns we want from gss_dict
-## Formerly we got value_labels from here, but now we extract them as above
-dict_columns <- gss_dict |>
-  select(variable, var_type, var_na_codes)
-
 gss_doc <- gss_doc_base |>
   left_join(norc_docs_df, by = "var_name") |>
   left_join(gss_val_labels, by = "var_name") |>
   rename(variable = var_name) |>
   relocate(var_yrtab, .after = norc_url) |>
-  left_join(dict_columns, by = "variable") |>
   # UTF-8 related cleanup must come before crosstabs or
   # the errors will still be in the crosstabs
   mutate(
@@ -252,17 +242,9 @@ gss_doc <- gss_doc_base |>
     yrballot_df,
     module_df,
     subject_df,
-    var_type,
-    var_na_codes,
     norc_id,
     norc_url
   )
 
-## Save out
+## Save out. Using use_data() because it will be in the package.
 usethis::use_data(gss_doc, overwrite = TRUE, compress = "xz")
-
-# saveRDS(
-#   gss_doc,
-#   file = here("data-raw", "objects", "gss_doc.rda"),
-#   compress = "xz"
-# )
